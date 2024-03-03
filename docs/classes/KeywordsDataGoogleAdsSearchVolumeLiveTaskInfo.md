@@ -1,0 +1,321 @@
+[Documentation](../README.md) / [Exports](../modules.md) / KeywordsDataGoogleAdsSearchVolumeLiveTaskInfo
+
+# Class: KeywordsDataGoogleAdsSearchVolumeLiveTaskInfo
+
+## Hierarchy
+
+- [`BaseResponseTaskInfo`](BaseResponseTaskInfo.md)
+
+  ↳ **`KeywordsDataGoogleAdsSearchVolumeLiveTaskInfo`**
+
+## Implements
+
+- [`IKeywordsDataGoogleAdsSearchVolumeLiveTaskInfo`](../interfaces/IKeywordsDataGoogleAdsSearchVolumeLiveTaskInfo.md)
+
+## Indexable
+
+▪ [key: `string`]: `any`
+
+## Table of contents
+
+### Constructors
+
+- [constructor](KeywordsDataGoogleAdsSearchVolumeLiveTaskInfo.md#constructor)
+
+### Properties
+
+- [cost](KeywordsDataGoogleAdsSearchVolumeLiveTaskInfo.md#cost)
+- [data](KeywordsDataGoogleAdsSearchVolumeLiveTaskInfo.md#data)
+- [id](KeywordsDataGoogleAdsSearchVolumeLiveTaskInfo.md#id)
+- [path](KeywordsDataGoogleAdsSearchVolumeLiveTaskInfo.md#path)
+- [result](KeywordsDataGoogleAdsSearchVolumeLiveTaskInfo.md#result)
+- [result\_count](KeywordsDataGoogleAdsSearchVolumeLiveTaskInfo.md#result_count)
+- [status\_code](KeywordsDataGoogleAdsSearchVolumeLiveTaskInfo.md#status_code)
+- [status\_message](KeywordsDataGoogleAdsSearchVolumeLiveTaskInfo.md#status_message)
+- [time](KeywordsDataGoogleAdsSearchVolumeLiveTaskInfo.md#time)
+
+### Methods
+
+- [init](KeywordsDataGoogleAdsSearchVolumeLiveTaskInfo.md#init)
+- [toJSON](KeywordsDataGoogleAdsSearchVolumeLiveTaskInfo.md#tojson)
+- [fromJS](KeywordsDataGoogleAdsSearchVolumeLiveTaskInfo.md#fromjs)
+
+## Constructors
+
+### constructor
+
+• **new KeywordsDataGoogleAdsSearchVolumeLiveTaskInfo**(`data?`): [`KeywordsDataGoogleAdsSearchVolumeLiveTaskInfo`](KeywordsDataGoogleAdsSearchVolumeLiveTaskInfo.md)
+
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `data?` | [`IKeywordsDataGoogleAdsSearchVolumeLiveTaskInfo`](../interfaces/IKeywordsDataGoogleAdsSearchVolumeLiveTaskInfo.md) |
+
+#### Returns
+
+[`KeywordsDataGoogleAdsSearchVolumeLiveTaskInfo`](KeywordsDataGoogleAdsSearchVolumeLiveTaskInfo.md)
+
+#### Overrides
+
+[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[constructor](BaseResponseTaskInfo.md#constructor)
+
+#### Defined in
+
+main.ts:114352
+
+## Properties
+
+### cost
+
+• `Optional` **cost**: `number`
+
+total tasks cost, USD
+
+#### Implementation of
+
+[IKeywordsDataGoogleAdsSearchVolumeLiveTaskInfo](../interfaces/IKeywordsDataGoogleAdsSearchVolumeLiveTaskInfo.md).[cost](../interfaces/IKeywordsDataGoogleAdsSearchVolumeLiveTaskInfo.md#cost)
+
+#### Inherited from
+
+[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[cost](BaseResponseTaskInfo.md#cost)
+
+#### Defined in
+
+main.ts:22744
+
+___
+
+### data
+
+• `Optional` **data**: `Object`
+
+contains the same parameters that you specified in the POST request
+
+#### Index signature
+
+▪ [key: `string`]: `any`
+
+#### Implementation of
+
+[IKeywordsDataGoogleAdsSearchVolumeLiveTaskInfo](../interfaces/IKeywordsDataGoogleAdsSearchVolumeLiveTaskInfo.md).[data](../interfaces/IKeywordsDataGoogleAdsSearchVolumeLiveTaskInfo.md#data)
+
+#### Inherited from
+
+[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[data](BaseResponseTaskInfo.md#data)
+
+#### Defined in
+
+main.ts:22750
+
+___
+
+### id
+
+• `Optional` **id**: `string`
+
+task identifier
+unique task identifier in our system in the UUID format
+
+#### Implementation of
+
+[IKeywordsDataGoogleAdsSearchVolumeLiveTaskInfo](../interfaces/IKeywordsDataGoogleAdsSearchVolumeLiveTaskInfo.md).[id](../interfaces/IKeywordsDataGoogleAdsSearchVolumeLiveTaskInfo.md#id)
+
+#### Inherited from
+
+[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[id](BaseResponseTaskInfo.md#id)
+
+#### Defined in
+
+main.ts:22733
+
+___
+
+### path
+
+• `Optional` **path**: `string`[]
+
+URL path
+
+#### Implementation of
+
+[IKeywordsDataGoogleAdsSearchVolumeLiveTaskInfo](../interfaces/IKeywordsDataGoogleAdsSearchVolumeLiveTaskInfo.md).[path](../interfaces/IKeywordsDataGoogleAdsSearchVolumeLiveTaskInfo.md#path)
+
+#### Inherited from
+
+[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[path](BaseResponseTaskInfo.md#path)
+
+#### Defined in
+
+main.ts:22748
+
+___
+
+### result
+
+• `Optional` **result**: [`KeywordsDataGoogleAdsSearchVolumeLiveResultInfo`](KeywordsDataGoogleAdsSearchVolumeLiveResultInfo.md)[]
+
+array of results
+
+#### Implementation of
+
+[IKeywordsDataGoogleAdsSearchVolumeLiveTaskInfo](../interfaces/IKeywordsDataGoogleAdsSearchVolumeLiveTaskInfo.md).[result](../interfaces/IKeywordsDataGoogleAdsSearchVolumeLiveTaskInfo.md#result)
+
+#### Defined in
+
+main.ts:114348
+
+___
+
+### result\_count
+
+• `Optional` **result\_count**: `number`
+
+number of elements in the result array
+
+#### Implementation of
+
+[IKeywordsDataGoogleAdsSearchVolumeLiveTaskInfo](../interfaces/IKeywordsDataGoogleAdsSearchVolumeLiveTaskInfo.md).[result_count](../interfaces/IKeywordsDataGoogleAdsSearchVolumeLiveTaskInfo.md#result_count)
+
+#### Inherited from
+
+[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[result_count](BaseResponseTaskInfo.md#result_count)
+
+#### Defined in
+
+main.ts:22746
+
+___
+
+### status\_code
+
+• `Optional` **status\_code**: `number`
+
+status code of the task
+generated by DataForSEO, can be within the following range: 10000-60000
+you can find the full list of the response codes here
+
+#### Implementation of
+
+[IKeywordsDataGoogleAdsSearchVolumeLiveTaskInfo](../interfaces/IKeywordsDataGoogleAdsSearchVolumeLiveTaskInfo.md).[status_code](../interfaces/IKeywordsDataGoogleAdsSearchVolumeLiveTaskInfo.md#status_code)
+
+#### Inherited from
+
+[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[status_code](BaseResponseTaskInfo.md#status_code)
+
+#### Defined in
+
+main.ts:22737
+
+___
+
+### status\_message
+
+• `Optional` **status\_message**: `string`
+
+informational message of the task
+you can find the full list of general informational messages here
+
+#### Implementation of
+
+[IKeywordsDataGoogleAdsSearchVolumeLiveTaskInfo](../interfaces/IKeywordsDataGoogleAdsSearchVolumeLiveTaskInfo.md).[status_message](../interfaces/IKeywordsDataGoogleAdsSearchVolumeLiveTaskInfo.md#status_message)
+
+#### Inherited from
+
+[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[status_message](BaseResponseTaskInfo.md#status_message)
+
+#### Defined in
+
+main.ts:22740
+
+___
+
+### time
+
+• `Optional` **time**: `string`
+
+execution time, seconds
+
+#### Implementation of
+
+[IKeywordsDataGoogleAdsSearchVolumeLiveTaskInfo](../interfaces/IKeywordsDataGoogleAdsSearchVolumeLiveTaskInfo.md).[time](../interfaces/IKeywordsDataGoogleAdsSearchVolumeLiveTaskInfo.md#time)
+
+#### Inherited from
+
+[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[time](BaseResponseTaskInfo.md#time)
+
+#### Defined in
+
+main.ts:22742
+
+## Methods
+
+### init
+
+▸ **init**(`_data?`): `void`
+
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `_data?` | `any` |
+
+#### Returns
+
+`void`
+
+#### Overrides
+
+[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[init](BaseResponseTaskInfo.md#init)
+
+#### Defined in
+
+main.ts:114356
+
+___
+
+### toJSON
+
+▸ **toJSON**(`data?`): `any`
+
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `data?` | `any` |
+
+#### Returns
+
+`any`
+
+#### Overrides
+
+[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[toJSON](BaseResponseTaskInfo.md#tojson)
+
+#### Defined in
+
+main.ts:114378
+
+___
+
+### fromJS
+
+▸ **fromJS**(`data`): [`KeywordsDataGoogleAdsSearchVolumeLiveTaskInfo`](KeywordsDataGoogleAdsSearchVolumeLiveTaskInfo.md)
+
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `data` | `any` |
+
+#### Returns
+
+[`KeywordsDataGoogleAdsSearchVolumeLiveTaskInfo`](KeywordsDataGoogleAdsSearchVolumeLiveTaskInfo.md)
+
+#### Overrides
+
+[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[fromJS](BaseResponseTaskInfo.md#fromjs)
+
+#### Defined in
+
+main.ts:114371

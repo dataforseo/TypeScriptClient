@@ -1,0 +1,38 @@
+[Documentation](../README.md) / [Exports](../modules.md) / IAppendixAppendixDaysRatesDataInfo
+
+# Interface: IAppendixAppendixDaysRatesDataInfo
+
+## Implemented by
+
+- [`AppendixAppendixDaysRatesDataInfo`](../classes/AppendixAppendixDaysRatesDataInfo.md)
+
+## Indexable
+
+▪ [key: `string`]: `any`
+
+## Table of contents
+
+### Properties
+
+- [errors](IAppendixAppendixDaysRatesDataInfo.md#errors)
+- [user\_data](IAppendixAppendixDaysRatesDataInfo.md#user_data)
+
+## Properties
+
+### errors
+
+• `Optional` **errors**: `number`
+
+#### Defined in
+
+main.ts:207179
+
+___
+
+### user\_data
+
+• `Optional` **user\_data**: `number`
+
+#### Defined in
+
+main.ts:207178

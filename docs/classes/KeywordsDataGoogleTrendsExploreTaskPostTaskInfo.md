@@ -1,0 +1,322 @@
+[Documentation](../README.md) / [Exports](../modules.md) / KeywordsDataGoogleTrendsExploreTaskPostTaskInfo
+
+# Class: KeywordsDataGoogleTrendsExploreTaskPostTaskInfo
+
+## Hierarchy
+
+- [`BaseResponseTaskInfo`](BaseResponseTaskInfo.md)
+
+  ↳ **`KeywordsDataGoogleTrendsExploreTaskPostTaskInfo`**
+
+## Implements
+
+- [`IKeywordsDataGoogleTrendsExploreTaskPostTaskInfo`](../interfaces/IKeywordsDataGoogleTrendsExploreTaskPostTaskInfo.md)
+
+## Indexable
+
+▪ [key: `string`]: `any`
+
+## Table of contents
+
+### Constructors
+
+- [constructor](KeywordsDataGoogleTrendsExploreTaskPostTaskInfo.md#constructor)
+
+### Properties
+
+- [cost](KeywordsDataGoogleTrendsExploreTaskPostTaskInfo.md#cost)
+- [data](KeywordsDataGoogleTrendsExploreTaskPostTaskInfo.md#data)
+- [id](KeywordsDataGoogleTrendsExploreTaskPostTaskInfo.md#id)
+- [path](KeywordsDataGoogleTrendsExploreTaskPostTaskInfo.md#path)
+- [result](KeywordsDataGoogleTrendsExploreTaskPostTaskInfo.md#result)
+- [result\_count](KeywordsDataGoogleTrendsExploreTaskPostTaskInfo.md#result_count)
+- [status\_code](KeywordsDataGoogleTrendsExploreTaskPostTaskInfo.md#status_code)
+- [status\_message](KeywordsDataGoogleTrendsExploreTaskPostTaskInfo.md#status_message)
+- [time](KeywordsDataGoogleTrendsExploreTaskPostTaskInfo.md#time)
+
+### Methods
+
+- [init](KeywordsDataGoogleTrendsExploreTaskPostTaskInfo.md#init)
+- [toJSON](KeywordsDataGoogleTrendsExploreTaskPostTaskInfo.md#tojson)
+- [fromJS](KeywordsDataGoogleTrendsExploreTaskPostTaskInfo.md#fromjs)
+
+## Constructors
+
+### constructor
+
+• **new KeywordsDataGoogleTrendsExploreTaskPostTaskInfo**(`data?`): [`KeywordsDataGoogleTrendsExploreTaskPostTaskInfo`](KeywordsDataGoogleTrendsExploreTaskPostTaskInfo.md)
+
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `data?` | [`IKeywordsDataGoogleTrendsExploreTaskPostTaskInfo`](../interfaces/IKeywordsDataGoogleTrendsExploreTaskPostTaskInfo.md) |
+
+#### Returns
+
+[`KeywordsDataGoogleTrendsExploreTaskPostTaskInfo`](KeywordsDataGoogleTrendsExploreTaskPostTaskInfo.md)
+
+#### Overrides
+
+[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[constructor](BaseResponseTaskInfo.md#constructor)
+
+#### Defined in
+
+main.ts:120240
+
+## Properties
+
+### cost
+
+• `Optional` **cost**: `number`
+
+total tasks cost, USD
+
+#### Implementation of
+
+[IKeywordsDataGoogleTrendsExploreTaskPostTaskInfo](../interfaces/IKeywordsDataGoogleTrendsExploreTaskPostTaskInfo.md).[cost](../interfaces/IKeywordsDataGoogleTrendsExploreTaskPostTaskInfo.md#cost)
+
+#### Inherited from
+
+[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[cost](BaseResponseTaskInfo.md#cost)
+
+#### Defined in
+
+main.ts:22744
+
+___
+
+### data
+
+• `Optional` **data**: `Object`
+
+contains the same parameters that you specified in the POST request
+
+#### Index signature
+
+▪ [key: `string`]: `any`
+
+#### Implementation of
+
+[IKeywordsDataGoogleTrendsExploreTaskPostTaskInfo](../interfaces/IKeywordsDataGoogleTrendsExploreTaskPostTaskInfo.md).[data](../interfaces/IKeywordsDataGoogleTrendsExploreTaskPostTaskInfo.md#data)
+
+#### Inherited from
+
+[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[data](BaseResponseTaskInfo.md#data)
+
+#### Defined in
+
+main.ts:22750
+
+___
+
+### id
+
+• `Optional` **id**: `string`
+
+task identifier
+unique task identifier in our system in the UUID format
+
+#### Implementation of
+
+[IKeywordsDataGoogleTrendsExploreTaskPostTaskInfo](../interfaces/IKeywordsDataGoogleTrendsExploreTaskPostTaskInfo.md).[id](../interfaces/IKeywordsDataGoogleTrendsExploreTaskPostTaskInfo.md#id)
+
+#### Inherited from
+
+[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[id](BaseResponseTaskInfo.md#id)
+
+#### Defined in
+
+main.ts:22733
+
+___
+
+### path
+
+• `Optional` **path**: `string`[]
+
+URL path
+
+#### Implementation of
+
+[IKeywordsDataGoogleTrendsExploreTaskPostTaskInfo](../interfaces/IKeywordsDataGoogleTrendsExploreTaskPostTaskInfo.md).[path](../interfaces/IKeywordsDataGoogleTrendsExploreTaskPostTaskInfo.md#path)
+
+#### Inherited from
+
+[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[path](BaseResponseTaskInfo.md#path)
+
+#### Defined in
+
+main.ts:22748
+
+___
+
+### result
+
+• `Optional` **result**: `any`
+
+array of results
+in this case, the value will be null
+
+#### Implementation of
+
+[IKeywordsDataGoogleTrendsExploreTaskPostTaskInfo](../interfaces/IKeywordsDataGoogleTrendsExploreTaskPostTaskInfo.md).[result](../interfaces/IKeywordsDataGoogleTrendsExploreTaskPostTaskInfo.md#result)
+
+#### Defined in
+
+main.ts:120236
+
+___
+
+### result\_count
+
+• `Optional` **result\_count**: `number`
+
+number of elements in the result array
+
+#### Implementation of
+
+[IKeywordsDataGoogleTrendsExploreTaskPostTaskInfo](../interfaces/IKeywordsDataGoogleTrendsExploreTaskPostTaskInfo.md).[result_count](../interfaces/IKeywordsDataGoogleTrendsExploreTaskPostTaskInfo.md#result_count)
+
+#### Inherited from
+
+[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[result_count](BaseResponseTaskInfo.md#result_count)
+
+#### Defined in
+
+main.ts:22746
+
+___
+
+### status\_code
+
+• `Optional` **status\_code**: `number`
+
+status code of the task
+generated by DataForSEO, can be within the following range: 10000-60000
+you can find the full list of the response codes here
+
+#### Implementation of
+
+[IKeywordsDataGoogleTrendsExploreTaskPostTaskInfo](../interfaces/IKeywordsDataGoogleTrendsExploreTaskPostTaskInfo.md).[status_code](../interfaces/IKeywordsDataGoogleTrendsExploreTaskPostTaskInfo.md#status_code)
+
+#### Inherited from
+
+[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[status_code](BaseResponseTaskInfo.md#status_code)
+
+#### Defined in
+
+main.ts:22737
+
+___
+
+### status\_message
+
+• `Optional` **status\_message**: `string`
+
+informational message of the task
+you can find the full list of general informational messages here
+
+#### Implementation of
+
+[IKeywordsDataGoogleTrendsExploreTaskPostTaskInfo](../interfaces/IKeywordsDataGoogleTrendsExploreTaskPostTaskInfo.md).[status_message](../interfaces/IKeywordsDataGoogleTrendsExploreTaskPostTaskInfo.md#status_message)
+
+#### Inherited from
+
+[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[status_message](BaseResponseTaskInfo.md#status_message)
+
+#### Defined in
+
+main.ts:22740
+
+___
+
+### time
+
+• `Optional` **time**: `string`
+
+execution time, seconds
+
+#### Implementation of
+
+[IKeywordsDataGoogleTrendsExploreTaskPostTaskInfo](../interfaces/IKeywordsDataGoogleTrendsExploreTaskPostTaskInfo.md).[time](../interfaces/IKeywordsDataGoogleTrendsExploreTaskPostTaskInfo.md#time)
+
+#### Inherited from
+
+[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[time](BaseResponseTaskInfo.md#time)
+
+#### Defined in
+
+main.ts:22742
+
+## Methods
+
+### init
+
+▸ **init**(`_data?`): `void`
+
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `_data?` | `any` |
+
+#### Returns
+
+`void`
+
+#### Overrides
+
+[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[init](BaseResponseTaskInfo.md#init)
+
+#### Defined in
+
+main.ts:120244
+
+___
+
+### toJSON
+
+▸ **toJSON**(`data?`): `any`
+
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `data?` | `any` |
+
+#### Returns
+
+`any`
+
+#### Overrides
+
+[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[toJSON](BaseResponseTaskInfo.md#tojson)
+
+#### Defined in
+
+main.ts:120262
+
+___
+
+### fromJS
+
+▸ **fromJS**(`data`): [`KeywordsDataGoogleTrendsExploreTaskPostTaskInfo`](KeywordsDataGoogleTrendsExploreTaskPostTaskInfo.md)
+
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `data` | `any` |
+
+#### Returns
+
+[`KeywordsDataGoogleTrendsExploreTaskPostTaskInfo`](KeywordsDataGoogleTrendsExploreTaskPostTaskInfo.md)
+
+#### Overrides
+
+[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[fromJS](BaseResponseTaskInfo.md#fromjs)
+
+#### Defined in
+
+main.ts:120255

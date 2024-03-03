@@ -1,0 +1,283 @@
+[Documentation](../README.md) / [Exports](../modules.md) / MerchantErrorsResultInfo
+
+# Class: MerchantErrorsResultInfo
+
+## Implements
+
+- [`IMerchantErrorsResultInfo`](../interfaces/IMerchantErrorsResultInfo.md)
+
+## Indexable
+
+▪ [key: `string`]: `any`
+
+## Table of contents
+
+### Constructors
+
+- [constructor](MerchantErrorsResultInfo.md#constructor)
+
+### Properties
+
+- [datetime](MerchantErrorsResultInfo.md#datetime)
+- [error\_code](MerchantErrorsResultInfo.md#error_code)
+- [error\_message](MerchantErrorsResultInfo.md#error_message)
+- [function](MerchantErrorsResultInfo.md#function)
+- [http\_code](MerchantErrorsResultInfo.md#http_code)
+- [http\_method](MerchantErrorsResultInfo.md#http_method)
+- [http\_response](MerchantErrorsResultInfo.md#http_response)
+- [http\_time](MerchantErrorsResultInfo.md#http_time)
+- [http\_url](MerchantErrorsResultInfo.md#http_url)
+- [id](MerchantErrorsResultInfo.md#id)
+
+### Methods
+
+- [init](MerchantErrorsResultInfo.md#init)
+- [toJSON](MerchantErrorsResultInfo.md#tojson)
+- [fromJS](MerchantErrorsResultInfo.md#fromjs)
+
+## Constructors
+
+### constructor
+
+• **new MerchantErrorsResultInfo**(`data?`): [`MerchantErrorsResultInfo`](MerchantErrorsResultInfo.md)
+
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `data?` | [`IMerchantErrorsResultInfo`](../interfaces/IMerchantErrorsResultInfo.md) |
+
+#### Returns
+
+[`MerchantErrorsResultInfo`](MerchantErrorsResultInfo.md)
+
+#### Defined in
+
+main.ts:163264
+
+## Properties
+
+### datetime
+
+• `Optional` **datetime**: `string`
+
+date and time when an error occurred
+in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
+example:
+2019-11-15 12:57:46 +00:00
+
+#### Implementation of
+
+[IMerchantErrorsResultInfo](../interfaces/IMerchantErrorsResultInfo.md).[datetime](../interfaces/IMerchantErrorsResultInfo.md#datetime)
+
+#### Defined in
+
+main.ts:163240
+
+___
+
+### error\_code
+
+• `Optional` **error\_code**: `number`
+
+error code
+
+#### Implementation of
+
+[IMerchantErrorsResultInfo](../interfaces/IMerchantErrorsResultInfo.md).[error_code](../interfaces/IMerchantErrorsResultInfo.md#error_code)
+
+#### Defined in
+
+main.ts:163244
+
+___
+
+### error\_message
+
+• `Optional` **error\_message**: `string`
+
+error message or error URL
+error message (see full list) or URL that caused an error
+
+#### Implementation of
+
+[IMerchantErrorsResultInfo](../interfaces/IMerchantErrorsResultInfo.md).[error_message](../interfaces/IMerchantErrorsResultInfo.md#error_message)
+
+#### Defined in
+
+main.ts:163247
+
+___
+
+### function
+
+• `Optional` **function**: `string`
+
+corresponding API function
+
+#### Implementation of
+
+[IMerchantErrorsResultInfo](../interfaces/IMerchantErrorsResultInfo.md).[function](../interfaces/IMerchantErrorsResultInfo.md#function)
+
+#### Defined in
+
+main.ts:163242
+
+___
+
+### http\_code
+
+• `Optional` **http\_code**: `number`
+
+HTTP status code
+
+#### Implementation of
+
+[IMerchantErrorsResultInfo](../interfaces/IMerchantErrorsResultInfo.md).[http_code](../interfaces/IMerchantErrorsResultInfo.md#http_code)
+
+#### Defined in
+
+main.ts:163254
+
+___
+
+### http\_method
+
+• `Optional` **http\_method**: `string`
+
+HTTP method
+
+#### Implementation of
+
+[IMerchantErrorsResultInfo](../interfaces/IMerchantErrorsResultInfo.md).[http_method](../interfaces/IMerchantErrorsResultInfo.md#http_method)
+
+#### Defined in
+
+main.ts:163252
+
+___
+
+### http\_response
+
+• `Optional` **http\_response**: `string`
+
+HTTP response
+server response
+
+#### Implementation of
+
+[IMerchantErrorsResultInfo](../interfaces/IMerchantErrorsResultInfo.md).[http_response](../interfaces/IMerchantErrorsResultInfo.md#http_response)
+
+#### Defined in
+
+main.ts:163260
+
+___
+
+### http\_time
+
+• `Optional` **http\_time**: `number`
+
+time taken by HTTP request
+for tasks set with a pingback/postback, this field will show the time it took your server to respond
+
+#### Implementation of
+
+[IMerchantErrorsResultInfo](../interfaces/IMerchantErrorsResultInfo.md).[http_time](../interfaces/IMerchantErrorsResultInfo.md#http_time)
+
+#### Defined in
+
+main.ts:163257
+
+___
+
+### http\_url
+
+• `Optional` **http\_url**: `string`
+
+URL that caused an error
+URL you used for making an API call or pingback/postback URL
+
+#### Implementation of
+
+[IMerchantErrorsResultInfo](../interfaces/IMerchantErrorsResultInfo.md).[http_url](../interfaces/IMerchantErrorsResultInfo.md#http_url)
+
+#### Defined in
+
+main.ts:163250
+
+___
+
+### id
+
+• `Optional` **id**: `string`
+
+id of the task
+
+#### Implementation of
+
+[IMerchantErrorsResultInfo](../interfaces/IMerchantErrorsResultInfo.md).[id](../interfaces/IMerchantErrorsResultInfo.md#id)
+
+#### Defined in
+
+main.ts:163235
+
+## Methods
+
+### init
+
+▸ **init**(`_data?`): `void`
+
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `_data?` | `any` |
+
+#### Returns
+
+`void`
+
+#### Defined in
+
+main.ts:163273
+
+___
+
+### toJSON
+
+▸ **toJSON**(`data?`): `any`
+
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `data?` | `any` |
+
+#### Returns
+
+`any`
+
+#### Defined in
+
+main.ts:163299
+
+___
+
+### fromJS
+
+▸ **fromJS**(`data`): [`MerchantErrorsResultInfo`](MerchantErrorsResultInfo.md)
+
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `data` | `any` |
+
+#### Returns
+
+[`MerchantErrorsResultInfo`](MerchantErrorsResultInfo.md)
+
+#### Defined in
+
+main.ts:163292

@@ -1,0 +1,104 @@
+[Documentation](../README.md) / [Exports](../modules.md) / IShoppingDataforseoLabsSerpElementItem
+
+# Interface: IShoppingDataforseoLabsSerpElementItem
+
+## Hierarchy
+
+- [`IBaseDataforseoLabsSerpElementItem`](IBaseDataforseoLabsSerpElementItem.md)
+
+  ↳ **`IShoppingDataforseoLabsSerpElementItem`**
+
+## Implemented by
+
+- [`ShoppingDataforseoLabsSerpElementItem`](../classes/ShoppingDataforseoLabsSerpElementItem.md)
+
+## Indexable
+
+▪ [key: `string`]: `any`
+
+## Table of contents
+
+### Properties
+
+- [items](IShoppingDataforseoLabsSerpElementItem.md#items)
+- [position](IShoppingDataforseoLabsSerpElementItem.md#position)
+- [rank\_absolute](IShoppingDataforseoLabsSerpElementItem.md#rank_absolute)
+- [rank\_group](IShoppingDataforseoLabsSerpElementItem.md#rank_group)
+- [title](IShoppingDataforseoLabsSerpElementItem.md#title)
+- [xpath](IShoppingDataforseoLabsSerpElementItem.md#xpath)
+
+## Properties
+
+### items
+
+• `Optional` **items**: [`ShoppingElement`](../classes/ShoppingElement.md)[]
+
+elements of search results found in SERP
+
+#### Defined in
+
+main.ts:94900
+
+___
+
+### position
+
+• `Optional` **position**: `string`
+
+the alignment of the element in SERP
+can take the following values:
+left, right
+
+#### Defined in
+
+main.ts:94894
+
+___
+
+### rank\_absolute
+
+• `Optional` **rank\_absolute**: `number`
+
+absolute rank in SERP
+absolute position among all the elements in SERP
+
+#### Defined in
+
+main.ts:94890
+
+___
+
+### rank\_group
+
+• `Optional` **rank\_group**: `number`
+
+position within a group of elements with identical type values
+positions of elements with different type values are omitted from rank_group
+
+#### Defined in
+
+main.ts:94887
+
+___
+
+### title
+
+• `Optional` **title**: `string`
+
+title of the result in SERP
+
+#### Defined in
+
+main.ts:94898
+
+___
+
+### xpath
+
+• `Optional` **xpath**: `string`
+
+the XPath of the element
+
+#### Defined in
+
+main.ts:94896

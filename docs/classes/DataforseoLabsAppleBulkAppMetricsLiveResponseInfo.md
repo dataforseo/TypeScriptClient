@@ -1,0 +1,294 @@
+[Documentation](../README.md) / [Exports](../modules.md) / DataforseoLabsAppleBulkAppMetricsLiveResponseInfo
+
+# Class: DataforseoLabsAppleBulkAppMetricsLiveResponseInfo
+
+## Hierarchy
+
+- [`BaseResponseInfo`](BaseResponseInfo.md)
+
+  ↳ **`DataforseoLabsAppleBulkAppMetricsLiveResponseInfo`**
+
+## Implements
+
+- [`IDataforseoLabsAppleBulkAppMetricsLiveResponseInfo`](../interfaces/IDataforseoLabsAppleBulkAppMetricsLiveResponseInfo.md)
+
+## Indexable
+
+▪ [key: `string`]: `any`
+
+## Table of contents
+
+### Constructors
+
+- [constructor](DataforseoLabsAppleBulkAppMetricsLiveResponseInfo.md#constructor)
+
+### Properties
+
+- [cost](DataforseoLabsAppleBulkAppMetricsLiveResponseInfo.md#cost)
+- [status\_code](DataforseoLabsAppleBulkAppMetricsLiveResponseInfo.md#status_code)
+- [status\_message](DataforseoLabsAppleBulkAppMetricsLiveResponseInfo.md#status_message)
+- [tasks](DataforseoLabsAppleBulkAppMetricsLiveResponseInfo.md#tasks)
+- [tasks\_count](DataforseoLabsAppleBulkAppMetricsLiveResponseInfo.md#tasks_count)
+- [tasks\_error](DataforseoLabsAppleBulkAppMetricsLiveResponseInfo.md#tasks_error)
+- [time](DataforseoLabsAppleBulkAppMetricsLiveResponseInfo.md#time)
+- [version](DataforseoLabsAppleBulkAppMetricsLiveResponseInfo.md#version)
+
+### Methods
+
+- [init](DataforseoLabsAppleBulkAppMetricsLiveResponseInfo.md#init)
+- [toJSON](DataforseoLabsAppleBulkAppMetricsLiveResponseInfo.md#tojson)
+- [fromJS](DataforseoLabsAppleBulkAppMetricsLiveResponseInfo.md#fromjs)
+
+## Constructors
+
+### constructor
+
+• **new DataforseoLabsAppleBulkAppMetricsLiveResponseInfo**(`data?`): [`DataforseoLabsAppleBulkAppMetricsLiveResponseInfo`](DataforseoLabsAppleBulkAppMetricsLiveResponseInfo.md)
+
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `data?` | [`IDataforseoLabsAppleBulkAppMetricsLiveResponseInfo`](../interfaces/IDataforseoLabsAppleBulkAppMetricsLiveResponseInfo.md) |
+
+#### Returns
+
+[`DataforseoLabsAppleBulkAppMetricsLiveResponseInfo`](DataforseoLabsAppleBulkAppMetricsLiveResponseInfo.md)
+
+#### Overrides
+
+[BaseResponseInfo](BaseResponseInfo.md).[constructor](BaseResponseInfo.md#constructor)
+
+#### Defined in
+
+main.ts:110623
+
+## Properties
+
+### cost
+
+• `Optional` **cost**: `number`
+
+total tasks cost, USD
+
+#### Implementation of
+
+[IDataforseoLabsAppleBulkAppMetricsLiveResponseInfo](../interfaces/IDataforseoLabsAppleBulkAppMetricsLiveResponseInfo.md).[cost](../interfaces/IDataforseoLabsAppleBulkAppMetricsLiveResponseInfo.md#cost)
+
+#### Inherited from
+
+[BaseResponseInfo](BaseResponseInfo.md).[cost](BaseResponseInfo.md#cost)
+
+#### Defined in
+
+main.ts:22652
+
+___
+
+### status\_code
+
+• `Optional` **status\_code**: `number`
+
+general status code
+you can find the full list of the response codes here
+
+#### Implementation of
+
+[IDataforseoLabsAppleBulkAppMetricsLiveResponseInfo](../interfaces/IDataforseoLabsAppleBulkAppMetricsLiveResponseInfo.md).[status_code](../interfaces/IDataforseoLabsAppleBulkAppMetricsLiveResponseInfo.md#status_code)
+
+#### Inherited from
+
+[BaseResponseInfo](BaseResponseInfo.md).[status_code](BaseResponseInfo.md#status_code)
+
+#### Defined in
+
+main.ts:22645
+
+___
+
+### status\_message
+
+• `Optional` **status\_message**: `string`
+
+general informational message
+you can find the full list of general informational messages here
+
+#### Implementation of
+
+[IDataforseoLabsAppleBulkAppMetricsLiveResponseInfo](../interfaces/IDataforseoLabsAppleBulkAppMetricsLiveResponseInfo.md).[status_message](../interfaces/IDataforseoLabsAppleBulkAppMetricsLiveResponseInfo.md#status_message)
+
+#### Inherited from
+
+[BaseResponseInfo](BaseResponseInfo.md).[status_message](BaseResponseInfo.md#status_message)
+
+#### Defined in
+
+main.ts:22648
+
+___
+
+### tasks
+
+• `Optional` **tasks**: [`DataforseoLabsAppleBulkAppMetricsLiveTaskInfo`](DataforseoLabsAppleBulkAppMetricsLiveTaskInfo.md)[]
+
+array of tasks
+
+#### Implementation of
+
+[IDataforseoLabsAppleBulkAppMetricsLiveResponseInfo](../interfaces/IDataforseoLabsAppleBulkAppMetricsLiveResponseInfo.md).[tasks](../interfaces/IDataforseoLabsAppleBulkAppMetricsLiveResponseInfo.md#tasks)
+
+#### Defined in
+
+main.ts:110619
+
+___
+
+### tasks\_count
+
+• `Optional` **tasks\_count**: `number`
+
+the number of tasks in the tasks array
+
+#### Implementation of
+
+[IDataforseoLabsAppleBulkAppMetricsLiveResponseInfo](../interfaces/IDataforseoLabsAppleBulkAppMetricsLiveResponseInfo.md).[tasks_count](../interfaces/IDataforseoLabsAppleBulkAppMetricsLiveResponseInfo.md#tasks_count)
+
+#### Inherited from
+
+[BaseResponseInfo](BaseResponseInfo.md).[tasks_count](BaseResponseInfo.md#tasks_count)
+
+#### Defined in
+
+main.ts:22654
+
+___
+
+### tasks\_error
+
+• `Optional` **tasks\_error**: `number`
+
+the number of tasks in the tasks array returned with an error
+
+#### Implementation of
+
+[IDataforseoLabsAppleBulkAppMetricsLiveResponseInfo](../interfaces/IDataforseoLabsAppleBulkAppMetricsLiveResponseInfo.md).[tasks_error](../interfaces/IDataforseoLabsAppleBulkAppMetricsLiveResponseInfo.md#tasks_error)
+
+#### Inherited from
+
+[BaseResponseInfo](BaseResponseInfo.md).[tasks_error](BaseResponseInfo.md#tasks_error)
+
+#### Defined in
+
+main.ts:22656
+
+___
+
+### time
+
+• `Optional` **time**: `string`
+
+total execution time, seconds
+
+#### Implementation of
+
+[IDataforseoLabsAppleBulkAppMetricsLiveResponseInfo](../interfaces/IDataforseoLabsAppleBulkAppMetricsLiveResponseInfo.md).[time](../interfaces/IDataforseoLabsAppleBulkAppMetricsLiveResponseInfo.md#time)
+
+#### Inherited from
+
+[BaseResponseInfo](BaseResponseInfo.md).[time](BaseResponseInfo.md#time)
+
+#### Defined in
+
+main.ts:22650
+
+___
+
+### version
+
+• `Optional` **version**: `string`
+
+the current version of the API
+
+#### Implementation of
+
+[IDataforseoLabsAppleBulkAppMetricsLiveResponseInfo](../interfaces/IDataforseoLabsAppleBulkAppMetricsLiveResponseInfo.md).[version](../interfaces/IDataforseoLabsAppleBulkAppMetricsLiveResponseInfo.md#version)
+
+#### Inherited from
+
+[BaseResponseInfo](BaseResponseInfo.md).[version](BaseResponseInfo.md#version)
+
+#### Defined in
+
+main.ts:22642
+
+## Methods
+
+### init
+
+▸ **init**(`_data?`): `void`
+
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `_data?` | `any` |
+
+#### Returns
+
+`void`
+
+#### Overrides
+
+[BaseResponseInfo](BaseResponseInfo.md).[init](BaseResponseInfo.md#init)
+
+#### Defined in
+
+main.ts:110627
+
+___
+
+### toJSON
+
+▸ **toJSON**(`data?`): `any`
+
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `data?` | `any` |
+
+#### Returns
+
+`any`
+
+#### Overrides
+
+[BaseResponseInfo](BaseResponseInfo.md).[toJSON](BaseResponseInfo.md#tojson)
+
+#### Defined in
+
+main.ts:110649
+
+___
+
+### fromJS
+
+▸ **fromJS**(`data`): [`DataforseoLabsAppleBulkAppMetricsLiveResponseInfo`](DataforseoLabsAppleBulkAppMetricsLiveResponseInfo.md)
+
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `data` | `any` |
+
+#### Returns
+
+[`DataforseoLabsAppleBulkAppMetricsLiveResponseInfo`](DataforseoLabsAppleBulkAppMetricsLiveResponseInfo.md)
+
+#### Overrides
+
+[BaseResponseInfo](BaseResponseInfo.md).[fromJS](BaseResponseInfo.md#fromjs)
+
+#### Defined in
+
+main.ts:110642

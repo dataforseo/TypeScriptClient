@@ -1,0 +1,321 @@
+[Documentation](../README.md) / [Exports](../modules.md) / ContentAnalysisSentimentAnalysisLiveTaskInfo
+
+# Class: ContentAnalysisSentimentAnalysisLiveTaskInfo
+
+## Hierarchy
+
+- [`BaseResponseTaskInfo`](BaseResponseTaskInfo.md)
+
+  ↳ **`ContentAnalysisSentimentAnalysisLiveTaskInfo`**
+
+## Implements
+
+- [`IContentAnalysisSentimentAnalysisLiveTaskInfo`](../interfaces/IContentAnalysisSentimentAnalysisLiveTaskInfo.md)
+
+## Indexable
+
+▪ [key: `string`]: `any`
+
+## Table of contents
+
+### Constructors
+
+- [constructor](ContentAnalysisSentimentAnalysisLiveTaskInfo.md#constructor)
+
+### Properties
+
+- [cost](ContentAnalysisSentimentAnalysisLiveTaskInfo.md#cost)
+- [data](ContentAnalysisSentimentAnalysisLiveTaskInfo.md#data)
+- [id](ContentAnalysisSentimentAnalysisLiveTaskInfo.md#id)
+- [path](ContentAnalysisSentimentAnalysisLiveTaskInfo.md#path)
+- [result](ContentAnalysisSentimentAnalysisLiveTaskInfo.md#result)
+- [result\_count](ContentAnalysisSentimentAnalysisLiveTaskInfo.md#result_count)
+- [status\_code](ContentAnalysisSentimentAnalysisLiveTaskInfo.md#status_code)
+- [status\_message](ContentAnalysisSentimentAnalysisLiveTaskInfo.md#status_message)
+- [time](ContentAnalysisSentimentAnalysisLiveTaskInfo.md#time)
+
+### Methods
+
+- [init](ContentAnalysisSentimentAnalysisLiveTaskInfo.md#init)
+- [toJSON](ContentAnalysisSentimentAnalysisLiveTaskInfo.md#tojson)
+- [fromJS](ContentAnalysisSentimentAnalysisLiveTaskInfo.md#fromjs)
+
+## Constructors
+
+### constructor
+
+• **new ContentAnalysisSentimentAnalysisLiveTaskInfo**(`data?`): [`ContentAnalysisSentimentAnalysisLiveTaskInfo`](ContentAnalysisSentimentAnalysisLiveTaskInfo.md)
+
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `data?` | [`IContentAnalysisSentimentAnalysisLiveTaskInfo`](../interfaces/IContentAnalysisSentimentAnalysisLiveTaskInfo.md) |
+
+#### Returns
+
+[`ContentAnalysisSentimentAnalysisLiveTaskInfo`](ContentAnalysisSentimentAnalysisLiveTaskInfo.md)
+
+#### Overrides
+
+[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[constructor](BaseResponseTaskInfo.md#constructor)
+
+#### Defined in
+
+main.ts:158167
+
+## Properties
+
+### cost
+
+• `Optional` **cost**: `number`
+
+total tasks cost, USD
+
+#### Implementation of
+
+[IContentAnalysisSentimentAnalysisLiveTaskInfo](../interfaces/IContentAnalysisSentimentAnalysisLiveTaskInfo.md).[cost](../interfaces/IContentAnalysisSentimentAnalysisLiveTaskInfo.md#cost)
+
+#### Inherited from
+
+[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[cost](BaseResponseTaskInfo.md#cost)
+
+#### Defined in
+
+main.ts:22744
+
+___
+
+### data
+
+• `Optional` **data**: `Object`
+
+contains the same parameters that you specified in the POST request
+
+#### Index signature
+
+▪ [key: `string`]: `any`
+
+#### Implementation of
+
+[IContentAnalysisSentimentAnalysisLiveTaskInfo](../interfaces/IContentAnalysisSentimentAnalysisLiveTaskInfo.md).[data](../interfaces/IContentAnalysisSentimentAnalysisLiveTaskInfo.md#data)
+
+#### Inherited from
+
+[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[data](BaseResponseTaskInfo.md#data)
+
+#### Defined in
+
+main.ts:22750
+
+___
+
+### id
+
+• `Optional` **id**: `string`
+
+task identifier
+unique task identifier in our system in the UUID format
+
+#### Implementation of
+
+[IContentAnalysisSentimentAnalysisLiveTaskInfo](../interfaces/IContentAnalysisSentimentAnalysisLiveTaskInfo.md).[id](../interfaces/IContentAnalysisSentimentAnalysisLiveTaskInfo.md#id)
+
+#### Inherited from
+
+[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[id](BaseResponseTaskInfo.md#id)
+
+#### Defined in
+
+main.ts:22733
+
+___
+
+### path
+
+• `Optional` **path**: `string`[]
+
+URL path
+
+#### Implementation of
+
+[IContentAnalysisSentimentAnalysisLiveTaskInfo](../interfaces/IContentAnalysisSentimentAnalysisLiveTaskInfo.md).[path](../interfaces/IContentAnalysisSentimentAnalysisLiveTaskInfo.md#path)
+
+#### Inherited from
+
+[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[path](BaseResponseTaskInfo.md#path)
+
+#### Defined in
+
+main.ts:22748
+
+___
+
+### result
+
+• `Optional` **result**: [`ContentAnalysisSentimentAnalysisLiveResultInfo`](ContentAnalysisSentimentAnalysisLiveResultInfo.md)[]
+
+array of results
+
+#### Implementation of
+
+[IContentAnalysisSentimentAnalysisLiveTaskInfo](../interfaces/IContentAnalysisSentimentAnalysisLiveTaskInfo.md).[result](../interfaces/IContentAnalysisSentimentAnalysisLiveTaskInfo.md#result)
+
+#### Defined in
+
+main.ts:158163
+
+___
+
+### result\_count
+
+• `Optional` **result\_count**: `number`
+
+number of elements in the result array
+
+#### Implementation of
+
+[IContentAnalysisSentimentAnalysisLiveTaskInfo](../interfaces/IContentAnalysisSentimentAnalysisLiveTaskInfo.md).[result_count](../interfaces/IContentAnalysisSentimentAnalysisLiveTaskInfo.md#result_count)
+
+#### Inherited from
+
+[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[result_count](BaseResponseTaskInfo.md#result_count)
+
+#### Defined in
+
+main.ts:22746
+
+___
+
+### status\_code
+
+• `Optional` **status\_code**: `number`
+
+status code of the task
+generated by DataForSEO, can be within the following range: 10000-60000
+you can find the full list of the response codes here
+
+#### Implementation of
+
+[IContentAnalysisSentimentAnalysisLiveTaskInfo](../interfaces/IContentAnalysisSentimentAnalysisLiveTaskInfo.md).[status_code](../interfaces/IContentAnalysisSentimentAnalysisLiveTaskInfo.md#status_code)
+
+#### Inherited from
+
+[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[status_code](BaseResponseTaskInfo.md#status_code)
+
+#### Defined in
+
+main.ts:22737
+
+___
+
+### status\_message
+
+• `Optional` **status\_message**: `string`
+
+informational message of the task
+you can find the full list of general informational messages here
+
+#### Implementation of
+
+[IContentAnalysisSentimentAnalysisLiveTaskInfo](../interfaces/IContentAnalysisSentimentAnalysisLiveTaskInfo.md).[status_message](../interfaces/IContentAnalysisSentimentAnalysisLiveTaskInfo.md#status_message)
+
+#### Inherited from
+
+[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[status_message](BaseResponseTaskInfo.md#status_message)
+
+#### Defined in
+
+main.ts:22740
+
+___
+
+### time
+
+• `Optional` **time**: `string`
+
+execution time, seconds
+
+#### Implementation of
+
+[IContentAnalysisSentimentAnalysisLiveTaskInfo](../interfaces/IContentAnalysisSentimentAnalysisLiveTaskInfo.md).[time](../interfaces/IContentAnalysisSentimentAnalysisLiveTaskInfo.md#time)
+
+#### Inherited from
+
+[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[time](BaseResponseTaskInfo.md#time)
+
+#### Defined in
+
+main.ts:22742
+
+## Methods
+
+### init
+
+▸ **init**(`_data?`): `void`
+
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `_data?` | `any` |
+
+#### Returns
+
+`void`
+
+#### Overrides
+
+[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[init](BaseResponseTaskInfo.md#init)
+
+#### Defined in
+
+main.ts:158171
+
+___
+
+### toJSON
+
+▸ **toJSON**(`data?`): `any`
+
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `data?` | `any` |
+
+#### Returns
+
+`any`
+
+#### Overrides
+
+[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[toJSON](BaseResponseTaskInfo.md#tojson)
+
+#### Defined in
+
+main.ts:158193
+
+___
+
+### fromJS
+
+▸ **fromJS**(`data`): [`ContentAnalysisSentimentAnalysisLiveTaskInfo`](ContentAnalysisSentimentAnalysisLiveTaskInfo.md)
+
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `data` | `any` |
+
+#### Returns
+
+[`ContentAnalysisSentimentAnalysisLiveTaskInfo`](ContentAnalysisSentimentAnalysisLiveTaskInfo.md)
+
+#### Overrides
+
+[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[fromJS](BaseResponseTaskInfo.md#fromjs)
+
+#### Defined in
+
+main.ts:158186

@@ -1,0 +1,294 @@
+[Documentation](../README.md) / [Exports](../modules.md) / AppDataGoogleAppListingsSearchLiveResponseInfo
+
+# Class: AppDataGoogleAppListingsSearchLiveResponseInfo
+
+## Hierarchy
+
+- [`BaseResponseInfo`](BaseResponseInfo.md)
+
+  ↳ **`AppDataGoogleAppListingsSearchLiveResponseInfo`**
+
+## Implements
+
+- [`IAppDataGoogleAppListingsSearchLiveResponseInfo`](../interfaces/IAppDataGoogleAppListingsSearchLiveResponseInfo.md)
+
+## Indexable
+
+▪ [key: `string`]: `any`
+
+## Table of contents
+
+### Constructors
+
+- [constructor](AppDataGoogleAppListingsSearchLiveResponseInfo.md#constructor)
+
+### Properties
+
+- [cost](AppDataGoogleAppListingsSearchLiveResponseInfo.md#cost)
+- [status\_code](AppDataGoogleAppListingsSearchLiveResponseInfo.md#status_code)
+- [status\_message](AppDataGoogleAppListingsSearchLiveResponseInfo.md#status_message)
+- [tasks](AppDataGoogleAppListingsSearchLiveResponseInfo.md#tasks)
+- [tasks\_count](AppDataGoogleAppListingsSearchLiveResponseInfo.md#tasks_count)
+- [tasks\_error](AppDataGoogleAppListingsSearchLiveResponseInfo.md#tasks_error)
+- [time](AppDataGoogleAppListingsSearchLiveResponseInfo.md#time)
+- [version](AppDataGoogleAppListingsSearchLiveResponseInfo.md#version)
+
+### Methods
+
+- [init](AppDataGoogleAppListingsSearchLiveResponseInfo.md#init)
+- [toJSON](AppDataGoogleAppListingsSearchLiveResponseInfo.md#tojson)
+- [fromJS](AppDataGoogleAppListingsSearchLiveResponseInfo.md#fromjs)
+
+## Constructors
+
+### constructor
+
+• **new AppDataGoogleAppListingsSearchLiveResponseInfo**(`data?`): [`AppDataGoogleAppListingsSearchLiveResponseInfo`](AppDataGoogleAppListingsSearchLiveResponseInfo.md)
+
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `data?` | [`IAppDataGoogleAppListingsSearchLiveResponseInfo`](../interfaces/IAppDataGoogleAppListingsSearchLiveResponseInfo.md) |
+
+#### Returns
+
+[`AppDataGoogleAppListingsSearchLiveResponseInfo`](AppDataGoogleAppListingsSearchLiveResponseInfo.md)
+
+#### Overrides
+
+[BaseResponseInfo](BaseResponseInfo.md).[constructor](BaseResponseInfo.md#constructor)
+
+#### Defined in
+
+main.ts:182633
+
+## Properties
+
+### cost
+
+• `Optional` **cost**: `number`
+
+total tasks cost, USD
+
+#### Implementation of
+
+[IAppDataGoogleAppListingsSearchLiveResponseInfo](../interfaces/IAppDataGoogleAppListingsSearchLiveResponseInfo.md).[cost](../interfaces/IAppDataGoogleAppListingsSearchLiveResponseInfo.md#cost)
+
+#### Inherited from
+
+[BaseResponseInfo](BaseResponseInfo.md).[cost](BaseResponseInfo.md#cost)
+
+#### Defined in
+
+main.ts:22652
+
+___
+
+### status\_code
+
+• `Optional` **status\_code**: `number`
+
+general status code
+you can find the full list of the response codes here
+
+#### Implementation of
+
+[IAppDataGoogleAppListingsSearchLiveResponseInfo](../interfaces/IAppDataGoogleAppListingsSearchLiveResponseInfo.md).[status_code](../interfaces/IAppDataGoogleAppListingsSearchLiveResponseInfo.md#status_code)
+
+#### Inherited from
+
+[BaseResponseInfo](BaseResponseInfo.md).[status_code](BaseResponseInfo.md#status_code)
+
+#### Defined in
+
+main.ts:22645
+
+___
+
+### status\_message
+
+• `Optional` **status\_message**: `string`
+
+general informational message
+you can find the full list of general informational messages here
+
+#### Implementation of
+
+[IAppDataGoogleAppListingsSearchLiveResponseInfo](../interfaces/IAppDataGoogleAppListingsSearchLiveResponseInfo.md).[status_message](../interfaces/IAppDataGoogleAppListingsSearchLiveResponseInfo.md#status_message)
+
+#### Inherited from
+
+[BaseResponseInfo](BaseResponseInfo.md).[status_message](BaseResponseInfo.md#status_message)
+
+#### Defined in
+
+main.ts:22648
+
+___
+
+### tasks
+
+• `Optional` **tasks**: [`AppDataGoogleAppListingsSearchLiveTaskInfo`](AppDataGoogleAppListingsSearchLiveTaskInfo.md)[]
+
+array of tasks
+
+#### Implementation of
+
+[IAppDataGoogleAppListingsSearchLiveResponseInfo](../interfaces/IAppDataGoogleAppListingsSearchLiveResponseInfo.md).[tasks](../interfaces/IAppDataGoogleAppListingsSearchLiveResponseInfo.md#tasks)
+
+#### Defined in
+
+main.ts:182629
+
+___
+
+### tasks\_count
+
+• `Optional` **tasks\_count**: `number`
+
+the number of tasks in the tasks array
+
+#### Implementation of
+
+[IAppDataGoogleAppListingsSearchLiveResponseInfo](../interfaces/IAppDataGoogleAppListingsSearchLiveResponseInfo.md).[tasks_count](../interfaces/IAppDataGoogleAppListingsSearchLiveResponseInfo.md#tasks_count)
+
+#### Inherited from
+
+[BaseResponseInfo](BaseResponseInfo.md).[tasks_count](BaseResponseInfo.md#tasks_count)
+
+#### Defined in
+
+main.ts:22654
+
+___
+
+### tasks\_error
+
+• `Optional` **tasks\_error**: `number`
+
+the number of tasks in the tasks array returned with an error
+
+#### Implementation of
+
+[IAppDataGoogleAppListingsSearchLiveResponseInfo](../interfaces/IAppDataGoogleAppListingsSearchLiveResponseInfo.md).[tasks_error](../interfaces/IAppDataGoogleAppListingsSearchLiveResponseInfo.md#tasks_error)
+
+#### Inherited from
+
+[BaseResponseInfo](BaseResponseInfo.md).[tasks_error](BaseResponseInfo.md#tasks_error)
+
+#### Defined in
+
+main.ts:22656
+
+___
+
+### time
+
+• `Optional` **time**: `string`
+
+total execution time, seconds
+
+#### Implementation of
+
+[IAppDataGoogleAppListingsSearchLiveResponseInfo](../interfaces/IAppDataGoogleAppListingsSearchLiveResponseInfo.md).[time](../interfaces/IAppDataGoogleAppListingsSearchLiveResponseInfo.md#time)
+
+#### Inherited from
+
+[BaseResponseInfo](BaseResponseInfo.md).[time](BaseResponseInfo.md#time)
+
+#### Defined in
+
+main.ts:22650
+
+___
+
+### version
+
+• `Optional` **version**: `string`
+
+the current version of the API
+
+#### Implementation of
+
+[IAppDataGoogleAppListingsSearchLiveResponseInfo](../interfaces/IAppDataGoogleAppListingsSearchLiveResponseInfo.md).[version](../interfaces/IAppDataGoogleAppListingsSearchLiveResponseInfo.md#version)
+
+#### Inherited from
+
+[BaseResponseInfo](BaseResponseInfo.md).[version](BaseResponseInfo.md#version)
+
+#### Defined in
+
+main.ts:22642
+
+## Methods
+
+### init
+
+▸ **init**(`_data?`): `void`
+
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `_data?` | `any` |
+
+#### Returns
+
+`void`
+
+#### Overrides
+
+[BaseResponseInfo](BaseResponseInfo.md).[init](BaseResponseInfo.md#init)
+
+#### Defined in
+
+main.ts:182637
+
+___
+
+### toJSON
+
+▸ **toJSON**(`data?`): `any`
+
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `data?` | `any` |
+
+#### Returns
+
+`any`
+
+#### Overrides
+
+[BaseResponseInfo](BaseResponseInfo.md).[toJSON](BaseResponseInfo.md#tojson)
+
+#### Defined in
+
+main.ts:182659
+
+___
+
+### fromJS
+
+▸ **fromJS**(`data`): [`AppDataGoogleAppListingsSearchLiveResponseInfo`](AppDataGoogleAppListingsSearchLiveResponseInfo.md)
+
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `data` | `any` |
+
+#### Returns
+
+[`AppDataGoogleAppListingsSearchLiveResponseInfo`](AppDataGoogleAppListingsSearchLiveResponseInfo.md)
+
+#### Overrides
+
+[BaseResponseInfo](BaseResponseInfo.md).[fromJS](BaseResponseInfo.md#fromjs)
+
+#### Defined in
+
+main.ts:182652

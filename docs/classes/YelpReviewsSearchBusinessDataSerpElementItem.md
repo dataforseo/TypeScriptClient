@@ -1,0 +1,320 @@
+[Documentation](../README.md) / [Exports](../modules.md) / YelpReviewsSearchBusinessDataSerpElementItem
+
+# Class: YelpReviewsSearchBusinessDataSerpElementItem
+
+## Hierarchy
+
+- [`BaseBusinessDataSerpElementItem`](BaseBusinessDataSerpElementItem.md)
+
+  ↳ **`YelpReviewsSearchBusinessDataSerpElementItem`**
+
+## Implements
+
+- [`IYelpReviewsSearchBusinessDataSerpElementItem`](../interfaces/IYelpReviewsSearchBusinessDataSerpElementItem.md)
+
+## Indexable
+
+▪ [key: `string`]: `any`
+
+## Table of contents
+
+### Constructors
+
+- [constructor](YelpReviewsSearchBusinessDataSerpElementItem.md#constructor)
+
+### Properties
+
+- [\_discriminator](YelpReviewsSearchBusinessDataSerpElementItem.md#_discriminator)
+- [position](YelpReviewsSearchBusinessDataSerpElementItem.md#position)
+- [rank\_absolute](YelpReviewsSearchBusinessDataSerpElementItem.md#rank_absolute)
+- [rank\_group](YelpReviewsSearchBusinessDataSerpElementItem.md#rank_group)
+- [rating](YelpReviewsSearchBusinessDataSerpElementItem.md#rating)
+- [responses](YelpReviewsSearchBusinessDataSerpElementItem.md#responses)
+- [review\_id](YelpReviewsSearchBusinessDataSerpElementItem.md#review_id)
+- [review\_images](YelpReviewsSearchBusinessDataSerpElementItem.md#review_images)
+- [review\_text](YelpReviewsSearchBusinessDataSerpElementItem.md#review_text)
+- [timestamp](YelpReviewsSearchBusinessDataSerpElementItem.md#timestamp)
+- [user\_profile](YelpReviewsSearchBusinessDataSerpElementItem.md#user_profile)
+
+### Methods
+
+- [init](YelpReviewsSearchBusinessDataSerpElementItem.md#init)
+- [toJSON](YelpReviewsSearchBusinessDataSerpElementItem.md#tojson)
+- [fromJS](YelpReviewsSearchBusinessDataSerpElementItem.md#fromjs)
+
+## Constructors
+
+### constructor
+
+• **new YelpReviewsSearchBusinessDataSerpElementItem**(`data?`): [`YelpReviewsSearchBusinessDataSerpElementItem`](YelpReviewsSearchBusinessDataSerpElementItem.md)
+
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `data?` | [`IYelpReviewsSearchBusinessDataSerpElementItem`](../interfaces/IYelpReviewsSearchBusinessDataSerpElementItem.md) |
+
+#### Returns
+
+[`YelpReviewsSearchBusinessDataSerpElementItem`](YelpReviewsSearchBusinessDataSerpElementItem.md)
+
+#### Overrides
+
+[BaseBusinessDataSerpElementItem](BaseBusinessDataSerpElementItem.md).[constructor](BaseBusinessDataSerpElementItem.md#constructor)
+
+#### Defined in
+
+main.ts:205383
+
+## Properties
+
+### \_discriminator
+
+• `Protected` **\_discriminator**: `string`
+
+#### Inherited from
+
+[BaseBusinessDataSerpElementItem](BaseBusinessDataSerpElementItem.md).[_discriminator](BaseBusinessDataSerpElementItem.md#_discriminator)
+
+#### Defined in
+
+main.ts:20076
+
+___
+
+### position
+
+• `Optional` **position**: `string`
+
+the alignment of the review in SERP
+can take the following values: left
+
+#### Implementation of
+
+[IYelpReviewsSearchBusinessDataSerpElementItem](../interfaces/IYelpReviewsSearchBusinessDataSerpElementItem.md).[position](../interfaces/IYelpReviewsSearchBusinessDataSerpElementItem.md#position)
+
+#### Defined in
+
+main.ts:205361
+
+___
+
+### rank\_absolute
+
+• `Optional` **rank\_absolute**: `number`
+
+absolute rank among all the listed reviews
+absolute position among all reviews on the list
+
+#### Implementation of
+
+[IYelpReviewsSearchBusinessDataSerpElementItem](../interfaces/IYelpReviewsSearchBusinessDataSerpElementItem.md).[rank_absolute](../interfaces/IYelpReviewsSearchBusinessDataSerpElementItem.md#rank_absolute)
+
+#### Defined in
+
+main.ts:205358
+
+___
+
+### rank\_group
+
+• `Optional` **rank\_group**: `number`
+
+position within a group of elements with identical type values
+positions of elements with different type values are omitted from rank_group
+
+#### Implementation of
+
+[IYelpReviewsSearchBusinessDataSerpElementItem](../interfaces/IYelpReviewsSearchBusinessDataSerpElementItem.md).[rank_group](../interfaces/IYelpReviewsSearchBusinessDataSerpElementItem.md#rank_group)
+
+#### Defined in
+
+main.ts:205355
+
+___
+
+### rating
+
+• `Optional` **rating**: [`RatingInfo`](RatingInfo.md)
+
+the rating score submitted by the reviewer
+
+#### Implementation of
+
+[IYelpReviewsSearchBusinessDataSerpElementItem](../interfaces/IYelpReviewsSearchBusinessDataSerpElementItem.md).[rating](../interfaces/IYelpReviewsSearchBusinessDataSerpElementItem.md#rating)
+
+#### Defined in
+
+main.ts:205367
+
+___
+
+### responses
+
+• `Optional` **responses**: [`ReviewResponseItemInfo`](ReviewResponseItemInfo.md)[]
+
+text of the owner’s response
+
+#### Implementation of
+
+[IYelpReviewsSearchBusinessDataSerpElementItem](../interfaces/IYelpReviewsSearchBusinessDataSerpElementItem.md).[responses](../interfaces/IYelpReviewsSearchBusinessDataSerpElementItem.md#responses)
+
+#### Defined in
+
+main.ts:205379
+
+___
+
+### review\_id
+
+• `Optional` **review\_id**: `string`
+
+the unique identifier of a review received from Yelp
+example:
+WvjNtncj8PDZytbofWlC5A
+
+#### Implementation of
+
+[IYelpReviewsSearchBusinessDataSerpElementItem](../interfaces/IYelpReviewsSearchBusinessDataSerpElementItem.md).[review_id](../interfaces/IYelpReviewsSearchBusinessDataSerpElementItem.md#review_id)
+
+#### Defined in
+
+main.ts:205365
+
+___
+
+### review\_images
+
+• `Optional` **review\_images**: `string`[]
+
+images submitted by the reviewer
+you will find URLs to the images provided by the author of this review
+
+#### Implementation of
+
+[IYelpReviewsSearchBusinessDataSerpElementItem](../interfaces/IYelpReviewsSearchBusinessDataSerpElementItem.md).[review_images](../interfaces/IYelpReviewsSearchBusinessDataSerpElementItem.md#review_images)
+
+#### Defined in
+
+main.ts:205375
+
+___
+
+### review\_text
+
+• `Optional` **review\_text**: `string`
+
+the content of the review
+
+#### Implementation of
+
+[IYelpReviewsSearchBusinessDataSerpElementItem](../interfaces/IYelpReviewsSearchBusinessDataSerpElementItem.md).[review_text](../interfaces/IYelpReviewsSearchBusinessDataSerpElementItem.md#review_text)
+
+#### Defined in
+
+main.ts:205372
+
+___
+
+### timestamp
+
+• `Optional` **timestamp**: `string`
+
+the time of publication
+indicates timestamp of when the review was listed
+
+#### Implementation of
+
+[IYelpReviewsSearchBusinessDataSerpElementItem](../interfaces/IYelpReviewsSearchBusinessDataSerpElementItem.md).[timestamp](../interfaces/IYelpReviewsSearchBusinessDataSerpElementItem.md#timestamp)
+
+#### Defined in
+
+main.ts:205370
+
+___
+
+### user\_profile
+
+• `Optional` **user\_profile**: [`BusinessDataUserProfileInfo`](BusinessDataUserProfileInfo.md)
+
+information listed in the reviewer’s profile
+
+#### Implementation of
+
+[IYelpReviewsSearchBusinessDataSerpElementItem](../interfaces/IYelpReviewsSearchBusinessDataSerpElementItem.md).[user_profile](../interfaces/IYelpReviewsSearchBusinessDataSerpElementItem.md#user_profile)
+
+#### Defined in
+
+main.ts:205377
+
+## Methods
+
+### init
+
+▸ **init**(`_data?`): `void`
+
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `_data?` | `any` |
+
+#### Returns
+
+`void`
+
+#### Overrides
+
+[BaseBusinessDataSerpElementItem](BaseBusinessDataSerpElementItem.md).[init](BaseBusinessDataSerpElementItem.md#init)
+
+#### Defined in
+
+main.ts:205388
+
+___
+
+### toJSON
+
+▸ **toJSON**(`data?`): `any`
+
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `data?` | `any` |
+
+#### Returns
+
+`any`
+
+#### Overrides
+
+[BaseBusinessDataSerpElementItem](BaseBusinessDataSerpElementItem.md).[toJSON](BaseBusinessDataSerpElementItem.md#tojson)
+
+#### Defined in
+
+main.ts:205423
+
+___
+
+### fromJS
+
+▸ **fromJS**(`data`): [`YelpReviewsSearchBusinessDataSerpElementItem`](YelpReviewsSearchBusinessDataSerpElementItem.md)
+
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `data` | `any` |
+
+#### Returns
+
+[`YelpReviewsSearchBusinessDataSerpElementItem`](YelpReviewsSearchBusinessDataSerpElementItem.md)
+
+#### Overrides
+
+[BaseBusinessDataSerpElementItem](BaseBusinessDataSerpElementItem.md).[fromJS](BaseBusinessDataSerpElementItem.md#fromjs)
+
+#### Defined in
+
+main.ts:205416

@@ -1,0 +1,17 @@
+{
+  "name": "dataforseo-client",
+  "version": "1.0.0",
+  "description": "API client that provide services of DataForSeo API (https://dataforseo.com/) \n\n For more information about client code generation, please follow to github (https://github.com/dataforseo/CSharpClient)",
+  "main": "main.js",
+  "types": "main.d.ts",
+  "scripts": {
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dataforseo/JavascriptClient.git"
+  },
+  "author": "dataforseo",
+  "license": "ISC",
+  "homepage": "https://github.com/dataforseo/JavascriptClient#readme"
+}

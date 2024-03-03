@@ -1,0 +1,42 @@
+[Documentation](../README.md) / [Exports](../modules.md) / IBacklinksBulkBacklinksLiveItem
+
+# Interface: IBacklinksBulkBacklinksLiveItem
+
+## Implemented by
+
+- [`BacklinksBulkBacklinksLiveItem`](../classes/BacklinksBulkBacklinksLiveItem.md)
+
+## Indexable
+
+▪ [key: `string`]: `any`
+
+## Table of contents
+
+### Properties
+
+- [backlinks](IBacklinksBulkBacklinksLiveItem.md#backlinks)
+- [target](IBacklinksBulkBacklinksLiveItem.md#target)
+
+## Properties
+
+### backlinks
+
+• `Optional` **backlinks**: `number`
+
+number of backlinks pointing to the target
+
+#### Defined in
+
+main.ts:139938
+
+___
+
+### target
+
+• `Optional` **target**: `string`
+
+domain, subdomain or webpage from a POST array
+
+#### Defined in
+
+main.ts:139936

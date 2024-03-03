@@ -1,0 +1,60 @@
+[Documentation](../README.md) / [Exports](../modules.md) / IDataforseoLabsleBulkAppMetricsLiveItem
+
+# Interface: IDataforseoLabsleBulkAppMetricsLiveItem
+
+## Implemented by
+
+- [`DataforseoLabsleBulkAppMetricsLiveItem`](../classes/DataforseoLabsleBulkAppMetricsLiveItem.md)
+
+## Indexable
+
+▪ [key: `string`]: `any`
+
+## Table of contents
+
+### Properties
+
+- [app\_id](IDataforseoLabsleBulkAppMetricsLiveItem.md#app_id)
+- [metrics](IDataforseoLabsleBulkAppMetricsLiveItem.md#metrics)
+- [se\_type](IDataforseoLabsleBulkAppMetricsLiveItem.md#se_type)
+
+## Properties
+
+### app\_id
+
+• `Optional` **app\_id**: `string`
+
+id of the app in a POST array
+
+#### Defined in
+
+main.ts:108162
+
+___
+
+### metrics
+
+• `Optional` **metrics**: `Object`
+
+metrics for the ranking keywords of the app
+ranking data relevant to the keywords that the provided application ranks for on Google Play
+
+#### Index signature
+
+▪ [key: `string`]: [`AppMetricsInfo`](../classes/AppMetricsInfo.md)
+
+#### Defined in
+
+main.ts:108165
+
+___
+
+### se\_type
+
+• `Optional` **se\_type**: `string`
+
+search engine type
+
+#### Defined in
+
+main.ts:108160

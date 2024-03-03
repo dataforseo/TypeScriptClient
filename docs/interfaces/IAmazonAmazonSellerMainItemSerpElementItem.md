@@ -1,0 +1,187 @@
+[Documentation](../README.md) / [Exports](../modules.md) / IAmazonAmazonSellerMainItemSerpElementItem
+
+# Interface: IAmazonAmazonSellerMainItemSerpElementItem
+
+## Hierarchy
+
+- [`IBaseAmazonSerpElementItem`](IBaseAmazonSerpElementItem.md)
+
+  ↳ **`IAmazonAmazonSellerMainItemSerpElementItem`**
+
+## Implemented by
+
+- [`AmazonAmazonSellerMainItemSerpElementItem`](../classes/AmazonAmazonSellerMainItemSerpElementItem.md)
+
+## Indexable
+
+▪ [key: `string`]: `any`
+
+## Table of contents
+
+### Properties
+
+- [condition](IAmazonAmazonSellerMainItemSerpElementItem.md#condition)
+- [condition\_description](IAmazonAmazonSellerMainItemSerpElementItem.md#condition_description)
+- [delivery\_info](IAmazonAmazonSellerMainItemSerpElementItem.md#delivery_info)
+- [position](IAmazonAmazonSellerMainItemSerpElementItem.md#position)
+- [price](IAmazonAmazonSellerMainItemSerpElementItem.md#price)
+- [rank\_absolute](IAmazonAmazonSellerMainItemSerpElementItem.md#rank_absolute)
+- [rank\_group](IAmazonAmazonSellerMainItemSerpElementItem.md#rank_group)
+- [rating](IAmazonAmazonSellerMainItemSerpElementItem.md#rating)
+- [seller\_name](IAmazonAmazonSellerMainItemSerpElementItem.md#seller_name)
+- [seller\_url](IAmazonAmazonSellerMainItemSerpElementItem.md#seller_url)
+- [ships\_from](IAmazonAmazonSellerMainItemSerpElementItem.md#ships_from)
+- [xpath](IAmazonAmazonSellerMainItemSerpElementItem.md#xpath)
+
+## Properties
+
+### condition
+
+• `Optional` **condition**: `string`
+
+product condition
+condition of the product offered by the seller
+
+#### Defined in
+
+main.ts:174353
+
+___
+
+### condition\_description
+
+• `Optional` **condition\_description**: `string`
+
+product condition details
+expanded details on the condition of the product offered by the seller
+
+#### Defined in
+
+main.ts:174356
+
+___
+
+### delivery\_info
+
+• `Optional` **delivery\_info**: [`AmazonDeliveryInfo`](../classes/AmazonDeliveryInfo.md)
+
+delivery information
+delivery information including free and fast delivery date ranges
+
+#### Defined in
+
+main.ts:174359
+
+___
+
+### position
+
+• `Optional` **position**: `string`
+
+alignment of the element in SERP
+possible values:
+left, right
+
+#### Defined in
+
+main.ts:174336
+
+___
+
+### price
+
+• `Optional` **price**: [`PriceInfo`](../classes/PriceInfo.md)
+
+product pricing details
+if there are no details, the value will be null
+
+#### Defined in
+
+main.ts:174347
+
+___
+
+### rank\_absolute
+
+• `Optional` **rank\_absolute**: `number`
+
+absolute rank in SERP
+absolute position among all the elements found in Amazon Sellers SERP
+
+#### Defined in
+
+main.ts:174332
+
+___
+
+### rank\_group
+
+• `Optional` **rank\_group**: `number`
+
+position within a group of elements with identical type values
+positions of elements with different type values are omitted from rank_group
+
+#### Defined in
+
+main.ts:174329
+
+___
+
+### rating
+
+• `Optional` **rating**: [`RatingElement`](../classes/RatingElement.md)
+
+seller rating details
+seller popularity rate based on customer reviews
+
+#### Defined in
+
+main.ts:174350
+
+___
+
+### seller\_name
+
+• `Optional` **seller\_name**: `string`
+
+business name of the seller
+
+#### Defined in
+
+main.ts:174340
+
+___
+
+### seller\_url
+
+• `Optional` **seller\_url**: `string`
+
+url forwarding to the seller’s page on Amazon
+
+#### Defined in
+
+main.ts:174342
+
+___
+
+### ships\_from
+
+• `Optional` **ships\_from**: `string`
+
+sender company name
+
+#### Defined in
+
+main.ts:174344
+
+___
+
+### xpath
+
+• `Optional` **xpath**: `string`
+
+XPath of the element
+
+#### Defined in
+
+main.ts:174338

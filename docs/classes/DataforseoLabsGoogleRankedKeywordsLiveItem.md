@@ -1,0 +1,157 @@
+[Documentation](../README.md) / [Exports](../modules.md) / DataforseoLabsGoogleRankedKeywordsLiveItem
+
+# Class: DataforseoLabsGoogleRankedKeywordsLiveItem
+
+## Implements
+
+- [`IDataforseoLabsGoogleRankedKeywordsLiveItem`](../interfaces/IDataforseoLabsGoogleRankedKeywordsLiveItem.md)
+
+## Indexable
+
+▪ [key: `string`]: `any`
+
+## Table of contents
+
+### Constructors
+
+- [constructor](DataforseoLabsGoogleRankedKeywordsLiveItem.md#constructor)
+
+### Properties
+
+- [keyword\_data](DataforseoLabsGoogleRankedKeywordsLiveItem.md#keyword_data)
+- [ranked\_serp\_element](DataforseoLabsGoogleRankedKeywordsLiveItem.md#ranked_serp_element)
+- [se\_type](DataforseoLabsGoogleRankedKeywordsLiveItem.md#se_type)
+
+### Methods
+
+- [init](DataforseoLabsGoogleRankedKeywordsLiveItem.md#init)
+- [toJSON](DataforseoLabsGoogleRankedKeywordsLiveItem.md#tojson)
+- [fromJS](DataforseoLabsGoogleRankedKeywordsLiveItem.md#fromjs)
+
+## Constructors
+
+### constructor
+
+• **new DataforseoLabsGoogleRankedKeywordsLiveItem**(`data?`): [`DataforseoLabsGoogleRankedKeywordsLiveItem`](DataforseoLabsGoogleRankedKeywordsLiveItem.md)
+
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `data?` | [`IDataforseoLabsGoogleRankedKeywordsLiveItem`](../interfaces/IDataforseoLabsGoogleRankedKeywordsLiveItem.md) |
+
+#### Returns
+
+[`DataforseoLabsGoogleRankedKeywordsLiveItem`](DataforseoLabsGoogleRankedKeywordsLiveItem.md)
+
+#### Defined in
+
+main.ts:87190
+
+## Properties
+
+### keyword\_data
+
+• `Optional` **keyword\_data**: [`KeywordData`](KeywordData.md)
+
+keyword data for the returned keyword
+
+#### Implementation of
+
+[IDataforseoLabsGoogleRankedKeywordsLiveItem](../interfaces/IDataforseoLabsGoogleRankedKeywordsLiveItem.md).[keyword_data](../interfaces/IDataforseoLabsGoogleRankedKeywordsLiveItem.md#keyword_data)
+
+#### Defined in
+
+main.ts:87184
+
+___
+
+### ranked\_serp\_element
+
+• `Optional` **ranked\_serp\_element**: [`RankedSerpElement`](RankedSerpElement.md)
+
+contains data on the domain’s SERP element found for the returned keyword
+
+#### Implementation of
+
+[IDataforseoLabsGoogleRankedKeywordsLiveItem](../interfaces/IDataforseoLabsGoogleRankedKeywordsLiveItem.md).[ranked_serp_element](../interfaces/IDataforseoLabsGoogleRankedKeywordsLiveItem.md#ranked_serp_element)
+
+#### Defined in
+
+main.ts:87186
+
+___
+
+### se\_type
+
+• `Optional` **se\_type**: `string`
+
+search engine type
+
+#### Implementation of
+
+[IDataforseoLabsGoogleRankedKeywordsLiveItem](../interfaces/IDataforseoLabsGoogleRankedKeywordsLiveItem.md).[se_type](../interfaces/IDataforseoLabsGoogleRankedKeywordsLiveItem.md#se_type)
+
+#### Defined in
+
+main.ts:87182
+
+## Methods
+
+### init
+
+▸ **init**(`_data?`): `void`
+
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `_data?` | `any` |
+
+#### Returns
+
+`void`
+
+#### Defined in
+
+main.ts:87199
+
+___
+
+### toJSON
+
+▸ **toJSON**(`data?`): `any`
+
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `data?` | `any` |
+
+#### Returns
+
+`any`
+
+#### Defined in
+
+main.ts:87218
+
+___
+
+### fromJS
+
+▸ **fromJS**(`data`): [`DataforseoLabsGoogleRankedKeywordsLiveItem`](DataforseoLabsGoogleRankedKeywordsLiveItem.md)
+
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `data` | `any` |
+
+#### Returns
+
+[`DataforseoLabsGoogleRankedKeywordsLiveItem`](DataforseoLabsGoogleRankedKeywordsLiveItem.md)
+
+#### Defined in
+
+main.ts:87211

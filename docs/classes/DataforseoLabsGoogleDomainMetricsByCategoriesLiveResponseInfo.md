@@ -1,0 +1,294 @@
+[Documentation](../README.md) / [Exports](../modules.md) / DataforseoLabsGoogleDomainMetricsByCategoriesLiveResponseInfo
+
+# Class: DataforseoLabsGoogleDomainMetricsByCategoriesLiveResponseInfo
+
+## Hierarchy
+
+- [`BaseResponseInfo`](BaseResponseInfo.md)
+
+  ↳ **`DataforseoLabsGoogleDomainMetricsByCategoriesLiveResponseInfo`**
+
+## Implements
+
+- [`IDataforseoLabsGoogleDomainMetricsByCategoriesLiveResponseInfo`](../interfaces/IDataforseoLabsGoogleDomainMetricsByCategoriesLiveResponseInfo.md)
+
+## Indexable
+
+▪ [key: `string`]: `any`
+
+## Table of contents
+
+### Constructors
+
+- [constructor](DataforseoLabsGoogleDomainMetricsByCategoriesLiveResponseInfo.md#constructor)
+
+### Properties
+
+- [cost](DataforseoLabsGoogleDomainMetricsByCategoriesLiveResponseInfo.md#cost)
+- [status\_code](DataforseoLabsGoogleDomainMetricsByCategoriesLiveResponseInfo.md#status_code)
+- [status\_message](DataforseoLabsGoogleDomainMetricsByCategoriesLiveResponseInfo.md#status_message)
+- [tasks](DataforseoLabsGoogleDomainMetricsByCategoriesLiveResponseInfo.md#tasks)
+- [tasks\_count](DataforseoLabsGoogleDomainMetricsByCategoriesLiveResponseInfo.md#tasks_count)
+- [tasks\_error](DataforseoLabsGoogleDomainMetricsByCategoriesLiveResponseInfo.md#tasks_error)
+- [time](DataforseoLabsGoogleDomainMetricsByCategoriesLiveResponseInfo.md#time)
+- [version](DataforseoLabsGoogleDomainMetricsByCategoriesLiveResponseInfo.md#version)
+
+### Methods
+
+- [init](DataforseoLabsGoogleDomainMetricsByCategoriesLiveResponseInfo.md#init)
+- [toJSON](DataforseoLabsGoogleDomainMetricsByCategoriesLiveResponseInfo.md#tojson)
+- [fromJS](DataforseoLabsGoogleDomainMetricsByCategoriesLiveResponseInfo.md#fromjs)
+
+## Constructors
+
+### constructor
+
+• **new DataforseoLabsGoogleDomainMetricsByCategoriesLiveResponseInfo**(`data?`): [`DataforseoLabsGoogleDomainMetricsByCategoriesLiveResponseInfo`](DataforseoLabsGoogleDomainMetricsByCategoriesLiveResponseInfo.md)
+
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `data?` | [`IDataforseoLabsGoogleDomainMetricsByCategoriesLiveResponseInfo`](../interfaces/IDataforseoLabsGoogleDomainMetricsByCategoriesLiveResponseInfo.md) |
+
+#### Returns
+
+[`DataforseoLabsGoogleDomainMetricsByCategoriesLiveResponseInfo`](DataforseoLabsGoogleDomainMetricsByCategoriesLiveResponseInfo.md)
+
+#### Overrides
+
+[BaseResponseInfo](BaseResponseInfo.md).[constructor](BaseResponseInfo.md#constructor)
+
+#### Defined in
+
+main.ts:85071
+
+## Properties
+
+### cost
+
+• `Optional` **cost**: `number`
+
+total tasks cost, USD
+
+#### Implementation of
+
+[IDataforseoLabsGoogleDomainMetricsByCategoriesLiveResponseInfo](../interfaces/IDataforseoLabsGoogleDomainMetricsByCategoriesLiveResponseInfo.md).[cost](../interfaces/IDataforseoLabsGoogleDomainMetricsByCategoriesLiveResponseInfo.md#cost)
+
+#### Inherited from
+
+[BaseResponseInfo](BaseResponseInfo.md).[cost](BaseResponseInfo.md#cost)
+
+#### Defined in
+
+main.ts:22652
+
+___
+
+### status\_code
+
+• `Optional` **status\_code**: `number`
+
+general status code
+you can find the full list of the response codes here
+
+#### Implementation of
+
+[IDataforseoLabsGoogleDomainMetricsByCategoriesLiveResponseInfo](../interfaces/IDataforseoLabsGoogleDomainMetricsByCategoriesLiveResponseInfo.md).[status_code](../interfaces/IDataforseoLabsGoogleDomainMetricsByCategoriesLiveResponseInfo.md#status_code)
+
+#### Inherited from
+
+[BaseResponseInfo](BaseResponseInfo.md).[status_code](BaseResponseInfo.md#status_code)
+
+#### Defined in
+
+main.ts:22645
+
+___
+
+### status\_message
+
+• `Optional` **status\_message**: `string`
+
+general informational message
+you can find the full list of general informational messages here
+
+#### Implementation of
+
+[IDataforseoLabsGoogleDomainMetricsByCategoriesLiveResponseInfo](../interfaces/IDataforseoLabsGoogleDomainMetricsByCategoriesLiveResponseInfo.md).[status_message](../interfaces/IDataforseoLabsGoogleDomainMetricsByCategoriesLiveResponseInfo.md#status_message)
+
+#### Inherited from
+
+[BaseResponseInfo](BaseResponseInfo.md).[status_message](BaseResponseInfo.md#status_message)
+
+#### Defined in
+
+main.ts:22648
+
+___
+
+### tasks
+
+• `Optional` **tasks**: [`DataforseoLabsGoogleDomainMetricsByCategoriesLiveTaskInfo`](DataforseoLabsGoogleDomainMetricsByCategoriesLiveTaskInfo.md)[]
+
+array of tasks
+
+#### Implementation of
+
+[IDataforseoLabsGoogleDomainMetricsByCategoriesLiveResponseInfo](../interfaces/IDataforseoLabsGoogleDomainMetricsByCategoriesLiveResponseInfo.md).[tasks](../interfaces/IDataforseoLabsGoogleDomainMetricsByCategoriesLiveResponseInfo.md#tasks)
+
+#### Defined in
+
+main.ts:85067
+
+___
+
+### tasks\_count
+
+• `Optional` **tasks\_count**: `number`
+
+the number of tasks in the tasks array
+
+#### Implementation of
+
+[IDataforseoLabsGoogleDomainMetricsByCategoriesLiveResponseInfo](../interfaces/IDataforseoLabsGoogleDomainMetricsByCategoriesLiveResponseInfo.md).[tasks_count](../interfaces/IDataforseoLabsGoogleDomainMetricsByCategoriesLiveResponseInfo.md#tasks_count)
+
+#### Inherited from
+
+[BaseResponseInfo](BaseResponseInfo.md).[tasks_count](BaseResponseInfo.md#tasks_count)
+
+#### Defined in
+
+main.ts:22654
+
+___
+
+### tasks\_error
+
+• `Optional` **tasks\_error**: `number`
+
+the number of tasks in the tasks array returned with an error
+
+#### Implementation of
+
+[IDataforseoLabsGoogleDomainMetricsByCategoriesLiveResponseInfo](../interfaces/IDataforseoLabsGoogleDomainMetricsByCategoriesLiveResponseInfo.md).[tasks_error](../interfaces/IDataforseoLabsGoogleDomainMetricsByCategoriesLiveResponseInfo.md#tasks_error)
+
+#### Inherited from
+
+[BaseResponseInfo](BaseResponseInfo.md).[tasks_error](BaseResponseInfo.md#tasks_error)
+
+#### Defined in
+
+main.ts:22656
+
+___
+
+### time
+
+• `Optional` **time**: `string`
+
+total execution time, seconds
+
+#### Implementation of
+
+[IDataforseoLabsGoogleDomainMetricsByCategoriesLiveResponseInfo](../interfaces/IDataforseoLabsGoogleDomainMetricsByCategoriesLiveResponseInfo.md).[time](../interfaces/IDataforseoLabsGoogleDomainMetricsByCategoriesLiveResponseInfo.md#time)
+
+#### Inherited from
+
+[BaseResponseInfo](BaseResponseInfo.md).[time](BaseResponseInfo.md#time)
+
+#### Defined in
+
+main.ts:22650
+
+___
+
+### version
+
+• `Optional` **version**: `string`
+
+the current version of the API
+
+#### Implementation of
+
+[IDataforseoLabsGoogleDomainMetricsByCategoriesLiveResponseInfo](../interfaces/IDataforseoLabsGoogleDomainMetricsByCategoriesLiveResponseInfo.md).[version](../interfaces/IDataforseoLabsGoogleDomainMetricsByCategoriesLiveResponseInfo.md#version)
+
+#### Inherited from
+
+[BaseResponseInfo](BaseResponseInfo.md).[version](BaseResponseInfo.md#version)
+
+#### Defined in
+
+main.ts:22642
+
+## Methods
+
+### init
+
+▸ **init**(`_data?`): `void`
+
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `_data?` | `any` |
+
+#### Returns
+
+`void`
+
+#### Overrides
+
+[BaseResponseInfo](BaseResponseInfo.md).[init](BaseResponseInfo.md#init)
+
+#### Defined in
+
+main.ts:85075
+
+___
+
+### toJSON
+
+▸ **toJSON**(`data?`): `any`
+
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `data?` | `any` |
+
+#### Returns
+
+`any`
+
+#### Overrides
+
+[BaseResponseInfo](BaseResponseInfo.md).[toJSON](BaseResponseInfo.md#tojson)
+
+#### Defined in
+
+main.ts:85097
+
+___
+
+### fromJS
+
+▸ **fromJS**(`data`): [`DataforseoLabsGoogleDomainMetricsByCategoriesLiveResponseInfo`](DataforseoLabsGoogleDomainMetricsByCategoriesLiveResponseInfo.md)
+
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `data` | `any` |
+
+#### Returns
+
+[`DataforseoLabsGoogleDomainMetricsByCategoriesLiveResponseInfo`](DataforseoLabsGoogleDomainMetricsByCategoriesLiveResponseInfo.md)
+
+#### Overrides
+
+[BaseResponseInfo](BaseResponseInfo.md).[fromJS](BaseResponseInfo.md#fromjs)
+
+#### Defined in
+
+main.ts:85090
