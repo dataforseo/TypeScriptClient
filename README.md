@@ -32,8 +32,6 @@ Our API description is based on openAPI [syntax](https://spec.openapis.org/oas/v
 
 The documentation for code objects, formatted in Markdown (.md) is available [here](./docs/). Offical documentation for DataForSeo API is avaliable [here](https://docs.dataforseo.com/v3/?bash).
 
-Code Objects documentation in .md format was generated using [typedoc-plugin-markdown](https://www.npmjs.com/package/typedoc-plugin-markdown) and placed [here](./docs)
-
 ## Code generation
 
 Code generated with using [NSwag lib](https://github.com/RicoSuter/NSwag)
