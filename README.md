@@ -107,7 +107,7 @@ async function main() {
   const startTime = Date.now();
 
   while (!await isReady(serpApi, taskID) && Date.now() - startTime < 60000) {
-    setTimeout(() => {}, 1000);
+    await new Promise(resolve => setTimeout(resolve, 1000));
   }
 
   let resp = await serpApi.googleOrganicTaskGetAdvanced(taskID);
