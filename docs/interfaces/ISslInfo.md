@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / ISslInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / ISslInfo
 
 # Interface: ISslInfo
 
@@ -35,7 +35,7 @@ example:
 
 #### Defined in
 
-main.ts:143438
+[main.ts:143294](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L143294)
 
 ___
 
@@ -48,7 +48,7 @@ the version of the ssl certificate’s hash function
 
 #### Defined in
 
-main.ts:143432
+[main.ts:143288](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L143288)
 
 ___
 
@@ -61,7 +61,7 @@ the entity that issued the detected ssl certificate
 
 #### Defined in
 
-main.ts:143423
+[main.ts:143279](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L143279)
 
 ___
 
@@ -74,7 +74,7 @@ the entity associated with the public key
 
 #### Defined in
 
-main.ts:143426
+[main.ts:143282](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L143282)
 
 ___
 
@@ -87,7 +87,7 @@ indicates the version of X.509 used by an ssl certificate
 
 #### Defined in
 
-main.ts:143429
+[main.ts:143285](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L143285)
 
 ___
 
@@ -100,4 +100,4 @@ indicates whether the ssl certificate detected on a website is not expired, susp
 
 #### Defined in
 
-main.ts:143420
+[main.ts:143276](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L143276)

@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IMerchantErrorsRequestInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IMerchantErrorsRequestInfo
 
 # Interface: IMerchantErrorsRequestInfo
 
@@ -35,7 +35,7 @@ example:
 
 #### Defined in
 
-main.ts:163221
+[main.ts:163101](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L163101)
 
 ___
 
@@ -52,7 +52,7 @@ example:
 
 #### Defined in
 
-main.ts:163228
+[main.ts:163108](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L163108)
 
 ___
 
@@ -68,7 +68,7 @@ example: sellers/ad_url, postback_url, pingback_url
 
 #### Defined in
 
-main.ts:163214
+[main.ts:163094](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L163094)
 
 ___
 
@@ -83,7 +83,7 @@ maximum value: 1000
 
 #### Defined in
 
-main.ts:163203
+[main.ts:163083](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L163083)
 
 ___
 
@@ -98,4 +98,4 @@ if you specify the 10 value, the first ten tasks in the results array will be om
 
 #### Defined in
 
-main.ts:163208
+[main.ts:163088](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L163088)

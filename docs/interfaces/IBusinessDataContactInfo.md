@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IBusinessDataContactInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IBusinessDataContactInfo
 
 # Interface: IBusinessDataContactInfo
 
@@ -28,7 +28,7 @@ data source
 
 #### Defined in
 
-main.ts:189113
+[main.ts:188993](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L188993)
 
 ___
 
@@ -40,7 +40,7 @@ type of element
 
 #### Defined in
 
-main.ts:189107
+[main.ts:188987](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L188987)
 
 ___
 
@@ -54,4 +54,4 @@ example:
 
 #### Defined in
 
-main.ts:189111
+[main.ts:188991](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L188991)

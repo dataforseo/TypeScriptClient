@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / MerchantGoogleProductInfoTaskGetAdvancedResultInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / MerchantGoogleProductInfoTaskGetAdvancedResultInfo
 
 # Class: MerchantGoogleProductInfoTaskGetAdvancedResultInfo
 
@@ -53,7 +53,7 @@
 
 #### Defined in
 
-main.ts:169471
+[main.ts:169351](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L169351)
 
 ## Properties
 
@@ -70,7 +70,7 @@ you can use it to make sure that we provided accurate results
 
 #### Defined in
 
-main.ts:169453
+[main.ts:169333](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L169333)
 
 ___
 
@@ -89,7 +89,7 @@ example:
 
 #### Defined in
 
-main.ts:169458
+[main.ts:169338](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L169338)
 
 ___
 
@@ -107,7 +107,7 @@ product_info_element
 
 #### Defined in
 
-main.ts:169462
+[main.ts:169342](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L169342)
 
 ___
 
@@ -124,7 +124,7 @@ contains all product attributes and related data listed on the product page
 
 #### Defined in
 
-main.ts:169467
+[main.ts:169347](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L169347)
 
 ___
 
@@ -140,7 +140,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:169464
+[main.ts:169344](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L169344)
 
 ___
 
@@ -156,7 +156,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:169450
+[main.ts:169330](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L169330)
 
 ___
 
@@ -172,7 +172,7 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:169448
+[main.ts:169328](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L169328)
 
 ___
 
@@ -189,7 +189,7 @@ learn more about the parameter in this help center guide
 
 #### Defined in
 
-main.ts:169442
+[main.ts:169322](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L169322)
 
 ___
 
@@ -205,7 +205,7 @@ search engine domain in a POST array
 
 #### Defined in
 
-main.ts:169446
+[main.ts:169326](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L169326)
 
 ___
 
@@ -221,7 +221,7 @@ type of element
 
 #### Defined in
 
-main.ts:169444
+[main.ts:169324](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L169324)
 
 ## Methods
 
@@ -241,7 +241,7 @@ main.ts:169444
 
 #### Defined in
 
-main.ts:169480
+[main.ts:169360](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L169360)
 
 ___
 
@@ -261,7 +261,7 @@ ___
 
 #### Defined in
 
-main.ts:169514
+[main.ts:169394](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L169394)
 
 ___
 
@@ -281,4 +281,4 @@ ___
 
 #### Defined in
 
-main.ts:169507
+[main.ts:169387](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L169387)

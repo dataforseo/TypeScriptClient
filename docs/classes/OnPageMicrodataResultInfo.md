@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / OnPageMicrodataResultInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / OnPageMicrodataResultInfo
 
 # Class: OnPageMicrodataResultInfo
 
@@ -48,7 +48,7 @@
 
 #### Defined in
 
-main.ts:151098
+[main.ts:150954](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L150954)
 
 ## Properties
 
@@ -65,7 +65,7 @@ possible values: in_progress, finished
 
 #### Defined in
 
-main.ts:151086
+[main.ts:150942](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L150942)
 
 ___
 
@@ -81,7 +81,7 @@ details of the crawling session
 
 #### Defined in
 
-main.ts:151088
+[main.ts:150944](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L150944)
 
 ___
 
@@ -97,7 +97,7 @@ items array
 
 #### Defined in
 
-main.ts:151094
+[main.ts:150950](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L150950)
 
 ___
 
@@ -113,7 +113,7 @@ number of items in the results array
 
 #### Defined in
 
-main.ts:151092
+[main.ts:150948](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L150948)
 
 ___
 
@@ -129,7 +129,7 @@ microdata validation test results
 
 #### Defined in
 
-main.ts:151090
+[main.ts:150946](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L150946)
 
 ## Methods
 
@@ -149,7 +149,7 @@ main.ts:151090
 
 #### Defined in
 
-main.ts:151107
+[main.ts:150963](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L150963)
 
 ___
 
@@ -169,7 +169,7 @@ ___
 
 #### Defined in
 
-main.ts:151132
+[main.ts:150988](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L150988)
 
 ___
 
@@ -189,4 +189,4 @@ ___
 
 #### Defined in
 
-main.ts:151125
+[main.ts:150981](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L150981)

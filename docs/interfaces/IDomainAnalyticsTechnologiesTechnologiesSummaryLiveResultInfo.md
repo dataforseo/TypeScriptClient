@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IDomainAnalyticsTechnologiesTechnologiesSummaryLiveResultInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IDomainAnalyticsTechnologiesTechnologiesSummaryLiveResultInfo
 
 # Interface: IDomainAnalyticsTechnologiesTechnologiesSummaryLiveResultInfo
 
@@ -34,7 +34,7 @@ contains content language codes and number of websites per language
 
 #### Defined in
 
-main.ts:73516
+[main.ts:73372](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L73372)
 
 ___
 
@@ -51,7 +51,7 @@ contains country codes and number of websites per country
 
 #### Defined in
 
-main.ts:73510
+[main.ts:73366](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L73366)
 
 ___
 
@@ -68,7 +68,7 @@ contains keywords found in the websites’ titles, descriptions or meta keywords
 
 #### Defined in
 
-main.ts:73519
+[main.ts:73375](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L73375)
 
 ___
 
@@ -85,4 +85,4 @@ contains language codes and number of websites per language
 
 #### Defined in
 
-main.ts:73513
+[main.ts:73369](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L73369)

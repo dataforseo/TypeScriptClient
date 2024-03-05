@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / BusinessDataTripadvisorLanguagesResultInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / BusinessDataTripadvisorLanguagesResultInfo
 
 # Class: BusinessDataTripadvisorLanguagesResultInfo
 
@@ -45,7 +45,7 @@
 
 #### Defined in
 
-main.ts:200856
+[main.ts:200736](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L200736)
 
 ## Properties
 
@@ -61,7 +61,7 @@ language code according to ISO 639-1
 
 #### Defined in
 
-main.ts:200852
+[main.ts:200732](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L200732)
 
 ___
 
@@ -77,7 +77,7 @@ language name
 
 #### Defined in
 
-main.ts:200850
+[main.ts:200730](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L200730)
 
 ## Methods
 
@@ -97,7 +97,7 @@ main.ts:200850
 
 #### Defined in
 
-main.ts:200865
+[main.ts:200745](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L200745)
 
 ___
 
@@ -117,7 +117,7 @@ ___
 
 #### Defined in
 
-main.ts:200883
+[main.ts:200763](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L200763)
 
 ___
 
@@ -137,4 +137,4 @@ ___
 
 #### Defined in
 
-main.ts:200876
+[main.ts:200756](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L200756)

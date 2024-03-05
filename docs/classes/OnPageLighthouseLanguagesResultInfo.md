@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / OnPageLighthouseLanguagesResultInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / OnPageLighthouseLanguagesResultInfo
 
 # Class: OnPageLighthouseLanguagesResultInfo
 
@@ -45,7 +45,7 @@
 
 #### Defined in
 
-main.ts:153661
+[main.ts:153517](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L153517)
 
 ## Properties
 
@@ -61,7 +61,7 @@ language code according to ISO 639-1
 
 #### Defined in
 
-main.ts:153657
+[main.ts:153513](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L153513)
 
 ___
 
@@ -77,7 +77,7 @@ language name
 
 #### Defined in
 
-main.ts:153655
+[main.ts:153511](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L153511)
 
 ## Methods
 
@@ -97,7 +97,7 @@ main.ts:153655
 
 #### Defined in
 
-main.ts:153670
+[main.ts:153526](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L153526)
 
 ___
 
@@ -117,7 +117,7 @@ ___
 
 #### Defined in
 
-main.ts:153688
+[main.ts:153544](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L153544)
 
 ___
 
@@ -137,4 +137,4 @@ ___
 
 #### Defined in
 
-main.ts:153681
+[main.ts:153537](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L153537)

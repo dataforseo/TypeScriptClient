@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IAppendixUserDataResultInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IAppendixUserDataResultInfo
 
 # Interface: IAppendixUserDataResultInfo
 
@@ -30,7 +30,7 @@ your login
 
 #### Defined in
 
-main.ts:212344
+[main.ts:212224](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L212224)
 
 ___
 
@@ -42,7 +42,7 @@ section of your spending, USD
 
 #### Defined in
 
-main.ts:212351
+[main.ts:212231](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L212231)
 
 ___
 
@@ -54,7 +54,7 @@ pricing
 
 #### Defined in
 
-main.ts:212353
+[main.ts:212233](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L212233)
 
 ___
 
@@ -66,7 +66,7 @@ your API rates
 
 #### Defined in
 
-main.ts:212349
+[main.ts:212229](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L212229)
 
 ___
 
@@ -79,4 +79,4 @@ can be set in your profile settings
 
 #### Defined in
 
-main.ts:212347
+[main.ts:212227](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L212227)

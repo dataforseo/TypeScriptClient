@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / BaseLocalBusinessLink
+[dataforseo-client](../README.md) / [Exports](../modules.md) / BaseLocalBusinessLink
 
 # Class: BaseLocalBusinessLink
 
@@ -54,7 +54,7 @@
 
 #### Defined in
 
-main.ts:22351
+[main.ts:22209](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L22209)
 
 ## Properties
 
@@ -64,7 +64,7 @@ main.ts:22351
 
 #### Defined in
 
-main.ts:22349
+[main.ts:22207](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L22207)
 
 ## Methods
 
@@ -84,7 +84,7 @@ main.ts:22349
 
 #### Defined in
 
-main.ts:22361
+[main.ts:22219](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L22219)
 
 ___
 
@@ -104,7 +104,7 @@ ___
 
 #### Defined in
 
-main.ts:22392
+[main.ts:22250](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L22250)
 
 ___
 
@@ -124,4 +124,4 @@ ___
 
 #### Defined in
 
-main.ts:22370
+[main.ts:22228](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L22228)

@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / AppDataErrorsRequestInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / AppDataErrorsRequestInfo
 
 # Class: AppDataErrorsRequestInfo
 
@@ -48,7 +48,7 @@
 
 #### Defined in
 
-main.ts:176778
+[main.ts:176658](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L176658)
 
 ## Properties
 
@@ -69,7 +69,7 @@ example:
 
 #### Defined in
 
-main.ts:176767
+[main.ts:176647](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L176647)
 
 ___
 
@@ -90,7 +90,7 @@ example:
 
 #### Defined in
 
-main.ts:176774
+[main.ts:176654](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L176654)
 
 ___
 
@@ -110,7 +110,7 @@ example: app_data/task_get/advanced, postback_url, pingback_url
 
 #### Defined in
 
-main.ts:176760
+[main.ts:176640](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L176640)
 
 ___
 
@@ -129,7 +129,7 @@ maximum value: 1000
 
 #### Defined in
 
-main.ts:176749
+[main.ts:176629](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L176629)
 
 ___
 
@@ -148,7 +148,7 @@ if you specify the 10 value, the first ten tasks in the results array will be om
 
 #### Defined in
 
-main.ts:176754
+[main.ts:176634](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L176634)
 
 ## Methods
 
@@ -168,7 +168,7 @@ main.ts:176754
 
 #### Defined in
 
-main.ts:176787
+[main.ts:176667](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L176667)
 
 ___
 
@@ -188,7 +188,7 @@ ___
 
 #### Defined in
 
-main.ts:176808
+[main.ts:176688](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L176688)
 
 ___
 
@@ -208,4 +208,4 @@ ___
 
 #### Defined in
 
-main.ts:176801
+[main.ts:176681](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L176681)

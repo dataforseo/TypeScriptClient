@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IKeywordsDataBingLocationsResultInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IKeywordsDataBingLocationsResultInfo
 
 # Interface: IKeywordsDataBingLocationsResultInfo
 
@@ -30,7 +30,7 @@ ISO country code of the location
 
 #### Defined in
 
-main.ts:122146
+[main.ts:122002](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L122002)
 
 ___
 
@@ -42,7 +42,7 @@ location code
 
 #### Defined in
 
-main.ts:122134
+[main.ts:121990](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L121990)
 
 ___
 
@@ -60,7 +60,7 @@ example:
 
 #### Defined in
 
-main.ts:122144
+[main.ts:122000](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L122000)
 
 ___
 
@@ -72,7 +72,7 @@ full name of the location
 
 #### Defined in
 
-main.ts:122136
+[main.ts:121992](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L121992)
 
 ___
 
@@ -84,4 +84,4 @@ location type
 
 #### Defined in
 
-main.ts:122148
+[main.ts:122004](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L122004)

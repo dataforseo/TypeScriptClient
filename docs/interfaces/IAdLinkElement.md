@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IAdLinkElement
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IAdLinkElement
 
 # Interface: IAdLinkElement
 
@@ -31,7 +31,7 @@ the identifier of the ad
 
 #### Defined in
 
-main.ts:27889
+[main.ts:27747](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L27747)
 
 ___
 
@@ -43,7 +43,7 @@ description of the results element in SERP
 
 #### Defined in
 
-main.ts:27883
+[main.ts:27741](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L27741)
 
 ___
 
@@ -55,7 +55,7 @@ website domain
 
 #### Defined in
 
-main.ts:27887
+[main.ts:27745](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L27745)
 
 ___
 
@@ -67,7 +67,7 @@ title of a given link element
 
 #### Defined in
 
-main.ts:27881
+[main.ts:27739](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L27739)
 
 ___
 
@@ -79,7 +79,7 @@ type of element
 
 #### Defined in
 
-main.ts:27879
+[main.ts:27737](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L27737)
 
 ___
 
@@ -91,4 +91,4 @@ relevant URL
 
 #### Defined in
 
-main.ts:27885
+[main.ts:27743](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L27743)

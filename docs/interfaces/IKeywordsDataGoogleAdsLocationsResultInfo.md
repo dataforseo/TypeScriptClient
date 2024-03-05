@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IKeywordsDataGoogleAdsLocationsResultInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IKeywordsDataGoogleAdsLocationsResultInfo
 
 # Interface: IKeywordsDataGoogleAdsLocationsResultInfo
 
@@ -30,7 +30,7 @@ ISO country code of the location
 
 #### Defined in
 
-main.ts:113324
+[main.ts:113180](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L113180)
 
 ___
 
@@ -42,7 +42,7 @@ location code
 
 #### Defined in
 
-main.ts:113311
+[main.ts:113167](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L113167)
 
 ___
 
@@ -61,7 +61,7 @@ where location_code_parent corresponds to:
 
 #### Defined in
 
-main.ts:113322
+[main.ts:113178](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L113178)
 
 ___
 
@@ -73,7 +73,7 @@ full name of the location
 
 #### Defined in
 
-main.ts:113313
+[main.ts:113169](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L113169)
 
 ___
 
@@ -86,4 +86,4 @@ possible values according to Google’s target types
 
 #### Defined in
 
-main.ts:113327
+[main.ts:113183](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L113183)

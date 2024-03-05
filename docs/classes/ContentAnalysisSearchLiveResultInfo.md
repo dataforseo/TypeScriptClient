@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / ContentAnalysisSearchLiveResultInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / ContentAnalysisSearchLiveResultInfo
 
 # Class: ContentAnalysisSearchLiveResultInfo
 
@@ -47,7 +47,7 @@
 
 #### Defined in
 
-main.ts:156979
+[main.ts:156859](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L156859)
 
 ## Properties
 
@@ -63,7 +63,7 @@ contains citations and related data
 
 #### Defined in
 
-main.ts:156975
+[main.ts:156855](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L156855)
 
 ___
 
@@ -79,7 +79,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:156973
+[main.ts:156853](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L156853)
 
 ___
 
@@ -97,7 +97,7 @@ note: offset_token values are unique for each subsequent task
 
 #### Defined in
 
-main.ts:156969
+[main.ts:156849](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L156849)
 
 ___
 
@@ -113,7 +113,7 @@ total amount of results in our database relevant to your request
 
 #### Defined in
 
-main.ts:156971
+[main.ts:156851](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L156851)
 
 ## Methods
 
@@ -133,7 +133,7 @@ main.ts:156971
 
 #### Defined in
 
-main.ts:156988
+[main.ts:156868](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L156868)
 
 ___
 
@@ -153,7 +153,7 @@ ___
 
 #### Defined in
 
-main.ts:157012
+[main.ts:156892](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L156892)
 
 ___
 
@@ -173,4 +173,4 @@ ___
 
 #### Defined in
 
-main.ts:157005
+[main.ts:156885](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L156885)

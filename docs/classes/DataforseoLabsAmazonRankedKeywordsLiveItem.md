@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / DataforseoLabsAmazonRankedKeywordsLiveItem
+[dataforseo-client](../README.md) / [Exports](../modules.md) / DataforseoLabsAmazonRankedKeywordsLiveItem
 
 # Class: DataforseoLabsAmazonRankedKeywordsLiveItem
 
@@ -46,7 +46,7 @@
 
 #### Defined in
 
-main.ts:100304
+[main.ts:100160](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L100160)
 
 ## Properties
 
@@ -62,7 +62,7 @@ keyword data for the returned keyword
 
 #### Defined in
 
-main.ts:100298
+[main.ts:100154](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L100154)
 
 ___
 
@@ -78,7 +78,7 @@ contains data on the products’s SERP element found for the returned keyword
 
 #### Defined in
 
-main.ts:100300
+[main.ts:100156](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L100156)
 
 ___
 
@@ -94,7 +94,7 @@ search engine type
 
 #### Defined in
 
-main.ts:100296
+[main.ts:100152](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L100152)
 
 ## Methods
 
@@ -114,7 +114,7 @@ main.ts:100296
 
 #### Defined in
 
-main.ts:100313
+[main.ts:100169](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L100169)
 
 ___
 
@@ -134,7 +134,7 @@ ___
 
 #### Defined in
 
-main.ts:100332
+[main.ts:100188](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L100188)
 
 ___
 
@@ -154,4 +154,4 @@ ___
 
 #### Defined in
 
-main.ts:100325
+[main.ts:100181](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L100181)

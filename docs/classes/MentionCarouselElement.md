@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / MentionCarouselElement
+[dataforseo-client](../README.md) / [Exports](../modules.md) / MentionCarouselElement
 
 # Class: MentionCarouselElement
 
@@ -48,7 +48,7 @@
 
 #### Defined in
 
-main.ts:30933
+[main.ts:30791](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L30791)
 
 ## Properties
 
@@ -64,7 +64,7 @@ additional elements in the mention_carousel item
 
 #### Defined in
 
-main.ts:30929
+[main.ts:30787](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L30787)
 
 ___
 
@@ -80,7 +80,7 @@ price of booking a place for the specified dates of stay
 
 #### Defined in
 
-main.ts:30924
+[main.ts:30782](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L30782)
 
 ___
 
@@ -97,7 +97,7 @@ the popularity rate based on reviews and displayed in SERP
 
 #### Defined in
 
-main.ts:30927
+[main.ts:30785](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L30785)
 
 ___
 
@@ -113,7 +113,7 @@ title of the row
 
 #### Defined in
 
-main.ts:30922
+[main.ts:30780](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L30780)
 
 ___
 
@@ -129,7 +129,7 @@ type of element
 
 #### Defined in
 
-main.ts:30920
+[main.ts:30778](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L30778)
 
 ## Methods
 
@@ -149,7 +149,7 @@ main.ts:30920
 
 #### Defined in
 
-main.ts:30942
+[main.ts:30800](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L30800)
 
 ___
 
@@ -169,7 +169,7 @@ ___
 
 #### Defined in
 
-main.ts:30967
+[main.ts:30825](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L30825)
 
 ___
 
@@ -189,4 +189,4 @@ ___
 
 #### Defined in
 
-main.ts:30960
+[main.ts:30818](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L30818)

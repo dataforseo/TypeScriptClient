@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / AppendixLimitsMoneyData
+[dataforseo-client](../README.md) / [Exports](../modules.md) / AppendixLimitsMoneyData
 
 # Class: AppendixLimitsMoneyData
 
@@ -45,7 +45,7 @@
 
 #### Defined in
 
-main.ts:209514
+[main.ts:209394](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L209394)
 
 ## Properties
 
@@ -59,7 +59,7 @@ main.ts:209514
 
 #### Defined in
 
-main.ts:209509
+[main.ts:209389](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L209389)
 
 ___
 
@@ -73,7 +73,7 @@ ___
 
 #### Defined in
 
-main.ts:209510
+[main.ts:209390](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L209390)
 
 ## Methods
 
@@ -93,7 +93,7 @@ main.ts:209510
 
 #### Defined in
 
-main.ts:209523
+[main.ts:209403](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L209403)
 
 ___
 
@@ -113,7 +113,7 @@ ___
 
 #### Defined in
 
-main.ts:209541
+[main.ts:209421](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L209421)
 
 ___
 
@@ -133,4 +133,4 @@ ___
 
 #### Defined in
 
-main.ts:209534
+[main.ts:209414](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L209414)

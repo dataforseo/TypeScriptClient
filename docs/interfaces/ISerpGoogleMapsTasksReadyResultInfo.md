@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / ISerpGoogleMapsTasksReadyResultInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / ISerpGoogleMapsTasksReadyResultInfo
 
 # Interface: ISerpGoogleMapsTasksReadyResultInfo
 
@@ -33,7 +33,7 @@ date when the task was posted (in the UTC format)
 
 #### Defined in
 
-main.ts:38012
+[main.ts:37870](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L37870)
 
 ___
 
@@ -46,7 +46,7 @@ if SERP Advanced is not supported in the specified endpoint, the value will be n
 
 #### Defined in
 
-main.ts:38020
+[main.ts:37878](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L37878)
 
 ___
 
@@ -59,7 +59,7 @@ if SERP HTML is not supported in the specified endpoint, the value will be null
 
 #### Defined in
 
-main.ts:38023
+[main.ts:37881](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L37881)
 
 ___
 
@@ -72,7 +72,7 @@ if SERP Regular is not supported in the specified endpoint, the value will be nu
 
 #### Defined in
 
-main.ts:38017
+[main.ts:37875](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L37875)
 
 ___
 
@@ -85,7 +85,7 @@ unique task identifier in our system in the UUID format
 
 #### Defined in
 
-main.ts:38005
+[main.ts:37863](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L37863)
 
 ___
 
@@ -97,7 +97,7 @@ search engine specified when setting the task
 
 #### Defined in
 
-main.ts:38007
+[main.ts:37865](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L37865)
 
 ___
 
@@ -110,7 +110,7 @@ can take the following values: maps
 
 #### Defined in
 
-main.ts:38010
+[main.ts:37868](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L37868)
 
 ___
 
@@ -122,4 +122,4 @@ user-defined task identifier
 
 #### Defined in
 
-main.ts:38014
+[main.ts:37872](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L37872)

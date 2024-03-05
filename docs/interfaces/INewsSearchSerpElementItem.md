@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / INewsSearchSerpElementItem
+[dataforseo-client](../README.md) / [Exports](../modules.md) / INewsSearchSerpElementItem
 
 # Interface: INewsSearchSerpElementItem
 
@@ -42,7 +42,7 @@ domain name of the result in SERP
 
 #### Defined in
 
-main.ts:42731
+[main.ts:42589](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L42589)
 
 ___
 
@@ -55,7 +55,7 @@ the URL leading to the image on the original resource or DataForSEO storage (in 
 
 #### Defined in
 
-main.ts:42738
+[main.ts:42596](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L42596)
 
 ___
 
@@ -68,7 +68,7 @@ absolute position among all the elements in SERP
 
 #### Defined in
 
-main.ts:42727
+[main.ts:42585](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L42585)
 
 ___
 
@@ -82,7 +82,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-main.ts:42724
+[main.ts:42582](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L42582)
 
 ___
 
@@ -96,7 +96,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 #### Defined in
 
-main.ts:42751
+[main.ts:42609](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L42609)
 
 ___
 
@@ -108,7 +108,7 @@ snippet of the result in SERP
 
 #### Defined in
 
-main.ts:42740
+[main.ts:42598](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L42598)
 
 ___
 
@@ -120,7 +120,7 @@ indicates the time the result was published
 
 #### Defined in
 
-main.ts:42742
+[main.ts:42600](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L42600)
 
 ___
 
@@ -135,7 +135,7 @@ example:
 
 #### Defined in
 
-main.ts:42747
+[main.ts:42605](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L42605)
 
 ___
 
@@ -147,7 +147,7 @@ title of the result in SERP
 
 #### Defined in
 
-main.ts:42733
+[main.ts:42591](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L42591)
 
 ___
 
@@ -159,7 +159,7 @@ URL of the result in SERP
 
 #### Defined in
 
-main.ts:42735
+[main.ts:42593](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L42593)
 
 ___
 
@@ -171,4 +171,4 @@ the XPath of the element
 
 #### Defined in
 
-main.ts:42729
+[main.ts:42587](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L42587)

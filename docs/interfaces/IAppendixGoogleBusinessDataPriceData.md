@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IAppendixGoogleBusinessDataPriceData
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IAppendixGoogleBusinessDataPriceData
 
 # Interface: IAppendixGoogleBusinessDataPriceData
 
@@ -28,7 +28,7 @@
 
 #### Defined in
 
-main.ts:211349
+[main.ts:211229](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L211229)
 
 ___
 
@@ -38,7 +38,7 @@ ___
 
 #### Defined in
 
-main.ts:211350
+[main.ts:211230](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L211230)
 
 ___
 
@@ -48,7 +48,7 @@ ___
 
 #### Defined in
 
-main.ts:211351
+[main.ts:211231](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L211231)
 
 ___
 
@@ -58,7 +58,7 @@ ___
 
 #### Defined in
 
-main.ts:211352
+[main.ts:211232](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L211232)
 
 ___
 
@@ -68,4 +68,4 @@ ___
 
 #### Defined in
 
-main.ts:211353
+[main.ts:211233](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L211233)

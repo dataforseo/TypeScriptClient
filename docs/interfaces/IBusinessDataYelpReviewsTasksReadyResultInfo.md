@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IBusinessDataYelpReviewsTasksReadyResultInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IBusinessDataYelpReviewsTasksReadyResultInfo
 
 # Interface: IBusinessDataYelpReviewsTasksReadyResultInfo
 
@@ -31,7 +31,7 @@ date when the task was posted (in the UTC format)
 
 #### Defined in
 
-main.ts:205233
+[main.ts:205113](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L205113)
 
 ___
 
@@ -43,7 +43,7 @@ URL for collecting the results of the task
 
 #### Defined in
 
-main.ts:205237
+[main.ts:205117](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L205117)
 
 ___
 
@@ -56,7 +56,7 @@ unique task identifier in our system in the UUID format
 
 #### Defined in
 
-main.ts:205225
+[main.ts:205105](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L205105)
 
 ___
 
@@ -69,7 +69,7 @@ can take the following values: yelp
 
 #### Defined in
 
-main.ts:205228
+[main.ts:205108](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L205108)
 
 ___
 
@@ -82,7 +82,7 @@ can take the following values: reviews
 
 #### Defined in
 
-main.ts:205231
+[main.ts:205111](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L205111)
 
 ___
 
@@ -94,4 +94,4 @@ user-defined task identifier
 
 #### Defined in
 
-main.ts:205235
+[main.ts:205115](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L205115)

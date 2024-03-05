@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IOnPageDuplicateTagsItem
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IOnPageDuplicateTagsItem
 
 # Interface: IOnPageDuplicateTagsItem
 
@@ -28,7 +28,7 @@ contains the value of duplicated tag
 
 #### Defined in
 
-main.ts:147360
+[main.ts:147216](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L147216)
 
 ___
 
@@ -40,7 +40,7 @@ pages with duplicate tags
 
 #### Defined in
 
-main.ts:147364
+[main.ts:147220](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L147220)
 
 ___
 
@@ -52,4 +52,4 @@ total count of duplicate pages
 
 #### Defined in
 
-main.ts:147362
+[main.ts:147218](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L147218)

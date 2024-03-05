@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / BusinessDataGoogleMyBusinessUpdatesTaskGetResultInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / BusinessDataGoogleMyBusinessUpdatesTaskGetResultInfo
 
 # Class: BusinessDataGoogleMyBusinessUpdatesTaskGetResultInfo
 
@@ -55,7 +55,7 @@
 
 #### Defined in
 
-main.ts:192650
+[main.ts:192530](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L192530)
 
 ## Properties
 
@@ -71,7 +71,7 @@ identifier of the business updates element in SERP
 
 #### Defined in
 
-main.ts:192628
+[main.ts:192508](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L192508)
 
 ___
 
@@ -88,7 +88,7 @@ you can use it to make sure that we provided accurate results
 
 #### Defined in
 
-main.ts:192621
+[main.ts:192501](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L192501)
 
 ___
 
@@ -106,7 +106,7 @@ learn more about the cid identifier in this help center article
 
 #### Defined in
 
-main.ts:192632
+[main.ts:192512](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L192512)
 
 ___
 
@@ -125,7 +125,7 @@ example:
 
 #### Defined in
 
-main.ts:192626
+[main.ts:192506](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L192506)
 
 ___
 
@@ -142,7 +142,7 @@ learn more about the identifier in this help center article
 
 #### Defined in
 
-main.ts:192635
+[main.ts:192515](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L192515)
 
 ___
 
@@ -160,7 +160,7 @@ possible item types: google_business_post
 
 #### Defined in
 
-main.ts:192639
+[main.ts:192519](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L192519)
 
 ___
 
@@ -178,7 +178,7 @@ possible item types: google_business_info
 
 #### Defined in
 
-main.ts:192646
+[main.ts:192526](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L192526)
 
 ___
 
@@ -195,7 +195,7 @@ the number of items in the items array
 
 #### Defined in
 
-main.ts:192642
+[main.ts:192522](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L192522)
 
 ___
 
@@ -216,7 +216,7 @@ learn more about the parameter in this help center article
 
 #### Defined in
 
-main.ts:192612
+[main.ts:192492](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L192492)
 
 ___
 
@@ -232,7 +232,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:192618
+[main.ts:192498](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L192498)
 
 ___
 
@@ -248,7 +248,7 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:192616
+[main.ts:192496](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L192496)
 
 ___
 
@@ -264,7 +264,7 @@ search engine domain as specified in a POST array
 
 #### Defined in
 
-main.ts:192614
+[main.ts:192494](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L192494)
 
 ## Methods
 
@@ -284,7 +284,7 @@ main.ts:192614
 
 #### Defined in
 
-main.ts:192659
+[main.ts:192539](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L192539)
 
 ___
 
@@ -304,7 +304,7 @@ ___
 
 #### Defined in
 
-main.ts:192695
+[main.ts:192575](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L192575)
 
 ___
 
@@ -324,4 +324,4 @@ ___
 
 #### Defined in
 
-main.ts:192688
+[main.ts:192568](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L192568)

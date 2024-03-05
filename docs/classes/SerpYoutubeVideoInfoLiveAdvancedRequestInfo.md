@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / SerpYoutubeVideoInfoLiveAdvancedRequestInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / SerpYoutubeVideoInfoLiveAdvancedRequestInfo
 
 # Class: SerpYoutubeVideoInfoLiveAdvancedRequestInfo
 
@@ -51,7 +51,7 @@
 
 #### Defined in
 
-main.ts:59231
+[main.ts:59087](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L59087)
 
 ## Properties
 
@@ -69,7 +69,7 @@ only value: desktop
 
 #### Defined in
 
-main.ts:59216
+[main.ts:59072](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L59072)
 
 ___
 
@@ -90,7 +90,7 @@ en
 
 #### Defined in
 
-main.ts:59212
+[main.ts:59068](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L59068)
 
 ___
 
@@ -111,7 +111,7 @@ English
 
 #### Defined in
 
-main.ts:59205
+[main.ts:59061](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L59061)
 
 ___
 
@@ -132,7 +132,7 @@ example:
 
 #### Defined in
 
-main.ts:59198
+[main.ts:59054](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L59054)
 
 ___
 
@@ -153,7 +153,7 @@ United States
 
 #### Defined in
 
-main.ts:59191
+[main.ts:59047](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L59047)
 
 ___
 
@@ -172,7 +172,7 @@ default value: windows
 
 #### Defined in
 
-main.ts:59221
+[main.ts:59077](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L59077)
 
 ___
 
@@ -192,7 +192,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:59227
+[main.ts:59083](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L59083)
 
 ___
 
@@ -212,7 +212,7 @@ vQXvyV0zIP4
 
 #### Defined in
 
-main.ts:59184
+[main.ts:59040](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L59040)
 
 ## Methods
 
@@ -232,7 +232,7 @@ main.ts:59184
 
 #### Defined in
 
-main.ts:59240
+[main.ts:59096](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L59096)
 
 ___
 
@@ -252,7 +252,7 @@ ___
 
 #### Defined in
 
-main.ts:59264
+[main.ts:59120](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L59120)
 
 ___
 
@@ -272,4 +272,4 @@ ___
 
 #### Defined in
 
-main.ts:59257
+[main.ts:59113](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L59113)

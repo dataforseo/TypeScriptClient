@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IRelatedSearchesElement
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IRelatedSearchesElement
 
 # Interface: IRelatedSearchesElement
 
@@ -30,7 +30,7 @@ the alt tag of the product image featured in the results
 
 #### Defined in
 
-main.ts:21048
+[main.ts:21048](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L21048)
 
 ___
 
@@ -42,7 +42,7 @@ URL of the product image featured in the results
 
 #### Defined in
 
-main.ts:21050
+[main.ts:21050](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L21050)
 
 ___
 
@@ -54,7 +54,7 @@ product title
 
 #### Defined in
 
-main.ts:21044
+[main.ts:21044](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L21044)
 
 ___
 
@@ -66,7 +66,7 @@ type of element
 
 #### Defined in
 
-main.ts:21042
+[main.ts:21042](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L21042)
 
 ___
 
@@ -78,4 +78,4 @@ the URL of the product page
 
 #### Defined in
 
-main.ts:21046
+[main.ts:21046](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L21046)

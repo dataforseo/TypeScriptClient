@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / ISerpInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / ISerpInfo
 
 # Interface: ISerpInfo
 
@@ -32,7 +32,7 @@ you can use it to make sure that we provided accurate results
 
 #### Defined in
 
-main.ts:79555
+[main.ts:79411](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L79411)
 
 ___
 
@@ -47,7 +47,7 @@ example:
 
 #### Defined in
 
-main.ts:79568
+[main.ts:79424](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L79424)
 
 ___
 
@@ -62,7 +62,7 @@ example:
 
 #### Defined in
 
-main.ts:79573
+[main.ts:79429](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L79429)
 
 ___
 
@@ -74,7 +74,7 @@ number of search results for the returned keyword
 
 #### Defined in
 
-main.ts:79563
+[main.ts:79419](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L79419)
 
 ___
 
@@ -86,7 +86,7 @@ search engine type
 
 #### Defined in
 
-main.ts:79552
+[main.ts:79408](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L79408)
 
 ___
 
@@ -102,4 +102,4 @@ note that the actual results will be returned only for organic, paid, featured_s
 
 #### Defined in
 
-main.ts:79561
+[main.ts:79417](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L79417)

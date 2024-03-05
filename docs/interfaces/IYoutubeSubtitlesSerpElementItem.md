@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IYoutubeSubtitlesSerpElementItem
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IYoutubeSubtitlesSerpElementItem
 
 # Interface: IYoutubeSubtitlesSerpElementItem
 
@@ -37,7 +37,7 @@ duration of subtitles in seconds
 
 #### Defined in
 
-main.ts:60441
+[main.ts:60297](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L60297)
 
 ___
 
@@ -49,7 +49,7 @@ the second subtitled text ends
 
 #### Defined in
 
-main.ts:60439
+[main.ts:60295](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L60295)
 
 ___
 
@@ -62,7 +62,7 @@ absolute position among all the elements in SERP
 
 #### Defined in
 
-main.ts:60433
+[main.ts:60289](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L60289)
 
 ___
 
@@ -76,7 +76,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-main.ts:60430
+[main.ts:60286](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L60286)
 
 ___
 
@@ -88,7 +88,7 @@ the second subtitled text starts
 
 #### Defined in
 
-main.ts:60437
+[main.ts:60293](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L60293)
 
 ___
 
@@ -100,4 +100,4 @@ text translated in subtitles
 
 #### Defined in
 
-main.ts:60435
+[main.ts:60291](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L60291)

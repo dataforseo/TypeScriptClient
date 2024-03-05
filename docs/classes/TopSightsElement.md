@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / TopSightsElement
+[dataforseo-client](../README.md) / [Exports](../modules.md) / TopSightsElement
 
 # Class: TopSightsElement
 
@@ -48,7 +48,7 @@
 
 #### Defined in
 
-main.ts:31769
+[main.ts:31627](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L31627)
 
 ## Properties
 
@@ -64,7 +64,7 @@ description of the results element in SERP
 
 #### Defined in
 
-main.ts:31762
+[main.ts:31620](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L31620)
 
 ___
 
@@ -81,7 +81,7 @@ the popularity rate based on reviews and displayed in SERP
 
 #### Defined in
 
-main.ts:31765
+[main.ts:31623](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L31623)
 
 ___
 
@@ -97,7 +97,7 @@ title of the row
 
 #### Defined in
 
-main.ts:31758
+[main.ts:31616](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L31616)
 
 ___
 
@@ -113,7 +113,7 @@ type of element
 
 #### Defined in
 
-main.ts:31756
+[main.ts:31614](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L31614)
 
 ___
 
@@ -129,7 +129,7 @@ URL
 
 #### Defined in
 
-main.ts:31760
+[main.ts:31618](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L31618)
 
 ## Methods
 
@@ -149,7 +149,7 @@ main.ts:31760
 
 #### Defined in
 
-main.ts:31778
+[main.ts:31636](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L31636)
 
 ___
 
@@ -169,7 +169,7 @@ ___
 
 #### Defined in
 
-main.ts:31799
+[main.ts:31657](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L31657)
 
 ___
 
@@ -189,4 +189,4 @@ ___
 
 #### Defined in
 
-main.ts:31792
+[main.ts:31650](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L31650)

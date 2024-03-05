@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / ICarouselElement
+[dataforseo-client](../README.md) / [Exports](../modules.md) / ICarouselElement
 
 # Interface: ICarouselElement
 
@@ -29,7 +29,7 @@ URL of the image
 
 #### Defined in
 
-main.ts:30121
+[main.ts:29979](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L29979)
 
 ___
 
@@ -41,7 +41,7 @@ subtitle of the element
 
 #### Defined in
 
-main.ts:30119
+[main.ts:29977](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L29977)
 
 ___
 
@@ -53,7 +53,7 @@ title of the row
 
 #### Defined in
 
-main.ts:30117
+[main.ts:29975](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L29975)
 
 ___
 
@@ -65,4 +65,4 @@ type of element
 
 #### Defined in
 
-main.ts:30115
+[main.ts:29973](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L29973)

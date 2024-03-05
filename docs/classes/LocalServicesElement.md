@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / LocalServicesElement
+[dataforseo-client](../README.md) / [Exports](../modules.md) / LocalServicesElement
 
 # Class: LocalServicesElement
 
@@ -50,7 +50,7 @@
 
 #### Defined in
 
-main.ts:33741
+[main.ts:33599](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L33599)
 
 ## Properties
 
@@ -66,7 +66,7 @@ description of the results element in SERP
 
 #### Defined in
 
-main.ts:33732
+[main.ts:33590](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L33590)
 
 ___
 
@@ -82,7 +82,7 @@ domain where a link points
 
 #### Defined in
 
-main.ts:33730
+[main.ts:33588](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L33588)
 
 ___
 
@@ -98,7 +98,7 @@ URL of the image featured in the element
 
 #### Defined in
 
-main.ts:33737
+[main.ts:33595](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L33595)
 
 ___
 
@@ -115,7 +115,7 @@ the popularity rate based on reviews and displayed in SERP
 
 #### Defined in
 
-main.ts:33735
+[main.ts:33593](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L33593)
 
 ___
 
@@ -131,7 +131,7 @@ title of the row
 
 #### Defined in
 
-main.ts:33726
+[main.ts:33584](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L33584)
 
 ___
 
@@ -147,7 +147,7 @@ type of element
 
 #### Defined in
 
-main.ts:33724
+[main.ts:33582](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L33582)
 
 ___
 
@@ -163,7 +163,7 @@ URL
 
 #### Defined in
 
-main.ts:33728
+[main.ts:33586](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L33586)
 
 ## Methods
 
@@ -183,7 +183,7 @@ main.ts:33728
 
 #### Defined in
 
-main.ts:33750
+[main.ts:33608](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L33608)
 
 ___
 
@@ -203,7 +203,7 @@ ___
 
 #### Defined in
 
-main.ts:33773
+[main.ts:33631](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L33631)
 
 ___
 
@@ -223,4 +223,4 @@ ___
 
 #### Defined in
 
-main.ts:33766
+[main.ts:33624](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L33624)

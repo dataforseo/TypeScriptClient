@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / ITopicListDataItemInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / ITopicListDataItemInfo
 
 # Interface: ITopicListDataItemInfo
 
@@ -29,7 +29,7 @@ unique topic identifier in Google Trends
 
 #### Defined in
 
-main.ts:120966
+[main.ts:120822](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L120822)
 
 ___
 
@@ -41,7 +41,7 @@ title of the topic
 
 #### Defined in
 
-main.ts:120968
+[main.ts:120824](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L120824)
 
 ___
 
@@ -54,7 +54,7 @@ represents the general type of the topic
 
 #### Defined in
 
-main.ts:120971
+[main.ts:120827](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L120827)
 
 ___
 
@@ -67,4 +67,4 @@ represents the popularity of the topic. Scoring is on a relative scale where a v
 
 #### Defined in
 
-main.ts:120974
+[main.ts:120830](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L120830)

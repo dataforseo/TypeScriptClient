@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / SearchIntentInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / SearchIntentInfo
 
 # Class: SearchIntentInfo
 
@@ -47,7 +47,7 @@
 
 #### Defined in
 
-main.ts:79704
+[main.ts:79560](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L79560)
 
 ## Properties
 
@@ -64,7 +64,7 @@ possible values: informational, navigational, commercial, transactional
 
 #### Defined in
 
-main.ts:79695
+[main.ts:79551](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L79551)
 
 ___
 
@@ -83,7 +83,7 @@ example:
 
 #### Defined in
 
-main.ts:79700
+[main.ts:79556](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L79556)
 
 ___
 
@@ -100,7 +100,7 @@ possible values: informational, navigational, commercial, transactional
 
 #### Defined in
 
-main.ts:79692
+[main.ts:79548](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L79548)
 
 ___
 
@@ -117,7 +117,7 @@ possible values: google
 
 #### Defined in
 
-main.ts:79689
+[main.ts:79545](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L79545)
 
 ## Methods
 
@@ -137,7 +137,7 @@ main.ts:79689
 
 #### Defined in
 
-main.ts:79713
+[main.ts:79569](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L79569)
 
 ___
 
@@ -157,7 +157,7 @@ ___
 
 #### Defined in
 
-main.ts:79737
+[main.ts:79593](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L79593)
 
 ___
 
@@ -177,4 +177,4 @@ ___
 
 #### Defined in
 
-main.ts:79730
+[main.ts:79586](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L79586)

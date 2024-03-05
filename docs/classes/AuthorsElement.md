@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / AuthorsElement
+[dataforseo-client](../README.md) / [Exports](../modules.md) / AuthorsElement
 
 # Class: AuthorsElement
 
@@ -47,7 +47,7 @@
 
 #### Defined in
 
-main.ts:50778
+[main.ts:50636](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L50636)
 
 ## Properties
 
@@ -63,7 +63,7 @@ author’s link domain
 
 #### Defined in
 
-main.ts:50774
+[main.ts:50632](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L50632)
 
 ___
 
@@ -79,7 +79,7 @@ name of the dataset author
 
 #### Defined in
 
-main.ts:50770
+[main.ts:50628](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L50628)
 
 ___
 
@@ -95,7 +95,7 @@ type of element
 
 #### Defined in
 
-main.ts:50768
+[main.ts:50626](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L50626)
 
 ___
 
@@ -111,7 +111,7 @@ author’s link URL
 
 #### Defined in
 
-main.ts:50772
+[main.ts:50630](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L50630)
 
 ## Methods
 
@@ -131,7 +131,7 @@ main.ts:50772
 
 #### Defined in
 
-main.ts:50787
+[main.ts:50645](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L50645)
 
 ___
 
@@ -151,7 +151,7 @@ ___
 
 #### Defined in
 
-main.ts:50807
+[main.ts:50665](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L50665)
 
 ___
 
@@ -171,4 +171,4 @@ ___
 
 #### Defined in
 
-main.ts:50800
+[main.ts:50658](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L50658)

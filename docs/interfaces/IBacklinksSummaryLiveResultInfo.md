@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IBacklinksSummaryLiveResultInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IBacklinksSummaryLiveResultInfo
 
 # Interface: IBacklinksSummaryLiveResultInfo
 
@@ -50,7 +50,7 @@ indicates the number of backlinks
 
 #### Defined in
 
-main.ts:129868
+[main.ts:129724](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L129724)
 
 ___
 
@@ -64,7 +64,7 @@ to learn more about how the metric is calculated, refer to this Help Center page
 
 #### Defined in
 
-main.ts:129872
+[main.ts:129728](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L129728)
 
 ___
 
@@ -77,7 +77,7 @@ number of broken backlinks pointing to the target
 
 #### Defined in
 
-main.ts:129885
+[main.ts:129741](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L129741)
 
 ___
 
@@ -91,7 +91,7 @@ note that the number of broken pages includes pages on the target discovered by 
 
 #### Defined in
 
-main.ts:129889
+[main.ts:129745](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L129745)
 
 ___
 
@@ -103,7 +103,7 @@ number of crawled pages for the target
 
 #### Defined in
 
-main.ts:129874
+[main.ts:129730](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L129730)
 
 ___
 
@@ -116,7 +116,7 @@ calculated as the sum of external links on the pages of the specified target
 
 #### Defined in
 
-main.ts:129882
+[main.ts:129738](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L129738)
 
 ___
 
@@ -131,7 +131,7 @@ example:
 
 #### Defined in
 
-main.ts:129857
+[main.ts:129713](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L129713)
 
 ___
 
@@ -143,7 +143,7 @@ information about the target
 
 #### Defined in
 
-main.ts:129876
+[main.ts:129732](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L129732)
 
 ___
 
@@ -156,7 +156,7 @@ calculated as the sum of internal links on the pages of the specified target
 
 #### Defined in
 
-main.ts:129879
+[main.ts:129735](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L129735)
 
 ___
 
@@ -172,7 +172,7 @@ example:
 
 #### Defined in
 
-main.ts:129863
+[main.ts:129719](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L129719)
 
 ___
 
@@ -185,7 +185,7 @@ learn more about the metric and how it is calculated in this help center article
 
 #### Defined in
 
-main.ts:129866
+[main.ts:129722](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L129722)
 
 ___
 
@@ -198,7 +198,7 @@ referring domains include subdomains that are counted as separate domains for th
 
 #### Defined in
 
-main.ts:129892
+[main.ts:129748](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L129748)
 
 ___
 
@@ -210,7 +210,7 @@ number of domains pointing at least one nofollow link to the target
 
 #### Defined in
 
-main.ts:129894
+[main.ts:129750](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L129750)
 
 ___
 
@@ -223,7 +223,7 @@ number of IP addresses pointing to this page
 
 #### Defined in
 
-main.ts:129901
+[main.ts:129757](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L129757)
 
 ___
 
@@ -242,7 +242,7 @@ nofollow, noopener, noreferrer, external, ugc, sponsored
 
 #### Defined in
 
-main.ts:129918
+[main.ts:129774](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L129774)
 
 ___
 
@@ -259,7 +259,7 @@ indicates ISO country codes of the domains where the referring links are located
 
 #### Defined in
 
-main.ts:129932
+[main.ts:129788](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L129788)
 
 ___
 
@@ -278,7 +278,7 @@ cms, blogs, unknown, ecommerce, message-boards
 
 #### Defined in
 
-main.ts:129923
+[main.ts:129779](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L129779)
 
 ___
 
@@ -298,7 +298,7 @@ article, section, summary, ""
 
 #### Defined in
 
-main.ts:129929
+[main.ts:129785](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L129785)
 
 ___
 
@@ -315,7 +315,7 @@ contains top level domains and referring link count per each
 
 #### Defined in
 
-main.ts:129908
+[main.ts:129764](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L129764)
 
 ___
 
@@ -334,7 +334,7 @@ anchor, image, link, meta, canonical, alternate, redirect
 
 #### Defined in
 
-main.ts:129913
+[main.ts:129769](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L129769)
 
 ___
 
@@ -346,7 +346,7 @@ indicates the number of referring main domains
 
 #### Defined in
 
-main.ts:129896
+[main.ts:129752](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L129752)
 
 ___
 
@@ -358,7 +358,7 @@ number of main domains pointing at least one nofollow link to the target
 
 #### Defined in
 
-main.ts:129898
+[main.ts:129754](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L129754)
 
 ___
 
@@ -370,7 +370,7 @@ indicates the number of pages pointing to the target
 
 #### Defined in
 
-main.ts:129905
+[main.ts:129761](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L129761)
 
 ___
 
@@ -382,7 +382,7 @@ number of referring subnetworks
 
 #### Defined in
 
-main.ts:129903
+[main.ts:129759](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L129759)
 
 ___
 
@@ -394,4 +394,4 @@ target in a POST array
 
 #### Defined in
 
-main.ts:129852
+[main.ts:129708](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L129708)

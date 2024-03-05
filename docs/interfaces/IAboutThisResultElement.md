@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IAboutThisResultElement
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IAboutThisResultElement
 
 # Interface: IAboutThisResultElement
 
@@ -34,7 +34,7 @@ the language of the result
 
 #### Defined in
 
-main.ts:20741
+[main.ts:20741](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L20741)
 
 ___
 
@@ -46,7 +46,7 @@ location for which the result is relevant
 
 #### Defined in
 
-main.ts:20743
+[main.ts:20743](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L20743)
 
 ___
 
@@ -58,7 +58,7 @@ related search terms that appear in the result
 
 #### Defined in
 
-main.ts:20747
+[main.ts:20747](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L20747)
 
 ___
 
@@ -70,7 +70,7 @@ matching search terms that appear in the result
 
 #### Defined in
 
-main.ts:20745
+[main.ts:20745](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L20745)
 
 ___
 
@@ -82,7 +82,7 @@ source of additional information about the result
 
 #### Defined in
 
-main.ts:20734
+[main.ts:20734](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L20734)
 
 ___
 
@@ -95,7 +95,7 @@ description of the website from Wikipedia or another additional context
 
 #### Defined in
 
-main.ts:20737
+[main.ts:20737](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L20737)
 
 ___
 
@@ -107,7 +107,7 @@ URL to full information from the 'source'
 
 #### Defined in
 
-main.ts:20739
+[main.ts:20739](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L20739)
 
 ___
 
@@ -119,7 +119,7 @@ type of element
 
 #### Defined in
 
-main.ts:20730
+[main.ts:20730](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L20730)
 
 ___
 
@@ -131,4 +131,4 @@ result’s URL
 
 #### Defined in
 
-main.ts:20732
+[main.ts:20732](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L20732)

@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IDataforseoLabsGoogleHistoricalRankOverviewLiveRequestInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IDataforseoLabsGoogleHistoricalRankOverviewLiveRequestInfo
 
 # Interface: IDataforseoLabsGoogleHistoricalRankOverviewLiveRequestInfo
 
@@ -39,7 +39,7 @@ we recommend always setting correlate to true
 
 #### Defined in
 
-main.ts:96569
+[main.ts:96425](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L96425)
 
 ___
 
@@ -55,7 +55,7 @@ date format: "yyyy-mm-dd"
 
 #### Defined in
 
-main.ts:96555
+[main.ts:96411](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L96411)
 
 ___
 
@@ -72,7 +72,7 @@ example:
 
 #### Defined in
 
-main.ts:96562
+[main.ts:96418](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L96418)
 
 ___
 
@@ -90,7 +90,7 @@ en
 
 #### Defined in
 
-main.ts:96549
+[main.ts:96405](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L96405)
 
 ___
 
@@ -108,7 +108,7 @@ English
 
 #### Defined in
 
-main.ts:96541
+[main.ts:96397](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L96397)
 
 ___
 
@@ -126,7 +126,7 @@ example:
 
 #### Defined in
 
-main.ts:96533
+[main.ts:96389](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L96389)
 
 ___
 
@@ -144,7 +144,7 @@ United Kingdom
 
 #### Defined in
 
-main.ts:96525
+[main.ts:96381](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L96381)
 
 ___
 
@@ -160,7 +160,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:96575
+[main.ts:96431](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L96431)
 
 ___
 
@@ -175,4 +175,4 @@ the domain should be specified without https:// and www.
 
 #### Defined in
 
-main.ts:96517
+[main.ts:96373](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L96373)

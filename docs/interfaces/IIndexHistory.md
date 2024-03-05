@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IIndexHistory
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IIndexHistory
 
 # Interface: IIndexHistory
 
@@ -32,7 +32,7 @@ example:
 
 #### Defined in
 
-main.ts:129144
+[main.ts:129000](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L129000)
 
 ___
 
@@ -44,7 +44,7 @@ total number of backlinks our database contained on the given date
 
 #### Defined in
 
-main.ts:129146
+[main.ts:129002](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L129002)
 
 ___
 
@@ -56,7 +56,7 @@ total number of domains our database contained on the given date
 
 #### Defined in
 
-main.ts:129150
+[main.ts:129006](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L129006)
 
 ___
 
@@ -68,4 +68,4 @@ total number of pages our database contained on the given date
 
 #### Defined in
 
-main.ts:129148
+[main.ts:129004](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L129004)

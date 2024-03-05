@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / Rectangle
+[dataforseo-client](../README.md) / [Exports](../modules.md) / Rectangle
 
 # Class: Rectangle
 
@@ -47,7 +47,7 @@
 
 #### Defined in
 
-main.ts:20859
+[main.ts:20859](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L20859)
 
 ## Properties
 
@@ -63,7 +63,7 @@ height of the element in pixels
 
 #### Defined in
 
-main.ts:20855
+[main.ts:20855](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L20855)
 
 ___
 
@@ -79,7 +79,7 @@ width of the element in pixels
 
 #### Defined in
 
-main.ts:20853
+[main.ts:20853](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L20853)
 
 ___
 
@@ -96,7 +96,7 @@ x-axis coordinate of the top-left corner of the result’s snippet, where top-le
 
 #### Defined in
 
-main.ts:20848
+[main.ts:20848](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L20848)
 
 ___
 
@@ -113,7 +113,7 @@ y-axis coordinate of the top-left corner of the result’s snippet, where top-le
 
 #### Defined in
 
-main.ts:20851
+[main.ts:20851](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L20851)
 
 ## Methods
 
@@ -133,7 +133,7 @@ main.ts:20851
 
 #### Defined in
 
-main.ts:20868
+[main.ts:20868](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L20868)
 
 ___
 
@@ -153,7 +153,7 @@ ___
 
 #### Defined in
 
-main.ts:20888
+[main.ts:20888](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L20888)
 
 ___
 
@@ -173,4 +173,4 @@ ___
 
 #### Defined in
 
-main.ts:20881
+[main.ts:20881](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L20881)

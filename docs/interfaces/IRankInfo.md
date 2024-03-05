@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IRankInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IRankInfo
 
 # Interface: IRankInfo
 
@@ -29,7 +29,7 @@ learn more about the metric and how it is calculated in this help center article
 
 #### Defined in
 
-main.ts:86761
+[main.ts:86617](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L86617)
 
 ___
 
@@ -43,4 +43,4 @@ learn more about the metric and how it is calculated in this help center article
 
 #### Defined in
 
-main.ts:86757
+[main.ts:86613](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L86613)

@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IOnPageInstantPagesResultInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IOnPageInstantPagesResultInfo
 
 # Interface: IOnPageInstantPagesResultInfo
 
@@ -32,7 +32,7 @@ you can find the full list of IPs used by our crawler in the Overview section
 
 #### Defined in
 
-main.ts:153534
+[main.ts:153390](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L153390)
 
 ___
 
@@ -45,7 +45,7 @@ possible values: in_progress, finished
 
 #### Defined in
 
-main.ts:153527
+[main.ts:153383](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L153383)
 
 ___
 
@@ -58,7 +58,7 @@ in this case the value will be null
 
 #### Defined in
 
-main.ts:153530
+[main.ts:153386](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L153386)
 
 ___
 
@@ -70,7 +70,7 @@ items array
 
 #### Defined in
 
-main.ts:153538
+[main.ts:153394](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L153394)
 
 ___
 
@@ -82,4 +82,4 @@ number of items in the results array
 
 #### Defined in
 
-main.ts:153536
+[main.ts:153392](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L153392)

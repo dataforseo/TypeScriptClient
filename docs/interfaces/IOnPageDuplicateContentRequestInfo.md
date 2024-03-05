@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IOnPageDuplicateContentRequestInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IOnPageDuplicateContentRequestInfo
 
 # Interface: IOnPageDuplicateContentRequestInfo
 
@@ -35,7 +35,7 @@ example:
 
 #### Defined in
 
-main.ts:147660
+[main.ts:147516](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L147516)
 
 ___
 
@@ -50,7 +50,7 @@ maximum value: 1000
 
 #### Defined in
 
-main.ts:147673
+[main.ts:147529](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L147529)
 
 ___
 
@@ -65,7 +65,7 @@ if you specify the 10 value, the first ten pages in the results array will be om
 
 #### Defined in
 
-main.ts:147678
+[main.ts:147534](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L147534)
 
 ___
 
@@ -79,7 +79,7 @@ you can specify any similarity score in the 0-to-10 range
 
 #### Defined in
 
-main.ts:147668
+[main.ts:147524](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L147524)
 
 ___
 
@@ -95,7 +95,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:147684
+[main.ts:147540](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L147540)
 
 ___
 
@@ -109,4 +109,4 @@ specify the initial page you want to receive duplicate content for
 
 #### Defined in
 
-main.ts:147664
+[main.ts:147520](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L147520)

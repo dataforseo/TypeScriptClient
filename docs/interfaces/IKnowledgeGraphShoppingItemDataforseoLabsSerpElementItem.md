@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IKnowledgeGraphShoppingItemDataforseoLabsSerpElementItem
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IKnowledgeGraphShoppingItemDataforseoLabsSerpElementItem
 
 # Interface: IKnowledgeGraphShoppingItemDataforseoLabsSerpElementItem
 
@@ -40,7 +40,7 @@ kc:/shopping/gpc:organic-offers
 
 #### Defined in
 
-main.ts:94148
+[main.ts:94004](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L94004)
 
 ___
 
@@ -52,7 +52,7 @@ elements of search results found in SERP
 
 #### Defined in
 
-main.ts:94150
+[main.ts:94006](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L94006)
 
 ___
 
@@ -66,7 +66,7 @@ left, right
 
 #### Defined in
 
-main.ts:94140
+[main.ts:93996](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L93996)
 
 ___
 
@@ -79,7 +79,7 @@ absolute position among all the elements in SERP
 
 #### Defined in
 
-main.ts:94136
+[main.ts:93992](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L93992)
 
 ___
 
@@ -92,7 +92,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-main.ts:94133
+[main.ts:93989](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L93989)
 
 ___
 
@@ -104,7 +104,7 @@ title of the result in SERP
 
 #### Defined in
 
-main.ts:94144
+[main.ts:94000](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L94000)
 
 ___
 
@@ -116,4 +116,4 @@ the XPath of the element
 
 #### Defined in
 
-main.ts:94142
+[main.ts:93998](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L93998)

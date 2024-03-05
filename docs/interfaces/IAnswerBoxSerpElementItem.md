@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IAnswerBoxSerpElementItem
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IAnswerBoxSerpElementItem
 
 # Interface: IAnswerBoxSerpElementItem
 
@@ -38,7 +38,7 @@ link of the element
 
 #### Defined in
 
-main.ts:30527
+[main.ts:30385](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L30385)
 
 ___
 
@@ -52,7 +52,7 @@ left, right
 
 #### Defined in
 
-main.ts:30520
+[main.ts:30378](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L30378)
 
 ___
 
@@ -65,7 +65,7 @@ absolute position among all the elements in SERP
 
 #### Defined in
 
-main.ts:30516
+[main.ts:30374](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L30374)
 
 ___
 
@@ -79,7 +79,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-main.ts:30513
+[main.ts:30371](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L30371)
 
 ___
 
@@ -93,7 +93,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 #### Defined in
 
-main.ts:30531
+[main.ts:30389](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L30389)
 
 ___
 
@@ -106,7 +106,7 @@ if there is none, equals null
 
 #### Defined in
 
-main.ts:30525
+[main.ts:30383](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L30383)
 
 ___
 
@@ -118,4 +118,4 @@ the XPath of the element
 
 #### Defined in
 
-main.ts:30522
+[main.ts:30380](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L30380)

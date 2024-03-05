@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / ContentGenerationCheckGrammarLiveResultInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / ContentGenerationCheckGrammarLiveResultInfo
 
 # Class: ContentGenerationCheckGrammarLiveResultInfo
 
@@ -50,7 +50,7 @@
 
 #### Defined in
 
-main.ts:161725
+[main.ts:161605](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L161605)
 
 ## Properties
 
@@ -66,7 +66,7 @@ initial text in the POST request
 
 #### Defined in
 
-main.ts:161715
+[main.ts:161595](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L161595)
 
 ___
 
@@ -82,7 +82,7 @@ number of input tokens in the POST request
 
 #### Defined in
 
-main.ts:161709
+[main.ts:161589](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L161589)
 
 ___
 
@@ -98,7 +98,7 @@ contains grammar or spelling errors and related data
 
 #### Defined in
 
-main.ts:161721
+[main.ts:161601](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L161601)
 
 ___
 
@@ -114,7 +114,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:161719
+[main.ts:161599](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L161599)
 
 ___
 
@@ -130,7 +130,7 @@ language code in the POST request
 
 #### Defined in
 
-main.ts:161717
+[main.ts:161597](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L161597)
 
 ___
 
@@ -146,7 +146,7 @@ number of new tokens in the response
 
 #### Defined in
 
-main.ts:161713
+[main.ts:161593](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L161593)
 
 ___
 
@@ -162,7 +162,7 @@ number of output tokens in the response
 
 #### Defined in
 
-main.ts:161711
+[main.ts:161591](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L161591)
 
 ## Methods
 
@@ -182,7 +182,7 @@ main.ts:161711
 
 #### Defined in
 
-main.ts:161734
+[main.ts:161614](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L161614)
 
 ___
 
@@ -202,7 +202,7 @@ ___
 
 #### Defined in
 
-main.ts:161761
+[main.ts:161641](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L161641)
 
 ___
 
@@ -222,4 +222,4 @@ ___
 
 #### Defined in
 
-main.ts:161754
+[main.ts:161634](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L161634)

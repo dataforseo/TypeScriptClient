@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IHtmlItem
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IHtmlItem
 
 # Interface: IHtmlItem
 
@@ -31,7 +31,7 @@ example:
 
 #### Defined in
 
-main.ts:36483
+[main.ts:36341](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L36341)
 
 ___
 
@@ -43,7 +43,7 @@ HTML page
 
 #### Defined in
 
-main.ts:36485
+[main.ts:36343](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L36343)
 
 ___
 
@@ -55,4 +55,4 @@ serial number of the returned HTML page
 
 #### Defined in
 
-main.ts:36478
+[main.ts:36336](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L36336)

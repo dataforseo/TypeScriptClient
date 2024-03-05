@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / AppRankedSerpElementInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / AppRankedSerpElementInfo
 
 # Class: AppRankedSerpElementInfo
 
@@ -49,7 +49,7 @@
 
 #### Defined in
 
-main.ts:108777
+[main.ts:108633](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L108633)
 
 ## Properties
 
@@ -66,7 +66,7 @@ you can use it to make sure that we provided accurate results
 
 #### Defined in
 
-main.ts:108760
+[main.ts:108616](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L108616)
 
 ___
 
@@ -85,7 +85,7 @@ example:
 
 #### Defined in
 
-main.ts:108767
+[main.ts:108623](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L108623)
 
 ___
 
@@ -105,7 +105,7 @@ in this case, will equal null
 
 #### Defined in
 
-main.ts:108773
+[main.ts:108629](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L108629)
 
 ___
 
@@ -121,7 +121,7 @@ number of search results for the returned keyword
 
 #### Defined in
 
-main.ts:108762
+[main.ts:108618](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L108618)
 
 ___
 
@@ -137,7 +137,7 @@ search engine type
 
 #### Defined in
 
-main.ts:108754
+[main.ts:108610](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L108610)
 
 ___
 
@@ -154,7 +154,7 @@ the list of supported SERP elements can be found below
 
 #### Defined in
 
-main.ts:108757
+[main.ts:108613](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L108613)
 
 ## Methods
 
@@ -174,7 +174,7 @@ main.ts:108757
 
 #### Defined in
 
-main.ts:108786
+[main.ts:108642](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L108642)
 
 ___
 
@@ -194,7 +194,7 @@ ___
 
 #### Defined in
 
-main.ts:108808
+[main.ts:108664](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L108664)
 
 ___
 
@@ -214,4 +214,4 @@ ___
 
 #### Defined in
 
-main.ts:108801
+[main.ts:108657](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L108657)

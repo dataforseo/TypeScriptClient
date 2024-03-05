@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IKeywordsDataBingKeywordPerformanceTaskGetResultInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IKeywordsDataBingKeywordPerformanceTaskGetResultInfo
 
 # Interface: IKeywordsDataBingKeywordPerformanceTaskGetResultInfo
 
@@ -31,7 +31,7 @@ keyword in a POST array
 
 #### Defined in
 
-main.ts:127555
+[main.ts:127411](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L127411)
 
 ___
 
@@ -44,7 +44,7 @@ if there is no data, then the value is null
 
 #### Defined in
 
-main.ts:127572
+[main.ts:127428](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L127428)
 
 ___
 
@@ -57,7 +57,7 @@ if there is no data, then the value is null
 
 #### Defined in
 
-main.ts:127561
+[main.ts:127417](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L127417)
 
 ___
 
@@ -70,7 +70,7 @@ if there is no data, then the value is null
 
 #### Defined in
 
-main.ts:127558
+[main.ts:127414](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L127414)
 
 ___
 
@@ -84,7 +84,7 @@ example:
 
 #### Defined in
 
-main.ts:127569
+[main.ts:127425](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L127425)
 
 ___
 
@@ -98,4 +98,4 @@ example:
 
 #### Defined in
 
-main.ts:127565
+[main.ts:127421](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L127421)

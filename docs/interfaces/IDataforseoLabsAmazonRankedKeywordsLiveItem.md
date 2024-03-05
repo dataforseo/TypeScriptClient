@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IDataforseoLabsAmazonRankedKeywordsLiveItem
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IDataforseoLabsAmazonRankedKeywordsLiveItem
 
 # Interface: IDataforseoLabsAmazonRankedKeywordsLiveItem
 
@@ -28,7 +28,7 @@ keyword data for the returned keyword
 
 #### Defined in
 
-main.ts:100349
+[main.ts:100205](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L100205)
 
 ___
 
@@ -40,7 +40,7 @@ contains data on the products’s SERP element found for the returned keyword
 
 #### Defined in
 
-main.ts:100351
+[main.ts:100207](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L100207)
 
 ___
 
@@ -52,4 +52,4 @@ search engine type
 
 #### Defined in
 
-main.ts:100347
+[main.ts:100203](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L100203)

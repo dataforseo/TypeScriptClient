@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IAvailableLanguages
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IAvailableLanguages
 
 # Interface: IAvailableLanguages
 
@@ -32,7 +32,7 @@ only google and bing are currently available
 
 #### Defined in
 
-main.ts:78057
+[main.ts:77913](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L77913)
 
 ___
 
@@ -44,7 +44,7 @@ the number of keywords available for the given location and language
 
 #### Defined in
 
-main.ts:78063
+[main.ts:77919](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L77919)
 
 ___
 
@@ -56,7 +56,7 @@ language code according to ISO 639-1
 
 #### Defined in
 
-main.ts:78061
+[main.ts:77917](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L77917)
 
 ___
 
@@ -68,7 +68,7 @@ language name
 
 #### Defined in
 
-main.ts:78059
+[main.ts:77915](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L77915)
 
 ___
 
@@ -80,4 +80,4 @@ the number of SERP pages available for the given location and language
 
 #### Defined in
 
-main.ts:78065
+[main.ts:77921](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L77921)

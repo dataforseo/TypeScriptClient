@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IContentGenerationGrammarRulesResultInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IContentGenerationGrammarRulesResultInfo
 
 # Interface: IContentGenerationGrammarRulesResultInfo
 
@@ -26,4 +26,4 @@ array of rules
 
 #### Defined in
 
-main.ts:162130
+[main.ts:162010](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L162010)

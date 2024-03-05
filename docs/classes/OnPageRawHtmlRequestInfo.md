@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / OnPageRawHtmlRequestInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / OnPageRawHtmlRequestInfo
 
 # Class: OnPageRawHtmlRequestInfo
 
@@ -45,7 +45,7 @@
 
 #### Defined in
 
-main.ts:151292
+[main.ts:151148](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L151148)
 
 ## Properties
 
@@ -65,7 +65,7 @@ example:
 
 #### Defined in
 
-main.ts:151283
+[main.ts:151139](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L151139)
 
 ___
 
@@ -84,7 +84,7 @@ Note: this field is optional if the task was set using the Instant Pages endpoin
 
 #### Defined in
 
-main.ts:151288
+[main.ts:151144](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L151144)
 
 ## Methods
 
@@ -104,7 +104,7 @@ main.ts:151288
 
 #### Defined in
 
-main.ts:151301
+[main.ts:151157](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L151157)
 
 ___
 
@@ -124,7 +124,7 @@ ___
 
 #### Defined in
 
-main.ts:151319
+[main.ts:151175](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L151175)
 
 ___
 
@@ -144,4 +144,4 @@ ___
 
 #### Defined in
 
-main.ts:151312
+[main.ts:151168](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L151168)

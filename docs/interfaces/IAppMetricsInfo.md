@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IAppMetricsInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IAppMetricsInfo
 
 # Interface: IAppMetricsInfo
 
@@ -31,7 +31,7 @@ total count of Amazon organic SERPs that contain the product
 
 #### Defined in
 
-main.ts:100785
+[main.ts:100641](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L100641)
 
 ___
 
@@ -43,7 +43,7 @@ number of organic SERPs where the product ranks #1
 
 #### Defined in
 
-main.ts:100777
+[main.ts:100633](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L100633)
 
 ___
 
@@ -55,7 +55,7 @@ number of organic SERPs where the product ranks #11-100
 
 #### Defined in
 
-main.ts:100783
+[main.ts:100639](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L100639)
 
 ___
 
@@ -67,7 +67,7 @@ number of organic SERPs where the product ranks #2-3
 
 #### Defined in
 
-main.ts:100779
+[main.ts:100635](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L100635)
 
 ___
 
@@ -79,7 +79,7 @@ number of organic SERPs where the product ranks #4-10
 
 #### Defined in
 
-main.ts:100781
+[main.ts:100637](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L100637)
 
 ___
 
@@ -91,4 +91,4 @@ total search volume of the product’s ranking keywords in organic SERP
 
 #### Defined in
 
-main.ts:100787
+[main.ts:100643](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L100643)

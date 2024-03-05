@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IBusinessDataBusinessListingsCategoriesResultInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IBusinessDataBusinessListingsCategoriesResultInfo
 
 # Interface: IBusinessDataBusinessListingsCategoriesResultInfo
 
@@ -27,7 +27,7 @@ number of businesses in the category
 
 #### Defined in
 
-main.ts:188175
+[main.ts:188055](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L188055)
 
 ___
 
@@ -39,4 +39,4 @@ full name of the category
 
 #### Defined in
 
-main.ts:188173
+[main.ts:188053](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L188053)

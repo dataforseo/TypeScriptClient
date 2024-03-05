@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IBusinessDataYelpReviewsTaskGetResultInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IBusinessDataYelpReviewsTaskGetResultInfo
 
 # Interface: IBusinessDataYelpReviewsTaskGetResultInfo
 
@@ -38,7 +38,7 @@ Yelp business identifier
 
 #### Defined in
 
-main.ts:205597
+[main.ts:205477](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L205477)
 
 ___
 
@@ -51,7 +51,7 @@ you can use it to make sure that we provided accurate results
 
 #### Defined in
 
-main.ts:205609
+[main.ts:205489](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L205489)
 
 ___
 
@@ -66,7 +66,7 @@ example:
 
 #### Defined in
 
-main.ts:205614
+[main.ts:205494](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L205494)
 
 ___
 
@@ -79,7 +79,7 @@ you can get more results by using the depth parameter when setting a task
 
 #### Defined in
 
-main.ts:205627
+[main.ts:205507](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L205507)
 
 ___
 
@@ -92,7 +92,7 @@ you can get more results by using the depth parameter when setting a task
 
 #### Defined in
 
-main.ts:205624
+[main.ts:205504](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L205504)
 
 ___
 
@@ -105,7 +105,7 @@ this field will contain the alias parameter if it was specified in a POST array
 
 #### Defined in
 
-main.ts:205595
+[main.ts:205475](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L205475)
 
 ___
 
@@ -117,7 +117,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:205606
+[main.ts:205486](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L205486)
 
 ___
 
@@ -130,7 +130,7 @@ if location_code was not specified in a POST array, the value equals null
 
 #### Defined in
 
-main.ts:205604
+[main.ts:205484](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L205484)
 
 ___
 
@@ -142,7 +142,7 @@ the rating score submitted by the reviewer
 
 #### Defined in
 
-main.ts:205619
+[main.ts:205499](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L205499)
 
 ___
 
@@ -154,7 +154,7 @@ the total number of reviews
 
 #### Defined in
 
-main.ts:205621
+[main.ts:205501](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L205501)
 
 ___
 
@@ -166,7 +166,7 @@ search engine domain in a POST array
 
 #### Defined in
 
-main.ts:205601
+[main.ts:205481](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L205481)
 
 ___
 
@@ -179,7 +179,7 @@ the name of the local establishment for which the reviews are collected
 
 #### Defined in
 
-main.ts:205617
+[main.ts:205497](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L205497)
 
 ___
 
@@ -191,4 +191,4 @@ type of element
 
 #### Defined in
 
-main.ts:205599
+[main.ts:205479](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L205479)

@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / MapsPaidItemSerpElementItem
+[dataforseo-client](../README.md) / [Exports](../modules.md) / MapsPaidItemSerpElementItem
 
 # Class: MapsPaidItemSerpElementItem
 
@@ -61,7 +61,7 @@
 
 #### Defined in
 
-main.ts:38873
+[main.ts:38731](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L38731)
 
 ## Properties
 
@@ -75,7 +75,7 @@ main.ts:38873
 
 #### Defined in
 
-main.ts:19337
+[main.ts:19337](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L19337)
 
 ___
 
@@ -91,7 +91,7 @@ domain in the SERP element
 
 #### Defined in
 
-main.ts:38859
+[main.ts:38717](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L38717)
 
 ___
 
@@ -108,7 +108,7 @@ absolute position among all the elements in SERP
 
 #### Defined in
 
-main.ts:38857
+[main.ts:38715](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L38715)
 
 ___
 
@@ -126,7 +126,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-main.ts:38854
+[main.ts:38712](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L38712)
 
 ___
 
@@ -143,7 +143,7 @@ the popularity rate based on reviews and displayed in SERP
 
 #### Defined in
 
-main.ts:38866
+[main.ts:38724](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L38724)
 
 ___
 
@@ -164,7 +164,7 @@ the object displays the number of 1-star to 5-star ratings, as reviewed by users
 
 #### Defined in
 
-main.ts:38869
+[main.ts:38727](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L38727)
 
 ___
 
@@ -180,7 +180,7 @@ title of the result in SERP
 
 #### Defined in
 
-main.ts:38861
+[main.ts:38719](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L38719)
 
 ___
 
@@ -196,7 +196,7 @@ relevant URL in SERP
 
 #### Defined in
 
-main.ts:38863
+[main.ts:38721](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L38721)
 
 ## Methods
 
@@ -220,7 +220,7 @@ main.ts:38863
 
 #### Defined in
 
-main.ts:38878
+[main.ts:38736](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L38736)
 
 ___
 
@@ -244,7 +244,7 @@ ___
 
 #### Defined in
 
-main.ts:38908
+[main.ts:38766](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L38766)
 
 ___
 
@@ -268,4 +268,4 @@ ___
 
 #### Defined in
 
-main.ts:38901
+[main.ts:38759](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L38759)

@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / ISerpGoogleSearchByImageTaskPostRequestInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / ISerpGoogleSearchByImageTaskPostRequestInfo
 
 # Interface: ISerpGoogleSearchByImageTaskPostRequestInfo
 
@@ -47,7 +47,7 @@ Note: to use this parameter, set calculate_rectangles to true
 
 #### Defined in
 
-main.ts:47581
+[main.ts:47439](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L47439)
 
 ___
 
@@ -63,7 +63,7 @@ Note: to use this parameter, set calculate_rectangles to true
 
 #### Defined in
 
-main.ts:47587
+[main.ts:47445](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L47445)
 
 ___
 
@@ -79,7 +79,7 @@ Note: to use this parameter, set calculate_rectangles to true
 
 #### Defined in
 
-main.ts:47575
+[main.ts:47433](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L47433)
 
 ___
 
@@ -96,7 +96,7 @@ Note: if set to true, the charge per task will be multiplied by 2
 
 #### Defined in
 
-main.ts:47569
+[main.ts:47427](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L47427)
 
 ___
 
@@ -112,7 +112,7 @@ https://upload.wikimedia.org/wikipedia/commons/e/ed/Elon_Musk_Royal_Society.jpg
 
 #### Defined in
 
-main.ts:47502
+[main.ts:47360](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L47360)
 
 ___
 
@@ -129,7 +129,7 @@ en
 
 #### Defined in
 
-main.ts:47555
+[main.ts:47413](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L47413)
 
 ___
 
@@ -146,7 +146,7 @@ English
 
 #### Defined in
 
-main.ts:47548
+[main.ts:47406](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L47406)
 
 ___
 
@@ -163,7 +163,7 @@ example:
 
 #### Defined in
 
-main.ts:47531
+[main.ts:47389](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L47389)
 
 ___
 
@@ -183,7 +183,7 @@ example:
 
 #### Defined in
 
-main.ts:47541
+[main.ts:47399](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L47399)
 
 ___
 
@@ -200,7 +200,7 @@ London,England,United Kingdom
 
 #### Defined in
 
-main.ts:47524
+[main.ts:47382](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L47382)
 
 ___
 
@@ -217,7 +217,7 @@ learn more at our help center
 
 #### Defined in
 
-main.ts:47517
+[main.ts:47375](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L47375)
 
 ___
 
@@ -237,7 +237,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-main.ts:47623
+[main.ts:47481](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L47481)
 
 ___
 
@@ -253,7 +253,7 @@ advanced
 
 #### Defined in
 
-main.ts:47613
+[main.ts:47471](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L47471)
 
 ___
 
@@ -273,7 +273,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-main.ts:47607
+[main.ts:47465](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L47465)
 
 ___
 
@@ -291,7 +291,7 @@ The cost can be calculated on the Pricing page.
 
 #### Defined in
 
-main.ts:47510
+[main.ts:47368](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L47368)
 
 ___
 
@@ -308,7 +308,7 @@ google.co.uk, google.com.au, google.de, etc.
 
 #### Defined in
 
-main.ts:47562
+[main.ts:47420](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L47420)
 
 ___
 
@@ -322,7 +322,7 @@ get the list of available parameters and additional details here
 
 #### Defined in
 
-main.ts:47591
+[main.ts:47449](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L47449)
 
 ___
 
@@ -338,4 +338,4 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:47597
+[main.ts:47455](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L47455)

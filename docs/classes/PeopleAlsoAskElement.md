@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / PeopleAlsoAskElement
+[dataforseo-client](../README.md) / [Exports](../modules.md) / PeopleAlsoAskElement
 
 # Class: PeopleAlsoAskElement
 
@@ -48,7 +48,7 @@
 
 #### Defined in
 
-main.ts:28646
+[main.ts:28504](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L28504)
 
 ## Properties
 
@@ -64,7 +64,7 @@ expanded element
 
 #### Defined in
 
-main.ts:28642
+[main.ts:28500](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L28500)
 
 ___
 
@@ -80,7 +80,7 @@ question that triggered additional expanded elements
 
 #### Defined in
 
-main.ts:28638
+[main.ts:28496](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L28496)
 
 ___
 
@@ -96,7 +96,7 @@ title of the row
 
 #### Defined in
 
-main.ts:28636
+[main.ts:28494](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L28494)
 
 ___
 
@@ -112,7 +112,7 @@ type of element
 
 #### Defined in
 
-main.ts:28634
+[main.ts:28492](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L28492)
 
 ___
 
@@ -128,7 +128,7 @@ the XPath of the element
 
 #### Defined in
 
-main.ts:28640
+[main.ts:28498](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L28498)
 
 ## Methods
 
@@ -148,7 +148,7 @@ main.ts:28640
 
 #### Defined in
 
-main.ts:28655
+[main.ts:28513](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L28513)
 
 ___
 
@@ -168,7 +168,7 @@ ___
 
 #### Defined in
 
-main.ts:28680
+[main.ts:28538](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L28538)
 
 ___
 
@@ -188,4 +188,4 @@ ___
 
 #### Defined in
 
-main.ts:28673
+[main.ts:28531](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L28531)

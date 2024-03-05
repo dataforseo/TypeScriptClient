@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IPages
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IPages
 
 # Interface: IPages
 
@@ -27,7 +27,7 @@ information about the page with duplicate content
 
 #### Defined in
 
-main.ts:147752
+[main.ts:147608](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L147608)
 
 ___
 
@@ -41,4 +41,4 @@ can take values from 0 to 10
 
 #### Defined in
 
-main.ts:147750
+[main.ts:147606](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L147606)

@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / BacklinksTimeseriesSummaryLiveResultInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / BacklinksTimeseriesSummaryLiveResultInfo
 
 # Class: BacklinksTimeseriesSummaryLiveResultInfo
 
@@ -49,7 +49,7 @@
 
 #### Defined in
 
-main.ts:138789
+[main.ts:138645](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L138645)
 
 ## Properties
 
@@ -68,7 +68,7 @@ example:
 
 #### Defined in
 
-main.ts:138774
+[main.ts:138630](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L138630)
 
 ___
 
@@ -87,7 +87,7 @@ example:
 
 #### Defined in
 
-main.ts:138779
+[main.ts:138635](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L138635)
 
 ___
 
@@ -103,7 +103,7 @@ group_range from a POST array
 
 #### Defined in
 
-main.ts:138781
+[main.ts:138637](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L138637)
 
 ___
 
@@ -119,7 +119,7 @@ contains relevant summary data
 
 #### Defined in
 
-main.ts:138785
+[main.ts:138641](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L138641)
 
 ___
 
@@ -135,7 +135,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:138783
+[main.ts:138639](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L138639)
 
 ___
 
@@ -151,7 +151,7 @@ target from a POST array
 
 #### Defined in
 
-main.ts:138769
+[main.ts:138625](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L138625)
 
 ## Methods
 
@@ -171,7 +171,7 @@ main.ts:138769
 
 #### Defined in
 
-main.ts:138798
+[main.ts:138654](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L138654)
 
 ___
 
@@ -191,7 +191,7 @@ ___
 
 #### Defined in
 
-main.ts:138824
+[main.ts:138680](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L138680)
 
 ___
 
@@ -211,4 +211,4 @@ ___
 
 #### Defined in
 
-main.ts:138817
+[main.ts:138673](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L138673)

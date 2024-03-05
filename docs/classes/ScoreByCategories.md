@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / ScoreByCategories
+[dataforseo-client](../README.md) / [Exports](../modules.md) / ScoreByCategories
 
 # Class: ScoreByCategories
 
@@ -48,7 +48,7 @@
 
 #### Defined in
 
-main.ts:196924
+[main.ts:196804](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L196804)
 
 ## Properties
 
@@ -66,7 +66,7 @@ calculated based on data from the hotel’s proximity to nearby airports
 
 #### Defined in
 
-main.ts:196920
+[main.ts:196800](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L196800)
 
 ___
 
@@ -85,7 +85,7 @@ note that the criteria are not weighted equally in the overall score
 
 #### Defined in
 
-main.ts:196904
+[main.ts:196784](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L196784)
 
 ___
 
@@ -103,7 +103,7 @@ calculated based on data from the hotel’s proximity to nearby restaurants
 
 #### Defined in
 
-main.ts:196912
+[main.ts:196792](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L196792)
 
 ___
 
@@ -121,7 +121,7 @@ calculated based on data from the hotel’s proximity to nearby things to do
 
 #### Defined in
 
-main.ts:196908
+[main.ts:196788](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L196788)
 
 ___
 
@@ -139,7 +139,7 @@ calculated based on data from the hotel’s proximity to nearby transit options
 
 #### Defined in
 
-main.ts:196916
+[main.ts:196796](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L196796)
 
 ## Methods
 
@@ -159,7 +159,7 @@ main.ts:196916
 
 #### Defined in
 
-main.ts:196933
+[main.ts:196813](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L196813)
 
 ___
 
@@ -179,7 +179,7 @@ ___
 
 #### Defined in
 
-main.ts:196954
+[main.ts:196834](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L196834)
 
 ___
 
@@ -199,4 +199,4 @@ ___
 
 #### Defined in
 
-main.ts:196947
+[main.ts:196827](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L196827)

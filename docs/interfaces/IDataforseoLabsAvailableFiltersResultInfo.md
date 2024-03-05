@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IDataforseoLabsAvailableFiltersResultInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IDataforseoLabsAvailableFiltersResultInfo
 
 # Interface: IDataforseoLabsAvailableFiltersResultInfo
 
@@ -49,7 +49,7 @@
 
 #### Defined in
 
-main.ts:77871
+[main.ts:77727](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L77727)
 
 ___
 
@@ -63,7 +63,7 @@ ___
 
 #### Defined in
 
-main.ts:77870
+[main.ts:77726](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L77726)
 
 ___
 
@@ -77,7 +77,7 @@ ___
 
 #### Defined in
 
-main.ts:77860
+[main.ts:77716](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L77716)
 
 ___
 
@@ -91,7 +91,7 @@ ___
 
 #### Defined in
 
-main.ts:77859
+[main.ts:77715](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L77715)
 
 ___
 
@@ -105,7 +105,7 @@ ___
 
 #### Defined in
 
-main.ts:77873
+[main.ts:77729](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L77729)
 
 ___
 
@@ -119,7 +119,7 @@ ___
 
 #### Defined in
 
-main.ts:77862
+[main.ts:77718](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L77718)
 
 ___
 
@@ -133,7 +133,7 @@ ___
 
 #### Defined in
 
-main.ts:77866
+[main.ts:77722](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L77722)
 
 ___
 
@@ -147,7 +147,7 @@ ___
 
 #### Defined in
 
-main.ts:77864
+[main.ts:77720](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L77720)
 
 ___
 
@@ -161,7 +161,7 @@ ___
 
 #### Defined in
 
-main.ts:77855
+[main.ts:77711](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L77711)
 
 ___
 
@@ -175,7 +175,7 @@ ___
 
 #### Defined in
 
-main.ts:77853
+[main.ts:77709](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L77709)
 
 ___
 
@@ -189,7 +189,7 @@ ___
 
 #### Defined in
 
-main.ts:77872
+[main.ts:77728](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L77728)
 
 ___
 
@@ -203,7 +203,7 @@ ___
 
 #### Defined in
 
-main.ts:77861
+[main.ts:77717](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L77717)
 
 ___
 
@@ -217,7 +217,7 @@ ___
 
 #### Defined in
 
-main.ts:77867
+[main.ts:77723](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L77723)
 
 ___
 
@@ -231,7 +231,7 @@ ___
 
 #### Defined in
 
-main.ts:77863
+[main.ts:77719](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L77719)
 
 ___
 
@@ -245,7 +245,7 @@ ___
 
 #### Defined in
 
-main.ts:77868
+[main.ts:77724](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L77724)
 
 ___
 
@@ -259,7 +259,7 @@ ___
 
 #### Defined in
 
-main.ts:77869
+[main.ts:77725](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L77725)
 
 ___
 
@@ -273,7 +273,7 @@ ___
 
 #### Defined in
 
-main.ts:77854
+[main.ts:77710](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L77710)
 
 ___
 
@@ -287,7 +287,7 @@ ___
 
 #### Defined in
 
-main.ts:77852
+[main.ts:77708](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L77708)
 
 ___
 
@@ -301,7 +301,7 @@ ___
 
 #### Defined in
 
-main.ts:77857
+[main.ts:77713](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L77713)
 
 ___
 
@@ -315,7 +315,7 @@ ___
 
 #### Defined in
 
-main.ts:77856
+[main.ts:77712](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L77712)
 
 ___
 
@@ -329,7 +329,7 @@ ___
 
 #### Defined in
 
-main.ts:77858
+[main.ts:77714](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L77714)
 
 ___
 
@@ -343,4 +343,4 @@ ___
 
 #### Defined in
 
-main.ts:77865
+[main.ts:77721](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L77721)

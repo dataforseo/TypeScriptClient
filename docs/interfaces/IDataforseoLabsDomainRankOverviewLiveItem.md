@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IDataforseoLabsDomainRankOverviewLiveItem
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IDataforseoLabsDomainRankOverviewLiveItem
 
 # Interface: IDataforseoLabsDomainRankOverviewLiveItem
 
@@ -29,7 +29,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:90885
+[main.ts:90741](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L90741)
 
 ___
 
@@ -41,7 +41,7 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:90883
+[main.ts:90739](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L90739)
 
 ___
 
@@ -57,7 +57,7 @@ ranking data relevant to the specified domain
 
 #### Defined in
 
-main.ts:90887
+[main.ts:90743](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L90743)
 
 ___
 
@@ -69,4 +69,4 @@ search engine type
 
 #### Defined in
 
-main.ts:90881
+[main.ts:90737](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L90737)

@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / AboutThisResultElement
+[dataforseo-client](../README.md) / [Exports](../modules.md) / AboutThisResultElement
 
 # Class: AboutThisResultElement
 
@@ -52,7 +52,7 @@
 
 #### Defined in
 
-main.ts:20659
+[main.ts:20659](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L20659)
 
 ## Properties
 
@@ -68,7 +68,7 @@ the language of the result
 
 #### Defined in
 
-main.ts:20649
+[main.ts:20649](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L20649)
 
 ___
 
@@ -84,7 +84,7 @@ location for which the result is relevant
 
 #### Defined in
 
-main.ts:20651
+[main.ts:20651](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L20651)
 
 ___
 
@@ -100,7 +100,7 @@ related search terms that appear in the result
 
 #### Defined in
 
-main.ts:20655
+[main.ts:20655](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L20655)
 
 ___
 
@@ -116,7 +116,7 @@ matching search terms that appear in the result
 
 #### Defined in
 
-main.ts:20653
+[main.ts:20653](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L20653)
 
 ___
 
@@ -132,7 +132,7 @@ source of additional information about the result
 
 #### Defined in
 
-main.ts:20642
+[main.ts:20642](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L20642)
 
 ___
 
@@ -149,7 +149,7 @@ description of the website from Wikipedia or another additional context
 
 #### Defined in
 
-main.ts:20645
+[main.ts:20645](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L20645)
 
 ___
 
@@ -165,7 +165,7 @@ URL to full information from the 'source'
 
 #### Defined in
 
-main.ts:20647
+[main.ts:20647](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L20647)
 
 ___
 
@@ -181,7 +181,7 @@ type of element
 
 #### Defined in
 
-main.ts:20638
+[main.ts:20638](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L20638)
 
 ___
 
@@ -197,7 +197,7 @@ result’s URL
 
 #### Defined in
 
-main.ts:20640
+[main.ts:20640](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L20640)
 
 ## Methods
 
@@ -217,7 +217,7 @@ main.ts:20640
 
 #### Defined in
 
-main.ts:20668
+[main.ts:20668](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L20668)
 
 ___
 
@@ -237,7 +237,7 @@ ___
 
 #### Defined in
 
-main.ts:20701
+[main.ts:20701](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L20701)
 
 ___
 
@@ -257,4 +257,4 @@ ___
 
 #### Defined in
 
-main.ts:20694
+[main.ts:20694](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L20694)

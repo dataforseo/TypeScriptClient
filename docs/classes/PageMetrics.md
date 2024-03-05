@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / PageMetrics
+[dataforseo-client](../README.md) / [Exports](../modules.md) / PageMetrics
 
 # Class: PageMetrics
 
@@ -55,7 +55,7 @@
 
 #### Defined in
 
-main.ts:143699
+[main.ts:143555](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L143555)
 
 ## Properties
 
@@ -72,7 +72,7 @@ number of broken links across all crawled pages on a target website
 
 #### Defined in
 
-main.ts:143674
+[main.ts:143530](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L143530)
 
 ___
 
@@ -89,7 +89,7 @@ the number of images and other resources with broken links
 
 #### Defined in
 
-main.ts:143677
+[main.ts:143533](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L143533)
 
 ___
 
@@ -109,7 +109,7 @@ page-specific on-page check-ups
 
 #### Defined in
 
-main.ts:143695
+[main.ts:143551](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L143551)
 
 ___
 
@@ -125,7 +125,7 @@ number of pages with duplicate content
 
 #### Defined in
 
-main.ts:143671
+[main.ts:143527](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L143527)
 
 ___
 
@@ -141,7 +141,7 @@ number of pages with duplicate descriptions
 
 #### Defined in
 
-main.ts:143669
+[main.ts:143525](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L143525)
 
 ___
 
@@ -157,7 +157,7 @@ number of pages with duplicate titles
 
 #### Defined in
 
-main.ts:143667
+[main.ts:143523](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L143523)
 
 ___
 
@@ -174,7 +174,7 @@ the number of links pointing to other websites
 
 #### Defined in
 
-main.ts:143662
+[main.ts:143518](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L143518)
 
 ___
 
@@ -191,7 +191,7 @@ the number of links pointing to other pages within the target website
 
 #### Defined in
 
-main.ts:143665
+[main.ts:143521](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L143521)
 
 ___
 
@@ -208,7 +208,7 @@ for example, if "links_relation_conflict": 2, the target website is referring to
 
 #### Defined in
 
-main.ts:143680
+[main.ts:143536](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L143536)
 
 ___
 
@@ -226,7 +226,7 @@ you can receive a list of non-indexable URLs using this endpoint
 
 #### Defined in
 
-main.ts:143693
+[main.ts:143549](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L143549)
 
 ___
 
@@ -246,7 +246,7 @@ learn more about how the metric is calculated in this help center article
 
 #### Defined in
 
-main.ts:143689
+[main.ts:143545](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L143545)
 
 ___
 
@@ -263,7 +263,7 @@ number of redirect chains where the destination URL redirects back to the origin
 
 #### Defined in
 
-main.ts:143683
+[main.ts:143539](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L143539)
 
 ## Methods
 
@@ -283,7 +283,7 @@ main.ts:143683
 
 #### Defined in
 
-main.ts:143708
+[main.ts:143564](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L143564)
 
 ___
 
@@ -303,7 +303,7 @@ ___
 
 #### Defined in
 
-main.ts:143742
+[main.ts:143598](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L143598)
 
 ___
 
@@ -323,4 +323,4 @@ ___
 
 #### Defined in
 
-main.ts:143735
+[main.ts:143591](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L143591)

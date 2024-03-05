@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / SslInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / SslInfo
 
 # Class: SslInfo
 
@@ -49,7 +49,7 @@
 
 #### Defined in
 
-main.ts:143370
+[main.ts:143226](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L143226)
 
 ## Properties
 
@@ -69,7 +69,7 @@ example:
 
 #### Defined in
 
-main.ts:143366
+[main.ts:143222](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L143222)
 
 ___
 
@@ -86,7 +86,7 @@ the version of the ssl certificate’s hash function
 
 #### Defined in
 
-main.ts:143360
+[main.ts:143216](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L143216)
 
 ___
 
@@ -103,7 +103,7 @@ the entity that issued the detected ssl certificate
 
 #### Defined in
 
-main.ts:143351
+[main.ts:143207](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L143207)
 
 ___
 
@@ -120,7 +120,7 @@ the entity associated with the public key
 
 #### Defined in
 
-main.ts:143354
+[main.ts:143210](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L143210)
 
 ___
 
@@ -137,7 +137,7 @@ indicates the version of X.509 used by an ssl certificate
 
 #### Defined in
 
-main.ts:143357
+[main.ts:143213](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L143213)
 
 ___
 
@@ -154,7 +154,7 @@ indicates whether the ssl certificate detected on a website is not expired, susp
 
 #### Defined in
 
-main.ts:143348
+[main.ts:143204](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L143204)
 
 ## Methods
 
@@ -174,7 +174,7 @@ main.ts:143348
 
 #### Defined in
 
-main.ts:143379
+[main.ts:143235](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L143235)
 
 ___
 
@@ -194,7 +194,7 @@ ___
 
 #### Defined in
 
-main.ts:143401
+[main.ts:143257](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L143257)
 
 ___
 
@@ -214,4 +214,4 @@ ___
 
 #### Defined in
 
-main.ts:143394
+[main.ts:143250](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L143250)

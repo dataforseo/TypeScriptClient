@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IMicrodataFieldsInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IMicrodataFieldsInfo
 
 # Interface: IMicrodataFieldsInfo
 
@@ -31,7 +31,7 @@ an array of objects containing data fields related to the certain microdata type
 
 #### Defined in
 
-main.ts:150946
+[main.ts:150802](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L150802)
 
 ___
 
@@ -44,7 +44,7 @@ name of the data field
 
 #### Defined in
 
-main.ts:150934
+[main.ts:150790](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L150790)
 
 ___
 
@@ -57,7 +57,7 @@ sub-type microdata test results that contain detected errors and related message
 
 #### Defined in
 
-main.ts:150943
+[main.ts:150799](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L150799)
 
 ___
 
@@ -70,7 +70,7 @@ for a full list of available types, please visit schema.org
 
 #### Defined in
 
-main.ts:150937
+[main.ts:150793](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L150793)
 
 ___
 
@@ -83,4 +83,4 @@ microdata value specified on a target web page
 
 #### Defined in
 
-main.ts:150940
+[main.ts:150796](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L150796)

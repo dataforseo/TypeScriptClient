@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / BacklinksBulkRanksLiveItem
+[dataforseo-client](../README.md) / [Exports](../modules.md) / BacklinksBulkRanksLiveItem
 
 # Class: BacklinksBulkRanksLiveItem
 
@@ -45,7 +45,7 @@
 
 #### Defined in
 
-main.ts:139557
+[main.ts:139413](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L139413)
 
 ## Properties
 
@@ -63,7 +63,7 @@ learn more about the metric and how it is calculated in this help center article
 
 #### Defined in
 
-main.ts:139553
+[main.ts:139409](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L139409)
 
 ___
 
@@ -79,7 +79,7 @@ domain, subdomain or webpage from a POST array
 
 #### Defined in
 
-main.ts:139549
+[main.ts:139405](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L139405)
 
 ## Methods
 
@@ -99,7 +99,7 @@ main.ts:139549
 
 #### Defined in
 
-main.ts:139566
+[main.ts:139422](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L139422)
 
 ___
 
@@ -119,7 +119,7 @@ ___
 
 #### Defined in
 
-main.ts:139584
+[main.ts:139440](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L139440)
 
 ___
 
@@ -139,4 +139,4 @@ ___
 
 #### Defined in
 
-main.ts:139577
+[main.ts:139433](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L139433)

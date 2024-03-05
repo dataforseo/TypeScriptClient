@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / MerchantTaskRequestInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / MerchantTaskRequestInfo
 
 # Class: MerchantTaskRequestInfo
 
@@ -68,7 +68,7 @@
 
 #### Defined in
 
-main.ts:142840
+[main.ts:142696](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L142696)
 
 ## Properties
 
@@ -91,7 +91,7 @@ if the specified depth is higher than the number of results in the response, the
 
 #### Defined in
 
-main.ts:142767
+[main.ts:142623](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L142623)
 
 ___
 
@@ -112,7 +112,7 @@ if you need to use the “%” symbol for your keyword, please specify it as “
 
 #### Defined in
 
-main.ts:142700
+[main.ts:142556](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L142556)
 
 ___
 
@@ -133,7 +133,7 @@ en
 
 #### Defined in
 
-main.ts:142751
+[main.ts:142607](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L142607)
 
 ___
 
@@ -154,7 +154,7 @@ English
 
 #### Defined in
 
-main.ts:142744
+[main.ts:142600](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L142600)
 
 ___
 
@@ -175,7 +175,7 @@ example:
 
 #### Defined in
 
-main.ts:142728
+[main.ts:142584](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L142584)
 
 ___
 
@@ -198,7 +198,7 @@ example:
 
 #### Defined in
 
-main.ts:142737
+[main.ts:142593](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L142593)
 
 ___
 
@@ -219,7 +219,7 @@ London,England,United Kingdom
 
 #### Defined in
 
-main.ts:142721
+[main.ts:142577](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L142577)
 
 ___
 
@@ -240,7 +240,7 @@ learn more at our help center
 
 #### Defined in
 
-main.ts:142774
+[main.ts:142630](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L142630)
 
 ___
 
@@ -264,7 +264,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-main.ts:142836
+[main.ts:142692](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L142692)
 
 ___
 
@@ -284,7 +284,7 @@ advanced, html
 
 #### Defined in
 
-main.ts:142826
+[main.ts:142682](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L142682)
 
 ___
 
@@ -308,7 +308,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-main.ts:142820
+[main.ts:142676](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L142676)
 
 ___
 
@@ -328,7 +328,7 @@ example:
 
 #### Defined in
 
-main.ts:142797
+[main.ts:142653](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L142653)
 
 ___
 
@@ -348,7 +348,7 @@ example:
 
 #### Defined in
 
-main.ts:142791
+[main.ts:142647](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L142647)
 
 ___
 
@@ -370,7 +370,7 @@ The cost can be calculated on the Pricing page.
 
 #### Defined in
 
-main.ts:142714
+[main.ts:142570](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L142570)
 
 ___
 
@@ -391,7 +391,7 @@ google.co.uk, google.com.au, google.de, etc.
 
 #### Defined in
 
-main.ts:142758
+[main.ts:142614](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L142614)
 
 ___
 
@@ -416,7 +416,7 @@ example:
 
 #### Defined in
 
-main.ts:142785
+[main.ts:142641](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L142641)
 
 ___
 
@@ -437,7 +437,7 @@ sort_by:"review_score"
 
 #### Defined in
 
-main.ts:142804
+[main.ts:142660](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L142660)
 
 ___
 
@@ -457,7 +457,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:142810
+[main.ts:142666](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L142666)
 
 ___
 
@@ -477,7 +477,7 @@ https://www.google.com/search?q=iphone&num=100&tbm=shop&ie=UTF-8&oe=UTF-8&tbs=vw
 
 #### Defined in
 
-main.ts:142706
+[main.ts:142562](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L142562)
 
 ## Methods
 
@@ -497,7 +497,7 @@ main.ts:142706
 
 #### Defined in
 
-main.ts:142849
+[main.ts:142705](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L142705)
 
 ___
 
@@ -517,7 +517,7 @@ ___
 
 #### Defined in
 
-main.ts:142884
+[main.ts:142740](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L142740)
 
 ___
 
@@ -537,4 +537,4 @@ ___
 
 #### Defined in
 
-main.ts:142877
+[main.ts:142733](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L142733)

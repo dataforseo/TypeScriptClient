@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IDataforseoLabsBingRankedKeywordsLiveResultInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IDataforseoLabsBingRankedKeywordsLiveResultInfo
 
 # Interface: IDataforseoLabsBingRankedKeywordsLiveResultInfo
 
@@ -34,7 +34,7 @@ contains ranked keywords and related data
 
 #### Defined in
 
-main.ts:105649
+[main.ts:105505](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L105505)
 
 ___
 
@@ -46,7 +46,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:105641
+[main.ts:105497](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L105497)
 
 ___
 
@@ -59,7 +59,7 @@ if there is no data, then the value is null
 
 #### Defined in
 
-main.ts:105637
+[main.ts:105493](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L105493)
 
 ___
 
@@ -72,7 +72,7 @@ if there is no data, then the value is null
 
 #### Defined in
 
-main.ts:105634
+[main.ts:105490](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L105490)
 
 ___
 
@@ -89,7 +89,7 @@ ranking data is provided by the rank_group parameters that show the result’s r
 
 #### Defined in
 
-main.ts:105644
+[main.ts:105500](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L105500)
 
 ___
 
@@ -106,7 +106,7 @@ ranking data is provided by the rank_absolute parameters that indicate the resul
 
 #### Defined in
 
-main.ts:105647
+[main.ts:105503](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L105503)
 
 ___
 
@@ -118,7 +118,7 @@ search engine type
 
 #### Defined in
 
-main.ts:105629
+[main.ts:105485](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L105485)
 
 ___
 
@@ -130,7 +130,7 @@ target domain in a POST array
 
 #### Defined in
 
-main.ts:105631
+[main.ts:105487](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L105487)
 
 ___
 
@@ -142,4 +142,4 @@ total number of results in our database relevant to your request
 
 #### Defined in
 
-main.ts:105639
+[main.ts:105495](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L105495)

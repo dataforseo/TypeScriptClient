@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / ISerpYoutubeVideoSubtitlesLiveAdvancedRequestInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / ISerpYoutubeVideoSubtitlesLiveAdvancedRequestInfo
 
 # Interface: ISerpYoutubeVideoSubtitlesLiveAdvancedRequestInfo
 
@@ -37,7 +37,7 @@ only value: desktop
 
 #### Defined in
 
-main.ts:60888
+[main.ts:60744](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L60744)
 
 ___
 
@@ -54,7 +54,7 @@ en
 
 #### Defined in
 
-main.ts:60884
+[main.ts:60740](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L60740)
 
 ___
 
@@ -71,7 +71,7 @@ English
 
 #### Defined in
 
-main.ts:60877
+[main.ts:60733](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L60733)
 
 ___
 
@@ -88,7 +88,7 @@ example:
 
 #### Defined in
 
-main.ts:60870
+[main.ts:60726](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L60726)
 
 ___
 
@@ -105,7 +105,7 @@ United States
 
 #### Defined in
 
-main.ts:60863
+[main.ts:60719](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L60719)
 
 ___
 
@@ -120,7 +120,7 @@ default value: windows
 
 #### Defined in
 
-main.ts:60893
+[main.ts:60749](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L60749)
 
 ___
 
@@ -133,7 +133,7 @@ you can get the language code from YouTube Video Info result
 
 #### Defined in
 
-main.ts:60852
+[main.ts:60708](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L60708)
 
 ___
 
@@ -147,7 +147,7 @@ possible values:
 
 #### Defined in
 
-main.ts:60856
+[main.ts:60712](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L60712)
 
 ___
 
@@ -163,7 +163,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:60899
+[main.ts:60755](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L60755)
 
 ___
 
@@ -179,4 +179,4 @@ Y8Wu4rSNJms
 
 #### Defined in
 
-main.ts:60849
+[main.ts:60705](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L60705)

@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / SerpSeznamLanguagesResultInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / SerpSeznamLanguagesResultInfo
 
 # Class: SerpSeznamLanguagesResultInfo
 
@@ -45,7 +45,7 @@
 
 #### Defined in
 
-main.ts:69280
+[main.ts:69136](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L69136)
 
 ## Properties
 
@@ -61,7 +61,7 @@ language code according to ISO 639-1
 
 #### Defined in
 
-main.ts:69276
+[main.ts:69132](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L69132)
 
 ___
 
@@ -77,7 +77,7 @@ language name
 
 #### Defined in
 
-main.ts:69274
+[main.ts:69130](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L69130)
 
 ## Methods
 
@@ -97,7 +97,7 @@ main.ts:69274
 
 #### Defined in
 
-main.ts:69289
+[main.ts:69145](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L69145)
 
 ___
 
@@ -117,7 +117,7 @@ ___
 
 #### Defined in
 
-main.ts:69307
+[main.ts:69163](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L69163)
 
 ___
 
@@ -137,4 +137,4 @@ ___
 
 #### Defined in
 
-main.ts:69300
+[main.ts:69156](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L69156)

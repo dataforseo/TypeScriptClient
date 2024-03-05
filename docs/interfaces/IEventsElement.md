@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IEventsElement
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IEventsElement
 
 # Interface: IEventsElement
 
@@ -29,7 +29,7 @@ text alongside the link title
 
 #### Defined in
 
-main.ts:31169
+[main.ts:31027](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L31027)
 
 ___
 
@@ -41,7 +41,7 @@ title of the row
 
 #### Defined in
 
-main.ts:31167
+[main.ts:31025](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L31025)
 
 ___
 
@@ -53,7 +53,7 @@ type of element
 
 #### Defined in
 
-main.ts:31165
+[main.ts:31023](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L31023)
 
 ___
 
@@ -65,4 +65,4 @@ URL
 
 #### Defined in
 
-main.ts:31171
+[main.ts:31029](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L31029)

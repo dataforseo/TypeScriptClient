@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IOtherSitesReviewsInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IOtherSitesReviewsInfo
 
 # Interface: IOtherSitesReviewsInfo
 
@@ -30,7 +30,7 @@ information about the rating enclosed in the review on a third-party site
 
 #### Defined in
 
-main.ts:196034
+[main.ts:195914](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L195914)
 
 ___
 
@@ -43,7 +43,7 @@ text of the review
 
 #### Defined in
 
-main.ts:196031
+[main.ts:195911](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L195911)
 
 ___
 
@@ -56,7 +56,7 @@ contains a name of the third-party site where review initially appeared
 
 #### Defined in
 
-main.ts:196025
+[main.ts:195905](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L195905)
 
 ___
 
@@ -69,4 +69,4 @@ URL to the a third-party site where review initially appeared
 
 #### Defined in
 
-main.ts:196028
+[main.ts:195908](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L195908)

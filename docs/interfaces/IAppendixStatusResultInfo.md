@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IAppendixStatusResultInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IAppendixStatusResultInfo
 
 # Interface: IAppendixStatusResultInfo
 
@@ -39,7 +39,7 @@ app_data
 
 #### Defined in
 
-main.ts:212969
+[main.ts:212849](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L212849)
 
 ___
 
@@ -51,7 +51,7 @@ array of objects that contain status information for API endpoints
 
 #### Defined in
 
-main.ts:212981
+[main.ts:212861](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L212861)
 
 ___
 
@@ -71,4 +71,4 @@ send_delay
 
 #### Defined in
 
-main.ts:212979
+[main.ts:212859](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L212859)

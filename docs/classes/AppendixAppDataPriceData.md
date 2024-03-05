@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / AppendixAppDataPriceData
+[dataforseo-client](../README.md) / [Exports](../modules.md) / AppendixAppDataPriceData
 
 # Class: AppendixAppDataPriceData
 
@@ -51,7 +51,7 @@
 
 #### Defined in
 
-main.ts:210870
+[main.ts:210750](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L210750)
 
 ## Properties
 
@@ -65,7 +65,7 @@ main.ts:210870
 
 #### Defined in
 
-main.ts:210859
+[main.ts:210739](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L210739)
 
 ___
 
@@ -79,7 +79,7 @@ ___
 
 #### Defined in
 
-main.ts:210860
+[main.ts:210740](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L210740)
 
 ___
 
@@ -93,7 +93,7 @@ ___
 
 #### Defined in
 
-main.ts:210861
+[main.ts:210741](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L210741)
 
 ___
 
@@ -107,7 +107,7 @@ ___
 
 #### Defined in
 
-main.ts:210862
+[main.ts:210742](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L210742)
 
 ___
 
@@ -121,7 +121,7 @@ ___
 
 #### Defined in
 
-main.ts:210863
+[main.ts:210743](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L210743)
 
 ___
 
@@ -135,7 +135,7 @@ ___
 
 #### Defined in
 
-main.ts:210864
+[main.ts:210744](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L210744)
 
 ___
 
@@ -149,7 +149,7 @@ ___
 
 #### Defined in
 
-main.ts:210865
+[main.ts:210745](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L210745)
 
 ___
 
@@ -163,7 +163,7 @@ ___
 
 #### Defined in
 
-main.ts:210866
+[main.ts:210746](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L210746)
 
 ## Methods
 
@@ -183,7 +183,7 @@ main.ts:210866
 
 #### Defined in
 
-main.ts:210879
+[main.ts:210759](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L210759)
 
 ___
 
@@ -203,7 +203,7 @@ ___
 
 #### Defined in
 
-main.ts:210903
+[main.ts:210783](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L210783)
 
 ___
 
@@ -223,4 +223,4 @@ ___
 
 #### Defined in
 
-main.ts:210896
+[main.ts:210776](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L210776)

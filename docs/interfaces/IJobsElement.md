@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IJobsElement
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IJobsElement
 
 # Interface: IJobsElement
 
@@ -34,7 +34,7 @@ author
 
 #### Defined in
 
-main.ts:29520
+[main.ts:29378](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L29378)
 
 ___
 
@@ -46,7 +46,7 @@ contract type
 
 #### Defined in
 
-main.ts:29529
+[main.ts:29387](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L29387)
 
 ___
 
@@ -58,7 +58,7 @@ description of the results element in SERP
 
 #### Defined in
 
-main.ts:29518
+[main.ts:29376](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L29376)
 
 ___
 
@@ -70,7 +70,7 @@ the time when the job was posted
 
 #### Defined in
 
-main.ts:29522
+[main.ts:29380](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L29380)
 
 ___
 
@@ -82,7 +82,7 @@ salary
 
 #### Defined in
 
-main.ts:29531
+[main.ts:29389](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L29389)
 
 ___
 
@@ -97,7 +97,7 @@ example:
 
 #### Defined in
 
-main.ts:29527
+[main.ts:29385](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L29385)
 
 ___
 
@@ -109,7 +109,7 @@ title of the row
 
 #### Defined in
 
-main.ts:29516
+[main.ts:29374](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L29374)
 
 ___
 
@@ -121,7 +121,7 @@ type of element
 
 #### Defined in
 
-main.ts:29514
+[main.ts:29372](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L29372)
 
 ___
 
@@ -133,4 +133,4 @@ URL
 
 #### Defined in
 
-main.ts:29533
+[main.ts:29391](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L29391)

@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IAppDataAppleAppListingsSearchLiveRequestInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IAppDataAppleAppListingsSearchLiveRequestInfo
 
 # Interface: IAppDataAppleAppListingsSearchLiveRequestInfo
 
@@ -38,7 +38,7 @@ you can specify up to 10 categories
 
 #### Defined in
 
-main.ts:187004
+[main.ts:186884](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L186884)
 
 ___
 
@@ -53,7 +53,7 @@ can contain up to 200 symbols
 
 #### Defined in
 
-main.ts:187009
+[main.ts:186889](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L186889)
 
 ___
 
@@ -74,7 +74,7 @@ you can receive the list of available filters by making a separate request to h
 
 #### Defined in
 
-main.ts:187025
+[main.ts:186905](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L186905)
 
 ___
 
@@ -89,7 +89,7 @@ maximum value: 1000
 
 #### Defined in
 
-main.ts:187044
+[main.ts:186924](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L186924)
 
 ___
 
@@ -104,7 +104,7 @@ if you specify the 10 value, the first ten entities in the results array will be
 
 #### Defined in
 
-main.ts:187049
+[main.ts:186929](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L186929)
 
 ___
 
@@ -122,7 +122,7 @@ Note: if the offset_token is specified in the request, all other parameters shou
 
 #### Defined in
 
-main.ts:187057
+[main.ts:186937](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L186937)
 
 ___
 
@@ -146,7 +146,7 @@ example:
 
 #### Defined in
 
-main.ts:187039
+[main.ts:186919](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L186919)
 
 ___
 
@@ -162,7 +162,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:187063
+[main.ts:186943](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L186943)
 
 ___
 
@@ -177,4 +177,4 @@ can contain up to 200 symbols
 
 #### Defined in
 
-main.ts:187014
+[main.ts:186894](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L186894)

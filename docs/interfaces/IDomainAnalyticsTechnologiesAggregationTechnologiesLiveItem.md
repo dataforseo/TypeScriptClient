@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IDomainAnalyticsTechnologiesAggregationTechnologiesLiveItem
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IDomainAnalyticsTechnologiesAggregationTechnologiesLiveItem
 
 # Interface: IDomainAnalyticsTechnologiesAggregationTechnologiesLiveItem
 
@@ -35,7 +35,7 @@ number of domains that match the parameters you specified and are using technolo
 
 #### Defined in
 
-main.ts:72952
+[main.ts:72808](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L72808)
 
 ___
 
@@ -47,7 +47,7 @@ technology category id
 
 #### Defined in
 
-main.ts:72944
+[main.ts:72800](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L72800)
 
 ___
 
@@ -59,7 +59,7 @@ technology group id
 
 #### Defined in
 
-main.ts:72942
+[main.ts:72798](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L72798)
 
 ___
 
@@ -72,7 +72,7 @@ number of domains that match the parameters you specified and are using technolo
 
 #### Defined in
 
-main.ts:72949
+[main.ts:72805](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L72805)
 
 ___
 
@@ -85,7 +85,7 @@ number of domains that match the parameters you specified and are using the indi
 
 #### Defined in
 
-main.ts:72955
+[main.ts:72811](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L72811)
 
 ___
 
@@ -97,7 +97,7 @@ technology name
 
 #### Defined in
 
-main.ts:72946
+[main.ts:72802](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L72802)
 
 ___
 
@@ -109,4 +109,4 @@ type of element
 
 #### Defined in
 
-main.ts:72940
+[main.ts:72796](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L72796)

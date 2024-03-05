@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IAppendixMerchantAmazonInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IAppendixMerchantAmazonInfo
 
 # Interface: IAppendixMerchantAmazonInfo
 
@@ -26,7 +26,7 @@
 
 #### Defined in
 
-main.ts:207721
+[main.ts:207601](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L207601)
 
 ___
 
@@ -36,7 +36,7 @@ ___
 
 #### Defined in
 
-main.ts:207722
+[main.ts:207602](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L207602)
 
 ___
 
@@ -46,4 +46,4 @@ ___
 
 #### Defined in
 
-main.ts:207723
+[main.ts:207603](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L207603)

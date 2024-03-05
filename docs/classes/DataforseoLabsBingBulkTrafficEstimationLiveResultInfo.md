@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / DataforseoLabsBingBulkTrafficEstimationLiveResultInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / DataforseoLabsBingBulkTrafficEstimationLiveResultInfo
 
 # Class: DataforseoLabsBingBulkTrafficEstimationLiveResultInfo
 
@@ -49,7 +49,7 @@
 
 #### Defined in
 
-main.ts:102780
+[main.ts:102636](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L102636)
 
 ## Properties
 
@@ -65,7 +65,7 @@ array of items with relevant traffic estimation data
 
 #### Defined in
 
-main.ts:102776
+[main.ts:102632](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L102632)
 
 ___
 
@@ -81,7 +81,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:102774
+[main.ts:102630](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L102630)
 
 ___
 
@@ -98,7 +98,7 @@ if there is no data, then the value is null
 
 #### Defined in
 
-main.ts:102770
+[main.ts:102626](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L102626)
 
 ___
 
@@ -115,7 +115,7 @@ if there is no data, then the value is null
 
 #### Defined in
 
-main.ts:102767
+[main.ts:102623](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L102623)
 
 ___
 
@@ -131,7 +131,7 @@ search engine type
 
 #### Defined in
 
-main.ts:102764
+[main.ts:102620](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L102620)
 
 ___
 
@@ -147,7 +147,7 @@ total amount of results in our database relevant to your request
 
 #### Defined in
 
-main.ts:102772
+[main.ts:102628](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L102628)
 
 ## Methods
 
@@ -167,7 +167,7 @@ main.ts:102772
 
 #### Defined in
 
-main.ts:102789
+[main.ts:102645](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L102645)
 
 ___
 
@@ -187,7 +187,7 @@ ___
 
 #### Defined in
 
-main.ts:102815
+[main.ts:102671](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L102671)
 
 ___
 
@@ -207,4 +207,4 @@ ___
 
 #### Defined in
 
-main.ts:102808
+[main.ts:102664](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L102664)

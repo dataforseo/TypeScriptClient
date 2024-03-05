@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IBusinessDataBusinessListingsCategoriesAggregationLiveRequestInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IBusinessDataBusinessListingsCategoriesAggregationLiveRequestInfo
 
 # Interface: IBusinessDataBusinessListingsCategoriesAggregationLiveRequestInfo
 
@@ -39,7 +39,7 @@ you can specify up to 10 categories
 
 #### Defined in
 
-main.ts:189821
+[main.ts:189701](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L189701)
 
 ___
 
@@ -54,7 +54,7 @@ can contain up to 200 symbols
 
 #### Defined in
 
-main.ts:189826
+[main.ts:189706](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L189706)
 
 ___
 
@@ -75,7 +75,7 @@ you can receive the list of available filters by making a separate request to h
 
 #### Defined in
 
-main.ts:189854
+[main.ts:189734](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L189734)
 
 ___
 
@@ -90,7 +90,7 @@ default value: 10
 
 #### Defined in
 
-main.ts:189859
+[main.ts:189739](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L189739)
 
 ___
 
@@ -103,7 +103,7 @@ optional field
 
 #### Defined in
 
-main.ts:189834
+[main.ts:189714](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L189714)
 
 ___
 
@@ -118,7 +118,7 @@ maximum value: 1000
 
 #### Defined in
 
-main.ts:189864
+[main.ts:189744](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L189744)
 
 ___
 
@@ -137,7 +137,7 @@ example:
 
 #### Defined in
 
-main.ts:189843
+[main.ts:189723](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L189723)
 
 ___
 
@@ -150,7 +150,7 @@ optional field
 
 #### Defined in
 
-main.ts:189867
+[main.ts:189747](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L189747)
 
 ___
 
@@ -166,7 +166,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:189873
+[main.ts:189753](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L189753)
 
 ___
 
@@ -181,4 +181,4 @@ can contain up to 200 symbols
 
 #### Defined in
 
-main.ts:189831
+[main.ts:189711](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L189711)

@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IPodcastsDataforseoLabsSerpElementItem
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IPodcastsDataforseoLabsSerpElementItem
 
 # Interface: IPodcastsDataforseoLabsSerpElementItem
 
@@ -36,7 +36,7 @@ elements of search results found in SERP
 
 #### Defined in
 
-main.ts:95652
+[main.ts:95508](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L95508)
 
 ___
 
@@ -50,7 +50,7 @@ left, right
 
 #### Defined in
 
-main.ts:95648
+[main.ts:95504](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L95504)
 
 ___
 
@@ -63,7 +63,7 @@ absolute position among all the elements in SERP
 
 #### Defined in
 
-main.ts:95644
+[main.ts:95500](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L95500)
 
 ___
 
@@ -76,7 +76,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-main.ts:95641
+[main.ts:95497](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L95497)
 
 ___
 
@@ -88,4 +88,4 @@ the XPath of the element
 
 #### Defined in
 
-main.ts:95650
+[main.ts:95506](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L95506)

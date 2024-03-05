@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / BacklinksHistoryLiveResultInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / BacklinksHistoryLiveResultInfo
 
 # Class: BacklinksHistoryLiveResultInfo
 
@@ -48,7 +48,7 @@
 
 #### Defined in
 
-main.ts:130515
+[main.ts:130371](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L130371)
 
 ## Properties
 
@@ -67,7 +67,7 @@ example:
 
 #### Defined in
 
-main.ts:130500
+[main.ts:130356](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L130356)
 
 ___
 
@@ -86,7 +86,7 @@ example:
 
 #### Defined in
 
-main.ts:130505
+[main.ts:130361](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L130361)
 
 ___
 
@@ -104,7 +104,7 @@ the metrics are aggregated according to the backlinks the specified domain had o
 
 #### Defined in
 
-main.ts:130511
+[main.ts:130367](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L130367)
 
 ___
 
@@ -120,7 +120,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:130507
+[main.ts:130363](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L130363)
 
 ___
 
@@ -136,7 +136,7 @@ target from the POST array
 
 #### Defined in
 
-main.ts:130495
+[main.ts:130351](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L130351)
 
 ## Methods
 
@@ -156,7 +156,7 @@ main.ts:130495
 
 #### Defined in
 
-main.ts:130524
+[main.ts:130380](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L130380)
 
 ___
 
@@ -176,7 +176,7 @@ ___
 
 #### Defined in
 
-main.ts:130549
+[main.ts:130405](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L130405)
 
 ___
 
@@ -196,4 +196,4 @@ ___
 
 #### Defined in
 
-main.ts:130542
+[main.ts:130398](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L130398)

@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IDataforseoLabsSubdomainsLiveItem
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IDataforseoLabsSubdomainsLiveItem
 
 # Interface: IDataforseoLabsSubdomainsLiveItem
 
@@ -32,7 +32,7 @@ ranking data relevant to subdomain
 
 #### Defined in
 
-main.ts:89831
+[main.ts:89687](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L89687)
 
 ___
 
@@ -44,7 +44,7 @@ search engine type
 
 #### Defined in
 
-main.ts:89827
+[main.ts:89683](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L89683)
 
 ___
 
@@ -56,4 +56,4 @@ returned subdomain
 
 #### Defined in
 
-main.ts:89829
+[main.ts:89685](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L89685)

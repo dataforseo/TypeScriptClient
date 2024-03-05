@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / DataforseoLabsGoogleTopSearchesLiveResultInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / DataforseoLabsGoogleTopSearchesLiveResultInfo
 
 # Class: DataforseoLabsGoogleTopSearchesLiveResultInfo
 
@@ -51,7 +51,7 @@
 
 #### Defined in
 
-main.ts:85430
+[main.ts:85286](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L85286)
 
 ## Properties
 
@@ -67,7 +67,7 @@ contains keywords and related data
 
 #### Defined in
 
-main.ts:85426
+[main.ts:85282](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L85282)
 
 ___
 
@@ -83,7 +83,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:85418
+[main.ts:85274](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L85274)
 
 ___
 
@@ -99,7 +99,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:85414
+[main.ts:85270](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L85270)
 
 ___
 
@@ -115,7 +115,7 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:85412
+[main.ts:85268](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L85268)
 
 ___
 
@@ -131,7 +131,7 @@ current offset value
 
 #### Defined in
 
-main.ts:85420
+[main.ts:85276](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L85276)
 
 ___
 
@@ -149,7 +149,7 @@ note: offset_token values are unique for each subsequent task
 
 #### Defined in
 
-main.ts:85424
+[main.ts:85280](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L85280)
 
 ___
 
@@ -165,7 +165,7 @@ search engine type
 
 #### Defined in
 
-main.ts:85410
+[main.ts:85266](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L85266)
 
 ___
 
@@ -181,7 +181,7 @@ total amount of results in our database relevant to your request
 
 #### Defined in
 
-main.ts:85416
+[main.ts:85272](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L85272)
 
 ## Methods
 
@@ -201,7 +201,7 @@ main.ts:85416
 
 #### Defined in
 
-main.ts:85439
+[main.ts:85295](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L85295)
 
 ___
 
@@ -221,7 +221,7 @@ ___
 
 #### Defined in
 
-main.ts:85467
+[main.ts:85323](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L85323)
 
 ___
 
@@ -241,4 +241,4 @@ ___
 
 #### Defined in
 
-main.ts:85460
+[main.ts:85316](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L85316)

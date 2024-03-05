@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / DataforseoLabsAppleAppIntersectionLiveResultInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / DataforseoLabsAppleAppIntersectionLiveResultInfo
 
 # Class: DataforseoLabsAppleAppIntersectionLiveResultInfo
 
@@ -50,7 +50,7 @@
 
 #### Defined in
 
-main.ts:112164
+[main.ts:112020](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L112020)
 
 ## Properties
 
@@ -70,7 +70,7 @@ ids of the apps in a POST array
 
 #### Defined in
 
-main.ts:112150
+[main.ts:112006](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L112006)
 
 ___
 
@@ -86,7 +86,7 @@ contains data related to the ranking keywords for the app specified in the app_i
 
 #### Defined in
 
-main.ts:112160
+[main.ts:112016](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L112016)
 
 ___
 
@@ -102,7 +102,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:112158
+[main.ts:112014](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L112014)
 
 ___
 
@@ -118,7 +118,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:112154
+[main.ts:112010](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L112010)
 
 ___
 
@@ -134,7 +134,7 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:112152
+[main.ts:112008](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L112008)
 
 ___
 
@@ -150,7 +150,7 @@ search engine type
 
 #### Defined in
 
-main.ts:112148
+[main.ts:112004](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L112004)
 
 ___
 
@@ -166,7 +166,7 @@ total amount of results in our database relevant to your request
 
 #### Defined in
 
-main.ts:112156
+[main.ts:112012](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L112012)
 
 ## Methods
 
@@ -186,7 +186,7 @@ main.ts:112156
 
 #### Defined in
 
-main.ts:112173
+[main.ts:112029](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L112029)
 
 ___
 
@@ -206,7 +206,7 @@ ___
 
 #### Defined in
 
-main.ts:112206
+[main.ts:112062](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L112062)
 
 ___
 
@@ -226,4 +226,4 @@ ___
 
 #### Defined in
 
-main.ts:112199
+[main.ts:112055](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L112055)

@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / SerpAiSummaryResultInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / SerpAiSummaryResultInfo
 
 # Class: SerpAiSummaryResultInfo
 
@@ -45,7 +45,7 @@
 
 #### Defined in
 
-main.ts:24034
+[main.ts:23892](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L23892)
 
 ## Properties
 
@@ -61,7 +61,7 @@ items array
 
 #### Defined in
 
-main.ts:24030
+[main.ts:23888](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L23888)
 
 ___
 
@@ -77,7 +77,7 @@ number of items in the results array
 
 #### Defined in
 
-main.ts:24028
+[main.ts:23886](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L23886)
 
 ## Methods
 
@@ -97,7 +97,7 @@ main.ts:24028
 
 #### Defined in
 
-main.ts:24043
+[main.ts:23901](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L23901)
 
 ___
 
@@ -117,7 +117,7 @@ ___
 
 #### Defined in
 
-main.ts:24065
+[main.ts:23923](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L23923)
 
 ___
 
@@ -137,4 +137,4 @@ ___
 
 #### Defined in
 
-main.ts:24058
+[main.ts:23916](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L23916)

@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IBacklinksErrorsResultInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IBacklinksErrorsResultInfo
 
 # Interface: IBacklinksErrorsResultInfo
 
@@ -38,7 +38,7 @@ example:
 
 #### Defined in
 
-main.ts:128637
+[main.ts:128493](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L128493)
 
 ___
 
@@ -50,7 +50,7 @@ error code
 
 #### Defined in
 
-main.ts:128641
+[main.ts:128497](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L128497)
 
 ___
 
@@ -63,7 +63,7 @@ error message (see full list) or URL that caused an error
 
 #### Defined in
 
-main.ts:128644
+[main.ts:128500](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L128500)
 
 ___
 
@@ -75,7 +75,7 @@ corresponding API function
 
 #### Defined in
 
-main.ts:128639
+[main.ts:128495](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L128495)
 
 ___
 
@@ -87,7 +87,7 @@ HTTP status code
 
 #### Defined in
 
-main.ts:128651
+[main.ts:128507](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L128507)
 
 ___
 
@@ -99,7 +99,7 @@ HTTP method
 
 #### Defined in
 
-main.ts:128649
+[main.ts:128505](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L128505)
 
 ___
 
@@ -112,7 +112,7 @@ server response
 
 #### Defined in
 
-main.ts:128656
+[main.ts:128512](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L128512)
 
 ___
 
@@ -124,7 +124,7 @@ time taken by HTTP request
 
 #### Defined in
 
-main.ts:128653
+[main.ts:128509](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L128509)
 
 ___
 
@@ -137,7 +137,7 @@ URL you used for making an API call
 
 #### Defined in
 
-main.ts:128647
+[main.ts:128503](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L128503)
 
 ___
 
@@ -149,4 +149,4 @@ id of the task
 
 #### Defined in
 
-main.ts:128632
+[main.ts:128488](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L128488)

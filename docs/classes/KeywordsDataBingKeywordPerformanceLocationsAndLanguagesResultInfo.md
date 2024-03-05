@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / KeywordsDataBingKeywordPerformanceLocationsAndLanguagesResultInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / KeywordsDataBingKeywordPerformanceLocationsAndLanguagesResultInfo
 
 # Class: KeywordsDataBingKeywordPerformanceLocationsAndLanguagesResultInfo
 
@@ -46,7 +46,7 @@
 
 #### Defined in
 
-main.ts:126562
+[main.ts:126418](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L126418)
 
 ## Properties
 
@@ -63,7 +63,7 @@ contains locations supported in combination with a specific language
 
 #### Defined in
 
-main.ts:126558
+[main.ts:126414](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L126414)
 
 ___
 
@@ -79,7 +79,7 @@ language code
 
 #### Defined in
 
-main.ts:126555
+[main.ts:126411](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L126411)
 
 ___
 
@@ -95,7 +95,7 @@ language name
 
 #### Defined in
 
-main.ts:126553
+[main.ts:126409](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L126409)
 
 ## Methods
 
@@ -115,7 +115,7 @@ main.ts:126553
 
 #### Defined in
 
-main.ts:126571
+[main.ts:126427](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L126427)
 
 ___
 
@@ -135,7 +135,7 @@ ___
 
 #### Defined in
 
-main.ts:126594
+[main.ts:126450](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L126450)
 
 ___
 
@@ -155,4 +155,4 @@ ___
 
 #### Defined in
 
-main.ts:126587
+[main.ts:126443](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L126443)

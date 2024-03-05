@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / AppendixMoneyData
+[dataforseo-client](../README.md) / [Exports](../modules.md) / AppendixMoneyData
 
 # Class: AppendixMoneyData
 
@@ -47,7 +47,7 @@
 
 #### Defined in
 
-main.ts:209572
+[main.ts:209452](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L209452)
 
 ## Properties
 
@@ -63,7 +63,7 @@ amount of money left in your account
 
 #### Defined in
 
-main.ts:209564
+[main.ts:209444](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L209444)
 
 ___
 
@@ -79,7 +79,7 @@ cost limits
 
 #### Defined in
 
-main.ts:209566
+[main.ts:209446](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L209446)
 
 ___
 
@@ -95,7 +95,7 @@ statistics of your spending
 
 #### Defined in
 
-main.ts:209568
+[main.ts:209448](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L209448)
 
 ___
 
@@ -111,7 +111,7 @@ total amount of money deposited to your account
 
 #### Defined in
 
-main.ts:209562
+[main.ts:209442](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L209442)
 
 ## Methods
 
@@ -131,7 +131,7 @@ main.ts:209562
 
 #### Defined in
 
-main.ts:209581
+[main.ts:209461](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L209461)
 
 ___
 
@@ -151,7 +151,7 @@ ___
 
 #### Defined in
 
-main.ts:209601
+[main.ts:209481](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L209481)
 
 ___
 
@@ -171,4 +171,4 @@ ___
 
 #### Defined in
 
-main.ts:209594
+[main.ts:209474](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L209474)

@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IFetchTiming
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IFetchTiming
 
 # Interface: IFetchTiming
 
@@ -28,7 +28,7 @@ indicates how many milliseconds it took to fetch a resource
 
 #### Defined in
 
-main.ts:146210
+[main.ts:146066](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L146066)
 
 ___
 
@@ -41,7 +41,7 @@ the amount of time a browser needs to complete downloading a resource
 
 #### Defined in
 
-main.ts:146216
+[main.ts:146072](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L146072)
 
 ___
 
@@ -54,4 +54,4 @@ the amount of time a browser needs to start downloading a resource
 
 #### Defined in
 
-main.ts:146213
+[main.ts:146069](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L146069)

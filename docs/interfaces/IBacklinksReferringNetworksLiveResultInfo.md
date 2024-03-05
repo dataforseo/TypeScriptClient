@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IBacklinksReferringNetworksLiveResultInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IBacklinksReferringNetworksLiveResultInfo
 
 # Interface: IBacklinksReferringNetworksLiveResultInfo
 
@@ -29,7 +29,7 @@ items array
 
 #### Defined in
 
-main.ts:135954
+[main.ts:135810](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L135810)
 
 ___
 
@@ -41,7 +41,7 @@ number of items in the items array
 
 #### Defined in
 
-main.ts:135952
+[main.ts:135808](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L135808)
 
 ___
 
@@ -53,7 +53,7 @@ target in a POST array
 
 #### Defined in
 
-main.ts:135948
+[main.ts:135804](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L135804)
 
 ___
 
@@ -65,4 +65,4 @@ total number of relevant items in the database
 
 #### Defined in
 
-main.ts:135950
+[main.ts:135806](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L135806)

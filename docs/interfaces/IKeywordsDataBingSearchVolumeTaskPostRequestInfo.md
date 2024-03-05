@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IKeywordsDataBingSearchVolumeTaskPostRequestInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IKeywordsDataBingSearchVolumeTaskPostRequestInfo
 
 # Interface: IKeywordsDataBingSearchVolumeTaskPostRequestInfo
 
@@ -45,7 +45,7 @@ example:
 
 #### Defined in
 
-main.ts:122661
+[main.ts:122517](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L122517)
 
 ___
 
@@ -65,7 +65,7 @@ example:
 
 #### Defined in
 
-main.ts:122671
+[main.ts:122527](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L122527)
 
 ___
 
@@ -80,7 +80,7 @@ default value: all
 
 #### Defined in
 
-main.ts:122648
+[main.ts:122504](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L122504)
 
 ___
 
@@ -96,7 +96,7 @@ the specified keywords will be converted to lowercase, data will be provided in 
 
 #### Defined in
 
-main.ts:122609
+[main.ts:122465](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L122465)
 
 ___
 
@@ -112,7 +112,7 @@ en, fr, de
 
 #### Defined in
 
-main.ts:122643
+[main.ts:122499](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L122499)
 
 ___
 
@@ -128,7 +128,7 @@ English, French, German
 
 #### Defined in
 
-main.ts:122637
+[main.ts:122493](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L122493)
 
 ___
 
@@ -145,7 +145,7 @@ example:
 
 #### Defined in
 
-main.ts:122623
+[main.ts:122479](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L122479)
 
 ___
 
@@ -163,7 +163,7 @@ example:
 
 #### Defined in
 
-main.ts:122631
+[main.ts:122487](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L122487)
 
 ___
 
@@ -180,7 +180,7 @@ London,England,United Kingdom
 
 #### Defined in
 
-main.ts:122616
+[main.ts:122472](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L122472)
 
 ___
 
@@ -200,7 +200,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-main.ts:122691
+[main.ts:122547](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L122547)
 
 ___
 
@@ -220,7 +220,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-main.ts:122681
+[main.ts:122537](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L122537)
 
 ___
 
@@ -235,7 +235,7 @@ default value: false – results are returned for Bing, AOL, and Yahoo search ne
 
 #### Defined in
 
-main.ts:122696
+[main.ts:122552](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L122552)
 
 ___
 
@@ -250,7 +250,7 @@ default value: relevance
 
 #### Defined in
 
-main.ts:122653
+[main.ts:122509](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L122509)
 
 ___
 
@@ -266,4 +266,4 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:122702
+[main.ts:122558](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L122558)

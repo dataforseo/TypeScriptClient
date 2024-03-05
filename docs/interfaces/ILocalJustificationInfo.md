@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / ILocalJustificationInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / ILocalJustificationInfo
 
 # Interface: ILocalJustificationInfo
 
@@ -27,7 +27,7 @@ text snippet of local justification
 
 #### Defined in
 
-main.ts:38551
+[main.ts:38409](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L38409)
 
 ___
 
@@ -39,4 +39,4 @@ type of element
 
 #### Defined in
 
-main.ts:38549
+[main.ts:38407](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L38407)

@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IProductInformationImageRow
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IProductInformationImageRow
 
 # Interface: IProductInformationImageRow
 
@@ -33,7 +33,7 @@ alternative text of the related product image
 
 #### Defined in
 
-main.ts:172721
+[main.ts:172601](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L172601)
 
 ___
 
@@ -45,4 +45,4 @@ URL of the image
 
 #### Defined in
 
-main.ts:172723
+[main.ts:172603](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L172603)

@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / BaseSerpElementItem
+[dataforseo-client](../README.md) / [Exports](../modules.md) / BaseSerpElementItem
 
 # Class: BaseSerpElementItem
 
@@ -180,7 +180,7 @@
 
 #### Defined in
 
-main.ts:19339
+[main.ts:19339](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L19339)
 
 ## Properties
 
@@ -190,7 +190,7 @@ main.ts:19339
 
 #### Defined in
 
-main.ts:19337
+[main.ts:19337](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L19337)
 
 ## Methods
 
@@ -210,7 +210,7 @@ main.ts:19337
 
 #### Defined in
 
-main.ts:19349
+[main.ts:19349](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L19349)
 
 ___
 
@@ -230,7 +230,7 @@ ___
 
 #### Defined in
 
-main.ts:19695
+[main.ts:19695](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L19695)
 
 ___
 
@@ -250,4 +250,4 @@ ___
 
 #### Defined in
 
-main.ts:19358
+[main.ts:19358](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L19358)

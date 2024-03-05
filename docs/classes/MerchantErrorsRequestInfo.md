@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / MerchantErrorsRequestInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / MerchantErrorsRequestInfo
 
 # Class: MerchantErrorsRequestInfo
 
@@ -48,7 +48,7 @@
 
 #### Defined in
 
-main.ts:163153
+[main.ts:163033](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L163033)
 
 ## Properties
 
@@ -69,7 +69,7 @@ example:
 
 #### Defined in
 
-main.ts:163142
+[main.ts:163022](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L163022)
 
 ___
 
@@ -90,7 +90,7 @@ example:
 
 #### Defined in
 
-main.ts:163149
+[main.ts:163029](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L163029)
 
 ___
 
@@ -110,7 +110,7 @@ example: sellers/ad_url, postback_url, pingback_url
 
 #### Defined in
 
-main.ts:163135
+[main.ts:163015](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L163015)
 
 ___
 
@@ -129,7 +129,7 @@ maximum value: 1000
 
 #### Defined in
 
-main.ts:163124
+[main.ts:163004](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L163004)
 
 ___
 
@@ -148,7 +148,7 @@ if you specify the 10 value, the first ten tasks in the results array will be om
 
 #### Defined in
 
-main.ts:163129
+[main.ts:163009](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L163009)
 
 ## Methods
 
@@ -168,7 +168,7 @@ main.ts:163129
 
 #### Defined in
 
-main.ts:163162
+[main.ts:163042](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L163042)
 
 ___
 
@@ -188,7 +188,7 @@ ___
 
 #### Defined in
 
-main.ts:163183
+[main.ts:163063](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L163063)
 
 ___
 
@@ -208,4 +208,4 @@ ___
 
 #### Defined in
 
-main.ts:163176
+[main.ts:163056](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L163056)

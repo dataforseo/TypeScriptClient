@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IBacklinksBulkBacklinksLiveItem
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IBacklinksBulkBacklinksLiveItem
 
 # Interface: IBacklinksBulkBacklinksLiveItem
 
@@ -27,7 +27,7 @@ number of backlinks pointing to the target
 
 #### Defined in
 
-main.ts:139938
+[main.ts:139794](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L139794)
 
 ___
 
@@ -39,4 +39,4 @@ domain, subdomain or webpage from a POST array
 
 #### Defined in
 
-main.ts:139936
+[main.ts:139792](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L139792)

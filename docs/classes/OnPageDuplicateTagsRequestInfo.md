@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / OnPageDuplicateTagsRequestInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / OnPageDuplicateTagsRequestInfo
 
 # Class: OnPageDuplicateTagsRequestInfo
 
@@ -49,7 +49,7 @@
 
 #### Defined in
 
-main.ts:147219
+[main.ts:147075](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L147075)
 
 ## Properties
 
@@ -67,7 +67,7 @@ specify a title or description here if you want to receive a list of duplicate p
 
 #### Defined in
 
-main.ts:147199
+[main.ts:147055](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L147055)
 
 ___
 
@@ -87,7 +87,7 @@ example:
 
 #### Defined in
 
-main.ts:147193
+[main.ts:147049](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L147049)
 
 ___
 
@@ -106,7 +106,7 @@ maximum value: 1000
 
 #### Defined in
 
-main.ts:147204
+[main.ts:147060](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L147060)
 
 ___
 
@@ -125,7 +125,7 @@ if you specify the 10 value, the first ten pages in the results array will be om
 
 #### Defined in
 
-main.ts:147209
+[main.ts:147065](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L147065)
 
 ___
 
@@ -145,7 +145,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:147215
+[main.ts:147071](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L147071)
 
 ___
 
@@ -161,7 +161,7 @@ type of element
 
 #### Defined in
 
-main.ts:147195
+[main.ts:147051](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L147051)
 
 ## Methods
 
@@ -181,7 +181,7 @@ main.ts:147195
 
 #### Defined in
 
-main.ts:147228
+[main.ts:147084](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L147084)
 
 ___
 
@@ -201,7 +201,7 @@ ___
 
 #### Defined in
 
-main.ts:147250
+[main.ts:147106](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L147106)
 
 ___
 
@@ -221,4 +221,4 @@ ___
 
 #### Defined in
 
-main.ts:147243
+[main.ts:147099](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L147099)

@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IAppendixErrorsResultInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IAppendixErrorsResultInfo
 
 # Interface: IAppendixErrorsResultInfo
 
@@ -27,7 +27,7 @@ code
 
 #### Defined in
 
-main.ts:212517
+[main.ts:212397](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L212397)
 
 ___
 
@@ -39,4 +39,4 @@ message
 
 #### Defined in
 
-main.ts:212519
+[main.ts:212399](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L212399)

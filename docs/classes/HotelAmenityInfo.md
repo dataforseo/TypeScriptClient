@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / HotelAmenityInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / HotelAmenityInfo
 
 # Class: HotelAmenityInfo
 
@@ -46,7 +46,7 @@
 
 #### Defined in
 
-main.ts:195475
+[main.ts:195355](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L195355)
 
 ## Properties
 
@@ -62,7 +62,7 @@ standardised category of the ammenity
 
 #### Defined in
 
-main.ts:195467
+[main.ts:195347](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L195347)
 
 ___
 
@@ -78,7 +78,7 @@ label of the category
 
 #### Defined in
 
-main.ts:195469
+[main.ts:195349](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L195349)
 
 ___
 
@@ -94,7 +94,7 @@ specific amenities and details
 
 #### Defined in
 
-main.ts:195471
+[main.ts:195351](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L195351)
 
 ## Methods
 
@@ -114,7 +114,7 @@ main.ts:195471
 
 #### Defined in
 
-main.ts:195484
+[main.ts:195364](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L195364)
 
 ___
 
@@ -134,7 +134,7 @@ ___
 
 #### Defined in
 
-main.ts:195507
+[main.ts:195387](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L195387)
 
 ___
 
@@ -154,4 +154,4 @@ ___
 
 #### Defined in
 
-main.ts:195500
+[main.ts:195380](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L195380)

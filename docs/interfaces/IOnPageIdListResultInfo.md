@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IOnPageIdListResultInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IOnPageIdListResultInfo
 
 # Interface: IOnPageIdListResultInfo
 
@@ -32,7 +32,7 @@ cost of the task, USD
 
 #### Defined in
 
-main.ts:141810
+[main.ts:141666](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L141666)
 
 ___
 
@@ -47,7 +47,7 @@ example:
 
 #### Defined in
 
-main.ts:141805
+[main.ts:141661](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L141661)
 
 ___
 
@@ -62,7 +62,7 @@ example:
 
 #### Defined in
 
-main.ts:141800
+[main.ts:141656](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L141656)
 
 ___
 
@@ -74,7 +74,7 @@ id of the task
 
 #### Defined in
 
-main.ts:141792
+[main.ts:141648](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L141648)
 
 ___
 
@@ -90,7 +90,7 @@ contains parameters you specified in the POST request
 
 #### Defined in
 
-main.ts:141812
+[main.ts:141668](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L141668)
 
 ___
 
@@ -103,7 +103,7 @@ you can find the full list of general informational messages here
 
 #### Defined in
 
-main.ts:141808
+[main.ts:141664](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L141664)
 
 ___
 
@@ -116,4 +116,4 @@ URL you used for making an API call
 
 #### Defined in
 
-main.ts:141795
+[main.ts:141651](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L141651)

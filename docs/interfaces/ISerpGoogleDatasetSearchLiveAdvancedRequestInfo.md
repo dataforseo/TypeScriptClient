@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / ISerpGoogleDatasetSearchLiveAdvancedRequestInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / ISerpGoogleDatasetSearchLiveAdvancedRequestInfo
 
 # Interface: ISerpGoogleDatasetSearchLiveAdvancedRequestInfo
 
@@ -44,7 +44,7 @@ if the specified depth is higher than the number of results in the response, the
 
 #### Defined in
 
-main.ts:51645
+[main.ts:51503](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L51503)
 
 ___
 
@@ -58,7 +58,7 @@ possible value: desktop
 
 #### Defined in
 
-main.ts:51631
+[main.ts:51489](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L51489)
 
 ___
 
@@ -72,7 +72,7 @@ possible values: other, archive, text, image, document, tabular
 
 #### Defined in
 
-main.ts:51653
+[main.ts:51511](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L51511)
 
 ___
 
@@ -86,7 +86,7 @@ possible values: true, false
 
 #### Defined in
 
-main.ts:51661
+[main.ts:51519](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L51519)
 
 ___
 
@@ -103,7 +103,7 @@ if you need to use the “+” symbol for your keyword, please specify it as “
 
 #### Defined in
 
-main.ts:51615
+[main.ts:51473](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L51473)
 
 ___
 
@@ -119,7 +119,7 @@ en
 
 #### Defined in
 
-main.ts:51627
+[main.ts:51485](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L51485)
 
 ___
 
@@ -135,7 +135,7 @@ English
 
 #### Defined in
 
-main.ts:51621
+[main.ts:51479](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L51479)
 
 ___
 
@@ -149,7 +149,7 @@ possible values: 1m, 1y, 3y
 
 #### Defined in
 
-main.ts:51649
+[main.ts:51507](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L51507)
 
 ___
 
@@ -164,7 +164,7 @@ default value: windows
 
 #### Defined in
 
-main.ts:51636
+[main.ts:51494](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L51494)
 
 ___
 
@@ -180,7 +180,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:51671
+[main.ts:51529](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L51529)
 
 ___
 
@@ -194,7 +194,7 @@ possible values: humanities, social_sciences, life_sciences, agriculture, natura
 
 #### Defined in
 
-main.ts:51665
+[main.ts:51523](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L51523)
 
 ___
 
@@ -208,4 +208,4 @@ possible values: commercial, noncommercial
 
 #### Defined in
 
-main.ts:51657
+[main.ts:51515](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L51515)

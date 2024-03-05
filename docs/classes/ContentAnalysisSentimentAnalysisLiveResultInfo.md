@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / ContentAnalysisSentimentAnalysisLiveResultInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / ContentAnalysisSentimentAnalysisLiveResultInfo
 
 # Class: ContentAnalysisSentimentAnalysisLiveResultInfo
 
@@ -46,7 +46,7 @@
 
 #### Defined in
 
-main.ts:158105
+[main.ts:157985](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L157985)
 
 ## Properties
 
@@ -64,7 +64,7 @@ possible sentiment connotation types: positive, negative, neutral
 
 #### Defined in
 
-main.ts:158097
+[main.ts:157977](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L157977)
 
 ___
 
@@ -82,7 +82,7 @@ possible sentiment connotation types: anger, happiness, love, sadness, share, fu
 
 #### Defined in
 
-main.ts:158101
+[main.ts:157981](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L157981)
 
 ___
 
@@ -98,7 +98,7 @@ type of element
 
 #### Defined in
 
-main.ts:158093
+[main.ts:157973](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L157973)
 
 ## Methods
 
@@ -118,7 +118,7 @@ main.ts:158093
 
 #### Defined in
 
-main.ts:158114
+[main.ts:157994](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L157994)
 
 ___
 
@@ -138,7 +138,7 @@ ___
 
 #### Defined in
 
-main.ts:158133
+[main.ts:158013](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L158013)
 
 ___
 
@@ -158,4 +158,4 @@ ___
 
 #### Defined in
 
-main.ts:158126
+[main.ts:158006](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L158006)

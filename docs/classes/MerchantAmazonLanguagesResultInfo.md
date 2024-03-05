@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / MerchantAmazonLanguagesResultInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / MerchantAmazonLanguagesResultInfo
 
 # Class: MerchantAmazonLanguagesResultInfo
 
@@ -45,7 +45,7 @@
 
 #### Defined in
 
-main.ts:170259
+[main.ts:170139](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L170139)
 
 ## Properties
 
@@ -61,7 +61,7 @@ language code according to ISO 639-1
 
 #### Defined in
 
-main.ts:170255
+[main.ts:170135](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L170135)
 
 ___
 
@@ -77,7 +77,7 @@ language name
 
 #### Defined in
 
-main.ts:170253
+[main.ts:170133](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L170133)
 
 ## Methods
 
@@ -97,7 +97,7 @@ main.ts:170253
 
 #### Defined in
 
-main.ts:170268
+[main.ts:170148](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L170148)
 
 ___
 
@@ -117,7 +117,7 @@ ___
 
 #### Defined in
 
-main.ts:170286
+[main.ts:170166](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L170166)
 
 ___
 
@@ -137,4 +137,4 @@ ___
 
 #### Defined in
 
-main.ts:170279
+[main.ts:170159](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L170159)

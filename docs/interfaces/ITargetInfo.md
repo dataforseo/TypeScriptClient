@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / ITargetInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / ITargetInfo
 
 # Interface: ITargetInfo
 
@@ -32,7 +32,7 @@ content management system
 
 #### Defined in
 
-main.ts:129589
+[main.ts:129445](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L129445)
 
 ___
 
@@ -44,7 +44,7 @@ country code that the target domain is determined to belong to
 
 #### Defined in
 
-main.ts:129595
+[main.ts:129451](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L129451)
 
 ___
 
@@ -56,7 +56,7 @@ IP address of the target
 
 #### Defined in
 
-main.ts:129593
+[main.ts:129449](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L129449)
 
 ___
 
@@ -69,7 +69,7 @@ if true, the domain, subdomain or webpage functions as an IP address and does no
 
 #### Defined in
 
-main.ts:129598
+[main.ts:129454](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L129454)
 
 ___
 
@@ -81,7 +81,7 @@ platform type
 
 #### Defined in
 
-main.ts:129591
+[main.ts:129447](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L129447)
 
 ___
 
@@ -93,7 +93,7 @@ server
 
 #### Defined in
 
-main.ts:129587
+[main.ts:129443](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L129443)
 
 ___
 
@@ -107,4 +107,4 @@ learn more about how the metric is calculated on this help center page
 
 #### Defined in
 
-main.ts:129602
+[main.ts:129458](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L129458)

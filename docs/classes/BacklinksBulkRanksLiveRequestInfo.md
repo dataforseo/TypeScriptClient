@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / BacklinksBulkRanksLiveRequestInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / BacklinksBulkRanksLiveRequestInfo
 
 # Class: BacklinksBulkRanksLiveRequestInfo
 
@@ -45,7 +45,7 @@
 
 #### Defined in
 
-main.ts:139470
+[main.ts:139326](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L139326)
 
 ## Properties
 
@@ -65,7 +65,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:139466
+[main.ts:139322](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L139322)
 
 ___
 
@@ -98,7 +98,7 @@ example:
 
 #### Defined in
 
-main.ts:139460
+[main.ts:139316](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L139316)
 
 ## Methods
 
@@ -118,7 +118,7 @@ main.ts:139460
 
 #### Defined in
 
-main.ts:139479
+[main.ts:139335](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L139335)
 
 ___
 
@@ -138,7 +138,7 @@ ___
 
 #### Defined in
 
-main.ts:139501
+[main.ts:139357](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L139357)
 
 ___
 
@@ -158,4 +158,4 @@ ___
 
 #### Defined in
 
-main.ts:139494
+[main.ts:139350](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L139350)

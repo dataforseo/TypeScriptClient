@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IKnowledgeGraphSerpElementItem
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IKnowledgeGraphSerpElementItem
 
 # Interface: IKnowledgeGraphSerpElementItem
 
@@ -45,7 +45,7 @@ card id
 
 #### Defined in
 
-main.ts:27791
+[main.ts:27649](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L27649)
 
 ___
 
@@ -59,7 +59,7 @@ can be used with Google Reviews API to get a full list of reviews
 
 #### Defined in
 
-main.ts:27802
+[main.ts:27660](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L27660)
 
 ___
 
@@ -71,7 +71,7 @@ description of the results element in SERP
 
 #### Defined in
 
-main.ts:27789
+[main.ts:27647](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L27647)
 
 ___
 
@@ -84,7 +84,7 @@ the URL leading to the image on the original resource or DataForSEO storage (in 
 
 #### Defined in
 
-main.ts:27796
+[main.ts:27654](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L27654)
 
 ___
 
@@ -97,7 +97,7 @@ if there are none, equals null
 
 #### Defined in
 
-main.ts:27805
+[main.ts:27663](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L27663)
 
 ___
 
@@ -109,7 +109,7 @@ URL of the logo from knowledge graph
 
 #### Defined in
 
-main.ts:27798
+[main.ts:27656](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L27656)
 
 ___
 
@@ -123,7 +123,7 @@ left, right
 
 #### Defined in
 
-main.ts:27781
+[main.ts:27639](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L27639)
 
 ___
 
@@ -136,7 +136,7 @@ absolute position among all the elements in SERP
 
 #### Defined in
 
-main.ts:27777
+[main.ts:27635](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L27635)
 
 ___
 
@@ -150,7 +150,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-main.ts:27774
+[main.ts:27632](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L27632)
 
 ___
 
@@ -164,7 +164,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 #### Defined in
 
-main.ts:27809
+[main.ts:27667](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L27667)
 
 ___
 
@@ -176,7 +176,7 @@ subtitle of the item
 
 #### Defined in
 
-main.ts:27787
+[main.ts:27645](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L27645)
 
 ___
 
@@ -188,7 +188,7 @@ title of the result in SERP
 
 #### Defined in
 
-main.ts:27785
+[main.ts:27643](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L27643)
 
 ___
 
@@ -200,7 +200,7 @@ relevant URL in SERP
 
 #### Defined in
 
-main.ts:27793
+[main.ts:27651](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L27651)
 
 ___
 
@@ -212,4 +212,4 @@ the XPath of the element
 
 #### Defined in
 
-main.ts:27783
+[main.ts:27641](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L27641)

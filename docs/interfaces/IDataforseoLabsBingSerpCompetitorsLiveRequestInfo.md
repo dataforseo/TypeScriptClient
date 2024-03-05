@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IDataforseoLabsBingSerpCompetitorsLiveRequestInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IDataforseoLabsBingSerpCompetitorsLiveRequestInfo
 
 # Interface: IDataforseoLabsBingSerpCompetitorsLiveRequestInfo
 
@@ -50,7 +50,7 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 #### Defined in
 
-main.ts:107171
+[main.ts:107027](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L107027)
 
 ___
 
@@ -65,7 +65,7 @@ default value: true
 
 #### Defined in
 
-main.ts:107138
+[main.ts:106994](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L106994)
 
 ___
 
@@ -83,7 +83,7 @@ default value:
 
 #### Defined in
 
-main.ts:107146
+[main.ts:107002](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L107002)
 
 ___
 
@@ -101,7 +101,7 @@ you can specify the maximum of 200 keywords
 
 #### Defined in
 
-main.ts:107099
+[main.ts:106955](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L106955)
 
 ___
 
@@ -119,7 +119,7 @@ en
 
 #### Defined in
 
-main.ts:107133
+[main.ts:106989](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L106989)
 
 ___
 
@@ -137,7 +137,7 @@ English
 
 #### Defined in
 
-main.ts:107125
+[main.ts:106981](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L106981)
 
 ___
 
@@ -152,7 +152,7 @@ maximum value: 1000
 
 #### Defined in
 
-main.ts:107151
+[main.ts:107007](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L107007)
 
 ___
 
@@ -171,7 +171,7 @@ example:
 
 #### Defined in
 
-main.ts:107117
+[main.ts:106973](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L106973)
 
 ___
 
@@ -190,7 +190,7 @@ United States
 
 #### Defined in
 
-main.ts:107108
+[main.ts:106964](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L106964)
 
 ___
 
@@ -205,7 +205,7 @@ if you specify the 10 value, the first ten domains in the results array will be 
 
 #### Defined in
 
-main.ts:107156
+[main.ts:107012](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L107012)
 
 ___
 
@@ -231,7 +231,7 @@ example:
 
 #### Defined in
 
-main.ts:107187
+[main.ts:107043](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L107043)
 
 ___
 
@@ -247,4 +247,4 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:107193
+[main.ts:107049](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L107049)

@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IKeywordsDataGoogleAdsStatusResultInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IKeywordsDataGoogleAdsStatusResultInfo
 
 # Interface: IKeywordsDataGoogleAdsStatusResultInfo
 
@@ -32,7 +32,7 @@ if the value is false, we are not able to provide data for the previous month
 
 #### Defined in
 
-main.ts:113118
+[main.ts:112974](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L112974)
 
 ___
 
@@ -47,7 +47,7 @@ example:
 
 #### Defined in
 
-main.ts:113123
+[main.ts:112979](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L112979)
 
 ___
 
@@ -59,7 +59,7 @@ the latest month for which search volume data is available
 
 #### Defined in
 
-main.ts:113127
+[main.ts:112983](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L112983)
 
 ___
 
@@ -71,4 +71,4 @@ the latest year for which search volume data is available
 
 #### Defined in
 
-main.ts:113125
+[main.ts:112981](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L112981)

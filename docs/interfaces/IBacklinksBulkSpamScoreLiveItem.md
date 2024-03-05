@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IBacklinksBulkSpamScoreLiveItem
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IBacklinksBulkSpamScoreLiveItem
 
 # Interface: IBacklinksBulkSpamScoreLiveItem
 
@@ -29,7 +29,7 @@ learn more about how the metric is calculated
 
 #### Defined in
 
-main.ts:140282
+[main.ts:140138](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L140138)
 
 ___
 
@@ -41,7 +41,7 @@ domain, subdomain or webpage from a POST array
 
 #### Defined in
 
-main.ts:140279
+[main.ts:140135](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L140135)
 
 ___
 
@@ -53,4 +53,4 @@ type of element
 
 #### Defined in
 
-main.ts:140277
+[main.ts:140133](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L140133)

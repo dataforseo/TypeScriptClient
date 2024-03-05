@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IKeywordsDataBingKeywordsForSiteLiveRequestInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IKeywordsDataBingKeywordsForSiteLiveRequestInfo
 
 # Interface: IKeywordsDataBingKeywordsForSiteLiveRequestInfo
 
@@ -43,7 +43,7 @@ example:
 
 #### Defined in
 
-main.ts:124818
+[main.ts:124674](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L124674)
 
 ___
 
@@ -63,7 +63,7 @@ example:
 
 #### Defined in
 
-main.ts:124828
+[main.ts:124684](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L124684)
 
 ___
 
@@ -78,7 +78,7 @@ default value: all
 
 #### Defined in
 
-main.ts:124811
+[main.ts:124667](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L124667)
 
 ___
 
@@ -94,7 +94,7 @@ the specified keywords will be converted to lowercase format
 
 #### Defined in
 
-main.ts:124806
+[main.ts:124662](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L124662)
 
 ___
 
@@ -110,7 +110,7 @@ en, fr, de
 
 #### Defined in
 
-main.ts:124800
+[main.ts:124656](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L124656)
 
 ___
 
@@ -126,7 +126,7 @@ English, French, German
 
 #### Defined in
 
-main.ts:124794
+[main.ts:124650](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L124650)
 
 ___
 
@@ -143,7 +143,7 @@ example:
 
 #### Defined in
 
-main.ts:124780
+[main.ts:124636](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L124636)
 
 ___
 
@@ -161,7 +161,7 @@ example:
 
 #### Defined in
 
-main.ts:124788
+[main.ts:124644](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L124644)
 
 ___
 
@@ -178,7 +178,7 @@ London,England,United Kingdom
 
 #### Defined in
 
-main.ts:124773
+[main.ts:124629](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L124629)
 
 ___
 
@@ -193,7 +193,7 @@ default value: false – results are returned for Bing, AOL, and Yahoo search ne
 
 #### Defined in
 
-main.ts:124838
+[main.ts:124694](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L124694)
 
 ___
 
@@ -208,7 +208,7 @@ default value: relevance
 
 #### Defined in
 
-main.ts:124833
+[main.ts:124689](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L124689)
 
 ___
 
@@ -224,7 +224,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:124844
+[main.ts:124700](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L124700)
 
 ___
 
@@ -238,4 +238,4 @@ the domain name or URL of the target website
 
 #### Defined in
 
-main.ts:124766
+[main.ts:124622](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L124622)

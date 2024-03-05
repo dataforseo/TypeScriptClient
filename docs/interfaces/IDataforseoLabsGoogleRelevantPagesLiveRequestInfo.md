@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IDataforseoLabsGoogleRelevantPagesLiveRequestInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IDataforseoLabsGoogleRelevantPagesLiveRequestInfo
 
 # Interface: IDataforseoLabsGoogleRelevantPagesLiveRequestInfo
 
@@ -49,7 +49,7 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 #### Defined in
 
-main.ts:90316
+[main.ts:90172](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L90172)
 
 ___
 
@@ -68,7 +68,7 @@ default value: live
 
 #### Defined in
 
-main.ts:90302
+[main.ts:90158](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L90158)
 
 ___
 
@@ -87,7 +87,7 @@ default value:
 
 #### Defined in
 
-main.ts:90283
+[main.ts:90139](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L90139)
 
 ___
 
@@ -106,7 +106,7 @@ en
 
 #### Defined in
 
-main.ts:90274
+[main.ts:90130](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L90130)
 
 ___
 
@@ -125,7 +125,7 @@ English
 
 #### Defined in
 
-main.ts:90265
+[main.ts:90121](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L90121)
 
 ___
 
@@ -140,7 +140,7 @@ maximum value: 1000
 
 #### Defined in
 
-main.ts:90288
+[main.ts:90144](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L90144)
 
 ___
 
@@ -159,7 +159,7 @@ example:
 
 #### Defined in
 
-main.ts:90256
+[main.ts:90112](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L90112)
 
 ___
 
@@ -178,7 +178,7 @@ United Kingdom
 
 #### Defined in
 
-main.ts:90247
+[main.ts:90103](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L90103)
 
 ___
 
@@ -193,7 +193,7 @@ if you specify the 10 value, the first ten pages in the results array will be om
 
 #### Defined in
 
-main.ts:90293
+[main.ts:90149](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L90149)
 
 ___
 
@@ -220,7 +220,7 @@ Note: if the item_types array contains item types that are different from organi
 
 #### Defined in
 
-main.ts:90333
+[main.ts:90189](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L90189)
 
 ___
 
@@ -236,7 +236,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:90339
+[main.ts:90195](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L90195)
 
 ___
 
@@ -251,4 +251,4 @@ the domain should be specified without https:// and www.
 
 #### Defined in
 
-main.ts:90238
+[main.ts:90094](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L90094)

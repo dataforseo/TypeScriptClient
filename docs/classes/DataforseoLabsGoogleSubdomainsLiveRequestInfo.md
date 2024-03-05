@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / DataforseoLabsGoogleSubdomainsLiveRequestInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / DataforseoLabsGoogleSubdomainsLiveRequestInfo
 
 # Class: DataforseoLabsGoogleSubdomainsLiveRequestInfo
 
@@ -55,7 +55,7 @@
 
 #### Defined in
 
-main.ts:89568
+[main.ts:89424](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L89424)
 
 ## Properties
 
@@ -83,7 +83,7 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 #### Defined in
 
-main.ts:89531
+[main.ts:89387](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L89387)
 
 ___
 
@@ -106,7 +106,7 @@ default value: live
 
 #### Defined in
 
-main.ts:89517
+[main.ts:89373](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L89373)
 
 ___
 
@@ -129,7 +129,7 @@ default value:
 
 #### Defined in
 
-main.ts:89508
+[main.ts:89364](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L89364)
 
 ___
 
@@ -152,7 +152,7 @@ en
 
 #### Defined in
 
-main.ts:89499
+[main.ts:89355](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L89355)
 
 ___
 
@@ -175,7 +175,7 @@ English
 
 #### Defined in
 
-main.ts:89490
+[main.ts:89346](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L89346)
 
 ___
 
@@ -194,7 +194,7 @@ maximum value: 1000
 
 #### Defined in
 
-main.ts:89553
+[main.ts:89409](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L89409)
 
 ___
 
@@ -217,7 +217,7 @@ example:
 
 #### Defined in
 
-main.ts:89481
+[main.ts:89337](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L89337)
 
 ___
 
@@ -240,7 +240,7 @@ United Kingdom
 
 #### Defined in
 
-main.ts:89472
+[main.ts:89328](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L89328)
 
 ___
 
@@ -259,7 +259,7 @@ if you specify the 10 value, the first ten keywords in the results array will be
 
 #### Defined in
 
-main.ts:89558
+[main.ts:89414](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L89414)
 
 ___
 
@@ -290,7 +290,7 @@ Note: if the item_types array contains item types that are different from organi
 
 #### Defined in
 
-main.ts:89548
+[main.ts:89404](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L89404)
 
 ___
 
@@ -310,7 +310,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:89564
+[main.ts:89420](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L89420)
 
 ___
 
@@ -329,7 +329,7 @@ the domain should be specified without https:// and www.
 
 #### Defined in
 
-main.ts:89463
+[main.ts:89319](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L89319)
 
 ## Methods
 
@@ -349,7 +349,7 @@ main.ts:89463
 
 #### Defined in
 
-main.ts:89577
+[main.ts:89433](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L89433)
 
 ___
 
@@ -369,7 +369,7 @@ ___
 
 #### Defined in
 
-main.ts:89617
+[main.ts:89473](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L89473)
 
 ___
 
@@ -389,4 +389,4 @@ ___
 
 #### Defined in
 
-main.ts:89610
+[main.ts:89466](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L89466)

@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IKeywordIntentInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IKeywordIntentInfo
 
 # Interface: IKeywordIntentInfo
 
@@ -28,7 +28,7 @@ possible values: informational, navigational, commercial, transactional
 
 #### Defined in
 
-main.ts:82988
+[main.ts:82844](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L82844)
 
 ___
 
@@ -41,4 +41,4 @@ search intent probability
 
 #### Defined in
 
-main.ts:82991
+[main.ts:82847](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L82847)

@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IDiscussionsAndForumsElement
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IDiscussionsAndForumsElement
 
 # Interface: IDiscussionsAndForumsElement
 
@@ -33,7 +33,7 @@ description of the results element in SERP
 
 #### Defined in
 
-main.ts:35816
+[main.ts:35674](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L35674)
 
 ___
 
@@ -45,7 +45,7 @@ domain where a link points
 
 #### Defined in
 
-main.ts:35811
+[main.ts:35669](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L35669)
 
 ___
 
@@ -57,7 +57,7 @@ number of posts from the discussion on the related source
 
 #### Defined in
 
-main.ts:35823
+[main.ts:35681](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L35681)
 
 ___
 
@@ -70,7 +70,7 @@ indicates the source of information included in the element
 
 #### Defined in
 
-main.ts:35814
+[main.ts:35672](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L35672)
 
 ___
 
@@ -85,7 +85,7 @@ example:
 
 #### Defined in
 
-main.ts:35821
+[main.ts:35679](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L35679)
 
 ___
 
@@ -97,7 +97,7 @@ title of the row
 
 #### Defined in
 
-main.ts:35807
+[main.ts:35665](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L35665)
 
 ___
 
@@ -109,7 +109,7 @@ type of element
 
 #### Defined in
 
-main.ts:35805
+[main.ts:35663](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L35663)
 
 ___
 
@@ -121,4 +121,4 @@ URL
 
 #### Defined in
 
-main.ts:35809
+[main.ts:35667](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L35667)

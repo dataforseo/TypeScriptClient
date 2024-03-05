@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IDataforseoLabsAmazonBulkSearchVolumeLiveResultInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IDataforseoLabsAmazonBulkSearchVolumeLiveResultInfo
 
 # Interface: IDataforseoLabsAmazonBulkSearchVolumeLiveResultInfo
 
@@ -31,7 +31,7 @@ contains keyword search volume data data
 
 #### Defined in
 
-main.ts:99093
+[main.ts:98949](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L98949)
 
 ___
 
@@ -43,7 +43,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:99091
+[main.ts:98947](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L98947)
 
 ___
 
@@ -56,7 +56,7 @@ if there is no data, then the value is null
 
 #### Defined in
 
-main.ts:99087
+[main.ts:98943](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L98943)
 
 ___
 
@@ -69,7 +69,7 @@ if there is no data, then the value is null
 
 #### Defined in
 
-main.ts:99084
+[main.ts:98940](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L98940)
 
 ___
 
@@ -81,7 +81,7 @@ search engine type
 
 #### Defined in
 
-main.ts:99081
+[main.ts:98937](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L98937)
 
 ___
 
@@ -93,4 +93,4 @@ total amount of results in our database relevant to your request
 
 #### Defined in
 
-main.ts:99089
+[main.ts:98945](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L98945)

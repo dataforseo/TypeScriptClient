@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IDataforseoLabsleAppIntersectionLiveItem
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IDataforseoLabsleAppIntersectionLiveItem
 
 # Interface: IDataforseoLabsleAppIntersectionLiveItem
 
@@ -34,7 +34,7 @@ depending on the number of specified app IDs, it can contain from 1 to 20 arrays
 
 #### Defined in
 
-main.ts:110087
+[main.ts:109943](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L109943)
 
 ___
 
@@ -46,7 +46,7 @@ keyword data for the returned keyword
 
 #### Defined in
 
-main.ts:110083
+[main.ts:109939](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L109939)
 
 ___
 
@@ -58,4 +58,4 @@ search engine type
 
 #### Defined in
 
-main.ts:110081
+[main.ts:109937](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L109937)

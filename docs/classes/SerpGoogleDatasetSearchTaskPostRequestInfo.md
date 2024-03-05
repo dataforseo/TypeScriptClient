@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / SerpGoogleDatasetSearchTaskPostRequestInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / SerpGoogleDatasetSearchTaskPostRequestInfo
 
 # Class: SerpGoogleDatasetSearchTaskPostRequestInfo
 
@@ -59,7 +59,7 @@
 
 #### Defined in
 
-main.ts:49991
+[main.ts:49849](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L49849)
 
 ## Properties
 
@@ -82,7 +82,7 @@ if the specified depth is higher than the number of results in the response, the
 
 #### Defined in
 
-main.ts:49916
+[main.ts:49774](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L49774)
 
 ___
 
@@ -100,7 +100,7 @@ possible value: desktop
 
 #### Defined in
 
-main.ts:49931
+[main.ts:49789](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L49789)
 
 ___
 
@@ -118,7 +118,7 @@ possible values: other, archive, text, image, document, tabular
 
 #### Defined in
 
-main.ts:49944
+[main.ts:49802](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L49802)
 
 ___
 
@@ -136,7 +136,7 @@ possible values: true, false
 
 #### Defined in
 
-main.ts:49952
+[main.ts:49810](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L49810)
 
 ___
 
@@ -157,7 +157,7 @@ if you need to use the “+” symbol for your keyword, please specify it as “
 
 #### Defined in
 
-main.ts:49899
+[main.ts:49757](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L49757)
 
 ___
 
@@ -176,7 +176,7 @@ en
 
 #### Defined in
 
-main.ts:49927
+[main.ts:49785](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L49785)
 
 ___
 
@@ -196,7 +196,7 @@ English
 
 #### Defined in
 
-main.ts:49922
+[main.ts:49780](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L49780)
 
 ___
 
@@ -214,7 +214,7 @@ possible values: 1m, 1y, 3y
 
 #### Defined in
 
-main.ts:49940
+[main.ts:49798](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L49798)
 
 ___
 
@@ -233,7 +233,7 @@ default value: windows
 
 #### Defined in
 
-main.ts:49936
+[main.ts:49794](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L49794)
 
 ___
 
@@ -257,7 +257,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-main.ts:49987
+[main.ts:49845](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L49845)
 
 ___
 
@@ -276,7 +276,7 @@ only value: advanced
 
 #### Defined in
 
-main.ts:49977
+[main.ts:49835](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L49835)
 
 ___
 
@@ -300,7 +300,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-main.ts:49972
+[main.ts:49830](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L49830)
 
 ___
 
@@ -322,7 +322,7 @@ The cost can be calculated on the Pricing page.
 
 #### Defined in
 
-main.ts:49907
+[main.ts:49765](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L49765)
 
 ___
 
@@ -342,7 +342,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:49962
+[main.ts:49820](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L49820)
 
 ___
 
@@ -360,7 +360,7 @@ possible values: humanities, social_sciences, life_sciences, agriculture, natura
 
 #### Defined in
 
-main.ts:49956
+[main.ts:49814](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L49814)
 
 ___
 
@@ -378,7 +378,7 @@ possible values: commercial, noncommercial
 
 #### Defined in
 
-main.ts:49948
+[main.ts:49806](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L49806)
 
 ## Methods
 
@@ -398,7 +398,7 @@ main.ts:49948
 
 #### Defined in
 
-main.ts:50000
+[main.ts:49858](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L49858)
 
 ___
 
@@ -418,7 +418,7 @@ ___
 
 #### Defined in
 
-main.ts:50040
+[main.ts:49898](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L49898)
 
 ___
 
@@ -438,4 +438,4 @@ ___
 
 #### Defined in
 
-main.ts:50033
+[main.ts:49891](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L49891)

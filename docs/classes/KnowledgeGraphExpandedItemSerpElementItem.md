@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / KnowledgeGraphExpandedItemSerpElementItem
+[dataforseo-client](../README.md) / [Exports](../modules.md) / KnowledgeGraphExpandedItemSerpElementItem
 
 # Class: KnowledgeGraphExpandedItemSerpElementItem
 
@@ -62,7 +62,7 @@
 
 #### Defined in
 
-main.ts:27219
+[main.ts:27077](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L27077)
 
 ## Properties
 
@@ -76,7 +76,7 @@ main.ts:27219
 
 #### Defined in
 
-main.ts:19337
+[main.ts:19337](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L19337)
 
 ___
 
@@ -94,7 +94,7 @@ kc:/local:place qa
 
 #### Defined in
 
-main.ts:27209
+[main.ts:27067](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L27067)
 
 ___
 
@@ -110,7 +110,7 @@ link of the element
 
 #### Defined in
 
-main.ts:27211
+[main.ts:27069](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L27069)
 
 ___
 
@@ -128,7 +128,7 @@ left, right
 
 #### Defined in
 
-main.ts:27201
+[main.ts:27059](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L27059)
 
 ___
 
@@ -145,7 +145,7 @@ absolute position among all the elements in SERP
 
 #### Defined in
 
-main.ts:27197
+[main.ts:27055](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L27055)
 
 ___
 
@@ -163,7 +163,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-main.ts:27194
+[main.ts:27052](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L27052)
 
 ___
 
@@ -181,7 +181,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 #### Defined in
 
-main.ts:27215
+[main.ts:27073](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L27073)
 
 ___
 
@@ -197,7 +197,7 @@ title of the link
 
 #### Defined in
 
-main.ts:27205
+[main.ts:27063](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L27063)
 
 ___
 
@@ -213,7 +213,7 @@ the XPath of the element
 
 #### Defined in
 
-main.ts:27203
+[main.ts:27061](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L27061)
 
 ## Methods
 
@@ -237,7 +237,7 @@ main.ts:27203
 
 #### Defined in
 
-main.ts:27224
+[main.ts:27082](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L27082)
 
 ___
 
@@ -261,7 +261,7 @@ ___
 
 #### Defined in
 
-main.ts:27253
+[main.ts:27111](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L27111)
 
 ___
 
@@ -285,4 +285,4 @@ ___
 
 #### Defined in
 
-main.ts:27246
+[main.ts:27104](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L27104)

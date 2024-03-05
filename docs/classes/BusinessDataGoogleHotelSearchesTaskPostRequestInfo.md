@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / BusinessDataGoogleHotelSearchesTaskPostRequestInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / BusinessDataGoogleHotelSearchesTaskPostRequestInfo
 
 # Class: BusinessDataGoogleHotelSearchesTaskPostRequestInfo
 
@@ -77,7 +77,7 @@
 
 #### Defined in
 
-main.ts:193006
+[main.ts:192886](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L192886)
 
 ## Properties
 
@@ -98,7 +98,7 @@ example:
 
 #### Defined in
 
-main.ts:192919
+[main.ts:192799](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L192799)
 
 ___
 
@@ -141,7 +141,7 @@ possible values:
 
 #### Defined in
 
-main.ts:193002
+[main.ts:192882](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L192882)
 
 ___
 
@@ -163,7 +163,7 @@ Note: the value cannot precede the today’s date
 
 #### Defined in
 
-main.ts:192898
+[main.ts:192778](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L192778)
 
 ___
 
@@ -186,7 +186,7 @@ the range between check_in and check_out values cannot exceed 30 days
 
 #### Defined in
 
-main.ts:192907
+[main.ts:192787](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L192787)
 
 ___
 
@@ -210,7 +210,7 @@ set the following value if you want to include one 13-year-old child and one 8-y
 
 #### Defined in
 
-main.ts:192929
+[main.ts:192809](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L192809)
 
 ___
 
@@ -229,7 +229,7 @@ example:
 
 #### Defined in
 
-main.ts:192912
+[main.ts:192792](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L192792)
 
 ___
 
@@ -252,7 +252,7 @@ if the specified depth is higher than the number of results in the response, the
 
 #### Defined in
 
-main.ts:192890
+[main.ts:192770](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L192770)
 
 ___
 
@@ -271,7 +271,7 @@ default value: false
 
 #### Defined in
 
-main.ts:192968
+[main.ts:192848](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L192848)
 
 ___
 
@@ -290,7 +290,7 @@ default value: false
 
 #### Defined in
 
-main.ts:192973
+[main.ts:192853](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L192853)
 
 ___
 
@@ -324,7 +324,7 @@ learn more about the cid and place_id identifiers in this help center article
 
 #### Defined in
 
-main.ts:183230
+[main.ts:183110](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L183110)
 
 ___
 
@@ -349,7 +349,7 @@ en
 
 #### Defined in
 
-main.ts:183275
+[main.ts:183155](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L183155)
 
 ___
 
@@ -374,7 +374,7 @@ English
 
 #### Defined in
 
-main.ts:183268
+[main.ts:183148](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L183148)
 
 ___
 
@@ -399,7 +399,7 @@ example:
 
 #### Defined in
 
-main.ts:183252
+[main.ts:183132](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L183132)
 
 ___
 
@@ -426,7 +426,7 @@ example:
 
 #### Defined in
 
-main.ts:183261
+[main.ts:183141](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L183141)
 
 ___
 
@@ -451,7 +451,7 @@ London,England,United Kingdom
 
 #### Defined in
 
-main.ts:183245
+[main.ts:183125](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L183125)
 
 ___
 
@@ -471,7 +471,7 @@ example:
 
 #### Defined in
 
-main.ts:192963
+[main.ts:192843](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L192843)
 
 ___
 
@@ -491,7 +491,7 @@ example:
 
 #### Defined in
 
-main.ts:192957
+[main.ts:192837](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L192837)
 
 ___
 
@@ -511,7 +511,7 @@ example:
 
 #### Defined in
 
-main.ts:192941
+[main.ts:192821](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L192821)
 
 ___
 
@@ -539,7 +539,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-main.ts:183301
+[main.ts:183181](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L183181)
 
 ___
 
@@ -567,7 +567,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-main.ts:183291
+[main.ts:183171](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L183171)
 
 ___
 
@@ -593,7 +593,7 @@ The cost can be calculated on the Pricing page.
 
 #### Defined in
 
-main.ts:183238
+[main.ts:183118](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L183118)
 
 ___
 
@@ -617,7 +617,7 @@ default value: relevance
 
 #### Defined in
 
-main.ts:192951
+[main.ts:192831](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L192831)
 
 ___
 
@@ -637,7 +637,7 @@ example:
 
 #### Defined in
 
-main.ts:192935
+[main.ts:192815](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L192815)
 
 ___
 
@@ -661,7 +661,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:183281
+[main.ts:183161](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L183161)
 
 ## Methods
 
@@ -685,7 +685,7 @@ main.ts:183281
 
 #### Defined in
 
-main.ts:193010
+[main.ts:192890](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L192890)
 
 ___
 
@@ -709,7 +709,7 @@ ___
 
 #### Defined in
 
-main.ts:193053
+[main.ts:192933](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L192933)
 
 ___
 
@@ -733,4 +733,4 @@ ___
 
 #### Defined in
 
-main.ts:193046
+[main.ts:192926](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L192926)

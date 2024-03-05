@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / AppDataGoogleAppListingsCategoriesResultInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / AppDataGoogleAppListingsCategoriesResultInfo
 
 # Class: AppDataGoogleAppListingsCategoriesResultInfo
 
@@ -45,7 +45,7 @@
 
 #### Defined in
 
-main.ts:182020
+[main.ts:181900](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L181900)
 
 ## Properties
 
@@ -61,7 +61,7 @@ name of the supported app category
 
 #### Defined in
 
-main.ts:182014
+[main.ts:181894](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L181894)
 
 ___
 
@@ -77,7 +77,7 @@ number of app listings that make up the supported app category
 
 #### Defined in
 
-main.ts:182016
+[main.ts:181896](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L181896)
 
 ## Methods
 
@@ -97,7 +97,7 @@ main.ts:182016
 
 #### Defined in
 
-main.ts:182029
+[main.ts:181909](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L181909)
 
 ___
 
@@ -117,7 +117,7 @@ ___
 
 #### Defined in
 
-main.ts:182047
+[main.ts:181927](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L181927)
 
 ___
 
@@ -137,4 +137,4 @@ ___
 
 #### Defined in
 
-main.ts:182040
+[main.ts:181920](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L181920)

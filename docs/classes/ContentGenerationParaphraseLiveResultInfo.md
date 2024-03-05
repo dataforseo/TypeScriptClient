@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / ContentGenerationParaphraseLiveResultInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / ContentGenerationParaphraseLiveResultInfo
 
 # Class: ContentGenerationParaphraseLiveResultInfo
 
@@ -47,7 +47,7 @@
 
 #### Defined in
 
-main.ts:161331
+[main.ts:161211](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L161211)
 
 ## Properties
 
@@ -63,7 +63,7 @@ paraphrased version of the given text
 
 #### Defined in
 
-main.ts:161327
+[main.ts:161207](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L161207)
 
 ___
 
@@ -79,7 +79,7 @@ number of input tokens in the POST request
 
 #### Defined in
 
-main.ts:161321
+[main.ts:161201](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L161201)
 
 ___
 
@@ -95,7 +95,7 @@ number of new tokens in the response
 
 #### Defined in
 
-main.ts:161325
+[main.ts:161205](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L161205)
 
 ___
 
@@ -111,7 +111,7 @@ number of output tokens in the response
 
 #### Defined in
 
-main.ts:161323
+[main.ts:161203](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L161203)
 
 ## Methods
 
@@ -131,7 +131,7 @@ main.ts:161323
 
 #### Defined in
 
-main.ts:161340
+[main.ts:161220](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L161220)
 
 ___
 
@@ -151,7 +151,7 @@ ___
 
 #### Defined in
 
-main.ts:161360
+[main.ts:161240](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L161240)
 
 ___
 
@@ -171,4 +171,4 @@ ___
 
 #### Defined in
 
-main.ts:161353
+[main.ts:161233](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L161233)

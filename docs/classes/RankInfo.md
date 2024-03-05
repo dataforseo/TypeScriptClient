@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / RankInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / RankInfo
 
 # Class: RankInfo
 
@@ -45,7 +45,7 @@
 
 #### Defined in
 
-main.ts:86714
+[main.ts:86570](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L86570)
 
 ## Properties
 
@@ -63,7 +63,7 @@ learn more about the metric and how it is calculated in this help center article
 
 #### Defined in
 
-main.ts:86710
+[main.ts:86566](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L86566)
 
 ___
 
@@ -81,7 +81,7 @@ learn more about the metric and how it is calculated in this help center article
 
 #### Defined in
 
-main.ts:86706
+[main.ts:86562](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L86562)
 
 ## Methods
 
@@ -101,7 +101,7 @@ main.ts:86706
 
 #### Defined in
 
-main.ts:86723
+[main.ts:86579](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L86579)
 
 ___
 
@@ -121,7 +121,7 @@ ___
 
 #### Defined in
 
-main.ts:86741
+[main.ts:86597](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L86597)
 
 ___
 
@@ -141,4 +141,4 @@ ___
 
 #### Defined in
 
-main.ts:86734
+[main.ts:86590](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L86590)

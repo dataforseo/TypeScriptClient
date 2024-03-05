@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IHotelPriceInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IHotelPriceInfo
 
 # Interface: IHotelPriceInfo
 
@@ -36,7 +36,7 @@ example:
 
 #### Defined in
 
-main.ts:193908
+[main.ts:193788](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L193788)
 
 ___
 
@@ -51,7 +51,7 @@ example:
 
 #### Defined in
 
-main.ts:193913
+[main.ts:193793](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L193793)
 
 ___
 
@@ -64,7 +64,7 @@ USD is applied by default, unless specified in the POST array
 
 #### Defined in
 
-main.ts:193901
+[main.ts:193781](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L193781)
 
 ___
 
@@ -76,7 +76,7 @@ text about a discount applied
 
 #### Defined in
 
-main.ts:193903
+[main.ts:193783](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L193783)
 
 ___
 
@@ -90,7 +90,7 @@ possible item types: hotel_search_item
 
 #### Defined in
 
-main.ts:193919
+[main.ts:193799](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L193799)
 
 ___
 
@@ -102,7 +102,7 @@ price per night
 
 #### Defined in
 
-main.ts:193896
+[main.ts:193776](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L193776)
 
 ___
 
@@ -114,7 +114,7 @@ full price per night without a discount applied
 
 #### Defined in
 
-main.ts:193898
+[main.ts:193778](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L193778)
 
 ___
 
@@ -126,4 +126,4 @@ number of hotel visitors for this price
 
 #### Defined in
 
-main.ts:193915
+[main.ts:193795](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L193795)

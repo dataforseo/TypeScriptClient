@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / KeywordsDataBingKeywordsForSiteLiveResultInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / KeywordsDataBingKeywordsForSiteLiveResultInfo
 
 # Class: KeywordsDataBingKeywordsForSiteLiveResultInfo
 
@@ -53,7 +53,7 @@
 
 #### Defined in
 
-main.ts:124885
+[main.ts:124741](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L124741)
 
 ## Properties
 
@@ -70,7 +70,7 @@ legacy field, the value will always be null
 
 #### Defined in
 
-main.ts:124877
+[main.ts:124733](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L124733)
 
 ___
 
@@ -91,7 +91,7 @@ if there is no data the value is null
 
 #### Defined in
 
-main.ts:124867
+[main.ts:124723](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L124723)
 
 ___
 
@@ -109,7 +109,7 @@ if there is no data, then the value is null
 
 #### Defined in
 
-main.ts:124871
+[main.ts:124727](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L124727)
 
 ___
 
@@ -126,7 +126,7 @@ if there is no data, then the value is null
 
 #### Defined in
 
-main.ts:124860
+[main.ts:124716](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L124716)
 
 ___
 
@@ -142,7 +142,7 @@ keyword in a POST array
 
 #### Defined in
 
-main.ts:124851
+[main.ts:124707](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L124707)
 
 ___
 
@@ -158,7 +158,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:124855
+[main.ts:124711](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L124711)
 
 ___
 
@@ -174,7 +174,7 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:124853
+[main.ts:124709](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L124709)
 
 ___
 
@@ -192,7 +192,7 @@ if there is no data, then the value is null
 
 #### Defined in
 
-main.ts:124881
+[main.ts:124737](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L124737)
 
 ___
 
@@ -208,7 +208,7 @@ indicates whether data from partner networks included in the response
 
 #### Defined in
 
-main.ts:124857
+[main.ts:124713](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L124713)
 
 ___
 
@@ -225,7 +225,7 @@ represents the (approximate) number of searches for the keyword on the Bing sear
 
 #### Defined in
 
-main.ts:124874
+[main.ts:124730](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L124730)
 
 ## Methods
 
@@ -245,7 +245,7 @@ main.ts:124874
 
 #### Defined in
 
-main.ts:124894
+[main.ts:124750](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L124750)
 
 ___
 
@@ -265,7 +265,7 @@ ___
 
 #### Defined in
 
-main.ts:124928
+[main.ts:124784](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L124784)
 
 ___
 
@@ -285,4 +285,4 @@ ___
 
 #### Defined in
 
-main.ts:124921
+[main.ts:124777](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L124777)

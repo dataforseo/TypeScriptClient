@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / PopularTimes
+[dataforseo-client](../README.md) / [Exports](../modules.md) / PopularTimes
 
 # Class: PopularTimes
 
@@ -44,7 +44,7 @@
 
 #### Defined in
 
-main.ts:188995
+[main.ts:188875](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L188875)
 
 ## Properties
 
@@ -65,7 +65,7 @@ information about busy hours of the local establishment on each day of the week
 
 #### Defined in
 
-main.ts:188991
+[main.ts:188871](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L188871)
 
 ## Methods
 
@@ -85,7 +85,7 @@ main.ts:188991
 
 #### Defined in
 
-main.ts:189004
+[main.ts:188884](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L188884)
 
 ___
 
@@ -105,7 +105,7 @@ ___
 
 #### Defined in
 
-main.ts:189027
+[main.ts:188907](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L188907)
 
 ___
 
@@ -125,4 +125,4 @@ ___
 
 #### Defined in
 
-main.ts:189020
+[main.ts:188900](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L188900)

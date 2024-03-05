@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IBusyWorkingTimeInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IBusyWorkingTimeInfo
 
 # Interface: IBusyWorkingTimeInfo
 
@@ -29,7 +29,7 @@ higher value corresponds to a busier time of a day
 
 #### Defined in
 
-main.ts:188983
+[main.ts:188863](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L188863)
 
 ___
 
@@ -41,4 +41,4 @@ busy hours
 
 #### Defined in
 
-main.ts:188979
+[main.ts:188859](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L188859)

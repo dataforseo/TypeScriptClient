@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / ExploreBrandsElement
+[dataforseo-client](../README.md) / [Exports](../modules.md) / ExploreBrandsElement
 
 # Class: ExploreBrandsElement
 
@@ -50,7 +50,7 @@
 
 #### Defined in
 
-main.ts:35348
+[main.ts:35206](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L35206)
 
 ## Properties
 
@@ -66,7 +66,7 @@ description of the results element in SERP
 
 #### Defined in
 
-main.ts:35340
+[main.ts:35198](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L35198)
 
 ___
 
@@ -82,7 +82,7 @@ domain where a link points
 
 #### Defined in
 
-main.ts:35338
+[main.ts:35196](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L35196)
 
 ___
 
@@ -98,7 +98,7 @@ URL of the image
 
 #### Defined in
 
-main.ts:35342
+[main.ts:35200](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L35200)
 
 ___
 
@@ -114,7 +114,7 @@ title of the row
 
 #### Defined in
 
-main.ts:35334
+[main.ts:35192](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L35192)
 
 ___
 
@@ -130,7 +130,7 @@ type of element
 
 #### Defined in
 
-main.ts:35332
+[main.ts:35190](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L35190)
 
 ___
 
@@ -146,7 +146,7 @@ URL
 
 #### Defined in
 
-main.ts:35336
+[main.ts:35194](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L35194)
 
 ___
 
@@ -162,7 +162,7 @@ the XPath of the element
 
 #### Defined in
 
-main.ts:35344
+[main.ts:35202](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L35202)
 
 ## Methods
 
@@ -182,7 +182,7 @@ main.ts:35344
 
 #### Defined in
 
-main.ts:35357
+[main.ts:35215](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L35215)
 
 ___
 
@@ -202,7 +202,7 @@ ___
 
 #### Defined in
 
-main.ts:35380
+[main.ts:35238](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L35238)
 
 ___
 
@@ -222,4 +222,4 @@ ___
 
 #### Defined in
 
-main.ts:35373
+[main.ts:35231](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L35231)

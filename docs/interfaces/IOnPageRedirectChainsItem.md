@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IOnPageRedirectChainsItem
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IOnPageRedirectChainsItem
 
 # Interface: IOnPageRedirectChainsItem
 
@@ -27,7 +27,7 @@ contains links that form a chain
 
 #### Defined in
 
-main.ts:149198
+[main.ts:149054](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L149054)
 
 ___
 
@@ -40,4 +40,4 @@ if true, the last URL from the chain redirects back to the original URL
 
 #### Defined in
 
-main.ts:149196
+[main.ts:149052](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L149052)

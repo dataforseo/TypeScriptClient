@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / TestSummary
+[dataforseo-client](../README.md) / [Exports](../modules.md) / TestSummary
 
 # Class: TestSummary
 
@@ -47,7 +47,7 @@
 
 #### Defined in
 
-main.ts:150735
+[main.ts:150591](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L150591)
 
 ## Properties
 
@@ -63,7 +63,7 @@ number of serious microdata errors
 
 #### Defined in
 
-main.ts:150727
+[main.ts:150583](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L150583)
 
 ___
 
@@ -79,7 +79,7 @@ number of fatal microdata errors
 
 #### Defined in
 
-main.ts:150725
+[main.ts:150581](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L150581)
 
 ___
 
@@ -95,7 +95,7 @@ number of microdata information flags
 
 #### Defined in
 
-main.ts:150731
+[main.ts:150587](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L150587)
 
 ___
 
@@ -111,7 +111,7 @@ number of microdata warnings
 
 #### Defined in
 
-main.ts:150729
+[main.ts:150585](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L150585)
 
 ## Methods
 
@@ -131,7 +131,7 @@ main.ts:150729
 
 #### Defined in
 
-main.ts:150744
+[main.ts:150600](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L150600)
 
 ___
 
@@ -151,7 +151,7 @@ ___
 
 #### Defined in
 
-main.ts:150764
+[main.ts:150620](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L150620)
 
 ___
 
@@ -171,4 +171,4 @@ ___
 
 #### Defined in
 
-main.ts:150757
+[main.ts:150613](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L150613)

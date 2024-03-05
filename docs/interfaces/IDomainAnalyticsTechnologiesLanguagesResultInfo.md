@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IDomainAnalyticsTechnologiesLanguagesResultInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IDomainAnalyticsTechnologiesLanguagesResultInfo
 
 # Interface: IDomainAnalyticsTechnologiesLanguagesResultInfo
 
@@ -27,7 +27,7 @@ language code according to ISO 639-1
 
 #### Defined in
 
-main.ts:72127
+[main.ts:71983](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L71983)
 
 ___
 
@@ -39,4 +39,4 @@ language name
 
 #### Defined in
 
-main.ts:72125
+[main.ts:71981](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L71981)

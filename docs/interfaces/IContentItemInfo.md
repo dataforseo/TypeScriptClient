@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IContentItemInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IContentItemInfo
 
 # Interface: IContentItemInfo
 
@@ -27,7 +27,7 @@ content text
 
 #### Defined in
 
-main.ts:152147
+[main.ts:152003](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L152003)
 
 ___
 
@@ -40,4 +40,4 @@ displayed in case the text is a link anchor
 
 #### Defined in
 
-main.ts:152150
+[main.ts:152006](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L152006)

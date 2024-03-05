@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IReviewMentionInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IReviewMentionInfo
 
 # Interface: IReviewMentionInfo
 
@@ -31,7 +31,7 @@ count of negative reviews by criterion
 
 #### Defined in
 
-main.ts:195953
+[main.ts:195833](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L195833)
 
 ___
 
@@ -43,7 +43,7 @@ count of positive reviews by criterion
 
 #### Defined in
 
-main.ts:195951
+[main.ts:195831](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L195831)
 
 ___
 
@@ -55,7 +55,7 @@ positive score by criterion
 
 #### Defined in
 
-main.ts:195949
+[main.ts:195829](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L195829)
 
 ___
 
@@ -67,7 +67,7 @@ title of the evaluated criterion
 
 #### Defined in
 
-main.ts:195947
+[main.ts:195827](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L195827)
 
 ___
 
@@ -79,7 +79,7 @@ count of all reviews by criterion
 
 #### Defined in
 
-main.ts:195955
+[main.ts:195835](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L195835)
 
 ___
 
@@ -92,4 +92,4 @@ indicates whether the review element is visible by default
 
 #### Defined in
 
-main.ts:195958
+[main.ts:195838](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L195838)

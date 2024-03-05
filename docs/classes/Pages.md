@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / Pages
+[dataforseo-client](../README.md) / [Exports](../modules.md) / Pages
 
 # Class: Pages
 
@@ -45,7 +45,7 @@
 
 #### Defined in
 
-main.ts:147699
+[main.ts:147555](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L147555)
 
 ## Properties
 
@@ -61,7 +61,7 @@ information about the page with duplicate content
 
 #### Defined in
 
-main.ts:147695
+[main.ts:147551](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L147551)
 
 ___
 
@@ -79,7 +79,7 @@ can take values from 0 to 10
 
 #### Defined in
 
-main.ts:147693
+[main.ts:147549](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L147549)
 
 ## Methods
 
@@ -99,7 +99,7 @@ main.ts:147693
 
 #### Defined in
 
-main.ts:147708
+[main.ts:147564](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L147564)
 
 ___
 
@@ -119,7 +119,7 @@ ___
 
 #### Defined in
 
-main.ts:147730
+[main.ts:147586](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L147586)
 
 ___
 
@@ -139,4 +139,4 @@ ___
 
 #### Defined in
 
-main.ts:147723
+[main.ts:147579](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L147579)

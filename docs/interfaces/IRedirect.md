@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IRedirect
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IRedirect
 
 # Interface: IRedirect
 
@@ -28,7 +28,7 @@ HTTP status code of the URL
 
 #### Defined in
 
-main.ts:131144
+[main.ts:131000](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L131000)
 
 ___
 
@@ -40,7 +40,7 @@ type of element
 
 #### Defined in
 
-main.ts:131142
+[main.ts:130998](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L130998)
 
 ___
 
@@ -52,4 +52,4 @@ indirect link URL
 
 #### Defined in
 
-main.ts:131146
+[main.ts:131002](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L131002)

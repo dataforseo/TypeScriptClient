@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IBusinessDataGoogleMyBusinessInfoTaskGetResultInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IBusinessDataGoogleMyBusinessInfoTaskGetResultInfo
 
 # Interface: IBusinessDataGoogleMyBusinessInfoTaskGetResultInfo
 
@@ -35,7 +35,7 @@ you can use it to make sure that we provided accurate results
 
 #### Defined in
 
-main.ts:191989
+[main.ts:191869](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L191869)
 
 ___
 
@@ -50,7 +50,7 @@ example:
 
 #### Defined in
 
-main.ts:191994
+[main.ts:191874](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L191874)
 
 ___
 
@@ -64,7 +64,7 @@ possible item types: google_business_info
 
 #### Defined in
 
-main.ts:191998
+[main.ts:191878](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L191878)
 
 ___
 
@@ -76,7 +76,7 @@ array of directory items
 
 #### Defined in
 
-main.ts:192003
+[main.ts:191883](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L191883)
 
 ___
 
@@ -89,7 +89,7 @@ the number of items in the items array
 
 #### Defined in
 
-main.ts:192001
+[main.ts:191881](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L191881)
 
 ___
 
@@ -106,7 +106,7 @@ learn more about the parameter in this help center article
 
 #### Defined in
 
-main.ts:191980
+[main.ts:191860](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L191860)
 
 ___
 
@@ -118,7 +118,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:191986
+[main.ts:191866](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L191866)
 
 ___
 
@@ -130,7 +130,7 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:191984
+[main.ts:191864](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L191864)
 
 ___
 
@@ -142,4 +142,4 @@ search engine domain as specified in a POST array
 
 #### Defined in
 
-main.ts:191982
+[main.ts:191862](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L191862)

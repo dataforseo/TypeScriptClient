@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / ProductSeller
+[dataforseo-client](../README.md) / [Exports](../modules.md) / ProductSeller
 
 # Class: ProductSeller
 
@@ -50,7 +50,7 @@
 
 #### Defined in
 
-main.ts:169119
+[main.ts:168999](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L168999)
 
 ## Properties
 
@@ -67,7 +67,7 @@ product delivery information
 
 #### Defined in
 
-main.ts:169115
+[main.ts:168995](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L168995)
 
 ___
 
@@ -84,7 +84,7 @@ product price details on the seller’s website
 
 #### Defined in
 
-main.ts:169112
+[main.ts:168992](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L168992)
 
 ___
 
@@ -100,7 +100,7 @@ rating of the seller
 
 #### Defined in
 
-main.ts:169106
+[main.ts:168986](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L168986)
 
 ___
 
@@ -117,7 +117,7 @@ number of reviews on the product seller’s account
 
 #### Defined in
 
-main.ts:169109
+[main.ts:168989](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L168989)
 
 ___
 
@@ -133,7 +133,7 @@ product title
 
 #### Defined in
 
-main.ts:169101
+[main.ts:168981](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L168981)
 
 ___
 
@@ -149,7 +149,7 @@ type of element
 
 #### Defined in
 
-main.ts:169099
+[main.ts:168979](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L168979)
 
 ___
 
@@ -166,7 +166,7 @@ url of the page where the product is sold
 
 #### Defined in
 
-main.ts:169104
+[main.ts:168984](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L168984)
 
 ## Methods
 
@@ -186,7 +186,7 @@ main.ts:169104
 
 #### Defined in
 
-main.ts:169128
+[main.ts:169008](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L169008)
 
 ___
 
@@ -206,7 +206,7 @@ ___
 
 #### Defined in
 
-main.ts:169151
+[main.ts:169031](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L169031)
 
 ___
 
@@ -226,4 +226,4 @@ ___
 
 #### Defined in
 
-main.ts:169144
+[main.ts:169024](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L169024)

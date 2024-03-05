@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / TopicListDataItemInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / TopicListDataItemInfo
 
 # Class: TopicListDataItemInfo
 
@@ -47,7 +47,7 @@
 
 #### Defined in
 
-main.ts:120921
+[main.ts:120777](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L120777)
 
 ## Properties
 
@@ -63,7 +63,7 @@ unique topic identifier in Google Trends
 
 #### Defined in
 
-main.ts:120909
+[main.ts:120765](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L120765)
 
 ___
 
@@ -79,7 +79,7 @@ title of the topic
 
 #### Defined in
 
-main.ts:120911
+[main.ts:120767](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L120767)
 
 ___
 
@@ -96,7 +96,7 @@ represents the general type of the topic
 
 #### Defined in
 
-main.ts:120914
+[main.ts:120770](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L120770)
 
 ___
 
@@ -113,7 +113,7 @@ represents the popularity of the topic. Scoring is on a relative scale where a v
 
 #### Defined in
 
-main.ts:120917
+[main.ts:120773](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L120773)
 
 ## Methods
 
@@ -133,7 +133,7 @@ main.ts:120917
 
 #### Defined in
 
-main.ts:120930
+[main.ts:120786](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L120786)
 
 ___
 
@@ -153,7 +153,7 @@ ___
 
 #### Defined in
 
-main.ts:120950
+[main.ts:120806](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L120806)
 
 ___
 
@@ -173,4 +173,4 @@ ___
 
 #### Defined in
 
-main.ts:120943
+[main.ts:120799](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L120799)

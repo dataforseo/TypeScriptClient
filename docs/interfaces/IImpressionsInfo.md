@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IImpressionsInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IImpressionsInfo
 
 # Interface: IImpressionsInfo
 
@@ -45,7 +45,7 @@ represents the average position of the advertisement
 
 #### Defined in
 
-main.ts:79421
+[main.ts:79277](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L79277)
 
 ___
 
@@ -58,7 +58,7 @@ represents the maximum position of the advertisement
 
 #### Defined in
 
-main.ts:79418
+[main.ts:79274](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L79274)
 
 ___
 
@@ -71,7 +71,7 @@ represents the minimum position of the advertisement
 
 #### Defined in
 
-main.ts:79415
+[main.ts:79271](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L79271)
 
 ___
 
@@ -84,7 +84,7 @@ it stands for the price you are willing to pay for an ad. The higher value, the 
 
 #### Defined in
 
-main.ts:79409
+[main.ts:79265](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L79265)
 
 ___
 
@@ -99,7 +99,7 @@ you can find an actual CPC value for a keyword in the cpc field of the keyword_i
 
 #### Defined in
 
-main.ts:79436
+[main.ts:79292](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L79292)
 
 ___
 
@@ -114,7 +114,7 @@ you can find an actual CPC value for a keyword in the cpc field of the keyword_i
 
 #### Defined in
 
-main.ts:79431
+[main.ts:79287](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L79287)
 
 ___
 
@@ -129,7 +129,7 @@ you can find an actual CPC value for a keyword in the cpc field of the keyword_i
 
 #### Defined in
 
-main.ts:79426
+[main.ts:79282](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L79282)
 
 ___
 
@@ -142,7 +142,7 @@ represents the average number of daily clicks on the advertisement
 
 #### Defined in
 
-main.ts:79454
+[main.ts:79310](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L79310)
 
 ___
 
@@ -155,7 +155,7 @@ represents the maximum number of daily clicks on the advertisement
 
 #### Defined in
 
-main.ts:79451
+[main.ts:79307](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L79307)
 
 ___
 
@@ -168,7 +168,7 @@ represents the minimum number of daily clicks on the advertisement
 
 #### Defined in
 
-main.ts:79448
+[main.ts:79304](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L79304)
 
 ___
 
@@ -181,7 +181,7 @@ represents the average daily cost of the advertisement (USD)
 
 #### Defined in
 
-main.ts:79463
+[main.ts:79319](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L79319)
 
 ___
 
@@ -194,7 +194,7 @@ represents the maximum daily cost of the advertisement (USD)
 
 #### Defined in
 
-main.ts:79460
+[main.ts:79316](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L79316)
 
 ___
 
@@ -207,7 +207,7 @@ represents the minimum daily cost of the advertisement (USD)
 
 #### Defined in
 
-main.ts:79457
+[main.ts:79313](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L79313)
 
 ___
 
@@ -220,7 +220,7 @@ represents the average number of daily impressions of the advertisement given th
 
 #### Defined in
 
-main.ts:79445
+[main.ts:79301](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L79301)
 
 ___
 
@@ -233,7 +233,7 @@ represents the maximum number of daily impressions of the advertisement given th
 
 #### Defined in
 
-main.ts:79442
+[main.ts:79298](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L79298)
 
 ___
 
@@ -246,7 +246,7 @@ represents the minimum number of daily impressions of the advertisement given th
 
 #### Defined in
 
-main.ts:79439
+[main.ts:79295](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L79295)
 
 ___
 
@@ -261,7 +261,7 @@ example:
 
 #### Defined in
 
-main.ts:79406
+[main.ts:79262](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L79262)
 
 ___
 
@@ -274,7 +274,7 @@ can take the following values: exact, broad, phrase
 
 #### Defined in
 
-main.ts:79412
+[main.ts:79268](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L79268)
 
 ___
 
@@ -286,4 +286,4 @@ search engine type
 
 #### Defined in
 
-main.ts:79401
+[main.ts:79257](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L79257)

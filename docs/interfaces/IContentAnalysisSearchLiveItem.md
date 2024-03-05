@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IContentAnalysisSearchLiveItem
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IContentAnalysisSearchLiveItem
 
 # Interface: IContentAnalysisSearchLiveItem
 
@@ -41,7 +41,7 @@ contains data on citations from the given url
 
 #### Defined in
 
-main.ts:156960
+[main.ts:156840](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L156840)
 
 ___
 
@@ -54,7 +54,7 @@ to obtain a full list of available countries, refer to the Locations endpoint
 
 #### Defined in
 
-main.ts:156939
+[main.ts:156819](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L156819)
 
 ___
 
@@ -66,7 +66,7 @@ domain name
 
 #### Defined in
 
-main.ts:156915
+[main.ts:156795](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L156795)
 
 ___
 
@@ -81,7 +81,7 @@ learn more about the metric and how it is calculated in this help center article
 
 #### Defined in
 
-main.ts:156931
+[main.ts:156811](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L156811)
 
 ___
 
@@ -96,7 +96,7 @@ example:
 
 #### Defined in
 
-main.ts:156936
+[main.ts:156816](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L156816)
 
 ___
 
@@ -109,7 +109,7 @@ to obtain a full list of available languages, refer to the Languages endpoint
 
 #### Defined in
 
-main.ts:156942
+[main.ts:156822](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L156822)
 
 ___
 
@@ -121,7 +121,7 @@ main domain
 
 #### Defined in
 
-main.ts:156917
+[main.ts:156797](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L156797)
 
 ___
 
@@ -135,7 +135,7 @@ to obtain a full list of available categories, refer to the Categories endpoint
 
 #### Defined in
 
-main.ts:156950
+[main.ts:156830](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L156830)
 
 ___
 
@@ -147,7 +147,7 @@ page types
 
 #### Defined in
 
-main.ts:156952
+[main.ts:156832](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L156832)
 
 ___
 
@@ -160,7 +160,7 @@ all ratings found on the page based on microdata
 
 #### Defined in
 
-main.ts:156955
+[main.ts:156835](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L156835)
 
 ___
 
@@ -174,7 +174,7 @@ the higher the score, the more value the related citation has
 
 #### Defined in
 
-main.ts:156946
+[main.ts:156826](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L156826)
 
 ___
 
@@ -187,7 +187,7 @@ data on social media interactions associated with the content based on website e
 
 #### Defined in
 
-main.ts:156958
+[main.ts:156838](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L156838)
 
 ___
 
@@ -201,7 +201,7 @@ learn more about how the metric is calculated on this help center page
 
 #### Defined in
 
-main.ts:156926
+[main.ts:156806](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L156806)
 
 ___
 
@@ -213,7 +213,7 @@ type of element
 
 #### Defined in
 
-main.ts:156911
+[main.ts:156791](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L156791)
 
 ___
 
@@ -225,7 +225,7 @@ URL where the citation was found
 
 #### Defined in
 
-main.ts:156913
+[main.ts:156793](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L156793)
 
 ___
 
@@ -240,4 +240,4 @@ learn more about the metric and how it is calculated in this help center article
 
 #### Defined in
 
-main.ts:156922
+[main.ts:156802](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L156802)

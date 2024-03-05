@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IMathSolverSerpElementItem
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IMathSolverSerpElementItem
 
 # Interface: IMathSolverSerpElementItem
 
@@ -40,7 +40,7 @@ contains results featured in the ‘hotels_pack’ element of SERP
 
 #### Defined in
 
-main.ts:34295
+[main.ts:34153](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L34153)
 
 ___
 
@@ -52,7 +52,7 @@ link of the element
 
 #### Defined in
 
-main.ts:34297
+[main.ts:34155](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L34155)
 
 ___
 
@@ -66,7 +66,7 @@ left, right
 
 #### Defined in
 
-main.ts:34286
+[main.ts:34144](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L34144)
 
 ___
 
@@ -79,7 +79,7 @@ absolute position among all the elements in SERP
 
 #### Defined in
 
-main.ts:34282
+[main.ts:34140](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L34140)
 
 ___
 
@@ -93,7 +93,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-main.ts:34279
+[main.ts:34137](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L34137)
 
 ___
 
@@ -107,7 +107,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 #### Defined in
 
-main.ts:34301
+[main.ts:34159](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L34159)
 
 ___
 
@@ -120,7 +120,7 @@ solution to the mathematical equation specified in the keyword field when settin
 
 #### Defined in
 
-main.ts:34293
+[main.ts:34151](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L34151)
 
 ___
 
@@ -132,7 +132,7 @@ title of a given link element
 
 #### Defined in
 
-main.ts:34290
+[main.ts:34148](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L34148)
 
 ___
 
@@ -144,4 +144,4 @@ the XPath of the element
 
 #### Defined in
 
-main.ts:34288
+[main.ts:34146](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L34146)

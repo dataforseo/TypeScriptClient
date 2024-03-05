@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / ITopStoriesDataforseoLabsSerpElementItem
+[dataforseo-client](../README.md) / [Exports](../modules.md) / ITopStoriesDataforseoLabsSerpElementItem
 
 # Interface: ITopStoriesDataforseoLabsSerpElementItem
 
@@ -37,7 +37,7 @@ if there are none, equals null
 
 #### Defined in
 
-main.ts:92820
+[main.ts:92676](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L92676)
 
 ___
 
@@ -51,7 +51,7 @@ left, right
 
 #### Defined in
 
-main.ts:92815
+[main.ts:92671](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L92671)
 
 ___
 
@@ -64,7 +64,7 @@ absolute position among all the elements in SERP
 
 #### Defined in
 
-main.ts:92811
+[main.ts:92667](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L92667)
 
 ___
 
@@ -78,7 +78,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-main.ts:92808
+[main.ts:92664](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L92664)
 
 ___
 
@@ -90,4 +90,4 @@ the XPath of the element
 
 #### Defined in
 
-main.ts:92817
+[main.ts:92673](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L92673)

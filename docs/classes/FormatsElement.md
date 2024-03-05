@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / FormatsElement
+[dataforseo-client](../README.md) / [Exports](../modules.md) / FormatsElement
 
 # Class: FormatsElement
 
@@ -46,7 +46,7 @@
 
 #### Defined in
 
-main.ts:50713
+[main.ts:50571](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L50571)
 
 ## Properties
 
@@ -63,7 +63,7 @@ for example: zip, html, csv
 
 #### Defined in
 
-main.ts:50707
+[main.ts:50565](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L50565)
 
 ___
 
@@ -79,7 +79,7 @@ file size in bytes
 
 #### Defined in
 
-main.ts:50709
+[main.ts:50567](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L50567)
 
 ___
 
@@ -95,7 +95,7 @@ type of element
 
 #### Defined in
 
-main.ts:50704
+[main.ts:50562](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L50562)
 
 ## Methods
 
@@ -115,7 +115,7 @@ main.ts:50704
 
 #### Defined in
 
-main.ts:50722
+[main.ts:50580](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L50580)
 
 ___
 
@@ -135,7 +135,7 @@ ___
 
 #### Defined in
 
-main.ts:50741
+[main.ts:50599](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L50599)
 
 ___
 
@@ -155,4 +155,4 @@ ___
 
 #### Defined in
 
-main.ts:50734
+[main.ts:50592](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L50592)

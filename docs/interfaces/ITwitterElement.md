@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / ITwitterElement
+[dataforseo-client](../README.md) / [Exports](../modules.md) / ITwitterElement
 
 # Interface: ITwitterElement
 
@@ -30,7 +30,7 @@ the date when the page source of the element was published
 
 #### Defined in
 
-main.ts:29192
+[main.ts:29050](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L29050)
 
 ___
 
@@ -45,7 +45,7 @@ example:
 
 #### Defined in
 
-main.ts:29197
+[main.ts:29055](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L29055)
 
 ___
 
@@ -57,7 +57,7 @@ tweet message
 
 #### Defined in
 
-main.ts:29190
+[main.ts:29048](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L29048)
 
 ___
 
@@ -69,7 +69,7 @@ type of element
 
 #### Defined in
 
-main.ts:29188
+[main.ts:29046](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L29046)
 
 ___
 
@@ -81,4 +81,4 @@ URL
 
 #### Defined in
 
-main.ts:29199
+[main.ts:29057](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L29057)

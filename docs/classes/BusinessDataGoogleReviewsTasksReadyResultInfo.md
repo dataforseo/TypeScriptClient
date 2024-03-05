@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / BusinessDataGoogleReviewsTasksReadyResultInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / BusinessDataGoogleReviewsTasksReadyResultInfo
 
 # Class: BusinessDataGoogleReviewsTasksReadyResultInfo
 
@@ -49,7 +49,7 @@
 
 #### Defined in
 
-main.ts:198107
+[main.ts:197987](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L197987)
 
 ## Properties
 
@@ -65,7 +65,7 @@ date when the task was posted (in the UTC format)
 
 #### Defined in
 
-main.ts:198099
+[main.ts:197979](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L197979)
 
 ___
 
@@ -81,7 +81,7 @@ URL for collecting the results of the task
 
 #### Defined in
 
-main.ts:198103
+[main.ts:197983](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L197983)
 
 ___
 
@@ -98,7 +98,7 @@ unique task identifier in our system in the UUID format
 
 #### Defined in
 
-main.ts:198091
+[main.ts:197971](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L197971)
 
 ___
 
@@ -115,7 +115,7 @@ can take the following values: google
 
 #### Defined in
 
-main.ts:198094
+[main.ts:197974](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L197974)
 
 ___
 
@@ -132,7 +132,7 @@ can take the following values: reviews
 
 #### Defined in
 
-main.ts:198097
+[main.ts:197977](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L197977)
 
 ___
 
@@ -148,7 +148,7 @@ user-defined task identifier
 
 #### Defined in
 
-main.ts:198101
+[main.ts:197981](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L197981)
 
 ## Methods
 
@@ -168,7 +168,7 @@ main.ts:198101
 
 #### Defined in
 
-main.ts:198116
+[main.ts:197996](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L197996)
 
 ___
 
@@ -188,7 +188,7 @@ ___
 
 #### Defined in
 
-main.ts:198138
+[main.ts:198018](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L198018)
 
 ___
 
@@ -208,4 +208,4 @@ ___
 
 #### Defined in
 
-main.ts:198131
+[main.ts:198011](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L198011)

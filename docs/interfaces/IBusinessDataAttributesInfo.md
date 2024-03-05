@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IBusinessDataAttributesInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IBusinessDataAttributesInfo
 
 # Interface: IBusinessDataAttributesInfo
 
@@ -32,7 +32,7 @@ indicates attributes a business entity can offer
 
 #### Defined in
 
-main.ts:188790
+[main.ts:188670](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L188670)
 
 ___
 
@@ -49,4 +49,4 @@ indicates attributes a business entity cannot offer
 
 #### Defined in
 
-main.ts:188793
+[main.ts:188673](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L188673)

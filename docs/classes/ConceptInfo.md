@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / ConceptInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / ConceptInfo
 
 # Class: ConceptInfo
 
@@ -45,7 +45,7 @@
 
 #### Defined in
 
-main.ts:115104
+[main.ts:114960](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L114960)
 
 ## Properties
 
@@ -61,7 +61,7 @@ the concept group of the concept details
 
 #### Defined in
 
-main.ts:115100
+[main.ts:114956](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L114956)
 
 ___
 
@@ -77,7 +77,7 @@ the concept name for the keyword in the concept_group
 
 #### Defined in
 
-main.ts:115098
+[main.ts:114954](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L114954)
 
 ## Methods
 
@@ -97,7 +97,7 @@ main.ts:115098
 
 #### Defined in
 
-main.ts:115113
+[main.ts:114969](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L114969)
 
 ___
 
@@ -117,7 +117,7 @@ ___
 
 #### Defined in
 
-main.ts:115131
+[main.ts:114987](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L114987)
 
 ___
 
@@ -137,4 +137,4 @@ ___
 
 #### Defined in
 
-main.ts:115124
+[main.ts:114980](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L114980)

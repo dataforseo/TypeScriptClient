@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IAppDataErrorsRequestInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IAppDataErrorsRequestInfo
 
 # Interface: IAppDataErrorsRequestInfo
 
@@ -35,7 +35,7 @@ example:
 
 #### Defined in
 
-main.ts:176846
+[main.ts:176726](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L176726)
 
 ___
 
@@ -52,7 +52,7 @@ example:
 
 #### Defined in
 
-main.ts:176853
+[main.ts:176733](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L176733)
 
 ___
 
@@ -68,7 +68,7 @@ example: app_data/task_get/advanced, postback_url, pingback_url
 
 #### Defined in
 
-main.ts:176839
+[main.ts:176719](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L176719)
 
 ___
 
@@ -83,7 +83,7 @@ maximum value: 1000
 
 #### Defined in
 
-main.ts:176828
+[main.ts:176708](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L176708)
 
 ___
 
@@ -98,4 +98,4 @@ if you specify the 10 value, the first ten tasks in the results array will be om
 
 #### Defined in
 
-main.ts:176833
+[main.ts:176713](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L176713)

@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IAppSerpElementItem
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IAppSerpElementItem
 
 # Interface: IAppSerpElementItem
 
@@ -37,7 +37,7 @@ contains results featured in the ‘hotels_pack’ element of SERP
 
 #### Defined in
 
-main.ts:29913
+[main.ts:29771](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L29771)
 
 ___
 
@@ -51,7 +51,7 @@ left, right
 
 #### Defined in
 
-main.ts:29909
+[main.ts:29767](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L29767)
 
 ___
 
@@ -64,7 +64,7 @@ absolute position among all the elements in SERP
 
 #### Defined in
 
-main.ts:29905
+[main.ts:29763](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L29763)
 
 ___
 
@@ -78,7 +78,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-main.ts:29902
+[main.ts:29760](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L29760)
 
 ___
 
@@ -92,7 +92,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 #### Defined in
 
-main.ts:29917
+[main.ts:29775](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L29775)
 
 ___
 
@@ -104,4 +104,4 @@ the XPath of the element
 
 #### Defined in
 
-main.ts:29911
+[main.ts:29769](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L29769)

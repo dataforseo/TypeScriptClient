@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IBacklinksTimeseriesNewLostSummaryLiveItem
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IBacklinksTimeseriesNewLostSummaryLiveItem
 
 # Interface: IBacklinksTimeseriesNewLostSummaryLiveItem
 
@@ -36,7 +36,7 @@ example:
 
 #### Defined in
 
-main.ts:139208
+[main.ts:139064](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L139064)
 
 ___
 
@@ -49,7 +49,7 @@ number of lost backlinks of the target
 
 #### Defined in
 
-main.ts:139214
+[main.ts:139070](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L139070)
 
 ___
 
@@ -62,7 +62,7 @@ number of lost referring domains of the target
 
 #### Defined in
 
-main.ts:139220
+[main.ts:139076](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L139076)
 
 ___
 
@@ -75,7 +75,7 @@ number of lost referring main domains of the target
 
 #### Defined in
 
-main.ts:139226
+[main.ts:139082](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L139082)
 
 ___
 
@@ -88,7 +88,7 @@ number of new backlinks pointing to the target
 
 #### Defined in
 
-main.ts:139211
+[main.ts:139067](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L139067)
 
 ___
 
@@ -101,7 +101,7 @@ number of new referring domains pointing to the target
 
 #### Defined in
 
-main.ts:139217
+[main.ts:139073](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L139073)
 
 ___
 
@@ -114,7 +114,7 @@ number of new referring main domains pointing to the target
 
 #### Defined in
 
-main.ts:139223
+[main.ts:139079](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L139079)
 
 ___
 
@@ -126,4 +126,4 @@ type of element
 
 #### Defined in
 
-main.ts:139203
+[main.ts:139059](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L139059)

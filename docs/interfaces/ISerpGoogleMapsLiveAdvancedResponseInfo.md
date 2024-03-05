@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / ISerpGoogleMapsLiveAdvancedResponseInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / ISerpGoogleMapsLiveAdvancedResponseInfo
 
 # Interface: ISerpGoogleMapsLiveAdvancedResponseInfo
 
@@ -43,7 +43,7 @@ total tasks cost, USD
 
 #### Defined in
 
-main.ts:22721
+[main.ts:22579](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L22579)
 
 ___
 
@@ -60,7 +60,7 @@ you can find the full list of the response codes here
 
 #### Defined in
 
-main.ts:22714
+[main.ts:22572](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L22572)
 
 ___
 
@@ -77,7 +77,7 @@ you can find the full list of general informational messages here
 
 #### Defined in
 
-main.ts:22717
+[main.ts:22575](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L22575)
 
 ___
 
@@ -89,7 +89,7 @@ array of tasks
 
 #### Defined in
 
-main.ts:39771
+[main.ts:39629](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L39629)
 
 ___
 
@@ -105,7 +105,7 @@ the number of tasks in the tasks array
 
 #### Defined in
 
-main.ts:22723
+[main.ts:22581](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L22581)
 
 ___
 
@@ -121,7 +121,7 @@ the number of tasks in the tasks array returned with an error
 
 #### Defined in
 
-main.ts:22725
+[main.ts:22583](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L22583)
 
 ___
 
@@ -137,7 +137,7 @@ total execution time, seconds
 
 #### Defined in
 
-main.ts:22719
+[main.ts:22577](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L22577)
 
 ___
 
@@ -153,4 +153,4 @@ the current version of the API
 
 #### Defined in
 
-main.ts:22711
+[main.ts:22569](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L22569)

@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IProductConsiderationsExpandedElement
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IProductConsiderationsExpandedElement
 
 # Interface: IProductConsiderationsExpandedElement
 
@@ -37,7 +37,7 @@ this feature appears after clicking on the three dots next to most results
 
 #### Defined in
 
-main.ts:34669
+[main.ts:34527](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L34527)
 
 ___
 
@@ -49,7 +49,7 @@ breadcrumb of the Ad element in SERP
 
 #### Defined in
 
-main.ts:34652
+[main.ts:34510](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L34510)
 
 ___
 
@@ -61,7 +61,7 @@ website domain
 
 #### Defined in
 
-main.ts:34656
+[main.ts:34514](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L34514)
 
 ___
 
@@ -73,7 +73,7 @@ the title of the featured snippets source page
 
 #### Defined in
 
-main.ts:34650
+[main.ts:34508](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L34508)
 
 ___
 
@@ -85,7 +85,7 @@ search queries related to the elment
 
 #### Defined in
 
-main.ts:34665
+[main.ts:34523](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L34523)
 
 ___
 
@@ -97,7 +97,7 @@ text alongside the link title
 
 #### Defined in
 
-main.ts:34654
+[main.ts:34512](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L34512)
 
 ___
 
@@ -112,7 +112,7 @@ example:
 
 #### Defined in
 
-main.ts:34663
+[main.ts:34521](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L34521)
 
 ___
 
@@ -124,7 +124,7 @@ title of a given link element
 
 #### Defined in
 
-main.ts:34648
+[main.ts:34506](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L34506)
 
 ___
 
@@ -136,7 +136,7 @@ type of element
 
 #### Defined in
 
-main.ts:34646
+[main.ts:34504](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L34504)
 
 ___
 
@@ -148,4 +148,4 @@ URL
 
 #### Defined in
 
-main.ts:34658
+[main.ts:34516](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L34516)

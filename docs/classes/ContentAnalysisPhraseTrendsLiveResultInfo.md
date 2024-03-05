@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / ContentAnalysisPhraseTrendsLiveResultInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / ContentAnalysisPhraseTrendsLiveResultInfo
 
 # Class: ContentAnalysisPhraseTrendsLiveResultInfo
 
@@ -55,7 +55,7 @@
 
 #### Defined in
 
-main.ts:159010
+[main.ts:158890](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L158890)
 
 ## Properties
 
@@ -77,7 +77,7 @@ possible connotation types: "positive", "negative", "neutral"
 
 #### Defined in
 
-main.ts:158987
+[main.ts:158867](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L158867)
 
 ___
 
@@ -99,7 +99,7 @@ to obtain a full list of available countries, refer to the Locations endpoint
 
 #### Defined in
 
-main.ts:159002
+[main.ts:158882](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L158882)
 
 ___
 
@@ -115,7 +115,7 @@ date for which the data is provided
 
 #### Defined in
 
-main.ts:158971
+[main.ts:158851](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L158851)
 
 ___
 
@@ -137,7 +137,7 @@ to obtain a full list of available languages, refer to the Languages endpoint
 
 #### Defined in
 
-main.ts:159006
+[main.ts:158886](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L158886)
 
 ___
 
@@ -155,7 +155,7 @@ to obtain a full list of available categories, refer to the Categories endpoint
 
 #### Defined in
 
-main.ts:158995
+[main.ts:158875](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L158875)
 
 ___
 
@@ -176,7 +176,7 @@ contains page types and citation count per each page type
 
 #### Defined in
 
-main.ts:158998
+[main.ts:158878](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L158878)
 
 ___
 
@@ -193,7 +193,7 @@ normalized sum of ranks of all URLs citing the target keyword for the given date
 
 #### Defined in
 
-main.ts:158976
+[main.ts:158856](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L158856)
 
 ___
 
@@ -215,7 +215,7 @@ possible connotations: "anger", "happiness", "love", "sadness", "share", "fun"
 
 #### Defined in
 
-main.ts:158983
+[main.ts:158863](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L158863)
 
 ___
 
@@ -233,7 +233,7 @@ to obtain a full list of available categories, refer to the Categories endpoint
 
 #### Defined in
 
-main.ts:158991
+[main.ts:158871](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L158871)
 
 ___
 
@@ -250,7 +250,7 @@ contains objects with top domains citing the target keyword and citation count p
 
 #### Defined in
 
-main.ts:158979
+[main.ts:158859](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L158859)
 
 ___
 
@@ -266,7 +266,7 @@ total number of results in our database relevant to your request
 
 #### Defined in
 
-main.ts:158973
+[main.ts:158853](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L158853)
 
 ___
 
@@ -282,7 +282,7 @@ type of element
 
 #### Defined in
 
-main.ts:158969
+[main.ts:158849](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L158849)
 
 ## Methods
 
@@ -302,7 +302,7 @@ main.ts:158969
 
 #### Defined in
 
-main.ts:159019
+[main.ts:158899](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L158899)
 
 ___
 
@@ -322,7 +322,7 @@ ___
 
 #### Defined in
 
-main.ts:159089
+[main.ts:158969](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L158969)
 
 ___
 
@@ -342,4 +342,4 @@ ___
 
 #### Defined in
 
-main.ts:159082
+[main.ts:158962](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L158962)

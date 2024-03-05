@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IBusinessDataGoogleMyBusinessUpdatesTaskPostRequestInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IBusinessDataGoogleMyBusinessUpdatesTaskPostRequestInfo
 
 # Interface: IBusinessDataGoogleMyBusinessUpdatesTaskPostRequestInfo
 
@@ -47,7 +47,7 @@ default value: 10
 
 #### Defined in
 
-main.ts:192170
+[main.ts:192050](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L192050)
 
 ___
 
@@ -77,7 +77,7 @@ learn more about the cid and place_id identifiers in this help center article
 
 #### Defined in
 
-main.ts:183376
+[main.ts:183256](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L183256)
 
 ___
 
@@ -98,7 +98,7 @@ en
 
 #### Defined in
 
-main.ts:183421
+[main.ts:183301](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L183301)
 
 ___
 
@@ -119,7 +119,7 @@ English
 
 #### Defined in
 
-main.ts:183414
+[main.ts:183294](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L183294)
 
 ___
 
@@ -140,7 +140,7 @@ example:
 
 #### Defined in
 
-main.ts:183398
+[main.ts:183278](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L183278)
 
 ___
 
@@ -163,7 +163,7 @@ example:
 
 #### Defined in
 
-main.ts:183407
+[main.ts:183287](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L183287)
 
 ___
 
@@ -184,7 +184,7 @@ London,England,United Kingdom
 
 #### Defined in
 
-main.ts:183391
+[main.ts:183271](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L183271)
 
 ___
 
@@ -208,7 +208,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-main.ts:183447
+[main.ts:183327](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L183327)
 
 ___
 
@@ -232,7 +232,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-main.ts:183437
+[main.ts:183317](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L183317)
 
 ___
 
@@ -254,7 +254,7 @@ The cost can be calculated on the Pricing page.
 
 #### Defined in
 
-main.ts:183384
+[main.ts:183264](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L183264)
 
 ___
 
@@ -274,4 +274,4 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:183427
+[main.ts:183307](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L183307)

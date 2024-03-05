@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IGoogleBusinessInfoBusinessDataSerpElementItem
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IGoogleBusinessInfoBusinessDataSerpElementItem
 
 # Interface: IGoogleBusinessInfoBusinessDataSerpElementItem
 
@@ -68,7 +68,7 @@ additional Google My Business categories that describe the services provided by 
 
 #### Defined in
 
-main.ts:191779
+[main.ts:191659](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L191659)
 
 ___
 
@@ -80,7 +80,7 @@ address of the business entity
 
 #### Defined in
 
-main.ts:191789
+[main.ts:191669](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L191669)
 
 ___
 
@@ -92,7 +92,7 @@ object containing address components of the business entity
 
 #### Defined in
 
-main.ts:191791
+[main.ts:191671](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L191671)
 
 ___
 
@@ -105,7 +105,7 @@ service details of a business entity displayed in a form of checks and based on 
 
 #### Defined in
 
-main.ts:191824
+[main.ts:191704](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L191704)
 
 ___
 
@@ -118,7 +118,7 @@ Google My Business general category that best describes the services provided by
 
 #### Defined in
 
-main.ts:191773
+[main.ts:191653](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L191653)
 
 ___
 
@@ -131,7 +131,7 @@ universal category IDs that do not change based on the selected country
 
 #### Defined in
 
-main.ts:191776
+[main.ts:191656](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L191656)
 
 ___
 
@@ -146,7 +146,7 @@ learn more about the identifier in this help center article
 
 #### Defined in
 
-main.ts:191784
+[main.ts:191664](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L191664)
 
 ___
 
@@ -158,7 +158,7 @@ URL of the preferred contact page
 
 #### Defined in
 
-main.ts:191801
+[main.ts:191681](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L191681)
 
 ___
 
@@ -171,7 +171,7 @@ the description of the business entity for which the results are collected
 
 #### Defined in
 
-main.ts:191770
+[main.ts:191650](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L191650)
 
 ___
 
@@ -184,7 +184,7 @@ includes information about businesses that are located within the target busines
 
 #### Defined in
 
-main.ts:191865
+[main.ts:191745](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L191745)
 
 ___
 
@@ -196,7 +196,7 @@ domain of the business entity
 
 #### Defined in
 
-main.ts:191803
+[main.ts:191683](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L191683)
 
 ___
 
@@ -209,7 +209,7 @@ learn more about the identifier in this help center article
 
 #### Defined in
 
-main.ts:191787
+[main.ts:191667](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L191667)
 
 ___
 
@@ -223,7 +223,7 @@ if there is no hotel class rating information, the value will be null
 
 #### Defined in
 
-main.ts:191839
+[main.ts:191719](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L191719)
 
 ___
 
@@ -235,7 +235,7 @@ shows whether the entity is verified by its owner on Google Maps
 
 #### Defined in
 
-main.ts:191821
+[main.ts:191701](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L191701)
 
 ___
 
@@ -250,7 +250,7 @@ note: if the business establishment is a parent item in the directory, the value
 
 #### Defined in
 
-main.ts:191862
+[main.ts:191742](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L191742)
 
 ___
 
@@ -264,7 +264,7 @@ example:
 
 #### Defined in
 
-main.ts:191815
+[main.ts:191695](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L191695)
 
 ___
 
@@ -277,7 +277,7 @@ list of options to interact with the business directly from search results
 
 #### Defined in
 
-main.ts:191857
+[main.ts:191737](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L191737)
 
 ___
 
@@ -289,7 +289,7 @@ URL of the logo featured in Google My Business profile
 
 #### Defined in
 
-main.ts:191805
+[main.ts:191685](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L191685)
 
 ___
 
@@ -303,7 +303,7 @@ example:
 
 #### Defined in
 
-main.ts:191819
+[main.ts:191699](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L191699)
 
 ___
 
@@ -315,7 +315,7 @@ URL of the main image featured in Google My Business profile
 
 #### Defined in
 
-main.ts:191807
+[main.ts:191687](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L191687)
 
 ___
 
@@ -327,7 +327,7 @@ related business entities
 
 #### Defined in
 
-main.ts:191848
+[main.ts:191728](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L191728)
 
 ___
 
@@ -339,7 +339,7 @@ phone number of the business entity
 
 #### Defined in
 
-main.ts:191797
+[main.ts:191677](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L191677)
 
 ___
 
@@ -353,7 +353,7 @@ learn more about the identifier in this help center article
 
 #### Defined in
 
-main.ts:191795
+[main.ts:191675](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L191675)
 
 ___
 
@@ -375,7 +375,7 @@ example:
 
 #### Defined in
 
-main.ts:191832
+[main.ts:191712](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L191712)
 
 ___
 
@@ -388,7 +388,7 @@ information related to busy hours of the business entity
 
 #### Defined in
 
-main.ts:191854
+[main.ts:191734](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L191734)
 
 ___
 
@@ -400,7 +400,7 @@ the alignment in SERP
 
 #### Defined in
 
-main.ts:191764
+[main.ts:191644](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L191644)
 
 ___
 
@@ -414,7 +414,7 @@ if there is no price level information, the value will be null
 
 #### Defined in
 
-main.ts:191843
+[main.ts:191723](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L191723)
 
 ___
 
@@ -426,7 +426,7 @@ absolute rank among all the elements
 
 #### Defined in
 
-main.ts:191762
+[main.ts:191642](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L191642)
 
 ___
 
@@ -439,7 +439,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-main.ts:191760
+[main.ts:191640](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L191640)
 
 ___
 
@@ -452,7 +452,7 @@ the popularity rate based on reviews and displayed in SERP
 
 #### Defined in
 
-main.ts:191835
+[main.ts:191715](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L191715)
 
 ___
 
@@ -469,7 +469,7 @@ the object displays the number of 1-star to 5-star ratings, as reviewed by users
 
 #### Defined in
 
-main.ts:191846
+[main.ts:191726](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L191726)
 
 ___
 
@@ -481,7 +481,7 @@ additional information on the business entity
 
 #### Defined in
 
-main.ts:191811
+[main.ts:191691](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L191691)
 
 ___
 
@@ -494,7 +494,7 @@ the name of the business entity for which the results are collected
 
 #### Defined in
 
-main.ts:191767
+[main.ts:191647](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L191647)
 
 ___
 
@@ -506,7 +506,7 @@ total count of images featured in Google My Business profile
 
 #### Defined in
 
-main.ts:191809
+[main.ts:191689](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L191689)
 
 ___
 
@@ -518,7 +518,7 @@ absolute url of the business entity
 
 #### Defined in
 
-main.ts:191799
+[main.ts:191679](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L191679)
 
 ___
 
@@ -531,4 +531,4 @@ information related to operational hours of the business entity
 
 #### Defined in
 
-main.ts:191851
+[main.ts:191731](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L191731)

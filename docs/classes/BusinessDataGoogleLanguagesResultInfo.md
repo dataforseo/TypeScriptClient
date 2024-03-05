@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / BusinessDataGoogleLanguagesResultInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / BusinessDataGoogleLanguagesResultInfo
 
 # Class: BusinessDataGoogleLanguagesResultInfo
 
@@ -45,7 +45,7 @@
 
 #### Defined in
 
-main.ts:190680
+[main.ts:190560](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L190560)
 
 ## Properties
 
@@ -61,7 +61,7 @@ language code according to ISO 639-1
 
 #### Defined in
 
-main.ts:190676
+[main.ts:190556](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L190556)
 
 ___
 
@@ -77,7 +77,7 @@ language name
 
 #### Defined in
 
-main.ts:190674
+[main.ts:190554](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L190554)
 
 ## Methods
 
@@ -97,7 +97,7 @@ main.ts:190674
 
 #### Defined in
 
-main.ts:190689
+[main.ts:190569](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L190569)
 
 ___
 
@@ -117,7 +117,7 @@ ___
 
 #### Defined in
 
-main.ts:190707
+[main.ts:190587](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L190587)
 
 ___
 
@@ -137,4 +137,4 @@ ___
 
 #### Defined in
 
-main.ts:190700
+[main.ts:190580](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L190580)

@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / ILocalPackSerpElementItem
+[dataforseo-client](../README.md) / [Exports](../modules.md) / ILocalPackSerpElementItem
 
 # Interface: ILocalPackSerpElementItem
 
@@ -44,7 +44,7 @@ google-defined client id
 
 #### Defined in
 
-main.ts:30049
+[main.ts:29907](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L29907)
 
 ___
 
@@ -56,7 +56,7 @@ description
 
 #### Defined in
 
-main.ts:30036
+[main.ts:29894](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L29894)
 
 ___
 
@@ -68,7 +68,7 @@ domain where a link points
 
 #### Defined in
 
-main.ts:30038
+[main.ts:29896](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L29896)
 
 ___
 
@@ -80,7 +80,7 @@ indicates whether the element is an ad
 
 #### Defined in
 
-main.ts:30044
+[main.ts:29902](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L29902)
 
 ___
 
@@ -92,7 +92,7 @@ phone number
 
 #### Defined in
 
-main.ts:30040
+[main.ts:29898](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L29898)
 
 ___
 
@@ -106,7 +106,7 @@ left, right
 
 #### Defined in
 
-main.ts:30030
+[main.ts:29888](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L29888)
 
 ___
 
@@ -119,7 +119,7 @@ absolute position among all the elements in SERP
 
 #### Defined in
 
-main.ts:30026
+[main.ts:29884](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L29884)
 
 ___
 
@@ -133,7 +133,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-main.ts:30023
+[main.ts:29881](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L29881)
 
 ___
 
@@ -146,7 +146,7 @@ the popularity rate based on reviews and displayed in SERP
 
 #### Defined in
 
-main.ts:30047
+[main.ts:29905](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L29905)
 
 ___
 
@@ -160,7 +160,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 #### Defined in
 
-main.ts:30053
+[main.ts:29911](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L29911)
 
 ___
 
@@ -172,7 +172,7 @@ title of a given link element
 
 #### Defined in
 
-main.ts:30034
+[main.ts:29892](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L29892)
 
 ___
 
@@ -184,7 +184,7 @@ URL
 
 #### Defined in
 
-main.ts:30042
+[main.ts:29900](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L29900)
 
 ___
 
@@ -196,4 +196,4 @@ the XPath of the element
 
 #### Defined in
 
-main.ts:30032
+[main.ts:29890](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L29890)

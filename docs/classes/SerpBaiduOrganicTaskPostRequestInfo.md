@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / SerpBaiduOrganicTaskPostRequestInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / SerpBaiduOrganicTaskPostRequestInfo
 
 # Class: SerpBaiduOrganicTaskPostRequestInfo
 
@@ -59,7 +59,7 @@
 
 #### Defined in
 
-main.ts:66015
+[main.ts:65871](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L65871)
 
 ## Properties
 
@@ -82,7 +82,7 @@ if the specified depth is higher than the number of results in the response, the
 
 #### Defined in
 
-main.ts:65914
+[main.ts:65770](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L65770)
 
 ___
 
@@ -101,7 +101,7 @@ default value: desktop
 
 #### Defined in
 
-main.ts:65962
+[main.ts:65818](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L65818)
 
 ___
 
@@ -123,7 +123,7 @@ Note: if set to true, the charge per task will be multiplied by 10 as our system
 
 #### Defined in
 
-main.ts:65979
+[main.ts:65835](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L65835)
 
 ___
 
@@ -144,7 +144,7 @@ if you need to use the “+” symbol for your keyword, please specify it as “
 
 #### Defined in
 
-main.ts:65897
+[main.ts:65753](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L65753)
 
 ___
 
@@ -164,7 +164,7 @@ zh_CN
 
 #### Defined in
 
-main.ts:65933
+[main.ts:65789](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L65789)
 
 ___
 
@@ -184,7 +184,7 @@ Chinese (Simplified)
 
 #### Defined in
 
-main.ts:65927
+[main.ts:65783](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L65783)
 
 ___
 
@@ -205,7 +205,7 @@ example:
 
 #### Defined in
 
-main.ts:65947
+[main.ts:65803](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L65803)
 
 ___
 
@@ -229,7 +229,7 @@ example:
 
 #### Defined in
 
-main.ts:65957
+[main.ts:65813](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L65813)
 
 ___
 
@@ -250,7 +250,7 @@ New York,New York,United States
 
 #### Defined in
 
-main.ts:65940
+[main.ts:65796](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L65796)
 
 ___
 
@@ -271,7 +271,7 @@ learn more at our help center
 
 #### Defined in
 
-main.ts:65921
+[main.ts:65777](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L65777)
 
 ___
 
@@ -294,7 +294,7 @@ default value: android
 
 #### Defined in
 
-main.ts:65971
+[main.ts:65827](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L65827)
 
 ___
 
@@ -318,7 +318,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-main.ts:66011
+[main.ts:65867](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L65867)
 
 ___
 
@@ -338,7 +338,7 @@ regular, html
 
 #### Defined in
 
-main.ts:66001
+[main.ts:65857](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L65857)
 
 ___
 
@@ -362,7 +362,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-main.ts:65995
+[main.ts:65851](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L65851)
 
 ___
 
@@ -384,7 +384,7 @@ The cost can be calculated on the Pricing page.
 
 #### Defined in
 
-main.ts:65905
+[main.ts:65761](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L65761)
 
 ___
 
@@ -404,7 +404,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:65985
+[main.ts:65841](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L65841)
 
 ## Methods
 
@@ -424,7 +424,7 @@ main.ts:65985
 
 #### Defined in
 
-main.ts:66024
+[main.ts:65880](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L65880)
 
 ___
 
@@ -444,7 +444,7 @@ ___
 
 #### Defined in
 
-main.ts:66056
+[main.ts:65912](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L65912)
 
 ___
 
@@ -464,4 +464,4 @@ ___
 
 #### Defined in
 
-main.ts:66049
+[main.ts:65905](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L65905)

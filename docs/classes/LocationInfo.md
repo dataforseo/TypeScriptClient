@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / LocationInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / LocationInfo
 
 # Class: LocationInfo
 
@@ -48,7 +48,7 @@
 
 #### Defined in
 
-main.ts:44672
+[main.ts:44530](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L44530)
 
 ## Properties
 
@@ -64,7 +64,7 @@ address of the event’s venue
 
 #### Defined in
 
-main.ts:44660
+[main.ts:44518](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L44518)
 
 ___
 
@@ -82,7 +82,7 @@ can be used with Google Reviews API to get a full list of reviews
 
 #### Defined in
 
-main.ts:44666
+[main.ts:44524](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L44524)
 
 ___
 
@@ -98,7 +98,7 @@ the unique identifier of the element in SERP
 
 #### Defined in
 
-main.ts:44668
+[main.ts:44526](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L44526)
 
 ___
 
@@ -114,7 +114,7 @@ name of the event’s venue
 
 #### Defined in
 
-main.ts:44658
+[main.ts:44516](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L44516)
 
 ___
 
@@ -130,7 +130,7 @@ URL to the event’s venue on google maps
 
 #### Defined in
 
-main.ts:44662
+[main.ts:44520](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L44520)
 
 ## Methods
 
@@ -150,7 +150,7 @@ main.ts:44662
 
 #### Defined in
 
-main.ts:44681
+[main.ts:44539](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L44539)
 
 ___
 
@@ -170,7 +170,7 @@ ___
 
 #### Defined in
 
-main.ts:44702
+[main.ts:44560](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L44560)
 
 ___
 
@@ -190,4 +190,4 @@ ___
 
 #### Defined in
 
-main.ts:44695
+[main.ts:44553](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L44553)

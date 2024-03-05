@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IOnPageLighthouseVersionsResultInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IOnPageLighthouseVersionsResultInfo
 
 # Interface: IOnPageLighthouseVersionsResultInfo
 
@@ -24,4 +24,4 @@
 
 #### Defined in
 
-main.ts:154100
+[main.ts:153956](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L153956)

@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IMerchantGoogleSellersTasksReadyResultInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IMerchantGoogleSellersTasksReadyResultInfo
 
 # Interface: IMerchantGoogleSellersTasksReadyResultInfo
 
@@ -32,7 +32,7 @@ date when the task was posted (in the UTC format)
 
 #### Defined in
 
-main.ts:166440
+[main.ts:166320](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L166320)
 
 ___
 
@@ -44,7 +44,7 @@ URL for collecting the results of Google Shopping Sellers Advanced task
 
 #### Defined in
 
-main.ts:166444
+[main.ts:166324](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L166324)
 
 ___
 
@@ -56,7 +56,7 @@ URL for collecting the results of Google Shopping Sellers HTML task
 
 #### Defined in
 
-main.ts:166446
+[main.ts:166326](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L166326)
 
 ___
 
@@ -69,7 +69,7 @@ unique task identifier in our system in the UUID format
 
 #### Defined in
 
-main.ts:166433
+[main.ts:166313](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L166313)
 
 ___
 
@@ -81,7 +81,7 @@ search engine specified when setting the task
 
 #### Defined in
 
-main.ts:166435
+[main.ts:166315](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L166315)
 
 ___
 
@@ -94,7 +94,7 @@ can take the following values: shopping
 
 #### Defined in
 
-main.ts:166438
+[main.ts:166318](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L166318)
 
 ___
 
@@ -106,4 +106,4 @@ user-defined task identifier
 
 #### Defined in
 
-main.ts:166442
+[main.ts:166322](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L166322)

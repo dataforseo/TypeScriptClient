@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / SerpYoutubeLocationsResultInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / SerpYoutubeLocationsResultInfo
 
 # Class: SerpYoutubeLocationsResultInfo
 
@@ -48,7 +48,7 @@
 
 #### Defined in
 
-main.ts:57335
+[main.ts:57191](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L57191)
 
 ## Properties
 
@@ -64,7 +64,7 @@ ISO country code of the location
 
 #### Defined in
 
-main.ts:57329
+[main.ts:57185](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L57185)
 
 ___
 
@@ -80,7 +80,7 @@ location code
 
 #### Defined in
 
-main.ts:57316
+[main.ts:57172](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L57172)
 
 ___
 
@@ -103,7 +103,7 @@ where location_code_parent corresponds to:
 
 #### Defined in
 
-main.ts:57327
+[main.ts:57183](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L57183)
 
 ___
 
@@ -119,7 +119,7 @@ full name of the location
 
 #### Defined in
 
-main.ts:57318
+[main.ts:57174](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L57174)
 
 ___
 
@@ -135,7 +135,7 @@ location type
 
 #### Defined in
 
-main.ts:57331
+[main.ts:57187](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L57187)
 
 ## Methods
 
@@ -155,7 +155,7 @@ main.ts:57331
 
 #### Defined in
 
-main.ts:57344
+[main.ts:57200](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L57200)
 
 ___
 
@@ -175,7 +175,7 @@ ___
 
 #### Defined in
 
-main.ts:57365
+[main.ts:57221](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L57221)
 
 ___
 
@@ -195,4 +195,4 @@ ___
 
 #### Defined in
 
-main.ts:57358
+[main.ts:57214](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L57214)

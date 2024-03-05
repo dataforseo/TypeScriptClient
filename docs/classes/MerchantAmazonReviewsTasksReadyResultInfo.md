@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / MerchantAmazonReviewsTasksReadyResultInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / MerchantAmazonReviewsTasksReadyResultInfo
 
 # Class: MerchantAmazonReviewsTasksReadyResultInfo
 
@@ -50,7 +50,7 @@
 
 #### Defined in
 
-main.ts:175480
+[main.ts:175360](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L175360)
 
 ## Properties
 
@@ -66,7 +66,7 @@ date when the task was posted (in the UTC format)
 
 #### Defined in
 
-main.ts:175470
+[main.ts:175350](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L175350)
 
 ___
 
@@ -82,7 +82,7 @@ URL for collecting the results of the Amazon Reviews Advanced task
 
 #### Defined in
 
-main.ts:175474
+[main.ts:175354](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L175354)
 
 ___
 
@@ -98,7 +98,7 @@ URL for collecting the results of the Amazon Reviews HTML task
 
 #### Defined in
 
-main.ts:175476
+[main.ts:175356](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L175356)
 
 ___
 
@@ -115,7 +115,7 @@ unique task identifier in our system in the UUID format
 
 #### Defined in
 
-main.ts:175463
+[main.ts:175343](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L175343)
 
 ___
 
@@ -131,7 +131,7 @@ search engine specified when setting the task
 
 #### Defined in
 
-main.ts:175465
+[main.ts:175345](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L175345)
 
 ___
 
@@ -148,7 +148,7 @@ can take the following values: shopping
 
 #### Defined in
 
-main.ts:175468
+[main.ts:175348](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L175348)
 
 ___
 
@@ -164,7 +164,7 @@ user-defined task identifier
 
 #### Defined in
 
-main.ts:175472
+[main.ts:175352](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L175352)
 
 ## Methods
 
@@ -184,7 +184,7 @@ main.ts:175472
 
 #### Defined in
 
-main.ts:175489
+[main.ts:175369](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L175369)
 
 ___
 
@@ -204,7 +204,7 @@ ___
 
 #### Defined in
 
-main.ts:175512
+[main.ts:175392](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L175392)
 
 ___
 
@@ -224,4 +224,4 @@ ___
 
 #### Defined in
 
-main.ts:175505
+[main.ts:175385](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L175385)

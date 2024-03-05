@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / ISerpScreenshotResultInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / ISerpScreenshotResultInfo
 
 # Interface: ISerpScreenshotResultInfo
 
@@ -27,7 +27,7 @@ items array
 
 #### Defined in
 
-main.ts:23753
+[main.ts:23611](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L23611)
 
 ___
 
@@ -39,4 +39,4 @@ number of items in the results array
 
 #### Defined in
 
-main.ts:23751
+[main.ts:23609](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L23609)

@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / PeopleAlsoSearch
+[dataforseo-client](../README.md) / [Exports](../modules.md) / PeopleAlsoSearch
 
 # Class: PeopleAlsoSearch
 
@@ -47,7 +47,7 @@
 
 #### Defined in
 
-main.ts:188815
+[main.ts:188695](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L188695)
 
 ## Properties
 
@@ -65,7 +65,7 @@ learn more about the identifier in this help center article
 
 #### Defined in
 
-main.ts:188802
+[main.ts:188682](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L188682)
 
 ___
 
@@ -82,7 +82,7 @@ learn more about the identifier in this help center article
 
 #### Defined in
 
-main.ts:188805
+[main.ts:188685](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L188685)
 
 ___
 
@@ -99,7 +99,7 @@ the popularity rate based on reviews and displayed in SERP
 
 #### Defined in
 
-main.ts:188811
+[main.ts:188691](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L188691)
 
 ___
 
@@ -116,7 +116,7 @@ the name of the business entity for which the results are collected
 
 #### Defined in
 
-main.ts:188808
+[main.ts:188688](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L188688)
 
 ## Methods
 
@@ -136,7 +136,7 @@ main.ts:188808
 
 #### Defined in
 
-main.ts:188824
+[main.ts:188704](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L188704)
 
 ___
 
@@ -156,7 +156,7 @@ ___
 
 #### Defined in
 
-main.ts:188844
+[main.ts:188724](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L188724)
 
 ___
 
@@ -176,4 +176,4 @@ ___
 
 #### Defined in
 
-main.ts:188837
+[main.ts:188717](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L188717)

@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IOnPageLighthouseLanguagesResultInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IOnPageLighthouseLanguagesResultInfo
 
 # Interface: IOnPageLighthouseLanguagesResultInfo
 
@@ -27,7 +27,7 @@ language code according to ISO 639-1
 
 #### Defined in
 
-main.ts:153704
+[main.ts:153560](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L153560)
 
 ___
 
@@ -39,4 +39,4 @@ language name
 
 #### Defined in
 
-main.ts:153702
+[main.ts:153558](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L153558)

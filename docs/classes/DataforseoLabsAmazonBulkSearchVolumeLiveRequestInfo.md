@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / DataforseoLabsAmazonBulkSearchVolumeLiveRequestInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / DataforseoLabsAmazonBulkSearchVolumeLiveRequestInfo
 
 # Class: DataforseoLabsAmazonBulkSearchVolumeLiveRequestInfo
 
@@ -49,7 +49,7 @@
 
 #### Defined in
 
-main.ts:98822
+[main.ts:98678](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L98678)
 
 ## Properties
 
@@ -70,7 +70,7 @@ the keywords will be converted to lowercase format
 
 #### Defined in
 
-main.ts:98765
+[main.ts:98621](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L98621)
 
 ___
 
@@ -91,7 +91,7 @@ en
 
 #### Defined in
 
-main.ts:98812
+[main.ts:98668](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L98668)
 
 ___
 
@@ -112,7 +112,7 @@ English
 
 #### Defined in
 
-main.ts:98805
+[main.ts:98661](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L98661)
 
 ___
 
@@ -134,7 +134,7 @@ example:
 
 #### Defined in
 
-main.ts:98798
+[main.ts:98654](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L98654)
 
 ___
 
@@ -173,7 +173,7 @@ United States
 
 #### Defined in
 
-main.ts:98790
+[main.ts:98646](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L98646)
 
 ___
 
@@ -193,7 +193,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:98818
+[main.ts:98674](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L98674)
 
 ## Methods
 
@@ -213,7 +213,7 @@ main.ts:98818
 
 #### Defined in
 
-main.ts:98831
+[main.ts:98687](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L98687)
 
 ___
 
@@ -233,7 +233,7 @@ ___
 
 #### Defined in
 
-main.ts:98857
+[main.ts:98713](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L98713)
 
 ___
 
@@ -253,4 +253,4 @@ ___
 
 #### Defined in
 
-main.ts:98850
+[main.ts:98706](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L98706)

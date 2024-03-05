@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / ProductVariation
+[dataforseo-client](../README.md) / [Exports](../modules.md) / ProductVariation
 
 # Class: ProductVariation
 
@@ -47,7 +47,7 @@
 
 #### Defined in
 
-main.ts:169205
+[main.ts:169085](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L169085)
 
 ## Properties
 
@@ -64,7 +64,7 @@ learn more about the parameter in this help center guide
 
 #### Defined in
 
-main.ts:169196
+[main.ts:169076](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L169076)
 
 ___
 
@@ -80,7 +80,7 @@ name of the product seller
 
 #### Defined in
 
-main.ts:169198
+[main.ts:169078](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L169078)
 
 ___
 
@@ -96,7 +96,7 @@ type of element
 
 #### Defined in
 
-main.ts:169193
+[main.ts:169073](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L169073)
 
 ___
 
@@ -113,7 +113,7 @@ url of the webpage on the seller’s website where the product is sold
 
 #### Defined in
 
-main.ts:169201
+[main.ts:169081](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L169081)
 
 ## Methods
 
@@ -133,7 +133,7 @@ main.ts:169201
 
 #### Defined in
 
-main.ts:169214
+[main.ts:169094](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L169094)
 
 ___
 
@@ -153,7 +153,7 @@ ___
 
 #### Defined in
 
-main.ts:169234
+[main.ts:169114](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L169114)
 
 ___
 
@@ -173,4 +173,4 @@ ___
 
 #### Defined in
 
-main.ts:169227
+[main.ts:169107](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L169107)

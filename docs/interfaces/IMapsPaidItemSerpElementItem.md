@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IMapsPaidItemSerpElementItem
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IMapsPaidItemSerpElementItem
 
 # Interface: IMapsPaidItemSerpElementItem
 
@@ -38,7 +38,7 @@ domain in the SERP element
 
 #### Defined in
 
-main.ts:38941
+[main.ts:38799](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L38799)
 
 ___
 
@@ -51,7 +51,7 @@ absolute position among all the elements in SERP
 
 #### Defined in
 
-main.ts:38939
+[main.ts:38797](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L38797)
 
 ___
 
@@ -65,7 +65,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-main.ts:38936
+[main.ts:38794](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L38794)
 
 ___
 
@@ -78,7 +78,7 @@ the popularity rate based on reviews and displayed in SERP
 
 #### Defined in
 
-main.ts:38948
+[main.ts:38806](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L38806)
 
 ___
 
@@ -95,7 +95,7 @@ the object displays the number of 1-star to 5-star ratings, as reviewed by users
 
 #### Defined in
 
-main.ts:38951
+[main.ts:38809](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L38809)
 
 ___
 
@@ -107,7 +107,7 @@ title of the result in SERP
 
 #### Defined in
 
-main.ts:38943
+[main.ts:38801](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L38801)
 
 ___
 
@@ -119,4 +119,4 @@ relevant URL in SERP
 
 #### Defined in
 
-main.ts:38945
+[main.ts:38803](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L38803)

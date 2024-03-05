@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / DataforseoLabsAmazonBulkSearchVolumeLiveResultInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / DataforseoLabsAmazonBulkSearchVolumeLiveResultInfo
 
 # Class: DataforseoLabsAmazonBulkSearchVolumeLiveResultInfo
 
@@ -49,7 +49,7 @@
 
 #### Defined in
 
-main.ts:99024
+[main.ts:98880](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L98880)
 
 ## Properties
 
@@ -65,7 +65,7 @@ contains keyword search volume data data
 
 #### Defined in
 
-main.ts:99020
+[main.ts:98876](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L98876)
 
 ___
 
@@ -81,7 +81,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:99018
+[main.ts:98874](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L98874)
 
 ___
 
@@ -98,7 +98,7 @@ if there is no data, then the value is null
 
 #### Defined in
 
-main.ts:99014
+[main.ts:98870](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L98870)
 
 ___
 
@@ -115,7 +115,7 @@ if there is no data, then the value is null
 
 #### Defined in
 
-main.ts:99011
+[main.ts:98867](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L98867)
 
 ___
 
@@ -131,7 +131,7 @@ search engine type
 
 #### Defined in
 
-main.ts:99008
+[main.ts:98864](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L98864)
 
 ___
 
@@ -147,7 +147,7 @@ total amount of results in our database relevant to your request
 
 #### Defined in
 
-main.ts:99016
+[main.ts:98872](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L98872)
 
 ## Methods
 
@@ -167,7 +167,7 @@ main.ts:99016
 
 #### Defined in
 
-main.ts:99033
+[main.ts:98889](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L98889)
 
 ___
 
@@ -187,7 +187,7 @@ ___
 
 #### Defined in
 
-main.ts:99059
+[main.ts:98915](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L98915)
 
 ___
 
@@ -207,4 +207,4 @@ ___
 
 #### Defined in
 
-main.ts:99052
+[main.ts:98908](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L98908)

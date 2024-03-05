@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IAppendixBusinessDataPriceData
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IAppendixBusinessDataPriceData
 
 # Interface: IAppendixBusinessDataPriceData
 
@@ -32,7 +32,7 @@
 
 #### Defined in
 
-main.ts:211477
+[main.ts:211357](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L211357)
 
 ___
 
@@ -42,7 +42,7 @@ ___
 
 #### Defined in
 
-main.ts:211478
+[main.ts:211358](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L211358)
 
 ___
 
@@ -52,7 +52,7 @@ ___
 
 #### Defined in
 
-main.ts:211480
+[main.ts:211360](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L211360)
 
 ___
 
@@ -62,7 +62,7 @@ ___
 
 #### Defined in
 
-main.ts:211481
+[main.ts:211361](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L211361)
 
 ___
 
@@ -72,7 +72,7 @@ ___
 
 #### Defined in
 
-main.ts:211482
+[main.ts:211362](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L211362)
 
 ___
 
@@ -82,7 +82,7 @@ ___
 
 #### Defined in
 
-main.ts:211479
+[main.ts:211359](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L211359)
 
 ___
 
@@ -92,7 +92,7 @@ ___
 
 #### Defined in
 
-main.ts:211483
+[main.ts:211363](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L211363)
 
 ___
 
@@ -102,7 +102,7 @@ ___
 
 #### Defined in
 
-main.ts:211484
+[main.ts:211364](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L211364)
 
 ___
 
@@ -112,4 +112,4 @@ ___
 
 #### Defined in
 
-main.ts:211485
+[main.ts:211365](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L211365)

@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / OnPageWaterfallItem
+[dataforseo-client](../README.md) / [Exports](../modules.md) / OnPageWaterfallItem
 
 # Class: OnPageWaterfallItem
 
@@ -55,7 +55,7 @@
 
 #### Defined in
 
-main.ts:149891
+[main.ts:149747](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L149747)
 
 ## Properties
 
@@ -72,7 +72,7 @@ the time it takes until the connection with a server is established (in millisec
 
 #### Defined in
 
-main.ts:149866
+[main.ts:149722](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L149722)
 
 ___
 
@@ -89,7 +89,7 @@ the time it takes until the page and all of its subresources are downloaded (in 
 
 #### Defined in
 
-main.ts:149863
+[main.ts:149719](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L149719)
 
 ___
 
@@ -105,7 +105,7 @@ time it takes for a browser to receive a response (in milliseconds)
 
 #### Defined in
 
-main.ts:149876
+[main.ts:149732](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L149732)
 
 ___
 
@@ -121,7 +121,7 @@ total time it takes until a browser receives a complete response from a server (
 
 #### Defined in
 
-main.ts:149878
+[main.ts:149734](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L149734)
 
 ___
 
@@ -138,7 +138,7 @@ the amount of time the browser needs to complete downloading a page
 
 #### Defined in
 
-main.ts:149884
+[main.ts:149740](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L149740)
 
 ___
 
@@ -155,7 +155,7 @@ the amount of time the browser needs to start downloading a page
 
 #### Defined in
 
-main.ts:149881
+[main.ts:149737](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L149737)
 
 ___
 
@@ -171,7 +171,7 @@ URL of the page
 
 #### Defined in
 
-main.ts:149857
+[main.ts:149713](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L149713)
 
 ___
 
@@ -188,7 +188,7 @@ the time it takes until the request to a server is sent (in milliseconds)
 
 #### Defined in
 
-main.ts:149872
+[main.ts:149728](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L149728)
 
 ___
 
@@ -205,7 +205,7 @@ contains separate arrays with timing for each resource found on the page
 
 #### Defined in
 
-main.ts:149887
+[main.ts:149743](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L149743)
 
 ___
 
@@ -222,7 +222,7 @@ the time it takes until the user can interact with a page (in milliseconds)
 
 #### Defined in
 
-main.ts:149860
+[main.ts:149716](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L149716)
 
 ___
 
@@ -239,7 +239,7 @@ the time it takes until the secure connection with a server is established (in m
 
 #### Defined in
 
-main.ts:149869
+[main.ts:149725](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L149725)
 
 ___
 
@@ -255,7 +255,7 @@ time to first byte (TTFB) in milliseconds
 
 #### Defined in
 
-main.ts:149874
+[main.ts:149730](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L149730)
 
 ## Methods
 
@@ -275,7 +275,7 @@ main.ts:149874
 
 #### Defined in
 
-main.ts:149900
+[main.ts:149756](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L149756)
 
 ___
 
@@ -295,7 +295,7 @@ ___
 
 #### Defined in
 
-main.ts:149932
+[main.ts:149788](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L149788)
 
 ___
 
@@ -315,4 +315,4 @@ ___
 
 #### Defined in
 
-main.ts:149925
+[main.ts:149781](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L149781)

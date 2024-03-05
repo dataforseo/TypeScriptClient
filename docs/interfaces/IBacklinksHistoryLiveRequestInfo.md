@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IBacklinksHistoryLiveRequestInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IBacklinksHistoryLiveRequestInfo
 
 # Interface: IBacklinksHistoryLiveRequestInfo
 
@@ -35,7 +35,7 @@ example:
 
 #### Defined in
 
-main.ts:130131
+[main.ts:129987](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L129987)
 
 ___
 
@@ -52,7 +52,7 @@ example:
 
 #### Defined in
 
-main.ts:130138
+[main.ts:129994](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L129994)
 
 ___
 
@@ -68,7 +68,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:130144
+[main.ts:130000](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L130000)
 
 ___
 
@@ -82,4 +82,4 @@ a domain should be specified without https:// and www.
 
 #### Defined in
 
-main.ts:130123
+[main.ts:129979](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L129979)

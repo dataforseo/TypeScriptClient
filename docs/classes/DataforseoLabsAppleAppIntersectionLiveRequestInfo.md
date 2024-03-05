@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / DataforseoLabsAppleAppIntersectionLiveRequestInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / DataforseoLabsAppleAppIntersectionLiveRequestInfo
 
 # Class: DataforseoLabsAppleAppIntersectionLiveRequestInfo
 
@@ -53,7 +53,7 @@
 
 #### Defined in
 
-main.ts:111963
+[main.ts:111819](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L111819)
 
 ## Properties
 
@@ -86,7 +86,7 @@ the maximum number of app IDs you can specify in this object is 20
 
 #### Defined in
 
-main.ts:111879
+[main.ts:111735](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L111735)
 
 ___
 
@@ -111,7 +111,7 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 #### Defined in
 
-main.ts:111926
+[main.ts:111782](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L111782)
 
 ___
 
@@ -134,7 +134,7 @@ en
 
 #### Defined in
 
-main.ts:111915
+[main.ts:111771](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L111771)
 
 ___
 
@@ -157,7 +157,7 @@ English
 
 #### Defined in
 
-main.ts:111906
+[main.ts:111762](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L111762)
 
 ___
 
@@ -176,7 +176,7 @@ maximum value: 1000
 
 #### Defined in
 
-main.ts:111948
+[main.ts:111804](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L111804)
 
 ___
 
@@ -199,7 +199,7 @@ example:
 
 #### Defined in
 
-main.ts:111897
+[main.ts:111753](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L111753)
 
 ___
 
@@ -222,7 +222,7 @@ United States
 
 #### Defined in
 
-main.ts:111888
+[main.ts:111744](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L111744)
 
 ___
 
@@ -241,7 +241,7 @@ if you specify the 10 value, the first ten keywords in the results array will be
 
 #### Defined in
 
-main.ts:111953
+[main.ts:111809](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L111809)
 
 ___
 
@@ -272,7 +272,7 @@ Note: if the item_types array contains item types that are different from organi
 
 #### Defined in
 
-main.ts:111943
+[main.ts:111799](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L111799)
 
 ___
 
@@ -292,7 +292,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:111959
+[main.ts:111815](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L111815)
 
 ## Methods
 
@@ -312,7 +312,7 @@ main.ts:111959
 
 #### Defined in
 
-main.ts:111972
+[main.ts:111828](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L111828)
 
 ___
 
@@ -332,7 +332,7 @@ ___
 
 #### Defined in
 
-main.ts:112012
+[main.ts:111868](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L111868)
 
 ___
 
@@ -352,4 +352,4 @@ ___
 
 #### Defined in
 
-main.ts:112005
+[main.ts:111861](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L111861)

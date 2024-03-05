@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IKnowledgeGraphExpandedElement
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IKnowledgeGraphExpandedElement
 
 # Interface: IKnowledgeGraphExpandedElement
 
@@ -34,7 +34,7 @@ domain in SERP
 
 #### Defined in
 
-main.ts:27172
+[main.ts:27030](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L27030)
 
 ___
 
@@ -46,7 +46,7 @@ title of a given element
 
 #### Defined in
 
-main.ts:27168
+[main.ts:27026](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L27026)
 
 ___
 
@@ -58,7 +58,7 @@ images of the element
 
 #### Defined in
 
-main.ts:27178
+[main.ts:27036](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L27036)
 
 ___
 
@@ -70,7 +70,7 @@ text alongside the link title
 
 #### Defined in
 
-main.ts:27176
+[main.ts:27034](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L27034)
 
 ___
 
@@ -82,7 +82,7 @@ table element
 
 #### Defined in
 
-main.ts:27185
+[main.ts:27043](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L27043)
 
 ___
 
@@ -97,7 +97,7 @@ example:
 
 #### Defined in
 
-main.ts:27183
+[main.ts:27041](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L27041)
 
 ___
 
@@ -109,7 +109,7 @@ title of the result in SERP
 
 #### Defined in
 
-main.ts:27174
+[main.ts:27032](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L27032)
 
 ___
 
@@ -121,7 +121,7 @@ type of element
 
 #### Defined in
 
-main.ts:27166
+[main.ts:27024](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L27024)
 
 ___
 
@@ -133,4 +133,4 @@ relevant URL
 
 #### Defined in
 
-main.ts:27170
+[main.ts:27028](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L27028)

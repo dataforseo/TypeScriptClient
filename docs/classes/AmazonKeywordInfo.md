@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / AmazonKeywordInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / AmazonKeywordInfo
 
 # Class: AmazonKeywordInfo
 
@@ -46,7 +46,7 @@
 
 #### Defined in
 
-main.ts:21396
+[main.ts:21396](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L21396)
 
 ## Properties
 
@@ -64,7 +64,7 @@ example:    '2019-11-15 12:57:46 +00:00'
 
 #### Defined in
 
-main.ts:21389
+[main.ts:21389](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L21389)
 
 ___
 
@@ -80,7 +80,7 @@ search engine type
 
 #### Defined in
 
-main.ts:21385
+[main.ts:21385](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L21385)
 
 ___
 
@@ -97,7 +97,7 @@ represents the (approximate) number of searches for the provided keyword idea on
 
 #### Defined in
 
-main.ts:21392
+[main.ts:21392](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L21392)
 
 ## Methods
 
@@ -117,7 +117,7 @@ main.ts:21392
 
 #### Defined in
 
-main.ts:21405
+[main.ts:21405](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L21405)
 
 ___
 
@@ -137,7 +137,7 @@ ___
 
 #### Defined in
 
-main.ts:21424
+[main.ts:21424](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L21424)
 
 ___
 
@@ -157,4 +157,4 @@ ___
 
 #### Defined in
 
-main.ts:21417
+[main.ts:21417](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L21417)

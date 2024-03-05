@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / BusinessDataErrorsRequestInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / BusinessDataErrorsRequestInfo
 
 # Class: BusinessDataErrorsRequestInfo
 
@@ -48,7 +48,7 @@
 
 #### Defined in
 
-main.ts:187644
+[main.ts:187524](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L187524)
 
 ## Properties
 
@@ -69,7 +69,7 @@ example:
 
 #### Defined in
 
-main.ts:187633
+[main.ts:187513](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L187513)
 
 ___
 
@@ -90,7 +90,7 @@ example:
 
 #### Defined in
 
-main.ts:187640
+[main.ts:187520](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L187520)
 
 ___
 
@@ -110,7 +110,7 @@ example: hotel_searches/task_post, postback_url, pingback_url
 
 #### Defined in
 
-main.ts:187626
+[main.ts:187506](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L187506)
 
 ___
 
@@ -129,7 +129,7 @@ maximum value: 1000
 
 #### Defined in
 
-main.ts:187615
+[main.ts:187495](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L187495)
 
 ___
 
@@ -148,7 +148,7 @@ if you specify the 10 value, the first ten tasks in the results array will be om
 
 #### Defined in
 
-main.ts:187620
+[main.ts:187500](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L187500)
 
 ## Methods
 
@@ -168,7 +168,7 @@ main.ts:187620
 
 #### Defined in
 
-main.ts:187653
+[main.ts:187533](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L187533)
 
 ___
 
@@ -188,7 +188,7 @@ ___
 
 #### Defined in
 
-main.ts:187674
+[main.ts:187554](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L187554)
 
 ___
 
@@ -208,4 +208,4 @@ ___
 
 #### Defined in
 
-main.ts:187667
+[main.ts:187547](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L187547)

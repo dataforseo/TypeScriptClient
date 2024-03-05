@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / AppendixAppDataLimitsRatesDataInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / AppendixAppDataLimitsRatesDataInfo
 
 # Class: AppendixAppDataLimitsRatesDataInfo
 
@@ -51,7 +51,7 @@
 
 #### Defined in
 
-main.ts:208368
+[main.ts:208248](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L208248)
 
 ## Properties
 
@@ -65,7 +65,7 @@ main.ts:208368
 
 #### Defined in
 
-main.ts:208357
+[main.ts:208237](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L208237)
 
 ___
 
@@ -79,7 +79,7 @@ ___
 
 #### Defined in
 
-main.ts:208358
+[main.ts:208238](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L208238)
 
 ___
 
@@ -93,7 +93,7 @@ ___
 
 #### Defined in
 
-main.ts:208359
+[main.ts:208239](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L208239)
 
 ___
 
@@ -107,7 +107,7 @@ ___
 
 #### Defined in
 
-main.ts:208360
+[main.ts:208240](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L208240)
 
 ___
 
@@ -121,7 +121,7 @@ ___
 
 #### Defined in
 
-main.ts:208364
+[main.ts:208244](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L208244)
 
 ___
 
@@ -135,7 +135,7 @@ ___
 
 #### Defined in
 
-main.ts:208361
+[main.ts:208241](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L208241)
 
 ___
 
@@ -149,7 +149,7 @@ ___
 
 #### Defined in
 
-main.ts:208362
+[main.ts:208242](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L208242)
 
 ___
 
@@ -163,7 +163,7 @@ ___
 
 #### Defined in
 
-main.ts:208363
+[main.ts:208243](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L208243)
 
 ## Methods
 
@@ -183,7 +183,7 @@ main.ts:208363
 
 #### Defined in
 
-main.ts:208377
+[main.ts:208257](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L208257)
 
 ___
 
@@ -203,7 +203,7 @@ ___
 
 #### Defined in
 
-main.ts:208401
+[main.ts:208281](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L208281)
 
 ___
 
@@ -223,4 +223,4 @@ ___
 
 #### Defined in
 
-main.ts:208394
+[main.ts:208274](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L208274)

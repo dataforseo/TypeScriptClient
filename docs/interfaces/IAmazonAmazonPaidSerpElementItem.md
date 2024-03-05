@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IAmazonAmazonPaidSerpElementItem
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IAmazonAmazonPaidSerpElementItem
 
 # Interface: IAmazonAmazonPaidSerpElementItem
 
@@ -48,7 +48,7 @@ number of product purchases in the past month
 
 #### Defined in
 
-main.ts:170920
+[main.ts:170800](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L170800)
 
 ___
 
@@ -62,7 +62,7 @@ USD
 
 #### Defined in
 
-main.ts:170932
+[main.ts:170812](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L170812)
 
 ___
 
@@ -77,7 +77,7 @@ B07G82D89J
 
 #### Defined in
 
-main.ts:170940
+[main.ts:170820](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L170820)
 
 ___
 
@@ -90,7 +90,7 @@ delivery information including free and fast delivery date ranges
 
 #### Defined in
 
-main.ts:170951
+[main.ts:170831](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L170831)
 
 ___
 
@@ -102,7 +102,7 @@ Amazon domain
 
 #### Defined in
 
-main.ts:170912
+[main.ts:170792](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L170792)
 
 ___
 
@@ -114,7 +114,7 @@ URL of the product image featured in the results
 
 #### Defined in
 
-main.ts:170918
+[main.ts:170798](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L170798)
 
 ___
 
@@ -127,7 +127,7 @@ if the value is true, the product is marked with the “Amazon’s choice” lab
 
 #### Defined in
 
-main.ts:170945
+[main.ts:170825](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L170825)
 
 ___
 
@@ -140,7 +140,7 @@ if the value is true, the product is marked with the “Best Seller” label
 
 #### Defined in
 
-main.ts:170948
+[main.ts:170828](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L170828)
 
 ___
 
@@ -154,7 +154,7 @@ example:
 
 #### Defined in
 
-main.ts:170924
+[main.ts:170804](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L170804)
 
 ___
 
@@ -168,7 +168,7 @@ example:
 
 #### Defined in
 
-main.ts:170928
+[main.ts:170808](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L170808)
 
 ___
 
@@ -181,7 +181,7 @@ absolute position among all the elements found in Amazon SERP
 
 #### Defined in
 
-main.ts:170908
+[main.ts:170788](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L170788)
 
 ___
 
@@ -194,7 +194,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-main.ts:170905
+[main.ts:170785](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L170785)
 
 ___
 
@@ -206,7 +206,7 @@ product rating info
 
 #### Defined in
 
-main.ts:170942
+[main.ts:170822](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L170822)
 
 ___
 
@@ -219,7 +219,7 @@ contains special offer details, including coupon and Subscribe & Save discounts
 
 #### Defined in
 
-main.ts:170935
+[main.ts:170815](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L170815)
 
 ___
 
@@ -231,7 +231,7 @@ product title
 
 #### Defined in
 
-main.ts:170914
+[main.ts:170794](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L170794)
 
 ___
 
@@ -243,7 +243,7 @@ the URL of the product page
 
 #### Defined in
 
-main.ts:170916
+[main.ts:170796](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L170796)
 
 ___
 
@@ -255,4 +255,4 @@ the XPath of the element
 
 #### Defined in
 
-main.ts:170910
+[main.ts:170790](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L170790)

@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IPageContentInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IPageContentInfo
 
 # Interface: IPageContentInfo
 
@@ -29,7 +29,7 @@ parsed content of the footer
 
 #### Defined in
 
-main.ts:152414
+[main.ts:152270](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L152270)
 
 ___
 
@@ -41,7 +41,7 @@ parsed content of the header
 
 #### Defined in
 
-main.ts:152412
+[main.ts:152268](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L152268)
 
 ___
 
@@ -54,7 +54,7 @@ you can find more information about topic priority calculation in this help cent
 
 #### Defined in
 
-main.ts:152417
+[main.ts:152273](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L152273)
 
 ___
 
@@ -67,4 +67,4 @@ you can find more information about topic priority calculation in this help cent
 
 #### Defined in
 
-main.ts:152420
+[main.ts:152276](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L152276)

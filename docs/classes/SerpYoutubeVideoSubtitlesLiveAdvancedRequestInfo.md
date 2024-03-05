@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / SerpYoutubeVideoSubtitlesLiveAdvancedRequestInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / SerpYoutubeVideoSubtitlesLiveAdvancedRequestInfo
 
 # Class: SerpYoutubeVideoSubtitlesLiveAdvancedRequestInfo
 
@@ -53,7 +53,7 @@
 
 #### Defined in
 
-main.ts:60788
+[main.ts:60644](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L60644)
 
 ## Properties
 
@@ -71,7 +71,7 @@ only value: desktop
 
 #### Defined in
 
-main.ts:60773
+[main.ts:60629](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L60629)
 
 ___
 
@@ -92,7 +92,7 @@ en
 
 #### Defined in
 
-main.ts:60769
+[main.ts:60625](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L60625)
 
 ___
 
@@ -113,7 +113,7 @@ English
 
 #### Defined in
 
-main.ts:60762
+[main.ts:60618](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L60618)
 
 ___
 
@@ -134,7 +134,7 @@ example:
 
 #### Defined in
 
-main.ts:60755
+[main.ts:60611](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L60611)
 
 ___
 
@@ -155,7 +155,7 @@ United States
 
 #### Defined in
 
-main.ts:60748
+[main.ts:60604](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L60604)
 
 ___
 
@@ -174,7 +174,7 @@ default value: windows
 
 #### Defined in
 
-main.ts:60778
+[main.ts:60634](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L60634)
 
 ___
 
@@ -191,7 +191,7 @@ you can get the language code from YouTube Video Info result
 
 #### Defined in
 
-main.ts:60737
+[main.ts:60593](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L60593)
 
 ___
 
@@ -209,7 +209,7 @@ possible values:
 
 #### Defined in
 
-main.ts:60741
+[main.ts:60597](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L60597)
 
 ___
 
@@ -229,7 +229,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:60784
+[main.ts:60640](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L60640)
 
 ___
 
@@ -249,7 +249,7 @@ Y8Wu4rSNJms
 
 #### Defined in
 
-main.ts:60734
+[main.ts:60590](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L60590)
 
 ## Methods
 
@@ -269,7 +269,7 @@ main.ts:60734
 
 #### Defined in
 
-main.ts:60797
+[main.ts:60653](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L60653)
 
 ___
 
@@ -289,7 +289,7 @@ ___
 
 #### Defined in
 
-main.ts:60823
+[main.ts:60679](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L60679)
 
 ___
 
@@ -309,4 +309,4 @@ ___
 
 #### Defined in
 
-main.ts:60816
+[main.ts:60672](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L60672)

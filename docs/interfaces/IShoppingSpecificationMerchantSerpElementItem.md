@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IShoppingSpecificationMerchantSerpElementItem
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IShoppingSpecificationMerchantSerpElementItem
 
 # Interface: IShoppingSpecificationMerchantSerpElementItem
 
@@ -39,7 +39,7 @@ indicates the name of the product specification section in which the related ele
 
 #### Defined in
 
-main.ts:168039
+[main.ts:167919](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L167919)
 
 ___
 
@@ -53,7 +53,7 @@ right
 
 #### Defined in
 
-main.ts:168034
+[main.ts:167914](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L167914)
 
 ___
 
@@ -66,7 +66,7 @@ absolute position among all the elements found on the product specification page
 
 #### Defined in
 
-main.ts:168030
+[main.ts:167910](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L167910)
 
 ___
 
@@ -79,7 +79,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-main.ts:168027
+[main.ts:167907](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L167907)
 
 ___
 
@@ -92,7 +92,7 @@ attribute name of the product data specification
 
 #### Defined in
 
-main.ts:168042
+[main.ts:167922](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L167922)
 
 ___
 
@@ -104,7 +104,7 @@ content of the specification
 
 #### Defined in
 
-main.ts:168044
+[main.ts:167924](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L167924)
 
 ___
 
@@ -116,4 +116,4 @@ XPath of the element
 
 #### Defined in
 
-main.ts:168036
+[main.ts:167916](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L167916)

@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IAppendixGoogleMerchantPriceData
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IAppendixGoogleMerchantPriceData
 
 # Interface: IAppendixGoogleMerchantPriceData
 
@@ -27,7 +27,7 @@
 
 #### Defined in
 
-main.ts:210534
+[main.ts:210414](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L210414)
 
 ___
 
@@ -37,7 +37,7 @@ ___
 
 #### Defined in
 
-main.ts:210535
+[main.ts:210415](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L210415)
 
 ___
 
@@ -47,7 +47,7 @@ ___
 
 #### Defined in
 
-main.ts:210536
+[main.ts:210416](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L210416)
 
 ___
 
@@ -57,4 +57,4 @@ ___
 
 #### Defined in
 
-main.ts:210537
+[main.ts:210417](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L210417)

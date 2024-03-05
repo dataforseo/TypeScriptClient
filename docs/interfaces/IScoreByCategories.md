@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IScoreByCategories
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IScoreByCategories
 
 # Interface: IScoreByCategories
 
@@ -32,7 +32,7 @@ calculated based on data from the hotel’s proximity to nearby airports
 
 #### Defined in
 
-main.ts:196990
+[main.ts:196870](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L196870)
 
 ___
 
@@ -47,7 +47,7 @@ note that the criteria are not weighted equally in the overall score
 
 #### Defined in
 
-main.ts:196974
+[main.ts:196854](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L196854)
 
 ___
 
@@ -61,7 +61,7 @@ calculated based on data from the hotel’s proximity to nearby restaurants
 
 #### Defined in
 
-main.ts:196982
+[main.ts:196862](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L196862)
 
 ___
 
@@ -75,7 +75,7 @@ calculated based on data from the hotel’s proximity to nearby things to do
 
 #### Defined in
 
-main.ts:196978
+[main.ts:196858](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L196858)
 
 ___
 
@@ -89,4 +89,4 @@ calculated based on data from the hotel’s proximity to nearby transit options
 
 #### Defined in
 
-main.ts:196986
+[main.ts:196866](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L196866)

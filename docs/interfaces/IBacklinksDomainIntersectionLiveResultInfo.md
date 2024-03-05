@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IBacklinksDomainIntersectionLiveResultInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IBacklinksDomainIntersectionLiveResultInfo
 
 # Interface: IBacklinksDomainIntersectionLiveResultInfo
 
@@ -29,7 +29,7 @@ contains domain that link to all targets from the POST array
 
 #### Defined in
 
-main.ts:137362
+[main.ts:137218](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L137218)
 
 ___
 
@@ -41,7 +41,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:137360
+[main.ts:137216](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L137216)
 
 ___
 
@@ -57,7 +57,7 @@ target domains, subdomains or webpages in a POST array
 
 #### Defined in
 
-main.ts:137356
+[main.ts:137212](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L137212)
 
 ___
 
@@ -69,4 +69,4 @@ total amount of results relevant to your request
 
 #### Defined in
 
-main.ts:137358
+[main.ts:137214](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L137214)

@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IBaseProductInformationItem
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IBaseProductInformationItem
 
 # Interface: IBaseProductInformationItem
 

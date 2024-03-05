@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IOnPageRawHtmlItem
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IOnPageRawHtmlItem
 
 # Interface: IOnPageRawHtmlItem
 
@@ -26,4 +26,4 @@ HTML page
 
 #### Defined in
 
-main.ts:151392
+[main.ts:151248](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L151248)

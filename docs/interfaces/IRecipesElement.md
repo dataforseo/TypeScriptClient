@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IRecipesElement
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IRecipesElement
 
 # Interface: IRecipesElement
 
@@ -33,7 +33,7 @@ description of the results element in SERP
 
 #### Defined in
 
-main.ts:31644
+[main.ts:31502](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L31502)
 
 ___
 
@@ -45,7 +45,7 @@ domain where a link points
 
 #### Defined in
 
-main.ts:31639
+[main.ts:31497](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L31497)
 
 ___
 
@@ -58,7 +58,7 @@ the popularity rate based on reviews and displayed in SERP
 
 #### Defined in
 
-main.ts:31649
+[main.ts:31507](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L31507)
 
 ___
 
@@ -71,7 +71,7 @@ indicates the source of information included in the element
 
 #### Defined in
 
-main.ts:31642
+[main.ts:31500](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L31500)
 
 ___
 
@@ -83,7 +83,7 @@ the total time it takes to prepare the cook the dish
 
 #### Defined in
 
-main.ts:31646
+[main.ts:31504](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L31504)
 
 ___
 
@@ -95,7 +95,7 @@ title of the row
 
 #### Defined in
 
-main.ts:31635
+[main.ts:31493](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L31493)
 
 ___
 
@@ -107,7 +107,7 @@ type of element
 
 #### Defined in
 
-main.ts:31633
+[main.ts:31491](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L31491)
 
 ___
 
@@ -119,4 +119,4 @@ URL
 
 #### Defined in
 
-main.ts:31637
+[main.ts:31495](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L31495)

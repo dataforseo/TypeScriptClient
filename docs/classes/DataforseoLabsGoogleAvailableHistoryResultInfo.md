@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / DataforseoLabsGoogleAvailableHistoryResultInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / DataforseoLabsGoogleAvailableHistoryResultInfo
 
 # Class: DataforseoLabsGoogleAvailableHistoryResultInfo
 
@@ -44,7 +44,7 @@
 
 #### Defined in
 
-main.ts:78475
+[main.ts:78331](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L78331)
 
 ## Properties
 
@@ -63,7 +63,7 @@ example:
 
 #### Defined in
 
-main.ts:78471
+[main.ts:78327](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L78327)
 
 ## Methods
 
@@ -83,7 +83,7 @@ main.ts:78471
 
 #### Defined in
 
-main.ts:78484
+[main.ts:78340](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L78340)
 
 ___
 
@@ -103,7 +103,7 @@ ___
 
 #### Defined in
 
-main.ts:78501
+[main.ts:78357](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L78357)
 
 ___
 
@@ -123,4 +123,4 @@ ___
 
 #### Defined in
 
-main.ts:78494
+[main.ts:78350](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L78350)

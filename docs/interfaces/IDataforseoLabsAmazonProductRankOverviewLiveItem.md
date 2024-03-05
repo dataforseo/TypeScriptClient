@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IDataforseoLabsAmazonProductRankOverviewLiveItem
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IDataforseoLabsAmazonProductRankOverviewLiveItem
 
 # Interface: IDataforseoLabsAmazonProductRankOverviewLiveItem
 
@@ -30,7 +30,7 @@ for more information, refer to this help center guide
 
 #### Defined in
 
-main.ts:100907
+[main.ts:100763](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L100763)
 
 ___
 
@@ -42,7 +42,7 @@ average keyword position of the product
 
 #### Defined in
 
-main.ts:100909
+[main.ts:100765](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L100765)
 
 ___
 
@@ -54,4 +54,4 @@ search engine type
 
 #### Defined in
 
-main.ts:100903
+[main.ts:100759](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L100759)

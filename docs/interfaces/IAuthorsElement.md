@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IAuthorsElement
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IAuthorsElement
 
 # Interface: IAuthorsElement
 
@@ -29,7 +29,7 @@ author’s link domain
 
 #### Defined in
 
-main.ts:50829
+[main.ts:50687](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L50687)
 
 ___
 
@@ -41,7 +41,7 @@ name of the dataset author
 
 #### Defined in
 
-main.ts:50825
+[main.ts:50683](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L50683)
 
 ___
 
@@ -53,7 +53,7 @@ type of element
 
 #### Defined in
 
-main.ts:50823
+[main.ts:50681](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L50681)
 
 ___
 
@@ -65,4 +65,4 @@ author’s link URL
 
 #### Defined in
 
-main.ts:50827
+[main.ts:50685](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L50685)

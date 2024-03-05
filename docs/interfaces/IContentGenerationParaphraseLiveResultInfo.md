@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IContentGenerationParaphraseLiveResultInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IContentGenerationParaphraseLiveResultInfo
 
 # Interface: IContentGenerationParaphraseLiveResultInfo
 
@@ -29,7 +29,7 @@ paraphrased version of the given text
 
 #### Defined in
 
-main.ts:161382
+[main.ts:161262](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L161262)
 
 ___
 
@@ -41,7 +41,7 @@ number of input tokens in the POST request
 
 #### Defined in
 
-main.ts:161376
+[main.ts:161256](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L161256)
 
 ___
 
@@ -53,7 +53,7 @@ number of new tokens in the response
 
 #### Defined in
 
-main.ts:161380
+[main.ts:161260](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L161260)
 
 ___
 
@@ -65,4 +65,4 @@ number of output tokens in the response
 
 #### Defined in
 
-main.ts:161378
+[main.ts:161258](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L161258)

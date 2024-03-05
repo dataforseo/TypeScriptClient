@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IAmazonKeywordInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IAmazonKeywordInfo
 
 # Interface: IAmazonKeywordInfo
 
@@ -30,7 +30,7 @@ example:    '2019-11-15 12:57:46 +00:00'
 
 #### Defined in
 
-main.ts:21443
+[main.ts:21443](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L21443)
 
 ___
 
@@ -42,7 +42,7 @@ search engine type
 
 #### Defined in
 
-main.ts:21439
+[main.ts:21439](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L21439)
 
 ___
 
@@ -55,4 +55,4 @@ represents the (approximate) number of searches for the provided keyword idea on
 
 #### Defined in
 
-main.ts:21446
+[main.ts:21446](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L21446)

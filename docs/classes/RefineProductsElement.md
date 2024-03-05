@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / RefineProductsElement
+[dataforseo-client](../README.md) / [Exports](../modules.md) / RefineProductsElement
 
 # Class: RefineProductsElement
 
@@ -49,7 +49,7 @@
 
 #### Defined in
 
-main.ts:35160
+[main.ts:35018](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L35018)
 
 ## Properties
 
@@ -65,7 +65,7 @@ URL of the image
 
 #### Defined in
 
-main.ts:35150
+[main.ts:35008](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L35008)
 
 ___
 
@@ -81,7 +81,7 @@ keyword for the related refined search
 
 #### Defined in
 
-main.ts:35152
+[main.ts:35010](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L35010)
 
 ___
 
@@ -97,7 +97,7 @@ type of search refinement
 
 #### Defined in
 
-main.ts:35154
+[main.ts:35012](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L35012)
 
 ___
 
@@ -113,7 +113,7 @@ title of the row
 
 #### Defined in
 
-main.ts:35148
+[main.ts:35006](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L35006)
 
 ___
 
@@ -129,7 +129,7 @@ type of element
 
 #### Defined in
 
-main.ts:35146
+[main.ts:35004](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L35004)
 
 ___
 
@@ -145,7 +145,7 @@ the XPath of the element
 
 #### Defined in
 
-main.ts:35156
+[main.ts:35014](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L35014)
 
 ## Methods
 
@@ -165,7 +165,7 @@ main.ts:35156
 
 #### Defined in
 
-main.ts:35169
+[main.ts:35027](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L35027)
 
 ___
 
@@ -185,7 +185,7 @@ ___
 
 #### Defined in
 
-main.ts:35191
+[main.ts:35049](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L35049)
 
 ___
 
@@ -205,4 +205,4 @@ ___
 
 #### Defined in
 
-main.ts:35184
+[main.ts:35042](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L35042)

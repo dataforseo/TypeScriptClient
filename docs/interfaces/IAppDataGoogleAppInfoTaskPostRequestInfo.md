@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IAppDataGoogleAppInfoTaskPostRequestInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IAppDataGoogleAppInfoTaskPostRequestInfo
 
 # Interface: IAppDataGoogleAppInfoTaskPostRequestInfo
 
@@ -41,7 +41,7 @@ the id is org.telegram.messenger
 
 #### Defined in
 
-main.ts:179507
+[main.ts:179387](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L179387)
 
 ___
 
@@ -58,7 +58,7 @@ en
 
 #### Defined in
 
-main.ts:179535
+[main.ts:179415](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L179415)
 
 ___
 
@@ -75,7 +75,7 @@ English
 
 #### Defined in
 
-main.ts:179528
+[main.ts:179408](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L179408)
 
 ___
 
@@ -92,7 +92,7 @@ example:
 
 #### Defined in
 
-main.ts:179521
+[main.ts:179401](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L179401)
 
 ___
 
@@ -109,7 +109,7 @@ West Los Angeles,California,United States
 
 #### Defined in
 
-main.ts:179514
+[main.ts:179394](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L179394)
 
 ___
 
@@ -129,7 +129,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-main.ts:179575
+[main.ts:179455](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L179455)
 
 ___
 
@@ -145,7 +145,7 @@ advanced, html
 
 #### Defined in
 
-main.ts:179565
+[main.ts:179445](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L179445)
 
 ___
 
@@ -165,7 +165,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-main.ts:179559
+[main.ts:179439](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L179439)
 
 ___
 
@@ -183,7 +183,7 @@ The cost can be calculated on the Pricing page.
 
 #### Defined in
 
-main.ts:179543
+[main.ts:179423](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L179423)
 
 ___
 
@@ -199,4 +199,4 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:179549
+[main.ts:179429](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L179429)

@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / ITopicInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / ITopicInfo
 
 # Interface: ITopicInfo
 
@@ -32,7 +32,7 @@ content author name
 
 #### Defined in
 
-main.ts:152322
+[main.ts:152178](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L152178)
 
 ___
 
@@ -44,7 +44,7 @@ meta title
 
 #### Defined in
 
-main.ts:152318
+[main.ts:152174](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L152174)
 
 ___
 
@@ -56,7 +56,7 @@ content language
 
 #### Defined in
 
-main.ts:152324
+[main.ts:152180](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L152180)
 
 ___
 
@@ -68,7 +68,7 @@ HTML level
 
 #### Defined in
 
-main.ts:152326
+[main.ts:152182](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L152182)
 
 ___
 
@@ -80,7 +80,7 @@ main title of the block
 
 #### Defined in
 
-main.ts:152320
+[main.ts:152176](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L152176)
 
 ___
 
@@ -93,7 +93,7 @@ you can find more information about content priority calculation in this help ce
 
 #### Defined in
 
-main.ts:152329
+[main.ts:152185](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L152185)
 
 ___
 
@@ -106,4 +106,4 @@ you can find more information about content priority calculation in this help ce
 
 #### Defined in
 
-main.ts:152332
+[main.ts:152188](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L152188)

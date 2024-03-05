@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / CrawlStatusInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / CrawlStatusInfo
 
 # Class: CrawlStatusInfo
 
@@ -46,7 +46,7 @@
 
 #### Defined in
 
-main.ts:20928
+[main.ts:20928](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L20928)
 
 ## Properties
 
@@ -63,7 +63,7 @@ indicates the max_crawl_pages limit you specified when setting a task
 
 #### Defined in
 
-main.ts:20920
+[main.ts:20920](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L20920)
 
 ___
 
@@ -79,7 +79,7 @@ number of crawled pages
 
 #### Defined in
 
-main.ts:20924
+[main.ts:20924](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L20924)
 
 ___
 
@@ -95,7 +95,7 @@ number of pages that are currently in the crawling queue
 
 #### Defined in
 
-main.ts:20922
+[main.ts:20922](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L20922)
 
 ## Methods
 
@@ -115,7 +115,7 @@ main.ts:20922
 
 #### Defined in
 
-main.ts:20937
+[main.ts:20937](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L20937)
 
 ___
 
@@ -135,7 +135,7 @@ ___
 
 #### Defined in
 
-main.ts:20956
+[main.ts:20956](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L20956)
 
 ___
 
@@ -155,4 +155,4 @@ ___
 
 #### Defined in
 
-main.ts:20949
+[main.ts:20949](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L20949)

@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / SerpGoogleJobsTaskPostRequestInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / SerpGoogleJobsTaskPostRequestInfo
 
 # Class: SerpGoogleJobsTaskPostRequestInfo
 
@@ -57,7 +57,7 @@
 
 #### Defined in
 
-main.ts:48536
+[main.ts:48394](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L48394)
 
 ## Properties
 
@@ -80,7 +80,7 @@ month — return job vacancies posted no longer than a month ago
 
 #### Defined in
 
-main.ts:48500
+[main.ts:48358](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L48358)
 
 ___
 
@@ -103,7 +103,7 @@ if the specified depth is higher than the number of results in the response, the
 
 #### Defined in
 
-main.ts:48485
+[main.ts:48343](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L48343)
 
 ___
 
@@ -123,7 +123,7 @@ fulltime, partime, contractor, intern
 
 #### Defined in
 
-main.ts:48491
+[main.ts:48349](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L48349)
 
 ___
 
@@ -146,7 +146,7 @@ example: .net developer
 
 #### Defined in
 
-main.ts:48433
+[main.ts:48291](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L48291)
 
 ___
 
@@ -167,7 +167,7 @@ en
 
 #### Defined in
 
-main.ts:48476
+[main.ts:48334](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L48334)
 
 ___
 
@@ -188,7 +188,7 @@ English
 
 #### Defined in
 
-main.ts:48469
+[main.ts:48327](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L48327)
 
 ___
 
@@ -208,7 +208,7 @@ example:
 
 #### Defined in
 
-main.ts:48454
+[main.ts:48312](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L48312)
 
 ___
 
@@ -229,7 +229,7 @@ London,England,United Kingdom
 
 #### Defined in
 
-main.ts:48448
+[main.ts:48306](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L48306)
 
 ___
 
@@ -251,7 +251,7 @@ minimal value: > 0
 
 #### Defined in
 
-main.ts:48462
+[main.ts:48320](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L48320)
 
 ___
 
@@ -275,7 +275,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-main.ts:48532
+[main.ts:48390](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L48390)
 
 ___
 
@@ -295,7 +295,7 @@ regular, advanced, html
 
 #### Defined in
 
-main.ts:48522
+[main.ts:48380](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L48380)
 
 ___
 
@@ -319,7 +319,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-main.ts:48516
+[main.ts:48374](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L48374)
 
 ___
 
@@ -341,7 +341,7 @@ The cost can be calculated on the Pricing page
 
 #### Defined in
 
-main.ts:48441
+[main.ts:48299](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L48299)
 
 ___
 
@@ -361,7 +361,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:48506
+[main.ts:48364](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L48364)
 
 ## Methods
 
@@ -381,7 +381,7 @@ main.ts:48506
 
 #### Defined in
 
-main.ts:48545
+[main.ts:48403](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L48403)
 
 ___
 
@@ -401,7 +401,7 @@ ___
 
 #### Defined in
 
-main.ts:48579
+[main.ts:48437](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L48437)
 
 ___
 
@@ -421,4 +421,4 @@ ___
 
 #### Defined in
 
-main.ts:48572
+[main.ts:48430](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L48430)

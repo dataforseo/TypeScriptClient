@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / DataforseoLabsBingSerpCompetitorsLiveRequestInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / DataforseoLabsBingSerpCompetitorsLiveRequestInfo
 
 # Class: DataforseoLabsBingSerpCompetitorsLiveRequestInfo
 
@@ -55,7 +55,7 @@
 
 #### Defined in
 
-main.ts:107000
+[main.ts:106856](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L106856)
 
 ## Properties
 
@@ -84,7 +84,7 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 #### Defined in
 
-main.ts:106974
+[main.ts:106830](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L106830)
 
 ___
 
@@ -103,7 +103,7 @@ default value: true
 
 #### Defined in
 
-main.ts:106941
+[main.ts:106797](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L106797)
 
 ___
 
@@ -125,7 +125,7 @@ default value:
 
 #### Defined in
 
-main.ts:106949
+[main.ts:106805](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L106805)
 
 ___
 
@@ -147,7 +147,7 @@ you can specify the maximum of 200 keywords
 
 #### Defined in
 
-main.ts:106902
+[main.ts:106758](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L106758)
 
 ___
 
@@ -169,7 +169,7 @@ en
 
 #### Defined in
 
-main.ts:106936
+[main.ts:106792](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L106792)
 
 ___
 
@@ -191,7 +191,7 @@ English
 
 #### Defined in
 
-main.ts:106928
+[main.ts:106784](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L106784)
 
 ___
 
@@ -210,7 +210,7 @@ maximum value: 1000
 
 #### Defined in
 
-main.ts:106954
+[main.ts:106810](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L106810)
 
 ___
 
@@ -233,7 +233,7 @@ example:
 
 #### Defined in
 
-main.ts:106920
+[main.ts:106776](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L106776)
 
 ___
 
@@ -256,7 +256,7 @@ United States
 
 #### Defined in
 
-main.ts:106911
+[main.ts:106767](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L106767)
 
 ___
 
@@ -275,7 +275,7 @@ if you specify the 10 value, the first ten domains in the results array will be 
 
 #### Defined in
 
-main.ts:106959
+[main.ts:106815](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L106815)
 
 ___
 
@@ -305,7 +305,7 @@ example:
 
 #### Defined in
 
-main.ts:106990
+[main.ts:106846](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L106846)
 
 ___
 
@@ -325,7 +325,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:106996
+[main.ts:106852](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L106852)
 
 ## Methods
 
@@ -345,7 +345,7 @@ main.ts:106996
 
 #### Defined in
 
-main.ts:107009
+[main.ts:106865](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L106865)
 
 ___
 
@@ -365,7 +365,7 @@ ___
 
 #### Defined in
 
-main.ts:107053
+[main.ts:106909](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L106909)
 
 ___
 
@@ -385,4 +385,4 @@ ___
 
 #### Defined in
 
-main.ts:107046
+[main.ts:106902](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L106902)

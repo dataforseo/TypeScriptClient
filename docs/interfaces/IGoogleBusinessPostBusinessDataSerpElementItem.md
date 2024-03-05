@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IGoogleBusinessPostBusinessDataSerpElementItem
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IGoogleBusinessPostBusinessDataSerpElementItem
 
 # Interface: IGoogleBusinessPostBusinessDataSerpElementItem
 
@@ -43,7 +43,7 @@ author of the post
 
 #### Defined in
 
-main.ts:192581
+[main.ts:192461](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L192461)
 
 ___
 
@@ -55,7 +55,7 @@ url of an image included in the post
 
 #### Defined in
 
-main.ts:192589
+[main.ts:192469](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L192469)
 
 ___
 
@@ -67,7 +67,7 @@ links included in the post
 
 #### Defined in
 
-main.ts:192600
+[main.ts:192480](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L192480)
 
 ___
 
@@ -80,7 +80,7 @@ can take the following values: right
 
 #### Defined in
 
-main.ts:192577
+[main.ts:192457](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L192457)
 
 ___
 
@@ -94,7 +94,7 @@ in the following format:
 
 #### Defined in
 
-main.ts:192593
+[main.ts:192473](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L192473)
 
 ___
 
@@ -106,7 +106,7 @@ main content of a post
 
 #### Defined in
 
-main.ts:192585
+[main.ts:192465](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L192465)
 
 ___
 
@@ -119,7 +119,7 @@ absolute position among all present elements
 
 #### Defined in
 
-main.ts:192574
+[main.ts:192454](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L192454)
 
 ___
 
@@ -132,7 +132,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-main.ts:192571
+[main.ts:192451](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L192451)
 
 ___
 
@@ -144,7 +144,7 @@ additional content of a post
 
 #### Defined in
 
-main.ts:192583
+[main.ts:192463](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L192463)
 
 ___
 
@@ -159,7 +159,7 @@ example:
 
 #### Defined in
 
-main.ts:192598
+[main.ts:192478](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L192478)
 
 ___
 
@@ -171,7 +171,7 @@ url of a post
 
 #### Defined in
 
-main.ts:192587
+[main.ts:192467](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L192467)
 
 ___
 
@@ -183,4 +183,4 @@ the XPath of the element
 
 #### Defined in
 
-main.ts:192579
+[main.ts:192459](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L192459)

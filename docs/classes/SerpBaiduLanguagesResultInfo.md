@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / SerpBaiduLanguagesResultInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / SerpBaiduLanguagesResultInfo
 
 # Class: SerpBaiduLanguagesResultInfo
 
@@ -45,7 +45,7 @@
 
 #### Defined in
 
-main.ts:65732
+[main.ts:65588](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L65588)
 
 ## Properties
 
@@ -61,7 +61,7 @@ language code according to ISO 639-1
 
 #### Defined in
 
-main.ts:65728
+[main.ts:65584](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L65584)
 
 ___
 
@@ -77,7 +77,7 @@ language name
 
 #### Defined in
 
-main.ts:65726
+[main.ts:65582](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L65582)
 
 ## Methods
 
@@ -97,7 +97,7 @@ main.ts:65726
 
 #### Defined in
 
-main.ts:65741
+[main.ts:65597](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L65597)
 
 ___
 
@@ -117,7 +117,7 @@ ___
 
 #### Defined in
 
-main.ts:65759
+[main.ts:65615](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L65615)
 
 ___
 
@@ -137,4 +137,4 @@ ___
 
 #### Defined in
 
-main.ts:65752
+[main.ts:65608](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L65608)

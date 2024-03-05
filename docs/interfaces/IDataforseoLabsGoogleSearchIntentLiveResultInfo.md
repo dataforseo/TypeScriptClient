@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IDataforseoLabsGoogleSearchIntentLiveResultInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IDataforseoLabsGoogleSearchIntentLiveResultInfo
 
 # Interface: IDataforseoLabsGoogleSearchIntentLiveResultInfo
 
@@ -28,7 +28,7 @@ array of items with relevant traffic estimation data
 
 #### Defined in
 
-main.ts:83133
+[main.ts:82989](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L82989)
 
 ___
 
@@ -40,7 +40,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:83131
+[main.ts:82987](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L82987)
 
 ___
 
@@ -53,4 +53,4 @@ if there is no data, then the value is null
 
 #### Defined in
 
-main.ts:83129
+[main.ts:82985](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L82985)

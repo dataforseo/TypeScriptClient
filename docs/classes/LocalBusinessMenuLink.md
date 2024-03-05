@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / LocalBusinessMenuLink
+[dataforseo-client](../README.md) / [Exports](../modules.md) / LocalBusinessMenuLink
 
 # Class: LocalBusinessMenuLink
 
@@ -56,7 +56,7 @@
 
 #### Defined in
 
-main.ts:22593
+[main.ts:22451](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L22451)
 
 ## Properties
 
@@ -70,7 +70,7 @@ main.ts:22593
 
 #### Defined in
 
-main.ts:22349
+[main.ts:22207](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L22207)
 
 ___
 
@@ -87,7 +87,7 @@ domain of the online menu system
 
 #### Defined in
 
-main.ts:22587
+[main.ts:22445](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L22445)
 
 ___
 
@@ -103,7 +103,7 @@ URL to view the menu
 
 #### Defined in
 
-main.ts:22589
+[main.ts:22447](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L22447)
 
 ## Methods
 
@@ -127,7 +127,7 @@ main.ts:22589
 
 #### Defined in
 
-main.ts:22598
+[main.ts:22456](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L22456)
 
 ___
 
@@ -151,7 +151,7 @@ ___
 
 #### Defined in
 
-main.ts:22617
+[main.ts:22475](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L22475)
 
 ___
 
@@ -175,4 +175,4 @@ ___
 
 #### Defined in
 
-main.ts:22610
+[main.ts:22468](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L22468)

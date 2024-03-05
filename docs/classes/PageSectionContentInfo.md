@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / PageSectionContentInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / PageSectionContentInfo
 
 # Class: PageSectionContentInfo
 
@@ -45,7 +45,7 @@
 
 #### Defined in
 
-main.ts:152165
+[main.ts:152021](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L152021)
 
 ## Properties
 
@@ -62,7 +62,7 @@ you can find more information about content priority calculation in this help ce
 
 #### Defined in
 
-main.ts:152158
+[main.ts:152014](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L152014)
 
 ___
 
@@ -79,7 +79,7 @@ you can find more information about content priority calculation in this help ce
 
 #### Defined in
 
-main.ts:152161
+[main.ts:152017](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L152017)
 
 ## Methods
 
@@ -99,7 +99,7 @@ main.ts:152161
 
 #### Defined in
 
-main.ts:152174
+[main.ts:152030](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L152030)
 
 ___
 
@@ -119,7 +119,7 @@ ___
 
 #### Defined in
 
-main.ts:152200
+[main.ts:152056](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L152056)
 
 ___
 
@@ -139,4 +139,4 @@ ___
 
 #### Defined in
 
-main.ts:152193
+[main.ts:152049](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L152049)

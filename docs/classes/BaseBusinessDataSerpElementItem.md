@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / BaseBusinessDataSerpElementItem
+[dataforseo-client](../README.md) / [Exports](../modules.md) / BaseBusinessDataSerpElementItem
 
 # Class: BaseBusinessDataSerpElementItem
 
@@ -70,7 +70,7 @@
 
 #### Defined in
 
-main.ts:20078
+[main.ts:20078](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L20078)
 
 ## Properties
 
@@ -80,7 +80,7 @@ main.ts:20078
 
 #### Defined in
 
-main.ts:20076
+[main.ts:20076](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L20076)
 
 ## Methods
 
@@ -100,7 +100,7 @@ main.ts:20076
 
 #### Defined in
 
-main.ts:20088
+[main.ts:20088](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L20088)
 
 ___
 
@@ -120,7 +120,7 @@ ___
 
 #### Defined in
 
-main.ts:20159
+[main.ts:20159](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L20159)
 
 ___
 
@@ -140,4 +140,4 @@ ___
 
 #### Defined in
 
-main.ts:20097
+[main.ts:20097](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L20097)

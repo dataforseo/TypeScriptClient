@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / ILocalServicesElement
+[dataforseo-client](../README.md) / [Exports](../modules.md) / ILocalServicesElement
 
 # Interface: ILocalServicesElement
 
@@ -32,7 +32,7 @@ description of the results element in SERP
 
 #### Defined in
 
-main.ts:33800
+[main.ts:33658](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L33658)
 
 ___
 
@@ -44,7 +44,7 @@ domain where a link points
 
 #### Defined in
 
-main.ts:33798
+[main.ts:33656](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L33656)
 
 ___
 
@@ -56,7 +56,7 @@ URL of the image featured in the element
 
 #### Defined in
 
-main.ts:33805
+[main.ts:33663](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L33663)
 
 ___
 
@@ -69,7 +69,7 @@ the popularity rate based on reviews and displayed in SERP
 
 #### Defined in
 
-main.ts:33803
+[main.ts:33661](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L33661)
 
 ___
 
@@ -81,7 +81,7 @@ title of the row
 
 #### Defined in
 
-main.ts:33794
+[main.ts:33652](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L33652)
 
 ___
 
@@ -93,7 +93,7 @@ type of element
 
 #### Defined in
 
-main.ts:33792
+[main.ts:33650](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L33650)
 
 ___
 
@@ -105,4 +105,4 @@ URL
 
 #### Defined in
 
-main.ts:33796
+[main.ts:33654](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L33654)

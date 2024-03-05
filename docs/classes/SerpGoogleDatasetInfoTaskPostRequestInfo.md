@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / SerpGoogleDatasetInfoTaskPostRequestInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / SerpGoogleDatasetInfoTaskPostRequestInfo
 
 # Class: SerpGoogleDatasetInfoTaskPostRequestInfo
 
@@ -53,7 +53,7 @@
 
 #### Defined in
 
-main.ts:51992
+[main.ts:51850](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L51850)
 
 ## Properties
 
@@ -73,7 +73,7 @@ L2cvMTFqbl85ZHN6MQ==
 
 #### Defined in
 
-main.ts:51928
+[main.ts:51786](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L51786)
 
 ___
 
@@ -91,7 +91,7 @@ possible value: desktop
 
 #### Defined in
 
-main.ts:51952
+[main.ts:51810](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L51810)
 
 ___
 
@@ -111,7 +111,7 @@ en
 
 #### Defined in
 
-main.ts:51948
+[main.ts:51806](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L51806)
 
 ___
 
@@ -131,7 +131,7 @@ English
 
 #### Defined in
 
-main.ts:51942
+[main.ts:51800](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L51800)
 
 ___
 
@@ -150,7 +150,7 @@ default value: windows
 
 #### Defined in
 
-main.ts:51957
+[main.ts:51815](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L51815)
 
 ___
 
@@ -174,7 +174,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-main.ts:51988
+[main.ts:51846](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L51846)
 
 ___
 
@@ -193,7 +193,7 @@ possible value: advanced
 
 #### Defined in
 
-main.ts:51978
+[main.ts:51836](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L51836)
 
 ___
 
@@ -217,7 +217,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-main.ts:51973
+[main.ts:51831](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L51831)
 
 ___
 
@@ -239,7 +239,7 @@ The cost can be calculated on the Pricing page.
 
 #### Defined in
 
-main.ts:51936
+[main.ts:51794](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L51794)
 
 ___
 
@@ -259,7 +259,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:51963
+[main.ts:51821](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L51821)
 
 ## Methods
 
@@ -279,7 +279,7 @@ main.ts:51963
 
 #### Defined in
 
-main.ts:52001
+[main.ts:51859](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L51859)
 
 ___
 
@@ -299,7 +299,7 @@ ___
 
 #### Defined in
 
-main.ts:52027
+[main.ts:51885](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L51885)
 
 ___
 
@@ -319,4 +319,4 @@ ___
 
 #### Defined in
 
-main.ts:52020
+[main.ts:51878](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L51878)

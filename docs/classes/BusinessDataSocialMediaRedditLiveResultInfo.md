@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / BusinessDataSocialMediaRedditLiveResultInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / BusinessDataSocialMediaRedditLiveResultInfo
 
 # Class: BusinessDataSocialMediaRedditLiveResultInfo
 
@@ -46,7 +46,7 @@
 
 #### Defined in
 
-main.ts:206429
+[main.ts:206309](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L206309)
 
 ## Properties
 
@@ -63,7 +63,7 @@ corresponding URL you specified in the targets array when setting a task
 
 #### Defined in
 
-main.ts:206423
+[main.ts:206303](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L206303)
 
 ___
 
@@ -79,7 +79,7 @@ reddit reviews for the page_url
 
 #### Defined in
 
-main.ts:206425
+[main.ts:206305](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L206305)
 
 ___
 
@@ -95,7 +95,7 @@ type of element
 
 #### Defined in
 
-main.ts:206420
+[main.ts:206300](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L206300)
 
 ## Methods
 
@@ -115,7 +115,7 @@ main.ts:206420
 
 #### Defined in
 
-main.ts:206438
+[main.ts:206318](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L206318)
 
 ___
 
@@ -135,7 +135,7 @@ ___
 
 #### Defined in
 
-main.ts:206461
+[main.ts:206341](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L206341)
 
 ___
 
@@ -155,4 +155,4 @@ ___
 
 #### Defined in
 
-main.ts:206454
+[main.ts:206334](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L206334)

@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IAppDataGoogleAppListingsSearchLiveRequestInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IAppDataGoogleAppListingsSearchLiveRequestInfo
 
 # Interface: IAppDataGoogleAppListingsSearchLiveRequestInfo
 
@@ -38,7 +38,7 @@ you can specify up to 10 categories
 
 #### Defined in
 
-main.ts:182330
+[main.ts:182210](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L182210)
 
 ___
 
@@ -53,7 +53,7 @@ can contain up to 200 symbols
 
 #### Defined in
 
-main.ts:182335
+[main.ts:182215](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L182215)
 
 ___
 
@@ -74,7 +74,7 @@ you can receive the list of available filters by making a separate request to h
 
 #### Defined in
 
-main.ts:182351
+[main.ts:182231](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L182231)
 
 ___
 
@@ -89,7 +89,7 @@ maximum value: 1000
 
 #### Defined in
 
-main.ts:182370
+[main.ts:182250](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L182250)
 
 ___
 
@@ -104,7 +104,7 @@ if you specify the 10 value, the first ten entities in the results array will be
 
 #### Defined in
 
-main.ts:182375
+[main.ts:182255](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L182255)
 
 ___
 
@@ -122,7 +122,7 @@ Note: if the offset_token is specified in the request, all other parameters shou
 
 #### Defined in
 
-main.ts:182383
+[main.ts:182263](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L182263)
 
 ___
 
@@ -146,7 +146,7 @@ example:
 
 #### Defined in
 
-main.ts:182365
+[main.ts:182245](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L182245)
 
 ___
 
@@ -162,7 +162,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:182389
+[main.ts:182269](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L182269)
 
 ___
 
@@ -177,4 +177,4 @@ can contain up to 200 symbols
 
 #### Defined in
 
-main.ts:182340
+[main.ts:182220](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L182220)

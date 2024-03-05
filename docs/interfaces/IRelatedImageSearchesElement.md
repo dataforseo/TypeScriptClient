@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IRelatedImageSearchesElement
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IRelatedImageSearchesElement
 
 # Interface: IRelatedImageSearchesElement
 
@@ -30,7 +30,7 @@ alt tag of the image
 
 #### Defined in
 
-main.ts:28986
+[main.ts:28844](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L28844)
 
 ___
 
@@ -43,7 +43,7 @@ the URL leading to the image on the original resource or DataForSEO storage (in 
 
 #### Defined in
 
-main.ts:28991
+[main.ts:28849](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L28849)
 
 ___
 
@@ -55,7 +55,7 @@ title of the carousel item
 
 #### Defined in
 
-main.ts:28984
+[main.ts:28842](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L28842)
 
 ___
 
@@ -67,7 +67,7 @@ type of element
 
 #### Defined in
 
-main.ts:28982
+[main.ts:28840](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L28840)
 
 ___
 
@@ -79,4 +79,4 @@ source URL
 
 #### Defined in
 
-main.ts:28988
+[main.ts:28846](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L28846)

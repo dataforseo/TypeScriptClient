@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / ISerpBingOrganicTaskGetHtmlResultInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / ISerpBingOrganicTaskGetHtmlResultInfo
 
 # Interface: ISerpBingOrganicTaskGetHtmlResultInfo
 
@@ -36,7 +36,7 @@ example:
 
 #### Defined in
 
-main.ts:54971
+[main.ts:54829](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L54829)
 
 ___
 
@@ -48,7 +48,7 @@ elements of search results found in SERP
 
 #### Defined in
 
-main.ts:54975
+[main.ts:54833](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L54833)
 
 ___
 
@@ -60,7 +60,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:54973
+[main.ts:54831](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L54831)
 
 ___
 
@@ -73,7 +73,7 @@ keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a s
 
 #### Defined in
 
-main.ts:54958
+[main.ts:54816](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L54816)
 
 ___
 
@@ -85,7 +85,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:54966
+[main.ts:54824](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L54824)
 
 ___
 
@@ -97,7 +97,7 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:54964
+[main.ts:54822](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L54822)
 
 ___
 
@@ -109,7 +109,7 @@ search engine domain in a POST array
 
 #### Defined in
 
-main.ts:54962
+[main.ts:54820](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L54820)
 
 ___
 
@@ -121,4 +121,4 @@ type of element
 
 #### Defined in
 
-main.ts:54960
+[main.ts:54818](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L54818)

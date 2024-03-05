@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / LocalJustificationInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / LocalJustificationInfo
 
 # Class: LocalJustificationInfo
 
@@ -45,7 +45,7 @@
 
 #### Defined in
 
-main.ts:38508
+[main.ts:38366](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L38366)
 
 ## Properties
 
@@ -61,7 +61,7 @@ text snippet of local justification
 
 #### Defined in
 
-main.ts:38504
+[main.ts:38362](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L38362)
 
 ___
 
@@ -77,7 +77,7 @@ type of element
 
 #### Defined in
 
-main.ts:38502
+[main.ts:38360](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L38360)
 
 ## Methods
 
@@ -97,7 +97,7 @@ main.ts:38502
 
 #### Defined in
 
-main.ts:38517
+[main.ts:38375](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L38375)
 
 ___
 
@@ -117,7 +117,7 @@ ___
 
 #### Defined in
 
-main.ts:38535
+[main.ts:38393](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L38393)
 
 ___
 
@@ -137,4 +137,4 @@ ___
 
 #### Defined in
 
-main.ts:38528
+[main.ts:38386](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L38386)

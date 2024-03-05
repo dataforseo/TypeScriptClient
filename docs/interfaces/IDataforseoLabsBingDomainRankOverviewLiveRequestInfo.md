@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IDataforseoLabsBingDomainRankOverviewLiveRequestInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IDataforseoLabsBingDomainRankOverviewLiveRequestInfo
 
 # Interface: IDataforseoLabsBingDomainRankOverviewLiveRequestInfo
 
@@ -40,7 +40,7 @@ en
 
 #### Defined in
 
-main.ts:104223
+[main.ts:104079](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L104079)
 
 ___
 
@@ -59,7 +59,7 @@ English
 
 #### Defined in
 
-main.ts:104214
+[main.ts:104070](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L104070)
 
 ___
 
@@ -74,7 +74,7 @@ maximum value: 1000
 
 #### Defined in
 
-main.ts:104228
+[main.ts:104084](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L104084)
 
 ___
 
@@ -94,7 +94,7 @@ example:
 
 #### Defined in
 
-main.ts:104205
+[main.ts:104061](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L104061)
 
 ___
 
@@ -114,7 +114,7 @@ United States
 
 #### Defined in
 
-main.ts:104195
+[main.ts:104051](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L104051)
 
 ___
 
@@ -129,7 +129,7 @@ if you specify the 10 value, the first ten items in the results array will be om
 
 #### Defined in
 
-main.ts:104233
+[main.ts:104089](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L104089)
 
 ___
 
@@ -145,7 +145,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:104239
+[main.ts:104095](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L104095)
 
 ___
 
@@ -160,4 +160,4 @@ the domain should be specified without https:// and www.
 
 #### Defined in
 
-main.ts:104185
+[main.ts:104041](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L104041)

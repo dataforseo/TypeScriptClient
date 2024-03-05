@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IHotelsPackElement
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IHotelsPackElement
 
 # Interface: IHotelsPackElement
 
@@ -34,7 +34,7 @@ description of the results element in SERP
 
 #### Defined in
 
-main.ts:33210
+[main.ts:33068](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L33068)
 
 ___
 
@@ -46,7 +46,7 @@ domain where a link points
 
 #### Defined in
 
-main.ts:33216
+[main.ts:33074](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L33074)
 
 ___
 
@@ -60,7 +60,7 @@ example: "CgoIjaeSlI6CnNpVEAE"
 
 #### Defined in
 
-main.ts:33214
+[main.ts:33072](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L33072)
 
 ___
 
@@ -72,7 +72,7 @@ indicates whether the element is an ad
 
 #### Defined in
 
-main.ts:33220
+[main.ts:33078](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L33078)
 
 ___
 
@@ -84,7 +84,7 @@ price of booking a place for the specified dates of stay
 
 #### Defined in
 
-main.ts:33206
+[main.ts:33064](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L33064)
 
 ___
 
@@ -97,7 +97,7 @@ the popularity rate based on reviews and displayed in SERP
 
 #### Defined in
 
-main.ts:33223
+[main.ts:33081](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L33081)
 
 ___
 
@@ -109,7 +109,7 @@ title of the row
 
 #### Defined in
 
-main.ts:33208
+[main.ts:33066](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L33066)
 
 ___
 
@@ -121,7 +121,7 @@ type of element
 
 #### Defined in
 
-main.ts:33204
+[main.ts:33062](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L33062)
 
 ___
 
@@ -133,4 +133,4 @@ URL
 
 #### Defined in
 
-main.ts:33218
+[main.ts:33076](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L33076)

@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IMerchantAmazonProductsTaskGetHtmlResultInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IMerchantAmazonProductsTaskGetHtmlResultInfo
 
 # Interface: IMerchantAmazonProductsTaskGetHtmlResultInfo
 
@@ -36,7 +36,7 @@ example:
 
 #### Defined in
 
-main.ts:171767
+[main.ts:171647](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L171647)
 
 ___
 
@@ -48,7 +48,7 @@ HTML pages and related data
 
 #### Defined in
 
-main.ts:171771
+[main.ts:171651](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L171651)
 
 ___
 
@@ -60,7 +60,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:171769
+[main.ts:171649](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L171649)
 
 ___
 
@@ -73,7 +73,7 @@ keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a s
 
 #### Defined in
 
-main.ts:171754
+[main.ts:171634](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L171634)
 
 ___
 
@@ -85,7 +85,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:171762
+[main.ts:171642](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L171642)
 
 ___
 
@@ -97,7 +97,7 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:171760
+[main.ts:171640](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L171640)
 
 ___
 
@@ -109,7 +109,7 @@ search engine domain in a POST array
 
 #### Defined in
 
-main.ts:171758
+[main.ts:171638](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L171638)
 
 ___
 
@@ -121,4 +121,4 @@ type of element
 
 #### Defined in
 
-main.ts:171756
+[main.ts:171636](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L171636)

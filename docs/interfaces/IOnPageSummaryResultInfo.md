@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IOnPageSummaryResultInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IOnPageSummaryResultInfo
 
 # Interface: IOnPageSummaryResultInfo
 
@@ -33,7 +33,7 @@ you can find the full list of IPs used by our crawler in the Overview section
 
 #### Defined in
 
-main.ts:143894
+[main.ts:143750](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L143750)
 
 ___
 
@@ -46,7 +46,7 @@ possible values: in_progress, finished
 
 #### Defined in
 
-main.ts:143888
+[main.ts:143744](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L143744)
 
 ___
 
@@ -58,7 +58,7 @@ details of the crawling session
 
 #### Defined in
 
-main.ts:143890
+[main.ts:143746](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L143746)
 
 ___
 
@@ -76,7 +76,7 @@ unexpected_exception – an internal error was encountered while crawling the ta
 
 #### Defined in
 
-main.ts:143902
+[main.ts:143758](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L143758)
 
 ___
 
@@ -89,7 +89,7 @@ on-page information about the target domain and crawling process
 
 #### Defined in
 
-main.ts:143905
+[main.ts:143761](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L143761)
 
 ___
 
@@ -102,4 +102,4 @@ metrics information on the target website pages
 
 #### Defined in
 
-main.ts:143908
+[main.ts:143764](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L143764)

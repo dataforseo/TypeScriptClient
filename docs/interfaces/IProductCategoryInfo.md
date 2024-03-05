@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IProductCategoryInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IProductCategoryInfo
 
 # Interface: IProductCategoryInfo
 
@@ -27,7 +27,7 @@ product category name
 
 #### Defined in
 
-main.ts:172546
+[main.ts:172426](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L172426)
 
 ___
 
@@ -40,4 +40,4 @@ indicates the browse path on Amazon with the unique browse node ID (product cate
 
 #### Defined in
 
-main.ts:172549
+[main.ts:172429](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L172429)

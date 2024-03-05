@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IGooglePostsDataforseoLabsSerpElementItem
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IGooglePostsDataforseoLabsSerpElementItem
 
 # Interface: IGooglePostsDataforseoLabsSerpElementItem
 
@@ -38,7 +38,7 @@ google-defined client id
 
 #### Defined in
 
-main.ts:94590
+[main.ts:94446](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L94446)
 
 ___
 
@@ -50,7 +50,7 @@ the additional feature of the review
 
 #### Defined in
 
-main.ts:94588
+[main.ts:94444](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L94444)
 
 ___
 
@@ -64,7 +64,7 @@ left, right
 
 #### Defined in
 
-main.ts:94582
+[main.ts:94438](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L94438)
 
 ___
 
@@ -76,7 +76,7 @@ the identifier of the google_posts feature
 
 #### Defined in
 
-main.ts:94586
+[main.ts:94442](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L94442)
 
 ___
 
@@ -89,7 +89,7 @@ absolute position among all the elements in SERP
 
 #### Defined in
 
-main.ts:94578
+[main.ts:94434](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L94434)
 
 ___
 
@@ -102,7 +102,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-main.ts:94575
+[main.ts:94431](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L94431)
 
 ___
 
@@ -114,4 +114,4 @@ the XPath of the element
 
 #### Defined in
 
-main.ts:94584
+[main.ts:94440](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L94440)

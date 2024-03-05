@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IFoundOnWebElement
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IFoundOnWebElement
 
 # Interface: IFoundOnWebElement
 
@@ -29,7 +29,7 @@ image of the element
 
 #### Defined in
 
-main.ts:34913
+[main.ts:34771](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L34771)
 
 ___
 
@@ -41,7 +41,7 @@ subtitle of the element
 
 #### Defined in
 
-main.ts:34911
+[main.ts:34769](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L34769)
 
 ___
 
@@ -53,7 +53,7 @@ title of the row
 
 #### Defined in
 
-main.ts:34909
+[main.ts:34767](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L34767)
 
 ___
 
@@ -65,4 +65,4 @@ type of element
 
 #### Defined in
 
-main.ts:34907
+[main.ts:34765](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L34765)

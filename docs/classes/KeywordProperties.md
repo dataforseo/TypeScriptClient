@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / KeywordProperties
+[dataforseo-client](../README.md) / [Exports](../modules.md) / KeywordProperties
 
 # Class: KeywordProperties
 
@@ -49,7 +49,7 @@
 
 #### Defined in
 
-main.ts:79183
+[main.ts:79039](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L79039)
 
 ## Properties
 
@@ -67,7 +67,7 @@ if the value is null, our database does not contain any keywords the correspondi
 
 #### Defined in
 
-main.ts:79162
+[main.ts:79018](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L79018)
 
 ___
 
@@ -84,7 +84,7 @@ indicates the language of the keyword as identified by our system
 
 #### Defined in
 
-main.ts:79176
+[main.ts:79032](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L79032)
 
 ___
 
@@ -101,7 +101,7 @@ if true, the language set in the request does not match the language determined 
 
 #### Defined in
 
-main.ts:79179
+[main.ts:79035](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L79035)
 
 ___
 
@@ -120,7 +120,7 @@ learn more about the metric in this help center guide
 
 #### Defined in
 
-main.ts:79173
+[main.ts:79029](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L79029)
 
 ___
 
@@ -136,7 +136,7 @@ search engine type
 
 #### Defined in
 
-main.ts:79158
+[main.ts:79014](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L79014)
 
 ___
 
@@ -156,7 +156,7 @@ if the value is null, our database does not contain any keywords the correspondi
 
 #### Defined in
 
-main.ts:79168
+[main.ts:79024](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L79024)
 
 ## Methods
 
@@ -176,7 +176,7 @@ main.ts:79168
 
 #### Defined in
 
-main.ts:79192
+[main.ts:79048](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L79048)
 
 ___
 
@@ -196,7 +196,7 @@ ___
 
 #### Defined in
 
-main.ts:79214
+[main.ts:79070](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L79070)
 
 ___
 
@@ -216,4 +216,4 @@ ___
 
 #### Defined in
 
-main.ts:79207
+[main.ts:79063](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L79063)

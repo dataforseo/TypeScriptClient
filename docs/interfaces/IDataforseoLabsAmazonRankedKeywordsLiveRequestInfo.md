@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IDataforseoLabsAmazonRankedKeywordsLiveRequestInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IDataforseoLabsAmazonRankedKeywordsLiveRequestInfo
 
 # Interface: IDataforseoLabsAmazonRankedKeywordsLiveRequestInfo
 
@@ -39,7 +39,7 @@ you can receive the asin parameter by making a separate request to the Amazon Pr
 
 #### Defined in
 
-main.ts:99881
+[main.ts:99737](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L99737)
 
 ___
 
@@ -60,7 +60,7 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 #### Defined in
 
-main.ts:99932
+[main.ts:99788](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L99788)
 
 ___
 
@@ -75,7 +75,7 @@ default value: false
 
 #### Defined in
 
-main.ts:99921
+[main.ts:99777](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L99777)
 
 ___
 
@@ -92,7 +92,7 @@ en
 
 #### Defined in
 
-main.ts:99911
+[main.ts:99767](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L99767)
 
 ___
 
@@ -109,7 +109,7 @@ English
 
 #### Defined in
 
-main.ts:99904
+[main.ts:99760](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L99760)
 
 ___
 
@@ -124,7 +124,7 @@ maximum value: 1000
 
 #### Defined in
 
-main.ts:99916
+[main.ts:99772](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L99772)
 
 ___
 
@@ -142,7 +142,7 @@ example:
 
 #### Defined in
 
-main.ts:99897
+[main.ts:99753](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L99753)
 
 ___
 
@@ -160,7 +160,7 @@ United States
 
 #### Defined in
 
-main.ts:99889
+[main.ts:99745](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L99745)
 
 ___
 
@@ -175,7 +175,7 @@ if you specify the 10 value, the first ten keywords in the results array will be
 
 #### Defined in
 
-main.ts:99953
+[main.ts:99809](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L99809)
 
 ___
 
@@ -201,7 +201,7 @@ example:
 
 #### Defined in
 
-main.ts:99948
+[main.ts:99804](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L99804)
 
 ___
 
@@ -217,4 +217,4 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:99959
+[main.ts:99815](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L99815)

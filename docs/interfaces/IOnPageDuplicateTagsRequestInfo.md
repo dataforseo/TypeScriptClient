@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IOnPageDuplicateTagsRequestInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IOnPageDuplicateTagsRequestInfo
 
 # Interface: IOnPageDuplicateTagsRequestInfo
 
@@ -33,7 +33,7 @@ specify a title or description here if you want to receive a list of duplicate p
 
 #### Defined in
 
-main.ts:147278
+[main.ts:147134](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L147134)
 
 ___
 
@@ -49,7 +49,7 @@ example:
 
 #### Defined in
 
-main.ts:147272
+[main.ts:147128](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L147128)
 
 ___
 
@@ -64,7 +64,7 @@ maximum value: 1000
 
 #### Defined in
 
-main.ts:147283
+[main.ts:147139](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L147139)
 
 ___
 
@@ -79,7 +79,7 @@ if you specify the 10 value, the first ten pages in the results array will be om
 
 #### Defined in
 
-main.ts:147288
+[main.ts:147144](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L147144)
 
 ___
 
@@ -95,7 +95,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:147294
+[main.ts:147150](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L147150)
 
 ___
 
@@ -107,4 +107,4 @@ type of element
 
 #### Defined in
 
-main.ts:147274
+[main.ts:147130](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L147130)

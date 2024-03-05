@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / ISocialMetricsInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / ISocialMetricsInfo
 
 # Interface: ISocialMetricsInfo
 
@@ -27,7 +27,7 @@ likes count
 
 #### Defined in
 
-main.ts:21594
+[main.ts:21594](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L21594)
 
 ___
 
@@ -39,4 +39,4 @@ type of element
 
 #### Defined in
 
-main.ts:21592
+[main.ts:21592](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L21592)

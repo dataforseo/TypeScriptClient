@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / AnalysisContentInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / AnalysisContentInfo
 
 # Class: AnalysisContentInfo
 
@@ -62,7 +62,7 @@
 
 #### Defined in
 
-main.ts:156608
+[main.ts:156464](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L156464)
 
 ## Properties
 
@@ -78,17 +78,21 @@ author of the content
 
 #### Defined in
 
-main.ts:156558
+[main.ts:156414](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L156414)
 
 ___
 
 ### connotation\_types
 
-• `Optional` **connotation\_types**: [`ConnotationTypeInfo`](ConnotationTypeInfo.md)
+• `Optional` **connotation\_types**: `Object`
 
 connotation types
 contains types of sentiments (sentiment polarity) related to the given citation and probability index per each sentiment type
 possible sentiment connotation types: positive, negative, neutral
+
+#### Index signature
+
+▪ [key: `string`]: `number`
 
 #### Implementation of
 
@@ -96,7 +100,7 @@ possible sentiment connotation types: positive, negative, neutral
 
 #### Defined in
 
-main.ts:156578
+[main.ts:156434](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L156434)
 
 ___
 
@@ -113,7 +117,7 @@ this value is calculated based on the number of words, sentences and characters 
 
 #### Defined in
 
-main.ts:156589
+[main.ts:156445](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L156445)
 
 ___
 
@@ -131,7 +135,7 @@ page_content, comment
 
 #### Defined in
 
-main.ts:156547
+[main.ts:156403](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L156403)
 
 ___
 
@@ -150,7 +154,7 @@ example:
 
 #### Defined in
 
-main.ts:156586
+[main.ts:156442](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L156442)
 
 ___
 
@@ -171,7 +175,7 @@ example:
 
 #### Defined in
 
-main.ts:156604
+[main.ts:156460](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L156460)
 
 ___
 
@@ -187,7 +191,7 @@ highlighted text from the snippet
 
 #### Defined in
 
-main.ts:156567
+[main.ts:156423](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L156423)
 
 ___
 
@@ -204,7 +208,7 @@ to obtain a full list of available languages, refer to the Languages endpoint
 
 #### Defined in
 
-main.ts:156570
+[main.ts:156426](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L156426)
 
 ___
 
@@ -221,7 +225,7 @@ indicates h-tag level from 1 (top) to 6 (bottom)
 
 #### Defined in
 
-main.ts:156556
+[main.ts:156412](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L156412)
 
 ___
 
@@ -237,7 +241,7 @@ page title
 
 #### Defined in
 
-main.ts:156551
+[main.ts:156407](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L156407)
 
 ___
 
@@ -253,7 +257,7 @@ title of the previous content block
 
 #### Defined in
 
-main.ts:156553
+[main.ts:156409](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L156409)
 
 ___
 
@@ -270,7 +274,7 @@ rating related to content_info
 
 #### Defined in
 
-main.ts:156597
+[main.ts:156453](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L156453)
 
 ___
 
@@ -289,17 +293,21 @@ article, header
 
 #### Defined in
 
-main.ts:156594
+[main.ts:156450](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L156450)
 
 ___
 
 ### sentiment\_connotations
 
-• `Optional` **sentiment\_connotations**: [`SentimentConnotationInfo`](SentimentConnotationInfo.md)
+• `Optional` **sentiment\_connotations**: `Object`
 
 sentiment connotations
 contains sentiments (emotional reactions) related to the given citation and probability index per each sentiment
 possible sentiment connotations: anger, happiness, love, sadness, share, fun
+
+#### Index signature
+
+▪ [key: `string`]: `number`
 
 #### Implementation of
 
@@ -307,7 +315,7 @@ possible sentiment connotations: anger, happiness, love, sadness, share, fun
 
 #### Defined in
 
-main.ts:156574
+[main.ts:156430](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L156430)
 
 ___
 
@@ -323,7 +331,7 @@ content snippet
 
 #### Defined in
 
-main.ts:156560
+[main.ts:156416](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L156416)
 
 ___
 
@@ -339,7 +347,7 @@ character length of the snippet
 
 #### Defined in
 
-main.ts:156562
+[main.ts:156418](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L156418)
 
 ___
 
@@ -356,7 +364,7 @@ data on social media interactions associated with the content based on website e
 
 #### Defined in
 
-main.ts:156565
+[main.ts:156421](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L156421)
 
 ___
 
@@ -373,7 +381,7 @@ to obtain a full list of available categories, refer to the Categories endpoint
 
 #### Defined in
 
-main.ts:156581
+[main.ts:156437](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L156437)
 
 ___
 
@@ -389,7 +397,7 @@ title of the result
 
 #### Defined in
 
-main.ts:156549
+[main.ts:156405](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L156405)
 
 ## Methods
 
@@ -409,7 +417,7 @@ main.ts:156549
 
 #### Defined in
 
-main.ts:156617
+[main.ts:156473](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L156473)
 
 ___
 
@@ -429,7 +437,7 @@ ___
 
 #### Defined in
 
-main.ts:156660
+[main.ts:156528](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L156528)
 
 ___
 
@@ -449,4 +457,4 @@ ___
 
 #### Defined in
 
-main.ts:156653
+[main.ts:156521](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L156521)

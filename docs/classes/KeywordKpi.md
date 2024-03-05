@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / KeywordKpi
+[dataforseo-client](../README.md) / [Exports](../modules.md) / KeywordKpi
 
 # Class: KeywordKpi
 
@@ -46,7 +46,7 @@
 
 #### Defined in
 
-main.ts:127404
+[main.ts:127260](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L127260)
 
 ## Properties
 
@@ -63,7 +63,7 @@ if there is no data, then the value is null
 
 #### Defined in
 
-main.ts:127394
+[main.ts:127250](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L127250)
 
 ___
 
@@ -80,7 +80,7 @@ if there is no data, then the value is null
 
 #### Defined in
 
-main.ts:127397
+[main.ts:127253](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L127253)
 
 ___
 
@@ -97,7 +97,7 @@ if there is no data, then the value is null
 
 #### Defined in
 
-main.ts:127400
+[main.ts:127256](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L127256)
 
 ## Methods
 
@@ -117,7 +117,7 @@ main.ts:127400
 
 #### Defined in
 
-main.ts:127413
+[main.ts:127269](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L127269)
 
 ___
 
@@ -137,7 +137,7 @@ ___
 
 #### Defined in
 
-main.ts:127444
+[main.ts:127300](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L127300)
 
 ___
 
@@ -157,4 +157,4 @@ ___
 
 #### Defined in
 
-main.ts:127437
+[main.ts:127293](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L127293)

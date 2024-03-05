@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / DomainAnalyticsTechnologiesAggregationTechnologiesLiveItem
+[dataforseo-client](../README.md) / [Exports](../modules.md) / DomainAnalyticsTechnologiesAggregationTechnologiesLiveItem
 
 # Class: DomainAnalyticsTechnologiesAggregationTechnologiesLiveItem
 
@@ -52,7 +52,7 @@ items array
 
 #### Defined in
 
-main.ts:72888
+[main.ts:72744](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L72744)
 
 ## Properties
 
@@ -69,7 +69,7 @@ number of domains that match the parameters you specified and are using technolo
 
 #### Defined in
 
-main.ts:72881
+[main.ts:72737](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L72737)
 
 ___
 
@@ -85,7 +85,7 @@ technology category id
 
 #### Defined in
 
-main.ts:72873
+[main.ts:72729](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L72729)
 
 ___
 
@@ -101,7 +101,7 @@ technology group id
 
 #### Defined in
 
-main.ts:72871
+[main.ts:72727](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L72727)
 
 ___
 
@@ -118,7 +118,7 @@ number of domains that match the parameters you specified and are using technolo
 
 #### Defined in
 
-main.ts:72878
+[main.ts:72734](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L72734)
 
 ___
 
@@ -135,7 +135,7 @@ number of domains that match the parameters you specified and are using the indi
 
 #### Defined in
 
-main.ts:72884
+[main.ts:72740](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L72740)
 
 ___
 
@@ -151,7 +151,7 @@ technology name
 
 #### Defined in
 
-main.ts:72875
+[main.ts:72731](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L72731)
 
 ___
 
@@ -167,7 +167,7 @@ type of element
 
 #### Defined in
 
-main.ts:72869
+[main.ts:72725](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L72725)
 
 ## Methods
 
@@ -187,7 +187,7 @@ main.ts:72869
 
 #### Defined in
 
-main.ts:72897
+[main.ts:72753](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L72753)
 
 ___
 
@@ -207,7 +207,7 @@ ___
 
 #### Defined in
 
-main.ts:72920
+[main.ts:72776](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L72776)
 
 ___
 
@@ -227,4 +227,4 @@ ___
 
 #### Defined in
 
-main.ts:72913
+[main.ts:72769](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L72769)

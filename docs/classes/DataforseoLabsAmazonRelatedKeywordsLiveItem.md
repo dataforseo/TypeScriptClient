@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / DataforseoLabsAmazonRelatedKeywordsLiveItem
+[dataforseo-client](../README.md) / [Exports](../modules.md) / DataforseoLabsAmazonRelatedKeywordsLiveItem
 
 # Class: DataforseoLabsAmazonRelatedKeywordsLiveItem
 
@@ -47,7 +47,7 @@
 
 #### Defined in
 
-main.ts:99439
+[main.ts:99295](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L99295)
 
 ## Properties
 
@@ -63,7 +63,7 @@ keyword search depth
 
 #### Defined in
 
-main.ts:99432
+[main.ts:99288](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L99288)
 
 ___
 
@@ -79,7 +79,7 @@ keyword data for the returned keyword
 
 #### Defined in
 
-main.ts:99430
+[main.ts:99286](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L99286)
 
 ___
 
@@ -96,7 +96,7 @@ represents the list of search queries which are related to the keyword returned 
 
 #### Defined in
 
-main.ts:99435
+[main.ts:99291](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L99291)
 
 ___
 
@@ -112,7 +112,7 @@ search engine type
 
 #### Defined in
 
-main.ts:99428
+[main.ts:99284](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L99284)
 
 ## Methods
 
@@ -132,7 +132,7 @@ main.ts:99428
 
 #### Defined in
 
-main.ts:99448
+[main.ts:99304](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L99304)
 
 ___
 
@@ -152,7 +152,7 @@ ___
 
 #### Defined in
 
-main.ts:99472
+[main.ts:99328](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L99328)
 
 ___
 
@@ -172,4 +172,4 @@ ___
 
 #### Defined in
 
-main.ts:99465
+[main.ts:99321](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L99321)

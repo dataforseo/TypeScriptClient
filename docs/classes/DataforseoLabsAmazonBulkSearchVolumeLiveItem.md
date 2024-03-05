@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / DataforseoLabsAmazonBulkSearchVolumeLiveItem
+[dataforseo-client](../README.md) / [Exports](../modules.md) / DataforseoLabsAmazonBulkSearchVolumeLiveItem
 
 # Class: DataforseoLabsAmazonBulkSearchVolumeLiveItem
 
@@ -46,7 +46,7 @@
 
 #### Defined in
 
-main.ts:98953
+[main.ts:98809](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L98809)
 
 ## Properties
 
@@ -62,7 +62,7 @@ keyword in a POST array
 
 #### Defined in
 
-main.ts:98946
+[main.ts:98802](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L98802)
 
 ___
 
@@ -78,7 +78,7 @@ search engine type
 
 #### Defined in
 
-main.ts:98944
+[main.ts:98800](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L98800)
 
 ___
 
@@ -95,7 +95,7 @@ represents the (approximate) number of searches for the returned keyword on Amaz
 
 #### Defined in
 
-main.ts:98949
+[main.ts:98805](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L98805)
 
 ## Methods
 
@@ -115,7 +115,7 @@ main.ts:98949
 
 #### Defined in
 
-main.ts:98962
+[main.ts:98818](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L98818)
 
 ___
 
@@ -135,7 +135,7 @@ ___
 
 #### Defined in
 
-main.ts:98981
+[main.ts:98837](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L98837)
 
 ___
 
@@ -155,4 +155,4 @@ ___
 
 #### Defined in
 
-main.ts:98974
+[main.ts:98830](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L98830)

@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / HtmlContentInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / HtmlContentInfo
 
 # Class: HtmlContentInfo
 
@@ -54,7 +54,7 @@
 
 #### Defined in
 
-main.ts:144219
+[main.ts:144075](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L144075)
 
 ## Properties
 
@@ -70,7 +70,7 @@ Automated Readability Index
 
 #### Defined in
 
-main.ts:144198
+[main.ts:144054](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L144054)
 
 ___
 
@@ -86,7 +86,7 @@ Coleman–Liau Index
 
 #### Defined in
 
-main.ts:144200
+[main.ts:144056](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L144056)
 
 ___
 
@@ -102,7 +102,7 @@ Dale–Chall Readability Index
 
 #### Defined in
 
-main.ts:144202
+[main.ts:144058](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L144058)
 
 ___
 
@@ -119,7 +119,7 @@ measured from 0 to 1
 
 #### Defined in
 
-main.ts:144209
+[main.ts:144065](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L144065)
 
 ___
 
@@ -135,7 +135,7 @@ Flesch–Kincaid Readability Index
 
 #### Defined in
 
-main.ts:144204
+[main.ts:144060](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L144060)
 
 ___
 
@@ -152,7 +152,7 @@ measured from 0 to 1
 
 #### Defined in
 
-main.ts:144215
+[main.ts:144071](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L144071)
 
 ___
 
@@ -169,7 +169,7 @@ plain_text_size to size ratio
 
 #### Defined in
 
-main.ts:144194
+[main.ts:144050](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L144050)
 
 ___
 
@@ -185,7 +185,7 @@ total size of the text on the page measured in bytes
 
 #### Defined in
 
-main.ts:144191
+[main.ts:144047](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L144047)
 
 ___
 
@@ -201,7 +201,7 @@ number of words on the page
 
 #### Defined in
 
-main.ts:144196
+[main.ts:144052](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L144052)
 
 ___
 
@@ -217,7 +217,7 @@ SMOG Readability Index
 
 #### Defined in
 
-main.ts:144206
+[main.ts:144062](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L144062)
 
 ___
 
@@ -234,7 +234,7 @@ measured from 0 to 1
 
 #### Defined in
 
-main.ts:144212
+[main.ts:144068](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L144068)
 
 ## Methods
 
@@ -254,7 +254,7 @@ main.ts:144212
 
 #### Defined in
 
-main.ts:144228
+[main.ts:144084](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L144084)
 
 ___
 
@@ -274,7 +274,7 @@ ___
 
 #### Defined in
 
-main.ts:144255
+[main.ts:144111](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L144111)
 
 ___
 
@@ -294,4 +294,4 @@ ___
 
 #### Defined in
 
-main.ts:144248
+[main.ts:144104](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L144104)

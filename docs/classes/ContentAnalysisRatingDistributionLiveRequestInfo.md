@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / ContentAnalysisRatingDistributionLiveRequestInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / ContentAnalysisRatingDistributionLiveRequestInfo
 
 # Class: ContentAnalysisRatingDistributionLiveRequestInfo
 
@@ -52,7 +52,7 @@
 
 #### Defined in
 
-main.ts:158357
+[main.ts:158237](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L158237)
 
 ## Properties
 
@@ -83,7 +83,7 @@ for more information about filters, please refer to Content Analysis API – Fil
 
 #### Defined in
 
-main.ts:158347
+[main.ts:158227](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L158227)
 
 ___
 
@@ -108,7 +108,7 @@ maximum value: 20
 
 #### Defined in
 
-main.ts:158309
+[main.ts:158189](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L158189)
 
 ___
 
@@ -131,7 +131,7 @@ example:
 
 #### Defined in
 
-main.ts:158280
+[main.ts:158160](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L158160)
 
 ___
 
@@ -161,7 +161,7 @@ example:
 
 #### Defined in
 
-main.ts:158292
+[main.ts:158172](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L158172)
 
 ___
 
@@ -181,7 +181,7 @@ possible values:
 
 #### Defined in
 
-main.ts:158298
+[main.ts:158178](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L158178)
 
 ___
 
@@ -202,7 +202,7 @@ default value: 0.4
 
 #### Defined in
 
-main.ts:158323
+[main.ts:158203](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L158203)
 
 ___
 
@@ -223,7 +223,7 @@ default value: as_is
 
 #### Defined in
 
-main.ts:158316
+[main.ts:158196](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L158196)
 
 ___
 
@@ -244,7 +244,7 @@ default value: 0.4
 
 #### Defined in
 
-main.ts:158330
+[main.ts:158210](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L158210)
 
 ___
 
@@ -264,7 +264,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:158353
+[main.ts:158233](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L158233)
 
 ## Methods
 
@@ -284,7 +284,7 @@ main.ts:158353
 
 #### Defined in
 
-main.ts:158366
+[main.ts:158246](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L158246)
 
 ___
 
@@ -304,7 +304,7 @@ ___
 
 #### Defined in
 
-main.ts:158405
+[main.ts:158285](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L158285)
 
 ___
 
@@ -324,4 +324,4 @@ ___
 
 #### Defined in
 
-main.ts:158398
+[main.ts:158278](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L158278)

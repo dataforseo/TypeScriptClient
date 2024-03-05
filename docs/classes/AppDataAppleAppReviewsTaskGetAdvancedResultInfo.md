@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / AppDataAppleAppReviewsTaskGetAdvancedResultInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / AppDataAppleAppReviewsTaskGetAdvancedResultInfo
 
 # Class: AppDataAppleAppReviewsTaskGetAdvancedResultInfo
 
@@ -55,7 +55,7 @@
 
 #### Defined in
 
-main.ts:186472
+[main.ts:186352](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L186352)
 
 ## Properties
 
@@ -71,7 +71,7 @@ application id received in a POST array
 
 #### Defined in
 
-main.ts:186438
+[main.ts:186318](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L186318)
 
 ___
 
@@ -88,7 +88,7 @@ you can use it to make sure that we provided accurate results
 
 #### Defined in
 
-main.ts:186449
+[main.ts:186329](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L186329)
 
 ___
 
@@ -107,7 +107,7 @@ example:
 
 #### Defined in
 
-main.ts:186454
+[main.ts:186334](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L186334)
 
 ___
 
@@ -123,7 +123,7 @@ found reviews
 
 #### Defined in
 
-main.ts:186468
+[main.ts:186348](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L186348)
 
 ___
 
@@ -140,7 +140,7 @@ you can get more results by using the depth parameter when setting a task
 
 #### Defined in
 
-main.ts:186466
+[main.ts:186346](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L186346)
 
 ___
 
@@ -156,7 +156,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:186446
+[main.ts:186326](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L186326)
 
 ___
 
@@ -172,7 +172,7 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:186444
+[main.ts:186324](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L186324)
 
 ___
 
@@ -189,7 +189,7 @@ rating of the application for which the reviews are collected
 
 #### Defined in
 
-main.ts:186460
+[main.ts:186340](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L186340)
 
 ___
 
@@ -206,7 +206,7 @@ in this case, the value will be null as App Store does not indicate the total nu
 
 #### Defined in
 
-main.ts:186463
+[main.ts:186343](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L186343)
 
 ___
 
@@ -222,7 +222,7 @@ search engine domain in a POST array
 
 #### Defined in
 
-main.ts:186442
+[main.ts:186322](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L186322)
 
 ___
 
@@ -239,7 +239,7 @@ title of the application for which the reviews are collected
 
 #### Defined in
 
-main.ts:186457
+[main.ts:186337](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L186337)
 
 ___
 
@@ -255,7 +255,7 @@ type of element
 
 #### Defined in
 
-main.ts:186440
+[main.ts:186320](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L186320)
 
 ## Methods
 
@@ -275,7 +275,7 @@ main.ts:186440
 
 #### Defined in
 
-main.ts:186481
+[main.ts:186361](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L186361)
 
 ___
 
@@ -295,7 +295,7 @@ ___
 
 #### Defined in
 
-main.ts:186513
+[main.ts:186393](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L186393)
 
 ___
 
@@ -315,4 +315,4 @@ ___
 
 #### Defined in
 
-main.ts:186506
+[main.ts:186386](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L186386)

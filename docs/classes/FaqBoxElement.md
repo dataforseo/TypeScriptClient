@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / FaqBoxElement
+[dataforseo-client](../README.md) / [Exports](../modules.md) / FaqBoxElement
 
 # Class: FaqBoxElement
 
@@ -47,7 +47,7 @@
 
 #### Defined in
 
-main.ts:27976
+[main.ts:27834](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L27834)
 
 ## Properties
 
@@ -63,7 +63,7 @@ description of the results element in SERP
 
 #### Defined in
 
-main.ts:27970
+[main.ts:27828](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L27828)
 
 ___
 
@@ -79,7 +79,7 @@ link of the element
 
 #### Defined in
 
-main.ts:27972
+[main.ts:27830](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L27830)
 
 ___
 
@@ -95,7 +95,7 @@ title of the element
 
 #### Defined in
 
-main.ts:27968
+[main.ts:27826](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L27826)
 
 ___
 
@@ -111,7 +111,7 @@ type of element
 
 #### Defined in
 
-main.ts:27966
+[main.ts:27824](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L27824)
 
 ## Methods
 
@@ -131,7 +131,7 @@ main.ts:27966
 
 #### Defined in
 
-main.ts:27985
+[main.ts:27843](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L27843)
 
 ___
 
@@ -151,7 +151,7 @@ ___
 
 #### Defined in
 
-main.ts:28009
+[main.ts:27867](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L27867)
 
 ___
 
@@ -171,4 +171,4 @@ ___
 
 #### Defined in
 
-main.ts:28002
+[main.ts:27860](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L27860)

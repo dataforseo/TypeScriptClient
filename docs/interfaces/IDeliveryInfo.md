@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IDeliveryInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IDeliveryInfo
 
 # Interface: IDeliveryInfo
 
@@ -29,7 +29,7 @@ message accompanying the delivery information as posted by the seller
 
 #### Defined in
 
-main.ts:164691
+[main.ts:164571](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L164571)
 
 ___
 
@@ -43,7 +43,7 @@ if free delivery is available, the value is null
 
 #### Defined in
 
-main.ts:164695
+[main.ts:164575](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L164575)
 
 ___
 
@@ -56,4 +56,4 @@ contains information about the number of stores that offer the same product
 
 #### Defined in
 
-main.ts:164698
+[main.ts:164578](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L164578)

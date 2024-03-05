@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / AppDataGoogleAppSearchesTaskGetHtmlResultInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / AppDataGoogleAppSearchesTaskGetHtmlResultInfo
 
 # Class: AppDataGoogleAppSearchesTaskGetHtmlResultInfo
 
@@ -51,7 +51,7 @@
 
 #### Defined in
 
-main.ts:178161
+[main.ts:178041](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L178041)
 
 ## Properties
 
@@ -70,7 +70,7 @@ example:
 
 #### Defined in
 
-main.ts:178153
+[main.ts:178033](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L178033)
 
 ___
 
@@ -86,7 +86,7 @@ HTML pages and related data
 
 #### Defined in
 
-main.ts:178157
+[main.ts:178037](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L178037)
 
 ___
 
@@ -102,7 +102,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:178155
+[main.ts:178035](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L178035)
 
 ___
 
@@ -118,7 +118,7 @@ keyword received in a POST request
 
 #### Defined in
 
-main.ts:178140
+[main.ts:178020](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L178020)
 
 ___
 
@@ -134,7 +134,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:178148
+[main.ts:178028](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L178028)
 
 ___
 
@@ -150,7 +150,7 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:178146
+[main.ts:178026](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L178026)
 
 ___
 
@@ -166,7 +166,7 @@ search engine domain in a POST array
 
 #### Defined in
 
-main.ts:178144
+[main.ts:178024](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L178024)
 
 ___
 
@@ -182,7 +182,7 @@ type of element
 
 #### Defined in
 
-main.ts:178142
+[main.ts:178022](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L178022)
 
 ## Methods
 
@@ -202,7 +202,7 @@ main.ts:178142
 
 #### Defined in
 
-main.ts:178170
+[main.ts:178050](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L178050)
 
 ___
 
@@ -222,7 +222,7 @@ ___
 
 #### Defined in
 
-main.ts:178198
+[main.ts:178078](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L178078)
 
 ___
 
@@ -242,4 +242,4 @@ ___
 
 #### Defined in
 
-main.ts:178191
+[main.ts:178071](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L178071)

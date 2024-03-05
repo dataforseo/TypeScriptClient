@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / OnPageMicrodataRequestInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / OnPageMicrodataRequestInfo
 
 # Class: OnPageMicrodataRequestInfo
 
@@ -46,7 +46,7 @@
 
 #### Defined in
 
-main.ts:150659
+[main.ts:150515](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L150515)
 
 ## Properties
 
@@ -66,7 +66,7 @@ example:
 
 #### Defined in
 
-main.ts:150643
+[main.ts:150499](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L150499)
 
 ___
 
@@ -86,7 +86,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:150655
+[main.ts:150511](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L150511)
 
 ___
 
@@ -106,7 +106,7 @@ https://dataforseo.com/apis
 
 #### Defined in
 
-main.ts:150649
+[main.ts:150505](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L150505)
 
 ## Methods
 
@@ -126,7 +126,7 @@ main.ts:150649
 
 #### Defined in
 
-main.ts:150668
+[main.ts:150524](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L150524)
 
 ___
 
@@ -146,7 +146,7 @@ ___
 
 #### Defined in
 
-main.ts:150687
+[main.ts:150543](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L150543)
 
 ___
 
@@ -166,4 +166,4 @@ ___
 
 #### Defined in
 
-main.ts:150680
+[main.ts:150536](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L150536)

@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IBacklinksTimeseriesNewLostSummaryLiveRequestInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IBacklinksTimeseriesNewLostSummaryLiveRequestInfo
 
 # Interface: IBacklinksTimeseriesNewLostSummaryLiveRequestInfo
 
@@ -39,7 +39,7 @@ example:
 
 #### Defined in
 
-main.ts:139088
+[main.ts:138944](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L138944)
 
 ___
 
@@ -58,7 +58,7 @@ example:
 
 #### Defined in
 
-main.ts:139097
+[main.ts:138953](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L138953)
 
 ___
 
@@ -81,7 +81,7 @@ if there is no data for a certain  day/week/month/year, we will return 0
 
 #### Defined in
 
-main.ts:139110
+[main.ts:138966](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L138966)
 
 ___
 
@@ -97,7 +97,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:139116
+[main.ts:138972](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L138972)
 
 ___
 
@@ -113,4 +113,4 @@ example:
 
 #### Defined in
 
-main.ts:139077
+[main.ts:138933](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L138933)

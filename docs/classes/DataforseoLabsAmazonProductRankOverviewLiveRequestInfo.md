@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / DataforseoLabsAmazonProductRankOverviewLiveRequestInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / DataforseoLabsAmazonProductRankOverviewLiveRequestInfo
 
 # Class: DataforseoLabsAmazonProductRankOverviewLiveRequestInfo
 
@@ -49,7 +49,7 @@
 
 #### Defined in
 
-main.ts:100610
+[main.ts:100466](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L100466)
 
 ## Properties
 
@@ -69,7 +69,7 @@ you can receive the asin parameter by making a separate request to the Amazon Pr
 
 #### Defined in
 
-main.ts:100570
+[main.ts:100426](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L100426)
 
 ___
 
@@ -90,7 +90,7 @@ en
 
 #### Defined in
 
-main.ts:100600
+[main.ts:100456](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L100456)
 
 ___
 
@@ -111,7 +111,7 @@ English
 
 #### Defined in
 
-main.ts:100593
+[main.ts:100449](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L100449)
 
 ___
 
@@ -133,7 +133,7 @@ example:
 
 #### Defined in
 
-main.ts:100586
+[main.ts:100442](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L100442)
 
 ___
 
@@ -155,7 +155,7 @@ United States
 
 #### Defined in
 
-main.ts:100578
+[main.ts:100434](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L100434)
 
 ___
 
@@ -175,7 +175,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:100606
+[main.ts:100462](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L100462)
 
 ## Methods
 
@@ -195,7 +195,7 @@ main.ts:100606
 
 #### Defined in
 
-main.ts:100619
+[main.ts:100475](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L100475)
 
 ___
 
@@ -215,7 +215,7 @@ ___
 
 #### Defined in
 
-main.ts:100645
+[main.ts:100501](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L100501)
 
 ___
 
@@ -235,4 +235,4 @@ ___
 
 #### Defined in
 
-main.ts:100638
+[main.ts:100494](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L100494)

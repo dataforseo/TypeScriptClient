@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / MicrodataInspectionInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / MicrodataInspectionInfo
 
 # Class: MicrodataInspectionInfo
 
@@ -45,7 +45,7 @@
 
 #### Defined in
 
-main.ts:150961
+[main.ts:150817](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L150817)
 
 ## Properties
 
@@ -62,7 +62,7 @@ an array of objects containing data fields related to the certain microdata type
 
 #### Defined in
 
-main.ts:150957
+[main.ts:150813](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L150813)
 
 ___
 
@@ -79,7 +79,7 @@ for a full list of available types, please visit schema.org
 
 #### Defined in
 
-main.ts:150954
+[main.ts:150810](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L150810)
 
 ## Methods
 
@@ -99,7 +99,7 @@ main.ts:150954
 
 #### Defined in
 
-main.ts:150970
+[main.ts:150826](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L150826)
 
 ___
 
@@ -119,7 +119,7 @@ ___
 
 #### Defined in
 
-main.ts:150996
+[main.ts:150852](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L150852)
 
 ___
 
@@ -139,4 +139,4 @@ ___
 
 #### Defined in
 
-main.ts:150989
+[main.ts:150845](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L150845)

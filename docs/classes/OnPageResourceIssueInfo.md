@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / OnPageResourceIssueInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / OnPageResourceIssueInfo
 
 # Class: OnPageResourceIssueInfo
 
@@ -47,7 +47,7 @@ resource errors and warnings
 
 #### Defined in
 
-main.ts:144816
+[main.ts:144672](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L144672)
 
 ## Properties
 
@@ -63,7 +63,7 @@ resource errors
 
 #### Defined in
 
-main.ts:144810
+[main.ts:144666](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L144666)
 
 ___
 
@@ -79,7 +79,7 @@ resource warnings
 
 #### Defined in
 
-main.ts:144812
+[main.ts:144668](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L144668)
 
 ## Methods
 
@@ -99,7 +99,7 @@ main.ts:144812
 
 #### Defined in
 
-main.ts:144825
+[main.ts:144681](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L144681)
 
 ___
 
@@ -119,7 +119,7 @@ ___
 
 #### Defined in
 
-main.ts:144851
+[main.ts:144707](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L144707)
 
 ___
 
@@ -139,4 +139,4 @@ ___
 
 #### Defined in
 
-main.ts:144844
+[main.ts:144700](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L144700)

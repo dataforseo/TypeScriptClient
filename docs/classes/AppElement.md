@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / AppElement
+[dataforseo-client](../README.md) / [Exports](../modules.md) / AppElement
 
 # Class: AppElement
 
@@ -48,7 +48,7 @@
 
 #### Defined in
 
-main.ts:29762
+[main.ts:29620](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L29620)
 
 ## Properties
 
@@ -64,7 +64,7 @@ description of the results element in SERP
 
 #### Defined in
 
-main.ts:29754
+[main.ts:29612](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L29612)
 
 ___
 
@@ -80,7 +80,7 @@ price of booking a place for the specified dates of stay
 
 #### Defined in
 
-main.ts:29758
+[main.ts:29616](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L29616)
 
 ___
 
@@ -96,7 +96,7 @@ title of the row
 
 #### Defined in
 
-main.ts:29752
+[main.ts:29610](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L29610)
 
 ___
 
@@ -112,7 +112,7 @@ type of element
 
 #### Defined in
 
-main.ts:29750
+[main.ts:29608](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L29608)
 
 ___
 
@@ -128,7 +128,7 @@ URL
 
 #### Defined in
 
-main.ts:29756
+[main.ts:29614](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L29614)
 
 ## Methods
 
@@ -148,7 +148,7 @@ main.ts:29756
 
 #### Defined in
 
-main.ts:29771
+[main.ts:29629](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L29629)
 
 ___
 
@@ -168,7 +168,7 @@ ___
 
 #### Defined in
 
-main.ts:29792
+[main.ts:29650](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L29650)
 
 ___
 
@@ -188,4 +188,4 @@ ___
 
 #### Defined in
 
-main.ts:29785
+[main.ts:29643](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L29643)

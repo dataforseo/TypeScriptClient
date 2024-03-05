@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IOnPageLinksResultInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IOnPageLinksResultInfo
 
 # Interface: IOnPageLinksResultInfo
 
@@ -31,7 +31,7 @@ possible values: in_progress, finished
 
 #### Defined in
 
-main.ts:148418
+[main.ts:148274](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L148274)
 
 ___
 
@@ -43,7 +43,7 @@ details of the crawling session
 
 #### Defined in
 
-main.ts:148420
+[main.ts:148276](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L148276)
 
 ___
 
@@ -55,7 +55,7 @@ items array
 
 #### Defined in
 
-main.ts:148426
+[main.ts:148282](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L148282)
 
 ___
 
@@ -67,7 +67,7 @@ number of items in the results array
 
 #### Defined in
 
-main.ts:148424
+[main.ts:148280](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L148280)
 
 ___
 
@@ -79,4 +79,4 @@ total number of relevant items in the database
 
 #### Defined in
 
-main.ts:148422
+[main.ts:148278](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L148278)

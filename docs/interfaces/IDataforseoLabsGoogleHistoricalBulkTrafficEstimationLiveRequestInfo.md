@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IDataforseoLabsGoogleHistoricalBulkTrafficEstimationLiveRequestInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IDataforseoLabsGoogleHistoricalBulkTrafficEstimationLiveRequestInfo
 
 # Interface: IDataforseoLabsGoogleHistoricalBulkTrafficEstimationLiveRequestInfo
 
@@ -38,7 +38,7 @@ date format: "yyyy-mm-dd"
 
 #### Defined in
 
-main.ts:98293
+[main.ts:98149](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L98149)
 
 ___
 
@@ -55,7 +55,7 @@ example:
 
 #### Defined in
 
-main.ts:98300
+[main.ts:98156](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L98156)
 
 ___
 
@@ -74,7 +74,7 @@ default value:
 
 #### Defined in
 
-main.ts:98309
+[main.ts:98165](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L98165)
 
 ___
 
@@ -92,7 +92,7 @@ en
 
 #### Defined in
 
-main.ts:98287
+[main.ts:98143](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L98143)
 
 ___
 
@@ -110,7 +110,7 @@ English
 
 #### Defined in
 
-main.ts:98279
+[main.ts:98135](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L98135)
 
 ___
 
@@ -128,7 +128,7 @@ example:
 
 #### Defined in
 
-main.ts:98271
+[main.ts:98127](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L98127)
 
 ___
 
@@ -146,7 +146,7 @@ United Kingdom
 
 #### Defined in
 
-main.ts:98263
+[main.ts:98119](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L98119)
 
 ___
 
@@ -162,7 +162,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:98315
+[main.ts:98171](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L98171)
 
 ___
 
@@ -178,4 +178,4 @@ you can set up to 1000 domains or subdomains
 
 #### Defined in
 
-main.ts:98255
+[main.ts:98111](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L98111)

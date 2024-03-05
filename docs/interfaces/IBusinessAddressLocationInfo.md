@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IBusinessAddressLocationInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IBusinessAddressLocationInfo
 
 # Interface: IBusinessAddressLocationInfo
 
@@ -29,7 +29,7 @@ contains few address lines specified by the business entity
 
 #### Defined in
 
-main.ts:204053
+[main.ts:203933](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L203933)
 
 ___
 
@@ -41,7 +41,7 @@ latitude in GPS coordinates
 
 #### Defined in
 
-main.ts:204055
+[main.ts:203935](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L203935)
 
 ___
 
@@ -53,4 +53,4 @@ longitude in GPS coordinates
 
 #### Defined in
 
-main.ts:204057
+[main.ts:203937](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L203937)

@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / ProductInformationImageRow
+[dataforseo-client](../README.md) / [Exports](../modules.md) / ProductInformationImageRow
 
 # Class: ProductInformationImageRow
 
@@ -56,7 +56,7 @@
 
 #### Defined in
 
-main.ts:172682
+[main.ts:172562](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L172562)
 
 ## Properties
 
@@ -70,7 +70,7 @@ main.ts:172682
 
 #### Defined in
 
-main.ts:21920
+[main.ts:21778](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L21778)
 
 ___
 
@@ -86,7 +86,7 @@ alternative text of the related product image
 
 #### Defined in
 
-main.ts:172676
+[main.ts:172556](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L172556)
 
 ___
 
@@ -102,7 +102,7 @@ URL of the image
 
 #### Defined in
 
-main.ts:172678
+[main.ts:172558](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L172558)
 
 ## Methods
 
@@ -126,7 +126,7 @@ main.ts:172678
 
 #### Defined in
 
-main.ts:172687
+[main.ts:172567](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L172567)
 
 ___
 
@@ -150,7 +150,7 @@ ___
 
 #### Defined in
 
-main.ts:172706
+[main.ts:172586](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L172586)
 
 ___
 
@@ -174,4 +174,4 @@ ___
 
 #### Defined in
 
-main.ts:172699
+[main.ts:172579](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L172579)

@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IDataforseoLabsGoogleBulkKeywordDifficultyLiveRequestInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IDataforseoLabsGoogleBulkKeywordDifficultyLiveRequestInfo
 
 # Interface: IDataforseoLabsGoogleBulkKeywordDifficultyLiveRequestInfo
 
@@ -36,7 +36,7 @@ the keywords will be converted to lowercase format
 
 #### Defined in
 
-main.ts:82465
+[main.ts:82321](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L82321)
 
 ___
 
@@ -53,7 +53,7 @@ en
 
 #### Defined in
 
-main.ts:82493
+[main.ts:82349](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L82349)
 
 ___
 
@@ -70,7 +70,7 @@ English
 
 #### Defined in
 
-main.ts:82486
+[main.ts:82342](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L82342)
 
 ___
 
@@ -87,7 +87,7 @@ example:
 
 #### Defined in
 
-main.ts:82479
+[main.ts:82335](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L82335)
 
 ___
 
@@ -104,7 +104,7 @@ United Kingdom
 
 #### Defined in
 
-main.ts:82472
+[main.ts:82328](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L82328)
 
 ___
 
@@ -120,4 +120,4 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:82499
+[main.ts:82355](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L82355)

@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / BusinessDataTrustpilotReviewsTaskGetResultInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / BusinessDataTrustpilotReviewsTaskGetResultInfo
 
 # Class: BusinessDataTrustpilotReviewsTaskGetResultInfo
 
@@ -54,7 +54,7 @@
 
 #### Defined in
 
-main.ts:200253
+[main.ts:200133](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L200133)
 
 ## Properties
 
@@ -71,7 +71,7 @@ you can use it to make sure that we provided accurate results
 
 #### Defined in
 
-main.ts:200227
+[main.ts:200107](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L200107)
 
 ___
 
@@ -90,7 +90,7 @@ example:
 
 #### Defined in
 
-main.ts:200232
+[main.ts:200112](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L200112)
 
 ___
 
@@ -106,7 +106,7 @@ domain of the business entity
 
 #### Defined in
 
-main.ts:200220
+[main.ts:200100](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L200100)
 
 ___
 
@@ -123,7 +123,7 @@ you can get more results by using the depth parameter when setting a task
 
 #### Defined in
 
-main.ts:200249
+[main.ts:200129](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L200129)
 
 ___
 
@@ -140,7 +140,7 @@ you can get more results by using the depth parameter when setting a task
 
 #### Defined in
 
-main.ts:200246
+[main.ts:200126](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L200126)
 
 ___
 
@@ -157,7 +157,7 @@ address of the business entity for which the reviews are collected
 
 #### Defined in
 
-main.ts:200238
+[main.ts:200118](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L200118)
 
 ___
 
@@ -174,7 +174,7 @@ popularity rate based on reviews and displayed in SERP
 
 #### Defined in
 
-main.ts:200243
+[main.ts:200123](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L200123)
 
 ___
 
@@ -190,7 +190,7 @@ the total number of reviews
 
 #### Defined in
 
-main.ts:200240
+[main.ts:200120](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L200120)
 
 ___
 
@@ -206,7 +206,7 @@ search engine domain in a POST array
 
 #### Defined in
 
-main.ts:200224
+[main.ts:200104](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L200104)
 
 ___
 
@@ -223,7 +223,7 @@ the name of the business entity for which the reviews are collected
 
 #### Defined in
 
-main.ts:200235
+[main.ts:200115](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L200115)
 
 ___
 
@@ -239,7 +239,7 @@ type of element
 
 #### Defined in
 
-main.ts:200222
+[main.ts:200102](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L200102)
 
 ## Methods
 
@@ -259,7 +259,7 @@ main.ts:200222
 
 #### Defined in
 
-main.ts:200262
+[main.ts:200142](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L200142)
 
 ___
 
@@ -279,7 +279,7 @@ ___
 
 #### Defined in
 
-main.ts:200293
+[main.ts:200173](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L200173)
 
 ___
 
@@ -299,4 +299,4 @@ ___
 
 #### Defined in
 
-main.ts:200286
+[main.ts:200166](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L200166)

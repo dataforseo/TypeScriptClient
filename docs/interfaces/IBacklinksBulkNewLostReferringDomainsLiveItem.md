@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IBacklinksBulkNewLostReferringDomainsLiveItem
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IBacklinksBulkNewLostReferringDomainsLiveItem
 
 # Interface: IBacklinksBulkNewLostReferringDomainsLiveItem
 
@@ -31,7 +31,7 @@ number of lost referring domains of the target
 
 #### Defined in
 
-main.ts:141396
+[main.ts:141252](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L141252)
 
 ___
 
@@ -43,7 +43,7 @@ number of lost referring main domains pointing to the target
 
 #### Defined in
 
-main.ts:141400
+[main.ts:141256](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L141256)
 
 ___
 
@@ -56,7 +56,7 @@ number of new referring domains pointing to the target
 
 #### Defined in
 
-main.ts:141393
+[main.ts:141249](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L141249)
 
 ___
 
@@ -68,7 +68,7 @@ number of new referring main domains pointing to the target
 
 #### Defined in
 
-main.ts:141398
+[main.ts:141254](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L141254)
 
 ___
 
@@ -80,4 +80,4 @@ domain, subdomain or webpage from a POST array
 
 #### Defined in
 
-main.ts:141390
+[main.ts:141246](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L141246)

@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / AppendixSocialMediaBusinessDataPriceData
+[dataforseo-client](../README.md) / [Exports](../modules.md) / AppendixSocialMediaBusinessDataPriceData
 
 # Class: AppendixSocialMediaBusinessDataPriceData
 
@@ -46,7 +46,7 @@
 
 #### Defined in
 
-main.ts:211125
+[main.ts:211005](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L211005)
 
 ## Properties
 
@@ -60,7 +60,7 @@ main.ts:211125
 
 #### Defined in
 
-main.ts:211119
+[main.ts:210999](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L210999)
 
 ___
 
@@ -74,7 +74,7 @@ ___
 
 #### Defined in
 
-main.ts:211120
+[main.ts:211000](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L211000)
 
 ___
 
@@ -88,7 +88,7 @@ ___
 
 #### Defined in
 
-main.ts:211121
+[main.ts:211001](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L211001)
 
 ## Methods
 
@@ -108,7 +108,7 @@ main.ts:211121
 
 #### Defined in
 
-main.ts:211134
+[main.ts:211014](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L211014)
 
 ___
 
@@ -128,7 +128,7 @@ ___
 
 #### Defined in
 
-main.ts:211153
+[main.ts:211033](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L211033)
 
 ___
 
@@ -148,4 +148,4 @@ ___
 
 #### Defined in
 
-main.ts:211146
+[main.ts:211026](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L211026)

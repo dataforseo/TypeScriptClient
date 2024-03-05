@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / RefineProductsSerpElementItem
+[dataforseo-client](../README.md) / [Exports](../modules.md) / RefineProductsSerpElementItem
 
 # Class: RefineProductsSerpElementItem
 
@@ -61,7 +61,7 @@
 
 #### Defined in
 
-main.ts:35249
+[main.ts:35107](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L35107)
 
 ## Properties
 
@@ -75,7 +75,7 @@ main.ts:35249
 
 #### Defined in
 
-main.ts:19337
+[main.ts:19337](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L19337)
 
 ___
 
@@ -91,7 +91,7 @@ contains results featured in the ‘hotels_pack’ element of SERP
 
 #### Defined in
 
-main.ts:35241
+[main.ts:35099](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L35099)
 
 ___
 
@@ -109,7 +109,7 @@ left, right
 
 #### Defined in
 
-main.ts:35235
+[main.ts:35093](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L35093)
 
 ___
 
@@ -126,7 +126,7 @@ absolute position among all the elements in SERP
 
 #### Defined in
 
-main.ts:35231
+[main.ts:35089](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L35089)
 
 ___
 
@@ -144,7 +144,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-main.ts:35228
+[main.ts:35086](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L35086)
 
 ___
 
@@ -162,7 +162,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 #### Defined in
 
-main.ts:35245
+[main.ts:35103](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L35103)
 
 ___
 
@@ -178,7 +178,7 @@ title of a given link element
 
 #### Defined in
 
-main.ts:35239
+[main.ts:35097](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L35097)
 
 ___
 
@@ -194,7 +194,7 @@ the XPath of the element
 
 #### Defined in
 
-main.ts:35237
+[main.ts:35095](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L35095)
 
 ## Methods
 
@@ -218,7 +218,7 @@ main.ts:35237
 
 #### Defined in
 
-main.ts:35254
+[main.ts:35112](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L35112)
 
 ___
 
@@ -242,7 +242,7 @@ ___
 
 #### Defined in
 
-main.ts:35282
+[main.ts:35140](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L35140)
 
 ___
 
@@ -266,4 +266,4 @@ ___
 
 #### Defined in
 
-main.ts:35275
+[main.ts:35133](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L35133)

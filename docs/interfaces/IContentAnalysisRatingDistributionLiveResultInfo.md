@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IContentAnalysisRatingDistributionLiveResultInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IContentAnalysisRatingDistributionLiveResultInfo
 
 # Interface: IContentAnalysisRatingDistributionLiveResultInfo
 
@@ -29,7 +29,7 @@ max rating on a distribution scale
 
 #### Defined in
 
-main.ts:158586
+[main.ts:158466](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L158466)
 
 ___
 
@@ -41,7 +41,7 @@ contains rating distribution metrics
 
 #### Defined in
 
-main.ts:158588
+[main.ts:158468](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L158468)
 
 ___
 
@@ -53,7 +53,7 @@ min rating on a distribution scale
 
 #### Defined in
 
-main.ts:158584
+[main.ts:158464](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L158464)
 
 ___
 
@@ -65,4 +65,4 @@ type of element
 
 #### Defined in
 
-main.ts:158582
+[main.ts:158462](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L158462)

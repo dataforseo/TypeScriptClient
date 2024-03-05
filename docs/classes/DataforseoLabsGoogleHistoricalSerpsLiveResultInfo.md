@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / DataforseoLabsGoogleHistoricalSerpsLiveResultInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / DataforseoLabsGoogleHistoricalSerpsLiveResultInfo
 
 # Class: DataforseoLabsGoogleHistoricalSerpsLiveResultInfo
 
@@ -50,7 +50,7 @@
 
 #### Defined in
 
-main.ts:92409
+[main.ts:92265](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L92265)
 
 ## Properties
 
@@ -66,7 +66,7 @@ contains results featured in the ‘hotels_pack’ element of SERP
 
 #### Defined in
 
-main.ts:92405
+[main.ts:92261](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L92261)
 
 ___
 
@@ -82,7 +82,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:92403
+[main.ts:92259](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L92259)
 
 ___
 
@@ -99,7 +99,7 @@ the keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to
 
 #### Defined in
 
-main.ts:92395
+[main.ts:92251](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L92251)
 
 ___
 
@@ -115,7 +115,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:92399
+[main.ts:92255](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L92255)
 
 ___
 
@@ -131,7 +131,7 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:92397
+[main.ts:92253](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L92253)
 
 ___
 
@@ -147,7 +147,7 @@ search engine type
 
 #### Defined in
 
-main.ts:92392
+[main.ts:92248](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L92248)
 
 ___
 
@@ -163,7 +163,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:92401
+[main.ts:92257](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L92257)
 
 ## Methods
 
@@ -183,7 +183,7 @@ main.ts:92401
 
 #### Defined in
 
-main.ts:92418
+[main.ts:92274](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L92274)
 
 ___
 
@@ -203,7 +203,7 @@ ___
 
 #### Defined in
 
-main.ts:92445
+[main.ts:92301](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L92301)
 
 ___
 
@@ -223,4 +223,4 @@ ___
 
 #### Defined in
 
-main.ts:92438
+[main.ts:92294](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L92294)

@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / Graph
+[dataforseo-client](../README.md) / [Exports](../modules.md) / Graph
 
 # Class: Graph
 
@@ -45,7 +45,7 @@
 
 #### Defined in
 
-main.ts:32556
+[main.ts:32414](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L32414)
 
 ## Properties
 
@@ -62,7 +62,7 @@ if there are none, equals null
 
 #### Defined in
 
-main.ts:32549
+[main.ts:32407](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L32407)
 
 ___
 
@@ -79,7 +79,7 @@ contains stock price data based on the preceding time period
 
 #### Defined in
 
-main.ts:32552
+[main.ts:32410](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L32410)
 
 ## Methods
 
@@ -99,7 +99,7 @@ main.ts:32552
 
 #### Defined in
 
-main.ts:32565
+[main.ts:32423](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L32423)
 
 ___
 
@@ -119,7 +119,7 @@ ___
 
 #### Defined in
 
-main.ts:32591
+[main.ts:32449](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L32449)
 
 ___
 
@@ -139,4 +139,4 @@ ___
 
 #### Defined in
 
-main.ts:32584
+[main.ts:32442](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L32442)

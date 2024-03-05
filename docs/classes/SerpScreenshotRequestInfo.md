@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / SerpScreenshotRequestInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / SerpScreenshotRequestInfo
 
 # Class: SerpScreenshotRequestInfo
 
@@ -48,7 +48,7 @@
 
 #### Defined in
 
-main.ts:23567
+[main.ts:23425](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L23425)
 
 ## Properties
 
@@ -68,7 +68,7 @@ note: by default, browser preset corresponds to the device type specified in the
 
 #### Defined in
 
-main.ts:23551
+[main.ts:23409](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L23409)
 
 ___
 
@@ -86,7 +86,7 @@ can be specified in the following range: 240-9999
 
 #### Defined in
 
-main.ts:23559
+[main.ts:23417](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L23417)
 
 ___
 
@@ -104,7 +104,7 @@ can be specified in the following range: 0.5-3
 
 #### Defined in
 
-main.ts:23563
+[main.ts:23421](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L23421)
 
 ___
 
@@ -122,7 +122,7 @@ can be specified in the following range: 240-9999
 
 #### Defined in
 
-main.ts:23555
+[main.ts:23413](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L23413)
 
 ___
 
@@ -141,7 +141,7 @@ you will be able to use it within 7 days to request the results of the task at a
 
 #### Defined in
 
-main.ts:23545
+[main.ts:23403](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L23403)
 
 ## Methods
 
@@ -161,7 +161,7 @@ main.ts:23545
 
 #### Defined in
 
-main.ts:23576
+[main.ts:23434](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L23434)
 
 ___
 
@@ -181,7 +181,7 @@ ___
 
 #### Defined in
 
-main.ts:23597
+[main.ts:23455](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L23455)
 
 ___
 
@@ -201,4 +201,4 @@ ___
 
 #### Defined in
 
-main.ts:23590
+[main.ts:23448](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L23448)

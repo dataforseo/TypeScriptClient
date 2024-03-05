@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IBusinessDataTrustpilotSearchTaskPostRequestInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IBusinessDataTrustpilotSearchTaskPostRequestInfo
 
 # Interface: IBusinessDataTrustpilotSearchTaskPostRequestInfo
 
@@ -37,7 +37,7 @@ Note: your account will be charged for every 10 search results returned, e.g. if
 
 #### Defined in
 
-main.ts:198907
+[main.ts:198787](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L198787)
 
 ___
 
@@ -54,7 +54,7 @@ if you need to use the “%” symbol for your keyword, please specify it as “
 
 #### Defined in
 
-main.ts:198891
+[main.ts:198771](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L198771)
 
 ___
 
@@ -74,7 +74,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-main.ts:198933
+[main.ts:198813](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L198813)
 
 ___
 
@@ -94,7 +94,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-main.ts:198923
+[main.ts:198803](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L198803)
 
 ___
 
@@ -112,7 +112,7 @@ The cost can be calculated on the Pricing page.
 
 #### Defined in
 
-main.ts:198899
+[main.ts:198779](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L198779)
 
 ___
 
@@ -128,4 +128,4 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:198913
+[main.ts:198793](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L198793)

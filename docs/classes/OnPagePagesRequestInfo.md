@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / OnPagePagesRequestInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / OnPagePagesRequestInfo
 
 # Class: OnPagePagesRequestInfo
 
@@ -49,7 +49,7 @@
 
 #### Defined in
 
-main.ts:144074
+[main.ts:143930](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L143930)
 
 ## Properties
 
@@ -74,7 +74,7 @@ example:
 
 #### Defined in
 
-main.ts:144050
+[main.ts:143906](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L143906)
 
 ___
 
@@ -94,7 +94,7 @@ example:
 
 #### Defined in
 
-main.ts:144029
+[main.ts:143885](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L143885)
 
 ___
 
@@ -113,7 +113,7 @@ maximum value: 1000
 
 #### Defined in
 
-main.ts:144034
+[main.ts:143890](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L143890)
 
 ___
 
@@ -132,7 +132,7 @@ if you specify the 10 value, the first ten pages in the results array will be om
 
 #### Defined in
 
-main.ts:144039
+[main.ts:143895](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L143895)
 
 ___
 
@@ -160,7 +160,7 @@ example:
 
 #### Defined in
 
-main.ts:144064
+[main.ts:143920](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L143920)
 
 ___
 
@@ -180,7 +180,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:144070
+[main.ts:143926](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L143926)
 
 ## Methods
 
@@ -200,7 +200,7 @@ main.ts:144070
 
 #### Defined in
 
-main.ts:144083
+[main.ts:143939](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L143939)
 
 ___
 
@@ -220,7 +220,7 @@ ___
 
 #### Defined in
 
-main.ts:144113
+[main.ts:143969](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L143969)
 
 ___
 
@@ -240,4 +240,4 @@ ___
 
 #### Defined in
 
-main.ts:144106
+[main.ts:143962](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L143962)

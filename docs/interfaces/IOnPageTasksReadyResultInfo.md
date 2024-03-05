@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IOnPageTasksReadyResultInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IOnPageTasksReadyResultInfo
 
 # Interface: IOnPageTasksReadyResultInfo
 
@@ -29,7 +29,7 @@ date when the task was posted (in the UTC format)
 
 #### Defined in
 
-main.ts:143228
+[main.ts:143084](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L143084)
 
 ___
 
@@ -42,7 +42,7 @@ unique task identifier in our system in the UUID format
 
 #### Defined in
 
-main.ts:143224
+[main.ts:143080](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L143080)
 
 ___
 
@@ -54,7 +54,7 @@ user-defined task identifier
 
 #### Defined in
 
-main.ts:143230
+[main.ts:143086](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L143086)
 
 ___
 
@@ -66,4 +66,4 @@ target website specified when setting a task
 
 #### Defined in
 
-main.ts:143226
+[main.ts:143082](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L143082)

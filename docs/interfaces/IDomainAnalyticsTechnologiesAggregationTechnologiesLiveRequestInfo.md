@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IDomainAnalyticsTechnologiesAggregationTechnologiesLiveRequestInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IDomainAnalyticsTechnologiesAggregationTechnologiesLiveRequestInfo
 
 # Interface: IDomainAnalyticsTechnologiesAggregationTechnologiesLiveRequestInfo
 
@@ -43,7 +43,7 @@ example:
 
 #### Defined in
 
-main.ts:72770
+[main.ts:72626](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L72626)
 
 ___
 
@@ -66,7 +66,7 @@ example:
 
 #### Defined in
 
-main.ts:72803
+[main.ts:72659](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L72659)
 
 ___
 
@@ -82,7 +82,7 @@ example:
 
 #### Defined in
 
-main.ts:72764
+[main.ts:72620](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L72620)
 
 ___
 
@@ -98,7 +98,7 @@ maximum value: 10000
 
 #### Defined in
 
-main.ts:72831
+[main.ts:72687](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L72687)
 
 ___
 
@@ -114,7 +114,7 @@ maximum value: 10000
 
 #### Defined in
 
-main.ts:72825
+[main.ts:72681](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L72681)
 
 ___
 
@@ -131,7 +131,7 @@ maximum value: 10000
 
 #### Defined in
 
-main.ts:72844
+[main.ts:72700](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L72700)
 
 ___
 
@@ -147,7 +147,7 @@ maximum value: 10000
 
 #### Defined in
 
-main.ts:72837
+[main.ts:72693](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L72693)
 
 ___
 
@@ -164,7 +164,7 @@ example:
 
 #### Defined in
 
-main.ts:72783
+[main.ts:72639](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L72639)
 
 ___
 
@@ -179,7 +179,7 @@ maximum value: 10000
 
 #### Defined in
 
-main.ts:72849
+[main.ts:72705](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L72705)
 
 ___
 
@@ -196,7 +196,7 @@ default value: as_is
 
 #### Defined in
 
-main.ts:72790
+[main.ts:72646](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L72646)
 
 ___
 
@@ -212,7 +212,7 @@ if you specify the 10 value, the first ten technologies in the results array wil
 
 #### Defined in
 
-main.ts:72855
+[main.ts:72711](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L72711)
 
 ___
 
@@ -238,7 +238,7 @@ default value:
 
 #### Defined in
 
-main.ts:72819
+[main.ts:72675](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L72675)
 
 ___
 
@@ -254,7 +254,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:72861
+[main.ts:72717](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L72717)
 
 ___
 
@@ -270,4 +270,4 @@ example:
 
 #### Defined in
 
-main.ts:72776
+[main.ts:72632](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L72632)

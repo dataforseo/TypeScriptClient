@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IDomainAnalyticsTechnologiesAvailableFiltersResultInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IDomainAnalyticsTechnologiesAvailableFiltersResultInfo
 
 # Interface: IDomainAnalyticsTechnologiesAvailableFiltersResultInfo
 
@@ -31,7 +31,7 @@
 
 #### Defined in
 
-main.ts:71797
+[main.ts:71653](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L71653)
 
 ___
 
@@ -45,7 +45,7 @@ ___
 
 #### Defined in
 
-main.ts:71799
+[main.ts:71655](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L71655)
 
 ___
 
@@ -59,7 +59,7 @@ ___
 
 #### Defined in
 
-main.ts:71796
+[main.ts:71652](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L71652)
 
 ___
 
@@ -73,4 +73,4 @@ ___
 
 #### Defined in
 
-main.ts:71798
+[main.ts:71654](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L71654)

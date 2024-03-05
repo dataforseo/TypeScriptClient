@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / AmazonRelatedSearchesSerpElementItem
+[dataforseo-client](../README.md) / [Exports](../modules.md) / AmazonRelatedSearchesSerpElementItem
 
 # Class: AmazonRelatedSearchesSerpElementItem
 
@@ -59,7 +59,7 @@
 
 #### Defined in
 
-main.ts:171236
+[main.ts:171116](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L171116)
 
 ## Properties
 
@@ -73,7 +73,7 @@ main.ts:171236
 
 #### Defined in
 
-main.ts:20756
+[main.ts:20756](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L20756)
 
 ___
 
@@ -89,7 +89,7 @@ Amazon product items
 
 #### Defined in
 
-main.ts:171232
+[main.ts:171112](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L171112)
 
 ___
 
@@ -107,7 +107,7 @@ left, right
 
 #### Defined in
 
-main.ts:171228
+[main.ts:171108](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L171108)
 
 ___
 
@@ -124,7 +124,7 @@ absolute position among all the elements found in Amazon SERP
 
 #### Defined in
 
-main.ts:171224
+[main.ts:171104](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L171104)
 
 ___
 
@@ -141,7 +141,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-main.ts:171221
+[main.ts:171101](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L171101)
 
 ___
 
@@ -157,7 +157,7 @@ the XPath of the element
 
 #### Defined in
 
-main.ts:171230
+[main.ts:171110](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L171110)
 
 ## Methods
 
@@ -181,7 +181,7 @@ main.ts:171230
 
 #### Defined in
 
-main.ts:171241
+[main.ts:171121](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L171121)
 
 ___
 
@@ -205,7 +205,7 @@ ___
 
 #### Defined in
 
-main.ts:171267
+[main.ts:171147](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L171147)
 
 ___
 
@@ -229,4 +229,4 @@ ___
 
 #### Defined in
 
-main.ts:171260
+[main.ts:171140](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L171140)

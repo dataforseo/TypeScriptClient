@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / DatasetSerpElementItem
+[dataforseo-client](../README.md) / [Exports](../modules.md) / DatasetSerpElementItem
 
 # Class: DatasetSerpElementItem
 
@@ -74,7 +74,7 @@
 
 #### Defined in
 
-main.ts:51037
+[main.ts:50895](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L50895)
 
 ## Properties
 
@@ -88,7 +88,7 @@ main.ts:51037
 
 #### Defined in
 
-main.ts:19337
+[main.ts:19337](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L19337)
 
 ___
 
@@ -105,7 +105,7 @@ for example: Africa, Global
 
 #### Defined in
 
-main.ts:51029
+[main.ts:50887](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L50887)
 
 ___
 
@@ -121,7 +121,7 @@ the list of authors of the dataset
 
 #### Defined in
 
-main.ts:51019
+[main.ts:50877](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L50877)
 
 ___
 
@@ -137,7 +137,7 @@ description of the dataset
 
 #### Defined in
 
-main.ts:51033
+[main.ts:50891](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L50891)
 
 ___
 
@@ -153,7 +153,7 @@ ID of the dataset
 
 #### Defined in
 
-main.ts:50991
+[main.ts:50849](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L50849)
 
 ___
 
@@ -169,7 +169,7 @@ the list of institutions that provided the dataset
 
 #### Defined in
 
-main.ts:51015
+[main.ts:50873](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L50873)
 
 ___
 
@@ -185,7 +185,7 @@ the list of file formats of the dataset
 
 #### Defined in
 
-main.ts:51017
+[main.ts:50875](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L50875)
 
 ___
 
@@ -202,7 +202,7 @@ the URL leading to the image on the original resource or DataForSEO storage (in 
 
 #### Defined in
 
-main.ts:50996
+[main.ts:50854](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L50854)
 
 ___
 
@@ -218,7 +218,7 @@ the list of licenses issued to the dataset
 
 #### Defined in
 
-main.ts:51021
+[main.ts:50879](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L50879)
 
 ___
 
@@ -236,7 +236,7 @@ if there are none, equals null
 
 #### Defined in
 
-main.ts:51013
+[main.ts:50871](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L50871)
 
 ___
 
@@ -252,7 +252,7 @@ period covered in the dataset
 
 #### Defined in
 
-main.ts:51031
+[main.ts:50889](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L50889)
 
 ___
 
@@ -270,7 +270,7 @@ left, right
 
 #### Defined in
 
-main.ts:50987
+[main.ts:50845](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L50845)
 
 ___
 
@@ -287,7 +287,7 @@ absolute position among all the elements in SERP
 
 #### Defined in
 
-main.ts:50983
+[main.ts:50841](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L50841)
 
 ___
 
@@ -305,7 +305,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-main.ts:50980
+[main.ts:50838](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L50838)
 
 ___
 
@@ -322,7 +322,7 @@ link to the published article that is related to the dataset
 
 #### Defined in
 
-main.ts:51009
+[main.ts:50867](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L50867)
 
 ___
 
@@ -340,7 +340,7 @@ example: https://scholar.google.com/scholar?q=%2210.6084%20m9%20figshare%2074279
 
 #### Defined in
 
-main.ts:51002
+[main.ts:50860](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L50860)
 
 ___
 
@@ -356,7 +356,7 @@ count of articles that refer to the dataset
 
 #### Defined in
 
-main.ts:50998
+[main.ts:50856](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L50856)
 
 ___
 
@@ -372,7 +372,7 @@ title of the result in SERP
 
 #### Defined in
 
-main.ts:50993
+[main.ts:50851](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L50851)
 
 ___
 
@@ -390,7 +390,7 @@ example: https://doi.org/10.5061/dryad.hmgqnk9m3
 
 #### Defined in
 
-main.ts:51006
+[main.ts:50864](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L50864)
 
 ___
 
@@ -409,7 +409,7 @@ example:
 
 #### Defined in
 
-main.ts:51026
+[main.ts:50884](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L50884)
 
 ___
 
@@ -425,7 +425,7 @@ the XPath of the element
 
 #### Defined in
 
-main.ts:50989
+[main.ts:50847](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L50847)
 
 ## Methods
 
@@ -449,7 +449,7 @@ main.ts:50989
 
 #### Defined in
 
-main.ts:51042
+[main.ts:50900](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L50900)
 
 ___
 
@@ -473,7 +473,7 @@ ___
 
 #### Defined in
 
-main.ts:51103
+[main.ts:50961](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L50961)
 
 ___
 
@@ -497,4 +497,4 @@ ___
 
 #### Defined in
 
-main.ts:51096
+[main.ts:50954](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L50954)

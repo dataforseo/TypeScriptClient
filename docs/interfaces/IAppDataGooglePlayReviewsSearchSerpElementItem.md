@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IAppDataGooglePlayReviewsSearchSerpElementItem
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IAppDataGooglePlayReviewsSearchSerpElementItem
 
 # Interface: IAppDataGooglePlayReviewsSearchSerpElementItem
 
@@ -44,7 +44,7 @@ indicates how many users considered the review helpful and voted with the thumbs
 
 #### Defined in
 
-main.ts:181532
+[main.ts:181412](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L181412)
 
 ___
 
@@ -56,7 +56,7 @@ id of the review
 
 #### Defined in
 
-main.ts:181529
+[main.ts:181409](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L181409)
 
 ___
 
@@ -69,7 +69,7 @@ can take the following values: left
 
 #### Defined in
 
-main.ts:181517
+[main.ts:181397](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L181397)
 
 ___
 
@@ -82,7 +82,7 @@ absolute position among all reviews on the list
 
 #### Defined in
 
-main.ts:181514
+[main.ts:181394](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L181394)
 
 ___
 
@@ -95,7 +95,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-main.ts:181511
+[main.ts:181391](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L181391)
 
 ___
 
@@ -107,7 +107,7 @@ the rating score submitted by the reviewer
 
 #### Defined in
 
-main.ts:181522
+[main.ts:181402](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L181402)
 
 ___
 
@@ -119,7 +119,7 @@ response from the developer
 
 #### Defined in
 
-main.ts:181541
+[main.ts:181421](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L181421)
 
 ___
 
@@ -131,7 +131,7 @@ content of the review
 
 #### Defined in
 
-main.ts:181537
+[main.ts:181417](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L181417)
 
 ___
 
@@ -146,7 +146,7 @@ example:
 
 #### Defined in
 
-main.ts:181527
+[main.ts:181407](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L181407)
 
 ___
 
@@ -159,7 +159,7 @@ Google Play doesn’t provide an option to title reviews, so this parameter will
 
 #### Defined in
 
-main.ts:181535
+[main.ts:181415](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L181415)
 
 ___
 
@@ -171,7 +171,7 @@ user profile of the reviewer
 
 #### Defined in
 
-main.ts:181539
+[main.ts:181419](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L181419)
 
 ___
 
@@ -184,4 +184,4 @@ version of the app for which the review is submitted
 
 #### Defined in
 
-main.ts:181520
+[main.ts:181400](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L181400)

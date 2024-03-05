@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IBusinessDataGoogleReviewsTasksReadyResultInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IBusinessDataGoogleReviewsTasksReadyResultInfo
 
 # Interface: IBusinessDataGoogleReviewsTasksReadyResultInfo
 
@@ -31,7 +31,7 @@ date when the task was posted (in the UTC format)
 
 #### Defined in
 
-main.ts:198165
+[main.ts:198045](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L198045)
 
 ___
 
@@ -43,7 +43,7 @@ URL for collecting the results of the task
 
 #### Defined in
 
-main.ts:198169
+[main.ts:198049](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L198049)
 
 ___
 
@@ -56,7 +56,7 @@ unique task identifier in our system in the UUID format
 
 #### Defined in
 
-main.ts:198157
+[main.ts:198037](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L198037)
 
 ___
 
@@ -69,7 +69,7 @@ can take the following values: google
 
 #### Defined in
 
-main.ts:198160
+[main.ts:198040](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L198040)
 
 ___
 
@@ -82,7 +82,7 @@ can take the following values: reviews
 
 #### Defined in
 
-main.ts:198163
+[main.ts:198043](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L198043)
 
 ___
 
@@ -94,4 +94,4 @@ user-defined task identifier
 
 #### Defined in
 
-main.ts:198167
+[main.ts:198047](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L198047)

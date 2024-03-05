@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / DataforseoLabsleKeywordsForAppLiveItem
+[dataforseo-client](../README.md) / [Exports](../modules.md) / DataforseoLabsleKeywordsForAppLiveItem
 
 # Class: DataforseoLabsleKeywordsForAppLiveItem
 
@@ -46,7 +46,7 @@
 
 #### Defined in
 
-main.ts:108860
+[main.ts:108716](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L108716)
 
 ## Properties
 
@@ -62,7 +62,7 @@ keyword data for the returned keyword
 
 #### Defined in
 
-main.ts:108854
+[main.ts:108710](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L108710)
 
 ___
 
@@ -78,7 +78,7 @@ contains data on the domain’s SERP element found for the returned keyword
 
 #### Defined in
 
-main.ts:108856
+[main.ts:108712](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L108712)
 
 ___
 
@@ -94,7 +94,7 @@ search engine type
 
 #### Defined in
 
-main.ts:108852
+[main.ts:108708](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L108708)
 
 ## Methods
 
@@ -114,7 +114,7 @@ main.ts:108852
 
 #### Defined in
 
-main.ts:108869
+[main.ts:108725](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L108725)
 
 ___
 
@@ -134,7 +134,7 @@ ___
 
 #### Defined in
 
-main.ts:108888
+[main.ts:108744](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L108744)
 
 ___
 
@@ -154,4 +154,4 @@ ___
 
 #### Defined in
 
-main.ts:108881
+[main.ts:108737](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L108737)

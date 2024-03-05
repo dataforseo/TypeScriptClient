@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IKnowledgeGraphShoppingElement
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IKnowledgeGraphShoppingElement
 
 # Interface: IKnowledgeGraphShoppingElement
 
@@ -34,7 +34,7 @@ website domain
 
 #### Defined in
 
-main.ts:27520
+[main.ts:27378](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L27378)
 
 ___
 
@@ -49,7 +49,7 @@ by Google
 
 #### Defined in
 
-main.ts:27532
+[main.ts:27390](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L27390)
 
 ___
 
@@ -62,7 +62,7 @@ ecommerce site that hosts products or websites of individual sellers under the s
 
 #### Defined in
 
-main.ts:27535
+[main.ts:27393](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L27393)
 
 ___
 
@@ -75,7 +75,7 @@ contains the pricing details of the product or service featured in the result
 
 #### Defined in
 
-main.ts:27523
+[main.ts:27381](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L27381)
 
 ___
 
@@ -87,7 +87,7 @@ text alongside the link title
 
 #### Defined in
 
-main.ts:27527
+[main.ts:27385](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L27385)
 
 ___
 
@@ -99,7 +99,7 @@ source of additional information about the result
 
 #### Defined in
 
-main.ts:27525
+[main.ts:27383](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L27383)
 
 ___
 
@@ -111,7 +111,7 @@ title of the result in SERP
 
 #### Defined in
 
-main.ts:27516
+[main.ts:27374](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L27374)
 
 ___
 
@@ -123,7 +123,7 @@ type of element
 
 #### Defined in
 
-main.ts:27514
+[main.ts:27372](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L27372)
 
 ___
 
@@ -135,4 +135,4 @@ relevant URL
 
 #### Defined in
 
-main.ts:27518
+[main.ts:27376](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L27376)

@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / TrendsGraphDataInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / TrendsGraphDataInfo
 
 # Class: TrendsGraphDataInfo
 
@@ -48,7 +48,7 @@
 
 #### Defined in
 
-main.ts:120549
+[main.ts:120405](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L120405)
 
 ## Properties
 
@@ -65,7 +65,7 @@ in the UTC format: “yyyy-mm-dd”
 
 #### Defined in
 
-main.ts:120532
+[main.ts:120388](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L120388)
 
 ___
 
@@ -82,7 +82,7 @@ in the UTC format: “yyyy-mm-dd”
 
 #### Defined in
 
-main.ts:120535
+[main.ts:120391](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L120391)
 
 ___
 
@@ -99,7 +99,7 @@ if true the data on the graph in the Google Trends interface is missing and thus
 
 #### Defined in
 
-main.ts:120540
+[main.ts:120396](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L120396)
 
 ___
 
@@ -115,7 +115,7 @@ a point in time in the Unix time format
 
 #### Defined in
 
-main.ts:120537
+[main.ts:120393](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L120393)
 
 ___
 
@@ -134,7 +134,7 @@ a value of 100 is the peak popularity for the term. A value of 50 means that the
 
 #### Defined in
 
-main.ts:120545
+[main.ts:120401](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L120401)
 
 ## Methods
 
@@ -154,7 +154,7 @@ main.ts:120545
 
 #### Defined in
 
-main.ts:120558
+[main.ts:120414](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L120414)
 
 ___
 
@@ -174,7 +174,7 @@ ___
 
 #### Defined in
 
-main.ts:120583
+[main.ts:120439](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L120439)
 
 ___
 
@@ -194,4 +194,4 @@ ___
 
 #### Defined in
 
-main.ts:120576
+[main.ts:120432](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L120432)

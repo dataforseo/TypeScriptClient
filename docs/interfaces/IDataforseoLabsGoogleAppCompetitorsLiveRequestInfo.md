@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IDataforseoLabsGoogleAppCompetitorsLiveRequestInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IDataforseoLabsGoogleAppCompetitorsLiveRequestInfo
 
 # Interface: IDataforseoLabsGoogleAppCompetitorsLiveRequestInfo
 
@@ -41,7 +41,7 @@ the id is org.telegram.messenger
 
 #### Defined in
 
-main.ts:109290
+[main.ts:109146](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L109146)
 
 ___
 
@@ -65,7 +65,7 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 #### Defined in
 
-main.ts:109340
+[main.ts:109196](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L109196)
 
 ___
 
@@ -84,7 +84,7 @@ en
 
 #### Defined in
 
-main.ts:109326
+[main.ts:109182](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L109182)
 
 ___
 
@@ -103,7 +103,7 @@ English
 
 #### Defined in
 
-main.ts:109317
+[main.ts:109173](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L109173)
 
 ___
 
@@ -118,7 +118,7 @@ maximum value: 1000
 
 #### Defined in
 
-main.ts:109362
+[main.ts:109218](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L109218)
 
 ___
 
@@ -137,7 +137,7 @@ example:
 
 #### Defined in
 
-main.ts:109308
+[main.ts:109164](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L109164)
 
 ___
 
@@ -156,7 +156,7 @@ United States
 
 #### Defined in
 
-main.ts:109299
+[main.ts:109155](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L109155)
 
 ___
 
@@ -171,7 +171,7 @@ if you specify the 10 value, the first ten apps in the results array will be omi
 
 #### Defined in
 
-main.ts:109367
+[main.ts:109223](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L109223)
 
 ___
 
@@ -198,7 +198,7 @@ Note: if the item_types array contains item types that are different from organi
 
 #### Defined in
 
-main.ts:109357
+[main.ts:109213](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L109213)
 
 ___
 
@@ -214,4 +214,4 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:109373
+[main.ts:109229](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L109229)

@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / BusinessDataAttributesInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / BusinessDataAttributesInfo
 
 # Class: BusinessDataAttributesInfo
 
@@ -45,7 +45,7 @@
 
 #### Defined in
 
-main.ts:188724
+[main.ts:188604](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L188604)
 
 ## Properties
 
@@ -66,7 +66,7 @@ indicates attributes a business entity can offer
 
 #### Defined in
 
-main.ts:188717
+[main.ts:188597](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L188597)
 
 ___
 
@@ -87,7 +87,7 @@ indicates attributes a business entity cannot offer
 
 #### Defined in
 
-main.ts:188720
+[main.ts:188600](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L188600)
 
 ## Methods
 
@@ -107,7 +107,7 @@ main.ts:188720
 
 #### Defined in
 
-main.ts:188733
+[main.ts:188613](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L188613)
 
 ___
 
@@ -127,7 +127,7 @@ ___
 
 #### Defined in
 
-main.ts:188763
+[main.ts:188643](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L188643)
 
 ___
 
@@ -147,4 +147,4 @@ ___
 
 #### Defined in
 
-main.ts:188756
+[main.ts:188636](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L188636)

@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / ResponseDataInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / ResponseDataInfo
 
 # Class: ResponseDataInfo
 
@@ -47,7 +47,7 @@
 
 #### Defined in
 
-main.ts:181346
+[main.ts:181226](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L181226)
 
 ## Properties
 
@@ -63,7 +63,7 @@ author of the response
 
 #### Defined in
 
-main.ts:181332
+[main.ts:181212](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L181212)
 
 ___
 
@@ -79,7 +79,7 @@ content of the response
 
 #### Defined in
 
-main.ts:181337
+[main.ts:181217](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L181217)
 
 ___
 
@@ -98,7 +98,7 @@ example:
 
 #### Defined in
 
-main.ts:181342
+[main.ts:181222](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L181222)
 
 ___
 
@@ -115,7 +115,7 @@ in this case, will equal null
 
 #### Defined in
 
-main.ts:181335
+[main.ts:181215](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L181215)
 
 ## Methods
 
@@ -135,7 +135,7 @@ main.ts:181335
 
 #### Defined in
 
-main.ts:181355
+[main.ts:181235](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L181235)
 
 ___
 
@@ -155,7 +155,7 @@ ___
 
 #### Defined in
 
-main.ts:181375
+[main.ts:181255](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L181255)
 
 ___
 
@@ -175,4 +175,4 @@ ___
 
 #### Defined in
 
-main.ts:181368
+[main.ts:181248](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L181248)

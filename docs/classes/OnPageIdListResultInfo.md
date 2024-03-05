@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / OnPageIdListResultInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / OnPageIdListResultInfo
 
 # Class: OnPageIdListResultInfo
 
@@ -50,7 +50,7 @@
 
 #### Defined in
 
-main.ts:141729
+[main.ts:141585](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L141585)
 
 ## Properties
 
@@ -66,7 +66,7 @@ cost of the task, USD
 
 #### Defined in
 
-main.ts:141723
+[main.ts:141579](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L141579)
 
 ___
 
@@ -85,7 +85,7 @@ example:
 
 #### Defined in
 
-main.ts:141718
+[main.ts:141574](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L141574)
 
 ___
 
@@ -104,7 +104,7 @@ example:
 
 #### Defined in
 
-main.ts:141713
+[main.ts:141569](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L141569)
 
 ___
 
@@ -120,7 +120,7 @@ id of the task
 
 #### Defined in
 
-main.ts:141705
+[main.ts:141561](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L141561)
 
 ___
 
@@ -140,7 +140,7 @@ contains parameters you specified in the POST request
 
 #### Defined in
 
-main.ts:141725
+[main.ts:141581](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L141581)
 
 ___
 
@@ -157,7 +157,7 @@ you can find the full list of general informational messages here
 
 #### Defined in
 
-main.ts:141721
+[main.ts:141577](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L141577)
 
 ___
 
@@ -174,7 +174,7 @@ URL you used for making an API call
 
 #### Defined in
 
-main.ts:141708
+[main.ts:141564](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L141564)
 
 ## Methods
 
@@ -194,7 +194,7 @@ main.ts:141708
 
 #### Defined in
 
-main.ts:141738
+[main.ts:141594](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L141594)
 
 ___
 
@@ -214,7 +214,7 @@ ___
 
 #### Defined in
 
-main.ts:141767
+[main.ts:141623](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L141623)
 
 ___
 
@@ -234,4 +234,4 @@ ___
 
 #### Defined in
 
-main.ts:141760
+[main.ts:141616](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L141616)

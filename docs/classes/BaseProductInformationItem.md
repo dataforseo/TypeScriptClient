@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / BaseProductInformationItem
+[dataforseo-client](../README.md) / [Exports](../modules.md) / BaseProductInformationItem
 
 # Class: BaseProductInformationItem
 
@@ -54,7 +54,7 @@
 
 #### Defined in
 
-main.ts:21859
+[main.ts:21717](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L21717)
 
 ## Properties
 
@@ -64,7 +64,7 @@ main.ts:21859
 
 #### Defined in
 
-main.ts:21857
+[main.ts:21715](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L21715)
 
 ## Methods
 
@@ -84,7 +84,7 @@ main.ts:21857
 
 #### Defined in
 
-main.ts:21869
+[main.ts:21727](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L21727)
 
 ___
 
@@ -104,7 +104,7 @@ ___
 
 #### Defined in
 
-main.ts:21900
+[main.ts:21758](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L21758)
 
 ___
 
@@ -124,4 +124,4 @@ ___
 
 #### Defined in
 
-main.ts:21878
+[main.ts:21736](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L21736)

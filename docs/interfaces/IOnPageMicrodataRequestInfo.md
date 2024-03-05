@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IOnPageMicrodataRequestInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IOnPageMicrodataRequestInfo
 
 # Interface: IOnPageMicrodataRequestInfo
 
@@ -32,7 +32,7 @@ example:
 
 #### Defined in
 
-main.ts:150706
+[main.ts:150562](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L150562)
 
 ___
 
@@ -48,7 +48,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:150718
+[main.ts:150574](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L150574)
 
 ___
 
@@ -64,4 +64,4 @@ https://dataforseo.com/apis
 
 #### Defined in
 
-main.ts:150712
+[main.ts:150568](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L150568)

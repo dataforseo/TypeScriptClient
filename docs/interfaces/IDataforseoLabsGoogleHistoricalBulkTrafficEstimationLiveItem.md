@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IDataforseoLabsGoogleHistoricalBulkTrafficEstimationLiveItem
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IDataforseoLabsGoogleHistoricalBulkTrafficEstimationLiveItem
 
 # Interface: IDataforseoLabsGoogleHistoricalBulkTrafficEstimationLiveItem
 
@@ -28,7 +28,7 @@ traffic data relevant to the specified domain
 
 #### Defined in
 
-main.ts:98551
+[main.ts:98407](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L98407)
 
 ___
 
@@ -40,7 +40,7 @@ search engine type
 
 #### Defined in
 
-main.ts:98547
+[main.ts:98403](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L98403)
 
 ___
 
@@ -52,4 +52,4 @@ target domain in a POST array
 
 #### Defined in
 
-main.ts:98549
+[main.ts:98405](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L98405)

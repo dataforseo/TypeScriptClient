@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IBusinessDataGoogleHotelSearchesLiveRequestInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IBusinessDataGoogleHotelSearchesLiveRequestInfo
 
 # Interface: IBusinessDataGoogleHotelSearchesLiveRequestInfo
 
@@ -51,7 +51,7 @@ example:
 
 #### Defined in
 
-main.ts:194624
+[main.ts:194504](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L194504)
 
 ___
 
@@ -90,7 +90,7 @@ possible values:
 
 #### Defined in
 
-main.ts:194707
+[main.ts:194587](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L194587)
 
 ___
 
@@ -108,7 +108,7 @@ Note: the value cannot precede the today’s date
 
 #### Defined in
 
-main.ts:194603
+[main.ts:194483](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L194483)
 
 ___
 
@@ -127,7 +127,7 @@ the range between check_in and check_out values cannot exceed 30 days
 
 #### Defined in
 
-main.ts:194612
+[main.ts:194492](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L194492)
 
 ___
 
@@ -147,7 +147,7 @@ set the following value if you want to include one 13-year-old child and one 8-y
 
 #### Defined in
 
-main.ts:194634
+[main.ts:194514](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L194514)
 
 ___
 
@@ -162,7 +162,7 @@ example:
 
 #### Defined in
 
-main.ts:194617
+[main.ts:194497](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L194497)
 
 ___
 
@@ -181,7 +181,7 @@ if the specified depth is higher than the number of results in the response, the
 
 #### Defined in
 
-main.ts:194595
+[main.ts:194475](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L194475)
 
 ___
 
@@ -196,7 +196,7 @@ default value: false
 
 #### Defined in
 
-main.ts:194673
+[main.ts:194553](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L194553)
 
 ___
 
@@ -211,7 +211,7 @@ default value: false
 
 #### Defined in
 
-main.ts:194678
+[main.ts:194558](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L194558)
 
 ___
 
@@ -230,7 +230,7 @@ Note: in order to obtain accurate search results, the location name is appended 
 
 #### Defined in
 
-main.ts:194548
+[main.ts:194428](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L194428)
 
 ___
 
@@ -247,7 +247,7 @@ en
 
 #### Defined in
 
-main.ts:194586
+[main.ts:194466](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L194466)
 
 ___
 
@@ -264,7 +264,7 @@ English
 
 #### Defined in
 
-main.ts:194579
+[main.ts:194459](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L194459)
 
 ___
 
@@ -281,7 +281,7 @@ example:
 
 #### Defined in
 
-main.ts:194563
+[main.ts:194443](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L194443)
 
 ___
 
@@ -300,7 +300,7 @@ example:
 
 #### Defined in
 
-main.ts:194572
+[main.ts:194452](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L194452)
 
 ___
 
@@ -318,7 +318,7 @@ Note: in order to obtain accurate search results, the location_name you specify 
 
 #### Defined in
 
-main.ts:194556
+[main.ts:194436](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L194436)
 
 ___
 
@@ -334,7 +334,7 @@ example:
 
 #### Defined in
 
-main.ts:194668
+[main.ts:194548](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L194548)
 
 ___
 
@@ -350,7 +350,7 @@ example:
 
 #### Defined in
 
-main.ts:194662
+[main.ts:194542](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L194542)
 
 ___
 
@@ -366,7 +366,7 @@ example:
 
 #### Defined in
 
-main.ts:194646
+[main.ts:194526](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L194526)
 
 ___
 
@@ -386,7 +386,7 @@ default value: relevance
 
 #### Defined in
 
-main.ts:194656
+[main.ts:194536](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L194536)
 
 ___
 
@@ -402,7 +402,7 @@ example:
 
 #### Defined in
 
-main.ts:194640
+[main.ts:194520](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L194520)
 
 ___
 
@@ -418,4 +418,4 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:194713
+[main.ts:194593](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L194593)

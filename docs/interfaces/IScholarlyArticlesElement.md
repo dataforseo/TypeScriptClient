@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IScholarlyArticlesElement
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IScholarlyArticlesElement
 
 # Interface: IScholarlyArticlesElement
 
@@ -30,7 +30,7 @@ author
 
 #### Defined in
 
-main.ts:32003
+[main.ts:31861](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L31861)
 
 ___
 
@@ -42,7 +42,7 @@ description of the results element in SERP
 
 #### Defined in
 
-main.ts:32005
+[main.ts:31863](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L31863)
 
 ___
 
@@ -54,7 +54,7 @@ title of the row
 
 #### Defined in
 
-main.ts:31999
+[main.ts:31857](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L31857)
 
 ___
 
@@ -66,7 +66,7 @@ type of element
 
 #### Defined in
 
-main.ts:31997
+[main.ts:31855](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L31855)
 
 ___
 
@@ -78,4 +78,4 @@ URL
 
 #### Defined in
 
-main.ts:32001
+[main.ts:31859](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L31859)

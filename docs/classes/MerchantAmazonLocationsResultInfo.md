@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / MerchantAmazonLocationsResultInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / MerchantAmazonLocationsResultInfo
 
 # Class: MerchantAmazonLocationsResultInfo
 
@@ -48,7 +48,7 @@
 
 #### Defined in
 
-main.ts:169885
+[main.ts:169765](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L169765)
 
 ## Properties
 
@@ -64,7 +64,7 @@ ISO country code of the location
 
 #### Defined in
 
-main.ts:169879
+[main.ts:169759](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L169759)
 
 ___
 
@@ -80,7 +80,7 @@ location code
 
 #### Defined in
 
-main.ts:169869
+[main.ts:169749](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L169749)
 
 ___
 
@@ -96,7 +96,7 @@ full name of the location
 
 #### Defined in
 
-main.ts:169871
+[main.ts:169751](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L169751)
 
 ___
 
@@ -116,7 +116,7 @@ example:
 
 #### Defined in
 
-main.ts:169877
+[main.ts:169757](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L169757)
 
 ___
 
@@ -132,7 +132,7 @@ location type
 
 #### Defined in
 
-main.ts:169881
+[main.ts:169761](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L169761)
 
 ## Methods
 
@@ -152,7 +152,7 @@ main.ts:169881
 
 #### Defined in
 
-main.ts:169894
+[main.ts:169774](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L169774)
 
 ___
 
@@ -172,7 +172,7 @@ ___
 
 #### Defined in
 
-main.ts:169915
+[main.ts:169795](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L169795)
 
 ___
 
@@ -192,4 +192,4 @@ ___
 
 #### Defined in
 
-main.ts:169908
+[main.ts:169788](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L169788)

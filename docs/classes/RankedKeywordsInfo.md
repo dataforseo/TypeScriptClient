@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / RankedKeywordsInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / RankedKeywordsInfo
 
 # Class: RankedKeywordsInfo
 
@@ -46,7 +46,7 @@
 
 #### Defined in
 
-main.ts:131037
+[main.ts:130893](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L130893)
 
 ## Properties
 
@@ -62,7 +62,7 @@ number of keywords for which the page is ranked in top 10 search results
 
 #### Defined in
 
-main.ts:131031
+[main.ts:130887](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L130887)
 
 ___
 
@@ -78,7 +78,7 @@ number of keywords for which the page is ranked in top 100 search results
 
 #### Defined in
 
-main.ts:131033
+[main.ts:130889](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L130889)
 
 ___
 
@@ -94,7 +94,7 @@ number of keywords for which the page is ranked in top 3 search results
 
 #### Defined in
 
-main.ts:131029
+[main.ts:130885](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L130885)
 
 ## Methods
 
@@ -114,7 +114,7 @@ main.ts:131029
 
 #### Defined in
 
-main.ts:131046
+[main.ts:130902](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L130902)
 
 ___
 
@@ -134,7 +134,7 @@ ___
 
 #### Defined in
 
-main.ts:131065
+[main.ts:130921](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L130921)
 
 ___
 
@@ -154,4 +154,4 @@ ___
 
 #### Defined in
 
-main.ts:131058
+[main.ts:130914](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L130914)

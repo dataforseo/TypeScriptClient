@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / ITable
+[dataforseo-client](../README.md) / [Exports](../modules.md) / ITable
 
 # Interface: ITable
 
@@ -29,7 +29,7 @@ one line of the table in this element of the array
 
 #### Defined in
 
-main.ts:21304
+[main.ts:21304](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L21304)
 
 ___
 
@@ -43,7 +43,7 @@ table_element
 
 #### Defined in
 
-main.ts:21299
+[main.ts:21299](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L21299)
 
 ___
 
@@ -55,4 +55,4 @@ column names
 
 #### Defined in
 
-main.ts:21301
+[main.ts:21301](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L21301)

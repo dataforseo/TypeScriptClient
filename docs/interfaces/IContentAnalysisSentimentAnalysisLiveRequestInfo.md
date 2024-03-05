@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IContentAnalysisSentimentAnalysisLiveRequestInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IContentAnalysisSentimentAnalysisLiveRequestInfo
 
 # Interface: IContentAnalysisSentimentAnalysisLiveRequestInfo
 
@@ -48,7 +48,7 @@ for more information about filters, please refer to Content Analysis API – Fil
 
 #### Defined in
 
-main.ts:157956
+[main.ts:157836](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L157836)
 
 ___
 
@@ -69,7 +69,7 @@ maximum value: 20
 
 #### Defined in
 
-main.ts:157925
+[main.ts:157805](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L157805)
 
 ___
 
@@ -88,7 +88,7 @@ example:
 
 #### Defined in
 
-main.ts:157896
+[main.ts:157776](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L157776)
 
 ___
 
@@ -114,7 +114,7 @@ example:
 
 #### Defined in
 
-main.ts:157908
+[main.ts:157788](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L157788)
 
 ___
 
@@ -130,7 +130,7 @@ possible values:
 
 #### Defined in
 
-main.ts:157914
+[main.ts:157794](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L157794)
 
 ___
 
@@ -147,7 +147,7 @@ default value: 0.4
 
 #### Defined in
 
-main.ts:157932
+[main.ts:157812](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L157812)
 
 ___
 
@@ -164,7 +164,7 @@ default value: 0.4
 
 #### Defined in
 
-main.ts:157939
+[main.ts:157819](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L157819)
 
 ___
 
@@ -180,4 +180,4 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:157962
+[main.ts:157842](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L157842)

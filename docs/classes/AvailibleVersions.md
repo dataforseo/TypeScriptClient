@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / AvailibleVersions
+[dataforseo-client](../README.md) / [Exports](../modules.md) / AvailibleVersions
 
 # Class: AvailibleVersions
 
@@ -45,7 +45,7 @@
 
 #### Defined in
 
-main.ts:154000
+[main.ts:153856](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L153856)
 
 ## Properties
 
@@ -62,7 +62,7 @@ if false, the version is not used by default and should be specified in the corr
 
 #### Defined in
 
-main.ts:153996
+[main.ts:153852](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L153852)
 
 ___
 
@@ -78,7 +78,7 @@ lighthouse version
 
 #### Defined in
 
-main.ts:153993
+[main.ts:153849](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L153849)
 
 ## Methods
 
@@ -98,7 +98,7 @@ main.ts:153993
 
 #### Defined in
 
-main.ts:154009
+[main.ts:153865](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L153865)
 
 ___
 
@@ -118,7 +118,7 @@ ___
 
 #### Defined in
 
-main.ts:154027
+[main.ts:153883](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L153883)
 
 ___
 
@@ -138,4 +138,4 @@ ___
 
 #### Defined in
 
-main.ts:154020
+[main.ts:153876](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L153876)

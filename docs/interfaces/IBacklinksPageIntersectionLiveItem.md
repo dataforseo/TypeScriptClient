@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IBacklinksPageIntersectionLiveItem
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IBacklinksPageIntersectionLiveItem
 
 # Interface: IBacklinksPageIntersectionLiveItem
 
@@ -32,7 +32,7 @@ data is provided in separate objects corresponding to pages specified in the tar
 
 #### Defined in
 
-main.ts:138294
+[main.ts:138150](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L138150)
 
 ___
 
@@ -44,4 +44,4 @@ contains the page intersections summary
 
 #### Defined in
 
-main.ts:138296
+[main.ts:138152](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L138152)

@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / OnPageDuplicateContentRequestInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / OnPageDuplicateContentRequestInfo
 
 # Class: OnPageDuplicateContentRequestInfo
 
@@ -49,7 +49,7 @@
 
 #### Defined in
 
-main.ts:147607
+[main.ts:147463](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L147463)
 
 ## Properties
 
@@ -69,7 +69,7 @@ example:
 
 #### Defined in
 
-main.ts:147579
+[main.ts:147435](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L147435)
 
 ___
 
@@ -88,7 +88,7 @@ maximum value: 1000
 
 #### Defined in
 
-main.ts:147592
+[main.ts:147448](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L147448)
 
 ___
 
@@ -107,7 +107,7 @@ if you specify the 10 value, the first ten pages in the results array will be om
 
 #### Defined in
 
-main.ts:147597
+[main.ts:147453](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L147453)
 
 ___
 
@@ -125,7 +125,7 @@ you can specify any similarity score in the 0-to-10 range
 
 #### Defined in
 
-main.ts:147587
+[main.ts:147443](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L147443)
 
 ___
 
@@ -145,7 +145,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:147603
+[main.ts:147459](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L147459)
 
 ___
 
@@ -163,7 +163,7 @@ specify the initial page you want to receive duplicate content for
 
 #### Defined in
 
-main.ts:147583
+[main.ts:147439](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L147439)
 
 ## Methods
 
@@ -183,7 +183,7 @@ main.ts:147583
 
 #### Defined in
 
-main.ts:147616
+[main.ts:147472](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L147472)
 
 ___
 
@@ -203,7 +203,7 @@ ___
 
 #### Defined in
 
-main.ts:147638
+[main.ts:147494](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L147494)
 
 ___
 
@@ -223,4 +223,4 @@ ___
 
 #### Defined in
 
-main.ts:147631
+[main.ts:147487](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L147487)

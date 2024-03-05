@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / OnPageNonIndexableItem
+[dataforseo-client](../README.md) / [Exports](../modules.md) / OnPageNonIndexableItem
 
 # Class: OnPageNonIndexableItem
 
@@ -45,7 +45,7 @@
 
 #### Defined in
 
-main.ts:149530
+[main.ts:149386](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L149386)
 
 ## Properties
 
@@ -62,7 +62,7 @@ can take the following values: robots_txt, meta_tag, http_header, attribute, too
 
 #### Defined in
 
-main.ts:149524
+[main.ts:149380](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L149380)
 
 ___
 
@@ -78,7 +78,7 @@ url of the non-indexable page
 
 #### Defined in
 
-main.ts:149526
+[main.ts:149382](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L149382)
 
 ## Methods
 
@@ -98,7 +98,7 @@ main.ts:149526
 
 #### Defined in
 
-main.ts:149539
+[main.ts:149395](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L149395)
 
 ___
 
@@ -118,7 +118,7 @@ ___
 
 #### Defined in
 
-main.ts:149557
+[main.ts:149413](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L149413)
 
 ___
 
@@ -138,4 +138,4 @@ ___
 
 #### Defined in
 
-main.ts:149550
+[main.ts:149406](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L149406)

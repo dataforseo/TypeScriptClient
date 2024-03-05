@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / ContentAnalysisLanguagesResultInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / ContentAnalysisLanguagesResultInfo
 
 # Class: ContentAnalysisLanguagesResultInfo
 
@@ -45,7 +45,7 @@
 
 #### Defined in
 
-main.ts:155837
+[main.ts:155693](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L155693)
 
 ## Properties
 
@@ -61,7 +61,7 @@ language code according to ISO 639-1
 
 #### Defined in
 
-main.ts:155833
+[main.ts:155689](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L155689)
 
 ___
 
@@ -77,7 +77,7 @@ language name
 
 #### Defined in
 
-main.ts:155831
+[main.ts:155687](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L155687)
 
 ## Methods
 
@@ -97,7 +97,7 @@ main.ts:155831
 
 #### Defined in
 
-main.ts:155846
+[main.ts:155702](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L155702)
 
 ___
 
@@ -117,7 +117,7 @@ ___
 
 #### Defined in
 
-main.ts:155864
+[main.ts:155720](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L155720)
 
 ___
 
@@ -137,4 +137,4 @@ ___
 
 #### Defined in
 
-main.ts:155857
+[main.ts:155713](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L155713)

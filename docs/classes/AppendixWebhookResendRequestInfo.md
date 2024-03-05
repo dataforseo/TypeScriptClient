@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / AppendixWebhookResendRequestInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / AppendixWebhookResendRequestInfo
 
 # Class: AppendixWebhookResendRequestInfo
 
@@ -44,7 +44,7 @@
 
 #### Defined in
 
-main.ts:212643
+[main.ts:212523](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L212523)
 
 ## Properties
 
@@ -63,7 +63,7 @@ each identifier in the task array must be specified as a separate object
 
 #### Defined in
 
-main.ts:212639
+[main.ts:212519](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L212519)
 
 ## Methods
 
@@ -83,7 +83,7 @@ main.ts:212639
 
 #### Defined in
 
-main.ts:212652
+[main.ts:212532](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L212532)
 
 ___
 
@@ -103,7 +103,7 @@ ___
 
 #### Defined in
 
-main.ts:212669
+[main.ts:212549](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L212549)
 
 ___
 
@@ -123,4 +123,4 @@ ___
 
 #### Defined in
 
-main.ts:212662
+[main.ts:212542](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L212542)

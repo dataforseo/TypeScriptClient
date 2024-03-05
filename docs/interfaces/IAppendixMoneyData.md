@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IAppendixMoneyData
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IAppendixMoneyData
 
 # Interface: IAppendixMoneyData
 
@@ -29,7 +29,7 @@ amount of money left in your account
 
 #### Defined in
 
-main.ts:209619
+[main.ts:209499](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L209499)
 
 ___
 
@@ -41,7 +41,7 @@ cost limits
 
 #### Defined in
 
-main.ts:209621
+[main.ts:209501](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L209501)
 
 ___
 
@@ -53,7 +53,7 @@ statistics of your spending
 
 #### Defined in
 
-main.ts:209623
+[main.ts:209503](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L209503)
 
 ___
 
@@ -65,4 +65,4 @@ total amount of money deposited to your account
 
 #### Defined in
 
-main.ts:209617
+[main.ts:209497](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L209497)

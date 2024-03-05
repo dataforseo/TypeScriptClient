@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IBusinessDataGoogleHotelInfoLiveHtmlResultInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IBusinessDataGoogleHotelInfoLiveHtmlResultInfo
 
 # Interface: IBusinessDataGoogleHotelInfoLiveHtmlResultInfo
 
@@ -36,7 +36,7 @@ example:
 
 #### Defined in
 
-main.ts:197758
+[main.ts:197638](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L197638)
 
 ___
 
@@ -48,7 +48,7 @@ HTML pages
 
 #### Defined in
 
-main.ts:197762
+[main.ts:197642](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L197642)
 
 ___
 
@@ -60,7 +60,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:197760
+[main.ts:197640](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L197640)
 
 ___
 
@@ -72,7 +72,7 @@ unique hotel identifier specified as "hotel_id:$"
 
 #### Defined in
 
-main.ts:197745
+[main.ts:197625](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L197625)
 
 ___
 
@@ -84,7 +84,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:197753
+[main.ts:197633](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L197633)
 
 ___
 
@@ -96,7 +96,7 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:197751
+[main.ts:197631](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L197631)
 
 ___
 
@@ -108,7 +108,7 @@ search engine domain in a POST array
 
 #### Defined in
 
-main.ts:197749
+[main.ts:197629](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L197629)
 
 ___
 
@@ -120,4 +120,4 @@ type of element
 
 #### Defined in
 
-main.ts:197747
+[main.ts:197627](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L197627)

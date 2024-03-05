@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IDataforseoLabsGooglePageIntersectionLiveResultInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IDataforseoLabsGooglePageIntersectionLiveResultInfo
 
 # Interface: IDataforseoLabsGooglePageIntersectionLiveResultInfo
 
@@ -33,7 +33,7 @@ URLs you specified in a POST array that will be excluded from the results
 
 #### Defined in
 
-main.ts:97465
+[main.ts:97321](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L97321)
 
 ___
 
@@ -45,7 +45,7 @@ contains keywords, relevant SERP elements and related data
 
 #### Defined in
 
-main.ts:97475
+[main.ts:97331](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L97331)
 
 ___
 
@@ -57,7 +57,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:97473
+[main.ts:97329](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L97329)
 
 ___
 
@@ -69,7 +69,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:97469
+[main.ts:97325](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L97325)
 
 ___
 
@@ -81,7 +81,7 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:97467
+[main.ts:97323](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L97323)
 
 ___
 
@@ -97,7 +97,7 @@ URLs you specified a POST array
 
 #### Defined in
 
-main.ts:97463
+[main.ts:97319](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L97319)
 
 ___
 
@@ -109,7 +109,7 @@ search engine type
 
 #### Defined in
 
-main.ts:97461
+[main.ts:97317](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L97317)
 
 ___
 
@@ -121,4 +121,4 @@ total amount of results in our database relevant to your request
 
 #### Defined in
 
-main.ts:97471
+[main.ts:97327](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L97327)

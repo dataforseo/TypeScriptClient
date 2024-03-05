@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IAppendixNaverKeywordsDataDataInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IAppendixNaverKeywordsDataDataInfo
 
 # Interface: IAppendixNaverKeywordsDataDataInfo
 
@@ -25,7 +25,7 @@
 
 #### Defined in
 
-main.ts:208844
+[main.ts:208724](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L208724)
 
 ___
 
@@ -35,4 +35,4 @@ ___
 
 #### Defined in
 
-main.ts:208845
+[main.ts:208725](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L208725)

@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / DataforseoLabsGoogleBulkKeywordDifficultyLiveRequestInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / DataforseoLabsGoogleBulkKeywordDifficultyLiveRequestInfo
 
 # Class: DataforseoLabsGoogleBulkKeywordDifficultyLiveRequestInfo
 
@@ -49,7 +49,7 @@
 
 #### Defined in
 
-main.ts:82403
+[main.ts:82259](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L82259)
 
 ## Properties
 
@@ -70,7 +70,7 @@ the keywords will be converted to lowercase format
 
 #### Defined in
 
-main.ts:82365
+[main.ts:82221](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L82221)
 
 ___
 
@@ -91,7 +91,7 @@ en
 
 #### Defined in
 
-main.ts:82393
+[main.ts:82249](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L82249)
 
 ___
 
@@ -112,7 +112,7 @@ English
 
 #### Defined in
 
-main.ts:82386
+[main.ts:82242](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L82242)
 
 ___
 
@@ -133,7 +133,7 @@ example:
 
 #### Defined in
 
-main.ts:82379
+[main.ts:82235](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L82235)
 
 ___
 
@@ -154,7 +154,7 @@ United Kingdom
 
 #### Defined in
 
-main.ts:82372
+[main.ts:82228](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L82228)
 
 ___
 
@@ -174,7 +174,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:82399
+[main.ts:82255](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L82255)
 
 ## Methods
 
@@ -194,7 +194,7 @@ main.ts:82399
 
 #### Defined in
 
-main.ts:82412
+[main.ts:82268](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L82268)
 
 ___
 
@@ -214,7 +214,7 @@ ___
 
 #### Defined in
 
-main.ts:82438
+[main.ts:82294](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L82294)
 
 ___
 
@@ -234,4 +234,4 @@ ___
 
 #### Defined in
 
-main.ts:82431
+[main.ts:82287](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L82287)

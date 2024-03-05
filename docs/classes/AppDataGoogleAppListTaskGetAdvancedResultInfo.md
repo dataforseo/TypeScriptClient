@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / AppDataGoogleAppListTaskGetAdvancedResultInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / AppDataGoogleAppListTaskGetAdvancedResultInfo
 
 # Class: AppDataGoogleAppListTaskGetAdvancedResultInfo
 
@@ -52,7 +52,7 @@
 
 #### Defined in
 
-main.ts:178949
+[main.ts:178829](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L178829)
 
 ## Properties
 
@@ -69,7 +69,7 @@ you can use it to make sure that we provided accurate results
 
 #### Defined in
 
-main.ts:178933
+[main.ts:178813](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L178813)
 
 ___
 
@@ -88,7 +88,7 @@ example:
 
 #### Defined in
 
-main.ts:178938
+[main.ts:178818](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L178818)
 
 ___
 
@@ -104,7 +104,7 @@ found apps
 
 #### Defined in
 
-main.ts:178945
+[main.ts:178825](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L178825)
 
 ___
 
@@ -121,7 +121,7 @@ you can get more results by using the depth parameter when setting a task
 
 #### Defined in
 
-main.ts:178943
+[main.ts:178823](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L178823)
 
 ___
 
@@ -137,7 +137,7 @@ app collection received in a POST array
 
 #### Defined in
 
-main.ts:178924
+[main.ts:178804](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L178804)
 
 ___
 
@@ -153,7 +153,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:178930
+[main.ts:178810](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L178810)
 
 ___
 
@@ -169,7 +169,7 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:178928
+[main.ts:178808](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L178808)
 
 ___
 
@@ -185,7 +185,7 @@ search engine domain in a POST array
 
 #### Defined in
 
-main.ts:178926
+[main.ts:178806](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L178806)
 
 ___
 
@@ -201,7 +201,7 @@ the total number of results
 
 #### Defined in
 
-main.ts:178940
+[main.ts:178820](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L178820)
 
 ## Methods
 
@@ -221,7 +221,7 @@ main.ts:178940
 
 #### Defined in
 
-main.ts:178958
+[main.ts:178838](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L178838)
 
 ___
 
@@ -241,7 +241,7 @@ ___
 
 #### Defined in
 
-main.ts:178987
+[main.ts:178867](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L178867)
 
 ___
 
@@ -261,4 +261,4 @@ ___
 
 #### Defined in
 
-main.ts:178980
+[main.ts:178860](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L178860)

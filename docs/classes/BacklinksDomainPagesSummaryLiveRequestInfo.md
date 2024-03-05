@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / BacklinksDomainPagesSummaryLiveRequestInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / BacklinksDomainPagesSummaryLiveRequestInfo
 
 # Class: BacklinksDomainPagesSummaryLiveRequestInfo
 
@@ -55,7 +55,7 @@
 
 #### Defined in
 
-main.ts:133851
+[main.ts:133707](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L133707)
 
 ## Properties
 
@@ -77,7 +77,7 @@ example:
 
 #### Defined in
 
-main.ts:133825
+[main.ts:133681](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L133681)
 
 ___
 
@@ -100,7 +100,7 @@ default value: live
 
 #### Defined in
 
-main.ts:133786
+[main.ts:133642](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L133642)
 
 ___
 
@@ -119,7 +119,7 @@ default value: true
 
 #### Defined in
 
-main.ts:133841
+[main.ts:133697](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L133697)
 
 ___
 
@@ -150,7 +150,7 @@ The full list of possible filters is available here.
 
 #### Defined in
 
-main.ts:133803
+[main.ts:133659](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L133659)
 
 ___
 
@@ -170,7 +170,7 @@ default value: true
 
 #### Defined in
 
-main.ts:133836
+[main.ts:133692](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L133692)
 
 ___
 
@@ -189,7 +189,7 @@ default value: true
 
 #### Defined in
 
-main.ts:133830
+[main.ts:133686](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L133686)
 
 ___
 
@@ -214,7 +214,7 @@ maximum value: 1000
 
 #### Defined in
 
-main.ts:133777
+[main.ts:133633](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L133633)
 
 ___
 
@@ -233,7 +233,7 @@ maximum value: 1000
 
 #### Defined in
 
-main.ts:133761
+[main.ts:133617](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L133617)
 
 ___
 
@@ -252,7 +252,7 @@ if you specify the 10 value, the first ten anchors in the results array will be 
 
 #### Defined in
 
-main.ts:133766
+[main.ts:133622](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L133622)
 
 ___
 
@@ -280,7 +280,7 @@ example:
 
 #### Defined in
 
-main.ts:133817
+[main.ts:133673](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L133673)
 
 ___
 
@@ -300,7 +300,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:133847
+[main.ts:133703](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L133703)
 
 ___
 
@@ -319,7 +319,7 @@ a page should be specified with absolute URL (including http:// or https://)
 
 #### Defined in
 
-main.ts:133756
+[main.ts:133612](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L133612)
 
 ## Methods
 
@@ -339,7 +339,7 @@ main.ts:133756
 
 #### Defined in
 
-main.ts:133860
+[main.ts:133716](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L133716)
 
 ___
 
@@ -359,7 +359,7 @@ ___
 
 #### Defined in
 
-main.ts:133900
+[main.ts:133756](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L133756)
 
 ___
 
@@ -379,4 +379,4 @@ ___
 
 #### Defined in
 
-main.ts:133893
+[main.ts:133749](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L133749)

@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IPositiveConnotationDistribution
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IPositiveConnotationDistribution
 
 # Interface: IPositiveConnotationDistribution
 
@@ -26,7 +26,7 @@
 
 #### Defined in
 
-main.ts:158017
+[main.ts:157897](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L157897)
 
 ___
 
@@ -36,7 +36,7 @@ ___
 
 #### Defined in
 
-main.ts:158018
+[main.ts:157898](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L157898)
 
 ___
 
@@ -46,4 +46,4 @@ ___
 
 #### Defined in
 
-main.ts:158016
+[main.ts:157896](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L157896)

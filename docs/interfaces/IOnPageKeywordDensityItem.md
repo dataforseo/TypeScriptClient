@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IOnPageKeywordDensityItem
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IOnPageKeywordDensityItem
 
 # Interface: IOnPageKeywordDensityItem
 
@@ -29,7 +29,7 @@ calculated as a ratio of frequency to the total count of keywords with the set k
 
 #### Defined in
 
-main.ts:150436
+[main.ts:150292](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L150292)
 
 ___
 
@@ -42,7 +42,7 @@ number of times the keyword appears on the website (or webpage if you specified 
 
 #### Defined in
 
-main.ts:150433
+[main.ts:150289](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L150289)
 
 ___
 
@@ -54,4 +54,4 @@ returned keyword
 
 #### Defined in
 
-main.ts:150430
+[main.ts:150286](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L150286)

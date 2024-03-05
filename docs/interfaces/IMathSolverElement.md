@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IMathSolverElement
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IMathSolverElement
 
 # Interface: IMathSolverElement
 
@@ -28,7 +28,7 @@ expanded element
 
 #### Defined in
 
-main.ts:34173
+[main.ts:34031](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L34031)
 
 ___
 
@@ -40,7 +40,7 @@ title of the row
 
 #### Defined in
 
-main.ts:34171
+[main.ts:34029](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L34029)
 
 ___
 
@@ -52,4 +52,4 @@ type of element
 
 #### Defined in
 
-main.ts:34169
+[main.ts:34027](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L34027)

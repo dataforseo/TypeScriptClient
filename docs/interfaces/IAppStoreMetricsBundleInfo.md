@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IAppStoreMetricsBundleInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IAppStoreMetricsBundleInfo
 
 # Interface: IAppStoreMetricsBundleInfo
 
@@ -26,4 +26,4 @@ ranking data from App Store organic search
 
 #### Defined in
 
-main.ts:111555
+[main.ts:111411](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L111411)

@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / ITrendsGraphDataInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / ITrendsGraphDataInfo
 
 # Interface: ITrendsGraphDataInfo
 
@@ -31,7 +31,7 @@ in the UTC format: “yyyy-mm-dd”
 
 #### Defined in
 
-main.ts:120605
+[main.ts:120461](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L120461)
 
 ___
 
@@ -44,7 +44,7 @@ in the UTC format: “yyyy-mm-dd”
 
 #### Defined in
 
-main.ts:120608
+[main.ts:120464](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L120464)
 
 ___
 
@@ -57,7 +57,7 @@ if true the data on the graph in the Google Trends interface is missing and thus
 
 #### Defined in
 
-main.ts:120613
+[main.ts:120469](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L120469)
 
 ___
 
@@ -69,7 +69,7 @@ a point in time in the Unix time format
 
 #### Defined in
 
-main.ts:120610
+[main.ts:120466](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L120466)
 
 ___
 
@@ -84,4 +84,4 @@ a value of 100 is the peak popularity for the term. A value of 50 means that the
 
 #### Defined in
 
-main.ts:120618
+[main.ts:120474](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L120474)

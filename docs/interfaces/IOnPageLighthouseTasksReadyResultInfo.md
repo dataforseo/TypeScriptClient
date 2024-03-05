@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IOnPageLighthouseTasksReadyResultInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IOnPageLighthouseTasksReadyResultInfo
 
 # Interface: IOnPageLighthouseTasksReadyResultInfo
 
@@ -28,7 +28,7 @@ URL for collecting the results of the OnPage Lighthouse JSON task
 
 #### Defined in
 
-main.ts:154618
+[main.ts:154474](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L154474)
 
 ___
 
@@ -41,7 +41,7 @@ unique task identifier in our system in the UUID format
 
 #### Defined in
 
-main.ts:154614
+[main.ts:154470](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L154470)
 
 ___
 
@@ -53,4 +53,4 @@ user-defined task identifier
 
 #### Defined in
 
-main.ts:154616
+[main.ts:154472](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L154472)

@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IDataforseoLabsGoogleSearchIntentLiveRequestInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IDataforseoLabsGoogleSearchIntentLiveRequestInfo
 
 # Interface: IDataforseoLabsGoogleSearchIntentLiveRequestInfo
 
@@ -33,7 +33,7 @@ the keywords will be converted to lowercase format
 
 #### Defined in
 
-main.ts:82886
+[main.ts:82742](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L82742)
 
 ___
 
@@ -50,7 +50,7 @@ en
 
 #### Defined in
 
-main.ts:82925
+[main.ts:82781](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L82781)
 
 ___
 
@@ -92,7 +92,7 @@ English
 
 #### Defined in
 
-main.ts:82918
+[main.ts:82774](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L82774)
 
 ___
 
@@ -108,4 +108,4 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:82931
+[main.ts:82787](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L82787)

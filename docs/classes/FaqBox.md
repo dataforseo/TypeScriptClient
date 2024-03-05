@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / FaqBox
+[dataforseo-client](../README.md) / [Exports](../modules.md) / FaqBox
 
 # Class: FaqBox
 
@@ -45,7 +45,7 @@
 
 #### Defined in
 
-main.ts:28049
+[main.ts:27907](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L27907)
 
 ## Properties
 
@@ -62,7 +62,7 @@ if there are none, equals null
 
 #### Defined in
 
-main.ts:28045
+[main.ts:27903](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L27903)
 
 ___
 
@@ -78,7 +78,7 @@ type of element
 
 #### Defined in
 
-main.ts:28042
+[main.ts:27900](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L27900)
 
 ## Methods
 
@@ -98,7 +98,7 @@ main.ts:28042
 
 #### Defined in
 
-main.ts:28058
+[main.ts:27916](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L27916)
 
 ___
 
@@ -118,7 +118,7 @@ ___
 
 #### Defined in
 
-main.ts:28080
+[main.ts:27938](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L27938)
 
 ___
 
@@ -138,4 +138,4 @@ ___
 
 #### Defined in
 
-main.ts:28073
+[main.ts:27931](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L27931)

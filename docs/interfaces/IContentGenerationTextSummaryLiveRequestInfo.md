@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IContentGenerationTextSummaryLiveRequestInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IContentGenerationTextSummaryLiveRequestInfo
 
 # Interface: IContentGenerationTextSummaryLiveRequestInfo
 
@@ -33,7 +33,7 @@ default value: 10
 
 #### Defined in
 
-main.ts:162336
+[main.ts:162216](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L162216)
 
 ___
 
@@ -47,7 +47,7 @@ see the List of Languages for Content Generation Text Summary API
 
 #### Defined in
 
-main.ts:162331
+[main.ts:162211](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L162211)
 
 ___
 
@@ -61,7 +61,7 @@ see the List of Languages for Content Generation Text Summary API
 
 #### Defined in
 
-main.ts:162327
+[main.ts:162207](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L162207)
 
 ___
 
@@ -77,7 +77,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:162342
+[main.ts:162222](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L162222)
 
 ___
 
@@ -92,4 +92,4 @@ learn more about tokens on our help center
 
 #### Defined in
 
-main.ts:162323
+[main.ts:162203](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L162203)

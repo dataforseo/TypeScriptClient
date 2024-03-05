@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IMerchantAmazonProductsTasksReadyResultInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IMerchantAmazonProductsTasksReadyResultInfo
 
 # Interface: IMerchantAmazonProductsTasksReadyResultInfo
 
@@ -32,7 +32,7 @@ date when the task was posted (in the UTC format)
 
 #### Defined in
 
-main.ts:170653
+[main.ts:170533](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L170533)
 
 ___
 
@@ -44,7 +44,7 @@ URL for collecting the results of the Amazon Products Advanced task
 
 #### Defined in
 
-main.ts:170657
+[main.ts:170537](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L170537)
 
 ___
 
@@ -56,7 +56,7 @@ URL for collecting the results of the Amazon Products HTML task
 
 #### Defined in
 
-main.ts:170659
+[main.ts:170539](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L170539)
 
 ___
 
@@ -69,7 +69,7 @@ unique task identifier in our system in the UUID format
 
 #### Defined in
 
-main.ts:170646
+[main.ts:170526](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L170526)
 
 ___
 
@@ -81,7 +81,7 @@ search engine specified when setting the task
 
 #### Defined in
 
-main.ts:170648
+[main.ts:170528](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L170528)
 
 ___
 
@@ -94,7 +94,7 @@ can take the following values: organic
 
 #### Defined in
 
-main.ts:170651
+[main.ts:170531](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L170531)
 
 ___
 
@@ -106,4 +106,4 @@ user-defined task identifier
 
 #### Defined in
 
-main.ts:170655
+[main.ts:170535](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L170535)

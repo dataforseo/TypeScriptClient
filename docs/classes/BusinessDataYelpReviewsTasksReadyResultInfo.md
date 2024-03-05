@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / BusinessDataYelpReviewsTasksReadyResultInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / BusinessDataYelpReviewsTasksReadyResultInfo
 
 # Class: BusinessDataYelpReviewsTasksReadyResultInfo
 
@@ -49,7 +49,7 @@
 
 #### Defined in
 
-main.ts:205175
+[main.ts:205055](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L205055)
 
 ## Properties
 
@@ -65,7 +65,7 @@ date when the task was posted (in the UTC format)
 
 #### Defined in
 
-main.ts:205167
+[main.ts:205047](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L205047)
 
 ___
 
@@ -81,7 +81,7 @@ URL for collecting the results of the task
 
 #### Defined in
 
-main.ts:205171
+[main.ts:205051](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L205051)
 
 ___
 
@@ -98,7 +98,7 @@ unique task identifier in our system in the UUID format
 
 #### Defined in
 
-main.ts:205159
+[main.ts:205039](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L205039)
 
 ___
 
@@ -115,7 +115,7 @@ can take the following values: yelp
 
 #### Defined in
 
-main.ts:205162
+[main.ts:205042](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L205042)
 
 ___
 
@@ -132,7 +132,7 @@ can take the following values: reviews
 
 #### Defined in
 
-main.ts:205165
+[main.ts:205045](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L205045)
 
 ___
 
@@ -148,7 +148,7 @@ user-defined task identifier
 
 #### Defined in
 
-main.ts:205169
+[main.ts:205049](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L205049)
 
 ## Methods
 
@@ -168,7 +168,7 @@ main.ts:205169
 
 #### Defined in
 
-main.ts:205184
+[main.ts:205064](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L205064)
 
 ___
 
@@ -188,7 +188,7 @@ ___
 
 #### Defined in
 
-main.ts:205206
+[main.ts:205086](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L205086)
 
 ___
 
@@ -208,4 +208,4 @@ ___
 
 #### Defined in
 
-main.ts:205199
+[main.ts:205079](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L205079)

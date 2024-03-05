@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / DataforseoLabsGoogleHistoricalSearchVolumeLiveResultInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / DataforseoLabsGoogleHistoricalSearchVolumeLiveResultInfo
 
 # Class: DataforseoLabsGoogleHistoricalSearchVolumeLiveResultInfo
 
@@ -48,7 +48,7 @@
 
 #### Defined in
 
-main.ts:82180
+[main.ts:82036](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L82036)
 
 ## Properties
 
@@ -64,7 +64,7 @@ contains keywords and related data
 
 #### Defined in
 
-main.ts:82176
+[main.ts:82032](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L82032)
 
 ___
 
@@ -80,7 +80,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:82174
+[main.ts:82030](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L82030)
 
 ___
 
@@ -96,7 +96,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:82172
+[main.ts:82028](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L82028)
 
 ___
 
@@ -112,7 +112,7 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:82170
+[main.ts:82026](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L82026)
 
 ___
 
@@ -128,7 +128,7 @@ search engine type
 
 #### Defined in
 
-main.ts:82168
+[main.ts:82024](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L82024)
 
 ## Methods
 
@@ -148,7 +148,7 @@ main.ts:82168
 
 #### Defined in
 
-main.ts:82189
+[main.ts:82045](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L82045)
 
 ___
 
@@ -168,7 +168,7 @@ ___
 
 #### Defined in
 
-main.ts:82214
+[main.ts:82070](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L82070)
 
 ___
 
@@ -188,4 +188,4 @@ ___
 
 #### Defined in
 
-main.ts:82207
+[main.ts:82063](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L82063)

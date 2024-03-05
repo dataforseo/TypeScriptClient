@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IKnowledgeGraphHotelsBookingItemSerpElementItem
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IKnowledgeGraphHotelsBookingItemSerpElementItem
 
 # Interface: IKnowledgeGraphHotelsBookingItemSerpElementItem
 
@@ -43,7 +43,7 @@ kc:/local:hotel booking
 
 #### Defined in
 
-main.ts:36151
+[main.ts:36009](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L36009)
 
 ___
 
@@ -58,7 +58,7 @@ example:
 
 #### Defined in
 
-main.ts:36142
+[main.ts:36000](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L36000)
 
 ___
 
@@ -73,7 +73,7 @@ example:
 
 #### Defined in
 
-main.ts:36147
+[main.ts:36005](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L36005)
 
 ___
 
@@ -85,7 +85,7 @@ contains results featured in the ‘hotels_pack’ element of SERP
 
 #### Defined in
 
-main.ts:36153
+[main.ts:36011](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L36011)
 
 ___
 
@@ -99,7 +99,7 @@ left, right
 
 #### Defined in
 
-main.ts:36133
+[main.ts:35991](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L35991)
 
 ___
 
@@ -112,7 +112,7 @@ absolute position among all the elements in SERP
 
 #### Defined in
 
-main.ts:36129
+[main.ts:35987](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L35987)
 
 ___
 
@@ -126,7 +126,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-main.ts:36126
+[main.ts:35984](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L35984)
 
 ___
 
@@ -140,7 +140,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 #### Defined in
 
-main.ts:36157
+[main.ts:36015](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L36015)
 
 ___
 
@@ -152,7 +152,7 @@ title of a given link element
 
 #### Defined in
 
-main.ts:36137
+[main.ts:35995](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L35995)
 
 ___
 
@@ -164,4 +164,4 @@ the XPath of the element
 
 #### Defined in
 
-main.ts:36135
+[main.ts:35993](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L35993)

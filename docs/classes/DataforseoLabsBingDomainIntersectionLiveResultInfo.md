@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / DataforseoLabsBingDomainIntersectionLiveResultInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / DataforseoLabsBingDomainIntersectionLiveResultInfo
 
 # Class: DataforseoLabsBingDomainIntersectionLiveResultInfo
 
@@ -51,7 +51,7 @@
 
 #### Defined in
 
-main.ts:103874
+[main.ts:103730](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L103730)
 
 ## Properties
 
@@ -67,7 +67,7 @@ contains keywords, relevant SERP elements and related data
 
 #### Defined in
 
-main.ts:103870
+[main.ts:103726](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L103726)
 
 ___
 
@@ -83,7 +83,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:103868
+[main.ts:103724](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L103724)
 
 ___
 
@@ -99,7 +99,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:103864
+[main.ts:103720](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L103720)
 
 ___
 
@@ -115,7 +115,7 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:103862
+[main.ts:103718](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L103718)
 
 ___
 
@@ -133,7 +133,7 @@ for this endpoint, the field equals bing
 
 #### Defined in
 
-main.ts:103856
+[main.ts:103712](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L103712)
 
 ___
 
@@ -149,7 +149,7 @@ target specified in a POST array
 
 #### Defined in
 
-main.ts:103858
+[main.ts:103714](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L103714)
 
 ___
 
@@ -165,7 +165,7 @@ target specified in a POST array
 
 #### Defined in
 
-main.ts:103860
+[main.ts:103716](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L103716)
 
 ___
 
@@ -181,7 +181,7 @@ total amount of results in our database relevant to your request
 
 #### Defined in
 
-main.ts:103866
+[main.ts:103722](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L103722)
 
 ## Methods
 
@@ -201,7 +201,7 @@ main.ts:103866
 
 #### Defined in
 
-main.ts:103883
+[main.ts:103739](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L103739)
 
 ___
 
@@ -221,7 +221,7 @@ ___
 
 #### Defined in
 
-main.ts:103911
+[main.ts:103767](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L103767)
 
 ___
 
@@ -241,4 +241,4 @@ ___
 
 #### Defined in
 
-main.ts:103904
+[main.ts:103760](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L103760)

@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IAppendixTaskKeywordsDataPriceDataInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IAppendixTaskKeywordsDataPriceDataInfo
 
 # Interface: IAppendixTaskKeywordsDataPriceDataInfo
 
@@ -26,7 +26,7 @@
 
 #### Defined in
 
-main.ts:209765
+[main.ts:209645](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L209645)
 
 ___
 
@@ -36,7 +36,7 @@ ___
 
 #### Defined in
 
-main.ts:209763
+[main.ts:209643](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L209643)
 
 ___
 
@@ -46,4 +46,4 @@ ___
 
 #### Defined in
 
-main.ts:209764
+[main.ts:209644](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L209644)

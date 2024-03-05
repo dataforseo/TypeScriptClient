@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / ILocalBusinessMenuLink
+[dataforseo-client](../README.md) / [Exports](../modules.md) / ILocalBusinessMenuLink
 
 # Interface: ILocalBusinessMenuLink
 
@@ -34,7 +34,7 @@ domain of the online menu system
 
 #### Defined in
 
-main.ts:22633
+[main.ts:22491](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L22491)
 
 ___
 
@@ -46,4 +46,4 @@ URL to view the menu
 
 #### Defined in
 
-main.ts:22635
+[main.ts:22493](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L22493)

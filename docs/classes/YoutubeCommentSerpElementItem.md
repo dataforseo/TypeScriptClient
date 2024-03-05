@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / YoutubeCommentSerpElementItem
+[dataforseo-client](../README.md) / [Exports](../modules.md) / YoutubeCommentSerpElementItem
 
 # Class: YoutubeCommentSerpElementItem
 
@@ -64,7 +64,7 @@
 
 #### Defined in
 
-main.ts:61998
+[main.ts:61854](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L61854)
 
 ## Properties
 
@@ -78,7 +78,7 @@ main.ts:61998
 
 #### Defined in
 
-main.ts:19337
+[main.ts:19337](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L19337)
 
 ___
 
@@ -94,7 +94,7 @@ name of the author of the comment
 
 #### Defined in
 
-main.ts:61977
+[main.ts:61833](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L61833)
 
 ___
 
@@ -110,7 +110,7 @@ the URL of the page where the author’s channel logo is hosted
 
 #### Defined in
 
-main.ts:61979
+[main.ts:61835](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L61835)
 
 ___
 
@@ -126,7 +126,7 @@ URL of the author’s channel
 
 #### Defined in
 
-main.ts:61981
+[main.ts:61837](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L61837)
 
 ___
 
@@ -142,7 +142,7 @@ number of likes on the comment
 
 #### Defined in
 
-main.ts:61992
+[main.ts:61848](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L61848)
 
 ___
 
@@ -158,7 +158,7 @@ displayed publication date
 
 #### Defined in
 
-main.ts:61985
+[main.ts:61841](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L61841)
 
 ___
 
@@ -175,7 +175,7 @@ absolute position among all the elements in SERP
 
 #### Defined in
 
-main.ts:61975
+[main.ts:61831](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L61831)
 
 ___
 
@@ -193,7 +193,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-main.ts:61972
+[main.ts:61828](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L61828)
 
 ___
 
@@ -209,7 +209,7 @@ number of replies on the comment
 
 #### Defined in
 
-main.ts:61994
+[main.ts:61850](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L61850)
 
 ___
 
@@ -225,7 +225,7 @@ text of the comment
 
 #### Defined in
 
-main.ts:61983
+[main.ts:61839](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L61839)
 
 ___
 
@@ -244,7 +244,7 @@ example:
 
 #### Defined in
 
-main.ts:61990
+[main.ts:61846](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L61846)
 
 ## Methods
 
@@ -268,7 +268,7 @@ main.ts:61990
 
 #### Defined in
 
-main.ts:62003
+[main.ts:61859](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L61859)
 
 ___
 
@@ -292,7 +292,7 @@ ___
 
 #### Defined in
 
-main.ts:62030
+[main.ts:61886](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L61886)
 
 ___
 
@@ -316,4 +316,4 @@ ___
 
 #### Defined in
 
-main.ts:62023
+[main.ts:61879](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L61879)

@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / AppDataGooglePlayInfoOrganicSerpElementItem
+[dataforseo-client](../README.md) / [Exports](../modules.md) / AppDataGooglePlayInfoOrganicSerpElementItem
 
 # Class: AppDataGooglePlayInfoOrganicSerpElementItem
 
@@ -87,7 +87,7 @@
 
 #### Defined in
 
-main.ts:180028
+[main.ts:179908](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L179908)
 
 ## Properties
 
@@ -101,7 +101,7 @@ main.ts:180028
 
 #### Defined in
 
-main.ts:20450
+[main.ts:20450](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L20450)
 
 ___
 
@@ -117,7 +117,7 @@ ID of the app
 
 #### Defined in
 
-main.ts:179951
+[main.ts:179831](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L179831)
 
 ___
 
@@ -133,7 +133,7 @@ description of the app
 
 #### Defined in
 
-main.ts:179959
+[main.ts:179839](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L179839)
 
 ___
 
@@ -149,7 +149,7 @@ name of the app developer
 
 #### Defined in
 
-main.ts:179977
+[main.ts:179857](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L179857)
 
 ___
 
@@ -165,7 +165,7 @@ physical address of the developer
 
 #### Defined in
 
-main.ts:179985
+[main.ts:179865](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L179865)
 
 ___
 
@@ -181,7 +181,7 @@ email address of the developer
 
 #### Defined in
 
-main.ts:179983
+[main.ts:179863](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L179863)
 
 ___
 
@@ -197,7 +197,7 @@ ID of the app developer
 
 #### Defined in
 
-main.ts:179979
+[main.ts:179859](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L179859)
 
 ___
 
@@ -213,7 +213,7 @@ URL to the developer page on Google Play
 
 #### Defined in
 
-main.ts:179981
+[main.ts:179861](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L179861)
 
 ___
 
@@ -229,7 +229,7 @@ official website of the developer
 
 #### Defined in
 
-main.ts:179987
+[main.ts:179867](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L179867)
 
 ___
 
@@ -246,7 +246,7 @@ contains relevant app categories
 
 #### Defined in
 
-main.ts:180021
+[main.ts:179901](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L179901)
 
 ___
 
@@ -262,7 +262,7 @@ URL to the app icon
 
 #### Defined in
 
-main.ts:179957
+[main.ts:179837](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L179837)
 
 ___
 
@@ -279,7 +279,7 @@ contains URLs to the images published on the app page on Google Play
 
 #### Defined in
 
-main.ts:180009
+[main.ts:179889](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L179889)
 
 ___
 
@@ -296,7 +296,7 @@ approximate number of installs as displayed on the app page
 
 #### Defined in
 
-main.ts:179972
+[main.ts:179852](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L179852)
 
 ___
 
@@ -313,7 +313,7 @@ the exact number of installs of the app
 
 #### Defined in
 
-main.ts:179975
+[main.ts:179855](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L179855)
 
 ___
 
@@ -329,7 +329,7 @@ indicates whether the app is free
 
 #### Defined in
 
-main.ts:179967
+[main.ts:179847](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L179847)
 
 ___
 
@@ -348,7 +348,7 @@ example:
 
 #### Defined in
 
-main.ts:180003
+[main.ts:179883](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L179883)
 
 ___
 
@@ -364,7 +364,7 @@ main category of the app
 
 #### Defined in
 
-main.ts:179969
+[main.ts:179849](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L179849)
 
 ___
 
@@ -380,7 +380,7 @@ minimum OS version required to install the app
 
 #### Defined in
 
-main.ts:179991
+[main.ts:179871](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L179871)
 
 ___
 
@@ -397,7 +397,7 @@ information about apps built by the same developer
 
 #### Defined in
 
-main.ts:180018
+[main.ts:179898](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L179898)
 
 ___
 
@@ -414,7 +414,7 @@ can take the following values: left
 
 #### Defined in
 
-main.ts:179949
+[main.ts:179829](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L179829)
 
 ___
 
@@ -430,7 +430,7 @@ price of the app
 
 #### Defined in
 
-main.ts:179965
+[main.ts:179845](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L179845)
 
 ___
 
@@ -447,7 +447,7 @@ absolute position among all apps on the list
 
 #### Defined in
 
-main.ts:179946
+[main.ts:179826](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L179826)
 
 ___
 
@@ -464,7 +464,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-main.ts:179943
+[main.ts:179823](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L179823)
 
 ___
 
@@ -480,7 +480,7 @@ average rating of the app
 
 #### Defined in
 
-main.ts:179963
+[main.ts:179843](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L179843)
 
 ___
 
@@ -499,7 +499,7 @@ example:
 
 #### Defined in
 
-main.ts:179998
+[main.ts:179878](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L179878)
 
 ___
 
@@ -515,7 +515,7 @@ the total number of reviews the app has
 
 #### Defined in
 
-main.ts:179961
+[main.ts:179841](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L179841)
 
 ___
 
@@ -532,7 +532,7 @@ displays apps similar to the app in a POST request
 
 #### Defined in
 
-main.ts:180015
+[main.ts:179895](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L179895)
 
 ___
 
@@ -548,7 +548,7 @@ size of the app
 
 #### Defined in
 
-main.ts:179993
+[main.ts:179873](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L179873)
 
 ___
 
@@ -565,7 +565,7 @@ contains relevant app tags
 
 #### Defined in
 
-main.ts:180024
+[main.ts:179904](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L179904)
 
 ___
 
@@ -581,7 +581,7 @@ title of the app
 
 #### Defined in
 
-main.ts:179953
+[main.ts:179833](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L179833)
 
 ___
 
@@ -598,7 +598,7 @@ contains the latest update notes from the developer
 
 #### Defined in
 
-main.ts:180006
+[main.ts:179886](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L179886)
 
 ___
 
@@ -614,7 +614,7 @@ URL to the app page on Google Play
 
 #### Defined in
 
-main.ts:179955
+[main.ts:179835](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L179835)
 
 ___
 
@@ -630,7 +630,7 @@ current version of the app
 
 #### Defined in
 
-main.ts:179989
+[main.ts:179869](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L179869)
 
 ___
 
@@ -647,7 +647,7 @@ contains URLs to the video published on the app page on Google Play
 
 #### Defined in
 
-main.ts:180012
+[main.ts:179892](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L179892)
 
 ## Methods
 
@@ -671,7 +671,7 @@ main.ts:180012
 
 #### Defined in
 
-main.ts:180033
+[main.ts:179913](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L179913)
 
 ___
 
@@ -695,7 +695,7 @@ ___
 
 #### Defined in
 
-main.ts:180107
+[main.ts:179987](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L179987)
 
 ___
 
@@ -719,4 +719,4 @@ ___
 
 #### Defined in
 
-main.ts:180100
+[main.ts:179980](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L179980)

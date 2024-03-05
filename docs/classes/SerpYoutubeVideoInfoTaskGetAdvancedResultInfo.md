@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / SerpYoutubeVideoInfoTaskGetAdvancedResultInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / SerpYoutubeVideoInfoTaskGetAdvancedResultInfo
 
 # Class: SerpYoutubeVideoInfoTaskGetAdvancedResultInfo
 
@@ -53,7 +53,7 @@
 
 #### Defined in
 
-main.ts:58964
+[main.ts:58820](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L58820)
 
 ## Properties
 
@@ -70,7 +70,7 @@ you can use it to make sure that we provided accurate results
 
 #### Defined in
 
-main.ts:58943
+[main.ts:58799](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L58799)
 
 ___
 
@@ -89,7 +89,7 @@ example:
 
 #### Defined in
 
-main.ts:58948
+[main.ts:58804](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L58804)
 
 ___
 
@@ -108,7 +108,7 @@ youtube_video_info
 
 #### Defined in
 
-main.ts:58956
+[main.ts:58812](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L58812)
 
 ___
 
@@ -124,7 +124,7 @@ elements of search results found in SERP
 
 #### Defined in
 
-main.ts:58960
+[main.ts:58816](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L58816)
 
 ___
 
@@ -140,7 +140,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:58958
+[main.ts:58814](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L58814)
 
 ___
 
@@ -156,7 +156,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:58940
+[main.ts:58796](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L58796)
 
 ___
 
@@ -172,7 +172,7 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:58938
+[main.ts:58794](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L58794)
 
 ___
 
@@ -188,7 +188,7 @@ search engine domain in a POST array
 
 #### Defined in
 
-main.ts:58936
+[main.ts:58792](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L58792)
 
 ___
 
@@ -205,7 +205,7 @@ if the search engine provided results for a keyword that was corrected, we will 
 
 #### Defined in
 
-main.ts:58951
+[main.ts:58807](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L58807)
 
 ___
 
@@ -221,7 +221,7 @@ ID of the video received in a POST array
 
 #### Defined in
 
-main.ts:58934
+[main.ts:58790](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L58790)
 
 ## Methods
 
@@ -241,7 +241,7 @@ main.ts:58934
 
 #### Defined in
 
-main.ts:58973
+[main.ts:58829](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L58829)
 
 ___
 
@@ -261,7 +261,7 @@ ___
 
 #### Defined in
 
-main.ts:59007
+[main.ts:58863](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L58863)
 
 ___
 
@@ -281,4 +281,4 @@ ___
 
 #### Defined in
 
-main.ts:59000
+[main.ts:58856](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L58856)

@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / DataforseoLabsGoogleHistoricalRankOverviewLiveRequestInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / DataforseoLabsGoogleHistoricalRankOverviewLiveRequestInfo
 
 # Class: DataforseoLabsGoogleHistoricalRankOverviewLiveRequestInfo
 
@@ -52,7 +52,7 @@
 
 #### Defined in
 
-main.ts:96459
+[main.ts:96315](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L96315)
 
 ## Properties
 
@@ -73,7 +73,7 @@ we recommend always setting correlate to true
 
 #### Defined in
 
-main.ts:96449
+[main.ts:96305](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L96305)
 
 ___
 
@@ -93,7 +93,7 @@ date format: "yyyy-mm-dd"
 
 #### Defined in
 
-main.ts:96435
+[main.ts:96291](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L96291)
 
 ___
 
@@ -114,7 +114,7 @@ example:
 
 #### Defined in
 
-main.ts:96442
+[main.ts:96298](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L96298)
 
 ___
 
@@ -136,7 +136,7 @@ en
 
 #### Defined in
 
-main.ts:96429
+[main.ts:96285](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L96285)
 
 ___
 
@@ -158,7 +158,7 @@ English
 
 #### Defined in
 
-main.ts:96421
+[main.ts:96277](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L96277)
 
 ___
 
@@ -180,7 +180,7 @@ example:
 
 #### Defined in
 
-main.ts:96413
+[main.ts:96269](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L96269)
 
 ___
 
@@ -202,7 +202,7 @@ United Kingdom
 
 #### Defined in
 
-main.ts:96405
+[main.ts:96261](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L96261)
 
 ___
 
@@ -222,7 +222,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:96455
+[main.ts:96311](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L96311)
 
 ___
 
@@ -241,7 +241,7 @@ the domain should be specified without https:// and www.
 
 #### Defined in
 
-main.ts:96397
+[main.ts:96253](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L96253)
 
 ## Methods
 
@@ -261,7 +261,7 @@ main.ts:96397
 
 #### Defined in
 
-main.ts:96468
+[main.ts:96324](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L96324)
 
 ___
 
@@ -281,7 +281,7 @@ ___
 
 #### Defined in
 
-main.ts:96493
+[main.ts:96349](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L96349)
 
 ___
 
@@ -301,4 +301,4 @@ ___
 
 #### Defined in
 
-main.ts:96486
+[main.ts:96342](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L96342)

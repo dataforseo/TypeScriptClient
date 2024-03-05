@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / ProductInformationDetailsItem
+[dataforseo-client](../README.md) / [Exports](../modules.md) / ProductInformationDetailsItem
 
 # Class: ProductInformationDetailsItem
 
@@ -56,7 +56,7 @@
 
 #### Defined in
 
-main.ts:172562
+[main.ts:172442](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L172442)
 
 ## Properties
 
@@ -70,7 +70,7 @@ main.ts:172562
 
 #### Defined in
 
-main.ts:21857
+[main.ts:21715](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L21715)
 
 ___
 
@@ -90,7 +90,7 @@ contains information specified about the product within the section_name
 
 #### Defined in
 
-main.ts:172558
+[main.ts:172438](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L172438)
 
 ___
 
@@ -106,7 +106,7 @@ name of the section related to product information specified in the contents
 
 #### Defined in
 
-main.ts:172556
+[main.ts:172436](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L172436)
 
 ## Methods
 
@@ -130,7 +130,7 @@ main.ts:172556
 
 #### Defined in
 
-main.ts:172567
+[main.ts:172447](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L172447)
 
 ___
 
@@ -154,7 +154,7 @@ ___
 
 #### Defined in
 
-main.ts:172592
+[main.ts:172472](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L172472)
 
 ___
 
@@ -178,4 +178,4 @@ ___
 
 #### Defined in
 
-main.ts:172585
+[main.ts:172465](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L172465)

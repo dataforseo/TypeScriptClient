@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / ISentimentConnotationDistribution
+[dataforseo-client](../README.md) / [Exports](../modules.md) / ISentimentConnotationDistribution
 
 # Interface: ISentimentConnotationDistribution
 
@@ -29,7 +29,7 @@
 
 #### Defined in
 
-main.ts:158081
+[main.ts:157961](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L157961)
 
 ___
 
@@ -39,7 +39,7 @@ ___
 
 #### Defined in
 
-main.ts:158086
+[main.ts:157966](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L157966)
 
 ___
 
@@ -49,7 +49,7 @@ ___
 
 #### Defined in
 
-main.ts:158082
+[main.ts:157962](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L157962)
 
 ___
 
@@ -59,7 +59,7 @@ ___
 
 #### Defined in
 
-main.ts:158083
+[main.ts:157963](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L157963)
 
 ___
 
@@ -69,7 +69,7 @@ ___
 
 #### Defined in
 
-main.ts:158084
+[main.ts:157964](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L157964)
 
 ___
 
@@ -79,4 +79,4 @@ ___
 
 #### Defined in
 
-main.ts:158085
+[main.ts:157965](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L157965)

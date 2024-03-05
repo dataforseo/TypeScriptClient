@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / HistoricalMetricsInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / HistoricalMetricsInfo
 
 # Class: HistoricalMetricsInfo
 
@@ -47,7 +47,7 @@
 
 #### Defined in
 
-main.ts:98335
+[main.ts:98191](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L98191)
 
 ## Properties
 
@@ -63,7 +63,7 @@ total count of organic SERPs that contain the domain
 
 #### Defined in
 
-main.ts:98331
+[main.ts:98187](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L98187)
 
 ___
 
@@ -82,7 +82,7 @@ learn more about how the metric is calculated in this help center article
 
 #### Defined in
 
-main.ts:98329
+[main.ts:98185](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L98185)
 
 ___
 
@@ -98,7 +98,7 @@ month for which the data is provided
 
 #### Defined in
 
-main.ts:98324
+[main.ts:98180](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L98180)
 
 ___
 
@@ -114,7 +114,7 @@ year for which the data is provided
 
 #### Defined in
 
-main.ts:98322
+[main.ts:98178](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L98178)
 
 ## Methods
 
@@ -134,7 +134,7 @@ main.ts:98322
 
 #### Defined in
 
-main.ts:98344
+[main.ts:98200](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L98200)
 
 ___
 
@@ -154,7 +154,7 @@ ___
 
 #### Defined in
 
-main.ts:98364
+[main.ts:98220](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L98220)
 
 ___
 
@@ -174,4 +174,4 @@ ___
 
 #### Defined in
 
-main.ts:98357
+[main.ts:98213](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L98213)

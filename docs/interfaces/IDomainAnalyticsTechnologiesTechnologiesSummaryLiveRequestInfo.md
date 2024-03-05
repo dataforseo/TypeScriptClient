@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IDomainAnalyticsTechnologiesTechnologiesSummaryLiveRequestInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IDomainAnalyticsTechnologiesTechnologiesSummaryLiveRequestInfo
 
 # Interface: IDomainAnalyticsTechnologiesTechnologiesSummaryLiveRequestInfo
 
@@ -39,7 +39,7 @@ example:
 
 #### Defined in
 
-main.ts:73347
+[main.ts:73203](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L73203)
 
 ___
 
@@ -63,7 +63,7 @@ for more information about filters, please refer to Domain Analytics Technologie
 
 #### Defined in
 
-main.ts:73382
+[main.ts:73238](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L73238)
 
 ___
 
@@ -80,7 +80,7 @@ example:
 
 #### Defined in
 
-main.ts:73340
+[main.ts:73196](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L73196)
 
 ___
 
@@ -97,7 +97,7 @@ maximum value: 10000
 
 #### Defined in
 
-main.ts:73389
+[main.ts:73245](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L73245)
 
 ___
 
@@ -114,7 +114,7 @@ example:
 
 #### Defined in
 
-main.ts:73361
+[main.ts:73217](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L73217)
 
 ___
 
@@ -131,7 +131,7 @@ default value: as_is
 
 #### Defined in
 
-main.ts:73368
+[main.ts:73224](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L73224)
 
 ___
 
@@ -147,7 +147,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:73395
+[main.ts:73251](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L73251)
 
 ___
 
@@ -164,7 +164,7 @@ example:
 
 #### Defined in
 
-main.ts:73354
+[main.ts:73210](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L73210)
 
 ___
 
@@ -184,4 +184,4 @@ example:
 
 #### Defined in
 
-main.ts:73333
+[main.ts:73189](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L73189)

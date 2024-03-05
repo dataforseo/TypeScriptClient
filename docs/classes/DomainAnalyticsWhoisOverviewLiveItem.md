@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / DomainAnalyticsWhoisOverviewLiveItem
+[dataforseo-client](../README.md) / [Exports](../modules.md) / DomainAnalyticsWhoisOverviewLiveItem
 
 # Class: DomainAnalyticsWhoisOverviewLiveItem
 
@@ -57,7 +57,7 @@ items array
 
 #### Defined in
 
-main.ts:76267
+[main.ts:76123](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L76123)
 
 ## Properties
 
@@ -73,7 +73,7 @@ backlink data for the returned domain
 
 #### Defined in
 
-main.ts:76263
+[main.ts:76119](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L76119)
 
 ___
 
@@ -92,7 +92,7 @@ example:
 
 #### Defined in
 
-main.ts:76229
+[main.ts:76085](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L76085)
 
 ___
 
@@ -111,7 +111,7 @@ example:
 
 #### Defined in
 
-main.ts:76224
+[main.ts:76080](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L76080)
 
 ___
 
@@ -127,7 +127,7 @@ domain name
 
 #### Defined in
 
-main.ts:76219
+[main.ts:76075](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L76075)
 
 ___
 
@@ -144,7 +144,7 @@ the status of a domain name registration as defined by ICANN
 
 #### Defined in
 
-main.ts:76247
+[main.ts:76103](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L76103)
 
 ___
 
@@ -163,7 +163,7 @@ example:
 
 #### Defined in
 
-main.ts:76234
+[main.ts:76090](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L76090)
 
 ___
 
@@ -182,7 +182,7 @@ example:
 
 #### Defined in
 
-main.ts:76244
+[main.ts:76100](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L76100)
 
 ___
 
@@ -198,7 +198,7 @@ ranking data relevant to the specified domain
 
 #### Defined in
 
-main.ts:76261
+[main.ts:76117](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L76117)
 
 ___
 
@@ -216,7 +216,7 @@ Note: expired domains will remain in the database for only a short period of tim
 
 #### Defined in
 
-main.ts:76254
+[main.ts:76110](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L76110)
 
 ___
 
@@ -235,7 +235,7 @@ NameCheap, Inc.
 
 #### Defined in
 
-main.ts:76259
+[main.ts:76115](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L76115)
 
 ___
 
@@ -252,7 +252,7 @@ top-level domain in the DNS root zone
 
 #### Defined in
 
-main.ts:76250
+[main.ts:76106](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L76106)
 
 ___
 
@@ -271,7 +271,7 @@ example:
 
 #### Defined in
 
-main.ts:76239
+[main.ts:76095](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L76095)
 
 ## Methods
 
@@ -291,7 +291,7 @@ main.ts:76239
 
 #### Defined in
 
-main.ts:76276
+[main.ts:76132](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L76132)
 
 ___
 
@@ -311,7 +311,7 @@ ___
 
 #### Defined in
 
-main.ts:76308
+[main.ts:76164](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L76164)
 
 ___
 
@@ -331,4 +331,4 @@ ___
 
 #### Defined in
 
-main.ts:76301
+[main.ts:76157](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L76157)

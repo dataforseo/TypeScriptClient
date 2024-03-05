@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IDataforseoLabsGoogleRelatedKeywordsLiveResultInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IDataforseoLabsGoogleRelatedKeywordsLiveResultInfo
 
 # Interface: IDataforseoLabsGoogleRelatedKeywordsLiveResultInfo
 
@@ -33,7 +33,7 @@ contains keywords and related data
 
 #### Defined in
 
-main.ts:80633
+[main.ts:80489](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L80489)
 
 ___
 
@@ -45,7 +45,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:80631
+[main.ts:80487](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L80487)
 
 ___
 
@@ -57,7 +57,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:80627
+[main.ts:80483](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L80483)
 
 ___
 
@@ -69,7 +69,7 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:80625
+[main.ts:80481](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L80481)
 
 ___
 
@@ -81,7 +81,7 @@ search engine type
 
 #### Defined in
 
-main.ts:80618
+[main.ts:80474](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L80474)
 
 ___
 
@@ -93,7 +93,7 @@ keyword in a POST array
 
 #### Defined in
 
-main.ts:80620
+[main.ts:80476](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L80476)
 
 ___
 
@@ -110,7 +110,7 @@ fields in the array are identical to that of keyword_data
 
 #### Defined in
 
-main.ts:80623
+[main.ts:80479](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L80479)
 
 ___
 
@@ -122,4 +122,4 @@ total amount of results in our database relevant to your request
 
 #### Defined in
 
-main.ts:80629
+[main.ts:80485](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L80485)

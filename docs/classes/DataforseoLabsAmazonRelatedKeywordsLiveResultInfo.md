@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / DataforseoLabsAmazonRelatedKeywordsLiveResultInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / DataforseoLabsAmazonRelatedKeywordsLiveResultInfo
 
 # Class: DataforseoLabsAmazonRelatedKeywordsLiveResultInfo
 
@@ -51,7 +51,7 @@
 
 #### Defined in
 
-main.ts:99525
+[main.ts:99381](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L99381)
 
 ## Properties
 
@@ -67,7 +67,7 @@ contains objects with keywords and related data
 
 #### Defined in
 
-main.ts:99521
+[main.ts:99377](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L99377)
 
 ___
 
@@ -83,7 +83,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:99519
+[main.ts:99375](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L99375)
 
 ___
 
@@ -99,7 +99,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:99515
+[main.ts:99371](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L99371)
 
 ___
 
@@ -115,7 +115,7 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:99513
+[main.ts:99369](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L99369)
 
 ___
 
@@ -131,7 +131,7 @@ search engine type
 
 #### Defined in
 
-main.ts:99506
+[main.ts:99362](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L99362)
 
 ___
 
@@ -147,7 +147,7 @@ keyword in a POST array
 
 #### Defined in
 
-main.ts:99508
+[main.ts:99364](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L99364)
 
 ___
 
@@ -164,7 +164,7 @@ fields in the object are identical to that of keyword_data
 
 #### Defined in
 
-main.ts:99511
+[main.ts:99367](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L99367)
 
 ___
 
@@ -180,7 +180,7 @@ total amount of results in our database relevant to your request
 
 #### Defined in
 
-main.ts:99517
+[main.ts:99373](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L99373)
 
 ## Methods
 
@@ -200,7 +200,7 @@ main.ts:99517
 
 #### Defined in
 
-main.ts:99534
+[main.ts:99390](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L99390)
 
 ___
 
@@ -220,7 +220,7 @@ ___
 
 #### Defined in
 
-main.ts:99562
+[main.ts:99418](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L99418)
 
 ___
 
@@ -240,4 +240,4 @@ ___
 
 #### Defined in
 
-main.ts:99555
+[main.ts:99411](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L99411)

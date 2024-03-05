@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IServiceOfferingsElement
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IServiceOfferingsElement
 
 # Interface: IServiceOfferingsElement
 
@@ -29,7 +29,7 @@ if the value is false, the offering is not available
 
 #### Defined in
 
-main.ts:204123
+[main.ts:204003](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L204003)
 
 ___
 
@@ -42,7 +42,7 @@ example: Delivery
 
 #### Defined in
 
-main.ts:204120
+[main.ts:204000](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L204000)
 
 ___
 
@@ -54,4 +54,4 @@ type of element
 
 #### Defined in
 
-main.ts:204117
+[main.ts:203997](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L203997)

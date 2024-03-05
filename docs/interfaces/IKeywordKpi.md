@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IKeywordKpi
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IKeywordKpi
 
 # Interface: IKeywordKpi
 
@@ -29,7 +29,7 @@ if there is no data, then the value is null
 
 #### Defined in
 
-main.ts:127472
+[main.ts:127328](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L127328)
 
 ___
 
@@ -42,7 +42,7 @@ if there is no data, then the value is null
 
 #### Defined in
 
-main.ts:127475
+[main.ts:127331](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L127331)
 
 ___
 
@@ -55,4 +55,4 @@ if there is no data, then the value is null
 
 #### Defined in
 
-main.ts:127478
+[main.ts:127334](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L127334)

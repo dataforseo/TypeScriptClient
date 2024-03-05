@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IOnPagePagesRequestInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IOnPagePagesRequestInfo
 
 # Interface: IOnPagePagesRequestInfo
 
@@ -40,7 +40,7 @@ example:
 
 #### Defined in
 
-main.ts:144164
+[main.ts:144020](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L144020)
 
 ___
 
@@ -56,7 +56,7 @@ example:
 
 #### Defined in
 
-main.ts:144143
+[main.ts:143999](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L143999)
 
 ___
 
@@ -71,7 +71,7 @@ maximum value: 1000
 
 #### Defined in
 
-main.ts:144148
+[main.ts:144004](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L144004)
 
 ___
 
@@ -86,7 +86,7 @@ if you specify the 10 value, the first ten pages in the results array will be om
 
 #### Defined in
 
-main.ts:144153
+[main.ts:144009](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L144009)
 
 ___
 
@@ -110,7 +110,7 @@ example:
 
 #### Defined in
 
-main.ts:144178
+[main.ts:144034](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L144034)
 
 ___
 
@@ -126,4 +126,4 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:144184
+[main.ts:144040](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L144040)

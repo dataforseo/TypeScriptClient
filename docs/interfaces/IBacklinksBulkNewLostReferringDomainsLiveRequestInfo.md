@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IBacklinksBulkNewLostReferringDomainsLiveRequestInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IBacklinksBulkNewLostReferringDomainsLiveRequestInfo
 
 # Interface: IBacklinksBulkNewLostReferringDomainsLiveRequestInfo
 
@@ -39,7 +39,7 @@ example:
 
 #### Defined in
 
-main.ts:141316
+[main.ts:141172](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L141172)
 
 ___
 
@@ -55,7 +55,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:141322
+[main.ts:141178](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L141178)
 
 ___
 
@@ -84,4 +84,4 @@ example:
 
 #### Defined in
 
-main.ts:141303
+[main.ts:141159](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L141159)

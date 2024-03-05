@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / KnowledgeGraphShoppingElement
+[dataforseo-client](../README.md) / [Exports](../modules.md) / KnowledgeGraphShoppingElement
 
 # Class: KnowledgeGraphShoppingElement
 
@@ -52,7 +52,7 @@
 
 #### Defined in
 
-main.ts:27459
+[main.ts:27317](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L27317)
 
 ## Properties
 
@@ -68,7 +68,7 @@ website domain
 
 #### Defined in
 
-main.ts:27440
+[main.ts:27298](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L27298)
 
 ___
 
@@ -87,7 +87,7 @@ by Google
 
 #### Defined in
 
-main.ts:27452
+[main.ts:27310](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L27310)
 
 ___
 
@@ -104,7 +104,7 @@ ecommerce site that hosts products or websites of individual sellers under the s
 
 #### Defined in
 
-main.ts:27455
+[main.ts:27313](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L27313)
 
 ___
 
@@ -121,7 +121,7 @@ contains the pricing details of the product or service featured in the result
 
 #### Defined in
 
-main.ts:27443
+[main.ts:27301](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L27301)
 
 ___
 
@@ -137,7 +137,7 @@ text alongside the link title
 
 #### Defined in
 
-main.ts:27447
+[main.ts:27305](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L27305)
 
 ___
 
@@ -153,7 +153,7 @@ source of additional information about the result
 
 #### Defined in
 
-main.ts:27445
+[main.ts:27303](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L27303)
 
 ___
 
@@ -169,7 +169,7 @@ title of the result in SERP
 
 #### Defined in
 
-main.ts:27436
+[main.ts:27294](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L27294)
 
 ___
 
@@ -185,7 +185,7 @@ type of element
 
 #### Defined in
 
-main.ts:27434
+[main.ts:27292](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L27292)
 
 ___
 
@@ -201,7 +201,7 @@ relevant URL
 
 #### Defined in
 
-main.ts:27438
+[main.ts:27296](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L27296)
 
 ## Methods
 
@@ -221,7 +221,7 @@ main.ts:27438
 
 #### Defined in
 
-main.ts:27468
+[main.ts:27326](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L27326)
 
 ___
 
@@ -241,7 +241,7 @@ ___
 
 #### Defined in
 
-main.ts:27493
+[main.ts:27351](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L27351)
 
 ___
 
@@ -261,4 +261,4 @@ ___
 
 #### Defined in
 
-main.ts:27486
+[main.ts:27344](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L27344)

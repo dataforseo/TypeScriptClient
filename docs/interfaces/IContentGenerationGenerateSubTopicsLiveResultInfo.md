@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IContentGenerationGenerateSubTopicsLiveResultInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IContentGenerationGenerateSubTopicsLiveResultInfo
 
 # Interface: IContentGenerationGenerateSubTopicsLiveResultInfo
 
@@ -29,7 +29,7 @@ number of input tokens
 
 #### Defined in
 
-main.ts:161112
+[main.ts:160992](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L160992)
 
 ___
 
@@ -41,7 +41,7 @@ number of new tokens
 
 #### Defined in
 
-main.ts:161116
+[main.ts:160996](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L160996)
 
 ___
 
@@ -53,7 +53,7 @@ number of output tokens
 
 #### Defined in
 
-main.ts:161114
+[main.ts:160994](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L160994)
 
 ___
 
@@ -65,4 +65,4 @@ resulting subtopics
 
 #### Defined in
 
-main.ts:161118
+[main.ts:160998](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L160998)

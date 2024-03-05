@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / KeywordsDataGoogleTrendsExploreTaskGetResultInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / KeywordsDataGoogleTrendsExploreTaskGetResultInfo
 
 # Class: KeywordsDataGoogleTrendsExploreTaskGetResultInfo
 
@@ -51,7 +51,7 @@
 
 #### Defined in
 
-main.ts:121371
+[main.ts:121227](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L121227)
 
 ## Properties
 
@@ -68,7 +68,7 @@ you can use it to make sure that we provided accurate results
 
 #### Defined in
 
-main.ts:121358
+[main.ts:121214](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L121214)
 
 ___
 
@@ -87,7 +87,7 @@ example:
 
 #### Defined in
 
-main.ts:121363
+[main.ts:121219](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L121219)
 
 ___
 
@@ -103,7 +103,7 @@ items on the Google Trends page
 
 #### Defined in
 
-main.ts:121367
+[main.ts:121223](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L121223)
 
 ___
 
@@ -119,7 +119,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:121365
+[main.ts:121221](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L121221)
 
 ___
 
@@ -135,7 +135,7 @@ keywords in a POST array
 
 #### Defined in
 
-main.ts:121347
+[main.ts:121203](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L121203)
 
 ___
 
@@ -152,7 +152,7 @@ if there is no data, then the value is null
 
 #### Defined in
 
-main.ts:121355
+[main.ts:121211](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L121211)
 
 ___
 
@@ -169,7 +169,7 @@ if there is no data, then the value is null
 
 #### Defined in
 
-main.ts:121352
+[main.ts:121208](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L121208)
 
 ___
 
@@ -185,7 +185,7 @@ type of element
 
 #### Defined in
 
-main.ts:121349
+[main.ts:121205](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L121205)
 
 ## Methods
 
@@ -205,7 +205,7 @@ main.ts:121349
 
 #### Defined in
 
-main.ts:121380
+[main.ts:121236](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L121236)
 
 ___
 
@@ -225,7 +225,7 @@ ___
 
 #### Defined in
 
-main.ts:121412
+[main.ts:121268](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L121268)
 
 ___
 
@@ -245,4 +245,4 @@ ___
 
 #### Defined in
 
-main.ts:121405
+[main.ts:121261](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L121261)

@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IPodcastsElement
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IPodcastsElement
 
 # Interface: IPodcastsElement
 
@@ -31,7 +31,7 @@ description of the results element in SERP
 
 #### Defined in
 
-main.ts:32372
+[main.ts:32230](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L32230)
 
 ___
 
@@ -43,7 +43,7 @@ the total time it will take to play an episode
 
 #### Defined in
 
-main.ts:32379
+[main.ts:32237](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L32237)
 
 ___
 
@@ -58,7 +58,7 @@ example:
 
 #### Defined in
 
-main.ts:32377
+[main.ts:32235](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L32235)
 
 ___
 
@@ -70,7 +70,7 @@ title of the row
 
 #### Defined in
 
-main.ts:32368
+[main.ts:32226](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L32226)
 
 ___
 
@@ -82,7 +82,7 @@ type of element
 
 #### Defined in
 
-main.ts:32366
+[main.ts:32224](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L32224)
 
 ___
 
@@ -94,4 +94,4 @@ URL
 
 #### Defined in
 
-main.ts:32370
+[main.ts:32228](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L32228)

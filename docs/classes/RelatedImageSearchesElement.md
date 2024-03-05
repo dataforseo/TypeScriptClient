@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / RelatedImageSearchesElement
+[dataforseo-client](../README.md) / [Exports](../modules.md) / RelatedImageSearchesElement
 
 # Class: RelatedImageSearchesElement
 
@@ -48,7 +48,7 @@
 
 #### Defined in
 
-main.ts:28935
+[main.ts:28793](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L28793)
 
 ## Properties
 
@@ -64,7 +64,7 @@ alt tag of the image
 
 #### Defined in
 
-main.ts:28926
+[main.ts:28784](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L28784)
 
 ___
 
@@ -81,7 +81,7 @@ the URL leading to the image on the original resource or DataForSEO storage (in 
 
 #### Defined in
 
-main.ts:28931
+[main.ts:28789](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L28789)
 
 ___
 
@@ -97,7 +97,7 @@ title of the carousel item
 
 #### Defined in
 
-main.ts:28924
+[main.ts:28782](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L28782)
 
 ___
 
@@ -113,7 +113,7 @@ type of element
 
 #### Defined in
 
-main.ts:28922
+[main.ts:28780](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L28780)
 
 ___
 
@@ -129,7 +129,7 @@ source URL
 
 #### Defined in
 
-main.ts:28928
+[main.ts:28786](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L28786)
 
 ## Methods
 
@@ -149,7 +149,7 @@ main.ts:28928
 
 #### Defined in
 
-main.ts:28944
+[main.ts:28802](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L28802)
 
 ___
 
@@ -169,7 +169,7 @@ ___
 
 #### Defined in
 
-main.ts:28965
+[main.ts:28823](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L28823)
 
 ___
 
@@ -189,4 +189,4 @@ ___
 
 #### Defined in
 
-main.ts:28958
+[main.ts:28816](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L28816)

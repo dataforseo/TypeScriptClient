@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IDataforseoLabsCategoriesResultInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IDataforseoLabsCategoriesResultInfo
 
 # Interface: IDataforseoLabsCategoriesResultInfo
 
@@ -28,7 +28,7 @@ category code
 
 #### Defined in
 
-main.ts:78338
+[main.ts:78194](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L78194)
 
 ___
 
@@ -49,7 +49,7 @@ corresponds to:
 
 #### Defined in
 
-main.ts:78351
+[main.ts:78207](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L78207)
 
 ___
 
@@ -61,4 +61,4 @@ full name of the category
 
 #### Defined in
 
-main.ts:78340
+[main.ts:78196](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L78196)

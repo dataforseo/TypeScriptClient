@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / ProductConsiderationsElement
+[dataforseo-client](../README.md) / [Exports](../modules.md) / ProductConsiderationsElement
 
 # Class: ProductConsiderationsElement
 
@@ -47,7 +47,7 @@
 
 #### Defined in
 
-main.ts:34687
+[main.ts:34545](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L34545)
 
 ## Properties
 
@@ -64,7 +64,7 @@ the category is indicated just above the title fo the consideration element
 
 #### Defined in
 
-main.ts:34681
+[main.ts:34539](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L34539)
 
 ___
 
@@ -80,7 +80,7 @@ expanded element
 
 #### Defined in
 
-main.ts:34683
+[main.ts:34541](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L34541)
 
 ___
 
@@ -96,7 +96,7 @@ title of the row
 
 #### Defined in
 
-main.ts:34678
+[main.ts:34536](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L34536)
 
 ___
 
@@ -112,7 +112,7 @@ type of element
 
 #### Defined in
 
-main.ts:34676
+[main.ts:34534](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L34534)
 
 ## Methods
 
@@ -132,7 +132,7 @@ main.ts:34676
 
 #### Defined in
 
-main.ts:34696
+[main.ts:34554](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L34554)
 
 ___
 
@@ -152,7 +152,7 @@ ___
 
 #### Defined in
 
-main.ts:34716
+[main.ts:34574](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L34574)
 
 ___
 
@@ -172,4 +172,4 @@ ___
 
 #### Defined in
 
-main.ts:34709
+[main.ts:34567](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L34567)

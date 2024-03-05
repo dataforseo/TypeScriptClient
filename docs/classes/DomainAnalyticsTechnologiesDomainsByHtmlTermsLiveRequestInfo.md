@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / DomainAnalyticsTechnologiesDomainsByHtmlTermsLiveRequestInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / DomainAnalyticsTechnologiesDomainsByHtmlTermsLiveRequestInfo
 
 # Class: DomainAnalyticsTechnologiesDomainsByHtmlTermsLiveRequestInfo
 
@@ -51,7 +51,7 @@
 
 #### Defined in
 
-main.ts:74841
+[main.ts:74697](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L74697)
 
 ## Properties
 
@@ -82,7 +82,7 @@ for more information about filters, please refer to Domain Analytics Technologie
 
 #### Defined in
 
-main.ts:74800
+[main.ts:74656](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L74656)
 
 ___
 
@@ -104,7 +104,7 @@ example:
 
 #### Defined in
 
-main.ts:74776
+[main.ts:74632](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L74632)
 
 ___
 
@@ -123,7 +123,7 @@ maximum value: 10000
 
 #### Defined in
 
-main.ts:74822
+[main.ts:74678](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L74678)
 
 ___
 
@@ -144,7 +144,7 @@ default value: entry
 
 #### Defined in
 
-main.ts:74783
+[main.ts:74639](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L74639)
 
 ___
 
@@ -165,7 +165,7 @@ use the offset_token if you would like to offset more results
 
 #### Defined in
 
-main.ts:74829
+[main.ts:74685](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L74685)
 
 ___
 
@@ -187,7 +187,7 @@ Note: if the offset_token is specified in the request, all other parameters shou
 
 #### Defined in
 
-main.ts:74837
+[main.ts:74693](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L74693)
 
 ___
 
@@ -218,7 +218,7 @@ example:
 
 #### Defined in
 
-main.ts:74817
+[main.ts:74673](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L74673)
 
 ___
 
@@ -240,7 +240,7 @@ example:
 
 #### Defined in
 
-main.ts:74768
+[main.ts:74624](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L74624)
 
 ## Methods
 
@@ -260,7 +260,7 @@ main.ts:74768
 
 #### Defined in
 
-main.ts:74850
+[main.ts:74706](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L74706)
 
 ___
 
@@ -280,7 +280,7 @@ ___
 
 #### Defined in
 
-main.ts:74890
+[main.ts:74746](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L74746)
 
 ___
 
@@ -300,4 +300,4 @@ ___
 
 #### Defined in
 
-main.ts:74883
+[main.ts:74739](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L74739)

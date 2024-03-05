@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IOnPageResourcesRequestInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IOnPageResourcesRequestInfo
 
 # Interface: IOnPageResourcesRequestInfo
 
@@ -45,7 +45,7 @@ The full list of possible filters is available by this link.
 
 #### Defined in
 
-main.ts:146036
+[main.ts:145892](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L145892)
 
 ___
 
@@ -61,7 +61,7 @@ example:
 
 #### Defined in
 
-main.ts:146006
+[main.ts:145862](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L145862)
 
 ___
 
@@ -76,7 +76,7 @@ maximum value: 1000
 
 #### Defined in
 
-main.ts:146017
+[main.ts:145873](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L145873)
 
 ___
 
@@ -91,7 +91,7 @@ if you specify the 10 value, the first ten resources in the results array will b
 
 #### Defined in
 
-main.ts:146022
+[main.ts:145878](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L145878)
 
 ___
 
@@ -115,7 +115,7 @@ example:
 
 #### Defined in
 
-main.ts:146062
+[main.ts:145918](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L145918)
 
 ___
 
@@ -137,7 +137,7 @@ example:
 
 #### Defined in
 
-main.ts:146048
+[main.ts:145904](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L145904)
 
 ___
 
@@ -153,7 +153,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:146068
+[main.ts:145924](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L145924)
 
 ___
 
@@ -169,4 +169,4 @@ if you do not indicate a url when setting a task, resource’s meta in the resul
 
 #### Defined in
 
-main.ts:146012
+[main.ts:145868](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L145868)

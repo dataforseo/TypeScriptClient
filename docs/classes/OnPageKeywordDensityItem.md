@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / OnPageKeywordDensityItem
+[dataforseo-client](../README.md) / [Exports](../modules.md) / OnPageKeywordDensityItem
 
 # Class: OnPageKeywordDensityItem
 
@@ -46,7 +46,7 @@
 
 #### Defined in
 
-main.ts:150387
+[main.ts:150243](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L150243)
 
 ## Properties
 
@@ -63,7 +63,7 @@ calculated as a ratio of frequency to the total count of keywords with the set k
 
 #### Defined in
 
-main.ts:150383
+[main.ts:150239](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L150239)
 
 ___
 
@@ -80,7 +80,7 @@ number of times the keyword appears on the website (or webpage if you specified 
 
 #### Defined in
 
-main.ts:150380
+[main.ts:150236](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L150236)
 
 ___
 
@@ -96,7 +96,7 @@ returned keyword
 
 #### Defined in
 
-main.ts:150377
+[main.ts:150233](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L150233)
 
 ## Methods
 
@@ -116,7 +116,7 @@ main.ts:150377
 
 #### Defined in
 
-main.ts:150396
+[main.ts:150252](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L150252)
 
 ___
 
@@ -136,7 +136,7 @@ ___
 
 #### Defined in
 
-main.ts:150415
+[main.ts:150271](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L150271)
 
 ___
 
@@ -156,4 +156,4 @@ ___
 
 #### Defined in
 
-main.ts:150408
+[main.ts:150264](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L150264)

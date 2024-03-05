@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IAppendixMerchantPriceData
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IAppendixMerchantPriceData
 
 # Interface: IAppendixMerchantPriceData
 
@@ -29,7 +29,7 @@
 
 #### Defined in
 
-main.ts:210657
+[main.ts:210537](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L210537)
 
 ___
 
@@ -39,7 +39,7 @@ ___
 
 #### Defined in
 
-main.ts:210658
+[main.ts:210538](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L210538)
 
 ___
 
@@ -49,7 +49,7 @@ ___
 
 #### Defined in
 
-main.ts:210656
+[main.ts:210536](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L210536)
 
 ___
 
@@ -59,7 +59,7 @@ ___
 
 #### Defined in
 
-main.ts:210659
+[main.ts:210539](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L210539)
 
 ___
 
@@ -69,7 +69,7 @@ ___
 
 #### Defined in
 
-main.ts:210660
+[main.ts:210540](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L210540)
 
 ___
 
@@ -79,4 +79,4 @@ ___
 
 #### Defined in
 
-main.ts:210661
+[main.ts:210541](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L210541)

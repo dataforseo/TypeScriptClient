@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / ISerpYoutubeLanguagesResultInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / ISerpYoutubeLanguagesResultInfo
 
 # Interface: ISerpYoutubeLanguagesResultInfo
 
@@ -27,7 +27,7 @@ language code according to ISO 639-1
 
 #### Defined in
 
-main.ts:57761
+[main.ts:57617](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L57617)
 
 ___
 
@@ -39,4 +39,4 @@ language name
 
 #### Defined in
 
-main.ts:57759
+[main.ts:57615](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L57615)

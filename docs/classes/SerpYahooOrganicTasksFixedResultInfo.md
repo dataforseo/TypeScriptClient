@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / SerpYahooOrganicTasksFixedResultInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / SerpYahooOrganicTasksFixedResultInfo
 
 # Class: SerpYahooOrganicTasksFixedResultInfo
 
@@ -51,7 +51,7 @@
 
 #### Defined in
 
-main.ts:63679
+[main.ts:63535](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L63535)
 
 ## Properties
 
@@ -67,7 +67,7 @@ date when the task was fixed (in the UTC format)
 
 #### Defined in
 
-main.ts:63664
+[main.ts:63520](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L63520)
 
 ___
 
@@ -84,7 +84,7 @@ if SERP Advanced is not supported in the specified endpoint, the value will be n
 
 #### Defined in
 
-main.ts:63672
+[main.ts:63528](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L63528)
 
 ___
 
@@ -101,7 +101,7 @@ if SERP HTML is not supported in the specified endpoint, the value will be null
 
 #### Defined in
 
-main.ts:63675
+[main.ts:63531](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L63531)
 
 ___
 
@@ -118,7 +118,7 @@ if SERP Regular is not supported in the specified endpoint, the value will be nu
 
 #### Defined in
 
-main.ts:63669
+[main.ts:63525](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L63525)
 
 ___
 
@@ -135,7 +135,7 @@ unique task identifier in our system in the UUID format
 
 #### Defined in
 
-main.ts:63657
+[main.ts:63513](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L63513)
 
 ___
 
@@ -151,7 +151,7 @@ search engine specified when setting the task
 
 #### Defined in
 
-main.ts:63659
+[main.ts:63515](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L63515)
 
 ___
 
@@ -168,7 +168,7 @@ can take the following values: organic
 
 #### Defined in
 
-main.ts:63662
+[main.ts:63518](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L63518)
 
 ___
 
@@ -184,7 +184,7 @@ user-defined task identifier
 
 #### Defined in
 
-main.ts:63666
+[main.ts:63522](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L63522)
 
 ## Methods
 
@@ -204,7 +204,7 @@ main.ts:63666
 
 #### Defined in
 
-main.ts:63688
+[main.ts:63544](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L63544)
 
 ___
 
@@ -224,7 +224,7 @@ ___
 
 #### Defined in
 
-main.ts:63712
+[main.ts:63568](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L63568)
 
 ___
 
@@ -244,4 +244,4 @@ ___
 
 #### Defined in
 
-main.ts:63705
+[main.ts:63561](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L63561)

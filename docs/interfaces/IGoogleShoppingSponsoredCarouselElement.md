@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IGoogleShoppingSponsoredCarouselElement
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IGoogleShoppingSponsoredCarouselElement
 
 # Interface: IGoogleShoppingSponsoredCarouselElement
 
@@ -38,7 +38,7 @@ USD
 
 #### Defined in
 
-main.ts:165288
+[main.ts:165168](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L165168)
 
 ___
 
@@ -51,7 +51,7 @@ delivery information including free and fast delivery date ranges
 
 #### Defined in
 
-main.ts:165300
+[main.ts:165180](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L165180)
 
 ___
 
@@ -65,7 +65,7 @@ example:
 
 #### Defined in
 
-main.ts:165284
+[main.ts:165164](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L165164)
 
 ___
 
@@ -78,7 +78,7 @@ the first URL in the array is the featured image of the product
 
 #### Defined in
 
-main.ts:165294
+[main.ts:165174](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L165174)
 
 ___
 
@@ -91,7 +91,7 @@ the product popularity rate based on product reviews
 
 #### Defined in
 
-main.ts:165291
+[main.ts:165171](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L165171)
 
 ___
 
@@ -104,7 +104,7 @@ the name of the company that placed a corresponding product on Google Shopping
 
 #### Defined in
 
-main.ts:165280
+[main.ts:165160](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L165160)
 
 ___
 
@@ -117,7 +117,7 @@ using this parameter you can get a URL of the advertisement in Google Shopping S
 
 #### Defined in
 
-main.ts:165297
+[main.ts:165177](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L165177)
 
 ___
 
@@ -129,7 +129,7 @@ tags assigned to the product
 
 #### Defined in
 
-main.ts:165277
+[main.ts:165157](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L165157)
 
 ___
 
@@ -141,7 +141,7 @@ product title
 
 #### Defined in
 
-main.ts:165275
+[main.ts:165155](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L165155)
 
 ___
 
@@ -153,7 +153,7 @@ type of element
 
 #### Defined in
 
-main.ts:165271
+[main.ts:165151](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L165151)
 
 ___
 
@@ -165,4 +165,4 @@ XPath of the element
 
 #### Defined in
 
-main.ts:165273
+[main.ts:165153](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L165153)

@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / TrendsMapDataInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / TrendsMapDataInfo
 
 # Class: TrendsMapDataInfo
 
@@ -47,7 +47,7 @@
 
 #### Defined in
 
-main.ts:120746
+[main.ts:120602](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L120602)
 
 ## Properties
 
@@ -66,7 +66,7 @@ US-NY
 
 #### Defined in
 
-main.ts:120728
+[main.ts:120584](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L120584)
 
 ___
 
@@ -83,7 +83,7 @@ you can use this field for matching obtained results with location parameters sp
 
 #### Defined in
 
-main.ts:120731
+[main.ts:120587](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L120587)
 
 ___
 
@@ -101,7 +101,7 @@ if you specified only one keyword, the value will be null
 
 #### Defined in
 
-main.ts:120742
+[main.ts:120598](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L120598)
 
 ___
 
@@ -122,7 +122,7 @@ a value of 0 means there was not enough data for this term
 
 #### Defined in
 
-main.ts:120738
+[main.ts:120594](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L120594)
 
 ## Methods
 
@@ -142,7 +142,7 @@ main.ts:120738
 
 #### Defined in
 
-main.ts:120755
+[main.ts:120611](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L120611)
 
 ___
 
@@ -162,7 +162,7 @@ ___
 
 #### Defined in
 
-main.ts:120779
+[main.ts:120635](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L120635)
 
 ___
 
@@ -182,4 +182,4 @@ ___
 
 #### Defined in
 
-main.ts:120772
+[main.ts:120628](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L120628)

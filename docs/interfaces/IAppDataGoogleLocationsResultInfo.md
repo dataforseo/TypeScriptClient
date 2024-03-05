@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IAppDataGoogleLocationsResultInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IAppDataGoogleLocationsResultInfo
 
 # Interface: IAppDataGoogleLocationsResultInfo
 
@@ -30,7 +30,7 @@ ISO country code of the location
 
 #### Defined in
 
-main.ts:177333
+[main.ts:177213](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L177213)
 
 ___
 
@@ -42,7 +42,7 @@ location code
 
 #### Defined in
 
-main.ts:177321
+[main.ts:177201](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L177201)
 
 ___
 
@@ -54,7 +54,7 @@ full name of the location
 
 #### Defined in
 
-main.ts:177323
+[main.ts:177203](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L177203)
 
 ___
 
@@ -72,7 +72,7 @@ example:
 
 #### Defined in
 
-main.ts:177331
+[main.ts:177211](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L177211)
 
 ___
 
@@ -84,4 +84,4 @@ location type
 
 #### Defined in
 
-main.ts:177335
+[main.ts:177215](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L177215)

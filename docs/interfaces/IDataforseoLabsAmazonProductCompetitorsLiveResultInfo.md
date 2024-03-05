@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IDataforseoLabsAmazonProductCompetitorsLiveResultInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IDataforseoLabsAmazonProductCompetitorsLiveResultInfo
 
 # Interface: IDataforseoLabsAmazonProductCompetitorsLiveResultInfo
 
@@ -32,7 +32,7 @@ ASIN in a POST array
 
 #### Defined in
 
-main.ts:101537
+[main.ts:101393](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L101393)
 
 ___
 
@@ -44,7 +44,7 @@ contains detected Amazon product competitors and related data
 
 #### Defined in
 
-main.ts:101549
+[main.ts:101405](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L101405)
 
 ___
 
@@ -56,7 +56,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:101547
+[main.ts:101403](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L101403)
 
 ___
 
@@ -69,7 +69,7 @@ if there is no data, then the value is null
 
 #### Defined in
 
-main.ts:101543
+[main.ts:101399](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L101399)
 
 ___
 
@@ -82,7 +82,7 @@ if there is no data, then the value is null
 
 #### Defined in
 
-main.ts:101540
+[main.ts:101396](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L101396)
 
 ___
 
@@ -94,7 +94,7 @@ search engine type
 
 #### Defined in
 
-main.ts:101535
+[main.ts:101391](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L101391)
 
 ___
 
@@ -106,4 +106,4 @@ total amount of results in our database relevant to your request
 
 #### Defined in
 
-main.ts:101545
+[main.ts:101401](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L101401)

@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / TopStoriesDataforseoLabsSerpElementItem
+[dataforseo-client](../README.md) / [Exports](../modules.md) / TopStoriesDataforseoLabsSerpElementItem
 
 # Class: TopStoriesDataforseoLabsSerpElementItem
 
@@ -59,7 +59,7 @@
 
 #### Defined in
 
-main.ts:92753
+[main.ts:92609](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L92609)
 
 ## Properties
 
@@ -73,7 +73,7 @@ main.ts:92753
 
 #### Defined in
 
-main.ts:19715
+[main.ts:19715](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L19715)
 
 ___
 
@@ -90,7 +90,7 @@ if there are none, equals null
 
 #### Defined in
 
-main.ts:92749
+[main.ts:92605](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L92605)
 
 ___
 
@@ -108,7 +108,7 @@ left, right
 
 #### Defined in
 
-main.ts:92744
+[main.ts:92600](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L92600)
 
 ___
 
@@ -125,7 +125,7 @@ absolute position among all the elements in SERP
 
 #### Defined in
 
-main.ts:92740
+[main.ts:92596](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L92596)
 
 ___
 
@@ -143,7 +143,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-main.ts:92737
+[main.ts:92593](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L92593)
 
 ___
 
@@ -159,7 +159,7 @@ the XPath of the element
 
 #### Defined in
 
-main.ts:92746
+[main.ts:92602](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L92602)
 
 ## Methods
 
@@ -183,7 +183,7 @@ main.ts:92746
 
 #### Defined in
 
-main.ts:92758
+[main.ts:92614](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L92614)
 
 ___
 
@@ -207,7 +207,7 @@ ___
 
 #### Defined in
 
-main.ts:92784
+[main.ts:92640](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L92640)
 
 ___
 
@@ -231,4 +231,4 @@ ___
 
 #### Defined in
 
-main.ts:92777
+[main.ts:92633](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L92633)

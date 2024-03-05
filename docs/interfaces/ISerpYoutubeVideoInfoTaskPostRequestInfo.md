@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / ISerpYoutubeVideoInfoTaskPostRequestInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / ISerpYoutubeVideoInfoTaskPostRequestInfo
 
 # Interface: ISerpYoutubeVideoInfoTaskPostRequestInfo
 
@@ -39,7 +39,7 @@ only value: desktop
 
 #### Defined in
 
-main.ts:58068
+[main.ts:57924](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L57924)
 
 ___
 
@@ -56,7 +56,7 @@ en
 
 #### Defined in
 
-main.ts:58064
+[main.ts:57920](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L57920)
 
 ___
 
@@ -73,7 +73,7 @@ English
 
 #### Defined in
 
-main.ts:58057
+[main.ts:57913](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L57913)
 
 ___
 
@@ -90,7 +90,7 @@ example:
 
 #### Defined in
 
-main.ts:58050
+[main.ts:57906](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L57906)
 
 ___
 
@@ -107,7 +107,7 @@ United States
 
 #### Defined in
 
-main.ts:58043
+[main.ts:57899](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L57899)
 
 ___
 
@@ -122,7 +122,7 @@ default value: windows
 
 #### Defined in
 
-main.ts:58073
+[main.ts:57929](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L57929)
 
 ___
 
@@ -142,7 +142,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-main.ts:58105
+[main.ts:57961](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L57961)
 
 ___
 
@@ -158,7 +158,7 @@ advanced
 
 #### Defined in
 
-main.ts:58095
+[main.ts:57951](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L57951)
 
 ___
 
@@ -178,7 +178,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-main.ts:58089
+[main.ts:57945](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L57945)
 
 ___
 
@@ -196,7 +196,7 @@ The cost can be calculated on the Pricing page.
 
 #### Defined in
 
-main.ts:58036
+[main.ts:57892](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L57892)
 
 ___
 
@@ -212,7 +212,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:58079
+[main.ts:57935](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L57935)
 
 ___
 
@@ -228,4 +228,4 @@ vQXvyV0zIP4
 
 #### Defined in
 
-main.ts:58028
+[main.ts:57884](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L57884)

@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / KnowledgeGraphHotelsBookingItemSerpElementItem
+[dataforseo-client](../README.md) / [Exports](../modules.md) / KnowledgeGraphHotelsBookingItemSerpElementItem
 
 # Class: KnowledgeGraphHotelsBookingItemSerpElementItem
 
@@ -64,7 +64,7 @@
 
 #### Defined in
 
-main.ts:36061
+[main.ts:35919](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L35919)
 
 ## Properties
 
@@ -78,7 +78,7 @@ main.ts:36061
 
 #### Defined in
 
-main.ts:19337
+[main.ts:19337](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L19337)
 
 ___
 
@@ -96,7 +96,7 @@ kc:/local:hotel booking
 
 #### Defined in
 
-main.ts:36051
+[main.ts:35909](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L35909)
 
 ___
 
@@ -115,7 +115,7 @@ example:
 
 #### Defined in
 
-main.ts:36042
+[main.ts:35900](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L35900)
 
 ___
 
@@ -134,7 +134,7 @@ example:
 
 #### Defined in
 
-main.ts:36047
+[main.ts:35905](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L35905)
 
 ___
 
@@ -150,7 +150,7 @@ contains results featured in the ‘hotels_pack’ element of SERP
 
 #### Defined in
 
-main.ts:36053
+[main.ts:35911](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L35911)
 
 ___
 
@@ -168,7 +168,7 @@ left, right
 
 #### Defined in
 
-main.ts:36033
+[main.ts:35891](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L35891)
 
 ___
 
@@ -185,7 +185,7 @@ absolute position among all the elements in SERP
 
 #### Defined in
 
-main.ts:36029
+[main.ts:35887](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L35887)
 
 ___
 
@@ -203,7 +203,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-main.ts:36026
+[main.ts:35884](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L35884)
 
 ___
 
@@ -221,7 +221,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 #### Defined in
 
-main.ts:36057
+[main.ts:35915](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L35915)
 
 ___
 
@@ -237,7 +237,7 @@ title of a given link element
 
 #### Defined in
 
-main.ts:36037
+[main.ts:35895](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L35895)
 
 ___
 
@@ -253,7 +253,7 @@ the XPath of the element
 
 #### Defined in
 
-main.ts:36035
+[main.ts:35893](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L35893)
 
 ## Methods
 
@@ -277,7 +277,7 @@ main.ts:36035
 
 #### Defined in
 
-main.ts:36066
+[main.ts:35924](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L35924)
 
 ___
 
@@ -301,7 +301,7 @@ ___
 
 #### Defined in
 
-main.ts:36097
+[main.ts:35955](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L35955)
 
 ___
 
@@ -325,4 +325,4 @@ ___
 
 #### Defined in
 
-main.ts:36090
+[main.ts:35948](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L35948)

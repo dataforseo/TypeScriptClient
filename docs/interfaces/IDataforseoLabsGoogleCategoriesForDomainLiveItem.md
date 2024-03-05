@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IDataforseoLabsGoogleCategoriesForDomainLiveItem
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IDataforseoLabsGoogleCategoriesForDomainLiveItem
 
 # Interface: IDataforseoLabsGoogleCategoriesForDomainLiveItem
 
@@ -29,7 +29,7 @@ you can download the full list of possible categories
 
 #### Defined in
 
-main.ts:83619
+[main.ts:83475](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L83475)
 
 ___
 
@@ -45,7 +45,7 @@ ranking data relevant to the specified domain or subdomain
 
 #### Defined in
 
-main.ts:83621
+[main.ts:83477](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L83477)
 
 ___
 
@@ -57,4 +57,4 @@ search engine type
 
 #### Defined in
 
-main.ts:83616
+[main.ts:83472](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L83472)

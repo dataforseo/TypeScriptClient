@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IGroups
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IGroups
 
 # Interface: IGroups
 
@@ -28,7 +28,7 @@ technology categories in this group
 
 #### Defined in
 
-main.ts:72399
+[main.ts:72255](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L72255)
 
 ___
 
@@ -42,7 +42,7 @@ marketing, sales
 
 #### Defined in
 
-main.ts:72395
+[main.ts:72251](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L72251)
 
 ___
 
@@ -54,4 +54,4 @@ title of the technology group
 
 #### Defined in
 
-main.ts:72397
+[main.ts:72253](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L72253)

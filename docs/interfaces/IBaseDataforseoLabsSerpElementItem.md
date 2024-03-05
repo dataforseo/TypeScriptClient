@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IBaseDataforseoLabsSerpElementItem
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IBaseDataforseoLabsSerpElementItem
 
 # Interface: IBaseDataforseoLabsSerpElementItem
 

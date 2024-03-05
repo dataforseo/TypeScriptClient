@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / LicensesElement
+[dataforseo-client](../README.md) / [Exports](../modules.md) / LicensesElement
 
 # Class: LicensesElement
 
@@ -47,7 +47,7 @@
 
 #### Defined in
 
-main.ts:33370
+[main.ts:33228](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L33228)
 
 ## Properties
 
@@ -63,7 +63,7 @@ domain where a link points
 
 #### Defined in
 
-main.ts:33366
+[main.ts:33224](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L33224)
 
 ___
 
@@ -79,7 +79,7 @@ title of the row
 
 #### Defined in
 
-main.ts:33362
+[main.ts:33220](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L33220)
 
 ___
 
@@ -95,7 +95,7 @@ type of element
 
 #### Defined in
 
-main.ts:33360
+[main.ts:33218](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L33218)
 
 ___
 
@@ -111,7 +111,7 @@ URL
 
 #### Defined in
 
-main.ts:33364
+[main.ts:33222](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L33222)
 
 ## Methods
 
@@ -131,7 +131,7 @@ main.ts:33364
 
 #### Defined in
 
-main.ts:33379
+[main.ts:33237](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L33237)
 
 ___
 
@@ -151,7 +151,7 @@ ___
 
 #### Defined in
 
-main.ts:33399
+[main.ts:33257](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L33257)
 
 ___
 
@@ -171,4 +171,4 @@ ___
 
 #### Defined in
 
-main.ts:33392
+[main.ts:33250](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L33250)

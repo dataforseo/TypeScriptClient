@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / MultiCarouselElement
+[dataforseo-client](../README.md) / [Exports](../modules.md) / MultiCarouselElement
 
 # Class: MultiCarouselElement
 
@@ -46,7 +46,7 @@
 
 #### Defined in
 
-main.ts:31398
+[main.ts:31256](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L31256)
 
 ## Properties
 
@@ -62,7 +62,7 @@ multi_carousel_snippet results
 
 #### Defined in
 
-main.ts:31394
+[main.ts:31252](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L31252)
 
 ___
 
@@ -78,7 +78,7 @@ title of the row
 
 #### Defined in
 
-main.ts:31392
+[main.ts:31250](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L31250)
 
 ___
 
@@ -94,7 +94,7 @@ type of element
 
 #### Defined in
 
-main.ts:31390
+[main.ts:31248](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L31248)
 
 ## Methods
 
@@ -114,7 +114,7 @@ main.ts:31390
 
 #### Defined in
 
-main.ts:31407
+[main.ts:31265](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L31265)
 
 ___
 
@@ -134,7 +134,7 @@ ___
 
 #### Defined in
 
-main.ts:31430
+[main.ts:31288](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L31288)
 
 ___
 
@@ -154,4 +154,4 @@ ___
 
 #### Defined in
 
-main.ts:31423
+[main.ts:31281](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L31281)

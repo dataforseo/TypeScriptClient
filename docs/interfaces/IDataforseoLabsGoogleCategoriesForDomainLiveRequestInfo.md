@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IDataforseoLabsGoogleCategoriesForDomainLiveRequestInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IDataforseoLabsGoogleCategoriesForDomainLiveRequestInfo
 
 # Interface: IDataforseoLabsGoogleCategoriesForDomainLiveRequestInfo
 
@@ -51,7 +51,7 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 #### Defined in
 
-main.ts:83504
+[main.ts:83360](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L83360)
 
 ___
 
@@ -67,7 +67,7 @@ learn more about the parameter in this help center article
 
 #### Defined in
 
-main.ts:83479
+[main.ts:83335](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L83335)
 
 ___
 
@@ -86,7 +86,7 @@ default value:
 
 #### Defined in
 
-main.ts:83488
+[main.ts:83344](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L83344)
 
 ___
 
@@ -104,7 +104,7 @@ en
 
 #### Defined in
 
-main.ts:83473
+[main.ts:83329](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L83329)
 
 ___
 
@@ -122,7 +122,7 @@ English
 
 #### Defined in
 
-main.ts:83465
+[main.ts:83321](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L83321)
 
 ___
 
@@ -137,7 +137,7 @@ maximum value: 1000
 
 #### Defined in
 
-main.ts:83526
+[main.ts:83382](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L83382)
 
 ___
 
@@ -155,7 +155,7 @@ example:
 
 #### Defined in
 
-main.ts:83457
+[main.ts:83313](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L83313)
 
 ___
 
@@ -173,7 +173,7 @@ United Kingdom
 
 #### Defined in
 
-main.ts:83449
+[main.ts:83305](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L83305)
 
 ___
 
@@ -188,7 +188,7 @@ if you specify the 10 value, the first ten categories in the results array will 
 
 #### Defined in
 
-main.ts:83531
+[main.ts:83387](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L83387)
 
 ___
 
@@ -215,7 +215,7 @@ Note: if the item_types array contains item types that are different from the or
 
 #### Defined in
 
-main.ts:83521
+[main.ts:83377](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L83377)
 
 ___
 
@@ -231,7 +231,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:83537
+[main.ts:83393](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L83393)
 
 ___
 
@@ -246,4 +246,4 @@ the domain or subdomain should be specified without https:// and www.
 
 #### Defined in
 
-main.ts:83441
+[main.ts:83297](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L83297)

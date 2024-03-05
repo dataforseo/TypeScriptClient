@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IBacklinksTimeseriesSummaryLiveResultInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IBacklinksTimeseriesSummaryLiveResultInfo
 
 # Interface: IBacklinksTimeseriesSummaryLiveResultInfo
 
@@ -34,7 +34,7 @@ example:
 
 #### Defined in
 
-main.ts:138851
+[main.ts:138707](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L138707)
 
 ___
 
@@ -49,7 +49,7 @@ example:
 
 #### Defined in
 
-main.ts:138856
+[main.ts:138712](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L138712)
 
 ___
 
@@ -61,7 +61,7 @@ group_range from a POST array
 
 #### Defined in
 
-main.ts:138858
+[main.ts:138714](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L138714)
 
 ___
 
@@ -73,7 +73,7 @@ contains relevant summary data
 
 #### Defined in
 
-main.ts:138862
+[main.ts:138718](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L138718)
 
 ___
 
@@ -85,7 +85,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:138860
+[main.ts:138716](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L138716)
 
 ___
 
@@ -97,4 +97,4 @@ target from a POST array
 
 #### Defined in
 
-main.ts:138846
+[main.ts:138702](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L138702)

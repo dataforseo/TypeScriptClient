@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / OnPageNonIndexableRequestInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / OnPageNonIndexableRequestInfo
 
 # Class: OnPageNonIndexableRequestInfo
 
@@ -47,7 +47,7 @@
 
 #### Defined in
 
-main.ts:149433
+[main.ts:149289](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L149289)
 
 ## Properties
 
@@ -77,7 +77,7 @@ The full list of possible filters is available by this link.
 
 #### Defined in
 
-main.ts:149429
+[main.ts:149285](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L149285)
 
 ___
 
@@ -97,7 +97,7 @@ example:
 
 #### Defined in
 
-main.ts:149403
+[main.ts:149259](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L149259)
 
 ___
 
@@ -116,7 +116,7 @@ maximum value: 1000
 
 #### Defined in
 
-main.ts:149408
+[main.ts:149264](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L149264)
 
 ___
 
@@ -135,7 +135,7 @@ if you specify the 10 value, the first ten pages in the results array will be om
 
 #### Defined in
 
-main.ts:149413
+[main.ts:149269](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L149269)
 
 ## Methods
 
@@ -155,7 +155,7 @@ main.ts:149413
 
 #### Defined in
 
-main.ts:149442
+[main.ts:149298](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L149298)
 
 ___
 
@@ -175,7 +175,7 @@ ___
 
 #### Defined in
 
-main.ts:149466
+[main.ts:149322](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L149322)
 
 ___
 
@@ -195,4 +195,4 @@ ___
 
 #### Defined in
 
-main.ts:149459
+[main.ts:149315](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L149315)

@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / ISerpYahooLanguagesResultInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / ISerpYahooLanguagesResultInfo
 
 # Interface: ISerpYahooLanguagesResultInfo
 
@@ -27,7 +27,7 @@ language code according to ISO 639-1
 
 #### Defined in
 
-main.ts:63223
+[main.ts:63079](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L63079)
 
 ___
 
@@ -39,4 +39,4 @@ language name
 
 #### Defined in
 
-main.ts:63221
+[main.ts:63077](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L63077)

@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IDomainAnalyticsTechnologiesDomainTechnologiesLiveRequestInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IDomainAnalyticsTechnologiesDomainTechnologiesLiveRequestInfo
 
 # Interface: IDomainAnalyticsTechnologiesDomainTechnologiesLiveRequestInfo
 
@@ -29,4 +29,4 @@ Note: results will be returned for the specified domain only
 
 #### Defined in
 
-main.ts:75253
+[main.ts:75109](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L75109)

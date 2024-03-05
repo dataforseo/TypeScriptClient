@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IKeywordProperties
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IKeywordProperties
 
 # Interface: IKeywordProperties
 
@@ -33,7 +33,7 @@ if the value is null, our database does not contain any keywords the correspondi
 
 #### Defined in
 
-main.ts:79236
+[main.ts:79092](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L79092)
 
 ___
 
@@ -46,7 +46,7 @@ indicates the language of the keyword as identified by our system
 
 #### Defined in
 
-main.ts:79250
+[main.ts:79106](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L79106)
 
 ___
 
@@ -59,7 +59,7 @@ if true, the language set in the request does not match the language determined 
 
 #### Defined in
 
-main.ts:79253
+[main.ts:79109](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L79109)
 
 ___
 
@@ -74,7 +74,7 @@ learn more about the metric in this help center guide
 
 #### Defined in
 
-main.ts:79247
+[main.ts:79103](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L79103)
 
 ___
 
@@ -86,7 +86,7 @@ search engine type
 
 #### Defined in
 
-main.ts:79232
+[main.ts:79088](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L79088)
 
 ___
 
@@ -102,4 +102,4 @@ if the value is null, our database does not contain any keywords the correspondi
 
 #### Defined in
 
-main.ts:79242
+[main.ts:79098](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L79098)

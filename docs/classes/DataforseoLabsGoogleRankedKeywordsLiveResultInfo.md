@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / DataforseoLabsGoogleRankedKeywordsLiveResultInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / DataforseoLabsGoogleRankedKeywordsLiveResultInfo
 
 # Class: DataforseoLabsGoogleRankedKeywordsLiveResultInfo
 
@@ -52,7 +52,7 @@
 
 #### Defined in
 
-main.ts:87268
+[main.ts:87124](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L87124)
 
 ## Properties
 
@@ -68,7 +68,7 @@ contains ranked keywords and related data
 
 #### Defined in
 
-main.ts:87264
+[main.ts:87120](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L87120)
 
 ___
 
@@ -84,7 +84,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:87256
+[main.ts:87112](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L87112)
 
 ___
 
@@ -101,7 +101,7 @@ if there is no data, then the value is null
 
 #### Defined in
 
-main.ts:87252
+[main.ts:87108](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L87108)
 
 ___
 
@@ -118,7 +118,7 @@ if there is no data, then the value is null
 
 #### Defined in
 
-main.ts:87249
+[main.ts:87105](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L87105)
 
 ___
 
@@ -139,7 +139,7 @@ ranking data is provided by the rank_group parameters that show the result’s r
 
 #### Defined in
 
-main.ts:87259
+[main.ts:87115](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L87115)
 
 ___
 
@@ -160,7 +160,7 @@ ranking data is provided by the rank_absolute parameters that indicate the resul
 
 #### Defined in
 
-main.ts:87262
+[main.ts:87118](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L87118)
 
 ___
 
@@ -176,7 +176,7 @@ search engine type
 
 #### Defined in
 
-main.ts:87244
+[main.ts:87100](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L87100)
 
 ___
 
@@ -192,7 +192,7 @@ target domain in a POST array
 
 #### Defined in
 
-main.ts:87246
+[main.ts:87102](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L87102)
 
 ___
 
@@ -208,7 +208,7 @@ total number of results in our database relevant to your request
 
 #### Defined in
 
-main.ts:87254
+[main.ts:87110](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L87110)
 
 ## Methods
 
@@ -228,7 +228,7 @@ main.ts:87254
 
 #### Defined in
 
-main.ts:87277
+[main.ts:87133](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L87133)
 
 ___
 
@@ -248,7 +248,7 @@ ___
 
 #### Defined in
 
-main.ts:87318
+[main.ts:87174](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L87174)
 
 ___
 
@@ -268,4 +268,4 @@ ___
 
 #### Defined in
 
-main.ts:87311
+[main.ts:87167](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L87167)

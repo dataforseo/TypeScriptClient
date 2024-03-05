@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IDataforseoLabsGoogleCompetitorsDomainLiveRequestInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IDataforseoLabsGoogleCompetitorsDomainLiveRequestInfo
 
 # Interface: IDataforseoLabsGoogleCompetitorsDomainLiveRequestInfo
 
@@ -59,7 +59,7 @@ slideshare.net
 
 #### Defined in
 
-main.ts:88489
+[main.ts:88345](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L88345)
 
 ___
 
@@ -83,7 +83,7 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 #### Defined in
 
-main.ts:88435
+[main.ts:88291](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L88291)
 
 ___
 
@@ -99,7 +99,7 @@ Note: you can specify up to 20 domains in this array
 
 #### Defined in
 
-main.ts:88495
+[main.ts:88351](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L88351)
 
 ___
 
@@ -118,7 +118,7 @@ default value:
 
 #### Defined in
 
-main.ts:88421
+[main.ts:88277](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L88277)
 
 ___
 
@@ -136,7 +136,7 @@ en
 
 #### Defined in
 
-main.ts:88412
+[main.ts:88268](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L88268)
 
 ___
 
@@ -154,7 +154,7 @@ English
 
 #### Defined in
 
-main.ts:88404
+[main.ts:88260](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L88260)
 
 ___
 
@@ -169,7 +169,7 @@ maximum value: 1000
 
 #### Defined in
 
-main.ts:88457
+[main.ts:88313](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L88313)
 
 ___
 
@@ -187,7 +187,7 @@ example:
 
 #### Defined in
 
-main.ts:88396
+[main.ts:88252](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L88252)
 
 ___
 
@@ -205,7 +205,7 @@ United Kingdom
 
 #### Defined in
 
-main.ts:88388
+[main.ts:88244](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L88244)
 
 ___
 
@@ -220,7 +220,7 @@ if you specify 10 here, we will extract competitors from the top 10 Google searc
 
 #### Defined in
 
-main.ts:88467
+[main.ts:88323](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L88323)
 
 ___
 
@@ -235,7 +235,7 @@ if you specify the 10 value, the first ten keywords in the results array will be
 
 #### Defined in
 
-main.ts:88462
+[main.ts:88318](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L88318)
 
 ___
 
@@ -262,7 +262,7 @@ Note: if the item_types array contains item types that are different from organi
 
 #### Defined in
 
-main.ts:88452
+[main.ts:88308](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L88308)
 
 ___
 
@@ -278,7 +278,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:88501
+[main.ts:88357](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L88357)
 
 ___
 
@@ -293,4 +293,4 @@ the domain should be specified without https:// and www.
 
 #### Defined in
 
-main.ts:88380
+[main.ts:88236](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L88236)

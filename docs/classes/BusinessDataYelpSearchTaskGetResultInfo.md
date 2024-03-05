@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / BusinessDataYelpSearchTaskGetResultInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / BusinessDataYelpSearchTaskGetResultInfo
 
 # Class: BusinessDataYelpSearchTaskGetResultInfo
 
@@ -53,7 +53,7 @@
 
 #### Defined in
 
-main.ts:204577
+[main.ts:204457](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L204457)
 
 ## Properties
 
@@ -70,7 +70,7 @@ you can use it to make sure that we provided accurate results
 
 #### Defined in
 
-main.ts:204557
+[main.ts:204437](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L204437)
 
 ___
 
@@ -89,7 +89,7 @@ example:
 
 #### Defined in
 
-main.ts:204562
+[main.ts:204442](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L204442)
 
 ___
 
@@ -106,7 +106,7 @@ possible item types: yelp_search_organic, yelp_search_paid
 
 #### Defined in
 
-main.ts:204565
+[main.ts:204445](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L204445)
 
 ___
 
@@ -123,7 +123,7 @@ you can get more results by using the depth parameter when setting a task
 
 #### Defined in
 
-main.ts:204573
+[main.ts:204453](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L204453)
 
 ___
 
@@ -140,7 +140,7 @@ you can get more results by using the depth parameter when setting a task
 
 #### Defined in
 
-main.ts:204570
+[main.ts:204450](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L204450)
 
 ___
 
@@ -157,7 +157,7 @@ this field will contain the alias parameter if it was specified in a POST array
 
 #### Defined in
 
-main.ts:204547
+[main.ts:204427](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L204427)
 
 ___
 
@@ -173,7 +173,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:204554
+[main.ts:204434](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L204434)
 
 ___
 
@@ -190,7 +190,7 @@ if location_code was not specified in a POST array, the value equals null
 
 #### Defined in
 
-main.ts:204552
+[main.ts:204432](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L204432)
 
 ___
 
@@ -206,7 +206,7 @@ search engine domain in a POST array
 
 #### Defined in
 
-main.ts:204549
+[main.ts:204429](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L204429)
 
 ___
 
@@ -222,7 +222,7 @@ the total number of results
 
 #### Defined in
 
-main.ts:204567
+[main.ts:204447](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L204447)
 
 ## Methods
 
@@ -242,7 +242,7 @@ main.ts:204567
 
 #### Defined in
 
-main.ts:204586
+[main.ts:204466](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L204466)
 
 ___
 
@@ -262,7 +262,7 @@ ___
 
 #### Defined in
 
-main.ts:204620
+[main.ts:204500](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L204500)
 
 ___
 
@@ -282,4 +282,4 @@ ___
 
 #### Defined in
 
-main.ts:204613
+[main.ts:204493](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L204493)

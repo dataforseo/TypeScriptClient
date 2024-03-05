@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IDomainAnalyticsTechnologiesTechnologiesResultInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IDomainAnalyticsTechnologiesTechnologiesResultInfo
 
 # Interface: IDomainAnalyticsTechnologiesTechnologiesResultInfo
 
@@ -26,4 +26,4 @@ array of technology groups
 
 #### Defined in
 
-main.ts:72457
+[main.ts:72313](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L72313)

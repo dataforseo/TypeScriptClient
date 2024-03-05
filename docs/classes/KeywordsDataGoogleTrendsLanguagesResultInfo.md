@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / KeywordsDataGoogleTrendsLanguagesResultInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / KeywordsDataGoogleTrendsLanguagesResultInfo
 
 # Class: KeywordsDataGoogleTrendsLanguagesResultInfo
 
@@ -45,7 +45,7 @@
 
 #### Defined in
 
-main.ts:119585
+[main.ts:119441](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L119441)
 
 ## Properties
 
@@ -61,7 +61,7 @@ language code according to ISO 639-1
 
 #### Defined in
 
-main.ts:119581
+[main.ts:119437](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L119437)
 
 ___
 
@@ -77,7 +77,7 @@ language name
 
 #### Defined in
 
-main.ts:119579
+[main.ts:119435](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L119435)
 
 ## Methods
 
@@ -97,7 +97,7 @@ main.ts:119579
 
 #### Defined in
 
-main.ts:119594
+[main.ts:119450](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L119450)
 
 ___
 
@@ -117,7 +117,7 @@ ___
 
 #### Defined in
 
-main.ts:119612
+[main.ts:119468](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L119468)
 
 ___
 
@@ -137,4 +137,4 @@ ___
 
 #### Defined in
 
-main.ts:119605
+[main.ts:119461](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L119461)

@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IDataforseoLabsAmazonBulkSearchVolumeLiveRequestInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IDataforseoLabsAmazonBulkSearchVolumeLiveRequestInfo
 
 # Interface: IDataforseoLabsAmazonBulkSearchVolumeLiveRequestInfo
 
@@ -36,7 +36,7 @@ the keywords will be converted to lowercase format
 
 #### Defined in
 
-main.ts:98884
+[main.ts:98740](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L98740)
 
 ___
 
@@ -53,7 +53,7 @@ en
 
 #### Defined in
 
-main.ts:98931
+[main.ts:98787](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L98787)
 
 ___
 
@@ -70,7 +70,7 @@ English
 
 #### Defined in
 
-main.ts:98924
+[main.ts:98780](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L98780)
 
 ___
 
@@ -88,7 +88,7 @@ example:
 
 #### Defined in
 
-main.ts:98917
+[main.ts:98773](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L98773)
 
 ___
 
@@ -123,7 +123,7 @@ United States
 
 #### Defined in
 
-main.ts:98909
+[main.ts:98765](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L98765)
 
 ___
 
@@ -139,4 +139,4 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:98937
+[main.ts:98793](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L98793)

@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / AddressInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / AddressInfo
 
 # Class: AddressInfo
 
@@ -49,7 +49,7 @@
 
 #### Defined in
 
-main.ts:38366
+[main.ts:38224](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L38224)
 
 ## Properties
 
@@ -65,7 +65,7 @@ street address of the local establishment
 
 #### Defined in
 
-main.ts:38354
+[main.ts:38212](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L38212)
 
 ___
 
@@ -81,7 +81,7 @@ administrative unit or district the local establishment belongs to
 
 #### Defined in
 
-main.ts:38352
+[main.ts:38210](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L38210)
 
 ___
 
@@ -97,7 +97,7 @@ name of the city where the local establishment is located
 
 #### Defined in
 
-main.ts:38356
+[main.ts:38214](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L38214)
 
 ___
 
@@ -113,7 +113,7 @@ ISO country code of the local establishment
 
 #### Defined in
 
-main.ts:38362
+[main.ts:38220](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L38220)
 
 ___
 
@@ -129,7 +129,7 @@ DMA region the local establishment belongs to
 
 #### Defined in
 
-main.ts:38360
+[main.ts:38218](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L38218)
 
 ___
 
@@ -145,7 +145,7 @@ ZIP code of the local establishment
 
 #### Defined in
 
-main.ts:38358
+[main.ts:38216](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L38216)
 
 ## Methods
 
@@ -165,7 +165,7 @@ main.ts:38358
 
 #### Defined in
 
-main.ts:38375
+[main.ts:38233](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L38233)
 
 ___
 
@@ -185,7 +185,7 @@ ___
 
 #### Defined in
 
-main.ts:38397
+[main.ts:38255](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L38255)
 
 ___
 
@@ -205,4 +205,4 @@ ___
 
 #### Defined in
 
-main.ts:38390
+[main.ts:38248](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L38248)

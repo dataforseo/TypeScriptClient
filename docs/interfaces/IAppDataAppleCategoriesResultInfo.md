@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IAppDataAppleCategoriesResultInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IAppDataAppleCategoriesResultInfo
 
 # Interface: IAppDataAppleCategoriesResultInfo
 
@@ -26,4 +26,4 @@ contains full list of supported app categories
 
 #### Defined in
 
-main.ts:182735
+[main.ts:182615](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L182615)

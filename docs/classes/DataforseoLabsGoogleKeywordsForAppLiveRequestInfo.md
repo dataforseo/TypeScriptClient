@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / DataforseoLabsGoogleKeywordsForAppLiveRequestInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / DataforseoLabsGoogleKeywordsForAppLiveRequestInfo
 
 # Class: DataforseoLabsGoogleKeywordsForAppLiveRequestInfo
 
@@ -53,7 +53,7 @@
 
 #### Defined in
 
-main.ts:108460
+[main.ts:108316](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L108316)
 
 ## Properties
 
@@ -75,7 +75,7 @@ the id is org.telegram.messenger
 
 #### Defined in
 
-main.ts:108376
+[main.ts:108232](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L108232)
 
 ___
 
@@ -100,7 +100,7 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 #### Defined in
 
-main.ts:108423
+[main.ts:108279](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L108279)
 
 ___
 
@@ -123,7 +123,7 @@ en
 
 #### Defined in
 
-main.ts:108412
+[main.ts:108268](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L108268)
 
 ___
 
@@ -146,7 +146,7 @@ English
 
 #### Defined in
 
-main.ts:108403
+[main.ts:108259](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L108259)
 
 ___
 
@@ -165,7 +165,7 @@ maximum value: 1000
 
 #### Defined in
 
-main.ts:108445
+[main.ts:108301](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L108301)
 
 ___
 
@@ -188,7 +188,7 @@ example:
 
 #### Defined in
 
-main.ts:108394
+[main.ts:108250](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L108250)
 
 ___
 
@@ -211,7 +211,7 @@ United States
 
 #### Defined in
 
-main.ts:108385
+[main.ts:108241](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L108241)
 
 ___
 
@@ -230,7 +230,7 @@ if you specify the 10 value, the first ten keywords in the results array will be
 
 #### Defined in
 
-main.ts:108450
+[main.ts:108306](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L108306)
 
 ___
 
@@ -261,7 +261,7 @@ Note: if the item_types array contains item types that are different from organi
 
 #### Defined in
 
-main.ts:108440
+[main.ts:108296](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L108296)
 
 ___
 
@@ -281,7 +281,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:108456
+[main.ts:108312](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L108312)
 
 ## Methods
 
@@ -301,7 +301,7 @@ main.ts:108456
 
 #### Defined in
 
-main.ts:108469
+[main.ts:108325](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L108325)
 
 ___
 
@@ -321,7 +321,7 @@ ___
 
 #### Defined in
 
-main.ts:108503
+[main.ts:108359](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L108359)
 
 ___
 
@@ -341,4 +341,4 @@ ___
 
 #### Defined in
 
-main.ts:108496
+[main.ts:108352](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L108352)

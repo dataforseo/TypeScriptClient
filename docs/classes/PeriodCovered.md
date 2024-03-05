@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / PeriodCovered
+[dataforseo-client](../README.md) / [Exports](../modules.md) / PeriodCovered
 
 # Class: PeriodCovered
 
@@ -46,7 +46,7 @@
 
 #### Defined in
 
-main.ts:50852
+[main.ts:50710](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L50710)
 
 ## Properties
 
@@ -64,7 +64,7 @@ Mar 2, 2020 - Dec 9, 2022
 
 #### Defined in
 
-main.ts:50848
+[main.ts:50706](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L50706)
 
 ___
 
@@ -83,7 +83,7 @@ example:
 
 #### Defined in
 
-main.ts:50844
+[main.ts:50702](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L50702)
 
 ___
 
@@ -102,7 +102,7 @@ example:
 
 #### Defined in
 
-main.ts:50839
+[main.ts:50697](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L50697)
 
 ## Methods
 
@@ -122,7 +122,7 @@ main.ts:50839
 
 #### Defined in
 
-main.ts:50861
+[main.ts:50719](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L50719)
 
 ___
 
@@ -142,7 +142,7 @@ ___
 
 #### Defined in
 
-main.ts:50880
+[main.ts:50738](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L50738)
 
 ___
 
@@ -162,4 +162,4 @@ ___
 
 #### Defined in
 
-main.ts:50873
+[main.ts:50731](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L50731)

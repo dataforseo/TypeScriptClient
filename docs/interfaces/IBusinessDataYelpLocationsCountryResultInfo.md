@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IBusinessDataYelpLocationsCountryResultInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IBusinessDataYelpLocationsCountryResultInfo
 
 # Interface: IBusinessDataYelpLocationsCountryResultInfo
 
@@ -30,7 +30,7 @@ ISO country code of the location
 
 #### Defined in
 
-main.ts:203171
+[main.ts:203051](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L203051)
 
 ___
 
@@ -42,7 +42,7 @@ location code
 
 #### Defined in
 
-main.ts:203161
+[main.ts:203041](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L203041)
 
 ___
 
@@ -54,7 +54,7 @@ full name of the location
 
 #### Defined in
 
-main.ts:203163
+[main.ts:203043](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L203043)
 
 ___
 
@@ -70,7 +70,7 @@ example:
 
 #### Defined in
 
-main.ts:203169
+[main.ts:203049](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L203049)
 
 ___
 
@@ -82,4 +82,4 @@ location type
 
 #### Defined in
 
-main.ts:203173
+[main.ts:203053](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L203053)

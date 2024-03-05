@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IMerchantAmazonReviewsTasksReadyResultInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IMerchantAmazonReviewsTasksReadyResultInfo
 
 # Interface: IMerchantAmazonReviewsTasksReadyResultInfo
 
@@ -32,7 +32,7 @@ date when the task was posted (in the UTC format)
 
 #### Defined in
 
-main.ts:175539
+[main.ts:175419](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L175419)
 
 ___
 
@@ -44,7 +44,7 @@ URL for collecting the results of the Amazon Reviews Advanced task
 
 #### Defined in
 
-main.ts:175543
+[main.ts:175423](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L175423)
 
 ___
 
@@ -56,7 +56,7 @@ URL for collecting the results of the Amazon Reviews HTML task
 
 #### Defined in
 
-main.ts:175545
+[main.ts:175425](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L175425)
 
 ___
 
@@ -69,7 +69,7 @@ unique task identifier in our system in the UUID format
 
 #### Defined in
 
-main.ts:175532
+[main.ts:175412](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L175412)
 
 ___
 
@@ -81,7 +81,7 @@ search engine specified when setting the task
 
 #### Defined in
 
-main.ts:175534
+[main.ts:175414](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L175414)
 
 ___
 
@@ -94,7 +94,7 @@ can take the following values: shopping
 
 #### Defined in
 
-main.ts:175537
+[main.ts:175417](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L175417)
 
 ___
 
@@ -106,4 +106,4 @@ user-defined task identifier
 
 #### Defined in
 
-main.ts:175541
+[main.ts:175421](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L175421)

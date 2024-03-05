@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / BaseMerchantSerpElementItem
+[dataforseo-client](../README.md) / [Exports](../modules.md) / BaseMerchantSerpElementItem
 
 # Class: BaseMerchantSerpElementItem
 
@@ -64,7 +64,7 @@
 
 #### Defined in
 
-main.ts:19990
+[main.ts:19990](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L19990)
 
 ## Properties
 
@@ -74,7 +74,7 @@ main.ts:19990
 
 #### Defined in
 
-main.ts:19988
+[main.ts:19988](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L19988)
 
 ## Methods
 
@@ -94,7 +94,7 @@ main.ts:19988
 
 #### Defined in
 
-main.ts:20000
+[main.ts:20000](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L20000)
 
 ___
 
@@ -114,7 +114,7 @@ ___
 
 #### Defined in
 
-main.ts:20056
+[main.ts:20056](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L20056)
 
 ___
 
@@ -134,4 +134,4 @@ ___
 
 #### Defined in
 
-main.ts:20009
+[main.ts:20009](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L20009)

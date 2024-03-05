@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / BacklinksBulkSpamScoreLiveResultInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / BacklinksBulkSpamScoreLiveResultInfo
 
 # Class: BacklinksBulkSpamScoreLiveResultInfo
 
@@ -45,7 +45,7 @@
 
 #### Defined in
 
-main.ts:140295
+[main.ts:140151](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L140151)
 
 ## Properties
 
@@ -61,7 +61,7 @@ contains relevant backlinks and referring domains data
 
 #### Defined in
 
-main.ts:140291
+[main.ts:140147](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L140147)
 
 ___
 
@@ -77,7 +77,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:140289
+[main.ts:140145](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L140145)
 
 ## Methods
 
@@ -97,7 +97,7 @@ main.ts:140289
 
 #### Defined in
 
-main.ts:140304
+[main.ts:140160](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L140160)
 
 ___
 
@@ -117,7 +117,7 @@ ___
 
 #### Defined in
 
-main.ts:140326
+[main.ts:140182](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L140182)
 
 ___
 
@@ -137,4 +137,4 @@ ___
 
 #### Defined in
 
-main.ts:140319
+[main.ts:140175](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L140175)

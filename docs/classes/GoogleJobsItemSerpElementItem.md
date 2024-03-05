@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / GoogleJobsItemSerpElementItem
+[dataforseo-client](../README.md) / [Exports](../modules.md) / GoogleJobsItemSerpElementItem
 
 # Class: GoogleJobsItemSerpElementItem
 
@@ -71,7 +71,7 @@
 
 #### Defined in
 
-main.ts:49297
+[main.ts:49155](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L49155)
 
 ## Properties
 
@@ -85,7 +85,7 @@ main.ts:49297
 
 #### Defined in
 
-main.ts:19337
+[main.ts:19337](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L19337)
 
 ___
 
@@ -101,7 +101,7 @@ employment contract type
 
 #### Defined in
 
-main.ts:49282
+[main.ts:49140](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L49140)
 
 ___
 
@@ -117,7 +117,7 @@ URL to the image used in the job posting
 
 #### Defined in
 
-main.ts:49271
+[main.ts:49129](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L49129)
 
 ___
 
@@ -133,7 +133,7 @@ name of the employer
 
 #### Defined in
 
-main.ts:49267
+[main.ts:49125](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L49125)
 
 ___
 
@@ -149,7 +149,7 @@ URL to the employer’s website
 
 #### Defined in
 
-main.ts:49269
+[main.ts:49127](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L49127)
 
 ___
 
@@ -165,7 +165,7 @@ ID of the job on Google Jobs
 
 #### Defined in
 
-main.ts:49263
+[main.ts:49121](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L49121)
 
 ___
 
@@ -181,7 +181,7 @@ location for which the job vacancy is posted
 
 #### Defined in
 
-main.ts:49273
+[main.ts:49131](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L49131)
 
 ___
 
@@ -199,7 +199,7 @@ left, right
 
 #### Defined in
 
-main.ts:49259
+[main.ts:49117](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L49117)
 
 ___
 
@@ -216,7 +216,7 @@ absolute position among all the elements in SERP
 
 #### Defined in
 
-main.ts:49255
+[main.ts:49113](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L49113)
 
 ___
 
@@ -234,7 +234,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-main.ts:49252
+[main.ts:49110](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L49110)
 
 ___
 
@@ -252,7 +252,7 @@ in this case, will equal null
 
 #### Defined in
 
-main.ts:49293
+[main.ts:49151](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L49151)
 
 ___
 
@@ -269,7 +269,7 @@ if the salary isn’t indicated, this field will equal null
 
 #### Defined in
 
-main.ts:49280
+[main.ts:49138](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L49138)
 
 ___
 
@@ -285,7 +285,7 @@ original source of the job vacancy
 
 #### Defined in
 
-main.ts:49275
+[main.ts:49133](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L49133)
 
 ___
 
@@ -301,7 +301,7 @@ URL to the original source of the job vacancy
 
 #### Defined in
 
-main.ts:49277
+[main.ts:49135](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L49135)
 
 ___
 
@@ -317,7 +317,7 @@ indicates how long ago the job vacancy was posted
 
 #### Defined in
 
-main.ts:49289
+[main.ts:49147](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L49147)
 
 ___
 
@@ -336,7 +336,7 @@ example:
 
 #### Defined in
 
-main.ts:49287
+[main.ts:49145](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L49145)
 
 ___
 
@@ -352,7 +352,7 @@ title of the job
 
 #### Defined in
 
-main.ts:49265
+[main.ts:49123](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L49123)
 
 ___
 
@@ -368,7 +368,7 @@ the XPath of the element
 
 #### Defined in
 
-main.ts:49261
+[main.ts:49119](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L49119)
 
 ## Methods
 
@@ -392,7 +392,7 @@ main.ts:49261
 
 #### Defined in
 
-main.ts:49302
+[main.ts:49160](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L49160)
 
 ___
 
@@ -416,7 +416,7 @@ ___
 
 #### Defined in
 
-main.ts:49336
+[main.ts:49194](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L49194)
 
 ___
 
@@ -440,4 +440,4 @@ ___
 
 #### Defined in
 
-main.ts:49329
+[main.ts:49187](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L49187)

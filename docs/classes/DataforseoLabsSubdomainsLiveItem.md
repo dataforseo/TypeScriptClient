@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / DataforseoLabsSubdomainsLiveItem
+[dataforseo-client](../README.md) / [Exports](../modules.md) / DataforseoLabsSubdomainsLiveItem
 
 # Class: DataforseoLabsSubdomainsLiveItem
 
@@ -46,7 +46,7 @@
 
 #### Defined in
 
-main.ts:89772
+[main.ts:89628](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L89628)
 
 ## Properties
 
@@ -66,7 +66,7 @@ ranking data relevant to subdomain
 
 #### Defined in
 
-main.ts:89768
+[main.ts:89624](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L89624)
 
 ___
 
@@ -82,7 +82,7 @@ search engine type
 
 #### Defined in
 
-main.ts:89764
+[main.ts:89620](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L89620)
 
 ___
 
@@ -98,7 +98,7 @@ returned subdomain
 
 #### Defined in
 
-main.ts:89766
+[main.ts:89622](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L89622)
 
 ## Methods
 
@@ -118,7 +118,7 @@ main.ts:89766
 
 #### Defined in
 
-main.ts:89781
+[main.ts:89637](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L89637)
 
 ___
 
@@ -138,7 +138,7 @@ ___
 
 #### Defined in
 
-main.ts:89806
+[main.ts:89662](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L89662)
 
 ___
 
@@ -158,4 +158,4 @@ ___
 
 #### Defined in
 
-main.ts:89799
+[main.ts:89655](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L89655)

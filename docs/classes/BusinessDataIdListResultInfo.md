@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / BusinessDataIdListResultInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / BusinessDataIdListResultInfo
 
 # Class: BusinessDataIdListResultInfo
 
@@ -50,7 +50,7 @@
 
 #### Defined in
 
-main.ts:187412
+[main.ts:187292](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L187292)
 
 ## Properties
 
@@ -66,7 +66,7 @@ cost of the task, USD
 
 #### Defined in
 
-main.ts:187406
+[main.ts:187286](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L187286)
 
 ___
 
@@ -85,7 +85,7 @@ example:
 
 #### Defined in
 
-main.ts:187401
+[main.ts:187281](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L187281)
 
 ___
 
@@ -104,7 +104,7 @@ example:
 
 #### Defined in
 
-main.ts:187396
+[main.ts:187276](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L187276)
 
 ___
 
@@ -120,7 +120,7 @@ id of the task
 
 #### Defined in
 
-main.ts:187388
+[main.ts:187268](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L187268)
 
 ___
 
@@ -140,7 +140,7 @@ contains parameters you specified in the POST request
 
 #### Defined in
 
-main.ts:187408
+[main.ts:187288](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L187288)
 
 ___
 
@@ -157,7 +157,7 @@ you can find the full list of general informational messages here
 
 #### Defined in
 
-main.ts:187404
+[main.ts:187284](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L187284)
 
 ___
 
@@ -174,7 +174,7 @@ URL you used for making an API call
 
 #### Defined in
 
-main.ts:187391
+[main.ts:187271](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L187271)
 
 ## Methods
 
@@ -194,7 +194,7 @@ main.ts:187391
 
 #### Defined in
 
-main.ts:187421
+[main.ts:187301](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L187301)
 
 ___
 
@@ -214,7 +214,7 @@ ___
 
 #### Defined in
 
-main.ts:187450
+[main.ts:187330](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L187330)
 
 ___
 
@@ -234,4 +234,4 @@ ___
 
 #### Defined in
 
-main.ts:187443
+[main.ts:187323](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L187323)

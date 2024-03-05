@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / SerpGoogleLocationsCountryResultInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / SerpGoogleLocationsCountryResultInfo
 
 # Class: SerpGoogleLocationsCountryResultInfo
 
@@ -48,7 +48,7 @@
 
 #### Defined in
 
-main.ts:24419
+[main.ts:24277](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L24277)
 
 ## Properties
 
@@ -64,7 +64,7 @@ ISO country code of the location
 
 #### Defined in
 
-main.ts:24413
+[main.ts:24271](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L24271)
 
 ___
 
@@ -80,7 +80,7 @@ location code
 
 #### Defined in
 
-main.ts:24400
+[main.ts:24258](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L24258)
 
 ___
 
@@ -103,7 +103,7 @@ where location_code_parent corresponds to:
 
 #### Defined in
 
-main.ts:24411
+[main.ts:24269](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L24269)
 
 ___
 
@@ -119,7 +119,7 @@ full name of the location
 
 #### Defined in
 
-main.ts:24402
+[main.ts:24260](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L24260)
 
 ___
 
@@ -135,7 +135,7 @@ location type
 
 #### Defined in
 
-main.ts:24415
+[main.ts:24273](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L24273)
 
 ## Methods
 
@@ -155,7 +155,7 @@ main.ts:24415
 
 #### Defined in
 
-main.ts:24428
+[main.ts:24286](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L24286)
 
 ___
 
@@ -175,7 +175,7 @@ ___
 
 #### Defined in
 
-main.ts:24449
+[main.ts:24307](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L24307)
 
 ___
 
@@ -195,4 +195,4 @@ ___
 
 #### Defined in
 
-main.ts:24442
+[main.ts:24300](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L24300)

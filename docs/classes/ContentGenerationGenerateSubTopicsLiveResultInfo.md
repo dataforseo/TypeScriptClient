@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / ContentGenerationGenerateSubTopicsLiveResultInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / ContentGenerationGenerateSubTopicsLiveResultInfo
 
 # Class: ContentGenerationGenerateSubTopicsLiveResultInfo
 
@@ -47,7 +47,7 @@
 
 #### Defined in
 
-main.ts:161059
+[main.ts:160939](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L160939)
 
 ## Properties
 
@@ -63,7 +63,7 @@ number of input tokens
 
 #### Defined in
 
-main.ts:161049
+[main.ts:160929](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L160929)
 
 ___
 
@@ -79,7 +79,7 @@ number of new tokens
 
 #### Defined in
 
-main.ts:161053
+[main.ts:160933](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L160933)
 
 ___
 
@@ -95,7 +95,7 @@ number of output tokens
 
 #### Defined in
 
-main.ts:161051
+[main.ts:160931](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L160931)
 
 ___
 
@@ -111,7 +111,7 @@ resulting subtopics
 
 #### Defined in
 
-main.ts:161055
+[main.ts:160935](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L160935)
 
 ## Methods
 
@@ -131,7 +131,7 @@ main.ts:161055
 
 #### Defined in
 
-main.ts:161068
+[main.ts:160948](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L160948)
 
 ___
 
@@ -151,7 +151,7 @@ ___
 
 #### Defined in
 
-main.ts:161092
+[main.ts:160972](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L160972)
 
 ___
 
@@ -171,4 +171,4 @@ ___
 
 #### Defined in
 
-main.ts:161085
+[main.ts:160965](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L160965)

@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IGoogleReviewsSerpElementItem
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IGoogleReviewsSerpElementItem
 
 # Interface: IGoogleReviewsSerpElementItem
 
@@ -41,7 +41,7 @@ google-defined client id
 
 #### Defined in
 
-main.ts:29425
+[main.ts:29283](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L29283)
 
 ___
 
@@ -53,7 +53,7 @@ the additional feature of the review
 
 #### Defined in
 
-main.ts:29423
+[main.ts:29281](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L29281)
 
 ___
 
@@ -65,7 +65,7 @@ the identifier of a place
 
 #### Defined in
 
-main.ts:29421
+[main.ts:29279](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L29279)
 
 ___
 
@@ -79,7 +79,7 @@ left, right
 
 #### Defined in
 
-main.ts:29412
+[main.ts:29270](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L29270)
 
 ___
 
@@ -92,7 +92,7 @@ absolute position among all the elements in SERP
 
 #### Defined in
 
-main.ts:29408
+[main.ts:29266](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L29266)
 
 ___
 
@@ -106,7 +106,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-main.ts:29405
+[main.ts:29263](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L29263)
 
 ___
 
@@ -119,7 +119,7 @@ the popularity rate based on reviews and displayed in SERP
 
 #### Defined in
 
-main.ts:29419
+[main.ts:29277](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L29277)
 
 ___
 
@@ -133,7 +133,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 #### Defined in
 
-main.ts:29429
+[main.ts:29287](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L29287)
 
 ___
 
@@ -145,7 +145,7 @@ the number of reviews
 
 #### Defined in
 
-main.ts:29416
+[main.ts:29274](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L29274)
 
 ___
 
@@ -157,4 +157,4 @@ the XPath of the element
 
 #### Defined in
 
-main.ts:29414
+[main.ts:29272](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L29272)

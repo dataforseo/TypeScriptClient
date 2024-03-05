@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / HtmlItem
+[dataforseo-client](../README.md) / [Exports](../modules.md) / HtmlItem
 
 # Class: HtmlItem
 
@@ -46,7 +46,7 @@
 
 #### Defined in
 
-main.ts:36435
+[main.ts:36293](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L36293)
 
 ## Properties
 
@@ -65,7 +65,7 @@ example:
 
 #### Defined in
 
-main.ts:36429
+[main.ts:36287](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L36287)
 
 ___
 
@@ -81,7 +81,7 @@ HTML page
 
 #### Defined in
 
-main.ts:36431
+[main.ts:36289](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L36289)
 
 ___
 
@@ -97,7 +97,7 @@ serial number of the returned HTML page
 
 #### Defined in
 
-main.ts:36424
+[main.ts:36282](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L36282)
 
 ## Methods
 
@@ -117,7 +117,7 @@ main.ts:36424
 
 #### Defined in
 
-main.ts:36444
+[main.ts:36302](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L36302)
 
 ___
 
@@ -137,7 +137,7 @@ ___
 
 #### Defined in
 
-main.ts:36463
+[main.ts:36321](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L36321)
 
 ___
 
@@ -157,4 +157,4 @@ ___
 
 #### Defined in
 
-main.ts:36456
+[main.ts:36314](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L36314)

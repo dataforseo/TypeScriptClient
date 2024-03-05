@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / ISpellInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / ISpellInfo
 
 # Interface: ISpellInfo
 
@@ -28,7 +28,7 @@ the results will be provided for the corrected keyword
 
 #### Defined in
 
-main.ts:22034
+[main.ts:21892](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L21892)
 
 ___
 
@@ -44,4 +44,4 @@ including_results_for
 
 #### Defined in
 
-main.ts:22040
+[main.ts:21898](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L21898)

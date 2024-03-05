@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IBacklinksPageIntersectionLiveRequestInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IBacklinksPageIntersectionLiveRequestInfo
 
 # Interface: IBacklinksPageIntersectionLiveRequestInfo
 
@@ -44,7 +44,7 @@ default value: live
 
 #### Defined in
 
-main.ts:137710
+[main.ts:137566](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L137566)
 
 ___
 
@@ -64,7 +64,7 @@ example:
 
 #### Defined in
 
-main.ts:137701
+[main.ts:137557](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L137557)
 
 ___
 
@@ -91,7 +91,7 @@ The full list of possible filters is available here.
 
 #### Defined in
 
-main.ts:137727
+[main.ts:137583](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L137583)
 
 ___
 
@@ -107,7 +107,7 @@ default value: true
 
 #### Defined in
 
-main.ts:137770
+[main.ts:137626](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L137626)
 
 ___
 
@@ -122,7 +122,7 @@ default value: true
 
 #### Defined in
 
-main.ts:137764
+[main.ts:137620](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L137620)
 
 ___
 
@@ -140,7 +140,7 @@ maximum value: 1000
 
 #### Defined in
 
-main.ts:137759
+[main.ts:137615](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L137615)
 
 ___
 
@@ -158,7 +158,7 @@ default value: all
 
 #### Defined in
 
-main.ts:137778
+[main.ts:137634](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L137634)
 
 ___
 
@@ -173,7 +173,7 @@ maximum value: 1000
 
 #### Defined in
 
-main.ts:137751
+[main.ts:137607](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L137607)
 
 ___
 
@@ -188,7 +188,7 @@ if you specify the 10 value, the first ten backlinks in the results array will b
 
 #### Defined in
 
-main.ts:137746
+[main.ts:137602](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L137602)
 
 ___
 
@@ -212,7 +212,7 @@ example:
 
 #### Defined in
 
-main.ts:137741
+[main.ts:137597](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L137597)
 
 ___
 
@@ -228,7 +228,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:137784
+[main.ts:137640](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L137640)
 
 ___
 
@@ -253,4 +253,4 @@ example:
 
 #### Defined in
 
-main.ts:137691
+[main.ts:137547](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L137547)

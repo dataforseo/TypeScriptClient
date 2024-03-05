@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / StocksBoxSerpElementItem
+[dataforseo-client](../README.md) / [Exports](../modules.md) / StocksBoxSerpElementItem
 
 # Class: StocksBoxSerpElementItem
 
@@ -67,7 +67,7 @@
 
 #### Defined in
 
-main.ts:32661
+[main.ts:32519](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L32519)
 
 ## Properties
 
@@ -81,7 +81,7 @@ main.ts:32661
 
 #### Defined in
 
-main.ts:19337
+[main.ts:19337](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L19337)
 
 ___
 
@@ -97,7 +97,7 @@ domain where a link points
 
 #### Defined in
 
-main.ts:32648
+[main.ts:32506](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L32506)
 
 ___
 
@@ -113,7 +113,7 @@ contains data provided in the graph of the element
 
 #### Defined in
 
-main.ts:32657
+[main.ts:32515](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L32515)
 
 ___
 
@@ -131,7 +131,7 @@ left, right
 
 #### Defined in
 
-main.ts:32633
+[main.ts:32491](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L32491)
 
 ___
 
@@ -147,7 +147,7 @@ price indicated in the element
 
 #### Defined in
 
-main.ts:32644
+[main.ts:32502](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L32502)
 
 ___
 
@@ -164,7 +164,7 @@ absolute position among all the elements in SERP
 
 #### Defined in
 
-main.ts:32629
+[main.ts:32487](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L32487)
 
 ___
 
@@ -182,7 +182,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-main.ts:32626
+[main.ts:32484](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L32484)
 
 ___
 
@@ -200,7 +200,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 #### Defined in
 
-main.ts:32652
+[main.ts:32510](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L32510)
 
 ___
 
@@ -216,7 +216,7 @@ text alongside the link title
 
 #### Defined in
 
-main.ts:32642
+[main.ts:32500](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L32500)
 
 ___
 
@@ -233,7 +233,7 @@ indicates the source of information included in the top_stories_element
 
 #### Defined in
 
-main.ts:32640
+[main.ts:32498](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L32498)
 
 ___
 
@@ -250,7 +250,7 @@ if there are none, equals null
 
 #### Defined in
 
-main.ts:32655
+[main.ts:32513](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L32513)
 
 ___
 
@@ -266,7 +266,7 @@ title of a given link element
 
 #### Defined in
 
-main.ts:32637
+[main.ts:32495](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L32495)
 
 ___
 
@@ -282,7 +282,7 @@ URL
 
 #### Defined in
 
-main.ts:32646
+[main.ts:32504](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L32504)
 
 ___
 
@@ -298,7 +298,7 @@ the XPath of the element
 
 #### Defined in
 
-main.ts:32635
+[main.ts:32493](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L32493)
 
 ## Methods
 
@@ -322,7 +322,7 @@ main.ts:32635
 
 #### Defined in
 
-main.ts:32666
+[main.ts:32524](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L32524)
 
 ___
 
@@ -346,7 +346,7 @@ ___
 
 #### Defined in
 
-main.ts:32696
+[main.ts:32554](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L32554)
 
 ___
 
@@ -370,4 +370,4 @@ ___
 
 #### Defined in
 
-main.ts:32689
+[main.ts:32547](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L32547)

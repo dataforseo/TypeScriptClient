@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IOnPageKeywordDensityRequestInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IOnPageKeywordDensityRequestInfo
 
 # Interface: IOnPageKeywordDensityRequestInfo
 
@@ -47,7 +47,7 @@ The full list of possible filters is available by this link.
 
 #### Defined in
 
-main.ts:150350
+[main.ts:150206](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L150206)
 
 ___
 
@@ -63,7 +63,7 @@ example:
 
 #### Defined in
 
-main.ts:150317
+[main.ts:150173](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L150173)
 
 ___
 
@@ -78,7 +78,7 @@ possible values:
 
 #### Defined in
 
-main.ts:150322
+[main.ts:150178](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L150178)
 
 ___
 
@@ -93,7 +93,7 @@ maximum value: 1000
 
 #### Defined in
 
-main.ts:150333
+[main.ts:150189](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L150189)
 
 ___
 
@@ -117,7 +117,7 @@ example:
 
 #### Defined in
 
-main.ts:150364
+[main.ts:150220](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L150220)
 
 ___
 
@@ -133,7 +133,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:150370
+[main.ts:150226](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L150226)
 
 ___
 
@@ -149,4 +149,4 @@ a page should be specified with absolute URL (including http:// or https://)
 
 #### Defined in
 
-main.ts:150328
+[main.ts:150184](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L150184)

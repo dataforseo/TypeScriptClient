@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IAppDataGoogleAppSearchesTaskGetAdvancedResultInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IAppDataGoogleAppSearchesTaskGetAdvancedResultInfo
 
 # Interface: IAppDataGoogleAppSearchesTaskGetAdvancedResultInfo
 
@@ -35,7 +35,7 @@ you can use it to make sure that we provided accurate results
 
 #### Defined in
 
-main.ts:178012
+[main.ts:177892](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L177892)
 
 ___
 
@@ -50,7 +50,7 @@ example:
 
 #### Defined in
 
-main.ts:178017
+[main.ts:177897](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L177897)
 
 ___
 
@@ -62,7 +62,7 @@ found apps
 
 #### Defined in
 
-main.ts:178023
+[main.ts:177903](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L177903)
 
 ___
 
@@ -74,7 +74,7 @@ the number of items in the results array
 
 #### Defined in
 
-main.ts:178021
+[main.ts:177901](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L177901)
 
 ___
 
@@ -86,7 +86,7 @@ keyword received in a POST request
 
 #### Defined in
 
-main.ts:178003
+[main.ts:177883](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L177883)
 
 ___
 
@@ -98,7 +98,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:178009
+[main.ts:177889](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L177889)
 
 ___
 
@@ -110,7 +110,7 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:178007
+[main.ts:177887](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L177887)
 
 ___
 
@@ -122,7 +122,7 @@ search engine domain in a POST array
 
 #### Defined in
 
-main.ts:178005
+[main.ts:177885](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L177885)
 
 ___
 
@@ -134,4 +134,4 @@ the total number of results
 
 #### Defined in
 
-main.ts:178019
+[main.ts:177899](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L177899)

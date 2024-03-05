@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / KeywordsDataGoogleAdsKeywordsForSiteTaskPostRequestInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / KeywordsDataGoogleAdsKeywordsForSiteTaskPostRequestInfo
 
 # Class: KeywordsDataGoogleAdsKeywordsForSiteTaskPostRequestInfo
 
@@ -58,7 +58,7 @@
 
 #### Defined in
 
-main.ts:114567
+[main.ts:114423](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L114423)
 
 ## Properties
 
@@ -80,7 +80,7 @@ if Status endpoint returns true in the actual_data field, date_from can be set t
 
 #### Defined in
 
-main.ts:114518
+[main.ts:114374](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L114374)
 
 ___
 
@@ -102,7 +102,7 @@ example:
 
 #### Defined in
 
-main.ts:114526
+[main.ts:114382](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L114382)
 
 ___
 
@@ -122,7 +122,7 @@ note that the API may return no data for such keywords due to Google Ads restric
 
 #### Defined in
 
-main.ts:114532
+[main.ts:114388](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L114388)
 
 ___
 
@@ -142,7 +142,7 @@ en
 
 #### Defined in
 
-main.ts:114505
+[main.ts:114361](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L114361)
 
 ___
 
@@ -162,7 +162,7 @@ English
 
 #### Defined in
 
-main.ts:114499
+[main.ts:114355](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L114355)
 
 ___
 
@@ -184,7 +184,7 @@ example:
 
 #### Defined in
 
-main.ts:114484
+[main.ts:114340](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L114340)
 
 ___
 
@@ -207,7 +207,7 @@ example:
 
 #### Defined in
 
-main.ts:114493
+[main.ts:114349](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L114349)
 
 ___
 
@@ -229,7 +229,7 @@ London,England,United Kingdom
 
 #### Defined in
 
-main.ts:114476
+[main.ts:114332](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L114332)
 
 ___
 
@@ -253,7 +253,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-main.ts:114557
+[main.ts:114413](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L114413)
 
 ___
 
@@ -277,7 +277,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-main.ts:114547
+[main.ts:114403](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L114403)
 
 ___
 
@@ -296,7 +296,7 @@ default value: false – results are returned for Google search sites
 
 #### Defined in
 
-main.ts:114510
+[main.ts:114366](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L114366)
 
 ___
 
@@ -315,7 +315,7 @@ default value: relevance
 
 #### Defined in
 
-main.ts:114537
+[main.ts:114393](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L114393)
 
 ___
 
@@ -335,7 +335,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:114563
+[main.ts:114419](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L114419)
 
 ___
 
@@ -354,7 +354,7 @@ note: to obtain keywords for the target website, use the target_type parameter
 
 #### Defined in
 
-main.ts:114461
+[main.ts:114317](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L114317)
 
 ___
 
@@ -375,7 +375,7 @@ if set to page, keywords will be provided for the specified webpage
 
 #### Defined in
 
-main.ts:114468
+[main.ts:114324](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L114324)
 
 ## Methods
 
@@ -395,7 +395,7 @@ main.ts:114468
 
 #### Defined in
 
-main.ts:114576
+[main.ts:114432](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L114432)
 
 ___
 
@@ -415,7 +415,7 @@ ___
 
 #### Defined in
 
-main.ts:114607
+[main.ts:114463](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L114463)
 
 ___
 
@@ -435,4 +435,4 @@ ___
 
 #### Defined in
 
-main.ts:114600
+[main.ts:114456](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L114456)

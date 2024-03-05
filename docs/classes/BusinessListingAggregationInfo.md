@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / BusinessListingAggregationInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / BusinessListingAggregationInfo
 
 # Class: BusinessListingAggregationInfo
 
@@ -49,7 +49,7 @@
 
 #### Defined in
 
-main.ts:189898
+[main.ts:189778](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L189778)
 
 ## Properties
 
@@ -65,7 +65,7 @@ number of unique entities
 
 #### Defined in
 
-main.ts:189888
+[main.ts:189768](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L189768)
 
 ___
 
@@ -86,7 +86,7 @@ service details of a business entity displayed in a form of checks and the numbe
 
 #### Defined in
 
-main.ts:189891
+[main.ts:189771](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L189771)
 
 ___
 
@@ -107,7 +107,7 @@ top categories displayed with the number of businesses in each category
 
 #### Defined in
 
-main.ts:189881
+[main.ts:189761](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L189761)
 
 ___
 
@@ -128,7 +128,7 @@ country codes with the biggest number of businesses in the category
 
 #### Defined in
 
-main.ts:189884
+[main.ts:189764](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L189764)
 
 ___
 
@@ -149,7 +149,7 @@ contains most popular keywords related to products/services mentioned in custome
 
 #### Defined in
 
-main.ts:189894
+[main.ts:189774](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L189774)
 
 ___
 
@@ -165,7 +165,7 @@ number of unique websites
 
 #### Defined in
 
-main.ts:189886
+[main.ts:189766](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L189766)
 
 ## Methods
 
@@ -185,7 +185,7 @@ main.ts:189886
 
 #### Defined in
 
-main.ts:189907
+[main.ts:189787](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L189787)
 
 ___
 
@@ -205,7 +205,7 @@ ___
 
 #### Defined in
 
-main.ts:189953
+[main.ts:189833](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L189833)
 
 ___
 
@@ -225,4 +225,4 @@ ___
 
 #### Defined in
 
-main.ts:189946
+[main.ts:189826](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L189826)

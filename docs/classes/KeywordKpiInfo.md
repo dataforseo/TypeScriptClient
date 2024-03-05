@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / KeywordKpiInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / KeywordKpiInfo
 
 # Class: KeywordKpiInfo
 
@@ -50,7 +50,7 @@
 
 #### Defined in
 
-main.ts:127303
+[main.ts:127159](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L127159)
 
 ## Properties
 
@@ -81,7 +81,7 @@ MainLine4: The fourth ad to appear at the top of the search results page
 
 #### Defined in
 
-main.ts:127282
+[main.ts:127138](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L127138)
 
 ___
 
@@ -97,7 +97,7 @@ average bid of the keyword
 
 #### Defined in
 
-main.ts:127299
+[main.ts:127155](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L127155)
 
 ___
 
@@ -114,7 +114,7 @@ calculated by dividing the cost of all clicks by the number of clicks
 
 #### Defined in
 
-main.ts:127291
+[main.ts:127147](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L127147)
 
 ___
 
@@ -131,7 +131,7 @@ the number of clicks that the keyword and match type generated during the last m
 
 #### Defined in
 
-main.ts:127285
+[main.ts:127141](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L127141)
 
 ___
 
@@ -148,7 +148,7 @@ calculated by dividing the number of clicks by the number of impressions and mul
 
 #### Defined in
 
-main.ts:127294
+[main.ts:127150](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L127150)
 
 ___
 
@@ -165,7 +165,7 @@ the number of impressions that the keyword and match type generated during the l
 
 #### Defined in
 
-main.ts:127288
+[main.ts:127144](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L127144)
 
 ___
 
@@ -182,7 +182,7 @@ the cost of using the specified keyword and match type during the last month
 
 #### Defined in
 
-main.ts:127297
+[main.ts:127153](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L127153)
 
 ## Methods
 
@@ -202,7 +202,7 @@ main.ts:127297
 
 #### Defined in
 
-main.ts:127312
+[main.ts:127168](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L127168)
 
 ___
 
@@ -222,7 +222,7 @@ ___
 
 #### Defined in
 
-main.ts:127335
+[main.ts:127191](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L127191)
 
 ___
 
@@ -242,4 +242,4 @@ ___
 
 #### Defined in
 
-main.ts:127328
+[main.ts:127184](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L127184)

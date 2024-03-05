@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IAppDataGoogleAppListTaskPostRequestInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IAppDataGoogleAppListTaskPostRequestInfo
 
 # Interface: IAppDataGoogleAppListTaskPostRequestInfo
 
@@ -46,7 +46,7 @@ Note: this filter works only in conjunction with the "category": "family" parame
 
 #### Defined in
 
-main.ts:178587
+[main.ts:178467](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L178467)
 
 ___
 
@@ -64,7 +64,7 @@ Note: app_category cannot be used if app_collection parameter is set to featured
 
 #### Defined in
 
-main.ts:178577
+[main.ts:178457](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L178457)
 
 ___
 
@@ -81,7 +81,7 @@ Note: if featured is selected, the app_category parameter cannot be used
 
 #### Defined in
 
-main.ts:178526
+[main.ts:178406](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L178406)
 
 ___
 
@@ -98,7 +98,7 @@ maximum value: 200
 
 #### Defined in
 
-main.ts:178569
+[main.ts:178449](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L178449)
 
 ___
 
@@ -115,7 +115,7 @@ en
 
 #### Defined in
 
-main.ts:178554
+[main.ts:178434](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L178434)
 
 ___
 
@@ -132,7 +132,7 @@ English
 
 #### Defined in
 
-main.ts:178547
+[main.ts:178427](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L178427)
 
 ___
 
@@ -149,7 +149,7 @@ example:
 
 #### Defined in
 
-main.ts:178540
+[main.ts:178420](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L178420)
 
 ___
 
@@ -166,7 +166,7 @@ West Los Angeles,California,United States
 
 #### Defined in
 
-main.ts:178533
+[main.ts:178413](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L178413)
 
 ___
 
@@ -186,7 +186,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-main.ts:178619
+[main.ts:178499](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L178499)
 
 ___
 
@@ -202,7 +202,7 @@ advanced, html
 
 #### Defined in
 
-main.ts:178609
+[main.ts:178489](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L178489)
 
 ___
 
@@ -222,7 +222,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-main.ts:178603
+[main.ts:178483](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L178483)
 
 ___
 
@@ -240,7 +240,7 @@ The cost can be calculated on the Pricing page.
 
 #### Defined in
 
-main.ts:178562
+[main.ts:178442](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L178442)
 
 ___
 
@@ -256,4 +256,4 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:178593
+[main.ts:178473](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L178473)

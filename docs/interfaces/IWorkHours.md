@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IWorkHours
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IWorkHours
 
 # Interface: IWorkHours
 
@@ -28,7 +28,7 @@ indicates whether the establishment is opened or closed
 
 #### Defined in
 
-main.ts:38495
+[main.ts:38353](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L38353)
 
 ___
 
@@ -44,4 +44,4 @@ work hours timetable
 
 #### Defined in
 
-main.ts:38492
+[main.ts:38350](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L38350)

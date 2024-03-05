@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IDomainAnalyticsTechnologiesDomainsByHtmlTermsLiveRequestInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IDomainAnalyticsTechnologiesDomainsByHtmlTermsLiveRequestInfo
 
 # Interface: IDomainAnalyticsTechnologiesDomainsByHtmlTermsLiveRequestInfo
 
@@ -48,7 +48,7 @@ for more information about filters, please refer to Domain Analytics Technologie
 
 #### Defined in
 
-main.ts:74964
+[main.ts:74820](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L74820)
 
 ___
 
@@ -66,7 +66,7 @@ example:
 
 #### Defined in
 
-main.ts:74940
+[main.ts:74796](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L74796)
 
 ___
 
@@ -81,7 +81,7 @@ maximum value: 10000
 
 #### Defined in
 
-main.ts:74986
+[main.ts:74842](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L74842)
 
 ___
 
@@ -98,7 +98,7 @@ default value: entry
 
 #### Defined in
 
-main.ts:74947
+[main.ts:74803](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L74803)
 
 ___
 
@@ -115,7 +115,7 @@ use the offset_token if you would like to offset more results
 
 #### Defined in
 
-main.ts:74993
+[main.ts:74849](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L74849)
 
 ___
 
@@ -133,7 +133,7 @@ Note: if the offset_token is specified in the request, all other parameters shou
 
 #### Defined in
 
-main.ts:75001
+[main.ts:74857](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L74857)
 
 ___
 
@@ -160,7 +160,7 @@ example:
 
 #### Defined in
 
-main.ts:74981
+[main.ts:74837](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L74837)
 
 ___
 
@@ -178,4 +178,4 @@ example:
 
 #### Defined in
 
-main.ts:74932
+[main.ts:74788](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L74788)

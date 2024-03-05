@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / AppendixSellersGoogleMerchantLimitsRatesDataInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / AppendixSellersGoogleMerchantLimitsRatesDataInfo
 
 # Class: AppendixSellersGoogleMerchantLimitsRatesDataInfo
 
@@ -47,7 +47,7 @@
 
 #### Defined in
 
-main.ts:207560
+[main.ts:207440](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L207440)
 
 ## Properties
 
@@ -61,7 +61,7 @@ main.ts:207560
 
 #### Defined in
 
-main.ts:207556
+[main.ts:207436](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L207436)
 
 ___
 
@@ -75,7 +75,7 @@ ___
 
 #### Defined in
 
-main.ts:207555
+[main.ts:207435](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L207435)
 
 ___
 
@@ -89,7 +89,7 @@ ___
 
 #### Defined in
 
-main.ts:207553
+[main.ts:207433](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L207433)
 
 ___
 
@@ -103,7 +103,7 @@ ___
 
 #### Defined in
 
-main.ts:207554
+[main.ts:207434](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L207434)
 
 ## Methods
 
@@ -123,7 +123,7 @@ main.ts:207554
 
 #### Defined in
 
-main.ts:207569
+[main.ts:207449](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L207449)
 
 ___
 
@@ -143,7 +143,7 @@ ___
 
 #### Defined in
 
-main.ts:207589
+[main.ts:207469](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L207469)
 
 ___
 
@@ -163,4 +163,4 @@ ___
 
 #### Defined in
 
-main.ts:207582
+[main.ts:207462](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L207462)

@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IQuestionsAndAnswersElement
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IQuestionsAndAnswersElement
 
 # Interface: IQuestionsAndAnswersElement
 
@@ -32,7 +32,7 @@ answer included in the item
 
 #### Defined in
 
-main.ts:33012
+[main.ts:32870](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L32870)
 
 ___
 
@@ -44,7 +44,7 @@ domain where a link points
 
 #### Defined in
 
-main.ts:33017
+[main.ts:32875](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L32875)
 
 ___
 
@@ -56,7 +56,7 @@ question included in the item
 
 #### Defined in
 
-main.ts:33010
+[main.ts:32868](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L32868)
 
 ___
 
@@ -69,7 +69,7 @@ indicates the source of information included in the element
 
 #### Defined in
 
-main.ts:33015
+[main.ts:32873](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L32873)
 
 ___
 
@@ -81,7 +81,7 @@ type of element
 
 #### Defined in
 
-main.ts:33006
+[main.ts:32864](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L32864)
 
 ___
 
@@ -93,7 +93,7 @@ URL
 
 #### Defined in
 
-main.ts:33008
+[main.ts:32866](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L32866)
 
 ___
 
@@ -105,4 +105,4 @@ answer upvotes from the source
 
 #### Defined in
 
-main.ts:33019
+[main.ts:32877](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L32877)

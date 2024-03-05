@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IKeywordsDataGoogleTrendsLocationsResultInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IKeywordsDataGoogleTrendsLocationsResultInfo
 
 # Interface: IKeywordsDataGoogleTrendsLocationsResultInfo
 
@@ -32,7 +32,7 @@ ISO country code of the location
 
 #### Defined in
 
-main.ts:119237
+[main.ts:119093](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L119093)
 
 ___
 
@@ -45,7 +45,7 @@ you can use this field for matching obtained results with the location_code para
 
 #### Defined in
 
-main.ts:119246
+[main.ts:119102](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L119102)
 
 ___
 
@@ -58,7 +58,7 @@ you can use this field for matching obtained results with the location_name para
 
 #### Defined in
 
-main.ts:119243
+[main.ts:119099](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L119099)
 
 ___
 
@@ -70,7 +70,7 @@ location code
 
 #### Defined in
 
-main.ts:119224
+[main.ts:119080](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L119080)
 
 ___
 
@@ -89,7 +89,7 @@ where location_code_parent corresponds to:
 
 #### Defined in
 
-main.ts:119235
+[main.ts:119091](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L119091)
 
 ___
 
@@ -101,7 +101,7 @@ full name of the location
 
 #### Defined in
 
-main.ts:119226
+[main.ts:119082](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L119082)
 
 ___
 
@@ -114,4 +114,4 @@ possible values according to Google’s target types
 
 #### Defined in
 
-main.ts:119240
+[main.ts:119096](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L119096)

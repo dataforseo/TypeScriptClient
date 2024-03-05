@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / DataforseoLabsAmazonRankedKeywordsLiveRequestInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / DataforseoLabsAmazonRankedKeywordsLiveRequestInfo
 
 # Class: DataforseoLabsAmazonRankedKeywordsLiveRequestInfo
 
@@ -54,7 +54,7 @@
 
 #### Defined in
 
-main.ts:99803
+[main.ts:99659](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L99659)
 
 ## Properties
 
@@ -73,7 +73,7 @@ you can receive the asin parameter by making a separate request to the Amazon Pr
 
 #### Defined in
 
-main.ts:99721
+[main.ts:99577](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L99577)
 
 ___
 
@@ -98,7 +98,7 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 #### Defined in
 
-main.ts:99772
+[main.ts:99628](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L99628)
 
 ___
 
@@ -117,7 +117,7 @@ default value: false
 
 #### Defined in
 
-main.ts:99761
+[main.ts:99617](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L99617)
 
 ___
 
@@ -138,7 +138,7 @@ en
 
 #### Defined in
 
-main.ts:99751
+[main.ts:99607](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L99607)
 
 ___
 
@@ -159,7 +159,7 @@ English
 
 #### Defined in
 
-main.ts:99744
+[main.ts:99600](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L99600)
 
 ___
 
@@ -178,7 +178,7 @@ maximum value: 1000
 
 #### Defined in
 
-main.ts:99756
+[main.ts:99612](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L99612)
 
 ___
 
@@ -200,7 +200,7 @@ example:
 
 #### Defined in
 
-main.ts:99737
+[main.ts:99593](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L99593)
 
 ___
 
@@ -222,7 +222,7 @@ United States
 
 #### Defined in
 
-main.ts:99729
+[main.ts:99585](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L99585)
 
 ___
 
@@ -241,7 +241,7 @@ if you specify the 10 value, the first ten keywords in the results array will be
 
 #### Defined in
 
-main.ts:99793
+[main.ts:99649](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L99649)
 
 ___
 
@@ -271,7 +271,7 @@ example:
 
 #### Defined in
 
-main.ts:99788
+[main.ts:99644](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L99644)
 
 ___
 
@@ -291,7 +291,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:99799
+[main.ts:99655](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L99655)
 
 ## Methods
 
@@ -311,7 +311,7 @@ main.ts:99799
 
 #### Defined in
 
-main.ts:99812
+[main.ts:99668](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L99668)
 
 ___
 
@@ -331,7 +331,7 @@ ___
 
 #### Defined in
 
-main.ts:99847
+[main.ts:99703](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L99703)
 
 ___
 
@@ -351,4 +351,4 @@ ___
 
 #### Defined in
 
-main.ts:99840
+[main.ts:99696](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L99696)

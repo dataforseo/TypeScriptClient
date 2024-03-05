@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / AppDataGoogleAppReviewsTaskPostRequestInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / AppDataGoogleAppReviewsTaskPostRequestInfo
 
 # Class: AppDataGoogleAppReviewsTaskPostRequestInfo
 
@@ -56,7 +56,7 @@
 
 #### Defined in
 
-main.ts:180809
+[main.ts:180689](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L180689)
 
 ## Properties
 
@@ -77,7 +77,7 @@ https://play.google.com/store/apps/details?id=org.telegram.messenger
 
 #### Defined in
 
-main.ts:180711
+[main.ts:180591](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L180591)
 
 ___
 
@@ -98,7 +98,7 @@ maximum value: 100000
 
 #### Defined in
 
-main.ts:180754
+[main.ts:180634](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L180634)
 
 ___
 
@@ -119,7 +119,7 @@ en
 
 #### Defined in
 
-main.ts:180739
+[main.ts:180619](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L180619)
 
 ___
 
@@ -140,7 +140,7 @@ English
 
 #### Defined in
 
-main.ts:180732
+[main.ts:180612](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L180612)
 
 ___
 
@@ -161,7 +161,7 @@ example:
 
 #### Defined in
 
-main.ts:180725
+[main.ts:180605](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L180605)
 
 ___
 
@@ -182,7 +182,7 @@ West Los Angeles,California,United States
 
 #### Defined in
 
-main.ts:180718
+[main.ts:180598](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L180598)
 
 ___
 
@@ -206,7 +206,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-main.ts:180805
+[main.ts:180685](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L180685)
 
 ___
 
@@ -226,7 +226,7 @@ advanced, html
 
 #### Defined in
 
-main.ts:180795
+[main.ts:180675](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L180675)
 
 ___
 
@@ -250,7 +250,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-main.ts:180789
+[main.ts:180669](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L180669)
 
 ___
 
@@ -272,7 +272,7 @@ The cost can be calculated on the Pricing page.
 
 #### Defined in
 
-main.ts:180747
+[main.ts:180627](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L180627)
 
 ___
 
@@ -297,7 +297,7 @@ by default, the API returns all reviews regardless of the number of stars
 
 #### Defined in
 
-main.ts:180765
+[main.ts:180645](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L180645)
 
 ___
 
@@ -319,7 +319,7 @@ default rule: most_relevant
 
 #### Defined in
 
-main.ts:180773
+[main.ts:180653](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L180653)
 
 ___
 
@@ -339,7 +339,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:180779
+[main.ts:180659](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L180659)
 
 ## Methods
 
@@ -359,7 +359,7 @@ main.ts:180779
 
 #### Defined in
 
-main.ts:180818
+[main.ts:180698](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L180698)
 
 ___
 
@@ -379,7 +379,7 @@ ___
 
 #### Defined in
 
-main.ts:180847
+[main.ts:180727](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L180727)
 
 ___
 
@@ -399,4 +399,4 @@ ___
 
 #### Defined in
 
-main.ts:180840
+[main.ts:180720](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L180720)

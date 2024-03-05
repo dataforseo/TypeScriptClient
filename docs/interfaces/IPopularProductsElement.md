@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IPopularProductsElement
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IPopularProductsElement
 
 # Interface: IPopularProductsElement
 
@@ -30,7 +30,7 @@ description of the results element in SERP
 
 #### Defined in
 
-main.ts:32188
+[main.ts:32046](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L32046)
 
 ___
 
@@ -42,7 +42,7 @@ price of booking a place for the specified dates of stay
 
 #### Defined in
 
-main.ts:32190
+[main.ts:32048](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L32048)
 
 ___
 
@@ -55,7 +55,7 @@ the popularity rate based on reviews and displayed in SERP
 
 #### Defined in
 
-main.ts:32193
+[main.ts:32051](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L32051)
 
 ___
 
@@ -67,7 +67,7 @@ title of the row
 
 #### Defined in
 
-main.ts:32186
+[main.ts:32044](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L32044)
 
 ___
 
@@ -79,4 +79,4 @@ type of element
 
 #### Defined in
 
-main.ts:32184
+[main.ts:32042](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L32042)

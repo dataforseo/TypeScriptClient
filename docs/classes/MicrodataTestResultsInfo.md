@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / MicrodataTestResultsInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / MicrodataTestResultsInfo
 
 # Class: MicrodataTestResultsInfo
 
@@ -45,7 +45,7 @@
 
 #### Defined in
 
-main.ts:150801
+[main.ts:150657](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L150657)
 
 ## Properties
 
@@ -62,7 +62,7 @@ can take the following values: fatal, error, warning, info
 
 #### Defined in
 
-main.ts:150794
+[main.ts:150650](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L150650)
 
 ___
 
@@ -79,7 +79,7 @@ message providing the details of the detected error
 
 #### Defined in
 
-main.ts:150797
+[main.ts:150653](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L150653)
 
 ## Methods
 
@@ -99,7 +99,7 @@ main.ts:150797
 
 #### Defined in
 
-main.ts:150810
+[main.ts:150666](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L150666)
 
 ___
 
@@ -119,7 +119,7 @@ ___
 
 #### Defined in
 
-main.ts:150828
+[main.ts:150684](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L150684)
 
 ___
 
@@ -139,4 +139,4 @@ ___
 
 #### Defined in
 
-main.ts:150821
+[main.ts:150677](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L150677)

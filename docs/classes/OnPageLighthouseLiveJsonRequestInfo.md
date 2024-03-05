@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / OnPageLighthouseLiveJsonRequestInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / OnPageLighthouseLiveJsonRequestInfo
 
 # Class: OnPageLighthouseLiveJsonRequestInfo
 
@@ -51,7 +51,7 @@
 
 #### Defined in
 
-main.ts:154907
+[main.ts:154763](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L154763)
 
 ## Properties
 
@@ -78,7 +78,7 @@ you can get the full list of possible audits here
 
 #### Defined in
 
-main.ts:154880
+[main.ts:154736](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L154736)
 
 ___
 
@@ -100,7 +100,7 @@ seo, pwa, performance, best_practices, accessibility
 
 #### Defined in
 
-main.ts:154867
+[main.ts:154723](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L154723)
 
 ___
 
@@ -120,7 +120,7 @@ default value: false
 
 #### Defined in
 
-main.ts:154859
+[main.ts:154715](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L154715)
 
 ___
 
@@ -140,7 +140,7 @@ en
 
 #### Defined in
 
-main.ts:154897
+[main.ts:154753](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L154753)
 
 ___
 
@@ -160,7 +160,7 @@ English
 
 #### Defined in
 
-main.ts:154891
+[main.ts:154747](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L154747)
 
 ___
 
@@ -180,7 +180,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:154903
+[main.ts:154759](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L154759)
 
 ___
 
@@ -200,7 +200,7 @@ https://dataforseo.com/
 
 #### Defined in
 
-main.ts:154853
+[main.ts:154709](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L154709)
 
 ___
 
@@ -219,7 +219,7 @@ the list of available versions is available through the Lighthouse Versions endp
 
 #### Defined in
 
-main.ts:154885
+[main.ts:154741](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L154741)
 
 ## Methods
 
@@ -239,7 +239,7 @@ main.ts:154885
 
 #### Defined in
 
-main.ts:154916
+[main.ts:154772](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L154772)
 
 ___
 
@@ -259,7 +259,7 @@ ___
 
 #### Defined in
 
-main.ts:154948
+[main.ts:154804](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L154804)
 
 ___
 
@@ -279,4 +279,4 @@ ___
 
 #### Defined in
 
-main.ts:154941
+[main.ts:154797](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L154797)

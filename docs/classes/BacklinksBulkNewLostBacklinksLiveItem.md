@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / BacklinksBulkNewLostBacklinksLiveItem
+[dataforseo-client](../README.md) / [Exports](../modules.md) / BacklinksBulkNewLostBacklinksLiveItem
 
 # Class: BacklinksBulkNewLostBacklinksLiveItem
 
@@ -46,7 +46,7 @@
 
 #### Defined in
 
-main.ts:140965
+[main.ts:140821](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L140821)
 
 ## Properties
 
@@ -63,7 +63,7 @@ number of lost backlinks of the target
 
 #### Defined in
 
-main.ts:140961
+[main.ts:140817](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L140817)
 
 ___
 
@@ -80,7 +80,7 @@ number of new backlinks pointing to the target
 
 #### Defined in
 
-main.ts:140958
+[main.ts:140814](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L140814)
 
 ___
 
@@ -96,7 +96,7 @@ domain, subdomain or webpage from a POST array
 
 #### Defined in
 
-main.ts:140955
+[main.ts:140811](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L140811)
 
 ## Methods
 
@@ -116,7 +116,7 @@ main.ts:140955
 
 #### Defined in
 
-main.ts:140974
+[main.ts:140830](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L140830)
 
 ___
 
@@ -136,7 +136,7 @@ ___
 
 #### Defined in
 
-main.ts:140993
+[main.ts:140849](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L140849)
 
 ___
 
@@ -156,4 +156,4 @@ ___
 
 #### Defined in
 
-main.ts:140986
+[main.ts:140842](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L140842)

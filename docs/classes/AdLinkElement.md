@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / AdLinkElement
+[dataforseo-client](../README.md) / [Exports](../modules.md) / AdLinkElement
 
 # Class: AdLinkElement
 
@@ -49,7 +49,7 @@
 
 #### Defined in
 
-main.ts:27830
+[main.ts:27688](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L27688)
 
 ## Properties
 
@@ -65,7 +65,7 @@ the identifier of the ad
 
 #### Defined in
 
-main.ts:27826
+[main.ts:27684](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L27684)
 
 ___
 
@@ -81,7 +81,7 @@ description of the results element in SERP
 
 #### Defined in
 
-main.ts:27820
+[main.ts:27678](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L27678)
 
 ___
 
@@ -97,7 +97,7 @@ website domain
 
 #### Defined in
 
-main.ts:27824
+[main.ts:27682](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L27682)
 
 ___
 
@@ -113,7 +113,7 @@ title of a given link element
 
 #### Defined in
 
-main.ts:27818
+[main.ts:27676](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L27676)
 
 ___
 
@@ -129,7 +129,7 @@ type of element
 
 #### Defined in
 
-main.ts:27816
+[main.ts:27674](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L27674)
 
 ___
 
@@ -145,7 +145,7 @@ relevant URL
 
 #### Defined in
 
-main.ts:27822
+[main.ts:27680](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L27680)
 
 ## Methods
 
@@ -165,7 +165,7 @@ main.ts:27822
 
 #### Defined in
 
-main.ts:27839
+[main.ts:27697](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L27697)
 
 ___
 
@@ -185,7 +185,7 @@ ___
 
 #### Defined in
 
-main.ts:27861
+[main.ts:27719](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L27719)
 
 ___
 
@@ -205,4 +205,4 @@ ___
 
 #### Defined in
 
-main.ts:27854
+[main.ts:27712](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L27712)

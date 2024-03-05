@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / KeywordsDataBingLocationsResultInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / KeywordsDataBingLocationsResultInfo
 
 # Class: KeywordsDataBingLocationsResultInfo
 
@@ -48,7 +48,7 @@
 
 #### Defined in
 
-main.ts:122087
+[main.ts:121943](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L121943)
 
 ## Properties
 
@@ -64,7 +64,7 @@ ISO country code of the location
 
 #### Defined in
 
-main.ts:122081
+[main.ts:121937](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L121937)
 
 ___
 
@@ -80,7 +80,7 @@ location code
 
 #### Defined in
 
-main.ts:122069
+[main.ts:121925](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L121925)
 
 ___
 
@@ -102,7 +102,7 @@ example:
 
 #### Defined in
 
-main.ts:122079
+[main.ts:121935](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L121935)
 
 ___
 
@@ -118,7 +118,7 @@ full name of the location
 
 #### Defined in
 
-main.ts:122071
+[main.ts:121927](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L121927)
 
 ___
 
@@ -134,7 +134,7 @@ location type
 
 #### Defined in
 
-main.ts:122083
+[main.ts:121939](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L121939)
 
 ## Methods
 
@@ -154,7 +154,7 @@ main.ts:122083
 
 #### Defined in
 
-main.ts:122096
+[main.ts:121952](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L121952)
 
 ___
 
@@ -174,7 +174,7 @@ ___
 
 #### Defined in
 
-main.ts:122117
+[main.ts:121973](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L121973)
 
 ___
 
@@ -194,4 +194,4 @@ ___
 
 #### Defined in
 
-main.ts:122110
+[main.ts:121966](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L121966)

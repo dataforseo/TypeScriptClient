@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IBaseOnPageResourceItemInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IBaseOnPageResourceItemInfo
 
 # Interface: IBaseOnPageResourceItemInfo
 
@@ -8,9 +8,9 @@
 
   ↳ [`IHtmlResourceElementItem`](IHtmlResourceElementItem.md)
 
-  ↳ [`IStylesheetResourceElementItem`](IStylesheetResourceElementItem.md)
-
   ↳ [`IScriptResourceElementItem`](IScriptResourceElementItem.md)
+
+  ↳ [`IStylesheetResourceElementItem`](IStylesheetResourceElementItem.md)
 
   ↳ [`IImageResourceElementItem`](IImageResourceElementItem.md)
 

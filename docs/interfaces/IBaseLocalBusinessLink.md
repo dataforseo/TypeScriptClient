@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IBaseLocalBusinessLink
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IBaseLocalBusinessLink
 
 # Interface: IBaseLocalBusinessLink
 

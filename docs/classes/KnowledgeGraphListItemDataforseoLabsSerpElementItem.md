@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / KnowledgeGraphListItemDataforseoLabsSerpElementItem
+[dataforseo-client](../README.md) / [Exports](../modules.md) / KnowledgeGraphListItemDataforseoLabsSerpElementItem
 
 # Class: KnowledgeGraphListItemDataforseoLabsSerpElementItem
 
@@ -62,7 +62,7 @@
 
 #### Defined in
 
-main.ts:93749
+[main.ts:93605](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L93605)
 
 ## Properties
 
@@ -76,7 +76,7 @@ main.ts:93749
 
 #### Defined in
 
-main.ts:19715
+[main.ts:19715](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L19715)
 
 ___
 
@@ -94,7 +94,7 @@ kc:/common/topic:social media presence
 
 #### Defined in
 
-main.ts:93740
+[main.ts:93596](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L93596)
 
 ___
 
@@ -111,7 +111,7 @@ if there are none, equals null
 
 #### Defined in
 
-main.ts:93745
+[main.ts:93601](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L93601)
 
 ___
 
@@ -127,7 +127,7 @@ link of the element
 
 #### Defined in
 
-main.ts:93742
+[main.ts:93598](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L93598)
 
 ___
 
@@ -145,7 +145,7 @@ left, right
 
 #### Defined in
 
-main.ts:93732
+[main.ts:93588](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L93588)
 
 ___
 
@@ -162,7 +162,7 @@ absolute position among all the elements in SERP
 
 #### Defined in
 
-main.ts:93728
+[main.ts:93584](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L93584)
 
 ___
 
@@ -180,7 +180,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-main.ts:93725
+[main.ts:93581](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L93581)
 
 ___
 
@@ -196,7 +196,7 @@ title of a given link element
 
 #### Defined in
 
-main.ts:93736
+[main.ts:93592](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L93592)
 
 ___
 
@@ -212,7 +212,7 @@ the XPath of the element
 
 #### Defined in
 
-main.ts:93734
+[main.ts:93590](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L93590)
 
 ## Methods
 
@@ -236,7 +236,7 @@ main.ts:93734
 
 #### Defined in
 
-main.ts:93754
+[main.ts:93610](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L93610)
 
 ___
 
@@ -260,7 +260,7 @@ ___
 
 #### Defined in
 
-main.ts:93783
+[main.ts:93639](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L93639)
 
 ___
 
@@ -284,4 +284,4 @@ ___
 
 #### Defined in
 
-main.ts:93776
+[main.ts:93632](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L93632)

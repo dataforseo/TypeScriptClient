@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / PopularProductsElement
+[dataforseo-client](../README.md) / [Exports](../modules.md) / PopularProductsElement
 
 # Class: PopularProductsElement
 
@@ -48,7 +48,7 @@
 
 #### Defined in
 
-main.ts:32137
+[main.ts:31995](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L31995)
 
 ## Properties
 
@@ -64,7 +64,7 @@ description of the results element in SERP
 
 #### Defined in
 
-main.ts:32128
+[main.ts:31986](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L31986)
 
 ___
 
@@ -80,7 +80,7 @@ price of booking a place for the specified dates of stay
 
 #### Defined in
 
-main.ts:32130
+[main.ts:31988](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L31988)
 
 ___
 
@@ -97,7 +97,7 @@ the popularity rate based on reviews and displayed in SERP
 
 #### Defined in
 
-main.ts:32133
+[main.ts:31991](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L31991)
 
 ___
 
@@ -113,7 +113,7 @@ title of the row
 
 #### Defined in
 
-main.ts:32126
+[main.ts:31984](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L31984)
 
 ___
 
@@ -129,7 +129,7 @@ type of element
 
 #### Defined in
 
-main.ts:32124
+[main.ts:31982](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L31982)
 
 ## Methods
 
@@ -149,7 +149,7 @@ main.ts:32124
 
 #### Defined in
 
-main.ts:32146
+[main.ts:32004](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L32004)
 
 ___
 
@@ -169,7 +169,7 @@ ___
 
 #### Defined in
 
-main.ts:32167
+[main.ts:32025](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L32025)
 
 ___
 
@@ -189,4 +189,4 @@ ___
 
 #### Defined in
 
-main.ts:32160
+[main.ts:32018](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L32018)

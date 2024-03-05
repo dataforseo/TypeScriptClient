@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IAppUserProfileInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IAppUserProfileInfo
 
 # Interface: IAppUserProfileInfo
 
@@ -27,7 +27,7 @@ URL to the reviewer’s profile image
 
 #### Defined in
 
-main.ts:181325
+[main.ts:181205](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L181205)
 
 ___
 
@@ -39,4 +39,4 @@ profile name of the reviewer
 
 #### Defined in
 
-main.ts:181323
+[main.ts:181203](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L181203)

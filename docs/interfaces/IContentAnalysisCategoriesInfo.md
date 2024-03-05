@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IContentAnalysisCategoriesInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IContentAnalysisCategoriesInfo
 
 # Interface: IContentAnalysisCategoriesInfo
 
@@ -25,7 +25,7 @@
 
 #### Defined in
 
-main.ts:21847
+[main.ts:21705](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L21705)
 
 ___
 
@@ -35,4 +35,4 @@ ___
 
 #### Defined in
 
-main.ts:21848
+[main.ts:21706](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L21706)

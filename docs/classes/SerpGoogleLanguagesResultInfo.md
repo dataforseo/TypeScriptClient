@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / SerpGoogleLanguagesResultInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / SerpGoogleLanguagesResultInfo
 
 # Class: SerpGoogleLanguagesResultInfo
 
@@ -45,7 +45,7 @@
 
 #### Defined in
 
-main.ts:24604
+[main.ts:24462](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L24462)
 
 ## Properties
 
@@ -61,7 +61,7 @@ language code according to ISO 639-1
 
 #### Defined in
 
-main.ts:24600
+[main.ts:24458](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L24458)
 
 ___
 
@@ -77,7 +77,7 @@ language name
 
 #### Defined in
 
-main.ts:24598
+[main.ts:24456](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L24456)
 
 ## Methods
 
@@ -97,7 +97,7 @@ main.ts:24598
 
 #### Defined in
 
-main.ts:24613
+[main.ts:24471](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L24471)
 
 ___
 
@@ -117,7 +117,7 @@ ___
 
 #### Defined in
 
-main.ts:24631
+[main.ts:24489](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L24489)
 
 ___
 
@@ -137,4 +137,4 @@ ___
 
 #### Defined in
 
-main.ts:24624
+[main.ts:24482](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L24482)

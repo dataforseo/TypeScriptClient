@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / AppendixBacklinksLimitsRatesDataInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / AppendixBacklinksLimitsRatesDataInfo
 
 # Class: AppendixBacklinksLimitsRatesDataInfo
 
@@ -63,7 +63,7 @@
 
 #### Defined in
 
-main.ts:208256
+[main.ts:208136](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L208136)
 
 ## Properties
 
@@ -77,7 +77,7 @@ main.ts:208256
 
 #### Defined in
 
-main.ts:208239
+[main.ts:208119](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L208119)
 
 ___
 
@@ -91,7 +91,7 @@ ___
 
 #### Defined in
 
-main.ts:208237
+[main.ts:208117](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L208117)
 
 ___
 
@@ -105,7 +105,7 @@ ___
 
 #### Defined in
 
-main.ts:208244
+[main.ts:208124](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L208124)
 
 ___
 
@@ -119,7 +119,7 @@ ___
 
 #### Defined in
 
-main.ts:208245
+[main.ts:208125](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L208125)
 
 ___
 
@@ -133,7 +133,7 @@ ___
 
 #### Defined in
 
-main.ts:208246
+[main.ts:208126](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L208126)
 
 ___
 
@@ -147,7 +147,7 @@ ___
 
 #### Defined in
 
-main.ts:208243
+[main.ts:208123](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L208123)
 
 ___
 
@@ -161,7 +161,7 @@ ___
 
 #### Defined in
 
-main.ts:208247
+[main.ts:208127](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L208127)
 
 ___
 
@@ -175,7 +175,7 @@ ___
 
 #### Defined in
 
-main.ts:208252
+[main.ts:208132](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L208132)
 
 ___
 
@@ -189,7 +189,7 @@ ___
 
 #### Defined in
 
-main.ts:208235
+[main.ts:208115](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L208115)
 
 ___
 
@@ -203,7 +203,7 @@ ___
 
 #### Defined in
 
-main.ts:208236
+[main.ts:208116](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L208116)
 
 ___
 
@@ -217,7 +217,7 @@ ___
 
 #### Defined in
 
-main.ts:208238
+[main.ts:208118](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L208118)
 
 ___
 
@@ -231,7 +231,7 @@ ___
 
 #### Defined in
 
-main.ts:208249
+[main.ts:208129](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L208129)
 
 ___
 
@@ -245,7 +245,7 @@ ___
 
 #### Defined in
 
-main.ts:208248
+[main.ts:208128](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L208128)
 
 ___
 
@@ -259,7 +259,7 @@ ___
 
 #### Defined in
 
-main.ts:208234
+[main.ts:208114](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L208114)
 
 ___
 
@@ -273,7 +273,7 @@ ___
 
 #### Defined in
 
-main.ts:208241
+[main.ts:208121](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L208121)
 
 ___
 
@@ -287,7 +287,7 @@ ___
 
 #### Defined in
 
-main.ts:208240
+[main.ts:208120](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L208120)
 
 ___
 
@@ -301,7 +301,7 @@ ___
 
 #### Defined in
 
-main.ts:208242
+[main.ts:208122](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L208122)
 
 ___
 
@@ -315,7 +315,7 @@ ___
 
 #### Defined in
 
-main.ts:208233
+[main.ts:208113](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L208113)
 
 ___
 
@@ -329,7 +329,7 @@ ___
 
 #### Defined in
 
-main.ts:208251
+[main.ts:208131](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L208131)
 
 ___
 
@@ -343,7 +343,7 @@ ___
 
 #### Defined in
 
-main.ts:208250
+[main.ts:208130](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L208130)
 
 ## Methods
 
@@ -363,7 +363,7 @@ main.ts:208250
 
 #### Defined in
 
-main.ts:208265
+[main.ts:208145](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L208145)
 
 ___
 
@@ -383,7 +383,7 @@ ___
 
 #### Defined in
 
-main.ts:208301
+[main.ts:208181](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L208181)
 
 ___
 
@@ -403,4 +403,4 @@ ___
 
 #### Defined in
 
-main.ts:208294
+[main.ts:208174](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L208174)

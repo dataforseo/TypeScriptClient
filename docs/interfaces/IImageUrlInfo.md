@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IImageUrlInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IImageUrlInfo
 
 # Interface: IImageUrlInfo
 
@@ -26,4 +26,4 @@ URL of the image used in the review
 
 #### Defined in
 
-main.ts:202499
+[main.ts:202379](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L202379)

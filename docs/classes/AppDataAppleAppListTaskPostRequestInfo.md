@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / AppDataAppleAppListTaskPostRequestInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / AppDataAppleAppListTaskPostRequestInfo
 
 # Class: AppDataAppleAppListTaskPostRequestInfo
 
@@ -55,7 +55,7 @@
 
 #### Defined in
 
-main.ts:185091
+[main.ts:184971](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L184971)
 
 ## Properties
 
@@ -76,7 +76,7 @@ you can review the full list of available categories here or by making a separat
 
 #### Defined in
 
-main.ts:185055
+[main.ts:184935](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L184935)
 
 ___
 
@@ -96,7 +96,7 @@ top_free_ios, top_paid_ios, top_grossing_ios, new_ios, new_free_ios, new_paid_io
 
 #### Defined in
 
-main.ts:185002
+[main.ts:184882](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L184882)
 
 ___
 
@@ -120,7 +120,7 @@ maximum value: 1000
 
 #### Defined in
 
-main.ts:185048
+[main.ts:184928](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L184928)
 
 ___
 
@@ -141,7 +141,7 @@ en
 
 #### Defined in
 
-main.ts:185030
+[main.ts:184910](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L184910)
 
 ___
 
@@ -162,7 +162,7 @@ English
 
 #### Defined in
 
-main.ts:185023
+[main.ts:184903](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L184903)
 
 ___
 
@@ -183,7 +183,7 @@ example:
 
 #### Defined in
 
-main.ts:185016
+[main.ts:184896](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L184896)
 
 ___
 
@@ -204,7 +204,7 @@ West Los Angeles,California,United States
 
 #### Defined in
 
-main.ts:185009
+[main.ts:184889](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L184889)
 
 ___
 
@@ -228,7 +228,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-main.ts:185087
+[main.ts:184967](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L184967)
 
 ___
 
@@ -248,7 +248,7 @@ advanced
 
 #### Defined in
 
-main.ts:185077
+[main.ts:184957](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L184957)
 
 ___
 
@@ -272,7 +272,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-main.ts:185071
+[main.ts:184951](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L184951)
 
 ___
 
@@ -294,7 +294,7 @@ The cost can be calculated on the Pricing page.
 
 #### Defined in
 
-main.ts:185038
+[main.ts:184918](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L184918)
 
 ___
 
@@ -314,7 +314,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:185061
+[main.ts:184941](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L184941)
 
 ## Methods
 
@@ -334,7 +334,7 @@ main.ts:185061
 
 #### Defined in
 
-main.ts:185100
+[main.ts:184980](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L184980)
 
 ___
 
@@ -354,7 +354,7 @@ ___
 
 #### Defined in
 
-main.ts:185128
+[main.ts:185008](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L185008)
 
 ___
 
@@ -374,4 +374,4 @@ ___
 
 #### Defined in
 
-main.ts:185121
+[main.ts:185001](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L185001)

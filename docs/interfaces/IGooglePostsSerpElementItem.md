@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IGooglePostsSerpElementItem
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IGooglePostsSerpElementItem
 
 # Interface: IGooglePostsSerpElementItem
 
@@ -39,7 +39,7 @@ google-defined client id
 
 #### Defined in
 
-main.ts:34543
+[main.ts:34401](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L34401)
 
 ___
 
@@ -51,7 +51,7 @@ the additional feature of the review
 
 #### Defined in
 
-main.ts:34541
+[main.ts:34399](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L34399)
 
 ___
 
@@ -65,7 +65,7 @@ left, right
 
 #### Defined in
 
-main.ts:34535
+[main.ts:34393](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L34393)
 
 ___
 
@@ -77,7 +77,7 @@ the identifier of the google_posts feature
 
 #### Defined in
 
-main.ts:34539
+[main.ts:34397](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L34397)
 
 ___
 
@@ -90,7 +90,7 @@ absolute position among all the elements in SERP
 
 #### Defined in
 
-main.ts:34531
+[main.ts:34389](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L34389)
 
 ___
 
@@ -104,7 +104,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-main.ts:34528
+[main.ts:34386](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L34386)
 
 ___
 
@@ -118,7 +118,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 #### Defined in
 
-main.ts:34547
+[main.ts:34405](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L34405)
 
 ___
 
@@ -130,4 +130,4 @@ the XPath of the element
 
 #### Defined in
 
-main.ts:34537
+[main.ts:34395](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L34395)

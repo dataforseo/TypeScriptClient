@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / AppDataAppStoreInfoOrganicSerpElementItem
+[dataforseo-client](../README.md) / [Exports](../modules.md) / AppDataAppStoreInfoOrganicSerpElementItem
 
 # Class: AppDataAppStoreInfoOrganicSerpElementItem
 
@@ -82,7 +82,7 @@
 
 #### Defined in
 
-main.ts:184561
+[main.ts:184441](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L184441)
 
 ## Properties
 
@@ -96,7 +96,7 @@ main.ts:184561
 
 #### Defined in
 
-main.ts:20450
+[main.ts:20450](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L20450)
 
 ___
 
@@ -112,7 +112,7 @@ age rating and age-based content advisories
 
 #### Defined in
 
-main.ts:184523
+[main.ts:184403](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L184403)
 
 ___
 
@@ -128,7 +128,7 @@ ID of the app
 
 #### Defined in
 
-main.ts:184499
+[main.ts:184379](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L184379)
 
 ___
 
@@ -144,7 +144,7 @@ all relevant categories/genres of the app
 
 #### Defined in
 
-main.ts:184519
+[main.ts:184399](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L184399)
 
 ___
 
@@ -160,7 +160,7 @@ description of the app
 
 #### Defined in
 
-main.ts:184507
+[main.ts:184387](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L184387)
 
 ___
 
@@ -176,7 +176,7 @@ name of the app developer
 
 #### Defined in
 
-main.ts:184525
+[main.ts:184405](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L184405)
 
 ___
 
@@ -192,7 +192,7 @@ ID of the app developer
 
 #### Defined in
 
-main.ts:184527
+[main.ts:184407](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L184407)
 
 ___
 
@@ -208,7 +208,7 @@ URL to the developer page on App Store
 
 #### Defined in
 
-main.ts:184529
+[main.ts:184409](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L184409)
 
 ___
 
@@ -224,7 +224,7 @@ URL to the app icon
 
 #### Defined in
 
-main.ts:184505
+[main.ts:184385](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L184385)
 
 ___
 
@@ -241,7 +241,7 @@ contains URLs to the images used on the app page on App Store
 
 #### Defined in
 
-main.ts:184551
+[main.ts:184431](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L184431)
 
 ___
 
@@ -257,7 +257,7 @@ indicates whether the app is free
 
 #### Defined in
 
-main.ts:184515
+[main.ts:184395](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L184395)
 
 ___
 
@@ -273,7 +273,7 @@ languages supported in the app
 
 #### Defined in
 
-main.ts:184521
+[main.ts:184401](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L184401)
 
 ___
 
@@ -292,7 +292,7 @@ example:
 
 #### Defined in
 
-main.ts:184545
+[main.ts:184425](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L184425)
 
 ___
 
@@ -308,7 +308,7 @@ main category/genre of the app
 
 #### Defined in
 
-main.ts:184517
+[main.ts:184397](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L184397)
 
 ___
 
@@ -324,7 +324,7 @@ minimum OS version required to install the app
 
 #### Defined in
 
-main.ts:184533
+[main.ts:184413](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L184413)
 
 ___
 
@@ -341,7 +341,7 @@ information about apps built by the same developer
 
 #### Defined in
 
-main.ts:184557
+[main.ts:184437](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L184437)
 
 ___
 
@@ -358,7 +358,7 @@ can take the following values: left
 
 #### Defined in
 
-main.ts:184497
+[main.ts:184377](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L184377)
 
 ___
 
@@ -374,7 +374,7 @@ price of the app
 
 #### Defined in
 
-main.ts:184513
+[main.ts:184393](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L184393)
 
 ___
 
@@ -391,7 +391,7 @@ absolute position among all apps on the list
 
 #### Defined in
 
-main.ts:184494
+[main.ts:184374](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L184374)
 
 ___
 
@@ -408,7 +408,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-main.ts:184491
+[main.ts:184371](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L184371)
 
 ___
 
@@ -424,7 +424,7 @@ average rating of the app
 
 #### Defined in
 
-main.ts:184511
+[main.ts:184391](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L184391)
 
 ___
 
@@ -443,7 +443,7 @@ example:
 
 #### Defined in
 
-main.ts:184540
+[main.ts:184420](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L184420)
 
 ___
 
@@ -459,7 +459,7 @@ the total number of reviews of the app
 
 #### Defined in
 
-main.ts:184509
+[main.ts:184389](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L184389)
 
 ___
 
@@ -476,7 +476,7 @@ displays apps similar to the app in a POST request
 
 #### Defined in
 
-main.ts:184554
+[main.ts:184434](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L184434)
 
 ___
 
@@ -492,7 +492,7 @@ size of the app
 
 #### Defined in
 
-main.ts:184535
+[main.ts:184415](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L184415)
 
 ___
 
@@ -508,7 +508,7 @@ title of the app
 
 #### Defined in
 
-main.ts:184501
+[main.ts:184381](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L184381)
 
 ___
 
@@ -525,7 +525,7 @@ contains the latest update notes from the developer
 
 #### Defined in
 
-main.ts:184548
+[main.ts:184428](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L184428)
 
 ___
 
@@ -541,7 +541,7 @@ URL to the app page on App Store
 
 #### Defined in
 
-main.ts:184503
+[main.ts:184383](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L184383)
 
 ___
 
@@ -557,7 +557,7 @@ current version of the app
 
 #### Defined in
 
-main.ts:184531
+[main.ts:184411](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L184411)
 
 ## Methods
 
@@ -581,7 +581,7 @@ main.ts:184531
 
 #### Defined in
 
-main.ts:184566
+[main.ts:184446](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L184446)
 
 ___
 
@@ -605,7 +605,7 @@ ___
 
 #### Defined in
 
-main.ts:184635
+[main.ts:184515](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L184515)
 
 ___
 
@@ -629,4 +629,4 @@ ___
 
 #### Defined in
 
-main.ts:184628
+[main.ts:184508](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L184508)

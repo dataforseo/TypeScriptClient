@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / ITrustpilotReviewSearchBusinessDataSerpElementItem
+[dataforseo-client](../README.md) / [Exports](../modules.md) / ITrustpilotReviewSearchBusinessDataSerpElementItem
 
 # Interface: ITrustpilotReviewSearchBusinessDataSerpElementItem
 
@@ -44,7 +44,7 @@ the language of the review
 
 #### Defined in
 
-main.ts:200196
+[main.ts:200076](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L200076)
 
 ___
 
@@ -57,7 +57,7 @@ can take the following values: right
 
 #### Defined in
 
-main.ts:200188
+[main.ts:200068](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L200068)
 
 ___
 
@@ -70,7 +70,7 @@ absolute position among all reviews on the list
 
 #### Defined in
 
-main.ts:200185
+[main.ts:200065](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L200065)
 
 ___
 
@@ -83,7 +83,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-main.ts:200182
+[main.ts:200062](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L200062)
 
 ___
 
@@ -95,7 +95,7 @@ the rating score submitted by the reviewer
 
 #### Defined in
 
-main.ts:200192
+[main.ts:200072](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L200072)
 
 ___
 
@@ -107,7 +107,7 @@ owner’s response to the submitted review
 
 #### Defined in
 
-main.ts:200213
+[main.ts:200093](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L200093)
 
 ___
 
@@ -121,7 +121,7 @@ please note that Trustpilot doesn’t allow adding images to reviews, so the rev
 
 #### Defined in
 
-main.ts:200209
+[main.ts:200089](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L200089)
 
 ___
 
@@ -133,7 +133,7 @@ the content of the review
 
 #### Defined in
 
-main.ts:200205
+[main.ts:200085](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L200085)
 
 ___
 
@@ -148,7 +148,7 @@ example:
 
 #### Defined in
 
-main.ts:200201
+[main.ts:200081](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L200081)
 
 ___
 
@@ -160,7 +160,7 @@ the title of the review
 
 #### Defined in
 
-main.ts:200203
+[main.ts:200083](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L200083)
 
 ___
 
@@ -172,7 +172,7 @@ the URL of the review
 
 #### Defined in
 
-main.ts:200190
+[main.ts:200070](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L200070)
 
 ___
 
@@ -184,7 +184,7 @@ user profile of the reviewer
 
 #### Defined in
 
-main.ts:200211
+[main.ts:200091](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L200091)
 
 ___
 
@@ -196,4 +196,4 @@ indicates whether the review has the “Verified” mark
 
 #### Defined in
 
-main.ts:200194
+[main.ts:200074](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L200074)

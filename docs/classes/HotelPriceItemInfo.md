@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / HotelPriceItemInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / HotelPriceItemInfo
 
 # Class: HotelPriceItemInfo
 
@@ -52,7 +52,7 @@
 
 #### Defined in
 
-main.ts:193715
+[main.ts:193595](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L193595)
 
 ## Properties
 
@@ -69,7 +69,7 @@ USD is applied by default, unless specified in the POST array
 
 #### Defined in
 
-main.ts:193695
+[main.ts:193575](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L193575)
 
 ___
 
@@ -86,7 +86,7 @@ domain of the third-party website page with pricing information
 
 #### Defined in
 
-main.ts:193701
+[main.ts:193581](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L193581)
 
 ___
 
@@ -104,7 +104,7 @@ equals null if free cancellation is not available for the selected dates
 
 #### Defined in
 
-main.ts:193709
+[main.ts:193589](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L193589)
 
 ___
 
@@ -122,7 +122,7 @@ if false, related hotel_search_item is an organic hotel listing
 
 #### Defined in
 
-main.ts:193705
+[main.ts:193585](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L193585)
 
 ___
 
@@ -138,7 +138,7 @@ featured price offers
 
 #### Defined in
 
-main.ts:193711
+[main.ts:193591](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L193591)
 
 ___
 
@@ -154,7 +154,7 @@ price per night
 
 #### Defined in
 
-main.ts:193692
+[main.ts:193572](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L193572)
 
 ___
 
@@ -170,7 +170,7 @@ title of the hotel
 
 #### Defined in
 
-main.ts:193690
+[main.ts:193570](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L193570)
 
 ___
 
@@ -186,7 +186,7 @@ type of element
 
 #### Defined in
 
-main.ts:193688
+[main.ts:193568](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L193568)
 
 ___
 
@@ -203,7 +203,7 @@ URL to the third-party website page with pricing information
 
 #### Defined in
 
-main.ts:193698
+[main.ts:193578](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L193578)
 
 ## Methods
 
@@ -223,7 +223,7 @@ main.ts:193698
 
 #### Defined in
 
-main.ts:193724
+[main.ts:193604](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L193604)
 
 ___
 
@@ -243,7 +243,7 @@ ___
 
 #### Defined in
 
-main.ts:193753
+[main.ts:193633](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L193633)
 
 ___
 
@@ -263,4 +263,4 @@ ___
 
 #### Defined in
 
-main.ts:193746
+[main.ts:193626](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L193626)

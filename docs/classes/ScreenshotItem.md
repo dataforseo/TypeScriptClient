@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / ScreenshotItem
+[dataforseo-client](../README.md) / [Exports](../modules.md) / ScreenshotItem
 
 # Class: ScreenshotItem
 
@@ -44,7 +44,7 @@
 
 #### Defined in
 
-main.ts:23648
+[main.ts:23506](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L23506)
 
 ## Properties
 
@@ -62,7 +62,7 @@ note: the page screenshot saved on the DataForSEO storage only remains accessibl
 
 #### Defined in
 
-main.ts:23644
+[main.ts:23502](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L23502)
 
 ## Methods
 
@@ -82,7 +82,7 @@ main.ts:23644
 
 #### Defined in
 
-main.ts:23657
+[main.ts:23515](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L23515)
 
 ___
 
@@ -102,7 +102,7 @@ ___
 
 #### Defined in
 
-main.ts:23674
+[main.ts:23532](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L23532)
 
 ___
 
@@ -122,4 +122,4 @@ ___
 
 #### Defined in
 
-main.ts:23667
+[main.ts:23525](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L23525)

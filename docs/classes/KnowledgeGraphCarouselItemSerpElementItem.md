@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / KnowledgeGraphCarouselItemSerpElementItem
+[dataforseo-client](../README.md) / [Exports](../modules.md) / KnowledgeGraphCarouselItemSerpElementItem
 
 # Class: KnowledgeGraphCarouselItemSerpElementItem
 
@@ -63,7 +63,7 @@
 
 #### Defined in
 
-main.ts:26373
+[main.ts:26231](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L26231)
 
 ## Properties
 
@@ -77,7 +77,7 @@ main.ts:26373
 
 #### Defined in
 
-main.ts:19337
+[main.ts:19337](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L19337)
 
 ___
 
@@ -95,7 +95,7 @@ action:listen_artist
 
 #### Defined in
 
-main.ts:26361
+[main.ts:26219](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L26219)
 
 ___
 
@@ -111,7 +111,7 @@ elements of search results found in SERP
 
 #### Defined in
 
-main.ts:26365
+[main.ts:26223](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L26223)
 
 ___
 
@@ -127,7 +127,7 @@ link of the element
 
 #### Defined in
 
-main.ts:26363
+[main.ts:26221](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L26221)
 
 ___
 
@@ -145,7 +145,7 @@ left, right
 
 #### Defined in
 
-main.ts:26353
+[main.ts:26211](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L26211)
 
 ___
 
@@ -162,7 +162,7 @@ absolute position among all the elements in SERP
 
 #### Defined in
 
-main.ts:26349
+[main.ts:26207](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L26207)
 
 ___
 
@@ -180,7 +180,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-main.ts:26346
+[main.ts:26204](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L26204)
 
 ___
 
@@ -198,7 +198,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 #### Defined in
 
-main.ts:26369
+[main.ts:26227](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L26227)
 
 ___
 
@@ -214,7 +214,7 @@ title of the result in SERP
 
 #### Defined in
 
-main.ts:26357
+[main.ts:26215](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L26215)
 
 ___
 
@@ -230,7 +230,7 @@ the XPath of the element
 
 #### Defined in
 
-main.ts:26355
+[main.ts:26213](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L26213)
 
 ## Methods
 
@@ -254,7 +254,7 @@ main.ts:26355
 
 #### Defined in
 
-main.ts:26378
+[main.ts:26236](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L26236)
 
 ___
 
@@ -278,7 +278,7 @@ ___
 
 #### Defined in
 
-main.ts:26408
+[main.ts:26266](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L26266)
 
 ___
 
@@ -302,4 +302,4 @@ ___
 
 #### Defined in
 
-main.ts:26401
+[main.ts:26259](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L26259)

@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IAppDataAppleAppListingsSearchLiveResultInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IAppDataAppleAppListingsSearchLiveResultInfo
 
 # Interface: IAppDataAppleAppListingsSearchLiveResultInfo
 
@@ -30,7 +30,7 @@ the number of items in the results array
 
 #### Defined in
 
-main.ts:187140
+[main.ts:187020](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L187020)
 
 ___
 
@@ -42,7 +42,7 @@ array of apps and related data
 
 #### Defined in
 
-main.ts:187147
+[main.ts:187027](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L187027)
 
 ___
 
@@ -54,7 +54,7 @@ offset in the results array of returned apps
 
 #### Defined in
 
-main.ts:187142
+[main.ts:187022](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L187022)
 
 ___
 
@@ -67,7 +67,7 @@ you can use this parameter in the POST request to avoid timeouts while trying to
 
 #### Defined in
 
-main.ts:187145
+[main.ts:187025](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L187025)
 
 ___
 
@@ -79,4 +79,4 @@ the total number of relevant results in the database
 
 #### Defined in
 
-main.ts:187138
+[main.ts:187018](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L187018)

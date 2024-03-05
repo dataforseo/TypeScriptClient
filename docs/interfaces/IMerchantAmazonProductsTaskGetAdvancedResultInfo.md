@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IMerchantAmazonProductsTaskGetAdvancedResultInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IMerchantAmazonProductsTaskGetAdvancedResultInfo
 
 # Interface: IMerchantAmazonProductsTaskGetAdvancedResultInfo
 
@@ -38,7 +38,7 @@ amazon product departments and subcategories
 
 #### Defined in
 
-main.ts:171549
+[main.ts:171429](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L171429)
 
 ___
 
@@ -51,7 +51,7 @@ you can use it to make sure that we provided accurate results
 
 #### Defined in
 
-main.ts:171532
+[main.ts:171412](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L171412)
 
 ___
 
@@ -66,7 +66,7 @@ example:
 
 #### Defined in
 
-main.ts:171537
+[main.ts:171417](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L171417)
 
 ___
 
@@ -81,7 +81,7 @@ amazon_serp, amazon_paid, editorial_recommendations, top_rated_from_our_brands, 
 
 #### Defined in
 
-main.ts:171545
+[main.ts:171425](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L171425)
 
 ___
 
@@ -93,7 +93,7 @@ Amazon product items within the editorial_recommendations element
 
 #### Defined in
 
-main.ts:171553
+[main.ts:171433](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L171433)
 
 ___
 
@@ -105,7 +105,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:171551
+[main.ts:171431](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L171431)
 
 ___
 
@@ -118,7 +118,7 @@ keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a s
 
 #### Defined in
 
-main.ts:171521
+[main.ts:171401](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L171401)
 
 ___
 
@@ -130,7 +130,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:171529
+[main.ts:171409](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L171409)
 
 ___
 
@@ -142,7 +142,7 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:171527
+[main.ts:171407](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L171407)
 
 ___
 
@@ -154,7 +154,7 @@ search engine domain in a POST array
 
 #### Defined in
 
-main.ts:171525
+[main.ts:171405](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L171405)
 
 ___
 
@@ -166,7 +166,7 @@ search engine results count
 
 #### Defined in
 
-main.ts:171547
+[main.ts:171427](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L171427)
 
 ___
 
@@ -179,7 +179,7 @@ if the search engine provided results for a keyword that was corrected, we will 
 
 #### Defined in
 
-main.ts:171540
+[main.ts:171420](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L171420)
 
 ___
 
@@ -191,4 +191,4 @@ type of element
 
 #### Defined in
 
-main.ts:171523
+[main.ts:171403](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L171403)

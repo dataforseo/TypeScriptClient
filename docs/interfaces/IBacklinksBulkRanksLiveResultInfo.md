@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IBacklinksBulkRanksLiveResultInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IBacklinksBulkRanksLiveResultInfo
 
 # Interface: IBacklinksBulkRanksLiveResultInfo
 
@@ -27,7 +27,7 @@ contains relevant backlinks and referring domains data
 
 #### Defined in
 
-main.ts:139666
+[main.ts:139522](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L139522)
 
 ___
 
@@ -39,4 +39,4 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:139664
+[main.ts:139520](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L139520)

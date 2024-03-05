@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / ISerpSeznamOrganicTasksFixedResultInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / ISerpSeznamOrganicTasksFixedResultInfo
 
 # Interface: ISerpSeznamOrganicTasksFixedResultInfo
 
@@ -33,7 +33,7 @@ date when the task was fixed (in the UTC format)
 
 #### Defined in
 
-main.ts:70134
+[main.ts:69990](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L69990)
 
 ___
 
@@ -46,7 +46,7 @@ if SERP Advanced is not supported in the specified endpoint, the value will be n
 
 #### Defined in
 
-main.ts:70142
+[main.ts:69998](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L69998)
 
 ___
 
@@ -59,7 +59,7 @@ if SERP HTML is not supported in the specified endpoint, the value will be null
 
 #### Defined in
 
-main.ts:70145
+[main.ts:70001](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L70001)
 
 ___
 
@@ -72,7 +72,7 @@ if SERP Regular is not supported in the specified endpoint, the value will be nu
 
 #### Defined in
 
-main.ts:70139
+[main.ts:69995](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L69995)
 
 ___
 
@@ -85,7 +85,7 @@ unique task identifier in our system in the UUID format
 
 #### Defined in
 
-main.ts:70127
+[main.ts:69983](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L69983)
 
 ___
 
@@ -97,7 +97,7 @@ search engine specified when setting the task
 
 #### Defined in
 
-main.ts:70129
+[main.ts:69985](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L69985)
 
 ___
 
@@ -110,7 +110,7 @@ can take the following values: organic
 
 #### Defined in
 
-main.ts:70132
+[main.ts:69988](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L69988)
 
 ___
 
@@ -122,4 +122,4 @@ user-defined task identifier
 
 #### Defined in
 
-main.ts:70136
+[main.ts:69992](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L69992)

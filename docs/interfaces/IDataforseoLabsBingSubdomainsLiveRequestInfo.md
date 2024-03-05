@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IDataforseoLabsBingSubdomainsLiveRequestInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IDataforseoLabsBingSubdomainsLiveRequestInfo
 
 # Interface: IDataforseoLabsBingSubdomainsLiveRequestInfo
 
@@ -49,7 +49,7 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 #### Defined in
 
-main.ts:107686
+[main.ts:107542](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L107542)
 
 ___
 
@@ -68,7 +68,7 @@ default value: live
 
 #### Defined in
 
-main.ts:107672
+[main.ts:107528](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L107528)
 
 ___
 
@@ -87,7 +87,7 @@ default value:
 
 #### Defined in
 
-main.ts:107663
+[main.ts:107519](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L107519)
 
 ___
 
@@ -106,7 +106,7 @@ en
 
 #### Defined in
 
-main.ts:107654
+[main.ts:107510](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L107510)
 
 ___
 
@@ -125,7 +125,7 @@ English
 
 #### Defined in
 
-main.ts:107645
+[main.ts:107501](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L107501)
 
 ___
 
@@ -140,7 +140,7 @@ maximum value: 1000
 
 #### Defined in
 
-main.ts:107708
+[main.ts:107564](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L107564)
 
 ___
 
@@ -160,7 +160,7 @@ example:
 
 #### Defined in
 
-main.ts:107636
+[main.ts:107492](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L107492)
 
 ___
 
@@ -180,7 +180,7 @@ United States
 
 #### Defined in
 
-main.ts:107626
+[main.ts:107482](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L107482)
 
 ___
 
@@ -195,7 +195,7 @@ if you specify the 10 value, the first ten keywords in the results array will be
 
 #### Defined in
 
-main.ts:107713
+[main.ts:107569](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L107569)
 
 ___
 
@@ -222,7 +222,7 @@ Note: if the item_types array contains item types that are different from organi
 
 #### Defined in
 
-main.ts:107703
+[main.ts:107559](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L107559)
 
 ___
 
@@ -238,7 +238,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:107719
+[main.ts:107575](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L107575)
 
 ___
 
@@ -253,4 +253,4 @@ the domain should be specified without https:// and www.
 
 #### Defined in
 
-main.ts:107616
+[main.ts:107472](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L107472)

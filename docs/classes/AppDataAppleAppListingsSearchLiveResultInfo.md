@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / AppDataAppleAppListingsSearchLiveResultInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / AppDataAppleAppListingsSearchLiveResultInfo
 
 # Class: AppDataAppleAppListingsSearchLiveResultInfo
 
@@ -48,7 +48,7 @@
 
 #### Defined in
 
-main.ts:187083
+[main.ts:186963](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L186963)
 
 ## Properties
 
@@ -64,7 +64,7 @@ the number of items in the results array
 
 #### Defined in
 
-main.ts:187072
+[main.ts:186952](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L186952)
 
 ___
 
@@ -80,7 +80,7 @@ array of apps and related data
 
 #### Defined in
 
-main.ts:187079
+[main.ts:186959](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L186959)
 
 ___
 
@@ -96,7 +96,7 @@ offset in the results array of returned apps
 
 #### Defined in
 
-main.ts:187074
+[main.ts:186954](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L186954)
 
 ___
 
@@ -113,7 +113,7 @@ you can use this parameter in the POST request to avoid timeouts while trying to
 
 #### Defined in
 
-main.ts:187077
+[main.ts:186957](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L186957)
 
 ___
 
@@ -129,7 +129,7 @@ the total number of relevant results in the database
 
 #### Defined in
 
-main.ts:187070
+[main.ts:186950](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L186950)
 
 ## Methods
 
@@ -149,7 +149,7 @@ main.ts:187070
 
 #### Defined in
 
-main.ts:187092
+[main.ts:186972](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L186972)
 
 ___
 
@@ -169,7 +169,7 @@ ___
 
 #### Defined in
 
-main.ts:187117
+[main.ts:186997](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L186997)
 
 ___
 
@@ -189,4 +189,4 @@ ___
 
 #### Defined in
 
-main.ts:187110
+[main.ts:186990](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L186990)

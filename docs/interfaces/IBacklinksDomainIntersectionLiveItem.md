@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IBacklinksDomainIntersectionLiveItem
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IBacklinksDomainIntersectionLiveItem
 
 # Interface: IBacklinksDomainIntersectionLiveItem
 
@@ -32,7 +32,7 @@ data is provided in separate objects corresponding to domains, subdomains or pag
 
 #### Defined in
 
-main.ts:137272
+[main.ts:137128](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L137128)
 
 ___
 
@@ -44,4 +44,4 @@ contains the domain intersections summary
 
 #### Defined in
 
-main.ts:137274
+[main.ts:137130](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L137130)

@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IGoogleShoppingPaidMerchantSerpElementItem
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IGoogleShoppingPaidMerchantSerpElementItem
 
 # Interface: IGoogleShoppingPaidMerchantSerpElementItem
 
@@ -40,7 +40,7 @@ description of the product in Google Shopping SERP
 
 #### Defined in
 
-main.ts:165151
+[main.ts:165031](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L165031)
 
 ___
 
@@ -52,7 +52,7 @@ domain in SERP
 
 #### Defined in
 
-main.ts:165147
+[main.ts:165027](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L165027)
 
 ___
 
@@ -66,7 +66,7 @@ left, right
 
 #### Defined in
 
-main.ts:165143
+[main.ts:165023](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L165023)
 
 ___
 
@@ -79,7 +79,7 @@ absolute position among all the elements found in Google Shopping SERP
 
 #### Defined in
 
-main.ts:165139
+[main.ts:165019](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L165019)
 
 ___
 
@@ -92,7 +92,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-main.ts:165136
+[main.ts:165016](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L165016)
 
 ___
 
@@ -105,7 +105,7 @@ using this parameter you can get a URL of the advertisement in Google Shopping S
 
 #### Defined in
 
-main.ts:165156
+[main.ts:165036](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L165036)
 
 ___
 
@@ -117,7 +117,7 @@ product title
 
 #### Defined in
 
-main.ts:165149
+[main.ts:165029](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L165029)
 
 ___
 
@@ -129,7 +129,7 @@ URL to the product page on the seller’s website
 
 #### Defined in
 
-main.ts:165153
+[main.ts:165033](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L165033)
 
 ___
 
@@ -141,4 +141,4 @@ XPath of the element
 
 #### Defined in
 
-main.ts:165145
+[main.ts:165025](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L165025)

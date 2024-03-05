@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / ICrawlStatusInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / ICrawlStatusInfo
 
 # Interface: ICrawlStatusInfo
 
@@ -29,7 +29,7 @@ indicates the max_crawl_pages limit you specified when setting a task
 
 #### Defined in
 
-main.ts:20972
+[main.ts:20972](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L20972)
 
 ___
 
@@ -41,7 +41,7 @@ number of crawled pages
 
 #### Defined in
 
-main.ts:20976
+[main.ts:20976](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L20976)
 
 ___
 
@@ -53,4 +53,4 @@ number of pages that are currently in the crawling queue
 
 #### Defined in
 
-main.ts:20974
+[main.ts:20974](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L20974)

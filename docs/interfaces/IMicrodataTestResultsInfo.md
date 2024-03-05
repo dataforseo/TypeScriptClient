@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IMicrodataTestResultsInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IMicrodataTestResultsInfo
 
 # Interface: IMicrodataTestResultsInfo
 
@@ -28,7 +28,7 @@ can take the following values: fatal, error, warning, info
 
 #### Defined in
 
-main.ts:150843
+[main.ts:150699](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L150699)
 
 ___
 
@@ -41,4 +41,4 @@ message providing the details of the detected error
 
 #### Defined in
 
-main.ts:150846
+[main.ts:150702](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L150702)

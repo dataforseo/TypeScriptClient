@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IDomainAnalyticsWhoisAvailableFiltersResultInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IDomainAnalyticsWhoisAvailableFiltersResultInfo
 
 # Interface: IDomainAnalyticsWhoisAvailableFiltersResultInfo
 
@@ -28,4 +28,4 @@
 
 #### Defined in
 
-main.ts:75607
+[main.ts:75463](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L75463)

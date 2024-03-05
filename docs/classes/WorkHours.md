@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / WorkHours
+[dataforseo-client](../README.md) / [Exports](../modules.md) / WorkHours
 
 # Class: WorkHours
 
@@ -45,7 +45,7 @@
 
 #### Defined in
 
-main.ts:38439
+[main.ts:38297](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L38297)
 
 ## Properties
 
@@ -62,7 +62,7 @@ indicates whether the establishment is opened or closed
 
 #### Defined in
 
-main.ts:38435
+[main.ts:38293](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L38293)
 
 ___
 
@@ -82,7 +82,7 @@ work hours timetable
 
 #### Defined in
 
-main.ts:38432
+[main.ts:38290](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L38290)
 
 ## Methods
 
@@ -102,7 +102,7 @@ main.ts:38432
 
 #### Defined in
 
-main.ts:38448
+[main.ts:38306](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L38306)
 
 ___
 
@@ -122,7 +122,7 @@ ___
 
 #### Defined in
 
-main.ts:38472
+[main.ts:38330](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L38330)
 
 ___
 
@@ -142,4 +142,4 @@ ___
 
 #### Defined in
 
-main.ts:38465
+[main.ts:38323](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L38323)

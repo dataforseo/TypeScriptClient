@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IAppDataAppleAppListTaskGetAdvancedResultInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IAppDataAppleAppListTaskGetAdvancedResultInfo
 
 # Interface: IAppDataAppleAppListTaskGetAdvancedResultInfo
 
@@ -35,7 +35,7 @@ in this case, the value will be null
 
 #### Defined in
 
-main.ts:185644
+[main.ts:185524](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L185524)
 
 ___
 
@@ -50,7 +50,7 @@ example:
 
 #### Defined in
 
-main.ts:185649
+[main.ts:185529](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L185529)
 
 ___
 
@@ -63,7 +63,7 @@ you can get more results by using the depth parameter when setting a task
 
 #### Defined in
 
-main.ts:185657
+[main.ts:185537](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L185537)
 
 ___
 
@@ -76,7 +76,7 @@ you can get more results by using the depth parameter when setting a task
 
 #### Defined in
 
-main.ts:185654
+[main.ts:185534](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L185534)
 
 ___
 
@@ -88,7 +88,7 @@ app collection received in a POST array
 
 #### Defined in
 
-main.ts:185635
+[main.ts:185515](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L185515)
 
 ___
 
@@ -100,7 +100,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:185641
+[main.ts:185521](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L185521)
 
 ___
 
@@ -112,7 +112,7 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:185639
+[main.ts:185519](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L185519)
 
 ___
 
@@ -124,7 +124,7 @@ search engine domain in a POST array
 
 #### Defined in
 
-main.ts:185637
+[main.ts:185517](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L185517)
 
 ___
 
@@ -136,4 +136,4 @@ the total number of results
 
 #### Defined in
 
-main.ts:185651
+[main.ts:185531](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L185531)

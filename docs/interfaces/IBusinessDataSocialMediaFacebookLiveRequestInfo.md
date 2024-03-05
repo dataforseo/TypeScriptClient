@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IBusinessDataSocialMediaFacebookLiveRequestInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IBusinessDataSocialMediaFacebookLiveRequestInfo
 
 # Interface: IBusinessDataSocialMediaFacebookLiveRequestInfo
 
@@ -31,7 +31,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:206079
+[main.ts:205959](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L205959)
 
 ___
 
@@ -48,4 +48,4 @@ Note: you can specify 10 targets maximum. You will be charged per earch URL you 
 
 #### Defined in
 
-main.ts:206073
+[main.ts:205953](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L205953)

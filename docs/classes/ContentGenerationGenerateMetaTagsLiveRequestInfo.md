@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / ContentGenerationGenerateMetaTagsLiveRequestInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / ContentGenerationGenerateMetaTagsLiveRequestInfo
 
 # Class: ContentGenerationGenerateMetaTagsLiveRequestInfo
 
@@ -46,7 +46,7 @@
 
 #### Defined in
 
-main.ts:160712
+[main.ts:160592](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L160592)
 
 ## Properties
 
@@ -67,7 +67,7 @@ learn more about this parameter on our help center
 
 #### Defined in
 
-main.ts:160702
+[main.ts:160582](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L160582)
 
 ___
 
@@ -87,7 +87,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:160708
+[main.ts:160588](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L160588)
 
 ___
 
@@ -107,7 +107,7 @@ learn more about tokens on our help center
 
 #### Defined in
 
-main.ts:160695
+[main.ts:160575](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L160575)
 
 ## Methods
 
@@ -127,7 +127,7 @@ main.ts:160695
 
 #### Defined in
 
-main.ts:160721
+[main.ts:160601](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L160601)
 
 ___
 
@@ -147,7 +147,7 @@ ___
 
 #### Defined in
 
-main.ts:160740
+[main.ts:160620](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L160620)
 
 ___
 
@@ -167,4 +167,4 @@ ___
 
 #### Defined in
 
-main.ts:160733
+[main.ts:160613](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L160613)

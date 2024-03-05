@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IContentAnalysisPhraseTrendsLiveRequestInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IContentAnalysisPhraseTrendsLiveRequestInfo
 
 # Interface: IContentAnalysisPhraseTrendsLiveRequestInfo
 
@@ -39,7 +39,7 @@ example:
 
 #### Defined in
 
-main.ts:158927
+[main.ts:158807](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L158807)
 
 ___
 
@@ -54,7 +54,7 @@ possible values: day, week, month
 
 #### Defined in
 
-main.ts:158939
+[main.ts:158819](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L158819)
 
 ___
 
@@ -71,7 +71,7 @@ example:
 
 #### Defined in
 
-main.ts:158934
+[main.ts:158814](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L158814)
 
 ___
 
@@ -98,7 +98,7 @@ for more information about filters, please refer to Content Analysis API – Fil
 
 #### Defined in
 
-main.ts:158956
+[main.ts:158836](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L158836)
 
 ___
 
@@ -119,7 +119,7 @@ maximum value: 20
 
 #### Defined in
 
-main.ts:158921
+[main.ts:158801](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L158801)
 
 ___
 
@@ -138,7 +138,7 @@ example:
 
 #### Defined in
 
-main.ts:158885
+[main.ts:158765](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L158765)
 
 ___
 
@@ -164,7 +164,7 @@ example:
 
 #### Defined in
 
-main.ts:158897
+[main.ts:158777](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L158777)
 
 ___
 
@@ -180,7 +180,7 @@ possible values:
 
 #### Defined in
 
-main.ts:158903
+[main.ts:158783](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L158783)
 
 ___
 
@@ -197,7 +197,7 @@ default value: as_is
 
 #### Defined in
 
-main.ts:158910
+[main.ts:158790](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L158790)
 
 ___
 
@@ -213,4 +213,4 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:158962
+[main.ts:158842](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L158842)

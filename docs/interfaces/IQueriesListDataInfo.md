@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IQueriesListDataInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IQueriesListDataInfo
 
 # Interface: IQueriesListDataInfo
 
@@ -28,7 +28,7 @@ represents the list of related topics with the biggest increase in search freque
 
 #### Defined in
 
-main.ts:121262
+[main.ts:121118](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L121118)
 
 ___
 
@@ -41,4 +41,4 @@ represents the list of the most popular related topics
 
 #### Defined in
 
-main.ts:121259
+[main.ts:121115](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L121115)

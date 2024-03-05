@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / OnPageErrorsRequestInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / OnPageErrorsRequestInfo
 
 # Class: OnPageErrorsRequestInfo
 
@@ -48,7 +48,7 @@
 
 #### Defined in
 
-main.ts:141961
+[main.ts:141817](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L141817)
 
 ## Properties
 
@@ -69,7 +69,7 @@ example:
 
 #### Defined in
 
-main.ts:141950
+[main.ts:141806](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L141806)
 
 ___
 
@@ -90,7 +90,7 @@ example:
 
 #### Defined in
 
-main.ts:141957
+[main.ts:141813](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L141813)
 
 ___
 
@@ -110,7 +110,7 @@ example: on_page/task_post, postback_url, pingback_url
 
 #### Defined in
 
-main.ts:141943
+[main.ts:141799](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L141799)
 
 ___
 
@@ -129,7 +129,7 @@ maximum value: 1000
 
 #### Defined in
 
-main.ts:141932
+[main.ts:141788](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L141788)
 
 ___
 
@@ -148,7 +148,7 @@ if you specify the 10 value, the first ten tasks in the results array will be om
 
 #### Defined in
 
-main.ts:141937
+[main.ts:141793](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L141793)
 
 ## Methods
 
@@ -168,7 +168,7 @@ main.ts:141937
 
 #### Defined in
 
-main.ts:141970
+[main.ts:141826](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L141826)
 
 ___
 
@@ -188,7 +188,7 @@ ___
 
 #### Defined in
 
-main.ts:141991
+[main.ts:141847](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L141847)
 
 ___
 
@@ -208,4 +208,4 @@ ___
 
 #### Defined in
 
-main.ts:141984
+[main.ts:141840](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L141840)

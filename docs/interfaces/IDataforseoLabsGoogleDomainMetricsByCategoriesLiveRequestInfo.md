@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IDataforseoLabsGoogleDomainMetricsByCategoriesLiveRequestInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IDataforseoLabsGoogleDomainMetricsByCategoriesLiveRequestInfo
 
 # Interface: IDataforseoLabsGoogleDomainMetricsByCategoriesLiveRequestInfo
 
@@ -46,7 +46,7 @@ you can download the full list of possible categories
 
 #### Defined in
 
-main.ts:84628
+[main.ts:84484](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L84484)
 
 ___
 
@@ -63,7 +63,7 @@ Note: we do not recommend setting correlate to false
 
 #### Defined in
 
-main.ts:84719
+[main.ts:84575](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L84575)
 
 ___
 
@@ -77,7 +77,7 @@ if specified, the API will return only domains with organic_etv lesser than the 
 
 #### Defined in
 
-main.ts:84712
+[main.ts:84568](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L84568)
 
 ___
 
@@ -91,7 +91,7 @@ if specified, the API will return only domains with organic_etv greater than the
 
 #### Defined in
 
-main.ts:84708
+[main.ts:84564](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L84564)
 
 ___
 
@@ -112,7 +112,7 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 #### Defined in
 
-main.ts:84740
+[main.ts:84596](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L84596)
 
 ___
 
@@ -133,7 +133,7 @@ minimum date: "2020-10-01"
 
 #### Defined in
 
-main.ts:84639
+[main.ts:84495](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L84495)
 
 ___
 
@@ -149,7 +149,7 @@ default value: true
 
 #### Defined in
 
-main.ts:84704
+[main.ts:84560](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L84560)
 
 ___
 
@@ -168,7 +168,7 @@ default value:
 
 #### Defined in
 
-main.ts:84690
+[main.ts:84546](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L84546)
 
 ___
 
@@ -185,7 +185,7 @@ en
 
 #### Defined in
 
-main.ts:84681
+[main.ts:84537](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L84537)
 
 ___
 
@@ -203,7 +203,7 @@ English
 
 #### Defined in
 
-main.ts:84674
+[main.ts:84530](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L84530)
 
 ___
 
@@ -218,7 +218,7 @@ maximum value: 1000
 
 #### Defined in
 
-main.ts:84724
+[main.ts:84580](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L84580)
 
 ___
 
@@ -236,7 +236,7 @@ example:
 
 #### Defined in
 
-main.ts:84666
+[main.ts:84522](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L84522)
 
 ___
 
@@ -254,7 +254,7 @@ United Kingdom
 
 #### Defined in
 
-main.ts:84658
+[main.ts:84514](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L84514)
 
 ___
 
@@ -269,7 +269,7 @@ if you specify the 10 value, the first ten domains in the results array will be 
 
 #### Defined in
 
-main.ts:84729
+[main.ts:84585](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L84585)
 
 ___
 
@@ -294,7 +294,7 @@ example:
 
 #### Defined in
 
-main.ts:84755
+[main.ts:84611](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L84611)
 
 ___
 
@@ -315,7 +315,7 @@ minimum date: "2020-10-01"
 
 #### Defined in
 
-main.ts:84650
+[main.ts:84506](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L84506)
 
 ___
 
@@ -331,7 +331,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:84761
+[main.ts:84617](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L84617)
 
 ___
 
@@ -349,4 +349,4 @@ maximum value: 5
 
 #### Defined in
 
-main.ts:84698
+[main.ts:84554](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L84554)

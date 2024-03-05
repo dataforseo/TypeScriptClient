@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / Redirect
+[dataforseo-client](../README.md) / [Exports](../modules.md) / Redirect
 
 # Class: Redirect
 
@@ -46,7 +46,7 @@
 
 #### Defined in
 
-main.ts:131099
+[main.ts:130955](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L130955)
 
 ## Properties
 
@@ -62,7 +62,7 @@ HTTP status code of the URL
 
 #### Defined in
 
-main.ts:131093
+[main.ts:130949](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L130949)
 
 ___
 
@@ -78,7 +78,7 @@ type of element
 
 #### Defined in
 
-main.ts:131091
+[main.ts:130947](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L130947)
 
 ___
 
@@ -94,7 +94,7 @@ indirect link URL
 
 #### Defined in
 
-main.ts:131095
+[main.ts:130951](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L130951)
 
 ## Methods
 
@@ -114,7 +114,7 @@ main.ts:131095
 
 #### Defined in
 
-main.ts:131108
+[main.ts:130964](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L130964)
 
 ___
 
@@ -134,7 +134,7 @@ ___
 
 #### Defined in
 
-main.ts:131127
+[main.ts:130983](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L130983)
 
 ___
 
@@ -154,4 +154,4 @@ ___
 
 #### Defined in
 
-main.ts:131120
+[main.ts:130976](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L130976)

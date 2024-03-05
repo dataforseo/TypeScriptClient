@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IBusinessDataBusinessListingsLocationsResultInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IBusinessDataBusinessListingsLocationsResultInfo
 
 # Interface: IBusinessDataBusinessListingsLocationsResultInfo
 
@@ -28,7 +28,7 @@ number of businesses in this location in our database
 
 #### Defined in
 
-main.ts:188009
+[main.ts:187889](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L187889)
 
 ___
 
@@ -40,7 +40,7 @@ ISO country code of the location
 
 #### Defined in
 
-main.ts:188007
+[main.ts:187887](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L187887)
 
 ___
 
@@ -52,4 +52,4 @@ full name of the location
 
 #### Defined in
 
-main.ts:188005
+[main.ts:187885](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L187885)

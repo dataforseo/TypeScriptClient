@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / BusinessDataGoogleHotelInfoLiveAdvancedRequestInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / BusinessDataGoogleHotelInfoLiveAdvancedRequestInfo
 
 # Class: BusinessDataGoogleHotelInfoLiveAdvancedRequestInfo
 
@@ -55,7 +55,7 @@
 
 #### Defined in
 
-main.ts:196741
+[main.ts:196621](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L196621)
 
 ## Properties
 
@@ -75,7 +75,7 @@ example:
 
 #### Defined in
 
-main.ts:196723
+[main.ts:196603](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L196603)
 
 ___
 
@@ -97,7 +97,7 @@ example:
 
 #### Defined in
 
-main.ts:196703
+[main.ts:196583](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L196583)
 
 ___
 
@@ -120,7 +120,7 @@ example:
 
 #### Defined in
 
-main.ts:196712
+[main.ts:196592](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L196592)
 
 ___
 
@@ -142,7 +142,7 @@ set the following value if you want to include one 13-years-old child and one 8-
 
 #### Defined in
 
-main.ts:196731
+[main.ts:196611](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L196611)
 
 ___
 
@@ -161,7 +161,7 @@ example:
 
 #### Defined in
 
-main.ts:196717
+[main.ts:196597](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L196597)
 
 ___
 
@@ -182,7 +182,7 @@ ChYIq6SB--i6p6cpGgovbS8wN2s5ODZfEAE
 
 #### Defined in
 
-main.ts:196658
+[main.ts:196538](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L196538)
 
 ___
 
@@ -203,7 +203,7 @@ en
 
 #### Defined in
 
-main.ts:196695
+[main.ts:196575](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L196575)
 
 ___
 
@@ -224,7 +224,7 @@ English
 
 #### Defined in
 
-main.ts:196688
+[main.ts:196568](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L196568)
 
 ___
 
@@ -245,7 +245,7 @@ example:
 
 #### Defined in
 
-main.ts:196672
+[main.ts:196552](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L196552)
 
 ___
 
@@ -268,7 +268,7 @@ example:
 
 #### Defined in
 
-main.ts:196681
+[main.ts:196561](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L196561)
 
 ___
 
@@ -289,7 +289,7 @@ London,England,United Kingdom
 
 #### Defined in
 
-main.ts:196665
+[main.ts:196545](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L196545)
 
 ___
 
@@ -309,7 +309,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:196737
+[main.ts:196617](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L196617)
 
 ## Methods
 
@@ -329,7 +329,7 @@ main.ts:196737
 
 #### Defined in
 
-main.ts:196750
+[main.ts:196630](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L196630)
 
 ___
 
@@ -349,7 +349,7 @@ ___
 
 #### Defined in
 
-main.ts:196782
+[main.ts:196662](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L196662)
 
 ___
 
@@ -369,4 +369,4 @@ ___
 
 #### Defined in
 
-main.ts:196775
+[main.ts:196655](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L196655)

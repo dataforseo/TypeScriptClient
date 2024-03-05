@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IDomainInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IDomainInfo
 
 # Interface: IDomainInfo
 
@@ -42,7 +42,7 @@ in most cases, it is recommended that canonicalized pages respond with a 301 or 
 
 #### Defined in
 
-main.ts:143644
+[main.ts:143500](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L143500)
 
 ___
 
@@ -59,7 +59,7 @@ other on-page check-ups related to the website
 
 #### Defined in
 
-main.ts:143634
+[main.ts:143490](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L143490)
 
 ___
 
@@ -75,7 +75,7 @@ if our crawler was unable to identify the cms, the value would be null
 
 #### Defined in
 
-main.ts:143597
+[main.ts:143453](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L143453)
 
 ___
 
@@ -92,7 +92,7 @@ if "crawl_progress" is in_progress, the value will be null
 
 #### Defined in
 
-main.ts:143617
+[main.ts:143473](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L143473)
 
 ___
 
@@ -108,7 +108,7 @@ example:
 
 #### Defined in
 
-main.ts:143610
+[main.ts:143466](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L143466)
 
 ___
 
@@ -122,7 +122,7 @@ in most cases, it is recommended that directories respond with a 403 or 401 stat
 
 #### Defined in
 
-main.ts:143648
+[main.ts:143504](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L143504)
 
 ___
 
@@ -143,7 +143,7 @@ unknown – the reason is unknown
 
 #### Defined in
 
-main.ts:143628
+[main.ts:143484](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L143484)
 
 ___
 
@@ -155,7 +155,7 @@ domain ip address
 
 #### Defined in
 
-main.ts:143599
+[main.ts:143455](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L143455)
 
 ___
 
@@ -167,7 +167,7 @@ root domain name
 
 #### Defined in
 
-main.ts:143654
+[main.ts:143510](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L143510)
 
 ___
 
@@ -179,7 +179,7 @@ domain name
 
 #### Defined in
 
-main.ts:143591
+[main.ts:143447](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L143447)
 
 ___
 
@@ -192,7 +192,7 @@ in most cases, it is recommended a server returns a 404 response code
 
 #### Defined in
 
-main.ts:143640
+[main.ts:143496](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L143496)
 
 ___
 
@@ -207,7 +207,7 @@ the information is taken from the first page which response code is 200
 
 #### Defined in
 
-main.ts:143604
+[main.ts:143460](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L143460)
 
 ___
 
@@ -220,7 +220,7 @@ information about the Secure Sockets Layer protocol detected on a website
 
 #### Defined in
 
-main.ts:143631
+[main.ts:143487](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L143487)
 
 ___
 
@@ -233,7 +233,7 @@ the total number of crawled pages
 
 #### Defined in
 
-main.ts:143637
+[main.ts:143493](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L143493)
 
 ___
 
@@ -247,4 +247,4 @@ in most cases, it is recommended that redirect returns a 301 status code
 
 #### Defined in
 
-main.ts:143652
+[main.ts:143508](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L143508)

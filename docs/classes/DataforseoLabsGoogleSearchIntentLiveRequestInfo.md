@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / DataforseoLabsGoogleSearchIntentLiveRequestInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / DataforseoLabsGoogleSearchIntentLiveRequestInfo
 
 # Class: DataforseoLabsGoogleSearchIntentLiveRequestInfo
 
@@ -47,7 +47,7 @@
 
 #### Defined in
 
-main.ts:82829
+[main.ts:82685](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L82685)
 
 ## Properties
 
@@ -67,7 +67,7 @@ the keywords will be converted to lowercase format
 
 #### Defined in
 
-main.ts:82780
+[main.ts:82636](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L82636)
 
 ___
 
@@ -88,7 +88,7 @@ en
 
 #### Defined in
 
-main.ts:82819
+[main.ts:82675](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L82675)
 
 ___
 
@@ -134,7 +134,7 @@ English
 
 #### Defined in
 
-main.ts:82812
+[main.ts:82668](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L82668)
 
 ___
 
@@ -154,7 +154,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:82825
+[main.ts:82681](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L82681)
 
 ## Methods
 
@@ -174,7 +174,7 @@ main.ts:82825
 
 #### Defined in
 
-main.ts:82838
+[main.ts:82694](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L82694)
 
 ___
 
@@ -194,7 +194,7 @@ ___
 
 #### Defined in
 
-main.ts:82862
+[main.ts:82718](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L82718)
 
 ___
 
@@ -214,4 +214,4 @@ ___
 
 #### Defined in
 
-main.ts:82855
+[main.ts:82711](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L82711)

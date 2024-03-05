@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / OnPageRedirectChainsItem
+[dataforseo-client](../README.md) / [Exports](../modules.md) / OnPageRedirectChainsItem
 
 # Class: OnPageRedirectChainsItem
 
@@ -45,7 +45,7 @@
 
 #### Defined in
 
-main.ts:149146
+[main.ts:149002](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L149002)
 
 ## Properties
 
@@ -61,7 +61,7 @@ contains links that form a chain
 
 #### Defined in
 
-main.ts:149142
+[main.ts:148998](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L148998)
 
 ___
 
@@ -78,7 +78,7 @@ if true, the last URL from the chain redirects back to the original URL
 
 #### Defined in
 
-main.ts:149140
+[main.ts:148996](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L148996)
 
 ## Methods
 
@@ -98,7 +98,7 @@ main.ts:149140
 
 #### Defined in
 
-main.ts:149155
+[main.ts:149011](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L149011)
 
 ___
 
@@ -118,7 +118,7 @@ ___
 
 #### Defined in
 
-main.ts:149177
+[main.ts:149033](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L149033)
 
 ___
 
@@ -138,4 +138,4 @@ ___
 
 #### Defined in
 
-main.ts:149170
+[main.ts:149026](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L149026)

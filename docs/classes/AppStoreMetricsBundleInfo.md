@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / AppStoreMetricsBundleInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / AppStoreMetricsBundleInfo
 
 # Class: AppStoreMetricsBundleInfo
 
@@ -44,7 +44,7 @@
 
 #### Defined in
 
-main.ts:111516
+[main.ts:111372](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L111372)
 
 ## Properties
 
@@ -60,7 +60,7 @@ ranking data from App Store organic search
 
 #### Defined in
 
-main.ts:111512
+[main.ts:111368](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L111368)
 
 ## Methods
 
@@ -80,7 +80,7 @@ main.ts:111512
 
 #### Defined in
 
-main.ts:111525
+[main.ts:111381](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L111381)
 
 ___
 
@@ -100,7 +100,7 @@ ___
 
 #### Defined in
 
-main.ts:111542
+[main.ts:111398](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L111398)
 
 ___
 
@@ -120,4 +120,4 @@ ___
 
 #### Defined in
 
-main.ts:111535
+[main.ts:111391](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L111391)

@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / OnPageResourceIssueItemInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / OnPageResourceIssueItemInfo
 
 # Class: OnPageResourceIssueItemInfo
 
@@ -47,7 +47,7 @@
 
 #### Defined in
 
-main.ts:144741
+[main.ts:144597](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L144597)
 
 ## Properties
 
@@ -63,7 +63,7 @@ column where the error was found
 
 #### Defined in
 
-main.ts:144723
+[main.ts:144579](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L144579)
 
 ___
 
@@ -79,7 +79,7 @@ line where the error was found
 
 #### Defined in
 
-main.ts:144721
+[main.ts:144577](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L144577)
 
 ___
 
@@ -96,7 +96,7 @@ the full list of possible HTML errors can be found here
 
 #### Defined in
 
-main.ts:144726
+[main.ts:144582](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L144582)
 
 ___
 
@@ -121,7 +121,7 @@ possible values:
 
 #### Defined in
 
-main.ts:144737
+[main.ts:144593](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L144593)
 
 ## Methods
 
@@ -141,7 +141,7 @@ main.ts:144737
 
 #### Defined in
 
-main.ts:144750
+[main.ts:144606](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L144606)
 
 ___
 
@@ -161,7 +161,7 @@ ___
 
 #### Defined in
 
-main.ts:144770
+[main.ts:144626](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L144626)
 
 ___
 
@@ -181,4 +181,4 @@ ___
 
 #### Defined in
 
-main.ts:144763
+[main.ts:144619](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L144619)

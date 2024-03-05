@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IPeopleAlsoAskDataforseoLabsSerpElementItem
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IPeopleAlsoAskDataforseoLabsSerpElementItem
 
 # Interface: IPeopleAlsoAskDataforseoLabsSerpElementItem
 
@@ -37,7 +37,7 @@ elements of search results found in SERP
 
 #### Defined in
 
-main.ts:91357
+[main.ts:91213](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L91213)
 
 ___
 
@@ -51,7 +51,7 @@ left, right
 
 #### Defined in
 
-main.ts:91353
+[main.ts:91209](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L91209)
 
 ___
 
@@ -64,7 +64,7 @@ absolute position among all the elements in SERP
 
 #### Defined in
 
-main.ts:91349
+[main.ts:91205](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L91205)
 
 ___
 
@@ -77,7 +77,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-main.ts:91346
+[main.ts:91202](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L91202)
 
 ___
 
@@ -89,7 +89,7 @@ search engine type
 
 #### Defined in
 
-main.ts:91343
+[main.ts:91199](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L91199)
 
 ___
 
@@ -101,4 +101,4 @@ the XPath of the element
 
 #### Defined in
 
-main.ts:91355
+[main.ts:91211](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L91211)

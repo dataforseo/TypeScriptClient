@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IAvailibleVersions
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IAvailibleVersions
 
 # Interface: IAvailibleVersions
 
@@ -28,7 +28,7 @@ if false, the version is not used by default and should be specified in the corr
 
 #### Defined in
 
-main.ts:154044
+[main.ts:153900](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L153900)
 
 ___
 
@@ -40,4 +40,4 @@ lighthouse version
 
 #### Defined in
 
-main.ts:154041
+[main.ts:153897](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L153897)

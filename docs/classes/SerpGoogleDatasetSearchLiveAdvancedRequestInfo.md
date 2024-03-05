@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / SerpGoogleDatasetSearchLiveAdvancedRequestInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / SerpGoogleDatasetSearchLiveAdvancedRequestInfo
 
 # Class: SerpGoogleDatasetSearchLiveAdvancedRequestInfo
 
@@ -55,7 +55,7 @@
 
 #### Defined in
 
-main.ts:51533
+[main.ts:51391](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L51391)
 
 ## Properties
 
@@ -78,7 +78,7 @@ if the specified depth is higher than the number of results in the response, the
 
 #### Defined in
 
-main.ts:51503
+[main.ts:51361](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L51361)
 
 ___
 
@@ -96,7 +96,7 @@ possible value: desktop
 
 #### Defined in
 
-main.ts:51489
+[main.ts:51347](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L51347)
 
 ___
 
@@ -114,7 +114,7 @@ possible values: other, archive, text, image, document, tabular
 
 #### Defined in
 
-main.ts:51511
+[main.ts:51369](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L51369)
 
 ___
 
@@ -132,7 +132,7 @@ possible values: true, false
 
 #### Defined in
 
-main.ts:51519
+[main.ts:51377](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L51377)
 
 ___
 
@@ -153,7 +153,7 @@ if you need to use the “+” symbol for your keyword, please specify it as “
 
 #### Defined in
 
-main.ts:51473
+[main.ts:51331](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L51331)
 
 ___
 
@@ -173,7 +173,7 @@ en
 
 #### Defined in
 
-main.ts:51485
+[main.ts:51343](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L51343)
 
 ___
 
@@ -193,7 +193,7 @@ English
 
 #### Defined in
 
-main.ts:51479
+[main.ts:51337](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L51337)
 
 ___
 
@@ -211,7 +211,7 @@ possible values: 1m, 1y, 3y
 
 #### Defined in
 
-main.ts:51507
+[main.ts:51365](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L51365)
 
 ___
 
@@ -230,7 +230,7 @@ default value: windows
 
 #### Defined in
 
-main.ts:51494
+[main.ts:51352](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L51352)
 
 ___
 
@@ -250,7 +250,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:51529
+[main.ts:51387](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L51387)
 
 ___
 
@@ -268,7 +268,7 @@ possible values: humanities, social_sciences, life_sciences, agriculture, natura
 
 #### Defined in
 
-main.ts:51523
+[main.ts:51381](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L51381)
 
 ___
 
@@ -286,7 +286,7 @@ possible values: commercial, noncommercial
 
 #### Defined in
 
-main.ts:51515
+[main.ts:51373](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L51373)
 
 ## Methods
 
@@ -306,7 +306,7 @@ main.ts:51515
 
 #### Defined in
 
-main.ts:51542
+[main.ts:51400](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L51400)
 
 ___
 
@@ -326,7 +326,7 @@ ___
 
 #### Defined in
 
-main.ts:51578
+[main.ts:51436](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L51436)
 
 ___
 
@@ -346,4 +346,4 @@ ___
 
 #### Defined in
 
-main.ts:51571
+[main.ts:51429](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L51429)

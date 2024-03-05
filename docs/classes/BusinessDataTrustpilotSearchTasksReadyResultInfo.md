@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / BusinessDataTrustpilotSearchTasksReadyResultInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / BusinessDataTrustpilotSearchTasksReadyResultInfo
 
 # Class: BusinessDataTrustpilotSearchTasksReadyResultInfo
 
@@ -48,7 +48,7 @@
 
 #### Defined in
 
-main.ts:199058
+[main.ts:198938](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L198938)
 
 ## Properties
 
@@ -64,7 +64,7 @@ date when the task was posted (in the UTC format)
 
 #### Defined in
 
-main.ts:199050
+[main.ts:198930](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L198930)
 
 ___
 
@@ -80,7 +80,7 @@ URL for collecting the results of the task
 
 #### Defined in
 
-main.ts:199054
+[main.ts:198934](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L198934)
 
 ___
 
@@ -97,7 +97,7 @@ unique task identifier in our system in the UUID format
 
 #### Defined in
 
-main.ts:199045
+[main.ts:198925](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L198925)
 
 ___
 
@@ -114,7 +114,7 @@ can take the following values: trustpilot
 
 #### Defined in
 
-main.ts:199048
+[main.ts:198928](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L198928)
 
 ___
 
@@ -130,7 +130,7 @@ user-defined task identifier
 
 #### Defined in
 
-main.ts:199052
+[main.ts:198932](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L198932)
 
 ## Methods
 
@@ -150,7 +150,7 @@ main.ts:199052
 
 #### Defined in
 
-main.ts:199067
+[main.ts:198947](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L198947)
 
 ___
 
@@ -170,7 +170,7 @@ ___
 
 #### Defined in
 
-main.ts:199088
+[main.ts:198968](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L198968)
 
 ___
 
@@ -190,4 +190,4 @@ ___
 
 #### Defined in
 
-main.ts:199081
+[main.ts:198961](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L198961)

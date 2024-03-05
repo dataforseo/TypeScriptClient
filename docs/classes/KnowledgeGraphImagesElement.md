@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / KnowledgeGraphImagesElement
+[dataforseo-client](../README.md) / [Exports](../modules.md) / KnowledgeGraphImagesElement
 
 # Class: KnowledgeGraphImagesElement
 
@@ -49,7 +49,7 @@
 
 #### Defined in
 
-main.ts:26591
+[main.ts:26449](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L26449)
 
 ## Properties
 
@@ -65,7 +65,7 @@ alt tag of the image
 
 #### Defined in
 
-main.ts:26582
+[main.ts:26440](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L26440)
 
 ___
 
@@ -81,7 +81,7 @@ domain in SERP of the Ad element
 
 #### Defined in
 
-main.ts:26580
+[main.ts:26438](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L26438)
 
 ___
 
@@ -98,7 +98,7 @@ the URL leading to the image on the original resource or DataForSEO storage (in 
 
 #### Defined in
 
-main.ts:26585
+[main.ts:26443](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L26443)
 
 ___
 
@@ -114,7 +114,7 @@ type of element
 
 #### Defined in
 
-main.ts:26576
+[main.ts:26434](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L26434)
 
 ___
 
@@ -130,7 +130,7 @@ relevant URL in SERP
 
 #### Defined in
 
-main.ts:26578
+[main.ts:26436](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L26436)
 
 ___
 
@@ -146,7 +146,7 @@ the XPath of the element
 
 #### Defined in
 
-main.ts:26587
+[main.ts:26445](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L26445)
 
 ## Methods
 
@@ -166,7 +166,7 @@ main.ts:26587
 
 #### Defined in
 
-main.ts:26600
+[main.ts:26458](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L26458)
 
 ___
 
@@ -186,7 +186,7 @@ ___
 
 #### Defined in
 
-main.ts:26622
+[main.ts:26480](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L26480)
 
 ___
 
@@ -206,4 +206,4 @@ ___
 
 #### Defined in
 
-main.ts:26615
+[main.ts:26473](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L26473)

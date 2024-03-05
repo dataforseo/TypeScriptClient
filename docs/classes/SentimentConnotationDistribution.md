@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / SentimentConnotationDistribution
+[dataforseo-client](../README.md) / [Exports](../modules.md) / SentimentConnotationDistribution
 
 # Class: SentimentConnotationDistribution
 
@@ -49,7 +49,7 @@
 
 #### Defined in
 
-main.ts:158033
+[main.ts:157913](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L157913)
 
 ## Properties
 
@@ -63,7 +63,7 @@ main.ts:158033
 
 #### Defined in
 
-main.ts:158024
+[main.ts:157904](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L157904)
 
 ___
 
@@ -77,7 +77,7 @@ ___
 
 #### Defined in
 
-main.ts:158029
+[main.ts:157909](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L157909)
 
 ___
 
@@ -91,7 +91,7 @@ ___
 
 #### Defined in
 
-main.ts:158025
+[main.ts:157905](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L157905)
 
 ___
 
@@ -105,7 +105,7 @@ ___
 
 #### Defined in
 
-main.ts:158026
+[main.ts:157906](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L157906)
 
 ___
 
@@ -119,7 +119,7 @@ ___
 
 #### Defined in
 
-main.ts:158027
+[main.ts:157907](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L157907)
 
 ___
 
@@ -133,7 +133,7 @@ ___
 
 #### Defined in
 
-main.ts:158028
+[main.ts:157908](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L157908)
 
 ## Methods
 
@@ -153,7 +153,7 @@ main.ts:158028
 
 #### Defined in
 
-main.ts:158042
+[main.ts:157922](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L157922)
 
 ___
 
@@ -173,7 +173,7 @@ ___
 
 #### Defined in
 
-main.ts:158064
+[main.ts:157944](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L157944)
 
 ___
 
@@ -193,4 +193,4 @@ ___
 
 #### Defined in
 
-main.ts:158057
+[main.ts:157937](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L157937)

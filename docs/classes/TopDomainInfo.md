@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / TopDomainInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / TopDomainInfo
 
 # Class: TopDomainInfo
 
@@ -45,7 +45,7 @@
 
 #### Defined in
 
-main.ts:21747
+[main.ts:21605](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L21605)
 
 ## Properties
 
@@ -59,7 +59,7 @@ main.ts:21747
 
 #### Defined in
 
-main.ts:21743
+[main.ts:21601](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L21601)
 
 ___
 
@@ -73,7 +73,7 @@ ___
 
 #### Defined in
 
-main.ts:21742
+[main.ts:21600](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L21600)
 
 ## Methods
 
@@ -93,7 +93,7 @@ main.ts:21742
 
 #### Defined in
 
-main.ts:21756
+[main.ts:21614](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L21614)
 
 ___
 
@@ -113,7 +113,7 @@ ___
 
 #### Defined in
 
-main.ts:21774
+[main.ts:21632](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L21632)
 
 ___
 
@@ -133,4 +133,4 @@ ___
 
 #### Defined in
 
-main.ts:21767
+[main.ts:21625](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L21625)

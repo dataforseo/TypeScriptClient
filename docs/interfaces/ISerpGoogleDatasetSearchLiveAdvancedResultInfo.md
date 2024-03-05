@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / ISerpGoogleDatasetSearchLiveAdvancedResultInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / ISerpGoogleDatasetSearchLiveAdvancedResultInfo
 
 # Interface: ISerpGoogleDatasetSearchLiveAdvancedResultInfo
 
@@ -36,7 +36,7 @@ you can use it to make sure that we provided accurate results
 
 #### Defined in
 
-main.ts:51789
+[main.ts:51647](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L51647)
 
 ___
 
@@ -51,7 +51,7 @@ example:
 
 #### Defined in
 
-main.ts:51794
+[main.ts:51652](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L51652)
 
 ___
 
@@ -65,7 +65,7 @@ possible item type: dataset
 
 #### Defined in
 
-main.ts:51801
+[main.ts:51659](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L51659)
 
 ___
 
@@ -77,7 +77,7 @@ elements of search results found in SERP
 
 #### Defined in
 
-main.ts:51807
+[main.ts:51665](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L51665)
 
 ___
 
@@ -89,7 +89,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:51805
+[main.ts:51663](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L51663)
 
 ___
 
@@ -102,7 +102,7 @@ the keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to
 
 #### Defined in
 
-main.ts:51782
+[main.ts:51640](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L51640)
 
 ___
 
@@ -114,7 +114,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:51786
+[main.ts:51644](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L51644)
 
 ___
 
@@ -126,7 +126,7 @@ search engine domain in a POST array
 
 #### Defined in
 
-main.ts:51784
+[main.ts:51642](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L51642)
 
 ___
 
@@ -138,7 +138,7 @@ total number of results in SERP
 
 #### Defined in
 
-main.ts:51803
+[main.ts:51661](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L51661)
 
 ___
 
@@ -151,4 +151,4 @@ if the search engine provided results for a keyword that was corrected, we will 
 
 #### Defined in
 
-main.ts:51797
+[main.ts:51655](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L51655)

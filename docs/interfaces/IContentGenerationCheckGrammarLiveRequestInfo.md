@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IContentGenerationCheckGrammarLiveRequestInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IContentGenerationCheckGrammarLiveRequestInfo
 
 # Interface: IContentGenerationCheckGrammarLiveRequestInfo
 
@@ -31,7 +31,7 @@ see the List of Languages for Content Generation Check Grammar API
 
 #### Defined in
 
-main.ts:161572
+[main.ts:161452](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L161452)
 
 ___
 
@@ -45,7 +45,7 @@ see the List of Languages for Content Generation Check Grammar API
 
 #### Defined in
 
-main.ts:161576
+[main.ts:161456](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L161456)
 
 ___
 
@@ -61,7 +61,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:161582
+[main.ts:161462](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L161462)
 
 ___
 
@@ -76,4 +76,4 @@ learn more about tokens on our help center
 
 #### Defined in
 
-main.ts:161568
+[main.ts:161448](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L161448)

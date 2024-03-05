@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IDataforseoLabsleBulkAppMetricsLiveItem
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IDataforseoLabsleBulkAppMetricsLiveItem
 
 # Interface: IDataforseoLabsleBulkAppMetricsLiveItem
 
@@ -28,7 +28,7 @@ id of the app in a POST array
 
 #### Defined in
 
-main.ts:108162
+[main.ts:108018](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L108018)
 
 ___
 
@@ -45,7 +45,7 @@ ranking data relevant to the keywords that the provided application ranks for on
 
 #### Defined in
 
-main.ts:108165
+[main.ts:108021](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L108021)
 
 ___
 
@@ -57,4 +57,4 @@ search engine type
 
 #### Defined in
 
-main.ts:108160
+[main.ts:108016](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L108016)

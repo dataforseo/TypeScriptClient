@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / ImagesElement
+[dataforseo-client](../README.md) / [Exports](../modules.md) / ImagesElement
 
 # Class: ImagesElement
 
@@ -47,7 +47,7 @@
 
 #### Defined in
 
-main.ts:27021
+[main.ts:26879](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L26879)
 
 ## Properties
 
@@ -63,7 +63,7 @@ alt tag of the image
 
 #### Defined in
 
-main.ts:27012
+[main.ts:26870](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L26870)
 
 ___
 
@@ -80,7 +80,7 @@ the URL leading to the image on the original resource or DataForSEO storage (in 
 
 #### Defined in
 
-main.ts:27017
+[main.ts:26875](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L26875)
 
 ___
 
@@ -96,7 +96,7 @@ type of element
 
 #### Defined in
 
-main.ts:27010
+[main.ts:26868](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L26868)
 
 ___
 
@@ -112,7 +112,7 @@ URL link
 
 #### Defined in
 
-main.ts:27014
+[main.ts:26872](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L26872)
 
 ## Methods
 
@@ -132,7 +132,7 @@ main.ts:27014
 
 #### Defined in
 
-main.ts:27030
+[main.ts:26888](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L26888)
 
 ___
 
@@ -152,7 +152,7 @@ ___
 
 #### Defined in
 
-main.ts:27050
+[main.ts:26908](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L26908)
 
 ___
 
@@ -172,4 +172,4 @@ ___
 
 #### Defined in
 
-main.ts:27043
+[main.ts:26901](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L26901)

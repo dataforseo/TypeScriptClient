@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IProductConsiderationsElement
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IProductConsiderationsElement
 
 # Interface: IProductConsiderationsElement
 
@@ -30,7 +30,7 @@ the category is indicated just above the title fo the consideration element
 
 #### Defined in
 
-main.ts:34737
+[main.ts:34595](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L34595)
 
 ___
 
@@ -42,7 +42,7 @@ expanded element
 
 #### Defined in
 
-main.ts:34739
+[main.ts:34597](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L34597)
 
 ___
 
@@ -54,7 +54,7 @@ title of the row
 
 #### Defined in
 
-main.ts:34734
+[main.ts:34592](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L34592)
 
 ___
 
@@ -66,4 +66,4 @@ type of element
 
 #### Defined in
 
-main.ts:34732
+[main.ts:34590](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L34590)

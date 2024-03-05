@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / ILastModified
+[dataforseo-client](../README.md) / [Exports](../modules.md) / ILastModified
 
 # Interface: ILastModified
 
@@ -32,7 +32,7 @@ if there is no data, the value will be null
 
 #### Defined in
 
-main.ts:145008
+[main.ts:144864](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L144864)
 
 ___
 
@@ -48,7 +48,7 @@ if there is no data, the value will be null
 
 #### Defined in
 
-main.ts:145020
+[main.ts:144876](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L144876)
 
 ___
 
@@ -64,4 +64,4 @@ if there is no data, the value will be null
 
 #### Defined in
 
-main.ts:145014
+[main.ts:144870](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L144870)

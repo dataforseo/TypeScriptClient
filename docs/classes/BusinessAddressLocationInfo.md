@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / BusinessAddressLocationInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / BusinessAddressLocationInfo
 
 # Class: BusinessAddressLocationInfo
 
@@ -46,7 +46,7 @@
 
 #### Defined in
 
-main.ts:204001
+[main.ts:203881](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L203881)
 
 ## Properties
 
@@ -63,7 +63,7 @@ contains few address lines specified by the business entity
 
 #### Defined in
 
-main.ts:203993
+[main.ts:203873](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L203873)
 
 ___
 
@@ -79,7 +79,7 @@ latitude in GPS coordinates
 
 #### Defined in
 
-main.ts:203995
+[main.ts:203875](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L203875)
 
 ___
 
@@ -95,7 +95,7 @@ longitude in GPS coordinates
 
 #### Defined in
 
-main.ts:203997
+[main.ts:203877](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L203877)
 
 ## Methods
 
@@ -115,7 +115,7 @@ main.ts:203997
 
 #### Defined in
 
-main.ts:204010
+[main.ts:203890](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L203890)
 
 ___
 
@@ -135,7 +135,7 @@ ___
 
 #### Defined in
 
-main.ts:204033
+[main.ts:203913](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L203913)
 
 ___
 
@@ -155,4 +155,4 @@ ___
 
 #### Defined in
 
-main.ts:204026
+[main.ts:203906](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L203906)

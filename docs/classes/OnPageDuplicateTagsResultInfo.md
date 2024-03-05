@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / OnPageDuplicateTagsResultInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / OnPageDuplicateTagsResultInfo
 
 # Class: OnPageDuplicateTagsResultInfo
 
@@ -49,7 +49,7 @@
 
 #### Defined in
 
-main.ts:147388
+[main.ts:147244](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L147244)
 
 ## Properties
 
@@ -66,7 +66,7 @@ possible values: in_progress, finished
 
 #### Defined in
 
-main.ts:147372
+[main.ts:147228](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L147228)
 
 ___
 
@@ -82,7 +82,7 @@ details of the crawling session
 
 #### Defined in
 
-main.ts:147374
+[main.ts:147230](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L147230)
 
 ___
 
@@ -98,7 +98,7 @@ items array
 
 #### Defined in
 
-main.ts:147384
+[main.ts:147240](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L147240)
 
 ___
 
@@ -114,7 +114,7 @@ number of items in the results array
 
 #### Defined in
 
-main.ts:147382
+[main.ts:147238](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L147238)
 
 ___
 
@@ -131,7 +131,7 @@ displays the number of pages with duplicate tags returned in the response
 
 #### Defined in
 
-main.ts:147380
+[main.ts:147236](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L147236)
 
 ___
 
@@ -148,7 +148,7 @@ displays the total number of pages with duplicate tags of the target website
 
 #### Defined in
 
-main.ts:147377
+[main.ts:147233](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L147233)
 
 ## Methods
 
@@ -168,7 +168,7 @@ main.ts:147377
 
 #### Defined in
 
-main.ts:147397
+[main.ts:147253](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L147253)
 
 ___
 
@@ -188,7 +188,7 @@ ___
 
 #### Defined in
 
-main.ts:147423
+[main.ts:147279](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L147279)
 
 ___
 
@@ -208,4 +208,4 @@ ___
 
 #### Defined in
 
-main.ts:147416
+[main.ts:147272](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L147272)

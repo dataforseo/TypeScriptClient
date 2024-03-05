@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / DomainAnalyticsWhoisAvailableFiltersResultInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / DomainAnalyticsWhoisAvailableFiltersResultInfo
 
 # Class: DomainAnalyticsWhoisAvailableFiltersResultInfo
 
@@ -44,7 +44,7 @@
 
 #### Defined in
 
-main.ts:75557
+[main.ts:75413](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L75413)
 
 ## Properties
 
@@ -62,7 +62,7 @@ main.ts:75557
 
 #### Defined in
 
-main.ts:75553
+[main.ts:75409](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L75409)
 
 ## Methods
 
@@ -82,7 +82,7 @@ main.ts:75553
 
 #### Defined in
 
-main.ts:75566
+[main.ts:75422](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L75422)
 
 ___
 
@@ -102,7 +102,7 @@ ___
 
 #### Defined in
 
-main.ts:75589
+[main.ts:75445](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L75445)
 
 ___
 
@@ -122,4 +122,4 @@ ___
 
 #### Defined in
 
-main.ts:75582
+[main.ts:75438](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L75438)

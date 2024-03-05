@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / DataforseoLabsGoogleHistoricalBulkTrafficEstimationLiveItem
+[dataforseo-client](../README.md) / [Exports](../modules.md) / DataforseoLabsGoogleHistoricalBulkTrafficEstimationLiveItem
 
 # Class: DataforseoLabsGoogleHistoricalBulkTrafficEstimationLiveItem
 
@@ -46,7 +46,7 @@
 
 #### Defined in
 
-main.ts:98504
+[main.ts:98360](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L98360)
 
 ## Properties
 
@@ -62,7 +62,7 @@ traffic data relevant to the specified domain
 
 #### Defined in
 
-main.ts:98500
+[main.ts:98356](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L98356)
 
 ___
 
@@ -78,7 +78,7 @@ search engine type
 
 #### Defined in
 
-main.ts:98496
+[main.ts:98352](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L98352)
 
 ___
 
@@ -94,7 +94,7 @@ target domain in a POST array
 
 #### Defined in
 
-main.ts:98498
+[main.ts:98354](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L98354)
 
 ## Methods
 
@@ -114,7 +114,7 @@ main.ts:98498
 
 #### Defined in
 
-main.ts:98513
+[main.ts:98369](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L98369)
 
 ___
 
@@ -134,7 +134,7 @@ ___
 
 #### Defined in
 
-main.ts:98532
+[main.ts:98388](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L98388)
 
 ___
 
@@ -154,4 +154,4 @@ ___
 
 #### Defined in
 
-main.ts:98525
+[main.ts:98381](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L98381)

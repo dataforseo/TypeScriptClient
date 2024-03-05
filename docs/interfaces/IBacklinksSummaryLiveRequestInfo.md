@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IBacklinksSummaryLiveRequestInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IBacklinksSummaryLiveRequestInfo
 
 # Interface: IBacklinksSummaryLiveRequestInfo
 
@@ -38,7 +38,7 @@ example:
 
 #### Defined in
 
-main.ts:129496
+[main.ts:129352](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L129352)
 
 ___
 
@@ -57,7 +57,7 @@ default value: live
 
 #### Defined in
 
-main.ts:129488
+[main.ts:129344](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L129344)
 
 ___
 
@@ -73,7 +73,7 @@ default value: true
 
 #### Defined in
 
-main.ts:129468
+[main.ts:129324](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L129324)
 
 ___
 
@@ -88,7 +88,7 @@ default value: true
 
 #### Defined in
 
-main.ts:129462
+[main.ts:129318](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L129318)
 
 ___
 
@@ -109,7 +109,7 @@ maximum value: 1000
 
 #### Defined in
 
-main.ts:129479
+[main.ts:129335](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L129335)
 
 ___
 
@@ -125,7 +125,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:129502
+[main.ts:129358](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L129358)
 
 ___
 
@@ -140,4 +140,4 @@ a page should be specified with absolute URL (including http:// or https://)
 
 #### Defined in
 
-main.ts:129457
+[main.ts:129313](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L129313)

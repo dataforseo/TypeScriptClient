@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / KeywordsDataBingSearchVolumeTasksReadyResultInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / KeywordsDataBingSearchVolumeTasksReadyResultInfo
 
 # Class: KeywordsDataBingSearchVolumeTasksReadyResultInfo
 
@@ -49,7 +49,7 @@
 
 #### Defined in
 
-main.ts:122828
+[main.ts:122684](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L122684)
 
 ## Properties
 
@@ -65,7 +65,7 @@ date when the task was posted (in the UTC format)
 
 #### Defined in
 
-main.ts:122820
+[main.ts:122676](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L122676)
 
 ___
 
@@ -81,7 +81,7 @@ URL for collecting the results of the task
 
 #### Defined in
 
-main.ts:122824
+[main.ts:122680](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L122680)
 
 ___
 
@@ -97,7 +97,7 @@ type of the task
 
 #### Defined in
 
-main.ts:122818
+[main.ts:122674](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L122674)
 
 ___
 
@@ -114,7 +114,7 @@ unique task identifier in our system in the UUID format
 
 #### Defined in
 
-main.ts:122814
+[main.ts:122670](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L122670)
 
 ___
 
@@ -130,7 +130,7 @@ search engine specified when setting the task
 
 #### Defined in
 
-main.ts:122816
+[main.ts:122672](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L122672)
 
 ___
 
@@ -146,7 +146,7 @@ user-defined task identifier
 
 #### Defined in
 
-main.ts:122822
+[main.ts:122678](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L122678)
 
 ## Methods
 
@@ -166,7 +166,7 @@ main.ts:122822
 
 #### Defined in
 
-main.ts:122837
+[main.ts:122693](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L122693)
 
 ___
 
@@ -186,7 +186,7 @@ ___
 
 #### Defined in
 
-main.ts:122859
+[main.ts:122715](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L122715)
 
 ___
 
@@ -206,4 +206,4 @@ ___
 
 #### Defined in
 
-main.ts:122852
+[main.ts:122708](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L122708)

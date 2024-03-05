@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / ShoppingSpecificationMerchantSerpElementItem
+[dataforseo-client](../README.md) / [Exports](../modules.md) / ShoppingSpecificationMerchantSerpElementItem
 
 # Class: ShoppingSpecificationMerchantSerpElementItem
 
@@ -61,7 +61,7 @@
 
 #### Defined in
 
-main.ts:167977
+[main.ts:167857](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L167857)
 
 ## Properties
 
@@ -75,7 +75,7 @@ main.ts:167977
 
 #### Defined in
 
-main.ts:19988
+[main.ts:19988](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L19988)
 
 ___
 
@@ -92,7 +92,7 @@ indicates the name of the product specification section in which the related ele
 
 #### Defined in
 
-main.ts:167968
+[main.ts:167848](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L167848)
 
 ___
 
@@ -110,7 +110,7 @@ right
 
 #### Defined in
 
-main.ts:167963
+[main.ts:167843](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L167843)
 
 ___
 
@@ -127,7 +127,7 @@ absolute position among all the elements found on the product specification page
 
 #### Defined in
 
-main.ts:167959
+[main.ts:167839](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L167839)
 
 ___
 
@@ -144,7 +144,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-main.ts:167956
+[main.ts:167836](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L167836)
 
 ___
 
@@ -161,7 +161,7 @@ attribute name of the product data specification
 
 #### Defined in
 
-main.ts:167971
+[main.ts:167851](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L167851)
 
 ___
 
@@ -177,7 +177,7 @@ content of the specification
 
 #### Defined in
 
-main.ts:167973
+[main.ts:167853](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L167853)
 
 ___
 
@@ -193,7 +193,7 @@ XPath of the element
 
 #### Defined in
 
-main.ts:167965
+[main.ts:167845](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L167845)
 
 ## Methods
 
@@ -217,7 +217,7 @@ main.ts:167965
 
 #### Defined in
 
-main.ts:167982
+[main.ts:167862](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L167862)
 
 ___
 
@@ -241,7 +241,7 @@ ___
 
 #### Defined in
 
-main.ts:168006
+[main.ts:167886](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L167886)
 
 ___
 
@@ -265,4 +265,4 @@ ___
 
 #### Defined in
 
-main.ts:167999
+[main.ts:167879](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L167879)

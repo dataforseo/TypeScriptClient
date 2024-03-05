@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IAppDataGooglePlaySearchOrganicSerpElementItem
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IAppDataGooglePlaySearchOrganicSerpElementItem
 
 # Interface: IAppDataGooglePlaySearchOrganicSerpElementItem
 
@@ -44,7 +44,7 @@ id of the app
 
 #### Defined in
 
-main.ts:108729
+[main.ts:108585](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L108585)
 
 ___
 
@@ -56,7 +56,7 @@ name of the app developer
 
 #### Defined in
 
-main.ts:108745
+[main.ts:108601](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L108601)
 
 ___
 
@@ -68,7 +68,7 @@ URL to the developer page on Google Play
 
 #### Defined in
 
-main.ts:108747
+[main.ts:108603](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L108603)
 
 ___
 
@@ -80,7 +80,7 @@ URL to the app icon
 
 #### Defined in
 
-main.ts:108735
+[main.ts:108591](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L108591)
 
 ___
 
@@ -92,7 +92,7 @@ indicates whether the app is free
 
 #### Defined in
 
-main.ts:108741
+[main.ts:108597](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L108597)
 
 ___
 
@@ -106,7 +106,7 @@ left, right
 
 #### Defined in
 
-main.ts:108727
+[main.ts:108583](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L108583)
 
 ___
 
@@ -118,7 +118,7 @@ price of the app
 
 #### Defined in
 
-main.ts:108743
+[main.ts:108599](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L108599)
 
 ___
 
@@ -131,7 +131,7 @@ absolute position among all the elements in SERP
 
 #### Defined in
 
-main.ts:108723
+[main.ts:108579](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L108579)
 
 ___
 
@@ -144,7 +144,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-main.ts:108720
+[main.ts:108576](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L108576)
 
 ___
 
@@ -156,7 +156,7 @@ average rating of the app
 
 #### Defined in
 
-main.ts:108739
+[main.ts:108595](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L108595)
 
 ___
 
@@ -168,7 +168,7 @@ the total number of reviews of the app
 
 #### Defined in
 
-main.ts:108737
+[main.ts:108593](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L108593)
 
 ___
 
@@ -180,7 +180,7 @@ title of the app
 
 #### Defined in
 
-main.ts:108731
+[main.ts:108587](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L108587)
 
 ___
 
@@ -192,4 +192,4 @@ URL to the app page on Google Play
 
 #### Defined in
 
-main.ts:108733
+[main.ts:108589](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L108589)

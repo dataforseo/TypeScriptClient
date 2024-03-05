@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / KeywordDataInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / KeywordDataInfo
 
 # Class: KeywordDataInfo
 
@@ -53,7 +53,7 @@
 
 #### Defined in
 
-main.ts:79804
+[main.ts:79660](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L79660)
 
 ## Properties
 
@@ -70,7 +70,7 @@ this object provides the average number of backlinks, referring pages and domain
 
 #### Defined in
 
-main.ts:79797
+[main.ts:79653](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L79653)
 
 ___
 
@@ -89,7 +89,7 @@ learn more about impressions in this help center article
 
 #### Defined in
 
-main.ts:79791
+[main.ts:79647](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L79647)
 
 ___
 
@@ -105,7 +105,7 @@ returned keyword idea
 
 #### Defined in
 
-main.ts:79778
+[main.ts:79634](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L79634)
 
 ___
 
@@ -121,7 +121,7 @@ keyword data for the returned keyword idea
 
 #### Defined in
 
-main.ts:79784
+[main.ts:79640](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L79640)
 
 ___
 
@@ -137,7 +137,7 @@ additional information about the keyword
 
 #### Defined in
 
-main.ts:79786
+[main.ts:79642](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L79642)
 
 ___
 
@@ -153,7 +153,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:79782
+[main.ts:79638](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L79638)
 
 ___
 
@@ -169,7 +169,7 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:79780
+[main.ts:79636](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L79636)
 
 ___
 
@@ -185,7 +185,7 @@ search engine type
 
 #### Defined in
 
-main.ts:79776
+[main.ts:79632](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L79632)
 
 ___
 
@@ -202,7 +202,7 @@ learn about search intent in this help center article
 
 #### Defined in
 
-main.ts:79800
+[main.ts:79656](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L79656)
 
 ___
 
@@ -219,7 +219,7 @@ the value will be null if you didn’t set the field include_serp_info to true i
 
 #### Defined in
 
-main.ts:79794
+[main.ts:79650](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L79650)
 
 ## Methods
 
@@ -239,7 +239,7 @@ main.ts:79794
 
 #### Defined in
 
-main.ts:79813
+[main.ts:79669](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L79669)
 
 ___
 
@@ -259,7 +259,7 @@ ___
 
 #### Defined in
 
-main.ts:79839
+[main.ts:79695](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L79695)
 
 ___
 
@@ -279,4 +279,4 @@ ___
 
 #### Defined in
 
-main.ts:79832
+[main.ts:79688](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L79688)

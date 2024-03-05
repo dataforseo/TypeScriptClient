@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IPriceInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IPriceInfo
 
 # Interface: IPriceInfo
 
@@ -32,7 +32,7 @@ ISO code of the currency applied to the price
 
 #### Defined in
 
-main.ts:21532
+[main.ts:21532](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L21532)
 
 ___
 
@@ -45,7 +45,7 @@ indicates the current price of the product or service featured in the result
 
 #### Defined in
 
-main.ts:21523
+[main.ts:21523](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L21523)
 
 ___
 
@@ -58,7 +58,7 @@ raw price string as provided in the result
 
 #### Defined in
 
-main.ts:21538
+[main.ts:21538](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L21538)
 
 ___
 
@@ -71,7 +71,7 @@ indicates whether a price is provided in a range
 
 #### Defined in
 
-main.ts:21535
+[main.ts:21535](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L21535)
 
 ___
 
@@ -84,7 +84,7 @@ the maximum price of the product or service as indicated in the result
 
 #### Defined in
 
-main.ts:21529
+[main.ts:21529](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L21529)
 
 ___
 
@@ -97,4 +97,4 @@ indicates the regular price of the product or service with no discounts applied
 
 #### Defined in
 
-main.ts:21526
+[main.ts:21526](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L21526)

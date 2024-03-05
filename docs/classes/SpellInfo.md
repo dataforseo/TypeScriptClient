@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / SpellInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / SpellInfo
 
 # Class: SpellInfo
 
@@ -45,7 +45,7 @@
 
 #### Defined in
 
-main.ts:21992
+[main.ts:21850](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L21850)
 
 ## Properties
 
@@ -62,7 +62,7 @@ the results will be provided for the corrected keyword
 
 #### Defined in
 
-main.ts:21982
+[main.ts:21840](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L21840)
 
 ___
 
@@ -82,7 +82,7 @@ including_results_for
 
 #### Defined in
 
-main.ts:21988
+[main.ts:21846](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L21846)
 
 ## Methods
 
@@ -102,7 +102,7 @@ main.ts:21988
 
 #### Defined in
 
-main.ts:22001
+[main.ts:21859](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L21859)
 
 ___
 
@@ -122,7 +122,7 @@ ___
 
 #### Defined in
 
-main.ts:22019
+[main.ts:21877](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L21877)
 
 ___
 
@@ -142,4 +142,4 @@ ___
 
 #### Defined in
 
-main.ts:22012
+[main.ts:21870](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L21870)

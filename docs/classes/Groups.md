@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / Groups
+[dataforseo-client](../README.md) / [Exports](../modules.md) / Groups
 
 # Class: Groups
 
@@ -46,7 +46,7 @@
 
 #### Defined in
 
-main.ts:72342
+[main.ts:72198](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L72198)
 
 ## Properties
 
@@ -62,7 +62,7 @@ technology categories in this group
 
 #### Defined in
 
-main.ts:72338
+[main.ts:72194](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L72194)
 
 ___
 
@@ -80,7 +80,7 @@ marketing, sales
 
 #### Defined in
 
-main.ts:72334
+[main.ts:72190](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L72190)
 
 ___
 
@@ -96,7 +96,7 @@ title of the technology group
 
 #### Defined in
 
-main.ts:72336
+[main.ts:72192](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L72192)
 
 ## Methods
 
@@ -116,7 +116,7 @@ main.ts:72336
 
 #### Defined in
 
-main.ts:72351
+[main.ts:72207](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L72207)
 
 ___
 
@@ -136,7 +136,7 @@ ___
 
 #### Defined in
 
-main.ts:72374
+[main.ts:72230](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L72230)
 
 ___
 
@@ -156,4 +156,4 @@ ___
 
 #### Defined in
 
-main.ts:72367
+[main.ts:72223](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L72223)

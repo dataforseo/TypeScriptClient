@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IBusinessDataTripadvisorReviewsTaskGetResultInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IBusinessDataTripadvisorReviewsTaskGetResultInfo
 
 # Interface: IBusinessDataTripadvisorReviewsTaskGetResultInfo
 
@@ -38,7 +38,7 @@ you can use it to make sure that we provided accurate results
 
 #### Defined in
 
-main.ts:202765
+[main.ts:202645](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L202645)
 
 ___
 
@@ -53,7 +53,7 @@ example:
 
 #### Defined in
 
-main.ts:202770
+[main.ts:202650](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L202650)
 
 ___
 
@@ -66,7 +66,7 @@ you can get more results by using the depth parameter when setting a task
 
 #### Defined in
 
-main.ts:202787
+[main.ts:202667](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L202667)
 
 ___
 
@@ -79,7 +79,7 @@ you can get more results by using the depth parameter when setting a task
 
 #### Defined in
 
-main.ts:202784
+[main.ts:202664](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L202664)
 
 ___
 
@@ -91,7 +91,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:202789
+[main.ts:202669](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L202669)
 
 ___
 
@@ -104,7 +104,7 @@ address of the local establishment for which the reviews are collected
 
 #### Defined in
 
-main.ts:202776
+[main.ts:202656](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L202656)
 
 ___
 
@@ -117,7 +117,7 @@ popularity rate based on reviews and displayed in SERP
 
 #### Defined in
 
-main.ts:202781
+[main.ts:202661](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L202661)
 
 ___
 
@@ -129,7 +129,7 @@ the total number of reviews
 
 #### Defined in
 
-main.ts:202778
+[main.ts:202658](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L202658)
 
 ___
 
@@ -141,7 +141,7 @@ search engine domain in a POST array
 
 #### Defined in
 
-main.ts:202762
+[main.ts:202642](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L202642)
 
 ___
 
@@ -154,7 +154,7 @@ the name of the local establishment for which the reviews are collected
 
 #### Defined in
 
-main.ts:202773
+[main.ts:202653](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L202653)
 
 ___
 
@@ -166,7 +166,7 @@ type of element
 
 #### Defined in
 
-main.ts:202760
+[main.ts:202640](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L202640)
 
 ___
 
@@ -178,4 +178,4 @@ URL path received in a POST array
 
 #### Defined in
 
-main.ts:202758
+[main.ts:202638](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L202638)

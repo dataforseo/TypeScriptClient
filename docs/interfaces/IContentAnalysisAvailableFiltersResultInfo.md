@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IContentAnalysisAvailableFiltersResultInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IContentAnalysisAvailableFiltersResultInfo
 
 # Interface: IContentAnalysisAvailableFiltersResultInfo
 
@@ -28,4 +28,4 @@
 
 #### Defined in
 
-main.ts:155552
+[main.ts:155408](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L155408)

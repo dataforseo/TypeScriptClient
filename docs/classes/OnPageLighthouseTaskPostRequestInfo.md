@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / OnPageLighthouseTaskPostRequestInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / OnPageLighthouseTaskPostRequestInfo
 
 # Class: OnPageLighthouseTaskPostRequestInfo
 
@@ -53,7 +53,7 @@
 
 #### Defined in
 
-main.ts:154295
+[main.ts:154151](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L154151)
 
 ## Properties
 
@@ -80,7 +80,7 @@ you can get the full list of possible audits here
 
 #### Defined in
 
-main.ts:154248
+[main.ts:154104](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L154104)
 
 ___
 
@@ -102,7 +102,7 @@ seo, pwa, performance, best_practices, accessibility
 
 #### Defined in
 
-main.ts:154235
+[main.ts:154091](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L154091)
 
 ___
 
@@ -122,7 +122,7 @@ default value: false
 
 #### Defined in
 
-main.ts:154227
+[main.ts:154083](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L154083)
 
 ___
 
@@ -142,7 +142,7 @@ en
 
 #### Defined in
 
-main.ts:154265
+[main.ts:154121](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L154121)
 
 ___
 
@@ -162,7 +162,7 @@ English
 
 #### Defined in
 
-main.ts:154259
+[main.ts:154115](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L154115)
 
 ___
 
@@ -186,7 +186,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-main.ts:154281
+[main.ts:154137](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L154137)
 
 ___
 
@@ -210,7 +210,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-main.ts:154291
+[main.ts:154147](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L154147)
 
 ___
 
@@ -230,7 +230,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:154271
+[main.ts:154127](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L154127)
 
 ___
 
@@ -250,7 +250,7 @@ https://dataforseo.com/
 
 #### Defined in
 
-main.ts:154221
+[main.ts:154077](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L154077)
 
 ___
 
@@ -269,7 +269,7 @@ the list of available versions is available through the Lighthouse Versions endp
 
 #### Defined in
 
-main.ts:154253
+[main.ts:154109](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L154109)
 
 ## Methods
 
@@ -289,7 +289,7 @@ main.ts:154253
 
 #### Defined in
 
-main.ts:154304
+[main.ts:154160](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L154160)
 
 ___
 
@@ -309,7 +309,7 @@ ___
 
 #### Defined in
 
-main.ts:154338
+[main.ts:154194](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L154194)
 
 ___
 
@@ -329,4 +329,4 @@ ___
 
 #### Defined in
 
-main.ts:154331
+[main.ts:154187](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L154187)

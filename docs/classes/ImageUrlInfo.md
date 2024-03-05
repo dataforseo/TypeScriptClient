@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / ImageUrlInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / ImageUrlInfo
 
 # Class: ImageUrlInfo
 
@@ -44,7 +44,7 @@
 
 #### Defined in
 
-main.ts:202460
+[main.ts:202340](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L202340)
 
 ## Properties
 
@@ -60,7 +60,7 @@ URL of the image used in the review
 
 #### Defined in
 
-main.ts:202456
+[main.ts:202336](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L202336)
 
 ## Methods
 
@@ -80,7 +80,7 @@ main.ts:202456
 
 #### Defined in
 
-main.ts:202469
+[main.ts:202349](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L202349)
 
 ___
 
@@ -100,7 +100,7 @@ ___
 
 #### Defined in
 
-main.ts:202486
+[main.ts:202366](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L202366)
 
 ___
 
@@ -120,4 +120,4 @@ ___
 
 #### Defined in
 
-main.ts:202479
+[main.ts:202359](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L202359)

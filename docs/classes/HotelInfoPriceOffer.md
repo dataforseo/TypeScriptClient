@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / HotelInfoPriceOffer
+[dataforseo-client](../README.md) / [Exports](../modules.md) / HotelInfoPriceOffer
 
 # Class: HotelInfoPriceOffer
 
@@ -53,7 +53,7 @@ featured price offers
 
 #### Defined in
 
-main.ts:193599
+[main.ts:193479](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L193479)
 
 ## Properties
 
@@ -70,7 +70,7 @@ USD is applied by default, unless specified in the POST array
 
 #### Defined in
 
-main.ts:193582
+[main.ts:193462](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L193462)
 
 ___
 
@@ -88,7 +88,7 @@ equals null if free cancellation is not available for the selected dates
 
 #### Defined in
 
-main.ts:193595
+[main.ts:193475](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L193475)
 
 ___
 
@@ -105,7 +105,7 @@ the maximum number of visitors for which the price offer is valid
 
 #### Defined in
 
-main.ts:193588
+[main.ts:193468](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L193468)
 
 ___
 
@@ -122,7 +122,7 @@ URLs of the images featured in the price offer
 
 #### Defined in
 
-main.ts:193591
+[main.ts:193471](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L193471)
 
 ___
 
@@ -138,7 +138,7 @@ price per night
 
 #### Defined in
 
-main.ts:193579
+[main.ts:193459](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L193459)
 
 ___
 
@@ -154,7 +154,7 @@ title of the hotel
 
 #### Defined in
 
-main.ts:193577
+[main.ts:193457](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L193457)
 
 ___
 
@@ -170,7 +170,7 @@ type of element
 
 #### Defined in
 
-main.ts:193575
+[main.ts:193455](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L193455)
 
 ___
 
@@ -187,7 +187,7 @@ URL to the page of the website where price offer appears
 
 #### Defined in
 
-main.ts:193585
+[main.ts:193465](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L193465)
 
 ## Methods
 
@@ -207,7 +207,7 @@ main.ts:193585
 
 #### Defined in
 
-main.ts:193608
+[main.ts:193488](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L193488)
 
 ___
 
@@ -227,7 +227,7 @@ ___
 
 #### Defined in
 
-main.ts:193636
+[main.ts:193516](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L193516)
 
 ___
 
@@ -247,4 +247,4 @@ ___
 
 #### Defined in
 
-main.ts:193629
+[main.ts:193509](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L193509)

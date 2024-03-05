@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IBacklinksPageMeta
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IBacklinksPageMeta
 
 # Interface: IBacklinksPageMeta
 
@@ -42,7 +42,7 @@ canonical page
 
 #### Defined in
 
-main.ts:133050
+[main.ts:132906](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L132906)
 
 ___
 
@@ -56,7 +56,7 @@ utf-8
 
 #### Defined in
 
-main.ts:133086
+[main.ts:132942](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L132942)
 
 ___
 
@@ -68,7 +68,7 @@ number of external links on the page
 
 #### Defined in
 
-main.ts:133054
+[main.ts:132910](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L132910)
 
 ___
 
@@ -81,7 +81,7 @@ content of h1 tags
 
 #### Defined in
 
-main.ts:133068
+[main.ts:132924](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L132924)
 
 ___
 
@@ -94,7 +94,7 @@ content of h2 tags
 
 #### Defined in
 
-main.ts:133071
+[main.ts:132927](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L132927)
 
 ___
 
@@ -107,7 +107,7 @@ content of h3 tags
 
 #### Defined in
 
-main.ts:133074
+[main.ts:132930](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L132930)
 
 ___
 
@@ -119,7 +119,7 @@ content of alt tags
 
 #### Defined in
 
-main.ts:133076
+[main.ts:132932](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L132932)
 
 ___
 
@@ -131,7 +131,7 @@ number of images on the page
 
 #### Defined in
 
-main.ts:133056
+[main.ts:132912](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L132912)
 
 ___
 
@@ -143,7 +143,7 @@ number of internal links on the page
 
 #### Defined in
 
-main.ts:133052
+[main.ts:132908](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L132908)
 
 ___
 
@@ -157,7 +157,7 @@ en
 
 #### Defined in
 
-main.ts:133082
+[main.ts:132938](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L132938)
 
 ___
 
@@ -170,7 +170,7 @@ learn more about how the metric is calculated on this help center page
 
 #### Defined in
 
-main.ts:133061
+[main.ts:132917](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L132917)
 
 ___
 
@@ -182,7 +182,7 @@ type of a platform
 
 #### Defined in
 
-main.ts:133088
+[main.ts:132944](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L132944)
 
 ___
 
@@ -194,7 +194,7 @@ CMS details
 
 #### Defined in
 
-main.ts:133078
+[main.ts:132934](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L132934)
 
 ___
 
@@ -212,7 +212,7 @@ supported tags include but are not limited to Open Graph and Twitter card
 
 #### Defined in
 
-main.ts:133065
+[main.ts:132921](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L132921)
 
 ___
 
@@ -228,7 +228,7 @@ website technologies
 
 #### Defined in
 
-main.ts:133090
+[main.ts:132946](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L132946)
 
 ___
 
@@ -240,7 +240,7 @@ page title
 
 #### Defined in
 
-main.ts:133048
+[main.ts:132904](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L132904)
 
 ___
 
@@ -252,4 +252,4 @@ number of words on the page
 
 #### Defined in
 
-main.ts:133058
+[main.ts:132914](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L132914)

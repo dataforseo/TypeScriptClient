@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / ContentAnalysisRatingInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / ContentAnalysisRatingInfo
 
 # Class: ContentAnalysisRatingInfo
 
@@ -50,7 +50,7 @@ content rating rating related to content_info
 
 #### Defined in
 
-main.ts:156481
+[main.ts:156337](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L156337)
 
 ## Properties
 
@@ -66,7 +66,7 @@ maximum value for the rating name
 
 #### Defined in
 
-main.ts:156475
+[main.ts:156331](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L156331)
 
 ___
 
@@ -83,7 +83,7 @@ here you can find the following elements: Max5, Percents, CustomMax
 
 #### Defined in
 
-main.ts:156469
+[main.ts:156325](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L156325)
 
 ___
 
@@ -99,7 +99,7 @@ number of votes
 
 #### Defined in
 
-main.ts:156473
+[main.ts:156329](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L156329)
 
 ___
 
@@ -115,7 +115,7 @@ the value of the rating
 
 #### Defined in
 
-main.ts:156471
+[main.ts:156327](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L156327)
 
 ___
 
@@ -131,7 +131,7 @@ relative rating
 
 #### Defined in
 
-main.ts:156477
+[main.ts:156333](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L156333)
 
 ## Methods
 
@@ -151,7 +151,7 @@ main.ts:156477
 
 #### Defined in
 
-main.ts:156490
+[main.ts:156346](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L156346)
 
 ___
 
@@ -171,7 +171,7 @@ ___
 
 #### Defined in
 
-main.ts:156511
+[main.ts:156367](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L156367)
 
 ___
 
@@ -191,4 +191,4 @@ ___
 
 #### Defined in
 
-main.ts:156504
+[main.ts:156360](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L156360)

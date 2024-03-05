@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IMerchantGoogleProductsTaskGetAdvancedResultInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IMerchantGoogleProductsTaskGetAdvancedResultInfo
 
 # Interface: IMerchantGoogleProductsTaskGetAdvancedResultInfo
 
@@ -37,7 +37,7 @@ you can use it to make sure that we provided accurate results
 
 #### Defined in
 
-main.ts:165613
+[main.ts:165493](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L165493)
 
 ___
 
@@ -52,7 +52,7 @@ example:
 
 #### Defined in
 
-main.ts:165618
+[main.ts:165498](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L165498)
 
 ___
 
@@ -67,7 +67,7 @@ google_shopping_sponsored_carousel, google_shopping_paid, google_shopping_serp
 
 #### Defined in
 
-main.ts:165626
+[main.ts:165506](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L165506)
 
 ___
 
@@ -81,7 +81,7 @@ if there are none, equals null
 
 #### Defined in
 
-main.ts:165632
+[main.ts:165512](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L165512)
 
 ___
 
@@ -93,7 +93,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:165628
+[main.ts:165508](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L165508)
 
 ___
 
@@ -106,7 +106,7 @@ keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a s
 
 #### Defined in
 
-main.ts:165602
+[main.ts:165482](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L165482)
 
 ___
 
@@ -118,7 +118,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:165610
+[main.ts:165490](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L165490)
 
 ___
 
@@ -130,7 +130,7 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:165608
+[main.ts:165488](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L165488)
 
 ___
 
@@ -142,7 +142,7 @@ search engine domain in a POST array
 
 #### Defined in
 
-main.ts:165606
+[main.ts:165486](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L165486)
 
 ___
 
@@ -155,7 +155,7 @@ if the search engine provided results for a keyword that was corrected, we will 
 
 #### Defined in
 
-main.ts:165621
+[main.ts:165501](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L165501)
 
 ___
 
@@ -167,4 +167,4 @@ type of element
 
 #### Defined in
 
-main.ts:165604
+[main.ts:165484](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L165484)

@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / BusinessDataYelpSearchTaskPostRequestInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / BusinessDataYelpSearchTaskPostRequestInfo
 
 # Class: BusinessDataYelpSearchTaskPostRequestInfo
 
@@ -54,7 +54,7 @@
 
 #### Defined in
 
-main.ts:203543
+[main.ts:203423](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L203423)
 
 ## Properties
 
@@ -75,7 +75,7 @@ maximal value: 70
 
 #### Defined in
 
-main.ts:203504
+[main.ts:203384](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L203384)
 
 ___
 
@@ -96,7 +96,7 @@ Note: if the keyword is not specified, the results will be returned based on the
 
 #### Defined in
 
-main.ts:203461
+[main.ts:203341](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L203341)
 
 ___
 
@@ -117,7 +117,7 @@ en
 
 #### Defined in
 
-main.ts:203497
+[main.ts:203377](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L203377)
 
 ___
 
@@ -138,7 +138,7 @@ English
 
 #### Defined in
 
-main.ts:203490
+[main.ts:203370](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L203370)
 
 ___
 
@@ -159,7 +159,7 @@ example:
 
 #### Defined in
 
-main.ts:203483
+[main.ts:203363](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L203363)
 
 ___
 
@@ -180,7 +180,7 @@ West Los Angeles,California,United States
 
 #### Defined in
 
-main.ts:203476
+[main.ts:203356](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L203356)
 
 ___
 
@@ -204,7 +204,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-main.ts:203539
+[main.ts:203419](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L203419)
 
 ___
 
@@ -228,7 +228,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-main.ts:203529
+[main.ts:203409](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L203409)
 
 ___
 
@@ -250,7 +250,7 @@ The cost can be calculated on the Pricing page.
 
 #### Defined in
 
-main.ts:203469
+[main.ts:203349](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L203349)
 
 ___
 
@@ -273,7 +273,7 @@ default value: recommended
 
 #### Defined in
 
-main.ts:203513
+[main.ts:203393](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L203393)
 
 ___
 
@@ -293,7 +293,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:203519
+[main.ts:203399](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L203399)
 
 ## Methods
 
@@ -313,7 +313,7 @@ main.ts:203519
 
 #### Defined in
 
-main.ts:203552
+[main.ts:203432](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L203432)
 
 ___
 
@@ -333,7 +333,7 @@ ___
 
 #### Defined in
 
-main.ts:203579
+[main.ts:203459](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L203459)
 
 ___
 
@@ -353,4 +353,4 @@ ___
 
 #### Defined in
 
-main.ts:203572
+[main.ts:203452](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L203452)

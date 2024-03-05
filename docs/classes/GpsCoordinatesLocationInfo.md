@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / GpsCoordinatesLocationInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / GpsCoordinatesLocationInfo
 
 # Class: GpsCoordinatesLocationInfo
 
@@ -45,7 +45,7 @@
 
 #### Defined in
 
-main.ts:193520
+[main.ts:193400](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L193400)
 
 ## Properties
 
@@ -63,7 +63,7 @@ example:
 
 #### Defined in
 
-main.ts:193512
+[main.ts:193392](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L193392)
 
 ___
 
@@ -81,7 +81,7 @@ example:
 
 #### Defined in
 
-main.ts:193516
+[main.ts:193396](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L193396)
 
 ## Methods
 
@@ -101,7 +101,7 @@ main.ts:193516
 
 #### Defined in
 
-main.ts:193529
+[main.ts:193409](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L193409)
 
 ___
 
@@ -121,7 +121,7 @@ ___
 
 #### Defined in
 
-main.ts:193547
+[main.ts:193427](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L193427)
 
 ___
 
@@ -141,4 +141,4 @@ ___
 
 #### Defined in
 
-main.ts:193540
+[main.ts:193420](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L193420)

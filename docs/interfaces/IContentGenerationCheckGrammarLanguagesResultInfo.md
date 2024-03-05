@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IContentGenerationCheckGrammarLanguagesResultInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IContentGenerationCheckGrammarLanguagesResultInfo
 
 # Interface: IContentGenerationCheckGrammarLanguagesResultInfo
 
@@ -27,7 +27,7 @@ language code according to ISO 639-1
 
 #### Defined in
 
-main.ts:161962
+[main.ts:161842](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L161842)
 
 ___
 
@@ -39,4 +39,4 @@ language name
 
 #### Defined in
 
-main.ts:161960
+[main.ts:161840](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L161840)

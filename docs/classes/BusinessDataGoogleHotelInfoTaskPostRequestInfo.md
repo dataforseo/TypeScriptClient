@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / BusinessDataGoogleHotelInfoTaskPostRequestInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / BusinessDataGoogleHotelInfoTaskPostRequestInfo
 
 # Class: BusinessDataGoogleHotelInfoTaskPostRequestInfo
 
@@ -70,7 +70,7 @@
 
 #### Defined in
 
-main.ts:194990
+[main.ts:194870](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L194870)
 
 ## Properties
 
@@ -90,7 +90,7 @@ example:
 
 #### Defined in
 
-main.ts:194972
+[main.ts:194852](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L194852)
 
 ___
 
@@ -112,7 +112,7 @@ example:
 
 #### Defined in
 
-main.ts:194952
+[main.ts:194832](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L194832)
 
 ___
 
@@ -135,7 +135,7 @@ example:
 
 #### Defined in
 
-main.ts:194961
+[main.ts:194841](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L194841)
 
 ___
 
@@ -157,7 +157,7 @@ set the following value if you want to include one 13-years-old child and one 8-
 
 #### Defined in
 
-main.ts:194980
+[main.ts:194860](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L194860)
 
 ___
 
@@ -176,7 +176,7 @@ example:
 
 #### Defined in
 
-main.ts:194966
+[main.ts:194846](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L194846)
 
 ___
 
@@ -198,7 +198,7 @@ ChYIq6SB--i6p6cpGgovbS8wN2s5ODZfEAE
 
 #### Defined in
 
-main.ts:194944
+[main.ts:194824](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L194824)
 
 ___
 
@@ -232,7 +232,7 @@ learn more about the cid and place_id identifiers in this help center article
 
 #### Defined in
 
-main.ts:183230
+[main.ts:183110](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L183110)
 
 ___
 
@@ -257,7 +257,7 @@ en
 
 #### Defined in
 
-main.ts:183275
+[main.ts:183155](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L183155)
 
 ___
 
@@ -282,7 +282,7 @@ English
 
 #### Defined in
 
-main.ts:183268
+[main.ts:183148](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L183148)
 
 ___
 
@@ -307,7 +307,7 @@ example:
 
 #### Defined in
 
-main.ts:183252
+[main.ts:183132](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L183132)
 
 ___
 
@@ -334,7 +334,7 @@ example:
 
 #### Defined in
 
-main.ts:183261
+[main.ts:183141](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L183141)
 
 ___
 
@@ -359,7 +359,7 @@ London,England,United Kingdom
 
 #### Defined in
 
-main.ts:183245
+[main.ts:183125](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L183125)
 
 ___
 
@@ -387,7 +387,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-main.ts:183301
+[main.ts:183181](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L183181)
 
 ___
 
@@ -407,7 +407,7 @@ advanced, html
 
 #### Defined in
 
-main.ts:194986
+[main.ts:194866](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L194866)
 
 ___
 
@@ -435,7 +435,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-main.ts:183291
+[main.ts:183171](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L183171)
 
 ___
 
@@ -461,7 +461,7 @@ The cost can be calculated on the Pricing page.
 
 #### Defined in
 
-main.ts:183238
+[main.ts:183118](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L183118)
 
 ___
 
@@ -485,7 +485,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:183281
+[main.ts:183161](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L183161)
 
 ## Methods
 
@@ -509,7 +509,7 @@ main.ts:183281
 
 #### Defined in
 
-main.ts:194994
+[main.ts:194874](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L194874)
 
 ___
 
@@ -533,7 +533,7 @@ ___
 
 #### Defined in
 
-main.ts:195022
+[main.ts:194902](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L194902)
 
 ___
 
@@ -557,4 +557,4 @@ ___
 
 #### Defined in
 
-main.ts:195015
+[main.ts:194895](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L194895)

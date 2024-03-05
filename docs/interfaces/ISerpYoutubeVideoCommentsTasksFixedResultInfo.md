@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / ISerpYoutubeVideoCommentsTasksFixedResultInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / ISerpYoutubeVideoCommentsTasksFixedResultInfo
 
 # Interface: ISerpYoutubeVideoCommentsTasksFixedResultInfo
 
@@ -33,7 +33,7 @@ date when the task was fixed (in the UTC format)
 
 #### Defined in
 
-main.ts:61842
+[main.ts:61698](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L61698)
 
 ___
 
@@ -46,7 +46,7 @@ if SERP Advanced is not supported in the specified endpoint, the value will be n
 
 #### Defined in
 
-main.ts:61850
+[main.ts:61706](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L61706)
 
 ___
 
@@ -59,7 +59,7 @@ if SERP HTML is not supported in the specified endpoint, the value will be null
 
 #### Defined in
 
-main.ts:61853
+[main.ts:61709](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L61709)
 
 ___
 
@@ -72,7 +72,7 @@ if SERP Regular is not supported in the specified endpoint, the value will be nu
 
 #### Defined in
 
-main.ts:61847
+[main.ts:61703](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L61703)
 
 ___
 
@@ -85,7 +85,7 @@ unique task identifier in our system in the UUID format
 
 #### Defined in
 
-main.ts:61835
+[main.ts:61691](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L61691)
 
 ___
 
@@ -97,7 +97,7 @@ search engine specified when setting the task
 
 #### Defined in
 
-main.ts:61837
+[main.ts:61693](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L61693)
 
 ___
 
@@ -110,7 +110,7 @@ can take the following values: video_comments
 
 #### Defined in
 
-main.ts:61840
+[main.ts:61696](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L61696)
 
 ___
 
@@ -122,4 +122,4 @@ user-defined task identifier
 
 #### Defined in
 
-main.ts:61844
+[main.ts:61700](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L61700)

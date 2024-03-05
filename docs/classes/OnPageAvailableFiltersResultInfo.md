@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / OnPageAvailableFiltersResultInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / OnPageAvailableFiltersResultInfo
 
 # Class: OnPageAvailableFiltersResultInfo
 
@@ -50,7 +50,7 @@
 
 #### Defined in
 
-main.ts:142442
+[main.ts:142298](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L142298)
 
 ## Properties
 
@@ -68,7 +68,7 @@ main.ts:142442
 
 #### Defined in
 
-main.ts:142438
+[main.ts:142294](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L142294)
 
 ___
 
@@ -86,7 +86,7 @@ ___
 
 #### Defined in
 
-main.ts:142435
+[main.ts:142291](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L142291)
 
 ___
 
@@ -104,7 +104,7 @@ ___
 
 #### Defined in
 
-main.ts:142434
+[main.ts:142290](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L142290)
 
 ___
 
@@ -122,7 +122,7 @@ ___
 
 #### Defined in
 
-main.ts:142433
+[main.ts:142289](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L142289)
 
 ___
 
@@ -140,7 +140,7 @@ ___
 
 #### Defined in
 
-main.ts:142436
+[main.ts:142292](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L142292)
 
 ___
 
@@ -158,7 +158,7 @@ ___
 
 #### Defined in
 
-main.ts:142437
+[main.ts:142293](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L142293)
 
 ___
 
@@ -176,7 +176,7 @@ ___
 
 #### Defined in
 
-main.ts:142432
+[main.ts:142288](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L142288)
 
 ## Methods
 
@@ -196,7 +196,7 @@ main.ts:142432
 
 #### Defined in
 
-main.ts:142451
+[main.ts:142307](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L142307)
 
 ___
 
@@ -216,7 +216,7 @@ ___
 
 #### Defined in
 
-main.ts:142516
+[main.ts:142372](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L142372)
 
 ___
 
@@ -236,4 +236,4 @@ ___
 
 #### Defined in
 
-main.ts:142509
+[main.ts:142365](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L142365)

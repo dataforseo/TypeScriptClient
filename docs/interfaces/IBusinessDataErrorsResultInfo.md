@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IBusinessDataErrorsResultInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IBusinessDataErrorsResultInfo
 
 # Interface: IBusinessDataErrorsResultInfo
 
@@ -38,7 +38,7 @@ example:
 
 #### Defined in
 
-main.ts:187817
+[main.ts:187697](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L187697)
 
 ___
 
@@ -50,7 +50,7 @@ error code
 
 #### Defined in
 
-main.ts:187821
+[main.ts:187701](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L187701)
 
 ___
 
@@ -63,7 +63,7 @@ error message (see full list) or URL that caused an error
 
 #### Defined in
 
-main.ts:187824
+[main.ts:187704](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L187704)
 
 ___
 
@@ -75,7 +75,7 @@ corresponding API function
 
 #### Defined in
 
-main.ts:187819
+[main.ts:187699](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L187699)
 
 ___
 
@@ -87,7 +87,7 @@ HTTP status code
 
 #### Defined in
 
-main.ts:187831
+[main.ts:187711](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L187711)
 
 ___
 
@@ -99,7 +99,7 @@ HTTP method
 
 #### Defined in
 
-main.ts:187829
+[main.ts:187709](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L187709)
 
 ___
 
@@ -112,7 +112,7 @@ server response
 
 #### Defined in
 
-main.ts:187837
+[main.ts:187717](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L187717)
 
 ___
 
@@ -125,7 +125,7 @@ for tasks set with a pingback/postback, this field will show the time it took yo
 
 #### Defined in
 
-main.ts:187834
+[main.ts:187714](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L187714)
 
 ___
 
@@ -138,7 +138,7 @@ URL you used for making an API call or pingback/postback URL
 
 #### Defined in
 
-main.ts:187827
+[main.ts:187707](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L187707)
 
 ___
 
@@ -150,4 +150,4 @@ id of the task
 
 #### Defined in
 
-main.ts:187812
+[main.ts:187692](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L187692)

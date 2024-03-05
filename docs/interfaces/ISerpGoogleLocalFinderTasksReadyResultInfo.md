@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / ISerpGoogleLocalFinderTasksReadyResultInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / ISerpGoogleLocalFinderTasksReadyResultInfo
 
 # Interface: ISerpGoogleLocalFinderTasksReadyResultInfo
 
@@ -33,7 +33,7 @@ date when the task was posted (in the UTC format)
 
 #### Defined in
 
-main.ts:40284
+[main.ts:40142](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L40142)
 
 ___
 
@@ -46,7 +46,7 @@ if SERP Advanced is not supported in the specified endpoint, the value will be n
 
 #### Defined in
 
-main.ts:40292
+[main.ts:40150](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L40150)
 
 ___
 
@@ -59,7 +59,7 @@ if SERP HTML is not supported in the specified endpoint, the value will be null
 
 #### Defined in
 
-main.ts:40295
+[main.ts:40153](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L40153)
 
 ___
 
@@ -72,7 +72,7 @@ if SERP Regular is not supported in the specified endpoint, the value will be nu
 
 #### Defined in
 
-main.ts:40289
+[main.ts:40147](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L40147)
 
 ___
 
@@ -85,7 +85,7 @@ unique task identifier in our system in the UUID format
 
 #### Defined in
 
-main.ts:40277
+[main.ts:40135](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L40135)
 
 ___
 
@@ -97,7 +97,7 @@ search engine specified when setting the task
 
 #### Defined in
 
-main.ts:40279
+[main.ts:40137](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L40137)
 
 ___
 
@@ -110,7 +110,7 @@ can take the following values: local_finder
 
 #### Defined in
 
-main.ts:40282
+[main.ts:40140](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L40140)
 
 ___
 
@@ -122,4 +122,4 @@ user-defined task identifier
 
 #### Defined in
 
-main.ts:40286
+[main.ts:40144](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L40144)

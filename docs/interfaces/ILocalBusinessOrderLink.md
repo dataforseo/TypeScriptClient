@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / ILocalBusinessOrderLink
+[dataforseo-client](../README.md) / [Exports](../modules.md) / ILocalBusinessOrderLink
 
 # Interface: ILocalBusinessOrderLink
 
@@ -32,4 +32,4 @@ lists available delivery services
 
 #### Defined in
 
-main.ts:22515
+[main.ts:22373](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L22373)

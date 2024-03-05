@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / KeywordsDataGoogleTrendsExploreLiveRequestInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / KeywordsDataGoogleTrendsExploreLiveRequestInfo
 
 # Class: KeywordsDataGoogleTrendsExploreLiveRequestInfo
 
@@ -55,7 +55,7 @@
 
 #### Defined in
 
-main.ts:121668
+[main.ts:121524](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L121524)
 
 ## Properties
 
@@ -74,7 +74,7 @@ you can receive the list of available categories with their category_code by mak
 
 #### Defined in
 
-main.ts:121620
+[main.ts:121476](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L121476)
 
 ___
 
@@ -97,7 +97,7 @@ example:
 
 #### Defined in
 
-main.ts:121629
+[main.ts:121485](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L121485)
 
 ___
 
@@ -118,7 +118,7 @@ example:
 
 #### Defined in
 
-main.ts:121636
+[main.ts:121492](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L121492)
 
 ___
 
@@ -144,7 +144,7 @@ possible values:
 
 #### Defined in
 
-main.ts:121658
+[main.ts:121514](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L121514)
 
 ___
 
@@ -164,7 +164,7 @@ Note: comma symbols (,) in the specified keywords will be unset and ignored
 
 #### Defined in
 
-main.ts:121581
+[main.ts:121437](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L121437)
 
 ___
 
@@ -186,7 +186,7 @@ en
 
 #### Defined in
 
-main.ts:121613
+[main.ts:121469](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L121469)
 
 ___
 
@@ -208,7 +208,7 @@ English
 
 #### Defined in
 
-main.ts:121605
+[main.ts:121461](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L121461)
 
 ___
 
@@ -230,7 +230,7 @@ example:
 
 #### Defined in
 
-main.ts:121597
+[main.ts:121453](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L121453)
 
 ___
 
@@ -252,7 +252,7 @@ United Kingdom
 
 #### Defined in
 
-main.ts:121589
+[main.ts:121445](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L121445)
 
 ___
 
@@ -272,7 +272,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:121664
+[main.ts:121520](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L121520)
 
 ___
 
@@ -296,7 +296,7 @@ possible values for news, youtube, images, froogle:
 
 #### Defined in
 
-main.ts:121646
+[main.ts:121502](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L121502)
 
 ___
 
@@ -312,7 +312,7 @@ type of element
 
 #### Defined in
 
-main.ts:121615
+[main.ts:121471](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L121471)
 
 ## Methods
 
@@ -332,7 +332,7 @@ main.ts:121615
 
 #### Defined in
 
-main.ts:121677
+[main.ts:121533](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L121533)
 
 ___
 
@@ -352,7 +352,7 @@ ___
 
 #### Defined in
 
-main.ts:121713
+[main.ts:121569](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L121569)
 
 ___
 
@@ -372,4 +372,4 @@ ___
 
 #### Defined in
 
-main.ts:121706
+[main.ts:121562](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L121562)

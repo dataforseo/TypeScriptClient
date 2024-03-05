@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / AppUserProfileInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / AppUserProfileInfo
 
 # Class: AppUserProfileInfo
 
@@ -45,7 +45,7 @@
 
 #### Defined in
 
-main.ts:181282
+[main.ts:181162](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L181162)
 
 ## Properties
 
@@ -61,7 +61,7 @@ URL to the reviewer’s profile image
 
 #### Defined in
 
-main.ts:181278
+[main.ts:181158](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L181158)
 
 ___
 
@@ -77,7 +77,7 @@ profile name of the reviewer
 
 #### Defined in
 
-main.ts:181276
+[main.ts:181156](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L181156)
 
 ## Methods
 
@@ -97,7 +97,7 @@ main.ts:181276
 
 #### Defined in
 
-main.ts:181291
+[main.ts:181171](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L181171)
 
 ___
 
@@ -117,7 +117,7 @@ ___
 
 #### Defined in
 
-main.ts:181309
+[main.ts:181189](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L181189)
 
 ___
 
@@ -137,4 +137,4 @@ ___
 
 #### Defined in
 
-main.ts:181302
+[main.ts:181182](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L181182)

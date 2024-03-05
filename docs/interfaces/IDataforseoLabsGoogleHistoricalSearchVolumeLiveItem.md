@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IDataforseoLabsGoogleHistoricalSearchVolumeLiveItem
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IDataforseoLabsGoogleHistoricalSearchVolumeLiveItem
 
 # Interface: IDataforseoLabsGoogleHistoricalSearchVolumeLiveItem
 
@@ -38,7 +38,7 @@ learn more about impressions in this help center article
 
 #### Defined in
 
-main.ts:82158
+[main.ts:82014](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L82014)
 
 ___
 
@@ -51,7 +51,7 @@ keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a s
 
 #### Defined in
 
-main.ts:82139
+[main.ts:81995](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L81995)
 
 ___
 
@@ -63,7 +63,7 @@ keyword data for the returned keyword idea
 
 #### Defined in
 
-main.ts:82150
+[main.ts:82006](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L82006)
 
 ___
 
@@ -75,7 +75,7 @@ additional information about the keyword
 
 #### Defined in
 
-main.ts:82152
+[main.ts:82008](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L82008)
 
 ___
 
@@ -87,7 +87,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:82144
+[main.ts:82000](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L82000)
 
 ___
 
@@ -100,7 +100,7 @@ if there is no data, then the value is null
 
 #### Defined in
 
-main.ts:82142
+[main.ts:81998](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L81998)
 
 ___
 
@@ -112,7 +112,7 @@ search engine type
 
 #### Defined in
 
-main.ts:82136
+[main.ts:81992](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L81992)
 
 ___
 
@@ -126,7 +126,7 @@ if false, the results are returned for Google search sites only
 
 #### Defined in
 
-main.ts:82148
+[main.ts:82004](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L82004)
 
 ___
 
@@ -139,4 +139,4 @@ the value will be null if you didn’t set the field include_serp_info to true i
 
 #### Defined in
 
-main.ts:82161
+[main.ts:82017](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L82017)

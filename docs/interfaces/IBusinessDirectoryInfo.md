@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IBusinessDirectoryInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IBusinessDirectoryInfo
 
 # Interface: IBusinessDirectoryInfo
 
@@ -29,7 +29,7 @@ possible item types: google_business_info
 
 #### Defined in
 
-main.ts:191487
+[main.ts:191367](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L191367)
 
 ___
 
@@ -42,4 +42,4 @@ domain of the online menu system
 
 #### Defined in
 
-main.ts:191483
+[main.ts:191363](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L191363)

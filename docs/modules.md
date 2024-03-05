@@ -1,6 +1,6 @@
-[Documentation](README.md) / Exports
+[dataforseo-client](README.md) / Exports
 
-# Documentation
+# dataforseo-client
 
 ## Table of contents
 
@@ -593,7 +593,6 @@
 - [CommercialUnitsSerpElementItem](classes/CommercialUnitsSerpElementItem.md)
 - [ConceptGroupInfo](classes/ConceptGroupInfo.md)
 - [ConceptInfo](classes/ConceptInfo.md)
-- [ConnotationTypeInfo](classes/ConnotationTypeInfo.md)
 - [ContentAnalysisApi](classes/ContentAnalysisApi.md)
 - [ContentAnalysisAvailableFiltersResponseInfo](classes/ContentAnalysisAvailableFiltersResponseInfo.md)
 - [ContentAnalysisAvailableFiltersResultInfo](classes/ContentAnalysisAvailableFiltersResultInfo.md)
@@ -1617,7 +1616,6 @@
 - [ScriptResourceElementItem](classes/ScriptResourceElementItem.md)
 - [SearchIntentInfo](classes/SearchIntentInfo.md)
 - [SentimentConnotationDistribution](classes/SentimentConnotationDistribution.md)
-- [SentimentConnotationInfo](classes/SentimentConnotationInfo.md)
 - [SerpAiSummaryItem](classes/SerpAiSummaryItem.md)
 - [SerpAiSummaryRequestInfo](classes/SerpAiSummaryRequestInfo.md)
 - [SerpAiSummaryResponseInfo](classes/SerpAiSummaryResponseInfo.md)
@@ -2686,7 +2684,6 @@
 - [ICommercialUnitsSerpElementItem](interfaces/ICommercialUnitsSerpElementItem.md)
 - [IConceptGroupInfo](interfaces/IConceptGroupInfo.md)
 - [IConceptInfo](interfaces/IConceptInfo.md)
-- [IConnotationTypeInfo](interfaces/IConnotationTypeInfo.md)
 - [IContentAnalysisAvailableFiltersResponseInfo](interfaces/IContentAnalysisAvailableFiltersResponseInfo.md)
 - [IContentAnalysisAvailableFiltersResultInfo](interfaces/IContentAnalysisAvailableFiltersResultInfo.md)
 - [IContentAnalysisAvailableFiltersTaskInfo](interfaces/IContentAnalysisAvailableFiltersTaskInfo.md)
@@ -3703,7 +3700,6 @@
 - [IScriptResourceElementItem](interfaces/IScriptResourceElementItem.md)
 - [ISearchIntentInfo](interfaces/ISearchIntentInfo.md)
 - [ISentimentConnotationDistribution](interfaces/ISentimentConnotationDistribution.md)
-- [ISentimentConnotationInfo](interfaces/ISentimentConnotationInfo.md)
 - [ISerpAiSummaryItem](interfaces/ISerpAiSummaryItem.md)
 - [ISerpAiSummaryRequestInfo](interfaces/ISerpAiSummaryRequestInfo.md)
 - [ISerpAiSummaryResponseInfo](interfaces/ISerpAiSummaryResponseInfo.md)

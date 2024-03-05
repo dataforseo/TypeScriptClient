@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / BacklinksSummaryLiveRequestInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / BacklinksSummaryLiveRequestInfo
 
 # Class: BacklinksSummaryLiveRequestInfo
 
@@ -50,7 +50,7 @@
 
 #### Defined in
 
-main.ts:129395
+[main.ts:129251](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L129251)
 
 ## Properties
 
@@ -72,7 +72,7 @@ example:
 
 #### Defined in
 
-main.ts:129385
+[main.ts:129241](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L129241)
 
 ___
 
@@ -95,7 +95,7 @@ default value: live
 
 #### Defined in
 
-main.ts:129377
+[main.ts:129233](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L129233)
 
 ___
 
@@ -115,7 +115,7 @@ default value: true
 
 #### Defined in
 
-main.ts:129357
+[main.ts:129213](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L129213)
 
 ___
 
@@ -134,7 +134,7 @@ default value: true
 
 #### Defined in
 
-main.ts:129351
+[main.ts:129207](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L129207)
 
 ___
 
@@ -159,7 +159,7 @@ maximum value: 1000
 
 #### Defined in
 
-main.ts:129368
+[main.ts:129224](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L129224)
 
 ___
 
@@ -179,7 +179,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:129391
+[main.ts:129247](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L129247)
 
 ___
 
@@ -198,7 +198,7 @@ a page should be specified with absolute URL (including http:// or https://)
 
 #### Defined in
 
-main.ts:129346
+[main.ts:129202](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L129202)
 
 ## Methods
 
@@ -218,7 +218,7 @@ main.ts:129346
 
 #### Defined in
 
-main.ts:129404
+[main.ts:129260](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L129260)
 
 ___
 
@@ -238,7 +238,7 @@ ___
 
 #### Defined in
 
-main.ts:129431
+[main.ts:129287](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L129287)
 
 ___
 
@@ -258,4 +258,4 @@ ___
 
 #### Defined in
 
-main.ts:129424
+[main.ts:129280](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L129280)

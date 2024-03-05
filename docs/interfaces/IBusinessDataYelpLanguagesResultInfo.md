@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IBusinessDataYelpLanguagesResultInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IBusinessDataYelpLanguagesResultInfo
 
 # Interface: IBusinessDataYelpLanguagesResultInfo
 
@@ -27,7 +27,7 @@ language code according to ISO 639-1
 
 #### Defined in
 
-main.ts:203339
+[main.ts:203219](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L203219)
 
 ___
 
@@ -39,4 +39,4 @@ language name
 
 #### Defined in
 
-main.ts:203337
+[main.ts:203217](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L203217)

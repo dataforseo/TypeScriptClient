@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / DataforseoLabsGoogleSubdomainsLiveResultInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / DataforseoLabsGoogleSubdomainsLiveResultInfo
 
 # Class: DataforseoLabsGoogleSubdomainsLiveResultInfo
 
@@ -50,7 +50,7 @@
 
 #### Defined in
 
-main.ts:89854
+[main.ts:89710](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L89710)
 
 ## Properties
 
@@ -66,7 +66,7 @@ contains subdomains and related data
 
 #### Defined in
 
-main.ts:89850
+[main.ts:89706](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L89706)
 
 ___
 
@@ -82,7 +82,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:89848
+[main.ts:89704](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L89704)
 
 ___
 
@@ -98,7 +98,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:89844
+[main.ts:89700](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L89700)
 
 ___
 
@@ -114,7 +114,7 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:89842
+[main.ts:89698](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L89698)
 
 ___
 
@@ -130,7 +130,7 @@ search engine type
 
 #### Defined in
 
-main.ts:89838
+[main.ts:89694](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L89694)
 
 ___
 
@@ -146,7 +146,7 @@ domain in a POST array
 
 #### Defined in
 
-main.ts:89840
+[main.ts:89696](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L89696)
 
 ___
 
@@ -162,7 +162,7 @@ total amount of results in our database relevant to your request
 
 #### Defined in
 
-main.ts:89846
+[main.ts:89702](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L89702)
 
 ## Methods
 
@@ -182,7 +182,7 @@ main.ts:89846
 
 #### Defined in
 
-main.ts:89863
+[main.ts:89719](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L89719)
 
 ___
 
@@ -202,7 +202,7 @@ ___
 
 #### Defined in
 
-main.ts:89890
+[main.ts:89746](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L89746)
 
 ___
 
@@ -222,4 +222,4 @@ ___
 
 #### Defined in
 
-main.ts:89883
+[main.ts:89739](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L89739)

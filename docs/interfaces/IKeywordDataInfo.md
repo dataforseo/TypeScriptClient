@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IKeywordDataInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IKeywordDataInfo
 
 # Interface: IKeywordDataInfo
 
@@ -36,7 +36,7 @@ this object provides the average number of backlinks, referring pages and domain
 
 #### Defined in
 
-main.ts:79882
+[main.ts:79738](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L79738)
 
 ___
 
@@ -51,7 +51,7 @@ learn more about impressions in this help center article
 
 #### Defined in
 
-main.ts:79876
+[main.ts:79732](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L79732)
 
 ___
 
@@ -63,7 +63,7 @@ returned keyword idea
 
 #### Defined in
 
-main.ts:79863
+[main.ts:79719](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L79719)
 
 ___
 
@@ -75,7 +75,7 @@ keyword data for the returned keyword idea
 
 #### Defined in
 
-main.ts:79869
+[main.ts:79725](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L79725)
 
 ___
 
@@ -87,7 +87,7 @@ additional information about the keyword
 
 #### Defined in
 
-main.ts:79871
+[main.ts:79727](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L79727)
 
 ___
 
@@ -99,7 +99,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:79867
+[main.ts:79723](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L79723)
 
 ___
 
@@ -111,7 +111,7 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:79865
+[main.ts:79721](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L79721)
 
 ___
 
@@ -123,7 +123,7 @@ search engine type
 
 #### Defined in
 
-main.ts:79861
+[main.ts:79717](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L79717)
 
 ___
 
@@ -136,7 +136,7 @@ learn about search intent in this help center article
 
 #### Defined in
 
-main.ts:79885
+[main.ts:79741](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L79741)
 
 ___
 
@@ -149,4 +149,4 @@ the value will be null if you didn’t set the field include_serp_info to true i
 
 #### Defined in
 
-main.ts:79879
+[main.ts:79735](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L79735)

@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IOnPagePageScreenshotRequestInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IOnPagePageScreenshotRequestInfo
 
 # Interface: IOnPagePageScreenshotRequestInfo
 
@@ -40,7 +40,7 @@ note: if you do not specify this parameter, some websites may deny access; in th
 
 #### Defined in
 
-main.ts:151743
+[main.ts:151599](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L151599)
 
 ___
 
@@ -68,7 +68,7 @@ browser_screen_scale_factor: 2
 
 #### Defined in
 
-main.ts:151768
+[main.ts:151624](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L151624)
 
 ___
 
@@ -85,7 +85,7 @@ maximum value, in pixels: 9999
 
 #### Defined in
 
-main.ts:151782
+[main.ts:151638](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L151638)
 
 ___
 
@@ -102,7 +102,7 @@ maximum value: 3
 
 #### Defined in
 
-main.ts:151789
+[main.ts:151645](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L151645)
 
 ___
 
@@ -119,7 +119,7 @@ maximum value, in pixels: 9999
 
 #### Defined in
 
-main.ts:151775
+[main.ts:151631](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L151631)
 
 ___
 
@@ -143,7 +143,7 @@ Note: if you use this parameter, additional charges will apply; learn more about
 
 #### Defined in
 
-main.ts:151820
+[main.ts:151676](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L151676)
 
 ___
 
@@ -160,7 +160,7 @@ default value: Mozilla/5.0 (compatible; RSiteAuditor)
 
 #### Defined in
 
-main.ts:151750
+[main.ts:151606](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L151606)
 
 ___
 
@@ -176,7 +176,7 @@ false
 
 #### Defined in
 
-main.ts:151800
+[main.ts:151656](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L151656)
 
 ___
 
@@ -192,7 +192,7 @@ Note: if you use this parameter, additional charges will apply; learn more about
 
 #### Defined in
 
-main.ts:151806
+[main.ts:151662](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L151662)
 
 ___
 
@@ -207,7 +207,7 @@ default value: true
 
 #### Defined in
 
-main.ts:151794
+[main.ts:151650](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L151650)
 
 ___
 
@@ -223,7 +223,7 @@ possible values: us, de
 
 #### Defined in
 
-main.ts:151826
+[main.ts:151682](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L151682)
 
 ___
 
@@ -238,4 +238,4 @@ note: if the URL you indicate here returns a 404 status code or the indicated va
 
 #### Defined in
 
-main.ts:151738
+[main.ts:151594](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L151594)

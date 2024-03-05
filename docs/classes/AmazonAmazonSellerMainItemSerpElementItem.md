@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / AmazonAmazonSellerMainItemSerpElementItem
+[dataforseo-client](../README.md) / [Exports](../modules.md) / AmazonAmazonSellerMainItemSerpElementItem
 
 # Class: AmazonAmazonSellerMainItemSerpElementItem
 
@@ -66,7 +66,7 @@
 
 #### Defined in
 
-main.ts:174269
+[main.ts:174149](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L174149)
 
 ## Properties
 
@@ -80,7 +80,7 @@ main.ts:174269
 
 #### Defined in
 
-main.ts:20756
+[main.ts:20756](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L20756)
 
 ___
 
@@ -97,7 +97,7 @@ condition of the product offered by the seller
 
 #### Defined in
 
-main.ts:174259
+[main.ts:174139](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L174139)
 
 ___
 
@@ -114,7 +114,7 @@ expanded details on the condition of the product offered by the seller
 
 #### Defined in
 
-main.ts:174262
+[main.ts:174142](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L174142)
 
 ___
 
@@ -131,7 +131,7 @@ delivery information including free and fast delivery date ranges
 
 #### Defined in
 
-main.ts:174265
+[main.ts:174145](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L174145)
 
 ___
 
@@ -149,7 +149,7 @@ left, right
 
 #### Defined in
 
-main.ts:174242
+[main.ts:174122](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L174122)
 
 ___
 
@@ -166,7 +166,7 @@ if there are no details, the value will be null
 
 #### Defined in
 
-main.ts:174253
+[main.ts:174133](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L174133)
 
 ___
 
@@ -183,7 +183,7 @@ absolute position among all the elements found in Amazon Sellers SERP
 
 #### Defined in
 
-main.ts:174238
+[main.ts:174118](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L174118)
 
 ___
 
@@ -200,7 +200,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-main.ts:174235
+[main.ts:174115](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L174115)
 
 ___
 
@@ -217,7 +217,7 @@ seller popularity rate based on customer reviews
 
 #### Defined in
 
-main.ts:174256
+[main.ts:174136](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L174136)
 
 ___
 
@@ -233,7 +233,7 @@ business name of the seller
 
 #### Defined in
 
-main.ts:174246
+[main.ts:174126](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L174126)
 
 ___
 
@@ -249,7 +249,7 @@ url forwarding to the seller’s page on Amazon
 
 #### Defined in
 
-main.ts:174248
+[main.ts:174128](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L174128)
 
 ___
 
@@ -265,7 +265,7 @@ sender company name
 
 #### Defined in
 
-main.ts:174250
+[main.ts:174130](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L174130)
 
 ___
 
@@ -281,7 +281,7 @@ XPath of the element
 
 #### Defined in
 
-main.ts:174244
+[main.ts:174124](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L174124)
 
 ## Methods
 
@@ -305,7 +305,7 @@ main.ts:174244
 
 #### Defined in
 
-main.ts:174274
+[main.ts:174154](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L174154)
 
 ___
 
@@ -329,7 +329,7 @@ ___
 
 #### Defined in
 
-main.ts:174303
+[main.ts:174183](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L174183)
 
 ___
 
@@ -353,4 +353,4 @@ ___
 
 #### Defined in
 
-main.ts:174296
+[main.ts:174176](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L174176)

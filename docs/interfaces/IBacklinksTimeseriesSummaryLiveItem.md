@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IBacklinksTimeseriesSummaryLiveItem
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IBacklinksTimeseriesSummaryLiveItem
 
 # Interface: IBacklinksTimeseriesSummaryLiveItem
 
@@ -37,7 +37,7 @@ number of backlinks for the given date
 
 #### Defined in
 
-main.ts:138744
+[main.ts:138600](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L138600)
 
 ___
 
@@ -49,7 +49,7 @@ number of nofollow backlinks for the given date
 
 #### Defined in
 
-main.ts:138746
+[main.ts:138602](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L138602)
 
 ___
 
@@ -64,7 +64,7 @@ example:
 
 #### Defined in
 
-main.ts:138739
+[main.ts:138595](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L138595)
 
 ___
 
@@ -77,7 +77,7 @@ learn more about the metric and how it is calculated in this help center article
 
 #### Defined in
 
-main.ts:138742
+[main.ts:138598](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L138598)
 
 ___
 
@@ -90,7 +90,7 @@ referring domains include subdomains that are counted as separate domains for th
 
 #### Defined in
 
-main.ts:138751
+[main.ts:138607](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L138607)
 
 ___
 
@@ -102,7 +102,7 @@ number of domains pointing at least one nofollow link to the target for the give
 
 #### Defined in
 
-main.ts:138753
+[main.ts:138609](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L138609)
 
 ___
 
@@ -115,7 +115,7 @@ number of IP addresses pointing to this page
 
 #### Defined in
 
-main.ts:138760
+[main.ts:138616](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L138616)
 
 ___
 
@@ -127,7 +127,7 @@ number of referring main domains for the given date
 
 #### Defined in
 
-main.ts:138755
+[main.ts:138611](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L138611)
 
 ___
 
@@ -139,7 +139,7 @@ number of main domains pointing at least one nofollow link to the target for the
 
 #### Defined in
 
-main.ts:138757
+[main.ts:138613](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L138613)
 
 ___
 
@@ -151,7 +151,7 @@ number of pages pointing to target for the given date
 
 #### Defined in
 
-main.ts:138748
+[main.ts:138604](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L138604)
 
 ___
 
@@ -163,7 +163,7 @@ number of referring subnetworks for the given date
 
 #### Defined in
 
-main.ts:138762
+[main.ts:138618](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L138618)
 
 ___
 
@@ -175,4 +175,4 @@ type of element
 
 #### Defined in
 
-main.ts:138734
+[main.ts:138590](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L138590)

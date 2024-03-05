@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / AmazonAmazonPaidSerpElementItem
+[dataforseo-client](../README.md) / [Exports](../modules.md) / AmazonAmazonPaidSerpElementItem
 
 # Class: AmazonAmazonPaidSerpElementItem
 
@@ -71,7 +71,7 @@
 
 #### Defined in
 
-main.ts:170827
+[main.ts:170707](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L170707)
 
 ## Properties
 
@@ -85,7 +85,7 @@ main.ts:170827
 
 #### Defined in
 
-main.ts:20756
+[main.ts:20756](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L20756)
 
 ___
 
@@ -101,7 +101,7 @@ number of product purchases in the past month
 
 #### Defined in
 
-main.ts:170792
+[main.ts:170672](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L170672)
 
 ___
 
@@ -119,7 +119,7 @@ USD
 
 #### Defined in
 
-main.ts:170804
+[main.ts:170684](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L170684)
 
 ___
 
@@ -138,7 +138,7 @@ B07G82D89J
 
 #### Defined in
 
-main.ts:170812
+[main.ts:170692](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L170692)
 
 ___
 
@@ -155,7 +155,7 @@ delivery information including free and fast delivery date ranges
 
 #### Defined in
 
-main.ts:170823
+[main.ts:170703](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L170703)
 
 ___
 
@@ -171,7 +171,7 @@ Amazon domain
 
 #### Defined in
 
-main.ts:170784
+[main.ts:170664](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L170664)
 
 ___
 
@@ -187,7 +187,7 @@ URL of the product image featured in the results
 
 #### Defined in
 
-main.ts:170790
+[main.ts:170670](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L170670)
 
 ___
 
@@ -204,7 +204,7 @@ if the value is true, the product is marked with the “Amazon’s choice” lab
 
 #### Defined in
 
-main.ts:170817
+[main.ts:170697](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L170697)
 
 ___
 
@@ -221,7 +221,7 @@ if the value is true, the product is marked with the “Best Seller” label
 
 #### Defined in
 
-main.ts:170820
+[main.ts:170700](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L170700)
 
 ___
 
@@ -239,7 +239,7 @@ example:
 
 #### Defined in
 
-main.ts:170796
+[main.ts:170676](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L170676)
 
 ___
 
@@ -257,7 +257,7 @@ example:
 
 #### Defined in
 
-main.ts:170800
+[main.ts:170680](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L170680)
 
 ___
 
@@ -274,7 +274,7 @@ absolute position among all the elements found in Amazon SERP
 
 #### Defined in
 
-main.ts:170780
+[main.ts:170660](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L170660)
 
 ___
 
@@ -291,7 +291,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-main.ts:170777
+[main.ts:170657](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L170657)
 
 ___
 
@@ -307,7 +307,7 @@ product rating info
 
 #### Defined in
 
-main.ts:170814
+[main.ts:170694](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L170694)
 
 ___
 
@@ -324,7 +324,7 @@ contains special offer details, including coupon and Subscribe & Save discounts
 
 #### Defined in
 
-main.ts:170807
+[main.ts:170687](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L170687)
 
 ___
 
@@ -340,7 +340,7 @@ product title
 
 #### Defined in
 
-main.ts:170786
+[main.ts:170666](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L170666)
 
 ___
 
@@ -356,7 +356,7 @@ the URL of the product page
 
 #### Defined in
 
-main.ts:170788
+[main.ts:170668](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L170668)
 
 ___
 
@@ -372,7 +372,7 @@ the XPath of the element
 
 #### Defined in
 
-main.ts:170782
+[main.ts:170662](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L170662)
 
 ## Methods
 
@@ -396,7 +396,7 @@ main.ts:170782
 
 #### Defined in
 
-main.ts:170832
+[main.ts:170712](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L170712)
 
 ___
 
@@ -420,7 +420,7 @@ ___
 
 #### Defined in
 
-main.ts:170870
+[main.ts:170750](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L170750)
 
 ___
 
@@ -444,4 +444,4 @@ ___
 
 #### Defined in
 
-main.ts:170863
+[main.ts:170743](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L170743)

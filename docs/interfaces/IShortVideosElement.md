@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IShortVideosElement
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IShortVideosElement
 
 # Interface: IShortVideosElement
 
@@ -30,7 +30,7 @@ domain where a link points
 
 #### Defined in
 
-main.ts:32826
+[main.ts:32684](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L32684)
 
 ___
 
@@ -43,7 +43,7 @@ indicates the source of information included in the element
 
 #### Defined in
 
-main.ts:32831
+[main.ts:32689](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L32689)
 
 ___
 
@@ -55,7 +55,7 @@ title of the row
 
 #### Defined in
 
-main.ts:32824
+[main.ts:32682](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L32682)
 
 ___
 
@@ -67,7 +67,7 @@ type of element
 
 #### Defined in
 
-main.ts:32822
+[main.ts:32680](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L32680)
 
 ___
 
@@ -79,4 +79,4 @@ URL
 
 #### Defined in
 
-main.ts:32828
+[main.ts:32686](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L32686)

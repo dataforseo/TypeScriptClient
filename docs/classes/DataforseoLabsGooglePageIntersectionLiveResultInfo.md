@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / DataforseoLabsGooglePageIntersectionLiveResultInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / DataforseoLabsGooglePageIntersectionLiveResultInfo
 
 # Class: DataforseoLabsGooglePageIntersectionLiveResultInfo
 
@@ -51,7 +51,7 @@
 
 #### Defined in
 
-main.ts:97380
+[main.ts:97236](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L97236)
 
 ## Properties
 
@@ -67,7 +67,7 @@ URLs you specified in a POST array that will be excluded from the results
 
 #### Defined in
 
-main.ts:97366
+[main.ts:97222](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L97222)
 
 ___
 
@@ -83,7 +83,7 @@ contains keywords, relevant SERP elements and related data
 
 #### Defined in
 
-main.ts:97376
+[main.ts:97232](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L97232)
 
 ___
 
@@ -99,7 +99,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:97374
+[main.ts:97230](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L97230)
 
 ___
 
@@ -115,7 +115,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:97370
+[main.ts:97226](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L97226)
 
 ___
 
@@ -131,7 +131,7 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:97368
+[main.ts:97224](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L97224)
 
 ___
 
@@ -151,7 +151,7 @@ URLs you specified a POST array
 
 #### Defined in
 
-main.ts:97364
+[main.ts:97220](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L97220)
 
 ___
 
@@ -167,7 +167,7 @@ search engine type
 
 #### Defined in
 
-main.ts:97362
+[main.ts:97218](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L97218)
 
 ___
 
@@ -183,7 +183,7 @@ total amount of results in our database relevant to your request
 
 #### Defined in
 
-main.ts:97372
+[main.ts:97228](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L97228)
 
 ## Methods
 
@@ -203,7 +203,7 @@ main.ts:97372
 
 #### Defined in
 
-main.ts:97389
+[main.ts:97245](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L97245)
 
 ___
 
@@ -223,7 +223,7 @@ ___
 
 #### Defined in
 
-main.ts:97427
+[main.ts:97283](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L97283)
 
 ___
 
@@ -243,4 +243,4 @@ ___
 
 #### Defined in
 
-main.ts:97420
+[main.ts:97276](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L97276)

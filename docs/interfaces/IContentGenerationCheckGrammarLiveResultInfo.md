@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IContentGenerationCheckGrammarLiveResultInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IContentGenerationCheckGrammarLiveResultInfo
 
 # Interface: IContentGenerationCheckGrammarLiveResultInfo
 
@@ -32,7 +32,7 @@ initial text in the POST request
 
 #### Defined in
 
-main.ts:161790
+[main.ts:161670](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L161670)
 
 ___
 
@@ -44,7 +44,7 @@ number of input tokens in the POST request
 
 #### Defined in
 
-main.ts:161784
+[main.ts:161664](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L161664)
 
 ___
 
@@ -56,7 +56,7 @@ contains grammar or spelling errors and related data
 
 #### Defined in
 
-main.ts:161796
+[main.ts:161676](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L161676)
 
 ___
 
@@ -68,7 +68,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:161794
+[main.ts:161674](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L161674)
 
 ___
 
@@ -80,7 +80,7 @@ language code in the POST request
 
 #### Defined in
 
-main.ts:161792
+[main.ts:161672](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L161672)
 
 ___
 
@@ -92,7 +92,7 @@ number of new tokens in the response
 
 #### Defined in
 
-main.ts:161788
+[main.ts:161668](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L161668)
 
 ___
 
@@ -104,4 +104,4 @@ number of output tokens in the response
 
 #### Defined in
 
-main.ts:161786
+[main.ts:161666](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L161666)

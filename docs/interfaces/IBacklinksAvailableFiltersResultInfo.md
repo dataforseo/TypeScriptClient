@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IBacklinksAvailableFiltersResultInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IBacklinksAvailableFiltersResultInfo
 
 # Interface: IBacklinksAvailableFiltersResultInfo
 
@@ -37,7 +37,7 @@
 
 #### Defined in
 
-main.ts:128964
+[main.ts:128820](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L128820)
 
 ___
 
@@ -51,7 +51,7 @@ ___
 
 #### Defined in
 
-main.ts:128962
+[main.ts:128818](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L128818)
 
 ___
 
@@ -65,7 +65,7 @@ ___
 
 #### Defined in
 
-main.ts:128970
+[main.ts:128826](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L128826)
 
 ___
 
@@ -79,7 +79,7 @@ ___
 
 #### Defined in
 
-main.ts:128961
+[main.ts:128817](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L128817)
 
 ___
 
@@ -93,7 +93,7 @@ ___
 
 #### Defined in
 
-main.ts:128966
+[main.ts:128822](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L128822)
 
 ___
 
@@ -107,7 +107,7 @@ ___
 
 #### Defined in
 
-main.ts:128963
+[main.ts:128819](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L128819)
 
 ___
 
@@ -121,7 +121,7 @@ ___
 
 #### Defined in
 
-main.ts:128969
+[main.ts:128825](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L128825)
 
 ___
 
@@ -135,7 +135,7 @@ ___
 
 #### Defined in
 
-main.ts:128967
+[main.ts:128823](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L128823)
 
 ___
 
@@ -149,7 +149,7 @@ ___
 
 #### Defined in
 
-main.ts:128965
+[main.ts:128821](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L128821)
 
 ___
 
@@ -163,4 +163,4 @@ ___
 
 #### Defined in
 
-main.ts:128968
+[main.ts:128824](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L128824)

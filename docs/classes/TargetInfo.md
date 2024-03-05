@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / TargetInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / TargetInfo
 
 # Class: TargetInfo
 
@@ -50,7 +50,7 @@
 
 #### Defined in
 
-main.ts:129528
+[main.ts:129384](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L129384)
 
 ## Properties
 
@@ -66,7 +66,7 @@ content management system
 
 #### Defined in
 
-main.ts:129511
+[main.ts:129367](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L129367)
 
 ___
 
@@ -82,7 +82,7 @@ country code that the target domain is determined to belong to
 
 #### Defined in
 
-main.ts:129517
+[main.ts:129373](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L129373)
 
 ___
 
@@ -98,7 +98,7 @@ IP address of the target
 
 #### Defined in
 
-main.ts:129515
+[main.ts:129371](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L129371)
 
 ___
 
@@ -115,7 +115,7 @@ if true, the domain, subdomain or webpage functions as an IP address and does no
 
 #### Defined in
 
-main.ts:129520
+[main.ts:129376](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L129376)
 
 ___
 
@@ -131,7 +131,7 @@ platform type
 
 #### Defined in
 
-main.ts:129513
+[main.ts:129369](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L129369)
 
 ___
 
@@ -147,7 +147,7 @@ server
 
 #### Defined in
 
-main.ts:129509
+[main.ts:129365](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L129365)
 
 ___
 
@@ -165,7 +165,7 @@ learn more about how the metric is calculated on this help center page
 
 #### Defined in
 
-main.ts:129524
+[main.ts:129380](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L129380)
 
 ## Methods
 
@@ -185,7 +185,7 @@ main.ts:129524
 
 #### Defined in
 
-main.ts:129537
+[main.ts:129393](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L129393)
 
 ___
 
@@ -205,7 +205,7 @@ ___
 
 #### Defined in
 
-main.ts:129564
+[main.ts:129420](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L129420)
 
 ___
 
@@ -225,4 +225,4 @@ ___
 
 #### Defined in
 
-main.ts:129557
+[main.ts:129413](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L129413)

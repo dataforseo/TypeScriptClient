@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / AppendixRatesData
+[dataforseo-client](../README.md) / [Exports](../modules.md) / AppendixRatesData
 
 # Class: AppendixRatesData
 
@@ -45,7 +45,7 @@
 
 #### Defined in
 
-main.ts:209460
+[main.ts:209340](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L209340)
 
 ## Properties
 
@@ -61,7 +61,7 @@ rate limits for API calls per a certain period of time
 
 #### Defined in
 
-main.ts:209454
+[main.ts:209334](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L209334)
 
 ___
 
@@ -77,7 +77,7 @@ statisctics for API calls
 
 #### Defined in
 
-main.ts:209456
+[main.ts:209336](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L209336)
 
 ## Methods
 
@@ -97,7 +97,7 @@ main.ts:209456
 
 #### Defined in
 
-main.ts:209469
+[main.ts:209349](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L209349)
 
 ___
 
@@ -117,7 +117,7 @@ ___
 
 #### Defined in
 
-main.ts:209487
+[main.ts:209367](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L209367)
 
 ___
 
@@ -137,4 +137,4 @@ ___
 
 #### Defined in
 
-main.ts:209480
+[main.ts:209360](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L209360)

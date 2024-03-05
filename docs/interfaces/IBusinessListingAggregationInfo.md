@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IBusinessListingAggregationInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IBusinessListingAggregationInfo
 
 # Interface: IBusinessListingAggregationInfo
 
@@ -31,7 +31,7 @@ number of unique entities
 
 #### Defined in
 
-main.ts:190003
+[main.ts:189883](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L189883)
 
 ___
 
@@ -48,7 +48,7 @@ service details of a business entity displayed in a form of checks and the numbe
 
 #### Defined in
 
-main.ts:190006
+[main.ts:189886](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L189886)
 
 ___
 
@@ -65,7 +65,7 @@ top categories displayed with the number of businesses in each category
 
 #### Defined in
 
-main.ts:189996
+[main.ts:189876](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L189876)
 
 ___
 
@@ -82,7 +82,7 @@ country codes with the biggest number of businesses in the category
 
 #### Defined in
 
-main.ts:189999
+[main.ts:189879](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L189879)
 
 ___
 
@@ -99,7 +99,7 @@ contains most popular keywords related to products/services mentioned in custome
 
 #### Defined in
 
-main.ts:190009
+[main.ts:189889](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L189889)
 
 ___
 
@@ -111,4 +111,4 @@ number of unique websites
 
 #### Defined in
 
-main.ts:190001
+[main.ts:189881](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L189881)

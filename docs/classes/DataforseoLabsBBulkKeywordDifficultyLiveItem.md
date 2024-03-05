@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / DataforseoLabsBBulkKeywordDifficultyLiveItem
+[dataforseo-client](../README.md) / [Exports](../modules.md) / DataforseoLabsBBulkKeywordDifficultyLiveItem
 
 # Class: DataforseoLabsBBulkKeywordDifficultyLiveItem
 
@@ -46,7 +46,7 @@
 
 #### Defined in
 
-main.ts:82517
+[main.ts:82373](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L82373)
 
 ## Properties
 
@@ -62,7 +62,7 @@ keyword in a POST array
 
 #### Defined in
 
-main.ts:82508
+[main.ts:82364](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L82364)
 
 ___
 
@@ -81,7 +81,7 @@ learn more about the metric in this help center guide
 
 #### Defined in
 
-main.ts:82513
+[main.ts:82369](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L82369)
 
 ___
 
@@ -97,7 +97,7 @@ search engine type
 
 #### Defined in
 
-main.ts:82506
+[main.ts:82362](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L82362)
 
 ## Methods
 
@@ -117,7 +117,7 @@ main.ts:82506
 
 #### Defined in
 
-main.ts:82526
+[main.ts:82382](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L82382)
 
 ___
 
@@ -137,7 +137,7 @@ ___
 
 #### Defined in
 
-main.ts:82545
+[main.ts:82401](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L82401)
 
 ___
 
@@ -157,4 +157,4 @@ ___
 
 #### Defined in
 
-main.ts:82538
+[main.ts:82394](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L82394)

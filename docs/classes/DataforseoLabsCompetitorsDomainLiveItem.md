@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / DataforseoLabsCompetitorsDomainLiveItem
+[dataforseo-client](../README.md) / [Exports](../modules.md) / DataforseoLabsCompetitorsDomainLiveItem
 
 # Class: DataforseoLabsCompetitorsDomainLiveItem
 
@@ -51,7 +51,7 @@
 
 #### Defined in
 
-main.ts:88535
+[main.ts:88391](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L88391)
 
 ## Properties
 
@@ -69,7 +69,7 @@ the value for a given domain may differ when combined with different target webs
 
 #### Defined in
 
-main.ts:88514
+[main.ts:88370](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L88370)
 
 ___
 
@@ -91,7 +91,7 @@ note: in this array ranking and traffic data is provided for the returned compet
 
 #### Defined in
 
-main.ts:88531
+[main.ts:88387](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L88387)
 
 ___
 
@@ -107,7 +107,7 @@ domain name
 
 #### Defined in
 
-main.ts:88510
+[main.ts:88366](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L88366)
 
 ___
 
@@ -128,7 +128,7 @@ full overview of ranking and traffic data relevant to all keywords that the prov
 
 #### Defined in
 
-main.ts:88523
+[main.ts:88379](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L88379)
 
 ___
 
@@ -144,7 +144,7 @@ number of intersecting keywords
 
 #### Defined in
 
-main.ts:88520
+[main.ts:88376](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L88376)
 
 ___
 
@@ -166,7 +166,7 @@ note: in this array ranking and traffic data is provided for the target consider
 
 #### Defined in
 
-main.ts:88527
+[main.ts:88383](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L88383)
 
 ___
 
@@ -182,7 +182,7 @@ search engine type
 
 #### Defined in
 
-main.ts:88508
+[main.ts:88364](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L88364)
 
 ___
 
@@ -200,7 +200,7 @@ the value for a given domain may differ when combined with different target webs
 
 #### Defined in
 
-main.ts:88518
+[main.ts:88374](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L88374)
 
 ## Methods
 
@@ -220,7 +220,7 @@ main.ts:88518
 
 #### Defined in
 
-main.ts:88544
+[main.ts:88400](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L88400)
 
 ___
 
@@ -240,7 +240,7 @@ ___
 
 #### Defined in
 
-main.ts:88586
+[main.ts:88442](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L88442)
 
 ___
 
@@ -260,4 +260,4 @@ ___
 
 #### Defined in
 
-main.ts:88579
+[main.ts:88435](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L88435)

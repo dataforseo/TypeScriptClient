@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / PeopleAlsoAskExpandedElement
+[dataforseo-client](../README.md) / [Exports](../modules.md) / PeopleAlsoAskExpandedElement
 
 # Class: PeopleAlsoAskExpandedElement
 
@@ -52,7 +52,7 @@
 
 #### Defined in
 
-main.ts:28544
+[main.ts:28402](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L28402)
 
 ## Properties
 
@@ -68,7 +68,7 @@ description of the hotel booking element
 
 #### Defined in
 
-main.ts:28530
+[main.ts:28388](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L28388)
 
 ___
 
@@ -84,7 +84,7 @@ website domain
 
 #### Defined in
 
-main.ts:28526
+[main.ts:28384](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L28384)
 
 ___
 
@@ -100,7 +100,7 @@ the title of the featured snippets source page
 
 #### Defined in
 
-main.ts:28522
+[main.ts:28380](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L28380)
 
 ___
 
@@ -116,7 +116,7 @@ images of the element
 
 #### Defined in
 
-main.ts:28532
+[main.ts:28390](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L28390)
 
 ___
 
@@ -133,7 +133,7 @@ if there are none, equals null
 
 #### Defined in
 
-main.ts:28540
+[main.ts:28398](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L28398)
 
 ___
 
@@ -152,7 +152,7 @@ example:
 
 #### Defined in
 
-main.ts:28537
+[main.ts:28395](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L28395)
 
 ___
 
@@ -168,7 +168,7 @@ title of a given link element
 
 #### Defined in
 
-main.ts:28528
+[main.ts:28386](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L28386)
 
 ___
 
@@ -184,7 +184,7 @@ type of element
 
 #### Defined in
 
-main.ts:28520
+[main.ts:28378](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L28378)
 
 ___
 
@@ -200,7 +200,7 @@ URL
 
 #### Defined in
 
-main.ts:28524
+[main.ts:28382](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L28382)
 
 ## Methods
 
@@ -220,7 +220,7 @@ main.ts:28524
 
 #### Defined in
 
-main.ts:28553
+[main.ts:28411](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L28411)
 
 ___
 
@@ -240,7 +240,7 @@ ___
 
 #### Defined in
 
-main.ts:28582
+[main.ts:28440](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L28440)
 
 ___
 
@@ -260,4 +260,4 @@ ___
 
 #### Defined in
 
-main.ts:28575
+[main.ts:28433](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L28433)

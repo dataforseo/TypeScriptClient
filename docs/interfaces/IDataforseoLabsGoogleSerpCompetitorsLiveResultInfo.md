@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IDataforseoLabsGoogleSerpCompetitorsLiveResultInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IDataforseoLabsGoogleSerpCompetitorsLiveResultInfo
 
 # Interface: IDataforseoLabsGoogleSerpCompetitorsLiveResultInfo
 
@@ -32,7 +32,7 @@ contains detected SERP competitors and related data
 
 #### Defined in
 
-main.ts:88035
+[main.ts:87891](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L87891)
 
 ___
 
@@ -44,7 +44,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:88033
+[main.ts:87889](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L87889)
 
 ___
 
@@ -57,7 +57,7 @@ if there is no data, then the value is null
 
 #### Defined in
 
-main.ts:88029
+[main.ts:87885](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L87885)
 
 ___
 
@@ -70,7 +70,7 @@ if there is no data, then the value is null
 
 #### Defined in
 
-main.ts:88026
+[main.ts:87882](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L87882)
 
 ___
 
@@ -82,7 +82,7 @@ search engine type
 
 #### Defined in
 
-main.ts:88020
+[main.ts:87876](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L87876)
 
 ___
 
@@ -95,7 +95,7 @@ keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a s
 
 #### Defined in
 
-main.ts:88023
+[main.ts:87879](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L87879)
 
 ___
 
@@ -107,4 +107,4 @@ the total amount of results in our database relevant to your request
 
 #### Defined in
 
-main.ts:88031
+[main.ts:87887](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L87887)

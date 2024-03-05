@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / ITopDomainInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / ITopDomainInfo
 
 # Interface: ITopDomainInfo
 
@@ -25,7 +25,7 @@
 
 #### Defined in
 
-main.ts:21788
+[main.ts:21646](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L21646)
 
 ___
 
@@ -35,4 +35,4 @@ ___
 
 #### Defined in
 
-main.ts:21787
+[main.ts:21645](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L21645)

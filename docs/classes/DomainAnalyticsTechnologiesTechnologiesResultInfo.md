@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / DomainAnalyticsTechnologiesTechnologiesResultInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / DomainAnalyticsTechnologiesTechnologiesResultInfo
 
 # Class: DomainAnalyticsTechnologiesTechnologiesResultInfo
 
@@ -44,7 +44,7 @@
 
 #### Defined in
 
-main.ts:72410
+[main.ts:72266](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L72266)
 
 ## Properties
 
@@ -60,7 +60,7 @@ array of technology groups
 
 #### Defined in
 
-main.ts:72406
+[main.ts:72262](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L72262)
 
 ## Methods
 
@@ -80,7 +80,7 @@ main.ts:72406
 
 #### Defined in
 
-main.ts:72419
+[main.ts:72275](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L72275)
 
 ___
 
@@ -100,7 +100,7 @@ ___
 
 #### Defined in
 
-main.ts:72440
+[main.ts:72296](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L72296)
 
 ___
 
@@ -120,4 +120,4 @@ ___
 
 #### Defined in
 
-main.ts:72433
+[main.ts:72289](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L72289)

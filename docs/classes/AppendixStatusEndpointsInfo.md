@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / AppendixStatusEndpointsInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / AppendixStatusEndpointsInfo
 
 # Class: AppendixStatusEndpointsInfo
 
@@ -45,7 +45,7 @@
 
 #### Defined in
 
-main.ts:212817
+[main.ts:212697](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L212697)
 
 ## Properties
 
@@ -66,7 +66,7 @@ postback/pingback
 
 #### Defined in
 
-main.ts:212803
+[main.ts:212683](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L212683)
 
 ___
 
@@ -90,7 +90,7 @@ send_delay
 
 #### Defined in
 
-main.ts:212813
+[main.ts:212693](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L212693)
 
 ## Methods
 
@@ -110,7 +110,7 @@ main.ts:212813
 
 #### Defined in
 
-main.ts:212826
+[main.ts:212706](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L212706)
 
 ___
 
@@ -130,7 +130,7 @@ ___
 
 #### Defined in
 
-main.ts:212844
+[main.ts:212724](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L212724)
 
 ___
 
@@ -150,4 +150,4 @@ ___
 
 #### Defined in
 
-main.ts:212837
+[main.ts:212717](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L212717)

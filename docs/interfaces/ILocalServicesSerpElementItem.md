@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / ILocalServicesSerpElementItem
+[dataforseo-client](../README.md) / [Exports](../modules.md) / ILocalServicesSerpElementItem
 
 # Interface: ILocalServicesSerpElementItem
 
@@ -40,7 +40,7 @@ domain where a link points
 
 #### Defined in
 
-main.ts:33917
+[main.ts:33775](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L33775)
 
 ___
 
@@ -52,7 +52,7 @@ contains results featured in the ‘hotels_pack’ element of SERP
 
 #### Defined in
 
-main.ts:33919
+[main.ts:33777](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L33777)
 
 ___
 
@@ -66,7 +66,7 @@ left, right
 
 #### Defined in
 
-main.ts:33909
+[main.ts:33767](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L33767)
 
 ___
 
@@ -79,7 +79,7 @@ absolute position among all the elements in SERP
 
 #### Defined in
 
-main.ts:33905
+[main.ts:33763](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L33763)
 
 ___
 
@@ -93,7 +93,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-main.ts:33902
+[main.ts:33760](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L33760)
 
 ___
 
@@ -107,7 +107,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 #### Defined in
 
-main.ts:33923
+[main.ts:33781](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L33781)
 
 ___
 
@@ -119,7 +119,7 @@ title of a given link element
 
 #### Defined in
 
-main.ts:33913
+[main.ts:33771](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L33771)
 
 ___
 
@@ -131,7 +131,7 @@ URL
 
 #### Defined in
 
-main.ts:33915
+[main.ts:33773](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L33773)
 
 ___
 
@@ -143,4 +143,4 @@ the XPath of the element
 
 #### Defined in
 
-main.ts:33911
+[main.ts:33769](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L33769)

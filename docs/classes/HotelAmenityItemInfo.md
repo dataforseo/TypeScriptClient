@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / HotelAmenityItemInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / HotelAmenityItemInfo
 
 # Class: HotelAmenityItemInfo
 
@@ -47,7 +47,7 @@
 
 #### Defined in
 
-main.ts:195409
+[main.ts:195289](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L195289)
 
 ## Properties
 
@@ -63,7 +63,7 @@ standardised amenity name
 
 #### Defined in
 
-main.ts:195399
+[main.ts:195279](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L195279)
 
 ___
 
@@ -79,7 +79,7 @@ displayed amenity name
 
 #### Defined in
 
-main.ts:195401
+[main.ts:195281](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L195281)
 
 ___
 
@@ -95,7 +95,7 @@ standardised details about the amenity
 
 #### Defined in
 
-main.ts:195403
+[main.ts:195283](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L195283)
 
 ___
 
@@ -111,7 +111,7 @@ displayed details about the amenity
 
 #### Defined in
 
-main.ts:195405
+[main.ts:195285](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L195285)
 
 ## Methods
 
@@ -131,7 +131,7 @@ main.ts:195405
 
 #### Defined in
 
-main.ts:195418
+[main.ts:195298](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L195298)
 
 ___
 
@@ -151,7 +151,7 @@ ___
 
 #### Defined in
 
-main.ts:195438
+[main.ts:195318](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L195318)
 
 ___
 
@@ -171,4 +171,4 @@ ___
 
 #### Defined in
 
-main.ts:195431
+[main.ts:195311](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L195311)

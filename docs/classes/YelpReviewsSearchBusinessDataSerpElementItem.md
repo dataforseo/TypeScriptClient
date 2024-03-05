@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / YelpReviewsSearchBusinessDataSerpElementItem
+[dataforseo-client](../README.md) / [Exports](../modules.md) / YelpReviewsSearchBusinessDataSerpElementItem
 
 # Class: YelpReviewsSearchBusinessDataSerpElementItem
 
@@ -64,7 +64,7 @@
 
 #### Defined in
 
-main.ts:205383
+[main.ts:205263](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L205263)
 
 ## Properties
 
@@ -78,7 +78,7 @@ main.ts:205383
 
 #### Defined in
 
-main.ts:20076
+[main.ts:20076](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L20076)
 
 ___
 
@@ -95,7 +95,7 @@ can take the following values: left
 
 #### Defined in
 
-main.ts:205361
+[main.ts:205241](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L205241)
 
 ___
 
@@ -112,7 +112,7 @@ absolute position among all reviews on the list
 
 #### Defined in
 
-main.ts:205358
+[main.ts:205238](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L205238)
 
 ___
 
@@ -129,7 +129,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-main.ts:205355
+[main.ts:205235](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L205235)
 
 ___
 
@@ -145,7 +145,7 @@ the rating score submitted by the reviewer
 
 #### Defined in
 
-main.ts:205367
+[main.ts:205247](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L205247)
 
 ___
 
@@ -161,7 +161,7 @@ text of the owner’s response
 
 #### Defined in
 
-main.ts:205379
+[main.ts:205259](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L205259)
 
 ___
 
@@ -179,7 +179,7 @@ WvjNtncj8PDZytbofWlC5A
 
 #### Defined in
 
-main.ts:205365
+[main.ts:205245](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L205245)
 
 ___
 
@@ -196,7 +196,7 @@ you will find URLs to the images provided by the author of this review
 
 #### Defined in
 
-main.ts:205375
+[main.ts:205255](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L205255)
 
 ___
 
@@ -212,7 +212,7 @@ the content of the review
 
 #### Defined in
 
-main.ts:205372
+[main.ts:205252](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L205252)
 
 ___
 
@@ -229,7 +229,7 @@ indicates timestamp of when the review was listed
 
 #### Defined in
 
-main.ts:205370
+[main.ts:205250](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L205250)
 
 ___
 
@@ -245,7 +245,7 @@ information listed in the reviewer’s profile
 
 #### Defined in
 
-main.ts:205377
+[main.ts:205257](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L205257)
 
 ## Methods
 
@@ -269,7 +269,7 @@ main.ts:205377
 
 #### Defined in
 
-main.ts:205388
+[main.ts:205268](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L205268)
 
 ___
 
@@ -293,7 +293,7 @@ ___
 
 #### Defined in
 
-main.ts:205423
+[main.ts:205303](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L205303)
 
 ___
 
@@ -317,4 +317,4 @@ ___
 
 #### Defined in
 
-main.ts:205416
+[main.ts:205296](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L205296)

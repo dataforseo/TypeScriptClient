@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IKeywordsDataBingKeywordPerformanceLocationsAndLanguagesResultInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IKeywordsDataBingKeywordPerformanceLocationsAndLanguagesResultInfo
 
 # Interface: IKeywordsDataBingKeywordPerformanceLocationsAndLanguagesResultInfo
 
@@ -29,7 +29,7 @@ contains locations supported in combination with a specific language
 
 #### Defined in
 
-main.ts:126618
+[main.ts:126474](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L126474)
 
 ___
 
@@ -41,7 +41,7 @@ language code
 
 #### Defined in
 
-main.ts:126615
+[main.ts:126471](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L126471)
 
 ___
 
@@ -53,4 +53,4 @@ language name
 
 #### Defined in
 
-main.ts:126613
+[main.ts:126469](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L126469)

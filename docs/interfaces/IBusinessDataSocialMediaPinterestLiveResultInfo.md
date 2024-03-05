@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IBusinessDataSocialMediaPinterestLiveResultInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IBusinessDataSocialMediaPinterestLiveResultInfo
 
 # Interface: IBusinessDataSocialMediaPinterestLiveResultInfo
 
@@ -29,7 +29,7 @@ corresponding URL you specified in the targets array when setting a task
 
 #### Defined in
 
-main.ts:205883
+[main.ts:205763](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L205763)
 
 ___
 
@@ -43,7 +43,7 @@ this field shows the number of content saves made from the related page_url usin
 
 #### Defined in
 
-main.ts:205887
+[main.ts:205767](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L205767)
 
 ___
 
@@ -55,4 +55,4 @@ type of element
 
 #### Defined in
 
-main.ts:205880
+[main.ts:205760](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L205760)

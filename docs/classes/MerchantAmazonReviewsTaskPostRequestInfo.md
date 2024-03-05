@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / MerchantAmazonReviewsTaskPostRequestInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / MerchantAmazonReviewsTaskPostRequestInfo
 
 # Class: MerchantAmazonReviewsTaskPostRequestInfo
 
@@ -62,7 +62,7 @@
 
 #### Defined in
 
-main.ts:175128
+[main.ts:175008](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L175008)
 
 ## Properties
 
@@ -81,7 +81,7 @@ you can receive the asin parameter by making a separate request to the Amazon Pr
 
 #### Defined in
 
-main.ts:174979
+[main.ts:174859](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L174859)
 
 ___
 
@@ -102,7 +102,7 @@ default value: 10
 
 #### Defined in
 
-main.ts:175040
+[main.ts:174920](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L174920)
 
 ___
 
@@ -121,7 +121,7 @@ if you use this field, the response will only include reviews that contain the s
 
 #### Defined in
 
-main.ts:175075
+[main.ts:174955](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L174955)
 
 ___
 
@@ -149,7 +149,7 @@ default rule: all_stars
 
 #### Defined in
 
-main.ts:175070
+[main.ts:174950](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L174950)
 
 ___
 
@@ -172,7 +172,7 @@ Note: ASINs vary depending on a product modification. Thus, two modifications of
 
 #### Defined in
 
-main.ts:175092
+[main.ts:174972](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L174972)
 
 ___
 
@@ -193,7 +193,7 @@ en_GB
 
 #### Defined in
 
-main.ts:175026
+[main.ts:174906](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L174906)
 
 ___
 
@@ -215,7 +215,7 @@ English (United Kingdom)
 
 #### Defined in
 
-main.ts:175019
+[main.ts:174899](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L174899)
 
 ___
 
@@ -237,7 +237,7 @@ example:
 
 #### Defined in
 
-main.ts:175002
+[main.ts:174882](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L174882)
 
 ___
 
@@ -260,7 +260,7 @@ example:
 
 #### Defined in
 
-main.ts:175011
+[main.ts:174891](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L174891)
 
 ___
 
@@ -281,7 +281,7 @@ HA1,England,United Kingdom
 
 #### Defined in
 
-main.ts:174994
+[main.ts:174874](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L174874)
 
 ___
 
@@ -303,7 +303,7 @@ default rule: all_contents
 
 #### Defined in
 
-main.ts:175083
+[main.ts:174963](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L174963)
 
 ___
 
@@ -327,7 +327,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-main.ts:175124
+[main.ts:175004](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L175004)
 
 ___
 
@@ -347,7 +347,7 @@ advanced, html
 
 #### Defined in
 
-main.ts:175114
+[main.ts:174994](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L174994)
 
 ___
 
@@ -371,7 +371,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-main.ts:175108
+[main.ts:174988](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L174988)
 
 ___
 
@@ -393,7 +393,7 @@ The cost can be calculated on the Pricing page.
 
 #### Defined in
 
-main.ts:174987
+[main.ts:174867](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L174867)
 
 ___
 
@@ -415,7 +415,7 @@ default rule: all_reviews
 
 #### Defined in
 
-main.ts:175056
+[main.ts:174936](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L174936)
 
 ___
 
@@ -436,7 +436,7 @@ amazon.com, amazon.co.uk, amazon.fr, etc.
 
 #### Defined in
 
-main.ts:175033
+[main.ts:174913](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L174913)
 
 ___
 
@@ -458,7 +458,7 @@ default rule: helpful
 
 #### Defined in
 
-main.ts:175048
+[main.ts:174928](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L174928)
 
 ___
 
@@ -478,7 +478,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:175098
+[main.ts:174978](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L174978)
 
 ## Methods
 
@@ -498,7 +498,7 @@ main.ts:175098
 
 #### Defined in
 
-main.ts:175137
+[main.ts:175017](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L175017)
 
 ___
 
@@ -518,7 +518,7 @@ ___
 
 #### Defined in
 
-main.ts:175172
+[main.ts:175052](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L175052)
 
 ___
 
@@ -538,4 +538,4 @@ ___
 
 #### Defined in
 
-main.ts:175165
+[main.ts:175045](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L175045)

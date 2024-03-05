@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / ISerpYoutubeVideoCommentsTaskGetAdvancedResultInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / ISerpYoutubeVideoCommentsTaskGetAdvancedResultInfo
 
 # Interface: ISerpYoutubeVideoCommentsTaskGetAdvancedResultInfo
 
@@ -38,7 +38,7 @@ you can use it to make sure that we provided accurate results
 
 #### Defined in
 
-main.ts:62204
+[main.ts:62060](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L62060)
 
 ___
 
@@ -50,7 +50,7 @@ number of comments on the video
 
 #### Defined in
 
-main.ts:62221
+[main.ts:62077](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L62077)
 
 ___
 
@@ -65,7 +65,7 @@ example:
 
 #### Defined in
 
-main.ts:62209
+[main.ts:62065](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L62065)
 
 ___
 
@@ -80,7 +80,7 @@ youtube_comment
 
 #### Defined in
 
-main.ts:62217
+[main.ts:62073](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L62073)
 
 ___
 
@@ -92,7 +92,7 @@ elements of search results found in SERP
 
 #### Defined in
 
-main.ts:62225
+[main.ts:62081](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L62081)
 
 ___
 
@@ -104,7 +104,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:62223
+[main.ts:62079](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L62079)
 
 ___
 
@@ -116,7 +116,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:62201
+[main.ts:62057](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L62057)
 
 ___
 
@@ -128,7 +128,7 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:62199
+[main.ts:62055](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L62055)
 
 ___
 
@@ -140,7 +140,7 @@ search engine domain in a POST array
 
 #### Defined in
 
-main.ts:62197
+[main.ts:62053](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L62053)
 
 ___
 
@@ -153,7 +153,7 @@ if the search engine provided results for a keyword that was corrected, we will 
 
 #### Defined in
 
-main.ts:62212
+[main.ts:62068](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L62068)
 
 ___
 
@@ -165,7 +165,7 @@ title of the video
 
 #### Defined in
 
-main.ts:62219
+[main.ts:62075](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L62075)
 
 ___
 
@@ -177,4 +177,4 @@ ID of the video received in a POST array
 
 #### Defined in
 
-main.ts:62195
+[main.ts:62051](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L62051)

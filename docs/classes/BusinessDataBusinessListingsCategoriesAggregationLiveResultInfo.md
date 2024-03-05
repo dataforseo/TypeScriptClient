@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / BusinessDataBusinessListingsCategoriesAggregationLiveResultInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / BusinessDataBusinessListingsCategoriesAggregationLiveResultInfo
 
 # Class: BusinessDataBusinessListingsCategoriesAggregationLiveResultInfo
 
@@ -48,7 +48,7 @@
 
 #### Defined in
 
-main.ts:190105
+[main.ts:189985](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L189985)
 
 ## Properties
 
@@ -65,7 +65,7 @@ the number of items in the items array
 
 #### Defined in
 
-main.ts:190091
+[main.ts:189971](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L189971)
 
 ___
 
@@ -83,7 +83,7 @@ possible item types: business_category
 
 #### Defined in
 
-main.ts:190101
+[main.ts:189981](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L189981)
 
 ___
 
@@ -99,7 +99,7 @@ offset in the results array of returned categories
 
 #### Defined in
 
-main.ts:190093
+[main.ts:189973](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L189973)
 
 ___
 
@@ -117,7 +117,7 @@ offset_token values are unique for each subsequent task
 
 #### Defined in
 
-main.ts:190097
+[main.ts:189977](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L189977)
 
 ___
 
@@ -133,7 +133,7 @@ total number of results in our database relevant to your request
 
 #### Defined in
 
-main.ts:190088
+[main.ts:189968](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L189968)
 
 ## Methods
 
@@ -153,7 +153,7 @@ main.ts:190088
 
 #### Defined in
 
-main.ts:190114
+[main.ts:189994](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L189994)
 
 ___
 
@@ -173,7 +173,7 @@ ___
 
 #### Defined in
 
-main.ts:190139
+[main.ts:190019](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L190019)
 
 ___
 
@@ -193,4 +193,4 @@ ___
 
 #### Defined in
 
-main.ts:190132
+[main.ts:190012](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L190012)

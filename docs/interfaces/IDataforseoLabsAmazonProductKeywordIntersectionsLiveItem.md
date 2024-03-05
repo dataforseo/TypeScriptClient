@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IDataforseoLabsAmazonProductKeywordIntersectionsLiveItem
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IDataforseoLabsAmazonProductKeywordIntersectionsLiveItem
 
 # Interface: IDataforseoLabsAmazonProductKeywordIntersectionsLiveItem
 
@@ -32,7 +32,7 @@ data on the intersection
 
 #### Defined in
 
-main.ts:102007
+[main.ts:101863](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L101863)
 
 ___
 
@@ -44,7 +44,7 @@ keyword data for the returned keyword
 
 #### Defined in
 
-main.ts:102005
+[main.ts:101861](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L101861)
 
 ___
 
@@ -56,4 +56,4 @@ search engine type
 
 #### Defined in
 
-main.ts:102003
+[main.ts:101859](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L101859)

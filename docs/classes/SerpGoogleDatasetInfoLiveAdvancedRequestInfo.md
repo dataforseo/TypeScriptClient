@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / SerpGoogleDatasetInfoLiveAdvancedRequestInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / SerpGoogleDatasetInfoLiveAdvancedRequestInfo
 
 # Class: SerpGoogleDatasetInfoLiveAdvancedRequestInfo
 
@@ -49,7 +49,7 @@
 
 #### Defined in
 
-main.ts:52929
+[main.ts:52787](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L52787)
 
 ## Properties
 
@@ -69,7 +69,7 @@ L2cvMTFqbl85ZHN6MQ==
 
 #### Defined in
 
-main.ts:52898
+[main.ts:52756](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L52756)
 
 ___
 
@@ -87,7 +87,7 @@ possible value: desktop
 
 #### Defined in
 
-main.ts:52914
+[main.ts:52772](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L52772)
 
 ___
 
@@ -107,7 +107,7 @@ en
 
 #### Defined in
 
-main.ts:52910
+[main.ts:52768](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L52768)
 
 ___
 
@@ -127,7 +127,7 @@ English
 
 #### Defined in
 
-main.ts:52904
+[main.ts:52762](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L52762)
 
 ___
 
@@ -146,7 +146,7 @@ default value: windows
 
 #### Defined in
 
-main.ts:52919
+[main.ts:52777](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L52777)
 
 ___
 
@@ -166,7 +166,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:52925
+[main.ts:52783](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L52783)
 
 ## Methods
 
@@ -186,7 +186,7 @@ main.ts:52925
 
 #### Defined in
 
-main.ts:52938
+[main.ts:52796](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L52796)
 
 ___
 
@@ -206,7 +206,7 @@ ___
 
 #### Defined in
 
-main.ts:52960
+[main.ts:52818](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L52818)
 
 ___
 
@@ -226,4 +226,4 @@ ___
 
 #### Defined in
 
-main.ts:52953
+[main.ts:52811](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L52811)

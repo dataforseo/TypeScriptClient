@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IDataforseoLabsGoogleDomainWhoisOverviewLiveResultInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IDataforseoLabsGoogleDomainWhoisOverviewLiveResultInfo
 
 # Interface: IDataforseoLabsGoogleDomainWhoisOverviewLiveResultInfo
 
@@ -29,7 +29,7 @@ contains ranking and traffic data
 
 #### Defined in
 
-main.ts:86043
+[main.ts:85899](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L85899)
 
 ___
 
@@ -41,7 +41,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:86041
+[main.ts:85897](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L85897)
 
 ___
 
@@ -53,7 +53,7 @@ search engine type
 
 #### Defined in
 
-main.ts:86037
+[main.ts:85893](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L85893)
 
 ___
 
@@ -65,4 +65,4 @@ total amount of results in our database relevant to your request
 
 #### Defined in
 
-main.ts:86039
+[main.ts:85895](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L85895)

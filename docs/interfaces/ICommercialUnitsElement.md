@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / ICommercialUnitsElement
+[dataforseo-client](../README.md) / [Exports](../modules.md) / ICommercialUnitsElement
 
 # Interface: ICommercialUnitsElement
 
@@ -32,7 +32,7 @@ domain where a link points
 
 #### Defined in
 
-main.ts:33603
+[main.ts:33461](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L33461)
 
 ___
 
@@ -44,7 +44,7 @@ price of booking a place for the specified dates of stay
 
 #### Defined in
 
-main.ts:33605
+[main.ts:33463](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L33463)
 
 ___
 
@@ -57,7 +57,7 @@ the popularity rate based on reviews and displayed in SERP
 
 #### Defined in
 
-main.ts:33611
+[main.ts:33469](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L33469)
 
 ___
 
@@ -70,7 +70,7 @@ indicates the source of information included in the element
 
 #### Defined in
 
-main.ts:33608
+[main.ts:33466](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L33466)
 
 ___
 
@@ -82,7 +82,7 @@ title of the row
 
 #### Defined in
 
-main.ts:33599
+[main.ts:33457](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L33457)
 
 ___
 
@@ -94,7 +94,7 @@ type of element
 
 #### Defined in
 
-main.ts:33597
+[main.ts:33455](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L33455)
 
 ___
 
@@ -106,4 +106,4 @@ URL
 
 #### Defined in
 
-main.ts:33601
+[main.ts:33459](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L33459)

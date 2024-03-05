@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IAppDataleAppListingsSearchLiveItem
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IAppDataleAppListingsSearchLiveItem
 
 # Interface: IAppDataleAppListingsSearchLiveItem
 
@@ -32,7 +32,7 @@ ID of the returned app
 
 #### Defined in
 
-main.ts:182467
+[main.ts:182347](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L182347)
 
 ___
 
@@ -45,7 +45,7 @@ you can use it to make sure that we provided accurate results
 
 #### Defined in
 
-main.ts:182476
+[main.ts:182356](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L182356)
 
 ___
 
@@ -57,7 +57,7 @@ detailed information about the app
 
 #### Defined in
 
-main.ts:182483
+[main.ts:182363](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L182363)
 
 ___
 
@@ -69,7 +69,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:182473
+[main.ts:182353](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L182353)
 
 ___
 
@@ -81,7 +81,7 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:182471
+[main.ts:182351](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L182351)
 
 ___
 
@@ -93,7 +93,7 @@ search engine domain in a POST array
 
 #### Defined in
 
-main.ts:182469
+[main.ts:182349](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L182349)
 
 ___
 
@@ -108,4 +108,4 @@ example:
 
 #### Defined in
 
-main.ts:182481
+[main.ts:182361](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L182361)

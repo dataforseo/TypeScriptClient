@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / ISerpBaiduLanguagesResultInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / ISerpBaiduLanguagesResultInfo
 
 # Interface: ISerpBaiduLanguagesResultInfo
 
@@ -27,7 +27,7 @@ language code according to ISO 639-1
 
 #### Defined in
 
-main.ts:65775
+[main.ts:65631](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L65631)
 
 ___
 
@@ -39,4 +39,4 @@ language name
 
 #### Defined in
 
-main.ts:65773
+[main.ts:65629](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L65629)

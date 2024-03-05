@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / DataforseoLabsStatusResultInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / DataforseoLabsStatusResultInfo
 
 # Class: DataforseoLabsStatusResultInfo
 
@@ -46,7 +46,7 @@
 
 #### Defined in
 
-main.ts:76980
+[main.ts:76836](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L76836)
 
 ## Properties
 
@@ -62,7 +62,7 @@ update information for the Amazon endpoints
 
 #### Defined in
 
-main.ts:76976
+[main.ts:76832](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L76832)
 
 ___
 
@@ -78,7 +78,7 @@ update information for the Bing endpoints
 
 #### Defined in
 
-main.ts:76974
+[main.ts:76830](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L76830)
 
 ___
 
@@ -94,7 +94,7 @@ update information for the Google endpoints
 
 #### Defined in
 
-main.ts:76972
+[main.ts:76828](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L76828)
 
 ## Methods
 
@@ -114,7 +114,7 @@ main.ts:76972
 
 #### Defined in
 
-main.ts:76989
+[main.ts:76845](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L76845)
 
 ___
 
@@ -134,7 +134,7 @@ ___
 
 #### Defined in
 
-main.ts:77008
+[main.ts:76864](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L76864)
 
 ___
 
@@ -154,4 +154,4 @@ ___
 
 #### Defined in
 
-main.ts:77001
+[main.ts:76857](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L76857)

@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / BusinessDirectoryInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / BusinessDirectoryInfo
 
 # Class: BusinessDirectoryInfo
 
@@ -45,7 +45,7 @@
 
 #### Defined in
 
-main.ts:191433
+[main.ts:191313](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L191313)
 
 ## Properties
 
@@ -63,7 +63,7 @@ possible item types: google_business_info
 
 #### Defined in
 
-main.ts:191429
+[main.ts:191309](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L191309)
 
 ___
 
@@ -80,7 +80,7 @@ domain of the online menu system
 
 #### Defined in
 
-main.ts:191425
+[main.ts:191305](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L191305)
 
 ## Methods
 
@@ -100,7 +100,7 @@ main.ts:191425
 
 #### Defined in
 
-main.ts:191442
+[main.ts:191322](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L191322)
 
 ___
 
@@ -120,7 +120,7 @@ ___
 
 #### Defined in
 
-main.ts:191464
+[main.ts:191344](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L191344)
 
 ___
 
@@ -140,4 +140,4 @@ ___
 
 #### Defined in
 
-main.ts:191457
+[main.ts:191337](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L191337)

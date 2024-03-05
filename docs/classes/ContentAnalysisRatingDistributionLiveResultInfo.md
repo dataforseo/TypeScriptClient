@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / ContentAnalysisRatingDistributionLiveResultInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / ContentAnalysisRatingDistributionLiveResultInfo
 
 # Class: ContentAnalysisRatingDistributionLiveResultInfo
 
@@ -47,7 +47,7 @@
 
 #### Defined in
 
-main.ts:158537
+[main.ts:158417](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L158417)
 
 ## Properties
 
@@ -63,7 +63,7 @@ max rating on a distribution scale
 
 #### Defined in
 
-main.ts:158531
+[main.ts:158411](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L158411)
 
 ___
 
@@ -79,7 +79,7 @@ contains rating distribution metrics
 
 #### Defined in
 
-main.ts:158533
+[main.ts:158413](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L158413)
 
 ___
 
@@ -95,7 +95,7 @@ min rating on a distribution scale
 
 #### Defined in
 
-main.ts:158529
+[main.ts:158409](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L158409)
 
 ___
 
@@ -111,7 +111,7 @@ type of element
 
 #### Defined in
 
-main.ts:158527
+[main.ts:158407](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L158407)
 
 ## Methods
 
@@ -131,7 +131,7 @@ main.ts:158527
 
 #### Defined in
 
-main.ts:158546
+[main.ts:158426](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L158426)
 
 ___
 
@@ -151,7 +151,7 @@ ___
 
 #### Defined in
 
-main.ts:158566
+[main.ts:158446](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L158446)
 
 ___
 
@@ -171,4 +171,4 @@ ___
 
 #### Defined in
 
-main.ts:158559
+[main.ts:158439](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L158439)

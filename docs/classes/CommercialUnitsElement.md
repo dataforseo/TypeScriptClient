@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / CommercialUnitsElement
+[dataforseo-client](../README.md) / [Exports](../modules.md) / CommercialUnitsElement
 
 # Class: CommercialUnitsElement
 
@@ -50,7 +50,7 @@
 
 #### Defined in
 
-main.ts:33546
+[main.ts:33404](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L33404)
 
 ## Properties
 
@@ -66,7 +66,7 @@ domain where a link points
 
 #### Defined in
 
-main.ts:33534
+[main.ts:33392](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L33392)
 
 ___
 
@@ -82,7 +82,7 @@ price of booking a place for the specified dates of stay
 
 #### Defined in
 
-main.ts:33536
+[main.ts:33394](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L33394)
 
 ___
 
@@ -99,7 +99,7 @@ the popularity rate based on reviews and displayed in SERP
 
 #### Defined in
 
-main.ts:33542
+[main.ts:33400](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L33400)
 
 ___
 
@@ -116,7 +116,7 @@ indicates the source of information included in the element
 
 #### Defined in
 
-main.ts:33539
+[main.ts:33397](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L33397)
 
 ___
 
@@ -132,7 +132,7 @@ title of the row
 
 #### Defined in
 
-main.ts:33530
+[main.ts:33388](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L33388)
 
 ___
 
@@ -148,7 +148,7 @@ type of element
 
 #### Defined in
 
-main.ts:33528
+[main.ts:33386](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L33386)
 
 ___
 
@@ -164,7 +164,7 @@ URL
 
 #### Defined in
 
-main.ts:33532
+[main.ts:33390](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L33390)
 
 ## Methods
 
@@ -184,7 +184,7 @@ main.ts:33532
 
 #### Defined in
 
-main.ts:33555
+[main.ts:33413](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L33413)
 
 ___
 
@@ -204,7 +204,7 @@ ___
 
 #### Defined in
 
-main.ts:33578
+[main.ts:33436](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L33436)
 
 ___
 
@@ -224,4 +224,4 @@ ___
 
 #### Defined in
 
-main.ts:33571
+[main.ts:33429](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L33429)

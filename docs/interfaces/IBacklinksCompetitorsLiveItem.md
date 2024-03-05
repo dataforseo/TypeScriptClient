@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IBacklinksCompetitorsLiveItem
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IBacklinksCompetitorsLiveItem
 
 # Interface: IBacklinksCompetitorsLiveItem
 
@@ -29,7 +29,7 @@ indicates the number of backlink intersections with the target specified in the 
 
 #### Defined in
 
-main.ts:136332
+[main.ts:136188](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L136188)
 
 ___
 
@@ -44,7 +44,7 @@ learn more about the metric and how it is calculated in this help center article
 
 #### Defined in
 
-main.ts:136330
+[main.ts:136186](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L136186)
 
 ___
 
@@ -56,7 +56,7 @@ competitor domain
 
 #### Defined in
 
-main.ts:136325
+[main.ts:136181](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L136181)
 
 ___
 
@@ -68,4 +68,4 @@ type of element
 
 #### Defined in
 
-main.ts:136323
+[main.ts:136179](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L136179)

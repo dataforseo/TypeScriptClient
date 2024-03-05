@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / AppDataAppleLanguagesResultInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / AppDataAppleLanguagesResultInfo
 
 # Class: AppDataAppleLanguagesResultInfo
 
@@ -45,7 +45,7 @@
 
 #### Defined in
 
-main.ts:183056
+[main.ts:182936](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L182936)
 
 ## Properties
 
@@ -61,7 +61,7 @@ language code according to ISO 639-1
 
 #### Defined in
 
-main.ts:183052
+[main.ts:182932](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L182932)
 
 ___
 
@@ -77,7 +77,7 @@ language name
 
 #### Defined in
 
-main.ts:183050
+[main.ts:182930](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L182930)
 
 ## Methods
 
@@ -97,7 +97,7 @@ main.ts:183050
 
 #### Defined in
 
-main.ts:183065
+[main.ts:182945](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L182945)
 
 ___
 
@@ -117,7 +117,7 @@ ___
 
 #### Defined in
 
-main.ts:183083
+[main.ts:182963](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L182963)
 
 ___
 
@@ -137,4 +137,4 @@ ___
 
 #### Defined in
 
-main.ts:183076
+[main.ts:182956](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L182956)

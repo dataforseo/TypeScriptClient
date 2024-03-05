@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IBacklinksIndexResultInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IBacklinksIndexResultInfo
 
 # Interface: IBacklinksIndexResultInfo
 
@@ -29,7 +29,7 @@ index volume data for the past 12 months
 
 #### Defined in
 
-main.ts:129226
+[main.ts:129082](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L129082)
 
 ___
 
@@ -41,7 +41,7 @@ total number of backlinks our database contains for the moment of checking
 
 #### Defined in
 
-main.ts:129220
+[main.ts:129076](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L129076)
 
 ___
 
@@ -53,7 +53,7 @@ total number of domains our database contains for the moment of checking
 
 #### Defined in
 
-main.ts:129224
+[main.ts:129080](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L129080)
 
 ___
 
@@ -65,4 +65,4 @@ total number of pages our database contains for the moment of checking
 
 #### Defined in
 
-main.ts:129222
+[main.ts:129078](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L129078)

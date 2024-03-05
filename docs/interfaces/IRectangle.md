@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IRectangle
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IRectangle
 
 # Interface: IRectangle
 
@@ -29,7 +29,7 @@ height of the element in pixels
 
 #### Defined in
 
-main.ts:20912
+[main.ts:20912](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L20912)
 
 ___
 
@@ -41,7 +41,7 @@ width of the element in pixels
 
 #### Defined in
 
-main.ts:20910
+[main.ts:20910](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L20910)
 
 ___
 
@@ -54,7 +54,7 @@ x-axis coordinate of the top-left corner of the result’s snippet, where top-le
 
 #### Defined in
 
-main.ts:20905
+[main.ts:20905](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L20905)
 
 ___
 
@@ -67,4 +67,4 @@ y-axis coordinate of the top-left corner of the result’s snippet, where top-le
 
 #### Defined in
 
-main.ts:20908
+[main.ts:20908](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L20908)

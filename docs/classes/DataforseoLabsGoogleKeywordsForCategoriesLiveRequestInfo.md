@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / DataforseoLabsGoogleKeywordsForCategoriesLiveRequestInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / DataforseoLabsGoogleKeywordsForCategoriesLiveRequestInfo
 
 # Class: DataforseoLabsGoogleKeywordsForCategoriesLiveRequestInfo
 
@@ -57,7 +57,7 @@
 
 #### Defined in
 
-main.ts:83946
+[main.ts:83802](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L83802)
 
 ## Properties
 
@@ -76,7 +76,7 @@ you can download the full list of possible categories
 
 #### Defined in
 
-main.ts:83835
+[main.ts:83691](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L83691)
 
 ___
 
@@ -96,7 +96,7 @@ default value: true
 
 #### Defined in
 
-main.ts:83873
+[main.ts:83729](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L83729)
 
 ___
 
@@ -129,7 +129,7 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 #### Defined in
 
-main.ts:83920
+[main.ts:83776](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L83776)
 
 ___
 
@@ -148,7 +148,7 @@ default value: false
 
 #### Defined in
 
-main.ts:83883
+[main.ts:83739](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L83739)
 
 ___
 
@@ -167,7 +167,7 @@ default value: false
 
 #### Defined in
 
-main.ts:83878
+[main.ts:83734](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L83734)
 
 ___
 
@@ -189,7 +189,7 @@ en
 
 #### Defined in
 
-main.ts:83867
+[main.ts:83723](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L83723)
 
 ___
 
@@ -211,7 +211,7 @@ English
 
 #### Defined in
 
-main.ts:83859
+[main.ts:83715](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L83715)
 
 ___
 
@@ -230,7 +230,7 @@ maximum value: 1000
 
 #### Defined in
 
-main.ts:83888
+[main.ts:83744](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L83744)
 
 ___
 
@@ -252,7 +252,7 @@ example:
 
 #### Defined in
 
-main.ts:83851
+[main.ts:83707](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L83707)
 
 ___
 
@@ -274,7 +274,7 @@ United Kingdom
 
 #### Defined in
 
-main.ts:83843
+[main.ts:83699](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L83699)
 
 ___
 
@@ -293,7 +293,7 @@ if you specify the 10 value, the first ten keywords in the results array will be
 
 #### Defined in
 
-main.ts:83893
+[main.ts:83749](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L83749)
 
 ___
 
@@ -315,7 +315,7 @@ Note: if the offset_token is specified in the request, all other parameters exce
 
 #### Defined in
 
-main.ts:83901
+[main.ts:83757](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L83757)
 
 ___
 
@@ -345,7 +345,7 @@ example:
 
 #### Defined in
 
-main.ts:83936
+[main.ts:83792](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L83792)
 
 ___
 
@@ -365,7 +365,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:83942
+[main.ts:83798](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L83798)
 
 ## Methods
 
@@ -385,7 +385,7 @@ main.ts:83942
 
 #### Defined in
 
-main.ts:83955
+[main.ts:83811](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L83811)
 
 ___
 
@@ -405,7 +405,7 @@ ___
 
 #### Defined in
 
-main.ts:83997
+[main.ts:83853](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L83853)
 
 ___
 
@@ -425,4 +425,4 @@ ___
 
 #### Defined in
 
-main.ts:83990
+[main.ts:83846](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L83846)

@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / ContentGenerationGenerateMetaTagsLiveResultInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / ContentGenerationGenerateMetaTagsLiveResultInfo
 
 # Class: ContentGenerationGenerateMetaTagsLiveResultInfo
 
@@ -48,7 +48,7 @@
 
 #### Defined in
 
-main.ts:160791
+[main.ts:160671](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L160671)
 
 ## Properties
 
@@ -64,7 +64,7 @@ generated description
 
 #### Defined in
 
-main.ts:160787
+[main.ts:160667](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L160667)
 
 ___
 
@@ -80,7 +80,7 @@ number of input tokens
 
 #### Defined in
 
-main.ts:160779
+[main.ts:160659](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L160659)
 
 ___
 
@@ -96,7 +96,7 @@ number of new tokens
 
 #### Defined in
 
-main.ts:160783
+[main.ts:160663](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L160663)
 
 ___
 
@@ -112,7 +112,7 @@ number of output tokens
 
 #### Defined in
 
-main.ts:160781
+[main.ts:160661](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L160661)
 
 ___
 
@@ -128,7 +128,7 @@ generated title
 
 #### Defined in
 
-main.ts:160785
+[main.ts:160665](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L160665)
 
 ## Methods
 
@@ -148,7 +148,7 @@ main.ts:160785
 
 #### Defined in
 
-main.ts:160800
+[main.ts:160680](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L160680)
 
 ___
 
@@ -168,7 +168,7 @@ ___
 
 #### Defined in
 
-main.ts:160821
+[main.ts:160701](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L160701)
 
 ___
 
@@ -188,4 +188,4 @@ ___
 
 #### Defined in
 
-main.ts:160814
+[main.ts:160694](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L160694)

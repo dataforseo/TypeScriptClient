@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IDataforseoLabsBingCompetitorsDomainLiveResultInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IDataforseoLabsBingCompetitorsDomainLiveResultInfo
 
 # Interface: IDataforseoLabsBingCompetitorsDomainLiveResultInfo
 
@@ -32,7 +32,7 @@ contains data related to the target and competitor domains
 
 #### Defined in
 
-main.ts:103413
+[main.ts:103269](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L103269)
 
 ___
 
@@ -44,7 +44,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:103411
+[main.ts:103267](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L103267)
 
 ___
 
@@ -56,7 +56,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:103407
+[main.ts:103263](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L103263)
 
 ___
 
@@ -68,7 +68,7 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:103405
+[main.ts:103261](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L103261)
 
 ___
 
@@ -80,7 +80,7 @@ search engine type
 
 #### Defined in
 
-main.ts:103401
+[main.ts:103257](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L103257)
 
 ___
 
@@ -92,7 +92,7 @@ target domain in a POST array
 
 #### Defined in
 
-main.ts:103403
+[main.ts:103259](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L103259)
 
 ___
 
@@ -104,4 +104,4 @@ total amount of results in our database relevant to your request
 
 #### Defined in
 
-main.ts:103409
+[main.ts:103265](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L103265)

@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / BusinessDataYelpReviewsTaskGetResultInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / BusinessDataYelpReviewsTaskGetResultInfo
 
 # Class: BusinessDataYelpReviewsTaskGetResultInfo
 
@@ -56,7 +56,7 @@
 
 #### Defined in
 
-main.ts:205523
+[main.ts:205403](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L205403)
 
 ## Properties
 
@@ -72,7 +72,7 @@ Yelp business identifier
 
 #### Defined in
 
-main.ts:205489
+[main.ts:205369](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L205369)
 
 ___
 
@@ -89,7 +89,7 @@ you can use it to make sure that we provided accurate results
 
 #### Defined in
 
-main.ts:205501
+[main.ts:205381](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L205381)
 
 ___
 
@@ -108,7 +108,7 @@ example:
 
 #### Defined in
 
-main.ts:205506
+[main.ts:205386](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L205386)
 
 ___
 
@@ -125,7 +125,7 @@ you can get more results by using the depth parameter when setting a task
 
 #### Defined in
 
-main.ts:205519
+[main.ts:205399](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L205399)
 
 ___
 
@@ -142,7 +142,7 @@ you can get more results by using the depth parameter when setting a task
 
 #### Defined in
 
-main.ts:205516
+[main.ts:205396](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L205396)
 
 ___
 
@@ -159,7 +159,7 @@ this field will contain the alias parameter if it was specified in a POST array
 
 #### Defined in
 
-main.ts:205487
+[main.ts:205367](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L205367)
 
 ___
 
@@ -175,7 +175,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:205498
+[main.ts:205378](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L205378)
 
 ___
 
@@ -192,7 +192,7 @@ if location_code was not specified in a POST array, the value equals null
 
 #### Defined in
 
-main.ts:205496
+[main.ts:205376](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L205376)
 
 ___
 
@@ -208,7 +208,7 @@ the rating score submitted by the reviewer
 
 #### Defined in
 
-main.ts:205511
+[main.ts:205391](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L205391)
 
 ___
 
@@ -224,7 +224,7 @@ the total number of reviews
 
 #### Defined in
 
-main.ts:205513
+[main.ts:205393](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L205393)
 
 ___
 
@@ -240,7 +240,7 @@ search engine domain in a POST array
 
 #### Defined in
 
-main.ts:205493
+[main.ts:205373](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L205373)
 
 ___
 
@@ -257,7 +257,7 @@ the name of the local establishment for which the reviews are collected
 
 #### Defined in
 
-main.ts:205509
+[main.ts:205389](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L205389)
 
 ___
 
@@ -273,7 +273,7 @@ type of element
 
 #### Defined in
 
-main.ts:205491
+[main.ts:205371](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L205371)
 
 ## Methods
 
@@ -293,7 +293,7 @@ main.ts:205491
 
 #### Defined in
 
-main.ts:205532
+[main.ts:205412](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L205412)
 
 ___
 
@@ -313,7 +313,7 @@ ___
 
 #### Defined in
 
-main.ts:205565
+[main.ts:205445](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L205445)
 
 ___
 
@@ -333,4 +333,4 @@ ___
 
 #### Defined in
 
-main.ts:205558
+[main.ts:205438](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L205438)

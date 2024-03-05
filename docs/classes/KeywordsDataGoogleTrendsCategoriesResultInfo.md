@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / KeywordsDataGoogleTrendsCategoriesResultInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / KeywordsDataGoogleTrendsCategoriesResultInfo
 
 # Class: KeywordsDataGoogleTrendsCategoriesResultInfo
 
@@ -46,7 +46,7 @@
 
 #### Defined in
 
-main.ts:119760
+[main.ts:119616](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L119616)
 
 ## Properties
 
@@ -62,7 +62,7 @@ unique google trends category identifier
 
 #### Defined in
 
-main.ts:119745
+[main.ts:119601](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L119601)
 
 ___
 
@@ -85,7 +85,7 @@ where category_code_parent corresponds to:
 
 #### Defined in
 
-main.ts:119756
+[main.ts:119612](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L119612)
 
 ___
 
@@ -101,7 +101,7 @@ name of the google trends category
 
 #### Defined in
 
-main.ts:119747
+[main.ts:119603](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L119603)
 
 ## Methods
 
@@ -121,7 +121,7 @@ main.ts:119747
 
 #### Defined in
 
-main.ts:119769
+[main.ts:119625](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L119625)
 
 ___
 
@@ -141,7 +141,7 @@ ___
 
 #### Defined in
 
-main.ts:119788
+[main.ts:119644](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L119644)
 
 ___
 
@@ -161,4 +161,4 @@ ___
 
 #### Defined in
 
-main.ts:119781
+[main.ts:119637](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L119637)

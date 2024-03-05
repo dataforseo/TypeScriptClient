@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IBusinessDataTripadvisorSearchTaskPostRequestInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IBusinessDataTripadvisorSearchTaskPostRequestInfo
 
 # Interface: IBusinessDataTripadvisorSearchTaskPostRequestInfo
 
@@ -38,7 +38,7 @@ maximum value: 210
 
 #### Defined in
 
-main.ts:201163
+[main.ts:201043](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L201043)
 
 ___
 
@@ -55,7 +55,7 @@ if you need to use the “%” symbol for your keyword, please specify it as “
 
 #### Defined in
 
-main.ts:201136
+[main.ts:201016](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L201016)
 
 ___
 
@@ -71,7 +71,7 @@ example:
 
 #### Defined in
 
-main.ts:201148
+[main.ts:201028](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L201028)
 
 ___
 
@@ -87,7 +87,7 @@ London,England,United Kingdom
 
 #### Defined in
 
-main.ts:201142
+[main.ts:201022](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L201022)
 
 ___
 
@@ -107,7 +107,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-main.ts:201189
+[main.ts:201069](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L201069)
 
 ___
 
@@ -127,7 +127,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-main.ts:201179
+[main.ts:201059](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L201059)
 
 ___
 
@@ -145,7 +145,7 @@ The cost can be calculated on the Pricing page.
 
 #### Defined in
 
-main.ts:201156
+[main.ts:201036](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L201036)
 
 ___
 
@@ -161,4 +161,4 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:201169
+[main.ts:201049](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L201049)

@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IAppDataAppStoreSearchOrganicSerpElementItem
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IAppDataAppStoreSearchOrganicSerpElementItem
 
 # Interface: IAppDataAppStoreSearchOrganicSerpElementItem
 
@@ -42,7 +42,7 @@ id of the app
 
 #### Defined in
 
-main.ts:111025
+[main.ts:110881](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L110881)
 
 ___
 
@@ -54,7 +54,7 @@ URL to the app icon
 
 #### Defined in
 
-main.ts:111031
+[main.ts:110887](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L110887)
 
 ___
 
@@ -66,7 +66,7 @@ indicates whether the app is free
 
 #### Defined in
 
-main.ts:111037
+[main.ts:110893](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L110893)
 
 ___
 
@@ -80,7 +80,7 @@ left, right
 
 #### Defined in
 
-main.ts:111023
+[main.ts:110879](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L110879)
 
 ___
 
@@ -92,7 +92,7 @@ price of the app
 
 #### Defined in
 
-main.ts:111039
+[main.ts:110895](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L110895)
 
 ___
 
@@ -105,7 +105,7 @@ absolute position among all the elements in SERP
 
 #### Defined in
 
-main.ts:111019
+[main.ts:110875](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L110875)
 
 ___
 
@@ -118,7 +118,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-main.ts:111016
+[main.ts:110872](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L110872)
 
 ___
 
@@ -130,7 +130,7 @@ average rating of the app
 
 #### Defined in
 
-main.ts:111035
+[main.ts:110891](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L110891)
 
 ___
 
@@ -142,7 +142,7 @@ the total number of reviews of the app
 
 #### Defined in
 
-main.ts:111033
+[main.ts:110889](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L110889)
 
 ___
 
@@ -154,7 +154,7 @@ title of the app
 
 #### Defined in
 
-main.ts:111027
+[main.ts:110883](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L110883)
 
 ___
 
@@ -166,4 +166,4 @@ URL to the app page on App Store
 
 #### Defined in
 
-main.ts:111029
+[main.ts:110885](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L110885)

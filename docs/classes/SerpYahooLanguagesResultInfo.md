@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / SerpYahooLanguagesResultInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / SerpYahooLanguagesResultInfo
 
 # Class: SerpYahooLanguagesResultInfo
 
@@ -45,7 +45,7 @@
 
 #### Defined in
 
-main.ts:63180
+[main.ts:63036](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L63036)
 
 ## Properties
 
@@ -61,7 +61,7 @@ language code according to ISO 639-1
 
 #### Defined in
 
-main.ts:63176
+[main.ts:63032](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L63032)
 
 ___
 
@@ -77,7 +77,7 @@ language name
 
 #### Defined in
 
-main.ts:63174
+[main.ts:63030](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L63030)
 
 ## Methods
 
@@ -97,7 +97,7 @@ main.ts:63174
 
 #### Defined in
 
-main.ts:63189
+[main.ts:63045](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L63045)
 
 ___
 
@@ -117,7 +117,7 @@ ___
 
 #### Defined in
 
-main.ts:63207
+[main.ts:63063](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L63063)
 
 ___
 
@@ -137,4 +137,4 @@ ___
 
 #### Defined in
 
-main.ts:63200
+[main.ts:63056](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L63056)

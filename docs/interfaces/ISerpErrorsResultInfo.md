@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / ISerpErrorsResultInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / ISerpErrorsResultInfo
 
 # Interface: ISerpErrorsResultInfo
 
@@ -38,7 +38,7 @@ example:
 
 #### Defined in
 
-main.ts:23405
+[main.ts:23263](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L23263)
 
 ___
 
@@ -50,7 +50,7 @@ error code
 
 #### Defined in
 
-main.ts:23409
+[main.ts:23267](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L23267)
 
 ___
 
@@ -63,7 +63,7 @@ error message (see full list) or URL that caused an error
 
 #### Defined in
 
-main.ts:23412
+[main.ts:23270](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L23270)
 
 ___
 
@@ -75,7 +75,7 @@ corresponding API function
 
 #### Defined in
 
-main.ts:23407
+[main.ts:23265](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L23265)
 
 ___
 
@@ -87,7 +87,7 @@ HTTP status code
 
 #### Defined in
 
-main.ts:23419
+[main.ts:23277](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L23277)
 
 ___
 
@@ -99,7 +99,7 @@ HTTP method
 
 #### Defined in
 
-main.ts:23417
+[main.ts:23275](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L23275)
 
 ___
 
@@ -112,7 +112,7 @@ server response
 
 #### Defined in
 
-main.ts:23425
+[main.ts:23283](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L23283)
 
 ___
 
@@ -125,7 +125,7 @@ for tasks set with a pingback/postback, this field will show the time it took yo
 
 #### Defined in
 
-main.ts:23422
+[main.ts:23280](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L23280)
 
 ___
 
@@ -138,7 +138,7 @@ URL you used for making an API call or pingback/postback URL
 
 #### Defined in
 
-main.ts:23415
+[main.ts:23273](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L23273)
 
 ___
 
@@ -150,4 +150,4 @@ id of the task
 
 #### Defined in
 
-main.ts:23400
+[main.ts:23258](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L23258)

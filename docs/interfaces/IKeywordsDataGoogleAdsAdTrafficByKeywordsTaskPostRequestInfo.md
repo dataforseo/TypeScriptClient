@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IKeywordsDataGoogleAdsAdTrafficByKeywordsTaskPostRequestInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IKeywordsDataGoogleAdsAdTrafficByKeywordsTaskPostRequestInfo
 
 # Interface: IKeywordsDataGoogleAdsAdTrafficByKeywordsTaskPostRequestInfo
 
@@ -45,7 +45,7 @@ learn more in this help center article
 
 #### Defined in
 
-main.ts:117926
+[main.ts:117782](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L117782)
 
 ___
 
@@ -65,7 +65,7 @@ if Status endpoint returns true in the actual_data field, date_from can be set t
 
 #### Defined in
 
-main.ts:117982
+[main.ts:117838](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L117838)
 
 ___
 
@@ -81,7 +81,7 @@ default value: next_month
 
 #### Defined in
 
-main.ts:117997
+[main.ts:117853](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L117853)
 
 ___
 
@@ -100,7 +100,7 @@ example:
 
 #### Defined in
 
-main.ts:117991
+[main.ts:117847](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L117847)
 
 ___
 
@@ -122,7 +122,7 @@ to learn more about which symbols can be used, please refer to this article
 
 #### Defined in
 
-main.ts:117920
+[main.ts:117776](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L117776)
 
 ___
 
@@ -138,7 +138,7 @@ en
 
 #### Defined in
 
-main.ts:117972
+[main.ts:117828](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L117828)
 
 ___
 
@@ -154,7 +154,7 @@ English
 
 #### Defined in
 
-main.ts:117966
+[main.ts:117822](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L117822)
 
 ___
 
@@ -172,7 +172,7 @@ example:
 
 #### Defined in
 
-main.ts:117951
+[main.ts:117807](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L117807)
 
 ___
 
@@ -191,7 +191,7 @@ example:
 
 #### Defined in
 
-main.ts:117960
+[main.ts:117816](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L117816)
 
 ___
 
@@ -209,7 +209,7 @@ London,England,United Kingdom
 
 #### Defined in
 
-main.ts:117943
+[main.ts:117799](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L117799)
 
 ___
 
@@ -223,7 +223,7 @@ can take the following values: exact, broad, phrase
 
 #### Defined in
 
-main.ts:117930
+[main.ts:117786](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L117786)
 
 ___
 
@@ -243,7 +243,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-main.ts:118022
+[main.ts:117878](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L117878)
 
 ___
 
@@ -263,7 +263,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-main.ts:118012
+[main.ts:117868](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L117868)
 
 ___
 
@@ -278,7 +278,7 @@ default value: false – results are returned for Google search sites
 
 #### Defined in
 
-main.ts:117935
+[main.ts:117791](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L117791)
 
 ___
 
@@ -293,7 +293,7 @@ default value: relevance
 
 #### Defined in
 
-main.ts:118002
+[main.ts:117858](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L117858)
 
 ___
 
@@ -309,4 +309,4 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:118028
+[main.ts:117884](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L117884)

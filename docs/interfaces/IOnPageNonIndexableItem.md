@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IOnPageNonIndexableItem
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IOnPageNonIndexableItem
 
 # Interface: IOnPageNonIndexableItem
 
@@ -28,7 +28,7 @@ can take the following values: robots_txt, meta_tag, http_header, attribute, too
 
 #### Defined in
 
-main.ts:149572
+[main.ts:149428](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L149428)
 
 ___
 
@@ -40,4 +40,4 @@ url of the non-indexable page
 
 #### Defined in
 
-main.ts:149574
+[main.ts:149430](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L149430)

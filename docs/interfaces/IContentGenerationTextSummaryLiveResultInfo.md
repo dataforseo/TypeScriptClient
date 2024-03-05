@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IContentGenerationTextSummaryLiveResultInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IContentGenerationTextSummaryLiveResultInfo
 
 # Interface: IContentGenerationTextSummaryLiveResultInfo
 
@@ -40,7 +40,7 @@ Automated Readability Index
 
 #### Defined in
 
-main.ts:162480
+[main.ts:162360](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L162360)
 
 ___
 
@@ -52,7 +52,7 @@ average number of characters per word in the target text
 
 #### Defined in
 
-main.ts:162473
+[main.ts:162353](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L162353)
 
 ___
 
@@ -64,7 +64,7 @@ number of characters with spaces found in the target text
 
 #### Defined in
 
-main.ts:162469
+[main.ts:162349](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L162349)
 
 ___
 
@@ -76,7 +76,7 @@ number of characters without spaces found in the target text
 
 #### Defined in
 
-main.ts:162467
+[main.ts:162347](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L162347)
 
 ___
 
@@ -88,7 +88,7 @@ Coleman–Liau Index
 
 #### Defined in
 
-main.ts:162482
+[main.ts:162362](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L162362)
 
 ___
 
@@ -100,7 +100,7 @@ Flesch–Kincaid Readability Index
 
 #### Defined in
 
-main.ts:162484
+[main.ts:162364](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L162364)
 
 ___
 
@@ -112,7 +112,7 @@ number of grammar errors found in the target text
 
 #### Defined in
 
-main.ts:162490
+[main.ts:162370](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L162370)
 
 ___
 
@@ -129,7 +129,7 @@ contains most common words and their count
 
 #### Defined in
 
-main.ts:162478
+[main.ts:162358](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L162358)
 
 ___
 
@@ -141,7 +141,7 @@ number of paragraphs found in the target text
 
 #### Defined in
 
-main.ts:162463
+[main.ts:162343](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L162343)
 
 ___
 
@@ -153,7 +153,7 @@ number of sentences found in the target text
 
 #### Defined in
 
-main.ts:162461
+[main.ts:162341](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L162341)
 
 ___
 
@@ -165,7 +165,7 @@ SMOG Readability Index
 
 #### Defined in
 
-main.ts:162486
+[main.ts:162366](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L162366)
 
 ___
 
@@ -177,7 +177,7 @@ number of spelling errors found in the target text
 
 #### Defined in
 
-main.ts:162488
+[main.ts:162368](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L162368)
 
 ___
 
@@ -189,7 +189,7 @@ vocabulary density of the target text
 
 #### Defined in
 
-main.ts:162475
+[main.ts:162355](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L162355)
 
 ___
 
@@ -201,7 +201,7 @@ number of words found in the target text
 
 #### Defined in
 
-main.ts:162465
+[main.ts:162345](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L162345)
 
 ___
 
@@ -213,4 +213,4 @@ average number of words per sentence in the target text
 
 #### Defined in
 
-main.ts:162471
+[main.ts:162351](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L162351)

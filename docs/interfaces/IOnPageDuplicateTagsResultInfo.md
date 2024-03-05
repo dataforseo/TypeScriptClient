@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IOnPageDuplicateTagsResultInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IOnPageDuplicateTagsResultInfo
 
 # Interface: IOnPageDuplicateTagsResultInfo
 
@@ -32,7 +32,7 @@ possible values: in_progress, finished
 
 #### Defined in
 
-main.ts:147446
+[main.ts:147302](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L147302)
 
 ___
 
@@ -44,7 +44,7 @@ details of the crawling session
 
 #### Defined in
 
-main.ts:147448
+[main.ts:147304](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L147304)
 
 ___
 
@@ -56,7 +56,7 @@ items array
 
 #### Defined in
 
-main.ts:147458
+[main.ts:147314](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L147314)
 
 ___
 
@@ -68,7 +68,7 @@ number of items in the results array
 
 #### Defined in
 
-main.ts:147456
+[main.ts:147312](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L147312)
 
 ___
 
@@ -81,7 +81,7 @@ displays the number of pages with duplicate tags returned in the response
 
 #### Defined in
 
-main.ts:147454
+[main.ts:147310](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L147310)
 
 ___
 
@@ -94,4 +94,4 @@ displays the total number of pages with duplicate tags of the target website
 
 #### Defined in
 
-main.ts:147451
+[main.ts:147307](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L147307)

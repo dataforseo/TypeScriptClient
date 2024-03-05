@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / DomainAnalyticsTechnologiesAvailableFiltersTaskInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / DomainAnalyticsTechnologiesAvailableFiltersTaskInfo
 
 # Class: DomainAnalyticsTechnologiesAvailableFiltersTaskInfo
 
@@ -62,7 +62,7 @@
 
 #### Defined in
 
-main.ts:71809
+[main.ts:71665](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L71665)
 
 ## Properties
 
@@ -82,7 +82,7 @@ total tasks cost, USD
 
 #### Defined in
 
-main.ts:22744
+[main.ts:22602](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L22602)
 
 ___
 
@@ -106,7 +106,7 @@ contains the same parameters that you specified in the POST request
 
 #### Defined in
 
-main.ts:22750
+[main.ts:22608](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L22608)
 
 ___
 
@@ -127,7 +127,7 @@ unique task identifier in our system in the UUID format
 
 #### Defined in
 
-main.ts:22733
+[main.ts:22591](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L22591)
 
 ___
 
@@ -147,7 +147,7 @@ URL path
 
 #### Defined in
 
-main.ts:22748
+[main.ts:22606](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L22606)
 
 ___
 
@@ -161,7 +161,7 @@ ___
 
 #### Defined in
 
-main.ts:71805
+[main.ts:71661](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L71661)
 
 ___
 
@@ -181,7 +181,7 @@ number of elements in the result array
 
 #### Defined in
 
-main.ts:22746
+[main.ts:22604](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L22604)
 
 ___
 
@@ -203,7 +203,7 @@ you can find the full list of the response codes here
 
 #### Defined in
 
-main.ts:22737
+[main.ts:22595](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L22595)
 
 ___
 
@@ -224,7 +224,7 @@ you can find the full list of general informational messages here
 
 #### Defined in
 
-main.ts:22740
+[main.ts:22598](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L22598)
 
 ___
 
@@ -244,7 +244,7 @@ execution time, seconds
 
 #### Defined in
 
-main.ts:22742
+[main.ts:22600](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L22600)
 
 ## Methods
 
@@ -268,7 +268,7 @@ main.ts:22742
 
 #### Defined in
 
-main.ts:71813
+[main.ts:71669](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L71669)
 
 ___
 
@@ -292,7 +292,7 @@ ___
 
 #### Defined in
 
-main.ts:71835
+[main.ts:71691](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L71691)
 
 ___
 
@@ -316,4 +316,4 @@ ___
 
 #### Defined in
 
-main.ts:71828
+[main.ts:71684](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L71684)

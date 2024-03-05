@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IKeywordsDataErrorsRequestInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IKeywordsDataErrorsRequestInfo
 
 # Interface: IKeywordsDataErrorsRequestInfo
 
@@ -35,7 +35,7 @@ example:
 
 #### Defined in
 
-main.ts:112812
+[main.ts:112668](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L112668)
 
 ___
 
@@ -52,7 +52,7 @@ example:
 
 #### Defined in
 
-main.ts:112819
+[main.ts:112675](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L112675)
 
 ___
 
@@ -68,7 +68,7 @@ example: keywords_data/keywords_for_site/task_post, postback_url, pingback_url
 
 #### Defined in
 
-main.ts:112805
+[main.ts:112661](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L112661)
 
 ___
 
@@ -83,7 +83,7 @@ maximum value: 1000
 
 #### Defined in
 
-main.ts:112794
+[main.ts:112650](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L112650)
 
 ___
 
@@ -98,4 +98,4 @@ if you specify the 10 value, the first ten tasks in the results array will be om
 
 #### Defined in
 
-main.ts:112799
+[main.ts:112655](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L112655)

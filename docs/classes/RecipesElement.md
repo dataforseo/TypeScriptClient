@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / RecipesElement
+[dataforseo-client](../README.md) / [Exports](../modules.md) / RecipesElement
 
 # Class: RecipesElement
 
@@ -51,7 +51,7 @@
 
 #### Defined in
 
-main.ts:31580
+[main.ts:31438](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L31438)
 
 ## Properties
 
@@ -67,7 +67,7 @@ description of the results element in SERP
 
 #### Defined in
 
-main.ts:31571
+[main.ts:31429](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L31429)
 
 ___
 
@@ -83,7 +83,7 @@ domain where a link points
 
 #### Defined in
 
-main.ts:31566
+[main.ts:31424](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L31424)
 
 ___
 
@@ -100,7 +100,7 @@ the popularity rate based on reviews and displayed in SERP
 
 #### Defined in
 
-main.ts:31576
+[main.ts:31434](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L31434)
 
 ___
 
@@ -117,7 +117,7 @@ indicates the source of information included in the element
 
 #### Defined in
 
-main.ts:31569
+[main.ts:31427](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L31427)
 
 ___
 
@@ -133,7 +133,7 @@ the total time it takes to prepare the cook the dish
 
 #### Defined in
 
-main.ts:31573
+[main.ts:31431](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L31431)
 
 ___
 
@@ -149,7 +149,7 @@ title of the row
 
 #### Defined in
 
-main.ts:31562
+[main.ts:31420](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L31420)
 
 ___
 
@@ -165,7 +165,7 @@ type of element
 
 #### Defined in
 
-main.ts:31560
+[main.ts:31418](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L31418)
 
 ___
 
@@ -181,7 +181,7 @@ URL
 
 #### Defined in
 
-main.ts:31564
+[main.ts:31422](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L31422)
 
 ## Methods
 
@@ -201,7 +201,7 @@ main.ts:31564
 
 #### Defined in
 
-main.ts:31589
+[main.ts:31447](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L31447)
 
 ___
 
@@ -221,7 +221,7 @@ ___
 
 #### Defined in
 
-main.ts:31613
+[main.ts:31471](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L31471)
 
 ___
 
@@ -241,4 +241,4 @@ ___
 
 #### Defined in
 
-main.ts:31606
+[main.ts:31464](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L31464)

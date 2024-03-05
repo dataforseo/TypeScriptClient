@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / SerpScreenshotResultInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / SerpScreenshotResultInfo
 
 # Class: SerpScreenshotResultInfo
 
@@ -45,7 +45,7 @@
 
 #### Defined in
 
-main.ts:23702
+[main.ts:23560](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L23560)
 
 ## Properties
 
@@ -61,7 +61,7 @@ items array
 
 #### Defined in
 
-main.ts:23698
+[main.ts:23556](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L23556)
 
 ___
 
@@ -77,7 +77,7 @@ number of items in the results array
 
 #### Defined in
 
-main.ts:23696
+[main.ts:23554](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L23554)
 
 ## Methods
 
@@ -97,7 +97,7 @@ main.ts:23696
 
 #### Defined in
 
-main.ts:23711
+[main.ts:23569](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L23569)
 
 ___
 
@@ -117,7 +117,7 @@ ___
 
 #### Defined in
 
-main.ts:23733
+[main.ts:23591](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L23591)
 
 ___
 
@@ -137,4 +137,4 @@ ___
 
 #### Defined in
 
-main.ts:23726
+[main.ts:23584](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L23584)

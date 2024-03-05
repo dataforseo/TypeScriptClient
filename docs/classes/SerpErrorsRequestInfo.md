@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / SerpErrorsRequestInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / SerpErrorsRequestInfo
 
 # Class: SerpErrorsRequestInfo
 
@@ -48,7 +48,7 @@
 
 #### Defined in
 
-main.ts:23232
+[main.ts:23090](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L23090)
 
 ## Properties
 
@@ -69,7 +69,7 @@ example:
 
 #### Defined in
 
-main.ts:23221
+[main.ts:23079](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L23079)
 
 ___
 
@@ -90,7 +90,7 @@ example:
 
 #### Defined in
 
-main.ts:23228
+[main.ts:23086](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L23086)
 
 ___
 
@@ -110,7 +110,7 @@ example: serp/task_get/advanced, postback_url, pingback_url
 
 #### Defined in
 
-main.ts:23214
+[main.ts:23072](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L23072)
 
 ___
 
@@ -129,7 +129,7 @@ maximum value: 1000
 
 #### Defined in
 
-main.ts:23203
+[main.ts:23061](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L23061)
 
 ___
 
@@ -148,7 +148,7 @@ if you specify the 10 value, the first ten tasks in the results array will be om
 
 #### Defined in
 
-main.ts:23208
+[main.ts:23066](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L23066)
 
 ## Methods
 
@@ -168,7 +168,7 @@ main.ts:23208
 
 #### Defined in
 
-main.ts:23241
+[main.ts:23099](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L23099)
 
 ___
 
@@ -188,7 +188,7 @@ ___
 
 #### Defined in
 
-main.ts:23262
+[main.ts:23120](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L23120)
 
 ___
 
@@ -208,4 +208,4 @@ ___
 
 #### Defined in
 
-main.ts:23255
+[main.ts:23113](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L23113)

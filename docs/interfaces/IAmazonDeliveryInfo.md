@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IAmazonDeliveryInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IAmazonDeliveryInfo
 
 # Interface: IAmazonDeliveryInfo
 
@@ -31,7 +31,7 @@ the earliest date when the product can be shipped
 
 #### Defined in
 
-main.ts:21210
+[main.ts:21210](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L21210)
 
 ___
 
@@ -43,7 +43,7 @@ the latest date when the product can be delivered
 
 #### Defined in
 
-main.ts:21212
+[main.ts:21212](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L21212)
 
 ___
 
@@ -55,7 +55,7 @@ message accompanying the delivery information as posted by the seller
 
 #### Defined in
 
-main.ts:21208
+[main.ts:21208](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L21208)
 
 ___
 
@@ -69,7 +69,7 @@ if free delivery is available, the value is null
 
 #### Defined in
 
-main.ts:21220
+[main.ts:21220](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L21220)
 
 ___
 
@@ -81,7 +81,7 @@ the earliest date when the product can be delivered with a fast delivery option
 
 #### Defined in
 
-main.ts:21214
+[main.ts:21214](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L21214)
 
 ___
 
@@ -93,4 +93,4 @@ the latest date when the product can be delivered with a fast delivery option
 
 #### Defined in
 
-main.ts:21216
+[main.ts:21216](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L21216)

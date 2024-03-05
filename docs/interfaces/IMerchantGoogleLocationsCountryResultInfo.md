@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IMerchantGoogleLocationsCountryResultInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IMerchantGoogleLocationsCountryResultInfo
 
 # Interface: IMerchantGoogleLocationsCountryResultInfo
 
@@ -30,7 +30,7 @@ ISO country code of the location
 
 #### Defined in
 
-main.ts:163890
+[main.ts:163770](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L163770)
 
 ___
 
@@ -42,7 +42,7 @@ location code
 
 #### Defined in
 
-main.ts:163881
+[main.ts:163761](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L163761)
 
 ___
 
@@ -54,7 +54,7 @@ full name of the location
 
 #### Defined in
 
-main.ts:163883
+[main.ts:163763](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L163763)
 
 ___
 
@@ -69,7 +69,7 @@ example:
 
 #### Defined in
 
-main.ts:163888
+[main.ts:163768](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L163768)
 
 ___
 
@@ -81,4 +81,4 @@ location type
 
 #### Defined in
 
-main.ts:163892
+[main.ts:163772](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L163772)

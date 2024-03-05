@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IProductSeller
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IProductSeller
 
 # Interface: IProductSeller
 
@@ -33,7 +33,7 @@ product delivery information
 
 #### Defined in
 
-main.ts:169186
+[main.ts:169066](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L169066)
 
 ___
 
@@ -46,7 +46,7 @@ product price details on the seller’s website
 
 #### Defined in
 
-main.ts:169183
+[main.ts:169063](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L169063)
 
 ___
 
@@ -58,7 +58,7 @@ rating of the seller
 
 #### Defined in
 
-main.ts:169177
+[main.ts:169057](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L169057)
 
 ___
 
@@ -71,7 +71,7 @@ number of reviews on the product seller’s account
 
 #### Defined in
 
-main.ts:169180
+[main.ts:169060](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L169060)
 
 ___
 
@@ -83,7 +83,7 @@ product title
 
 #### Defined in
 
-main.ts:169172
+[main.ts:169052](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L169052)
 
 ___
 
@@ -95,7 +95,7 @@ type of element
 
 #### Defined in
 
-main.ts:169170
+[main.ts:169050](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L169050)
 
 ___
 
@@ -108,4 +108,4 @@ url of the page where the product is sold
 
 #### Defined in
 
-main.ts:169175
+[main.ts:169055](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L169055)

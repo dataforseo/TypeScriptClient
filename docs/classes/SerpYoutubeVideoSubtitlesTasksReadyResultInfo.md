@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / SerpYoutubeVideoSubtitlesTasksReadyResultInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / SerpYoutubeVideoSubtitlesTasksReadyResultInfo
 
 # Class: SerpYoutubeVideoSubtitlesTasksReadyResultInfo
 
@@ -51,7 +51,7 @@
 
 #### Defined in
 
-main.ts:59963
+[main.ts:59819](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L59819)
 
 ## Properties
 
@@ -67,7 +67,7 @@ date when the task was posted (in the UTC format)
 
 #### Defined in
 
-main.ts:59948
+[main.ts:59804](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L59804)
 
 ___
 
@@ -84,7 +84,7 @@ if SERP Advanced is not supported in the specified endpoint, the value will be n
 
 #### Defined in
 
-main.ts:59956
+[main.ts:59812](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L59812)
 
 ___
 
@@ -101,7 +101,7 @@ if SERP HTML is not supported in the specified endpoint, the value will be null
 
 #### Defined in
 
-main.ts:59959
+[main.ts:59815](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L59815)
 
 ___
 
@@ -118,7 +118,7 @@ if SERP Regular is not supported in the specified endpoint, the value will be nu
 
 #### Defined in
 
-main.ts:59953
+[main.ts:59809](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L59809)
 
 ___
 
@@ -135,7 +135,7 @@ unique task identifier in our system in the UUID format
 
 #### Defined in
 
-main.ts:59941
+[main.ts:59797](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L59797)
 
 ___
 
@@ -151,7 +151,7 @@ search engine specified when setting the task
 
 #### Defined in
 
-main.ts:59943
+[main.ts:59799](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L59799)
 
 ___
 
@@ -168,7 +168,7 @@ can take the following values: video_subtitles
 
 #### Defined in
 
-main.ts:59946
+[main.ts:59802](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L59802)
 
 ___
 
@@ -184,7 +184,7 @@ user-defined task identifier
 
 #### Defined in
 
-main.ts:59950
+[main.ts:59806](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L59806)
 
 ## Methods
 
@@ -204,7 +204,7 @@ main.ts:59950
 
 #### Defined in
 
-main.ts:59972
+[main.ts:59828](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L59828)
 
 ___
 
@@ -224,7 +224,7 @@ ___
 
 #### Defined in
 
-main.ts:59996
+[main.ts:59852](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L59852)
 
 ___
 
@@ -244,4 +244,4 @@ ___
 
 #### Defined in
 
-main.ts:59989
+[main.ts:59845](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L59845)

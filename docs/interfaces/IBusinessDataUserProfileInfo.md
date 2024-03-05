@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IBusinessDataUserProfileInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IBusinessDataUserProfileInfo
 
 # Interface: IBusinessDataUserProfileInfo
 
@@ -30,7 +30,7 @@ URL to the reviewer’s profile picture
 
 #### Defined in
 
-main.ts:200057
+[main.ts:199937](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L199937)
 
 ___
 
@@ -42,7 +42,7 @@ country of the reviewer
 
 #### Defined in
 
-main.ts:200059
+[main.ts:199939](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L199939)
 
 ___
 
@@ -54,7 +54,7 @@ the name of the reviewer
 
 #### Defined in
 
-main.ts:200053
+[main.ts:199933](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L199933)
 
 ___
 
@@ -66,7 +66,7 @@ total number of reviews submitted by the reviewer
 
 #### Defined in
 
-main.ts:200061
+[main.ts:199941](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L199941)
 
 ___
 
@@ -78,4 +78,4 @@ URL to the reviewer’s profile
 
 #### Defined in
 
-main.ts:200055
+[main.ts:199935](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L199935)

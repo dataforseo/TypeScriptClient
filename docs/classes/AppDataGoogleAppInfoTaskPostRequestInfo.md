@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / AppDataGoogleAppInfoTaskPostRequestInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / AppDataGoogleAppInfoTaskPostRequestInfo
 
 # Class: AppDataGoogleAppInfoTaskPostRequestInfo
 
@@ -53,7 +53,7 @@
 
 #### Defined in
 
-main.ts:179444
+[main.ts:179324](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L179324)
 
 ## Properties
 
@@ -75,7 +75,7 @@ the id is org.telegram.messenger
 
 #### Defined in
 
-main.ts:179372
+[main.ts:179252](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L179252)
 
 ___
 
@@ -96,7 +96,7 @@ en
 
 #### Defined in
 
-main.ts:179400
+[main.ts:179280](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L179280)
 
 ___
 
@@ -117,7 +117,7 @@ English
 
 #### Defined in
 
-main.ts:179393
+[main.ts:179273](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L179273)
 
 ___
 
@@ -138,7 +138,7 @@ example:
 
 #### Defined in
 
-main.ts:179386
+[main.ts:179266](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L179266)
 
 ___
 
@@ -159,7 +159,7 @@ West Los Angeles,California,United States
 
 #### Defined in
 
-main.ts:179379
+[main.ts:179259](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L179259)
 
 ___
 
@@ -183,7 +183,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-main.ts:179440
+[main.ts:179320](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L179320)
 
 ___
 
@@ -203,7 +203,7 @@ advanced, html
 
 #### Defined in
 
-main.ts:179430
+[main.ts:179310](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L179310)
 
 ___
 
@@ -227,7 +227,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-main.ts:179424
+[main.ts:179304](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L179304)
 
 ___
 
@@ -249,7 +249,7 @@ The cost can be calculated on the Pricing page.
 
 #### Defined in
 
-main.ts:179408
+[main.ts:179288](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L179288)
 
 ___
 
@@ -269,7 +269,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:179414
+[main.ts:179294](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L179294)
 
 ## Methods
 
@@ -289,7 +289,7 @@ main.ts:179414
 
 #### Defined in
 
-main.ts:179453
+[main.ts:179333](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L179333)
 
 ___
 
@@ -309,7 +309,7 @@ ___
 
 #### Defined in
 
-main.ts:179479
+[main.ts:179359](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L179359)
 
 ___
 
@@ -329,4 +329,4 @@ ___
 
 #### Defined in
 
-main.ts:179472
+[main.ts:179352](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L179352)

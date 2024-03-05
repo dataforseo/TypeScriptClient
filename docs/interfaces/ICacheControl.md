@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / ICacheControl
+[dataforseo-client](../README.md) / [Exports](../modules.md) / ICacheControl
 
 # Interface: ICacheControl
 
@@ -27,7 +27,7 @@ indicates whether the page is cacheable
 
 #### Defined in
 
-main.ts:144931
+[main.ts:144787](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L144787)
 
 ___
 
@@ -40,4 +40,4 @@ the amount of time the browser caches a resource
 
 #### Defined in
 
-main.ts:144934
+[main.ts:144790](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L144790)

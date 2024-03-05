@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IOnPageWaterfallRequestInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IOnPageWaterfallRequestInfo
 
 # Interface: IOnPageWaterfallRequestInfo
 
@@ -32,7 +32,7 @@ example:
 
 #### Defined in
 
-main.ts:149840
+[main.ts:149696](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L149696)
 
 ___
 
@@ -48,7 +48,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:149850
+[main.ts:149706](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L149706)
 
 ___
 
@@ -62,4 +62,4 @@ specify the pages you want to receive timing for
 
 #### Defined in
 
-main.ts:149844
+[main.ts:149700](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L149700)

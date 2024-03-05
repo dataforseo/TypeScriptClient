@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / ContentAnalysisLocationsResultInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / ContentAnalysisLocationsResultInfo
 
 # Class: ContentAnalysisLocationsResultInfo
 
@@ -45,7 +45,7 @@
 
 #### Defined in
 
-main.ts:155671
+[main.ts:155527](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L155527)
 
 ## Properties
 
@@ -61,7 +61,7 @@ ISO country code of the location
 
 #### Defined in
 
-main.ts:155667
+[main.ts:155523](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L155523)
 
 ___
 
@@ -77,7 +77,7 @@ full name of the location
 
 #### Defined in
 
-main.ts:155665
+[main.ts:155521](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L155521)
 
 ## Methods
 
@@ -97,7 +97,7 @@ main.ts:155665
 
 #### Defined in
 
-main.ts:155680
+[main.ts:155536](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L155536)
 
 ___
 
@@ -117,7 +117,7 @@ ___
 
 #### Defined in
 
-main.ts:155698
+[main.ts:155554](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L155554)
 
 ___
 
@@ -137,4 +137,4 @@ ___
 
 #### Defined in
 
-main.ts:155691
+[main.ts:155547](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L155547)

@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IAppDataAppleAppReviewsTaskPostRequestInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IAppDataAppleAppReviewsTaskPostRequestInfo
 
 # Interface: IAppDataAppleAppReviewsTaskPostRequestInfo
 
@@ -43,7 +43,7 @@ the id is 835599320
 
 #### Defined in
 
-main.ts:185934
+[main.ts:185814](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L185814)
 
 ___
 
@@ -60,7 +60,7 @@ maximum value: 500
 
 #### Defined in
 
-main.ts:185977
+[main.ts:185857](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L185857)
 
 ___
 
@@ -77,7 +77,7 @@ en
 
 #### Defined in
 
-main.ts:185962
+[main.ts:185842](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L185842)
 
 ___
 
@@ -94,7 +94,7 @@ English
 
 #### Defined in
 
-main.ts:185955
+[main.ts:185835](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L185835)
 
 ___
 
@@ -111,7 +111,7 @@ example:
 
 #### Defined in
 
-main.ts:185948
+[main.ts:185828](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L185828)
 
 ___
 
@@ -128,7 +128,7 @@ West Los Angeles,California,United States
 
 #### Defined in
 
-main.ts:185941
+[main.ts:185821](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L185821)
 
 ___
 
@@ -148,7 +148,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-main.ts:186017
+[main.ts:185897](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L185897)
 
 ___
 
@@ -164,7 +164,7 @@ advanced
 
 #### Defined in
 
-main.ts:186007
+[main.ts:185887](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L185887)
 
 ___
 
@@ -184,7 +184,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-main.ts:186001
+[main.ts:185881](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L185881)
 
 ___
 
@@ -202,7 +202,7 @@ The cost can be calculated on the Pricing page.
 
 #### Defined in
 
-main.ts:185970
+[main.ts:185850](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L185850)
 
 ___
 
@@ -220,7 +220,7 @@ default rule: most_helpful
 
 #### Defined in
 
-main.ts:185985
+[main.ts:185865](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L185865)
 
 ___
 
@@ -236,4 +236,4 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:185991
+[main.ts:185871](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L185871)

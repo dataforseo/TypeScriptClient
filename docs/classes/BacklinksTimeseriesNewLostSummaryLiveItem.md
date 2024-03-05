@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / BacklinksTimeseriesNewLostSummaryLiveItem
+[dataforseo-client](../README.md) / [Exports](../modules.md) / BacklinksTimeseriesNewLostSummaryLiveItem
 
 # Class: BacklinksTimeseriesNewLostSummaryLiveItem
 
@@ -51,7 +51,7 @@
 
 #### Defined in
 
-main.ts:139150
+[main.ts:139006](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L139006)
 
 ## Properties
 
@@ -70,7 +70,7 @@ example:
 
 #### Defined in
 
-main.ts:139128
+[main.ts:138984](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L138984)
 
 ___
 
@@ -87,7 +87,7 @@ number of lost backlinks of the target
 
 #### Defined in
 
-main.ts:139134
+[main.ts:138990](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L138990)
 
 ___
 
@@ -104,7 +104,7 @@ number of lost referring domains of the target
 
 #### Defined in
 
-main.ts:139140
+[main.ts:138996](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L138996)
 
 ___
 
@@ -121,7 +121,7 @@ number of lost referring main domains of the target
 
 #### Defined in
 
-main.ts:139146
+[main.ts:139002](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L139002)
 
 ___
 
@@ -138,7 +138,7 @@ number of new backlinks pointing to the target
 
 #### Defined in
 
-main.ts:139131
+[main.ts:138987](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L138987)
 
 ___
 
@@ -155,7 +155,7 @@ number of new referring domains pointing to the target
 
 #### Defined in
 
-main.ts:139137
+[main.ts:138993](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L138993)
 
 ___
 
@@ -172,7 +172,7 @@ number of new referring main domains pointing to the target
 
 #### Defined in
 
-main.ts:139143
+[main.ts:138999](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L138999)
 
 ___
 
@@ -188,7 +188,7 @@ type of element
 
 #### Defined in
 
-main.ts:139123
+[main.ts:138979](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L138979)
 
 ## Methods
 
@@ -208,7 +208,7 @@ main.ts:139123
 
 #### Defined in
 
-main.ts:139159
+[main.ts:139015](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L139015)
 
 ___
 
@@ -228,7 +228,7 @@ ___
 
 #### Defined in
 
-main.ts:139183
+[main.ts:139039](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L139039)
 
 ___
 
@@ -248,4 +248,4 @@ ___
 
 #### Defined in
 
-main.ts:139176
+[main.ts:139032](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L139032)

@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / PerspectivesElement
+[dataforseo-client](../README.md) / [Exports](../modules.md) / PerspectivesElement
 
 # Class: PerspectivesElement
 
@@ -51,7 +51,7 @@
 
 #### Defined in
 
-main.ts:35546
+[main.ts:35404](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L35404)
 
 ## Properties
 
@@ -67,7 +67,7 @@ the date when the page source of the element was published
 
 #### Defined in
 
-main.ts:35534
+[main.ts:35392](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L35392)
 
 ___
 
@@ -83,7 +83,7 @@ description of the results element in SERP
 
 #### Defined in
 
-main.ts:35528
+[main.ts:35386](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L35386)
 
 ___
 
@@ -99,7 +99,7 @@ domain where a link points
 
 #### Defined in
 
-main.ts:35532
+[main.ts:35390](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L35390)
 
 ___
 
@@ -116,7 +116,7 @@ indicates the source of information included in the element
 
 #### Defined in
 
-main.ts:35537
+[main.ts:35395](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L35395)
 
 ___
 
@@ -135,7 +135,7 @@ example:
 
 #### Defined in
 
-main.ts:35542
+[main.ts:35400](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L35400)
 
 ___
 
@@ -151,7 +151,7 @@ title of the row
 
 #### Defined in
 
-main.ts:35526
+[main.ts:35384](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L35384)
 
 ___
 
@@ -167,7 +167,7 @@ type of element
 
 #### Defined in
 
-main.ts:35524
+[main.ts:35382](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L35382)
 
 ___
 
@@ -183,7 +183,7 @@ URL
 
 #### Defined in
 
-main.ts:35530
+[main.ts:35388](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L35388)
 
 ## Methods
 
@@ -203,7 +203,7 @@ main.ts:35530
 
 #### Defined in
 
-main.ts:35555
+[main.ts:35413](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L35413)
 
 ___
 
@@ -223,7 +223,7 @@ ___
 
 #### Defined in
 
-main.ts:35579
+[main.ts:35437](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L35437)
 
 ___
 
@@ -243,4 +243,4 @@ ___
 
 #### Defined in
 
-main.ts:35572
+[main.ts:35430](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L35430)

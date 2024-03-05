@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IMetricsInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IMetricsInfo
 
 # Interface: IMetricsInfo
 
@@ -45,7 +45,7 @@ total count of organic SERPs that contain the domain
 
 #### Defined in
 
-main.ts:76050
+[main.ts:75906](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L75906)
 
 ___
 
@@ -60,7 +60,7 @@ learn more about how the metric is calculated in this help center article
 
 #### Defined in
 
-main.ts:76055
+[main.ts:75911](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L75911)
 
 ___
 
@@ -75,7 +75,7 @@ learn more about how the metric is calculated in this help center article
 
 #### Defined in
 
-main.ts:76043
+[main.ts:75899](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L75899)
 
 ___
 
@@ -90,7 +90,7 @@ learn more about how the metric is calculated in this help center article
 
 #### Defined in
 
-main.ts:76048
+[main.ts:75904](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L75904)
 
 ___
 
@@ -103,7 +103,7 @@ indicates how many ranked elements of this domain went down in Google Search
 
 #### Defined in
 
-main.ts:76064
+[main.ts:75920](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L75920)
 
 ___
 
@@ -116,7 +116,7 @@ indicates how many ranked elements of this domain were previously presented in S
 
 #### Defined in
 
-main.ts:76067
+[main.ts:75923](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L75923)
 
 ___
 
@@ -129,7 +129,7 @@ indicates how many new ranked elements were found for this domain
 
 #### Defined in
 
-main.ts:76058
+[main.ts:75914](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L75914)
 
 ___
 
@@ -142,7 +142,7 @@ indicates how many ranked elements of this domain went up in Google Search
 
 #### Defined in
 
-main.ts:76061
+[main.ts:75917](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L75917)
 
 ___
 
@@ -154,7 +154,7 @@ number of organic SERPs where the domain ranks #1
 
 #### Defined in
 
-main.ts:76016
+[main.ts:75872](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L75872)
 
 ___
 
@@ -166,7 +166,7 @@ number of organic SERPs where the domain ranks #11-20
 
 #### Defined in
 
-main.ts:76022
+[main.ts:75878](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L75878)
 
 ___
 
@@ -178,7 +178,7 @@ number of organic SERPs where the domain ranks #21-30
 
 #### Defined in
 
-main.ts:76024
+[main.ts:75880](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L75880)
 
 ___
 
@@ -190,7 +190,7 @@ number of organic SERPs where the domain ranks #2-3
 
 #### Defined in
 
-main.ts:76018
+[main.ts:75874](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L75874)
 
 ___
 
@@ -202,7 +202,7 @@ number of organic SERPs where the domain ranks #31-40
 
 #### Defined in
 
-main.ts:76026
+[main.ts:75882](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L75882)
 
 ___
 
@@ -214,7 +214,7 @@ number of organic SERPs where the domain ranks #41-50
 
 #### Defined in
 
-main.ts:76028
+[main.ts:75884](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L75884)
 
 ___
 
@@ -226,7 +226,7 @@ number of organic SERPs where the domain ranks #4-10
 
 #### Defined in
 
-main.ts:76020
+[main.ts:75876](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L75876)
 
 ___
 
@@ -238,7 +238,7 @@ number of organic SERPs where the domain ranks #51-60
 
 #### Defined in
 
-main.ts:76030
+[main.ts:75886](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L75886)
 
 ___
 
@@ -250,7 +250,7 @@ number of organic SERPs where the domain ranks #61-70
 
 #### Defined in
 
-main.ts:76032
+[main.ts:75888](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L75888)
 
 ___
 
@@ -262,7 +262,7 @@ number of organic SERPs where the domain ranks #71-80
 
 #### Defined in
 
-main.ts:76034
+[main.ts:75890](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L75890)
 
 ___
 
@@ -274,7 +274,7 @@ number of organic SERPs where the domain ranks #81-90
 
 #### Defined in
 
-main.ts:76036
+[main.ts:75892](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L75892)
 
 ___
 
@@ -286,4 +286,4 @@ number of organic SERPs where the domain ranks #91-100
 
 #### Defined in
 
-main.ts:76038
+[main.ts:75894](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L75894)

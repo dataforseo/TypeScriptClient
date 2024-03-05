@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / SerpYoutubeVideoCommentsLiveAdvancedRequestInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / SerpYoutubeVideoCommentsLiveAdvancedRequestInfo
 
 # Class: SerpYoutubeVideoCommentsLiveAdvancedRequestInfo
 
@@ -52,7 +52,7 @@
 
 #### Defined in
 
-main.ts:62402
+[main.ts:62258](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L62258)
 
 ## Properties
 
@@ -75,7 +75,7 @@ if the specified depth is higher than the number of results in the response, the
 
 #### Defined in
 
-main.ts:62392
+[main.ts:62248](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L62248)
 
 ___
 
@@ -93,7 +93,7 @@ only value: desktop
 
 #### Defined in
 
-main.ts:62378
+[main.ts:62234](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L62234)
 
 ___
 
@@ -114,7 +114,7 @@ en
 
 #### Defined in
 
-main.ts:62374
+[main.ts:62230](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L62230)
 
 ___
 
@@ -135,7 +135,7 @@ English
 
 #### Defined in
 
-main.ts:62367
+[main.ts:62223](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L62223)
 
 ___
 
@@ -156,7 +156,7 @@ example:
 
 #### Defined in
 
-main.ts:62360
+[main.ts:62216](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L62216)
 
 ___
 
@@ -177,7 +177,7 @@ United States
 
 #### Defined in
 
-main.ts:62353
+[main.ts:62209](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L62209)
 
 ___
 
@@ -196,7 +196,7 @@ default value: windows
 
 #### Defined in
 
-main.ts:62383
+[main.ts:62239](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L62239)
 
 ___
 
@@ -216,7 +216,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:62398
+[main.ts:62254](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L62254)
 
 ___
 
@@ -236,7 +236,7 @@ vQXvyV0zIP4
 
 #### Defined in
 
-main.ts:62346
+[main.ts:62202](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L62202)
 
 ## Methods
 
@@ -256,7 +256,7 @@ main.ts:62346
 
 #### Defined in
 
-main.ts:62411
+[main.ts:62267](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L62267)
 
 ___
 
@@ -276,7 +276,7 @@ ___
 
 #### Defined in
 
-main.ts:62436
+[main.ts:62292](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L62292)
 
 ___
 
@@ -296,4 +296,4 @@ ___
 
 #### Defined in
 
-main.ts:62429
+[main.ts:62285](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L62285)

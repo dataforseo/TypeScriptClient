@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / ApiException
+[dataforseo-client](../README.md) / [Exports](../modules.md) / ApiException
 
 # Class: ApiException
 
@@ -55,7 +55,7 @@ Error.constructor
 
 #### Defined in
 
-main.ts:213553
+[main.ts:213433](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L213433)
 
 ## Properties
 
@@ -69,7 +69,7 @@ main.ts:213553
 
 #### Defined in
 
-main.ts:213550
+[main.ts:213430](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L213430)
 
 ___
 
@@ -79,7 +79,7 @@ ___
 
 #### Defined in
 
-main.ts:213563
+[main.ts:213443](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L213443)
 
 ___
 
@@ -93,7 +93,7 @@ Error.message
 
 #### Defined in
 
-main.ts:213547
+[main.ts:213427](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L213427)
 
 ___
 
@@ -117,7 +117,7 @@ ___
 
 #### Defined in
 
-main.ts:213549
+[main.ts:213429](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L213429)
 
 ___
 
@@ -127,7 +127,7 @@ ___
 
 #### Defined in
 
-main.ts:213551
+[main.ts:213431](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L213431)
 
 ___
 
@@ -151,7 +151,7 @@ ___
 
 #### Defined in
 
-main.ts:213548
+[main.ts:213428](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L213428)
 
 ## Methods
 
@@ -171,4 +171,4 @@ obj is ApiException
 
 #### Defined in
 
-main.ts:213565
+[main.ts:213445](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L213445)

@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IMerchantAmazonReviewsTaskPostRequestInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IMerchantAmazonReviewsTaskPostRequestInfo
 
 # Interface: IMerchantAmazonReviewsTaskPostRequestInfo
 
@@ -47,7 +47,7 @@ you can receive the asin parameter by making a separate request to the Amazon Pr
 
 #### Defined in
 
-main.ts:175206
+[main.ts:175086](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L175086)
 
 ___
 
@@ -64,7 +64,7 @@ default value: 10
 
 #### Defined in
 
-main.ts:175267
+[main.ts:175147](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L175147)
 
 ___
 
@@ -79,7 +79,7 @@ if you use this field, the response will only include reviews that contain the s
 
 #### Defined in
 
-main.ts:175302
+[main.ts:175182](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L175182)
 
 ___
 
@@ -103,7 +103,7 @@ default rule: all_stars
 
 #### Defined in
 
-main.ts:175297
+[main.ts:175177](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L175177)
 
 ___
 
@@ -122,7 +122,7 @@ Note: ASINs vary depending on a product modification. Thus, two modifications of
 
 #### Defined in
 
-main.ts:175319
+[main.ts:175199](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L175199)
 
 ___
 
@@ -139,7 +139,7 @@ en_GB
 
 #### Defined in
 
-main.ts:175253
+[main.ts:175133](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L175133)
 
 ___
 
@@ -157,7 +157,7 @@ English (United Kingdom)
 
 #### Defined in
 
-main.ts:175246
+[main.ts:175126](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L175126)
 
 ___
 
@@ -175,7 +175,7 @@ example:
 
 #### Defined in
 
-main.ts:175229
+[main.ts:175109](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L175109)
 
 ___
 
@@ -194,7 +194,7 @@ example:
 
 #### Defined in
 
-main.ts:175238
+[main.ts:175118](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L175118)
 
 ___
 
@@ -211,7 +211,7 @@ HA1,England,United Kingdom
 
 #### Defined in
 
-main.ts:175221
+[main.ts:175101](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L175101)
 
 ___
 
@@ -229,7 +229,7 @@ default rule: all_contents
 
 #### Defined in
 
-main.ts:175310
+[main.ts:175190](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L175190)
 
 ___
 
@@ -249,7 +249,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-main.ts:175351
+[main.ts:175231](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L175231)
 
 ___
 
@@ -265,7 +265,7 @@ advanced, html
 
 #### Defined in
 
-main.ts:175341
+[main.ts:175221](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L175221)
 
 ___
 
@@ -285,7 +285,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-main.ts:175335
+[main.ts:175215](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L175215)
 
 ___
 
@@ -303,7 +303,7 @@ The cost can be calculated on the Pricing page.
 
 #### Defined in
 
-main.ts:175214
+[main.ts:175094](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L175094)
 
 ___
 
@@ -321,7 +321,7 @@ default rule: all_reviews
 
 #### Defined in
 
-main.ts:175283
+[main.ts:175163](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L175163)
 
 ___
 
@@ -338,7 +338,7 @@ amazon.com, amazon.co.uk, amazon.fr, etc.
 
 #### Defined in
 
-main.ts:175260
+[main.ts:175140](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L175140)
 
 ___
 
@@ -356,7 +356,7 @@ default rule: helpful
 
 #### Defined in
 
-main.ts:175275
+[main.ts:175155](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L175155)
 
 ___
 
@@ -372,4 +372,4 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:175325
+[main.ts:175205](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L175205)

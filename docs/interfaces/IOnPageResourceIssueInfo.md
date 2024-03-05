@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IOnPageResourceIssueInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IOnPageResourceIssueInfo
 
 # Interface: IOnPageResourceIssueInfo
 
@@ -29,7 +29,7 @@ resource errors
 
 #### Defined in
 
-main.ts:144874
+[main.ts:144730](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L144730)
 
 ___
 
@@ -41,4 +41,4 @@ resource warnings
 
 #### Defined in
 
-main.ts:144876
+[main.ts:144732](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L144732)

@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / OnPageMicrodataItem
+[dataforseo-client](../README.md) / [Exports](../modules.md) / OnPageMicrodataItem
 
 # Class: OnPageMicrodataItem
 
@@ -45,7 +45,7 @@
 
 #### Defined in
 
-main.ts:151035
+[main.ts:150891](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L150891)
 
 ## Properties
 
@@ -61,7 +61,7 @@ information related to microdata validation
 
 #### Defined in
 
-main.ts:151031
+[main.ts:150887](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L150887)
 
 ___
 
@@ -77,7 +77,7 @@ type of element
 
 #### Defined in
 
-main.ts:151029
+[main.ts:150885](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L150885)
 
 ## Methods
 
@@ -97,7 +97,7 @@ main.ts:151029
 
 #### Defined in
 
-main.ts:151044
+[main.ts:150900](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L150900)
 
 ___
 
@@ -117,7 +117,7 @@ ___
 
 #### Defined in
 
-main.ts:151062
+[main.ts:150918](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L150918)
 
 ___
 
@@ -137,4 +137,4 @@ ___
 
 #### Defined in
 
-main.ts:151055
+[main.ts:150911](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L150911)

@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IConceptInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IConceptInfo
 
 # Interface: IConceptInfo
 
@@ -27,7 +27,7 @@ the concept group of the concept details
 
 #### Defined in
 
-main.ts:115147
+[main.ts:115003](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L115003)
 
 ___
 
@@ -39,4 +39,4 @@ the concept name for the keyword in the concept_group
 
 #### Defined in
 
-main.ts:115145
+[main.ts:115001](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L115001)

@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / SerpBingLocationsCountryResultInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / SerpBingLocationsCountryResultInfo
 
 # Class: SerpBingLocationsCountryResultInfo
 
@@ -48,7 +48,7 @@
 
 #### Defined in
 
-main.ts:53479
+[main.ts:53337](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L53337)
 
 ## Properties
 
@@ -64,7 +64,7 @@ ISO country code of the location
 
 #### Defined in
 
-main.ts:53473
+[main.ts:53331](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L53331)
 
 ___
 
@@ -80,7 +80,7 @@ location code
 
 #### Defined in
 
-main.ts:53460
+[main.ts:53318](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L53318)
 
 ___
 
@@ -103,7 +103,7 @@ where location_code_parent corresponds to:
 
 #### Defined in
 
-main.ts:53471
+[main.ts:53329](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L53329)
 
 ___
 
@@ -119,7 +119,7 @@ full name of the location
 
 #### Defined in
 
-main.ts:53462
+[main.ts:53320](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L53320)
 
 ___
 
@@ -135,7 +135,7 @@ location type
 
 #### Defined in
 
-main.ts:53475
+[main.ts:53333](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L53333)
 
 ## Methods
 
@@ -155,7 +155,7 @@ main.ts:53475
 
 #### Defined in
 
-main.ts:53488
+[main.ts:53346](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L53346)
 
 ___
 
@@ -175,7 +175,7 @@ ___
 
 #### Defined in
 
-main.ts:53509
+[main.ts:53367](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L53367)
 
 ___
 
@@ -195,4 +195,4 @@ ___
 
 #### Defined in
 
-main.ts:53502
+[main.ts:53360](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L53360)

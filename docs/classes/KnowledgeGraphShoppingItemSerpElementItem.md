@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / KnowledgeGraphShoppingItemSerpElementItem
+[dataforseo-client](../README.md) / [Exports](../modules.md) / KnowledgeGraphShoppingItemSerpElementItem
 
 # Class: KnowledgeGraphShoppingItemSerpElementItem
 
@@ -62,7 +62,7 @@
 
 #### Defined in
 
-main.ts:27570
+[main.ts:27428](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L27428)
 
 ## Properties
 
@@ -76,7 +76,7 @@ main.ts:27570
 
 #### Defined in
 
-main.ts:19337
+[main.ts:19337](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L19337)
 
 ___
 
@@ -94,7 +94,7 @@ kc:/shopping/gpc:organic-offers
 
 #### Defined in
 
-main.ts:27559
+[main.ts:27417](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L27417)
 
 ___
 
@@ -111,7 +111,7 @@ if there are none, equals null
 
 #### Defined in
 
-main.ts:27562
+[main.ts:27420](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L27420)
 
 ___
 
@@ -129,7 +129,7 @@ left, right
 
 #### Defined in
 
-main.ts:27551
+[main.ts:27409](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L27409)
 
 ___
 
@@ -146,7 +146,7 @@ absolute position among all the elements in SERP
 
 #### Defined in
 
-main.ts:27547
+[main.ts:27405](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L27405)
 
 ___
 
@@ -164,7 +164,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-main.ts:27544
+[main.ts:27402](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L27402)
 
 ___
 
@@ -182,7 +182,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 #### Defined in
 
-main.ts:27566
+[main.ts:27424](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L27424)
 
 ___
 
@@ -198,7 +198,7 @@ title of the place
 
 #### Defined in
 
-main.ts:27555
+[main.ts:27413](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L27413)
 
 ___
 
@@ -214,7 +214,7 @@ the XPath of the element
 
 #### Defined in
 
-main.ts:27553
+[main.ts:27411](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L27411)
 
 ## Methods
 
@@ -238,7 +238,7 @@ main.ts:27553
 
 #### Defined in
 
-main.ts:27575
+[main.ts:27433](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L27433)
 
 ___
 
@@ -262,7 +262,7 @@ ___
 
 #### Defined in
 
-main.ts:27604
+[main.ts:27462](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L27462)
 
 ___
 
@@ -286,4 +286,4 @@ ___
 
 #### Defined in
 
-main.ts:27597
+[main.ts:27455](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L27455)

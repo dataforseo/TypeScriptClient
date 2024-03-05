@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IOnPageContentParsingLiveResultInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IOnPageContentParsingLiveResultInfo
 
 # Interface: IOnPageContentParsingLiveResultInfo
 
@@ -30,7 +30,7 @@ possible values: in_progress, finished
 
 #### Defined in
 
-main.ts:153008
+[main.ts:152864](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L152864)
 
 ___
 
@@ -42,7 +42,7 @@ details of the crawling session
 
 #### Defined in
 
-main.ts:153010
+[main.ts:152866](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L152866)
 
 ___
 
@@ -54,7 +54,7 @@ items array
 
 #### Defined in
 
-main.ts:153014
+[main.ts:152870](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L152870)
 
 ___
 
@@ -66,4 +66,4 @@ number of items in the results array
 
 #### Defined in
 
-main.ts:153012
+[main.ts:152868](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L152868)

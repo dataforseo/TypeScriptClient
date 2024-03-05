@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / BusinessDataTrustpilotReviewsTaskPostRequestInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / BusinessDataTrustpilotReviewsTaskPostRequestInfo
 
 # Class: BusinessDataTrustpilotReviewsTaskPostRequestInfo
 
@@ -50,7 +50,7 @@
 
 #### Defined in
 
-main.ts:199589
+[main.ts:199469](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L199469)
 
 ## Properties
 
@@ -71,7 +71,7 @@ maximum value: 25000
 
 #### Defined in
 
-main.ts:199559
+[main.ts:199439](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L199439)
 
 ___
 
@@ -93,7 +93,7 @@ https://www.trustpilot.com/review/www.thepearlsource.com
 
 #### Defined in
 
-main.ts:199536
+[main.ts:199416](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L199416)
 
 ___
 
@@ -117,7 +117,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-main.ts:199585
+[main.ts:199465](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L199465)
 
 ___
 
@@ -141,7 +141,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-main.ts:199575
+[main.ts:199455](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L199455)
 
 ___
 
@@ -163,7 +163,7 @@ The cost can be calculated on the Pricing page.
 
 #### Defined in
 
-main.ts:199552
+[main.ts:199432](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L199432)
 
 ___
 
@@ -185,7 +185,7 @@ default value: relevance
 
 #### Defined in
 
-main.ts:199544
+[main.ts:199424](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L199424)
 
 ___
 
@@ -205,7 +205,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:199565
+[main.ts:199445](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L199445)
 
 ## Methods
 
@@ -225,7 +225,7 @@ main.ts:199565
 
 #### Defined in
 
-main.ts:199598
+[main.ts:199478](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L199478)
 
 ___
 
@@ -245,7 +245,7 @@ ___
 
 #### Defined in
 
-main.ts:199621
+[main.ts:199501](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L199501)
 
 ___
 
@@ -265,4 +265,4 @@ ___
 
 #### Defined in
 
-main.ts:199614
+[main.ts:199494](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L199494)

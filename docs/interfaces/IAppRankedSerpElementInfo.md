@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IAppRankedSerpElementInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IAppRankedSerpElementInfo
 
 # Interface: IAppRankedSerpElementInfo
 
@@ -32,7 +32,7 @@ you can use it to make sure that we provided accurate results
 
 #### Defined in
 
-main.ts:108832
+[main.ts:108688](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L108688)
 
 ___
 
@@ -47,7 +47,7 @@ example:
 
 #### Defined in
 
-main.ts:108839
+[main.ts:108695](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L108695)
 
 ___
 
@@ -63,7 +63,7 @@ in this case, will equal null
 
 #### Defined in
 
-main.ts:108845
+[main.ts:108701](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L108701)
 
 ___
 
@@ -75,7 +75,7 @@ number of search results for the returned keyword
 
 #### Defined in
 
-main.ts:108834
+[main.ts:108690](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L108690)
 
 ___
 
@@ -87,7 +87,7 @@ search engine type
 
 #### Defined in
 
-main.ts:108826
+[main.ts:108682](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L108682)
 
 ___
 
@@ -100,4 +100,4 @@ the list of supported SERP elements can be found below
 
 #### Defined in
 
-main.ts:108829
+[main.ts:108685](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L108685)

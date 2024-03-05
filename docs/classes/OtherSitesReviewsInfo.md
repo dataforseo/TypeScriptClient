@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / OtherSitesReviewsInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / OtherSitesReviewsInfo
 
 # Class: OtherSitesReviewsInfo
 
@@ -47,7 +47,7 @@
 
 #### Defined in
 
-main.ts:195979
+[main.ts:195859](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L195859)
 
 ## Properties
 
@@ -64,7 +64,7 @@ information about the rating enclosed in the review on a third-party site
 
 #### Defined in
 
-main.ts:195975
+[main.ts:195855](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L195855)
 
 ___
 
@@ -81,7 +81,7 @@ text of the review
 
 #### Defined in
 
-main.ts:195972
+[main.ts:195852](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L195852)
 
 ___
 
@@ -98,7 +98,7 @@ contains a name of the third-party site where review initially appeared
 
 #### Defined in
 
-main.ts:195966
+[main.ts:195846](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L195846)
 
 ___
 
@@ -115,7 +115,7 @@ URL to the a third-party site where review initially appeared
 
 #### Defined in
 
-main.ts:195969
+[main.ts:195849](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L195849)
 
 ## Methods
 
@@ -135,7 +135,7 @@ main.ts:195969
 
 #### Defined in
 
-main.ts:195988
+[main.ts:195868](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L195868)
 
 ___
 
@@ -155,7 +155,7 @@ ___
 
 #### Defined in
 
-main.ts:196008
+[main.ts:195888](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L195888)
 
 ___
 
@@ -175,4 +175,4 @@ ___
 
 #### Defined in
 
-main.ts:196001
+[main.ts:195881](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L195881)

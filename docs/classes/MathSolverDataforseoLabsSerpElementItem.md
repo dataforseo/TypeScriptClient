@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / MathSolverDataforseoLabsSerpElementItem
+[dataforseo-client](../README.md) / [Exports](../modules.md) / MathSolverDataforseoLabsSerpElementItem
 
 # Class: MathSolverDataforseoLabsSerpElementItem
 
@@ -62,7 +62,7 @@
 
 #### Defined in
 
-main.ts:92964
+[main.ts:92820](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L92820)
 
 ## Properties
 
@@ -76,7 +76,7 @@ main.ts:92964
 
 #### Defined in
 
-main.ts:19715
+[main.ts:19715](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L19715)
 
 ___
 
@@ -93,7 +93,7 @@ if there are none, equals null
 
 #### Defined in
 
-main.ts:92956
+[main.ts:92812](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L92812)
 
 ___
 
@@ -111,7 +111,7 @@ if there are none, equals null
 
 #### Defined in
 
-main.ts:92960
+[main.ts:92816](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L92816)
 
 ___
 
@@ -129,7 +129,7 @@ left, right
 
 #### Defined in
 
-main.ts:92946
+[main.ts:92802](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L92802)
 
 ___
 
@@ -146,7 +146,7 @@ absolute position among all the elements in SERP
 
 #### Defined in
 
-main.ts:92942
+[main.ts:92798](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L92798)
 
 ___
 
@@ -164,7 +164,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-main.ts:92939
+[main.ts:92795](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L92795)
 
 ___
 
@@ -181,7 +181,7 @@ solution to the mathematical equation specified in the keyword field when settin
 
 #### Defined in
 
-main.ts:92953
+[main.ts:92809](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L92809)
 
 ___
 
@@ -197,7 +197,7 @@ title of the result in SERP
 
 #### Defined in
 
-main.ts:92950
+[main.ts:92806](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L92806)
 
 ___
 
@@ -213,7 +213,7 @@ the XPath of the element
 
 #### Defined in
 
-main.ts:92948
+[main.ts:92804](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L92804)
 
 ## Methods
 
@@ -237,7 +237,7 @@ main.ts:92948
 
 #### Defined in
 
-main.ts:92969
+[main.ts:92825](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L92825)
 
 ___
 
@@ -261,7 +261,7 @@ ___
 
 #### Defined in
 
-main.ts:93002
+[main.ts:92858](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L92858)
 
 ___
 
@@ -285,4 +285,4 @@ ___
 
 #### Defined in
 
-main.ts:92995
+[main.ts:92851](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L92851)

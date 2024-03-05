@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IAppendixDomainAnalyticsPriceData
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IAppendixDomainAnalyticsPriceData
 
 # Interface: IAppendixDomainAnalyticsPriceData
 
@@ -27,7 +27,7 @@
 
 #### Defined in
 
-main.ts:212060
+[main.ts:211940](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L211940)
 
 ___
 
@@ -37,7 +37,7 @@ ___
 
 #### Defined in
 
-main.ts:212061
+[main.ts:211941](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L211941)
 
 ___
 
@@ -47,7 +47,7 @@ ___
 
 #### Defined in
 
-main.ts:212059
+[main.ts:211939](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L211939)
 
 ___
 
@@ -57,4 +57,4 @@ ___
 
 #### Defined in
 
-main.ts:212058
+[main.ts:211938](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L211938)

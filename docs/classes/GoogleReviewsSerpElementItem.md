@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / GoogleReviewsSerpElementItem
+[dataforseo-client](../README.md) / [Exports](../modules.md) / GoogleReviewsSerpElementItem
 
 # Class: GoogleReviewsSerpElementItem
 
@@ -64,7 +64,7 @@
 
 #### Defined in
 
-main.ts:29348
+[main.ts:29206](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L29206)
 
 ## Properties
 
@@ -78,7 +78,7 @@ main.ts:29348
 
 #### Defined in
 
-main.ts:19337
+[main.ts:19337](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L19337)
 
 ___
 
@@ -94,7 +94,7 @@ google-defined client id
 
 #### Defined in
 
-main.ts:29340
+[main.ts:29198](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L29198)
 
 ___
 
@@ -110,7 +110,7 @@ the additional feature of the review
 
 #### Defined in
 
-main.ts:29338
+[main.ts:29196](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L29196)
 
 ___
 
@@ -126,7 +126,7 @@ the identifier of a place
 
 #### Defined in
 
-main.ts:29336
+[main.ts:29194](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L29194)
 
 ___
 
@@ -144,7 +144,7 @@ left, right
 
 #### Defined in
 
-main.ts:29327
+[main.ts:29185](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L29185)
 
 ___
 
@@ -161,7 +161,7 @@ absolute position among all the elements in SERP
 
 #### Defined in
 
-main.ts:29323
+[main.ts:29181](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L29181)
 
 ___
 
@@ -179,7 +179,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-main.ts:29320
+[main.ts:29178](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L29178)
 
 ___
 
@@ -196,7 +196,7 @@ the popularity rate based on reviews and displayed in SERP
 
 #### Defined in
 
-main.ts:29334
+[main.ts:29192](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L29192)
 
 ___
 
@@ -214,7 +214,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 #### Defined in
 
-main.ts:29344
+[main.ts:29202](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L29202)
 
 ___
 
@@ -230,7 +230,7 @@ the number of reviews
 
 #### Defined in
 
-main.ts:29331
+[main.ts:29189](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L29189)
 
 ___
 
@@ -246,7 +246,7 @@ the XPath of the element
 
 #### Defined in
 
-main.ts:29329
+[main.ts:29187](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L29187)
 
 ## Methods
 
@@ -270,7 +270,7 @@ main.ts:29329
 
 #### Defined in
 
-main.ts:29353
+[main.ts:29211](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L29211)
 
 ___
 
@@ -294,7 +294,7 @@ ___
 
 #### Defined in
 
-main.ts:29380
+[main.ts:29238](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L29238)
 
 ___
 
@@ -318,4 +318,4 @@ ___
 
 #### Defined in
 
-main.ts:29373
+[main.ts:29231](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L29231)

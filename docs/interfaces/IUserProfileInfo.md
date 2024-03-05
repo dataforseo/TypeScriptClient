@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IUserProfileInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IUserProfileInfo
 
 # Interface: IUserProfileInfo
 
@@ -30,7 +30,7 @@ URL to the profile picture of the reviewer
 
 #### Defined in
 
-main.ts:175723
+[main.ts:175603](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L175603)
 
 ___
 
@@ -42,7 +42,7 @@ country of the reviewer
 
 #### Defined in
 
-main.ts:175729
+[main.ts:175609](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L175609)
 
 ___
 
@@ -54,7 +54,7 @@ the name of the reviewer
 
 #### Defined in
 
-main.ts:175721
+[main.ts:175601](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L175601)
 
 ___
 
@@ -66,7 +66,7 @@ total number of reviews submitted by the reviewer
 
 #### Defined in
 
-main.ts:175727
+[main.ts:175607](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L175607)
 
 ___
 
@@ -78,4 +78,4 @@ URL to the reviewer’s profile
 
 #### Defined in
 
-main.ts:175725
+[main.ts:175605](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L175605)

@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IMerchantGoogleSellersAdUrlResultInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IMerchantGoogleSellersAdUrlResultInfo
 
 # Interface: IMerchantGoogleSellersAdUrlResultInfo
 
@@ -28,7 +28,7 @@ unique ad click referral parameter
 
 #### Defined in
 
-main.ts:169747
+[main.ts:169627](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L169627)
 
 ___
 
@@ -40,7 +40,7 @@ full URL of the advertisement
 
 #### Defined in
 
-main.ts:169749
+[main.ts:169629](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L169629)
 
 ___
 
@@ -53,4 +53,4 @@ includes up to 10 URLs of the ad’s redirect path to the seller’s ad_url
 
 #### Defined in
 
-main.ts:169752
+[main.ts:169632](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L169632)

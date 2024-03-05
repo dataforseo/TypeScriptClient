@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IDataforseoLabsGoogleRankedKeywordsLiveResultInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IDataforseoLabsGoogleRankedKeywordsLiveResultInfo
 
 # Interface: IDataforseoLabsGoogleRankedKeywordsLiveResultInfo
 
@@ -34,7 +34,7 @@ contains ranked keywords and related data
 
 #### Defined in
 
-main.ts:87375
+[main.ts:87231](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L87231)
 
 ___
 
@@ -46,7 +46,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:87367
+[main.ts:87223](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L87223)
 
 ___
 
@@ -59,7 +59,7 @@ if there is no data, then the value is null
 
 #### Defined in
 
-main.ts:87363
+[main.ts:87219](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L87219)
 
 ___
 
@@ -72,7 +72,7 @@ if there is no data, then the value is null
 
 #### Defined in
 
-main.ts:87360
+[main.ts:87216](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L87216)
 
 ___
 
@@ -89,7 +89,7 @@ ranking data is provided by the rank_group parameters that show the result’s r
 
 #### Defined in
 
-main.ts:87370
+[main.ts:87226](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L87226)
 
 ___
 
@@ -106,7 +106,7 @@ ranking data is provided by the rank_absolute parameters that indicate the resul
 
 #### Defined in
 
-main.ts:87373
+[main.ts:87229](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L87229)
 
 ___
 
@@ -118,7 +118,7 @@ search engine type
 
 #### Defined in
 
-main.ts:87355
+[main.ts:87211](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L87211)
 
 ___
 
@@ -130,7 +130,7 @@ target domain in a POST array
 
 #### Defined in
 
-main.ts:87357
+[main.ts:87213](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L87213)
 
 ___
 
@@ -142,4 +142,4 @@ total number of results in our database relevant to your request
 
 #### Defined in
 
-main.ts:87365
+[main.ts:87221](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L87221)

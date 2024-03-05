@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / DataforseoLabsBingBulkKeywordDifficultyLiveRequestInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / DataforseoLabsBingBulkKeywordDifficultyLiveRequestInfo
 
 # Class: DataforseoLabsBingBulkKeywordDifficultyLiveRequestInfo
 
@@ -49,7 +49,7 @@
 
 #### Defined in
 
-main.ts:102279
+[main.ts:102135](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L102135)
 
 ## Properties
 
@@ -70,7 +70,7 @@ the keywords will be converted to lowercase format
 
 #### Defined in
 
-main.ts:102239
+[main.ts:102095](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L102095)
 
 ___
 
@@ -91,7 +91,7 @@ en
 
 #### Defined in
 
-main.ts:102269
+[main.ts:102125](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L102125)
 
 ___
 
@@ -112,7 +112,7 @@ English
 
 #### Defined in
 
-main.ts:102262
+[main.ts:102118](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L102118)
 
 ___
 
@@ -134,7 +134,7 @@ example:
 
 #### Defined in
 
-main.ts:102255
+[main.ts:102111](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L102111)
 
 ___
 
@@ -156,7 +156,7 @@ United States
 
 #### Defined in
 
-main.ts:102247
+[main.ts:102103](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L102103)
 
 ___
 
@@ -176,7 +176,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:102275
+[main.ts:102131](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L102131)
 
 ## Methods
 
@@ -196,7 +196,7 @@ main.ts:102275
 
 #### Defined in
 
-main.ts:102288
+[main.ts:102144](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L102144)
 
 ___
 
@@ -216,7 +216,7 @@ ___
 
 #### Defined in
 
-main.ts:102314
+[main.ts:102170](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L102170)
 
 ___
 
@@ -236,4 +236,4 @@ ___
 
 #### Defined in
 
-main.ts:102307
+[main.ts:102163](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L102163)

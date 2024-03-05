@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IAppendixLimitsMoneyData
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IAppendixLimitsMoneyData
 
 # Interface: IAppendixLimitsMoneyData
 
@@ -25,7 +25,7 @@
 
 #### Defined in
 
-main.ts:209554
+[main.ts:209434](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L209434)
 
 ___
 
@@ -35,4 +35,4 @@ ___
 
 #### Defined in
 
-main.ts:209555
+[main.ts:209435](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L209435)

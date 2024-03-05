@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IGoogleShoppingSponsoredCarouselMerchantSerpElementItem
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IGoogleShoppingSponsoredCarouselMerchantSerpElementItem
 
 # Interface: IGoogleShoppingSponsoredCarouselMerchantSerpElementItem
 
@@ -37,7 +37,7 @@ items in SERP
 
 #### Defined in
 
-main.ts:165394
+[main.ts:165274](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L165274)
 
 ___
 
@@ -51,7 +51,7 @@ left, right
 
 #### Defined in
 
-main.ts:165388
+[main.ts:165268](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L165268)
 
 ___
 
@@ -64,7 +64,7 @@ absolute position among all the elements found in Google Shopping SERP
 
 #### Defined in
 
-main.ts:165384
+[main.ts:165264](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L165264)
 
 ___
 
@@ -77,7 +77,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-main.ts:165381
+[main.ts:165261](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L165261)
 
 ___
 
@@ -89,7 +89,7 @@ product title
 
 #### Defined in
 
-main.ts:165392
+[main.ts:165272](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L165272)
 
 ___
 
@@ -101,4 +101,4 @@ XPath of the element
 
 #### Defined in
 
-main.ts:165390
+[main.ts:165270](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L165270)

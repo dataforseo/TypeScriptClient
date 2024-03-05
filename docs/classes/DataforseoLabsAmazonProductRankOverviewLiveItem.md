@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / DataforseoLabsAmazonProductRankOverviewLiveItem
+[dataforseo-client](../README.md) / [Exports](../modules.md) / DataforseoLabsAmazonProductRankOverviewLiveItem
 
 # Class: DataforseoLabsAmazonProductRankOverviewLiveItem
 
@@ -46,7 +46,7 @@
 
 #### Defined in
 
-main.ts:100860
+[main.ts:100716](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L100716)
 
 ## Properties
 
@@ -64,7 +64,7 @@ for more information, refer to this help center guide
 
 #### Defined in
 
-main.ts:100854
+[main.ts:100710](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L100710)
 
 ___
 
@@ -80,7 +80,7 @@ average keyword position of the product
 
 #### Defined in
 
-main.ts:100856
+[main.ts:100712](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L100712)
 
 ___
 
@@ -96,7 +96,7 @@ search engine type
 
 #### Defined in
 
-main.ts:100850
+[main.ts:100706](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L100706)
 
 ## Methods
 
@@ -116,7 +116,7 @@ main.ts:100850
 
 #### Defined in
 
-main.ts:100869
+[main.ts:100725](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L100725)
 
 ___
 
@@ -136,7 +136,7 @@ ___
 
 #### Defined in
 
-main.ts:100888
+[main.ts:100744](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L100744)
 
 ___
 
@@ -156,4 +156,4 @@ ___
 
 #### Defined in
 
-main.ts:100881
+[main.ts:100737](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L100737)

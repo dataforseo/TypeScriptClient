@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IBusinessDataTrustpilotReviewsTaskGetResultInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IBusinessDataTrustpilotReviewsTaskGetResultInfo
 
 # Interface: IBusinessDataTrustpilotReviewsTaskGetResultInfo
 
@@ -37,7 +37,7 @@ you can use it to make sure that we provided accurate results
 
 #### Defined in
 
-main.ts:200327
+[main.ts:200207](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L200207)
 
 ___
 
@@ -52,7 +52,7 @@ example:
 
 #### Defined in
 
-main.ts:200332
+[main.ts:200212](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L200212)
 
 ___
 
@@ -64,7 +64,7 @@ domain of the business entity
 
 #### Defined in
 
-main.ts:200320
+[main.ts:200200](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L200200)
 
 ___
 
@@ -77,7 +77,7 @@ you can get more results by using the depth parameter when setting a task
 
 #### Defined in
 
-main.ts:200349
+[main.ts:200229](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L200229)
 
 ___
 
@@ -90,7 +90,7 @@ you can get more results by using the depth parameter when setting a task
 
 #### Defined in
 
-main.ts:200346
+[main.ts:200226](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L200226)
 
 ___
 
@@ -103,7 +103,7 @@ address of the business entity for which the reviews are collected
 
 #### Defined in
 
-main.ts:200338
+[main.ts:200218](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L200218)
 
 ___
 
@@ -116,7 +116,7 @@ popularity rate based on reviews and displayed in SERP
 
 #### Defined in
 
-main.ts:200343
+[main.ts:200223](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L200223)
 
 ___
 
@@ -128,7 +128,7 @@ the total number of reviews
 
 #### Defined in
 
-main.ts:200340
+[main.ts:200220](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L200220)
 
 ___
 
@@ -140,7 +140,7 @@ search engine domain in a POST array
 
 #### Defined in
 
-main.ts:200324
+[main.ts:200204](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L200204)
 
 ___
 
@@ -153,7 +153,7 @@ the name of the business entity for which the reviews are collected
 
 #### Defined in
 
-main.ts:200335
+[main.ts:200215](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L200215)
 
 ___
 
@@ -165,4 +165,4 @@ type of element
 
 #### Defined in
 
-main.ts:200322
+[main.ts:200202](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L200202)

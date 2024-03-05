@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IFaqBox
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IFaqBox
 
 # Interface: IFaqBox
 
@@ -28,7 +28,7 @@ if there are none, equals null
 
 #### Defined in
 
-main.ts:28101
+[main.ts:27959](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L27959)
 
 ___
 
@@ -40,4 +40,4 @@ type of element
 
 #### Defined in
 
-main.ts:28098
+[main.ts:27956](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L27956)

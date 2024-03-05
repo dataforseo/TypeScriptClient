@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IBusinessDataTripadvisorLocationsCountryResultInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IBusinessDataTripadvisorLocationsCountryResultInfo
 
 # Interface: IBusinessDataTripadvisorLocationsCountryResultInfo
 
@@ -30,7 +30,7 @@ ISO country code of the location
 
 #### Defined in
 
-main.ts:200731
+[main.ts:200611](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L200611)
 
 ___
 
@@ -42,7 +42,7 @@ location code
 
 #### Defined in
 
-main.ts:200721
+[main.ts:200601](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L200601)
 
 ___
 
@@ -54,7 +54,7 @@ full name of the location
 
 #### Defined in
 
-main.ts:200723
+[main.ts:200603](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L200603)
 
 ___
 
@@ -70,7 +70,7 @@ example:
 
 #### Defined in
 
-main.ts:200729
+[main.ts:200609](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L200609)
 
 ___
 
@@ -82,4 +82,4 @@ location type
 
 #### Defined in
 
-main.ts:200733
+[main.ts:200613](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L200613)

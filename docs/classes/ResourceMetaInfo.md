@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / ResourceMetaInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / ResourceMetaInfo
 
 # Class: ResourceMetaInfo
 
@@ -49,7 +49,7 @@
 
 #### Defined in
 
-main.ts:146090
+[main.ts:145946](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L145946)
 
 ## Properties
 
@@ -66,7 +66,7 @@ the value depends on the resource_type
 
 #### Defined in
 
-main.ts:146076
+[main.ts:145932](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L145932)
 
 ___
 
@@ -82,7 +82,7 @@ image height in px
 
 #### Defined in
 
-main.ts:146086
+[main.ts:145942](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L145942)
 
 ___
 
@@ -98,7 +98,7 @@ original image height in px
 
 #### Defined in
 
-main.ts:146082
+[main.ts:145938](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L145938)
 
 ___
 
@@ -114,7 +114,7 @@ original image width in px
 
 #### Defined in
 
-main.ts:146080
+[main.ts:145936](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L145936)
 
 ___
 
@@ -130,7 +130,7 @@ title
 
 #### Defined in
 
-main.ts:146078
+[main.ts:145934](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L145934)
 
 ___
 
@@ -146,7 +146,7 @@ image width in px
 
 #### Defined in
 
-main.ts:146084
+[main.ts:145940](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L145940)
 
 ## Methods
 
@@ -166,7 +166,7 @@ main.ts:146084
 
 #### Defined in
 
-main.ts:146099
+[main.ts:145955](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L145955)
 
 ___
 
@@ -186,7 +186,7 @@ ___
 
 #### Defined in
 
-main.ts:146121
+[main.ts:145977](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L145977)
 
 ___
 
@@ -206,4 +206,4 @@ ___
 
 #### Defined in
 
-main.ts:146114
+[main.ts:145970](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L145970)

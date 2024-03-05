@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IAmazonAmazonReviewItemSerpElementItem
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IAmazonAmazonReviewItemSerpElementItem
 
 # Interface: IAmazonAmazonReviewItemSerpElementItem
 
@@ -47,7 +47,7 @@ number of users who clicked on the ‘Helpful” button under the review text
 
 #### Defined in
 
-main.ts:175872
+[main.ts:175752](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L175752)
 
 ___
 
@@ -59,7 +59,7 @@ images of the product submitted by the reviewer
 
 #### Defined in
 
-main.ts:175874
+[main.ts:175754](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L175754)
 
 ___
 
@@ -72,7 +72,7 @@ can take the following values: right
 
 #### Defined in
 
-main.ts:175863
+[main.ts:175743](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L175743)
 
 ___
 
@@ -87,7 +87,7 @@ example:
 
 #### Defined in
 
-main.ts:175889
+[main.ts:175769](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L175769)
 
 ___
 
@@ -100,7 +100,7 @@ absolute position among all reviews on the list
 
 #### Defined in
 
-main.ts:175860
+[main.ts:175740](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L175740)
 
 ___
 
@@ -113,7 +113,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-main.ts:175857
+[main.ts:175737](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L175737)
 
 ___
 
@@ -125,7 +125,7 @@ the rating score submitted by the reviewer
 
 #### Defined in
 
-main.ts:175891
+[main.ts:175771](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L175771)
 
 ___
 
@@ -137,7 +137,7 @@ content of the review
 
 #### Defined in
 
-main.ts:175884
+[main.ts:175764](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L175764)
 
 ___
 
@@ -149,7 +149,7 @@ subtitle of the review
 
 #### Defined in
 
-main.ts:175869
+[main.ts:175749](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L175749)
 
 ___
 
@@ -161,7 +161,7 @@ title of the review
 
 #### Defined in
 
-main.ts:175880
+[main.ts:175760](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L175760)
 
 ___
 
@@ -173,7 +173,7 @@ URL to the review
 
 #### Defined in
 
-main.ts:175882
+[main.ts:175762](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L175762)
 
 ___
 
@@ -185,7 +185,7 @@ user profile of the reviewer
 
 #### Defined in
 
-main.ts:175878
+[main.ts:175758](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L175758)
 
 ___
 
@@ -197,7 +197,7 @@ indicates whether the review has the “Verified Purchase” mark
 
 #### Defined in
 
-main.ts:175867
+[main.ts:175747](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L175747)
 
 ___
 
@@ -209,7 +209,7 @@ videos of the product submitted by the reviewer
 
 #### Defined in
 
-main.ts:175876
+[main.ts:175756](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L175756)
 
 ___
 
@@ -221,4 +221,4 @@ the XPath of the element
 
 #### Defined in
 
-main.ts:175865
+[main.ts:175745](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L175745)

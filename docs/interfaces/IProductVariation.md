@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IProductVariation
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IProductVariation
 
 # Interface: IProductVariation
 
@@ -30,7 +30,7 @@ learn more about the parameter in this help center guide
 
 #### Defined in
 
-main.ts:169253
+[main.ts:169133](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L169133)
 
 ___
 
@@ -42,7 +42,7 @@ name of the product seller
 
 #### Defined in
 
-main.ts:169255
+[main.ts:169135](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L169135)
 
 ___
 
@@ -54,7 +54,7 @@ type of element
 
 #### Defined in
 
-main.ts:169250
+[main.ts:169130](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L169130)
 
 ___
 
@@ -67,4 +67,4 @@ url of the webpage on the seller’s website where the product is sold
 
 #### Defined in
 
-main.ts:169258
+[main.ts:169138](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L169138)

@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IDomainAnalyticsTechnologiesAggregationTechnologiesLiveResultInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IDomainAnalyticsTechnologiesAggregationTechnologiesLiveResultInfo
 
 # Interface: IDomainAnalyticsTechnologiesAggregationTechnologiesLiveResultInfo
 
@@ -29,7 +29,7 @@ items array
 
 #### Defined in
 
-main.ts:73031
+[main.ts:72887](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L72887)
 
 ___
 
@@ -41,7 +41,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:73027
+[main.ts:72883](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L72883)
 
 ___
 
@@ -53,7 +53,7 @@ offset in the results array of returned domains
 
 #### Defined in
 
-main.ts:73029
+[main.ts:72885](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L72885)
 
 ___
 
@@ -65,4 +65,4 @@ total amount of results in our database relevant to your request
 
 #### Defined in
 
-main.ts:73025
+[main.ts:72881](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L72881)

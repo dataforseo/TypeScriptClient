@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IOnPageDuplicateContentItem
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IOnPageDuplicateContentItem
 
 # Interface: IOnPageDuplicateContentItem
 
@@ -28,7 +28,7 @@ pages with duplicate content
 
 #### Defined in
 
-main.ts:147822
+[main.ts:147678](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L147678)
 
 ___
 
@@ -40,7 +40,7 @@ total count of duplicate pages
 
 #### Defined in
 
-main.ts:147820
+[main.ts:147676](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L147676)
 
 ___
 
@@ -52,4 +52,4 @@ URL of the specified page
 
 #### Defined in
 
-main.ts:147818
+[main.ts:147674](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L147674)

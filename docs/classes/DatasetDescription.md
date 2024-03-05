@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / DatasetDescription
+[dataforseo-client](../README.md) / [Exports](../modules.md) / DatasetDescription
 
 # Class: DatasetDescription
 
@@ -45,7 +45,7 @@
 
 #### Defined in
 
-main.ts:50920
+[main.ts:50778](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L50778)
 
 ## Properties
 
@@ -61,7 +61,7 @@ links featured in the ‘dataset_description’
 
 #### Defined in
 
-main.ts:50916
+[main.ts:50774](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L50774)
 
 ___
 
@@ -77,7 +77,7 @@ text of the description
 
 #### Defined in
 
-main.ts:50914
+[main.ts:50772](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L50772)
 
 ## Methods
 
@@ -97,7 +97,7 @@ main.ts:50914
 
 #### Defined in
 
-main.ts:50929
+[main.ts:50787](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L50787)
 
 ___
 
@@ -117,7 +117,7 @@ ___
 
 #### Defined in
 
-main.ts:50951
+[main.ts:50809](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L50809)
 
 ___
 
@@ -137,4 +137,4 @@ ___
 
 #### Defined in
 
-main.ts:50944
+[main.ts:50802](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L50802)

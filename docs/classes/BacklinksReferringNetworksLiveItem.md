@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / BacklinksReferringNetworksLiveItem
+[dataforseo-client](../README.md) / [Exports](../modules.md) / BacklinksReferringNetworksLiveItem
 
 # Class: BacklinksReferringNetworksLiveItem
 
@@ -64,7 +64,7 @@
 
 #### Defined in
 
-main.ts:135662
+[main.ts:135518](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L135518)
 
 ## Properties
 
@@ -80,7 +80,7 @@ indicates the number of backlinks pointing to the target
 
 #### Defined in
 
-main.ts:135602
+[main.ts:135458](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L135458)
 
 ___
 
@@ -97,7 +97,7 @@ number of broken backlinks pointing to the domain
 
 #### Defined in
 
-main.ts:135616
+[main.ts:135472](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L135472)
 
 ___
 
@@ -114,7 +114,7 @@ number of pages that respond with 4xx or 5xx status codes where backlinks are po
 
 #### Defined in
 
-main.ts:135619
+[main.ts:135475](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L135475)
 
 ___
 
@@ -133,7 +133,7 @@ example:
 
 #### Defined in
 
-main.ts:135607
+[main.ts:135463](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L135463)
 
 ___
 
@@ -153,7 +153,7 @@ example:
 
 #### Defined in
 
-main.ts:135613
+[main.ts:135469](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L135469)
 
 ___
 
@@ -169,7 +169,7 @@ address of the referring subnetwork or IP
 
 #### Defined in
 
-main.ts:135595
+[main.ts:135451](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L135451)
 
 ___
 
@@ -188,7 +188,7 @@ learn more about the metric and how it is calculated in this help center article
 
 #### Defined in
 
-main.ts:135600
+[main.ts:135456](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L135456)
 
 ___
 
@@ -205,7 +205,7 @@ referring domains include subdomains that are counted as separate domains for th
 
 #### Defined in
 
-main.ts:135622
+[main.ts:135478](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L135478)
 
 ___
 
@@ -221,7 +221,7 @@ number of domains pointing at least one nofollow link to the target
 
 #### Defined in
 
-main.ts:135624
+[main.ts:135480](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L135480)
 
 ___
 
@@ -238,7 +238,7 @@ number of IP addresses pointing to this page
 
 #### Defined in
 
-main.ts:135631
+[main.ts:135487](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L135487)
 
 ___
 
@@ -259,7 +259,7 @@ indicates link attributes of the referring links and link count per each attribu
 
 #### Defined in
 
-main.ts:135646
+[main.ts:135502](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L135502)
 
 ___
 
@@ -280,7 +280,7 @@ indicates ISO country codes of the domains where the referring links are located
 
 #### Defined in
 
-main.ts:135658
+[main.ts:135514](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L135514)
 
 ___
 
@@ -301,7 +301,7 @@ indicates referring platform types and and link count per each platform
 
 #### Defined in
 
-main.ts:135649
+[main.ts:135505](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L135505)
 
 ___
 
@@ -325,7 +325,7 @@ article, section, summary
 
 #### Defined in
 
-main.ts:135655
+[main.ts:135511](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L135511)
 
 ___
 
@@ -346,7 +346,7 @@ contains top level domains and referring link count per each
 
 #### Defined in
 
-main.ts:135638
+[main.ts:135494](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L135494)
 
 ___
 
@@ -369,7 +369,7 @@ anchor, image, link, meta, canonical, alternate, redirect
 
 #### Defined in
 
-main.ts:135643
+[main.ts:135499](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L135499)
 
 ___
 
@@ -385,7 +385,7 @@ indicates the number of referring main domains
 
 #### Defined in
 
-main.ts:135626
+[main.ts:135482](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L135482)
 
 ___
 
@@ -401,7 +401,7 @@ number of main domains pointing at least one nofollow link to the target
 
 #### Defined in
 
-main.ts:135628
+[main.ts:135484](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L135484)
 
 ___
 
@@ -417,7 +417,7 @@ indicates the number of pages pointing to the target specified
 
 #### Defined in
 
-main.ts:135635
+[main.ts:135491](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L135491)
 
 ___
 
@@ -433,7 +433,7 @@ number of referring subnetworks
 
 #### Defined in
 
-main.ts:135633
+[main.ts:135489](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L135489)
 
 ___
 
@@ -449,7 +449,7 @@ type of element
 
 #### Defined in
 
-main.ts:135593
+[main.ts:135449](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L135449)
 
 ## Methods
 
@@ -469,7 +469,7 @@ main.ts:135593
 
 #### Defined in
 
-main.ts:135671
+[main.ts:135527](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L135527)
 
 ___
 
@@ -489,7 +489,7 @@ ___
 
 #### Defined in
 
-main.ts:135744
+[main.ts:135600](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L135600)
 
 ___
 
@@ -509,4 +509,4 @@ ___
 
 #### Defined in
 
-main.ts:135737
+[main.ts:135593](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L135593)

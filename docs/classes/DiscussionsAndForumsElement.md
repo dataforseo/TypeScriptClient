@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / DiscussionsAndForumsElement
+[dataforseo-client](../README.md) / [Exports](../modules.md) / DiscussionsAndForumsElement
 
 # Class: DiscussionsAndForumsElement
 
@@ -51,7 +51,7 @@
 
 #### Defined in
 
-main.ts:35752
+[main.ts:35610](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L35610)
 
 ## Properties
 
@@ -67,7 +67,7 @@ description of the results element in SERP
 
 #### Defined in
 
-main.ts:35741
+[main.ts:35599](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L35599)
 
 ___
 
@@ -83,7 +83,7 @@ domain where a link points
 
 #### Defined in
 
-main.ts:35736
+[main.ts:35594](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L35594)
 
 ___
 
@@ -99,7 +99,7 @@ number of posts from the discussion on the related source
 
 #### Defined in
 
-main.ts:35748
+[main.ts:35606](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L35606)
 
 ___
 
@@ -116,7 +116,7 @@ indicates the source of information included in the element
 
 #### Defined in
 
-main.ts:35739
+[main.ts:35597](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L35597)
 
 ___
 
@@ -135,7 +135,7 @@ example:
 
 #### Defined in
 
-main.ts:35746
+[main.ts:35604](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L35604)
 
 ___
 
@@ -151,7 +151,7 @@ title of the row
 
 #### Defined in
 
-main.ts:35732
+[main.ts:35590](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L35590)
 
 ___
 
@@ -167,7 +167,7 @@ type of element
 
 #### Defined in
 
-main.ts:35730
+[main.ts:35588](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L35588)
 
 ___
 
@@ -183,7 +183,7 @@ URL
 
 #### Defined in
 
-main.ts:35734
+[main.ts:35592](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L35592)
 
 ## Methods
 
@@ -203,7 +203,7 @@ main.ts:35734
 
 #### Defined in
 
-main.ts:35761
+[main.ts:35619](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L35619)
 
 ___
 
@@ -223,7 +223,7 @@ ___
 
 #### Defined in
 
-main.ts:35785
+[main.ts:35643](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L35643)
 
 ___
 
@@ -243,4 +243,4 @@ ___
 
 #### Defined in
 
-main.ts:35778
+[main.ts:35636](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L35636)

@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / ITestSummary
+[dataforseo-client](../README.md) / [Exports](../modules.md) / ITestSummary
 
 # Interface: ITestSummary
 
@@ -29,7 +29,7 @@ number of serious microdata errors
 
 #### Defined in
 
-main.ts:150782
+[main.ts:150638](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L150638)
 
 ___
 
@@ -41,7 +41,7 @@ number of fatal microdata errors
 
 #### Defined in
 
-main.ts:150780
+[main.ts:150636](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L150636)
 
 ___
 
@@ -53,7 +53,7 @@ number of microdata information flags
 
 #### Defined in
 
-main.ts:150786
+[main.ts:150642](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L150642)
 
 ___
 
@@ -65,4 +65,4 @@ number of microdata warnings
 
 #### Defined in
 
-main.ts:150784
+[main.ts:150640](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L150640)

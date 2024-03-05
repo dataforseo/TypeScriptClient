@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / SerpYoutubeVideoSubtitlesTaskPostRequestInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / SerpYoutubeVideoSubtitlesTaskPostRequestInfo
 
 # Class: SerpYoutubeVideoSubtitlesTaskPostRequestInfo
 
@@ -57,7 +57,7 @@
 
 #### Defined in
 
-main.ts:59676
+[main.ts:59532](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L59532)
 
 ## Properties
 
@@ -75,7 +75,7 @@ only value: desktop
 
 #### Defined in
 
-main.ts:59635
+[main.ts:59491](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L59491)
 
 ___
 
@@ -96,7 +96,7 @@ en
 
 #### Defined in
 
-main.ts:59631
+[main.ts:59487](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L59487)
 
 ___
 
@@ -117,7 +117,7 @@ English
 
 #### Defined in
 
-main.ts:59624
+[main.ts:59480](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L59480)
 
 ___
 
@@ -138,7 +138,7 @@ example:
 
 #### Defined in
 
-main.ts:59617
+[main.ts:59473](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L59473)
 
 ___
 
@@ -159,7 +159,7 @@ United States
 
 #### Defined in
 
-main.ts:59610
+[main.ts:59466](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L59466)
 
 ___
 
@@ -178,7 +178,7 @@ default value: windows
 
 #### Defined in
 
-main.ts:59640
+[main.ts:59496](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L59496)
 
 ___
 
@@ -202,7 +202,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-main.ts:59672
+[main.ts:59528](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L59528)
 
 ___
 
@@ -222,7 +222,7 @@ advanced
 
 #### Defined in
 
-main.ts:59662
+[main.ts:59518](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L59518)
 
 ___
 
@@ -246,7 +246,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-main.ts:59656
+[main.ts:59512](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L59512)
 
 ___
 
@@ -268,7 +268,7 @@ The cost can be calculated on the Pricing page.
 
 #### Defined in
 
-main.ts:59596
+[main.ts:59452](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L59452)
 
 ___
 
@@ -285,7 +285,7 @@ you can get the language code from YouTube Video Info result
 
 #### Defined in
 
-main.ts:59599
+[main.ts:59455](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L59455)
 
 ___
 
@@ -303,7 +303,7 @@ possible values:
 
 #### Defined in
 
-main.ts:59603
+[main.ts:59459](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L59459)
 
 ___
 
@@ -323,7 +323,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:59646
+[main.ts:59502](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L59502)
 
 ___
 
@@ -343,7 +343,7 @@ Y8Wu4rSNJms
 
 #### Defined in
 
-main.ts:59588
+[main.ts:59444](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L59444)
 
 ## Methods
 
@@ -363,7 +363,7 @@ main.ts:59588
 
 #### Defined in
 
-main.ts:59685
+[main.ts:59541](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L59541)
 
 ___
 
@@ -383,7 +383,7 @@ ___
 
 #### Defined in
 
-main.ts:59715
+[main.ts:59571](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L59571)
 
 ___
 
@@ -403,4 +403,4 @@ ___
 
 #### Defined in
 
-main.ts:59708
+[main.ts:59564](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L59564)

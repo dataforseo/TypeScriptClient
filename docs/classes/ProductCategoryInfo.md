@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / ProductCategoryInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / ProductCategoryInfo
 
 # Class: ProductCategoryInfo
 
@@ -45,7 +45,7 @@
 
 #### Defined in
 
-main.ts:172505
+[main.ts:172385](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L172385)
 
 ## Properties
 
@@ -61,7 +61,7 @@ product category name
 
 #### Defined in
 
-main.ts:172498
+[main.ts:172378](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L172378)
 
 ___
 
@@ -78,7 +78,7 @@ indicates the browse path on Amazon with the unique browse node ID (product cate
 
 #### Defined in
 
-main.ts:172501
+[main.ts:172381](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L172381)
 
 ## Methods
 
@@ -98,7 +98,7 @@ main.ts:172501
 
 #### Defined in
 
-main.ts:172514
+[main.ts:172394](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L172394)
 
 ___
 
@@ -118,7 +118,7 @@ ___
 
 #### Defined in
 
-main.ts:172532
+[main.ts:172412](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L172412)
 
 ___
 
@@ -138,4 +138,4 @@ ___
 
 #### Defined in
 
-main.ts:172525
+[main.ts:172405](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L172405)

@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IContentAnalysisSearchLiveRequestInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IContentAnalysisSearchLiveRequestInfo
 
 # Interface: IContentAnalysisSearchLiveRequestInfo
 
@@ -50,7 +50,7 @@ for more information about filters, please refer to Content Analysis API – Fil
 
 #### Defined in
 
-main.ts:156425
+[main.ts:156281](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L156281)
 
 ___
 
@@ -69,7 +69,7 @@ example:
 
 #### Defined in
 
-main.ts:156378
+[main.ts:156234](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L156234)
 
 ___
 
@@ -95,7 +95,7 @@ example:
 
 #### Defined in
 
-main.ts:156390
+[main.ts:156246](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L156246)
 
 ___
 
@@ -110,7 +110,7 @@ maximum value: 20000
 
 #### Defined in
 
-main.ts:156408
+[main.ts:156264](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L156264)
 
 ___
 
@@ -125,7 +125,7 @@ if you specify the 10 value, the first ten citations in the results array will b
 
 #### Defined in
 
-main.ts:156446
+[main.ts:156302](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L156302)
 
 ___
 
@@ -143,7 +143,7 @@ Note: if the offset_token is specified in the request, all other parameters exce
 
 #### Defined in
 
-main.ts:156454
+[main.ts:156310](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L156310)
 
 ___
 
@@ -169,7 +169,7 @@ example:
 
 #### Defined in
 
-main.ts:156441
+[main.ts:156297](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L156297)
 
 ___
 
@@ -185,7 +185,7 @@ possible values:
 
 #### Defined in
 
-main.ts:156396
+[main.ts:156252](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L156252)
 
 ___
 
@@ -202,7 +202,7 @@ default value: as_is
 
 #### Defined in
 
-main.ts:156403
+[main.ts:156259](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L156259)
 
 ___
 
@@ -218,4 +218,4 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:156460
+[main.ts:156316](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L156316)

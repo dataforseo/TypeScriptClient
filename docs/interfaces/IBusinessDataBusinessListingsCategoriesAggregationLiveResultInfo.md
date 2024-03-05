@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IBusinessDataBusinessListingsCategoriesAggregationLiveResultInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IBusinessDataBusinessListingsCategoriesAggregationLiveResultInfo
 
 # Interface: IBusinessDataBusinessListingsCategoriesAggregationLiveResultInfo
 
@@ -31,7 +31,7 @@ the number of items in the items array
 
 #### Defined in
 
-main.ts:190163
+[main.ts:190043](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L190043)
 
 ___
 
@@ -45,7 +45,7 @@ possible item types: business_category
 
 #### Defined in
 
-main.ts:190173
+[main.ts:190053](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L190053)
 
 ___
 
@@ -57,7 +57,7 @@ offset in the results array of returned categories
 
 #### Defined in
 
-main.ts:190165
+[main.ts:190045](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L190045)
 
 ___
 
@@ -71,7 +71,7 @@ offset_token values are unique for each subsequent task
 
 #### Defined in
 
-main.ts:190169
+[main.ts:190049](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L190049)
 
 ___
 
@@ -83,4 +83,4 @@ total number of results in our database relevant to your request
 
 #### Defined in
 
-main.ts:190160
+[main.ts:190040](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L190040)

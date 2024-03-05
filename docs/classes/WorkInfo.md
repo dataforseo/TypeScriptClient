@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / WorkInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / WorkInfo
 
 # Class: WorkInfo
 
@@ -44,7 +44,7 @@
 
 #### Defined in
 
-main.ts:188883
+[main.ts:188763](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L188763)
 
 ## Properties
 
@@ -61,7 +61,7 @@ information about work hours of the local establishment
 
 #### Defined in
 
-main.ts:188879
+[main.ts:188759](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L188759)
 
 ## Methods
 
@@ -81,7 +81,7 @@ main.ts:188879
 
 #### Defined in
 
-main.ts:188892
+[main.ts:188772](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L188772)
 
 ___
 
@@ -101,7 +101,7 @@ ___
 
 #### Defined in
 
-main.ts:188909
+[main.ts:188789](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L188789)
 
 ___
 
@@ -121,4 +121,4 @@ ___
 
 #### Defined in
 
-main.ts:188902
+[main.ts:188782](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L188782)

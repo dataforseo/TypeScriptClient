@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IDataforseoLabsGoogleHistoricalRankOverviewLiveItem
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IDataforseoLabsGoogleHistoricalRankOverviewLiveItem
 
 # Interface: IDataforseoLabsGoogleHistoricalRankOverviewLiveItem
 
@@ -33,7 +33,7 @@ ranking data relevant to the specified domain
 
 #### Defined in
 
-main.ts:96655
+[main.ts:96511](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L96511)
 
 ___
 
@@ -45,7 +45,7 @@ month for which the data is provided
 
 #### Defined in
 
-main.ts:96653
+[main.ts:96509](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L96509)
 
 ___
 
@@ -57,7 +57,7 @@ search engine type
 
 #### Defined in
 
-main.ts:96649
+[main.ts:96505](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L96505)
 
 ___
 
@@ -69,4 +69,4 @@ year for which the data is provided
 
 #### Defined in
 
-main.ts:96651
+[main.ts:96507](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L96507)

@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / ContentGenerationGenerateTextLiveRequestInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / ContentGenerationGenerateTextLiveRequestInfo
 
 # Class: ContentGenerationGenerateTextLiveRequestInfo
 
@@ -52,7 +52,7 @@
 
 #### Defined in
 
-main.ts:160377
+[main.ts:160257](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L160257)
 
 ## Properties
 
@@ -73,7 +73,7 @@ learn more about this parameter on our help center
 
 #### Defined in
 
-main.ts:160357
+[main.ts:160237](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L160237)
 
 ___
 
@@ -92,7 +92,7 @@ learn more about this parameter on our help center
 
 #### Defined in
 
-main.ts:160344
+[main.ts:160224](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L160224)
 
 ___
 
@@ -110,7 +110,7 @@ if set to true, generated content will include a logical conclusion
 
 #### Defined in
 
-main.ts:160361
+[main.ts:160241](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L160241)
 
 ___
 
@@ -130,7 +130,7 @@ example: "meta_keywords": ["iPhone","sell","CEO"]
 
 #### Defined in
 
-main.ts:160350
+[main.ts:160230](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L160230)
 
 ___
 
@@ -150,7 +150,7 @@ example: "sub_topics": ["Apple","Pixar","Amazing Products"]
 
 #### Defined in
 
-main.ts:160339
+[main.ts:160219](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L160219)
 
 ___
 
@@ -170,7 +170,7 @@ supplement_token values are unique for each subsequent task
 
 #### Defined in
 
-main.ts:160367
+[main.ts:160247](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L160247)
 
 ___
 
@@ -190,7 +190,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:160373
+[main.ts:160253](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L160253)
 
 ___
 
@@ -209,7 +209,7 @@ can contain from 1 to 50 tokens
 
 #### Defined in
 
-main.ts:160328
+[main.ts:160208](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L160208)
 
 ___
 
@@ -228,7 +228,7 @@ can take values from 1 to 1000
 
 #### Defined in
 
-main.ts:160333
+[main.ts:160213](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L160213)
 
 ## Methods
 
@@ -248,7 +248,7 @@ main.ts:160333
 
 #### Defined in
 
-main.ts:160386
+[main.ts:160266](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L160266)
 
 ___
 
@@ -268,7 +268,7 @@ ___
 
 #### Defined in
 
-main.ts:160419
+[main.ts:160299](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L160299)
 
 ___
 
@@ -288,4 +288,4 @@ ___
 
 #### Defined in
 
-main.ts:160412
+[main.ts:160292](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L160292)

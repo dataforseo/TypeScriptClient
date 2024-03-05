@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / AmazonDeliveryInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / AmazonDeliveryInfo
 
 # Class: AmazonDeliveryInfo
 
@@ -49,7 +49,7 @@
 
 #### Defined in
 
-main.ts:21159
+[main.ts:21159](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L21159)
 
 ## Properties
 
@@ -65,7 +65,7 @@ the earliest date when the product can be shipped
 
 #### Defined in
 
-main.ts:21145
+[main.ts:21145](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L21145)
 
 ___
 
@@ -81,7 +81,7 @@ the latest date when the product can be delivered
 
 #### Defined in
 
-main.ts:21147
+[main.ts:21147](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L21147)
 
 ___
 
@@ -97,7 +97,7 @@ message accompanying the delivery information as posted by the seller
 
 #### Defined in
 
-main.ts:21143
+[main.ts:21143](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L21143)
 
 ___
 
@@ -115,7 +115,7 @@ if free delivery is available, the value is null
 
 #### Defined in
 
-main.ts:21155
+[main.ts:21155](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L21155)
 
 ___
 
@@ -131,7 +131,7 @@ the earliest date when the product can be delivered with a fast delivery option
 
 #### Defined in
 
-main.ts:21149
+[main.ts:21149](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L21149)
 
 ___
 
@@ -147,7 +147,7 @@ the latest date when the product can be delivered with a fast delivery option
 
 #### Defined in
 
-main.ts:21151
+[main.ts:21151](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L21151)
 
 ## Methods
 
@@ -167,7 +167,7 @@ main.ts:21151
 
 #### Defined in
 
-main.ts:21168
+[main.ts:21168](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L21168)
 
 ___
 
@@ -187,7 +187,7 @@ ___
 
 #### Defined in
 
-main.ts:21190
+[main.ts:21190](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L21190)
 
 ___
 
@@ -207,4 +207,4 @@ ___
 
 #### Defined in
 
-main.ts:21183
+[main.ts:21183](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L21183)

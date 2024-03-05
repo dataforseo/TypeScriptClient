@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / GooglePostsSerpElementItem
+[dataforseo-client](../README.md) / [Exports](../modules.md) / GooglePostsSerpElementItem
 
 # Class: GooglePostsSerpElementItem
 
@@ -62,7 +62,7 @@
 
 #### Defined in
 
-main.ts:34475
+[main.ts:34333](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L34333)
 
 ## Properties
 
@@ -76,7 +76,7 @@ main.ts:34475
 
 #### Defined in
 
-main.ts:19337
+[main.ts:19337](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L19337)
 
 ___
 
@@ -92,7 +92,7 @@ google-defined client id
 
 #### Defined in
 
-main.ts:34467
+[main.ts:34325](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L34325)
 
 ___
 
@@ -108,7 +108,7 @@ the additional feature of the review
 
 #### Defined in
 
-main.ts:34465
+[main.ts:34323](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L34323)
 
 ___
 
@@ -126,7 +126,7 @@ left, right
 
 #### Defined in
 
-main.ts:34459
+[main.ts:34317](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L34317)
 
 ___
 
@@ -142,7 +142,7 @@ the identifier of the google_posts feature
 
 #### Defined in
 
-main.ts:34463
+[main.ts:34321](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L34321)
 
 ___
 
@@ -159,7 +159,7 @@ absolute position among all the elements in SERP
 
 #### Defined in
 
-main.ts:34455
+[main.ts:34313](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L34313)
 
 ___
 
@@ -177,7 +177,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-main.ts:34452
+[main.ts:34310](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L34310)
 
 ___
 
@@ -195,7 +195,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 #### Defined in
 
-main.ts:34471
+[main.ts:34329](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L34329)
 
 ___
 
@@ -211,7 +211,7 @@ the XPath of the element
 
 #### Defined in
 
-main.ts:34461
+[main.ts:34319](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L34319)
 
 ## Methods
 
@@ -235,7 +235,7 @@ main.ts:34461
 
 #### Defined in
 
-main.ts:34480
+[main.ts:34338](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L34338)
 
 ___
 
@@ -259,7 +259,7 @@ ___
 
 #### Defined in
 
-main.ts:34505
+[main.ts:34363](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L34363)
 
 ___
 
@@ -283,4 +283,4 @@ ___
 
 #### Defined in
 
-main.ts:34498
+[main.ts:34356](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L34356)

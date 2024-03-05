@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / ISerpBaiduLocationsCountryResultInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / ISerpBaiduLocationsCountryResultInfo
 
 # Interface: ISerpBaiduLocationsCountryResultInfo
 
@@ -30,7 +30,7 @@ ISO country code of the location
 
 #### Defined in
 
-main.ts:65606
+[main.ts:65462](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L65462)
 
 ___
 
@@ -42,7 +42,7 @@ location code
 
 #### Defined in
 
-main.ts:65598
+[main.ts:65454](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L65454)
 
 ___
 
@@ -56,7 +56,7 @@ don’t match locations by location_code_parent because the results for Region a
 
 #### Defined in
 
-main.ts:65604
+[main.ts:65460](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L65460)
 
 ___
 
@@ -68,7 +68,7 @@ full name of the location
 
 #### Defined in
 
-main.ts:65600
+[main.ts:65456](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L65456)
 
 ___
 
@@ -81,4 +81,4 @@ only City is supported for all countries except China (where Country is also sup
 
 #### Defined in
 
-main.ts:65609
+[main.ts:65465](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L65465)

@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IHotelAmenityItemInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IHotelAmenityItemInfo
 
 # Interface: IHotelAmenityItemInfo
 
@@ -29,7 +29,7 @@ standardised amenity name
 
 #### Defined in
 
-main.ts:195454
+[main.ts:195334](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L195334)
 
 ___
 
@@ -41,7 +41,7 @@ displayed amenity name
 
 #### Defined in
 
-main.ts:195456
+[main.ts:195336](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L195336)
 
 ___
 
@@ -53,7 +53,7 @@ standardised details about the amenity
 
 #### Defined in
 
-main.ts:195458
+[main.ts:195338](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L195338)
 
 ___
 
@@ -65,4 +65,4 @@ displayed details about the amenity
 
 #### Defined in
 
-main.ts:195460
+[main.ts:195340](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L195340)

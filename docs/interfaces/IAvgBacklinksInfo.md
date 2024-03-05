@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IAvgBacklinksInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IAvgBacklinksInfo
 
 # Interface: IAvgBacklinksInfo
 
@@ -34,7 +34,7 @@ average number of backlinks
 
 #### Defined in
 
-main.ts:79662
+[main.ts:79518](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L79518)
 
 ___
 
@@ -46,7 +46,7 @@ average number of dofollow links
 
 #### Defined in
 
-main.ts:79664
+[main.ts:79520](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L79520)
 
 ___
 
@@ -61,7 +61,7 @@ example:
 
 #### Defined in
 
-main.ts:79681
+[main.ts:79537](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L79537)
 
 ___
 
@@ -74,7 +74,7 @@ learn more about the metric and its calculation formula in this help center arti
 
 #### Defined in
 
-main.ts:79676
+[main.ts:79532](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L79532)
 
 ___
 
@@ -87,7 +87,7 @@ learn more about the metric and its calculation formula in this help center arti
 
 #### Defined in
 
-main.ts:79673
+[main.ts:79529](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L79529)
 
 ___
 
@@ -99,7 +99,7 @@ average number of referring domains
 
 #### Defined in
 
-main.ts:79668
+[main.ts:79524](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L79524)
 
 ___
 
@@ -111,7 +111,7 @@ average number of referring main domains
 
 #### Defined in
 
-main.ts:79670
+[main.ts:79526](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L79526)
 
 ___
 
@@ -123,7 +123,7 @@ average number of referring pages
 
 #### Defined in
 
-main.ts:79666
+[main.ts:79522](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L79522)
 
 ___
 
@@ -135,4 +135,4 @@ search engine type
 
 #### Defined in
 
-main.ts:79660
+[main.ts:79516](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L79516)

@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IKeywordsDataGoogleAdsAdTrafficByKeywordsLiveResultInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IKeywordsDataGoogleAdsAdTrafficByKeywordsLiveResultInfo
 
 # Interface: IKeywordsDataGoogleAdsAdTrafficByKeywordsLiveResultInfo
 
@@ -39,7 +39,7 @@ if there is no data, then the value is null
 
 #### Defined in
 
-main.ts:119022
+[main.ts:118878](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L118878)
 
 ___
 
@@ -55,7 +55,7 @@ learn more in this help center article
 
 #### Defined in
 
-main.ts:119006
+[main.ts:118862](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L118862)
 
 ___
 
@@ -69,7 +69,7 @@ if there is no data, then the value is null
 
 #### Defined in
 
-main.ts:119030
+[main.ts:118886](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L118886)
 
 ___
 
@@ -83,7 +83,7 @@ if there is no data, then the value is null
 
 #### Defined in
 
-main.ts:119026
+[main.ts:118882](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L118882)
 
 ___
 
@@ -97,7 +97,7 @@ if there is no data, then the value is null
 
 #### Defined in
 
-main.ts:119018
+[main.ts:118874](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L118874)
 
 ___
 
@@ -109,7 +109,7 @@ forecasting date interval in a POST array
 
 #### Defined in
 
-main.ts:118995
+[main.ts:118851](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L118851)
 
 ___
 
@@ -124,7 +124,7 @@ learn more about impressions in this help center article
 
 #### Defined in
 
-main.ts:119014
+[main.ts:118870](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L118870)
 
 ___
 
@@ -136,7 +136,7 @@ keyword in a POST array
 
 #### Defined in
 
-main.ts:118987
+[main.ts:118843](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L118843)
 
 ___
 
@@ -149,7 +149,7 @@ if there is no data, then the value is null
 
 #### Defined in
 
-main.ts:118993
+[main.ts:118849](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L118849)
 
 ___
 
@@ -162,7 +162,7 @@ if there is no data, then the value is null
 
 #### Defined in
 
-main.ts:118990
+[main.ts:118846](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L118846)
 
 ___
 
@@ -175,7 +175,7 @@ can take the following values: exact, broad, phrase
 
 #### Defined in
 
-main.ts:119009
+[main.ts:118865](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L118865)
 
 ___
 
@@ -190,4 +190,4 @@ if false, the results are returned for Google search sites only
 
 #### Defined in
 
-main.ts:119000
+[main.ts:118856](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L118856)

@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / BusyWorkingTimeInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / BusyWorkingTimeInfo
 
 # Class: BusyWorkingTimeInfo
 
@@ -45,7 +45,7 @@
 
 #### Defined in
 
-main.ts:188938
+[main.ts:188818](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L188818)
 
 ## Properties
 
@@ -63,7 +63,7 @@ higher value corresponds to a busier time of a day
 
 #### Defined in
 
-main.ts:188934
+[main.ts:188814](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L188814)
 
 ___
 
@@ -79,7 +79,7 @@ busy hours
 
 #### Defined in
 
-main.ts:188930
+[main.ts:188810](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L188810)
 
 ## Methods
 
@@ -99,7 +99,7 @@ main.ts:188930
 
 #### Defined in
 
-main.ts:188947
+[main.ts:188827](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L188827)
 
 ___
 
@@ -119,7 +119,7 @@ ___
 
 #### Defined in
 
-main.ts:188965
+[main.ts:188845](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L188845)
 
 ___
 
@@ -139,4 +139,4 @@ ___
 
 #### Defined in
 
-main.ts:188958
+[main.ts:188838](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L188838)

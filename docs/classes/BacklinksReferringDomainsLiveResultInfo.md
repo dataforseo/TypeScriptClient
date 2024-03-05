@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / BacklinksReferringDomainsLiveResultInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / BacklinksReferringDomainsLiveResultInfo
 
 # Class: BacklinksReferringDomainsLiveResultInfo
 
@@ -47,7 +47,7 @@
 
 #### Defined in
 
-main.ts:135119
+[main.ts:134975](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L134975)
 
 ## Properties
 
@@ -63,7 +63,7 @@ items array
 
 #### Defined in
 
-main.ts:135115
+[main.ts:134971](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L134971)
 
 ___
 
@@ -79,7 +79,7 @@ number of items in the items array
 
 #### Defined in
 
-main.ts:135113
+[main.ts:134969](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L134969)
 
 ___
 
@@ -95,7 +95,7 @@ target in a POST array
 
 #### Defined in
 
-main.ts:135107
+[main.ts:134963](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L134963)
 
 ___
 
@@ -113,7 +113,7 @@ example.com and blog.example.com are counted as one referring domain
 
 #### Defined in
 
-main.ts:135111
+[main.ts:134967](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L134967)
 
 ## Methods
 
@@ -133,7 +133,7 @@ main.ts:135111
 
 #### Defined in
 
-main.ts:135128
+[main.ts:134984](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L134984)
 
 ___
 
@@ -153,7 +153,7 @@ ___
 
 #### Defined in
 
-main.ts:135152
+[main.ts:135008](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L135008)
 
 ___
 
@@ -173,4 +173,4 @@ ___
 
 #### Defined in
 
-main.ts:135145
+[main.ts:135001](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L135001)

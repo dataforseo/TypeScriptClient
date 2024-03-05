@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IBusinessDataTrustpilotReviewsTaskPostRequestInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IBusinessDataTrustpilotReviewsTaskPostRequestInfo
 
 # Interface: IBusinessDataTrustpilotReviewsTaskPostRequestInfo
 
@@ -37,7 +37,7 @@ maximum value: 25000
 
 #### Defined in
 
-main.ts:199669
+[main.ts:199549](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L199549)
 
 ___
 
@@ -55,7 +55,7 @@ https://www.trustpilot.com/review/www.thepearlsource.com
 
 #### Defined in
 
-main.ts:199646
+[main.ts:199526](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L199526)
 
 ___
 
@@ -75,7 +75,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-main.ts:199695
+[main.ts:199575](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L199575)
 
 ___
 
@@ -95,7 +95,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-main.ts:199685
+[main.ts:199565](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L199565)
 
 ___
 
@@ -113,7 +113,7 @@ The cost can be calculated on the Pricing page.
 
 #### Defined in
 
-main.ts:199662
+[main.ts:199542](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L199542)
 
 ___
 
@@ -131,7 +131,7 @@ default value: relevance
 
 #### Defined in
 
-main.ts:199654
+[main.ts:199534](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L199534)
 
 ___
 
@@ -147,4 +147,4 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:199675
+[main.ts:199555](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L199555)

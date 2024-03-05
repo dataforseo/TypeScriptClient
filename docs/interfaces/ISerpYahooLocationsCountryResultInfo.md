@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / ISerpYahooLocationsCountryResultInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / ISerpYahooLocationsCountryResultInfo
 
 # Interface: ISerpYahooLocationsCountryResultInfo
 
@@ -30,7 +30,7 @@ ISO country code of the location
 
 #### Defined in
 
-main.ts:63055
+[main.ts:62911](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L62911)
 
 ___
 
@@ -42,7 +42,7 @@ location code
 
 #### Defined in
 
-main.ts:63042
+[main.ts:62898](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L62898)
 
 ___
 
@@ -61,7 +61,7 @@ where location_code_parent corresponds to:
 
 #### Defined in
 
-main.ts:63053
+[main.ts:62909](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L62909)
 
 ___
 
@@ -73,7 +73,7 @@ full name of the location
 
 #### Defined in
 
-main.ts:63044
+[main.ts:62900](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L62900)
 
 ___
 
@@ -85,4 +85,4 @@ location type
 
 #### Defined in
 
-main.ts:63057
+[main.ts:62913](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L62913)

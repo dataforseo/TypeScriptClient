@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / RedditReviews
+[dataforseo-client](../README.md) / [Exports](../modules.md) / RedditReviews
 
 # Class: RedditReviews
 
@@ -48,7 +48,7 @@
 
 #### Defined in
 
-main.ts:206357
+[main.ts:206237](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L206237)
 
 ## Properties
 
@@ -65,7 +65,7 @@ nicknname of the user who published the post in the subreddit and shared the URL
 
 #### Defined in
 
-main.ts:206347
+[main.ts:206227](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L206227)
 
 ___
 
@@ -81,7 +81,7 @@ URL to the subreddit post
 
 #### Defined in
 
-main.ts:206351
+[main.ts:206231](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L206231)
 
 ___
 
@@ -97,7 +97,7 @@ the name of the subreddit
 
 #### Defined in
 
-main.ts:206344
+[main.ts:206224](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L206224)
 
 ___
 
@@ -113,7 +113,7 @@ number of subreddit members
 
 #### Defined in
 
-main.ts:206353
+[main.ts:206233](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L206233)
 
 ___
 
@@ -129,7 +129,7 @@ title of the subreddit post
 
 #### Defined in
 
-main.ts:206349
+[main.ts:206229](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L206229)
 
 ## Methods
 
@@ -149,7 +149,7 @@ main.ts:206349
 
 #### Defined in
 
-main.ts:206366
+[main.ts:206246](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L206246)
 
 ___
 
@@ -169,7 +169,7 @@ ___
 
 #### Defined in
 
-main.ts:206387
+[main.ts:206267](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L206267)
 
 ___
 
@@ -189,4 +189,4 @@ ___
 
 #### Defined in
 
-main.ts:206380
+[main.ts:206260](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L206260)

@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / VisualStoriesDataforseoLabsSerpElementItem
+[dataforseo-client](../README.md) / [Exports](../modules.md) / VisualStoriesDataforseoLabsSerpElementItem
 
 # Class: VisualStoriesDataforseoLabsSerpElementItem
 
@@ -59,7 +59,7 @@
 
 #### Defined in
 
-main.ts:95977
+[main.ts:95833](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L95833)
 
 ## Properties
 
@@ -73,7 +73,7 @@ main.ts:95977
 
 #### Defined in
 
-main.ts:19715
+[main.ts:19715](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L19715)
 
 ___
 
@@ -89,7 +89,7 @@ elements of search results found in SERP
 
 #### Defined in
 
-main.ts:95973
+[main.ts:95829](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L95829)
 
 ___
 
@@ -107,7 +107,7 @@ left, right
 
 #### Defined in
 
-main.ts:95969
+[main.ts:95825](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L95825)
 
 ___
 
@@ -124,7 +124,7 @@ absolute position among all the elements in SERP
 
 #### Defined in
 
-main.ts:95965
+[main.ts:95821](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L95821)
 
 ___
 
@@ -141,7 +141,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-main.ts:95962
+[main.ts:95818](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L95818)
 
 ___
 
@@ -157,7 +157,7 @@ the XPath of the element
 
 #### Defined in
 
-main.ts:95971
+[main.ts:95827](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L95827)
 
 ## Methods
 
@@ -181,7 +181,7 @@ main.ts:95971
 
 #### Defined in
 
-main.ts:95982
+[main.ts:95838](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L95838)
 
 ___
 
@@ -205,7 +205,7 @@ ___
 
 #### Defined in
 
-main.ts:96008
+[main.ts:95864](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L95864)
 
 ___
 
@@ -229,4 +229,4 @@ ___
 
 #### Defined in
 
-main.ts:96001
+[main.ts:95857](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L95857)

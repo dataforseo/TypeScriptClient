@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / AvailableLocations
+[dataforseo-client](../README.md) / [Exports](../modules.md) / AvailableLocations
 
 # Class: AvailableLocations
 
@@ -47,7 +47,7 @@
 
 #### Defined in
 
-main.ts:126493
+[main.ts:126349](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L126349)
 
 ## Properties
 
@@ -63,7 +63,7 @@ ISO country code of the location
 
 #### Defined in
 
-main.ts:126485
+[main.ts:126341](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L126341)
 
 ___
 
@@ -79,7 +79,7 @@ location code
 
 #### Defined in
 
-main.ts:126481
+[main.ts:126337](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L126337)
 
 ___
 
@@ -95,7 +95,7 @@ location name
 
 #### Defined in
 
-main.ts:126483
+[main.ts:126339](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L126339)
 
 ___
 
@@ -113,7 +113,7 @@ Country, Region
 
 #### Defined in
 
-main.ts:126489
+[main.ts:126345](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L126345)
 
 ## Methods
 
@@ -133,7 +133,7 @@ main.ts:126489
 
 #### Defined in
 
-main.ts:126502
+[main.ts:126358](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L126358)
 
 ___
 
@@ -153,7 +153,7 @@ ___
 
 #### Defined in
 
-main.ts:126522
+[main.ts:126378](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L126378)
 
 ___
 
@@ -173,4 +173,4 @@ ___
 
 #### Defined in
 
-main.ts:126515
+[main.ts:126371](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L126371)

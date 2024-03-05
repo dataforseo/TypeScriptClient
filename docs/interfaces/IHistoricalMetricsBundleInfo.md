@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IHistoricalMetricsBundleInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IHistoricalMetricsBundleInfo
 
 # Interface: IHistoricalMetricsBundleInfo
 
@@ -29,7 +29,7 @@ traffic data from the local pack results in SERP
 
 #### Defined in
 
-main.ts:98489
+[main.ts:98345](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L98345)
 
 ___
 
@@ -41,7 +41,7 @@ traffic data from the featured snippet results in Google SERP
 
 #### Defined in
 
-main.ts:98487
+[main.ts:98343](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L98343)
 
 ___
 
@@ -53,7 +53,7 @@ traffic data from organic search
 
 #### Defined in
 
-main.ts:98483
+[main.ts:98339](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L98339)
 
 ___
 
@@ -65,4 +65,4 @@ traffic data from paid search
 
 #### Defined in
 
-main.ts:98485
+[main.ts:98341](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L98341)

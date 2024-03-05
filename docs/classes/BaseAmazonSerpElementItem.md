@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / BaseAmazonSerpElementItem
+[dataforseo-client](../README.md) / [Exports](../modules.md) / BaseAmazonSerpElementItem
 
 # Class: BaseAmazonSerpElementItem
 
@@ -66,7 +66,7 @@
 
 #### Defined in
 
-main.ts:20758
+[main.ts:20758](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L20758)
 
 ## Properties
 
@@ -76,7 +76,7 @@ main.ts:20758
 
 #### Defined in
 
-main.ts:20756
+[main.ts:20756](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L20756)
 
 ## Methods
 
@@ -96,7 +96,7 @@ main.ts:20756
 
 #### Defined in
 
-main.ts:20768
+[main.ts:20768](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L20768)
 
 ___
 
@@ -116,7 +116,7 @@ ___
 
 #### Defined in
 
-main.ts:20829
+[main.ts:20829](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L20829)
 
 ___
 
@@ -136,4 +136,4 @@ ___
 
 #### Defined in
 
-main.ts:20777
+[main.ts:20777](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L20777)

@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IKeywordsDataGoogleAdsSearchVolumeLiveResultInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IKeywordsDataGoogleAdsSearchVolumeLiveResultInfo
 
 # Interface: IKeywordsDataGoogleAdsSearchVolumeLiveResultInfo
 
@@ -41,7 +41,7 @@ learn more about the metric in this help center article
 
 #### Defined in
 
-main.ts:114316
+[main.ts:114172](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L114172)
 
 ___
 
@@ -57,7 +57,7 @@ learn more about the metric in this help center article
 
 #### Defined in
 
-main.ts:114322
+[main.ts:114178](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L114178)
 
 ___
 
@@ -70,7 +70,7 @@ indicates the amount paid for each click on the ad displayed for a given keyword
 
 #### Defined in
 
-main.ts:114337
+[main.ts:114193](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L114193)
 
 ___
 
@@ -84,7 +84,7 @@ the value may differ depending on the location specified in a POST request
 
 #### Defined in
 
-main.ts:114334
+[main.ts:114190](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L114190)
 
 ___
 
@@ -97,7 +97,7 @@ keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a s
 
 #### Defined in
 
-main.ts:114299
+[main.ts:114155](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L114155)
 
 ___
 
@@ -110,7 +110,7 @@ if there is no data, then the value is null
 
 #### Defined in
 
-main.ts:114308
+[main.ts:114164](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L114164)
 
 ___
 
@@ -123,7 +123,7 @@ if there is no data, then the value is null
 
 #### Defined in
 
-main.ts:114305
+[main.ts:114161](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L114161)
 
 ___
 
@@ -137,7 +137,7 @@ the value may differ depending on the location specified in a POST request
 
 #### Defined in
 
-main.ts:114330
+[main.ts:114186](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L114186)
 
 ___
 
@@ -151,7 +151,7 @@ if there is no data then the value is null
 
 #### Defined in
 
-main.ts:114341
+[main.ts:114197](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L114197)
 
 ___
 
@@ -163,7 +163,7 @@ indicates whether data from partner networks included in the response
 
 #### Defined in
 
-main.ts:114310
+[main.ts:114166](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L114166)
 
 ___
 
@@ -177,7 +177,7 @@ if there is no data then the value is null
 
 #### Defined in
 
-main.ts:114326
+[main.ts:114182](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L114182)
 
 ___
 
@@ -190,4 +190,4 @@ if the search engine provided results for a keyword that was corrected, we will 
 
 #### Defined in
 
-main.ts:114302
+[main.ts:114158](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L114158)

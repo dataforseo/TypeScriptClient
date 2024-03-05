@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / RelatedResult
+[dataforseo-client](../README.md) / [Exports](../modules.md) / RelatedResult
 
 # Class: RelatedResult
 
@@ -64,7 +64,7 @@
 
 #### Defined in
 
-main.ts:28161
+[main.ts:28019](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L28019)
 
 ## Properties
 
@@ -82,7 +82,7 @@ this feature appears after clicking on the three dots next to most results
 
 #### Defined in
 
-main.ts:28152
+[main.ts:28010](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L28010)
 
 ___
 
@@ -99,7 +99,7 @@ indicates whether an item has the Accelerated Mobile Page (AMP) version
 
 #### Defined in
 
-main.ts:28140
+[main.ts:27998](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L27998)
 
 ___
 
@@ -115,7 +115,7 @@ breadcrumb in SERP
 
 #### Defined in
 
-main.ts:28123
+[main.ts:27981](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L27981)
 
 ___
 
@@ -131,7 +131,7 @@ cached version of the page
 
 #### Defined in
 
-main.ts:28118
+[main.ts:27976](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L27976)
 
 ___
 
@@ -147,7 +147,7 @@ description
 
 #### Defined in
 
-main.ts:28131
+[main.ts:27989](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L27989)
 
 ___
 
@@ -163,7 +163,7 @@ domain where a link points
 
 #### Defined in
 
-main.ts:28112
+[main.ts:27970](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L27970)
 
 ___
 
@@ -179,7 +179,7 @@ includes additional information appended after the result description in SERP
 
 #### Defined in
 
-main.ts:28135
+[main.ts:27993](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L27993)
 
 ___
 
@@ -195,7 +195,7 @@ words highlighted in bold within the results description
 
 #### Defined in
 
-main.ts:28148
+[main.ts:28006](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L28006)
 
 ___
 
@@ -211,7 +211,7 @@ images of the element
 
 #### Defined in
 
-main.ts:28137
+[main.ts:27995](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L27995)
 
 ___
 
@@ -227,7 +227,7 @@ indicates whether the element contains an image
 
 #### Defined in
 
-main.ts:28127
+[main.ts:27985](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L27985)
 
 ___
 
@@ -243,7 +243,7 @@ indicates whether the element contains a video
 
 #### Defined in
 
-main.ts:28129
+[main.ts:27987](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L27987)
 
 ___
 
@@ -259,7 +259,7 @@ includes additional information appended before the result description in SERP
 
 #### Defined in
 
-main.ts:28133
+[main.ts:27991](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L27991)
 
 ___
 
@@ -276,7 +276,7 @@ contains the pricing details of the product or service featured in the result
 
 #### Defined in
 
-main.ts:28146
+[main.ts:28004](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L28004)
 
 ___
 
@@ -293,7 +293,7 @@ the popularity rate based on reviews and displayed in SERP
 
 #### Defined in
 
-main.ts:28143
+[main.ts:28001](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L28001)
 
 ___
 
@@ -310,7 +310,7 @@ URL to a new search for the same keyword(s) on related sites
 
 #### Defined in
 
-main.ts:28121
+[main.ts:27979](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L27979)
 
 ___
 
@@ -329,7 +329,7 @@ example:
 
 #### Defined in
 
-main.ts:28157
+[main.ts:28015](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L28015)
 
 ___
 
@@ -345,7 +345,7 @@ title of the element
 
 #### Defined in
 
-main.ts:28114
+[main.ts:27972](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L27972)
 
 ___
 
@@ -361,7 +361,7 @@ type of element
 
 #### Defined in
 
-main.ts:28108
+[main.ts:27966](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L27966)
 
 ___
 
@@ -377,7 +377,7 @@ URL
 
 #### Defined in
 
-main.ts:28116
+[main.ts:27974](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L27974)
 
 ___
 
@@ -393,7 +393,7 @@ name of the website in SERP
 
 #### Defined in
 
-main.ts:28125
+[main.ts:27983](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L27983)
 
 ___
 
@@ -409,7 +409,7 @@ the XPath of the element
 
 #### Defined in
 
-main.ts:28110
+[main.ts:27968](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L27968)
 
 ## Methods
 
@@ -429,7 +429,7 @@ main.ts:28110
 
 #### Defined in
 
-main.ts:28170
+[main.ts:28028](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L28028)
 
 ___
 
@@ -449,7 +449,7 @@ ___
 
 #### Defined in
 
-main.ts:28215
+[main.ts:28073](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L28073)
 
 ___
 
@@ -469,4 +469,4 @@ ___
 
 #### Defined in
 
-main.ts:28208
+[main.ts:28066](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L28066)

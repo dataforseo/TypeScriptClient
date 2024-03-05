@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IAppendixSocialMediaBusinessDataPriceData
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IAppendixSocialMediaBusinessDataPriceData
 
 # Interface: IAppendixSocialMediaBusinessDataPriceData
 
@@ -26,7 +26,7 @@
 
 #### Defined in
 
-main.ts:211167
+[main.ts:211047](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L211047)
 
 ___
 
@@ -36,7 +36,7 @@ ___
 
 #### Defined in
 
-main.ts:211168
+[main.ts:211048](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L211048)
 
 ___
 
@@ -46,4 +46,4 @@ ___
 
 #### Defined in
 
-main.ts:211169
+[main.ts:211049](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L211049)

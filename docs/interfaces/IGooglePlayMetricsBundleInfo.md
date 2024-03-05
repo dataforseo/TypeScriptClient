@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IGooglePlayMetricsBundleInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IGooglePlayMetricsBundleInfo
 
 # Interface: IGooglePlayMetricsBundleInfo
 
@@ -26,4 +26,4 @@ ranking data from Google Play organic search
 
 #### Defined in
 
-main.ts:109423
+[main.ts:109279](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L109279)

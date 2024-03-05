@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IKeywordsDataGoogleAdsSearchVolumeTasksReadyResultInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IKeywordsDataGoogleAdsSearchVolumeTasksReadyResultInfo
 
 # Interface: IKeywordsDataGoogleAdsSearchVolumeTasksReadyResultInfo
 
@@ -31,7 +31,7 @@ date when the task was posted (in the UTC format)
 
 #### Defined in
 
-main.ts:113785
+[main.ts:113641](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L113641)
 
 ___
 
@@ -43,7 +43,7 @@ URL for collecting the results of the task
 
 #### Defined in
 
-main.ts:113789
+[main.ts:113645](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L113645)
 
 ___
 
@@ -55,7 +55,7 @@ type of the task
 
 #### Defined in
 
-main.ts:113783
+[main.ts:113639](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L113639)
 
 ___
 
@@ -68,7 +68,7 @@ unique task identifier in our system in the UUID format
 
 #### Defined in
 
-main.ts:113779
+[main.ts:113635](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L113635)
 
 ___
 
@@ -80,7 +80,7 @@ search engine specified when setting the task
 
 #### Defined in
 
-main.ts:113781
+[main.ts:113637](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L113637)
 
 ___
 
@@ -92,4 +92,4 @@ user-defined task identifier
 
 #### Defined in
 
-main.ts:113787
+[main.ts:113643](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L113643)

@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IAppendixStatusEndpointsInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IAppendixStatusEndpointsInfo
 
 # Interface: IAppendixStatusEndpointsInfo
 
@@ -32,7 +32,7 @@ postback/pingback
 
 #### Defined in
 
-main.ts:212863
+[main.ts:212743](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L212743)
 
 ___
 
@@ -52,4 +52,4 @@ send_delay
 
 #### Defined in
 
-main.ts:212873
+[main.ts:212753](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L212753)

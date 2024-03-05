@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / DomainAnalyticsTechnologiesAggregationTechnologiesLiveResultInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / DomainAnalyticsTechnologiesAggregationTechnologiesLiveResultInfo
 
 # Class: DomainAnalyticsTechnologiesAggregationTechnologiesLiveResultInfo
 
@@ -47,7 +47,7 @@
 
 #### Defined in
 
-main.ts:72972
+[main.ts:72828](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L72828)
 
 ## Properties
 
@@ -63,7 +63,7 @@ items array
 
 #### Defined in
 
-main.ts:72968
+[main.ts:72824](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L72824)
 
 ___
 
@@ -79,7 +79,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:72964
+[main.ts:72820](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L72820)
 
 ___
 
@@ -95,7 +95,7 @@ offset in the results array of returned domains
 
 #### Defined in
 
-main.ts:72966
+[main.ts:72822](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L72822)
 
 ___
 
@@ -111,7 +111,7 @@ total amount of results in our database relevant to your request
 
 #### Defined in
 
-main.ts:72962
+[main.ts:72818](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L72818)
 
 ## Methods
 
@@ -131,7 +131,7 @@ main.ts:72962
 
 #### Defined in
 
-main.ts:72981
+[main.ts:72837](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L72837)
 
 ___
 
@@ -151,7 +151,7 @@ ___
 
 #### Defined in
 
-main.ts:73005
+[main.ts:72861](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L72861)
 
 ___
 
@@ -171,4 +171,4 @@ ___
 
 #### Defined in
 
-main.ts:72998
+[main.ts:72854](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L72854)

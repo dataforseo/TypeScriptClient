@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IGoogleReviewsDataforseoLabsSerpElementItem
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IGoogleReviewsDataforseoLabsSerpElementItem
 
 # Interface: IGoogleReviewsDataforseoLabsSerpElementItem
 
@@ -40,7 +40,7 @@ google-defined client id
 
 #### Defined in
 
-main.ts:94498
+[main.ts:94354](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L94354)
 
 ___
 
@@ -52,7 +52,7 @@ the additional feature of the review
 
 #### Defined in
 
-main.ts:94496
+[main.ts:94352](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L94352)
 
 ___
 
@@ -64,7 +64,7 @@ the identifier of a place
 
 #### Defined in
 
-main.ts:94494
+[main.ts:94350](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L94350)
 
 ___
 
@@ -78,7 +78,7 @@ left, right
 
 #### Defined in
 
-main.ts:94485
+[main.ts:94341](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L94341)
 
 ___
 
@@ -91,7 +91,7 @@ absolute position among all the elements in SERP
 
 #### Defined in
 
-main.ts:94481
+[main.ts:94337](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L94337)
 
 ___
 
@@ -104,7 +104,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-main.ts:94478
+[main.ts:94334](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L94334)
 
 ___
 
@@ -117,7 +117,7 @@ the popularity rate based on reviews and displayed in SERP
 
 #### Defined in
 
-main.ts:94492
+[main.ts:94348](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L94348)
 
 ___
 
@@ -129,7 +129,7 @@ the number of reviews
 
 #### Defined in
 
-main.ts:94489
+[main.ts:94345](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L94345)
 
 ___
 
@@ -141,4 +141,4 @@ the XPath of the element
 
 #### Defined in
 
-main.ts:94487
+[main.ts:94343](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L94343)

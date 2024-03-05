@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / ISerpIdListRequestInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / ISerpIdListRequestInfo
 
 # Interface: ISerpIdListRequestInfo
 
@@ -37,7 +37,7 @@ example:
 
 #### Defined in
 
-main.ts:22943
+[main.ts:22801](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L22801)
 
 ___
 
@@ -54,7 +54,7 @@ example:
 
 #### Defined in
 
-main.ts:22950
+[main.ts:22808](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L22808)
 
 ___
 
@@ -68,7 +68,7 @@ default value: false
 
 #### Defined in
 
-main.ts:22969
+[main.ts:22827](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L22827)
 
 ___
 
@@ -83,7 +83,7 @@ maximum value: 1000
 
 #### Defined in
 
-main.ts:22955
+[main.ts:22813](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L22813)
 
 ___
 
@@ -98,7 +98,7 @@ if you specify the 10 value, the first ten tasks in the results array will be om
 
 #### Defined in
 
-main.ts:22960
+[main.ts:22818](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L22818)
 
 ___
 
@@ -113,4 +113,4 @@ default value: "asc"
 
 #### Defined in
 
-main.ts:22965
+[main.ts:22823](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L22823)

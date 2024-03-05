@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IEventDates
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IEventDates
 
 # Interface: IEventDates
 
@@ -28,7 +28,7 @@ date or date range as it is displayed in SERP
 
 #### Defined in
 
-main.ts:44651
+[main.ts:44509](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L44509)
 
 ___
 
@@ -48,7 +48,7 @@ example:
 
 #### Defined in
 
-main.ts:44649
+[main.ts:44507](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L44507)
 
 ___
 
@@ -68,4 +68,4 @@ example:
 
 #### Defined in
 
-main.ts:44639
+[main.ts:44497](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L44497)

@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IBusinessDataGoogleLanguagesResultInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IBusinessDataGoogleLanguagesResultInfo
 
 # Interface: IBusinessDataGoogleLanguagesResultInfo
 
@@ -27,7 +27,7 @@ language code according to ISO 639-1
 
 #### Defined in
 
-main.ts:190723
+[main.ts:190603](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L190603)
 
 ___
 
@@ -39,4 +39,4 @@ language name
 
 #### Defined in
 
-main.ts:190721
+[main.ts:190601](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L190601)

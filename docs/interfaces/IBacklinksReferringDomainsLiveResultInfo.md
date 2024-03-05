@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IBacklinksReferringDomainsLiveResultInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IBacklinksReferringDomainsLiveResultInfo
 
 # Interface: IBacklinksReferringDomainsLiveResultInfo
 
@@ -29,7 +29,7 @@ items array
 
 #### Defined in
 
-main.ts:135180
+[main.ts:135036](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L135036)
 
 ___
 
@@ -41,7 +41,7 @@ number of items in the items array
 
 #### Defined in
 
-main.ts:135178
+[main.ts:135034](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L135034)
 
 ___
 
@@ -53,7 +53,7 @@ target in a POST array
 
 #### Defined in
 
-main.ts:135172
+[main.ts:135028](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L135028)
 
 ___
 
@@ -67,4 +67,4 @@ example.com and blog.example.com are counted as one referring domain
 
 #### Defined in
 
-main.ts:135176
+[main.ts:135032](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L135032)

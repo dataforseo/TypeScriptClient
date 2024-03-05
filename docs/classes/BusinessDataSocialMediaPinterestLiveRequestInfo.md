@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / BusinessDataSocialMediaPinterestLiveRequestInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / BusinessDataSocialMediaPinterestLiveRequestInfo
 
 # Class: BusinessDataSocialMediaPinterestLiveRequestInfo
 
@@ -45,7 +45,7 @@
 
 #### Defined in
 
-main.ts:205759
+[main.ts:205639](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L205639)
 
 ## Properties
 
@@ -65,7 +65,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:205755
+[main.ts:205635](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L205635)
 
 ___
 
@@ -86,7 +86,7 @@ Note: you can specify 10 targets maximum. You will be charged per earch URL you 
 
 #### Defined in
 
-main.ts:205749
+[main.ts:205629](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L205629)
 
 ## Methods
 
@@ -106,7 +106,7 @@ main.ts:205749
 
 #### Defined in
 
-main.ts:205768
+[main.ts:205648](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L205648)
 
 ___
 
@@ -126,7 +126,7 @@ ___
 
 #### Defined in
 
-main.ts:205790
+[main.ts:205670](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L205670)
 
 ___
 
@@ -146,4 +146,4 @@ ___
 
 #### Defined in
 
-main.ts:205783
+[main.ts:205663](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L205663)

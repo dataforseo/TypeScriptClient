@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / BaseGoogleTrendsItem
+[dataforseo-client](../README.md) / [Exports](../modules.md) / BaseGoogleTrendsItem
 
 # Class: BaseGoogleTrendsItem
 
@@ -56,7 +56,7 @@
 
 #### Defined in
 
-main.ts:20384
+[main.ts:20384](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L20384)
 
 ## Properties
 
@@ -66,7 +66,7 @@ main.ts:20384
 
 #### Defined in
 
-main.ts:20382
+[main.ts:20382](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L20382)
 
 ## Methods
 
@@ -86,7 +86,7 @@ main.ts:20382
 
 #### Defined in
 
-main.ts:20394
+[main.ts:20394](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L20394)
 
 ___
 
@@ -106,7 +106,7 @@ ___
 
 #### Defined in
 
-main.ts:20430
+[main.ts:20430](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L20430)
 
 ___
 
@@ -126,4 +126,4 @@ ___
 
 #### Defined in
 
-main.ts:20403
+[main.ts:20403](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L20403)

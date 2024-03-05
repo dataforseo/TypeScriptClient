@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IRatingInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IRatingInfo
 
 # Interface: IRatingInfo
 
@@ -29,7 +29,7 @@ the maximum value for a rating_type
 
 #### Defined in
 
-main.ts:27959
+[main.ts:27817](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L27817)
 
 ___
 
@@ -42,7 +42,7 @@ here you can find the following elements: Max5, Percents, CustomMax
 
 #### Defined in
 
-main.ts:27953
+[main.ts:27811](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L27811)
 
 ___
 
@@ -54,7 +54,7 @@ the value of the rating
 
 #### Defined in
 
-main.ts:27955
+[main.ts:27813](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L27813)
 
 ___
 
@@ -66,4 +66,4 @@ the amount of feedback
 
 #### Defined in
 
-main.ts:27957
+[main.ts:27815](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L27815)

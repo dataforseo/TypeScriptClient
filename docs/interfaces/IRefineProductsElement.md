@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IRefineProductsElement
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IRefineProductsElement
 
 # Interface: IRefineProductsElement
 
@@ -31,7 +31,7 @@ URL of the image
 
 #### Defined in
 
-main.ts:35213
+[main.ts:35071](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L35071)
 
 ___
 
@@ -43,7 +43,7 @@ keyword for the related refined search
 
 #### Defined in
 
-main.ts:35215
+[main.ts:35073](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L35073)
 
 ___
 
@@ -55,7 +55,7 @@ type of search refinement
 
 #### Defined in
 
-main.ts:35217
+[main.ts:35075](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L35075)
 
 ___
 
@@ -67,7 +67,7 @@ title of the row
 
 #### Defined in
 
-main.ts:35211
+[main.ts:35069](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L35069)
 
 ___
 
@@ -79,7 +79,7 @@ type of element
 
 #### Defined in
 
-main.ts:35209
+[main.ts:35067](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L35067)
 
 ___
 
@@ -91,4 +91,4 @@ the XPath of the element
 
 #### Defined in
 
-main.ts:35219
+[main.ts:35077](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L35077)

@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IDataforseoLabsCompetitorsDomainLiveItem
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IDataforseoLabsCompetitorsDomainLiveItem
 
 # Interface: IDataforseoLabsCompetitorsDomainLiveItem
 
@@ -35,7 +35,7 @@ the value for a given domain may differ when combined with different target webs
 
 #### Defined in
 
-main.ts:88630
+[main.ts:88486](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L88486)
 
 ___
 
@@ -53,7 +53,7 @@ note: in this array ranking and traffic data is provided for the returned compet
 
 #### Defined in
 
-main.ts:88647
+[main.ts:88503](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L88503)
 
 ___
 
@@ -65,7 +65,7 @@ domain name
 
 #### Defined in
 
-main.ts:88626
+[main.ts:88482](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L88482)
 
 ___
 
@@ -82,7 +82,7 @@ full overview of ranking and traffic data relevant to all keywords that the prov
 
 #### Defined in
 
-main.ts:88639
+[main.ts:88495](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L88495)
 
 ___
 
@@ -94,7 +94,7 @@ number of intersecting keywords
 
 #### Defined in
 
-main.ts:88636
+[main.ts:88492](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L88492)
 
 ___
 
@@ -112,7 +112,7 @@ note: in this array ranking and traffic data is provided for the target consider
 
 #### Defined in
 
-main.ts:88643
+[main.ts:88499](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L88499)
 
 ___
 
@@ -124,7 +124,7 @@ search engine type
 
 #### Defined in
 
-main.ts:88624
+[main.ts:88480](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L88480)
 
 ___
 
@@ -138,4 +138,4 @@ the value for a given domain may differ when combined with different target webs
 
 #### Defined in
 
-main.ts:88634
+[main.ts:88490](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L88490)

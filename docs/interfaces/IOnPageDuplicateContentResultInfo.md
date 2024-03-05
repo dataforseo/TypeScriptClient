@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IOnPageDuplicateContentResultInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IOnPageDuplicateContentResultInfo
 
 # Interface: IOnPageDuplicateContentResultInfo
 
@@ -30,7 +30,7 @@ possible values: in_progress, finished
 
 #### Defined in
 
-main.ts:147894
+[main.ts:147750](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L147750)
 
 ___
 
@@ -42,7 +42,7 @@ details of the crawling session
 
 #### Defined in
 
-main.ts:147896
+[main.ts:147752](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L147752)
 
 ___
 
@@ -54,7 +54,7 @@ items array
 
 #### Defined in
 
-main.ts:147900
+[main.ts:147756](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L147756)
 
 ___
 
@@ -66,4 +66,4 @@ number of items in the results array
 
 #### Defined in
 
-main.ts:147898
+[main.ts:147754](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L147754)

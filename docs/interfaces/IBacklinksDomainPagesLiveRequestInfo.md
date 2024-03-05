@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IBacklinksDomainPagesLiveRequestInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IBacklinksDomainPagesLiveRequestInfo
 
 # Interface: IBacklinksDomainPagesLiveRequestInfo
 
@@ -41,7 +41,7 @@ example:
 
 #### Defined in
 
-main.ts:132841
+[main.ts:132697](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L132697)
 
 ___
 
@@ -60,7 +60,7 @@ default value: live
 
 #### Defined in
 
-main.ts:132802
+[main.ts:132658](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L132658)
 
 ___
 
@@ -87,7 +87,7 @@ The full list of possible filters is available here.
 
 #### Defined in
 
-main.ts:132819
+[main.ts:132675](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L132675)
 
 ___
 
@@ -102,7 +102,7 @@ default value: true
 
 #### Defined in
 
-main.ts:132846
+[main.ts:132702](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L132702)
 
 ___
 
@@ -123,7 +123,7 @@ maximum value: 1000
 
 #### Defined in
 
-main.ts:132793
+[main.ts:132649](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L132649)
 
 ___
 
@@ -138,7 +138,7 @@ maximum value: 1000
 
 #### Defined in
 
-main.ts:132777
+[main.ts:132633](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L132633)
 
 ___
 
@@ -153,7 +153,7 @@ if you specify the 10 value, the first ten pages in the results array will be om
 
 #### Defined in
 
-main.ts:132782
+[main.ts:132638](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L132638)
 
 ___
 
@@ -177,7 +177,7 @@ example:
 
 #### Defined in
 
-main.ts:132833
+[main.ts:132689](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L132689)
 
 ___
 
@@ -193,7 +193,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:132852
+[main.ts:132708](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L132708)
 
 ___
 
@@ -209,4 +209,4 @@ forbes.com
 
 #### Defined in
 
-main.ts:132772
+[main.ts:132628](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L132628)

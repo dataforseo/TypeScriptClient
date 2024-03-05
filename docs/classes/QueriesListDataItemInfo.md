@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / QueriesListDataItemInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / QueriesListDataItemInfo
 
 # Class: QueriesListDataItemInfo
 
@@ -45,7 +45,7 @@
 
 #### Defined in
 
-main.ts:121142
+[main.ts:120998](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L120998)
 
 ## Properties
 
@@ -61,7 +61,7 @@ related query
 
 #### Defined in
 
-main.ts:121135
+[main.ts:120991](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L120991)
 
 ___
 
@@ -78,7 +78,7 @@ represents the popularity of the topic. Scoring is on a relative scale where a v
 
 #### Defined in
 
-main.ts:121138
+[main.ts:120994](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L120994)
 
 ## Methods
 
@@ -98,7 +98,7 @@ main.ts:121138
 
 #### Defined in
 
-main.ts:121151
+[main.ts:121007](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L121007)
 
 ___
 
@@ -118,7 +118,7 @@ ___
 
 #### Defined in
 
-main.ts:121169
+[main.ts:121025](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L121025)
 
 ___
 
@@ -138,4 +138,4 @@ ___
 
 #### Defined in
 
-main.ts:121162
+[main.ts:121018](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L121018)

@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / ContentGenerationTextSummaryLiveRequestInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / ContentGenerationTextSummaryLiveRequestInfo
 
 # Class: ContentGenerationTextSummaryLiveRequestInfo
 
@@ -48,7 +48,7 @@
 
 #### Defined in
 
-main.ts:162273
+[main.ts:162153](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L162153)
 
 ## Properties
 
@@ -67,7 +67,7 @@ default value: 10
 
 #### Defined in
 
-main.ts:162263
+[main.ts:162143](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L162143)
 
 ___
 
@@ -85,7 +85,7 @@ see the List of Languages for Content Generation Text Summary API
 
 #### Defined in
 
-main.ts:162258
+[main.ts:162138](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L162138)
 
 ___
 
@@ -103,7 +103,7 @@ see the List of Languages for Content Generation Text Summary API
 
 #### Defined in
 
-main.ts:162254
+[main.ts:162134](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L162134)
 
 ___
 
@@ -123,7 +123,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:162269
+[main.ts:162149](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L162149)
 
 ___
 
@@ -142,7 +142,7 @@ learn more about tokens on our help center
 
 #### Defined in
 
-main.ts:162250
+[main.ts:162130](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L162130)
 
 ## Methods
 
@@ -162,7 +162,7 @@ main.ts:162250
 
 #### Defined in
 
-main.ts:162282
+[main.ts:162162](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L162162)
 
 ___
 
@@ -182,7 +182,7 @@ ___
 
 #### Defined in
 
-main.ts:162303
+[main.ts:162183](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L162183)
 
 ___
 
@@ -202,4 +202,4 @@ ___
 
 #### Defined in
 
-main.ts:162296
+[main.ts:162176](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L162176)

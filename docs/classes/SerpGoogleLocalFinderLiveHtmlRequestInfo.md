@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / SerpGoogleLocalFinderLiveHtmlRequestInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / SerpGoogleLocalFinderLiveHtmlRequestInfo
 
 # Class: SerpGoogleLocalFinderLiveHtmlRequestInfo
 
@@ -56,7 +56,7 @@
 
 #### Defined in
 
-main.ts:41722
+[main.ts:41580](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L41580)
 
 ## Properties
 
@@ -81,7 +81,7 @@ if the specified depth is higher than the number of results in the response, the
 
 #### Defined in
 
-main.ts:41698
+[main.ts:41556](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L41556)
 
 ___
 
@@ -100,7 +100,7 @@ default value: desktop
 
 #### Defined in
 
-main.ts:41680
+[main.ts:41538](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L41538)
 
 ___
 
@@ -121,7 +121,7 @@ if you need to use the “+” symbol for your keyword, please specify it as “
 
 #### Defined in
 
-main.ts:41629
+[main.ts:41487](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L41487)
 
 ___
 
@@ -141,7 +141,7 @@ example:en
 
 #### Defined in
 
-main.ts:41675
+[main.ts:41533](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L41533)
 
 ___
 
@@ -162,7 +162,7 @@ English
 
 #### Defined in
 
-main.ts:41669
+[main.ts:41527](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L41527)
 
 ___
 
@@ -183,7 +183,7 @@ example:
 
 #### Defined in
 
-main.ts:41651
+[main.ts:41509](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L41509)
 
 ___
 
@@ -208,7 +208,7 @@ example:
 
 #### Defined in
 
-main.ts:41662
+[main.ts:41520](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L41520)
 
 ___
 
@@ -229,7 +229,7 @@ London,England,United Kingdom
 
 #### Defined in
 
-main.ts:41644
+[main.ts:41502](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L41502)
 
 ___
 
@@ -248,7 +248,7 @@ possible values for mobile: 2, 2.5, 3, 3.5, 4, 4.5
 
 #### Defined in
 
-main.ts:41703
+[main.ts:41561](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L41561)
 
 ___
 
@@ -269,7 +269,7 @@ default value: android
 
 #### Defined in
 
-main.ts:41687
+[main.ts:41545](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L41545)
 
 ___
 
@@ -291,7 +291,7 @@ The cost can be calculated on the Pricing page.
 
 #### Defined in
 
-main.ts:41637
+[main.ts:41495](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L41495)
 
 ___
 
@@ -311,7 +311,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:41718
+[main.ts:41576](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L41576)
 
 ___
 
@@ -334,7 +334,7 @@ example: "tuesday;18"
 
 #### Defined in
 
-main.ts:41712
+[main.ts:41570](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L41570)
 
 ## Methods
 
@@ -354,7 +354,7 @@ main.ts:41712
 
 #### Defined in
 
-main.ts:41731
+[main.ts:41589](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L41589)
 
 ___
 
@@ -374,7 +374,7 @@ ___
 
 #### Defined in
 
-main.ts:41760
+[main.ts:41618](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L41618)
 
 ___
 
@@ -394,4 +394,4 @@ ___
 
 #### Defined in
 
-main.ts:41753
+[main.ts:41611](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L41611)

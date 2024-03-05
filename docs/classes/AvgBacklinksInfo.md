@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / AvgBacklinksInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / AvgBacklinksInfo
 
 # Class: AvgBacklinksInfo
 
@@ -52,7 +52,7 @@
 
 #### Defined in
 
-main.ts:79605
+[main.ts:79461](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L79461)
 
 ## Properties
 
@@ -68,7 +68,7 @@ average number of backlinks
 
 #### Defined in
 
-main.ts:79582
+[main.ts:79438](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L79438)
 
 ___
 
@@ -84,7 +84,7 @@ average number of dofollow links
 
 #### Defined in
 
-main.ts:79584
+[main.ts:79440](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L79440)
 
 ___
 
@@ -103,7 +103,7 @@ example:
 
 #### Defined in
 
-main.ts:79601
+[main.ts:79457](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L79457)
 
 ___
 
@@ -120,7 +120,7 @@ learn more about the metric and its calculation formula in this help center arti
 
 #### Defined in
 
-main.ts:79596
+[main.ts:79452](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L79452)
 
 ___
 
@@ -137,7 +137,7 @@ learn more about the metric and its calculation formula in this help center arti
 
 #### Defined in
 
-main.ts:79593
+[main.ts:79449](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L79449)
 
 ___
 
@@ -153,7 +153,7 @@ average number of referring domains
 
 #### Defined in
 
-main.ts:79588
+[main.ts:79444](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L79444)
 
 ___
 
@@ -169,7 +169,7 @@ average number of referring main domains
 
 #### Defined in
 
-main.ts:79590
+[main.ts:79446](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L79446)
 
 ___
 
@@ -185,7 +185,7 @@ average number of referring pages
 
 #### Defined in
 
-main.ts:79586
+[main.ts:79442](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L79442)
 
 ___
 
@@ -201,7 +201,7 @@ search engine type
 
 #### Defined in
 
-main.ts:79580
+[main.ts:79436](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L79436)
 
 ## Methods
 
@@ -221,7 +221,7 @@ main.ts:79580
 
 #### Defined in
 
-main.ts:79614
+[main.ts:79470](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L79470)
 
 ___
 
@@ -241,7 +241,7 @@ ___
 
 #### Defined in
 
-main.ts:79639
+[main.ts:79495](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L79495)
 
 ___
 
@@ -261,4 +261,4 @@ ___
 
 #### Defined in
 
-main.ts:79632
+[main.ts:79488](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L79488)

@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / LocalBusinessReservationLink
+[dataforseo-client](../README.md) / [Exports](../modules.md) / LocalBusinessReservationLink
 
 # Class: LocalBusinessReservationLink
 
@@ -56,7 +56,7 @@
 
 #### Defined in
 
-main.ts:22417
+[main.ts:22275](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L22275)
 
 ## Properties
 
@@ -70,7 +70,7 @@ main.ts:22417
 
 #### Defined in
 
-main.ts:22349
+[main.ts:22207](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L22207)
 
 ___
 
@@ -87,7 +87,7 @@ domain of the reservation software
 
 #### Defined in
 
-main.ts:22411
+[main.ts:22269](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L22269)
 
 ___
 
@@ -103,7 +103,7 @@ URL to make a reservation
 
 #### Defined in
 
-main.ts:22413
+[main.ts:22271](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L22271)
 
 ## Methods
 
@@ -127,7 +127,7 @@ main.ts:22413
 
 #### Defined in
 
-main.ts:22422
+[main.ts:22280](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L22280)
 
 ___
 
@@ -151,7 +151,7 @@ ___
 
 #### Defined in
 
-main.ts:22441
+[main.ts:22299](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L22299)
 
 ___
 
@@ -175,4 +175,4 @@ ___
 
 #### Defined in
 
-main.ts:22434
+[main.ts:22292](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L22292)

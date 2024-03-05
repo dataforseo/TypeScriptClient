@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IStocksBoxDataforseoLabsSerpElementItem
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IStocksBoxDataforseoLabsSerpElementItem
 
 # Interface: IStocksBoxDataforseoLabsSerpElementItem
 
@@ -43,7 +43,7 @@ domain where a link points
 
 #### Defined in
 
-main.ts:95949
+[main.ts:95805](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L95805)
 
 ___
 
@@ -55,7 +55,7 @@ contains data provided in the graph of the element
 
 #### Defined in
 
-main.ts:95954
+[main.ts:95810](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L95810)
 
 ___
 
@@ -69,7 +69,7 @@ left, right
 
 #### Defined in
 
-main.ts:95934
+[main.ts:95790](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L95790)
 
 ___
 
@@ -81,7 +81,7 @@ price of the shopping element
 
 #### Defined in
 
-main.ts:95945
+[main.ts:95801](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L95801)
 
 ___
 
@@ -94,7 +94,7 @@ absolute position among all the elements in SERP
 
 #### Defined in
 
-main.ts:95930
+[main.ts:95786](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L95786)
 
 ___
 
@@ -107,7 +107,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-main.ts:95927
+[main.ts:95783](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L95783)
 
 ___
 
@@ -119,7 +119,7 @@ text alongside the link title
 
 #### Defined in
 
-main.ts:95943
+[main.ts:95799](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L95799)
 
 ___
 
@@ -132,7 +132,7 @@ indicates the source of information included in the shopping_element
 
 #### Defined in
 
-main.ts:95941
+[main.ts:95797](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L95797)
 
 ___
 
@@ -145,7 +145,7 @@ if there are none, equals null
 
 #### Defined in
 
-main.ts:95952
+[main.ts:95808](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L95808)
 
 ___
 
@@ -157,7 +157,7 @@ title of the result in SERP
 
 #### Defined in
 
-main.ts:95938
+[main.ts:95794](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L95794)
 
 ___
 
@@ -169,7 +169,7 @@ URL link
 
 #### Defined in
 
-main.ts:95947
+[main.ts:95803](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L95803)
 
 ___
 
@@ -181,4 +181,4 @@ the XPath of the element
 
 #### Defined in
 
-main.ts:95936
+[main.ts:95792](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L95792)

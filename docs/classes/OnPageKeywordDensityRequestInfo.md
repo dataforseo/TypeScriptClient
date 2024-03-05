@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / OnPageKeywordDensityRequestInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / OnPageKeywordDensityRequestInfo
 
 # Class: OnPageKeywordDensityRequestInfo
 
@@ -50,7 +50,7 @@
 
 #### Defined in
 
-main.ts:150246
+[main.ts:150102](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L150102)
 
 ## Properties
 
@@ -81,7 +81,7 @@ The full list of possible filters is available by this link.
 
 #### Defined in
 
-main.ts:150222
+[main.ts:150078](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L150078)
 
 ___
 
@@ -101,7 +101,7 @@ example:
 
 #### Defined in
 
-main.ts:150189
+[main.ts:150045](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L150045)
 
 ___
 
@@ -120,7 +120,7 @@ possible values:
 
 #### Defined in
 
-main.ts:150194
+[main.ts:150050](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L150050)
 
 ___
 
@@ -139,7 +139,7 @@ maximum value: 1000
 
 #### Defined in
 
-main.ts:150205
+[main.ts:150061](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L150061)
 
 ___
 
@@ -167,7 +167,7 @@ example:
 
 #### Defined in
 
-main.ts:150236
+[main.ts:150092](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L150092)
 
 ___
 
@@ -187,7 +187,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:150242
+[main.ts:150098](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L150098)
 
 ___
 
@@ -207,7 +207,7 @@ a page should be specified with absolute URL (including http:// or https://)
 
 #### Defined in
 
-main.ts:150200
+[main.ts:150056](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L150056)
 
 ## Methods
 
@@ -227,7 +227,7 @@ main.ts:150200
 
 #### Defined in
 
-main.ts:150255
+[main.ts:150111](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L150111)
 
 ___
 
@@ -247,7 +247,7 @@ ___
 
 #### Defined in
 
-main.ts:150286
+[main.ts:150142](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L150142)
 
 ___
 
@@ -267,4 +267,4 @@ ___
 
 #### Defined in
 
-main.ts:150279
+[main.ts:150135](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L150135)

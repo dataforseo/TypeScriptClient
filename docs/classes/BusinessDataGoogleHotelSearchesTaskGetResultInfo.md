@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / BusinessDataGoogleHotelSearchesTaskGetResultInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / BusinessDataGoogleHotelSearchesTaskGetResultInfo
 
 # Class: BusinessDataGoogleHotelSearchesTaskGetResultInfo
 
@@ -50,7 +50,7 @@
 
 #### Defined in
 
-main.ts:194066
+[main.ts:193946](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L193946)
 
 ## Properties
 
@@ -67,7 +67,7 @@ you can use it to make sure that we provided accurate results
 
 #### Defined in
 
-main.ts:194051
+[main.ts:193931](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L193931)
 
 ___
 
@@ -86,7 +86,7 @@ example:
 
 #### Defined in
 
-main.ts:194056
+[main.ts:193936](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L193936)
 
 ___
 
@@ -103,7 +103,7 @@ note: this field always equals null; use it to facilitate integration and ensure
 
 #### Defined in
 
-main.ts:194062
+[main.ts:193942](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L193942)
 
 ___
 
@@ -120,7 +120,7 @@ the number of items in the items array
 
 #### Defined in
 
-main.ts:194059
+[main.ts:193939](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L193939)
 
 ___
 
@@ -138,7 +138,7 @@ in order to obtain accurate search results, the location name is appended to the
 
 #### Defined in
 
-main.ts:194044
+[main.ts:193924](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L193924)
 
 ___
 
@@ -154,7 +154,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:194048
+[main.ts:193928](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L193928)
 
 ___
 
@@ -170,7 +170,7 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:194046
+[main.ts:193926](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L193926)
 
 ## Methods
 
@@ -190,7 +190,7 @@ main.ts:194046
 
 #### Defined in
 
-main.ts:194075
+[main.ts:193955](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L193955)
 
 ___
 
@@ -210,7 +210,7 @@ ___
 
 #### Defined in
 
-main.ts:194102
+[main.ts:193982](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L193982)
 
 ___
 
@@ -230,4 +230,4 @@ ___
 
 #### Defined in
 
-main.ts:194095
+[main.ts:193975](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L193975)

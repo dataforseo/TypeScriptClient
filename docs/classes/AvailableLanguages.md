@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / AvailableLanguages
+[dataforseo-client](../README.md) / [Exports](../modules.md) / AvailableLanguages
 
 # Class: AvailableLanguages
 
@@ -48,7 +48,7 @@
 
 #### Defined in
 
-main.ts:78000
+[main.ts:77856](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L77856)
 
 ## Properties
 
@@ -66,7 +66,7 @@ only google and bing are currently available
 
 #### Defined in
 
-main.ts:77988
+[main.ts:77844](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L77844)
 
 ___
 
@@ -82,7 +82,7 @@ the number of keywords available for the given location and language
 
 #### Defined in
 
-main.ts:77994
+[main.ts:77850](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L77850)
 
 ___
 
@@ -98,7 +98,7 @@ language code according to ISO 639-1
 
 #### Defined in
 
-main.ts:77992
+[main.ts:77848](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L77848)
 
 ___
 
@@ -114,7 +114,7 @@ language name
 
 #### Defined in
 
-main.ts:77990
+[main.ts:77846](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L77846)
 
 ___
 
@@ -130,7 +130,7 @@ the number of SERP pages available for the given location and language
 
 #### Defined in
 
-main.ts:77996
+[main.ts:77852](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L77852)
 
 ## Methods
 
@@ -150,7 +150,7 @@ main.ts:77996
 
 #### Defined in
 
-main.ts:78009
+[main.ts:77865](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L77865)
 
 ___
 
@@ -170,7 +170,7 @@ ___
 
 #### Defined in
 
-main.ts:78034
+[main.ts:77890](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L77890)
 
 ___
 
@@ -190,4 +190,4 @@ ___
 
 #### Defined in
 
-main.ts:78027
+[main.ts:77883](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L77883)

@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IBusinessDataGoogleHotelInfoTaskGetHtmlResultInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IBusinessDataGoogleHotelInfoTaskGetHtmlResultInfo
 
 # Interface: IBusinessDataGoogleHotelInfoTaskGetHtmlResultInfo
 
@@ -36,7 +36,7 @@ example:
 
 #### Defined in
 
-main.ts:196530
+[main.ts:196410](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L196410)
 
 ___
 
@@ -48,7 +48,7 @@ HTML pages
 
 #### Defined in
 
-main.ts:196534
+[main.ts:196414](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L196414)
 
 ___
 
@@ -60,7 +60,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:196532
+[main.ts:196412](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L196412)
 
 ___
 
@@ -75,7 +75,7 @@ CgoI-KWyzenM_MV3EAE
 
 #### Defined in
 
-main.ts:196521
+[main.ts:196401](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L196401)
 
 ___
 
@@ -87,7 +87,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:196525
+[main.ts:196405](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L196405)
 
 ___
 
@@ -99,7 +99,7 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:196523
+[main.ts:196403](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L196403)
 
 ___
 
@@ -109,7 +109,7 @@ ___
 
 #### Defined in
 
-main.ts:196536
+[main.ts:196416](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L196416)
 
 ___
 
@@ -119,4 +119,4 @@ ___
 
 #### Defined in
 
-main.ts:196535
+[main.ts:196415](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L196415)

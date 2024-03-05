@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IAppendixBingKeywordsDataPriceData
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IAppendixBingKeywordsDataPriceData
 
 # Interface: IAppendixBingKeywordsDataPriceData
 
@@ -28,7 +28,7 @@
 
 #### Defined in
 
-main.ts:209925
+[main.ts:209805](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L209805)
 
 ___
 
@@ -38,7 +38,7 @@ ___
 
 #### Defined in
 
-main.ts:209926
+[main.ts:209806](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L209806)
 
 ___
 
@@ -48,7 +48,7 @@ ___
 
 #### Defined in
 
-main.ts:209927
+[main.ts:209807](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L209807)
 
 ___
 
@@ -58,7 +58,7 @@ ___
 
 #### Defined in
 
-main.ts:209929
+[main.ts:209809](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L209809)
 
 ___
 
@@ -68,4 +68,4 @@ ___
 
 #### Defined in
 
-main.ts:209928
+[main.ts:209808](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L209808)

@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / ISerpYoutubeLocationsCountryResultInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / ISerpYoutubeLocationsCountryResultInfo
 
 # Interface: ISerpYoutubeLocationsCountryResultInfo
 
@@ -30,7 +30,7 @@ ISO country code of the location
 
 #### Defined in
 
-main.ts:57593
+[main.ts:57449](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L57449)
 
 ___
 
@@ -42,7 +42,7 @@ location code
 
 #### Defined in
 
-main.ts:57580
+[main.ts:57436](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L57436)
 
 ___
 
@@ -61,7 +61,7 @@ where location_code_parent corresponds to:
 
 #### Defined in
 
-main.ts:57591
+[main.ts:57447](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L57447)
 
 ___
 
@@ -73,7 +73,7 @@ full name of the location
 
 #### Defined in
 
-main.ts:57582
+[main.ts:57438](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L57438)
 
 ___
 
@@ -85,4 +85,4 @@ location type
 
 #### Defined in
 
-main.ts:57595
+[main.ts:57451](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L57451)

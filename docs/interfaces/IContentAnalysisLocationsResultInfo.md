@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IContentAnalysisLocationsResultInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IContentAnalysisLocationsResultInfo
 
 # Interface: IContentAnalysisLocationsResultInfo
 
@@ -27,7 +27,7 @@ ISO country code of the location
 
 #### Defined in
 
-main.ts:155714
+[main.ts:155570](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L155570)
 
 ___
 
@@ -39,4 +39,4 @@ full name of the location
 
 #### Defined in
 
-main.ts:155712
+[main.ts:155568](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L155568)

@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / OnPagePageScreenshotResultInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / OnPagePageScreenshotResultInfo
 
 # Class: OnPagePageScreenshotResultInfo
 
@@ -47,7 +47,7 @@
 
 #### Defined in
 
-main.ts:151846
+[main.ts:151702](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L151702)
 
 ## Properties
 
@@ -64,7 +64,7 @@ possible values: in_progress, finished
 
 #### Defined in
 
-main.ts:151834
+[main.ts:151690](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L151690)
 
 ___
 
@@ -82,7 +82,7 @@ if no error is encountered, the value will be null
 
 #### Defined in
 
-main.ts:151838
+[main.ts:151694](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L151694)
 
 ___
 
@@ -98,7 +98,7 @@ items array
 
 #### Defined in
 
-main.ts:151842
+[main.ts:151698](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L151698)
 
 ___
 
@@ -114,7 +114,7 @@ number of items in the results array
 
 #### Defined in
 
-main.ts:151840
+[main.ts:151696](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L151696)
 
 ## Methods
 
@@ -134,7 +134,7 @@ main.ts:151840
 
 #### Defined in
 
-main.ts:151855
+[main.ts:151711](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L151711)
 
 ___
 
@@ -154,7 +154,7 @@ ___
 
 #### Defined in
 
-main.ts:151879
+[main.ts:151735](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L151735)
 
 ___
 
@@ -174,4 +174,4 @@ ___
 
 #### Defined in
 
-main.ts:151872
+[main.ts:151728](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L151728)

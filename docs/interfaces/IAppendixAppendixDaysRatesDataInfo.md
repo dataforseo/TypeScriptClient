@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IAppendixAppendixDaysRatesDataInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IAppendixAppendixDaysRatesDataInfo
 
 # Interface: IAppendixAppendixDaysRatesDataInfo
 
@@ -25,7 +25,7 @@
 
 #### Defined in
 
-main.ts:207179
+[main.ts:207059](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L207059)
 
 ___
 
@@ -35,4 +35,4 @@ ___
 
 #### Defined in
 
-main.ts:207178
+[main.ts:207058](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L207058)

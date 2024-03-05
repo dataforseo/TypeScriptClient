@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / QuestionsAndAnswersElement
+[dataforseo-client](../README.md) / [Exports](../modules.md) / QuestionsAndAnswersElement
 
 # Class: QuestionsAndAnswersElement
 
@@ -50,7 +50,7 @@
 
 #### Defined in
 
-main.ts:32955
+[main.ts:32813](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L32813)
 
 ## Properties
 
@@ -66,7 +66,7 @@ answer included in the item
 
 #### Defined in
 
-main.ts:32944
+[main.ts:32802](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L32802)
 
 ___
 
@@ -82,7 +82,7 @@ domain where a link points
 
 #### Defined in
 
-main.ts:32949
+[main.ts:32807](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L32807)
 
 ___
 
@@ -98,7 +98,7 @@ question included in the item
 
 #### Defined in
 
-main.ts:32942
+[main.ts:32800](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L32800)
 
 ___
 
@@ -115,7 +115,7 @@ indicates the source of information included in the element
 
 #### Defined in
 
-main.ts:32947
+[main.ts:32805](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L32805)
 
 ___
 
@@ -131,7 +131,7 @@ type of element
 
 #### Defined in
 
-main.ts:32938
+[main.ts:32796](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L32796)
 
 ___
 
@@ -147,7 +147,7 @@ URL
 
 #### Defined in
 
-main.ts:32940
+[main.ts:32798](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L32798)
 
 ___
 
@@ -163,7 +163,7 @@ answer upvotes from the source
 
 #### Defined in
 
-main.ts:32951
+[main.ts:32809](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L32809)
 
 ## Methods
 
@@ -183,7 +183,7 @@ main.ts:32951
 
 #### Defined in
 
-main.ts:32964
+[main.ts:32822](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L32822)
 
 ___
 
@@ -203,7 +203,7 @@ ___
 
 #### Defined in
 
-main.ts:32987
+[main.ts:32845](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L32845)
 
 ___
 
@@ -223,4 +223,4 @@ ___
 
 #### Defined in
 
-main.ts:32980
+[main.ts:32838](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L32838)

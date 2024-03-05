@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IDataforseoLabsGoogleHistoricalSearchVolumeLiveResultInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IDataforseoLabsGoogleHistoricalSearchVolumeLiveResultInfo
 
 # Interface: IDataforseoLabsGoogleHistoricalSearchVolumeLiveResultInfo
 
@@ -30,7 +30,7 @@ contains keywords and related data
 
 #### Defined in
 
-main.ts:82243
+[main.ts:82099](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L82099)
 
 ___
 
@@ -42,7 +42,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:82241
+[main.ts:82097](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L82097)
 
 ___
 
@@ -54,7 +54,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:82239
+[main.ts:82095](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L82095)
 
 ___
 
@@ -66,7 +66,7 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:82237
+[main.ts:82093](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L82093)
 
 ___
 
@@ -78,4 +78,4 @@ search engine type
 
 #### Defined in
 
-main.ts:82235
+[main.ts:82091](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L82091)

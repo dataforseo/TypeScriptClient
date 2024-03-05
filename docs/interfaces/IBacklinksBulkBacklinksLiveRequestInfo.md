@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IBacklinksBulkBacklinksLiveRequestInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IBacklinksBulkBacklinksLiveRequestInfo
 
 # Interface: IBacklinksBulkBacklinksLiveRequestInfo
 
@@ -31,7 +31,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:139882
+[main.ts:139738](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L139738)
 
 ___
 
@@ -60,4 +60,4 @@ example:
 
 #### Defined in
 
-main.ts:139876
+[main.ts:139732](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L139732)

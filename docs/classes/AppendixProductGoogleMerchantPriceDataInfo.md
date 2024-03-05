@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / AppendixProductGoogleMerchantPriceDataInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / AppendixProductGoogleMerchantPriceDataInfo
 
 # Class: AppendixProductGoogleMerchantPriceDataInfo
 
@@ -46,7 +46,7 @@
 
 #### Defined in
 
-main.ts:210373
+[main.ts:210253](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L210253)
 
 ## Properties
 
@@ -60,7 +60,7 @@ main.ts:210373
 
 #### Defined in
 
-main.ts:210367
+[main.ts:210247](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L210247)
 
 ___
 
@@ -74,7 +74,7 @@ ___
 
 #### Defined in
 
-main.ts:210368
+[main.ts:210248](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L210248)
 
 ___
 
@@ -88,7 +88,7 @@ ___
 
 #### Defined in
 
-main.ts:210369
+[main.ts:210249](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L210249)
 
 ## Methods
 
@@ -108,7 +108,7 @@ main.ts:210369
 
 #### Defined in
 
-main.ts:210382
+[main.ts:210262](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L210262)
 
 ___
 
@@ -128,7 +128,7 @@ ___
 
 #### Defined in
 
-main.ts:210401
+[main.ts:210281](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L210281)
 
 ___
 
@@ -148,4 +148,4 @@ ___
 
 #### Defined in
 
-main.ts:210394
+[main.ts:210274](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L210274)

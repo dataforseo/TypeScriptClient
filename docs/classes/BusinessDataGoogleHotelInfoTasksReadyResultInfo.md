@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / BusinessDataGoogleHotelInfoTasksReadyResultInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / BusinessDataGoogleHotelInfoTasksReadyResultInfo
 
 # Class: BusinessDataGoogleHotelInfoTasksReadyResultInfo
 
@@ -49,7 +49,7 @@
 
 #### Defined in
 
-main.ts:195221
+[main.ts:195101](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L195101)
 
 ## Properties
 
@@ -65,7 +65,7 @@ date when the task was posted (in the UTC format)
 
 #### Defined in
 
-main.ts:195211
+[main.ts:195091](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L195091)
 
 ___
 
@@ -81,7 +81,7 @@ URL for collecting the results of the task
 
 #### Defined in
 
-main.ts:195215
+[main.ts:195095](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L195095)
 
 ___
 
@@ -97,7 +97,7 @@ URL for collecting the results of the task
 
 #### Defined in
 
-main.ts:195217
+[main.ts:195097](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L195097)
 
 ___
 
@@ -114,7 +114,7 @@ unique task identifier in our system in the UUID format
 
 #### Defined in
 
-main.ts:195206
+[main.ts:195086](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L195086)
 
 ___
 
@@ -131,7 +131,7 @@ can take the following values: google
 
 #### Defined in
 
-main.ts:195209
+[main.ts:195089](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L195089)
 
 ___
 
@@ -147,7 +147,7 @@ user-defined task identifier
 
 #### Defined in
 
-main.ts:195213
+[main.ts:195093](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L195093)
 
 ## Methods
 
@@ -167,7 +167,7 @@ main.ts:195213
 
 #### Defined in
 
-main.ts:195230
+[main.ts:195110](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L195110)
 
 ___
 
@@ -187,7 +187,7 @@ ___
 
 #### Defined in
 
-main.ts:195252
+[main.ts:195132](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L195132)
 
 ___
 
@@ -207,4 +207,4 @@ ___
 
 #### Defined in
 
-main.ts:195245
+[main.ts:195125](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L195125)

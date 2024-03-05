@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IMerchantGoogleLanguagesResultInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IMerchantGoogleLanguagesResultInfo
 
 # Interface: IMerchantGoogleLanguagesResultInfo
 
@@ -27,7 +27,7 @@ language code according to ISO 639-1
 
 #### Defined in
 
-main.ts:163512
+[main.ts:163392](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L163392)
 
 ___
 
@@ -39,4 +39,4 @@ language name
 
 #### Defined in
 
-main.ts:163510
+[main.ts:163390](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L163390)

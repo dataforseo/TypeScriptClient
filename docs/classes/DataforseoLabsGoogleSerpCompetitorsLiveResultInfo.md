@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / DataforseoLabsGoogleSerpCompetitorsLiveResultInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / DataforseoLabsGoogleSerpCompetitorsLiveResultInfo
 
 # Class: DataforseoLabsGoogleSerpCompetitorsLiveResultInfo
 
@@ -50,7 +50,7 @@
 
 #### Defined in
 
-main.ts:87953
+[main.ts:87809](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L87809)
 
 ## Properties
 
@@ -66,7 +66,7 @@ contains detected SERP competitors and related data
 
 #### Defined in
 
-main.ts:87949
+[main.ts:87805](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L87805)
 
 ___
 
@@ -82,7 +82,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:87947
+[main.ts:87803](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L87803)
 
 ___
 
@@ -99,7 +99,7 @@ if there is no data, then the value is null
 
 #### Defined in
 
-main.ts:87943
+[main.ts:87799](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L87799)
 
 ___
 
@@ -116,7 +116,7 @@ if there is no data, then the value is null
 
 #### Defined in
 
-main.ts:87940
+[main.ts:87796](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L87796)
 
 ___
 
@@ -132,7 +132,7 @@ search engine type
 
 #### Defined in
 
-main.ts:87934
+[main.ts:87790](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L87790)
 
 ___
 
@@ -149,7 +149,7 @@ keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a s
 
 #### Defined in
 
-main.ts:87937
+[main.ts:87793](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L87793)
 
 ___
 
@@ -165,7 +165,7 @@ the total amount of results in our database relevant to your request
 
 #### Defined in
 
-main.ts:87945
+[main.ts:87801](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L87801)
 
 ## Methods
 
@@ -185,7 +185,7 @@ main.ts:87945
 
 #### Defined in
 
-main.ts:87962
+[main.ts:87818](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L87818)
 
 ___
 
@@ -205,7 +205,7 @@ ___
 
 #### Defined in
 
-main.ts:87993
+[main.ts:87849](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L87849)
 
 ___
 
@@ -225,4 +225,4 @@ ___
 
 #### Defined in
 
-main.ts:87986
+[main.ts:87842](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L87842)

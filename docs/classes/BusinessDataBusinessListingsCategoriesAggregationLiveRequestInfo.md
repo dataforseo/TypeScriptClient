@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / BusinessDataBusinessListingsCategoriesAggregationLiveRequestInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / BusinessDataBusinessListingsCategoriesAggregationLiveRequestInfo
 
 # Class: BusinessDataBusinessListingsCategoriesAggregationLiveRequestInfo
 
@@ -53,7 +53,7 @@
 
 #### Defined in
 
-main.ts:189744
+[main.ts:189624](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L189624)
 
 ## Properties
 
@@ -73,7 +73,7 @@ you can specify up to 10 categories
 
 #### Defined in
 
-main.ts:189688
+[main.ts:189568](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L189568)
 
 ___
 
@@ -92,7 +92,7 @@ can contain up to 200 symbols
 
 #### Defined in
 
-main.ts:189693
+[main.ts:189573](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L189573)
 
 ___
 
@@ -117,7 +117,7 @@ you can receive the list of available filters by making a separate request to h
 
 #### Defined in
 
-main.ts:189721
+[main.ts:189601](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L189601)
 
 ___
 
@@ -136,7 +136,7 @@ default value: 10
 
 #### Defined in
 
-main.ts:189726
+[main.ts:189606](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L189606)
 
 ___
 
@@ -153,7 +153,7 @@ optional field
 
 #### Defined in
 
-main.ts:189701
+[main.ts:189581](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L189581)
 
 ___
 
@@ -172,7 +172,7 @@ maximum value: 1000
 
 #### Defined in
 
-main.ts:189731
+[main.ts:189611](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L189611)
 
 ___
 
@@ -195,7 +195,7 @@ example:
 
 #### Defined in
 
-main.ts:189710
+[main.ts:189590](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L189590)
 
 ___
 
@@ -212,7 +212,7 @@ optional field
 
 #### Defined in
 
-main.ts:189734
+[main.ts:189614](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L189614)
 
 ___
 
@@ -232,7 +232,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:189740
+[main.ts:189620](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L189620)
 
 ___
 
@@ -251,7 +251,7 @@ can contain up to 200 symbols
 
 #### Defined in
 
-main.ts:189698
+[main.ts:189578](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L189578)
 
 ## Methods
 
@@ -271,7 +271,7 @@ main.ts:189698
 
 #### Defined in
 
-main.ts:189753
+[main.ts:189633](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L189633)
 
 ___
 
@@ -291,7 +291,7 @@ ___
 
 #### Defined in
 
-main.ts:189787
+[main.ts:189667](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L189667)
 
 ___
 
@@ -311,4 +311,4 @@ ___
 
 #### Defined in
 
-main.ts:189780
+[main.ts:189660](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L189660)

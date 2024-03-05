@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IRedditReviews
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IRedditReviews
 
 # Interface: IRedditReviews
 
@@ -31,7 +31,7 @@ nicknname of the user who published the post in the subreddit and shared the URL
 
 #### Defined in
 
-main.ts:206407
+[main.ts:206287](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L206287)
 
 ___
 
@@ -43,7 +43,7 @@ URL to the subreddit post
 
 #### Defined in
 
-main.ts:206411
+[main.ts:206291](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L206291)
 
 ___
 
@@ -55,7 +55,7 @@ the name of the subreddit
 
 #### Defined in
 
-main.ts:206404
+[main.ts:206284](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L206284)
 
 ___
 
@@ -67,7 +67,7 @@ number of subreddit members
 
 #### Defined in
 
-main.ts:206413
+[main.ts:206293](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L206293)
 
 ___
 
@@ -79,4 +79,4 @@ title of the subreddit post
 
 #### Defined in
 
-main.ts:206409
+[main.ts:206289](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L206289)

@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / SerpAiSummaryRequestInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / SerpAiSummaryRequestInfo
 
 # Class: SerpAiSummaryRequestInfo
 
@@ -48,7 +48,7 @@
 
 #### Defined in
 
-main.ts:23898
+[main.ts:23756](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L23756)
 
 ## Properties
 
@@ -67,7 +67,7 @@ default value: false
 
 #### Defined in
 
-main.ts:23889
+[main.ts:23747](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L23747)
 
 ___
 
@@ -86,7 +86,7 @@ default value: false
 
 #### Defined in
 
-main.ts:23894
+[main.ts:23752](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L23752)
 
 ___
 
@@ -106,7 +106,7 @@ note: your prompt has to be relevant to the keyword specified in the POST reques
 
 #### Defined in
 
-main.ts:23879
+[main.ts:23737](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L23737)
 
 ___
 
@@ -125,7 +125,7 @@ default value: true
 
 #### Defined in
 
-main.ts:23884
+[main.ts:23742](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L23742)
 
 ___
 
@@ -144,7 +144,7 @@ you will be able to use it within 30 days to request the results of the task at 
 
 #### Defined in
 
-main.ts:23873
+[main.ts:23731](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L23731)
 
 ## Methods
 
@@ -164,7 +164,7 @@ main.ts:23873
 
 #### Defined in
 
-main.ts:23907
+[main.ts:23765](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L23765)
 
 ___
 
@@ -184,7 +184,7 @@ ___
 
 #### Defined in
 
-main.ts:23928
+[main.ts:23786](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L23786)
 
 ___
 
@@ -204,4 +204,4 @@ ___
 
 #### Defined in
 
-main.ts:23921
+[main.ts:23779](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L23779)

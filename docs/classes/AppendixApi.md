@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / AppendixApi
+[dataforseo-client](../README.md) / [Exports](../modules.md) / AppendixApi
 
 # Class: AppendixApi
 
@@ -45,7 +45,7 @@
 
 #### Defined in
 
-main.ts:19174
+[main.ts:19174](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L19174)
 
 ## Properties
 
@@ -55,7 +55,7 @@ main.ts:19174
 
 #### Defined in
 
-main.ts:19171
+[main.ts:19171](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L19171)
 
 ___
 
@@ -71,7 +71,7 @@ ___
 
 #### Defined in
 
-main.ts:19170
+[main.ts:19170](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L19170)
 
 ___
 
@@ -96,7 +96,7 @@ ___
 
 #### Defined in
 
-main.ts:19172
+[main.ts:19172](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L19172)
 
 ## Methods
 
@@ -112,7 +112,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:19219
+[main.ts:19219](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L19219)
 
 ___
 
@@ -128,7 +128,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:19298
+[main.ts:19298](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L19298)
 
 ___
 
@@ -148,7 +148,7 @@ ___
 
 #### Defined in
 
-main.ts:19235
+[main.ts:19235](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L19235)
 
 ___
 
@@ -168,7 +168,7 @@ ___
 
 #### Defined in
 
-main.ts:19314
+[main.ts:19314](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L19314)
 
 ___
 
@@ -188,7 +188,7 @@ ___
 
 #### Defined in
 
-main.ts:19198
+[main.ts:19198](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L19198)
 
 ___
 
@@ -208,7 +208,7 @@ ___
 
 #### Defined in
 
-main.ts:19277
+[main.ts:19277](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L19277)
 
 ___
 
@@ -224,7 +224,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:19182
+[main.ts:19182](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L19182)
 
 ___
 
@@ -246,4 +246,4 @@ Successful operation
 
 #### Defined in
 
-main.ts:19257
+[main.ts:19257](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L19257)

@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / DomainAnalyticsTechnologiesTechnologyStatsLiveResultInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / DomainAnalyticsTechnologiesTechnologyStatsLiveResultInfo
 
 # Class: DomainAnalyticsTechnologiesTechnologyStatsLiveResultInfo
 
@@ -48,7 +48,7 @@
 
 #### Defined in
 
-main.ts:73880
+[main.ts:73736](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L73736)
 
 ## Properties
 
@@ -64,7 +64,7 @@ starting date of the time range
 
 #### Defined in
 
-main.ts:73870
+[main.ts:73726](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L73726)
 
 ___
 
@@ -80,7 +80,7 @@ ending date of the time range
 
 #### Defined in
 
-main.ts:73872
+[main.ts:73728](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L73728)
 
 ___
 
@@ -96,7 +96,7 @@ items array
 
 #### Defined in
 
-main.ts:73876
+[main.ts:73732](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L73732)
 
 ___
 
@@ -112,7 +112,7 @@ number of items in the results array
 
 #### Defined in
 
-main.ts:73874
+[main.ts:73730](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L73730)
 
 ___
 
@@ -128,7 +128,7 @@ target technology
 
 #### Defined in
 
-main.ts:73868
+[main.ts:73724](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L73724)
 
 ## Methods
 
@@ -148,7 +148,7 @@ main.ts:73868
 
 #### Defined in
 
-main.ts:73889
+[main.ts:73745](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L73745)
 
 ___
 
@@ -168,7 +168,7 @@ ___
 
 #### Defined in
 
-main.ts:73914
+[main.ts:73770](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L73770)
 
 ___
 
@@ -188,4 +188,4 @@ ___
 
 #### Defined in
 
-main.ts:73907
+[main.ts:73763](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L73763)

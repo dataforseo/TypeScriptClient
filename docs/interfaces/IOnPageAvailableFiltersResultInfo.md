@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IOnPageAvailableFiltersResultInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IOnPageAvailableFiltersResultInfo
 
 # Interface: IOnPageAvailableFiltersResultInfo
 
@@ -34,7 +34,7 @@
 
 #### Defined in
 
-main.ts:142582
+[main.ts:142438](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L142438)
 
 ___
 
@@ -48,7 +48,7 @@ ___
 
 #### Defined in
 
-main.ts:142579
+[main.ts:142435](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L142435)
 
 ___
 
@@ -62,7 +62,7 @@ ___
 
 #### Defined in
 
-main.ts:142578
+[main.ts:142434](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L142434)
 
 ___
 
@@ -76,7 +76,7 @@ ___
 
 #### Defined in
 
-main.ts:142577
+[main.ts:142433](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L142433)
 
 ___
 
@@ -90,7 +90,7 @@ ___
 
 #### Defined in
 
-main.ts:142580
+[main.ts:142436](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L142436)
 
 ___
 
@@ -104,7 +104,7 @@ ___
 
 #### Defined in
 
-main.ts:142581
+[main.ts:142437](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L142437)
 
 ___
 
@@ -118,4 +118,4 @@ ___
 
 #### Defined in
 
-main.ts:142576
+[main.ts:142432](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L142432)

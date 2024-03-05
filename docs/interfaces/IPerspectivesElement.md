@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IPerspectivesElement
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IPerspectivesElement
 
 # Interface: IPerspectivesElement
 
@@ -33,7 +33,7 @@ the date when the page source of the element was published
 
 #### Defined in
 
-main.ts:35609
+[main.ts:35467](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L35467)
 
 ___
 
@@ -45,7 +45,7 @@ description of the results element in SERP
 
 #### Defined in
 
-main.ts:35603
+[main.ts:35461](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L35461)
 
 ___
 
@@ -57,7 +57,7 @@ domain where a link points
 
 #### Defined in
 
-main.ts:35607
+[main.ts:35465](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L35465)
 
 ___
 
@@ -70,7 +70,7 @@ indicates the source of information included in the element
 
 #### Defined in
 
-main.ts:35612
+[main.ts:35470](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L35470)
 
 ___
 
@@ -85,7 +85,7 @@ example:
 
 #### Defined in
 
-main.ts:35617
+[main.ts:35475](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L35475)
 
 ___
 
@@ -97,7 +97,7 @@ title of the row
 
 #### Defined in
 
-main.ts:35601
+[main.ts:35459](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L35459)
 
 ___
 
@@ -109,7 +109,7 @@ type of element
 
 #### Defined in
 
-main.ts:35599
+[main.ts:35457](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L35457)
 
 ___
 
@@ -121,4 +121,4 @@ URL
 
 #### Defined in
 
-main.ts:35605
+[main.ts:35463](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L35463)

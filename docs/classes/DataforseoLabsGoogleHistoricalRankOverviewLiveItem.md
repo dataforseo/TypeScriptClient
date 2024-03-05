@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / DataforseoLabsGoogleHistoricalRankOverviewLiveItem
+[dataforseo-client](../README.md) / [Exports](../modules.md) / DataforseoLabsGoogleHistoricalRankOverviewLiveItem
 
 # Class: DataforseoLabsGoogleHistoricalRankOverviewLiveItem
 
@@ -47,7 +47,7 @@
 
 #### Defined in
 
-main.ts:96592
+[main.ts:96448](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L96448)
 
 ## Properties
 
@@ -67,7 +67,7 @@ ranking data relevant to the specified domain
 
 #### Defined in
 
-main.ts:96588
+[main.ts:96444](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L96444)
 
 ___
 
@@ -83,7 +83,7 @@ month for which the data is provided
 
 #### Defined in
 
-main.ts:96586
+[main.ts:96442](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L96442)
 
 ___
 
@@ -99,7 +99,7 @@ search engine type
 
 #### Defined in
 
-main.ts:96582
+[main.ts:96438](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L96438)
 
 ___
 
@@ -115,7 +115,7 @@ year for which the data is provided
 
 #### Defined in
 
-main.ts:96584
+[main.ts:96440](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L96440)
 
 ## Methods
 
@@ -135,7 +135,7 @@ main.ts:96584
 
 #### Defined in
 
-main.ts:96601
+[main.ts:96457](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L96457)
 
 ___
 
@@ -155,7 +155,7 @@ ___
 
 #### Defined in
 
-main.ts:96627
+[main.ts:96483](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L96483)
 
 ___
 
@@ -175,4 +175,4 @@ ___
 
 #### Defined in
 
-main.ts:96620
+[main.ts:96476](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L96476)

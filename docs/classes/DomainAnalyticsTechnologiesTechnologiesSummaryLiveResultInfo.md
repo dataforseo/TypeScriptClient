@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / DomainAnalyticsTechnologiesTechnologiesSummaryLiveResultInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / DomainAnalyticsTechnologiesTechnologiesSummaryLiveResultInfo
 
 # Class: DomainAnalyticsTechnologiesTechnologiesSummaryLiveResultInfo
 
@@ -47,7 +47,7 @@
 
 #### Defined in
 
-main.ts:73416
+[main.ts:73272](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L73272)
 
 ## Properties
 
@@ -68,7 +68,7 @@ contains content language codes and number of websites per language
 
 #### Defined in
 
-main.ts:73409
+[main.ts:73265](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L73265)
 
 ___
 
@@ -89,7 +89,7 @@ contains country codes and number of websites per country
 
 #### Defined in
 
-main.ts:73403
+[main.ts:73259](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L73259)
 
 ___
 
@@ -110,7 +110,7 @@ contains keywords found in the websites’ titles, descriptions or meta keywords
 
 #### Defined in
 
-main.ts:73412
+[main.ts:73268](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L73268)
 
 ___
 
@@ -131,7 +131,7 @@ contains language codes and number of websites per language
 
 #### Defined in
 
-main.ts:73406
+[main.ts:73262](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L73262)
 
 ## Methods
 
@@ -151,7 +151,7 @@ main.ts:73406
 
 #### Defined in
 
-main.ts:73425
+[main.ts:73281](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L73281)
 
 ___
 
@@ -171,7 +171,7 @@ ___
 
 #### Defined in
 
-main.ts:73469
+[main.ts:73325](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L73325)
 
 ___
 
@@ -191,4 +191,4 @@ ___
 
 #### Defined in
 
-main.ts:73462
+[main.ts:73318](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L73318)

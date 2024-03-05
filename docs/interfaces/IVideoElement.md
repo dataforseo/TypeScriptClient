@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IVideoElement
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IVideoElement
 
 # Interface: IVideoElement
 
@@ -31,7 +31,7 @@ URL to the video preview image
 
 #### Defined in
 
-main.ts:30315
+[main.ts:30173](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L30173)
 
 ___
 
@@ -44,7 +44,7 @@ indicates the source of information included in the element
 
 #### Defined in
 
-main.ts:30304
+[main.ts:30162](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L30162)
 
 ___
 
@@ -59,7 +59,7 @@ example:
 
 #### Defined in
 
-main.ts:30311
+[main.ts:30169](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L30169)
 
 ___
 
@@ -71,7 +71,7 @@ title of the row
 
 #### Defined in
 
-main.ts:30306
+[main.ts:30164](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L30164)
 
 ___
 
@@ -83,7 +83,7 @@ type of element
 
 #### Defined in
 
-main.ts:30301
+[main.ts:30159](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L30159)
 
 ___
 
@@ -95,4 +95,4 @@ URL
 
 #### Defined in
 
-main.ts:30313
+[main.ts:30171](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L30171)

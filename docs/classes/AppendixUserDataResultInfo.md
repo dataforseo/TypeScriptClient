@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / AppendixUserDataResultInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / AppendixUserDataResultInfo
 
 # Class: AppendixUserDataResultInfo
 
@@ -48,7 +48,7 @@
 
 #### Defined in
 
-main.ts:212297
+[main.ts:212177](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L212177)
 
 ## Properties
 
@@ -64,7 +64,7 @@ your login
 
 #### Defined in
 
-main.ts:212284
+[main.ts:212164](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L212164)
 
 ___
 
@@ -80,7 +80,7 @@ section of your spending, USD
 
 #### Defined in
 
-main.ts:212291
+[main.ts:212171](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L212171)
 
 ___
 
@@ -96,7 +96,7 @@ pricing
 
 #### Defined in
 
-main.ts:212293
+[main.ts:212173](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L212173)
 
 ___
 
@@ -112,7 +112,7 @@ your API rates
 
 #### Defined in
 
-main.ts:212289
+[main.ts:212169](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L212169)
 
 ___
 
@@ -129,7 +129,7 @@ can be set in your profile settings
 
 #### Defined in
 
-main.ts:212287
+[main.ts:212167](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L212167)
 
 ## Methods
 
@@ -149,7 +149,7 @@ main.ts:212287
 
 #### Defined in
 
-main.ts:212306
+[main.ts:212186](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L212186)
 
 ___
 
@@ -169,7 +169,7 @@ ___
 
 #### Defined in
 
-main.ts:212327
+[main.ts:212207](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L212207)
 
 ___
 
@@ -189,4 +189,4 @@ ___
 
 #### Defined in
 
-main.ts:212320
+[main.ts:212200](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L212200)

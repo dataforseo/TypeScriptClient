@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IAppendixMerchantLimitsRatesDataInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IAppendixMerchantLimitsRatesDataInfo
 
 # Interface: IAppendixMerchantLimitsRatesDataInfo
 
@@ -29,7 +29,7 @@
 
 #### Defined in
 
-main.ts:207787
+[main.ts:207667](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L207667)
 
 ___
 
@@ -39,7 +39,7 @@ ___
 
 #### Defined in
 
-main.ts:207790
+[main.ts:207670](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L207670)
 
 ___
 
@@ -49,7 +49,7 @@ ___
 
 #### Defined in
 
-main.ts:207786
+[main.ts:207666](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L207666)
 
 ___
 
@@ -59,7 +59,7 @@ ___
 
 #### Defined in
 
-main.ts:207789
+[main.ts:207669](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L207669)
 
 ___
 
@@ -69,7 +69,7 @@ ___
 
 #### Defined in
 
-main.ts:207788
+[main.ts:207668](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L207668)
 
 ___
 
@@ -79,4 +79,4 @@ ___
 
 #### Defined in
 
-main.ts:207791
+[main.ts:207671](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L207671)

@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / KeywordsDataBingKeywordPerformanceLiveRequestInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / KeywordsDataBingKeywordPerformanceLiveRequestInfo
 
 # Class: KeywordsDataBingKeywordPerformanceLiveRequestInfo
 
@@ -52,7 +52,7 @@
 
 #### Defined in
 
-main.ts:127752
+[main.ts:127608](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L127608)
 
 ## Properties
 
@@ -71,7 +71,7 @@ default value: all
 
 #### Defined in
 
-main.ts:127699
+[main.ts:127555](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L127555)
 
 ___
 
@@ -92,7 +92,7 @@ the specified keywords will be converted to lowercase, data will be provided in 
 
 #### Defined in
 
-main.ts:127694
+[main.ts:127550](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L127550)
 
 ___
 
@@ -112,7 +112,7 @@ example:
 
 #### Defined in
 
-main.ts:127742
+[main.ts:127598](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L127598)
 
 ___
 
@@ -133,7 +133,7 @@ English
 
 #### Defined in
 
-main.ts:127736
+[main.ts:127592](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L127592)
 
 ___
 
@@ -154,7 +154,7 @@ example:
 
 #### Defined in
 
-main.ts:127721
+[main.ts:127577](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L127577)
 
 ___
 
@@ -176,7 +176,7 @@ example:
 
 #### Defined in
 
-main.ts:127729
+[main.ts:127585](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L127585)
 
 ___
 
@@ -197,7 +197,7 @@ example:
 
 #### Defined in
 
-main.ts:127714
+[main.ts:127570](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L127570)
 
 ___
 
@@ -219,7 +219,7 @@ exact returns data for user query that matches the specified keyword;Note: the a
 
 #### Defined in
 
-main.ts:127707
+[main.ts:127563](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L127563)
 
 ___
 
@@ -239,7 +239,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:127748
+[main.ts:127604](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L127604)
 
 ## Methods
 
@@ -259,7 +259,7 @@ main.ts:127748
 
 #### Defined in
 
-main.ts:127761
+[main.ts:127617](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L127617)
 
 ___
 
@@ -279,7 +279,7 @@ ___
 
 #### Defined in
 
-main.ts:127790
+[main.ts:127646](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L127646)
 
 ___
 
@@ -299,4 +299,4 @@ ___
 
 #### Defined in
 
-main.ts:127783
+[main.ts:127639](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L127639)

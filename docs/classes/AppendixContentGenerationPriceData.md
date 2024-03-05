@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / AppendixContentGenerationPriceData
+[dataforseo-client](../README.md) / [Exports](../modules.md) / AppendixContentGenerationPriceData
 
 # Class: AppendixContentGenerationPriceData
 
@@ -50,7 +50,7 @@
 
 #### Defined in
 
-main.ts:211637
+[main.ts:211517](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L211517)
 
 ## Properties
 
@@ -64,7 +64,7 @@ main.ts:211637
 
 #### Defined in
 
-main.ts:211627
+[main.ts:211507](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L211507)
 
 ___
 
@@ -78,7 +78,7 @@ ___
 
 #### Defined in
 
-main.ts:211628
+[main.ts:211508](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L211508)
 
 ___
 
@@ -92,7 +92,7 @@ ___
 
 #### Defined in
 
-main.ts:211629
+[main.ts:211509](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L211509)
 
 ___
 
@@ -106,7 +106,7 @@ ___
 
 #### Defined in
 
-main.ts:211630
+[main.ts:211510](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L211510)
 
 ___
 
@@ -120,7 +120,7 @@ ___
 
 #### Defined in
 
-main.ts:211631
+[main.ts:211511](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L211511)
 
 ___
 
@@ -134,7 +134,7 @@ ___
 
 #### Defined in
 
-main.ts:211632
+[main.ts:211512](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L211512)
 
 ___
 
@@ -148,7 +148,7 @@ ___
 
 #### Defined in
 
-main.ts:211633
+[main.ts:211513](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L211513)
 
 ## Methods
 
@@ -168,7 +168,7 @@ main.ts:211633
 
 #### Defined in
 
-main.ts:211646
+[main.ts:211526](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L211526)
 
 ___
 
@@ -188,7 +188,7 @@ ___
 
 #### Defined in
 
-main.ts:211669
+[main.ts:211549](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L211549)
 
 ___
 
@@ -208,4 +208,4 @@ ___
 
 #### Defined in
 
-main.ts:211662
+[main.ts:211542](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L211542)

@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / KeywordsDataGoogleAdsKeywordsForKeywordsLiveResultInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / KeywordsDataGoogleAdsKeywordsForKeywordsLiveResultInfo
 
 # Class: KeywordsDataGoogleAdsKeywordsForKeywordsLiveResultInfo
 
@@ -55,7 +55,7 @@
 
 #### Defined in
 
-main.ts:117480
+[main.ts:117336](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L117336)
 
 ## Properties
 
@@ -75,7 +75,7 @@ learn more about the metric in this help center article
 
 #### Defined in
 
-main.ts:117448
+[main.ts:117304](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L117304)
 
 ___
 
@@ -96,7 +96,7 @@ learn more about the metric in this help center article
 
 #### Defined in
 
-main.ts:117455
+[main.ts:117311](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L117311)
 
 ___
 
@@ -113,7 +113,7 @@ indicates the amount paid for each click on the ad displayed for a given keyword
 
 #### Defined in
 
-main.ts:117470
+[main.ts:117326](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L117326)
 
 ___
 
@@ -131,7 +131,7 @@ the value may differ depending on the location specified in a POST request
 
 #### Defined in
 
-main.ts:117467
+[main.ts:117323](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L117323)
 
 ___
 
@@ -147,7 +147,7 @@ keyword in a POST array
 
 #### Defined in
 
-main.ts:117431
+[main.ts:117287](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L117287)
 
 ___
 
@@ -163,7 +163,7 @@ the annotations for the keyword
 
 #### Defined in
 
-main.ts:117476
+[main.ts:117332](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L117332)
 
 ___
 
@@ -180,7 +180,7 @@ if there is no data, the value is null
 
 #### Defined in
 
-main.ts:117437
+[main.ts:117293](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L117293)
 
 ___
 
@@ -197,7 +197,7 @@ if there is no data, the value is null
 
 #### Defined in
 
-main.ts:117434
+[main.ts:117290](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L117290)
 
 ___
 
@@ -215,7 +215,7 @@ the value may differ depending on the location specified in a POST request
 
 #### Defined in
 
-main.ts:117463
+[main.ts:117319](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L117319)
 
 ___
 
@@ -233,7 +233,7 @@ if there is no data, the value is null
 
 #### Defined in
 
-main.ts:117474
+[main.ts:117330](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L117330)
 
 ___
 
@@ -252,7 +252,7 @@ if false, the results are returned for Google search sites only
 
 #### Defined in
 
-main.ts:117442
+[main.ts:117298](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L117298)
 
 ___
 
@@ -270,7 +270,7 @@ if there is no data, the value is null
 
 #### Defined in
 
-main.ts:117459
+[main.ts:117315](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L117315)
 
 ## Methods
 
@@ -290,7 +290,7 @@ main.ts:117459
 
 #### Defined in
 
-main.ts:117489
+[main.ts:117345](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L117345)
 
 ___
 
@@ -310,7 +310,7 @@ ___
 
 #### Defined in
 
-main.ts:117521
+[main.ts:117377](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L117377)
 
 ___
 
@@ -330,4 +330,4 @@ ___
 
 #### Defined in
 
-main.ts:117514
+[main.ts:117370](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L117370)

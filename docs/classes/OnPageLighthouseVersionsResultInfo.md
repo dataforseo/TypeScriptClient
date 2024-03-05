@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / OnPageLighthouseVersionsResultInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / OnPageLighthouseVersionsResultInfo
 
 # Class: OnPageLighthouseVersionsResultInfo
 
@@ -44,7 +44,7 @@
 
 #### Defined in
 
-main.ts:154054
+[main.ts:153910](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L153910)
 
 ## Properties
 
@@ -58,7 +58,7 @@ main.ts:154054
 
 #### Defined in
 
-main.ts:154050
+[main.ts:153906](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L153906)
 
 ## Methods
 
@@ -78,7 +78,7 @@ main.ts:154050
 
 #### Defined in
 
-main.ts:154063
+[main.ts:153919](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L153919)
 
 ___
 
@@ -98,7 +98,7 @@ ___
 
 #### Defined in
 
-main.ts:154084
+[main.ts:153940](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L153940)
 
 ___
 
@@ -118,4 +118,4 @@ ___
 
 #### Defined in
 
-main.ts:154077
+[main.ts:153933](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L153933)

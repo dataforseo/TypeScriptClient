@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IImagesElement
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IImagesElement
 
 # Interface: IImagesElement
 
@@ -29,7 +29,7 @@ alt tag of the image
 
 #### Defined in
 
-main.ts:27068
+[main.ts:26926](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L26926)
 
 ___
 
@@ -42,7 +42,7 @@ the URL leading to the image on the original resource or DataForSEO storage (in 
 
 #### Defined in
 
-main.ts:27073
+[main.ts:26931](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L26931)
 
 ___
 
@@ -54,7 +54,7 @@ type of element
 
 #### Defined in
 
-main.ts:27066
+[main.ts:26924](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L26924)
 
 ___
 
@@ -66,4 +66,4 @@ URL link
 
 #### Defined in
 
-main.ts:27070
+[main.ts:26928](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L26928)

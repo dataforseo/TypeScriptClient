@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / ITopSightsElement
+[dataforseo-client](../README.md) / [Exports](../modules.md) / ITopSightsElement
 
 # Interface: ITopSightsElement
 
@@ -30,7 +30,7 @@ description of the results element in SERP
 
 #### Defined in
 
-main.ts:31822
+[main.ts:31680](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L31680)
 
 ___
 
@@ -43,7 +43,7 @@ the popularity rate based on reviews and displayed in SERP
 
 #### Defined in
 
-main.ts:31825
+[main.ts:31683](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L31683)
 
 ___
 
@@ -55,7 +55,7 @@ title of the row
 
 #### Defined in
 
-main.ts:31818
+[main.ts:31676](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L31676)
 
 ___
 
@@ -67,7 +67,7 @@ type of element
 
 #### Defined in
 
-main.ts:31816
+[main.ts:31674](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L31674)
 
 ___
 
@@ -79,4 +79,4 @@ URL
 
 #### Defined in
 
-main.ts:31820
+[main.ts:31678](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L31678)

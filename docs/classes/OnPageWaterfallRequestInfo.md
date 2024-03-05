@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / OnPageWaterfallRequestInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / OnPageWaterfallRequestInfo
 
 # Class: OnPageWaterfallRequestInfo
 
@@ -46,7 +46,7 @@
 
 #### Defined in
 
-main.ts:149793
+[main.ts:149649](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L149649)
 
 ## Properties
 
@@ -66,7 +66,7 @@ example:
 
 #### Defined in
 
-main.ts:149779
+[main.ts:149635](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L149635)
 
 ___
 
@@ -86,7 +86,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:149789
+[main.ts:149645](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L149645)
 
 ___
 
@@ -104,7 +104,7 @@ specify the pages you want to receive timing for
 
 #### Defined in
 
-main.ts:149783
+[main.ts:149639](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L149639)
 
 ## Methods
 
@@ -124,7 +124,7 @@ main.ts:149783
 
 #### Defined in
 
-main.ts:149802
+[main.ts:149658](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L149658)
 
 ___
 
@@ -144,7 +144,7 @@ ___
 
 #### Defined in
 
-main.ts:149821
+[main.ts:149677](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L149677)
 
 ___
 
@@ -164,4 +164,4 @@ ___
 
 #### Defined in
 
-main.ts:149814
+[main.ts:149670](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L149670)

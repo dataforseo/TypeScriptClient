@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IDataforseoLabsGoogleKeywordsForSiteLiveResultInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IDataforseoLabsGoogleKeywordsForSiteLiveResultInfo
 
 # Interface: IDataforseoLabsGoogleKeywordsForSiteLiveResultInfo
 
@@ -34,7 +34,7 @@ contains keyword ideas and related data
 
 #### Defined in
 
-main.ts:79995
+[main.ts:79851](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L79851)
 
 ___
 
@@ -46,7 +46,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:79987
+[main.ts:79843](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L79843)
 
 ___
 
@@ -58,7 +58,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:79983
+[main.ts:79839](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L79839)
 
 ___
 
@@ -70,7 +70,7 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:79981
+[main.ts:79837](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L79837)
 
 ___
 
@@ -82,7 +82,7 @@ current offset value
 
 #### Defined in
 
-main.ts:79989
+[main.ts:79845](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L79845)
 
 ___
 
@@ -96,7 +96,7 @@ note: offset_token values are unique for each subsequent task
 
 #### Defined in
 
-main.ts:79993
+[main.ts:79849](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L79849)
 
 ___
 
@@ -108,7 +108,7 @@ search engine type
 
 #### Defined in
 
-main.ts:79977
+[main.ts:79833](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L79833)
 
 ___
 
@@ -120,7 +120,7 @@ target domain in a POST array
 
 #### Defined in
 
-main.ts:79979
+[main.ts:79835](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L79835)
 
 ___
 
@@ -132,4 +132,4 @@ total number of results in our database relevant to your request
 
 #### Defined in
 
-main.ts:79985
+[main.ts:79841](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L79841)

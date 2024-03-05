@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IDataforseoLabsGoogleTopSearchesLiveResultInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IDataforseoLabsGoogleTopSearchesLiveResultInfo
 
 # Interface: IDataforseoLabsGoogleTopSearchesLiveResultInfo
 
@@ -33,7 +33,7 @@ contains keywords and related data
 
 #### Defined in
 
-main.ts:85507
+[main.ts:85363](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L85363)
 
 ___
 
@@ -45,7 +45,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:85499
+[main.ts:85355](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L85355)
 
 ___
 
@@ -57,7 +57,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:85495
+[main.ts:85351](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L85351)
 
 ___
 
@@ -69,7 +69,7 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:85493
+[main.ts:85349](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L85349)
 
 ___
 
@@ -81,7 +81,7 @@ current offset value
 
 #### Defined in
 
-main.ts:85501
+[main.ts:85357](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L85357)
 
 ___
 
@@ -95,7 +95,7 @@ note: offset_token values are unique for each subsequent task
 
 #### Defined in
 
-main.ts:85505
+[main.ts:85361](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L85361)
 
 ___
 
@@ -107,7 +107,7 @@ search engine type
 
 #### Defined in
 
-main.ts:85491
+[main.ts:85347](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L85347)
 
 ___
 
@@ -119,4 +119,4 @@ total amount of results in our database relevant to your request
 
 #### Defined in
 
-main.ts:85497
+[main.ts:85353](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L85353)

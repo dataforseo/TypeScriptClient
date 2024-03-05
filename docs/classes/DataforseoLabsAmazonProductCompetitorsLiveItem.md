@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / DataforseoLabsAmazonProductCompetitorsLiveItem
+[dataforseo-client](../README.md) / [Exports](../modules.md) / DataforseoLabsAmazonProductCompetitorsLiveItem
 
 # Class: DataforseoLabsAmazonProductCompetitorsLiveItem
 
@@ -50,7 +50,7 @@
 
 #### Defined in
 
-main.ts:101379
+[main.ts:101235](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L101235)
 
 ## Properties
 
@@ -68,7 +68,7 @@ for more information, refer to this help center guide
 
 #### Defined in
 
-main.ts:101358
+[main.ts:101214](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L101214)
 
 ___
 
@@ -86,7 +86,7 @@ the value for a given product may differ when combined with different target pro
 
 #### Defined in
 
-main.ts:101362
+[main.ts:101218](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L101218)
 
 ___
 
@@ -104,7 +104,7 @@ Note: in this object ranking data is provided for the returned competitor’s as
 
 #### Defined in
 
-main.ts:101372
+[main.ts:101228](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L101228)
 
 ___
 
@@ -121,7 +121,7 @@ full overview of ranking data relevant to all keywords that the provided asin is
 
 #### Defined in
 
-main.ts:101375
+[main.ts:101231](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L101231)
 
 ___
 
@@ -137,7 +137,7 @@ number of intersecting keywords
 
 #### Defined in
 
-main.ts:101368
+[main.ts:101224](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L101224)
 
 ___
 
@@ -153,7 +153,7 @@ search engine type
 
 #### Defined in
 
-main.ts:101354
+[main.ts:101210](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L101210)
 
 ___
 
@@ -171,7 +171,7 @@ the value for a given product may differ when combined with different target pro
 
 #### Defined in
 
-main.ts:101366
+[main.ts:101222](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L101222)
 
 ## Methods
 
@@ -191,7 +191,7 @@ main.ts:101366
 
 #### Defined in
 
-main.ts:101388
+[main.ts:101244](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L101244)
 
 ___
 
@@ -211,7 +211,7 @@ ___
 
 #### Defined in
 
-main.ts:101411
+[main.ts:101267](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L101267)
 
 ___
 
@@ -231,4 +231,4 @@ ___
 
 #### Defined in
 
-main.ts:101404
+[main.ts:101260](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L101260)

@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / MathSolverElement
+[dataforseo-client](../README.md) / [Exports](../modules.md) / MathSolverElement
 
 # Class: MathSolverElement
 
@@ -46,7 +46,7 @@
 
 #### Defined in
 
-main.ts:34118
+[main.ts:33976](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L33976)
 
 ## Properties
 
@@ -62,7 +62,7 @@ expanded element
 
 #### Defined in
 
-main.ts:34114
+[main.ts:33972](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L33972)
 
 ___
 
@@ -78,7 +78,7 @@ title of the row
 
 #### Defined in
 
-main.ts:34112
+[main.ts:33970](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L33970)
 
 ___
 
@@ -94,7 +94,7 @@ type of element
 
 #### Defined in
 
-main.ts:34110
+[main.ts:33968](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L33968)
 
 ## Methods
 
@@ -114,7 +114,7 @@ main.ts:34110
 
 #### Defined in
 
-main.ts:34127
+[main.ts:33985](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L33985)
 
 ___
 
@@ -134,7 +134,7 @@ ___
 
 #### Defined in
 
-main.ts:34150
+[main.ts:34008](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L34008)
 
 ___
 
@@ -154,4 +154,4 @@ ___
 
 #### Defined in
 
-main.ts:34143
+[main.ts:34001](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L34001)

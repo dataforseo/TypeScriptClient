@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IBacklinksHistoryLiveResultInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IBacklinksHistoryLiveResultInfo
 
 # Interface: IBacklinksHistoryLiveResultInfo
 
@@ -33,7 +33,7 @@ example:
 
 #### Defined in
 
-main.ts:130575
+[main.ts:130431](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L130431)
 
 ___
 
@@ -48,7 +48,7 @@ example:
 
 #### Defined in
 
-main.ts:130580
+[main.ts:130436](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L130436)
 
 ___
 
@@ -62,7 +62,7 @@ the metrics are aggregated according to the backlinks the specified domain had o
 
 #### Defined in
 
-main.ts:130586
+[main.ts:130442](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L130442)
 
 ___
 
@@ -74,7 +74,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:130582
+[main.ts:130438](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L130438)
 
 ___
 
@@ -86,4 +86,4 @@ target from the POST array
 
 #### Defined in
 
-main.ts:130570
+[main.ts:130426](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L130426)

@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IOnPageForceStopRequestInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IOnPageForceStopRequestInfo
 
 # Interface: IOnPageForceStopRequestInfo
 
@@ -31,4 +31,4 @@ note: you can set up to 1000 id values as separate objects in the POST array
 
 #### Defined in
 
-main.ts:142324
+[main.ts:142180](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L142180)

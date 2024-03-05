@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IMultiCarouselElement
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IMultiCarouselElement
 
 # Interface: IMultiCarouselElement
 
@@ -28,7 +28,7 @@ multi_carousel_snippet results
 
 #### Defined in
 
-main.ts:31453
+[main.ts:31311](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L31311)
 
 ___
 
@@ -40,7 +40,7 @@ title of the row
 
 #### Defined in
 
-main.ts:31451
+[main.ts:31309](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L31309)
 
 ___
 
@@ -52,4 +52,4 @@ type of element
 
 #### Defined in
 
-main.ts:31449
+[main.ts:31307](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L31307)

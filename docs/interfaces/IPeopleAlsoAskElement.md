@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IPeopleAlsoAskElement
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IPeopleAlsoAskElement
 
 # Interface: IPeopleAlsoAskElement
 
@@ -30,7 +30,7 @@ expanded element
 
 #### Defined in
 
-main.ts:28709
+[main.ts:28567](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L28567)
 
 ___
 
@@ -42,7 +42,7 @@ question that triggered additional expanded elements
 
 #### Defined in
 
-main.ts:28705
+[main.ts:28563](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L28563)
 
 ___
 
@@ -54,7 +54,7 @@ title of the row
 
 #### Defined in
 
-main.ts:28703
+[main.ts:28561](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L28561)
 
 ___
 
@@ -66,7 +66,7 @@ type of element
 
 #### Defined in
 
-main.ts:28701
+[main.ts:28559](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L28559)
 
 ___
 
@@ -78,4 +78,4 @@ the XPath of the element
 
 #### Defined in
 
-main.ts:28707
+[main.ts:28565](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L28565)

@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / SerpGoogleMapsLiveAdvancedRequestInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / SerpGoogleMapsLiveAdvancedRequestInfo
 
 # Class: SerpGoogleMapsLiveAdvancedRequestInfo
 
@@ -58,7 +58,7 @@
 
 #### Defined in
 
-main.ts:39333
+[main.ts:39191](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L39191)
 
 ## Properties
 
@@ -81,7 +81,7 @@ if the specified depth is higher than the number of results in the response, the
 
 #### Defined in
 
-main.ts:39301
+[main.ts:39159](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L39159)
 
 ___
 
@@ -101,7 +101,7 @@ note: for mobile device, only 20 results are returned for every SERP
 
 #### Defined in
 
-main.ts:39278
+[main.ts:39136](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L39136)
 
 ___
 
@@ -124,7 +124,7 @@ Note: queries containing the ‘cache:’ parameter are not supported and will r
 
 #### Defined in
 
-main.ts:39233
+[main.ts:39091](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L39091)
 
 ___
 
@@ -145,7 +145,7 @@ en
 
 #### Defined in
 
-main.ts:39272
+[main.ts:39130](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L39130)
 
 ___
 
@@ -166,7 +166,7 @@ English
 
 #### Defined in
 
-main.ts:39265
+[main.ts:39123](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L39123)
 
 ___
 
@@ -187,7 +187,7 @@ example:
 
 #### Defined in
 
-main.ts:39247
+[main.ts:39105](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L39105)
 
 ___
 
@@ -212,7 +212,7 @@ example:
 
 #### Defined in
 
-main.ts:39258
+[main.ts:39116](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L39116)
 
 ___
 
@@ -233,7 +233,7 @@ London,England,United Kingdom
 
 #### Defined in
 
-main.ts:39240
+[main.ts:39098](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L39098)
 
 ___
 
@@ -254,7 +254,7 @@ learn more at our help center
 
 #### Defined in
 
-main.ts:39308
+[main.ts:39166](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L39166)
 
 ___
 
@@ -275,7 +275,7 @@ default value: android
 
 #### Defined in
 
-main.ts:39285
+[main.ts:39143](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L39143)
 
 ___
 
@@ -296,7 +296,7 @@ google.co.uk, google.com.au, google.de, etc.
 
 #### Defined in
 
-main.ts:39292
+[main.ts:39150](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L39150)
 
 ___
 
@@ -318,7 +318,7 @@ Note: if the search_places mode is turned off and no results were found in the s
 
 #### Defined in
 
-main.ts:39323
+[main.ts:39181](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L39181)
 
 ___
 
@@ -339,7 +339,7 @@ Note: if the search_this_area mode is turned off, Google Maps listings might con
 
 #### Defined in
 
-main.ts:39315
+[main.ts:39173](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L39173)
 
 ___
 
@@ -359,7 +359,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:39329
+[main.ts:39187](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L39187)
 
 ___
 
@@ -379,7 +379,7 @@ https://google.com/maps/search/pizza/@37.09024,-95.712891,4z
 
 #### Defined in
 
-main.ts:39224
+[main.ts:39082](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L39082)
 
 ## Methods
 
@@ -399,7 +399,7 @@ main.ts:39224
 
 #### Defined in
 
-main.ts:39342
+[main.ts:39200](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L39200)
 
 ___
 
@@ -419,7 +419,7 @@ ___
 
 #### Defined in
 
-main.ts:39373
+[main.ts:39231](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L39231)
 
 ___
 
@@ -439,4 +439,4 @@ ___
 
 #### Defined in
 
-main.ts:39366
+[main.ts:39224](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L39224)

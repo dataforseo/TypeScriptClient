@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / LocalBusinessOrderLink
+[dataforseo-client](../README.md) / [Exports](../modules.md) / LocalBusinessOrderLink
 
 # Class: LocalBusinessOrderLink
 
@@ -55,7 +55,7 @@
 
 #### Defined in
 
-main.ts:22470
+[main.ts:22328](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L22328)
 
 ## Properties
 
@@ -69,7 +69,7 @@ main.ts:22470
 
 #### Defined in
 
-main.ts:22349
+[main.ts:22207](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L22207)
 
 ___
 
@@ -85,7 +85,7 @@ lists available delivery services
 
 #### Defined in
 
-main.ts:22466
+[main.ts:22324](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L22324)
 
 ## Methods
 
@@ -109,7 +109,7 @@ main.ts:22466
 
 #### Defined in
 
-main.ts:22475
+[main.ts:22333](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L22333)
 
 ___
 
@@ -133,7 +133,7 @@ ___
 
 #### Defined in
 
-main.ts:22497
+[main.ts:22355](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L22355)
 
 ___
 
@@ -157,4 +157,4 @@ ___
 
 #### Defined in
 
-main.ts:22490
+[main.ts:22348](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L22348)

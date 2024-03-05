@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IBaseAmazonSerpElementItem
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IBaseAmazonSerpElementItem
 
 # Interface: IBaseAmazonSerpElementItem
 

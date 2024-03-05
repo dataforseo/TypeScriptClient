@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IYoutubeCommentSerpElementItem
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IYoutubeCommentSerpElementItem
 
 # Interface: IYoutubeCommentSerpElementItem
 
@@ -41,7 +41,7 @@ name of the author of the comment
 
 #### Defined in
 
-main.ts:62060
+[main.ts:61916](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L61916)
 
 ___
 
@@ -53,7 +53,7 @@ the URL of the page where the author’s channel logo is hosted
 
 #### Defined in
 
-main.ts:62062
+[main.ts:61918](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L61918)
 
 ___
 
@@ -65,7 +65,7 @@ URL of the author’s channel
 
 #### Defined in
 
-main.ts:62064
+[main.ts:61920](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L61920)
 
 ___
 
@@ -77,7 +77,7 @@ number of likes on the comment
 
 #### Defined in
 
-main.ts:62075
+[main.ts:61931](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L61931)
 
 ___
 
@@ -89,7 +89,7 @@ displayed publication date
 
 #### Defined in
 
-main.ts:62068
+[main.ts:61924](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L61924)
 
 ___
 
@@ -102,7 +102,7 @@ absolute position among all the elements in SERP
 
 #### Defined in
 
-main.ts:62058
+[main.ts:61914](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L61914)
 
 ___
 
@@ -116,7 +116,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-main.ts:62055
+[main.ts:61911](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L61911)
 
 ___
 
@@ -128,7 +128,7 @@ number of replies on the comment
 
 #### Defined in
 
-main.ts:62077
+[main.ts:61933](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L61933)
 
 ___
 
@@ -140,7 +140,7 @@ text of the comment
 
 #### Defined in
 
-main.ts:62066
+[main.ts:61922](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L61922)
 
 ___
 
@@ -155,4 +155,4 @@ example:
 
 #### Defined in
 
-main.ts:62073
+[main.ts:61929](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L61929)

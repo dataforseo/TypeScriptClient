@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / AmazonAmazonReviewItemSerpElementItem
+[dataforseo-client](../README.md) / [Exports](../modules.md) / AmazonAmazonReviewItemSerpElementItem
 
 # Class: AmazonAmazonReviewItemSerpElementItem
 
@@ -69,7 +69,7 @@
 
 #### Defined in
 
-main.ts:175775
+[main.ts:175655](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L175655)
 
 ## Properties
 
@@ -83,7 +83,7 @@ main.ts:175775
 
 #### Defined in
 
-main.ts:20756
+[main.ts:20756](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L20756)
 
 ___
 
@@ -100,7 +100,7 @@ number of users who clicked on the ‘Helpful” button under the review text
 
 #### Defined in
 
-main.ts:175752
+[main.ts:175632](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L175632)
 
 ___
 
@@ -116,7 +116,7 @@ images of the product submitted by the reviewer
 
 #### Defined in
 
-main.ts:175754
+[main.ts:175634](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L175634)
 
 ___
 
@@ -133,7 +133,7 @@ can take the following values: right
 
 #### Defined in
 
-main.ts:175743
+[main.ts:175623](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L175623)
 
 ___
 
@@ -152,7 +152,7 @@ example:
 
 #### Defined in
 
-main.ts:175769
+[main.ts:175649](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L175649)
 
 ___
 
@@ -169,7 +169,7 @@ absolute position among all reviews on the list
 
 #### Defined in
 
-main.ts:175740
+[main.ts:175620](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L175620)
 
 ___
 
@@ -186,7 +186,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-main.ts:175737
+[main.ts:175617](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L175617)
 
 ___
 
@@ -202,7 +202,7 @@ the rating score submitted by the reviewer
 
 #### Defined in
 
-main.ts:175771
+[main.ts:175651](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L175651)
 
 ___
 
@@ -218,7 +218,7 @@ content of the review
 
 #### Defined in
 
-main.ts:175764
+[main.ts:175644](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L175644)
 
 ___
 
@@ -234,7 +234,7 @@ subtitle of the review
 
 #### Defined in
 
-main.ts:175749
+[main.ts:175629](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L175629)
 
 ___
 
@@ -250,7 +250,7 @@ title of the review
 
 #### Defined in
 
-main.ts:175760
+[main.ts:175640](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L175640)
 
 ___
 
@@ -266,7 +266,7 @@ URL to the review
 
 #### Defined in
 
-main.ts:175762
+[main.ts:175642](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L175642)
 
 ___
 
@@ -282,7 +282,7 @@ user profile of the reviewer
 
 #### Defined in
 
-main.ts:175758
+[main.ts:175638](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L175638)
 
 ___
 
@@ -298,7 +298,7 @@ indicates whether the review has the “Verified Purchase” mark
 
 #### Defined in
 
-main.ts:175747
+[main.ts:175627](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L175627)
 
 ___
 
@@ -314,7 +314,7 @@ videos of the product submitted by the reviewer
 
 #### Defined in
 
-main.ts:175756
+[main.ts:175636](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L175636)
 
 ___
 
@@ -330,7 +330,7 @@ the XPath of the element
 
 #### Defined in
 
-main.ts:175745
+[main.ts:175625](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L175625)
 
 ## Methods
 
@@ -354,7 +354,7 @@ main.ts:175745
 
 #### Defined in
 
-main.ts:175780
+[main.ts:175660](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L175660)
 
 ___
 
@@ -378,7 +378,7 @@ ___
 
 #### Defined in
 
-main.ts:175820
+[main.ts:175700](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L175700)
 
 ___
 
@@ -402,4 +402,4 @@ ___
 
 #### Defined in
 
-main.ts:175813
+[main.ts:175693](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L175693)

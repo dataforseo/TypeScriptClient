@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IMonthlySearches
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IMonthlySearches
 
 # Interface: IMonthlySearches
 
@@ -28,7 +28,7 @@ month
 
 #### Defined in
 
-main.ts:78997
+[main.ts:78853](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L78853)
 
 ___
 
@@ -40,7 +40,7 @@ monthly average search volume rate
 
 #### Defined in
 
-main.ts:78999
+[main.ts:78855](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L78855)
 
 ___
 
@@ -52,4 +52,4 @@ year
 
 #### Defined in
 
-main.ts:78995
+[main.ts:78851](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L78851)

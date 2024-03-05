@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IProductInformationTextRow
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IProductInformationTextRow
 
 # Interface: IProductInformationTextRow
 
@@ -32,4 +32,4 @@ text specified under the given title within the section_name
 
 #### Defined in
 
-main.ts:172771
+[main.ts:172651](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L172651)

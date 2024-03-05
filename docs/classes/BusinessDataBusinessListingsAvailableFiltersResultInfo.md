@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / BusinessDataBusinessListingsAvailableFiltersResultInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / BusinessDataBusinessListingsAvailableFiltersResultInfo
 
 # Class: BusinessDataBusinessListingsAvailableFiltersResultInfo
 
@@ -45,7 +45,7 @@
 
 #### Defined in
 
-main.ts:188296
+[main.ts:188176](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L188176)
 
 ## Properties
 
@@ -63,7 +63,7 @@ main.ts:188296
 
 #### Defined in
 
-main.ts:188292
+[main.ts:188172](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L188172)
 
 ___
 
@@ -81,7 +81,7 @@ ___
 
 #### Defined in
 
-main.ts:188291
+[main.ts:188171](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L188171)
 
 ## Methods
 
@@ -101,7 +101,7 @@ main.ts:188291
 
 #### Defined in
 
-main.ts:188305
+[main.ts:188185](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L188185)
 
 ___
 
@@ -121,7 +121,7 @@ ___
 
 #### Defined in
 
-main.ts:188335
+[main.ts:188215](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L188215)
 
 ___
 
@@ -141,4 +141,4 @@ ___
 
 #### Defined in
 
-main.ts:188328
+[main.ts:188208](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L188208)

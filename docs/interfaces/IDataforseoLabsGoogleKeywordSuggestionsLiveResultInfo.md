@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IDataforseoLabsGoogleKeywordSuggestionsLiveResultInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IDataforseoLabsGoogleKeywordSuggestionsLiveResultInfo
 
 # Interface: IDataforseoLabsGoogleKeywordSuggestionsLiveResultInfo
 
@@ -35,7 +35,7 @@ contains keywords and related data
 
 #### Defined in
 
-main.ts:81203
+[main.ts:81059](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L81059)
 
 ___
 
@@ -47,7 +47,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:81195
+[main.ts:81051](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L81051)
 
 ___
 
@@ -59,7 +59,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:81191
+[main.ts:81047](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L81047)
 
 ___
 
@@ -71,7 +71,7 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:81189
+[main.ts:81045](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L81045)
 
 ___
 
@@ -83,7 +83,7 @@ current offset value
 
 #### Defined in
 
-main.ts:81197
+[main.ts:81053](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L81053)
 
 ___
 
@@ -97,7 +97,7 @@ note: offset_token values are unique for each subsequent task
 
 #### Defined in
 
-main.ts:81201
+[main.ts:81057](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L81057)
 
 ___
 
@@ -109,7 +109,7 @@ search engine type
 
 #### Defined in
 
-main.ts:81182
+[main.ts:81038](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L81038)
 
 ___
 
@@ -121,7 +121,7 @@ keyword in a POST array
 
 #### Defined in
 
-main.ts:81184
+[main.ts:81040](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L81040)
 
 ___
 
@@ -138,7 +138,7 @@ fields in this object are identical to those of the items array
 
 #### Defined in
 
-main.ts:81187
+[main.ts:81043](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L81043)
 
 ___
 
@@ -150,4 +150,4 @@ total amount of results in our database relevant to your request
 
 #### Defined in
 
-main.ts:81193
+[main.ts:81049](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L81049)

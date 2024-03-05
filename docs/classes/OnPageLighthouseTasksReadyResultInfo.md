@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / OnPageLighthouseTasksReadyResultInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / OnPageLighthouseTasksReadyResultInfo
 
 # Class: OnPageLighthouseTasksReadyResultInfo
 
@@ -46,7 +46,7 @@
 
 #### Defined in
 
-main.ts:154570
+[main.ts:154426](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L154426)
 
 ## Properties
 
@@ -62,7 +62,7 @@ URL for collecting the results of the OnPage Lighthouse JSON task
 
 #### Defined in
 
-main.ts:154566
+[main.ts:154422](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L154422)
 
 ___
 
@@ -79,7 +79,7 @@ unique task identifier in our system in the UUID format
 
 #### Defined in
 
-main.ts:154562
+[main.ts:154418](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L154418)
 
 ___
 
@@ -95,7 +95,7 @@ user-defined task identifier
 
 #### Defined in
 
-main.ts:154564
+[main.ts:154420](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L154420)
 
 ## Methods
 
@@ -115,7 +115,7 @@ main.ts:154564
 
 #### Defined in
 
-main.ts:154579
+[main.ts:154435](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L154435)
 
 ___
 
@@ -135,7 +135,7 @@ ___
 
 #### Defined in
 
-main.ts:154598
+[main.ts:154454](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L154454)
 
 ___
 
@@ -155,4 +155,4 @@ ___
 
 #### Defined in
 
-main.ts:154591
+[main.ts:154447](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L154447)

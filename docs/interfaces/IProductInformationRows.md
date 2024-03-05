@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IProductInformationRows
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IProductInformationRows
 
 # Interface: IProductInformationRows
 
@@ -28,7 +28,7 @@ rows containing related product information
 
 #### Defined in
 
-main.ts:172841
+[main.ts:172721](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L172721)
 
 ___
 
@@ -40,7 +40,7 @@ title under which related product information appears on the Amazon product page
 
 #### Defined in
 
-main.ts:172839
+[main.ts:172719](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L172719)
 
 ___
 
@@ -52,4 +52,4 @@ type of element
 
 #### Defined in
 
-main.ts:172837
+[main.ts:172717](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L172717)

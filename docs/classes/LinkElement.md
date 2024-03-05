@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / LinkElement
+[dataforseo-client](../README.md) / [Exports](../modules.md) / LinkElement
 
 # Class: LinkElement
 
@@ -50,7 +50,7 @@
 
 #### Defined in
 
-main.ts:21073
+[main.ts:21073](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L21073)
 
 ## Properties
 
@@ -66,7 +66,7 @@ description of the results element
 
 #### Defined in
 
-main.ts:21063
+[main.ts:21063](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L21063)
 
 ___
 
@@ -82,7 +82,7 @@ domain where a link points
 
 #### Defined in
 
-main.ts:21067
+[main.ts:21067](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L21067)
 
 ___
 
@@ -98,7 +98,7 @@ text alongside the link title
 
 #### Defined in
 
-main.ts:21061
+[main.ts:21061](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L21061)
 
 ___
 
@@ -114,7 +114,7 @@ title of a given link element
 
 #### Defined in
 
-main.ts:21059
+[main.ts:21059](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L21059)
 
 ___
 
@@ -130,7 +130,7 @@ type of element
 
 #### Defined in
 
-main.ts:21057
+[main.ts:21057](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L21057)
 
 ___
 
@@ -146,7 +146,7 @@ URL
 
 #### Defined in
 
-main.ts:21065
+[main.ts:21065](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L21065)
 
 ___
 
@@ -162,7 +162,7 @@ the XPath of the element
 
 #### Defined in
 
-main.ts:21069
+[main.ts:21069](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L21069)
 
 ## Methods
 
@@ -182,7 +182,7 @@ main.ts:21069
 
 #### Defined in
 
-main.ts:21082
+[main.ts:21082](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L21082)
 
 ___
 
@@ -202,7 +202,7 @@ ___
 
 #### Defined in
 
-main.ts:21105
+[main.ts:21105](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L21105)
 
 ___
 
@@ -222,4 +222,4 @@ ___
 
 #### Defined in
 
-main.ts:21098
+[main.ts:21098](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L21098)

@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / KnowledgeGraphRowItemSerpElementItem
+[dataforseo-client](../README.md) / [Exports](../modules.md) / KnowledgeGraphRowItemSerpElementItem
 
 # Class: KnowledgeGraphRowItemSerpElementItem
 
@@ -63,7 +63,7 @@
 
 #### Defined in
 
-main.ts:26917
+[main.ts:26775](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L26775)
 
 ## Properties
 
@@ -77,7 +77,7 @@ main.ts:26917
 
 #### Defined in
 
-main.ts:19337
+[main.ts:19337](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L19337)
 
 ___
 
@@ -95,7 +95,7 @@ kc:/common/topic:social media presence
 
 #### Defined in
 
-main.ts:26905
+[main.ts:26763](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L26763)
 
 ___
 
@@ -111,7 +111,7 @@ links featured in the faq_box_element
 
 #### Defined in
 
-main.ts:26909
+[main.ts:26767](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L26767)
 
 ___
 
@@ -129,7 +129,7 @@ left, right
 
 #### Defined in
 
-main.ts:26897
+[main.ts:26755](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L26755)
 
 ___
 
@@ -146,7 +146,7 @@ absolute position among all the elements in SERP
 
 #### Defined in
 
-main.ts:26893
+[main.ts:26751](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L26751)
 
 ___
 
@@ -164,7 +164,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-main.ts:26890
+[main.ts:26748](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L26748)
 
 ___
 
@@ -182,7 +182,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 #### Defined in
 
-main.ts:26913
+[main.ts:26771](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L26771)
 
 ___
 
@@ -198,7 +198,7 @@ row content
 
 #### Defined in
 
-main.ts:26907
+[main.ts:26765](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L26765)
 
 ___
 
@@ -214,7 +214,7 @@ title of the item
 
 #### Defined in
 
-main.ts:26901
+[main.ts:26759](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L26759)
 
 ___
 
@@ -230,7 +230,7 @@ the XPath of the element
 
 #### Defined in
 
-main.ts:26899
+[main.ts:26757](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L26757)
 
 ## Methods
 
@@ -254,7 +254,7 @@ main.ts:26899
 
 #### Defined in
 
-main.ts:26922
+[main.ts:26780](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L26780)
 
 ___
 
@@ -278,7 +278,7 @@ ___
 
 #### Defined in
 
-main.ts:26952
+[main.ts:26810](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L26810)
 
 ___
 
@@ -302,4 +302,4 @@ ___
 
 #### Defined in
 
-main.ts:26945
+[main.ts:26803](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L26803)

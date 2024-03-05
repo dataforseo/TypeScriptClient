@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / AppendixErrorsResultInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / AppendixErrorsResultInfo
 
 # Class: AppendixErrorsResultInfo
 
@@ -45,7 +45,7 @@
 
 #### Defined in
 
-main.ts:212476
+[main.ts:212356](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L212356)
 
 ## Properties
 
@@ -61,7 +61,7 @@ code
 
 #### Defined in
 
-main.ts:212470
+[main.ts:212350](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L212350)
 
 ___
 
@@ -77,7 +77,7 @@ message
 
 #### Defined in
 
-main.ts:212472
+[main.ts:212352](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L212352)
 
 ## Methods
 
@@ -97,7 +97,7 @@ main.ts:212472
 
 #### Defined in
 
-main.ts:212485
+[main.ts:212365](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L212365)
 
 ___
 
@@ -117,7 +117,7 @@ ___
 
 #### Defined in
 
-main.ts:212503
+[main.ts:212383](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L212383)
 
 ___
 
@@ -137,4 +137,4 @@ ___
 
 #### Defined in
 
-main.ts:212496
+[main.ts:212376](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L212376)

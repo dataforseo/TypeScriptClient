@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / GoogleFlightsSerpElementItem
+[dataforseo-client](../README.md) / [Exports](../modules.md) / GoogleFlightsSerpElementItem
 
 # Class: GoogleFlightsSerpElementItem
 
@@ -62,7 +62,7 @@
 
 #### Defined in
 
-main.ts:30833
+[main.ts:30691](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L30691)
 
 ## Properties
 
@@ -76,7 +76,7 @@ main.ts:30833
 
 #### Defined in
 
-main.ts:19337
+[main.ts:19337](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L19337)
 
 ___
 
@@ -92,7 +92,7 @@ contains results featured in the ‘hotels_pack’ element of SERP
 
 #### Defined in
 
-main.ts:30825
+[main.ts:30683](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L30683)
 
 ___
 
@@ -110,7 +110,7 @@ left, right
 
 #### Defined in
 
-main.ts:30817
+[main.ts:30675](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L30675)
 
 ___
 
@@ -127,7 +127,7 @@ absolute position among all the elements in SERP
 
 #### Defined in
 
-main.ts:30813
+[main.ts:30671](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L30671)
 
 ___
 
@@ -145,7 +145,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-main.ts:30810
+[main.ts:30668](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L30668)
 
 ___
 
@@ -163,7 +163,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 #### Defined in
 
-main.ts:30829
+[main.ts:30687](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L30687)
 
 ___
 
@@ -179,7 +179,7 @@ title of a given link element
 
 #### Defined in
 
-main.ts:30821
+[main.ts:30679](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L30679)
 
 ___
 
@@ -195,7 +195,7 @@ URL
 
 #### Defined in
 
-main.ts:30823
+[main.ts:30681](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L30681)
 
 ___
 
@@ -211,7 +211,7 @@ the XPath of the element
 
 #### Defined in
 
-main.ts:30819
+[main.ts:30677](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L30677)
 
 ## Methods
 
@@ -235,7 +235,7 @@ main.ts:30819
 
 #### Defined in
 
-main.ts:30838
+[main.ts:30696](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L30696)
 
 ___
 
@@ -259,7 +259,7 @@ ___
 
 #### Defined in
 
-main.ts:30867
+[main.ts:30725](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L30725)
 
 ___
 
@@ -283,4 +283,4 @@ ___
 
 #### Defined in
 
-main.ts:30860
+[main.ts:30718](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L30718)

@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IBacklinksBulkRanksLiveItem
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IBacklinksBulkRanksLiveItem
 
 # Interface: IBacklinksBulkRanksLiveItem
 
@@ -29,7 +29,7 @@ learn more about the metric and how it is calculated in this help center article
 
 #### Defined in
 
-main.ts:139602
+[main.ts:139458](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L139458)
 
 ___
 
@@ -41,4 +41,4 @@ domain, subdomain or webpage from a POST array
 
 #### Defined in
 
-main.ts:139598
+[main.ts:139454](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L139454)

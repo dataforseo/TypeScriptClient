@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / SerpInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / SerpInfo
 
 # Class: SerpInfo
 
@@ -49,7 +49,7 @@
 
 #### Defined in
 
-main.ts:79495
+[main.ts:79351](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L79351)
 
 ## Properties
 
@@ -66,7 +66,7 @@ you can use it to make sure that we provided accurate results
 
 #### Defined in
 
-main.ts:79473
+[main.ts:79329](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L79329)
 
 ___
 
@@ -85,7 +85,7 @@ example:
 
 #### Defined in
 
-main.ts:79486
+[main.ts:79342](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L79342)
 
 ___
 
@@ -104,7 +104,7 @@ example:
 
 #### Defined in
 
-main.ts:79491
+[main.ts:79347](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L79347)
 
 ___
 
@@ -120,7 +120,7 @@ number of search results for the returned keyword
 
 #### Defined in
 
-main.ts:79481
+[main.ts:79337](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L79337)
 
 ___
 
@@ -136,7 +136,7 @@ search engine type
 
 #### Defined in
 
-main.ts:79470
+[main.ts:79326](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L79326)
 
 ___
 
@@ -156,7 +156,7 @@ note that the actual results will be returned only for organic, paid, featured_s
 
 #### Defined in
 
-main.ts:79479
+[main.ts:79335](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L79335)
 
 ## Methods
 
@@ -176,7 +176,7 @@ main.ts:79479
 
 #### Defined in
 
-main.ts:79504
+[main.ts:79360](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L79360)
 
 ___
 
@@ -196,7 +196,7 @@ ___
 
 #### Defined in
 
-main.ts:79530
+[main.ts:79386](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L79386)
 
 ___
 
@@ -216,4 +216,4 @@ ___
 
 #### Defined in
 
-main.ts:79523
+[main.ts:79379](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L79379)

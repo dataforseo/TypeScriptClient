@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IMathSolverExpandedElement
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IMathSolverExpandedElement
 
 # Interface: IMathSolverExpandedElement
 
@@ -29,7 +29,7 @@ displays steps to solve the mathematical equation as specified in the element
 
 #### Defined in
 
-main.ts:34103
+[main.ts:33961](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L33961)
 
 ___
 
@@ -41,7 +41,7 @@ title of a given link element
 
 #### Defined in
 
-main.ts:34100
+[main.ts:33958](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L33958)
 
 ___
 
@@ -53,4 +53,4 @@ type of element
 
 #### Defined in
 
-main.ts:34098
+[main.ts:33956](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L33956)

@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / KeywordAnnotations
+[dataforseo-client](../README.md) / [Exports](../modules.md) / KeywordAnnotations
 
 # Class: KeywordAnnotations
 
@@ -44,7 +44,7 @@
 
 #### Defined in
 
-main.ts:115158
+[main.ts:115014](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L115014)
 
 ## Properties
 
@@ -60,7 +60,7 @@ the list of concepts for the keyword
 
 #### Defined in
 
-main.ts:115154
+[main.ts:115010](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L115010)
 
 ## Methods
 
@@ -80,7 +80,7 @@ main.ts:115154
 
 #### Defined in
 
-main.ts:115167
+[main.ts:115023](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L115023)
 
 ___
 
@@ -100,7 +100,7 @@ ___
 
 #### Defined in
 
-main.ts:115188
+[main.ts:115044](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L115044)
 
 ___
 
@@ -120,4 +120,4 @@ ___
 
 #### Defined in
 
-main.ts:115181
+[main.ts:115037](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L115037)

@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / MerchantAmazonReviewsTaskGetHtmlResultInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / MerchantAmazonReviewsTaskGetHtmlResultInfo
 
 # Class: MerchantAmazonReviewsTaskGetHtmlResultInfo
 
@@ -51,7 +51,7 @@
 
 #### Defined in
 
-main.ts:176203
+[main.ts:176083](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L176083)
 
 ## Properties
 
@@ -70,7 +70,7 @@ example:
 
 #### Defined in
 
-main.ts:176195
+[main.ts:176075](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L176075)
 
 ___
 
@@ -86,7 +86,7 @@ HTML pages and related data
 
 #### Defined in
 
-main.ts:176199
+[main.ts:176079](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L176079)
 
 ___
 
@@ -102,7 +102,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:176197
+[main.ts:176077](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L176077)
 
 ___
 
@@ -118,7 +118,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:176190
+[main.ts:176070](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L176070)
 
 ___
 
@@ -134,7 +134,7 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:176188
+[main.ts:176068](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L176068)
 
 ___
 
@@ -150,7 +150,7 @@ ASIN received in a POST array
 
 #### Defined in
 
-main.ts:176182
+[main.ts:176062](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L176062)
 
 ___
 
@@ -166,7 +166,7 @@ search engine domain in a POST array
 
 #### Defined in
 
-main.ts:176186
+[main.ts:176066](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L176066)
 
 ___
 
@@ -182,7 +182,7 @@ type of element
 
 #### Defined in
 
-main.ts:176184
+[main.ts:176064](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L176064)
 
 ## Methods
 
@@ -202,7 +202,7 @@ main.ts:176184
 
 #### Defined in
 
-main.ts:176212
+[main.ts:176092](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L176092)
 
 ___
 
@@ -222,7 +222,7 @@ ___
 
 #### Defined in
 
-main.ts:176240
+[main.ts:176120](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L176120)
 
 ___
 
@@ -242,4 +242,4 @@ ___
 
 #### Defined in
 
-main.ts:176233
+[main.ts:176113](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L176113)

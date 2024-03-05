@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / BaseOnPageLinkItemInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / BaseOnPageLinkItemInfo
 
 # Class: BaseOnPageLinkItemInfo
 
@@ -56,7 +56,7 @@
 
 #### Defined in
 
-main.ts:20316
+[main.ts:20316](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L20316)
 
 ## Properties
 
@@ -66,7 +66,7 @@ main.ts:20316
 
 #### Defined in
 
-main.ts:20314
+[main.ts:20314](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L20314)
 
 ## Methods
 
@@ -86,7 +86,7 @@ main.ts:20314
 
 #### Defined in
 
-main.ts:20326
+[main.ts:20326](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L20326)
 
 ___
 
@@ -106,7 +106,7 @@ ___
 
 #### Defined in
 
-main.ts:20362
+[main.ts:20362](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L20362)
 
 ___
 
@@ -126,4 +126,4 @@ ___
 
 #### Defined in
 
-main.ts:20335
+[main.ts:20335](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L20335)

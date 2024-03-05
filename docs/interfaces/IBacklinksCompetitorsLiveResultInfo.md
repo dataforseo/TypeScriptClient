@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IBacklinksCompetitorsLiveResultInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IBacklinksCompetitorsLiveResultInfo
 
 # Interface: IBacklinksCompetitorsLiveResultInfo
 
@@ -28,7 +28,7 @@ items array
 
 #### Defined in
 
-main.ts:136402
+[main.ts:136258](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L136258)
 
 ___
 
@@ -40,7 +40,7 @@ number of items in the items array
 
 #### Defined in
 
-main.ts:136400
+[main.ts:136256](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L136256)
 
 ___
 
@@ -52,4 +52,4 @@ total number of relevant items in the database
 
 #### Defined in
 
-main.ts:136398
+[main.ts:136254](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L136254)

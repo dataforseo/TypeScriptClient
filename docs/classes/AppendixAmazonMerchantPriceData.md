@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / AppendixAmazonMerchantPriceData
+[dataforseo-client](../README.md) / [Exports](../modules.md) / AppendixAmazonMerchantPriceData
 
 # Class: AppendixAmazonMerchantPriceData
 
@@ -46,7 +46,7 @@
 
 #### Defined in
 
-main.ts:210549
+[main.ts:210429](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L210429)
 
 ## Properties
 
@@ -60,7 +60,7 @@ main.ts:210549
 
 #### Defined in
 
-main.ts:210543
+[main.ts:210423](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L210423)
 
 ___
 
@@ -74,7 +74,7 @@ ___
 
 #### Defined in
 
-main.ts:210544
+[main.ts:210424](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L210424)
 
 ___
 
@@ -88,7 +88,7 @@ ___
 
 #### Defined in
 
-main.ts:210545
+[main.ts:210425](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L210425)
 
 ## Methods
 
@@ -108,7 +108,7 @@ main.ts:210545
 
 #### Defined in
 
-main.ts:210558
+[main.ts:210438](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L210438)
 
 ___
 
@@ -128,7 +128,7 @@ ___
 
 #### Defined in
 
-main.ts:210577
+[main.ts:210457](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L210457)
 
 ___
 
@@ -148,4 +148,4 @@ ___
 
 #### Defined in
 
-main.ts:210570
+[main.ts:210450](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L210450)

@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / BacklinksTimeseriesNewLostSummaryLiveResultInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / BacklinksTimeseriesNewLostSummaryLiveResultInfo
 
 # Class: BacklinksTimeseriesNewLostSummaryLiveResultInfo
 
@@ -49,7 +49,7 @@
 
 #### Defined in
 
-main.ts:139253
+[main.ts:139109](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L139109)
 
 ## Properties
 
@@ -68,7 +68,7 @@ example:
 
 #### Defined in
 
-main.ts:139238
+[main.ts:139094](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L139094)
 
 ___
 
@@ -87,7 +87,7 @@ example:
 
 #### Defined in
 
-main.ts:139243
+[main.ts:139099](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L139099)
 
 ___
 
@@ -103,7 +103,7 @@ group_range from the POST array
 
 #### Defined in
 
-main.ts:139245
+[main.ts:139101](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L139101)
 
 ___
 
@@ -119,7 +119,7 @@ contains relevant backlinks and referring domains data
 
 #### Defined in
 
-main.ts:139249
+[main.ts:139105](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L139105)
 
 ___
 
@@ -135,7 +135,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:139247
+[main.ts:139103](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L139103)
 
 ___
 
@@ -151,7 +151,7 @@ target from a POST array
 
 #### Defined in
 
-main.ts:139233
+[main.ts:139089](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L139089)
 
 ## Methods
 
@@ -171,7 +171,7 @@ main.ts:139233
 
 #### Defined in
 
-main.ts:139262
+[main.ts:139118](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L139118)
 
 ___
 
@@ -191,7 +191,7 @@ ___
 
 #### Defined in
 
-main.ts:139288
+[main.ts:139144](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L139144)
 
 ___
 
@@ -211,4 +211,4 @@ ___
 
 #### Defined in
 
-main.ts:139281
+[main.ts:139137](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L139137)

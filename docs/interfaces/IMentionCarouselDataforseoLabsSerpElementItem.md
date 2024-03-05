@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IMentionCarouselDataforseoLabsSerpElementItem
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IMentionCarouselDataforseoLabsSerpElementItem
 
 # Interface: IMentionCarouselDataforseoLabsSerpElementItem
 
@@ -37,7 +37,7 @@ elements of search results found in SERP
 
 #### Defined in
 
-main.ts:95194
+[main.ts:95050](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L95050)
 
 ___
 
@@ -51,7 +51,7 @@ left, right
 
 #### Defined in
 
-main.ts:95188
+[main.ts:95044](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L95044)
 
 ___
 
@@ -64,7 +64,7 @@ absolute position among all the elements in SERP
 
 #### Defined in
 
-main.ts:95184
+[main.ts:95040](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L95040)
 
 ___
 
@@ -77,7 +77,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-main.ts:95181
+[main.ts:95037](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L95037)
 
 ___
 
@@ -89,7 +89,7 @@ title of the result in SERP
 
 #### Defined in
 
-main.ts:95192
+[main.ts:95048](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L95048)
 
 ___
 
@@ -101,4 +101,4 @@ the XPath of the element
 
 #### Defined in
 
-main.ts:95190
+[main.ts:95046](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L95046)

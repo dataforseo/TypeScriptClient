@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / WorkTimeInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / WorkTimeInfo
 
 # Class: WorkTimeInfo
 
@@ -45,7 +45,7 @@
 
 #### Defined in
 
-main.ts:20588
+[main.ts:20588](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L20588)
 
 ## Properties
 
@@ -61,7 +61,7 @@ hours in the 24-hour format
 
 #### Defined in
 
-main.ts:20582
+[main.ts:20582](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L20582)
 
 ___
 
@@ -77,7 +77,7 @@ minutes
 
 #### Defined in
 
-main.ts:20584
+[main.ts:20584](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L20584)
 
 ## Methods
 
@@ -97,7 +97,7 @@ main.ts:20584
 
 #### Defined in
 
-main.ts:20597
+[main.ts:20597](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L20597)
 
 ___
 
@@ -117,7 +117,7 @@ ___
 
 #### Defined in
 
-main.ts:20615
+[main.ts:20615](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L20615)
 
 ___
 
@@ -137,4 +137,4 @@ ___
 
 #### Defined in
 
-main.ts:20608
+[main.ts:20608](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L20608)

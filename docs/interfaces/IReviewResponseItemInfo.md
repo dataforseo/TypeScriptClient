@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IReviewResponseItemInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IReviewResponseItemInfo
 
 # Interface: IReviewResponseItemInfo
 
@@ -28,7 +28,7 @@ the content of response
 
 #### Defined in
 
-main.ts:20303
+[main.ts:20303](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L20303)
 
 ___
 
@@ -40,7 +40,7 @@ the time of publication
 
 #### Defined in
 
-main.ts:20305
+[main.ts:20305](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L20305)
 
 ___
 
@@ -52,4 +52,4 @@ the title of response
 
 #### Defined in
 
-main.ts:20301
+[main.ts:20301](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L20301)

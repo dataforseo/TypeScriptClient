@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / OnPageForceStopRequestInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / OnPageForceStopRequestInfo
 
 # Class: OnPageForceStopRequestInfo
 
@@ -44,7 +44,7 @@
 
 #### Defined in
 
-main.ts:142280
+[main.ts:142136](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L142136)
 
 ## Properties
 
@@ -65,7 +65,7 @@ note: you can set up to 1000 id values as separate objects in the POST array
 
 #### Defined in
 
-main.ts:142276
+[main.ts:142132](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L142132)
 
 ## Methods
 
@@ -85,7 +85,7 @@ main.ts:142276
 
 #### Defined in
 
-main.ts:142289
+[main.ts:142145](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L142145)
 
 ___
 
@@ -105,7 +105,7 @@ ___
 
 #### Defined in
 
-main.ts:142306
+[main.ts:142162](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L142162)
 
 ___
 
@@ -125,4 +125,4 @@ ___
 
 #### Defined in
 
-main.ts:142299
+[main.ts:142155](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L142155)

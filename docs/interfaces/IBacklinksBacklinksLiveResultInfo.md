@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IBacklinksBacklinksLiveResultInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IBacklinksBacklinksLiveResultInfo
 
 # Interface: IBacklinksBacklinksLiveResultInfo
 
@@ -36,7 +36,7 @@ custom mode specified in a POST array
 
 #### Defined in
 
-main.ts:131704
+[main.ts:131560](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L131560)
 
 ___
 
@@ -48,7 +48,7 @@ contains relevant backlinks and referring domains data
 
 #### Defined in
 
-main.ts:131710
+[main.ts:131566](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L131566)
 
 ___
 
@@ -60,7 +60,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:131708
+[main.ts:131564](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L131564)
 
 ___
 
@@ -72,7 +72,7 @@ mode specified in a POST array
 
 #### Defined in
 
-main.ts:131702
+[main.ts:131558](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L131558)
 
 ___
 
@@ -86,7 +86,7 @@ search_after_token values are unique for each subsequent task
 
 #### Defined in
 
-main.ts:131714
+[main.ts:131570](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L131570)
 
 ___
 
@@ -98,7 +98,7 @@ target domain in a POST array
 
 #### Defined in
 
-main.ts:131700
+[main.ts:131556](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L131556)
 
 ___
 
@@ -110,4 +110,4 @@ total amount of results relevant the request
 
 #### Defined in
 
-main.ts:131706
+[main.ts:131562](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L131562)

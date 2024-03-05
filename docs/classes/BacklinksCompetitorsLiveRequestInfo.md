@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / BacklinksCompetitorsLiveRequestInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / BacklinksCompetitorsLiveRequestInfo
 
 # Class: BacklinksCompetitorsLiveRequestInfo
 
@@ -51,7 +51,7 @@
 
 #### Defined in
 
-main.ts:136132
+[main.ts:135988](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L135988)
 
 ## Properties
 
@@ -70,7 +70,7 @@ default value: true
 
 #### Defined in
 
-main.ts:136122
+[main.ts:135978](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L135978)
 
 ___
 
@@ -98,7 +98,7 @@ The full list of possible filters is available here.
 
 #### Defined in
 
-main.ts:136098
+[main.ts:135954](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L135954)
 
 ___
 
@@ -117,7 +117,7 @@ maximum value: 1000
 
 #### Defined in
 
-main.ts:136079
+[main.ts:135935](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L135935)
 
 ___
 
@@ -136,7 +136,7 @@ default value: true
 
 #### Defined in
 
-main.ts:136117
+[main.ts:135973](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L135973)
 
 ___
 
@@ -155,7 +155,7 @@ if you specify the 10 value, the first ten domains in the results array will be 
 
 #### Defined in
 
-main.ts:136084
+[main.ts:135940](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L135940)
 
 ___
 
@@ -183,7 +183,7 @@ example:
 
 #### Defined in
 
-main.ts:136112
+[main.ts:135968](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L135968)
 
 ___
 
@@ -203,7 +203,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:136128
+[main.ts:135984](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L135984)
 
 ___
 
@@ -222,7 +222,7 @@ a page should be specified with absolute URL (including http:// or https://)
 
 #### Defined in
 
-main.ts:136074
+[main.ts:135930](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L135930)
 
 ## Methods
 
@@ -242,7 +242,7 @@ main.ts:136074
 
 #### Defined in
 
-main.ts:136141
+[main.ts:135997](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L135997)
 
 ___
 
@@ -262,7 +262,7 @@ ___
 
 #### Defined in
 
-main.ts:136173
+[main.ts:136029](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L136029)
 
 ___
 
@@ -282,4 +282,4 @@ ___
 
 #### Defined in
 
-main.ts:136166
+[main.ts:136022](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L136022)

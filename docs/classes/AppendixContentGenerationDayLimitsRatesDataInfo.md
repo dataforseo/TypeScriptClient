@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / AppendixContentGenerationDayLimitsRatesDataInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / AppendixContentGenerationDayLimitsRatesDataInfo
 
 # Class: AppendixContentGenerationDayLimitsRatesDataInfo
 
@@ -45,7 +45,7 @@
 
 #### Defined in
 
-main.ts:208522
+[main.ts:208402](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L208402)
 
 ## Properties
 
@@ -59,7 +59,7 @@ main.ts:208522
 
 #### Defined in
 
-main.ts:208518
+[main.ts:208398](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L208398)
 
 ___
 
@@ -73,7 +73,7 @@ ___
 
 #### Defined in
 
-main.ts:208517
+[main.ts:208397](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L208397)
 
 ## Methods
 
@@ -93,7 +93,7 @@ main.ts:208517
 
 #### Defined in
 
-main.ts:208531
+[main.ts:208411](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L208411)
 
 ___
 
@@ -113,7 +113,7 @@ ___
 
 #### Defined in
 
-main.ts:208549
+[main.ts:208429](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L208429)
 
 ___
 
@@ -133,4 +133,4 @@ ___
 
 #### Defined in
 
-main.ts:208542
+[main.ts:208422](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L208422)

@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / MerchantAmazonAsinTaskGetAdvancedResultInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / MerchantAmazonAsinTaskGetAdvancedResultInfo
 
 # Class: MerchantAmazonAsinTaskGetAdvancedResultInfo
 
@@ -53,7 +53,7 @@
 
 #### Defined in
 
-main.ts:173191
+[main.ts:173071](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L173071)
 
 ## Properties
 
@@ -71,7 +71,7 @@ learn more about the identified in this help center guide
 
 #### Defined in
 
-main.ts:173162
+[main.ts:173042](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L173042)
 
 ___
 
@@ -88,7 +88,7 @@ you can use it to make sure that we provided accurate results
 
 #### Defined in
 
-main.ts:173173
+[main.ts:173053](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L173053)
 
 ___
 
@@ -107,7 +107,7 @@ example:
 
 #### Defined in
 
-main.ts:173178
+[main.ts:173058](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L173058)
 
 ___
 
@@ -126,7 +126,7 @@ amazon_product_info
 
 #### Defined in
 
-main.ts:173183
+[main.ts:173063](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L173063)
 
 ___
 
@@ -142,7 +142,7 @@ Amazon product info items
 
 #### Defined in
 
-main.ts:173187
+[main.ts:173067](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L173067)
 
 ___
 
@@ -158,7 +158,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:173185
+[main.ts:173065](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L173065)
 
 ___
 
@@ -174,7 +174,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:173170
+[main.ts:173050](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L173050)
 
 ___
 
@@ -190,7 +190,7 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:173168
+[main.ts:173048](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L173048)
 
 ___
 
@@ -206,7 +206,7 @@ Amazon domain in a POST array
 
 #### Defined in
 
-main.ts:173166
+[main.ts:173046](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L173046)
 
 ___
 
@@ -222,7 +222,7 @@ type of element
 
 #### Defined in
 
-main.ts:173164
+[main.ts:173044](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L173044)
 
 ## Methods
 
@@ -242,7 +242,7 @@ main.ts:173164
 
 #### Defined in
 
-main.ts:173200
+[main.ts:173080](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L173080)
 
 ___
 
@@ -262,7 +262,7 @@ ___
 
 #### Defined in
 
-main.ts:173234
+[main.ts:173114](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L173114)
 
 ___
 
@@ -282,4 +282,4 @@ ___
 
 #### Defined in
 
-main.ts:173227
+[main.ts:173107](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L173107)

@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / ShoppingElement
+[dataforseo-client](../README.md) / [Exports](../modules.md) / ShoppingElement
 
 # Class: ShoppingElement
 
@@ -51,7 +51,7 @@
 
 #### Defined in
 
-main.ts:30561
+[main.ts:30419](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L30419)
 
 ## Properties
 
@@ -67,7 +67,7 @@ description of the results element in SERP
 
 #### Defined in
 
-main.ts:30547
+[main.ts:30405](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L30405)
 
 ___
 
@@ -86,7 +86,7 @@ by Google
 
 #### Defined in
 
-main.ts:30552
+[main.ts:30410](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L30410)
 
 ___
 
@@ -103,7 +103,7 @@ URL of the page on the marketplace website where the product is hosted
 
 #### Defined in
 
-main.ts:30555
+[main.ts:30413](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L30413)
 
 ___
 
@@ -119,7 +119,7 @@ price of booking a place for the specified dates of stay
 
 #### Defined in
 
-main.ts:30542
+[main.ts:30400](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L30400)
 
 ___
 
@@ -136,7 +136,7 @@ indicates the source of information included in the element
 
 #### Defined in
 
-main.ts:30545
+[main.ts:30403](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L30403)
 
 ___
 
@@ -152,7 +152,7 @@ title of the row
 
 #### Defined in
 
-main.ts:30540
+[main.ts:30398](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L30398)
 
 ___
 
@@ -168,7 +168,7 @@ type of element
 
 #### Defined in
 
-main.ts:30538
+[main.ts:30396](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L30396)
 
 ___
 
@@ -184,7 +184,7 @@ URL
 
 #### Defined in
 
-main.ts:30557
+[main.ts:30415](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L30415)
 
 ## Methods
 
@@ -204,7 +204,7 @@ main.ts:30557
 
 #### Defined in
 
-main.ts:30570
+[main.ts:30428](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L30428)
 
 ___
 
@@ -224,7 +224,7 @@ ___
 
 #### Defined in
 
-main.ts:30594
+[main.ts:30452](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L30452)
 
 ___
 
@@ -244,4 +244,4 @@ ___
 
 #### Defined in
 
-main.ts:30587
+[main.ts:30445](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L30445)

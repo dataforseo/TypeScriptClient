@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / DataforseoLabsGoogleSearchIntentLiveResultInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / DataforseoLabsGoogleSearchIntentLiveResultInfo
 
 # Class: DataforseoLabsGoogleSearchIntentLiveResultInfo
 
@@ -46,7 +46,7 @@
 
 #### Defined in
 
-main.ts:83077
+[main.ts:82933](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L82933)
 
 ## Properties
 
@@ -62,7 +62,7 @@ array of items with relevant traffic estimation data
 
 #### Defined in
 
-main.ts:83073
+[main.ts:82929](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L82929)
 
 ___
 
@@ -78,7 +78,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:83071
+[main.ts:82927](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L82927)
 
 ___
 
@@ -95,7 +95,7 @@ if there is no data, then the value is null
 
 #### Defined in
 
-main.ts:83069
+[main.ts:82925](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L82925)
 
 ## Methods
 
@@ -115,7 +115,7 @@ main.ts:83069
 
 #### Defined in
 
-main.ts:83086
+[main.ts:82942](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L82942)
 
 ___
 
@@ -135,7 +135,7 @@ ___
 
 #### Defined in
 
-main.ts:83109
+[main.ts:82965](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L82965)
 
 ___
 
@@ -155,4 +155,4 @@ ___
 
 #### Defined in
 
-main.ts:83102
+[main.ts:82958](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L82958)

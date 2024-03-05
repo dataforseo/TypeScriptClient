@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / DataforseoLabsGoogleKeywordsForCategoriesLiveResultInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / DataforseoLabsGoogleKeywordsForCategoriesLiveResultInfo
 
 # Class: DataforseoLabsGoogleKeywordsForCategoriesLiveResultInfo
 
@@ -52,7 +52,7 @@
 
 #### Defined in
 
-main.ts:84174
+[main.ts:84030](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L84030)
 
 ## Properties
 
@@ -68,7 +68,7 @@ contains keyword ideas and related data
 
 #### Defined in
 
-main.ts:84170
+[main.ts:84026](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L84026)
 
 ___
 
@@ -84,7 +84,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:84162
+[main.ts:84018](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L84018)
 
 ___
 
@@ -100,7 +100,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:84158
+[main.ts:84014](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L84014)
 
 ___
 
@@ -116,7 +116,7 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:84156
+[main.ts:84012](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L84012)
 
 ___
 
@@ -132,7 +132,7 @@ current offset value
 
 #### Defined in
 
-main.ts:84164
+[main.ts:84020](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L84020)
 
 ___
 
@@ -150,7 +150,7 @@ note: offset_token values are unique for each subsequent task
 
 #### Defined in
 
-main.ts:84168
+[main.ts:84024](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L84024)
 
 ___
 
@@ -166,7 +166,7 @@ search engine type
 
 #### Defined in
 
-main.ts:84152
+[main.ts:84008](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L84008)
 
 ___
 
@@ -182,7 +182,7 @@ categories in a POST array
 
 #### Defined in
 
-main.ts:84154
+[main.ts:84010](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L84010)
 
 ___
 
@@ -198,7 +198,7 @@ the total amount of results in our database relevant to your request
 
 #### Defined in
 
-main.ts:84160
+[main.ts:84016](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L84016)
 
 ## Methods
 
@@ -218,7 +218,7 @@ main.ts:84160
 
 #### Defined in
 
-main.ts:84183
+[main.ts:84039](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L84039)
 
 ___
 
@@ -238,7 +238,7 @@ ___
 
 #### Defined in
 
-main.ts:84216
+[main.ts:84072](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L84072)
 
 ___
 
@@ -258,4 +258,4 @@ ___
 
 #### Defined in
 
-main.ts:84209
+[main.ts:84065](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L84065)

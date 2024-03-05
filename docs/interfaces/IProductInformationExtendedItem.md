@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IProductInformationExtendedItem
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IProductInformationExtendedItem
 
 # Interface: IProductInformationExtendedItem
 
@@ -33,7 +33,7 @@ contains information specified about the product within the section_name
 
 #### Defined in
 
-main.ts:172903
+[main.ts:172783](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L172783)
 
 ___
 
@@ -45,4 +45,4 @@ name of the section related to product information specified in the contents
 
 #### Defined in
 
-main.ts:172901
+[main.ts:172781](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L172781)

@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IDataforseoLabsErrorsResultInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IDataforseoLabsErrorsResultInfo
 
 # Interface: IDataforseoLabsErrorsResultInfo
 
@@ -38,7 +38,7 @@ example:
 
 #### Defined in
 
-main.ts:77348
+[main.ts:77204](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L77204)
 
 ___
 
@@ -50,7 +50,7 @@ error code
 
 #### Defined in
 
-main.ts:77352
+[main.ts:77208](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L77208)
 
 ___
 
@@ -63,7 +63,7 @@ error message (see full list) or URL that caused an error
 
 #### Defined in
 
-main.ts:77355
+[main.ts:77211](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L77211)
 
 ___
 
@@ -75,7 +75,7 @@ corresponding API function
 
 #### Defined in
 
-main.ts:77350
+[main.ts:77206](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L77206)
 
 ___
 
@@ -87,7 +87,7 @@ HTTP status code
 
 #### Defined in
 
-main.ts:77362
+[main.ts:77218](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L77218)
 
 ___
 
@@ -99,7 +99,7 @@ HTTP method
 
 #### Defined in
 
-main.ts:77360
+[main.ts:77216](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L77216)
 
 ___
 
@@ -112,7 +112,7 @@ server response
 
 #### Defined in
 
-main.ts:77367
+[main.ts:77223](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L77223)
 
 ___
 
@@ -124,7 +124,7 @@ time taken by HTTP request
 
 #### Defined in
 
-main.ts:77364
+[main.ts:77220](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L77220)
 
 ___
 
@@ -137,7 +137,7 @@ URL you used for making an API call
 
 #### Defined in
 
-main.ts:77358
+[main.ts:77214](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L77214)
 
 ___
 
@@ -149,4 +149,4 @@ id of the task
 
 #### Defined in
 
-main.ts:77343
+[main.ts:77199](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L77199)

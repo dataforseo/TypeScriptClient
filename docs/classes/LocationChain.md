@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / LocationChain
+[dataforseo-client](../README.md) / [Exports](../modules.md) / LocationChain
 
 # Class: LocationChain
 
@@ -47,7 +47,7 @@
 
 #### Defined in
 
-main.ts:195689
+[main.ts:195569](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L195569)
 
 ## Properties
 
@@ -63,7 +63,7 @@ card identifier
 
 #### Defined in
 
-main.ts:195677
+[main.ts:195557](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L195557)
 
 ___
 
@@ -80,7 +80,7 @@ learn more about the identifier in this help center article
 
 #### Defined in
 
-main.ts:195683
+[main.ts:195563](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L195563)
 
 ___
 
@@ -97,7 +97,7 @@ learn more about the identifier in this help center article
 
 #### Defined in
 
-main.ts:195680
+[main.ts:195560](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L195560)
 
 ___
 
@@ -113,7 +113,7 @@ title of the element in the location chain
 
 #### Defined in
 
-main.ts:195685
+[main.ts:195565](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L195565)
 
 ## Methods
 
@@ -133,7 +133,7 @@ main.ts:195685
 
 #### Defined in
 
-main.ts:195698
+[main.ts:195578](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L195578)
 
 ___
 
@@ -153,7 +153,7 @@ ___
 
 #### Defined in
 
-main.ts:195718
+[main.ts:195598](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L195598)
 
 ___
 
@@ -173,4 +173,4 @@ ___
 
 #### Defined in
 
-main.ts:195711
+[main.ts:195591](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L195591)

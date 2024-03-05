@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / TopicInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / TopicInfo
 
 # Class: TopicInfo
 
@@ -50,7 +50,7 @@
 
 #### Defined in
 
-main.ts:152251
+[main.ts:152107](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L152107)
 
 ## Properties
 
@@ -66,7 +66,7 @@ content author name
 
 #### Defined in
 
-main.ts:152237
+[main.ts:152093](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L152093)
 
 ___
 
@@ -82,7 +82,7 @@ meta title
 
 #### Defined in
 
-main.ts:152233
+[main.ts:152089](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L152089)
 
 ___
 
@@ -98,7 +98,7 @@ content language
 
 #### Defined in
 
-main.ts:152239
+[main.ts:152095](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L152095)
 
 ___
 
@@ -114,7 +114,7 @@ HTML level
 
 #### Defined in
 
-main.ts:152241
+[main.ts:152097](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L152097)
 
 ___
 
@@ -130,7 +130,7 @@ main title of the block
 
 #### Defined in
 
-main.ts:152235
+[main.ts:152091](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L152091)
 
 ___
 
@@ -147,7 +147,7 @@ you can find more information about content priority calculation in this help ce
 
 #### Defined in
 
-main.ts:152244
+[main.ts:152100](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L152100)
 
 ___
 
@@ -164,7 +164,7 @@ you can find more information about content priority calculation in this help ce
 
 #### Defined in
 
-main.ts:152247
+[main.ts:152103](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L152103)
 
 ## Methods
 
@@ -184,7 +184,7 @@ main.ts:152247
 
 #### Defined in
 
-main.ts:152260
+[main.ts:152116](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L152116)
 
 ___
 
@@ -204,7 +204,7 @@ ___
 
 #### Defined in
 
-main.ts:152291
+[main.ts:152147](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L152147)
 
 ___
 
@@ -224,4 +224,4 @@ ___
 
 #### Defined in
 
-main.ts:152284
+[main.ts:152140](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L152140)

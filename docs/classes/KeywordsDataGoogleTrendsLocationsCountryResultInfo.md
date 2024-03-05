@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / KeywordsDataGoogleTrendsLocationsCountryResultInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / KeywordsDataGoogleTrendsLocationsCountryResultInfo
 
 # Class: KeywordsDataGoogleTrendsLocationsCountryResultInfo
 
@@ -50,7 +50,7 @@
 
 #### Defined in
 
-main.ts:119389
+[main.ts:119245](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L119245)
 
 ## Properties
 
@@ -66,7 +66,7 @@ ISO country code of the location
 
 #### Defined in
 
-main.ts:119376
+[main.ts:119232](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L119232)
 
 ___
 
@@ -83,7 +83,7 @@ you can use this field for matching obtained results with the location_code para
 
 #### Defined in
 
-main.ts:119385
+[main.ts:119241](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L119241)
 
 ___
 
@@ -100,7 +100,7 @@ you can use this field for matching obtained results with the location_name para
 
 #### Defined in
 
-main.ts:119382
+[main.ts:119238](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L119238)
 
 ___
 
@@ -116,7 +116,7 @@ location code
 
 #### Defined in
 
-main.ts:119363
+[main.ts:119219](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L119219)
 
 ___
 
@@ -139,7 +139,7 @@ where location_code_parent corresponds to:
 
 #### Defined in
 
-main.ts:119374
+[main.ts:119230](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L119230)
 
 ___
 
@@ -155,7 +155,7 @@ full name of the location
 
 #### Defined in
 
-main.ts:119365
+[main.ts:119221](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L119221)
 
 ___
 
@@ -172,7 +172,7 @@ possible values according to Google’s target types
 
 #### Defined in
 
-main.ts:119379
+[main.ts:119235](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L119235)
 
 ## Methods
 
@@ -192,7 +192,7 @@ main.ts:119379
 
 #### Defined in
 
-main.ts:119398
+[main.ts:119254](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L119254)
 
 ___
 
@@ -212,7 +212,7 @@ ___
 
 #### Defined in
 
-main.ts:119421
+[main.ts:119277](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L119277)
 
 ___
 
@@ -232,4 +232,4 @@ ___
 
 #### Defined in
 
-main.ts:119414
+[main.ts:119270](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L119270)

@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / BusinessDataBusinessListingsSearchLiveResultInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / BusinessDataBusinessListingsSearchLiveResultInfo
 
 # Class: BusinessDataBusinessListingsSearchLiveResultInfo
 
@@ -48,7 +48,7 @@
 
 #### Defined in
 
-main.ts:189499
+[main.ts:189379](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L189379)
 
 ## Properties
 
@@ -65,7 +65,7 @@ the number of items in the items array
 
 #### Defined in
 
-main.ts:189485
+[main.ts:189365](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L189365)
 
 ___
 
@@ -83,7 +83,7 @@ possible item types: business_listing
 
 #### Defined in
 
-main.ts:189495
+[main.ts:189375](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L189375)
 
 ___
 
@@ -99,7 +99,7 @@ offset in the results array of returned businesses
 
 #### Defined in
 
-main.ts:189487
+[main.ts:189367](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L189367)
 
 ___
 
@@ -117,7 +117,7 @@ offset_token values are unique for each subsequent task
 
 #### Defined in
 
-main.ts:189491
+[main.ts:189371](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L189371)
 
 ___
 
@@ -133,7 +133,7 @@ total number of results in our database relevant to your request
 
 #### Defined in
 
-main.ts:189482
+[main.ts:189362](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L189362)
 
 ## Methods
 
@@ -153,7 +153,7 @@ main.ts:189482
 
 #### Defined in
 
-main.ts:189508
+[main.ts:189388](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L189388)
 
 ___
 
@@ -173,7 +173,7 @@ ___
 
 #### Defined in
 
-main.ts:189533
+[main.ts:189413](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L189413)
 
 ___
 
@@ -193,4 +193,4 @@ ___
 
 #### Defined in
 
-main.ts:189526
+[main.ts:189406](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L189406)

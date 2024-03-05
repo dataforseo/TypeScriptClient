@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IPageSectionContentInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IPageSectionContentInfo
 
 # Interface: IPageSectionContentInfo
 
@@ -28,7 +28,7 @@ you can find more information about content priority calculation in this help ce
 
 #### Defined in
 
-main.ts:152223
+[main.ts:152079](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L152079)
 
 ___
 
@@ -41,4 +41,4 @@ you can find more information about content priority calculation in this help ce
 
 #### Defined in
 
-main.ts:152226
+[main.ts:152082](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L152082)

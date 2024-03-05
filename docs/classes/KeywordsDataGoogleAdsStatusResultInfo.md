@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / KeywordsDataGoogleAdsStatusResultInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / KeywordsDataGoogleAdsStatusResultInfo
 
 # Class: KeywordsDataGoogleAdsStatusResultInfo
 
@@ -47,7 +47,7 @@
 
 #### Defined in
 
-main.ts:113070
+[main.ts:112926](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L112926)
 
 ## Properties
 
@@ -66,7 +66,7 @@ if the value is false, we are not able to provide data for the previous month
 
 #### Defined in
 
-main.ts:113057
+[main.ts:112913](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L112913)
 
 ___
 
@@ -85,7 +85,7 @@ example:
 
 #### Defined in
 
-main.ts:113062
+[main.ts:112918](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L112918)
 
 ___
 
@@ -101,7 +101,7 @@ the latest month for which search volume data is available
 
 #### Defined in
 
-main.ts:113066
+[main.ts:112922](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L112922)
 
 ___
 
@@ -117,7 +117,7 @@ the latest year for which search volume data is available
 
 #### Defined in
 
-main.ts:113064
+[main.ts:112920](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L112920)
 
 ## Methods
 
@@ -137,7 +137,7 @@ main.ts:113064
 
 #### Defined in
 
-main.ts:113079
+[main.ts:112935](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L112935)
 
 ___
 
@@ -157,7 +157,7 @@ ___
 
 #### Defined in
 
-main.ts:113099
+[main.ts:112955](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L112955)
 
 ___
 
@@ -177,4 +177,4 @@ ___
 
 #### Defined in
 
-main.ts:113092
+[main.ts:112948](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L112948)

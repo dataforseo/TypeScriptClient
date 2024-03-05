@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / MonthlySearches
+[dataforseo-client](../README.md) / [Exports](../modules.md) / MonthlySearches
 
 # Class: MonthlySearches
 
@@ -46,7 +46,7 @@
 
 #### Defined in
 
-main.ts:78952
+[main.ts:78808](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L78808)
 
 ## Properties
 
@@ -62,7 +62,7 @@ month
 
 #### Defined in
 
-main.ts:78946
+[main.ts:78802](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L78802)
 
 ___
 
@@ -78,7 +78,7 @@ monthly average search volume rate
 
 #### Defined in
 
-main.ts:78948
+[main.ts:78804](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L78804)
 
 ___
 
@@ -94,7 +94,7 @@ year
 
 #### Defined in
 
-main.ts:78944
+[main.ts:78800](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L78800)
 
 ## Methods
 
@@ -114,7 +114,7 @@ main.ts:78944
 
 #### Defined in
 
-main.ts:78961
+[main.ts:78817](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L78817)
 
 ___
 
@@ -134,7 +134,7 @@ ___
 
 #### Defined in
 
-main.ts:78980
+[main.ts:78836](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L78836)
 
 ___
 
@@ -154,4 +154,4 @@ ___
 
 #### Defined in
 
-main.ts:78973
+[main.ts:78829](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L78829)

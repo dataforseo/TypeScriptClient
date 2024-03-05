@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IDataforseoLabsAppleAppIntersectionLiveRequestInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IDataforseoLabsAppleAppIntersectionLiveRequestInfo
 
 # Interface: IDataforseoLabsAppleAppIntersectionLiveRequestInfo
 
@@ -52,7 +52,7 @@ the maximum number of app IDs you can specify in this object is 20
 
 #### Defined in
 
-main.ts:112061
+[main.ts:111917](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L111917)
 
 ___
 
@@ -73,7 +73,7 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 #### Defined in
 
-main.ts:112108
+[main.ts:111964](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L111964)
 
 ___
 
@@ -92,7 +92,7 @@ en
 
 #### Defined in
 
-main.ts:112097
+[main.ts:111953](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L111953)
 
 ___
 
@@ -111,7 +111,7 @@ English
 
 #### Defined in
 
-main.ts:112088
+[main.ts:111944](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L111944)
 
 ___
 
@@ -126,7 +126,7 @@ maximum value: 1000
 
 #### Defined in
 
-main.ts:112130
+[main.ts:111986](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L111986)
 
 ___
 
@@ -145,7 +145,7 @@ example:
 
 #### Defined in
 
-main.ts:112079
+[main.ts:111935](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L111935)
 
 ___
 
@@ -164,7 +164,7 @@ United States
 
 #### Defined in
 
-main.ts:112070
+[main.ts:111926](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L111926)
 
 ___
 
@@ -179,7 +179,7 @@ if you specify the 10 value, the first ten keywords in the results array will be
 
 #### Defined in
 
-main.ts:112135
+[main.ts:111991](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L111991)
 
 ___
 
@@ -206,7 +206,7 @@ Note: if the item_types array contains item types that are different from organi
 
 #### Defined in
 
-main.ts:112125
+[main.ts:111981](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L111981)
 
 ___
 
@@ -222,4 +222,4 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:112141
+[main.ts:111997](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L111997)

@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / BusinessDataBusinessListingsCategoriesAggregationLiveItem
+[dataforseo-client](../README.md) / [Exports](../modules.md) / BusinessDataBusinessListingsCategoriesAggregationLiveItem
 
 # Class: BusinessDataBusinessListingsCategoriesAggregationLiveItem
 
@@ -46,7 +46,7 @@
 
 #### Defined in
 
-main.ts:190025
+[main.ts:189905](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L189905)
 
 ## Properties
 
@@ -62,7 +62,7 @@ aggregation of the category
 
 #### Defined in
 
-main.ts:190021
+[main.ts:189901](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L189901)
 
 ___
 
@@ -79,7 +79,7 @@ Google My Business general category that best describes the cluster of related c
 
 #### Defined in
 
-main.ts:190019
+[main.ts:189899](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L189899)
 
 ___
 
@@ -95,7 +95,7 @@ type of element
 
 #### Defined in
 
-main.ts:190016
+[main.ts:189896](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L189896)
 
 ## Methods
 
@@ -115,7 +115,7 @@ main.ts:190016
 
 #### Defined in
 
-main.ts:190034
+[main.ts:189914](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L189914)
 
 ___
 
@@ -135,7 +135,7 @@ ___
 
 #### Defined in
 
-main.ts:190057
+[main.ts:189937](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L189937)
 
 ___
 
@@ -155,4 +155,4 @@ ___
 
 #### Defined in
 
-main.ts:190050
+[main.ts:189930](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L189930)

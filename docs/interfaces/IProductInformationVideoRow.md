@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IProductInformationVideoRow
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IProductInformationVideoRow
 
 # Interface: IProductInformationVideoRow
 
@@ -33,7 +33,7 @@ URL of the preview image for the related video
 
 #### Defined in
 
-main.ts:173398
+[main.ts:173278](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L173278)
 
 ___
 
@@ -45,4 +45,4 @@ URL of the image
 
 #### Defined in
 
-main.ts:173400
+[main.ts:173280](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L173280)

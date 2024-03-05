@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / DataforseoLabsGoogleSearchIntentLiveItem
+[dataforseo-client](../README.md) / [Exports](../modules.md) / DataforseoLabsGoogleSearchIntentLiveItem
 
 # Class: DataforseoLabsGoogleSearchIntentLiveItem
 
@@ -46,7 +46,7 @@
 
 #### Defined in
 
-main.ts:83006
+[main.ts:82862](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L82862)
 
 ## Properties
 
@@ -62,7 +62,7 @@ target keyword in a POST array
 
 #### Defined in
 
-main.ts:82998
+[main.ts:82854](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L82854)
 
 ___
 
@@ -78,7 +78,7 @@ search intent data relevant for the specified keyword
 
 #### Defined in
 
-main.ts:83000
+[main.ts:82856](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L82856)
 
 ___
 
@@ -94,7 +94,7 @@ contains objects with other possible search intents for the specified keyword
 
 #### Defined in
 
-main.ts:83002
+[main.ts:82858](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L82858)
 
 ## Methods
 
@@ -114,7 +114,7 @@ main.ts:83002
 
 #### Defined in
 
-main.ts:83015
+[main.ts:82871](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L82871)
 
 ___
 
@@ -134,7 +134,7 @@ ___
 
 #### Defined in
 
-main.ts:83038
+[main.ts:82894](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L82894)
 
 ___
 
@@ -154,4 +154,4 @@ ___
 
 #### Defined in
 
-main.ts:83031
+[main.ts:82887](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L82887)

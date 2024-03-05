@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / AppendixDomainAnalyticsLimitsRatesDataInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / AppendixDomainAnalyticsLimitsRatesDataInfo
 
 # Class: AppendixDomainAnalyticsLimitsRatesDataInfo
 
@@ -47,7 +47,7 @@
 
 #### Defined in
 
-main.ts:207500
+[main.ts:207380](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L207380)
 
 ## Properties
 
@@ -61,7 +61,7 @@ main.ts:207500
 
 #### Defined in
 
-main.ts:207494
+[main.ts:207374](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L207374)
 
 ___
 
@@ -75,7 +75,7 @@ ___
 
 #### Defined in
 
-main.ts:207493
+[main.ts:207373](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L207373)
 
 ___
 
@@ -89,7 +89,7 @@ ___
 
 #### Defined in
 
-main.ts:207496
+[main.ts:207376](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L207376)
 
 ___
 
@@ -103,7 +103,7 @@ ___
 
 #### Defined in
 
-main.ts:207495
+[main.ts:207375](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L207375)
 
 ## Methods
 
@@ -123,7 +123,7 @@ main.ts:207495
 
 #### Defined in
 
-main.ts:207509
+[main.ts:207389](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L207389)
 
 ___
 
@@ -143,7 +143,7 @@ ___
 
 #### Defined in
 
-main.ts:207529
+[main.ts:207409](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L207409)
 
 ___
 
@@ -163,4 +163,4 @@ ___
 
 #### Defined in
 
-main.ts:207522
+[main.ts:207402](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L207402)

@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / AppendixContentGenerationLimitsRatesDataInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / AppendixContentGenerationLimitsRatesDataInfo
 
 # Class: AppendixContentGenerationLimitsRatesDataInfo
 
@@ -50,7 +50,7 @@
 
 #### Defined in
 
-main.ts:208579
+[main.ts:208459](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L208459)
 
 ## Properties
 
@@ -64,7 +64,7 @@ main.ts:208579
 
 #### Defined in
 
-main.ts:208573
+[main.ts:208453](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L208453)
 
 ___
 
@@ -78,7 +78,7 @@ ___
 
 #### Defined in
 
-main.ts:208569
+[main.ts:208449](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L208449)
 
 ___
 
@@ -92,7 +92,7 @@ ___
 
 #### Defined in
 
-main.ts:208570
+[main.ts:208450](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L208450)
 
 ___
 
@@ -106,7 +106,7 @@ ___
 
 #### Defined in
 
-main.ts:208575
+[main.ts:208455](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L208455)
 
 ___
 
@@ -120,7 +120,7 @@ ___
 
 #### Defined in
 
-main.ts:208571
+[main.ts:208451](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L208451)
 
 ___
 
@@ -134,7 +134,7 @@ ___
 
 #### Defined in
 
-main.ts:208572
+[main.ts:208452](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L208452)
 
 ___
 
@@ -148,7 +148,7 @@ ___
 
 #### Defined in
 
-main.ts:208574
+[main.ts:208454](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L208454)
 
 ## Methods
 
@@ -168,7 +168,7 @@ main.ts:208574
 
 #### Defined in
 
-main.ts:208588
+[main.ts:208468](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L208468)
 
 ___
 
@@ -188,7 +188,7 @@ ___
 
 #### Defined in
 
-main.ts:208611
+[main.ts:208491](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L208491)
 
 ___
 
@@ -208,4 +208,4 @@ ___
 
 #### Defined in
 
-main.ts:208604
+[main.ts:208484](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L208484)

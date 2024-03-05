@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IKnowledgeGraphRowItemSerpElementItem
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IKnowledgeGraphRowItemSerpElementItem
 
 # Interface: IKnowledgeGraphRowItemSerpElementItem
 
@@ -42,7 +42,7 @@ kc:/common/topic:social media presence
 
 #### Defined in
 
-main.ts:26995
+[main.ts:26853](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L26853)
 
 ___
 
@@ -54,7 +54,7 @@ links featured in the faq_box_element
 
 #### Defined in
 
-main.ts:26999
+[main.ts:26857](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L26857)
 
 ___
 
@@ -68,7 +68,7 @@ left, right
 
 #### Defined in
 
-main.ts:26987
+[main.ts:26845](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L26845)
 
 ___
 
@@ -81,7 +81,7 @@ absolute position among all the elements in SERP
 
 #### Defined in
 
-main.ts:26983
+[main.ts:26841](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L26841)
 
 ___
 
@@ -95,7 +95,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-main.ts:26980
+[main.ts:26838](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L26838)
 
 ___
 
@@ -109,7 +109,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 #### Defined in
 
-main.ts:27003
+[main.ts:26861](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L26861)
 
 ___
 
@@ -121,7 +121,7 @@ row content
 
 #### Defined in
 
-main.ts:26997
+[main.ts:26855](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L26855)
 
 ___
 
@@ -133,7 +133,7 @@ title of the item
 
 #### Defined in
 
-main.ts:26991
+[main.ts:26849](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L26849)
 
 ___
 
@@ -145,4 +145,4 @@ the XPath of the element
 
 #### Defined in
 
-main.ts:26989
+[main.ts:26847](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L26847)

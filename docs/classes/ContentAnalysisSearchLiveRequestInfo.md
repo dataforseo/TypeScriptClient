@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / ContentAnalysisSearchLiveRequestInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / ContentAnalysisSearchLiveRequestInfo
 
 # Class: ContentAnalysisSearchLiveRequestInfo
 
@@ -53,7 +53,7 @@
 
 #### Defined in
 
-main.ts:156278
+[main.ts:156134](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L156134)
 
 ## Properties
 
@@ -84,7 +84,7 @@ for more information about filters, please refer to Content Analysis API – Fil
 
 #### Defined in
 
-main.ts:156239
+[main.ts:156095](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L156095)
 
 ___
 
@@ -107,7 +107,7 @@ example:
 
 #### Defined in
 
-main.ts:156192
+[main.ts:156048](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L156048)
 
 ___
 
@@ -137,7 +137,7 @@ example:
 
 #### Defined in
 
-main.ts:156204
+[main.ts:156060](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L156060)
 
 ___
 
@@ -156,7 +156,7 @@ maximum value: 20000
 
 #### Defined in
 
-main.ts:156222
+[main.ts:156078](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L156078)
 
 ___
 
@@ -175,7 +175,7 @@ if you specify the 10 value, the first ten citations in the results array will b
 
 #### Defined in
 
-main.ts:156260
+[main.ts:156116](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L156116)
 
 ___
 
@@ -197,7 +197,7 @@ Note: if the offset_token is specified in the request, all other parameters exce
 
 #### Defined in
 
-main.ts:156268
+[main.ts:156124](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L156124)
 
 ___
 
@@ -227,7 +227,7 @@ example:
 
 #### Defined in
 
-main.ts:156255
+[main.ts:156111](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L156111)
 
 ___
 
@@ -247,7 +247,7 @@ possible values:
 
 #### Defined in
 
-main.ts:156210
+[main.ts:156066](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L156066)
 
 ___
 
@@ -268,7 +268,7 @@ default value: as_is
 
 #### Defined in
 
-main.ts:156217
+[main.ts:156073](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L156073)
 
 ___
 
@@ -288,7 +288,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:156274
+[main.ts:156130](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L156130)
 
 ## Methods
 
@@ -308,7 +308,7 @@ main.ts:156274
 
 #### Defined in
 
-main.ts:156287
+[main.ts:156143](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L156143)
 
 ___
 
@@ -328,7 +328,7 @@ ___
 
 #### Defined in
 
-main.ts:156331
+[main.ts:156187](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L156187)
 
 ___
 
@@ -348,4 +348,4 @@ ___
 
 #### Defined in
 
-main.ts:156324
+[main.ts:156180](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L156180)

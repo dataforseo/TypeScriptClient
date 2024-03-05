@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / HotelReviewInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / HotelReviewInfo
 
 # Class: HotelReviewInfo
 
@@ -48,7 +48,7 @@
 
 #### Defined in
 
-main.ts:196057
+[main.ts:195937](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L195937)
 
 ## Properties
 
@@ -65,7 +65,7 @@ information about hotel reviews by criteria
 
 #### Defined in
 
-main.ts:196047
+[main.ts:195927](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L195927)
 
 ___
 
@@ -82,7 +82,7 @@ reviews from third-paty sites
 
 #### Defined in
 
-main.ts:196053
+[main.ts:195933](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L195933)
 
 ___
 
@@ -103,7 +103,7 @@ the distribution of votes across the rating in the range from 1 to 5
 
 #### Defined in
 
-main.ts:196050
+[main.ts:195930](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L195930)
 
 ___
 
@@ -119,7 +119,7 @@ overall hotel rating based on customer votes
 
 #### Defined in
 
-main.ts:196041
+[main.ts:195921](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L195921)
 
 ___
 
@@ -136,7 +136,7 @@ the number of customer votes included in the calculation of the hotel rating
 
 #### Defined in
 
-main.ts:196044
+[main.ts:195924](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L195924)
 
 ## Methods
 
@@ -156,7 +156,7 @@ main.ts:196044
 
 #### Defined in
 
-main.ts:196066
+[main.ts:195946](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L195946)
 
 ___
 
@@ -176,7 +176,7 @@ ___
 
 #### Defined in
 
-main.ts:196101
+[main.ts:195981](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L195981)
 
 ___
 
@@ -196,4 +196,4 @@ ___
 
 #### Defined in
 
-main.ts:196094
+[main.ts:195974](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L195974)

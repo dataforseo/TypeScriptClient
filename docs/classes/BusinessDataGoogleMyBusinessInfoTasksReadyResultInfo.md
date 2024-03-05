@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / BusinessDataGoogleMyBusinessInfoTasksReadyResultInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / BusinessDataGoogleMyBusinessInfoTasksReadyResultInfo
 
 # Class: BusinessDataGoogleMyBusinessInfoTasksReadyResultInfo
 
@@ -48,7 +48,7 @@
 
 #### Defined in
 
-main.ts:190958
+[main.ts:190838](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L190838)
 
 ## Properties
 
@@ -64,7 +64,7 @@ date when the task was posted (in the UTC format)
 
 #### Defined in
 
-main.ts:190950
+[main.ts:190830](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L190830)
 
 ___
 
@@ -80,7 +80,7 @@ URL for collecting the results of the task
 
 #### Defined in
 
-main.ts:190954
+[main.ts:190834](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L190834)
 
 ___
 
@@ -97,7 +97,7 @@ unique task identifier in our system in the UUID format
 
 #### Defined in
 
-main.ts:190945
+[main.ts:190825](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L190825)
 
 ___
 
@@ -114,7 +114,7 @@ can take the following values: google
 
 #### Defined in
 
-main.ts:190948
+[main.ts:190828](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L190828)
 
 ___
 
@@ -130,7 +130,7 @@ user-defined task identifier
 
 #### Defined in
 
-main.ts:190952
+[main.ts:190832](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L190832)
 
 ## Methods
 
@@ -150,7 +150,7 @@ main.ts:190952
 
 #### Defined in
 
-main.ts:190967
+[main.ts:190847](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L190847)
 
 ___
 
@@ -170,7 +170,7 @@ ___
 
 #### Defined in
 
-main.ts:190988
+[main.ts:190868](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L190868)
 
 ___
 
@@ -190,4 +190,4 @@ ___
 
 #### Defined in
 
-main.ts:190981
+[main.ts:190861](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L190861)

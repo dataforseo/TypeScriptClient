@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / KeywordIntentInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / KeywordIntentInfo
 
 # Class: KeywordIntentInfo
 
@@ -45,7 +45,7 @@
 
 #### Defined in
 
-main.ts:82946
+[main.ts:82802](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L82802)
 
 ## Properties
 
@@ -62,7 +62,7 @@ possible values: informational, navigational, commercial, transactional
 
 #### Defined in
 
-main.ts:82939
+[main.ts:82795](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L82795)
 
 ___
 
@@ -79,7 +79,7 @@ search intent probability
 
 #### Defined in
 
-main.ts:82942
+[main.ts:82798](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L82798)
 
 ## Methods
 
@@ -99,7 +99,7 @@ main.ts:82942
 
 #### Defined in
 
-main.ts:82955
+[main.ts:82811](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L82811)
 
 ___
 
@@ -119,7 +119,7 @@ ___
 
 #### Defined in
 
-main.ts:82973
+[main.ts:82829](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L82829)
 
 ___
 
@@ -139,4 +139,4 @@ ___
 
 #### Defined in
 
-main.ts:82966
+[main.ts:82822](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L82822)

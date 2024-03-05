@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / AppDataGoogleCategoriesResultInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / AppDataGoogleCategoriesResultInfo
 
 # Class: AppDataGoogleCategoriesResultInfo
 
@@ -44,7 +44,7 @@
 
 #### Defined in
 
-main.ts:177092
+[main.ts:176972](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L176972)
 
 ## Properties
 
@@ -60,7 +60,7 @@ contains full list of supported app categories
 
 #### Defined in
 
-main.ts:177088
+[main.ts:176968](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L176968)
 
 ## Methods
 
@@ -80,7 +80,7 @@ main.ts:177088
 
 #### Defined in
 
-main.ts:177101
+[main.ts:176981](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L176981)
 
 ___
 
@@ -100,7 +100,7 @@ ___
 
 #### Defined in
 
-main.ts:177122
+[main.ts:177002](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L177002)
 
 ___
 
@@ -120,4 +120,4 @@ ___
 
 #### Defined in
 
-main.ts:177115
+[main.ts:176995](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L176995)

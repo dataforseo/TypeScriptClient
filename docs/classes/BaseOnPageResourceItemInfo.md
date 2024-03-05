@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / BaseOnPageResourceItemInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / BaseOnPageResourceItemInfo
 
 # Class: BaseOnPageResourceItemInfo
 
@@ -8,9 +8,9 @@
 
   ↳ [`HtmlResourceElementItem`](HtmlResourceElementItem.md)
 
-  ↳ [`StylesheetResourceElementItem`](StylesheetResourceElementItem.md)
-
   ↳ [`ScriptResourceElementItem`](ScriptResourceElementItem.md)
+
+  ↳ [`StylesheetResourceElementItem`](StylesheetResourceElementItem.md)
 
   ↳ [`ImageResourceElementItem`](ImageResourceElementItem.md)
 
@@ -58,7 +58,7 @@
 
 #### Defined in
 
-main.ts:20181
+[main.ts:20181](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L20181)
 
 ## Properties
 
@@ -68,7 +68,7 @@ main.ts:20181
 
 #### Defined in
 
-main.ts:20179
+[main.ts:20179](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L20179)
 
 ## Methods
 
@@ -88,7 +88,7 @@ main.ts:20179
 
 #### Defined in
 
-main.ts:20191
+[main.ts:20191](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L20191)
 
 ___
 
@@ -108,7 +108,7 @@ ___
 
 #### Defined in
 
-main.ts:20232
+[main.ts:20232](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L20232)
 
 ___
 
@@ -128,4 +128,4 @@ ___
 
 #### Defined in
 
-main.ts:20200
+[main.ts:20200](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L20200)

@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / RankChanges
+[dataforseo-client](../README.md) / [Exports](../modules.md) / RankChanges
 
 # Class: RankChanges
 
@@ -47,7 +47,7 @@
 
 #### Defined in
 
-main.ts:86641
+[main.ts:86497](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L86497)
 
 ## Properties
 
@@ -64,7 +64,7 @@ if the value is true, position of the element in SERP is lower compared to the p
 
 #### Defined in
 
-main.ts:86637
+[main.ts:86493](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L86493)
 
 ___
 
@@ -81,7 +81,7 @@ if the value is true, previously collected SERP didn’t contain this element
 
 #### Defined in
 
-main.ts:86631
+[main.ts:86487](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L86487)
 
 ___
 
@@ -98,7 +98,7 @@ if the value is true, position of the element in SERP is higher compared to the 
 
 #### Defined in
 
-main.ts:86634
+[main.ts:86490](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L86490)
 
 ___
 
@@ -116,7 +116,7 @@ if this element is new, the value will be null
 
 #### Defined in
 
-main.ts:86628
+[main.ts:86484](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L86484)
 
 ## Methods
 
@@ -136,7 +136,7 @@ main.ts:86628
 
 #### Defined in
 
-main.ts:86650
+[main.ts:86506](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L86506)
 
 ___
 
@@ -156,7 +156,7 @@ ___
 
 #### Defined in
 
-main.ts:86670
+[main.ts:86526](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L86526)
 
 ___
 
@@ -176,4 +176,4 @@ ___
 
 #### Defined in
 
-main.ts:86663
+[main.ts:86519](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L86519)

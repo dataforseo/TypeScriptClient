@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IAppendixAppDataLimitsRatesDataInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IAppendixAppDataLimitsRatesDataInfo
 
 # Interface: IAppendixAppDataLimitsRatesDataInfo
 
@@ -31,7 +31,7 @@
 
 #### Defined in
 
-main.ts:208420
+[main.ts:208300](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L208300)
 
 ___
 
@@ -41,7 +41,7 @@ ___
 
 #### Defined in
 
-main.ts:208421
+[main.ts:208301](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L208301)
 
 ___
 
@@ -51,7 +51,7 @@ ___
 
 #### Defined in
 
-main.ts:208422
+[main.ts:208302](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L208302)
 
 ___
 
@@ -61,7 +61,7 @@ ___
 
 #### Defined in
 
-main.ts:208423
+[main.ts:208303](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L208303)
 
 ___
 
@@ -71,7 +71,7 @@ ___
 
 #### Defined in
 
-main.ts:208427
+[main.ts:208307](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L208307)
 
 ___
 
@@ -81,7 +81,7 @@ ___
 
 #### Defined in
 
-main.ts:208424
+[main.ts:208304](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L208304)
 
 ___
 
@@ -91,7 +91,7 @@ ___
 
 #### Defined in
 
-main.ts:208425
+[main.ts:208305](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L208305)
 
 ___
 
@@ -101,4 +101,4 @@ ___
 
 #### Defined in
 
-main.ts:208426
+[main.ts:208306](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L208306)

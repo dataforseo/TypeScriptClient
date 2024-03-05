@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / OnPageLighthouseAuditsResultInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / OnPageLighthouseAuditsResultInfo
 
 # Class: OnPageLighthouseAuditsResultInfo
 
@@ -44,7 +44,7 @@
 
 #### Defined in
 
-main.ts:153827
+[main.ts:153683](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L153683)
 
 ## Properties
 
@@ -62,7 +62,7 @@ Note: the titles can change depending on if the audit passed or failed and may c
 
 #### Defined in
 
-main.ts:153823
+[main.ts:153679](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L153679)
 
 ## Methods
 
@@ -82,7 +82,7 @@ main.ts:153823
 
 #### Defined in
 
-main.ts:153836
+[main.ts:153692](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L153692)
 
 ___
 
@@ -102,7 +102,7 @@ ___
 
 #### Defined in
 
-main.ts:153857
+[main.ts:153713](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L153713)
 
 ___
 
@@ -122,4 +122,4 @@ ___
 
 #### Defined in
 
-main.ts:153850
+[main.ts:153706](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L153706)

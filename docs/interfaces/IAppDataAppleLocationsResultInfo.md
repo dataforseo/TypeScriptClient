@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IAppDataAppleLocationsResultInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IAppDataAppleLocationsResultInfo
 
 # Interface: IAppDataAppleLocationsResultInfo
 
@@ -30,7 +30,7 @@ ISO country code of the location
 
 #### Defined in
 
-main.ts:182931
+[main.ts:182811](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L182811)
 
 ___
 
@@ -42,7 +42,7 @@ location code
 
 #### Defined in
 
-main.ts:182918
+[main.ts:182798](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L182798)
 
 ___
 
@@ -54,7 +54,7 @@ full name of the location
 
 #### Defined in
 
-main.ts:182920
+[main.ts:182800](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L182800)
 
 ___
 
@@ -73,7 +73,7 @@ note: Apple App Data API currently supports countries only, that is why this val
 
 #### Defined in
 
-main.ts:182929
+[main.ts:182809](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L182809)
 
 ___
 
@@ -85,4 +85,4 @@ location type
 
 #### Defined in
 
-main.ts:182933
+[main.ts:182813](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L182813)

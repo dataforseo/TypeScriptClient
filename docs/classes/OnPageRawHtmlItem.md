@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / OnPageRawHtmlItem
+[dataforseo-client](../README.md) / [Exports](../modules.md) / OnPageRawHtmlItem
 
 # Class: OnPageRawHtmlItem
 
@@ -44,7 +44,7 @@
 
 #### Defined in
 
-main.ts:151353
+[main.ts:151209](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L151209)
 
 ## Properties
 
@@ -60,7 +60,7 @@ HTML page
 
 #### Defined in
 
-main.ts:151349
+[main.ts:151205](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L151205)
 
 ## Methods
 
@@ -80,7 +80,7 @@ main.ts:151349
 
 #### Defined in
 
-main.ts:151362
+[main.ts:151218](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L151218)
 
 ___
 
@@ -100,7 +100,7 @@ ___
 
 #### Defined in
 
-main.ts:151379
+[main.ts:151235](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L151235)
 
 ___
 
@@ -120,4 +120,4 @@ ___
 
 #### Defined in
 
-main.ts:151372
+[main.ts:151228](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L151228)

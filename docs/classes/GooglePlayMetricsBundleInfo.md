@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / GooglePlayMetricsBundleInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / GooglePlayMetricsBundleInfo
 
 # Class: GooglePlayMetricsBundleInfo
 
@@ -44,7 +44,7 @@
 
 #### Defined in
 
-main.ts:109384
+[main.ts:109240](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L109240)
 
 ## Properties
 
@@ -60,7 +60,7 @@ ranking data from Google Play organic search
 
 #### Defined in
 
-main.ts:109380
+[main.ts:109236](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L109236)
 
 ## Methods
 
@@ -80,7 +80,7 @@ main.ts:109380
 
 #### Defined in
 
-main.ts:109393
+[main.ts:109249](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L109249)
 
 ___
 
@@ -100,7 +100,7 @@ ___
 
 #### Defined in
 
-main.ts:109410
+[main.ts:109266](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L109266)
 
 ___
 
@@ -120,4 +120,4 @@ ___
 
 #### Defined in
 
-main.ts:109403
+[main.ts:109259](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L109259)

@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / Summary
+[dataforseo-client](../README.md) / [Exports](../modules.md) / Summary
 
 # Class: Summary
 
@@ -44,7 +44,7 @@
 
 #### Defined in
 
-main.ts:137165
+[main.ts:137021](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L137021)
 
 ## Properties
 
@@ -60,7 +60,7 @@ total number of intersections
 
 #### Defined in
 
-main.ts:137161
+[main.ts:137017](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L137017)
 
 ## Methods
 
@@ -80,7 +80,7 @@ main.ts:137161
 
 #### Defined in
 
-main.ts:137174
+[main.ts:137030](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L137030)
 
 ___
 
@@ -100,7 +100,7 @@ ___
 
 #### Defined in
 
-main.ts:137191
+[main.ts:137047](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L137047)
 
 ___
 
@@ -120,4 +120,4 @@ ___
 
 #### Defined in
 
-main.ts:137184
+[main.ts:137040](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L137040)

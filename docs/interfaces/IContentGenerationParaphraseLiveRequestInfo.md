@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IContentGenerationParaphraseLiveRequestInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IContentGenerationParaphraseLiveRequestInfo
 
 # Interface: IContentGenerationParaphraseLiveRequestInfo
 
@@ -33,7 +33,7 @@ learn more about this parameter on our help center
 
 #### Defined in
 
-main.ts:161308
+[main.ts:161188](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L161188)
 
 ___
 
@@ -49,7 +49,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:161314
+[main.ts:161194](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L161194)
 
 ___
 
@@ -64,4 +64,4 @@ learn more about tokens on our help center
 
 #### Defined in
 
-main.ts:161301
+[main.ts:161181](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L161181)

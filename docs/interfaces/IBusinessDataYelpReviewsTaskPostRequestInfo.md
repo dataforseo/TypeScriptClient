@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IBusinessDataYelpReviewsTaskPostRequestInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IBusinessDataYelpReviewsTaskPostRequestInfo
 
 # Interface: IBusinessDataYelpReviewsTaskPostRequestInfo
 
@@ -44,7 +44,7 @@ https://www.yelp.com/biz/vatos-urban-tacos-singapore?rl=en
 
 #### Defined in
 
-main.ts:204960
+[main.ts:204840](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L204840)
 
 ___
 
@@ -61,7 +61,7 @@ maximum value: 4490
 
 #### Defined in
 
-main.ts:205010
+[main.ts:204890](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L204890)
 
 ___
 
@@ -78,7 +78,7 @@ if you need to use the “%” symbol for your keyword, please specify it as “
 
 #### Defined in
 
-main.ts:204967
+[main.ts:204847](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L204847)
 
 ___
 
@@ -95,7 +95,7 @@ en
 
 #### Defined in
 
-main.ts:205003
+[main.ts:204883](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L204883)
 
 ___
 
@@ -112,7 +112,7 @@ English
 
 #### Defined in
 
-main.ts:204996
+[main.ts:204876](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L204876)
 
 ___
 
@@ -129,7 +129,7 @@ example:
 
 #### Defined in
 
-main.ts:204989
+[main.ts:204869](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L204869)
 
 ___
 
@@ -146,7 +146,7 @@ West Los Angeles,California,United States
 
 #### Defined in
 
-main.ts:204982
+[main.ts:204862](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L204862)
 
 ___
 
@@ -166,7 +166,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-main.ts:205047
+[main.ts:204927](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L204927)
 
 ___
 
@@ -186,7 +186,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-main.ts:205037
+[main.ts:204917](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L204917)
 
 ___
 
@@ -204,7 +204,7 @@ The cost can be calculated on the Pricing page.
 
 #### Defined in
 
-main.ts:204975
+[main.ts:204855](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L204855)
 
 ___
 
@@ -225,7 +225,7 @@ default value: relevant
 
 #### Defined in
 
-main.ts:205021
+[main.ts:204901](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L204901)
 
 ___
 
@@ -241,4 +241,4 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:205027
+[main.ts:204907](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L204907)

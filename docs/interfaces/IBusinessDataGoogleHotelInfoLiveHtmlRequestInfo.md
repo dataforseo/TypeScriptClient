@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IBusinessDataGoogleHotelInfoLiveHtmlRequestInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IBusinessDataGoogleHotelInfoLiveHtmlRequestInfo
 
 # Interface: IBusinessDataGoogleHotelInfoLiveHtmlRequestInfo
 
@@ -42,7 +42,7 @@ example:
 
 #### Defined in
 
-main.ts:197642
+[main.ts:197522](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L197522)
 
 ___
 
@@ -59,7 +59,7 @@ example:
 
 #### Defined in
 
-main.ts:197624
+[main.ts:197504](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L197504)
 
 ___
 
@@ -76,7 +76,7 @@ example:
 
 #### Defined in
 
-main.ts:197631
+[main.ts:197511](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L197511)
 
 ___
 
@@ -94,7 +94,7 @@ set the following value if you want to include one 13-years-old child and one 8-
 
 #### Defined in
 
-main.ts:197650
+[main.ts:197530](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L197530)
 
 ___
 
@@ -109,7 +109,7 @@ example:
 
 #### Defined in
 
-main.ts:197636
+[main.ts:197516](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L197516)
 
 ___
 
@@ -126,7 +126,7 @@ ChYIq6SB--i6p6cpGgovbS8wN2s5ODZfEAE
 
 #### Defined in
 
-main.ts:197572
+[main.ts:197452](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L197452)
 
 ___
 
@@ -143,7 +143,7 @@ en
 
 #### Defined in
 
-main.ts:197617
+[main.ts:197497](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L197497)
 
 ___
 
@@ -160,7 +160,7 @@ English
 
 #### Defined in
 
-main.ts:197610
+[main.ts:197490](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L197490)
 
 ___
 
@@ -177,7 +177,7 @@ example:
 
 #### Defined in
 
-main.ts:197594
+[main.ts:197474](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L197474)
 
 ___
 
@@ -196,7 +196,7 @@ example:
 
 #### Defined in
 
-main.ts:197603
+[main.ts:197483](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L197483)
 
 ___
 
@@ -213,7 +213,7 @@ London,England,United Kingdom
 
 #### Defined in
 
-main.ts:197587
+[main.ts:197467](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L197467)
 
 ___
 
@@ -231,7 +231,7 @@ The cost can be calculated on the Pricing page.
 
 #### Defined in
 
-main.ts:197580
+[main.ts:197460](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L197460)
 
 ___
 
@@ -247,4 +247,4 @@ you will find the specified tag value in the data array of the response
 
 #### Defined in
 
-main.ts:197656
+[main.ts:197536](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L197536)

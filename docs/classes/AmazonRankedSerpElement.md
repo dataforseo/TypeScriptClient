@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / AmazonRankedSerpElement
+[dataforseo-client](../README.md) / [Exports](../modules.md) / AmazonRankedSerpElement
 
 # Class: AmazonRankedSerpElement
 
@@ -50,7 +50,7 @@
 
 #### Defined in
 
-main.ts:100207
+[main.ts:100063](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L100063)
 
 ## Properties
 
@@ -67,7 +67,7 @@ you can use it to make sure that we provided accurate results
 
 #### Defined in
 
-main.ts:100186
+[main.ts:100042](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L100042)
 
 ___
 
@@ -86,7 +86,7 @@ example:
 
 #### Defined in
 
-main.ts:100198
+[main.ts:100054](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L100054)
 
 ___
 
@@ -105,7 +105,7 @@ example:
 
 #### Defined in
 
-main.ts:100203
+[main.ts:100059](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L100059)
 
 ___
 
@@ -121,7 +121,7 @@ total number of results in Amazon SERP
 
 #### Defined in
 
-main.ts:100193
+[main.ts:100049](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L100049)
 
 ___
 
@@ -137,7 +137,7 @@ search engine type
 
 #### Defined in
 
-main.ts:100180
+[main.ts:100036](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L100036)
 
 ___
 
@@ -154,7 +154,7 @@ the list of supported SERP elements can be found below
 
 #### Defined in
 
-main.ts:100183
+[main.ts:100039](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L100039)
 
 ___
 
@@ -173,7 +173,7 @@ amazon_serp, amazon_paid, editorial_recommendations, top_rated_from_our_brands, 
 
 #### Defined in
 
-main.ts:100191
+[main.ts:100047](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L100047)
 
 ## Methods
 
@@ -193,7 +193,7 @@ main.ts:100191
 
 #### Defined in
 
-main.ts:100216
+[main.ts:100072](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L100072)
 
 ___
 
@@ -213,7 +213,7 @@ ___
 
 #### Defined in
 
-main.ts:100243
+[main.ts:100099](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L100099)
 
 ___
 
@@ -233,4 +233,4 @@ ___
 
 #### Defined in
 
-main.ts:100236
+[main.ts:100092](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L100092)

@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / AppendixHotelInfoGoogleBusinessDataPriceData
+[dataforseo-client](../README.md) / [Exports](../modules.md) / AppendixHotelInfoGoogleBusinessDataPriceData
 
 # Class: AppendixHotelInfoGoogleBusinessDataPriceData
 
@@ -47,7 +47,7 @@
 
 #### Defined in
 
-main.ts:211182
+[main.ts:211062](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L211062)
 
 ## Properties
 
@@ -61,7 +61,7 @@ main.ts:211182
 
 #### Defined in
 
-main.ts:211175
+[main.ts:211055](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L211055)
 
 ___
 
@@ -75,7 +75,7 @@ ___
 
 #### Defined in
 
-main.ts:211176
+[main.ts:211056](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L211056)
 
 ___
 
@@ -89,7 +89,7 @@ ___
 
 #### Defined in
 
-main.ts:211177
+[main.ts:211057](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L211057)
 
 ___
 
@@ -103,7 +103,7 @@ ___
 
 #### Defined in
 
-main.ts:211178
+[main.ts:211058](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L211058)
 
 ## Methods
 
@@ -123,7 +123,7 @@ main.ts:211178
 
 #### Defined in
 
-main.ts:211191
+[main.ts:211071](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L211071)
 
 ___
 
@@ -143,7 +143,7 @@ ___
 
 #### Defined in
 
-main.ts:211211
+[main.ts:211091](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L211091)
 
 ___
 
@@ -163,4 +163,4 @@ ___
 
 #### Defined in
 
-main.ts:211204
+[main.ts:211084](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L211084)

@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IDataforseoLabsAmazonProductRankOverviewLiveRequestInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IDataforseoLabsAmazonProductRankOverviewLiveRequestInfo
 
 # Interface: IDataforseoLabsAmazonProductRankOverviewLiveRequestInfo
 
@@ -35,7 +35,7 @@ you can receive the asin parameter by making a separate request to the Amazon Pr
 
 #### Defined in
 
-main.ts:100671
+[main.ts:100527](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L100527)
 
 ___
 
@@ -52,7 +52,7 @@ en
 
 #### Defined in
 
-main.ts:100701
+[main.ts:100557](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L100557)
 
 ___
 
@@ -69,7 +69,7 @@ English
 
 #### Defined in
 
-main.ts:100694
+[main.ts:100550](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L100550)
 
 ___
 
@@ -87,7 +87,7 @@ example:
 
 #### Defined in
 
-main.ts:100687
+[main.ts:100543](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L100543)
 
 ___
 
@@ -105,7 +105,7 @@ United States
 
 #### Defined in
 
-main.ts:100679
+[main.ts:100535](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L100535)
 
 ___
 
@@ -121,4 +121,4 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:100707
+[main.ts:100563](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L100563)

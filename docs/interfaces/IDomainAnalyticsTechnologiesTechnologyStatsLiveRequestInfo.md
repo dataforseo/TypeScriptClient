@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IDomainAnalyticsTechnologiesTechnologyStatsLiveRequestInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IDomainAnalyticsTechnologiesTechnologyStatsLiveRequestInfo
 
 # Interface: IDomainAnalyticsTechnologiesTechnologyStatsLiveRequestInfo
 
@@ -35,7 +35,7 @@ example:
 
 #### Defined in
 
-main.ts:73722
+[main.ts:73578](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L73578)
 
 ___
 
@@ -52,7 +52,7 @@ example:
 
 #### Defined in
 
-main.ts:73729
+[main.ts:73585](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L73585)
 
 ___
 
@@ -68,7 +68,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:73735
+[main.ts:73591](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L73591)
 
 ___
 
@@ -84,4 +84,4 @@ example:
 
 #### Defined in
 
-main.ts:73714
+[main.ts:73570](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L73570)

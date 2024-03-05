@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / QueriesListDataInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / QueriesListDataInfo
 
 # Class: QueriesListDataInfo
 
@@ -45,7 +45,7 @@
 
 #### Defined in
 
-main.ts:121201
+[main.ts:121057](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L121057)
 
 ## Properties
 
@@ -62,7 +62,7 @@ represents the list of related topics with the biggest increase in search freque
 
 #### Defined in
 
-main.ts:121197
+[main.ts:121053](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L121053)
 
 ___
 
@@ -79,7 +79,7 @@ represents the list of the most popular related topics
 
 #### Defined in
 
-main.ts:121194
+[main.ts:121050](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L121050)
 
 ## Methods
 
@@ -99,7 +99,7 @@ main.ts:121194
 
 #### Defined in
 
-main.ts:121210
+[main.ts:121066](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L121066)
 
 ___
 
@@ -119,7 +119,7 @@ ___
 
 #### Defined in
 
-main.ts:121236
+[main.ts:121092](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L121092)
 
 ___
 
@@ -139,4 +139,4 @@ ___
 
 #### Defined in
 
-main.ts:121229
+[main.ts:121085](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L121085)

@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / DomainAnalyticsTechnologiesTechnologiesSummaryLiveRequestInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / DomainAnalyticsTechnologiesTechnologiesSummaryLiveRequestInfo
 
 # Class: DomainAnalyticsTechnologiesTechnologiesSummaryLiveRequestInfo
 
@@ -52,7 +52,7 @@
 
 #### Defined in
 
-main.ts:73222
+[main.ts:73078](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L73078)
 
 ## Properties
 
@@ -73,7 +73,7 @@ example:
 
 #### Defined in
 
-main.ts:73170
+[main.ts:73026](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L73026)
 
 ___
 
@@ -101,7 +101,7 @@ for more information about filters, please refer to Domain Analytics Technologie
 
 #### Defined in
 
-main.ts:73205
+[main.ts:73061](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L73061)
 
 ___
 
@@ -122,7 +122,7 @@ example:
 
 #### Defined in
 
-main.ts:73163
+[main.ts:73019](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L73019)
 
 ___
 
@@ -143,7 +143,7 @@ maximum value: 10000
 
 #### Defined in
 
-main.ts:73212
+[main.ts:73068](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L73068)
 
 ___
 
@@ -164,7 +164,7 @@ example:
 
 #### Defined in
 
-main.ts:73184
+[main.ts:73040](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L73040)
 
 ___
 
@@ -185,7 +185,7 @@ default value: as_is
 
 #### Defined in
 
-main.ts:73191
+[main.ts:73047](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L73047)
 
 ___
 
@@ -205,7 +205,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:73218
+[main.ts:73074](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L73074)
 
 ___
 
@@ -226,7 +226,7 @@ example:
 
 #### Defined in
 
-main.ts:73177
+[main.ts:73033](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L73033)
 
 ___
 
@@ -250,7 +250,7 @@ example:
 
 #### Defined in
 
-main.ts:73156
+[main.ts:73012](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L73012)
 
 ## Methods
 
@@ -270,7 +270,7 @@ main.ts:73156
 
 #### Defined in
 
-main.ts:73231
+[main.ts:73087](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L73087)
 
 ___
 
@@ -290,7 +290,7 @@ ___
 
 #### Defined in
 
-main.ts:73280
+[main.ts:73136](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L73136)
 
 ___
 
@@ -310,4 +310,4 @@ ___
 
 #### Defined in
 
-main.ts:73273
+[main.ts:73129](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L73129)

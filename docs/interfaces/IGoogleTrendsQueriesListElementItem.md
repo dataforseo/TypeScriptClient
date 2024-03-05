@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IGoogleTrendsQueriesListElementItem
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IGoogleTrendsQueriesListElementItem
 
 # Interface: IGoogleTrendsQueriesListElementItem
 
@@ -35,7 +35,7 @@ Google Trends data from the corresponding item
 
 #### Defined in
 
-main.ts:121340
+[main.ts:121196](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L121196)
 
 ___
 
@@ -48,7 +48,7 @@ the data included in the google_trends_queries_list element is based on the keyw
 
 #### Defined in
 
-main.ts:121338
+[main.ts:121194](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L121194)
 
 ___
 
@@ -61,7 +61,7 @@ can take the following values: 1, 2, 3, 4, etc.
 
 #### Defined in
 
-main.ts:121333
+[main.ts:121189](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L121189)
 
 ___
 
@@ -73,4 +73,4 @@ title of the element in Google Trends
 
 #### Defined in
 
-main.ts:121335
+[main.ts:121191](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L121191)

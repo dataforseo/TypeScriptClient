@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IAppendixKeywordPerformanceKeywordsDataLimitsRatesDataInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IAppendixKeywordPerformanceKeywordsDataLimitsRatesDataInfo
 
 # Interface: IAppendixKeywordPerformanceKeywordsDataLimitsRatesDataInfo
 
@@ -26,7 +26,7 @@
 
 #### Defined in
 
-main.ts:206963
+[main.ts:206843](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L206843)
 
 ___
 
@@ -36,7 +36,7 @@ ___
 
 #### Defined in
 
-main.ts:206961
+[main.ts:206841](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L206841)
 
 ___
 
@@ -46,4 +46,4 @@ ___
 
 #### Defined in
 
-main.ts:206962
+[main.ts:206842](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L206842)

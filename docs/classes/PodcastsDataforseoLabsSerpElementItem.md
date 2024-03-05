@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / PodcastsDataforseoLabsSerpElementItem
+[dataforseo-client](../README.md) / [Exports](../modules.md) / PodcastsDataforseoLabsSerpElementItem
 
 # Class: PodcastsDataforseoLabsSerpElementItem
 
@@ -59,7 +59,7 @@
 
 #### Defined in
 
-main.ts:95587
+[main.ts:95443](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L95443)
 
 ## Properties
 
@@ -73,7 +73,7 @@ main.ts:95587
 
 #### Defined in
 
-main.ts:19715
+[main.ts:19715](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L19715)
 
 ___
 
@@ -89,7 +89,7 @@ elements of search results found in SERP
 
 #### Defined in
 
-main.ts:95583
+[main.ts:95439](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L95439)
 
 ___
 
@@ -107,7 +107,7 @@ left, right
 
 #### Defined in
 
-main.ts:95579
+[main.ts:95435](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L95435)
 
 ___
 
@@ -124,7 +124,7 @@ absolute position among all the elements in SERP
 
 #### Defined in
 
-main.ts:95575
+[main.ts:95431](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L95431)
 
 ___
 
@@ -141,7 +141,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-main.ts:95572
+[main.ts:95428](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L95428)
 
 ___
 
@@ -157,7 +157,7 @@ the XPath of the element
 
 #### Defined in
 
-main.ts:95581
+[main.ts:95437](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L95437)
 
 ## Methods
 
@@ -181,7 +181,7 @@ main.ts:95581
 
 #### Defined in
 
-main.ts:95592
+[main.ts:95448](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L95448)
 
 ___
 
@@ -205,7 +205,7 @@ ___
 
 #### Defined in
 
-main.ts:95618
+[main.ts:95474](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L95474)
 
 ___
 
@@ -229,4 +229,4 @@ ___
 
 #### Defined in
 
-main.ts:95611
+[main.ts:95467](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L95467)

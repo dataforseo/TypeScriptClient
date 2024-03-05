@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / OnPageContentParsingRequestInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / OnPageContentParsingRequestInfo
 
 # Class: OnPageContentParsingRequestInfo
 
@@ -45,7 +45,7 @@
 
 #### Defined in
 
-main.ts:152040
+[main.ts:151896](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L151896)
 
 ## Properties
 
@@ -66,7 +66,7 @@ example:
 
 #### Defined in
 
-main.ts:152036
+[main.ts:151892](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L151892)
 
 ___
 
@@ -86,7 +86,7 @@ https://www.fujielectric.com/
 
 #### Defined in
 
-main.ts:152029
+[main.ts:151885](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L151885)
 
 ## Methods
 
@@ -106,7 +106,7 @@ main.ts:152029
 
 #### Defined in
 
-main.ts:152049
+[main.ts:151905](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L151905)
 
 ___
 
@@ -126,7 +126,7 @@ ___
 
 #### Defined in
 
-main.ts:152067
+[main.ts:151923](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L151923)
 
 ___
 
@@ -146,4 +146,4 @@ ___
 
 #### Defined in
 
-main.ts:152060
+[main.ts:151916](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L151916)

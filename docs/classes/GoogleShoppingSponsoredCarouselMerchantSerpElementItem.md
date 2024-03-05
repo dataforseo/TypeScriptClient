@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / GoogleShoppingSponsoredCarouselMerchantSerpElementItem
+[dataforseo-client](../README.md) / [Exports](../modules.md) / GoogleShoppingSponsoredCarouselMerchantSerpElementItem
 
 # Class: GoogleShoppingSponsoredCarouselMerchantSerpElementItem
 
@@ -60,7 +60,7 @@
 
 #### Defined in
 
-main.ts:165325
+[main.ts:165205](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L165205)
 
 ## Properties
 
@@ -74,7 +74,7 @@ main.ts:165325
 
 #### Defined in
 
-main.ts:19988
+[main.ts:19988](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L19988)
 
 ___
 
@@ -90,7 +90,7 @@ items in SERP
 
 #### Defined in
 
-main.ts:165321
+[main.ts:165201](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L165201)
 
 ___
 
@@ -108,7 +108,7 @@ left, right
 
 #### Defined in
 
-main.ts:165315
+[main.ts:165195](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L165195)
 
 ___
 
@@ -125,7 +125,7 @@ absolute position among all the elements found in Google Shopping SERP
 
 #### Defined in
 
-main.ts:165311
+[main.ts:165191](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L165191)
 
 ___
 
@@ -142,7 +142,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-main.ts:165308
+[main.ts:165188](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L165188)
 
 ___
 
@@ -158,7 +158,7 @@ product title
 
 #### Defined in
 
-main.ts:165319
+[main.ts:165199](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L165199)
 
 ___
 
@@ -174,7 +174,7 @@ XPath of the element
 
 #### Defined in
 
-main.ts:165317
+[main.ts:165197](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L165197)
 
 ## Methods
 
@@ -198,7 +198,7 @@ main.ts:165317
 
 #### Defined in
 
-main.ts:165330
+[main.ts:165210](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L165210)
 
 ___
 
@@ -222,7 +222,7 @@ ___
 
 #### Defined in
 
-main.ts:165357
+[main.ts:165237](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L165237)
 
 ___
 
@@ -246,4 +246,4 @@ ___
 
 #### Defined in
 
-main.ts:165350
+[main.ts:165230](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L165230)

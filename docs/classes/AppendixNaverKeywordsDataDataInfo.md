@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / AppendixNaverKeywordsDataDataInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / AppendixNaverKeywordsDataDataInfo
 
 # Class: AppendixNaverKeywordsDataDataInfo
 
@@ -45,7 +45,7 @@
 
 #### Defined in
 
-main.ts:208804
+[main.ts:208684](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L208684)
 
 ## Properties
 
@@ -59,7 +59,7 @@ main.ts:208804
 
 #### Defined in
 
-main.ts:208799
+[main.ts:208679](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L208679)
 
 ___
 
@@ -73,7 +73,7 @@ ___
 
 #### Defined in
 
-main.ts:208800
+[main.ts:208680](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L208680)
 
 ## Methods
 
@@ -93,7 +93,7 @@ main.ts:208800
 
 #### Defined in
 
-main.ts:208813
+[main.ts:208693](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L208693)
 
 ___
 
@@ -113,7 +113,7 @@ ___
 
 #### Defined in
 
-main.ts:208831
+[main.ts:208711](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L208711)
 
 ___
 
@@ -133,4 +133,4 @@ ___
 
 #### Defined in
 
-main.ts:208824
+[main.ts:208704](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L208704)

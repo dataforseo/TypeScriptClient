@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / StreamingQualityElement
+[dataforseo-client](../README.md) / [Exports](../modules.md) / StreamingQualityElement
 
 # Class: StreamingQualityElement
 
@@ -50,7 +50,7 @@
 
 #### Defined in
 
-main.ts:58656
+[main.ts:58512](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L58512)
 
 ## Properties
 
@@ -66,7 +66,7 @@ bit rate of the video
 
 #### Defined in
 
-main.ts:58648
+[main.ts:58504](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L58504)
 
 ___
 
@@ -82,7 +82,7 @@ frame rate of the video
 
 #### Defined in
 
-main.ts:58652
+[main.ts:58508](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L58508)
 
 ___
 
@@ -98,7 +98,7 @@ video height in pixels
 
 #### Defined in
 
-main.ts:58646
+[main.ts:58502](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L58502)
 
 ___
 
@@ -114,7 +114,7 @@ label of the quality element
 
 #### Defined in
 
-main.ts:58642
+[main.ts:58498](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L58498)
 
 ___
 
@@ -130,7 +130,7 @@ media type of the video
 
 #### Defined in
 
-main.ts:58650
+[main.ts:58506](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L58506)
 
 ___
 
@@ -146,7 +146,7 @@ type of element
 
 #### Defined in
 
-main.ts:58640
+[main.ts:58496](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L58496)
 
 ___
 
@@ -162,7 +162,7 @@ video width in pixels
 
 #### Defined in
 
-main.ts:58644
+[main.ts:58500](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L58500)
 
 ## Methods
 
@@ -182,7 +182,7 @@ main.ts:58644
 
 #### Defined in
 
-main.ts:58665
+[main.ts:58521](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L58521)
 
 ___
 
@@ -202,7 +202,7 @@ ___
 
 #### Defined in
 
-main.ts:58688
+[main.ts:58544](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L58544)
 
 ___
 
@@ -222,4 +222,4 @@ ___
 
 #### Defined in
 
-main.ts:58681
+[main.ts:58537](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L58537)

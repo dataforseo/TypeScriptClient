@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / PageMetaInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / PageMetaInfo
 
 # Class: PageMetaInfo
 
@@ -73,7 +73,7 @@
 
 #### Defined in
 
-main.ts:144378
+[main.ts:144234](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L144234)
 
 ## Properties
 
@@ -89,7 +89,7 @@ resource errors and warnings
 
 #### Defined in
 
-main.ts:144374
+[main.ts:144230](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L144230)
 
 ___
 
@@ -105,7 +105,7 @@ canonical page
 
 #### Defined in
 
-main.ts:144327
+[main.ts:144183](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L144183)
 
 ___
 
@@ -122,7 +122,7 @@ example: 65001
 
 #### Defined in
 
-main.ts:144312
+[main.ts:144168](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L144168)
 
 ___
 
@@ -138,7 +138,7 @@ overall information about content of the page
 
 #### Defined in
 
-main.ts:144361
+[main.ts:144217](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L144217)
 
 ___
 
@@ -155,7 +155,7 @@ measures the sum total of all individual layout shift scores for every unexpecte
 
 #### Defined in
 
-main.ts:144356
+[main.ts:144212](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L144212)
 
 ___
 
@@ -171,7 +171,7 @@ deprecated tags on the page
 
 #### Defined in
 
-main.ts:144363
+[main.ts:144219](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L144219)
 
 ___
 
@@ -187,7 +187,7 @@ content of the meta description tag
 
 #### Defined in
 
-main.ts:144321
+[main.ts:144177](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L144177)
 
 ___
 
@@ -203,7 +203,7 @@ length of the description tag in characters
 
 #### Defined in
 
-main.ts:144349
+[main.ts:144205](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L144205)
 
 ___
 
@@ -219,7 +219,7 @@ duplicate meta tags on the page
 
 #### Defined in
 
-main.ts:144365
+[main.ts:144221](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L144221)
 
 ___
 
@@ -235,7 +235,7 @@ number of external links on the page
 
 #### Defined in
 
-main.ts:144331
+[main.ts:144187](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L144187)
 
 ___
 
@@ -251,7 +251,7 @@ favicon of the page
 
 #### Defined in
 
-main.ts:144323
+[main.ts:144179](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L144179)
 
 ___
 
@@ -268,7 +268,7 @@ if false, the page’s ‘meta robots’ tag contains “nofollow” parameter i
 
 #### Defined in
 
-main.ts:144315
+[main.ts:144171](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L144171)
 
 ___
 
@@ -284,7 +284,7 @@ meta tag generator
 
 #### Defined in
 
-main.ts:144317
+[main.ts:144173](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L144173)
 
 ___
 
@@ -304,7 +304,7 @@ HTML header tags
 
 #### Defined in
 
-main.ts:144319
+[main.ts:144175](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L144175)
 
 ___
 
@@ -320,7 +320,7 @@ number of images on the page
 
 #### Defined in
 
-main.ts:144335
+[main.ts:144191](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L144191)
 
 ___
 
@@ -336,7 +336,7 @@ total size of images on the page measured in bytes
 
 #### Defined in
 
-main.ts:144337
+[main.ts:144193](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L144193)
 
 ___
 
@@ -352,7 +352,7 @@ number of internal links pointing at the page
 
 #### Defined in
 
-main.ts:144333
+[main.ts:144189](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L144189)
 
 ___
 
@@ -368,7 +368,7 @@ number of internal links on the page
 
 #### Defined in
 
-main.ts:144329
+[main.ts:144185](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L144185)
 
 ___
 
@@ -384,7 +384,7 @@ content of the keywords meta tag
 
 #### Defined in
 
-main.ts:144325
+[main.ts:144181](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L144181)
 
 ___
 
@@ -401,7 +401,7 @@ meta tag in the head section of an HTML document that defines the title of a pag
 
 #### Defined in
 
-main.ts:144359
+[main.ts:144215](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L144215)
 
 ___
 
@@ -417,7 +417,7 @@ number of scripts on the page that block page rendering
 
 #### Defined in
 
-main.ts:144351
+[main.ts:144207](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L144207)
 
 ___
 
@@ -433,7 +433,7 @@ number of CSS styles on the page that block page rendering
 
 #### Defined in
 
-main.ts:144353
+[main.ts:144209](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L144209)
 
 ___
 
@@ -449,7 +449,7 @@ number of scripts on the page
 
 #### Defined in
 
-main.ts:144339
+[main.ts:144195](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L144195)
 
 ___
 
@@ -465,7 +465,7 @@ total size of scripts on the page measured in bytes
 
 #### Defined in
 
-main.ts:144341
+[main.ts:144197](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L144197)
 
 ___
 
@@ -487,7 +487,7 @@ supported tags include but are not limited to Open Graph and Twitter card
 
 #### Defined in
 
-main.ts:144372
+[main.ts:144228](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L144228)
 
 ___
 
@@ -504,7 +504,7 @@ if the search engine provided results for a keyword that was corrected, we will 
 
 #### Defined in
 
-main.ts:144368
+[main.ts:144224](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L144224)
 
 ___
 
@@ -520,7 +520,7 @@ number of stylesheets on the page
 
 #### Defined in
 
-main.ts:144343
+[main.ts:144199](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L144199)
 
 ___
 
@@ -536,7 +536,7 @@ total size of stylesheets on the page measured in bytes
 
 #### Defined in
 
-main.ts:144345
+[main.ts:144201](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L144201)
 
 ___
 
@@ -552,7 +552,7 @@ page title
 
 #### Defined in
 
-main.ts:144309
+[main.ts:144165](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L144165)
 
 ___
 
@@ -568,7 +568,7 @@ length of the title tag in characters
 
 #### Defined in
 
-main.ts:144347
+[main.ts:144203](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L144203)
 
 ## Methods
 
@@ -588,7 +588,7 @@ main.ts:144347
 
 #### Defined in
 
-main.ts:144387
+[main.ts:144243](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L144243)
 
 ___
 
@@ -608,7 +608,7 @@ ___
 
 #### Defined in
 
-main.ts:144453
+[main.ts:144309](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L144309)
 
 ___
 
@@ -628,4 +628,4 @@ ___
 
 #### Defined in
 
-main.ts:144446
+[main.ts:144302](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L144302)

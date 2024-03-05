@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IMerchantGoogleSellersTaskGetAdvancedResultInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IMerchantGoogleSellersTaskGetAdvancedResultInfo
 
 # Interface: IMerchantGoogleSellersTaskGetAdvancedResultInfo
 
@@ -36,7 +36,7 @@ you can use it to make sure that we provided accurate results
 
 #### Defined in
 
-main.ts:167028
+[main.ts:166908](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L166908)
 
 ___
 
@@ -51,7 +51,7 @@ example:
 
 #### Defined in
 
-main.ts:167033
+[main.ts:166913](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L166913)
 
 ___
 
@@ -66,7 +66,7 @@ shops_list, buy_on_google
 
 #### Defined in
 
-main.ts:167038
+[main.ts:166918](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L166918)
 
 ___
 
@@ -78,7 +78,7 @@ items in SERP
 
 #### Defined in
 
-main.ts:167042
+[main.ts:166922](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L166922)
 
 ___
 
@@ -90,7 +90,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:167040
+[main.ts:166920](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L166920)
 
 ___
 
@@ -102,7 +102,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:167025
+[main.ts:166905](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L166905)
 
 ___
 
@@ -114,7 +114,7 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:167023
+[main.ts:166903](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L166903)
 
 ___
 
@@ -127,7 +127,7 @@ learn more about the parameter in this help center guide
 
 #### Defined in
 
-main.ts:167017
+[main.ts:166897](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L166897)
 
 ___
 
@@ -139,7 +139,7 @@ search engine domain in a POST array
 
 #### Defined in
 
-main.ts:167021
+[main.ts:166901](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L166901)
 
 ___
 
@@ -151,4 +151,4 @@ type of element
 
 #### Defined in
 
-main.ts:167019
+[main.ts:166899](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L166899)

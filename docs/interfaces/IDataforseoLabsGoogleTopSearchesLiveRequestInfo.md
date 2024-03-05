@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IDataforseoLabsGoogleTopSearchesLiveRequestInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IDataforseoLabsGoogleTopSearchesLiveRequestInfo
 
 # Interface: IDataforseoLabsGoogleTopSearchesLiveRequestInfo
 
@@ -54,7 +54,7 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 #### Defined in
 
-main.ts:85362
+[main.ts:85218](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L85218)
 
 ___
 
@@ -69,7 +69,7 @@ default value: false
 
 #### Defined in
 
-main.ts:85343
+[main.ts:85199](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L85199)
 
 ___
 
@@ -84,7 +84,7 @@ default value: false
 
 #### Defined in
 
-main.ts:85338
+[main.ts:85194](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L85194)
 
 ___
 
@@ -102,7 +102,7 @@ en
 
 #### Defined in
 
-main.ts:85333
+[main.ts:85189](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L85189)
 
 ___
 
@@ -120,7 +120,7 @@ English
 
 #### Defined in
 
-main.ts:85325
+[main.ts:85181](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L85181)
 
 ___
 
@@ -136,7 +136,7 @@ maximum value: 1000
 
 #### Defined in
 
-main.ts:85390
+[main.ts:85246](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L85246)
 
 ___
 
@@ -154,7 +154,7 @@ example:
 
 #### Defined in
 
-main.ts:85317
+[main.ts:85173](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L85173)
 
 ___
 
@@ -172,7 +172,7 @@ United Kingdom
 
 #### Defined in
 
-main.ts:85309
+[main.ts:85165](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L85165)
 
 ___
 
@@ -187,7 +187,7 @@ if you specify the 10 value, the first ten keywords in the results array will be
 
 #### Defined in
 
-main.ts:85395
+[main.ts:85251](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L85251)
 
 ___
 
@@ -205,7 +205,7 @@ Note: if the offset_token is specified in the request, all other parameters exce
 
 #### Defined in
 
-main.ts:85403
+[main.ts:85259](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L85259)
 
 ___
 
@@ -231,7 +231,7 @@ example:
 
 #### Defined in
 
-main.ts:85378
+[main.ts:85234](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L85234)
 
 ___
 
@@ -247,4 +247,4 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:85384
+[main.ts:85240](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L85240)

@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / BacklinksBulkNewLostReferringDomainsLiveItem
+[dataforseo-client](../README.md) / [Exports](../modules.md) / BacklinksBulkNewLostReferringDomainsLiveItem
 
 # Class: BacklinksBulkNewLostReferringDomainsLiveItem
 
@@ -48,7 +48,7 @@
 
 #### Defined in
 
-main.ts:141343
+[main.ts:141199](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L141199)
 
 ## Properties
 
@@ -65,7 +65,7 @@ number of lost referring domains of the target
 
 #### Defined in
 
-main.ts:141335
+[main.ts:141191](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L141191)
 
 ___
 
@@ -81,7 +81,7 @@ number of lost referring main domains pointing to the target
 
 #### Defined in
 
-main.ts:141339
+[main.ts:141195](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L141195)
 
 ___
 
@@ -98,7 +98,7 @@ number of new referring domains pointing to the target
 
 #### Defined in
 
-main.ts:141332
+[main.ts:141188](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L141188)
 
 ___
 
@@ -114,7 +114,7 @@ number of new referring main domains pointing to the target
 
 #### Defined in
 
-main.ts:141337
+[main.ts:141193](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L141193)
 
 ___
 
@@ -130,7 +130,7 @@ domain, subdomain or webpage from a POST array
 
 #### Defined in
 
-main.ts:141329
+[main.ts:141185](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L141185)
 
 ## Methods
 
@@ -150,7 +150,7 @@ main.ts:141329
 
 #### Defined in
 
-main.ts:141352
+[main.ts:141208](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L141208)
 
 ___
 
@@ -170,7 +170,7 @@ ___
 
 #### Defined in
 
-main.ts:141373
+[main.ts:141229](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L141229)
 
 ___
 
@@ -190,4 +190,4 @@ ___
 
 #### Defined in
 
-main.ts:141366
+[main.ts:141222](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L141222)

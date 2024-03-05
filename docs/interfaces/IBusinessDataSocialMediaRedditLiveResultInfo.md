@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IBusinessDataSocialMediaRedditLiveResultInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IBusinessDataSocialMediaRedditLiveResultInfo
 
 # Interface: IBusinessDataSocialMediaRedditLiveResultInfo
 
@@ -29,7 +29,7 @@ corresponding URL you specified in the targets array when setting a task
 
 #### Defined in
 
-main.ts:206483
+[main.ts:206363](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L206363)
 
 ___
 
@@ -41,7 +41,7 @@ reddit reviews for the page_url
 
 #### Defined in
 
-main.ts:206485
+[main.ts:206365](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L206365)
 
 ___
 
@@ -53,4 +53,4 @@ type of element
 
 #### Defined in
 
-main.ts:206480
+[main.ts:206360](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L206360)

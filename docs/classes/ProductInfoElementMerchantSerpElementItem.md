@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / ProductInfoElementMerchantSerpElementItem
+[dataforseo-client](../README.md) / [Exports](../modules.md) / ProductInfoElementMerchantSerpElementItem
 
 # Class: ProductInfoElementMerchantSerpElementItem
 
@@ -67,7 +67,7 @@
 
 #### Defined in
 
-main.ts:169305
+[main.ts:169185](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L169185)
 
 ## Properties
 
@@ -81,7 +81,7 @@ main.ts:169305
 
 #### Defined in
 
-main.ts:19988
+[main.ts:19988](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L19988)
 
 ___
 
@@ -97,7 +97,7 @@ description of the product
 
 #### Defined in
 
-main.ts:169280
+[main.ts:169160](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L169160)
 
 ___
 
@@ -114,7 +114,7 @@ contains snippets with the description of product features
 
 #### Defined in
 
-main.ts:169289
+[main.ts:169169](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L169169)
 
 ___
 
@@ -131,7 +131,7 @@ contains urls to product images
 
 #### Defined in
 
-main.ts:169286
+[main.ts:169166](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L169166)
 
 ___
 
@@ -149,7 +149,7 @@ right, left
 
 #### Defined in
 
-main.ts:169273
+[main.ts:169153](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L169153)
 
 ___
 
@@ -166,7 +166,7 @@ ilearn more about the parameter in this help center guide
 
 #### Defined in
 
-main.ts:169276
+[main.ts:169156](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L169156)
 
 ___
 
@@ -183,7 +183,7 @@ absolute position among all the elements found on the product specification page
 
 #### Defined in
 
-main.ts:169269
+[main.ts:169149](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L169149)
 
 ___
 
@@ -200,7 +200,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-main.ts:169266
+[main.ts:169146](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L169146)
 
 ___
 
@@ -217,7 +217,7 @@ the popularity rate based on reviews
 
 #### Defined in
 
-main.ts:169292
+[main.ts:169172](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L169172)
 
 ___
 
@@ -234,7 +234,7 @@ number of reviews on the product seller’s account
 
 #### Defined in
 
-main.ts:169295
+[main.ts:169175](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L169175)
 
 ___
 
@@ -251,7 +251,7 @@ number of reviews on the product seller’s account
 
 #### Defined in
 
-main.ts:169298
+[main.ts:169178](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L169178)
 
 ___
 
@@ -267,7 +267,7 @@ title of the product
 
 #### Defined in
 
-main.ts:169278
+[main.ts:169158](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L169158)
 
 ___
 
@@ -284,7 +284,7 @@ url of the product on Google Shopping
 
 #### Defined in
 
-main.ts:169283
+[main.ts:169163](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L169163)
 
 ___
 
@@ -301,7 +301,7 @@ contains brief information about different product variations
 
 #### Defined in
 
-main.ts:169301
+[main.ts:169181](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L169181)
 
 ## Methods
 
@@ -325,7 +325,7 @@ main.ts:169301
 
 #### Defined in
 
-main.ts:169310
+[main.ts:169190](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L169190)
 
 ___
 
@@ -349,7 +349,7 @@ ___
 
 #### Defined in
 
-main.ts:169356
+[main.ts:169236](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L169236)
 
 ___
 
@@ -373,4 +373,4 @@ ___
 
 #### Defined in
 
-main.ts:169349
+[main.ts:169229](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L169229)

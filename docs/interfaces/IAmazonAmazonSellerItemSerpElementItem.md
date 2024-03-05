@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IAmazonAmazonSellerItemSerpElementItem
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IAmazonAmazonSellerItemSerpElementItem
 
 # Interface: IAmazonAmazonSellerItemSerpElementItem
 
@@ -44,7 +44,7 @@ condition of the product offered by the seller
 
 #### Defined in
 
-main.ts:174485
+[main.ts:174365](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L174365)
 
 ___
 
@@ -57,7 +57,7 @@ expanded details on the condition of the product offered by the seller
 
 #### Defined in
 
-main.ts:174488
+[main.ts:174368](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L174368)
 
 ___
 
@@ -70,7 +70,7 @@ delivery information including free and fast delivery date ranges
 
 #### Defined in
 
-main.ts:174491
+[main.ts:174371](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L174371)
 
 ___
 
@@ -84,7 +84,7 @@ left, right
 
 #### Defined in
 
-main.ts:174468
+[main.ts:174348](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L174348)
 
 ___
 
@@ -97,7 +97,7 @@ if there are no details, the value will be null
 
 #### Defined in
 
-main.ts:174479
+[main.ts:174359](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L174359)
 
 ___
 
@@ -110,7 +110,7 @@ absolute position among all the elements found in Amazon Sellers SERP
 
 #### Defined in
 
-main.ts:174464
+[main.ts:174344](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L174344)
 
 ___
 
@@ -123,7 +123,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-main.ts:174461
+[main.ts:174341](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L174341)
 
 ___
 
@@ -136,7 +136,7 @@ seller popularity rate based on customer reviews
 
 #### Defined in
 
-main.ts:174482
+[main.ts:174362](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L174362)
 
 ___
 
@@ -148,7 +148,7 @@ business name of the seller
 
 #### Defined in
 
-main.ts:174472
+[main.ts:174352](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L174352)
 
 ___
 
@@ -160,7 +160,7 @@ url forwarding to the seller’s page on Amazon
 
 #### Defined in
 
-main.ts:174474
+[main.ts:174354](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L174354)
 
 ___
 
@@ -172,7 +172,7 @@ sender company name
 
 #### Defined in
 
-main.ts:174476
+[main.ts:174356](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L174356)
 
 ___
 
@@ -184,4 +184,4 @@ XPath of the element
 
 #### Defined in
 
-main.ts:174470
+[main.ts:174350](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L174350)

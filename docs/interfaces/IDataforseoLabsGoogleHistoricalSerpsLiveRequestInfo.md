@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IDataforseoLabsGoogleHistoricalSerpsLiveRequestInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IDataforseoLabsGoogleHistoricalSerpsLiveRequestInfo
 
 # Interface: IDataforseoLabsGoogleHistoricalSerpsLiveRequestInfo
 
@@ -37,7 +37,7 @@ date format: "yyyy-mm-dd"
 
 #### Defined in
 
-main.ts:91220
+[main.ts:91076](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L91076)
 
 ___
 
@@ -54,7 +54,7 @@ example:
 
 #### Defined in
 
-main.ts:91227
+[main.ts:91083](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L91083)
 
 ___
 
@@ -71,7 +71,7 @@ if you need to use the “+” symbol for your keyword, please specify it as “
 
 #### Defined in
 
-main.ts:91214
+[main.ts:91070](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L91070)
 
 ___
 
@@ -89,7 +89,7 @@ en
 
 #### Defined in
 
-main.ts:91257
+[main.ts:91113](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L91113)
 
 ___
 
@@ -107,7 +107,7 @@ English
 
 #### Defined in
 
-main.ts:91249
+[main.ts:91105](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L91105)
 
 ___
 
@@ -124,7 +124,7 @@ example:
 
 #### Defined in
 
-main.ts:91241
+[main.ts:91097](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L91097)
 
 ___
 
@@ -141,7 +141,7 @@ United Kingdom
 
 #### Defined in
 
-main.ts:91234
+[main.ts:91090](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L91090)
 
 ___
 
@@ -157,4 +157,4 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:91263
+[main.ts:91119](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L91119)

@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IKeywordsDataGoogleTrendsExploreLiveResultInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IKeywordsDataGoogleTrendsExploreLiveResultInfo
 
 # Interface: IKeywordsDataGoogleTrendsExploreLiveResultInfo
 
@@ -34,7 +34,7 @@ you can use it to make sure that we provided accurate results
 
 #### Defined in
 
-main.ts:121943
+[main.ts:121799](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L121799)
 
 ___
 
@@ -49,7 +49,7 @@ example:
 
 #### Defined in
 
-main.ts:121948
+[main.ts:121804](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L121804)
 
 ___
 
@@ -61,7 +61,7 @@ items on the Google Trends page
 
 #### Defined in
 
-main.ts:121952
+[main.ts:121808](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L121808)
 
 ___
 
@@ -73,7 +73,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:121950
+[main.ts:121806](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L121806)
 
 ___
 
@@ -85,7 +85,7 @@ keywords in a POST array
 
 #### Defined in
 
-main.ts:121932
+[main.ts:121788](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L121788)
 
 ___
 
@@ -98,7 +98,7 @@ if there is no data, then the value is null
 
 #### Defined in
 
-main.ts:121940
+[main.ts:121796](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L121796)
 
 ___
 
@@ -111,7 +111,7 @@ if there is no data, then the value is null
 
 #### Defined in
 
-main.ts:121937
+[main.ts:121793](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L121793)
 
 ___
 
@@ -123,4 +123,4 @@ type of element
 
 #### Defined in
 
-main.ts:121934
+[main.ts:121790](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L121790)

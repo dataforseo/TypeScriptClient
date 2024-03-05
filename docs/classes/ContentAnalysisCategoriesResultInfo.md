@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / ContentAnalysisCategoriesResultInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / ContentAnalysisCategoriesResultInfo
 
 # Class: ContentAnalysisCategoriesResultInfo
 
@@ -46,7 +46,7 @@
 
 #### Defined in
 
-main.ts:156013
+[main.ts:155869](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L155869)
 
 ## Properties
 
@@ -62,7 +62,7 @@ category code
 
 #### Defined in
 
-main.ts:155997
+[main.ts:155853](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L155853)
 
 ___
 
@@ -86,7 +86,7 @@ corresponds to:
 
 #### Defined in
 
-main.ts:156009
+[main.ts:155865](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L155865)
 
 ___
 
@@ -102,7 +102,7 @@ full name of the category
 
 #### Defined in
 
-main.ts:155999
+[main.ts:155855](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L155855)
 
 ## Methods
 
@@ -122,7 +122,7 @@ main.ts:155999
 
 #### Defined in
 
-main.ts:156022
+[main.ts:155878](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L155878)
 
 ___
 
@@ -142,7 +142,7 @@ ___
 
 #### Defined in
 
-main.ts:156041
+[main.ts:155897](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L155897)
 
 ___
 
@@ -162,4 +162,4 @@ ___
 
 #### Defined in
 
-main.ts:156034
+[main.ts:155890](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L155890)

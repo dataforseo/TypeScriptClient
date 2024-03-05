@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / DomainAnalyticsTechnologiesLanguagesResultInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / DomainAnalyticsTechnologiesLanguagesResultInfo
 
 # Class: DomainAnalyticsTechnologiesLanguagesResultInfo
 
@@ -45,7 +45,7 @@
 
 #### Defined in
 
-main.ts:72084
+[main.ts:71940](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L71940)
 
 ## Properties
 
@@ -61,7 +61,7 @@ language code according to ISO 639-1
 
 #### Defined in
 
-main.ts:72080
+[main.ts:71936](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L71936)
 
 ___
 
@@ -77,7 +77,7 @@ language name
 
 #### Defined in
 
-main.ts:72078
+[main.ts:71934](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L71934)
 
 ## Methods
 
@@ -97,7 +97,7 @@ main.ts:72078
 
 #### Defined in
 
-main.ts:72093
+[main.ts:71949](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L71949)
 
 ___
 
@@ -117,7 +117,7 @@ ___
 
 #### Defined in
 
-main.ts:72111
+[main.ts:71967](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L71967)
 
 ___
 
@@ -137,4 +137,4 @@ ___
 
 #### Defined in
 
-main.ts:72104
+[main.ts:71960](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L71960)

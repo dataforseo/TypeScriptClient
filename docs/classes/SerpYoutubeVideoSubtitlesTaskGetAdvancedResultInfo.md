@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / SerpYoutubeVideoSubtitlesTaskGetAdvancedResultInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / SerpYoutubeVideoSubtitlesTaskGetAdvancedResultInfo
 
 # Class: SerpYoutubeVideoSubtitlesTaskGetAdvancedResultInfo
 
@@ -59,7 +59,7 @@
 
 #### Defined in
 
-main.ts:60490
+[main.ts:60346](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L60346)
 
 ## Properties
 
@@ -75,7 +75,7 @@ the category the video belongs to
 
 #### Defined in
 
-main.ts:60478
+[main.ts:60334](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L60334)
 
 ___
 
@@ -92,7 +92,7 @@ you can use it to make sure that we provided accurate results
 
 #### Defined in
 
-main.ts:60457
+[main.ts:60313](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L60313)
 
 ___
 
@@ -111,7 +111,7 @@ example:
 
 #### Defined in
 
-main.ts:60462
+[main.ts:60318](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L60318)
 
 ___
 
@@ -130,7 +130,7 @@ youtube_subtitles
 
 #### Defined in
 
-main.ts:60470
+[main.ts:60326](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L60326)
 
 ___
 
@@ -146,7 +146,7 @@ elements of search results found in SERP
 
 #### Defined in
 
-main.ts:60486
+[main.ts:60342](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L60342)
 
 ___
 
@@ -162,7 +162,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:60484
+[main.ts:60340](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L60340)
 
 ___
 
@@ -178,7 +178,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:60454
+[main.ts:60310](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L60310)
 
 ___
 
@@ -194,7 +194,7 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:60452
+[main.ts:60308](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L60308)
 
 ___
 
@@ -210,7 +210,7 @@ language code of original text
 
 #### Defined in
 
-main.ts:60476
+[main.ts:60332](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L60332)
 
 ___
 
@@ -226,7 +226,7 @@ search engine domain in a POST array
 
 #### Defined in
 
-main.ts:60450
+[main.ts:60306](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L60306)
 
 ___
 
@@ -243,7 +243,7 @@ if the search engine provided results for a keyword that was corrected, we will 
 
 #### Defined in
 
-main.ts:60465
+[main.ts:60321](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L60321)
 
 ___
 
@@ -259,7 +259,7 @@ number of subtitles in the video
 
 #### Defined in
 
-main.ts:60480
+[main.ts:60336](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L60336)
 
 ___
 
@@ -275,7 +275,7 @@ title of the video
 
 #### Defined in
 
-main.ts:60482
+[main.ts:60338](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L60338)
 
 ___
 
@@ -291,7 +291,7 @@ language code of translated text
 
 #### Defined in
 
-main.ts:60474
+[main.ts:60330](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L60330)
 
 ___
 
@@ -307,7 +307,7 @@ indicates whether the language is unsupported by the system
 
 #### Defined in
 
-main.ts:60472
+[main.ts:60328](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L60328)
 
 ___
 
@@ -323,7 +323,7 @@ ID of the video received in a POST array
 
 #### Defined in
 
-main.ts:60448
+[main.ts:60304](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L60304)
 
 ## Methods
 
@@ -343,7 +343,7 @@ main.ts:60448
 
 #### Defined in
 
-main.ts:60499
+[main.ts:60355](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L60355)
 
 ___
 
@@ -363,7 +363,7 @@ ___
 
 #### Defined in
 
-main.ts:60539
+[main.ts:60395](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L60395)
 
 ___
 
@@ -383,4 +383,4 @@ ___
 
 #### Defined in
 
-main.ts:60532
+[main.ts:60388](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L60388)

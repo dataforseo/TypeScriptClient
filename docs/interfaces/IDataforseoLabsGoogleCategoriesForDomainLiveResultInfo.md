@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IDataforseoLabsGoogleCategoriesForDomainLiveResultInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IDataforseoLabsGoogleCategoriesForDomainLiveResultInfo
 
 # Interface: IDataforseoLabsGoogleCategoriesForDomainLiveResultInfo
 
@@ -32,7 +32,7 @@ contains relevant categories and related ranking data
 
 #### Defined in
 
-main.ts:83715
+[main.ts:83571](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L83571)
 
 ___
 
@@ -44,7 +44,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:83713
+[main.ts:83569](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L83569)
 
 ___
 
@@ -56,7 +56,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:83709
+[main.ts:83565](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L83565)
 
 ___
 
@@ -68,7 +68,7 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:83707
+[main.ts:83563](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L83563)
 
 ___
 
@@ -80,7 +80,7 @@ search engine type
 
 #### Defined in
 
-main.ts:83703
+[main.ts:83559](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L83559)
 
 ___
 
@@ -92,7 +92,7 @@ target domain or subdomain in a POST array
 
 #### Defined in
 
-main.ts:83705
+[main.ts:83561](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L83561)
 
 ___
 
@@ -104,4 +104,4 @@ total amount of results in our database relevant to your request
 
 #### Defined in
 
-main.ts:83711
+[main.ts:83567](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L83567)

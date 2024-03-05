@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IAppDataAppleAppInfoTaskPostRequestInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IAppDataAppleAppInfoTaskPostRequestInfo
 
 # Interface: IAppDataAppleAppInfoTaskPostRequestInfo
 
@@ -41,7 +41,7 @@ the id is 835599320
 
 #### Defined in
 
-main.ts:184117
+[main.ts:183997](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L183997)
 
 ___
 
@@ -58,7 +58,7 @@ en
 
 #### Defined in
 
-main.ts:184145
+[main.ts:184025](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L184025)
 
 ___
 
@@ -75,7 +75,7 @@ English
 
 #### Defined in
 
-main.ts:184138
+[main.ts:184018](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L184018)
 
 ___
 
@@ -92,7 +92,7 @@ example:
 
 #### Defined in
 
-main.ts:184131
+[main.ts:184011](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L184011)
 
 ___
 
@@ -109,7 +109,7 @@ West Los Angeles,California,United States
 
 #### Defined in
 
-main.ts:184124
+[main.ts:184004](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L184004)
 
 ___
 
@@ -129,7 +129,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-main.ts:184185
+[main.ts:184065](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L184065)
 
 ___
 
@@ -145,7 +145,7 @@ advanced
 
 #### Defined in
 
-main.ts:184175
+[main.ts:184055](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L184055)
 
 ___
 
@@ -165,7 +165,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-main.ts:184169
+[main.ts:184049](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L184049)
 
 ___
 
@@ -183,7 +183,7 @@ The cost can be calculated on the Pricing page.
 
 #### Defined in
 
-main.ts:184153
+[main.ts:184033](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L184033)
 
 ___
 
@@ -199,4 +199,4 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:184159
+[main.ts:184039](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L184039)

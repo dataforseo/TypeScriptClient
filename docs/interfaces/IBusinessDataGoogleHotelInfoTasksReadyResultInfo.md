@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IBusinessDataGoogleHotelInfoTasksReadyResultInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IBusinessDataGoogleHotelInfoTasksReadyResultInfo
 
 # Interface: IBusinessDataGoogleHotelInfoTasksReadyResultInfo
 
@@ -31,7 +31,7 @@ date when the task was posted (in the UTC format)
 
 #### Defined in
 
-main.ts:195276
+[main.ts:195156](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L195156)
 
 ___
 
@@ -43,7 +43,7 @@ URL for collecting the results of the task
 
 #### Defined in
 
-main.ts:195280
+[main.ts:195160](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L195160)
 
 ___
 
@@ -55,7 +55,7 @@ URL for collecting the results of the task
 
 #### Defined in
 
-main.ts:195282
+[main.ts:195162](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L195162)
 
 ___
 
@@ -68,7 +68,7 @@ unique task identifier in our system in the UUID format
 
 #### Defined in
 
-main.ts:195271
+[main.ts:195151](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L195151)
 
 ___
 
@@ -81,7 +81,7 @@ can take the following values: google
 
 #### Defined in
 
-main.ts:195274
+[main.ts:195154](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L195154)
 
 ___
 
@@ -93,4 +93,4 @@ user-defined task identifier
 
 #### Defined in
 
-main.ts:195278
+[main.ts:195158](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L195158)

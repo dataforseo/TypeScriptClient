@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / PageContentInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / PageContentInfo
 
 # Class: PageContentInfo
 
@@ -47,7 +47,7 @@
 
 #### Defined in
 
-main.ts:152351
+[main.ts:152207](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L152207)
 
 ## Properties
 
@@ -63,7 +63,7 @@ parsed content of the footer
 
 #### Defined in
 
-main.ts:152341
+[main.ts:152197](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L152197)
 
 ___
 
@@ -79,7 +79,7 @@ parsed content of the header
 
 #### Defined in
 
-main.ts:152339
+[main.ts:152195](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L152195)
 
 ___
 
@@ -96,7 +96,7 @@ you can find more information about topic priority calculation in this help cent
 
 #### Defined in
 
-main.ts:152344
+[main.ts:152200](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L152200)
 
 ___
 
@@ -113,7 +113,7 @@ you can find more information about topic priority calculation in this help cent
 
 #### Defined in
 
-main.ts:152347
+[main.ts:152203](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L152203)
 
 ## Methods
 
@@ -133,7 +133,7 @@ main.ts:152347
 
 #### Defined in
 
-main.ts:152360
+[main.ts:152216](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L152216)
 
 ___
 
@@ -153,7 +153,7 @@ ___
 
 #### Defined in
 
-main.ts:152388
+[main.ts:152244](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L152244)
 
 ___
 
@@ -173,4 +173,4 @@ ___
 
 #### Defined in
 
-main.ts:152381
+[main.ts:152237](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L152237)

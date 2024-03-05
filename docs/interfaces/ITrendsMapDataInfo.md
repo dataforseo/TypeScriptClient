@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / ITrendsMapDataInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / ITrendsMapDataInfo
 
 # Interface: ITrendsMapDataInfo
 
@@ -32,7 +32,7 @@ US-NY
 
 #### Defined in
 
-main.ts:120802
+[main.ts:120658](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L120658)
 
 ___
 
@@ -45,7 +45,7 @@ you can use this field for matching obtained results with location parameters sp
 
 #### Defined in
 
-main.ts:120805
+[main.ts:120661](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L120661)
 
 ___
 
@@ -59,7 +59,7 @@ if you specified only one keyword, the value will be null
 
 #### Defined in
 
-main.ts:120816
+[main.ts:120672](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L120672)
 
 ___
 
@@ -76,4 +76,4 @@ a value of 0 means there was not enough data for this term
 
 #### Defined in
 
-main.ts:120812
+[main.ts:120668](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L120668)

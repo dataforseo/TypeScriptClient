@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IPeopleAlsoAskExpandedElement
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IPeopleAlsoAskExpandedElement
 
 # Interface: IPeopleAlsoAskExpandedElement
 
@@ -34,7 +34,7 @@ description of the hotel booking element
 
 #### Defined in
 
-main.ts:28617
+[main.ts:28475](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L28475)
 
 ___
 
@@ -46,7 +46,7 @@ website domain
 
 #### Defined in
 
-main.ts:28613
+[main.ts:28471](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L28471)
 
 ___
 
@@ -58,7 +58,7 @@ the title of the featured snippets source page
 
 #### Defined in
 
-main.ts:28609
+[main.ts:28467](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L28467)
 
 ___
 
@@ -70,7 +70,7 @@ images of the element
 
 #### Defined in
 
-main.ts:28619
+[main.ts:28477](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L28477)
 
 ___
 
@@ -83,7 +83,7 @@ if there are none, equals null
 
 #### Defined in
 
-main.ts:28627
+[main.ts:28485](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L28485)
 
 ___
 
@@ -98,7 +98,7 @@ example:
 
 #### Defined in
 
-main.ts:28624
+[main.ts:28482](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L28482)
 
 ___
 
@@ -110,7 +110,7 @@ title of a given link element
 
 #### Defined in
 
-main.ts:28615
+[main.ts:28473](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L28473)
 
 ___
 
@@ -122,7 +122,7 @@ type of element
 
 #### Defined in
 
-main.ts:28607
+[main.ts:28465](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L28465)
 
 ___
 
@@ -134,4 +134,4 @@ URL
 
 #### Defined in
 
-main.ts:28611
+[main.ts:28469](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L28469)

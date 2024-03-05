@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / ContentGenerationGrammarRulesResultInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / ContentGenerationGrammarRulesResultInfo
 
 # Class: ContentGenerationGrammarRulesResultInfo
 
@@ -44,7 +44,7 @@
 
 #### Defined in
 
-main.ts:162083
+[main.ts:161963](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L161963)
 
 ## Properties
 
@@ -60,7 +60,7 @@ array of rules
 
 #### Defined in
 
-main.ts:162079
+[main.ts:161959](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L161959)
 
 ## Methods
 
@@ -80,7 +80,7 @@ main.ts:162079
 
 #### Defined in
 
-main.ts:162092
+[main.ts:161972](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L161972)
 
 ___
 
@@ -100,7 +100,7 @@ ___
 
 #### Defined in
 
-main.ts:162113
+[main.ts:161993](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L161993)
 
 ___
 
@@ -120,4 +120,4 @@ ___
 
 #### Defined in
 
-main.ts:162106
+[main.ts:161986](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L161986)

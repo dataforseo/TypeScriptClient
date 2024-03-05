@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / MetricsBundleInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / MetricsBundleInfo
 
 # Class: MetricsBundleInfo
 
@@ -45,7 +45,7 @@
 
 #### Defined in
 
-main.ts:76080
+[main.ts:75936](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L75936)
 
 ## Properties
 
@@ -61,7 +61,7 @@ ranking and traffic data from organic search
 
 #### Defined in
 
-main.ts:76074
+[main.ts:75930](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L75930)
 
 ___
 
@@ -77,7 +77,7 @@ ranking and traffic data from paid search
 
 #### Defined in
 
-main.ts:76076
+[main.ts:75932](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L75932)
 
 ## Methods
 
@@ -97,7 +97,7 @@ main.ts:76076
 
 #### Defined in
 
-main.ts:76089
+[main.ts:75945](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L75945)
 
 ___
 
@@ -117,7 +117,7 @@ ___
 
 #### Defined in
 
-main.ts:76107
+[main.ts:75963](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L75963)
 
 ___
 
@@ -137,4 +137,4 @@ ___
 
 #### Defined in
 
-main.ts:76100
+[main.ts:75956](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L75956)

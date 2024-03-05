@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / SocialMetricsInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / SocialMetricsInfo
 
 # Class: SocialMetricsInfo
 
@@ -45,7 +45,7 @@
 
 #### Defined in
 
-main.ts:21551
+[main.ts:21551](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L21551)
 
 ## Properties
 
@@ -61,7 +61,7 @@ likes count
 
 #### Defined in
 
-main.ts:21547
+[main.ts:21547](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L21547)
 
 ___
 
@@ -77,7 +77,7 @@ type of element
 
 #### Defined in
 
-main.ts:21545
+[main.ts:21545](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L21545)
 
 ## Methods
 
@@ -97,7 +97,7 @@ main.ts:21545
 
 #### Defined in
 
-main.ts:21560
+[main.ts:21560](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L21560)
 
 ___
 
@@ -117,7 +117,7 @@ ___
 
 #### Defined in
 
-main.ts:21578
+[main.ts:21578](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L21578)
 
 ___
 
@@ -137,4 +137,4 @@ ___
 
 #### Defined in
 
-main.ts:21571
+[main.ts:21571](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L21571)

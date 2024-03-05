@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IOnPageResourceIssueItemInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IOnPageResourceIssueItemInfo
 
 # Interface: IOnPageResourceIssueItemInfo
 
@@ -29,7 +29,7 @@ column where the error was found
 
 #### Defined in
 
-main.ts:144788
+[main.ts:144644](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L144644)
 
 ___
 
@@ -41,7 +41,7 @@ line where the error was found
 
 #### Defined in
 
-main.ts:144786
+[main.ts:144642](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L144642)
 
 ___
 
@@ -54,7 +54,7 @@ the full list of possible HTML errors can be found here
 
 #### Defined in
 
-main.ts:144791
+[main.ts:144647](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L144647)
 
 ___
 
@@ -75,4 +75,4 @@ possible values:
 
 #### Defined in
 
-main.ts:144802
+[main.ts:144658](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L144658)

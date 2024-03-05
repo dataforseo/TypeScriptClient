@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / AppendixDataforseoLabsLimitsRatesDataInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / AppendixDataforseoLabsLimitsRatesDataInfo
 
 # Class: AppendixDataforseoLabsLimitsRatesDataInfo
 
@@ -77,7 +77,7 @@
 
 #### Defined in
 
-main.ts:207222
+[main.ts:207102](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L207102)
 
 ## Properties
 
@@ -91,7 +91,7 @@ main.ts:207222
 
 #### Defined in
 
-main.ts:207214
+[main.ts:207094](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L207094)
 
 ___
 
@@ -105,7 +105,7 @@ ___
 
 #### Defined in
 
-main.ts:207216
+[main.ts:207096](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L207096)
 
 ___
 
@@ -119,7 +119,7 @@ ___
 
 #### Defined in
 
-main.ts:207217
+[main.ts:207097](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L207097)
 
 ___
 
@@ -133,7 +133,7 @@ ___
 
 #### Defined in
 
-main.ts:207201
+[main.ts:207081](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L207081)
 
 ___
 
@@ -147,7 +147,7 @@ ___
 
 #### Defined in
 
-main.ts:207202
+[main.ts:207082](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L207082)
 
 ___
 
@@ -161,7 +161,7 @@ ___
 
 #### Defined in
 
-main.ts:207200
+[main.ts:207080](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L207080)
 
 ___
 
@@ -175,7 +175,7 @@ ___
 
 #### Defined in
 
-main.ts:207186
+[main.ts:207066](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L207066)
 
 ___
 
@@ -189,7 +189,7 @@ ___
 
 #### Defined in
 
-main.ts:207207
+[main.ts:207087](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L207087)
 
 ___
 
@@ -203,7 +203,7 @@ ___
 
 #### Defined in
 
-main.ts:207195
+[main.ts:207075](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L207075)
 
 ___
 
@@ -217,7 +217,7 @@ ___
 
 #### Defined in
 
-main.ts:207198
+[main.ts:207078](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L207078)
 
 ___
 
@@ -231,7 +231,7 @@ ___
 
 #### Defined in
 
-main.ts:207208
+[main.ts:207088](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L207088)
 
 ___
 
@@ -245,7 +245,7 @@ ___
 
 #### Defined in
 
-main.ts:207197
+[main.ts:207077](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L207077)
 
 ___
 
@@ -259,7 +259,7 @@ ___
 
 #### Defined in
 
-main.ts:207210
+[main.ts:207090](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L207090)
 
 ___
 
@@ -273,7 +273,7 @@ ___
 
 #### Defined in
 
-main.ts:207187
+[main.ts:207067](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L207067)
 
 ___
 
@@ -287,7 +287,7 @@ ___
 
 #### Defined in
 
-main.ts:207211
+[main.ts:207091](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L207091)
 
 ___
 
@@ -301,7 +301,7 @@ ___
 
 #### Defined in
 
-main.ts:207206
+[main.ts:207086](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L207086)
 
 ___
 
@@ -315,7 +315,7 @@ ___
 
 #### Defined in
 
-main.ts:207213
+[main.ts:207093](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L207093)
 
 ___
 
@@ -329,7 +329,7 @@ ___
 
 #### Defined in
 
-main.ts:207205
+[main.ts:207085](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L207085)
 
 ___
 
@@ -343,7 +343,7 @@ ___
 
 #### Defined in
 
-main.ts:207204
+[main.ts:207084](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L207084)
 
 ___
 
@@ -357,7 +357,7 @@ ___
 
 #### Defined in
 
-main.ts:207215
+[main.ts:207095](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L207095)
 
 ___
 
@@ -371,7 +371,7 @@ ___
 
 #### Defined in
 
-main.ts:207212
+[main.ts:207092](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L207092)
 
 ___
 
@@ -385,7 +385,7 @@ ___
 
 #### Defined in
 
-main.ts:207203
+[main.ts:207083](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L207083)
 
 ___
 
@@ -399,7 +399,7 @@ ___
 
 #### Defined in
 
-main.ts:207185
+[main.ts:207065](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L207065)
 
 ___
 
@@ -413,7 +413,7 @@ ___
 
 #### Defined in
 
-main.ts:207199
+[main.ts:207079](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L207079)
 
 ___
 
@@ -427,7 +427,7 @@ ___
 
 #### Defined in
 
-main.ts:207188
+[main.ts:207068](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L207068)
 
 ___
 
@@ -441,7 +441,7 @@ ___
 
 #### Defined in
 
-main.ts:207189
+[main.ts:207069](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L207069)
 
 ___
 
@@ -455,7 +455,7 @@ ___
 
 #### Defined in
 
-main.ts:207190
+[main.ts:207070](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L207070)
 
 ___
 
@@ -469,7 +469,7 @@ ___
 
 #### Defined in
 
-main.ts:207191
+[main.ts:207071](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L207071)
 
 ___
 
@@ -483,7 +483,7 @@ ___
 
 #### Defined in
 
-main.ts:207196
+[main.ts:207076](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L207076)
 
 ___
 
@@ -497,7 +497,7 @@ ___
 
 #### Defined in
 
-main.ts:207194
+[main.ts:207074](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L207074)
 
 ___
 
@@ -511,7 +511,7 @@ ___
 
 #### Defined in
 
-main.ts:207218
+[main.ts:207098](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L207098)
 
 ___
 
@@ -525,7 +525,7 @@ ___
 
 #### Defined in
 
-main.ts:207192
+[main.ts:207072](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L207072)
 
 ___
 
@@ -539,7 +539,7 @@ ___
 
 #### Defined in
 
-main.ts:207193
+[main.ts:207073](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L207073)
 
 ___
 
@@ -553,7 +553,7 @@ ___
 
 #### Defined in
 
-main.ts:207209
+[main.ts:207089](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L207089)
 
 ## Methods
 
@@ -573,7 +573,7 @@ main.ts:207209
 
 #### Defined in
 
-main.ts:207231
+[main.ts:207111](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L207111)
 
 ___
 
@@ -593,7 +593,7 @@ ___
 
 #### Defined in
 
-main.ts:207281
+[main.ts:207161](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L207161)
 
 ___
 
@@ -613,4 +613,4 @@ ___
 
 #### Defined in
 
-main.ts:207274
+[main.ts:207154](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L207154)

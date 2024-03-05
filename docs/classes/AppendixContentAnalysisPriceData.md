@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / AppendixContentAnalysisPriceData
+[dataforseo-client](../README.md) / [Exports](../modules.md) / AppendixContentAnalysisPriceData
 
 # Class: AppendixContentAnalysisPriceData
 
@@ -53,7 +53,7 @@
 
 #### Defined in
 
-main.ts:211504
+[main.ts:211384](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L211384)
 
 ## Properties
 
@@ -67,7 +67,7 @@ main.ts:211504
 
 #### Defined in
 
-main.ts:211491
+[main.ts:211371](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L211371)
 
 ___
 
@@ -81,7 +81,7 @@ ___
 
 #### Defined in
 
-main.ts:211492
+[main.ts:211372](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L211372)
 
 ___
 
@@ -95,7 +95,7 @@ ___
 
 #### Defined in
 
-main.ts:211493
+[main.ts:211373](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L211373)
 
 ___
 
@@ -109,7 +109,7 @@ ___
 
 #### Defined in
 
-main.ts:211494
+[main.ts:211374](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L211374)
 
 ___
 
@@ -123,7 +123,7 @@ ___
 
 #### Defined in
 
-main.ts:211495
+[main.ts:211375](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L211375)
 
 ___
 
@@ -137,7 +137,7 @@ ___
 
 #### Defined in
 
-main.ts:211496
+[main.ts:211376](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L211376)
 
 ___
 
@@ -151,7 +151,7 @@ ___
 
 #### Defined in
 
-main.ts:211497
+[main.ts:211377](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L211377)
 
 ___
 
@@ -165,7 +165,7 @@ ___
 
 #### Defined in
 
-main.ts:211498
+[main.ts:211378](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L211378)
 
 ___
 
@@ -179,7 +179,7 @@ ___
 
 #### Defined in
 
-main.ts:211499
+[main.ts:211379](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L211379)
 
 ___
 
@@ -193,7 +193,7 @@ ___
 
 #### Defined in
 
-main.ts:211500
+[main.ts:211380](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L211380)
 
 ## Methods
 
@@ -213,7 +213,7 @@ main.ts:211500
 
 #### Defined in
 
-main.ts:211513
+[main.ts:211393](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L211393)
 
 ___
 
@@ -233,7 +233,7 @@ ___
 
 #### Defined in
 
-main.ts:211539
+[main.ts:211419](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L211419)
 
 ___
 
@@ -253,4 +253,4 @@ ___
 
 #### Defined in
 
-main.ts:211532
+[main.ts:211412](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L211412)

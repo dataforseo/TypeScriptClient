@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / DomainAnalyticsErrorsRequestInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / DomainAnalyticsErrorsRequestInfo
 
 # Class: DomainAnalyticsErrorsRequestInfo
 
@@ -48,7 +48,7 @@
 
 #### Defined in
 
-main.ts:71388
+[main.ts:71244](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L71244)
 
 ## Properties
 
@@ -69,7 +69,7 @@ example:
 
 #### Defined in
 
-main.ts:71377
+[main.ts:71233](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L71233)
 
 ___
 
@@ -90,7 +90,7 @@ example:
 
 #### Defined in
 
-main.ts:71384
+[main.ts:71240](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L71240)
 
 ___
 
@@ -110,7 +110,7 @@ example: domain_analytics/task_get, postback_url, pingback_url
 
 #### Defined in
 
-main.ts:71370
+[main.ts:71226](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L71226)
 
 ___
 
@@ -129,7 +129,7 @@ maximum value: 1000
 
 #### Defined in
 
-main.ts:71359
+[main.ts:71215](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L71215)
 
 ___
 
@@ -148,7 +148,7 @@ if you specify the 10 value, the first ten tasks in the results array will be om
 
 #### Defined in
 
-main.ts:71364
+[main.ts:71220](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L71220)
 
 ## Methods
 
@@ -168,7 +168,7 @@ main.ts:71364
 
 #### Defined in
 
-main.ts:71397
+[main.ts:71253](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L71253)
 
 ___
 
@@ -188,7 +188,7 @@ ___
 
 #### Defined in
 
-main.ts:71418
+[main.ts:71274](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L71274)
 
 ___
 
@@ -208,4 +208,4 @@ ___
 
 #### Defined in
 
-main.ts:71411
+[main.ts:71267](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L71267)

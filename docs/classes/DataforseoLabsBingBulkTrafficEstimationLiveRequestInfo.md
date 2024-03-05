@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / DataforseoLabsBingBulkTrafficEstimationLiveRequestInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / DataforseoLabsBingBulkTrafficEstimationLiveRequestInfo
 
 # Class: DataforseoLabsBingBulkTrafficEstimationLiveRequestInfo
 
@@ -50,7 +50,7 @@
 
 #### Defined in
 
-main.ts:102640
+[main.ts:102496](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L102496)
 
 ## Properties
 
@@ -73,7 +73,7 @@ default value:
 
 #### Defined in
 
-main.ts:102630
+[main.ts:102486](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L102486)
 
 ___
 
@@ -94,7 +94,7 @@ en
 
 #### Defined in
 
-main.ts:102621
+[main.ts:102477](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L102477)
 
 ___
 
@@ -115,7 +115,7 @@ English
 
 #### Defined in
 
-main.ts:102614
+[main.ts:102470](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L102470)
 
 ___
 
@@ -137,7 +137,7 @@ example:
 
 #### Defined in
 
-main.ts:102607
+[main.ts:102463](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L102463)
 
 ___
 
@@ -159,7 +159,7 @@ United States
 
 #### Defined in
 
-main.ts:102599
+[main.ts:102455](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L102455)
 
 ___
 
@@ -179,7 +179,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:102636
+[main.ts:102492](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L102492)
 
 ___
 
@@ -200,7 +200,7 @@ you can set up to 1000 domains, subdomains or webpages
 
 #### Defined in
 
-main.ts:102591
+[main.ts:102447](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L102447)
 
 ## Methods
 
@@ -220,7 +220,7 @@ main.ts:102591
 
 #### Defined in
 
-main.ts:102649
+[main.ts:102505](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L102505)
 
 ___
 
@@ -240,7 +240,7 @@ ___
 
 #### Defined in
 
-main.ts:102680
+[main.ts:102536](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L102536)
 
 ___
 
@@ -260,4 +260,4 @@ ___
 
 #### Defined in
 
-main.ts:102673
+[main.ts:102529](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L102529)

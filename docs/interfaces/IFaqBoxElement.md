@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IFaqBoxElement
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IFaqBoxElement
 
 # Interface: IFaqBoxElement
 
@@ -29,7 +29,7 @@ description of the results element in SERP
 
 #### Defined in
 
-main.ts:28033
+[main.ts:27891](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L27891)
 
 ___
 
@@ -41,7 +41,7 @@ link of the element
 
 #### Defined in
 
-main.ts:28035
+[main.ts:27893](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L27893)
 
 ___
 
@@ -53,7 +53,7 @@ title of the element
 
 #### Defined in
 
-main.ts:28031
+[main.ts:27889](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L27889)
 
 ___
 
@@ -65,4 +65,4 @@ type of element
 
 #### Defined in
 
-main.ts:28029
+[main.ts:27887](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L27887)

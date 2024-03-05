@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IDomainAnalyticsErrorsRequestInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IDomainAnalyticsErrorsRequestInfo
 
 # Interface: IDomainAnalyticsErrorsRequestInfo
 
@@ -35,7 +35,7 @@ example:
 
 #### Defined in
 
-main.ts:71456
+[main.ts:71312](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L71312)
 
 ___
 
@@ -52,7 +52,7 @@ example:
 
 #### Defined in
 
-main.ts:71463
+[main.ts:71319](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L71319)
 
 ___
 
@@ -68,7 +68,7 @@ example: domain_analytics/task_get, postback_url, pingback_url
 
 #### Defined in
 
-main.ts:71449
+[main.ts:71305](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L71305)
 
 ___
 
@@ -83,7 +83,7 @@ maximum value: 1000
 
 #### Defined in
 
-main.ts:71438
+[main.ts:71294](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L71294)
 
 ___
 
@@ -98,4 +98,4 @@ if you specify the 10 value, the first ten tasks in the results array will be om
 
 #### Defined in
 
-main.ts:71443
+[main.ts:71299](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L71299)

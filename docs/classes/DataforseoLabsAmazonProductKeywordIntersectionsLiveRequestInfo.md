@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / DataforseoLabsAmazonProductKeywordIntersectionsLiveRequestInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / DataforseoLabsAmazonProductKeywordIntersectionsLiveRequestInfo
 
 # Class: DataforseoLabsAmazonProductKeywordIntersectionsLiveRequestInfo
 
@@ -54,7 +54,7 @@
 
 #### Defined in
 
-main.ts:101758
+[main.ts:101614](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L101614)
 
 ## Properties
 
@@ -83,7 +83,7 @@ learn more about the parameter on this help center page
 
 #### Defined in
 
-main.ts:101675
+[main.ts:101531](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L101531)
 
 ___
 
@@ -108,7 +108,7 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 #### Defined in
 
-main.ts:101727
+[main.ts:101583](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L101583)
 
 ___
 
@@ -128,7 +128,7 @@ learn more about the parameter in this help center guide
 
 #### Defined in
 
-main.ts:101716
+[main.ts:101572](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L101572)
 
 ___
 
@@ -149,7 +149,7 @@ en
 
 #### Defined in
 
-main.ts:101705
+[main.ts:101561](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L101561)
 
 ___
 
@@ -170,7 +170,7 @@ English
 
 #### Defined in
 
-main.ts:101698
+[main.ts:101554](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L101554)
 
 ___
 
@@ -189,7 +189,7 @@ maximum value: 1000
 
 #### Defined in
 
-main.ts:101710
+[main.ts:101566](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L101566)
 
 ___
 
@@ -211,7 +211,7 @@ example:
 
 #### Defined in
 
-main.ts:101691
+[main.ts:101547](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L101547)
 
 ___
 
@@ -233,7 +233,7 @@ United Kingdom
 
 #### Defined in
 
-main.ts:101683
+[main.ts:101539](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L101539)
 
 ___
 
@@ -252,7 +252,7 @@ if you specify the 10 value, the first ten keywords in the results array will be
 
 #### Defined in
 
-main.ts:101748
+[main.ts:101604](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L101604)
 
 ___
 
@@ -282,7 +282,7 @@ default rule:
 
 #### Defined in
 
-main.ts:101743
+[main.ts:101599](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L101599)
 
 ___
 
@@ -302,7 +302,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:101754
+[main.ts:101610](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L101610)
 
 ## Methods
 
@@ -322,7 +322,7 @@ main.ts:101754
 
 #### Defined in
 
-main.ts:101767
+[main.ts:101623](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L101623)
 
 ___
 
@@ -342,7 +342,7 @@ ___
 
 #### Defined in
 
-main.ts:101808
+[main.ts:101664](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L101664)
 
 ___
 
@@ -362,4 +362,4 @@ ___
 
 #### Defined in
 
-main.ts:101801
+[main.ts:101657](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L101657)

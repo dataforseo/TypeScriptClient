@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IShoppingElement
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IShoppingElement
 
 # Interface: IShoppingElement
 
@@ -33,7 +33,7 @@ description of the results element in SERP
 
 #### Defined in
 
-main.ts:30623
+[main.ts:30481](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L30481)
 
 ___
 
@@ -48,7 +48,7 @@ by Google
 
 #### Defined in
 
-main.ts:30628
+[main.ts:30486](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L30486)
 
 ___
 
@@ -61,7 +61,7 @@ URL of the page on the marketplace website where the product is hosted
 
 #### Defined in
 
-main.ts:30631
+[main.ts:30489](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L30489)
 
 ___
 
@@ -73,7 +73,7 @@ price of booking a place for the specified dates of stay
 
 #### Defined in
 
-main.ts:30618
+[main.ts:30476](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L30476)
 
 ___
 
@@ -86,7 +86,7 @@ indicates the source of information included in the element
 
 #### Defined in
 
-main.ts:30621
+[main.ts:30479](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L30479)
 
 ___
 
@@ -98,7 +98,7 @@ title of the row
 
 #### Defined in
 
-main.ts:30616
+[main.ts:30474](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L30474)
 
 ___
 
@@ -110,7 +110,7 @@ type of element
 
 #### Defined in
 
-main.ts:30614
+[main.ts:30472](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L30472)
 
 ___
 
@@ -122,4 +122,4 @@ URL
 
 #### Defined in
 
-main.ts:30633
+[main.ts:30491](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L30491)

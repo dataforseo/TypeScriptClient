@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / ContentAnalysisAvailableFiltersResultInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / ContentAnalysisAvailableFiltersResultInfo
 
 # Class: ContentAnalysisAvailableFiltersResultInfo
 
@@ -44,7 +44,7 @@
 
 #### Defined in
 
-main.ts:155502
+[main.ts:155358](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L155358)
 
 ## Properties
 
@@ -62,7 +62,7 @@ main.ts:155502
 
 #### Defined in
 
-main.ts:155498
+[main.ts:155354](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L155354)
 
 ## Methods
 
@@ -82,7 +82,7 @@ main.ts:155498
 
 #### Defined in
 
-main.ts:155511
+[main.ts:155367](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L155367)
 
 ___
 
@@ -102,7 +102,7 @@ ___
 
 #### Defined in
 
-main.ts:155534
+[main.ts:155390](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L155390)
 
 ___
 
@@ -122,4 +122,4 @@ ___
 
 #### Defined in
 
-main.ts:155527
+[main.ts:155383](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L155383)

@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / ITopStoriesElement
+[dataforseo-client](../README.md) / [Exports](../modules.md) / ITopStoriesElement
 
 # Interface: ITopStoriesElement
 
@@ -34,7 +34,7 @@ indicates whether an item has the Accelerated Mobile Page (AMP) version
 
 #### Defined in
 
-main.ts:28400
+[main.ts:28258](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L28258)
 
 ___
 
@@ -46,7 +46,7 @@ the date when the page source of the element was published
 
 #### Defined in
 
-main.ts:28397
+[main.ts:28255](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L28255)
 
 ___
 
@@ -58,7 +58,7 @@ domain where a link points
 
 #### Defined in
 
-main.ts:28393
+[main.ts:28251](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L28251)
 
 ___
 
@@ -71,7 +71,7 @@ indicates the source of information included in the element
 
 #### Defined in
 
-main.ts:28391
+[main.ts:28249](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L28249)
 
 ___
 
@@ -86,7 +86,7 @@ example:
 
 #### Defined in
 
-main.ts:28405
+[main.ts:28263](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L28263)
 
 ___
 
@@ -98,7 +98,7 @@ title of the row
 
 #### Defined in
 
-main.ts:28395
+[main.ts:28253](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L28253)
 
 ___
 
@@ -110,7 +110,7 @@ type of element
 
 #### Defined in
 
-main.ts:28388
+[main.ts:28246](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L28246)
 
 ___
 
@@ -122,4 +122,4 @@ URL
 
 #### Defined in
 
-main.ts:28407
+[main.ts:28265](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L28265)

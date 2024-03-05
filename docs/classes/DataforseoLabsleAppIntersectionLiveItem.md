@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / DataforseoLabsleAppIntersectionLiveItem
+[dataforseo-client](../README.md) / [Exports](../modules.md) / DataforseoLabsleAppIntersectionLiveItem
 
 # Class: DataforseoLabsleAppIntersectionLiveItem
 
@@ -46,7 +46,7 @@
 
 #### Defined in
 
-main.ts:110026
+[main.ts:109882](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L109882)
 
 ## Properties
 
@@ -68,7 +68,7 @@ depending on the number of specified app IDs, it can contain from 1 to 20 arrays
 
 #### Defined in
 
-main.ts:110022
+[main.ts:109878](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L109878)
 
 ___
 
@@ -84,7 +84,7 @@ keyword data for the returned keyword
 
 #### Defined in
 
-main.ts:110018
+[main.ts:109874](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L109874)
 
 ___
 
@@ -100,7 +100,7 @@ search engine type
 
 #### Defined in
 
-main.ts:110016
+[main.ts:109872](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L109872)
 
 ## Methods
 
@@ -120,7 +120,7 @@ main.ts:110016
 
 #### Defined in
 
-main.ts:110035
+[main.ts:109891](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L109891)
 
 ___
 
@@ -140,7 +140,7 @@ ___
 
 #### Defined in
 
-main.ts:110060
+[main.ts:109916](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L109916)
 
 ___
 
@@ -160,4 +160,4 @@ ___
 
 #### Defined in
 
-main.ts:110053
+[main.ts:109909](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L109909)

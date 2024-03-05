@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IBusinessDataTripadvisorReviewsTasksReadyResultInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IBusinessDataTripadvisorReviewsTasksReadyResultInfo
 
 # Interface: IBusinessDataTripadvisorReviewsTasksReadyResultInfo
 
@@ -30,7 +30,7 @@ date when the task was posted (in the UTC format)
 
 #### Defined in
 
-main.ts:202335
+[main.ts:202215](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L202215)
 
 ___
 
@@ -42,7 +42,7 @@ URL for collecting the results of the task
 
 #### Defined in
 
-main.ts:202339
+[main.ts:202219](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L202219)
 
 ___
 
@@ -55,7 +55,7 @@ unique task identifier in our system in the UUID format
 
 #### Defined in
 
-main.ts:202330
+[main.ts:202210](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L202210)
 
 ___
 
@@ -68,7 +68,7 @@ can take the following values: tripadvisor
 
 #### Defined in
 
-main.ts:202333
+[main.ts:202213](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L202213)
 
 ___
 
@@ -80,4 +80,4 @@ user-defined task identifier
 
 #### Defined in
 
-main.ts:202337
+[main.ts:202217](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L202217)

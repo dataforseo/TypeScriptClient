@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / DeliveryInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / DeliveryInfo
 
 # Class: DeliveryInfo
 
@@ -46,7 +46,7 @@
 
 #### Defined in
 
-main.ts:164647
+[main.ts:164527](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L164527)
 
 ## Properties
 
@@ -63,7 +63,7 @@ message accompanying the delivery information as posted by the seller
 
 #### Defined in
 
-main.ts:164636
+[main.ts:164516](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L164516)
 
 ___
 
@@ -81,7 +81,7 @@ if free delivery is available, the value is null
 
 #### Defined in
 
-main.ts:164640
+[main.ts:164520](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L164520)
 
 ___
 
@@ -98,7 +98,7 @@ contains information about the number of stores that offer the same product
 
 #### Defined in
 
-main.ts:164643
+[main.ts:164523](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L164523)
 
 ## Methods
 
@@ -118,7 +118,7 @@ main.ts:164643
 
 #### Defined in
 
-main.ts:164656
+[main.ts:164536](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L164536)
 
 ___
 
@@ -138,7 +138,7 @@ ___
 
 #### Defined in
 
-main.ts:164675
+[main.ts:164555](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L164555)
 
 ___
 
@@ -158,4 +158,4 @@ ___
 
 #### Defined in
 
-main.ts:164668
+[main.ts:164548](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L164548)

@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IGraphElement
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IGraphElement
 
 # Interface: IGraphElement
 
@@ -28,7 +28,7 @@ the posting date
 
 #### Defined in
 
-main.ts:32539
+[main.ts:32397](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L32397)
 
 ___
 
@@ -40,7 +40,7 @@ type of element
 
 #### Defined in
 
-main.ts:32537
+[main.ts:32395](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L32395)
 
 ___
 
@@ -52,4 +52,4 @@ the value of the rating
 
 #### Defined in
 
-main.ts:32541
+[main.ts:32399](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L32399)

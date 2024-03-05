@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IBusinessDataTrustpilotSearchTaskGetResultInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IBusinessDataTrustpilotSearchTaskGetResultInfo
 
 # Interface: IBusinessDataTrustpilotSearchTaskGetResultInfo
 
@@ -32,7 +32,7 @@ you can use it to make sure that we provided accurate results
 
 #### Defined in
 
-main.ts:199402
+[main.ts:199282](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L199282)
 
 ___
 
@@ -47,7 +47,7 @@ example:
 
 #### Defined in
 
-main.ts:199407
+[main.ts:199287](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L199287)
 
 ___
 
@@ -60,7 +60,7 @@ you can get more results by using the depth parameter when setting a task
 
 #### Defined in
 
-main.ts:199413
+[main.ts:199293](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L199293)
 
 ___
 
@@ -73,7 +73,7 @@ you can get more results by using the depth parameter when setting a task
 
 #### Defined in
 
-main.ts:199410
+[main.ts:199290](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L199290)
 
 ___
 
@@ -85,7 +85,7 @@ keyword in a POST array
 
 #### Defined in
 
-main.ts:199397
+[main.ts:199277](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L199277)
 
 ___
 
@@ -97,4 +97,4 @@ search engine domain in a POST array
 
 #### Defined in
 
-main.ts:199399
+[main.ts:199279](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L199279)

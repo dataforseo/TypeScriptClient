@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / BusinessDataYelpLocationsResultInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / BusinessDataYelpLocationsResultInfo
 
 # Class: BusinessDataYelpLocationsResultInfo
 
@@ -48,7 +48,7 @@
 
 #### Defined in
 
-main.ts:202922
+[main.ts:202802](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L202802)
 
 ## Properties
 
@@ -64,7 +64,7 @@ ISO country code of the location
 
 #### Defined in
 
-main.ts:202916
+[main.ts:202796](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L202796)
 
 ___
 
@@ -80,7 +80,7 @@ location code
 
 #### Defined in
 
-main.ts:202906
+[main.ts:202786](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L202786)
 
 ___
 
@@ -96,7 +96,7 @@ full name of the location
 
 #### Defined in
 
-main.ts:202908
+[main.ts:202788](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L202788)
 
 ___
 
@@ -116,7 +116,7 @@ example:
 
 #### Defined in
 
-main.ts:202914
+[main.ts:202794](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L202794)
 
 ___
 
@@ -132,7 +132,7 @@ location type
 
 #### Defined in
 
-main.ts:202918
+[main.ts:202798](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L202798)
 
 ## Methods
 
@@ -152,7 +152,7 @@ main.ts:202918
 
 #### Defined in
 
-main.ts:202931
+[main.ts:202811](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L202811)
 
 ___
 
@@ -172,7 +172,7 @@ ___
 
 #### Defined in
 
-main.ts:202952
+[main.ts:202832](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L202832)
 
 ___
 
@@ -192,4 +192,4 @@ ___
 
 #### Defined in
 
-main.ts:202945
+[main.ts:202825](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L202825)

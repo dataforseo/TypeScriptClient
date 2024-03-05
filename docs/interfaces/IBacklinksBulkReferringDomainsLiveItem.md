@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IBacklinksBulkReferringDomainsLiveItem
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IBacklinksBulkReferringDomainsLiveItem
 
 # Interface: IBacklinksBulkReferringDomainsLiveItem
 
@@ -31,7 +31,7 @@ note that we calculate main domains (root domains, like example.com) and their s
 
 #### Defined in
 
-main.ts:140633
+[main.ts:140489](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L140489)
 
 ___
 
@@ -43,7 +43,7 @@ number of domains pointing at least one nofollow link to the target
 
 #### Defined in
 
-main.ts:140635
+[main.ts:140491](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L140491)
 
 ___
 
@@ -56,7 +56,7 @@ the number of primary (root) domains referring to your target
 
 #### Defined in
 
-main.ts:140638
+[main.ts:140494](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L140494)
 
 ___
 
@@ -68,7 +68,7 @@ number of main domains pointing at least one nofollow link to the target
 
 #### Defined in
 
-main.ts:140640
+[main.ts:140496](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L140496)
 
 ___
 
@@ -80,4 +80,4 @@ domain, subdomain or webpage from a POST array
 
 #### Defined in
 
-main.ts:140630
+[main.ts:140486](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L140486)

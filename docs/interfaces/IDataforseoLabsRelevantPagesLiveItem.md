@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IDataforseoLabsRelevantPagesLiveItem
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IDataforseoLabsRelevantPagesLiveItem
 
 # Interface: IDataforseoLabsRelevantPagesLiveItem
 
@@ -32,7 +32,7 @@ rankings and traffic metrics for the relevant page
 
 #### Defined in
 
-main.ts:90413
+[main.ts:90269](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L90269)
 
 ___
 
@@ -44,7 +44,7 @@ absolute URL of the relevant page
 
 #### Defined in
 
-main.ts:90411
+[main.ts:90267](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L90267)
 
 ___
 
@@ -56,4 +56,4 @@ search engine type
 
 #### Defined in
 
-main.ts:90409
+[main.ts:90265](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L90265)

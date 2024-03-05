@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IGoogleHotelsSerpElementItem
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IGoogleHotelsSerpElementItem
 
 # Interface: IGoogleHotelsSerpElementItem
 
@@ -39,7 +39,7 @@ google-defined client id
 
 #### Defined in
 
-main.ts:34027
+[main.ts:33885](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L33885)
 
 ___
 
@@ -53,7 +53,7 @@ example: "CgoIjaeSlI6CnNpVEAE"
 
 #### Defined in
 
-main.ts:34023
+[main.ts:33881](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L33881)
 
 ___
 
@@ -67,7 +67,7 @@ left, right
 
 #### Defined in
 
-main.ts:34017
+[main.ts:33875](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L33875)
 
 ___
 
@@ -80,7 +80,7 @@ absolute position among all the elements in SERP
 
 #### Defined in
 
-main.ts:34013
+[main.ts:33871](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L33871)
 
 ___
 
@@ -94,7 +94,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-main.ts:34010
+[main.ts:33868](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L33868)
 
 ___
 
@@ -108,7 +108,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 #### Defined in
 
-main.ts:34031
+[main.ts:33889](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L33889)
 
 ___
 
@@ -120,7 +120,7 @@ URL
 
 #### Defined in
 
-main.ts:34025
+[main.ts:33883](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L33883)
 
 ___
 
@@ -132,4 +132,4 @@ the XPath of the element
 
 #### Defined in
 
-main.ts:34019
+[main.ts:33877](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L33877)

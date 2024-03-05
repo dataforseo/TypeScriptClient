@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / KnowledgeGraphDataforseoLabsSerpElementItem
+[dataforseo-client](../README.md) / [Exports](../modules.md) / KnowledgeGraphDataforseoLabsSerpElementItem
 
 # Class: KnowledgeGraphDataforseoLabsSerpElementItem
 
@@ -68,7 +68,7 @@
 
 #### Defined in
 
-main.ts:92012
+[main.ts:91868](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L91868)
 
 ## Properties
 
@@ -82,7 +82,7 @@ main.ts:92012
 
 #### Defined in
 
-main.ts:19715
+[main.ts:19715](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L19715)
 
 ___
 
@@ -98,7 +98,7 @@ card id
 
 #### Defined in
 
-main.ts:91998
+[main.ts:91854](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L91854)
 
 ___
 
@@ -114,7 +114,7 @@ google-defined client id
 
 #### Defined in
 
-main.ts:92006
+[main.ts:91862](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L91862)
 
 ___
 
@@ -130,7 +130,7 @@ description of the results element in SERP
 
 #### Defined in
 
-main.ts:91996
+[main.ts:91852](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L91852)
 
 ___
 
@@ -146,7 +146,7 @@ URL of the image from knowledge graph
 
 #### Defined in
 
-main.ts:92002
+[main.ts:91858](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L91858)
 
 ___
 
@@ -162,7 +162,7 @@ elements of search results found in SERP
 
 #### Defined in
 
-main.ts:92008
+[main.ts:91864](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L91864)
 
 ___
 
@@ -178,7 +178,7 @@ URL of the logo from knowledge graph
 
 #### Defined in
 
-main.ts:92004
+[main.ts:91860](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L91860)
 
 ___
 
@@ -196,7 +196,7 @@ left, right
 
 #### Defined in
 
-main.ts:91988
+[main.ts:91844](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L91844)
 
 ___
 
@@ -213,7 +213,7 @@ absolute position among all the elements in SERP
 
 #### Defined in
 
-main.ts:91984
+[main.ts:91840](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L91840)
 
 ___
 
@@ -230,7 +230,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-main.ts:91981
+[main.ts:91837](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L91837)
 
 ___
 
@@ -246,7 +246,7 @@ search engine type
 
 #### Defined in
 
-main.ts:91978
+[main.ts:91834](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L91834)
 
 ___
 
@@ -262,7 +262,7 @@ subtitle of the item
 
 #### Defined in
 
-main.ts:91994
+[main.ts:91850](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L91850)
 
 ___
 
@@ -278,7 +278,7 @@ title of the result in SERP
 
 #### Defined in
 
-main.ts:91992
+[main.ts:91848](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L91848)
 
 ___
 
@@ -294,7 +294,7 @@ URL link
 
 #### Defined in
 
-main.ts:92000
+[main.ts:91856](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L91856)
 
 ___
 
@@ -310,7 +310,7 @@ the XPath of the element
 
 #### Defined in
 
-main.ts:91990
+[main.ts:91846](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L91846)
 
 ## Methods
 
@@ -334,7 +334,7 @@ main.ts:91990
 
 #### Defined in
 
-main.ts:92017
+[main.ts:91873](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L91873)
 
 ___
 
@@ -358,7 +358,7 @@ ___
 
 #### Defined in
 
-main.ts:92052
+[main.ts:91908](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L91908)
 
 ___
 
@@ -382,4 +382,4 @@ ___
 
 #### Defined in
 
-main.ts:92045
+[main.ts:91901](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L91901)

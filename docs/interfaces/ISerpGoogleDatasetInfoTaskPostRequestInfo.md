@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / ISerpGoogleDatasetInfoTaskPostRequestInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / ISerpGoogleDatasetInfoTaskPostRequestInfo
 
 # Interface: ISerpGoogleDatasetInfoTaskPostRequestInfo
 
@@ -39,7 +39,7 @@ L2cvMTFqbl85ZHN6MQ==
 
 #### Defined in
 
-main.ts:52053
+[main.ts:51911](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L51911)
 
 ___
 
@@ -53,7 +53,7 @@ possible value: desktop
 
 #### Defined in
 
-main.ts:52077
+[main.ts:51935](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L51935)
 
 ___
 
@@ -69,7 +69,7 @@ en
 
 #### Defined in
 
-main.ts:52073
+[main.ts:51931](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L51931)
 
 ___
 
@@ -85,7 +85,7 @@ English
 
 #### Defined in
 
-main.ts:52067
+[main.ts:51925](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L51925)
 
 ___
 
@@ -100,7 +100,7 @@ default value: windows
 
 #### Defined in
 
-main.ts:52082
+[main.ts:51940](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L51940)
 
 ___
 
@@ -120,7 +120,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-main.ts:52113
+[main.ts:51971](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L51971)
 
 ___
 
@@ -135,7 +135,7 @@ possible value: advanced
 
 #### Defined in
 
-main.ts:52103
+[main.ts:51961](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L51961)
 
 ___
 
@@ -155,7 +155,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-main.ts:52098
+[main.ts:51956](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L51956)
 
 ___
 
@@ -173,7 +173,7 @@ The cost can be calculated on the Pricing page.
 
 #### Defined in
 
-main.ts:52061
+[main.ts:51919](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L51919)
 
 ___
 
@@ -189,4 +189,4 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:52088
+[main.ts:51946](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L51946)

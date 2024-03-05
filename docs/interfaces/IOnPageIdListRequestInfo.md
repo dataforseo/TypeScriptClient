@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IOnPageIdListRequestInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IOnPageIdListRequestInfo
 
 # Interface: IOnPageIdListRequestInfo
 
@@ -37,7 +37,7 @@ example:
 
 #### Defined in
 
-main.ts:141672
+[main.ts:141528](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L141528)
 
 ___
 
@@ -54,7 +54,7 @@ example:
 
 #### Defined in
 
-main.ts:141679
+[main.ts:141535](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L141535)
 
 ___
 
@@ -68,7 +68,7 @@ default value: false
 
 #### Defined in
 
-main.ts:141698
+[main.ts:141554](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L141554)
 
 ___
 
@@ -83,7 +83,7 @@ maximum value: 1000
 
 #### Defined in
 
-main.ts:141684
+[main.ts:141540](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L141540)
 
 ___
 
@@ -98,7 +98,7 @@ if you specify the 10 value, the first ten tasks in the results array will be om
 
 #### Defined in
 
-main.ts:141689
+[main.ts:141545](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L141545)
 
 ___
 
@@ -113,4 +113,4 @@ default value: "asc"
 
 #### Defined in
 
-main.ts:141694
+[main.ts:141550](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L141550)

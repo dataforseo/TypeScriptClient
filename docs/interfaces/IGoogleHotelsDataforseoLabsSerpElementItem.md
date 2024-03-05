@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IGoogleHotelsDataforseoLabsSerpElementItem
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IGoogleHotelsDataforseoLabsSerpElementItem
 
 # Interface: IGoogleHotelsDataforseoLabsSerpElementItem
 
@@ -39,7 +39,7 @@ example: "CgoIjaeSlI6CnNpVEAE"
 
 #### Defined in
 
-main.ts:96330
+[main.ts:96186](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L96186)
 
 ___
 
@@ -53,7 +53,7 @@ left, right
 
 #### Defined in
 
-main.ts:96324
+[main.ts:96180](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L96180)
 
 ___
 
@@ -66,7 +66,7 @@ absolute position among all the elements in SERP
 
 #### Defined in
 
-main.ts:96320
+[main.ts:96176](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L96176)
 
 ___
 
@@ -79,7 +79,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-main.ts:96317
+[main.ts:96173](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L96173)
 
 ___
 
@@ -91,7 +91,7 @@ URL link
 
 #### Defined in
 
-main.ts:96332
+[main.ts:96188](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L96188)
 
 ___
 
@@ -103,4 +103,4 @@ the XPath of the element
 
 #### Defined in
 
-main.ts:96326
+[main.ts:96182](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L96182)

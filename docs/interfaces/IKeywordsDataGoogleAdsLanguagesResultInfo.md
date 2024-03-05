@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IKeywordsDataGoogleAdsLanguagesResultInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IKeywordsDataGoogleAdsLanguagesResultInfo
 
 # Interface: IKeywordsDataGoogleAdsLanguagesResultInfo
 
@@ -27,7 +27,7 @@ language code according to ISO 639-1
 
 #### Defined in
 
-main.ts:113493
+[main.ts:113349](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L113349)
 
 ___
 
@@ -39,4 +39,4 @@ language name
 
 #### Defined in
 
-main.ts:113491
+[main.ts:113347](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L113347)

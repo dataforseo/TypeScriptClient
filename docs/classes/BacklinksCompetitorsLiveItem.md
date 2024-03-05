@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / BacklinksCompetitorsLiveItem
+[dataforseo-client](../README.md) / [Exports](../modules.md) / BacklinksCompetitorsLiveItem
 
 # Class: BacklinksCompetitorsLiveItem
 
@@ -47,7 +47,7 @@
 
 #### Defined in
 
-main.ts:136278
+[main.ts:136134](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L136134)
 
 ## Properties
 
@@ -63,7 +63,7 @@ indicates the number of backlink intersections with the target specified in the 
 
 #### Defined in
 
-main.ts:136274
+[main.ts:136130](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L136130)
 
 ___
 
@@ -82,7 +82,7 @@ learn more about the metric and how it is calculated in this help center article
 
 #### Defined in
 
-main.ts:136272
+[main.ts:136128](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L136128)
 
 ___
 
@@ -98,7 +98,7 @@ competitor domain
 
 #### Defined in
 
-main.ts:136267
+[main.ts:136123](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L136123)
 
 ___
 
@@ -114,7 +114,7 @@ type of element
 
 #### Defined in
 
-main.ts:136265
+[main.ts:136121](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L136121)
 
 ## Methods
 
@@ -134,7 +134,7 @@ main.ts:136265
 
 #### Defined in
 
-main.ts:136287
+[main.ts:136143](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L136143)
 
 ___
 
@@ -154,7 +154,7 @@ ___
 
 #### Defined in
 
-main.ts:136307
+[main.ts:136163](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L136163)
 
 ___
 
@@ -174,4 +174,4 @@ ___
 
 #### Defined in
 
-main.ts:136300
+[main.ts:136156](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L136156)

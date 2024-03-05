@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IOnPageLinksRequestInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IOnPageLinksRequestInfo
 
 # Interface: IOnPageLinksRequestInfo
 
@@ -47,7 +47,7 @@ The full list of possible filters is available by this link.
 
 #### Defined in
 
-main.ts:148168
+[main.ts:148024](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L148024)
 
 ___
 
@@ -63,7 +63,7 @@ example:
 
 #### Defined in
 
-main.ts:148131
+[main.ts:147987](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L147987)
 
 ___
 
@@ -78,7 +78,7 @@ maximum value: 1000
 
 #### Defined in
 
-main.ts:148146
+[main.ts:148002](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L148002)
 
 ___
 
@@ -93,7 +93,7 @@ if you specify the 10 value, the first ten links in the results array will be om
 
 #### Defined in
 
-main.ts:148151
+[main.ts:148007](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L148007)
 
 ___
 
@@ -108,7 +108,7 @@ note that in this field you can specify relative URLs only
 
 #### Defined in
 
-main.ts:148136
+[main.ts:147992](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L147992)
 
 ___
 
@@ -123,7 +123,7 @@ note that in this field you can specify relative URLs only
 
 #### Defined in
 
-main.ts:148141
+[main.ts:147997](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L147997)
 
 ___
 
@@ -139,4 +139,4 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:148174
+[main.ts:148030](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L148030)

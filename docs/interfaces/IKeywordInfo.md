@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IKeywordInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IKeywordInfo
 
 # Interface: IKeywordInfo
 
@@ -36,7 +36,7 @@ you can download the full list of possible categories
 
 #### Defined in
 
-main.ts:79148
+[main.ts:79004](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L79004)
 
 ___
 
@@ -49,7 +49,7 @@ represents the relative amount of competition associated with the given keyword.
 
 #### Defined in
 
-main.ts:79125
+[main.ts:78981](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L78981)
 
 ___
 
@@ -65,7 +65,7 @@ learn more about the metric in this help center article
 
 #### Defined in
 
-main.ts:79131
+[main.ts:78987](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L78987)
 
 ___
 
@@ -78,7 +78,7 @@ represents the average cost per click (USD) historically paid for the keyword
 
 #### Defined in
 
-main.ts:79134
+[main.ts:78990](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L78990)
 
 ___
 
@@ -92,7 +92,7 @@ the value may differ depending on the location specified in a POST request
 
 #### Defined in
 
-main.ts:79145
+[main.ts:79001](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L79001)
 
 ___
 
@@ -107,7 +107,7 @@ example:
 
 #### Defined in
 
-main.ts:79122
+[main.ts:78978](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L78978)
 
 ___
 
@@ -121,7 +121,7 @@ the value may differ depending on the location specified in a POST request
 
 #### Defined in
 
-main.ts:79141
+[main.ts:78997](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L78997)
 
 ___
 
@@ -134,7 +134,7 @@ represents the (approximate) number of searches on this keyword idea (as availab
 
 #### Defined in
 
-main.ts:79151
+[main.ts:79007](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L79007)
 
 ___
 
@@ -146,7 +146,7 @@ search engine type
 
 #### Defined in
 
-main.ts:79117
+[main.ts:78973](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L78973)
 
 ___
 
@@ -159,4 +159,4 @@ represents the (approximate) number of searches for the given keyword idea on go
 
 #### Defined in
 
-main.ts:79137
+[main.ts:78993](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L78993)

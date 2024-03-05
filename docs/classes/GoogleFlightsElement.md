@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / GoogleFlightsElement
+[dataforseo-client](../README.md) / [Exports](../modules.md) / GoogleFlightsElement
 
 # Class: GoogleFlightsElement
 
@@ -46,7 +46,7 @@
 
 #### Defined in
 
-main.ts:30754
+[main.ts:30612](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L30612)
 
 ## Properties
 
@@ -62,7 +62,7 @@ description of the results element in SERP
 
 #### Defined in
 
-main.ts:30748
+[main.ts:30606](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L30606)
 
 ___
 
@@ -78,7 +78,7 @@ type of element
 
 #### Defined in
 
-main.ts:30746
+[main.ts:30604](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L30604)
 
 ___
 
@@ -94,7 +94,7 @@ URL
 
 #### Defined in
 
-main.ts:30750
+[main.ts:30608](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L30608)
 
 ## Methods
 
@@ -114,7 +114,7 @@ main.ts:30750
 
 #### Defined in
 
-main.ts:30763
+[main.ts:30621](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L30621)
 
 ___
 
@@ -134,7 +134,7 @@ ___
 
 #### Defined in
 
-main.ts:30782
+[main.ts:30640](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L30640)
 
 ___
 
@@ -154,4 +154,4 @@ ___
 
 #### Defined in
 
-main.ts:30775
+[main.ts:30633](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L30633)

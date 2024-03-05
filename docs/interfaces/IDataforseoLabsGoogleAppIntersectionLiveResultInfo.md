@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IDataforseoLabsGoogleAppIntersectionLiveResultInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IDataforseoLabsGoogleAppIntersectionLiveResultInfo
 
 # Interface: IDataforseoLabsGoogleAppIntersectionLiveResultInfo
 
@@ -36,7 +36,7 @@ ids of the apps in a POST array
 
 #### Defined in
 
-main.ts:110183
+[main.ts:110039](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L110039)
 
 ___
 
@@ -48,7 +48,7 @@ contains data related to the ranking keywords for the app specified in the app_i
 
 #### Defined in
 
-main.ts:110193
+[main.ts:110049](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L110049)
 
 ___
 
@@ -60,7 +60,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:110191
+[main.ts:110047](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L110047)
 
 ___
 
@@ -72,7 +72,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:110187
+[main.ts:110043](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L110043)
 
 ___
 
@@ -84,7 +84,7 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:110185
+[main.ts:110041](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L110041)
 
 ___
 
@@ -96,7 +96,7 @@ search engine type
 
 #### Defined in
 
-main.ts:110181
+[main.ts:110037](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L110037)
 
 ___
 
@@ -108,4 +108,4 @@ total amount of results in our database relevant to your request
 
 #### Defined in
 
-main.ts:110189
+[main.ts:110045](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L110045)

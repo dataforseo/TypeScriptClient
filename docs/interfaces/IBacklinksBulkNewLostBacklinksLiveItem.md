@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IBacklinksBulkNewLostBacklinksLiveItem
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IBacklinksBulkNewLostBacklinksLiveItem
 
 # Interface: IBacklinksBulkNewLostBacklinksLiveItem
 
@@ -29,7 +29,7 @@ number of lost backlinks of the target
 
 #### Defined in
 
-main.ts:141014
+[main.ts:140870](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L140870)
 
 ___
 
@@ -42,7 +42,7 @@ number of new backlinks pointing to the target
 
 #### Defined in
 
-main.ts:141011
+[main.ts:140867](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L140867)
 
 ___
 
@@ -54,4 +54,4 @@ domain, subdomain or webpage from a POST array
 
 #### Defined in
 
-main.ts:141008
+[main.ts:140864](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L140864)

@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / SerpSeznamLocationsCountryResultInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / SerpSeznamLocationsCountryResultInfo
 
 # Class: SerpSeznamLocationsCountryResultInfo
 
@@ -48,7 +48,7 @@
 
 #### Defined in
 
-main.ts:69100
+[main.ts:68956](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L68956)
 
 ## Properties
 
@@ -64,7 +64,7 @@ ISO country code of the location
 
 #### Defined in
 
-main.ts:69094
+[main.ts:68950](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L68950)
 
 ___
 
@@ -80,7 +80,7 @@ location code
 
 #### Defined in
 
-main.ts:69086
+[main.ts:68942](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L68942)
 
 ___
 
@@ -98,7 +98,7 @@ don’t match locations by location_code_parent because the results for Region a
 
 #### Defined in
 
-main.ts:69092
+[main.ts:68948](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L68948)
 
 ___
 
@@ -114,7 +114,7 @@ full name of the location
 
 #### Defined in
 
-main.ts:69088
+[main.ts:68944](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L68944)
 
 ___
 
@@ -130,7 +130,7 @@ location type
 
 #### Defined in
 
-main.ts:69096
+[main.ts:68952](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L68952)
 
 ## Methods
 
@@ -150,7 +150,7 @@ main.ts:69096
 
 #### Defined in
 
-main.ts:69109
+[main.ts:68965](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L68965)
 
 ___
 
@@ -170,7 +170,7 @@ ___
 
 #### Defined in
 
-main.ts:69130
+[main.ts:68986](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L68986)
 
 ___
 
@@ -190,4 +190,4 @@ ___
 
 #### Defined in
 
-main.ts:69123
+[main.ts:68979](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L68979)

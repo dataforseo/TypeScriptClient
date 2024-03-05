@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / BusinessDataGoogleHotelSearchesLiveResultInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / BusinessDataGoogleHotelSearchesLiveResultInfo
 
 # Class: BusinessDataGoogleHotelSearchesLiveResultInfo
 
@@ -50,7 +50,7 @@
 
 #### Defined in
 
-main.ts:194743
+[main.ts:194623](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L194623)
 
 ## Properties
 
@@ -67,7 +67,7 @@ you can use it to make sure that we provided accurate results
 
 #### Defined in
 
-main.ts:194728
+[main.ts:194608](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L194608)
 
 ___
 
@@ -86,7 +86,7 @@ example:
 
 #### Defined in
 
-main.ts:194733
+[main.ts:194613](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L194613)
 
 ___
 
@@ -103,7 +103,7 @@ note: this field always equals null; use it to facilitate integration and ensure
 
 #### Defined in
 
-main.ts:194739
+[main.ts:194619](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L194619)
 
 ___
 
@@ -120,7 +120,7 @@ the number of items in the items array
 
 #### Defined in
 
-main.ts:194736
+[main.ts:194616](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L194616)
 
 ___
 
@@ -137,7 +137,7 @@ keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a s
 
 #### Defined in
 
-main.ts:194721
+[main.ts:194601](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L194601)
 
 ___
 
@@ -153,7 +153,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:194725
+[main.ts:194605](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L194605)
 
 ___
 
@@ -169,7 +169,7 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:194723
+[main.ts:194603](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L194603)
 
 ## Methods
 
@@ -189,7 +189,7 @@ main.ts:194723
 
 #### Defined in
 
-main.ts:194752
+[main.ts:194632](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L194632)
 
 ___
 
@@ -209,7 +209,7 @@ ___
 
 #### Defined in
 
-main.ts:194779
+[main.ts:194659](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L194659)
 
 ___
 
@@ -229,4 +229,4 @@ ___
 
 #### Defined in
 
-main.ts:194772
+[main.ts:194652](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L194652)

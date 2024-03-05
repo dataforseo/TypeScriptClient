@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / KnowledgeGraphListElement
+[dataforseo-client](../README.md) / [Exports](../modules.md) / KnowledgeGraphListElement
 
 # Class: KnowledgeGraphListElement
 
@@ -50,7 +50,7 @@
 
 #### Defined in
 
-main.ts:26273
+[main.ts:26131](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L26131)
 
 ## Properties
 
@@ -66,7 +66,7 @@ domain in SERP
 
 #### Defined in
 
-main.ts:26264
+[main.ts:26122](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L26122)
 
 ___
 
@@ -83,7 +83,7 @@ the URL leading to the image on the original resource or DataForSEO storage (in 
 
 #### Defined in
 
-main.ts:26267
+[main.ts:26125](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L26125)
 
 ___
 
@@ -99,7 +99,7 @@ subtitle of the item
 
 #### Defined in
 
-main.ts:26260
+[main.ts:26118](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L26118)
 
 ___
 
@@ -115,7 +115,7 @@ link anchor text
 
 #### Defined in
 
-main.ts:26258
+[main.ts:26116](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L26116)
 
 ___
 
@@ -131,7 +131,7 @@ type of element
 
 #### Defined in
 
-main.ts:26256
+[main.ts:26114](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L26114)
 
 ___
 
@@ -147,7 +147,7 @@ sitelink URL
 
 #### Defined in
 
-main.ts:26262
+[main.ts:26120](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L26120)
 
 ___
 
@@ -163,7 +163,7 @@ the XPath of the element
 
 #### Defined in
 
-main.ts:26269
+[main.ts:26127](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L26127)
 
 ## Methods
 
@@ -183,7 +183,7 @@ main.ts:26269
 
 #### Defined in
 
-main.ts:26282
+[main.ts:26140](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L26140)
 
 ___
 
@@ -203,7 +203,7 @@ ___
 
 #### Defined in
 
-main.ts:26305
+[main.ts:26163](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L26163)
 
 ___
 
@@ -223,4 +223,4 @@ ___
 
 #### Defined in
 
-main.ts:26298
+[main.ts:26156](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L26156)

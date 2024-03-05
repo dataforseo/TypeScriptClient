@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / MerchantGoogleSellersTaskGetHtmlResultInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / MerchantGoogleSellersTaskGetHtmlResultInfo
 
 # Class: MerchantGoogleSellersTaskGetHtmlResultInfo
 
@@ -51,7 +51,7 @@
 
 #### Defined in
 
-main.ts:167180
+[main.ts:167060](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L167060)
 
 ## Properties
 
@@ -70,7 +70,7 @@ example:
 
 #### Defined in
 
-main.ts:167172
+[main.ts:167052](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L167052)
 
 ___
 
@@ -86,7 +86,7 @@ elements of search results found on Google Shopping
 
 #### Defined in
 
-main.ts:167176
+[main.ts:167056](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L167056)
 
 ___
 
@@ -102,7 +102,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:167174
+[main.ts:167054](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L167054)
 
 ___
 
@@ -118,7 +118,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:167167
+[main.ts:167047](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L167047)
 
 ___
 
@@ -134,7 +134,7 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:167165
+[main.ts:167045](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L167045)
 
 ___
 
@@ -150,7 +150,7 @@ product_id received in a POST array
 
 #### Defined in
 
-main.ts:167159
+[main.ts:167039](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L167039)
 
 ___
 
@@ -166,7 +166,7 @@ search engine domain in a POST array
 
 #### Defined in
 
-main.ts:167163
+[main.ts:167043](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L167043)
 
 ___
 
@@ -182,7 +182,7 @@ type of element
 
 #### Defined in
 
-main.ts:167161
+[main.ts:167041](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L167041)
 
 ## Methods
 
@@ -202,7 +202,7 @@ main.ts:167161
 
 #### Defined in
 
-main.ts:167189
+[main.ts:167069](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L167069)
 
 ___
 
@@ -222,7 +222,7 @@ ___
 
 #### Defined in
 
-main.ts:167217
+[main.ts:167097](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L167097)
 
 ___
 
@@ -242,4 +242,4 @@ ___
 
 #### Defined in
 
-main.ts:167210
+[main.ts:167090](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L167090)

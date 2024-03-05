@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IHotelPriceItemInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IHotelPriceItemInfo
 
 # Interface: IHotelPriceItemInfo
 
@@ -35,7 +35,7 @@ USD is applied by default, unless specified in the POST array
 
 #### Defined in
 
-main.ts:193785
+[main.ts:193665](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L193665)
 
 ___
 
@@ -48,7 +48,7 @@ domain of the third-party website page with pricing information
 
 #### Defined in
 
-main.ts:193791
+[main.ts:193671](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L193671)
 
 ___
 
@@ -62,7 +62,7 @@ equals null if free cancellation is not available for the selected dates
 
 #### Defined in
 
-main.ts:193799
+[main.ts:193679](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L193679)
 
 ___
 
@@ -76,7 +76,7 @@ if false, related hotel_search_item is an organic hotel listing
 
 #### Defined in
 
-main.ts:193795
+[main.ts:193675](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L193675)
 
 ___
 
@@ -88,7 +88,7 @@ featured price offers
 
 #### Defined in
 
-main.ts:193801
+[main.ts:193681](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L193681)
 
 ___
 
@@ -100,7 +100,7 @@ price per night
 
 #### Defined in
 
-main.ts:193782
+[main.ts:193662](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L193662)
 
 ___
 
@@ -112,7 +112,7 @@ title of the hotel
 
 #### Defined in
 
-main.ts:193780
+[main.ts:193660](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L193660)
 
 ___
 
@@ -124,7 +124,7 @@ type of element
 
 #### Defined in
 
-main.ts:193778
+[main.ts:193658](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L193658)
 
 ___
 
@@ -137,4 +137,4 @@ URL to the third-party website page with pricing information
 
 #### Defined in
 
-main.ts:193788
+[main.ts:193668](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L193668)

@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IContentAnalysisRatingInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IContentAnalysisRatingInfo
 
 # Interface: IContentAnalysisRatingInfo
 
@@ -32,7 +32,7 @@ maximum value for the rating name
 
 #### Defined in
 
-main.ts:156536
+[main.ts:156392](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L156392)
 
 ___
 
@@ -45,7 +45,7 @@ here you can find the following elements: Max5, Percents, CustomMax
 
 #### Defined in
 
-main.ts:156530
+[main.ts:156386](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L156386)
 
 ___
 
@@ -57,7 +57,7 @@ number of votes
 
 #### Defined in
 
-main.ts:156534
+[main.ts:156390](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L156390)
 
 ___
 
@@ -69,7 +69,7 @@ the value of the rating
 
 #### Defined in
 
-main.ts:156532
+[main.ts:156388](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L156388)
 
 ___
 
@@ -81,4 +81,4 @@ relative rating
 
 #### Defined in
 
-main.ts:156538
+[main.ts:156394](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L156394)

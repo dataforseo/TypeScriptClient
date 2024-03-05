@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IBacklinksErrorsRequestInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IBacklinksErrorsRequestInfo
 
 # Interface: IBacklinksErrorsRequestInfo
 
@@ -35,7 +35,7 @@ example:
 
 #### Defined in
 
-main.ts:128533
+[main.ts:128389](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L128389)
 
 ___
 
@@ -52,7 +52,7 @@ example:
 
 #### Defined in
 
-main.ts:128540
+[main.ts:128396](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L128396)
 
 ___
 
@@ -68,7 +68,7 @@ example: backlinks/live
 
 #### Defined in
 
-main.ts:128526
+[main.ts:128382](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L128382)
 
 ___
 
@@ -83,7 +83,7 @@ maximum value: 1000
 
 #### Defined in
 
-main.ts:128515
+[main.ts:128371](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L128371)
 
 ___
 
@@ -98,4 +98,4 @@ if you specify the 10 value, the first ten tasks in the results array will be om
 
 #### Defined in
 
-main.ts:128520
+[main.ts:128376](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L128376)

@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / SerpGoogleEventsLiveAdvancedRequestInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / SerpGoogleEventsLiveAdvancedRequestInfo
 
 # Class: SerpGoogleEventsLiveAdvancedRequestInfo
 
@@ -55,7 +55,7 @@
 
 #### Defined in
 
-main.ts:45294
+[main.ts:45152](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L45152)
 
 ## Properties
 
@@ -74,7 +74,7 @@ possible values: today, tomorrow, week, weekend, next_week, month, next_month
 
 #### Defined in
 
-main.ts:45255
+[main.ts:45113](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L45113)
 
 ___
 
@@ -97,7 +97,7 @@ if the specified depth is higher than the number of results in the response, the
 
 #### Defined in
 
-main.ts:45277
+[main.ts:45135](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L45135)
 
 ___
 
@@ -118,7 +118,7 @@ if you need to use the “+” symbol for your keyword, please specify it as “
 
 #### Defined in
 
-main.ts:45209
+[main.ts:45067](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L45067)
 
 ___
 
@@ -140,7 +140,7 @@ en
 
 #### Defined in
 
-main.ts:45250
+[main.ts:45108](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L45108)
 
 ___
 
@@ -162,7 +162,7 @@ English
 
 #### Defined in
 
-main.ts:45242
+[main.ts:45100](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L45100)
 
 ___
 
@@ -183,7 +183,7 @@ example:
 
 #### Defined in
 
-main.ts:45223
+[main.ts:45081](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L45081)
 
 ___
 
@@ -208,7 +208,7 @@ example:
 
 #### Defined in
 
-main.ts:45234
+[main.ts:45092](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L45092)
 
 ___
 
@@ -229,7 +229,7 @@ London,England,United Kingdom
 
 #### Defined in
 
-main.ts:45216
+[main.ts:45074](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L45074)
 
 ___
 
@@ -250,7 +250,7 @@ learn more at our help center
 
 #### Defined in
 
-main.ts:45284
+[main.ts:45142](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L45142)
 
 ___
 
@@ -270,7 +270,7 @@ default value: windows
 
 #### Defined in
 
-main.ts:45261
+[main.ts:45119](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L45119)
 
 ___
 
@@ -291,7 +291,7 @@ google.co.uk, google.com.au, google.de, etc.
 
 #### Defined in
 
-main.ts:45268
+[main.ts:45126](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L45126)
 
 ___
 
@@ -311,7 +311,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:45290
+[main.ts:45148](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L45148)
 
 ## Methods
 
@@ -331,7 +331,7 @@ main.ts:45290
 
 #### Defined in
 
-main.ts:45303
+[main.ts:45161](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L45161)
 
 ___
 
@@ -351,7 +351,7 @@ ___
 
 #### Defined in
 
-main.ts:45331
+[main.ts:45189](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L45189)
 
 ___
 
@@ -371,4 +371,4 @@ ___
 
 #### Defined in
 
-main.ts:45324
+[main.ts:45182](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L45182)

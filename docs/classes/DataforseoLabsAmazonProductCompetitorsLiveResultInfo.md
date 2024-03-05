@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / DataforseoLabsAmazonProductCompetitorsLiveResultInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / DataforseoLabsAmazonProductCompetitorsLiveResultInfo
 
 # Class: DataforseoLabsAmazonProductCompetitorsLiveResultInfo
 
@@ -50,7 +50,7 @@
 
 #### Defined in
 
-main.ts:101476
+[main.ts:101332](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L101332)
 
 ## Properties
 
@@ -66,7 +66,7 @@ ASIN in a POST array
 
 #### Defined in
 
-main.ts:101460
+[main.ts:101316](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L101316)
 
 ___
 
@@ -82,7 +82,7 @@ contains detected Amazon product competitors and related data
 
 #### Defined in
 
-main.ts:101472
+[main.ts:101328](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L101328)
 
 ___
 
@@ -98,7 +98,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:101470
+[main.ts:101326](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L101326)
 
 ___
 
@@ -115,7 +115,7 @@ if there is no data, then the value is null
 
 #### Defined in
 
-main.ts:101466
+[main.ts:101322](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L101322)
 
 ___
 
@@ -132,7 +132,7 @@ if there is no data, then the value is null
 
 #### Defined in
 
-main.ts:101463
+[main.ts:101319](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L101319)
 
 ___
 
@@ -148,7 +148,7 @@ search engine type
 
 #### Defined in
 
-main.ts:101458
+[main.ts:101314](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L101314)
 
 ___
 
@@ -164,7 +164,7 @@ total amount of results in our database relevant to your request
 
 #### Defined in
 
-main.ts:101468
+[main.ts:101324](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L101324)
 
 ## Methods
 
@@ -184,7 +184,7 @@ main.ts:101468
 
 #### Defined in
 
-main.ts:101485
+[main.ts:101341](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L101341)
 
 ___
 
@@ -204,7 +204,7 @@ ___
 
 #### Defined in
 
-main.ts:101512
+[main.ts:101368](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L101368)
 
 ___
 
@@ -224,4 +224,4 @@ ___
 
 #### Defined in
 
-main.ts:101505
+[main.ts:101361](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L101361)

@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / ISerpGoogleSearchByImageTaskGetAdvancedResultInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / ISerpGoogleSearchByImageTaskGetAdvancedResultInfo
 
 # Interface: ISerpGoogleSearchByImageTaskGetAdvancedResultInfo
 
@@ -39,7 +39,7 @@ you can use it to make sure that we provided accurate results
 
 #### Defined in
 
-main.ts:48288
+[main.ts:48146](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L48146)
 
 ___
 
@@ -54,7 +54,7 @@ example:
 
 #### Defined in
 
-main.ts:48293
+[main.ts:48151](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L48151)
 
 ___
 
@@ -66,7 +66,7 @@ URL specified in a POST array
 
 #### Defined in
 
-main.ts:48275
+[main.ts:48133](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L48133)
 
 ___
 
@@ -82,7 +82,7 @@ images
 
 #### Defined in
 
-main.ts:48302
+[main.ts:48160](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L48160)
 
 ___
 
@@ -95,7 +95,7 @@ if there are none, equals null
 
 #### Defined in
 
-main.ts:48309
+[main.ts:48167](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L48167)
 
 ___
 
@@ -107,7 +107,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:48306
+[main.ts:48164](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L48164)
 
 ___
 
@@ -119,7 +119,7 @@ keyword Google associated with the specified image
 
 #### Defined in
 
-main.ts:48277
+[main.ts:48135](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L48135)
 
 ___
 
@@ -131,7 +131,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:48285
+[main.ts:48143](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L48143)
 
 ___
 
@@ -143,7 +143,7 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:48283
+[main.ts:48141](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L48141)
 
 ___
 
@@ -155,7 +155,7 @@ search engine domain in a POST array
 
 #### Defined in
 
-main.ts:48281
+[main.ts:48139](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L48139)
 
 ___
 
@@ -167,7 +167,7 @@ total number of results in SERP
 
 #### Defined in
 
-main.ts:48304
+[main.ts:48162](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L48162)
 
 ___
 
@@ -180,7 +180,7 @@ if the search engine provided results for a keyword that was corrected, we will 
 
 #### Defined in
 
-main.ts:48296
+[main.ts:48154](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L48154)
 
 ___
 
@@ -192,4 +192,4 @@ type of element
 
 #### Defined in
 
-main.ts:48279
+[main.ts:48137](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L48137)

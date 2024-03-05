@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / ContentGenerationCheckGrammarLanguagesResultInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / ContentGenerationCheckGrammarLanguagesResultInfo
 
 # Class: ContentGenerationCheckGrammarLanguagesResultInfo
 
@@ -45,7 +45,7 @@
 
 #### Defined in
 
-main.ts:161919
+[main.ts:161799](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L161799)
 
 ## Properties
 
@@ -61,7 +61,7 @@ language code according to ISO 639-1
 
 #### Defined in
 
-main.ts:161915
+[main.ts:161795](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L161795)
 
 ___
 
@@ -77,7 +77,7 @@ language name
 
 #### Defined in
 
-main.ts:161913
+[main.ts:161793](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L161793)
 
 ## Methods
 
@@ -97,7 +97,7 @@ main.ts:161913
 
 #### Defined in
 
-main.ts:161928
+[main.ts:161808](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L161808)
 
 ___
 
@@ -117,7 +117,7 @@ ___
 
 #### Defined in
 
-main.ts:161946
+[main.ts:161826](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L161826)
 
 ___
 
@@ -137,4 +137,4 @@ ___
 
 #### Defined in
 
-main.ts:161939
+[main.ts:161819](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L161819)

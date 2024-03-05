@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IOnPageWaterfallResultInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IOnPageWaterfallResultInfo
 
 # Interface: IOnPageWaterfallResultInfo
 
@@ -30,7 +30,7 @@ possible values: in_progress, finished
 
 #### Defined in
 
-main.ts:150062
+[main.ts:149918](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L149918)
 
 ___
 
@@ -42,7 +42,7 @@ details of the crawling session
 
 #### Defined in
 
-main.ts:150064
+[main.ts:149920](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L149920)
 
 ___
 
@@ -54,7 +54,7 @@ items array
 
 #### Defined in
 
-main.ts:150068
+[main.ts:149924](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L149924)
 
 ___
 
@@ -66,4 +66,4 @@ number of items in the results array
 
 #### Defined in
 
-main.ts:150066
+[main.ts:149922](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L149922)

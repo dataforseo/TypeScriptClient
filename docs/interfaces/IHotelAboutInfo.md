@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IHotelAboutInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IHotelAboutInfo
 
 # Interface: IHotelAboutInfo
 
@@ -35,7 +35,7 @@ information about hotel amenities
 
 #### Defined in
 
-main.ts:195667
+[main.ts:195547](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L195547)
 
 ___
 
@@ -48,7 +48,7 @@ check-in time indicated in the hotel listing
 
 #### Defined in
 
-main.ts:195652
+[main.ts:195532](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L195532)
 
 ___
 
@@ -61,7 +61,7 @@ check-out time indicated in the hotel listing
 
 #### Defined in
 
-main.ts:195655
+[main.ts:195535](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L195535)
 
 ___
 
@@ -74,7 +74,7 @@ the description of the hotel entity for which the results are collected
 
 #### Defined in
 
-main.ts:195646
+[main.ts:195526](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L195526)
 
 ___
 
@@ -87,7 +87,7 @@ domain of the hotel’s website
 
 #### Defined in
 
-main.ts:195661
+[main.ts:195541](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L195541)
 
 ___
 
@@ -100,7 +100,7 @@ address of the hotel indicated in the standardised format
 
 #### Defined in
 
-main.ts:195658
+[main.ts:195538](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L195538)
 
 ___
 
@@ -113,7 +113,7 @@ information about hotel amenities labelled as “popular”
 
 #### Defined in
 
-main.ts:195670
+[main.ts:195550](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L195550)
 
 ___
 
@@ -126,7 +126,7 @@ details about the hotel provided in addition to the description
 
 #### Defined in
 
-main.ts:195649
+[main.ts:195529](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L195529)
 
 ___
 
@@ -139,4 +139,4 @@ URL to the hotel’s website indicated in the listing
 
 #### Defined in
 
-main.ts:195664
+[main.ts:195544](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L195544)

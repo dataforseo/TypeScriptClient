@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / ITrustpilotSearchOrganicBusinessDataSerpElementItem
+[dataforseo-client](../README.md) / [Exports](../modules.md) / ITrustpilotSearchOrganicBusinessDataSerpElementItem
 
 # Interface: ITrustpilotSearchOrganicBusinessDataSerpElementItem
 
@@ -38,7 +38,7 @@ domain of the establishment
 
 #### Defined in
 
-main.ts:199307
+[main.ts:199187](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L199187)
 
 ___
 
@@ -51,7 +51,7 @@ absolute position among all reviews on the list
 
 #### Defined in
 
-main.ts:199303
+[main.ts:199183](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L199183)
 
 ___
 
@@ -64,7 +64,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-main.ts:199300
+[main.ts:199180](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L199180)
 
 ___
 
@@ -76,7 +76,7 @@ the rating score of the establishment submitted by reviewers
 
 #### Defined in
 
-main.ts:199313
+[main.ts:199193](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L199193)
 
 ___
 
@@ -88,7 +88,7 @@ the total number of reviews
 
 #### Defined in
 
-main.ts:199311
+[main.ts:199191](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L199191)
 
 ___
 
@@ -100,7 +100,7 @@ title of the establishment
 
 #### Defined in
 
-main.ts:199305
+[main.ts:199185](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L199185)
 
 ___
 
@@ -112,4 +112,4 @@ URL to the establishment
 
 #### Defined in
 
-main.ts:199309
+[main.ts:199189](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L199189)

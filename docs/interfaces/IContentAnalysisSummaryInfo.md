@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IContentAnalysisSummaryInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IContentAnalysisSummaryInfo
 
 # Interface: IContentAnalysisSummaryInfo
 
@@ -42,7 +42,7 @@ possible sentiment connotation types: positive, negative, neutral
 
 #### Defined in
 
-main.ts:157595
+[main.ts:157475](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L157475)
 
 ___
 
@@ -60,7 +60,7 @@ to obtain a full list of available countries, refer to the Locations endpoint
 
 #### Defined in
 
-main.ts:157610
+[main.ts:157490](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L157490)
 
 ___
 
@@ -78,7 +78,7 @@ to obtain a full list of available languages, refer to the Languages endpoint
 
 #### Defined in
 
-main.ts:157614
+[main.ts:157494](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L157494)
 
 ___
 
@@ -92,7 +92,7 @@ to obtain a full list of available categories, refer to the Categories endpoint
 
 #### Defined in
 
-main.ts:157603
+[main.ts:157483](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L157483)
 
 ___
 
@@ -109,7 +109,7 @@ contains page types and citation count per each page type
 
 #### Defined in
 
-main.ts:157606
+[main.ts:157486](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L157486)
 
 ___
 
@@ -122,7 +122,7 @@ normalized sum of ranks of all URLs citing the target keyword
 
 #### Defined in
 
-main.ts:157584
+[main.ts:157464](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L157464)
 
 ___
 
@@ -140,7 +140,7 @@ possible sentiment connotations: anger, happiness, love, sadness, share, fun
 
 #### Defined in
 
-main.ts:157591
+[main.ts:157471](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L157471)
 
 ___
 
@@ -154,7 +154,7 @@ to obtain a full list of available categories, refer to the Categories endpoint
 
 #### Defined in
 
-main.ts:157599
+[main.ts:157479](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L157479)
 
 ___
 
@@ -167,7 +167,7 @@ contains objects with top domains citing the target keword and citation count pe
 
 #### Defined in
 
-main.ts:157587
+[main.ts:157467](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L157467)
 
 ___
 
@@ -179,7 +179,7 @@ total amount of results in our database relevant to your request
 
 #### Defined in
 
-main.ts:157581
+[main.ts:157461](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L157461)
 
 ___
 
@@ -191,4 +191,4 @@ type of element
 
 #### Defined in
 
-main.ts:157579
+[main.ts:157459](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L157459)

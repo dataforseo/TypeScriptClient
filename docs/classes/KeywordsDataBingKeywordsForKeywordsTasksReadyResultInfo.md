@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / KeywordsDataBingKeywordsForKeywordsTasksReadyResultInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / KeywordsDataBingKeywordsForKeywordsTasksReadyResultInfo
 
 # Class: KeywordsDataBingKeywordsForKeywordsTasksReadyResultInfo
 
@@ -49,7 +49,7 @@
 
 #### Defined in
 
-main.ts:125524
+[main.ts:125380](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L125380)
 
 ## Properties
 
@@ -65,7 +65,7 @@ date when the task was posted (in the UTC format)
 
 #### Defined in
 
-main.ts:125516
+[main.ts:125372](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L125372)
 
 ___
 
@@ -81,7 +81,7 @@ URL for collecting the results of the task
 
 #### Defined in
 
-main.ts:125520
+[main.ts:125376](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L125376)
 
 ___
 
@@ -97,7 +97,7 @@ type of the task
 
 #### Defined in
 
-main.ts:125514
+[main.ts:125370](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L125370)
 
 ___
 
@@ -114,7 +114,7 @@ unique task identifier in our system in the UUID format
 
 #### Defined in
 
-main.ts:125510
+[main.ts:125366](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L125366)
 
 ___
 
@@ -130,7 +130,7 @@ search engine specified when setting the task
 
 #### Defined in
 
-main.ts:125512
+[main.ts:125368](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L125368)
 
 ___
 
@@ -146,7 +146,7 @@ user-defined task identifier
 
 #### Defined in
 
-main.ts:125518
+[main.ts:125374](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L125374)
 
 ## Methods
 
@@ -166,7 +166,7 @@ main.ts:125518
 
 #### Defined in
 
-main.ts:125533
+[main.ts:125389](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L125389)
 
 ___
 
@@ -186,7 +186,7 @@ ___
 
 #### Defined in
 
-main.ts:125555
+[main.ts:125411](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L125411)
 
 ___
 
@@ -206,4 +206,4 @@ ___
 
 #### Defined in
 
-main.ts:125548
+[main.ts:125404](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L125404)

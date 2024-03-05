@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IBulkMetricsInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IBulkMetricsInfo
 
 # Interface: IBulkMetricsInfo
 
@@ -27,7 +27,7 @@ total count of organic SERPs that contain the domain
 
 #### Defined in
 
-main.ts:97829
+[main.ts:97685](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L97685)
 
 ___
 
@@ -42,4 +42,4 @@ learn more about how the metric is calculated in this help center article
 
 #### Defined in
 
-main.ts:97827
+[main.ts:97683](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L97683)

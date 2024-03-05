@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IBusinessDataYelpSearchTaskPostRequestInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IBusinessDataYelpSearchTaskPostRequestInfo
 
 # Interface: IBusinessDataYelpSearchTaskPostRequestInfo
 
@@ -41,7 +41,7 @@ maximal value: 70
 
 #### Defined in
 
-main.ts:203650
+[main.ts:203530](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L203530)
 
 ___
 
@@ -58,7 +58,7 @@ Note: if the keyword is not specified, the results will be returned based on the
 
 #### Defined in
 
-main.ts:203607
+[main.ts:203487](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L203487)
 
 ___
 
@@ -75,7 +75,7 @@ en
 
 #### Defined in
 
-main.ts:203643
+[main.ts:203523](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L203523)
 
 ___
 
@@ -92,7 +92,7 @@ English
 
 #### Defined in
 
-main.ts:203636
+[main.ts:203516](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L203516)
 
 ___
 
@@ -109,7 +109,7 @@ example:
 
 #### Defined in
 
-main.ts:203629
+[main.ts:203509](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L203509)
 
 ___
 
@@ -126,7 +126,7 @@ West Los Angeles,California,United States
 
 #### Defined in
 
-main.ts:203622
+[main.ts:203502](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L203502)
 
 ___
 
@@ -146,7 +146,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-main.ts:203685
+[main.ts:203565](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L203565)
 
 ___
 
@@ -166,7 +166,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-main.ts:203675
+[main.ts:203555](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L203555)
 
 ___
 
@@ -184,7 +184,7 @@ The cost can be calculated on the Pricing page.
 
 #### Defined in
 
-main.ts:203615
+[main.ts:203495](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L203495)
 
 ___
 
@@ -203,7 +203,7 @@ default value: recommended
 
 #### Defined in
 
-main.ts:203659
+[main.ts:203539](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L203539)
 
 ___
 
@@ -219,4 +219,4 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:203665
+[main.ts:203545](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L203545)

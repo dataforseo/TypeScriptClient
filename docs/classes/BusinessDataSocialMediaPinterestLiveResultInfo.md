@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / BusinessDataSocialMediaPinterestLiveResultInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / BusinessDataSocialMediaPinterestLiveResultInfo
 
 # Class: BusinessDataSocialMediaPinterestLiveResultInfo
 
@@ -46,7 +46,7 @@
 
 #### Defined in
 
-main.ts:205837
+[main.ts:205717](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L205717)
 
 ## Properties
 
@@ -63,7 +63,7 @@ corresponding URL you specified in the targets array when setting a task
 
 #### Defined in
 
-main.ts:205829
+[main.ts:205709](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L205709)
 
 ___
 
@@ -81,7 +81,7 @@ this field shows the number of content saves made from the related page_url usin
 
 #### Defined in
 
-main.ts:205833
+[main.ts:205713](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L205713)
 
 ___
 
@@ -97,7 +97,7 @@ type of element
 
 #### Defined in
 
-main.ts:205826
+[main.ts:205706](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L205706)
 
 ## Methods
 
@@ -117,7 +117,7 @@ main.ts:205826
 
 #### Defined in
 
-main.ts:205846
+[main.ts:205726](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L205726)
 
 ___
 
@@ -137,7 +137,7 @@ ___
 
 #### Defined in
 
-main.ts:205865
+[main.ts:205745](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L205745)
 
 ___
 
@@ -157,4 +157,4 @@ ___
 
 #### Defined in
 
-main.ts:205858
+[main.ts:205738](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L205738)

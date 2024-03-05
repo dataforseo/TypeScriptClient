@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / ISerpYoutubeVideoCommentsLiveAdvancedRequestInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / ISerpYoutubeVideoCommentsLiveAdvancedRequestInfo
 
 # Interface: ISerpYoutubeVideoCommentsLiveAdvancedRequestInfo
 
@@ -41,7 +41,7 @@ if the specified depth is higher than the number of results in the response, the
 
 #### Defined in
 
-main.ts:62507
+[main.ts:62363](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L62363)
 
 ___
 
@@ -55,7 +55,7 @@ only value: desktop
 
 #### Defined in
 
-main.ts:62493
+[main.ts:62349](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L62349)
 
 ___
 
@@ -72,7 +72,7 @@ en
 
 #### Defined in
 
-main.ts:62489
+[main.ts:62345](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L62345)
 
 ___
 
@@ -89,7 +89,7 @@ English
 
 #### Defined in
 
-main.ts:62482
+[main.ts:62338](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L62338)
 
 ___
 
@@ -106,7 +106,7 @@ example:
 
 #### Defined in
 
-main.ts:62475
+[main.ts:62331](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L62331)
 
 ___
 
@@ -123,7 +123,7 @@ United States
 
 #### Defined in
 
-main.ts:62468
+[main.ts:62324](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L62324)
 
 ___
 
@@ -138,7 +138,7 @@ default value: windows
 
 #### Defined in
 
-main.ts:62498
+[main.ts:62354](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L62354)
 
 ___
 
@@ -154,7 +154,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:62513
+[main.ts:62369](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L62369)
 
 ___
 
@@ -170,4 +170,4 @@ vQXvyV0zIP4
 
 #### Defined in
 
-main.ts:62461
+[main.ts:62317](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L62317)

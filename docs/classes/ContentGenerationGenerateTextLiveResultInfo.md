@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / ContentGenerationGenerateTextLiveResultInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / ContentGenerationGenerateTextLiveResultInfo
 
 # Class: ContentGenerationGenerateTextLiveResultInfo
 
@@ -48,7 +48,7 @@
 
 #### Defined in
 
-main.ts:160517
+[main.ts:160397](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L160397)
 
 ## Properties
 
@@ -64,7 +64,7 @@ resulting text
 
 #### Defined in
 
-main.ts:160509
+[main.ts:160389](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L160389)
 
 ___
 
@@ -80,7 +80,7 @@ number of input tokens
 
 #### Defined in
 
-main.ts:160503
+[main.ts:160383](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L160383)
 
 ___
 
@@ -96,7 +96,7 @@ number of new tokens
 
 #### Defined in
 
-main.ts:160507
+[main.ts:160387](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L160387)
 
 ___
 
@@ -112,7 +112,7 @@ number of output tokens
 
 #### Defined in
 
-main.ts:160505
+[main.ts:160385](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L160385)
 
 ___
 
@@ -130,7 +130,7 @@ supplement_token values are unique for each subsequent task
 
 #### Defined in
 
-main.ts:160513
+[main.ts:160393](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L160393)
 
 ## Methods
 
@@ -150,7 +150,7 @@ main.ts:160513
 
 #### Defined in
 
-main.ts:160526
+[main.ts:160406](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L160406)
 
 ___
 
@@ -170,7 +170,7 @@ ___
 
 #### Defined in
 
-main.ts:160547
+[main.ts:160427](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L160427)
 
 ___
 
@@ -190,4 +190,4 @@ ___
 
 #### Defined in
 
-main.ts:160540
+[main.ts:160420](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L160420)

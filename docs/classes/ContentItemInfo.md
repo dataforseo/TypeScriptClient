@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / ContentItemInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / ContentItemInfo
 
 # Class: ContentItemInfo
 
@@ -45,7 +45,7 @@
 
 #### Defined in
 
-main.ts:152106
+[main.ts:151962](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L151962)
 
 ## Properties
 
@@ -61,7 +61,7 @@ content text
 
 #### Defined in
 
-main.ts:152099
+[main.ts:151955](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L151955)
 
 ___
 
@@ -78,7 +78,7 @@ displayed in case the text is a link anchor
 
 #### Defined in
 
-main.ts:152102
+[main.ts:151958](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L151958)
 
 ## Methods
 
@@ -98,7 +98,7 @@ main.ts:152102
 
 #### Defined in
 
-main.ts:152115
+[main.ts:151971](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L151971)
 
 ___
 
@@ -118,7 +118,7 @@ ___
 
 #### Defined in
 
-main.ts:152133
+[main.ts:151989](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L151989)
 
 ___
 
@@ -138,4 +138,4 @@ ___
 
 #### Defined in
 
-main.ts:152126
+[main.ts:151982](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L151982)

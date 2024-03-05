@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / AppendixSerpPriceDataInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / AppendixSerpPriceDataInfo
 
 # Class: AppendixSerpPriceDataInfo
 
@@ -46,7 +46,7 @@
 
 #### Defined in
 
-main.ts:210673
+[main.ts:210553](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L210553)
 
 ## Properties
 
@@ -60,7 +60,7 @@ main.ts:210673
 
 #### Defined in
 
-main.ts:210668
+[main.ts:210548](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L210548)
 
 ___
 
@@ -74,7 +74,7 @@ ___
 
 #### Defined in
 
-main.ts:210667
+[main.ts:210547](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L210547)
 
 ___
 
@@ -88,7 +88,7 @@ ___
 
 #### Defined in
 
-main.ts:210669
+[main.ts:210549](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L210549)
 
 ## Methods
 
@@ -108,7 +108,7 @@ main.ts:210669
 
 #### Defined in
 
-main.ts:210682
+[main.ts:210562](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L210562)
 
 ___
 
@@ -128,7 +128,7 @@ ___
 
 #### Defined in
 
-main.ts:210701
+[main.ts:210581](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L210581)
 
 ___
 
@@ -148,4 +148,4 @@ ___
 
 #### Defined in
 
-main.ts:210694
+[main.ts:210574](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L210574)

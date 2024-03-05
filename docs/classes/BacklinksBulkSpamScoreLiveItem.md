@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / BacklinksBulkSpamScoreLiveItem
+[dataforseo-client](../README.md) / [Exports](../modules.md) / BacklinksBulkSpamScoreLiveItem
 
 # Class: BacklinksBulkSpamScoreLiveItem
 
@@ -46,7 +46,7 @@
 
 #### Defined in
 
-main.ts:140234
+[main.ts:140090](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L140090)
 
 ## Properties
 
@@ -63,7 +63,7 @@ learn more about how the metric is calculated
 
 #### Defined in
 
-main.ts:140230
+[main.ts:140086](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L140086)
 
 ___
 
@@ -79,7 +79,7 @@ domain, subdomain or webpage from a POST array
 
 #### Defined in
 
-main.ts:140227
+[main.ts:140083](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L140083)
 
 ___
 
@@ -95,7 +95,7 @@ type of element
 
 #### Defined in
 
-main.ts:140225
+[main.ts:140081](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L140081)
 
 ## Methods
 
@@ -115,7 +115,7 @@ main.ts:140225
 
 #### Defined in
 
-main.ts:140243
+[main.ts:140099](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L140099)
 
 ___
 
@@ -135,7 +135,7 @@ ___
 
 #### Defined in
 
-main.ts:140262
+[main.ts:140118](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L140118)
 
 ___
 
@@ -155,4 +155,4 @@ ___
 
 #### Defined in
 
-main.ts:140255
+[main.ts:140111](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L140111)

@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IAppendixPriorityTasksReadyKeywordsDataPriceDataInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IAppendixPriorityTasksReadyKeywordsDataPriceDataInfo
 
 # Interface: IAppendixPriorityTasksReadyKeywordsDataPriceDataInfo
 
@@ -27,7 +27,7 @@ cost, USD
 
 #### Defined in
 
-main.ts:209685
+[main.ts:209565](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L209565)
 
 ___
 
@@ -42,4 +42,4 @@ per_request – charge for a GET or POST request
 
 #### Defined in
 
-main.ts:209683
+[main.ts:209563](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L209563)

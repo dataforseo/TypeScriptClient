@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IAppDataAppStoreReviewsSearchSerpElementItem
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IAppDataAppStoreReviewsSearchSerpElementItem
 
 # Interface: IAppDataAppStoreReviewsSearchSerpElementItem
 
@@ -41,7 +41,7 @@ id of the review
 
 #### Defined in
 
-main.ts:186425
+[main.ts:186305](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L186305)
 
 ___
 
@@ -54,7 +54,7 @@ can take the following values: left
 
 #### Defined in
 
-main.ts:186413
+[main.ts:186293](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L186293)
 
 ___
 
@@ -67,7 +67,7 @@ absolute position among all reviews on the list
 
 #### Defined in
 
-main.ts:186410
+[main.ts:186290](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L186290)
 
 ___
 
@@ -80,7 +80,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-main.ts:186407
+[main.ts:186287](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L186287)
 
 ___
 
@@ -92,7 +92,7 @@ the rating score submitted by the reviewer
 
 #### Defined in
 
-main.ts:186418
+[main.ts:186298](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L186298)
 
 ___
 
@@ -104,7 +104,7 @@ content of the review
 
 #### Defined in
 
-main.ts:186429
+[main.ts:186309](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L186309)
 
 ___
 
@@ -119,7 +119,7 @@ example:
 
 #### Defined in
 
-main.ts:186423
+[main.ts:186303](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L186303)
 
 ___
 
@@ -131,7 +131,7 @@ title of the review
 
 #### Defined in
 
-main.ts:186427
+[main.ts:186307](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L186307)
 
 ___
 
@@ -143,7 +143,7 @@ user profile of the reviewer
 
 #### Defined in
 
-main.ts:186431
+[main.ts:186311](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L186311)
 
 ___
 
@@ -156,4 +156,4 @@ version of the app for which the review is submitted
 
 #### Defined in
 
-main.ts:186416
+[main.ts:186296](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L186296)

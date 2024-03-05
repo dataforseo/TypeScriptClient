@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / DataforseoLabsRelevantPagesLiveItem
+[dataforseo-client](../README.md) / [Exports](../modules.md) / DataforseoLabsRelevantPagesLiveItem
 
 # Class: DataforseoLabsRelevantPagesLiveItem
 
@@ -46,7 +46,7 @@
 
 #### Defined in
 
-main.ts:90354
+[main.ts:90210](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L90210)
 
 ## Properties
 
@@ -66,7 +66,7 @@ rankings and traffic metrics for the relevant page
 
 #### Defined in
 
-main.ts:90350
+[main.ts:90206](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L90206)
 
 ___
 
@@ -82,7 +82,7 @@ absolute URL of the relevant page
 
 #### Defined in
 
-main.ts:90348
+[main.ts:90204](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L90204)
 
 ___
 
@@ -98,7 +98,7 @@ search engine type
 
 #### Defined in
 
-main.ts:90346
+[main.ts:90202](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L90202)
 
 ## Methods
 
@@ -118,7 +118,7 @@ main.ts:90346
 
 #### Defined in
 
-main.ts:90363
+[main.ts:90219](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L90219)
 
 ___
 
@@ -138,7 +138,7 @@ ___
 
 #### Defined in
 
-main.ts:90388
+[main.ts:90244](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L90244)
 
 ___
 
@@ -158,4 +158,4 @@ ___
 
 #### Defined in
 
-main.ts:90381
+[main.ts:90237](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L90237)

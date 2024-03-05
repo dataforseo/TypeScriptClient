@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / GoogleTrendsQueriesListElementItem
+[dataforseo-client](../README.md) / [Exports](../modules.md) / GoogleTrendsQueriesListElementItem
 
 # Class: GoogleTrendsQueriesListElementItem
 
@@ -58,7 +58,7 @@
 
 #### Defined in
 
-main.ts:121281
+[main.ts:121137](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L121137)
 
 ## Properties
 
@@ -72,7 +72,7 @@ main.ts:121281
 
 #### Defined in
 
-main.ts:20382
+[main.ts:20382](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L20382)
 
 ___
 
@@ -88,7 +88,7 @@ Google Trends data from the corresponding item
 
 #### Defined in
 
-main.ts:121277
+[main.ts:121133](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L121133)
 
 ___
 
@@ -105,7 +105,7 @@ the data included in the google_trends_queries_list element is based on the keyw
 
 #### Defined in
 
-main.ts:121275
+[main.ts:121131](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L121131)
 
 ___
 
@@ -122,7 +122,7 @@ can take the following values: 1, 2, 3, 4, etc.
 
 #### Defined in
 
-main.ts:121270
+[main.ts:121126](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L121126)
 
 ___
 
@@ -138,7 +138,7 @@ title of the element in Google Trends
 
 #### Defined in
 
-main.ts:121272
+[main.ts:121128](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L121128)
 
 ## Methods
 
@@ -162,7 +162,7 @@ main.ts:121272
 
 #### Defined in
 
-main.ts:121286
+[main.ts:121142](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L121142)
 
 ___
 
@@ -186,7 +186,7 @@ ___
 
 #### Defined in
 
-main.ts:121311
+[main.ts:121167](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L121167)
 
 ___
 
@@ -210,4 +210,4 @@ ___
 
 #### Defined in
 
-main.ts:121304
+[main.ts:121160](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L121160)

@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / MathSolverExpandedElement
+[dataforseo-client](../README.md) / [Exports](../modules.md) / MathSolverExpandedElement
 
 # Class: MathSolverExpandedElement
 
@@ -46,7 +46,7 @@
 
 #### Defined in
 
-main.ts:34047
+[main.ts:33905](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L33905)
 
 ## Properties
 
@@ -63,7 +63,7 @@ displays steps to solve the mathematical equation as specified in the element
 
 #### Defined in
 
-main.ts:34043
+[main.ts:33901](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L33901)
 
 ___
 
@@ -79,7 +79,7 @@ title of a given link element
 
 #### Defined in
 
-main.ts:34040
+[main.ts:33898](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L33898)
 
 ___
 
@@ -95,7 +95,7 @@ type of element
 
 #### Defined in
 
-main.ts:34038
+[main.ts:33896](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L33896)
 
 ## Methods
 
@@ -115,7 +115,7 @@ main.ts:34038
 
 #### Defined in
 
-main.ts:34056
+[main.ts:33914](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L33914)
 
 ___
 
@@ -135,7 +135,7 @@ ___
 
 #### Defined in
 
-main.ts:34079
+[main.ts:33937](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L33937)
 
 ___
 
@@ -155,4 +155,4 @@ ___
 
 #### Defined in
 
-main.ts:34072
+[main.ts:33930](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L33930)

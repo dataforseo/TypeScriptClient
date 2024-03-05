@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IContentAnalysisSentimentAnalysisLiveResultInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IContentAnalysisSentimentAnalysisLiveResultInfo
 
 # Interface: IContentAnalysisSentimentAnalysisLiveResultInfo
 
@@ -30,7 +30,7 @@ possible sentiment connotation types: positive, negative, neutral
 
 #### Defined in
 
-main.ts:158152
+[main.ts:158032](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L158032)
 
 ___
 
@@ -44,7 +44,7 @@ possible sentiment connotation types: anger, happiness, love, sadness, share, fu
 
 #### Defined in
 
-main.ts:158156
+[main.ts:158036](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L158036)
 
 ___
 
@@ -56,4 +56,4 @@ type of element
 
 #### Defined in
 
-main.ts:158148
+[main.ts:158028](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L158028)

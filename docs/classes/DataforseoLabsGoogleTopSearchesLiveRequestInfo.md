@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / DataforseoLabsGoogleTopSearchesLiveRequestInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / DataforseoLabsGoogleTopSearchesLiveRequestInfo
 
 # Class: DataforseoLabsGoogleTopSearchesLiveRequestInfo
 
@@ -55,7 +55,7 @@
 
 #### Defined in
 
-main.ts:85226
+[main.ts:85082](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L85082)
 
 ## Properties
 
@@ -88,7 +88,7 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 #### Defined in
 
-main.ts:85181
+[main.ts:85037](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L85037)
 
 ___
 
@@ -107,7 +107,7 @@ default value: false
 
 #### Defined in
 
-main.ts:85162
+[main.ts:85018](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L85018)
 
 ___
 
@@ -126,7 +126,7 @@ default value: false
 
 #### Defined in
 
-main.ts:85157
+[main.ts:85013](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L85013)
 
 ___
 
@@ -148,7 +148,7 @@ en
 
 #### Defined in
 
-main.ts:85152
+[main.ts:85008](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L85008)
 
 ___
 
@@ -170,7 +170,7 @@ English
 
 #### Defined in
 
-main.ts:85144
+[main.ts:85000](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L85000)
 
 ___
 
@@ -190,7 +190,7 @@ maximum value: 1000
 
 #### Defined in
 
-main.ts:85209
+[main.ts:85065](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L85065)
 
 ___
 
@@ -212,7 +212,7 @@ example:
 
 #### Defined in
 
-main.ts:85136
+[main.ts:84992](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L84992)
 
 ___
 
@@ -234,7 +234,7 @@ United Kingdom
 
 #### Defined in
 
-main.ts:85128
+[main.ts:84984](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L84984)
 
 ___
 
@@ -253,7 +253,7 @@ if you specify the 10 value, the first ten keywords in the results array will be
 
 #### Defined in
 
-main.ts:85214
+[main.ts:85070](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L85070)
 
 ___
 
@@ -275,7 +275,7 @@ Note: if the offset_token is specified in the request, all other parameters exce
 
 #### Defined in
 
-main.ts:85222
+[main.ts:85078](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L85078)
 
 ___
 
@@ -305,7 +305,7 @@ example:
 
 #### Defined in
 
-main.ts:85197
+[main.ts:85053](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L85053)
 
 ___
 
@@ -325,7 +325,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:85203
+[main.ts:85059](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L85059)
 
 ## Methods
 
@@ -345,7 +345,7 @@ main.ts:85203
 
 #### Defined in
 
-main.ts:85235
+[main.ts:85091](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L85091)
 
 ___
 
@@ -365,7 +365,7 @@ ___
 
 #### Defined in
 
-main.ts:85271
+[main.ts:85127](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L85127)
 
 ___
 
@@ -385,4 +385,4 @@ ___
 
 #### Defined in
 
-main.ts:85264
+[main.ts:85120](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L85120)

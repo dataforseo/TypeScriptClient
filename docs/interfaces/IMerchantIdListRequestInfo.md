@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IMerchantIdListRequestInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IMerchantIdListRequestInfo
 
 # Interface: IMerchantIdListRequestInfo
 
@@ -37,7 +37,7 @@ example:
 
 #### Defined in
 
-main.ts:162864
+[main.ts:162744](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L162744)
 
 ___
 
@@ -54,7 +54,7 @@ example:
 
 #### Defined in
 
-main.ts:162871
+[main.ts:162751](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L162751)
 
 ___
 
@@ -68,7 +68,7 @@ default value: false
 
 #### Defined in
 
-main.ts:162890
+[main.ts:162770](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L162770)
 
 ___
 
@@ -83,7 +83,7 @@ maximum value: 1000
 
 #### Defined in
 
-main.ts:162876
+[main.ts:162756](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L162756)
 
 ___
 
@@ -98,7 +98,7 @@ if you specify the 10 value, the first ten tasks in the results array will be om
 
 #### Defined in
 
-main.ts:162881
+[main.ts:162761](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L162761)
 
 ___
 
@@ -113,4 +113,4 @@ default value: "asc"
 
 #### Defined in
 
-main.ts:162886
+[main.ts:162766](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L162766)

@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IAppendixWhoisDomainAnalyticsLimitsRatesDataInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IAppendixWhoisDomainAnalyticsLimitsRatesDataInfo
 
 # Interface: IAppendixWhoisDomainAnalyticsLimitsRatesDataInfo
 
@@ -24,4 +24,4 @@
 
 #### Defined in
 
-main.ts:207407
+[main.ts:207287](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L207287)

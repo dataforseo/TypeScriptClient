@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IDataforseoLabsAmazonRelatedKeywordsLiveRequestInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IDataforseoLabsAmazonRelatedKeywordsLiveRequestInfo
 
 # Interface: IDataforseoLabsAmazonRelatedKeywordsLiveRequestInfo
 
@@ -46,7 +46,7 @@ estimated number of keywords for each level (maximum):
 
 #### Defined in
 
-main.ts:99395
+[main.ts:99251](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L99251)
 
 ___
 
@@ -61,7 +61,7 @@ default value: false
 
 #### Defined in
 
-main.ts:99405
+[main.ts:99261](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L99261)
 
 ___
 
@@ -76,7 +76,7 @@ default value: false
 
 #### Defined in
 
-main.ts:99400
+[main.ts:99256](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L99256)
 
 ___
 
@@ -92,7 +92,7 @@ the keywords should be specified in the lowercase format
 
 #### Defined in
 
-main.ts:99351
+[main.ts:99207](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L99207)
 
 ___
 
@@ -109,7 +109,7 @@ en
 
 #### Defined in
 
-main.ts:99383
+[main.ts:99239](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L99239)
 
 ___
 
@@ -126,7 +126,7 @@ English
 
 #### Defined in
 
-main.ts:99376
+[main.ts:99232](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L99232)
 
 ___
 
@@ -141,7 +141,7 @@ maximum value: 1000
 
 #### Defined in
 
-main.ts:99410
+[main.ts:99266](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L99266)
 
 ___
 
@@ -160,7 +160,7 @@ example:
 
 #### Defined in
 
-main.ts:99369
+[main.ts:99225](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L99225)
 
 ___
 
@@ -179,7 +179,7 @@ United States
 
 #### Defined in
 
-main.ts:99360
+[main.ts:99216](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L99216)
 
 ___
 
@@ -194,7 +194,7 @@ if you specify the 10 value, the first ten keywords in the results array will be
 
 #### Defined in
 
-main.ts:99415
+[main.ts:99271](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L99271)
 
 ___
 
@@ -210,4 +210,4 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:99421
+[main.ts:99277](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L99277)

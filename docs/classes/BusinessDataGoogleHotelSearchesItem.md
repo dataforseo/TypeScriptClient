@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / BusinessDataGoogleHotelSearchesItem
+[dataforseo-client](../README.md) / [Exports](../modules.md) / BusinessDataGoogleHotelSearchesItem
 
 # Class: BusinessDataGoogleHotelSearchesItem
 
@@ -52,7 +52,7 @@
 
 #### Defined in
 
-main.ts:193951
+[main.ts:193831](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L193831)
 
 ## Properties
 
@@ -70,7 +70,7 @@ CgoI-KWyzenM_MV3EAE
 
 #### Defined in
 
-main.ts:193930
+[main.ts:193810](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L193810)
 
 ___
 
@@ -88,7 +88,7 @@ if false, related hotel_search_item is an organic hotel listing
 
 #### Defined in
 
-main.ts:193939
+[main.ts:193819](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L193819)
 
 ___
 
@@ -104,7 +104,7 @@ GPS coordinates of the hotel’s location
 
 #### Defined in
 
-main.ts:193941
+[main.ts:193821](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L193821)
 
 ___
 
@@ -120,7 +120,7 @@ featured images for a hotel
 
 #### Defined in
 
-main.ts:193945
+[main.ts:193825](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L193825)
 
 ___
 
@@ -136,7 +136,7 @@ hotel price
 
 #### Defined in
 
-main.ts:193947
+[main.ts:193827](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L193827)
 
 ___
 
@@ -152,7 +152,7 @@ hotel reviews and rating information
 
 #### Defined in
 
-main.ts:193943
+[main.ts:193823](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L193823)
 
 ___
 
@@ -169,7 +169,7 @@ class rating that ranges between 1-5 stars
 
 #### Defined in
 
-main.ts:193935
+[main.ts:193815](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L193815)
 
 ___
 
@@ -185,7 +185,7 @@ title of the hotel
 
 #### Defined in
 
-main.ts:193932
+[main.ts:193812](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L193812)
 
 ___
 
@@ -201,7 +201,7 @@ type of element
 
 #### Defined in
 
-main.ts:193926
+[main.ts:193806](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L193806)
 
 ## Methods
 
@@ -221,7 +221,7 @@ main.ts:193926
 
 #### Defined in
 
-main.ts:193960
+[main.ts:193840](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L193840)
 
 ___
 
@@ -241,7 +241,7 @@ ___
 
 #### Defined in
 
-main.ts:193989
+[main.ts:193869](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L193869)
 
 ___
 
@@ -261,4 +261,4 @@ ___
 
 #### Defined in
 
-main.ts:193982
+[main.ts:193862](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L193862)

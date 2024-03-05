@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IScreenshotItem
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IScreenshotItem
 
 # Interface: IScreenshotItem
 
@@ -28,4 +28,4 @@ note: the page screenshot saved on the DataForSEO storage only remains accessibl
 
 #### Defined in
 
-main.ts:23689
+[main.ts:23547](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L23547)

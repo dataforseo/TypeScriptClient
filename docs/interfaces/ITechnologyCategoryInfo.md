@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / ITechnologyCategoryInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / ITechnologyCategoryInfo
 
 # Interface: ITechnologyCategoryInfo
 
@@ -31,7 +31,7 @@ crm, cart_abandonment
 
 #### Defined in
 
-main.ts:72315
+[main.ts:72171](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L72171)
 
 ___
 
@@ -45,7 +45,7 @@ user_generated_content.content_curation
 
 #### Defined in
 
-main.ts:72319
+[main.ts:72175](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L72175)
 
 ___
 
@@ -59,7 +59,7 @@ example:
 
 #### Defined in
 
-main.ts:72325
+[main.ts:72181](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L72181)
 
 ___
 
@@ -71,4 +71,4 @@ title of the technology category
 
 #### Defined in
 
-main.ts:72321
+[main.ts:72177](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L72177)

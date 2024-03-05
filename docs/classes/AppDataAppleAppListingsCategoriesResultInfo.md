@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / AppDataAppleAppListingsCategoriesResultInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / AppDataAppleAppListingsCategoriesResultInfo
 
 # Class: AppDataAppleAppListingsCategoriesResultInfo
 
@@ -45,7 +45,7 @@
 
 #### Defined in
 
-main.ts:186694
+[main.ts:186574](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L186574)
 
 ## Properties
 
@@ -61,7 +61,7 @@ name of the supported app category
 
 #### Defined in
 
-main.ts:186688
+[main.ts:186568](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L186568)
 
 ___
 
@@ -77,7 +77,7 @@ number of app listings that make up the supported app category
 
 #### Defined in
 
-main.ts:186690
+[main.ts:186570](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L186570)
 
 ## Methods
 
@@ -97,7 +97,7 @@ main.ts:186690
 
 #### Defined in
 
-main.ts:186703
+[main.ts:186583](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L186583)
 
 ___
 
@@ -117,7 +117,7 @@ ___
 
 #### Defined in
 
-main.ts:186721
+[main.ts:186601](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L186601)
 
 ___
 
@@ -137,4 +137,4 @@ ___
 
 #### Defined in
 
-main.ts:186714
+[main.ts:186594](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L186594)

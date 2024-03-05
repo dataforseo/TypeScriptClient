@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / OnPageRedirectChainsRequestInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / OnPageRedirectChainsRequestInfo
 
 # Class: OnPageRedirectChainsRequestInfo
 
@@ -49,7 +49,7 @@
 
 #### Defined in
 
-main.ts:148905
+[main.ts:148761](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L148761)
 
 ## Properties
 
@@ -74,7 +74,7 @@ examples:
 
 #### Defined in
 
-main.ts:148895
+[main.ts:148751](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L148751)
 
 ___
 
@@ -94,7 +94,7 @@ example:
 
 #### Defined in
 
-main.ts:148869
+[main.ts:148725](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L148725)
 
 ___
 
@@ -113,7 +113,7 @@ maximum value: 1000
 
 #### Defined in
 
-main.ts:148879
+[main.ts:148735](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L148735)
 
 ___
 
@@ -132,7 +132,7 @@ if you specify the 10 value, the first ten redirect chains in the results array 
 
 #### Defined in
 
-main.ts:148884
+[main.ts:148740](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L148740)
 
 ___
 
@@ -152,7 +152,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:148901
+[main.ts:148757](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L148757)
 
 ___
 
@@ -171,7 +171,7 @@ if you use this field, the API response will return only redirect chains which c
 
 #### Defined in
 
-main.ts:148874
+[main.ts:148730](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L148730)
 
 ## Methods
 
@@ -191,7 +191,7 @@ main.ts:148874
 
 #### Defined in
 
-main.ts:148914
+[main.ts:148770](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L148770)
 
 ___
 
@@ -211,7 +211,7 @@ ___
 
 #### Defined in
 
-main.ts:148940
+[main.ts:148796](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L148796)
 
 ___
 
@@ -231,4 +231,4 @@ ___
 
 #### Defined in
 
-main.ts:148933
+[main.ts:148789](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L148789)

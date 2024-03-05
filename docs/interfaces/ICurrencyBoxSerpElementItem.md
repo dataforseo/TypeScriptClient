@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / ICurrencyBoxSerpElementItem
+[dataforseo-client](../README.md) / [Exports](../modules.md) / ICurrencyBoxSerpElementItem
 
 # Interface: ICurrencyBoxSerpElementItem
 
@@ -43,7 +43,7 @@ converted currency
 
 #### Defined in
 
-main.ts:34429
+[main.ts:34287](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L34287)
 
 ___
 
@@ -57,7 +57,7 @@ note that exchange rates displayed in the currency_box element may be delayed ac
 
 #### Defined in
 
-main.ts:34424
+[main.ts:34282](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L34282)
 
 ___
 
@@ -70,7 +70,7 @@ ISO code of the currency applied to the price
 
 #### Defined in
 
-main.ts:34427
+[main.ts:34285](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L34285)
 
 ___
 
@@ -82,7 +82,7 @@ contains data provided in the graph of the element
 
 #### Defined in
 
-main.ts:34439
+[main.ts:34297](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L34297)
 
 ___
 
@@ -96,7 +96,7 @@ left, right
 
 #### Defined in
 
-main.ts:34416
+[main.ts:34274](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L34274)
 
 ___
 
@@ -109,7 +109,7 @@ absolute position among all the elements in SERP
 
 #### Defined in
 
-main.ts:34412
+[main.ts:34270](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L34270)
 
 ___
 
@@ -123,7 +123,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-main.ts:34409
+[main.ts:34267](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L34267)
 
 ___
 
@@ -137,7 +137,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 #### Defined in
 
-main.ts:34443
+[main.ts:34301](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L34301)
 
 ___
 
@@ -150,7 +150,7 @@ if there are none, equals null
 
 #### Defined in
 
-main.ts:34437
+[main.ts:34295](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L34295)
 
 ___
 
@@ -165,7 +165,7 @@ example:
 
 #### Defined in
 
-main.ts:34434
+[main.ts:34292](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L34292)
 
 ___
 
@@ -177,7 +177,7 @@ the value of the rating
 
 #### Defined in
 
-main.ts:34420
+[main.ts:34278](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L34278)
 
 ___
 
@@ -189,4 +189,4 @@ the XPath of the element
 
 #### Defined in
 
-main.ts:34418
+[main.ts:34276](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L34276)

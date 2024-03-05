@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / OnPageSummaryResultInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / OnPageSummaryResultInfo
 
 # Class: OnPageSummaryResultInfo
 
@@ -49,7 +49,7 @@
 
 #### Defined in
 
-main.ts:143838
+[main.ts:143694](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L143694)
 
 ## Properties
 
@@ -67,7 +67,7 @@ you can find the full list of IPs used by our crawler in the Overview section
 
 #### Defined in
 
-main.ts:143820
+[main.ts:143676](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L143676)
 
 ___
 
@@ -84,7 +84,7 @@ possible values: in_progress, finished
 
 #### Defined in
 
-main.ts:143814
+[main.ts:143670](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L143670)
 
 ___
 
@@ -100,7 +100,7 @@ details of the crawling session
 
 #### Defined in
 
-main.ts:143816
+[main.ts:143672](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L143672)
 
 ___
 
@@ -122,7 +122,7 @@ unexpected_exception – an internal error was encountered while crawling the ta
 
 #### Defined in
 
-main.ts:143828
+[main.ts:143684](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L143684)
 
 ___
 
@@ -139,7 +139,7 @@ on-page information about the target domain and crawling process
 
 #### Defined in
 
-main.ts:143831
+[main.ts:143687](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L143687)
 
 ___
 
@@ -156,7 +156,7 @@ metrics information on the target website pages
 
 #### Defined in
 
-main.ts:143834
+[main.ts:143690](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L143690)
 
 ## Methods
 
@@ -176,7 +176,7 @@ main.ts:143834
 
 #### Defined in
 
-main.ts:143847
+[main.ts:143703](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L143703)
 
 ___
 
@@ -196,7 +196,7 @@ ___
 
 #### Defined in
 
-main.ts:143869
+[main.ts:143725](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L143725)
 
 ___
 
@@ -216,4 +216,4 @@ ___
 
 #### Defined in
 
-main.ts:143862
+[main.ts:143718](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L143718)

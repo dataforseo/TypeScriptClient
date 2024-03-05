@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IBusinessDataGoogleHotelInfoTaskGetAdvancedResultInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IBusinessDataGoogleHotelInfoTaskGetAdvancedResultInfo
 
 # Interface: IBusinessDataGoogleHotelInfoTaskGetAdvancedResultInfo
 
@@ -40,7 +40,7 @@ information about the hotel
 
 #### Defined in
 
-main.ts:196306
+[main.ts:196186](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L196186)
 
 ___
 
@@ -53,7 +53,7 @@ physical address of the hotel
 
 #### Defined in
 
-main.ts:196301
+[main.ts:196181](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L196181)
 
 ___
 
@@ -66,7 +66,7 @@ you can use it to make sure that we provided accurate results
 
 #### Defined in
 
-main.ts:196284
+[main.ts:196164](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L196164)
 
 ___
 
@@ -81,7 +81,7 @@ example:
 
 #### Defined in
 
-main.ts:196289
+[main.ts:196169](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L196169)
 
 ___
 
@@ -96,7 +96,7 @@ CgoI-KWyzenM_MV3EAE
 
 #### Defined in
 
-main.ts:196277
+[main.ts:196157](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L196157)
 
 ___
 
@@ -108,7 +108,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:196281
+[main.ts:196161](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L196161)
 
 ___
 
@@ -121,7 +121,7 @@ information about the location where the hotel is located
 
 #### Defined in
 
-main.ts:196309
+[main.ts:196189](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L196189)
 
 ___
 
@@ -133,7 +133,7 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:196279
+[main.ts:196159](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L196159)
 
 ___
 
@@ -146,7 +146,7 @@ array containing URLs to images displayed in the hotel overview
 
 #### Defined in
 
-main.ts:196315
+[main.ts:196195](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L196195)
 
 ___
 
@@ -159,7 +159,7 @@ contact phone number of the hotel
 
 #### Defined in
 
-main.ts:196304
+[main.ts:196184](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L196184)
 
 ___
 
@@ -172,7 +172,7 @@ contains information about the hotel’s prices
 
 #### Defined in
 
-main.ts:196318
+[main.ts:196198](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L196198)
 
 ___
 
@@ -185,7 +185,7 @@ information about reviews of the hotel entity
 
 #### Defined in
 
-main.ts:196312
+[main.ts:196192](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L196192)
 
 ___
 
@@ -198,7 +198,7 @@ class rating that ranges between 1-5 stars and displayed after review ratings in
 
 #### Defined in
 
-main.ts:196295
+[main.ts:196175](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L196175)
 
 ___
 
@@ -211,7 +211,7 @@ class rating that ranges between 1-5 stars and displayed after review ratings in
 
 #### Defined in
 
-main.ts:196298
+[main.ts:196178](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L196178)
 
 ___
 
@@ -224,4 +224,4 @@ the title of the hotel entity for which the results are collected
 
 #### Defined in
 
-main.ts:196292
+[main.ts:196172](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L196172)

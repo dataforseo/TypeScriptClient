@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / KnowledgeGraphHotelsBookingElement
+[dataforseo-client](../README.md) / [Exports](../modules.md) / KnowledgeGraphHotelsBookingElement
 
 # Class: KnowledgeGraphHotelsBookingElement
 
@@ -50,7 +50,7 @@
 
 #### Defined in
 
-main.ts:35953
+[main.ts:35811](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L35811)
 
 ## Properties
 
@@ -66,7 +66,7 @@ the description of the results element in SERP
 
 #### Defined in
 
-main.ts:35941
+[main.ts:35799](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L35799)
 
 ___
 
@@ -82,7 +82,7 @@ domain in the URL
 
 #### Defined in
 
-main.ts:35945
+[main.ts:35803](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L35803)
 
 ___
 
@@ -98,7 +98,7 @@ indicates whether the element is an ad
 
 #### Defined in
 
-main.ts:35949
+[main.ts:35807](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L35807)
 
 ___
 
@@ -114,7 +114,7 @@ price indicated in the element
 
 #### Defined in
 
-main.ts:35947
+[main.ts:35805](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L35805)
 
 ___
 
@@ -131,7 +131,7 @@ indicates the source of information included in the shopping_element
 
 #### Defined in
 
-main.ts:35939
+[main.ts:35797](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L35797)
 
 ___
 
@@ -147,7 +147,7 @@ type of element
 
 #### Defined in
 
-main.ts:35936
+[main.ts:35794](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L35794)
 
 ___
 
@@ -163,7 +163,7 @@ URL
 
 #### Defined in
 
-main.ts:35943
+[main.ts:35801](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L35801)
 
 ## Methods
 
@@ -183,7 +183,7 @@ main.ts:35943
 
 #### Defined in
 
-main.ts:35962
+[main.ts:35820](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L35820)
 
 ___
 
@@ -203,7 +203,7 @@ ___
 
 #### Defined in
 
-main.ts:35985
+[main.ts:35843](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L35843)
 
 ___
 
@@ -223,4 +223,4 @@ ___
 
 #### Defined in
 
-main.ts:35978
+[main.ts:35836](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L35836)

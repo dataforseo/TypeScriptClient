@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IDataforseoLabsAppleAppCompetitorsLiveResultInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IDataforseoLabsAppleAppCompetitorsLiveResultInfo
 
 # Interface: IDataforseoLabsAppleAppCompetitorsLiveResultInfo
 
@@ -32,7 +32,7 @@ id of the app in a POST array
 
 #### Defined in
 
-main.ts:111739
+[main.ts:111595](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L111595)
 
 ___
 
@@ -44,7 +44,7 @@ contains data related to the app_id and competitor applications
 
 #### Defined in
 
-main.ts:111749
+[main.ts:111605](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L111605)
 
 ___
 
@@ -56,7 +56,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:111747
+[main.ts:111603](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L111603)
 
 ___
 
@@ -68,7 +68,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:111743
+[main.ts:111599](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L111599)
 
 ___
 
@@ -80,7 +80,7 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:111741
+[main.ts:111597](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L111597)
 
 ___
 
@@ -92,7 +92,7 @@ search engine type
 
 #### Defined in
 
-main.ts:111737
+[main.ts:111593](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L111593)
 
 ___
 
@@ -104,4 +104,4 @@ total amount of results in our database relevant to your request
 
 #### Defined in
 
-main.ts:111745
+[main.ts:111601](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L111601)

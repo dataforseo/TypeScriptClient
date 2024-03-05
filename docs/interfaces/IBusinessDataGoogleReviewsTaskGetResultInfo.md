@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IBusinessDataGoogleReviewsTaskGetResultInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IBusinessDataGoogleReviewsTaskGetResultInfo
 
 # Interface: IBusinessDataGoogleReviewsTaskGetResultInfo
 
@@ -42,7 +42,7 @@ you can use it to make sure that we provided accurate results
 
 #### Defined in
 
-main.ts:198637
+[main.ts:198517](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L198517)
 
 ___
 
@@ -56,7 +56,7 @@ learn more about the identifier in this help center article
 
 #### Defined in
 
-main.ts:198661
+[main.ts:198541](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L198541)
 
 ___
 
@@ -71,7 +71,7 @@ example:
 
 #### Defined in
 
-main.ts:198642
+[main.ts:198522](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L198522)
 
 ___
 
@@ -84,7 +84,7 @@ learn more about the identifier in this help center article
 
 #### Defined in
 
-main.ts:198654
+[main.ts:198534](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L198534)
 
 ___
 
@@ -97,7 +97,7 @@ you can get more results by using the depth parameter when setting a task
 
 #### Defined in
 
-main.ts:198669
+[main.ts:198549](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L198549)
 
 ___
 
@@ -110,7 +110,7 @@ you can get more results by using the depth parameter when setting a task
 
 #### Defined in
 
-main.ts:198666
+[main.ts:198546](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L198546)
 
 ___
 
@@ -123,7 +123,7 @@ keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a s
 
 #### Defined in
 
-main.ts:198626
+[main.ts:198506](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L198506)
 
 ___
 
@@ -135,7 +135,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:198634
+[main.ts:198514](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L198514)
 
 ___
 
@@ -147,7 +147,7 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:198632
+[main.ts:198512](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L198512)
 
 ___
 
@@ -160,7 +160,7 @@ learn more about the identifier in this help center article
 
 #### Defined in
 
-main.ts:198657
+[main.ts:198537](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L198537)
 
 ___
 
@@ -173,7 +173,7 @@ popularity rate based on reviews and displayed in SERP
 
 #### Defined in
 
-main.ts:198651
+[main.ts:198531](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L198531)
 
 ___
 
@@ -185,7 +185,7 @@ the total number of reviews
 
 #### Defined in
 
-main.ts:198663
+[main.ts:198543](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L198543)
 
 ___
 
@@ -197,7 +197,7 @@ search engine domain in a POST array
 
 #### Defined in
 
-main.ts:198630
+[main.ts:198510](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L198510)
 
 ___
 
@@ -210,7 +210,7 @@ additional information (e.g., address) on the ‘reviews’ element for which th
 
 #### Defined in
 
-main.ts:198648
+[main.ts:198528](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L198528)
 
 ___
 
@@ -223,7 +223,7 @@ the name of the local establishment for which the reviews are collected
 
 #### Defined in
 
-main.ts:198645
+[main.ts:198525](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L198525)
 
 ___
 
@@ -235,4 +235,4 @@ type of element
 
 #### Defined in
 
-main.ts:198628
+[main.ts:198508](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L198508)

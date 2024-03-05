@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / DataforseoLabsGoogleDomainWhoisOverviewLiveResultInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / DataforseoLabsGoogleDomainWhoisOverviewLiveResultInfo
 
 # Class: DataforseoLabsGoogleDomainWhoisOverviewLiveResultInfo
 
@@ -47,7 +47,7 @@
 
 #### Defined in
 
-main.ts:85984
+[main.ts:85840](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L85840)
 
 ## Properties
 
@@ -63,7 +63,7 @@ contains ranking and traffic data
 
 #### Defined in
 
-main.ts:85980
+[main.ts:85836](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L85836)
 
 ___
 
@@ -79,7 +79,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:85978
+[main.ts:85834](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L85834)
 
 ___
 
@@ -95,7 +95,7 @@ search engine type
 
 #### Defined in
 
-main.ts:85974
+[main.ts:85830](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L85830)
 
 ___
 
@@ -111,7 +111,7 @@ total amount of results in our database relevant to your request
 
 #### Defined in
 
-main.ts:85976
+[main.ts:85832](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L85832)
 
 ## Methods
 
@@ -131,7 +131,7 @@ main.ts:85976
 
 #### Defined in
 
-main.ts:85993
+[main.ts:85849](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L85849)
 
 ___
 
@@ -151,7 +151,7 @@ ___
 
 #### Defined in
 
-main.ts:86017
+[main.ts:85873](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L85873)
 
 ___
 
@@ -171,4 +171,4 @@ ___
 
 #### Defined in
 
-main.ts:86010
+[main.ts:85866](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L85866)

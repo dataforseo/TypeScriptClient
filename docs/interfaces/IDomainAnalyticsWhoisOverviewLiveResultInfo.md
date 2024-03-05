@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IDomainAnalyticsWhoisOverviewLiveResultInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IDomainAnalyticsWhoisOverviewLiveResultInfo
 
 # Interface: IDomainAnalyticsWhoisOverviewLiveResultInfo
 
@@ -28,7 +28,7 @@ contains ranking and traffic data
 
 #### Defined in
 
-main.ts:76451
+[main.ts:76307](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L76307)
 
 ___
 
@@ -40,7 +40,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:76449
+[main.ts:76305](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L76305)
 
 ___
 
@@ -52,4 +52,4 @@ total amount of results in our database relevant to your request
 
 #### Defined in
 
-main.ts:76447
+[main.ts:76303](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L76303)

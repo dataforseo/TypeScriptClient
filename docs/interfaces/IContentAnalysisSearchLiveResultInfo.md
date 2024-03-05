@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IContentAnalysisSearchLiveResultInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IContentAnalysisSearchLiveResultInfo
 
 # Interface: IContentAnalysisSearchLiveResultInfo
 
@@ -29,7 +29,7 @@ contains citations and related data
 
 #### Defined in
 
-main.ts:157040
+[main.ts:156920](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L156920)
 
 ___
 
@@ -41,7 +41,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:157038
+[main.ts:156918](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L156918)
 
 ___
 
@@ -55,7 +55,7 @@ note: offset_token values are unique for each subsequent task
 
 #### Defined in
 
-main.ts:157034
+[main.ts:156914](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L156914)
 
 ___
 
@@ -67,4 +67,4 @@ total amount of results in our database relevant to your request
 
 #### Defined in
 
-main.ts:157036
+[main.ts:156916](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L156916)

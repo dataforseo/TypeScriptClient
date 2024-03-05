@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / BusinessDataSocialMediaFacebookLiveResultInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / BusinessDataSocialMediaFacebookLiveResultInfo
 
 # Class: BusinessDataSocialMediaFacebookLiveResultInfo
 
@@ -46,7 +46,7 @@
 
 #### Defined in
 
-main.ts:206096
+[main.ts:205976](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L205976)
 
 ## Properties
 
@@ -63,7 +63,7 @@ this field shows the number of likes a page received through the Facebook Like B
 
 #### Defined in
 
-main.ts:206092
+[main.ts:205972](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L205972)
 
 ___
 
@@ -80,7 +80,7 @@ corresponding URL you specified in the targets array when setting a task
 
 #### Defined in
 
-main.ts:206089
+[main.ts:205969](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L205969)
 
 ___
 
@@ -96,7 +96,7 @@ type of element
 
 #### Defined in
 
-main.ts:206086
+[main.ts:205966](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L205966)
 
 ## Methods
 
@@ -116,7 +116,7 @@ main.ts:206086
 
 #### Defined in
 
-main.ts:206105
+[main.ts:205985](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L205985)
 
 ___
 
@@ -136,7 +136,7 @@ ___
 
 #### Defined in
 
-main.ts:206124
+[main.ts:206004](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L206004)
 
 ___
 
@@ -156,4 +156,4 @@ ___
 
 #### Defined in
 
-main.ts:206117
+[main.ts:205997](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L205997)

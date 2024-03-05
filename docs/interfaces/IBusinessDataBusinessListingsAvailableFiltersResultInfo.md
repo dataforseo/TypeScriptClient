@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IBusinessDataBusinessListingsAvailableFiltersResultInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IBusinessDataBusinessListingsAvailableFiltersResultInfo
 
 # Interface: IBusinessDataBusinessListingsAvailableFiltersResultInfo
 
@@ -29,7 +29,7 @@
 
 #### Defined in
 
-main.ts:188361
+[main.ts:188241](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L188241)
 
 ___
 
@@ -43,4 +43,4 @@ ___
 
 #### Defined in
 
-main.ts:188360
+[main.ts:188240](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L188240)

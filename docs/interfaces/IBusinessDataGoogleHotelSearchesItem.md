@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IBusinessDataGoogleHotelSearchesItem
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IBusinessDataGoogleHotelSearchesItem
 
 # Interface: IBusinessDataGoogleHotelSearchesItem
 
@@ -36,7 +36,7 @@ CgoI-KWyzenM_MV3EAE
 
 #### Defined in
 
-main.ts:194018
+[main.ts:193898](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L193898)
 
 ___
 
@@ -50,7 +50,7 @@ if false, related hotel_search_item is an organic hotel listing
 
 #### Defined in
 
-main.ts:194027
+[main.ts:193907](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L193907)
 
 ___
 
@@ -62,7 +62,7 @@ GPS coordinates of the hotel’s location
 
 #### Defined in
 
-main.ts:194029
+[main.ts:193909](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L193909)
 
 ___
 
@@ -74,7 +74,7 @@ featured images for a hotel
 
 #### Defined in
 
-main.ts:194033
+[main.ts:193913](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L193913)
 
 ___
 
@@ -86,7 +86,7 @@ hotel price
 
 #### Defined in
 
-main.ts:194035
+[main.ts:193915](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L193915)
 
 ___
 
@@ -98,7 +98,7 @@ hotel reviews and rating information
 
 #### Defined in
 
-main.ts:194031
+[main.ts:193911](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L193911)
 
 ___
 
@@ -111,7 +111,7 @@ class rating that ranges between 1-5 stars
 
 #### Defined in
 
-main.ts:194023
+[main.ts:193903](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L193903)
 
 ___
 
@@ -123,7 +123,7 @@ title of the hotel
 
 #### Defined in
 
-main.ts:194020
+[main.ts:193900](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L193900)
 
 ___
 
@@ -135,4 +135,4 @@ type of element
 
 #### Defined in
 
-main.ts:194014
+[main.ts:193894](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L193894)

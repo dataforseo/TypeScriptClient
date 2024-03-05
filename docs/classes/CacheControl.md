@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / CacheControl
+[dataforseo-client](../README.md) / [Exports](../modules.md) / CacheControl
 
 # Class: CacheControl
 
@@ -45,7 +45,7 @@
 
 #### Defined in
 
-main.ts:144890
+[main.ts:144746](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L144746)
 
 ## Properties
 
@@ -61,7 +61,7 @@ indicates whether the page is cacheable
 
 #### Defined in
 
-main.ts:144883
+[main.ts:144739](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L144739)
 
 ___
 
@@ -78,7 +78,7 @@ the amount of time the browser caches a resource
 
 #### Defined in
 
-main.ts:144886
+[main.ts:144742](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L144742)
 
 ## Methods
 
@@ -98,7 +98,7 @@ main.ts:144886
 
 #### Defined in
 
-main.ts:144899
+[main.ts:144755](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L144755)
 
 ___
 
@@ -118,7 +118,7 @@ ___
 
 #### Defined in
 
-main.ts:144917
+[main.ts:144773](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L144773)
 
 ___
 
@@ -138,4 +138,4 @@ ___
 
 #### Defined in
 
-main.ts:144910
+[main.ts:144766](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L144766)

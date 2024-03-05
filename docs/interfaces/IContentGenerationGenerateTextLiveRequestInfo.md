@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IContentGenerationGenerateTextLiveRequestInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IContentGenerationGenerateTextLiveRequestInfo
 
 # Interface: IContentGenerationGenerateTextLiveRequestInfo
 
@@ -39,7 +39,7 @@ learn more about this parameter on our help center
 
 #### Defined in
 
-main.ts:160480
+[main.ts:160360](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L160360)
 
 ___
 
@@ -54,7 +54,7 @@ learn more about this parameter on our help center
 
 #### Defined in
 
-main.ts:160467
+[main.ts:160347](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L160347)
 
 ___
 
@@ -68,7 +68,7 @@ if set to true, generated content will include a logical conclusion
 
 #### Defined in
 
-main.ts:160484
+[main.ts:160364](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L160364)
 
 ___
 
@@ -84,7 +84,7 @@ example: "meta_keywords": ["iPhone","sell","CEO"]
 
 #### Defined in
 
-main.ts:160473
+[main.ts:160353](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L160353)
 
 ___
 
@@ -100,7 +100,7 @@ example: "sub_topics": ["Apple","Pixar","Amazing Products"]
 
 #### Defined in
 
-main.ts:160462
+[main.ts:160342](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L160342)
 
 ___
 
@@ -116,7 +116,7 @@ supplement_token values are unique for each subsequent task
 
 #### Defined in
 
-main.ts:160490
+[main.ts:160370](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L160370)
 
 ___
 
@@ -132,7 +132,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:160496
+[main.ts:160376](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L160376)
 
 ___
 
@@ -147,7 +147,7 @@ can contain from 1 to 50 tokens
 
 #### Defined in
 
-main.ts:160451
+[main.ts:160331](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L160331)
 
 ___
 
@@ -162,4 +162,4 @@ can take values from 1 to 1000
 
 #### Defined in
 
-main.ts:160456
+[main.ts:160336](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L160336)

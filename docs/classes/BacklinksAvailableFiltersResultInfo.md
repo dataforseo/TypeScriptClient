@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / BacklinksAvailableFiltersResultInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / BacklinksAvailableFiltersResultInfo
 
 # Class: BacklinksAvailableFiltersResultInfo
 
@@ -53,7 +53,7 @@
 
 #### Defined in
 
-main.ts:128785
+[main.ts:128641](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L128641)
 
 ## Properties
 
@@ -71,7 +71,7 @@ main.ts:128785
 
 #### Defined in
 
-main.ts:128775
+[main.ts:128631](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L128631)
 
 ___
 
@@ -89,7 +89,7 @@ ___
 
 #### Defined in
 
-main.ts:128773
+[main.ts:128629](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L128629)
 
 ___
 
@@ -107,7 +107,7 @@ ___
 
 #### Defined in
 
-main.ts:128781
+[main.ts:128637](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L128637)
 
 ___
 
@@ -125,7 +125,7 @@ ___
 
 #### Defined in
 
-main.ts:128772
+[main.ts:128628](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L128628)
 
 ___
 
@@ -143,7 +143,7 @@ ___
 
 #### Defined in
 
-main.ts:128777
+[main.ts:128633](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L128633)
 
 ___
 
@@ -161,7 +161,7 @@ ___
 
 #### Defined in
 
-main.ts:128774
+[main.ts:128630](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L128630)
 
 ___
 
@@ -179,7 +179,7 @@ ___
 
 #### Defined in
 
-main.ts:128780
+[main.ts:128636](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L128636)
 
 ___
 
@@ -197,7 +197,7 @@ ___
 
 #### Defined in
 
-main.ts:128778
+[main.ts:128634](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L128634)
 
 ___
 
@@ -215,7 +215,7 @@ ___
 
 #### Defined in
 
-main.ts:128776
+[main.ts:128632](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L128632)
 
 ___
 
@@ -233,7 +233,7 @@ ___
 
 #### Defined in
 
-main.ts:128779
+[main.ts:128635](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L128635)
 
 ## Methods
 
@@ -253,7 +253,7 @@ main.ts:128779
 
 #### Defined in
 
-main.ts:128794
+[main.ts:128650](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L128650)
 
 ___
 
@@ -273,7 +273,7 @@ ___
 
 #### Defined in
 
-main.ts:128880
+[main.ts:128736](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L128736)
 
 ___
 
@@ -293,4 +293,4 @@ ___
 
 #### Defined in
 
-main.ts:128873
+[main.ts:128729](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L128729)

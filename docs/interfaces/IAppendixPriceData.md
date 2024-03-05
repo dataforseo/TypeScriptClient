@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IAppendixPriceData
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IAppendixPriceData
 
 # Interface: IAppendixPriceData
 
@@ -35,7 +35,7 @@
 
 #### Defined in
 
-main.ts:212270
+[main.ts:212150](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L212150)
 
 ___
 
@@ -45,7 +45,7 @@ ___
 
 #### Defined in
 
-main.ts:212269
+[main.ts:212149](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L212149)
 
 ___
 
@@ -55,7 +55,7 @@ ___
 
 #### Defined in
 
-main.ts:212271
+[main.ts:212151](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L212151)
 
 ___
 
@@ -65,7 +65,7 @@ ___
 
 #### Defined in
 
-main.ts:212272
+[main.ts:212152](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L212152)
 
 ___
 
@@ -75,7 +75,7 @@ ___
 
 #### Defined in
 
-main.ts:212273
+[main.ts:212153](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L212153)
 
 ___
 
@@ -85,7 +85,7 @@ ___
 
 #### Defined in
 
-main.ts:212274
+[main.ts:212154](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L212154)
 
 ___
 
@@ -95,7 +95,7 @@ ___
 
 #### Defined in
 
-main.ts:212275
+[main.ts:212155](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L212155)
 
 ___
 
@@ -105,7 +105,7 @@ ___
 
 #### Defined in
 
-main.ts:212276
+[main.ts:212156](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L212156)
 
 ___
 
@@ -115,7 +115,7 @@ ___
 
 #### Defined in
 
-main.ts:212266
+[main.ts:212146](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L212146)
 
 ___
 
@@ -125,7 +125,7 @@ ___
 
 #### Defined in
 
-main.ts:212267
+[main.ts:212147](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L212147)
 
 ___
 
@@ -135,7 +135,7 @@ ___
 
 #### Defined in
 
-main.ts:212277
+[main.ts:212157](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L212157)
 
 ___
 
@@ -145,4 +145,4 @@ ___
 
 #### Defined in
 
-main.ts:212268
+[main.ts:212148](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L212148)

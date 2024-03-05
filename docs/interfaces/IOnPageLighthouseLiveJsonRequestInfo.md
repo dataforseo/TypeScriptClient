@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IOnPageLighthouseLiveJsonRequestInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IOnPageLighthouseLiveJsonRequestInfo
 
 # Interface: IOnPageLighthouseLiveJsonRequestInfo
 
@@ -44,7 +44,7 @@ you can get the full list of possible audits here
 
 #### Defined in
 
-main.ts:155007
+[main.ts:154863](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L154863)
 
 ___
 
@@ -62,7 +62,7 @@ seo, pwa, performance, best_practices, accessibility
 
 #### Defined in
 
-main.ts:154994
+[main.ts:154850](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L154850)
 
 ___
 
@@ -78,7 +78,7 @@ default value: false
 
 #### Defined in
 
-main.ts:154986
+[main.ts:154842](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L154842)
 
 ___
 
@@ -94,7 +94,7 @@ en
 
 #### Defined in
 
-main.ts:155024
+[main.ts:154880](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L154880)
 
 ___
 
@@ -110,7 +110,7 @@ English
 
 #### Defined in
 
-main.ts:155018
+[main.ts:154874](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L154874)
 
 ___
 
@@ -126,7 +126,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:155030
+[main.ts:154886](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L154886)
 
 ___
 
@@ -142,7 +142,7 @@ https://dataforseo.com/
 
 #### Defined in
 
-main.ts:154980
+[main.ts:154836](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L154836)
 
 ___
 
@@ -157,4 +157,4 @@ the list of available versions is available through the Lighthouse Versions endp
 
 #### Defined in
 
-main.ts:155012
+[main.ts:154868](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L154868)

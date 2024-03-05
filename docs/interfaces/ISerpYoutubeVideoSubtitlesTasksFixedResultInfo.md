@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / ISerpYoutubeVideoSubtitlesTasksFixedResultInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / ISerpYoutubeVideoSubtitlesTasksFixedResultInfo
 
 # Interface: ISerpYoutubeVideoSubtitlesTasksFixedResultInfo
 
@@ -33,7 +33,7 @@ date when the task was fixed (in the UTC format)
 
 #### Defined in
 
-main.ts:60236
+[main.ts:60092](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L60092)
 
 ___
 
@@ -46,7 +46,7 @@ if SERP Advanced is not supported in the specified endpoint, the value will be n
 
 #### Defined in
 
-main.ts:60244
+[main.ts:60100](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L60100)
 
 ___
 
@@ -59,7 +59,7 @@ if SERP HTML is not supported in the specified endpoint, the value will be null
 
 #### Defined in
 
-main.ts:60247
+[main.ts:60103](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L60103)
 
 ___
 
@@ -72,7 +72,7 @@ if SERP Regular is not supported in the specified endpoint, the value will be nu
 
 #### Defined in
 
-main.ts:60241
+[main.ts:60097](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L60097)
 
 ___
 
@@ -85,7 +85,7 @@ unique task identifier in our system in the UUID format
 
 #### Defined in
 
-main.ts:60229
+[main.ts:60085](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L60085)
 
 ___
 
@@ -97,7 +97,7 @@ search engine specified when setting the task
 
 #### Defined in
 
-main.ts:60231
+[main.ts:60087](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L60087)
 
 ___
 
@@ -110,7 +110,7 @@ can take the following values: video_subtitles
 
 #### Defined in
 
-main.ts:60234
+[main.ts:60090](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L60090)
 
 ___
 
@@ -122,4 +122,4 @@ user-defined task identifier
 
 #### Defined in
 
-main.ts:60238
+[main.ts:60094](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L60094)

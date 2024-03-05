@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / AmazonKeywordData
+[dataforseo-client](../README.md) / [Exports](../modules.md) / AmazonKeywordData
 
 # Class: AmazonKeywordData
 
@@ -48,7 +48,7 @@
 
 #### Defined in
 
-main.ts:21323
+[main.ts:21323](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L21323)
 
 ## Properties
 
@@ -64,7 +64,7 @@ related keyword
 
 #### Defined in
 
-main.ts:21313
+[main.ts:21313](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L21313)
 
 ___
 
@@ -80,7 +80,7 @@ keyword info for the returned keyword
 
 #### Defined in
 
-main.ts:21319
+[main.ts:21319](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L21319)
 
 ___
 
@@ -96,7 +96,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:21317
+[main.ts:21317](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L21317)
 
 ___
 
@@ -112,7 +112,7 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:21315
+[main.ts:21315](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L21315)
 
 ___
 
@@ -128,7 +128,7 @@ search engine type
 
 #### Defined in
 
-main.ts:21311
+[main.ts:21311](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L21311)
 
 ## Methods
 
@@ -148,7 +148,7 @@ main.ts:21311
 
 #### Defined in
 
-main.ts:21332
+[main.ts:21332](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L21332)
 
 ___
 
@@ -168,7 +168,7 @@ ___
 
 #### Defined in
 
-main.ts:21353
+[main.ts:21353](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L21353)
 
 ___
 
@@ -188,4 +188,4 @@ ___
 
 #### Defined in
 
-main.ts:21346
+[main.ts:21346](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L21346)

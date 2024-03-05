@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / KeywordsDataGoogleAdsLocationsResultInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / KeywordsDataGoogleAdsLocationsResultInfo
 
 # Class: KeywordsDataGoogleAdsLocationsResultInfo
 
@@ -48,7 +48,7 @@
 
 #### Defined in
 
-main.ts:113264
+[main.ts:113120](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L113120)
 
 ## Properties
 
@@ -64,7 +64,7 @@ ISO country code of the location
 
 #### Defined in
 
-main.ts:113257
+[main.ts:113113](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L113113)
 
 ___
 
@@ -80,7 +80,7 @@ location code
 
 #### Defined in
 
-main.ts:113244
+[main.ts:113100](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L113100)
 
 ___
 
@@ -103,7 +103,7 @@ where location_code_parent corresponds to:
 
 #### Defined in
 
-main.ts:113255
+[main.ts:113111](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L113111)
 
 ___
 
@@ -119,7 +119,7 @@ full name of the location
 
 #### Defined in
 
-main.ts:113246
+[main.ts:113102](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L113102)
 
 ___
 
@@ -136,7 +136,7 @@ possible values according to Google’s target types
 
 #### Defined in
 
-main.ts:113260
+[main.ts:113116](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L113116)
 
 ## Methods
 
@@ -156,7 +156,7 @@ main.ts:113260
 
 #### Defined in
 
-main.ts:113273
+[main.ts:113129](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L113129)
 
 ___
 
@@ -176,7 +176,7 @@ ___
 
 #### Defined in
 
-main.ts:113294
+[main.ts:113150](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L113150)
 
 ___
 
@@ -196,4 +196,4 @@ ___
 
 #### Defined in
 
-main.ts:113287
+[main.ts:113143](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L113143)

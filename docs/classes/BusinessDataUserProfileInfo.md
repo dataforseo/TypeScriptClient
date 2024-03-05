@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / BusinessDataUserProfileInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / BusinessDataUserProfileInfo
 
 # Class: BusinessDataUserProfileInfo
 
@@ -48,7 +48,7 @@
 
 #### Defined in
 
-main.ts:200006
+[main.ts:199886](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L199886)
 
 ## Properties
 
@@ -64,7 +64,7 @@ URL to the reviewer’s profile picture
 
 #### Defined in
 
-main.ts:199998
+[main.ts:199878](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L199878)
 
 ___
 
@@ -80,7 +80,7 @@ country of the reviewer
 
 #### Defined in
 
-main.ts:200000
+[main.ts:199880](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L199880)
 
 ___
 
@@ -96,7 +96,7 @@ the name of the reviewer
 
 #### Defined in
 
-main.ts:199994
+[main.ts:199874](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L199874)
 
 ___
 
@@ -112,7 +112,7 @@ total number of reviews submitted by the reviewer
 
 #### Defined in
 
-main.ts:200002
+[main.ts:199882](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L199882)
 
 ___
 
@@ -128,7 +128,7 @@ URL to the reviewer’s profile
 
 #### Defined in
 
-main.ts:199996
+[main.ts:199876](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L199876)
 
 ## Methods
 
@@ -148,7 +148,7 @@ main.ts:199996
 
 #### Defined in
 
-main.ts:200015
+[main.ts:199895](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L199895)
 
 ___
 
@@ -168,7 +168,7 @@ ___
 
 #### Defined in
 
-main.ts:200036
+[main.ts:199916](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L199916)
 
 ___
 
@@ -188,4 +188,4 @@ ___
 
 #### Defined in
 
-main.ts:200029
+[main.ts:199909](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L199909)

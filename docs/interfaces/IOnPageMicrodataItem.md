@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IOnPageMicrodataItem
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IOnPageMicrodataItem
 
 # Interface: IOnPageMicrodataItem
 
@@ -27,7 +27,7 @@ information related to microdata validation
 
 #### Defined in
 
-main.ts:151078
+[main.ts:150934](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L150934)
 
 ___
 
@@ -39,4 +39,4 @@ type of element
 
 #### Defined in
 
-main.ts:151076
+[main.ts:150932](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L150932)

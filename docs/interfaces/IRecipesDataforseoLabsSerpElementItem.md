@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IRecipesDataforseoLabsSerpElementItem
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IRecipesDataforseoLabsSerpElementItem
 
 # Interface: IRecipesDataforseoLabsSerpElementItem
 
@@ -36,7 +36,7 @@ elements of search results found in SERP
 
 #### Defined in
 
-main.ts:95282
+[main.ts:95138](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L95138)
 
 ___
 
@@ -50,7 +50,7 @@ left, right
 
 #### Defined in
 
-main.ts:95278
+[main.ts:95134](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L95134)
 
 ___
 
@@ -63,7 +63,7 @@ absolute position among all the elements in SERP
 
 #### Defined in
 
-main.ts:95274
+[main.ts:95130](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L95130)
 
 ___
 
@@ -76,7 +76,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-main.ts:95271
+[main.ts:95127](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L95127)
 
 ___
 
@@ -88,4 +88,4 @@ the XPath of the element
 
 #### Defined in
 
-main.ts:95280
+[main.ts:95136](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L95136)

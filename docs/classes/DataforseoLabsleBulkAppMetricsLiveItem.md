@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / DataforseoLabsleBulkAppMetricsLiveItem
+[dataforseo-client](../README.md) / [Exports](../modules.md) / DataforseoLabsleBulkAppMetricsLiveItem
 
 # Class: DataforseoLabsleBulkAppMetricsLiveItem
 
@@ -46,7 +46,7 @@
 
 #### Defined in
 
-main.ts:108105
+[main.ts:107961](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L107961)
 
 ## Properties
 
@@ -62,7 +62,7 @@ id of the app in a POST array
 
 #### Defined in
 
-main.ts:108098
+[main.ts:107954](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L107954)
 
 ___
 
@@ -83,7 +83,7 @@ ranking data relevant to the keywords that the provided application ranks for on
 
 #### Defined in
 
-main.ts:108101
+[main.ts:107957](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L107957)
 
 ___
 
@@ -99,7 +99,7 @@ search engine type
 
 #### Defined in
 
-main.ts:108096
+[main.ts:107952](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L107952)
 
 ## Methods
 
@@ -119,7 +119,7 @@ main.ts:108096
 
 #### Defined in
 
-main.ts:108114
+[main.ts:107970](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L107970)
 
 ___
 
@@ -139,7 +139,7 @@ ___
 
 #### Defined in
 
-main.ts:108139
+[main.ts:107995](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L107995)
 
 ___
 
@@ -159,4 +159,4 @@ ___
 
 #### Defined in
 
-main.ts:108132
+[main.ts:107988](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L107988)

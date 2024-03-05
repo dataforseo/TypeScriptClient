@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / HotelLocationInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / HotelLocationInfo
 
 # Class: HotelLocationInfo
 
@@ -51,7 +51,7 @@
 
 #### Defined in
 
-main.ts:195778
+[main.ts:195658](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L195658)
 
 ## Properties
 
@@ -70,7 +70,7 @@ example:
 
 #### Defined in
 
-main.ts:195766
+[main.ts:195646](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L195646)
 
 ___
 
@@ -87,7 +87,7 @@ additional parameters of each element of the location chain
 
 #### Defined in
 
-main.ts:195774
+[main.ts:195654](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L195654)
 
 ___
 
@@ -106,7 +106,7 @@ example:
 
 #### Defined in
 
-main.ts:195771
+[main.ts:195651](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L195651)
 
 ___
 
@@ -122,7 +122,7 @@ url to the location of the hotel in google maps
 
 #### Defined in
 
-main.ts:195753
+[main.ts:195633](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L195633)
 
 ___
 
@@ -138,7 +138,7 @@ name of the neighborhood where the hotel is located
 
 #### Defined in
 
-main.ts:195749
+[main.ts:195629](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L195629)
 
 ___
 
@@ -154,7 +154,7 @@ description of the neighborhood where the hotel is located
 
 #### Defined in
 
-main.ts:195751
+[main.ts:195631](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L195631)
 
 ___
 
@@ -173,7 +173,7 @@ note that the criteria are not weighted equally in the overall score
 
 #### Defined in
 
-main.ts:195758
+[main.ts:195638](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L195638)
 
 ___
 
@@ -194,7 +194,7 @@ the scores of the hotel’s location tied to the categories that indicate the pr
 
 #### Defined in
 
-main.ts:195761
+[main.ts:195641](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L195641)
 
 ## Methods
 
@@ -214,7 +214,7 @@ main.ts:195761
 
 #### Defined in
 
-main.ts:195787
+[main.ts:195667](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L195667)
 
 ___
 
@@ -234,7 +234,7 @@ ___
 
 #### Defined in
 
-main.ts:195821
+[main.ts:195701](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L195701)
 
 ___
 
@@ -254,4 +254,4 @@ ___
 
 #### Defined in
 
-main.ts:195814
+[main.ts:195694](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L195694)

@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / AppendixStatusResultInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / AppendixStatusResultInfo
 
 # Class: AppendixStatusResultInfo
 
@@ -46,7 +46,7 @@
 
 #### Defined in
 
-main.ts:212907
+[main.ts:212787](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L212787)
 
 ## Properties
 
@@ -73,7 +73,7 @@ app_data
 
 #### Defined in
 
-main.ts:212891
+[main.ts:212771](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L212771)
 
 ___
 
@@ -89,7 +89,7 @@ array of objects that contain status information for API endpoints
 
 #### Defined in
 
-main.ts:212903
+[main.ts:212783](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L212783)
 
 ___
 
@@ -113,7 +113,7 @@ send_delay
 
 #### Defined in
 
-main.ts:212901
+[main.ts:212781](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L212781)
 
 ## Methods
 
@@ -133,7 +133,7 @@ main.ts:212901
 
 #### Defined in
 
-main.ts:212916
+[main.ts:212796](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L212796)
 
 ___
 
@@ -153,7 +153,7 @@ ___
 
 #### Defined in
 
-main.ts:212939
+[main.ts:212819](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L212819)
 
 ___
 
@@ -173,4 +173,4 @@ ___
 
 #### Defined in
 
-main.ts:212932
+[main.ts:212812](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L212812)

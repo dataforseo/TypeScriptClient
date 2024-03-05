@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / BusinessDataGoogleLocationsCountryResultInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / BusinessDataGoogleLocationsCountryResultInfo
 
 # Class: BusinessDataGoogleLocationsCountryResultInfo
 
@@ -48,7 +48,7 @@
 
 #### Defined in
 
-main.ts:190498
+[main.ts:190378](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L190378)
 
 ## Properties
 
@@ -64,7 +64,7 @@ ISO country code of the location
 
 #### Defined in
 
-main.ts:190492
+[main.ts:190372](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L190372)
 
 ___
 
@@ -80,7 +80,7 @@ location code
 
 #### Defined in
 
-main.ts:190482
+[main.ts:190362](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L190362)
 
 ___
 
@@ -96,7 +96,7 @@ full name of the location
 
 #### Defined in
 
-main.ts:190484
+[main.ts:190364](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L190364)
 
 ___
 
@@ -116,7 +116,7 @@ example:
 
 #### Defined in
 
-main.ts:190490
+[main.ts:190370](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L190370)
 
 ___
 
@@ -132,7 +132,7 @@ location type
 
 #### Defined in
 
-main.ts:190494
+[main.ts:190374](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L190374)
 
 ## Methods
 
@@ -152,7 +152,7 @@ main.ts:190494
 
 #### Defined in
 
-main.ts:190507
+[main.ts:190387](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L190387)
 
 ___
 
@@ -172,7 +172,7 @@ ___
 
 #### Defined in
 
-main.ts:190528
+[main.ts:190408](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L190408)
 
 ___
 
@@ -192,4 +192,4 @@ ___
 
 #### Defined in
 
-main.ts:190521
+[main.ts:190401](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L190401)

@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / BulkMetricsInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / BulkMetricsInfo
 
 # Class: BulkMetricsInfo
 
@@ -45,7 +45,7 @@
 
 #### Defined in
 
-main.ts:97783
+[main.ts:97639](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L97639)
 
 ## Properties
 
@@ -61,7 +61,7 @@ total count of organic SERPs that contain the domain
 
 #### Defined in
 
-main.ts:97779
+[main.ts:97635](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L97635)
 
 ___
 
@@ -80,7 +80,7 @@ learn more about how the metric is calculated in this help center article
 
 #### Defined in
 
-main.ts:97777
+[main.ts:97633](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L97633)
 
 ## Methods
 
@@ -100,7 +100,7 @@ main.ts:97777
 
 #### Defined in
 
-main.ts:97792
+[main.ts:97648](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L97648)
 
 ___
 
@@ -120,7 +120,7 @@ ___
 
 #### Defined in
 
-main.ts:97810
+[main.ts:97666](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L97666)
 
 ___
 
@@ -140,4 +140,4 @@ ___
 
 #### Defined in
 
-main.ts:97803
+[main.ts:97659](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L97659)

@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IGoogleFlightsElement
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IGoogleFlightsElement
 
 # Interface: IGoogleFlightsElement
 
@@ -28,7 +28,7 @@ description of the results element in SERP
 
 #### Defined in
 
-main.ts:30799
+[main.ts:30657](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L30657)
 
 ___
 
@@ -40,7 +40,7 @@ type of element
 
 #### Defined in
 
-main.ts:30797
+[main.ts:30655](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L30655)
 
 ___
 
@@ -52,4 +52,4 @@ URL
 
 #### Defined in
 
-main.ts:30801
+[main.ts:30659](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L30659)

@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IAmazonAmazonSerpSerpElementItem
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IAmazonAmazonSerpSerpElementItem
 
 # Interface: IAmazonAmazonSerpSerpElementItem
 
@@ -53,7 +53,7 @@ learn more about ASIN in this help center guide
 
 #### Defined in
 
-main.ts:100137
+[main.ts:99993](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L99993)
 
 ___
 
@@ -65,7 +65,7 @@ number of product purchases in the past month
 
 #### Defined in
 
-main.ts:100168
+[main.ts:100024](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L100024)
 
 ___
 
@@ -79,7 +79,7 @@ USD
 
 #### Defined in
 
-main.ts:100151
+[main.ts:100007](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L100007)
 
 ___
 
@@ -94,7 +94,7 @@ B07G82D89J
 
 #### Defined in
 
-main.ts:100173
+[main.ts:100029](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L100029)
 
 ___
 
@@ -107,7 +107,7 @@ delivery information including free and fast delivery date ranges
 
 #### Defined in
 
-main.ts:100166
+[main.ts:100022](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L100022)
 
 ___
 
@@ -119,7 +119,7 @@ description of the product
 
 #### Defined in
 
-main.ts:100134
+[main.ts:99990](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L99990)
 
 ___
 
@@ -131,7 +131,7 @@ Amazon domain
 
 #### Defined in
 
-main.ts:100128
+[main.ts:99984](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L99984)
 
 ___
 
@@ -143,7 +143,7 @@ URL of the product image featured in the results
 
 #### Defined in
 
-main.ts:100139
+[main.ts:99995](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L99995)
 
 ___
 
@@ -156,7 +156,7 @@ if the value is true, the product is marked with the “Amazon’s choice” lab
 
 #### Defined in
 
-main.ts:100160
+[main.ts:100016](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L100016)
 
 ___
 
@@ -169,7 +169,7 @@ if the value is true, the product is marked with the “Best Seller” label
 
 #### Defined in
 
-main.ts:100157
+[main.ts:100013](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L100013)
 
 ___
 
@@ -183,7 +183,7 @@ left, right
 
 #### Defined in
 
-main.ts:100124
+[main.ts:99980](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L99980)
 
 ___
 
@@ -197,7 +197,7 @@ example:
 
 #### Defined in
 
-main.ts:100143
+[main.ts:99999](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L99999)
 
 ___
 
@@ -211,7 +211,7 @@ example:
 
 #### Defined in
 
-main.ts:100147
+[main.ts:100003](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L100003)
 
 ___
 
@@ -224,7 +224,7 @@ absolute position among all the elements in SERP
 
 #### Defined in
 
-main.ts:100120
+[main.ts:99976](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L99976)
 
 ___
 
@@ -237,7 +237,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-main.ts:100117
+[main.ts:99973](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L99973)
 
 ___
 
@@ -250,7 +250,7 @@ the popularity rate based on reviews and displayed in SERP
 
 #### Defined in
 
-main.ts:100163
+[main.ts:100019](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L100019)
 
 ___
 
@@ -262,7 +262,7 @@ search engine type
 
 #### Defined in
 
-main.ts:100114
+[main.ts:99970](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L99970)
 
 ___
 
@@ -275,7 +275,7 @@ contains special offer details, including coupon and Subscribe & Save discounts
 
 #### Defined in
 
-main.ts:100154
+[main.ts:100010](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L100010)
 
 ___
 
@@ -287,7 +287,7 @@ product title
 
 #### Defined in
 
-main.ts:100130
+[main.ts:99986](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L99986)
 
 ___
 
@@ -299,7 +299,7 @@ URL of the product page
 
 #### Defined in
 
-main.ts:100132
+[main.ts:99988](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L99988)
 
 ___
 
@@ -311,4 +311,4 @@ the XPath of the element
 
 #### Defined in
 
-main.ts:100126
+[main.ts:99982](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L99982)

@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / AmazonProductNewerModelInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / AmazonProductNewerModelInfo
 
 # Class: AmazonProductNewerModelInfo
 
@@ -45,7 +45,7 @@
 
 #### Defined in
 
-main.ts:172448
+[main.ts:172328](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L172328)
 
 ## Properties
 
@@ -61,7 +61,7 @@ ASIN of the newer product model
 
 #### Defined in
 
-main.ts:172444
+[main.ts:172324](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L172324)
 
 ___
 
@@ -77,7 +77,7 @@ product title
 
 #### Defined in
 
-main.ts:172442
+[main.ts:172322](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L172322)
 
 ## Methods
 
@@ -97,7 +97,7 @@ main.ts:172442
 
 #### Defined in
 
-main.ts:172457
+[main.ts:172337](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L172337)
 
 ___
 
@@ -117,7 +117,7 @@ ___
 
 #### Defined in
 
-main.ts:172475
+[main.ts:172355](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L172355)
 
 ___
 
@@ -137,4 +137,4 @@ ___
 
 #### Defined in
 
-main.ts:172468
+[main.ts:172348](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L172348)

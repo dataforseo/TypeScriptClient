@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / KeywordsDataBingKeywordPerformanceTaskGetResultInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / KeywordsDataBingKeywordPerformanceTaskGetResultInfo
 
 # Class: KeywordsDataBingKeywordPerformanceTaskGetResultInfo
 
@@ -49,7 +49,7 @@
 
 #### Defined in
 
-main.ts:127506
+[main.ts:127362](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L127362)
 
 ## Properties
 
@@ -65,7 +65,7 @@ keyword in a POST array
 
 #### Defined in
 
-main.ts:127485
+[main.ts:127341](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L127341)
 
 ___
 
@@ -82,7 +82,7 @@ if there is no data, then the value is null
 
 #### Defined in
 
-main.ts:127502
+[main.ts:127358](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L127358)
 
 ___
 
@@ -99,7 +99,7 @@ if there is no data, then the value is null
 
 #### Defined in
 
-main.ts:127491
+[main.ts:127347](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L127347)
 
 ___
 
@@ -116,7 +116,7 @@ if there is no data, then the value is null
 
 #### Defined in
 
-main.ts:127488
+[main.ts:127344](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L127344)
 
 ___
 
@@ -134,7 +134,7 @@ example:
 
 #### Defined in
 
-main.ts:127499
+[main.ts:127355](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L127355)
 
 ___
 
@@ -152,7 +152,7 @@ example:
 
 #### Defined in
 
-main.ts:127495
+[main.ts:127351](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L127351)
 
 ## Methods
 
@@ -172,7 +172,7 @@ main.ts:127495
 
 #### Defined in
 
-main.ts:127515
+[main.ts:127371](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L127371)
 
 ___
 
@@ -192,7 +192,7 @@ ___
 
 #### Defined in
 
-main.ts:127537
+[main.ts:127393](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L127393)
 
 ___
 
@@ -212,4 +212,4 @@ ___
 
 #### Defined in
 
-main.ts:127530
+[main.ts:127386](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L127386)

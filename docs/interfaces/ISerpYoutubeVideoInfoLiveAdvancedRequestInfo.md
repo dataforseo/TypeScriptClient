@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / ISerpYoutubeVideoInfoLiveAdvancedRequestInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / ISerpYoutubeVideoInfoLiveAdvancedRequestInfo
 
 # Interface: ISerpYoutubeVideoInfoLiveAdvancedRequestInfo
 
@@ -35,7 +35,7 @@ only value: desktop
 
 #### Defined in
 
-main.ts:59320
+[main.ts:59176](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L59176)
 
 ___
 
@@ -52,7 +52,7 @@ en
 
 #### Defined in
 
-main.ts:59316
+[main.ts:59172](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L59172)
 
 ___
 
@@ -69,7 +69,7 @@ English
 
 #### Defined in
 
-main.ts:59309
+[main.ts:59165](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L59165)
 
 ___
 
@@ -86,7 +86,7 @@ example:
 
 #### Defined in
 
-main.ts:59302
+[main.ts:59158](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L59158)
 
 ___
 
@@ -103,7 +103,7 @@ United States
 
 #### Defined in
 
-main.ts:59295
+[main.ts:59151](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L59151)
 
 ___
 
@@ -118,7 +118,7 @@ default value: windows
 
 #### Defined in
 
-main.ts:59325
+[main.ts:59181](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L59181)
 
 ___
 
@@ -134,7 +134,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:59331
+[main.ts:59187](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L59187)
 
 ___
 
@@ -150,4 +150,4 @@ vQXvyV0zIP4
 
 #### Defined in
 
-main.ts:59288
+[main.ts:59144](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L59144)

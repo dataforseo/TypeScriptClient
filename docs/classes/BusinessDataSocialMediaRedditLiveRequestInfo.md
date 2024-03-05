@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / BusinessDataSocialMediaRedditLiveRequestInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / BusinessDataSocialMediaRedditLiveRequestInfo
 
 # Class: BusinessDataSocialMediaRedditLiveRequestInfo
 
@@ -45,7 +45,7 @@
 
 #### Defined in
 
-main.ts:206277
+[main.ts:206157](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L206157)
 
 ## Properties
 
@@ -65,7 +65,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:206273
+[main.ts:206153](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L206153)
 
 ___
 
@@ -86,7 +86,7 @@ Note: you can specify 10 targets maximum. You will be charged per earch URL you 
 
 #### Defined in
 
-main.ts:206267
+[main.ts:206147](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L206147)
 
 ## Methods
 
@@ -106,7 +106,7 @@ main.ts:206267
 
 #### Defined in
 
-main.ts:206286
+[main.ts:206166](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L206166)
 
 ___
 
@@ -126,7 +126,7 @@ ___
 
 #### Defined in
 
-main.ts:206308
+[main.ts:206188](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L206188)
 
 ___
 
@@ -146,4 +146,4 @@ ___
 
 #### Defined in
 
-main.ts:206301
+[main.ts:206181](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L206181)

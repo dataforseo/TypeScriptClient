@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IOnPageRedirectChainsRequestInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IOnPageRedirectChainsRequestInfo
 
 # Interface: IOnPageRedirectChainsRequestInfo
 
@@ -40,7 +40,7 @@ examples:
 
 #### Defined in
 
-main.ts:148992
+[main.ts:148848](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L148848)
 
 ___
 
@@ -56,7 +56,7 @@ example:
 
 #### Defined in
 
-main.ts:148966
+[main.ts:148822](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L148822)
 
 ___
 
@@ -71,7 +71,7 @@ maximum value: 1000
 
 #### Defined in
 
-main.ts:148976
+[main.ts:148832](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L148832)
 
 ___
 
@@ -86,7 +86,7 @@ if you specify the 10 value, the first ten redirect chains in the results array 
 
 #### Defined in
 
-main.ts:148981
+[main.ts:148837](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L148837)
 
 ___
 
@@ -102,7 +102,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:148998
+[main.ts:148854](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L148854)
 
 ___
 
@@ -117,4 +117,4 @@ if you use this field, the API response will return only redirect chains which c
 
 #### Defined in
 
-main.ts:148971
+[main.ts:148827](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L148827)

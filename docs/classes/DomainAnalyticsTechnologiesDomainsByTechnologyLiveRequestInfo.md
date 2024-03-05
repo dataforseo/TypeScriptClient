@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / DomainAnalyticsTechnologiesDomainsByTechnologyLiveRequestInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / DomainAnalyticsTechnologiesDomainsByTechnologyLiveRequestInfo
 
 # Class: DomainAnalyticsTechnologiesDomainsByTechnologyLiveRequestInfo
 
@@ -54,7 +54,7 @@
 
 #### Defined in
 
-main.ts:74161
+[main.ts:74017](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L74017)
 
 ## Properties
 
@@ -75,7 +75,7 @@ example:
 
 #### Defined in
 
-main.ts:74082
+[main.ts:73938](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L73938)
 
 ___
 
@@ -106,7 +106,7 @@ for more information about filters, please refer to Domain Analytics Technologie
 
 #### Defined in
 
-main.ts:74120
+[main.ts:73976](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L73976)
 
 ___
 
@@ -127,7 +127,7 @@ example:
 
 #### Defined in
 
-main.ts:74075
+[main.ts:73931](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L73931)
 
 ___
 
@@ -148,7 +148,7 @@ example:
 
 #### Defined in
 
-main.ts:74096
+[main.ts:73952](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L73952)
 
 ___
 
@@ -167,7 +167,7 @@ maximum value: 10000
 
 #### Defined in
 
-main.ts:74142
+[main.ts:73998](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L73998)
 
 ___
 
@@ -188,7 +188,7 @@ default value: as_is
 
 #### Defined in
 
-main.ts:74103
+[main.ts:73959](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L73959)
 
 ___
 
@@ -209,7 +209,7 @@ use the offset_token if you would like to offset more results
 
 #### Defined in
 
-main.ts:74149
+[main.ts:74005](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L74005)
 
 ___
 
@@ -231,7 +231,7 @@ Note: if the offset_token is specified in the request, all other parameters shou
 
 #### Defined in
 
-main.ts:74157
+[main.ts:74013](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L74013)
 
 ___
 
@@ -262,7 +262,7 @@ example:
 
 #### Defined in
 
-main.ts:74137
+[main.ts:73993](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L73993)
 
 ___
 
@@ -283,7 +283,7 @@ example:
 
 #### Defined in
 
-main.ts:74089
+[main.ts:73945](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L73945)
 
 ___
 
@@ -307,7 +307,7 @@ example:
 
 #### Defined in
 
-main.ts:74068
+[main.ts:73924](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L73924)
 
 ## Methods
 
@@ -327,7 +327,7 @@ main.ts:74068
 
 #### Defined in
 
-main.ts:74170
+[main.ts:74026](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L74026)
 
 ___
 
@@ -347,7 +347,7 @@ ___
 
 #### Defined in
 
-main.ts:74225
+[main.ts:74081](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L74081)
 
 ___
 
@@ -367,4 +367,4 @@ ___
 
 #### Defined in
 
-main.ts:74218
+[main.ts:74074](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L74074)

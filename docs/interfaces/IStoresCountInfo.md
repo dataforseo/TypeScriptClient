@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IStoresCountInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IStoresCountInfo
 
 # Interface: IStoresCountInfo
 
@@ -28,7 +28,7 @@ number of stores that offer the product
 
 #### Defined in
 
-main.ts:164760
+[main.ts:164640](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L164640)
 
 ___
 
@@ -44,7 +44,7 @@ in this case, the parameter is true
 
 #### Defined in
 
-main.ts:164768
+[main.ts:164648](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L164648)
 
 ___
 
@@ -56,4 +56,4 @@ text displayed on the Google Shopping page
 
 #### Defined in
 
-main.ts:164762
+[main.ts:164642](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L164642)

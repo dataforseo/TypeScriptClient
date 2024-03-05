@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IAnchorLinkElementItem
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IAnchorLinkElementItem
 
 # Interface: IAnchorLinkElementItem
 
@@ -47,7 +47,7 @@ possible values: internal, external
 
 #### Defined in
 
-main.ts:148331
+[main.ts:148187](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L148187)
 
 ___
 
@@ -60,7 +60,7 @@ if the value is true, the link doesn’t have a rel="nofollow" attribute
 
 #### Defined in
 
-main.ts:148324
+[main.ts:148180](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L148180)
 
 ___
 
@@ -73,7 +73,7 @@ the link was found on this domain
 
 #### Defined in
 
-main.ts:148301
+[main.ts:148157](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L148157)
 
 ___
 
@@ -86,7 +86,7 @@ the link is pointing to this domain
 
 #### Defined in
 
-main.ts:148304
+[main.ts:148160](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L148160)
 
 ___
 
@@ -99,7 +99,7 @@ indicates whether a link is directing to a broken page or resource
 
 #### Defined in
 
-main.ts:148334
+[main.ts:148190](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L148190)
 
 ___
 
@@ -112,7 +112,7 @@ if true, at least one link pointing to link_to has a rel="nofollow" attribute an
 
 #### Defined in
 
-main.ts:148339
+[main.ts:148195](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L148195)
 
 ___
 
@@ -127,7 +127,7 @@ example:
 
 #### Defined in
 
-main.ts:148321
+[main.ts:148177](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L148177)
 
 ___
 
@@ -140,7 +140,7 @@ absolute URL of the page on which the link was found
 
 #### Defined in
 
-main.ts:148313
+[main.ts:148169](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L148169)
 
 ___
 
@@ -153,7 +153,7 @@ absolute URL of the page to which the link is pointing
 
 #### Defined in
 
-main.ts:148316
+[main.ts:148172](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L148172)
 
 ___
 
@@ -166,7 +166,7 @@ relative URL of the page on which the link was found
 
 #### Defined in
 
-main.ts:148307
+[main.ts:148163](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L148163)
 
 ___
 
@@ -178,7 +178,7 @@ url scheme of the referring page
 
 #### Defined in
 
-main.ts:148326
+[main.ts:148182](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L148182)
 
 ___
 
@@ -191,7 +191,7 @@ relative URL of the page to which the link is pointing
 
 #### Defined in
 
-main.ts:148310
+[main.ts:148166](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L148166)
 
 ___
 
@@ -203,7 +203,7 @@ url scheme of the referenced page
 
 #### Defined in
 
-main.ts:148328
+[main.ts:148184](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L148184)
 
 ___
 
@@ -216,7 +216,7 @@ status code of the page to which the link is pointing
 
 #### Defined in
 
-main.ts:148342
+[main.ts:148198](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L148198)
 
 ___
 
@@ -228,4 +228,4 @@ anchor text
 
 #### Defined in
 
-main.ts:148336
+[main.ts:148192](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L148192)

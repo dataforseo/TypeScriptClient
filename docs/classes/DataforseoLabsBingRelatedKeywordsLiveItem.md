@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / DataforseoLabsBingRelatedKeywordsLiveItem
+[dataforseo-client](../README.md) / [Exports](../modules.md) / DataforseoLabsBingRelatedKeywordsLiveItem
 
 # Class: DataforseoLabsBingRelatedKeywordsLiveItem
 
@@ -47,7 +47,7 @@
 
 #### Defined in
 
-main.ts:106101
+[main.ts:105957](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L105957)
 
 ## Properties
 
@@ -63,7 +63,7 @@ keyword search depth
 
 #### Defined in
 
-main.ts:106094
+[main.ts:105950](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L105950)
 
 ___
 
@@ -79,7 +79,7 @@ keyword data for the returned keyword
 
 #### Defined in
 
-main.ts:106092
+[main.ts:105948](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L105948)
 
 ___
 
@@ -96,7 +96,7 @@ represents the list of search queries which are related to the keyword returned 
 
 #### Defined in
 
-main.ts:106097
+[main.ts:105953](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L105953)
 
 ___
 
@@ -112,7 +112,7 @@ search engine type
 
 #### Defined in
 
-main.ts:106090
+[main.ts:105946](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L105946)
 
 ## Methods
 
@@ -132,7 +132,7 @@ main.ts:106090
 
 #### Defined in
 
-main.ts:106110
+[main.ts:105966](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L105966)
 
 ___
 
@@ -152,7 +152,7 @@ ___
 
 #### Defined in
 
-main.ts:106134
+[main.ts:105990](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L105990)
 
 ___
 
@@ -172,4 +172,4 @@ ___
 
 #### Defined in
 
-main.ts:106127
+[main.ts:105983](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L105983)

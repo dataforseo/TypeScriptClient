@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / ContentAnalysisIdListRequestInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / ContentAnalysisIdListRequestInfo
 
 # Class: ContentAnalysisIdListRequestInfo
 
@@ -49,7 +49,7 @@
 
 #### Defined in
 
-main.ts:155187
+[main.ts:155043](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L155043)
 
 ## Properties
 
@@ -71,7 +71,7 @@ example:
 
 #### Defined in
 
-main.ts:155157
+[main.ts:155013](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L155013)
 
 ___
 
@@ -92,7 +92,7 @@ example:
 
 #### Defined in
 
-main.ts:155164
+[main.ts:155020](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L155020)
 
 ___
 
@@ -110,7 +110,7 @@ default value: false
 
 #### Defined in
 
-main.ts:155183
+[main.ts:155039](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L155039)
 
 ___
 
@@ -129,7 +129,7 @@ maximum value: 1000
 
 #### Defined in
 
-main.ts:155169
+[main.ts:155025](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L155025)
 
 ___
 
@@ -148,7 +148,7 @@ if you specify the 10 value, the first ten tasks in the results array will be om
 
 #### Defined in
 
-main.ts:155174
+[main.ts:155030](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L155030)
 
 ___
 
@@ -167,7 +167,7 @@ default value: "asc"
 
 #### Defined in
 
-main.ts:155179
+[main.ts:155035](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L155035)
 
 ## Methods
 
@@ -187,7 +187,7 @@ main.ts:155179
 
 #### Defined in
 
-main.ts:155196
+[main.ts:155052](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L155052)
 
 ___
 
@@ -207,7 +207,7 @@ ___
 
 #### Defined in
 
-main.ts:155218
+[main.ts:155074](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L155074)
 
 ___
 
@@ -227,4 +227,4 @@ ___
 
 #### Defined in
 
-main.ts:155211
+[main.ts:155067](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L155067)

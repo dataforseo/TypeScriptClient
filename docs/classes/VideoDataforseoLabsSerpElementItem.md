@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / VideoDataforseoLabsSerpElementItem
+[dataforseo-client](../README.md) / [Exports](../modules.md) / VideoDataforseoLabsSerpElementItem
 
 # Class: VideoDataforseoLabsSerpElementItem
 
@@ -59,7 +59,7 @@
 
 #### Defined in
 
-main.ts:93079
+[main.ts:92935](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L92935)
 
 ## Properties
 
@@ -73,7 +73,7 @@ main.ts:93079
 
 #### Defined in
 
-main.ts:19715
+[main.ts:19715](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L19715)
 
 ___
 
@@ -90,7 +90,7 @@ if there are none, equals null
 
 #### Defined in
 
-main.ts:93075
+[main.ts:92931](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L92931)
 
 ___
 
@@ -108,7 +108,7 @@ left, right
 
 #### Defined in
 
-main.ts:93070
+[main.ts:92926](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L92926)
 
 ___
 
@@ -125,7 +125,7 @@ absolute position among all the elements in SERP
 
 #### Defined in
 
-main.ts:93066
+[main.ts:92922](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L92922)
 
 ___
 
@@ -143,7 +143,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-main.ts:93063
+[main.ts:92919](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L92919)
 
 ___
 
@@ -159,7 +159,7 @@ the XPath of the element
 
 #### Defined in
 
-main.ts:93072
+[main.ts:92928](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L92928)
 
 ## Methods
 
@@ -183,7 +183,7 @@ main.ts:93072
 
 #### Defined in
 
-main.ts:93084
+[main.ts:92940](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L92940)
 
 ___
 
@@ -207,7 +207,7 @@ ___
 
 #### Defined in
 
-main.ts:93110
+[main.ts:92966](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L92966)
 
 ___
 
@@ -231,4 +231,4 @@ ___
 
 #### Defined in
 
-main.ts:93103
+[main.ts:92959](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L92959)

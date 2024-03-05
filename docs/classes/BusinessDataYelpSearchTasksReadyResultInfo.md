@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / BusinessDataYelpSearchTasksReadyResultInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / BusinessDataYelpSearchTasksReadyResultInfo
 
 # Class: BusinessDataYelpSearchTasksReadyResultInfo
 
@@ -49,7 +49,7 @@
 
 #### Defined in
 
-main.ts:203813
+[main.ts:203693](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L203693)
 
 ## Properties
 
@@ -65,7 +65,7 @@ date when the task was posted (in the UTC format)
 
 #### Defined in
 
-main.ts:203805
+[main.ts:203685](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L203685)
 
 ___
 
@@ -81,7 +81,7 @@ URL for collecting the results of the task
 
 #### Defined in
 
-main.ts:203809
+[main.ts:203689](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L203689)
 
 ___
 
@@ -98,7 +98,7 @@ unique task identifier in our system in the UUID format
 
 #### Defined in
 
-main.ts:203797
+[main.ts:203677](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L203677)
 
 ___
 
@@ -115,7 +115,7 @@ can take the following values: yelp
 
 #### Defined in
 
-main.ts:203800
+[main.ts:203680](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L203680)
 
 ___
 
@@ -132,7 +132,7 @@ can take the following values: search
 
 #### Defined in
 
-main.ts:203803
+[main.ts:203683](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L203683)
 
 ___
 
@@ -148,7 +148,7 @@ user-defined task identifier
 
 #### Defined in
 
-main.ts:203807
+[main.ts:203687](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L203687)
 
 ## Methods
 
@@ -168,7 +168,7 @@ main.ts:203807
 
 #### Defined in
 
-main.ts:203822
+[main.ts:203702](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L203702)
 
 ___
 
@@ -188,7 +188,7 @@ ___
 
 #### Defined in
 
-main.ts:203844
+[main.ts:203724](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L203724)
 
 ___
 
@@ -208,4 +208,4 @@ ___
 
 #### Defined in
 
-main.ts:203837
+[main.ts:203717](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L203717)

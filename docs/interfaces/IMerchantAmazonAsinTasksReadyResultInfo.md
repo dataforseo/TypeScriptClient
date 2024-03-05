@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IMerchantAmazonAsinTasksReadyResultInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IMerchantAmazonAsinTasksReadyResultInfo
 
 # Interface: IMerchantAmazonAsinTasksReadyResultInfo
 
@@ -32,7 +32,7 @@ date when the task was posted (in the UTC format)
 
 #### Defined in
 
-main.ts:172319
+[main.ts:172199](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L172199)
 
 ___
 
@@ -44,7 +44,7 @@ URL for collecting the results of the Amazon ASIN Advanced task
 
 #### Defined in
 
-main.ts:172323
+[main.ts:172203](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L172203)
 
 ___
 
@@ -56,7 +56,7 @@ URL for collecting the results of the Amazon ASIN HTML task
 
 #### Defined in
 
-main.ts:172325
+[main.ts:172205](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L172205)
 
 ___
 
@@ -69,7 +69,7 @@ unique task identifier in our system in the UUID format
 
 #### Defined in
 
-main.ts:172312
+[main.ts:172192](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L172192)
 
 ___
 
@@ -81,7 +81,7 @@ search engine specified when setting the task
 
 #### Defined in
 
-main.ts:172314
+[main.ts:172194](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L172194)
 
 ___
 
@@ -94,7 +94,7 @@ can take the following values: shopping
 
 #### Defined in
 
-main.ts:172317
+[main.ts:172197](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L172197)
 
 ___
 
@@ -106,4 +106,4 @@ user-defined task identifier
 
 #### Defined in
 
-main.ts:172321
+[main.ts:172201](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L172201)

@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IContentGenerationGenerateSubTopicsLiveRequestInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IContentGenerationGenerateSubTopicsLiveRequestInfo
 
 # Interface: IContentGenerationGenerateSubTopicsLiveRequestInfo
 
@@ -33,7 +33,7 @@ learn more about this parameter on our help center
 
 #### Defined in
 
-main.ts:161036
+[main.ts:160916](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L160916)
 
 ___
 
@@ -49,7 +49,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:161042
+[main.ts:160922](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L160922)
 
 ___
 
@@ -64,4 +64,4 @@ can contain from 1 to 50 tokens
 
 #### Defined in
 
-main.ts:161029
+[main.ts:160909](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L160909)

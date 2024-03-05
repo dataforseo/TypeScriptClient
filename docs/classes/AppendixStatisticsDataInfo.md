@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / AppendixStatisticsDataInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / AppendixStatisticsDataInfo
 
 # Class: AppendixStatisticsDataInfo
 
@@ -45,7 +45,7 @@
 
 #### Defined in
 
-main.ts:209406
+[main.ts:209286](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L209286)
 
 ## Properties
 
@@ -59,7 +59,7 @@ main.ts:209406
 
 #### Defined in
 
-main.ts:209401
+[main.ts:209281](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L209281)
 
 ___
 
@@ -73,7 +73,7 @@ ___
 
 #### Defined in
 
-main.ts:209402
+[main.ts:209282](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L209282)
 
 ## Methods
 
@@ -93,7 +93,7 @@ main.ts:209402
 
 #### Defined in
 
-main.ts:209415
+[main.ts:209295](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L209295)
 
 ___
 
@@ -113,7 +113,7 @@ ___
 
 #### Defined in
 
-main.ts:209433
+[main.ts:209313](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L209313)
 
 ___
 
@@ -133,4 +133,4 @@ ___
 
 #### Defined in
 
-main.ts:209426
+[main.ts:209306](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L209306)

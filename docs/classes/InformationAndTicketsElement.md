@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / InformationAndTicketsElement
+[dataforseo-client](../README.md) / [Exports](../modules.md) / InformationAndTicketsElement
 
 # Class: InformationAndTicketsElement
 
@@ -48,7 +48,7 @@
 
 #### Defined in
 
-main.ts:44748
+[main.ts:44606](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L44606)
 
 ## Properties
 
@@ -64,7 +64,7 @@ description of the element
 
 #### Defined in
 
-main.ts:44740
+[main.ts:44598](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L44598)
 
 ___
 
@@ -80,7 +80,7 @@ domain in SERP
 
 #### Defined in
 
-main.ts:44744
+[main.ts:44602](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L44602)
 
 ___
 
@@ -96,7 +96,7 @@ title of the element
 
 #### Defined in
 
-main.ts:44738
+[main.ts:44596](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L44596)
 
 ___
 
@@ -112,7 +112,7 @@ type of element
 
 #### Defined in
 
-main.ts:44736
+[main.ts:44594](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L44594)
 
 ___
 
@@ -128,7 +128,7 @@ relevant URL
 
 #### Defined in
 
-main.ts:44742
+[main.ts:44600](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L44600)
 
 ## Methods
 
@@ -148,7 +148,7 @@ main.ts:44742
 
 #### Defined in
 
-main.ts:44757
+[main.ts:44615](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L44615)
 
 ___
 
@@ -168,7 +168,7 @@ ___
 
 #### Defined in
 
-main.ts:44778
+[main.ts:44636](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L44636)
 
 ___
 
@@ -188,4 +188,4 @@ ___
 
 #### Defined in
 
-main.ts:44771
+[main.ts:44629](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L44629)

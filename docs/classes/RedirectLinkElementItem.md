@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / RedirectLinkElementItem
+[dataforseo-client](../README.md) / [Exports](../modules.md) / RedirectLinkElementItem
 
 # Class: RedirectLinkElementItem
 
@@ -66,7 +66,7 @@
 
 #### Defined in
 
-main.ts:149041
+[main.ts:148897](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L148897)
 
 ## Properties
 
@@ -80,7 +80,7 @@ main.ts:149041
 
 #### Defined in
 
-main.ts:20314
+[main.ts:20314](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L20314)
 
 ___
 
@@ -97,7 +97,7 @@ possible values: internal, external
 
 #### Defined in
 
-main.ts:149031
+[main.ts:148887](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L148887)
 
 ___
 
@@ -114,7 +114,7 @@ if the value is true, the link doesn’t have a rel="nofollow" attribute
 
 #### Defined in
 
-main.ts:149024
+[main.ts:148880](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L148880)
 
 ___
 
@@ -131,7 +131,7 @@ the link was found on this domain
 
 #### Defined in
 
-main.ts:149006
+[main.ts:148862](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L148862)
 
 ___
 
@@ -148,7 +148,7 @@ the link is pointing to this domain
 
 #### Defined in
 
-main.ts:149009
+[main.ts:148865](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L148865)
 
 ___
 
@@ -165,7 +165,7 @@ indicates whether a link is directing to a broken page or resource
 
 #### Defined in
 
-main.ts:149034
+[main.ts:148890](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L148890)
 
 ___
 
@@ -182,7 +182,7 @@ if true, at least one link pointing to the URL in link_to has a rel="nofollow" a
 
 #### Defined in
 
-main.ts:149037
+[main.ts:148893](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L148893)
 
 ___
 
@@ -199,7 +199,7 @@ absolute URL of the page on which the link was found
 
 #### Defined in
 
-main.ts:149018
+[main.ts:148874](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L148874)
 
 ___
 
@@ -216,7 +216,7 @@ absolute URL of the page to which the link is pointing
 
 #### Defined in
 
-main.ts:149021
+[main.ts:148877](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L148877)
 
 ___
 
@@ -233,7 +233,7 @@ relative URL of the page on which the link was found
 
 #### Defined in
 
-main.ts:149012
+[main.ts:148868](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L148868)
 
 ___
 
@@ -249,7 +249,7 @@ url scheme of the referring page
 
 #### Defined in
 
-main.ts:149026
+[main.ts:148882](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L148882)
 
 ___
 
@@ -266,7 +266,7 @@ relative URL of the page to which the link is pointing
 
 #### Defined in
 
-main.ts:149015
+[main.ts:148871](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L148871)
 
 ___
 
@@ -282,7 +282,7 @@ url scheme of the referenced page
 
 #### Defined in
 
-main.ts:149028
+[main.ts:148884](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L148884)
 
 ## Methods
 
@@ -306,7 +306,7 @@ main.ts:149028
 
 #### Defined in
 
-main.ts:149046
+[main.ts:148902](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L148902)
 
 ___
 
@@ -330,7 +330,7 @@ ___
 
 #### Defined in
 
-main.ts:149075
+[main.ts:148931](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L148931)
 
 ___
 
@@ -354,4 +354,4 @@ ___
 
 #### Defined in
 
-main.ts:149068
+[main.ts:148924](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L148924)

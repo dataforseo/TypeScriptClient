@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IDataforseoLabsAmazonProductCompetitorsLiveItem
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IDataforseoLabsAmazonProductCompetitorsLiveItem
 
 # Interface: IDataforseoLabsAmazonProductCompetitorsLiveItem
 
@@ -34,7 +34,7 @@ for more information, refer to this help center guide
 
 #### Defined in
 
-main.ts:101434
+[main.ts:101290](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L101290)
 
 ___
 
@@ -48,7 +48,7 @@ the value for a given product may differ when combined with different target pro
 
 #### Defined in
 
-main.ts:101438
+[main.ts:101294](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L101294)
 
 ___
 
@@ -62,7 +62,7 @@ Note: in this object ranking data is provided for the returned competitor’s as
 
 #### Defined in
 
-main.ts:101448
+[main.ts:101304](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L101304)
 
 ___
 
@@ -75,7 +75,7 @@ full overview of ranking data relevant to all keywords that the provided asin is
 
 #### Defined in
 
-main.ts:101451
+[main.ts:101307](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L101307)
 
 ___
 
@@ -87,7 +87,7 @@ number of intersecting keywords
 
 #### Defined in
 
-main.ts:101444
+[main.ts:101300](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L101300)
 
 ___
 
@@ -99,7 +99,7 @@ search engine type
 
 #### Defined in
 
-main.ts:101430
+[main.ts:101286](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L101286)
 
 ___
 
@@ -113,4 +113,4 @@ the value for a given product may differ when combined with different target pro
 
 #### Defined in
 
-main.ts:101442
+[main.ts:101298](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L101298)

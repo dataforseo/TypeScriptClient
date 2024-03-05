@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IOnPageInstantPagesRequestInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IOnPageInstantPagesRequestInfo
 
 # Interface: IOnPageInstantPagesRequestInfo
 
@@ -45,7 +45,7 @@ Note: if you do not specify this parameter, some websites may deny access; in th
 
 #### Defined in
 
-main.ts:153390
+[main.ts:153246](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L153246)
 
 ___
 
@@ -72,7 +72,7 @@ Note: to use this parameter, set enable_javascript or enable_browser_rendering t
 
 #### Defined in
 
-main.ts:153362
+[main.ts:153218](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L153218)
 
 ___
 
@@ -88,7 +88,7 @@ maximum value, in pixels: 9999
 
 #### Defined in
 
-main.ts:153374
+[main.ts:153230](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L153230)
 
 ___
 
@@ -104,7 +104,7 @@ maximum value: 3
 
 #### Defined in
 
-main.ts:153380
+[main.ts:153236](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L153236)
 
 ___
 
@@ -120,7 +120,7 @@ maximum value, in pixels: 9999
 
 #### Defined in
 
-main.ts:153368
+[main.ts:153224](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L153224)
 
 ___
 
@@ -135,7 +135,7 @@ default value: false
 
 #### Defined in
 
-main.ts:153443
+[main.ts:153299](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L153299)
 
 ___
 
@@ -154,7 +154,7 @@ Note: only integer threshold values can be modified;
 
 #### Defined in
 
-main.ts:153448
+[main.ts:153304](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L153304)
 
 ___
 
@@ -175,7 +175,7 @@ Note: if you use this parameter, additional charges will apply; learn more about
 
 #### Defined in
 
-main.ts:153433
+[main.ts:153289](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L153289)
 
 ___
 
@@ -192,7 +192,7 @@ default value: Mozilla/5.0 (compatible; RSiteAuditor)
 
 #### Defined in
 
-main.ts:153345
+[main.ts:153201](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L153201)
 
 ___
 
@@ -208,7 +208,7 @@ false
 
 #### Defined in
 
-main.ts:153411
+[main.ts:153267](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L153267)
 
 ___
 
@@ -227,7 +227,7 @@ Note: if you use this parameter, additional charges will apply; learn more about
 
 #### Defined in
 
-main.ts:153405
+[main.ts:153261](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L153261)
 
 ___
 
@@ -243,7 +243,7 @@ Note: if you use this parameter, additional charges will apply; learn more about
 
 #### Defined in
 
-main.ts:153396
+[main.ts:153252](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L153252)
 
 ___
 
@@ -259,7 +259,7 @@ falseif you use this field, enable_javascript must be set to true;
 
 #### Defined in
 
-main.ts:153422
+[main.ts:153278](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L153278)
 
 ___
 
@@ -274,7 +274,7 @@ default value: false
 
 #### Defined in
 
-main.ts:153416
+[main.ts:153272](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L153272)
 
 ___
 
@@ -289,7 +289,7 @@ default value: false
 
 #### Defined in
 
-main.ts:153385
+[main.ts:153241](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L153241)
 
 ___
 
@@ -306,7 +306,7 @@ to prevent this error from occuring, avoid setting tasks with the same domain if
 
 #### Defined in
 
-main.ts:153338
+[main.ts:153194](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L153194)
 
 ___
 
@@ -321,4 +321,4 @@ default value: false
 
 #### Defined in
 
-main.ts:153438
+[main.ts:153294](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L153294)

@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / SerpYahooLocationsCountryResultInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / SerpYahooLocationsCountryResultInfo
 
 # Class: SerpYahooLocationsCountryResultInfo
 
@@ -48,7 +48,7 @@
 
 #### Defined in
 
-main.ts:62995
+[main.ts:62851](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L62851)
 
 ## Properties
 
@@ -64,7 +64,7 @@ ISO country code of the location
 
 #### Defined in
 
-main.ts:62989
+[main.ts:62845](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L62845)
 
 ___
 
@@ -80,7 +80,7 @@ location code
 
 #### Defined in
 
-main.ts:62976
+[main.ts:62832](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L62832)
 
 ___
 
@@ -103,7 +103,7 @@ where location_code_parent corresponds to:
 
 #### Defined in
 
-main.ts:62987
+[main.ts:62843](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L62843)
 
 ___
 
@@ -119,7 +119,7 @@ full name of the location
 
 #### Defined in
 
-main.ts:62978
+[main.ts:62834](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L62834)
 
 ___
 
@@ -135,7 +135,7 @@ location type
 
 #### Defined in
 
-main.ts:62991
+[main.ts:62847](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L62847)
 
 ## Methods
 
@@ -155,7 +155,7 @@ main.ts:62991
 
 #### Defined in
 
-main.ts:63004
+[main.ts:62860](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L62860)
 
 ___
 
@@ -175,7 +175,7 @@ ___
 
 #### Defined in
 
-main.ts:63025
+[main.ts:62881](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L62881)
 
 ___
 
@@ -195,4 +195,4 @@ ___
 
 #### Defined in
 
-main.ts:63018
+[main.ts:62874](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L62874)

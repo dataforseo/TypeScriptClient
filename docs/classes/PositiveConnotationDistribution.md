@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / PositiveConnotationDistribution
+[dataforseo-client](../README.md) / [Exports](../modules.md) / PositiveConnotationDistribution
 
 # Class: PositiveConnotationDistribution
 
@@ -46,7 +46,7 @@
 
 #### Defined in
 
-main.ts:157974
+[main.ts:157854](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L157854)
 
 ## Properties
 
@@ -60,7 +60,7 @@ main.ts:157974
 
 #### Defined in
 
-main.ts:157969
+[main.ts:157849](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L157849)
 
 ___
 
@@ -74,7 +74,7 @@ ___
 
 #### Defined in
 
-main.ts:157970
+[main.ts:157850](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L157850)
 
 ___
 
@@ -88,7 +88,7 @@ ___
 
 #### Defined in
 
-main.ts:157968
+[main.ts:157848](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L157848)
 
 ## Methods
 
@@ -108,7 +108,7 @@ main.ts:157968
 
 #### Defined in
 
-main.ts:157983
+[main.ts:157863](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L157863)
 
 ___
 
@@ -128,7 +128,7 @@ ___
 
 #### Defined in
 
-main.ts:158002
+[main.ts:157882](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L157882)
 
 ___
 
@@ -148,4 +148,4 @@ ___
 
 #### Defined in
 
-main.ts:157995
+[main.ts:157875](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L157875)

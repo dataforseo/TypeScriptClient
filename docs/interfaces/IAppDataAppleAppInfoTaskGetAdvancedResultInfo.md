@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IAppDataAppleAppInfoTaskGetAdvancedResultInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IAppDataAppleAppInfoTaskGetAdvancedResultInfo
 
 # Interface: IAppDataAppleAppInfoTaskGetAdvancedResultInfo
 
@@ -34,7 +34,7 @@ application id received in a POST request
 
 #### Defined in
 
-main.ts:184861
+[main.ts:184741](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L184741)
 
 ___
 
@@ -47,7 +47,7 @@ you can use it to make sure that we provided accurate results
 
 #### Defined in
 
-main.ts:184870
+[main.ts:184750](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L184750)
 
 ___
 
@@ -62,7 +62,7 @@ example:
 
 #### Defined in
 
-main.ts:184875
+[main.ts:184755](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L184755)
 
 ___
 
@@ -74,7 +74,7 @@ found app info
 
 #### Defined in
 
-main.ts:184881
+[main.ts:184761](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L184761)
 
 ___
 
@@ -86,7 +86,7 @@ the number of items in the results array
 
 #### Defined in
 
-main.ts:184879
+[main.ts:184759](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L184759)
 
 ___
 
@@ -98,7 +98,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:184867
+[main.ts:184747](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L184747)
 
 ___
 
@@ -110,7 +110,7 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:184865
+[main.ts:184745](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L184745)
 
 ___
 
@@ -122,7 +122,7 @@ search engine domain in a POST array
 
 #### Defined in
 
-main.ts:184863
+[main.ts:184743](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L184743)
 
 ___
 
@@ -134,4 +134,4 @@ the total number of results
 
 #### Defined in
 
-main.ts:184877
+[main.ts:184757](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L184757)

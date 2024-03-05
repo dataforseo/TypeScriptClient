@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / KeywordsDataBingKeywordsForSiteTaskGetResultInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / KeywordsDataBingKeywordsForSiteTaskGetResultInfo
 
 # Class: KeywordsDataBingKeywordsForSiteTaskGetResultInfo
 
@@ -53,7 +53,7 @@
 
 #### Defined in
 
-main.ts:124384
+[main.ts:124240](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L124240)
 
 ## Properties
 
@@ -70,7 +70,7 @@ legacy field, the value will always be null
 
 #### Defined in
 
-main.ts:124375
+[main.ts:124231](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L124231)
 
 ___
 
@@ -92,7 +92,7 @@ if there is no data the value is null
 
 #### Defined in
 
-main.ts:124364
+[main.ts:124220](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L124220)
 
 ___
 
@@ -110,7 +110,7 @@ if there is no data the value is null
 
 #### Defined in
 
-main.ts:124368
+[main.ts:124224](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L124224)
 
 ___
 
@@ -127,7 +127,7 @@ if there is no data, then the value is null
 
 #### Defined in
 
-main.ts:124356
+[main.ts:124212](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L124212)
 
 ___
 
@@ -143,7 +143,7 @@ keyword in a POST array
 
 #### Defined in
 
-main.ts:124345
+[main.ts:124201](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L124201)
 
 ___
 
@@ -160,7 +160,7 @@ if there is no data the value is null
 
 #### Defined in
 
-main.ts:124351
+[main.ts:124207](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L124207)
 
 ___
 
@@ -177,7 +177,7 @@ if there is no data the value is null
 
 #### Defined in
 
-main.ts:124348
+[main.ts:124204](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L124204)
 
 ___
 
@@ -196,7 +196,7 @@ if there is no data the value is null
 
 #### Defined in
 
-main.ts:124380
+[main.ts:124236](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L124236)
 
 ___
 
@@ -212,7 +212,7 @@ indicates whether data from partner networks included in the response
 
 #### Defined in
 
-main.ts:124353
+[main.ts:124209](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L124209)
 
 ___
 
@@ -230,7 +230,7 @@ if there is no data then the value is null
 
 #### Defined in
 
-main.ts:124372
+[main.ts:124228](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L124228)
 
 ## Methods
 
@@ -250,7 +250,7 @@ main.ts:124372
 
 #### Defined in
 
-main.ts:124393
+[main.ts:124249](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L124249)
 
 ___
 
@@ -270,7 +270,7 @@ ___
 
 #### Defined in
 
-main.ts:124427
+[main.ts:124283](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L124283)
 
 ___
 
@@ -290,4 +290,4 @@ ___
 
 #### Defined in
 
-main.ts:124420
+[main.ts:124276](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L124276)

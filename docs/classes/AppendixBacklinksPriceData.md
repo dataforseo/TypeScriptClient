@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / AppendixBacklinksPriceData
+[dataforseo-client](../README.md) / [Exports](../modules.md) / AppendixBacklinksPriceData
 
 # Class: AppendixBacklinksPriceData
 
@@ -63,7 +63,7 @@
 
 #### Defined in
 
-main.ts:210958
+[main.ts:210838](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L210838)
 
 ## Properties
 
@@ -77,7 +77,7 @@ main.ts:210958
 
 #### Defined in
 
-main.ts:210935
+[main.ts:210815](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L210815)
 
 ___
 
@@ -91,7 +91,7 @@ ___
 
 #### Defined in
 
-main.ts:210936
+[main.ts:210816](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L210816)
 
 ___
 
@@ -105,7 +105,7 @@ ___
 
 #### Defined in
 
-main.ts:210937
+[main.ts:210817](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L210817)
 
 ___
 
@@ -119,7 +119,7 @@ ___
 
 #### Defined in
 
-main.ts:210938
+[main.ts:210818](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L210818)
 
 ___
 
@@ -133,7 +133,7 @@ ___
 
 #### Defined in
 
-main.ts:210939
+[main.ts:210819](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L210819)
 
 ___
 
@@ -147,7 +147,7 @@ ___
 
 #### Defined in
 
-main.ts:210940
+[main.ts:210820](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L210820)
 
 ___
 
@@ -161,7 +161,7 @@ ___
 
 #### Defined in
 
-main.ts:210941
+[main.ts:210821](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L210821)
 
 ___
 
@@ -175,7 +175,7 @@ ___
 
 #### Defined in
 
-main.ts:210942
+[main.ts:210822](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L210822)
 
 ___
 
@@ -189,7 +189,7 @@ ___
 
 #### Defined in
 
-main.ts:210943
+[main.ts:210823](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L210823)
 
 ___
 
@@ -203,7 +203,7 @@ ___
 
 #### Defined in
 
-main.ts:210944
+[main.ts:210824](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L210824)
 
 ___
 
@@ -217,7 +217,7 @@ ___
 
 #### Defined in
 
-main.ts:210945
+[main.ts:210825](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L210825)
 
 ___
 
@@ -231,7 +231,7 @@ ___
 
 #### Defined in
 
-main.ts:210946
+[main.ts:210826](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L210826)
 
 ___
 
@@ -245,7 +245,7 @@ ___
 
 #### Defined in
 
-main.ts:210947
+[main.ts:210827](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L210827)
 
 ___
 
@@ -259,7 +259,7 @@ ___
 
 #### Defined in
 
-main.ts:210948
+[main.ts:210828](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L210828)
 
 ___
 
@@ -273,7 +273,7 @@ ___
 
 #### Defined in
 
-main.ts:210949
+[main.ts:210829](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L210829)
 
 ___
 
@@ -287,7 +287,7 @@ ___
 
 #### Defined in
 
-main.ts:210950
+[main.ts:210830](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L210830)
 
 ___
 
@@ -301,7 +301,7 @@ ___
 
 #### Defined in
 
-main.ts:210951
+[main.ts:210831](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L210831)
 
 ___
 
@@ -315,7 +315,7 @@ ___
 
 #### Defined in
 
-main.ts:210952
+[main.ts:210832](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L210832)
 
 ___
 
@@ -329,7 +329,7 @@ ___
 
 #### Defined in
 
-main.ts:210953
+[main.ts:210833](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L210833)
 
 ___
 
@@ -343,7 +343,7 @@ ___
 
 #### Defined in
 
-main.ts:210954
+[main.ts:210834](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L210834)
 
 ## Methods
 
@@ -363,7 +363,7 @@ main.ts:210954
 
 #### Defined in
 
-main.ts:210967
+[main.ts:210847](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L210847)
 
 ___
 
@@ -383,7 +383,7 @@ ___
 
 #### Defined in
 
-main.ts:211003
+[main.ts:210883](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L210883)
 
 ___
 
@@ -403,4 +403,4 @@ ___
 
 #### Defined in
 
-main.ts:210996
+[main.ts:210876](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L210876)

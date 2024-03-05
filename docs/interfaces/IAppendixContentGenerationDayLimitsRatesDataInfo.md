@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IAppendixContentGenerationDayLimitsRatesDataInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IAppendixContentGenerationDayLimitsRatesDataInfo
 
 # Interface: IAppendixContentGenerationDayLimitsRatesDataInfo
 
@@ -25,7 +25,7 @@
 
 #### Defined in
 
-main.ts:208563
+[main.ts:208443](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L208443)
 
 ___
 
@@ -35,4 +35,4 @@ ___
 
 #### Defined in
 
-main.ts:208562
+[main.ts:208442](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L208442)

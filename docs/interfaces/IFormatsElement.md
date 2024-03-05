@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IFormatsElement
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IFormatsElement
 
 # Interface: IFormatsElement
 
@@ -29,7 +29,7 @@ for example: zip, html, csv
 
 #### Defined in
 
-main.ts:50759
+[main.ts:50617](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L50617)
 
 ___
 
@@ -41,7 +41,7 @@ file size in bytes
 
 #### Defined in
 
-main.ts:50761
+[main.ts:50619](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L50619)
 
 ___
 
@@ -53,4 +53,4 @@ type of element
 
 #### Defined in
 
-main.ts:50756
+[main.ts:50614](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L50614)

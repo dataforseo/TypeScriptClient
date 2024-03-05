@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / DataforseoLabsAppleKeywordsForAppLiveRequestInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / DataforseoLabsAppleKeywordsForAppLiveRequestInfo
 
 # Class: DataforseoLabsAppleKeywordsForAppLiveRequestInfo
 
@@ -53,7 +53,7 @@
 
 #### Defined in
 
-main.ts:110764
+[main.ts:110620](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L110620)
 
 ## Properties
 
@@ -75,7 +75,7 @@ the id is 835599320
 
 #### Defined in
 
-main.ts:110680
+[main.ts:110536](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L110536)
 
 ___
 
@@ -100,7 +100,7 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 #### Defined in
 
-main.ts:110727
+[main.ts:110583](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L110583)
 
 ___
 
@@ -123,7 +123,7 @@ en
 
 #### Defined in
 
-main.ts:110716
+[main.ts:110572](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L110572)
 
 ___
 
@@ -146,7 +146,7 @@ English
 
 #### Defined in
 
-main.ts:110707
+[main.ts:110563](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L110563)
 
 ___
 
@@ -165,7 +165,7 @@ maximum value: 1000
 
 #### Defined in
 
-main.ts:110749
+[main.ts:110605](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L110605)
 
 ___
 
@@ -188,7 +188,7 @@ example:
 
 #### Defined in
 
-main.ts:110698
+[main.ts:110554](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L110554)
 
 ___
 
@@ -211,7 +211,7 @@ United States
 
 #### Defined in
 
-main.ts:110689
+[main.ts:110545](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L110545)
 
 ___
 
@@ -230,7 +230,7 @@ if you specify the 10 value, the first ten keywords in the results array will be
 
 #### Defined in
 
-main.ts:110754
+[main.ts:110610](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L110610)
 
 ___
 
@@ -261,7 +261,7 @@ Note: if the item_types array contains item types that are different from organi
 
 #### Defined in
 
-main.ts:110744
+[main.ts:110600](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L110600)
 
 ___
 
@@ -281,7 +281,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:110760
+[main.ts:110616](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L110616)
 
 ## Methods
 
@@ -301,7 +301,7 @@ main.ts:110760
 
 #### Defined in
 
-main.ts:110773
+[main.ts:110629](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L110629)
 
 ___
 
@@ -321,7 +321,7 @@ ___
 
 #### Defined in
 
-main.ts:110807
+[main.ts:110663](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L110663)
 
 ___
 
@@ -341,4 +341,4 @@ ___
 
 #### Defined in
 
-main.ts:110800
+[main.ts:110656](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L110656)

@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / KeywordsDataBingLanguagesResultInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / KeywordsDataBingLanguagesResultInfo
 
 # Class: KeywordsDataBingLanguagesResultInfo
 
@@ -45,7 +45,7 @@
 
 #### Defined in
 
-main.ts:122271
+[main.ts:122127](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L122127)
 
 ## Properties
 
@@ -61,7 +61,7 @@ language code according to ISO 639-1
 
 #### Defined in
 
-main.ts:122267
+[main.ts:122123](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L122123)
 
 ___
 
@@ -77,7 +77,7 @@ language name
 
 #### Defined in
 
-main.ts:122265
+[main.ts:122121](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L122121)
 
 ## Methods
 
@@ -97,7 +97,7 @@ main.ts:122265
 
 #### Defined in
 
-main.ts:122280
+[main.ts:122136](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L122136)
 
 ___
 
@@ -117,7 +117,7 @@ ___
 
 #### Defined in
 
-main.ts:122298
+[main.ts:122154](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L122154)
 
 ___
 
@@ -137,4 +137,4 @@ ___
 
 #### Defined in
 
-main.ts:122291
+[main.ts:122147](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L122147)

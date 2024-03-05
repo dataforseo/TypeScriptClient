@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IKnowledgeGraphListElement
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IKnowledgeGraphListElement
 
 # Interface: IKnowledgeGraphListElement
 
@@ -32,7 +32,7 @@ domain in SERP
 
 #### Defined in
 
-main.ts:26332
+[main.ts:26190](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L26190)
 
 ___
 
@@ -45,7 +45,7 @@ the URL leading to the image on the original resource or DataForSEO storage (in 
 
 #### Defined in
 
-main.ts:26335
+[main.ts:26193](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L26193)
 
 ___
 
@@ -57,7 +57,7 @@ subtitle of the item
 
 #### Defined in
 
-main.ts:26328
+[main.ts:26186](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L26186)
 
 ___
 
@@ -69,7 +69,7 @@ link anchor text
 
 #### Defined in
 
-main.ts:26326
+[main.ts:26184](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L26184)
 
 ___
 
@@ -81,7 +81,7 @@ type of element
 
 #### Defined in
 
-main.ts:26324
+[main.ts:26182](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L26182)
 
 ___
 
@@ -93,7 +93,7 @@ sitelink URL
 
 #### Defined in
 
-main.ts:26330
+[main.ts:26188](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L26188)
 
 ___
 
@@ -105,4 +105,4 @@ the XPath of the element
 
 #### Defined in
 
-main.ts:26337
+[main.ts:26195](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L26195)

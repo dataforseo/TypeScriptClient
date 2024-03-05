@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / DataforseoLabsGoogleKeywordSuggestionsLiveResultInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / DataforseoLabsGoogleKeywordSuggestionsLiveResultInfo
 
 # Class: DataforseoLabsGoogleKeywordSuggestionsLiveResultInfo
 
@@ -53,7 +53,7 @@
 
 #### Defined in
 
-main.ts:81105
+[main.ts:80961](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L80961)
 
 ## Properties
 
@@ -69,7 +69,7 @@ contains keywords and related data
 
 #### Defined in
 
-main.ts:81101
+[main.ts:80957](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L80957)
 
 ___
 
@@ -85,7 +85,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:81093
+[main.ts:80949](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L80949)
 
 ___
 
@@ -101,7 +101,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:81089
+[main.ts:80945](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L80945)
 
 ___
 
@@ -117,7 +117,7 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:81087
+[main.ts:80943](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L80943)
 
 ___
 
@@ -133,7 +133,7 @@ current offset value
 
 #### Defined in
 
-main.ts:81095
+[main.ts:80951](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L80951)
 
 ___
 
@@ -151,7 +151,7 @@ note: offset_token values are unique for each subsequent task
 
 #### Defined in
 
-main.ts:81099
+[main.ts:80955](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L80955)
 
 ___
 
@@ -167,7 +167,7 @@ search engine type
 
 #### Defined in
 
-main.ts:81080
+[main.ts:80936](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L80936)
 
 ___
 
@@ -183,7 +183,7 @@ keyword in a POST array
 
 #### Defined in
 
-main.ts:81082
+[main.ts:80938](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L80938)
 
 ___
 
@@ -204,7 +204,7 @@ fields in this object are identical to those of the items array
 
 #### Defined in
 
-main.ts:81085
+[main.ts:80941](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L80941)
 
 ___
 
@@ -220,7 +220,7 @@ total amount of results in our database relevant to your request
 
 #### Defined in
 
-main.ts:81091
+[main.ts:80947](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L80947)
 
 ## Methods
 
@@ -240,7 +240,7 @@ main.ts:81091
 
 #### Defined in
 
-main.ts:81114
+[main.ts:80970](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L80970)
 
 ___
 
@@ -260,7 +260,7 @@ ___
 
 #### Defined in
 
-main.ts:81150
+[main.ts:81006](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L81006)
 
 ___
 
@@ -280,4 +280,4 @@ ___
 
 #### Defined in
 
-main.ts:81143
+[main.ts:80999](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L80999)

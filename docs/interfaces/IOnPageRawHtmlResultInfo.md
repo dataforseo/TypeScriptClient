@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IOnPageRawHtmlResultInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IOnPageRawHtmlResultInfo
 
 # Interface: IOnPageRawHtmlResultInfo
 
@@ -30,7 +30,7 @@ possible values: in_progress, finished
 
 #### Defined in
 
-main.ts:151456
+[main.ts:151312](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L151312)
 
 ___
 
@@ -42,7 +42,7 @@ details of the crawling session
 
 #### Defined in
 
-main.ts:151458
+[main.ts:151314](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L151314)
 
 ___
 
@@ -54,7 +54,7 @@ items array
 
 #### Defined in
 
-main.ts:151462
+[main.ts:151318](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L151318)
 
 ___
 
@@ -66,4 +66,4 @@ number of items in the results array
 
 #### Defined in
 
-main.ts:151460
+[main.ts:151316](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L151316)

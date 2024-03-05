@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IRankChanges
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IRankChanges
 
 # Interface: IRankChanges
 
@@ -30,7 +30,7 @@ if the value is true, position of the element in SERP is lower compared to the p
 
 #### Defined in
 
-main.ts:86697
+[main.ts:86553](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L86553)
 
 ___
 
@@ -43,7 +43,7 @@ if the value is true, previously collected SERP didn’t contain this element
 
 #### Defined in
 
-main.ts:86691
+[main.ts:86547](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L86547)
 
 ___
 
@@ -56,7 +56,7 @@ if the value is true, position of the element in SERP is higher compared to the 
 
 #### Defined in
 
-main.ts:86694
+[main.ts:86550](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L86550)
 
 ___
 
@@ -70,4 +70,4 @@ if this element is new, the value will be null
 
 #### Defined in
 
-main.ts:86688
+[main.ts:86544](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L86544)

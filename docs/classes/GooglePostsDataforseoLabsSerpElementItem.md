@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / GooglePostsDataforseoLabsSerpElementItem
+[dataforseo-client](../README.md) / [Exports](../modules.md) / GooglePostsDataforseoLabsSerpElementItem
 
 # Class: GooglePostsDataforseoLabsSerpElementItem
 
@@ -61,7 +61,7 @@
 
 #### Defined in
 
-main.ts:94525
+[main.ts:94381](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L94381)
 
 ## Properties
 
@@ -75,7 +75,7 @@ main.ts:94525
 
 #### Defined in
 
-main.ts:19715
+[main.ts:19715](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L19715)
 
 ___
 
@@ -91,7 +91,7 @@ google-defined client id
 
 #### Defined in
 
-main.ts:94521
+[main.ts:94377](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L94377)
 
 ___
 
@@ -107,7 +107,7 @@ the additional feature of the review
 
 #### Defined in
 
-main.ts:94519
+[main.ts:94375](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L94375)
 
 ___
 
@@ -125,7 +125,7 @@ left, right
 
 #### Defined in
 
-main.ts:94513
+[main.ts:94369](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L94369)
 
 ___
 
@@ -141,7 +141,7 @@ the identifier of the google_posts feature
 
 #### Defined in
 
-main.ts:94517
+[main.ts:94373](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L94373)
 
 ___
 
@@ -158,7 +158,7 @@ absolute position among all the elements in SERP
 
 #### Defined in
 
-main.ts:94509
+[main.ts:94365](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L94365)
 
 ___
 
@@ -175,7 +175,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-main.ts:94506
+[main.ts:94362](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L94362)
 
 ___
 
@@ -191,7 +191,7 @@ the XPath of the element
 
 #### Defined in
 
-main.ts:94515
+[main.ts:94371](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L94371)
 
 ## Methods
 
@@ -215,7 +215,7 @@ main.ts:94515
 
 #### Defined in
 
-main.ts:94530
+[main.ts:94386](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L94386)
 
 ___
 
@@ -239,7 +239,7 @@ ___
 
 #### Defined in
 
-main.ts:94554
+[main.ts:94410](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L94410)
 
 ___
 
@@ -263,4 +263,4 @@ ___
 
 #### Defined in
 
-main.ts:94547
+[main.ts:94403](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L94403)

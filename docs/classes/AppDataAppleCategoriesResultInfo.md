@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / AppDataAppleCategoriesResultInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / AppDataAppleCategoriesResultInfo
 
 # Class: AppDataAppleCategoriesResultInfo
 
@@ -44,7 +44,7 @@
 
 #### Defined in
 
-main.ts:182688
+[main.ts:182568](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L182568)
 
 ## Properties
 
@@ -60,7 +60,7 @@ contains full list of supported app categories
 
 #### Defined in
 
-main.ts:182684
+[main.ts:182564](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L182564)
 
 ## Methods
 
@@ -80,7 +80,7 @@ main.ts:182684
 
 #### Defined in
 
-main.ts:182697
+[main.ts:182577](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L182577)
 
 ___
 
@@ -100,7 +100,7 @@ ___
 
 #### Defined in
 
-main.ts:182718
+[main.ts:182598](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L182598)
 
 ___
 
@@ -120,4 +120,4 @@ ___
 
 #### Defined in
 
-main.ts:182711
+[main.ts:182591](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L182591)

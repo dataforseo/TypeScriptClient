@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IDataforseoLabsGoogleRelatedKeywordsLiveItem
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IDataforseoLabsGoogleRelatedKeywordsLiveItem
 
 # Interface: IDataforseoLabsGoogleRelatedKeywordsLiveItem
 
@@ -29,7 +29,7 @@ keyword search depth
 
 #### Defined in
 
-main.ts:80516
+[main.ts:80372](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L80372)
 
 ___
 
@@ -41,7 +41,7 @@ keyword data for the returned keyword
 
 #### Defined in
 
-main.ts:80514
+[main.ts:80370](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L80370)
 
 ___
 
@@ -54,7 +54,7 @@ represents the list of search queries which are related to the keyword returned 
 
 #### Defined in
 
-main.ts:80519
+[main.ts:80375](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L80375)
 
 ___
 
@@ -66,4 +66,4 @@ search engine type
 
 #### Defined in
 
-main.ts:80512
+[main.ts:80368](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L80368)

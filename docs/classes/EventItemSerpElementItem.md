@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / EventItemSerpElementItem
+[dataforseo-client](../README.md) / [Exports](../modules.md) / EventItemSerpElementItem
 
 # Class: EventItemSerpElementItem
 
@@ -65,7 +65,7 @@
 
 #### Defined in
 
-main.ts:44842
+[main.ts:44700](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L44700)
 
 ## Properties
 
@@ -79,7 +79,7 @@ main.ts:44842
 
 #### Defined in
 
-main.ts:19337
+[main.ts:19337](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L19337)
 
 ___
 
@@ -95,7 +95,7 @@ description of the results element in SERP
 
 #### Defined in
 
-main.ts:44825
+[main.ts:44683](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L44683)
 
 ___
 
@@ -112,7 +112,7 @@ if there are none, equals null
 
 #### Defined in
 
-main.ts:44832
+[main.ts:44690](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L44690)
 
 ___
 
@@ -128,7 +128,7 @@ URL of the image featured in the element
 
 #### Defined in
 
-main.ts:44829
+[main.ts:44687](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L44687)
 
 ___
 
@@ -145,7 +145,7 @@ if there is none, equals null
 
 #### Defined in
 
-main.ts:44838
+[main.ts:44696](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L44696)
 
 ___
 
@@ -162,7 +162,7 @@ if there is none, equals null
 
 #### Defined in
 
-main.ts:44835
+[main.ts:44693](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L44693)
 
 ___
 
@@ -180,7 +180,7 @@ left, right
 
 #### Defined in
 
-main.ts:44819
+[main.ts:44677](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L44677)
 
 ___
 
@@ -197,7 +197,7 @@ absolute position among all the elements in SERP
 
 #### Defined in
 
-main.ts:44815
+[main.ts:44673](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L44673)
 
 ___
 
@@ -215,7 +215,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-main.ts:44812
+[main.ts:44670](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L44670)
 
 ___
 
@@ -231,7 +231,7 @@ title of the result in SERP
 
 #### Defined in
 
-main.ts:44823
+[main.ts:44681](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L44681)
 
 ___
 
@@ -247,7 +247,7 @@ relevant URL
 
 #### Defined in
 
-main.ts:44827
+[main.ts:44685](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L44685)
 
 ___
 
@@ -263,7 +263,7 @@ the XPath of the element
 
 #### Defined in
 
-main.ts:44821
+[main.ts:44679](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L44679)
 
 ## Methods
 
@@ -287,7 +287,7 @@ main.ts:44821
 
 #### Defined in
 
-main.ts:44847
+[main.ts:44705](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L44705)
 
 ___
 
@@ -311,7 +311,7 @@ ___
 
 #### Defined in
 
-main.ts:44879
+[main.ts:44737](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L44737)
 
 ___
 
@@ -335,4 +335,4 @@ ___
 
 #### Defined in
 
-main.ts:44872
+[main.ts:44730](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L44730)

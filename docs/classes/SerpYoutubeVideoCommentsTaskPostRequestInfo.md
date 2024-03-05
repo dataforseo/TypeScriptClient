@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / SerpYoutubeVideoCommentsTaskPostRequestInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / SerpYoutubeVideoCommentsTaskPostRequestInfo
 
 # Class: SerpYoutubeVideoCommentsTaskPostRequestInfo
 
@@ -56,7 +56,7 @@
 
 #### Defined in
 
-main.ts:61282
+[main.ts:61138](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L61138)
 
 ## Properties
 
@@ -79,7 +79,7 @@ if the specified depth is higher than the number of results in the response, the
 
 #### Defined in
 
-main.ts:61246
+[main.ts:61102](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L61102)
 
 ___
 
@@ -97,7 +97,7 @@ only value: desktop
 
 #### Defined in
 
-main.ts:61232
+[main.ts:61088](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L61088)
 
 ___
 
@@ -118,7 +118,7 @@ en
 
 #### Defined in
 
-main.ts:61228
+[main.ts:61084](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L61084)
 
 ___
 
@@ -139,7 +139,7 @@ English
 
 #### Defined in
 
-main.ts:61221
+[main.ts:61077](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L61077)
 
 ___
 
@@ -160,7 +160,7 @@ example:
 
 #### Defined in
 
-main.ts:61214
+[main.ts:61070](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L61070)
 
 ___
 
@@ -181,7 +181,7 @@ United States
 
 #### Defined in
 
-main.ts:61207
+[main.ts:61063](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L61063)
 
 ___
 
@@ -200,7 +200,7 @@ default value: windows
 
 #### Defined in
 
-main.ts:61237
+[main.ts:61093](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L61093)
 
 ___
 
@@ -224,7 +224,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-main.ts:61278
+[main.ts:61134](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L61134)
 
 ___
 
@@ -244,7 +244,7 @@ advanced
 
 #### Defined in
 
-main.ts:61268
+[main.ts:61124](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L61124)
 
 ___
 
@@ -268,7 +268,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-main.ts:61262
+[main.ts:61118](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L61118)
 
 ___
 
@@ -290,7 +290,7 @@ The cost can be calculated on the Pricing page.
 
 #### Defined in
 
-main.ts:61200
+[main.ts:61056](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L61056)
 
 ___
 
@@ -310,7 +310,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:61252
+[main.ts:61108](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L61108)
 
 ___
 
@@ -330,7 +330,7 @@ vQXvyV0zIP4
 
 #### Defined in
 
-main.ts:61192
+[main.ts:61048](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L61048)
 
 ## Methods
 
@@ -350,7 +350,7 @@ main.ts:61192
 
 #### Defined in
 
-main.ts:61291
+[main.ts:61147](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L61147)
 
 ___
 
@@ -370,7 +370,7 @@ ___
 
 #### Defined in
 
-main.ts:61320
+[main.ts:61176](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L61176)
 
 ___
 
@@ -390,4 +390,4 @@ ___
 
 #### Defined in
 
-main.ts:61313
+[main.ts:61169](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L61169)

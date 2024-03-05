@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / ProductConsiderationsExpandedElement
+[dataforseo-client](../README.md) / [Exports](../modules.md) / ProductConsiderationsExpandedElement
 
 # Class: ProductConsiderationsExpandedElement
 
@@ -53,7 +53,7 @@
 
 #### Defined in
 
-main.ts:34581
+[main.ts:34439](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L34439)
 
 ## Properties
 
@@ -71,7 +71,7 @@ this feature appears after clicking on the three dots next to most results
 
 #### Defined in
 
-main.ts:34577
+[main.ts:34435](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L34435)
 
 ___
 
@@ -87,7 +87,7 @@ breadcrumb of the Ad element in SERP
 
 #### Defined in
 
-main.ts:34560
+[main.ts:34418](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L34418)
 
 ___
 
@@ -103,7 +103,7 @@ website domain
 
 #### Defined in
 
-main.ts:34564
+[main.ts:34422](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L34422)
 
 ___
 
@@ -119,7 +119,7 @@ the title of the featured snippets source page
 
 #### Defined in
 
-main.ts:34558
+[main.ts:34416](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L34416)
 
 ___
 
@@ -135,7 +135,7 @@ search queries related to the elment
 
 #### Defined in
 
-main.ts:34573
+[main.ts:34431](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L34431)
 
 ___
 
@@ -151,7 +151,7 @@ text alongside the link title
 
 #### Defined in
 
-main.ts:34562
+[main.ts:34420](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L34420)
 
 ___
 
@@ -170,7 +170,7 @@ example:
 
 #### Defined in
 
-main.ts:34571
+[main.ts:34429](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L34429)
 
 ___
 
@@ -186,7 +186,7 @@ title of a given link element
 
 #### Defined in
 
-main.ts:34556
+[main.ts:34414](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L34414)
 
 ___
 
@@ -202,7 +202,7 @@ type of element
 
 #### Defined in
 
-main.ts:34554
+[main.ts:34412](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L34412)
 
 ___
 
@@ -218,7 +218,7 @@ URL
 
 #### Defined in
 
-main.ts:34566
+[main.ts:34424](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L34424)
 
 ## Methods
 
@@ -238,7 +238,7 @@ main.ts:34566
 
 #### Defined in
 
-main.ts:34590
+[main.ts:34448](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L34448)
 
 ___
 
@@ -258,7 +258,7 @@ ___
 
 #### Defined in
 
-main.ts:34620
+[main.ts:34478](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L34478)
 
 ___
 
@@ -278,4 +278,4 @@ ___
 
 #### Defined in
 
-main.ts:34613
+[main.ts:34471](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L34471)

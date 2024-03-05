@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / TrustpilotSearchOrganicBusinessDataSerpElementItem
+[dataforseo-client](../README.md) / [Exports](../modules.md) / TrustpilotSearchOrganicBusinessDataSerpElementItem
 
 # Class: TrustpilotSearchOrganicBusinessDataSerpElementItem
 
@@ -61,7 +61,7 @@
 
 #### Defined in
 
-main.ts:199250
+[main.ts:199130](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L199130)
 
 ## Properties
 
@@ -75,7 +75,7 @@ main.ts:199250
 
 #### Defined in
 
-main.ts:20076
+[main.ts:20076](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L20076)
 
 ___
 
@@ -91,7 +91,7 @@ domain of the establishment
 
 #### Defined in
 
-main.ts:199240
+[main.ts:199120](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L199120)
 
 ___
 
@@ -108,7 +108,7 @@ absolute position among all reviews on the list
 
 #### Defined in
 
-main.ts:199236
+[main.ts:199116](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L199116)
 
 ___
 
@@ -125,7 +125,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-main.ts:199233
+[main.ts:199113](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L199113)
 
 ___
 
@@ -141,7 +141,7 @@ the rating score of the establishment submitted by reviewers
 
 #### Defined in
 
-main.ts:199246
+[main.ts:199126](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L199126)
 
 ___
 
@@ -157,7 +157,7 @@ the total number of reviews
 
 #### Defined in
 
-main.ts:199244
+[main.ts:199124](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L199124)
 
 ___
 
@@ -173,7 +173,7 @@ title of the establishment
 
 #### Defined in
 
-main.ts:199238
+[main.ts:199118](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L199118)
 
 ___
 
@@ -189,7 +189,7 @@ URL to the establishment
 
 #### Defined in
 
-main.ts:199242
+[main.ts:199122](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L199122)
 
 ## Methods
 
@@ -213,7 +213,7 @@ main.ts:199242
 
 #### Defined in
 
-main.ts:199255
+[main.ts:199135](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L199135)
 
 ___
 
@@ -237,7 +237,7 @@ ___
 
 #### Defined in
 
-main.ts:199279
+[main.ts:199159](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L199159)
 
 ___
 
@@ -261,4 +261,4 @@ ___
 
 #### Defined in
 
-main.ts:199272
+[main.ts:199152](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L199152)

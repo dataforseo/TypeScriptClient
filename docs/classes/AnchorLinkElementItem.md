@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / AnchorLinkElementItem
+[dataforseo-client](../README.md) / [Exports](../modules.md) / AnchorLinkElementItem
 
 # Class: AnchorLinkElementItem
 
@@ -69,7 +69,7 @@
 
 #### Defined in
 
-main.ts:148227
+[main.ts:148083](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L148083)
 
 ## Properties
 
@@ -83,7 +83,7 @@ main.ts:148227
 
 #### Defined in
 
-main.ts:20314
+[main.ts:20314](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L20314)
 
 ___
 
@@ -100,7 +100,7 @@ possible values: internal, external
 
 #### Defined in
 
-main.ts:148212
+[main.ts:148068](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L148068)
 
 ___
 
@@ -117,7 +117,7 @@ if the value is true, the link doesn’t have a rel="nofollow" attribute
 
 #### Defined in
 
-main.ts:148205
+[main.ts:148061](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L148061)
 
 ___
 
@@ -134,7 +134,7 @@ the link was found on this domain
 
 #### Defined in
 
-main.ts:148182
+[main.ts:148038](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L148038)
 
 ___
 
@@ -151,7 +151,7 @@ the link is pointing to this domain
 
 #### Defined in
 
-main.ts:148185
+[main.ts:148041](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L148041)
 
 ___
 
@@ -168,7 +168,7 @@ indicates whether a link is directing to a broken page or resource
 
 #### Defined in
 
-main.ts:148215
+[main.ts:148071](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L148071)
 
 ___
 
@@ -185,7 +185,7 @@ if true, at least one link pointing to link_to has a rel="nofollow" attribute an
 
 #### Defined in
 
-main.ts:148220
+[main.ts:148076](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L148076)
 
 ___
 
@@ -204,7 +204,7 @@ example:
 
 #### Defined in
 
-main.ts:148202
+[main.ts:148058](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L148058)
 
 ___
 
@@ -221,7 +221,7 @@ absolute URL of the page on which the link was found
 
 #### Defined in
 
-main.ts:148194
+[main.ts:148050](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L148050)
 
 ___
 
@@ -238,7 +238,7 @@ absolute URL of the page to which the link is pointing
 
 #### Defined in
 
-main.ts:148197
+[main.ts:148053](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L148053)
 
 ___
 
@@ -255,7 +255,7 @@ relative URL of the page on which the link was found
 
 #### Defined in
 
-main.ts:148188
+[main.ts:148044](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L148044)
 
 ___
 
@@ -271,7 +271,7 @@ url scheme of the referring page
 
 #### Defined in
 
-main.ts:148207
+[main.ts:148063](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L148063)
 
 ___
 
@@ -288,7 +288,7 @@ relative URL of the page to which the link is pointing
 
 #### Defined in
 
-main.ts:148191
+[main.ts:148047](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L148047)
 
 ___
 
@@ -304,7 +304,7 @@ url scheme of the referenced page
 
 #### Defined in
 
-main.ts:148209
+[main.ts:148065](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L148065)
 
 ___
 
@@ -321,7 +321,7 @@ status code of the page to which the link is pointing
 
 #### Defined in
 
-main.ts:148223
+[main.ts:148079](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L148079)
 
 ___
 
@@ -337,7 +337,7 @@ anchor text
 
 #### Defined in
 
-main.ts:148217
+[main.ts:148073](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L148073)
 
 ## Methods
 
@@ -361,7 +361,7 @@ main.ts:148217
 
 #### Defined in
 
-main.ts:148232
+[main.ts:148088](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L148088)
 
 ___
 
@@ -385,7 +385,7 @@ ___
 
 #### Defined in
 
-main.ts:148268
+[main.ts:148124](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L148124)
 
 ___
 
@@ -409,4 +409,4 @@ ___
 
 #### Defined in
 
-main.ts:148261
+[main.ts:148117](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L148117)

@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / FoundOnWebElement
+[dataforseo-client](../README.md) / [Exports](../modules.md) / FoundOnWebElement
 
 # Class: FoundOnWebElement
 
@@ -47,7 +47,7 @@
 
 #### Defined in
 
-main.ts:34862
+[main.ts:34720](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L34720)
 
 ## Properties
 
@@ -63,7 +63,7 @@ image of the element
 
 #### Defined in
 
-main.ts:34858
+[main.ts:34716](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L34716)
 
 ___
 
@@ -79,7 +79,7 @@ subtitle of the element
 
 #### Defined in
 
-main.ts:34856
+[main.ts:34714](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L34714)
 
 ___
 
@@ -95,7 +95,7 @@ title of the row
 
 #### Defined in
 
-main.ts:34854
+[main.ts:34712](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L34712)
 
 ___
 
@@ -111,7 +111,7 @@ type of element
 
 #### Defined in
 
-main.ts:34852
+[main.ts:34710](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L34710)
 
 ## Methods
 
@@ -131,7 +131,7 @@ main.ts:34852
 
 #### Defined in
 
-main.ts:34871
+[main.ts:34729](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L34729)
 
 ___
 
@@ -151,7 +151,7 @@ ___
 
 #### Defined in
 
-main.ts:34891
+[main.ts:34749](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L34749)
 
 ___
 
@@ -171,4 +171,4 @@ ___
 
 #### Defined in
 
-main.ts:34884
+[main.ts:34742](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L34742)

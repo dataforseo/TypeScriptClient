@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IHotelLocationInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IHotelLocationInfo
 
 # Interface: IHotelLocationInfo
 
@@ -36,7 +36,7 @@ example:
 
 #### Defined in
 
-main.ts:195868
+[main.ts:195748](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L195748)
 
 ___
 
@@ -49,7 +49,7 @@ additional parameters of each element of the location chain
 
 #### Defined in
 
-main.ts:195876
+[main.ts:195756](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L195756)
 
 ___
 
@@ -64,7 +64,7 @@ example:
 
 #### Defined in
 
-main.ts:195873
+[main.ts:195753](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L195753)
 
 ___
 
@@ -76,7 +76,7 @@ url to the location of the hotel in google maps
 
 #### Defined in
 
-main.ts:195855
+[main.ts:195735](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L195735)
 
 ___
 
@@ -88,7 +88,7 @@ name of the neighborhood where the hotel is located
 
 #### Defined in
 
-main.ts:195851
+[main.ts:195731](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L195731)
 
 ___
 
@@ -100,7 +100,7 @@ description of the neighborhood where the hotel is located
 
 #### Defined in
 
-main.ts:195853
+[main.ts:195733](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L195733)
 
 ___
 
@@ -115,7 +115,7 @@ note that the criteria are not weighted equally in the overall score
 
 #### Defined in
 
-main.ts:195860
+[main.ts:195740](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L195740)
 
 ___
 
@@ -132,4 +132,4 @@ the scores of the hotel’s location tied to the categories that indicate the pr
 
 #### Defined in
 
-main.ts:195863
+[main.ts:195743](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L195743)

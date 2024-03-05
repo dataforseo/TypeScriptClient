@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IAppDataTaskRequestInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IAppDataTaskRequestInfo
 
 # Interface: IAppDataTaskRequestInfo
 
@@ -44,7 +44,7 @@ maximum value: 200
 
 #### Defined in
 
-main.ts:164206
+[main.ts:164086](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L164086)
 
 ___
 
@@ -61,7 +61,7 @@ if you need to use the “+” symbol for your keyword, please specify it as “
 
 #### Defined in
 
-main.ts:164160
+[main.ts:164040](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L164040)
 
 ___
 
@@ -78,7 +78,7 @@ en
 
 #### Defined in
 
-main.ts:164188
+[main.ts:164068](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L164068)
 
 ___
 
@@ -95,7 +95,7 @@ English
 
 #### Defined in
 
-main.ts:164181
+[main.ts:164061](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L164061)
 
 ___
 
@@ -112,7 +112,7 @@ example:
 
 #### Defined in
 
-main.ts:164174
+[main.ts:164054](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L164054)
 
 ___
 
@@ -129,7 +129,7 @@ West Los Angeles,California,United States
 
 #### Defined in
 
-main.ts:164167
+[main.ts:164047](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L164047)
 
 ___
 
@@ -149,7 +149,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-main.ts:164238
+[main.ts:164118](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L164118)
 
 ___
 
@@ -165,7 +165,7 @@ advanced, html
 
 #### Defined in
 
-main.ts:164228
+[main.ts:164108](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L164108)
 
 ___
 
@@ -185,7 +185,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-main.ts:164222
+[main.ts:164102](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L164102)
 
 ___
 
@@ -203,7 +203,7 @@ The cost can be calculated on the Pricing page.
 
 #### Defined in
 
-main.ts:164196
+[main.ts:164076](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L164076)
 
 ___
 
@@ -219,4 +219,4 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:164212
+[main.ts:164092](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L164092)

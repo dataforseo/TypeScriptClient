@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IDataforseoLabsAmazonBulkSearchVolumeLiveItem
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IDataforseoLabsAmazonBulkSearchVolumeLiveItem
 
 # Interface: IDataforseoLabsAmazonBulkSearchVolumeLiveItem
 
@@ -28,7 +28,7 @@ keyword in a POST array
 
 #### Defined in
 
-main.ts:98998
+[main.ts:98854](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L98854)
 
 ___
 
@@ -40,7 +40,7 @@ search engine type
 
 #### Defined in
 
-main.ts:98996
+[main.ts:98852](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L98852)
 
 ___
 
@@ -53,4 +53,4 @@ represents the (approximate) number of searches for the returned keyword on Amaz
 
 #### Defined in
 
-main.ts:99001
+[main.ts:98857](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L98857)

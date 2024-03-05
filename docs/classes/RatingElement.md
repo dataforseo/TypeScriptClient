@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / RatingElement
+[dataforseo-client](../README.md) / [Exports](../modules.md) / RatingElement
 
 # Class: RatingElement
 
@@ -49,7 +49,7 @@
 
 #### Defined in
 
-main.ts:164566
+[main.ts:164446](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L164446)
 
 ## Properties
 
@@ -67,7 +67,7 @@ left, right
 
 #### Defined in
 
-main.ts:164553
+[main.ts:164433](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L164433)
 
 ___
 
@@ -83,7 +83,7 @@ the maximum value for a rating_type
 
 #### Defined in
 
-main.ts:164562
+[main.ts:164442](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L164442)
 
 ___
 
@@ -100,7 +100,7 @@ here you can find the following elements: Max5, Percents, CustomMax
 
 #### Defined in
 
-main.ts:164556
+[main.ts:164436](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L164436)
 
 ___
 
@@ -116,7 +116,7 @@ type of element
 
 #### Defined in
 
-main.ts:164549
+[main.ts:164429](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L164429)
 
 ___
 
@@ -132,7 +132,7 @@ value of the rating
 
 #### Defined in
 
-main.ts:164558
+[main.ts:164438](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L164438)
 
 ___
 
@@ -148,7 +148,7 @@ the amount of feedback
 
 #### Defined in
 
-main.ts:164560
+[main.ts:164440](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L164440)
 
 ## Methods
 
@@ -168,7 +168,7 @@ main.ts:164560
 
 #### Defined in
 
-main.ts:164575
+[main.ts:164455](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L164455)
 
 ___
 
@@ -188,7 +188,7 @@ ___
 
 #### Defined in
 
-main.ts:164597
+[main.ts:164477](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L164477)
 
 ___
 
@@ -208,4 +208,4 @@ ___
 
 #### Defined in
 
-main.ts:164590
+[main.ts:164470](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L164470)

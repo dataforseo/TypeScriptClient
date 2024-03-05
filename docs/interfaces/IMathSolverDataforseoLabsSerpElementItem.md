@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IMathSolverDataforseoLabsSerpElementItem
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IMathSolverDataforseoLabsSerpElementItem
 
 # Interface: IMathSolverDataforseoLabsSerpElementItem
 
@@ -40,7 +40,7 @@ if there are none, equals null
 
 #### Defined in
 
-main.ts:93050
+[main.ts:92906](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L92906)
 
 ___
 
@@ -54,7 +54,7 @@ if there are none, equals null
 
 #### Defined in
 
-main.ts:93054
+[main.ts:92910](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L92910)
 
 ___
 
@@ -68,7 +68,7 @@ left, right
 
 #### Defined in
 
-main.ts:93040
+[main.ts:92896](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L92896)
 
 ___
 
@@ -81,7 +81,7 @@ absolute position among all the elements in SERP
 
 #### Defined in
 
-main.ts:93036
+[main.ts:92892](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L92892)
 
 ___
 
@@ -95,7 +95,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-main.ts:93033
+[main.ts:92889](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L92889)
 
 ___
 
@@ -108,7 +108,7 @@ solution to the mathematical equation specified in the keyword field when settin
 
 #### Defined in
 
-main.ts:93047
+[main.ts:92903](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L92903)
 
 ___
 
@@ -120,7 +120,7 @@ title of the result in SERP
 
 #### Defined in
 
-main.ts:93044
+[main.ts:92900](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L92900)
 
 ___
 
@@ -132,4 +132,4 @@ the XPath of the element
 
 #### Defined in
 
-main.ts:93042
+[main.ts:92898](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L92898)

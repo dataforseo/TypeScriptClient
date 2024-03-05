@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / TwitterElement
+[dataforseo-client](../README.md) / [Exports](../modules.md) / TwitterElement
 
 # Class: TwitterElement
 
@@ -48,7 +48,7 @@
 
 #### Defined in
 
-main.ts:29141
+[main.ts:28999](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L28999)
 
 ## Properties
 
@@ -64,7 +64,7 @@ the date when the page source of the element was published
 
 #### Defined in
 
-main.ts:29130
+[main.ts:28988](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L28988)
 
 ___
 
@@ -83,7 +83,7 @@ example:
 
 #### Defined in
 
-main.ts:29135
+[main.ts:28993](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L28993)
 
 ___
 
@@ -99,7 +99,7 @@ tweet message
 
 #### Defined in
 
-main.ts:29128
+[main.ts:28986](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L28986)
 
 ___
 
@@ -115,7 +115,7 @@ type of element
 
 #### Defined in
 
-main.ts:29126
+[main.ts:28984](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L28984)
 
 ___
 
@@ -131,7 +131,7 @@ URL
 
 #### Defined in
 
-main.ts:29137
+[main.ts:28995](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L28995)
 
 ## Methods
 
@@ -151,7 +151,7 @@ main.ts:29137
 
 #### Defined in
 
-main.ts:29150
+[main.ts:29008](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L29008)
 
 ___
 
@@ -171,7 +171,7 @@ ___
 
 #### Defined in
 
-main.ts:29171
+[main.ts:29029](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L29029)
 
 ___
 
@@ -191,4 +191,4 @@ ___
 
 #### Defined in
 
-main.ts:29164
+[main.ts:29022](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L29022)

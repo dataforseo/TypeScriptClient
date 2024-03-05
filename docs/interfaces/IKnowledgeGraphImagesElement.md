@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IKnowledgeGraphImagesElement
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IKnowledgeGraphImagesElement
 
 # Interface: IKnowledgeGraphImagesElement
 
@@ -31,7 +31,7 @@ alt tag of the image
 
 #### Defined in
 
-main.ts:26646
+[main.ts:26504](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L26504)
 
 ___
 
@@ -43,7 +43,7 @@ domain in SERP of the Ad element
 
 #### Defined in
 
-main.ts:26644
+[main.ts:26502](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L26502)
 
 ___
 
@@ -56,7 +56,7 @@ the URL leading to the image on the original resource or DataForSEO storage (in 
 
 #### Defined in
 
-main.ts:26649
+[main.ts:26507](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L26507)
 
 ___
 
@@ -68,7 +68,7 @@ type of element
 
 #### Defined in
 
-main.ts:26640
+[main.ts:26498](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L26498)
 
 ___
 
@@ -80,7 +80,7 @@ relevant URL in SERP
 
 #### Defined in
 
-main.ts:26642
+[main.ts:26500](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L26500)
 
 ___
 
@@ -92,4 +92,4 @@ the XPath of the element
 
 #### Defined in
 
-main.ts:26651
+[main.ts:26509](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L26509)

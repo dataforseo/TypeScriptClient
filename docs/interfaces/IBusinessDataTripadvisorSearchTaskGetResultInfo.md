@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IBusinessDataTripadvisorSearchTaskGetResultInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IBusinessDataTripadvisorSearchTaskGetResultInfo
 
 # Interface: IBusinessDataTripadvisorSearchTaskGetResultInfo
 
@@ -36,7 +36,7 @@ you can use it to make sure that we provided accurate results
 
 #### Defined in
 
-main.ts:201707
+[main.ts:201587](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L201587)
 
 ___
 
@@ -51,7 +51,7 @@ example:
 
 #### Defined in
 
-main.ts:201712
+[main.ts:201592](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L201592)
 
 ___
 
@@ -64,7 +64,7 @@ possible item types: tripadvisor_search_organic
 
 #### Defined in
 
-main.ts:201715
+[main.ts:201595](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L201595)
 
 ___
 
@@ -77,7 +77,7 @@ you can get more results by using the depth parameter when setting a task
 
 #### Defined in
 
-main.ts:201723
+[main.ts:201603](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L201603)
 
 ___
 
@@ -90,7 +90,7 @@ you can get more results by using the depth parameter when setting a task
 
 #### Defined in
 
-main.ts:201720
+[main.ts:201600](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L201600)
 
 ___
 
@@ -103,7 +103,7 @@ this field will contain the alias parameter if it was specified in a POST array
 
 #### Defined in
 
-main.ts:201698
+[main.ts:201578](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L201578)
 
 ___
 
@@ -115,7 +115,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:201704
+[main.ts:201584](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L201584)
 
 ___
 
@@ -127,7 +127,7 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:201702
+[main.ts:201582](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L201582)
 
 ___
 
@@ -139,7 +139,7 @@ search engine domain in a POST array
 
 #### Defined in
 
-main.ts:201700
+[main.ts:201580](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L201580)
 
 ___
 
@@ -151,4 +151,4 @@ the total number of results
 
 #### Defined in
 
-main.ts:201717
+[main.ts:201597](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L201597)

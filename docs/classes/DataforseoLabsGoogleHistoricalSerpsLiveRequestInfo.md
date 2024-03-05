@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / DataforseoLabsGoogleHistoricalSerpsLiveRequestInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / DataforseoLabsGoogleHistoricalSerpsLiveRequestInfo
 
 # Class: DataforseoLabsGoogleHistoricalSerpsLiveRequestInfo
 
@@ -51,7 +51,7 @@
 
 #### Defined in
 
-main.ts:91156
+[main.ts:91012](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L91012)
 
 ## Properties
 
@@ -71,7 +71,7 @@ date format: "yyyy-mm-dd"
 
 #### Defined in
 
-main.ts:91109
+[main.ts:90965](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L90965)
 
 ___
 
@@ -92,7 +92,7 @@ example:
 
 #### Defined in
 
-main.ts:91116
+[main.ts:90972](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L90972)
 
 ___
 
@@ -113,7 +113,7 @@ if you need to use the “+” symbol for your keyword, please specify it as “
 
 #### Defined in
 
-main.ts:91103
+[main.ts:90959](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L90959)
 
 ___
 
@@ -135,7 +135,7 @@ en
 
 #### Defined in
 
-main.ts:91146
+[main.ts:91002](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L91002)
 
 ___
 
@@ -157,7 +157,7 @@ English
 
 #### Defined in
 
-main.ts:91138
+[main.ts:90994](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L90994)
 
 ___
 
@@ -178,7 +178,7 @@ example:
 
 #### Defined in
 
-main.ts:91130
+[main.ts:90986](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L90986)
 
 ___
 
@@ -199,7 +199,7 @@ United Kingdom
 
 #### Defined in
 
-main.ts:91123
+[main.ts:90979](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L90979)
 
 ___
 
@@ -219,7 +219,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:91152
+[main.ts:91008](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L91008)
 
 ## Methods
 
@@ -239,7 +239,7 @@ main.ts:91152
 
 #### Defined in
 
-main.ts:91165
+[main.ts:91021](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L91021)
 
 ___
 
@@ -259,7 +259,7 @@ ___
 
 #### Defined in
 
-main.ts:91189
+[main.ts:91045](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L91045)
 
 ___
 
@@ -279,4 +279,4 @@ ___
 
 #### Defined in
 
-main.ts:91182
+[main.ts:91038](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L91038)

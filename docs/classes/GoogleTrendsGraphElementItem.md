@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / GoogleTrendsGraphElementItem
+[dataforseo-client](../README.md) / [Exports](../modules.md) / GoogleTrendsGraphElementItem
 
 # Class: GoogleTrendsGraphElementItem
 
@@ -59,7 +59,7 @@
 
 #### Defined in
 
-main.ts:120639
+[main.ts:120495](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L120495)
 
 ## Properties
 
@@ -73,7 +73,7 @@ main.ts:120639
 
 #### Defined in
 
-main.ts:20382
+[main.ts:20382](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L20382)
 
 ___
 
@@ -89,7 +89,7 @@ keyword popularity values averaged over the whole time range
 
 #### Defined in
 
-main.ts:120635
+[main.ts:120491](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L120491)
 
 ___
 
@@ -105,7 +105,7 @@ Google Trends data for the specified parameters
 
 #### Defined in
 
-main.ts:120633
+[main.ts:120489](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L120489)
 
 ___
 
@@ -122,7 +122,7 @@ the data included in the google_trends_graph element is based on the keywords li
 
 #### Defined in
 
-main.ts:120631
+[main.ts:120487](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L120487)
 
 ___
 
@@ -139,7 +139,7 @@ can take the following values: 1, 2, 3, 4, etc.
 
 #### Defined in
 
-main.ts:120626
+[main.ts:120482](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L120482)
 
 ___
 
@@ -155,7 +155,7 @@ title of the element in Google Trends
 
 #### Defined in
 
-main.ts:120628
+[main.ts:120484](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L120484)
 
 ## Methods
 
@@ -179,7 +179,7 @@ main.ts:120628
 
 #### Defined in
 
-main.ts:120644
+[main.ts:120500](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L120500)
 
 ___
 
@@ -203,7 +203,7 @@ ___
 
 #### Defined in
 
-main.ts:120678
+[main.ts:120534](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L120534)
 
 ___
 
@@ -227,4 +227,4 @@ ___
 
 #### Defined in
 
-main.ts:120671
+[main.ts:120527](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L120527)

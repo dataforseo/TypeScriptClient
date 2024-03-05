@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IAppDataAppleAppInfoTasksReadyResultInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IAppDataAppleAppInfoTasksReadyResultInfo
 
 # Interface: IAppDataAppleAppInfoTasksReadyResultInfo
 
@@ -31,7 +31,7 @@ date when the task was posted (in the UTC format)
 
 #### Defined in
 
-main.ts:184366
+[main.ts:184246](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L184246)
 
 ___
 
@@ -43,7 +43,7 @@ URL for collecting the results of the Apple App Info task
 
 #### Defined in
 
-main.ts:184370
+[main.ts:184250](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L184250)
 
 ___
 
@@ -56,7 +56,7 @@ if HTML tasks are not supported in the specified endpoint, the value will be nul
 
 #### Defined in
 
-main.ts:184373
+[main.ts:184253](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L184253)
 
 ___
 
@@ -69,7 +69,7 @@ unique task identifier in our system in the UUID format
 
 #### Defined in
 
-main.ts:184362
+[main.ts:184242](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L184242)
 
 ___
 
@@ -81,7 +81,7 @@ search engine specified when setting the task
 
 #### Defined in
 
-main.ts:184364
+[main.ts:184244](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L184244)
 
 ___
 
@@ -93,4 +93,4 @@ user-defined task identifier
 
 #### Defined in
 
-main.ts:184368
+[main.ts:184248](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L184248)

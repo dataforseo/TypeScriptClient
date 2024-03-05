@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / BacklinksInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / BacklinksInfo
 
 # Class: BacklinksInfo
 
@@ -49,7 +49,7 @@
 
 #### Defined in
 
-main.ts:76148
+[main.ts:76004](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L76004)
 
 ## Properties
 
@@ -66,7 +66,7 @@ the total number of backlinks, including dofollow and nofollow links
 
 #### Defined in
 
-main.ts:76139
+[main.ts:75995](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L75995)
 
 ___
 
@@ -82,7 +82,7 @@ number of dofollow links
 
 #### Defined in
 
-main.ts:76136
+[main.ts:75992](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L75992)
 
 ___
 
@@ -98,7 +98,7 @@ number of referring domains
 
 #### Defined in
 
-main.ts:76130
+[main.ts:75986](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L75986)
 
 ___
 
@@ -114,7 +114,7 @@ number of referring main domains
 
 #### Defined in
 
-main.ts:76132
+[main.ts:75988](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L75988)
 
 ___
 
@@ -130,7 +130,7 @@ number of referring pages
 
 #### Defined in
 
-main.ts:76134
+[main.ts:75990](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L75990)
 
 ___
 
@@ -149,7 +149,7 @@ example:
 
 #### Defined in
 
-main.ts:76144
+[main.ts:76000](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L76000)
 
 ## Methods
 
@@ -169,7 +169,7 @@ main.ts:76144
 
 #### Defined in
 
-main.ts:76157
+[main.ts:76013](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L76013)
 
 ___
 
@@ -189,7 +189,7 @@ ___
 
 #### Defined in
 
-main.ts:76179
+[main.ts:76035](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L76035)
 
 ___
 
@@ -209,4 +209,4 @@ ___
 
 #### Defined in
 
-main.ts:76172
+[main.ts:76028](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L76028)

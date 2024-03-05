@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IAvailableLocations
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IAvailableLocations
 
 # Interface: IAvailableLocations
 
@@ -29,7 +29,7 @@ ISO country code of the location
 
 #### Defined in
 
-main.ts:126542
+[main.ts:126398](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L126398)
 
 ___
 
@@ -41,7 +41,7 @@ location code
 
 #### Defined in
 
-main.ts:126538
+[main.ts:126394](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L126394)
 
 ___
 
@@ -53,7 +53,7 @@ location name
 
 #### Defined in
 
-main.ts:126540
+[main.ts:126396](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L126396)
 
 ___
 
@@ -67,4 +67,4 @@ Country, Region
 
 #### Defined in
 
-main.ts:126546
+[main.ts:126402](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L126402)

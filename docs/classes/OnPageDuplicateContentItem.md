@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / OnPageDuplicateContentItem
+[dataforseo-client](../README.md) / [Exports](../modules.md) / OnPageDuplicateContentItem
 
 # Class: OnPageDuplicateContentItem
 
@@ -46,7 +46,7 @@
 
 #### Defined in
 
-main.ts:147767
+[main.ts:147623](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L147623)
 
 ## Properties
 
@@ -62,7 +62,7 @@ pages with duplicate content
 
 #### Defined in
 
-main.ts:147763
+[main.ts:147619](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L147619)
 
 ___
 
@@ -78,7 +78,7 @@ total count of duplicate pages
 
 #### Defined in
 
-main.ts:147761
+[main.ts:147617](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L147617)
 
 ___
 
@@ -94,7 +94,7 @@ URL of the specified page
 
 #### Defined in
 
-main.ts:147759
+[main.ts:147615](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L147615)
 
 ## Methods
 
@@ -114,7 +114,7 @@ main.ts:147759
 
 #### Defined in
 
-main.ts:147776
+[main.ts:147632](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L147632)
 
 ___
 
@@ -134,7 +134,7 @@ ___
 
 #### Defined in
 
-main.ts:147799
+[main.ts:147655](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L147655)
 
 ___
 
@@ -154,4 +154,4 @@ ___
 
 #### Defined in
 
-main.ts:147792
+[main.ts:147648](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L147648)

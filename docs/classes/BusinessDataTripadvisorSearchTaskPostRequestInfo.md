@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / BusinessDataTripadvisorSearchTaskPostRequestInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / BusinessDataTripadvisorSearchTaskPostRequestInfo
 
 # Class: BusinessDataTripadvisorSearchTaskPostRequestInfo
 
@@ -51,7 +51,7 @@
 
 #### Defined in
 
-main.ts:201078
+[main.ts:200958](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L200958)
 
 ## Properties
 
@@ -72,7 +72,7 @@ maximum value: 210
 
 #### Defined in
 
-main.ts:201048
+[main.ts:200928](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L200928)
 
 ___
 
@@ -93,7 +93,7 @@ if you need to use the “%” symbol for your keyword, please specify it as “
 
 #### Defined in
 
-main.ts:201021
+[main.ts:200901](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L200901)
 
 ___
 
@@ -113,7 +113,7 @@ example:
 
 #### Defined in
 
-main.ts:201033
+[main.ts:200913](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L200913)
 
 ___
 
@@ -133,7 +133,7 @@ London,England,United Kingdom
 
 #### Defined in
 
-main.ts:201027
+[main.ts:200907](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L200907)
 
 ___
 
@@ -157,7 +157,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-main.ts:201074
+[main.ts:200954](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L200954)
 
 ___
 
@@ -181,7 +181,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-main.ts:201064
+[main.ts:200944](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L200944)
 
 ___
 
@@ -203,7 +203,7 @@ The cost can be calculated on the Pricing page.
 
 #### Defined in
 
-main.ts:201041
+[main.ts:200921](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L200921)
 
 ___
 
@@ -223,7 +223,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:201054
+[main.ts:200934](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L200934)
 
 ## Methods
 
@@ -243,7 +243,7 @@ main.ts:201054
 
 #### Defined in
 
-main.ts:201087
+[main.ts:200967](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L200967)
 
 ___
 
@@ -263,7 +263,7 @@ ___
 
 #### Defined in
 
-main.ts:201111
+[main.ts:200991](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L200991)
 
 ___
 
@@ -283,4 +283,4 @@ ___
 
 #### Defined in
 
-main.ts:201104
+[main.ts:200984](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L200984)

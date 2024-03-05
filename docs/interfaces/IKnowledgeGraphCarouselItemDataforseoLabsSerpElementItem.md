@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IKnowledgeGraphCarouselItemDataforseoLabsSerpElementItem
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IKnowledgeGraphCarouselItemDataforseoLabsSerpElementItem
 
 # Interface: IKnowledgeGraphCarouselItemDataforseoLabsSerpElementItem
 
@@ -41,7 +41,7 @@ ss:/webfacts:net_worth
 
 #### Defined in
 
-main.ts:92380
+[main.ts:92236](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L92236)
 
 ___
 
@@ -54,7 +54,7 @@ if there are none, equals null
 
 #### Defined in
 
-main.ts:92385
+[main.ts:92241](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L92241)
 
 ___
 
@@ -66,7 +66,7 @@ link of the element
 
 #### Defined in
 
-main.ts:92382
+[main.ts:92238](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L92238)
 
 ___
 
@@ -80,7 +80,7 @@ left, right
 
 #### Defined in
 
-main.ts:92372
+[main.ts:92228](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L92228)
 
 ___
 
@@ -93,7 +93,7 @@ absolute position among all the elements in SERP
 
 #### Defined in
 
-main.ts:92368
+[main.ts:92224](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L92224)
 
 ___
 
@@ -107,7 +107,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-main.ts:92365
+[main.ts:92221](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L92221)
 
 ___
 
@@ -119,7 +119,7 @@ title of the link
 
 #### Defined in
 
-main.ts:92376
+[main.ts:92232](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L92232)
 
 ___
 
@@ -131,4 +131,4 @@ the XPath of the element
 
 #### Defined in
 
-main.ts:92374
+[main.ts:92230](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L92230)

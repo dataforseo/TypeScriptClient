@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / BusinessDataBusinessListingsCategoriesResultInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / BusinessDataBusinessListingsCategoriesResultInfo
 
 # Class: BusinessDataBusinessListingsCategoriesResultInfo
 
@@ -45,7 +45,7 @@
 
 #### Defined in
 
-main.ts:188132
+[main.ts:188012](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L188012)
 
 ## Properties
 
@@ -61,7 +61,7 @@ number of businesses in the category
 
 #### Defined in
 
-main.ts:188128
+[main.ts:188008](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L188008)
 
 ___
 
@@ -77,7 +77,7 @@ full name of the category
 
 #### Defined in
 
-main.ts:188126
+[main.ts:188006](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L188006)
 
 ## Methods
 
@@ -97,7 +97,7 @@ main.ts:188126
 
 #### Defined in
 
-main.ts:188141
+[main.ts:188021](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L188021)
 
 ___
 
@@ -117,7 +117,7 @@ ___
 
 #### Defined in
 
-main.ts:188159
+[main.ts:188039](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L188039)
 
 ___
 
@@ -137,4 +137,4 @@ ___
 
 #### Defined in
 
-main.ts:188152
+[main.ts:188032](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L188032)

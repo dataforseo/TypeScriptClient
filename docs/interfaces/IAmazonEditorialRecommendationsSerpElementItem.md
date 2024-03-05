@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IAmazonEditorialRecommendationsSerpElementItem
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IAmazonEditorialRecommendationsSerpElementItem
 
 # Interface: IAmazonEditorialRecommendationsSerpElementItem
 
@@ -36,7 +36,7 @@ Amazon product items
 
 #### Defined in
 
-main.ts:171213
+[main.ts:171093](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L171093)
 
 ___
 
@@ -50,7 +50,7 @@ left, right
 
 #### Defined in
 
-main.ts:171209
+[main.ts:171089](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L171089)
 
 ___
 
@@ -63,7 +63,7 @@ absolute position among all the elements found in Amazon SERP
 
 #### Defined in
 
-main.ts:171205
+[main.ts:171085](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L171085)
 
 ___
 
@@ -76,7 +76,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-main.ts:171202
+[main.ts:171082](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L171082)
 
 ___
 
@@ -88,4 +88,4 @@ the XPath of the element
 
 #### Defined in
 
-main.ts:171211
+[main.ts:171091](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L171091)

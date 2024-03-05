@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IAppsInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IAppsInfo
 
 # Interface: IAppsInfo
 
@@ -28,7 +28,7 @@ ID of the app
 
 #### Defined in
 
-main.ts:179931
+[main.ts:179811](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L179811)
 
 ___
 
@@ -40,7 +40,7 @@ title of the app
 
 #### Defined in
 
-main.ts:179933
+[main.ts:179813](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L179813)
 
 ___
 
@@ -52,4 +52,4 @@ URL to the app page on Google Play
 
 #### Defined in
 
-main.ts:179935
+[main.ts:179815](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L179815)

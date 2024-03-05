@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / MerchantIdListRequestInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / MerchantIdListRequestInfo
 
 # Class: MerchantIdListRequestInfo
 
@@ -49,7 +49,7 @@
 
 #### Defined in
 
-main.ts:162809
+[main.ts:162689](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L162689)
 
 ## Properties
 
@@ -71,7 +71,7 @@ example:
 
 #### Defined in
 
-main.ts:162779
+[main.ts:162659](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L162659)
 
 ___
 
@@ -92,7 +92,7 @@ example:
 
 #### Defined in
 
-main.ts:162786
+[main.ts:162666](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L162666)
 
 ___
 
@@ -110,7 +110,7 @@ default value: false
 
 #### Defined in
 
-main.ts:162805
+[main.ts:162685](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L162685)
 
 ___
 
@@ -129,7 +129,7 @@ maximum value: 1000
 
 #### Defined in
 
-main.ts:162791
+[main.ts:162671](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L162671)
 
 ___
 
@@ -148,7 +148,7 @@ if you specify the 10 value, the first ten tasks in the results array will be om
 
 #### Defined in
 
-main.ts:162796
+[main.ts:162676](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L162676)
 
 ___
 
@@ -167,7 +167,7 @@ default value: "asc"
 
 #### Defined in
 
-main.ts:162801
+[main.ts:162681](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L162681)
 
 ## Methods
 
@@ -187,7 +187,7 @@ main.ts:162801
 
 #### Defined in
 
-main.ts:162818
+[main.ts:162698](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L162698)
 
 ___
 
@@ -207,7 +207,7 @@ ___
 
 #### Defined in
 
-main.ts:162840
+[main.ts:162720](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L162720)
 
 ___
 
@@ -227,4 +227,4 @@ ___
 
 #### Defined in
 
-main.ts:162833
+[main.ts:162713](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L162713)

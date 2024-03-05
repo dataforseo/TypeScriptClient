@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IAppDataGoogleAppReviewsTaskGetHtmlResultInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IAppDataGoogleAppReviewsTaskGetHtmlResultInfo
 
 # Interface: IAppDataGoogleAppReviewsTaskGetHtmlResultInfo
 
@@ -33,7 +33,7 @@ app id received in a POST array
 
 #### Defined in
 
-main.ts:181880
+[main.ts:181760](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L181760)
 
 ___
 
@@ -48,7 +48,7 @@ example:
 
 #### Defined in
 
-main.ts:181893
+[main.ts:181773](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L181773)
 
 ___
 
@@ -60,7 +60,7 @@ HTML pages and related data
 
 #### Defined in
 
-main.ts:181897
+[main.ts:181777](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L181777)
 
 ___
 
@@ -72,7 +72,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:181895
+[main.ts:181775](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L181775)
 
 ___
 
@@ -84,7 +84,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:181888
+[main.ts:181768](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L181768)
 
 ___
 
@@ -96,7 +96,7 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:181886
+[main.ts:181766](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L181766)
 
 ___
 
@@ -108,7 +108,7 @@ search engine domain in a POST array
 
 #### Defined in
 
-main.ts:181884
+[main.ts:181764](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L181764)
 
 ___
 
@@ -120,4 +120,4 @@ type of element
 
 #### Defined in
 
-main.ts:181882
+[main.ts:181762](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L181762)

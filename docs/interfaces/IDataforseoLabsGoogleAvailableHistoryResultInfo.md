@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IDataforseoLabsGoogleAvailableHistoryResultInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IDataforseoLabsGoogleAvailableHistoryResultInfo
 
 # Interface: IDataforseoLabsGoogleAvailableHistoryResultInfo
 
@@ -29,4 +29,4 @@ example:
 
 #### Defined in
 
-main.ts:78517
+[main.ts:78373](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L78373)

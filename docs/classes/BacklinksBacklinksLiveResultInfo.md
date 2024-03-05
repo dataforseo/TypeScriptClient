@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / BacklinksBacklinksLiveResultInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / BacklinksBacklinksLiveResultInfo
 
 # Class: BacklinksBacklinksLiveResultInfo
 
@@ -50,7 +50,7 @@
 
 #### Defined in
 
-main.ts:131629
+[main.ts:131485](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L131485)
 
 ## Properties
 
@@ -70,7 +70,7 @@ custom mode specified in a POST array
 
 #### Defined in
 
-main.ts:131615
+[main.ts:131471](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L131471)
 
 ___
 
@@ -86,7 +86,7 @@ contains relevant backlinks and referring domains data
 
 #### Defined in
 
-main.ts:131621
+[main.ts:131477](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L131477)
 
 ___
 
@@ -102,7 +102,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:131619
+[main.ts:131475](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L131475)
 
 ___
 
@@ -118,7 +118,7 @@ mode specified in a POST array
 
 #### Defined in
 
-main.ts:131613
+[main.ts:131469](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L131469)
 
 ___
 
@@ -136,7 +136,7 @@ search_after_token values are unique for each subsequent task
 
 #### Defined in
 
-main.ts:131625
+[main.ts:131481](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L131481)
 
 ___
 
@@ -152,7 +152,7 @@ target domain in a POST array
 
 #### Defined in
 
-main.ts:131611
+[main.ts:131467](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L131467)
 
 ___
 
@@ -168,7 +168,7 @@ total amount of results relevant the request
 
 #### Defined in
 
-main.ts:131617
+[main.ts:131473](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L131473)
 
 ## Methods
 
@@ -188,7 +188,7 @@ main.ts:131617
 
 #### Defined in
 
-main.ts:131638
+[main.ts:131494](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L131494)
 
 ___
 
@@ -208,7 +208,7 @@ ___
 
 #### Defined in
 
-main.ts:131671
+[main.ts:131527](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L131527)
 
 ___
 
@@ -228,4 +228,4 @@ ___
 
 #### Defined in
 
-main.ts:131664
+[main.ts:131520](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L131520)

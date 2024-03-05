@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IContentGenerationCheckGrammarLiveItem
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IContentGenerationCheckGrammarLiveItem
 
 # Interface: IContentGenerationCheckGrammarLiveItem
 
@@ -36,7 +36,7 @@ description of the grammar or spelling error
 
 #### Defined in
 
-main.ts:161683
+[main.ts:161563](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L161563)
 
 ___
 
@@ -48,7 +48,7 @@ offset token for subsequent requests
 
 #### Defined in
 
-main.ts:161689
+[main.ts:161569](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L161569)
 
 ___
 
@@ -60,7 +60,7 @@ message of the grammar or spelling error
 
 #### Defined in
 
-main.ts:161681
+[main.ts:161561](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L161561)
 
 ___
 
@@ -72,7 +72,7 @@ offset token for subsequent requests
 
 #### Defined in
 
-main.ts:161687
+[main.ts:161567](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L161567)
 
 ___
 
@@ -84,7 +84,7 @@ id of the rule category
 
 #### Defined in
 
-main.ts:161700
+[main.ts:161580](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L161580)
 
 ___
 
@@ -96,7 +96,7 @@ name of the rule category
 
 #### Defined in
 
-main.ts:161702
+[main.ts:161582](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L161582)
 
 ___
 
@@ -108,7 +108,7 @@ description of the grammar or spelling rule
 
 #### Defined in
 
-main.ts:161696
+[main.ts:161576](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L161576)
 
 ___
 
@@ -121,7 +121,7 @@ see the List of Grammar Rules for Content Generation API
 
 #### Defined in
 
-main.ts:161694
+[main.ts:161574](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L161574)
 
 ___
 
@@ -133,7 +133,7 @@ type of the issue found by the relevant rule
 
 #### Defined in
 
-main.ts:161698
+[main.ts:161578](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L161578)
 
 ___
 
@@ -145,7 +145,7 @@ suggested corrections
 
 #### Defined in
 
-main.ts:161685
+[main.ts:161565](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L161565)
 
 ___
 
@@ -157,4 +157,4 @@ type of element
 
 #### Defined in
 
-main.ts:161691
+[main.ts:161571](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L161571)

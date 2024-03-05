@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IAppDataGoogleAppReviewsTasksReadyResultInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IAppDataGoogleAppReviewsTasksReadyResultInfo
 
 # Interface: IAppDataGoogleAppReviewsTasksReadyResultInfo
 
@@ -31,7 +31,7 @@ date when the task was posted (in the UTC format)
 
 #### Defined in
 
-main.ts:181152
+[main.ts:181032](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L181032)
 
 ___
 
@@ -43,7 +43,7 @@ URL for collecting the results of the Google App Reviews task
 
 #### Defined in
 
-main.ts:181156
+[main.ts:181036](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L181036)
 
 ___
 
@@ -56,7 +56,7 @@ if HTML tasks are not supported in the specified endpoint, the value will be nul
 
 #### Defined in
 
-main.ts:181159
+[main.ts:181039](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L181039)
 
 ___
 
@@ -69,7 +69,7 @@ unique task identifier in our system in the UUID format
 
 #### Defined in
 
-main.ts:181148
+[main.ts:181028](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L181028)
 
 ___
 
@@ -81,7 +81,7 @@ search engine specified when setting the task
 
 #### Defined in
 
-main.ts:181150
+[main.ts:181030](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L181030)
 
 ___
 
@@ -93,4 +93,4 @@ user-defined task identifier
 
 #### Defined in
 
-main.ts:181154
+[main.ts:181034](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L181034)

@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IDataforseoLabsErrorsRequestInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IDataforseoLabsErrorsRequestInfo
 
 # Interface: IDataforseoLabsErrorsRequestInfo
 
@@ -35,7 +35,7 @@ example:
 
 #### Defined in
 
-main.ts:77244
+[main.ts:77100](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L77100)
 
 ___
 
@@ -52,7 +52,7 @@ example:
 
 #### Defined in
 
-main.ts:77251
+[main.ts:77107](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L77107)
 
 ___
 
@@ -68,7 +68,7 @@ example: dataforseo_labs/related_keywords/live
 
 #### Defined in
 
-main.ts:77237
+[main.ts:77093](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L77093)
 
 ___
 
@@ -83,7 +83,7 @@ maximum value: 1000
 
 #### Defined in
 
-main.ts:77226
+[main.ts:77082](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L77082)
 
 ___
 
@@ -98,4 +98,4 @@ if you specify the 10 value, the first ten tasks in the results array will be om
 
 #### Defined in
 
-main.ts:77231
+[main.ts:77087](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L77087)

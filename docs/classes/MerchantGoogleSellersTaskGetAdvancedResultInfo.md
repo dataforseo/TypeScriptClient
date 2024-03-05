@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / MerchantGoogleSellersTaskGetAdvancedResultInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / MerchantGoogleSellersTaskGetAdvancedResultInfo
 
 # Class: MerchantGoogleSellersTaskGetAdvancedResultInfo
 
@@ -53,7 +53,7 @@
 
 #### Defined in
 
-main.ts:166943
+[main.ts:166823](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L166823)
 
 ## Properties
 
@@ -70,7 +70,7 @@ you can use it to make sure that we provided accurate results
 
 #### Defined in
 
-main.ts:166925
+[main.ts:166805](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L166805)
 
 ___
 
@@ -89,7 +89,7 @@ example:
 
 #### Defined in
 
-main.ts:166930
+[main.ts:166810](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L166810)
 
 ___
 
@@ -108,7 +108,7 @@ shops_list, buy_on_google
 
 #### Defined in
 
-main.ts:166935
+[main.ts:166815](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L166815)
 
 ___
 
@@ -124,7 +124,7 @@ items in SERP
 
 #### Defined in
 
-main.ts:166939
+[main.ts:166819](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L166819)
 
 ___
 
@@ -140,7 +140,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:166937
+[main.ts:166817](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L166817)
 
 ___
 
@@ -156,7 +156,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:166922
+[main.ts:166802](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L166802)
 
 ___
 
@@ -172,7 +172,7 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:166920
+[main.ts:166800](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L166800)
 
 ___
 
@@ -189,7 +189,7 @@ learn more about the parameter in this help center guide
 
 #### Defined in
 
-main.ts:166914
+[main.ts:166794](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L166794)
 
 ___
 
@@ -205,7 +205,7 @@ search engine domain in a POST array
 
 #### Defined in
 
-main.ts:166918
+[main.ts:166798](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L166798)
 
 ___
 
@@ -221,7 +221,7 @@ type of element
 
 #### Defined in
 
-main.ts:166916
+[main.ts:166796](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L166796)
 
 ## Methods
 
@@ -241,7 +241,7 @@ main.ts:166916
 
 #### Defined in
 
-main.ts:166952
+[main.ts:166832](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L166832)
 
 ___
 
@@ -261,7 +261,7 @@ ___
 
 #### Defined in
 
-main.ts:166986
+[main.ts:166866](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L166866)
 
 ___
 
@@ -281,4 +281,4 @@ ___
 
 #### Defined in
 
-main.ts:166979
+[main.ts:166859](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L166859)

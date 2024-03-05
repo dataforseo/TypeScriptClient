@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / KnowledgeGraphExpandedElement
+[dataforseo-client](../README.md) / [Exports](../modules.md) / KnowledgeGraphExpandedElement
 
 # Class: KnowledgeGraphExpandedElement
 
@@ -52,7 +52,7 @@
 
 #### Defined in
 
-main.ts:27103
+[main.ts:26961](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L26961)
 
 ## Properties
 
@@ -68,7 +68,7 @@ domain in SERP
 
 #### Defined in
 
-main.ts:27086
+[main.ts:26944](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L26944)
 
 ___
 
@@ -84,7 +84,7 @@ title of a given element
 
 #### Defined in
 
-main.ts:27082
+[main.ts:26940](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L26940)
 
 ___
 
@@ -100,7 +100,7 @@ images of the element
 
 #### Defined in
 
-main.ts:27092
+[main.ts:26950](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L26950)
 
 ___
 
@@ -116,7 +116,7 @@ text alongside the link title
 
 #### Defined in
 
-main.ts:27090
+[main.ts:26948](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L26948)
 
 ___
 
@@ -132,7 +132,7 @@ table element
 
 #### Defined in
 
-main.ts:27099
+[main.ts:26957](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L26957)
 
 ___
 
@@ -151,7 +151,7 @@ example:
 
 #### Defined in
 
-main.ts:27097
+[main.ts:26955](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L26955)
 
 ___
 
@@ -167,7 +167,7 @@ title of the result in SERP
 
 #### Defined in
 
-main.ts:27088
+[main.ts:26946](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L26946)
 
 ___
 
@@ -183,7 +183,7 @@ type of element
 
 #### Defined in
 
-main.ts:27080
+[main.ts:26938](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L26938)
 
 ___
 
@@ -199,7 +199,7 @@ relevant URL
 
 #### Defined in
 
-main.ts:27084
+[main.ts:26942](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L26942)
 
 ## Methods
 
@@ -219,7 +219,7 @@ main.ts:27084
 
 #### Defined in
 
-main.ts:27112
+[main.ts:26970](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L26970)
 
 ___
 
@@ -239,7 +239,7 @@ ___
 
 #### Defined in
 
-main.ts:27141
+[main.ts:26999](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L26999)
 
 ___
 
@@ -259,4 +259,4 @@ ___
 
 #### Defined in
 
-main.ts:27134
+[main.ts:26992](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L26992)

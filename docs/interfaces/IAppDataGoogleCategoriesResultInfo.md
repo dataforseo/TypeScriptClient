@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IAppDataGoogleCategoriesResultInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IAppDataGoogleCategoriesResultInfo
 
 # Interface: IAppDataGoogleCategoriesResultInfo
 
@@ -26,4 +26,4 @@ contains full list of supported app categories
 
 #### Defined in
 
-main.ts:177139
+[main.ts:177019](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L177019)

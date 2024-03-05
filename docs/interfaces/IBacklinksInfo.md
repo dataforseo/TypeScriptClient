@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IBacklinksInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IBacklinksInfo
 
 # Interface: IBacklinksInfo
 
@@ -32,7 +32,7 @@ the total number of backlinks, including dofollow and nofollow links
 
 #### Defined in
 
-main.ts:76206
+[main.ts:76062](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L76062)
 
 ___
 
@@ -44,7 +44,7 @@ number of dofollow links
 
 #### Defined in
 
-main.ts:76203
+[main.ts:76059](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L76059)
 
 ___
 
@@ -56,7 +56,7 @@ number of referring domains
 
 #### Defined in
 
-main.ts:76197
+[main.ts:76053](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L76053)
 
 ___
 
@@ -68,7 +68,7 @@ number of referring main domains
 
 #### Defined in
 
-main.ts:76199
+[main.ts:76055](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L76055)
 
 ___
 
@@ -80,7 +80,7 @@ number of referring pages
 
 #### Defined in
 
-main.ts:76201
+[main.ts:76057](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L76057)
 
 ___
 
@@ -95,4 +95,4 @@ example:
 
 #### Defined in
 
-main.ts:76211
+[main.ts:76067](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L76067)

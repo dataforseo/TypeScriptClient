@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / DomainAnalyticsTechnologiesTechnologyStatsLiveItem
+[dataforseo-client](../README.md) / [Exports](../modules.md) / DomainAnalyticsTechnologiesTechnologyStatsLiveItem
 
 # Class: DomainAnalyticsTechnologiesTechnologyStatsLiveItem
 
@@ -51,7 +51,7 @@ items array
 
 #### Defined in
 
-main.ts:73761
+[main.ts:73617](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L73617)
 
 ## Properties
 
@@ -72,7 +72,7 @@ contains country codes and number of websites per country
 
 #### Defined in
 
-main.ts:73750
+[main.ts:73606](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L73606)
 
 ___
 
@@ -88,7 +88,7 @@ date for which the data is provided
 
 #### Defined in
 
-main.ts:73745
+[main.ts:73601](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L73601)
 
 ___
 
@@ -104,7 +104,7 @@ number of domains that use the specified technology
 
 #### Defined in
 
-main.ts:73747
+[main.ts:73603](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L73603)
 
 ___
 
@@ -126,7 +126,7 @@ learn more about rank and how it is calculated in this help center article
 
 #### Defined in
 
-main.ts:73757
+[main.ts:73613](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L73613)
 
 ___
 
@@ -147,7 +147,7 @@ contains language codes and number of websites per language
 
 #### Defined in
 
-main.ts:73753
+[main.ts:73609](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L73609)
 
 ___
 
@@ -163,7 +163,7 @@ type of element
 
 #### Defined in
 
-main.ts:73743
+[main.ts:73599](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L73599)
 
 ## Methods
 
@@ -183,7 +183,7 @@ main.ts:73743
 
 #### Defined in
 
-main.ts:73770
+[main.ts:73626](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L73626)
 
 ___
 
@@ -203,7 +203,7 @@ ___
 
 #### Defined in
 
-main.ts:73810
+[main.ts:73666](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L73666)
 
 ___
 
@@ -223,4 +223,4 @@ ___
 
 #### Defined in
 
-main.ts:73803
+[main.ts:73659](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L73659)

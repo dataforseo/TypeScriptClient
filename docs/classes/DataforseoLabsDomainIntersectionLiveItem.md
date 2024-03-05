@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / DataforseoLabsDomainIntersectionLiveItem
+[dataforseo-client](../README.md) / [Exports](../modules.md) / DataforseoLabsDomainIntersectionLiveItem
 
 # Class: DataforseoLabsDomainIntersectionLiveItem
 
@@ -47,7 +47,7 @@
 
 #### Defined in
 
-main.ts:89190
+[main.ts:89046](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L89046)
 
 ## Properties
 
@@ -64,7 +64,7 @@ the list of supported SERP elements can be found below
 
 #### Defined in
 
-main.ts:89183
+[main.ts:89039](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L89039)
 
 ___
 
@@ -80,7 +80,7 @@ keyword data for the returned keyword
 
 #### Defined in
 
-main.ts:89180
+[main.ts:89036](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L89036)
 
 ___
 
@@ -96,7 +96,7 @@ search engine type
 
 #### Defined in
 
-main.ts:89178
+[main.ts:89034](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L89034)
 
 ___
 
@@ -113,7 +113,7 @@ the list of supported SERP elements can be found below
 
 #### Defined in
 
-main.ts:89186
+[main.ts:89042](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L89042)
 
 ## Methods
 
@@ -133,7 +133,7 @@ main.ts:89186
 
 #### Defined in
 
-main.ts:89199
+[main.ts:89055](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L89055)
 
 ___
 
@@ -153,7 +153,7 @@ ___
 
 #### Defined in
 
-main.ts:89219
+[main.ts:89075](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L89075)
 
 ___
 
@@ -173,4 +173,4 @@ ___
 
 #### Defined in
 
-main.ts:89212
+[main.ts:89068](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L89068)

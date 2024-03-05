@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / BusinessDataTaskRequestInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / BusinessDataTaskRequestInfo
 
 # Class: BusinessDataTaskRequestInfo
 
@@ -65,7 +65,7 @@
 
 #### Defined in
 
-main.ts:183305
+[main.ts:183185](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L183185)
 
 ## Properties
 
@@ -95,7 +95,7 @@ learn more about the cid and place_id identifiers in this help center article
 
 #### Defined in
 
-main.ts:183230
+[main.ts:183110](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L183110)
 
 ___
 
@@ -116,7 +116,7 @@ en
 
 #### Defined in
 
-main.ts:183275
+[main.ts:183155](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L183155)
 
 ___
 
@@ -137,7 +137,7 @@ English
 
 #### Defined in
 
-main.ts:183268
+[main.ts:183148](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L183148)
 
 ___
 
@@ -158,7 +158,7 @@ example:
 
 #### Defined in
 
-main.ts:183252
+[main.ts:183132](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L183132)
 
 ___
 
@@ -181,7 +181,7 @@ example:
 
 #### Defined in
 
-main.ts:183261
+[main.ts:183141](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L183141)
 
 ___
 
@@ -202,7 +202,7 @@ London,England,United Kingdom
 
 #### Defined in
 
-main.ts:183245
+[main.ts:183125](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L183125)
 
 ___
 
@@ -226,7 +226,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-main.ts:183301
+[main.ts:183181](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L183181)
 
 ___
 
@@ -250,7 +250,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-main.ts:183291
+[main.ts:183171](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L183171)
 
 ___
 
@@ -272,7 +272,7 @@ The cost can be calculated on the Pricing page.
 
 #### Defined in
 
-main.ts:183238
+[main.ts:183118](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L183118)
 
 ___
 
@@ -292,7 +292,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:183281
+[main.ts:183161](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L183161)
 
 ## Methods
 
@@ -312,7 +312,7 @@ main.ts:183281
 
 #### Defined in
 
-main.ts:183314
+[main.ts:183194](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L183194)
 
 ___
 
@@ -332,7 +332,7 @@ ___
 
 #### Defined in
 
-main.ts:183340
+[main.ts:183220](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L183220)
 
 ___
 
@@ -352,4 +352,4 @@ ___
 
 #### Defined in
 
-main.ts:183333
+[main.ts:183213](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L183213)

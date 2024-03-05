@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IMerchantAmazonAsinTaskGetAdvancedResultInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IMerchantAmazonAsinTaskGetAdvancedResultInfo
 
 # Interface: IMerchantAmazonAsinTaskGetAdvancedResultInfo
 
@@ -37,7 +37,7 @@ learn more about the identified in this help center guide
 
 #### Defined in
 
-main.ts:173266
+[main.ts:173146](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L173146)
 
 ___
 
@@ -50,7 +50,7 @@ you can use it to make sure that we provided accurate results
 
 #### Defined in
 
-main.ts:173277
+[main.ts:173157](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L173157)
 
 ___
 
@@ -65,7 +65,7 @@ example:
 
 #### Defined in
 
-main.ts:173282
+[main.ts:173162](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L173162)
 
 ___
 
@@ -80,7 +80,7 @@ amazon_product_info
 
 #### Defined in
 
-main.ts:173287
+[main.ts:173167](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L173167)
 
 ___
 
@@ -92,7 +92,7 @@ Amazon product info items
 
 #### Defined in
 
-main.ts:173291
+[main.ts:173171](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L173171)
 
 ___
 
@@ -104,7 +104,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:173289
+[main.ts:173169](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L173169)
 
 ___
 
@@ -116,7 +116,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:173274
+[main.ts:173154](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L173154)
 
 ___
 
@@ -128,7 +128,7 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:173272
+[main.ts:173152](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L173152)
 
 ___
 
@@ -140,7 +140,7 @@ Amazon domain in a POST array
 
 #### Defined in
 
-main.ts:173270
+[main.ts:173150](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L173150)
 
 ___
 
@@ -152,4 +152,4 @@ type of element
 
 #### Defined in
 
-main.ts:173268
+[main.ts:173148](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L173148)

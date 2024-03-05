@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / ReviewResponseItemInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / ReviewResponseItemInfo
 
 # Class: ReviewResponseItemInfo
 
@@ -46,7 +46,7 @@
 
 #### Defined in
 
-main.ts:20258
+[main.ts:20258](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L20258)
 
 ## Properties
 
@@ -62,7 +62,7 @@ the content of response
 
 #### Defined in
 
-main.ts:20252
+[main.ts:20252](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L20252)
 
 ___
 
@@ -78,7 +78,7 @@ the time of publication
 
 #### Defined in
 
-main.ts:20254
+[main.ts:20254](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L20254)
 
 ___
 
@@ -94,7 +94,7 @@ the title of response
 
 #### Defined in
 
-main.ts:20250
+[main.ts:20250](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L20250)
 
 ## Methods
 
@@ -114,7 +114,7 @@ main.ts:20250
 
 #### Defined in
 
-main.ts:20267
+[main.ts:20267](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L20267)
 
 ___
 
@@ -134,7 +134,7 @@ ___
 
 #### Defined in
 
-main.ts:20286
+[main.ts:20286](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L20286)
 
 ___
 
@@ -154,4 +154,4 @@ ___
 
 #### Defined in
 
-main.ts:20279
+[main.ts:20279](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L20279)

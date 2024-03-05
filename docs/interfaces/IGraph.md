@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IGraph
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IGraph
 
 # Interface: IGraph
 
@@ -28,7 +28,7 @@ if there are none, equals null
 
 #### Defined in
 
-main.ts:32614
+[main.ts:32472](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L32472)
 
 ___
 
@@ -41,4 +41,4 @@ contains stock price data based on the preceding time period
 
 #### Defined in
 
-main.ts:32617
+[main.ts:32475](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L32475)

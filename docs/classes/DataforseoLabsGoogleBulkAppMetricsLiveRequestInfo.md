@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / DataforseoLabsGoogleBulkAppMetricsLiveRequestInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / DataforseoLabsGoogleBulkAppMetricsLiveRequestInfo
 
 # Class: DataforseoLabsGoogleBulkAppMetricsLiveRequestInfo
 
@@ -49,7 +49,7 @@
 
 #### Defined in
 
-main.ts:107983
+[main.ts:107839](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L107839)
 
 ## Properties
 
@@ -72,7 +72,7 @@ the maximum number of IDs you can specify in this field is 1000
 
 #### Defined in
 
-main.ts:107937
+[main.ts:107793](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L107793)
 
 ___
 
@@ -95,7 +95,7 @@ en
 
 #### Defined in
 
-main.ts:107973
+[main.ts:107829](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L107829)
 
 ___
 
@@ -118,7 +118,7 @@ English
 
 #### Defined in
 
-main.ts:107964
+[main.ts:107820](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L107820)
 
 ___
 
@@ -141,7 +141,7 @@ example:
 
 #### Defined in
 
-main.ts:107955
+[main.ts:107811](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L107811)
 
 ___
 
@@ -164,7 +164,7 @@ United States
 
 #### Defined in
 
-main.ts:107946
+[main.ts:107802](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L107802)
 
 ___
 
@@ -184,7 +184,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:107979
+[main.ts:107835](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L107835)
 
 ## Methods
 
@@ -204,7 +204,7 @@ main.ts:107979
 
 #### Defined in
 
-main.ts:107992
+[main.ts:107848](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L107848)
 
 ___
 
@@ -224,7 +224,7 @@ ___
 
 #### Defined in
 
-main.ts:108018
+[main.ts:107874](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L107874)
 
 ___
 
@@ -244,4 +244,4 @@ ___
 
 #### Defined in
 
-main.ts:108011
+[main.ts:107867](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L107867)

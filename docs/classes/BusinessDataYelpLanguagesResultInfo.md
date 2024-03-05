@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / BusinessDataYelpLanguagesResultInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / BusinessDataYelpLanguagesResultInfo
 
 # Class: BusinessDataYelpLanguagesResultInfo
 
@@ -45,7 +45,7 @@
 
 #### Defined in
 
-main.ts:203296
+[main.ts:203176](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L203176)
 
 ## Properties
 
@@ -61,7 +61,7 @@ language code according to ISO 639-1
 
 #### Defined in
 
-main.ts:203292
+[main.ts:203172](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L203172)
 
 ___
 
@@ -77,7 +77,7 @@ language name
 
 #### Defined in
 
-main.ts:203290
+[main.ts:203170](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L203170)
 
 ## Methods
 
@@ -97,7 +97,7 @@ main.ts:203290
 
 #### Defined in
 
-main.ts:203305
+[main.ts:203185](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L203185)
 
 ___
 
@@ -117,7 +117,7 @@ ___
 
 #### Defined in
 
-main.ts:203323
+[main.ts:203203](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L203203)
 
 ___
 
@@ -137,4 +137,4 @@ ___
 
 #### Defined in
 
-main.ts:203316
+[main.ts:203196](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L203196)

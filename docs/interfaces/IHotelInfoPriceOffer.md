@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IHotelInfoPriceOffer
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IHotelInfoPriceOffer
 
 # Interface: IHotelInfoPriceOffer
 
@@ -36,7 +36,7 @@ USD is applied by default, unless specified in the POST array
 
 #### Defined in
 
-main.ts:193668
+[main.ts:193548](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L193548)
 
 ___
 
@@ -50,7 +50,7 @@ equals null if free cancellation is not available for the selected dates
 
 #### Defined in
 
-main.ts:193681
+[main.ts:193561](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L193561)
 
 ___
 
@@ -63,7 +63,7 @@ the maximum number of visitors for which the price offer is valid
 
 #### Defined in
 
-main.ts:193674
+[main.ts:193554](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L193554)
 
 ___
 
@@ -76,7 +76,7 @@ URLs of the images featured in the price offer
 
 #### Defined in
 
-main.ts:193677
+[main.ts:193557](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L193557)
 
 ___
 
@@ -88,7 +88,7 @@ price per night
 
 #### Defined in
 
-main.ts:193665
+[main.ts:193545](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L193545)
 
 ___
 
@@ -100,7 +100,7 @@ title of the hotel
 
 #### Defined in
 
-main.ts:193663
+[main.ts:193543](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L193543)
 
 ___
 
@@ -112,7 +112,7 @@ type of element
 
 #### Defined in
 
-main.ts:193661
+[main.ts:193541](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L193541)
 
 ___
 
@@ -125,4 +125,4 @@ URL to the page of the website where price offer appears
 
 #### Defined in
 
-main.ts:193671
+[main.ts:193551](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L193551)

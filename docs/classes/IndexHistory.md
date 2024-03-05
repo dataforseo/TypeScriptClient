@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IndexHistory
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IndexHistory
 
 # Class: IndexHistory
 
@@ -47,7 +47,7 @@
 
 #### Defined in
 
-main.ts:129096
+[main.ts:128952](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L128952)
 
 ## Properties
 
@@ -66,7 +66,7 @@ example:
 
 #### Defined in
 
-main.ts:129086
+[main.ts:128942](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L128942)
 
 ___
 
@@ -82,7 +82,7 @@ total number of backlinks our database contained on the given date
 
 #### Defined in
 
-main.ts:129088
+[main.ts:128944](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L128944)
 
 ___
 
@@ -98,7 +98,7 @@ total number of domains our database contained on the given date
 
 #### Defined in
 
-main.ts:129092
+[main.ts:128948](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L128948)
 
 ___
 
@@ -114,7 +114,7 @@ total number of pages our database contained on the given date
 
 #### Defined in
 
-main.ts:129090
+[main.ts:128946](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L128946)
 
 ## Methods
 
@@ -134,7 +134,7 @@ main.ts:129090
 
 #### Defined in
 
-main.ts:129105
+[main.ts:128961](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L128961)
 
 ___
 
@@ -154,7 +154,7 @@ ___
 
 #### Defined in
 
-main.ts:129125
+[main.ts:128981](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L128981)
 
 ___
 
@@ -174,4 +174,4 @@ ___
 
 #### Defined in
 
-main.ts:129118
+[main.ts:128974](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L128974)

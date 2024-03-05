@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IImagesSearchSerpElementItem
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IImagesSearchSerpElementItem
 
 # Interface: IImagesSearchSerpElementItem
 
@@ -40,7 +40,7 @@ the alt tag of the image
 
 #### Defined in
 
-main.ts:46327
+[main.ts:46185](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L46185)
 
 ___
 
@@ -52,7 +52,7 @@ the URL of the cached version of the image stored on Google’s servers
 
 #### Defined in
 
-main.ts:46333
+[main.ts:46191](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L46191)
 
 ___
 
@@ -65,7 +65,7 @@ absolute position among all the elements in SERP
 
 #### Defined in
 
-main.ts:46319
+[main.ts:46177](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L46177)
 
 ___
 
@@ -79,7 +79,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-main.ts:46316
+[main.ts:46174](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L46174)
 
 ___
 
@@ -91,7 +91,7 @@ the URL of the source image
 
 #### Defined in
 
-main.ts:46331
+[main.ts:46189](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L46189)
 
 ___
 
@@ -103,7 +103,7 @@ subtitle of the result in SERP
 
 #### Defined in
 
-main.ts:46325
+[main.ts:46183](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L46183)
 
 ___
 
@@ -115,7 +115,7 @@ title of the result in SERP
 
 #### Defined in
 
-main.ts:46323
+[main.ts:46181](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L46181)
 
 ___
 
@@ -127,7 +127,7 @@ the URL of the page where the image is hosted
 
 #### Defined in
 
-main.ts:46329
+[main.ts:46187](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L46187)
 
 ___
 
@@ -139,4 +139,4 @@ the XPath of the element
 
 #### Defined in
 
-main.ts:46321
+[main.ts:46179](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L46179)

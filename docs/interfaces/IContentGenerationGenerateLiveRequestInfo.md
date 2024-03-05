@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IContentGenerationGenerateLiveRequestInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IContentGenerationGenerateLiveRequestInfo
 
 # Interface: IContentGenerationGenerateLiveRequestInfo
 
@@ -42,7 +42,7 @@ example:
 
 #### Defined in
 
-main.ts:160112
+[main.ts:159992](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L159992)
 
 ___
 
@@ -58,7 +58,7 @@ example:
 
 #### Defined in
 
-main.ts:160106
+[main.ts:159986](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L159986)
 
 ___
 
@@ -76,7 +76,7 @@ learn more about this parameter on our help center
 
 #### Defined in
 
-main.ts:160069
+[main.ts:159949](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L159949)
 
 ___
 
@@ -93,7 +93,7 @@ learn more about this parameter on our help center
 
 #### Defined in
 
-main.ts:160054
+[main.ts:159934](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L159934)
 
 ___
 
@@ -110,7 +110,7 @@ learn more about this parameter on our help center
 
 #### Defined in
 
-main.ts:160061
+[main.ts:159941](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L159941)
 
 ___
 
@@ -126,7 +126,7 @@ example:
 
 #### Defined in
 
-main.ts:160118
+[main.ts:159998](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L159998)
 
 ___
 
@@ -142,7 +142,7 @@ supplement_token values are unique for each subsequent task
 
 #### Defined in
 
-main.ts:160124
+[main.ts:160004](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L160004)
 
 ___
 
@@ -158,7 +158,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:160130
+[main.ts:160010](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L160010)
 
 ___
 
@@ -176,7 +176,7 @@ learn more about this parameter on our help center
 
 #### Defined in
 
-main.ts:160100
+[main.ts:159980](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L159980)
 
 ___
 
@@ -192,7 +192,7 @@ learn more about tokens on our help center
 
 #### Defined in
 
-main.ts:160047
+[main.ts:159927](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L159927)
 
 ___
 
@@ -208,7 +208,7 @@ default value: 1
 
 #### Defined in
 
-main.ts:160075
+[main.ts:159955](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L159955)
 
 ___
 
@@ -226,7 +226,7 @@ learn more about this parameter on our help center
 
 #### Defined in
 
-main.ts:160083
+[main.ts:159963](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L159963)
 
 ___
 
@@ -245,4 +245,4 @@ learn more about this parameter on our help center
 
 #### Defined in
 
-main.ts:160092
+[main.ts:159972](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L159972)

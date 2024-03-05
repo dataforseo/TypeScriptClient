@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / ImageResourceElementItem
+[dataforseo-client](../README.md) / [Exports](../modules.md) / ImageResourceElementItem
 
 # Class: ImageResourceElementItem
 
@@ -71,7 +71,7 @@
 
 #### Defined in
 
-main.ts:146819
+[main.ts:146675](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L146675)
 
 ## Properties
 
@@ -85,7 +85,7 @@ main.ts:146819
 
 #### Defined in
 
-main.ts:20179
+[main.ts:20179](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L20179)
 
 ___
 
@@ -104,7 +104,7 @@ any, none, image, sitemap, robots, script, stylesheet, redirect, html, text, oth
 
 #### Defined in
 
-main.ts:146808
+[main.ts:146664](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L146664)
 
 ___
 
@@ -120,7 +120,7 @@ instructions for caching
 
 #### Defined in
 
-main.ts:146796
+[main.ts:146652](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L146652)
 
 ___
 
@@ -141,7 +141,7 @@ contents of the array depend on the resource_type
 
 #### Defined in
 
-main.ts:146799
+[main.ts:146655](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L146655)
 
 ___
 
@@ -157,7 +157,7 @@ type of encoding
 
 #### Defined in
 
-main.ts:146801
+[main.ts:146657](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L146657)
 
 ___
 
@@ -174,7 +174,7 @@ indicates the size of the encoded resource measured in bytes
 
 #### Defined in
 
-main.ts:146784
+[main.ts:146640](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L146640)
 
 ___
 
@@ -193,7 +193,7 @@ example:
 
 #### Defined in
 
-main.ts:146792
+[main.ts:146648](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L146648)
 
 ___
 
@@ -209,7 +209,7 @@ resource fething time range
 
 #### Defined in
 
-main.ts:146794
+[main.ts:146650](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L146650)
 
 ___
 
@@ -226,7 +226,7 @@ if there is no data, the value will be null
 
 #### Defined in
 
-main.ts:146813
+[main.ts:146669](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L146669)
 
 ___
 
@@ -243,7 +243,7 @@ indicates the URL to redirect a page to
 
 #### Defined in
 
-main.ts:146776
+[main.ts:146632](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L146632)
 
 ___
 
@@ -259,7 +259,7 @@ types of media used to display a resource
 
 #### Defined in
 
-main.ts:146803
+[main.ts:146659](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L146659)
 
 ___
 
@@ -278,7 +278,7 @@ to obtain resource’s meta from a particular url, specify that URL when setting
 
 #### Defined in
 
-main.ts:146771
+[main.ts:146627](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L146627)
 
 ___
 
@@ -294,7 +294,7 @@ resource errors and warnings
 
 #### Defined in
 
-main.ts:146815
+[main.ts:146671](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L146671)
 
 ___
 
@@ -310,7 +310,7 @@ server version
 
 #### Defined in
 
-main.ts:146810
+[main.ts:146666](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L146666)
 
 ___
 
@@ -327,7 +327,7 @@ indicates the size of a given resource measured in bytes
 
 #### Defined in
 
-main.ts:146781
+[main.ts:146637](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L146637)
 
 ___
 
@@ -343,7 +343,7 @@ status code of the page where a given resource is located
 
 #### Defined in
 
-main.ts:146773
+[main.ts:146629](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L146629)
 
 ___
 
@@ -360,7 +360,7 @@ indicates the compressed size of a given resource in bytes
 
 #### Defined in
 
-main.ts:146787
+[main.ts:146643](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L146643)
 
 ___
 
@@ -376,7 +376,7 @@ resource URL
 
 #### Defined in
 
-main.ts:146778
+[main.ts:146634](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L146634)
 
 ## Methods
 
@@ -400,7 +400,7 @@ main.ts:146778
 
 #### Defined in
 
-main.ts:146824
+[main.ts:146680](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L146680)
 
 ___
 
@@ -424,7 +424,7 @@ ___
 
 #### Defined in
 
-main.ts:146864
+[main.ts:146720](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L146720)
 
 ___
 
@@ -448,4 +448,4 @@ ___
 
 #### Defined in
 
-main.ts:146857
+[main.ts:146713](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L146713)

@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IMetricsBundleInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IMetricsBundleInfo
 
 # Interface: IMetricsBundleInfo
 
@@ -27,7 +27,7 @@ ranking and traffic data from organic search
 
 #### Defined in
 
-main.ts:76121
+[main.ts:75977](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L75977)
 
 ___
 
@@ -39,4 +39,4 @@ ranking and traffic data from paid search
 
 #### Defined in
 
-main.ts:76123
+[main.ts:75979](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L75979)

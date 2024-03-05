@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / MultiCarouselDataforseoLabsSerpElementItem
+[dataforseo-client](../README.md) / [Exports](../modules.md) / MultiCarouselDataforseoLabsSerpElementItem
 
 # Class: MultiCarouselDataforseoLabsSerpElementItem
 
@@ -59,7 +59,7 @@
 
 #### Defined in
 
-main.ts:92661
+[main.ts:92517](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L92517)
 
 ## Properties
 
@@ -73,7 +73,7 @@ main.ts:92661
 
 #### Defined in
 
-main.ts:19715
+[main.ts:19715](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L19715)
 
 ___
 
@@ -90,7 +90,7 @@ if there are none, equals null
 
 #### Defined in
 
-main.ts:92657
+[main.ts:92513](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L92513)
 
 ___
 
@@ -108,7 +108,7 @@ left, right
 
 #### Defined in
 
-main.ts:92652
+[main.ts:92508](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L92508)
 
 ___
 
@@ -125,7 +125,7 @@ absolute position among all the elements in SERP
 
 #### Defined in
 
-main.ts:92648
+[main.ts:92504](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L92504)
 
 ___
 
@@ -143,7 +143,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-main.ts:92645
+[main.ts:92501](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L92501)
 
 ___
 
@@ -159,7 +159,7 @@ the XPath of the element
 
 #### Defined in
 
-main.ts:92654
+[main.ts:92510](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L92510)
 
 ## Methods
 
@@ -183,7 +183,7 @@ main.ts:92654
 
 #### Defined in
 
-main.ts:92666
+[main.ts:92522](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L92522)
 
 ___
 
@@ -207,7 +207,7 @@ ___
 
 #### Defined in
 
-main.ts:92692
+[main.ts:92548](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L92548)
 
 ___
 
@@ -231,4 +231,4 @@ ___
 
 #### Defined in
 
-main.ts:92685
+[main.ts:92541](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L92541)

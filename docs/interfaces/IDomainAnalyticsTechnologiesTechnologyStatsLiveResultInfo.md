@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IDomainAnalyticsTechnologiesTechnologyStatsLiveResultInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IDomainAnalyticsTechnologiesTechnologyStatsLiveResultInfo
 
 # Interface: IDomainAnalyticsTechnologiesTechnologyStatsLiveResultInfo
 
@@ -30,7 +30,7 @@ starting date of the time range
 
 #### Defined in
 
-main.ts:73937
+[main.ts:73793](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L73793)
 
 ___
 
@@ -42,7 +42,7 @@ ending date of the time range
 
 #### Defined in
 
-main.ts:73939
+[main.ts:73795](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L73795)
 
 ___
 
@@ -54,7 +54,7 @@ items array
 
 #### Defined in
 
-main.ts:73943
+[main.ts:73799](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L73799)
 
 ___
 
@@ -66,7 +66,7 @@ number of items in the results array
 
 #### Defined in
 
-main.ts:73941
+[main.ts:73797](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L73797)
 
 ___
 
@@ -78,4 +78,4 @@ target technology
 
 #### Defined in
 
-main.ts:73935
+[main.ts:73791](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L73791)

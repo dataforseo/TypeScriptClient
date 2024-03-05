@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IBusinessDataTripadvisorReviewsTaskPostRequestInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IBusinessDataTripadvisorReviewsTaskPostRequestInfo
 
 # Interface: IBusinessDataTripadvisorReviewsTaskPostRequestInfo
 
@@ -45,7 +45,7 @@ default value: 10
 
 #### Defined in
 
-main.ts:202104
+[main.ts:201984](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L201984)
 
 ___
 
@@ -62,7 +62,7 @@ if you need to use the “%” symbol for your keyword, please specify it as “
 
 #### Defined in
 
-main.ts:202060
+[main.ts:201940](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L201940)
 
 ___
 
@@ -81,7 +81,7 @@ The cost can be calculated on the Pricing page.
 
 #### Defined in
 
-main.ts:202098
+[main.ts:201978](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L201978)
 
 ___
 
@@ -100,7 +100,7 @@ The cost can be calculated on the Pricing page.
 
 #### Defined in
 
-main.ts:202089
+[main.ts:201969](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L201969)
 
 ___
 
@@ -116,7 +116,7 @@ example:
 
 #### Defined in
 
-main.ts:202072
+[main.ts:201952](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L201952)
 
 ___
 
@@ -132,7 +132,7 @@ London,England,United Kingdom
 
 #### Defined in
 
-main.ts:202066
+[main.ts:201946](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L201946)
 
 ___
 
@@ -147,7 +147,7 @@ you can specify several values at once
 
 #### Defined in
 
-main.ts:202120
+[main.ts:202000](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L202000)
 
 ___
 
@@ -167,7 +167,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-main.ts:202157
+[main.ts:202037](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L202037)
 
 ___
 
@@ -187,7 +187,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-main.ts:202147
+[main.ts:202027](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L202027)
 
 ___
 
@@ -205,7 +205,7 @@ The cost can be calculated on the Pricing page.
 
 #### Defined in
 
-main.ts:202080
+[main.ts:201960](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L201960)
 
 ___
 
@@ -221,7 +221,7 @@ you can specify several values at once
 
 #### Defined in
 
-main.ts:202110
+[main.ts:201990](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L201990)
 
 ___
 
@@ -235,7 +235,7 @@ dessert
 
 #### Defined in
 
-main.ts:202124
+[main.ts:202004](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L202004)
 
 ___
 
@@ -252,7 +252,7 @@ detailed_reviews
 
 #### Defined in
 
-main.ts:202131
+[main.ts:202011](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L202011)
 
 ___
 
@@ -268,7 +268,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:202137
+[main.ts:202017](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L202017)
 
 ___
 
@@ -286,7 +286,7 @@ https://www.tripadvisor.com/Hotel_Review-g60763-d23462501-Reviews-Margaritaville
 
 #### Defined in
 
-main.ts:202053
+[main.ts:201933](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L201933)
 
 ___
 
@@ -301,4 +301,4 @@ you can specify several values at once
 
 #### Defined in
 
-main.ts:202115
+[main.ts:201995](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L201995)

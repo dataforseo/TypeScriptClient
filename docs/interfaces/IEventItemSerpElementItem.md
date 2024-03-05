@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IEventItemSerpElementItem
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IEventItemSerpElementItem
 
 # Interface: IEventItemSerpElementItem
 
@@ -42,7 +42,7 @@ description of the results element in SERP
 
 #### Defined in
 
-main.ts:44922
+[main.ts:44780](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L44780)
 
 ___
 
@@ -55,7 +55,7 @@ if there are none, equals null
 
 #### Defined in
 
-main.ts:44929
+[main.ts:44787](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L44787)
 
 ___
 
@@ -67,7 +67,7 @@ URL of the image featured in the element
 
 #### Defined in
 
-main.ts:44926
+[main.ts:44784](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L44784)
 
 ___
 
@@ -80,7 +80,7 @@ if there is none, equals null
 
 #### Defined in
 
-main.ts:44935
+[main.ts:44793](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L44793)
 
 ___
 
@@ -93,7 +93,7 @@ if there is none, equals null
 
 #### Defined in
 
-main.ts:44932
+[main.ts:44790](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L44790)
 
 ___
 
@@ -107,7 +107,7 @@ left, right
 
 #### Defined in
 
-main.ts:44916
+[main.ts:44774](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L44774)
 
 ___
 
@@ -120,7 +120,7 @@ absolute position among all the elements in SERP
 
 #### Defined in
 
-main.ts:44912
+[main.ts:44770](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L44770)
 
 ___
 
@@ -134,7 +134,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-main.ts:44909
+[main.ts:44767](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L44767)
 
 ___
 
@@ -146,7 +146,7 @@ title of the result in SERP
 
 #### Defined in
 
-main.ts:44920
+[main.ts:44778](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L44778)
 
 ___
 
@@ -158,7 +158,7 @@ relevant URL
 
 #### Defined in
 
-main.ts:44924
+[main.ts:44782](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L44782)
 
 ___
 
@@ -170,4 +170,4 @@ the XPath of the element
 
 #### Defined in
 
-main.ts:44918
+[main.ts:44776](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L44776)

@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / BacklinksDomainPagesSummaryLiveResultInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / BacklinksDomainPagesSummaryLiveResultInfo
 
 # Class: BacklinksDomainPagesSummaryLiveResultInfo
 
@@ -47,7 +47,7 @@
 
 #### Defined in
 
-main.ts:134345
+[main.ts:134201](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L134201)
 
 ## Properties
 
@@ -63,7 +63,7 @@ items array
 
 #### Defined in
 
-main.ts:134341
+[main.ts:134197](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L134197)
 
 ___
 
@@ -79,7 +79,7 @@ number of items in the results array
 
 #### Defined in
 
-main.ts:134339
+[main.ts:134195](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L134195)
 
 ___
 
@@ -95,7 +95,7 @@ target in the post array
 
 #### Defined in
 
-main.ts:134335
+[main.ts:134191](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L134191)
 
 ___
 
@@ -111,7 +111,7 @@ total number of relevant items in the database
 
 #### Defined in
 
-main.ts:134337
+[main.ts:134193](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L134193)
 
 ## Methods
 
@@ -131,7 +131,7 @@ main.ts:134337
 
 #### Defined in
 
-main.ts:134354
+[main.ts:134210](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L134210)
 
 ___
 
@@ -151,7 +151,7 @@ ___
 
 #### Defined in
 
-main.ts:134378
+[main.ts:134234](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L134234)
 
 ___
 
@@ -171,4 +171,4 @@ ___
 
 #### Defined in
 
-main.ts:134371
+[main.ts:134227](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L134227)

@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / OnPageLinksRequestInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / OnPageLinksRequestInfo
 
 # Class: OnPageLinksRequestInfo
 
@@ -50,7 +50,7 @@
 
 #### Defined in
 
-main.ts:148068
+[main.ts:147924](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L147924)
 
 ## Properties
 
@@ -81,7 +81,7 @@ The full list of possible filters is available by this link.
 
 #### Defined in
 
-main.ts:148058
+[main.ts:147914](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L147914)
 
 ___
 
@@ -101,7 +101,7 @@ example:
 
 #### Defined in
 
-main.ts:148021
+[main.ts:147877](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L147877)
 
 ___
 
@@ -120,7 +120,7 @@ maximum value: 1000
 
 #### Defined in
 
-main.ts:148036
+[main.ts:147892](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L147892)
 
 ___
 
@@ -139,7 +139,7 @@ if you specify the 10 value, the first ten links in the results array will be om
 
 #### Defined in
 
-main.ts:148041
+[main.ts:147897](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L147897)
 
 ___
 
@@ -158,7 +158,7 @@ note that in this field you can specify relative URLs only
 
 #### Defined in
 
-main.ts:148026
+[main.ts:147882](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L147882)
 
 ___
 
@@ -177,7 +177,7 @@ note that in this field you can specify relative URLs only
 
 #### Defined in
 
-main.ts:148031
+[main.ts:147887](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L147887)
 
 ___
 
@@ -197,7 +197,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:148064
+[main.ts:147920](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L147920)
 
 ## Methods
 
@@ -217,7 +217,7 @@ main.ts:148064
 
 #### Defined in
 
-main.ts:148077
+[main.ts:147933](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L147933)
 
 ___
 
@@ -237,7 +237,7 @@ ___
 
 #### Defined in
 
-main.ts:148104
+[main.ts:147960](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L147960)
 
 ___
 
@@ -257,4 +257,4 @@ ___
 
 #### Defined in
 
-main.ts:148097
+[main.ts:147953](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L147953)

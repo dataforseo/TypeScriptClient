@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / DataforseoLabsStatusInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / DataforseoLabsStatusInfo
 
 # Class: DataforseoLabsStatusInfo
 
@@ -44,7 +44,7 @@
 
 #### Defined in
 
-main.ts:76923
+[main.ts:76779](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L76779)
 
 ## Properties
 
@@ -63,7 +63,7 @@ example:
 
 #### Defined in
 
-main.ts:76919
+[main.ts:76775](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L76775)
 
 ## Methods
 
@@ -83,7 +83,7 @@ main.ts:76919
 
 #### Defined in
 
-main.ts:76932
+[main.ts:76788](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L76788)
 
 ___
 
@@ -103,7 +103,7 @@ ___
 
 #### Defined in
 
-main.ts:76949
+[main.ts:76805](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L76805)
 
 ___
 
@@ -123,4 +123,4 @@ ___
 
 #### Defined in
 
-main.ts:76942
+[main.ts:76798](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L76798)

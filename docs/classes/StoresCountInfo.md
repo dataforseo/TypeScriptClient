@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / StoresCountInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / StoresCountInfo
 
 # Class: StoresCountInfo
 
@@ -46,7 +46,7 @@
 
 #### Defined in
 
-main.ts:164717
+[main.ts:164597](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L164597)
 
 ## Properties
 
@@ -62,7 +62,7 @@ number of stores that offer the product
 
 #### Defined in
 
-main.ts:164705
+[main.ts:164585](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L164585)
 
 ___
 
@@ -82,7 +82,7 @@ in this case, the parameter is true
 
 #### Defined in
 
-main.ts:164713
+[main.ts:164593](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L164593)
 
 ___
 
@@ -98,7 +98,7 @@ text displayed on the Google Shopping page
 
 #### Defined in
 
-main.ts:164707
+[main.ts:164587](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L164587)
 
 ## Methods
 
@@ -118,7 +118,7 @@ main.ts:164707
 
 #### Defined in
 
-main.ts:164726
+[main.ts:164606](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L164606)
 
 ___
 
@@ -138,7 +138,7 @@ ___
 
 #### Defined in
 
-main.ts:164745
+[main.ts:164625](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L164625)
 
 ___
 
@@ -158,4 +158,4 @@ ___
 
 #### Defined in
 
-main.ts:164738
+[main.ts:164618](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L164618)

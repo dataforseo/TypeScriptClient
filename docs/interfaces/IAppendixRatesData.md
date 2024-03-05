@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IAppendixRatesData
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IAppendixRatesData
 
 # Interface: IAppendixRatesData
 
@@ -27,7 +27,7 @@ rate limits for API calls per a certain period of time
 
 #### Defined in
 
-main.ts:209501
+[main.ts:209381](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L209381)
 
 ___
 
@@ -39,4 +39,4 @@ statisctics for API calls
 
 #### Defined in
 
-main.ts:209503
+[main.ts:209383](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L209383)

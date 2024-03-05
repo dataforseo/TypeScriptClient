@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IBusinessDataSocialMediaFacebookLiveResultInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IBusinessDataSocialMediaFacebookLiveResultInfo
 
 # Interface: IBusinessDataSocialMediaFacebookLiveResultInfo
 
@@ -29,7 +29,7 @@ this field shows the number of likes a page received through the Facebook Like B
 
 #### Defined in
 
-main.ts:206145
+[main.ts:206025](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L206025)
 
 ___
 
@@ -42,7 +42,7 @@ corresponding URL you specified in the targets array when setting a task
 
 #### Defined in
 
-main.ts:206142
+[main.ts:206022](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L206022)
 
 ___
 
@@ -54,4 +54,4 @@ type of element
 
 #### Defined in
 
-main.ts:206139
+[main.ts:206019](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L206019)

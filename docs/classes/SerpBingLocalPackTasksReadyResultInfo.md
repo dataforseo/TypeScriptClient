@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / SerpBingLocalPackTasksReadyResultInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / SerpBingLocalPackTasksReadyResultInfo
 
 # Class: SerpBingLocalPackTasksReadyResultInfo
 
@@ -51,7 +51,7 @@
 
 #### Defined in
 
-main.ts:55959
+[main.ts:55815](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L55815)
 
 ## Properties
 
@@ -67,7 +67,7 @@ date when the task was posted (in the UTC format)
 
 #### Defined in
 
-main.ts:55944
+[main.ts:55800](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L55800)
 
 ___
 
@@ -84,7 +84,7 @@ if SERP Advanced is not supported in the specified endpoint, the value will be n
 
 #### Defined in
 
-main.ts:55952
+[main.ts:55808](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L55808)
 
 ___
 
@@ -101,7 +101,7 @@ if SERP HTML is not supported in the specified endpoint, the value will be null
 
 #### Defined in
 
-main.ts:55955
+[main.ts:55811](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L55811)
 
 ___
 
@@ -118,7 +118,7 @@ if SERP Regular is not supported in the specified endpoint, the value will be nu
 
 #### Defined in
 
-main.ts:55949
+[main.ts:55805](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L55805)
 
 ___
 
@@ -135,7 +135,7 @@ unique task identifier in our system in the UUID format
 
 #### Defined in
 
-main.ts:55937
+[main.ts:55793](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L55793)
 
 ___
 
@@ -151,7 +151,7 @@ search engine specified when setting the task
 
 #### Defined in
 
-main.ts:55939
+[main.ts:55795](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L55795)
 
 ___
 
@@ -168,7 +168,7 @@ can take the following values: local_pack
 
 #### Defined in
 
-main.ts:55942
+[main.ts:55798](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L55798)
 
 ___
 
@@ -184,7 +184,7 @@ user-defined task identifier
 
 #### Defined in
 
-main.ts:55946
+[main.ts:55802](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L55802)
 
 ## Methods
 
@@ -204,7 +204,7 @@ main.ts:55946
 
 #### Defined in
 
-main.ts:55968
+[main.ts:55824](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L55824)
 
 ___
 
@@ -224,7 +224,7 @@ ___
 
 #### Defined in
 
-main.ts:55992
+[main.ts:55848](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L55848)
 
 ___
 
@@ -244,4 +244,4 @@ ___
 
 #### Defined in
 
-main.ts:55985
+[main.ts:55841](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L55841)

@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / TechnologyCategoryInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / TechnologyCategoryInfo
 
 # Class: TechnologyCategoryInfo
 
@@ -47,7 +47,7 @@
 
 #### Defined in
 
-main.ts:72260
+[main.ts:72116](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L72116)
 
 ## Properties
 
@@ -65,7 +65,7 @@ crm, cart_abandonment
 
 #### Defined in
 
-main.ts:72246
+[main.ts:72102](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L72102)
 
 ___
 
@@ -83,7 +83,7 @@ user_generated_content.content_curation
 
 #### Defined in
 
-main.ts:72250
+[main.ts:72106](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L72106)
 
 ___
 
@@ -101,7 +101,7 @@ example:
 
 #### Defined in
 
-main.ts:72256
+[main.ts:72112](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L72112)
 
 ___
 
@@ -117,7 +117,7 @@ title of the technology category
 
 #### Defined in
 
-main.ts:72252
+[main.ts:72108](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L72108)
 
 ## Methods
 
@@ -137,7 +137,7 @@ main.ts:72252
 
 #### Defined in
 
-main.ts:72269
+[main.ts:72125](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L72125)
 
 ___
 
@@ -157,7 +157,7 @@ ___
 
 #### Defined in
 
-main.ts:72293
+[main.ts:72149](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L72149)
 
 ___
 
@@ -177,4 +177,4 @@ ___
 
 #### Defined in
 
-main.ts:72286
+[main.ts:72142](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L72142)

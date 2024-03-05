@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / BacklinksDomainPagesLiveItem
+[dataforseo-client](../README.md) / [Exports](../modules.md) / BacklinksDomainPagesLiveItem
 
 # Class: BacklinksDomainPagesLiveItem
 
@@ -61,7 +61,7 @@
 
 #### Defined in
 
-main.ts:133437
+[main.ts:133293](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L133293)
 
 ## Properties
 
@@ -77,7 +77,7 @@ type of encoding
 
 #### Defined in
 
-main.ts:133425
+[main.ts:133281](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L133281)
 
 ___
 
@@ -94,7 +94,7 @@ domain where the page was found
 
 #### Defined in
 
-main.ts:133389
+[main.ts:133245](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L133245)
 
 ___
 
@@ -111,7 +111,7 @@ indicates the size of the encoded page, in bytes
 
 #### Defined in
 
-main.ts:133423
+[main.ts:133279](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L133279)
 
 ___
 
@@ -130,7 +130,7 @@ example:
 
 #### Defined in
 
-main.ts:133413
+[main.ts:133269](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L133269)
 
 ___
 
@@ -150,7 +150,7 @@ example:
 
 #### Defined in
 
-main.ts:133403
+[main.ts:133259](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L133259)
 
 ___
 
@@ -166,7 +166,7 @@ Internet Protocol address
 
 #### Defined in
 
-main.ts:133397
+[main.ts:133253](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L133253)
 
 ___
 
@@ -183,7 +183,7 @@ indicates the URL to redirect a page to if exists
 
 #### Defined in
 
-main.ts:133418
+[main.ts:133274](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L133274)
 
 ___
 
@@ -200,7 +200,7 @@ main website domain does not include subdomains
 
 #### Defined in
 
-main.ts:133386
+[main.ts:133242](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L133242)
 
 ___
 
@@ -216,7 +216,7 @@ types of media used to display a page
 
 #### Defined in
 
-main.ts:133427
+[main.ts:133283](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L133283)
 
 ___
 
@@ -232,7 +232,7 @@ page meta data
 
 #### Defined in
 
-main.ts:133431
+[main.ts:133287](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L133287)
 
 ___
 
@@ -249,7 +249,7 @@ relevant page URL
 
 #### Defined in
 
-main.ts:133395
+[main.ts:133251](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L133251)
 
 ___
 
@@ -265,7 +265,7 @@ contains backlink data for this page
 
 #### Defined in
 
-main.ts:133433
+[main.ts:133289](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L133289)
 
 ___
 
@@ -284,7 +284,7 @@ example:
 
 #### Defined in
 
-main.ts:133408
+[main.ts:133264](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L133264)
 
 ___
 
@@ -300,7 +300,7 @@ server version
 
 #### Defined in
 
-main.ts:133429
+[main.ts:133285](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L133285)
 
 ___
 
@@ -316,7 +316,7 @@ indicates the page size, in bytes
 
 #### Defined in
 
-main.ts:133420
+[main.ts:133276](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L133276)
 
 ___
 
@@ -332,7 +332,7 @@ HTTP status code of the page
 
 #### Defined in
 
-main.ts:133415
+[main.ts:133271](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L133271)
 
 ___
 
@@ -349,7 +349,7 @@ top-level domain in the DNS root zone
 
 #### Defined in
 
-main.ts:133392
+[main.ts:133248](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L133248)
 
 ___
 
@@ -365,7 +365,7 @@ type of element
 
 #### Defined in
 
-main.ts:133383
+[main.ts:133239](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L133239)
 
 ## Methods
 
@@ -385,7 +385,7 @@ main.ts:133383
 
 #### Defined in
 
-main.ts:133446
+[main.ts:133302](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L133302)
 
 ___
 
@@ -405,7 +405,7 @@ ___
 
 #### Defined in
 
-main.ts:133480
+[main.ts:133336](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L133336)
 
 ___
 
@@ -425,4 +425,4 @@ ___
 
 #### Defined in
 
-main.ts:133473
+[main.ts:133329](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L133329)

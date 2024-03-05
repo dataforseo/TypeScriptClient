@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IGoogleTrendsGraphElementItem
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IGoogleTrendsGraphElementItem
 
 # Interface: IGoogleTrendsGraphElementItem
 
@@ -36,7 +36,7 @@ keyword popularity values averaged over the whole time range
 
 #### Defined in
 
-main.ts:120718
+[main.ts:120574](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L120574)
 
 ___
 
@@ -48,7 +48,7 @@ Google Trends data for the specified parameters
 
 #### Defined in
 
-main.ts:120716
+[main.ts:120572](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L120572)
 
 ___
 
@@ -61,7 +61,7 @@ the data included in the google_trends_graph element is based on the keywords li
 
 #### Defined in
 
-main.ts:120714
+[main.ts:120570](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L120570)
 
 ___
 
@@ -74,7 +74,7 @@ can take the following values: 1, 2, 3, 4, etc.
 
 #### Defined in
 
-main.ts:120709
+[main.ts:120565](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L120565)
 
 ___
 
@@ -86,4 +86,4 @@ title of the element in Google Trends
 
 #### Defined in
 
-main.ts:120711
+[main.ts:120567](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L120567)

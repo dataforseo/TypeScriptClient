@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IAppendixSellersGoogleMerchantLimitsRatesDataInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IAppendixSellersGoogleMerchantLimitsRatesDataInfo
 
 # Interface: IAppendixSellersGoogleMerchantLimitsRatesDataInfo
 
@@ -27,7 +27,7 @@
 
 #### Defined in
 
-main.ts:207607
+[main.ts:207487](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L207487)
 
 ___
 
@@ -37,7 +37,7 @@ ___
 
 #### Defined in
 
-main.ts:207606
+[main.ts:207486](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L207486)
 
 ___
 
@@ -47,7 +47,7 @@ ___
 
 #### Defined in
 
-main.ts:207604
+[main.ts:207484](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L207484)
 
 ___
 
@@ -57,4 +57,4 @@ ___
 
 #### Defined in
 
-main.ts:207605
+[main.ts:207485](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L207485)

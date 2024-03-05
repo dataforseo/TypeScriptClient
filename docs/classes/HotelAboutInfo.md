@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / HotelAboutInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / HotelAboutInfo
 
 # Class: HotelAboutInfo
 
@@ -52,7 +52,7 @@
 
 #### Defined in
 
-main.ts:195566
+[main.ts:195446](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L195446)
 
 ## Properties
 
@@ -69,7 +69,7 @@ information about hotel amenities
 
 #### Defined in
 
-main.ts:195559
+[main.ts:195439](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L195439)
 
 ___
 
@@ -86,7 +86,7 @@ check-in time indicated in the hotel listing
 
 #### Defined in
 
-main.ts:195544
+[main.ts:195424](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L195424)
 
 ___
 
@@ -103,7 +103,7 @@ check-out time indicated in the hotel listing
 
 #### Defined in
 
-main.ts:195547
+[main.ts:195427](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L195427)
 
 ___
 
@@ -120,7 +120,7 @@ the description of the hotel entity for which the results are collected
 
 #### Defined in
 
-main.ts:195538
+[main.ts:195418](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L195418)
 
 ___
 
@@ -137,7 +137,7 @@ domain of the hotel’s website
 
 #### Defined in
 
-main.ts:195553
+[main.ts:195433](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L195433)
 
 ___
 
@@ -154,7 +154,7 @@ address of the hotel indicated in the standardised format
 
 #### Defined in
 
-main.ts:195550
+[main.ts:195430](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L195430)
 
 ___
 
@@ -171,7 +171,7 @@ information about hotel amenities labelled as “popular”
 
 #### Defined in
 
-main.ts:195562
+[main.ts:195442](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L195442)
 
 ___
 
@@ -188,7 +188,7 @@ details about the hotel provided in addition to the description
 
 #### Defined in
 
-main.ts:195541
+[main.ts:195421](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L195421)
 
 ___
 
@@ -205,7 +205,7 @@ URL to the hotel’s website indicated in the listing
 
 #### Defined in
 
-main.ts:195556
+[main.ts:195436](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L195436)
 
 ## Methods
 
@@ -225,7 +225,7 @@ main.ts:195556
 
 #### Defined in
 
-main.ts:195575
+[main.ts:195455](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L195455)
 
 ___
 
@@ -245,7 +245,7 @@ ___
 
 #### Defined in
 
-main.ts:195612
+[main.ts:195492](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L195492)
 
 ___
 
@@ -265,4 +265,4 @@ ___
 
 #### Defined in
 
-main.ts:195605
+[main.ts:195485](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L195485)

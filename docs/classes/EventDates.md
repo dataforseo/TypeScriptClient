@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / EventDates
+[dataforseo-client](../README.md) / [Exports](../modules.md) / EventDates
 
 # Class: EventDates
 
@@ -46,7 +46,7 @@
 
 #### Defined in
 
-main.ts:44588
+[main.ts:44446](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L44446)
 
 ## Properties
 
@@ -62,7 +62,7 @@ date or date range as it is displayed in SERP
 
 #### Defined in
 
-main.ts:44584
+[main.ts:44442](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L44442)
 
 ___
 
@@ -86,7 +86,7 @@ example:
 
 #### Defined in
 
-main.ts:44582
+[main.ts:44440](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L44440)
 
 ___
 
@@ -110,7 +110,7 @@ example:
 
 #### Defined in
 
-main.ts:44572
+[main.ts:44430](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L44430)
 
 ## Methods
 
@@ -130,7 +130,7 @@ main.ts:44572
 
 #### Defined in
 
-main.ts:44597
+[main.ts:44455](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L44455)
 
 ___
 
@@ -150,7 +150,7 @@ ___
 
 #### Defined in
 
-main.ts:44616
+[main.ts:44474](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L44474)
 
 ___
 
@@ -170,4 +170,4 @@ ___
 
 #### Defined in
 
-main.ts:44609
+[main.ts:44467](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L44467)

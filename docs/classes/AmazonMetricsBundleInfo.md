@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / AmazonMetricsBundleInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / AmazonMetricsBundleInfo
 
 # Class: AmazonMetricsBundleInfo
 
@@ -45,7 +45,7 @@
 
 #### Defined in
 
-main.ts:100800
+[main.ts:100656](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L100656)
 
 ## Properties
 
@@ -61,7 +61,7 @@ ranking data from Amazon paid SERP
 
 #### Defined in
 
-main.ts:100796
+[main.ts:100652](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L100652)
 
 ___
 
@@ -77,7 +77,7 @@ ranking data from Amazon organic SERP
 
 #### Defined in
 
-main.ts:100794
+[main.ts:100650](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L100650)
 
 ## Methods
 
@@ -97,7 +97,7 @@ main.ts:100794
 
 #### Defined in
 
-main.ts:100809
+[main.ts:100665](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L100665)
 
 ___
 
@@ -117,7 +117,7 @@ ___
 
 #### Defined in
 
-main.ts:100827
+[main.ts:100683](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L100683)
 
 ___
 
@@ -137,4 +137,4 @@ ___
 
 #### Defined in
 
-main.ts:100820
+[main.ts:100676](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L100676)

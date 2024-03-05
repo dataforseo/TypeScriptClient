@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IBusinessDataGoogleHotelInfoLiveAdvancedRequestInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IBusinessDataGoogleHotelInfoLiveAdvancedRequestInfo
 
 # Interface: IBusinessDataGoogleHotelInfoLiveAdvancedRequestInfo
 
@@ -41,7 +41,7 @@ example:
 
 #### Defined in
 
-main.ts:196880
+[main.ts:196760](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L196760)
 
 ___
 
@@ -59,7 +59,7 @@ example:
 
 #### Defined in
 
-main.ts:196860
+[main.ts:196740](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L196740)
 
 ___
 
@@ -78,7 +78,7 @@ example:
 
 #### Defined in
 
-main.ts:196869
+[main.ts:196749](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L196749)
 
 ___
 
@@ -96,7 +96,7 @@ set the following value if you want to include one 13-years-old child and one 8-
 
 #### Defined in
 
-main.ts:196888
+[main.ts:196768](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L196768)
 
 ___
 
@@ -111,7 +111,7 @@ example:
 
 #### Defined in
 
-main.ts:196874
+[main.ts:196754](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L196754)
 
 ___
 
@@ -128,7 +128,7 @@ ChYIq6SB--i6p6cpGgovbS8wN2s5ODZfEAE
 
 #### Defined in
 
-main.ts:196815
+[main.ts:196695](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L196695)
 
 ___
 
@@ -145,7 +145,7 @@ en
 
 #### Defined in
 
-main.ts:196852
+[main.ts:196732](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L196732)
 
 ___
 
@@ -162,7 +162,7 @@ English
 
 #### Defined in
 
-main.ts:196845
+[main.ts:196725](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L196725)
 
 ___
 
@@ -179,7 +179,7 @@ example:
 
 #### Defined in
 
-main.ts:196829
+[main.ts:196709](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L196709)
 
 ___
 
@@ -198,7 +198,7 @@ example:
 
 #### Defined in
 
-main.ts:196838
+[main.ts:196718](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L196718)
 
 ___
 
@@ -215,7 +215,7 @@ London,England,United Kingdom
 
 #### Defined in
 
-main.ts:196822
+[main.ts:196702](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L196702)
 
 ___
 
@@ -231,4 +231,4 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:196894
+[main.ts:196774](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L196774)

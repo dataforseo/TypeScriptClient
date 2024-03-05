@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IHotelsPackDataforseoLabsSerpElementItem
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IHotelsPackDataforseoLabsSerpElementItem
 
 # Interface: IHotelsPackDataforseoLabsSerpElementItem
 
@@ -42,7 +42,7 @@ example:
 
 #### Defined in
 
-main.ts:93709
+[main.ts:93565](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L93565)
 
 ___
 
@@ -57,7 +57,7 @@ example:
 
 #### Defined in
 
-main.ts:93714
+[main.ts:93570](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L93570)
 
 ___
 
@@ -69,7 +69,7 @@ elements of search results found in SERP
 
 #### Defined in
 
-main.ts:93716
+[main.ts:93572](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L93572)
 
 ___
 
@@ -83,7 +83,7 @@ left, right
 
 #### Defined in
 
-main.ts:93700
+[main.ts:93556](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L93556)
 
 ___
 
@@ -96,7 +96,7 @@ absolute position among all the elements in SERP
 
 #### Defined in
 
-main.ts:93696
+[main.ts:93552](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L93552)
 
 ___
 
@@ -109,7 +109,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-main.ts:93693
+[main.ts:93549](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L93549)
 
 ___
 
@@ -121,7 +121,7 @@ title of the result in SERP
 
 #### Defined in
 
-main.ts:93704
+[main.ts:93560](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L93560)
 
 ___
 
@@ -133,4 +133,4 @@ the XPath of the element
 
 #### Defined in
 
-main.ts:93702
+[main.ts:93558](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L93558)

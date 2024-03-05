@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / DomainAnalyticsTechnologiesDomainsByHtmlTermsLiveResultInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / DomainAnalyticsTechnologiesDomainsByHtmlTermsLiveResultInfo
 
 # Class: DomainAnalyticsTechnologiesDomainsByHtmlTermsLiveResultInfo
 
@@ -48,7 +48,7 @@
 
 #### Defined in
 
-main.ts:75022
+[main.ts:74878](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L74878)
 
 ## Properties
 
@@ -64,7 +64,7 @@ items array
 
 #### Defined in
 
-main.ts:75018
+[main.ts:74874](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L74874)
 
 ___
 
@@ -80,7 +80,7 @@ number of items in the results array
 
 #### Defined in
 
-main.ts:75010
+[main.ts:74866](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L74866)
 
 ___
 
@@ -96,7 +96,7 @@ specified offset value
 
 #### Defined in
 
-main.ts:75012
+[main.ts:74868](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L74868)
 
 ___
 
@@ -114,7 +114,7 @@ offset_token values are unique for each subsequent task
 
 #### Defined in
 
-main.ts:75016
+[main.ts:74872](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L74872)
 
 ___
 
@@ -130,7 +130,7 @@ total number of relevant items in the database
 
 #### Defined in
 
-main.ts:75008
+[main.ts:74864](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L74864)
 
 ## Methods
 
@@ -150,7 +150,7 @@ main.ts:75008
 
 #### Defined in
 
-main.ts:75031
+[main.ts:74887](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L74887)
 
 ___
 
@@ -170,7 +170,7 @@ ___
 
 #### Defined in
 
-main.ts:75056
+[main.ts:74912](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L74912)
 
 ___
 
@@ -190,4 +190,4 @@ ___
 
 #### Defined in
 
-main.ts:75049
+[main.ts:74905](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L74905)

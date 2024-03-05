@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / ContentGenerationGenerateSubTopicsLiveRequestInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / ContentGenerationGenerateSubTopicsLiveRequestInfo
 
 # Class: ContentGenerationGenerateSubTopicsLiveRequestInfo
 
@@ -46,7 +46,7 @@
 
 #### Defined in
 
-main.ts:160983
+[main.ts:160863](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L160863)
 
 ## Properties
 
@@ -67,7 +67,7 @@ learn more about this parameter on our help center
 
 #### Defined in
 
-main.ts:160973
+[main.ts:160853](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L160853)
 
 ___
 
@@ -87,7 +87,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:160979
+[main.ts:160859](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L160859)
 
 ___
 
@@ -106,7 +106,7 @@ can contain from 1 to 50 tokens
 
 #### Defined in
 
-main.ts:160966
+[main.ts:160846](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L160846)
 
 ## Methods
 
@@ -126,7 +126,7 @@ main.ts:160966
 
 #### Defined in
 
-main.ts:160992
+[main.ts:160872](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L160872)
 
 ___
 
@@ -146,7 +146,7 @@ ___
 
 #### Defined in
 
-main.ts:161011
+[main.ts:160891](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L160891)
 
 ___
 
@@ -166,4 +166,4 @@ ___
 
 #### Defined in
 
-main.ts:161004
+[main.ts:160884](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L160884)

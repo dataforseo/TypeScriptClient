@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IDataforseoLabsBingRelevantPagesLiveResultInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IDataforseoLabsBingRelevantPagesLiveResultInfo
 
 # Interface: IDataforseoLabsBingRelevantPagesLiveResultInfo
 
@@ -32,7 +32,7 @@ relevant pages and related data
 
 #### Defined in
 
-main.ts:106779
+[main.ts:106635](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L106635)
 
 ___
 
@@ -44,7 +44,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:106777
+[main.ts:106633](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L106633)
 
 ___
 
@@ -57,7 +57,7 @@ if there is no data, then the value is null
 
 #### Defined in
 
-main.ts:106773
+[main.ts:106629](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L106629)
 
 ___
 
@@ -70,7 +70,7 @@ if there is no data, then the value is null
 
 #### Defined in
 
-main.ts:106770
+[main.ts:106626](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L106626)
 
 ___
 
@@ -82,7 +82,7 @@ search engine type
 
 #### Defined in
 
-main.ts:106765
+[main.ts:106621](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L106621)
 
 ___
 
@@ -94,7 +94,7 @@ target domain in a POST array
 
 #### Defined in
 
-main.ts:106767
+[main.ts:106623](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L106623)
 
 ___
 
@@ -106,4 +106,4 @@ total amount of results in our database relevant to your request
 
 #### Defined in
 
-main.ts:106775
+[main.ts:106631](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L106631)

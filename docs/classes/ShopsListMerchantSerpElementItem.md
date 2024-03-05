@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / ShopsListMerchantSerpElementItem
+[dataforseo-client](../README.md) / [Exports](../modules.md) / ShopsListMerchantSerpElementItem
 
 # Class: ShopsListMerchantSerpElementItem
 
@@ -72,7 +72,7 @@
 
 #### Defined in
 
-main.ts:166616
+[main.ts:166496](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L166496)
 
 ## Properties
 
@@ -86,7 +86,7 @@ main.ts:166616
 
 #### Defined in
 
-main.ts:19988
+[main.ts:19988](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L19988)
 
 ___
 
@@ -102,7 +102,7 @@ product price without tax and shipping
 
 #### Defined in
 
-main.ts:166585
+[main.ts:166465](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L166465)
 
 ___
 
@@ -120,7 +120,7 @@ USD
 
 #### Defined in
 
-main.ts:166596
+[main.ts:166476](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L166476)
 
 ___
 
@@ -137,7 +137,7 @@ if there are no details, the value will be null
 
 #### Defined in
 
-main.ts:166583
+[main.ts:166463](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L166463)
 
 ___
 
@@ -153,7 +153,7 @@ domain in SERP
 
 #### Defined in
 
-main.ts:166575
+[main.ts:166455](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L166455)
 
 ___
 
@@ -171,7 +171,7 @@ left, right
 
 #### Defined in
 
-main.ts:166571
+[main.ts:166451](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L166451)
 
 ___
 
@@ -189,7 +189,7 @@ examples: LOW PRICE, SPECIAL OFFER, SALE, PRICE DROP
 
 #### Defined in
 
-main.ts:166612
+[main.ts:166492](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L166492)
 
 ___
 
@@ -206,7 +206,7 @@ possible values: Used, Refurbished, New, null
 
 #### Defined in
 
-main.ts:166608
+[main.ts:166488](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L166488)
 
 ___
 
@@ -223,7 +223,7 @@ absolute position among all the elements found in Google Shopping SERP
 
 #### Defined in
 
-main.ts:166567
+[main.ts:166447](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L166447)
 
 ___
 
@@ -240,7 +240,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-main.ts:166564
+[main.ts:166444](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L166444)
 
 ___
 
@@ -257,7 +257,7 @@ the shop popularity rate based on product reviews
 
 #### Defined in
 
-main.ts:166602
+[main.ts:166482](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L166482)
 
 ___
 
@@ -274,7 +274,7 @@ the name of the company that placed a corresponding product on Google Shopping
 
 #### Defined in
 
-main.ts:166599
+[main.ts:166479](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L166479)
 
 ___
 
@@ -290,7 +290,7 @@ product shipping price
 
 #### Defined in
 
-main.ts:166590
+[main.ts:166470](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L166470)
 
 ___
 
@@ -307,7 +307,7 @@ using this parameter you can get a URL of the advertisement in Google Shopping S
 
 #### Defined in
 
-main.ts:166605
+[main.ts:166485](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L166485)
 
 ___
 
@@ -324,7 +324,7 @@ tax is specified as the actual amount of money, not as the percentage
 
 #### Defined in
 
-main.ts:166588
+[main.ts:166468](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L166468)
 
 ___
 
@@ -340,7 +340,7 @@ product title
 
 #### Defined in
 
-main.ts:166577
+[main.ts:166457](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L166457)
 
 ___
 
@@ -356,7 +356,7 @@ product price including tax and shipping
 
 #### Defined in
 
-main.ts:166592
+[main.ts:166472](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L166472)
 
 ___
 
@@ -373,7 +373,7 @@ if you want to obtain a URL of the advertisement forwarding to the product page 
 
 #### Defined in
 
-main.ts:166580
+[main.ts:166460](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L166460)
 
 ___
 
@@ -389,7 +389,7 @@ XPath of the element
 
 #### Defined in
 
-main.ts:166573
+[main.ts:166453](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L166453)
 
 ## Methods
 
@@ -413,7 +413,7 @@ main.ts:166573
 
 #### Defined in
 
-main.ts:166621
+[main.ts:166501](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L166501)
 
 ___
 
@@ -437,7 +437,7 @@ ___
 
 #### Defined in
 
-main.ts:166656
+[main.ts:166536](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L166536)
 
 ___
 
@@ -461,4 +461,4 @@ ___
 
 #### Defined in
 
-main.ts:166649
+[main.ts:166529](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L166529)

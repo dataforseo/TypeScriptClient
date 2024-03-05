@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / CurrencyBoxSerpElementItem
+[dataforseo-client](../README.md) / [Exports](../modules.md) / CurrencyBoxSerpElementItem
 
 # Class: CurrencyBoxSerpElementItem
 
@@ -66,7 +66,7 @@
 
 #### Defined in
 
-main.ts:34348
+[main.ts:34206](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L34206)
 
 ## Properties
 
@@ -80,7 +80,7 @@ main.ts:34348
 
 #### Defined in
 
-main.ts:19337
+[main.ts:19337](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L19337)
 
 ___
 
@@ -96,7 +96,7 @@ converted currency
 
 #### Defined in
 
-main.ts:34330
+[main.ts:34188](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L34188)
 
 ___
 
@@ -114,7 +114,7 @@ note that exchange rates displayed in the currency_box element may be delayed ac
 
 #### Defined in
 
-main.ts:34325
+[main.ts:34183](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L34183)
 
 ___
 
@@ -131,7 +131,7 @@ ISO code of the currency applied to the price
 
 #### Defined in
 
-main.ts:34328
+[main.ts:34186](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L34186)
 
 ___
 
@@ -147,7 +147,7 @@ contains data provided in the graph of the element
 
 #### Defined in
 
-main.ts:34340
+[main.ts:34198](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L34198)
 
 ___
 
@@ -165,7 +165,7 @@ left, right
 
 #### Defined in
 
-main.ts:34317
+[main.ts:34175](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L34175)
 
 ___
 
@@ -182,7 +182,7 @@ absolute position among all the elements in SERP
 
 #### Defined in
 
-main.ts:34313
+[main.ts:34171](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L34171)
 
 ___
 
@@ -200,7 +200,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-main.ts:34310
+[main.ts:34168](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L34168)
 
 ___
 
@@ -218,7 +218,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 #### Defined in
 
-main.ts:34344
+[main.ts:34202](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L34202)
 
 ___
 
@@ -235,7 +235,7 @@ if there are none, equals null
 
 #### Defined in
 
-main.ts:34338
+[main.ts:34196](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L34196)
 
 ___
 
@@ -254,7 +254,7 @@ example:
 
 #### Defined in
 
-main.ts:34335
+[main.ts:34193](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L34193)
 
 ___
 
@@ -270,7 +270,7 @@ the value of the rating
 
 #### Defined in
 
-main.ts:34321
+[main.ts:34179](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L34179)
 
 ___
 
@@ -286,7 +286,7 @@ the XPath of the element
 
 #### Defined in
 
-main.ts:34319
+[main.ts:34177](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L34177)
 
 ## Methods
 
@@ -310,7 +310,7 @@ main.ts:34319
 
 #### Defined in
 
-main.ts:34353
+[main.ts:34211](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L34211)
 
 ___
 
@@ -334,7 +334,7 @@ ___
 
 #### Defined in
 
-main.ts:34382
+[main.ts:34240](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L34240)
 
 ___
 
@@ -358,4 +358,4 @@ ___
 
 #### Defined in
 
-main.ts:34375
+[main.ts:34233](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L34233)

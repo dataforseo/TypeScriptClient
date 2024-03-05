@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / DataforseoLabsErrorsRequestInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / DataforseoLabsErrorsRequestInfo
 
 # Class: DataforseoLabsErrorsRequestInfo
 
@@ -48,7 +48,7 @@
 
 #### Defined in
 
-main.ts:77176
+[main.ts:77032](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L77032)
 
 ## Properties
 
@@ -69,7 +69,7 @@ example:
 
 #### Defined in
 
-main.ts:77165
+[main.ts:77021](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L77021)
 
 ___
 
@@ -90,7 +90,7 @@ example:
 
 #### Defined in
 
-main.ts:77172
+[main.ts:77028](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L77028)
 
 ___
 
@@ -110,7 +110,7 @@ example: dataforseo_labs/related_keywords/live
 
 #### Defined in
 
-main.ts:77158
+[main.ts:77014](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L77014)
 
 ___
 
@@ -129,7 +129,7 @@ maximum value: 1000
 
 #### Defined in
 
-main.ts:77147
+[main.ts:77003](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L77003)
 
 ___
 
@@ -148,7 +148,7 @@ if you specify the 10 value, the first ten tasks in the results array will be om
 
 #### Defined in
 
-main.ts:77152
+[main.ts:77008](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L77008)
 
 ## Methods
 
@@ -168,7 +168,7 @@ main.ts:77152
 
 #### Defined in
 
-main.ts:77185
+[main.ts:77041](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L77041)
 
 ___
 
@@ -188,7 +188,7 @@ ___
 
 #### Defined in
 
-main.ts:77206
+[main.ts:77062](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L77062)
 
 ___
 
@@ -208,4 +208,4 @@ ___
 
 #### Defined in
 
-main.ts:77199
+[main.ts:77055](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L77055)

@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / ISearchIntentInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / ISearchIntentInfo
 
 # Interface: ISearchIntentInfo
 
@@ -30,7 +30,7 @@ possible values: informational, navigational, commercial, transactional
 
 #### Defined in
 
-main.ts:79764
+[main.ts:79620](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L79620)
 
 ___
 
@@ -45,7 +45,7 @@ example:
 
 #### Defined in
 
-main.ts:79769
+[main.ts:79625](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L79625)
 
 ___
 
@@ -58,7 +58,7 @@ possible values: informational, navigational, commercial, transactional
 
 #### Defined in
 
-main.ts:79761
+[main.ts:79617](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L79617)
 
 ___
 
@@ -71,4 +71,4 @@ possible values: google
 
 #### Defined in
 
-main.ts:79758
+[main.ts:79614](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L79614)

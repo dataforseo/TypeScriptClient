@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IDataforseoLabsBingDomainIntersectionLiveResultInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IDataforseoLabsBingDomainIntersectionLiveResultInfo
 
 # Interface: IDataforseoLabsBingDomainIntersectionLiveResultInfo
 
@@ -33,7 +33,7 @@ contains keywords, relevant SERP elements and related data
 
 #### Defined in
 
-main.ts:103951
+[main.ts:103807](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L103807)
 
 ___
 
@@ -45,7 +45,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:103949
+[main.ts:103805](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L103805)
 
 ___
 
@@ -57,7 +57,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:103945
+[main.ts:103801](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L103801)
 
 ___
 
@@ -69,7 +69,7 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:103943
+[main.ts:103799](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L103799)
 
 ___
 
@@ -83,7 +83,7 @@ for this endpoint, the field equals bing
 
 #### Defined in
 
-main.ts:103937
+[main.ts:103793](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L103793)
 
 ___
 
@@ -95,7 +95,7 @@ target specified in a POST array
 
 #### Defined in
 
-main.ts:103939
+[main.ts:103795](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L103795)
 
 ___
 
@@ -107,7 +107,7 @@ target specified in a POST array
 
 #### Defined in
 
-main.ts:103941
+[main.ts:103797](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L103797)
 
 ___
 
@@ -119,4 +119,4 @@ total amount of results in our database relevant to your request
 
 #### Defined in
 
-main.ts:103947
+[main.ts:103803](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L103803)

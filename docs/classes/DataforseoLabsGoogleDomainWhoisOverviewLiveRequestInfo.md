@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / DataforseoLabsGoogleDomainWhoisOverviewLiveRequestInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / DataforseoLabsGoogleDomainWhoisOverviewLiveRequestInfo
 
 # Class: DataforseoLabsGoogleDomainWhoisOverviewLiveRequestInfo
 
@@ -48,7 +48,7 @@
 
 #### Defined in
 
-main.ts:85673
+[main.ts:85529](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L85529)
 
 ## Properties
 
@@ -77,7 +77,7 @@ for more information about filters, please refer to Dataforseo Labs - Filters or
 
 #### Defined in
 
-main.ts:85647
+[main.ts:85503](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L85503)
 
 ___
 
@@ -96,7 +96,7 @@ maximum value: 1000
 
 #### Defined in
 
-main.ts:85627
+[main.ts:85483](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L85483)
 
 ___
 
@@ -115,7 +115,7 @@ if you specify the 10 value, the first ten items in the results array will be om
 
 #### Defined in
 
-main.ts:85632
+[main.ts:85488](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L85488)
 
 ___
 
@@ -145,7 +145,7 @@ example:
 
 #### Defined in
 
-main.ts:85663
+[main.ts:85519](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L85519)
 
 ___
 
@@ -165,7 +165,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:85669
+[main.ts:85525](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L85525)
 
 ## Methods
 
@@ -185,7 +185,7 @@ main.ts:85669
 
 #### Defined in
 
-main.ts:85682
+[main.ts:85538](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L85538)
 
 ___
 
@@ -205,7 +205,7 @@ ___
 
 #### Defined in
 
-main.ts:85711
+[main.ts:85567](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L85567)
 
 ___
 
@@ -225,4 +225,4 @@ ___
 
 #### Defined in
 
-main.ts:85704
+[main.ts:85560](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L85560)

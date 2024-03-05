@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IMerchantAmazonLocationsResultInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IMerchantAmazonLocationsResultInfo
 
 # Interface: IMerchantAmazonLocationsResultInfo
 
@@ -30,7 +30,7 @@ ISO country code of the location
 
 #### Defined in
 
-main.ts:169942
+[main.ts:169822](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L169822)
 
 ___
 
@@ -42,7 +42,7 @@ location code
 
 #### Defined in
 
-main.ts:169932
+[main.ts:169812](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L169812)
 
 ___
 
@@ -54,7 +54,7 @@ full name of the location
 
 #### Defined in
 
-main.ts:169934
+[main.ts:169814](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L169814)
 
 ___
 
@@ -70,7 +70,7 @@ example:
 
 #### Defined in
 
-main.ts:169940
+[main.ts:169820](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L169820)
 
 ___
 
@@ -82,4 +82,4 @@ location type
 
 #### Defined in
 
-main.ts:169944
+[main.ts:169824](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L169824)

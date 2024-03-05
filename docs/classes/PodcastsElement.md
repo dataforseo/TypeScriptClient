@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / PodcastsElement
+[dataforseo-client](../README.md) / [Exports](../modules.md) / PodcastsElement
 
 # Class: PodcastsElement
 
@@ -49,7 +49,7 @@
 
 #### Defined in
 
-main.ts:32317
+[main.ts:32175](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L32175)
 
 ## Properties
 
@@ -65,7 +65,7 @@ description of the results element in SERP
 
 #### Defined in
 
-main.ts:32306
+[main.ts:32164](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L32164)
 
 ___
 
@@ -81,7 +81,7 @@ the total time it will take to play an episode
 
 #### Defined in
 
-main.ts:32313
+[main.ts:32171](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L32171)
 
 ___
 
@@ -100,7 +100,7 @@ example:
 
 #### Defined in
 
-main.ts:32311
+[main.ts:32169](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L32169)
 
 ___
 
@@ -116,7 +116,7 @@ title of the row
 
 #### Defined in
 
-main.ts:32302
+[main.ts:32160](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L32160)
 
 ___
 
@@ -132,7 +132,7 @@ type of element
 
 #### Defined in
 
-main.ts:32300
+[main.ts:32158](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L32158)
 
 ___
 
@@ -148,7 +148,7 @@ URL
 
 #### Defined in
 
-main.ts:32304
+[main.ts:32162](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L32162)
 
 ## Methods
 
@@ -168,7 +168,7 @@ main.ts:32304
 
 #### Defined in
 
-main.ts:32326
+[main.ts:32184](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L32184)
 
 ___
 
@@ -188,7 +188,7 @@ ___
 
 #### Defined in
 
-main.ts:32348
+[main.ts:32206](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L32206)
 
 ___
 
@@ -208,4 +208,4 @@ ___
 
 #### Defined in
 
-main.ts:32341
+[main.ts:32199](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L32199)

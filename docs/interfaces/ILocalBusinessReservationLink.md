@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / ILocalBusinessReservationLink
+[dataforseo-client](../README.md) / [Exports](../modules.md) / ILocalBusinessReservationLink
 
 # Interface: ILocalBusinessReservationLink
 
@@ -34,7 +34,7 @@ domain of the reservation software
 
 #### Defined in
 
-main.ts:22457
+[main.ts:22315](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L22315)
 
 ___
 
@@ -46,4 +46,4 @@ URL to make a reservation
 
 #### Defined in
 
-main.ts:22459
+[main.ts:22317](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L22317)

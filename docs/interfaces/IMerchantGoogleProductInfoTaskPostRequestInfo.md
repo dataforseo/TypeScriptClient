@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IMerchantGoogleProductInfoTaskPostRequestInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IMerchantGoogleProductInfoTaskPostRequestInfo
 
 # Interface: IMerchantGoogleProductInfoTaskPostRequestInfo
 
@@ -42,7 +42,7 @@ en
 
 #### Defined in
 
-main.ts:168747
+[main.ts:168627](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L168627)
 
 ___
 
@@ -59,7 +59,7 @@ English
 
 #### Defined in
 
-main.ts:168740
+[main.ts:168620](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L168620)
 
 ___
 
@@ -76,7 +76,7 @@ example:
 
 #### Defined in
 
-main.ts:168724
+[main.ts:168604](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L168604)
 
 ___
 
@@ -95,7 +95,7 @@ example:
 
 #### Defined in
 
-main.ts:168733
+[main.ts:168613](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L168613)
 
 ___
 
@@ -112,7 +112,7 @@ London,England,United Kingdom
 
 #### Defined in
 
-main.ts:168717
+[main.ts:168597](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L168597)
 
 ___
 
@@ -132,7 +132,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-main.ts:168786
+[main.ts:168666](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L168666)
 
 ___
 
@@ -148,7 +148,7 @@ advanced, html
 
 #### Defined in
 
-main.ts:168776
+[main.ts:168656](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L168656)
 
 ___
 
@@ -168,7 +168,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-main.ts:168770
+[main.ts:168650](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L168650)
 
 ___
 
@@ -186,7 +186,7 @@ The cost can be calculated on the Pricing page.
 
 #### Defined in
 
-main.ts:168710
+[main.ts:168590](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L168590)
 
 ___
 
@@ -202,7 +202,7 @@ learn more about the parameter in this help center guide
 
 #### Defined in
 
-main.ts:168702
+[main.ts:168582](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L168582)
 
 ___
 
@@ -219,7 +219,7 @@ google.co.uk, google.com.au, google.de, etc.
 
 #### Defined in
 
-main.ts:168754
+[main.ts:168634](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L168634)
 
 ___
 
@@ -235,4 +235,4 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:168760
+[main.ts:168640](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L168640)

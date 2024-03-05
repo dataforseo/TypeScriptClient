@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IMentionCarouselElement
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IMentionCarouselElement
 
 # Interface: IMentionCarouselElement
 
@@ -30,7 +30,7 @@ additional elements in the mention_carousel item
 
 #### Defined in
 
-main.ts:30997
+[main.ts:30855](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L30855)
 
 ___
 
@@ -42,7 +42,7 @@ price of booking a place for the specified dates of stay
 
 #### Defined in
 
-main.ts:30992
+[main.ts:30850](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L30850)
 
 ___
 
@@ -55,7 +55,7 @@ the popularity rate based on reviews and displayed in SERP
 
 #### Defined in
 
-main.ts:30995
+[main.ts:30853](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L30853)
 
 ___
 
@@ -67,7 +67,7 @@ title of the row
 
 #### Defined in
 
-main.ts:30990
+[main.ts:30848](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L30848)
 
 ___
 
@@ -79,4 +79,4 @@ type of element
 
 #### Defined in
 
-main.ts:30988
+[main.ts:30846](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L30846)

@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IMerchantAmazonReviewsTaskGetHtmlResultInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IMerchantAmazonReviewsTaskGetHtmlResultInfo
 
 # Interface: IMerchantAmazonReviewsTaskGetHtmlResultInfo
 
@@ -36,7 +36,7 @@ example:
 
 #### Defined in
 
-main.ts:176277
+[main.ts:176157](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L176157)
 
 ___
 
@@ -48,7 +48,7 @@ HTML pages and related data
 
 #### Defined in
 
-main.ts:176281
+[main.ts:176161](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L176161)
 
 ___
 
@@ -60,7 +60,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:176279
+[main.ts:176159](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L176159)
 
 ___
 
@@ -72,7 +72,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:176272
+[main.ts:176152](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L176152)
 
 ___
 
@@ -84,7 +84,7 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:176270
+[main.ts:176150](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L176150)
 
 ___
 
@@ -96,7 +96,7 @@ ASIN received in a POST array
 
 #### Defined in
 
-main.ts:176264
+[main.ts:176144](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L176144)
 
 ___
 
@@ -108,7 +108,7 @@ search engine domain in a POST array
 
 #### Defined in
 
-main.ts:176268
+[main.ts:176148](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L176148)
 
 ___
 
@@ -120,4 +120,4 @@ type of element
 
 #### Defined in
 
-main.ts:176266
+[main.ts:176146](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L176146)

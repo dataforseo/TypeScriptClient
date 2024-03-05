@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IDataforseoLabsGoogleBulkTrafficEstimationLiveRequestInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IDataforseoLabsGoogleBulkTrafficEstimationLiveRequestInfo
 
 # Interface: IDataforseoLabsGoogleBulkTrafficEstimationLiveRequestInfo
 
@@ -39,7 +39,7 @@ default value:
 
 #### Defined in
 
-main.ts:97761
+[main.ts:97617](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L97617)
 
 ___
 
@@ -57,7 +57,7 @@ en
 
 #### Defined in
 
-main.ts:97752
+[main.ts:97608](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L97608)
 
 ___
 
@@ -75,7 +75,7 @@ English
 
 #### Defined in
 
-main.ts:97744
+[main.ts:97600](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L97600)
 
 ___
 
@@ -93,7 +93,7 @@ example:
 
 #### Defined in
 
-main.ts:97736
+[main.ts:97592](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L97592)
 
 ___
 
@@ -111,7 +111,7 @@ United Kingdom
 
 #### Defined in
 
-main.ts:97728
+[main.ts:97584](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L97584)
 
 ___
 
@@ -127,7 +127,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:97767
+[main.ts:97623](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L97623)
 
 ___
 
@@ -144,4 +144,4 @@ you can set up to 1000 domains, subdomains or webpages
 
 #### Defined in
 
-main.ts:97720
+[main.ts:97576](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L97576)

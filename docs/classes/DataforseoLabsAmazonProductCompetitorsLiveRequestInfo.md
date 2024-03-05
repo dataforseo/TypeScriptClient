@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / DataforseoLabsAmazonProductCompetitorsLiveRequestInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / DataforseoLabsAmazonProductCompetitorsLiveRequestInfo
 
 # Class: DataforseoLabsAmazonProductCompetitorsLiveRequestInfo
 
@@ -53,7 +53,7 @@
 
 #### Defined in
 
-main.ts:101198
+[main.ts:101054](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L101054)
 
 ## Properties
 
@@ -72,7 +72,7 @@ you can receive the asin parameter by making a separate request to the Amazon Pr
 
 #### Defined in
 
-main.ts:101121
+[main.ts:100977](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L100977)
 
 ___
 
@@ -97,7 +97,7 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 #### Defined in
 
-main.ts:101167
+[main.ts:101023](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L101023)
 
 ___
 
@@ -118,7 +118,7 @@ en
 
 #### Defined in
 
-main.ts:101151
+[main.ts:101007](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L101007)
 
 ___
 
@@ -139,7 +139,7 @@ English
 
 #### Defined in
 
-main.ts:101144
+[main.ts:101000](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L101000)
 
 ___
 
@@ -158,7 +158,7 @@ maximum value: 1000
 
 #### Defined in
 
-main.ts:101156
+[main.ts:101012](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L101012)
 
 ___
 
@@ -180,7 +180,7 @@ example:
 
 #### Defined in
 
-main.ts:101137
+[main.ts:100993](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L100993)
 
 ___
 
@@ -202,7 +202,7 @@ United States
 
 #### Defined in
 
-main.ts:101129
+[main.ts:100985](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L100985)
 
 ___
 
@@ -221,7 +221,7 @@ if you specify the 10 value, the first ten product competitors in the results ar
 
 #### Defined in
 
-main.ts:101188
+[main.ts:101044](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L101044)
 
 ___
 
@@ -251,7 +251,7 @@ default rule:
 
 #### Defined in
 
-main.ts:101183
+[main.ts:101039](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L101039)
 
 ___
 
@@ -271,7 +271,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:101194
+[main.ts:101050](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L101050)
 
 ## Methods
 
@@ -291,7 +291,7 @@ main.ts:101194
 
 #### Defined in
 
-main.ts:101207
+[main.ts:101063](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L101063)
 
 ___
 
@@ -311,7 +311,7 @@ ___
 
 #### Defined in
 
-main.ts:101241
+[main.ts:101097](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L101097)
 
 ___
 
@@ -331,4 +331,4 @@ ___
 
 #### Defined in
 
-main.ts:101234
+[main.ts:101090](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L101090)

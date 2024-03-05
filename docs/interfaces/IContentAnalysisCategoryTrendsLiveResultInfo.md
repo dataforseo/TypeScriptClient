@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IContentAnalysisCategoryTrendsLiveResultInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IContentAnalysisCategoryTrendsLiveResultInfo
 
 # Interface: IContentAnalysisCategoryTrendsLiveResultInfo
 
@@ -43,7 +43,7 @@ possible connotation types: "positive", "negative", "neutral"
 
 #### Defined in
 
-main.ts:159729
+[main.ts:159609](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L159609)
 
 ___
 
@@ -61,7 +61,7 @@ to obtain a full list of available countries, refer to the Locations endpoint
 
 #### Defined in
 
-main.ts:159744
+[main.ts:159624](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L159624)
 
 ___
 
@@ -73,7 +73,7 @@ date for which the data is provided
 
 #### Defined in
 
-main.ts:159713
+[main.ts:159593](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L159593)
 
 ___
 
@@ -91,7 +91,7 @@ to obtain a full list of available languages, refer to the Languages endpoint
 
 #### Defined in
 
-main.ts:159748
+[main.ts:159628](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L159628)
 
 ___
 
@@ -105,7 +105,7 @@ to obtain a full list of available categories, refer to the Categories endpoint
 
 #### Defined in
 
-main.ts:159737
+[main.ts:159617](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L159617)
 
 ___
 
@@ -122,7 +122,7 @@ contains page types and citation count per each page type
 
 #### Defined in
 
-main.ts:159740
+[main.ts:159620](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L159620)
 
 ___
 
@@ -135,7 +135,7 @@ normalized sum of ranks of all URLs citing the target keyword for the given date
 
 #### Defined in
 
-main.ts:159718
+[main.ts:159598](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L159598)
 
 ___
 
@@ -153,7 +153,7 @@ possible connotations: "anger", "fear", "happiness", "love", "sadness", "share",
 
 #### Defined in
 
-main.ts:159725
+[main.ts:159605](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L159605)
 
 ___
 
@@ -167,7 +167,7 @@ to obtain a full list of available categories, refer to the Categories endpoint
 
 #### Defined in
 
-main.ts:159733
+[main.ts:159613](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L159613)
 
 ___
 
@@ -180,7 +180,7 @@ contains objects with top domains citing the target category and citation count 
 
 #### Defined in
 
-main.ts:159721
+[main.ts:159601](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L159601)
 
 ___
 
@@ -192,7 +192,7 @@ total number of results in our database relevant to your request
 
 #### Defined in
 
-main.ts:159715
+[main.ts:159595](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L159595)
 
 ___
 
@@ -204,4 +204,4 @@ type of element
 
 #### Defined in
 
-main.ts:159711
+[main.ts:159591](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L159591)

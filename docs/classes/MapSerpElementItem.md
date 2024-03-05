@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / MapSerpElementItem
+[dataforseo-client](../README.md) / [Exports](../modules.md) / MapSerpElementItem
 
 # Class: MapSerpElementItem
 
@@ -61,7 +61,7 @@
 
 #### Defined in
 
-main.ts:29675
+[main.ts:29533](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L29533)
 
 ## Properties
 
@@ -75,7 +75,7 @@ main.ts:29675
 
 #### Defined in
 
-main.ts:19337
+[main.ts:19337](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L19337)
 
 ___
 
@@ -93,7 +93,7 @@ left, right
 
 #### Defined in
 
-main.ts:29661
+[main.ts:29519](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L29519)
 
 ___
 
@@ -110,7 +110,7 @@ absolute position among all the elements in SERP
 
 #### Defined in
 
-main.ts:29657
+[main.ts:29515](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L29515)
 
 ___
 
@@ -128,7 +128,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-main.ts:29654
+[main.ts:29512](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L29512)
 
 ___
 
@@ -146,7 +146,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 #### Defined in
 
-main.ts:29671
+[main.ts:29529](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L29529)
 
 ___
 
@@ -162,7 +162,7 @@ title of a given link element
 
 #### Defined in
 
-main.ts:29665
+[main.ts:29523](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L29523)
 
 ___
 
@@ -178,7 +178,7 @@ URL
 
 #### Defined in
 
-main.ts:29667
+[main.ts:29525](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L29525)
 
 ___
 
@@ -194,7 +194,7 @@ the XPath of the element
 
 #### Defined in
 
-main.ts:29663
+[main.ts:29521](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L29521)
 
 ## Methods
 
@@ -218,7 +218,7 @@ main.ts:29663
 
 #### Defined in
 
-main.ts:29680
+[main.ts:29538](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L29538)
 
 ___
 
@@ -242,7 +242,7 @@ ___
 
 #### Defined in
 
-main.ts:29704
+[main.ts:29562](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L29562)
 
 ___
 
@@ -266,4 +266,4 @@ ___
 
 #### Defined in
 
-main.ts:29697
+[main.ts:29555](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L29555)

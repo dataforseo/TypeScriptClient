@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IDataforseoLabsGoogleKeywordsForCategoriesLiveResultInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IDataforseoLabsGoogleKeywordsForCategoriesLiveResultInfo
 
 # Interface: IDataforseoLabsGoogleKeywordsForCategoriesLiveResultInfo
 
@@ -34,7 +34,7 @@ contains keyword ideas and related data
 
 #### Defined in
 
-main.ts:84263
+[main.ts:84119](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L84119)
 
 ___
 
@@ -46,7 +46,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:84255
+[main.ts:84111](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L84111)
 
 ___
 
@@ -58,7 +58,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:84251
+[main.ts:84107](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L84107)
 
 ___
 
@@ -70,7 +70,7 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:84249
+[main.ts:84105](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L84105)
 
 ___
 
@@ -82,7 +82,7 @@ current offset value
 
 #### Defined in
 
-main.ts:84257
+[main.ts:84113](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L84113)
 
 ___
 
@@ -96,7 +96,7 @@ note: offset_token values are unique for each subsequent task
 
 #### Defined in
 
-main.ts:84261
+[main.ts:84117](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L84117)
 
 ___
 
@@ -108,7 +108,7 @@ search engine type
 
 #### Defined in
 
-main.ts:84245
+[main.ts:84101](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L84101)
 
 ___
 
@@ -120,7 +120,7 @@ categories in a POST array
 
 #### Defined in
 
-main.ts:84247
+[main.ts:84103](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L84103)
 
 ___
 
@@ -132,4 +132,4 @@ the total amount of results in our database relevant to your request
 
 #### Defined in
 
-main.ts:84253
+[main.ts:84109](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L84109)

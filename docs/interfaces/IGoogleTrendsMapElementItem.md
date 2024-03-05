@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IGoogleTrendsMapElementItem
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IGoogleTrendsMapElementItem
 
 # Interface: IGoogleTrendsMapElementItem
 
@@ -35,7 +35,7 @@ Google Trends data from the corresponding item
 
 #### Defined in
 
-main.ts:120902
+[main.ts:120758](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L120758)
 
 ___
 
@@ -48,7 +48,7 @@ the data included in the google_trends_map element is based on the keywords list
 
 #### Defined in
 
-main.ts:120900
+[main.ts:120756](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L120756)
 
 ___
 
@@ -61,7 +61,7 @@ can take the following values: 1, 2, 3, 4, etc.
 
 #### Defined in
 
-main.ts:120895
+[main.ts:120751](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L120751)
 
 ___
 
@@ -73,4 +73,4 @@ title of the element in Google Trends
 
 #### Defined in
 
-main.ts:120897
+[main.ts:120753](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L120753)

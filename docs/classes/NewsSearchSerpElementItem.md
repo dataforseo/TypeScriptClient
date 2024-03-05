@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / NewsSearchSerpElementItem
+[dataforseo-client](../README.md) / [Exports](../modules.md) / NewsSearchSerpElementItem
 
 # Class: NewsSearchSerpElementItem
 
@@ -65,7 +65,7 @@
 
 #### Defined in
 
-main.ts:42665
+[main.ts:42523](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L42523)
 
 ## Properties
 
@@ -79,7 +79,7 @@ main.ts:42665
 
 #### Defined in
 
-main.ts:19337
+[main.ts:19337](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L19337)
 
 ___
 
@@ -95,7 +95,7 @@ domain name of the result in SERP
 
 #### Defined in
 
-main.ts:42641
+[main.ts:42499](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L42499)
 
 ___
 
@@ -112,7 +112,7 @@ the URL leading to the image on the original resource or DataForSEO storage (in 
 
 #### Defined in
 
-main.ts:42648
+[main.ts:42506](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L42506)
 
 ___
 
@@ -129,7 +129,7 @@ absolute position among all the elements in SERP
 
 #### Defined in
 
-main.ts:42637
+[main.ts:42495](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L42495)
 
 ___
 
@@ -147,7 +147,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-main.ts:42634
+[main.ts:42492](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L42492)
 
 ___
 
@@ -165,7 +165,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 #### Defined in
 
-main.ts:42661
+[main.ts:42519](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L42519)
 
 ___
 
@@ -181,7 +181,7 @@ snippet of the result in SERP
 
 #### Defined in
 
-main.ts:42650
+[main.ts:42508](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L42508)
 
 ___
 
@@ -197,7 +197,7 @@ indicates the time the result was published
 
 #### Defined in
 
-main.ts:42652
+[main.ts:42510](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L42510)
 
 ___
 
@@ -216,7 +216,7 @@ example:
 
 #### Defined in
 
-main.ts:42657
+[main.ts:42515](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L42515)
 
 ___
 
@@ -232,7 +232,7 @@ title of the result in SERP
 
 #### Defined in
 
-main.ts:42643
+[main.ts:42501](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L42501)
 
 ___
 
@@ -248,7 +248,7 @@ URL of the result in SERP
 
 #### Defined in
 
-main.ts:42645
+[main.ts:42503](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L42503)
 
 ___
 
@@ -264,7 +264,7 @@ the XPath of the element
 
 #### Defined in
 
-main.ts:42639
+[main.ts:42497](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L42497)
 
 ## Methods
 
@@ -288,7 +288,7 @@ main.ts:42639
 
 #### Defined in
 
-main.ts:42670
+[main.ts:42528](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L42528)
 
 ___
 
@@ -312,7 +312,7 @@ ___
 
 #### Defined in
 
-main.ts:42698
+[main.ts:42556](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L42556)
 
 ___
 
@@ -336,4 +336,4 @@ ___
 
 #### Defined in
 
-main.ts:42691
+[main.ts:42549](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L42549)

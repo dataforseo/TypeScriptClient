@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / ProductInformationRows
+[dataforseo-client](../README.md) / [Exports](../modules.md) / ProductInformationRows
 
 # Class: ProductInformationRows
 
@@ -46,7 +46,7 @@
 
 #### Defined in
 
-main.ts:172786
+[main.ts:172666](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L172666)
 
 ## Properties
 
@@ -62,7 +62,7 @@ rows containing related product information
 
 #### Defined in
 
-main.ts:172782
+[main.ts:172662](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L172662)
 
 ___
 
@@ -78,7 +78,7 @@ title under which related product information appears on the Amazon product page
 
 #### Defined in
 
-main.ts:172780
+[main.ts:172660](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L172660)
 
 ___
 
@@ -94,7 +94,7 @@ type of element
 
 #### Defined in
 
-main.ts:172778
+[main.ts:172658](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L172658)
 
 ## Methods
 
@@ -114,7 +114,7 @@ main.ts:172778
 
 #### Defined in
 
-main.ts:172795
+[main.ts:172675](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L172675)
 
 ___
 
@@ -134,7 +134,7 @@ ___
 
 #### Defined in
 
-main.ts:172818
+[main.ts:172698](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L172698)
 
 ___
 
@@ -154,4 +154,4 @@ ___
 
 #### Defined in
 
-main.ts:172811
+[main.ts:172691](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L172691)

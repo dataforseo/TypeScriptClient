@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / ISerpAiSummaryRequestInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / ISerpAiSummaryRequestInfo
 
 # Interface: ISerpAiSummaryRequestInfo
 
@@ -33,7 +33,7 @@ default value: false
 
 #### Defined in
 
-main.ts:23964
+[main.ts:23822](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L23822)
 
 ___
 
@@ -48,7 +48,7 @@ default value: false
 
 #### Defined in
 
-main.ts:23969
+[main.ts:23827](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L23827)
 
 ___
 
@@ -64,7 +64,7 @@ note: your prompt has to be relevant to the keyword specified in the POST reques
 
 #### Defined in
 
-main.ts:23954
+[main.ts:23812](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L23812)
 
 ___
 
@@ -79,7 +79,7 @@ default value: true
 
 #### Defined in
 
-main.ts:23959
+[main.ts:23817](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L23817)
 
 ___
 
@@ -94,4 +94,4 @@ you will be able to use it within 30 days to request the results of the task at 
 
 #### Defined in
 
-main.ts:23948
+[main.ts:23806](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L23806)

@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / KeywordsDataBingKeywordsForSiteLiveRequestInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / KeywordsDataBingKeywordsForSiteLiveRequestInfo
 
 # Class: KeywordsDataBingKeywordsForSiteLiveRequestInfo
 
@@ -56,7 +56,7 @@
 
 #### Defined in
 
-main.ts:124693
+[main.ts:124549](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L124549)
 
 ## Properties
 
@@ -77,7 +77,7 @@ example:
 
 #### Defined in
 
-main.ts:124663
+[main.ts:124519](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L124519)
 
 ___
 
@@ -101,7 +101,7 @@ example:
 
 #### Defined in
 
-main.ts:124673
+[main.ts:124529](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L124529)
 
 ___
 
@@ -120,7 +120,7 @@ default value: all
 
 #### Defined in
 
-main.ts:124656
+[main.ts:124512](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L124512)
 
 ___
 
@@ -140,7 +140,7 @@ the specified keywords will be converted to lowercase format
 
 #### Defined in
 
-main.ts:124651
+[main.ts:124507](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L124507)
 
 ___
 
@@ -160,7 +160,7 @@ en, fr, de
 
 #### Defined in
 
-main.ts:124645
+[main.ts:124501](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L124501)
 
 ___
 
@@ -180,7 +180,7 @@ English, French, German
 
 #### Defined in
 
-main.ts:124639
+[main.ts:124495](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L124495)
 
 ___
 
@@ -201,7 +201,7 @@ example:
 
 #### Defined in
 
-main.ts:124625
+[main.ts:124481](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L124481)
 
 ___
 
@@ -223,7 +223,7 @@ example:
 
 #### Defined in
 
-main.ts:124633
+[main.ts:124489](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L124489)
 
 ___
 
@@ -244,7 +244,7 @@ London,England,United Kingdom
 
 #### Defined in
 
-main.ts:124618
+[main.ts:124474](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L124474)
 
 ___
 
@@ -263,7 +263,7 @@ default value: false – results are returned for Bing, AOL, and Yahoo search ne
 
 #### Defined in
 
-main.ts:124683
+[main.ts:124539](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L124539)
 
 ___
 
@@ -282,7 +282,7 @@ default value: relevance
 
 #### Defined in
 
-main.ts:124678
+[main.ts:124534](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L124534)
 
 ___
 
@@ -302,7 +302,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:124689
+[main.ts:124545](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L124545)
 
 ___
 
@@ -320,7 +320,7 @@ the domain name or URL of the target website
 
 #### Defined in
 
-main.ts:124611
+[main.ts:124467](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L124467)
 
 ## Methods
 
@@ -340,7 +340,7 @@ main.ts:124611
 
 #### Defined in
 
-main.ts:124702
+[main.ts:124558](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L124558)
 
 ___
 
@@ -360,7 +360,7 @@ ___
 
 #### Defined in
 
-main.ts:124735
+[main.ts:124591](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L124591)
 
 ___
 
@@ -380,4 +380,4 @@ ___
 
 #### Defined in
 
-main.ts:124728
+[main.ts:124584](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L124584)

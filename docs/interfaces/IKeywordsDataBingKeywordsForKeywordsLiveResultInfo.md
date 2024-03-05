@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IKeywordsDataBingKeywordsForKeywordsLiveResultInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IKeywordsDataBingKeywordsForKeywordsLiveResultInfo
 
 # Interface: IKeywordsDataBingKeywordsForKeywordsLiveResultInfo
 
@@ -36,7 +36,7 @@ legacy field, the value will always be null
 
 #### Defined in
 
-main.ts:126360
+[main.ts:126216](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L126216)
 
 ___
 
@@ -53,7 +53,7 @@ if there is no data the value is null
 
 #### Defined in
 
-main.ts:126349
+[main.ts:126205](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L126205)
 
 ___
 
@@ -67,7 +67,7 @@ if there is no data, then the value is null
 
 #### Defined in
 
-main.ts:126353
+[main.ts:126209](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L126209)
 
 ___
 
@@ -81,7 +81,7 @@ possible values: all, mobile, desktop, tablet
 
 #### Defined in
 
-main.ts:126342
+[main.ts:126198](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L126198)
 
 ___
 
@@ -93,7 +93,7 @@ keyword in a POST array
 
 #### Defined in
 
-main.ts:126330
+[main.ts:126186](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L126186)
 
 ___
 
@@ -106,7 +106,7 @@ if there is no data, then the value is null
 
 #### Defined in
 
-main.ts:126336
+[main.ts:126192](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L126192)
 
 ___
 
@@ -119,7 +119,7 @@ if there is no data, then the value is null
 
 #### Defined in
 
-main.ts:126333
+[main.ts:126189](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L126189)
 
 ___
 
@@ -133,7 +133,7 @@ if there is no data, then the value is null
 
 #### Defined in
 
-main.ts:126364
+[main.ts:126220](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L126220)
 
 ___
 
@@ -145,7 +145,7 @@ indicates whether data from partner networks is included in the response
 
 #### Defined in
 
-main.ts:126338
+[main.ts:126194](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L126194)
 
 ___
 
@@ -159,4 +159,4 @@ if there is no data, then the value is null
 
 #### Defined in
 
-main.ts:126357
+[main.ts:126213](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L126213)

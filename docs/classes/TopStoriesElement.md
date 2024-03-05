@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / TopStoriesElement
+[dataforseo-client](../README.md) / [Exports](../modules.md) / TopStoriesElement
 
 # Class: TopStoriesElement
 
@@ -51,7 +51,7 @@
 
 #### Defined in
 
-main.ts:28335
+[main.ts:28193](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L28193)
 
 ## Properties
 
@@ -68,7 +68,7 @@ indicates whether an item has the Accelerated Mobile Page (AMP) version
 
 #### Defined in
 
-main.ts:28324
+[main.ts:28182](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L28182)
 
 ___
 
@@ -84,7 +84,7 @@ the date when the page source of the element was published
 
 #### Defined in
 
-main.ts:28321
+[main.ts:28179](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L28179)
 
 ___
 
@@ -100,7 +100,7 @@ domain where a link points
 
 #### Defined in
 
-main.ts:28317
+[main.ts:28175](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L28175)
 
 ___
 
@@ -117,7 +117,7 @@ indicates the source of information included in the element
 
 #### Defined in
 
-main.ts:28315
+[main.ts:28173](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L28173)
 
 ___
 
@@ -136,7 +136,7 @@ example:
 
 #### Defined in
 
-main.ts:28329
+[main.ts:28187](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L28187)
 
 ___
 
@@ -152,7 +152,7 @@ title of the row
 
 #### Defined in
 
-main.ts:28319
+[main.ts:28177](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L28177)
 
 ___
 
@@ -168,7 +168,7 @@ type of element
 
 #### Defined in
 
-main.ts:28312
+[main.ts:28170](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L28170)
 
 ___
 
@@ -184,7 +184,7 @@ URL
 
 #### Defined in
 
-main.ts:28331
+[main.ts:28189](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L28189)
 
 ## Methods
 
@@ -204,7 +204,7 @@ main.ts:28331
 
 #### Defined in
 
-main.ts:28344
+[main.ts:28202](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L28202)
 
 ___
 
@@ -224,7 +224,7 @@ ___
 
 #### Defined in
 
-main.ts:28368
+[main.ts:28226](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L28226)
 
 ___
 
@@ -244,4 +244,4 @@ ___
 
 #### Defined in
 
-main.ts:28361
+[main.ts:28219](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L28219)

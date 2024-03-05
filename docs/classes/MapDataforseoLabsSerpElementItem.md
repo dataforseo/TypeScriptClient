@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / MapDataforseoLabsSerpElementItem
+[dataforseo-client](../README.md) / [Exports](../modules.md) / MapDataforseoLabsSerpElementItem
 
 # Class: MapDataforseoLabsSerpElementItem
 
@@ -60,7 +60,7 @@
 
 #### Defined in
 
-main.ts:93171
+[main.ts:93027](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L93027)
 
 ## Properties
 
@@ -74,7 +74,7 @@ main.ts:93171
 
 #### Defined in
 
-main.ts:19715
+[main.ts:19715](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L19715)
 
 ___
 
@@ -92,7 +92,7 @@ left, right
 
 #### Defined in
 
-main.ts:93161
+[main.ts:93017](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L93017)
 
 ___
 
@@ -109,7 +109,7 @@ absolute position among all the elements in SERP
 
 #### Defined in
 
-main.ts:93157
+[main.ts:93013](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L93013)
 
 ___
 
@@ -126,7 +126,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-main.ts:93154
+[main.ts:93010](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L93010)
 
 ___
 
@@ -142,7 +142,7 @@ title of the result in SERP
 
 #### Defined in
 
-main.ts:93165
+[main.ts:93021](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L93021)
 
 ___
 
@@ -158,7 +158,7 @@ URL link
 
 #### Defined in
 
-main.ts:93167
+[main.ts:93023](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L93023)
 
 ___
 
@@ -174,7 +174,7 @@ the XPath of the element
 
 #### Defined in
 
-main.ts:93163
+[main.ts:93019](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L93019)
 
 ## Methods
 
@@ -198,7 +198,7 @@ main.ts:93163
 
 #### Defined in
 
-main.ts:93176
+[main.ts:93032](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L93032)
 
 ___
 
@@ -222,7 +222,7 @@ ___
 
 #### Defined in
 
-main.ts:93199
+[main.ts:93055](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L93055)
 
 ___
 
@@ -246,4 +246,4 @@ ___
 
 #### Defined in
 
-main.ts:93192
+[main.ts:93048](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L93048)

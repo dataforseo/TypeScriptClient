@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / OnPagePagesByResourceRequestInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / OnPagePagesByResourceRequestInfo
 
 # Class: OnPagePagesByResourceRequestInfo
 
@@ -50,7 +50,7 @@
 
 #### Defined in
 
-main.ts:145533
+[main.ts:145389](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L145389)
 
 ## Properties
 
@@ -78,7 +78,7 @@ The full list of possible filters is available by this link.
 
 #### Defined in
 
-main.ts:145509
+[main.ts:145365](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L145365)
 
 ___
 
@@ -98,7 +98,7 @@ example:
 
 #### Defined in
 
-main.ts:145479
+[main.ts:145335](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L145335)
 
 ___
 
@@ -117,7 +117,7 @@ maximum value: 1000
 
 #### Defined in
 
-main.ts:145490
+[main.ts:145346](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L145346)
 
 ___
 
@@ -136,7 +136,7 @@ if you specify the 10 value, the first ten pages in the results array will be om
 
 #### Defined in
 
-main.ts:145495
+[main.ts:145351](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L145351)
 
 ___
 
@@ -164,7 +164,7 @@ example:
 
 #### Defined in
 
-main.ts:145523
+[main.ts:145379](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L145379)
 
 ___
 
@@ -184,7 +184,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:145529
+[main.ts:145385](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L145385)
 
 ___
 
@@ -204,7 +204,7 @@ https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js
 
 #### Defined in
 
-main.ts:145485
+[main.ts:145341](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L145341)
 
 ## Methods
 
@@ -224,7 +224,7 @@ main.ts:145485
 
 #### Defined in
 
-main.ts:145542
+[main.ts:145398](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L145398)
 
 ___
 
@@ -244,7 +244,7 @@ ___
 
 #### Defined in
 
-main.ts:145573
+[main.ts:145429](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L145429)
 
 ___
 
@@ -264,4 +264,4 @@ ___
 
 #### Defined in
 
-main.ts:145566
+[main.ts:145422](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L145422)

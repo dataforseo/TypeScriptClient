@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / CarouselElement
+[dataforseo-client](../README.md) / [Exports](../modules.md) / CarouselElement
 
 # Class: CarouselElement
 
@@ -47,7 +47,7 @@
 
 #### Defined in
 
-main.ts:30070
+[main.ts:29928](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L29928)
 
 ## Properties
 
@@ -63,7 +63,7 @@ URL of the image
 
 #### Defined in
 
-main.ts:30066
+[main.ts:29924](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L29924)
 
 ___
 
@@ -79,7 +79,7 @@ subtitle of the element
 
 #### Defined in
 
-main.ts:30064
+[main.ts:29922](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L29922)
 
 ___
 
@@ -95,7 +95,7 @@ title of the row
 
 #### Defined in
 
-main.ts:30062
+[main.ts:29920](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L29920)
 
 ___
 
@@ -111,7 +111,7 @@ type of element
 
 #### Defined in
 
-main.ts:30060
+[main.ts:29918](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L29918)
 
 ## Methods
 
@@ -131,7 +131,7 @@ main.ts:30060
 
 #### Defined in
 
-main.ts:30079
+[main.ts:29937](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L29937)
 
 ___
 
@@ -151,7 +151,7 @@ ___
 
 #### Defined in
 
-main.ts:30099
+[main.ts:29957](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L29957)
 
 ___
 
@@ -171,4 +171,4 @@ ___
 
 #### Defined in
 
-main.ts:30092
+[main.ts:29950](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L29950)

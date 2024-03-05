@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IMicrodataInspectionInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IMicrodataInspectionInfo
 
 # Interface: IMicrodataInspectionInfo
 
@@ -28,7 +28,7 @@ an array of objects containing data fields related to the certain microdata type
 
 #### Defined in
 
-main.ts:151022
+[main.ts:150878](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L150878)
 
 ___
 
@@ -41,4 +41,4 @@ for a full list of available types, please visit schema.org
 
 #### Defined in
 
-main.ts:151019
+[main.ts:150875](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L150875)

@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / YoutubeSubtitlesSerpElementItem
+[dataforseo-client](../README.md) / [Exports](../modules.md) / YoutubeSubtitlesSerpElementItem
 
 # Class: YoutubeSubtitlesSerpElementItem
 
@@ -60,7 +60,7 @@
 
 #### Defined in
 
-main.ts:60381
+[main.ts:60237](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L60237)
 
 ## Properties
 
@@ -74,7 +74,7 @@ main.ts:60381
 
 #### Defined in
 
-main.ts:19337
+[main.ts:19337](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L19337)
 
 ___
 
@@ -90,7 +90,7 @@ duration of subtitles in seconds
 
 #### Defined in
 
-main.ts:60377
+[main.ts:60233](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L60233)
 
 ___
 
@@ -106,7 +106,7 @@ the second subtitled text ends
 
 #### Defined in
 
-main.ts:60375
+[main.ts:60231](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L60231)
 
 ___
 
@@ -123,7 +123,7 @@ absolute position among all the elements in SERP
 
 #### Defined in
 
-main.ts:60369
+[main.ts:60225](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L60225)
 
 ___
 
@@ -141,7 +141,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-main.ts:60366
+[main.ts:60222](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L60222)
 
 ___
 
@@ -157,7 +157,7 @@ the second subtitled text starts
 
 #### Defined in
 
-main.ts:60373
+[main.ts:60229](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L60229)
 
 ___
 
@@ -173,7 +173,7 @@ text translated in subtitles
 
 #### Defined in
 
-main.ts:60371
+[main.ts:60227](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L60227)
 
 ## Methods
 
@@ -197,7 +197,7 @@ main.ts:60371
 
 #### Defined in
 
-main.ts:60386
+[main.ts:60242](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L60242)
 
 ___
 
@@ -221,7 +221,7 @@ ___
 
 #### Defined in
 
-main.ts:60409
+[main.ts:60265](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L60265)
 
 ___
 
@@ -245,4 +245,4 @@ ___
 
 #### Defined in
 
-main.ts:60402
+[main.ts:60258](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L60258)

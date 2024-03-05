@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IDataforseoLabsGoogleHistoricalBulkTrafficEstimationLiveResultInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IDataforseoLabsGoogleHistoricalBulkTrafficEstimationLiveResultInfo
 
 # Interface: IDataforseoLabsGoogleHistoricalBulkTrafficEstimationLiveResultInfo
 
@@ -31,7 +31,7 @@ array of items with relevant traffic estimation data
 
 #### Defined in
 
-main.ts:98643
+[main.ts:98499](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L98499)
 
 ___
 
@@ -43,7 +43,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:98641
+[main.ts:98497](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L98497)
 
 ___
 
@@ -56,7 +56,7 @@ if there is no data, then the value is null
 
 #### Defined in
 
-main.ts:98637
+[main.ts:98493](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L98493)
 
 ___
 
@@ -69,7 +69,7 @@ if there is no data, then the value is null
 
 #### Defined in
 
-main.ts:98634
+[main.ts:98490](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L98490)
 
 ___
 
@@ -81,7 +81,7 @@ search engine type
 
 #### Defined in
 
-main.ts:98631
+[main.ts:98487](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L98487)
 
 ___
 
@@ -93,4 +93,4 @@ total amount of results in our database relevant to your request
 
 #### Defined in
 
-main.ts:98639
+[main.ts:98495](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L98495)

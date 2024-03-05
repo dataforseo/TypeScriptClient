@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / BacklinksPageIntersectionLiveResultInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / BacklinksPageIntersectionLiveResultInfo
 
 # Class: BacklinksPageIntersectionLiveResultInfo
 
@@ -47,7 +47,7 @@
 
 #### Defined in
 
-main.ts:138313
+[main.ts:138169](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L138169)
 
 ## Properties
 
@@ -63,7 +63,7 @@ contains relevant backlinks and referring domains data
 
 #### Defined in
 
-main.ts:138309
+[main.ts:138165](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L138165)
 
 ___
 
@@ -79,7 +79,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:138307
+[main.ts:138163](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L138163)
 
 ___
 
@@ -99,7 +99,7 @@ targets from a POST array
 
 #### Defined in
 
-main.ts:138303
+[main.ts:138159](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L138159)
 
 ___
 
@@ -115,7 +115,7 @@ total amount of results relevant the request
 
 #### Defined in
 
-main.ts:138305
+[main.ts:138161](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L138161)
 
 ## Methods
 
@@ -135,7 +135,7 @@ main.ts:138305
 
 #### Defined in
 
-main.ts:138322
+[main.ts:138178](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L138178)
 
 ___
 
@@ -155,7 +155,7 @@ ___
 
 #### Defined in
 
-main.ts:138352
+[main.ts:138208](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L138208)
 
 ___
 
@@ -175,4 +175,4 @@ ___
 
 #### Defined in
 
-main.ts:138345
+[main.ts:138201](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L138201)

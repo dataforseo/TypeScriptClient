@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / ITripadvisorSearchOrganicBusinessDataSerpElementItem
+[dataforseo-client](../README.md) / [Exports](../modules.md) / ITripadvisorSearchOrganicBusinessDataSerpElementItem
 
 # Interface: ITripadvisorSearchOrganicBusinessDataSerpElementItem
 
@@ -40,7 +40,7 @@ place category
 
 #### Defined in
 
-main.ts:201583
+[main.ts:201463](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L201463)
 
 ___
 
@@ -53,7 +53,7 @@ if true, related tripadvisor_search_organic item is a paid advertising on Tripad
 
 #### Defined in
 
-main.ts:201579
+[main.ts:201459](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L201459)
 
 ___
 
@@ -65,7 +65,7 @@ average price rate
 
 #### Defined in
 
-main.ts:201585
+[main.ts:201465](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L201465)
 
 ___
 
@@ -78,7 +78,7 @@ absolute position among all reviews on the list
 
 #### Defined in
 
-main.ts:201570
+[main.ts:201450](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L201450)
 
 ___
 
@@ -91,7 +91,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-main.ts:201567
+[main.ts:201447](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L201447)
 
 ___
 
@@ -103,7 +103,7 @@ the rating score of the establishment submitted by the reviewers
 
 #### Defined in
 
-main.ts:201587
+[main.ts:201467](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L201467)
 
 ___
 
@@ -115,7 +115,7 @@ the total number of reviews
 
 #### Defined in
 
-main.ts:201581
+[main.ts:201461](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L201461)
 
 ___
 
@@ -127,7 +127,7 @@ name of the business entity
 
 #### Defined in
 
-main.ts:201572
+[main.ts:201452](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L201452)
 
 ___
 
@@ -141,4 +141,4 @@ you can use this identifier to collect reviews for the business entity using Tri
 
 #### Defined in
 
-main.ts:201576
+[main.ts:201456](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L201456)

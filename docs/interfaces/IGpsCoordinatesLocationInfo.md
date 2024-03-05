@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IGpsCoordinatesLocationInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IGpsCoordinatesLocationInfo
 
 # Interface: IGpsCoordinatesLocationInfo
 
@@ -29,7 +29,7 @@ example:
 
 #### Defined in
 
-main.ts:193563
+[main.ts:193443](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L193443)
 
 ___
 
@@ -43,4 +43,4 @@ example:
 
 #### Defined in
 
-main.ts:193567
+[main.ts:193447](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L193447)

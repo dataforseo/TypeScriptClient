@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IInformationAndTicketsElement
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IInformationAndTicketsElement
 
 # Interface: IInformationAndTicketsElement
 
@@ -30,7 +30,7 @@ description of the element
 
 #### Defined in
 
-main.ts:44799
+[main.ts:44657](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L44657)
 
 ___
 
@@ -42,7 +42,7 @@ domain in SERP
 
 #### Defined in
 
-main.ts:44803
+[main.ts:44661](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L44661)
 
 ___
 
@@ -54,7 +54,7 @@ title of the element
 
 #### Defined in
 
-main.ts:44797
+[main.ts:44655](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L44655)
 
 ___
 
@@ -66,7 +66,7 @@ type of element
 
 #### Defined in
 
-main.ts:44795
+[main.ts:44653](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L44653)
 
 ___
 
@@ -78,4 +78,4 @@ relevant URL
 
 #### Defined in
 
-main.ts:44801
+[main.ts:44659](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L44659)

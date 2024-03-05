@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IDataforseoLabsSerpCompetitorsLiveItem
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IDataforseoLabsSerpCompetitorsLiveItem
 
 # Interface: IDataforseoLabsSerpCompetitorsLiveItem
 
@@ -36,7 +36,7 @@ the arithmetic mean of values in the keywords_positions array
 
 #### Defined in
 
-main.ts:87901
+[main.ts:87757](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L87757)
 
 ___
 
@@ -48,7 +48,7 @@ domain name of the detected SERP competitor
 
 #### Defined in
 
-main.ts:87898
+[main.ts:87754](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L87754)
 
 ___
 
@@ -63,7 +63,7 @@ learn more about how the metric is calculated in this help center article
 
 #### Defined in
 
-main.ts:87913
+[main.ts:87769](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L87769)
 
 ___
 
@@ -75,7 +75,7 @@ the number of specified keywords the domain has positions for in SERPs
 
 #### Defined in
 
-main.ts:87915
+[main.ts:87771](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L87771)
 
 ___
 
@@ -92,7 +92,7 @@ SERP positions the related domain holds in SERP for the specified keywords
 
 #### Defined in
 
-main.ts:87927
+[main.ts:87783](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L87783)
 
 ___
 
@@ -105,7 +105,7 @@ the median of the values in the keywords_positions array
 
 #### Defined in
 
-main.ts:87904
+[main.ts:87760](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L87760)
 
 ___
 
@@ -119,7 +119,7 @@ calculated as sum(100-keywords_positions)
 
 #### Defined in
 
-main.ts:87908
+[main.ts:87764](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L87764)
 
 ___
 
@@ -132,7 +132,7 @@ represents the number of search results in SERP relevant to the domain for the s
 
 #### Defined in
 
-main.ts:87924
+[main.ts:87780](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L87780)
 
 ___
 
@@ -144,7 +144,7 @@ search engine type
 
 #### Defined in
 
-main.ts:87896
+[main.ts:87752](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L87752)
 
 ___
 
@@ -160,4 +160,4 @@ keywords with positions from 20 to 100 have the visibility index equal to 0
 
 #### Defined in
 
-main.ts:87921
+[main.ts:87777](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L87777)

@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IAppendixInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IAppendixInfo
 
 # Interface: IAppendixInfo
 
@@ -27,7 +27,7 @@
 
 #### Defined in
 
-main.ts:206843
+[main.ts:206723](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L206723)
 
 ___
 
@@ -37,7 +37,7 @@ ___
 
 #### Defined in
 
-main.ts:206841
+[main.ts:206721](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L206721)
 
 ___
 
@@ -47,7 +47,7 @@ ___
 
 #### Defined in
 
-main.ts:206840
+[main.ts:206720](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L206720)
 
 ___
 
@@ -57,4 +57,4 @@ ___
 
 #### Defined in
 
-main.ts:206842
+[main.ts:206722](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L206722)

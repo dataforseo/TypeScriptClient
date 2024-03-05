@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / ServiceOfferingsElement
+[dataforseo-client](../README.md) / [Exports](../modules.md) / ServiceOfferingsElement
 
 # Class: ServiceOfferingsElement
 
@@ -46,7 +46,7 @@
 
 #### Defined in
 
-main.ts:204074
+[main.ts:203954](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L203954)
 
 ## Properties
 
@@ -63,7 +63,7 @@ if the value is false, the offering is not available
 
 #### Defined in
 
-main.ts:204070
+[main.ts:203950](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L203950)
 
 ___
 
@@ -80,7 +80,7 @@ example: Delivery
 
 #### Defined in
 
-main.ts:204067
+[main.ts:203947](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L203947)
 
 ___
 
@@ -96,7 +96,7 @@ type of element
 
 #### Defined in
 
-main.ts:204064
+[main.ts:203944](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L203944)
 
 ## Methods
 
@@ -116,7 +116,7 @@ main.ts:204064
 
 #### Defined in
 
-main.ts:204083
+[main.ts:203963](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L203963)
 
 ___
 
@@ -136,7 +136,7 @@ ___
 
 #### Defined in
 
-main.ts:204102
+[main.ts:203982](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L203982)
 
 ___
 
@@ -156,4 +156,4 @@ ___
 
 #### Defined in
 
-main.ts:204095
+[main.ts:203975](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L203975)

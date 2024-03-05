@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / SerpBingOrganicTaskGetHtmlResultInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / SerpBingOrganicTaskGetHtmlResultInfo
 
 # Class: SerpBingOrganicTaskGetHtmlResultInfo
 
@@ -51,7 +51,7 @@
 
 #### Defined in
 
-main.ts:54896
+[main.ts:54754](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L54754)
 
 ## Properties
 
@@ -70,7 +70,7 @@ example:
 
 #### Defined in
 
-main.ts:54888
+[main.ts:54746](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L54746)
 
 ___
 
@@ -86,7 +86,7 @@ elements of search results found in SERP
 
 #### Defined in
 
-main.ts:54892
+[main.ts:54750](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L54750)
 
 ___
 
@@ -102,7 +102,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:54890
+[main.ts:54748](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L54748)
 
 ___
 
@@ -119,7 +119,7 @@ keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a s
 
 #### Defined in
 
-main.ts:54875
+[main.ts:54733](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L54733)
 
 ___
 
@@ -135,7 +135,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:54883
+[main.ts:54741](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L54741)
 
 ___
 
@@ -151,7 +151,7 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:54881
+[main.ts:54739](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L54739)
 
 ___
 
@@ -167,7 +167,7 @@ search engine domain in a POST array
 
 #### Defined in
 
-main.ts:54879
+[main.ts:54737](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L54737)
 
 ___
 
@@ -183,7 +183,7 @@ type of element
 
 #### Defined in
 
-main.ts:54877
+[main.ts:54735](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L54735)
 
 ## Methods
 
@@ -203,7 +203,7 @@ main.ts:54877
 
 #### Defined in
 
-main.ts:54905
+[main.ts:54763](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L54763)
 
 ___
 
@@ -223,7 +223,7 @@ ___
 
 #### Defined in
 
-main.ts:54933
+[main.ts:54791](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L54791)
 
 ___
 
@@ -243,4 +243,4 @@ ___
 
 #### Defined in
 
-main.ts:54926
+[main.ts:54784](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L54784)

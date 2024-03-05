@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IBusinessDataGoogleHotelSearchesTaskGetResultInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IBusinessDataGoogleHotelSearchesTaskGetResultInfo
 
 # Interface: IBusinessDataGoogleHotelSearchesTaskGetResultInfo
 
@@ -33,7 +33,7 @@ you can use it to make sure that we provided accurate results
 
 #### Defined in
 
-main.ts:194134
+[main.ts:194014](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L194014)
 
 ___
 
@@ -48,7 +48,7 @@ example:
 
 #### Defined in
 
-main.ts:194139
+[main.ts:194019](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L194019)
 
 ___
 
@@ -61,7 +61,7 @@ note: this field always equals null; use it to facilitate integration and ensure
 
 #### Defined in
 
-main.ts:194145
+[main.ts:194025](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L194025)
 
 ___
 
@@ -74,7 +74,7 @@ the number of items in the items array
 
 #### Defined in
 
-main.ts:194142
+[main.ts:194022](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L194022)
 
 ___
 
@@ -88,7 +88,7 @@ in order to obtain accurate search results, the location name is appended to the
 
 #### Defined in
 
-main.ts:194127
+[main.ts:194007](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L194007)
 
 ___
 
@@ -100,7 +100,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:194131
+[main.ts:194011](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L194011)
 
 ___
 
@@ -112,4 +112,4 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:194129
+[main.ts:194009](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L194009)

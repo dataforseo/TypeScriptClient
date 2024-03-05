@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IBusinessDataTripadvisorLanguagesResultInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IBusinessDataTripadvisorLanguagesResultInfo
 
 # Interface: IBusinessDataTripadvisorLanguagesResultInfo
 
@@ -27,7 +27,7 @@ language code according to ISO 639-1
 
 #### Defined in
 
-main.ts:200899
+[main.ts:200779](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L200779)
 
 ___
 
@@ -39,4 +39,4 @@ language name
 
 #### Defined in
 
-main.ts:200897
+[main.ts:200777](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L200777)

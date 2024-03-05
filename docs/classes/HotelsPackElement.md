@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / HotelsPackElement
+[dataforseo-client](../README.md) / [Exports](../modules.md) / HotelsPackElement
 
 # Class: HotelsPackElement
 
@@ -52,7 +52,7 @@
 
 #### Defined in
 
-main.ts:33149
+[main.ts:33007](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L33007)
 
 ## Properties
 
@@ -68,7 +68,7 @@ description of the results element in SERP
 
 #### Defined in
 
-main.ts:33132
+[main.ts:32990](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L32990)
 
 ___
 
@@ -84,7 +84,7 @@ domain where a link points
 
 #### Defined in
 
-main.ts:33138
+[main.ts:32996](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L32996)
 
 ___
 
@@ -102,7 +102,7 @@ example: "CgoIjaeSlI6CnNpVEAE"
 
 #### Defined in
 
-main.ts:33136
+[main.ts:32994](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L32994)
 
 ___
 
@@ -118,7 +118,7 @@ indicates whether the element is an ad
 
 #### Defined in
 
-main.ts:33142
+[main.ts:33000](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L33000)
 
 ___
 
@@ -134,7 +134,7 @@ price of booking a place for the specified dates of stay
 
 #### Defined in
 
-main.ts:33128
+[main.ts:32986](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L32986)
 
 ___
 
@@ -151,7 +151,7 @@ the popularity rate based on reviews and displayed in SERP
 
 #### Defined in
 
-main.ts:33145
+[main.ts:33003](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L33003)
 
 ___
 
@@ -167,7 +167,7 @@ title of the row
 
 #### Defined in
 
-main.ts:33130
+[main.ts:32988](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L32988)
 
 ___
 
@@ -183,7 +183,7 @@ type of element
 
 #### Defined in
 
-main.ts:33126
+[main.ts:32984](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L32984)
 
 ___
 
@@ -199,7 +199,7 @@ URL
 
 #### Defined in
 
-main.ts:33140
+[main.ts:32998](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L32998)
 
 ## Methods
 
@@ -219,7 +219,7 @@ main.ts:33140
 
 #### Defined in
 
-main.ts:33158
+[main.ts:33016](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L33016)
 
 ___
 
@@ -239,7 +239,7 @@ ___
 
 #### Defined in
 
-main.ts:33183
+[main.ts:33041](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L33041)
 
 ___
 
@@ -259,4 +259,4 @@ ___
 
 #### Defined in
 
-main.ts:33176
+[main.ts:33034](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L33034)

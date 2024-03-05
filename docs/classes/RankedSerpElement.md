@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / RankedSerpElement
+[dataforseo-client](../README.md) / [Exports](../modules.md) / RankedSerpElement
 
 # Class: RankedSerpElement
 
@@ -52,7 +52,7 @@
 
 #### Defined in
 
-main.ts:87080
+[main.ts:86936](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L86936)
 
 ## Properties
 
@@ -69,7 +69,7 @@ you can use it to make sure that we provided accurate results
 
 #### Defined in
 
-main.ts:87050
+[main.ts:86906](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L86906)
 
 ___
 
@@ -86,7 +86,7 @@ indicates how many ranked elements of this domain were previously presented in S
 
 #### Defined in
 
-main.ts:87066
+[main.ts:86922](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L86922)
 
 ___
 
@@ -105,7 +105,7 @@ learn more about the metric in this help center guide
 
 #### Defined in
 
-main.ts:87063
+[main.ts:86919](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L86919)
 
 ___
 
@@ -124,7 +124,7 @@ example:
 
 #### Defined in
 
-main.ts:87071
+[main.ts:86927](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L86927)
 
 ___
 
@@ -143,7 +143,7 @@ example:
 
 #### Defined in
 
-main.ts:87076
+[main.ts:86932](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L86932)
 
 ___
 
@@ -159,7 +159,7 @@ number of search results for the returned keyword
 
 #### Defined in
 
-main.ts:87058
+[main.ts:86914](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L86914)
 
 ___
 
@@ -175,7 +175,7 @@ search engine type
 
 #### Defined in
 
-main.ts:87044
+[main.ts:86900](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L86900)
 
 ___
 
@@ -192,7 +192,7 @@ the list of supported SERP elements can be found below
 
 #### Defined in
 
-main.ts:87047
+[main.ts:86903](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L86903)
 
 ___
 
@@ -212,7 +212,7 @@ note that the actual results will be returned only for organic, paid, featured_s
 
 #### Defined in
 
-main.ts:87056
+[main.ts:86912](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L86912)
 
 ## Methods
 
@@ -232,7 +232,7 @@ main.ts:87056
 
 #### Defined in
 
-main.ts:87089
+[main.ts:86945](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L86945)
 
 ___
 
@@ -252,7 +252,7 @@ ___
 
 #### Defined in
 
-main.ts:87118
+[main.ts:86974](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L86974)
 
 ___
 
@@ -272,4 +272,4 @@ ___
 
 #### Defined in
 
-main.ts:87111
+[main.ts:86967](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L86967)

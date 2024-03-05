@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / ScholarlyArticlesElement
+[dataforseo-client](../README.md) / [Exports](../modules.md) / ScholarlyArticlesElement
 
 # Class: ScholarlyArticlesElement
 
@@ -48,7 +48,7 @@
 
 #### Defined in
 
-main.ts:31950
+[main.ts:31808](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L31808)
 
 ## Properties
 
@@ -64,7 +64,7 @@ author
 
 #### Defined in
 
-main.ts:31944
+[main.ts:31802](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L31802)
 
 ___
 
@@ -80,7 +80,7 @@ description of the results element in SERP
 
 #### Defined in
 
-main.ts:31946
+[main.ts:31804](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L31804)
 
 ___
 
@@ -96,7 +96,7 @@ title of the row
 
 #### Defined in
 
-main.ts:31940
+[main.ts:31798](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L31798)
 
 ___
 
@@ -112,7 +112,7 @@ type of element
 
 #### Defined in
 
-main.ts:31938
+[main.ts:31796](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L31796)
 
 ___
 
@@ -128,7 +128,7 @@ URL
 
 #### Defined in
 
-main.ts:31942
+[main.ts:31800](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L31800)
 
 ## Methods
 
@@ -148,7 +148,7 @@ main.ts:31942
 
 #### Defined in
 
-main.ts:31959
+[main.ts:31817](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L31817)
 
 ___
 
@@ -168,7 +168,7 @@ ___
 
 #### Defined in
 
-main.ts:31980
+[main.ts:31838](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L31838)
 
 ___
 
@@ -188,4 +188,4 @@ ___
 
 #### Defined in
 
-main.ts:31973
+[main.ts:31831](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L31831)

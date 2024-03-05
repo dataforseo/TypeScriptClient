@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / SerpBaiduLocationsCountryResultInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / SerpBaiduLocationsCountryResultInfo
 
 # Class: SerpBaiduLocationsCountryResultInfo
 
@@ -48,7 +48,7 @@
 
 #### Defined in
 
-main.ts:65551
+[main.ts:65407](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L65407)
 
 ## Properties
 
@@ -64,7 +64,7 @@ ISO country code of the location
 
 #### Defined in
 
-main.ts:65544
+[main.ts:65400](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L65400)
 
 ___
 
@@ -80,7 +80,7 @@ location code
 
 #### Defined in
 
-main.ts:65536
+[main.ts:65392](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L65392)
 
 ___
 
@@ -98,7 +98,7 @@ don’t match locations by location_code_parent because the results for Region a
 
 #### Defined in
 
-main.ts:65542
+[main.ts:65398](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L65398)
 
 ___
 
@@ -114,7 +114,7 @@ full name of the location
 
 #### Defined in
 
-main.ts:65538
+[main.ts:65394](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L65394)
 
 ___
 
@@ -131,7 +131,7 @@ only City is supported for all countries except China (where Country is also sup
 
 #### Defined in
 
-main.ts:65547
+[main.ts:65403](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L65403)
 
 ## Methods
 
@@ -151,7 +151,7 @@ main.ts:65547
 
 #### Defined in
 
-main.ts:65560
+[main.ts:65416](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L65416)
 
 ___
 
@@ -171,7 +171,7 @@ ___
 
 #### Defined in
 
-main.ts:65581
+[main.ts:65437](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L65437)
 
 ___
 
@@ -191,4 +191,4 @@ ___
 
 #### Defined in
 
-main.ts:65574
+[main.ts:65430](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L65430)

@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / EventsElement
+[dataforseo-client](../README.md) / [Exports](../modules.md) / EventsElement
 
 # Class: EventsElement
 
@@ -47,7 +47,7 @@
 
 #### Defined in
 
-main.ts:31120
+[main.ts:30978](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L30978)
 
 ## Properties
 
@@ -63,7 +63,7 @@ text alongside the link title
 
 #### Defined in
 
-main.ts:31114
+[main.ts:30972](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L30972)
 
 ___
 
@@ -79,7 +79,7 @@ title of the row
 
 #### Defined in
 
-main.ts:31112
+[main.ts:30970](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L30970)
 
 ___
 
@@ -95,7 +95,7 @@ type of element
 
 #### Defined in
 
-main.ts:31110
+[main.ts:30968](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L30968)
 
 ___
 
@@ -111,7 +111,7 @@ URL
 
 #### Defined in
 
-main.ts:31116
+[main.ts:30974](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L30974)
 
 ## Methods
 
@@ -131,7 +131,7 @@ main.ts:31116
 
 #### Defined in
 
-main.ts:31129
+[main.ts:30987](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L30987)
 
 ___
 
@@ -151,7 +151,7 @@ ___
 
 #### Defined in
 
-main.ts:31149
+[main.ts:31007](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L31007)
 
 ___
 
@@ -171,4 +171,4 @@ ___
 
 #### Defined in
 
-main.ts:31142
+[main.ts:31000](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L31000)

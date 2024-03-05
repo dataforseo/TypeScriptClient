@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IAppDataGoogleLanguagesResultInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IAppDataGoogleLanguagesResultInfo
 
 # Interface: IAppDataGoogleLanguagesResultInfo
 
@@ -27,7 +27,7 @@ language code according to ISO 639-1
 
 #### Defined in
 
-main.ts:177501
+[main.ts:177381](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L177381)
 
 ___
 
@@ -39,4 +39,4 @@ language name
 
 #### Defined in
 
-main.ts:177499
+[main.ts:177379](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L177379)

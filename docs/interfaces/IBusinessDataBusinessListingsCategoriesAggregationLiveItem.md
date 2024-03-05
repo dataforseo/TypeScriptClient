@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IBusinessDataBusinessListingsCategoriesAggregationLiveItem
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IBusinessDataBusinessListingsCategoriesAggregationLiveItem
 
 # Interface: IBusinessDataBusinessListingsCategoriesAggregationLiveItem
 
@@ -28,7 +28,7 @@ aggregation of the category
 
 #### Defined in
 
-main.ts:190081
+[main.ts:189961](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L189961)
 
 ___
 
@@ -41,7 +41,7 @@ Google My Business general category that best describes the cluster of related c
 
 #### Defined in
 
-main.ts:190079
+[main.ts:189959](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L189959)
 
 ___
 
@@ -53,4 +53,4 @@ type of element
 
 #### Defined in
 
-main.ts:190076
+[main.ts:189956](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L189956)

@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / LocalServicesSerpElementItem
+[dataforseo-client](../README.md) / [Exports](../modules.md) / LocalServicesSerpElementItem
 
 # Class: LocalServicesSerpElementItem
 
@@ -63,7 +63,7 @@
 
 #### Defined in
 
-main.ts:33839
+[main.ts:33697](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L33697)
 
 ## Properties
 
@@ -77,7 +77,7 @@ main.ts:33839
 
 #### Defined in
 
-main.ts:19337
+[main.ts:19337](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L19337)
 
 ___
 
@@ -93,7 +93,7 @@ domain where a link points
 
 #### Defined in
 
-main.ts:33829
+[main.ts:33687](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L33687)
 
 ___
 
@@ -109,7 +109,7 @@ contains results featured in the ‘hotels_pack’ element of SERP
 
 #### Defined in
 
-main.ts:33831
+[main.ts:33689](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L33689)
 
 ___
 
@@ -127,7 +127,7 @@ left, right
 
 #### Defined in
 
-main.ts:33821
+[main.ts:33679](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L33679)
 
 ___
 
@@ -144,7 +144,7 @@ absolute position among all the elements in SERP
 
 #### Defined in
 
-main.ts:33817
+[main.ts:33675](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L33675)
 
 ___
 
@@ -162,7 +162,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-main.ts:33814
+[main.ts:33672](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L33672)
 
 ___
 
@@ -180,7 +180,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 #### Defined in
 
-main.ts:33835
+[main.ts:33693](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L33693)
 
 ___
 
@@ -196,7 +196,7 @@ title of a given link element
 
 #### Defined in
 
-main.ts:33825
+[main.ts:33683](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L33683)
 
 ___
 
@@ -212,7 +212,7 @@ URL
 
 #### Defined in
 
-main.ts:33827
+[main.ts:33685](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L33685)
 
 ___
 
@@ -228,7 +228,7 @@ the XPath of the element
 
 #### Defined in
 
-main.ts:33823
+[main.ts:33681](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L33681)
 
 ## Methods
 
@@ -252,7 +252,7 @@ main.ts:33823
 
 #### Defined in
 
-main.ts:33844
+[main.ts:33702](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L33702)
 
 ___
 
@@ -276,7 +276,7 @@ ___
 
 #### Defined in
 
-main.ts:33874
+[main.ts:33732](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L33732)
 
 ___
 
@@ -300,4 +300,4 @@ ___
 
 #### Defined in
 
-main.ts:33867
+[main.ts:33725](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L33725)

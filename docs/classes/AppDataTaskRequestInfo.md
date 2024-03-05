@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / AppDataTaskRequestInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / AppDataTaskRequestInfo
 
 # Class: AppDataTaskRequestInfo
 
@@ -54,7 +54,7 @@
 
 #### Defined in
 
-main.ts:164096
+[main.ts:163976](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L163976)
 
 ## Properties
 
@@ -78,7 +78,7 @@ maximum value: 200
 
 #### Defined in
 
-main.ts:164060
+[main.ts:163940](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L163940)
 
 ___
 
@@ -99,7 +99,7 @@ if you need to use the “+” symbol for your keyword, please specify it as “
 
 #### Defined in
 
-main.ts:164014
+[main.ts:163894](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L163894)
 
 ___
 
@@ -120,7 +120,7 @@ en
 
 #### Defined in
 
-main.ts:164042
+[main.ts:163922](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L163922)
 
 ___
 
@@ -141,7 +141,7 @@ English
 
 #### Defined in
 
-main.ts:164035
+[main.ts:163915](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L163915)
 
 ___
 
@@ -162,7 +162,7 @@ example:
 
 #### Defined in
 
-main.ts:164028
+[main.ts:163908](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L163908)
 
 ___
 
@@ -183,7 +183,7 @@ West Los Angeles,California,United States
 
 #### Defined in
 
-main.ts:164021
+[main.ts:163901](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L163901)
 
 ___
 
@@ -207,7 +207,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-main.ts:164092
+[main.ts:163972](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L163972)
 
 ___
 
@@ -227,7 +227,7 @@ advanced, html
 
 #### Defined in
 
-main.ts:164082
+[main.ts:163962](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L163962)
 
 ___
 
@@ -251,7 +251,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-main.ts:164076
+[main.ts:163956](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L163956)
 
 ___
 
@@ -273,7 +273,7 @@ The cost can be calculated on the Pricing page.
 
 #### Defined in
 
-main.ts:164050
+[main.ts:163930](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L163930)
 
 ___
 
@@ -293,7 +293,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:164066
+[main.ts:163946](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L163946)
 
 ## Methods
 
@@ -313,7 +313,7 @@ main.ts:164066
 
 #### Defined in
 
-main.ts:164105
+[main.ts:163985](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L163985)
 
 ___
 
@@ -333,7 +333,7 @@ ___
 
 #### Defined in
 
-main.ts:164132
+[main.ts:164012](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L164012)
 
 ___
 
@@ -353,4 +353,4 @@ ___
 
 #### Defined in
 
-main.ts:164125
+[main.ts:164005](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L164005)

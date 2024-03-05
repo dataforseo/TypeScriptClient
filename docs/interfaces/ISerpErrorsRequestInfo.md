@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / ISerpErrorsRequestInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / ISerpErrorsRequestInfo
 
 # Interface: ISerpErrorsRequestInfo
 
@@ -35,7 +35,7 @@ example:
 
 #### Defined in
 
-main.ts:23300
+[main.ts:23158](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L23158)
 
 ___
 
@@ -52,7 +52,7 @@ example:
 
 #### Defined in
 
-main.ts:23307
+[main.ts:23165](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L23165)
 
 ___
 
@@ -68,7 +68,7 @@ example: serp/task_get/advanced, postback_url, pingback_url
 
 #### Defined in
 
-main.ts:23293
+[main.ts:23151](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L23151)
 
 ___
 
@@ -83,7 +83,7 @@ maximum value: 1000
 
 #### Defined in
 
-main.ts:23282
+[main.ts:23140](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L23140)
 
 ___
 
@@ -98,4 +98,4 @@ if you specify the 10 value, the first ten tasks in the results array will be om
 
 #### Defined in
 
-main.ts:23287
+[main.ts:23145](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L23145)

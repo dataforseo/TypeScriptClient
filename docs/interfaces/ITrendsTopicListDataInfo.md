@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / ITrendsTopicListDataInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / ITrendsTopicListDataInfo
 
 # Interface: ITrendsTopicListDataInfo
 
@@ -28,7 +28,7 @@ represents the list of related topics with the biggest increase in search freque
 
 #### Defined in
 
-main.ts:121050
+[main.ts:120906](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L120906)
 
 ___
 
@@ -41,4 +41,4 @@ represents the list of the most popular related topics
 
 #### Defined in
 
-main.ts:121047
+[main.ts:120903](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L120903)

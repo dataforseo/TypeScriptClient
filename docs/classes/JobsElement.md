@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / JobsElement
+[dataforseo-client](../README.md) / [Exports](../modules.md) / JobsElement
 
 # Class: JobsElement
 
@@ -52,7 +52,7 @@
 
 #### Defined in
 
-main.ts:29459
+[main.ts:29317](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L29317)
 
 ## Properties
 
@@ -68,7 +68,7 @@ author
 
 #### Defined in
 
-main.ts:29442
+[main.ts:29300](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L29300)
 
 ___
 
@@ -84,7 +84,7 @@ contract type
 
 #### Defined in
 
-main.ts:29451
+[main.ts:29309](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L29309)
 
 ___
 
@@ -100,7 +100,7 @@ description of the results element in SERP
 
 #### Defined in
 
-main.ts:29440
+[main.ts:29298](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L29298)
 
 ___
 
@@ -116,7 +116,7 @@ the time when the job was posted
 
 #### Defined in
 
-main.ts:29444
+[main.ts:29302](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L29302)
 
 ___
 
@@ -132,7 +132,7 @@ salary
 
 #### Defined in
 
-main.ts:29453
+[main.ts:29311](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L29311)
 
 ___
 
@@ -151,7 +151,7 @@ example:
 
 #### Defined in
 
-main.ts:29449
+[main.ts:29307](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L29307)
 
 ___
 
@@ -167,7 +167,7 @@ title of the row
 
 #### Defined in
 
-main.ts:29438
+[main.ts:29296](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L29296)
 
 ___
 
@@ -183,7 +183,7 @@ type of element
 
 #### Defined in
 
-main.ts:29436
+[main.ts:29294](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L29294)
 
 ___
 
@@ -199,7 +199,7 @@ URL
 
 #### Defined in
 
-main.ts:29455
+[main.ts:29313](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L29313)
 
 ## Methods
 
@@ -219,7 +219,7 @@ main.ts:29455
 
 #### Defined in
 
-main.ts:29468
+[main.ts:29326](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L29326)
 
 ___
 
@@ -239,7 +239,7 @@ ___
 
 #### Defined in
 
-main.ts:29493
+[main.ts:29351](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L29351)
 
 ___
 
@@ -259,4 +259,4 @@ ___
 
 #### Defined in
 
-main.ts:29486
+[main.ts:29344](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L29344)

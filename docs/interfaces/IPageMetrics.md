@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IPageMetrics
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IPageMetrics
 
 # Interface: IPageMetrics
 
@@ -38,7 +38,7 @@ number of broken links across all crawled pages on a target website
 
 #### Defined in
 
-main.ts:143785
+[main.ts:143641](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L143641)
 
 ___
 
@@ -51,7 +51,7 @@ the number of images and other resources with broken links
 
 #### Defined in
 
-main.ts:143788
+[main.ts:143644](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L143644)
 
 ___
 
@@ -67,7 +67,7 @@ page-specific on-page check-ups
 
 #### Defined in
 
-main.ts:143806
+[main.ts:143662](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L143662)
 
 ___
 
@@ -79,7 +79,7 @@ number of pages with duplicate content
 
 #### Defined in
 
-main.ts:143782
+[main.ts:143638](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L143638)
 
 ___
 
@@ -91,7 +91,7 @@ number of pages with duplicate descriptions
 
 #### Defined in
 
-main.ts:143780
+[main.ts:143636](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L143636)
 
 ___
 
@@ -103,7 +103,7 @@ number of pages with duplicate titles
 
 #### Defined in
 
-main.ts:143778
+[main.ts:143634](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L143634)
 
 ___
 
@@ -116,7 +116,7 @@ the number of links pointing to other websites
 
 #### Defined in
 
-main.ts:143773
+[main.ts:143629](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L143629)
 
 ___
 
@@ -129,7 +129,7 @@ the number of links pointing to other pages within the target website
 
 #### Defined in
 
-main.ts:143776
+[main.ts:143632](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L143632)
 
 ___
 
@@ -142,7 +142,7 @@ for example, if "links_relation_conflict": 2, the target website is referring to
 
 #### Defined in
 
-main.ts:143791
+[main.ts:143647](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L143647)
 
 ___
 
@@ -156,7 +156,7 @@ you can receive a list of non-indexable URLs using this endpoint
 
 #### Defined in
 
-main.ts:143804
+[main.ts:143660](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L143660)
 
 ___
 
@@ -172,7 +172,7 @@ learn more about how the metric is calculated in this help center article
 
 #### Defined in
 
-main.ts:143800
+[main.ts:143656](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L143656)
 
 ___
 
@@ -185,4 +185,4 @@ number of redirect chains where the destination URL redirects back to the origin
 
 #### Defined in
 
-main.ts:143794
+[main.ts:143650](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L143650)

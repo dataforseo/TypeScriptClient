@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / BusinessDataContactInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / BusinessDataContactInfo
 
 # Class: BusinessDataContactInfo
 
@@ -46,7 +46,7 @@
 
 #### Defined in
 
-main.ts:189064
+[main.ts:188944](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L188944)
 
 ## Properties
 
@@ -62,7 +62,7 @@ data source
 
 #### Defined in
 
-main.ts:189060
+[main.ts:188940](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L188940)
 
 ___
 
@@ -78,7 +78,7 @@ type of element
 
 #### Defined in
 
-main.ts:189054
+[main.ts:188934](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L188934)
 
 ___
 
@@ -96,7 +96,7 @@ example:
 
 #### Defined in
 
-main.ts:189058
+[main.ts:188938](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L188938)
 
 ## Methods
 
@@ -116,7 +116,7 @@ main.ts:189058
 
 #### Defined in
 
-main.ts:189073
+[main.ts:188953](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L188953)
 
 ___
 
@@ -136,7 +136,7 @@ ___
 
 #### Defined in
 
-main.ts:189092
+[main.ts:188972](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L188972)
 
 ___
 
@@ -156,4 +156,4 @@ ___
 
 #### Defined in
 
-main.ts:189085
+[main.ts:188965](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L188965)

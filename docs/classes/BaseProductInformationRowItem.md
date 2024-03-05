@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / BaseProductInformationRowItem
+[dataforseo-client](../README.md) / [Exports](../modules.md) / BaseProductInformationRowItem
 
 # Class: BaseProductInformationRowItem
 
@@ -54,7 +54,7 @@
 
 #### Defined in
 
-main.ts:21922
+[main.ts:21780](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L21780)
 
 ## Properties
 
@@ -64,7 +64,7 @@ main.ts:21922
 
 #### Defined in
 
-main.ts:21920
+[main.ts:21778](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L21778)
 
 ## Methods
 
@@ -84,7 +84,7 @@ main.ts:21920
 
 #### Defined in
 
-main.ts:21932
+[main.ts:21790](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L21790)
 
 ___
 
@@ -104,7 +104,7 @@ ___
 
 #### Defined in
 
-main.ts:21963
+[main.ts:21821](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L21821)
 
 ___
 
@@ -124,4 +124,4 @@ ___
 
 #### Defined in
 
-main.ts:21941
+[main.ts:21799](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L21799)

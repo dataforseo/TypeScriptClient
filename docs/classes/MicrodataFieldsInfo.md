@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / MicrodataFieldsInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / MicrodataFieldsInfo
 
 # Class: MicrodataFieldsInfo
 
@@ -48,7 +48,7 @@
 
 #### Defined in
 
-main.ts:150870
+[main.ts:150726](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L150726)
 
 ## Properties
 
@@ -65,7 +65,7 @@ an array of objects containing data fields related to the certain microdata type
 
 #### Defined in
 
-main.ts:150866
+[main.ts:150722](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L150722)
 
 ___
 
@@ -82,7 +82,7 @@ name of the data field
 
 #### Defined in
 
-main.ts:150854
+[main.ts:150710](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L150710)
 
 ___
 
@@ -99,7 +99,7 @@ sub-type microdata test results that contain detected errors and related message
 
 #### Defined in
 
-main.ts:150863
+[main.ts:150719](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L150719)
 
 ___
 
@@ -116,7 +116,7 @@ for a full list of available types, please visit schema.org
 
 #### Defined in
 
-main.ts:150857
+[main.ts:150713](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L150713)
 
 ___
 
@@ -133,7 +133,7 @@ microdata value specified on a target web page
 
 #### Defined in
 
-main.ts:150860
+[main.ts:150716](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L150716)
 
 ## Methods
 
@@ -153,7 +153,7 @@ main.ts:150860
 
 #### Defined in
 
-main.ts:150879
+[main.ts:150735](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L150735)
 
 ___
 
@@ -173,7 +173,7 @@ ___
 
 #### Defined in
 
-main.ts:150908
+[main.ts:150764](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L150764)
 
 ___
 
@@ -193,4 +193,4 @@ ___
 
 #### Defined in
 
-main.ts:150901
+[main.ts:150757](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L150757)

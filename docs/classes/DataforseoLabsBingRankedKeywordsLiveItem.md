@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / DataforseoLabsBingRankedKeywordsLiveItem
+[dataforseo-client](../README.md) / [Exports](../modules.md) / DataforseoLabsBingRankedKeywordsLiveItem
 
 # Class: DataforseoLabsBingRankedKeywordsLiveItem
 
@@ -46,7 +46,7 @@
 
 #### Defined in
 
-main.ts:105464
+[main.ts:105320](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L105320)
 
 ## Properties
 
@@ -62,7 +62,7 @@ keyword data for the returned keyword
 
 #### Defined in
 
-main.ts:105458
+[main.ts:105314](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L105314)
 
 ___
 
@@ -78,7 +78,7 @@ contains data on the domain’s SERP element found for the returned keyword
 
 #### Defined in
 
-main.ts:105460
+[main.ts:105316](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L105316)
 
 ___
 
@@ -94,7 +94,7 @@ search engine type
 
 #### Defined in
 
-main.ts:105456
+[main.ts:105312](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L105312)
 
 ## Methods
 
@@ -114,7 +114,7 @@ main.ts:105456
 
 #### Defined in
 
-main.ts:105473
+[main.ts:105329](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L105329)
 
 ___
 
@@ -134,7 +134,7 @@ ___
 
 #### Defined in
 
-main.ts:105492
+[main.ts:105348](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L105348)
 
 ___
 
@@ -154,4 +154,4 @@ ___
 
 #### Defined in
 
-main.ts:105485
+[main.ts:105341](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L105341)

@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / DataforseoLabsLocationsAndLanguagesResultInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / DataforseoLabsLocationsAndLanguagesResultInfo
 
 # Class: DataforseoLabsLocationsAndLanguagesResultInfo
 
@@ -49,7 +49,7 @@
 
 #### Defined in
 
-main.ts:78090
+[main.ts:77946](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L77946)
 
 ## Properties
 
@@ -66,7 +66,7 @@ contains the languages which are supported for a specific location
 
 #### Defined in
 
-main.ts:78086
+[main.ts:77942](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L77942)
 
 ___
 
@@ -82,7 +82,7 @@ ISO country code of the location
 
 #### Defined in
 
-main.ts:78079
+[main.ts:77935](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L77935)
 
 ___
 
@@ -98,7 +98,7 @@ location code
 
 #### Defined in
 
-main.ts:78072
+[main.ts:77928](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L77928)
 
 ___
 
@@ -115,7 +115,7 @@ the value will be null as Country is the only supported location_type for this A
 
 #### Defined in
 
-main.ts:78077
+[main.ts:77933](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L77933)
 
 ___
 
@@ -131,7 +131,7 @@ full name of the location
 
 #### Defined in
 
-main.ts:78074
+[main.ts:77930](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L77930)
 
 ___
 
@@ -149,7 +149,7 @@ Country
 
 #### Defined in
 
-main.ts:78083
+[main.ts:77939](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L77939)
 
 ## Methods
 
@@ -169,7 +169,7 @@ main.ts:78083
 
 #### Defined in
 
-main.ts:78099
+[main.ts:77955](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L77955)
 
 ___
 
@@ -189,7 +189,7 @@ ___
 
 #### Defined in
 
-main.ts:78125
+[main.ts:77981](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L77981)
 
 ___
 
@@ -209,4 +209,4 @@ ___
 
 #### Defined in
 
-main.ts:78118
+[main.ts:77974](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L77974)

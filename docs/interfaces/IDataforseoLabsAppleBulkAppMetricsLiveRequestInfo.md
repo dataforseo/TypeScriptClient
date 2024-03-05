@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IDataforseoLabsAppleBulkAppMetricsLiveRequestInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IDataforseoLabsAppleBulkAppMetricsLiveRequestInfo
 
 # Interface: IDataforseoLabsAppleBulkAppMetricsLiveRequestInfo
 
@@ -38,7 +38,7 @@ the maximum number of IDs you can specify in this field is 1000
 
 #### Defined in
 
-main.ts:110427
+[main.ts:110283](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L110283)
 
 ___
 
@@ -57,7 +57,7 @@ en
 
 #### Defined in
 
-main.ts:110463
+[main.ts:110319](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L110319)
 
 ___
 
@@ -76,7 +76,7 @@ English
 
 #### Defined in
 
-main.ts:110454
+[main.ts:110310](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L110310)
 
 ___
 
@@ -95,7 +95,7 @@ example:
 
 #### Defined in
 
-main.ts:110445
+[main.ts:110301](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L110301)
 
 ___
 
@@ -114,7 +114,7 @@ United States
 
 #### Defined in
 
-main.ts:110436
+[main.ts:110292](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L110292)
 
 ___
 
@@ -130,4 +130,4 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:110469
+[main.ts:110325](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L110325)

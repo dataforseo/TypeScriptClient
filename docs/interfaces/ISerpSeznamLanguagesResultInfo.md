@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / ISerpSeznamLanguagesResultInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / ISerpSeznamLanguagesResultInfo
 
 # Interface: ISerpSeznamLanguagesResultInfo
 
@@ -27,7 +27,7 @@ language code according to ISO 639-1
 
 #### Defined in
 
-main.ts:69323
+[main.ts:69179](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L69179)
 
 ___
 
@@ -39,4 +39,4 @@ language name
 
 #### Defined in
 
-main.ts:69321
+[main.ts:69177](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L69177)

@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IOnPageLighthouseAuditsResultInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IOnPageLighthouseAuditsResultInfo
 
 # Interface: IOnPageLighthouseAuditsResultInfo
 
@@ -28,4 +28,4 @@ Note: the titles can change depending on if the audit passed or failed and may c
 
 #### Defined in
 
-main.ts:153876
+[main.ts:153732](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L153732)

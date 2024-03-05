@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IKeywordsDataBingKeywordPerformanceLiveRequestInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IKeywordsDataBingKeywordPerformanceLiveRequestInfo
 
 # Interface: IKeywordsDataBingKeywordPerformanceLiveRequestInfo
 
@@ -37,7 +37,7 @@ default value: all
 
 #### Defined in
 
-main.ts:127825
+[main.ts:127681](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L127681)
 
 ___
 
@@ -54,7 +54,7 @@ the specified keywords will be converted to lowercase, data will be provided in 
 
 #### Defined in
 
-main.ts:127820
+[main.ts:127676](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L127676)
 
 ___
 
@@ -70,7 +70,7 @@ example:
 
 #### Defined in
 
-main.ts:127868
+[main.ts:127724](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L127724)
 
 ___
 
@@ -87,7 +87,7 @@ English
 
 #### Defined in
 
-main.ts:127862
+[main.ts:127718](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L127718)
 
 ___
 
@@ -104,7 +104,7 @@ example:
 
 #### Defined in
 
-main.ts:127847
+[main.ts:127703](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L127703)
 
 ___
 
@@ -122,7 +122,7 @@ example:
 
 #### Defined in
 
-main.ts:127855
+[main.ts:127711](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L127711)
 
 ___
 
@@ -139,7 +139,7 @@ example:
 
 #### Defined in
 
-main.ts:127840
+[main.ts:127696](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L127696)
 
 ___
 
@@ -157,7 +157,7 @@ exact returns data for user query that matches the specified keyword;Note: the a
 
 #### Defined in
 
-main.ts:127833
+[main.ts:127689](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L127689)
 
 ___
 
@@ -173,4 +173,4 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:127874
+[main.ts:127730](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L127730)

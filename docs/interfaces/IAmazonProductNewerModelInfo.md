@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IAmazonProductNewerModelInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IAmazonProductNewerModelInfo
 
 # Interface: IAmazonProductNewerModelInfo
 
@@ -27,7 +27,7 @@ ASIN of the newer product model
 
 #### Defined in
 
-main.ts:172491
+[main.ts:172371](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L172371)
 
 ___
 
@@ -39,4 +39,4 @@ product title
 
 #### Defined in
 
-main.ts:172489
+[main.ts:172369](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L172369)

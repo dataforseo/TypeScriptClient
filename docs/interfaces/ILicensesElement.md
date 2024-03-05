@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / ILicensesElement
+[dataforseo-client](../README.md) / [Exports](../modules.md) / ILicensesElement
 
 # Interface: ILicensesElement
 
@@ -29,7 +29,7 @@ domain where a link points
 
 #### Defined in
 
-main.ts:33421
+[main.ts:33279](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L33279)
 
 ___
 
@@ -41,7 +41,7 @@ title of the row
 
 #### Defined in
 
-main.ts:33417
+[main.ts:33275](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L33275)
 
 ___
 
@@ -53,7 +53,7 @@ type of element
 
 #### Defined in
 
-main.ts:33415
+[main.ts:33273](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L33273)
 
 ___
 
@@ -65,4 +65,4 @@ URL
 
 #### Defined in
 
-main.ts:33419
+[main.ts:33277](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L33277)

@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / ISerpSeznamLocationsResultInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / ISerpSeznamLocationsResultInfo
 
 # Interface: ISerpSeznamLocationsResultInfo
 
@@ -30,7 +30,7 @@ ISO country code of the location
 
 #### Defined in
 
-main.ts:68967
+[main.ts:68823](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L68823)
 
 ___
 
@@ -42,7 +42,7 @@ location code
 
 #### Defined in
 
-main.ts:68959
+[main.ts:68815](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L68815)
 
 ___
 
@@ -56,7 +56,7 @@ don’t match locations by location_code_parent because the results for Region a
 
 #### Defined in
 
-main.ts:68965
+[main.ts:68821](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L68821)
 
 ___
 
@@ -68,7 +68,7 @@ full name of the location
 
 #### Defined in
 
-main.ts:68961
+[main.ts:68817](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L68817)
 
 ___
 
@@ -80,4 +80,4 @@ location type
 
 #### Defined in
 
-main.ts:68969
+[main.ts:68825](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L68825)

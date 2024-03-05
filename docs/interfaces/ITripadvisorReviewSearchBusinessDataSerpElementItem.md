@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / ITripadvisorReviewSearchBusinessDataSerpElementItem
+[dataforseo-client](../README.md) / [Exports](../modules.md) / ITripadvisorReviewSearchBusinessDataSerpElementItem
 
 # Interface: ITripadvisorReviewSearchBusinessDataSerpElementItem
 
@@ -46,7 +46,7 @@ example:
 
 #### Defined in
 
-main.ts:202632
+[main.ts:202512](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L202512)
 
 ___
 
@@ -59,7 +59,7 @@ can take the following values: right
 
 #### Defined in
 
-main.ts:202623
+[main.ts:202503](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L202503)
 
 ___
 
@@ -72,7 +72,7 @@ absolute position among all reviews on the list
 
 #### Defined in
 
-main.ts:202620
+[main.ts:202500](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L202500)
 
 ___
 
@@ -85,7 +85,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-main.ts:202617
+[main.ts:202497](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L202497)
 
 ___
 
@@ -97,7 +97,7 @@ the rating score submitted by the reviewer
 
 #### Defined in
 
-main.ts:202627
+[main.ts:202507](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L202507)
 
 ___
 
@@ -109,7 +109,7 @@ contains information about the owner’s response
 
 #### Defined in
 
-main.ts:202647
+[main.ts:202527](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L202527)
 
 ___
 
@@ -121,7 +121,7 @@ contains URLs of the images used in the review
 
 #### Defined in
 
-main.ts:202643
+[main.ts:202523](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L202523)
 
 ___
 
@@ -133,7 +133,7 @@ content of the review
 
 #### Defined in
 
-main.ts:202641
+[main.ts:202521](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L202521)
 
 ___
 
@@ -148,7 +148,7 @@ example:
 
 #### Defined in
 
-main.ts:202637
+[main.ts:202517](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L202517)
 
 ___
 
@@ -160,7 +160,7 @@ title of the review
 
 #### Defined in
 
-main.ts:202639
+[main.ts:202519](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L202519)
 
 ___
 
@@ -172,7 +172,7 @@ URL of the review
 
 #### Defined in
 
-main.ts:202625
+[main.ts:202505](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L202505)
 
 ___
 
@@ -184,4 +184,4 @@ information from the reviewer’s profile
 
 #### Defined in
 
-main.ts:202645
+[main.ts:202525](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L202525)

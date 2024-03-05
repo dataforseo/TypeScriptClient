@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / ContentAnalysisCategoryTrendsLiveRequestInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / ContentAnalysisCategoryTrendsLiveRequestInfo
 
 # Class: ContentAnalysisCategoryTrendsLiveRequestInfo
 
@@ -52,7 +52,7 @@
 
 #### Defined in
 
-main.ts:159380
+[main.ts:159260](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L159260)
 
 ## Properties
 
@@ -70,7 +70,7 @@ to obtain a full list of available categories, refer to the Categories endpoint
 
 #### Defined in
 
-main.ts:159311
+[main.ts:159191](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L159191)
 
 ___
 
@@ -90,7 +90,7 @@ example:
 
 #### Defined in
 
-main.ts:159341
+[main.ts:159221](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L159221)
 
 ___
 
@@ -109,7 +109,7 @@ possible values: day, week, month
 
 #### Defined in
 
-main.ts:159353
+[main.ts:159233](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L159233)
 
 ___
 
@@ -130,7 +130,7 @@ example:
 
 #### Defined in
 
-main.ts:159348
+[main.ts:159228](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L159228)
 
 ___
 
@@ -161,7 +161,7 @@ for more information about filters, please refer to Content Analysis API – Fil
 
 #### Defined in
 
-main.ts:159370
+[main.ts:159250](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L159250)
 
 ___
 
@@ -186,7 +186,7 @@ maximum value: 20
 
 #### Defined in
 
-main.ts:159335
+[main.ts:159215](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L159215)
 
 ___
 
@@ -206,7 +206,7 @@ possible values:
 
 #### Defined in
 
-main.ts:159317
+[main.ts:159197](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L159197)
 
 ___
 
@@ -227,7 +227,7 @@ default value: as_is
 
 #### Defined in
 
-main.ts:159324
+[main.ts:159204](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L159204)
 
 ___
 
@@ -247,7 +247,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:159376
+[main.ts:159256](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L159256)
 
 ## Methods
 
@@ -267,7 +267,7 @@ main.ts:159376
 
 #### Defined in
 
-main.ts:159389
+[main.ts:159269](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L159269)
 
 ___
 
@@ -287,7 +287,7 @@ ___
 
 #### Defined in
 
-main.ts:159422
+[main.ts:159302](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L159302)
 
 ___
 
@@ -307,4 +307,4 @@ ___
 
 #### Defined in
 
-main.ts:159415
+[main.ts:159295](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L159295)

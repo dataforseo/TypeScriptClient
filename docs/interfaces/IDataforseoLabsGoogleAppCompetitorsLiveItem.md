@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IDataforseoLabsGoogleAppCompetitorsLiveItem
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IDataforseoLabsGoogleAppCompetitorsLiveItem
 
 # Interface: IDataforseoLabsGoogleAppCompetitorsLiveItem
 
@@ -32,7 +32,7 @@ id of the competitor app
 
 #### Defined in
 
-main.ts:109506
+[main.ts:109362](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L109362)
 
 ___
 
@@ -46,7 +46,7 @@ the value for a given application may differ when combined with different target
 
 #### Defined in
 
-main.ts:109510
+[main.ts:109366](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L109366)
 
 ___
 
@@ -60,7 +60,7 @@ note: in this array ranking data is provided for the returned competitor’s app
 
 #### Defined in
 
-main.ts:109520
+[main.ts:109376](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L109376)
 
 ___
 
@@ -73,7 +73,7 @@ full overview of ranking data relevant to all keywords that the provided app_id 
 
 #### Defined in
 
-main.ts:109523
+[main.ts:109379](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L109379)
 
 ___
 
@@ -85,7 +85,7 @@ number of intersecting keywords
 
 #### Defined in
 
-main.ts:109516
+[main.ts:109372](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L109372)
 
 ___
 
@@ -97,7 +97,7 @@ search engine type
 
 #### Defined in
 
-main.ts:109504
+[main.ts:109360](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L109360)
 
 ___
 
@@ -111,4 +111,4 @@ the value for a given application may differ when combined with different target
 
 #### Defined in
 
-main.ts:109514
+[main.ts:109370](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L109370)

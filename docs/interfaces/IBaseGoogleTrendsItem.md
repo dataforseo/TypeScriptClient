@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IBaseGoogleTrendsItem
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IBaseGoogleTrendsItem
 
 # Interface: IBaseGoogleTrendsItem
 

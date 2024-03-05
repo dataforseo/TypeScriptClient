@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / PaidSerpElementItem
+[dataforseo-client](../README.md) / [Exports](../modules.md) / PaidSerpElementItem
 
 # Class: PaidSerpElementItem
 
@@ -73,7 +73,7 @@
 
 #### Defined in
 
-main.ts:25343
+[main.ts:25201](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L25201)
 
 ## Properties
 
@@ -87,7 +87,7 @@ main.ts:25343
 
 #### Defined in
 
-main.ts:19337
+[main.ts:19337](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L19337)
 
 ___
 
@@ -103,7 +103,7 @@ breadcrumb in SERP
 
 #### Defined in
 
-main.ts:25309
+[main.ts:25167](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L25167)
 
 ___
 
@@ -119,7 +119,7 @@ description of the results element in SERP
 
 #### Defined in
 
-main.ts:25323
+[main.ts:25181](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L25181)
 
 ___
 
@@ -136,7 +136,7 @@ if there is none, equals null
 
 #### Defined in
 
-main.ts:25326
+[main.ts:25184](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L25184)
 
 ___
 
@@ -152,7 +152,7 @@ domain where a link points
 
 #### Defined in
 
-main.ts:25307
+[main.ts:25165](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L25165)
 
 ___
 
@@ -172,7 +172,7 @@ additional information about the result
 
 #### Defined in
 
-main.ts:25321
+[main.ts:25179](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L25179)
 
 ___
 
@@ -188,7 +188,7 @@ words highlighted in bold within the results description
 
 #### Defined in
 
-main.ts:25319
+[main.ts:25177](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L25177)
 
 ___
 
@@ -204,7 +204,7 @@ images of the element
 
 #### Defined in
 
-main.ts:25315
+[main.ts:25173](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L25173)
 
 ___
 
@@ -220,7 +220,7 @@ indicates whether the element contains an image
 
 #### Defined in
 
-main.ts:25311
+[main.ts:25169](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L25169)
 
 ___
 
@@ -236,7 +236,7 @@ indicates whether the element contains a video
 
 #### Defined in
 
-main.ts:25313
+[main.ts:25171](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L25171)
 
 ___
 
@@ -254,7 +254,7 @@ if there are none, equals null
 
 #### Defined in
 
-main.ts:25330
+[main.ts:25188](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L25188)
 
 ___
 
@@ -272,7 +272,7 @@ left, right
 
 #### Defined in
 
-main.ts:25301
+[main.ts:25159](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L25159)
 
 ___
 
@@ -289,7 +289,7 @@ contains the pricing details of the product or service featured in the result
 
 #### Defined in
 
-main.ts:25333
+[main.ts:25191](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L25191)
 
 ___
 
@@ -306,7 +306,7 @@ absolute position among all the elements in SERP
 
 #### Defined in
 
-main.ts:25297
+[main.ts:25155](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L25155)
 
 ___
 
@@ -324,7 +324,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-main.ts:25294
+[main.ts:25152](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L25152)
 
 ___
 
@@ -342,7 +342,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 #### Defined in
 
-main.ts:25337
+[main.ts:25195](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L25195)
 
 ___
 
@@ -358,7 +358,7 @@ title of the result in SERP
 
 #### Defined in
 
-main.ts:25305
+[main.ts:25163](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L25163)
 
 ___
 
@@ -374,7 +374,7 @@ relevant URL in SERP
 
 #### Defined in
 
-main.ts:25317
+[main.ts:25175](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L25175)
 
 ___
 
@@ -390,7 +390,7 @@ website name in SERP
 
 #### Defined in
 
-main.ts:25339
+[main.ts:25197](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L25197)
 
 ___
 
@@ -406,7 +406,7 @@ the XPath of the element
 
 #### Defined in
 
-main.ts:25303
+[main.ts:25161](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L25161)
 
 ## Methods
 
@@ -430,7 +430,7 @@ main.ts:25303
 
 #### Defined in
 
-main.ts:25348
+[main.ts:25206](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L25206)
 
 ___
 
@@ -454,7 +454,7 @@ ___
 
 #### Defined in
 
-main.ts:25406
+[main.ts:25264](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L25264)
 
 ___
 
@@ -478,4 +478,4 @@ ___
 
 #### Defined in
 
-main.ts:25399
+[main.ts:25257](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L25257)

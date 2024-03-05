@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / AppDataGoogleAppListingsSearchLiveRequestInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / AppDataGoogleAppListingsSearchLiveRequestInfo
 
 # Class: AppDataGoogleAppListingsSearchLiveRequestInfo
 
@@ -52,7 +52,7 @@
 
 #### Defined in
 
-main.ts:182247
+[main.ts:182127](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L182127)
 
 ## Properties
 
@@ -72,7 +72,7 @@ you can specify up to 10 categories
 
 #### Defined in
 
-main.ts:182184
+[main.ts:182064](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L182064)
 
 ___
 
@@ -91,7 +91,7 @@ can contain up to 200 symbols
 
 #### Defined in
 
-main.ts:182189
+[main.ts:182069](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L182069)
 
 ___
 
@@ -116,7 +116,7 @@ you can receive the list of available filters by making a separate request to h
 
 #### Defined in
 
-main.ts:182205
+[main.ts:182085](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L182085)
 
 ___
 
@@ -135,7 +135,7 @@ maximum value: 1000
 
 #### Defined in
 
-main.ts:182224
+[main.ts:182104](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L182104)
 
 ___
 
@@ -154,7 +154,7 @@ if you specify the 10 value, the first ten entities in the results array will be
 
 #### Defined in
 
-main.ts:182229
+[main.ts:182109](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L182109)
 
 ___
 
@@ -176,7 +176,7 @@ Note: if the offset_token is specified in the request, all other parameters shou
 
 #### Defined in
 
-main.ts:182237
+[main.ts:182117](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L182117)
 
 ___
 
@@ -204,7 +204,7 @@ example:
 
 #### Defined in
 
-main.ts:182219
+[main.ts:182099](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L182099)
 
 ___
 
@@ -224,7 +224,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:182243
+[main.ts:182123](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L182123)
 
 ___
 
@@ -243,7 +243,7 @@ can contain up to 200 symbols
 
 #### Defined in
 
-main.ts:182194
+[main.ts:182074](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L182074)
 
 ## Methods
 
@@ -263,7 +263,7 @@ main.ts:182194
 
 #### Defined in
 
-main.ts:182256
+[main.ts:182136](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L182136)
 
 ___
 
@@ -283,7 +283,7 @@ ___
 
 #### Defined in
 
-main.ts:182293
+[main.ts:182173](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L182173)
 
 ___
 
@@ -303,4 +303,4 @@ ___
 
 #### Defined in
 
-main.ts:182286
+[main.ts:182166](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L182166)

@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / PageTiming
+[dataforseo-client](../README.md) / [Exports](../modules.md) / PageTiming
 
 # Class: PageTiming
 
@@ -55,7 +55,7 @@
 
 #### Defined in
 
-main.ts:144622
+[main.ts:144478](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L144478)
 
 ## Properties
 
@@ -72,7 +72,7 @@ the time it takes until the connection with a server is established (in millisec
 
 #### Defined in
 
-main.ts:144600
+[main.ts:144456](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L144456)
 
 ___
 
@@ -89,7 +89,7 @@ the time it takes until the page and all of its subresources are downloaded (in 
 
 #### Defined in
 
-main.ts:144591
+[main.ts:144447](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L144447)
 
 ___
 
@@ -105,7 +105,7 @@ time it takes for a browser to receive a response (in milliseconds)
 
 #### Defined in
 
-main.ts:144610
+[main.ts:144466](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L144466)
 
 ___
 
@@ -121,7 +121,7 @@ total time it takes until a browser receives a complete response from a server (
 
 #### Defined in
 
-main.ts:144612
+[main.ts:144468](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L144468)
 
 ___
 
@@ -138,7 +138,7 @@ the amount of time the browser needs to complete downloading a page
 
 #### Defined in
 
-main.ts:144618
+[main.ts:144474](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L144474)
 
 ___
 
@@ -155,7 +155,7 @@ the amount of time the browser needs to start downloading a page
 
 #### Defined in
 
-main.ts:144615
+[main.ts:144471](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L144471)
 
 ___
 
@@ -172,7 +172,7 @@ The time (in milliseconds) from when a user first interacts with your page to th
 
 #### Defined in
 
-main.ts:144597
+[main.ts:144453](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L144453)
 
 ___
 
@@ -189,7 +189,7 @@ The amount of time (in milliseconds) to render the largest content element visib
 
 #### Defined in
 
-main.ts:144594
+[main.ts:144450](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L144450)
 
 ___
 
@@ -206,7 +206,7 @@ the time it takes until the request to a server is sent (in milliseconds)
 
 #### Defined in
 
-main.ts:144606
+[main.ts:144462](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L144462)
 
 ___
 
@@ -223,7 +223,7 @@ the time it takes until the user can interact with a page (in milliseconds)
 
 #### Defined in
 
-main.ts:144588
+[main.ts:144444](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L144444)
 
 ___
 
@@ -240,7 +240,7 @@ the time it takes until the secure connection with a server is established (in m
 
 #### Defined in
 
-main.ts:144603
+[main.ts:144459](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L144459)
 
 ___
 
@@ -256,7 +256,7 @@ time to first byte (TTFB) in milliseconds
 
 #### Defined in
 
-main.ts:144608
+[main.ts:144464](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L144464)
 
 ## Methods
 
@@ -276,7 +276,7 @@ main.ts:144608
 
 #### Defined in
 
-main.ts:144631
+[main.ts:144487](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L144487)
 
 ___
 
@@ -296,7 +296,7 @@ ___
 
 #### Defined in
 
-main.ts:144659
+[main.ts:144515](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L144515)
 
 ___
 
@@ -316,4 +316,4 @@ ___
 
 #### Defined in
 
-main.ts:144652
+[main.ts:144508](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L144508)

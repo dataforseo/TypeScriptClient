@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / DataforseoLabsGooglePageIntersectionLiveRequestInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / DataforseoLabsGooglePageIntersectionLiveRequestInfo
 
 # Class: DataforseoLabsGooglePageIntersectionLiveRequestInfo
 
@@ -59,7 +59,7 @@
 
 #### Defined in
 
-main.ts:97017
+[main.ts:96873](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L96873)
 
 ## Properties
 
@@ -86,7 +86,7 @@ example:
 
 #### Defined in
 
-main.ts:96898
+[main.ts:96754](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L96754)
 
 ___
 
@@ -120,7 +120,7 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 #### Defined in
 
-main.ts:96991
+[main.ts:96847](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L96847)
 
 ___
 
@@ -139,7 +139,7 @@ default value: false
 
 #### Defined in
 
-main.ts:96971
+[main.ts:96827](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L96827)
 
 ___
 
@@ -158,7 +158,7 @@ default value: false
 
 #### Defined in
 
-main.ts:96966
+[main.ts:96822](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L96822)
 
 ___
 
@@ -177,7 +177,7 @@ default value: true
 
 #### Defined in
 
-main.ts:96953
+[main.ts:96809](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L96809)
 
 ___
 
@@ -199,7 +199,7 @@ by default, results are based on the intersect mode if you specify only pages ar
 
 #### Defined in
 
-main.ts:96961
+[main.ts:96817](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L96817)
 
 ___
 
@@ -221,7 +221,7 @@ default value:
 
 #### Defined in
 
-main.ts:96938
+[main.ts:96794](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L96794)
 
 ___
 
@@ -243,7 +243,7 @@ en
 
 #### Defined in
 
-main.ts:96930
+[main.ts:96786](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L96786)
 
 ___
 
@@ -265,7 +265,7 @@ English
 
 #### Defined in
 
-main.ts:96922
+[main.ts:96778](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L96778)
 
 ___
 
@@ -284,7 +284,7 @@ maximum value: 1000
 
 #### Defined in
 
-main.ts:96943
+[main.ts:96799](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L96799)
 
 ___
 
@@ -306,7 +306,7 @@ example:
 
 #### Defined in
 
-main.ts:96914
+[main.ts:96770](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L96770)
 
 ___
 
@@ -328,7 +328,7 @@ United Kingdom
 
 #### Defined in
 
-main.ts:96906
+[main.ts:96762](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L96762)
 
 ___
 
@@ -347,7 +347,7 @@ if you specify 10 here, the first ten keywords in the results array will be omit
 
 #### Defined in
 
-main.ts:96948
+[main.ts:96804](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L96804)
 
 ___
 
@@ -377,7 +377,7 @@ example:
 
 #### Defined in
 
-main.ts:97007
+[main.ts:96863](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L96863)
 
 ___
 
@@ -416,7 +416,7 @@ Note: this endpoint will not provide results if the number of intersecting keywo
 
 #### Defined in
 
-main.ts:96885
+[main.ts:96741](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L96741)
 
 ___
 
@@ -436,7 +436,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:97013
+[main.ts:96869](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L96869)
 
 ## Methods
 
@@ -456,7 +456,7 @@ main.ts:97013
 
 #### Defined in
 
-main.ts:97026
+[main.ts:96882](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L96882)
 
 ___
 
@@ -476,7 +476,7 @@ ___
 
 #### Defined in
 
-main.ts:97080
+[main.ts:96936](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L96936)
 
 ___
 
@@ -496,4 +496,4 @@ ___
 
 #### Defined in
 
-main.ts:97073
+[main.ts:96929](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L96929)

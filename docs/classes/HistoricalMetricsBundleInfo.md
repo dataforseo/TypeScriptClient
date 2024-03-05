@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / HistoricalMetricsBundleInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / HistoricalMetricsBundleInfo
 
 # Class: HistoricalMetricsBundleInfo
 
@@ -47,7 +47,7 @@
 
 #### Defined in
 
-main.ts:98406
+[main.ts:98262](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L98262)
 
 ## Properties
 
@@ -63,7 +63,7 @@ traffic data from the local pack results in SERP
 
 #### Defined in
 
-main.ts:98402
+[main.ts:98258](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L98258)
 
 ___
 
@@ -79,7 +79,7 @@ traffic data from the featured snippet results in Google SERP
 
 #### Defined in
 
-main.ts:98400
+[main.ts:98256](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L98256)
 
 ___
 
@@ -95,7 +95,7 @@ traffic data from organic search
 
 #### Defined in
 
-main.ts:98396
+[main.ts:98252](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L98252)
 
 ___
 
@@ -111,7 +111,7 @@ traffic data from paid search
 
 #### Defined in
 
-main.ts:98398
+[main.ts:98254](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L98254)
 
 ## Methods
 
@@ -131,7 +131,7 @@ main.ts:98398
 
 #### Defined in
 
-main.ts:98415
+[main.ts:98271](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L98271)
 
 ___
 
@@ -151,7 +151,7 @@ ___
 
 #### Defined in
 
-main.ts:98451
+[main.ts:98307](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L98307)
 
 ___
 
@@ -171,4 +171,4 @@ ___
 
 #### Defined in
 
-main.ts:98444
+[main.ts:98300](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L98300)

@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / OnPageKeywordDensityResultInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / OnPageKeywordDensityResultInfo
 
 # Class: OnPageKeywordDensityResultInfo
 
@@ -48,7 +48,7 @@
 
 #### Defined in
 
-main.ts:150457
+[main.ts:150313](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L150313)
 
 ## Properties
 
@@ -65,7 +65,7 @@ possible values: in_progress, finished
 
 #### Defined in
 
-main.ts:150444
+[main.ts:150300](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L150300)
 
 ___
 
@@ -81,7 +81,7 @@ details of the crawling session
 
 #### Defined in
 
-main.ts:150446
+[main.ts:150302](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L150302)
 
 ___
 
@@ -97,7 +97,7 @@ items array
 
 #### Defined in
 
-main.ts:150453
+[main.ts:150309](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L150309)
 
 ___
 
@@ -113,7 +113,7 @@ number of items in the results array
 
 #### Defined in
 
-main.ts:150451
+[main.ts:150307](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L150307)
 
 ___
 
@@ -130,7 +130,7 @@ total number of keywords on the specified website or web page matching the set k
 
 #### Defined in
 
-main.ts:150449
+[main.ts:150305](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L150305)
 
 ## Methods
 
@@ -150,7 +150,7 @@ main.ts:150449
 
 #### Defined in
 
-main.ts:150466
+[main.ts:150322](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L150322)
 
 ___
 
@@ -170,7 +170,7 @@ ___
 
 #### Defined in
 
-main.ts:150491
+[main.ts:150347](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L150347)
 
 ___
 
@@ -190,4 +190,4 @@ ___
 
 #### Defined in
 
-main.ts:150484
+[main.ts:150340](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L150340)

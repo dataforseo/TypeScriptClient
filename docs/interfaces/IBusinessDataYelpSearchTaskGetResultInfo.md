@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IBusinessDataYelpSearchTaskGetResultInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IBusinessDataYelpSearchTaskGetResultInfo
 
 # Interface: IBusinessDataYelpSearchTaskGetResultInfo
 
@@ -36,7 +36,7 @@ you can use it to make sure that we provided accurate results
 
 #### Defined in
 
-main.ts:204661
+[main.ts:204541](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L204541)
 
 ___
 
@@ -51,7 +51,7 @@ example:
 
 #### Defined in
 
-main.ts:204666
+[main.ts:204546](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L204546)
 
 ___
 
@@ -64,7 +64,7 @@ possible item types: yelp_search_organic, yelp_search_paid
 
 #### Defined in
 
-main.ts:204669
+[main.ts:204549](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L204549)
 
 ___
 
@@ -77,7 +77,7 @@ you can get more results by using the depth parameter when setting a task
 
 #### Defined in
 
-main.ts:204677
+[main.ts:204557](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L204557)
 
 ___
 
@@ -90,7 +90,7 @@ you can get more results by using the depth parameter when setting a task
 
 #### Defined in
 
-main.ts:204674
+[main.ts:204554](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L204554)
 
 ___
 
@@ -103,7 +103,7 @@ this field will contain the alias parameter if it was specified in a POST array
 
 #### Defined in
 
-main.ts:204651
+[main.ts:204531](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L204531)
 
 ___
 
@@ -115,7 +115,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:204658
+[main.ts:204538](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L204538)
 
 ___
 
@@ -128,7 +128,7 @@ if location_code was not specified in a POST array, the value equals null
 
 #### Defined in
 
-main.ts:204656
+[main.ts:204536](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L204536)
 
 ___
 
@@ -140,7 +140,7 @@ search engine domain in a POST array
 
 #### Defined in
 
-main.ts:204653
+[main.ts:204533](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L204533)
 
 ___
 
@@ -152,4 +152,4 @@ the total number of results
 
 #### Defined in
 
-main.ts:204671
+[main.ts:204551](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L204551)

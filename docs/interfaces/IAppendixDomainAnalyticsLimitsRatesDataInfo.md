@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IAppendixDomainAnalyticsLimitsRatesDataInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IAppendixDomainAnalyticsLimitsRatesDataInfo
 
 # Interface: IAppendixDomainAnalyticsLimitsRatesDataInfo
 
@@ -27,7 +27,7 @@
 
 #### Defined in
 
-main.ts:207545
+[main.ts:207425](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L207425)
 
 ___
 
@@ -37,7 +37,7 @@ ___
 
 #### Defined in
 
-main.ts:207544
+[main.ts:207424](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L207424)
 
 ___
 
@@ -47,7 +47,7 @@ ___
 
 #### Defined in
 
-main.ts:207547
+[main.ts:207427](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L207427)
 
 ___
 
@@ -57,4 +57,4 @@ ___
 
 #### Defined in
 
-main.ts:207546
+[main.ts:207426](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L207426)

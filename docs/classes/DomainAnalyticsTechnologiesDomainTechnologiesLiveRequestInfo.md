@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / DomainAnalyticsTechnologiesDomainTechnologiesLiveRequestInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / DomainAnalyticsTechnologiesDomainTechnologiesLiveRequestInfo
 
 # Class: DomainAnalyticsTechnologiesDomainTechnologiesLiveRequestInfo
 
@@ -44,7 +44,7 @@
 
 #### Defined in
 
-main.ts:75211
+[main.ts:75067](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L75067)
 
 ## Properties
 
@@ -63,7 +63,7 @@ Note: results will be returned for the specified domain only
 
 #### Defined in
 
-main.ts:75207
+[main.ts:75063](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L75063)
 
 ## Methods
 
@@ -83,7 +83,7 @@ main.ts:75207
 
 #### Defined in
 
-main.ts:75220
+[main.ts:75076](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L75076)
 
 ___
 
@@ -103,7 +103,7 @@ ___
 
 #### Defined in
 
-main.ts:75237
+[main.ts:75093](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L75093)
 
 ___
 
@@ -123,4 +123,4 @@ ___
 
 #### Defined in
 
-main.ts:75230
+[main.ts:75086](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L75086)

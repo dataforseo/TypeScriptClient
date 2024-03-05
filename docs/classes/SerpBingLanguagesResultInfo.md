@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / SerpBingLanguagesResultInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / SerpBingLanguagesResultInfo
 
 # Class: SerpBingLanguagesResultInfo
 
@@ -45,7 +45,7 @@
 
 #### Defined in
 
-main.ts:53664
+[main.ts:53522](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L53522)
 
 ## Properties
 
@@ -61,7 +61,7 @@ language code according to ISO 639-1
 
 #### Defined in
 
-main.ts:53660
+[main.ts:53518](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L53518)
 
 ___
 
@@ -77,7 +77,7 @@ language name
 
 #### Defined in
 
-main.ts:53658
+[main.ts:53516](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L53516)
 
 ## Methods
 
@@ -97,7 +97,7 @@ main.ts:53658
 
 #### Defined in
 
-main.ts:53673
+[main.ts:53531](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L53531)
 
 ___
 
@@ -117,7 +117,7 @@ ___
 
 #### Defined in
 
-main.ts:53691
+[main.ts:53549](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L53549)
 
 ___
 
@@ -137,4 +137,4 @@ ___
 
 #### Defined in
 
-main.ts:53684
+[main.ts:53542](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L53542)

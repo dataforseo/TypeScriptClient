@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IDataforseoLabsGoogleSearchIntentLiveItem
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IDataforseoLabsGoogleSearchIntentLiveItem
 
 # Interface: IDataforseoLabsGoogleSearchIntentLiveItem
 
@@ -28,7 +28,7 @@ target keyword in a POST array
 
 #### Defined in
 
-main.ts:83057
+[main.ts:82913](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L82913)
 
 ___
 
@@ -40,7 +40,7 @@ search intent data relevant for the specified keyword
 
 #### Defined in
 
-main.ts:83059
+[main.ts:82915](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L82915)
 
 ___
 
@@ -52,4 +52,4 @@ contains objects with other possible search intents for the specified keyword
 
 #### Defined in
 
-main.ts:83061
+[main.ts:82917](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L82917)

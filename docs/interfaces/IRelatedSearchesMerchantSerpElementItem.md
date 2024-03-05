@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IRelatedSearchesMerchantSerpElementItem
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IRelatedSearchesMerchantSerpElementItem
 
 # Interface: IRelatedSearchesMerchantSerpElementItem
 
@@ -37,7 +37,7 @@ if there are none, equals null
 
 #### Defined in
 
-main.ts:165484
+[main.ts:165364](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L165364)
 
 ___
 
@@ -51,7 +51,7 @@ left, right
 
 #### Defined in
 
-main.ts:165479
+[main.ts:165359](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L165359)
 
 ___
 
@@ -64,7 +64,7 @@ absolute position among all the elements found in Google Shopping SERP
 
 #### Defined in
 
-main.ts:165475
+[main.ts:165355](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L165355)
 
 ___
 
@@ -77,7 +77,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-main.ts:165472
+[main.ts:165352](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L165352)
 
 ___
 
@@ -89,4 +89,4 @@ XPath of the element
 
 #### Defined in
 
-main.ts:165481
+[main.ts:165361](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L165361)

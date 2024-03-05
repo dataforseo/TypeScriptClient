@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IDataforseoLabsAmazonProductCompetitorsLiveRequestInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IDataforseoLabsAmazonProductCompetitorsLiveRequestInfo
 
 # Interface: IDataforseoLabsAmazonProductCompetitorsLiveRequestInfo
 
@@ -38,7 +38,7 @@ you can receive the asin parameter by making a separate request to the Amazon Pr
 
 #### Defined in
 
-main.ts:101274
+[main.ts:101130](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L101130)
 
 ___
 
@@ -59,7 +59,7 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 #### Defined in
 
-main.ts:101320
+[main.ts:101176](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L101176)
 
 ___
 
@@ -76,7 +76,7 @@ en
 
 #### Defined in
 
-main.ts:101304
+[main.ts:101160](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L101160)
 
 ___
 
@@ -93,7 +93,7 @@ English
 
 #### Defined in
 
-main.ts:101297
+[main.ts:101153](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L101153)
 
 ___
 
@@ -108,7 +108,7 @@ maximum value: 1000
 
 #### Defined in
 
-main.ts:101309
+[main.ts:101165](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L101165)
 
 ___
 
@@ -126,7 +126,7 @@ example:
 
 #### Defined in
 
-main.ts:101290
+[main.ts:101146](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L101146)
 
 ___
 
@@ -144,7 +144,7 @@ United States
 
 #### Defined in
 
-main.ts:101282
+[main.ts:101138](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L101138)
 
 ___
 
@@ -159,7 +159,7 @@ if you specify the 10 value, the first ten product competitors in the results ar
 
 #### Defined in
 
-main.ts:101341
+[main.ts:101197](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L101197)
 
 ___
 
@@ -185,7 +185,7 @@ default rule:
 
 #### Defined in
 
-main.ts:101336
+[main.ts:101192](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L101192)
 
 ___
 
@@ -201,4 +201,4 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:101347
+[main.ts:101203](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L101203)

@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IBacklinksReferringDomainsLiveRequestInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IBacklinksReferringDomainsLiveRequestInfo
 
 # Interface: IBacklinksReferringDomainsLiveRequestInfo
 
@@ -43,7 +43,7 @@ example:
 
 #### Defined in
 
-main.ts:134776
+[main.ts:134632](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L134632)
 
 ___
 
@@ -62,7 +62,7 @@ default value: live
 
 #### Defined in
 
-main.ts:134737
+[main.ts:134593](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L134593)
 
 ___
 
@@ -77,7 +77,7 @@ default value: true
 
 #### Defined in
 
-main.ts:134792
+[main.ts:134648](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L134648)
 
 ___
 
@@ -104,7 +104,7 @@ The full list of possible filters is available here.
 
 #### Defined in
 
-main.ts:134754
+[main.ts:134610](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L134610)
 
 ___
 
@@ -120,7 +120,7 @@ default value: true
 
 #### Defined in
 
-main.ts:134787
+[main.ts:134643](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L134643)
 
 ___
 
@@ -135,7 +135,7 @@ default value: true
 
 #### Defined in
 
-main.ts:134781
+[main.ts:134637](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L134637)
 
 ___
 
@@ -156,7 +156,7 @@ maximum value: 1000
 
 #### Defined in
 
-main.ts:134728
+[main.ts:134584](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L134584)
 
 ___
 
@@ -171,7 +171,7 @@ maximum value: 1000
 
 #### Defined in
 
-main.ts:134712
+[main.ts:134568](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L134568)
 
 ___
 
@@ -186,7 +186,7 @@ if you specify the 10 value, the first ten domains in the results array will be 
 
 #### Defined in
 
-main.ts:134717
+[main.ts:134573](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L134573)
 
 ___
 
@@ -210,7 +210,7 @@ example:
 
 #### Defined in
 
-main.ts:134768
+[main.ts:134624](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L134624)
 
 ___
 
@@ -226,7 +226,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:134798
+[main.ts:134654](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L134654)
 
 ___
 
@@ -241,4 +241,4 @@ a page should be specified with absolute URL (including http:// or https://)
 
 #### Defined in
 
-main.ts:134707
+[main.ts:134563](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L134563)

@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IAmazonRankedSerpElement
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IAmazonRankedSerpElement
 
 # Interface: IAmazonRankedSerpElement
 
@@ -33,7 +33,7 @@ you can use it to make sure that we provided accurate results
 
 #### Defined in
 
-main.ts:100272
+[main.ts:100128](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L100128)
 
 ___
 
@@ -48,7 +48,7 @@ example:
 
 #### Defined in
 
-main.ts:100284
+[main.ts:100140](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L100140)
 
 ___
 
@@ -63,7 +63,7 @@ example:
 
 #### Defined in
 
-main.ts:100289
+[main.ts:100145](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L100145)
 
 ___
 
@@ -75,7 +75,7 @@ total number of results in Amazon SERP
 
 #### Defined in
 
-main.ts:100279
+[main.ts:100135](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L100135)
 
 ___
 
@@ -87,7 +87,7 @@ search engine type
 
 #### Defined in
 
-main.ts:100266
+[main.ts:100122](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L100122)
 
 ___
 
@@ -100,7 +100,7 @@ the list of supported SERP elements can be found below
 
 #### Defined in
 
-main.ts:100269
+[main.ts:100125](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L100125)
 
 ___
 
@@ -115,4 +115,4 @@ amazon_serp, amazon_paid, editorial_recommendations, top_rated_from_our_brands, 
 
 #### Defined in
 
-main.ts:100277
+[main.ts:100133](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L100133)

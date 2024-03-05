@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IAmazonKeywordData
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IAmazonKeywordData
 
 # Interface: IAmazonKeywordData
 
@@ -30,7 +30,7 @@ related keyword
 
 #### Defined in
 
-main.ts:21372
+[main.ts:21372](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L21372)
 
 ___
 
@@ -42,7 +42,7 @@ keyword info for the returned keyword
 
 #### Defined in
 
-main.ts:21378
+[main.ts:21378](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L21378)
 
 ___
 
@@ -54,7 +54,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:21376
+[main.ts:21376](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L21376)
 
 ___
 
@@ -66,7 +66,7 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:21374
+[main.ts:21374](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L21374)
 
 ___
 
@@ -78,4 +78,4 @@ search engine type
 
 #### Defined in
 
-main.ts:21370
+[main.ts:21370](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L21370)

@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / AppsInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / AppsInfo
 
 # Class: AppsInfo
 
@@ -46,7 +46,7 @@
 
 #### Defined in
 
-main.ts:179888
+[main.ts:179768](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L179768)
 
 ## Properties
 
@@ -62,7 +62,7 @@ ID of the app
 
 #### Defined in
 
-main.ts:179880
+[main.ts:179760](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L179760)
 
 ___
 
@@ -78,7 +78,7 @@ title of the app
 
 #### Defined in
 
-main.ts:179882
+[main.ts:179762](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L179762)
 
 ___
 
@@ -94,7 +94,7 @@ URL to the app page on Google Play
 
 #### Defined in
 
-main.ts:179884
+[main.ts:179764](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L179764)
 
 ## Methods
 
@@ -114,7 +114,7 @@ main.ts:179884
 
 #### Defined in
 
-main.ts:179897
+[main.ts:179777](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L179777)
 
 ___
 
@@ -134,7 +134,7 @@ ___
 
 #### Defined in
 
-main.ts:179916
+[main.ts:179796](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L179796)
 
 ___
 
@@ -154,4 +154,4 @@ ___
 
 #### Defined in
 
-main.ts:179909
+[main.ts:179789](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L179789)

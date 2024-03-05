@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IDataforseoLabsBingRankedKeywordsLiveItem
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IDataforseoLabsBingRankedKeywordsLiveItem
 
 # Interface: IDataforseoLabsBingRankedKeywordsLiveItem
 
@@ -28,7 +28,7 @@ keyword data for the returned keyword
 
 #### Defined in
 
-main.ts:105509
+[main.ts:105365](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L105365)
 
 ___
 
@@ -40,7 +40,7 @@ contains data on the domain’s SERP element found for the returned keyword
 
 #### Defined in
 
-main.ts:105511
+[main.ts:105367](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L105367)
 
 ___
 
@@ -52,4 +52,4 @@ search engine type
 
 #### Defined in
 
-main.ts:105507
+[main.ts:105363](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L105363)

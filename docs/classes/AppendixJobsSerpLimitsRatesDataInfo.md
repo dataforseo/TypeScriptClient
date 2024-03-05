@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / AppendixJobsSerpLimitsRatesDataInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / AppendixJobsSerpLimitsRatesDataInfo
 
 # Class: AppendixJobsSerpLimitsRatesDataInfo
 
@@ -44,7 +44,7 @@
 
 #### Defined in
 
-main.ts:206661
+[main.ts:206541](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L206541)
 
 ## Properties
 
@@ -58,7 +58,7 @@ main.ts:206661
 
 #### Defined in
 
-main.ts:206657
+[main.ts:206537](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L206537)
 
 ## Methods
 
@@ -78,7 +78,7 @@ main.ts:206657
 
 #### Defined in
 
-main.ts:206670
+[main.ts:206550](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L206550)
 
 ___
 
@@ -98,7 +98,7 @@ ___
 
 #### Defined in
 
-main.ts:206687
+[main.ts:206567](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L206567)
 
 ___
 
@@ -118,4 +118,4 @@ ___
 
 #### Defined in
 
-main.ts:206680
+[main.ts:206560](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L206560)

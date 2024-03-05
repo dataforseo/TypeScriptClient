@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / BusinessDataGoogleHotelInfoLiveHtmlResultInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / BusinessDataGoogleHotelInfoLiveHtmlResultInfo
 
 # Class: BusinessDataGoogleHotelInfoLiveHtmlResultInfo
 
@@ -51,7 +51,7 @@
 
 #### Defined in
 
-main.ts:197684
+[main.ts:197564](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L197564)
 
 ## Properties
 
@@ -70,7 +70,7 @@ example:
 
 #### Defined in
 
-main.ts:197676
+[main.ts:197556](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L197556)
 
 ___
 
@@ -86,7 +86,7 @@ HTML pages
 
 #### Defined in
 
-main.ts:197680
+[main.ts:197560](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L197560)
 
 ___
 
@@ -102,7 +102,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:197678
+[main.ts:197558](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L197558)
 
 ___
 
@@ -118,7 +118,7 @@ unique hotel identifier specified as "hotel_id:$"
 
 #### Defined in
 
-main.ts:197663
+[main.ts:197543](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L197543)
 
 ___
 
@@ -134,7 +134,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:197671
+[main.ts:197551](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L197551)
 
 ___
 
@@ -150,7 +150,7 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:197669
+[main.ts:197549](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L197549)
 
 ___
 
@@ -166,7 +166,7 @@ search engine domain in a POST array
 
 #### Defined in
 
-main.ts:197667
+[main.ts:197547](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L197547)
 
 ___
 
@@ -182,7 +182,7 @@ type of element
 
 #### Defined in
 
-main.ts:197665
+[main.ts:197545](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L197545)
 
 ## Methods
 
@@ -202,7 +202,7 @@ main.ts:197665
 
 #### Defined in
 
-main.ts:197693
+[main.ts:197573](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L197573)
 
 ___
 
@@ -222,7 +222,7 @@ ___
 
 #### Defined in
 
-main.ts:197721
+[main.ts:197601](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L197601)
 
 ___
 
@@ -242,4 +242,4 @@ ___
 
 #### Defined in
 
-main.ts:197714
+[main.ts:197594](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L197594)

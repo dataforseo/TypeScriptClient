@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IOnPageNonIndexableRequestInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IOnPageNonIndexableRequestInfo
 
 # Interface: IOnPageNonIndexableRequestInfo
 
@@ -43,7 +43,7 @@ The full list of possible filters is available by this link.
 
 #### Defined in
 
-main.ts:149516
+[main.ts:149372](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L149372)
 
 ___
 
@@ -59,7 +59,7 @@ example:
 
 #### Defined in
 
-main.ts:149490
+[main.ts:149346](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L149346)
 
 ___
 
@@ -74,7 +74,7 @@ maximum value: 1000
 
 #### Defined in
 
-main.ts:149495
+[main.ts:149351](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L149351)
 
 ___
 
@@ -89,4 +89,4 @@ if you specify the 10 value, the first ten pages in the results array will be om
 
 #### Defined in
 
-main.ts:149500
+[main.ts:149356](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L149356)

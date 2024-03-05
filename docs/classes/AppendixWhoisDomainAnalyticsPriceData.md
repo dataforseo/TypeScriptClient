@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / AppendixWhoisDomainAnalyticsPriceData
+[dataforseo-client](../README.md) / [Exports](../modules.md) / AppendixWhoisDomainAnalyticsPriceData
 
 # Class: AppendixWhoisDomainAnalyticsPriceData
 
@@ -44,7 +44,7 @@
 
 #### Defined in
 
-main.ts:211883
+[main.ts:211763](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L211763)
 
 ## Properties
 
@@ -58,7 +58,7 @@ main.ts:211883
 
 #### Defined in
 
-main.ts:211879
+[main.ts:211759](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L211759)
 
 ## Methods
 
@@ -78,7 +78,7 @@ main.ts:211879
 
 #### Defined in
 
-main.ts:211892
+[main.ts:211772](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L211772)
 
 ___
 
@@ -98,7 +98,7 @@ ___
 
 #### Defined in
 
-main.ts:211909
+[main.ts:211789](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L211789)
 
 ___
 
@@ -118,4 +118,4 @@ ___
 
 #### Defined in
 
-main.ts:211902
+[main.ts:211782](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L211782)

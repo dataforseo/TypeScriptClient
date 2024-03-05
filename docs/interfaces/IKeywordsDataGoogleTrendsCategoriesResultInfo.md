@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IKeywordsDataGoogleTrendsCategoriesResultInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IKeywordsDataGoogleTrendsCategoriesResultInfo
 
 # Interface: IKeywordsDataGoogleTrendsCategoriesResultInfo
 
@@ -28,7 +28,7 @@ unique google trends category identifier
 
 #### Defined in
 
-main.ts:119803
+[main.ts:119659](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L119659)
 
 ___
 
@@ -47,7 +47,7 @@ where category_code_parent corresponds to:
 
 #### Defined in
 
-main.ts:119814
+[main.ts:119670](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L119670)
 
 ___
 
@@ -59,4 +59,4 @@ name of the google trends category
 
 #### Defined in
 
-main.ts:119805
+[main.ts:119661](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L119661)

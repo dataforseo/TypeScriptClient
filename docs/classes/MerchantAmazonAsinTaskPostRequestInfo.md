@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / MerchantAmazonAsinTaskPostRequestInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / MerchantAmazonAsinTaskPostRequestInfo
 
 # Class: MerchantAmazonAsinTaskPostRequestInfo
 
@@ -55,7 +55,7 @@
 
 #### Defined in
 
-main.ts:171981
+[main.ts:171861](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L171861)
 
 ## Properties
 
@@ -74,7 +74,7 @@ you can receive the asin parameter by making a separate request to the Amazon Pr
 
 #### Defined in
 
-main.ts:171891
+[main.ts:171771](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L171771)
 
 ___
 
@@ -95,7 +95,7 @@ en_GB
 
 #### Defined in
 
-main.ts:171938
+[main.ts:171818](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L171818)
 
 ___
 
@@ -117,7 +117,7 @@ English (United Kingdom)
 
 #### Defined in
 
-main.ts:171931
+[main.ts:171811](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L171811)
 
 ___
 
@@ -139,7 +139,7 @@ example:
 
 #### Defined in
 
-main.ts:171914
+[main.ts:171794](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L171794)
 
 ___
 
@@ -162,7 +162,7 @@ example:
 
 #### Defined in
 
-main.ts:171923
+[main.ts:171803](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L171803)
 
 ___
 
@@ -183,7 +183,7 @@ HA1,England,United Kingdom
 
 #### Defined in
 
-main.ts:171906
+[main.ts:171786](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L171786)
 
 ___
 
@@ -207,7 +207,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-main.ts:171977
+[main.ts:171857](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L171857)
 
 ___
 
@@ -227,7 +227,7 @@ advanced, html
 
 #### Defined in
 
-main.ts:171967
+[main.ts:171847](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L171847)
 
 ___
 
@@ -251,7 +251,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-main.ts:171961
+[main.ts:171841](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L171841)
 
 ___
 
@@ -273,7 +273,7 @@ The cost can be calculated on the Pricing page.
 
 #### Defined in
 
-main.ts:171899
+[main.ts:171779](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L171779)
 
 ___
 
@@ -294,7 +294,7 @@ amazon.com, amazon.co.uk, amazon.fr, etc.
 
 #### Defined in
 
-main.ts:171945
+[main.ts:171825](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L171825)
 
 ___
 
@@ -314,7 +314,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:171951
+[main.ts:171831](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L171831)
 
 ## Methods
 
@@ -334,7 +334,7 @@ main.ts:171951
 
 #### Defined in
 
-main.ts:171990
+[main.ts:171870](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L171870)
 
 ___
 
@@ -354,7 +354,7 @@ ___
 
 #### Defined in
 
-main.ts:172018
+[main.ts:171898](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L171898)
 
 ___
 
@@ -374,4 +374,4 @@ ___
 
 #### Defined in
 
-main.ts:172011
+[main.ts:171891](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L171891)

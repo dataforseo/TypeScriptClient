@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / DataforseoLabsGoogleDomainMetricsByCategoriesLiveItem
+[dataforseo-client](../README.md) / [Exports](../modules.md) / DataforseoLabsGoogleDomainMetricsByCategoriesLiveItem
 
 # Class: DataforseoLabsGoogleDomainMetricsByCategoriesLiveItem
 
@@ -53,7 +53,7 @@
 
 #### Defined in
 
-main.ts:84793
+[main.ts:84649](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L84649)
 
 ## Properties
 
@@ -69,7 +69,7 @@ domain found for the specified category
 
 #### Defined in
 
-main.ts:84782
+[main.ts:84638](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L84638)
 
 ___
 
@@ -85,7 +85,7 @@ primary domain
 
 #### Defined in
 
-main.ts:84784
+[main.ts:84640](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L84640)
 
 ___
 
@@ -106,7 +106,7 @@ calculated by subtracting domain metrics as of the greater date from domain metr
 
 #### Defined in
 
-main.ts:84789
+[main.ts:84645](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L84645)
 
 ___
 
@@ -126,7 +126,7 @@ historical ranking and traffic data of the domain
 
 #### Defined in
 
-main.ts:84786
+[main.ts:84642](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L84642)
 
 ___
 
@@ -142,7 +142,7 @@ current total count of organic SERPs that contain the domain
 
 #### Defined in
 
-main.ts:84774
+[main.ts:84630](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L84630)
 
 ___
 
@@ -158,7 +158,7 @@ current organic ETV of the domain
 
 #### Defined in
 
-main.ts:84772
+[main.ts:84628](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L84628)
 
 ___
 
@@ -175,7 +175,7 @@ indicates how many ranked elements of the domain were previously presented in SE
 
 #### Defined in
 
-main.ts:84777
+[main.ts:84633](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L84633)
 
 ___
 
@@ -192,7 +192,7 @@ indicates how many new ranked elements were found for the domain
 
 #### Defined in
 
-main.ts:84780
+[main.ts:84636](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L84636)
 
 ___
 
@@ -208,7 +208,7 @@ search engine type
 
 #### Defined in
 
-main.ts:84768
+[main.ts:84624](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L84624)
 
 ___
 
@@ -224,7 +224,7 @@ categories for which domains are collected
 
 #### Defined in
 
-main.ts:84770
+[main.ts:84626](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L84626)
 
 ## Methods
 
@@ -244,7 +244,7 @@ main.ts:84770
 
 #### Defined in
 
-main.ts:84802
+[main.ts:84658](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L84658)
 
 ___
 
@@ -264,7 +264,7 @@ ___
 
 #### Defined in
 
-main.ts:84844
+[main.ts:84700](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L84700)
 
 ___
 
@@ -284,4 +284,4 @@ ___
 
 #### Defined in
 
-main.ts:84837
+[main.ts:84693](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L84693)

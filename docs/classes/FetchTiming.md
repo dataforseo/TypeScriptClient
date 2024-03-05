@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / FetchTiming
+[dataforseo-client](../README.md) / [Exports](../modules.md) / FetchTiming
 
 # Class: FetchTiming
 
@@ -46,7 +46,7 @@
 
 #### Defined in
 
-main.ts:146167
+[main.ts:146023](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L146023)
 
 ## Properties
 
@@ -62,7 +62,7 @@ indicates how many milliseconds it took to fetch a resource
 
 #### Defined in
 
-main.ts:146157
+[main.ts:146013](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L146013)
 
 ___
 
@@ -79,7 +79,7 @@ the amount of time a browser needs to complete downloading a resource
 
 #### Defined in
 
-main.ts:146163
+[main.ts:146019](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L146019)
 
 ___
 
@@ -96,7 +96,7 @@ the amount of time a browser needs to start downloading a resource
 
 #### Defined in
 
-main.ts:146160
+[main.ts:146016](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L146016)
 
 ## Methods
 
@@ -116,7 +116,7 @@ main.ts:146160
 
 #### Defined in
 
-main.ts:146176
+[main.ts:146032](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L146032)
 
 ___
 
@@ -136,7 +136,7 @@ ___
 
 #### Defined in
 
-main.ts:146195
+[main.ts:146051](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L146051)
 
 ___
 
@@ -156,4 +156,4 @@ ___
 
 #### Defined in
 
-main.ts:146188
+[main.ts:146044](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L146044)

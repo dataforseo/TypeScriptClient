@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / ReviewMentionInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / ReviewMentionInfo
 
 # Class: ReviewMentionInfo
 
@@ -49,7 +49,7 @@
 
 #### Defined in
 
-main.ts:195898
+[main.ts:195778](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L195778)
 
 ## Properties
 
@@ -65,7 +65,7 @@ count of negative reviews by criterion
 
 #### Defined in
 
-main.ts:195889
+[main.ts:195769](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L195769)
 
 ___
 
@@ -81,7 +81,7 @@ count of positive reviews by criterion
 
 #### Defined in
 
-main.ts:195887
+[main.ts:195767](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L195767)
 
 ___
 
@@ -97,7 +97,7 @@ positive score by criterion
 
 #### Defined in
 
-main.ts:195885
+[main.ts:195765](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L195765)
 
 ___
 
@@ -113,7 +113,7 @@ title of the evaluated criterion
 
 #### Defined in
 
-main.ts:195883
+[main.ts:195763](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L195763)
 
 ___
 
@@ -129,7 +129,7 @@ count of all reviews by criterion
 
 #### Defined in
 
-main.ts:195891
+[main.ts:195771](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L195771)
 
 ___
 
@@ -146,7 +146,7 @@ indicates whether the review element is visible by default
 
 #### Defined in
 
-main.ts:195894
+[main.ts:195774](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L195774)
 
 ## Methods
 
@@ -166,7 +166,7 @@ main.ts:195894
 
 #### Defined in
 
-main.ts:195907
+[main.ts:195787](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L195787)
 
 ___
 
@@ -186,7 +186,7 @@ ___
 
 #### Defined in
 
-main.ts:195929
+[main.ts:195809](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L195809)
 
 ___
 
@@ -206,4 +206,4 @@ ___
 
 #### Defined in
 
-main.ts:195922
+[main.ts:195802](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L195802)

@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IMultiCarouselDataforseoLabsSerpElementItem
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IMultiCarouselDataforseoLabsSerpElementItem
 
 # Interface: IMultiCarouselDataforseoLabsSerpElementItem
 
@@ -37,7 +37,7 @@ if there are none, equals null
 
 #### Defined in
 
-main.ts:92728
+[main.ts:92584](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L92584)
 
 ___
 
@@ -51,7 +51,7 @@ left, right
 
 #### Defined in
 
-main.ts:92723
+[main.ts:92579](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L92579)
 
 ___
 
@@ -64,7 +64,7 @@ absolute position among all the elements in SERP
 
 #### Defined in
 
-main.ts:92719
+[main.ts:92575](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L92575)
 
 ___
 
@@ -78,7 +78,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-main.ts:92716
+[main.ts:92572](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L92572)
 
 ___
 
@@ -90,4 +90,4 @@ the XPath of the element
 
 #### Defined in
 
-main.ts:92725
+[main.ts:92581](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L92581)

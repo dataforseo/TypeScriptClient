@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / LastModified
+[dataforseo-client](../README.md) / [Exports](../modules.md) / LastModified
 
 # Class: LastModified
 
@@ -46,7 +46,7 @@
 
 #### Defined in
 
-main.ts:144961
+[main.ts:144817](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L144817)
 
 ## Properties
 
@@ -66,7 +66,7 @@ if there is no data, the value will be null
 
 #### Defined in
 
-main.ts:144945
+[main.ts:144801](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L144801)
 
 ___
 
@@ -86,7 +86,7 @@ if there is no data, the value will be null
 
 #### Defined in
 
-main.ts:144957
+[main.ts:144813](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L144813)
 
 ___
 
@@ -106,7 +106,7 @@ if there is no data, the value will be null
 
 #### Defined in
 
-main.ts:144951
+[main.ts:144807](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L144807)
 
 ## Methods
 
@@ -126,7 +126,7 @@ main.ts:144951
 
 #### Defined in
 
-main.ts:144970
+[main.ts:144826](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L144826)
 
 ___
 
@@ -146,7 +146,7 @@ ___
 
 #### Defined in
 
-main.ts:144989
+[main.ts:144845](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L144845)
 
 ___
 
@@ -166,4 +166,4 @@ ___
 
 #### Defined in
 
-main.ts:144982
+[main.ts:144838](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L144838)

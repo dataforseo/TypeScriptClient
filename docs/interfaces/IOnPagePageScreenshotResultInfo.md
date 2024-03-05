@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IOnPagePageScreenshotResultInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IOnPagePageScreenshotResultInfo
 
 # Interface: IOnPagePageScreenshotResultInfo
 
@@ -30,7 +30,7 @@ possible values: in_progress, finished
 
 #### Defined in
 
-main.ts:151900
+[main.ts:151756](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L151756)
 
 ___
 
@@ -44,7 +44,7 @@ if no error is encountered, the value will be null
 
 #### Defined in
 
-main.ts:151904
+[main.ts:151760](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L151760)
 
 ___
 
@@ -56,7 +56,7 @@ items array
 
 #### Defined in
 
-main.ts:151908
+[main.ts:151764](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L151764)
 
 ___
 
@@ -68,4 +68,4 @@ number of items in the results array
 
 #### Defined in
 
-main.ts:151906
+[main.ts:151762](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L151762)

@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / ISummary
+[dataforseo-client](../README.md) / [Exports](../modules.md) / ISummary
 
 # Interface: ISummary
 
@@ -26,4 +26,4 @@ total number of intersections
 
 #### Defined in
 
-main.ts:137204
+[main.ts:137060](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L137060)

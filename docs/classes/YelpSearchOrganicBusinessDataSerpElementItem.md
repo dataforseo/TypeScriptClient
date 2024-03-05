@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / YelpSearchOrganicBusinessDataSerpElementItem
+[dataforseo-client](../README.md) / [Exports](../modules.md) / YelpSearchOrganicBusinessDataSerpElementItem
 
 # Class: YelpSearchOrganicBusinessDataSerpElementItem
 
@@ -71,7 +71,7 @@
 
 #### Defined in
 
-main.ts:204178
+[main.ts:204058](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L204058)
 
 ## Properties
 
@@ -85,7 +85,7 @@ main.ts:204178
 
 #### Defined in
 
-main.ts:20076
+[main.ts:20076](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L20076)
 
 ___
 
@@ -102,7 +102,7 @@ displayed only if the request contained the corresponding field
 
 #### Defined in
 
-main.ts:204143
+[main.ts:204023](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L204023)
 
 ___
 
@@ -120,7 +120,7 @@ example:
 
 #### Defined in
 
-main.ts:204172
+[main.ts:204052](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L204052)
 
 ___
 
@@ -136,7 +136,7 @@ link to the Yelp profile of the business entity
 
 #### Defined in
 
-main.ts:204140
+[main.ts:204020](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L204020)
 
 ___
 
@@ -152,7 +152,7 @@ categories related to the business entity
 
 #### Defined in
 
-main.ts:204162
+[main.ts:204042](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L204042)
 
 ___
 
@@ -168,7 +168,7 @@ description containing the featured review
 
 #### Defined in
 
-main.ts:204147
+[main.ts:204027](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L204027)
 
 ___
 
@@ -184,7 +184,7 @@ Yelp guaranteed label
 
 #### Defined in
 
-main.ts:204158
+[main.ts:204038](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L204038)
 
 ___
 
@@ -200,7 +200,7 @@ information about the location of the business entity
 
 #### Defined in
 
-main.ts:204149
+[main.ts:204029](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L204029)
 
 ___
 
@@ -216,7 +216,7 @@ name of the business entity
 
 #### Defined in
 
-main.ts:204145
+[main.ts:204025](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L204025)
 
 ___
 
@@ -234,7 +234,7 @@ example:
 
 #### Defined in
 
-main.ts:204156
+[main.ts:204036](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L204036)
 
 ___
 
@@ -250,7 +250,7 @@ links to photos appearing in the result
 
 #### Defined in
 
-main.ts:204164
+[main.ts:204044](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L204044)
 
 ___
 
@@ -267,7 +267,7 @@ indicates the number of currency signs next to the business listing correspondin
 
 #### Defined in
 
-main.ts:204152
+[main.ts:204032](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L204032)
 
 ___
 
@@ -284,7 +284,7 @@ absolute position among all reviews on the list
 
 #### Defined in
 
-main.ts:204134
+[main.ts:204014](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L204014)
 
 ___
 
@@ -301,7 +301,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-main.ts:204131
+[main.ts:204011](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L204011)
 
 ___
 
@@ -317,7 +317,7 @@ the rating score submitted by the reviewer
 
 #### Defined in
 
-main.ts:204160
+[main.ts:204040](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L204040)
 
 ___
 
@@ -333,7 +333,7 @@ tags corresponding to the availability of certain business offerings
 
 #### Defined in
 
-main.ts:204174
+[main.ts:204054](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L204054)
 
 ___
 
@@ -351,7 +351,7 @@ example:
 
 #### Defined in
 
-main.ts:204168
+[main.ts:204048](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L204048)
 
 ___
 
@@ -369,7 +369,7 @@ example:
 
 #### Defined in
 
-main.ts:204138
+[main.ts:204018](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L204018)
 
 ## Methods
 
@@ -393,7 +393,7 @@ main.ts:204138
 
 #### Defined in
 
-main.ts:204183
+[main.ts:204063](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L204063)
 
 ___
 
@@ -417,7 +417,7 @@ ___
 
 #### Defined in
 
-main.ts:204237
+[main.ts:204117](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L204117)
 
 ___
 
@@ -441,4 +441,4 @@ ___
 
 #### Defined in
 
-main.ts:204230
+[main.ts:204110](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L204110)

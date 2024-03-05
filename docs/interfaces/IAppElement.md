@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IAppElement
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IAppElement
 
 # Interface: IAppElement
 
@@ -30,7 +30,7 @@ description of the results element in SERP
 
 #### Defined in
 
-main.ts:29813
+[main.ts:29671](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L29671)
 
 ___
 
@@ -42,7 +42,7 @@ price of booking a place for the specified dates of stay
 
 #### Defined in
 
-main.ts:29817
+[main.ts:29675](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L29675)
 
 ___
 
@@ -54,7 +54,7 @@ title of the row
 
 #### Defined in
 
-main.ts:29811
+[main.ts:29669](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L29669)
 
 ___
 
@@ -66,7 +66,7 @@ type of element
 
 #### Defined in
 
-main.ts:29809
+[main.ts:29667](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L29667)
 
 ___
 
@@ -78,4 +78,4 @@ URL
 
 #### Defined in
 
-main.ts:29815
+[main.ts:29673](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L29673)

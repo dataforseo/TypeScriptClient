@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IRankedSerpElement
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IRankedSerpElement
 
 # Interface: IRankedSerpElement
 
@@ -35,7 +35,7 @@ you can use it to make sure that we provided accurate results
 
 #### Defined in
 
-main.ts:87149
+[main.ts:87005](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L87005)
 
 ___
 
@@ -48,7 +48,7 @@ indicates how many ranked elements of this domain were previously presented in S
 
 #### Defined in
 
-main.ts:87165
+[main.ts:87021](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L87021)
 
 ___
 
@@ -63,7 +63,7 @@ learn more about the metric in this help center guide
 
 #### Defined in
 
-main.ts:87162
+[main.ts:87018](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L87018)
 
 ___
 
@@ -78,7 +78,7 @@ example:
 
 #### Defined in
 
-main.ts:87170
+[main.ts:87026](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L87026)
 
 ___
 
@@ -93,7 +93,7 @@ example:
 
 #### Defined in
 
-main.ts:87175
+[main.ts:87031](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L87031)
 
 ___
 
@@ -105,7 +105,7 @@ number of search results for the returned keyword
 
 #### Defined in
 
-main.ts:87157
+[main.ts:87013](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L87013)
 
 ___
 
@@ -117,7 +117,7 @@ search engine type
 
 #### Defined in
 
-main.ts:87143
+[main.ts:86999](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L86999)
 
 ___
 
@@ -130,7 +130,7 @@ the list of supported SERP elements can be found below
 
 #### Defined in
 
-main.ts:87146
+[main.ts:87002](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L87002)
 
 ___
 
@@ -146,4 +146,4 @@ note that the actual results will be returned only for organic, paid, featured_s
 
 #### Defined in
 
-main.ts:87155
+[main.ts:87011](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L87011)

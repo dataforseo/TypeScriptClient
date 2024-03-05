@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / OnPageContentParsingResultInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / OnPageContentParsingResultInfo
 
 # Class: OnPageContentParsingResultInfo
 
@@ -47,7 +47,7 @@
 
 #### Defined in
 
-main.ts:152510
+[main.ts:152366](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L152366)
 
 ## Properties
 
@@ -64,7 +64,7 @@ possible values: in_progress, finished
 
 #### Defined in
 
-main.ts:152500
+[main.ts:152356](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L152356)
 
 ___
 
@@ -80,7 +80,7 @@ details of the crawling session
 
 #### Defined in
 
-main.ts:152502
+[main.ts:152358](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L152358)
 
 ___
 
@@ -96,7 +96,7 @@ items array
 
 #### Defined in
 
-main.ts:152506
+[main.ts:152362](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L152362)
 
 ___
 
@@ -112,7 +112,7 @@ number of items in the results array
 
 #### Defined in
 
-main.ts:152504
+[main.ts:152360](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L152360)
 
 ## Methods
 
@@ -132,7 +132,7 @@ main.ts:152504
 
 #### Defined in
 
-main.ts:152519
+[main.ts:152375](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L152375)
 
 ___
 
@@ -152,7 +152,7 @@ ___
 
 #### Defined in
 
-main.ts:152543
+[main.ts:152399](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L152399)
 
 ___
 
@@ -172,4 +172,4 @@ ___
 
 #### Defined in
 
-main.ts:152536
+[main.ts:152392](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L152392)

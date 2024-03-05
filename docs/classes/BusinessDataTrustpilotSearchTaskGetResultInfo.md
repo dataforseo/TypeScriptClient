@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / BusinessDataTrustpilotSearchTaskGetResultInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / BusinessDataTrustpilotSearchTaskGetResultInfo
 
 # Class: BusinessDataTrustpilotSearchTaskGetResultInfo
 
@@ -49,7 +49,7 @@
 
 #### Defined in
 
-main.ts:199340
+[main.ts:199220](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L199220)
 
 ## Properties
 
@@ -66,7 +66,7 @@ you can use it to make sure that we provided accurate results
 
 #### Defined in
 
-main.ts:199325
+[main.ts:199205](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L199205)
 
 ___
 
@@ -85,7 +85,7 @@ example:
 
 #### Defined in
 
-main.ts:199330
+[main.ts:199210](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L199210)
 
 ___
 
@@ -102,7 +102,7 @@ you can get more results by using the depth parameter when setting a task
 
 #### Defined in
 
-main.ts:199336
+[main.ts:199216](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L199216)
 
 ___
 
@@ -119,7 +119,7 @@ you can get more results by using the depth parameter when setting a task
 
 #### Defined in
 
-main.ts:199333
+[main.ts:199213](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L199213)
 
 ___
 
@@ -135,7 +135,7 @@ keyword in a POST array
 
 #### Defined in
 
-main.ts:199320
+[main.ts:199200](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L199200)
 
 ___
 
@@ -151,7 +151,7 @@ search engine domain in a POST array
 
 #### Defined in
 
-main.ts:199322
+[main.ts:199202](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L199202)
 
 ## Methods
 
@@ -171,7 +171,7 @@ main.ts:199322
 
 #### Defined in
 
-main.ts:199349
+[main.ts:199229](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L199229)
 
 ___
 
@@ -191,7 +191,7 @@ ___
 
 #### Defined in
 
-main.ts:199375
+[main.ts:199255](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L199255)
 
 ___
 
@@ -211,4 +211,4 @@ ___
 
 #### Defined in
 
-main.ts:199368
+[main.ts:199248](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L199248)

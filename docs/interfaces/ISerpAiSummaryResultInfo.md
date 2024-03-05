@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / ISerpAiSummaryResultInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / ISerpAiSummaryResultInfo
 
 # Interface: ISerpAiSummaryResultInfo
 
@@ -27,7 +27,7 @@ items array
 
 #### Defined in
 
-main.ts:24085
+[main.ts:23943](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L23943)
 
 ___
 
@@ -39,4 +39,4 @@ number of items in the results array
 
 #### Defined in
 
-main.ts:24083
+[main.ts:23941](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L23941)

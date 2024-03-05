@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IYelpReviewsSearchBusinessDataSerpElementItem
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IYelpReviewsSearchBusinessDataSerpElementItem
 
 # Interface: IYelpReviewsSearchBusinessDataSerpElementItem
 
@@ -42,7 +42,7 @@ can take the following values: left
 
 #### Defined in
 
-main.ts:205461
+[main.ts:205341](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L205341)
 
 ___
 
@@ -55,7 +55,7 @@ absolute position among all reviews on the list
 
 #### Defined in
 
-main.ts:205458
+[main.ts:205338](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L205338)
 
 ___
 
@@ -68,7 +68,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-main.ts:205455
+[main.ts:205335](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L205335)
 
 ___
 
@@ -80,7 +80,7 @@ the rating score submitted by the reviewer
 
 #### Defined in
 
-main.ts:205467
+[main.ts:205347](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L205347)
 
 ___
 
@@ -92,7 +92,7 @@ text of the owner’s response
 
 #### Defined in
 
-main.ts:205479
+[main.ts:205359](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L205359)
 
 ___
 
@@ -106,7 +106,7 @@ WvjNtncj8PDZytbofWlC5A
 
 #### Defined in
 
-main.ts:205465
+[main.ts:205345](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L205345)
 
 ___
 
@@ -119,7 +119,7 @@ you will find URLs to the images provided by the author of this review
 
 #### Defined in
 
-main.ts:205475
+[main.ts:205355](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L205355)
 
 ___
 
@@ -131,7 +131,7 @@ the content of the review
 
 #### Defined in
 
-main.ts:205472
+[main.ts:205352](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L205352)
 
 ___
 
@@ -144,7 +144,7 @@ indicates timestamp of when the review was listed
 
 #### Defined in
 
-main.ts:205470
+[main.ts:205350](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L205350)
 
 ___
 
@@ -156,4 +156,4 @@ information listed in the reviewer’s profile
 
 #### Defined in
 
-main.ts:205477
+[main.ts:205357](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L205357)

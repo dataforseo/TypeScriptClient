@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / KeywordsDataErrorsResultInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / KeywordsDataErrorsResultInfo
 
 # Class: KeywordsDataErrorsResultInfo
 
@@ -53,7 +53,7 @@
 
 #### Defined in
 
-main.ts:112855
+[main.ts:112711](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L112711)
 
 ## Properties
 
@@ -72,7 +72,7 @@ example:
 
 #### Defined in
 
-main.ts:112831
+[main.ts:112687](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L112687)
 
 ___
 
@@ -88,7 +88,7 @@ error code
 
 #### Defined in
 
-main.ts:112835
+[main.ts:112691](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L112691)
 
 ___
 
@@ -105,7 +105,7 @@ error message (see full list) or URL that caused an error
 
 #### Defined in
 
-main.ts:112838
+[main.ts:112694](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L112694)
 
 ___
 
@@ -121,7 +121,7 @@ corresponding API function
 
 #### Defined in
 
-main.ts:112833
+[main.ts:112689](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L112689)
 
 ___
 
@@ -137,7 +137,7 @@ HTTP status code
 
 #### Defined in
 
-main.ts:112845
+[main.ts:112701](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L112701)
 
 ___
 
@@ -153,7 +153,7 @@ HTTP method
 
 #### Defined in
 
-main.ts:112843
+[main.ts:112699](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L112699)
 
 ___
 
@@ -170,7 +170,7 @@ server response
 
 #### Defined in
 
-main.ts:112851
+[main.ts:112707](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L112707)
 
 ___
 
@@ -187,7 +187,7 @@ for tasks set with a pingback/postback, this field will show the time it took yo
 
 #### Defined in
 
-main.ts:112848
+[main.ts:112704](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L112704)
 
 ___
 
@@ -204,7 +204,7 @@ URL you used for making an API call or pingback/postback URL
 
 #### Defined in
 
-main.ts:112841
+[main.ts:112697](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L112697)
 
 ___
 
@@ -220,7 +220,7 @@ id of the task
 
 #### Defined in
 
-main.ts:112826
+[main.ts:112682](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L112682)
 
 ## Methods
 
@@ -240,7 +240,7 @@ main.ts:112826
 
 #### Defined in
 
-main.ts:112864
+[main.ts:112720](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L112720)
 
 ___
 
@@ -260,7 +260,7 @@ ___
 
 #### Defined in
 
-main.ts:112890
+[main.ts:112746](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L112746)
 
 ___
 
@@ -280,4 +280,4 @@ ___
 
 #### Defined in
 
-main.ts:112883
+[main.ts:112739](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L112739)

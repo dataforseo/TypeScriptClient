@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / BacklinksDomainIntersectionLiveItem
+[dataforseo-client](../README.md) / [Exports](../modules.md) / BacklinksDomainIntersectionLiveItem
 
 # Class: BacklinksDomainIntersectionLiveItem
 
@@ -45,7 +45,7 @@
 
 #### Defined in
 
-main.ts:137218
+[main.ts:137074](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L137074)
 
 ## Properties
 
@@ -66,7 +66,7 @@ data is provided in separate objects corresponding to domains, subdomains or pag
 
 #### Defined in
 
-main.ts:137212
+[main.ts:137068](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L137068)
 
 ___
 
@@ -82,7 +82,7 @@ contains the domain intersections summary
 
 #### Defined in
 
-main.ts:137214
+[main.ts:137070](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L137070)
 
 ## Methods
 
@@ -102,7 +102,7 @@ main.ts:137214
 
 #### Defined in
 
-main.ts:137227
+[main.ts:137083](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L137083)
 
 ___
 
@@ -122,7 +122,7 @@ ___
 
 #### Defined in
 
-main.ts:137251
+[main.ts:137107](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L137107)
 
 ___
 
@@ -142,4 +142,4 @@ ___
 
 #### Defined in
 
-main.ts:137244
+[main.ts:137100](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L137100)

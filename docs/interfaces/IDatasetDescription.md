@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IDatasetDescription
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IDatasetDescription
 
 # Interface: IDatasetDescription
 
@@ -27,7 +27,7 @@ links featured in the ‘dataset_description’
 
 #### Defined in
 
-main.ts:50971
+[main.ts:50829](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L50829)
 
 ___
 
@@ -39,4 +39,4 @@ text of the description
 
 #### Defined in
 
-main.ts:50969
+[main.ts:50827](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L50827)

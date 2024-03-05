@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / VideoElement
+[dataforseo-client](../README.md) / [Exports](../modules.md) / VideoElement
 
 # Class: VideoElement
 
@@ -49,7 +49,7 @@
 
 #### Defined in
 
-main.ts:30252
+[main.ts:30110](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L30110)
 
 ## Properties
 
@@ -65,7 +65,7 @@ URL to the video preview image
 
 #### Defined in
 
-main.ts:30248
+[main.ts:30106](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L30106)
 
 ___
 
@@ -82,7 +82,7 @@ indicates the source of information included in the element
 
 #### Defined in
 
-main.ts:30237
+[main.ts:30095](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L30095)
 
 ___
 
@@ -101,7 +101,7 @@ example:
 
 #### Defined in
 
-main.ts:30244
+[main.ts:30102](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L30102)
 
 ___
 
@@ -117,7 +117,7 @@ title of the row
 
 #### Defined in
 
-main.ts:30239
+[main.ts:30097](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L30097)
 
 ___
 
@@ -133,7 +133,7 @@ type of element
 
 #### Defined in
 
-main.ts:30234
+[main.ts:30092](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L30092)
 
 ___
 
@@ -149,7 +149,7 @@ URL
 
 #### Defined in
 
-main.ts:30246
+[main.ts:30104](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L30104)
 
 ## Methods
 
@@ -169,7 +169,7 @@ main.ts:30246
 
 #### Defined in
 
-main.ts:30261
+[main.ts:30119](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L30119)
 
 ___
 
@@ -189,7 +189,7 @@ ___
 
 #### Defined in
 
-main.ts:30283
+[main.ts:30141](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L30141)
 
 ___
 
@@ -209,4 +209,4 @@ ___
 
 #### Defined in
 
-main.ts:30276
+[main.ts:30134](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L30134)

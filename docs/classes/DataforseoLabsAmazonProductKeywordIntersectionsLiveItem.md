@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / DataforseoLabsAmazonProductKeywordIntersectionsLiveItem
+[dataforseo-client](../README.md) / [Exports](../modules.md) / DataforseoLabsAmazonProductKeywordIntersectionsLiveItem
 
 # Class: DataforseoLabsAmazonProductKeywordIntersectionsLiveItem
 
@@ -46,7 +46,7 @@
 
 #### Defined in
 
-main.ts:101948
+[main.ts:101804](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L101804)
 
 ## Properties
 
@@ -66,7 +66,7 @@ data on the intersection
 
 #### Defined in
 
-main.ts:101944
+[main.ts:101800](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L101800)
 
 ___
 
@@ -82,7 +82,7 @@ keyword data for the returned keyword
 
 #### Defined in
 
-main.ts:101942
+[main.ts:101798](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L101798)
 
 ___
 
@@ -98,7 +98,7 @@ search engine type
 
 #### Defined in
 
-main.ts:101940
+[main.ts:101796](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L101796)
 
 ## Methods
 
@@ -118,7 +118,7 @@ main.ts:101940
 
 #### Defined in
 
-main.ts:101957
+[main.ts:101813](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L101813)
 
 ___
 
@@ -138,7 +138,7 @@ ___
 
 #### Defined in
 
-main.ts:101982
+[main.ts:101838](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L101838)
 
 ___
 
@@ -158,4 +158,4 @@ ___
 
 #### Defined in
 
-main.ts:101975
+[main.ts:101831](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L101831)

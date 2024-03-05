@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IAddressInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IAddressInfo
 
 # Interface: IAddressInfo
 
@@ -31,7 +31,7 @@ street address of the local establishment
 
 #### Defined in
 
-main.ts:38417
+[main.ts:38275](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L38275)
 
 ___
 
@@ -43,7 +43,7 @@ administrative unit or district the local establishment belongs to
 
 #### Defined in
 
-main.ts:38415
+[main.ts:38273](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L38273)
 
 ___
 
@@ -55,7 +55,7 @@ name of the city where the local establishment is located
 
 #### Defined in
 
-main.ts:38419
+[main.ts:38277](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L38277)
 
 ___
 
@@ -67,7 +67,7 @@ ISO country code of the local establishment
 
 #### Defined in
 
-main.ts:38425
+[main.ts:38283](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L38283)
 
 ___
 
@@ -79,7 +79,7 @@ DMA region the local establishment belongs to
 
 #### Defined in
 
-main.ts:38423
+[main.ts:38281](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L38281)
 
 ___
 
@@ -91,4 +91,4 @@ ZIP code of the local establishment
 
 #### Defined in
 
-main.ts:38421
+[main.ts:38279](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L38279)

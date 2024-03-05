@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / WorkDayInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / WorkDayInfo
 
 # Class: WorkDayInfo
 
@@ -45,7 +45,7 @@
 
 #### Defined in
 
-main.ts:20532
+[main.ts:20532](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L20532)
 
 ## Properties
 
@@ -61,7 +61,7 @@ closing time
 
 #### Defined in
 
-main.ts:20528
+[main.ts:20528](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L20528)
 
 ___
 
@@ -77,7 +77,7 @@ opening time
 
 #### Defined in
 
-main.ts:20526
+[main.ts:20526](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L20526)
 
 ## Methods
 
@@ -97,7 +97,7 @@ main.ts:20526
 
 #### Defined in
 
-main.ts:20541
+[main.ts:20541](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L20541)
 
 ___
 
@@ -117,7 +117,7 @@ ___
 
 #### Defined in
 
-main.ts:20559
+[main.ts:20559](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L20559)
 
 ___
 
@@ -137,4 +137,4 @@ ___
 
 #### Defined in
 
-main.ts:20552
+[main.ts:20552](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L20552)

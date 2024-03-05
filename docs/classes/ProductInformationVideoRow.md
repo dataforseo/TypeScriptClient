@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / ProductInformationVideoRow
+[dataforseo-client](../README.md) / [Exports](../modules.md) / ProductInformationVideoRow
 
 # Class: ProductInformationVideoRow
 
@@ -56,7 +56,7 @@
 
 #### Defined in
 
-main.ts:173359
+[main.ts:173239](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L173239)
 
 ## Properties
 
@@ -70,7 +70,7 @@ main.ts:173359
 
 #### Defined in
 
-main.ts:21920
+[main.ts:21778](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L21778)
 
 ___
 
@@ -86,7 +86,7 @@ URL of the preview image for the related video
 
 #### Defined in
 
-main.ts:173353
+[main.ts:173233](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L173233)
 
 ___
 
@@ -102,7 +102,7 @@ URL of the image
 
 #### Defined in
 
-main.ts:173355
+[main.ts:173235](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L173235)
 
 ## Methods
 
@@ -126,7 +126,7 @@ main.ts:173355
 
 #### Defined in
 
-main.ts:173364
+[main.ts:173244](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L173244)
 
 ___
 
@@ -150,7 +150,7 @@ ___
 
 #### Defined in
 
-main.ts:173383
+[main.ts:173263](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L173263)
 
 ___
 
@@ -174,4 +174,4 @@ ___
 
 #### Defined in
 
-main.ts:173376
+[main.ts:173256](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L173256)

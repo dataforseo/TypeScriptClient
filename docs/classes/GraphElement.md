@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / GraphElement
+[dataforseo-client](../README.md) / [Exports](../modules.md) / GraphElement
 
 # Class: GraphElement
 
@@ -46,7 +46,7 @@
 
 #### Defined in
 
-main.ts:32494
+[main.ts:32352](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L32352)
 
 ## Properties
 
@@ -62,7 +62,7 @@ the posting date
 
 #### Defined in
 
-main.ts:32488
+[main.ts:32346](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L32346)
 
 ___
 
@@ -78,7 +78,7 @@ type of element
 
 #### Defined in
 
-main.ts:32486
+[main.ts:32344](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L32344)
 
 ___
 
@@ -94,7 +94,7 @@ the value of the rating
 
 #### Defined in
 
-main.ts:32490
+[main.ts:32348](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L32348)
 
 ## Methods
 
@@ -114,7 +114,7 @@ main.ts:32490
 
 #### Defined in
 
-main.ts:32503
+[main.ts:32361](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L32361)
 
 ___
 
@@ -134,7 +134,7 @@ ___
 
 #### Defined in
 
-main.ts:32522
+[main.ts:32380](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L32380)
 
 ___
 
@@ -154,4 +154,4 @@ ___
 
 #### Defined in
 
-main.ts:32515
+[main.ts:32373](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L32373)

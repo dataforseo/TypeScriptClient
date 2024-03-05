@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / AppDataGoogleLanguagesResultInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / AppDataGoogleLanguagesResultInfo
 
 # Class: AppDataGoogleLanguagesResultInfo
 
@@ -45,7 +45,7 @@
 
 #### Defined in
 
-main.ts:177458
+[main.ts:177338](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L177338)
 
 ## Properties
 
@@ -61,7 +61,7 @@ language code according to ISO 639-1
 
 #### Defined in
 
-main.ts:177454
+[main.ts:177334](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L177334)
 
 ___
 
@@ -77,7 +77,7 @@ language name
 
 #### Defined in
 
-main.ts:177452
+[main.ts:177332](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L177332)
 
 ## Methods
 
@@ -97,7 +97,7 @@ main.ts:177452
 
 #### Defined in
 
-main.ts:177467
+[main.ts:177347](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L177347)
 
 ___
 
@@ -117,7 +117,7 @@ ___
 
 #### Defined in
 
-main.ts:177485
+[main.ts:177365](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L177365)
 
 ___
 
@@ -137,4 +137,4 @@ ___
 
 #### Defined in
 
-main.ts:177478
+[main.ts:177358](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L177358)

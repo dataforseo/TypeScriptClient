@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IOnPageLighthouseTaskGetJsonTaskInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IOnPageLighthouseTaskGetJsonTaskInfo
 
 # Interface: IOnPageLighthouseTaskGetJsonTaskInfo
 
@@ -44,7 +44,7 @@ total tasks cost, USD
 
 #### Defined in
 
-main.ts:22839
+[main.ts:22697](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L22697)
 
 ___
 
@@ -64,7 +64,7 @@ contains the same parameters that you specified in the POST request
 
 #### Defined in
 
-main.ts:22845
+[main.ts:22703](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L22703)
 
 ___
 
@@ -81,7 +81,7 @@ unique task identifier in our system in the UUID format
 
 #### Defined in
 
-main.ts:22828
+[main.ts:22686](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L22686)
 
 ___
 
@@ -97,7 +97,7 @@ URL path
 
 #### Defined in
 
-main.ts:22843
+[main.ts:22701](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L22701)
 
 ___
 
@@ -111,7 +111,7 @@ description of the fields in the result array is available in the official docum
 
 #### Defined in
 
-main.ts:154787
+[main.ts:154643](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L154643)
 
 ___
 
@@ -127,7 +127,7 @@ number of elements in the result array
 
 #### Defined in
 
-main.ts:22841
+[main.ts:22699](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L22699)
 
 ___
 
@@ -145,7 +145,7 @@ you can find the full list of the response codes here
 
 #### Defined in
 
-main.ts:22832
+[main.ts:22690](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L22690)
 
 ___
 
@@ -162,7 +162,7 @@ you can find the full list of general informational messages here
 
 #### Defined in
 
-main.ts:22835
+[main.ts:22693](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L22693)
 
 ___
 
@@ -178,4 +178,4 @@ execution time, seconds
 
 #### Defined in
 
-main.ts:22837
+[main.ts:22695](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L22695)

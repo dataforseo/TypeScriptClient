@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IDataforseoLabsPageIntersectionLiveItem
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IDataforseoLabsPageIntersectionLiveItem
 
 # Interface: IDataforseoLabsPageIntersectionLiveItem
 
@@ -34,7 +34,7 @@ depending on the number of specified URLs, it can contain from 1 to 20 arrays na
 
 #### Defined in
 
-main.ts:97355
+[main.ts:97211](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L97211)
 
 ___
 
@@ -46,7 +46,7 @@ keyword data for the returned keyword
 
 #### Defined in
 
-main.ts:97351
+[main.ts:97207](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L97207)
 
 ___
 
@@ -58,4 +58,4 @@ search engine type
 
 #### Defined in
 
-main.ts:97349
+[main.ts:97205](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L97205)

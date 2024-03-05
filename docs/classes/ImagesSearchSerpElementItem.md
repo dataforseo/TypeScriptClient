@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / ImagesSearchSerpElementItem
+[dataforseo-client](../README.md) / [Exports](../modules.md) / ImagesSearchSerpElementItem
 
 # Class: ImagesSearchSerpElementItem
 
@@ -63,7 +63,7 @@
 
 #### Defined in
 
-main.ts:46261
+[main.ts:46119](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L46119)
 
 ## Properties
 
@@ -77,7 +77,7 @@ main.ts:46261
 
 #### Defined in
 
-main.ts:19337
+[main.ts:19337](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L19337)
 
 ___
 
@@ -93,7 +93,7 @@ the alt tag of the image
 
 #### Defined in
 
-main.ts:46251
+[main.ts:46109](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L46109)
 
 ___
 
@@ -109,7 +109,7 @@ the URL of the cached version of the image stored on Google’s servers
 
 #### Defined in
 
-main.ts:46257
+[main.ts:46115](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L46115)
 
 ___
 
@@ -126,7 +126,7 @@ absolute position among all the elements in SERP
 
 #### Defined in
 
-main.ts:46243
+[main.ts:46101](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L46101)
 
 ___
 
@@ -144,7 +144,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-main.ts:46240
+[main.ts:46098](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L46098)
 
 ___
 
@@ -160,7 +160,7 @@ the URL of the source image
 
 #### Defined in
 
-main.ts:46255
+[main.ts:46113](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L46113)
 
 ___
 
@@ -176,7 +176,7 @@ subtitle of the result in SERP
 
 #### Defined in
 
-main.ts:46249
+[main.ts:46107](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L46107)
 
 ___
 
@@ -192,7 +192,7 @@ title of the result in SERP
 
 #### Defined in
 
-main.ts:46247
+[main.ts:46105](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L46105)
 
 ___
 
@@ -208,7 +208,7 @@ the URL of the page where the image is hosted
 
 #### Defined in
 
-main.ts:46253
+[main.ts:46111](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L46111)
 
 ___
 
@@ -224,7 +224,7 @@ the XPath of the element
 
 #### Defined in
 
-main.ts:46245
+[main.ts:46103](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L46103)
 
 ## Methods
 
@@ -248,7 +248,7 @@ main.ts:46245
 
 #### Defined in
 
-main.ts:46266
+[main.ts:46124](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L46124)
 
 ___
 
@@ -272,7 +272,7 @@ ___
 
 #### Defined in
 
-main.ts:46292
+[main.ts:46150](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L46150)
 
 ___
 
@@ -296,4 +296,4 @@ ___
 
 #### Defined in
 
-main.ts:46285
+[main.ts:46143](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L46143)

@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IContentAnalysisCategoryTrendsLiveRequestInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IContentAnalysisCategoryTrendsLiveRequestInfo
 
 # Interface: IContentAnalysisCategoryTrendsLiveRequestInfo
 
@@ -36,7 +36,7 @@ to obtain a full list of available categories, refer to the Categories endpoint
 
 #### Defined in
 
-main.ts:159453
+[main.ts:159333](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L159333)
 
 ___
 
@@ -52,7 +52,7 @@ example:
 
 #### Defined in
 
-main.ts:159483
+[main.ts:159363](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L159363)
 
 ___
 
@@ -67,7 +67,7 @@ possible values: day, week, month
 
 #### Defined in
 
-main.ts:159495
+[main.ts:159375](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L159375)
 
 ___
 
@@ -84,7 +84,7 @@ example:
 
 #### Defined in
 
-main.ts:159490
+[main.ts:159370](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L159370)
 
 ___
 
@@ -111,7 +111,7 @@ for more information about filters, please refer to Content Analysis API – Fil
 
 #### Defined in
 
-main.ts:159512
+[main.ts:159392](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L159392)
 
 ___
 
@@ -132,7 +132,7 @@ maximum value: 20
 
 #### Defined in
 
-main.ts:159477
+[main.ts:159357](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L159357)
 
 ___
 
@@ -148,7 +148,7 @@ possible values:
 
 #### Defined in
 
-main.ts:159459
+[main.ts:159339](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L159339)
 
 ___
 
@@ -165,7 +165,7 @@ default value: as_is
 
 #### Defined in
 
-main.ts:159466
+[main.ts:159346](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L159346)
 
 ___
 
@@ -181,4 +181,4 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:159518
+[main.ts:159398](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L159398)

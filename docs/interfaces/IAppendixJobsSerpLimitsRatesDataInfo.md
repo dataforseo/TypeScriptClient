@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IAppendixJobsSerpLimitsRatesDataInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IAppendixJobsSerpLimitsRatesDataInfo
 
 # Interface: IAppendixJobsSerpLimitsRatesDataInfo
 
@@ -24,4 +24,4 @@
 
 #### Defined in
 
-main.ts:206699
+[main.ts:206579](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L206579)

@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / OnPageDuplicateTagsItem
+[dataforseo-client](../README.md) / [Exports](../modules.md) / OnPageDuplicateTagsItem
 
 # Class: OnPageDuplicateTagsItem
 
@@ -46,7 +46,7 @@
 
 #### Defined in
 
-main.ts:147309
+[main.ts:147165](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L147165)
 
 ## Properties
 
@@ -62,7 +62,7 @@ contains the value of duplicated tag
 
 #### Defined in
 
-main.ts:147301
+[main.ts:147157](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L147157)
 
 ___
 
@@ -78,7 +78,7 @@ pages with duplicate tags
 
 #### Defined in
 
-main.ts:147305
+[main.ts:147161](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L147161)
 
 ___
 
@@ -94,7 +94,7 @@ total count of duplicate pages
 
 #### Defined in
 
-main.ts:147303
+[main.ts:147159](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L147159)
 
 ## Methods
 
@@ -114,7 +114,7 @@ main.ts:147303
 
 #### Defined in
 
-main.ts:147318
+[main.ts:147174](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L147174)
 
 ___
 
@@ -134,7 +134,7 @@ ___
 
 #### Defined in
 
-main.ts:147341
+[main.ts:147197](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L147197)
 
 ___
 
@@ -154,4 +154,4 @@ ___
 
 #### Defined in
 
-main.ts:147334
+[main.ts:147190](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L147190)

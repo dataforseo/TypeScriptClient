@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / AppDataAppleLocationsResultInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / AppDataAppleLocationsResultInfo
 
 # Class: AppDataAppleLocationsResultInfo
 
@@ -48,7 +48,7 @@
 
 #### Defined in
 
-main.ts:182871
+[main.ts:182751](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L182751)
 
 ## Properties
 
@@ -64,7 +64,7 @@ ISO country code of the location
 
 #### Defined in
 
-main.ts:182865
+[main.ts:182745](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L182745)
 
 ___
 
@@ -80,7 +80,7 @@ location code
 
 #### Defined in
 
-main.ts:182852
+[main.ts:182732](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L182732)
 
 ___
 
@@ -96,7 +96,7 @@ full name of the location
 
 #### Defined in
 
-main.ts:182854
+[main.ts:182734](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L182734)
 
 ___
 
@@ -119,7 +119,7 @@ note: Apple App Data API currently supports countries only, that is why this val
 
 #### Defined in
 
-main.ts:182863
+[main.ts:182743](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L182743)
 
 ___
 
@@ -135,7 +135,7 @@ location type
 
 #### Defined in
 
-main.ts:182867
+[main.ts:182747](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L182747)
 
 ## Methods
 
@@ -155,7 +155,7 @@ main.ts:182867
 
 #### Defined in
 
-main.ts:182880
+[main.ts:182760](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L182760)
 
 ___
 
@@ -175,7 +175,7 @@ ___
 
 #### Defined in
 
-main.ts:182901
+[main.ts:182781](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L182781)
 
 ___
 
@@ -195,4 +195,4 @@ ___
 
 #### Defined in
 
-main.ts:182894
+[main.ts:182774](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L182774)

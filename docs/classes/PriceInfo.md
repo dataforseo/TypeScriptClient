@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / PriceInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / PriceInfo
 
 # Class: PriceInfo
 
@@ -49,7 +49,7 @@
 
 #### Defined in
 
-main.ts:21473
+[main.ts:21473](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L21473)
 
 ## Properties
 
@@ -66,7 +66,7 @@ ISO code of the currency applied to the price
 
 #### Defined in
 
-main.ts:21463
+[main.ts:21463](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L21463)
 
 ___
 
@@ -83,7 +83,7 @@ indicates the current price of the product or service featured in the result
 
 #### Defined in
 
-main.ts:21454
+[main.ts:21454](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L21454)
 
 ___
 
@@ -100,7 +100,7 @@ raw price string as provided in the result
 
 #### Defined in
 
-main.ts:21469
+[main.ts:21469](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L21469)
 
 ___
 
@@ -117,7 +117,7 @@ indicates whether a price is provided in a range
 
 #### Defined in
 
-main.ts:21466
+[main.ts:21466](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L21466)
 
 ___
 
@@ -134,7 +134,7 @@ the maximum price of the product or service as indicated in the result
 
 #### Defined in
 
-main.ts:21460
+[main.ts:21460](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L21460)
 
 ___
 
@@ -151,7 +151,7 @@ indicates the regular price of the product or service with no discounts applied
 
 #### Defined in
 
-main.ts:21457
+[main.ts:21457](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L21457)
 
 ## Methods
 
@@ -171,7 +171,7 @@ main.ts:21457
 
 #### Defined in
 
-main.ts:21482
+[main.ts:21482](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L21482)
 
 ___
 
@@ -191,7 +191,7 @@ ___
 
 #### Defined in
 
-main.ts:21504
+[main.ts:21504](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L21504)
 
 ___
 
@@ -211,4 +211,4 @@ ___
 
 #### Defined in
 
-main.ts:21497
+[main.ts:21497](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L21497)

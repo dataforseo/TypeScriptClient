@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IOnPageLighthouseTaskPostRequestInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IOnPageLighthouseTaskPostRequestInfo
 
 # Interface: IOnPageLighthouseTaskPostRequestInfo
 
@@ -46,7 +46,7 @@ you can get the full list of possible audits here
 
 #### Defined in
 
-main.ts:154399
+[main.ts:154255](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L154255)
 
 ___
 
@@ -64,7 +64,7 @@ seo, pwa, performance, best_practices, accessibility
 
 #### Defined in
 
-main.ts:154386
+[main.ts:154242](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L154242)
 
 ___
 
@@ -80,7 +80,7 @@ default value: false
 
 #### Defined in
 
-main.ts:154378
+[main.ts:154234](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L154234)
 
 ___
 
@@ -96,7 +96,7 @@ en
 
 #### Defined in
 
-main.ts:154416
+[main.ts:154272](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L154272)
 
 ___
 
@@ -112,7 +112,7 @@ English
 
 #### Defined in
 
-main.ts:154410
+[main.ts:154266](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L154266)
 
 ___
 
@@ -132,7 +132,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-main.ts:154432
+[main.ts:154288](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L154288)
 
 ___
 
@@ -152,7 +152,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-main.ts:154442
+[main.ts:154298](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L154298)
 
 ___
 
@@ -168,7 +168,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:154422
+[main.ts:154278](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L154278)
 
 ___
 
@@ -184,7 +184,7 @@ https://dataforseo.com/
 
 #### Defined in
 
-main.ts:154372
+[main.ts:154228](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L154228)
 
 ___
 
@@ -199,4 +199,4 @@ the list of available versions is available through the Lighthouse Versions endp
 
 #### Defined in
 
-main.ts:154404
+[main.ts:154260](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L154260)

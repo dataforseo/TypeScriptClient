@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / DomainAnalyticsTechnologiesDomainTechnologiesLiveResultInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / DomainAnalyticsTechnologiesDomainTechnologiesLiveResultInfo
 
 # Class: DomainAnalyticsTechnologiesDomainTechnologiesLiveResultInfo
 
@@ -57,7 +57,7 @@
 
 #### Defined in
 
-main.ts:75302
+[main.ts:75158](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L75158)
 
 ## Properties
 
@@ -74,7 +74,7 @@ code of the language that content on the target domain is written in
 
 #### Defined in
 
-main.ts:75285
+[main.ts:75141](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L75141)
 
 ___
 
@@ -91,7 +91,7 @@ ISO code of the country that the target domain is determined to belong to
 
 #### Defined in
 
-main.ts:75279
+[main.ts:75135](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L75135)
 
 ___
 
@@ -107,7 +107,7 @@ domain meta description
 
 #### Defined in
 
-main.ts:75266
+[main.ts:75122](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L75122)
 
 ___
 
@@ -123,7 +123,7 @@ specified domain name
 
 #### Defined in
 
-main.ts:75262
+[main.ts:75118](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L75118)
 
 ___
 
@@ -140,7 +140,7 @@ learn more about the metric and how it is calculated in this help center article
 
 #### Defined in
 
-main.ts:75271
+[main.ts:75127](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L75127)
 
 ___
 
@@ -157,7 +157,7 @@ emails indicated on the target website
 
 #### Defined in
 
-main.ts:75291
+[main.ts:75147](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L75147)
 
 ___
 
@@ -174,7 +174,7 @@ code of the language that the target domain is determined to be associated with
 
 #### Defined in
 
-main.ts:75282
+[main.ts:75138](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L75138)
 
 ___
 
@@ -193,7 +193,7 @@ example:
 
 #### Defined in
 
-main.ts:75276
+[main.ts:75132](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L75132)
 
 ___
 
@@ -209,7 +209,7 @@ domain meta keywords
 
 #### Defined in
 
-main.ts:75268
+[main.ts:75124](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L75124)
 
 ___
 
@@ -226,7 +226,7 @@ contact phone numbers indicated on the target website
 
 #### Defined in
 
-main.ts:75288
+[main.ts:75144](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L75144)
 
 ___
 
@@ -243,7 +243,7 @@ social media URLs detected in the social graphs of the target website
 
 #### Defined in
 
-main.ts:75294
+[main.ts:75150](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L75150)
 
 ___
 
@@ -261,7 +261,7 @@ see the full list of available technologies structured by groups and categories
 
 #### Defined in
 
-main.ts:75298
+[main.ts:75154](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L75154)
 
 ___
 
@@ -277,7 +277,7 @@ domain meta title
 
 #### Defined in
 
-main.ts:75264
+[main.ts:75120](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L75120)
 
 ___
 
@@ -293,7 +293,7 @@ type of element
 
 #### Defined in
 
-main.ts:75260
+[main.ts:75116](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L75116)
 
 ## Methods
 
@@ -313,7 +313,7 @@ main.ts:75260
 
 #### Defined in
 
-main.ts:75311
+[main.ts:75167](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L75167)
 
 ___
 
@@ -333,7 +333,7 @@ ___
 
 #### Defined in
 
-main.ts:75357
+[main.ts:75213](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L75213)
 
 ___
 
@@ -353,4 +353,4 @@ ___
 
 #### Defined in
 
-main.ts:75350
+[main.ts:75206](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L75206)

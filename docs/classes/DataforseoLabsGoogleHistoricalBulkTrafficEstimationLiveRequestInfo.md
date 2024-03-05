@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / DataforseoLabsGoogleHistoricalBulkTrafficEstimationLiveRequestInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / DataforseoLabsGoogleHistoricalBulkTrafficEstimationLiveRequestInfo
 
 # Class: DataforseoLabsGoogleHistoricalBulkTrafficEstimationLiveRequestInfo
 
@@ -52,7 +52,7 @@
 
 #### Defined in
 
-main.ts:98180
+[main.ts:98036](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L98036)
 
 ## Properties
 
@@ -72,7 +72,7 @@ date format: "yyyy-mm-dd"
 
 #### Defined in
 
-main.ts:98154
+[main.ts:98010](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L98010)
 
 ___
 
@@ -93,7 +93,7 @@ example:
 
 #### Defined in
 
-main.ts:98161
+[main.ts:98017](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L98017)
 
 ___
 
@@ -116,7 +116,7 @@ default value:
 
 #### Defined in
 
-main.ts:98170
+[main.ts:98026](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L98026)
 
 ___
 
@@ -138,7 +138,7 @@ en
 
 #### Defined in
 
-main.ts:98148
+[main.ts:98004](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L98004)
 
 ___
 
@@ -160,7 +160,7 @@ English
 
 #### Defined in
 
-main.ts:98140
+[main.ts:97996](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L97996)
 
 ___
 
@@ -182,7 +182,7 @@ example:
 
 #### Defined in
 
-main.ts:98132
+[main.ts:97988](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L97988)
 
 ___
 
@@ -204,7 +204,7 @@ United Kingdom
 
 #### Defined in
 
-main.ts:98124
+[main.ts:97980](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L97980)
 
 ___
 
@@ -224,7 +224,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:98176
+[main.ts:98032](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L98032)
 
 ___
 
@@ -244,7 +244,7 @@ you can set up to 1000 domains or subdomains
 
 #### Defined in
 
-main.ts:98116
+[main.ts:97972](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L97972)
 
 ## Methods
 
@@ -264,7 +264,7 @@ main.ts:98116
 
 #### Defined in
 
-main.ts:98189
+[main.ts:98045](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L98045)
 
 ___
 
@@ -284,7 +284,7 @@ ___
 
 #### Defined in
 
-main.ts:98222
+[main.ts:98078](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L98078)
 
 ___
 
@@ -304,4 +304,4 @@ ___
 
 #### Defined in
 
-main.ts:98215
+[main.ts:98071](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L98071)

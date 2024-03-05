@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / ISerpYoutubeVideoInfoTaskGetAdvancedResultInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / ISerpYoutubeVideoInfoTaskGetAdvancedResultInfo
 
 # Interface: ISerpYoutubeVideoInfoTaskGetAdvancedResultInfo
 
@@ -36,7 +36,7 @@ you can use it to make sure that we provided accurate results
 
 #### Defined in
 
-main.ts:59046
+[main.ts:58902](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L58902)
 
 ___
 
@@ -51,7 +51,7 @@ example:
 
 #### Defined in
 
-main.ts:59051
+[main.ts:58907](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L58907)
 
 ___
 
@@ -66,7 +66,7 @@ youtube_video_info
 
 #### Defined in
 
-main.ts:59059
+[main.ts:58915](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L58915)
 
 ___
 
@@ -78,7 +78,7 @@ elements of search results found in SERP
 
 #### Defined in
 
-main.ts:59063
+[main.ts:58919](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L58919)
 
 ___
 
@@ -90,7 +90,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:59061
+[main.ts:58917](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L58917)
 
 ___
 
@@ -102,7 +102,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:59043
+[main.ts:58899](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L58899)
 
 ___
 
@@ -114,7 +114,7 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:59041
+[main.ts:58897](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L58897)
 
 ___
 
@@ -126,7 +126,7 @@ search engine domain in a POST array
 
 #### Defined in
 
-main.ts:59039
+[main.ts:58895](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L58895)
 
 ___
 
@@ -139,7 +139,7 @@ if the search engine provided results for a keyword that was corrected, we will 
 
 #### Defined in
 
-main.ts:59054
+[main.ts:58910](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L58910)
 
 ___
 
@@ -151,4 +151,4 @@ ID of the video received in a POST array
 
 #### Defined in
 
-main.ts:59037
+[main.ts:58893](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L58893)

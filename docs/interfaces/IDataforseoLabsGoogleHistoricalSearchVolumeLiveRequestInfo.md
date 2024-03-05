@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IDataforseoLabsGoogleHistoricalSearchVolumeLiveRequestInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IDataforseoLabsGoogleHistoricalSearchVolumeLiveRequestInfo
 
 # Interface: IDataforseoLabsGoogleHistoricalSearchVolumeLiveRequestInfo
 
@@ -35,7 +35,7 @@ default value: false
 
 #### Defined in
 
-main.ts:82039
+[main.ts:81895](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L81895)
 
 ___
 
@@ -54,7 +54,7 @@ you will not be charged for the keywords omitted in the results
 
 #### Defined in
 
-main.ts:82002
+[main.ts:81858](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L81858)
 
 ___
 
@@ -72,7 +72,7 @@ en
 
 #### Defined in
 
-main.ts:82034
+[main.ts:81890](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L81890)
 
 ___
 
@@ -90,7 +90,7 @@ English
 
 #### Defined in
 
-main.ts:82026
+[main.ts:81882](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L81882)
 
 ___
 
@@ -108,7 +108,7 @@ example:
 
 #### Defined in
 
-main.ts:82018
+[main.ts:81874](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L81874)
 
 ___
 
@@ -126,7 +126,7 @@ United Kingdom
 
 #### Defined in
 
-main.ts:82010
+[main.ts:81866](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L81866)
 
 ___
 
@@ -142,4 +142,4 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:82045
+[main.ts:81901](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L81901)

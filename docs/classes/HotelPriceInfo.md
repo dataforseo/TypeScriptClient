@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / HotelPriceInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / HotelPriceInfo
 
 # Class: HotelPriceInfo
 
@@ -51,7 +51,7 @@
 
 #### Defined in
 
-main.ts:193835
+[main.ts:193715](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L193715)
 
 ## Properties
 
@@ -70,7 +70,7 @@ example:
 
 #### Defined in
 
-main.ts:193820
+[main.ts:193700](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L193700)
 
 ___
 
@@ -89,7 +89,7 @@ example:
 
 #### Defined in
 
-main.ts:193825
+[main.ts:193705](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L193705)
 
 ___
 
@@ -106,7 +106,7 @@ USD is applied by default, unless specified in the POST array
 
 #### Defined in
 
-main.ts:193813
+[main.ts:193693](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L193693)
 
 ___
 
@@ -122,7 +122,7 @@ text about a discount applied
 
 #### Defined in
 
-main.ts:193815
+[main.ts:193695](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L193695)
 
 ___
 
@@ -140,7 +140,7 @@ possible item types: hotel_search_item
 
 #### Defined in
 
-main.ts:193831
+[main.ts:193711](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L193711)
 
 ___
 
@@ -156,7 +156,7 @@ price per night
 
 #### Defined in
 
-main.ts:193808
+[main.ts:193688](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L193688)
 
 ___
 
@@ -172,7 +172,7 @@ full price per night without a discount applied
 
 #### Defined in
 
-main.ts:193810
+[main.ts:193690](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L193690)
 
 ___
 
@@ -188,7 +188,7 @@ number of hotel visitors for this price
 
 #### Defined in
 
-main.ts:193827
+[main.ts:193707](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L193707)
 
 ## Methods
 
@@ -208,7 +208,7 @@ main.ts:193827
 
 #### Defined in
 
-main.ts:193844
+[main.ts:193724](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L193724)
 
 ___
 
@@ -228,7 +228,7 @@ ___
 
 #### Defined in
 
-main.ts:193872
+[main.ts:193752](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L193752)
 
 ___
 
@@ -248,4 +248,4 @@ ___
 
 #### Defined in
 
-main.ts:193865
+[main.ts:193745](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L193745)

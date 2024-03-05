@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IKeywordsDataBingLanguagesResultInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IKeywordsDataBingLanguagesResultInfo
 
 # Interface: IKeywordsDataBingLanguagesResultInfo
 
@@ -27,7 +27,7 @@ language code according to ISO 639-1
 
 #### Defined in
 
-main.ts:122314
+[main.ts:122170](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L122170)
 
 ___
 
@@ -39,4 +39,4 @@ language name
 
 #### Defined in
 
-main.ts:122312
+[main.ts:122168](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L122168)

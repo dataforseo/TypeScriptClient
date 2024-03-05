@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / ShortVideosElement
+[dataforseo-client](../README.md) / [Exports](../modules.md) / ShortVideosElement
 
 # Class: ShortVideosElement
 
@@ -48,7 +48,7 @@
 
 #### Defined in
 
-main.ts:32775
+[main.ts:32633](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L32633)
 
 ## Properties
 
@@ -64,7 +64,7 @@ domain where a link points
 
 #### Defined in
 
-main.ts:32766
+[main.ts:32624](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L32624)
 
 ___
 
@@ -81,7 +81,7 @@ indicates the source of information included in the element
 
 #### Defined in
 
-main.ts:32771
+[main.ts:32629](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L32629)
 
 ___
 
@@ -97,7 +97,7 @@ title of the row
 
 #### Defined in
 
-main.ts:32764
+[main.ts:32622](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L32622)
 
 ___
 
@@ -113,7 +113,7 @@ type of element
 
 #### Defined in
 
-main.ts:32762
+[main.ts:32620](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L32620)
 
 ___
 
@@ -129,7 +129,7 @@ URL
 
 #### Defined in
 
-main.ts:32768
+[main.ts:32626](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L32626)
 
 ## Methods
 
@@ -149,7 +149,7 @@ main.ts:32768
 
 #### Defined in
 
-main.ts:32784
+[main.ts:32642](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L32642)
 
 ___
 
@@ -169,7 +169,7 @@ ___
 
 #### Defined in
 
-main.ts:32805
+[main.ts:32663](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L32663)
 
 ___
 
@@ -189,4 +189,4 @@ ___
 
 #### Defined in
 
-main.ts:32798
+[main.ts:32656](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L32656)

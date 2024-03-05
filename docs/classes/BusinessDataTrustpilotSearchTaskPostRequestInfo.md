@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / BusinessDataTrustpilotSearchTaskPostRequestInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / BusinessDataTrustpilotSearchTaskPostRequestInfo
 
 # Class: BusinessDataTrustpilotSearchTaskPostRequestInfo
 
@@ -49,7 +49,7 @@
 
 #### Defined in
 
-main.ts:198837
+[main.ts:198717](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L198717)
 
 ## Properties
 
@@ -71,7 +71,7 @@ Note: your account will be charged for every 10 search results returned, e.g. if
 
 #### Defined in
 
-main.ts:198807
+[main.ts:198687](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L198687)
 
 ___
 
@@ -92,7 +92,7 @@ if you need to use the “%” symbol for your keyword, please specify it as “
 
 #### Defined in
 
-main.ts:198791
+[main.ts:198671](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L198671)
 
 ___
 
@@ -116,7 +116,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-main.ts:198833
+[main.ts:198713](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L198713)
 
 ___
 
@@ -140,7 +140,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-main.ts:198823
+[main.ts:198703](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L198703)
 
 ___
 
@@ -162,7 +162,7 @@ The cost can be calculated on the Pricing page.
 
 #### Defined in
 
-main.ts:198799
+[main.ts:198679](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L198679)
 
 ___
 
@@ -182,7 +182,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:198813
+[main.ts:198693](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L198693)
 
 ## Methods
 
@@ -202,7 +202,7 @@ main.ts:198813
 
 #### Defined in
 
-main.ts:198846
+[main.ts:198726](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L198726)
 
 ___
 
@@ -222,7 +222,7 @@ ___
 
 #### Defined in
 
-main.ts:198868
+[main.ts:198748](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L198748)
 
 ___
 
@@ -242,4 +242,4 @@ ___
 
 #### Defined in
 
-main.ts:198861
+[main.ts:198741](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L198741)

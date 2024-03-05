@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IHotelAmenityInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IHotelAmenityInfo
 
 # Interface: IHotelAmenityInfo
 
@@ -28,7 +28,7 @@ standardised category of the ammenity
 
 #### Defined in
 
-main.ts:195526
+[main.ts:195406](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L195406)
 
 ___
 
@@ -40,7 +40,7 @@ label of the category
 
 #### Defined in
 
-main.ts:195528
+[main.ts:195408](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L195408)
 
 ___
 
@@ -52,4 +52,4 @@ specific amenities and details
 
 #### Defined in
 
-main.ts:195530
+[main.ts:195410](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L195410)

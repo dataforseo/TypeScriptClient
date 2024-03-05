@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / ILocalBusinessDeliveryServiceInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / ILocalBusinessDeliveryServiceInfo
 
 # Interface: ILocalBusinessDeliveryServiceInfo
 
@@ -29,7 +29,7 @@ domain of the online food ordering system
 
 #### Defined in
 
-main.ts:22577
+[main.ts:22435](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L22435)
 
 ___
 
@@ -41,7 +41,7 @@ type of element
 
 #### Defined in
 
-main.ts:22574
+[main.ts:22432](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L22432)
 
 ___
 
@@ -53,4 +53,4 @@ URL to place an order
 
 #### Defined in
 
-main.ts:22579
+[main.ts:22437](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L22437)

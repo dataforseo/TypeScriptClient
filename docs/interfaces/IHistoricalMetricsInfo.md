@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IHistoricalMetricsInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IHistoricalMetricsInfo
 
 # Interface: IHistoricalMetricsInfo
 
@@ -29,7 +29,7 @@ total count of organic SERPs that contain the domain
 
 #### Defined in
 
-main.ts:98389
+[main.ts:98245](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L98245)
 
 ___
 
@@ -44,7 +44,7 @@ learn more about how the metric is calculated in this help center article
 
 #### Defined in
 
-main.ts:98387
+[main.ts:98243](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L98243)
 
 ___
 
@@ -56,7 +56,7 @@ month for which the data is provided
 
 #### Defined in
 
-main.ts:98382
+[main.ts:98238](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L98238)
 
 ___
 
@@ -68,4 +68,4 @@ year for which the data is provided
 
 #### Defined in
 
-main.ts:98380
+[main.ts:98236](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L98236)

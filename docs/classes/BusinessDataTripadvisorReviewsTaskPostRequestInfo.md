@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / BusinessDataTripadvisorReviewsTaskPostRequestInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / BusinessDataTripadvisorReviewsTaskPostRequestInfo
 
 # Class: BusinessDataTripadvisorReviewsTaskPostRequestInfo
 
@@ -59,7 +59,7 @@
 
 #### Defined in
 
-main.ts:201954
+[main.ts:201834](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L201834)
 
 ## Properties
 
@@ -79,7 +79,7 @@ default value: 10
 
 #### Defined in
 
-main.ts:201897
+[main.ts:201777](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L201777)
 
 ___
 
@@ -100,7 +100,7 @@ if you need to use the “%” symbol for your keyword, please specify it as “
 
 #### Defined in
 
-main.ts:201853
+[main.ts:201733](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L201733)
 
 ___
 
@@ -123,7 +123,7 @@ The cost can be calculated on the Pricing page.
 
 #### Defined in
 
-main.ts:201891
+[main.ts:201771](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L201771)
 
 ___
 
@@ -146,7 +146,7 @@ The cost can be calculated on the Pricing page.
 
 #### Defined in
 
-main.ts:201882
+[main.ts:201762](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L201762)
 
 ___
 
@@ -166,7 +166,7 @@ example:
 
 #### Defined in
 
-main.ts:201865
+[main.ts:201745](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L201745)
 
 ___
 
@@ -186,7 +186,7 @@ London,England,United Kingdom
 
 #### Defined in
 
-main.ts:201859
+[main.ts:201739](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L201739)
 
 ___
 
@@ -205,7 +205,7 @@ you can specify several values at once
 
 #### Defined in
 
-main.ts:201913
+[main.ts:201793](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L201793)
 
 ___
 
@@ -229,7 +229,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-main.ts:201950
+[main.ts:201830](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L201830)
 
 ___
 
@@ -253,7 +253,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-main.ts:201940
+[main.ts:201820](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L201820)
 
 ___
 
@@ -275,7 +275,7 @@ The cost can be calculated on the Pricing page.
 
 #### Defined in
 
-main.ts:201873
+[main.ts:201753](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L201753)
 
 ___
 
@@ -295,7 +295,7 @@ you can specify several values at once
 
 #### Defined in
 
-main.ts:201903
+[main.ts:201783](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L201783)
 
 ___
 
@@ -313,7 +313,7 @@ dessert
 
 #### Defined in
 
-main.ts:201917
+[main.ts:201797](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L201797)
 
 ___
 
@@ -334,7 +334,7 @@ detailed_reviews
 
 #### Defined in
 
-main.ts:201924
+[main.ts:201804](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L201804)
 
 ___
 
@@ -354,7 +354,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:201930
+[main.ts:201810](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L201810)
 
 ___
 
@@ -376,7 +376,7 @@ https://www.tripadvisor.com/Hotel_Review-g60763-d23462501-Reviews-Margaritaville
 
 #### Defined in
 
-main.ts:201846
+[main.ts:201726](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L201726)
 
 ___
 
@@ -395,7 +395,7 @@ you can specify several values at once
 
 #### Defined in
 
-main.ts:201908
+[main.ts:201788](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L201788)
 
 ## Methods
 
@@ -415,7 +415,7 @@ main.ts:201908
 
 #### Defined in
 
-main.ts:201963
+[main.ts:201843](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L201843)
 
 ___
 
@@ -435,7 +435,7 @@ ___
 
 #### Defined in
 
-main.ts:202007
+[main.ts:201887](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L201887)
 
 ___
 
@@ -455,4 +455,4 @@ ___
 
 #### Defined in
 
-main.ts:202000
+[main.ts:201880](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L201880)

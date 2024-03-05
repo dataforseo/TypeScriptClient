@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IGoogleReviewsSearchBusinessDataSerpElementItem
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IGoogleReviewsSearchBusinessDataSerpElementItem
 
 # Interface: IGoogleReviewsSearchBusinessDataSerpElementItem
 
@@ -53,7 +53,7 @@ images submitted by the reviewer
 
 #### Defined in
 
-main.ts:198493
+[main.ts:198373](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L198373)
 
 ___
 
@@ -65,7 +65,7 @@ indicates whether the reviewer has a ‘local guide’ status
 
 #### Defined in
 
-main.ts:198465
+[main.ts:198345](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L198345)
 
 ___
 
@@ -78,7 +78,7 @@ the original response to the review, no auto-translate applied
 
 #### Defined in
 
-main.ts:198479
+[main.ts:198359](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L198359)
 
 ___
 
@@ -91,7 +91,7 @@ the original content of the review, no auto-translate applied
 
 #### Defined in
 
-main.ts:198449
+[main.ts:198329](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L198329)
 
 ___
 
@@ -104,7 +104,7 @@ the owner’s response to the review
 
 #### Defined in
 
-main.ts:198476
+[main.ts:198356](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L198356)
 
 ___
 
@@ -117,7 +117,7 @@ indicates the time (in the ‘time ago’ format) when the owner submitted the r
 
 #### Defined in
 
-main.ts:198482
+[main.ts:198362](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L198362)
 
 ___
 
@@ -132,7 +132,7 @@ example:
 
 #### Defined in
 
-main.ts:198487
+[main.ts:198367](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L198367)
 
 ___
 
@@ -144,7 +144,7 @@ total number of photos submitted by the reviewer
 
 #### Defined in
 
-main.ts:198463
+[main.ts:198343](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L198343)
 
 ___
 
@@ -157,7 +157,7 @@ can take the following values: right
 
 #### Defined in
 
-main.ts:198442
+[main.ts:198322](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L198322)
 
 ___
 
@@ -169,7 +169,7 @@ URL of the reviewer’s profile image
 
 #### Defined in
 
-main.ts:198473
+[main.ts:198353](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L198353)
 
 ___
 
@@ -181,7 +181,7 @@ profile name of the reviewer
 
 #### Defined in
 
-main.ts:198467
+[main.ts:198347](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L198347)
 
 ___
 
@@ -193,7 +193,7 @@ URL of the reviewer’s profile
 
 #### Defined in
 
-main.ts:198469
+[main.ts:198349](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L198349)
 
 ___
 
@@ -206,7 +206,7 @@ absolute position among all reviews on the list
 
 #### Defined in
 
-main.ts:198439
+[main.ts:198319](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L198319)
 
 ___
 
@@ -219,7 +219,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-main.ts:198436
+[main.ts:198316](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L198316)
 
 ___
 
@@ -231,7 +231,7 @@ the rating score submitted by the reviewer
 
 #### Defined in
 
-main.ts:198459
+[main.ts:198339](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L198339)
 
 ___
 
@@ -245,7 +245,7 @@ ChZDSUhNMG9nS0VJQ0FnSUMxbHFyMFlnEAE
 
 #### Defined in
 
-main.ts:198491
+[main.ts:198371](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L198371)
 
 ___
 
@@ -257,7 +257,7 @@ the content of the review
 
 #### Defined in
 
-main.ts:198446
+[main.ts:198326](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L198326)
 
 ___
 
@@ -269,7 +269,7 @@ the URL of the review
 
 #### Defined in
 
-main.ts:198471
+[main.ts:198351](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L198351)
 
 ___
 
@@ -281,7 +281,7 @@ total number of reviews submitted by the reviewer
 
 #### Defined in
 
-main.ts:198461
+[main.ts:198341](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L198341)
 
 ___
 
@@ -294,7 +294,7 @@ indicates the time (in the ‘time ago’ format) when the review was listed
 
 #### Defined in
 
-main.ts:198452
+[main.ts:198332](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L198332)
 
 ___
 
@@ -309,7 +309,7 @@ example:
 
 #### Defined in
 
-main.ts:198457
+[main.ts:198337](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L198337)
 
 ___
 
@@ -321,4 +321,4 @@ the XPath of the review
 
 #### Defined in
 
-main.ts:198444
+[main.ts:198324](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L198324)

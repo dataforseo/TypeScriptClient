@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IHtmlContentInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IHtmlContentInfo
 
 # Interface: IHtmlContentInfo
 
@@ -36,7 +36,7 @@ Automated Readability Index
 
 #### Defined in
 
-main.ts:144285
+[main.ts:144141](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L144141)
 
 ___
 
@@ -48,7 +48,7 @@ Coleman–Liau Index
 
 #### Defined in
 
-main.ts:144287
+[main.ts:144143](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L144143)
 
 ___
 
@@ -60,7 +60,7 @@ Dale–Chall Readability Index
 
 #### Defined in
 
-main.ts:144289
+[main.ts:144145](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L144145)
 
 ___
 
@@ -73,7 +73,7 @@ measured from 0 to 1
 
 #### Defined in
 
-main.ts:144296
+[main.ts:144152](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L144152)
 
 ___
 
@@ -85,7 +85,7 @@ Flesch–Kincaid Readability Index
 
 #### Defined in
 
-main.ts:144291
+[main.ts:144147](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L144147)
 
 ___
 
@@ -98,7 +98,7 @@ measured from 0 to 1
 
 #### Defined in
 
-main.ts:144302
+[main.ts:144158](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L144158)
 
 ___
 
@@ -111,7 +111,7 @@ plain_text_size to size ratio
 
 #### Defined in
 
-main.ts:144281
+[main.ts:144137](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L144137)
 
 ___
 
@@ -123,7 +123,7 @@ total size of the text on the page measured in bytes
 
 #### Defined in
 
-main.ts:144278
+[main.ts:144134](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L144134)
 
 ___
 
@@ -135,7 +135,7 @@ number of words on the page
 
 #### Defined in
 
-main.ts:144283
+[main.ts:144139](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L144139)
 
 ___
 
@@ -147,7 +147,7 @@ SMOG Readability Index
 
 #### Defined in
 
-main.ts:144293
+[main.ts:144149](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L144149)
 
 ___
 
@@ -160,4 +160,4 @@ measured from 0 to 1
 
 #### Defined in
 
-main.ts:144299
+[main.ts:144155](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L144155)

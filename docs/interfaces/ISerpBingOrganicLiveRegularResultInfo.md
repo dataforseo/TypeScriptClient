@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / ISerpBingOrganicLiveRegularResultInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / ISerpBingOrganicLiveRegularResultInfo
 
 # Interface: ISerpBingOrganicLiveRegularResultInfo
 
@@ -38,7 +38,7 @@ you can use it to make sure that we provided exact results
 
 #### Defined in
 
-main.ts:55216
+[main.ts:55074](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L55074)
 
 ___
 
@@ -53,7 +53,7 @@ example:
 
 #### Defined in
 
-main.ts:55221
+[main.ts:55079](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L55079)
 
 ___
 
@@ -67,7 +67,7 @@ possible item types: organic, paid
 
 #### Defined in
 
-main.ts:55228
+[main.ts:55086](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L55086)
 
 ___
 
@@ -80,7 +80,7 @@ array of 8 search queries related to the keyword
 
 #### Defined in
 
-main.ts:55235
+[main.ts:55093](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L55093)
 
 ___
 
@@ -92,7 +92,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:55232
+[main.ts:55090](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L55090)
 
 ___
 
@@ -105,7 +105,7 @@ keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a s
 
 #### Defined in
 
-main.ts:55205
+[main.ts:55063](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L55063)
 
 ___
 
@@ -117,7 +117,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:55213
+[main.ts:55071](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L55071)
 
 ___
 
@@ -129,7 +129,7 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:55211
+[main.ts:55069](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L55069)
 
 ___
 
@@ -141,7 +141,7 @@ search engine domain in a POST array
 
 #### Defined in
 
-main.ts:55209
+[main.ts:55067](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L55067)
 
 ___
 
@@ -153,7 +153,7 @@ total number of results in SERP
 
 #### Defined in
 
-main.ts:55230
+[main.ts:55088](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L55088)
 
 ___
 
@@ -166,7 +166,7 @@ if the search engine provided results for a keyword that was corrected, we will 
 
 #### Defined in
 
-main.ts:55224
+[main.ts:55082](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L55082)
 
 ___
 
@@ -178,4 +178,4 @@ type of element
 
 #### Defined in
 
-main.ts:55207
+[main.ts:55065](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L55065)

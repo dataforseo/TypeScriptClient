@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IKnowledgeGraphHotelsBookingElement
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IKnowledgeGraphHotelsBookingElement
 
 # Interface: IKnowledgeGraphHotelsBookingElement
 
@@ -32,7 +32,7 @@ the description of the results element in SERP
 
 #### Defined in
 
-main.ts:36009
+[main.ts:35867](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L35867)
 
 ___
 
@@ -44,7 +44,7 @@ domain in the URL
 
 #### Defined in
 
-main.ts:36013
+[main.ts:35871](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L35871)
 
 ___
 
@@ -56,7 +56,7 @@ indicates whether the element is an ad
 
 #### Defined in
 
-main.ts:36017
+[main.ts:35875](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L35875)
 
 ___
 
@@ -68,7 +68,7 @@ price indicated in the element
 
 #### Defined in
 
-main.ts:36015
+[main.ts:35873](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L35873)
 
 ___
 
@@ -81,7 +81,7 @@ indicates the source of information included in the shopping_element
 
 #### Defined in
 
-main.ts:36007
+[main.ts:35865](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L35865)
 
 ___
 
@@ -93,7 +93,7 @@ type of element
 
 #### Defined in
 
-main.ts:36004
+[main.ts:35862](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L35862)
 
 ___
 
@@ -105,4 +105,4 @@ URL
 
 #### Defined in
 
-main.ts:36011
+[main.ts:35869](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L35869)

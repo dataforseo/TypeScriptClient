@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IDataforseoLabsGoogleBulkKeywordDifficultyLiveResultInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IDataforseoLabsGoogleBulkKeywordDifficultyLiveResultInfo
 
 # Interface: IDataforseoLabsGoogleBulkKeywordDifficultyLiveResultInfo
 
@@ -31,7 +31,7 @@ contains keywords and related keyword difficulty scores
 
 #### Defined in
 
-main.ts:82659
+[main.ts:82515](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L82515)
 
 ___
 
@@ -43,7 +43,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:82657
+[main.ts:82513](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L82513)
 
 ___
 
@@ -56,7 +56,7 @@ if there is no data, then the value is null
 
 #### Defined in
 
-main.ts:82653
+[main.ts:82509](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L82509)
 
 ___
 
@@ -69,7 +69,7 @@ if there is no data, then the value is null
 
 #### Defined in
 
-main.ts:82650
+[main.ts:82506](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L82506)
 
 ___
 
@@ -81,7 +81,7 @@ search engine type
 
 #### Defined in
 
-main.ts:82647
+[main.ts:82503](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L82503)
 
 ___
 
@@ -93,4 +93,4 @@ total amount of results in our database relevant to your request
 
 #### Defined in
 
-main.ts:82655
+[main.ts:82511](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L82511)

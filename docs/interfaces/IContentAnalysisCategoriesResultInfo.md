@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IContentAnalysisCategoriesResultInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IContentAnalysisCategoriesResultInfo
 
 # Interface: IContentAnalysisCategoriesResultInfo
 
@@ -28,7 +28,7 @@ category code
 
 #### Defined in
 
-main.ts:156056
+[main.ts:155912](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L155912)
 
 ___
 
@@ -48,7 +48,7 @@ corresponds to:
 
 #### Defined in
 
-main.ts:156068
+[main.ts:155924](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L155924)
 
 ___
 
@@ -60,4 +60,4 @@ full name of the category
 
 #### Defined in
 
-main.ts:156058
+[main.ts:155914](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L155914)

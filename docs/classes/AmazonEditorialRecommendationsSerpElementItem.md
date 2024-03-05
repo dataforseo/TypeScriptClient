@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / AmazonEditorialRecommendationsSerpElementItem
+[dataforseo-client](../README.md) / [Exports](../modules.md) / AmazonEditorialRecommendationsSerpElementItem
 
 # Class: AmazonEditorialRecommendationsSerpElementItem
 
@@ -59,7 +59,7 @@
 
 #### Defined in
 
-main.ts:171148
+[main.ts:171028](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L171028)
 
 ## Properties
 
@@ -73,7 +73,7 @@ main.ts:171148
 
 #### Defined in
 
-main.ts:20756
+[main.ts:20756](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L20756)
 
 ___
 
@@ -89,7 +89,7 @@ Amazon product items
 
 #### Defined in
 
-main.ts:171144
+[main.ts:171024](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L171024)
 
 ___
 
@@ -107,7 +107,7 @@ left, right
 
 #### Defined in
 
-main.ts:171140
+[main.ts:171020](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L171020)
 
 ___
 
@@ -124,7 +124,7 @@ absolute position among all the elements found in Amazon SERP
 
 #### Defined in
 
-main.ts:171136
+[main.ts:171016](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L171016)
 
 ___
 
@@ -141,7 +141,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-main.ts:171133
+[main.ts:171013](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L171013)
 
 ___
 
@@ -157,7 +157,7 @@ the XPath of the element
 
 #### Defined in
 
-main.ts:171142
+[main.ts:171022](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L171022)
 
 ## Methods
 
@@ -181,7 +181,7 @@ main.ts:171142
 
 #### Defined in
 
-main.ts:171153
+[main.ts:171033](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L171033)
 
 ___
 
@@ -205,7 +205,7 @@ ___
 
 #### Defined in
 
-main.ts:171179
+[main.ts:171059](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L171059)
 
 ___
 
@@ -229,4 +229,4 @@ ___
 
 #### Defined in
 
-main.ts:171172
+[main.ts:171052](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L171052)

@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / AppendixKeywordPerformanceKeywordsDataPriceData
+[dataforseo-client](../README.md) / [Exports](../modules.md) / AppendixKeywordPerformanceKeywordsDataPriceData
 
 # Class: AppendixKeywordPerformanceKeywordsDataPriceData
 
@@ -46,7 +46,7 @@
 
 #### Defined in
 
-main.ts:210005
+[main.ts:209885](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L209885)
 
 ## Properties
 
@@ -60,7 +60,7 @@ main.ts:210005
 
 #### Defined in
 
-main.ts:209999
+[main.ts:209879](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L209879)
 
 ___
 
@@ -74,7 +74,7 @@ ___
 
 #### Defined in
 
-main.ts:210000
+[main.ts:209880](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L209880)
 
 ___
 
@@ -88,7 +88,7 @@ ___
 
 #### Defined in
 
-main.ts:210001
+[main.ts:209881](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L209881)
 
 ## Methods
 
@@ -108,7 +108,7 @@ main.ts:210001
 
 #### Defined in
 
-main.ts:210014
+[main.ts:209894](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L209894)
 
 ___
 
@@ -128,7 +128,7 @@ ___
 
 #### Defined in
 
-main.ts:210033
+[main.ts:209913](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L209913)
 
 ___
 
@@ -148,4 +148,4 @@ ___
 
 #### Defined in
 
-main.ts:210026
+[main.ts:209906](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L209906)

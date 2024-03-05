@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / AppDataAppleAppSearchesTasksReadyResultInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / AppDataAppleAppSearchesTasksReadyResultInfo
 
 # Class: AppDataAppleAppSearchesTasksReadyResultInfo
 
@@ -49,7 +49,7 @@
 
 #### Defined in
 
-main.ts:183574
+[main.ts:183454](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L183454)
 
 ## Properties
 
@@ -65,7 +65,7 @@ date when the task was posted (in the UTC format)
 
 #### Defined in
 
-main.ts:183563
+[main.ts:183443](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L183443)
 
 ___
 
@@ -81,7 +81,7 @@ URL for collecting the results of the Apple App Searches task
 
 #### Defined in
 
-main.ts:183567
+[main.ts:183447](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L183447)
 
 ___
 
@@ -98,7 +98,7 @@ if HTML tasks are not supported in the specified endpoint, the value will be nul
 
 #### Defined in
 
-main.ts:183570
+[main.ts:183450](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L183450)
 
 ___
 
@@ -115,7 +115,7 @@ unique task identifier in our system in the UUID format
 
 #### Defined in
 
-main.ts:183559
+[main.ts:183439](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L183439)
 
 ___
 
@@ -131,7 +131,7 @@ search engine specified when setting the task
 
 #### Defined in
 
-main.ts:183561
+[main.ts:183441](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L183441)
 
 ___
 
@@ -147,7 +147,7 @@ user-defined task identifier
 
 #### Defined in
 
-main.ts:183565
+[main.ts:183445](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L183445)
 
 ## Methods
 
@@ -167,7 +167,7 @@ main.ts:183565
 
 #### Defined in
 
-main.ts:183583
+[main.ts:183463](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L183463)
 
 ___
 
@@ -187,7 +187,7 @@ ___
 
 #### Defined in
 
-main.ts:183605
+[main.ts:183485](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L183485)
 
 ___
 
@@ -207,4 +207,4 @@ ___
 
 #### Defined in
 
-main.ts:183598
+[main.ts:183478](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L183478)

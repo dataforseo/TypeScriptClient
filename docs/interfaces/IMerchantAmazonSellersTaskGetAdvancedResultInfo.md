@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IMerchantAmazonSellersTaskGetAdvancedResultInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IMerchantAmazonSellersTaskGetAdvancedResultInfo
 
 # Interface: IMerchantAmazonSellersTaskGetAdvancedResultInfo
 
@@ -38,7 +38,7 @@ learn more about ASINs in this help center guide
 
 #### Defined in
 
-main.ts:174612
+[main.ts:174492](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L174492)
 
 ___
 
@@ -51,7 +51,7 @@ you can use it to make sure the provided results are accurate
 
 #### Defined in
 
-main.ts:174623
+[main.ts:174503](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L174503)
 
 ___
 
@@ -66,7 +66,7 @@ example:
 
 #### Defined in
 
-main.ts:174628
+[main.ts:174508](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L174508)
 
 ___
 
@@ -79,7 +79,7 @@ image URL of the product relevant to the asin received in a POST array
 
 #### Defined in
 
-main.ts:174634
+[main.ts:174514](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L174514)
 
 ___
 
@@ -94,7 +94,7 @@ amazon_seller_main_item, amazon_seller_item
 
 #### Defined in
 
-main.ts:174639
+[main.ts:174519](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L174519)
 
 ___
 
@@ -106,7 +106,7 @@ items in SERP
 
 #### Defined in
 
-main.ts:174643
+[main.ts:174523](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L174523)
 
 ___
 
@@ -118,7 +118,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:174641
+[main.ts:174521](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L174521)
 
 ___
 
@@ -130,7 +130,7 @@ language code received in a POST array
 
 #### Defined in
 
-main.ts:174620
+[main.ts:174500](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L174500)
 
 ___
 
@@ -142,7 +142,7 @@ location code received in a POST array
 
 #### Defined in
 
-main.ts:174618
+[main.ts:174498](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L174498)
 
 ___
 
@@ -154,7 +154,7 @@ search engine domain received in a POST array
 
 #### Defined in
 
-main.ts:174616
+[main.ts:174496](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L174496)
 
 ___
 
@@ -167,7 +167,7 @@ title of the product relevant to the asin received in a POST array
 
 #### Defined in
 
-main.ts:174631
+[main.ts:174511](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L174511)
 
 ___
 
@@ -179,4 +179,4 @@ type of element
 
 #### Defined in
 
-main.ts:174614
+[main.ts:174494](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L174494)

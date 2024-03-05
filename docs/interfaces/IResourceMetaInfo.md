@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / IResourceMetaInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / IResourceMetaInfo
 
 # Interface: IResourceMetaInfo
 
@@ -32,7 +32,7 @@ the value depends on the resource_type
 
 #### Defined in
 
-main.ts:146140
+[main.ts:145996](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L145996)
 
 ___
 
@@ -44,7 +44,7 @@ image height in px
 
 #### Defined in
 
-main.ts:146150
+[main.ts:146006](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L146006)
 
 ___
 
@@ -56,7 +56,7 @@ original image height in px
 
 #### Defined in
 
-main.ts:146146
+[main.ts:146002](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L146002)
 
 ___
 
@@ -68,7 +68,7 @@ original image width in px
 
 #### Defined in
 
-main.ts:146144
+[main.ts:146000](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L146000)
 
 ___
 
@@ -80,7 +80,7 @@ title
 
 #### Defined in
 
-main.ts:146142
+[main.ts:145998](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L145998)
 
 ___
 
@@ -92,4 +92,4 @@ image width in px
 
 #### Defined in
 
-main.ts:146148
+[main.ts:146004](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L146004)

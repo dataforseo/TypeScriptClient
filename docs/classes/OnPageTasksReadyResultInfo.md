@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / OnPageTasksReadyResultInfo
+[dataforseo-client](../README.md) / [Exports](../modules.md) / OnPageTasksReadyResultInfo
 
 # Class: OnPageTasksReadyResultInfo
 
@@ -47,7 +47,7 @@
 
 #### Defined in
 
-main.ts:143178
+[main.ts:143034](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L143034)
 
 ## Properties
 
@@ -63,7 +63,7 @@ date when the task was posted (in the UTC format)
 
 #### Defined in
 
-main.ts:143172
+[main.ts:143028](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L143028)
 
 ___
 
@@ -80,7 +80,7 @@ unique task identifier in our system in the UUID format
 
 #### Defined in
 
-main.ts:143168
+[main.ts:143024](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L143024)
 
 ___
 
@@ -96,7 +96,7 @@ user-defined task identifier
 
 #### Defined in
 
-main.ts:143174
+[main.ts:143030](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L143030)
 
 ___
 
@@ -112,7 +112,7 @@ target website specified when setting a task
 
 #### Defined in
 
-main.ts:143170
+[main.ts:143026](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L143026)
 
 ## Methods
 
@@ -132,7 +132,7 @@ main.ts:143170
 
 #### Defined in
 
-main.ts:143187
+[main.ts:143043](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L143043)
 
 ___
 
@@ -152,7 +152,7 @@ ___
 
 #### Defined in
 
-main.ts:143207
+[main.ts:143063](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L143063)
 
 ___
 
@@ -172,4 +172,4 @@ ___
 
 #### Defined in
 
-main.ts:143200
+[main.ts:143056](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L143056)

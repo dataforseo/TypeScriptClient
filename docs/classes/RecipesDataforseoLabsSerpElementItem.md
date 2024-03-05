@@ -1,4 +1,4 @@
-[Documentation](../README.md) / [Exports](../modules.md) / RecipesDataforseoLabsSerpElementItem
+[dataforseo-client](../README.md) / [Exports](../modules.md) / RecipesDataforseoLabsSerpElementItem
 
 # Class: RecipesDataforseoLabsSerpElementItem
 
@@ -59,7 +59,7 @@
 
 #### Defined in
 
-main.ts:95217
+[main.ts:95073](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L95073)
 
 ## Properties
 
@@ -73,7 +73,7 @@ main.ts:95217
 
 #### Defined in
 
-main.ts:19715
+[main.ts:19715](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L19715)
 
 ___
 
@@ -89,7 +89,7 @@ elements of search results found in SERP
 
 #### Defined in
 
-main.ts:95213
+[main.ts:95069](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L95069)
 
 ___
 
@@ -107,7 +107,7 @@ left, right
 
 #### Defined in
 
-main.ts:95209
+[main.ts:95065](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L95065)
 
 ___
 
@@ -124,7 +124,7 @@ absolute position among all the elements in SERP
 
 #### Defined in
 
-main.ts:95205
+[main.ts:95061](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L95061)
 
 ___
 
@@ -141,7 +141,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-main.ts:95202
+[main.ts:95058](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L95058)
 
 ___
 
@@ -157,7 +157,7 @@ the XPath of the element
 
 #### Defined in
 
-main.ts:95211
+[main.ts:95067](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L95067)
 
 ## Methods
 
@@ -181,7 +181,7 @@ main.ts:95211
 
 #### Defined in
 
-main.ts:95222
+[main.ts:95078](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L95078)
 
 ___
 
@@ -205,7 +205,7 @@ ___
 
 #### Defined in
 
-main.ts:95248
+[main.ts:95104](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L95104)
 
 ___
 
@@ -229,4 +229,4 @@ ___
 
 #### Defined in
 
-main.ts:95241
+[main.ts:95097](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L95097)
