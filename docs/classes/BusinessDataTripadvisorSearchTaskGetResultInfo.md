@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / BusinessDataTripadvisorSearchTaskGetResultInfo
 
 # Class: BusinessDataTripadvisorSearchTaskGetResultInfo
@@ -74,6 +78,7 @@ you can use it to make sure that we provided accurate results
 
 ___
 
+
 ### datetime
 
 • `Optional` **datetime**: `string`
@@ -93,6 +98,7 @@ example:
 
 ___
 
+
 ### item\_types
 
 • `Optional` **item\_types**: `string`[]
@@ -109,6 +115,7 @@ possible item types: tripadvisor_search_organic
 [main.ts:201492](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L201492)
 
 ___
+
 
 ### items
 
@@ -127,6 +134,7 @@ you can get more results by using the depth parameter when setting a task
 
 ___
 
+
 ### items\_count
 
 • `Optional` **items\_count**: `number`
@@ -143,6 +151,7 @@ you can get more results by using the depth parameter when setting a task
 [main.ts:201497](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L201497)
 
 ___
+
 
 ### keyword
 
@@ -161,6 +170,7 @@ this field will contain the alias parameter if it was specified in a POST array
 
 ___
 
+
 ### language\_code
 
 • `Optional` **language\_code**: `string`
@@ -176,6 +186,7 @@ language code in a POST array
 [main.ts:201481](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L201481)
 
 ___
+
 
 ### location\_code
 
@@ -193,6 +204,7 @@ location code in a POST array
 
 ___
 
+
 ### se\_domain
 
 • `Optional` **se\_domain**: `string`
@@ -208,6 +220,7 @@ search engine domain in a POST array
 [main.ts:201477](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L201477)
 
 ___
+
 
 ### se\_results\_count
 
@@ -245,6 +258,7 @@ the total number of results
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -265,6 +279,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`BusinessDataTripadvisorSearchTaskGetResultInfo`](BusinessDataTripadvisorSearchTaskGetResultInfo.md)
@@ -282,3 +297,7 @@ ___
 #### Defined in
 
 [main.ts:201540](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L201540)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

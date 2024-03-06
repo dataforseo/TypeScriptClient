@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IOnPageKeywordDensityItem
 
 # Interface: IOnPageKeywordDensityItem
@@ -33,6 +37,7 @@ calculated as a ratio of frequency to the total count of keywords with the set k
 
 ___
 
+
 ### frequency
 
 • `Optional` **frequency**: `number`
@@ -46,6 +51,7 @@ number of times the keyword appears on the website (or webpage if you specified 
 
 ___
 
+
 ### keyword
 
 • `Optional` **keyword**: `string`
@@ -55,3 +61,7 @@ returned keyword
 #### Defined in
 
 [main.ts:150286](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L150286)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

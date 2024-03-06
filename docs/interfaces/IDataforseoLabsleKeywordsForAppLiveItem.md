@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IDataforseoLabsleKeywordsForAppLiveItem
 
 # Interface: IDataforseoLabsleKeywordsForAppLiveItem
@@ -32,6 +36,7 @@ keyword data for the returned keyword
 
 ___
 
+
 ### ranked\_serp\_element
 
 • `Optional` **ranked\_serp\_element**: [`AppRankedSerpElementInfo`](../classes/AppRankedSerpElementInfo.md)
@@ -44,6 +49,7 @@ contains data on the domain’s SERP element found for the returned keyword
 
 ___
 
+
 ### se\_type
 
 • `Optional` **se\_type**: `string`
@@ -53,3 +59,7 @@ search engine type
 #### Defined in
 
 [main.ts:108759](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L108759)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

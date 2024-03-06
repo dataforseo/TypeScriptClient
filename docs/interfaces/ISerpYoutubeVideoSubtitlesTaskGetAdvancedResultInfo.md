@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / ISerpYoutubeVideoSubtitlesTaskGetAdvancedResultInfo
 
 # Interface: ISerpYoutubeVideoSubtitlesTaskGetAdvancedResultInfo
@@ -45,6 +49,7 @@ the category the video belongs to
 
 ___
 
+
 ### check\_url
 
 • `Optional` **check\_url**: `string`
@@ -57,6 +62,7 @@ you can use it to make sure that we provided accurate results
 [main.ts:60440](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L60440)
 
 ___
+
 
 ### datetime
 
@@ -73,6 +79,7 @@ example:
 
 ___
 
+
 ### item\_types
 
 • `Optional` **item\_types**: `string`[]
@@ -88,6 +95,7 @@ youtube_subtitles
 
 ___
 
+
 ### items
 
 • `Optional` **items**: [`BaseSerpElementItem`](../classes/BaseSerpElementItem.md)[]
@@ -99,6 +107,7 @@ elements of search results found in SERP
 [main.ts:60469](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L60469)
 
 ___
+
 
 ### items\_count
 
@@ -112,6 +121,7 @@ the number of results returned in the items array
 
 ___
 
+
 ### language\_code
 
 • `Optional` **language\_code**: `string`
@@ -123,6 +133,7 @@ language code in a POST array
 [main.ts:60437](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L60437)
 
 ___
+
 
 ### location\_code
 
@@ -136,6 +147,7 @@ location code in a POST array
 
 ___
 
+
 ### origin\_language
 
 • `Optional` **origin\_language**: `string`
@@ -148,6 +160,7 @@ language code of original text
 
 ___
 
+
 ### se\_domain
 
 • `Optional` **se\_domain**: `string`
@@ -159,6 +172,7 @@ search engine domain in a POST array
 [main.ts:60433](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L60433)
 
 ___
+
 
 ### spell
 
@@ -173,6 +187,7 @@ if the search engine provided results for a keyword that was corrected, we will 
 
 ___
 
+
 ### subtitles\_count
 
 • `Optional` **subtitles\_count**: `number`
@@ -184,6 +199,7 @@ number of subtitles in the video
 [main.ts:60463](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L60463)
 
 ___
+
 
 ### title
 
@@ -197,6 +213,7 @@ title of the video
 
 ___
 
+
 ### translate\_language
 
 • `Optional` **translate\_language**: `string`
@@ -208,6 +225,7 @@ language code of translated text
 [main.ts:60457](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L60457)
 
 ___
+
 
 ### unsupported\_language
 
@@ -221,6 +239,7 @@ indicates whether the language is unsupported by the system
 
 ___
 
+
 ### video\_id
 
 • `Optional` **video\_id**: `string`
@@ -230,3 +249,7 @@ ID of the video received in a POST array
 #### Defined in
 
 [main.ts:60431](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L60431)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / ContentAnalysisPhraseTrendsLiveRequestInfo
 
 # Class: ContentAnalysisPhraseTrendsLiveRequestInfo
@@ -77,6 +81,7 @@ example:
 
 ___
 
+
 ### date\_group
 
 • `Optional` **date\_group**: `string`
@@ -95,6 +100,7 @@ possible values: day, week, month
 [main.ts:158646](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L158646)
 
 ___
+
 
 ### date\_to
 
@@ -116,6 +122,7 @@ example:
 [main.ts:158641](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L158641)
 
 ___
+
 
 ### initial\_dataset\_filter
 
@@ -148,6 +155,7 @@ for more information about filters, please refer to Content Analysis API – Fil
 
 ___
 
+
 ### internal\_list\_limit
 
 • `Optional` **internal\_list\_limit**: `number`
@@ -173,6 +181,7 @@ maximum value: 20
 
 ___
 
+
 ### keyword
 
 • `Optional` **keyword**: `string`
@@ -196,6 +205,7 @@ example:
 
 ___
 
+
 ### keyword\_fields
 
 • `Optional` **keyword\_fields**: `Object`
@@ -208,8 +218,8 @@ you can indicate several fields;
 Note: to match an exact phrase instead of a stand-alone keyword, use double quotes and backslashes;
 example:
 "keyword_fields": {
-    "snippet": "\"logitech mouse\"",
-    "main_title": "sale"
+"snippet": "\"logitech mouse\"",
+"main_title": "sale"
 }
 
 #### Index signature
@@ -225,6 +235,7 @@ example:
 [main.ts:158604](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L158604)
 
 ___
+
 
 ### page\_type
 
@@ -246,6 +257,7 @@ possible values:
 
 ___
 
+
 ### search\_mode
 
 • `Optional` **search\_mode**: `string`
@@ -266,6 +278,7 @@ default value: as_is
 [main.ts:158617](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L158617)
 
 ___
+
 
 ### tag
 
@@ -307,6 +320,7 @@ you will find the specified tag value in the data object of the response
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -327,6 +341,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`ContentAnalysisPhraseTrendsLiveRequestInfo`](ContentAnalysisPhraseTrendsLiveRequestInfo.md)
@@ -344,3 +359,7 @@ ___
 #### Defined in
 
 [main.ts:158715](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L158715)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

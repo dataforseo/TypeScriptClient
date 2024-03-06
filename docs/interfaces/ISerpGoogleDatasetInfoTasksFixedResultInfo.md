@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / ISerpGoogleDatasetInfoTasksFixedResultInfo
 
 # Interface: ISerpGoogleDatasetInfoTasksFixedResultInfo
@@ -37,6 +41,7 @@ date when the task was fixed (in the UTC format)
 
 ___
 
+
 ### endpoint\_advanced
 
 • `Optional` **endpoint\_advanced**: `string`
@@ -49,6 +54,7 @@ if SERP Advanced is not supported in the specified endpoint, the value will be n
 [main.ts:52386](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L52386)
 
 ___
+
 
 ### endpoint\_html
 
@@ -63,6 +69,7 @@ if SERP HTML is not supported in the specified endpoint, the value will be null
 
 ___
 
+
 ### endpoint\_regular
 
 • `Optional` **endpoint\_regular**: `string`
@@ -75,6 +82,7 @@ if SERP Regular is not supported in the specified endpoint, the value will be nu
 [main.ts:52383](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L52383)
 
 ___
+
 
 ### id
 
@@ -89,6 +97,7 @@ unique task identifier in our system in the UUID format
 
 ___
 
+
 ### se
 
 • `Optional` **se**: `string`
@@ -100,6 +109,7 @@ search engine specified when setting the task
 [main.ts:52373](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L52373)
 
 ___
+
 
 ### se\_type
 
@@ -114,6 +124,7 @@ can take the following values: dataset_info
 
 ___
 
+
 ### tag
 
 • `Optional` **tag**: `string`
@@ -123,3 +134,7 @@ user-defined task identifier
 #### Defined in
 
 [main.ts:52380](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L52380)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

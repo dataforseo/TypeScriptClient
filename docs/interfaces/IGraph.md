@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IGraph
 
 # Interface: IGraph
@@ -32,6 +36,7 @@ if there are none, equals null
 
 ___
 
+
 ### previous\_items
 
 • `Optional` **previous\_items**: [`GraphElement`](../classes/GraphElement.md)[]
@@ -42,3 +47,7 @@ contains stock price data based on the preceding time period
 #### Defined in
 
 [main.ts:32475](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L32475)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

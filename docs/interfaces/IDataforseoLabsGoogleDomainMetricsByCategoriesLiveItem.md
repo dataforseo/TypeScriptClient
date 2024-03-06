@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IDataforseoLabsGoogleDomainMetricsByCategoriesLiveItem
 
 # Interface: IDataforseoLabsGoogleDomainMetricsByCategoriesLiveItem
@@ -39,6 +43,7 @@ domain found for the specified category
 
 ___
 
+
 ### main\_domain
 
 • `Optional` **main\_domain**: `string`
@@ -50,6 +55,7 @@ primary domain
 [main.ts:84754](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L84754)
 
 ___
+
 
 ### metrics\_difference
 
@@ -68,6 +74,7 @@ calculated by subtracting domain metrics as of the greater date from domain metr
 
 ___
 
+
 ### metrics\_history
 
 • `Optional` **metrics\_history**: `Object`
@@ -84,6 +91,7 @@ historical ranking and traffic data of the domain
 
 ___
 
+
 ### organic\_count
 
 • `Optional` **organic\_count**: `number`
@@ -96,6 +104,7 @@ current total count of organic SERPs that contain the domain
 
 ___
 
+
 ### organic\_etv
 
 • `Optional` **organic\_etv**: `number`
@@ -107,6 +116,7 @@ current organic ETV of the domain
 [main.ts:84742](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L84742)
 
 ___
+
 
 ### organic\_is\_lost
 
@@ -121,6 +131,7 @@ indicates how many ranked elements of the domain were previously presented in SE
 
 ___
 
+
 ### organic\_is\_new
 
 • `Optional` **organic\_is\_new**: `number`
@@ -134,6 +145,7 @@ indicates how many new ranked elements were found for the domain
 
 ___
 
+
 ### se\_type
 
 • `Optional` **se\_type**: `string`
@@ -146,6 +158,7 @@ search engine type
 
 ___
 
+
 ### top\_categories
 
 • `Optional` **top\_categories**: `number`[]
@@ -155,3 +168,7 @@ categories for which domains are collected
 #### Defined in
 
 [main.ts:84740](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L84740)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

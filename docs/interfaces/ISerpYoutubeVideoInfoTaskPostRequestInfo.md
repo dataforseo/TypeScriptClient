@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / ISerpYoutubeVideoInfoTaskPostRequestInfo
 
 # Interface: ISerpYoutubeVideoInfoTaskPostRequestInfo
@@ -43,6 +47,7 @@ only value: desktop
 
 ___
 
+
 ### language\_code
 
 • `Optional` **language\_code**: `string`
@@ -59,6 +64,7 @@ en
 [main.ts:57920](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L57920)
 
 ___
+
 
 ### language\_name
 
@@ -77,6 +83,7 @@ English
 
 ___
 
+
 ### location\_code
 
 • `Optional` **location\_code**: `number`
@@ -93,6 +100,7 @@ example:
 [main.ts:57906](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L57906)
 
 ___
+
 
 ### location\_name
 
@@ -111,6 +119,7 @@ United States
 
 ___
 
+
 ### os
 
 • `Optional` **os**: `string`
@@ -125,6 +134,7 @@ default value: windows
 [main.ts:57929](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L57929)
 
 ___
+
 
 ### pingback\_url
 
@@ -146,6 +156,7 @@ i.a., the # symbol will be encoded into %23
 
 ___
 
+
 ### postback\_data
 
 • `Optional` **postback\_data**: `string`
@@ -161,6 +172,7 @@ advanced
 [main.ts:57951](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L57951)
 
 ___
+
 
 ### postback\_url
 
@@ -182,6 +194,7 @@ i.a., the # symbol will be encoded into %23
 
 ___
 
+
 ### priority
 
 • `Optional` **priority**: `number`
@@ -200,6 +213,7 @@ The cost can be calculated on the Pricing page.
 
 ___
 
+
 ### tag
 
 • `Optional` **tag**: `string`
@@ -216,6 +230,7 @@ you will find the specified tag value in the data object of the response
 
 ___
 
+
 ### video\_id
 
 • `Optional` **video\_id**: `string`
@@ -229,3 +244,7 @@ vQXvyV0zIP4
 #### Defined in
 
 [main.ts:57884](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L57884)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

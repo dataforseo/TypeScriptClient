@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / DataforseoLabsGoogleSerpCompetitorsLiveRequestInfo
 
 # Class: DataforseoLabsGoogleSerpCompetitorsLiveRequestInfo
@@ -88,6 +92,7 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 ___
 
+
 ### include\_subdomains
 
 • `Optional` **include\_subdomains**: `boolean`
@@ -106,6 +111,7 @@ default value: true
 [main.ts:87391](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L87391)
 
 ___
+
 
 ### item\_types
 
@@ -129,6 +135,7 @@ default value:
 
 ___
 
+
 ### keywords
 
 • `Optional` **keywords**: `string`[]
@@ -150,6 +157,7 @@ you can specify the maximum of 200 keywords
 [main.ts:87354](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L87354)
 
 ___
+
 
 ### language\_code
 
@@ -173,6 +181,7 @@ en
 
 ___
 
+
 ### language\_name
 
 • `Optional` **language\_name**: `string`
@@ -195,6 +204,7 @@ English
 
 ___
 
+
 ### limit
 
 • `Optional` **limit**: `number`
@@ -213,6 +223,7 @@ maximum value: 1000
 [main.ts:87404](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L87404)
 
 ___
+
 
 ### location\_code
 
@@ -236,6 +247,7 @@ example:
 
 ___
 
+
 ### location\_name
 
 • `Optional` **location\_name**: `string`
@@ -258,6 +270,7 @@ United Kingdom
 
 ___
 
+
 ### offset
 
 • `Optional` **offset**: `number`
@@ -276,6 +289,7 @@ if you specify the 10 value, the first ten domains in the results array will be 
 [main.ts:87409](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L87409)
 
 ___
+
 
 ### order\_by
 
@@ -306,6 +320,7 @@ example:
 [main.ts:87440](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L87440)
 
 ___
+
 
 ### tag
 
@@ -347,6 +362,7 @@ you will find the specified tag value in the data object of the response
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -367,6 +383,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`DataforseoLabsGoogleSerpCompetitorsLiveRequestInfo`](DataforseoLabsGoogleSerpCompetitorsLiveRequestInfo.md)
@@ -384,3 +401,7 @@ ___
 #### Defined in
 
 [main.ts:87496](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L87496)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

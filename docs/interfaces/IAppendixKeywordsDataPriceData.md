@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IAppendixKeywordsDataPriceData
 
 # Interface: IAppendixKeywordsDataPriceData
@@ -41,6 +45,7 @@
 
 ___
 
+
 ### bing
 
 • `Optional` **bing**: [`AppendixBingKeywordsDataPriceData`](../classes/AppendixBingKeywordsDataPriceData.md)
@@ -50,6 +55,7 @@ ___
 [main.ts:210074](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L210074)
 
 ___
+
 
 ### categories
 
@@ -61,6 +67,7 @@ ___
 
 ___
 
+
 ### errors
 
 • `Optional` **errors**: [`AppendixTaskKeywordsDataPriceDataInfo`](../classes/AppendixTaskKeywordsDataPriceDataInfo.md)
@@ -70,6 +77,7 @@ ___
 [main.ts:210076](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L210076)
 
 ___
+
 
 ### explore
 
@@ -81,6 +89,7 @@ ___
 
 ___
 
+
 ### google\_ads
 
 • `Optional` **google\_ads**: [`AppendixGoogleAdsKeywordsDataPriceData`](../classes/AppendixGoogleAdsKeywordsDataPriceData.md)
@@ -90,6 +99,7 @@ ___
 [main.ts:210077](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L210077)
 
 ___
+
 
 ### keyword\_performance
 
@@ -101,6 +111,7 @@ ___
 
 ___
 
+
 ### keywords\_for\_keywords
 
 • `Optional` **keywords\_for\_keywords**: [`AppendixKeywordsKeywordsDataPriceDataInfo`](../classes/AppendixKeywordsKeywordsDataPriceDataInfo.md)
@@ -110,6 +121,7 @@ ___
 [main.ts:210079](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L210079)
 
 ___
+
 
 ### keywords\_for\_site
 
@@ -121,6 +133,7 @@ ___
 
 ___
 
+
 ### languages
 
 • `Optional` **languages**: [`AppendixTaskKeywordsDataPriceDataInfo`](../classes/AppendixTaskKeywordsDataPriceDataInfo.md)
@@ -130,6 +143,7 @@ ___
 [main.ts:210081](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L210081)
 
 ___
+
 
 ### locations
 
@@ -141,6 +155,7 @@ ___
 
 ___
 
+
 ### search\_volume
 
 • `Optional` **search\_volume**: [`AppendixKeywordsKeywordsDataPriceDataInfo`](../classes/AppendixKeywordsKeywordsDataPriceDataInfo.md)
@@ -150,6 +165,7 @@ ___
 [main.ts:210084](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L210084)
 
 ___
+
 
 ### search\_volume\_history
 
@@ -161,6 +177,7 @@ ___
 
 ___
 
+
 ### tasks\_ready
 
 • `Optional` **tasks\_ready**: [`AppendixTaskKeywordsDataPriceDataInfo`](../classes/AppendixTaskKeywordsDataPriceDataInfo.md)
@@ -168,3 +185,7 @@ ___
 #### Defined in
 
 [main.ts:210072](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L210072)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

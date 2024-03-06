@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IContentAnalysisRatingDistributionLiveResultInfo
 
 # Interface: IContentAnalysisRatingDistributionLiveResultInfo
@@ -33,6 +37,7 @@ max rating on a distribution scale
 
 ___
 
+
 ### metrics
 
 • `Optional` **metrics**: [`ContentAnalysisSummaryInfo`](../classes/ContentAnalysisSummaryInfo.md)
@@ -44,6 +49,7 @@ contains rating distribution metrics
 [main.ts:158468](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L158468)
 
 ___
+
 
 ### min
 
@@ -57,6 +63,7 @@ min rating on a distribution scale
 
 ___
 
+
 ### type
 
 • `Optional` **type**: `string`
@@ -66,3 +73,7 @@ type of element
 #### Defined in
 
 [main.ts:158462](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L158462)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

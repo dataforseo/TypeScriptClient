@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / DataforseoLabsGoogleBulkKeywordDifficultyLiveRequestInfo
 
 # Class: DataforseoLabsGoogleBulkKeywordDifficultyLiveRequestInfo
@@ -74,6 +78,7 @@ the keywords will be converted to lowercase format
 
 ___
 
+
 ### language\_code
 
 • `Optional` **language\_code**: `string`
@@ -94,6 +99,7 @@ en
 [main.ts:82249](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L82249)
 
 ___
+
 
 ### language\_name
 
@@ -116,6 +122,7 @@ English
 
 ___
 
+
 ### location\_code
 
 • `Optional` **location\_code**: `number`
@@ -137,6 +144,7 @@ example:
 
 ___
 
+
 ### location\_name
 
 • `Optional` **location\_name**: `string`
@@ -157,6 +165,7 @@ United Kingdom
 [main.ts:82228](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L82228)
 
 ___
+
 
 ### tag
 
@@ -198,6 +207,7 @@ you will find the specified tag value in the data object of the response
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -218,6 +228,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`DataforseoLabsGoogleBulkKeywordDifficultyLiveRequestInfo`](DataforseoLabsGoogleBulkKeywordDifficultyLiveRequestInfo.md)
@@ -235,3 +246,7 @@ ___
 #### Defined in
 
 [main.ts:82287](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L82287)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

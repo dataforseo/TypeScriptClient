@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IDiscussionsAndForumsElement
 
 # Interface: IDiscussionsAndForumsElement
@@ -37,6 +41,7 @@ description of the results element in SERP
 
 ___
 
+
 ### domain
 
 • `Optional` **domain**: `string`
@@ -48,6 +53,7 @@ domain where a link points
 [main.ts:35669](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L35669)
 
 ___
+
 
 ### posts\_count
 
@@ -61,6 +67,7 @@ number of posts from the discussion on the related source
 
 ___
 
+
 ### source
 
 • `Optional` **source**: `string`
@@ -73,6 +80,7 @@ indicates the source of information included in the element
 [main.ts:35672](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L35672)
 
 ___
+
 
 ### timestamp
 
@@ -89,6 +97,7 @@ example:
 
 ___
 
+
 ### title
 
 • `Optional` **title**: `string`
@@ -100,6 +109,7 @@ title of the row
 [main.ts:35665](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L35665)
 
 ___
+
 
 ### type
 
@@ -113,6 +123,7 @@ type of element
 
 ___
 
+
 ### url
 
 • `Optional` **url**: `string`
@@ -122,3 +133,7 @@ URL
 #### Defined in
 
 [main.ts:35667](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L35667)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

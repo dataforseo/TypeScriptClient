@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IDataforseoLabsGoogleCategoriesForDomainLiveRequestInfo
 
 # Interface: IDataforseoLabsGoogleCategoriesForDomainLiveRequestInfo
@@ -55,6 +59,7 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 ___
 
+
 ### include\_subcategories
 
 • `Optional` **include\_subcategories**: `boolean`
@@ -70,6 +75,7 @@ learn more about the parameter in this help center article
 [main.ts:83335](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L83335)
 
 ___
+
 
 ### item\_types
 
@@ -90,6 +96,7 @@ default value:
 
 ___
 
+
 ### language\_code
 
 • `Optional` **language\_code**: `string`
@@ -107,6 +114,7 @@ en
 [main.ts:83329](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L83329)
 
 ___
+
 
 ### language\_name
 
@@ -126,6 +134,7 @@ English
 
 ___
 
+
 ### limit
 
 • `Optional` **limit**: `number`
@@ -140,6 +149,7 @@ maximum value: 1000
 [main.ts:83382](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L83382)
 
 ___
+
 
 ### location\_code
 
@@ -159,6 +169,7 @@ example:
 
 ___
 
+
 ### location\_name
 
 • `Optional` **location\_name**: `string`
@@ -177,11 +188,12 @@ United Kingdom
 
 ___
 
+
 ### offset
 
 • `Optional` **offset**: `number`
 
-offset in the results array of returned categories 
+offset in the results array of returned categories
 optional field
 default value: 0
 if you specify the 10 value, the first ten categories in the results array will be omitted and the data will be provided for the successive categories
@@ -191,6 +203,7 @@ if you specify the 10 value, the first ten categories in the results array will 
 [main.ts:83387](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L83387)
 
 ___
+
 
 ### order\_by
 
@@ -219,6 +232,7 @@ Note: if the item_types array contains item types that are different from the or
 
 ___
 
+
 ### tag
 
 • `Optional` **tag**: `string`
@@ -235,6 +249,7 @@ you will find the specified tag value in the data object of the response
 
 ___
 
+
 ### target
 
 • `Optional` **target**: `string`
@@ -247,3 +262,7 @@ the domain or subdomain should be specified without https:// and www.
 #### Defined in
 
 [main.ts:83297](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L83297)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

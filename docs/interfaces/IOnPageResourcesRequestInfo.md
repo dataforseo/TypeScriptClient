@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IOnPageResourcesRequestInfo
 
 # Interface: IOnPageResourcesRequestInfo
@@ -49,6 +53,7 @@ The full list of possible filters is available by this link.
 
 ___
 
+
 ### id
 
 • `Optional` **id**: `string`
@@ -65,6 +70,7 @@ example:
 
 ___
 
+
 ### limit
 
 • `Optional` **limit**: `number`
@@ -80,6 +86,7 @@ maximum value: 1000
 
 ___
 
+
 ### offset
 
 • `Optional` **offset**: `number`
@@ -94,6 +101,7 @@ if you specify the 10 value, the first ten resources in the results array will b
 [main.ts:145878](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L145878)
 
 ___
+
 
 ### order\_by
 
@@ -119,6 +127,7 @@ example:
 
 ___
 
+
 ### relevant\_pages\_filters
 
 • `Optional` **relevant\_pages\_filters**: `string`[]
@@ -141,6 +150,7 @@ example:
 
 ___
 
+
 ### tag
 
 • `Optional` **tag**: `string`
@@ -157,6 +167,7 @@ you will find the specified tag value in the data object of the response
 
 ___
 
+
 ### url
 
 • `Optional` **url**: `string`
@@ -170,3 +181,7 @@ if you do not indicate a url when setting a task, resource’s meta in the resul
 #### Defined in
 
 [main.ts:145868](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L145868)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

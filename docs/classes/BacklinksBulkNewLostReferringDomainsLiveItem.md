@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / BacklinksBulkNewLostReferringDomainsLiveItem
 
 # Class: BacklinksBulkNewLostReferringDomainsLiveItem
@@ -69,6 +73,7 @@ number of lost referring domains of the target
 
 ___
 
+
 ### lost\_referring\_main\_domains
 
 • `Optional` **lost\_referring\_main\_domains**: `number`
@@ -84,6 +89,7 @@ number of lost referring main domains pointing to the target
 [main.ts:141195](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L141195)
 
 ___
+
 
 ### new\_referring\_domains
 
@@ -102,6 +108,7 @@ number of new referring domains pointing to the target
 
 ___
 
+
 ### new\_referring\_main\_domains
 
 • `Optional` **new\_referring\_main\_domains**: `number`
@@ -117,6 +124,7 @@ number of new referring main domains pointing to the target
 [main.ts:141193](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L141193)
 
 ___
+
 
 ### target
 
@@ -154,6 +162,7 @@ domain, subdomain or webpage from a POST array
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -174,6 +183,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`BacklinksBulkNewLostReferringDomainsLiveItem`](BacklinksBulkNewLostReferringDomainsLiveItem.md)
@@ -191,3 +201,7 @@ ___
 #### Defined in
 
 [main.ts:141222](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L141222)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / BusinessDataGoogleHotelInfoLiveAdvancedRequestInfo
 
 # Class: BusinessDataGoogleHotelInfoLiveAdvancedRequestInfo
@@ -79,6 +83,7 @@ example:
 
 ___
 
+
 ### check\_in
 
 • `Optional` **check\_in**: `string`
@@ -100,6 +105,7 @@ example:
 [main.ts:196583](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L196583)
 
 ___
+
 
 ### check\_out
 
@@ -124,6 +130,7 @@ example:
 
 ___
 
+
 ### children
 
 • `Optional` **children**: `string`[]
@@ -146,6 +153,7 @@ set the following value if you want to include one 13-years-old child and one 8-
 
 ___
 
+
 ### currency
 
 • `Optional` **currency**: `string`
@@ -164,6 +172,7 @@ example:
 [main.ts:196597](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L196597)
 
 ___
+
 
 ### hotel\_identifier
 
@@ -186,6 +195,7 @@ ChYIq6SB--i6p6cpGgovbS8wN2s5ODZfEAE
 
 ___
 
+
 ### language\_code
 
 • `Optional` **language\_code**: `string`
@@ -206,6 +216,7 @@ en
 [main.ts:196575](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L196575)
 
 ___
+
 
 ### language\_name
 
@@ -228,6 +239,7 @@ English
 
 ___
 
+
 ### location\_code
 
 • `Optional` **location\_code**: `number`
@@ -248,6 +260,7 @@ example:
 [main.ts:196552](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L196552)
 
 ___
+
 
 ### location\_coordinate
 
@@ -272,6 +285,7 @@ example:
 
 ___
 
+
 ### location\_name
 
 • `Optional` **location\_name**: `string`
@@ -292,6 +306,7 @@ London,England,United Kingdom
 [main.ts:196545](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L196545)
 
 ___
+
 
 ### tag
 
@@ -333,6 +348,7 @@ you will find the specified tag value in the data object of the response
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -353,6 +369,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`BusinessDataGoogleHotelInfoLiveAdvancedRequestInfo`](BusinessDataGoogleHotelInfoLiveAdvancedRequestInfo.md)
@@ -370,3 +387,7 @@ ___
 #### Defined in
 
 [main.ts:196655](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L196655)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

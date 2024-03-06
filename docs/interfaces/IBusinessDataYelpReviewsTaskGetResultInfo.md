@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IBusinessDataYelpReviewsTaskGetResultInfo
 
 # Interface: IBusinessDataYelpReviewsTaskGetResultInfo
@@ -42,6 +46,7 @@ Yelp business identifier
 
 ___
 
+
 ### check\_url
 
 • `Optional` **check\_url**: `string`
@@ -54,6 +59,7 @@ you can use it to make sure that we provided accurate results
 [main.ts:205489](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L205489)
 
 ___
+
 
 ### datetime
 
@@ -70,6 +76,7 @@ example:
 
 ___
 
+
 ### items
 
 • `Optional` **items**: [`BaseBusinessDataSerpElementItem`](../classes/BaseBusinessDataSerpElementItem.md)[]
@@ -82,6 +89,7 @@ you can get more results by using the depth parameter when setting a task
 [main.ts:205507](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L205507)
 
 ___
+
 
 ### items\_count
 
@@ -96,6 +104,7 @@ you can get more results by using the depth parameter when setting a task
 
 ___
 
+
 ### keyword
 
 • `Optional` **keyword**: `string`
@@ -109,6 +118,7 @@ this field will contain the alias parameter if it was specified in a POST array
 
 ___
 
+
 ### language\_code
 
 • `Optional` **language\_code**: `string`
@@ -120,6 +130,7 @@ language code in a POST array
 [main.ts:205486](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L205486)
 
 ___
+
 
 ### location\_code
 
@@ -134,6 +145,7 @@ if location_code was not specified in a POST array, the value equals null
 
 ___
 
+
 ### rating
 
 • `Optional` **rating**: [`RatingInfo`](../classes/RatingInfo.md)
@@ -145,6 +157,7 @@ the rating score submitted by the reviewer
 [main.ts:205499](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L205499)
 
 ___
+
 
 ### reviews\_count
 
@@ -158,6 +171,7 @@ the total number of reviews
 
 ___
 
+
 ### se\_domain
 
 • `Optional` **se\_domain**: `string`
@@ -169,6 +183,7 @@ search engine domain in a POST array
 [main.ts:205481](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L205481)
 
 ___
+
 
 ### title
 
@@ -183,6 +198,7 @@ the name of the local establishment for which the reviews are collected
 
 ___
 
+
 ### type
 
 • `Optional` **type**: `string`
@@ -192,3 +208,7 @@ type of element
 #### Defined in
 
 [main.ts:205479](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L205479)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

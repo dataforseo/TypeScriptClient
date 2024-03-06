@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / JobsElement
 
 # Class: JobsElement
@@ -72,6 +76,7 @@ author
 
 ___
 
+
 ### contract\_type
 
 • `Optional` **contract\_type**: `string`
@@ -87,6 +92,7 @@ contract type
 [main.ts:29309](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L29309)
 
 ___
+
 
 ### description
 
@@ -104,6 +110,7 @@ description of the results element in SERP
 
 ___
 
+
 ### job\_posted\_time
 
 • `Optional` **job\_posted\_time**: `string`
@@ -120,6 +127,7 @@ the time when the job was posted
 
 ___
 
+
 ### salary
 
 • `Optional` **salary**: `string`
@@ -135,6 +143,7 @@ salary
 [main.ts:29311](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L29311)
 
 ___
+
 
 ### timestamp
 
@@ -155,6 +164,7 @@ example:
 
 ___
 
+
 ### title
 
 • `Optional` **title**: `string`
@@ -171,6 +181,7 @@ title of the row
 
 ___
 
+
 ### type
 
 • `Optional` **type**: `string`
@@ -186,6 +197,7 @@ type of element
 [main.ts:29294](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L29294)
 
 ___
+
 
 ### url
 
@@ -223,6 +235,7 @@ URL
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -243,6 +256,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`JobsElement`](JobsElement.md)
@@ -260,3 +274,7 @@ ___
 #### Defined in
 
 [main.ts:29344](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L29344)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

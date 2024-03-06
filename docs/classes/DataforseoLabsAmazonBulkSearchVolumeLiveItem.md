@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / DataforseoLabsAmazonBulkSearchVolumeLiveItem
 
 # Class: DataforseoLabsAmazonBulkSearchVolumeLiveItem
@@ -66,6 +70,7 @@ keyword in a POST array
 
 ___
 
+
 ### se\_type
 
 • `Optional` **se\_type**: `string`
@@ -81,6 +86,7 @@ search engine type
 [main.ts:98800](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L98800)
 
 ___
+
 
 ### search\_volume
 
@@ -119,6 +125,7 @@ represents the (approximate) number of searches for the returned keyword on Amaz
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -139,6 +146,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`DataforseoLabsAmazonBulkSearchVolumeLiveItem`](DataforseoLabsAmazonBulkSearchVolumeLiveItem.md)
@@ -156,3 +164,7 @@ ___
 #### Defined in
 
 [main.ts:98830](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L98830)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / BusinessDataGoogleHotelInfoLiveHtmlResultInfo
 
 # Class: BusinessDataGoogleHotelInfoLiveHtmlResultInfo
@@ -74,6 +78,7 @@ example:
 
 ___
 
+
 ### items
 
 • `Optional` **items**: [`HtmlItem`](HtmlItem.md)[]
@@ -89,6 +94,7 @@ HTML pages
 [main.ts:197560](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L197560)
 
 ___
+
 
 ### items\_count
 
@@ -106,6 +112,7 @@ the number of results returned in the items array
 
 ___
 
+
 ### keyword
 
 • `Optional` **keyword**: `string`
@@ -121,6 +128,7 @@ unique hotel identifier specified as "hotel_id:$"
 [main.ts:197543](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L197543)
 
 ___
+
 
 ### language\_code
 
@@ -138,6 +146,7 @@ language code in a POST array
 
 ___
 
+
 ### location\_code
 
 • `Optional` **location\_code**: `number`
@@ -154,6 +163,7 @@ location code in a POST array
 
 ___
 
+
 ### se\_domain
 
 • `Optional` **se\_domain**: `string`
@@ -169,6 +179,7 @@ search engine domain in a POST array
 [main.ts:197547](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L197547)
 
 ___
+
 
 ### type
 
@@ -206,6 +217,7 @@ type of element
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -226,6 +238,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`BusinessDataGoogleHotelInfoLiveHtmlResultInfo`](BusinessDataGoogleHotelInfoLiveHtmlResultInfo.md)
@@ -243,3 +256,7 @@ ___
 #### Defined in
 
 [main.ts:197594](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L197594)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

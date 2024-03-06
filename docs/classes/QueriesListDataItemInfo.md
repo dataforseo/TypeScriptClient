@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / QueriesListDataItemInfo
 
 # Class: QueriesListDataItemInfo
@@ -65,6 +69,7 @@ related query
 
 ___
 
+
 ### value
 
 • `Optional` **value**: `string`
@@ -102,6 +107,7 @@ represents the popularity of the topic. Scoring is on a relative scale where a v
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -122,6 +128,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`QueriesListDataItemInfo`](QueriesListDataItemInfo.md)
@@ -139,3 +146,7 @@ ___
 #### Defined in
 
 [main.ts:121018](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L121018)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IAppDataAppStoreSearchOrganicSerpElementItem
 
 # Interface: IAppDataAppStoreSearchOrganicSerpElementItem
@@ -5,7 +9,7 @@
 ## Hierarchy
 
 - [`IBaseAppDataSerpElementItem`](IBaseAppDataSerpElementItem.md)
-
+  
   ↳ **`IAppDataAppStoreSearchOrganicSerpElementItem`**
 
 ## Implemented by
@@ -46,6 +50,7 @@ id of the app
 
 ___
 
+
 ### icon
 
 • `Optional` **icon**: `string`
@@ -58,6 +63,7 @@ URL to the app icon
 
 ___
 
+
 ### is\_free
 
 • `Optional` **is\_free**: `boolean`
@@ -69,6 +75,7 @@ indicates whether the app is free
 [main.ts:110893](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L110893)
 
 ___
+
 
 ### position
 
@@ -84,6 +91,7 @@ left, right
 
 ___
 
+
 ### price
 
 • `Optional` **price**: [`PriceInfo`](../classes/PriceInfo.md)
@@ -95,6 +103,7 @@ price of the app
 [main.ts:110895](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L110895)
 
 ___
+
 
 ### rank\_absolute
 
@@ -109,6 +118,7 @@ absolute position among all the elements in SERP
 
 ___
 
+
 ### rank\_group
 
 • `Optional` **rank\_group**: `number`
@@ -122,6 +132,7 @@ positions of elements with different type values are omitted from rank_group
 
 ___
 
+
 ### rating
 
 • `Optional` **rating**: [`RatingInfo`](../classes/RatingInfo.md)
@@ -133,6 +144,7 @@ average rating of the app
 [main.ts:110891](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L110891)
 
 ___
+
 
 ### reviews\_count
 
@@ -146,6 +158,7 @@ the total number of reviews of the app
 
 ___
 
+
 ### title
 
 • `Optional` **title**: `string`
@@ -158,6 +171,7 @@ title of the app
 
 ___
 
+
 ### url
 
 • `Optional` **url**: `string`
@@ -167,3 +181,7 @@ URL to the app page on App Store
 #### Defined in
 
 [main.ts:110885](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L110885)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

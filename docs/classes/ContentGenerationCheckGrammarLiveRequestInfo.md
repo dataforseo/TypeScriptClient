@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / ContentGenerationCheckGrammarLiveRequestInfo
 
 # Class: ContentGenerationCheckGrammarLiveRequestInfo
@@ -69,6 +73,7 @@ see the List of Languages for Content Generation Check Grammar API
 
 ___
 
+
 ### language\_name
 
 • `Optional` **language\_name**: `string`
@@ -86,6 +91,7 @@ see the List of Languages for Content Generation Check Grammar API
 [main.ts:161390](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L161390)
 
 ___
+
 
 ### tag
 
@@ -106,6 +112,7 @@ you will find the specified tag value in the data object of the response
 [main.ts:161396](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L161396)
 
 ___
+
 
 ### text
 
@@ -146,6 +153,7 @@ learn more about tokens on our help center
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -166,6 +174,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`ContentGenerationCheckGrammarLiveRequestInfo`](ContentGenerationCheckGrammarLiveRequestInfo.md)
@@ -183,3 +192,7 @@ ___
 #### Defined in
 
 [main.ts:161422](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L161422)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

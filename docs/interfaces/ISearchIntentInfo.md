@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / ISearchIntentInfo
 
 # Interface: ISearchIntentInfo
@@ -34,6 +38,7 @@ possible values: informational, navigational, commercial, transactional
 
 ___
 
+
 ### last\_updated\_time
 
 • `Optional` **last\_updated\_time**: `string`
@@ -49,6 +54,7 @@ example:
 
 ___
 
+
 ### main\_intent
 
 • `Optional` **main\_intent**: `string`
@@ -62,6 +68,7 @@ possible values: informational, navigational, commercial, transactional
 
 ___
 
+
 ### se\_type
 
 • `Optional` **se\_type**: `string`
@@ -72,3 +79,7 @@ possible values: google
 #### Defined in
 
 [main.ts:79614](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L79614)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

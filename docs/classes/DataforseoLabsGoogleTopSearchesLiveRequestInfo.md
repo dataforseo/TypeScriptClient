@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / DataforseoLabsGoogleTopSearchesLiveRequestInfo
 
 # Class: DataforseoLabsGoogleTopSearchesLiveRequestInfo
@@ -92,6 +96,7 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 ___
 
+
 ### ignore\_synonyms
 
 • `Optional` **ignore\_synonyms**: `boolean`
@@ -111,6 +116,7 @@ default value: false
 
 ___
 
+
 ### include\_serp\_info
 
 • `Optional` **include\_serp\_info**: `boolean`
@@ -129,6 +135,7 @@ default value: false
 [main.ts:85013](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L85013)
 
 ___
+
 
 ### language\_code
 
@@ -152,6 +159,7 @@ en
 
 ___
 
+
 ### language\_name
 
 • `Optional` **language\_name**: `string`
@@ -174,6 +182,7 @@ English
 
 ___
 
+
 ### limit
 
 • `Optional` **limit**: `number`
@@ -193,6 +202,7 @@ maximum value: 1000
 [main.ts:85065](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L85065)
 
 ___
+
 
 ### location\_code
 
@@ -216,6 +226,7 @@ example:
 
 ___
 
+
 ### location\_name
 
 • `Optional` **location\_name**: `string`
@@ -238,6 +249,7 @@ United Kingdom
 
 ___
 
+
 ### offset
 
 • `Optional` **offset**: `number`
@@ -256,6 +268,7 @@ if you specify the 10 value, the first ten keywords in the results array will be
 [main.ts:85070](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L85070)
 
 ___
+
 
 ### offset\_token
 
@@ -278,6 +291,7 @@ Note: if the offset_token is specified in the request, all other parameters exce
 [main.ts:85078](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L85078)
 
 ___
+
 
 ### order\_by
 
@@ -308,6 +322,7 @@ example:
 [main.ts:85053](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L85053)
 
 ___
+
 
 ### tag
 
@@ -349,6 +364,7 @@ you will find the specified tag value in the data object of the response
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -369,6 +385,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`DataforseoLabsGoogleTopSearchesLiveRequestInfo`](DataforseoLabsGoogleTopSearchesLiveRequestInfo.md)
@@ -386,3 +403,7 @@ ___
 #### Defined in
 
 [main.ts:85120](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L85120)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

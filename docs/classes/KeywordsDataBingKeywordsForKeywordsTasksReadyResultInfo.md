@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / KeywordsDataBingKeywordsForKeywordsTasksReadyResultInfo
 
 # Class: KeywordsDataBingKeywordsForKeywordsTasksReadyResultInfo
@@ -69,6 +73,7 @@ date when the task was posted (in the UTC format)
 
 ___
 
+
 ### endpoint
 
 • `Optional` **endpoint**: `string`
@@ -85,6 +90,7 @@ URL for collecting the results of the task
 
 ___
 
+
 ### function
 
 • `Optional` **function**: `string`
@@ -100,6 +106,7 @@ type of the task
 [main.ts:125370](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L125370)
 
 ___
+
 
 ### id
 
@@ -118,6 +125,7 @@ unique task identifier in our system in the UUID format
 
 ___
 
+
 ### se
 
 • `Optional` **se**: `string`
@@ -133,6 +141,7 @@ search engine specified when setting the task
 [main.ts:125368](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L125368)
 
 ___
+
 
 ### tag
 
@@ -170,6 +179,7 @@ user-defined task identifier
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -190,6 +200,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`KeywordsDataBingKeywordsForKeywordsTasksReadyResultInfo`](KeywordsDataBingKeywordsForKeywordsTasksReadyResultInfo.md)
@@ -207,3 +218,7 @@ ___
 #### Defined in
 
 [main.ts:125404](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L125404)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

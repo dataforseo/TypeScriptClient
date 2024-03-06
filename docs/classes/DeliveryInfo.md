@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / DeliveryInfo
 
 # Class: DeliveryInfo
@@ -67,6 +71,7 @@ message accompanying the delivery information as posted by the seller
 
 ___
 
+
 ### delivery\_price
 
 • `Optional` **delivery\_price**: [`PriceInfo`](PriceInfo.md)
@@ -84,6 +89,7 @@ if free delivery is available, the value is null
 [main.ts:164520](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L164520)
 
 ___
+
 
 ### stores\_count\_info
 
@@ -122,6 +128,7 @@ contains information about the number of stores that offer the same product
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -142,6 +149,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`DeliveryInfo`](DeliveryInfo.md)
@@ -159,3 +167,7 @@ ___
 #### Defined in
 
 [main.ts:164548](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L164548)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IOnPageKeywordDensityRequestInfo
 
 # Interface: IOnPageKeywordDensityRequestInfo
@@ -51,6 +55,7 @@ The full list of possible filters is available by this link.
 
 ___
 
+
 ### id
 
 • `Optional` **id**: `string`
@@ -67,6 +72,7 @@ example:
 
 ___
 
+
 ### keyword\_length
 
 • `Optional` **keyword\_length**: `number`
@@ -82,6 +88,7 @@ possible values:
 
 ___
 
+
 ### limit
 
 • `Optional` **limit**: `number`
@@ -96,6 +103,7 @@ maximum value: 1000
 [main.ts:150189](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L150189)
 
 ___
+
 
 ### order\_by
 
@@ -121,6 +129,7 @@ example:
 
 ___
 
+
 ### tag
 
 • `Optional` **tag**: `string`
@@ -137,6 +146,7 @@ you will find the specified tag value in the data object of the response
 
 ___
 
+
 ### url
 
 • `Optional` **url**: `string`
@@ -150,3 +160,7 @@ a page should be specified with absolute URL (including http:// or https://)
 #### Defined in
 
 [main.ts:150184](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L150184)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

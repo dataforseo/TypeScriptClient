@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / ISerpYoutubeVideoSubtitlesLiveAdvancedRequestInfo
 
 # Interface: ISerpYoutubeVideoSubtitlesLiveAdvancedRequestInfo
@@ -41,6 +45,7 @@ only value: desktop
 
 ___
 
+
 ### language\_code
 
 • `Optional` **language\_code**: `string`
@@ -57,6 +62,7 @@ en
 [main.ts:60740](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L60740)
 
 ___
+
 
 ### language\_name
 
@@ -75,6 +81,7 @@ English
 
 ___
 
+
 ### location\_code
 
 • `Optional` **location\_code**: `number`
@@ -91,6 +98,7 @@ example:
 [main.ts:60726](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L60726)
 
 ___
+
 
 ### location\_name
 
@@ -109,6 +117,7 @@ United States
 
 ___
 
+
 ### os
 
 • `Optional` **os**: `string`
@@ -124,6 +133,7 @@ default value: windows
 
 ___
 
+
 ### subtitles\_language
 
 • `Optional` **subtitles\_language**: `string`
@@ -136,6 +146,7 @@ you can get the language code from YouTube Video Info result
 [main.ts:60708](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L60708)
 
 ___
+
 
 ### subtitles\_translate\_language
 
@@ -150,6 +161,7 @@ possible values:
 [main.ts:60712](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L60712)
 
 ___
+
 
 ### tag
 
@@ -167,6 +179,7 @@ you will find the specified tag value in the data object of the response
 
 ___
 
+
 ### video\_id
 
 • `Optional` **video\_id**: `string`
@@ -180,3 +193,7 @@ Y8Wu4rSNJms
 #### Defined in
 
 [main.ts:60705](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L60705)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

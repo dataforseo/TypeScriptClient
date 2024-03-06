@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IExploreBrandsElement
 
 # Interface: IExploreBrandsElement
@@ -36,6 +40,7 @@ description of the results element in SERP
 
 ___
 
+
 ### domain
 
 • `Optional` **domain**: `string`
@@ -47,6 +52,7 @@ domain where a link points
 [main.ts:35263](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L35263)
 
 ___
+
 
 ### image\_url
 
@@ -60,6 +66,7 @@ URL of the image
 
 ___
 
+
 ### title
 
 • `Optional` **title**: `string`
@@ -71,6 +78,7 @@ title of the row
 [main.ts:35259](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L35259)
 
 ___
+
 
 ### type
 
@@ -84,6 +92,7 @@ type of element
 
 ___
 
+
 ### url
 
 • `Optional` **url**: `string`
@@ -96,6 +105,7 @@ URL
 
 ___
 
+
 ### xpath
 
 • `Optional` **xpath**: `string`
@@ -105,3 +115,7 @@ the XPath of the element
 #### Defined in
 
 [main.ts:35269](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L35269)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

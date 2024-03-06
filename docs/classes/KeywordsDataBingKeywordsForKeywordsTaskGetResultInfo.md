@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / KeywordsDataBingKeywordsForKeywordsTaskGetResultInfo
 
 # Class: KeywordsDataBingKeywordsForKeywordsTaskGetResultInfo
@@ -74,13 +78,14 @@ legacy field, the value will always be null
 
 ___
 
+
 ### competition
 
 • `Optional` **competition**: `number`
 
 competition
 represents the relative amount of competition associated with the given keyword in paid SERP only. This value is based on Bing Ads data.
-Possible values: 0.1, 0.5,0.9 
+Possible values: 0.1, 0.5,0.9
 0.1 – low competition,
 0.5 – medium competition,
 0.9 – high competition;
@@ -95,6 +100,7 @@ if there is no data the value is null
 [main.ts:125575](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L125575)
 
 ___
+
 
 ### cpc
 
@@ -114,6 +120,7 @@ if there is no data, then the value is null
 
 ___
 
+
 ### device
 
 • `Optional` **device**: `string`
@@ -132,6 +139,7 @@ possible values: all, mobile, desktop, tablet
 
 ___
 
+
 ### keyword
 
 • `Optional` **keyword**: `string`
@@ -147,6 +155,7 @@ keyword in a POST array
 [main.ts:125557](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L125557)
 
 ___
+
 
 ### language\_code
 
@@ -164,6 +173,7 @@ language code in a POST array
 
 ___
 
+
 ### location\_code
 
 • `Optional` **location\_code**: `number`
@@ -179,6 +189,7 @@ location code in a POST array
 [main.ts:125559](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L125559)
 
 ___
+
 
 ### monthly\_searches
 
@@ -198,6 +209,7 @@ if there is no data, then the value is null
 
 ___
 
+
 ### search\_partners
 
 • `Optional` **search\_partners**: `boolean`
@@ -213,6 +225,7 @@ indicates whether data from partner networks included in the response
 [main.ts:125563](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L125563)
 
 ___
+
 
 ### search\_volume
 
@@ -253,6 +266,7 @@ if there is no data, then the value is null
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -273,6 +287,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`KeywordsDataBingKeywordsForKeywordsTaskGetResultInfo`](KeywordsDataBingKeywordsForKeywordsTaskGetResultInfo.md)
@@ -290,3 +305,7 @@ ___
 #### Defined in
 
 [main.ts:125631](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L125631)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

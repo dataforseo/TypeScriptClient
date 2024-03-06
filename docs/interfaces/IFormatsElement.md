@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IFormatsElement
 
 # Interface: IFormatsElement
@@ -33,6 +37,7 @@ for example: zip, html, csv
 
 ___
 
+
 ### size
 
 • `Optional` **size**: `string`
@@ -45,6 +50,7 @@ file size in bytes
 
 ___
 
+
 ### type
 
 • `Optional` **type**: `string`
@@ -54,3 +60,7 @@ type of element
 #### Defined in
 
 [main.ts:50614](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L50614)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

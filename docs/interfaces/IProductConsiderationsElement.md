@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IProductConsiderationsElement
 
 # Interface: IProductConsiderationsElement
@@ -34,6 +38,7 @@ the category is indicated just above the title fo the consideration element
 
 ___
 
+
 ### expanded\_element
 
 • `Optional` **expanded\_element**: [`ProductConsiderationsExpandedElement`](../classes/ProductConsiderationsExpandedElement.md)
@@ -45,6 +50,7 @@ expanded element
 [main.ts:34597](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L34597)
 
 ___
+
 
 ### title
 
@@ -58,6 +64,7 @@ title of the row
 
 ___
 
+
 ### type
 
 • `Optional` **type**: `string`
@@ -67,3 +74,7 @@ type of element
 #### Defined in
 
 [main.ts:34590](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L34590)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

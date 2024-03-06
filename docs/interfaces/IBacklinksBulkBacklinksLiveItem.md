@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IBacklinksBulkBacklinksLiveItem
 
 # Interface: IBacklinksBulkBacklinksLiveItem
@@ -31,6 +35,7 @@ number of backlinks pointing to the target
 
 ___
 
+
 ### target
 
 • `Optional` **target**: `string`
@@ -40,3 +45,7 @@ domain, subdomain or webpage from a POST array
 #### Defined in
 
 [main.ts:139792](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L139792)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

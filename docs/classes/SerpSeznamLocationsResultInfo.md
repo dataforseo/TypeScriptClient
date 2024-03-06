@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / SerpSeznamLocationsResultInfo
 
 # Class: SerpSeznamLocationsResultInfo
@@ -68,6 +72,7 @@ ISO country code of the location
 
 ___
 
+
 ### location\_code
 
 • `Optional` **location\_code**: `number`
@@ -83,6 +88,7 @@ location code
 [main.ts:68754](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L68754)
 
 ___
+
 
 ### location\_code\_parent
 
@@ -102,6 +108,7 @@ don’t match locations by location_code_parent because the results for Region a
 
 ___
 
+
 ### location\_name
 
 • `Optional` **location\_name**: `string`
@@ -117,6 +124,7 @@ full name of the location
 [main.ts:68756](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L68756)
 
 ___
+
 
 ### location\_type
 
@@ -154,6 +162,7 @@ location type
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -174,6 +183,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`SerpSeznamLocationsResultInfo`](SerpSeznamLocationsResultInfo.md)
@@ -191,3 +201,7 @@ ___
 #### Defined in
 
 [main.ts:68791](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L68791)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

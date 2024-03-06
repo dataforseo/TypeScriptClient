@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IKeywordsDataBingKeywordsForSiteTaskPostRequestInfo
 
 # Interface: IKeywordsDataBingKeywordsForSiteTaskPostRequestInfo
@@ -49,6 +53,7 @@ example:
 
 ___
 
+
 ### date\_to
 
 • `Optional` **date\_to**: `string`
@@ -69,6 +74,7 @@ example:
 
 ___
 
+
 ### device
 
 • `Optional` **device**: `string`
@@ -84,6 +90,7 @@ default value: all
 [main.ts:123845](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L123845)
 
 ___
+
 
 ### keywords\_negative
 
@@ -101,6 +108,7 @@ the specified keywords will be converted to lowercase format
 
 ___
 
+
 ### language\_code
 
 • `Optional` **language\_code**: `string`
@@ -116,6 +124,7 @@ en, fr, de
 [main.ts:123833](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L123833)
 
 ___
+
 
 ### language\_name
 
@@ -133,6 +142,7 @@ English, French, German
 
 ___
 
+
 ### location\_code
 
 • `Optional` **location\_code**: `number`
@@ -149,6 +159,7 @@ example:
 [main.ts:123813](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L123813)
 
 ___
+
 
 ### location\_coordinate
 
@@ -168,6 +179,7 @@ example:
 
 ___
 
+
 ### location\_name
 
 • `Optional` **location\_name**: `string`
@@ -184,6 +196,7 @@ London,England,United Kingdom
 [main.ts:123806](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L123806)
 
 ___
+
 
 ### pingback\_url
 
@@ -205,6 +218,7 @@ i.a., the # symbol will be encoded into %23
 
 ___
 
+
 ### postback\_url
 
 • `Optional` **postback\_url**: `string`
@@ -225,6 +239,7 @@ i.a., the # symbol will be encoded into %23
 
 ___
 
+
 ### search\_partners
 
 • `Optional` **search\_partners**: `boolean`
@@ -240,6 +255,7 @@ default value: false – results are returned for Bing, AOL, and Yahoo search ne
 
 ___
 
+
 ### sort\_by
 
 • `Optional` **sort\_by**: `string`
@@ -254,6 +270,7 @@ default value: relevance
 [main.ts:123850](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L123850)
 
 ___
+
 
 ### tag
 
@@ -271,6 +288,7 @@ you will find the specified tag value in the data object of the response
 
 ___
 
+
 ### target
 
 • `Optional` **target**: `string`
@@ -282,3 +300,7 @@ the URL of the webpage or the domain to scan for possible keywords
 #### Defined in
 
 [main.ts:123799](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L123799)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

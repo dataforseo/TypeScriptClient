@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / PaidSerpElementItem
 
 # Class: PaidSerpElementItem
@@ -5,7 +9,7 @@
 ## Hierarchy
 
 - [`BaseSerpElementItem`](BaseSerpElementItem.md)
-
+  
   ↳ **`PaidSerpElementItem`**
 
 ## Implements
@@ -91,6 +95,7 @@
 
 ___
 
+
 ### breadcrumb
 
 • `Optional` **breadcrumb**: `string`
@@ -107,6 +112,7 @@ breadcrumb in SERP
 
 ___
 
+
 ### description
 
 • `Optional` **description**: `string`
@@ -122,6 +128,7 @@ description of the results element in SERP
 [main.ts:25181](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L25181)
 
 ___
+
 
 ### description\_rows
 
@@ -140,6 +147,7 @@ if there is none, equals null
 
 ___
 
+
 ### domain
 
 • `Optional` **domain**: `string`
@@ -155,6 +163,7 @@ domain where a link points
 [main.ts:25165](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L25165)
 
 ___
+
 
 ### extra
 
@@ -176,6 +185,7 @@ additional information about the result
 
 ___
 
+
 ### highlighted
 
 • `Optional` **highlighted**: `string`[]
@@ -191,6 +201,7 @@ words highlighted in bold within the results description
 [main.ts:25177](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L25177)
 
 ___
+
 
 ### images
 
@@ -208,6 +219,7 @@ images of the element
 
 ___
 
+
 ### is\_image
 
 • `Optional` **is\_image**: `boolean`
@@ -224,6 +236,7 @@ indicates whether the element contains an image
 
 ___
 
+
 ### is\_video
 
 • `Optional` **is\_video**: `boolean`
@@ -239,6 +252,7 @@ indicates whether the element contains a video
 [main.ts:25171](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L25171)
 
 ___
+
 
 ### links
 
@@ -258,6 +272,7 @@ if there are none, equals null
 
 ___
 
+
 ### position
 
 • `Optional` **position**: `string`
@@ -276,6 +291,7 @@ left, right
 
 ___
 
+
 ### price
 
 • `Optional` **price**: [`PriceInfo`](PriceInfo.md)
@@ -293,6 +309,7 @@ contains the pricing details of the product or service featured in the result
 
 ___
 
+
 ### rank\_absolute
 
 • `Optional` **rank\_absolute**: `number`
@@ -309,6 +326,7 @@ absolute position among all the elements in SERP
 [main.ts:25155](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L25155)
 
 ___
+
 
 ### rank\_group
 
@@ -328,6 +346,7 @@ positions of elements with different type values are omitted from rank_group
 
 ___
 
+
 ### rectangle
 
 • `Optional` **rectangle**: [`Rectangle`](Rectangle.md)
@@ -346,6 +365,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 ___
 
+
 ### title
 
 • `Optional` **title**: `string`
@@ -361,6 +381,7 @@ title of the result in SERP
 [main.ts:25163](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L25163)
 
 ___
+
 
 ### url
 
@@ -378,6 +399,7 @@ relevant URL in SERP
 
 ___
 
+
 ### website\_name
 
 • `Optional` **website\_name**: `string`
@@ -393,6 +415,7 @@ website name in SERP
 [main.ts:25197](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L25197)
 
 ___
+
 
 ### xpath
 
@@ -434,6 +457,7 @@ the XPath of the element
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -458,6 +482,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`PaidSerpElementItem`](PaidSerpElementItem.md)
@@ -479,3 +504,7 @@ ___
 #### Defined in
 
 [main.ts:25257](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L25257)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

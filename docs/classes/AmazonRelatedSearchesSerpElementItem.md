@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / AmazonRelatedSearchesSerpElementItem
 
 # Class: AmazonRelatedSearchesSerpElementItem
@@ -5,7 +9,7 @@
 ## Hierarchy
 
 - [`BaseAmazonSerpElementItem`](BaseAmazonSerpElementItem.md)
-
+  
   ↳ **`AmazonRelatedSearchesSerpElementItem`**
 
 ## Implements
@@ -77,6 +81,7 @@
 
 ___
 
+
 ### items
 
 • `Optional` **items**: [`RelatedSearchesElement`](RelatedSearchesElement.md)[]
@@ -92,6 +97,7 @@ Amazon product items
 [main.ts:171112](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L171112)
 
 ___
+
 
 ### position
 
@@ -111,6 +117,7 @@ left, right
 
 ___
 
+
 ### rank\_absolute
 
 • `Optional` **rank\_absolute**: `number`
@@ -128,6 +135,7 @@ absolute position among all the elements found in Amazon SERP
 
 ___
 
+
 ### rank\_group
 
 • `Optional` **rank\_group**: `number`
@@ -144,6 +152,7 @@ positions of elements with different type values are omitted from rank_group
 [main.ts:171101](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L171101)
 
 ___
+
 
 ### xpath
 
@@ -185,6 +194,7 @@ the XPath of the element
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -209,6 +219,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`AmazonRelatedSearchesSerpElementItem`](AmazonRelatedSearchesSerpElementItem.md)
@@ -230,3 +241,7 @@ ___
 #### Defined in
 
 [main.ts:171140](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L171140)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

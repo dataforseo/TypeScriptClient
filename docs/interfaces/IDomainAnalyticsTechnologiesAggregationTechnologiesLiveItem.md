@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IDomainAnalyticsTechnologiesAggregationTechnologiesLiveItem
 
 # Interface: IDomainAnalyticsTechnologiesAggregationTechnologiesLiveItem
@@ -39,6 +43,7 @@ number of domains that match the parameters you specified and are using technolo
 
 ___
 
+
 ### category
 
 • `Optional` **category**: `string`
@@ -51,6 +56,7 @@ technology category id
 
 ___
 
+
 ### group
 
 • `Optional` **group**: `string`
@@ -62,6 +68,7 @@ technology group id
 [main.ts:72798](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L72798)
 
 ___
+
 
 ### groups\_count
 
@@ -76,6 +83,7 @@ number of domains that match the parameters you specified and are using technolo
 
 ___
 
+
 ### technologies\_count
 
 • `Optional` **technologies\_count**: `number`
@@ -89,6 +97,7 @@ number of domains that match the parameters you specified and are using the indi
 
 ___
 
+
 ### technology
 
 • `Optional` **technology**: `string`
@@ -101,6 +110,7 @@ technology name
 
 ___
 
+
 ### type
 
 • `Optional` **type**: `string`
@@ -110,3 +120,7 @@ type of element
 #### Defined in
 
 [main.ts:72796](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L72796)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

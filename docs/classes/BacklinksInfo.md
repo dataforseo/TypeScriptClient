@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / BacklinksInfo
 
 # Class: BacklinksInfo
@@ -70,6 +74,7 @@ the total number of backlinks, including dofollow and nofollow links
 
 ___
 
+
 ### dofollow
 
 • `Optional` **dofollow**: `number`
@@ -85,6 +90,7 @@ number of dofollow links
 [main.ts:75992](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L75992)
 
 ___
+
 
 ### referring\_domains
 
@@ -102,6 +108,7 @@ number of referring domains
 
 ___
 
+
 ### referring\_main\_domains
 
 • `Optional` **referring\_main\_domains**: `number`
@@ -118,6 +125,7 @@ number of referring main domains
 
 ___
 
+
 ### referring\_pages
 
 • `Optional` **referring\_pages**: `number`
@@ -133,6 +141,7 @@ number of referring pages
 [main.ts:75990](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L75990)
 
 ___
+
 
 ### time\_update
 
@@ -173,6 +182,7 @@ example:
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -193,6 +203,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`BacklinksInfo`](BacklinksInfo.md)
@@ -210,3 +221,7 @@ ___
 #### Defined in
 
 [main.ts:76028](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L76028)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

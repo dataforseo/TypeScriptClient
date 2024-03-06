@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / DataforseoLabsBingRankedKeywordsLiveRequestInfo
 
 # Class: DataforseoLabsBingRankedKeywordsLiveRequestInfo
@@ -95,6 +99,7 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 ___
 
+
 ### historical\_serp\_mode
 
 • `Optional` **historical\_serp\_mode**: `string`
@@ -118,6 +123,7 @@ default value: live
 
 ___
 
+
 ### ignore\_synonyms
 
 • `Optional` **ignore\_synonyms**: `boolean`
@@ -136,6 +142,7 @@ default value: false
 [main.ts:105020](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L105020)
 
 ___
+
 
 ### item\_types
 
@@ -160,6 +167,7 @@ default value:
 
 ___
 
+
 ### language\_code
 
 • `Optional` **language\_code**: `string`
@@ -182,6 +190,7 @@ en
 [main.ts:105006](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L105006)
 
 ___
+
 
 ### language\_name
 
@@ -206,6 +215,7 @@ English
 
 ___
 
+
 ### limit
 
 • `Optional` **limit**: `number`
@@ -225,6 +235,7 @@ maximum value: 1000
 
 ___
 
+
 ### load\_rank\_absolute
 
 • `Optional` **load\_rank\_absolute**: `boolean`
@@ -243,6 +254,7 @@ if set to true, we will return the field metrics_absolute containing rankings di
 [main.ts:105035](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L105035)
 
 ___
+
 
 ### location\_code
 
@@ -268,6 +280,7 @@ example:
 
 ___
 
+
 ### location\_name
 
 • `Optional` **location\_name**: `string`
@@ -292,6 +305,7 @@ United States
 
 ___
 
+
 ### offset
 
 • `Optional` **offset**: `number`
@@ -310,6 +324,7 @@ if you specify the 10 value, the first ten keywords in the results array will be
 [main.ts:105030](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L105030)
 
 ___
+
 
 ### order\_by
 
@@ -341,6 +356,7 @@ example:
 
 ___
 
+
 ### tag
 
 • `Optional` **tag**: `string`
@@ -360,6 +376,7 @@ you will find the specified tag value in the data object of the response
 [main.ts:105086](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L105086)
 
 ___
+
 
 ### target
 
@@ -405,6 +422,7 @@ example:
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -425,6 +443,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`DataforseoLabsBingRankedKeywordsLiveRequestInfo`](DataforseoLabsBingRankedKeywordsLiveRequestInfo.md)
@@ -442,3 +461,7 @@ ___
 #### Defined in
 
 [main.ts:105134](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L105134)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

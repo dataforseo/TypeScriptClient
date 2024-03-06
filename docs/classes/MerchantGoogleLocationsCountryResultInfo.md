@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / MerchantGoogleLocationsCountryResultInfo
 
 # Class: MerchantGoogleLocationsCountryResultInfo
@@ -68,6 +72,7 @@ ISO country code of the location
 
 ___
 
+
 ### location\_code
 
 • `Optional` **location\_code**: `number`
@@ -84,6 +89,7 @@ location code
 
 ___
 
+
 ### location\_name
 
 • `Optional` **location\_name**: `string`
@@ -99,6 +105,7 @@ full name of the location
 [main.ts:163701](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L163701)
 
 ___
+
 
 ### location\_name\_parent
 
@@ -118,6 +125,7 @@ example:
 [main.ts:163706](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L163706)
 
 ___
+
 
 ### location\_type
 
@@ -155,6 +163,7 @@ location type
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -175,6 +184,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`MerchantGoogleLocationsCountryResultInfo`](MerchantGoogleLocationsCountryResultInfo.md)
@@ -192,3 +202,7 @@ ___
 #### Defined in
 
 [main.ts:163737](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L163737)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

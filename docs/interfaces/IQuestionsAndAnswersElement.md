@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IQuestionsAndAnswersElement
 
 # Interface: IQuestionsAndAnswersElement
@@ -36,6 +40,7 @@ answer included in the item
 
 ___
 
+
 ### domain
 
 • `Optional` **domain**: `string`
@@ -48,6 +53,7 @@ domain where a link points
 
 ___
 
+
 ### question\_text
 
 • `Optional` **question\_text**: `string`
@@ -59,6 +65,7 @@ question included in the item
 [main.ts:32868](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L32868)
 
 ___
+
 
 ### source
 
@@ -73,6 +80,7 @@ indicates the source of information included in the element
 
 ___
 
+
 ### type
 
 • `Optional` **type**: `string`
@@ -84,6 +92,7 @@ type of element
 [main.ts:32864](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L32864)
 
 ___
+
 
 ### url
 
@@ -97,6 +106,7 @@ URL
 
 ___
 
+
 ### votes
 
 • `Optional` **votes**: `number`
@@ -106,3 +116,7 @@ answer upvotes from the source
 #### Defined in
 
 [main.ts:32877](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L32877)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

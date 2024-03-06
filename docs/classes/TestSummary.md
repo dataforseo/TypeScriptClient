@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / TestSummary
 
 # Class: TestSummary
@@ -67,6 +71,7 @@ number of serious microdata errors
 
 ___
 
+
 ### fatal
 
 • `Optional` **fatal**: `number`
@@ -83,6 +88,7 @@ number of fatal microdata errors
 
 ___
 
+
 ### info
 
 • `Optional` **info**: `number`
@@ -98,6 +104,7 @@ number of microdata information flags
 [main.ts:150587](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L150587)
 
 ___
+
 
 ### warning
 
@@ -135,6 +142,7 @@ number of microdata warnings
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -155,6 +163,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`TestSummary`](TestSummary.md)
@@ -172,3 +181,7 @@ ___
 #### Defined in
 
 [main.ts:150613](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L150613)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

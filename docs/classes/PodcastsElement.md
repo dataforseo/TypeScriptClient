@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / PodcastsElement
 
 # Class: PodcastsElement
@@ -69,6 +73,7 @@ description of the results element in SERP
 
 ___
 
+
 ### time\_to\_play
 
 • `Optional` **time\_to\_play**: `string`
@@ -84,6 +89,7 @@ the total time it will take to play an episode
 [main.ts:32171](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L32171)
 
 ___
+
 
 ### timestamp
 
@@ -104,6 +110,7 @@ example:
 
 ___
 
+
 ### title
 
 • `Optional` **title**: `string`
@@ -120,6 +127,7 @@ title of the row
 
 ___
 
+
 ### type
 
 • `Optional` **type**: `string`
@@ -135,6 +143,7 @@ type of element
 [main.ts:32158](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L32158)
 
 ___
+
 
 ### url
 
@@ -172,6 +181,7 @@ URL
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -192,6 +202,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`PodcastsElement`](PodcastsElement.md)
@@ -209,3 +220,7 @@ ___
 #### Defined in
 
 [main.ts:32199](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L32199)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

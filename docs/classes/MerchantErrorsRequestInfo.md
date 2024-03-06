@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / MerchantErrorsRequestInfo
 
 # Class: MerchantErrorsRequestInfo
@@ -73,6 +77,7 @@ example:
 
 ___
 
+
 ### datetime\_to
 
 • `Optional` **datetime\_to**: `string`
@@ -94,6 +99,7 @@ example:
 
 ___
 
+
 ### filtered\_function
 
 • `Optional` **filtered\_function**: `string`
@@ -114,6 +120,7 @@ example: sellers/ad_url, postback_url, pingback_url
 
 ___
 
+
 ### limit
 
 • `Optional` **limit**: `number`
@@ -132,6 +139,7 @@ maximum value: 1000
 [main.ts:163004](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L163004)
 
 ___
+
 
 ### offset
 
@@ -172,6 +180,7 @@ if you specify the 10 value, the first ten tasks in the results array will be om
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -192,6 +201,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`MerchantErrorsRequestInfo`](MerchantErrorsRequestInfo.md)
@@ -209,3 +219,7 @@ ___
 #### Defined in
 
 [main.ts:163056](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L163056)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

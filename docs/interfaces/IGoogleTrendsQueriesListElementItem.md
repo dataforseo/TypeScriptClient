@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IGoogleTrendsQueriesListElementItem
 
 # Interface: IGoogleTrendsQueriesListElementItem
@@ -5,7 +9,7 @@
 ## Hierarchy
 
 - [`IBaseGoogleTrendsItem`](IBaseGoogleTrendsItem.md)
-
+  
   ↳ **`IGoogleTrendsQueriesListElementItem`**
 
 ## Implemented by
@@ -39,6 +43,7 @@ Google Trends data from the corresponding item
 
 ___
 
+
 ### keywords
 
 • `Optional` **keywords**: `string`[]
@@ -51,6 +56,7 @@ the data included in the google_trends_queries_list element is based on the keyw
 [main.ts:121194](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L121194)
 
 ___
+
 
 ### position
 
@@ -65,6 +71,7 @@ can take the following values: 1, 2, 3, 4, etc.
 
 ___
 
+
 ### title
 
 • `Optional` **title**: `string`
@@ -74,3 +81,7 @@ title of the element in Google Trends
 #### Defined in
 
 [main.ts:121191](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L121191)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

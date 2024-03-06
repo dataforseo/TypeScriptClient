@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / ContentAnalysisSearchLiveResultInfo
 
 # Class: ContentAnalysisSearchLiveResultInfo
@@ -67,6 +71,7 @@ contains citations and related data
 
 ___
 
+
 ### items\_count
 
 • `Optional` **items\_count**: `number`
@@ -82,6 +87,7 @@ the number of results returned in the items array
 [main.ts:156853](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L156853)
 
 ___
+
 
 ### offset\_token
 
@@ -100,6 +106,7 @@ note: offset_token values are unique for each subsequent task
 [main.ts:156849](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L156849)
 
 ___
+
 
 ### total\_count
 
@@ -137,6 +144,7 @@ total amount of results in our database relevant to your request
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -157,6 +165,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`ContentAnalysisSearchLiveResultInfo`](ContentAnalysisSearchLiveResultInfo.md)
@@ -174,3 +183,7 @@ ___
 #### Defined in
 
 [main.ts:156885](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L156885)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

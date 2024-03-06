@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IOnPageResourceIssueInfo
 
 # Interface: IOnPageResourceIssueInfo
@@ -33,6 +37,7 @@ resource errors
 
 ___
 
+
 ### warnings
 
 • `Optional` **warnings**: [`OnPageResourceIssueItemInfo`](../classes/OnPageResourceIssueItemInfo.md)[]
@@ -42,3 +47,7 @@ resource warnings
 #### Defined in
 
 [main.ts:144732](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L144732)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

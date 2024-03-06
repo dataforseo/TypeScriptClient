@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IDataforseoLabsAmazonProductCompetitorsLiveRequestInfo
 
 # Interface: IDataforseoLabsAmazonProductCompetitorsLiveRequestInfo
@@ -42,6 +46,7 @@ you can receive the asin parameter by making a separate request to the Amazon Pr
 
 ___
 
+
 ### filters
 
 • `Optional` **filters**: `any`[]
@@ -63,6 +68,7 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 ___
 
+
 ### language\_code
 
 • `Optional` **language\_code**: `string`
@@ -79,6 +85,7 @@ en
 [main.ts:101160](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L101160)
 
 ___
+
 
 ### language\_name
 
@@ -97,6 +104,7 @@ English
 
 ___
 
+
 ### limit
 
 • `Optional` **limit**: `number`
@@ -111,6 +119,7 @@ maximum value: 1000
 [main.ts:101165](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L101165)
 
 ___
+
 
 ### location\_code
 
@@ -130,6 +139,7 @@ example:
 
 ___
 
+
 ### location\_name
 
 • `Optional` **location\_name**: `string`
@@ -148,6 +158,7 @@ United States
 
 ___
 
+
 ### offset
 
 • `Optional` **offset**: `number`
@@ -162,6 +173,7 @@ if you specify the 10 value, the first ten product competitors in the results ar
 [main.ts:101197](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L101197)
 
 ___
+
 
 ### order\_by
 
@@ -189,6 +201,7 @@ default rule:
 
 ___
 
+
 ### tag
 
 • `Optional` **tag**: `string`
@@ -202,3 +215,7 @@ you will find the specified tag value in the data object of the response
 #### Defined in
 
 [main.ts:101203](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L101203)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

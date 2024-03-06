@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / GoogleShoppingSponsoredCarouselElement
 
 # Class: GoogleShoppingSponsoredCarouselElement
@@ -76,6 +80,7 @@ USD
 
 ___
 
+
 ### delivery\_info
 
 • `Optional` **delivery\_info**: [`DeliveryInfo`](DeliveryInfo.md)
@@ -92,6 +97,7 @@ delivery information including free and fast delivery date ranges
 [main.ts:165072](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L165072)
 
 ___
+
 
 ### price
 
@@ -111,6 +117,7 @@ example:
 
 ___
 
+
 ### product\_images
 
 • `Optional` **product\_images**: `string`[]
@@ -127,6 +134,7 @@ the first URL in the array is the featured image of the product
 [main.ts:165066](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L165066)
 
 ___
+
 
 ### product\_rating
 
@@ -145,6 +153,7 @@ the product popularity rate based on product reviews
 
 ___
 
+
 ### seller
 
 • `Optional` **seller**: `string`
@@ -161,6 +170,7 @@ the name of the company that placed a corresponding product on Google Shopping
 [main.ts:165052](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L165052)
 
 ___
+
 
 ### shop\_ad\_aclk
 
@@ -179,6 +189,7 @@ using this parameter you can get a URL of the advertisement in Google Shopping S
 
 ___
 
+
 ### tags
 
 • `Optional` **tags**: `string`[]
@@ -194,6 +205,7 @@ tags assigned to the product
 [main.ts:165049](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L165049)
 
 ___
+
 
 ### title
 
@@ -211,6 +223,7 @@ product title
 
 ___
 
+
 ### type
 
 • `Optional` **type**: `string`
@@ -226,6 +239,7 @@ type of element
 [main.ts:165043](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L165043)
 
 ___
+
 
 ### xpath
 
@@ -263,6 +277,7 @@ XPath of the element
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -283,6 +298,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`GoogleShoppingSponsoredCarouselElement`](GoogleShoppingSponsoredCarouselElement.md)
@@ -300,3 +316,7 @@ ___
 #### Defined in
 
 [main.ts:165113](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L165113)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

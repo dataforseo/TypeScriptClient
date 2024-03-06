@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IAppendixKeywordBingKeywordsDataPriceDataInfo
 
 # Interface: IAppendixKeywordBingKeywordsDataPriceDataInfo
@@ -25,3 +29,7 @@
 #### Defined in
 
 [main.ts:209745](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L209745)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

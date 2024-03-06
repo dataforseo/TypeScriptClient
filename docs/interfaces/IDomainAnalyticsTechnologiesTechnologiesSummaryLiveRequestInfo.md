@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IDomainAnalyticsTechnologiesTechnologiesSummaryLiveRequestInfo
 
 # Interface: IDomainAnalyticsTechnologiesTechnologiesSummaryLiveRequestInfo
@@ -43,6 +47,7 @@ example:
 
 ___
 
+
 ### filters
 
 • `Optional` **filters**: `any`[]
@@ -67,6 +72,7 @@ for more information about filters, please refer to Domain Analytics Technologie
 
 ___
 
+
 ### groups
 
 • `Optional` **groups**: `string`[]
@@ -83,6 +89,7 @@ example:
 [main.ts:73196](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L73196)
 
 ___
+
 
 ### internal\_list\_limit
 
@@ -101,6 +108,7 @@ maximum value: 10000
 
 ___
 
+
 ### keywords
 
 • `Optional` **keywords**: `string`[]
@@ -117,6 +125,7 @@ example:
 [main.ts:73217](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L73217)
 
 ___
+
 
 ### mode
 
@@ -135,6 +144,7 @@ default value: as_is
 
 ___
 
+
 ### tag
 
 • `Optional` **tag**: `string`
@@ -150,6 +160,7 @@ you will find the specified tag value in the data object of the response
 [main.ts:73251](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L73251)
 
 ___
+
 
 ### technologies
 
@@ -168,6 +179,7 @@ example:
 
 ___
 
+
 ### technology\_paths
 
 • `Optional` **technology\_paths**: `string`[]
@@ -185,3 +197,7 @@ example:
 #### Defined in
 
 [main.ts:73189](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L73189)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

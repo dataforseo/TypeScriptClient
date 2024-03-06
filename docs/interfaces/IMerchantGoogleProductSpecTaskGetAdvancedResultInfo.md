@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IMerchantGoogleProductSpecTaskGetAdvancedResultInfo
 
 # Interface: IMerchantGoogleProductSpecTaskGetAdvancedResultInfo
@@ -44,6 +48,7 @@ you can use it to make sure that we provided accurate results
 
 ___
 
+
 ### datetime
 
 • `Optional` **datetime**: `string`
@@ -59,6 +64,7 @@ example:
 
 ___
 
+
 ### description
 
 • `Optional` **description**: `string`
@@ -71,6 +77,7 @@ description of the product
 
 ___
 
+
 ### image\_url
 
 • `Optional` **image\_url**: `string`
@@ -82,6 +89,7 @@ URL of the product image
 [main.ts:168073](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L168073)
 
 ___
+
 
 ### item\_types
 
@@ -97,6 +105,7 @@ shopping_specification
 
 ___
 
+
 ### items
 
 • `Optional` **items**: [`BaseMerchantSerpElementItem`](../classes/BaseMerchantSerpElementItem.md)[]
@@ -110,6 +119,7 @@ contains all product attributes and related data listed on the product specifica
 
 ___
 
+
 ### items\_count
 
 • `Optional` **items\_count**: `number`
@@ -121,6 +131,7 @@ the number of results returned in the items array
 [main.ts:168089](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L168089)
 
 ___
+
 
 ### language\_code
 
@@ -134,6 +145,7 @@ language code in a POST array
 
 ___
 
+
 ### location\_code
 
 • `Optional` **location\_code**: `number`
@@ -145,6 +157,7 @@ location code in a POST array
 [main.ts:168065](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L168065)
 
 ___
+
 
 ### product\_id
 
@@ -159,6 +172,7 @@ learn more about the parameter in this help center guide
 
 ___
 
+
 ### se\_domain
 
 • `Optional` **se\_domain**: `string`
@@ -170,6 +184,7 @@ search engine domain in a POST array
 [main.ts:168063](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L168063)
 
 ___
+
 
 ### tags
 
@@ -183,6 +198,7 @@ tags of the product
 
 ___
 
+
 ### title
 
 • `Optional` **title**: `string`
@@ -195,6 +211,7 @@ title of the product
 
 ___
 
+
 ### type
 
 • `Optional` **type**: `string`
@@ -204,3 +221,7 @@ type of element
 #### Defined in
 
 [main.ts:168061](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L168061)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

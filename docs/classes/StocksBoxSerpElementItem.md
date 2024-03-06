@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / StocksBoxSerpElementItem
 
 # Class: StocksBoxSerpElementItem
@@ -5,7 +9,7 @@
 ## Hierarchy
 
 - [`BaseSerpElementItem`](BaseSerpElementItem.md)
-
+  
   ↳ **`StocksBoxSerpElementItem`**
 
 ## Implements
@@ -85,6 +89,7 @@
 
 ___
 
+
 ### domain
 
 • `Optional` **domain**: `string`
@@ -101,6 +106,7 @@ domain where a link points
 
 ___
 
+
 ### graph
 
 • `Optional` **graph**: [`Graph`](Graph.md)
@@ -116,6 +122,7 @@ contains data provided in the graph of the element
 [main.ts:32515](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L32515)
 
 ___
+
 
 ### position
 
@@ -135,6 +142,7 @@ left, right
 
 ___
 
+
 ### price
 
 • `Optional` **price**: [`PriceInfo`](PriceInfo.md)
@@ -150,6 +158,7 @@ price indicated in the element
 [main.ts:32502](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L32502)
 
 ___
+
 
 ### rank\_absolute
 
@@ -167,6 +176,7 @@ absolute position among all the elements in SERP
 [main.ts:32487](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L32487)
 
 ___
+
 
 ### rank\_group
 
@@ -186,6 +196,7 @@ positions of elements with different type values are omitted from rank_group
 
 ___
 
+
 ### rectangle
 
 • `Optional` **rectangle**: [`Rectangle`](Rectangle.md)
@@ -204,6 +215,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 ___
 
+
 ### snippet
 
 • `Optional` **snippet**: `string`
@@ -219,6 +231,7 @@ text alongside the link title
 [main.ts:32500](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L32500)
 
 ___
+
 
 ### source
 
@@ -237,6 +250,7 @@ indicates the source of information included in the top_stories_element
 
 ___
 
+
 ### table
 
 • `Optional` **table**: [`Table`](Table.md)
@@ -254,6 +268,7 @@ if there are none, equals null
 
 ___
 
+
 ### title
 
 • `Optional` **title**: `string`
@@ -270,6 +285,7 @@ title of a given link element
 
 ___
 
+
 ### url
 
 • `Optional` **url**: `string`
@@ -285,6 +301,7 @@ URL
 [main.ts:32504](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L32504)
 
 ___
+
 
 ### xpath
 
@@ -326,6 +343,7 @@ the XPath of the element
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -350,6 +368,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`StocksBoxSerpElementItem`](StocksBoxSerpElementItem.md)
@@ -371,3 +390,7 @@ ___
 #### Defined in
 
 [main.ts:32547](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L32547)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

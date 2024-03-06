@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / ISerpYoutubeVideoInfoLiveAdvancedRequestInfo
 
 # Interface: ISerpYoutubeVideoInfoLiveAdvancedRequestInfo
@@ -39,6 +43,7 @@ only value: desktop
 
 ___
 
+
 ### language\_code
 
 • `Optional` **language\_code**: `string`
@@ -55,6 +60,7 @@ en
 [main.ts:59172](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L59172)
 
 ___
+
 
 ### language\_name
 
@@ -73,6 +79,7 @@ English
 
 ___
 
+
 ### location\_code
 
 • `Optional` **location\_code**: `number`
@@ -89,6 +96,7 @@ example:
 [main.ts:59158](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L59158)
 
 ___
+
 
 ### location\_name
 
@@ -107,6 +115,7 @@ United States
 
 ___
 
+
 ### os
 
 • `Optional` **os**: `string`
@@ -121,6 +130,7 @@ default value: windows
 [main.ts:59181](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L59181)
 
 ___
+
 
 ### tag
 
@@ -138,6 +148,7 @@ you will find the specified tag value in the data object of the response
 
 ___
 
+
 ### video\_id
 
 • `Optional` **video\_id**: `string`
@@ -151,3 +162,7 @@ vQXvyV0zIP4
 #### Defined in
 
 [main.ts:59144](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L59144)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

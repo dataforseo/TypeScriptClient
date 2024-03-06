@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IServiceOfferingsElement
 
 # Interface: IServiceOfferingsElement
@@ -33,6 +37,7 @@ if the value is false, the offering is not available
 
 ___
 
+
 ### name
 
 • `Optional` **name**: `string`
@@ -46,6 +51,7 @@ example: Delivery
 
 ___
 
+
 ### type
 
 • `Optional` **type**: `string`
@@ -55,3 +61,7 @@ type of element
 #### Defined in
 
 [main.ts:203997](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L203997)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

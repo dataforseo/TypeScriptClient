@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / RedditReviews
 
 # Class: RedditReviews
@@ -69,6 +73,7 @@ nicknname of the user who published the post in the subreddit and shared the URL
 
 ___
 
+
 ### permalink
 
 • `Optional` **permalink**: `string`
@@ -84,6 +89,7 @@ URL to the subreddit post
 [main.ts:206231](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L206231)
 
 ___
+
 
 ### subreddit
 
@@ -101,6 +107,7 @@ the name of the subreddit
 
 ___
 
+
 ### subreddit\_members
 
 • `Optional` **subreddit\_members**: `number`
@@ -116,6 +123,7 @@ number of subreddit members
 [main.ts:206233](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L206233)
 
 ___
+
 
 ### title
 
@@ -153,6 +161,7 @@ title of the subreddit post
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -173,6 +182,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`RedditReviews`](RedditReviews.md)
@@ -190,3 +200,7 @@ ___
 #### Defined in
 
 [main.ts:206260](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L206260)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

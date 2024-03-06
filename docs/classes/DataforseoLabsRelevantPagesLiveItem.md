@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / DataforseoLabsRelevantPagesLiveItem
 
 # Class: DataforseoLabsRelevantPagesLiveItem
@@ -70,6 +74,7 @@ rankings and traffic metrics for the relevant page
 
 ___
 
+
 ### page\_address
 
 • `Optional` **page\_address**: `string`
@@ -85,6 +90,7 @@ absolute URL of the relevant page
 [main.ts:90204](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L90204)
 
 ___
+
 
 ### se\_type
 
@@ -122,6 +128,7 @@ search engine type
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -142,6 +149,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`DataforseoLabsRelevantPagesLiveItem`](DataforseoLabsRelevantPagesLiveItem.md)
@@ -159,3 +167,7 @@ ___
 #### Defined in
 
 [main.ts:90237](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L90237)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / OnPageNonIndexableRequestInfo
 
 # Class: OnPageNonIndexableRequestInfo
@@ -81,6 +85,7 @@ The full list of possible filters is available by this link.
 
 ___
 
+
 ### id
 
 • `Optional` **id**: `string`
@@ -101,6 +106,7 @@ example:
 
 ___
 
+
 ### limit
 
 • `Optional` **limit**: `number`
@@ -119,6 +125,7 @@ maximum value: 1000
 [main.ts:149264](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L149264)
 
 ___
+
 
 ### offset
 
@@ -159,6 +166,7 @@ if you specify the 10 value, the first ten pages in the results array will be om
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -179,6 +187,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`OnPageNonIndexableRequestInfo`](OnPageNonIndexableRequestInfo.md)
@@ -196,3 +205,7 @@ ___
 #### Defined in
 
 [main.ts:149315](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L149315)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

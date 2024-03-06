@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IDataforseoLabsSerpCompetitorsLiveItem
 
 # Interface: IDataforseoLabsSerpCompetitorsLiveItem
@@ -40,6 +44,7 @@ the arithmetic mean of values in the keywords_positions array
 
 ___
 
+
 ### domain
 
 • `Optional` **domain**: `string`
@@ -51,6 +56,7 @@ domain name of the detected SERP competitor
 [main.ts:87754](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L87754)
 
 ___
+
 
 ### etv
 
@@ -67,6 +73,7 @@ learn more about how the metric is calculated in this help center article
 
 ___
 
+
 ### keywords\_count
 
 • `Optional` **keywords\_count**: `number`
@@ -78,6 +85,7 @@ the number of specified keywords the domain has positions for in SERPs
 [main.ts:87771](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L87771)
 
 ___
+
 
 ### keywords\_positions
 
@@ -96,6 +104,7 @@ SERP positions the related domain holds in SERP for the specified keywords
 
 ___
 
+
 ### median\_position
 
 • `Optional` **median\_position**: `number`
@@ -108,6 +117,7 @@ the median of the values in the keywords_positions array
 [main.ts:87760](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L87760)
 
 ___
+
 
 ### rating
 
@@ -123,6 +133,7 @@ calculated as sum(100-keywords_positions)
 
 ___
 
+
 ### relevant\_serp\_items
 
 • `Optional` **relevant\_serp\_items**: `number`
@@ -136,6 +147,7 @@ represents the number of search results in SERP relevant to the domain for the s
 
 ___
 
+
 ### se\_type
 
 • `Optional` **se\_type**: `string`
@@ -147,6 +159,7 @@ search engine type
 [main.ts:87752](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L87752)
 
 ___
+
 
 ### visibility
 
@@ -161,3 +174,7 @@ keywords with positions from 20 to 100 have the visibility index equal to 0
 #### Defined in
 
 [main.ts:87777](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L87777)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

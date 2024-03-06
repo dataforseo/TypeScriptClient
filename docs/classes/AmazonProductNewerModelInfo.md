@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / AmazonProductNewerModelInfo
 
 # Class: AmazonProductNewerModelInfo
@@ -65,6 +69,7 @@ ASIN of the newer product model
 
 ___
 
+
 ### title
 
 • `Optional` **title**: `string`
@@ -101,6 +106,7 @@ product title
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -121,6 +127,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`AmazonProductNewerModelInfo`](AmazonProductNewerModelInfo.md)
@@ -138,3 +145,7 @@ ___
 #### Defined in
 
 [main.ts:172348](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L172348)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

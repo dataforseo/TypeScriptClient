@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / OnPageMicrodataRequestInfo
 
 # Class: OnPageMicrodataRequestInfo
@@ -70,6 +74,7 @@ example:
 
 ___
 
+
 ### tag
 
 • `Optional` **tag**: `string`
@@ -89,6 +94,7 @@ you will find the specified tag value in the data object of the response
 [main.ts:150511](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L150511)
 
 ___
+
 
 ### url
 
@@ -130,6 +136,7 @@ https://dataforseo.com/apis
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -150,6 +157,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`OnPageMicrodataRequestInfo`](OnPageMicrodataRequestInfo.md)
@@ -167,3 +175,7 @@ ___
 #### Defined in
 
 [main.ts:150536](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L150536)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

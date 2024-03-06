@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / SerpGoogleNewsLiveAdvancedResultInfo
 
 # Class: SerpGoogleNewsLiveAdvancedResultInfo
@@ -76,6 +80,7 @@ you can use it to make sure that we provided accurate results
 
 ___
 
+
 ### datetime
 
 • `Optional` **datetime**: `string`
@@ -94,6 +99,7 @@ example:
 [main.ts:43113](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L43113)
 
 ___
+
 
 ### item\_types
 
@@ -114,6 +120,7 @@ top_stories, news_search
 
 ___
 
+
 ### items
 
 • `Optional` **items**: [`BaseSerpElementItem`](BaseSerpElementItem.md)[]
@@ -130,6 +137,7 @@ elements of search results found in SERP
 
 ___
 
+
 ### items\_count
 
 • `Optional` **items\_count**: `number`
@@ -145,6 +153,7 @@ the number of results returned in the items array
 [main.ts:43125](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L43125)
 
 ___
+
 
 ### keyword
 
@@ -163,6 +172,7 @@ the keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to
 
 ___
 
+
 ### language\_code
 
 • `Optional` **language\_code**: `string`
@@ -178,6 +188,7 @@ language code in a POST array
 [main.ts:43105](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L43105)
 
 ___
+
 
 ### location\_code
 
@@ -195,6 +206,7 @@ location code in a POST array
 
 ___
 
+
 ### se\_domain
 
 • `Optional` **se\_domain**: `string`
@@ -210,6 +222,7 @@ search engine domain in a POST array
 [main.ts:43101](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L43101)
 
 ___
+
 
 ### se\_results\_count
 
@@ -227,6 +240,7 @@ total number of results in SERP
 
 ___
 
+
 ### spell
 
 • `Optional` **spell**: [`SpellInfo`](SpellInfo.md)
@@ -243,6 +257,7 @@ if the search engine provided results for a keyword that was corrected, we will 
 [main.ts:43116](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L43116)
 
 ___
+
 
 ### type
 
@@ -280,6 +295,7 @@ type of element
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -300,6 +316,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`SerpGoogleNewsLiveAdvancedResultInfo`](SerpGoogleNewsLiveAdvancedResultInfo.md)
@@ -317,3 +334,7 @@ ___
 #### Defined in
 
 [main.ts:43169](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L43169)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

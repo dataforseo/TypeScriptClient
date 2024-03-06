@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / ISerpBingOrganicTaskGetRegularResultInfo
 
 # Interface: ISerpBingOrganicTaskGetRegularResultInfo
@@ -42,6 +46,7 @@ you can use it to make sure that we provided accurate results
 
 ___
 
+
 ### datetime
 
 • `Optional` **datetime**: `string`
@@ -57,6 +62,7 @@ example:
 
 ___
 
+
 ### item\_types
 
 • `Optional` **item\_types**: `string`[]
@@ -71,6 +77,7 @@ possible item types: organic, paid
 
 ___
 
+
 ### items
 
 • `Optional` **items**: [`BaseSerpElementItem`](../classes/BaseSerpElementItem.md)[]
@@ -84,6 +91,7 @@ array of 8 search queries related to the keyword
 
 ___
 
+
 ### items\_count
 
 • `Optional` **items\_count**: `number`
@@ -95,6 +103,7 @@ the number of results returned in the items array
 [main.ts:54350](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L54350)
 
 ___
+
 
 ### keyword
 
@@ -109,6 +118,7 @@ keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a s
 
 ___
 
+
 ### language\_code
 
 • `Optional` **language\_code**: `string`
@@ -120,6 +130,7 @@ language code in a POST array
 [main.ts:54331](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L54331)
 
 ___
+
 
 ### location\_code
 
@@ -133,6 +144,7 @@ location code in a POST array
 
 ___
 
+
 ### se\_domain
 
 • `Optional` **se\_domain**: `string`
@@ -145,6 +157,7 @@ search engine domain in a POST array
 
 ___
 
+
 ### se\_results\_count
 
 • `Optional` **se\_results\_count**: `number`
@@ -156,6 +169,7 @@ total number of results in SERP
 [main.ts:54348](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L54348)
 
 ___
+
 
 ### spell
 
@@ -170,6 +184,7 @@ if the search engine provided results for a keyword that was corrected, we will 
 
 ___
 
+
 ### type
 
 • `Optional` **type**: `string`
@@ -179,3 +194,7 @@ type of element
 #### Defined in
 
 [main.ts:54325](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L54325)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

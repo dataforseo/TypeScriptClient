@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IDomainAnalyticsTechnologiesDomainTechnologiesLiveResultInfo
 
 # Interface: IDomainAnalyticsTechnologiesDomainTechnologiesLiveResultInfo
@@ -44,6 +48,7 @@ code of the language that content on the target domain is written in
 
 ___
 
+
 ### country\_iso\_code
 
 • `Optional` **country\_iso\_code**: `string`
@@ -57,6 +62,7 @@ ISO code of the country that the target domain is determined to belong to
 
 ___
 
+
 ### description
 
 • `Optional` **description**: `string`
@@ -69,6 +75,7 @@ domain meta description
 
 ___
 
+
 ### domain
 
 • `Optional` **domain**: `string`
@@ -80,6 +87,7 @@ specified domain name
 [main.ts:75257](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L75257)
 
 ___
+
 
 ### domain\_rank
 
@@ -94,6 +102,7 @@ learn more about the metric and how it is calculated in this help center article
 
 ___
 
+
 ### emails
 
 • `Optional` **emails**: `string`[]
@@ -107,6 +116,7 @@ emails indicated on the target website
 
 ___
 
+
 ### language\_code
 
 • `Optional` **language\_code**: `string`
@@ -119,6 +129,7 @@ code of the language that the target domain is determined to be associated with
 [main.ts:75277](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L75277)
 
 ___
+
 
 ### last\_visited
 
@@ -135,6 +146,7 @@ example:
 
 ___
 
+
 ### meta\_keywords
 
 • `Optional` **meta\_keywords**: `string`[]
@@ -146,6 +158,7 @@ domain meta keywords
 [main.ts:75263](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L75263)
 
 ___
+
 
 ### phone\_numbers
 
@@ -160,6 +173,7 @@ contact phone numbers indicated on the target website
 
 ___
 
+
 ### social\_graph\_urls
 
 • `Optional` **social\_graph\_urls**: `string`[]
@@ -172,6 +186,7 @@ social media URLs detected in the social graphs of the target website
 [main.ts:75289](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L75289)
 
 ___
+
 
 ### technologies
 
@@ -187,6 +202,7 @@ see the full list of available technologies structured by groups and categories
 
 ___
 
+
 ### title
 
 • `Optional` **title**: `string`
@@ -199,6 +215,7 @@ domain meta title
 
 ___
 
+
 ### type
 
 • `Optional` **type**: `string`
@@ -208,3 +225,7 @@ type of element
 #### Defined in
 
 [main.ts:75255](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L75255)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / BaseAmazonSerpElementItem
 
 # Class: BaseAmazonSerpElementItem
@@ -5,23 +9,23 @@
 ## Hierarchy
 
 - **`BaseAmazonSerpElementItem`**
-
+  
   ↳ [`AmazonAmazonSerpSerpElementItem`](AmazonAmazonSerpSerpElementItem.md)
-
+  
   ↳ [`AmazonAmazonPaidSerpElementItem`](AmazonAmazonPaidSerpElementItem.md)
-
+  
   ↳ [`AmazonEditorialRecommendationsSerpElementItem`](AmazonEditorialRecommendationsSerpElementItem.md)
-
+  
   ↳ [`AmazonRelatedSearchesSerpElementItem`](AmazonRelatedSearchesSerpElementItem.md)
-
+  
   ↳ [`AmazonTopRatedFromOurBrandsSerpElementItem`](AmazonTopRatedFromOurBrandsSerpElementItem.md)
-
+  
   ↳ [`AmazonAmazonProductInfoSerpElementItem`](AmazonAmazonProductInfoSerpElementItem.md)
-
+  
   ↳ [`AmazonAmazonSellerMainItemSerpElementItem`](AmazonAmazonSellerMainItemSerpElementItem.md)
-
+  
   ↳ [`AmazonAmazonSellerItemSerpElementItem`](AmazonAmazonSellerItemSerpElementItem.md)
-
+  
   ↳ [`AmazonAmazonReviewItemSerpElementItem`](AmazonAmazonReviewItemSerpElementItem.md)
 
 ## Implements
@@ -100,6 +104,7 @@
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -120,6 +125,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`BaseAmazonSerpElementItem`](BaseAmazonSerpElementItem.md)
@@ -137,3 +143,7 @@ ___
 #### Defined in
 
 [main.ts:20777](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L20777)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

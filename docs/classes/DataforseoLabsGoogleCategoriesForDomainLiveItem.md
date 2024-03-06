@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / DataforseoLabsGoogleCategoriesForDomainLiveItem
 
 # Class: DataforseoLabsGoogleCategoriesForDomainLiveItem
@@ -67,6 +71,7 @@ you can download the full list of possible categories
 
 ___
 
+
 ### metrics
 
 • `Optional` **metrics**: `Object`
@@ -86,6 +91,7 @@ ranking data relevant to the specified domain or subdomain
 [main.ts:83405](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L83405)
 
 ___
+
 
 ### se\_type
 
@@ -123,6 +129,7 @@ search engine type
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -143,6 +150,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`DataforseoLabsGoogleCategoriesForDomainLiveItem`](DataforseoLabsGoogleCategoriesForDomainLiveItem.md)
@@ -160,3 +168,7 @@ ___
 #### Defined in
 
 [main.ts:83440](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L83440)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

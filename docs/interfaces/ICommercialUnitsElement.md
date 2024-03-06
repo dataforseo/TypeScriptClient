@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / ICommercialUnitsElement
 
 # Interface: ICommercialUnitsElement
@@ -36,6 +40,7 @@ domain where a link points
 
 ___
 
+
 ### price
 
 • `Optional` **price**: [`PriceInfo`](../classes/PriceInfo.md)
@@ -48,11 +53,12 @@ price of booking a place for the specified dates of stay
 
 ___
 
+
 ### rating
 
 • `Optional` **rating**: [`RatingInfo`](../classes/RatingInfo.md)
 
-the item’s rating 
+the item’s rating
 the popularity rate based on reviews and displayed in SERP
 
 #### Defined in
@@ -60,6 +66,7 @@ the popularity rate based on reviews and displayed in SERP
 [main.ts:33469](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L33469)
 
 ___
+
 
 ### source
 
@@ -74,6 +81,7 @@ indicates the source of information included in the element
 
 ___
 
+
 ### title
 
 • `Optional` **title**: `string`
@@ -85,6 +93,7 @@ title of the row
 [main.ts:33457](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L33457)
 
 ___
+
 
 ### type
 
@@ -98,6 +107,7 @@ type of element
 
 ___
 
+
 ### url
 
 • `Optional` **url**: `string`
@@ -107,3 +117,7 @@ URL
 #### Defined in
 
 [main.ts:33459](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L33459)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

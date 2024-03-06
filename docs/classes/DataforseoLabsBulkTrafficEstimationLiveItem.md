@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / DataforseoLabsBulkTrafficEstimationLiveItem
 
 # Class: DataforseoLabsBulkTrafficEstimationLiveItem
@@ -70,6 +74,7 @@ traffic data relevant to the specified domain
 
 ___
 
+
 ### se\_type
 
 • `Optional` **se\_type**: `string`
@@ -85,6 +90,7 @@ search engine type
 [main.ts:97692](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L97692)
 
 ___
+
 
 ### target
 
@@ -122,6 +128,7 @@ target domain in a POST array
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -142,6 +149,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`DataforseoLabsBulkTrafficEstimationLiveItem`](DataforseoLabsBulkTrafficEstimationLiveItem.md)
@@ -159,3 +167,7 @@ ___
 #### Defined in
 
 [main.ts:97727](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L97727)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

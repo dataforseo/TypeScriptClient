@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IDataforseoLabsGoogleKeywordsForCategoriesLiveRequestInfo
 
 # Interface: IDataforseoLabsGoogleKeywordsForCategoriesLiveRequestInfo
@@ -46,6 +50,7 @@ you can download the full list of possible categories
 
 ___
 
+
 ### category\_intersection
 
 • `Optional` **category\_intersection**: `boolean`
@@ -61,6 +66,7 @@ default value: true
 [main.ts:83932](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L83932)
 
 ___
+
 
 ### filters
 
@@ -91,6 +97,7 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 ___
 
+
 ### ignore\_synonyms
 
 • `Optional` **ignore\_synonyms**: `boolean`
@@ -106,6 +113,7 @@ default value: false
 
 ___
 
+
 ### include\_serp\_info
 
 • `Optional` **include\_serp\_info**: `boolean`
@@ -120,6 +128,7 @@ default value: false
 [main.ts:83937](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L83937)
 
 ___
+
 
 ### language\_code
 
@@ -139,6 +148,7 @@ en
 
 ___
 
+
 ### language\_name
 
 • `Optional` **language\_name**: `string`
@@ -157,6 +167,7 @@ English
 
 ___
 
+
 ### limit
 
 • `Optional` **limit**: `number`
@@ -171,6 +182,7 @@ maximum value: 1000
 [main.ts:83947](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L83947)
 
 ___
+
 
 ### location\_code
 
@@ -190,6 +202,7 @@ example:
 
 ___
 
+
 ### location\_name
 
 • `Optional` **location\_name**: `string`
@@ -208,6 +221,7 @@ United Kingdom
 
 ___
 
+
 ### offset
 
 • `Optional` **offset**: `number`
@@ -222,6 +236,7 @@ if you specify the 10 value, the first ten keywords in the results array will be
 [main.ts:83952](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L83952)
 
 ___
+
 
 ### offset\_token
 
@@ -240,6 +255,7 @@ Note: if the offset_token is specified in the request, all other parameters exce
 [main.ts:83960](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L83960)
 
 ___
+
 
 ### order\_by
 
@@ -267,6 +283,7 @@ example:
 
 ___
 
+
 ### tag
 
 • `Optional` **tag**: `string`
@@ -280,3 +297,7 @@ you will find the specified tag value in the data object of the response
 #### Defined in
 
 [main.ts:84001](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L84001)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

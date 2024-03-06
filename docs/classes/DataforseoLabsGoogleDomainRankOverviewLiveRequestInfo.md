@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / DataforseoLabsGoogleDomainRankOverviewLiveRequestInfo
 
 # Class: DataforseoLabsGoogleDomainRankOverviewLiveRequestInfo
@@ -75,6 +79,7 @@ default value: false
 
 ___
 
+
 ### language\_code
 
 • `Optional` **language\_code**: `string`
@@ -97,6 +102,7 @@ en
 [main.ts:90523](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L90523)
 
 ___
+
 
 ### language\_name
 
@@ -121,6 +127,7 @@ English
 
 ___
 
+
 ### limit
 
 • `Optional` **limit**: `number`
@@ -139,6 +146,7 @@ maximum value: 1000
 [main.ts:90533](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L90533)
 
 ___
+
 
 ### location\_code
 
@@ -163,6 +171,7 @@ example:
 
 ___
 
+
 ### location\_name
 
 • `Optional` **location\_name**: `string`
@@ -186,6 +195,7 @@ United Kingdom
 
 ___
 
+
 ### offset
 
 • `Optional` **offset**: `number`
@@ -204,6 +214,7 @@ if you specify the 10 value, the first ten items in the results array will be om
 [main.ts:90538](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L90538)
 
 ___
+
 
 ### tag
 
@@ -224,6 +235,7 @@ you will find the specified tag value in the data object of the response
 [main.ts:90544](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L90544)
 
 ___
+
 
 ### target
 
@@ -264,6 +276,7 @@ the domain should be specified without https:// and www.
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -284,6 +297,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`DataforseoLabsGoogleDomainRankOverviewLiveRequestInfo`](DataforseoLabsGoogleDomainRankOverviewLiveRequestInfo.md)
@@ -301,3 +315,7 @@ ___
 #### Defined in
 
 [main.ts:90575](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L90575)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

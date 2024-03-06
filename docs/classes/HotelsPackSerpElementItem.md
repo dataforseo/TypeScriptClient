@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / HotelsPackSerpElementItem
 
 # Class: HotelsPackSerpElementItem
@@ -5,7 +9,7 @@
 ## Hierarchy
 
 - [`BaseSerpElementItem`](BaseSerpElementItem.md)
-
+  
   ↳ **`HotelsPackSerpElementItem`**
 
 ## Implements
@@ -81,6 +85,7 @@
 
 ___
 
+
 ### date\_from
 
 • `Optional` **date\_from**: `string`
@@ -99,6 +104,7 @@ example:
 [main.ts:33106](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L33106)
 
 ___
+
 
 ### date\_to
 
@@ -119,6 +125,7 @@ example:
 
 ___
 
+
 ### items
 
 • `Optional` **items**: [`HotelsPackElement`](HotelsPackElement.md)[]
@@ -134,6 +141,7 @@ contains results featured in the ‘hotels_pack’ element of SERP
 [main.ts:33113](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L33113)
 
 ___
+
 
 ### position
 
@@ -153,6 +161,7 @@ left, right
 
 ___
 
+
 ### rank\_absolute
 
 • `Optional` **rank\_absolute**: `number`
@@ -169,6 +178,7 @@ absolute position among all the elements in SERP
 [main.ts:33093](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L33093)
 
 ___
+
 
 ### rank\_group
 
@@ -188,6 +198,7 @@ positions of elements with different type values are omitted from rank_group
 
 ___
 
+
 ### rectangle
 
 • `Optional` **rectangle**: [`Rectangle`](Rectangle.md)
@@ -206,6 +217,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 ___
 
+
 ### title
 
 • `Optional` **title**: `string`
@@ -221,6 +233,7 @@ title of a given link element
 [main.ts:33101](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L33101)
 
 ___
+
 
 ### xpath
 
@@ -262,6 +275,7 @@ the XPath of the element
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -286,6 +300,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`HotelsPackSerpElementItem`](HotelsPackSerpElementItem.md)
@@ -307,3 +322,7 @@ ___
 #### Defined in
 
 [main.ts:33149](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L33149)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / ProductConsiderationsElement
 
 # Class: ProductConsiderationsElement
@@ -68,6 +72,7 @@ the category is indicated just above the title fo the consideration element
 
 ___
 
+
 ### expanded\_element
 
 • `Optional` **expanded\_element**: [`ProductConsiderationsExpandedElement`](ProductConsiderationsExpandedElement.md)
@@ -84,6 +89,7 @@ expanded element
 
 ___
 
+
 ### title
 
 • `Optional` **title**: `string`
@@ -99,6 +105,7 @@ title of the row
 [main.ts:34536](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L34536)
 
 ___
+
 
 ### type
 
@@ -136,6 +143,7 @@ type of element
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -156,6 +164,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`ProductConsiderationsElement`](ProductConsiderationsElement.md)
@@ -173,3 +182,7 @@ ___
 #### Defined in
 
 [main.ts:34567](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L34567)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

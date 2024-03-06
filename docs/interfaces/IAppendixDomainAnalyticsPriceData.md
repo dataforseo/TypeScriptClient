@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IAppendixDomainAnalyticsPriceData
 
 # Interface: IAppendixDomainAnalyticsPriceData
@@ -31,6 +35,7 @@
 
 ___
 
+
 ### tasks\_ready
 
 • `Optional` **tasks\_ready**: [`AppendixTaskKeywordsDataPriceDataInfo`](../classes/AppendixTaskKeywordsDataPriceDataInfo.md)
@@ -40,6 +45,7 @@ ___
 [main.ts:211941](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L211941)
 
 ___
+
 
 ### technologies
 
@@ -51,6 +57,7 @@ ___
 
 ___
 
+
 ### whois
 
 • `Optional` **whois**: [`AppendixWhoisDomainAnalyticsPriceData`](../classes/AppendixWhoisDomainAnalyticsPriceData.md)
@@ -58,3 +65,7 @@ ___
 #### Defined in
 
 [main.ts:211938](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L211938)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

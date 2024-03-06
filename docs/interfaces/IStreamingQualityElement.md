@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IStreamingQualityElement
 
 # Interface: IStreamingQualityElement
@@ -36,6 +40,7 @@ bit rate of the video
 
 ___
 
+
 ### fps
 
 • `Optional` **fps**: `number`
@@ -47,6 +52,7 @@ frame rate of the video
 [main.ts:58575](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L58575)
 
 ___
+
 
 ### height
 
@@ -60,6 +66,7 @@ video height in pixels
 
 ___
 
+
 ### label
 
 • `Optional` **label**: `string`
@@ -71,6 +78,7 @@ label of the quality element
 [main.ts:58565](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L58565)
 
 ___
+
 
 ### mime\_type
 
@@ -84,6 +92,7 @@ media type of the video
 
 ___
 
+
 ### type
 
 • `Optional` **type**: `string`
@@ -96,6 +105,7 @@ type of element
 
 ___
 
+
 ### width
 
 • `Optional` **width**: `number`
@@ -105,3 +115,7 @@ video width in pixels
 #### Defined in
 
 [main.ts:58567](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L58567)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

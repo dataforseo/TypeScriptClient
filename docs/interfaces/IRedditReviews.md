@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IRedditReviews
 
 # Interface: IRedditReviews
@@ -35,6 +39,7 @@ nicknname of the user who published the post in the subreddit and shared the URL
 
 ___
 
+
 ### permalink
 
 • `Optional` **permalink**: `string`
@@ -46,6 +51,7 @@ URL to the subreddit post
 [main.ts:206291](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L206291)
 
 ___
+
 
 ### subreddit
 
@@ -59,6 +65,7 @@ the name of the subreddit
 
 ___
 
+
 ### subreddit\_members
 
 • `Optional` **subreddit\_members**: `number`
@@ -71,6 +78,7 @@ number of subreddit members
 
 ___
 
+
 ### title
 
 • `Optional` **title**: `string`
@@ -80,3 +88,7 @@ title of the subreddit post
 #### Defined in
 
 [main.ts:206289](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L206289)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

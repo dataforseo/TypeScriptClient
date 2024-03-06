@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / DataforseoLabsGoogleSubdomainsLiveRequestInfo
 
 # Class: DataforseoLabsGoogleSubdomainsLiveRequestInfo
@@ -87,6 +91,7 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 ___
 
+
 ### historical\_serp\_mode
 
 • `Optional` **historical\_serp\_mode**: `string`
@@ -109,6 +114,7 @@ default value: live
 [main.ts:89373](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L89373)
 
 ___
+
 
 ### item\_types
 
@@ -133,6 +139,7 @@ default value:
 
 ___
 
+
 ### language\_code
 
 • `Optional` **language\_code**: `string`
@@ -155,6 +162,7 @@ en
 [main.ts:89355](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L89355)
 
 ___
+
 
 ### language\_name
 
@@ -179,6 +187,7 @@ English
 
 ___
 
+
 ### limit
 
 • `Optional` **limit**: `number`
@@ -197,6 +206,7 @@ maximum value: 1000
 [main.ts:89409](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L89409)
 
 ___
+
 
 ### location\_code
 
@@ -221,6 +231,7 @@ example:
 
 ___
 
+
 ### location\_name
 
 • `Optional` **location\_name**: `string`
@@ -244,6 +255,7 @@ United Kingdom
 
 ___
 
+
 ### offset
 
 • `Optional` **offset**: `number`
@@ -262,6 +274,7 @@ if you specify the 10 value, the first ten keywords in the results array will be
 [main.ts:89414](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L89414)
 
 ___
+
 
 ### order\_by
 
@@ -294,6 +307,7 @@ Note: if the item_types array contains item types that are different from organi
 
 ___
 
+
 ### tag
 
 • `Optional` **tag**: `string`
@@ -313,6 +327,7 @@ you will find the specified tag value in the data object of the response
 [main.ts:89420](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L89420)
 
 ___
+
 
 ### target
 
@@ -353,6 +368,7 @@ the domain should be specified without https:// and www.
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -373,6 +389,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`DataforseoLabsGoogleSubdomainsLiveRequestInfo`](DataforseoLabsGoogleSubdomainsLiveRequestInfo.md)
@@ -390,3 +407,7 @@ ___
 #### Defined in
 
 [main.ts:89466](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L89466)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

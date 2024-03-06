@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IContentAnalysisPhraseTrendsLiveRequestInfo
 
 # Interface: IContentAnalysisPhraseTrendsLiveRequestInfo
@@ -43,6 +47,7 @@ example:
 
 ___
 
+
 ### date\_group
 
 • `Optional` **date\_group**: `string`
@@ -57,6 +62,7 @@ possible values: day, week, month
 [main.ts:158819](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L158819)
 
 ___
+
 
 ### date\_to
 
@@ -74,6 +80,7 @@ example:
 [main.ts:158814](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L158814)
 
 ___
+
 
 ### initial\_dataset\_filter
 
@@ -102,6 +109,7 @@ for more information about filters, please refer to Content Analysis API – Fil
 
 ___
 
+
 ### internal\_list\_limit
 
 • `Optional` **internal\_list\_limit**: `number`
@@ -123,6 +131,7 @@ maximum value: 20
 
 ___
 
+
 ### keyword
 
 • `Optional` **keyword**: `string`
@@ -142,6 +151,7 @@ example:
 
 ___
 
+
 ### keyword\_fields
 
 • `Optional` **keyword\_fields**: `Object`
@@ -154,8 +164,8 @@ you can indicate several fields;
 Note: to match an exact phrase instead of a stand-alone keyword, use double quotes and backslashes;
 example:
 "keyword_fields": {
-    "snippet": "\"logitech mouse\"",
-    "main_title": "sale"
+"snippet": "\"logitech mouse\"",
+"main_title": "sale"
 }
 
 #### Index signature
@@ -167,6 +177,7 @@ example:
 [main.ts:158777](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L158777)
 
 ___
+
 
 ### page\_type
 
@@ -183,6 +194,7 @@ possible values:
 [main.ts:158783](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L158783)
 
 ___
+
 
 ### search\_mode
 
@@ -201,6 +213,7 @@ default value: as_is
 
 ___
 
+
 ### tag
 
 • `Optional` **tag**: `string`
@@ -214,3 +227,7 @@ you will find the specified tag value in the data object of the response
 #### Defined in
 
 [main.ts:158842](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L158842)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

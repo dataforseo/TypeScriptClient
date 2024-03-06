@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / ISerpGoogleDatasetSearchLiveAdvancedRequestInfo
 
 # Interface: ISerpGoogleDatasetSearchLiveAdvancedRequestInfo
@@ -48,6 +52,7 @@ if the specified depth is higher than the number of results in the response, the
 
 ___
 
+
 ### device
 
 • `Optional` **device**: `string`
@@ -61,6 +66,7 @@ possible value: desktop
 [main.ts:51489](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L51489)
 
 ___
+
 
 ### file\_formats
 
@@ -76,6 +82,7 @@ possible values: other, archive, text, image, document, tabular
 
 ___
 
+
 ### is\_free
 
 • `Optional` **is\_free**: `boolean`
@@ -89,6 +96,7 @@ possible values: true, false
 [main.ts:51519](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L51519)
 
 ___
+
 
 ### keyword
 
@@ -107,6 +115,7 @@ if you need to use the “+” symbol for your keyword, please specify it as “
 
 ___
 
+
 ### language\_code
 
 • `Optional` **language\_code**: `string`
@@ -122,6 +131,7 @@ en
 [main.ts:51485](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L51485)
 
 ___
+
 
 ### language\_name
 
@@ -139,6 +149,7 @@ English
 
 ___
 
+
 ### last\_updated
 
 • `Optional` **last\_updated**: `string`
@@ -152,6 +163,7 @@ possible values: 1m, 1y, 3y
 [main.ts:51507](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L51507)
 
 ___
+
 
 ### os
 
@@ -167,6 +179,7 @@ default value: windows
 [main.ts:51494](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L51494)
 
 ___
+
 
 ### tag
 
@@ -184,6 +197,7 @@ you will find the specified tag value in the data object of the response
 
 ___
 
+
 ### topics
 
 • `Optional` **topics**: `string`[]
@@ -198,6 +212,7 @@ possible values: humanities, social_sciences, life_sciences, agriculture, natura
 
 ___
 
+
 ### usage\_rights
 
 • `Optional` **usage\_rights**: `string`
@@ -209,3 +224,7 @@ possible values: commercial, noncommercial
 #### Defined in
 
 [main.ts:51515](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L51515)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

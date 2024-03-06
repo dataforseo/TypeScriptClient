@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IHotelLocationInfo
 
 # Interface: IHotelLocationInfo
@@ -40,6 +44,7 @@ example:
 
 ___
 
+
 ### location\_chain
 
 • `Optional` **location\_chain**: [`LocationChain`](../classes/LocationChain.md)[]
@@ -52,6 +57,7 @@ additional parameters of each element of the location chain
 [main.ts:195756](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L195756)
 
 ___
+
 
 ### longitude
 
@@ -68,6 +74,7 @@ example:
 
 ___
 
+
 ### maps\_url
 
 • `Optional` **maps\_url**: `string`
@@ -79,6 +86,7 @@ url to the location of the hotel in google maps
 [main.ts:195735](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L195735)
 
 ___
+
 
 ### neighborhood
 
@@ -92,6 +100,7 @@ name of the neighborhood where the hotel is located
 
 ___
 
+
 ### neighborhood\_description
 
 • `Optional` **neighborhood\_description**: `string`
@@ -103,6 +112,7 @@ description of the neighborhood where the hotel is located
 [main.ts:195733](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L195733)
 
 ___
+
 
 ### overall\_score
 
@@ -119,6 +129,7 @@ note that the criteria are not weighted equally in the overall score
 
 ___
 
+
 ### score\_by\_categories
 
 • `Optional` **score\_by\_categories**: `Object`
@@ -133,3 +144,7 @@ the scores of the hotel’s location tied to the categories that indicate the pr
 #### Defined in
 
 [main.ts:195743](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L195743)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

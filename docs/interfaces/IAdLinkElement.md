@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IAdLinkElement
 
 # Interface: IAdLinkElement
@@ -35,6 +39,7 @@ the identifier of the ad
 
 ___
 
+
 ### description
 
 • `Optional` **description**: `string`
@@ -46,6 +51,7 @@ description of the results element in SERP
 [main.ts:27741](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L27741)
 
 ___
+
 
 ### domain
 
@@ -59,6 +65,7 @@ website domain
 
 ___
 
+
 ### title
 
 • `Optional` **title**: `string`
@@ -70,6 +77,7 @@ title of a given link element
 [main.ts:27739](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L27739)
 
 ___
+
 
 ### type
 
@@ -83,6 +91,7 @@ type of element
 
 ___
 
+
 ### url
 
 • `Optional` **url**: `string`
@@ -92,3 +101,7 @@ relevant URL
 #### Defined in
 
 [main.ts:27743](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L27743)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

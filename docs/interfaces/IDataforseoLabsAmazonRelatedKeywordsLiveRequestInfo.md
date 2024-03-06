@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IDataforseoLabsAmazonRelatedKeywordsLiveRequestInfo
 
 # Interface: IDataforseoLabsAmazonRelatedKeywordsLiveRequestInfo
@@ -50,6 +54,7 @@ estimated number of keywords for each level (maximum):
 
 ___
 
+
 ### ignore\_synonyms
 
 • `Optional` **ignore\_synonyms**: `boolean`
@@ -64,6 +69,7 @@ default value: false
 [main.ts:99261](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L99261)
 
 ___
+
 
 ### include\_seed\_keyword
 
@@ -80,6 +86,7 @@ default value: false
 
 ___
 
+
 ### keyword
 
 • `Optional` **keyword**: `string`
@@ -95,6 +102,7 @@ the keywords should be specified in the lowercase format
 [main.ts:99207](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L99207)
 
 ___
+
 
 ### language\_code
 
@@ -113,6 +121,7 @@ en
 
 ___
 
+
 ### language\_name
 
 • `Optional` **language\_name**: `string`
@@ -130,6 +139,7 @@ English
 
 ___
 
+
 ### limit
 
 • `Optional` **limit**: `number`
@@ -144,6 +154,7 @@ maximum value: 1000
 [main.ts:99266](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L99266)
 
 ___
+
 
 ### location\_code
 
@@ -164,6 +175,7 @@ example:
 
 ___
 
+
 ### location\_name
 
 • `Optional` **location\_name**: `string`
@@ -183,6 +195,7 @@ United States
 
 ___
 
+
 ### offset
 
 • `Optional` **offset**: `number`
@@ -198,6 +211,7 @@ if you specify the 10 value, the first ten keywords in the results array will be
 
 ___
 
+
 ### tag
 
 • `Optional` **tag**: `string`
@@ -211,3 +225,7 @@ you will find the specified tag value in the data object of the response
 #### Defined in
 
 [main.ts:99277](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L99277)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

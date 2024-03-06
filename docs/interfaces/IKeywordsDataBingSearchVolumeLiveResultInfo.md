@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IKeywordsDataBingSearchVolumeLiveResultInfo
 
 # Interface: IKeywordsDataBingSearchVolumeLiveResultInfo
@@ -40,6 +44,7 @@ our API doesn’t return categories for this endpoint: the parameter will always
 
 ___
 
+
 ### competition
 
 • `Optional` **competition**: `number`
@@ -57,6 +62,7 @@ if there is no data the value is null
 
 ___
 
+
 ### cpc
 
 • `Optional` **cpc**: `number`
@@ -71,6 +77,7 @@ if there is no data then the value is null
 
 ___
 
+
 ### device
 
 • `Optional` **device**: `string`
@@ -84,6 +91,7 @@ if there is no data, then the value is null
 
 ___
 
+
 ### keyword
 
 • `Optional` **keyword**: `string`
@@ -95,6 +103,7 @@ keyword in a POST array
 [main.ts:123466](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L123466)
 
 ___
+
 
 ### language\_code
 
@@ -109,6 +118,7 @@ if there is no data, then the value is null
 
 ___
 
+
 ### location\_code
 
 • `Optional` **location\_code**: `number`
@@ -121,6 +131,7 @@ if there is no data, then the value is null
 [main.ts:123469](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L123469)
 
 ___
+
 
 ### monthly\_searches
 
@@ -136,6 +147,7 @@ if there is no data then the value is null
 
 ___
 
+
 ### search\_partners
 
 • `Optional` **search\_partners**: `boolean`
@@ -147,6 +159,7 @@ indicates whether data from partner networks included in the response
 [main.ts:123474](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L123474)
 
 ___
+
 
 ### search\_volume
 
@@ -160,3 +173,7 @@ if there is no data, the value is null
 #### Defined in
 
 [main.ts:123493](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L123493)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

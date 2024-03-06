@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / HotelAboutInfo
 
 # Class: HotelAboutInfo
@@ -73,6 +77,7 @@ information about hotel amenities
 
 ___
 
+
 ### check\_in\_time
 
 • `Optional` **check\_in\_time**: [`WorkTimeInfo`](WorkTimeInfo.md)
@@ -89,6 +94,7 @@ check-in time indicated in the hotel listing
 [main.ts:195424](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L195424)
 
 ___
+
 
 ### check\_out\_time
 
@@ -107,6 +113,7 @@ check-out time indicated in the hotel listing
 
 ___
 
+
 ### description
 
 • `Optional` **description**: `string`
@@ -123,6 +130,7 @@ the description of the hotel entity for which the results are collected
 [main.ts:195418](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L195418)
 
 ___
+
 
 ### domain
 
@@ -141,6 +149,7 @@ domain of the hotel’s website
 
 ___
 
+
 ### full\_address
 
 • `Optional` **full\_address**: `string`
@@ -157,6 +166,7 @@ address of the hotel indicated in the standardised format
 [main.ts:195430](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L195430)
 
 ___
+
 
 ### popular\_amenities
 
@@ -175,6 +185,7 @@ information about hotel amenities labelled as “popular”
 
 ___
 
+
 ### sub\_descriptions
 
 • `Optional` **sub\_descriptions**: `string`[]
@@ -191,6 +202,7 @@ details about the hotel provided in addition to the description
 [main.ts:195421](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L195421)
 
 ___
+
 
 ### url
 
@@ -229,6 +241,7 @@ URL to the hotel’s website indicated in the listing
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -249,6 +262,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`HotelAboutInfo`](HotelAboutInfo.md)
@@ -266,3 +280,7 @@ ___
 #### Defined in
 
 [main.ts:195485](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L195485)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

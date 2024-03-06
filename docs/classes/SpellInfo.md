@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / SpellInfo
 
 # Class: SpellInfo
@@ -66,6 +70,7 @@ the results will be provided for the corrected keyword
 
 ___
 
+
 ### type
 
 • `Optional` **type**: `string`
@@ -106,6 +111,7 @@ including_results_for
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -126,6 +132,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`SpellInfo`](SpellInfo.md)
@@ -143,3 +150,7 @@ ___
 #### Defined in
 
 [main.ts:21870](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L21870)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

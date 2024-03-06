@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / AmazonAmazonPaidSerpElementItem
 
 # Class: AmazonAmazonPaidSerpElementItem
@@ -5,7 +9,7 @@
 ## Hierarchy
 
 - [`BaseAmazonSerpElementItem`](BaseAmazonSerpElementItem.md)
-
+  
   ↳ **`AmazonAmazonPaidSerpElementItem`**
 
 ## Implements
@@ -89,6 +93,7 @@
 
 ___
 
+
 ### bought\_past\_month
 
 • `Optional` **bought\_past\_month**: `number`
@@ -104,6 +109,7 @@ number of product purchases in the past month
 [main.ts:170672](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L170672)
 
 ___
+
 
 ### currency
 
@@ -122,6 +128,7 @@ USD
 [main.ts:170684](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L170684)
 
 ___
+
 
 ### data\_asin
 
@@ -142,6 +149,7 @@ B07G82D89J
 
 ___
 
+
 ### delivery\_info
 
 • `Optional` **delivery\_info**: [`AmazonDeliveryInfo`](AmazonDeliveryInfo.md)
@@ -159,6 +167,7 @@ delivery information including free and fast delivery date ranges
 
 ___
 
+
 ### domain
 
 • `Optional` **domain**: `string`
@@ -175,6 +184,7 @@ Amazon domain
 
 ___
 
+
 ### image\_url
 
 • `Optional` **image\_url**: `string`
@@ -190,6 +200,7 @@ URL of the product image featured in the results
 [main.ts:170670](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L170670)
 
 ___
+
 
 ### is\_amazon\_choice
 
@@ -208,6 +219,7 @@ if the value is true, the product is marked with the “Amazon’s choice” lab
 
 ___
 
+
 ### is\_best\_seller
 
 • `Optional` **is\_best\_seller**: `boolean`
@@ -224,6 +236,7 @@ if the value is true, the product is marked with the “Best Seller” label
 [main.ts:170700](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L170700)
 
 ___
+
 
 ### price\_from
 
@@ -243,6 +256,7 @@ example:
 
 ___
 
+
 ### price\_to
 
 • `Optional` **price\_to**: `number`
@@ -261,6 +275,7 @@ example:
 
 ___
 
+
 ### rank\_absolute
 
 • `Optional` **rank\_absolute**: `number`
@@ -277,6 +292,7 @@ absolute position among all the elements found in Amazon SERP
 [main.ts:170660](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L170660)
 
 ___
+
 
 ### rank\_group
 
@@ -295,6 +311,7 @@ positions of elements with different type values are omitted from rank_group
 
 ___
 
+
 ### rating
 
 • `Optional` **rating**: [`RatingElement`](RatingElement.md)
@@ -310,6 +327,7 @@ product rating info
 [main.ts:170694](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L170694)
 
 ___
+
 
 ### special\_offers
 
@@ -328,6 +346,7 @@ contains special offer details, including coupon and Subscribe & Save discounts
 
 ___
 
+
 ### title
 
 • `Optional` **title**: `string`
@@ -344,6 +363,7 @@ product title
 
 ___
 
+
 ### url
 
 • `Optional` **url**: `string`
@@ -359,6 +379,7 @@ the URL of the product page
 [main.ts:170668](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L170668)
 
 ___
+
 
 ### xpath
 
@@ -400,6 +421,7 @@ the XPath of the element
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -424,6 +446,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`AmazonAmazonPaidSerpElementItem`](AmazonAmazonPaidSerpElementItem.md)
@@ -445,3 +468,7 @@ ___
 #### Defined in
 
 [main.ts:170743](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L170743)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

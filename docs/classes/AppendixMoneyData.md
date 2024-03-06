@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / AppendixMoneyData
 
 # Class: AppendixMoneyData
@@ -67,6 +71,7 @@ amount of money left in your account
 
 ___
 
+
 ### limits
 
 • `Optional` **limits**: [`AppendixLimitsMoneyData`](AppendixLimitsMoneyData.md)
@@ -83,6 +88,7 @@ cost limits
 
 ___
 
+
 ### statistics
 
 • `Optional` **statistics**: [`AppendixStatisticsDataInfo`](AppendixStatisticsDataInfo.md)
@@ -98,6 +104,7 @@ statistics of your spending
 [main.ts:209448](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L209448)
 
 ___
+
 
 ### total
 
@@ -135,6 +142,7 @@ total amount of money deposited to your account
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -155,6 +163,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`AppendixMoneyData`](AppendixMoneyData.md)
@@ -172,3 +181,7 @@ ___
 #### Defined in
 
 [main.ts:209474](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L209474)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

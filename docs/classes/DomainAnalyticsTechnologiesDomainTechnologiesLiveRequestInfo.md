@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / DomainAnalyticsTechnologiesDomainTechnologiesLiveRequestInfo
 
 # Class: DomainAnalyticsTechnologiesDomainTechnologiesLiveRequestInfo
@@ -87,6 +91,7 @@ Note: results will be returned for the specified domain only
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -107,6 +112,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`DomainAnalyticsTechnologiesDomainTechnologiesLiveRequestInfo`](DomainAnalyticsTechnologiesDomainTechnologiesLiveRequestInfo.md)
@@ -124,3 +130,7 @@ ___
 #### Defined in
 
 [main.ts:75086](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L75086)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

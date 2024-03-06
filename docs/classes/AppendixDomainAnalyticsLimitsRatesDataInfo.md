@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / AppendixDomainAnalyticsLimitsRatesDataInfo
 
 # Class: AppendixDomainAnalyticsLimitsRatesDataInfo
@@ -65,6 +69,7 @@
 
 ___
 
+
 ### tasks\_ready
 
 • `Optional` **tasks\_ready**: `number`
@@ -79,6 +84,7 @@ ___
 
 ___
 
+
 ### technologies
 
 • `Optional` **technologies**: [`AppendixTechnologiesDomainAnalyticsLimitsRatesDataInfo`](AppendixTechnologiesDomainAnalyticsLimitsRatesDataInfo.md)
@@ -92,6 +98,7 @@ ___
 [main.ts:207376](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L207376)
 
 ___
+
 
 ### whois
 
@@ -127,6 +134,7 @@ ___
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -147,6 +155,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`AppendixDomainAnalyticsLimitsRatesDataInfo`](AppendixDomainAnalyticsLimitsRatesDataInfo.md)
@@ -164,3 +173,7 @@ ___
 #### Defined in
 
 [main.ts:207402](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L207402)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

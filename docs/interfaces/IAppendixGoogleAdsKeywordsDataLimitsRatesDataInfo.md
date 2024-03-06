@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IAppendixGoogleAdsKeywordsDataLimitsRatesDataInfo
 
 # Interface: IAppendixGoogleAdsKeywordsDataLimitsRatesDataInfo
@@ -32,6 +36,7 @@
 
 ___
 
+
 ### keywords\_for\_keywords
 
 • `Optional` **keywords\_for\_keywords**: [`AppendixInfo`](../classes/AppendixInfo.md)
@@ -41,6 +46,7 @@ ___
 [main.ts:206905](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L206905)
 
 ___
+
 
 ### keywords\_for\_site
 
@@ -52,6 +58,7 @@ ___
 
 ___
 
+
 ### search\_volume
 
 • `Optional` **search\_volume**: [`AppendixInfo`](../classes/AppendixInfo.md)
@@ -62,6 +69,7 @@ ___
 
 ___
 
+
 ### status
 
 • `Optional` **status**: `number`
@@ -69,3 +77,7 @@ ___
 #### Defined in
 
 [main.ts:206903](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L206903)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

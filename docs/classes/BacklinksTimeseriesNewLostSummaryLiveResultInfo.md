@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / BacklinksTimeseriesNewLostSummaryLiveResultInfo
 
 # Class: BacklinksTimeseriesNewLostSummaryLiveResultInfo
@@ -72,6 +76,7 @@ example:
 
 ___
 
+
 ### date\_to
 
 • `Optional` **date\_to**: `string`
@@ -91,6 +96,7 @@ example:
 
 ___
 
+
 ### group\_range
 
 • `Optional` **group\_range**: `string`
@@ -106,6 +112,7 @@ group_range from the POST array
 [main.ts:139101](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L139101)
 
 ___
+
 
 ### items
 
@@ -123,6 +130,7 @@ contains relevant backlinks and referring domains data
 
 ___
 
+
 ### items\_count
 
 • `Optional` **items\_count**: `number`
@@ -138,6 +146,7 @@ the number of results returned in the items array
 [main.ts:139103](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L139103)
 
 ___
+
 
 ### target
 
@@ -175,6 +184,7 @@ target from a POST array
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -195,6 +205,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`BacklinksTimeseriesNewLostSummaryLiveResultInfo`](BacklinksTimeseriesNewLostSummaryLiveResultInfo.md)
@@ -212,3 +223,7 @@ ___
 #### Defined in
 
 [main.ts:139137](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L139137)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

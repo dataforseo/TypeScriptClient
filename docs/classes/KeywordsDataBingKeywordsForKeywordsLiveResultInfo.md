@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / KeywordsDataBingKeywordsForKeywordsLiveResultInfo
 
 # Class: KeywordsDataBingKeywordsForKeywordsLiveResultInfo
@@ -74,6 +78,7 @@ legacy field, the value will always be null
 
 ___
 
+
 ### competition
 
 • `Optional` **competition**: `number`
@@ -95,6 +100,7 @@ if there is no data the value is null
 
 ___
 
+
 ### cpc
 
 • `Optional` **cpc**: `number`
@@ -112,6 +118,7 @@ if there is no data, then the value is null
 [main.ts:126098](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L126098)
 
 ___
+
 
 ### device
 
@@ -131,6 +138,7 @@ possible values: all, mobile, desktop, tablet
 
 ___
 
+
 ### keyword
 
 • `Optional` **keyword**: `string`
@@ -146,6 +154,7 @@ keyword in a POST array
 [main.ts:126075](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L126075)
 
 ___
+
 
 ### language\_code
 
@@ -164,6 +173,7 @@ if there is no data, then the value is null
 
 ___
 
+
 ### location\_code
 
 • `Optional` **location\_code**: `number`
@@ -180,6 +190,7 @@ if there is no data, then the value is null
 [main.ts:126078](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L126078)
 
 ___
+
 
 ### monthly\_searches
 
@@ -199,6 +210,7 @@ if there is no data, then the value is null
 
 ___
 
+
 ### search\_partners
 
 • `Optional` **search\_partners**: `boolean`
@@ -214,6 +226,7 @@ indicates whether data from partner networks is included in the response
 [main.ts:126083](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L126083)
 
 ___
+
 
 ### search\_volume
 
@@ -253,6 +266,7 @@ if there is no data, then the value is null
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -273,6 +287,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`KeywordsDataBingKeywordsForKeywordsLiveResultInfo`](KeywordsDataBingKeywordsForKeywordsLiveResultInfo.md)
@@ -290,3 +305,7 @@ ___
 #### Defined in
 
 [main.ts:126149](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L126149)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / ILocalBusinessMenuLink
 
 # Interface: ILocalBusinessMenuLink
@@ -5,7 +9,7 @@
 ## Hierarchy
 
 - [`IBaseLocalBusinessLink`](IBaseLocalBusinessLink.md)
-
+  
   ↳ **`ILocalBusinessMenuLink`**
 
 ## Implemented by
@@ -38,6 +42,7 @@ domain of the online menu system
 
 ___
 
+
 ### url
 
 • `Optional` **url**: `string`
@@ -47,3 +52,7 @@ URL to view the menu
 #### Defined in
 
 [main.ts:22493](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L22493)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

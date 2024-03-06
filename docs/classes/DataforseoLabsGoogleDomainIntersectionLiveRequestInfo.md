@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / DataforseoLabsGoogleDomainIntersectionLiveRequestInfo
 
 # Class: DataforseoLabsGoogleDomainIntersectionLiveRequestInfo
@@ -92,6 +96,7 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 ___
 
+
 ### include\_serp\_info
 
 • `Optional` **include\_serp\_info**: `boolean`
@@ -110,6 +115,7 @@ default value: false
 [main.ts:88775](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L88775)
 
 ___
+
 
 ### intersections
 
@@ -133,6 +139,7 @@ default value: true
 
 ___
 
+
 ### item\_types
 
 • `Optional` **item\_types**: `string`[]
@@ -154,6 +161,7 @@ default value:
 [main.ts:88770](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L88770)
 
 ___
+
 
 ### language\_code
 
@@ -177,6 +185,7 @@ en
 
 ___
 
+
 ### language\_name
 
 • `Optional` **language\_name**: `string`
@@ -199,6 +208,7 @@ English
 
 ___
 
+
 ### limit
 
 • `Optional` **limit**: `number`
@@ -217,6 +227,7 @@ maximum value: 1000
 [main.ts:88780](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L88780)
 
 ___
+
 
 ### location\_code
 
@@ -240,6 +251,7 @@ example:
 
 ___
 
+
 ### location\_name
 
 • `Optional` **location\_name**: `string`
@@ -262,6 +274,7 @@ United Kingdom
 
 ___
 
+
 ### offset
 
 • `Optional` **offset**: `number`
@@ -280,6 +293,7 @@ if you specify the 10 value, the first ten keywords in the results array will be
 [main.ts:88785](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L88785)
 
 ___
+
 
 ### order\_by
 
@@ -311,6 +325,7 @@ example:
 
 ___
 
+
 ### tag
 
 • `Optional` **tag**: `string`
@@ -331,6 +346,7 @@ you will find the specified tag value in the data object of the response
 
 ___
 
+
 ### target1
 
 • `Optional` **target1**: `string`
@@ -349,6 +365,7 @@ the domain should be specified without https:// and www.
 [main.ts:88717](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L88717)
 
 ___
+
 
 ### target2
 
@@ -389,6 +406,7 @@ the domain should be specified without https:// and www.
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -409,6 +427,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`DataforseoLabsGoogleDomainIntersectionLiveRequestInfo`](DataforseoLabsGoogleDomainIntersectionLiveRequestInfo.md)
@@ -426,3 +445,7 @@ ___
 #### Defined in
 
 [main.ts:88872](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L88872)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

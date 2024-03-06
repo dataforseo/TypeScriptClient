@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / ShoppingElement
 
 # Class: ShoppingElement
@@ -71,6 +75,7 @@ description of the results element in SERP
 
 ___
 
+
 ### marketplace
 
 • `Optional` **marketplace**: `string`
@@ -90,6 +95,7 @@ by Google
 
 ___
 
+
 ### marketplace\_url
 
 • `Optional` **marketplace\_url**: `string`
@@ -107,6 +113,7 @@ URL of the page on the marketplace website where the product is hosted
 
 ___
 
+
 ### price
 
 • `Optional` **price**: [`PriceInfo`](PriceInfo.md)
@@ -122,6 +129,7 @@ price of booking a place for the specified dates of stay
 [main.ts:30400](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L30400)
 
 ___
+
 
 ### source
 
@@ -140,6 +148,7 @@ indicates the source of information included in the element
 
 ___
 
+
 ### title
 
 • `Optional` **title**: `string`
@@ -156,6 +165,7 @@ title of the row
 
 ___
 
+
 ### type
 
 • `Optional` **type**: `string`
@@ -171,6 +181,7 @@ type of element
 [main.ts:30396](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L30396)
 
 ___
+
 
 ### url
 
@@ -208,6 +219,7 @@ URL
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -228,6 +240,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`ShoppingElement`](ShoppingElement.md)
@@ -245,3 +258,7 @@ ___
 #### Defined in
 
 [main.ts:30445](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L30445)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

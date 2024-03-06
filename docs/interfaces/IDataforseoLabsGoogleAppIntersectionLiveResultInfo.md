@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IDataforseoLabsGoogleAppIntersectionLiveResultInfo
 
 # Interface: IDataforseoLabsGoogleAppIntersectionLiveResultInfo
@@ -40,6 +44,7 @@ ids of the apps in a POST array
 
 ___
 
+
 ### items
 
 • `Optional` **items**: [`DataforseoLabsleAppIntersectionLiveItem`](../classes/DataforseoLabsleAppIntersectionLiveItem.md)[]
@@ -51,6 +56,7 @@ contains data related to the ranking keywords for the app specified in the app_i
 [main.ts:110049](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L110049)
 
 ___
+
 
 ### items\_count
 
@@ -64,6 +70,7 @@ the number of results returned in the items array
 
 ___
 
+
 ### language\_code
 
 • `Optional` **language\_code**: `string`
@@ -75,6 +82,7 @@ language code in a POST array
 [main.ts:110043](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L110043)
 
 ___
+
 
 ### location\_code
 
@@ -88,6 +96,7 @@ location code in a POST array
 
 ___
 
+
 ### se\_type
 
 • `Optional` **se\_type**: `string`
@@ -100,6 +109,7 @@ search engine type
 
 ___
 
+
 ### total\_count
 
 • `Optional` **total\_count**: `number`
@@ -109,3 +119,7 @@ total amount of results in our database relevant to your request
 #### Defined in
 
 [main.ts:110045](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L110045)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / AppDataAppleAppSearchesTaskGetAdvancedResultInfo
 
 # Class: AppDataAppleAppSearchesTaskGetAdvancedResultInfo
@@ -73,6 +77,7 @@ in this case, the value will be null
 
 ___
 
+
 ### datetime
 
 • `Optional` **datetime**: `string`
@@ -92,6 +97,7 @@ example:
 
 ___
 
+
 ### items
 
 • `Optional` **items**: [`BaseAppDataSerpElementItem`](BaseAppDataSerpElementItem.md)[]
@@ -107,6 +113,7 @@ found apps
 [main.ts:183652](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L183652)
 
 ___
+
 
 ### items\_count
 
@@ -124,6 +131,7 @@ the number of items in the results array
 
 ___
 
+
 ### keyword
 
 • `Optional` **keyword**: `string`
@@ -139,6 +147,7 @@ keyword received in a POST request
 [main.ts:183632](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L183632)
 
 ___
+
 
 ### language\_code
 
@@ -156,6 +165,7 @@ language code in a POST array
 
 ___
 
+
 ### location\_code
 
 • `Optional` **location\_code**: `number`
@@ -172,6 +182,7 @@ location code in a POST array
 
 ___
 
+
 ### se\_domain
 
 • `Optional` **se\_domain**: `string`
@@ -187,6 +198,7 @@ search engine domain in a POST array
 [main.ts:183634](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L183634)
 
 ___
+
 
 ### se\_results\_count
 
@@ -224,6 +236,7 @@ the total number of results
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -244,6 +257,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`AppDataAppleAppSearchesTaskGetAdvancedResultInfo`](AppDataAppleAppSearchesTaskGetAdvancedResultInfo.md)
@@ -261,3 +275,7 @@ ___
 #### Defined in
 
 [main.ts:183687](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L183687)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

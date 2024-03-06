@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IAppDataAppleAppInfoTaskGetAdvancedResultInfo
 
 # Interface: IAppDataAppleAppInfoTaskGetAdvancedResultInfo
@@ -38,6 +42,7 @@ application id received in a POST request
 
 ___
 
+
 ### check\_url
 
 • `Optional` **check\_url**: `string`
@@ -50,6 +55,7 @@ you can use it to make sure that we provided accurate results
 [main.ts:184750](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L184750)
 
 ___
+
 
 ### datetime
 
@@ -66,6 +72,7 @@ example:
 
 ___
 
+
 ### items
 
 • `Optional` **items**: [`BaseAppDataSerpElementItem`](../classes/BaseAppDataSerpElementItem.md)[]
@@ -77,6 +84,7 @@ found app info
 [main.ts:184761](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L184761)
 
 ___
+
 
 ### items\_count
 
@@ -90,6 +98,7 @@ the number of items in the results array
 
 ___
 
+
 ### language\_code
 
 • `Optional` **language\_code**: `string`
@@ -101,6 +110,7 @@ language code in a POST array
 [main.ts:184747](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L184747)
 
 ___
+
 
 ### location\_code
 
@@ -114,6 +124,7 @@ location code in a POST array
 
 ___
 
+
 ### se\_domain
 
 • `Optional` **se\_domain**: `string`
@@ -126,6 +137,7 @@ search engine domain in a POST array
 
 ___
 
+
 ### se\_results\_count
 
 • `Optional` **se\_results\_count**: `number`
@@ -135,3 +147,7 @@ the total number of results
 #### Defined in
 
 [main.ts:184757](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L184757)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

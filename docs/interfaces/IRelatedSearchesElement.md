@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IRelatedSearchesElement
 
 # Interface: IRelatedSearchesElement
@@ -34,6 +38,7 @@ the alt tag of the product image featured in the results
 
 ___
 
+
 ### image\_url
 
 • `Optional` **image\_url**: `string`
@@ -45,6 +50,7 @@ URL of the product image featured in the results
 [main.ts:21050](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L21050)
 
 ___
+
 
 ### title
 
@@ -58,6 +64,7 @@ product title
 
 ___
 
+
 ### type
 
 • `Optional` **type**: `string`
@@ -70,6 +77,7 @@ type of element
 
 ___
 
+
 ### url
 
 • `Optional` **url**: `string`
@@ -79,3 +87,7 @@ the URL of the product page
 #### Defined in
 
 [main.ts:21046](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L21046)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IDataforseoLabsBBulkKeywordDifficultyLiveItem
 
 # Interface: IDataforseoLabsBBulkKeywordDifficultyLiveItem
@@ -32,6 +36,7 @@ keyword in a POST array
 
 ___
 
+
 ### keyword\_difficulty
 
 • `Optional` **keyword\_difficulty**: `number`
@@ -47,6 +52,7 @@ learn more about the metric in this help center guide
 
 ___
 
+
 ### se\_type
 
 • `Optional` **se\_type**: `string`
@@ -56,3 +62,7 @@ search engine type
 #### Defined in
 
 [main.ts:82416](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L82416)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

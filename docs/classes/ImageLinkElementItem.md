@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / ImageLinkElementItem
 
 # Class: ImageLinkElementItem
@@ -5,7 +9,7 @@
 ## Hierarchy
 
 - [`BaseOnPageLinkItemInfo`](BaseOnPageLinkItemInfo.md)
-
+  
   ↳ **`ImageLinkElementItem`**
 
 ## Implements
@@ -89,6 +93,7 @@
 
 ___
 
+
 ### direction
 
 • `Optional` **direction**: `string`
@@ -105,6 +110,7 @@ possible values: internal, external
 [main.ts:148375](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L148375)
 
 ___
+
 
 ### dofollow
 
@@ -123,6 +129,7 @@ if the value is true, the link doesn’t have a rel="nofollow" attribute
 
 ___
 
+
 ### domain\_from
 
 • `Optional` **domain\_from**: `string`
@@ -139,6 +146,7 @@ the link was found on this domain
 [main.ts:148345](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L148345)
 
 ___
+
 
 ### domain\_to
 
@@ -157,6 +165,7 @@ the link is pointing to this domain
 
 ___
 
+
 ### image\_alt
 
 • `Optional` **image\_alt**: `string`
@@ -173,6 +182,7 @@ alternative text for the image
 
 ___
 
+
 ### image\_src
 
 • `Optional` **image\_src**: `string`
@@ -188,6 +198,7 @@ url of the image
 [main.ts:148384](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L148384)
 
 ___
+
 
 ### is\_broken
 
@@ -206,6 +217,7 @@ indicates whether a link is directing to a broken page or resource
 
 ___
 
+
 ### is\_link\_relation\_conflict
 
 • `Optional` **is\_link\_relation\_conflict**: `boolean`
@@ -222,6 +234,7 @@ if true, at least one link pointing to link_to has a rel="nofollow" attribute an
 [main.ts:148387](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L148387)
 
 ___
+
 
 ### link\_attribute
 
@@ -242,6 +255,7 @@ example:
 
 ___
 
+
 ### link\_from
 
 • `Optional` **link\_from**: `string`
@@ -258,6 +272,7 @@ absolute URL of the page on which the link was found
 [main.ts:148357](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L148357)
 
 ___
+
 
 ### link\_to
 
@@ -276,6 +291,7 @@ absolute URL of the page to which the link is pointing
 
 ___
 
+
 ### page\_from
 
 • `Optional` **page\_from**: `string`
@@ -293,6 +309,7 @@ relative URL of the page on which the link was found
 
 ___
 
+
 ### page\_from\_scheme
 
 • `Optional` **page\_from\_scheme**: `string`
@@ -308,6 +325,7 @@ url scheme of the referring page
 [main.ts:148370](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L148370)
 
 ___
+
 
 ### page\_to
 
@@ -326,6 +344,7 @@ relative URL of the page to which the link is pointing
 
 ___
 
+
 ### page\_to\_scheme
 
 • `Optional` **page\_to\_scheme**: `string`
@@ -341,6 +360,7 @@ url scheme of the referenced page
 [main.ts:148372](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L148372)
 
 ___
+
 
 ### page\_to\_status\_code
 
@@ -358,6 +378,7 @@ status code of the page to which the link is pointing
 [main.ts:148390](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L148390)
 
 ___
+
 
 ### text
 
@@ -399,6 +420,7 @@ anchor text
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -423,6 +445,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`ImageLinkElementItem`](ImageLinkElementItem.md)
@@ -444,3 +467,7 @@ ___
 #### Defined in
 
 [main.ts:148430](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L148430)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

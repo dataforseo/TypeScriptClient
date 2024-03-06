@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / AppendixRatesData
 
 # Class: AppendixRatesData
@@ -65,6 +69,7 @@ rate limits for API calls per a certain period of time
 
 ___
 
+
 ### statistics
 
 • `Optional` **statistics**: [`AppendixStatisticsDataInfo`](AppendixStatisticsDataInfo.md)
@@ -101,6 +106,7 @@ statisctics for API calls
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -121,6 +127,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`AppendixRatesData`](AppendixRatesData.md)
@@ -138,3 +145,7 @@ ___
 #### Defined in
 
 [main.ts:209360](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L209360)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

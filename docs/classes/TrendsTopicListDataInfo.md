@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / TrendsTopicListDataInfo
 
 # Class: TrendsTopicListDataInfo
@@ -66,6 +70,7 @@ represents the list of related topics with the biggest increase in search freque
 
 ___
 
+
 ### top
 
 • `Optional` **top**: [`TopicListDataItemInfo`](TopicListDataItemInfo.md)[]
@@ -103,6 +108,7 @@ represents the list of the most popular related topics
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -123,6 +129,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`TrendsTopicListDataInfo`](TrendsTopicListDataInfo.md)
@@ -140,3 +147,7 @@ ___
 #### Defined in
 
 [main.ts:120873](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L120873)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

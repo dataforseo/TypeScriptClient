@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / BacklinksBulkRanksLiveItem
 
 # Class: BacklinksBulkRanksLiveItem
@@ -67,6 +71,7 @@ learn more about the metric and how it is calculated in this help center article
 
 ___
 
+
 ### target
 
 • `Optional` **target**: `string`
@@ -103,6 +108,7 @@ domain, subdomain or webpage from a POST array
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -123,6 +129,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`BacklinksBulkRanksLiveItem`](BacklinksBulkRanksLiveItem.md)
@@ -140,3 +147,7 @@ ___
 #### Defined in
 
 [main.ts:139433](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L139433)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

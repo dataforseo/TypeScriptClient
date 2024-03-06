@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IAppUserProfileInfo
 
 # Interface: IAppUserProfileInfo
@@ -31,6 +35,7 @@ URL to the reviewer’s profile image
 
 ___
 
+
 ### profile\_name
 
 • `Optional` **profile\_name**: `string`
@@ -40,3 +45,7 @@ profile name of the reviewer
 #### Defined in
 
 [main.ts:181203](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L181203)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

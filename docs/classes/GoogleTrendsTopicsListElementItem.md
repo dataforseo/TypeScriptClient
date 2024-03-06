@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / GoogleTrendsTopicsListElementItem
 
 # Class: GoogleTrendsTopicsListElementItem
@@ -5,7 +9,7 @@
 ## Hierarchy
 
 - [`BaseGoogleTrendsItem`](BaseGoogleTrendsItem.md)
-
+  
   ↳ **`GoogleTrendsTopicsListElementItem`**
 
 ## Implements
@@ -76,6 +80,7 @@
 
 ___
 
+
 ### data
 
 • `Optional` **data**: [`TrendsTopicListDataInfo`](TrendsTopicListDataInfo.md)
@@ -91,6 +96,7 @@ Google Trends data from the corresponding item
 [main.ts:120921](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L120921)
 
 ___
+
 
 ### keywords
 
@@ -109,6 +115,7 @@ the data included in the google_trends_topics_list element is based on the keywo
 
 ___
 
+
 ### position
 
 • `Optional` **position**: `number`
@@ -125,6 +132,7 @@ can take the following values: 1, 2, 3, 4, etc.
 [main.ts:120914](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L120914)
 
 ___
+
 
 ### title
 
@@ -166,6 +174,7 @@ title of the element in Google Trends
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -190,6 +199,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`GoogleTrendsTopicsListElementItem`](GoogleTrendsTopicsListElementItem.md)
@@ -211,3 +221,7 @@ ___
 #### Defined in
 
 [main.ts:120948](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L120948)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / ProductSeller
 
 # Class: ProductSeller
@@ -71,6 +75,7 @@ product delivery information
 
 ___
 
+
 ### price
 
 • `Optional` **price**: [`PriceInfo`](PriceInfo.md)
@@ -88,6 +93,7 @@ product price details on the seller’s website
 
 ___
 
+
 ### seller\_rating
 
 • `Optional` **seller\_rating**: [`RatingElement`](RatingElement.md)
@@ -103,6 +109,7 @@ rating of the seller
 [main.ts:168986](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L168986)
 
 ___
+
 
 ### seller\_review\_count
 
@@ -121,6 +128,7 @@ number of reviews on the product seller’s account
 
 ___
 
+
 ### title
 
 • `Optional` **title**: `string`
@@ -137,6 +145,7 @@ product title
 
 ___
 
+
 ### type
 
 • `Optional` **type**: `string`
@@ -152,6 +161,7 @@ type of element
 [main.ts:168979](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L168979)
 
 ___
+
 
 ### url
 
@@ -190,6 +200,7 @@ url of the page where the product is sold
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -210,6 +221,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`ProductSeller`](ProductSeller.md)
@@ -227,3 +239,7 @@ ___
 #### Defined in
 
 [main.ts:169024](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L169024)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

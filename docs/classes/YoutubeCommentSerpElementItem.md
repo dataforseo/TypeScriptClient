@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / YoutubeCommentSerpElementItem
 
 # Class: YoutubeCommentSerpElementItem
@@ -5,7 +9,7 @@
 ## Hierarchy
 
 - [`BaseSerpElementItem`](BaseSerpElementItem.md)
-
+  
   ↳ **`YoutubeCommentSerpElementItem`**
 
 ## Implements
@@ -82,6 +86,7 @@
 
 ___
 
+
 ### author\_name
 
 • `Optional` **author\_name**: `string`
@@ -97,6 +102,7 @@ name of the author of the comment
 [main.ts:61833](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L61833)
 
 ___
+
 
 ### author\_thumbnail
 
@@ -114,6 +120,7 @@ the URL of the page where the author’s channel logo is hosted
 
 ___
 
+
 ### author\_url
 
 • `Optional` **author\_url**: `string`
@@ -129,6 +136,7 @@ URL of the author’s channel
 [main.ts:61837](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L61837)
 
 ___
+
 
 ### likes\_count
 
@@ -146,6 +154,7 @@ number of likes on the comment
 
 ___
 
+
 ### publication\_date
 
 • `Optional` **publication\_date**: `string`
@@ -161,6 +170,7 @@ displayed publication date
 [main.ts:61841](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L61841)
 
 ___
+
 
 ### rank\_absolute
 
@@ -178,6 +188,7 @@ absolute position among all the elements in SERP
 [main.ts:61831](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L61831)
 
 ___
+
 
 ### rank\_group
 
@@ -197,6 +208,7 @@ positions of elements with different type values are omitted from rank_group
 
 ___
 
+
 ### reply\_count
 
 • `Optional` **reply\_count**: `number`
@@ -213,6 +225,7 @@ number of replies on the comment
 
 ___
 
+
 ### text
 
 • `Optional` **text**: `string`
@@ -228,6 +241,7 @@ text of the comment
 [main.ts:61839](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L61839)
 
 ___
+
 
 ### timestamp
 
@@ -272,6 +286,7 @@ example:
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -296,6 +311,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`YoutubeCommentSerpElementItem`](YoutubeCommentSerpElementItem.md)
@@ -317,3 +333,7 @@ ___
 #### Defined in
 
 [main.ts:61879](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L61879)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

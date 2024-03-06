@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / BusinessDataGoogleHotelSearchesTaskPostRequestInfo
 
 # Class: BusinessDataGoogleHotelSearchesTaskPostRequestInfo
@@ -5,7 +9,7 @@
 ## Hierarchy
 
 - [`BusinessDataTaskRequestInfo`](BusinessDataTaskRequestInfo.md)
-
+  
   ↳ **`BusinessDataGoogleHotelSearchesTaskPostRequestInfo`**
 
 ## Implements
@@ -102,6 +106,7 @@ example:
 
 ___
 
+
 ### amenities
 
 • `Optional` **amenities**: `string`[]
@@ -110,10 +115,10 @@ hotel amenities
 optional field
 you can use this field to specify different hotel amenities
 example:
-  [
-            "free_parking",
-            "pets_allowed"
-        ]
+[
+"free_parking",
+"pets_allowed"
+]
 
 possible values:
 "air_conditioning",
@@ -145,6 +150,7 @@ possible values:
 
 ___
 
+
 ### check\_in
 
 • `Optional` **check\_in**: `string`
@@ -166,6 +172,7 @@ Note: the value cannot precede the today’s date
 [main.ts:192778](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L192778)
 
 ___
+
 
 ### check\_out
 
@@ -189,6 +196,7 @@ the range between check_in and check_out values cannot exceed 30 days
 [main.ts:192787](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L192787)
 
 ___
+
 
 ### children
 
@@ -214,6 +222,7 @@ set the following value if you want to include one 13-year-old child and one 8-y
 
 ___
 
+
 ### currency
 
 • `Optional` **currency**: `string`
@@ -232,6 +241,7 @@ example:
 [main.ts:192792](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L192792)
 
 ___
+
 
 ### depth
 
@@ -256,6 +266,7 @@ if the specified depth is higher than the number of results in the response, the
 
 ___
 
+
 ### free\_cancellation
 
 • `Optional` **free\_cancellation**: `boolean`
@@ -274,6 +285,7 @@ default value: false
 [main.ts:192848](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L192848)
 
 ___
+
 
 ### is\_vacation\_rentals
 
@@ -294,6 +306,7 @@ default value: false
 
 ___
 
+
 ### keyword
 
 • `Optional` **keyword**: `string`
@@ -303,7 +316,7 @@ required field
 the keyword you specify should indicate the name of the local establishment
 you can specify up to 700 symbols in the keyword filed
 all %## will be decoded (plus symbol ‘+’ will be decoded to a space character)
-if you need to use the “%” symbol for your keyword, please specify it as “%25”; 
+if you need to use the “%” symbol for your keyword, please specify it as “%25”;
 this field can also be used to pass the following parameters:
 cid – a unique, google-defined id of the business entity;
 place_id – an identifier of the business entity in Google Maps;
@@ -327,6 +340,7 @@ learn more about the cid and place_id identifiers in this help center article
 [main.ts:183110](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L183110)
 
 ___
+
 
 ### language\_code
 
@@ -353,6 +367,7 @@ en
 
 ___
 
+
 ### language\_name
 
 • `Optional` **language\_name**: `string`
@@ -378,6 +393,7 @@ English
 
 ___
 
+
 ### location\_code
 
 • `Optional` **location\_code**: `number`
@@ -402,6 +418,7 @@ example:
 [main.ts:183132](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L183132)
 
 ___
+
 
 ### location\_coordinate
 
@@ -430,6 +447,7 @@ example:
 
 ___
 
+
 ### location\_name
 
 • `Optional` **location\_name**: `string`
@@ -455,6 +473,7 @@ London,England,United Kingdom
 
 ___
 
+
 ### max\_price
 
 • `Optional` **max\_price**: `number`
@@ -474,6 +493,7 @@ example:
 [main.ts:192843](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L192843)
 
 ___
+
 
 ### min\_price
 
@@ -495,6 +515,7 @@ example:
 
 ___
 
+
 ### min\_rating
 
 • `Optional` **min\_rating**: `number`
@@ -514,6 +535,7 @@ example:
 [main.ts:192821](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L192821)
 
 ___
+
 
 ### pingback\_url
 
@@ -543,6 +565,7 @@ i.a., the # symbol will be encoded into %23
 
 ___
 
+
 ### postback\_url
 
 • `Optional` **postback\_url**: `string`
@@ -571,6 +594,7 @@ i.a., the # symbol will be encoded into %23
 
 ___
 
+
 ### priority
 
 • `Optional` **priority**: `number`
@@ -597,6 +621,7 @@ The cost can be calculated on the Pricing page.
 
 ___
 
+
 ### sort\_by
 
 • `Optional` **sort\_by**: `string`
@@ -621,6 +646,7 @@ default value: relevance
 
 ___
 
+
 ### stars
 
 • `Optional` **stars**: `string`[]
@@ -640,6 +666,7 @@ example:
 [main.ts:192815](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L192815)
 
 ___
+
 
 ### tag
 
@@ -689,6 +716,7 @@ you will find the specified tag value in the data object of the response
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -713,6 +741,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`BusinessDataGoogleHotelSearchesTaskPostRequestInfo`](BusinessDataGoogleHotelSearchesTaskPostRequestInfo.md)
@@ -734,3 +763,7 @@ ___
 #### Defined in
 
 [main.ts:192926](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L192926)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

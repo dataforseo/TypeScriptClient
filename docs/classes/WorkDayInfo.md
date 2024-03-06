@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / WorkDayInfo
 
 # Class: WorkDayInfo
@@ -65,6 +69,7 @@ closing time
 
 ___
 
+
 ### open
 
 • `Optional` **open**: [`WorkTimeInfo`](WorkTimeInfo.md)
@@ -101,6 +106,7 @@ opening time
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -121,6 +127,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`WorkDayInfo`](WorkDayInfo.md)
@@ -138,3 +145,7 @@ ___
 #### Defined in
 
 [main.ts:20552](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L20552)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

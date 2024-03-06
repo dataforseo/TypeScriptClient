@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IMerchantAmazonProductsTaskGetAdvancedResultInfo
 
 # Interface: IMerchantAmazonProductsTaskGetAdvancedResultInfo
@@ -42,6 +46,7 @@ amazon product departments and subcategories
 
 ___
 
+
 ### check\_url
 
 • `Optional` **check\_url**: `string`
@@ -54,6 +59,7 @@ you can use it to make sure that we provided accurate results
 [main.ts:171412](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L171412)
 
 ___
+
 
 ### datetime
 
@@ -70,6 +76,7 @@ example:
 
 ___
 
+
 ### item\_types
 
 • `Optional` **item\_types**: `string`[]
@@ -85,6 +92,7 @@ amazon_serp, amazon_paid, editorial_recommendations, top_rated_from_our_brands, 
 
 ___
 
+
 ### items
 
 • `Optional` **items**: [`BaseAmazonSerpElementItem`](../classes/BaseAmazonSerpElementItem.md)[]
@@ -97,6 +105,7 @@ Amazon product items within the editorial_recommendations element
 
 ___
 
+
 ### items\_count
 
 • `Optional` **items\_count**: `number`
@@ -108,6 +117,7 @@ the number of results returned in the items array
 [main.ts:171431](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L171431)
 
 ___
+
 
 ### keyword
 
@@ -122,6 +132,7 @@ keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a s
 
 ___
 
+
 ### language\_code
 
 • `Optional` **language\_code**: `string`
@@ -133,6 +144,7 @@ language code in a POST array
 [main.ts:171409](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L171409)
 
 ___
+
 
 ### location\_code
 
@@ -146,6 +158,7 @@ location code in a POST array
 
 ___
 
+
 ### se\_domain
 
 • `Optional` **se\_domain**: `string`
@@ -158,6 +171,7 @@ search engine domain in a POST array
 
 ___
 
+
 ### se\_results\_count
 
 • `Optional` **se\_results\_count**: `number`
@@ -169,6 +183,7 @@ search engine results count
 [main.ts:171427](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L171427)
 
 ___
+
 
 ### spell
 
@@ -183,6 +198,7 @@ if the search engine provided results for a keyword that was corrected, we will 
 
 ___
 
+
 ### type
 
 • `Optional` **type**: `string`
@@ -192,3 +208,7 @@ type of element
 #### Defined in
 
 [main.ts:171403](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L171403)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

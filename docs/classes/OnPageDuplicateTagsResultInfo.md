@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / OnPageDuplicateTagsResultInfo
 
 # Class: OnPageDuplicateTagsResultInfo
@@ -70,6 +74,7 @@ possible values: in_progress, finished
 
 ___
 
+
 ### crawl\_status
 
 • `Optional` **crawl\_status**: [`CrawlStatusInfo`](CrawlStatusInfo.md)
@@ -85,6 +90,7 @@ details of the crawling session
 [main.ts:147230](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L147230)
 
 ___
+
 
 ### items
 
@@ -102,6 +108,7 @@ items array
 
 ___
 
+
 ### items\_count
 
 • `Optional` **items\_count**: `number`
@@ -117,6 +124,7 @@ number of items in the results array
 [main.ts:147238](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L147238)
 
 ___
+
 
 ### pages\_count
 
@@ -134,6 +142,7 @@ displays the number of pages with duplicate tags returned in the response
 [main.ts:147236](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L147236)
 
 ___
+
 
 ### total\_pages\_count
 
@@ -172,6 +181,7 @@ displays the total number of pages with duplicate tags of the target website
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -192,6 +202,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`OnPageDuplicateTagsResultInfo`](OnPageDuplicateTagsResultInfo.md)
@@ -209,3 +220,7 @@ ___
 #### Defined in
 
 [main.ts:147272](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L147272)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

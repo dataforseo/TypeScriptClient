@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / AppendixNaverKeywordsDataDataInfo
 
 # Class: AppendixNaverKeywordsDataDataInfo
@@ -63,6 +67,7 @@
 
 ___
 
+
 ### search\_volume
 
 • `Optional` **search\_volume**: [`AppendixInfo`](AppendixInfo.md)
@@ -97,6 +102,7 @@ ___
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -117,6 +123,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`AppendixNaverKeywordsDataDataInfo`](AppendixNaverKeywordsDataDataInfo.md)
@@ -134,3 +141,7 @@ ___
 #### Defined in
 
 [main.ts:208704](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L208704)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

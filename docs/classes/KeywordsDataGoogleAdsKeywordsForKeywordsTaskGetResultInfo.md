@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / KeywordsDataGoogleAdsKeywordsForKeywordsTaskGetResultInfo
 
 # Class: KeywordsDataGoogleAdsKeywordsForKeywordsTaskGetResultInfo
@@ -79,6 +83,7 @@ learn more about the metric in this help center article
 
 ___
 
+
 ### competition\_index
 
 • `Optional` **competition\_index**: `number`
@@ -100,6 +105,7 @@ learn more about the metric in this help center article
 
 ___
 
+
 ### cpc
 
 • `Optional` **cpc**: `number`
@@ -116,6 +122,7 @@ indicates the amount paid for each click on the ad displayed for a given keyword
 [main.ts:116260](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L116260)
 
 ___
+
 
 ### high\_top\_of\_page\_bid
 
@@ -135,6 +142,7 @@ the value may differ depending on the location specified in a POST request
 
 ___
 
+
 ### keyword
 
 • `Optional` **keyword**: `string`
@@ -151,6 +159,7 @@ keyword in a POST array
 
 ___
 
+
 ### keyword\_annotations
 
 • `Optional` **keyword\_annotations**: [`KeywordAnnotations`](KeywordAnnotations.md)
@@ -166,6 +175,7 @@ the annotations for the keyword
 [main.ts:116266](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L116266)
 
 ___
+
 
 ### language\_code
 
@@ -184,6 +194,7 @@ if there is no data, the value is null
 
 ___
 
+
 ### location\_code
 
 • `Optional` **location\_code**: `number`
@@ -200,6 +211,7 @@ if there is no data, the value is null
 [main.ts:116224](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L116224)
 
 ___
+
 
 ### low\_top\_of\_page\_bid
 
@@ -219,6 +231,7 @@ the value may differ depending on the location specified in a POST request
 
 ___
 
+
 ### monthly\_searches
 
 • `Optional` **monthly\_searches**: [`MonthlySearches`](MonthlySearches.md)[]
@@ -236,6 +249,7 @@ if there is no data, the value is null
 [main.ts:116264](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L116264)
 
 ___
+
 
 ### search\_partners
 
@@ -255,6 +269,7 @@ if false, the results are returned for Google search sites only
 [main.ts:116232](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L116232)
 
 ___
+
 
 ### search\_volume
 
@@ -294,6 +309,7 @@ if there is no data, the value is null
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -314,6 +330,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`KeywordsDataGoogleAdsKeywordsForKeywordsTaskGetResultInfo`](KeywordsDataGoogleAdsKeywordsForKeywordsTaskGetResultInfo.md)
@@ -331,3 +348,7 @@ ___
 #### Defined in
 
 [main.ts:116304](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L116304)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

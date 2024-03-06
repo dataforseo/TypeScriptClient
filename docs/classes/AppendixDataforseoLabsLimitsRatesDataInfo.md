@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / AppendixDataforseoLabsLimitsRatesDataInfo
 
 # Class: AppendixDataforseoLabsLimitsRatesDataInfo
@@ -95,6 +99,7 @@
 
 ___
 
+
 ### app\_intersection
 
 • `Optional` **app\_intersection**: [`AppendixInfo`](AppendixInfo.md)
@@ -108,6 +113,7 @@ ___
 [main.ts:207096](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L207096)
 
 ___
+
 
 ### bulk\_app\_metrics
 
@@ -123,6 +129,7 @@ ___
 
 ___
 
+
 ### bulk\_keyword\_difficulty
 
 • `Optional` **bulk\_keyword\_difficulty**: [`AppendixInfo`](AppendixInfo.md)
@@ -136,6 +143,7 @@ ___
 [main.ts:207081](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L207081)
 
 ___
+
 
 ### bulk\_search\_volume
 
@@ -151,6 +159,7 @@ ___
 
 ___
 
+
 ### bulk\_traffic\_estimation
 
 • `Optional` **bulk\_traffic\_estimation**: [`AppendixInfo`](AppendixInfo.md)
@@ -164,6 +173,7 @@ ___
 [main.ts:207080](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L207080)
 
 ___
+
 
 ### categories
 
@@ -179,6 +189,7 @@ ___
 
 ___
 
+
 ### categories\_for\_domain
 
 • `Optional` **categories\_for\_domain**: [`AppendixInfo`](AppendixInfo.md)
@@ -192,6 +203,7 @@ ___
 [main.ts:207087](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L207087)
 
 ___
+
 
 ### competitors\_domain
 
@@ -207,6 +219,7 @@ ___
 
 ___
 
+
 ### domain\_intersection
 
 • `Optional` **domain\_intersection**: [`AppendixInfo`](AppendixInfo.md)
@@ -220,6 +233,7 @@ ___
 [main.ts:207078](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L207078)
 
 ___
+
 
 ### domain\_metrics\_by\_categories
 
@@ -235,6 +249,7 @@ ___
 
 ___
 
+
 ### domain\_rank\_overview
 
 • `Optional` **domain\_rank\_overview**: [`AppendixInfo`](AppendixInfo.md)
@@ -248,6 +263,7 @@ ___
 [main.ts:207077](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L207077)
 
 ___
+
 
 ### domain\_whois\_overview
 
@@ -263,6 +279,7 @@ ___
 
 ___
 
+
 ### errors
 
 • `Optional` **errors**: `number`
@@ -276,6 +293,7 @@ ___
 [main.ts:207067](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L207067)
 
 ___
+
 
 ### historical\_rank\_overview
 
@@ -291,6 +309,7 @@ ___
 
 ___
 
+
 ### historical\_search\_volume
 
 • `Optional` **historical\_search\_volume**: [`AppendixInfo`](AppendixInfo.md)
@@ -304,6 +323,7 @@ ___
 [main.ts:207086](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L207086)
 
 ___
+
 
 ### historical\_serps
 
@@ -319,6 +339,7 @@ ___
 
 ___
 
+
 ### keyword\_ideas
 
 • `Optional` **keyword\_ideas**: [`AppendixInfo`](AppendixInfo.md)
@@ -332,6 +353,7 @@ ___
 [main.ts:207085](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L207085)
 
 ___
+
 
 ### keyword\_suggestions
 
@@ -347,6 +369,7 @@ ___
 
 ___
 
+
 ### keywords\_for\_app
 
 • `Optional` **keywords\_for\_app**: [`AppendixInfo`](AppendixInfo.md)
@@ -360,6 +383,7 @@ ___
 [main.ts:207095](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L207095)
 
 ___
+
 
 ### keywords\_for\_categories
 
@@ -375,6 +399,7 @@ ___
 
 ___
 
+
 ### keywords\_for\_site
 
 • `Optional` **keywords\_for\_site**: [`AppendixInfo`](AppendixInfo.md)
@@ -388,6 +413,7 @@ ___
 [main.ts:207083](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L207083)
 
 ___
+
 
 ### locations\_and\_languages
 
@@ -403,6 +429,7 @@ ___
 
 ___
 
+
 ### page\_intersection
 
 • `Optional` **page\_intersection**: [`AppendixInfo`](AppendixInfo.md)
@@ -416,6 +443,7 @@ ___
 [main.ts:207079](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L207079)
 
 ___
+
 
 ### product\_competitors
 
@@ -431,6 +459,7 @@ ___
 
 ___
 
+
 ### product\_keyword\_intersections
 
 • `Optional` **product\_keyword\_intersections**: [`AppendixInfo`](AppendixInfo.md)
@@ -444,6 +473,7 @@ ___
 [main.ts:207069](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L207069)
 
 ___
+
 
 ### product\_rank\_overview
 
@@ -459,6 +489,7 @@ ___
 
 ___
 
+
 ### ranked\_keywords
 
 • `Optional` **ranked\_keywords**: [`AppendixInfo`](AppendixInfo.md)
@@ -472,6 +503,7 @@ ___
 [main.ts:207071](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L207071)
 
 ___
+
 
 ### related\_keywords
 
@@ -487,6 +519,7 @@ ___
 
 ___
 
+
 ### relevant\_pages
 
 • `Optional` **relevant\_pages**: [`AppendixInfo`](AppendixInfo.md)
@@ -500,6 +533,7 @@ ___
 [main.ts:207074](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L207074)
 
 ___
+
 
 ### search\_intent
 
@@ -515,6 +549,7 @@ ___
 
 ___
 
+
 ### serp\_competitors
 
 • `Optional` **serp\_competitors**: [`AppendixInfo`](AppendixInfo.md)
@@ -529,6 +564,7 @@ ___
 
 ___
 
+
 ### subdomains
 
 • `Optional` **subdomains**: [`AppendixInfo`](AppendixInfo.md)
@@ -542,6 +578,7 @@ ___
 [main.ts:207073](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L207073)
 
 ___
+
 
 ### top\_searches
 
@@ -577,6 +614,7 @@ ___
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -597,6 +635,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`AppendixDataforseoLabsLimitsRatesDataInfo`](AppendixDataforseoLabsLimitsRatesDataInfo.md)
@@ -614,3 +653,7 @@ ___
 #### Defined in
 
 [main.ts:207154](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L207154)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

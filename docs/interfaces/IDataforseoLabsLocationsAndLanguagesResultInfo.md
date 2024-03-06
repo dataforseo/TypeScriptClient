@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IDataforseoLabsLocationsAndLanguagesResultInfo
 
 # Interface: IDataforseoLabsLocationsAndLanguagesResultInfo
@@ -36,6 +40,7 @@ contains the languages which are supported for a specific location
 
 ___
 
+
 ### country\_iso\_code
 
 • `Optional` **country\_iso\_code**: `string`
@@ -48,6 +53,7 @@ ISO country code of the location
 
 ___
 
+
 ### location\_code
 
 • `Optional` **location\_code**: `number`
@@ -59,6 +65,7 @@ location code
 [main.ts:78003](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L78003)
 
 ___
+
 
 ### location\_code\_parent
 
@@ -73,6 +80,7 @@ the value will be null as Country is the only supported location_type for this A
 
 ___
 
+
 ### location\_name
 
 • `Optional` **location\_name**: `string`
@@ -85,6 +93,7 @@ full name of the location
 
 ___
 
+
 ### location\_type
 
 • `Optional` **location\_type**: `string`
@@ -96,3 +105,7 @@ Country
 #### Defined in
 
 [main.ts:78014](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L78014)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

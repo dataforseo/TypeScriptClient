@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / BulkMetricsInfo
 
 # Class: BulkMetricsInfo
@@ -65,6 +69,7 @@ total count of organic SERPs that contain the domain
 
 ___
 
+
 ### etv
 
 • `Optional` **etv**: `number`
@@ -104,6 +109,7 @@ learn more about how the metric is calculated in this help center article
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -124,6 +130,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`BulkMetricsInfo`](BulkMetricsInfo.md)
@@ -141,3 +148,7 @@ ___
 #### Defined in
 
 [main.ts:97659](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L97659)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

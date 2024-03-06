@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IKnowledgeGraphPartItemSerpElementItem
 
 # Interface: IKnowledgeGraphPartItemSerpElementItem
@@ -5,7 +9,7 @@
 ## Hierarchy
 
 - [`IBaseSerpElementItem`](IBaseSerpElementItem.md)
-
+  
   ↳ **`IKnowledgeGraphPartItemSerpElementItem`**
 
 ## Implemented by
@@ -46,6 +50,7 @@ kc:/local:place qa
 
 ___
 
+
 ### links
 
 • `Optional` **links**: [`LinkElement`](../classes/LinkElement.md)[]
@@ -59,6 +64,7 @@ if there are none, equals null
 [main.ts:27281](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L27281)
 
 ___
+
 
 ### position
 
@@ -74,6 +80,7 @@ left, right
 
 ___
 
+
 ### rank\_absolute
 
 • `Optional` **rank\_absolute**: `number`
@@ -86,6 +93,7 @@ absolute position among all the elements in SERP
 [main.ts:27263](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L27263)
 
 ___
+
 
 ### rank\_group
 
@@ -101,6 +109,7 @@ positions of elements with different type values are omitted from rank_group
 
 ___
 
+
 ### rectangle
 
 • `Optional` **rectangle**: [`Rectangle`](../classes/Rectangle.md)
@@ -115,6 +124,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 ___
 
+
 ### text
 
 • `Optional` **text**: `string`
@@ -126,6 +136,7 @@ content within the item
 [main.ts:27277](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L27277)
 
 ___
+
 
 ### title
 
@@ -139,6 +150,7 @@ title of the result in SERP
 
 ___
 
+
 ### xpath
 
 • `Optional` **xpath**: `string`
@@ -148,3 +160,7 @@ the XPath of the element
 #### Defined in
 
 [main.ts:27269](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L27269)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

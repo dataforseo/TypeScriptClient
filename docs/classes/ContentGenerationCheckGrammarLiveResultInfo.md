@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / ContentGenerationCheckGrammarLiveResultInfo
 
 # Class: ContentGenerationCheckGrammarLiveResultInfo
@@ -70,6 +74,7 @@ initial text in the POST request
 
 ___
 
+
 ### input\_tokens
 
 • `Optional` **input\_tokens**: `number`
@@ -85,6 +90,7 @@ number of input tokens in the POST request
 [main.ts:161589](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L161589)
 
 ___
+
 
 ### items
 
@@ -102,6 +108,7 @@ contains grammar or spelling errors and related data
 
 ___
 
+
 ### items\_count
 
 • `Optional` **items\_count**: `number`
@@ -117,6 +124,7 @@ the number of results returned in the items array
 [main.ts:161599](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L161599)
 
 ___
+
 
 ### language\_code
 
@@ -134,6 +142,7 @@ language code in the POST request
 
 ___
 
+
 ### new\_tokens
 
 • `Optional` **new\_tokens**: `number`
@@ -149,6 +158,7 @@ number of new tokens in the response
 [main.ts:161593](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L161593)
 
 ___
+
 
 ### output\_tokens
 
@@ -186,6 +196,7 @@ number of output tokens in the response
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -206,6 +217,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`ContentGenerationCheckGrammarLiveResultInfo`](ContentGenerationCheckGrammarLiveResultInfo.md)
@@ -223,3 +235,7 @@ ___
 #### Defined in
 
 [main.ts:161634](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L161634)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

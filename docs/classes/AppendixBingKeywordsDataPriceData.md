@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / AppendixBingKeywordsDataPriceData
 
 # Class: AppendixBingKeywordsDataPriceData
@@ -66,6 +70,7 @@
 
 ___
 
+
 ### keywords\_for\_keywords
 
 • `Optional` **keywords\_for\_keywords**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](AppendixKeywordBingKeywordsDataPriceDataInfo.md)
@@ -79,6 +84,7 @@ ___
 [main.ts:209752](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L209752)
 
 ___
+
 
 ### keywords\_for\_site
 
@@ -94,6 +100,7 @@ ___
 
 ___
 
+
 ### search\_volume
 
 • `Optional` **search\_volume**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](AppendixKeywordBingKeywordsDataPriceDataInfo.md)
@@ -107,6 +114,7 @@ ___
 [main.ts:209755](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L209755)
 
 ___
+
 
 ### search\_volume\_history
 
@@ -142,6 +150,7 @@ ___
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -162,6 +171,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`AppendixBingKeywordsDataPriceData`](AppendixBingKeywordsDataPriceData.md)
@@ -179,3 +189,7 @@ ___
 #### Defined in
 
 [main.ts:209782](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L209782)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IUserProfileInfo
 
 # Interface: IUserProfileInfo
@@ -34,6 +38,7 @@ URL to the profile picture of the reviewer
 
 ___
 
+
 ### locations
 
 • `Optional` **locations**: `string`
@@ -45,6 +50,7 @@ country of the reviewer
 [main.ts:175609](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L175609)
 
 ___
+
 
 ### name
 
@@ -58,6 +64,7 @@ the name of the reviewer
 
 ___
 
+
 ### reviews\_count
 
 • `Optional` **reviews\_count**: `number`
@@ -70,6 +77,7 @@ total number of reviews submitted by the reviewer
 
 ___
 
+
 ### url
 
 • `Optional` **url**: `string`
@@ -79,3 +87,7 @@ URL to the reviewer’s profile
 #### Defined in
 
 [main.ts:175605](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L175605)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

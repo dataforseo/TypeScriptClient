@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / SerpGoogleDatasetInfoLiveAdvancedRequestInfo
 
 # Class: SerpGoogleDatasetInfoLiveAdvancedRequestInfo
@@ -73,6 +77,7 @@ L2cvMTFqbl85ZHN6MQ==
 
 ___
 
+
 ### device
 
 • `Optional` **device**: `string`
@@ -90,6 +95,7 @@ possible value: desktop
 [main.ts:52772](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L52772)
 
 ___
+
 
 ### language\_code
 
@@ -111,6 +117,7 @@ en
 
 ___
 
+
 ### language\_name
 
 • `Optional` **language\_name**: `string`
@@ -131,6 +138,7 @@ English
 
 ___
 
+
 ### os
 
 • `Optional` **os**: `string`
@@ -149,6 +157,7 @@ default value: windows
 [main.ts:52777](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L52777)
 
 ___
+
 
 ### tag
 
@@ -190,6 +199,7 @@ you will find the specified tag value in the data object of the response
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -210,6 +220,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`SerpGoogleDatasetInfoLiveAdvancedRequestInfo`](SerpGoogleDatasetInfoLiveAdvancedRequestInfo.md)
@@ -227,3 +238,7 @@ ___
 #### Defined in
 
 [main.ts:52811](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L52811)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

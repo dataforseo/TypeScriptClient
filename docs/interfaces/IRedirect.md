@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IRedirect
 
 # Interface: IRedirect
@@ -32,6 +36,7 @@ HTTP status code of the URL
 
 ___
 
+
 ### type
 
 • `Optional` **type**: `string`
@@ -44,6 +49,7 @@ type of element
 
 ___
 
+
 ### url
 
 • `Optional` **url**: `string`
@@ -53,3 +59,7 @@ indirect link URL
 #### Defined in
 
 [main.ts:131002](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L131002)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

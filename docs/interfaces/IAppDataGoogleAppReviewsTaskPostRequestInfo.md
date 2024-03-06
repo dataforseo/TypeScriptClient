@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IAppDataGoogleAppReviewsTaskPostRequestInfo
 
 # Interface: IAppDataGoogleAppReviewsTaskPostRequestInfo
@@ -47,6 +51,7 @@ https://play.google.com/store/apps/details?id=org.telegram.messenger
 
 ___
 
+
 ### depth
 
 • `Optional` **depth**: `number`
@@ -63,6 +68,7 @@ maximum value: 100000
 [main.ts:180800](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L180800)
 
 ___
+
 
 ### language\_code
 
@@ -81,6 +87,7 @@ en
 
 ___
 
+
 ### language\_name
 
 • `Optional` **language\_name**: `string`
@@ -97,6 +104,7 @@ English
 [main.ts:180778](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L180778)
 
 ___
+
 
 ### location\_code
 
@@ -115,6 +123,7 @@ example:
 
 ___
 
+
 ### location\_name
 
 • `Optional` **location\_name**: `string`
@@ -131,6 +140,7 @@ West Los Angeles,California,United States
 [main.ts:180764](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L180764)
 
 ___
+
 
 ### pingback\_url
 
@@ -152,6 +162,7 @@ i.a., the # symbol will be encoded into %23
 
 ___
 
+
 ### postback\_data
 
 • `Optional` **postback\_data**: `string`
@@ -167,6 +178,7 @@ advanced, html
 [main.ts:180841](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L180841)
 
 ___
+
 
 ### postback\_url
 
@@ -188,6 +200,7 @@ i.a., the # symbol will be encoded into %23
 
 ___
 
+
 ### priority
 
 • `Optional` **priority**: `number`
@@ -205,6 +218,7 @@ The cost can be calculated on the Pricing page.
 [main.ts:180793](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L180793)
 
 ___
+
 
 ### rating
 
@@ -227,6 +241,7 @@ by default, the API returns all reviews regardless of the number of stars
 
 ___
 
+
 ### sort\_by
 
 • `Optional` **sort\_by**: `string`
@@ -245,6 +260,7 @@ default rule: most_relevant
 
 ___
 
+
 ### tag
 
 • `Optional` **tag**: `string`
@@ -258,3 +274,7 @@ you will find the specified tag value in the data object of the response
 #### Defined in
 
 [main.ts:180825](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L180825)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

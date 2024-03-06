@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IDataforseoLabsBingRankedKeywordsLiveResultInfo
 
 # Interface: IDataforseoLabsBingRankedKeywordsLiveResultInfo
@@ -38,6 +42,7 @@ contains ranked keywords and related data
 
 ___
 
+
 ### items\_count
 
 • `Optional` **items\_count**: `number`
@@ -49,6 +54,7 @@ the number of results returned in the items array
 [main.ts:105497](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L105497)
 
 ___
+
 
 ### language\_code
 
@@ -63,6 +69,7 @@ if there is no data, then the value is null
 
 ___
 
+
 ### location\_code
 
 • `Optional` **location\_code**: `number`
@@ -75,6 +82,7 @@ if there is no data, then the value is null
 [main.ts:105490](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L105490)
 
 ___
+
 
 ### metrics
 
@@ -93,6 +101,7 @@ ranking data is provided by the rank_group parameters that show the result’s r
 
 ___
 
+
 ### metrics\_absolute
 
 • `Optional` **metrics\_absolute**: `Object`
@@ -110,6 +119,7 @@ ranking data is provided by the rank_absolute parameters that indicate the resul
 
 ___
 
+
 ### se\_type
 
 • `Optional` **se\_type**: `string`
@@ -121,6 +131,7 @@ search engine type
 [main.ts:105485](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L105485)
 
 ___
+
 
 ### target
 
@@ -134,6 +145,7 @@ target domain in a POST array
 
 ___
 
+
 ### total\_count
 
 • `Optional` **total\_count**: `number`
@@ -143,3 +155,7 @@ total number of results in our database relevant to your request
 #### Defined in
 
 [main.ts:105495](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L105495)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

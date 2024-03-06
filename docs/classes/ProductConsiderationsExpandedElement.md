@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / ProductConsiderationsExpandedElement
 
 # Class: ProductConsiderationsExpandedElement
@@ -75,6 +79,7 @@ this feature appears after clicking on the three dots next to most results
 
 ___
 
+
 ### breadcrumb
 
 • `Optional` **breadcrumb**: `string`
@@ -90,6 +95,7 @@ breadcrumb of the Ad element in SERP
 [main.ts:34418](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L34418)
 
 ___
+
 
 ### domain
 
@@ -107,6 +113,7 @@ website domain
 
 ___
 
+
 ### featured\_title
 
 • `Optional` **featured\_title**: `string`
@@ -122,6 +129,7 @@ the title of the featured snippets source page
 [main.ts:34416](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L34416)
 
 ___
+
 
 ### related\_searches
 
@@ -139,6 +147,7 @@ search queries related to the elment
 
 ___
 
+
 ### snippet
 
 • `Optional` **snippet**: `string`
@@ -154,6 +163,7 @@ text alongside the link title
 [main.ts:34420](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L34420)
 
 ___
+
 
 ### timestamp
 
@@ -174,6 +184,7 @@ example:
 
 ___
 
+
 ### title
 
 • `Optional` **title**: `string`
@@ -190,6 +201,7 @@ title of a given link element
 
 ___
 
+
 ### type
 
 • `Optional` **type**: `string`
@@ -205,6 +217,7 @@ type of element
 [main.ts:34412](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L34412)
 
 ___
+
 
 ### url
 
@@ -242,6 +255,7 @@ URL
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -262,6 +276,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`ProductConsiderationsExpandedElement`](ProductConsiderationsExpandedElement.md)
@@ -279,3 +294,7 @@ ___
 #### Defined in
 
 [main.ts:34471](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L34471)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

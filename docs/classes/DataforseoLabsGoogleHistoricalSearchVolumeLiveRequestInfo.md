@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / DataforseoLabsGoogleHistoricalSearchVolumeLiveRequestInfo
 
 # Class: DataforseoLabsGoogleHistoricalSearchVolumeLiveRequestInfo
@@ -73,6 +77,7 @@ default value: false
 
 ___
 
+
 ### keywords
 
 • `Optional` **keywords**: `string`[]
@@ -96,6 +101,7 @@ you will not be charged for the keywords omitted in the results
 
 ___
 
+
 ### language\_code
 
 • `Optional` **language\_code**: `string`
@@ -117,6 +123,7 @@ en
 [main.ts:81777](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L81777)
 
 ___
+
 
 ### language\_name
 
@@ -140,6 +147,7 @@ English
 
 ___
 
+
 ### location\_code
 
 • `Optional` **location\_code**: `number`
@@ -162,6 +170,7 @@ example:
 
 ___
 
+
 ### location\_name
 
 • `Optional` **location\_name**: `string`
@@ -183,6 +192,7 @@ United Kingdom
 [main.ts:81753](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L81753)
 
 ___
+
 
 ### tag
 
@@ -224,6 +234,7 @@ you will find the specified tag value in the data object of the response
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -244,6 +255,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`DataforseoLabsGoogleHistoricalSearchVolumeLiveRequestInfo`](DataforseoLabsGoogleHistoricalSearchVolumeLiveRequestInfo.md)
@@ -261,3 +273,7 @@ ___
 #### Defined in
 
 [main.ts:81821](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L81821)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

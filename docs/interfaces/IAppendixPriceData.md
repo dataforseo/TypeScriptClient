@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IAppendixPriceData
 
 # Interface: IAppendixPriceData
@@ -39,6 +43,7 @@
 
 ___
 
+
 ### appendix
 
 • `Optional` **appendix**: [`AppendixAppendixPriceData`](../classes/AppendixAppendixPriceData.md)
@@ -48,6 +53,7 @@ ___
 [main.ts:212149](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L212149)
 
 ___
+
 
 ### backlinks
 
@@ -59,6 +65,7 @@ ___
 
 ___
 
+
 ### business\_data
 
 • `Optional` **business\_data**: [`AppendixBusinessDataPriceData`](../classes/AppendixBusinessDataPriceData.md)
@@ -68,6 +75,7 @@ ___
 [main.ts:212152](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L212152)
 
 ___
+
 
 ### content\_analysis
 
@@ -79,6 +87,7 @@ ___
 
 ___
 
+
 ### content\_generation
 
 • `Optional` **content\_generation**: [`AppendixContentGenerationPriceData`](../classes/AppendixContentGenerationPriceData.md)
@@ -88,6 +97,7 @@ ___
 [main.ts:212154](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L212154)
 
 ___
+
 
 ### dataforseo\_labs
 
@@ -99,6 +109,7 @@ ___
 
 ___
 
+
 ### domain\_analytics
 
 • `Optional` **domain\_analytics**: [`AppendixDomainAnalyticsPriceData`](../classes/AppendixDomainAnalyticsPriceData.md)
@@ -108,6 +119,7 @@ ___
 [main.ts:212156](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L212156)
 
 ___
+
 
 ### keywords\_data
 
@@ -119,6 +131,7 @@ ___
 
 ___
 
+
 ### merchant
 
 • `Optional` **merchant**: [`AppendixMerchantPriceData`](../classes/AppendixMerchantPriceData.md)
@@ -128,6 +141,7 @@ ___
 [main.ts:212147](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L212147)
 
 ___
+
 
 ### on\_page
 
@@ -139,6 +153,7 @@ ___
 
 ___
 
+
 ### serp
 
 • `Optional` **serp**: [`AppendixSerpPriceData`](../classes/AppendixSerpPriceData.md)
@@ -146,3 +161,7 @@ ___
 #### Defined in
 
 [main.ts:212148](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L212148)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

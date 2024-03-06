@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / ImpressionsInfo
 
 # Class: ImpressionsInfo
@@ -83,6 +87,7 @@ represents the average position of the advertisement
 
 ___
 
+
 ### ad\_position\_max
 
 • `Optional` **ad\_position\_max**: `number`
@@ -99,6 +104,7 @@ represents the maximum position of the advertisement
 [main.ts:79133](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L79133)
 
 ___
+
 
 ### ad\_position\_min
 
@@ -117,6 +123,7 @@ represents the minimum position of the advertisement
 
 ___
 
+
 ### bid
 
 • `Optional` **bid**: `number`
@@ -133,6 +140,7 @@ it stands for the price you are willing to pay for an ad. The higher value, the 
 [main.ts:79124](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L79124)
 
 ___
+
 
 ### cpc\_average
 
@@ -153,6 +161,7 @@ you can find an actual CPC value for a keyword in the cpc field of the keyword_i
 
 ___
 
+
 ### cpc\_max
 
 • `Optional` **cpc\_max**: `number`
@@ -171,6 +180,7 @@ you can find an actual CPC value for a keyword in the cpc field of the keyword_i
 [main.ts:79146](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L79146)
 
 ___
+
 
 ### cpc\_min
 
@@ -191,6 +201,7 @@ you can find an actual CPC value for a keyword in the cpc field of the keyword_i
 
 ___
 
+
 ### daily\_clicks\_average
 
 • `Optional` **daily\_clicks\_average**: `number`
@@ -207,6 +218,7 @@ represents the average number of daily clicks on the advertisement
 [main.ts:79169](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L79169)
 
 ___
+
 
 ### daily\_clicks\_max
 
@@ -225,6 +237,7 @@ represents the maximum number of daily clicks on the advertisement
 
 ___
 
+
 ### daily\_clicks\_min
 
 • `Optional` **daily\_clicks\_min**: `number`
@@ -241,6 +254,7 @@ represents the minimum number of daily clicks on the advertisement
 [main.ts:79163](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L79163)
 
 ___
+
 
 ### daily\_cost\_average
 
@@ -259,6 +273,7 @@ represents the average daily cost of the advertisement (USD)
 
 ___
 
+
 ### daily\_cost\_max
 
 • `Optional` **daily\_cost\_max**: `number`
@@ -275,6 +290,7 @@ represents the maximum daily cost of the advertisement (USD)
 [main.ts:79175](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L79175)
 
 ___
+
 
 ### daily\_cost\_min
 
@@ -293,6 +309,7 @@ represents the minimum daily cost of the advertisement (USD)
 
 ___
 
+
 ### daily\_impressions\_average
 
 • `Optional` **daily\_impressions\_average**: `number`
@@ -309,6 +326,7 @@ represents the average number of daily impressions of the advertisement given th
 [main.ts:79160](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L79160)
 
 ___
+
 
 ### daily\_impressions\_max
 
@@ -327,6 +345,7 @@ represents the maximum number of daily impressions of the advertisement given th
 
 ___
 
+
 ### daily\_impressions\_min
 
 • `Optional` **daily\_impressions\_min**: `number`
@@ -343,6 +362,7 @@ represents the minimum number of daily impressions of the advertisement given th
 [main.ts:79154](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L79154)
 
 ___
+
 
 ### last\_updated\_time
 
@@ -363,6 +383,7 @@ example:
 
 ___
 
+
 ### match\_type
 
 • `Optional` **match\_type**: `string`
@@ -379,6 +400,7 @@ can take the following values: exact, broad, phrase
 [main.ts:79127](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L79127)
 
 ___
+
 
 ### se\_type
 
@@ -416,6 +438,7 @@ search engine type
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -436,6 +459,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`ImpressionsInfo`](ImpressionsInfo.md)
@@ -453,3 +477,7 @@ ___
 #### Defined in
 
 [main.ts:79219](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L79219)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

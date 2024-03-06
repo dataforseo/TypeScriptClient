@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IMonthlySearches
 
 # Interface: IMonthlySearches
@@ -32,6 +36,7 @@ month
 
 ___
 
+
 ### search\_volume
 
 • `Optional` **search\_volume**: `number`
@@ -44,6 +49,7 @@ monthly average search volume rate
 
 ___
 
+
 ### year
 
 • `Optional` **year**: `number`
@@ -53,3 +59,7 @@ year
 #### Defined in
 
 [main.ts:78851](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L78851)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IAppDataGoogleAppListingsSearchLiveRequestInfo
 
 # Interface: IAppDataGoogleAppListingsSearchLiveRequestInfo
@@ -42,6 +46,7 @@ you can specify up to 10 categories
 
 ___
 
+
 ### description
 
 • `Optional` **description**: `string`
@@ -56,6 +61,7 @@ can contain up to 200 symbols
 [main.ts:182215](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L182215)
 
 ___
+
 
 ### filters
 
@@ -78,6 +84,7 @@ you can receive the list of available filters by making a separate request to h
 
 ___
 
+
 ### limit
 
 • `Optional` **limit**: `number`
@@ -93,6 +100,7 @@ maximum value: 1000
 
 ___
 
+
 ### offset
 
 • `Optional` **offset**: `number`
@@ -107,6 +115,7 @@ if you specify the 10 value, the first ten entities in the results array will be
 [main.ts:182255](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L182255)
 
 ___
+
 
 ### offset\_token
 
@@ -125,6 +134,7 @@ Note: if the offset_token is specified in the request, all other parameters shou
 [main.ts:182263](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L182263)
 
 ___
+
 
 ### order\_by
 
@@ -150,6 +160,7 @@ example:
 
 ___
 
+
 ### tag
 
 • `Optional` **tag**: `string`
@@ -166,6 +177,7 @@ you will find the specified tag value in the data object of the response
 
 ___
 
+
 ### title
 
 • `Optional` **title**: `string`
@@ -178,3 +190,7 @@ can contain up to 200 symbols
 #### Defined in
 
 [main.ts:182220](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L182220)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

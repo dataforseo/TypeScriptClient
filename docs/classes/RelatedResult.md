@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / RelatedResult
 
 # Class: RelatedResult
@@ -86,6 +90,7 @@ this feature appears after clicking on the three dots next to most results
 
 ___
 
+
 ### amp\_version
 
 • `Optional` **amp\_version**: `boolean`
@@ -103,6 +108,7 @@ indicates whether an item has the Accelerated Mobile Page (AMP) version
 
 ___
 
+
 ### breadcrumb
 
 • `Optional` **breadcrumb**: `string`
@@ -118,6 +124,7 @@ breadcrumb in SERP
 [main.ts:27981](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L27981)
 
 ___
+
 
 ### cache\_url
 
@@ -135,6 +142,7 @@ cached version of the page
 
 ___
 
+
 ### description
 
 • `Optional` **description**: `string`
@@ -150,6 +158,7 @@ description
 [main.ts:27989](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L27989)
 
 ___
+
 
 ### domain
 
@@ -167,6 +176,7 @@ domain where a link points
 
 ___
 
+
 ### extended\_snippet
 
 • `Optional` **extended\_snippet**: `string`
@@ -182,6 +192,7 @@ includes additional information appended after the result description in SERP
 [main.ts:27993](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L27993)
 
 ___
+
 
 ### highlighted
 
@@ -199,6 +210,7 @@ words highlighted in bold within the results description
 
 ___
 
+
 ### images
 
 • `Optional` **images**: [`ImagesElement`](ImagesElement.md)[]
@@ -214,6 +226,7 @@ images of the element
 [main.ts:27995](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L27995)
 
 ___
+
 
 ### is\_image
 
@@ -231,6 +244,7 @@ indicates whether the element contains an image
 
 ___
 
+
 ### is\_video
 
 • `Optional` **is\_video**: `boolean`
@@ -247,6 +261,7 @@ indicates whether the element contains a video
 
 ___
 
+
 ### pre\_snippet
 
 • `Optional` **pre\_snippet**: `string`
@@ -262,6 +277,7 @@ includes additional information appended before the result description in SERP
 [main.ts:27991](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L27991)
 
 ___
+
 
 ### price
 
@@ -280,11 +296,12 @@ contains the pricing details of the product or service featured in the result
 
 ___
 
+
 ### rating
 
 • `Optional` **rating**: [`RatingInfo`](RatingInfo.md)
 
-the item’s rating 
+the item’s rating
 the popularity rate based on reviews and displayed in SERP
 
 #### Implementation of
@@ -296,6 +313,7 @@ the popularity rate based on reviews and displayed in SERP
 [main.ts:28001](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L28001)
 
 ___
+
 
 ### related\_search\_url
 
@@ -313,6 +331,7 @@ URL to a new search for the same keyword(s) on related sites
 [main.ts:27979](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L27979)
 
 ___
+
 
 ### timestamp
 
@@ -333,6 +352,7 @@ example:
 
 ___
 
+
 ### title
 
 • `Optional` **title**: `string`
@@ -348,6 +368,7 @@ title of the element
 [main.ts:27972](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L27972)
 
 ___
+
 
 ### type
 
@@ -365,6 +386,7 @@ type of element
 
 ___
 
+
 ### url
 
 • `Optional` **url**: `string`
@@ -381,6 +403,7 @@ URL
 
 ___
 
+
 ### website\_name
 
 • `Optional` **website\_name**: `string`
@@ -396,6 +419,7 @@ name of the website in SERP
 [main.ts:27983](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L27983)
 
 ___
+
 
 ### xpath
 
@@ -433,6 +457,7 @@ the XPath of the element
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -453,6 +478,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`RelatedResult`](RelatedResult.md)
@@ -470,3 +496,7 @@ ___
 #### Defined in
 
 [main.ts:28066](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L28066)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

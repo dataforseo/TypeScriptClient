@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IBacklinksTimeseriesSummaryLiveResultInfo
 
 # Interface: IBacklinksTimeseriesSummaryLiveResultInfo
@@ -38,6 +42,7 @@ example:
 
 ___
 
+
 ### date\_to
 
 • `Optional` **date\_to**: `string`
@@ -53,6 +58,7 @@ example:
 
 ___
 
+
 ### group\_range
 
 • `Optional` **group\_range**: `string`
@@ -64,6 +70,7 @@ group_range from a POST array
 [main.ts:138714](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L138714)
 
 ___
+
 
 ### items
 
@@ -77,6 +84,7 @@ contains relevant summary data
 
 ___
 
+
 ### items\_count
 
 • `Optional` **items\_count**: `number`
@@ -89,6 +97,7 @@ the number of results returned in the items array
 
 ___
 
+
 ### target
 
 • `Optional` **target**: `string`
@@ -98,3 +107,7 @@ target from a POST array
 #### Defined in
 
 [main.ts:138702](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L138702)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

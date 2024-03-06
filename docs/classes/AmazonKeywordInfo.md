@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / AmazonKeywordInfo
 
 # Class: AmazonKeywordInfo
@@ -68,6 +72,7 @@ example:    '2019-11-15 12:57:46 +00:00'
 
 ___
 
+
 ### se\_type
 
 • `Optional` **se\_type**: `string`
@@ -83,6 +88,7 @@ search engine type
 [main.ts:21385](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L21385)
 
 ___
+
 
 ### search\_volume
 
@@ -121,6 +127,7 @@ represents the (approximate) number of searches for the provided keyword idea on
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -141,6 +148,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`AmazonKeywordInfo`](AmazonKeywordInfo.md)
@@ -158,3 +166,7 @@ ___
 #### Defined in
 
 [main.ts:21417](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L21417)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

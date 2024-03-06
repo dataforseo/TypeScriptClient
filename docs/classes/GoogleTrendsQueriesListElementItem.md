@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / GoogleTrendsQueriesListElementItem
 
 # Class: GoogleTrendsQueriesListElementItem
@@ -5,7 +9,7 @@
 ## Hierarchy
 
 - [`BaseGoogleTrendsItem`](BaseGoogleTrendsItem.md)
-
+  
   ↳ **`GoogleTrendsQueriesListElementItem`**
 
 ## Implements
@@ -76,6 +80,7 @@
 
 ___
 
+
 ### data
 
 • `Optional` **data**: [`QueriesListDataInfo`](QueriesListDataInfo.md)
@@ -91,6 +96,7 @@ Google Trends data from the corresponding item
 [main.ts:121133](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L121133)
 
 ___
+
 
 ### keywords
 
@@ -109,6 +115,7 @@ the data included in the google_trends_queries_list element is based on the keyw
 
 ___
 
+
 ### position
 
 • `Optional` **position**: `number`
@@ -125,6 +132,7 @@ can take the following values: 1, 2, 3, 4, etc.
 [main.ts:121126](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L121126)
 
 ___
+
 
 ### title
 
@@ -166,6 +174,7 @@ title of the element in Google Trends
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -190,6 +199,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`GoogleTrendsQueriesListElementItem`](GoogleTrendsQueriesListElementItem.md)
@@ -211,3 +221,7 @@ ___
 #### Defined in
 
 [main.ts:121160](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L121160)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

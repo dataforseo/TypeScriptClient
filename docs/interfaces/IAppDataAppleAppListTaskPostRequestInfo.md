@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IAppDataAppleAppListTaskPostRequestInfo
 
 # Interface: IAppDataAppleAppListTaskPostRequestInfo
@@ -46,6 +50,7 @@ you can review the full list of available categories here or by making a separat
 
 ___
 
+
 ### app\_collection
 
 • `Optional` **app\_collection**: `string`
@@ -61,6 +66,7 @@ top_free_ios, top_paid_ios, top_grossing_ios, new_ios, new_free_ios, new_paid_io
 [main.ts:185036](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L185036)
 
 ___
+
 
 ### depth
 
@@ -82,6 +88,7 @@ maximum value: 1000
 
 ___
 
+
 ### language\_code
 
 • `Optional` **language\_code**: `string`
@@ -98,6 +105,7 @@ en
 [main.ts:185064](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L185064)
 
 ___
+
 
 ### language\_name
 
@@ -116,6 +124,7 @@ English
 
 ___
 
+
 ### location\_code
 
 • `Optional` **location\_code**: `number`
@@ -133,6 +142,7 @@ example:
 
 ___
 
+
 ### location\_name
 
 • `Optional` **location\_name**: `string`
@@ -149,6 +159,7 @@ West Los Angeles,California,United States
 [main.ts:185043](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L185043)
 
 ___
+
 
 ### pingback\_url
 
@@ -170,6 +181,7 @@ i.a., the # symbol will be encoded into %23
 
 ___
 
+
 ### postback\_data
 
 • `Optional` **postback\_data**: `string`
@@ -185,6 +197,7 @@ advanced
 [main.ts:185111](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L185111)
 
 ___
+
 
 ### postback\_url
 
@@ -206,6 +219,7 @@ i.a., the # symbol will be encoded into %23
 
 ___
 
+
 ### priority
 
 • `Optional` **priority**: `number`
@@ -224,6 +238,7 @@ The cost can be calculated on the Pricing page.
 
 ___
 
+
 ### tag
 
 • `Optional` **tag**: `string`
@@ -237,3 +252,7 @@ you will find the specified tag value in the data object of the response
 #### Defined in
 
 [main.ts:185095](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L185095)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

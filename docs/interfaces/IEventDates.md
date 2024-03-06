@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IEventDates
 
 # Interface: IEventDates
@@ -32,6 +36,7 @@ date or date range as it is displayed in SERP
 
 ___
 
+
 ### end\_datetime
 
 • `Optional` **end\_datetime**: `string`
@@ -52,6 +57,7 @@ example:
 
 ___
 
+
 ### start\_datetime
 
 • `Optional` **start\_datetime**: `string`
@@ -69,3 +75,7 @@ example:
 #### Defined in
 
 [main.ts:44497](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L44497)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

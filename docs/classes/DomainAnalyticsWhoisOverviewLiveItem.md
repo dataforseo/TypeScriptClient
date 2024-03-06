@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / DomainAnalyticsWhoisOverviewLiveItem
 
 # Class: DomainAnalyticsWhoisOverviewLiveItem
@@ -77,6 +81,7 @@ backlink data for the returned domain
 
 ___
 
+
 ### changed\_datetime
 
 • `Optional` **changed\_datetime**: `string`
@@ -95,6 +100,7 @@ example:
 [main.ts:76085](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L76085)
 
 ___
+
 
 ### created\_datetime
 
@@ -115,6 +121,7 @@ example:
 
 ___
 
+
 ### domain
 
 • `Optional` **domain**: `string`
@@ -130,6 +137,7 @@ domain name
 [main.ts:76075](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L76075)
 
 ___
+
 
 ### epp\_status\_codes
 
@@ -147,6 +155,7 @@ the status of a domain name registration as defined by ICANN
 [main.ts:76103](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L76103)
 
 ___
+
 
 ### expiration\_datetime
 
@@ -167,6 +176,7 @@ example:
 
 ___
 
+
 ### first\_seen
 
 • `Optional` **first\_seen**: `string`
@@ -186,6 +196,7 @@ example:
 
 ___
 
+
 ### metrics
 
 • `Optional` **metrics**: [`MetricsBundleInfo`](MetricsBundleInfo.md)
@@ -201,6 +212,7 @@ ranking data relevant to the specified domain
 [main.ts:76117](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L76117)
 
 ___
+
 
 ### registered
 
@@ -219,6 +231,7 @@ Note: expired domains will remain in the database for only a short period of tim
 [main.ts:76110](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L76110)
 
 ___
+
 
 ### registrar
 
@@ -239,6 +252,7 @@ NameCheap, Inc.
 
 ___
 
+
 ### tld
 
 • `Optional` **tld**: `string`
@@ -255,6 +269,7 @@ top-level domain in the DNS root zone
 [main.ts:76106](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L76106)
 
 ___
+
 
 ### updated\_datetime
 
@@ -295,6 +310,7 @@ example:
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -315,6 +331,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`DomainAnalyticsWhoisOverviewLiveItem`](DomainAnalyticsWhoisOverviewLiveItem.md)
@@ -332,3 +349,7 @@ ___
 #### Defined in
 
 [main.ts:76157](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L76157)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

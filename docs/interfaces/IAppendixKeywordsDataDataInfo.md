@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IAppendixKeywordsDataDataInfo
 
 # Interface: IAppendixKeywordsDataDataInfo
@@ -44,6 +48,7 @@
 
 ___
 
+
 ### bing
 
 • `Optional` **bing**: [`AppendixBingKeywordsDataLimitsRatesDataInfo`](../classes/AppendixBingKeywordsDataLimitsRatesDataInfo.md)
@@ -53,6 +58,7 @@ ___
 [main.ts:208831](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L208831)
 
 ___
+
 
 ### categories
 
@@ -64,6 +70,7 @@ ___
 
 ___
 
+
 ### errors
 
 • `Optional` **errors**: `number`
@@ -73,6 +80,7 @@ ___
 [main.ts:208830](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L208830)
 
 ___
+
 
 ### explore
 
@@ -84,6 +92,7 @@ ___
 
 ___
 
+
 ### google
 
 • `Optional` **google**: [`AppendixBingKeywordsDataLimitsRatesDataInfo`](../classes/AppendixBingKeywordsDataLimitsRatesDataInfo.md)
@@ -93,6 +102,7 @@ ___
 [main.ts:208836](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L208836)
 
 ___
+
 
 ### google\_ads
 
@@ -104,6 +114,7 @@ ___
 
 ___
 
+
 ### keyword\_ideas\_ads\_api
 
 • `Optional` **keyword\_ideas\_ads\_api**: [`AppendixSerpLimitsRatesDataInfo`](../classes/AppendixSerpLimitsRatesDataInfo.md)
@@ -113,6 +124,7 @@ ___
 [main.ts:208837](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L208837)
 
 ___
+
 
 ### keyword\_performance
 
@@ -124,6 +136,7 @@ ___
 
 ___
 
+
 ### keywords\_for\_keywords
 
 • `Optional` **keywords\_for\_keywords**: [`AppendixInfo`](../classes/AppendixInfo.md)
@@ -133,6 +146,7 @@ ___
 [main.ts:208821](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L208821)
 
 ___
+
 
 ### keywords\_for\_site
 
@@ -144,6 +158,7 @@ ___
 
 ___
 
+
 ### languages
 
 • `Optional` **languages**: `number`
@@ -153,6 +168,7 @@ ___
 [main.ts:208825](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L208825)
 
 ___
+
 
 ### locations
 
@@ -164,6 +180,7 @@ ___
 
 ___
 
+
 ### naver
 
 • `Optional` **naver**: [`AppendixNaverKeywordsDataDataInfo`](../classes/AppendixNaverKeywordsDataDataInfo.md)
@@ -173,6 +190,7 @@ ___
 [main.ts:208835](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L208835)
 
 ___
+
 
 ### search\_volume
 
@@ -184,6 +202,7 @@ ___
 
 ___
 
+
 ### search\_volume\_history
 
 • `Optional` **search\_volume\_history**: [`AppendixInfo`](../classes/AppendixInfo.md)
@@ -194,6 +213,7 @@ ___
 
 ___
 
+
 ### tasks\_ready
 
 • `Optional` **tasks\_ready**: `number`
@@ -201,3 +221,7 @@ ___
 #### Defined in
 
 [main.ts:208827](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L208827)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

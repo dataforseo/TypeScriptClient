@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / ContentAnalysisCategoriesResultInfo
 
 # Class: ContentAnalysisCategoriesResultInfo
@@ -66,6 +70,7 @@ category code
 
 ___
 
+
 ### category\_code\_parent
 
 • `Optional` **category\_code\_parent**: `number`
@@ -89,6 +94,7 @@ corresponds to:
 [main.ts:155865](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L155865)
 
 ___
+
 
 ### category\_name
 
@@ -126,6 +132,7 @@ full name of the category
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -146,6 +153,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`ContentAnalysisCategoriesResultInfo`](ContentAnalysisCategoriesResultInfo.md)
@@ -163,3 +171,7 @@ ___
 #### Defined in
 
 [main.ts:155890](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L155890)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

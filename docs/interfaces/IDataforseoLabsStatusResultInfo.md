@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IDataforseoLabsStatusResultInfo
 
 # Interface: IDataforseoLabsStatusResultInfo
@@ -32,6 +36,7 @@ update information for the Amazon endpoints
 
 ___
 
+
 ### bing
 
 • `Optional` **bing**: [`DataforseoLabsStatusInfo`](../classes/DataforseoLabsStatusInfo.md)
@@ -44,6 +49,7 @@ update information for the Bing endpoints
 
 ___
 
+
 ### google
 
 • `Optional` **google**: [`DataforseoLabsStatusInfo`](../classes/DataforseoLabsStatusInfo.md)
@@ -53,3 +59,7 @@ update information for the Google endpoints
 #### Defined in
 
 [main.ts:76879](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L76879)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

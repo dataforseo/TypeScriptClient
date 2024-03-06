@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IAppendixAppDataLimitsRatesDataInfo
 
 # Interface: IAppendixAppDataLimitsRatesDataInfo
@@ -35,6 +39,7 @@
 
 ___
 
+
 ### app\_list
 
 • `Optional` **app\_list**: [`AppendixSerpLimitsRatesDataInfo`](../classes/AppendixSerpLimitsRatesDataInfo.md)
@@ -44,6 +49,7 @@ ___
 [main.ts:208301](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L208301)
 
 ___
+
 
 ### app\_reviews
 
@@ -55,6 +61,7 @@ ___
 
 ___
 
+
 ### app\_searches
 
 • `Optional` **app\_searches**: [`AppendixSerpLimitsRatesDataInfo`](../classes/AppendixSerpLimitsRatesDataInfo.md)
@@ -64,6 +71,7 @@ ___
 [main.ts:208303](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L208303)
 
 ___
+
 
 ### categories
 
@@ -75,6 +83,7 @@ ___
 
 ___
 
+
 ### errors
 
 • `Optional` **errors**: `number`
@@ -84,6 +93,7 @@ ___
 [main.ts:208304](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L208304)
 
 ___
+
 
 ### languages
 
@@ -95,6 +105,7 @@ ___
 
 ___
 
+
 ### locations
 
 • `Optional` **locations**: `number`
@@ -102,3 +113,7 @@ ___
 #### Defined in
 
 [main.ts:208306](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L208306)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

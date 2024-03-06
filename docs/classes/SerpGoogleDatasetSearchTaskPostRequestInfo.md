@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / SerpGoogleDatasetSearchTaskPostRequestInfo
 
 # Class: SerpGoogleDatasetSearchTaskPostRequestInfo
@@ -86,6 +90,7 @@ if the specified depth is higher than the number of results in the response, the
 
 ___
 
+
 ### device
 
 • `Optional` **device**: `string`
@@ -103,6 +108,7 @@ possible value: desktop
 [main.ts:49789](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L49789)
 
 ___
+
 
 ### file\_formats
 
@@ -122,6 +128,7 @@ possible values: other, archive, text, image, document, tabular
 
 ___
 
+
 ### is\_free
 
 • `Optional` **is\_free**: `boolean`
@@ -139,6 +146,7 @@ possible values: true, false
 [main.ts:49810](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L49810)
 
 ___
+
 
 ### keyword
 
@@ -161,6 +169,7 @@ if you need to use the “+” symbol for your keyword, please specify it as “
 
 ___
 
+
 ### language\_code
 
 • `Optional` **language\_code**: `string`
@@ -179,6 +188,7 @@ en
 [main.ts:49785](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L49785)
 
 ___
+
 
 ### language\_name
 
@@ -200,6 +210,7 @@ English
 
 ___
 
+
 ### last\_updated
 
 • `Optional` **last\_updated**: `string`
@@ -217,6 +228,7 @@ possible values: 1m, 1y, 3y
 [main.ts:49798](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L49798)
 
 ___
+
 
 ### os
 
@@ -236,6 +248,7 @@ default value: windows
 [main.ts:49794](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L49794)
 
 ___
+
 
 ### pingback\_url
 
@@ -261,6 +274,7 @@ i.a., the # symbol will be encoded into %23
 
 ___
 
+
 ### postback\_data
 
 • `Optional` **postback\_data**: `string`
@@ -279,6 +293,7 @@ only value: advanced
 [main.ts:49835](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L49835)
 
 ___
+
 
 ### postback\_url
 
@@ -304,6 +319,7 @@ i.a., the # symbol will be encoded into %23
 
 ___
 
+
 ### priority
 
 • `Optional` **priority**: `number`
@@ -326,6 +342,7 @@ The cost can be calculated on the Pricing page.
 
 ___
 
+
 ### tag
 
 • `Optional` **tag**: `string`
@@ -346,6 +363,7 @@ you will find the specified tag value in the data object of the response
 
 ___
 
+
 ### topics
 
 • `Optional` **topics**: `string`[]
@@ -363,6 +381,7 @@ possible values: humanities, social_sciences, life_sciences, agriculture, natura
 [main.ts:49814](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L49814)
 
 ___
+
 
 ### usage\_rights
 
@@ -402,6 +421,7 @@ possible values: commercial, noncommercial
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -422,6 +442,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`SerpGoogleDatasetSearchTaskPostRequestInfo`](SerpGoogleDatasetSearchTaskPostRequestInfo.md)
@@ -439,3 +460,7 @@ ___
 #### Defined in
 
 [main.ts:49891](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L49891)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

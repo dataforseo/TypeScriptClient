@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / PageSectionContentInfo
 
 # Class: PageSectionContentInfo
@@ -66,6 +70,7 @@ you can find more information about content priority calculation in this help ce
 
 ___
 
+
 ### secondary\_content
 
 • `Optional` **secondary\_content**: [`ContentItemInfo`](ContentItemInfo.md)[]
@@ -103,6 +108,7 @@ you can find more information about content priority calculation in this help ce
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -123,6 +129,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`PageSectionContentInfo`](PageSectionContentInfo.md)
@@ -140,3 +147,7 @@ ___
 #### Defined in
 
 [main.ts:152049](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L152049)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

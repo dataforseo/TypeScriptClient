@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IKeywordKpi
 
 # Interface: IKeywordKpi
@@ -33,6 +37,7 @@ if there is no data, then the value is null
 
 ___
 
+
 ### mobile
 
 • `Optional` **mobile**: [`KeywordKpiInfo`](../classes/KeywordKpiInfo.md)[]
@@ -46,6 +51,7 @@ if there is no data, then the value is null
 
 ___
 
+
 ### tablet
 
 • `Optional` **tablet**: [`KeywordKpiInfo`](../classes/KeywordKpiInfo.md)[]
@@ -56,3 +62,7 @@ if there is no data, then the value is null
 #### Defined in
 
 [main.ts:127334](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L127334)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

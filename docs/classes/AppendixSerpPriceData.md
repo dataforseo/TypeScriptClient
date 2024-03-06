@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / AppendixSerpPriceData
 
 # Class: AppendixSerpPriceData
@@ -71,6 +75,7 @@
 
 ___
 
+
 ### jobs
 
 • `Optional` **jobs**: [`AppendixKeywordsKeywordsDataPriceDataInfo`](AppendixKeywordsKeywordsDataPriceDataInfo.md)
@@ -84,6 +89,7 @@ ___
 [main.ts:210605](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L210605)
 
 ___
+
 
 ### languages
 
@@ -99,6 +105,7 @@ ___
 
 ___
 
+
 ### live
 
 • `Optional` **live**: [`AppendixSerpPriceDataInfo`](AppendixSerpPriceDataInfo.md)
@@ -112,6 +119,7 @@ ___
 [main.ts:210607](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L210607)
 
 ___
+
 
 ### locations
 
@@ -127,6 +135,7 @@ ___
 
 ___
 
+
 ### screenshot
 
 • `Optional` **screenshot**: [`AppendixTaskKeywordsDataPriceDataInfo`](AppendixTaskKeywordsDataPriceDataInfo.md)
@@ -140,6 +149,7 @@ ___
 [main.ts:210609](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L210609)
 
 ___
+
 
 ### task\_get
 
@@ -155,6 +165,7 @@ ___
 
 ___
 
+
 ### task\_post
 
 • `Optional` **task\_post**: [`AppendixTaskKeywordsDataPriceDataInfo`](AppendixTaskKeywordsDataPriceDataInfo.md)
@@ -169,6 +180,7 @@ ___
 
 ___
 
+
 ### tasks\_fixed
 
 • `Optional` **tasks\_fixed**: [`AppendixTaskKeywordsDataPriceDataInfo`](AppendixTaskKeywordsDataPriceDataInfo.md)
@@ -182,6 +194,7 @@ ___
 [main.ts:210603](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L210603)
 
 ___
+
 
 ### tasks\_ready
 
@@ -217,6 +230,7 @@ ___
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -237,6 +251,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`AppendixSerpPriceData`](AppendixSerpPriceData.md)
@@ -254,3 +269,7 @@ ___
 #### Defined in
 
 [main.ts:210644](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L210644)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IShortVideosElement
 
 # Interface: IShortVideosElement
@@ -34,6 +38,7 @@ domain where a link points
 
 ___
 
+
 ### source
 
 • `Optional` **source**: `string`
@@ -47,6 +52,7 @@ indicates the source of information included in the element
 
 ___
 
+
 ### title
 
 • `Optional` **title**: `string`
@@ -58,6 +64,7 @@ title of the row
 [main.ts:32682](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L32682)
 
 ___
+
 
 ### type
 
@@ -71,6 +78,7 @@ type of element
 
 ___
 
+
 ### url
 
 • `Optional` **url**: `string`
@@ -80,3 +88,7 @@ URL
 #### Defined in
 
 [main.ts:32686](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L32686)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

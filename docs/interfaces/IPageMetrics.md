@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IPageMetrics
 
 # Interface: IPageMetrics
@@ -42,6 +46,7 @@ number of broken links across all crawled pages on a target website
 
 ___
 
+
 ### broken\_resources
 
 • `Optional` **broken\_resources**: `number`
@@ -54,6 +59,7 @@ the number of images and other resources with broken links
 [main.ts:143644](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L143644)
 
 ___
+
 
 ### checks
 
@@ -71,6 +77,7 @@ page-specific on-page check-ups
 
 ___
 
+
 ### duplicate\_content
 
 • `Optional` **duplicate\_content**: `number`
@@ -82,6 +89,7 @@ number of pages with duplicate content
 [main.ts:143638](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L143638)
 
 ___
+
 
 ### duplicate\_description
 
@@ -95,6 +103,7 @@ number of pages with duplicate descriptions
 
 ___
 
+
 ### duplicate\_title
 
 • `Optional` **duplicate\_title**: `number`
@@ -106,6 +115,7 @@ number of pages with duplicate titles
 [main.ts:143634](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L143634)
 
 ___
+
 
 ### links\_external
 
@@ -120,6 +130,7 @@ the number of links pointing to other websites
 
 ___
 
+
 ### links\_internal
 
 • `Optional` **links\_internal**: `number`
@@ -132,6 +143,7 @@ the number of links pointing to other pages within the target website
 [main.ts:143632](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L143632)
 
 ___
+
 
 ### links\_relation\_conflict
 
@@ -146,6 +158,7 @@ for example, if "links_relation_conflict": 2, the target website is referring to
 
 ___
 
+
 ### non\_indexable
 
 • `Optional` **non\_indexable**: `number`
@@ -159,6 +172,7 @@ you can receive a list of non-indexable URLs using this endpoint
 [main.ts:143660](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L143660)
 
 ___
+
 
 ### onpage\_score
 
@@ -176,6 +190,7 @@ learn more about how the metric is calculated in this help center article
 
 ___
 
+
 ### redirect\_loop
 
 • `Optional` **redirect\_loop**: `number`
@@ -186,3 +201,7 @@ number of redirect chains where the destination URL redirects back to the origin
 #### Defined in
 
 [main.ts:143650](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L143650)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

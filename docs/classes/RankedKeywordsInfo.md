@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / RankedKeywordsInfo
 
 # Class: RankedKeywordsInfo
@@ -66,6 +70,7 @@ number of keywords for which the page is ranked in top 10 search results
 
 ___
 
+
 ### page\_from\_keywords\_count\_top\_100
 
 • `Optional` **page\_from\_keywords\_count\_top\_100**: `number`
@@ -81,6 +86,7 @@ number of keywords for which the page is ranked in top 100 search results
 [main.ts:130889](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L130889)
 
 ___
+
 
 ### page\_from\_keywords\_count\_top\_3
 
@@ -118,6 +124,7 @@ number of keywords for which the page is ranked in top 3 search results
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -138,6 +145,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`RankedKeywordsInfo`](RankedKeywordsInfo.md)
@@ -155,3 +163,7 @@ ___
 #### Defined in
 
 [main.ts:130914](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L130914)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

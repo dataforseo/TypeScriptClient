@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / TopStoriesElement
 
 # Class: TopStoriesElement
@@ -72,6 +76,7 @@ indicates whether an item has the Accelerated Mobile Page (AMP) version
 
 ___
 
+
 ### date
 
 • `Optional` **date**: `string`
@@ -87,6 +92,7 @@ the date when the page source of the element was published
 [main.ts:28179](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L28179)
 
 ___
+
 
 ### domain
 
@@ -104,6 +110,7 @@ domain where a link points
 
 ___
 
+
 ### source
 
 • `Optional` **source**: `string`
@@ -120,6 +127,7 @@ indicates the source of information included in the element
 [main.ts:28173](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L28173)
 
 ___
+
 
 ### timestamp
 
@@ -140,6 +148,7 @@ example:
 
 ___
 
+
 ### title
 
 • `Optional` **title**: `string`
@@ -156,6 +165,7 @@ title of the row
 
 ___
 
+
 ### type
 
 • `Optional` **type**: `string`
@@ -171,6 +181,7 @@ type of element
 [main.ts:28170](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L28170)
 
 ___
+
 
 ### url
 
@@ -208,6 +219,7 @@ URL
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -228,6 +240,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`TopStoriesElement`](TopStoriesElement.md)
@@ -245,3 +258,7 @@ ___
 #### Defined in
 
 [main.ts:28219](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L28219)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

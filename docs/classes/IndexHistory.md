@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IndexHistory
 
 # Class: IndexHistory
@@ -70,6 +74,7 @@ example:
 
 ___
 
+
 ### total\_backlinks
 
 • `Optional` **total\_backlinks**: `number`
@@ -86,6 +91,7 @@ total number of backlinks our database contained on the given date
 
 ___
 
+
 ### total\_domains
 
 • `Optional` **total\_domains**: `number`
@@ -101,6 +107,7 @@ total number of domains our database contained on the given date
 [main.ts:128948](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L128948)
 
 ___
+
 
 ### total\_pages
 
@@ -138,6 +145,7 @@ total number of pages our database contained on the given date
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -158,6 +166,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`IndexHistory`](IndexHistory.md)
@@ -175,3 +184,7 @@ ___
 #### Defined in
 
 [main.ts:128974](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L128974)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

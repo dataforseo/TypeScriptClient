@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / RecipesElement
 
 # Class: RecipesElement
@@ -71,6 +75,7 @@ description of the results element in SERP
 
 ___
 
+
 ### domain
 
 • `Optional` **domain**: `string`
@@ -87,11 +92,12 @@ domain where a link points
 
 ___
 
+
 ### rating
 
 • `Optional` **rating**: [`RatingInfo`](RatingInfo.md)
 
-the item’s rating 
+the item’s rating
 the popularity rate based on reviews and displayed in SERP
 
 #### Implementation of
@@ -103,6 +109,7 @@ the popularity rate based on reviews and displayed in SERP
 [main.ts:31434](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L31434)
 
 ___
+
 
 ### source
 
@@ -121,6 +128,7 @@ indicates the source of information included in the element
 
 ___
 
+
 ### time
 
 • `Optional` **time**: `string`
@@ -136,6 +144,7 @@ the total time it takes to prepare the cook the dish
 [main.ts:31431](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L31431)
 
 ___
+
 
 ### title
 
@@ -153,6 +162,7 @@ title of the row
 
 ___
 
+
 ### type
 
 • `Optional` **type**: `string`
@@ -168,6 +178,7 @@ type of element
 [main.ts:31418](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L31418)
 
 ___
+
 
 ### url
 
@@ -205,6 +216,7 @@ URL
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -225,6 +237,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`RecipesElement`](RecipesElement.md)
@@ -242,3 +255,7 @@ ___
 #### Defined in
 
 [main.ts:31464](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L31464)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

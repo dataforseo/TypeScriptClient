@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / BusinessDataYelpSearchTaskPostRequestInfo
 
 # Class: BusinessDataYelpSearchTaskPostRequestInfo
@@ -79,6 +83,7 @@ maximal value: 70
 
 ___
 
+
 ### keyword
 
 • `Optional` **keyword**: `string`
@@ -99,6 +104,7 @@ Note: if the keyword is not specified, the results will be returned based on the
 [main.ts:203341](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L203341)
 
 ___
+
 
 ### language\_code
 
@@ -121,6 +127,7 @@ en
 
 ___
 
+
 ### language\_name
 
 • `Optional` **language\_name**: `string`
@@ -141,6 +148,7 @@ English
 [main.ts:203370](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L203370)
 
 ___
+
 
 ### location\_code
 
@@ -163,6 +171,7 @@ example:
 
 ___
 
+
 ### location\_name
 
 • `Optional` **location\_name**: `string`
@@ -183,6 +192,7 @@ West Los Angeles,California,United States
 [main.ts:203356](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L203356)
 
 ___
+
 
 ### pingback\_url
 
@@ -208,6 +218,7 @@ i.a., the # symbol will be encoded into %23
 
 ___
 
+
 ### postback\_url
 
 • `Optional` **postback\_url**: `string`
@@ -232,6 +243,7 @@ i.a., the # symbol will be encoded into %23
 
 ___
 
+
 ### priority
 
 • `Optional` **priority**: `number`
@@ -253,6 +265,7 @@ The cost can be calculated on the Pricing page.
 [main.ts:203349](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L203349)
 
 ___
+
 
 ### sort\_by
 
@@ -276,6 +289,7 @@ default value: recommended
 [main.ts:203393](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L203393)
 
 ___
+
 
 ### tag
 
@@ -317,6 +331,7 @@ you will find the specified tag value in the data object of the response
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -337,6 +352,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`BusinessDataYelpSearchTaskPostRequestInfo`](BusinessDataYelpSearchTaskPostRequestInfo.md)
@@ -354,3 +370,7 @@ ___
 #### Defined in
 
 [main.ts:203452](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L203452)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

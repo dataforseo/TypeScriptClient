@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IDomainAnalyticsTechnologiesAggregationTechnologiesLiveResultInfo
 
 # Interface: IDomainAnalyticsTechnologiesAggregationTechnologiesLiveResultInfo
@@ -33,6 +37,7 @@ items array
 
 ___
 
+
 ### items\_count
 
 • `Optional` **items\_count**: `number`
@@ -44,6 +49,7 @@ the number of results returned in the items array
 [main.ts:72883](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L72883)
 
 ___
+
 
 ### offset
 
@@ -57,6 +63,7 @@ offset in the results array of returned domains
 
 ___
 
+
 ### total\_count
 
 • `Optional` **total\_count**: `number`
@@ -66,3 +73,7 @@ total amount of results in our database relevant to your request
 #### Defined in
 
 [main.ts:72881](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L72881)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

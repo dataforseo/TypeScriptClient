@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IAppDataAppleAppListTaskGetAdvancedResultInfo
 
 # Interface: IAppDataAppleAppListTaskGetAdvancedResultInfo
@@ -39,6 +43,7 @@ in this case, the value will be null
 
 ___
 
+
 ### datetime
 
 • `Optional` **datetime**: `string`
@@ -54,6 +59,7 @@ example:
 
 ___
 
+
 ### items
 
 • `Optional` **items**: [`BaseAppDataSerpElementItem`](../classes/BaseAppDataSerpElementItem.md)[]
@@ -66,6 +72,7 @@ you can get more results by using the depth parameter when setting a task
 [main.ts:185537](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L185537)
 
 ___
+
 
 ### items\_count
 
@@ -80,6 +87,7 @@ you can get more results by using the depth parameter when setting a task
 
 ___
 
+
 ### keyword
 
 • `Optional` **keyword**: `string`
@@ -91,6 +99,7 @@ app collection received in a POST array
 [main.ts:185515](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L185515)
 
 ___
+
 
 ### language\_code
 
@@ -104,6 +113,7 @@ language code in a POST array
 
 ___
 
+
 ### location\_code
 
 • `Optional` **location\_code**: `number`
@@ -115,6 +125,7 @@ location code in a POST array
 [main.ts:185519](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L185519)
 
 ___
+
 
 ### se\_domain
 
@@ -128,6 +139,7 @@ search engine domain in a POST array
 
 ___
 
+
 ### se\_results\_count
 
 • `Optional` **se\_results\_count**: `number`
@@ -137,3 +149,7 @@ the total number of results
 #### Defined in
 
 [main.ts:185531](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L185531)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

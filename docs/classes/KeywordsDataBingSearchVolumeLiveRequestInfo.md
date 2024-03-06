@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / KeywordsDataBingSearchVolumeLiveRequestInfo
 
 # Class: KeywordsDataBingSearchVolumeLiveRequestInfo
@@ -81,6 +85,7 @@ example:
 
 ___
 
+
 ### date\_to
 
 • `Optional` **date\_to**: `string`
@@ -105,6 +110,7 @@ example:
 
 ___
 
+
 ### device
 
 • `Optional` **device**: `string`
@@ -123,6 +129,7 @@ default value: all
 [main.ts:123164](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L123164)
 
 ___
+
 
 ### keywords
 
@@ -144,6 +151,7 @@ the specified keywords will be converted to lowercase, data will be provided in 
 
 ___
 
+
 ### language\_code
 
 • `Optional` **language\_code**: `string`
@@ -163,6 +171,7 @@ en, fr, de
 [main.ts:123159](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L123159)
 
 ___
+
 
 ### language\_name
 
@@ -184,6 +193,7 @@ English, French, German
 
 ___
 
+
 ### location\_code
 
 • `Optional` **location\_code**: `number`
@@ -204,6 +214,7 @@ example:
 [main.ts:123139](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L123139)
 
 ___
+
 
 ### location\_coordinate
 
@@ -227,6 +238,7 @@ example:
 
 ___
 
+
 ### location\_name
 
 • `Optional` **location\_name**: `string`
@@ -248,6 +260,7 @@ London,England,United Kingdom
 
 ___
 
+
 ### search\_partners
 
 • `Optional` **search\_partners**: `boolean`
@@ -267,6 +280,7 @@ default value: false – results are returned for Bing, AOL, and Yahoo search ne
 
 ___
 
+
 ### sort\_by
 
 • `Optional` **sort\_by**: `string`
@@ -285,6 +299,7 @@ default value: relevance
 [main.ts:123169](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L123169)
 
 ___
+
 
 ### tag
 
@@ -326,6 +341,7 @@ you will find the specified tag value in the data object of the response
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -346,6 +362,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`KeywordsDataBingSearchVolumeLiveRequestInfo`](KeywordsDataBingSearchVolumeLiveRequestInfo.md)
@@ -363,3 +380,7 @@ ___
 #### Defined in
 
 [main.ts:123236](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L123236)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

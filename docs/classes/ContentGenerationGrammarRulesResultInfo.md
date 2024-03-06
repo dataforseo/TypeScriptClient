@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / ContentGenerationGrammarRulesResultInfo
 
 # Class: ContentGenerationGrammarRulesResultInfo
@@ -84,6 +88,7 @@ array of rules
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -104,6 +109,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`ContentGenerationGrammarRulesResultInfo`](ContentGenerationGrammarRulesResultInfo.md)
@@ -121,3 +127,7 @@ ___
 #### Defined in
 
 [main.ts:161986](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L161986)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

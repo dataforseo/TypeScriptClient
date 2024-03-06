@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / CrawlStatusInfo
 
 # Class: CrawlStatusInfo
@@ -67,6 +71,7 @@ indicates the max_crawl_pages limit you specified when setting a task
 
 ___
 
+
 ### pages\_crawled
 
 • `Optional` **pages\_crawled**: `number`
@@ -82,6 +87,7 @@ number of crawled pages
 [main.ts:20924](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L20924)
 
 ___
+
 
 ### pages\_in\_queue
 
@@ -119,6 +125,7 @@ number of pages that are currently in the crawling queue
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -139,6 +146,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`CrawlStatusInfo`](CrawlStatusInfo.md)
@@ -156,3 +164,7 @@ ___
 #### Defined in
 
 [main.ts:20949](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L20949)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

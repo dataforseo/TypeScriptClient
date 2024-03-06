@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / SerpYoutubeVideoCommentsTaskPostRequestInfo
 
 # Class: SerpYoutubeVideoCommentsTaskPostRequestInfo
@@ -83,6 +87,7 @@ if the specified depth is higher than the number of results in the response, the
 
 ___
 
+
 ### device
 
 • `Optional` **device**: `string`
@@ -100,6 +105,7 @@ only value: desktop
 [main.ts:61088](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L61088)
 
 ___
+
 
 ### language\_code
 
@@ -122,6 +128,7 @@ en
 
 ___
 
+
 ### language\_name
 
 • `Optional` **language\_name**: `string`
@@ -142,6 +149,7 @@ English
 [main.ts:61077](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L61077)
 
 ___
+
 
 ### location\_code
 
@@ -164,6 +172,7 @@ example:
 
 ___
 
+
 ### location\_name
 
 • `Optional` **location\_name**: `string`
@@ -185,6 +194,7 @@ United States
 
 ___
 
+
 ### os
 
 • `Optional` **os**: `string`
@@ -203,6 +213,7 @@ default value: windows
 [main.ts:61093](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L61093)
 
 ___
+
 
 ### pingback\_url
 
@@ -228,6 +239,7 @@ i.a., the # symbol will be encoded into %23
 
 ___
 
+
 ### postback\_data
 
 • `Optional` **postback\_data**: `string`
@@ -247,6 +259,7 @@ advanced
 [main.ts:61124](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L61124)
 
 ___
+
 
 ### postback\_url
 
@@ -272,6 +285,7 @@ i.a., the # symbol will be encoded into %23
 
 ___
 
+
 ### priority
 
 • `Optional` **priority**: `number`
@@ -294,6 +308,7 @@ The cost can be calculated on the Pricing page.
 
 ___
 
+
 ### tag
 
 • `Optional` **tag**: `string`
@@ -313,6 +328,7 @@ you will find the specified tag value in the data object of the response
 [main.ts:61108](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L61108)
 
 ___
+
 
 ### video\_id
 
@@ -354,6 +370,7 @@ vQXvyV0zIP4
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -374,6 +391,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`SerpYoutubeVideoCommentsTaskPostRequestInfo`](SerpYoutubeVideoCommentsTaskPostRequestInfo.md)
@@ -391,3 +409,7 @@ ___
 #### Defined in
 
 [main.ts:61169](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L61169)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

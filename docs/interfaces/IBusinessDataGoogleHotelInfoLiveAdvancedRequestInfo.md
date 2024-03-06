@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IBusinessDataGoogleHotelInfoLiveAdvancedRequestInfo
 
 # Interface: IBusinessDataGoogleHotelInfoLiveAdvancedRequestInfo
@@ -45,6 +49,7 @@ example:
 
 ___
 
+
 ### check\_in
 
 • `Optional` **check\_in**: `string`
@@ -62,6 +67,7 @@ example:
 [main.ts:196740](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L196740)
 
 ___
+
 
 ### check\_out
 
@@ -82,6 +88,7 @@ example:
 
 ___
 
+
 ### children
 
 • `Optional` **children**: `string`[]
@@ -100,6 +107,7 @@ set the following value if you want to include one 13-years-old child and one 8-
 
 ___
 
+
 ### currency
 
 • `Optional` **currency**: `string`
@@ -114,6 +122,7 @@ example:
 [main.ts:196754](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L196754)
 
 ___
+
 
 ### hotel\_identifier
 
@@ -132,6 +141,7 @@ ChYIq6SB--i6p6cpGgovbS8wN2s5ODZfEAE
 
 ___
 
+
 ### language\_code
 
 • `Optional` **language\_code**: `string`
@@ -148,6 +158,7 @@ en
 [main.ts:196732](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L196732)
 
 ___
+
 
 ### language\_name
 
@@ -166,6 +177,7 @@ English
 
 ___
 
+
 ### location\_code
 
 • `Optional` **location\_code**: `number`
@@ -182,6 +194,7 @@ example:
 [main.ts:196709](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L196709)
 
 ___
+
 
 ### location\_coordinate
 
@@ -202,6 +215,7 @@ example:
 
 ___
 
+
 ### location\_name
 
 • `Optional` **location\_name**: `string`
@@ -219,6 +233,7 @@ London,England,United Kingdom
 
 ___
 
+
 ### tag
 
 • `Optional` **tag**: `string`
@@ -232,3 +247,7 @@ you will find the specified tag value in the data object of the response
 #### Defined in
 
 [main.ts:196774](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L196774)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

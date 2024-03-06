@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / ISerpYoutubeVideoInfoTaskGetAdvancedResultInfo
 
 # Interface: ISerpYoutubeVideoInfoTaskGetAdvancedResultInfo
@@ -40,6 +44,7 @@ you can use it to make sure that we provided accurate results
 
 ___
 
+
 ### datetime
 
 • `Optional` **datetime**: `string`
@@ -54,6 +59,7 @@ example:
 [main.ts:58907](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L58907)
 
 ___
+
 
 ### item\_types
 
@@ -70,6 +76,7 @@ youtube_video_info
 
 ___
 
+
 ### items
 
 • `Optional` **items**: [`BaseSerpElementItem`](../classes/BaseSerpElementItem.md)[]
@@ -81,6 +88,7 @@ elements of search results found in SERP
 [main.ts:58919](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L58919)
 
 ___
+
 
 ### items\_count
 
@@ -94,6 +102,7 @@ the number of results returned in the items array
 
 ___
 
+
 ### language\_code
 
 • `Optional` **language\_code**: `string`
@@ -105,6 +114,7 @@ language code in a POST array
 [main.ts:58899](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L58899)
 
 ___
+
 
 ### location\_code
 
@@ -118,6 +128,7 @@ location code in a POST array
 
 ___
 
+
 ### se\_domain
 
 • `Optional` **se\_domain**: `string`
@@ -129,6 +140,7 @@ search engine domain in a POST array
 [main.ts:58895](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L58895)
 
 ___
+
 
 ### spell
 
@@ -143,6 +155,7 @@ if the search engine provided results for a keyword that was corrected, we will 
 
 ___
 
+
 ### video\_id
 
 • `Optional` **video\_id**: `string`
@@ -152,3 +165,7 @@ ID of the video received in a POST array
 #### Defined in
 
 [main.ts:58893](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L58893)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

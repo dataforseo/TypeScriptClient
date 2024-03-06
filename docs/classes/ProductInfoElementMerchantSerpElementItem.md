@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / ProductInfoElementMerchantSerpElementItem
 
 # Class: ProductInfoElementMerchantSerpElementItem
@@ -5,7 +9,7 @@
 ## Hierarchy
 
 - [`BaseMerchantSerpElementItem`](BaseMerchantSerpElementItem.md)
-
+  
   ↳ **`ProductInfoElementMerchantSerpElementItem`**
 
 ## Implements
@@ -85,6 +89,7 @@
 
 ___
 
+
 ### description
 
 • `Optional` **description**: `string`
@@ -100,6 +105,7 @@ description of the product
 [main.ts:169160](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L169160)
 
 ___
+
 
 ### features
 
@@ -118,6 +124,7 @@ contains snippets with the description of product features
 
 ___
 
+
 ### images
 
 • `Optional` **images**: `string`[]
@@ -134,6 +141,7 @@ contains urls to product images
 [main.ts:169166](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L169166)
 
 ___
+
 
 ### position
 
@@ -153,6 +161,7 @@ right, left
 
 ___
 
+
 ### product\_id
 
 • `Optional` **product\_id**: `string`
@@ -169,6 +178,7 @@ ilearn more about the parameter in this help center guide
 [main.ts:169156](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L169156)
 
 ___
+
 
 ### rank\_absolute
 
@@ -187,6 +197,7 @@ absolute position among all the elements found on the product specification page
 
 ___
 
+
 ### rank\_group
 
 • `Optional` **rank\_group**: `number`
@@ -204,11 +215,12 @@ positions of elements with different type values are omitted from rank_group
 
 ___
 
+
 ### rating
 
 • `Optional` **rating**: [`RatingElement`](RatingElement.md)
 
-product rating 
+product rating
 the popularity rate based on reviews
 
 #### Implementation of
@@ -220,6 +232,7 @@ the popularity rate based on reviews
 [main.ts:169172](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L169172)
 
 ___
+
 
 ### seller\_reviews\_count
 
@@ -238,6 +251,7 @@ number of reviews on the product seller’s account
 
 ___
 
+
 ### sellers
 
 • `Optional` **sellers**: [`ProductSeller`](ProductSeller.md)[]
@@ -255,6 +269,7 @@ number of reviews on the product seller’s account
 
 ___
 
+
 ### title
 
 • `Optional` **title**: `string`
@@ -270,6 +285,7 @@ title of the product
 [main.ts:169158](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L169158)
 
 ___
+
 
 ### url
 
@@ -287,6 +303,7 @@ url of the product on Google Shopping
 [main.ts:169163](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L169163)
 
 ___
+
 
 ### variations
 
@@ -329,6 +346,7 @@ contains brief information about different product variations
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -353,6 +371,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`ProductInfoElementMerchantSerpElementItem`](ProductInfoElementMerchantSerpElementItem.md)
@@ -374,3 +393,7 @@ ___
 #### Defined in
 
 [main.ts:169229](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L169229)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

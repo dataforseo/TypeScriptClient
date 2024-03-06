@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IScholarlyArticlesSerpElementItem
 
 # Interface: IScholarlyArticlesSerpElementItem
@@ -5,7 +9,7 @@
 ## Hierarchy
 
 - [`IBaseSerpElementItem`](IBaseSerpElementItem.md)
-
+  
   ↳ **`IScholarlyArticlesSerpElementItem`**
 
 ## Implemented by
@@ -43,6 +47,7 @@ contains results featured in the ‘hotels_pack’ element of SERP
 
 ___
 
+
 ### position
 
 • `Optional` **position**: `string`
@@ -57,6 +62,7 @@ left, right
 
 ___
 
+
 ### rank\_absolute
 
 • `Optional` **rank\_absolute**: `number`
@@ -69,6 +75,7 @@ absolute position among all the elements in SERP
 [main.ts:31959](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L31959)
 
 ___
+
 
 ### rank\_group
 
@@ -84,6 +91,7 @@ positions of elements with different type values are omitted from rank_group
 
 ___
 
+
 ### rectangle
 
 • `Optional` **rectangle**: [`Rectangle`](../classes/Rectangle.md)
@@ -98,6 +106,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 ___
 
+
 ### title
 
 • `Optional` **title**: `string`
@@ -109,6 +118,7 @@ title of a given link element
 [main.ts:31967](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L31967)
 
 ___
+
 
 ### url
 
@@ -122,6 +132,7 @@ URL
 
 ___
 
+
 ### xpath
 
 • `Optional` **xpath**: `string`
@@ -131,3 +142,7 @@ the XPath of the element
 #### Defined in
 
 [main.ts:31965](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L31965)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IAppendixStatusResultInfo
 
 # Interface: IAppendixStatusResultInfo
@@ -43,6 +47,7 @@ app_data
 
 ___
 
+
 ### endpoints
 
 • `Optional` **endpoints**: [`AppendixStatusEndpointsInfo`](../classes/AppendixStatusEndpointsInfo.md)[]
@@ -54,6 +59,7 @@ array of objects that contain status information for API endpoints
 [main.ts:212861](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L212861)
 
 ___
+
 
 ### status
 
@@ -72,3 +78,7 @@ send_delay
 #### Defined in
 
 [main.ts:212859](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L212859)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

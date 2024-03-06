@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IAppendixMerchantGoogleInfo
 
 # Interface: IAppendixMerchantGoogleInfo
@@ -31,6 +35,7 @@
 
 ___
 
+
 ### product\_spec
 
 • `Optional` **product\_spec**: [`AppendixSerpLimitsRatesDataInfo`](../classes/AppendixSerpLimitsRatesDataInfo.md)
@@ -40,6 +45,7 @@ ___
 [main.ts:207546](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L207546)
 
 ___
+
 
 ### products
 
@@ -51,6 +57,7 @@ ___
 
 ___
 
+
 ### sellers
 
 • `Optional` **sellers**: [`AppendixSellersGoogleMerchantLimitsRatesDataInfo`](../classes/AppendixSellersGoogleMerchantLimitsRatesDataInfo.md)
@@ -58,3 +65,7 @@ ___
 #### Defined in
 
 [main.ts:207545](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L207545)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

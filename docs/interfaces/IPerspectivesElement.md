@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IPerspectivesElement
 
 # Interface: IPerspectivesElement
@@ -37,6 +41,7 @@ the date when the page source of the element was published
 
 ___
 
+
 ### description
 
 • `Optional` **description**: `string`
@@ -48,6 +53,7 @@ description of the results element in SERP
 [main.ts:35461](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L35461)
 
 ___
+
 
 ### domain
 
@@ -61,6 +67,7 @@ domain where a link points
 
 ___
 
+
 ### source
 
 • `Optional` **source**: `string`
@@ -73,6 +80,7 @@ indicates the source of information included in the element
 [main.ts:35470](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L35470)
 
 ___
+
 
 ### timestamp
 
@@ -89,6 +97,7 @@ example:
 
 ___
 
+
 ### title
 
 • `Optional` **title**: `string`
@@ -100,6 +109,7 @@ title of the row
 [main.ts:35459](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L35459)
 
 ___
+
 
 ### type
 
@@ -113,6 +123,7 @@ type of element
 
 ___
 
+
 ### url
 
 • `Optional` **url**: `string`
@@ -122,3 +133,7 @@ URL
 #### Defined in
 
 [main.ts:35463](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L35463)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

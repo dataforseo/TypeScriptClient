@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / ILocationChain
 
 # Interface: ILocationChain
@@ -33,6 +37,7 @@ card identifier
 
 ___
 
+
 ### cid
 
 • `Optional` **cid**: `string`
@@ -45,6 +50,7 @@ learn more about the identifier in this help center article
 [main.ts:195620](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L195620)
 
 ___
+
 
 ### feature\_id
 
@@ -59,6 +65,7 @@ learn more about the identifier in this help center article
 
 ___
 
+
 ### title
 
 • `Optional` **title**: `string`
@@ -68,3 +75,7 @@ title of the element in the location chain
 #### Defined in
 
 [main.ts:195622](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L195622)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / AnswerBoxDataforseoLabsSerpElementItem
 
 # Class: AnswerBoxDataforseoLabsSerpElementItem
@@ -5,7 +9,7 @@
 ## Hierarchy
 
 - [`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md)
-
+  
   ↳ **`AnswerBoxDataforseoLabsSerpElementItem`**
 
 ## Implements
@@ -78,6 +82,7 @@
 
 ___
 
+
 ### links
 
 • `Optional` **links**: [`LinkElement`](LinkElement.md)[]
@@ -95,6 +100,7 @@ if there are none, equals null
 [main.ts:92701](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L92701)
 
 ___
+
 
 ### position
 
@@ -114,6 +120,7 @@ left, right
 
 ___
 
+
 ### rank\_absolute
 
 • `Optional` **rank\_absolute**: `number`
@@ -130,6 +137,7 @@ absolute position among all the elements in SERP
 [main.ts:92688](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L92688)
 
 ___
+
 
 ### rank\_group
 
@@ -149,6 +157,7 @@ positions of elements with different type values are omitted from rank_group
 
 ___
 
+
 ### text
 
 • `Optional` **text**: `string`[]
@@ -165,6 +174,7 @@ if there is none, equals null
 [main.ts:92697](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L92697)
 
 ___
+
 
 ### xpath
 
@@ -206,6 +216,7 @@ the XPath of the element
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -230,6 +241,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`AnswerBoxDataforseoLabsSerpElementItem`](AnswerBoxDataforseoLabsSerpElementItem.md)
@@ -251,3 +263,7 @@ ___
 #### Defined in
 
 [main.ts:92734](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L92734)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

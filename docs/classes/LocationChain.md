@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / LocationChain
 
 # Class: LocationChain
@@ -67,6 +71,7 @@ card identifier
 
 ___
 
+
 ### cid
 
 • `Optional` **cid**: `string`
@@ -84,6 +89,7 @@ learn more about the identifier in this help center article
 
 ___
 
+
 ### feature\_id
 
 • `Optional` **feature\_id**: `string`
@@ -100,6 +106,7 @@ learn more about the identifier in this help center article
 [main.ts:195560](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L195560)
 
 ___
+
 
 ### title
 
@@ -137,6 +144,7 @@ title of the element in the location chain
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -157,6 +165,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`LocationChain`](LocationChain.md)
@@ -174,3 +183,7 @@ ___
 #### Defined in
 
 [main.ts:195591](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L195591)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

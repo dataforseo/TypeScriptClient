@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IBusinessDataGoogleHotelInfoTasksReadyResultInfo
 
 # Interface: IBusinessDataGoogleHotelInfoTasksReadyResultInfo
@@ -35,6 +39,7 @@ date when the task was posted (in the UTC format)
 
 ___
 
+
 ### endpoint\_advanced
 
 • `Optional` **endpoint\_advanced**: `string`
@@ -47,6 +52,7 @@ URL for collecting the results of the task
 
 ___
 
+
 ### endpoint\_html
 
 • `Optional` **endpoint\_html**: `string`
@@ -58,6 +64,7 @@ URL for collecting the results of the task
 [main.ts:195162](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L195162)
 
 ___
+
 
 ### id
 
@@ -72,6 +79,7 @@ unique task identifier in our system in the UUID format
 
 ___
 
+
 ### se
 
 • `Optional` **se**: `string`
@@ -85,6 +93,7 @@ can take the following values: google
 
 ___
 
+
 ### tag
 
 • `Optional` **tag**: `string`
@@ -94,3 +103,7 @@ user-defined task identifier
 #### Defined in
 
 [main.ts:195158](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L195158)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

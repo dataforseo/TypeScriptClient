@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IAppendixBusinessDataPriceData
 
 # Interface: IAppendixBusinessDataPriceData
@@ -36,6 +40,7 @@
 
 ___
 
+
 ### errors
 
 • `Optional` **errors**: [`AppendixTaskKeywordsDataPriceDataInfo`](../classes/AppendixTaskKeywordsDataPriceDataInfo.md)
@@ -45,6 +50,7 @@ ___
 [main.ts:211358](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L211358)
 
 ___
+
 
 ### google
 
@@ -56,6 +62,7 @@ ___
 
 ___
 
+
 ### languages
 
 • `Optional` **languages**: [`AppendixTaskKeywordsDataPriceDataInfo`](../classes/AppendixTaskKeywordsDataPriceDataInfo.md)
@@ -65,6 +72,7 @@ ___
 [main.ts:211361](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L211361)
 
 ___
+
 
 ### locations
 
@@ -76,6 +84,7 @@ ___
 
 ___
 
+
 ### social\_media
 
 • `Optional` **social\_media**: [`AppendixSocialMediaBusinessDataPriceData`](../classes/AppendixSocialMediaBusinessDataPriceData.md)
@@ -85,6 +94,7 @@ ___
 [main.ts:211359](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L211359)
 
 ___
+
 
 ### tripadvisor
 
@@ -96,6 +106,7 @@ ___
 
 ___
 
+
 ### trustpilot
 
 • `Optional` **trustpilot**: [`AppendixTrBusinessDataPriceDataInfo`](../classes/AppendixTrBusinessDataPriceDataInfo.md)
@@ -106,6 +117,7 @@ ___
 
 ___
 
+
 ### yelp
 
 • `Optional` **yelp**: [`AppendixTrBusinessDataPriceDataInfo`](../classes/AppendixTrBusinessDataPriceDataInfo.md)
@@ -113,3 +125,7 @@ ___
 #### Defined in
 
 [main.ts:211365](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L211365)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

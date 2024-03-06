@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / OnPagePageScreenshotResultInfo
 
 # Class: OnPagePageScreenshotResultInfo
@@ -68,6 +72,7 @@ possible values: in_progress, finished
 
 ___
 
+
 ### error\_message
 
 • `Optional` **error\_message**: `string`
@@ -86,6 +91,7 @@ if no error is encountered, the value will be null
 
 ___
 
+
 ### items
 
 • `Optional` **items**: [`ScreenshotItem`](ScreenshotItem.md)[]
@@ -101,6 +107,7 @@ items array
 [main.ts:151698](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L151698)
 
 ___
+
 
 ### items\_count
 
@@ -138,6 +145,7 @@ number of items in the results array
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -158,6 +166,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`OnPagePageScreenshotResultInfo`](OnPagePageScreenshotResultInfo.md)
@@ -175,3 +184,7 @@ ___
 #### Defined in
 
 [main.ts:151728](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L151728)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IKeywordsDataGoogleAdsKeywordsForKeywordsTaskPostRequestInfo
 
 # Interface: IKeywordsDataGoogleAdsKeywordsForKeywordsTaskPostRequestInfo
@@ -5,7 +9,7 @@
 ## Hierarchy
 
 - [`IKeywordsDataTaskRequestInfo`](IKeywordsDataTaskRequestInfo.md)
-
+  
   ↳ **`IKeywordsDataGoogleAdsKeywordsForKeywordsTaskPostRequestInfo`**
 
 ## Implemented by
@@ -60,6 +64,7 @@ if Status endpoint returns true in the actual_data field, date_from can be set t
 
 ___
 
+
 ### date\_to
 
 • `Optional` **date\_to**: `string`
@@ -82,6 +87,7 @@ example:
 
 ___
 
+
 ### include\_adult\_keywords
 
 • `Optional` **include\_adult\_keywords**: `boolean`
@@ -101,6 +107,7 @@ note that the API may return no data for such keywords due to Google Ads restr
 [main.ts:69552](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L69552)
 
 ___
+
 
 ### keywords
 
@@ -128,6 +135,7 @@ to learn more about which symbols can be used, please refer to this article
 
 ___
 
+
 ### language\_code
 
 • `Optional` **language\_code**: `string`
@@ -148,6 +156,7 @@ en
 
 ___
 
+
 ### language\_name
 
 • `Optional` **language\_name**: `string`
@@ -167,6 +176,7 @@ English
 [main.ts:69519](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L69519)
 
 ___
+
 
 ### location\_code
 
@@ -189,6 +199,7 @@ example:
 [main.ts:69504](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L69504)
 
 ___
+
 
 ### location\_coordinate
 
@@ -213,6 +224,7 @@ example:
 
 ___
 
+
 ### location\_name
 
 • `Optional` **location\_name**: `string`
@@ -234,6 +246,7 @@ London,England,United Kingdom
 [main.ts:69496](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L69496)
 
 ___
+
 
 ### pingback\_url
 
@@ -259,6 +272,7 @@ i.a., the # symbol will be encoded into %23
 
 ___
 
+
 ### postback\_url
 
 • `Optional` **postback\_url**: `string`
@@ -283,6 +297,7 @@ i.a., the # symbol will be encoded into %23
 
 ___
 
+
 ### search\_partners
 
 • `Optional` **search\_partners**: `boolean`
@@ -302,6 +317,7 @@ default value: false – results are returned for Google search sites
 
 ___
 
+
 ### sort\_by
 
 • `Optional` **sort\_by**: `string`
@@ -320,6 +336,7 @@ default value: relevance
 [main.ts:69557](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L69557)
 
 ___
+
 
 ### tag
 
@@ -341,6 +358,7 @@ you will find the specified tag value in the data array of the response
 
 ___
 
+
 ### target
 
 • `Optional` **target**: `string`
@@ -353,3 +371,7 @@ Note: if a website url is specified, you will still get keywords relevant for th
 #### Defined in
 
 [main.ts:115918](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L115918)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

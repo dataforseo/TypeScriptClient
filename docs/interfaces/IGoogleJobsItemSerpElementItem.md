@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IGoogleJobsItemSerpElementItem
 
 # Interface: IGoogleJobsItemSerpElementItem
@@ -5,7 +9,7 @@
 ## Hierarchy
 
 - [`IBaseSerpElementItem`](IBaseSerpElementItem.md)
-
+  
   ↳ **`IGoogleJobsItemSerpElementItem`**
 
 ## Implemented by
@@ -52,6 +56,7 @@ employment contract type
 
 ___
 
+
 ### employer\_image\_url
 
 • `Optional` **employer\_image\_url**: `string`
@@ -63,6 +68,7 @@ URL to the image used in the job posting
 [main.ts:49245](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L49245)
 
 ___
+
 
 ### employer\_name
 
@@ -76,6 +82,7 @@ name of the employer
 
 ___
 
+
 ### employer\_url
 
 • `Optional` **employer\_url**: `string`
@@ -87,6 +94,7 @@ URL to the employer’s website
 [main.ts:49243](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L49243)
 
 ___
+
 
 ### job\_id
 
@@ -100,6 +108,7 @@ ID of the job on Google Jobs
 
 ___
 
+
 ### location
 
 • `Optional` **location**: `string`
@@ -111,6 +120,7 @@ location for which the job vacancy is posted
 [main.ts:49247](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L49247)
 
 ___
+
 
 ### position
 
@@ -126,6 +136,7 @@ left, right
 
 ___
 
+
 ### rank\_absolute
 
 • `Optional` **rank\_absolute**: `number`
@@ -138,6 +149,7 @@ absolute position among all the elements in SERP
 [main.ts:49229](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L49229)
 
 ___
+
 
 ### rank\_group
 
@@ -153,6 +165,7 @@ positions of elements with different type values are omitted from rank_group
 
 ___
 
+
 ### rectangle
 
 • `Optional` **rectangle**: [`Rectangle`](../classes/Rectangle.md)
@@ -167,6 +180,7 @@ in this case, will equal null
 
 ___
 
+
 ### salary
 
 • `Optional` **salary**: `string`
@@ -180,6 +194,7 @@ if the salary isn’t indicated, this field will equal null
 
 ___
 
+
 ### source\_name
 
 • `Optional` **source\_name**: `string`
@@ -191,6 +206,7 @@ original source of the job vacancy
 [main.ts:49249](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L49249)
 
 ___
+
 
 ### source\_url
 
@@ -204,6 +220,7 @@ URL to the original source of the job vacancy
 
 ___
 
+
 ### time\_ago
 
 • `Optional` **time\_ago**: `string`
@@ -215,6 +232,7 @@ indicates how long ago the job vacancy was posted
 [main.ts:49263](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L49263)
 
 ___
+
 
 ### timestamp
 
@@ -231,6 +249,7 @@ example:
 
 ___
 
+
 ### title
 
 • `Optional` **title**: `string`
@@ -243,6 +262,7 @@ title of the job
 
 ___
 
+
 ### xpath
 
 • `Optional` **xpath**: `string`
@@ -252,3 +272,7 @@ the XPath of the element
 #### Defined in
 
 [main.ts:49235](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L49235)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

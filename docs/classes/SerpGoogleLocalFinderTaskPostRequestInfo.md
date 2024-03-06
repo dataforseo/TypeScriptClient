@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / SerpGoogleLocalFinderTaskPostRequestInfo
 
 # Class: SerpGoogleLocalFinderTaskPostRequestInfo
@@ -87,6 +91,7 @@ if the specified depth is higher than the number of results in the response, the
 
 ___
 
+
 ### device
 
 • `Optional` **device**: `string`
@@ -105,6 +110,7 @@ default value: desktop
 [main.ts:39692](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L39692)
 
 ___
+
 
 ### keyword
 
@@ -127,6 +133,7 @@ if you need to use the “+” symbol for your keyword, please specify it as “
 
 ___
 
+
 ### language\_code
 
 • `Optional` **language\_code**: `string`
@@ -146,6 +153,7 @@ example:en
 [main.ts:39687](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L39687)
 
 ___
+
 
 ### language\_name
 
@@ -168,6 +176,7 @@ English
 
 ___
 
+
 ### location\_code
 
 • `Optional` **location\_code**: `number`
@@ -188,6 +197,7 @@ example:
 [main.ts:39663](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L39663)
 
 ___
+
 
 ### location\_coordinate
 
@@ -214,6 +224,7 @@ example:
 
 ___
 
+
 ### location\_name
 
 • `Optional` **location\_name**: `string`
@@ -235,6 +246,7 @@ London,England,United Kingdom
 
 ___
 
+
 ### min\_rating
 
 • `Optional` **min\_rating**: `number`
@@ -253,6 +265,7 @@ possible values for mobile: 2, 2.5, 3, 3.5, 4, 4.5
 [main.ts:39714](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L39714)
 
 ___
+
 
 ### os
 
@@ -274,6 +287,7 @@ default value: android
 [main.ts:39699](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L39699)
 
 ___
+
 
 ### pingback\_url
 
@@ -299,6 +313,7 @@ i.a., the # symbol will be encoded into %23
 
 ___
 
+
 ### postback\_data
 
 • `Optional` **postback\_data**: `string`
@@ -318,6 +333,7 @@ advanced, html
 [main.ts:39745](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L39745)
 
 ___
+
 
 ### postback\_url
 
@@ -343,6 +359,7 @@ i.a., the # symbol will be encoded into %23
 
 ___
 
+
 ### priority
 
 • `Optional` **priority**: `number`
@@ -365,6 +382,7 @@ The cost can be calculated on the Pricing page.
 
 ___
 
+
 ### tag
 
 • `Optional` **tag**: `string`
@@ -384,6 +402,7 @@ you will find the specified tag value in the data object of the response
 [main.ts:39729](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L39729)
 
 ___
+
 
 ### time\_filter
 
@@ -428,6 +447,7 @@ example: "tuesday;18"
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -448,6 +468,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`SerpGoogleLocalFinderTaskPostRequestInfo`](SerpGoogleLocalFinderTaskPostRequestInfo.md)
@@ -465,3 +486,7 @@ ___
 #### Defined in
 
 [main.ts:39793](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L39793)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

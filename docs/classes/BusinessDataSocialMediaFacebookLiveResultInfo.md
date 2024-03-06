@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / BusinessDataSocialMediaFacebookLiveResultInfo
 
 # Class: BusinessDataSocialMediaFacebookLiveResultInfo
@@ -67,6 +71,7 @@ this field shows the number of likes a page received through the Facebook Like B
 
 ___
 
+
 ### page\_url
 
 • `Optional` **page\_url**: `string`
@@ -83,6 +88,7 @@ corresponding URL you specified in the targets array when setting a task
 [main.ts:205969](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L205969)
 
 ___
+
 
 ### type
 
@@ -120,6 +126,7 @@ type of element
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -140,6 +147,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`BusinessDataSocialMediaFacebookLiveResultInfo`](BusinessDataSocialMediaFacebookLiveResultInfo.md)
@@ -157,3 +165,7 @@ ___
 #### Defined in
 
 [main.ts:205997](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L205997)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

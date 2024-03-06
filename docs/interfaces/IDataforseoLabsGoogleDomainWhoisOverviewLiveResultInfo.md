@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IDataforseoLabsGoogleDomainWhoisOverviewLiveResultInfo
 
 # Interface: IDataforseoLabsGoogleDomainWhoisOverviewLiveResultInfo
@@ -33,6 +37,7 @@ contains ranking and traffic data
 
 ___
 
+
 ### items\_count
 
 • `Optional` **items\_count**: `number`
@@ -44,6 +49,7 @@ the number of results returned in the items array
 [main.ts:85897](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L85897)
 
 ___
+
 
 ### se\_type
 
@@ -57,6 +63,7 @@ search engine type
 
 ___
 
+
 ### total\_count
 
 • `Optional` **total\_count**: `number`
@@ -66,3 +73,7 @@ total amount of results in our database relevant to your request
 #### Defined in
 
 [main.ts:85895](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L85895)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

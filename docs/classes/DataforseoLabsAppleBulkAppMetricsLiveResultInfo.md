@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / DataforseoLabsAppleBulkAppMetricsLiveResultInfo
 
 # Class: DataforseoLabsAppleBulkAppMetricsLiveResultInfo
@@ -69,6 +73,7 @@ contains data related to the ranking app metrics of the specified application
 
 ___
 
+
 ### items\_count
 
 • `Optional` **items\_count**: `number`
@@ -84,6 +89,7 @@ the number of results returned in the items array
 [main.ts:110340](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L110340)
 
 ___
+
 
 ### language\_code
 
@@ -101,6 +107,7 @@ language code in a POST array
 
 ___
 
+
 ### location\_code
 
 • `Optional` **location\_code**: `number`
@@ -117,6 +124,7 @@ location code in a POST array
 
 ___
 
+
 ### se\_type
 
 • `Optional` **se\_type**: `string`
@@ -132,6 +140,7 @@ search engine type
 [main.ts:110332](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L110332)
 
 ___
+
 
 ### total\_count
 
@@ -169,6 +178,7 @@ total amount of results in our database relevant to your request
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -189,6 +199,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`DataforseoLabsAppleBulkAppMetricsLiveResultInfo`](DataforseoLabsAppleBulkAppMetricsLiveResultInfo.md)
@@ -206,3 +217,7 @@ ___
 #### Defined in
 
 [main.ts:110374](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L110374)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

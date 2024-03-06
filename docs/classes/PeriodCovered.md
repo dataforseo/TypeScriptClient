@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / PeriodCovered
 
 # Class: PeriodCovered
@@ -68,6 +72,7 @@ Mar 2, 2020 - Dec 9, 2022
 
 ___
 
+
 ### end\_date
 
 • `Optional` **end\_date**: `string`
@@ -86,6 +91,7 @@ example:
 [main.ts:50702](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L50702)
 
 ___
+
 
 ### start\_date
 
@@ -126,6 +132,7 @@ example:
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -146,6 +153,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`PeriodCovered`](PeriodCovered.md)
@@ -163,3 +171,7 @@ ___
 #### Defined in
 
 [main.ts:50731](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L50731)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

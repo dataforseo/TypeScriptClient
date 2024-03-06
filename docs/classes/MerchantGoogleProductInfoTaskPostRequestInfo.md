@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / MerchantGoogleProductInfoTaskPostRequestInfo
 
 # Class: MerchantGoogleProductInfoTaskPostRequestInfo
@@ -80,6 +84,7 @@ en
 
 ___
 
+
 ### language\_name
 
 • `Optional` **language\_name**: `string`
@@ -101,6 +106,7 @@ English
 
 ___
 
+
 ### location\_code
 
 • `Optional` **location\_code**: `number`
@@ -121,6 +127,7 @@ example:
 [main.ts:168451](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L168451)
 
 ___
+
 
 ### location\_coordinate
 
@@ -145,6 +152,7 @@ example:
 
 ___
 
+
 ### location\_name
 
 • `Optional` **location\_name**: `string`
@@ -165,6 +173,7 @@ London,England,United Kingdom
 [main.ts:168444](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L168444)
 
 ___
+
 
 ### pingback\_url
 
@@ -190,6 +199,7 @@ i.a., the # symbol will be encoded into %23
 
 ___
 
+
 ### postback\_data
 
 • `Optional` **postback\_data**: `string`
@@ -209,6 +219,7 @@ advanced, html
 [main.ts:168503](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L168503)
 
 ___
+
 
 ### postback\_url
 
@@ -234,6 +245,7 @@ i.a., the # symbol will be encoded into %23
 
 ___
 
+
 ### priority
 
 • `Optional` **priority**: `number`
@@ -256,6 +268,7 @@ The cost can be calculated on the Pricing page.
 
 ___
 
+
 ### product\_id
 
 • `Optional` **product\_id**: `string`
@@ -275,6 +288,7 @@ learn more about the parameter in this help center guide
 [main.ts:168429](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L168429)
 
 ___
+
 
 ### se\_domain
 
@@ -296,6 +310,7 @@ google.co.uk, google.com.au, google.de, etc.
 [main.ts:168481](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L168481)
 
 ___
+
 
 ### tag
 
@@ -337,6 +352,7 @@ you will find the specified tag value in the data object of the response
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -357,6 +373,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`MerchantGoogleProductInfoTaskPostRequestInfo`](MerchantGoogleProductInfoTaskPostRequestInfo.md)
@@ -374,3 +391,7 @@ ___
 #### Defined in
 
 [main.ts:168547](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L168547)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / BacklinksBacklinksLiveResultInfo
 
 # Class: BacklinksBacklinksLiveResultInfo
@@ -74,6 +78,7 @@ custom mode specified in a POST array
 
 ___
 
+
 ### items
 
 • `Optional` **items**: [`BacklinksBacklinksLiveItem`](BacklinksBacklinksLiveItem.md)[]
@@ -89,6 +94,7 @@ contains relevant backlinks and referring domains data
 [main.ts:131477](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L131477)
 
 ___
+
 
 ### items\_count
 
@@ -106,6 +112,7 @@ the number of results returned in the items array
 
 ___
 
+
 ### mode
 
 • `Optional` **mode**: `string`
@@ -121,6 +128,7 @@ mode specified in a POST array
 [main.ts:131469](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L131469)
 
 ___
+
 
 ### search\_after\_token
 
@@ -140,6 +148,7 @@ search_after_token values are unique for each subsequent task
 
 ___
 
+
 ### target
 
 • `Optional` **target**: `string`
@@ -155,6 +164,7 @@ target domain in a POST array
 [main.ts:131467](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L131467)
 
 ___
+
 
 ### total\_count
 
@@ -192,6 +202,7 @@ total amount of results relevant the request
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -212,6 +223,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`BacklinksBacklinksLiveResultInfo`](BacklinksBacklinksLiveResultInfo.md)
@@ -229,3 +241,7 @@ ___
 #### Defined in
 
 [main.ts:131520](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L131520)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

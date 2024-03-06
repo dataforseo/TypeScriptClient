@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / ImagesElement
 
 # Class: ImagesElement
@@ -67,6 +71,7 @@ alt tag of the image
 
 ___
 
+
 ### image\_url
 
 • `Optional` **image\_url**: `string`
@@ -84,6 +89,7 @@ the URL leading to the image on the original resource or DataForSEO storage (in 
 
 ___
 
+
 ### type
 
 • `Optional` **type**: `string`
@@ -99,6 +105,7 @@ type of element
 [main.ts:26868](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L26868)
 
 ___
+
 
 ### url
 
@@ -136,6 +143,7 @@ URL link
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -156,6 +164,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`ImagesElement`](ImagesElement.md)
@@ -173,3 +182,7 @@ ___
 #### Defined in
 
 [main.ts:26901](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L26901)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / LocalBusinessDeliveryServiceInfo
 
 # Class: LocalBusinessDeliveryServiceInfo
@@ -67,6 +71,7 @@ domain of the online food ordering system
 
 ___
 
+
 ### type
 
 • `Optional` **type**: `string`
@@ -82,6 +87,7 @@ type of element
 [main.ts:22380](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L22380)
 
 ___
+
 
 ### url
 
@@ -119,6 +125,7 @@ URL to place an order
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -139,6 +146,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`LocalBusinessDeliveryServiceInfo`](LocalBusinessDeliveryServiceInfo.md)
@@ -156,3 +164,7 @@ ___
 #### Defined in
 
 [main.ts:22410](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L22410)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

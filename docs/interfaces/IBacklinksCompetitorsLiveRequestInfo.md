@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IBacklinksCompetitorsLiveRequestInfo
 
 # Interface: IBacklinksCompetitorsLiveRequestInfo
@@ -40,6 +44,7 @@ default value: true
 
 ___
 
+
 ### filters
 
 • `Optional` **filters**: `any`[]
@@ -64,6 +69,7 @@ The full list of possible filters is available here.
 
 ___
 
+
 ### limit
 
 • `Optional` **limit**: `number`
@@ -78,6 +84,7 @@ maximum value: 1000
 [main.ts:136065](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L136065)
 
 ___
+
 
 ### main\_domain
 
@@ -94,6 +101,7 @@ default value: true
 
 ___
 
+
 ### offset
 
 • `Optional` **offset**: `number`
@@ -108,6 +116,7 @@ if you specify the 10 value, the first ten domains in the results array will be 
 [main.ts:136070](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L136070)
 
 ___
+
 
 ### order\_by
 
@@ -133,6 +142,7 @@ example:
 
 ___
 
+
 ### tag
 
 • `Optional` **tag**: `string`
@@ -149,6 +159,7 @@ you will find the specified tag value in the data object of the response
 
 ___
 
+
 ### target
 
 • `Optional` **target**: `string`
@@ -161,3 +172,7 @@ a page should be specified with absolute URL (including http:// or https://)
 #### Defined in
 
 [main.ts:136060](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L136060)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

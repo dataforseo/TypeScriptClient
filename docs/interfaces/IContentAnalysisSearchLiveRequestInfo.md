@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IContentAnalysisSearchLiveRequestInfo
 
 # Interface: IContentAnalysisSearchLiveRequestInfo
@@ -54,6 +58,7 @@ for more information about filters, please refer to Content Analysis API – Fil
 
 ___
 
+
 ### keyword
 
 • `Optional` **keyword**: `string`
@@ -73,6 +78,7 @@ example:
 
 ___
 
+
 ### keyword\_fields
 
 • `Optional` **keyword\_fields**: `Object`
@@ -85,8 +91,8 @@ you can indicate several fields;
 Note: to match an exact phrase instead of a stand-alone keyword, use double quotes and backslashes;
 example:
 "keyword_fields": {
-    "snippet": "\"logitech mouse\"",
-    "main_title": "sale"
+"snippet": "\"logitech mouse\"",
+"main_title": "sale"
 }
 
 #### Index signature
@@ -98,6 +104,7 @@ example:
 [main.ts:156246](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L156246)
 
 ___
+
 
 ### limit
 
@@ -114,6 +121,7 @@ maximum value: 20000
 
 ___
 
+
 ### offset
 
 • `Optional` **offset**: `number`
@@ -128,6 +136,7 @@ if you specify the 10 value, the first ten citations in the results array will b
 [main.ts:156302](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L156302)
 
 ___
+
 
 ### offset\_token
 
@@ -146,6 +155,7 @@ Note: if the offset_token is specified in the request, all other parameters exce
 [main.ts:156310](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L156310)
 
 ___
+
 
 ### order\_by
 
@@ -173,6 +183,7 @@ example:
 
 ___
 
+
 ### page\_type
 
 • `Optional` **page\_type**: `string`[]
@@ -188,6 +199,7 @@ possible values:
 [main.ts:156252](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L156252)
 
 ___
+
 
 ### search\_mode
 
@@ -206,6 +218,7 @@ default value: as_is
 
 ___
 
+
 ### tag
 
 • `Optional` **tag**: `string`
@@ -219,3 +232,7 @@ you will find the specified tag value in the data object of the response
 #### Defined in
 
 [main.ts:156316](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L156316)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

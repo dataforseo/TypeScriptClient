@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / BaseMerchantSerpElementItem
 
 # Class: BaseMerchantSerpElementItem
@@ -5,21 +9,21 @@
 ## Hierarchy
 
 - **`BaseMerchantSerpElementItem`**
-
+  
   ↳ [`GoogleShoppingSerpMerchantSerpElementItem`](GoogleShoppingSerpMerchantSerpElementItem.md)
-
+  
   ↳ [`GoogleShoppingPaidMerchantSerpElementItem`](GoogleShoppingPaidMerchantSerpElementItem.md)
-
+  
   ↳ [`GoogleShoppingSponsoredCarouselMerchantSerpElementItem`](GoogleShoppingSponsoredCarouselMerchantSerpElementItem.md)
-
+  
   ↳ [`RelatedSearchesMerchantSerpElementItem`](RelatedSearchesMerchantSerpElementItem.md)
-
+  
   ↳ [`ShopsListMerchantSerpElementItem`](ShopsListMerchantSerpElementItem.md)
-
+  
   ↳ [`BuyOnGoogleMerchantSerpElementItem`](BuyOnGoogleMerchantSerpElementItem.md)
-
+  
   ↳ [`ShoppingSpecificationMerchantSerpElementItem`](ShoppingSpecificationMerchantSerpElementItem.md)
-
+  
   ↳ [`ProductInfoElementMerchantSerpElementItem`](ProductInfoElementMerchantSerpElementItem.md)
 
 ## Implements
@@ -98,6 +102,7 @@
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -118,6 +123,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`BaseMerchantSerpElementItem`](BaseMerchantSerpElementItem.md)
@@ -135,3 +141,7 @@ ___
 #### Defined in
 
 [main.ts:20009](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L20009)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

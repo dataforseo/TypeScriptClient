@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / BusinessDataTripadvisorSearchTaskPostRequestInfo
 
 # Class: BusinessDataTripadvisorSearchTaskPostRequestInfo
@@ -76,6 +80,7 @@ maximum value: 210
 
 ___
 
+
 ### keyword
 
 • `Optional` **keyword**: `string`
@@ -97,6 +102,7 @@ if you need to use the “%” symbol for your keyword, please specify it as “
 
 ___
 
+
 ### location\_code
 
 • `Optional` **location\_code**: `number`
@@ -117,6 +123,7 @@ example:
 
 ___
 
+
 ### location\_name
 
 • `Optional` **location\_name**: `string`
@@ -136,6 +143,7 @@ London,England,United Kingdom
 [main.ts:200907](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L200907)
 
 ___
+
 
 ### pingback\_url
 
@@ -161,6 +169,7 @@ i.a., the # symbol will be encoded into %23
 
 ___
 
+
 ### postback\_url
 
 • `Optional` **postback\_url**: `string`
@@ -185,6 +194,7 @@ i.a., the # symbol will be encoded into %23
 
 ___
 
+
 ### priority
 
 • `Optional` **priority**: `number`
@@ -206,6 +216,7 @@ The cost can be calculated on the Pricing page.
 [main.ts:200921](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L200921)
 
 ___
+
 
 ### tag
 
@@ -247,6 +258,7 @@ you will find the specified tag value in the data object of the response
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -267,6 +279,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`BusinessDataTripadvisorSearchTaskPostRequestInfo`](BusinessDataTripadvisorSearchTaskPostRequestInfo.md)
@@ -284,3 +297,7 @@ ___
 #### Defined in
 
 [main.ts:200984](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L200984)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

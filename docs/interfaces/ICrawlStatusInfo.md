@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / ICrawlStatusInfo
 
 # Interface: ICrawlStatusInfo
@@ -33,6 +37,7 @@ indicates the max_crawl_pages limit you specified when setting a task
 
 ___
 
+
 ### pages\_crawled
 
 • `Optional` **pages\_crawled**: `number`
@@ -45,6 +50,7 @@ number of crawled pages
 
 ___
 
+
 ### pages\_in\_queue
 
 • `Optional` **pages\_in\_queue**: `number`
@@ -54,3 +60,7 @@ number of pages that are currently in the crawling queue
 #### Defined in
 
 [main.ts:20974](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L20974)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

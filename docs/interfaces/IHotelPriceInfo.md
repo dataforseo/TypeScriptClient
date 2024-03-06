@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IHotelPriceInfo
 
 # Interface: IHotelPriceInfo
@@ -40,6 +44,7 @@ example:
 
 ___
 
+
 ### check\_out
 
 • `Optional` **check\_out**: `string`
@@ -55,6 +60,7 @@ example:
 
 ___
 
+
 ### currency
 
 • `Optional` **currency**: `string`
@@ -68,6 +74,7 @@ USD is applied by default, unless specified in the POST array
 
 ___
 
+
 ### discount\_text
 
 • `Optional` **discount\_text**: `string`
@@ -79,6 +86,7 @@ text about a discount applied
 [main.ts:193783](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L193783)
 
 ___
+
 
 ### items
 
@@ -94,6 +102,7 @@ possible item types: hotel_search_item
 
 ___
 
+
 ### price
 
 • `Optional` **price**: `number`
@@ -105,6 +114,7 @@ price per night
 [main.ts:193776](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L193776)
 
 ___
+
 
 ### price\_without\_discount
 
@@ -118,6 +128,7 @@ full price per night without a discount applied
 
 ___
 
+
 ### visitors
 
 • `Optional` **visitors**: `number`
@@ -127,3 +138,7 @@ number of hotel visitors for this price
 #### Defined in
 
 [main.ts:193795](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L193795)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

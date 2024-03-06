@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IBusinessDataBusinessListingsAvailableFiltersResponseInfo
 
 # Interface: IBusinessDataBusinessListingsAvailableFiltersResponseInfo
@@ -5,7 +9,7 @@
 ## Hierarchy
 
 - [`IBaseResponseInfo`](IBaseResponseInfo.md)
-
+  
   ↳ **`IBusinessDataBusinessListingsAvailableFiltersResponseInfo`**
 
 ## Implemented by
@@ -47,6 +51,7 @@ total tasks cost, USD
 
 ___
 
+
 ### status\_code
 
 • `Optional` **status\_code**: `number`
@@ -63,6 +68,7 @@ you can find the full list of the response codes here
 [main.ts:22572](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L22572)
 
 ___
+
 
 ### status\_message
 
@@ -81,6 +87,7 @@ you can find the full list of general informational messages here
 
 ___
 
+
 ### tasks
 
 • `Optional` **tasks**: [`BusinessDataBusinessListingsAvailableFiltersTaskInfo`](../classes/BusinessDataBusinessListingsAvailableFiltersTaskInfo.md)[]
@@ -90,6 +97,7 @@ ___
 [main.ts:188347](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L188347)
 
 ___
+
 
 ### tasks\_count
 
@@ -107,6 +115,7 @@ the number of tasks in the tasks array
 
 ___
 
+
 ### tasks\_error
 
 • `Optional` **tasks\_error**: `number`
@@ -122,6 +131,7 @@ the number of tasks in the tasks array returned with an error
 [main.ts:22583](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L22583)
 
 ___
+
 
 ### time
 
@@ -139,6 +149,7 @@ total execution time, seconds
 
 ___
 
+
 ### version
 
 • `Optional` **version**: `string`
@@ -152,3 +163,7 @@ the current version of the API
 #### Defined in
 
 [main.ts:22569](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L22569)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

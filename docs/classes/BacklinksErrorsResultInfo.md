@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / BacklinksErrorsResultInfo
 
 # Class: BacklinksErrorsResultInfo
@@ -76,6 +80,7 @@ example:
 
 ___
 
+
 ### error\_code
 
 • `Optional` **error\_code**: `number`
@@ -91,6 +96,7 @@ error code
 [main.ts:128412](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L128412)
 
 ___
+
 
 ### error\_message
 
@@ -109,6 +115,7 @@ error message (see full list) or URL that caused an error
 
 ___
 
+
 ### function
 
 • `Optional` **function**: `string`
@@ -124,6 +131,7 @@ corresponding API function
 [main.ts:128410](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L128410)
 
 ___
+
 
 ### http\_code
 
@@ -141,6 +149,7 @@ HTTP status code
 
 ___
 
+
 ### http\_method
 
 • `Optional` **http\_method**: `string`
@@ -156,6 +165,7 @@ HTTP method
 [main.ts:128420](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L128420)
 
 ___
+
 
 ### http\_response
 
@@ -174,6 +184,7 @@ server response
 
 ___
 
+
 ### http\_time
 
 • `Optional` **http\_time**: `number`
@@ -189,6 +200,7 @@ time taken by HTTP request
 [main.ts:128424](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L128424)
 
 ___
+
 
 ### http\_url
 
@@ -206,6 +218,7 @@ URL you used for making an API call
 [main.ts:128418](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L128418)
 
 ___
+
 
 ### id
 
@@ -243,6 +256,7 @@ id of the task
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -263,6 +277,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`BacklinksErrorsResultInfo`](BacklinksErrorsResultInfo.md)
@@ -280,3 +295,7 @@ ___
 #### Defined in
 
 [main.ts:128459](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L128459)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

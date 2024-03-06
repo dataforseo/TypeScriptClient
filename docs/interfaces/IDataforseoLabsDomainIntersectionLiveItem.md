@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IDataforseoLabsDomainIntersectionLiveItem
 
 # Interface: IDataforseoLabsDomainIntersectionLiveItem
@@ -34,6 +38,7 @@ the list of supported SERP elements can be found below
 
 ___
 
+
 ### keyword\_data
 
 • `Optional` **keyword\_data**: [`KeywordData`](../classes/KeywordData.md)
@@ -45,6 +50,7 @@ keyword data for the returned keyword
 [main.ts:89093](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L89093)
 
 ___
+
 
 ### se\_type
 
@@ -58,6 +64,7 @@ search engine type
 
 ___
 
+
 ### second\_domain\_serp\_element
 
 • `Optional` **second\_domain\_serp\_element**: [`BaseDataforseoLabsSerpElementItem`](../classes/BaseDataforseoLabsSerpElementItem.md)
@@ -68,3 +75,7 @@ the list of supported SERP elements can be found below
 #### Defined in
 
 [main.ts:89099](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L89099)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

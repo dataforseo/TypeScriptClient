@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / BusinessDataGoogleReviewsTasksReadyResultInfo
 
 # Class: BusinessDataGoogleReviewsTasksReadyResultInfo
@@ -69,6 +73,7 @@ date when the task was posted (in the UTC format)
 
 ___
 
+
 ### endpoint
 
 • `Optional` **endpoint**: `string`
@@ -84,6 +89,7 @@ URL for collecting the results of the task
 [main.ts:197983](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L197983)
 
 ___
+
 
 ### id
 
@@ -102,6 +108,7 @@ unique task identifier in our system in the UUID format
 
 ___
 
+
 ### se
 
 • `Optional` **se**: `string`
@@ -119,6 +126,7 @@ can take the following values: google
 
 ___
 
+
 ### se\_type
 
 • `Optional` **se\_type**: `string`
@@ -135,6 +143,7 @@ can take the following values: reviews
 [main.ts:197977](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L197977)
 
 ___
+
 
 ### tag
 
@@ -172,6 +181,7 @@ user-defined task identifier
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -192,6 +202,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`BusinessDataGoogleReviewsTasksReadyResultInfo`](BusinessDataGoogleReviewsTasksReadyResultInfo.md)
@@ -209,3 +220,7 @@ ___
 #### Defined in
 
 [main.ts:198011](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L198011)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

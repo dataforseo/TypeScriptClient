@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / LinkElement
 
 # Class: LinkElement
@@ -70,6 +74,7 @@ description of the results element
 
 ___
 
+
 ### domain
 
 • `Optional` **domain**: `string`
@@ -85,6 +90,7 @@ domain where a link points
 [main.ts:21067](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L21067)
 
 ___
+
 
 ### snippet
 
@@ -102,6 +108,7 @@ text alongside the link title
 
 ___
 
+
 ### title
 
 • `Optional` **title**: `string`
@@ -117,6 +124,7 @@ title of a given link element
 [main.ts:21059](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L21059)
 
 ___
+
 
 ### type
 
@@ -134,6 +142,7 @@ type of element
 
 ___
 
+
 ### url
 
 • `Optional` **url**: `string`
@@ -149,6 +158,7 @@ URL
 [main.ts:21065](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L21065)
 
 ___
+
 
 ### xpath
 
@@ -186,6 +196,7 @@ the XPath of the element
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -206,6 +217,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`LinkElement`](LinkElement.md)
@@ -223,3 +235,7 @@ ___
 #### Defined in
 
 [main.ts:21098](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L21098)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

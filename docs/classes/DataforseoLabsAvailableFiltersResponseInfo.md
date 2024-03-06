@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / DataforseoLabsAvailableFiltersResponseInfo
 
 # Class: DataforseoLabsAvailableFiltersResponseInfo
@@ -5,7 +9,7 @@
 ## Hierarchy
 
 - [`BaseResponseInfo`](BaseResponseInfo.md)
-
+  
   ↳ **`DataforseoLabsAvailableFiltersResponseInfo`**
 
 ## Implements
@@ -85,6 +89,7 @@ total tasks cost, USD
 
 ___
 
+
 ### status\_code
 
 • `Optional` **status\_code**: `number`
@@ -105,6 +110,7 @@ you can find the full list of the response codes here
 [main.ts:22503](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L22503)
 
 ___
+
 
 ### status\_message
 
@@ -127,6 +133,7 @@ you can find the full list of general informational messages here
 
 ___
 
+
 ### tasks
 
 • `Optional` **tasks**: [`DataforseoLabsAvailableFiltersTaskInfo`](DataforseoLabsAvailableFiltersTaskInfo.md)[]
@@ -140,6 +147,7 @@ ___
 [main.ts:77788](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L77788)
 
 ___
+
 
 ### tasks\_count
 
@@ -161,6 +169,7 @@ the number of tasks in the tasks array
 
 ___
 
+
 ### tasks\_error
 
 • `Optional` **tasks\_error**: `number`
@@ -181,6 +190,7 @@ the number of tasks in the tasks array returned with an error
 
 ___
 
+
 ### time
 
 • `Optional` **time**: `string`
@@ -200,6 +210,7 @@ total execution time, seconds
 [main.ts:22508](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L22508)
 
 ___
+
 
 ### version
 
@@ -245,6 +256,7 @@ the current version of the API
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -269,6 +281,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`DataforseoLabsAvailableFiltersResponseInfo`](DataforseoLabsAvailableFiltersResponseInfo.md)
@@ -290,3 +303,7 @@ ___
 #### Defined in
 
 [main.ts:77811](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L77811)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

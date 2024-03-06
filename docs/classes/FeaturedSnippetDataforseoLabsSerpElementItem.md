@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / FeaturedSnippetDataforseoLabsSerpElementItem
 
 # Class: FeaturedSnippetDataforseoLabsSerpElementItem
@@ -5,7 +9,7 @@
 ## Hierarchy
 
 - [`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md)
-
+  
   ↳ **`FeaturedSnippetDataforseoLabsSerpElementItem`**
 
 ## Implements
@@ -90,6 +94,7 @@
 
 ___
 
+
 ### backlinks\_info
 
 • `Optional` **backlinks\_info**: [`AvgBacklinksInfo`](AvgBacklinksInfo.md)
@@ -105,6 +110,7 @@ backlinks information for the target website
 [main.ts:93138](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L93138)
 
 ___
+
 
 ### description
 
@@ -122,6 +128,7 @@ description of the results element in SERP
 
 ___
 
+
 ### domain
 
 • `Optional` **domain**: `string`
@@ -137,6 +144,7 @@ subdomain in SERP
 [main.ts:93109](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L93109)
 
 ___
+
 
 ### estimated\_paid\_traffic\_cost
 
@@ -155,6 +163,7 @@ learn more about how the metric is calculated in this help center article
 [main.ts:93133](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L93133)
 
 ___
+
 
 ### etv
 
@@ -175,6 +184,7 @@ learn more about how the metric is calculated in this help center article
 
 ___
 
+
 ### featured\_title
 
 • `Optional` **featured\_title**: `string`
@@ -191,6 +201,7 @@ the title of the featured snippets source page
 
 ___
 
+
 ### main\_domain
 
 • `Optional` **main\_domain**: `string`
@@ -206,6 +217,7 @@ primary domain name in SERP
 [main.ts:93122](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L93122)
 
 ___
+
 
 ### position
 
@@ -225,6 +237,7 @@ left, right
 
 ___
 
+
 ### rank\_absolute
 
 • `Optional` **rank\_absolute**: `number`
@@ -241,6 +254,7 @@ absolute position among all the elements in SERP
 [main.ts:93101](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L93101)
 
 ___
+
 
 ### rank\_changes
 
@@ -259,6 +273,7 @@ contains information about the ranking changes of the SERP element since the pre
 
 ___
 
+
 ### rank\_group
 
 • `Optional` **rank\_group**: `number`
@@ -276,6 +291,7 @@ positions of elements with different type values are omitted from rank_group
 
 ___
 
+
 ### rank\_info
 
 • `Optional` **rank\_info**: [`RankInfo`](RankInfo.md)
@@ -291,6 +307,7 @@ page and domain rank information
 [main.ts:93140](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L93140)
 
 ___
+
 
 ### relative\_url
 
@@ -308,6 +325,7 @@ URL in SERP that does not specify the HTTPs protocol and domain name
 
 ___
 
+
 ### se\_type
 
 • `Optional` **se\_type**: `string`
@@ -323,6 +341,7 @@ search engine type
 [main.ts:93095](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L93095)
 
 ___
+
 
 ### table
 
@@ -341,6 +360,7 @@ if there are none, equals null
 
 ___
 
+
 ### title
 
 • `Optional` **title**: `string`
@@ -357,6 +377,7 @@ title of the result in SERP
 
 ___
 
+
 ### url
 
 • `Optional` **url**: `string`
@@ -372,6 +393,7 @@ relevant URL in SERP
 [main.ts:93117](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L93117)
 
 ___
+
 
 ### xpath
 
@@ -413,6 +435,7 @@ the XPath of the element
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -437,6 +460,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`FeaturedSnippetDataforseoLabsSerpElementItem`](FeaturedSnippetDataforseoLabsSerpElementItem.md)
@@ -458,3 +482,7 @@ ___
 #### Defined in
 
 [main.ts:93177](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L93177)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

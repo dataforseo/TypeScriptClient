@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / ITrendsGraphDataInfo
 
 # Interface: ITrendsGraphDataInfo
@@ -35,6 +39,7 @@ in the UTC format: “yyyy-mm-dd”
 
 ___
 
+
 ### date\_to
 
 • `Optional` **date\_to**: `string`
@@ -47,6 +52,7 @@ in the UTC format: “yyyy-mm-dd”
 [main.ts:120464](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L120464)
 
 ___
+
 
 ### missing\_data
 
@@ -61,6 +67,7 @@ if true the data on the graph in the Google Trends interface is missing and thus
 
 ___
 
+
 ### timestamp
 
 • `Optional` **timestamp**: `number`
@@ -72,6 +79,7 @@ a point in time in the Unix time format
 [main.ts:120466](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L120466)
 
 ___
+
 
 ### values
 
@@ -85,3 +93,7 @@ a value of 100 is the peak popularity for the term. A value of 50 means that the
 #### Defined in
 
 [main.ts:120474](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L120474)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IMerchantGoogleProductsTaskGetAdvancedResultInfo
 
 # Interface: IMerchantGoogleProductsTaskGetAdvancedResultInfo
@@ -41,6 +45,7 @@ you can use it to make sure that we provided accurate results
 
 ___
 
+
 ### datetime
 
 • `Optional` **datetime**: `string`
@@ -55,6 +60,7 @@ example:
 [main.ts:165498](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L165498)
 
 ___
+
 
 ### item\_types
 
@@ -71,6 +77,7 @@ google_shopping_sponsored_carousel, google_shopping_paid, google_shopping_serp
 
 ___
 
+
 ### items
 
 • `Optional` **items**: [`BaseMerchantSerpElementItem`](../classes/BaseMerchantSerpElementItem.md)[]
@@ -85,6 +92,7 @@ if there are none, equals null
 
 ___
 
+
 ### items\_count
 
 • `Optional` **items\_count**: `number`
@@ -96,6 +104,7 @@ the number of results returned in the items array
 [main.ts:165508](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L165508)
 
 ___
+
 
 ### keyword
 
@@ -110,6 +119,7 @@ keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a s
 
 ___
 
+
 ### language\_code
 
 • `Optional` **language\_code**: `string`
@@ -121,6 +131,7 @@ language code in a POST array
 [main.ts:165490](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L165490)
 
 ___
+
 
 ### location\_code
 
@@ -134,6 +145,7 @@ location code in a POST array
 
 ___
 
+
 ### se\_domain
 
 • `Optional` **se\_domain**: `string`
@@ -145,6 +157,7 @@ search engine domain in a POST array
 [main.ts:165486](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L165486)
 
 ___
+
 
 ### spell
 
@@ -159,6 +172,7 @@ if the search engine provided results for a keyword that was corrected, we will 
 
 ___
 
+
 ### type
 
 • `Optional` **type**: `string`
@@ -168,3 +182,7 @@ type of element
 #### Defined in
 
 [main.ts:165484](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L165484)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IKeywordsDataGoogleTrendsExploreLiveRequestInfo
 
 # Interface: IKeywordsDataGoogleTrendsExploreLiveRequestInfo
@@ -44,6 +48,7 @@ you can receive the list of available categories with their category_code by mak
 
 ___
 
+
 ### date\_from
 
 • `Optional` **date\_from**: `string`
@@ -63,6 +68,7 @@ example:
 
 ___
 
+
 ### date\_to
 
 • `Optional` **date\_to**: `string`
@@ -79,6 +85,7 @@ example:
 [main.ts:121660](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L121660)
 
 ___
+
 
 ### item\_types
 
@@ -102,6 +109,7 @@ possible values:
 
 ___
 
+
 ### keywords
 
 • `Optional` **keywords**: `string`[]
@@ -117,6 +125,7 @@ Note: comma symbols (,) in the specified keywords will be unset and ignored
 [main.ts:121605](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L121605)
 
 ___
+
 
 ### language\_code
 
@@ -136,6 +145,7 @@ en
 
 ___
 
+
 ### language\_name
 
 • `Optional` **language\_name**: `string`
@@ -153,6 +163,7 @@ English
 [main.ts:121629](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L121629)
 
 ___
+
 
 ### location\_code
 
@@ -172,6 +183,7 @@ example:
 
 ___
 
+
 ### location\_name
 
 • `Optional` **location\_name**: `string`
@@ -190,6 +202,7 @@ United Kingdom
 
 ___
 
+
 ### tag
 
 • `Optional` **tag**: `string`
@@ -205,6 +218,7 @@ you will find the specified tag value in the data object of the response
 [main.ts:121688](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L121688)
 
 ___
+
 
 ### time\_range
 
@@ -226,6 +240,7 @@ possible values for news, youtube, images, froogle:
 
 ___
 
+
 ### type
 
 • `Optional` **type**: `string`
@@ -235,3 +250,7 @@ type of element
 #### Defined in
 
 [main.ts:121639](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L121639)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

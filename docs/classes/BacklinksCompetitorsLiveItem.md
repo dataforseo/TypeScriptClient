@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / BacklinksCompetitorsLiveItem
 
 # Class: BacklinksCompetitorsLiveItem
@@ -67,6 +71,7 @@ indicates the number of backlink intersections with the target specified in the 
 
 ___
 
+
 ### rank
 
 • `Optional` **rank**: `number`
@@ -86,6 +91,7 @@ learn more about the metric and how it is calculated in this help center article
 
 ___
 
+
 ### target
 
 • `Optional` **target**: `string`
@@ -101,6 +107,7 @@ competitor domain
 [main.ts:136123](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L136123)
 
 ___
+
 
 ### type
 
@@ -138,6 +145,7 @@ type of element
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -158,6 +166,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`BacklinksCompetitorsLiveItem`](BacklinksCompetitorsLiveItem.md)
@@ -175,3 +184,7 @@ ___
 #### Defined in
 
 [main.ts:136156](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L136156)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

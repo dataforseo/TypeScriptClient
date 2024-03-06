@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IAppendixNaverKeywordsDataDataInfo
 
 # Interface: IAppendixNaverKeywordsDataDataInfo
@@ -29,6 +33,7 @@
 
 ___
 
+
 ### search\_volume
 
 • `Optional` **search\_volume**: [`AppendixInfo`](../classes/AppendixInfo.md)
@@ -36,3 +41,7 @@ ___
 #### Defined in
 
 [main.ts:208725](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L208725)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

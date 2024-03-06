@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IKnowledgeGraphShoppingElement
 
 # Interface: IKnowledgeGraphShoppingElement
@@ -38,6 +42,7 @@ website domain
 
 ___
 
+
 ### marketplace
 
 • `Optional` **marketplace**: `string`
@@ -53,6 +58,7 @@ by Google
 
 ___
 
+
 ### marketplace\_url
 
 • `Optional` **marketplace\_url**: `string`
@@ -65,6 +71,7 @@ ecommerce site that hosts products or websites of individual sellers under the s
 [main.ts:27393](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L27393)
 
 ___
+
 
 ### price
 
@@ -79,6 +86,7 @@ contains the pricing details of the product or service featured in the result
 
 ___
 
+
 ### snippet
 
 • `Optional` **snippet**: `string`
@@ -90,6 +98,7 @@ text alongside the link title
 [main.ts:27385](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L27385)
 
 ___
+
 
 ### source
 
@@ -103,6 +112,7 @@ source of additional information about the result
 
 ___
 
+
 ### title
 
 • `Optional` **title**: `string`
@@ -114,6 +124,7 @@ title of the result in SERP
 [main.ts:27374](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L27374)
 
 ___
+
 
 ### type
 
@@ -127,6 +138,7 @@ type of element
 
 ___
 
+
 ### url
 
 • `Optional` **url**: `string`
@@ -136,3 +148,7 @@ relevant URL
 #### Defined in
 
 [main.ts:27376](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L27376)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

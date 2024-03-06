@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / ContentGenerationApi
 
 # Class: ContentGenerationApi
@@ -71,6 +75,7 @@
 
 ___
 
+
 ### http
 
 • `Private` **http**: `Object`
@@ -86,6 +91,7 @@ ___
 [main.ts:13195](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L13195)
 
 ___
+
 
 ### jsonParseReviver
 
@@ -134,6 +140,7 @@ Successful operation
 
 ___
 
+
 ### contentGenerationCheckGrammarLanguages
 
 ▸ **contentGenerationCheckGrammarLanguages**(): `Promise`\<[`ContentGenerationCheckGrammarLanguagesResponseInfo`](ContentGenerationCheckGrammarLanguagesResponseInfo.md)\>
@@ -150,6 +157,7 @@ Successful operation
 
 ___
 
+
 ### contentGenerationTextSummaryLanguages
 
 ▸ **contentGenerationTextSummaryLanguages**(): `Promise`\<[`ContentGenerationTextSummaryLanguagesResponseInfo`](ContentGenerationTextSummaryLanguagesResponseInfo.md)\>
@@ -165,6 +173,7 @@ Successful operation
 [main.ts:13575](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L13575)
 
 ___
+
 
 ### generateLive
 
@@ -188,6 +197,7 @@ Successful operation
 
 ___
 
+
 ### generateMetaTagsLive
 
 ▸ **generateMetaTagsLive**(`body`): `Promise`\<[`ContentGenerationGenerateMetaTagsLiveResponseInfo`](ContentGenerationGenerateMetaTagsLiveResponseInfo.md)\>
@@ -209,6 +219,7 @@ Successful operation
 [main.ts:13292](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L13292)
 
 ___
+
 
 ### generateSubTopicsLive
 
@@ -232,6 +243,7 @@ Successful operation
 
 ___
 
+
 ### generateTextLive
 
 ▸ **generateTextLive**(`body`): `Promise`\<[`ContentGenerationGenerateTextLiveResponseInfo`](ContentGenerationGenerateTextLiveResponseInfo.md)\>
@@ -254,6 +266,7 @@ Successful operation
 
 ___
 
+
 ### grammarRules
 
 ▸ **grammarRules**(): `Promise`\<[`ContentGenerationGrammarRulesResponseInfo`](ContentGenerationGrammarRulesResponseInfo.md)\>
@@ -269,6 +282,7 @@ Successful operation
 [main.ts:13496](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L13496)
 
 ___
+
 
 ### paraphraseLive
 
@@ -292,6 +306,7 @@ Successful operation
 
 ___
 
+
 ### processCheckGrammarLive
 
 ▸ **processCheckGrammarLive**(`response`): `Promise`\<[`ContentGenerationCheckGrammarLiveResponseInfo`](ContentGenerationCheckGrammarLiveResponseInfo.md)\>
@@ -311,6 +326,7 @@ ___
 [main.ts:13438](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L13438)
 
 ___
+
 
 ### processContentGenerationCheckGrammarLanguages
 
@@ -332,6 +348,7 @@ ___
 
 ___
 
+
 ### processContentGenerationTextSummaryLanguages
 
 ▸ **processContentGenerationTextSummaryLanguages**(`response`): `Promise`\<[`ContentGenerationTextSummaryLanguagesResponseInfo`](ContentGenerationTextSummaryLanguagesResponseInfo.md)\>
@@ -351,6 +368,7 @@ ___
 [main.ts:13591](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L13591)
 
 ___
+
 
 ### processGenerateLive
 
@@ -372,6 +390,7 @@ ___
 
 ___
 
+
 ### processGenerateMetaTagsLive
 
 ▸ **processGenerateMetaTagsLive**(`response`): `Promise`\<[`ContentGenerationGenerateMetaTagsLiveResponseInfo`](ContentGenerationGenerateMetaTagsLiveResponseInfo.md)\>
@@ -391,6 +410,7 @@ ___
 [main.ts:13312](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L13312)
 
 ___
+
 
 ### processGenerateSubTopicsLive
 
@@ -412,6 +432,7 @@ ___
 
 ___
 
+
 ### processGenerateTextLive
 
 ▸ **processGenerateTextLive**(`response`): `Promise`\<[`ContentGenerationGenerateTextLiveResponseInfo`](ContentGenerationGenerateTextLiveResponseInfo.md)\>
@@ -431,6 +452,7 @@ ___
 [main.ts:13270](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L13270)
 
 ___
+
 
 ### processGrammarRules
 
@@ -452,6 +474,7 @@ ___
 
 ___
 
+
 ### processParaphraseLive
 
 ▸ **processParaphraseLive**(`response`): `Promise`\<[`ContentGenerationParaphraseLiveResponseInfo`](ContentGenerationParaphraseLiveResponseInfo.md)\>
@@ -471,6 +494,7 @@ ___
 [main.ts:13396](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L13396)
 
 ___
+
 
 ### processTextSummaryLive
 
@@ -492,6 +516,7 @@ ___
 
 ___
 
+
 ### textSummaryLive
 
 ▸ **textSummaryLive**(`body`): `Promise`\<[`ContentGenerationTextSummaryLiveResponseInfo`](ContentGenerationTextSummaryLiveResponseInfo.md)\>
@@ -511,3 +536,7 @@ Successful operation
 #### Defined in
 
 [main.ts:13534](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L13534)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

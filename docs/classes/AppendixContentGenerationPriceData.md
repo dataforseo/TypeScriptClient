@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / AppendixContentGenerationPriceData
 
 # Class: AppendixContentGenerationPriceData
@@ -68,6 +72,7 @@
 
 ___
 
+
 ### generate
 
 • `Optional` **generate**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](AppendixKeywordBingKeywordsDataPriceDataInfo.md)
@@ -81,6 +86,7 @@ ___
 [main.ts:211508](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L211508)
 
 ___
+
 
 ### generate\_meta\_tags
 
@@ -96,6 +102,7 @@ ___
 
 ___
 
+
 ### generate\_sub\_topics
 
 • `Optional` **generate\_sub\_topics**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](AppendixKeywordBingKeywordsDataPriceDataInfo.md)
@@ -109,6 +116,7 @@ ___
 [main.ts:211510](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L211510)
 
 ___
+
 
 ### generate\_text
 
@@ -124,6 +132,7 @@ ___
 
 ___
 
+
 ### paraphrase
 
 • `Optional` **paraphrase**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](AppendixKeywordBingKeywordsDataPriceDataInfo.md)
@@ -137,6 +146,7 @@ ___
 [main.ts:211512](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L211512)
 
 ___
+
 
 ### text\_summary
 
@@ -172,6 +182,7 @@ ___
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -192,6 +203,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`AppendixContentGenerationPriceData`](AppendixContentGenerationPriceData.md)
@@ -209,3 +221,7 @@ ___
 #### Defined in
 
 [main.ts:211542](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L211542)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

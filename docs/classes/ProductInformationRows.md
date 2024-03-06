@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / ProductInformationRows
 
 # Class: ProductInformationRows
@@ -66,6 +70,7 @@ rows containing related product information
 
 ___
 
+
 ### title
 
 • `Optional` **title**: `string`
@@ -81,6 +86,7 @@ title under which related product information appears on the Amazon product page
 [main.ts:172660](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L172660)
 
 ___
+
 
 ### type
 
@@ -118,6 +124,7 @@ type of element
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -138,6 +145,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`ProductInformationRows`](ProductInformationRows.md)
@@ -155,3 +163,7 @@ ___
 #### Defined in
 
 [main.ts:172691](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L172691)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

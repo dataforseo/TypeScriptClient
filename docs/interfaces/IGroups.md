@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IGroups
 
 # Interface: IGroups
@@ -32,6 +36,7 @@ technology categories in this group
 
 ___
 
+
 ### id
 
 • `Optional` **id**: `string`
@@ -46,6 +51,7 @@ marketing, sales
 
 ___
 
+
 ### title
 
 • `Optional` **title**: `string`
@@ -55,3 +61,7 @@ title of the technology group
 #### Defined in
 
 [main.ts:72253](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L72253)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

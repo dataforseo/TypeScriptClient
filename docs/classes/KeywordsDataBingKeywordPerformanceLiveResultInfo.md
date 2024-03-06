@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / KeywordsDataBingKeywordPerformanceLiveResultInfo
 
 # Class: KeywordsDataBingKeywordPerformanceLiveResultInfo
@@ -69,6 +73,7 @@ keyword in a POST array
 
 ___
 
+
 ### keyword\_kpi
 
 • `Optional` **keyword\_kpi**: [`KeywordKpi`](KeywordKpi.md)
@@ -85,6 +90,7 @@ if there is no data, then the value is null
 [main.ts:127754](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L127754)
 
 ___
+
 
 ### language\_code
 
@@ -103,6 +109,7 @@ if there is no data, then the value is null
 
 ___
 
+
 ### location\_code
 
 • `Optional` **location\_code**: `number`
@@ -119,6 +126,7 @@ if there is no data, then the value is null
 [main.ts:127740](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L127740)
 
 ___
+
 
 ### month
 
@@ -137,6 +145,7 @@ example:
 [main.ts:127751](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L127751)
 
 ___
+
 
 ### year
 
@@ -176,6 +185,7 @@ example:
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -196,6 +206,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`KeywordsDataBingKeywordPerformanceLiveResultInfo`](KeywordsDataBingKeywordPerformanceLiveResultInfo.md)
@@ -213,3 +224,7 @@ ___
 #### Defined in
 
 [main.ts:127782](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L127782)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

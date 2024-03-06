@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IAppendixContentAnalysisLimitsRatesDataInfo
 
 # Interface: IAppendixContentAnalysisLimitsRatesDataInfo
@@ -37,6 +41,7 @@
 
 ___
 
+
 ### category\_trends
 
 • `Optional` **category\_trends**: [`AppendixInfo`](../classes/AppendixInfo.md)
@@ -46,6 +51,7 @@ ___
 [main.ts:208387](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L208387)
 
 ___
+
 
 ### errors
 
@@ -57,6 +63,7 @@ ___
 
 ___
 
+
 ### languages
 
 • `Optional` **languages**: `number`
@@ -66,6 +73,7 @@ ___
 [main.ts:208389](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L208389)
 
 ___
+
 
 ### locations
 
@@ -77,6 +85,7 @@ ___
 
 ___
 
+
 ### phrase\_trends
 
 • `Optional` **phrase\_trends**: [`AppendixInfo`](../classes/AppendixInfo.md)
@@ -86,6 +95,7 @@ ___
 [main.ts:208386](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L208386)
 
 ___
+
 
 ### rating\_distribution
 
@@ -97,6 +107,7 @@ ___
 
 ___
 
+
 ### search
 
 • `Optional` **search**: [`AppendixInfo`](../classes/AppendixInfo.md)
@@ -106,6 +117,7 @@ ___
 [main.ts:208382](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L208382)
 
 ___
+
 
 ### sentiment\_analysis
 
@@ -117,6 +129,7 @@ ___
 
 ___
 
+
 ### summary
 
 • `Optional` **summary**: [`AppendixInfo`](../classes/AppendixInfo.md)
@@ -124,3 +137,7 @@ ___
 #### Defined in
 
 [main.ts:208383](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L208383)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

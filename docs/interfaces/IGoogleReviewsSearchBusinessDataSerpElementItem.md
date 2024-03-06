@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IGoogleReviewsSearchBusinessDataSerpElementItem
 
 # Interface: IGoogleReviewsSearchBusinessDataSerpElementItem
@@ -5,7 +9,7 @@
 ## Hierarchy
 
 - [`IBaseBusinessDataSerpElementItem`](IBaseBusinessDataSerpElementItem.md)
-
+  
   ↳ **`IGoogleReviewsSearchBusinessDataSerpElementItem`**
 
 ## Implemented by
@@ -57,6 +61,7 @@ images submitted by the reviewer
 
 ___
 
+
 ### local\_guide
 
 • `Optional` **local\_guide**: `boolean`
@@ -68,6 +73,7 @@ indicates whether the reviewer has a ‘local guide’ status
 [main.ts:198345](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L198345)
 
 ___
+
 
 ### original\_owner\_answer
 
@@ -82,6 +88,7 @@ the original response to the review, no auto-translate applied
 
 ___
 
+
 ### original\_review\_text
 
 • `Optional` **original\_review\_text**: `string`
@@ -94,6 +101,7 @@ the original content of the review, no auto-translate applied
 [main.ts:198329](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L198329)
 
 ___
+
 
 ### owner\_answer
 
@@ -108,6 +116,7 @@ the owner’s response to the review
 
 ___
 
+
 ### owner\_time\_ago
 
 • `Optional` **owner\_time\_ago**: `string`
@@ -120,6 +129,7 @@ indicates the time (in the ‘time ago’ format) when the owner submitted the r
 [main.ts:198362](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L198362)
 
 ___
+
 
 ### owner\_timestamp
 
@@ -136,6 +146,7 @@ example:
 
 ___
 
+
 ### photos\_count
 
 • `Optional` **photos\_count**: `number`
@@ -147,6 +158,7 @@ total number of photos submitted by the reviewer
 [main.ts:198343](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L198343)
 
 ___
+
 
 ### position
 
@@ -161,6 +173,7 @@ can take the following values: right
 
 ___
 
+
 ### profile\_image\_url
 
 • `Optional` **profile\_image\_url**: `string`
@@ -172,6 +185,7 @@ URL of the reviewer’s profile image
 [main.ts:198353](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L198353)
 
 ___
+
 
 ### profile\_name
 
@@ -185,6 +199,7 @@ profile name of the reviewer
 
 ___
 
+
 ### profile\_url
 
 • `Optional` **profile\_url**: `string`
@@ -196,6 +211,7 @@ URL of the reviewer’s profile
 [main.ts:198349](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L198349)
 
 ___
+
 
 ### rank\_absolute
 
@@ -210,6 +226,7 @@ absolute position among all reviews on the list
 
 ___
 
+
 ### rank\_group
 
 • `Optional` **rank\_group**: `number`
@@ -223,6 +240,7 @@ positions of elements with different type values are omitted from rank_group
 
 ___
 
+
 ### rating
 
 • `Optional` **rating**: [`RatingInfo`](../classes/RatingInfo.md)
@@ -234,6 +252,7 @@ the rating score submitted by the reviewer
 [main.ts:198339](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L198339)
 
 ___
+
 
 ### review\_id
 
@@ -249,6 +268,7 @@ ChZDSUhNMG9nS0VJQ0FnSUMxbHFyMFlnEAE
 
 ___
 
+
 ### review\_text
 
 • `Optional` **review\_text**: `string`
@@ -260,6 +280,7 @@ the content of the review
 [main.ts:198326](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L198326)
 
 ___
+
 
 ### review\_url
 
@@ -273,6 +294,7 @@ the URL of the review
 
 ___
 
+
 ### reviews\_count
 
 • `Optional` **reviews\_count**: `number`
@@ -284,6 +306,7 @@ total number of reviews submitted by the reviewer
 [main.ts:198341](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L198341)
 
 ___
+
 
 ### time\_ago
 
@@ -297,6 +320,7 @@ indicates the time (in the ‘time ago’ format) when the review was listed
 [main.ts:198332](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L198332)
 
 ___
+
 
 ### timestamp
 
@@ -313,6 +337,7 @@ example:
 
 ___
 
+
 ### xpath
 
 • `Optional` **xpath**: `string`
@@ -322,3 +347,7 @@ the XPath of the review
 #### Defined in
 
 [main.ts:198324](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L198324)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / BacklinksHistoryLiveResultInfo
 
 # Class: BacklinksHistoryLiveResultInfo
@@ -71,6 +75,7 @@ example:
 
 ___
 
+
 ### date\_to
 
 • `Optional` **date\_to**: `string`
@@ -90,6 +95,7 @@ example:
 
 ___
 
+
 ### items
 
 • `Optional` **items**: [`BacklinksHistoryLiveItem`](BacklinksHistoryLiveItem.md)[]
@@ -108,6 +114,7 @@ the metrics are aggregated according to the backlinks the specified domain had o
 
 ___
 
+
 ### items\_count
 
 • `Optional` **items\_count**: `number`
@@ -123,6 +130,7 @@ the number of results returned in the items array
 [main.ts:130363](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L130363)
 
 ___
+
 
 ### target
 
@@ -160,6 +168,7 @@ target from the POST array
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -180,6 +189,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`BacklinksHistoryLiveResultInfo`](BacklinksHistoryLiveResultInfo.md)
@@ -197,3 +207,7 @@ ___
 #### Defined in
 
 [main.ts:130398](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L130398)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

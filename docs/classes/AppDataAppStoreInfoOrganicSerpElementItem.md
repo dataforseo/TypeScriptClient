@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / AppDataAppStoreInfoOrganicSerpElementItem
 
 # Class: AppDataAppStoreInfoOrganicSerpElementItem
@@ -5,7 +9,7 @@
 ## Hierarchy
 
 - [`BaseAppDataSerpElementItem`](BaseAppDataSerpElementItem.md)
-
+  
   ↳ **`AppDataAppStoreInfoOrganicSerpElementItem`**
 
 ## Implements
@@ -100,6 +104,7 @@
 
 ___
 
+
 ### advisories
 
 • `Optional` **advisories**: `string`[]
@@ -115,6 +120,7 @@ age rating and age-based content advisories
 [main.ts:184403](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L184403)
 
 ___
+
 
 ### app\_id
 
@@ -132,6 +138,7 @@ ID of the app
 
 ___
 
+
 ### categories
 
 • `Optional` **categories**: `string`[]
@@ -147,6 +154,7 @@ all relevant categories/genres of the app
 [main.ts:184399](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L184399)
 
 ___
+
 
 ### description
 
@@ -164,6 +172,7 @@ description of the app
 
 ___
 
+
 ### developer
 
 • `Optional` **developer**: `string`
@@ -179,6 +188,7 @@ name of the app developer
 [main.ts:184405](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L184405)
 
 ___
+
 
 ### developer\_id
 
@@ -196,6 +206,7 @@ ID of the app developer
 
 ___
 
+
 ### developer\_url
 
 • `Optional` **developer\_url**: `string`
@@ -212,6 +223,7 @@ URL to the developer page on App Store
 
 ___
 
+
 ### icon
 
 • `Optional` **icon**: `string`
@@ -227,6 +239,7 @@ URL to the app icon
 [main.ts:184385](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L184385)
 
 ___
+
 
 ### images
 
@@ -245,6 +258,7 @@ contains URLs to the images used on the app page on App Store
 
 ___
 
+
 ### is\_free
 
 • `Optional` **is\_free**: `boolean`
@@ -261,6 +275,7 @@ indicates whether the app is free
 
 ___
 
+
 ### languages
 
 • `Optional` **languages**: `string`[]
@@ -276,6 +291,7 @@ languages supported in the app
 [main.ts:184401](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L184401)
 
 ___
+
 
 ### last\_update\_date
 
@@ -296,6 +312,7 @@ example:
 
 ___
 
+
 ### main\_category
 
 • `Optional` **main\_category**: `string`
@@ -312,6 +329,7 @@ main category/genre of the app
 
 ___
 
+
 ### minimum\_os\_version
 
 • `Optional` **minimum\_os\_version**: `string`
@@ -327,6 +345,7 @@ minimum OS version required to install the app
 [main.ts:184413](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L184413)
 
 ___
+
 
 ### more\_apps\_by\_developer
 
@@ -345,6 +364,7 @@ information about apps built by the same developer
 
 ___
 
+
 ### position
 
 • `Optional` **position**: `string`
@@ -362,6 +382,7 @@ can take the following values: left
 
 ___
 
+
 ### price
 
 • `Optional` **price**: [`PriceInfo`](PriceInfo.md)
@@ -377,6 +398,7 @@ price of the app
 [main.ts:184393](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L184393)
 
 ___
+
 
 ### rank\_absolute
 
@@ -395,6 +417,7 @@ absolute position among all apps on the list
 
 ___
 
+
 ### rank\_group
 
 • `Optional` **rank\_group**: `number`
@@ -412,6 +435,7 @@ positions of elements with different type values are omitted from rank_group
 
 ___
 
+
 ### rating
 
 • `Optional` **rating**: [`RatingInfo`](RatingInfo.md)
@@ -427,6 +451,7 @@ average rating of the app
 [main.ts:184391](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L184391)
 
 ___
+
 
 ### released\_date
 
@@ -447,6 +472,7 @@ example:
 
 ___
 
+
 ### reviews\_count
 
 • `Optional` **reviews\_count**: `number`
@@ -462,6 +488,7 @@ the total number of reviews of the app
 [main.ts:184389](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L184389)
 
 ___
+
 
 ### similar\_apps
 
@@ -480,6 +507,7 @@ displays apps similar to the app in a POST request
 
 ___
 
+
 ### size
 
 • `Optional` **size**: `string`
@@ -496,6 +524,7 @@ size of the app
 
 ___
 
+
 ### title
 
 • `Optional` **title**: `string`
@@ -511,6 +540,7 @@ title of the app
 [main.ts:184381](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L184381)
 
 ___
+
 
 ### update\_notes
 
@@ -529,6 +559,7 @@ contains the latest update notes from the developer
 
 ___
 
+
 ### url
 
 • `Optional` **url**: `string`
@@ -544,6 +575,7 @@ URL to the app page on App Store
 [main.ts:184383](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L184383)
 
 ___
+
 
 ### version
 
@@ -585,6 +617,7 @@ current version of the app
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -609,6 +642,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`AppDataAppStoreInfoOrganicSerpElementItem`](AppDataAppStoreInfoOrganicSerpElementItem.md)
@@ -630,3 +664,7 @@ ___
 #### Defined in
 
 [main.ts:184508](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L184508)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

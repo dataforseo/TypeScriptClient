@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / AppDataGooglePlayReviewsSearchSerpElementItem
 
 # Class: AppDataGooglePlayReviewsSearchSerpElementItem
@@ -5,7 +9,7 @@
 ## Hierarchy
 
 - [`BaseAppDataSerpElementItem`](BaseAppDataSerpElementItem.md)
-
+  
   ↳ **`AppDataGooglePlayReviewsSearchSerpElementItem`**
 
 ## Implements
@@ -84,6 +88,7 @@
 
 ___
 
+
 ### helpful\_count
 
 • `Optional` **helpful\_count**: `number`
@@ -101,6 +106,7 @@ indicates how many users considered the review helpful and voted with the thumbs
 
 ___
 
+
 ### id
 
 • `Optional` **id**: `string`
@@ -116,6 +122,7 @@ id of the review
 [main.ts:181307](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L181307)
 
 ___
+
 
 ### position
 
@@ -134,6 +141,7 @@ can take the following values: left
 
 ___
 
+
 ### rank\_absolute
 
 • `Optional` **rank\_absolute**: `number`
@@ -150,6 +158,7 @@ absolute position among all reviews on the list
 [main.ts:181292](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L181292)
 
 ___
+
 
 ### rank\_group
 
@@ -168,6 +177,7 @@ positions of elements with different type values are omitted from rank_group
 
 ___
 
+
 ### rating
 
 • `Optional` **rating**: [`RatingInfo`](RatingInfo.md)
@@ -183,6 +193,7 @@ the rating score submitted by the reviewer
 [main.ts:181300](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L181300)
 
 ___
+
 
 ### responses
 
@@ -200,6 +211,7 @@ response from the developer
 
 ___
 
+
 ### review\_text
 
 • `Optional` **review\_text**: `string`
@@ -215,6 +227,7 @@ content of the review
 [main.ts:181315](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L181315)
 
 ___
+
 
 ### timestamp
 
@@ -235,6 +248,7 @@ example:
 
 ___
 
+
 ### title
 
 • `Optional` **title**: `string`
@@ -252,6 +266,7 @@ Google Play doesn’t provide an option to title reviews, so this parameter will
 
 ___
 
+
 ### user\_profile
 
 • `Optional` **user\_profile**: [`AppUserProfileInfo`](AppUserProfileInfo.md)
@@ -267,6 +282,7 @@ user profile of the reviewer
 [main.ts:181317](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L181317)
 
 ___
+
 
 ### version
 
@@ -309,6 +325,7 @@ version of the app for which the review is submitted
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -333,6 +350,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`AppDataGooglePlayReviewsSearchSerpElementItem`](AppDataGooglePlayReviewsSearchSerpElementItem.md)
@@ -354,3 +372,7 @@ ___
 #### Defined in
 
 [main.ts:181354](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L181354)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / SerpGoogleDatasetInfoTaskPostRequestInfo
 
 # Class: SerpGoogleDatasetInfoTaskPostRequestInfo
@@ -77,6 +81,7 @@ L2cvMTFqbl85ZHN6MQ==
 
 ___
 
+
 ### device
 
 • `Optional` **device**: `string`
@@ -94,6 +99,7 @@ possible value: desktop
 [main.ts:51810](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L51810)
 
 ___
+
 
 ### language\_code
 
@@ -115,6 +121,7 @@ en
 
 ___
 
+
 ### language\_name
 
 • `Optional` **language\_name**: `string`
@@ -135,6 +142,7 @@ English
 
 ___
 
+
 ### os
 
 • `Optional` **os**: `string`
@@ -153,6 +161,7 @@ default value: windows
 [main.ts:51815](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L51815)
 
 ___
+
 
 ### pingback\_url
 
@@ -178,6 +187,7 @@ i.a., the # symbol will be encoded into %23
 
 ___
 
+
 ### postback\_data
 
 • `Optional` **postback\_data**: `string`
@@ -196,6 +206,7 @@ possible value: advanced
 [main.ts:51836](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L51836)
 
 ___
+
 
 ### postback\_url
 
@@ -221,6 +232,7 @@ i.a., the # symbol will be encoded into %23
 
 ___
 
+
 ### priority
 
 • `Optional` **priority**: `number`
@@ -242,6 +254,7 @@ The cost can be calculated on the Pricing page.
 [main.ts:51794](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L51794)
 
 ___
+
 
 ### tag
 
@@ -283,6 +296,7 @@ you will find the specified tag value in the data object of the response
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -303,6 +317,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`SerpGoogleDatasetInfoTaskPostRequestInfo`](SerpGoogleDatasetInfoTaskPostRequestInfo.md)
@@ -320,3 +335,7 @@ ___
 #### Defined in
 
 [main.ts:51878](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L51878)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

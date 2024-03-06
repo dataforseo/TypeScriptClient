@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / ContentGenerationGenerateSubTopicsLiveRequestInfo
 
 # Class: ContentGenerationGenerateSubTopicsLiveRequestInfo
@@ -71,6 +75,7 @@ learn more about this parameter on our help center
 
 ___
 
+
 ### tag
 
 • `Optional` **tag**: `string`
@@ -90,6 +95,7 @@ you will find the specified tag value in the data object of the response
 [main.ts:160859](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L160859)
 
 ___
+
 
 ### topic
 
@@ -130,6 +136,7 @@ can contain from 1 to 50 tokens
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -150,6 +157,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`ContentGenerationGenerateSubTopicsLiveRequestInfo`](ContentGenerationGenerateSubTopicsLiveRequestInfo.md)
@@ -167,3 +175,7 @@ ___
 #### Defined in
 
 [main.ts:160884](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L160884)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

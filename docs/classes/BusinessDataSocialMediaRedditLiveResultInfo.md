@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / BusinessDataSocialMediaRedditLiveResultInfo
 
 # Class: BusinessDataSocialMediaRedditLiveResultInfo
@@ -67,6 +71,7 @@ corresponding URL you specified in the targets array when setting a task
 
 ___
 
+
 ### reddit\_reviews
 
 • `Optional` **reddit\_reviews**: [`RedditReviews`](RedditReviews.md)[]
@@ -82,6 +87,7 @@ reddit reviews for the page_url
 [main.ts:206305](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L206305)
 
 ___
+
 
 ### type
 
@@ -119,6 +125,7 @@ type of element
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -139,6 +146,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`BusinessDataSocialMediaRedditLiveResultInfo`](BusinessDataSocialMediaRedditLiveResultInfo.md)
@@ -156,3 +164,7 @@ ___
 #### Defined in
 
 [main.ts:206334](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L206334)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

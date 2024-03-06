@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IGooglePostsSerpElementItem
 
 # Interface: IGooglePostsSerpElementItem
@@ -5,7 +9,7 @@
 ## Hierarchy
 
 - [`IBaseSerpElementItem`](IBaseSerpElementItem.md)
-
+  
   ↳ **`IGooglePostsSerpElementItem`**
 
 ## Implemented by
@@ -43,6 +47,7 @@ google-defined client id
 
 ___
 
+
 ### feature
 
 • `Optional` **feature**: `string`
@@ -54,6 +59,7 @@ the additional feature of the review
 [main.ts:34399](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L34399)
 
 ___
+
 
 ### position
 
@@ -69,6 +75,7 @@ left, right
 
 ___
 
+
 ### posts\_id
 
 • `Optional` **posts\_id**: `string`
@@ -80,6 +87,7 @@ the identifier of the google_posts feature
 [main.ts:34397](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L34397)
 
 ___
+
 
 ### rank\_absolute
 
@@ -93,6 +101,7 @@ absolute position among all the elements in SERP
 [main.ts:34389](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L34389)
 
 ___
+
 
 ### rank\_group
 
@@ -108,6 +117,7 @@ positions of elements with different type values are omitted from rank_group
 
 ___
 
+
 ### rectangle
 
 • `Optional` **rectangle**: [`Rectangle`](../classes/Rectangle.md)
@@ -122,6 +132,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 ___
 
+
 ### xpath
 
 • `Optional` **xpath**: `string`
@@ -131,3 +142,7 @@ the XPath of the element
 #### Defined in
 
 [main.ts:34395](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L34395)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

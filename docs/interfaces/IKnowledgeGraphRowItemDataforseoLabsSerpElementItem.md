@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IKnowledgeGraphRowItemDataforseoLabsSerpElementItem
 
 # Interface: IKnowledgeGraphRowItemDataforseoLabsSerpElementItem
@@ -5,7 +9,7 @@
 ## Hierarchy
 
 - [`IBaseDataforseoLabsSerpElementItem`](IBaseDataforseoLabsSerpElementItem.md)
-
+  
   ↳ **`IKnowledgeGraphRowItemDataforseoLabsSerpElementItem`**
 
 ## Implemented by
@@ -45,6 +49,7 @@ action:listen_artist
 
 ___
 
+
 ### links
 
 • `Optional` **links**: [`LinkElement`](../classes/LinkElement.md)[]
@@ -58,6 +63,7 @@ if there are none, equals null
 [main.ts:91827](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L91827)
 
 ___
+
 
 ### position
 
@@ -73,6 +79,7 @@ left, right
 
 ___
 
+
 ### rank\_absolute
 
 • `Optional` **rank\_absolute**: `number`
@@ -85,6 +92,7 @@ absolute position among all the elements in SERP
 [main.ts:91809](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L91809)
 
 ___
+
 
 ### rank\_group
 
@@ -100,6 +108,7 @@ positions of elements with different type values are omitted from rank_group
 
 ___
 
+
 ### text
 
 • `Optional` **text**: `string`
@@ -111,6 +120,7 @@ row content
 [main.ts:91823](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L91823)
 
 ___
+
 
 ### title
 
@@ -124,6 +134,7 @@ title of the item
 
 ___
 
+
 ### xpath
 
 • `Optional` **xpath**: `string`
@@ -133,3 +144,7 @@ the XPath of the element
 #### Defined in
 
 [main.ts:91815](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L91815)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

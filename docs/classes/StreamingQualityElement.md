@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / StreamingQualityElement
 
 # Class: StreamingQualityElement
@@ -70,6 +74,7 @@ bit rate of the video
 
 ___
 
+
 ### fps
 
 • `Optional` **fps**: `number`
@@ -85,6 +90,7 @@ frame rate of the video
 [main.ts:58508](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L58508)
 
 ___
+
 
 ### height
 
@@ -102,6 +108,7 @@ video height in pixels
 
 ___
 
+
 ### label
 
 • `Optional` **label**: `string`
@@ -117,6 +124,7 @@ label of the quality element
 [main.ts:58498](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L58498)
 
 ___
+
 
 ### mime\_type
 
@@ -134,6 +142,7 @@ media type of the video
 
 ___
 
+
 ### type
 
 • `Optional` **type**: `string`
@@ -149,6 +158,7 @@ type of element
 [main.ts:58496](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L58496)
 
 ___
+
 
 ### width
 
@@ -186,6 +196,7 @@ video width in pixels
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -206,6 +217,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`StreamingQualityElement`](StreamingQualityElement.md)
@@ -223,3 +235,7 @@ ___
 #### Defined in
 
 [main.ts:58537](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L58537)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

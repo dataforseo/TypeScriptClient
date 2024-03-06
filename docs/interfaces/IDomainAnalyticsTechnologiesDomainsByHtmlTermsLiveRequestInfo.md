@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IDomainAnalyticsTechnologiesDomainsByHtmlTermsLiveRequestInfo
 
 # Interface: IDomainAnalyticsTechnologiesDomainsByHtmlTermsLiveRequestInfo
@@ -52,6 +56,7 @@ for more information about filters, please refer to Domain Analytics Technologie
 
 ___
 
+
 ### keywords
 
 • `Optional` **keywords**: `string`[]
@@ -70,6 +75,7 @@ example:
 
 ___
 
+
 ### limit
 
 • `Optional` **limit**: `number`
@@ -84,6 +90,7 @@ maximum value: 10000
 [main.ts:74842](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L74842)
 
 ___
+
 
 ### mode
 
@@ -102,6 +109,7 @@ default value: entry
 
 ___
 
+
 ### offset
 
 • `Optional` **offset**: `number`
@@ -118,6 +126,7 @@ use the offset_token if you would like to offset more results
 [main.ts:74849](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L74849)
 
 ___
+
 
 ### offset\_token
 
@@ -136,6 +145,7 @@ Note: if the offset_token is specified in the request, all other parameters shou
 [main.ts:74857](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L74857)
 
 ___
+
 
 ### order\_by
 
@@ -164,6 +174,7 @@ example:
 
 ___
 
+
 ### search\_terms
 
 • `Optional` **search\_terms**: `string`[]
@@ -179,3 +190,7 @@ example:
 #### Defined in
 
 [main.ts:74788](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L74788)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

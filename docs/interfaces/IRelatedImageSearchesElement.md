@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IRelatedImageSearchesElement
 
 # Interface: IRelatedImageSearchesElement
@@ -34,6 +38,7 @@ alt tag of the image
 
 ___
 
+
 ### image\_url
 
 • `Optional` **image\_url**: `string`
@@ -47,6 +52,7 @@ the URL leading to the image on the original resource or DataForSEO storage (in 
 
 ___
 
+
 ### title
 
 • `Optional` **title**: `string`
@@ -58,6 +64,7 @@ title of the carousel item
 [main.ts:28842](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L28842)
 
 ___
+
 
 ### type
 
@@ -71,6 +78,7 @@ type of element
 
 ___
 
+
 ### url
 
 • `Optional` **url**: `string`
@@ -80,3 +88,7 @@ source URL
 #### Defined in
 
 [main.ts:28846](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L28846)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

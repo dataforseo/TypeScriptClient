@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IHotelInfoPriceOffer
 
 # Interface: IHotelInfoPriceOffer
@@ -40,6 +44,7 @@ USD is applied by default, unless specified in the POST array
 
 ___
 
+
 ### free\_cancellation\_until
 
 • `Optional` **free\_cancellation\_until**: `string`
@@ -54,6 +59,7 @@ equals null if free cancellation is not available for the selected dates
 
 ___
 
+
 ### max\_visitors
 
 • `Optional` **max\_visitors**: `number`
@@ -66,6 +72,7 @@ the maximum number of visitors for which the price offer is valid
 [main.ts:193554](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L193554)
 
 ___
+
 
 ### offer\_images
 
@@ -80,6 +87,7 @@ URLs of the images featured in the price offer
 
 ___
 
+
 ### price
 
 • `Optional` **price**: `number`
@@ -91,6 +99,7 @@ price per night
 [main.ts:193545](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L193545)
 
 ___
+
 
 ### title
 
@@ -104,6 +113,7 @@ title of the hotel
 
 ___
 
+
 ### type
 
 • `Optional` **type**: `string`
@@ -116,6 +126,7 @@ type of element
 
 ___
 
+
 ### url
 
 • `Optional` **url**: `string`
@@ -126,3 +137,7 @@ URL to the page of the website where price offer appears
 #### Defined in
 
 [main.ts:193551](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L193551)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

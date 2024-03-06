@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IDataforseoLabsGoogleTopSearchesLiveRequestInfo
 
 # Interface: IDataforseoLabsGoogleTopSearchesLiveRequestInfo
@@ -58,6 +62,7 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 ___
 
+
 ### ignore\_synonyms
 
 • `Optional` **ignore\_synonyms**: `boolean`
@@ -73,6 +78,7 @@ default value: false
 
 ___
 
+
 ### include\_serp\_info
 
 • `Optional` **include\_serp\_info**: `boolean`
@@ -87,6 +93,7 @@ default value: false
 [main.ts:85194](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L85194)
 
 ___
+
 
 ### language\_code
 
@@ -106,6 +113,7 @@ en
 
 ___
 
+
 ### language\_name
 
 • `Optional` **language\_name**: `string`
@@ -124,6 +132,7 @@ English
 
 ___
 
+
 ### limit
 
 • `Optional` **limit**: `number`
@@ -139,6 +148,7 @@ maximum value: 1000
 [main.ts:85246](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L85246)
 
 ___
+
 
 ### location\_code
 
@@ -158,6 +168,7 @@ example:
 
 ___
 
+
 ### location\_name
 
 • `Optional` **location\_name**: `string`
@@ -176,6 +187,7 @@ United Kingdom
 
 ___
 
+
 ### offset
 
 • `Optional` **offset**: `number`
@@ -190,6 +202,7 @@ if you specify the 10 value, the first ten keywords in the results array will be
 [main.ts:85251](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L85251)
 
 ___
+
 
 ### offset\_token
 
@@ -208,6 +221,7 @@ Note: if the offset_token is specified in the request, all other parameters exce
 [main.ts:85259](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L85259)
 
 ___
+
 
 ### order\_by
 
@@ -235,6 +249,7 @@ example:
 
 ___
 
+
 ### tag
 
 • `Optional` **tag**: `string`
@@ -248,3 +263,7 @@ you will find the specified tag value in the data object of the response
 #### Defined in
 
 [main.ts:85240](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L85240)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

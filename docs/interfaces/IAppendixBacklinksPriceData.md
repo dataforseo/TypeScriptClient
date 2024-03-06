@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IAppendixBacklinksPriceData
 
 # Interface: IAppendixBacklinksPriceData
@@ -47,6 +51,7 @@
 
 ___
 
+
 ### backlinks
 
 • `Optional` **backlinks**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](../classes/AppendixKeywordBingKeywordsDataPriceDataInfo.md)
@@ -56,6 +61,7 @@ ___
 [main.ts:210915](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L210915)
 
 ___
+
 
 ### bulk\_backlinks
 
@@ -67,6 +73,7 @@ ___
 
 ___
 
+
 ### bulk\_new\_lost\_backlinks
 
 • `Optional` **bulk\_new\_lost\_backlinks**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](../classes/AppendixKeywordBingKeywordsDataPriceDataInfo.md)
@@ -76,6 +83,7 @@ ___
 [main.ts:210917](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L210917)
 
 ___
+
 
 ### bulk\_new\_lost\_referring\_domains
 
@@ -87,6 +95,7 @@ ___
 
 ___
 
+
 ### bulk\_ranks
 
 • `Optional` **bulk\_ranks**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](../classes/AppendixKeywordBingKeywordsDataPriceDataInfo.md)
@@ -96,6 +105,7 @@ ___
 [main.ts:210919](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L210919)
 
 ___
+
 
 ### bulk\_referring\_domains
 
@@ -107,6 +117,7 @@ ___
 
 ___
 
+
 ### competitors
 
 • `Optional` **competitors**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](../classes/AppendixKeywordBingKeywordsDataPriceDataInfo.md)
@@ -116,6 +127,7 @@ ___
 [main.ts:210921](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L210921)
 
 ___
+
 
 ### content\_duplicates
 
@@ -127,6 +139,7 @@ ___
 
 ___
 
+
 ### domain\_intersection
 
 • `Optional` **domain\_intersection**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](../classes/AppendixKeywordBingKeywordsDataPriceDataInfo.md)
@@ -136,6 +149,7 @@ ___
 [main.ts:210923](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L210923)
 
 ___
+
 
 ### domain\_pages
 
@@ -147,6 +161,7 @@ ___
 
 ___
 
+
 ### domain\_pages\_summary
 
 • `Optional` **domain\_pages\_summary**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](../classes/AppendixKeywordBingKeywordsDataPriceDataInfo.md)
@@ -156,6 +171,7 @@ ___
 [main.ts:210925](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L210925)
 
 ___
+
 
 ### errors
 
@@ -167,6 +183,7 @@ ___
 
 ___
 
+
 ### history
 
 • `Optional` **history**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](../classes/AppendixKeywordBingKeywordsDataPriceDataInfo.md)
@@ -176,6 +193,7 @@ ___
 [main.ts:210927](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L210927)
 
 ___
+
 
 ### page\_intersection
 
@@ -187,6 +205,7 @@ ___
 
 ___
 
+
 ### referring\_domains
 
 • `Optional` **referring\_domains**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](../classes/AppendixKeywordBingKeywordsDataPriceDataInfo.md)
@@ -196,6 +215,7 @@ ___
 [main.ts:210929](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L210929)
 
 ___
+
 
 ### referring\_networks
 
@@ -207,6 +227,7 @@ ___
 
 ___
 
+
 ### summary
 
 • `Optional` **summary**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](../classes/AppendixKeywordBingKeywordsDataPriceDataInfo.md)
@@ -216,6 +237,7 @@ ___
 [main.ts:210931](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L210931)
 
 ___
+
 
 ### timeseries\_new\_lost\_summary
 
@@ -227,6 +249,7 @@ ___
 
 ___
 
+
 ### timeseries\_summary
 
 • `Optional` **timeseries\_summary**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](../classes/AppendixKeywordBingKeywordsDataPriceDataInfo.md)
@@ -234,3 +257,7 @@ ___
 #### Defined in
 
 [main.ts:210933](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L210933)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

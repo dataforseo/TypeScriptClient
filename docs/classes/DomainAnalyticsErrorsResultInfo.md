@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / DomainAnalyticsErrorsResultInfo
 
 # Class: DomainAnalyticsErrorsResultInfo
@@ -76,6 +80,7 @@ example:
 
 ___
 
+
 ### error\_code
 
 • `Optional` **error\_code**: `number`
@@ -91,6 +96,7 @@ error code
 [main.ts:71335](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L71335)
 
 ___
+
 
 ### error\_message
 
@@ -109,6 +115,7 @@ error message (see full list) or URL that caused an error
 
 ___
 
+
 ### function
 
 • `Optional` **function**: `string`
@@ -124,6 +131,7 @@ corresponding API function
 [main.ts:71333](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L71333)
 
 ___
+
 
 ### http\_code
 
@@ -141,6 +149,7 @@ HTTP status code
 
 ___
 
+
 ### http\_method
 
 • `Optional` **http\_method**: `string`
@@ -156,6 +165,7 @@ HTTP method
 [main.ts:71343](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L71343)
 
 ___
+
 
 ### http\_response
 
@@ -174,6 +184,7 @@ server response
 
 ___
 
+
 ### http\_time
 
 • `Optional` **http\_time**: `number`
@@ -191,6 +202,7 @@ for tasks set with a pingback/postback, this field will show the time it took yo
 
 ___
 
+
 ### http\_url
 
 • `Optional` **http\_url**: `string`
@@ -207,6 +219,7 @@ URL you used for making an API call or pingback/postback URL
 [main.ts:71341](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L71341)
 
 ___
+
 
 ### id
 
@@ -244,6 +257,7 @@ id of the task
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -264,6 +278,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`DomainAnalyticsErrorsResultInfo`](DomainAnalyticsErrorsResultInfo.md)
@@ -281,3 +296,7 @@ ___
 #### Defined in
 
 [main.ts:71383](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L71383)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

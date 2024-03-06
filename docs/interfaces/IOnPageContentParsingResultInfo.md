@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IOnPageContentParsingResultInfo
 
 # Interface: IOnPageContentParsingResultInfo
@@ -34,6 +38,7 @@ possible values: in_progress, finished
 
 ___
 
+
 ### crawl\_status
 
 • `Optional` **crawl\_status**: [`CrawlStatusInfo`](../classes/CrawlStatusInfo.md)
@@ -45,6 +50,7 @@ details of the crawling session
 [main.ts:152422](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L152422)
 
 ___
+
 
 ### items
 
@@ -58,6 +64,7 @@ items array
 
 ___
 
+
 ### items\_count
 
 • `Optional` **items\_count**: `number`
@@ -67,3 +74,7 @@ number of items in the results array
 #### Defined in
 
 [main.ts:152424](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L152424)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IDataforseoLabsGoogleDomainRankOverviewLiveRequestInfo
 
 # Interface: IDataforseoLabsGoogleDomainRankOverviewLiveRequestInfo
@@ -41,6 +45,7 @@ default value: false
 
 ___
 
+
 ### language\_code
 
 • `Optional` **language\_code**: `string`
@@ -59,6 +64,7 @@ en
 [main.ts:90642](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L90642)
 
 ___
+
 
 ### language\_name
 
@@ -79,6 +85,7 @@ English
 
 ___
 
+
 ### limit
 
 • `Optional` **limit**: `number`
@@ -93,6 +100,7 @@ maximum value: 1000
 [main.ts:90652](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L90652)
 
 ___
+
 
 ### location\_code
 
@@ -113,6 +121,7 @@ example:
 
 ___
 
+
 ### location\_name
 
 • `Optional` **location\_name**: `string`
@@ -132,6 +141,7 @@ United Kingdom
 
 ___
 
+
 ### offset
 
 • `Optional` **offset**: `number`
@@ -146,6 +156,7 @@ if you specify the 10 value, the first ten items in the results array will be om
 [main.ts:90657](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L90657)
 
 ___
+
 
 ### tag
 
@@ -163,6 +174,7 @@ you will find the specified tag value in the data object of the response
 
 ___
 
+
 ### target
 
 • `Optional` **target**: `string`
@@ -175,3 +187,7 @@ the domain should be specified without https:// and www.
 #### Defined in
 
 [main.ts:90606](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L90606)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

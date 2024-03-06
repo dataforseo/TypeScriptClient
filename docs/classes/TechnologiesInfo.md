@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / TechnologiesInfo
 
 # Class: TechnologiesInfo
@@ -81,6 +85,7 @@
 
 ___
 
+
 ### analytics
 
 • `Optional` **analytics**: `Object`
@@ -98,6 +103,7 @@ ___
 [main.ts:21905](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L21905)
 
 ___
+
 
 ### business\_tools
 
@@ -117,6 +123,7 @@ ___
 
 ___
 
+
 ### communication
 
 • `Optional` **communication**: `Object`
@@ -134,6 +141,7 @@ ___
 [main.ts:21918](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L21918)
 
 ___
+
 
 ### content
 
@@ -153,6 +161,7 @@ ___
 
 ___
 
+
 ### location
 
 • `Optional` **location**: `Object`
@@ -170,6 +179,7 @@ ___
 [main.ts:21914](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L21914)
 
 ___
+
 
 ### marketing
 
@@ -189,6 +199,7 @@ ___
 
 ___
 
+
 ### media
 
 • `Optional` **media**: `Object`
@@ -206,6 +217,7 @@ ___
 [main.ts:21916](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L21916)
 
 ___
+
 
 ### other
 
@@ -225,6 +237,7 @@ ___
 
 ___
 
+
 ### privacy
 
 • `Optional` **privacy**: `Object`
@@ -242,6 +255,7 @@ ___
 [main.ts:21912](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L21912)
 
 ___
+
 
 ### sales
 
@@ -261,6 +275,7 @@ ___
 
 ___
 
+
 ### security
 
 • `Optional` **security**: `Object`
@@ -278,6 +293,7 @@ ___
 [main.ts:21907](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L21907)
 
 ___
+
 
 ### servers
 
@@ -297,6 +313,7 @@ ___
 
 ___
 
+
 ### user\_generated\_content
 
 • `Optional` **user\_generated\_content**: `Object`
@@ -315,6 +332,7 @@ ___
 
 ___
 
+
 ### utilities
 
 • `Optional` **utilities**: `Object`
@@ -332,6 +350,7 @@ ___
 [main.ts:21919](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L21919)
 
 ___
+
 
 ### web\_development
 
@@ -371,6 +390,7 @@ ___
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -391,6 +411,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`TechnologiesInfo`](TechnologiesInfo.md)
@@ -408,3 +429,7 @@ ___
 #### Defined in
 
 [main.ts:22053](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L22053)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IContentGenerationGenerateLiveRequestInfo
 
 # Interface: IContentGenerationGenerateLiveRequestInfo
@@ -46,6 +50,7 @@ example:
 
 ___
 
+
 ### avoid\_words
 
 • `Optional` **avoid\_words**: `string`[]
@@ -61,6 +66,7 @@ example:
 [main.ts:159986](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L159986)
 
 ___
+
 
 ### creativity\_index
 
@@ -80,6 +86,7 @@ learn more about this parameter on our help center
 
 ___
 
+
 ### max\_new\_tokens
 
 • `Optional` **max\_new\_tokens**: `number`
@@ -96,6 +103,7 @@ learn more about this parameter on our help center
 [main.ts:159934](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L159934)
 
 ___
+
 
 ### max\_tokens
 
@@ -114,6 +122,7 @@ learn more about this parameter on our help center
 
 ___
 
+
 ### stop\_words
 
 • `Optional` **stop\_words**: `string`[]
@@ -129,6 +138,7 @@ example:
 [main.ts:159998](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L159998)
 
 ___
+
 
 ### supplement\_token
 
@@ -146,6 +156,7 @@ supplement_token values are unique for each subsequent task
 
 ___
 
+
 ### tag
 
 • `Optional` **tag**: `string`
@@ -161,6 +172,7 @@ you will find the specified tag value in the data object of the response
 [main.ts:160010](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L160010)
 
 ___
+
 
 ### temperature
 
@@ -180,6 +192,7 @@ learn more about this parameter on our help center
 
 ___
 
+
 ### text
 
 • `Optional` **text**: `string`
@@ -196,6 +209,7 @@ learn more about tokens on our help center
 
 ___
 
+
 ### token\_repetition\_penalty
 
 • `Optional` **token\_repetition\_penalty**: `number`
@@ -211,6 +225,7 @@ default value: 1
 [main.ts:159955](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L159955)
 
 ___
+
 
 ### top\_k
 
@@ -230,6 +245,7 @@ learn more about this parameter on our help center
 
 ___
 
+
 ### top\_p
 
 • `Optional` **top\_p**: `number`
@@ -246,3 +262,7 @@ learn more about this parameter on our help center
 #### Defined in
 
 [main.ts:159972](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L159972)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

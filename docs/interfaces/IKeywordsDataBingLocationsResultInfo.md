@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IKeywordsDataBingLocationsResultInfo
 
 # Interface: IKeywordsDataBingLocationsResultInfo
@@ -34,6 +38,7 @@ ISO country code of the location
 
 ___
 
+
 ### location\_code
 
 • `Optional` **location\_code**: `number`
@@ -45,6 +50,7 @@ location code
 [main.ts:121990](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L121990)
 
 ___
+
 
 ### location\_code\_parent
 
@@ -64,6 +70,7 @@ example:
 
 ___
 
+
 ### location\_name
 
 • `Optional` **location\_name**: `string`
@@ -76,6 +83,7 @@ full name of the location
 
 ___
 
+
 ### location\_type
 
 • `Optional` **location\_type**: `string`
@@ -85,3 +93,7 @@ location type
 #### Defined in
 
 [main.ts:122004](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L122004)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

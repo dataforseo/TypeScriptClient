@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / BusinessDataGoogleHotelSearchesLiveRequestInfo
 
 # Class: BusinessDataGoogleHotelSearchesLiveRequestInfo
@@ -89,6 +93,7 @@ example:
 
 ___
 
+
 ### amenities
 
 • `Optional` **amenities**: `string`[]
@@ -97,10 +102,10 @@ hotel amenities
 optional field
 you can use this field to specify different hotel amenities
 example:
-  [
-            "free_parking",
-            "pets_allowed"
-        ]
+[
+"free_parking",
+"pets_allowed"
+]
 
 possible values:
 "air_conditioning",
@@ -132,6 +137,7 @@ possible values:
 
 ___
 
+
 ### check\_in
 
 • `Optional` **check\_in**: `string`
@@ -153,6 +159,7 @@ Note: the value cannot precede the today’s date
 [main.ts:194204](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L194204)
 
 ___
+
 
 ### check\_out
 
@@ -176,6 +183,7 @@ the range between check_in and check_out values cannot exceed 30 days
 [main.ts:194213](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L194213)
 
 ___
+
 
 ### children
 
@@ -201,6 +209,7 @@ set the following value if you want to include one 13-year-old child and one 8-y
 
 ___
 
+
 ### currency
 
 • `Optional` **currency**: `string`
@@ -219,6 +228,7 @@ example:
 [main.ts:194218](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L194218)
 
 ___
+
 
 ### depth
 
@@ -243,6 +253,7 @@ if the specified depth is higher than the number of results in the response, the
 
 ___
 
+
 ### free\_cancellation
 
 • `Optional` **free\_cancellation**: `boolean`
@@ -262,6 +273,7 @@ default value: false
 
 ___
 
+
 ### is\_vacation\_rentals
 
 • `Optional` **is\_vacation\_rentals**: `boolean`
@@ -280,6 +292,7 @@ default value: false
 [main.ts:194279](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L194279)
 
 ___
+
 
 ### keyword
 
@@ -304,6 +317,7 @@ Note: in order to obtain accurate search results, the location name is appended 
 
 ___
 
+
 ### language\_code
 
 • `Optional` **language\_code**: `string`
@@ -324,6 +338,7 @@ en
 [main.ts:194187](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L194187)
 
 ___
+
 
 ### language\_name
 
@@ -346,6 +361,7 @@ English
 
 ___
 
+
 ### location\_code
 
 • `Optional` **location\_code**: `number`
@@ -366,6 +382,7 @@ example:
 [main.ts:194164](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L194164)
 
 ___
+
 
 ### location\_coordinate
 
@@ -390,6 +407,7 @@ example:
 
 ___
 
+
 ### location\_name
 
 • `Optional` **location\_name**: `string`
@@ -412,6 +430,7 @@ Note: in order to obtain accurate search results, the location_name you specify 
 
 ___
 
+
 ### max\_price
 
 • `Optional` **max\_price**: `number`
@@ -431,6 +450,7 @@ example:
 [main.ts:194269](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L194269)
 
 ___
+
 
 ### min\_price
 
@@ -452,6 +472,7 @@ example:
 
 ___
 
+
 ### min\_rating
 
 • `Optional` **min\_rating**: `number`
@@ -471,6 +492,7 @@ example:
 [main.ts:194247](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L194247)
 
 ___
+
 
 ### sort\_by
 
@@ -496,6 +518,7 @@ default value: relevance
 
 ___
 
+
 ### stars
 
 • `Optional` **stars**: `string`[]
@@ -515,6 +538,7 @@ example:
 [main.ts:194241](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L194241)
 
 ___
+
 
 ### tag
 
@@ -556,6 +580,7 @@ you will find the specified tag value in the data object of the response
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -576,6 +601,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`BusinessDataGoogleHotelSearchesLiveRequestInfo`](BusinessDataGoogleHotelSearchesLiveRequestInfo.md)
@@ -593,3 +619,7 @@ ___
 #### Defined in
 
 [main.ts:194369](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L194369)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

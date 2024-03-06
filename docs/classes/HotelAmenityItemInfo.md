@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / HotelAmenityItemInfo
 
 # Class: HotelAmenityItemInfo
@@ -67,6 +71,7 @@ standardised amenity name
 
 ___
 
+
 ### amenity\_label
 
 • `Optional` **amenity\_label**: `string`
@@ -83,6 +88,7 @@ displayed amenity name
 
 ___
 
+
 ### hint
 
 • `Optional` **hint**: `string`
@@ -98,6 +104,7 @@ standardised details about the amenity
 [main.ts:195283](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L195283)
 
 ___
+
 
 ### hint\_label
 
@@ -135,6 +142,7 @@ displayed details about the amenity
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -155,6 +163,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`HotelAmenityItemInfo`](HotelAmenityItemInfo.md)
@@ -172,3 +181,7 @@ ___
 #### Defined in
 
 [main.ts:195311](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L195311)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / AnalysisContentInfo
 
 # Class: AnalysisContentInfo
@@ -82,6 +86,7 @@ author of the content
 
 ___
 
+
 ### connotation\_types
 
 • `Optional` **connotation\_types**: `Object`
@@ -104,6 +109,7 @@ possible sentiment connotation types: positive, negative, neutral
 
 ___
 
+
 ### content\_quality\_score
 
 • `Optional` **content\_quality\_score**: `number`
@@ -120,6 +126,7 @@ this value is calculated based on the number of words, sentences and characters 
 [main.ts:156445](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L156445)
 
 ___
+
 
 ### content\_type
 
@@ -139,6 +146,7 @@ page_content, comment
 
 ___
 
+
 ### date\_published
 
 • `Optional` **date\_published**: `string`
@@ -157,6 +165,7 @@ example:
 [main.ts:156442](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L156442)
 
 ___
+
 
 ### group\_date
 
@@ -179,6 +188,7 @@ example:
 
 ___
 
+
 ### highlighted\_text
 
 • `Optional` **highlighted\_text**: `string`
@@ -194,6 +204,7 @@ highlighted text from the snippet
 [main.ts:156423](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L156423)
 
 ___
+
 
 ### language
 
@@ -212,6 +223,7 @@ to obtain a full list of available languages, refer to the Languages endpoint
 
 ___
 
+
 ### level
 
 • `Optional` **level**: `number`
@@ -229,6 +241,7 @@ indicates h-tag level from 1 (top) to 6 (bottom)
 
 ___
 
+
 ### main\_title
 
 • `Optional` **main\_title**: `string`
@@ -244,6 +257,7 @@ page title
 [main.ts:156407](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L156407)
 
 ___
+
 
 ### previous\_title
 
@@ -261,6 +275,7 @@ title of the previous content block
 
 ___
 
+
 ### rating
 
 • `Optional` **rating**: [`ContentAnalysisRatingInfo`](ContentAnalysisRatingInfo.md)
@@ -277,6 +292,7 @@ rating related to content_info
 [main.ts:156453](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L156453)
 
 ___
+
 
 ### semantic\_location
 
@@ -296,6 +312,7 @@ article, header
 [main.ts:156450](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L156450)
 
 ___
+
 
 ### sentiment\_connotations
 
@@ -319,6 +336,7 @@ possible sentiment connotations: anger, happiness, love, sadness, share, fun
 
 ___
 
+
 ### snippet
 
 • `Optional` **snippet**: `string`
@@ -335,6 +353,7 @@ content snippet
 
 ___
 
+
 ### snippet\_length
 
 • `Optional` **snippet\_length**: `number`
@@ -350,6 +369,7 @@ character length of the snippet
 [main.ts:156418](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L156418)
 
 ___
+
 
 ### social\_metrics
 
@@ -368,6 +388,7 @@ data on social media interactions associated with the content based on website e
 
 ___
 
+
 ### text\_category
 
 • `Optional` **text\_category**: `number`[]
@@ -384,6 +405,7 @@ to obtain a full list of available categories, refer to the Categories endpoint
 [main.ts:156437](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L156437)
 
 ___
+
 
 ### title
 
@@ -421,6 +443,7 @@ title of the result
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -441,6 +464,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`AnalysisContentInfo`](AnalysisContentInfo.md)
@@ -458,3 +482,7 @@ ___
 #### Defined in
 
 [main.ts:156521](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L156521)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IDataforseoLabsAppleAppIntersectionLiveRequestInfo
 
 # Interface: IDataforseoLabsAppleAppIntersectionLiveRequestInfo
@@ -56,6 +60,7 @@ the maximum number of app IDs you can specify in this object is 20
 
 ___
 
+
 ### filters
 
 • `Optional` **filters**: `any`[]
@@ -77,6 +82,7 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 ___
 
+
 ### language\_code
 
 • `Optional` **language\_code**: `string`
@@ -95,6 +101,7 @@ en
 [main.ts:111953](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L111953)
 
 ___
+
 
 ### language\_name
 
@@ -115,6 +122,7 @@ English
 
 ___
 
+
 ### limit
 
 • `Optional` **limit**: `number`
@@ -129,6 +137,7 @@ maximum value: 1000
 [main.ts:111986](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L111986)
 
 ___
+
 
 ### location\_code
 
@@ -149,6 +158,7 @@ example:
 
 ___
 
+
 ### location\_name
 
 • `Optional` **location\_name**: `string`
@@ -168,6 +178,7 @@ United States
 
 ___
 
+
 ### offset
 
 • `Optional` **offset**: `number`
@@ -182,6 +193,7 @@ if you specify the 10 value, the first ten keywords in the results array will be
 [main.ts:111991](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L111991)
 
 ___
+
 
 ### order\_by
 
@@ -210,6 +222,7 @@ Note: if the item_types array contains item types that are different from organi
 
 ___
 
+
 ### tag
 
 • `Optional` **tag**: `string`
@@ -223,3 +236,7 @@ you will find the specified tag value in the data object of the response
 #### Defined in
 
 [main.ts:111997](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L111997)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

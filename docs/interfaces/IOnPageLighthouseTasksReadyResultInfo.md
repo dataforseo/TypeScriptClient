@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IOnPageLighthouseTasksReadyResultInfo
 
 # Interface: IOnPageLighthouseTasksReadyResultInfo
@@ -32,6 +36,7 @@ URL for collecting the results of the OnPage Lighthouse JSON task
 
 ___
 
+
 ### id
 
 • `Optional` **id**: `string`
@@ -45,6 +50,7 @@ unique task identifier in our system in the UUID format
 
 ___
 
+
 ### tag
 
 • `Optional` **tag**: `string`
@@ -54,3 +60,7 @@ user-defined task identifier
 #### Defined in
 
 [main.ts:154472](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L154472)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / OnPageDuplicateContentRequestInfo
 
 # Class: OnPageDuplicateContentRequestInfo
@@ -73,6 +77,7 @@ example:
 
 ___
 
+
 ### limit
 
 • `Optional` **limit**: `number`
@@ -91,6 +96,7 @@ maximum value: 1000
 [main.ts:147448](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L147448)
 
 ___
+
 
 ### offset
 
@@ -111,6 +117,7 @@ if you specify the 10 value, the first ten pages in the results array will be om
 
 ___
 
+
 ### similarity
 
 • `Optional` **similarity**: `number`
@@ -128,6 +135,7 @@ you can specify any similarity score in the 0-to-10 range
 [main.ts:147443](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L147443)
 
 ___
+
 
 ### tag
 
@@ -148,6 +156,7 @@ you will find the specified tag value in the data object of the response
 [main.ts:147459](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L147459)
 
 ___
+
 
 ### url
 
@@ -187,6 +196,7 @@ specify the initial page you want to receive duplicate content for
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -207,6 +217,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`OnPageDuplicateContentRequestInfo`](OnPageDuplicateContentRequestInfo.md)
@@ -224,3 +235,7 @@ ___
 #### Defined in
 
 [main.ts:147487](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L147487)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

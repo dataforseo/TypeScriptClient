@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / TrendsGraphDataInfo
 
 # Class: TrendsGraphDataInfo
@@ -69,6 +73,7 @@ in the UTC format: “yyyy-mm-dd”
 
 ___
 
+
 ### date\_to
 
 • `Optional` **date\_to**: `string`
@@ -85,6 +90,7 @@ in the UTC format: “yyyy-mm-dd”
 [main.ts:120391](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L120391)
 
 ___
+
 
 ### missing\_data
 
@@ -103,6 +109,7 @@ if true the data on the graph in the Google Trends interface is missing and thus
 
 ___
 
+
 ### timestamp
 
 • `Optional` **timestamp**: `number`
@@ -118,6 +125,7 @@ a point in time in the Unix time format
 [main.ts:120393](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L120393)
 
 ___
+
 
 ### values
 
@@ -158,6 +166,7 @@ a value of 100 is the peak popularity for the term. A value of 50 means that the
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -178,6 +187,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`TrendsGraphDataInfo`](TrendsGraphDataInfo.md)
@@ -195,3 +205,7 @@ ___
 #### Defined in
 
 [main.ts:120432](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L120432)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

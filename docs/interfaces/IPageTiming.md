@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IPageTiming
 
 # Interface: IPageTiming
@@ -42,6 +46,7 @@ the time it takes until the connection with a server is established (in millisec
 
 ___
 
+
 ### dom\_complete
 
 • `Optional` **dom\_complete**: `number`
@@ -55,6 +60,7 @@ the time it takes until the page and all of its subresources are downloaded (in 
 
 ___
 
+
 ### download\_time
 
 • `Optional` **download\_time**: `number`
@@ -67,6 +73,7 @@ time it takes for a browser to receive a response (in milliseconds)
 
 ___
 
+
 ### duration\_time
 
 • `Optional` **duration\_time**: `number`
@@ -78,6 +85,7 @@ total time it takes until a browser receives a complete response from a server (
 [main.ts:144564](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L144564)
 
 ___
+
 
 ### fetch\_end
 
@@ -92,6 +100,7 @@ the amount of time the browser needs to complete downloading a page
 
 ___
 
+
 ### fetch\_start
 
 • `Optional` **fetch\_start**: `number`
@@ -104,6 +113,7 @@ the amount of time the browser needs to start downloading a page
 [main.ts:144567](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L144567)
 
 ___
+
 
 ### first\_input\_delay
 
@@ -118,6 +128,7 @@ The time (in milliseconds) from when a user first interacts with your page to th
 
 ___
 
+
 ### largest\_contentful\_paint
 
 • `Optional` **largest\_contentful\_paint**: `number`
@@ -130,6 +141,7 @@ The amount of time (in milliseconds) to render the largest content element visib
 [main.ts:144546](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L144546)
 
 ___
+
 
 ### request\_sent\_time
 
@@ -144,6 +156,7 @@ the time it takes until the request to a server is sent (in milliseconds)
 
 ___
 
+
 ### time\_to\_interactive
 
 • `Optional` **time\_to\_interactive**: `number`
@@ -156,6 +169,7 @@ the time it takes until the user can interact with a page (in milliseconds)
 [main.ts:144540](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L144540)
 
 ___
+
 
 ### time\_to\_secure\_connection
 
@@ -170,6 +184,7 @@ the time it takes until the secure connection with a server is established (in m
 
 ___
 
+
 ### waiting\_time
 
 • `Optional` **waiting\_time**: `number`
@@ -179,3 +194,7 @@ time to first byte (TTFB) in milliseconds
 #### Defined in
 
 [main.ts:144560](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L144560)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

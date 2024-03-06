@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IHotelAboutInfo
 
 # Interface: IHotelAboutInfo
@@ -39,6 +43,7 @@ information about hotel amenities
 
 ___
 
+
 ### check\_in\_time
 
 • `Optional` **check\_in\_time**: [`WorkTimeInfo`](../classes/WorkTimeInfo.md)
@@ -51,6 +56,7 @@ check-in time indicated in the hotel listing
 [main.ts:195532](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L195532)
 
 ___
+
 
 ### check\_out\_time
 
@@ -65,6 +71,7 @@ check-out time indicated in the hotel listing
 
 ___
 
+
 ### description
 
 • `Optional` **description**: `string`
@@ -77,6 +84,7 @@ the description of the hotel entity for which the results are collected
 [main.ts:195526](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L195526)
 
 ___
+
 
 ### domain
 
@@ -91,6 +99,7 @@ domain of the hotel’s website
 
 ___
 
+
 ### full\_address
 
 • `Optional` **full\_address**: `string`
@@ -103,6 +112,7 @@ address of the hotel indicated in the standardised format
 [main.ts:195538](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L195538)
 
 ___
+
 
 ### popular\_amenities
 
@@ -117,6 +127,7 @@ information about hotel amenities labelled as “popular”
 
 ___
 
+
 ### sub\_descriptions
 
 • `Optional` **sub\_descriptions**: `string`[]
@@ -130,6 +141,7 @@ details about the hotel provided in addition to the description
 
 ___
 
+
 ### url
 
 • `Optional` **url**: `string`
@@ -140,3 +152,7 @@ URL to the hotel’s website indicated in the listing
 #### Defined in
 
 [main.ts:195544](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L195544)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

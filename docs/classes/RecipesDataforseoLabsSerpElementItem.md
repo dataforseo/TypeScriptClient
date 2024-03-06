@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / RecipesDataforseoLabsSerpElementItem
 
 # Class: RecipesDataforseoLabsSerpElementItem
@@ -5,7 +9,7 @@
 ## Hierarchy
 
 - [`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md)
-
+  
   ↳ **`RecipesDataforseoLabsSerpElementItem`**
 
 ## Implements
@@ -77,6 +81,7 @@
 
 ___
 
+
 ### items
 
 • `Optional` **items**: [`RecipesElement`](RecipesElement.md)[]
@@ -92,6 +97,7 @@ elements of search results found in SERP
 [main.ts:95069](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L95069)
 
 ___
+
 
 ### position
 
@@ -111,6 +117,7 @@ left, right
 
 ___
 
+
 ### rank\_absolute
 
 • `Optional` **rank\_absolute**: `number`
@@ -128,6 +135,7 @@ absolute position among all the elements in SERP
 
 ___
 
+
 ### rank\_group
 
 • `Optional` **rank\_group**: `number`
@@ -144,6 +152,7 @@ positions of elements with different type values are omitted from rank_group
 [main.ts:95058](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L95058)
 
 ___
+
 
 ### xpath
 
@@ -185,6 +194,7 @@ the XPath of the element
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -209,6 +219,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`RecipesDataforseoLabsSerpElementItem`](RecipesDataforseoLabsSerpElementItem.md)
@@ -230,3 +241,7 @@ ___
 #### Defined in
 
 [main.ts:95097](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L95097)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

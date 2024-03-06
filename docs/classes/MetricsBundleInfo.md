@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / MetricsBundleInfo
 
 # Class: MetricsBundleInfo
@@ -65,6 +69,7 @@ ranking and traffic data from organic search
 
 ___
 
+
 ### paid
 
 • `Optional` **paid**: [`MetricsInfo`](MetricsInfo.md)
@@ -101,6 +106,7 @@ ranking and traffic data from paid search
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -121,6 +127,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`MetricsBundleInfo`](MetricsBundleInfo.md)
@@ -138,3 +145,7 @@ ___
 #### Defined in
 
 [main.ts:75956](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L75956)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

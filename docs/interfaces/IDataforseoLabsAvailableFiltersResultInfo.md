@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IDataforseoLabsAvailableFiltersResultInfo
 
 # Interface: IDataforseoLabsAvailableFiltersResultInfo
@@ -53,6 +57,7 @@
 
 ___
 
+
 ### app\_intersection
 
 • `Optional` **app\_intersection**: `Object`
@@ -66,6 +71,7 @@ ___
 [main.ts:77726](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L77726)
 
 ___
+
 
 ### categories\_for\_domain
 
@@ -81,6 +87,7 @@ ___
 
 ___
 
+
 ### competitors\_domain
 
 • `Optional` **competitors\_domain**: `Object`
@@ -94,6 +101,7 @@ ___
 [main.ts:77715](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L77715)
 
 ___
+
 
 ### database\_rows\_count
 
@@ -109,6 +117,7 @@ ___
 
 ___
 
+
 ### domain\_intersection
 
 • `Optional` **domain\_intersection**: `Object`
@@ -122,6 +131,7 @@ ___
 [main.ts:77718](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L77718)
 
 ___
+
 
 ### domain\_metrics\_by\_categories
 
@@ -137,6 +147,7 @@ ___
 
 ___
 
+
 ### domain\_whois\_overview
 
 • `Optional` **domain\_whois\_overview**: `Object`
@@ -150,6 +161,7 @@ ___
 [main.ts:77720](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L77720)
 
 ___
+
 
 ### keyword\_ideas
 
@@ -165,6 +177,7 @@ ___
 
 ___
 
+
 ### keyword\_suggestions
 
 • `Optional` **keyword\_suggestions**: `Object`
@@ -178,6 +191,7 @@ ___
 [main.ts:77709](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L77709)
 
 ___
+
 
 ### keywords\_for\_app
 
@@ -193,6 +207,7 @@ ___
 
 ___
 
+
 ### keywords\_for\_categories
 
 • `Optional` **keywords\_for\_categories**: `Object`
@@ -206,6 +221,7 @@ ___
 [main.ts:77717](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L77717)
 
 ___
+
 
 ### keywords\_for\_site
 
@@ -221,6 +237,7 @@ ___
 
 ___
 
+
 ### page\_intersection
 
 • `Optional` **page\_intersection**: `Object`
@@ -234,6 +251,7 @@ ___
 [main.ts:77719](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L77719)
 
 ___
+
 
 ### product\_competitors
 
@@ -249,6 +267,7 @@ ___
 
 ___
 
+
 ### product\_keyword\_intersections
 
 • `Optional` **product\_keyword\_intersections**: `Object`
@@ -262,6 +281,7 @@ ___
 [main.ts:77725](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L77725)
 
 ___
+
 
 ### ranked\_keywords
 
@@ -277,6 +297,7 @@ ___
 
 ___
 
+
 ### related\_keywords
 
 • `Optional` **related\_keywords**: `Object`
@@ -290,6 +311,7 @@ ___
 [main.ts:77708](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L77708)
 
 ___
+
 
 ### relevant\_pages
 
@@ -305,6 +327,7 @@ ___
 
 ___
 
+
 ### serp\_competitors
 
 • `Optional` **serp\_competitors**: `Object`
@@ -318,6 +341,7 @@ ___
 [main.ts:77712](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L77712)
 
 ___
+
 
 ### subdomains
 
@@ -333,6 +357,7 @@ ___
 
 ___
 
+
 ### top\_searches
 
 • `Optional` **top\_searches**: `Object`
@@ -344,3 +369,7 @@ ___
 #### Defined in
 
 [main.ts:77721](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L77721)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

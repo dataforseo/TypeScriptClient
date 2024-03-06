@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IWorkDayInfo
 
 # Interface: IWorkDayInfo
@@ -31,6 +35,7 @@ closing time
 
 ___
 
+
 ### open
 
 • `Optional` **open**: [`WorkTimeInfo`](../classes/WorkTimeInfo.md)
@@ -40,3 +45,7 @@ opening time
 #### Defined in
 
 [main.ts:20573](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L20573)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

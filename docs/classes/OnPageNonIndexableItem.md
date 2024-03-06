@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / OnPageNonIndexableItem
 
 # Class: OnPageNonIndexableItem
@@ -66,6 +70,7 @@ can take the following values: robots_txt, meta_tag, http_header, attribute, too
 
 ___
 
+
 ### url
 
 • `Optional` **url**: `string`
@@ -102,6 +107,7 @@ url of the non-indexable page
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -122,6 +128,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`OnPageNonIndexableItem`](OnPageNonIndexableItem.md)
@@ -139,3 +146,7 @@ ___
 #### Defined in
 
 [main.ts:149406](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L149406)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

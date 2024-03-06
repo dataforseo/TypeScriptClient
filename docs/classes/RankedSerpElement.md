@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / RankedSerpElement
 
 # Class: RankedSerpElement
@@ -73,6 +77,7 @@ you can use it to make sure that we provided accurate results
 
 ___
 
+
 ### is\_lost
 
 • `Optional` **is\_lost**: `boolean`
@@ -89,6 +94,7 @@ indicates how many ranked elements of this domain were previously presented in S
 [main.ts:86922](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L86922)
 
 ___
+
 
 ### keyword\_difficulty
 
@@ -109,6 +115,7 @@ learn more about the metric in this help center guide
 
 ___
 
+
 ### last\_updated\_time
 
 • `Optional` **last\_updated\_time**: `string`
@@ -127,6 +134,7 @@ example:
 [main.ts:86927](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L86927)
 
 ___
+
 
 ### previous\_updated\_time
 
@@ -147,6 +155,7 @@ example:
 
 ___
 
+
 ### se\_results\_count
 
 • `Optional` **se\_results\_count**: `string`
@@ -162,6 +171,7 @@ number of search results for the returned keyword
 [main.ts:86914](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L86914)
 
 ___
+
 
 ### se\_type
 
@@ -179,6 +189,7 @@ search engine type
 
 ___
 
+
 ### serp\_item
 
 • `Optional` **serp\_item**: [`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md)
@@ -195,6 +206,7 @@ the list of supported SERP elements can be found below
 [main.ts:86903](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L86903)
 
 ___
+
 
 ### serp\_item\_types
 
@@ -236,6 +248,7 @@ note that the actual results will be returned only for organic, paid, featured_s
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -256,6 +269,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`RankedSerpElement`](RankedSerpElement.md)
@@ -273,3 +287,7 @@ ___
 #### Defined in
 
 [main.ts:86967](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L86967)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

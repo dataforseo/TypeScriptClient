@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / AmazonRankedSerpElement
 
 # Class: AmazonRankedSerpElement
@@ -71,6 +75,7 @@ you can use it to make sure that we provided accurate results
 
 ___
 
+
 ### last\_updated\_time
 
 • `Optional` **last\_updated\_time**: `string`
@@ -89,6 +94,7 @@ example:
 [main.ts:100054](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L100054)
 
 ___
+
 
 ### previous\_updated\_time
 
@@ -109,6 +115,7 @@ example:
 
 ___
 
+
 ### se\_results\_count
 
 • `Optional` **se\_results\_count**: `number`
@@ -124,6 +131,7 @@ total number of results in Amazon SERP
 [main.ts:100049](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L100049)
 
 ___
+
 
 ### se\_type
 
@@ -141,6 +149,7 @@ search engine type
 
 ___
 
+
 ### serp\_item
 
 • `Optional` **serp\_item**: [`BaseAmazonSerpElementItem`](BaseAmazonSerpElementItem.md)
@@ -157,6 +166,7 @@ the list of supported SERP elements can be found below
 [main.ts:100039](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L100039)
 
 ___
+
 
 ### serp\_item\_types
 
@@ -197,6 +207,7 @@ amazon_serp, amazon_paid, editorial_recommendations, top_rated_from_our_brands, 
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -217,6 +228,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`AmazonRankedSerpElement`](AmazonRankedSerpElement.md)
@@ -234,3 +246,7 @@ ___
 #### Defined in
 
 [main.ts:100092](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L100092)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IKnowledgeGraphListItemSerpElementItem
 
 # Interface: IKnowledgeGraphListItemSerpElementItem
@@ -5,7 +9,7 @@
 ## Hierarchy
 
 - [`IBaseSerpElementItem`](IBaseSerpElementItem.md)
-
+  
   ↳ **`IKnowledgeGraphListItemSerpElementItem`**
 
 ## Implemented by
@@ -46,6 +50,7 @@ ss:/webfacts:net_worth
 
 ___
 
+
 ### items
 
 • `Optional` **items**: [`KnowledgeGraphListElement`](../classes/KnowledgeGraphListElement.md)[]
@@ -59,6 +64,7 @@ if there are none, equals null
 
 ___
 
+
 ### link
 
 • `Optional` **link**: [`LinkElement`](../classes/LinkElement.md)
@@ -70,6 +76,7 @@ link of the element
 [main.ts:26732](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L26732)
 
 ___
+
 
 ### position
 
@@ -85,6 +92,7 @@ left, right
 
 ___
 
+
 ### rank\_absolute
 
 • `Optional` **rank\_absolute**: `number`
@@ -97,6 +105,7 @@ absolute position among all the elements in SERP
 [main.ts:26718](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L26718)
 
 ___
+
 
 ### rank\_group
 
@@ -112,6 +121,7 @@ positions of elements with different type values are omitted from rank_group
 
 ___
 
+
 ### rectangle
 
 • `Optional` **rectangle**: [`Rectangle`](../classes/Rectangle.md)
@@ -126,6 +136,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 ___
 
+
 ### title
 
 • `Optional` **title**: `string`
@@ -138,6 +149,7 @@ title of the link element
 
 ___
 
+
 ### xpath
 
 • `Optional` **xpath**: `string`
@@ -147,3 +159,7 @@ the XPath of the element
 #### Defined in
 
 [main.ts:26724](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L26724)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

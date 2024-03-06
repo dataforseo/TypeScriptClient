@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IMerchantAmazonLocationsCountryResultInfo
 
 # Interface: IMerchantAmazonLocationsCountryResultInfo
@@ -34,6 +38,7 @@ ISO country code of the location
 
 ___
 
+
 ### location\_code
 
 • `Optional` **location\_code**: `number`
@@ -46,6 +51,7 @@ location code
 
 ___
 
+
 ### location\_name
 
 • `Optional` **location\_name**: `string`
@@ -57,6 +63,7 @@ full name of the location
 [main.ts:170006](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L170006)
 
 ___
+
 
 ### location\_name\_parent
 
@@ -74,6 +81,7 @@ example:
 
 ___
 
+
 ### location\_type
 
 • `Optional` **location\_type**: `string`
@@ -83,3 +91,7 @@ location type
 #### Defined in
 
 [main.ts:170016](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L170016)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

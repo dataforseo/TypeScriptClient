@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / KeywordDataInfo
 
 # Class: KeywordDataInfo
@@ -74,6 +78,7 @@ this object provides the average number of backlinks, referring pages and domain
 
 ___
 
+
 ### impressions\_info
 
 • `Optional` **impressions\_info**: [`ImpressionsInfo`](ImpressionsInfo.md)
@@ -93,6 +98,7 @@ learn more about impressions in this help center article
 
 ___
 
+
 ### keyword
 
 • `Optional` **keyword**: `string`
@@ -108,6 +114,7 @@ returned keyword idea
 [main.ts:79634](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L79634)
 
 ___
+
 
 ### keyword\_info
 
@@ -125,6 +132,7 @@ keyword data for the returned keyword idea
 
 ___
 
+
 ### keyword\_properties
 
 • `Optional` **keyword\_properties**: [`KeywordProperties`](KeywordProperties.md)
@@ -140,6 +148,7 @@ additional information about the keyword
 [main.ts:79642](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L79642)
 
 ___
+
 
 ### language\_code
 
@@ -157,6 +166,7 @@ language code in a POST array
 
 ___
 
+
 ### location\_code
 
 • `Optional` **location\_code**: `number`
@@ -172,6 +182,7 @@ location code in a POST array
 [main.ts:79636](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L79636)
 
 ___
+
 
 ### se\_type
 
@@ -189,6 +200,7 @@ search engine type
 
 ___
 
+
 ### search\_intent\_info
 
 • `Optional` **search\_intent\_info**: [`SearchIntentInfo`](SearchIntentInfo.md)
@@ -205,6 +217,7 @@ learn about search intent in this help center article
 [main.ts:79656](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L79656)
 
 ___
+
 
 ### serp\_info
 
@@ -243,6 +256,7 @@ the value will be null if you didn’t set the field include_serp_info to true i
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -263,6 +277,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`KeywordDataInfo`](KeywordDataInfo.md)
@@ -280,3 +295,7 @@ ___
 #### Defined in
 
 [main.ts:79688](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L79688)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

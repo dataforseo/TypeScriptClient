@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / AvailableLanguages
 
 # Class: AvailableLanguages
@@ -70,6 +74,7 @@ only google and bing are currently available
 
 ___
 
+
 ### keywords
 
 • `Optional` **keywords**: `number`
@@ -85,6 +90,7 @@ the number of keywords available for the given location and language
 [main.ts:77850](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L77850)
 
 ___
+
 
 ### language\_code
 
@@ -102,6 +108,7 @@ language code according to ISO 639-1
 
 ___
 
+
 ### language\_name
 
 • `Optional` **language\_name**: `string`
@@ -117,6 +124,7 @@ language name
 [main.ts:77846](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L77846)
 
 ___
+
 
 ### serps
 
@@ -154,6 +162,7 @@ the number of SERP pages available for the given location and language
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -174,6 +183,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`AvailableLanguages`](AvailableLanguages.md)
@@ -191,3 +201,7 @@ ___
 #### Defined in
 
 [main.ts:77883](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L77883)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

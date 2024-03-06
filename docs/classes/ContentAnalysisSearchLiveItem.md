@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / ContentAnalysisSearchLiveItem
 
 # Class: ContentAnalysisSearchLiveItem
@@ -79,6 +83,7 @@ contains data on citations from the given url
 
 ___
 
+
 ### country
 
 • `Optional` **country**: `string`
@@ -96,6 +101,7 @@ to obtain a full list of available countries, refer to the Locations endpoint
 
 ___
 
+
 ### domain
 
 • `Optional` **domain**: `string`
@@ -111,6 +117,7 @@ domain name
 [main.ts:156649](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L156649)
 
 ___
+
 
 ### domain\_rank
 
@@ -131,6 +138,7 @@ learn more about the metric and how it is calculated in this help center article
 
 ___
 
+
 ### fetch\_time
 
 • `Optional` **fetch\_time**: `string`
@@ -150,6 +158,7 @@ example:
 
 ___
 
+
 ### language
 
 • `Optional` **language**: `string`
@@ -167,6 +176,7 @@ to obtain a full list of available languages, refer to the Languages endpoint
 
 ___
 
+
 ### main\_domain
 
 • `Optional` **main\_domain**: `string`
@@ -182,6 +192,7 @@ main domain
 [main.ts:156651](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L156651)
 
 ___
+
 
 ### page\_category
 
@@ -201,6 +212,7 @@ to obtain a full list of available categories, refer to the Categories endpoint
 
 ___
 
+
 ### page\_types
 
 • `Optional` **page\_types**: `string`[]
@@ -216,6 +228,7 @@ page types
 [main.ts:156686](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L156686)
 
 ___
+
 
 ### ratings
 
@@ -233,6 +246,7 @@ all ratings found on the page based on microdata
 [main.ts:156689](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L156689)
 
 ___
+
 
 ### score
 
@@ -252,6 +266,7 @@ the higher the score, the more value the related citation has
 
 ___
 
+
 ### social\_metrics
 
 • `Optional` **social\_metrics**: [`SocialMetricsInfo`](SocialMetricsInfo.md)[]
@@ -268,6 +283,7 @@ data on social media interactions associated with the content based on website e
 [main.ts:156692](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L156692)
 
 ___
+
 
 ### spam\_score
 
@@ -287,6 +303,7 @@ learn more about how the metric is calculated on this help center page
 
 ___
 
+
 ### type
 
 • `Optional` **type**: `string`
@@ -303,6 +320,7 @@ type of element
 
 ___
 
+
 ### url
 
 • `Optional` **url**: `string`
@@ -318,6 +336,7 @@ URL where the citation was found
 [main.ts:156647](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L156647)
 
 ___
+
 
 ### url\_rank
 
@@ -358,6 +377,7 @@ learn more about the metric and how it is calculated in this help center article
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -378,6 +398,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`ContentAnalysisSearchLiveItem`](ContentAnalysisSearchLiveItem.md)
@@ -395,3 +416,7 @@ ___
 #### Defined in
 
 [main.ts:156744](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L156744)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

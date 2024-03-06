@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / SearchIntentInfo
 
 # Class: SearchIntentInfo
@@ -68,6 +72,7 @@ possible values: informational, navigational, commercial, transactional
 
 ___
 
+
 ### last\_updated\_time
 
 • `Optional` **last\_updated\_time**: `string`
@@ -87,6 +92,7 @@ example:
 
 ___
 
+
 ### main\_intent
 
 • `Optional` **main\_intent**: `string`
@@ -103,6 +109,7 @@ possible values: informational, navigational, commercial, transactional
 [main.ts:79548](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L79548)
 
 ___
+
 
 ### se\_type
 
@@ -141,6 +148,7 @@ possible values: google
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -161,6 +169,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`SearchIntentInfo`](SearchIntentInfo.md)
@@ -178,3 +187,7 @@ ___
 #### Defined in
 
 [main.ts:79586](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L79586)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

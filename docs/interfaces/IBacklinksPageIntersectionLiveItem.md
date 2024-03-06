@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IBacklinksPageIntersectionLiveItem
 
 # Interface: IBacklinksPageIntersectionLiveItem
@@ -36,6 +40,7 @@ data is provided in separate objects corresponding to pages specified in the tar
 
 ___
 
+
 ### summary
 
 • `Optional` **summary**: [`Summary`](../classes/Summary.md)
@@ -45,3 +50,7 @@ contains the page intersections summary
 #### Defined in
 
 [main.ts:138152](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L138152)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

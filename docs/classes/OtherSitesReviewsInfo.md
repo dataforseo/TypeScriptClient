@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / OtherSitesReviewsInfo
 
 # Class: OtherSitesReviewsInfo
@@ -68,6 +72,7 @@ information about the rating enclosed in the review on a third-party site
 
 ___
 
+
 ### review\_text
 
 • `Optional` **review\_text**: `string`
@@ -85,6 +90,7 @@ text of the review
 
 ___
 
+
 ### title
 
 • `Optional` **title**: `string`
@@ -101,6 +107,7 @@ contains a name of the third-party site where review initially appeared
 [main.ts:195846](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L195846)
 
 ___
+
 
 ### url
 
@@ -139,6 +146,7 @@ URL to the a third-party site where review initially appeared
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -159,6 +167,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`OtherSitesReviewsInfo`](OtherSitesReviewsInfo.md)
@@ -176,3 +185,7 @@ ___
 #### Defined in
 
 [main.ts:195881](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L195881)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

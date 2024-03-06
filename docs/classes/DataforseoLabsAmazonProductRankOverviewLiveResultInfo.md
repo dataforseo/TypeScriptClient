@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / DataforseoLabsAmazonProductRankOverviewLiveResultInfo
 
 # Class: DataforseoLabsAmazonProductRankOverviewLiveResultInfo
@@ -69,6 +73,7 @@ contains detected Amazon product competitors and related data
 
 ___
 
+
 ### items\_count
 
 • `Optional` **items\_count**: `number`
@@ -84,6 +89,7 @@ the number of results returned in the items array
 [main.ts:100782](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L100782)
 
 ___
+
 
 ### language\_code
 
@@ -102,6 +108,7 @@ if there is no data, then the value is null
 
 ___
 
+
 ### location\_code
 
 • `Optional` **location\_code**: `number`
@@ -119,6 +126,7 @@ if there is no data, then the value is null
 
 ___
 
+
 ### se\_type
 
 • `Optional` **se\_type**: `string`
@@ -134,6 +142,7 @@ search engine type
 [main.ts:100772](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L100772)
 
 ___
+
 
 ### total\_count
 
@@ -171,6 +180,7 @@ total amount of results in our database relevant to your request
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -191,6 +201,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`DataforseoLabsAmazonProductRankOverviewLiveResultInfo`](DataforseoLabsAmazonProductRankOverviewLiveResultInfo.md)
@@ -208,3 +219,7 @@ ___
 #### Defined in
 
 [main.ts:100816](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L100816)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

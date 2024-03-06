@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / OnPageContentParsingLiveRequestInfo
 
 # Class: OnPageContentParsingLiveRequestInfo
@@ -78,6 +82,7 @@ Note: if you do not specify this parameter, some websites may deny access; in th
 
 ___
 
+
 ### browser\_preset
 
 • `Optional` **browser\_preset**: `string`
@@ -111,6 +116,7 @@ Note: to use this parameter, set enable_javascript or enable_browser_rendering t
 
 ___
 
+
 ### browser\_screen\_height
 
 • `Optional` **browser\_screen\_height**: `number`
@@ -132,6 +138,7 @@ maximum value, in pixels: 9999
 [main.ts:152589](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L152589)
 
 ___
+
 
 ### browser\_screen\_scale\_factor
 
@@ -155,6 +162,7 @@ maximum value: 3
 
 ___
 
+
 ### browser\_screen\_width
 
 • `Optional` **browser\_screen\_width**: `number`
@@ -177,6 +185,7 @@ maximum value, in pixels: 9999
 
 ___
 
+
 ### custom\_user\_agent
 
 • `Optional` **custom\_user\_agent**: `string`
@@ -198,11 +207,12 @@ default value: Mozilla/5.0 (compatible; RSiteAuditor)
 
 ___
 
+
 ### disable\_cookie\_popup
 
 • `Optional` **disable\_cookie\_popup**: `boolean`
 
-disable the cookie popup 
+disable the cookie popup
 optional field
 set to true if you want to disable the popup requesting cookie consent from the user;
 default value:
@@ -217,6 +227,7 @@ false
 [main.ts:152608](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L152608)
 
 ___
+
 
 ### enable\_browser\_rendering
 
@@ -241,6 +252,7 @@ Note: if you use this parameter, additional charges will apply; learn more about
 
 ___
 
+
 ### enable\_javascript
 
 • `Optional` **enable\_javascript**: `boolean`
@@ -260,6 +272,7 @@ Note: if you use this parameter, additional charges will apply; learn more about
 [main.ts:152619](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L152619)
 
 ___
+
 
 ### enable\_xhr
 
@@ -282,6 +295,7 @@ if you use this field, enable_javascript must be set to true;
 
 ___
 
+
 ### store\_raw\_html
 
 • `Optional` **store\_raw\_html**: `boolean`
@@ -300,6 +314,7 @@ default value: false
 [main.ts:152602](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L152602)
 
 ___
+
 
 ### url
 
@@ -341,6 +356,7 @@ https://www.fujielectric.com/
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -361,6 +377,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`OnPageContentParsingLiveRequestInfo`](OnPageContentParsingLiveRequestInfo.md)
@@ -378,3 +395,7 @@ ___
 #### Defined in
 
 [main.ts:152669](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L152669)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IKnowledgeGraphExpandedElement
 
 # Interface: IKnowledgeGraphExpandedElement
@@ -38,6 +42,7 @@ domain in SERP
 
 ___
 
+
 ### featured\_title
 
 • `Optional` **featured\_title**: `string`
@@ -49,6 +54,7 @@ title of a given element
 [main.ts:27026](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L27026)
 
 ___
+
 
 ### images
 
@@ -62,6 +68,7 @@ images of the element
 
 ___
 
+
 ### snippet
 
 • `Optional` **snippet**: `string`
@@ -74,6 +81,7 @@ text alongside the link title
 
 ___
 
+
 ### table
 
 • `Optional` **table**: [`Table`](../classes/Table.md)
@@ -85,6 +93,7 @@ table element
 [main.ts:27043](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L27043)
 
 ___
+
 
 ### timestamp
 
@@ -101,6 +110,7 @@ example:
 
 ___
 
+
 ### title
 
 • `Optional` **title**: `string`
@@ -112,6 +122,7 @@ title of the result in SERP
 [main.ts:27032](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L27032)
 
 ___
+
 
 ### type
 
@@ -125,6 +136,7 @@ type of element
 
 ___
 
+
 ### url
 
 • `Optional` **url**: `string`
@@ -134,3 +146,7 @@ relevant URL
 #### Defined in
 
 [main.ts:27028](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L27028)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

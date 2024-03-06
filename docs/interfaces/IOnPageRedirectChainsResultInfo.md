@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IOnPageRedirectChainsResultInfo
 
 # Interface: IOnPageRedirectChainsResultInfo
@@ -35,6 +39,7 @@ possible values: in_progress, finished
 
 ___
 
+
 ### crawl\_status
 
 • `Optional` **crawl\_status**: [`CrawlStatusInfo`](../classes/CrawlStatusInfo.md)
@@ -46,6 +51,7 @@ details of the crawling session
 [main.ts:149132](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L149132)
 
 ___
+
 
 ### items
 
@@ -59,6 +65,7 @@ items array
 
 ___
 
+
 ### items\_count
 
 • `Optional` **items\_count**: `number`
@@ -71,6 +78,7 @@ number of items in the results array
 
 ___
 
+
 ### total\_items\_count
 
 • `Optional` **total\_items\_count**: `number`
@@ -80,3 +88,7 @@ total number of relevant items in the database
 #### Defined in
 
 [main.ts:149134](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L149134)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

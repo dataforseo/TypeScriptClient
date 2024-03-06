@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / DiscussionsAndForumsElement
 
 # Class: DiscussionsAndForumsElement
@@ -71,6 +75,7 @@ description of the results element in SERP
 
 ___
 
+
 ### domain
 
 • `Optional` **domain**: `string`
@@ -86,6 +91,7 @@ domain where a link points
 [main.ts:35594](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L35594)
 
 ___
+
 
 ### posts\_count
 
@@ -103,6 +109,7 @@ number of posts from the discussion on the related source
 
 ___
 
+
 ### source
 
 • `Optional` **source**: `string`
@@ -119,6 +126,7 @@ indicates the source of information included in the element
 [main.ts:35597](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L35597)
 
 ___
+
 
 ### timestamp
 
@@ -139,6 +147,7 @@ example:
 
 ___
 
+
 ### title
 
 • `Optional` **title**: `string`
@@ -155,6 +164,7 @@ title of the row
 
 ___
 
+
 ### type
 
 • `Optional` **type**: `string`
@@ -170,6 +180,7 @@ type of element
 [main.ts:35588](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L35588)
 
 ___
+
 
 ### url
 
@@ -207,6 +218,7 @@ URL
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -227,6 +239,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`DiscussionsAndForumsElement`](DiscussionsAndForumsElement.md)
@@ -244,3 +257,7 @@ ___
 #### Defined in
 
 [main.ts:35636](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L35636)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

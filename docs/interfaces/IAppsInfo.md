@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IAppsInfo
 
 # Interface: IAppsInfo
@@ -32,6 +36,7 @@ ID of the app
 
 ___
 
+
 ### title
 
 • `Optional` **title**: `string`
@@ -44,6 +49,7 @@ title of the app
 
 ___
 
+
 ### url
 
 • `Optional` **url**: `string`
@@ -53,3 +59,7 @@ URL to the app page on Google Play
 #### Defined in
 
 [main.ts:179815](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L179815)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

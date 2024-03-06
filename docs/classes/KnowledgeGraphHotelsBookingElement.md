@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / KnowledgeGraphHotelsBookingElement
 
 # Class: KnowledgeGraphHotelsBookingElement
@@ -70,6 +74,7 @@ the description of the results element in SERP
 
 ___
 
+
 ### domain
 
 • `Optional` **domain**: `string`
@@ -85,6 +90,7 @@ domain in the URL
 [main.ts:35803](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L35803)
 
 ___
+
 
 ### is\_paid
 
@@ -102,6 +108,7 @@ indicates whether the element is an ad
 
 ___
 
+
 ### price
 
 • `Optional` **price**: [`PriceInfo`](PriceInfo.md)
@@ -117,6 +124,7 @@ price indicated in the element
 [main.ts:35805](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L35805)
 
 ___
+
 
 ### source
 
@@ -135,6 +143,7 @@ indicates the source of information included in the shopping_element
 
 ___
 
+
 ### type
 
 • `Optional` **type**: `string`
@@ -150,6 +159,7 @@ type of element
 [main.ts:35794](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L35794)
 
 ___
+
 
 ### url
 
@@ -187,6 +197,7 @@ URL
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -207,6 +218,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`KnowledgeGraphHotelsBookingElement`](KnowledgeGraphHotelsBookingElement.md)
@@ -224,3 +236,7 @@ ___
 #### Defined in
 
 [main.ts:35836](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L35836)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

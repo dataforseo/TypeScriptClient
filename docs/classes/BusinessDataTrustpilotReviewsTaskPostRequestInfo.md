@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / BusinessDataTrustpilotReviewsTaskPostRequestInfo
 
 # Class: BusinessDataTrustpilotReviewsTaskPostRequestInfo
@@ -75,6 +79,7 @@ maximum value: 25000
 
 ___
 
+
 ### domain
 
 • `Optional` **domain**: `string`
@@ -96,6 +101,7 @@ https://www.trustpilot.com/review/www.thepearlsource.com
 [main.ts:199416](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L199416)
 
 ___
+
 
 ### pingback\_url
 
@@ -121,6 +127,7 @@ i.a., the # symbol will be encoded into %23
 
 ___
 
+
 ### postback\_url
 
 • `Optional` **postback\_url**: `string`
@@ -145,6 +152,7 @@ i.a., the # symbol will be encoded into %23
 
 ___
 
+
 ### priority
 
 • `Optional` **priority**: `number`
@@ -167,6 +175,7 @@ The cost can be calculated on the Pricing page.
 
 ___
 
+
 ### sort\_by
 
 • `Optional` **sort\_by**: `string`
@@ -188,6 +197,7 @@ default value: relevance
 [main.ts:199424](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L199424)
 
 ___
+
 
 ### tag
 
@@ -229,6 +239,7 @@ you will find the specified tag value in the data object of the response
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -249,6 +260,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`BusinessDataTrustpilotReviewsTaskPostRequestInfo`](BusinessDataTrustpilotReviewsTaskPostRequestInfo.md)
@@ -266,3 +278,7 @@ ___
 #### Defined in
 
 [main.ts:199494](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L199494)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

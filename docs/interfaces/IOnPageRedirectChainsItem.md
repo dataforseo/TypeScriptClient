@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IOnPageRedirectChainsItem
 
 # Interface: IOnPageRedirectChainsItem
@@ -31,6 +35,7 @@ contains links that form a chain
 
 ___
 
+
 ### is\_redirect\_loop
 
 • `Optional` **is\_redirect\_loop**: `boolean`
@@ -41,3 +46,7 @@ if true, the last URL from the chain redirects back to the original URL
 #### Defined in
 
 [main.ts:149052](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L149052)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

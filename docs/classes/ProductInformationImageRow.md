@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / ProductInformationImageRow
 
 # Class: ProductInformationImageRow
@@ -5,7 +9,7 @@
 ## Hierarchy
 
 - [`BaseProductInformationRowItem`](BaseProductInformationRowItem.md)
-
+  
   ↳ **`ProductInformationImageRow`**
 
 ## Implements
@@ -74,6 +78,7 @@
 
 ___
 
+
 ### alt
 
 • `Optional` **alt**: `string`
@@ -89,6 +94,7 @@ alternative text of the related product image
 [main.ts:172556](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L172556)
 
 ___
+
 
 ### url
 
@@ -130,6 +136,7 @@ URL of the image
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -154,6 +161,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`ProductInformationImageRow`](ProductInformationImageRow.md)
@@ -175,3 +183,7 @@ ___
 #### Defined in
 
 [main.ts:172579](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L172579)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

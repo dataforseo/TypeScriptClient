@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / DataforseoLabsBingPageIntersectionLiveResultInfo
 
 # Class: DataforseoLabsBingPageIntersectionLiveResultInfo
@@ -71,6 +75,7 @@ URLs you specified in a POST array that will be excluded from the results
 
 ___
 
+
 ### items
 
 • `Optional` **items**: [`DataforseoLabsPageIntersectionLiveItem`](DataforseoLabsPageIntersectionLiveItem.md)[]
@@ -86,6 +91,7 @@ contains keywords, relevant SERP elements and related data
 [main.ts:104742](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L104742)
 
 ___
+
 
 ### items\_count
 
@@ -103,6 +109,7 @@ the number of results returned in the items array
 
 ___
 
+
 ### language\_code
 
 • `Optional` **language\_code**: `string`
@@ -119,6 +126,7 @@ language code in a POST array
 
 ___
 
+
 ### location\_code
 
 • `Optional` **location\_code**: `number`
@@ -134,6 +142,7 @@ location code in a POST array
 [main.ts:104734](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L104734)
 
 ___
+
 
 ### pages
 
@@ -155,6 +164,7 @@ URLs you specified a POST array
 
 ___
 
+
 ### se\_type
 
 • `Optional` **se\_type**: `string`
@@ -172,6 +182,7 @@ for this endpoint, the field equals bing
 [main.ts:104728](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L104728)
 
 ___
+
 
 ### total\_count
 
@@ -209,6 +220,7 @@ total amount of results in our database relevant to your request
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -229,6 +241,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`DataforseoLabsBingPageIntersectionLiveResultInfo`](DataforseoLabsBingPageIntersectionLiveResultInfo.md)
@@ -246,3 +259,7 @@ ___
 #### Defined in
 
 [main.ts:104786](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L104786)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / ContentGenerationGenerateLiveRequestInfo
 
 # Class: ContentGenerationGenerateLiveRequestInfo
@@ -80,6 +84,7 @@ example:
 
 ___
 
+
 ### avoid\_words
 
 • `Optional` **avoid\_words**: `string`[]
@@ -99,6 +104,7 @@ example:
 [main.ts:159808](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L159808)
 
 ___
+
 
 ### creativity\_index
 
@@ -122,6 +128,7 @@ learn more about this parameter on our help center
 
 ___
 
+
 ### max\_new\_tokens
 
 • `Optional` **max\_new\_tokens**: `number`
@@ -142,6 +149,7 @@ learn more about this parameter on our help center
 [main.ts:159756](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L159756)
 
 ___
+
 
 ### max\_tokens
 
@@ -164,6 +172,7 @@ learn more about this parameter on our help center
 
 ___
 
+
 ### stop\_words
 
 • `Optional` **stop\_words**: `string`[]
@@ -183,6 +192,7 @@ example:
 [main.ts:159820](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L159820)
 
 ___
+
 
 ### supplement\_token
 
@@ -204,6 +214,7 @@ supplement_token values are unique for each subsequent task
 
 ___
 
+
 ### tag
 
 • `Optional` **tag**: `string`
@@ -223,6 +234,7 @@ you will find the specified tag value in the data object of the response
 [main.ts:159832](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L159832)
 
 ___
+
 
 ### temperature
 
@@ -246,6 +258,7 @@ learn more about this parameter on our help center
 
 ___
 
+
 ### text
 
 • `Optional` **text**: `string`
@@ -266,6 +279,7 @@ learn more about tokens on our help center
 
 ___
 
+
 ### token\_repetition\_penalty
 
 • `Optional` **token\_repetition\_penalty**: `number`
@@ -285,6 +299,7 @@ default value: 1
 [main.ts:159777](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L159777)
 
 ___
+
 
 ### top\_k
 
@@ -307,6 +322,7 @@ learn more about this parameter on our help center
 [main.ts:159785](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L159785)
 
 ___
+
 
 ### top\_p
 
@@ -351,6 +367,7 @@ learn more about this parameter on our help center
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -371,6 +388,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`ContentGenerationGenerateLiveRequestInfo`](ContentGenerationGenerateLiveRequestInfo.md)
@@ -388,3 +406,7 @@ ___
 #### Defined in
 
 [main.ts:159879](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L159879)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

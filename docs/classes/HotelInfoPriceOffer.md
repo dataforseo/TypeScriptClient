@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / HotelInfoPriceOffer
 
 # Class: HotelInfoPriceOffer
@@ -74,6 +78,7 @@ USD is applied by default, unless specified in the POST array
 
 ___
 
+
 ### free\_cancellation\_until
 
 • `Optional` **free\_cancellation\_until**: `string`
@@ -92,6 +97,7 @@ equals null if free cancellation is not available for the selected dates
 
 ___
 
+
 ### max\_visitors
 
 • `Optional` **max\_visitors**: `number`
@@ -108,6 +114,7 @@ the maximum number of visitors for which the price offer is valid
 [main.ts:193468](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L193468)
 
 ___
+
 
 ### offer\_images
 
@@ -126,6 +133,7 @@ URLs of the images featured in the price offer
 
 ___
 
+
 ### price
 
 • `Optional` **price**: `number`
@@ -141,6 +149,7 @@ price per night
 [main.ts:193459](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L193459)
 
 ___
+
 
 ### title
 
@@ -158,6 +167,7 @@ title of the hotel
 
 ___
 
+
 ### type
 
 • `Optional` **type**: `string`
@@ -173,6 +183,7 @@ type of element
 [main.ts:193455](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L193455)
 
 ___
+
 
 ### url
 
@@ -211,6 +222,7 @@ URL to the page of the website where price offer appears
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -231,6 +243,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`HotelInfoPriceOffer`](HotelInfoPriceOffer.md)
@@ -248,3 +261,7 @@ ___
 #### Defined in
 
 [main.ts:193509](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L193509)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

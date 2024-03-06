@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / BacklinksPageIntersectionLiveItem
 
 # Class: BacklinksPageIntersectionLiveItem
@@ -70,6 +74,7 @@ data is provided in separate objects corresponding to pages specified in the tar
 
 ___
 
+
 ### summary
 
 • `Optional` **summary**: [`Summary`](Summary.md)
@@ -106,6 +111,7 @@ contains the page intersections summary
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -126,6 +132,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`BacklinksPageIntersectionLiveItem`](BacklinksPageIntersectionLiveItem.md)
@@ -143,3 +150,7 @@ ___
 #### Defined in
 
 [main.ts:138122](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L138122)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

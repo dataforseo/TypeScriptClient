@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / GoogleShoppingPaidMerchantSerpElementItem
 
 # Class: GoogleShoppingPaidMerchantSerpElementItem
@@ -5,7 +9,7 @@
 ## Hierarchy
 
 - [`BaseMerchantSerpElementItem`](BaseMerchantSerpElementItem.md)
-
+  
   ↳ **`GoogleShoppingPaidMerchantSerpElementItem`**
 
 ## Implements
@@ -81,6 +85,7 @@
 
 ___
 
+
 ### description
 
 • `Optional` **description**: `string`
@@ -97,6 +102,7 @@ description of the product in Google Shopping SERP
 
 ___
 
+
 ### domain
 
 • `Optional` **domain**: `string`
@@ -112,6 +118,7 @@ domain in SERP
 [main.ts:164949](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L164949)
 
 ___
+
 
 ### position
 
@@ -131,6 +138,7 @@ left, right
 
 ___
 
+
 ### rank\_absolute
 
 • `Optional` **rank\_absolute**: `number`
@@ -147,6 +155,7 @@ absolute position among all the elements found in Google Shopping SERP
 [main.ts:164941](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L164941)
 
 ___
+
 
 ### rank\_group
 
@@ -165,6 +174,7 @@ positions of elements with different type values are omitted from rank_group
 
 ___
 
+
 ### shop\_ad\_aclk
 
 • `Optional` **shop\_ad\_aclk**: `string`
@@ -182,6 +192,7 @@ using this parameter you can get a URL of the advertisement in Google Shopping S
 
 ___
 
+
 ### title
 
 • `Optional` **title**: `string`
@@ -198,6 +209,7 @@ product title
 
 ___
 
+
 ### url
 
 • `Optional` **url**: `string`
@@ -213,6 +225,7 @@ URL to the product page on the seller’s website
 [main.ts:164955](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L164955)
 
 ___
+
 
 ### xpath
 
@@ -254,6 +267,7 @@ XPath of the element
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -278,6 +292,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`GoogleShoppingPaidMerchantSerpElementItem`](GoogleShoppingPaidMerchantSerpElementItem.md)
@@ -299,3 +314,7 @@ ___
 #### Defined in
 
 [main.ts:164986](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L164986)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

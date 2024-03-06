@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / BacklinksBulkSpamScoreLiveItem
 
 # Class: BacklinksBulkSpamScoreLiveItem
@@ -67,6 +71,7 @@ learn more about how the metric is calculated
 
 ___
 
+
 ### target
 
 • `Optional` **target**: `string`
@@ -82,6 +87,7 @@ domain, subdomain or webpage from a POST array
 [main.ts:140083](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L140083)
 
 ___
+
 
 ### type
 
@@ -119,6 +125,7 @@ type of element
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -139,6 +146,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`BacklinksBulkSpamScoreLiveItem`](BacklinksBulkSpamScoreLiveItem.md)
@@ -156,3 +164,7 @@ ___
 #### Defined in
 
 [main.ts:140111](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L140111)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / BacklinksPageMeta
 
 # Class: BacklinksPageMeta
@@ -80,6 +84,7 @@ canonical page
 
 ___
 
+
 ### charset
 
 • `Optional` **charset**: `string`
@@ -98,6 +103,7 @@ utf-8
 
 ___
 
+
 ### external\_links\_count
 
 • `Optional` **external\_links\_count**: `number`
@@ -113,6 +119,7 @@ number of external links on the page
 [main.ts:132721](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L132721)
 
 ___
+
 
 ### h1
 
@@ -131,6 +138,7 @@ content of h1 tags
 
 ___
 
+
 ### h2
 
 • `Optional` **h2**: `string`[]
@@ -147,6 +155,7 @@ content of h2 tags
 [main.ts:132738](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L132738)
 
 ___
+
 
 ### h3
 
@@ -165,6 +174,7 @@ content of h3 tags
 
 ___
 
+
 ### images\_alt
 
 • `Optional` **images\_alt**: `string`[]
@@ -180,6 +190,7 @@ content of alt tags
 [main.ts:132743](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L132743)
 
 ___
+
 
 ### images\_count
 
@@ -197,6 +208,7 @@ number of images on the page
 
 ___
 
+
 ### internal\_links\_count
 
 • `Optional` **internal\_links\_count**: `number`
@@ -212,6 +224,7 @@ number of internal links on the page
 [main.ts:132719](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L132719)
 
 ___
+
 
 ### language
 
@@ -231,6 +244,7 @@ en
 
 ___
 
+
 ### page\_spam\_score
 
 • `Optional` **page\_spam\_score**: `number`
@@ -248,6 +262,7 @@ learn more about how the metric is calculated on this help center page
 
 ___
 
+
 ### platform\_type
 
 • `Optional` **platform\_type**: `string`[]
@@ -264,6 +279,7 @@ type of a platform
 
 ___
 
+
 ### powered\_by
 
 • `Optional` **powered\_by**: `string`[]
@@ -279,6 +295,7 @@ CMS details
 [main.ts:132745](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L132745)
 
 ___
+
 
 ### social\_media\_tags
 
@@ -302,6 +319,7 @@ supported tags include but are not limited to Open Graph and Twitter card
 
 ___
 
+
 ### technologies
 
 • `Optional` **technologies**: `Object`
@@ -322,6 +340,7 @@ website technologies
 
 ___
 
+
 ### title
 
 • `Optional` **title**: `string`
@@ -337,6 +356,7 @@ page title
 [main.ts:132715](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L132715)
 
 ___
+
 
 ### words\_count
 
@@ -374,6 +394,7 @@ number of words on the page
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -394,6 +415,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`BacklinksPageMeta`](BacklinksPageMeta.md)
@@ -411,3 +433,7 @@ ___
 #### Defined in
 
 [main.ts:132832](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L132832)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

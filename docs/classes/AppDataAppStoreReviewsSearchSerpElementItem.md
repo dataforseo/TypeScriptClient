@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / AppDataAppStoreReviewsSearchSerpElementItem
 
 # Class: AppDataAppStoreReviewsSearchSerpElementItem
@@ -5,7 +9,7 @@
 ## Hierarchy
 
 - [`BaseAppDataSerpElementItem`](BaseAppDataSerpElementItem.md)
-
+  
   ↳ **`AppDataAppStoreReviewsSearchSerpElementItem`**
 
 ## Implements
@@ -82,6 +86,7 @@
 
 ___
 
+
 ### id
 
 • `Optional` **id**: `string`
@@ -97,6 +102,7 @@ id of the review
 [main.ts:186221](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L186221)
 
 ___
+
 
 ### position
 
@@ -115,6 +121,7 @@ can take the following values: left
 
 ___
 
+
 ### rank\_absolute
 
 • `Optional` **rank\_absolute**: `number`
@@ -131,6 +138,7 @@ absolute position among all reviews on the list
 [main.ts:186206](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L186206)
 
 ___
+
 
 ### rank\_group
 
@@ -149,6 +157,7 @@ positions of elements with different type values are omitted from rank_group
 
 ___
 
+
 ### rating
 
 • `Optional` **rating**: [`RatingInfo`](RatingInfo.md)
@@ -165,6 +174,7 @@ the rating score submitted by the reviewer
 
 ___
 
+
 ### review\_text
 
 • `Optional` **review\_text**: `string`
@@ -180,6 +190,7 @@ content of the review
 [main.ts:186225](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L186225)
 
 ___
+
 
 ### timestamp
 
@@ -200,6 +211,7 @@ example:
 
 ___
 
+
 ### title
 
 • `Optional` **title**: `string`
@@ -216,6 +228,7 @@ title of the review
 
 ___
 
+
 ### user\_profile
 
 • `Optional` **user\_profile**: [`AppUserProfileInfo`](AppUserProfileInfo.md)
@@ -231,6 +244,7 @@ user profile of the reviewer
 [main.ts:186227](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L186227)
 
 ___
+
 
 ### version
 
@@ -273,6 +287,7 @@ version of the app for which the review is submitted
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -297,6 +312,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`AppDataAppStoreReviewsSearchSerpElementItem`](AppDataAppStoreReviewsSearchSerpElementItem.md)
@@ -318,3 +334,7 @@ ___
 #### Defined in
 
 [main.ts:186256](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L186256)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

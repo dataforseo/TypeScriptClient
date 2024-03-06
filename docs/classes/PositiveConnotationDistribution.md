@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / PositiveConnotationDistribution
 
 # Class: PositiveConnotationDistribution
@@ -64,6 +68,7 @@
 
 ___
 
+
 ### neutral
 
 • `Optional` **neutral**: [`ContentAnalysisSummaryInfo`](ContentAnalysisSummaryInfo.md)
@@ -77,6 +82,7 @@ ___
 [main.ts:157850](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L157850)
 
 ___
+
 
 ### positive
 
@@ -112,6 +118,7 @@ ___
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -132,6 +139,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`PositiveConnotationDistribution`](PositiveConnotationDistribution.md)
@@ -149,3 +157,7 @@ ___
 #### Defined in
 
 [main.ts:157875](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L157875)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

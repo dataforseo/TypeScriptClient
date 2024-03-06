@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / BacklinksDomainIntersectionLiveResultInfo
 
 # Class: BacklinksDomainIntersectionLiveResultInfo
@@ -67,6 +71,7 @@ contains domain that link to all targets from the POST array
 
 ___
 
+
 ### items\_count
 
 • `Optional` **items\_count**: `number`
@@ -82,6 +87,7 @@ the number of results returned in the items array
 [main.ts:137141](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L137141)
 
 ___
+
 
 ### targets
 
@@ -102,6 +108,7 @@ target domains, subdomains or webpages in a POST array
 [main.ts:137137](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L137137)
 
 ___
+
 
 ### total\_count
 
@@ -139,6 +146,7 @@ total amount of results relevant to your request
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -159,6 +167,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`BacklinksDomainIntersectionLiveResultInfo`](BacklinksDomainIntersectionLiveResultInfo.md)
@@ -176,3 +185,7 @@ ___
 #### Defined in
 
 [main.ts:137179](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L137179)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

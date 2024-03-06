@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / KnowledgeGraphListItemSerpElementItem
 
 # Class: KnowledgeGraphListItemSerpElementItem
@@ -5,7 +9,7 @@
 ## Hierarchy
 
 - [`BaseSerpElementItem`](BaseSerpElementItem.md)
-
+  
   ↳ **`KnowledgeGraphListItemSerpElementItem`**
 
 ## Implements
@@ -81,6 +85,7 @@
 
 ___
 
+
 ### data\_attrid
 
 • `Optional` **data\_attrid**: `string`
@@ -99,6 +104,7 @@ ss:/webfacts:net_worth
 
 ___
 
+
 ### items
 
 • `Optional` **items**: [`KnowledgeGraphListElement`](KnowledgeGraphListElement.md)[]
@@ -116,6 +122,7 @@ if there are none, equals null
 
 ___
 
+
 ### link
 
 • `Optional` **link**: [`LinkElement`](LinkElement.md)
@@ -131,6 +138,7 @@ link of the element
 [main.ts:26641](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L26641)
 
 ___
+
 
 ### position
 
@@ -150,6 +158,7 @@ left, right
 
 ___
 
+
 ### rank\_absolute
 
 • `Optional` **rank\_absolute**: `number`
@@ -166,6 +175,7 @@ absolute position among all the elements in SERP
 [main.ts:26627](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L26627)
 
 ___
+
 
 ### rank\_group
 
@@ -185,6 +195,7 @@ positions of elements with different type values are omitted from rank_group
 
 ___
 
+
 ### rectangle
 
 • `Optional` **rectangle**: [`Rectangle`](Rectangle.md)
@@ -203,6 +214,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 ___
 
+
 ### title
 
 • `Optional` **title**: `string`
@@ -218,6 +230,7 @@ title of the link element
 [main.ts:26635](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L26635)
 
 ___
+
 
 ### xpath
 
@@ -259,6 +272,7 @@ the XPath of the element
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -283,6 +297,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`KnowledgeGraphListItemSerpElementItem`](KnowledgeGraphListItemSerpElementItem.md)
@@ -304,3 +319,7 @@ ___
 #### Defined in
 
 [main.ts:26680](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L26680)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

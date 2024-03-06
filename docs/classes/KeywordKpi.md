@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / KeywordKpi
 
 # Class: KeywordKpi
@@ -67,6 +71,7 @@ if there is no data, then the value is null
 
 ___
 
+
 ### mobile
 
 • `Optional` **mobile**: [`KeywordKpiInfo`](KeywordKpiInfo.md)[]
@@ -83,6 +88,7 @@ if there is no data, then the value is null
 [main.ts:127253](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L127253)
 
 ___
+
 
 ### tablet
 
@@ -121,6 +127,7 @@ if there is no data, then the value is null
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -141,6 +148,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`KeywordKpi`](KeywordKpi.md)
@@ -158,3 +166,7 @@ ___
 #### Defined in
 
 [main.ts:127293](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L127293)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

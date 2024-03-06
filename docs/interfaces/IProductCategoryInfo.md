@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IProductCategoryInfo
 
 # Interface: IProductCategoryInfo
@@ -31,6 +35,7 @@ product category name
 
 ___
 
+
 ### url
 
 • `Optional` **url**: `string`
@@ -41,3 +46,7 @@ indicates the browse path on Amazon with the unique browse node ID (product cate
 #### Defined in
 
 [main.ts:172429](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L172429)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

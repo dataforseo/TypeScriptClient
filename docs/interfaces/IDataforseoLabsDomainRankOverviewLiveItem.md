@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IDataforseoLabsDomainRankOverviewLiveItem
 
 # Interface: IDataforseoLabsDomainRankOverviewLiveItem
@@ -33,6 +37,7 @@ language code in a POST array
 
 ___
 
+
 ### location\_code
 
 • `Optional` **location\_code**: `number`
@@ -44,6 +49,7 @@ location code in a POST array
 [main.ts:90739](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L90739)
 
 ___
+
 
 ### metrics
 
@@ -61,6 +67,7 @@ ranking data relevant to the specified domain
 
 ___
 
+
 ### se\_type
 
 • `Optional` **se\_type**: `string`
@@ -70,3 +77,7 @@ search engine type
 #### Defined in
 
 [main.ts:90737](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L90737)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

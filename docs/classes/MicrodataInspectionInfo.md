@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / MicrodataInspectionInfo
 
 # Class: MicrodataInspectionInfo
@@ -66,6 +70,7 @@ an array of objects containing data fields related to the certain microdata type
 
 ___
 
+
 ### types
 
 • `Optional` **types**: `string`[]
@@ -103,6 +108,7 @@ for a full list of available types, please visit schema.org
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -123,6 +129,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`MicrodataInspectionInfo`](MicrodataInspectionInfo.md)
@@ -140,3 +147,7 @@ ___
 #### Defined in
 
 [main.ts:150845](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L150845)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

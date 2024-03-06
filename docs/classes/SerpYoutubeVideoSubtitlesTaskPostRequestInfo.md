@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / SerpYoutubeVideoSubtitlesTaskPostRequestInfo
 
 # Class: SerpYoutubeVideoSubtitlesTaskPostRequestInfo
@@ -79,6 +83,7 @@ only value: desktop
 
 ___
 
+
 ### language\_code
 
 • `Optional` **language\_code**: `string`
@@ -99,6 +104,7 @@ en
 [main.ts:59487](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L59487)
 
 ___
+
 
 ### language\_name
 
@@ -121,6 +127,7 @@ English
 
 ___
 
+
 ### location\_code
 
 • `Optional` **location\_code**: `number`
@@ -141,6 +148,7 @@ example:
 [main.ts:59473](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L59473)
 
 ___
+
 
 ### location\_name
 
@@ -163,6 +171,7 @@ United States
 
 ___
 
+
 ### os
 
 • `Optional` **os**: `string`
@@ -181,6 +190,7 @@ default value: windows
 [main.ts:59496](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L59496)
 
 ___
+
 
 ### pingback\_url
 
@@ -206,6 +216,7 @@ i.a., the # symbol will be encoded into %23
 
 ___
 
+
 ### postback\_data
 
 • `Optional` **postback\_data**: `string`
@@ -225,6 +236,7 @@ advanced
 [main.ts:59518](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L59518)
 
 ___
+
 
 ### postback\_url
 
@@ -250,6 +262,7 @@ i.a., the # symbol will be encoded into %23
 
 ___
 
+
 ### priority
 
 • `Optional` **priority**: `number`
@@ -272,6 +285,7 @@ The cost can be calculated on the Pricing page.
 
 ___
 
+
 ### subtitles\_language
 
 • `Optional` **subtitles\_language**: `string`
@@ -288,6 +302,7 @@ you can get the language code from YouTube Video Info result
 [main.ts:59455](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L59455)
 
 ___
+
 
 ### subtitles\_translate\_language
 
@@ -306,6 +321,7 @@ possible values:
 [main.ts:59459](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L59459)
 
 ___
+
 
 ### tag
 
@@ -326,6 +342,7 @@ you will find the specified tag value in the data object of the response
 [main.ts:59502](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L59502)
 
 ___
+
 
 ### video\_id
 
@@ -367,6 +384,7 @@ Y8Wu4rSNJms
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -387,6 +405,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`SerpYoutubeVideoSubtitlesTaskPostRequestInfo`](SerpYoutubeVideoSubtitlesTaskPostRequestInfo.md)
@@ -404,3 +423,7 @@ ___
 #### Defined in
 
 [main.ts:59564](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L59564)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

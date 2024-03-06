@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / ContentAnalysisSearchLiveRequestInfo
 
 # Class: ContentAnalysisSearchLiveRequestInfo
@@ -88,6 +92,7 @@ for more information about filters, please refer to Content Analysis API – Fil
 
 ___
 
+
 ### keyword
 
 • `Optional` **keyword**: `string`
@@ -111,6 +116,7 @@ example:
 
 ___
 
+
 ### keyword\_fields
 
 • `Optional` **keyword\_fields**: `Object`
@@ -123,8 +129,8 @@ you can indicate several fields;
 Note: to match an exact phrase instead of a stand-alone keyword, use double quotes and backslashes;
 example:
 "keyword_fields": {
-    "snippet": "\"logitech mouse\"",
-    "main_title": "sale"
+"snippet": "\"logitech mouse\"",
+"main_title": "sale"
 }
 
 #### Index signature
@@ -140,6 +146,7 @@ example:
 [main.ts:156060](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L156060)
 
 ___
+
 
 ### limit
 
@@ -160,6 +167,7 @@ maximum value: 20000
 
 ___
 
+
 ### offset
 
 • `Optional` **offset**: `number`
@@ -178,6 +186,7 @@ if you specify the 10 value, the first ten citations in the results array will b
 [main.ts:156116](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L156116)
 
 ___
+
 
 ### offset\_token
 
@@ -200,6 +209,7 @@ Note: if the offset_token is specified in the request, all other parameters exce
 [main.ts:156124](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L156124)
 
 ___
+
 
 ### order\_by
 
@@ -231,6 +241,7 @@ example:
 
 ___
 
+
 ### page\_type
 
 • `Optional` **page\_type**: `string`[]
@@ -250,6 +261,7 @@ possible values:
 [main.ts:156066](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L156066)
 
 ___
+
 
 ### search\_mode
 
@@ -271,6 +283,7 @@ default value: as_is
 [main.ts:156073](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L156073)
 
 ___
+
 
 ### tag
 
@@ -312,6 +325,7 @@ you will find the specified tag value in the data object of the response
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -332,6 +346,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`ContentAnalysisSearchLiveRequestInfo`](ContentAnalysisSearchLiveRequestInfo.md)
@@ -349,3 +364,7 @@ ___
 #### Defined in
 
 [main.ts:156180](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L156180)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / DomainAnalyticsTechnologiesTechnologyStatsLiveResultInfo
 
 # Class: DomainAnalyticsTechnologiesTechnologyStatsLiveResultInfo
@@ -68,6 +72,7 @@ starting date of the time range
 
 ___
 
+
 ### date\_to
 
 • `Optional` **date\_to**: `string`
@@ -83,6 +88,7 @@ ending date of the time range
 [main.ts:73728](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L73728)
 
 ___
+
 
 ### items
 
@@ -100,6 +106,7 @@ items array
 
 ___
 
+
 ### items\_count
 
 • `Optional` **items\_count**: `number`
@@ -115,6 +122,7 @@ number of items in the results array
 [main.ts:73730](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L73730)
 
 ___
+
 
 ### technology
 
@@ -152,6 +160,7 @@ target technology
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -172,6 +181,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`DomainAnalyticsTechnologiesTechnologyStatsLiveResultInfo`](DomainAnalyticsTechnologiesTechnologyStatsLiveResultInfo.md)
@@ -189,3 +199,7 @@ ___
 #### Defined in
 
 [main.ts:73763](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L73763)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

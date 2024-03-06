@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / VideoElement
 
 # Class: VideoElement
@@ -69,6 +73,7 @@ URL to the video preview image
 
 ___
 
+
 ### source
 
 • `Optional` **source**: `string`
@@ -85,6 +90,7 @@ indicates the source of information included in the element
 [main.ts:30095](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L30095)
 
 ___
+
 
 ### timestamp
 
@@ -105,6 +111,7 @@ example:
 
 ___
 
+
 ### title
 
 • `Optional` **title**: `string`
@@ -121,6 +128,7 @@ title of the row
 
 ___
 
+
 ### type
 
 • `Optional` **type**: `string`
@@ -136,6 +144,7 @@ type of element
 [main.ts:30092](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L30092)
 
 ___
+
 
 ### url
 
@@ -173,6 +182,7 @@ URL
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -193,6 +203,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`VideoElement`](VideoElement.md)
@@ -210,3 +221,7 @@ ___
 #### Defined in
 
 [main.ts:30134](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L30134)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

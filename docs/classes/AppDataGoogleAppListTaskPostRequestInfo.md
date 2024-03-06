@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / AppDataGoogleAppListTaskPostRequestInfo
 
 # Class: AppDataGoogleAppListTaskPostRequestInfo
@@ -84,6 +88,7 @@ Note: this filter works only in conjunction with the "category": "family" parame
 
 ___
 
+
 ### app\_category
 
 • `Optional` **app\_category**: `string`
@@ -106,6 +111,7 @@ Note: app_category cannot be used if app_collection parameter is set to featured
 
 ___
 
+
 ### app\_collection
 
 • `Optional` **app\_collection**: `string`
@@ -126,6 +132,7 @@ Note: if featured is selected, the app_category parameter cannot be used
 [main.ts:178241](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L178241)
 
 ___
+
 
 ### depth
 
@@ -148,6 +155,7 @@ maximum value: 200
 
 ___
 
+
 ### language\_code
 
 • `Optional` **language\_code**: `string`
@@ -168,6 +176,7 @@ en
 [main.ts:178269](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L178269)
 
 ___
+
 
 ### language\_name
 
@@ -190,6 +199,7 @@ English
 
 ___
 
+
 ### location\_code
 
 • `Optional` **location\_code**: `number`
@@ -211,6 +221,7 @@ example:
 
 ___
 
+
 ### location\_name
 
 • `Optional` **location\_name**: `string`
@@ -231,6 +242,7 @@ West Los Angeles,California,United States
 [main.ts:178248](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L178248)
 
 ___
+
 
 ### pingback\_url
 
@@ -256,6 +268,7 @@ i.a., the # symbol will be encoded into %23
 
 ___
 
+
 ### postback\_data
 
 • `Optional` **postback\_data**: `string`
@@ -275,6 +288,7 @@ advanced, html
 [main.ts:178324](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L178324)
 
 ___
+
 
 ### postback\_url
 
@@ -300,6 +314,7 @@ i.a., the # symbol will be encoded into %23
 
 ___
 
+
 ### priority
 
 • `Optional` **priority**: `number`
@@ -321,6 +336,7 @@ The cost can be calculated on the Pricing page.
 [main.ts:178277](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L178277)
 
 ___
+
 
 ### tag
 
@@ -362,6 +378,7 @@ you will find the specified tag value in the data object of the response
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -382,6 +399,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`AppDataGoogleAppListTaskPostRequestInfo`](AppDataGoogleAppListTaskPostRequestInfo.md)
@@ -399,3 +417,7 @@ ___
 #### Defined in
 
 [main.ts:178369](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L178369)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

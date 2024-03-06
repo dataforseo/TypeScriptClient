@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / ImageResourceElementItem
 
 # Class: ImageResourceElementItem
@@ -5,7 +9,7 @@
 ## Hierarchy
 
 - [`BaseOnPageResourceItemInfo`](BaseOnPageResourceItemInfo.md)
-
+  
   ↳ **`ImageResourceElementItem`**
 
 ## Implements
@@ -89,6 +93,7 @@
 
 ___
 
+
 ### accept\_type
 
 • `Optional` **accept\_type**: `string`
@@ -108,6 +113,7 @@ any, none, image, sitemap, robots, script, stylesheet, redirect, html, text, oth
 
 ___
 
+
 ### cache\_control
 
 • `Optional` **cache\_control**: [`CacheControl`](CacheControl.md)
@@ -123,6 +129,7 @@ instructions for caching
 [main.ts:146652](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L146652)
 
 ___
+
 
 ### checks
 
@@ -145,6 +152,7 @@ contents of the array depend on the resource_type
 
 ___
 
+
 ### content\_encoding
 
 • `Optional` **content\_encoding**: `string`
@@ -160,6 +168,7 @@ type of encoding
 [main.ts:146657](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L146657)
 
 ___
+
 
 ### encoded\_size
 
@@ -177,6 +186,7 @@ indicates the size of the encoded resource measured in bytes
 [main.ts:146640](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L146640)
 
 ___
+
 
 ### fetch\_time
 
@@ -197,6 +207,7 @@ example:
 
 ___
 
+
 ### fetch\_timing
 
 • `Optional` **fetch\_timing**: [`FetchTiming`](FetchTiming.md)
@@ -212,6 +223,7 @@ resource fething time range
 [main.ts:146650](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L146650)
 
 ___
+
 
 ### last\_modified
 
@@ -230,6 +242,7 @@ if there is no data, the value will be null
 
 ___
 
+
 ### location
 
 • `Optional` **location**: `string`
@@ -247,6 +260,7 @@ indicates the URL to redirect a page to
 
 ___
 
+
 ### media\_type
 
 • `Optional` **media\_type**: `string`
@@ -262,6 +276,7 @@ types of media used to display a resource
 [main.ts:146659](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L146659)
 
 ___
+
 
 ### meta
 
@@ -282,6 +297,7 @@ to obtain resource’s meta from a particular url, specify that URL when setting
 
 ___
 
+
 ### resource\_errors
 
 • `Optional` **resource\_errors**: [`OnPageResourceIssueInfo`](OnPageResourceIssueInfo.md)
@@ -298,6 +314,7 @@ resource errors and warnings
 
 ___
 
+
 ### server
 
 • `Optional` **server**: `string`
@@ -313,6 +330,7 @@ server version
 [main.ts:146666](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L146666)
 
 ___
+
 
 ### size
 
@@ -331,6 +349,7 @@ indicates the size of a given resource measured in bytes
 
 ___
 
+
 ### status\_code
 
 • `Optional` **status\_code**: `number`
@@ -346,6 +365,7 @@ status code of the page where a given resource is located
 [main.ts:146629](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L146629)
 
 ___
+
 
 ### total\_transfer\_size
 
@@ -363,6 +383,7 @@ indicates the compressed size of a given resource in bytes
 [main.ts:146643](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L146643)
 
 ___
+
 
 ### url
 
@@ -404,6 +425,7 @@ resource URL
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -428,6 +450,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`ImageResourceElementItem`](ImageResourceElementItem.md)
@@ -449,3 +472,7 @@ ___
 #### Defined in
 
 [main.ts:146713](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L146713)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

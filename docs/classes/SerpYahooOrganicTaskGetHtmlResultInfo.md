@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / SerpYahooOrganicTaskGetHtmlResultInfo
 
 # Class: SerpYahooOrganicTaskGetHtmlResultInfo
@@ -74,6 +78,7 @@ example:
 
 ___
 
+
 ### items
 
 • `Optional` **items**: [`HtmlItem`](HtmlItem.md)[]
@@ -90,6 +95,7 @@ elements of search results found in SERP
 
 ___
 
+
 ### items\_count
 
 • `Optional` **items\_count**: `number`
@@ -105,6 +111,7 @@ the number of results returned in the items array
 [main.ts:64264](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L64264)
 
 ___
+
 
 ### keyword
 
@@ -123,6 +130,7 @@ keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a s
 
 ___
 
+
 ### language\_code
 
 • `Optional` **language\_code**: `string`
@@ -138,6 +146,7 @@ language code in a POST array
 [main.ts:64257](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L64257)
 
 ___
+
 
 ### location\_code
 
@@ -155,6 +164,7 @@ location code in a POST array
 
 ___
 
+
 ### se\_domain
 
 • `Optional` **se\_domain**: `string`
@@ -170,6 +180,7 @@ search engine domain in a POST array
 [main.ts:64253](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L64253)
 
 ___
+
 
 ### type
 
@@ -207,6 +218,7 @@ type of element
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -227,6 +239,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`SerpYahooOrganicTaskGetHtmlResultInfo`](SerpYahooOrganicTaskGetHtmlResultInfo.md)
@@ -244,3 +257,7 @@ ___
 #### Defined in
 
 [main.ts:64300](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L64300)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

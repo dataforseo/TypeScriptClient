@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / YoutubeVideoInfoSerpElementItem
 
 # Class: YoutubeVideoInfoSerpElementItem
@@ -5,7 +9,7 @@
 ## Hierarchy
 
 - [`BaseSerpElementItem`](BaseSerpElementItem.md)
-
+  
   ↳ **`YoutubeVideoInfoSerpElementItem`**
 
 ## Implements
@@ -95,6 +99,7 @@
 
 ___
 
+
 ### category
 
 • `Optional` **category**: `string`
@@ -110,6 +115,7 @@ the category the video belongs to
 [main.ts:58622](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L58622)
 
 ___
+
 
 ### channel\_id
 
@@ -127,6 +133,7 @@ the ID of the channel where the video is published
 
 ___
 
+
 ### channel\_logo
 
 • `Optional` **channel\_logo**: `string`
@@ -142,6 +149,7 @@ the URL of the page where the logo image of the channel is hosted
 [main.ts:58603](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L58603)
 
 ___
+
 
 ### channel\_name
 
@@ -159,6 +167,7 @@ the name of the channel where the video is published
 
 ___
 
+
 ### channel\_url
 
 • `Optional` **channel\_url**: `string`
@@ -174,6 +183,7 @@ the URL of the channel where the video is published
 [main.ts:58601](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L58601)
 
 ___
+
 
 ### comments\_count
 
@@ -191,6 +201,7 @@ number of comments on the video
 
 ___
 
+
 ### description
 
 • `Optional` **description**: `string`
@@ -206,6 +217,7 @@ description of the video
 [main.ts:58605](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L58605)
 
 ___
+
 
 ### duration\_time
 
@@ -223,6 +235,7 @@ duration of the video
 
 ___
 
+
 ### duration\_time\_seconds
 
 • `Optional` **duration\_time\_seconds**: `number`
@@ -238,6 +251,7 @@ duration of the video in seconds
 [main.ts:58628](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L58628)
 
 ___
+
 
 ### is\_live
 
@@ -255,6 +269,7 @@ indicates whether the video is on live
 
 ___
 
+
 ### keywords
 
 • `Optional` **keywords**: `string`[]
@@ -270,6 +285,7 @@ keywords relevant to the video
 [main.ts:58620](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L58620)
 
 ___
+
 
 ### likes\_count
 
@@ -287,6 +303,7 @@ number of likes on the video
 
 ___
 
+
 ### publication\_date
 
 • `Optional` **publication\_date**: `string`
@@ -302,6 +319,7 @@ the date when the video is published
 [main.ts:58613](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L58613)
 
 ___
+
 
 ### rank\_absolute
 
@@ -319,6 +337,7 @@ absolute position among all the elements in SERP
 [main.ts:58587](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L58587)
 
 ___
+
 
 ### rank\_group
 
@@ -338,6 +357,7 @@ positions of elements with different type values are omitted from rank_group
 
 ___
 
+
 ### streaming\_quality
 
 • `Optional` **streaming\_quality**: [`StreamingQualityElement`](StreamingQualityElement.md)[]
@@ -353,6 +373,7 @@ array of elements that contain information about all possible streaming qualitie
 [main.ts:58632](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L58632)
 
 ___
+
 
 ### subtitles
 
@@ -370,6 +391,7 @@ subtitles in the video
 
 ___
 
+
 ### thumbnail\_url
 
 • `Optional` **thumbnail\_url**: `string`
@@ -385,6 +407,7 @@ the URL of the page where the thumbnail is hosted
 [main.ts:58595](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L58595)
 
 ___
+
 
 ### timestamp
 
@@ -405,6 +428,7 @@ example:
 
 ___
 
+
 ### title
 
 • `Optional` **title**: `string`
@@ -420,6 +444,7 @@ title of the video
 [main.ts:58591](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L58591)
 
 ___
+
 
 ### url
 
@@ -437,6 +462,7 @@ URL of the video
 
 ___
 
+
 ### video\_id
 
 • `Optional` **video\_id**: `string`
@@ -452,6 +478,7 @@ ID of the video received in a POST array
 [main.ts:58589](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L58589)
 
 ___
+
 
 ### views\_count
 
@@ -493,6 +520,7 @@ number of views of the video
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -517,6 +545,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`YoutubeVideoInfoSerpElementItem`](YoutubeVideoInfoSerpElementItem.md)
@@ -538,3 +567,7 @@ ___
 #### Defined in
 
 [main.ts:58682](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L58682)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

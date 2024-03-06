@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IOnPageDuplicateTagsRequestInfo
 
 # Interface: IOnPageDuplicateTagsRequestInfo
@@ -37,6 +41,7 @@ specify a title or description here if you want to receive a list of duplicate p
 
 ___
 
+
 ### id
 
 • `Optional` **id**: `string`
@@ -53,6 +58,7 @@ example:
 
 ___
 
+
 ### limit
 
 • `Optional` **limit**: `number`
@@ -68,6 +74,7 @@ maximum value: 1000
 
 ___
 
+
 ### offset
 
 • `Optional` **offset**: `number`
@@ -82,6 +89,7 @@ if you specify the 10 value, the first ten pages in the results array will be om
 [main.ts:147144](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L147144)
 
 ___
+
 
 ### tag
 
@@ -99,6 +107,7 @@ you will find the specified tag value in the data object of the response
 
 ___
 
+
 ### type
 
 • `Optional` **type**: `string`
@@ -108,3 +117,7 @@ type of element
 #### Defined in
 
 [main.ts:147130](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L147130)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

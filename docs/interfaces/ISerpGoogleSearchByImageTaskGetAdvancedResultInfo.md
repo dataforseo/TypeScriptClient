@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / ISerpGoogleSearchByImageTaskGetAdvancedResultInfo
 
 # Interface: ISerpGoogleSearchByImageTaskGetAdvancedResultInfo
@@ -43,6 +47,7 @@ you can use it to make sure that we provided accurate results
 
 ___
 
+
 ### datetime
 
 • `Optional` **datetime**: `string`
@@ -58,6 +63,7 @@ example:
 
 ___
 
+
 ### image\_url
 
 • `Optional` **image\_url**: `string`
@@ -69,6 +75,7 @@ URL specified in a POST array
 [main.ts:48133](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L48133)
 
 ___
+
 
 ### item\_types
 
@@ -86,6 +93,7 @@ images
 
 ___
 
+
 ### items
 
 • `Optional` **items**: [`BaseSerpElementItem`](../classes/BaseSerpElementItem.md)[]
@@ -99,6 +107,7 @@ if there are none, equals null
 
 ___
 
+
 ### items\_count
 
 • `Optional` **items\_count**: `number`
@@ -110,6 +119,7 @@ the number of results returned in the items array
 [main.ts:48164](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L48164)
 
 ___
+
 
 ### keyword
 
@@ -123,6 +133,7 @@ keyword Google associated with the specified image
 
 ___
 
+
 ### language\_code
 
 • `Optional` **language\_code**: `string`
@@ -134,6 +145,7 @@ language code in a POST array
 [main.ts:48143](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L48143)
 
 ___
+
 
 ### location\_code
 
@@ -147,6 +159,7 @@ location code in a POST array
 
 ___
 
+
 ### se\_domain
 
 • `Optional` **se\_domain**: `string`
@@ -159,6 +172,7 @@ search engine domain in a POST array
 
 ___
 
+
 ### se\_results\_count
 
 • `Optional` **se\_results\_count**: `number`
@@ -170,6 +184,7 @@ total number of results in SERP
 [main.ts:48162](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L48162)
 
 ___
+
 
 ### spell
 
@@ -184,6 +199,7 @@ if the search engine provided results for a keyword that was corrected, we will 
 
 ___
 
+
 ### type
 
 • `Optional` **type**: `string`
@@ -193,3 +209,7 @@ type of element
 #### Defined in
 
 [main.ts:48137](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L48137)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

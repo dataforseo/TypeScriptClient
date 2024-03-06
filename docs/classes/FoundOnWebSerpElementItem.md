@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / FoundOnWebSerpElementItem
 
 # Class: FoundOnWebSerpElementItem
@@ -5,7 +9,7 @@
 ## Hierarchy
 
 - [`BaseSerpElementItem`](BaseSerpElementItem.md)
-
+  
   ↳ **`FoundOnWebSerpElementItem`**
 
 ## Implements
@@ -80,6 +84,7 @@
 
 ___
 
+
 ### items
 
 • `Optional` **items**: [`FoundOnWebElement`](FoundOnWebElement.md)[]
@@ -95,6 +100,7 @@ contains results featured in the ‘hotels_pack’ element of SERP
 [main.ts:34795](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L34795)
 
 ___
+
 
 ### position
 
@@ -114,6 +120,7 @@ left, right
 
 ___
 
+
 ### rank\_absolute
 
 • `Optional` **rank\_absolute**: `number`
@@ -130,6 +137,7 @@ absolute position among all the elements in SERP
 [main.ts:34783](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L34783)
 
 ___
+
 
 ### rank\_group
 
@@ -149,6 +157,7 @@ positions of elements with different type values are omitted from rank_group
 
 ___
 
+
 ### rectangle
 
 • `Optional` **rectangle**: [`Rectangle`](Rectangle.md)
@@ -167,6 +176,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 ___
 
+
 ### related\_searches
 
 • `Optional` **related\_searches**: `string`[]
@@ -183,6 +193,7 @@ search queries related to the elment
 
 ___
 
+
 ### title
 
 • `Optional` **title**: `string`
@@ -198,6 +209,7 @@ title of a given link element
 [main.ts:34791](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L34791)
 
 ___
+
 
 ### xpath
 
@@ -239,6 +251,7 @@ the XPath of the element
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -263,6 +276,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`FoundOnWebSerpElementItem`](FoundOnWebSerpElementItem.md)
@@ -284,3 +298,7 @@ ___
 #### Defined in
 
 [main.ts:34834](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L34834)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

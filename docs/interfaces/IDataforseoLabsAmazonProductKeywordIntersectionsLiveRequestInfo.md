@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IDataforseoLabsAmazonProductKeywordIntersectionsLiveRequestInfo
 
 # Interface: IDataforseoLabsAmazonProductKeywordIntersectionsLiveRequestInfo
@@ -53,6 +57,7 @@ learn more about the parameter on this help center page
 
 ___
 
+
 ### filters
 
 • `Optional` **filters**: `any`[]
@@ -74,6 +79,7 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 ___
 
+
 ### intersection\_mode
 
 • `Optional` **intersection\_mode**: `string`
@@ -89,6 +95,7 @@ learn more about the parameter in this help center guide
 [main.ts:101751](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L101751)
 
 ___
+
 
 ### language\_code
 
@@ -107,6 +114,7 @@ en
 
 ___
 
+
 ### language\_name
 
 • `Optional` **language\_name**: `string`
@@ -124,6 +132,7 @@ English
 
 ___
 
+
 ### limit
 
 • `Optional` **limit**: `number`
@@ -138,6 +147,7 @@ maximum value: 1000
 [main.ts:101745](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L101745)
 
 ___
+
 
 ### location\_code
 
@@ -157,6 +167,7 @@ example:
 
 ___
 
+
 ### location\_name
 
 • `Optional` **location\_name**: `string`
@@ -175,6 +186,7 @@ United Kingdom
 
 ___
 
+
 ### offset
 
 • `Optional` **offset**: `number`
@@ -189,6 +201,7 @@ if you specify the 10 value, the first ten keywords in the results array will be
 [main.ts:101783](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L101783)
 
 ___
+
 
 ### order\_by
 
@@ -216,6 +229,7 @@ default rule:
 
 ___
 
+
 ### tag
 
 • `Optional` **tag**: `string`
@@ -229,3 +243,7 @@ you will find the specified tag value in the data object of the response
 #### Defined in
 
 [main.ts:101789](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L101789)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

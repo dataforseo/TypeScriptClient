@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IAppElement
 
 # Interface: IAppElement
@@ -34,6 +38,7 @@ description of the results element in SERP
 
 ___
 
+
 ### price
 
 • `Optional` **price**: [`PriceInfo`](../classes/PriceInfo.md)
@@ -45,6 +50,7 @@ price of booking a place for the specified dates of stay
 [main.ts:29675](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L29675)
 
 ___
+
 
 ### title
 
@@ -58,6 +64,7 @@ title of the row
 
 ___
 
+
 ### type
 
 • `Optional` **type**: `string`
@@ -70,6 +77,7 @@ type of element
 
 ___
 
+
 ### url
 
 • `Optional` **url**: `string`
@@ -79,3 +87,7 @@ URL
 #### Defined in
 
 [main.ts:29673](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L29673)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / DataforseoLabsBingRelatedKeywordsLiveItem
 
 # Class: DataforseoLabsBingRelatedKeywordsLiveItem
@@ -67,6 +71,7 @@ keyword search depth
 
 ___
 
+
 ### keyword\_data
 
 • `Optional` **keyword\_data**: [`KeywordData`](KeywordData.md)
@@ -82,6 +87,7 @@ keyword data for the returned keyword
 [main.ts:105948](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L105948)
 
 ___
+
 
 ### related\_keywords
 
@@ -99,6 +105,7 @@ represents the list of search queries which are related to the keyword returned 
 [main.ts:105953](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L105953)
 
 ___
+
 
 ### se\_type
 
@@ -136,6 +143,7 @@ search engine type
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -156,6 +164,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`DataforseoLabsBingRelatedKeywordsLiveItem`](DataforseoLabsBingRelatedKeywordsLiveItem.md)
@@ -173,3 +182,7 @@ ___
 #### Defined in
 
 [main.ts:105983](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L105983)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

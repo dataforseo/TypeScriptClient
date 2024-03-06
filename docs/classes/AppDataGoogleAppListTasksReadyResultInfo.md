@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / AppDataGoogleAppListTasksReadyResultInfo
 
 # Class: AppDataGoogleAppListTasksReadyResultInfo
@@ -69,6 +73,7 @@ date when the task was posted (in the UTC format)
 
 ___
 
+
 ### endpoint\_advanced
 
 • `Optional` **endpoint\_advanced**: `string`
@@ -84,6 +89,7 @@ URL for collecting the results of the Google App List task
 [main.ts:178619](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L178619)
 
 ___
+
 
 ### endpoint\_html
 
@@ -102,6 +108,7 @@ if HTML tasks are not supported in the specified endpoint, the value will be nul
 
 ___
 
+
 ### id
 
 • `Optional` **id**: `string`
@@ -119,6 +126,7 @@ unique task identifier in our system in the UUID format
 
 ___
 
+
 ### se
 
 • `Optional` **se**: `string`
@@ -134,6 +142,7 @@ search engine specified when setting the task
 [main.ts:178613](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L178613)
 
 ___
+
 
 ### tag
 
@@ -171,6 +180,7 @@ user-defined task identifier
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -191,6 +201,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`AppDataGoogleAppListTasksReadyResultInfo`](AppDataGoogleAppListTasksReadyResultInfo.md)
@@ -208,3 +219,7 @@ ___
 #### Defined in
 
 [main.ts:178650](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L178650)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

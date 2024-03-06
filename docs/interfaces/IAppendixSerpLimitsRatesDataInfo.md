@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IAppendixSerpLimitsRatesDataInfo
 
 # Interface: IAppendixSerpLimitsRatesDataInfo
@@ -37,6 +41,7 @@
 
 ___
 
+
 ### jobs
 
 • `Optional` **jobs**: [`AppendixJobsSerpLimitsRatesDataInfo`](../classes/AppendixJobsSerpLimitsRatesDataInfo.md)
@@ -46,6 +51,7 @@ ___
 [main.ts:206662](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L206662)
 
 ___
+
 
 ### languages
 
@@ -57,6 +63,7 @@ ___
 
 ___
 
+
 ### live
 
 • `Optional` **live**: [`AppendixFunctionTypeInfo`](../classes/AppendixFunctionTypeInfo.md)
@@ -66,6 +73,7 @@ ___
 [main.ts:206659](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L206659)
 
 ___
+
 
 ### locations
 
@@ -77,6 +85,7 @@ ___
 
 ___
 
+
 ### screenshot
 
 • `Optional` **screenshot**: `number`
@@ -86,6 +95,7 @@ ___
 [main.ts:206663](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L206663)
 
 ___
+
 
 ### task\_get
 
@@ -97,6 +107,7 @@ ___
 
 ___
 
+
 ### task\_post
 
 • `Optional` **task\_post**: `number`
@@ -106,6 +117,7 @@ ___
 [main.ts:206654](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L206654)
 
 ___
+
 
 ### tasks\_fixed
 
@@ -117,6 +129,7 @@ ___
 
 ___
 
+
 ### tasks\_ready
 
 • `Optional` **tasks\_ready**: `number`
@@ -124,3 +137,7 @@ ___
 #### Defined in
 
 [main.ts:206656](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L206656)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

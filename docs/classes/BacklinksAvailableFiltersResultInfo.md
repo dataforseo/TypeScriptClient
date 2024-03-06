@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / BacklinksAvailableFiltersResultInfo
 
 # Class: BacklinksAvailableFiltersResultInfo
@@ -75,6 +79,7 @@
 
 ___
 
+
 ### backlinks
 
 • `Optional` **backlinks**: `Object`
@@ -92,6 +97,7 @@ ___
 [main.ts:128629](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L128629)
 
 ___
+
 
 ### competitors
 
@@ -111,6 +117,7 @@ ___
 
 ___
 
+
 ### content\_duplicates
 
 • `Optional` **content\_duplicates**: `Object`
@@ -128,6 +135,7 @@ ___
 [main.ts:128628](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L128628)
 
 ___
+
 
 ### domain\_intersection
 
@@ -147,6 +155,7 @@ ___
 
 ___
 
+
 ### domain\_pages
 
 • `Optional` **domain\_pages**: `Object`
@@ -164,6 +173,7 @@ ___
 [main.ts:128630](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L128630)
 
 ___
+
 
 ### domain\_pages\_summary
 
@@ -183,6 +193,7 @@ ___
 
 ___
 
+
 ### page\_intersection
 
 • `Optional` **page\_intersection**: `Object`
@@ -201,6 +212,7 @@ ___
 
 ___
 
+
 ### referring\_domains
 
 • `Optional` **referring\_domains**: `Object`
@@ -218,6 +230,7 @@ ___
 [main.ts:128632](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L128632)
 
 ___
+
 
 ### referring\_networks
 
@@ -257,6 +270,7 @@ ___
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -277,6 +291,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`BacklinksAvailableFiltersResultInfo`](BacklinksAvailableFiltersResultInfo.md)
@@ -294,3 +309,7 @@ ___
 #### Defined in
 
 [main.ts:128729](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L128729)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

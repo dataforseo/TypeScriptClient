@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / AppElement
 
 # Class: AppElement
@@ -68,6 +72,7 @@ description of the results element in SERP
 
 ___
 
+
 ### price
 
 • `Optional` **price**: [`PriceInfo`](PriceInfo.md)
@@ -83,6 +88,7 @@ price of booking a place for the specified dates of stay
 [main.ts:29616](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L29616)
 
 ___
+
 
 ### title
 
@@ -100,6 +106,7 @@ title of the row
 
 ___
 
+
 ### type
 
 • `Optional` **type**: `string`
@@ -115,6 +122,7 @@ type of element
 [main.ts:29608](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L29608)
 
 ___
+
 
 ### url
 
@@ -152,6 +160,7 @@ URL
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -172,6 +181,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`AppElement`](AppElement.md)
@@ -189,3 +199,7 @@ ___
 #### Defined in
 
 [main.ts:29643](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L29643)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

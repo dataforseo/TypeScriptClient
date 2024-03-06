@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IMathSolverDataforseoLabsSerpElementItem
 
 # Interface: IMathSolverDataforseoLabsSerpElementItem
@@ -5,7 +9,7 @@
 ## Hierarchy
 
 - [`IBaseDataforseoLabsSerpElementItem`](IBaseDataforseoLabsSerpElementItem.md)
-
+  
   ↳ **`IMathSolverDataforseoLabsSerpElementItem`**
 
 ## Implemented by
@@ -44,6 +48,7 @@ if there are none, equals null
 
 ___
 
+
 ### links
 
 • `Optional` **links**: [`LinkElement`](../classes/LinkElement.md)[]
@@ -57,6 +62,7 @@ if there are none, equals null
 [main.ts:92910](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L92910)
 
 ___
+
 
 ### position
 
@@ -72,6 +78,7 @@ left, right
 
 ___
 
+
 ### rank\_absolute
 
 • `Optional` **rank\_absolute**: `number`
@@ -84,6 +91,7 @@ absolute position among all the elements in SERP
 [main.ts:92892](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L92892)
 
 ___
+
 
 ### rank\_group
 
@@ -99,6 +107,7 @@ positions of elements with different type values are omitted from rank_group
 
 ___
 
+
 ### result
 
 • `Optional` **result**: `string`
@@ -112,6 +121,7 @@ solution to the mathematical equation specified in the keyword field when settin
 
 ___
 
+
 ### title
 
 • `Optional` **title**: `string`
@@ -124,6 +134,7 @@ title of the result in SERP
 
 ___
 
+
 ### xpath
 
 • `Optional` **xpath**: `string`
@@ -133,3 +144,7 @@ the XPath of the element
 #### Defined in
 
 [main.ts:92898](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L92898)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

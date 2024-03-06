@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / DatasetSerpElementItem
 
 # Class: DatasetSerpElementItem
@@ -5,7 +9,7 @@
 ## Hierarchy
 
 - [`BaseSerpElementItem`](BaseSerpElementItem.md)
-
+  
   ↳ **`DatasetSerpElementItem`**
 
 ## Implements
@@ -92,6 +96,7 @@
 
 ___
 
+
 ### area\_covered
 
 • `Optional` **area\_covered**: `string`[]
@@ -109,6 +114,7 @@ for example: Africa, Global
 
 ___
 
+
 ### authors
 
 • `Optional` **authors**: [`AuthorsElement`](AuthorsElement.md)[]
@@ -124,6 +130,7 @@ the list of authors of the dataset
 [main.ts:50877](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L50877)
 
 ___
+
 
 ### dataset\_description
 
@@ -141,6 +148,7 @@ description of the dataset
 
 ___
 
+
 ### dataset\_id
 
 • `Optional` **dataset\_id**: `string`
@@ -156,6 +164,7 @@ ID of the dataset
 [main.ts:50849](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L50849)
 
 ___
+
 
 ### dataset\_providers
 
@@ -173,6 +182,7 @@ the list of institutions that provided the dataset
 
 ___
 
+
 ### formats
 
 • `Optional` **formats**: [`FormatsElement`](FormatsElement.md)[]
@@ -188,6 +198,7 @@ the list of file formats of the dataset
 [main.ts:50875](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L50875)
 
 ___
+
 
 ### image\_url
 
@@ -206,6 +217,7 @@ the URL leading to the image on the original resource or DataForSEO storage (in 
 
 ___
 
+
 ### licenses
 
 • `Optional` **licenses**: [`LicensesElement`](LicensesElement.md)[]
@@ -221,6 +233,7 @@ the list of licenses issued to the dataset
 [main.ts:50879](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L50879)
 
 ___
+
 
 ### links
 
@@ -240,6 +253,7 @@ if there are none, equals null
 
 ___
 
+
 ### period\_covered
 
 • `Optional` **period\_covered**: [`PeriodCovered`](PeriodCovered.md)
@@ -255,6 +269,7 @@ period covered in the dataset
 [main.ts:50889](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L50889)
 
 ___
+
 
 ### position
 
@@ -274,6 +289,7 @@ left, right
 
 ___
 
+
 ### rank\_absolute
 
 • `Optional` **rank\_absolute**: `number`
@@ -290,6 +306,7 @@ absolute position among all the elements in SERP
 [main.ts:50841](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L50841)
 
 ___
+
 
 ### rank\_group
 
@@ -309,6 +326,7 @@ positions of elements with different type values are omitted from rank_group
 
 ___
 
+
 ### related\_article
 
 • `Optional` **related\_article**: `string`
@@ -325,6 +343,7 @@ link to the published article that is related to the dataset
 [main.ts:50867](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L50867)
 
 ___
+
 
 ### scholarly\_articles\_url
 
@@ -344,6 +363,7 @@ example: https://scholar.google.com/scholar?q=%2210.6084%20m9%20figshare%2074279
 
 ___
 
+
 ### scholarly\_citations\_count
 
 • `Optional` **scholarly\_citations\_count**: `number`
@@ -360,6 +380,7 @@ count of articles that refer to the dataset
 
 ___
 
+
 ### title
 
 • `Optional` **title**: `string`
@@ -375,6 +396,7 @@ title of the result in SERP
 [main.ts:50851](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L50851)
 
 ___
+
 
 ### unique\_identifier
 
@@ -394,6 +416,7 @@ example: https://doi.org/10.5061/dryad.hmgqnk9m3
 
 ___
 
+
 ### updated\_date
 
 • `Optional` **updated\_date**: `string`
@@ -412,6 +435,7 @@ example:
 [main.ts:50884](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L50884)
 
 ___
+
 
 ### xpath
 
@@ -453,6 +477,7 @@ the XPath of the element
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -477,6 +502,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`DatasetSerpElementItem`](DatasetSerpElementItem.md)
@@ -498,3 +524,7 @@ ___
 #### Defined in
 
 [main.ts:50954](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L50954)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

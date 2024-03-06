@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IAppDataAppleAppReviewsTaskPostRequestInfo
 
 # Interface: IAppDataAppleAppReviewsTaskPostRequestInfo
@@ -47,6 +51,7 @@ the id is 835599320
 
 ___
 
+
 ### depth
 
 • `Optional` **depth**: `number`
@@ -63,6 +68,7 @@ maximum value: 500
 [main.ts:185857](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L185857)
 
 ___
+
 
 ### language\_code
 
@@ -81,6 +87,7 @@ en
 
 ___
 
+
 ### language\_name
 
 • `Optional` **language\_name**: `string`
@@ -97,6 +104,7 @@ English
 [main.ts:185835](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L185835)
 
 ___
+
 
 ### location\_code
 
@@ -115,6 +123,7 @@ example:
 
 ___
 
+
 ### location\_name
 
 • `Optional` **location\_name**: `string`
@@ -131,6 +140,7 @@ West Los Angeles,California,United States
 [main.ts:185821](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L185821)
 
 ___
+
 
 ### pingback\_url
 
@@ -152,6 +162,7 @@ i.a., the # symbol will be encoded into %23
 
 ___
 
+
 ### postback\_data
 
 • `Optional` **postback\_data**: `string`
@@ -167,6 +178,7 @@ advanced
 [main.ts:185887](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L185887)
 
 ___
+
 
 ### postback\_url
 
@@ -188,6 +200,7 @@ i.a., the # symbol will be encoded into %23
 
 ___
 
+
 ### priority
 
 • `Optional` **priority**: `number`
@@ -205,6 +218,7 @@ The cost can be calculated on the Pricing page.
 [main.ts:185850](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L185850)
 
 ___
+
 
 ### sort\_by
 
@@ -224,6 +238,7 @@ default rule: most_helpful
 
 ___
 
+
 ### tag
 
 • `Optional` **tag**: `string`
@@ -237,3 +252,7 @@ you will find the specified tag value in the data object of the response
 #### Defined in
 
 [main.ts:185871](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L185871)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

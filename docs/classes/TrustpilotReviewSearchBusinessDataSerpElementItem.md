@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / TrustpilotReviewSearchBusinessDataSerpElementItem
 
 # Class: TrustpilotReviewSearchBusinessDataSerpElementItem
@@ -5,7 +9,7 @@
 ## Hierarchy
 
 - [`BaseBusinessDataSerpElementItem`](BaseBusinessDataSerpElementItem.md)
-
+  
   ↳ **`TrustpilotReviewSearchBusinessDataSerpElementItem`**
 
 ## Implements
@@ -85,6 +89,7 @@
 
 ___
 
+
 ### language
 
 • `Optional` **language**: `string`
@@ -100,6 +105,7 @@ the language of the review
 [main.ts:199963](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L199963)
 
 ___
+
 
 ### position
 
@@ -118,6 +124,7 @@ can take the following values: right
 
 ___
 
+
 ### rank\_absolute
 
 • `Optional` **rank\_absolute**: `number`
@@ -134,6 +141,7 @@ absolute position among all reviews on the list
 [main.ts:199952](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L199952)
 
 ___
+
 
 ### rank\_group
 
@@ -152,6 +160,7 @@ positions of elements with different type values are omitted from rank_group
 
 ___
 
+
 ### rating
 
 • `Optional` **rating**: [`RatingInfo`](RatingInfo.md)
@@ -168,6 +177,7 @@ the rating score submitted by the reviewer
 
 ___
 
+
 ### responses
 
 • `Optional` **responses**: [`ReviewResponseItemInfo`](ReviewResponseItemInfo.md)[]
@@ -183,6 +193,7 @@ owner’s response to the submitted review
 [main.ts:199980](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L199980)
 
 ___
+
 
 ### review\_images
 
@@ -202,6 +213,7 @@ please note that Trustpilot doesn’t allow adding images to reviews, so the rev
 
 ___
 
+
 ### review\_text
 
 • `Optional` **review\_text**: `string`
@@ -217,6 +229,7 @@ the content of the review
 [main.ts:199972](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L199972)
 
 ___
+
 
 ### timestamp
 
@@ -237,6 +250,7 @@ example:
 
 ___
 
+
 ### title
 
 • `Optional` **title**: `string`
@@ -252,6 +266,7 @@ the title of the review
 [main.ts:199970](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L199970)
 
 ___
+
 
 ### url
 
@@ -269,6 +284,7 @@ the URL of the review
 
 ___
 
+
 ### user\_profile
 
 • `Optional` **user\_profile**: [`BusinessDataUserProfileInfo`](BusinessDataUserProfileInfo.md)
@@ -284,6 +300,7 @@ user profile of the reviewer
 [main.ts:199978](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L199978)
 
 ___
+
 
 ### verified
 
@@ -325,6 +342,7 @@ indicates whether the review has the “Verified” mark
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -349,6 +367,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`TrustpilotReviewSearchBusinessDataSerpElementItem`](TrustpilotReviewSearchBusinessDataSerpElementItem.md)
@@ -370,3 +389,7 @@ ___
 #### Defined in
 
 [main.ts:200020](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L200020)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

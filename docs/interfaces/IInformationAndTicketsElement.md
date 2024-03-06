@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IInformationAndTicketsElement
 
 # Interface: IInformationAndTicketsElement
@@ -34,6 +38,7 @@ description of the element
 
 ___
 
+
 ### domain
 
 • `Optional` **domain**: `string`
@@ -45,6 +50,7 @@ domain in SERP
 [main.ts:44661](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L44661)
 
 ___
+
 
 ### title
 
@@ -58,6 +64,7 @@ title of the element
 
 ___
 
+
 ### type
 
 • `Optional` **type**: `string`
@@ -70,6 +77,7 @@ type of element
 
 ___
 
+
 ### url
 
 • `Optional` **url**: `string`
@@ -79,3 +87,7 @@ relevant URL
 #### Defined in
 
 [main.ts:44659](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L44659)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

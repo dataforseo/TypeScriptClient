@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / AdLinkElement
 
 # Class: AdLinkElement
@@ -69,6 +73,7 @@ the identifier of the ad
 
 ___
 
+
 ### description
 
 • `Optional` **description**: `string`
@@ -84,6 +89,7 @@ description of the results element in SERP
 [main.ts:27678](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L27678)
 
 ___
+
 
 ### domain
 
@@ -101,6 +107,7 @@ website domain
 
 ___
 
+
 ### title
 
 • `Optional` **title**: `string`
@@ -117,6 +124,7 @@ title of a given link element
 
 ___
 
+
 ### type
 
 • `Optional` **type**: `string`
@@ -132,6 +140,7 @@ type of element
 [main.ts:27674](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L27674)
 
 ___
+
 
 ### url
 
@@ -169,6 +178,7 @@ relevant URL
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -189,6 +199,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`AdLinkElement`](AdLinkElement.md)
@@ -206,3 +217,7 @@ ___
 #### Defined in
 
 [main.ts:27712](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L27712)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

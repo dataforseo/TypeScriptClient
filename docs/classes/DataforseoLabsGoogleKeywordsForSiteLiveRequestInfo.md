@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / DataforseoLabsGoogleKeywordsForSiteLiveRequestInfo
 
 # Class: DataforseoLabsGoogleKeywordsForSiteLiveRequestInfo
@@ -92,6 +96,7 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 ___
 
+
 ### ignore\_synonyms
 
 • `Optional` **ignore\_synonyms**: `boolean`
@@ -110,6 +115,7 @@ default value: false
 [main.ts:78542](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L78542)
 
 ___
+
 
 ### include\_serp\_info
 
@@ -130,6 +136,7 @@ default value: false
 
 ___
 
+
 ### include\_subdomains
 
 • `Optional` **include\_subdomains**: `boolean`
@@ -148,6 +155,7 @@ default value: true
 [main.ts:78537](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L78537)
 
 ___
+
 
 ### language\_code
 
@@ -172,6 +180,7 @@ en
 
 ___
 
+
 ### language\_name
 
 • `Optional` **language\_name**: `string`
@@ -195,6 +204,7 @@ English
 
 ___
 
+
 ### limit
 
 • `Optional` **limit**: `number`
@@ -213,6 +223,7 @@ maximum value: 1000
 [main.ts:78547](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L78547)
 
 ___
+
 
 ### location\_code
 
@@ -236,6 +247,7 @@ example:
 
 ___
 
+
 ### location\_name
 
 • `Optional` **location\_name**: `string`
@@ -258,6 +270,7 @@ United Kingdom
 
 ___
 
+
 ### offset
 
 • `Optional` **offset**: `number`
@@ -276,6 +289,7 @@ if you specify the 10 value, the first ten keywords in the results array will be
 [main.ts:78552](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L78552)
 
 ___
+
 
 ### offset\_token
 
@@ -298,6 +312,7 @@ Note: if the offset_token is specified in the request, all other parameters exce
 [main.ts:78560](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L78560)
 
 ___
+
 
 ### order\_by
 
@@ -329,6 +344,7 @@ example:
 
 ___
 
+
 ### tag
 
 • `Optional` **tag**: `string`
@@ -348,6 +364,7 @@ you will find the specified tag value in the data object of the response
 [main.ts:78599](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L78599)
 
 ___
+
 
 ### target
 
@@ -388,6 +405,7 @@ the domain should be specified without https:// or www.
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -408,6 +426,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`DataforseoLabsGoogleKeywordsForSiteLiveRequestInfo`](DataforseoLabsGoogleKeywordsForSiteLiveRequestInfo.md)
@@ -425,3 +444,7 @@ ___
 #### Defined in
 
 [main.ts:78643](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L78643)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

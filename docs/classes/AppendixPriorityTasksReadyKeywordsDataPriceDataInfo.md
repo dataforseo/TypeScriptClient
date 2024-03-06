@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / AppendixPriorityTasksReadyKeywordsDataPriceDataInfo
 
 # Class: AppendixPriorityTasksReadyKeywordsDataPriceDataInfo
@@ -65,6 +69,7 @@ cost, USD
 
 ___
 
+
 ### cost\_type
 
 • `Optional` **cost\_type**: `string`
@@ -104,6 +109,7 @@ per_request – charge for a GET or POST request
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -124,6 +130,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`AppendixPriorityTasksReadyKeywordsDataPriceDataInfo`](AppendixPriorityTasksReadyKeywordsDataPriceDataInfo.md)
@@ -141,3 +148,7 @@ ___
 #### Defined in
 
 [main.ts:209539](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L209539)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

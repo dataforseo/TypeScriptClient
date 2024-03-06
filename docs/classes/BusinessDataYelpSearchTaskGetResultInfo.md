@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / BusinessDataYelpSearchTaskGetResultInfo
 
 # Class: BusinessDataYelpSearchTaskGetResultInfo
@@ -74,6 +78,7 @@ you can use it to make sure that we provided accurate results
 
 ___
 
+
 ### datetime
 
 • `Optional` **datetime**: `string`
@@ -93,6 +98,7 @@ example:
 
 ___
 
+
 ### item\_types
 
 • `Optional` **item\_types**: `string`[]
@@ -109,6 +115,7 @@ possible item types: yelp_search_organic, yelp_search_paid
 [main.ts:204445](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L204445)
 
 ___
+
 
 ### items
 
@@ -127,6 +134,7 @@ you can get more results by using the depth parameter when setting a task
 
 ___
 
+
 ### items\_count
 
 • `Optional` **items\_count**: `number`
@@ -143,6 +151,7 @@ you can get more results by using the depth parameter when setting a task
 [main.ts:204450](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L204450)
 
 ___
+
 
 ### keyword
 
@@ -161,6 +170,7 @@ this field will contain the alias parameter if it was specified in a POST array
 
 ___
 
+
 ### language\_code
 
 • `Optional` **language\_code**: `string`
@@ -176,6 +186,7 @@ language code in a POST array
 [main.ts:204434](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L204434)
 
 ___
+
 
 ### location\_code
 
@@ -194,6 +205,7 @@ if location_code was not specified in a POST array, the value equals null
 
 ___
 
+
 ### se\_domain
 
 • `Optional` **se\_domain**: `string`
@@ -209,6 +221,7 @@ search engine domain in a POST array
 [main.ts:204429](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L204429)
 
 ___
+
 
 ### se\_results\_count
 
@@ -246,6 +259,7 @@ the total number of results
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -266,6 +280,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`BusinessDataYelpSearchTaskGetResultInfo`](BusinessDataYelpSearchTaskGetResultInfo.md)
@@ -283,3 +298,7 @@ ___
 #### Defined in
 
 [main.ts:204493](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L204493)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

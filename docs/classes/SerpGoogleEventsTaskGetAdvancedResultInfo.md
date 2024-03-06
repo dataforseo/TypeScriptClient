@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / SerpGoogleEventsTaskGetAdvancedResultInfo
 
 # Class: SerpGoogleEventsTaskGetAdvancedResultInfo
@@ -75,6 +79,7 @@ direct URL to search engine results
 
 ___
 
+
 ### datetime
 
 • `Optional` **datetime**: `string`
@@ -94,6 +99,7 @@ example:
 
 ___
 
+
 ### item\_types
 
 • `Optional` **item\_types**: `string`[]
@@ -112,6 +118,7 @@ event_item
 
 ___
 
+
 ### items
 
 • `Optional` **items**: [`BaseSerpElementItem`](BaseSerpElementItem.md)[]
@@ -128,6 +135,7 @@ items in SERP
 
 ___
 
+
 ### items\_count
 
 • `Optional` **items\_count**: `number`
@@ -143,6 +151,7 @@ the number of results returned in the items array
 [main.ts:44830](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L44830)
 
 ___
+
 
 ### keyword
 
@@ -161,6 +170,7 @@ keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a s
 
 ___
 
+
 ### language\_code
 
 • `Optional` **language\_code**: `string`
@@ -178,6 +188,7 @@ in this case, the value will be null
 
 ___
 
+
 ### location\_code
 
 • `Optional` **location\_code**: `number`
@@ -194,6 +205,7 @@ location code in a POST array
 
 ___
 
+
 ### se\_domain
 
 • `Optional` **se\_domain**: `string`
@@ -209,6 +221,7 @@ search engine domain in a POST array
 [main.ts:44805](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L44805)
 
 ___
+
 
 ### se\_results\_count
 
@@ -228,6 +241,7 @@ this search engine does not indicate the total number of results
 
 ___
 
+
 ### spell
 
 • `Optional` **spell**: [`SpellInfo`](SpellInfo.md)
@@ -244,6 +258,7 @@ if the search engine provided results for a keyword that was corrected, we will 
 [main.ts:44820](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L44820)
 
 ___
+
 
 ### type
 
@@ -281,6 +296,7 @@ type of element
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -301,6 +317,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`SerpGoogleEventsTaskGetAdvancedResultInfo`](SerpGoogleEventsTaskGetAdvancedResultInfo.md)
@@ -318,3 +335,7 @@ ___
 #### Defined in
 
 [main.ts:44874](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L44874)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

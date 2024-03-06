@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / DataforseoLabsleAppIntersectionLiveItem
 
 # Class: DataforseoLabsleAppIntersectionLiveItem
@@ -72,6 +76,7 @@ depending on the number of specified app IDs, it can contain from 1 to 20 arrays
 
 ___
 
+
 ### keyword\_data
 
 • `Optional` **keyword\_data**: [`KeywordData`](KeywordData.md)
@@ -87,6 +92,7 @@ keyword data for the returned keyword
 [main.ts:109874](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L109874)
 
 ___
+
 
 ### se\_type
 
@@ -124,6 +130,7 @@ search engine type
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -144,6 +151,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`DataforseoLabsleAppIntersectionLiveItem`](DataforseoLabsleAppIntersectionLiveItem.md)
@@ -161,3 +169,7 @@ ___
 #### Defined in
 
 [main.ts:109909](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L109909)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

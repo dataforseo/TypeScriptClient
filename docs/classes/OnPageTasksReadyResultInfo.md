@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / OnPageTasksReadyResultInfo
 
 # Class: OnPageTasksReadyResultInfo
@@ -67,6 +71,7 @@ date when the task was posted (in the UTC format)
 
 ___
 
+
 ### id
 
 • `Optional` **id**: `string`
@@ -84,6 +89,7 @@ unique task identifier in our system in the UUID format
 
 ___
 
+
 ### tag
 
 • `Optional` **tag**: `string`
@@ -99,6 +105,7 @@ user-defined task identifier
 [main.ts:143030](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L143030)
 
 ___
+
 
 ### target
 
@@ -136,6 +143,7 @@ target website specified when setting a task
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -156,6 +164,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`OnPageTasksReadyResultInfo`](OnPageTasksReadyResultInfo.md)
@@ -173,3 +182,7 @@ ___
 #### Defined in
 
 [main.ts:143056](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L143056)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

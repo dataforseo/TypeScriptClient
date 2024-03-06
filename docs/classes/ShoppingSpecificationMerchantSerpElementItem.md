@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / ShoppingSpecificationMerchantSerpElementItem
 
 # Class: ShoppingSpecificationMerchantSerpElementItem
@@ -5,7 +9,7 @@
 ## Hierarchy
 
 - [`BaseMerchantSerpElementItem`](BaseMerchantSerpElementItem.md)
-
+  
   ↳ **`ShoppingSpecificationMerchantSerpElementItem`**
 
 ## Implements
@@ -79,6 +83,7 @@
 
 ___
 
+
 ### block\_name
 
 • `Optional` **block\_name**: `string`
@@ -95,6 +100,7 @@ indicates the name of the product specification section in which the related ele
 [main.ts:167848](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L167848)
 
 ___
+
 
 ### position
 
@@ -114,6 +120,7 @@ right
 
 ___
 
+
 ### rank\_absolute
 
 • `Optional` **rank\_absolute**: `number`
@@ -130,6 +137,7 @@ absolute position among all the elements found on the product specification page
 [main.ts:167839](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L167839)
 
 ___
+
 
 ### rank\_group
 
@@ -148,6 +156,7 @@ positions of elements with different type values are omitted from rank_group
 
 ___
 
+
 ### specification\_name
 
 • `Optional` **specification\_name**: `string`
@@ -165,6 +174,7 @@ attribute name of the product data specification
 
 ___
 
+
 ### specification\_value
 
 • `Optional` **specification\_value**: `string`
@@ -180,6 +190,7 @@ content of the specification
 [main.ts:167853](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L167853)
 
 ___
+
 
 ### xpath
 
@@ -221,6 +232,7 @@ XPath of the element
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -245,6 +257,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`ShoppingSpecificationMerchantSerpElementItem`](ShoppingSpecificationMerchantSerpElementItem.md)
@@ -266,3 +279,7 @@ ___
 #### Defined in
 
 [main.ts:167879](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L167879)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

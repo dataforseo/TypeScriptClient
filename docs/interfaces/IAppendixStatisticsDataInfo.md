@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IAppendixStatisticsDataInfo
 
 # Interface: IAppendixStatisticsDataInfo
@@ -29,6 +33,7 @@
 
 ___
 
+
 ### minute
 
 • `Optional` **minute**: [`AppendixStatisticsRatesDataInfo`](../classes/AppendixStatisticsRatesDataInfo.md)
@@ -36,3 +41,7 @@ ___
 #### Defined in
 
 [main.ts:209327](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L209327)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

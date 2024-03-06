@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IStylesheetResourceElementItem
 
 # Interface: IStylesheetResourceElementItem
@@ -5,7 +9,7 @@
 ## Hierarchy
 
 - [`IBaseOnPageResourceItemInfo`](IBaseOnPageResourceItemInfo.md)
-
+  
   ↳ **`IStylesheetResourceElementItem`**
 
 ## Implemented by
@@ -60,6 +64,7 @@ any, none, image, sitemap, robots, script, stylesheet, redirect, html, text, oth
 
 ___
 
+
 ### cache\_control
 
 • `Optional` **cache\_control**: [`CacheControl`](../classes/CacheControl.md)
@@ -71,6 +76,7 @@ instructions for caching
 [main.ts:146447](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L146447)
 
 ___
+
 
 ### checks
 
@@ -89,6 +95,7 @@ contents of the array depend on the resource_type
 
 ___
 
+
 ### content\_encoding
 
 • `Optional` **content\_encoding**: `string`
@@ -101,6 +108,7 @@ type of encoding
 
 ___
 
+
 ### duration\_time
 
 • `Optional` **duration\_time**: `number`
@@ -112,6 +120,7 @@ total time it takes until a browser receives a complete response from a server (
 [main.ts:146470](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L146470)
 
 ___
+
 
 ### encoded\_size
 
@@ -126,6 +135,7 @@ indicates the size of the encoded resource measured in bytes
 
 ___
 
+
 ### fetch\_end
 
 • `Optional` **fetch\_end**: `number`
@@ -139,6 +149,7 @@ the amount of time the browser needs to complete downloading a resource
 
 ___
 
+
 ### fetch\_start
 
 • `Optional` **fetch\_start**: `number`
@@ -151,6 +162,7 @@ the amount of time the browser needs to start downloading a resource
 [main.ts:146473](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L146473)
 
 ___
+
 
 ### fetch\_time
 
@@ -167,6 +179,7 @@ example:
 
 ___
 
+
 ### fetch\_timing
 
 • `Optional` **fetch\_timing**: [`FetchTiming`](../classes/FetchTiming.md)
@@ -178,6 +191,7 @@ resource fething time range
 [main.ts:146445](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L146445)
 
 ___
+
 
 ### initiator
 
@@ -191,6 +205,7 @@ resource initiator
 
 ___
 
+
 ### is\_render\_blocking
 
 • `Optional` **is\_render\_blocking**: `boolean`
@@ -202,6 +217,7 @@ indicates whether the resource blocks rendering
 [main.ts:146478](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L146478)
 
 ___
+
 
 ### last\_modified
 
@@ -216,6 +232,7 @@ if there is no data, the value will be null
 
 ___
 
+
 ### location
 
 • `Optional` **location**: `string`
@@ -229,6 +246,7 @@ indicates the URL to redirect a page to
 
 ___
 
+
 ### media\_type
 
 • `Optional` **media\_type**: `string`
@@ -240,6 +258,7 @@ types of media used to display a resource
 [main.ts:146456](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L146456)
 
 ___
+
 
 ### meta
 
@@ -256,6 +275,7 @@ to obtain resource’s meta from a particular url, specify that URL when setting
 
 ___
 
+
 ### resource\_errors
 
 • `Optional` **resource\_errors**: [`OnPageResourceIssueInfo`](../classes/OnPageResourceIssueInfo.md)
@@ -268,6 +288,7 @@ resource errors and warnings
 
 ___
 
+
 ### server
 
 • `Optional` **server**: `string`
@@ -279,6 +300,7 @@ server version
 [main.ts:146463](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L146463)
 
 ___
+
 
 ### size
 
@@ -293,6 +315,7 @@ indicates the size of a given resource measured in bytes
 
 ___
 
+
 ### status\_code
 
 • `Optional` **status\_code**: `number`
@@ -304,6 +327,7 @@ status code of the page where a given resource is located
 [main.ts:146424](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L146424)
 
 ___
+
 
 ### total\_transfer\_size
 
@@ -318,6 +342,7 @@ indicates the compressed size of a given resource in bytes
 
 ___
 
+
 ### url
 
 • `Optional` **url**: `string`
@@ -327,3 +352,7 @@ resource URL
 #### Defined in
 
 [main.ts:146429](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L146429)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

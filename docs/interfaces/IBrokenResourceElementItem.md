@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IBrokenResourceElementItem
 
 # Interface: IBrokenResourceElementItem
@@ -5,7 +9,7 @@
 ## Hierarchy
 
 - [`IBaseOnPageResourceItemInfo`](IBaseOnPageResourceItemInfo.md)
-
+  
   ↳ **`IBrokenResourceElementItem`**
 
 ## Implemented by
@@ -54,6 +58,7 @@ any, none, image, sitemap, robots, script, stylesheet, redirect, html, text, oth
 
 ___
 
+
 ### cache\_control
 
 • `Optional` **cache\_control**: [`CacheControl`](../classes/CacheControl.md)
@@ -65,6 +70,7 @@ instructions for caching
 [main.ts:146966](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L146966)
 
 ___
+
 
 ### checks
 
@@ -83,6 +89,7 @@ contents of the array depend on the resource_type
 
 ___
 
+
 ### content\_encoding
 
 • `Optional` **content\_encoding**: `string`
@@ -94,6 +101,7 @@ type of encoding
 [main.ts:146971](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L146971)
 
 ___
+
 
 ### encoded\_size
 
@@ -107,6 +115,7 @@ indicates the size of the encoded resource measured in bytes
 [main.ts:146954](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L146954)
 
 ___
+
 
 ### fetch\_time
 
@@ -123,6 +132,7 @@ example:
 
 ___
 
+
 ### fetch\_timing
 
 • `Optional` **fetch\_timing**: [`FetchTiming`](../classes/FetchTiming.md)
@@ -134,6 +144,7 @@ resource fething time range
 [main.ts:146964](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L146964)
 
 ___
+
 
 ### last\_modified
 
@@ -148,6 +159,7 @@ if there is no data, the value will be null
 
 ___
 
+
 ### location
 
 • `Optional` **location**: `string`
@@ -161,6 +173,7 @@ indicates the URL to redirect a page to
 
 ___
 
+
 ### media\_type
 
 • `Optional` **media\_type**: `string`
@@ -172,6 +185,7 @@ types of media used to display a resource
 [main.ts:146973](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L146973)
 
 ___
+
 
 ### meta
 
@@ -188,6 +202,7 @@ to obtain resource’s meta from a particular url, specify that URL when setting
 
 ___
 
+
 ### server
 
 • `Optional` **server**: `string`
@@ -199,6 +214,7 @@ server version
 [main.ts:146980](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L146980)
 
 ___
+
 
 ### size
 
@@ -213,6 +229,7 @@ indicates the size of a given resource measured in bytes
 
 ___
 
+
 ### status\_code
 
 • `Optional` **status\_code**: `number`
@@ -224,6 +241,7 @@ status code of the page where a given resource is located
 [main.ts:146943](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L146943)
 
 ___
+
 
 ### total\_transfer\_size
 
@@ -238,6 +256,7 @@ indicates the compressed size of a given resource in bytes
 
 ___
 
+
 ### url
 
 • `Optional` **url**: `string`
@@ -247,3 +266,7 @@ resource URL
 #### Defined in
 
 [main.ts:146948](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L146948)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

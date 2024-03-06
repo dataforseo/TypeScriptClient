@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IAppDataleAppListingsSearchLiveItem
 
 # Interface: IAppDataleAppListingsSearchLiveItem
@@ -36,6 +40,7 @@ ID of the returned app
 
 ___
 
+
 ### check\_url
 
 • `Optional` **check\_url**: `string`
@@ -49,6 +54,7 @@ you can use it to make sure that we provided accurate results
 
 ___
 
+
 ### item
 
 • `Optional` **item**: [`BaseAppDataSerpElementItem`](../classes/BaseAppDataSerpElementItem.md)
@@ -60,6 +66,7 @@ detailed information about the app
 [main.ts:182363](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L182363)
 
 ___
+
 
 ### language\_code
 
@@ -73,6 +80,7 @@ language code in a POST array
 
 ___
 
+
 ### location\_code
 
 • `Optional` **location\_code**: `number`
@@ -84,6 +92,7 @@ location code in a POST array
 [main.ts:182351](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L182351)
 
 ___
+
 
 ### se\_domain
 
@@ -97,6 +106,7 @@ search engine domain in a POST array
 
 ___
 
+
 ### time\_update
 
 • `Optional` **time\_update**: `string`
@@ -109,3 +119,7 @@ example:
 #### Defined in
 
 [main.ts:182361](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L182361)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

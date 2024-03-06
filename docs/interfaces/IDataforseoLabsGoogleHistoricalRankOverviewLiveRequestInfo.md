@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IDataforseoLabsGoogleHistoricalRankOverviewLiveRequestInfo
 
 # Interface: IDataforseoLabsGoogleHistoricalRankOverviewLiveRequestInfo
@@ -43,6 +47,7 @@ we recommend always setting correlate to true
 
 ___
 
+
 ### date\_from
 
 • `Optional` **date\_from**: `string`
@@ -58,6 +63,7 @@ date format: "yyyy-mm-dd"
 [main.ts:96411](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L96411)
 
 ___
+
 
 ### date\_to
 
@@ -75,6 +81,7 @@ example:
 [main.ts:96418](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L96418)
 
 ___
+
 
 ### language\_code
 
@@ -94,6 +101,7 @@ en
 
 ___
 
+
 ### language\_name
 
 • `Optional` **language\_name**: `string`
@@ -111,6 +119,7 @@ English
 [main.ts:96397](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L96397)
 
 ___
+
 
 ### location\_code
 
@@ -130,6 +139,7 @@ example:
 
 ___
 
+
 ### location\_name
 
 • `Optional` **location\_name**: `string`
@@ -148,6 +158,7 @@ United Kingdom
 
 ___
 
+
 ### tag
 
 • `Optional` **tag**: `string`
@@ -164,6 +175,7 @@ you will find the specified tag value in the data object of the response
 
 ___
 
+
 ### target
 
 • `Optional` **target**: `string`
@@ -176,3 +188,7 @@ the domain should be specified without https:// and www.
 #### Defined in
 
 [main.ts:96373](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L96373)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

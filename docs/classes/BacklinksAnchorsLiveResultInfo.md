@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / BacklinksAnchorsLiveResultInfo
 
 # Class: BacklinksAnchorsLiveResultInfo
@@ -67,6 +71,7 @@ items array
 
 ___
 
+
 ### items\_count
 
 • `Optional` **items\_count**: `number`
@@ -83,6 +88,7 @@ number of items in the results array
 
 ___
 
+
 ### target
 
 • `Optional` **target**: `string`
@@ -98,6 +104,7 @@ target in the post array
 [main.ts:132269](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L132269)
 
 ___
+
 
 ### total\_count
 
@@ -135,6 +142,7 @@ total number of relevant items in the database
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -155,6 +163,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`BacklinksAnchorsLiveResultInfo`](BacklinksAnchorsLiveResultInfo.md)
@@ -172,3 +181,7 @@ ___
 #### Defined in
 
 [main.ts:132305](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L132305)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

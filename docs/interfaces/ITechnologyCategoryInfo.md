@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / ITechnologyCategoryInfo
 
 # Interface: ITechnologyCategoryInfo
@@ -35,6 +39,7 @@ crm, cart_abandonment
 
 ___
 
+
 ### path
 
 • `Optional` **path**: `string`
@@ -48,6 +53,7 @@ user_generated_content.content_curation
 [main.ts:72175](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L72175)
 
 ___
+
 
 ### technologies
 
@@ -63,6 +69,7 @@ example:
 
 ___
 
+
 ### title
 
 • `Optional` **title**: `string`
@@ -72,3 +79,7 @@ title of the technology category
 #### Defined in
 
 [main.ts:72177](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L72177)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / DataforseoLabsGoogleHistoricalSearchVolumeLiveItem
 
 # Class: DataforseoLabsGoogleHistoricalSearchVolumeLiveItem
@@ -76,6 +80,7 @@ learn more about impressions in this help center article
 
 ___
 
+
 ### keyword
 
 • `Optional` **keyword**: `string`
@@ -93,6 +98,7 @@ keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a s
 
 ___
 
+
 ### keyword\_info
 
 • `Optional` **keyword\_info**: [`KeywordInfo`](KeywordInfo.md)
@@ -108,6 +114,7 @@ keyword data for the returned keyword idea
 [main.ts:81922](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L81922)
 
 ___
+
 
 ### keyword\_properties
 
@@ -125,6 +132,7 @@ additional information about the keyword
 
 ___
 
+
 ### language\_code
 
 • `Optional` **language\_code**: `string`
@@ -140,6 +148,7 @@ language code in a POST array
 [main.ts:81916](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L81916)
 
 ___
+
 
 ### location\_code
 
@@ -158,6 +167,7 @@ if there is no data, then the value is null
 
 ___
 
+
 ### se\_type
 
 • `Optional` **se\_type**: `string`
@@ -173,6 +183,7 @@ search engine type
 [main.ts:81908](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L81908)
 
 ___
+
 
 ### search\_partners
 
@@ -191,6 +202,7 @@ if false, the results are returned for Google search sites only
 [main.ts:81920](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L81920)
 
 ___
+
 
 ### serp\_info
 
@@ -229,6 +241,7 @@ the value will be null if you didn’t set the field include_serp_info to true i
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -249,6 +262,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`DataforseoLabsGoogleHistoricalSearchVolumeLiveItem`](DataforseoLabsGoogleHistoricalSearchVolumeLiveItem.md)
@@ -266,3 +280,7 @@ ___
 #### Defined in
 
 [main.ts:81964](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L81964)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

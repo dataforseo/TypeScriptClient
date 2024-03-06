@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / HotelPriceItemInfo
 
 # Class: HotelPriceItemInfo
@@ -73,6 +77,7 @@ USD is applied by default, unless specified in the POST array
 
 ___
 
+
 ### domain
 
 • `Optional` **domain**: `string`
@@ -89,6 +94,7 @@ domain of the third-party website page with pricing information
 [main.ts:193581](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L193581)
 
 ___
+
 
 ### free\_cancellation\_until
 
@@ -108,6 +114,7 @@ equals null if free cancellation is not available for the selected dates
 
 ___
 
+
 ### is\_paid
 
 • `Optional` **is\_paid**: `boolean`
@@ -126,6 +133,7 @@ if false, related hotel_search_item is an organic hotel listing
 
 ___
 
+
 ### offers
 
 • `Optional` **offers**: [`HotelInfoPriceOffer`](HotelInfoPriceOffer.md)[]
@@ -141,6 +149,7 @@ featured price offers
 [main.ts:193591](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L193591)
 
 ___
+
 
 ### price
 
@@ -158,6 +167,7 @@ price per night
 
 ___
 
+
 ### title
 
 • `Optional` **title**: `string`
@@ -174,6 +184,7 @@ title of the hotel
 
 ___
 
+
 ### type
 
 • `Optional` **type**: `string`
@@ -189,6 +200,7 @@ type of element
 [main.ts:193568](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L193568)
 
 ___
+
 
 ### url
 
@@ -227,6 +239,7 @@ URL to the third-party website page with pricing information
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -247,6 +260,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`HotelPriceItemInfo`](HotelPriceItemInfo.md)
@@ -264,3 +278,7 @@ ___
 #### Defined in
 
 [main.ts:193626](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L193626)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / AppendixTechnologiesDomainAnalyticsPriceData
 
 # Class: AppendixTechnologiesDomainAnalyticsPriceData
@@ -70,6 +74,7 @@
 
 ___
 
+
 ### domain\_technologies
 
 • `Optional` **domain\_technologies**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](AppendixKeywordBingKeywordsDataPriceDataInfo.md)
@@ -83,6 +88,7 @@ ___
 [main.ts:211813](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L211813)
 
 ___
+
 
 ### domains\_by\_html\_terms
 
@@ -98,6 +104,7 @@ ___
 
 ___
 
+
 ### domains\_by\_technology
 
 • `Optional` **domains\_by\_technology**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](AppendixKeywordBingKeywordsDataPriceDataInfo.md)
@@ -111,6 +118,7 @@ ___
 [main.ts:211812](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L211812)
 
 ___
+
 
 ### languages
 
@@ -126,6 +134,7 @@ ___
 
 ___
 
+
 ### locations
 
 • `Optional` **locations**: [`AppendixTaskKeywordsDataPriceDataInfo`](AppendixTaskKeywordsDataPriceDataInfo.md)
@@ -139,6 +148,7 @@ ___
 [main.ts:211808](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L211808)
 
 ___
+
 
 ### technologies
 
@@ -154,6 +164,7 @@ ___
 
 ___
 
+
 ### technologies\_summary
 
 • `Optional` **technologies\_summary**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](AppendixKeywordBingKeywordsDataPriceDataInfo.md)
@@ -167,6 +178,7 @@ ___
 [main.ts:211814](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L211814)
 
 ___
+
 
 ### technology\_stats
 
@@ -202,6 +214,7 @@ ___
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -222,6 +235,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`AppendixTechnologiesDomainAnalyticsPriceData`](AppendixTechnologiesDomainAnalyticsPriceData.md)
@@ -239,3 +253,7 @@ ___
 #### Defined in
 
 [main.ts:211846](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L211846)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

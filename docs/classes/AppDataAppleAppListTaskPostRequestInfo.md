@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / AppDataAppleAppListTaskPostRequestInfo
 
 # Class: AppDataAppleAppListTaskPostRequestInfo
@@ -80,6 +84,7 @@ you can review the full list of available categories here or by making a separat
 
 ___
 
+
 ### app\_collection
 
 • `Optional` **app\_collection**: `string`
@@ -99,6 +104,7 @@ top_free_ios, top_paid_ios, top_grossing_ios, new_ios, new_free_ios, new_paid_io
 [main.ts:184882](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L184882)
 
 ___
+
 
 ### depth
 
@@ -124,6 +130,7 @@ maximum value: 1000
 
 ___
 
+
 ### language\_code
 
 • `Optional` **language\_code**: `string`
@@ -144,6 +151,7 @@ en
 [main.ts:184910](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L184910)
 
 ___
+
 
 ### language\_name
 
@@ -166,6 +174,7 @@ English
 
 ___
 
+
 ### location\_code
 
 • `Optional` **location\_code**: `number`
@@ -187,6 +196,7 @@ example:
 
 ___
 
+
 ### location\_name
 
 • `Optional` **location\_name**: `string`
@@ -207,6 +217,7 @@ West Los Angeles,California,United States
 [main.ts:184889](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L184889)
 
 ___
+
 
 ### pingback\_url
 
@@ -232,6 +243,7 @@ i.a., the # symbol will be encoded into %23
 
 ___
 
+
 ### postback\_data
 
 • `Optional` **postback\_data**: `string`
@@ -251,6 +263,7 @@ advanced
 [main.ts:184957](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L184957)
 
 ___
+
 
 ### postback\_url
 
@@ -276,6 +289,7 @@ i.a., the # symbol will be encoded into %23
 
 ___
 
+
 ### priority
 
 • `Optional` **priority**: `number`
@@ -297,6 +311,7 @@ The cost can be calculated on the Pricing page.
 [main.ts:184918](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L184918)
 
 ___
+
 
 ### tag
 
@@ -338,6 +353,7 @@ you will find the specified tag value in the data object of the response
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -358,6 +374,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`AppDataAppleAppListTaskPostRequestInfo`](AppDataAppleAppListTaskPostRequestInfo.md)
@@ -375,3 +392,7 @@ ___
 #### Defined in
 
 [main.ts:185001](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L185001)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

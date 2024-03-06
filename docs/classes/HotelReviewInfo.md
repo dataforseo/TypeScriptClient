@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / HotelReviewInfo
 
 # Class: HotelReviewInfo
@@ -69,6 +73,7 @@ information about hotel reviews by criteria
 
 ___
 
+
 ### other\_sites\_reviews
 
 • `Optional` **other\_sites\_reviews**: [`OtherSitesReviewsInfo`](OtherSitesReviewsInfo.md)[]
@@ -85,6 +90,7 @@ reviews from third-paty sites
 [main.ts:195933](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L195933)
 
 ___
+
 
 ### rating\_distribution
 
@@ -107,6 +113,7 @@ the distribution of votes across the rating in the range from 1 to 5
 
 ___
 
+
 ### value
 
 • `Optional` **value**: `number`
@@ -122,6 +129,7 @@ overall hotel rating based on customer votes
 [main.ts:195921](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L195921)
 
 ___
+
 
 ### votes\_count
 
@@ -160,6 +168,7 @@ the number of customer votes included in the calculation of the hotel rating
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -180,6 +189,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`HotelReviewInfo`](HotelReviewInfo.md)
@@ -197,3 +207,7 @@ ___
 #### Defined in
 
 [main.ts:195974](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L195974)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

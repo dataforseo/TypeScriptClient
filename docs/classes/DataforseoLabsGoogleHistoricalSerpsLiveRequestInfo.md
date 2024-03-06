@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / DataforseoLabsGoogleHistoricalSerpsLiveRequestInfo
 
 # Class: DataforseoLabsGoogleHistoricalSerpsLiveRequestInfo
@@ -75,6 +79,7 @@ date format: "yyyy-mm-dd"
 
 ___
 
+
 ### date\_to
 
 • `Optional` **date\_to**: `string`
@@ -96,6 +101,7 @@ example:
 
 ___
 
+
 ### keyword
 
 • `Optional` **keyword**: `string`
@@ -116,6 +122,7 @@ if you need to use the “+” symbol for your keyword, please specify it as “
 [main.ts:90959](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L90959)
 
 ___
+
 
 ### language\_code
 
@@ -139,6 +146,7 @@ en
 
 ___
 
+
 ### language\_name
 
 • `Optional` **language\_name**: `string`
@@ -161,6 +169,7 @@ English
 
 ___
 
+
 ### location\_code
 
 • `Optional` **location\_code**: `number`
@@ -182,6 +191,7 @@ example:
 
 ___
 
+
 ### location\_name
 
 • `Optional` **location\_name**: `string`
@@ -202,6 +212,7 @@ United Kingdom
 [main.ts:90979](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L90979)
 
 ___
+
 
 ### tag
 
@@ -243,6 +254,7 @@ you will find the specified tag value in the data object of the response
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -263,6 +275,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`DataforseoLabsGoogleHistoricalSerpsLiveRequestInfo`](DataforseoLabsGoogleHistoricalSerpsLiveRequestInfo.md)
@@ -280,3 +293,7 @@ ___
 #### Defined in
 
 [main.ts:91038](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L91038)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

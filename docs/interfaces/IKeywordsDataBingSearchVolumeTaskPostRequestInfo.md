@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IKeywordsDataBingSearchVolumeTaskPostRequestInfo
 
 # Interface: IKeywordsDataBingSearchVolumeTaskPostRequestInfo
@@ -49,6 +53,7 @@ example:
 
 ___
 
+
 ### date\_to
 
 • `Optional` **date\_to**: `string`
@@ -69,6 +74,7 @@ example:
 
 ___
 
+
 ### device
 
 • `Optional` **device**: `string`
@@ -83,6 +89,7 @@ default value: all
 [main.ts:122504](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L122504)
 
 ___
+
 
 ### keywords
 
@@ -100,6 +107,7 @@ the specified keywords will be converted to lowercase, data will be provided in 
 
 ___
 
+
 ### language\_code
 
 • `Optional` **language\_code**: `string`
@@ -115,6 +123,7 @@ en, fr, de
 [main.ts:122499](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L122499)
 
 ___
+
 
 ### language\_name
 
@@ -132,6 +141,7 @@ English, French, German
 
 ___
 
+
 ### location\_code
 
 • `Optional` **location\_code**: `number`
@@ -148,6 +158,7 @@ example:
 [main.ts:122479](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L122479)
 
 ___
+
 
 ### location\_coordinate
 
@@ -167,6 +178,7 @@ example:
 
 ___
 
+
 ### location\_name
 
 • `Optional` **location\_name**: `string`
@@ -183,6 +195,7 @@ London,England,United Kingdom
 [main.ts:122472](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L122472)
 
 ___
+
 
 ### pingback\_url
 
@@ -204,6 +217,7 @@ i.a., the # symbol will be encoded into %23
 
 ___
 
+
 ### postback\_url
 
 • `Optional` **postback\_url**: `string`
@@ -224,6 +238,7 @@ i.a., the # symbol will be encoded into %23
 
 ___
 
+
 ### search\_partners
 
 • `Optional` **search\_partners**: `boolean`
@@ -238,6 +253,7 @@ default value: false – results are returned for Bing, AOL, and Yahoo search ne
 [main.ts:122552](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L122552)
 
 ___
+
 
 ### sort\_by
 
@@ -254,6 +270,7 @@ default value: relevance
 
 ___
 
+
 ### tag
 
 • `Optional` **tag**: `string`
@@ -267,3 +284,7 @@ you will find the specified tag value in the data object of the response
 #### Defined in
 
 [main.ts:122558](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L122558)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

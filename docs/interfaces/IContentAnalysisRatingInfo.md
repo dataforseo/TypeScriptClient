@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IContentAnalysisRatingInfo
 
 # Interface: IContentAnalysisRatingInfo
@@ -36,6 +40,7 @@ maximum value for the rating name
 
 ___
 
+
 ### name
 
 • `Optional` **name**: `string`
@@ -49,6 +54,7 @@ here you can find the following elements: Max5, Percents, CustomMax
 
 ___
 
+
 ### rating\_count
 
 • `Optional` **rating\_count**: `number`
@@ -60,6 +66,7 @@ number of votes
 [main.ts:156390](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L156390)
 
 ___
+
 
 ### rating\_value
 
@@ -73,6 +80,7 @@ the value of the rating
 
 ___
 
+
 ### relative\_rating
 
 • `Optional` **relative\_rating**: `number`
@@ -82,3 +90,7 @@ relative rating
 #### Defined in
 
 [main.ts:156394](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L156394)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

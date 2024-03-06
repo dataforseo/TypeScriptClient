@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / BacklinksPageIntersectionLiveRequestInfo
 
 # Class: BacklinksPageIntersectionLiveRequestInfo
@@ -82,6 +86,7 @@ default value: live
 
 ___
 
+
 ### exclude\_targets
 
 • `Optional` **exclude\_targets**: `string`[]
@@ -105,6 +110,7 @@ example:
 [main.ts:137354](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L137354)
 
 ___
+
 
 ### filters
 
@@ -137,6 +143,7 @@ The full list of possible filters is available here.
 
 ___
 
+
 ### include\_indirect\_links
 
 • `Optional` **include\_indirect\_links**: `boolean`
@@ -157,6 +164,7 @@ default value: true
 
 ___
 
+
 ### include\_subdomains
 
 • `Optional` **include\_subdomains**: `boolean`
@@ -175,6 +183,7 @@ default value: true
 [main.ts:137417](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L137417)
 
 ___
+
 
 ### internal\_list\_limit
 
@@ -198,6 +207,7 @@ maximum value: 1000
 
 ___
 
+
 ### intersection\_mode
 
 • `Optional` **intersection\_mode**: `string`
@@ -220,6 +230,7 @@ default value: all
 
 ___
 
+
 ### limit
 
 • `Optional` **limit**: `number`
@@ -239,6 +250,7 @@ maximum value: 1000
 
 ___
 
+
 ### offset
 
 • `Optional` **offset**: `number`
@@ -257,6 +269,7 @@ if you specify the 10 value, the first ten backlinks in the results array will b
 [main.ts:137399](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L137399)
 
 ___
+
 
 ### order\_by
 
@@ -286,6 +299,7 @@ example:
 
 ___
 
+
 ### tag
 
 • `Optional` **tag**: `string`
@@ -305,6 +319,7 @@ you will find the specified tag value in the data object of the response
 [main.ts:137437](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L137437)
 
 ___
+
 
 ### targets
 
@@ -355,6 +370,7 @@ example:
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -375,6 +391,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`BacklinksPageIntersectionLiveRequestInfo`](BacklinksPageIntersectionLiveRequestInfo.md)
@@ -392,3 +409,7 @@ ___
 #### Defined in
 
 [main.ts:137489](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L137489)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

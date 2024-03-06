@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IAppendixAppDataPriceData
 
 # Interface: IAppendixAppDataPriceData
@@ -35,6 +39,7 @@
 
 ___
 
+
 ### app\_list
 
 • `Optional` **app\_list**: [`AppendixProductGoogleMerchantPriceDataInfo`](../classes/AppendixProductGoogleMerchantPriceDataInfo.md)
@@ -44,6 +49,7 @@ ___
 [main.ts:210803](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L210803)
 
 ___
+
 
 ### app\_reviews
 
@@ -55,6 +61,7 @@ ___
 
 ___
 
+
 ### app\_searches
 
 • `Optional` **app\_searches**: [`AppendixProductGoogleMerchantPriceDataInfo`](../classes/AppendixProductGoogleMerchantPriceDataInfo.md)
@@ -64,6 +71,7 @@ ___
 [main.ts:210805](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L210805)
 
 ___
+
 
 ### categories
 
@@ -75,6 +83,7 @@ ___
 
 ___
 
+
 ### errors
 
 • `Optional` **errors**: [`AppendixTaskKeywordsDataPriceDataInfo`](../classes/AppendixTaskKeywordsDataPriceDataInfo.md)
@@ -84,6 +93,7 @@ ___
 [main.ts:210807](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L210807)
 
 ___
+
 
 ### languages
 
@@ -95,6 +105,7 @@ ___
 
 ___
 
+
 ### locations
 
 • `Optional` **locations**: [`AppendixTaskKeywordsDataPriceDataInfo`](../classes/AppendixTaskKeywordsDataPriceDataInfo.md)
@@ -102,3 +113,7 @@ ___
 #### Defined in
 
 [main.ts:210809](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L210809)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

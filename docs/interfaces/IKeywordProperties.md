@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IKeywordProperties
 
 # Interface: IKeywordProperties
@@ -37,6 +41,7 @@ if the value is null, our database does not contain any keywords the correspondi
 
 ___
 
+
 ### detected\_language
 
 • `Optional` **detected\_language**: `string`
@@ -50,6 +55,7 @@ indicates the language of the keyword as identified by our system
 
 ___
 
+
 ### is\_another\_language
 
 • `Optional` **is\_another\_language**: `boolean`
@@ -62,6 +68,7 @@ if true, the language set in the request does not match the language determined 
 [main.ts:79109](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L79109)
 
 ___
+
 
 ### keyword\_difficulty
 
@@ -78,6 +85,7 @@ learn more about the metric in this help center guide
 
 ___
 
+
 ### se\_type
 
 • `Optional` **se\_type**: `string`
@@ -89,6 +97,7 @@ search engine type
 [main.ts:79088](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L79088)
 
 ___
+
 
 ### synonym\_clustering\_algorithm
 
@@ -103,3 +112,7 @@ if the value is null, our database does not contain any keywords the correspondi
 #### Defined in
 
 [main.ts:79098](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L79098)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

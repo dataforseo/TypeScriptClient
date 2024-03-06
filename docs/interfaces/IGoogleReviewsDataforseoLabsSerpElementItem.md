@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IGoogleReviewsDataforseoLabsSerpElementItem
 
 # Interface: IGoogleReviewsDataforseoLabsSerpElementItem
@@ -5,7 +9,7 @@
 ## Hierarchy
 
 - [`IBaseDataforseoLabsSerpElementItem`](IBaseDataforseoLabsSerpElementItem.md)
-
+  
   ↳ **`IGoogleReviewsDataforseoLabsSerpElementItem`**
 
 ## Implemented by
@@ -44,6 +48,7 @@ google-defined client id
 
 ___
 
+
 ### feature
 
 • `Optional` **feature**: `string`
@@ -56,6 +61,7 @@ the additional feature of the review
 
 ___
 
+
 ### place\_id
 
 • `Optional` **place\_id**: `string`
@@ -67,6 +73,7 @@ the identifier of a place
 [main.ts:94350](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L94350)
 
 ___
+
 
 ### position
 
@@ -82,6 +89,7 @@ left, right
 
 ___
 
+
 ### rank\_absolute
 
 • `Optional` **rank\_absolute**: `number`
@@ -94,6 +102,7 @@ absolute position among all the elements in SERP
 [main.ts:94337](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L94337)
 
 ___
+
 
 ### rank\_group
 
@@ -108,11 +117,12 @@ positions of elements with different type values are omitted from rank_group
 
 ___
 
+
 ### rating
 
 • `Optional` **rating**: [`RatingInfo`](../classes/RatingInfo.md)
 
-the item’s rating 
+the item’s rating
 the popularity rate based on reviews and displayed in SERP
 
 #### Defined in
@@ -120,6 +130,7 @@ the popularity rate based on reviews and displayed in SERP
 [main.ts:94348](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L94348)
 
 ___
+
 
 ### reviews\_count
 
@@ -133,6 +144,7 @@ the number of reviews
 
 ___
 
+
 ### xpath
 
 • `Optional` **xpath**: `string`
@@ -142,3 +154,7 @@ the XPath of the element
 #### Defined in
 
 [main.ts:94343](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L94343)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

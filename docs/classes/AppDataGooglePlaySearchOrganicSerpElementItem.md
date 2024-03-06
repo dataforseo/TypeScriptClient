@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / AppDataGooglePlaySearchOrganicSerpElementItem
 
 # Class: AppDataGooglePlaySearchOrganicSerpElementItem
@@ -5,7 +9,7 @@
 ## Hierarchy
 
 - [`BaseAppDataSerpElementItem`](BaseAppDataSerpElementItem.md)
-
+  
   ↳ **`AppDataGooglePlaySearchOrganicSerpElementItem`**
 
 ## Implements
@@ -85,6 +89,7 @@
 
 ___
 
+
 ### app\_id
 
 • `Optional` **app\_id**: `string`
@@ -100,6 +105,7 @@ id of the app
 [main.ts:108492](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L108492)
 
 ___
+
 
 ### developer
 
@@ -117,6 +123,7 @@ name of the app developer
 
 ___
 
+
 ### developer\_url
 
 • `Optional` **developer\_url**: `string`
@@ -132,6 +139,7 @@ URL to the developer page on Google Play
 [main.ts:108510](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L108510)
 
 ___
+
 
 ### icon
 
@@ -149,6 +157,7 @@ URL to the app icon
 
 ___
 
+
 ### is\_free
 
 • `Optional` **is\_free**: `boolean`
@@ -164,6 +173,7 @@ indicates whether the app is free
 [main.ts:108504](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L108504)
 
 ___
+
 
 ### position
 
@@ -183,6 +193,7 @@ left, right
 
 ___
 
+
 ### price
 
 • `Optional` **price**: [`PriceInfo`](PriceInfo.md)
@@ -198,6 +209,7 @@ price of the app
 [main.ts:108506](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L108506)
 
 ___
+
 
 ### rank\_absolute
 
@@ -216,6 +228,7 @@ absolute position among all the elements in SERP
 
 ___
 
+
 ### rank\_group
 
 • `Optional` **rank\_group**: `number`
@@ -233,6 +246,7 @@ positions of elements with different type values are omitted from rank_group
 
 ___
 
+
 ### rating
 
 • `Optional` **rating**: [`RatingInfo`](RatingInfo.md)
@@ -248,6 +262,7 @@ average rating of the app
 [main.ts:108502](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L108502)
 
 ___
+
 
 ### reviews\_count
 
@@ -265,6 +280,7 @@ the total number of reviews of the app
 
 ___
 
+
 ### title
 
 • `Optional` **title**: `string`
@@ -280,6 +296,7 @@ title of the app
 [main.ts:108494](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L108494)
 
 ___
+
 
 ### url
 
@@ -321,6 +338,7 @@ URL to the app page on Google Play
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -345,6 +363,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`AppDataGooglePlaySearchOrganicSerpElementItem`](AppDataGooglePlaySearchOrganicSerpElementItem.md)
@@ -366,3 +385,7 @@ ___
 #### Defined in
 
 [main.ts:108542](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L108542)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

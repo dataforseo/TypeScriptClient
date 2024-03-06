@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / AppDataAppleAppListTaskGetAdvancedResultInfo
 
 # Class: AppDataAppleAppListTaskGetAdvancedResultInfo
@@ -73,6 +77,7 @@ in this case, the value will be null
 
 ___
 
+
 ### datetime
 
 • `Optional` **datetime**: `string`
@@ -92,6 +97,7 @@ example:
 
 ___
 
+
 ### items
 
 • `Optional` **items**: [`BaseAppDataSerpElementItem`](BaseAppDataSerpElementItem.md)[]
@@ -108,6 +114,7 @@ you can get more results by using the depth parameter when setting a task
 [main.ts:185448](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L185448)
 
 ___
+
 
 ### items\_count
 
@@ -126,6 +133,7 @@ you can get more results by using the depth parameter when setting a task
 
 ___
 
+
 ### keyword
 
 • `Optional` **keyword**: `string`
@@ -141,6 +149,7 @@ app collection received in a POST array
 [main.ts:185426](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L185426)
 
 ___
+
 
 ### language\_code
 
@@ -158,6 +167,7 @@ language code in a POST array
 
 ___
 
+
 ### location\_code
 
 • `Optional` **location\_code**: `number`
@@ -174,6 +184,7 @@ location code in a POST array
 
 ___
 
+
 ### se\_domain
 
 • `Optional` **se\_domain**: `string`
@@ -189,6 +200,7 @@ search engine domain in a POST array
 [main.ts:185428](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L185428)
 
 ___
+
 
 ### se\_results\_count
 
@@ -226,6 +238,7 @@ the total number of results
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -246,6 +259,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`AppDataAppleAppListTaskGetAdvancedResultInfo`](AppDataAppleAppListTaskGetAdvancedResultInfo.md)
@@ -263,3 +277,7 @@ ___
 #### Defined in
 
 [main.ts:185483](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L185483)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

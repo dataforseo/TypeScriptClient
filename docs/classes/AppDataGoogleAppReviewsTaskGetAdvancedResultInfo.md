@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / AppDataGoogleAppReviewsTaskGetAdvancedResultInfo
 
 # Class: AppDataGoogleAppReviewsTaskGetAdvancedResultInfo
@@ -75,6 +79,7 @@ application id received in a POST array
 
 ___
 
+
 ### check\_url
 
 • `Optional` **check\_url**: `string`
@@ -91,6 +96,7 @@ you can use it to make sure that we provided accurate results
 [main.ts:181439](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L181439)
 
 ___
+
 
 ### datetime
 
@@ -111,6 +117,7 @@ example:
 
 ___
 
+
 ### items
 
 • `Optional` **items**: [`BaseAppDataSerpElementItem`](BaseAppDataSerpElementItem.md)[]
@@ -127,6 +134,7 @@ you can get more results by using the depth parameter when setting a task
 [main.ts:181458](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L181458)
 
 ___
+
 
 ### items\_count
 
@@ -145,6 +153,7 @@ you can get more results by using the depth parameter when setting a task
 
 ___
 
+
 ### language\_code
 
 • `Optional` **language\_code**: `string`
@@ -161,6 +170,7 @@ language code in a POST array
 
 ___
 
+
 ### location\_code
 
 • `Optional` **location\_code**: `number`
@@ -176,6 +186,7 @@ location code in a POST array
 [main.ts:181434](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L181434)
 
 ___
+
 
 ### rating
 
@@ -194,6 +205,7 @@ rating of the application for which the reviews are collected
 
 ___
 
+
 ### reviews\_count
 
 • `Optional` **reviews\_count**: `number`
@@ -209,6 +221,7 @@ the total number of reviews
 [main.ts:181452](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L181452)
 
 ___
+
 
 ### se\_domain
 
@@ -226,6 +239,7 @@ search engine domain in a POST array
 
 ___
 
+
 ### title
 
 • `Optional` **title**: `string`
@@ -242,6 +256,7 @@ title of the application for which the reviews are collected
 [main.ts:181447](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L181447)
 
 ___
+
 
 ### type
 
@@ -279,6 +294,7 @@ type of element
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -299,6 +315,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`AppDataGoogleAppReviewsTaskGetAdvancedResultInfo`](AppDataGoogleAppReviewsTaskGetAdvancedResultInfo.md)
@@ -316,3 +333,7 @@ ___
 #### Defined in
 
 [main.ts:181496](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L181496)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

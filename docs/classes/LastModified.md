@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / LastModified
 
 # Class: LastModified
@@ -70,6 +74,7 @@ if there is no data, the value will be null
 
 ___
 
+
 ### meta\_tag
 
 • `Optional` **meta\_tag**: `string`
@@ -89,6 +94,7 @@ if there is no data, the value will be null
 [main.ts:144813](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L144813)
 
 ___
+
 
 ### sitemap
 
@@ -130,6 +136,7 @@ if there is no data, the value will be null
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -150,6 +157,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`LastModified`](LastModified.md)
@@ -167,3 +175,7 @@ ___
 #### Defined in
 
 [main.ts:144838](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L144838)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

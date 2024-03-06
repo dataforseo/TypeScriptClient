@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IProductConsiderationsExpandedElement
 
 # Interface: IProductConsiderationsExpandedElement
@@ -41,6 +45,7 @@ this feature appears after clicking on the three dots next to most results
 
 ___
 
+
 ### breadcrumb
 
 • `Optional` **breadcrumb**: `string`
@@ -52,6 +57,7 @@ breadcrumb of the Ad element in SERP
 [main.ts:34510](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L34510)
 
 ___
+
 
 ### domain
 
@@ -65,6 +71,7 @@ website domain
 
 ___
 
+
 ### featured\_title
 
 • `Optional` **featured\_title**: `string`
@@ -76,6 +83,7 @@ the title of the featured snippets source page
 [main.ts:34508](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L34508)
 
 ___
+
 
 ### related\_searches
 
@@ -89,6 +97,7 @@ search queries related to the elment
 
 ___
 
+
 ### snippet
 
 • `Optional` **snippet**: `string`
@@ -100,6 +109,7 @@ text alongside the link title
 [main.ts:34512](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L34512)
 
 ___
+
 
 ### timestamp
 
@@ -116,6 +126,7 @@ example:
 
 ___
 
+
 ### title
 
 • `Optional` **title**: `string`
@@ -127,6 +138,7 @@ title of a given link element
 [main.ts:34506](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L34506)
 
 ___
+
 
 ### type
 
@@ -140,6 +152,7 @@ type of element
 
 ___
 
+
 ### url
 
 • `Optional` **url**: `string`
@@ -149,3 +162,7 @@ URL
 #### Defined in
 
 [main.ts:34516](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L34516)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

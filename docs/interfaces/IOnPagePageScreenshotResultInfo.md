@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IOnPagePageScreenshotResultInfo
 
 # Interface: IOnPagePageScreenshotResultInfo
@@ -34,6 +38,7 @@ possible values: in_progress, finished
 
 ___
 
+
 ### error\_message
 
 • `Optional` **error\_message**: `string`
@@ -48,6 +53,7 @@ if no error is encountered, the value will be null
 
 ___
 
+
 ### items
 
 • `Optional` **items**: [`ScreenshotItem`](../classes/ScreenshotItem.md)[]
@@ -60,6 +66,7 @@ items array
 
 ___
 
+
 ### items\_count
 
 • `Optional` **items\_count**: `number`
@@ -69,3 +76,7 @@ number of items in the results array
 #### Defined in
 
 [main.ts:151762](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L151762)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IBaseBusinessDataSerpElementItem
 
 # Interface: IBaseBusinessDataSerpElementItem
@@ -5,27 +9,27 @@
 ## Hierarchy
 
 - **`IBaseBusinessDataSerpElementItem`**
-
+  
   ↳ [`IMapsSearchBusinessDataSerpElementItem`](IMapsSearchBusinessDataSerpElementItem.md)
-
+  
   ↳ [`IGoogleBusinessInfoBusinessDataSerpElementItem`](IGoogleBusinessInfoBusinessDataSerpElementItem.md)
-
+  
   ↳ [`IGoogleBusinessPostBusinessDataSerpElementItem`](IGoogleBusinessPostBusinessDataSerpElementItem.md)
-
+  
   ↳ [`IGoogleReviewsSearchBusinessDataSerpElementItem`](IGoogleReviewsSearchBusinessDataSerpElementItem.md)
-
+  
   ↳ [`ITrustpilotSearchOrganicBusinessDataSerpElementItem`](ITrustpilotSearchOrganicBusinessDataSerpElementItem.md)
-
+  
   ↳ [`ITrustpilotReviewSearchBusinessDataSerpElementItem`](ITrustpilotReviewSearchBusinessDataSerpElementItem.md)
-
+  
   ↳ [`ITripadvisorSearchOrganicBusinessDataSerpElementItem`](ITripadvisorSearchOrganicBusinessDataSerpElementItem.md)
-
+  
   ↳ [`ITripadvisorReviewSearchBusinessDataSerpElementItem`](ITripadvisorReviewSearchBusinessDataSerpElementItem.md)
-
+  
   ↳ [`IYelpSearchOrganicBusinessDataSerpElementItem`](IYelpSearchOrganicBusinessDataSerpElementItem.md)
-
+  
   ↳ [`IYelpSearchPaidBusinessDataSerpElementItem`](IYelpSearchPaidBusinessDataSerpElementItem.md)
-
+  
   ↳ [`IYelpReviewsSearchBusinessDataSerpElementItem`](IYelpReviewsSearchBusinessDataSerpElementItem.md)
 
 ## Implemented by
@@ -35,3 +39,7 @@
 ## Indexable
 
 ▪ [key: `string`]: `any`
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

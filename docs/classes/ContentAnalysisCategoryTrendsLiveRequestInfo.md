@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / ContentAnalysisCategoryTrendsLiveRequestInfo
 
 # Class: ContentAnalysisCategoryTrendsLiveRequestInfo
@@ -74,6 +78,7 @@ to obtain a full list of available categories, refer to the Categories endpoint
 
 ___
 
+
 ### date\_from
 
 • `Optional` **date\_from**: `string`
@@ -94,6 +99,7 @@ example:
 
 ___
 
+
 ### date\_group
 
 • `Optional` **date\_group**: `string`
@@ -112,6 +118,7 @@ possible values: day, week, month
 [main.ts:159233](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L159233)
 
 ___
+
 
 ### date\_to
 
@@ -133,6 +140,7 @@ example:
 [main.ts:159228](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L159228)
 
 ___
+
 
 ### initial\_dataset\_filters
 
@@ -165,6 +173,7 @@ for more information about filters, please refer to Content Analysis API – Fil
 
 ___
 
+
 ### internal\_list\_limit
 
 • `Optional` **internal\_list\_limit**: `number`
@@ -190,6 +199,7 @@ maximum value: 20
 
 ___
 
+
 ### page\_type
 
 • `Optional` **page\_type**: `string`[]
@@ -209,6 +219,7 @@ possible values:
 [main.ts:159197](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L159197)
 
 ___
+
 
 ### search\_mode
 
@@ -230,6 +241,7 @@ default value: as_is
 [main.ts:159204](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L159204)
 
 ___
+
 
 ### tag
 
@@ -271,6 +283,7 @@ you will find the specified tag value in the data object of the response
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -291,6 +304,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`ContentAnalysisCategoryTrendsLiveRequestInfo`](ContentAnalysisCategoryTrendsLiveRequestInfo.md)
@@ -308,3 +322,7 @@ ___
 #### Defined in
 
 [main.ts:159295](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L159295)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

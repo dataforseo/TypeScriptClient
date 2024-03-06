@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / KnowledgeGraphExpandedElement
 
 # Class: KnowledgeGraphExpandedElement
@@ -72,6 +76,7 @@ domain in SERP
 
 ___
 
+
 ### featured\_title
 
 • `Optional` **featured\_title**: `string`
@@ -87,6 +92,7 @@ title of a given element
 [main.ts:26940](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L26940)
 
 ___
+
 
 ### images
 
@@ -104,6 +110,7 @@ images of the element
 
 ___
 
+
 ### snippet
 
 • `Optional` **snippet**: `string`
@@ -120,6 +127,7 @@ text alongside the link title
 
 ___
 
+
 ### table
 
 • `Optional` **table**: [`Table`](Table.md)
@@ -135,6 +143,7 @@ table element
 [main.ts:26957](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L26957)
 
 ___
+
 
 ### timestamp
 
@@ -155,6 +164,7 @@ example:
 
 ___
 
+
 ### title
 
 • `Optional` **title**: `string`
@@ -171,6 +181,7 @@ title of the result in SERP
 
 ___
 
+
 ### type
 
 • `Optional` **type**: `string`
@@ -186,6 +197,7 @@ type of element
 [main.ts:26938](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L26938)
 
 ___
+
 
 ### url
 
@@ -223,6 +235,7 @@ relevant URL
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -243,6 +256,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`KnowledgeGraphExpandedElement`](KnowledgeGraphExpandedElement.md)
@@ -260,3 +274,7 @@ ___
 #### Defined in
 
 [main.ts:26992](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L26992)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

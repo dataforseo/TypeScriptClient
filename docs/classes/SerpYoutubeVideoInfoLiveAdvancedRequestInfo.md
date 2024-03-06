@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / SerpYoutubeVideoInfoLiveAdvancedRequestInfo
 
 # Class: SerpYoutubeVideoInfoLiveAdvancedRequestInfo
@@ -73,6 +77,7 @@ only value: desktop
 
 ___
 
+
 ### language\_code
 
 • `Optional` **language\_code**: `string`
@@ -93,6 +98,7 @@ en
 [main.ts:59068](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L59068)
 
 ___
+
 
 ### language\_name
 
@@ -115,6 +121,7 @@ English
 
 ___
 
+
 ### location\_code
 
 • `Optional` **location\_code**: `number`
@@ -135,6 +142,7 @@ example:
 [main.ts:59054](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L59054)
 
 ___
+
 
 ### location\_name
 
@@ -157,6 +165,7 @@ United States
 
 ___
 
+
 ### os
 
 • `Optional` **os**: `string`
@@ -175,6 +184,7 @@ default value: windows
 [main.ts:59077](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L59077)
 
 ___
+
 
 ### tag
 
@@ -195,6 +205,7 @@ you will find the specified tag value in the data object of the response
 [main.ts:59083](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L59083)
 
 ___
+
 
 ### video\_id
 
@@ -236,6 +247,7 @@ vQXvyV0zIP4
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -256,6 +268,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`SerpYoutubeVideoInfoLiveAdvancedRequestInfo`](SerpYoutubeVideoInfoLiveAdvancedRequestInfo.md)
@@ -273,3 +286,7 @@ ___
 #### Defined in
 
 [main.ts:59113](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L59113)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

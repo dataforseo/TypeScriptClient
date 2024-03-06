@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / KeywordsDataGoogleAdsKeywordsForSiteLiveRequestInfo
 
 # Class: KeywordsDataGoogleAdsKeywordsForSiteLiveRequestInfo
@@ -82,6 +86,7 @@ if Status endpoint returns true in the actual_data field, date_from can be set t
 
 ___
 
+
 ### date\_to
 
 • `Optional` **date\_to**: `string`
@@ -104,6 +109,7 @@ example:
 
 ___
 
+
 ### include\_adult\_keywords
 
 • `Optional` **include\_adult\_keywords**: `boolean`
@@ -123,6 +129,7 @@ note that the API may return no data for such keywords due to Google Ads restric
 [main.ts:115422](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L115422)
 
 ___
+
 
 ### language\_code
 
@@ -144,6 +151,7 @@ en
 
 ___
 
+
 ### language\_name
 
 • `Optional` **language\_name**: `string`
@@ -163,6 +171,7 @@ English
 [main.ts:115389](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L115389)
 
 ___
+
 
 ### location\_code
 
@@ -185,6 +194,7 @@ example:
 [main.ts:115374](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L115374)
 
 ___
+
 
 ### location\_coordinate
 
@@ -209,6 +219,7 @@ example:
 
 ___
 
+
 ### location\_name
 
 • `Optional` **location\_name**: `string`
@@ -231,6 +242,7 @@ London,England,United Kingdom
 
 ___
 
+
 ### search\_partners
 
 • `Optional` **search\_partners**: `boolean`
@@ -250,6 +262,7 @@ default value: false – results are returned for Google search sites
 
 ___
 
+
 ### sort\_by
 
 • `Optional` **sort\_by**: `string`
@@ -268,6 +281,7 @@ default value: relevance
 [main.ts:115427](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L115427)
 
 ___
+
 
 ### tag
 
@@ -289,6 +303,7 @@ you will find the specified tag value in the data object of the response
 
 ___
 
+
 ### target
 
 • `Optional` **target**: `string`
@@ -307,6 +322,7 @@ note: to obtain keywords for the target website, use the target_type parameter
 [main.ts:115351](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L115351)
 
 ___
+
 
 ### target\_type
 
@@ -349,6 +365,7 @@ if set to page, keywords will be provided for the specified webpage
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -369,6 +386,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`KeywordsDataGoogleAdsKeywordsForSiteLiveRequestInfo`](KeywordsDataGoogleAdsKeywordsForSiteLiveRequestInfo.md)
@@ -386,3 +404,7 @@ ___
 #### Defined in
 
 [main.ts:115468](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L115468)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

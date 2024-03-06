@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IFeaturedSnippetSerpElementItem
 
 # Interface: IFeaturedSnippetSerpElementItem
@@ -5,7 +9,7 @@
 ## Hierarchy
 
 - [`IBaseSerpElementItem`](IBaseSerpElementItem.md)
-
+  
   ↳ **`IFeaturedSnippetSerpElementItem`**
 
 ## Implemented by
@@ -49,6 +53,7 @@ breadcrumb of the ad element in SERP
 
 ___
 
+
 ### description
 
 • `Optional` **description**: `string`
@@ -60,6 +65,7 @@ description of the ad element in SERP
 [main.ts:25815](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L25815)
 
 ___
+
 
 ### domain
 
@@ -73,6 +79,7 @@ domain of the ad element in SERP
 
 ___
 
+
 ### featured\_title
 
 • `Optional` **featured\_title**: `string`
@@ -85,6 +92,7 @@ title
 
 ___
 
+
 ### images
 
 • `Optional` **images**: [`ImagesElement`](../classes/ImagesElement.md)[]
@@ -96,6 +104,7 @@ images of the element
 [main.ts:25834](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L25834)
 
 ___
+
 
 ### position
 
@@ -110,6 +119,7 @@ left, right
 [main.ts:25823](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L25823)
 
 ___
+
 
 ### rank\_absolute
 
@@ -126,6 +136,7 @@ to get all items (including SERP features and rich snippets) with their position
 
 ___
 
+
 ### rank\_group
 
 • `Optional` **rank\_group**: `number`
@@ -139,6 +150,7 @@ positions of elements with different type values are omitted from rank_group
 [main.ts:25804](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L25804)
 
 ___
+
 
 ### rectangle
 
@@ -154,6 +166,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 ___
 
+
 ### table
 
 • `Optional` **table**: [`Table`](../classes/Table.md)
@@ -166,6 +179,7 @@ if there are none, equals null
 [main.ts:25837](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L25837)
 
 ___
+
 
 ### timestamp
 
@@ -182,6 +196,7 @@ example:
 
 ___
 
+
 ### title
 
 • `Optional` **title**: `string`
@@ -193,6 +208,7 @@ title of the ad element in SERP
 [main.ts:25813](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L25813)
 
 ___
+
 
 ### url
 
@@ -206,6 +222,7 @@ relevant URL of the ad element in SERP
 
 ___
 
+
 ### xpath
 
 • `Optional` **xpath**: `string`
@@ -215,3 +232,7 @@ the XPath of the element
 #### Defined in
 
 [main.ts:25825](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L25825)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / ISerpGoogleMapsLiveAdvancedRequestInfo
 
 # Interface: ISerpGoogleMapsLiveAdvancedRequestInfo
@@ -51,6 +55,7 @@ if the specified depth is higher than the number of results in the response, the
 
 ___
 
+
 ### device
 
 • `Optional` **device**: `string`
@@ -66,6 +71,7 @@ note: for mobile device, only 20 results are returned for every SERP
 [main.ts:39316](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L39316)
 
 ___
+
 
 ### keyword
 
@@ -86,6 +92,7 @@ Note: queries containing the ‘cache:’ parameter are not supported and will r
 
 ___
 
+
 ### language\_code
 
 • `Optional` **language\_code**: `string`
@@ -102,6 +109,7 @@ en
 [main.ts:39310](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L39310)
 
 ___
+
 
 ### language\_name
 
@@ -120,6 +128,7 @@ English
 
 ___
 
+
 ### location\_code
 
 • `Optional` **location\_code**: `number`
@@ -136,6 +145,7 @@ example:
 [main.ts:39285](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L39285)
 
 ___
+
 
 ### location\_coordinate
 
@@ -158,6 +168,7 @@ example:
 
 ___
 
+
 ### location\_name
 
 • `Optional` **location\_name**: `string`
@@ -174,6 +185,7 @@ London,England,United Kingdom
 [main.ts:39278](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L39278)
 
 ___
+
 
 ### max\_crawl\_pages
 
@@ -192,6 +204,7 @@ learn more at our help center
 
 ___
 
+
 ### os
 
 • `Optional` **os**: `string`
@@ -209,6 +222,7 @@ default value: android
 
 ___
 
+
 ### se\_domain
 
 • `Optional` **se\_domain**: `string`
@@ -225,6 +239,7 @@ google.co.uk, google.com.au, google.de, etc.
 [main.ts:39330](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L39330)
 
 ___
+
 
 ### search\_places
 
@@ -244,6 +259,7 @@ Note: if the search_places mode is turned off and no results were found in the s
 
 ___
 
+
 ### search\_this\_area
 
 • `Optional` **search\_this\_area**: `boolean`
@@ -261,6 +277,7 @@ Note: if the search_this_area mode is turned off, Google Maps listings might con
 
 ___
 
+
 ### tag
 
 • `Optional` **tag**: `string`
@@ -277,6 +294,7 @@ you will find the specified tag value in the data object of the response
 
 ___
 
+
 ### url
 
 • `Optional` **url**: `string`
@@ -290,3 +308,7 @@ https://google.com/maps/search/pizza/@37.09024,-95.712891,4z
 #### Defined in
 
 [main.ts:39262](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L39262)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

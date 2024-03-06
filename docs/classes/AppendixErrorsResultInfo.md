@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / AppendixErrorsResultInfo
 
 # Class: AppendixErrorsResultInfo
@@ -65,6 +69,7 @@ code
 
 ___
 
+
 ### message
 
 • `Optional` **message**: `string`
@@ -101,6 +106,7 @@ message
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -121,6 +127,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`AppendixErrorsResultInfo`](AppendixErrorsResultInfo.md)
@@ -138,3 +145,7 @@ ___
 #### Defined in
 
 [main.ts:212376](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L212376)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

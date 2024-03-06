@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / MicrodataFieldsInfo
 
 # Class: MicrodataFieldsInfo
@@ -69,6 +73,7 @@ an array of objects containing data fields related to the certain microdata type
 
 ___
 
+
 ### name
 
 • `Optional` **name**: `string`
@@ -85,6 +90,7 @@ name of the data field
 [main.ts:150710](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L150710)
 
 ___
+
 
 ### test\_results
 
@@ -103,6 +109,7 @@ sub-type microdata test results that contain detected errors and related message
 
 ___
 
+
 ### types
 
 • `Optional` **types**: `string`[]
@@ -119,6 +126,7 @@ for a full list of available types, please visit schema.org
 [main.ts:150713](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L150713)
 
 ___
+
 
 ### value
 
@@ -157,6 +165,7 @@ microdata value specified on a target web page
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -177,6 +186,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`MicrodataFieldsInfo`](MicrodataFieldsInfo.md)
@@ -194,3 +204,7 @@ ___
 #### Defined in
 
 [main.ts:150757](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L150757)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

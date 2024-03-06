@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / ISerpGoogleDatasetInfoLiveAdvancedRequestInfo
 
 # Interface: ISerpGoogleDatasetInfoLiveAdvancedRequestInfo
@@ -39,6 +43,7 @@ L2cvMTFqbl85ZHN6MQ==
 
 ___
 
+
 ### device
 
 • `Optional` **device**: `string`
@@ -52,6 +57,7 @@ possible value: desktop
 [main.ts:52856](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L52856)
 
 ___
+
 
 ### language\_code
 
@@ -69,6 +75,7 @@ en
 
 ___
 
+
 ### language\_name
 
 • `Optional` **language\_name**: `string`
@@ -85,6 +92,7 @@ English
 
 ___
 
+
 ### os
 
 • `Optional` **os**: `string`
@@ -100,6 +108,7 @@ default value: windows
 
 ___
 
+
 ### tag
 
 • `Optional` **tag**: `string`
@@ -113,3 +122,7 @@ you will find the specified tag value in the data object of the response
 #### Defined in
 
 [main.ts:52867](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L52867)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

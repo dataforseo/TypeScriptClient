@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IKeywordsDataGoogleAdsAdTrafficByKeywordsLiveResultInfo
 
 # Interface: IKeywordsDataGoogleAdsAdTrafficByKeywordsLiveResultInfo
@@ -43,6 +47,7 @@ if there is no data, then the value is null
 
 ___
 
+
 ### bid
 
 • `Optional` **bid**: `number`
@@ -59,6 +64,7 @@ learn more in this help center article
 
 ___
 
+
 ### clicks
 
 • `Optional` **clicks**: `number`
@@ -72,6 +78,7 @@ if there is no data, then the value is null
 [main.ts:118886](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L118886)
 
 ___
+
 
 ### cost
 
@@ -87,6 +94,7 @@ if there is no data, then the value is null
 
 ___
 
+
 ### ctr
 
 • `Optional` **ctr**: `number`
@@ -101,6 +109,7 @@ if there is no data, then the value is null
 
 ___
 
+
 ### date\_interval
 
 • `Optional` **date\_interval**: `string`
@@ -112,6 +121,7 @@ forecasting date interval in a POST array
 [main.ts:118851](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L118851)
 
 ___
+
 
 ### impressions
 
@@ -128,6 +138,7 @@ learn more about impressions in this help center article
 
 ___
 
+
 ### keyword
 
 • `Optional` **keyword**: `string`
@@ -139,6 +150,7 @@ keyword in a POST array
 [main.ts:118843](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L118843)
 
 ___
+
 
 ### language\_code
 
@@ -153,6 +165,7 @@ if there is no data, then the value is null
 
 ___
 
+
 ### location\_code
 
 • `Optional` **location\_code**: `number`
@@ -165,6 +178,7 @@ if there is no data, then the value is null
 [main.ts:118846](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L118846)
 
 ___
+
 
 ### match
 
@@ -179,6 +193,7 @@ can take the following values: exact, broad, phrase
 
 ___
 
+
 ### search\_partners
 
 • `Optional` **search\_partners**: `boolean`
@@ -191,3 +206,7 @@ if false, the results are returned for Google search sites only
 #### Defined in
 
 [main.ts:118856](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L118856)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

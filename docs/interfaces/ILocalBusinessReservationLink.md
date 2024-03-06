@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / ILocalBusinessReservationLink
 
 # Interface: ILocalBusinessReservationLink
@@ -5,7 +9,7 @@
 ## Hierarchy
 
 - [`IBaseLocalBusinessLink`](IBaseLocalBusinessLink.md)
-
+  
   ↳ **`ILocalBusinessReservationLink`**
 
 ## Implemented by
@@ -38,6 +42,7 @@ domain of the reservation software
 
 ___
 
+
 ### url
 
 • `Optional` **url**: `string`
@@ -47,3 +52,7 @@ URL to make a reservation
 #### Defined in
 
 [main.ts:22317](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L22317)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

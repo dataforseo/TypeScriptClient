@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / DataforseoLabsGoogleAppCompetitorsLiveResultInfo
 
 # Class: DataforseoLabsGoogleAppCompetitorsLiveResultInfo
@@ -70,6 +74,7 @@ id of the app in a POST array
 
 ___
 
+
 ### items
 
 • `Optional` **items**: [`DataforseoLabsGoogleAppCompetitorsLiveItem`](DataforseoLabsGoogleAppCompetitorsLiveItem.md)[]
@@ -85,6 +90,7 @@ contains data related to the app_id and competitor applications
 [main.ts:109398](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L109398)
 
 ___
+
 
 ### items\_count
 
@@ -102,6 +108,7 @@ the number of results returned in the items array
 
 ___
 
+
 ### language\_code
 
 • `Optional` **language\_code**: `string`
@@ -117,6 +124,7 @@ language code in a POST array
 [main.ts:109392](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L109392)
 
 ___
+
 
 ### location\_code
 
@@ -134,6 +142,7 @@ location code in a POST array
 
 ___
 
+
 ### se\_type
 
 • `Optional` **se\_type**: `string`
@@ -149,6 +158,7 @@ search engine type
 [main.ts:109386](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L109386)
 
 ___
+
 
 ### total\_count
 
@@ -186,6 +196,7 @@ total amount of results in our database relevant to your request
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -206,6 +217,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`DataforseoLabsGoogleAppCompetitorsLiveResultInfo`](DataforseoLabsGoogleAppCompetitorsLiveResultInfo.md)
@@ -223,3 +235,7 @@ ___
 #### Defined in
 
 [main.ts:109431](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L109431)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

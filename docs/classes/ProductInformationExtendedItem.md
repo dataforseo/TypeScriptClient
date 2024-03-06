@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / ProductInformationExtendedItem
 
 # Class: ProductInformationExtendedItem
@@ -5,7 +9,7 @@
 ## Hierarchy
 
 - [`BaseProductInformationItem`](BaseProductInformationItem.md)
-
+  
   ↳ **`ProductInformationExtendedItem`**
 
 ## Implements
@@ -74,6 +78,7 @@
 
 ___
 
+
 ### contents
 
 • `Optional` **contents**: [`ProductInformationRows`](ProductInformationRows.md)[]
@@ -89,6 +94,7 @@ contains information specified about the product within the section_name
 [main.ts:172730](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L172730)
 
 ___
+
 
 ### section\_name
 
@@ -130,6 +136,7 @@ name of the section related to product information specified in the contents
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -154,6 +161,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`ProductInformationExtendedItem`](ProductInformationExtendedItem.md)
@@ -175,3 +183,7 @@ ___
 #### Defined in
 
 [main.ts:172755](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L172755)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

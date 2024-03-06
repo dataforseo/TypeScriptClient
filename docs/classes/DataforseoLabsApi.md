@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / DataforseoLabsApi
 
 # Class: DataforseoLabsApi
@@ -163,6 +167,7 @@
 
 ___
 
+
 ### http
 
 • `Private` **http**: `Object`
@@ -178,6 +183,7 @@ ___
 [main.ts:6241](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L6241)
 
 ___
+
 
 ### jsonParseReviver
 
@@ -226,6 +232,7 @@ Successful operation
 
 ___
 
+
 ### amazonProductCompetitorsLive
 
 ▸ **amazonProductCompetitorsLive**(`body`): `Promise`\<[`DataforseoLabsAmazonProductCompetitorsLiveResponseInfo`](DataforseoLabsAmazonProductCompetitorsLiveResponseInfo.md)\>
@@ -247,6 +254,7 @@ Successful operation
 [main.ts:7699](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L7699)
 
 ___
+
 
 ### amazonProductKeywordIntersectionsLive
 
@@ -270,6 +278,7 @@ Successful operation
 
 ___
 
+
 ### amazonProductRankOverviewLive
 
 ▸ **amazonProductRankOverviewLive**(`body`): `Promise`\<[`DataforseoLabsAmazonProductRankOverviewLiveResponseInfo`](DataforseoLabsAmazonProductRankOverviewLiveResponseInfo.md)\>
@@ -291,6 +300,7 @@ Successful operation
 [main.ts:7657](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L7657)
 
 ___
+
 
 ### amazonRankedKeywordsLive
 
@@ -314,6 +324,7 @@ Successful operation
 
 ___
 
+
 ### amazonRelatedKeywordsLive
 
 ▸ **amazonRelatedKeywordsLive**(`body`): `Promise`\<[`DataforseoLabsAmazonRelatedKeywordsLiveResponseInfo`](DataforseoLabsAmazonRelatedKeywordsLiveResponseInfo.md)\>
@@ -335,6 +346,7 @@ Successful operation
 [main.ts:7573](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L7573)
 
 ___
+
 
 ### appleAppCompetitorsLive
 
@@ -358,6 +370,7 @@ Successful operation
 
 ___
 
+
 ### appleAppIntersectionLive
 
 ▸ **appleAppIntersectionLive**(`body`): `Promise`\<[`DataforseoLabsAppleAppIntersectionLiveResponseInfo`](DataforseoLabsAppleAppIntersectionLiveResponseInfo.md)\>
@@ -379,6 +392,7 @@ Successful operation
 [main.ts:8539](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L8539)
 
 ___
+
 
 ### appleBulkAppMetricsLive
 
@@ -402,6 +416,7 @@ Successful operation
 
 ___
 
+
 ### appleKeywordsForAppLive
 
 ▸ **appleKeywordsForAppLive**(`body`): `Promise`\<[`DataforseoLabsAppleKeywordsForAppLiveResponseInfo`](DataforseoLabsAppleKeywordsForAppLiveResponseInfo.md)\>
@@ -424,6 +439,7 @@ Successful operation
 
 ___
 
+
 ### availableFilters
 
 ▸ **availableFilters**(): `Promise`\<[`DataforseoLabsAvailableFiltersResponseInfo`](DataforseoLabsAvailableFiltersResponseInfo.md)\>
@@ -439,6 +455,7 @@ Successful operation
 [main.ts:6374](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L6374)
 
 ___
+
 
 ### bingBulkKeywordDifficultyLive
 
@@ -462,6 +479,7 @@ Successful operation
 
 ___
 
+
 ### bingBulkTrafficEstimationLive
 
 ▸ **bingBulkTrafficEstimationLive**(`body`): `Promise`\<[`DataforseoLabsBingBulkTrafficEstimationLiveResponseInfo`](DataforseoLabsBingBulkTrafficEstimationLiveResponseInfo.md)\>
@@ -483,6 +501,7 @@ Successful operation
 [main.ts:7825](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L7825)
 
 ___
+
 
 ### bingCompetitorsDomainLive
 
@@ -506,6 +525,7 @@ Successful operation
 
 ___
 
+
 ### bingDomainIntersectionLive
 
 ▸ **bingDomainIntersectionLive**(`body`): `Promise`\<[`DataforseoLabsBingDomainIntersectionLiveResponseInfo`](DataforseoLabsBingDomainIntersectionLiveResponseInfo.md)\>
@@ -527,6 +547,7 @@ Successful operation
 [main.ts:7909](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L7909)
 
 ___
+
 
 ### bingDomainRankOverviewLive
 
@@ -550,6 +571,7 @@ Successful operation
 
 ___
 
+
 ### bingPageIntersectionLive
 
 ▸ **bingPageIntersectionLive**(`body`): `Promise`\<[`DataforseoLabsBingPageIntersectionLiveResponseInfo`](DataforseoLabsBingPageIntersectionLiveResponseInfo.md)\>
@@ -571,6 +593,7 @@ Successful operation
 [main.ts:7993](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L7993)
 
 ___
+
 
 ### bingRankedKeywordsLive
 
@@ -594,6 +617,7 @@ Successful operation
 
 ___
 
+
 ### bingRelatedKeywordsLive
 
 ▸ **bingRelatedKeywordsLive**(`body`): `Promise`\<[`DataforseoLabsBingRelatedKeywordsLiveResponseInfo`](DataforseoLabsBingRelatedKeywordsLiveResponseInfo.md)\>
@@ -615,6 +639,7 @@ Successful operation
 [main.ts:8077](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L8077)
 
 ___
+
 
 ### bingRelevantPagesLive
 
@@ -638,6 +663,7 @@ Successful operation
 
 ___
 
+
 ### bingSerpCompetitorsLive
 
 ▸ **bingSerpCompetitorsLive**(`body`): `Promise`\<[`DataforseoLabsBingSerpCompetitorsLiveResponseInfo`](DataforseoLabsBingSerpCompetitorsLiveResponseInfo.md)\>
@@ -659,6 +685,7 @@ Successful operation
 [main.ts:8161](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L8161)
 
 ___
+
 
 ### bingSubdomainsLive
 
@@ -682,6 +709,7 @@ Successful operation
 
 ___
 
+
 ### categories
 
 ▸ **categories**(): `Promise`\<[`DataforseoLabsCategoriesResponseInfo`](DataforseoLabsCategoriesResponseInfo.md)\>
@@ -697,6 +725,7 @@ Successful operation
 [main.ts:6448](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L6448)
 
 ___
+
 
 ### dataforseoLabsErrors
 
@@ -720,6 +749,7 @@ Successful operation
 
 ___
 
+
 ### dataforseoLabsIdList
 
 ▸ **dataforseoLabsIdList**(`body`): `Promise`\<[`DataforseoLabsIdListResponseInfo`](DataforseoLabsIdListResponseInfo.md)\>
@@ -742,6 +772,7 @@ Successful operation
 
 ___
 
+
 ### dataforseoLabsLocationsAndLanguages
 
 ▸ **dataforseoLabsLocationsAndLanguages**(): `Promise`\<[`DataforseoLabsLocationsAndLanguagesResponseInfo`](DataforseoLabsLocationsAndLanguagesResponseInfo.md)\>
@@ -758,6 +789,7 @@ Successful operation
 
 ___
 
+
 ### dataforseoLabsStatus
 
 ▸ **dataforseoLabsStatus**(): `Promise`\<[`DataforseoLabsStatusResponseInfo`](DataforseoLabsStatusResponseInfo.md)\>
@@ -773,6 +805,7 @@ Successful operation
 [main.ts:6295](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L6295)
 
 ___
+
 
 ### googleAppCompetitorsLive
 
@@ -796,6 +829,7 @@ Successful operation
 
 ___
 
+
 ### googleAppIntersectionLive
 
 ▸ **googleAppIntersectionLive**(`body`): `Promise`\<[`DataforseoLabsGoogleAppIntersectionLiveResponseInfo`](DataforseoLabsGoogleAppIntersectionLiveResponseInfo.md)\>
@@ -818,6 +852,7 @@ Successful operation
 
 ___
 
+
 ### googleAvailableHistory
 
 ▸ **googleAvailableHistory**(): `Promise`\<[`DataforseoLabsGoogleAvailableHistoryResponseInfo`](DataforseoLabsGoogleAvailableHistoryResponseInfo.md)\>
@@ -833,6 +868,7 @@ Successful operation
 [main.ts:6485](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L6485)
 
 ___
+
 
 ### googleBulkAppMetricsLive
 
@@ -856,6 +892,7 @@ Successful operation
 
 ___
 
+
 ### googleBulkKeywordDifficultyLive
 
 ▸ **googleBulkKeywordDifficultyLive**(`body`): `Promise`\<[`DataforseoLabsGoogleBulkKeywordDifficultyLiveResponseInfo`](DataforseoLabsGoogleBulkKeywordDifficultyLiveResponseInfo.md)\>
@@ -877,6 +914,7 @@ Successful operation
 [main.ts:6733](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L6733)
 
 ___
+
 
 ### googleBulkTrafficEstimationLive
 
@@ -900,6 +938,7 @@ Successful operation
 
 ___
 
+
 ### googleCategoriesForDomainLive
 
 ▸ **googleCategoriesForDomainLive**(`body`): `Promise`\<[`DataforseoLabsGoogleCategoriesForDomainLiveResponseInfo`](DataforseoLabsGoogleCategoriesForDomainLiveResponseInfo.md)\>
@@ -921,6 +960,7 @@ Successful operation
 [main.ts:6817](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L6817)
 
 ___
+
 
 ### googleCompetitorsDomainLive
 
@@ -944,6 +984,7 @@ Successful operation
 
 ___
 
+
 ### googleDomainIntersectionLive
 
 ▸ **googleDomainIntersectionLive**(`body`): `Promise`\<[`DataforseoLabsGoogleDomainIntersectionLiveResponseInfo`](DataforseoLabsGoogleDomainIntersectionLiveResponseInfo.md)\>
@@ -965,6 +1006,7 @@ Successful operation
 [main.ts:7153](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L7153)
 
 ___
+
 
 ### googleDomainMetricsByCategoriesLive
 
@@ -988,6 +1030,7 @@ Successful operation
 
 ___
 
+
 ### googleDomainRankOverviewLive
 
 ▸ **googleDomainRankOverviewLive**(`body`): `Promise`\<[`DataforseoLabsGoogleDomainRankOverviewLiveResponseInfo`](DataforseoLabsGoogleDomainRankOverviewLiveResponseInfo.md)\>
@@ -1009,6 +1052,7 @@ Successful operation
 [main.ts:7279](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L7279)
 
 ___
+
 
 ### googleDomainWhoisOverviewLive
 
@@ -1032,6 +1076,7 @@ Successful operation
 
 ___
 
+
 ### googleHistoricalBulkTrafficEstimationLive
 
 ▸ **googleHistoricalBulkTrafficEstimationLive**(`body`): `Promise`\<[`DataforseoLabsGoogleHistoricalBulkTrafficEstimationLiveResponseInfo`](DataforseoLabsGoogleHistoricalBulkTrafficEstimationLiveResponseInfo.md)\>
@@ -1053,6 +1098,7 @@ Successful operation
 [main.ts:7489](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L7489)
 
 ___
+
 
 ### googleHistoricalRankOverviewLive
 
@@ -1076,6 +1122,7 @@ Successful operation
 
 ___
 
+
 ### googleHistoricalSearchVolumeLive
 
 ▸ **googleHistoricalSearchVolumeLive**(`body`): `Promise`\<[`DataforseoLabsGoogleHistoricalSearchVolumeLiveResponseInfo`](DataforseoLabsGoogleHistoricalSearchVolumeLiveResponseInfo.md)\>
@@ -1097,6 +1144,7 @@ Successful operation
 [main.ts:6691](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L6691)
 
 ___
+
 
 ### googleHistoricalSerpsLive
 
@@ -1120,6 +1168,7 @@ Successful operation
 
 ___
 
+
 ### googleKeywordIdeasLive
 
 ▸ **googleKeywordIdeasLive**(`body`): `Promise`\<[`DataforseoLabsGoogleKeywordIdeasLiveResponseInfo`](DataforseoLabsGoogleKeywordIdeasLiveResponseInfo.md)\>
@@ -1141,6 +1190,7 @@ Successful operation
 [main.ts:6649](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L6649)
 
 ___
+
 
 ### googleKeywordSuggestionsLive
 
@@ -1164,6 +1214,7 @@ Successful operation
 
 ___
 
+
 ### googleKeywordsForAppLive
 
 ▸ **googleKeywordsForAppLive**(`body`): `Promise`\<[`DataforseoLabsGoogleKeywordsForAppLiveResponseInfo`](DataforseoLabsGoogleKeywordsForAppLiveResponseInfo.md)\>
@@ -1185,6 +1236,7 @@ Successful operation
 [main.ts:8287](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L8287)
 
 ___
+
 
 ### googleKeywordsForCategoriesLive
 
@@ -1208,6 +1260,7 @@ Successful operation
 
 ___
 
+
 ### googleKeywordsForSiteLive
 
 ▸ **googleKeywordsForSiteLive**(`body`): `Promise`\<[`DataforseoLabsGoogleKeywordsForSiteLiveResponseInfo`](DataforseoLabsGoogleKeywordsForSiteLiveResponseInfo.md)\>
@@ -1229,6 +1282,7 @@ Successful operation
 [main.ts:6523](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L6523)
 
 ___
+
 
 ### googlePageIntersectionLive
 
@@ -1252,6 +1306,7 @@ Successful operation
 
 ___
 
+
 ### googleRankedKeywordsLive
 
 ▸ **googleRankedKeywordsLive**(`body`): `Promise`\<[`DataforseoLabsGoogleRankedKeywordsLiveResponseInfo`](DataforseoLabsGoogleRankedKeywordsLiveResponseInfo.md)\>
@@ -1273,6 +1328,7 @@ Successful operation
 [main.ts:7027](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L7027)
 
 ___
+
 
 ### googleRelatedKeywordsLive
 
@@ -1296,6 +1352,7 @@ Successful operation
 
 ___
 
+
 ### googleRelevantPagesLive
 
 ▸ **googleRelevantPagesLive**(`body`): `Promise`\<[`DataforseoLabsGoogleRelevantPagesLiveResponseInfo`](DataforseoLabsGoogleRelevantPagesLiveResponseInfo.md)\>
@@ -1317,6 +1374,7 @@ Successful operation
 [main.ts:7237](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L7237)
 
 ___
+
 
 ### googleSearchIntentLive
 
@@ -1340,6 +1398,7 @@ Successful operation
 
 ___
 
+
 ### googleSerpCompetitorsLive
 
 ▸ **googleSerpCompetitorsLive**(`body`): `Promise`\<[`DataforseoLabsGoogleSerpCompetitorsLiveResponseInfo`](DataforseoLabsGoogleSerpCompetitorsLiveResponseInfo.md)\>
@@ -1361,6 +1420,7 @@ Successful operation
 [main.ts:7069](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L7069)
 
 ___
+
 
 ### googleSubdomainsLive
 
@@ -1384,6 +1444,7 @@ Successful operation
 
 ___
 
+
 ### googleTopSearchesLive
 
 ▸ **googleTopSearchesLive**(`body`): `Promise`\<[`DataforseoLabsGoogleTopSearchesLiveResponseInfo`](DataforseoLabsGoogleTopSearchesLiveResponseInfo.md)\>
@@ -1406,6 +1467,7 @@ Successful operation
 
 ___
 
+
 ### processAmazonBulkSearchVolumeLive
 
 ▸ **processAmazonBulkSearchVolumeLive**(`response`): `Promise`\<[`DataforseoLabsAmazonBulkSearchVolumeLiveResponseInfo`](DataforseoLabsAmazonBulkSearchVolumeLiveResponseInfo.md)\>
@@ -1425,6 +1487,7 @@ ___
 [main.ts:7551](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L7551)
 
 ___
+
 
 ### processAmazonProductCompetitorsLive
 
@@ -1446,6 +1509,7 @@ ___
 
 ___
 
+
 ### processAmazonProductKeywordIntersectionsLive
 
 ▸ **processAmazonProductKeywordIntersectionsLive**(`response`): `Promise`\<[`DataforseoLabsAmazonProductKeywordIntersectionsLiveResponseInfo`](DataforseoLabsAmazonProductKeywordIntersectionsLiveResponseInfo.md)\>
@@ -1465,6 +1529,7 @@ ___
 [main.ts:7761](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L7761)
 
 ___
+
 
 ### processAmazonProductRankOverviewLive
 
@@ -1486,6 +1551,7 @@ ___
 
 ___
 
+
 ### processAmazonRankedKeywordsLive
 
 ▸ **processAmazonRankedKeywordsLive**(`response`): `Promise`\<[`DataforseoLabsAmazonRankedKeywordsLiveResponseInfo`](DataforseoLabsAmazonRankedKeywordsLiveResponseInfo.md)\>
@@ -1505,6 +1571,7 @@ ___
 [main.ts:7635](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L7635)
 
 ___
+
 
 ### processAmazonRelatedKeywordsLive
 
@@ -1526,6 +1593,7 @@ ___
 
 ___
 
+
 ### processAppleAppCompetitorsLive
 
 ▸ **processAppleAppCompetitorsLive**(`response`): `Promise`\<[`DataforseoLabsAppleAppCompetitorsLiveResponseInfo`](DataforseoLabsAppleAppCompetitorsLiveResponseInfo.md)\>
@@ -1545,6 +1613,7 @@ ___
 [main.ts:8517](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L8517)
 
 ___
+
 
 ### processAppleAppIntersectionLive
 
@@ -1566,6 +1635,7 @@ ___
 
 ___
 
+
 ### processAppleBulkAppMetricsLive
 
 ▸ **processAppleBulkAppMetricsLive**(`response`): `Promise`\<[`DataforseoLabsAppleBulkAppMetricsLiveResponseInfo`](DataforseoLabsAppleBulkAppMetricsLiveResponseInfo.md)\>
@@ -1585,6 +1655,7 @@ ___
 [main.ts:8433](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L8433)
 
 ___
+
 
 ### processAppleKeywordsForAppLive
 
@@ -1606,6 +1677,7 @@ ___
 
 ___
 
+
 ### processAvailableFilters
 
 ▸ **processAvailableFilters**(`response`): `Promise`\<[`DataforseoLabsAvailableFiltersResponseInfo`](DataforseoLabsAvailableFiltersResponseInfo.md)\>
@@ -1625,6 +1697,7 @@ ___
 [main.ts:6390](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L6390)
 
 ___
+
 
 ### processBingBulkKeywordDifficultyLive
 
@@ -1646,6 +1719,7 @@ ___
 
 ___
 
+
 ### processBingBulkTrafficEstimationLive
 
 ▸ **processBingBulkTrafficEstimationLive**(`response`): `Promise`\<[`DataforseoLabsBingBulkTrafficEstimationLiveResponseInfo`](DataforseoLabsBingBulkTrafficEstimationLiveResponseInfo.md)\>
@@ -1665,6 +1739,7 @@ ___
 [main.ts:7845](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L7845)
 
 ___
+
 
 ### processBingCompetitorsDomainLive
 
@@ -1686,6 +1761,7 @@ ___
 
 ___
 
+
 ### processBingDomainIntersectionLive
 
 ▸ **processBingDomainIntersectionLive**(`response`): `Promise`\<[`DataforseoLabsBingDomainIntersectionLiveResponseInfo`](DataforseoLabsBingDomainIntersectionLiveResponseInfo.md)\>
@@ -1705,6 +1781,7 @@ ___
 [main.ts:7929](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L7929)
 
 ___
+
 
 ### processBingDomainRankOverviewLive
 
@@ -1726,6 +1803,7 @@ ___
 
 ___
 
+
 ### processBingPageIntersectionLive
 
 ▸ **processBingPageIntersectionLive**(`response`): `Promise`\<[`DataforseoLabsBingPageIntersectionLiveResponseInfo`](DataforseoLabsBingPageIntersectionLiveResponseInfo.md)\>
@@ -1745,6 +1823,7 @@ ___
 [main.ts:8013](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L8013)
 
 ___
+
 
 ### processBingRankedKeywordsLive
 
@@ -1766,6 +1845,7 @@ ___
 
 ___
 
+
 ### processBingRelatedKeywordsLive
 
 ▸ **processBingRelatedKeywordsLive**(`response`): `Promise`\<[`DataforseoLabsBingRelatedKeywordsLiveResponseInfo`](DataforseoLabsBingRelatedKeywordsLiveResponseInfo.md)\>
@@ -1785,6 +1865,7 @@ ___
 [main.ts:8097](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L8097)
 
 ___
+
 
 ### processBingRelevantPagesLive
 
@@ -1806,6 +1887,7 @@ ___
 
 ___
 
+
 ### processBingSerpCompetitorsLive
 
 ▸ **processBingSerpCompetitorsLive**(`response`): `Promise`\<[`DataforseoLabsBingSerpCompetitorsLiveResponseInfo`](DataforseoLabsBingSerpCompetitorsLiveResponseInfo.md)\>
@@ -1825,6 +1907,7 @@ ___
 [main.ts:8181](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L8181)
 
 ___
+
 
 ### processBingSubdomainsLive
 
@@ -1846,6 +1929,7 @@ ___
 
 ___
 
+
 ### processCategories
 
 ▸ **processCategories**(`response`): `Promise`\<[`DataforseoLabsCategoriesResponseInfo`](DataforseoLabsCategoriesResponseInfo.md)\>
@@ -1865,6 +1949,7 @@ ___
 [main.ts:6464](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L6464)
 
 ___
+
 
 ### processDataforseoLabsErrors
 
@@ -1886,6 +1971,7 @@ ___
 
 ___
 
+
 ### processDataforseoLabsIdList
 
 ▸ **processDataforseoLabsIdList**(`response`): `Promise`\<[`DataforseoLabsIdListResponseInfo`](DataforseoLabsIdListResponseInfo.md)\>
@@ -1905,6 +1991,7 @@ ___
 [main.ts:6274](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L6274)
 
 ___
+
 
 ### processDataforseoLabsLocationsAndLanguages
 
@@ -1926,6 +2013,7 @@ ___
 
 ___
 
+
 ### processDataforseoLabsStatus
 
 ▸ **processDataforseoLabsStatus**(`response`): `Promise`\<[`DataforseoLabsStatusResponseInfo`](DataforseoLabsStatusResponseInfo.md)\>
@@ -1945,6 +2033,7 @@ ___
 [main.ts:6311](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L6311)
 
 ___
+
 
 ### processGoogleAppCompetitorsLive
 
@@ -1966,6 +2055,7 @@ ___
 
 ___
 
+
 ### processGoogleAppIntersectionLive
 
 ▸ **processGoogleAppIntersectionLive**(`response`): `Promise`\<[`DataforseoLabsGoogleAppIntersectionLiveResponseInfo`](DataforseoLabsGoogleAppIntersectionLiveResponseInfo.md)\>
@@ -1985,6 +2075,7 @@ ___
 [main.ts:8391](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L8391)
 
 ___
+
 
 ### processGoogleAvailableHistory
 
@@ -2006,6 +2097,7 @@ ___
 
 ___
 
+
 ### processGoogleBulkAppMetricsLive
 
 ▸ **processGoogleBulkAppMetricsLive**(`response`): `Promise`\<[`DataforseoLabsGoogleBulkAppMetricsLiveResponseInfo`](DataforseoLabsGoogleBulkAppMetricsLiveResponseInfo.md)\>
@@ -2025,6 +2117,7 @@ ___
 [main.ts:8265](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L8265)
 
 ___
+
 
 ### processGoogleBulkKeywordDifficultyLive
 
@@ -2046,6 +2139,7 @@ ___
 
 ___
 
+
 ### processGoogleBulkTrafficEstimationLive
 
 ▸ **processGoogleBulkTrafficEstimationLive**(`response`): `Promise`\<[`DataforseoLabsGoogleBulkTrafficEstimationLiveResponseInfo`](DataforseoLabsGoogleBulkTrafficEstimationLiveResponseInfo.md)\>
@@ -2065,6 +2159,7 @@ ___
 [main.ts:7467](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L7467)
 
 ___
+
 
 ### processGoogleCategoriesForDomainLive
 
@@ -2086,6 +2181,7 @@ ___
 
 ___
 
+
 ### processGoogleCompetitorsDomainLive
 
 ▸ **processGoogleCompetitorsDomainLive**(`response`): `Promise`\<[`DataforseoLabsGoogleCompetitorsDomainLiveResponseInfo`](DataforseoLabsGoogleCompetitorsDomainLiveResponseInfo.md)\>
@@ -2105,6 +2201,7 @@ ___
 [main.ts:7131](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L7131)
 
 ___
+
 
 ### processGoogleDomainIntersectionLive
 
@@ -2126,6 +2223,7 @@ ___
 
 ___
 
+
 ### processGoogleDomainMetricsByCategoriesLive
 
 ▸ **processGoogleDomainMetricsByCategoriesLive**(`response`): `Promise`\<[`DataforseoLabsGoogleDomainMetricsByCategoriesLiveResponseInfo`](DataforseoLabsGoogleDomainMetricsByCategoriesLiveResponseInfo.md)\>
@@ -2145,6 +2243,7 @@ ___
 [main.ts:6921](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L6921)
 
 ___
+
 
 ### processGoogleDomainRankOverviewLive
 
@@ -2166,6 +2265,7 @@ ___
 
 ___
 
+
 ### processGoogleDomainWhoisOverviewLive
 
 ▸ **processGoogleDomainWhoisOverviewLive**(`response`): `Promise`\<[`DataforseoLabsGoogleDomainWhoisOverviewLiveResponseInfo`](DataforseoLabsGoogleDomainWhoisOverviewLiveResponseInfo.md)\>
@@ -2185,6 +2285,7 @@ ___
 [main.ts:7005](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L7005)
 
 ___
+
 
 ### processGoogleHistoricalBulkTrafficEstimationLive
 
@@ -2206,6 +2307,7 @@ ___
 
 ___
 
+
 ### processGoogleHistoricalRankOverviewLive
 
 ▸ **processGoogleHistoricalRankOverviewLive**(`response`): `Promise`\<[`DataforseoLabsGoogleHistoricalRankOverviewLiveResponseInfo`](DataforseoLabsGoogleHistoricalRankOverviewLiveResponseInfo.md)\>
@@ -2225,6 +2327,7 @@ ___
 [main.ts:7383](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L7383)
 
 ___
+
 
 ### processGoogleHistoricalSearchVolumeLive
 
@@ -2246,6 +2349,7 @@ ___
 
 ___
 
+
 ### processGoogleHistoricalSerpsLive
 
 ▸ **processGoogleHistoricalSerpsLive**(`response`): `Promise`\<[`DataforseoLabsGoogleHistoricalSerpsLiveResponseInfo`](DataforseoLabsGoogleHistoricalSerpsLiveResponseInfo.md)\>
@@ -2265,6 +2369,7 @@ ___
 [main.ts:7341](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L7341)
 
 ___
+
 
 ### processGoogleKeywordIdeasLive
 
@@ -2286,6 +2391,7 @@ ___
 
 ___
 
+
 ### processGoogleKeywordSuggestionsLive
 
 ▸ **processGoogleKeywordSuggestionsLive**(`response`): `Promise`\<[`DataforseoLabsGoogleKeywordSuggestionsLiveResponseInfo`](DataforseoLabsGoogleKeywordSuggestionsLiveResponseInfo.md)\>
@@ -2305,6 +2411,7 @@ ___
 [main.ts:6627](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L6627)
 
 ___
+
 
 ### processGoogleKeywordsForAppLive
 
@@ -2326,6 +2433,7 @@ ___
 
 ___
 
+
 ### processGoogleKeywordsForCategoriesLive
 
 ▸ **processGoogleKeywordsForCategoriesLive**(`response`): `Promise`\<[`DataforseoLabsGoogleKeywordsForCategoriesLiveResponseInfo`](DataforseoLabsGoogleKeywordsForCategoriesLiveResponseInfo.md)\>
@@ -2345,6 +2453,7 @@ ___
 [main.ts:6879](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L6879)
 
 ___
+
 
 ### processGoogleKeywordsForSiteLive
 
@@ -2366,6 +2475,7 @@ ___
 
 ___
 
+
 ### processGooglePageIntersectionLive
 
 ▸ **processGooglePageIntersectionLive**(`response`): `Promise`\<[`DataforseoLabsGooglePageIntersectionLiveResponseInfo`](DataforseoLabsGooglePageIntersectionLiveResponseInfo.md)\>
@@ -2385,6 +2495,7 @@ ___
 [main.ts:7425](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L7425)
 
 ___
+
 
 ### processGoogleRankedKeywordsLive
 
@@ -2406,6 +2517,7 @@ ___
 
 ___
 
+
 ### processGoogleRelatedKeywordsLive
 
 ▸ **processGoogleRelatedKeywordsLive**(`response`): `Promise`\<[`DataforseoLabsGoogleRelatedKeywordsLiveResponseInfo`](DataforseoLabsGoogleRelatedKeywordsLiveResponseInfo.md)\>
@@ -2425,6 +2537,7 @@ ___
 [main.ts:6585](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L6585)
 
 ___
+
 
 ### processGoogleRelevantPagesLive
 
@@ -2446,6 +2559,7 @@ ___
 
 ___
 
+
 ### processGoogleSearchIntentLive
 
 ▸ **processGoogleSearchIntentLive**(`response`): `Promise`\<[`DataforseoLabsGoogleSearchIntentLiveResponseInfo`](DataforseoLabsGoogleSearchIntentLiveResponseInfo.md)\>
@@ -2465,6 +2579,7 @@ ___
 [main.ts:6795](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L6795)
 
 ___
+
 
 ### processGoogleSerpCompetitorsLive
 
@@ -2486,6 +2601,7 @@ ___
 
 ___
 
+
 ### processGoogleSubdomainsLive
 
 ▸ **processGoogleSubdomainsLive**(`response`): `Promise`\<[`DataforseoLabsGoogleSubdomainsLiveResponseInfo`](DataforseoLabsGoogleSubdomainsLiveResponseInfo.md)\>
@@ -2506,6 +2622,7 @@ ___
 
 ___
 
+
 ### processGoogleTopSearchesLive
 
 ▸ **processGoogleTopSearchesLive**(`response`): `Promise`\<[`DataforseoLabsGoogleTopSearchesLiveResponseInfo`](DataforseoLabsGoogleTopSearchesLiveResponseInfo.md)\>
@@ -2523,3 +2640,7 @@ ___
 #### Defined in
 
 [main.ts:6963](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L6963)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

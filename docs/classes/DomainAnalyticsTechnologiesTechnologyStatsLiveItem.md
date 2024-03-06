@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / DomainAnalyticsTechnologiesTechnologyStatsLiveItem
 
 # Class: DomainAnalyticsTechnologiesTechnologyStatsLiveItem
@@ -76,6 +80,7 @@ contains country codes and number of websites per country
 
 ___
 
+
 ### date
 
 • `Optional` **date**: `string`
@@ -92,6 +97,7 @@ date for which the data is provided
 
 ___
 
+
 ### domains\_count
 
 • `Optional` **domains\_count**: `number`
@@ -107,6 +113,7 @@ number of domains that use the specified technology
 [main.ts:73603](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L73603)
 
 ___
+
 
 ### domains\_rank
 
@@ -130,6 +137,7 @@ learn more about rank and how it is calculated in this help center article
 
 ___
 
+
 ### languages
 
 • `Optional` **languages**: `Object`
@@ -150,6 +158,7 @@ contains language codes and number of websites per language
 [main.ts:73609](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L73609)
 
 ___
+
 
 ### type
 
@@ -187,6 +196,7 @@ type of element
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -207,6 +217,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`DomainAnalyticsTechnologiesTechnologyStatsLiveItem`](DomainAnalyticsTechnologiesTechnologyStatsLiveItem.md)
@@ -224,3 +235,7 @@ ___
 #### Defined in
 
 [main.ts:73659](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L73659)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

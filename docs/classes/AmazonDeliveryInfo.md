@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / AmazonDeliveryInfo
 
 # Class: AmazonDeliveryInfo
@@ -69,6 +73,7 @@ the earliest date when the product can be shipped
 
 ___
 
+
 ### delivery\_date\_to
 
 • `Optional` **delivery\_date\_to**: `string`
@@ -85,6 +90,7 @@ the latest date when the product can be delivered
 
 ___
 
+
 ### delivery\_message
 
 • `Optional` **delivery\_message**: `string`
@@ -100,6 +106,7 @@ message accompanying the delivery information as posted by the seller
 [main.ts:21143](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L21143)
 
 ___
+
 
 ### delivery\_price
 
@@ -119,6 +126,7 @@ if free delivery is available, the value is null
 
 ___
 
+
 ### fastest\_delivery\_date\_from
 
 • `Optional` **fastest\_delivery\_date\_from**: `string`
@@ -134,6 +142,7 @@ the earliest date when the product can be delivered with a fast delivery option
 [main.ts:21149](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L21149)
 
 ___
+
 
 ### fastest\_delivery\_date\_to
 
@@ -171,6 +180,7 @@ the latest date when the product can be delivered with a fast delivery option
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -191,6 +201,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`AmazonDeliveryInfo`](AmazonDeliveryInfo.md)
@@ -208,3 +219,7 @@ ___
 #### Defined in
 
 [main.ts:21183](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L21183)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

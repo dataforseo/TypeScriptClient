@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / AppendixContentGenerationLimitsRatesDataInfo
 
 # Class: AppendixContentGenerationLimitsRatesDataInfo
@@ -68,6 +72,7 @@
 
 ___
 
+
 ### generate
 
 • `Optional` **generate**: [`AppendixInfo`](AppendixInfo.md)
@@ -81,6 +86,7 @@ ___
 [main.ts:208449](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L208449)
 
 ___
+
 
 ### generate\_meta\_tags
 
@@ -96,6 +102,7 @@ ___
 
 ___
 
+
 ### generate\_sub\_topics
 
 • `Optional` **generate\_sub\_topics**: [`AppendixInfo`](AppendixInfo.md)
@@ -109,6 +116,7 @@ ___
 [main.ts:208455](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L208455)
 
 ___
+
 
 ### generate\_text
 
@@ -124,6 +132,7 @@ ___
 
 ___
 
+
 ### paraphrase
 
 • `Optional` **paraphrase**: [`AppendixInfo`](AppendixInfo.md)
@@ -137,6 +146,7 @@ ___
 [main.ts:208452](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L208452)
 
 ___
+
 
 ### text\_summary
 
@@ -172,6 +182,7 @@ ___
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -192,6 +203,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`AppendixContentGenerationLimitsRatesDataInfo`](AppendixContentGenerationLimitsRatesDataInfo.md)
@@ -209,3 +221,7 @@ ___
 #### Defined in
 
 [main.ts:208484](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L208484)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / UserProfileInfo
 
 # Class: UserProfileInfo
@@ -68,6 +72,7 @@ URL to the profile picture of the reviewer
 
 ___
 
+
 ### locations
 
 • `Optional` **locations**: `string`
@@ -83,6 +88,7 @@ country of the reviewer
 [main.ts:175550](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L175550)
 
 ___
+
 
 ### name
 
@@ -100,6 +106,7 @@ the name of the reviewer
 
 ___
 
+
 ### reviews\_count
 
 • `Optional` **reviews\_count**: `number`
@@ -115,6 +122,7 @@ total number of reviews submitted by the reviewer
 [main.ts:175548](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L175548)
 
 ___
+
 
 ### url
 
@@ -152,6 +160,7 @@ URL to the reviewer’s profile
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -172,6 +181,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`UserProfileInfo`](UserProfileInfo.md)
@@ -189,3 +199,7 @@ ___
 #### Defined in
 
 [main.ts:175577](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L175577)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

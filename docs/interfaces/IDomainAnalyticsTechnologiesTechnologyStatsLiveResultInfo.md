@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IDomainAnalyticsTechnologiesTechnologyStatsLiveResultInfo
 
 # Interface: IDomainAnalyticsTechnologiesTechnologyStatsLiveResultInfo
@@ -34,6 +38,7 @@ starting date of the time range
 
 ___
 
+
 ### date\_to
 
 • `Optional` **date\_to**: `string`
@@ -45,6 +50,7 @@ ending date of the time range
 [main.ts:73795](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L73795)
 
 ___
+
 
 ### items
 
@@ -58,6 +64,7 @@ items array
 
 ___
 
+
 ### items\_count
 
 • `Optional` **items\_count**: `number`
@@ -70,6 +77,7 @@ number of items in the results array
 
 ___
 
+
 ### technology
 
 • `Optional` **technology**: `string`
@@ -79,3 +87,7 @@ target technology
 #### Defined in
 
 [main.ts:73791](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L73791)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

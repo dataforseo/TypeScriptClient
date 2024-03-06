@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / SerpBaiduLocationsCountryResultInfo
 
 # Class: SerpBaiduLocationsCountryResultInfo
@@ -68,6 +72,7 @@ ISO country code of the location
 
 ___
 
+
 ### location\_code
 
 • `Optional` **location\_code**: `number`
@@ -83,6 +88,7 @@ location code
 [main.ts:65392](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L65392)
 
 ___
+
 
 ### location\_code\_parent
 
@@ -102,6 +108,7 @@ don’t match locations by location_code_parent because the results for Region a
 
 ___
 
+
 ### location\_name
 
 • `Optional` **location\_name**: `string`
@@ -117,6 +124,7 @@ full name of the location
 [main.ts:65394](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L65394)
 
 ___
+
 
 ### location\_type
 
@@ -155,6 +163,7 @@ only City is supported for all countries except China (where Country is also sup
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -175,6 +184,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`SerpBaiduLocationsCountryResultInfo`](SerpBaiduLocationsCountryResultInfo.md)
@@ -192,3 +202,7 @@ ___
 #### Defined in
 
 [main.ts:65430](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L65430)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

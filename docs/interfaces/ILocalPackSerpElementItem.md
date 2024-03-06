@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / ILocalPackSerpElementItem
 
 # Interface: ILocalPackSerpElementItem
@@ -5,7 +9,7 @@
 ## Hierarchy
 
 - [`IBaseSerpElementItem`](IBaseSerpElementItem.md)
-
+  
   ↳ **`ILocalPackSerpElementItem`**
 
 ## Implemented by
@@ -48,6 +52,7 @@ google-defined client id
 
 ___
 
+
 ### description
 
 • `Optional` **description**: `string`
@@ -59,6 +64,7 @@ description
 [main.ts:29894](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L29894)
 
 ___
+
 
 ### domain
 
@@ -72,6 +78,7 @@ domain where a link points
 
 ___
 
+
 ### is\_paid
 
 • `Optional` **is\_paid**: `boolean`
@@ -84,6 +91,7 @@ indicates whether the element is an ad
 
 ___
 
+
 ### phone
 
 • `Optional` **phone**: `string`
@@ -95,6 +103,7 @@ phone number
 [main.ts:29898](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L29898)
 
 ___
+
 
 ### position
 
@@ -110,6 +119,7 @@ left, right
 
 ___
 
+
 ### rank\_absolute
 
 • `Optional` **rank\_absolute**: `number`
@@ -122,6 +132,7 @@ absolute position among all the elements in SERP
 [main.ts:29884](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L29884)
 
 ___
+
 
 ### rank\_group
 
@@ -137,11 +148,12 @@ positions of elements with different type values are omitted from rank_group
 
 ___
 
+
 ### rating
 
 • `Optional` **rating**: [`RatingInfo`](../classes/RatingInfo.md)
 
-the item’s rating 
+the item’s rating
 the popularity rate based on reviews and displayed in SERP
 
 #### Defined in
@@ -149,6 +161,7 @@ the popularity rate based on reviews and displayed in SERP
 [main.ts:29905](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L29905)
 
 ___
+
 
 ### rectangle
 
@@ -164,6 +177,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 ___
 
+
 ### title
 
 • `Optional` **title**: `string`
@@ -175,6 +189,7 @@ title of a given link element
 [main.ts:29892](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L29892)
 
 ___
+
 
 ### url
 
@@ -188,6 +203,7 @@ URL
 
 ___
 
+
 ### xpath
 
 • `Optional` **xpath**: `string`
@@ -197,3 +213,7 @@ the XPath of the element
 #### Defined in
 
 [main.ts:29890](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L29890)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

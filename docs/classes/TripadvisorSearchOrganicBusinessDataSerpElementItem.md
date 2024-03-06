@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / TripadvisorSearchOrganicBusinessDataSerpElementItem
 
 # Class: TripadvisorSearchOrganicBusinessDataSerpElementItem
@@ -5,7 +9,7 @@
 ## Hierarchy
 
 - [`BaseBusinessDataSerpElementItem`](BaseBusinessDataSerpElementItem.md)
-
+  
   ↳ **`TripadvisorSearchOrganicBusinessDataSerpElementItem`**
 
 ## Implements
@@ -81,6 +85,7 @@
 
 ___
 
+
 ### category
 
 • `Optional` **category**: `string`
@@ -96,6 +101,7 @@ place category
 [main.ts:201385](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L201385)
 
 ___
+
 
 ### is\_sponsored
 
@@ -114,6 +120,7 @@ if true, related tripadvisor_search_organic item is a paid advertising on Tripad
 
 ___
 
+
 ### price\_rate
 
 • `Optional` **price\_rate**: `string`
@@ -129,6 +136,7 @@ average price rate
 [main.ts:201387](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L201387)
 
 ___
+
 
 ### rank\_absolute
 
@@ -147,6 +155,7 @@ absolute position among all reviews on the list
 
 ___
 
+
 ### rank\_group
 
 • `Optional` **rank\_group**: `number`
@@ -164,6 +173,7 @@ positions of elements with different type values are omitted from rank_group
 
 ___
 
+
 ### rating
 
 • `Optional` **rating**: [`RatingInfo`](RatingInfo.md)
@@ -179,6 +189,7 @@ the rating score of the establishment submitted by the reviewers
 [main.ts:201389](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L201389)
 
 ___
+
 
 ### reviews\_count
 
@@ -196,6 +207,7 @@ the total number of reviews
 
 ___
 
+
 ### title
 
 • `Optional` **title**: `string`
@@ -211,6 +223,7 @@ name of the business entity
 [main.ts:201374](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L201374)
 
 ___
+
 
 ### url\_path
 
@@ -254,6 +267,7 @@ you can use this identifier to collect reviews for the business entity using Tri
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -278,6 +292,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`TripadvisorSearchOrganicBusinessDataSerpElementItem`](TripadvisorSearchOrganicBusinessDataSerpElementItem.md)
@@ -299,3 +314,7 @@ ___
 #### Defined in
 
 [main.ts:201417](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L201417)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

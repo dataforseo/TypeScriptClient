@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / AppendixBusinessDataGoogleInfo
 
 # Class: AppendixBusinessDataGoogleInfo
@@ -66,6 +70,7 @@
 
 ___
 
+
 ### hotel\_searches
 
 • `Optional` **hotel\_searches**: [`AppendixInfo`](AppendixInfo.md)
@@ -79,6 +84,7 @@ ___
 [main.ts:207804](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L207804)
 
 ___
+
 
 ### my\_business\_info
 
@@ -94,6 +100,7 @@ ___
 
 ___
 
+
 ### my\_business\_updates
 
 • `Optional` **my\_business\_updates**: [`AppendixInfo`](AppendixInfo.md)
@@ -107,6 +114,7 @@ ___
 [main.ts:207802](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L207802)
 
 ___
+
 
 ### reviews
 
@@ -142,6 +150,7 @@ ___
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -162,6 +171,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`AppendixBusinessDataGoogleInfo`](AppendixBusinessDataGoogleInfo.md)
@@ -179,3 +189,7 @@ ___
 #### Defined in
 
 [main.ts:207832](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L207832)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

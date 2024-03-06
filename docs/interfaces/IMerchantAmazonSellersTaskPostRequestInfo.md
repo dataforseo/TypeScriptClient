@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IMerchantAmazonSellersTaskPostRequestInfo
 
 # Interface: IMerchantAmazonSellersTaskPostRequestInfo
@@ -47,6 +51,7 @@ learn more about the identifier in this help center guide
 
 ___
 
+
 ### language\_code
 
 • `Optional` **language\_code**: `string`
@@ -63,6 +68,7 @@ en
 [main.ts:173764](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L173764)
 
 ___
+
 
 ### language\_name
 
@@ -81,6 +87,7 @@ English
 
 ___
 
+
 ### location\_code
 
 • `Optional` **location\_code**: `number`
@@ -97,6 +104,7 @@ example:
 [main.ts:173741](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L173741)
 
 ___
+
 
 ### location\_coordinate
 
@@ -117,6 +125,7 @@ example:
 
 ___
 
+
 ### location\_name
 
 • `Optional` **location\_name**: `string`
@@ -133,6 +142,7 @@ London,England,United Kingdom
 [main.ts:173734](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L173734)
 
 ___
+
 
 ### pingback\_url
 
@@ -154,6 +164,7 @@ i.a., the # symbol will be encoded into %23
 
 ___
 
+
 ### postback\_data
 
 • `Optional` **postback\_data**: `string`
@@ -169,6 +180,7 @@ advanced, html
 [main.ts:173793](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L173793)
 
 ___
+
 
 ### postback\_url
 
@@ -190,6 +202,7 @@ i.a., the # symbol will be encoded into %23
 
 ___
 
+
 ### priority
 
 • `Optional` **priority**: `number`
@@ -208,6 +221,7 @@ The cost can be calculated on the Pricing page.
 
 ___
 
+
 ### se\_domain
 
 • `Optional` **se\_domain**: `string`
@@ -225,6 +239,7 @@ amazon.co.uk, amazon.com.au, amazon.de, etc.
 
 ___
 
+
 ### tag
 
 • `Optional` **tag**: `string`
@@ -238,3 +253,7 @@ you will find the specified tag value in the data object of the response
 #### Defined in
 
 [main.ts:173777](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L173777)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

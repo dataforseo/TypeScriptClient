@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / SerpIdListResultInfo
 
 # Class: SerpIdListResultInfo
@@ -70,6 +74,7 @@ cost of the task, USD
 
 ___
 
+
 ### datetime\_done
 
 • `Optional` **datetime\_done**: `string`
@@ -88,6 +93,7 @@ example:
 [main.ts:22847](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L22847)
 
 ___
+
 
 ### datetime\_posted
 
@@ -108,6 +114,7 @@ example:
 
 ___
 
+
 ### id
 
 • `Optional` **id**: `string`
@@ -123,6 +130,7 @@ id of the task
 [main.ts:22834](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L22834)
 
 ___
+
 
 ### metadata
 
@@ -144,6 +152,7 @@ contains parameters you specified in the POST request
 
 ___
 
+
 ### status
 
 • `Optional` **status**: `string`
@@ -160,6 +169,7 @@ you can find the full list of general informational messages here
 [main.ts:22850](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L22850)
 
 ___
+
 
 ### url
 
@@ -198,6 +208,7 @@ URL you used for making an API call
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -218,6 +229,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`SerpIdListResultInfo`](SerpIdListResultInfo.md)
@@ -235,3 +247,7 @@ ___
 #### Defined in
 
 [main.ts:22889](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L22889)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

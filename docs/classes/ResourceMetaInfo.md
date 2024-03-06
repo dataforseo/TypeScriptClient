@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / ResourceMetaInfo
 
 # Class: ResourceMetaInfo
@@ -70,6 +74,7 @@ the value depends on the resource_type
 
 ___
 
+
 ### height
 
 • `Optional` **height**: `number`
@@ -85,6 +90,7 @@ image height in px
 [main.ts:145942](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L145942)
 
 ___
+
 
 ### original\_height
 
@@ -102,6 +108,7 @@ original image height in px
 
 ___
 
+
 ### original\_width
 
 • `Optional` **original\_width**: `number`
@@ -118,6 +125,7 @@ original image width in px
 
 ___
 
+
 ### title
 
 • `Optional` **title**: `string`
@@ -133,6 +141,7 @@ title
 [main.ts:145934](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L145934)
 
 ___
+
 
 ### width
 
@@ -170,6 +179,7 @@ image width in px
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -190,6 +200,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`ResourceMetaInfo`](ResourceMetaInfo.md)
@@ -207,3 +218,7 @@ ___
 #### Defined in
 
 [main.ts:145970](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L145970)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

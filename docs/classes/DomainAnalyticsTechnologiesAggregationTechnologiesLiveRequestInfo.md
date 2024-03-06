@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / DomainAnalyticsTechnologiesAggregationTechnologiesLiveRequestInfo
 
 # Class: DomainAnalyticsTechnologiesAggregationTechnologiesLiveRequestInfo
@@ -81,6 +85,7 @@ example:
 
 ___
 
+
 ### filters
 
 • `Optional` **filters**: `any`[]
@@ -108,6 +113,7 @@ example:
 
 ___
 
+
 ### group
 
 • `Optional` **group**: `string`
@@ -127,6 +133,7 @@ example:
 [main.ts:72434](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L72434)
 
 ___
+
 
 ### internal\_categories\_list\_limit
 
@@ -148,6 +155,7 @@ maximum value: 10000
 
 ___
 
+
 ### internal\_groups\_list\_limit
 
 • `Optional` **internal\_groups\_list\_limit**: `number`
@@ -167,6 +175,7 @@ maximum value: 10000
 [main.ts:72495](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L72495)
 
 ___
+
 
 ### internal\_list\_limit
 
@@ -189,6 +198,7 @@ maximum value: 10000
 
 ___
 
+
 ### internal\_technologies\_list\_limit
 
 • `Optional` **internal\_technologies\_list\_limit**: `number`
@@ -208,6 +218,7 @@ maximum value: 10000
 [main.ts:72507](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L72507)
 
 ___
+
 
 ### keyword
 
@@ -230,6 +241,7 @@ example:
 
 ___
 
+
 ### limit
 
 • `Optional` **limit**: `number`
@@ -248,6 +260,7 @@ maximum value: 10000
 [main.ts:72519](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L72519)
 
 ___
+
 
 ### mode
 
@@ -270,6 +283,7 @@ default value: as_is
 
 ___
 
+
 ### offset
 
 • `Optional` **offset**: `number`
@@ -289,6 +303,7 @@ if you specify the 10 value, the first ten technologies in the results array wil
 [main.ts:72525](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L72525)
 
 ___
+
 
 ### order\_by
 
@@ -320,6 +335,7 @@ default value:
 
 ___
 
+
 ### tag
 
 • `Optional` **tag**: `string`
@@ -339,6 +355,7 @@ you will find the specified tag value in the data object of the response
 [main.ts:72531](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L72531)
 
 ___
+
 
 ### technology
 
@@ -380,6 +397,7 @@ example:
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -400,6 +418,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`DomainAnalyticsTechnologiesAggregationTechnologiesLiveRequestInfo`](DomainAnalyticsTechnologiesAggregationTechnologiesLiveRequestInfo.md)
@@ -417,3 +436,7 @@ ___
 #### Defined in
 
 [main.ts:72575](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L72575)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

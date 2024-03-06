@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / SerpYahooOrganicLiveAdvancedResultInfo
 
 # Class: SerpYahooOrganicLiveAdvancedResultInfo
@@ -76,6 +80,7 @@ you can use it to make sure that we provided accurate results
 
 ___
 
+
 ### datetime
 
 • `Optional` **datetime**: `string`
@@ -94,6 +99,7 @@ example:
 [main.ts:64741](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L64741)
 
 ___
+
 
 ### item\_types
 
@@ -114,6 +120,7 @@ featured_snippet, images, local_pack, hotels_pack, organic, paid, people_also_as
 
 ___
 
+
 ### items
 
 • `Optional` **items**: [`BaseSerpElementItem`](BaseSerpElementItem.md)[]
@@ -130,6 +137,7 @@ items featured in the faq_box
 
 ___
 
+
 ### items\_count
 
 • `Optional` **items\_count**: `number`
@@ -145,6 +153,7 @@ the number of results returned in the items array
 [main.ts:64753](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L64753)
 
 ___
+
 
 ### keyword
 
@@ -163,6 +172,7 @@ the keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to
 
 ___
 
+
 ### language\_code
 
 • `Optional` **language\_code**: `string`
@@ -178,6 +188,7 @@ language code in a POST array
 [main.ts:64733](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L64733)
 
 ___
+
 
 ### location\_code
 
@@ -195,6 +206,7 @@ location code in a POST array
 
 ___
 
+
 ### se\_domain
 
 • `Optional` **se\_domain**: `string`
@@ -210,6 +222,7 @@ search engine domain in a POST array
 [main.ts:64729](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L64729)
 
 ___
+
 
 ### se\_results\_count
 
@@ -227,6 +240,7 @@ total number of results in SERP
 
 ___
 
+
 ### spell
 
 • `Optional` **spell**: [`SpellInfo`](SpellInfo.md)
@@ -243,6 +257,7 @@ if the search engine provided results for a keyword that was corrected, we will 
 [main.ts:64744](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L64744)
 
 ___
+
 
 ### type
 
@@ -280,6 +295,7 @@ type of element
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -300,6 +316,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`SerpYahooOrganicLiveAdvancedResultInfo`](SerpYahooOrganicLiveAdvancedResultInfo.md)
@@ -317,3 +334,7 @@ ___
 #### Defined in
 
 [main.ts:64797](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L64797)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

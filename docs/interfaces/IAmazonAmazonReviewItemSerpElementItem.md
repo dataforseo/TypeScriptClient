@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IAmazonAmazonReviewItemSerpElementItem
 
 # Interface: IAmazonAmazonReviewItemSerpElementItem
@@ -5,7 +9,7 @@
 ## Hierarchy
 
 - [`IBaseAmazonSerpElementItem`](IBaseAmazonSerpElementItem.md)
-
+  
   ↳ **`IAmazonAmazonReviewItemSerpElementItem`**
 
 ## Implemented by
@@ -51,6 +55,7 @@ number of users who clicked on the ‘Helpful” button under the review text
 
 ___
 
+
 ### images
 
 • `Optional` **images**: [`ImagesElement`](../classes/ImagesElement.md)[]
@@ -62,6 +67,7 @@ images of the product submitted by the reviewer
 [main.ts:175754](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L175754)
 
 ___
+
 
 ### position
 
@@ -75,6 +81,7 @@ can take the following values: right
 [main.ts:175743](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L175743)
 
 ___
+
 
 ### publication\_date
 
@@ -91,6 +98,7 @@ example:
 
 ___
 
+
 ### rank\_absolute
 
 • `Optional` **rank\_absolute**: `number`
@@ -103,6 +111,7 @@ absolute position among all reviews on the list
 [main.ts:175740](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L175740)
 
 ___
+
 
 ### rank\_group
 
@@ -117,6 +126,7 @@ positions of elements with different type values are omitted from rank_group
 
 ___
 
+
 ### rating
 
 • `Optional` **rating**: [`RatingInfo`](../classes/RatingInfo.md)
@@ -128,6 +138,7 @@ the rating score submitted by the reviewer
 [main.ts:175771](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L175771)
 
 ___
+
 
 ### review\_text
 
@@ -141,6 +152,7 @@ content of the review
 
 ___
 
+
 ### subtitle
 
 • `Optional` **subtitle**: `string`
@@ -152,6 +164,7 @@ subtitle of the review
 [main.ts:175749](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L175749)
 
 ___
+
 
 ### title
 
@@ -165,6 +178,7 @@ title of the review
 
 ___
 
+
 ### url
 
 • `Optional` **url**: `string`
@@ -176,6 +190,7 @@ URL to the review
 [main.ts:175762](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L175762)
 
 ___
+
 
 ### user\_profile
 
@@ -189,6 +204,7 @@ user profile of the reviewer
 
 ___
 
+
 ### verified
 
 • `Optional` **verified**: `boolean`
@@ -200,6 +216,7 @@ indicates whether the review has the “Verified Purchase” mark
 [main.ts:175747](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L175747)
 
 ___
+
 
 ### videos
 
@@ -213,6 +230,7 @@ videos of the product submitted by the reviewer
 
 ___
 
+
 ### xpath
 
 • `Optional` **xpath**: `string`
@@ -222,3 +240,7 @@ the XPath of the element
 #### Defined in
 
 [main.ts:175745](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L175745)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

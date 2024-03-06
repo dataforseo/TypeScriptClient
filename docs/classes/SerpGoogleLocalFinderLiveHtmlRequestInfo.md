@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / SerpGoogleLocalFinderLiveHtmlRequestInfo
 
 # Class: SerpGoogleLocalFinderLiveHtmlRequestInfo
@@ -85,6 +89,7 @@ if the specified depth is higher than the number of results in the response, the
 
 ___
 
+
 ### device
 
 • `Optional` **device**: `string`
@@ -103,6 +108,7 @@ default value: desktop
 [main.ts:41538](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L41538)
 
 ___
+
 
 ### keyword
 
@@ -125,6 +131,7 @@ if you need to use the “+” symbol for your keyword, please specify it as “
 
 ___
 
+
 ### language\_code
 
 • `Optional` **language\_code**: `string`
@@ -144,6 +151,7 @@ example:en
 [main.ts:41533](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L41533)
 
 ___
+
 
 ### language\_name
 
@@ -166,6 +174,7 @@ English
 
 ___
 
+
 ### location\_code
 
 • `Optional` **location\_code**: `number`
@@ -186,6 +195,7 @@ example:
 [main.ts:41509](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L41509)
 
 ___
+
 
 ### location\_coordinate
 
@@ -212,6 +222,7 @@ example:
 
 ___
 
+
 ### location\_name
 
 • `Optional` **location\_name**: `string`
@@ -233,6 +244,7 @@ London,England,United Kingdom
 
 ___
 
+
 ### min\_rating
 
 • `Optional` **min\_rating**: `number`
@@ -251,6 +263,7 @@ possible values for mobile: 2, 2.5, 3, 3.5, 4, 4.5
 [main.ts:41561](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L41561)
 
 ___
+
 
 ### os
 
@@ -272,6 +285,7 @@ default value: android
 [main.ts:41545](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L41545)
 
 ___
+
 
 ### priority
 
@@ -295,6 +309,7 @@ The cost can be calculated on the Pricing page.
 
 ___
 
+
 ### tag
 
 • `Optional` **tag**: `string`
@@ -314,6 +329,7 @@ you will find the specified tag value in the data object of the response
 [main.ts:41576](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L41576)
 
 ___
+
 
 ### time\_filter
 
@@ -358,6 +374,7 @@ example: "tuesday;18"
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -378,6 +395,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`SerpGoogleLocalFinderLiveHtmlRequestInfo`](SerpGoogleLocalFinderLiveHtmlRequestInfo.md)
@@ -395,3 +413,7 @@ ___
 #### Defined in
 
 [main.ts:41611](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L41611)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

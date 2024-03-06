@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / ITopicInfo
 
 # Interface: ITopicInfo
@@ -36,6 +40,7 @@ content author name
 
 ___
 
+
 ### h\_title
 
 • `Optional` **h\_title**: `string`
@@ -47,6 +52,7 @@ meta title
 [main.ts:152174](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L152174)
 
 ___
+
 
 ### language
 
@@ -60,6 +66,7 @@ content language
 
 ___
 
+
 ### level
 
 • `Optional` **level**: `string`
@@ -72,6 +79,7 @@ HTML level
 
 ___
 
+
 ### main\_title
 
 • `Optional` **main\_title**: `string`
@@ -83,6 +91,7 @@ main title of the block
 [main.ts:152176](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L152176)
 
 ___
+
 
 ### primary\_content
 
@@ -97,6 +106,7 @@ you can find more information about content priority calculation in this help ce
 
 ___
 
+
 ### secondary\_content
 
 • `Optional` **secondary\_content**: [`ContentItemInfo`](../classes/ContentItemInfo.md)[]
@@ -107,3 +117,7 @@ you can find more information about content priority calculation in this help ce
 #### Defined in
 
 [main.ts:152188](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L152188)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

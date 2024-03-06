@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / DataforseoLabsGoogleHistoricalBulkTrafficEstimationLiveRequestInfo
 
 # Class: DataforseoLabsGoogleHistoricalBulkTrafficEstimationLiveRequestInfo
@@ -76,6 +80,7 @@ date format: "yyyy-mm-dd"
 
 ___
 
+
 ### date\_to
 
 • `Optional` **date\_to**: `string`
@@ -96,6 +101,7 @@ example:
 [main.ts:98017](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L98017)
 
 ___
+
 
 ### item\_types
 
@@ -120,6 +126,7 @@ default value:
 
 ___
 
+
 ### language\_code
 
 • `Optional` **language\_code**: `string`
@@ -141,6 +148,7 @@ en
 [main.ts:98004](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L98004)
 
 ___
+
 
 ### language\_name
 
@@ -164,6 +172,7 @@ English
 
 ___
 
+
 ### location\_code
 
 • `Optional` **location\_code**: `number`
@@ -185,6 +194,7 @@ example:
 [main.ts:97988](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L97988)
 
 ___
+
 
 ### location\_name
 
@@ -208,6 +218,7 @@ United Kingdom
 
 ___
 
+
 ### tag
 
 • `Optional` **tag**: `string`
@@ -227,6 +238,7 @@ you will find the specified tag value in the data object of the response
 [main.ts:98032](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L98032)
 
 ___
+
 
 ### targets
 
@@ -268,6 +280,7 @@ you can set up to 1000 domains or subdomains
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -288,6 +301,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`DataforseoLabsGoogleHistoricalBulkTrafficEstimationLiveRequestInfo`](DataforseoLabsGoogleHistoricalBulkTrafficEstimationLiveRequestInfo.md)
@@ -305,3 +319,7 @@ ___
 #### Defined in
 
 [main.ts:98071](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L98071)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

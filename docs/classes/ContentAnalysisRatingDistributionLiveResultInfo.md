@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / ContentAnalysisRatingDistributionLiveResultInfo
 
 # Class: ContentAnalysisRatingDistributionLiveResultInfo
@@ -67,6 +71,7 @@ max rating on a distribution scale
 
 ___
 
+
 ### metrics
 
 • `Optional` **metrics**: [`ContentAnalysisSummaryInfo`](ContentAnalysisSummaryInfo.md)
@@ -83,6 +88,7 @@ contains rating distribution metrics
 
 ___
 
+
 ### min
 
 • `Optional` **min**: `number`
@@ -98,6 +104,7 @@ min rating on a distribution scale
 [main.ts:158409](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L158409)
 
 ___
+
 
 ### type
 
@@ -135,6 +142,7 @@ type of element
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -155,6 +163,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`ContentAnalysisRatingDistributionLiveResultInfo`](ContentAnalysisRatingDistributionLiveResultInfo.md)
@@ -172,3 +181,7 @@ ___
 #### Defined in
 
 [main.ts:158439](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L158439)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

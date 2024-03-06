@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / GoogleShoppingSerpMerchantSerpElementItem
 
 # Class: GoogleShoppingSerpMerchantSerpElementItem
@@ -5,7 +9,7 @@
 ## Hierarchy
 
 - [`BaseMerchantSerpElementItem`](BaseMerchantSerpElementItem.md)
-
+  
   ↳ **`GoogleShoppingSerpMerchantSerpElementItem`**
 
 ## Implements
@@ -97,6 +101,7 @@
 
 ___
 
+
 ### additional\_specifications
 
 • `Optional` **additional\_specifications**: `Object`
@@ -118,6 +123,7 @@ you can get more details about the product by using this object in the POST requ
 
 ___
 
+
 ### currency
 
 • `Optional` **currency**: `string`
@@ -135,6 +141,7 @@ USD
 [main.ts:164690](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L164690)
 
 ___
+
 
 ### data\_docid
 
@@ -155,6 +162,7 @@ example:
 
 ___
 
+
 ### delivery\_info
 
 • `Optional` **delivery\_info**: [`DeliveryInfo`](DeliveryInfo.md)
@@ -172,6 +180,7 @@ delivery information including free and fast delivery date ranges
 
 ___
 
+
 ### description
 
 • `Optional` **description**: `string`
@@ -188,6 +197,7 @@ description of the product in Google Shopping SERP
 
 ___
 
+
 ### domain
 
 • `Optional` **domain**: `string`
@@ -203,6 +213,7 @@ domain in SERP
 [main.ts:164667](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L164667)
 
 ___
+
 
 ### is\_best\_match
 
@@ -221,6 +232,7 @@ if there are no values, you will get null
 [main.ts:164716](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L164716)
 
 ___
+
 
 ### old\_price
 
@@ -241,6 +253,7 @@ example:
 
 ___
 
+
 ### position
 
 • `Optional` **position**: `string`
@@ -259,6 +272,7 @@ left, right
 
 ___
 
+
 ### price
 
 • `Optional` **price**: `number`
@@ -276,6 +290,7 @@ example:
 [main.ts:164681](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L164681)
 
 ___
+
 
 ### product\_id
 
@@ -298,6 +313,7 @@ learn more about the parameter in this help center guide
 
 ___
 
+
 ### product\_images
 
 • `Optional` **product\_images**: `string`[]
@@ -314,6 +330,7 @@ the first URL in the array is the featured image of the product
 [main.ts:164725](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L164725)
 
 ___
+
 
 ### product\_rating
 
@@ -332,6 +349,7 @@ the product popularity rate based on product reviews
 
 ___
 
+
 ### rank\_absolute
 
 • `Optional` **rank\_absolute**: `number`
@@ -349,6 +367,7 @@ absolute position among all the elements found in Google Shopping SERP
 
 ___
 
+
 ### rank\_group
 
 • `Optional` **rank\_group**: `number`
@@ -365,6 +384,7 @@ positions of elements with different type values are omitted from rank_group
 [main.ts:164656](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L164656)
 
 ___
+
 
 ### reviews\_count
 
@@ -384,6 +404,7 @@ if there are no values, you will get null
 
 ___
 
+
 ### seller
 
 • `Optional` **seller**: `string`
@@ -400,6 +421,7 @@ the name of the company that placed a corresponding product on Google Shopping
 [main.ts:164705](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L164705)
 
 ___
+
 
 ### shop\_ad\_aclk
 
@@ -418,6 +440,7 @@ using this parameter you can get a URL of the advertisement in Google Shopping S
 
 ___
 
+
 ### shop\_rating
 
 • `Optional` **shop\_rating**: [`RatingElement`](RatingElement.md)
@@ -435,6 +458,7 @@ the popularity rate of the seller based on user reviews
 
 ___
 
+
 ### shopping\_url
 
 • `Optional` **shopping\_url**: `string`
@@ -450,6 +474,7 @@ URL to the product page on Google Shopping
 [main.ts:164675](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L164675)
 
 ___
+
 
 ### stores\_count\_info
 
@@ -468,6 +493,7 @@ contains information about the number of stores that offer the same product
 
 ___
 
+
 ### tags
 
 • `Optional` **tags**: `string`[]
@@ -483,6 +509,7 @@ tags assigned to the product
 [main.ts:164677](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L164677)
 
 ___
+
 
 ### title
 
@@ -500,6 +527,7 @@ title of the element
 
 ___
 
+
 ### url
 
 • `Optional` **url**: `string`
@@ -515,6 +543,7 @@ URL to the product page on the seller’s website
 [main.ts:164673](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L164673)
 
 ___
+
 
 ### xpath
 
@@ -556,6 +585,7 @@ XPath of the element
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -580,6 +610,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`GoogleShoppingSerpMerchantSerpElementItem`](GoogleShoppingSerpMerchantSerpElementItem.md)
@@ -601,3 +632,7 @@ ___
 #### Defined in
 
 [main.ts:164792](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L164792)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

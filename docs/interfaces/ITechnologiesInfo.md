@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / ITechnologiesInfo
 
 # Interface: ITechnologiesInfo
@@ -47,6 +51,7 @@
 
 ___
 
+
 ### analytics
 
 • `Optional` **analytics**: `Object`
@@ -60,6 +65,7 @@ ___
 [main.ts:22184](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L22184)
 
 ___
+
 
 ### business\_tools
 
@@ -75,6 +81,7 @@ ___
 
 ___
 
+
 ### communication
 
 • `Optional` **communication**: `Object`
@@ -88,6 +95,7 @@ ___
 [main.ts:22197](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L22197)
 
 ___
+
 
 ### content
 
@@ -103,6 +111,7 @@ ___
 
 ___
 
+
 ### location
 
 • `Optional` **location**: `Object`
@@ -116,6 +125,7 @@ ___
 [main.ts:22193](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L22193)
 
 ___
+
 
 ### marketing
 
@@ -131,6 +141,7 @@ ___
 
 ___
 
+
 ### media
 
 • `Optional` **media**: `Object`
@@ -144,6 +155,7 @@ ___
 [main.ts:22195](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L22195)
 
 ___
+
 
 ### other
 
@@ -159,6 +171,7 @@ ___
 
 ___
 
+
 ### privacy
 
 • `Optional` **privacy**: `Object`
@@ -172,6 +185,7 @@ ___
 [main.ts:22191](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L22191)
 
 ___
+
 
 ### sales
 
@@ -187,6 +201,7 @@ ___
 
 ___
 
+
 ### security
 
 • `Optional` **security**: `Object`
@@ -200,6 +215,7 @@ ___
 [main.ts:22186](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L22186)
 
 ___
+
 
 ### servers
 
@@ -215,6 +231,7 @@ ___
 
 ___
 
+
 ### user\_generated\_content
 
 • `Optional` **user\_generated\_content**: `Object`
@@ -228,6 +245,7 @@ ___
 [main.ts:22190](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L22190)
 
 ___
+
 
 ### utilities
 
@@ -243,6 +261,7 @@ ___
 
 ___
 
+
 ### web\_development
 
 • `Optional` **web\_development**: `Object`
@@ -254,3 +273,7 @@ ___
 #### Defined in
 
 [main.ts:22185](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L22185)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

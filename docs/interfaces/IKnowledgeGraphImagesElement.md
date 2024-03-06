@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IKnowledgeGraphImagesElement
 
 # Interface: IKnowledgeGraphImagesElement
@@ -35,6 +39,7 @@ alt tag of the image
 
 ___
 
+
 ### domain
 
 • `Optional` **domain**: `string`
@@ -46,6 +51,7 @@ domain in SERP of the Ad element
 [main.ts:26502](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L26502)
 
 ___
+
 
 ### image\_url
 
@@ -60,6 +66,7 @@ the URL leading to the image on the original resource or DataForSEO storage (in 
 
 ___
 
+
 ### type
 
 • `Optional` **type**: `string`
@@ -71,6 +78,7 @@ type of element
 [main.ts:26498](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L26498)
 
 ___
+
 
 ### url
 
@@ -84,6 +92,7 @@ relevant URL in SERP
 
 ___
 
+
 ### xpath
 
 • `Optional` **xpath**: `string`
@@ -93,3 +102,7 @@ the XPath of the element
 #### Defined in
 
 [main.ts:26509](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L26509)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

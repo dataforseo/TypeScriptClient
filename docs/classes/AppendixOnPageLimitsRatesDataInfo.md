@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / AppendixOnPageLimitsRatesDataInfo
 
 # Class: AppendixOnPageLimitsRatesDataInfo
@@ -81,6 +85,7 @@
 
 ___
 
+
 ### content\_parsing\_live
 
 • `Optional` **content\_parsing\_live**: `number`
@@ -94,6 +99,7 @@ ___
 [main.ts:207696](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L207696)
 
 ___
+
 
 ### duplicate\_content
 
@@ -109,6 +115,7 @@ ___
 
 ___
 
+
 ### duplicate\_tags
 
 • `Optional` **duplicate\_tags**: `number`
@@ -122,6 +129,7 @@ ___
 [main.ts:207683](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L207683)
 
 ___
+
 
 ### errors
 
@@ -137,6 +145,7 @@ ___
 
 ___
 
+
 ### instant\_pages
 
 • `Optional` **instant\_pages**: `number`
@@ -150,6 +159,7 @@ ___
 [main.ts:207690](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L207690)
 
 ___
+
 
 ### keyword\_density
 
@@ -165,6 +175,7 @@ ___
 
 ___
 
+
 ### lighthouse
 
 • `Optional` **lighthouse**: [`AppendixInfo`](AppendixInfo.md)
@@ -178,6 +189,7 @@ ___
 [main.ts:207692](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L207692)
 
 ___
+
 
 ### links
 
@@ -193,6 +205,7 @@ ___
 
 ___
 
+
 ### non\_indexable
 
 • `Optional` **non\_indexable**: `number`
@@ -206,6 +219,7 @@ ___
 [main.ts:207682](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L207682)
 
 ___
+
 
 ### page\_screenshot
 
@@ -221,6 +235,7 @@ ___
 
 ___
 
+
 ### pages
 
 • `Optional` **pages**: `number`
@@ -234,6 +249,7 @@ ___
 [main.ts:207681](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L207681)
 
 ___
+
 
 ### pages\_by\_resource
 
@@ -249,6 +265,7 @@ ___
 
 ___
 
+
 ### raw\_html
 
 • `Optional` **raw\_html**: `number`
@@ -262,6 +279,7 @@ ___
 [main.ts:207689](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L207689)
 
 ___
+
 
 ### redirect\_chains
 
@@ -277,6 +295,7 @@ ___
 
 ___
 
+
 ### resources
 
 • `Optional` **resources**: `number`
@@ -290,6 +309,7 @@ ___
 [main.ts:207680](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L207680)
 
 ___
+
 
 ### summary
 
@@ -305,6 +325,7 @@ ___
 
 ___
 
+
 ### task\_post
 
 • `Optional` **task\_post**: `number`
@@ -319,6 +340,7 @@ ___
 
 ___
 
+
 ### tasks\_ready
 
 • `Optional` **tasks\_ready**: `number`
@@ -332,6 +354,7 @@ ___
 [main.ts:207678](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L207678)
 
 ___
+
 
 ### waterfall
 
@@ -367,6 +390,7 @@ ___
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -387,6 +411,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`AppendixOnPageLimitsRatesDataInfo`](AppendixOnPageLimitsRatesDataInfo.md)
@@ -404,3 +429,7 @@ ___
 #### Defined in
 
 [main.ts:207738](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L207738)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

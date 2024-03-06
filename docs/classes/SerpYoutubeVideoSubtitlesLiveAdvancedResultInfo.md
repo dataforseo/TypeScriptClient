@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / SerpYoutubeVideoSubtitlesLiveAdvancedResultInfo
 
 # Class: SerpYoutubeVideoSubtitlesLiveAdvancedResultInfo
@@ -79,6 +83,7 @@ the category the video belongs to
 
 ___
 
+
 ### check\_url
 
 • `Optional` **check\_url**: `string`
@@ -95,6 +100,7 @@ you can use it to make sure that we provided accurate results
 [main.ts:60771](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L60771)
 
 ___
+
 
 ### datetime
 
@@ -115,6 +121,7 @@ example:
 
 ___
 
+
 ### item\_types
 
 • `Optional` **item\_types**: `string`[]
@@ -134,6 +141,7 @@ youtube_subtitles
 
 ___
 
+
 ### items
 
 • `Optional` **items**: [`BaseSerpElementItem`](BaseSerpElementItem.md)[]
@@ -149,6 +157,7 @@ elements of search results found in SERP
 [main.ts:60800](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L60800)
 
 ___
+
 
 ### items\_count
 
@@ -166,6 +175,7 @@ the number of results returned in the items array
 
 ___
 
+
 ### language\_code
 
 • `Optional` **language\_code**: `string`
@@ -181,6 +191,7 @@ language code in a POST array
 [main.ts:60768](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L60768)
 
 ___
+
 
 ### location\_code
 
@@ -198,6 +209,7 @@ location code in a POST array
 
 ___
 
+
 ### origin\_language
 
 • `Optional` **origin\_language**: `string`
@@ -214,6 +226,7 @@ language code of original text
 
 ___
 
+
 ### se\_domain
 
 • `Optional` **se\_domain**: `string`
@@ -229,6 +242,7 @@ search engine domain in a POST array
 [main.ts:60764](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L60764)
 
 ___
+
 
 ### spell
 
@@ -247,6 +261,7 @@ if the search engine provided results for a keyword that was corrected, we will 
 
 ___
 
+
 ### subtitles\_count
 
 • `Optional` **subtitles\_count**: `number`
@@ -262,6 +277,7 @@ number of subtitles in the video
 [main.ts:60794](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L60794)
 
 ___
+
 
 ### title
 
@@ -279,6 +295,7 @@ title of the video
 
 ___
 
+
 ### translate\_language
 
 • `Optional` **translate\_language**: `string`
@@ -295,6 +312,7 @@ language code of translated text
 
 ___
 
+
 ### unsupported\_language
 
 • `Optional` **unsupported\_language**: `boolean`
@@ -310,6 +328,7 @@ indicates whether the language is unsupported by the system
 [main.ts:60786](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L60786)
 
 ___
+
 
 ### video\_id
 
@@ -347,6 +366,7 @@ ID of the video received in a POST array
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -367,6 +387,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`SerpYoutubeVideoSubtitlesLiveAdvancedResultInfo`](SerpYoutubeVideoSubtitlesLiveAdvancedResultInfo.md)
@@ -384,3 +405,7 @@ ___
 #### Defined in
 
 [main.ts:60846](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L60846)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

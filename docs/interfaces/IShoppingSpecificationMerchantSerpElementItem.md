@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IShoppingSpecificationMerchantSerpElementItem
 
 # Interface: IShoppingSpecificationMerchantSerpElementItem
@@ -5,7 +9,7 @@
 ## Hierarchy
 
 - [`IBaseMerchantSerpElementItem`](IBaseMerchantSerpElementItem.md)
-
+  
   ↳ **`IShoppingSpecificationMerchantSerpElementItem`**
 
 ## Implemented by
@@ -43,6 +47,7 @@ indicates the name of the product specification section in which the related ele
 
 ___
 
+
 ### position
 
 • `Optional` **position**: `string`
@@ -57,6 +62,7 @@ right
 
 ___
 
+
 ### rank\_absolute
 
 • `Optional` **rank\_absolute**: `number`
@@ -69,6 +75,7 @@ absolute position among all the elements found on the product specification page
 [main.ts:167910](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L167910)
 
 ___
+
 
 ### rank\_group
 
@@ -83,6 +90,7 @@ positions of elements with different type values are omitted from rank_group
 
 ___
 
+
 ### specification\_name
 
 • `Optional` **specification\_name**: `string`
@@ -96,6 +104,7 @@ attribute name of the product data specification
 
 ___
 
+
 ### specification\_value
 
 • `Optional` **specification\_value**: `string`
@@ -108,6 +117,7 @@ content of the specification
 
 ___
 
+
 ### xpath
 
 • `Optional` **xpath**: `string`
@@ -117,3 +127,7 @@ XPath of the element
 #### Defined in
 
 [main.ts:167916](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L167916)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

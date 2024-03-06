@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / AppendixKeywordPerformanceKeywordsDataLimitsRatesDataInfo
 
 # Class: AppendixKeywordPerformanceKeywordsDataLimitsRatesDataInfo
@@ -64,6 +68,7 @@
 
 ___
 
+
 ### task\_get
 
 • `Optional` **task\_get**: `number`
@@ -77,6 +82,7 @@ ___
 [main.ts:206793](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L206793)
 
 ___
+
 
 ### task\_post
 
@@ -112,6 +118,7 @@ ___
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -132,6 +139,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`AppendixKeywordPerformanceKeywordsDataLimitsRatesDataInfo`](AppendixKeywordPerformanceKeywordsDataLimitsRatesDataInfo.md)
@@ -149,3 +157,7 @@ ___
 #### Defined in
 
 [main.ts:206820](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L206820)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

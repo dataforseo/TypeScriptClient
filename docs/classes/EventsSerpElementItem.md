@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / EventsSerpElementItem
 
 # Class: EventsSerpElementItem
@@ -5,7 +9,7 @@
 ## Hierarchy
 
 - [`BaseSerpElementItem`](BaseSerpElementItem.md)
-
+  
   ↳ **`EventsSerpElementItem`**
 
 ## Implements
@@ -80,6 +84,7 @@
 
 ___
 
+
 ### items
 
 • `Optional` **items**: [`EventsElement`](EventsElement.md)[]
@@ -95,6 +100,7 @@ contains results featured in the ‘hotels_pack’ element of SERP
 [main.ts:31053](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L31053)
 
 ___
+
 
 ### position
 
@@ -114,6 +120,7 @@ left, right
 
 ___
 
+
 ### rank\_absolute
 
 • `Optional` **rank\_absolute**: `number`
@@ -130,6 +137,7 @@ absolute position among all the elements in SERP
 [main.ts:31041](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L31041)
 
 ___
+
 
 ### rank\_group
 
@@ -149,6 +157,7 @@ positions of elements with different type values are omitted from rank_group
 
 ___
 
+
 ### rectangle
 
 • `Optional` **rectangle**: [`Rectangle`](Rectangle.md)
@@ -167,6 +176,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 ___
 
+
 ### title
 
 • `Optional` **title**: `string`
@@ -183,6 +193,7 @@ title of a given link element
 
 ___
 
+
 ### url
 
 • `Optional` **url**: `string`
@@ -198,6 +209,7 @@ URL
 [main.ts:31051](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L31051)
 
 ___
+
 
 ### xpath
 
@@ -239,6 +251,7 @@ the XPath of the element
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -263,6 +276,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`EventsSerpElementItem`](EventsSerpElementItem.md)
@@ -284,3 +298,7 @@ ___
 #### Defined in
 
 [main.ts:31088](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L31088)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

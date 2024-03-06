@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IKeywordsDataBingKeywordsForSiteLiveRequestInfo
 
 # Interface: IKeywordsDataBingKeywordsForSiteLiveRequestInfo
@@ -47,6 +51,7 @@ example:
 
 ___
 
+
 ### date\_to
 
 • `Optional` **date\_to**: `string`
@@ -67,6 +72,7 @@ example:
 
 ___
 
+
 ### device
 
 • `Optional` **device**: `string`
@@ -81,6 +87,7 @@ default value: all
 [main.ts:124667](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L124667)
 
 ___
+
 
 ### keywords\_negative
 
@@ -98,6 +105,7 @@ the specified keywords will be converted to lowercase format
 
 ___
 
+
 ### language\_code
 
 • `Optional` **language\_code**: `string`
@@ -113,6 +121,7 @@ en, fr, de
 [main.ts:124656](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L124656)
 
 ___
+
 
 ### language\_name
 
@@ -130,6 +139,7 @@ English, French, German
 
 ___
 
+
 ### location\_code
 
 • `Optional` **location\_code**: `number`
@@ -146,6 +156,7 @@ example:
 [main.ts:124636](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L124636)
 
 ___
+
 
 ### location\_coordinate
 
@@ -165,6 +176,7 @@ example:
 
 ___
 
+
 ### location\_name
 
 • `Optional` **location\_name**: `string`
@@ -182,6 +194,7 @@ London,England,United Kingdom
 
 ___
 
+
 ### search\_partners
 
 • `Optional` **search\_partners**: `boolean`
@@ -197,6 +210,7 @@ default value: false – results are returned for Bing, AOL, and Yahoo search ne
 
 ___
 
+
 ### sort\_by
 
 • `Optional` **sort\_by**: `string`
@@ -211,6 +225,7 @@ default value: relevance
 [main.ts:124689](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L124689)
 
 ___
+
 
 ### tag
 
@@ -228,6 +243,7 @@ you will find the specified tag value in the data object of the response
 
 ___
 
+
 ### target
 
 • `Optional` **target**: `string`
@@ -239,3 +255,7 @@ the domain name or URL of the target website
 #### Defined in
 
 [main.ts:124622](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L124622)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

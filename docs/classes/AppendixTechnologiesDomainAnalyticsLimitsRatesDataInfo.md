@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / AppendixTechnologiesDomainAnalyticsLimitsRatesDataInfo
 
 # Class: AppendixTechnologiesDomainAnalyticsLimitsRatesDataInfo
@@ -70,6 +74,7 @@
 
 ___
 
+
 ### domain\_technologies
 
 • `Optional` **domain\_technologies**: [`AppendixInfo`](AppendixInfo.md)
@@ -83,6 +88,7 @@ ___
 [main.ts:207293](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L207293)
 
 ___
+
 
 ### domains\_by\_html\_terms
 
@@ -98,6 +104,7 @@ ___
 
 ___
 
+
 ### domains\_by\_technology
 
 • `Optional` **domains\_by\_technology**: [`AppendixInfo`](AppendixInfo.md)
@@ -111,6 +118,7 @@ ___
 [main.ts:207294](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L207294)
 
 ___
+
 
 ### languages
 
@@ -126,6 +134,7 @@ ___
 
 ___
 
+
 ### locations
 
 • `Optional` **locations**: `number`
@@ -139,6 +148,7 @@ ___
 [main.ts:207296](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L207296)
 
 ___
+
 
 ### technologies
 
@@ -154,6 +164,7 @@ ___
 
 ___
 
+
 ### technologies\_summary
 
 • `Optional` **technologies\_summary**: [`AppendixInfo`](AppendixInfo.md)
@@ -167,6 +178,7 @@ ___
 [main.ts:207299](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L207299)
 
 ___
+
 
 ### technology\_stats
 
@@ -202,6 +214,7 @@ ___
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -222,6 +235,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`AppendixTechnologiesDomainAnalyticsLimitsRatesDataInfo`](AppendixTechnologiesDomainAnalyticsLimitsRatesDataInfo.md)
@@ -239,3 +253,7 @@ ___
 #### Defined in
 
 [main.ts:207332](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L207332)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

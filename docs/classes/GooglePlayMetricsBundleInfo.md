@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / GooglePlayMetricsBundleInfo
 
 # Class: GooglePlayMetricsBundleInfo
@@ -84,6 +88,7 @@ ranking data from Google Play organic search
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -104,6 +109,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`GooglePlayMetricsBundleInfo`](GooglePlayMetricsBundleInfo.md)
@@ -121,3 +127,7 @@ ___
 #### Defined in
 
 [main.ts:109259](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L109259)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

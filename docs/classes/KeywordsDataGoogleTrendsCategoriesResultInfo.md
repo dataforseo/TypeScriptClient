@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / KeywordsDataGoogleTrendsCategoriesResultInfo
 
 # Class: KeywordsDataGoogleTrendsCategoriesResultInfo
@@ -66,6 +70,7 @@ unique google trends category identifier
 
 ___
 
+
 ### category\_code\_parent
 
 • `Optional` **category\_code\_parent**: `number`
@@ -88,6 +93,7 @@ where category_code_parent corresponds to:
 [main.ts:119612](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L119612)
 
 ___
+
 
 ### category\_name
 
@@ -125,6 +131,7 @@ name of the google trends category
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -145,6 +152,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`KeywordsDataGoogleTrendsCategoriesResultInfo`](KeywordsDataGoogleTrendsCategoriesResultInfo.md)
@@ -162,3 +170,7 @@ ___
 #### Defined in
 
 [main.ts:119637](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L119637)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / ExploreBrandsElement
 
 # Class: ExploreBrandsElement
@@ -70,6 +74,7 @@ description of the results element in SERP
 
 ___
 
+
 ### domain
 
 • `Optional` **domain**: `string`
@@ -85,6 +90,7 @@ domain where a link points
 [main.ts:35196](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L35196)
 
 ___
+
 
 ### image\_url
 
@@ -102,6 +108,7 @@ URL of the image
 
 ___
 
+
 ### title
 
 • `Optional` **title**: `string`
@@ -117,6 +124,7 @@ title of the row
 [main.ts:35192](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L35192)
 
 ___
+
 
 ### type
 
@@ -134,6 +142,7 @@ type of element
 
 ___
 
+
 ### url
 
 • `Optional` **url**: `string`
@@ -149,6 +158,7 @@ URL
 [main.ts:35194](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L35194)
 
 ___
+
 
 ### xpath
 
@@ -186,6 +196,7 @@ the XPath of the element
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -206,6 +217,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`ExploreBrandsElement`](ExploreBrandsElement.md)
@@ -223,3 +235,7 @@ ___
 #### Defined in
 
 [main.ts:35231](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L35231)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IOnPageDuplicateContentItem
 
 # Interface: IOnPageDuplicateContentItem
@@ -32,6 +36,7 @@ pages with duplicate content
 
 ___
 
+
 ### total\_count
 
 • `Optional` **total\_count**: `number`
@@ -44,6 +49,7 @@ total count of duplicate pages
 
 ___
 
+
 ### url
 
 • `Optional` **url**: `string`
@@ -53,3 +59,7 @@ URL of the specified page
 #### Defined in
 
 [main.ts:147674](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L147674)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

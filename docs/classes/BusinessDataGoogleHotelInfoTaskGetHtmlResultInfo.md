@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / BusinessDataGoogleHotelInfoTaskGetHtmlResultInfo
 
 # Class: BusinessDataGoogleHotelInfoTaskGetHtmlResultInfo
@@ -74,6 +78,7 @@ example:
 
 ___
 
+
 ### items
 
 • `Optional` **items**: [`HtmlItem`](HtmlItem.md)[]
@@ -90,6 +95,7 @@ HTML pages
 
 ___
 
+
 ### items\_count
 
 • `Optional` **items\_count**: `number`
@@ -105,6 +111,7 @@ the number of results returned in the items array
 [main.ts:196329](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L196329)
 
 ___
+
 
 ### keyword
 
@@ -125,6 +132,7 @@ CgoI-KWyzenM_MV3EAE
 
 ___
 
+
 ### language\_code
 
 • `Optional` **language\_code**: `string`
@@ -140,6 +148,7 @@ language code in a POST array
 [main.ts:196322](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L196322)
 
 ___
+
 
 ### location\_code
 
@@ -157,6 +166,7 @@ location code in a POST array
 
 ___
 
+
 ### se\_domain
 
 • `Optional` **se\_domain**: `string`
@@ -170,6 +180,7 @@ ___
 [main.ts:196333](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L196333)
 
 ___
+
 
 ### type
 
@@ -205,6 +216,7 @@ ___
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -225,6 +237,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`BusinessDataGoogleHotelInfoTaskGetHtmlResultInfo`](BusinessDataGoogleHotelInfoTaskGetHtmlResultInfo.md)
@@ -242,3 +255,7 @@ ___
 #### Defined in
 
 [main.ts:196367](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L196367)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

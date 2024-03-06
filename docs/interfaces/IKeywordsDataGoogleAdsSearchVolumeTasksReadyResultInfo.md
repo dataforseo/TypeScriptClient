@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IKeywordsDataGoogleAdsSearchVolumeTasksReadyResultInfo
 
 # Interface: IKeywordsDataGoogleAdsSearchVolumeTasksReadyResultInfo
@@ -35,6 +39,7 @@ date when the task was posted (in the UTC format)
 
 ___
 
+
 ### endpoint
 
 • `Optional` **endpoint**: `string`
@@ -47,6 +52,7 @@ URL for collecting the results of the task
 
 ___
 
+
 ### function
 
 • `Optional` **function**: `string`
@@ -58,6 +64,7 @@ type of the task
 [main.ts:113639](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L113639)
 
 ___
+
 
 ### id
 
@@ -72,6 +79,7 @@ unique task identifier in our system in the UUID format
 
 ___
 
+
 ### se
 
 • `Optional` **se**: `string`
@@ -84,6 +92,7 @@ search engine specified when setting the task
 
 ___
 
+
 ### tag
 
 • `Optional` **tag**: `string`
@@ -93,3 +102,7 @@ user-defined task identifier
 #### Defined in
 
 [main.ts:113643](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L113643)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

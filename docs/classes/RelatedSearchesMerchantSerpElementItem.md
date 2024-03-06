@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / RelatedSearchesMerchantSerpElementItem
 
 # Class: RelatedSearchesMerchantSerpElementItem
@@ -5,7 +9,7 @@
 ## Hierarchy
 
 - [`BaseMerchantSerpElementItem`](BaseMerchantSerpElementItem.md)
-
+  
   ↳ **`RelatedSearchesMerchantSerpElementItem`**
 
 ## Implements
@@ -77,6 +81,7 @@
 
 ___
 
+
 ### items
 
 • `Optional` **items**: `string`[]
@@ -93,6 +98,7 @@ if there are none, equals null
 [main.ts:165294](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L165294)
 
 ___
+
 
 ### position
 
@@ -112,6 +118,7 @@ left, right
 
 ___
 
+
 ### rank\_absolute
 
 • `Optional` **rank\_absolute**: `number`
@@ -129,6 +136,7 @@ absolute position among all the elements found in Google Shopping SERP
 
 ___
 
+
 ### rank\_group
 
 • `Optional` **rank\_group**: `number`
@@ -145,6 +153,7 @@ positions of elements with different type values are omitted from rank_group
 [main.ts:165282](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L165282)
 
 ___
+
 
 ### xpath
 
@@ -186,6 +195,7 @@ XPath of the element
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -210,6 +220,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`RelatedSearchesMerchantSerpElementItem`](RelatedSearchesMerchantSerpElementItem.md)
@@ -231,3 +242,7 @@ ___
 #### Defined in
 
 [main.ts:165322](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L165322)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

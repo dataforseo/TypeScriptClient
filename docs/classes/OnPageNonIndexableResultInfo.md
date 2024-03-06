@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / OnPageNonIndexableResultInfo
 
 # Class: OnPageNonIndexableResultInfo
@@ -69,6 +73,7 @@ possible values: in_progress, finished
 
 ___
 
+
 ### crawl\_status
 
 • `Optional` **crawl\_status**: [`CrawlStatusInfo`](CrawlStatusInfo.md)
@@ -84,6 +89,7 @@ details of the crawling session
 [main.ts:149440](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L149440)
 
 ___
+
 
 ### items
 
@@ -101,6 +107,7 @@ items array
 
 ___
 
+
 ### items\_count
 
 • `Optional` **items\_count**: `number`
@@ -116,6 +123,7 @@ number of items in the results array
 [main.ts:149444](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L149444)
 
 ___
+
 
 ### total\_items\_count
 
@@ -153,6 +161,7 @@ total number of relevant items in the database
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -173,6 +182,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`OnPageNonIndexableResultInfo`](OnPageNonIndexableResultInfo.md)
@@ -190,3 +200,7 @@ ___
 #### Defined in
 
 [main.ts:149477](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L149477)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

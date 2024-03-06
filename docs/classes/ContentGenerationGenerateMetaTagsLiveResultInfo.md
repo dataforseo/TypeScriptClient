@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / ContentGenerationGenerateMetaTagsLiveResultInfo
 
 # Class: ContentGenerationGenerateMetaTagsLiveResultInfo
@@ -68,6 +72,7 @@ generated description
 
 ___
 
+
 ### input\_tokens
 
 • `Optional` **input\_tokens**: `number`
@@ -83,6 +88,7 @@ number of input tokens
 [main.ts:160659](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L160659)
 
 ___
+
 
 ### new\_tokens
 
@@ -100,6 +106,7 @@ number of new tokens
 
 ___
 
+
 ### output\_tokens
 
 • `Optional` **output\_tokens**: `number`
@@ -115,6 +122,7 @@ number of output tokens
 [main.ts:160661](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L160661)
 
 ___
+
 
 ### title
 
@@ -152,6 +160,7 @@ generated title
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -172,6 +181,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`ContentGenerationGenerateMetaTagsLiveResultInfo`](ContentGenerationGenerateMetaTagsLiveResultInfo.md)
@@ -189,3 +199,7 @@ ___
 #### Defined in
 
 [main.ts:160694](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L160694)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

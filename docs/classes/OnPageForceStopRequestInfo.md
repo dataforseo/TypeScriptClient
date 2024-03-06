@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / OnPageForceStopRequestInfo
 
 # Class: OnPageForceStopRequestInfo
@@ -89,6 +93,7 @@ note: you can set up to 1000 id values as separate objects in the POST array
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -109,6 +114,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`OnPageForceStopRequestInfo`](OnPageForceStopRequestInfo.md)
@@ -126,3 +132,7 @@ ___
 #### Defined in
 
 [main.ts:142155](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L142155)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

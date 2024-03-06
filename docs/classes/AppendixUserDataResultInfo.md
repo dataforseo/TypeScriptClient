@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / AppendixUserDataResultInfo
 
 # Class: AppendixUserDataResultInfo
@@ -68,6 +72,7 @@ your login
 
 ___
 
+
 ### money
 
 • `Optional` **money**: [`AppendixMoneyData`](AppendixMoneyData.md)
@@ -83,6 +88,7 @@ section of your spending, USD
 [main.ts:212171](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L212171)
 
 ___
+
 
 ### price
 
@@ -100,6 +106,7 @@ pricing
 
 ___
 
+
 ### rates
 
 • `Optional` **rates**: [`AppendixRatesData`](AppendixRatesData.md)
@@ -115,6 +122,7 @@ your API rates
 [main.ts:212169](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L212169)
 
 ___
+
 
 ### timezone
 
@@ -153,6 +161,7 @@ can be set in your profile settings
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -173,6 +182,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`AppendixUserDataResultInfo`](AppendixUserDataResultInfo.md)
@@ -190,3 +200,7 @@ ___
 #### Defined in
 
 [main.ts:212200](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L212200)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IDeliveryInfo
 
 # Interface: IDeliveryInfo
@@ -33,6 +37,7 @@ message accompanying the delivery information as posted by the seller
 
 ___
 
+
 ### delivery\_price
 
 • `Optional` **delivery\_price**: [`PriceInfo`](../classes/PriceInfo.md)
@@ -47,6 +52,7 @@ if free delivery is available, the value is null
 
 ___
 
+
 ### stores\_count\_info
 
 • `Optional` **stores\_count\_info**: [`StoresCountInfo`](../classes/StoresCountInfo.md)
@@ -57,3 +63,7 @@ contains information about the number of stores that offer the same product
 #### Defined in
 
 [main.ts:164578](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L164578)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

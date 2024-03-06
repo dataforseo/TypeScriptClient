@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / DomainAnalyticsTechnologiesAvailableFiltersResultInfo
 
 # Class: DomainAnalyticsTechnologiesAvailableFiltersResultInfo
@@ -69,6 +73,7 @@
 
 ___
 
+
 ### domains\_by\_html\_terms
 
 • `Optional` **domains\_by\_html\_terms**: `Object`
@@ -87,6 +92,7 @@ ___
 
 ___
 
+
 ### domains\_by\_technology
 
 • `Optional` **domains\_by\_technology**: `Object`
@@ -104,6 +110,7 @@ ___
 [main.ts:71553](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L71553)
 
 ___
+
 
 ### technologies\_summary
 
@@ -143,6 +150,7 @@ ___
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -163,6 +171,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`DomainAnalyticsTechnologiesAvailableFiltersResultInfo`](DomainAnalyticsTechnologiesAvailableFiltersResultInfo.md)
@@ -180,3 +189,7 @@ ___
 #### Defined in
 
 [main.ts:71606](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L71606)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

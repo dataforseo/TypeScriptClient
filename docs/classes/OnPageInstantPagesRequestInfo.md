@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / OnPageInstantPagesRequestInfo
 
 # Class: OnPageInstantPagesRequestInfo
@@ -83,6 +87,7 @@ Note: if you do not specify this parameter, some websites may deny access; in th
 
 ___
 
+
 ### browser\_preset
 
 • `Optional` **browser\_preset**: `string`
@@ -114,6 +119,7 @@ Note: to use this parameter, set enable_javascript or enable_browser_rendering t
 
 ___
 
+
 ### browser\_screen\_height
 
 • `Optional` **browser\_screen\_height**: `number`
@@ -133,6 +139,7 @@ maximum value, in pixels: 9999
 [main.ts:153028](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L153028)
 
 ___
+
 
 ### browser\_screen\_scale\_factor
 
@@ -154,6 +161,7 @@ maximum value: 3
 
 ___
 
+
 ### browser\_screen\_width
 
 • `Optional` **browser\_screen\_width**: `number`
@@ -174,6 +182,7 @@ maximum value, in pixels: 9999
 
 ___
 
+
 ### check\_spell
 
 • `Optional` **check\_spell**: `boolean`
@@ -192,6 +201,7 @@ default value: false
 [main.ts:153097](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L153097)
 
 ___
+
 
 ### checks\_threshold
 
@@ -215,6 +225,7 @@ Note: only integer threshold values can be modified;
 [main.ts:153102](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L153102)
 
 ___
+
 
 ### custom\_js
 
@@ -241,6 +252,7 @@ Note: if you use this parameter, additional charges will apply; learn more about
 
 ___
 
+
 ### custom\_user\_agent
 
 • `Optional` **custom\_user\_agent**: `string`
@@ -262,11 +274,12 @@ default value: Mozilla/5.0 (compatible; RSiteAuditor)
 
 ___
 
+
 ### disable\_cookie\_popup
 
 • `Optional` **disable\_cookie\_popup**: `boolean`
 
-disable the cookie popup 
+disable the cookie popup
 optional field
 set to true if you want to disable the popup requesting cookie consent from the user;
 default value:
@@ -281,6 +294,7 @@ false
 [main.ts:153065](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L153065)
 
 ___
+
 
 ### enable\_browser\_rendering
 
@@ -305,6 +319,7 @@ Note: if you use this parameter, additional charges will apply; learn more about
 
 ___
 
+
 ### enable\_javascript
 
 • `Optional` **enable\_javascript**: `boolean`
@@ -324,6 +339,7 @@ Note: if you use this parameter, additional charges will apply; learn more about
 [main.ts:153050](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L153050)
 
 ___
+
 
 ### enable\_xhr
 
@@ -345,6 +361,7 @@ falseif you use this field, enable_javascript must be set to true;
 
 ___
 
+
 ### return\_despite\_timeout
 
 • `Optional` **return\_despite\_timeout**: `boolean`
@@ -364,6 +381,7 @@ default value: false
 
 ___
 
+
 ### store\_raw\_html
 
 • `Optional` **store\_raw\_html**: `boolean`
@@ -382,6 +400,7 @@ default value: false
 [main.ts:153039](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L153039)
 
 ___
+
 
 ### url
 
@@ -403,6 +422,7 @@ to prevent this error from occuring, avoid setting tasks with the same domain if
 [main.ts:152992](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L152992)
 
 ___
+
 
 ### validate\_micromarkup
 
@@ -443,6 +463,7 @@ default value: false
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -463,6 +484,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`OnPageInstantPagesRequestInfo`](OnPageInstantPagesRequestInfo.md)
@@ -480,3 +502,7 @@ ___
 #### Defined in
 
 [main.ts:153147](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L153147)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

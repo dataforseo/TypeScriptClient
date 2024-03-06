@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IBusinessDataGoogleHotelSearchesTaskGetResultInfo
 
 # Interface: IBusinessDataGoogleHotelSearchesTaskGetResultInfo
@@ -37,6 +41,7 @@ you can use it to make sure that we provided accurate results
 
 ___
 
+
 ### datetime
 
 • `Optional` **datetime**: `string`
@@ -52,6 +57,7 @@ example:
 
 ___
 
+
 ### items
 
 • `Optional` **items**: [`BusinessDataGoogleHotelSearchesItem`](../classes/BusinessDataGoogleHotelSearchesItem.md)[]
@@ -65,6 +71,7 @@ note: this field always equals null; use it to facilitate integration and ensure
 
 ___
 
+
 ### items\_count
 
 • `Optional` **items\_count**: `number`
@@ -77,6 +84,7 @@ the number of items in the items array
 [main.ts:194022](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L194022)
 
 ___
+
 
 ### keyword
 
@@ -92,6 +100,7 @@ in order to obtain accurate search results, the location name is appended to the
 
 ___
 
+
 ### language\_code
 
 • `Optional` **language\_code**: `string`
@@ -104,6 +113,7 @@ language code in a POST array
 
 ___
 
+
 ### location\_code
 
 • `Optional` **location\_code**: `number`
@@ -113,3 +123,7 @@ location code in a POST array
 #### Defined in
 
 [main.ts:194009](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L194009)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

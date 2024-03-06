@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / GoogleShoppingSponsoredCarouselMerchantSerpElementItem
 
 # Class: GoogleShoppingSponsoredCarouselMerchantSerpElementItem
@@ -5,7 +9,7 @@
 ## Hierarchy
 
 - [`BaseMerchantSerpElementItem`](BaseMerchantSerpElementItem.md)
-
+  
   ↳ **`GoogleShoppingSponsoredCarouselMerchantSerpElementItem`**
 
 ## Implements
@@ -78,6 +82,7 @@
 
 ___
 
+
 ### items
 
 • `Optional` **items**: [`GoogleShoppingSponsoredCarouselElement`](GoogleShoppingSponsoredCarouselElement.md)[]
@@ -93,6 +98,7 @@ items in SERP
 [main.ts:165201](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L165201)
 
 ___
+
 
 ### position
 
@@ -112,6 +118,7 @@ left, right
 
 ___
 
+
 ### rank\_absolute
 
 • `Optional` **rank\_absolute**: `number`
@@ -128,6 +135,7 @@ absolute position among all the elements found in Google Shopping SERP
 [main.ts:165191](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L165191)
 
 ___
+
 
 ### rank\_group
 
@@ -146,6 +154,7 @@ positions of elements with different type values are omitted from rank_group
 
 ___
 
+
 ### title
 
 • `Optional` **title**: `string`
@@ -161,6 +170,7 @@ product title
 [main.ts:165199](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L165199)
 
 ___
+
 
 ### xpath
 
@@ -202,6 +212,7 @@ XPath of the element
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -226,6 +237,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`GoogleShoppingSponsoredCarouselMerchantSerpElementItem`](GoogleShoppingSponsoredCarouselMerchantSerpElementItem.md)
@@ -247,3 +259,7 @@ ___
 #### Defined in
 
 [main.ts:165230](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L165230)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

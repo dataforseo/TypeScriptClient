@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / AppDataAppleAppInfoTaskGetAdvancedResponseInfo
 
 # Class: AppDataAppleAppInfoTaskGetAdvancedResponseInfo
@@ -5,7 +9,7 @@
 ## Hierarchy
 
 - [`BaseResponseInfo`](BaseResponseInfo.md)
-
+  
   ↳ **`AppDataAppleAppInfoTaskGetAdvancedResponseInfo`**
 
 ## Implements
@@ -85,6 +89,7 @@ total tasks cost, USD
 
 ___
 
+
 ### status\_code
 
 • `Optional` **status\_code**: `number`
@@ -105,6 +110,7 @@ you can find the full list of the response codes here
 [main.ts:22503](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L22503)
 
 ___
+
 
 ### status\_message
 
@@ -127,6 +133,7 @@ you can find the full list of general informational messages here
 
 ___
 
+
 ### tasks
 
 • `Optional` **tasks**: [`AppDataAppleAppInfoTaskGetAdvancedTaskInfo`](AppDataAppleAppInfoTaskGetAdvancedTaskInfo.md)[]
@@ -142,6 +149,7 @@ array of tasks
 [main.ts:184823](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L184823)
 
 ___
+
 
 ### tasks\_count
 
@@ -163,6 +171,7 @@ the number of tasks in the tasks array
 
 ___
 
+
 ### tasks\_error
 
 • `Optional` **tasks\_error**: `number`
@@ -183,6 +192,7 @@ the number of tasks in the tasks array returned with an error
 
 ___
 
+
 ### time
 
 • `Optional` **time**: `string`
@@ -202,6 +212,7 @@ total execution time, seconds
 [main.ts:22508](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L22508)
 
 ___
+
 
 ### version
 
@@ -247,6 +258,7 @@ the current version of the API
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -271,6 +283,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`AppDataAppleAppInfoTaskGetAdvancedResponseInfo`](AppDataAppleAppInfoTaskGetAdvancedResponseInfo.md)
@@ -292,3 +305,7 @@ ___
 #### Defined in
 
 [main.ts:184846](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L184846)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

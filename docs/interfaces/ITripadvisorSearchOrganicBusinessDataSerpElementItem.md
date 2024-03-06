@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / ITripadvisorSearchOrganicBusinessDataSerpElementItem
 
 # Interface: ITripadvisorSearchOrganicBusinessDataSerpElementItem
@@ -5,7 +9,7 @@
 ## Hierarchy
 
 - [`IBaseBusinessDataSerpElementItem`](IBaseBusinessDataSerpElementItem.md)
-
+  
   ↳ **`ITripadvisorSearchOrganicBusinessDataSerpElementItem`**
 
 ## Implemented by
@@ -44,6 +48,7 @@ place category
 
 ___
 
+
 ### is\_sponsored
 
 • `Optional` **is\_sponsored**: `boolean`
@@ -57,6 +62,7 @@ if true, related tripadvisor_search_organic item is a paid advertising on Tripad
 
 ___
 
+
 ### price\_rate
 
 • `Optional` **price\_rate**: `string`
@@ -68,6 +74,7 @@ average price rate
 [main.ts:201465](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L201465)
 
 ___
+
 
 ### rank\_absolute
 
@@ -82,6 +89,7 @@ absolute position among all reviews on the list
 
 ___
 
+
 ### rank\_group
 
 • `Optional` **rank\_group**: `number`
@@ -95,6 +103,7 @@ positions of elements with different type values are omitted from rank_group
 
 ___
 
+
 ### rating
 
 • `Optional` **rating**: [`RatingInfo`](../classes/RatingInfo.md)
@@ -106,6 +115,7 @@ the rating score of the establishment submitted by the reviewers
 [main.ts:201467](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L201467)
 
 ___
+
 
 ### reviews\_count
 
@@ -119,6 +129,7 @@ the total number of reviews
 
 ___
 
+
 ### title
 
 • `Optional` **title**: `string`
@@ -131,6 +142,7 @@ name of the business entity
 
 ___
 
+
 ### url\_path
 
 • `Optional` **url\_path**: `string`
@@ -142,3 +154,7 @@ you can use this identifier to collect reviews for the business entity using Tri
 #### Defined in
 
 [main.ts:201456](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L201456)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

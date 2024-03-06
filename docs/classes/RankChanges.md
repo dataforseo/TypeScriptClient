@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / RankChanges
 
 # Class: RankChanges
@@ -68,6 +72,7 @@ if the value is true, position of the element in SERP is lower compared to the p
 
 ___
 
+
 ### is\_new
 
 • `Optional` **is\_new**: `boolean`
@@ -85,6 +90,7 @@ if the value is true, previously collected SERP didn’t contain this element
 
 ___
 
+
 ### is\_up
 
 • `Optional` **is\_up**: `boolean`
@@ -101,6 +107,7 @@ if the value is true, position of the element in SERP is higher compared to the 
 [main.ts:86490](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L86490)
 
 ___
+
 
 ### previous\_rank\_absolute
 
@@ -140,6 +147,7 @@ if this element is new, the value will be null
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -160,6 +168,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`RankChanges`](RankChanges.md)
@@ -177,3 +186,7 @@ ___
 #### Defined in
 
 [main.ts:86519](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L86519)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

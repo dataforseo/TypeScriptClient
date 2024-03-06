@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IDataforseoLabsAmazonProductCompetitorsLiveItem
 
 # Interface: IDataforseoLabsAmazonProductCompetitorsLiveItem
@@ -38,6 +42,7 @@ for more information, refer to this help center guide
 
 ___
 
+
 ### avg\_position
 
 • `Optional` **avg\_position**: `number`
@@ -51,6 +56,7 @@ the value for a given product may differ when combined with different target pro
 [main.ts:101294](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L101294)
 
 ___
+
 
 ### competitor\_metrics
 
@@ -66,6 +72,7 @@ Note: in this object ranking data is provided for the returned competitor’s as
 
 ___
 
+
 ### full\_metrics
 
 • `Optional` **full\_metrics**: [`AmazonMetricsBundleInfo`](../classes/AmazonMetricsBundleInfo.md)
@@ -79,6 +86,7 @@ full overview of ranking data relevant to all keywords that the provided asin is
 
 ___
 
+
 ### intersections
 
 • `Optional` **intersections**: `number`
@@ -90,6 +98,7 @@ number of intersecting keywords
 [main.ts:101300](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L101300)
 
 ___
+
 
 ### se\_type
 
@@ -103,6 +112,7 @@ search engine type
 
 ___
 
+
 ### sum\_position
 
 • `Optional` **sum\_position**: `number`
@@ -114,3 +124,7 @@ the value for a given product may differ when combined with different target pro
 #### Defined in
 
 [main.ts:101298](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L101298)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

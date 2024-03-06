@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IDomainAnalyticsWhoisAvailableFiltersTaskInfo
 
 # Interface: IDomainAnalyticsWhoisAvailableFiltersTaskInfo
@@ -5,7 +9,7 @@
 ## Hierarchy
 
 - [`IBaseResponseTaskInfo`](IBaseResponseTaskInfo.md)
-
+  
   ↳ **`IDomainAnalyticsWhoisAvailableFiltersTaskInfo`**
 
 ## Implemented by
@@ -48,6 +52,7 @@ total tasks cost, USD
 
 ___
 
+
 ### data
 
 • `Optional` **data**: `Object`
@@ -68,6 +73,7 @@ contains the same parameters that you specified in the POST request
 
 ___
 
+
 ### id
 
 • `Optional` **id**: `string`
@@ -85,6 +91,7 @@ unique task identifier in our system in the UUID format
 
 ___
 
+
 ### path
 
 • `Optional` **path**: `string`[]
@@ -101,6 +108,7 @@ URL path
 
 ___
 
+
 ### result
 
 • `Optional` **result**: [`DomainAnalyticsWhoisAvailableFiltersResultInfo`](../classes/DomainAnalyticsWhoisAvailableFiltersResultInfo.md)[]
@@ -110,6 +118,7 @@ ___
 [main.ts:75516](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L75516)
 
 ___
+
 
 ### result\_count
 
@@ -126,6 +135,7 @@ number of elements in the result array
 [main.ts:22699](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L22699)
 
 ___
+
 
 ### status\_code
 
@@ -145,6 +155,7 @@ you can find the full list of the response codes here
 
 ___
 
+
 ### status\_message
 
 • `Optional` **status\_message**: `string`
@@ -162,6 +173,7 @@ you can find the full list of general informational messages here
 
 ___
 
+
 ### time
 
 • `Optional` **time**: `string`
@@ -175,3 +187,7 @@ execution time, seconds
 #### Defined in
 
 [main.ts:22695](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L22695)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

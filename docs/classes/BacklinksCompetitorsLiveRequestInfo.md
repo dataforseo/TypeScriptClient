@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / BacklinksCompetitorsLiveRequestInfo
 
 # Class: BacklinksCompetitorsLiveRequestInfo
@@ -74,6 +78,7 @@ default value: true
 
 ___
 
+
 ### filters
 
 • `Optional` **filters**: `any`[]
@@ -102,6 +107,7 @@ The full list of possible filters is available here.
 
 ___
 
+
 ### limit
 
 • `Optional` **limit**: `number`
@@ -120,6 +126,7 @@ maximum value: 1000
 [main.ts:135935](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L135935)
 
 ___
+
 
 ### main\_domain
 
@@ -140,6 +147,7 @@ default value: true
 
 ___
 
+
 ### offset
 
 • `Optional` **offset**: `number`
@@ -158,6 +166,7 @@ if you specify the 10 value, the first ten domains in the results array will be 
 [main.ts:135940](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L135940)
 
 ___
+
 
 ### order\_by
 
@@ -187,6 +196,7 @@ example:
 
 ___
 
+
 ### tag
 
 • `Optional` **tag**: `string`
@@ -206,6 +216,7 @@ you will find the specified tag value in the data object of the response
 [main.ts:135984](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L135984)
 
 ___
+
 
 ### target
 
@@ -246,6 +257,7 @@ a page should be specified with absolute URL (including http:// or https://)
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -266,6 +278,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`BacklinksCompetitorsLiveRequestInfo`](BacklinksCompetitorsLiveRequestInfo.md)
@@ -283,3 +296,7 @@ ___
 #### Defined in
 
 [main.ts:136022](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L136022)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

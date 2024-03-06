@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / AmazonKeywordData
 
 # Class: AmazonKeywordData
@@ -68,6 +72,7 @@ related keyword
 
 ___
 
+
 ### keyword\_info
 
 • `Optional` **keyword\_info**: [`AmazonKeywordInfo`](AmazonKeywordInfo.md)
@@ -83,6 +88,7 @@ keyword info for the returned keyword
 [main.ts:21319](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L21319)
 
 ___
+
 
 ### language\_code
 
@@ -100,6 +106,7 @@ language code in a POST array
 
 ___
 
+
 ### location\_code
 
 • `Optional` **location\_code**: `number`
@@ -115,6 +122,7 @@ location code in a POST array
 [main.ts:21315](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L21315)
 
 ___
+
 
 ### se\_type
 
@@ -152,6 +160,7 @@ search engine type
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -172,6 +181,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`AmazonKeywordData`](AmazonKeywordData.md)
@@ -189,3 +199,7 @@ ___
 #### Defined in
 
 [main.ts:21346](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L21346)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

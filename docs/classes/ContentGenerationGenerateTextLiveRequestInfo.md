@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / ContentGenerationGenerateTextLiveRequestInfo
 
 # Class: ContentGenerationGenerateTextLiveRequestInfo
@@ -77,6 +81,7 @@ learn more about this parameter on our help center
 
 ___
 
+
 ### description
 
 • `Optional` **description**: `string`
@@ -96,6 +101,7 @@ learn more about this parameter on our help center
 
 ___
 
+
 ### include\_conclusion
 
 • `Optional` **include\_conclusion**: `boolean`
@@ -113,6 +119,7 @@ if set to true, generated content will include a logical conclusion
 [main.ts:160241](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L160241)
 
 ___
+
 
 ### meta\_keywords
 
@@ -134,6 +141,7 @@ example: "meta_keywords": ["iPhone","sell","CEO"]
 
 ___
 
+
 ### sub\_topics
 
 • `Optional` **sub\_topics**: `string`[]
@@ -153,6 +161,7 @@ example: "sub_topics": ["Apple","Pixar","Amazing Products"]
 [main.ts:160219](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L160219)
 
 ___
+
 
 ### supplement\_token
 
@@ -174,6 +183,7 @@ supplement_token values are unique for each subsequent task
 
 ___
 
+
 ### tag
 
 • `Optional` **tag**: `string`
@@ -194,6 +204,7 @@ you will find the specified tag value in the data object of the response
 
 ___
 
+
 ### topic
 
 • `Optional` **topic**: `string`
@@ -212,6 +223,7 @@ can contain from 1 to 50 tokens
 [main.ts:160208](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L160208)
 
 ___
+
 
 ### word\_count
 
@@ -252,6 +264,7 @@ can take values from 1 to 1000
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -272,6 +285,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`ContentGenerationGenerateTextLiveRequestInfo`](ContentGenerationGenerateTextLiveRequestInfo.md)
@@ -289,3 +303,7 @@ ___
 #### Defined in
 
 [main.ts:160292](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L160292)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / YoutubeSubtitlesSerpElementItem
 
 # Class: YoutubeSubtitlesSerpElementItem
@@ -5,7 +9,7 @@
 ## Hierarchy
 
 - [`BaseSerpElementItem`](BaseSerpElementItem.md)
-
+  
   ↳ **`YoutubeSubtitlesSerpElementItem`**
 
 ## Implements
@@ -78,6 +82,7 @@
 
 ___
 
+
 ### duration\_time
 
 • `Optional` **duration\_time**: `number`
@@ -93,6 +98,7 @@ duration of subtitles in seconds
 [main.ts:60233](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L60233)
 
 ___
+
 
 ### end\_time
 
@@ -110,6 +116,7 @@ the second subtitled text ends
 
 ___
 
+
 ### rank\_absolute
 
 • `Optional` **rank\_absolute**: `number`
@@ -126,6 +133,7 @@ absolute position among all the elements in SERP
 [main.ts:60225](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L60225)
 
 ___
+
 
 ### rank\_group
 
@@ -145,6 +153,7 @@ positions of elements with different type values are omitted from rank_group
 
 ___
 
+
 ### start\_time
 
 • `Optional` **start\_time**: `number`
@@ -160,6 +169,7 @@ the second subtitled text starts
 [main.ts:60229](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L60229)
 
 ___
+
 
 ### text
 
@@ -201,6 +211,7 @@ text translated in subtitles
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -225,6 +236,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`YoutubeSubtitlesSerpElementItem`](YoutubeSubtitlesSerpElementItem.md)
@@ -246,3 +258,7 @@ ___
 #### Defined in
 
 [main.ts:60258](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L60258)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

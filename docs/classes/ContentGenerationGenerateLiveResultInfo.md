@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / ContentGenerationGenerateLiveResultInfo
 
 # Class: ContentGenerationGenerateLiveResultInfo
@@ -68,6 +72,7 @@ resulting text
 
 ___
 
+
 ### input\_tokens
 
 • `Optional` **input\_tokens**: `number`
@@ -83,6 +88,7 @@ number of input tokens
 [main.ts:160017](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L160017)
 
 ___
+
 
 ### new\_tokens
 
@@ -100,6 +106,7 @@ number of new tokens
 
 ___
 
+
 ### output\_tokens
 
 • `Optional` **output\_tokens**: `number`
@@ -115,6 +122,7 @@ number of output tokens
 [main.ts:160019](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L160019)
 
 ___
+
 
 ### supplement\_token
 
@@ -154,6 +162,7 @@ supplement_token values are unique for each subsequent task
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -174,6 +183,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`ContentGenerationGenerateLiveResultInfo`](ContentGenerationGenerateLiveResultInfo.md)
@@ -191,3 +201,7 @@ ___
 #### Defined in
 
 [main.ts:160054](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L160054)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

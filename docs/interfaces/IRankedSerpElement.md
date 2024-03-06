@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IRankedSerpElement
 
 # Interface: IRankedSerpElement
@@ -39,6 +43,7 @@ you can use it to make sure that we provided accurate results
 
 ___
 
+
 ### is\_lost
 
 • `Optional` **is\_lost**: `boolean`
@@ -51,6 +56,7 @@ indicates how many ranked elements of this domain were previously presented in S
 [main.ts:87021](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L87021)
 
 ___
+
 
 ### keyword\_difficulty
 
@@ -67,6 +73,7 @@ learn more about the metric in this help center guide
 
 ___
 
+
 ### last\_updated\_time
 
 • `Optional` **last\_updated\_time**: `string`
@@ -81,6 +88,7 @@ example:
 [main.ts:87026](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L87026)
 
 ___
+
 
 ### previous\_updated\_time
 
@@ -97,6 +105,7 @@ example:
 
 ___
 
+
 ### se\_results\_count
 
 • `Optional` **se\_results\_count**: `string`
@@ -109,6 +118,7 @@ number of search results for the returned keyword
 
 ___
 
+
 ### se\_type
 
 • `Optional` **se\_type**: `string`
@@ -120,6 +130,7 @@ search engine type
 [main.ts:86999](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L86999)
 
 ___
+
 
 ### serp\_item
 
@@ -134,6 +145,7 @@ the list of supported SERP elements can be found below
 
 ___
 
+
 ### serp\_item\_types
 
 • `Optional` **serp\_item\_types**: `string`[]
@@ -147,3 +159,7 @@ note that the actual results will be returned only for organic, paid, featured_s
 #### Defined in
 
 [main.ts:87011](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L87011)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / Pages
 
 # Class: Pages
@@ -65,6 +69,7 @@ information about the page with duplicate content
 
 ___
 
+
 ### similarity
 
 • `Optional` **similarity**: `number`
@@ -103,6 +108,7 @@ can take values from 0 to 10
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -123,6 +129,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`Pages`](Pages.md)
@@ -140,3 +147,7 @@ ___
 #### Defined in
 
 [main.ts:147579](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L147579)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

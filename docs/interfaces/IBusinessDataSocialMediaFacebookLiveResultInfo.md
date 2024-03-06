@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IBusinessDataSocialMediaFacebookLiveResultInfo
 
 # Interface: IBusinessDataSocialMediaFacebookLiveResultInfo
@@ -33,6 +37,7 @@ this field shows the number of likes a page received through the Facebook Like B
 
 ___
 
+
 ### page\_url
 
 • `Optional` **page\_url**: `string`
@@ -46,6 +51,7 @@ corresponding URL you specified in the targets array when setting a task
 
 ___
 
+
 ### type
 
 • `Optional` **type**: `string`
@@ -55,3 +61,7 @@ type of element
 #### Defined in
 
 [main.ts:206019](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L206019)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

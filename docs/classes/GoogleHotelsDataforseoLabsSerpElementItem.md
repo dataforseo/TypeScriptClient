@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / GoogleHotelsDataforseoLabsSerpElementItem
 
 # Class: GoogleHotelsDataforseoLabsSerpElementItem
@@ -5,7 +9,7 @@
 ## Hierarchy
 
 - [`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md)
-
+  
   ↳ **`GoogleHotelsDataforseoLabsSerpElementItem`**
 
 ## Implements
@@ -78,6 +82,7 @@
 
 ___
 
+
 ### hotel\_identifier
 
 • `Optional` **hotel\_identifier**: `string`
@@ -95,6 +100,7 @@ example: "CgoIjaeSlI6CnNpVEAE"
 [main.ts:96119](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L96119)
 
 ___
+
 
 ### position
 
@@ -114,6 +120,7 @@ left, right
 
 ___
 
+
 ### rank\_absolute
 
 • `Optional` **rank\_absolute**: `number`
@@ -130,6 +137,7 @@ absolute position among all the elements in SERP
 [main.ts:96109](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L96109)
 
 ___
+
 
 ### rank\_group
 
@@ -148,6 +156,7 @@ positions of elements with different type values are omitted from rank_group
 
 ___
 
+
 ### url
 
 • `Optional` **url**: `string`
@@ -163,6 +172,7 @@ URL link
 [main.ts:96121](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L96121)
 
 ___
+
 
 ### xpath
 
@@ -204,6 +214,7 @@ the XPath of the element
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -228,6 +239,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`GoogleHotelsDataforseoLabsSerpElementItem`](GoogleHotelsDataforseoLabsSerpElementItem.md)
@@ -249,3 +261,7 @@ ___
 #### Defined in
 
 [main.ts:96146](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L96146)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

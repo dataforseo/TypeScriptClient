@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / KeywordsDataBingKeywordsForSiteLiveResultInfo
 
 # Class: KeywordsDataBingKeywordsForSiteLiveResultInfo
@@ -74,6 +78,7 @@ legacy field, the value will always be null
 
 ___
 
+
 ### competition
 
 • `Optional` **competition**: `number`
@@ -95,6 +100,7 @@ if there is no data the value is null
 
 ___
 
+
 ### cpc
 
 • `Optional` **cpc**: `number`
@@ -113,6 +119,7 @@ if there is no data, then the value is null
 
 ___
 
+
 ### device
 
 • `Optional` **device**: `string`
@@ -130,6 +137,7 @@ if there is no data, then the value is null
 
 ___
 
+
 ### keyword
 
 • `Optional` **keyword**: `string`
@@ -145,6 +153,7 @@ keyword in a POST array
 [main.ts:124707](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L124707)
 
 ___
+
 
 ### language\_code
 
@@ -162,6 +171,7 @@ language code in a POST array
 
 ___
 
+
 ### location\_code
 
 • `Optional` **location\_code**: `number`
@@ -177,6 +187,7 @@ location code in a POST array
 [main.ts:124709](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L124709)
 
 ___
+
 
 ### monthly\_searches
 
@@ -196,6 +207,7 @@ if there is no data, then the value is null
 
 ___
 
+
 ### search\_partners
 
 • `Optional` **search\_partners**: `boolean`
@@ -211,6 +223,7 @@ indicates whether data from partner networks included in the response
 [main.ts:124713](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L124713)
 
 ___
+
 
 ### search\_volume
 
@@ -249,6 +262,7 @@ represents the (approximate) number of searches for the keyword on the Bing sear
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -269,6 +283,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`KeywordsDataBingKeywordsForSiteLiveResultInfo`](KeywordsDataBingKeywordsForSiteLiveResultInfo.md)
@@ -286,3 +301,7 @@ ___
 #### Defined in
 
 [main.ts:124777](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L124777)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

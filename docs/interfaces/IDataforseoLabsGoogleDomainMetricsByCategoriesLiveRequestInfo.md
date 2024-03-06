@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IDataforseoLabsGoogleDomainMetricsByCategoriesLiveRequestInfo
 
 # Interface: IDataforseoLabsGoogleDomainMetricsByCategoriesLiveRequestInfo
@@ -50,6 +54,7 @@ you can download the full list of possible categories
 
 ___
 
+
 ### correlate
 
 • `Optional` **correlate**: `boolean`
@@ -67,6 +72,7 @@ Note: we do not recommend setting correlate to false
 
 ___
 
+
 ### etv\_max
 
 • `Optional` **etv\_max**: `number`
@@ -81,6 +87,7 @@ if specified, the API will return only domains with organic_etv lesser than the 
 
 ___
 
+
 ### etv\_min
 
 • `Optional` **etv\_min**: `number`
@@ -94,6 +101,7 @@ if specified, the API will return only domains with organic_etv greater than the
 [main.ts:84564](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L84564)
 
 ___
+
 
 ### filters
 
@@ -116,6 +124,7 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 ___
 
+
 ### first\_date
 
 • `Optional` **first\_date**: `string`
@@ -137,6 +146,7 @@ minimum date: "2020-10-01"
 
 ___
 
+
 ### include\_subdomains
 
 • `Optional` **include\_subdomains**: `boolean`
@@ -152,6 +162,7 @@ default value: true
 [main.ts:84560](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L84560)
 
 ___
+
 
 ### item\_types
 
@@ -172,6 +183,7 @@ default value:
 
 ___
 
+
 ### language\_code
 
 • `Optional` **language\_code**: `string`
@@ -188,6 +200,7 @@ en
 [main.ts:84537](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L84537)
 
 ___
+
 
 ### language\_name
 
@@ -207,6 +220,7 @@ English
 
 ___
 
+
 ### limit
 
 • `Optional` **limit**: `number`
@@ -221,6 +235,7 @@ maximum value: 1000
 [main.ts:84580](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L84580)
 
 ___
+
 
 ### location\_code
 
@@ -240,6 +255,7 @@ example:
 
 ___
 
+
 ### location\_name
 
 • `Optional` **location\_name**: `string`
@@ -258,6 +274,7 @@ United Kingdom
 
 ___
 
+
 ### offset
 
 • `Optional` **offset**: `number`
@@ -272,6 +289,7 @@ if you specify the 10 value, the first ten domains in the results array will be 
 [main.ts:84585](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L84585)
 
 ___
+
 
 ### order\_by
 
@@ -298,6 +316,7 @@ example:
 
 ___
 
+
 ### second\_date
 
 • `Optional` **second\_date**: `string`
@@ -319,6 +338,7 @@ minimum date: "2020-10-01"
 
 ___
 
+
 ### tag
 
 • `Optional` **tag**: `string`
@@ -335,6 +355,7 @@ you will find the specified tag value in the data object of the response
 
 ___
 
+
 ### top\_categories\_count
 
 • `Optional` **top\_categories\_count**: `number`
@@ -350,3 +371,7 @@ maximum value: 5
 #### Defined in
 
 [main.ts:84554](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L84554)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

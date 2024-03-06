@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IBusinessDataGoogleMyBusinessInfoTaskGetResultInfo
 
 # Interface: IBusinessDataGoogleMyBusinessInfoTaskGetResultInfo
@@ -39,6 +43,7 @@ you can use it to make sure that we provided accurate results
 
 ___
 
+
 ### datetime
 
 • `Optional` **datetime**: `string`
@@ -54,6 +59,7 @@ example:
 
 ___
 
+
 ### item\_types
 
 • `Optional` **item\_types**: `string`[]
@@ -68,6 +74,7 @@ possible item types: google_business_info
 
 ___
 
+
 ### items
 
 • `Optional` **items**: [`BaseBusinessDataSerpElementItem`](../classes/BaseBusinessDataSerpElementItem.md)[]
@@ -79,6 +86,7 @@ array of directory items
 [main.ts:191883](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L191883)
 
 ___
+
 
 ### items\_count
 
@@ -92,6 +100,7 @@ the number of items in the items array
 [main.ts:191881](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L191881)
 
 ___
+
 
 ### keyword
 
@@ -110,6 +119,7 @@ learn more about the parameter in this help center article
 
 ___
 
+
 ### language\_code
 
 • `Optional` **language\_code**: `string`
@@ -121,6 +131,7 @@ language code in a POST array
 [main.ts:191866](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L191866)
 
 ___
+
 
 ### location\_code
 
@@ -134,6 +145,7 @@ location code in a POST array
 
 ___
 
+
 ### se\_domain
 
 • `Optional` **se\_domain**: `string`
@@ -143,3 +155,7 @@ search engine domain as specified in a POST array
 #### Defined in
 
 [main.ts:191862](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L191862)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

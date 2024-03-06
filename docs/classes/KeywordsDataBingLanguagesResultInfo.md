@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / KeywordsDataBingLanguagesResultInfo
 
 # Class: KeywordsDataBingLanguagesResultInfo
@@ -65,6 +69,7 @@ language code according to ISO 639-1
 
 ___
 
+
 ### language\_name
 
 • `Optional` **language\_name**: `string`
@@ -101,6 +106,7 @@ language name
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -121,6 +127,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`KeywordsDataBingLanguagesResultInfo`](KeywordsDataBingLanguagesResultInfo.md)
@@ -138,3 +145,7 @@ ___
 #### Defined in
 
 [main.ts:122147](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L122147)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

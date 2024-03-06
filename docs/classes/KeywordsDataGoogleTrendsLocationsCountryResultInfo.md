@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / KeywordsDataGoogleTrendsLocationsCountryResultInfo
 
 # Class: KeywordsDataGoogleTrendsLocationsCountryResultInfo
@@ -70,6 +74,7 @@ ISO country code of the location
 
 ___
 
+
 ### geo\_id
 
 • `Optional` **geo\_id**: `string`
@@ -86,6 +91,7 @@ you can use this field for matching obtained results with the location_code para
 [main.ts:119241](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L119241)
 
 ___
+
 
 ### geo\_name
 
@@ -104,6 +110,7 @@ you can use this field for matching obtained results with the location_name para
 
 ___
 
+
 ### location\_code
 
 • `Optional` **location\_code**: `number`
@@ -119,6 +126,7 @@ location code
 [main.ts:119219](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L119219)
 
 ___
+
 
 ### location\_code\_parent
 
@@ -143,6 +151,7 @@ where location_code_parent corresponds to:
 
 ___
 
+
 ### location\_name
 
 • `Optional` **location\_name**: `string`
@@ -158,6 +167,7 @@ full name of the location
 [main.ts:119221](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L119221)
 
 ___
+
 
 ### location\_type
 
@@ -196,6 +206,7 @@ possible values according to Google’s target types
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -216,6 +227,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`KeywordsDataGoogleTrendsLocationsCountryResultInfo`](KeywordsDataGoogleTrendsLocationsCountryResultInfo.md)
@@ -233,3 +245,7 @@ ___
 #### Defined in
 
 [main.ts:119270](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L119270)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

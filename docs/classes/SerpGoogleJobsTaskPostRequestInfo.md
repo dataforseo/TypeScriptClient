@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / SerpGoogleJobsTaskPostRequestInfo
 
 # Class: SerpGoogleJobsTaskPostRequestInfo
@@ -84,6 +88,7 @@ month — return job vacancies posted no longer than a month ago
 
 ___
 
+
 ### depth
 
 • `Optional` **depth**: `number`
@@ -107,6 +112,7 @@ if the specified depth is higher than the number of results in the response, the
 
 ___
 
+
 ### employment\_type
 
 • `Optional` **employment\_type**: `string`[]
@@ -126,6 +132,7 @@ fulltime, partime, contractor, intern
 [main.ts:48349](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L48349)
 
 ___
+
 
 ### keyword
 
@@ -150,6 +157,7 @@ example: .net developer
 
 ___
 
+
 ### language\_code
 
 • `Optional` **language\_code**: `string`
@@ -170,6 +178,7 @@ en
 [main.ts:48334](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L48334)
 
 ___
+
 
 ### language\_name
 
@@ -192,6 +201,7 @@ English
 
 ___
 
+
 ### location\_code
 
 • `Optional` **location\_code**: `number`
@@ -211,6 +221,7 @@ example:
 [main.ts:48312](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L48312)
 
 ___
+
 
 ### location\_name
 
@@ -233,6 +244,7 @@ London,England,United Kingdom
 
 ___
 
+
 ### location\_radius
 
 • `Optional` **location\_radius**: `number`
@@ -254,6 +266,7 @@ minimal value: > 0
 [main.ts:48320](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L48320)
 
 ___
+
 
 ### pingback\_url
 
@@ -279,6 +292,7 @@ i.a., the # symbol will be encoded into %23
 
 ___
 
+
 ### postback\_data
 
 • `Optional` **postback\_data**: `string`
@@ -298,6 +312,7 @@ regular, advanced, html
 [main.ts:48380](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L48380)
 
 ___
+
 
 ### postback\_url
 
@@ -323,6 +338,7 @@ i.a., the # symbol will be encoded into %23
 
 ___
 
+
 ### priority
 
 • `Optional` **priority**: `number`
@@ -344,6 +360,7 @@ The cost can be calculated on the Pricing page
 [main.ts:48299](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L48299)
 
 ___
+
 
 ### tag
 
@@ -385,6 +402,7 @@ you will find the specified tag value in the data object of the response
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -405,6 +423,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`SerpGoogleJobsTaskPostRequestInfo`](SerpGoogleJobsTaskPostRequestInfo.md)
@@ -422,3 +441,7 @@ ___
 #### Defined in
 
 [main.ts:48430](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L48430)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

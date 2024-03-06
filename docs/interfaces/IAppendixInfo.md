@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IAppendixInfo
 
 # Interface: IAppendixInfo
@@ -31,6 +35,7 @@
 
 ___
 
+
 ### task\_get
 
 • `Optional` **task\_get**: `number`
@@ -40,6 +45,7 @@ ___
 [main.ts:206721](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L206721)
 
 ___
+
 
 ### task\_post
 
@@ -51,6 +57,7 @@ ___
 
 ___
 
+
 ### tasks\_ready
 
 • `Optional` **tasks\_ready**: `number`
@@ -58,3 +65,7 @@ ___
 #### Defined in
 
 [main.ts:206722](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L206722)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

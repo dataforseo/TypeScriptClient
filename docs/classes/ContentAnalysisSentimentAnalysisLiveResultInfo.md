@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / ContentAnalysisSentimentAnalysisLiveResultInfo
 
 # Class: ContentAnalysisSentimentAnalysisLiveResultInfo
@@ -68,6 +72,7 @@ possible sentiment connotation types: positive, negative, neutral
 
 ___
 
+
 ### sentiment\_connotation\_distribution
 
 • `Optional` **sentiment\_connotation\_distribution**: [`SentimentConnotationDistribution`](SentimentConnotationDistribution.md)
@@ -85,6 +90,7 @@ possible sentiment connotation types: anger, happiness, love, sadness, share, fu
 [main.ts:157981](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L157981)
 
 ___
+
 
 ### type
 
@@ -122,6 +128,7 @@ type of element
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -142,6 +149,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`ContentAnalysisSentimentAnalysisLiveResultInfo`](ContentAnalysisSentimentAnalysisLiveResultInfo.md)
@@ -159,3 +167,7 @@ ___
 #### Defined in
 
 [main.ts:158006](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L158006)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

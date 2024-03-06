@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / OnPageWaterfallResultInfo
 
 # Class: OnPageWaterfallResultInfo
@@ -68,6 +72,7 @@ possible values: in_progress, finished
 
 ___
 
+
 ### crawl\_status
 
 • `Optional` **crawl\_status**: [`CrawlStatusInfo`](CrawlStatusInfo.md)
@@ -84,6 +89,7 @@ details of the crawling session
 
 ___
 
+
 ### items
 
 • `Optional` **items**: [`OnPageWaterfallItem`](OnPageWaterfallItem.md)[]
@@ -99,6 +105,7 @@ items array
 [main.ts:149860](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L149860)
 
 ___
+
 
 ### items\_count
 
@@ -136,6 +143,7 @@ number of items in the results array
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -156,6 +164,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`OnPageWaterfallResultInfo`](OnPageWaterfallResultInfo.md)
@@ -173,3 +182,7 @@ ___
 #### Defined in
 
 [main.ts:149890](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L149890)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

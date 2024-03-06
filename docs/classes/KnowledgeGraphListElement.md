@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / KnowledgeGraphListElement
 
 # Class: KnowledgeGraphListElement
@@ -70,6 +74,7 @@ domain in SERP
 
 ___
 
+
 ### image\_url
 
 • `Optional` **image\_url**: `string`
@@ -87,6 +92,7 @@ the URL leading to the image on the original resource or DataForSEO storage (in 
 
 ___
 
+
 ### subtitle
 
 • `Optional` **subtitle**: `string`
@@ -102,6 +108,7 @@ subtitle of the item
 [main.ts:26118](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L26118)
 
 ___
+
 
 ### title
 
@@ -119,6 +126,7 @@ link anchor text
 
 ___
 
+
 ### type
 
 • `Optional` **type**: `string`
@@ -135,6 +143,7 @@ type of element
 
 ___
 
+
 ### url
 
 • `Optional` **url**: `string`
@@ -150,6 +159,7 @@ sitelink URL
 [main.ts:26120](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L26120)
 
 ___
+
 
 ### xpath
 
@@ -187,6 +197,7 @@ the XPath of the element
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -207,6 +218,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`KnowledgeGraphListElement`](KnowledgeGraphListElement.md)
@@ -224,3 +236,7 @@ ___
 #### Defined in
 
 [main.ts:26156](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L26156)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

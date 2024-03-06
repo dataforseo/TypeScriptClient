@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IYoutubeCommentSerpElementItem
 
 # Interface: IYoutubeCommentSerpElementItem
@@ -5,7 +9,7 @@
 ## Hierarchy
 
 - [`IBaseSerpElementItem`](IBaseSerpElementItem.md)
-
+  
   ↳ **`IYoutubeCommentSerpElementItem`**
 
 ## Implemented by
@@ -45,6 +49,7 @@ name of the author of the comment
 
 ___
 
+
 ### author\_thumbnail
 
 • `Optional` **author\_thumbnail**: `string`
@@ -56,6 +61,7 @@ the URL of the page where the author’s channel logo is hosted
 [main.ts:61918](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L61918)
 
 ___
+
 
 ### author\_url
 
@@ -69,6 +75,7 @@ URL of the author’s channel
 
 ___
 
+
 ### likes\_count
 
 • `Optional` **likes\_count**: `number`
@@ -80,6 +87,7 @@ number of likes on the comment
 [main.ts:61931](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L61931)
 
 ___
+
 
 ### publication\_date
 
@@ -93,6 +101,7 @@ displayed publication date
 
 ___
 
+
 ### rank\_absolute
 
 • `Optional` **rank\_absolute**: `number`
@@ -105,6 +114,7 @@ absolute position among all the elements in SERP
 [main.ts:61914](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L61914)
 
 ___
+
 
 ### rank\_group
 
@@ -120,6 +130,7 @@ positions of elements with different type values are omitted from rank_group
 
 ___
 
+
 ### reply\_count
 
 • `Optional` **reply\_count**: `number`
@@ -131,6 +142,7 @@ number of replies on the comment
 [main.ts:61933](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L61933)
 
 ___
+
 
 ### text
 
@@ -144,6 +156,7 @@ text of the comment
 
 ___
 
+
 ### timestamp
 
 • `Optional` **timestamp**: `string`
@@ -156,3 +169,7 @@ example:
 #### Defined in
 
 [main.ts:61929](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L61929)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IContentGenerationGenerateTextLiveResultInfo
 
 # Interface: IContentGenerationGenerateTextLiveResultInfo
@@ -34,6 +38,7 @@ resulting text
 
 ___
 
+
 ### input\_tokens
 
 • `Optional` **input\_tokens**: `number`
@@ -45,6 +50,7 @@ number of input tokens
 [main.ts:160444](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L160444)
 
 ___
+
 
 ### new\_tokens
 
@@ -58,6 +64,7 @@ number of new tokens
 
 ___
 
+
 ### output\_tokens
 
 • `Optional` **output\_tokens**: `number`
@@ -70,6 +77,7 @@ number of output tokens
 
 ___
 
+
 ### supplement\_token
 
 • `Optional` **supplement\_token**: `string`
@@ -81,3 +89,7 @@ supplement_token values are unique for each subsequent task
 #### Defined in
 
 [main.ts:160454](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L160454)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

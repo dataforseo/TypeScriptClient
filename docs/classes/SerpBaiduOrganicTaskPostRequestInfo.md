@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / SerpBaiduOrganicTaskPostRequestInfo
 
 # Class: SerpBaiduOrganicTaskPostRequestInfo
@@ -86,6 +90,7 @@ if the specified depth is higher than the number of results in the response, the
 
 ___
 
+
 ### device
 
 • `Optional` **device**: `string`
@@ -104,6 +109,7 @@ default value: desktop
 [main.ts:65818](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L65818)
 
 ___
+
 
 ### get\_website\_url
 
@@ -127,6 +133,7 @@ Note: if set to true, the charge per task will be multiplied by 10 as our system
 
 ___
 
+
 ### keyword
 
 • `Optional` **keyword**: `string`
@@ -148,6 +155,7 @@ if you need to use the “+” symbol for your keyword, please specify it as “
 
 ___
 
+
 ### language\_code
 
 • `Optional` **language\_code**: `string`
@@ -167,6 +175,7 @@ zh_CN
 [main.ts:65789](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L65789)
 
 ___
+
 
 ### language\_name
 
@@ -188,6 +197,7 @@ Chinese (Simplified)
 
 ___
 
+
 ### location\_code
 
 • `Optional` **location\_code**: `number`
@@ -208,6 +218,7 @@ example:
 [main.ts:65803](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L65803)
 
 ___
+
 
 ### location\_coordinate
 
@@ -233,6 +244,7 @@ example:
 
 ___
 
+
 ### location\_name
 
 • `Optional` **location\_name**: `string`
@@ -254,6 +266,7 @@ New York,New York,United States
 
 ___
 
+
 ### max\_crawl\_pages
 
 • `Optional` **max\_crawl\_pages**: `number`
@@ -274,6 +287,7 @@ learn more at our help center
 [main.ts:65777](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L65777)
 
 ___
+
 
 ### os
 
@@ -297,6 +311,7 @@ default value: android
 [main.ts:65827](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L65827)
 
 ___
+
 
 ### pingback\_url
 
@@ -322,6 +337,7 @@ i.a., the # symbol will be encoded into %23
 
 ___
 
+
 ### postback\_data
 
 • `Optional` **postback\_data**: `string`
@@ -341,6 +357,7 @@ regular, html
 [main.ts:65857](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L65857)
 
 ___
+
 
 ### postback\_url
 
@@ -366,6 +383,7 @@ i.a., the # symbol will be encoded into %23
 
 ___
 
+
 ### priority
 
 • `Optional` **priority**: `number`
@@ -387,6 +405,7 @@ The cost can be calculated on the Pricing page.
 [main.ts:65761](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L65761)
 
 ___
+
 
 ### tag
 
@@ -428,6 +447,7 @@ you will find the specified tag value in the data object of the response
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -448,6 +468,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`SerpBaiduOrganicTaskPostRequestInfo`](SerpBaiduOrganicTaskPostRequestInfo.md)
@@ -465,3 +486,7 @@ ___
 #### Defined in
 
 [main.ts:65905](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L65905)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / SerpGoogleJobsTasksReadyResultInfo
 
 # Class: SerpGoogleJobsTasksReadyResultInfo
@@ -71,6 +75,7 @@ date when the task was posted (in the UTC format)
 
 ___
 
+
 ### endpoint\_advanced
 
 • `Optional` **endpoint\_advanced**: `string`
@@ -87,6 +92,7 @@ if SERP Advanced is not supported in the specified endpoint, the value will be n
 [main.ts:48700](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L48700)
 
 ___
+
 
 ### endpoint\_html
 
@@ -105,6 +111,7 @@ if SERP HTML is not supported in the specified endpoint, the value will be null
 
 ___
 
+
 ### endpoint\_regular
 
 • `Optional` **endpoint\_regular**: `string`
@@ -121,6 +128,7 @@ if SERP Regular is not supported in the specified endpoint, the value will be nu
 [main.ts:48697](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L48697)
 
 ___
+
 
 ### id
 
@@ -139,6 +147,7 @@ unique task identifier in our system in the UUID format
 
 ___
 
+
 ### se
 
 • `Optional` **se**: `string`
@@ -154,6 +163,7 @@ search engine specified when setting the task
 [main.ts:48687](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L48687)
 
 ___
+
 
 ### se\_type
 
@@ -171,6 +181,7 @@ can take the following values: jobs
 [main.ts:48690](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L48690)
 
 ___
+
 
 ### tag
 
@@ -208,6 +219,7 @@ user-defined task identifier
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -228,6 +240,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`SerpGoogleJobsTasksReadyResultInfo`](SerpGoogleJobsTasksReadyResultInfo.md)
@@ -245,3 +258,7 @@ ___
 #### Defined in
 
 [main.ts:48733](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L48733)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / PeopleAlsoSearchSerpElementItem
 
 # Class: PeopleAlsoSearchSerpElementItem
@@ -5,7 +9,7 @@
 ## Hierarchy
 
 - [`BaseSerpElementItem`](BaseSerpElementItem.md)
-
+  
   ↳ **`PeopleAlsoSearchSerpElementItem`**
 
 ## Implements
@@ -79,6 +83,7 @@
 
 ___
 
+
 ### items
 
 • `Optional` **items**: `string`[]
@@ -94,6 +99,7 @@ contains results featured in the ‘hotels_pack’ element of SERP
 [main.ts:28689](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L28689)
 
 ___
+
 
 ### position
 
@@ -113,6 +119,7 @@ left, right
 
 ___
 
+
 ### rank\_absolute
 
 • `Optional` **rank\_absolute**: `number`
@@ -129,6 +136,7 @@ absolute position among all the elements in SERP
 [main.ts:28679](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L28679)
 
 ___
+
 
 ### rank\_group
 
@@ -148,6 +156,7 @@ positions of elements with different type values are omitted from rank_group
 
 ___
 
+
 ### rectangle
 
 • `Optional` **rectangle**: [`Rectangle`](Rectangle.md)
@@ -166,6 +175,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 ___
 
+
 ### title
 
 • `Optional` **title**: `string`
@@ -181,6 +191,7 @@ title of a given link element
 [main.ts:28687](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L28687)
 
 ___
+
 
 ### xpath
 
@@ -222,6 +233,7 @@ the XPath of the element
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -246,6 +258,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`PeopleAlsoSearchSerpElementItem`](PeopleAlsoSearchSerpElementItem.md)
@@ -267,3 +280,7 @@ ___
 #### Defined in
 
 [main.ts:28723](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L28723)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

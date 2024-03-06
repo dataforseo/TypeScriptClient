@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IDataforseoLabsGoogleSearchIntentLiveResultInfo
 
 # Interface: IDataforseoLabsGoogleSearchIntentLiveResultInfo
@@ -32,6 +36,7 @@ array of items with relevant traffic estimation data
 
 ___
 
+
 ### items\_count
 
 • `Optional` **items\_count**: `number`
@@ -44,6 +49,7 @@ the number of results returned in the items array
 
 ___
 
+
 ### language\_code
 
 • `Optional` **language\_code**: `string`
@@ -54,3 +60,7 @@ if there is no data, then the value is null
 #### Defined in
 
 [main.ts:82985](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L82985)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

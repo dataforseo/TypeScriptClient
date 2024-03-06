@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / ContentAnalysisSummaryInfo
 
 # Class: ContentAnalysisSummaryInfo
@@ -80,6 +84,7 @@ possible sentiment connotation types: positive, negative, neutral
 
 ___
 
+
 ### countries
 
 • `Optional` **countries**: `Object`
@@ -101,6 +106,7 @@ to obtain a full list of available countries, refer to the Locations endpoint
 [main.ts:157308](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L157308)
 
 ___
+
 
 ### languages
 
@@ -124,6 +130,7 @@ to obtain a full list of available languages, refer to the Languages endpoint
 
 ___
 
+
 ### page\_categories
 
 • `Optional` **page\_categories**: [`ContentAnalysisCategoriesInfo`](ContentAnalysisCategoriesInfo.md)[]
@@ -141,6 +148,7 @@ to obtain a full list of available categories, refer to the Categories endpoint
 [main.ts:157301](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L157301)
 
 ___
+
 
 ### page\_types
 
@@ -163,6 +171,7 @@ contains page types and citation count per each page type
 
 ___
 
+
 ### rank
 
 • `Optional` **rank**: `number`
@@ -179,6 +188,7 @@ normalized sum of ranks of all URLs citing the target keyword
 [main.ts:157282](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L157282)
 
 ___
+
 
 ### sentiment\_connotations
 
@@ -202,6 +212,7 @@ possible sentiment connotations: anger, happiness, love, sadness, share, fun
 
 ___
 
+
 ### text\_categories
 
 • `Optional` **text\_categories**: [`ContentAnalysisCategoriesInfo`](ContentAnalysisCategoriesInfo.md)[]
@@ -220,6 +231,7 @@ to obtain a full list of available categories, refer to the Categories endpoint
 
 ___
 
+
 ### top\_domains
 
 • `Optional` **top\_domains**: [`TopDomainInfo`](TopDomainInfo.md)[]
@@ -237,6 +249,7 @@ contains objects with top domains citing the target keword and citation count pe
 
 ___
 
+
 ### total\_count
 
 • `Optional` **total\_count**: `number`
@@ -252,6 +265,7 @@ total amount of results in our database relevant to your request
 [main.ts:157279](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L157279)
 
 ___
+
 
 ### type
 
@@ -289,6 +303,7 @@ type of element
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -309,6 +324,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`ContentAnalysisSummaryInfo`](ContentAnalysisSummaryInfo.md)
@@ -326,3 +342,7 @@ ___
 #### Defined in
 
 [main.ts:157387](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L157387)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

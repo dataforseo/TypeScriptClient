@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / DataforseoLabsAmazonProductRankOverviewLiveItem
 
 # Class: DataforseoLabsAmazonProductRankOverviewLiveItem
@@ -68,6 +72,7 @@ for more information, refer to this help center guide
 
 ___
 
+
 ### metrics
 
 • `Optional` **metrics**: [`AmazonMetricsBundleInfo`](AmazonMetricsBundleInfo.md)
@@ -83,6 +88,7 @@ average keyword position of the product
 [main.ts:100712](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L100712)
 
 ___
+
 
 ### se\_type
 
@@ -120,6 +126,7 @@ search engine type
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -140,6 +147,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`DataforseoLabsAmazonProductRankOverviewLiveItem`](DataforseoLabsAmazonProductRankOverviewLiveItem.md)
@@ -157,3 +165,7 @@ ___
 #### Defined in
 
 [main.ts:100737](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L100737)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / ISerpInfo
 
 # Interface: ISerpInfo
@@ -36,6 +40,7 @@ you can use it to make sure that we provided accurate results
 
 ___
 
+
 ### last\_updated\_time
 
 • `Optional` **last\_updated\_time**: `string`
@@ -50,6 +55,7 @@ example:
 [main.ts:79424](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L79424)
 
 ___
+
 
 ### previous\_updated\_time
 
@@ -66,6 +72,7 @@ example:
 
 ___
 
+
 ### se\_results\_count
 
 • `Optional` **se\_results\_count**: `string`
@@ -78,6 +85,7 @@ number of search results for the returned keyword
 
 ___
 
+
 ### se\_type
 
 • `Optional` **se\_type**: `string`
@@ -89,6 +97,7 @@ search engine type
 [main.ts:79408](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L79408)
 
 ___
+
 
 ### serp\_item\_types
 
@@ -103,3 +112,7 @@ note that the actual results will be returned only for organic, paid, featured_s
 #### Defined in
 
 [main.ts:79417](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L79417)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

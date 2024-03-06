@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / BacklinksReferringDomainsLiveResultInfo
 
 # Class: BacklinksReferringDomainsLiveResultInfo
@@ -67,6 +71,7 @@ items array
 
 ___
 
+
 ### items\_count
 
 • `Optional` **items\_count**: `number`
@@ -83,6 +88,7 @@ number of items in the items array
 
 ___
 
+
 ### target
 
 • `Optional` **target**: `string`
@@ -98,6 +104,7 @@ target in a POST array
 [main.ts:134963](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L134963)
 
 ___
+
 
 ### total\_count
 
@@ -137,6 +144,7 @@ example.com and blog.example.com are counted as one referring domain
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -157,6 +165,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`BacklinksReferringDomainsLiveResultInfo`](BacklinksReferringDomainsLiveResultInfo.md)
@@ -174,3 +183,7 @@ ___
 #### Defined in
 
 [main.ts:135001](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L135001)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

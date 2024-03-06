@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / AuthorsElement
 
 # Class: AuthorsElement
@@ -67,6 +71,7 @@ author’s link domain
 
 ___
 
+
 ### name
 
 • `Optional` **name**: `string`
@@ -83,6 +88,7 @@ name of the dataset author
 
 ___
 
+
 ### type
 
 • `Optional` **type**: `string`
@@ -98,6 +104,7 @@ type of element
 [main.ts:50626](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L50626)
 
 ___
+
 
 ### url
 
@@ -135,6 +142,7 @@ author’s link URL
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -155,6 +163,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`AuthorsElement`](AuthorsElement.md)
@@ -172,3 +181,7 @@ ___
 #### Defined in
 
 [main.ts:50658](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L50658)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / QuestionsAndAnswersElement
 
 # Class: QuestionsAndAnswersElement
@@ -70,6 +74,7 @@ answer included in the item
 
 ___
 
+
 ### domain
 
 • `Optional` **domain**: `string`
@@ -86,6 +91,7 @@ domain where a link points
 
 ___
 
+
 ### question\_text
 
 • `Optional` **question\_text**: `string`
@@ -101,6 +107,7 @@ question included in the item
 [main.ts:32800](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L32800)
 
 ___
+
 
 ### source
 
@@ -119,6 +126,7 @@ indicates the source of information included in the element
 
 ___
 
+
 ### type
 
 • `Optional` **type**: `string`
@@ -135,6 +143,7 @@ type of element
 
 ___
 
+
 ### url
 
 • `Optional` **url**: `string`
@@ -150,6 +159,7 @@ URL
 [main.ts:32798](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L32798)
 
 ___
+
 
 ### votes
 
@@ -187,6 +197,7 @@ answer upvotes from the source
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -207,6 +218,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`QuestionsAndAnswersElement`](QuestionsAndAnswersElement.md)
@@ -224,3 +236,7 @@ ___
 #### Defined in
 
 [main.ts:32838](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L32838)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

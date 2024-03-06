@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IOnPageLighthouseVersionsResultInfo
 
 # Interface: IOnPageLighthouseVersionsResultInfo
@@ -25,3 +29,7 @@
 #### Defined in
 
 [main.ts:153956](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L153956)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

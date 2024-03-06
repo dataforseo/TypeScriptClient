@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / OnPageDuplicateContentItem
 
 # Class: OnPageDuplicateContentItem
@@ -66,6 +70,7 @@ pages with duplicate content
 
 ___
 
+
 ### total\_count
 
 • `Optional` **total\_count**: `number`
@@ -81,6 +86,7 @@ total count of duplicate pages
 [main.ts:147617](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L147617)
 
 ___
+
 
 ### url
 
@@ -118,6 +124,7 @@ URL of the specified page
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -138,6 +145,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`OnPageDuplicateContentItem`](OnPageDuplicateContentItem.md)
@@ -155,3 +163,7 @@ ___
 #### Defined in
 
 [main.ts:147648](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L147648)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

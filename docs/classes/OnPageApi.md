@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / OnPageApi
 
 # Class: OnPageApi
@@ -111,6 +115,7 @@
 
 ___
 
+
 ### http
 
 • `Private` **http**: `Object`
@@ -126,6 +131,7 @@ ___
 [main.ts:11495](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L11495)
 
 ___
+
 
 ### jsonParseReviver
 
@@ -174,6 +180,7 @@ Successful operation
 
 ___
 
+
 ### contentParsingLive
 
 ▸ **contentParsingLive**(`body`): `Promise`\<[`OnPageContentParsingLiveResponseInfo`](OnPageContentParsingLiveResponseInfo.md)\>
@@ -195,6 +202,7 @@ Successful operation
 [main.ts:12383](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L12383)
 
 ___
+
 
 ### duplicateContent
 
@@ -218,6 +226,7 @@ Successful operation
 
 ___
 
+
 ### duplicateTags
 
 ▸ **duplicateTags**(`body`): `Promise`\<[`OnPageDuplicateTagsResponseInfo`](OnPageDuplicateTagsResponseInfo.md)\>
@@ -239,6 +248,7 @@ Successful operation
 [main.ts:11921](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L11921)
 
 ___
+
 
 ### forceStop
 
@@ -262,6 +272,7 @@ Successful operation
 
 ___
 
+
 ### instantPages
 
 ▸ **instantPages**(`body`): `Promise`\<[`OnPageInstantPagesResponseInfo`](OnPageInstantPagesResponseInfo.md)\>
@@ -283,6 +294,7 @@ Successful operation
 [main.ts:12425](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L12425)
 
 ___
+
 
 ### keywordDensity
 
@@ -306,6 +318,7 @@ Successful operation
 
 ___
 
+
 ### lighthouseAudits
 
 ▸ **lighthouseAudits**(): `Promise`\<[`OnPageLighthouseAuditsResponseInfo`](OnPageLighthouseAuditsResponseInfo.md)\>
@@ -321,6 +334,7 @@ Successful operation
 [main.ts:12503](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L12503)
 
 ___
+
 
 ### lighthouseLiveJson
 
@@ -344,6 +358,7 @@ Successful operation
 
 ___
 
+
 ### lighthouseTaskGetJson
 
 ▸ **lighthouseTaskGetJson**(`id`): `Promise`\<[`OnPageLighthouseTaskGetJsonResponseInfo`](OnPageLighthouseTaskGetJsonResponseInfo.md)\>
@@ -365,6 +380,7 @@ Successful operation
 [main.ts:12661](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L12661)
 
 ___
+
 
 ### lighthouseTaskPost
 
@@ -388,6 +404,7 @@ Successful operation
 
 ___
 
+
 ### lighthouseTasksReady
 
 ▸ **lighthouseTasksReady**(): `Promise`\<[`OnPageLighthouseTasksReadyResponseInfo`](OnPageLighthouseTasksReadyResponseInfo.md)\>
@@ -404,6 +421,7 @@ Successful operation
 
 ___
 
+
 ### lighthouseVersions
 
 ▸ **lighthouseVersions**(): `Promise`\<[`OnPageLighthouseVersionsResponseInfo`](OnPageLighthouseVersionsResponseInfo.md)\>
@@ -419,6 +437,7 @@ Successful operation
 [main.ts:12540](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L12540)
 
 ___
+
 
 ### links
 
@@ -442,6 +461,7 @@ Successful operation
 
 ___
 
+
 ### microdata
 
 ▸ **microdata**(`body`): `Promise`\<[`OnPageMicrodataResponseInfo`](OnPageMicrodataResponseInfo.md)\>
@@ -463,6 +483,7 @@ Successful operation
 [main.ts:12215](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L12215)
 
 ___
+
 
 ### nonIndexable
 
@@ -486,6 +507,7 @@ Successful operation
 
 ___
 
+
 ### onPageAvailableFilters
 
 ▸ **onPageAvailableFilters**(): `Promise`\<[`OnPageAvailableFiltersResponseInfo`](OnPageAvailableFiltersResponseInfo.md)\>
@@ -501,6 +523,7 @@ Successful operation
 [main.ts:11633](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L11633)
 
 ___
+
 
 ### onPageErrors
 
@@ -524,6 +547,7 @@ Successful operation
 
 ___
 
+
 ### onPageIdList
 
 ▸ **onPageIdList**(`body`): `Promise`\<[`OnPageIdListResponseInfo`](OnPageIdListResponseInfo.md)\>
@@ -546,6 +570,7 @@ Successful operation
 
 ___
 
+
 ### onPageLighthouseLanguages
 
 ▸ **onPageLighthouseLanguages**(): `Promise`\<[`OnPageLighthouseLanguagesResponseInfo`](OnPageLighthouseLanguagesResponseInfo.md)\>
@@ -561,6 +586,7 @@ Successful operation
 [main.ts:12466](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L12466)
 
 ___
+
 
 ### pageScreenshot
 
@@ -584,6 +610,7 @@ Successful operation
 
 ___
 
+
 ### pages
 
 ▸ **pages**(`body`): `Promise`\<[`OnPagePagesResponseInfo`](OnPagePagesResponseInfo.md)\>
@@ -605,6 +632,7 @@ Successful operation
 [main.ts:11795](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L11795)
 
 ___
+
 
 ### pagesByResource
 
@@ -628,6 +656,7 @@ Successful operation
 
 ___
 
+
 ### processContentParsing
 
 ▸ **processContentParsing**(`response`): `Promise`\<[`OnPageContentParsingResponseInfo`](OnPageContentParsingResponseInfo.md)\>
@@ -647,6 +676,7 @@ ___
 [main.ts:12361](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L12361)
 
 ___
+
 
 ### processContentParsingLive
 
@@ -668,6 +698,7 @@ ___
 
 ___
 
+
 ### processDuplicateContent
 
 ▸ **processDuplicateContent**(`response`): `Promise`\<[`OnPageDuplicateContentResponseInfo`](OnPageDuplicateContentResponseInfo.md)\>
@@ -687,6 +718,7 @@ ___
 [main.ts:11983](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L11983)
 
 ___
+
 
 ### processDuplicateTags
 
@@ -708,6 +740,7 @@ ___
 
 ___
 
+
 ### processForceStop
 
 ▸ **processForceStop**(`response`): `Promise`\<[`OnPageForceStopResponseInfo`](OnPageForceStopResponseInfo.md)\>
@@ -727,6 +760,7 @@ ___
 [main.ts:11612](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L11612)
 
 ___
+
 
 ### processInstantPages
 
@@ -748,6 +782,7 @@ ___
 
 ___
 
+
 ### processKeywordDensity
 
 ▸ **processKeywordDensity**(`response`): `Promise`\<[`OnPageKeywordDensityResponseInfo`](OnPageKeywordDensityResponseInfo.md)\>
@@ -767,6 +802,7 @@ ___
 [main.ts:12193](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L12193)
 
 ___
+
 
 ### processLighthouseAudits
 
@@ -788,6 +824,7 @@ ___
 
 ___
 
+
 ### processLighthouseLiveJson
 
 ▸ **processLighthouseLiveJson**(`response`): `Promise`\<[`OnPageLighthouseLiveJsonResponseInfo`](OnPageLighthouseLiveJsonResponseInfo.md)\>
@@ -807,6 +844,7 @@ ___
 [main.ts:12722](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L12722)
 
 ___
+
 
 ### processLighthouseTaskGetJson
 
@@ -828,6 +866,7 @@ ___
 
 ___
 
+
 ### processLighthouseTaskPost
 
 ▸ **processLighthouseTaskPost**(`response`): `Promise`\<[`OnPageLighthouseTaskPostResponseInfo`](OnPageLighthouseTaskPostResponseInfo.md)\>
@@ -847,6 +886,7 @@ ___
 [main.ts:12598](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L12598)
 
 ___
+
 
 ### processLighthouseTasksReady
 
@@ -868,6 +908,7 @@ ___
 
 ___
 
+
 ### processLighthouseVersions
 
 ▸ **processLighthouseVersions**(`response`): `Promise`\<[`OnPageLighthouseVersionsResponseInfo`](OnPageLighthouseVersionsResponseInfo.md)\>
@@ -887,6 +928,7 @@ ___
 [main.ts:12556](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L12556)
 
 ___
+
 
 ### processLinks
 
@@ -908,6 +950,7 @@ ___
 
 ___
 
+
 ### processMicrodata
 
 ▸ **processMicrodata**(`response`): `Promise`\<[`OnPageMicrodataResponseInfo`](OnPageMicrodataResponseInfo.md)\>
@@ -927,6 +970,7 @@ ___
 [main.ts:12235](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L12235)
 
 ___
+
 
 ### processNonIndexable
 
@@ -948,6 +992,7 @@ ___
 
 ___
 
+
 ### processOnPageAvailableFilters
 
 ▸ **processOnPageAvailableFilters**(`response`): `Promise`\<[`OnPageAvailableFiltersResponseInfo`](OnPageAvailableFiltersResponseInfo.md)\>
@@ -967,6 +1012,7 @@ ___
 [main.ts:11649](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L11649)
 
 ___
+
 
 ### processOnPageErrors
 
@@ -988,6 +1034,7 @@ ___
 
 ___
 
+
 ### processOnPageIdList
 
 ▸ **processOnPageIdList**(`response`): `Promise`\<[`OnPageIdListResponseInfo`](OnPageIdListResponseInfo.md)\>
@@ -1007,6 +1054,7 @@ ___
 [main.ts:11528](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L11528)
 
 ___
+
 
 ### processOnPageLighthouseLanguages
 
@@ -1028,6 +1076,7 @@ ___
 
 ___
 
+
 ### processPageScreenshot
 
 ▸ **processPageScreenshot**(`response`): `Promise`\<[`OnPagePageScreenshotResponseInfo`](OnPagePageScreenshotResponseInfo.md)\>
@@ -1047,6 +1096,7 @@ ___
 [main.ts:12319](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L12319)
 
 ___
+
 
 ### processPages
 
@@ -1068,6 +1118,7 @@ ___
 
 ___
 
+
 ### processPagesByResource
 
 ▸ **processPagesByResource**(`response`): `Promise`\<[`OnPagePagesByResourceResponseInfo`](OnPagePagesByResourceResponseInfo.md)\>
@@ -1087,6 +1138,7 @@ ___
 [main.ts:11857](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L11857)
 
 ___
+
 
 ### processRawHtml
 
@@ -1108,6 +1160,7 @@ ___
 
 ___
 
+
 ### processRedirectChains
 
 ▸ **processRedirectChains**(`response`): `Promise`\<[`OnPageRedirectChainsResponseInfo`](OnPageRedirectChainsResponseInfo.md)\>
@@ -1127,6 +1180,7 @@ ___
 [main.ts:12067](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L12067)
 
 ___
+
 
 ### processResources
 
@@ -1148,6 +1202,7 @@ ___
 
 ___
 
+
 ### processSummary
 
 ▸ **processSummary**(`response`): `Promise`\<[`OnPageSummaryResponseInfo`](OnPageSummaryResponseInfo.md)\>
@@ -1167,6 +1222,7 @@ ___
 [main.ts:11773](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L11773)
 
 ___
+
 
 ### processTaskPost
 
@@ -1188,6 +1244,7 @@ ___
 
 ___
 
+
 ### processTasksReady
 
 ▸ **processTasksReady**(`response`): `Promise`\<[`OnPageTasksReadyResponseInfo`](OnPageTasksReadyResponseInfo.md)\>
@@ -1208,6 +1265,7 @@ ___
 
 ___
 
+
 ### processWaterfall
 
 ▸ **processWaterfall**(`response`): `Promise`\<[`OnPageWaterfallResponseInfo`](OnPageWaterfallResponseInfo.md)\>
@@ -1227,6 +1285,7 @@ ___
 [main.ts:12151](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L12151)
 
 ___
+
 
 ### rawHtml
 
@@ -1250,6 +1309,7 @@ Successful operation
 
 ___
 
+
 ### redirectChains
 
 ▸ **redirectChains**(`body`): `Promise`\<[`OnPageRedirectChainsResponseInfo`](OnPageRedirectChainsResponseInfo.md)\>
@@ -1271,6 +1331,7 @@ Successful operation
 [main.ts:12047](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L12047)
 
 ___
+
 
 ### resources
 
@@ -1294,6 +1355,7 @@ Successful operation
 
 ___
 
+
 ### summary
 
 ▸ **summary**(`id`): `Promise`\<[`OnPageSummaryResponseInfo`](OnPageSummaryResponseInfo.md)\>
@@ -1315,6 +1377,7 @@ Successful operation
 [main.ts:11754](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L11754)
 
 ___
+
 
 ### taskPost
 
@@ -1338,6 +1401,7 @@ Successful operation
 
 ___
 
+
 ### tasksReady
 
 ▸ **tasksReady**(): `Promise`\<[`OnPageTasksReadyResponseInfo`](OnPageTasksReadyResponseInfo.md)\>
@@ -1353,6 +1417,7 @@ Successful operation
 [main.ts:11712](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L11712)
 
 ___
+
 
 ### waterfall
 
@@ -1373,3 +1438,7 @@ Successful operation
 #### Defined in
 
 [main.ts:12131](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L12131)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / PageMetrics
 
 # Class: PageMetrics
@@ -76,6 +80,7 @@ number of broken links across all crawled pages on a target website
 
 ___
 
+
 ### broken\_resources
 
 • `Optional` **broken\_resources**: `number`
@@ -92,6 +97,7 @@ the number of images and other resources with broken links
 [main.ts:143533](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L143533)
 
 ___
+
 
 ### checks
 
@@ -113,6 +119,7 @@ page-specific on-page check-ups
 
 ___
 
+
 ### duplicate\_content
 
 • `Optional` **duplicate\_content**: `number`
@@ -128,6 +135,7 @@ number of pages with duplicate content
 [main.ts:143527](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L143527)
 
 ___
+
 
 ### duplicate\_description
 
@@ -145,6 +153,7 @@ number of pages with duplicate descriptions
 
 ___
 
+
 ### duplicate\_title
 
 • `Optional` **duplicate\_title**: `number`
@@ -160,6 +169,7 @@ number of pages with duplicate titles
 [main.ts:143523](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L143523)
 
 ___
+
 
 ### links\_external
 
@@ -178,6 +188,7 @@ the number of links pointing to other websites
 
 ___
 
+
 ### links\_internal
 
 • `Optional` **links\_internal**: `number`
@@ -194,6 +205,7 @@ the number of links pointing to other pages within the target website
 [main.ts:143521](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L143521)
 
 ___
+
 
 ### links\_relation\_conflict
 
@@ -212,6 +224,7 @@ for example, if "links_relation_conflict": 2, the target website is referring to
 
 ___
 
+
 ### non\_indexable
 
 • `Optional` **non\_indexable**: `number`
@@ -229,6 +242,7 @@ you can receive a list of non-indexable URLs using this endpoint
 [main.ts:143549](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L143549)
 
 ___
+
 
 ### onpage\_score
 
@@ -249,6 +263,7 @@ learn more about how the metric is calculated in this help center article
 [main.ts:143545](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L143545)
 
 ___
+
 
 ### redirect\_loop
 
@@ -287,6 +302,7 @@ number of redirect chains where the destination URL redirects back to the origin
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -307,6 +323,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`PageMetrics`](PageMetrics.md)
@@ -324,3 +341,7 @@ ___
 #### Defined in
 
 [main.ts:143591](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L143591)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

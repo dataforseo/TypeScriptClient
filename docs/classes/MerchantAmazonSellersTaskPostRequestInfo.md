@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / MerchantAmazonSellersTaskPostRequestInfo
 
 # Class: MerchantAmazonSellersTaskPostRequestInfo
@@ -81,6 +85,7 @@ learn more about the identifier in this help center guide
 
 ___
 
+
 ### language\_code
 
 • `Optional` **language\_code**: `string`
@@ -101,6 +106,7 @@ en
 [main.ts:173609](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L173609)
 
 ___
+
 
 ### language\_name
 
@@ -123,6 +129,7 @@ English
 
 ___
 
+
 ### location\_code
 
 • `Optional` **location\_code**: `number`
@@ -143,6 +150,7 @@ example:
 [main.ts:173586](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L173586)
 
 ___
+
 
 ### location\_coordinate
 
@@ -167,6 +175,7 @@ example:
 
 ___
 
+
 ### location\_name
 
 • `Optional` **location\_name**: `string`
@@ -187,6 +196,7 @@ London,England,United Kingdom
 [main.ts:173579](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L173579)
 
 ___
+
 
 ### pingback\_url
 
@@ -212,6 +222,7 @@ i.a., the # symbol will be encoded into %23
 
 ___
 
+
 ### postback\_data
 
 • `Optional` **postback\_data**: `string`
@@ -231,6 +242,7 @@ advanced, html
 [main.ts:173638](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L173638)
 
 ___
+
 
 ### postback\_url
 
@@ -256,6 +268,7 @@ i.a., the # symbol will be encoded into %23
 
 ___
 
+
 ### priority
 
 • `Optional` **priority**: `number`
@@ -278,6 +291,7 @@ The cost can be calculated on the Pricing page.
 
 ___
 
+
 ### se\_domain
 
 • `Optional` **se\_domain**: `string`
@@ -298,6 +312,7 @@ amazon.co.uk, amazon.com.au, amazon.de, etc.
 [main.ts:173616](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L173616)
 
 ___
+
 
 ### tag
 
@@ -339,6 +354,7 @@ you will find the specified tag value in the data object of the response
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -359,6 +375,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`MerchantAmazonSellersTaskPostRequestInfo`](MerchantAmazonSellersTaskPostRequestInfo.md)
@@ -376,3 +393,7 @@ ___
 #### Defined in
 
 [main.ts:173682](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L173682)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

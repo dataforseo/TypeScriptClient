@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IOnPageRedirectChainsRequestInfo
 
 # Interface: IOnPageRedirectChainsRequestInfo
@@ -44,6 +48,7 @@ examples:
 
 ___
 
+
 ### id
 
 • `Optional` **id**: `string`
@@ -60,6 +65,7 @@ example:
 
 ___
 
+
 ### limit
 
 • `Optional` **limit**: `number`
@@ -75,6 +81,7 @@ maximum value: 1000
 
 ___
 
+
 ### offset
 
 • `Optional` **offset**: `number`
@@ -89,6 +96,7 @@ if you specify the 10 value, the first ten redirect chains in the results array 
 [main.ts:148837](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L148837)
 
 ___
+
 
 ### tag
 
@@ -106,6 +114,7 @@ you will find the specified tag value in the data object of the response
 
 ___
 
+
 ### url
 
 • `Optional` **url**: `string`
@@ -118,3 +127,7 @@ if you use this field, the API response will return only redirect chains which c
 #### Defined in
 
 [main.ts:148827](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L148827)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

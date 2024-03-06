@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IMerchantAmazonSellersTaskGetAdvancedResultInfo
 
 # Interface: IMerchantAmazonSellersTaskGetAdvancedResultInfo
@@ -42,6 +46,7 @@ learn more about ASINs in this help center guide
 
 ___
 
+
 ### check\_url
 
 • `Optional` **check\_url**: `string`
@@ -54,6 +59,7 @@ you can use it to make sure the provided results are accurate
 [main.ts:174503](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L174503)
 
 ___
+
 
 ### datetime
 
@@ -70,6 +76,7 @@ example:
 
 ___
 
+
 ### image
 
 • `Optional` **image**: `string`
@@ -82,6 +89,7 @@ image URL of the product relevant to the asin received in a POST array
 [main.ts:174514](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L174514)
 
 ___
+
 
 ### item\_types
 
@@ -98,6 +106,7 @@ amazon_seller_main_item, amazon_seller_item
 
 ___
 
+
 ### items
 
 • `Optional` **items**: [`BaseAmazonSerpElementItem`](../classes/BaseAmazonSerpElementItem.md)[]
@@ -109,6 +118,7 @@ items in SERP
 [main.ts:174523](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L174523)
 
 ___
+
 
 ### items\_count
 
@@ -122,6 +132,7 @@ the number of results returned in the items array
 
 ___
 
+
 ### language\_code
 
 • `Optional` **language\_code**: `string`
@@ -133,6 +144,7 @@ language code received in a POST array
 [main.ts:174500](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L174500)
 
 ___
+
 
 ### location\_code
 
@@ -146,6 +158,7 @@ location code received in a POST array
 
 ___
 
+
 ### se\_domain
 
 • `Optional` **se\_domain**: `string`
@@ -157,6 +170,7 @@ search engine domain received in a POST array
 [main.ts:174496](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L174496)
 
 ___
+
 
 ### title
 
@@ -171,6 +185,7 @@ title of the product relevant to the asin received in a POST array
 
 ___
 
+
 ### type
 
 • `Optional` **type**: `string`
@@ -180,3 +195,7 @@ type of element
 #### Defined in
 
 [main.ts:174494](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L174494)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

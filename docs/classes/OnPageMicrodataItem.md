@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / OnPageMicrodataItem
 
 # Class: OnPageMicrodataItem
@@ -65,6 +69,7 @@ information related to microdata validation
 
 ___
 
+
 ### type
 
 • `Optional` **type**: `string`
@@ -101,6 +106,7 @@ type of element
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -121,6 +127,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`OnPageMicrodataItem`](OnPageMicrodataItem.md)
@@ -138,3 +145,7 @@ ___
 #### Defined in
 
 [main.ts:150911](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L150911)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

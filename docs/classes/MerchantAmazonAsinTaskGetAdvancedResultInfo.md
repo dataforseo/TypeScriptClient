@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / MerchantAmazonAsinTaskGetAdvancedResultInfo
 
 # Class: MerchantAmazonAsinTaskGetAdvancedResultInfo
@@ -75,6 +79,7 @@ learn more about the identified in this help center guide
 
 ___
 
+
 ### check\_url
 
 • `Optional` **check\_url**: `string`
@@ -91,6 +96,7 @@ you can use it to make sure that we provided accurate results
 [main.ts:173053](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L173053)
 
 ___
+
 
 ### datetime
 
@@ -111,6 +117,7 @@ example:
 
 ___
 
+
 ### item\_types
 
 • `Optional` **item\_types**: `string`[]
@@ -130,6 +137,7 @@ amazon_product_info
 
 ___
 
+
 ### items
 
 • `Optional` **items**: [`BaseAmazonSerpElementItem`](BaseAmazonSerpElementItem.md)[]
@@ -145,6 +153,7 @@ Amazon product info items
 [main.ts:173067](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L173067)
 
 ___
+
 
 ### items\_count
 
@@ -162,6 +171,7 @@ the number of results returned in the items array
 
 ___
 
+
 ### language\_code
 
 • `Optional` **language\_code**: `string`
@@ -177,6 +187,7 @@ language code in a POST array
 [main.ts:173050](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L173050)
 
 ___
+
 
 ### location\_code
 
@@ -194,6 +205,7 @@ location code in a POST array
 
 ___
 
+
 ### se\_domain
 
 • `Optional` **se\_domain**: `string`
@@ -209,6 +221,7 @@ Amazon domain in a POST array
 [main.ts:173046](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L173046)
 
 ___
+
 
 ### type
 
@@ -246,6 +259,7 @@ type of element
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -266,6 +280,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`MerchantAmazonAsinTaskGetAdvancedResultInfo`](MerchantAmazonAsinTaskGetAdvancedResultInfo.md)
@@ -283,3 +298,7 @@ ___
 #### Defined in
 
 [main.ts:173107](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L173107)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IYoutubeVideoInfoSerpElementItem
 
 # Interface: IYoutubeVideoInfoSerpElementItem
@@ -5,7 +9,7 @@
 ## Hierarchy
 
 - [`IBaseSerpElementItem`](IBaseSerpElementItem.md)
-
+  
   ↳ **`IYoutubeVideoInfoSerpElementItem`**
 
 ## Implemented by
@@ -58,6 +62,7 @@ the category the video belongs to
 
 ___
 
+
 ### channel\_id
 
 • `Optional` **channel\_id**: `string`
@@ -69,6 +74,7 @@ the ID of the channel where the video is published
 [main.ts:58748](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L58748)
 
 ___
+
 
 ### channel\_logo
 
@@ -82,6 +88,7 @@ the URL of the page where the logo image of the channel is hosted
 
 ___
 
+
 ### channel\_name
 
 • `Optional` **channel\_name**: `string`
@@ -93,6 +100,7 @@ the name of the channel where the video is published
 [main.ts:58750](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L58750)
 
 ___
+
 
 ### channel\_url
 
@@ -106,6 +114,7 @@ the URL of the channel where the video is published
 
 ___
 
+
 ### comments\_count
 
 • `Optional` **comments\_count**: `number`
@@ -117,6 +126,7 @@ number of comments on the video
 [main.ts:58762](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L58762)
 
 ___
+
 
 ### description
 
@@ -130,6 +140,7 @@ description of the video
 
 ___
 
+
 ### duration\_time
 
 • `Optional` **duration\_time**: `string`
@@ -141,6 +152,7 @@ duration of the video
 [main.ts:58777](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L58777)
 
 ___
+
 
 ### duration\_time\_seconds
 
@@ -154,6 +166,7 @@ duration of the video in seconds
 
 ___
 
+
 ### is\_live
 
 • `Optional` **is\_live**: `boolean`
@@ -165,6 +178,7 @@ indicates whether the video is on live
 [main.ts:58775](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L58775)
 
 ___
+
 
 ### keywords
 
@@ -178,6 +192,7 @@ keywords relevant to the video
 
 ___
 
+
 ### likes\_count
 
 • `Optional` **likes\_count**: `number`
@@ -189,6 +204,7 @@ number of likes on the video
 [main.ts:58760](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L58760)
 
 ___
+
 
 ### publication\_date
 
@@ -202,6 +218,7 @@ the date when the video is published
 
 ___
 
+
 ### rank\_absolute
 
 • `Optional` **rank\_absolute**: `number`
@@ -214,6 +231,7 @@ absolute position among all the elements in SERP
 [main.ts:58738](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L58738)
 
 ___
+
 
 ### rank\_group
 
@@ -229,6 +247,7 @@ positions of elements with different type values are omitted from rank_group
 
 ___
 
+
 ### streaming\_quality
 
 • `Optional` **streaming\_quality**: [`StreamingQualityElement`](../classes/StreamingQualityElement.md)[]
@@ -240,6 +259,7 @@ array of elements that contain information about all possible streaming qualitie
 [main.ts:58783](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L58783)
 
 ___
+
 
 ### subtitles
 
@@ -253,6 +273,7 @@ subtitles in the video
 
 ___
 
+
 ### thumbnail\_url
 
 • `Optional` **thumbnail\_url**: `string`
@@ -264,6 +285,7 @@ the URL of the page where the thumbnail is hosted
 [main.ts:58746](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L58746)
 
 ___
+
 
 ### timestamp
 
@@ -280,6 +302,7 @@ example:
 
 ___
 
+
 ### title
 
 • `Optional` **title**: `string`
@@ -291,6 +314,7 @@ title of the video
 [main.ts:58742](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L58742)
 
 ___
+
 
 ### url
 
@@ -304,6 +328,7 @@ URL of the video
 
 ___
 
+
 ### video\_id
 
 • `Optional` **video\_id**: `string`
@@ -316,6 +341,7 @@ ID of the video received in a POST array
 
 ___
 
+
 ### views\_count
 
 • `Optional` **views\_count**: `number`
@@ -325,3 +351,7 @@ number of views of the video
 #### Defined in
 
 [main.ts:58758](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L58758)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

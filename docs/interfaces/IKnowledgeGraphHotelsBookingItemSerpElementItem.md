@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IKnowledgeGraphHotelsBookingItemSerpElementItem
 
 # Interface: IKnowledgeGraphHotelsBookingItemSerpElementItem
@@ -5,7 +9,7 @@
 ## Hierarchy
 
 - [`IBaseSerpElementItem`](IBaseSerpElementItem.md)
-
+  
   ↳ **`IKnowledgeGraphHotelsBookingItemSerpElementItem`**
 
 ## Implemented by
@@ -47,6 +51,7 @@ kc:/local:hotel booking
 
 ___
 
+
 ### date\_from
 
 • `Optional` **date\_from**: `string`
@@ -61,6 +66,7 @@ example:
 [main.ts:36000](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L36000)
 
 ___
+
 
 ### date\_to
 
@@ -77,6 +83,7 @@ example:
 
 ___
 
+
 ### items
 
 • `Optional` **items**: [`KnowledgeGraphHotelsBookingElement`](../classes/KnowledgeGraphHotelsBookingElement.md)[]
@@ -88,6 +95,7 @@ contains results featured in the ‘hotels_pack’ element of SERP
 [main.ts:36011](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L36011)
 
 ___
+
 
 ### position
 
@@ -103,6 +111,7 @@ left, right
 
 ___
 
+
 ### rank\_absolute
 
 • `Optional` **rank\_absolute**: `number`
@@ -115,6 +124,7 @@ absolute position among all the elements in SERP
 [main.ts:35987](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L35987)
 
 ___
+
 
 ### rank\_group
 
@@ -130,6 +140,7 @@ positions of elements with different type values are omitted from rank_group
 
 ___
 
+
 ### rectangle
 
 • `Optional` **rectangle**: [`Rectangle`](../classes/Rectangle.md)
@@ -144,6 +155,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 ___
 
+
 ### title
 
 • `Optional` **title**: `string`
@@ -156,6 +168,7 @@ title of a given link element
 
 ___
 
+
 ### xpath
 
 • `Optional` **xpath**: `string`
@@ -165,3 +178,7 @@ the XPath of the element
 #### Defined in
 
 [main.ts:35993](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L35993)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

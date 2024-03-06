@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IBusinessDataTripadvisorReviewsTaskPostRequestInfo
 
 # Interface: IBusinessDataTripadvisorReviewsTaskPostRequestInfo
@@ -49,6 +53,7 @@ default value: 10
 
 ___
 
+
 ### keyword
 
 • `Optional` **keyword**: `string`
@@ -65,6 +70,7 @@ if you need to use the “%” symbol for your keyword, please specify it as “
 [main.ts:201940](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L201940)
 
 ___
+
 
 ### language\_code
 
@@ -85,6 +91,7 @@ The cost can be calculated on the Pricing page.
 
 ___
 
+
 ### language\_name
 
 • `Optional` **language\_name**: `string`
@@ -104,6 +111,7 @@ The cost can be calculated on the Pricing page.
 
 ___
 
+
 ### location\_code
 
 • `Optional` **location\_code**: `number`
@@ -119,6 +127,7 @@ example:
 [main.ts:201952](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L201952)
 
 ___
+
 
 ### location\_name
 
@@ -136,6 +145,7 @@ London,England,United Kingdom
 
 ___
 
+
 ### months
 
 • `Optional` **months**: `string`[]
@@ -150,6 +160,7 @@ you can specify several values at once
 [main.ts:202000](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L202000)
 
 ___
+
 
 ### pingback\_url
 
@@ -171,6 +182,7 @@ i.a., the # symbol will be encoded into %23
 
 ___
 
+
 ### postback\_url
 
 • `Optional` **postback\_url**: `string`
@@ -191,6 +203,7 @@ i.a., the # symbol will be encoded into %23
 
 ___
 
+
 ### priority
 
 • `Optional` **priority**: `number`
@@ -209,6 +222,7 @@ The cost can be calculated on the Pricing page.
 
 ___
 
+
 ### ratings
 
 • `Optional` **ratings**: `string`[]
@@ -225,6 +239,7 @@ you can specify several values at once
 
 ___
 
+
 ### search\_reviews\_keyword
 
 • `Optional` **search\_reviews\_keyword**: `string`
@@ -238,6 +253,7 @@ dessert
 [main.ts:202004](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L202004)
 
 ___
+
 
 ### sort\_by
 
@@ -256,6 +272,7 @@ detailed_reviews
 
 ___
 
+
 ### tag
 
 • `Optional` **tag**: `string`
@@ -271,6 +288,7 @@ you will find the specified tag value in the data object of the response
 [main.ts:202017](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L202017)
 
 ___
+
 
 ### url\_path
 
@@ -290,6 +308,7 @@ https://www.tripadvisor.com/Hotel_Review-g60763-d23462501-Reviews-Margaritaville
 
 ___
 
+
 ### visit\_type
 
 • `Optional` **visit\_type**: `string`[]
@@ -302,3 +321,7 @@ you can specify several values at once
 #### Defined in
 
 [main.ts:201995](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L201995)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

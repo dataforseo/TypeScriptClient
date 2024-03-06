@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / MathSolverSerpElementItem
 
 # Class: MathSolverSerpElementItem
@@ -5,7 +9,7 @@
 ## Hierarchy
 
 - [`BaseSerpElementItem`](BaseSerpElementItem.md)
-
+  
   ↳ **`MathSolverSerpElementItem`**
 
 ## Implements
@@ -81,6 +85,7 @@
 
 ___
 
+
 ### items
 
 • `Optional` **items**: [`MathSolverElement`](MathSolverElement.md)[]
@@ -97,6 +102,7 @@ contains results featured in the ‘hotels_pack’ element of SERP
 
 ___
 
+
 ### links
 
 • `Optional` **links**: [`LinkElement`](LinkElement.md)[]
@@ -112,6 +118,7 @@ link of the element
 [main.ts:34058](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L34058)
 
 ___
+
 
 ### position
 
@@ -131,6 +138,7 @@ left, right
 
 ___
 
+
 ### rank\_absolute
 
 • `Optional` **rank\_absolute**: `number`
@@ -147,6 +155,7 @@ absolute position among all the elements in SERP
 [main.ts:34043](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L34043)
 
 ___
+
 
 ### rank\_group
 
@@ -166,6 +175,7 @@ positions of elements with different type values are omitted from rank_group
 
 ___
 
+
 ### rectangle
 
 • `Optional` **rectangle**: [`Rectangle`](Rectangle.md)
@@ -184,6 +194,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 ___
 
+
 ### result
 
 • `Optional` **result**: `string`
@@ -201,6 +212,7 @@ solution to the mathematical equation specified in the keyword field when settin
 
 ___
 
+
 ### title
 
 • `Optional` **title**: `string`
@@ -216,6 +228,7 @@ title of a given link element
 [main.ts:34051](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L34051)
 
 ___
+
 
 ### xpath
 
@@ -257,6 +270,7 @@ the XPath of the element
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -281,6 +295,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`MathSolverSerpElementItem`](MathSolverSerpElementItem.md)
@@ -302,3 +317,7 @@ ___
 #### Defined in
 
 [main.ts:34098](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L34098)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

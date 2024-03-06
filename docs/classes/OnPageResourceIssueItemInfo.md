@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / OnPageResourceIssueItemInfo
 
 # Class: OnPageResourceIssueItemInfo
@@ -67,6 +71,7 @@ column where the error was found
 
 ___
 
+
 ### line
 
 • `Optional` **line**: `number`
@@ -82,6 +87,7 @@ line where the error was found
 [main.ts:144577](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L144577)
 
 ___
+
 
 ### message
 
@@ -99,6 +105,7 @@ the full list of possible HTML errors can be found here
 [main.ts:144582](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L144582)
 
 ___
+
 
 ### status\_code
 
@@ -145,6 +152,7 @@ possible values:
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -165,6 +173,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`OnPageResourceIssueItemInfo`](OnPageResourceIssueItemInfo.md)
@@ -182,3 +191,7 @@ ___
 #### Defined in
 
 [main.ts:144619](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L144619)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

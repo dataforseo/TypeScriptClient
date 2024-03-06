@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / KeywordIntentInfo
 
 # Class: KeywordIntentInfo
@@ -66,6 +70,7 @@ possible values: informational, navigational, commercial, transactional
 
 ___
 
+
 ### probability
 
 • `Optional` **probability**: `number`
@@ -103,6 +108,7 @@ search intent probability
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -123,6 +129,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`KeywordIntentInfo`](KeywordIntentInfo.md)
@@ -140,3 +147,7 @@ ___
 #### Defined in
 
 [main.ts:82822](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L82822)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IReviewMentionInfo
 
 # Interface: IReviewMentionInfo
@@ -35,6 +39,7 @@ count of negative reviews by criterion
 
 ___
 
+
 ### positive\_count
 
 • `Optional` **positive\_count**: `number`
@@ -46,6 +51,7 @@ count of positive reviews by criterion
 [main.ts:195831](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L195831)
 
 ___
+
 
 ### positive\_score
 
@@ -59,6 +65,7 @@ positive score by criterion
 
 ___
 
+
 ### title
 
 • `Optional` **title**: `string`
@@ -70,6 +77,7 @@ title of the evaluated criterion
 [main.ts:195827](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L195827)
 
 ___
+
 
 ### total\_count
 
@@ -83,6 +91,7 @@ count of all reviews by criterion
 
 ___
 
+
 ### visible\_by\_default
 
 • `Optional` **visible\_by\_default**: `boolean`
@@ -93,3 +102,7 @@ indicates whether the review element is visible by default
 #### Defined in
 
 [main.ts:195838](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L195838)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

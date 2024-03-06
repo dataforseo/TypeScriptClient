@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / OnPageRawHtmlRequestInfo
 
 # Class: OnPageRawHtmlRequestInfo
@@ -69,6 +73,7 @@ example:
 
 ___
 
+
 ### url
 
 • `Optional` **url**: `string`
@@ -108,6 +113,7 @@ Note: this field is optional if the task was set using the Instant Pages endpoin
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -128,6 +134,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`OnPageRawHtmlRequestInfo`](OnPageRawHtmlRequestInfo.md)
@@ -145,3 +152,7 @@ ___
 #### Defined in
 
 [main.ts:151168](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L151168)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IAppRankedSerpElementInfo
 
 # Interface: IAppRankedSerpElementInfo
@@ -36,6 +40,7 @@ you can use it to make sure that we provided accurate results
 
 ___
 
+
 ### last\_updated\_time
 
 • `Optional` **last\_updated\_time**: `string`
@@ -50,6 +55,7 @@ example:
 [main.ts:108695](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L108695)
 
 ___
+
 
 ### previous\_updated\_time
 
@@ -67,6 +73,7 @@ in this case, will equal null
 
 ___
 
+
 ### se\_results\_count
 
 • `Optional` **se\_results\_count**: `string`
@@ -78,6 +85,7 @@ number of search results for the returned keyword
 [main.ts:108690](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L108690)
 
 ___
+
 
 ### se\_type
 
@@ -91,6 +99,7 @@ search engine type
 
 ___
 
+
 ### serp\_item
 
 • `Optional` **serp\_item**: [`BaseAppDataSerpElementItem`](../classes/BaseAppDataSerpElementItem.md)
@@ -101,3 +110,7 @@ the list of supported SERP elements can be found below
 #### Defined in
 
 [main.ts:108685](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L108685)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

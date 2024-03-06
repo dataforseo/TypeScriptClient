@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IMerchantGoogleProductInfoTaskPostRequestInfo
 
 # Interface: IMerchantGoogleProductInfoTaskPostRequestInfo
@@ -46,6 +50,7 @@ en
 
 ___
 
+
 ### language\_name
 
 • `Optional` **language\_name**: `string`
@@ -63,6 +68,7 @@ English
 
 ___
 
+
 ### location\_code
 
 • `Optional` **location\_code**: `number`
@@ -79,6 +85,7 @@ example:
 [main.ts:168604](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L168604)
 
 ___
+
 
 ### location\_coordinate
 
@@ -99,6 +106,7 @@ example:
 
 ___
 
+
 ### location\_name
 
 • `Optional` **location\_name**: `string`
@@ -115,6 +123,7 @@ London,England,United Kingdom
 [main.ts:168597](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L168597)
 
 ___
+
 
 ### pingback\_url
 
@@ -136,6 +145,7 @@ i.a., the # symbol will be encoded into %23
 
 ___
 
+
 ### postback\_data
 
 • `Optional` **postback\_data**: `string`
@@ -151,6 +161,7 @@ advanced, html
 [main.ts:168656](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L168656)
 
 ___
+
 
 ### postback\_url
 
@@ -172,6 +183,7 @@ i.a., the # symbol will be encoded into %23
 
 ___
 
+
 ### priority
 
 • `Optional` **priority**: `number`
@@ -190,6 +202,7 @@ The cost can be calculated on the Pricing page.
 
 ___
 
+
 ### product\_id
 
 • `Optional` **product\_id**: `string`
@@ -205,6 +218,7 @@ learn more about the parameter in this help center guide
 [main.ts:168582](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L168582)
 
 ___
+
 
 ### se\_domain
 
@@ -223,6 +237,7 @@ google.co.uk, google.com.au, google.de, etc.
 
 ___
 
+
 ### tag
 
 • `Optional` **tag**: `string`
@@ -236,3 +251,7 @@ you will find the specified tag value in the data object of the response
 #### Defined in
 
 [main.ts:168640](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L168640)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

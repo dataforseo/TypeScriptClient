@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IKnowledgeGraphHotelsBookingElement
 
 # Interface: IKnowledgeGraphHotelsBookingElement
@@ -36,6 +40,7 @@ the description of the results element in SERP
 
 ___
 
+
 ### domain
 
 • `Optional` **domain**: `string`
@@ -47,6 +52,7 @@ domain in the URL
 [main.ts:35871](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L35871)
 
 ___
+
 
 ### is\_paid
 
@@ -60,6 +66,7 @@ indicates whether the element is an ad
 
 ___
 
+
 ### price
 
 • `Optional` **price**: [`PriceInfo`](../classes/PriceInfo.md)
@@ -71,6 +78,7 @@ price indicated in the element
 [main.ts:35873](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L35873)
 
 ___
+
 
 ### source
 
@@ -85,6 +93,7 @@ indicates the source of information included in the shopping_element
 
 ___
 
+
 ### type
 
 • `Optional` **type**: `string`
@@ -97,6 +106,7 @@ type of element
 
 ___
 
+
 ### url
 
 • `Optional` **url**: `string`
@@ -106,3 +116,7 @@ URL
 #### Defined in
 
 [main.ts:35869](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L35869)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

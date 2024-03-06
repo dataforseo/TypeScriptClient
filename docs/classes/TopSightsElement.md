@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / TopSightsElement
 
 # Class: TopSightsElement
@@ -68,11 +72,12 @@ description of the results element in SERP
 
 ___
 
+
 ### rating
 
 • `Optional` **rating**: [`RatingInfo`](RatingInfo.md)
 
-the item’s rating 
+the item’s rating
 the popularity rate based on reviews and displayed in SERP
 
 #### Implementation of
@@ -84,6 +89,7 @@ the popularity rate based on reviews and displayed in SERP
 [main.ts:31623](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L31623)
 
 ___
+
 
 ### title
 
@@ -101,6 +107,7 @@ title of the row
 
 ___
 
+
 ### type
 
 • `Optional` **type**: `string`
@@ -116,6 +123,7 @@ type of element
 [main.ts:31614](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L31614)
 
 ___
+
 
 ### url
 
@@ -153,6 +161,7 @@ URL
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -173,6 +182,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`TopSightsElement`](TopSightsElement.md)
@@ -190,3 +200,7 @@ ___
 #### Defined in
 
 [main.ts:31650](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L31650)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / MapsPaidItemSerpElementItem
 
 # Class: MapsPaidItemSerpElementItem
@@ -5,7 +9,7 @@
 ## Hierarchy
 
 - [`BaseSerpElementItem`](BaseSerpElementItem.md)
-
+  
   ↳ **`MapsPaidItemSerpElementItem`**
 
 ## Implements
@@ -79,6 +83,7 @@
 
 ___
 
+
 ### domain
 
 • `Optional` **domain**: `string`
@@ -94,6 +99,7 @@ domain in the SERP element
 [main.ts:38717](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L38717)
 
 ___
+
 
 ### rank\_absolute
 
@@ -111,6 +117,7 @@ absolute position among all the elements in SERP
 [main.ts:38715](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L38715)
 
 ___
+
 
 ### rank\_group
 
@@ -130,11 +137,12 @@ positions of elements with different type values are omitted from rank_group
 
 ___
 
+
 ### rating
 
 • `Optional` **rating**: [`RatingInfo`](RatingInfo.md)
 
-the element’s rating 
+the element’s rating
 the popularity rate based on reviews and displayed in SERP
 
 #### Implementation of
@@ -146,6 +154,7 @@ the popularity rate based on reviews and displayed in SERP
 [main.ts:38724](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L38724)
 
 ___
+
 
 ### rating\_distribution
 
@@ -168,6 +177,7 @@ the object displays the number of 1-star to 5-star ratings, as reviewed by users
 
 ___
 
+
 ### title
 
 • `Optional` **title**: `string`
@@ -183,6 +193,7 @@ title of the result in SERP
 [main.ts:38719](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L38719)
 
 ___
+
 
 ### url
 
@@ -224,6 +235,7 @@ relevant URL in SERP
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -248,6 +260,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`MapsPaidItemSerpElementItem`](MapsPaidItemSerpElementItem.md)
@@ -269,3 +282,7 @@ ___
 #### Defined in
 
 [main.ts:38759](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L38759)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

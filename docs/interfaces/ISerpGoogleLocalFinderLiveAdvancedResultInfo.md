@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / ISerpGoogleLocalFinderLiveAdvancedResultInfo
 
 # Interface: ISerpGoogleLocalFinderLiveAdvancedResultInfo
@@ -42,6 +46,7 @@ you can use it to make sure that we provided exact results
 
 ___
 
+
 ### datetime
 
 • `Optional` **datetime**: `string`
@@ -56,6 +61,7 @@ example:
 [main.ts:41351](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L41351)
 
 ___
+
 
 ### item\_types
 
@@ -72,6 +78,7 @@ local_pack
 
 ___
 
+
 ### items
 
 • `Optional` **items**: [`BaseSerpElementItem`](../classes/BaseSerpElementItem.md)[]
@@ -84,6 +91,7 @@ elements of search results found in SERP
 
 ___
 
+
 ### items\_count
 
 • `Optional` **items\_count**: `number`
@@ -95,6 +103,7 @@ the number of results returned in the items array
 [main.ts:41363](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L41363)
 
 ___
+
 
 ### keyword
 
@@ -109,6 +118,7 @@ the keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to
 
 ___
 
+
 ### language\_code
 
 • `Optional` **language\_code**: `string`
@@ -120,6 +130,7 @@ language code in a POST array
 [main.ts:41343](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L41343)
 
 ___
+
 
 ### location\_code
 
@@ -133,6 +144,7 @@ location code in a POST array
 
 ___
 
+
 ### se\_domain
 
 • `Optional` **se\_domain**: `string`
@@ -145,6 +157,7 @@ search engine domain in a POST array
 
 ___
 
+
 ### se\_results\_count
 
 • `Optional` **se\_results\_count**: `number`
@@ -156,6 +169,7 @@ total number of results in SERP
 [main.ts:41361](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L41361)
 
 ___
+
 
 ### spell
 
@@ -170,6 +184,7 @@ if the search engine provided results for a keyword that was corrected, we will 
 
 ___
 
+
 ### type
 
 • `Optional` **type**: `string`
@@ -179,3 +194,7 @@ type of element
 #### Defined in
 
 [main.ts:41337](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L41337)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

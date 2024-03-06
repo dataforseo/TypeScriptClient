@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IImagesDataforseoLabsSerpElementItem
 
 # Interface: IImagesDataforseoLabsSerpElementItem
@@ -5,7 +9,7 @@
 ## Hierarchy
 
 - [`IBaseDataforseoLabsSerpElementItem`](IBaseDataforseoLabsSerpElementItem.md)
-
+  
   ↳ **`IImagesDataforseoLabsSerpElementItem`**
 
 ## Implemented by
@@ -43,6 +47,7 @@ elements of search results found in SERP
 
 ___
 
+
 ### position
 
 • `Optional` **position**: `string`
@@ -57,6 +62,7 @@ left, right
 
 ___
 
+
 ### rank\_absolute
 
 • `Optional` **rank\_absolute**: `number`
@@ -69,6 +75,7 @@ absolute position among all the elements in SERP
 [main.ts:94647](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L94647)
 
 ___
+
 
 ### rank\_group
 
@@ -83,6 +90,7 @@ positions of elements with different type values are omitted from rank_group
 
 ___
 
+
 ### related\_image\_searches
 
 • `Optional` **related\_image\_searches**: [`RelatedImageSearchesElement`](../classes/RelatedImageSearchesElement.md)[]
@@ -96,6 +104,7 @@ if there are none, equals null
 
 ___
 
+
 ### title
 
 • `Optional` **title**: `string`
@@ -107,6 +116,7 @@ title of the result in SERP
 [main.ts:94655](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L94655)
 
 ___
+
 
 ### url
 
@@ -120,6 +130,7 @@ URL link
 
 ___
 
+
 ### xpath
 
 • `Optional` **xpath**: `string`
@@ -129,3 +140,7 @@ the XPath of the element
 #### Defined in
 
 [main.ts:94653](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L94653)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

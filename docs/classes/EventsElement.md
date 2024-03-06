@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / EventsElement
 
 # Class: EventsElement
@@ -67,6 +71,7 @@ text alongside the link title
 
 ___
 
+
 ### title
 
 • `Optional` **title**: `string`
@@ -83,6 +88,7 @@ title of the row
 
 ___
 
+
 ### type
 
 • `Optional` **type**: `string`
@@ -98,6 +104,7 @@ type of element
 [main.ts:30968](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L30968)
 
 ___
+
 
 ### url
 
@@ -135,6 +142,7 @@ URL
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -155,6 +163,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`EventsElement`](EventsElement.md)
@@ -172,3 +181,7 @@ ___
 #### Defined in
 
 [main.ts:31000](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L31000)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

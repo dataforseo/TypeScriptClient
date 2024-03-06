@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IKeywordsDataGoogleTrendsLocationsResultInfo
 
 # Interface: IKeywordsDataGoogleTrendsLocationsResultInfo
@@ -36,6 +40,7 @@ ISO country code of the location
 
 ___
 
+
 ### geo\_id
 
 • `Optional` **geo\_id**: `string`
@@ -48,6 +53,7 @@ you can use this field for matching obtained results with the location_code para
 [main.ts:119102](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L119102)
 
 ___
+
 
 ### geo\_name
 
@@ -62,6 +68,7 @@ you can use this field for matching obtained results with the location_name para
 
 ___
 
+
 ### location\_code
 
 • `Optional` **location\_code**: `number`
@@ -73,6 +80,7 @@ location code
 [main.ts:119080](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L119080)
 
 ___
+
 
 ### location\_code\_parent
 
@@ -93,6 +101,7 @@ where location_code_parent corresponds to:
 
 ___
 
+
 ### location\_name
 
 • `Optional` **location\_name**: `string`
@@ -105,6 +114,7 @@ full name of the location
 
 ___
 
+
 ### location\_type
 
 • `Optional` **location\_type**: `string`
@@ -115,3 +125,7 @@ possible values according to Google’s target types
 #### Defined in
 
 [main.ts:119096](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L119096)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

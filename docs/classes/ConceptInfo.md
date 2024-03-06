@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / ConceptInfo
 
 # Class: ConceptInfo
@@ -65,6 +69,7 @@ the concept group of the concept details
 
 ___
 
+
 ### name
 
 • `Optional` **name**: `string`
@@ -101,6 +106,7 @@ the concept name for the keyword in the concept_group
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -121,6 +127,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`ConceptInfo`](ConceptInfo.md)
@@ -138,3 +145,7 @@ ___
 #### Defined in
 
 [main.ts:114980](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L114980)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / AppendixDataInfo
 
 # Class: AppendixDataInfo
@@ -92,6 +96,7 @@
 
 ___
 
+
 ### appendix
 
 • `Optional` **appendix**: [`AppendixAppendixDataInfo`](AppendixAppendixDataInfo.md)
@@ -105,6 +110,7 @@ ___
 [main.ts:208909](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L208909)
 
 ___
+
 
 ### backlinks
 
@@ -120,6 +126,7 @@ ___
 
 ___
 
+
 ### business\_data
 
 • `Optional` **business\_data**: [`AppendixBusinessDataLimitsRatesDataInfo`](AppendixBusinessDataLimitsRatesDataInfo.md)
@@ -133,6 +140,7 @@ ___
 [main.ts:208919](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L208919)
 
 ___
+
 
 ### content\_analysis
 
@@ -148,6 +156,7 @@ ___
 
 ___
 
+
 ### content\_generation
 
 • `Optional` **content\_generation**: [`AppendixContentGenerationLimitsRatesDataInfo`](AppendixContentGenerationLimitsRatesDataInfo.md)
@@ -161,6 +170,7 @@ ___
 [main.ts:208927](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L208927)
 
 ___
+
 
 ### dataforseo\_labs
 
@@ -176,6 +186,7 @@ ___
 
 ___
 
+
 ### domain\_analytics
 
 • `Optional` **domain\_analytics**: [`AppendixDomainAnalyticsLimitsRatesDataInfo`](AppendixDomainAnalyticsLimitsRatesDataInfo.md)
@@ -189,6 +200,7 @@ ___
 [main.ts:208913](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L208913)
 
 ___
+
 
 ### keywords\_data
 
@@ -204,6 +216,7 @@ ___
 
 ___
 
+
 ### merchant
 
 • `Optional` **merchant**: [`AppendixMerchantLimitsRatesDataInfo`](AppendixMerchantLimitsRatesDataInfo.md)
@@ -217,6 +230,7 @@ ___
 [main.ts:208915](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L208915)
 
 ___
+
 
 ### on\_page
 
@@ -232,6 +246,7 @@ ___
 
 ___
 
+
 ### reviews
 
 • `Optional` **reviews**: [`AppendixSerpLimitsRatesDataInfo`](AppendixSerpLimitsRatesDataInfo.md)
@@ -245,6 +260,7 @@ ___
 [main.ts:208932](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L208932)
 
 ___
+
 
 ### serp
 
@@ -260,6 +276,7 @@ ___
 
 ___
 
+
 ### social
 
 • `Optional` **social**: [`AppendixSerpLimitsRatesDataInfo`](AppendixSerpLimitsRatesDataInfo.md)
@@ -273,6 +290,7 @@ ___
 [main.ts:208934](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L208934)
 
 ___
+
 
 ### total
 
@@ -290,6 +308,7 @@ total amount of money deposited to your account
 
 ___
 
+
 ### total\_app\_data
 
 • `Optional` **total\_app\_data**: `number`
@@ -303,6 +322,7 @@ ___
 [main.ts:208924](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L208924)
 
 ___
+
 
 ### total\_appendix
 
@@ -318,6 +338,7 @@ ___
 
 ___
 
+
 ### total\_backlinks
 
 • `Optional` **total\_backlinks**: `number`
@@ -331,6 +352,7 @@ ___
 [main.ts:208922](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L208922)
 
 ___
+
 
 ### total\_business\_data
 
@@ -346,6 +368,7 @@ ___
 
 ___
 
+
 ### total\_content\_analysis
 
 • `Optional` **total\_content\_analysis**: `number`
@@ -359,6 +382,7 @@ ___
 [main.ts:208926](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L208926)
 
 ___
+
 
 ### total\_content\_generation
 
@@ -374,6 +398,7 @@ ___
 
 ___
 
+
 ### total\_dataforseo\_labs
 
 • `Optional` **total\_dataforseo\_labs**: `number`
@@ -387,6 +412,7 @@ ___
 [main.ts:208912](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L208912)
 
 ___
+
 
 ### total\_domain\_analytics
 
@@ -402,6 +428,7 @@ ___
 
 ___
 
+
 ### total\_keywords\_data
 
 • `Optional` **total\_keywords\_data**: `number`
@@ -415,6 +442,7 @@ ___
 [main.ts:208908](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L208908)
 
 ___
+
 
 ### total\_merchant
 
@@ -430,6 +458,7 @@ ___
 
 ___
 
+
 ### total\_on\_page
 
 • `Optional` **total\_on\_page**: `number`
@@ -443,6 +472,7 @@ ___
 [main.ts:208918](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L208918)
 
 ___
+
 
 ### total\_reviews
 
@@ -458,6 +488,7 @@ ___
 
 ___
 
+
 ### total\_serp
 
 • `Optional` **total\_serp**: `number`
@@ -471,6 +502,7 @@ ___
 [main.ts:208906](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L208906)
 
 ___
+
 
 ### total\_social
 
@@ -486,6 +518,7 @@ ___
 
 ___
 
+
 ### total\_traffic\_analytics
 
 • `Optional` **total\_traffic\_analytics**: `number`
@@ -499,6 +532,7 @@ ___
 [main.ts:208929](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L208929)
 
 ___
+
 
 ### traffic\_analytics
 
@@ -534,6 +568,7 @@ ___
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -554,6 +589,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`AppendixDataInfo`](AppendixDataInfo.md)
@@ -571,3 +607,7 @@ ___
 #### Defined in
 
 [main.ts:208987](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L208987)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

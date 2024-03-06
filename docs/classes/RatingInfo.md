@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / RatingInfo
 
 # Class: RatingInfo
@@ -67,6 +71,7 @@ the maximum value for a rating_type
 
 ___
 
+
 ### rating\_type
 
 • `Optional` **rating\_type**: `string`
@@ -84,6 +89,7 @@ here you can find the following elements: Max5, Percents, CustomMax
 
 ___
 
+
 ### value
 
 • `Optional` **value**: `number`
@@ -99,6 +105,7 @@ the value of the rating
 [main.ts:27757](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L27757)
 
 ___
+
 
 ### votes\_count
 
@@ -136,6 +143,7 @@ the amount of feedback
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -156,6 +164,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`RatingInfo`](RatingInfo.md)
@@ -173,3 +182,7 @@ ___
 #### Defined in
 
 [main.ts:27787](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L27787)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

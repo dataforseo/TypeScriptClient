@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / BusinessDataGoogleHotelSearchesItem
 
 # Class: BusinessDataGoogleHotelSearchesItem
@@ -74,6 +78,7 @@ CgoI-KWyzenM_MV3EAE
 
 ___
 
+
 ### is\_paid
 
 • `Optional` **is\_paid**: `boolean`
@@ -92,6 +97,7 @@ if false, related hotel_search_item is an organic hotel listing
 
 ___
 
+
 ### location
 
 • `Optional` **location**: [`GpsCoordinatesLocationInfo`](GpsCoordinatesLocationInfo.md)
@@ -107,6 +113,7 @@ GPS coordinates of the hotel’s location
 [main.ts:193821](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L193821)
 
 ___
+
 
 ### overview\_images
 
@@ -124,6 +131,7 @@ featured images for a hotel
 
 ___
 
+
 ### prices
 
 • `Optional` **prices**: [`HotelPriceInfo`](HotelPriceInfo.md)
@@ -140,6 +148,7 @@ hotel price
 
 ___
 
+
 ### reviews
 
 • `Optional` **reviews**: [`HotelReviewInfo`](HotelReviewInfo.md)
@@ -155,6 +164,7 @@ hotel reviews and rating information
 [main.ts:193823](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L193823)
 
 ___
+
 
 ### stars
 
@@ -173,6 +183,7 @@ class rating that ranges between 1-5 stars
 
 ___
 
+
 ### title
 
 • `Optional` **title**: `string`
@@ -188,6 +199,7 @@ title of the hotel
 [main.ts:193812](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L193812)
 
 ___
+
 
 ### type
 
@@ -225,6 +237,7 @@ type of element
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -245,6 +258,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`BusinessDataGoogleHotelSearchesItem`](BusinessDataGoogleHotelSearchesItem.md)
@@ -262,3 +276,7 @@ ___
 #### Defined in
 
 [main.ts:193862](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L193862)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IOnPageInstantPagesResultInfo
 
 # Interface: IOnPageInstantPagesResultInfo
@@ -36,6 +40,7 @@ you can find the full list of IPs used by our crawler in the Overview section
 
 ___
 
+
 ### crawl\_progress
 
 • `Optional` **crawl\_progress**: `string`
@@ -48,6 +53,7 @@ possible values: in_progress, finished
 [main.ts:153383](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L153383)
 
 ___
+
 
 ### crawl\_status
 
@@ -62,6 +68,7 @@ in this case the value will be null
 
 ___
 
+
 ### items
 
 • `Optional` **items**: [`BaseOnPageResourceItemInfo`](../classes/BaseOnPageResourceItemInfo.md)[]
@@ -74,6 +81,7 @@ items array
 
 ___
 
+
 ### items\_count
 
 • `Optional` **items\_count**: `number`
@@ -83,3 +91,7 @@ number of items in the results array
 #### Defined in
 
 [main.ts:153392](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L153392)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

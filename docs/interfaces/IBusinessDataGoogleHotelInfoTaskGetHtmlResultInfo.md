@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IBusinessDataGoogleHotelInfoTaskGetHtmlResultInfo
 
 # Interface: IBusinessDataGoogleHotelInfoTaskGetHtmlResultInfo
@@ -40,6 +44,7 @@ example:
 
 ___
 
+
 ### items
 
 • `Optional` **items**: [`HtmlItem`](../classes/HtmlItem.md)[]
@@ -52,6 +57,7 @@ HTML pages
 
 ___
 
+
 ### items\_count
 
 • `Optional` **items\_count**: `number`
@@ -63,6 +69,7 @@ the number of results returned in the items array
 [main.ts:196412](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L196412)
 
 ___
+
 
 ### keyword
 
@@ -79,6 +86,7 @@ CgoI-KWyzenM_MV3EAE
 
 ___
 
+
 ### language\_code
 
 • `Optional` **language\_code**: `string`
@@ -90,6 +98,7 @@ language code in a POST array
 [main.ts:196405](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L196405)
 
 ___
+
 
 ### location\_code
 
@@ -103,6 +112,7 @@ location code in a POST array
 
 ___
 
+
 ### se\_domain
 
 • `Optional` **se\_domain**: `string`
@@ -113,6 +123,7 @@ ___
 
 ___
 
+
 ### type
 
 • `Optional` **type**: `string`
@@ -120,3 +131,7 @@ ___
 #### Defined in
 
 [main.ts:196415](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L196415)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

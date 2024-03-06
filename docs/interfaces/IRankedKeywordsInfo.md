@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IRankedKeywordsInfo
 
 # Interface: IRankedKeywordsInfo
@@ -32,6 +36,7 @@ number of keywords for which the page is ranked in top 10 search results
 
 ___
 
+
 ### page\_from\_keywords\_count\_top\_100
 
 • `Optional` **page\_from\_keywords\_count\_top\_100**: `number`
@@ -44,6 +49,7 @@ number of keywords for which the page is ranked in top 100 search results
 
 ___
 
+
 ### page\_from\_keywords\_count\_top\_3
 
 • `Optional` **page\_from\_keywords\_count\_top\_3**: `number`
@@ -53,3 +59,7 @@ number of keywords for which the page is ranked in top 3 search results
 #### Defined in
 
 [main.ts:130936](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L130936)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

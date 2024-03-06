@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IScholarlyArticlesElement
 
 # Interface: IScholarlyArticlesElement
@@ -34,6 +38,7 @@ author
 
 ___
 
+
 ### description
 
 • `Optional` **description**: `string`
@@ -45,6 +50,7 @@ description of the results element in SERP
 [main.ts:31863](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L31863)
 
 ___
+
 
 ### title
 
@@ -58,6 +64,7 @@ title of the row
 
 ___
 
+
 ### type
 
 • `Optional` **type**: `string`
@@ -70,6 +77,7 @@ type of element
 
 ___
 
+
 ### url
 
 • `Optional` **url**: `string`
@@ -79,3 +87,7 @@ URL
 #### Defined in
 
 [main.ts:31859](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L31859)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

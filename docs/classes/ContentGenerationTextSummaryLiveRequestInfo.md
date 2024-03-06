@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / ContentGenerationTextSummaryLiveRequestInfo
 
 # Class: ContentGenerationTextSummaryLiveRequestInfo
@@ -71,6 +75,7 @@ default value: 10
 
 ___
 
+
 ### language\_code
 
 • `Optional` **language\_code**: `string`
@@ -89,6 +94,7 @@ see the List of Languages for Content Generation Text Summary API
 
 ___
 
+
 ### language\_name
 
 • `Optional` **language\_name**: `string`
@@ -106,6 +112,7 @@ see the List of Languages for Content Generation Text Summary API
 [main.ts:162134](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L162134)
 
 ___
+
 
 ### tag
 
@@ -126,6 +133,7 @@ you will find the specified tag value in the data object of the response
 [main.ts:162149](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L162149)
 
 ___
+
 
 ### text
 
@@ -166,6 +174,7 @@ learn more about tokens on our help center
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -186,6 +195,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`ContentGenerationTextSummaryLiveRequestInfo`](ContentGenerationTextSummaryLiveRequestInfo.md)
@@ -203,3 +213,7 @@ ___
 #### Defined in
 
 [main.ts:162176](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L162176)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

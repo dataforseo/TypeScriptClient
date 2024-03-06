@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / BaseLocalBusinessLink
 
 # Class: BaseLocalBusinessLink
@@ -5,11 +9,11 @@
 ## Hierarchy
 
 - **`BaseLocalBusinessLink`**
-
+  
   ↳ [`LocalBusinessReservationLink`](LocalBusinessReservationLink.md)
-
+  
   ↳ [`LocalBusinessOrderLink`](LocalBusinessOrderLink.md)
-
+  
   ↳ [`LocalBusinessMenuLink`](LocalBusinessMenuLink.md)
 
 ## Implements
@@ -88,6 +92,7 @@
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -108,6 +113,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`BaseLocalBusinessLink`](BaseLocalBusinessLink.md)
@@ -125,3 +131,7 @@ ___
 #### Defined in
 
 [main.ts:22228](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L22228)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

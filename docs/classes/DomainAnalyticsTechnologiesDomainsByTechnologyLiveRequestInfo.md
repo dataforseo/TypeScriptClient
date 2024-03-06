@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / DomainAnalyticsTechnologiesDomainsByTechnologyLiveRequestInfo
 
 # Class: DomainAnalyticsTechnologiesDomainsByTechnologyLiveRequestInfo
@@ -79,6 +83,7 @@ example:
 
 ___
 
+
 ### filters
 
 • `Optional` **filters**: `any`[]
@@ -110,6 +115,7 @@ for more information about filters, please refer to Domain Analytics Technologie
 
 ___
 
+
 ### groups
 
 • `Optional` **groups**: `string`[]
@@ -130,6 +136,7 @@ example:
 [main.ts:73931](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L73931)
 
 ___
+
 
 ### keywords
 
@@ -152,6 +159,7 @@ example:
 
 ___
 
+
 ### limit
 
 • `Optional` **limit**: `number`
@@ -170,6 +178,7 @@ maximum value: 10000
 [main.ts:73998](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L73998)
 
 ___
+
 
 ### mode
 
@@ -192,6 +201,7 @@ default value: as_is
 
 ___
 
+
 ### offset
 
 • `Optional` **offset**: `number`
@@ -212,6 +222,7 @@ use the offset_token if you would like to offset more results
 [main.ts:74005](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L74005)
 
 ___
+
 
 ### offset\_token
 
@@ -234,6 +245,7 @@ Note: if the offset_token is specified in the request, all other parameters shou
 [main.ts:74013](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L74013)
 
 ___
+
 
 ### order\_by
 
@@ -266,6 +278,7 @@ example:
 
 ___
 
+
 ### technologies
 
 • `Optional` **technologies**: `string`[]
@@ -286,6 +299,7 @@ example:
 [main.ts:73945](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L73945)
 
 ___
+
 
 ### technology\_paths
 
@@ -331,6 +345,7 @@ example:
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -351,6 +366,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`DomainAnalyticsTechnologiesDomainsByTechnologyLiveRequestInfo`](DomainAnalyticsTechnologiesDomainsByTechnologyLiveRequestInfo.md)
@@ -368,3 +384,7 @@ ___
 #### Defined in
 
 [main.ts:74074](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L74074)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

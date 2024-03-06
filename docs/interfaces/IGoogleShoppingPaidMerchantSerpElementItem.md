@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IGoogleShoppingPaidMerchantSerpElementItem
 
 # Interface: IGoogleShoppingPaidMerchantSerpElementItem
@@ -5,7 +9,7 @@
 ## Hierarchy
 
 - [`IBaseMerchantSerpElementItem`](IBaseMerchantSerpElementItem.md)
-
+  
   ↳ **`IGoogleShoppingPaidMerchantSerpElementItem`**
 
 ## Implemented by
@@ -44,6 +48,7 @@ description of the product in Google Shopping SERP
 
 ___
 
+
 ### domain
 
 • `Optional` **domain**: `string`
@@ -55,6 +60,7 @@ domain in SERP
 [main.ts:165027](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L165027)
 
 ___
+
 
 ### position
 
@@ -70,6 +76,7 @@ left, right
 
 ___
 
+
 ### rank\_absolute
 
 • `Optional` **rank\_absolute**: `number`
@@ -82,6 +89,7 @@ absolute position among all the elements found in Google Shopping SERP
 [main.ts:165019](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L165019)
 
 ___
+
 
 ### rank\_group
 
@@ -96,6 +104,7 @@ positions of elements with different type values are omitted from rank_group
 
 ___
 
+
 ### shop\_ad\_aclk
 
 • `Optional` **shop\_ad\_aclk**: `string`
@@ -109,6 +118,7 @@ using this parameter you can get a URL of the advertisement in Google Shopping S
 
 ___
 
+
 ### title
 
 • `Optional` **title**: `string`
@@ -120,6 +130,7 @@ product title
 [main.ts:165029](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L165029)
 
 ___
+
 
 ### url
 
@@ -133,6 +144,7 @@ URL to the product page on the seller’s website
 
 ___
 
+
 ### xpath
 
 • `Optional` **xpath**: `string`
@@ -142,3 +154,7 @@ XPath of the element
 #### Defined in
 
 [main.ts:165025](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L165025)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / BacklinksTimeseriesNewLostSummaryLiveItem
 
 # Class: BacklinksTimeseriesNewLostSummaryLiveItem
@@ -74,6 +78,7 @@ example:
 
 ___
 
+
 ### lost\_backlinks
 
 • `Optional` **lost\_backlinks**: `number`
@@ -90,6 +95,7 @@ number of lost backlinks of the target
 [main.ts:138990](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L138990)
 
 ___
+
 
 ### lost\_referring\_domains
 
@@ -108,6 +114,7 @@ number of lost referring domains of the target
 
 ___
 
+
 ### lost\_referring\_main\_domains
 
 • `Optional` **lost\_referring\_main\_domains**: `number`
@@ -124,6 +131,7 @@ number of lost referring main domains of the target
 [main.ts:139002](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L139002)
 
 ___
+
 
 ### new\_backlinks
 
@@ -142,6 +150,7 @@ number of new backlinks pointing to the target
 
 ___
 
+
 ### new\_referring\_domains
 
 • `Optional` **new\_referring\_domains**: `number`
@@ -159,6 +168,7 @@ number of new referring domains pointing to the target
 
 ___
 
+
 ### new\_referring\_main\_domains
 
 • `Optional` **new\_referring\_main\_domains**: `number`
@@ -175,6 +185,7 @@ number of new referring main domains pointing to the target
 [main.ts:138999](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L138999)
 
 ___
+
 
 ### type
 
@@ -212,6 +223,7 @@ type of element
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -232,6 +244,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`BacklinksTimeseriesNewLostSummaryLiveItem`](BacklinksTimeseriesNewLostSummaryLiveItem.md)
@@ -249,3 +262,7 @@ ___
 #### Defined in
 
 [main.ts:139032](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L139032)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

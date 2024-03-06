@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IContentGenerationGenerateTextLiveRequestInfo
 
 # Interface: IContentGenerationGenerateTextLiveRequestInfo
@@ -43,6 +47,7 @@ learn more about this parameter on our help center
 
 ___
 
+
 ### description
 
 • `Optional` **description**: `string`
@@ -58,6 +63,7 @@ learn more about this parameter on our help center
 
 ___
 
+
 ### include\_conclusion
 
 • `Optional` **include\_conclusion**: `boolean`
@@ -71,6 +77,7 @@ if set to true, generated content will include a logical conclusion
 [main.ts:160364](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L160364)
 
 ___
+
 
 ### meta\_keywords
 
@@ -88,6 +95,7 @@ example: "meta_keywords": ["iPhone","sell","CEO"]
 
 ___
 
+
 ### sub\_topics
 
 • `Optional` **sub\_topics**: `string`[]
@@ -103,6 +111,7 @@ example: "sub_topics": ["Apple","Pixar","Amazing Products"]
 [main.ts:160342](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L160342)
 
 ___
+
 
 ### supplement\_token
 
@@ -120,6 +129,7 @@ supplement_token values are unique for each subsequent task
 
 ___
 
+
 ### tag
 
 • `Optional` **tag**: `string`
@@ -136,6 +146,7 @@ you will find the specified tag value in the data object of the response
 
 ___
 
+
 ### topic
 
 • `Optional` **topic**: `string`
@@ -151,6 +162,7 @@ can contain from 1 to 50 tokens
 
 ___
 
+
 ### word\_count
 
 • `Optional` **word\_count**: `number`
@@ -163,3 +175,7 @@ can take values from 1 to 1000
 #### Defined in
 
 [main.ts:160336](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L160336)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

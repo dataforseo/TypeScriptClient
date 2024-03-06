@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / AppRankedSerpElementInfo
 
 # Class: AppRankedSerpElementInfo
@@ -70,6 +74,7 @@ you can use it to make sure that we provided accurate results
 
 ___
 
+
 ### last\_updated\_time
 
 • `Optional` **last\_updated\_time**: `string`
@@ -88,6 +93,7 @@ example:
 [main.ts:108623](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L108623)
 
 ___
+
 
 ### previous\_updated\_time
 
@@ -109,6 +115,7 @@ in this case, will equal null
 
 ___
 
+
 ### se\_results\_count
 
 • `Optional` **se\_results\_count**: `string`
@@ -125,6 +132,7 @@ number of search results for the returned keyword
 
 ___
 
+
 ### se\_type
 
 • `Optional` **se\_type**: `string`
@@ -140,6 +148,7 @@ search engine type
 [main.ts:108610](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L108610)
 
 ___
+
 
 ### serp\_item
 
@@ -178,6 +187,7 @@ the list of supported SERP elements can be found below
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -198,6 +208,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`AppRankedSerpElementInfo`](AppRankedSerpElementInfo.md)
@@ -215,3 +226,7 @@ ___
 #### Defined in
 
 [main.ts:108657](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L108657)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

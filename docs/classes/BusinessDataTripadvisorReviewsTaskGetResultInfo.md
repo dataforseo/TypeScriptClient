@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / BusinessDataTripadvisorReviewsTaskGetResultInfo
 
 # Class: BusinessDataTripadvisorReviewsTaskGetResultInfo
@@ -76,6 +80,7 @@ you can use it to make sure that we provided accurate results
 
 ___
 
+
 ### datetime
 
 • `Optional` **datetime**: `string`
@@ -95,6 +100,7 @@ example:
 
 ___
 
+
 ### items
 
 • `Optional` **items**: [`BaseBusinessDataSerpElementItem`](BaseBusinessDataSerpElementItem.md)[]
@@ -111,6 +117,7 @@ you can get more results by using the depth parameter when setting a task
 [main.ts:202563](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L202563)
 
 ___
+
 
 ### items\_count
 
@@ -129,6 +136,7 @@ you can get more results by using the depth parameter when setting a task
 
 ___
 
+
 ### language\_code
 
 • `Optional` **language\_code**: `string`
@@ -144,6 +152,7 @@ language code in a POST array
 [main.ts:202565](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L202565)
 
 ___
+
 
 ### location
 
@@ -162,6 +171,7 @@ address of the local establishment for which the reviews are collected
 
 ___
 
+
 ### rating
 
 • `Optional` **rating**: [`RatingInfo`](RatingInfo.md)
@@ -179,6 +189,7 @@ popularity rate based on reviews and displayed in SERP
 
 ___
 
+
 ### reviews\_count
 
 • `Optional` **reviews\_count**: `number`
@@ -195,6 +206,7 @@ the total number of reviews
 
 ___
 
+
 ### se\_domain
 
 • `Optional` **se\_domain**: `string`
@@ -210,6 +222,7 @@ search engine domain in a POST array
 [main.ts:202538](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L202538)
 
 ___
+
 
 ### title
 
@@ -228,6 +241,7 @@ the name of the local establishment for which the reviews are collected
 
 ___
 
+
 ### type
 
 • `Optional` **type**: `string`
@@ -243,6 +257,7 @@ type of element
 [main.ts:202536](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L202536)
 
 ___
+
 
 ### url\_path
 
@@ -280,6 +295,7 @@ URL path received in a POST array
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -300,6 +316,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`BusinessDataTripadvisorReviewsTaskGetResultInfo`](BusinessDataTripadvisorReviewsTaskGetResultInfo.md)
@@ -317,3 +334,7 @@ ___
 #### Defined in
 
 [main.ts:202603](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L202603)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

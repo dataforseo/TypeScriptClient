@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / BusinessDataBusinessListingsSearchLiveItem
 
 # Class: BusinessDataBusinessListingsSearchLiveItem
@@ -96,6 +100,7 @@ additional Google My Business categories that describe the services provided by 
 
 ___
 
+
 ### address
 
 • `Optional` **address**: `string`
@@ -112,6 +117,7 @@ address of the business entity
 
 ___
 
+
 ### address\_info
 
 • `Optional` **address\_info**: [`AddressInfo`](AddressInfo.md)
@@ -127,6 +133,7 @@ object containing address components of the business entity
 [main.ts:189026](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L189026)
 
 ___
+
 
 ### attributes
 
@@ -145,6 +152,7 @@ service details of a business entity displayed in a form of checks and based on 
 
 ___
 
+
 ### category
 
 • `Optional` **category**: `string`
@@ -161,6 +169,7 @@ Google My Business general category that best describes the services provided by
 [main.ts:189009](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L189009)
 
 ___
+
 
 ### category\_ids
 
@@ -179,6 +188,7 @@ universal category IDs that do not change based on the selected country
 
 ___
 
+
 ### check\_url
 
 • `Optional` **check\_url**: `string`
@@ -195,6 +205,7 @@ you can use it to make sure that we provided accurate results
 [main.ts:189088](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L189088)
 
 ___
+
 
 ### cid
 
@@ -214,6 +225,7 @@ learn more about the identifier in this help center article
 
 ___
 
+
 ### contact\_info
 
 • `Optional` **contact\_info**: [`BusinessDataContactInfo`](BusinessDataContactInfo.md)[]
@@ -230,6 +242,7 @@ list of contacts to interact with the business
 [main.ts:189085](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L189085)
 
 ___
+
 
 ### description
 
@@ -248,6 +261,7 @@ the description of the business entity for which the results are collected
 
 ___
 
+
 ### domain
 
 • `Optional` **domain**: `string`
@@ -263,6 +277,7 @@ domain of the business entity
 [main.ts:189036](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L189036)
 
 ___
+
 
 ### feature\_id
 
@@ -281,6 +296,7 @@ learn more about the identifier in this help center article
 
 ___
 
+
 ### is\_claimed
 
 • `Optional` **is\_claimed**: `boolean`
@@ -296,6 +312,7 @@ shows whether the entity is verified by its owner on Google Maps
 [main.ts:189054](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L189054)
 
 ___
+
 
 ### last\_updated\_time
 
@@ -316,6 +333,7 @@ example:
 
 ___
 
+
 ### latitude
 
 • `Optional` **latitude**: `number`
@@ -334,6 +352,7 @@ example:
 
 ___
 
+
 ### local\_business\_links
 
 • `Optional` **local\_business\_links**: [`BaseLocalBusinessLink`](BaseLocalBusinessLink.md)[]
@@ -351,6 +370,7 @@ list of options to interact with the business directly from search results
 
 ___
 
+
 ### logo
 
 • `Optional` **logo**: `string`
@@ -366,6 +386,7 @@ URL of the logo featured in Google My Business profile
 [main.ts:189038](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L189038)
 
 ___
+
 
 ### longitude
 
@@ -385,6 +406,7 @@ example:
 
 ___
 
+
 ### main\_image
 
 • `Optional` **main\_image**: `string`
@@ -400,6 +422,7 @@ URL of the main image featured in Google My Business profile
 [main.ts:189040](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L189040)
 
 ___
+
 
 ### people\_also\_search
 
@@ -417,6 +440,7 @@ related business entities
 
 ___
 
+
 ### phone
 
 • `Optional` **phone**: `string`
@@ -432,6 +456,7 @@ phone number of the business entity
 [main.ts:189032](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L189032)
 
 ___
+
 
 ### place\_id
 
@@ -451,13 +476,14 @@ learn more about the identifier in this help center article
 
 ___
 
+
 ### place\_topics
 
 • `Optional` **place\_topics**: `Object`
 
 keywords mentioned in customer reviews
 contains most popular keywords related to products/services mentioned in customer reviews of a business entity and the number of reviews mentioning each keyword
-example: 
+example:
 "place_topics": {
 "egg roll": 48,
 "birthday": 33
@@ -477,6 +503,7 @@ example:
 
 ___
 
+
 ### popular\_times
 
 • `Optional` **popular\_times**: [`PopularTimes`](PopularTimes.md)
@@ -494,11 +521,12 @@ information related to busy hours of the business entity
 
 ___
 
+
 ### rating
 
 • `Optional` **rating**: [`RatingInfo`](RatingInfo.md)
 
-the element’s rating 
+the element’s rating
 the popularity rate based on reviews and displayed in SERP
 
 #### Implementation of
@@ -510,6 +538,7 @@ the popularity rate based on reviews and displayed in SERP
 [main.ts:189068](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L189068)
 
 ___
+
 
 ### rating\_distribution
 
@@ -532,6 +561,7 @@ the object displays the number of 1-star to 5-star ratings, as reviewed by users
 
 ___
 
+
 ### snippet
 
 • `Optional` **snippet**: `string`
@@ -547,6 +577,7 @@ additional information on the business entity
 [main.ts:189044](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L189044)
 
 ___
+
 
 ### title
 
@@ -565,6 +596,7 @@ the name of the business entity for which the results are collected
 
 ___
 
+
 ### total\_photos
 
 • `Optional` **total\_photos**: `number`
@@ -580,6 +612,7 @@ total count of images featured in Google My Business profile
 [main.ts:189042](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L189042)
 
 ___
+
 
 ### type
 
@@ -597,6 +630,7 @@ type of element
 
 ___
 
+
 ### url
 
 • `Optional` **url**: `string`
@@ -612,6 +646,7 @@ absolute url of the business entity
 [main.ts:189034](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L189034)
 
 ___
+
 
 ### work\_time
 
@@ -650,6 +685,7 @@ information related to operational hours of the business entity
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -670,6 +706,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`BusinessDataBusinessListingsSearchLiveItem`](BusinessDataBusinessListingsSearchLiveItem.md)
@@ -687,3 +724,7 @@ ___
 #### Defined in
 
 [main.ts:189179](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L189179)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

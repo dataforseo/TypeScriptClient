@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IKeywordData
 
 # Interface: IKeywordData
@@ -40,6 +44,7 @@ this object provides the average number of backlinks, referring pages and domain
 
 ___
 
+
 ### impressions\_info
 
 • `Optional` **impressions\_info**: [`ImpressionsInfo`](../classes/ImpressionsInfo.md)
@@ -56,6 +61,7 @@ learn more about impressions in this help center article
 
 ___
 
+
 ### keyword
 
 • `Optional` **keyword**: `string`
@@ -67,6 +73,7 @@ returned keyword
 [main.ts:86452](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L86452)
 
 ___
+
 
 ### keyword\_info
 
@@ -80,6 +87,7 @@ keyword data for the returned keyword
 
 ___
 
+
 ### keyword\_properties
 
 • `Optional` **keyword\_properties**: [`KeywordProperties`](../classes/KeywordProperties.md)
@@ -91,6 +99,7 @@ additional information about the keyword
 [main.ts:86460](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L86460)
 
 ___
+
 
 ### language\_code
 
@@ -104,6 +113,7 @@ language code in a POST array
 
 ___
 
+
 ### location\_code
 
 • `Optional` **location\_code**: `number`
@@ -116,6 +126,7 @@ location code in a POST array
 
 ___
 
+
 ### se\_type
 
 • `Optional` **se\_type**: `string`
@@ -127,6 +138,7 @@ search engine type
 [main.ts:86450](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L86450)
 
 ___
+
 
 ### search\_intent\_info
 
@@ -141,6 +153,7 @@ learn about search intent in this help center article
 
 ___
 
+
 ### serp\_info
 
 • `Optional` **serp\_info**: [`SerpInfo`](../classes/SerpInfo.md)
@@ -151,3 +164,7 @@ the value will be null if you didn’t set the field include_serp_info to true i
 #### Defined in
 
 [main.ts:86469](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L86469)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

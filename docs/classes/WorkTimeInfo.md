@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / WorkTimeInfo
 
 # Class: WorkTimeInfo
@@ -65,6 +69,7 @@ hours in the 24-hour format
 
 ___
 
+
 ### minute
 
 • `Optional` **minute**: `number`
@@ -101,6 +106,7 @@ minutes
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -121,6 +127,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`WorkTimeInfo`](WorkTimeInfo.md)
@@ -138,3 +145,7 @@ ___
 #### Defined in
 
 [main.ts:20608](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L20608)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

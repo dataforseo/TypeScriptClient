@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / YelpReviewsSearchBusinessDataSerpElementItem
 
 # Class: YelpReviewsSearchBusinessDataSerpElementItem
@@ -5,7 +9,7 @@
 ## Hierarchy
 
 - [`BaseBusinessDataSerpElementItem`](BaseBusinessDataSerpElementItem.md)
-
+  
   ↳ **`YelpReviewsSearchBusinessDataSerpElementItem`**
 
 ## Implements
@@ -82,6 +86,7 @@
 
 ___
 
+
 ### position
 
 • `Optional` **position**: `string`
@@ -98,6 +103,7 @@ can take the following values: left
 [main.ts:205241](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L205241)
 
 ___
+
 
 ### rank\_absolute
 
@@ -116,6 +122,7 @@ absolute position among all reviews on the list
 
 ___
 
+
 ### rank\_group
 
 • `Optional` **rank\_group**: `number`
@@ -133,6 +140,7 @@ positions of elements with different type values are omitted from rank_group
 
 ___
 
+
 ### rating
 
 • `Optional` **rating**: [`RatingInfo`](RatingInfo.md)
@@ -149,6 +157,7 @@ the rating score submitted by the reviewer
 
 ___
 
+
 ### responses
 
 • `Optional` **responses**: [`ReviewResponseItemInfo`](ReviewResponseItemInfo.md)[]
@@ -164,6 +173,7 @@ text of the owner’s response
 [main.ts:205259](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L205259)
 
 ___
+
 
 ### review\_id
 
@@ -183,6 +193,7 @@ WvjNtncj8PDZytbofWlC5A
 
 ___
 
+
 ### review\_images
 
 • `Optional` **review\_images**: `string`[]
@@ -200,6 +211,7 @@ you will find URLs to the images provided by the author of this review
 
 ___
 
+
 ### review\_text
 
 • `Optional` **review\_text**: `string`
@@ -215,6 +227,7 @@ the content of the review
 [main.ts:205252](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L205252)
 
 ___
+
 
 ### timestamp
 
@@ -232,6 +245,7 @@ indicates timestamp of when the review was listed
 [main.ts:205250](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L205250)
 
 ___
+
 
 ### user\_profile
 
@@ -273,6 +287,7 @@ information listed in the reviewer’s profile
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -297,6 +312,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`YelpReviewsSearchBusinessDataSerpElementItem`](YelpReviewsSearchBusinessDataSerpElementItem.md)
@@ -318,3 +334,7 @@ ___
 #### Defined in
 
 [main.ts:205296](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L205296)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

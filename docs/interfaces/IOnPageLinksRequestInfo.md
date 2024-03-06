@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IOnPageLinksRequestInfo
 
 # Interface: IOnPageLinksRequestInfo
@@ -51,6 +55,7 @@ The full list of possible filters is available by this link.
 
 ___
 
+
 ### id
 
 • `Optional` **id**: `string`
@@ -67,6 +72,7 @@ example:
 
 ___
 
+
 ### limit
 
 • `Optional` **limit**: `number`
@@ -81,6 +87,7 @@ maximum value: 1000
 [main.ts:148002](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L148002)
 
 ___
+
 
 ### offset
 
@@ -97,6 +104,7 @@ if you specify the 10 value, the first ten links in the results array will be om
 
 ___
 
+
 ### page\_from
 
 • `Optional` **page\_from**: `string`
@@ -111,6 +119,7 @@ note that in this field you can specify relative URLs only
 [main.ts:147992](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L147992)
 
 ___
+
 
 ### page\_to
 
@@ -127,6 +136,7 @@ note that in this field you can specify relative URLs only
 
 ___
 
+
 ### tag
 
 • `Optional` **tag**: `string`
@@ -140,3 +150,7 @@ you will find the specified tag value in the data object of the response
 #### Defined in
 
 [main.ts:148030](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L148030)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

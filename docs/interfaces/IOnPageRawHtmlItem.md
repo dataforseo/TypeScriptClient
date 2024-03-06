@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IOnPageRawHtmlItem
 
 # Interface: IOnPageRawHtmlItem
@@ -27,3 +31,7 @@ HTML page
 #### Defined in
 
 [main.ts:151248](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L151248)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

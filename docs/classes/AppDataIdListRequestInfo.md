@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / AppDataIdListRequestInfo
 
 # Class: AppDataIdListRequestInfo
@@ -75,6 +79,7 @@ example:
 
 ___
 
+
 ### datetime\_to
 
 • `Optional` **datetime\_to**: `string`
@@ -96,6 +101,7 @@ example:
 
 ___
 
+
 ### include\_metadata
 
 • `Optional` **include\_metadata**: `boolean`
@@ -113,6 +119,7 @@ default value: false
 [main.ts:176310](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L176310)
 
 ___
+
 
 ### limit
 
@@ -133,6 +140,7 @@ maximum value: 1000
 
 ___
 
+
 ### offset
 
 • `Optional` **offset**: `number`
@@ -151,6 +159,7 @@ if you specify the 10 value, the first ten tasks in the results array will be om
 [main.ts:176301](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L176301)
 
 ___
+
 
 ### sort
 
@@ -191,6 +200,7 @@ default value: "asc"
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -211,6 +221,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`AppDataIdListRequestInfo`](AppDataIdListRequestInfo.md)
@@ -228,3 +239,7 @@ ___
 #### Defined in
 
 [main.ts:176338](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L176338)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

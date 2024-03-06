@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / DomainAnalyticsTechnologiesTechnologyStatsLiveRequestInfo
 
 # Class: DomainAnalyticsTechnologiesTechnologyStatsLiveRequestInfo
@@ -73,6 +77,7 @@ example:
 
 ___
 
+
 ### date\_to
 
 • `Optional` **date\_to**: `string`
@@ -94,6 +99,7 @@ example:
 
 ___
 
+
 ### tag
 
 • `Optional` **tag**: `string`
@@ -113,6 +119,7 @@ you will find the specified tag value in the data object of the response
 [main.ts:73517](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L73517)
 
 ___
+
 
 ### technology
 
@@ -154,6 +161,7 @@ example:
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -174,6 +182,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`DomainAnalyticsTechnologiesTechnologyStatsLiveRequestInfo`](DomainAnalyticsTechnologiesTechnologyStatsLiveRequestInfo.md)
@@ -191,3 +200,7 @@ ___
 #### Defined in
 
 [main.ts:73543](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L73543)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

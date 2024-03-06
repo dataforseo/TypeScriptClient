@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / BacklinksBulkBacklinksLiveItem
 
 # Class: BacklinksBulkBacklinksLiveItem
@@ -65,6 +69,7 @@ number of backlinks pointing to the target
 
 ___
 
+
 ### target
 
 • `Optional` **target**: `string`
@@ -101,6 +106,7 @@ domain, subdomain or webpage from a POST array
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -121,6 +127,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`BacklinksBulkBacklinksLiveItem`](BacklinksBulkBacklinksLiveItem.md)
@@ -138,3 +145,7 @@ ___
 #### Defined in
 
 [main.ts:139771](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L139771)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

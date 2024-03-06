@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IMerchantGoogleSellersTaskPostRequestInfo
 
 # Interface: IMerchantGoogleSellersTaskPostRequestInfo
@@ -52,6 +56,7 @@ example:
 
 ___
 
+
 ### get\_shops\_on\_google
 
 • `Optional` **get\_shops\_on\_google**: `boolean`
@@ -66,6 +71,7 @@ Note: if set to true, the cost of a task will be doubled
 [main.ts:166093](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L166093)
 
 ___
+
 
 ### language\_code
 
@@ -84,6 +90,7 @@ en
 
 ___
 
+
 ### language\_name
 
 • `Optional` **language\_name**: `string`
@@ -101,6 +108,7 @@ English
 
 ___
 
+
 ### location\_code
 
 • `Optional` **location\_code**: `number`
@@ -117,6 +125,7 @@ example:
 [main.ts:166058](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L166058)
 
 ___
+
 
 ### location\_coordinate
 
@@ -137,6 +146,7 @@ example:
 
 ___
 
+
 ### location\_name
 
 • `Optional` **location\_name**: `string`
@@ -153,6 +163,7 @@ London,England,United Kingdom
 [main.ts:166051](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L166051)
 
 ___
+
 
 ### pingback\_url
 
@@ -174,6 +185,7 @@ i.a., the # symbol will be encoded into %23
 
 ___
 
+
 ### postback\_data
 
 • `Optional` **postback\_data**: `string`
@@ -189,6 +201,7 @@ advanced, html
 [main.ts:166122](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L166122)
 
 ___
+
 
 ### postback\_url
 
@@ -210,6 +223,7 @@ i.a., the # symbol will be encoded into %23
 
 ___
 
+
 ### priority
 
 • `Optional` **priority**: `number`
@@ -227,6 +241,7 @@ The cost can be calculated on the Pricing page.
 [main.ts:166044](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L166044)
 
 ___
+
 
 ### product\_id
 
@@ -246,6 +261,7 @@ learn more about the parameter in this help center guide
 
 ___
 
+
 ### se\_domain
 
 • `Optional` **se\_domain**: `string`
@@ -263,6 +279,7 @@ google.co.uk, google.com.au, google.de, etc.
 
 ___
 
+
 ### tag
 
 • `Optional` **tag**: `string`
@@ -276,3 +293,7 @@ you will find the specified tag value in the data object of the response
 #### Defined in
 
 [main.ts:166106](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L166106)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

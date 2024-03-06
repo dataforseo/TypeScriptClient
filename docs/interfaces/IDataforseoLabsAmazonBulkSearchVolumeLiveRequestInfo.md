@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IDataforseoLabsAmazonBulkSearchVolumeLiveRequestInfo
 
 # Interface: IDataforseoLabsAmazonBulkSearchVolumeLiveRequestInfo
@@ -40,6 +44,7 @@ the keywords will be converted to lowercase format
 
 ___
 
+
 ### language\_code
 
 • `Optional` **language\_code**: `string`
@@ -56,6 +61,7 @@ en
 [main.ts:98787](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L98787)
 
 ___
+
 
 ### language\_name
 
@@ -74,6 +80,7 @@ English
 
 ___
 
+
 ### location\_code
 
 • `Optional` **location\_code**: `number`
@@ -91,6 +98,7 @@ example:
 [main.ts:98773](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L98773)
 
 ___
+
 
 ### location\_name
 
@@ -127,6 +135,7 @@ United States
 
 ___
 
+
 ### tag
 
 • `Optional` **tag**: `string`
@@ -140,3 +149,7 @@ you will find the specified tag value in the data object of the response
 #### Defined in
 
 [main.ts:98793](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L98793)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

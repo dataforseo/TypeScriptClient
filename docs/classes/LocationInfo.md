@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / LocationInfo
 
 # Class: LocationInfo
@@ -68,6 +72,7 @@ address of the event’s venue
 
 ___
 
+
 ### cid
 
 • `Optional` **cid**: `string`
@@ -86,6 +91,7 @@ can be used with Google Reviews API to get a full list of reviews
 
 ___
 
+
 ### feature\_id
 
 • `Optional` **feature\_id**: `string`
@@ -102,6 +108,7 @@ the unique identifier of the element in SERP
 
 ___
 
+
 ### name
 
 • `Optional` **name**: `string`
@@ -117,6 +124,7 @@ name of the event’s venue
 [main.ts:44516](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L44516)
 
 ___
+
 
 ### url
 
@@ -154,6 +162,7 @@ URL to the event’s venue on google maps
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -174,6 +183,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`LocationInfo`](LocationInfo.md)
@@ -191,3 +201,7 @@ ___
 #### Defined in
 
 [main.ts:44553](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L44553)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

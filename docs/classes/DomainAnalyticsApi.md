@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / DomainAnalyticsApi
 
 # Class: DomainAnalyticsApi
@@ -79,6 +83,7 @@
 
 ___
 
+
 ### http
 
 • `Private` **http**: `Object`
@@ -94,6 +99,7 @@ ___
 [main.ts:5667](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L5667)
 
 ___
+
 
 ### jsonParseReviver
 
@@ -142,6 +148,7 @@ Successful operation
 
 ___
 
+
 ### domainAnalyticsIdList
 
 ▸ **domainAnalyticsIdList**(`body`): `Promise`\<[`DomainAnalyticsIdListResponseInfo`](DomainAnalyticsIdListResponseInfo.md)\>
@@ -164,6 +171,7 @@ Successful operation
 
 ___
 
+
 ### domainAnalyticsTechnologiesLanguages
 
 ▸ **domainAnalyticsTechnologiesLanguages**(): `Promise`\<[`DomainAnalyticsTechnologiesLanguagesResponseInfo`](DomainAnalyticsTechnologiesLanguagesResponseInfo.md)\>
@@ -180,6 +188,7 @@ Successful operation
 
 ___
 
+
 ### domainAnalyticsTechnologiesLocations
 
 ▸ **domainAnalyticsTechnologiesLocations**(): `Promise`\<[`DomainAnalyticsTechnologiesLocationsResponseInfo`](DomainAnalyticsTechnologiesLocationsResponseInfo.md)\>
@@ -195,6 +204,7 @@ Successful operation
 [main.ts:5800](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L5800)
 
 ___
+
 
 ### processDomainAnalyticsErrors
 
@@ -216,6 +226,7 @@ ___
 
 ___
 
+
 ### processDomainAnalyticsIdList
 
 ▸ **processDomainAnalyticsIdList**(`response`): `Promise`\<[`DomainAnalyticsIdListResponseInfo`](DomainAnalyticsIdListResponseInfo.md)\>
@@ -235,6 +246,7 @@ ___
 [main.ts:5700](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L5700)
 
 ___
+
 
 ### processDomainAnalyticsTechnologiesLanguages
 
@@ -256,6 +268,7 @@ ___
 
 ___
 
+
 ### processDomainAnalyticsTechnologiesLocations
 
 ▸ **processDomainAnalyticsTechnologiesLocations**(`response`): `Promise`\<[`DomainAnalyticsTechnologiesLocationsResponseInfo`](DomainAnalyticsTechnologiesLocationsResponseInfo.md)\>
@@ -275,6 +288,7 @@ ___
 [main.ts:5816](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L5816)
 
 ___
+
 
 ### processTechnologiesAggregationTechnologiesLive
 
@@ -296,6 +310,7 @@ ___
 
 ___
 
+
 ### processTechnologiesAvailableFilters
 
 ▸ **processTechnologiesAvailableFilters**(`response`): `Promise`\<[`DomainAnalyticsTechnologiesAvailableFiltersResponseInfo`](DomainAnalyticsTechnologiesAvailableFiltersResponseInfo.md)\>
@@ -315,6 +330,7 @@ ___
 [main.ts:5779](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L5779)
 
 ___
+
 
 ### processTechnologiesDomainTechnologiesLive
 
@@ -336,6 +352,7 @@ ___
 
 ___
 
+
 ### processTechnologiesDomainsByHtmlTermsLive
 
 ▸ **processTechnologiesDomainsByHtmlTermsLive**(`response`): `Promise`\<[`DomainAnalyticsTechnologiesDomainsByHtmlTermsLiveResponseInfo`](DomainAnalyticsTechnologiesDomainsByHtmlTermsLiveResponseInfo.md)\>
@@ -355,6 +372,7 @@ ___
 [main.ts:6100](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L6100)
 
 ___
+
 
 ### processTechnologiesDomainsByTechnologyLive
 
@@ -376,6 +394,7 @@ ___
 
 ___
 
+
 ### processTechnologiesTechnologies
 
 ▸ **processTechnologiesTechnologies**(`response`): `Promise`\<[`DomainAnalyticsTechnologiesTechnologiesResponseInfo`](DomainAnalyticsTechnologiesTechnologiesResponseInfo.md)\>
@@ -395,6 +414,7 @@ ___
 [main.ts:5890](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L5890)
 
 ___
+
 
 ### processTechnologiesTechnologiesSummaryLive
 
@@ -416,6 +436,7 @@ ___
 
 ___
 
+
 ### processTechnologiesTechnologyStatsLive
 
 ▸ **processTechnologiesTechnologyStatsLive**(`response`): `Promise`\<[`DomainAnalyticsTechnologiesTechnologyStatsLiveResponseInfo`](DomainAnalyticsTechnologiesTechnologyStatsLiveResponseInfo.md)\>
@@ -435,6 +456,7 @@ ___
 [main.ts:6016](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L6016)
 
 ___
+
 
 ### processWhoisAvailableFilters
 
@@ -456,6 +478,7 @@ ___
 
 ___
 
+
 ### processWhoisOverviewLive
 
 ▸ **processWhoisOverviewLive**(`response`): `Promise`\<[`DomainAnalyticsWhoisOverviewLiveResponseInfo`](DomainAnalyticsWhoisOverviewLiveResponseInfo.md)\>
@@ -475,6 +498,7 @@ ___
 [main.ts:6221](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L6221)
 
 ___
+
 
 ### technologiesAggregationTechnologiesLive
 
@@ -498,6 +522,7 @@ Successful operation
 
 ___
 
+
 ### technologiesAvailableFilters
 
 ▸ **technologiesAvailableFilters**(): `Promise`\<[`DomainAnalyticsTechnologiesAvailableFiltersResponseInfo`](DomainAnalyticsTechnologiesAvailableFiltersResponseInfo.md)\>
@@ -513,6 +538,7 @@ Successful operation
 [main.ts:5763](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L5763)
 
 ___
+
 
 ### technologiesDomainTechnologiesLive
 
@@ -536,6 +562,7 @@ Successful operation
 
 ___
 
+
 ### technologiesDomainsByHtmlTermsLive
 
 ▸ **technologiesDomainsByHtmlTermsLive**(`body`): `Promise`\<[`DomainAnalyticsTechnologiesDomainsByHtmlTermsLiveResponseInfo`](DomainAnalyticsTechnologiesDomainsByHtmlTermsLiveResponseInfo.md)\>
@@ -557,6 +584,7 @@ Successful operation
 [main.ts:6080](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L6080)
 
 ___
+
 
 ### technologiesDomainsByTechnologyLive
 
@@ -580,6 +608,7 @@ Successful operation
 
 ___
 
+
 ### technologiesTechnologies
 
 ▸ **technologiesTechnologies**(): `Promise`\<[`DomainAnalyticsTechnologiesTechnologiesResponseInfo`](DomainAnalyticsTechnologiesTechnologiesResponseInfo.md)\>
@@ -595,6 +624,7 @@ Successful operation
 [main.ts:5874](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L5874)
 
 ___
+
 
 ### technologiesTechnologiesSummaryLive
 
@@ -618,6 +648,7 @@ Successful operation
 
 ___
 
+
 ### technologiesTechnologyStatsLive
 
 ▸ **technologiesTechnologyStatsLive**(`body`): `Promise`\<[`DomainAnalyticsTechnologiesTechnologyStatsLiveResponseInfo`](DomainAnalyticsTechnologiesTechnologyStatsLiveResponseInfo.md)\>
@@ -640,6 +671,7 @@ Successful operation
 
 ___
 
+
 ### whoisAvailableFilters
 
 ▸ **whoisAvailableFilters**(): `Promise`\<[`DomainAnalyticsWhoisAvailableFiltersResponseInfo`](DomainAnalyticsWhoisAvailableFiltersResponseInfo.md)\>
@@ -655,6 +687,7 @@ Successful operation
 [main.ts:6163](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L6163)
 
 ___
+
 
 ### whoisOverviewLive
 
@@ -675,3 +708,7 @@ Successful operation
 #### Defined in
 
 [main.ts:6201](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L6201)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

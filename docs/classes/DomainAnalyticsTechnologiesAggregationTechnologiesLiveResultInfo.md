@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / DomainAnalyticsTechnologiesAggregationTechnologiesLiveResultInfo
 
 # Class: DomainAnalyticsTechnologiesAggregationTechnologiesLiveResultInfo
@@ -67,6 +71,7 @@ items array
 
 ___
 
+
 ### items\_count
 
 • `Optional` **items\_count**: `number`
@@ -83,6 +88,7 @@ the number of results returned in the items array
 
 ___
 
+
 ### offset
 
 • `Optional` **offset**: `number`
@@ -98,6 +104,7 @@ offset in the results array of returned domains
 [main.ts:72822](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L72822)
 
 ___
+
 
 ### total\_count
 
@@ -135,6 +142,7 @@ total amount of results in our database relevant to your request
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -155,6 +163,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`DomainAnalyticsTechnologiesAggregationTechnologiesLiveResultInfo`](DomainAnalyticsTechnologiesAggregationTechnologiesLiveResultInfo.md)
@@ -172,3 +181,7 @@ ___
 #### Defined in
 
 [main.ts:72854](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L72854)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

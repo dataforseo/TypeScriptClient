@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IKeywordsDataGoogleAdsLocationsResultInfo
 
 # Interface: IKeywordsDataGoogleAdsLocationsResultInfo
@@ -34,6 +38,7 @@ ISO country code of the location
 
 ___
 
+
 ### location\_code
 
 • `Optional` **location\_code**: `number`
@@ -45,6 +50,7 @@ location code
 [main.ts:113167](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L113167)
 
 ___
+
 
 ### location\_code\_parent
 
@@ -65,6 +71,7 @@ where location_code_parent corresponds to:
 
 ___
 
+
 ### location\_name
 
 • `Optional` **location\_name**: `string`
@@ -77,6 +84,7 @@ full name of the location
 
 ___
 
+
 ### location\_type
 
 • `Optional` **location\_type**: `string`
@@ -87,3 +95,7 @@ possible values according to Google’s target types
 #### Defined in
 
 [main.ts:113183](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L113183)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

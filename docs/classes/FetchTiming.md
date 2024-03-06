@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / FetchTiming
 
 # Class: FetchTiming
@@ -66,6 +70,7 @@ indicates how many milliseconds it took to fetch a resource
 
 ___
 
+
 ### fetch\_end
 
 • `Optional` **fetch\_end**: `number`
@@ -82,6 +87,7 @@ the amount of time a browser needs to complete downloading a resource
 [main.ts:146019](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L146019)
 
 ___
+
 
 ### fetch\_start
 
@@ -120,6 +126,7 @@ the amount of time a browser needs to start downloading a resource
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -140,6 +147,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`FetchTiming`](FetchTiming.md)
@@ -157,3 +165,7 @@ ___
 #### Defined in
 
 [main.ts:146044](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L146044)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

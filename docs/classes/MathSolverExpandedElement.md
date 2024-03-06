@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / MathSolverExpandedElement
 
 # Class: MathSolverExpandedElement
@@ -67,6 +71,7 @@ displays steps to solve the mathematical equation as specified in the element
 
 ___
 
+
 ### title
 
 • `Optional` **title**: `string`
@@ -82,6 +87,7 @@ title of a given link element
 [main.ts:33898](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L33898)
 
 ___
+
 
 ### type
 
@@ -119,6 +125,7 @@ type of element
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -139,6 +146,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`MathSolverExpandedElement`](MathSolverExpandedElement.md)
@@ -156,3 +164,7 @@ ___
 #### Defined in
 
 [main.ts:33930](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L33930)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

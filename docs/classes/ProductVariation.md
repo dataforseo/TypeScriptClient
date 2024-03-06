@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / ProductVariation
 
 # Class: ProductVariation
@@ -68,6 +72,7 @@ learn more about the parameter in this help center guide
 
 ___
 
+
 ### title
 
 • `Optional` **title**: `string`
@@ -84,6 +89,7 @@ name of the product seller
 
 ___
 
+
 ### type
 
 • `Optional` **type**: `string`
@@ -99,6 +105,7 @@ type of element
 [main.ts:169073](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L169073)
 
 ___
+
 
 ### url
 
@@ -137,6 +144,7 @@ url of the webpage on the seller’s website where the product is sold
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -157,6 +165,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`ProductVariation`](ProductVariation.md)
@@ -174,3 +183,7 @@ ___
 #### Defined in
 
 [main.ts:169107](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L169107)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

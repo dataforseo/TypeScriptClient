@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IResourceMetaInfo
 
 # Interface: IResourceMetaInfo
@@ -36,6 +40,7 @@ the value depends on the resource_type
 
 ___
 
+
 ### height
 
 • `Optional` **height**: `number`
@@ -47,6 +52,7 @@ image height in px
 [main.ts:146006](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L146006)
 
 ___
+
 
 ### original\_height
 
@@ -60,6 +66,7 @@ original image height in px
 
 ___
 
+
 ### original\_width
 
 • `Optional` **original\_width**: `number`
@@ -71,6 +78,7 @@ original image width in px
 [main.ts:146000](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L146000)
 
 ___
+
 
 ### title
 
@@ -84,6 +92,7 @@ title
 
 ___
 
+
 ### width
 
 • `Optional` **width**: `number`
@@ -93,3 +102,7 @@ image width in px
 #### Defined in
 
 [main.ts:146004](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L146004)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

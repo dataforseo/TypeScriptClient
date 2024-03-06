@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / BusinessDataApi
 
 # Class: BusinessDataApi
@@ -163,6 +167,7 @@
 
 ___
 
+
 ### http
 
 • `Private` **http**: `Object`
@@ -178,6 +183,7 @@ ___
 [main.ts:16886](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L16886)
 
 ___
+
 
 ### jsonParseReviver
 
@@ -220,6 +226,7 @@ Successful operation
 
 ___
 
+
 ### businessDataErrors
 
 ▸ **businessDataErrors**(`body`): `Promise`\<[`BusinessDataErrorsResponseInfo`](BusinessDataErrorsResponseInfo.md)\>
@@ -242,6 +249,7 @@ Successful operation
 
 ___
 
+
 ### businessDataGoogleLanguages
 
 ▸ **businessDataGoogleLanguages**(): `Promise`\<[`BusinessDataGoogleLanguagesResponseInfo`](BusinessDataGoogleLanguagesResponseInfo.md)\>
@@ -258,6 +266,7 @@ Successful operation
 
 ___
 
+
 ### businessDataGoogleLocations
 
 ▸ **businessDataGoogleLocations**(): `Promise`\<[`BusinessDataGoogleLocationsResponseInfo`](BusinessDataGoogleLocationsResponseInfo.md)\>
@@ -273,6 +282,7 @@ Successful operation
 [main.ts:17177](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L17177)
 
 ___
+
 
 ### businessDataGoogleLocationsCountry
 
@@ -296,6 +306,7 @@ Successful operation
 
 ___
 
+
 ### businessDataIdList
 
 ▸ **businessDataIdList**(`body`): `Promise`\<[`BusinessDataIdListResponseInfo`](BusinessDataIdListResponseInfo.md)\>
@@ -318,6 +329,7 @@ Successful operation
 
 ___
 
+
 ### businessDataTripadvisorLanguages
 
 ▸ **businessDataTripadvisorLanguages**(): `Promise`\<[`BusinessDataTripadvisorLanguagesResponseInfo`](BusinessDataTripadvisorLanguagesResponseInfo.md)\>
@@ -334,6 +346,7 @@ Successful operation
 
 ___
 
+
 ### businessDataTripadvisorLocations
 
 ▸ **businessDataTripadvisorLocations**(): `Promise`\<[`BusinessDataTripadvisorLocationsResponseInfo`](BusinessDataTripadvisorLocationsResponseInfo.md)\>
@@ -349,6 +362,7 @@ Successful operation
 [main.ts:18319](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L18319)
 
 ___
+
 
 ### businessDataTripadvisorLocationsCountry
 
@@ -372,6 +386,7 @@ Successful operation
 
 ___
 
+
 ### businessDataYelpLanguages
 
 ▸ **businessDataYelpLanguages**(): `Promise`\<[`BusinessDataYelpLanguagesResponseInfo`](BusinessDataYelpLanguagesResponseInfo.md)\>
@@ -388,6 +403,7 @@ Successful operation
 
 ___
 
+
 ### businessDataYelpLocations
 
 ▸ **businessDataYelpLocations**(): `Promise`\<[`BusinessDataYelpLocationsResponseInfo`](BusinessDataYelpLocationsResponseInfo.md)\>
@@ -403,6 +419,7 @@ Successful operation
 [main.ts:18682](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L18682)
 
 ___
+
 
 ### businessDataYelpLocationsCountry
 
@@ -426,6 +443,7 @@ Successful operation
 
 ___
 
+
 ### businessListingsAvailableFilters
 
 ▸ **businessListingsAvailableFilters**(): `Promise`\<[`BusinessDataBusinessListingsAvailableFiltersResponseInfo`](BusinessDataBusinessListingsAvailableFiltersResponseInfo.md)\>
@@ -442,6 +460,7 @@ Successful operation
 
 ___
 
+
 ### businessListingsCategories
 
 ▸ **businessListingsCategories**(): `Promise`\<[`BusinessDataBusinessListingsCategoriesResponseInfo`](BusinessDataBusinessListingsCategoriesResponseInfo.md)\>
@@ -457,6 +476,7 @@ Successful operation
 [main.ts:17019](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L17019)
 
 ___
+
 
 ### businessListingsCategoriesAggregationLive
 
@@ -480,6 +500,7 @@ Successful operation
 
 ___
 
+
 ### businessListingsSearchLive
 
 ▸ **businessListingsSearchLive**(`body`): `Promise`\<[`BusinessDataBusinessListingsSearchLiveResponseInfo`](BusinessDataBusinessListingsSearchLiveResponseInfo.md)\>
@@ -501,6 +522,7 @@ Successful operation
 [main.ts:17094](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L17094)
 
 ___
+
 
 ### googleHotelInfoLiveAdvanced
 
@@ -524,6 +546,7 @@ Successful operation
 
 ___
 
+
 ### googleHotelInfoLiveHtml
 
 ▸ **googleHotelInfoLiveHtml**(`body`): `Promise`\<[`BusinessDataGoogleHotelInfoLiveHtmlResponseInfo`](BusinessDataGoogleHotelInfoLiveHtmlResponseInfo.md)\>
@@ -545,6 +568,7 @@ Successful operation
 [main.ts:17912](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L17912)
 
 ___
+
 
 ### googleHotelInfoTaskGetAdvanced
 
@@ -568,6 +592,7 @@ Successful operation
 
 ___
 
+
 ### googleHotelInfoTaskGetHtml
 
 ▸ **googleHotelInfoTaskGetHtml**(`id`): `Promise`\<[`BusinessDataGoogleHotelInfoTaskGetHtmlResponseInfo`](BusinessDataGoogleHotelInfoTaskGetHtmlResponseInfo.md)\>
@@ -589,6 +614,7 @@ Successful operation
 [main.ts:17829](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L17829)
 
 ___
+
 
 ### googleHotelInfoTaskPost
 
@@ -612,6 +638,7 @@ Successful operation
 
 ___
 
+
 ### googleHotelInfoTasksReady
 
 ▸ **googleHotelInfoTasksReady**(): `Promise`\<[`BusinessDataGoogleHotelInfoTasksReadyResponseInfo`](BusinessDataGoogleHotelInfoTasksReadyResponseInfo.md)\>
@@ -627,6 +654,7 @@ Successful operation
 [main.ts:17746](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L17746)
 
 ___
+
 
 ### googleHotelSearchesLive
 
@@ -650,6 +678,7 @@ Successful operation
 
 ___
 
+
 ### googleHotelSearchesTaskGet
 
 ▸ **googleHotelSearchesTaskGet**(`id`): `Promise`\<[`BusinessDataGoogleHotelSearchesTaskGetResponseInfo`](BusinessDataGoogleHotelSearchesTaskGetResponseInfo.md)\>
@@ -671,6 +700,7 @@ Successful operation
 [main.ts:17622](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L17622)
 
 ___
+
 
 ### googleHotelSearchesTaskPost
 
@@ -694,6 +724,7 @@ Successful operation
 
 ___
 
+
 ### googleHotelSearchesTasksReady
 
 ▸ **googleHotelSearchesTasksReady**(): `Promise`\<[`BusinessDataGoogleHotelSearchesTasksReadyResponseInfo`](BusinessDataGoogleHotelSearchesTasksReadyResponseInfo.md)\>
@@ -709,6 +740,7 @@ Successful operation
 [main.ts:17582](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L17582)
 
 ___
+
 
 ### googleMyBusinessInfoTaskGet
 
@@ -732,6 +764,7 @@ Successful operation
 
 ___
 
+
 ### googleMyBusinessInfoTaskPost
 
 ▸ **googleMyBusinessInfoTaskPost**(`body`): `Promise`\<[`BusinessDataGoogleMyBusinessInfoTaskPostResponseInfo`](BusinessDataGoogleMyBusinessInfoTaskPostResponseInfo.md)\>
@@ -754,6 +787,7 @@ Successful operation
 
 ___
 
+
 ### googleMyBusinessInfoTasksReady
 
 ▸ **googleMyBusinessInfoTasksReady**(): `Promise`\<[`BusinessDataGoogleMyBusinessInfoTasksReadyResponseInfo`](BusinessDataGoogleMyBusinessInfoTasksReadyResponseInfo.md)\>
@@ -769,6 +803,7 @@ Successful operation
 [main.ts:17338](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L17338)
 
 ___
+
 
 ### googleMyBusinessUpdatesTaskGet
 
@@ -792,6 +827,7 @@ Successful operation
 
 ___
 
+
 ### googleMyBusinessUpdatesTaskPost
 
 ▸ **googleMyBusinessUpdatesTaskPost**(`body`): `Promise`\<[`BusinessDataGoogleMyBusinessUpdatesTaskPostResponseInfo`](BusinessDataGoogleMyBusinessUpdatesTaskPostResponseInfo.md)\>
@@ -814,6 +850,7 @@ Successful operation
 
 ___
 
+
 ### googleMyBusinessUpdatesTasksReady
 
 ▸ **googleMyBusinessUpdatesTasksReady**(): `Promise`\<[`BusinessDataGoogleMyBusinessUpdatesTasksReadyResponseInfo`](BusinessDataGoogleMyBusinessUpdatesTasksReadyResponseInfo.md)\>
@@ -829,6 +866,7 @@ Successful operation
 [main.ts:17460](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L17460)
 
 ___
+
 
 ### googleReviewsTaskGet
 
@@ -852,6 +890,7 @@ Successful operation
 
 ___
 
+
 ### googleReviewsTaskPost
 
 ▸ **googleReviewsTaskPost**(`body`): `Promise`\<[`BusinessDataGoogleReviewsTaskPostResponseInfo`](BusinessDataGoogleReviewsTaskPostResponseInfo.md)\>
@@ -874,6 +913,7 @@ Successful operation
 
 ___
 
+
 ### googleReviewsTasksReady
 
 ▸ **googleReviewsTasksReady**(): `Promise`\<[`BusinessDataGoogleReviewsTasksReadyResponseInfo`](BusinessDataGoogleReviewsTasksReadyResponseInfo.md)\>
@@ -889,6 +929,7 @@ Successful operation
 [main.ts:17995](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L17995)
 
 ___
+
 
 ### processBusinessDataBusinessListingsLocations
 
@@ -910,6 +951,7 @@ ___
 
 ___
 
+
 ### processBusinessDataErrors
 
 ▸ **processBusinessDataErrors**(`response`): `Promise`\<[`BusinessDataErrorsResponseInfo`](BusinessDataErrorsResponseInfo.md)\>
@@ -929,6 +971,7 @@ ___
 [main.ts:16961](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L16961)
 
 ___
+
 
 ### processBusinessDataGoogleLanguages
 
@@ -950,6 +993,7 @@ ___
 
 ___
 
+
 ### processBusinessDataGoogleLocations
 
 ▸ **processBusinessDataGoogleLocations**(`response`): `Promise`\<[`BusinessDataGoogleLocationsResponseInfo`](BusinessDataGoogleLocationsResponseInfo.md)\>
@@ -969,6 +1013,7 @@ ___
 [main.ts:17193](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L17193)
 
 ___
+
 
 ### processBusinessDataGoogleLocationsCountry
 
@@ -990,6 +1035,7 @@ ___
 
 ___
 
+
 ### processBusinessDataIdList
 
 ▸ **processBusinessDataIdList**(`response`): `Promise`\<[`BusinessDataIdListResponseInfo`](BusinessDataIdListResponseInfo.md)\>
@@ -1009,6 +1055,7 @@ ___
 [main.ts:16919](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L16919)
 
 ___
+
 
 ### processBusinessDataTripadvisorLanguages
 
@@ -1030,6 +1077,7 @@ ___
 
 ___
 
+
 ### processBusinessDataTripadvisorLocations
 
 ▸ **processBusinessDataTripadvisorLocations**(`response`): `Promise`\<[`BusinessDataTripadvisorLocationsResponseInfo`](BusinessDataTripadvisorLocationsResponseInfo.md)\>
@@ -1049,6 +1097,7 @@ ___
 [main.ts:18335](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L18335)
 
 ___
+
 
 ### processBusinessDataTripadvisorLocationsCountry
 
@@ -1070,6 +1119,7 @@ ___
 
 ___
 
+
 ### processBusinessDataYelpLanguages
 
 ▸ **processBusinessDataYelpLanguages**(`response`): `Promise`\<[`BusinessDataYelpLanguagesResponseInfo`](BusinessDataYelpLanguagesResponseInfo.md)\>
@@ -1089,6 +1139,7 @@ ___
 [main.ts:18780](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L18780)
 
 ___
+
 
 ### processBusinessDataYelpLocations
 
@@ -1110,6 +1161,7 @@ ___
 
 ___
 
+
 ### processBusinessDataYelpLocationsCountry
 
 ▸ **processBusinessDataYelpLocationsCountry**(`response`): `Promise`\<[`BusinessDataYelpLocationsCountryResponseInfo`](BusinessDataYelpLocationsCountryResponseInfo.md)\>
@@ -1129,6 +1181,7 @@ ___
 [main.ts:18743](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L18743)
 
 ___
+
 
 ### processBusinessListingsAvailableFilters
 
@@ -1150,6 +1203,7 @@ ___
 
 ___
 
+
 ### processBusinessListingsCategories
 
 ▸ **processBusinessListingsCategories**(`response`): `Promise`\<[`BusinessDataBusinessListingsCategoriesResponseInfo`](BusinessDataBusinessListingsCategoriesResponseInfo.md)\>
@@ -1169,6 +1223,7 @@ ___
 [main.ts:17035](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L17035)
 
 ___
+
 
 ### processBusinessListingsCategoriesAggregationLive
 
@@ -1190,6 +1245,7 @@ ___
 
 ___
 
+
 ### processBusinessListingsSearchLive
 
 ▸ **processBusinessListingsSearchLive**(`response`): `Promise`\<[`BusinessDataBusinessListingsSearchLiveResponseInfo`](BusinessDataBusinessListingsSearchLiveResponseInfo.md)\>
@@ -1209,6 +1265,7 @@ ___
 [main.ts:17114](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L17114)
 
 ___
+
 
 ### processGoogleHotelInfoLiveAdvanced
 
@@ -1230,6 +1287,7 @@ ___
 
 ___
 
+
 ### processGoogleHotelInfoLiveHtml
 
 ▸ **processGoogleHotelInfoLiveHtml**(`response`): `Promise`\<[`BusinessDataGoogleHotelInfoLiveHtmlResponseInfo`](BusinessDataGoogleHotelInfoLiveHtmlResponseInfo.md)\>
@@ -1249,6 +1307,7 @@ ___
 [main.ts:17932](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L17932)
 
 ___
+
 
 ### processGoogleHotelInfoTaskGetAdvanced
 
@@ -1270,6 +1329,7 @@ ___
 
 ___
 
+
 ### processGoogleHotelInfoTaskGetHtml
 
 ▸ **processGoogleHotelInfoTaskGetHtml**(`response`): `Promise`\<[`BusinessDataGoogleHotelInfoTaskGetHtmlResponseInfo`](BusinessDataGoogleHotelInfoTaskGetHtmlResponseInfo.md)\>
@@ -1289,6 +1349,7 @@ ___
 [main.ts:17848](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L17848)
 
 ___
+
 
 ### processGoogleHotelInfoTaskPost
 
@@ -1310,6 +1371,7 @@ ___
 
 ___
 
+
 ### processGoogleHotelInfoTasksReady
 
 ▸ **processGoogleHotelInfoTasksReady**(`response`): `Promise`\<[`BusinessDataGoogleHotelInfoTasksReadyResponseInfo`](BusinessDataGoogleHotelInfoTasksReadyResponseInfo.md)\>
@@ -1329,6 +1391,7 @@ ___
 [main.ts:17762](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L17762)
 
 ___
+
 
 ### processGoogleHotelSearchesLive
 
@@ -1350,6 +1413,7 @@ ___
 
 ___
 
+
 ### processGoogleHotelSearchesTaskGet
 
 ▸ **processGoogleHotelSearchesTaskGet**(`response`): `Promise`\<[`BusinessDataGoogleHotelSearchesTaskGetResponseInfo`](BusinessDataGoogleHotelSearchesTaskGetResponseInfo.md)\>
@@ -1369,6 +1433,7 @@ ___
 [main.ts:17641](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L17641)
 
 ___
+
 
 ### processGoogleHotelSearchesTaskPost
 
@@ -1390,6 +1455,7 @@ ___
 
 ___
 
+
 ### processGoogleHotelSearchesTasksReady
 
 ▸ **processGoogleHotelSearchesTasksReady**(`response`): `Promise`\<[`BusinessDataGoogleHotelSearchesTasksReadyResponseInfo`](BusinessDataGoogleHotelSearchesTasksReadyResponseInfo.md)\>
@@ -1409,6 +1475,7 @@ ___
 [main.ts:17598](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L17598)
 
 ___
+
 
 ### processGoogleMyBusinessInfoTaskGet
 
@@ -1430,6 +1497,7 @@ ___
 
 ___
 
+
 ### processGoogleMyBusinessInfoTaskPost
 
 ▸ **processGoogleMyBusinessInfoTaskPost**(`response`): `Promise`\<[`BusinessDataGoogleMyBusinessInfoTaskPostResponseInfo`](BusinessDataGoogleMyBusinessInfoTaskPostResponseInfo.md)\>
@@ -1449,6 +1517,7 @@ ___
 [main.ts:17317](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L17317)
 
 ___
+
 
 ### processGoogleMyBusinessInfoTasksReady
 
@@ -1470,6 +1539,7 @@ ___
 
 ___
 
+
 ### processGoogleMyBusinessUpdatesTaskGet
 
 ▸ **processGoogleMyBusinessUpdatesTaskGet**(`response`): `Promise`\<[`BusinessDataGoogleMyBusinessUpdatesTaskGetResponseInfo`](BusinessDataGoogleMyBusinessUpdatesTaskGetResponseInfo.md)\>
@@ -1489,6 +1559,7 @@ ___
 [main.ts:17519](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L17519)
 
 ___
+
 
 ### processGoogleMyBusinessUpdatesTaskPost
 
@@ -1510,6 +1581,7 @@ ___
 
 ___
 
+
 ### processGoogleMyBusinessUpdatesTasksReady
 
 ▸ **processGoogleMyBusinessUpdatesTasksReady**(`response`): `Promise`\<[`BusinessDataGoogleMyBusinessUpdatesTasksReadyResponseInfo`](BusinessDataGoogleMyBusinessUpdatesTasksReadyResponseInfo.md)\>
@@ -1529,6 +1601,7 @@ ___
 [main.ts:17476](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L17476)
 
 ___
+
 
 ### processGoogleReviewsTaskGet
 
@@ -1550,6 +1623,7 @@ ___
 
 ___
 
+
 ### processGoogleReviewsTaskPost
 
 ▸ **processGoogleReviewsTaskPost**(`response`): `Promise`\<[`BusinessDataGoogleReviewsTaskPostResponseInfo`](BusinessDataGoogleReviewsTaskPostResponseInfo.md)\>
@@ -1569,6 +1643,7 @@ ___
 [main.ts:17974](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L17974)
 
 ___
+
 
 ### processGoogleReviewsTasksReady
 
@@ -1590,6 +1665,7 @@ ___
 
 ___
 
+
 ### processSocialMediaFacebookLive
 
 ▸ **processSocialMediaFacebookLive**(`response`): `Promise`\<[`BusinessDataSocialMediaFacebookLiveResponseInfo`](BusinessDataSocialMediaFacebookLiveResponseInfo.md)\>
@@ -1609,6 +1685,7 @@ ___
 [main.ts:19108](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L19108)
 
 ___
+
 
 ### processSocialMediaPinterestLive
 
@@ -1630,6 +1707,7 @@ ___
 
 ___
 
+
 ### processSocialMediaRedditLive
 
 ▸ **processSocialMediaRedditLive**(`response`): `Promise`\<[`BusinessDataSocialMediaRedditLiveResponseInfo`](BusinessDataSocialMediaRedditLiveResponseInfo.md)\>
@@ -1649,6 +1727,7 @@ ___
 [main.ts:19150](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L19150)
 
 ___
+
 
 ### processTripadvisorReviewsTaskGet
 
@@ -1670,6 +1749,7 @@ ___
 
 ___
 
+
 ### processTripadvisorReviewsTaskPost
 
 ▸ **processTripadvisorReviewsTaskPost**(`response`): `Promise`\<[`BusinessDataTripadvisorReviewsTaskPostResponseInfo`](BusinessDataTripadvisorReviewsTaskPostResponseInfo.md)\>
@@ -1689,6 +1769,7 @@ ___
 [main.ts:18581](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L18581)
 
 ___
+
 
 ### processTripadvisorReviewsTasksReady
 
@@ -1710,6 +1791,7 @@ ___
 
 ___
 
+
 ### processTripadvisorSearchTaskGet
 
 ▸ **processTripadvisorSearchTaskGet**(`response`): `Promise`\<[`BusinessDataTripadvisorSearchTaskGetResponseInfo`](BusinessDataTripadvisorSearchTaskGetResponseInfo.md)\>
@@ -1729,6 +1811,7 @@ ___
 [main.ts:18539](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L18539)
 
 ___
+
 
 ### processTripadvisorSearchTaskPost
 
@@ -1750,6 +1833,7 @@ ___
 
 ___
 
+
 ### processTripadvisorSearchTasksReady
 
 ▸ **processTripadvisorSearchTasksReady**(`response`): `Promise`\<[`BusinessDataTripadvisorSearchTasksReadyResponseInfo`](BusinessDataTripadvisorSearchTasksReadyResponseInfo.md)\>
@@ -1769,6 +1853,7 @@ ___
 [main.ts:18496](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L18496)
 
 ___
+
 
 ### processTrustpilotReviewsTaskGet
 
@@ -1790,6 +1875,7 @@ ___
 
 ___
 
+
 ### processTrustpilotReviewsTaskPost
 
 ▸ **processTrustpilotReviewsTaskPost**(`response`): `Promise`\<[`BusinessDataTrustpilotReviewsTaskPostResponseInfo`](BusinessDataTrustpilotReviewsTaskPostResponseInfo.md)\>
@@ -1809,6 +1895,7 @@ ___
 [main.ts:18218](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L18218)
 
 ___
+
 
 ### processTrustpilotReviewsTasksReady
 
@@ -1830,6 +1917,7 @@ ___
 
 ___
 
+
 ### processTrustpilotSearchTaskGet
 
 ▸ **processTrustpilotSearchTaskGet**(`response`): `Promise`\<[`BusinessDataTrustpilotSearchTaskGetResponseInfo`](BusinessDataTrustpilotSearchTaskGetResponseInfo.md)\>
@@ -1849,6 +1937,7 @@ ___
 [main.ts:18176](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L18176)
 
 ___
+
 
 ### processTrustpilotSearchTaskPost
 
@@ -1870,6 +1959,7 @@ ___
 
 ___
 
+
 ### processTrustpilotSearchTasksReady
 
 ▸ **processTrustpilotSearchTasksReady**(`response`): `Promise`\<[`BusinessDataTrustpilotSearchTasksReadyResponseInfo`](BusinessDataTrustpilotSearchTasksReadyResponseInfo.md)\>
@@ -1889,6 +1979,7 @@ ___
 [main.ts:18133](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L18133)
 
 ___
+
 
 ### processYelpReviewsTaskGet
 
@@ -1910,6 +2001,7 @@ ___
 
 ___
 
+
 ### processYelpReviewsTaskPost
 
 ▸ **processYelpReviewsTaskPost**(`response`): `Promise`\<[`BusinessDataYelpReviewsTaskPostResponseInfo`](BusinessDataYelpReviewsTaskPostResponseInfo.md)\>
@@ -1929,6 +2021,7 @@ ___
 [main.ts:18944](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L18944)
 
 ___
+
 
 ### processYelpReviewsTasksReady
 
@@ -1950,6 +2043,7 @@ ___
 
 ___
 
+
 ### processYelpSearchTaskGet
 
 ▸ **processYelpSearchTaskGet**(`response`): `Promise`\<[`BusinessDataYelpSearchTaskGetResponseInfo`](BusinessDataYelpSearchTaskGetResponseInfo.md)\>
@@ -1969,6 +2063,7 @@ ___
 [main.ts:18902](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L18902)
 
 ___
+
 
 ### processYelpSearchTaskPost
 
@@ -1990,6 +2085,7 @@ ___
 
 ___
 
+
 ### processYelpSearchTasksReady
 
 ▸ **processYelpSearchTasksReady**(`response`): `Promise`\<[`BusinessDataYelpSearchTasksReadyResponseInfo`](BusinessDataYelpSearchTasksReadyResponseInfo.md)\>
@@ -2009,6 +2105,7 @@ ___
 [main.ts:18859](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L18859)
 
 ___
+
 
 ### socialMediaFacebookLive
 
@@ -2032,6 +2129,7 @@ Successful operation
 
 ___
 
+
 ### socialMediaPinterestLive
 
 ▸ **socialMediaPinterestLive**(`body`): `Promise`\<[`BusinessDataSocialMediaPinterestLiveResponseInfo`](BusinessDataSocialMediaPinterestLiveResponseInfo.md)\>
@@ -2053,6 +2151,7 @@ Successful operation
 [main.ts:19046](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L19046)
 
 ___
+
 
 ### socialMediaRedditLive
 
@@ -2076,6 +2175,7 @@ Successful operation
 
 ___
 
+
 ### tripadvisorReviewsTaskGet
 
 ▸ **tripadvisorReviewsTaskGet**(`id`): `Promise`\<[`BusinessDataTripadvisorReviewsTaskGetResponseInfo`](BusinessDataTripadvisorReviewsTaskGetResponseInfo.md)\>
@@ -2097,6 +2197,7 @@ Successful operation
 [main.ts:18642](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L18642)
 
 ___
+
 
 ### tripadvisorReviewsTaskPost
 
@@ -2120,6 +2221,7 @@ Successful operation
 
 ___
 
+
 ### tripadvisorReviewsTasksReady
 
 ▸ **tripadvisorReviewsTasksReady**(): `Promise`\<[`BusinessDataTripadvisorReviewsTasksReadyResponseInfo`](BusinessDataTripadvisorReviewsTasksReadyResponseInfo.md)\>
@@ -2135,6 +2237,7 @@ Successful operation
 [main.ts:18602](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L18602)
 
 ___
+
 
 ### tripadvisorSearchTaskGet
 
@@ -2158,6 +2261,7 @@ Successful operation
 
 ___
 
+
 ### tripadvisorSearchTaskPost
 
 ▸ **tripadvisorSearchTaskPost**(`body`): `Promise`\<[`BusinessDataTripadvisorSearchTaskPostResponseInfo`](BusinessDataTripadvisorSearchTaskPostResponseInfo.md)\>
@@ -2180,6 +2284,7 @@ Successful operation
 
 ___
 
+
 ### tripadvisorSearchTasksReady
 
 ▸ **tripadvisorSearchTasksReady**(): `Promise`\<[`BusinessDataTripadvisorSearchTasksReadyResponseInfo`](BusinessDataTripadvisorSearchTasksReadyResponseInfo.md)\>
@@ -2195,6 +2300,7 @@ Successful operation
 [main.ts:18480](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L18480)
 
 ___
+
 
 ### trustpilotReviewsTaskGet
 
@@ -2218,6 +2324,7 @@ Successful operation
 
 ___
 
+
 ### trustpilotReviewsTaskPost
 
 ▸ **trustpilotReviewsTaskPost**(`body`): `Promise`\<[`BusinessDataTrustpilotReviewsTaskPostResponseInfo`](BusinessDataTrustpilotReviewsTaskPostResponseInfo.md)\>
@@ -2240,6 +2347,7 @@ Successful operation
 
 ___
 
+
 ### trustpilotReviewsTasksReady
 
 ▸ **trustpilotReviewsTasksReady**(): `Promise`\<[`BusinessDataTrustpilotReviewsTasksReadyResponseInfo`](BusinessDataTrustpilotReviewsTasksReadyResponseInfo.md)\>
@@ -2255,6 +2363,7 @@ Successful operation
 [main.ts:18239](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L18239)
 
 ___
+
 
 ### trustpilotSearchTaskGet
 
@@ -2278,6 +2387,7 @@ Successful operation
 
 ___
 
+
 ### trustpilotSearchTaskPost
 
 ▸ **trustpilotSearchTaskPost**(`body`): `Promise`\<[`BusinessDataTrustpilotSearchTaskPostResponseInfo`](BusinessDataTrustpilotSearchTaskPostResponseInfo.md)\>
@@ -2300,6 +2410,7 @@ Successful operation
 
 ___
 
+
 ### trustpilotSearchTasksReady
 
 ▸ **trustpilotSearchTasksReady**(): `Promise`\<[`BusinessDataTrustpilotSearchTasksReadyResponseInfo`](BusinessDataTrustpilotSearchTasksReadyResponseInfo.md)\>
@@ -2315,6 +2426,7 @@ Successful operation
 [main.ts:18117](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L18117)
 
 ___
+
 
 ### yelpReviewsTaskGet
 
@@ -2338,6 +2450,7 @@ Successful operation
 
 ___
 
+
 ### yelpReviewsTaskPost
 
 ▸ **yelpReviewsTaskPost**(`body`): `Promise`\<[`BusinessDataYelpReviewsTaskPostResponseInfo`](BusinessDataYelpReviewsTaskPostResponseInfo.md)\>
@@ -2360,6 +2473,7 @@ Successful operation
 
 ___
 
+
 ### yelpReviewsTasksReady
 
 ▸ **yelpReviewsTasksReady**(): `Promise`\<[`BusinessDataYelpReviewsTasksReadyResponseInfo`](BusinessDataYelpReviewsTasksReadyResponseInfo.md)\>
@@ -2375,6 +2489,7 @@ Successful operation
 [main.ts:18965](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L18965)
 
 ___
+
 
 ### yelpSearchTaskGet
 
@@ -2398,6 +2513,7 @@ Successful operation
 
 ___
 
+
 ### yelpSearchTaskPost
 
 ▸ **yelpSearchTaskPost**(`body`): `Promise`\<[`BusinessDataYelpSearchTaskPostResponseInfo`](BusinessDataYelpSearchTaskPostResponseInfo.md)\>
@@ -2420,6 +2536,7 @@ Successful operation
 
 ___
 
+
 ### yelpSearchTasksReady
 
 ▸ **yelpSearchTasksReady**(): `Promise`\<[`BusinessDataYelpSearchTasksReadyResponseInfo`](BusinessDataYelpSearchTasksReadyResponseInfo.md)\>
@@ -2433,3 +2550,7 @@ Successful operation
 #### Defined in
 
 [main.ts:18843](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L18843)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

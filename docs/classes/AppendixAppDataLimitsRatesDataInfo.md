@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / AppendixAppDataLimitsRatesDataInfo
 
 # Class: AppendixAppDataLimitsRatesDataInfo
@@ -69,6 +73,7 @@
 
 ___
 
+
 ### app\_list
 
 • `Optional` **app\_list**: [`AppendixSerpLimitsRatesDataInfo`](AppendixSerpLimitsRatesDataInfo.md)
@@ -82,6 +87,7 @@ ___
 [main.ts:208238](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L208238)
 
 ___
+
 
 ### app\_reviews
 
@@ -97,6 +103,7 @@ ___
 
 ___
 
+
 ### app\_searches
 
 • `Optional` **app\_searches**: [`AppendixSerpLimitsRatesDataInfo`](AppendixSerpLimitsRatesDataInfo.md)
@@ -110,6 +117,7 @@ ___
 [main.ts:208240](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L208240)
 
 ___
+
 
 ### categories
 
@@ -125,6 +133,7 @@ ___
 
 ___
 
+
 ### errors
 
 • `Optional` **errors**: `number`
@@ -139,6 +148,7 @@ ___
 
 ___
 
+
 ### languages
 
 • `Optional` **languages**: `number`
@@ -152,6 +162,7 @@ ___
 [main.ts:208242](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L208242)
 
 ___
+
 
 ### locations
 
@@ -187,6 +198,7 @@ ___
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -207,6 +219,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`AppendixAppDataLimitsRatesDataInfo`](AppendixAppDataLimitsRatesDataInfo.md)
@@ -224,3 +237,7 @@ ___
 #### Defined in
 
 [main.ts:208274](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L208274)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

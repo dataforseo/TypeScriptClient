@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / BuyOnGoogleMerchantSerpElementItem
 
 # Class: BuyOnGoogleMerchantSerpElementItem
@@ -5,7 +9,7 @@
 ## Hierarchy
 
 - [`BaseMerchantSerpElementItem`](BaseMerchantSerpElementItem.md)
-
+  
   ↳ **`BuyOnGoogleMerchantSerpElementItem`**
 
 ## Implements
@@ -89,6 +93,7 @@
 
 ___
 
+
 ### base\_price
 
 • `Optional` **base\_price**: `number`
@@ -104,6 +109,7 @@ product price without tax and shipping
 [main.ts:166644](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L166644)
 
 ___
+
 
 ### currency
 
@@ -123,6 +129,7 @@ USD
 
 ___
 
+
 ### details
 
 • `Optional` **details**: `string`
@@ -140,6 +147,7 @@ if there are no details, the value will be null
 
 ___
 
+
 ### domain
 
 • `Optional` **domain**: `string`
@@ -155,6 +163,7 @@ domain in SERP
 [main.ts:166635](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L166635)
 
 ___
+
 
 ### position
 
@@ -174,6 +183,7 @@ left, right
 
 ___
 
+
 ### product\_condition
 
 • `Optional` **product\_condition**: `string`
@@ -190,6 +200,7 @@ possible values: Used, Refurbished, New, null
 [main.ts:166668](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L166668)
 
 ___
+
 
 ### rank\_absolute
 
@@ -208,6 +219,7 @@ absolute position among all the elements found in Google Shopping SERP
 
 ___
 
+
 ### rank\_group
 
 • `Optional` **rank\_group**: `number`
@@ -224,6 +236,7 @@ positions of elements with different type values are omitted from rank_group
 [main.ts:166624](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L166624)
 
 ___
+
 
 ### rating
 
@@ -242,6 +255,7 @@ the shop popularity rate based on product reviews
 
 ___
 
+
 ### seller\_name
 
 • `Optional` **seller\_name**: `string`
@@ -259,6 +273,7 @@ the name of the company that placed a corresponding product on Google Shopping
 
 ___
 
+
 ### shipping\_price
 
 • `Optional` **shipping\_price**: `number`
@@ -274,6 +289,7 @@ product shipping price
 [main.ts:166649](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L166649)
 
 ___
+
 
 ### shop\_ad\_aclk
 
@@ -293,6 +309,7 @@ in this case, the value equals null
 
 ___
 
+
 ### tax
 
 • `Optional` **tax**: `number`
@@ -310,6 +327,7 @@ tax is specified as the actual amount of money, not as the percentage
 
 ___
 
+
 ### title
 
 • `Optional` **title**: `string`
@@ -325,6 +343,7 @@ product title
 [main.ts:166637](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L166637)
 
 ___
+
 
 ### total\_price
 
@@ -342,6 +361,7 @@ product price including tax and shipping
 
 ___
 
+
 ### url
 
 • `Optional` **url**: `string`
@@ -357,6 +377,7 @@ Google Shopping URL forwarding to the product page
 [main.ts:166639](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L166639)
 
 ___
+
 
 ### xpath
 
@@ -398,6 +419,7 @@ XPath of the element
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -422,6 +444,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`BuyOnGoogleMerchantSerpElementItem`](BuyOnGoogleMerchantSerpElementItem.md)
@@ -443,3 +466,7 @@ ___
 #### Defined in
 
 [main.ts:166704](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L166704)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

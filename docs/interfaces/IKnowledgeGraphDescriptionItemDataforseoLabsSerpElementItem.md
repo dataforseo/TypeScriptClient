@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IKnowledgeGraphDescriptionItemDataforseoLabsSerpElementItem
 
 # Interface: IKnowledgeGraphDescriptionItemDataforseoLabsSerpElementItem
@@ -5,7 +9,7 @@
 ## Hierarchy
 
 - [`IBaseDataforseoLabsSerpElementItem`](IBaseDataforseoLabsSerpElementItem.md)
-
+  
   ↳ **`IKnowledgeGraphDescriptionItemDataforseoLabsSerpElementItem`**
 
 ## Implemented by
@@ -43,6 +47,7 @@ if there are none, equals null
 
 ___
 
+
 ### position
 
 • `Optional` **position**: `string`
@@ -57,6 +62,7 @@ left, right
 
 ___
 
+
 ### rank\_absolute
 
 • `Optional` **rank\_absolute**: `number`
@@ -69,6 +75,7 @@ absolute position among all the elements in SERP
 [main.ts:91601](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L91601)
 
 ___
+
 
 ### rank\_group
 
@@ -84,6 +91,7 @@ positions of elements with different type values are omitted from rank_group
 
 ___
 
+
 ### text
 
 • `Optional` **text**: `string`
@@ -96,6 +104,7 @@ description content
 
 ___
 
+
 ### xpath
 
 • `Optional` **xpath**: `string`
@@ -105,3 +114,7 @@ the XPath of the element
 #### Defined in
 
 [main.ts:91607](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L91607)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

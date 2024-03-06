@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / AppDataleAppListingsSearchLiveItem
 
 # Class: AppDataleAppListingsSearchLiveItem
@@ -70,6 +74,7 @@ ID of the returned app
 
 ___
 
+
 ### check\_url
 
 • `Optional` **check\_url**: `string`
@@ -87,6 +92,7 @@ you can use it to make sure that we provided accurate results
 
 ___
 
+
 ### item
 
 • `Optional` **item**: [`BaseAppDataSerpElementItem`](BaseAppDataSerpElementItem.md)
@@ -102,6 +108,7 @@ detailed information about the app
 [main.ts:182292](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L182292)
 
 ___
+
 
 ### language\_code
 
@@ -119,6 +126,7 @@ language code in a POST array
 
 ___
 
+
 ### location\_code
 
 • `Optional` **location\_code**: `number`
@@ -135,6 +143,7 @@ location code in a POST array
 
 ___
 
+
 ### se\_domain
 
 • `Optional` **se\_domain**: `string`
@@ -150,6 +159,7 @@ search engine domain in a POST array
 [main.ts:182278](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L182278)
 
 ___
+
 
 ### time\_update
 
@@ -190,6 +200,7 @@ example:
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -210,6 +221,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`AppDataleAppListingsSearchLiveItem`](AppDataleAppListingsSearchLiveItem.md)
@@ -227,3 +239,7 @@ ___
 #### Defined in
 
 [main.ts:182321](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L182321)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

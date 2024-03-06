@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IPopularProductsElement
 
 # Interface: IPopularProductsElement
@@ -34,6 +38,7 @@ description of the results element in SERP
 
 ___
 
+
 ### price
 
 • `Optional` **price**: [`PriceInfo`](../classes/PriceInfo.md)
@@ -46,11 +51,12 @@ price of booking a place for the specified dates of stay
 
 ___
 
+
 ### rating
 
 • `Optional` **rating**: [`RatingInfo`](../classes/RatingInfo.md)
 
-the item’s rating 
+the item’s rating
 the popularity rate based on reviews and displayed in SERP
 
 #### Defined in
@@ -58,6 +64,7 @@ the popularity rate based on reviews and displayed in SERP
 [main.ts:32051](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L32051)
 
 ___
+
 
 ### title
 
@@ -71,6 +78,7 @@ title of the row
 
 ___
 
+
 ### type
 
 • `Optional` **type**: `string`
@@ -80,3 +88,7 @@ type of element
 #### Defined in
 
 [main.ts:32042](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L32042)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

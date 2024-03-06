@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / DataforseoLabsDomainIntersectionLiveItem
 
 # Class: DataforseoLabsDomainIntersectionLiveItem
@@ -68,6 +72,7 @@ the list of supported SERP elements can be found below
 
 ___
 
+
 ### keyword\_data
 
 • `Optional` **keyword\_data**: [`KeywordData`](KeywordData.md)
@@ -84,6 +89,7 @@ keyword data for the returned keyword
 
 ___
 
+
 ### se\_type
 
 • `Optional` **se\_type**: `string`
@@ -99,6 +105,7 @@ search engine type
 [main.ts:89034](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L89034)
 
 ___
+
 
 ### second\_domain\_serp\_element
 
@@ -137,6 +144,7 @@ the list of supported SERP elements can be found below
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -157,6 +165,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`DataforseoLabsDomainIntersectionLiveItem`](DataforseoLabsDomainIntersectionLiveItem.md)
@@ -174,3 +183,7 @@ ___
 #### Defined in
 
 [main.ts:89068](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L89068)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

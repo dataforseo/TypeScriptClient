@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IAppendixTechnologiesDomainAnalyticsPriceData
 
 # Interface: IAppendixTechnologiesDomainAnalyticsPriceData
@@ -36,6 +40,7 @@
 
 ___
 
+
 ### domain\_technologies
 
 • `Optional` **domain\_technologies**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](../classes/AppendixKeywordBingKeywordsDataPriceDataInfo.md)
@@ -45,6 +50,7 @@ ___
 [main.ts:211879](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L211879)
 
 ___
+
 
 ### domains\_by\_html\_terms
 
@@ -56,6 +62,7 @@ ___
 
 ___
 
+
 ### domains\_by\_technology
 
 • `Optional` **domains\_by\_technology**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](../classes/AppendixKeywordBingKeywordsDataPriceDataInfo.md)
@@ -65,6 +72,7 @@ ___
 [main.ts:211878](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L211878)
 
 ___
+
 
 ### languages
 
@@ -76,6 +84,7 @@ ___
 
 ___
 
+
 ### locations
 
 • `Optional` **locations**: [`AppendixTaskKeywordsDataPriceDataInfo`](../classes/AppendixTaskKeywordsDataPriceDataInfo.md)
@@ -85,6 +94,7 @@ ___
 [main.ts:211874](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L211874)
 
 ___
+
 
 ### technologies
 
@@ -96,6 +106,7 @@ ___
 
 ___
 
+
 ### technologies\_summary
 
 • `Optional` **technologies\_summary**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](../classes/AppendixKeywordBingKeywordsDataPriceDataInfo.md)
@@ -106,6 +117,7 @@ ___
 
 ___
 
+
 ### technology\_stats
 
 • `Optional` **technology\_stats**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](../classes/AppendixKeywordBingKeywordsDataPriceDataInfo.md)
@@ -113,3 +125,7 @@ ___
 #### Defined in
 
 [main.ts:211881](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L211881)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

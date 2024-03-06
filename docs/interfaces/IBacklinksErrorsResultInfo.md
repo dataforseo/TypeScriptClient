@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IBacklinksErrorsResultInfo
 
 # Interface: IBacklinksErrorsResultInfo
@@ -42,6 +46,7 @@ example:
 
 ___
 
+
 ### error\_code
 
 • `Optional` **error\_code**: `number`
@@ -53,6 +58,7 @@ error code
 [main.ts:128497](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L128497)
 
 ___
+
 
 ### error\_message
 
@@ -67,6 +73,7 @@ error message (see full list) or URL that caused an error
 
 ___
 
+
 ### function
 
 • `Optional` **function**: `string`
@@ -78,6 +85,7 @@ corresponding API function
 [main.ts:128495](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L128495)
 
 ___
+
 
 ### http\_code
 
@@ -91,6 +99,7 @@ HTTP status code
 
 ___
 
+
 ### http\_method
 
 • `Optional` **http\_method**: `string`
@@ -102,6 +111,7 @@ HTTP method
 [main.ts:128505](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L128505)
 
 ___
+
 
 ### http\_response
 
@@ -116,6 +126,7 @@ server response
 
 ___
 
+
 ### http\_time
 
 • `Optional` **http\_time**: `number`
@@ -127,6 +138,7 @@ time taken by HTTP request
 [main.ts:128509](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L128509)
 
 ___
+
 
 ### http\_url
 
@@ -141,6 +153,7 @@ URL you used for making an API call
 
 ___
 
+
 ### id
 
 • `Optional` **id**: `string`
@@ -150,3 +163,7 @@ id of the task
 #### Defined in
 
 [main.ts:128488](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L128488)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

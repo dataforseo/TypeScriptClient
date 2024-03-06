@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IGpsCoordinatesLocationInfo
 
 # Interface: IGpsCoordinatesLocationInfo
@@ -33,6 +37,7 @@ example:
 
 ___
 
+
 ### longitude
 
 • `Optional` **longitude**: `number`
@@ -44,3 +49,7 @@ example:
 #### Defined in
 
 [main.ts:193447](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L193447)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

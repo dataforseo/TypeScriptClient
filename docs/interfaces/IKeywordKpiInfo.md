@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IKeywordKpiInfo
 
 # Interface: IKeywordKpiInfo
@@ -51,6 +55,7 @@ MainLine4: The fourth ad to appear at the top of the search results page
 
 ___
 
+
 ### average\_bid
 
 • `Optional` **average\_bid**: `number`
@@ -62,6 +67,7 @@ average bid of the keyword
 [main.ts:127242](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L127242)
 
 ___
+
 
 ### average\_cpc
 
@@ -76,6 +82,7 @@ calculated by dividing the cost of all clicks by the number of clicks
 
 ___
 
+
 ### clicks
 
 • `Optional` **clicks**: `number`
@@ -88,6 +95,7 @@ the number of clicks that the keyword and match type generated during the last m
 [main.ts:127228](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L127228)
 
 ___
+
 
 ### ctr
 
@@ -102,6 +110,7 @@ calculated by dividing the number of clicks by the number of impressions and mul
 
 ___
 
+
 ### impressions
 
 • `Optional` **impressions**: `number`
@@ -115,6 +124,7 @@ the number of impressions that the keyword and match type generated during the l
 
 ___
 
+
 ### total\_cost
 
 • `Optional` **total\_cost**: `number`
@@ -125,3 +135,7 @@ the cost of using the specified keyword and match type during the last month
 #### Defined in
 
 [main.ts:127240](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L127240)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

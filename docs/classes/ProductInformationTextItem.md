@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / ProductInformationTextItem
 
 # Class: ProductInformationTextItem
@@ -5,7 +9,7 @@
 ## Hierarchy
 
 - [`BaseProductInformationItem`](BaseProductInformationItem.md)
-
+  
   ↳ **`ProductInformationTextItem`**
 
 ## Implements
@@ -74,6 +78,7 @@
 
 ___
 
+
 ### section\_name
 
 • `Optional` **section\_name**: `string`
@@ -89,6 +94,7 @@ name of the section related to product information specified in the contents
 [main.ts:172502](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L172502)
 
 ___
+
 
 ### text
 
@@ -130,6 +136,7 @@ text specified under the given title within the section_name
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -154,6 +161,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`ProductInformationTextItem`](ProductInformationTextItem.md)
@@ -175,3 +183,7 @@ ___
 #### Defined in
 
 [main.ts:172525](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L172525)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / ISerpErrorsRequestInfo
 
 # Interface: ISerpErrorsRequestInfo
@@ -39,6 +43,7 @@ example:
 
 ___
 
+
 ### datetime\_to
 
 • `Optional` **datetime\_to**: `string`
@@ -56,6 +61,7 @@ example:
 
 ___
 
+
 ### filtered\_function
 
 • `Optional` **filtered\_function**: `string`
@@ -72,6 +78,7 @@ example: serp/task_get/advanced, postback_url, pingback_url
 
 ___
 
+
 ### limit
 
 • `Optional` **limit**: `number`
@@ -87,6 +94,7 @@ maximum value: 1000
 
 ___
 
+
 ### offset
 
 • `Optional` **offset**: `number`
@@ -99,3 +107,7 @@ if you specify the 10 value, the first ten tasks in the results array will be om
 #### Defined in
 
 [main.ts:23145](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L23145)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

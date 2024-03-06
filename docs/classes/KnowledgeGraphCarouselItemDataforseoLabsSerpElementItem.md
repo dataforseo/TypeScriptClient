@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / KnowledgeGraphCarouselItemDataforseoLabsSerpElementItem
 
 # Class: KnowledgeGraphCarouselItemDataforseoLabsSerpElementItem
@@ -5,7 +9,7 @@
 ## Hierarchy
 
 - [`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md)
-
+  
   ↳ **`KnowledgeGraphCarouselItemDataforseoLabsSerpElementItem`**
 
 ## Implements
@@ -80,6 +84,7 @@
 
 ___
 
+
 ### data\_attrid
 
 • `Optional` **data\_attrid**: `string`
@@ -98,6 +103,7 @@ ss:/webfacts:net_worth
 
 ___
 
+
 ### items
 
 • `Optional` **items**: [`KnowledgeGraphListElement`](KnowledgeGraphListElement.md)[]
@@ -115,6 +121,7 @@ if there are none, equals null
 
 ___
 
+
 ### link
 
 • `Optional` **link**: `any`
@@ -130,6 +137,7 @@ link of the element
 [main.ts:92153](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L92153)
 
 ___
+
 
 ### position
 
@@ -149,6 +157,7 @@ left, right
 
 ___
 
+
 ### rank\_absolute
 
 • `Optional` **rank\_absolute**: `number`
@@ -165,6 +174,7 @@ absolute position among all the elements in SERP
 [main.ts:92139](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L92139)
 
 ___
+
 
 ### rank\_group
 
@@ -184,6 +194,7 @@ positions of elements with different type values are omitted from rank_group
 
 ___
 
+
 ### title
 
 • `Optional` **title**: `string`
@@ -199,6 +210,7 @@ title of the link
 [main.ts:92147](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L92147)
 
 ___
+
 
 ### xpath
 
@@ -240,6 +252,7 @@ the XPath of the element
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -264,6 +277,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`KnowledgeGraphCarouselItemDataforseoLabsSerpElementItem`](KnowledgeGraphCarouselItemDataforseoLabsSerpElementItem.md)
@@ -285,3 +299,7 @@ ___
 #### Defined in
 
 [main.ts:92187](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L92187)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IKeywordsDataBingKeywordsForSiteLiveResultInfo
 
 # Interface: IKeywordsDataBingKeywordsForSiteLiveResultInfo
@@ -40,6 +44,7 @@ legacy field, the value will always be null
 
 ___
 
+
 ### competition
 
 • `Optional` **competition**: `number`
@@ -57,6 +62,7 @@ if there is no data the value is null
 
 ___
 
+
 ### cpc
 
 • `Optional` **cpc**: `number`
@@ -71,6 +77,7 @@ if there is no data, then the value is null
 
 ___
 
+
 ### device
 
 • `Optional` **device**: `string`
@@ -84,6 +91,7 @@ if there is no data, then the value is null
 
 ___
 
+
 ### keyword
 
 • `Optional` **keyword**: `string`
@@ -95,6 +103,7 @@ keyword in a POST array
 [main.ts:124814](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L124814)
 
 ___
+
 
 ### language\_code
 
@@ -108,6 +117,7 @@ language code in a POST array
 
 ___
 
+
 ### location\_code
 
 • `Optional` **location\_code**: `number`
@@ -119,6 +129,7 @@ location code in a POST array
 [main.ts:124816](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L124816)
 
 ___
+
 
 ### monthly\_searches
 
@@ -134,6 +145,7 @@ if there is no data, then the value is null
 
 ___
 
+
 ### search\_partners
 
 • `Optional` **search\_partners**: `boolean`
@@ -146,6 +158,7 @@ indicates whether data from partner networks included in the response
 
 ___
 
+
 ### search\_volume
 
 • `Optional` **search\_volume**: `number`
@@ -156,3 +169,7 @@ represents the (approximate) number of searches for the keyword on the Bing sear
 #### Defined in
 
 [main.ts:124837](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L124837)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

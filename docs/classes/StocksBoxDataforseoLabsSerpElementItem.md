@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / StocksBoxDataforseoLabsSerpElementItem
 
 # Class: StocksBoxDataforseoLabsSerpElementItem
@@ -5,7 +9,7 @@
 ## Hierarchy
 
 - [`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md)
-
+  
   ↳ **`StocksBoxDataforseoLabsSerpElementItem`**
 
 ## Implements
@@ -84,6 +88,7 @@
 
 ___
 
+
 ### domain
 
 • `Optional` **domain**: `string`
@@ -100,6 +105,7 @@ domain where a link points
 
 ___
 
+
 ### graph
 
 • `Optional` **graph**: [`Graph`](Graph.md)
@@ -115,6 +121,7 @@ contains data provided in the graph of the element
 [main.ts:95719](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L95719)
 
 ___
+
 
 ### position
 
@@ -134,6 +141,7 @@ left, right
 
 ___
 
+
 ### price
 
 • `Optional` **price**: [`PriceInfo`](PriceInfo.md)
@@ -149,6 +157,7 @@ price of the shopping element
 [main.ts:95710](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L95710)
 
 ___
+
 
 ### rank\_absolute
 
@@ -167,6 +176,7 @@ absolute position among all the elements in SERP
 
 ___
 
+
 ### rank\_group
 
 • `Optional` **rank\_group**: `number`
@@ -184,6 +194,7 @@ positions of elements with different type values are omitted from rank_group
 
 ___
 
+
 ### snippet
 
 • `Optional` **snippet**: `string`
@@ -199,6 +210,7 @@ text alongside the link title
 [main.ts:95708](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L95708)
 
 ___
+
 
 ### source
 
@@ -217,6 +229,7 @@ indicates the source of information included in the shopping_element
 
 ___
 
+
 ### table
 
 • `Optional` **table**: [`Table`](Table.md)
@@ -234,6 +247,7 @@ if there are none, equals null
 
 ___
 
+
 ### title
 
 • `Optional` **title**: `string`
@@ -250,6 +264,7 @@ title of the result in SERP
 
 ___
 
+
 ### url
 
 • `Optional` **url**: `string`
@@ -265,6 +280,7 @@ URL link
 [main.ts:95712](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L95712)
 
 ___
+
 
 ### xpath
 
@@ -306,6 +322,7 @@ the XPath of the element
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -330,6 +347,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`StocksBoxDataforseoLabsSerpElementItem`](StocksBoxDataforseoLabsSerpElementItem.md)
@@ -351,3 +369,7 @@ ___
 #### Defined in
 
 [main.ts:95750](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L95750)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

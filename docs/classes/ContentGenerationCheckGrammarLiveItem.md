@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / ContentGenerationCheckGrammarLiveItem
 
 # Class: ContentGenerationCheckGrammarLiveItem
@@ -74,6 +78,7 @@ description of the grammar or spelling error
 
 ___
 
+
 ### length
 
 • `Optional` **length**: `number`
@@ -89,6 +94,7 @@ offset token for subsequent requests
 [main.ts:161477](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L161477)
 
 ___
+
 
 ### message
 
@@ -106,6 +112,7 @@ message of the grammar or spelling error
 
 ___
 
+
 ### offset
 
 • `Optional` **offset**: `number`
@@ -121,6 +128,7 @@ offset token for subsequent requests
 [main.ts:161475](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L161475)
 
 ___
+
 
 ### rule\_category\_id
 
@@ -138,6 +146,7 @@ id of the rule category
 
 ___
 
+
 ### rule\_category\_name
 
 • `Optional` **rule\_category\_name**: `string`
@@ -154,6 +163,7 @@ name of the rule category
 
 ___
 
+
 ### rule\_description
 
 • `Optional` **rule\_description**: `string`
@@ -169,6 +179,7 @@ description of the grammar or spelling rule
 [main.ts:161484](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L161484)
 
 ___
+
 
 ### rule\_id
 
@@ -187,6 +198,7 @@ see the List of Grammar Rules for Content Generation API
 
 ___
 
+
 ### rule\_issue\_type
 
 • `Optional` **rule\_issue\_type**: `string`
@@ -203,6 +215,7 @@ type of the issue found by the relevant rule
 
 ___
 
+
 ### suggestions
 
 • `Optional` **suggestions**: `string`[]
@@ -218,6 +231,7 @@ suggested corrections
 [main.ts:161473](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L161473)
 
 ___
+
 
 ### type
 
@@ -255,6 +269,7 @@ type of element
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -275,6 +290,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`ContentGenerationCheckGrammarLiveItem`](ContentGenerationCheckGrammarLiveItem.md)
@@ -292,3 +308,7 @@ ___
 #### Defined in
 
 [main.ts:161527](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L161527)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

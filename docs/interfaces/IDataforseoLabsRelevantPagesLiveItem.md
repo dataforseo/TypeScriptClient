@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IDataforseoLabsRelevantPagesLiveItem
 
 # Interface: IDataforseoLabsRelevantPagesLiveItem
@@ -36,6 +40,7 @@ rankings and traffic metrics for the relevant page
 
 ___
 
+
 ### page\_address
 
 • `Optional` **page\_address**: `string`
@@ -48,6 +53,7 @@ absolute URL of the relevant page
 
 ___
 
+
 ### se\_type
 
 • `Optional` **se\_type**: `string`
@@ -57,3 +63,7 @@ search engine type
 #### Defined in
 
 [main.ts:90265](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L90265)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

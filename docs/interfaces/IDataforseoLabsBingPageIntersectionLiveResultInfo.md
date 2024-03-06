@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IDataforseoLabsBingPageIntersectionLiveResultInfo
 
 # Interface: IDataforseoLabsBingPageIntersectionLiveResultInfo
@@ -37,6 +41,7 @@ URLs you specified in a POST array that will be excluded from the results
 
 ___
 
+
 ### items
 
 • `Optional` **items**: [`DataforseoLabsPageIntersectionLiveItem`](../classes/DataforseoLabsPageIntersectionLiveItem.md)[]
@@ -48,6 +53,7 @@ contains keywords, relevant SERP elements and related data
 [main.ts:104843](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L104843)
 
 ___
+
 
 ### items\_count
 
@@ -61,6 +67,7 @@ the number of results returned in the items array
 
 ___
 
+
 ### language\_code
 
 • `Optional` **language\_code**: `string`
@@ -73,6 +80,7 @@ language code in a POST array
 
 ___
 
+
 ### location\_code
 
 • `Optional` **location\_code**: `number`
@@ -84,6 +92,7 @@ location code in a POST array
 [main.ts:104835](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L104835)
 
 ___
+
 
 ### pages
 
@@ -101,6 +110,7 @@ URLs you specified a POST array
 
 ___
 
+
 ### se\_type
 
 • `Optional` **se\_type**: `string`
@@ -115,6 +125,7 @@ for this endpoint, the field equals bing
 
 ___
 
+
 ### total\_count
 
 • `Optional` **total\_count**: `number`
@@ -124,3 +135,7 @@ total amount of results in our database relevant to your request
 #### Defined in
 
 [main.ts:104839](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L104839)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

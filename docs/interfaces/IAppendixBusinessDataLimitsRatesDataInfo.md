@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IAppendixBusinessDataLimitsRatesDataInfo
 
 # Interface: IAppendixBusinessDataLimitsRatesDataInfo
@@ -36,6 +40,7 @@
 
 ___
 
+
 ### errors
 
 • `Optional` **errors**: `number`
@@ -45,6 +50,7 @@ ___
 [main.ts:208102](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L208102)
 
 ___
+
 
 ### google
 
@@ -56,6 +62,7 @@ ___
 
 ___
 
+
 ### languages
 
 • `Optional` **languages**: `number`
@@ -65,6 +72,7 @@ ___
 [main.ts:208101](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L208101)
 
 ___
+
 
 ### locations
 
@@ -76,6 +84,7 @@ ___
 
 ___
 
+
 ### social\_media
 
 • `Optional` **social\_media**: [`AppendixSocialMediaBusinessDataLimitsRatesDataInfo`](../classes/AppendixSocialMediaBusinessDataLimitsRatesDataInfo.md)
@@ -85,6 +94,7 @@ ___
 [main.ts:208104](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L208104)
 
 ___
+
 
 ### tripadvisor
 
@@ -96,6 +106,7 @@ ___
 
 ___
 
+
 ### trustpilot
 
 • `Optional` **trustpilot**: [`AppendixBusinessDataDayLimitsRatesDataInfo`](../classes/AppendixBusinessDataDayLimitsRatesDataInfo.md)
@@ -106,6 +117,7 @@ ___
 
 ___
 
+
 ### yelp
 
 • `Optional` **yelp**: [`AppendixBusinessDataDayLimitsRatesDataInfo`](../classes/AppendixBusinessDataDayLimitsRatesDataInfo.md)
@@ -113,3 +125,7 @@ ___
 #### Defined in
 
 [main.ts:208103](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L208103)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

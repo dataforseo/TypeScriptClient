@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / ISerpGoogleMapsLiveAdvancedResultInfo
 
 # Interface: ISerpGoogleMapsLiveAdvancedResultInfo
@@ -43,6 +47,7 @@ Note: to check location-specific results, follow the provided check url, scroll 
 
 ___
 
+
 ### datetime
 
 • `Optional` **datetime**: `string`
@@ -57,6 +62,7 @@ example:
 [main.ts:39505](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L39505)
 
 ___
+
 
 ### item\_types
 
@@ -73,6 +79,7 @@ maps_search, maps_paid_item
 
 ___
 
+
 ### items
 
 • `Optional` **items**: [`BaseSerpElementItem`](../classes/BaseSerpElementItem.md)[]
@@ -85,6 +92,7 @@ elements of search results found in SERP
 
 ___
 
+
 ### items\_count
 
 • `Optional` **items\_count**: `number`
@@ -96,6 +104,7 @@ the number of results returned in the items array
 [main.ts:39517](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L39517)
 
 ___
+
 
 ### keyword
 
@@ -110,6 +119,7 @@ the keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to
 
 ___
 
+
 ### language\_code
 
 • `Optional` **language\_code**: `string`
@@ -121,6 +131,7 @@ language code in a POST array
 [main.ts:39496](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L39496)
 
 ___
+
 
 ### location\_code
 
@@ -134,6 +145,7 @@ location code in a POST array
 
 ___
 
+
 ### se\_domain
 
 • `Optional` **se\_domain**: `string`
@@ -146,6 +158,7 @@ search engine domain in a POST array
 
 ___
 
+
 ### se\_results\_count
 
 • `Optional` **se\_results\_count**: `number`
@@ -157,6 +170,7 @@ total number of results in SERP
 [main.ts:39515](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L39515)
 
 ___
+
 
 ### spell
 
@@ -171,6 +185,7 @@ if the search engine provided results for a keyword that was corrected, we will 
 
 ___
 
+
 ### type
 
 • `Optional` **type**: `string`
@@ -180,3 +195,7 @@ type of element
 #### Defined in
 
 [main.ts:39490](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L39490)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / LocalPackSerpElementItem
 
 # Class: LocalPackSerpElementItem
@@ -5,7 +9,7 @@
 ## Hierarchy
 
 - [`BaseSerpElementItem`](BaseSerpElementItem.md)
-
+  
   ↳ **`LocalPackSerpElementItem`**
 
 ## Implements
@@ -85,6 +89,7 @@
 
 ___
 
+
 ### cid
 
 • `Optional` **cid**: `string`
@@ -100,6 +105,7 @@ google-defined client id
 [main.ts:29810](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L29810)
 
 ___
+
 
 ### description
 
@@ -117,6 +123,7 @@ description
 
 ___
 
+
 ### domain
 
 • `Optional` **domain**: `string`
@@ -132,6 +139,7 @@ domain where a link points
 [main.ts:29799](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L29799)
 
 ___
+
 
 ### is\_paid
 
@@ -149,6 +157,7 @@ indicates whether the element is an ad
 
 ___
 
+
 ### phone
 
 • `Optional` **phone**: `string`
@@ -164,6 +173,7 @@ phone number
 [main.ts:29801](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L29801)
 
 ___
+
 
 ### position
 
@@ -183,6 +193,7 @@ left, right
 
 ___
 
+
 ### rank\_absolute
 
 • `Optional` **rank\_absolute**: `number`
@@ -199,6 +210,7 @@ absolute position among all the elements in SERP
 [main.ts:29787](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L29787)
 
 ___
+
 
 ### rank\_group
 
@@ -218,11 +230,12 @@ positions of elements with different type values are omitted from rank_group
 
 ___
 
+
 ### rating
 
 • `Optional` **rating**: [`RatingInfo`](RatingInfo.md)
 
-the item’s rating 
+the item’s rating
 the popularity rate based on reviews and displayed in SERP
 
 #### Implementation of
@@ -234,6 +247,7 @@ the popularity rate based on reviews and displayed in SERP
 [main.ts:29808](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L29808)
 
 ___
+
 
 ### rectangle
 
@@ -253,6 +267,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 ___
 
+
 ### title
 
 • `Optional` **title**: `string`
@@ -269,6 +284,7 @@ title of a given link element
 
 ___
 
+
 ### url
 
 • `Optional` **url**: `string`
@@ -284,6 +300,7 @@ URL
 [main.ts:29803](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L29803)
 
 ___
+
 
 ### xpath
 
@@ -325,6 +342,7 @@ the XPath of the element
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -349,6 +367,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`LocalPackSerpElementItem`](LocalPackSerpElementItem.md)
@@ -370,3 +389,7 @@ ___
 #### Defined in
 
 [main.ts:29846](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L29846)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / TripadvisorReviewSearchBusinessDataSerpElementItem
 
 # Class: TripadvisorReviewSearchBusinessDataSerpElementItem
@@ -5,7 +9,7 @@
 ## Hierarchy
 
 - [`BaseBusinessDataSerpElementItem`](BaseBusinessDataSerpElementItem.md)
-
+  
   ↳ **`TripadvisorReviewSearchBusinessDataSerpElementItem`**
 
 ## Implements
@@ -84,6 +88,7 @@
 
 ___
 
+
 ### date\_of\_visit
 
 • `Optional` **date\_of\_visit**: `string`
@@ -103,6 +108,7 @@ example:
 
 ___
 
+
 ### position
 
 • `Optional` **position**: `string`
@@ -119,6 +125,7 @@ can take the following values: right
 [main.ts:202393](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L202393)
 
 ___
+
 
 ### rank\_absolute
 
@@ -137,6 +144,7 @@ absolute position among all reviews on the list
 
 ___
 
+
 ### rank\_group
 
 • `Optional` **rank\_group**: `number`
@@ -154,6 +162,7 @@ positions of elements with different type values are omitted from rank_group
 
 ___
 
+
 ### rating
 
 • `Optional` **rating**: [`RatingInfo`](RatingInfo.md)
@@ -169,6 +178,7 @@ the rating score submitted by the reviewer
 [main.ts:202397](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L202397)
 
 ___
+
 
 ### responses
 
@@ -186,6 +196,7 @@ contains information about the owner’s response
 
 ___
 
+
 ### review\_images
 
 • `Optional` **review\_images**: [`ImageUrlInfo`](ImageUrlInfo.md)[]
@@ -202,6 +213,7 @@ contains URLs of the images used in the review
 
 ___
 
+
 ### review\_text
 
 • `Optional` **review\_text**: `string`
@@ -217,6 +229,7 @@ content of the review
 [main.ts:202411](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L202411)
 
 ___
+
 
 ### timestamp
 
@@ -237,6 +250,7 @@ example:
 
 ___
 
+
 ### title
 
 • `Optional` **title**: `string`
@@ -253,6 +267,7 @@ title of the review
 
 ___
 
+
 ### url
 
 • `Optional` **url**: `string`
@@ -268,6 +283,7 @@ URL of the review
 [main.ts:202395](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L202395)
 
 ___
+
 
 ### user\_profile
 
@@ -309,6 +325,7 @@ information from the reviewer’s profile
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -333,6 +350,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`TripadvisorReviewSearchBusinessDataSerpElementItem`](TripadvisorReviewSearchBusinessDataSerpElementItem.md)
@@ -354,3 +372,7 @@ ___
 #### Defined in
 
 [main.ts:202456](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L202456)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

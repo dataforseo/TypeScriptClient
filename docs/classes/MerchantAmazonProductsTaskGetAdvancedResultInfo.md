@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / MerchantAmazonProductsTaskGetAdvancedResultInfo
 
 # Class: MerchantAmazonProductsTaskGetAdvancedResultInfo
@@ -76,6 +80,7 @@ amazon product departments and subcategories
 
 ___
 
+
 ### check\_url
 
 • `Optional` **check\_url**: `string`
@@ -92,6 +97,7 @@ you can use it to make sure that we provided accurate results
 [main.ts:171288](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L171288)
 
 ___
+
 
 ### datetime
 
@@ -112,6 +118,7 @@ example:
 
 ___
 
+
 ### item\_types
 
 • `Optional` **item\_types**: `string`[]
@@ -131,6 +138,7 @@ amazon_serp, amazon_paid, editorial_recommendations, top_rated_from_our_brands, 
 
 ___
 
+
 ### items
 
 • `Optional` **items**: [`BaseAmazonSerpElementItem`](BaseAmazonSerpElementItem.md)[]
@@ -147,6 +155,7 @@ Amazon product items within the editorial_recommendations element
 
 ___
 
+
 ### items\_count
 
 • `Optional` **items\_count**: `number`
@@ -162,6 +171,7 @@ the number of results returned in the items array
 [main.ts:171307](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L171307)
 
 ___
+
 
 ### keyword
 
@@ -180,6 +190,7 @@ keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a s
 
 ___
 
+
 ### language\_code
 
 • `Optional` **language\_code**: `string`
@@ -195,6 +206,7 @@ language code in a POST array
 [main.ts:171285](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L171285)
 
 ___
+
 
 ### location\_code
 
@@ -212,6 +224,7 @@ location code in a POST array
 
 ___
 
+
 ### se\_domain
 
 • `Optional` **se\_domain**: `string`
@@ -227,6 +240,7 @@ search engine domain in a POST array
 [main.ts:171281](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L171281)
 
 ___
+
 
 ### se\_results\_count
 
@@ -244,6 +258,7 @@ search engine results count
 
 ___
 
+
 ### spell
 
 • `Optional` **spell**: [`SpellInfo`](SpellInfo.md)
@@ -260,6 +275,7 @@ if the search engine provided results for a keyword that was corrected, we will 
 [main.ts:171296](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L171296)
 
 ___
+
 
 ### type
 
@@ -297,6 +313,7 @@ type of element
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -317,6 +334,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`MerchantAmazonProductsTaskGetAdvancedResultInfo`](MerchantAmazonProductsTaskGetAdvancedResultInfo.md)
@@ -334,3 +352,7 @@ ___
 #### Defined in
 
 [main.ts:171356](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L171356)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

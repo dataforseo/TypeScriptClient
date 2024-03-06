@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / DomainAnalyticsTechnologiesTechnologiesSummaryLiveResultInfo
 
 # Class: DomainAnalyticsTechnologiesTechnologiesSummaryLiveResultInfo
@@ -72,6 +76,7 @@ contains content language codes and number of websites per language
 
 ___
 
+
 ### countries
 
 • `Optional` **countries**: `Object`
@@ -93,6 +98,7 @@ contains country codes and number of websites per country
 
 ___
 
+
 ### keywords
 
 • `Optional` **keywords**: `Object`
@@ -113,6 +119,7 @@ contains keywords found in the websites’ titles, descriptions or meta keywords
 [main.ts:73268](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L73268)
 
 ___
+
 
 ### languages
 
@@ -155,6 +162,7 @@ contains language codes and number of websites per language
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -175,6 +183,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`DomainAnalyticsTechnologiesTechnologiesSummaryLiveResultInfo`](DomainAnalyticsTechnologiesTechnologiesSummaryLiveResultInfo.md)
@@ -192,3 +201,7 @@ ___
 #### Defined in
 
 [main.ts:73318](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L73318)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

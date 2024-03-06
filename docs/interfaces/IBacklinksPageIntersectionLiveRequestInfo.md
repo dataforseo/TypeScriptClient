@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IBacklinksPageIntersectionLiveRequestInfo
 
 # Interface: IBacklinksPageIntersectionLiveRequestInfo
@@ -48,6 +52,7 @@ default value: live
 
 ___
 
+
 ### exclude\_targets
 
 • `Optional` **exclude\_targets**: `string`[]
@@ -67,6 +72,7 @@ example:
 [main.ts:137557](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L137557)
 
 ___
+
 
 ### filters
 
@@ -95,6 +101,7 @@ The full list of possible filters is available here.
 
 ___
 
+
 ### include\_indirect\_links
 
 • `Optional` **include\_indirect\_links**: `boolean`
@@ -111,6 +118,7 @@ default value: true
 
 ___
 
+
 ### include\_subdomains
 
 • `Optional` **include\_subdomains**: `boolean`
@@ -125,6 +133,7 @@ default value: true
 [main.ts:137620](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L137620)
 
 ___
+
 
 ### internal\_list\_limit
 
@@ -144,6 +153,7 @@ maximum value: 1000
 
 ___
 
+
 ### intersection\_mode
 
 • `Optional` **intersection\_mode**: `string`
@@ -162,6 +172,7 @@ default value: all
 
 ___
 
+
 ### limit
 
 • `Optional` **limit**: `number`
@@ -177,6 +188,7 @@ maximum value: 1000
 
 ___
 
+
 ### offset
 
 • `Optional` **offset**: `number`
@@ -191,6 +203,7 @@ if you specify the 10 value, the first ten backlinks in the results array will b
 [main.ts:137602](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L137602)
 
 ___
+
 
 ### order\_by
 
@@ -216,6 +229,7 @@ example:
 
 ___
 
+
 ### tag
 
 • `Optional` **tag**: `string`
@@ -231,6 +245,7 @@ you will find the specified tag value in the data object of the response
 [main.ts:137640](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L137640)
 
 ___
+
 
 ### targets
 
@@ -254,3 +269,7 @@ example:
 #### Defined in
 
 [main.ts:137547](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L137547)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

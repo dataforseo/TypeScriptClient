@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / SerpYoutubeVideoInfoTaskPostRequestInfo
 
 # Class: SerpYoutubeVideoInfoTaskPostRequestInfo
@@ -77,6 +81,7 @@ only value: desktop
 
 ___
 
+
 ### language\_code
 
 • `Optional` **language\_code**: `string`
@@ -97,6 +102,7 @@ en
 [main.ts:57774](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L57774)
 
 ___
+
 
 ### language\_name
 
@@ -119,6 +125,7 @@ English
 
 ___
 
+
 ### location\_code
 
 • `Optional` **location\_code**: `number`
@@ -139,6 +146,7 @@ example:
 [main.ts:57760](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L57760)
 
 ___
+
 
 ### location\_name
 
@@ -161,6 +169,7 @@ United States
 
 ___
 
+
 ### os
 
 • `Optional` **os**: `string`
@@ -179,6 +188,7 @@ default value: windows
 [main.ts:57783](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L57783)
 
 ___
+
 
 ### pingback\_url
 
@@ -204,6 +214,7 @@ i.a., the # symbol will be encoded into %23
 
 ___
 
+
 ### postback\_data
 
 • `Optional` **postback\_data**: `string`
@@ -223,6 +234,7 @@ advanced
 [main.ts:57805](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L57805)
 
 ___
+
 
 ### postback\_url
 
@@ -248,6 +260,7 @@ i.a., the # symbol will be encoded into %23
 
 ___
 
+
 ### priority
 
 • `Optional` **priority**: `number`
@@ -270,6 +283,7 @@ The cost can be calculated on the Pricing page.
 
 ___
 
+
 ### tag
 
 • `Optional` **tag**: `string`
@@ -289,6 +303,7 @@ you will find the specified tag value in the data object of the response
 [main.ts:57789](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L57789)
 
 ___
+
 
 ### video\_id
 
@@ -330,6 +345,7 @@ vQXvyV0zIP4
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -350,6 +366,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`SerpYoutubeVideoInfoTaskPostRequestInfo`](SerpYoutubeVideoInfoTaskPostRequestInfo.md)
@@ -367,3 +384,7 @@ ___
 #### Defined in
 
 [main.ts:57849](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L57849)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

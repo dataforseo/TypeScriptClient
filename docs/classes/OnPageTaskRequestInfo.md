@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / OnPageTaskRequestInfo
 
 # Class: OnPageTaskRequestInfo
@@ -109,6 +113,7 @@ Note: if you do not specify this parameter, some websites may deny access; in th
 
 ___
 
+
 ### allow\_subdomains
 
 • `Optional` **allow\_subdomains**: `boolean`
@@ -127,6 +132,7 @@ default value: false
 [main.ts:116695](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L116695)
 
 ___
+
 
 ### allowed\_subdomains
 
@@ -148,6 +154,7 @@ otherwise, the content of allowed_subdomains field will be ignored and the resul
 [main.ts:116702](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L116702)
 
 ___
+
 
 ### browser\_preset
 
@@ -175,6 +182,7 @@ Note: to use this parameter, set enable_javascript or enable_browser_rendering t
 
 ___
 
+
 ### browser\_screen\_height
 
 • `Optional` **browser\_screen\_height**: `number`
@@ -195,6 +203,7 @@ maximum value, in pixels: 9999
 [main.ts:116610](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L116610)
 
 ___
+
 
 ### browser\_screen\_scale\_factor
 
@@ -217,6 +226,7 @@ maximum value: 3
 
 ___
 
+
 ### browser\_screen\_width
 
 • `Optional` **browser\_screen\_width**: `number`
@@ -237,6 +247,7 @@ maximum value, in pixels: 9999
 [main.ts:116603](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L116603)
 
 ___
+
 
 ### calculate\_keyword\_density
 
@@ -259,6 +270,7 @@ once the crawl is completed, you can obtain keyword density values with the Keyw
 
 ___
 
+
 ### check\_spell
 
 • `Optional` **check\_spell**: `boolean`
@@ -277,6 +289,7 @@ default value: false
 [main.ts:116713](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L116713)
 
 ___
+
 
 ### check\_spell\_exceptions
 
@@ -299,6 +312,7 @@ example: "SERP", "minifiers", "JavaScript"
 
 ___
 
+
 ### check\_spell\_language
 
 • `Optional` **check\_spell\_language**: `string`
@@ -317,6 +331,7 @@ Note: if no language is specified, it will be set automatically based on page co
 [main.ts:116718](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L116718)
 
 ___
+
 
 ### checks\_threshold
 
@@ -361,6 +376,7 @@ if you want to change these thresholds to 1 second and 1000 kbytes, use the foll
 
 ___
 
+
 ### crawl\_delay
 
 • `Optional` **crawl\_delay**: `number`
@@ -379,6 +395,7 @@ default value: 2000
 [main.ts:116546](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L116546)
 
 ___
+
 
 ### crawl\_sitemap\_only
 
@@ -400,6 +417,7 @@ Note: if you want to use this parameter, respect_sitemap should be true
 [main.ts:116636](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L116636)
 
 ___
+
 
 ### custom\_js
 
@@ -427,6 +445,7 @@ Note: if you use this parameter, additional charges will apply; learn more about
 
 ___
 
+
 ### custom\_robots\_txt
 
 • `Optional` **custom\_robots\_txt**: `string`
@@ -444,6 +463,7 @@ example: Disallow: /directory1/
 [main.ts:116570](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L116570)
 
 ___
+
 
 ### custom\_sitemap
 
@@ -463,6 +483,7 @@ Note: if you want to use this parameter, respect_sitemap should be true
 [main.ts:116629](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L116629)
 
 ___
+
 
 ### custom\_user\_agent
 
@@ -485,6 +506,7 @@ default value: Mozilla/5.0 (compatible; RSiteAuditor)
 
 ___
 
+
 ### disable\_cookie\_popup
 
 • `Optional` **disable\_cookie\_popup**: `boolean`
@@ -505,6 +527,7 @@ false
 
 ___
 
+
 ### disable\_page\_checks
 
 • `Optional` **disable\_page\_checks**: `string`[]
@@ -523,6 +546,7 @@ specify certain checks to prevent them from running and impacting the onpage_sco
 [main.ts:116771](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L116771)
 
 ___
+
 
 ### disable\_sitewide\_checks
 
@@ -547,6 +571,7 @@ specify the following checks to prevent them from running on the target website:
 
 ___
 
+
 ### disallowed\_subdomains
 
 • `Optional` **disallowed\_subdomains**: `string`[]
@@ -566,6 +591,7 @@ Note: to use this parameter, the allow_subdomains parameter should be set to tru
 [main.ts:116708](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L116708)
 
 ___
+
 
 ### enable\_browser\_rendering
 
@@ -590,6 +616,7 @@ Note: if you use this parameter, additional charges will apply; learn more about
 
 ___
 
+
 ### enable\_content\_parsing
 
 • `Optional` **enable\_content\_parsing**: `boolean`
@@ -608,6 +635,7 @@ default value: false
 [main.ts:116556](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L116556)
 
 ___
+
 
 ### enable\_javascript
 
@@ -629,6 +657,7 @@ Note: if you use this parameter, additional charges will apply; learn more about
 
 ___
 
+
 ### enable\_www\_redirect\_check
 
 • `Optional` **enable\_www\_redirect\_check**: `boolean`
@@ -647,6 +676,7 @@ default value: false
 [main.ts:116647](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L116647)
 
 ___
+
 
 ### enable\_xhr
 
@@ -667,6 +697,7 @@ default value: false;if you use this field, enable_javascript must be set to tru
 
 ___
 
+
 ### force\_sitewide\_checks
 
 • `Optional` **force\_sitewide\_checks**: `boolean`
@@ -685,6 +716,7 @@ default value: false
 [main.ts:116524](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L116524)
 
 ___
+
 
 ### load\_resources
 
@@ -706,6 +738,7 @@ Note: if you use this parameter, additional charges will apply; learn more about
 
 ___
 
+
 ### max\_crawl\_depth
 
 • `Optional` **max\_crawl\_depth**: `number`
@@ -724,6 +757,7 @@ for example, starting page of the crawl is level 0, pages that have links from t
 [main.ts:116541](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L116541)
 
 ___
+
 
 ### max\_crawl\_pages
 
@@ -748,6 +782,7 @@ to enable them anyway, set force_sitewide_checks to true
 
 ___
 
+
 ### pingback\_url
 
 • `Optional` **pingback\_url**: `string`
@@ -771,6 +806,7 @@ i.a., the # symbol will be encoded into %23
 [main.ts:116797](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L116797)
 
 ___
+
 
 ### priority\_urls
 
@@ -798,6 +834,7 @@ subdomains will be ignored unless the allow_subdomains parameter is set to truee
 
 ___
 
+
 ### respect\_sitemap
 
 • `Optional` **respect\_sitemap**: `boolean`
@@ -819,6 +856,7 @@ the max_crawl_depth field of the request will be ignored, you can specify the nu
 
 ___
 
+
 ### return\_despite\_timeout
 
 • `Optional` **return\_despite\_timeout**: `boolean`
@@ -837,6 +875,7 @@ default value: false
 [main.ts:116781](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L116781)
 
 ___
+
 
 ### robots\_txt\_merge\_mode
 
@@ -859,11 +898,12 @@ Note: if set to override, specify the custom_robots_txt parameter
 
 ___
 
+
 ### start\_url
 
 • `Optional` **start\_url**: `string`
 
-the first url to crawl 
+the first url to crawl
 optional field
 Note: you should specify an absolute URL
 if you want to crawl a single page, specify its URL in this field and additionally set the max_crawl_pages parameter to 1
@@ -878,6 +918,7 @@ you can also use the live Instant Pages endpoint to get page-specific data
 [main.ts:116519](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L116519)
 
 ___
+
 
 ### store\_raw\_html
 
@@ -898,6 +939,7 @@ default value: false
 
 ___
 
+
 ### support\_cookies
 
 • `Optional` **support\_cookies**: `boolean`
@@ -917,6 +959,7 @@ default value: false
 
 ___
 
+
 ### switch\_pool
 
 • `Optional` **switch\_pool**: `boolean`
@@ -935,6 +978,7 @@ the parameter can be used if a multitude of tasks is set simultaneously, resulti
 [main.ts:116776](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L116776)
 
 ___
+
 
 ### tag
 
@@ -956,6 +1000,7 @@ you will find the specified tag value in the data object of the response
 
 ___
 
+
 ### target
 
 • `Optional` **target**: `string`
@@ -974,6 +1019,7 @@ if you specify the page URL, the results will be returned for the domain include
 [main.ts:116504](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L116504)
 
 ___
+
 
 ### validate\_micromarkup
 
@@ -1014,6 +1060,7 @@ default value: false
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -1034,6 +1081,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`OnPageTaskRequestInfo`](OnPageTaskRequestInfo.md)
@@ -1051,3 +1099,7 @@ ___
 #### Defined in
 
 [main.ts:116892](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L116892)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

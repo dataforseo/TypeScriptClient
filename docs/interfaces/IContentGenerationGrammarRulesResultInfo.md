@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IContentGenerationGrammarRulesResultInfo
 
 # Interface: IContentGenerationGrammarRulesResultInfo
@@ -27,3 +31,7 @@ array of rules
 #### Defined in
 
 [main.ts:162010](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L162010)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

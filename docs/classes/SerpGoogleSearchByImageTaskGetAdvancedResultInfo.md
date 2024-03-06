@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / SerpGoogleSearchByImageTaskGetAdvancedResultInfo
 
 # Class: SerpGoogleSearchByImageTaskGetAdvancedResultInfo
@@ -77,6 +81,7 @@ you can use it to make sure that we provided accurate results
 
 ___
 
+
 ### datetime
 
 • `Optional` **datetime**: `string`
@@ -96,6 +101,7 @@ example:
 
 ___
 
+
 ### image\_url
 
 • `Optional` **image\_url**: `string`
@@ -111,6 +117,7 @@ URL specified in a POST array
 [main.ts:48016](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L48016)
 
 ___
+
 
 ### item\_types
 
@@ -132,6 +139,7 @@ images
 
 ___
 
+
 ### items
 
 • `Optional` **items**: [`BaseSerpElementItem`](BaseSerpElementItem.md)[]
@@ -149,6 +157,7 @@ if there are none, equals null
 
 ___
 
+
 ### items\_count
 
 • `Optional` **items\_count**: `number`
@@ -164,6 +173,7 @@ the number of results returned in the items array
 [main.ts:48047](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L48047)
 
 ___
+
 
 ### keyword
 
@@ -181,6 +191,7 @@ keyword Google associated with the specified image
 
 ___
 
+
 ### language\_code
 
 • `Optional` **language\_code**: `string`
@@ -196,6 +207,7 @@ language code in a POST array
 [main.ts:48026](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L48026)
 
 ___
+
 
 ### location\_code
 
@@ -213,6 +225,7 @@ location code in a POST array
 
 ___
 
+
 ### se\_domain
 
 • `Optional` **se\_domain**: `string`
@@ -228,6 +241,7 @@ search engine domain in a POST array
 [main.ts:48022](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L48022)
 
 ___
+
 
 ### se\_results\_count
 
@@ -245,6 +259,7 @@ total number of results in SERP
 
 ___
 
+
 ### spell
 
 • `Optional` **spell**: [`SpellInfo`](SpellInfo.md)
@@ -261,6 +276,7 @@ if the search engine provided results for a keyword that was corrected, we will 
 [main.ts:48037](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L48037)
 
 ___
+
 
 ### type
 
@@ -298,6 +314,7 @@ type of element
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -318,6 +335,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`SerpGoogleSearchByImageTaskGetAdvancedResultInfo`](SerpGoogleSearchByImageTaskGetAdvancedResultInfo.md)
@@ -335,3 +353,7 @@ ___
 #### Defined in
 
 [main.ts:48093](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L48093)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IAppendixSerpPriceData
 
 # Interface: IAppendixSerpPriceData
@@ -37,6 +41,7 @@
 
 ___
 
+
 ### jobs
 
 • `Optional` **jobs**: [`AppendixKeywordsKeywordsDataPriceDataInfo`](../classes/AppendixKeywordsKeywordsDataPriceDataInfo.md)
@@ -46,6 +51,7 @@ ___
 [main.ts:210674](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L210674)
 
 ___
+
 
 ### languages
 
@@ -57,6 +63,7 @@ ___
 
 ___
 
+
 ### live
 
 • `Optional` **live**: [`AppendixSerpPriceDataInfo`](../classes/AppendixSerpPriceDataInfo.md)
@@ -66,6 +73,7 @@ ___
 [main.ts:210676](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L210676)
 
 ___
+
 
 ### locations
 
@@ -77,6 +85,7 @@ ___
 
 ___
 
+
 ### screenshot
 
 • `Optional` **screenshot**: [`AppendixTaskKeywordsDataPriceDataInfo`](../classes/AppendixTaskKeywordsDataPriceDataInfo.md)
@@ -86,6 +95,7 @@ ___
 [main.ts:210678](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L210678)
 
 ___
+
 
 ### task\_get
 
@@ -97,6 +107,7 @@ ___
 
 ___
 
+
 ### task\_post
 
 • `Optional` **task\_post**: [`AppendixTaskKeywordsDataPriceDataInfo`](../classes/AppendixTaskKeywordsDataPriceDataInfo.md)
@@ -106,6 +117,7 @@ ___
 [main.ts:210680](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L210680)
 
 ___
+
 
 ### tasks\_fixed
 
@@ -117,6 +129,7 @@ ___
 
 ___
 
+
 ### tasks\_ready
 
 • `Optional` **tasks\_ready**: [`AppendixTaskKeywordsDataPriceDataInfo`](../classes/AppendixTaskKeywordsDataPriceDataInfo.md)
@@ -124,3 +137,7 @@ ___
 #### Defined in
 
 [main.ts:210681](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L210681)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

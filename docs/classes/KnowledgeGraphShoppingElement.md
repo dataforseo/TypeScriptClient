@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / KnowledgeGraphShoppingElement
 
 # Class: KnowledgeGraphShoppingElement
@@ -72,6 +76,7 @@ website domain
 
 ___
 
+
 ### marketplace
 
 • `Optional` **marketplace**: `string`
@@ -91,6 +96,7 @@ by Google
 
 ___
 
+
 ### marketplace\_url
 
 • `Optional` **marketplace\_url**: `string`
@@ -107,6 +113,7 @@ ecommerce site that hosts products or websites of individual sellers under the s
 [main.ts:27313](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L27313)
 
 ___
+
 
 ### price
 
@@ -125,6 +132,7 @@ contains the pricing details of the product or service featured in the result
 
 ___
 
+
 ### snippet
 
 • `Optional` **snippet**: `string`
@@ -140,6 +148,7 @@ text alongside the link title
 [main.ts:27305](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L27305)
 
 ___
+
 
 ### source
 
@@ -157,6 +166,7 @@ source of additional information about the result
 
 ___
 
+
 ### title
 
 • `Optional` **title**: `string`
@@ -173,6 +183,7 @@ title of the result in SERP
 
 ___
 
+
 ### type
 
 • `Optional` **type**: `string`
@@ -188,6 +199,7 @@ type of element
 [main.ts:27292](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L27292)
 
 ___
+
 
 ### url
 
@@ -225,6 +237,7 @@ relevant URL
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -245,6 +258,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`KnowledgeGraphShoppingElement`](KnowledgeGraphShoppingElement.md)
@@ -262,3 +276,7 @@ ___
 #### Defined in
 
 [main.ts:27344](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L27344)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

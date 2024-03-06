@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IRatingInfo
 
 # Interface: IRatingInfo
@@ -33,6 +37,7 @@ the maximum value for a rating_type
 
 ___
 
+
 ### rating\_type
 
 • `Optional` **rating\_type**: `string`
@@ -46,6 +51,7 @@ here you can find the following elements: Max5, Percents, CustomMax
 
 ___
 
+
 ### value
 
 • `Optional` **value**: `number`
@@ -58,6 +64,7 @@ the value of the rating
 
 ___
 
+
 ### votes\_count
 
 • `Optional` **votes\_count**: `number`
@@ -67,3 +74,7 @@ the amount of feedback
 #### Defined in
 
 [main.ts:27815](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L27815)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

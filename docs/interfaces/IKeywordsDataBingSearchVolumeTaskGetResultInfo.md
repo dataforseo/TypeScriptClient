@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IKeywordsDataBingSearchVolumeTaskGetResultInfo
 
 # Interface: IKeywordsDataBingSearchVolumeTaskGetResultInfo
@@ -40,13 +44,14 @@ our API doesn’t return categories for this endpoint: the parameter will always
 
 ___
 
+
 ### competition
 
 • `Optional` **competition**: `number`
 
 competition
 represents the relative amount of competition associated with the given keyword in paid SERP only. This value is based on Bing Ads data.
-Possible values: 0.1, 0.5,0.9 
+Possible values: 0.1, 0.5,0.9
 0.1 – low competition,
 0.5 – medium competition,
 0.9 – high competition;
@@ -57,6 +62,7 @@ if there is no data the value is null
 [main.ts:122988](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L122988)
 
 ___
+
 
 ### cpc
 
@@ -72,6 +78,7 @@ if there is no data then the value is null
 
 ___
 
+
 ### device
 
 • `Optional` **device**: `string`
@@ -85,6 +92,7 @@ if there is no data, then the value is null
 
 ___
 
+
 ### keyword
 
 • `Optional` **keyword**: `string`
@@ -96,6 +104,7 @@ keyword in a POST array
 [main.ts:122971](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L122971)
 
 ___
+
 
 ### language\_code
 
@@ -109,6 +118,7 @@ language code in a POST array
 
 ___
 
+
 ### location\_code
 
 • `Optional` **location\_code**: `number`
@@ -120,6 +130,7 @@ location code in a POST array
 [main.ts:122973](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L122973)
 
 ___
+
 
 ### monthly\_searches
 
@@ -135,6 +146,7 @@ if there is no data then the value is null
 
 ___
 
+
 ### search\_partners
 
 • `Optional` **search\_partners**: `boolean`
@@ -146,6 +158,7 @@ indicates whether data from partner networks included in the response
 [main.ts:122977](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L122977)
 
 ___
+
 
 ### search\_volume
 
@@ -159,3 +172,7 @@ if there is no data then the value is null
 #### Defined in
 
 [main.ts:122997](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L122997)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

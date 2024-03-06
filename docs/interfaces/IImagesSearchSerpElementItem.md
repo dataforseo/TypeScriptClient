@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IImagesSearchSerpElementItem
 
 # Interface: IImagesSearchSerpElementItem
@@ -5,7 +9,7 @@
 ## Hierarchy
 
 - [`IBaseSerpElementItem`](IBaseSerpElementItem.md)
-
+  
   ↳ **`IImagesSearchSerpElementItem`**
 
 ## Implemented by
@@ -44,6 +48,7 @@ the alt tag of the image
 
 ___
 
+
 ### encoded\_url
 
 • `Optional` **encoded\_url**: `string`
@@ -55,6 +60,7 @@ the URL of the cached version of the image stored on Google’s servers
 [main.ts:46191](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L46191)
 
 ___
+
 
 ### rank\_absolute
 
@@ -68,6 +74,7 @@ absolute position among all the elements in SERP
 [main.ts:46177](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L46177)
 
 ___
+
 
 ### rank\_group
 
@@ -83,6 +90,7 @@ positions of elements with different type values are omitted from rank_group
 
 ___
 
+
 ### source\_url
 
 • `Optional` **source\_url**: `string`
@@ -94,6 +102,7 @@ the URL of the source image
 [main.ts:46189](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L46189)
 
 ___
+
 
 ### subtitle
 
@@ -107,6 +116,7 @@ subtitle of the result in SERP
 
 ___
 
+
 ### title
 
 • `Optional` **title**: `string`
@@ -118,6 +128,7 @@ title of the result in SERP
 [main.ts:46181](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L46181)
 
 ___
+
 
 ### url
 
@@ -131,6 +142,7 @@ the URL of the page where the image is hosted
 
 ___
 
+
 ### xpath
 
 • `Optional` **xpath**: `string`
@@ -140,3 +152,7 @@ the XPath of the element
 #### Defined in
 
 [main.ts:46179](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L46179)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

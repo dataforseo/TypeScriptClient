@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IMerchantAmazonAsinTaskGetAdvancedResultInfo
 
 # Interface: IMerchantAmazonAsinTaskGetAdvancedResultInfo
@@ -41,6 +45,7 @@ learn more about the identified in this help center guide
 
 ___
 
+
 ### check\_url
 
 • `Optional` **check\_url**: `string`
@@ -53,6 +58,7 @@ you can use it to make sure that we provided accurate results
 [main.ts:173157](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L173157)
 
 ___
+
 
 ### datetime
 
@@ -69,6 +75,7 @@ example:
 
 ___
 
+
 ### item\_types
 
 • `Optional` **item\_types**: `string`[]
@@ -84,6 +91,7 @@ amazon_product_info
 
 ___
 
+
 ### items
 
 • `Optional` **items**: [`BaseAmazonSerpElementItem`](../classes/BaseAmazonSerpElementItem.md)[]
@@ -95,6 +103,7 @@ Amazon product info items
 [main.ts:173171](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L173171)
 
 ___
+
 
 ### items\_count
 
@@ -108,6 +117,7 @@ the number of results returned in the items array
 
 ___
 
+
 ### language\_code
 
 • `Optional` **language\_code**: `string`
@@ -119,6 +129,7 @@ language code in a POST array
 [main.ts:173154](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L173154)
 
 ___
+
 
 ### location\_code
 
@@ -132,6 +143,7 @@ location code in a POST array
 
 ___
 
+
 ### se\_domain
 
 • `Optional` **se\_domain**: `string`
@@ -144,6 +156,7 @@ Amazon domain in a POST array
 
 ___
 
+
 ### type
 
 • `Optional` **type**: `string`
@@ -153,3 +166,7 @@ type of element
 #### Defined in
 
 [main.ts:173148](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L173148)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

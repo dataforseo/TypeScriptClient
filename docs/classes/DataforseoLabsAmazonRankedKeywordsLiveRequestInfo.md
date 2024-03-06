@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / DataforseoLabsAmazonRankedKeywordsLiveRequestInfo
 
 # Class: DataforseoLabsAmazonRankedKeywordsLiveRequestInfo
@@ -77,6 +81,7 @@ you can receive the asin parameter by making a separate request to the Amazon Pr
 
 ___
 
+
 ### filters
 
 • `Optional` **filters**: `any`[]
@@ -102,6 +107,7 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 ___
 
+
 ### ignore\_synonyms
 
 • `Optional` **ignore\_synonyms**: `boolean`
@@ -120,6 +126,7 @@ default value: false
 [main.ts:99617](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L99617)
 
 ___
+
 
 ### language\_code
 
@@ -142,6 +149,7 @@ en
 
 ___
 
+
 ### language\_name
 
 • `Optional` **language\_name**: `string`
@@ -163,6 +171,7 @@ English
 
 ___
 
+
 ### limit
 
 • `Optional` **limit**: `number`
@@ -181,6 +190,7 @@ maximum value: 1000
 [main.ts:99612](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L99612)
 
 ___
+
 
 ### location\_code
 
@@ -204,6 +214,7 @@ example:
 
 ___
 
+
 ### location\_name
 
 • `Optional` **location\_name**: `string`
@@ -226,6 +237,7 @@ United States
 
 ___
 
+
 ### offset
 
 • `Optional` **offset**: `number`
@@ -244,6 +256,7 @@ if you specify the 10 value, the first ten keywords in the results array will be
 [main.ts:99649](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L99649)
 
 ___
+
 
 ### order\_by
 
@@ -274,6 +287,7 @@ example:
 [main.ts:99644](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L99644)
 
 ___
+
 
 ### tag
 
@@ -315,6 +329,7 @@ you will find the specified tag value in the data object of the response
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -335,6 +350,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`DataforseoLabsAmazonRankedKeywordsLiveRequestInfo`](DataforseoLabsAmazonRankedKeywordsLiveRequestInfo.md)
@@ -352,3 +368,7 @@ ___
 #### Defined in
 
 [main.ts:99696](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L99696)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

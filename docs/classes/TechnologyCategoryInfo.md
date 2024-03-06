@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / TechnologyCategoryInfo
 
 # Class: TechnologyCategoryInfo
@@ -69,6 +73,7 @@ crm, cart_abandonment
 
 ___
 
+
 ### path
 
 • `Optional` **path**: `string`
@@ -87,6 +92,7 @@ user_generated_content.content_curation
 
 ___
 
+
 ### technologies
 
 • `Optional` **technologies**: `string`[]
@@ -104,6 +110,7 @@ example:
 [main.ts:72112](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L72112)
 
 ___
+
 
 ### title
 
@@ -141,6 +148,7 @@ title of the technology category
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -161,6 +169,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`TechnologyCategoryInfo`](TechnologyCategoryInfo.md)
@@ -178,3 +187,7 @@ ___
 #### Defined in
 
 [main.ts:72142](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L72142)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

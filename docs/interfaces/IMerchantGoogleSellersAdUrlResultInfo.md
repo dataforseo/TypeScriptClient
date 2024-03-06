@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IMerchantGoogleSellersAdUrlResultInfo
 
 # Interface: IMerchantGoogleSellersAdUrlResultInfo
@@ -32,6 +36,7 @@ unique ad click referral parameter
 
 ___
 
+
 ### ad\_url
 
 • `Optional` **ad\_url**: `string`
@@ -44,6 +49,7 @@ full URL of the advertisement
 
 ___
 
+
 ### ad\_url\_redirects
 
 • `Optional` **ad\_url\_redirects**: `string`[]
@@ -54,3 +60,7 @@ includes up to 10 URLs of the ad’s redirect path to the seller’s ad_url
 #### Defined in
 
 [main.ts:169632](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L169632)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

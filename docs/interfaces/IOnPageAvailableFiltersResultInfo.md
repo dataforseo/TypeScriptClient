@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IOnPageAvailableFiltersResultInfo
 
 # Interface: IOnPageAvailableFiltersResultInfo
@@ -38,6 +42,7 @@
 
 ___
 
+
 ### links
 
 • `Optional` **links**: `Object`
@@ -51,6 +56,7 @@ ___
 [main.ts:142435](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L142435)
 
 ___
+
 
 ### non\_indexable
 
@@ -66,6 +72,7 @@ ___
 
 ___
 
+
 ### pages
 
 • `Optional` **pages**: `Object`
@@ -79,6 +86,7 @@ ___
 [main.ts:142433](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L142433)
 
 ___
+
 
 ### pages\_by\_resource
 
@@ -94,6 +102,7 @@ ___
 
 ___
 
+
 ### redirect\_chains
 
 • `Optional` **redirect\_chains**: `Object`
@@ -108,6 +117,7 @@ ___
 
 ___
 
+
 ### resources
 
 • `Optional` **resources**: `Object`
@@ -119,3 +129,7 @@ ___
 #### Defined in
 
 [main.ts:142432](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L142432)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

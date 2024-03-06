@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / OnPagePageScreenshotRequestInfo
 
 # Class: OnPagePageScreenshotRequestInfo
@@ -78,6 +82,7 @@ note: if you do not specify this parameter, some websites may deny access; in th
 
 ___
 
+
 ### browser\_preset
 
 • `Optional` **browser\_preset**: `string`
@@ -110,6 +115,7 @@ browser_screen_scale_factor: 2
 
 ___
 
+
 ### browser\_screen\_height
 
 • `Optional` **browser\_screen\_height**: `number`
@@ -130,6 +136,7 @@ maximum value, in pixels: 9999
 [main.ts:151482](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L151482)
 
 ___
+
 
 ### browser\_screen\_scale\_factor
 
@@ -152,6 +159,7 @@ maximum value: 3
 
 ___
 
+
 ### browser\_screen\_width
 
 • `Optional` **browser\_screen\_width**: `number`
@@ -173,6 +181,7 @@ maximum value, in pixels: 9999
 
 ___
 
+
 ### custom\_js
 
 • `Optional` **custom\_js**: `string`
@@ -186,8 +195,8 @@ the returned value depends on what you specified in this field. For instance, if
 meta = {}; meta.url = document.URL; meta.test = 'test'; meta;
 as a response you will receive the following data:
 "custom_js_response": {
-  "url": "https://dataforseo.com/",
-  "test": "test"
+"url": "https://dataforseo.com/",
+"test": "test"
 }
 Note: if you use this parameter, additional charges will apply; learn more about the cost of tasks with this parameter in our help article; the cost can be calculated on the Pricing Page
 
@@ -200,6 +209,7 @@ Note: if you use this parameter, additional charges will apply; learn more about
 [main.ts:151520](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L151520)
 
 ___
+
 
 ### custom\_user\_agent
 
@@ -222,11 +232,12 @@ default value: Mozilla/5.0 (compatible; RSiteAuditor)
 
 ___
 
+
 ### disable\_cookie\_popup
 
 • `Optional` **disable\_cookie\_popup**: `boolean`
 
-disable the cookie popup 
+disable the cookie popup
 optional field
 set to true if you want to disable the popup requesting cookie consent from the user;
 default value:
@@ -241,6 +252,7 @@ false
 [main.ts:151500](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L151500)
 
 ___
+
 
 ### enable\_javascript
 
@@ -262,6 +274,7 @@ Note: if you use this parameter, additional charges will apply; learn more about
 
 ___
 
+
 ### full\_page\_screenshot
 
 • `Optional` **full\_page\_screenshot**: `boolean`
@@ -280,6 +293,7 @@ default value: true
 [main.ts:151494](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L151494)
 
 ___
+
 
 ### ip\_pool\_for\_scan
 
@@ -300,6 +314,7 @@ possible values: us, de
 [main.ts:151526](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L151526)
 
 ___
+
 
 ### url
 
@@ -340,6 +355,7 @@ note: if the URL you indicate here returns a 404 status code or the indicated va
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -360,6 +376,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`OnPagePageScreenshotRequestInfo`](OnPagePageScreenshotRequestInfo.md)
@@ -377,3 +394,7 @@ ___
 #### Defined in
 
 [main.ts:151560](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L151560)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

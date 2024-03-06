@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IOnPagePagesRequestInfo
 
 # Interface: IOnPagePagesRequestInfo
@@ -44,6 +48,7 @@ example:
 
 ___
 
+
 ### id
 
 • `Optional` **id**: `string`
@@ -60,6 +65,7 @@ example:
 
 ___
 
+
 ### limit
 
 • `Optional` **limit**: `number`
@@ -75,6 +81,7 @@ maximum value: 1000
 
 ___
 
+
 ### offset
 
 • `Optional` **offset**: `number`
@@ -89,6 +96,7 @@ if you specify the 10 value, the first ten pages in the results array will be om
 [main.ts:144009](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L144009)
 
 ___
+
 
 ### order\_by
 
@@ -114,6 +122,7 @@ example:
 
 ___
 
+
 ### tag
 
 • `Optional` **tag**: `string`
@@ -127,3 +136,7 @@ you will find the specified tag value in the data object of the response
 #### Defined in
 
 [main.ts:144040](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L144040)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

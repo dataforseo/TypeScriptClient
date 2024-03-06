@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IKeywordsDataGoogleTrendsExploreTaskPostRequestInfo
 
 # Interface: IKeywordsDataGoogleTrendsExploreTaskPostRequestInfo
@@ -46,6 +50,7 @@ you can receive the list of available categories with their category_code by mak
 
 ___
 
+
 ### date\_from
 
 • `Optional` **date\_from**: `string`
@@ -65,6 +70,7 @@ example:
 
 ___
 
+
 ### date\_to
 
 • `Optional` **date\_to**: `string`
@@ -81,6 +87,7 @@ example:
 [main.ts:120036](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L120036)
 
 ___
+
 
 ### item\_types
 
@@ -104,6 +111,7 @@ possible values:
 
 ___
 
+
 ### keywords
 
 • `Optional` **keywords**: `string`[]
@@ -118,6 +126,7 @@ Note: comma symbols (,) in the specified keywords will be unset and ignored
 [main.ts:119981](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L119981)
 
 ___
+
 
 ### language\_code
 
@@ -137,6 +146,7 @@ en
 
 ___
 
+
 ### language\_name
 
 • `Optional` **language\_name**: `string`
@@ -154,6 +164,7 @@ English
 [main.ts:120005](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L120005)
 
 ___
+
 
 ### location\_code
 
@@ -173,6 +184,7 @@ example:
 
 ___
 
+
 ### location\_name
 
 • `Optional` **location\_name**: `string`
@@ -190,6 +202,7 @@ United Kingdom
 [main.ts:119989](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L119989)
 
 ___
+
 
 ### pingback\_url
 
@@ -211,6 +224,7 @@ i.a., the # symbol will be encoded into %23
 
 ___
 
+
 ### postback\_url
 
 • `Optional` **postback\_url**: `string`
@@ -231,6 +245,7 @@ i.a., the # symbol will be encoded into %23
 
 ___
 
+
 ### tag
 
 • `Optional` **tag**: `string`
@@ -246,6 +261,7 @@ you will find the specified tag value in the data object of the response
 [main.ts:120084](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L120084)
 
 ___
+
 
 ### time\_range
 
@@ -267,6 +283,7 @@ possible values for news, youtube, images, froogle:
 
 ___
 
+
 ### type
 
 • `Optional` **type**: `string`
@@ -276,3 +293,7 @@ type of element
 #### Defined in
 
 [main.ts:120015](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L120015)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

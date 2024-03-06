@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / ISerpYoutubeVideoCommentsLiveAdvancedRequestInfo
 
 # Interface: ISerpYoutubeVideoCommentsLiveAdvancedRequestInfo
@@ -45,6 +49,7 @@ if the specified depth is higher than the number of results in the response, the
 
 ___
 
+
 ### device
 
 • `Optional` **device**: `string`
@@ -58,6 +63,7 @@ only value: desktop
 [main.ts:62349](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L62349)
 
 ___
+
 
 ### language\_code
 
@@ -76,6 +82,7 @@ en
 
 ___
 
+
 ### language\_name
 
 • `Optional` **language\_name**: `string`
@@ -92,6 +99,7 @@ English
 [main.ts:62338](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L62338)
 
 ___
+
 
 ### location\_code
 
@@ -110,6 +118,7 @@ example:
 
 ___
 
+
 ### location\_name
 
 • `Optional` **location\_name**: `string`
@@ -127,6 +136,7 @@ United States
 
 ___
 
+
 ### os
 
 • `Optional` **os**: `string`
@@ -141,6 +151,7 @@ default value: windows
 [main.ts:62354](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L62354)
 
 ___
+
 
 ### tag
 
@@ -158,6 +169,7 @@ you will find the specified tag value in the data object of the response
 
 ___
 
+
 ### video\_id
 
 • `Optional` **video\_id**: `string`
@@ -171,3 +183,7 @@ vQXvyV0zIP4
 #### Defined in
 
 [main.ts:62317](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L62317)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IScoreByCategories
 
 # Interface: IScoreByCategories
@@ -36,6 +40,7 @@ calculated based on data from the hotel’s proximity to nearby airports
 
 ___
 
+
 ### overall
 
 • `Optional` **overall**: `number`
@@ -51,6 +56,7 @@ note that the criteria are not weighted equally in the overall score
 
 ___
 
+
 ### restaurants
 
 • `Optional` **restaurants**: `number`
@@ -64,6 +70,7 @@ calculated based on data from the hotel’s proximity to nearby restaurants
 [main.ts:196862](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L196862)
 
 ___
+
 
 ### things\_to\_do
 
@@ -79,6 +86,7 @@ calculated based on data from the hotel’s proximity to nearby things to do
 
 ___
 
+
 ### transit
 
 • `Optional` **transit**: `number`
@@ -90,3 +98,7 @@ calculated based on data from the hotel’s proximity to nearby transit options
 #### Defined in
 
 [main.ts:196866](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L196866)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

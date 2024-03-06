@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / AppendixContentAnalysisPriceData
 
 # Class: AppendixContentAnalysisPriceData
@@ -71,6 +75,7 @@
 
 ___
 
+
 ### category\_trends
 
 • `Optional` **category\_trends**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](AppendixKeywordBingKeywordsDataPriceDataInfo.md)
@@ -84,6 +89,7 @@ ___
 [main.ts:211372](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L211372)
 
 ___
+
 
 ### errors
 
@@ -99,6 +105,7 @@ ___
 
 ___
 
+
 ### languages
 
 • `Optional` **languages**: [`AppendixTaskKeywordsDataPriceDataInfo`](AppendixTaskKeywordsDataPriceDataInfo.md)
@@ -112,6 +119,7 @@ ___
 [main.ts:211374](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L211374)
 
 ___
+
 
 ### locations
 
@@ -127,6 +135,7 @@ ___
 
 ___
 
+
 ### phrase\_trends
 
 • `Optional` **phrase\_trends**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](AppendixKeywordBingKeywordsDataPriceDataInfo.md)
@@ -140,6 +149,7 @@ ___
 [main.ts:211376](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L211376)
 
 ___
+
 
 ### rating\_distribution
 
@@ -155,6 +165,7 @@ ___
 
 ___
 
+
 ### search
 
 • `Optional` **search**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](AppendixKeywordBingKeywordsDataPriceDataInfo.md)
@@ -169,6 +180,7 @@ ___
 
 ___
 
+
 ### sentiment\_analysis
 
 • `Optional` **sentiment\_analysis**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](AppendixKeywordBingKeywordsDataPriceDataInfo.md)
@@ -182,6 +194,7 @@ ___
 [main.ts:211379](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L211379)
 
 ___
+
 
 ### summary
 
@@ -217,6 +230,7 @@ ___
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -237,6 +251,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`AppendixContentAnalysisPriceData`](AppendixContentAnalysisPriceData.md)
@@ -254,3 +269,7 @@ ___
 #### Defined in
 
 [main.ts:211412](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L211412)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

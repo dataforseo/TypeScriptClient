@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / KnowledgeGraphDescriptionItemDataforseoLabsSerpElementItem
 
 # Class: KnowledgeGraphDescriptionItemDataforseoLabsSerpElementItem
@@ -5,7 +9,7 @@
 ## Hierarchy
 
 - [`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md)
-
+  
   ↳ **`KnowledgeGraphDescriptionItemDataforseoLabsSerpElementItem`**
 
 ## Implements
@@ -78,6 +82,7 @@
 
 ___
 
+
 ### links
 
 • `Optional` **links**: [`LinkElement`](LinkElement.md)[]
@@ -95,6 +100,7 @@ if there are none, equals null
 [main.ts:91537](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L91537)
 
 ___
+
 
 ### position
 
@@ -114,6 +120,7 @@ left, right
 
 ___
 
+
 ### rank\_absolute
 
 • `Optional` **rank\_absolute**: `number`
@@ -130,6 +137,7 @@ absolute position among all the elements in SERP
 [main.ts:91525](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L91525)
 
 ___
+
 
 ### rank\_group
 
@@ -149,6 +157,7 @@ positions of elements with different type values are omitted from rank_group
 
 ___
 
+
 ### text
 
 • `Optional` **text**: `string`
@@ -164,6 +173,7 @@ description content
 [main.ts:91533](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L91533)
 
 ___
+
 
 ### xpath
 
@@ -205,6 +215,7 @@ the XPath of the element
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -229,6 +240,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`KnowledgeGraphDescriptionItemDataforseoLabsSerpElementItem`](KnowledgeGraphDescriptionItemDataforseoLabsSerpElementItem.md)
@@ -250,3 +262,7 @@ ___
 #### Defined in
 
 [main.ts:91566](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L91566)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

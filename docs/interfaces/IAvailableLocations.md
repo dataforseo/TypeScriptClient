@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IAvailableLocations
 
 # Interface: IAvailableLocations
@@ -33,6 +37,7 @@ ISO country code of the location
 
 ___
 
+
 ### location\_code
 
 • `Optional` **location\_code**: `string`
@@ -44,6 +49,7 @@ location code
 [main.ts:126394](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L126394)
 
 ___
+
 
 ### location\_name
 
@@ -57,6 +63,7 @@ location name
 
 ___
 
+
 ### location\_type
 
 • `Optional` **location\_type**: `string`
@@ -68,3 +75,7 @@ Country, Region
 #### Defined in
 
 [main.ts:126402](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L126402)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

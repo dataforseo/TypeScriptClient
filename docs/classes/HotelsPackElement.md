@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / HotelsPackElement
 
 # Class: HotelsPackElement
@@ -72,6 +76,7 @@ description of the results element in SERP
 
 ___
 
+
 ### domain
 
 • `Optional` **domain**: `string`
@@ -87,6 +92,7 @@ domain where a link points
 [main.ts:32996](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L32996)
 
 ___
+
 
 ### hotel\_identifier
 
@@ -106,6 +112,7 @@ example: "CgoIjaeSlI6CnNpVEAE"
 
 ___
 
+
 ### is\_paid
 
 • `Optional` **is\_paid**: `boolean`
@@ -121,6 +128,7 @@ indicates whether the element is an ad
 [main.ts:33000](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L33000)
 
 ___
+
 
 ### price
 
@@ -138,11 +146,12 @@ price of booking a place for the specified dates of stay
 
 ___
 
+
 ### rating
 
 • `Optional` **rating**: [`RatingInfo`](RatingInfo.md)
 
-the item’s rating 
+the item’s rating
 the popularity rate based on reviews and displayed in SERP
 
 #### Implementation of
@@ -154,6 +163,7 @@ the popularity rate based on reviews and displayed in SERP
 [main.ts:33003](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L33003)
 
 ___
+
 
 ### title
 
@@ -171,6 +181,7 @@ title of the row
 
 ___
 
+
 ### type
 
 • `Optional` **type**: `string`
@@ -186,6 +197,7 @@ type of element
 [main.ts:32984](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L32984)
 
 ___
+
 
 ### url
 
@@ -223,6 +235,7 @@ URL
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -243,6 +256,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`HotelsPackElement`](HotelsPackElement.md)
@@ -260,3 +274,7 @@ ___
 #### Defined in
 
 [main.ts:33034](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L33034)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

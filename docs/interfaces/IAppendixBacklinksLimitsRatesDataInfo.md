@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IAppendixBacklinksLimitsRatesDataInfo
 
 # Interface: IAppendixBacklinksLimitsRatesDataInfo
@@ -47,6 +51,7 @@
 
 ___
 
+
 ### backlinks
 
 • `Optional` **backlinks**: [`AppendixInfo`](../classes/AppendixInfo.md)
@@ -56,6 +61,7 @@ ___
 [main.ts:208216](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L208216)
 
 ___
+
 
 ### bulk\_backlinks
 
@@ -67,6 +73,7 @@ ___
 
 ___
 
+
 ### bulk\_new\_lost\_backlinks
 
 • `Optional` **bulk\_new\_lost\_backlinks**: [`AppendixInfo`](../classes/AppendixInfo.md)
@@ -76,6 +83,7 @@ ___
 [main.ts:208224](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L208224)
 
 ___
+
 
 ### bulk\_new\_lost\_referring\_domains
 
@@ -87,6 +95,7 @@ ___
 
 ___
 
+
 ### bulk\_ranks
 
 • `Optional` **bulk\_ranks**: [`AppendixInfo`](../classes/AppendixInfo.md)
@@ -96,6 +105,7 @@ ___
 [main.ts:208222](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L208222)
 
 ___
+
 
 ### bulk\_referring\_domains
 
@@ -107,6 +117,7 @@ ___
 
 ___
 
+
 ### competitors
 
 • `Optional` **competitors**: [`AppendixInfo`](../classes/AppendixInfo.md)
@@ -116,6 +127,7 @@ ___
 [main.ts:208231](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L208231)
 
 ___
+
 
 ### content\_duplicates
 
@@ -127,6 +139,7 @@ ___
 
 ___
 
+
 ### domain\_intersection
 
 • `Optional` **domain\_intersection**: [`AppendixInfo`](../classes/AppendixInfo.md)
@@ -136,6 +149,7 @@ ___
 [main.ts:208215](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L208215)
 
 ___
+
 
 ### domain\_pages
 
@@ -147,6 +161,7 @@ ___
 
 ___
 
+
 ### domain\_pages\_summary
 
 • `Optional` **domain\_pages\_summary**: [`AppendixInfo`](../classes/AppendixInfo.md)
@@ -156,6 +171,7 @@ ___
 [main.ts:208228](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L208228)
 
 ___
+
 
 ### errors
 
@@ -167,6 +183,7 @@ ___
 
 ___
 
+
 ### history
 
 • `Optional` **history**: [`AppendixInfo`](../classes/AppendixInfo.md)
@@ -176,6 +193,7 @@ ___
 [main.ts:208213](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L208213)
 
 ___
+
 
 ### page\_intersection
 
@@ -187,6 +205,7 @@ ___
 
 ___
 
+
 ### referring\_domains
 
 • `Optional` **referring\_domains**: [`AppendixInfo`](../classes/AppendixInfo.md)
@@ -196,6 +215,7 @@ ___
 [main.ts:208219](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L208219)
 
 ___
+
 
 ### referring\_networks
 
@@ -207,6 +227,7 @@ ___
 
 ___
 
+
 ### summary
 
 • `Optional` **summary**: [`AppendixInfo`](../classes/AppendixInfo.md)
@@ -216,6 +237,7 @@ ___
 [main.ts:208212](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L208212)
 
 ___
+
 
 ### timeseries\_new\_lost\_summary
 
@@ -227,6 +249,7 @@ ___
 
 ___
 
+
 ### timeseries\_summary
 
 • `Optional` **timeseries\_summary**: [`AppendixInfo`](../classes/AppendixInfo.md)
@@ -234,3 +257,7 @@ ___
 #### Defined in
 
 [main.ts:208229](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L208229)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

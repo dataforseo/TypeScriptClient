@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IBacklinksBulkNewLostReferringDomainsLiveItem
 
 # Interface: IBacklinksBulkNewLostReferringDomainsLiveItem
@@ -35,6 +39,7 @@ number of lost referring domains of the target
 
 ___
 
+
 ### lost\_referring\_main\_domains
 
 • `Optional` **lost\_referring\_main\_domains**: `number`
@@ -46,6 +51,7 @@ number of lost referring main domains pointing to the target
 [main.ts:141256](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L141256)
 
 ___
+
 
 ### new\_referring\_domains
 
@@ -60,6 +66,7 @@ number of new referring domains pointing to the target
 
 ___
 
+
 ### new\_referring\_main\_domains
 
 • `Optional` **new\_referring\_main\_domains**: `number`
@@ -72,6 +79,7 @@ number of new referring main domains pointing to the target
 
 ___
 
+
 ### target
 
 • `Optional` **target**: `string`
@@ -81,3 +89,7 @@ domain, subdomain or webpage from a POST array
 #### Defined in
 
 [main.ts:141246](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L141246)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

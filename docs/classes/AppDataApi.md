@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / AppDataApi
 
 # Class: AppDataApi
@@ -131,6 +135,7 @@
 
 ___
 
+
 ### http
 
 • `Private` **http**: `Object`
@@ -146,6 +151,7 @@ ___
 [main.ts:15263](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L15263)
 
 ___
+
 
 ### jsonParseReviver
 
@@ -188,6 +194,7 @@ Successful operation
 
 ___
 
+
 ### appDataAppleLocations
 
 ▸ **appDataAppleLocations**(): `Promise`\<[`AppDataAppleLocationsResponseInfo`](AppDataAppleLocationsResponseInfo.md)\>
@@ -203,6 +210,7 @@ Successful operation
 [main.ts:16246](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L16246)
 
 ___
+
 
 ### appDataErrors
 
@@ -226,6 +234,7 @@ Successful operation
 
 ___
 
+
 ### appDataGoogleLanguages
 
 ▸ **appDataGoogleLanguages**(): `Promise`\<[`AppDataGoogleLanguagesResponseInfo`](AppDataGoogleLanguagesResponseInfo.md)\>
@@ -242,6 +251,7 @@ Successful operation
 
 ___
 
+
 ### appDataGoogleLocations
 
 ▸ **appDataGoogleLocations**(): `Promise`\<[`AppDataGoogleLocationsResponseInfo`](AppDataGoogleLocationsResponseInfo.md)\>
@@ -257,6 +267,7 @@ Successful operation
 [main.ts:15396](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L15396)
 
 ___
+
 
 ### appDataIdList
 
@@ -280,6 +291,7 @@ Successful operation
 
 ___
 
+
 ### appleAppInfoTaskGetAdvanced
 
 ▸ **appleAppInfoTaskGetAdvanced**(`id`): `Promise`\<[`AppDataAppleAppInfoTaskGetAdvancedResponseInfo`](AppDataAppleAppInfoTaskGetAdvancedResponseInfo.md)\>
@@ -301,6 +313,7 @@ Successful operation
 [main.ts:16524](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L16524)
 
 ___
+
 
 ### appleAppInfoTaskPost
 
@@ -324,6 +337,7 @@ Successful operation
 
 ___
 
+
 ### appleAppInfoTasksReady
 
 ▸ **appleAppInfoTasksReady**(): `Promise`\<[`AppDataAppleAppInfoTasksReadyResponseInfo`](AppDataAppleAppInfoTasksReadyResponseInfo.md)\>
@@ -339,6 +353,7 @@ Successful operation
 [main.ts:16484](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L16484)
 
 ___
+
 
 ### appleAppListTaskGetAdvanced
 
@@ -362,6 +377,7 @@ Successful operation
 
 ___
 
+
 ### appleAppListTaskPost
 
 ▸ **appleAppListTaskPost**(`body`): `Promise`\<[`AppDataAppleAppListTaskPostResponseInfo`](AppDataAppleAppListTaskPostResponseInfo.md)\>
@@ -384,6 +400,7 @@ Successful operation
 
 ___
 
+
 ### appleAppListTasksReady
 
 ▸ **appleAppListTasksReady**(): `Promise`\<[`AppDataAppleAppListTasksReadyResponseInfo`](AppDataAppleAppListTasksReadyResponseInfo.md)\>
@@ -400,6 +417,7 @@ Successful operation
 
 ___
 
+
 ### appleAppListingsCategories
 
 ▸ **appleAppListingsCategories**(): `Promise`\<[`AppDataAppleAppListingsCategoriesResponseInfo`](AppDataAppleAppListingsCategoriesResponseInfo.md)\>
@@ -415,6 +433,7 @@ Successful operation
 [main.ts:16808](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L16808)
 
 ___
+
 
 ### appleAppListingsSearchLive
 
@@ -438,6 +457,7 @@ Successful operation
 
 ___
 
+
 ### appleAppReviewsTaskGetAdvanced
 
 ▸ **appleAppReviewsTaskGetAdvanced**(`id`): `Promise`\<[`AppDataAppleAppReviewsTaskGetAdvancedResponseInfo`](AppDataAppleAppReviewsTaskGetAdvancedResponseInfo.md)\>
@@ -459,6 +479,7 @@ Successful operation
 [main.ts:16768](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L16768)
 
 ___
+
 
 ### appleAppReviewsTaskPost
 
@@ -482,6 +503,7 @@ Successful operation
 
 ___
 
+
 ### appleAppReviewsTasksReady
 
 ▸ **appleAppReviewsTasksReady**(): `Promise`\<[`AppDataAppleAppReviewsTasksReadyResponseInfo`](AppDataAppleAppReviewsTasksReadyResponseInfo.md)\>
@@ -497,6 +519,7 @@ Successful operation
 [main.ts:16728](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L16728)
 
 ___
+
 
 ### appleAppSearchesTaskGetAdvanced
 
@@ -520,6 +543,7 @@ Successful operation
 
 ___
 
+
 ### appleAppSearchesTaskPost
 
 ▸ **appleAppSearchesTaskPost**(`body`): `Promise`\<[`AppDataAppleAppSearchesTaskPostResponseInfo`](AppDataAppleAppSearchesTaskPostResponseInfo.md)\>
@@ -542,6 +566,7 @@ Successful operation
 
 ___
 
+
 ### appleAppSearchesTasksReady
 
 ▸ **appleAppSearchesTasksReady**(): `Promise`\<[`AppDataAppleAppSearchesTasksReadyResponseInfo`](AppDataAppleAppSearchesTasksReadyResponseInfo.md)\>
@@ -558,6 +583,7 @@ Successful operation
 
 ___
 
+
 ### appleCategories
 
 ▸ **appleCategories**(): `Promise`\<[`AppDataAppleCategoriesResponseInfo`](AppDataAppleCategoriesResponseInfo.md)\>
@@ -573,6 +599,7 @@ Successful operation
 [main.ts:16209](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L16209)
 
 ___
+
 
 ### googleAppInfoTaskGetAdvanced
 
@@ -596,6 +623,7 @@ Successful operation
 
 ___
 
+
 ### googleAppInfoTaskGetHtml
 
 ▸ **googleAppInfoTaskGetHtml**(`id`): `Promise`\<[`AppDataGoogleAppInfoTaskGetHtmlResponseInfo`](AppDataGoogleAppInfoTaskGetHtmlResponseInfo.md)\>
@@ -617,6 +645,7 @@ Successful operation
 [main.ts:15925](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L15925)
 
 ___
+
 
 ### googleAppInfoTaskPost
 
@@ -640,6 +669,7 @@ Successful operation
 
 ___
 
+
 ### googleAppInfoTasksReady
 
 ▸ **googleAppInfoTasksReady**(): `Promise`\<[`AppDataGoogleAppInfoTasksReadyResponseInfo`](AppDataGoogleAppInfoTasksReadyResponseInfo.md)\>
@@ -655,6 +685,7 @@ Successful operation
 [main.ts:15842](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L15842)
 
 ___
+
 
 ### googleAppListTaskGetAdvanced
 
@@ -678,6 +709,7 @@ Successful operation
 
 ___
 
+
 ### googleAppListTaskGetHtml
 
 ▸ **googleAppListTaskGetHtml**(`id`): `Promise`\<[`AppDataGoogleAppListTaskGetHtmlResponseInfo`](AppDataGoogleAppListTaskGetHtmlResponseInfo.md)\>
@@ -699,6 +731,7 @@ Successful operation
 [main.ts:15760](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L15760)
 
 ___
+
 
 ### googleAppListTaskPost
 
@@ -722,6 +755,7 @@ Successful operation
 
 ___
 
+
 ### googleAppListTasksReady
 
 ▸ **googleAppListTasksReady**(): `Promise`\<[`AppDataGoogleAppListTasksReadyResponseInfo`](AppDataGoogleAppListTasksReadyResponseInfo.md)\>
@@ -738,6 +772,7 @@ Successful operation
 
 ___
 
+
 ### googleAppListingsCategories
 
 ▸ **googleAppListingsCategories**(): `Promise`\<[`AppDataGoogleAppListingsCategoriesResponseInfo`](AppDataGoogleAppListingsCategoriesResponseInfo.md)\>
@@ -753,6 +788,7 @@ Successful operation
 [main.ts:16130](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L16130)
 
 ___
+
 
 ### googleAppListingsSearchLive
 
@@ -776,6 +812,7 @@ Successful operation
 
 ___
 
+
 ### googleAppReviewsTaskGetAdvanced
 
 ▸ **googleAppReviewsTaskGetAdvanced**(`id`): `Promise`\<[`AppDataGoogleAppReviewsTaskGetAdvancedResponseInfo`](AppDataGoogleAppReviewsTaskGetAdvancedResponseInfo.md)\>
@@ -797,6 +834,7 @@ Successful operation
 [main.ts:16047](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L16047)
 
 ___
+
 
 ### googleAppReviewsTaskGetHtml
 
@@ -820,6 +858,7 @@ Successful operation
 
 ___
 
+
 ### googleAppReviewsTaskPost
 
 ▸ **googleAppReviewsTaskPost**(`body`): `Promise`\<[`AppDataGoogleAppReviewsTaskPostResponseInfo`](AppDataGoogleAppReviewsTaskPostResponseInfo.md)\>
@@ -842,6 +881,7 @@ Successful operation
 
 ___
 
+
 ### googleAppReviewsTasksReady
 
 ▸ **googleAppReviewsTasksReady**(): `Promise`\<[`AppDataGoogleAppReviewsTasksReadyResponseInfo`](AppDataGoogleAppReviewsTasksReadyResponseInfo.md)\>
@@ -857,6 +897,7 @@ Successful operation
 [main.ts:16007](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L16007)
 
 ___
+
 
 ### googleAppSearchesTaskGetAdvanced
 
@@ -880,6 +921,7 @@ Successful operation
 
 ___
 
+
 ### googleAppSearchesTaskGetHtml
 
 ▸ **googleAppSearchesTaskGetHtml**(`id`): `Promise`\<[`AppDataGoogleAppSearchesTaskGetHtmlResponseInfo`](AppDataGoogleAppSearchesTaskGetHtmlResponseInfo.md)\>
@@ -901,6 +943,7 @@ Successful operation
 [main.ts:15595](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L15595)
 
 ___
+
 
 ### googleAppSearchesTaskPost
 
@@ -924,6 +967,7 @@ Successful operation
 
 ___
 
+
 ### googleAppSearchesTasksReady
 
 ▸ **googleAppSearchesTasksReady**(): `Promise`\<[`AppDataGoogleAppSearchesTasksReadyResponseInfo`](AppDataGoogleAppSearchesTasksReadyResponseInfo.md)\>
@@ -940,6 +984,7 @@ Successful operation
 
 ___
 
+
 ### googleCategories
 
 ▸ **googleCategories**(): `Promise`\<[`AppDataGoogleCategoriesResponseInfo`](AppDataGoogleCategoriesResponseInfo.md)\>
@@ -955,6 +1000,7 @@ Successful operation
 [main.ts:15359](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L15359)
 
 ___
+
 
 ### processAppDataAppleLanguages
 
@@ -976,6 +1022,7 @@ ___
 
 ___
 
+
 ### processAppDataAppleLocations
 
 ▸ **processAppDataAppleLocations**(`response`): `Promise`\<[`AppDataAppleLocationsResponseInfo`](AppDataAppleLocationsResponseInfo.md)\>
@@ -995,6 +1042,7 @@ ___
 [main.ts:16262](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L16262)
 
 ___
+
 
 ### processAppDataErrors
 
@@ -1016,6 +1064,7 @@ ___
 
 ___
 
+
 ### processAppDataGoogleLanguages
 
 ▸ **processAppDataGoogleLanguages**(`response`): `Promise`\<[`AppDataGoogleLanguagesResponseInfo`](AppDataGoogleLanguagesResponseInfo.md)\>
@@ -1035,6 +1084,7 @@ ___
 [main.ts:15449](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L15449)
 
 ___
+
 
 ### processAppDataGoogleLocations
 
@@ -1056,6 +1106,7 @@ ___
 
 ___
 
+
 ### processAppDataIdList
 
 ▸ **processAppDataIdList**(`response`): `Promise`\<[`AppDataIdListResponseInfo`](AppDataIdListResponseInfo.md)\>
@@ -1075,6 +1126,7 @@ ___
 [main.ts:15296](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L15296)
 
 ___
+
 
 ### processAppleAppInfoTaskGetAdvanced
 
@@ -1096,6 +1148,7 @@ ___
 
 ___
 
+
 ### processAppleAppInfoTaskPost
 
 ▸ **processAppleAppInfoTaskPost**(`response`): `Promise`\<[`AppDataAppleAppInfoTaskPostResponseInfo`](AppDataAppleAppInfoTaskPostResponseInfo.md)\>
@@ -1115,6 +1168,7 @@ ___
 [main.ts:16463](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L16463)
 
 ___
+
 
 ### processAppleAppInfoTasksReady
 
@@ -1136,6 +1190,7 @@ ___
 
 ___
 
+
 ### processAppleAppListTaskGetAdvanced
 
 ▸ **processAppleAppListTaskGetAdvanced**(`response`): `Promise`\<[`AppDataAppleAppListTaskGetAdvancedResponseInfo`](AppDataAppleAppListTaskGetAdvancedResponseInfo.md)\>
@@ -1155,6 +1210,7 @@ ___
 [main.ts:16665](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L16665)
 
 ___
+
 
 ### processAppleAppListTaskPost
 
@@ -1176,6 +1232,7 @@ ___
 
 ___
 
+
 ### processAppleAppListTasksReady
 
 ▸ **processAppleAppListTasksReady**(`response`): `Promise`\<[`AppDataAppleAppListTasksReadyResponseInfo`](AppDataAppleAppListTasksReadyResponseInfo.md)\>
@@ -1195,6 +1252,7 @@ ___
 [main.ts:16622](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L16622)
 
 ___
+
 
 ### processAppleAppListingsCategories
 
@@ -1216,6 +1274,7 @@ ___
 
 ___
 
+
 ### processAppleAppListingsSearchLive
 
 ▸ **processAppleAppListingsSearchLive**(`response`): `Promise`\<[`AppDataAppleAppListingsSearchLiveResponseInfo`](AppDataAppleAppListingsSearchLiveResponseInfo.md)\>
@@ -1235,6 +1294,7 @@ ___
 [main.ts:16866](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L16866)
 
 ___
+
 
 ### processAppleAppReviewsTaskGetAdvanced
 
@@ -1256,6 +1316,7 @@ ___
 
 ___
 
+
 ### processAppleAppReviewsTaskPost
 
 ▸ **processAppleAppReviewsTaskPost**(`response`): `Promise`\<[`AppDataAppleAppReviewsTaskPostResponseInfo`](AppDataAppleAppReviewsTaskPostResponseInfo.md)\>
@@ -1275,6 +1336,7 @@ ___
 [main.ts:16707](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L16707)
 
 ___
+
 
 ### processAppleAppReviewsTasksReady
 
@@ -1296,6 +1358,7 @@ ___
 
 ___
 
+
 ### processAppleAppSearchesTaskGetAdvanced
 
 ▸ **processAppleAppSearchesTaskGetAdvanced**(`response`): `Promise`\<[`AppDataAppleAppSearchesTaskGetAdvancedResponseInfo`](AppDataAppleAppSearchesTaskGetAdvancedResponseInfo.md)\>
@@ -1315,6 +1378,7 @@ ___
 [main.ts:16421](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L16421)
 
 ___
+
 
 ### processAppleAppSearchesTaskPost
 
@@ -1336,6 +1400,7 @@ ___
 
 ___
 
+
 ### processAppleAppSearchesTasksReady
 
 ▸ **processAppleAppSearchesTasksReady**(`response`): `Promise`\<[`AppDataAppleAppSearchesTasksReadyResponseInfo`](AppDataAppleAppSearchesTasksReadyResponseInfo.md)\>
@@ -1355,6 +1420,7 @@ ___
 [main.ts:16378](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L16378)
 
 ___
+
 
 ### processAppleCategories
 
@@ -1376,6 +1442,7 @@ ___
 
 ___
 
+
 ### processGoogleAppInfoTaskGetAdvanced
 
 ▸ **processGoogleAppInfoTaskGetAdvanced**(`response`): `Promise`\<[`AppDataGoogleAppInfoTaskGetAdvancedResponseInfo`](AppDataGoogleAppInfoTaskGetAdvancedResponseInfo.md)\>
@@ -1395,6 +1462,7 @@ ___
 [main.ts:15901](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L15901)
 
 ___
+
 
 ### processGoogleAppInfoTaskGetHtml
 
@@ -1416,6 +1484,7 @@ ___
 
 ___
 
+
 ### processGoogleAppInfoTaskPost
 
 ▸ **processGoogleAppInfoTaskPost**(`response`): `Promise`\<[`AppDataGoogleAppInfoTaskPostResponseInfo`](AppDataGoogleAppInfoTaskPostResponseInfo.md)\>
@@ -1435,6 +1504,7 @@ ___
 [main.ts:15821](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L15821)
 
 ___
+
 
 ### processGoogleAppInfoTasksReady
 
@@ -1456,6 +1526,7 @@ ___
 
 ___
 
+
 ### processGoogleAppListTaskGetAdvanced
 
 ▸ **processGoogleAppListTaskGetAdvanced**(`response`): `Promise`\<[`AppDataGoogleAppListTaskGetAdvancedResponseInfo`](AppDataGoogleAppListTaskGetAdvancedResponseInfo.md)\>
@@ -1475,6 +1546,7 @@ ___
 [main.ts:15736](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L15736)
 
 ___
+
 
 ### processGoogleAppListTaskGetHtml
 
@@ -1496,6 +1568,7 @@ ___
 
 ___
 
+
 ### processGoogleAppListTaskPost
 
 ▸ **processGoogleAppListTaskPost**(`response`): `Promise`\<[`AppDataGoogleAppListTaskPostResponseInfo`](AppDataGoogleAppListTaskPostResponseInfo.md)\>
@@ -1515,6 +1588,7 @@ ___
 [main.ts:15656](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L15656)
 
 ___
+
 
 ### processGoogleAppListTasksReady
 
@@ -1536,6 +1610,7 @@ ___
 
 ___
 
+
 ### processGoogleAppListingsCategories
 
 ▸ **processGoogleAppListingsCategories**(`response`): `Promise`\<[`AppDataGoogleAppListingsCategoriesResponseInfo`](AppDataGoogleAppListingsCategoriesResponseInfo.md)\>
@@ -1555,6 +1630,7 @@ ___
 [main.ts:16146](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L16146)
 
 ___
+
 
 ### processGoogleAppListingsSearchLive
 
@@ -1576,6 +1652,7 @@ ___
 
 ___
 
+
 ### processGoogleAppReviewsTaskGetAdvanced
 
 ▸ **processGoogleAppReviewsTaskGetAdvanced**(`response`): `Promise`\<[`AppDataGoogleAppReviewsTaskGetAdvancedResponseInfo`](AppDataGoogleAppReviewsTaskGetAdvancedResponseInfo.md)\>
@@ -1595,6 +1672,7 @@ ___
 [main.ts:16066](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L16066)
 
 ___
+
 
 ### processGoogleAppReviewsTaskGetHtml
 
@@ -1616,6 +1694,7 @@ ___
 
 ___
 
+
 ### processGoogleAppReviewsTaskPost
 
 ▸ **processGoogleAppReviewsTaskPost**(`response`): `Promise`\<[`AppDataGoogleAppReviewsTaskPostResponseInfo`](AppDataGoogleAppReviewsTaskPostResponseInfo.md)\>
@@ -1635,6 +1714,7 @@ ___
 [main.ts:15986](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L15986)
 
 ___
+
 
 ### processGoogleAppReviewsTasksReady
 
@@ -1656,6 +1736,7 @@ ___
 
 ___
 
+
 ### processGoogleAppSearchesTaskGetAdvanced
 
 ▸ **processGoogleAppSearchesTaskGetAdvanced**(`response`): `Promise`\<[`AppDataGoogleAppSearchesTaskGetAdvancedResponseInfo`](AppDataGoogleAppSearchesTaskGetAdvancedResponseInfo.md)\>
@@ -1675,6 +1756,7 @@ ___
 [main.ts:15571](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L15571)
 
 ___
+
 
 ### processGoogleAppSearchesTaskGetHtml
 
@@ -1696,6 +1778,7 @@ ___
 
 ___
 
+
 ### processGoogleAppSearchesTaskPost
 
 ▸ **processGoogleAppSearchesTaskPost**(`response`): `Promise`\<[`AppDataGoogleAppSearchesTaskPostResponseInfo`](AppDataGoogleAppSearchesTaskPostResponseInfo.md)\>
@@ -1715,6 +1798,7 @@ ___
 [main.ts:15491](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L15491)
 
 ___
+
 
 ### processGoogleAppSearchesTasksReady
 
@@ -1736,6 +1820,7 @@ ___
 
 ___
 
+
 ### processGoogleCategories
 
 ▸ **processGoogleCategories**(`response`): `Promise`\<[`AppDataGoogleCategoriesResponseInfo`](AppDataGoogleCategoriesResponseInfo.md)\>
@@ -1753,3 +1838,7 @@ ___
 #### Defined in
 
 [main.ts:15375](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L15375)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IDataforseoLabsAppleAppCompetitorsLiveResultInfo
 
 # Interface: IDataforseoLabsAppleAppCompetitorsLiveResultInfo
@@ -36,6 +40,7 @@ id of the app in a POST array
 
 ___
 
+
 ### items
 
 • `Optional` **items**: [`DataforseoLabsAppleAppCompetitorsLiveItem`](../classes/DataforseoLabsAppleAppCompetitorsLiveItem.md)[]
@@ -47,6 +52,7 @@ contains data related to the app_id and competitor applications
 [main.ts:111605](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L111605)
 
 ___
+
 
 ### items\_count
 
@@ -60,6 +66,7 @@ the number of results returned in the items array
 
 ___
 
+
 ### language\_code
 
 • `Optional` **language\_code**: `string`
@@ -71,6 +78,7 @@ language code in a POST array
 [main.ts:111599](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L111599)
 
 ___
+
 
 ### location\_code
 
@@ -84,6 +92,7 @@ location code in a POST array
 
 ___
 
+
 ### se\_type
 
 • `Optional` **se\_type**: `string`
@@ -96,6 +105,7 @@ search engine type
 
 ___
 
+
 ### total\_count
 
 • `Optional` **total\_count**: `number`
@@ -105,3 +115,7 @@ total amount of results in our database relevant to your request
 #### Defined in
 
 [main.ts:111601](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L111601)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

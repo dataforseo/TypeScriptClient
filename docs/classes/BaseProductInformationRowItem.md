@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / BaseProductInformationRowItem
 
 # Class: BaseProductInformationRowItem
@@ -5,11 +9,11 @@
 ## Hierarchy
 
 - **`BaseProductInformationRowItem`**
-
+  
   ↳ [`ProductInformationImageRow`](ProductInformationImageRow.md)
-
+  
   ↳ [`ProductInformationTextRow`](ProductInformationTextRow.md)
-
+  
   ↳ [`ProductInformationVideoRow`](ProductInformationVideoRow.md)
 
 ## Implements
@@ -88,6 +92,7 @@
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -108,6 +113,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`BaseProductInformationRowItem`](BaseProductInformationRowItem.md)
@@ -125,3 +131,7 @@ ___
 #### Defined in
 
 [main.ts:21799](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L21799)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / AppendixAmazonMerchantPriceData
 
 # Class: AppendixAmazonMerchantPriceData
@@ -64,6 +68,7 @@
 
 ___
 
+
 ### products
 
 • `Optional` **products**: [`AppendixProductGoogleMerchantPriceDataInfo`](AppendixProductGoogleMerchantPriceDataInfo.md)
@@ -77,6 +82,7 @@ ___
 [main.ts:210424](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L210424)
 
 ___
+
 
 ### sellers
 
@@ -112,6 +118,7 @@ ___
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -132,6 +139,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`AppendixAmazonMerchantPriceData`](AppendixAmazonMerchantPriceData.md)
@@ -149,3 +157,7 @@ ___
 #### Defined in
 
 [main.ts:210450](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L210450)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / AppendixGoogleAdsKeywordsDataPriceData
 
 # Class: AppendixGoogleAdsKeywordsDataPriceData
@@ -66,6 +70,7 @@
 
 ___
 
+
 ### keywords\_for\_keywords
 
 • `Optional` **keywords\_for\_keywords**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](AppendixKeywordBingKeywordsDataPriceDataInfo.md)
@@ -79,6 +84,7 @@ ___
 [main.ts:209816](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L209816)
 
 ___
+
 
 ### keywords\_for\_site
 
@@ -94,6 +100,7 @@ ___
 
 ___
 
+
 ### search\_volume
 
 • `Optional` **search\_volume**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](AppendixKeywordBingKeywordsDataPriceDataInfo.md)
@@ -107,6 +114,7 @@ ___
 [main.ts:209818](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L209818)
 
 ___
+
 
 ### status
 
@@ -142,6 +150,7 @@ ___
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -162,6 +171,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`AppendixGoogleAdsKeywordsDataPriceData`](AppendixGoogleAdsKeywordsDataPriceData.md)
@@ -179,3 +189,7 @@ ___
 #### Defined in
 
 [main.ts:209846](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L209846)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IGoogleBusinessPostBusinessDataSerpElementItem
 
 # Interface: IGoogleBusinessPostBusinessDataSerpElementItem
@@ -5,7 +9,7 @@
 ## Hierarchy
 
 - [`IBaseBusinessDataSerpElementItem`](IBaseBusinessDataSerpElementItem.md)
-
+  
   ↳ **`IGoogleBusinessPostBusinessDataSerpElementItem`**
 
 ## Implemented by
@@ -47,6 +51,7 @@ author of the post
 
 ___
 
+
 ### images\_url
 
 • `Optional` **images\_url**: `string`
@@ -58,6 +63,7 @@ url of an image included in the post
 [main.ts:192469](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L192469)
 
 ___
+
 
 ### links
 
@@ -71,6 +77,7 @@ links included in the post
 
 ___
 
+
 ### position
 
 • `Optional` **position**: `string`
@@ -83,6 +90,7 @@ can take the following values: right
 [main.ts:192457](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L192457)
 
 ___
+
 
 ### post\_date
 
@@ -98,6 +106,7 @@ in the following format:
 
 ___
 
+
 ### post\_text
 
 • `Optional` **post\_text**: `string`
@@ -109,6 +118,7 @@ main content of a post
 [main.ts:192465](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L192465)
 
 ___
+
 
 ### rank\_absolute
 
@@ -123,6 +133,7 @@ absolute position among all present elements
 
 ___
 
+
 ### rank\_group
 
 • `Optional` **rank\_group**: `number`
@@ -136,6 +147,7 @@ positions of elements with different type values are omitted from rank_group
 
 ___
 
+
 ### snippet
 
 • `Optional` **snippet**: `string`
@@ -147,6 +159,7 @@ additional content of a post
 [main.ts:192463](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L192463)
 
 ___
+
 
 ### timestamp
 
@@ -163,6 +176,7 @@ example:
 
 ___
 
+
 ### url
 
 • `Optional` **url**: `string`
@@ -175,6 +189,7 @@ url of a post
 
 ___
 
+
 ### xpath
 
 • `Optional` **xpath**: `string`
@@ -184,3 +199,7 @@ the XPath of the element
 #### Defined in
 
 [main.ts:192459](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L192459)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

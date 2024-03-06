@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IDataforseoLabsGoogleHistoricalBulkTrafficEstimationLiveRequestInfo
 
 # Interface: IDataforseoLabsGoogleHistoricalBulkTrafficEstimationLiveRequestInfo
@@ -42,6 +46,7 @@ date format: "yyyy-mm-dd"
 
 ___
 
+
 ### date\_to
 
 • `Optional` **date\_to**: `string`
@@ -58,6 +63,7 @@ example:
 [main.ts:98156](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L98156)
 
 ___
+
 
 ### item\_types
 
@@ -78,6 +84,7 @@ default value:
 
 ___
 
+
 ### language\_code
 
 • `Optional` **language\_code**: `string`
@@ -95,6 +102,7 @@ en
 [main.ts:98143](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L98143)
 
 ___
+
 
 ### language\_name
 
@@ -114,6 +122,7 @@ English
 
 ___
 
+
 ### location\_code
 
 • `Optional` **location\_code**: `number`
@@ -131,6 +140,7 @@ example:
 [main.ts:98127](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L98127)
 
 ___
+
 
 ### location\_name
 
@@ -150,6 +160,7 @@ United Kingdom
 
 ___
 
+
 ### tag
 
 • `Optional` **tag**: `string`
@@ -166,6 +177,7 @@ you will find the specified tag value in the data object of the response
 
 ___
 
+
 ### targets
 
 • `Optional` **targets**: `string`[]
@@ -179,3 +191,7 @@ you can set up to 1000 domains or subdomains
 #### Defined in
 
 [main.ts:98111](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L98111)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

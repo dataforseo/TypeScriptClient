@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IAppendixContentAnalysisPriceData
 
 # Interface: IAppendixContentAnalysisPriceData
@@ -37,6 +41,7 @@
 
 ___
 
+
 ### category\_trends
 
 • `Optional` **category\_trends**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](../classes/AppendixKeywordBingKeywordsDataPriceDataInfo.md)
@@ -46,6 +51,7 @@ ___
 [main.ts:211441](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L211441)
 
 ___
+
 
 ### errors
 
@@ -57,6 +63,7 @@ ___
 
 ___
 
+
 ### languages
 
 • `Optional` **languages**: [`AppendixTaskKeywordsDataPriceDataInfo`](../classes/AppendixTaskKeywordsDataPriceDataInfo.md)
@@ -66,6 +73,7 @@ ___
 [main.ts:211443](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L211443)
 
 ___
+
 
 ### locations
 
@@ -77,6 +85,7 @@ ___
 
 ___
 
+
 ### phrase\_trends
 
 • `Optional` **phrase\_trends**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](../classes/AppendixKeywordBingKeywordsDataPriceDataInfo.md)
@@ -86,6 +95,7 @@ ___
 [main.ts:211445](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L211445)
 
 ___
+
 
 ### rating\_distribution
 
@@ -97,6 +107,7 @@ ___
 
 ___
 
+
 ### search
 
 • `Optional` **search**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](../classes/AppendixKeywordBingKeywordsDataPriceDataInfo.md)
@@ -106,6 +117,7 @@ ___
 [main.ts:211447](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L211447)
 
 ___
+
 
 ### sentiment\_analysis
 
@@ -117,6 +129,7 @@ ___
 
 ___
 
+
 ### summary
 
 • `Optional` **summary**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](../classes/AppendixKeywordBingKeywordsDataPriceDataInfo.md)
@@ -124,3 +137,7 @@ ___
 #### Defined in
 
 [main.ts:211449](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L211449)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

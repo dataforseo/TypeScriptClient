@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / DataforseoLabsBBulkKeywordDifficultyLiveItem
 
 # Class: DataforseoLabsBBulkKeywordDifficultyLiveItem
@@ -66,6 +70,7 @@ keyword in a POST array
 
 ___
 
+
 ### keyword\_difficulty
 
 • `Optional` **keyword\_difficulty**: `number`
@@ -84,6 +89,7 @@ learn more about the metric in this help center guide
 [main.ts:82369](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L82369)
 
 ___
+
 
 ### se\_type
 
@@ -121,6 +127,7 @@ search engine type
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -141,6 +148,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`DataforseoLabsBBulkKeywordDifficultyLiveItem`](DataforseoLabsBBulkKeywordDifficultyLiveItem.md)
@@ -158,3 +166,7 @@ ___
 #### Defined in
 
 [main.ts:82394](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L82394)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

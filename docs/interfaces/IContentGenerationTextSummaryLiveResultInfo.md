@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IContentGenerationTextSummaryLiveResultInfo
 
 # Interface: IContentGenerationTextSummaryLiveResultInfo
@@ -44,6 +48,7 @@ Automated Readability Index
 
 ___
 
+
 ### characters\_per\_word
 
 • `Optional` **characters\_per\_word**: `number`
@@ -55,6 +60,7 @@ average number of characters per word in the target text
 [main.ts:162353](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L162353)
 
 ___
+
 
 ### characters\_with\_spaces
 
@@ -68,6 +74,7 @@ number of characters with spaces found in the target text
 
 ___
 
+
 ### characters\_without\_spaces
 
 • `Optional` **characters\_without\_spaces**: `number`
@@ -79,6 +86,7 @@ number of characters without spaces found in the target text
 [main.ts:162347](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L162347)
 
 ___
+
 
 ### coleman\_liau\_index
 
@@ -92,6 +100,7 @@ Coleman–Liau Index
 
 ___
 
+
 ### flesch\_kincaid\_grade\_level
 
 • `Optional` **flesch\_kincaid\_grade\_level**: `number`
@@ -104,6 +113,7 @@ Flesch–Kincaid Readability Index
 
 ___
 
+
 ### grammar\_errors
 
 • `Optional` **grammar\_errors**: `number`
@@ -115,6 +125,7 @@ number of grammar errors found in the target text
 [main.ts:162370](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L162370)
 
 ___
+
 
 ### keyword\_density
 
@@ -133,6 +144,7 @@ contains most common words and their count
 
 ___
 
+
 ### paragraphs
 
 • `Optional` **paragraphs**: `number`
@@ -144,6 +156,7 @@ number of paragraphs found in the target text
 [main.ts:162343](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L162343)
 
 ___
+
 
 ### sentences
 
@@ -157,6 +170,7 @@ number of sentences found in the target text
 
 ___
 
+
 ### smog\_readability\_index
 
 • `Optional` **smog\_readability\_index**: `number`
@@ -168,6 +182,7 @@ SMOG Readability Index
 [main.ts:162366](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L162366)
 
 ___
+
 
 ### spelling\_errors
 
@@ -181,6 +196,7 @@ number of spelling errors found in the target text
 
 ___
 
+
 ### vocabulary\_density
 
 • `Optional` **vocabulary\_density**: `number`
@@ -192,6 +208,7 @@ vocabulary density of the target text
 [main.ts:162355](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L162355)
 
 ___
+
 
 ### words
 
@@ -205,6 +222,7 @@ number of words found in the target text
 
 ___
 
+
 ### words\_per\_sentence
 
 • `Optional` **words\_per\_sentence**: `number`
@@ -214,3 +232,7 @@ average number of words per sentence in the target text
 #### Defined in
 
 [main.ts:162351](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L162351)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

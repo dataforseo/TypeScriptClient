@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / OnPageAvailableFiltersResultInfo
 
 # Class: OnPageAvailableFiltersResultInfo
@@ -72,6 +76,7 @@
 
 ___
 
+
 ### links
 
 • `Optional` **links**: `Object`
@@ -89,6 +94,7 @@ ___
 [main.ts:142291](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L142291)
 
 ___
+
 
 ### non\_indexable
 
@@ -108,6 +114,7 @@ ___
 
 ___
 
+
 ### pages
 
 • `Optional` **pages**: `Object`
@@ -125,6 +132,7 @@ ___
 [main.ts:142289](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L142289)
 
 ___
+
 
 ### pages\_by\_resource
 
@@ -144,6 +152,7 @@ ___
 
 ___
 
+
 ### redirect\_chains
 
 • `Optional` **redirect\_chains**: `Object`
@@ -161,6 +170,7 @@ ___
 [main.ts:142293](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L142293)
 
 ___
+
 
 ### resources
 
@@ -200,6 +210,7 @@ ___
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -220,6 +231,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`OnPageAvailableFiltersResultInfo`](OnPageAvailableFiltersResultInfo.md)
@@ -237,3 +249,7 @@ ___
 #### Defined in
 
 [main.ts:142365](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L142365)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

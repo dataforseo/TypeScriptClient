@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / GoogleJobsItemSerpElementItem
 
 # Class: GoogleJobsItemSerpElementItem
@@ -5,7 +9,7 @@
 ## Hierarchy
 
 - [`BaseSerpElementItem`](BaseSerpElementItem.md)
-
+  
   ↳ **`GoogleJobsItemSerpElementItem`**
 
 ## Implements
@@ -89,6 +93,7 @@
 
 ___
 
+
 ### contract\_type
 
 • `Optional` **contract\_type**: `string`
@@ -104,6 +109,7 @@ employment contract type
 [main.ts:49140](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L49140)
 
 ___
+
 
 ### employer\_image\_url
 
@@ -121,6 +127,7 @@ URL to the image used in the job posting
 
 ___
 
+
 ### employer\_name
 
 • `Optional` **employer\_name**: `string`
@@ -136,6 +143,7 @@ name of the employer
 [main.ts:49125](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L49125)
 
 ___
+
 
 ### employer\_url
 
@@ -153,6 +161,7 @@ URL to the employer’s website
 
 ___
 
+
 ### job\_id
 
 • `Optional` **job\_id**: `string`
@@ -169,6 +178,7 @@ ID of the job on Google Jobs
 
 ___
 
+
 ### location
 
 • `Optional` **location**: `string`
@@ -184,6 +194,7 @@ location for which the job vacancy is posted
 [main.ts:49131](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L49131)
 
 ___
+
 
 ### position
 
@@ -203,6 +214,7 @@ left, right
 
 ___
 
+
 ### rank\_absolute
 
 • `Optional` **rank\_absolute**: `number`
@@ -219,6 +231,7 @@ absolute position among all the elements in SERP
 [main.ts:49113](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L49113)
 
 ___
+
 
 ### rank\_group
 
@@ -238,6 +251,7 @@ positions of elements with different type values are omitted from rank_group
 
 ___
 
+
 ### rectangle
 
 • `Optional` **rectangle**: [`Rectangle`](Rectangle.md)
@@ -256,6 +270,7 @@ in this case, will equal null
 
 ___
 
+
 ### salary
 
 • `Optional` **salary**: `string`
@@ -273,6 +288,7 @@ if the salary isn’t indicated, this field will equal null
 
 ___
 
+
 ### source\_name
 
 • `Optional` **source\_name**: `string`
@@ -288,6 +304,7 @@ original source of the job vacancy
 [main.ts:49133](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L49133)
 
 ___
+
 
 ### source\_url
 
@@ -305,6 +322,7 @@ URL to the original source of the job vacancy
 
 ___
 
+
 ### time\_ago
 
 • `Optional` **time\_ago**: `string`
@@ -320,6 +338,7 @@ indicates how long ago the job vacancy was posted
 [main.ts:49147](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L49147)
 
 ___
+
 
 ### timestamp
 
@@ -340,6 +359,7 @@ example:
 
 ___
 
+
 ### title
 
 • `Optional` **title**: `string`
@@ -355,6 +375,7 @@ title of the job
 [main.ts:49123](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L49123)
 
 ___
+
 
 ### xpath
 
@@ -396,6 +417,7 @@ the XPath of the element
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -420,6 +442,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`GoogleJobsItemSerpElementItem`](GoogleJobsItemSerpElementItem.md)
@@ -441,3 +464,7 @@ ___
 #### Defined in
 
 [main.ts:49187](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L49187)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

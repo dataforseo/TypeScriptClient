@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IGoogleShoppingSponsoredCarouselElement
 
 # Interface: IGoogleShoppingSponsoredCarouselElement
@@ -42,6 +46,7 @@ USD
 
 ___
 
+
 ### delivery\_info
 
 • `Optional` **delivery\_info**: [`DeliveryInfo`](../classes/DeliveryInfo.md)
@@ -54,6 +59,7 @@ delivery information including free and fast delivery date ranges
 [main.ts:165180](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L165180)
 
 ___
+
 
 ### price
 
@@ -69,6 +75,7 @@ example:
 
 ___
 
+
 ### product\_images
 
 • `Optional` **product\_images**: `string`[]
@@ -81,6 +88,7 @@ the first URL in the array is the featured image of the product
 [main.ts:165174](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L165174)
 
 ___
+
 
 ### product\_rating
 
@@ -95,6 +103,7 @@ the product popularity rate based on product reviews
 
 ___
 
+
 ### seller
 
 • `Optional` **seller**: `string`
@@ -107,6 +116,7 @@ the name of the company that placed a corresponding product on Google Shopping
 [main.ts:165160](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L165160)
 
 ___
+
 
 ### shop\_ad\_aclk
 
@@ -121,6 +131,7 @@ using this parameter you can get a URL of the advertisement in Google Shopping S
 
 ___
 
+
 ### tags
 
 • `Optional` **tags**: `string`[]
@@ -132,6 +143,7 @@ tags assigned to the product
 [main.ts:165157](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L165157)
 
 ___
+
 
 ### title
 
@@ -145,6 +157,7 @@ product title
 
 ___
 
+
 ### type
 
 • `Optional` **type**: `string`
@@ -157,6 +170,7 @@ type of element
 
 ___
 
+
 ### xpath
 
 • `Optional` **xpath**: `string`
@@ -166,3 +180,7 @@ XPath of the element
 #### Defined in
 
 [main.ts:165153](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L165153)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

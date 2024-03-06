@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / KeywordAnnotations
 
 # Class: KeywordAnnotations
@@ -84,6 +88,7 @@ the list of concepts for the keyword
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -104,6 +109,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`KeywordAnnotations`](KeywordAnnotations.md)
@@ -121,3 +127,7 @@ ___
 #### Defined in
 
 [main.ts:115037](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L115037)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

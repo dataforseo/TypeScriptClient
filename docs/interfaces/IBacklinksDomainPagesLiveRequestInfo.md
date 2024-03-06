@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IBacklinksDomainPagesLiveRequestInfo
 
 # Interface: IBacklinksDomainPagesLiveRequestInfo
@@ -45,6 +49,7 @@ example:
 
 ___
 
+
 ### backlinks\_status\_type
 
 • `Optional` **backlinks\_status\_type**: `string`
@@ -63,6 +68,7 @@ default value: live
 [main.ts:132658](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L132658)
 
 ___
+
 
 ### filters
 
@@ -91,6 +97,7 @@ The full list of possible filters is available here.
 
 ___
 
+
 ### include\_subdomains
 
 • `Optional` **include\_subdomains**: `boolean`
@@ -105,6 +112,7 @@ default value: true
 [main.ts:132702](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L132702)
 
 ___
+
 
 ### internal\_list\_limit
 
@@ -127,6 +135,7 @@ maximum value: 1000
 
 ___
 
+
 ### limit
 
 • `Optional` **limit**: `number`
@@ -142,6 +151,7 @@ maximum value: 1000
 
 ___
 
+
 ### offset
 
 • `Optional` **offset**: `number`
@@ -156,6 +166,7 @@ if you specify the 10 value, the first ten pages in the results array will be om
 [main.ts:132638](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L132638)
 
 ___
+
 
 ### order\_by
 
@@ -181,6 +192,7 @@ example:
 
 ___
 
+
 ### tag
 
 • `Optional` **tag**: `string`
@@ -197,6 +209,7 @@ you will find the specified tag value in the data object of the response
 
 ___
 
+
 ### target
 
 • `Optional` **target**: `string`
@@ -210,3 +223,7 @@ forbes.com
 #### Defined in
 
 [main.ts:132628](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L132628)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

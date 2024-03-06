@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IBusinessDataBusinessListingsCategoriesAggregationLiveItem
 
 # Interface: IBusinessDataBusinessListingsCategoriesAggregationLiveItem
@@ -32,6 +36,7 @@ aggregation of the category
 
 ___
 
+
 ### categories
 
 • `Optional` **categories**: `string`[]
@@ -45,6 +50,7 @@ Google My Business general category that best describes the cluster of related c
 
 ___
 
+
 ### type
 
 • `Optional` **type**: `string`
@@ -54,3 +60,7 @@ type of element
 #### Defined in
 
 [main.ts:189956](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L189956)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / AppendixWebhookResendRequestInfo
 
 # Class: AppendixWebhookResendRequestInfo
@@ -87,6 +91,7 @@ each identifier in the task array must be specified as a separate object
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -107,6 +112,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`AppendixWebhookResendRequestInfo`](AppendixWebhookResendRequestInfo.md)
@@ -124,3 +130,7 @@ ___
 #### Defined in
 
 [main.ts:212542](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L212542)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

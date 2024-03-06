@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IDataforseoLabsBingRankedKeywordsLiveRequestInfo
 
 # Interface: IDataforseoLabsBingRankedKeywordsLiveRequestInfo
@@ -61,6 +65,7 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 ___
 
+
 ### historical\_serp\_mode
 
 • `Optional` **historical\_serp\_mode**: `string`
@@ -80,6 +85,7 @@ default value: live
 
 ___
 
+
 ### ignore\_synonyms
 
 • `Optional` **ignore\_synonyms**: `boolean`
@@ -94,6 +100,7 @@ default value: false
 [main.ts:105239](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L105239)
 
 ___
+
 
 ### item\_types
 
@@ -114,6 +121,7 @@ default value:
 
 ___
 
+
 ### language\_code
 
 • `Optional` **language\_code**: `string`
@@ -132,6 +140,7 @@ en
 [main.ts:105225](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L105225)
 
 ___
+
 
 ### language\_name
 
@@ -152,6 +161,7 @@ English
 
 ___
 
+
 ### limit
 
 • `Optional` **limit**: `number`
@@ -167,6 +177,7 @@ maximum value: 1000
 
 ___
 
+
 ### load\_rank\_absolute
 
 • `Optional` **load\_rank\_absolute**: `boolean`
@@ -181,6 +192,7 @@ if set to true, we will return the field metrics_absolute containing rankings di
 [main.ts:105254](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L105254)
 
 ___
+
 
 ### location\_code
 
@@ -202,6 +214,7 @@ example:
 
 ___
 
+
 ### location\_name
 
 • `Optional` **location\_name**: `string`
@@ -222,6 +235,7 @@ United States
 
 ___
 
+
 ### offset
 
 • `Optional` **offset**: `number`
@@ -236,6 +250,7 @@ if you specify the 10 value, the first ten keywords in the results array will be
 [main.ts:105249](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L105249)
 
 ___
+
 
 ### order\_by
 
@@ -263,6 +278,7 @@ example:
 
 ___
 
+
 ### tag
 
 • `Optional` **tag**: `string`
@@ -278,6 +294,7 @@ you will find the specified tag value in the data object of the response
 [main.ts:105305](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L105305)
 
 ___
+
 
 ### target
 
@@ -296,3 +313,7 @@ example:
 #### Defined in
 
 [main.ts:105187](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L105187)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

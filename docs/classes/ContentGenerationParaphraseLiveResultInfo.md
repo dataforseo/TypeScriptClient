@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / ContentGenerationParaphraseLiveResultInfo
 
 # Class: ContentGenerationParaphraseLiveResultInfo
@@ -67,6 +71,7 @@ paraphrased version of the given text
 
 ___
 
+
 ### input\_tokens
 
 • `Optional` **input\_tokens**: `number`
@@ -83,6 +88,7 @@ number of input tokens in the POST request
 
 ___
 
+
 ### new\_tokens
 
 • `Optional` **new\_tokens**: `number`
@@ -98,6 +104,7 @@ number of new tokens in the response
 [main.ts:161205](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L161205)
 
 ___
+
 
 ### output\_tokens
 
@@ -135,6 +142,7 @@ number of output tokens in the response
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -155,6 +163,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`ContentGenerationParaphraseLiveResultInfo`](ContentGenerationParaphraseLiveResultInfo.md)
@@ -172,3 +181,7 @@ ___
 #### Defined in
 
 [main.ts:161233](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L161233)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

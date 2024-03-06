@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / DataforseoLabsGoogleKeywordIdeasLiveResultInfo
 
 # Class: DataforseoLabsGoogleKeywordIdeasLiveResultInfo
@@ -72,6 +76,7 @@ contains keyword ideas and related data
 
 ___
 
+
 ### items\_count
 
 • `Optional` **items\_count**: `number`
@@ -87,6 +92,7 @@ number of results returned in the items array
 [main.ts:81519](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L81519)
 
 ___
+
 
 ### language\_code
 
@@ -104,6 +110,7 @@ language code in a POST array
 
 ___
 
+
 ### location\_code
 
 • `Optional` **location\_code**: `number`
@@ -120,6 +127,7 @@ location code in a POST array
 
 ___
 
+
 ### offset
 
 • `Optional` **offset**: `number`
@@ -135,6 +143,7 @@ current offset value
 [main.ts:81521](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L81521)
 
 ___
+
 
 ### offset\_token
 
@@ -154,6 +163,7 @@ note: offset_token values are unique for each subsequent task
 
 ___
 
+
 ### se\_type
 
 • `Optional` **se\_type**: `string`
@@ -169,6 +179,7 @@ search engine type
 [main.ts:81508](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L81508)
 
 ___
+
 
 ### seed\_keywords
 
@@ -186,6 +197,7 @@ keywords are returned with decoded %## (plus symbol ‘+’ will be decoded to a
 [main.ts:81511](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L81511)
 
 ___
+
 
 ### total\_count
 
@@ -223,6 +235,7 @@ total number of results relevant to your request in our database
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -243,6 +256,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`DataforseoLabsGoogleKeywordIdeasLiveResultInfo`](DataforseoLabsGoogleKeywordIdeasLiveResultInfo.md)
@@ -260,3 +274,7 @@ ___
 #### Defined in
 
 [main.ts:81566](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L81566)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IKeywordsDataBingKeywordPerformanceLiveRequestInfo
 
 # Interface: IKeywordsDataBingKeywordPerformanceLiveRequestInfo
@@ -41,6 +45,7 @@ default value: all
 
 ___
 
+
 ### keywords
 
 • `Optional` **keywords**: `string`[]
@@ -58,6 +63,7 @@ the specified keywords will be converted to lowercase, data will be provided in 
 
 ___
 
+
 ### language\_code
 
 • `Optional` **language\_code**: `string`
@@ -73,6 +79,7 @@ example:
 [main.ts:127724](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L127724)
 
 ___
+
 
 ### language\_name
 
@@ -91,6 +98,7 @@ English
 
 ___
 
+
 ### location\_code
 
 • `Optional` **location\_code**: `number`
@@ -107,6 +115,7 @@ example:
 [main.ts:127703](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L127703)
 
 ___
+
 
 ### location\_coordinate
 
@@ -126,6 +135,7 @@ example:
 
 ___
 
+
 ### location\_name
 
 • `Optional` **location\_name**: `string`
@@ -142,6 +152,7 @@ example:
 [main.ts:127696](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L127696)
 
 ___
+
 
 ### match
 
@@ -161,6 +172,7 @@ exact returns data for user query that matches the specified keyword;Note: the a
 
 ___
 
+
 ### tag
 
 • `Optional` **tag**: `string`
@@ -174,3 +186,7 @@ you will find the specified tag value in the data object of the response
 #### Defined in
 
 [main.ts:127730](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L127730)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

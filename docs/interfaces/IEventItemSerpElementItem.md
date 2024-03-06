@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IEventItemSerpElementItem
 
 # Interface: IEventItemSerpElementItem
@@ -5,7 +9,7 @@
 ## Hierarchy
 
 - [`IBaseSerpElementItem`](IBaseSerpElementItem.md)
-
+  
   ↳ **`IEventItemSerpElementItem`**
 
 ## Implemented by
@@ -46,6 +50,7 @@ description of the results element in SERP
 
 ___
 
+
 ### event\_dates
 
 • `Optional` **event\_dates**: [`EventDates`](../classes/EventDates.md)
@@ -59,6 +64,7 @@ if there are none, equals null
 
 ___
 
+
 ### image\_url
 
 • `Optional` **image\_url**: `string`
@@ -70,6 +76,7 @@ URL of the image featured in the element
 [main.ts:44784](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L44784)
 
 ___
+
 
 ### information\_and\_tickets
 
@@ -84,6 +91,7 @@ if there is none, equals null
 
 ___
 
+
 ### location\_info
 
 • `Optional` **location\_info**: [`LocationInfo`](../classes/LocationInfo.md)
@@ -96,6 +104,7 @@ if there is none, equals null
 [main.ts:44790](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L44790)
 
 ___
+
 
 ### position
 
@@ -111,6 +120,7 @@ left, right
 
 ___
 
+
 ### rank\_absolute
 
 • `Optional` **rank\_absolute**: `number`
@@ -123,6 +133,7 @@ absolute position among all the elements in SERP
 [main.ts:44770](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L44770)
 
 ___
+
 
 ### rank\_group
 
@@ -138,6 +149,7 @@ positions of elements with different type values are omitted from rank_group
 
 ___
 
+
 ### title
 
 • `Optional` **title**: `string`
@@ -149,6 +161,7 @@ title of the result in SERP
 [main.ts:44778](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L44778)
 
 ___
+
 
 ### url
 
@@ -162,6 +175,7 @@ relevant URL
 
 ___
 
+
 ### xpath
 
 • `Optional` **xpath**: `string`
@@ -171,3 +185,7 @@ the XPath of the element
 #### Defined in
 
 [main.ts:44776](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L44776)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

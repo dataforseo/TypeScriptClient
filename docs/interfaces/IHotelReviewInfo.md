@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IHotelReviewInfo
 
 # Interface: IHotelReviewInfo
@@ -35,6 +39,7 @@ information about hotel reviews by criteria
 
 ___
 
+
 ### other\_sites\_reviews
 
 • `Optional` **other\_sites\_reviews**: [`OtherSitesReviewsInfo`](../classes/OtherSitesReviewsInfo.md)[]
@@ -47,6 +52,7 @@ reviews from third-paty sites
 [main.ts:196024](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L196024)
 
 ___
+
 
 ### rating\_distribution
 
@@ -65,6 +71,7 @@ the distribution of votes across the rating in the range from 1 to 5
 
 ___
 
+
 ### value
 
 • `Optional` **value**: `number`
@@ -77,6 +84,7 @@ overall hotel rating based on customer votes
 
 ___
 
+
 ### votes\_count
 
 • `Optional` **votes\_count**: `number`
@@ -87,3 +95,7 @@ the number of customer votes included in the calculation of the hotel rating
 #### Defined in
 
 [main.ts:196015](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L196015)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

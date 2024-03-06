@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / BusinessDataBusinessListingsCategoriesAggregationLiveRequestInfo
 
 # Class: BusinessDataBusinessListingsCategoriesAggregationLiveRequestInfo
@@ -77,6 +81,7 @@ you can specify up to 10 categories
 
 ___
 
+
 ### description
 
 • `Optional` **description**: `string`
@@ -95,6 +100,7 @@ can contain up to 200 symbols
 [main.ts:189573](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L189573)
 
 ___
+
 
 ### initial\_dataset\_filters
 
@@ -121,6 +127,7 @@ you can receive the list of available filters by making a separate request to h
 
 ___
 
+
 ### internal\_list\_limit
 
 • `Optional` **internal\_list\_limit**: `number`
@@ -140,6 +147,7 @@ default value: 10
 
 ___
 
+
 ### is\_claimed
 
 • `Optional` **is\_claimed**: `boolean`
@@ -156,6 +164,7 @@ optional field
 [main.ts:189581](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L189581)
 
 ___
+
 
 ### limit
 
@@ -175,6 +184,7 @@ maximum value: 1000
 [main.ts:189611](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L189611)
 
 ___
+
 
 ### location\_coordinate
 
@@ -199,6 +209,7 @@ example:
 
 ___
 
+
 ### offset
 
 • `Optional` **offset**: `number`
@@ -215,6 +226,7 @@ optional field
 [main.ts:189614](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L189614)
 
 ___
+
 
 ### tag
 
@@ -235,6 +247,7 @@ you will find the specified tag value in the data object of the response
 [main.ts:189620](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L189620)
 
 ___
+
 
 ### title
 
@@ -275,6 +288,7 @@ can contain up to 200 symbols
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -295,6 +309,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`BusinessDataBusinessListingsCategoriesAggregationLiveRequestInfo`](BusinessDataBusinessListingsCategoriesAggregationLiveRequestInfo.md)
@@ -312,3 +327,7 @@ ___
 #### Defined in
 
 [main.ts:189660](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L189660)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

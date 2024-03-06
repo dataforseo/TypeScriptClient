@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IProductInformationImageRow
 
 # Interface: IProductInformationImageRow
@@ -5,7 +9,7 @@
 ## Hierarchy
 
 - [`IBaseProductInformationRowItem`](IBaseProductInformationRowItem.md)
-
+  
   ↳ **`IProductInformationImageRow`**
 
 ## Implemented by
@@ -37,6 +41,7 @@ alternative text of the related product image
 
 ___
 
+
 ### url
 
 • `Optional` **url**: `string`
@@ -46,3 +51,7 @@ URL of the image
 #### Defined in
 
 [main.ts:172603](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L172603)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

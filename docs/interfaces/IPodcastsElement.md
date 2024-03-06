@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IPodcastsElement
 
 # Interface: IPodcastsElement
@@ -35,6 +39,7 @@ description of the results element in SERP
 
 ___
 
+
 ### time\_to\_play
 
 • `Optional` **time\_to\_play**: `string`
@@ -46,6 +51,7 @@ the total time it will take to play an episode
 [main.ts:32237](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L32237)
 
 ___
+
 
 ### timestamp
 
@@ -62,6 +68,7 @@ example:
 
 ___
 
+
 ### title
 
 • `Optional` **title**: `string`
@@ -73,6 +80,7 @@ title of the row
 [main.ts:32226](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L32226)
 
 ___
+
 
 ### type
 
@@ -86,6 +94,7 @@ type of element
 
 ___
 
+
 ### url
 
 • `Optional` **url**: `string`
@@ -95,3 +104,7 @@ URL
 #### Defined in
 
 [main.ts:32228](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L32228)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

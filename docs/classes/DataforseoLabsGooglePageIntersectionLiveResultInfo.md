@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / DataforseoLabsGooglePageIntersectionLiveResultInfo
 
 # Class: DataforseoLabsGooglePageIntersectionLiveResultInfo
@@ -71,6 +75,7 @@ URLs you specified in a POST array that will be excluded from the results
 
 ___
 
+
 ### items
 
 • `Optional` **items**: [`DataforseoLabsPageIntersectionLiveItem`](DataforseoLabsPageIntersectionLiveItem.md)[]
@@ -86,6 +91,7 @@ contains keywords, relevant SERP elements and related data
 [main.ts:97232](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L97232)
 
 ___
+
 
 ### items\_count
 
@@ -103,6 +109,7 @@ the number of results returned in the items array
 
 ___
 
+
 ### language\_code
 
 • `Optional` **language\_code**: `string`
@@ -119,6 +126,7 @@ language code in a POST array
 
 ___
 
+
 ### location\_code
 
 • `Optional` **location\_code**: `number`
@@ -134,6 +142,7 @@ location code in a POST array
 [main.ts:97224](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L97224)
 
 ___
+
 
 ### pages
 
@@ -155,6 +164,7 @@ URLs you specified a POST array
 
 ___
 
+
 ### se\_type
 
 • `Optional` **se\_type**: `string`
@@ -170,6 +180,7 @@ search engine type
 [main.ts:97218](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L97218)
 
 ___
+
 
 ### total\_count
 
@@ -207,6 +218,7 @@ total amount of results in our database relevant to your request
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -227,6 +239,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`DataforseoLabsGooglePageIntersectionLiveResultInfo`](DataforseoLabsGooglePageIntersectionLiveResultInfo.md)
@@ -244,3 +257,7 @@ ___
 #### Defined in
 
 [main.ts:97276](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L97276)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

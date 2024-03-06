@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / LocalServicesElement
 
 # Class: LocalServicesElement
@@ -70,6 +74,7 @@ description of the results element in SERP
 
 ___
 
+
 ### domain
 
 • `Optional` **domain**: `string`
@@ -85,6 +90,7 @@ domain where a link points
 [main.ts:33588](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L33588)
 
 ___
+
 
 ### profile\_image\_url
 
@@ -102,11 +108,12 @@ URL of the image featured in the element
 
 ___
 
+
 ### rating
 
 • `Optional` **rating**: [`RatingInfo`](RatingInfo.md)
 
-the item’s rating 
+the item’s rating
 the popularity rate based on reviews and displayed in SERP
 
 #### Implementation of
@@ -118,6 +125,7 @@ the popularity rate based on reviews and displayed in SERP
 [main.ts:33593](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L33593)
 
 ___
+
 
 ### title
 
@@ -135,6 +143,7 @@ title of the row
 
 ___
 
+
 ### type
 
 • `Optional` **type**: `string`
@@ -150,6 +159,7 @@ type of element
 [main.ts:33582](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L33582)
 
 ___
+
 
 ### url
 
@@ -187,6 +197,7 @@ URL
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -207,6 +218,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`LocalServicesElement`](LocalServicesElement.md)
@@ -224,3 +236,7 @@ ___
 #### Defined in
 
 [main.ts:33624](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L33624)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

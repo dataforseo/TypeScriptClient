@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / TargetInfo
 
 # Class: TargetInfo
@@ -70,6 +74,7 @@ content management system
 
 ___
 
+
 ### country
 
 • `Optional` **country**: `string`
@@ -86,6 +91,7 @@ country code that the target domain is determined to belong to
 
 ___
 
+
 ### ip\_address
 
 • `Optional` **ip\_address**: `string`
@@ -101,6 +107,7 @@ IP address of the target
 [main.ts:129371](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L129371)
 
 ___
+
 
 ### is\_ip
 
@@ -119,6 +126,7 @@ if true, the domain, subdomain or webpage functions as an IP address and does no
 
 ___
 
+
 ### platform\_type
 
 • `Optional` **platform\_type**: `string`[]
@@ -135,6 +143,7 @@ platform type
 
 ___
 
+
 ### server
 
 • `Optional` **server**: `string`
@@ -150,6 +159,7 @@ server
 [main.ts:129365](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L129365)
 
 ___
+
 
 ### target\_spam\_score
 
@@ -189,6 +199,7 @@ learn more about how the metric is calculated on this help center page
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -209,6 +220,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`TargetInfo`](TargetInfo.md)
@@ -226,3 +238,7 @@ ___
 #### Defined in
 
 [main.ts:129413](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L129413)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

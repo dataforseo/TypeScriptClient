@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / OnPageKeywordDensityItem
 
 # Class: OnPageKeywordDensityItem
@@ -67,6 +71,7 @@ calculated as a ratio of frequency to the total count of keywords with the set k
 
 ___
 
+
 ### frequency
 
 • `Optional` **frequency**: `number`
@@ -83,6 +88,7 @@ number of times the keyword appears on the website (or webpage if you specified 
 [main.ts:150236](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L150236)
 
 ___
+
 
 ### keyword
 
@@ -120,6 +126,7 @@ returned keyword
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -140,6 +147,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`OnPageKeywordDensityItem`](OnPageKeywordDensityItem.md)
@@ -157,3 +165,7 @@ ___
 #### Defined in
 
 [main.ts:150264](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L150264)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

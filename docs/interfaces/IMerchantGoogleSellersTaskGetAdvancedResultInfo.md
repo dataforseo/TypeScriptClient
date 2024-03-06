@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IMerchantGoogleSellersTaskGetAdvancedResultInfo
 
 # Interface: IMerchantGoogleSellersTaskGetAdvancedResultInfo
@@ -40,6 +44,7 @@ you can use it to make sure that we provided accurate results
 
 ___
 
+
 ### datetime
 
 • `Optional` **datetime**: `string`
@@ -54,6 +59,7 @@ example:
 [main.ts:166913](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L166913)
 
 ___
+
 
 ### item\_types
 
@@ -70,6 +76,7 @@ shops_list, buy_on_google
 
 ___
 
+
 ### items
 
 • `Optional` **items**: [`BaseMerchantSerpElementItem`](../classes/BaseMerchantSerpElementItem.md)[]
@@ -81,6 +88,7 @@ items in SERP
 [main.ts:166922](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L166922)
 
 ___
+
 
 ### items\_count
 
@@ -94,6 +102,7 @@ the number of results returned in the items array
 
 ___
 
+
 ### language\_code
 
 • `Optional` **language\_code**: `string`
@@ -106,6 +115,7 @@ language code in a POST array
 
 ___
 
+
 ### location\_code
 
 • `Optional` **location\_code**: `number`
@@ -117,6 +127,7 @@ location code in a POST array
 [main.ts:166903](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L166903)
 
 ___
+
 
 ### product\_id
 
@@ -131,6 +142,7 @@ learn more about the parameter in this help center guide
 
 ___
 
+
 ### se\_domain
 
 • `Optional` **se\_domain**: `string`
@@ -143,6 +155,7 @@ search engine domain in a POST array
 
 ___
 
+
 ### type
 
 • `Optional` **type**: `string`
@@ -152,3 +165,7 @@ type of element
 #### Defined in
 
 [main.ts:166899](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L166899)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

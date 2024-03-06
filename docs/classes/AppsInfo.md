@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / AppsInfo
 
 # Class: AppsInfo
@@ -66,6 +70,7 @@ ID of the app
 
 ___
 
+
 ### title
 
 • `Optional` **title**: `string`
@@ -81,6 +86,7 @@ title of the app
 [main.ts:179762](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L179762)
 
 ___
+
 
 ### url
 
@@ -118,6 +124,7 @@ URL to the app page on Google Play
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -138,6 +145,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`AppsInfo`](AppsInfo.md)
@@ -155,3 +163,7 @@ ___
 #### Defined in
 
 [main.ts:179789](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L179789)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

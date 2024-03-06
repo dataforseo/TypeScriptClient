@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / MerchantGoogleProductSpecTaskPostRequestInfo
 
 # Class: MerchantGoogleProductSpecTaskPostRequestInfo
@@ -85,6 +89,7 @@ example:
 
 ___
 
+
 ### language\_code
 
 • `Optional` **language\_code**: `string`
@@ -105,6 +110,7 @@ en
 [main.ts:167304](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L167304)
 
 ___
+
 
 ### language\_name
 
@@ -127,6 +133,7 @@ English
 
 ___
 
+
 ### location\_code
 
 • `Optional` **location\_code**: `number`
@@ -147,6 +154,7 @@ example:
 [main.ts:167281](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L167281)
 
 ___
+
 
 ### location\_coordinate
 
@@ -171,6 +179,7 @@ example:
 
 ___
 
+
 ### location\_name
 
 • `Optional` **location\_name**: `string`
@@ -191,6 +200,7 @@ London,England,United Kingdom
 [main.ts:167274](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L167274)
 
 ___
+
 
 ### pingback\_url
 
@@ -216,6 +226,7 @@ i.a., the # symbol will be encoded into %23
 
 ___
 
+
 ### postback\_data
 
 • `Optional` **postback\_data**: `string`
@@ -235,6 +246,7 @@ advanced, html
 [main.ts:167340](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L167340)
 
 ___
+
 
 ### postback\_url
 
@@ -260,6 +272,7 @@ i.a., the # symbol will be encoded into %23
 
 ___
 
+
 ### priority
 
 • `Optional` **priority**: `number`
@@ -282,6 +295,7 @@ The cost can be calculated on the Pricing page.
 
 ___
 
+
 ### product\_id
 
 • `Optional` **product\_id**: `string`
@@ -301,6 +315,7 @@ learn more about the parameter in this help center guide
 [main.ts:167259](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L167259)
 
 ___
+
 
 ### se\_domain
 
@@ -322,6 +337,7 @@ google.co.uk, google.com.au, google.de, etc.
 [main.ts:167311](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L167311)
 
 ___
+
 
 ### tag
 
@@ -363,6 +379,7 @@ you will find the specified tag value in the data object of the response
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -383,6 +400,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`MerchantGoogleProductSpecTaskPostRequestInfo`](MerchantGoogleProductSpecTaskPostRequestInfo.md)
@@ -400,3 +418,7 @@ ___
 #### Defined in
 
 [main.ts:167391](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L167391)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / KeywordsDataApi
 
 # Class: KeywordsDataApi
@@ -147,6 +151,7 @@
 
 ___
 
+
 ### http
 
 • `Private` **http**: `Object`
@@ -162,6 +167,7 @@ ___
 [main.ts:8579](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L8579)
 
 ___
+
 
 ### jsonParseReviver
 
@@ -210,6 +216,7 @@ Successful operation
 
 ___
 
+
 ### bingKeywordPerformanceTaskGet
 
 ▸ **bingKeywordPerformanceTaskGet**(`id`): `Promise`\<[`KeywordsDataBingKeywordPerformanceTaskGetResponseInfo`](KeywordsDataBingKeywordPerformanceTaskGetResponseInfo.md)\>
@@ -231,6 +238,7 @@ Successful operation
 [main.ts:10447](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L10447)
 
 ___
+
 
 ### bingKeywordPerformanceTaskPost
 
@@ -254,6 +262,7 @@ Successful operation
 
 ___
 
+
 ### bingKeywordPerformanceTasksReady
 
 ▸ **bingKeywordPerformanceTasksReady**(): `Promise`\<[`KeywordsDataBingKeywordPerformanceTasksReadyResponseInfo`](KeywordsDataBingKeywordPerformanceTasksReadyResponseInfo.md)\>
@@ -269,6 +278,7 @@ Successful operation
 [main.ts:10407](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L10407)
 
 ___
+
 
 ### bingKeywordsForKeywordsLive
 
@@ -292,6 +302,7 @@ Successful operation
 
 ___
 
+
 ### bingKeywordsForKeywordsTaskGet
 
 ▸ **bingKeywordsForKeywordsTaskGet**(`id`): `Promise`\<[`KeywordsDataBingKeywordsForKeywordsTaskGetResponseInfo`](KeywordsDataBingKeywordsForKeywordsTaskGetResponseInfo.md)\>
@@ -313,6 +324,7 @@ Successful operation
 [main.ts:10246](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L10246)
 
 ___
+
 
 ### bingKeywordsForKeywordsTaskPost
 
@@ -336,6 +348,7 @@ Successful operation
 
 ___
 
+
 ### bingKeywordsForKeywordsTasksReady
 
 ▸ **bingKeywordsForKeywordsTasksReady**(): `Promise`\<[`KeywordsDataBingKeywordsForKeywordsTasksReadyResponseInfo`](KeywordsDataBingKeywordsForKeywordsTasksReadyResponseInfo.md)\>
@@ -351,6 +364,7 @@ Successful operation
 [main.ts:10206](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L10206)
 
 ___
+
 
 ### bingKeywordsForSiteLive
 
@@ -374,6 +388,7 @@ Successful operation
 
 ___
 
+
 ### bingKeywordsForSiteTaskGet
 
 ▸ **bingKeywordsForSiteTaskGet**(`id`): `Promise`\<[`KeywordsDataBingKeywordsForSiteTaskGetResponseInfo`](KeywordsDataBingKeywordsForSiteTaskGetResponseInfo.md)\>
@@ -395,6 +410,7 @@ Successful operation
 [main.ts:10082](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L10082)
 
 ___
+
 
 ### bingKeywordsForSiteTaskPost
 
@@ -418,6 +434,7 @@ Successful operation
 
 ___
 
+
 ### bingKeywordsForSiteTasksReady
 
 ▸ **bingKeywordsForSiteTasksReady**(): `Promise`\<[`KeywordsDataBingKeywordsForSiteTasksReadyResponseInfo`](KeywordsDataBingKeywordsForSiteTasksReadyResponseInfo.md)\>
@@ -433,6 +450,7 @@ Successful operation
 [main.ts:10042](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L10042)
 
 ___
+
 
 ### bingSearchVolumeLive
 
@@ -456,6 +474,7 @@ Successful operation
 
 ___
 
+
 ### bingSearchVolumeTaskGet
 
 ▸ **bingSearchVolumeTaskGet**(`id`): `Promise`\<[`KeywordsDataBingSearchVolumeTaskGetResponseInfo`](KeywordsDataBingSearchVolumeTaskGetResponseInfo.md)\>
@@ -477,6 +496,7 @@ Successful operation
 [main.ts:9918](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L9918)
 
 ___
+
 
 ### bingSearchVolumeTaskPost
 
@@ -500,6 +520,7 @@ Successful operation
 
 ___
 
+
 ### bingSearchVolumeTasksReady
 
 ▸ **bingSearchVolumeTasksReady**(): `Promise`\<[`KeywordsDataBingSearchVolumeTasksReadyResponseInfo`](KeywordsDataBingSearchVolumeTasksReadyResponseInfo.md)\>
@@ -515,6 +536,7 @@ Successful operation
 [main.ts:9878](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L9878)
 
 ___
+
 
 ### googleAdsAdTrafficByKeywordsLive
 
@@ -538,6 +560,7 @@ Successful operation
 
 ___
 
+
 ### googleAdsAdTrafficByKeywordsTaskGet
 
 ▸ **googleAdsAdTrafficByKeywordsTaskGet**(`id`): `Promise`\<[`KeywordsDataGoogleAdsAdTrafficByKeywordsTaskGetResponseInfo`](KeywordsDataGoogleAdsAdTrafficByKeywordsTaskGetResponseInfo.md)\>
@@ -559,6 +582,7 @@ Successful operation
 [main.ts:9360](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L9360)
 
 ___
+
 
 ### googleAdsAdTrafficByKeywordsTaskPost
 
@@ -582,6 +606,7 @@ Successful operation
 
 ___
 
+
 ### googleAdsAdTrafficByKeywordsTasksReady
 
 ▸ **googleAdsAdTrafficByKeywordsTasksReady**(): `Promise`\<[`KeywordsDataGoogleAdsAdTrafficByKeywordsTasksReadyResponseInfo`](KeywordsDataGoogleAdsAdTrafficByKeywordsTasksReadyResponseInfo.md)\>
@@ -597,6 +622,7 @@ Successful operation
 [main.ts:9320](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L9320)
 
 ___
+
 
 ### googleAdsKeywordsForKeywordsLive
 
@@ -620,6 +646,7 @@ Successful operation
 
 ___
 
+
 ### googleAdsKeywordsForKeywordsTaskGet
 
 ▸ **googleAdsKeywordsForKeywordsTaskGet**(`id`): `Promise`\<[`KeywordsDataGoogleAdsKeywordsForKeywordsTaskGetResponseInfo`](KeywordsDataGoogleAdsKeywordsForKeywordsTaskGetResponseInfo.md)\>
@@ -641,6 +668,7 @@ Successful operation
 [main.ts:9196](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L9196)
 
 ___
+
 
 ### googleAdsKeywordsForKeywordsTaskPost
 
@@ -664,6 +692,7 @@ Successful operation
 
 ___
 
+
 ### googleAdsKeywordsForKeywordsTasksReady
 
 ▸ **googleAdsKeywordsForKeywordsTasksReady**(): `Promise`\<[`KeywordsDataGoogleAdsKeywordsForKeywordsTasksReadyResponseInfo`](KeywordsDataGoogleAdsKeywordsForKeywordsTasksReadyResponseInfo.md)\>
@@ -679,6 +708,7 @@ Successful operation
 [main.ts:9156](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L9156)
 
 ___
+
 
 ### googleAdsKeywordsForSiteLive
 
@@ -702,6 +732,7 @@ Successful operation
 
 ___
 
+
 ### googleAdsKeywordsForSiteTaskGet
 
 ▸ **googleAdsKeywordsForSiteTaskGet**(`id`): `Promise`\<[`KeywordsDataGoogleAdsKeywordsForSiteTaskGetResponseInfo`](KeywordsDataGoogleAdsKeywordsForSiteTaskGetResponseInfo.md)\>
@@ -723,6 +754,7 @@ Successful operation
 [main.ts:9032](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L9032)
 
 ___
+
 
 ### googleAdsKeywordsForSiteTaskPost
 
@@ -746,6 +778,7 @@ Successful operation
 
 ___
 
+
 ### googleAdsKeywordsForSiteTasksReady
 
 ▸ **googleAdsKeywordsForSiteTasksReady**(): `Promise`\<[`KeywordsDataGoogleAdsKeywordsForSiteTasksReadyResponseInfo`](KeywordsDataGoogleAdsKeywordsForSiteTasksReadyResponseInfo.md)\>
@@ -761,6 +794,7 @@ Successful operation
 [main.ts:8992](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L8992)
 
 ___
+
 
 ### googleAdsSearchVolumeLive
 
@@ -784,6 +818,7 @@ Successful operation
 
 ___
 
+
 ### googleAdsSearchVolumeTaskGet
 
 ▸ **googleAdsSearchVolumeTaskGet**(`id`): `Promise`\<[`KeywordsDataGoogleAdsSearchVolumeTaskGetResponseInfo`](KeywordsDataGoogleAdsSearchVolumeTaskGetResponseInfo.md)\>
@@ -805,6 +840,7 @@ Successful operation
 [main.ts:8868](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L8868)
 
 ___
+
 
 ### googleAdsSearchVolumeTaskPost
 
@@ -828,6 +864,7 @@ Successful operation
 
 ___
 
+
 ### googleAdsSearchVolumeTasksReady
 
 ▸ **googleAdsSearchVolumeTasksReady**(): `Promise`\<[`KeywordsDataGoogleAdsSearchVolumeTasksReadyResponseInfo`](KeywordsDataGoogleAdsSearchVolumeTasksReadyResponseInfo.md)\>
@@ -843,6 +880,7 @@ Successful operation
 [main.ts:8828](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L8828)
 
 ___
+
 
 ### googleAdsStatus
 
@@ -860,6 +898,7 @@ Successful operation
 
 ___
 
+
 ### googleTrendsCategories
 
 ▸ **googleTrendsCategories**(): `Promise`\<[`KeywordsDataGoogleTrendsCategoriesResponseInfo`](KeywordsDataGoogleTrendsCategoriesResponseInfo.md)\>
@@ -875,6 +914,7 @@ Successful operation
 [main.ts:9561](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L9561)
 
 ___
+
 
 ### googleTrendsExploreLive
 
@@ -898,6 +938,7 @@ Successful operation
 
 ___
 
+
 ### googleTrendsExploreTaskGet
 
 ▸ **googleTrendsExploreTaskGet**(`id`): `Promise`\<[`KeywordsDataGoogleTrendsExploreTaskGetResponseInfo`](KeywordsDataGoogleTrendsExploreTaskGetResponseInfo.md)\>
@@ -919,6 +960,7 @@ Successful operation
 [main.ts:9680](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L9680)
 
 ___
+
 
 ### googleTrendsExploreTaskPost
 
@@ -942,6 +984,7 @@ Successful operation
 
 ___
 
+
 ### googleTrendsExploreTasksReady
 
 ▸ **googleTrendsExploreTasksReady**(): `Promise`\<[`KeywordsDataGoogleTrendsExploreTasksReadyResponseInfo`](KeywordsDataGoogleTrendsExploreTasksReadyResponseInfo.md)\>
@@ -957,6 +1000,7 @@ Successful operation
 [main.ts:9640](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L9640)
 
 ___
+
 
 ### keywordsDataBingKeywordPerformanceLocationsAndLanguages
 
@@ -974,6 +1018,7 @@ Successful operation
 
 ___
 
+
 ### keywordsDataBingLanguages
 
 ▸ **keywordsDataBingLanguages**(): `Promise`\<[`KeywordsDataBingLanguagesResponseInfo`](KeywordsDataBingLanguagesResponseInfo.md)\>
@@ -990,6 +1035,7 @@ Successful operation
 
 ___
 
+
 ### keywordsDataBingLocations
 
 ▸ **keywordsDataBingLocations**(): `Promise`\<[`KeywordsDataBingLocationsResponseInfo`](KeywordsDataBingLocationsResponseInfo.md)\>
@@ -1005,6 +1051,7 @@ Successful operation
 [main.ts:9762](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L9762)
 
 ___
+
 
 ### keywordsDataErrors
 
@@ -1028,6 +1075,7 @@ Successful operation
 
 ___
 
+
 ### keywordsDataGoogleAdsLanguages
 
 ▸ **keywordsDataGoogleAdsLanguages**(): `Promise`\<[`KeywordsDataGoogleAdsLanguagesResponseInfo`](KeywordsDataGoogleAdsLanguagesResponseInfo.md)\>
@@ -1043,6 +1091,7 @@ Successful operation
 [main.ts:8749](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L8749)
 
 ___
+
 
 ### keywordsDataGoogleAdsLocations
 
@@ -1060,6 +1109,7 @@ Successful operation
 
 ___
 
+
 ### keywordsDataGoogleTrendsLanguages
 
 ▸ **keywordsDataGoogleTrendsLanguages**(): `Promise`\<[`KeywordsDataGoogleTrendsLanguagesResponseInfo`](KeywordsDataGoogleTrendsLanguagesResponseInfo.md)\>
@@ -1076,6 +1126,7 @@ Successful operation
 
 ___
 
+
 ### keywordsDataGoogleTrendsLocations
 
 ▸ **keywordsDataGoogleTrendsLocations**(): `Promise`\<[`KeywordsDataGoogleTrendsLocationsResponseInfo`](KeywordsDataGoogleTrendsLocationsResponseInfo.md)\>
@@ -1091,6 +1142,7 @@ Successful operation
 [main.ts:9442](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L9442)
 
 ___
+
 
 ### keywordsDataGoogleTrendsLocationsCountry
 
@@ -1114,6 +1166,7 @@ Successful operation
 
 ___
 
+
 ### keywordsDataIdList
 
 ▸ **keywordsDataIdList**(`body`): `Promise`\<[`KeywordsDataIdListResponseInfo`](KeywordsDataIdListResponseInfo.md)\>
@@ -1136,6 +1189,7 @@ Successful operation
 
 ___
 
+
 ### processBingKeywordPerformanceLive
 
 ▸ **processBingKeywordPerformanceLive**(`response`): `Promise`\<[`KeywordsDataBingKeywordPerformanceLiveResponseInfo`](KeywordsDataBingKeywordPerformanceLiveResponseInfo.md)\>
@@ -1155,6 +1209,7 @@ ___
 [main.ts:10508](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L10508)
 
 ___
+
 
 ### processBingKeywordPerformanceTaskGet
 
@@ -1176,6 +1231,7 @@ ___
 
 ___
 
+
 ### processBingKeywordPerformanceTaskPost
 
 ▸ **processBingKeywordPerformanceTaskPost**(`response`): `Promise`\<[`KeywordsDataBingKeywordPerformanceTaskPostResponseInfo`](KeywordsDataBingKeywordPerformanceTaskPostResponseInfo.md)\>
@@ -1195,6 +1251,7 @@ ___
 [main.ts:10386](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L10386)
 
 ___
+
 
 ### processBingKeywordPerformanceTasksReady
 
@@ -1216,6 +1273,7 @@ ___
 
 ___
 
+
 ### processBingKeywordsForKeywordsLive
 
 ▸ **processBingKeywordsForKeywordsLive**(`response`): `Promise`\<[`KeywordsDataBingKeywordsForKeywordsLiveResponseInfo`](KeywordsDataBingKeywordsForKeywordsLiveResponseInfo.md)\>
@@ -1235,6 +1293,7 @@ ___
 [main.ts:10307](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L10307)
 
 ___
+
 
 ### processBingKeywordsForKeywordsTaskGet
 
@@ -1256,6 +1315,7 @@ ___
 
 ___
 
+
 ### processBingKeywordsForKeywordsTaskPost
 
 ▸ **processBingKeywordsForKeywordsTaskPost**(`response`): `Promise`\<[`KeywordsDataBingKeywordsForKeywordsTaskPostResponseInfo`](KeywordsDataBingKeywordsForKeywordsTaskPostResponseInfo.md)\>
@@ -1275,6 +1335,7 @@ ___
 [main.ts:10185](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L10185)
 
 ___
+
 
 ### processBingKeywordsForKeywordsTasksReady
 
@@ -1296,6 +1357,7 @@ ___
 
 ___
 
+
 ### processBingKeywordsForSiteLive
 
 ▸ **processBingKeywordsForSiteLive**(`response`): `Promise`\<[`KeywordsDataBingKeywordsForSiteLiveResponseInfo`](KeywordsDataBingKeywordsForSiteLiveResponseInfo.md)\>
@@ -1315,6 +1377,7 @@ ___
 [main.ts:10143](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L10143)
 
 ___
+
 
 ### processBingKeywordsForSiteTaskGet
 
@@ -1336,6 +1399,7 @@ ___
 
 ___
 
+
 ### processBingKeywordsForSiteTaskPost
 
 ▸ **processBingKeywordsForSiteTaskPost**(`response`): `Promise`\<[`KeywordsDataBingKeywordsForSiteTaskPostResponseInfo`](KeywordsDataBingKeywordsForSiteTaskPostResponseInfo.md)\>
@@ -1355,6 +1419,7 @@ ___
 [main.ts:10021](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L10021)
 
 ___
+
 
 ### processBingKeywordsForSiteTasksReady
 
@@ -1376,6 +1441,7 @@ ___
 
 ___
 
+
 ### processBingSearchVolumeLive
 
 ▸ **processBingSearchVolumeLive**(`response`): `Promise`\<[`KeywordsDataBingSearchVolumeLiveResponseInfo`](KeywordsDataBingSearchVolumeLiveResponseInfo.md)\>
@@ -1395,6 +1461,7 @@ ___
 [main.ts:9979](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L9979)
 
 ___
+
 
 ### processBingSearchVolumeTaskGet
 
@@ -1416,6 +1483,7 @@ ___
 
 ___
 
+
 ### processBingSearchVolumeTaskPost
 
 ▸ **processBingSearchVolumeTaskPost**(`response`): `Promise`\<[`KeywordsDataBingSearchVolumeTaskPostResponseInfo`](KeywordsDataBingSearchVolumeTaskPostResponseInfo.md)\>
@@ -1435,6 +1503,7 @@ ___
 [main.ts:9857](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L9857)
 
 ___
+
 
 ### processBingSearchVolumeTasksReady
 
@@ -1456,6 +1525,7 @@ ___
 
 ___
 
+
 ### processGoogleAdsAdTrafficByKeywordsLive
 
 ▸ **processGoogleAdsAdTrafficByKeywordsLive**(`response`): `Promise`\<[`KeywordsDataGoogleAdsAdTrafficByKeywordsLiveResponseInfo`](KeywordsDataGoogleAdsAdTrafficByKeywordsLiveResponseInfo.md)\>
@@ -1475,6 +1545,7 @@ ___
 [main.ts:9421](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L9421)
 
 ___
+
 
 ### processGoogleAdsAdTrafficByKeywordsTaskGet
 
@@ -1496,6 +1567,7 @@ ___
 
 ___
 
+
 ### processGoogleAdsAdTrafficByKeywordsTaskPost
 
 ▸ **processGoogleAdsAdTrafficByKeywordsTaskPost**(`response`): `Promise`\<[`KeywordsDataGoogleAdsAdTrafficByKeywordsTaskPostResponseInfo`](KeywordsDataGoogleAdsAdTrafficByKeywordsTaskPostResponseInfo.md)\>
@@ -1515,6 +1587,7 @@ ___
 [main.ts:9299](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L9299)
 
 ___
+
 
 ### processGoogleAdsAdTrafficByKeywordsTasksReady
 
@@ -1536,6 +1609,7 @@ ___
 
 ___
 
+
 ### processGoogleAdsKeywordsForKeywordsLive
 
 ▸ **processGoogleAdsKeywordsForKeywordsLive**(`response`): `Promise`\<[`KeywordsDataGoogleAdsKeywordsForKeywordsLiveResponseInfo`](KeywordsDataGoogleAdsKeywordsForKeywordsLiveResponseInfo.md)\>
@@ -1555,6 +1629,7 @@ ___
 [main.ts:9257](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L9257)
 
 ___
+
 
 ### processGoogleAdsKeywordsForKeywordsTaskGet
 
@@ -1576,6 +1651,7 @@ ___
 
 ___
 
+
 ### processGoogleAdsKeywordsForKeywordsTaskPost
 
 ▸ **processGoogleAdsKeywordsForKeywordsTaskPost**(`response`): `Promise`\<[`KeywordsDataGoogleAdsKeywordsForKeywordsTaskPostResponseInfo`](KeywordsDataGoogleAdsKeywordsForKeywordsTaskPostResponseInfo.md)\>
@@ -1595,6 +1671,7 @@ ___
 [main.ts:9135](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L9135)
 
 ___
+
 
 ### processGoogleAdsKeywordsForKeywordsTasksReady
 
@@ -1616,6 +1693,7 @@ ___
 
 ___
 
+
 ### processGoogleAdsKeywordsForSiteLive
 
 ▸ **processGoogleAdsKeywordsForSiteLive**(`response`): `Promise`\<[`KeywordsDataGoogleAdsKeywordsForSiteLiveResponseInfo`](KeywordsDataGoogleAdsKeywordsForSiteLiveResponseInfo.md)\>
@@ -1635,6 +1713,7 @@ ___
 [main.ts:9093](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L9093)
 
 ___
+
 
 ### processGoogleAdsKeywordsForSiteTaskGet
 
@@ -1656,6 +1735,7 @@ ___
 
 ___
 
+
 ### processGoogleAdsKeywordsForSiteTaskPost
 
 ▸ **processGoogleAdsKeywordsForSiteTaskPost**(`response`): `Promise`\<[`KeywordsDataGoogleAdsKeywordsForSiteTaskPostResponseInfo`](KeywordsDataGoogleAdsKeywordsForSiteTaskPostResponseInfo.md)\>
@@ -1675,6 +1755,7 @@ ___
 [main.ts:8971](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L8971)
 
 ___
+
 
 ### processGoogleAdsKeywordsForSiteTasksReady
 
@@ -1696,6 +1777,7 @@ ___
 
 ___
 
+
 ### processGoogleAdsSearchVolumeLive
 
 ▸ **processGoogleAdsSearchVolumeLive**(`response`): `Promise`\<[`KeywordsDataGoogleAdsSearchVolumeLiveResponseInfo`](KeywordsDataGoogleAdsSearchVolumeLiveResponseInfo.md)\>
@@ -1715,6 +1797,7 @@ ___
 [main.ts:8929](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L8929)
 
 ___
+
 
 ### processGoogleAdsSearchVolumeTaskGet
 
@@ -1736,6 +1819,7 @@ ___
 
 ___
 
+
 ### processGoogleAdsSearchVolumeTaskPost
 
 ▸ **processGoogleAdsSearchVolumeTaskPost**(`response`): `Promise`\<[`KeywordsDataGoogleAdsSearchVolumeTaskPostResponseInfo`](KeywordsDataGoogleAdsSearchVolumeTaskPostResponseInfo.md)\>
@@ -1755,6 +1839,7 @@ ___
 [main.ts:8807](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L8807)
 
 ___
+
 
 ### processGoogleAdsSearchVolumeTasksReady
 
@@ -1776,6 +1861,7 @@ ___
 
 ___
 
+
 ### processGoogleAdsStatus
 
 ▸ **processGoogleAdsStatus**(`response`): `Promise`\<[`KeywordsDataGoogleAdsStatusResponseInfo`](KeywordsDataGoogleAdsStatusResponseInfo.md)\>
@@ -1795,6 +1881,7 @@ ___
 [main.ts:8691](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L8691)
 
 ___
+
 
 ### processGoogleTrendsCategories
 
@@ -1816,6 +1903,7 @@ ___
 
 ___
 
+
 ### processGoogleTrendsExploreLive
 
 ▸ **processGoogleTrendsExploreLive**(`response`): `Promise`\<[`KeywordsDataGoogleTrendsExploreLiveResponseInfo`](KeywordsDataGoogleTrendsExploreLiveResponseInfo.md)\>
@@ -1835,6 +1923,7 @@ ___
 [main.ts:9741](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L9741)
 
 ___
+
 
 ### processGoogleTrendsExploreTaskGet
 
@@ -1856,6 +1945,7 @@ ___
 
 ___
 
+
 ### processGoogleTrendsExploreTaskPost
 
 ▸ **processGoogleTrendsExploreTaskPost**(`response`): `Promise`\<[`KeywordsDataGoogleTrendsExploreTaskPostResponseInfo`](KeywordsDataGoogleTrendsExploreTaskPostResponseInfo.md)\>
@@ -1875,6 +1965,7 @@ ___
 [main.ts:9619](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L9619)
 
 ___
+
 
 ### processGoogleTrendsExploreTasksReady
 
@@ -1896,6 +1987,7 @@ ___
 
 ___
 
+
 ### processKeywordsDataBingKeywordPerformanceLocationsAndLanguages
 
 ▸ **processKeywordsDataBingKeywordPerformanceLocationsAndLanguages**(`response`): `Promise`\<[`KeywordsDataBingKeywordPerformanceLocationsAndLanguagesResponseInfo`](KeywordsDataBingKeywordPerformanceLocationsAndLanguagesResponseInfo.md)\>
@@ -1915,6 +2007,7 @@ ___
 [main.ts:10344](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L10344)
 
 ___
+
 
 ### processKeywordsDataBingLanguages
 
@@ -1936,6 +2029,7 @@ ___
 
 ___
 
+
 ### processKeywordsDataBingLocations
 
 ▸ **processKeywordsDataBingLocations**(`response`): `Promise`\<[`KeywordsDataBingLocationsResponseInfo`](KeywordsDataBingLocationsResponseInfo.md)\>
@@ -1955,6 +2049,7 @@ ___
 [main.ts:9778](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L9778)
 
 ___
+
 
 ### processKeywordsDataErrors
 
@@ -1976,6 +2071,7 @@ ___
 
 ___
 
+
 ### processKeywordsDataGoogleAdsLanguages
 
 ▸ **processKeywordsDataGoogleAdsLanguages**(`response`): `Promise`\<[`KeywordsDataGoogleAdsLanguagesResponseInfo`](KeywordsDataGoogleAdsLanguagesResponseInfo.md)\>
@@ -1995,6 +2091,7 @@ ___
 [main.ts:8765](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L8765)
 
 ___
+
 
 ### processKeywordsDataGoogleAdsLocations
 
@@ -2016,6 +2113,7 @@ ___
 
 ___
 
+
 ### processKeywordsDataGoogleTrendsLanguages
 
 ▸ **processKeywordsDataGoogleTrendsLanguages**(`response`): `Promise`\<[`KeywordsDataGoogleTrendsLanguagesResponseInfo`](KeywordsDataGoogleTrendsLanguagesResponseInfo.md)\>
@@ -2035,6 +2133,7 @@ ___
 [main.ts:9540](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L9540)
 
 ___
+
 
 ### processKeywordsDataGoogleTrendsLocations
 
@@ -2056,6 +2155,7 @@ ___
 
 ___
 
+
 ### processKeywordsDataGoogleTrendsLocationsCountry
 
 ▸ **processKeywordsDataGoogleTrendsLocationsCountry**(`response`): `Promise`\<[`KeywordsDataGoogleTrendsLocationsCountryResponseInfo`](KeywordsDataGoogleTrendsLocationsCountryResponseInfo.md)\>
@@ -2076,6 +2176,7 @@ ___
 
 ___
 
+
 ### processKeywordsDataIdList
 
 ▸ **processKeywordsDataIdList**(`response`): `Promise`\<[`KeywordsDataIdListResponseInfo`](KeywordsDataIdListResponseInfo.md)\>
@@ -2093,3 +2194,7 @@ ___
 #### Defined in
 
 [main.ts:8612](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L8612)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

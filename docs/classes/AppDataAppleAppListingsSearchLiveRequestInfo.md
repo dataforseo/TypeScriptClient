@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / AppDataAppleAppListingsSearchLiveRequestInfo
 
 # Class: AppDataAppleAppListingsSearchLiveRequestInfo
@@ -76,6 +80,7 @@ you can specify up to 10 categories
 
 ___
 
+
 ### description
 
 • `Optional` **description**: `string`
@@ -94,6 +99,7 @@ can contain up to 200 symbols
 [main.ts:186743](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L186743)
 
 ___
+
 
 ### filters
 
@@ -120,6 +126,7 @@ you can receive the list of available filters by making a separate request to h
 
 ___
 
+
 ### limit
 
 • `Optional` **limit**: `number`
@@ -139,6 +146,7 @@ maximum value: 1000
 
 ___
 
+
 ### offset
 
 • `Optional` **offset**: `number`
@@ -157,6 +165,7 @@ if you specify the 10 value, the first ten entities in the results array will be
 [main.ts:186783](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L186783)
 
 ___
+
 
 ### offset\_token
 
@@ -179,6 +188,7 @@ Note: if the offset_token is specified in the request, all other parameters shou
 [main.ts:186791](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L186791)
 
 ___
+
 
 ### order\_by
 
@@ -208,6 +218,7 @@ example:
 
 ___
 
+
 ### tag
 
 • `Optional` **tag**: `string`
@@ -227,6 +238,7 @@ you will find the specified tag value in the data object of the response
 [main.ts:186797](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L186797)
 
 ___
+
 
 ### title
 
@@ -267,6 +279,7 @@ can contain up to 200 symbols
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -287,6 +300,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`AppDataAppleAppListingsSearchLiveRequestInfo`](AppDataAppleAppListingsSearchLiveRequestInfo.md)
@@ -304,3 +318,7 @@ ___
 #### Defined in
 
 [main.ts:186840](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L186840)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

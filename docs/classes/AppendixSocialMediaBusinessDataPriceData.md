@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / AppendixSocialMediaBusinessDataPriceData
 
 # Class: AppendixSocialMediaBusinessDataPriceData
@@ -64,6 +68,7 @@
 
 ___
 
+
 ### pinterest
 
 • `Optional` **pinterest**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](AppendixKeywordBingKeywordsDataPriceDataInfo.md)
@@ -77,6 +82,7 @@ ___
 [main.ts:211000](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L211000)
 
 ___
+
 
 ### reddit
 
@@ -112,6 +118,7 @@ ___
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -132,6 +139,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`AppendixSocialMediaBusinessDataPriceData`](AppendixSocialMediaBusinessDataPriceData.md)
@@ -149,3 +157,7 @@ ___
 #### Defined in
 
 [main.ts:211026](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L211026)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

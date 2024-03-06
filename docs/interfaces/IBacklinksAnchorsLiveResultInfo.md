@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IBacklinksAnchorsLiveResultInfo
 
 # Interface: IBacklinksAnchorsLiveResultInfo
@@ -33,6 +37,7 @@ items array
 
 ___
 
+
 ### items\_count
 
 • `Optional` **items\_count**: `number`
@@ -44,6 +49,7 @@ number of items in the results array
 [main.ts:132336](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L132336)
 
 ___
+
 
 ### target
 
@@ -57,6 +63,7 @@ target in the post array
 
 ___
 
+
 ### total\_count
 
 • `Optional` **total\_count**: `number`
@@ -66,3 +73,7 @@ total number of relevant items in the database
 #### Defined in
 
 [main.ts:132334](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L132334)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

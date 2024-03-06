@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / HistoricalMetricsInfo
 
 # Class: HistoricalMetricsInfo
@@ -67,6 +71,7 @@ total count of organic SERPs that contain the domain
 
 ___
 
+
 ### etv
 
 • `Optional` **etv**: `number`
@@ -86,6 +91,7 @@ learn more about how the metric is calculated in this help center article
 
 ___
 
+
 ### month
 
 • `Optional` **month**: `number`
@@ -101,6 +107,7 @@ month for which the data is provided
 [main.ts:98180](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L98180)
 
 ___
+
 
 ### year
 
@@ -138,6 +145,7 @@ year for which the data is provided
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -158,6 +166,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`HistoricalMetricsInfo`](HistoricalMetricsInfo.md)
@@ -175,3 +184,7 @@ ___
 #### Defined in
 
 [main.ts:98213](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L98213)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

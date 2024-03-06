@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / PeopleAlsoAskElement
 
 # Class: PeopleAlsoAskElement
@@ -68,6 +72,7 @@ expanded element
 
 ___
 
+
 ### seed\_question
 
 • `Optional` **seed\_question**: `string`
@@ -83,6 +88,7 @@ question that triggered additional expanded elements
 [main.ts:28496](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L28496)
 
 ___
+
 
 ### title
 
@@ -100,6 +106,7 @@ title of the row
 
 ___
 
+
 ### type
 
 • `Optional` **type**: `string`
@@ -115,6 +122,7 @@ type of element
 [main.ts:28492](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L28492)
 
 ___
+
 
 ### xpath
 
@@ -152,6 +160,7 @@ the XPath of the element
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -172,6 +181,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`PeopleAlsoAskElement`](PeopleAlsoAskElement.md)
@@ -189,3 +199,7 @@ ___
 #### Defined in
 
 [main.ts:28531](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L28531)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

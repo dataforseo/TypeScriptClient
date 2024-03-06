@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IAppendixBusinessListingsBusinessDataLimitsRatesDataInfo
 
 # Interface: IAppendixBusinessListingsBusinessDataLimitsRatesDataInfo
@@ -31,6 +35,7 @@
 
 ___
 
+
 ### categories\_aggregation
 
 • `Optional` **categories\_aggregation**: [`AppendixInfo`](../classes/AppendixInfo.md)
@@ -40,6 +45,7 @@ ___
 [main.ts:208025](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L208025)
 
 ___
+
 
 ### locations
 
@@ -51,6 +57,7 @@ ___
 
 ___
 
+
 ### search
 
 • `Optional` **search**: [`AppendixInfo`](../classes/AppendixInfo.md)
@@ -58,3 +65,7 @@ ___
 #### Defined in
 
 [main.ts:208024](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L208024)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

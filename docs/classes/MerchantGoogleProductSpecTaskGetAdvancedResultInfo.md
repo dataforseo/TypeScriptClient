@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / MerchantGoogleProductSpecTaskGetAdvancedResultInfo
 
 # Class: MerchantGoogleProductSpecTaskGetAdvancedResultInfo
@@ -78,6 +82,7 @@ you can use it to make sure that we provided accurate results
 
 ___
 
+
 ### datetime
 
 • `Optional` **datetime**: `string`
@@ -97,6 +102,7 @@ example:
 
 ___
 
+
 ### description
 
 • `Optional` **description**: `string`
@@ -113,6 +119,7 @@ description of the product
 
 ___
 
+
 ### image\_url
 
 • `Optional` **image\_url**: `string`
@@ -128,6 +135,7 @@ URL of the product image
 [main.ts:167946](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L167946)
 
 ___
+
 
 ### item\_types
 
@@ -147,6 +155,7 @@ shopping_specification
 
 ___
 
+
 ### items
 
 • `Optional` **items**: [`BaseMerchantSerpElementItem`](BaseMerchantSerpElementItem.md)[]
@@ -164,6 +173,7 @@ contains all product attributes and related data listed on the product specifica
 
 ___
 
+
 ### items\_count
 
 • `Optional` **items\_count**: `number`
@@ -179,6 +189,7 @@ the number of results returned in the items array
 [main.ts:167962](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L167962)
 
 ___
+
 
 ### language\_code
 
@@ -196,6 +207,7 @@ language code in a POST array
 
 ___
 
+
 ### location\_code
 
 • `Optional` **location\_code**: `number`
@@ -211,6 +223,7 @@ location code in a POST array
 [main.ts:167938](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L167938)
 
 ___
+
 
 ### product\_id
 
@@ -229,6 +242,7 @@ learn more about the parameter in this help center guide
 
 ___
 
+
 ### se\_domain
 
 • `Optional` **se\_domain**: `string`
@@ -244,6 +258,7 @@ search engine domain in a POST array
 [main.ts:167936](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L167936)
 
 ___
+
 
 ### tags
 
@@ -261,6 +276,7 @@ tags of the product
 
 ___
 
+
 ### title
 
 • `Optional` **title**: `string`
@@ -276,6 +292,7 @@ title of the product
 [main.ts:167942](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L167942)
 
 ___
+
 
 ### type
 
@@ -313,6 +330,7 @@ type of element
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -333,6 +351,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`MerchantGoogleProductSpecTaskGetAdvancedResultInfo`](MerchantGoogleProductSpecTaskGetAdvancedResultInfo.md)
@@ -350,3 +369,7 @@ ___
 #### Defined in
 
 [main.ts:168013](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L168013)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

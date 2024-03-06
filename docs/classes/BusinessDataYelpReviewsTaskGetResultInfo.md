@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / BusinessDataYelpReviewsTaskGetResultInfo
 
 # Class: BusinessDataYelpReviewsTaskGetResultInfo
@@ -76,6 +80,7 @@ Yelp business identifier
 
 ___
 
+
 ### check\_url
 
 • `Optional` **check\_url**: `string`
@@ -92,6 +97,7 @@ you can use it to make sure that we provided accurate results
 [main.ts:205381](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L205381)
 
 ___
+
 
 ### datetime
 
@@ -112,6 +118,7 @@ example:
 
 ___
 
+
 ### items
 
 • `Optional` **items**: [`BaseBusinessDataSerpElementItem`](BaseBusinessDataSerpElementItem.md)[]
@@ -128,6 +135,7 @@ you can get more results by using the depth parameter when setting a task
 [main.ts:205399](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L205399)
 
 ___
+
 
 ### items\_count
 
@@ -146,6 +154,7 @@ you can get more results by using the depth parameter when setting a task
 
 ___
 
+
 ### keyword
 
 • `Optional` **keyword**: `string`
@@ -163,6 +172,7 @@ this field will contain the alias parameter if it was specified in a POST array
 
 ___
 
+
 ### language\_code
 
 • `Optional` **language\_code**: `string`
@@ -178,6 +188,7 @@ language code in a POST array
 [main.ts:205378](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L205378)
 
 ___
+
 
 ### location\_code
 
@@ -196,6 +207,7 @@ if location_code was not specified in a POST array, the value equals null
 
 ___
 
+
 ### rating
 
 • `Optional` **rating**: [`RatingInfo`](RatingInfo.md)
@@ -211,6 +223,7 @@ the rating score submitted by the reviewer
 [main.ts:205391](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L205391)
 
 ___
+
 
 ### reviews\_count
 
@@ -228,6 +241,7 @@ the total number of reviews
 
 ___
 
+
 ### se\_domain
 
 • `Optional` **se\_domain**: `string`
@@ -243,6 +257,7 @@ search engine domain in a POST array
 [main.ts:205373](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L205373)
 
 ___
+
 
 ### title
 
@@ -260,6 +275,7 @@ the name of the local establishment for which the reviews are collected
 [main.ts:205389](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L205389)
 
 ___
+
 
 ### type
 
@@ -297,6 +313,7 @@ type of element
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -317,6 +334,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`BusinessDataYelpReviewsTaskGetResultInfo`](BusinessDataYelpReviewsTaskGetResultInfo.md)
@@ -334,3 +352,7 @@ ___
 #### Defined in
 
 [main.ts:205438](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L205438)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

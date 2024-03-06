@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / Redirect
 
 # Class: Redirect
@@ -66,6 +70,7 @@ HTTP status code of the URL
 
 ___
 
+
 ### type
 
 • `Optional` **type**: `string`
@@ -81,6 +86,7 @@ type of element
 [main.ts:130947](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L130947)
 
 ___
+
 
 ### url
 
@@ -118,6 +124,7 @@ indirect link URL
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -138,6 +145,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`Redirect`](Redirect.md)
@@ -155,3 +163,7 @@ ___
 #### Defined in
 
 [main.ts:130976](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L130976)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

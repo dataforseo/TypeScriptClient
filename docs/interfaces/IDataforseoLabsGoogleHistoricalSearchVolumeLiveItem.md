@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IDataforseoLabsGoogleHistoricalSearchVolumeLiveItem
 
 # Interface: IDataforseoLabsGoogleHistoricalSearchVolumeLiveItem
@@ -42,6 +46,7 @@ learn more about impressions in this help center article
 
 ___
 
+
 ### keyword
 
 • `Optional` **keyword**: `string`
@@ -55,6 +60,7 @@ keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a s
 
 ___
 
+
 ### keyword\_info
 
 • `Optional` **keyword\_info**: [`KeywordInfo`](../classes/KeywordInfo.md)
@@ -66,6 +72,7 @@ keyword data for the returned keyword idea
 [main.ts:82006](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L82006)
 
 ___
+
 
 ### keyword\_properties
 
@@ -79,6 +86,7 @@ additional information about the keyword
 
 ___
 
+
 ### language\_code
 
 • `Optional` **language\_code**: `string`
@@ -90,6 +98,7 @@ language code in a POST array
 [main.ts:82000](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L82000)
 
 ___
+
 
 ### location\_code
 
@@ -104,6 +113,7 @@ if there is no data, then the value is null
 
 ___
 
+
 ### se\_type
 
 • `Optional` **se\_type**: `string`
@@ -115,6 +125,7 @@ search engine type
 [main.ts:81992](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L81992)
 
 ___
+
 
 ### search\_partners
 
@@ -130,6 +141,7 @@ if false, the results are returned for Google search sites only
 
 ___
 
+
 ### serp\_info
 
 • `Optional` **serp\_info**: [`SerpInfo`](../classes/SerpInfo.md)
@@ -140,3 +152,7 @@ the value will be null if you didn’t set the field include_serp_info to true i
 #### Defined in
 
 [main.ts:82017](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L82017)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

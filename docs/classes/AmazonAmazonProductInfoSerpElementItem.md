@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / AmazonAmazonProductInfoSerpElementItem
 
 # Class: AmazonAmazonProductInfoSerpElementItem
@@ -5,7 +9,7 @@
 ## Hierarchy
 
 - [`BaseAmazonSerpElementItem`](BaseAmazonSerpElementItem.md)
-
+  
   ↳ **`AmazonAmazonProductInfoSerpElementItem`**
 
 ## Implements
@@ -96,6 +100,7 @@
 
 ___
 
+
 ### author
 
 • `Optional` **author**: `string`
@@ -112,6 +117,7 @@ product brand name
 
 ___
 
+
 ### categories
 
 • `Optional` **categories**: [`ProductCategoryInfo`](ProductCategoryInfo.md)[]
@@ -127,6 +133,7 @@ contains related product categories
 [main.ts:172837](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L172837)
 
 ___
+
 
 ### currency
 
@@ -146,6 +153,7 @@ USD
 
 ___
 
+
 ### data\_asin
 
 • `Optional` **data\_asin**: `string`
@@ -161,6 +169,7 @@ ASIN of the product received in a POST array
 [main.ts:172810](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L172810)
 
 ___
+
 
 ### description
 
@@ -178,6 +187,7 @@ contains description of the product
 
 ___
 
+
 ### details
 
 • `Optional` **details**: `string`
@@ -194,6 +204,7 @@ product specs and other details
 
 ___
 
+
 ### image\_url
 
 • `Optional` **image\_url**: `string`
@@ -209,6 +220,7 @@ the URL of the product image
 [main.ts:172806](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L172806)
 
 ___
+
 
 ### is\_amazon\_choice
 
@@ -227,6 +239,7 @@ if the value is true, the product is marked with the “Amazon’s choice” lab
 
 ___
 
+
 ### is\_available
 
 • `Optional` **is\_available**: `boolean`
@@ -244,6 +257,7 @@ if the value is true, the product can be ordered
 
 ___
 
+
 ### is\_newer\_model\_available
 
 • `Optional` **is\_newer\_model\_available**: `boolean`
@@ -259,6 +273,7 @@ indicates whether the newer model of the product is available
 [main.ts:172833](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L172833)
 
 ___
+
 
 ### newer\_model
 
@@ -276,6 +291,7 @@ information about the newer model of the product
 
 ___
 
+
 ### parent\_asin
 
 • `Optional` **parent\_asin**: `string`
@@ -291,6 +307,7 @@ parent ASIN of the product
 [main.ts:172812](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L172812)
 
 ___
+
 
 ### position
 
@@ -310,6 +327,7 @@ left, right
 
 ___
 
+
 ### price\_from
 
 • `Optional` **price\_from**: `number`
@@ -327,6 +345,7 @@ example:
 [main.ts:172818](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L172818)
 
 ___
+
 
 ### price\_to
 
@@ -346,6 +365,7 @@ example:
 
 ___
 
+
 ### product\_asins
 
 • `Optional` **product\_asins**: `string`[]
@@ -361,6 +381,7 @@ ASINs of all found product modifications
 [main.ts:172814](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L172814)
 
 ___
+
 
 ### product\_images\_list
 
@@ -378,6 +399,7 @@ contains URLs for all images of the product displayed on the left side of the ma
 
 ___
 
+
 ### product\_information
 
 • `Optional` **product\_information**: [`BaseProductInformationItem`](BaseProductInformationItem.md)[]
@@ -394,6 +416,7 @@ contains related product information
 
 ___
 
+
 ### product\_videos\_list
 
 • `Optional` **product\_videos\_list**: `string`[]
@@ -409,6 +432,7 @@ contains URLs for all videos of the product displayed on the right side of the m
 [main.ts:172843](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L172843)
 
 ___
+
 
 ### rank\_absolute
 
@@ -427,6 +451,7 @@ absolute position among all the elements in the response array
 
 ___
 
+
 ### rank\_group
 
 • `Optional` **rank\_group**: `number`
@@ -444,6 +469,7 @@ positions of elements with different type values are omitted from rank_group
 
 ___
 
+
 ### rating
 
 • `Optional` **rating**: [`RatingElement`](RatingElement.md)
@@ -460,6 +486,7 @@ product rating info
 
 ___
 
+
 ### title
 
 • `Optional` **title**: `string`
@@ -475,6 +502,7 @@ product title
 [main.ts:172802](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L172802)
 
 ___
+
 
 ### xpath
 
@@ -516,6 +544,7 @@ the XPath of the element
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -540,6 +569,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`AmazonAmazonProductInfoSerpElementItem`](AmazonAmazonProductInfoSerpElementItem.md)
@@ -561,3 +591,7 @@ ___
 #### Defined in
 
 [main.ts:172911](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L172911)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

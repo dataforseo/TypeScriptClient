@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / DataforseoLabsGoogleHistoricalRankOverviewLiveRequestInfo
 
 # Class: DataforseoLabsGoogleHistoricalRankOverviewLiveRequestInfo
@@ -77,6 +81,7 @@ we recommend always setting correlate to true
 
 ___
 
+
 ### date\_from
 
 • `Optional` **date\_from**: `string`
@@ -96,6 +101,7 @@ date format: "yyyy-mm-dd"
 [main.ts:96291](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L96291)
 
 ___
+
 
 ### date\_to
 
@@ -117,6 +123,7 @@ example:
 [main.ts:96298](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L96298)
 
 ___
+
 
 ### language\_code
 
@@ -140,6 +147,7 @@ en
 
 ___
 
+
 ### language\_name
 
 • `Optional` **language\_name**: `string`
@@ -161,6 +169,7 @@ English
 [main.ts:96277](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L96277)
 
 ___
+
 
 ### location\_code
 
@@ -184,6 +193,7 @@ example:
 
 ___
 
+
 ### location\_name
 
 • `Optional` **location\_name**: `string`
@@ -206,6 +216,7 @@ United Kingdom
 
 ___
 
+
 ### tag
 
 • `Optional` **tag**: `string`
@@ -225,6 +236,7 @@ you will find the specified tag value in the data object of the response
 [main.ts:96311](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L96311)
 
 ___
+
 
 ### target
 
@@ -265,6 +277,7 @@ the domain should be specified without https:// and www.
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -285,6 +298,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`DataforseoLabsGoogleHistoricalRankOverviewLiveRequestInfo`](DataforseoLabsGoogleHistoricalRankOverviewLiveRequestInfo.md)
@@ -302,3 +316,7 @@ ___
 #### Defined in
 
 [main.ts:96342](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L96342)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

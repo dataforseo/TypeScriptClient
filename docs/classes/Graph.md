@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / Graph
 
 # Class: Graph
@@ -66,6 +70,7 @@ if there are none, equals null
 
 ___
 
+
 ### previous\_items
 
 • `Optional` **previous\_items**: [`GraphElement`](GraphElement.md)[]
@@ -103,6 +108,7 @@ contains stock price data based on the preceding time period
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -123,6 +129,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`Graph`](Graph.md)
@@ -140,3 +147,7 @@ ___
 #### Defined in
 
 [main.ts:32442](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L32442)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

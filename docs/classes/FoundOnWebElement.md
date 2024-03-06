@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / FoundOnWebElement
 
 # Class: FoundOnWebElement
@@ -67,6 +71,7 @@ image of the element
 
 ___
 
+
 ### subtitle
 
 • `Optional` **subtitle**: `string`
@@ -83,6 +88,7 @@ subtitle of the element
 
 ___
 
+
 ### title
 
 • `Optional` **title**: `string`
@@ -98,6 +104,7 @@ title of the row
 [main.ts:34712](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L34712)
 
 ___
+
 
 ### type
 
@@ -135,6 +142,7 @@ type of element
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -155,6 +163,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`FoundOnWebElement`](FoundOnWebElement.md)
@@ -172,3 +181,7 @@ ___
 #### Defined in
 
 [main.ts:34742](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L34742)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

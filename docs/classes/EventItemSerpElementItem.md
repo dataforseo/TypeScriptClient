@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / EventItemSerpElementItem
 
 # Class: EventItemSerpElementItem
@@ -5,7 +9,7 @@
 ## Hierarchy
 
 - [`BaseSerpElementItem`](BaseSerpElementItem.md)
-
+  
   ↳ **`EventItemSerpElementItem`**
 
 ## Implements
@@ -83,6 +87,7 @@
 
 ___
 
+
 ### description
 
 • `Optional` **description**: `string`
@@ -98,6 +103,7 @@ description of the results element in SERP
 [main.ts:44683](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L44683)
 
 ___
+
 
 ### event\_dates
 
@@ -116,6 +122,7 @@ if there are none, equals null
 
 ___
 
+
 ### image\_url
 
 • `Optional` **image\_url**: `string`
@@ -131,6 +138,7 @@ URL of the image featured in the element
 [main.ts:44687](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L44687)
 
 ___
+
 
 ### information\_and\_tickets
 
@@ -149,6 +157,7 @@ if there is none, equals null
 
 ___
 
+
 ### location\_info
 
 • `Optional` **location\_info**: [`LocationInfo`](LocationInfo.md)
@@ -165,6 +174,7 @@ if there is none, equals null
 [main.ts:44693](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L44693)
 
 ___
+
 
 ### position
 
@@ -184,6 +194,7 @@ left, right
 
 ___
 
+
 ### rank\_absolute
 
 • `Optional` **rank\_absolute**: `number`
@@ -200,6 +211,7 @@ absolute position among all the elements in SERP
 [main.ts:44673](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L44673)
 
 ___
+
 
 ### rank\_group
 
@@ -219,6 +231,7 @@ positions of elements with different type values are omitted from rank_group
 
 ___
 
+
 ### title
 
 • `Optional` **title**: `string`
@@ -235,6 +248,7 @@ title of the result in SERP
 
 ___
 
+
 ### url
 
 • `Optional` **url**: `string`
@@ -250,6 +264,7 @@ relevant URL
 [main.ts:44685](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L44685)
 
 ___
+
 
 ### xpath
 
@@ -291,6 +306,7 @@ the XPath of the element
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -315,6 +331,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`EventItemSerpElementItem`](EventItemSerpElementItem.md)
@@ -336,3 +353,7 @@ ___
 #### Defined in
 
 [main.ts:44730](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L44730)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

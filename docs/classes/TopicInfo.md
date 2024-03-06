@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / TopicInfo
 
 # Class: TopicInfo
@@ -70,6 +74,7 @@ content author name
 
 ___
 
+
 ### h\_title
 
 • `Optional` **h\_title**: `string`
@@ -85,6 +90,7 @@ meta title
 [main.ts:152089](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L152089)
 
 ___
+
 
 ### language
 
@@ -102,6 +108,7 @@ content language
 
 ___
 
+
 ### level
 
 • `Optional` **level**: `string`
@@ -117,6 +124,7 @@ HTML level
 [main.ts:152097](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L152097)
 
 ___
+
 
 ### main\_title
 
@@ -134,6 +142,7 @@ main title of the block
 
 ___
 
+
 ### primary\_content
 
 • `Optional` **primary\_content**: [`ContentItemInfo`](ContentItemInfo.md)[]
@@ -150,6 +159,7 @@ you can find more information about content priority calculation in this help ce
 [main.ts:152100](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L152100)
 
 ___
+
 
 ### secondary\_content
 
@@ -188,6 +198,7 @@ you can find more information about content priority calculation in this help ce
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -208,6 +219,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`TopicInfo`](TopicInfo.md)
@@ -225,3 +237,7 @@ ___
 #### Defined in
 
 [main.ts:152140](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L152140)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

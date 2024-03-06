@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / DataforseoLabsGoogleBulkAppMetricsLiveRequestInfo
 
 # Class: DataforseoLabsGoogleBulkAppMetricsLiveRequestInfo
@@ -76,6 +80,7 @@ the maximum number of IDs you can specify in this field is 1000
 
 ___
 
+
 ### language\_code
 
 • `Optional` **language\_code**: `string`
@@ -98,6 +103,7 @@ en
 [main.ts:107829](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L107829)
 
 ___
+
 
 ### language\_name
 
@@ -122,6 +128,7 @@ English
 
 ___
 
+
 ### location\_code
 
 • `Optional` **location\_code**: `number`
@@ -145,6 +152,7 @@ example:
 
 ___
 
+
 ### location\_name
 
 • `Optional` **location\_name**: `string`
@@ -167,6 +175,7 @@ United States
 [main.ts:107802](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L107802)
 
 ___
+
 
 ### tag
 
@@ -208,6 +217,7 @@ you will find the specified tag value in the data object of the response
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -228,6 +238,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`DataforseoLabsGoogleBulkAppMetricsLiveRequestInfo`](DataforseoLabsGoogleBulkAppMetricsLiveRequestInfo.md)
@@ -245,3 +256,7 @@ ___
 #### Defined in
 
 [main.ts:107867](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L107867)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

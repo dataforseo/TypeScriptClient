@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / PopularTimes
 
 # Class: PopularTimes
@@ -89,6 +93,7 @@ information about busy hours of the local establishment on each day of the week
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -109,6 +114,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`PopularTimes`](PopularTimes.md)
@@ -126,3 +132,7 @@ ___
 #### Defined in
 
 [main.ts:188900](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L188900)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

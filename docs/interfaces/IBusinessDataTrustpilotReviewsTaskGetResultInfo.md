@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IBusinessDataTrustpilotReviewsTaskGetResultInfo
 
 # Interface: IBusinessDataTrustpilotReviewsTaskGetResultInfo
@@ -41,6 +45,7 @@ you can use it to make sure that we provided accurate results
 
 ___
 
+
 ### datetime
 
 • `Optional` **datetime**: `string`
@@ -56,6 +61,7 @@ example:
 
 ___
 
+
 ### domain
 
 • `Optional` **domain**: `string`
@@ -67,6 +73,7 @@ domain of the business entity
 [main.ts:200200](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L200200)
 
 ___
+
 
 ### items
 
@@ -81,6 +88,7 @@ you can get more results by using the depth parameter when setting a task
 
 ___
 
+
 ### items\_count
 
 • `Optional` **items\_count**: `number`
@@ -93,6 +101,7 @@ you can get more results by using the depth parameter when setting a task
 [main.ts:200226](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L200226)
 
 ___
+
 
 ### location
 
@@ -107,6 +116,7 @@ address of the business entity for which the reviews are collected
 
 ___
 
+
 ### rating
 
 • `Optional` **rating**: [`RatingInfo`](../classes/RatingInfo.md)
@@ -120,6 +130,7 @@ popularity rate based on reviews and displayed in SERP
 
 ___
 
+
 ### reviews\_count
 
 • `Optional` **reviews\_count**: `number`
@@ -132,6 +143,7 @@ the total number of reviews
 
 ___
 
+
 ### se\_domain
 
 • `Optional` **se\_domain**: `string`
@@ -143,6 +155,7 @@ search engine domain in a POST array
 [main.ts:200204](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L200204)
 
 ___
+
 
 ### title
 
@@ -157,6 +170,7 @@ the name of the business entity for which the reviews are collected
 
 ___
 
+
 ### type
 
 • `Optional` **type**: `string`
@@ -166,3 +180,7 @@ type of element
 #### Defined in
 
 [main.ts:200202](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L200202)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

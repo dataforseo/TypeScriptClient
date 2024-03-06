@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IAppendixKeywordsDataDaysRatesDataInfo
 
 # Interface: IAppendixKeywordsDataDaysRatesDataInfo
@@ -41,6 +45,7 @@
 
 ___
 
+
 ### bing
 
 • `Optional` **bing**: [`AppendixBingKeywordsDataLimitsRatesDataInfo`](../classes/AppendixBingKeywordsDataLimitsRatesDataInfo.md)
@@ -50,6 +55,7 @@ ___
 [main.ts:207004](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L207004)
 
 ___
+
 
 ### categories
 
@@ -61,6 +67,7 @@ ___
 
 ___
 
+
 ### errors
 
 • `Optional` **errors**: `number`
@@ -70,6 +77,7 @@ ___
 [main.ts:207003](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L207003)
 
 ___
+
 
 ### explore
 
@@ -81,6 +89,7 @@ ___
 
 ___
 
+
 ### google\_ads
 
 • `Optional` **google\_ads**: [`AppendixGoogleAdsKeywordsDataLimitsRatesDataInfo`](../classes/AppendixGoogleAdsKeywordsDataLimitsRatesDataInfo.md)
@@ -90,6 +99,7 @@ ___
 [main.ts:207007](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L207007)
 
 ___
+
 
 ### keyword\_performance
 
@@ -101,6 +111,7 @@ ___
 
 ___
 
+
 ### keywords\_for\_keywords
 
 • `Optional` **keywords\_for\_keywords**: [`AppendixInfo`](../classes/AppendixInfo.md)
@@ -110,6 +121,7 @@ ___
 [main.ts:206994](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L206994)
 
 ___
+
 
 ### keywords\_for\_site
 
@@ -121,6 +133,7 @@ ___
 
 ___
 
+
 ### languages
 
 • `Optional` **languages**: `number`
@@ -130,6 +143,7 @@ ___
 [main.ts:206998](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L206998)
 
 ___
+
 
 ### locations
 
@@ -141,6 +155,7 @@ ___
 
 ___
 
+
 ### search\_volume
 
 • `Optional` **search\_volume**: [`AppendixInfo`](../classes/AppendixInfo.md)
@@ -150,6 +165,7 @@ ___
 [main.ts:206996](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L206996)
 
 ___
+
 
 ### search\_volume\_history
 
@@ -161,6 +177,7 @@ ___
 
 ___
 
+
 ### tasks\_ready
 
 • `Optional` **tasks\_ready**: `number`
@@ -168,3 +185,7 @@ ___
 #### Defined in
 
 [main.ts:207000](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L207000)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

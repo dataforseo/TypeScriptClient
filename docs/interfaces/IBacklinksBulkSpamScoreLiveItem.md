@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IBacklinksBulkSpamScoreLiveItem
 
 # Interface: IBacklinksBulkSpamScoreLiveItem
@@ -33,6 +37,7 @@ learn more about how the metric is calculated
 
 ___
 
+
 ### target
 
 • `Optional` **target**: `string`
@@ -45,6 +50,7 @@ domain, subdomain or webpage from a POST array
 
 ___
 
+
 ### type
 
 • `Optional` **type**: `string`
@@ -54,3 +60,7 @@ type of element
 #### Defined in
 
 [main.ts:140133](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L140133)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

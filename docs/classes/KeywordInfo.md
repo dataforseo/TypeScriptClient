@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / KeywordInfo
 
 # Class: KeywordInfo
@@ -74,6 +78,7 @@ you can download the full list of possible categories
 
 ___
 
+
 ### competition
 
 • `Optional` **competition**: `number`
@@ -90,6 +95,7 @@ represents the relative amount of competition associated with the given keyword.
 [main.ts:78870](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L78870)
 
 ___
+
 
 ### competition\_level
 
@@ -111,6 +117,7 @@ learn more about the metric in this help center article
 
 ___
 
+
 ### cpc
 
 • `Optional` **cpc**: `number`
@@ -127,6 +134,7 @@ represents the average cost per click (USD) historically paid for the keyword
 [main.ts:78879](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L78879)
 
 ___
+
 
 ### high\_top\_of\_page\_bid
 
@@ -145,6 +153,7 @@ the value may differ depending on the location specified in a POST request
 [main.ts:78890](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L78890)
 
 ___
+
 
 ### last\_updated\_time
 
@@ -165,6 +174,7 @@ example:
 
 ___
 
+
 ### low\_top\_of\_page\_bid
 
 • `Optional` **low\_top\_of\_page\_bid**: `number`
@@ -183,6 +193,7 @@ the value may differ depending on the location specified in a POST request
 
 ___
 
+
 ### monthly\_searches
 
 • `Optional` **monthly\_searches**: [`MonthlySearches`](MonthlySearches.md)[]
@@ -200,6 +211,7 @@ represents the (approximate) number of searches on this keyword idea (as availab
 
 ___
 
+
 ### se\_type
 
 • `Optional` **se\_type**: `string`
@@ -215,6 +227,7 @@ search engine type
 [main.ts:78862](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L78862)
 
 ___
+
 
 ### search\_volume
 
@@ -253,6 +266,7 @@ represents the (approximate) number of searches for the given keyword idea on go
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -273,6 +287,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`KeywordInfo`](KeywordInfo.md)
@@ -290,3 +305,7 @@ ___
 #### Defined in
 
 [main.ts:78936](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L78936)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

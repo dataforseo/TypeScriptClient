@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / ReviewResponseItemInfo
 
 # Class: ReviewResponseItemInfo
@@ -66,6 +70,7 @@ the content of response
 
 ___
 
+
 ### timestamp
 
 • `Optional` **timestamp**: `string`
@@ -81,6 +86,7 @@ the time of publication
 [main.ts:20254](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L20254)
 
 ___
+
 
 ### title
 
@@ -118,6 +124,7 @@ the title of response
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -138,6 +145,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`ReviewResponseItemInfo`](ReviewResponseItemInfo.md)
@@ -155,3 +163,7 @@ ___
 #### Defined in
 
 [main.ts:20279](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L20279)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

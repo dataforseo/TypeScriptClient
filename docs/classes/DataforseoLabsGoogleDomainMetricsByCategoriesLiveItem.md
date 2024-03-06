@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / DataforseoLabsGoogleDomainMetricsByCategoriesLiveItem
 
 # Class: DataforseoLabsGoogleDomainMetricsByCategoriesLiveItem
@@ -73,6 +77,7 @@ domain found for the specified category
 
 ___
 
+
 ### main\_domain
 
 • `Optional` **main\_domain**: `string`
@@ -88,6 +93,7 @@ primary domain
 [main.ts:84640](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L84640)
 
 ___
+
 
 ### metrics\_difference
 
@@ -110,6 +116,7 @@ calculated by subtracting domain metrics as of the greater date from domain metr
 
 ___
 
+
 ### metrics\_history
 
 • `Optional` **metrics\_history**: `Object`
@@ -130,6 +137,7 @@ historical ranking and traffic data of the domain
 
 ___
 
+
 ### organic\_count
 
 • `Optional` **organic\_count**: `number`
@@ -146,6 +154,7 @@ current total count of organic SERPs that contain the domain
 
 ___
 
+
 ### organic\_etv
 
 • `Optional` **organic\_etv**: `number`
@@ -161,6 +170,7 @@ current organic ETV of the domain
 [main.ts:84628](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L84628)
 
 ___
+
 
 ### organic\_is\_lost
 
@@ -179,6 +189,7 @@ indicates how many ranked elements of the domain were previously presented in SE
 
 ___
 
+
 ### organic\_is\_new
 
 • `Optional` **organic\_is\_new**: `number`
@@ -196,6 +207,7 @@ indicates how many new ranked elements were found for the domain
 
 ___
 
+
 ### se\_type
 
 • `Optional` **se\_type**: `string`
@@ -211,6 +223,7 @@ search engine type
 [main.ts:84624](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L84624)
 
 ___
+
 
 ### top\_categories
 
@@ -248,6 +261,7 @@ categories for which domains are collected
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -268,6 +282,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`DataforseoLabsGoogleDomainMetricsByCategoriesLiveItem`](DataforseoLabsGoogleDomainMetricsByCategoriesLiveItem.md)
@@ -285,3 +300,7 @@ ___
 #### Defined in
 
 [main.ts:84693](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L84693)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

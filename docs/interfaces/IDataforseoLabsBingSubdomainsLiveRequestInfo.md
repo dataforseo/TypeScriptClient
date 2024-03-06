@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IDataforseoLabsBingSubdomainsLiveRequestInfo
 
 # Interface: IDataforseoLabsBingSubdomainsLiveRequestInfo
@@ -53,6 +57,7 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 ___
 
+
 ### historical\_serp\_mode
 
 • `Optional` **historical\_serp\_mode**: `string`
@@ -71,6 +76,7 @@ default value: live
 [main.ts:107528](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L107528)
 
 ___
+
 
 ### item\_types
 
@@ -91,6 +97,7 @@ default value:
 
 ___
 
+
 ### language\_code
 
 • `Optional` **language\_code**: `string`
@@ -109,6 +116,7 @@ en
 [main.ts:107510](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L107510)
 
 ___
+
 
 ### language\_name
 
@@ -129,6 +137,7 @@ English
 
 ___
 
+
 ### limit
 
 • `Optional` **limit**: `number`
@@ -143,6 +152,7 @@ maximum value: 1000
 [main.ts:107564](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L107564)
 
 ___
+
 
 ### location\_code
 
@@ -164,6 +174,7 @@ example:
 
 ___
 
+
 ### location\_name
 
 • `Optional` **location\_name**: `string`
@@ -184,6 +195,7 @@ United States
 
 ___
 
+
 ### offset
 
 • `Optional` **offset**: `number`
@@ -198,6 +210,7 @@ if you specify the 10 value, the first ten keywords in the results array will be
 [main.ts:107569](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L107569)
 
 ___
+
 
 ### order\_by
 
@@ -226,6 +239,7 @@ Note: if the item_types array contains item types that are different from organi
 
 ___
 
+
 ### tag
 
 • `Optional` **tag**: `string`
@@ -242,6 +256,7 @@ you will find the specified tag value in the data object of the response
 
 ___
 
+
 ### target
 
 • `Optional` **target**: `string`
@@ -254,3 +269,7 @@ the domain should be specified without https:// and www.
 #### Defined in
 
 [main.ts:107472](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L107472)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

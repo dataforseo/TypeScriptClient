@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / VideoSerpElementItem
 
 # Class: VideoSerpElementItem
@@ -5,7 +9,7 @@
 ## Hierarchy
 
 - [`BaseSerpElementItem`](BaseSerpElementItem.md)
-
+  
   ↳ **`VideoSerpElementItem`**
 
 ## Implements
@@ -78,6 +82,7 @@
 
 ___
 
+
 ### items
 
 • `Optional` **items**: [`VideoElement`](VideoElement.md)[]
@@ -93,6 +98,7 @@ contains results featured in the ‘hotels_pack’ element of SERP
 [main.ts:30193](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L30193)
 
 ___
+
 
 ### position
 
@@ -112,6 +118,7 @@ left, right
 
 ___
 
+
 ### rank\_absolute
 
 • `Optional` **rank\_absolute**: `number`
@@ -128,6 +135,7 @@ absolute position among all the elements in SERP
 [main.ts:30185](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L30185)
 
 ___
+
 
 ### rank\_group
 
@@ -147,6 +155,7 @@ positions of elements with different type values are omitted from rank_group
 
 ___
 
+
 ### rectangle
 
 • `Optional` **rectangle**: [`Rectangle`](Rectangle.md)
@@ -164,6 +173,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 [main.ts:30197](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L30197)
 
 ___
+
 
 ### xpath
 
@@ -205,6 +215,7 @@ the XPath of the element
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -229,6 +240,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`VideoSerpElementItem`](VideoSerpElementItem.md)
@@ -250,3 +262,7 @@ ___
 #### Defined in
 
 [main.ts:30226](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L30226)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

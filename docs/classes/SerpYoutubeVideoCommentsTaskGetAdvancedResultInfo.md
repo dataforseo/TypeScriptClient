@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / SerpYoutubeVideoCommentsTaskGetAdvancedResultInfo
 
 # Class: SerpYoutubeVideoCommentsTaskGetAdvancedResultInfo
@@ -76,6 +80,7 @@ you can use it to make sure that we provided accurate results
 
 ___
 
+
 ### comments\_count
 
 • `Optional` **comments\_count**: `number`
@@ -91,6 +96,7 @@ number of comments on the video
 [main.ts:61966](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L61966)
 
 ___
+
 
 ### datetime
 
@@ -111,6 +117,7 @@ example:
 
 ___
 
+
 ### item\_types
 
 • `Optional` **item\_types**: `string`[]
@@ -130,6 +137,7 @@ youtube_comment
 
 ___
 
+
 ### items
 
 • `Optional` **items**: [`BaseSerpElementItem`](BaseSerpElementItem.md)[]
@@ -145,6 +153,7 @@ elements of search results found in SERP
 [main.ts:61970](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L61970)
 
 ___
+
 
 ### items\_count
 
@@ -162,6 +171,7 @@ the number of results returned in the items array
 
 ___
 
+
 ### language\_code
 
 • `Optional` **language\_code**: `string`
@@ -177,6 +187,7 @@ language code in a POST array
 [main.ts:61946](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L61946)
 
 ___
+
 
 ### location\_code
 
@@ -194,6 +205,7 @@ location code in a POST array
 
 ___
 
+
 ### se\_domain
 
 • `Optional` **se\_domain**: `string`
@@ -209,6 +221,7 @@ search engine domain in a POST array
 [main.ts:61942](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L61942)
 
 ___
+
 
 ### spell
 
@@ -227,6 +240,7 @@ if the search engine provided results for a keyword that was corrected, we will 
 
 ___
 
+
 ### title
 
 • `Optional` **title**: `string`
@@ -242,6 +256,7 @@ title of the video
 [main.ts:61964](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L61964)
 
 ___
+
 
 ### video\_id
 
@@ -279,6 +294,7 @@ ID of the video received in a POST array
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -299,6 +315,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`SerpYoutubeVideoCommentsTaskGetAdvancedResultInfo`](SerpYoutubeVideoCommentsTaskGetAdvancedResultInfo.md)
@@ -316,3 +333,7 @@ ___
 #### Defined in
 
 [main.ts:62012](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L62012)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

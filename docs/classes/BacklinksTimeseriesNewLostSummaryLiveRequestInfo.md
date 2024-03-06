@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / BacklinksTimeseriesNewLostSummaryLiveRequestInfo
 
 # Class: BacklinksTimeseriesNewLostSummaryLiveRequestInfo
@@ -77,6 +81,7 @@ example:
 
 ___
 
+
 ### date\_to
 
 • `Optional` **date\_to**: `string`
@@ -99,6 +104,7 @@ example:
 [main.ts:138859](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L138859)
 
 ___
+
 
 ### group\_range
 
@@ -127,6 +133,7 @@ if there is no data for a certain  day/week/month/year, we will return 0
 
 ___
 
+
 ### tag
 
 • `Optional` **tag**: `string`
@@ -146,6 +153,7 @@ you will find the specified tag value in the data object of the response
 [main.ts:138878](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L138878)
 
 ___
+
 
 ### target
 
@@ -187,6 +195,7 @@ example:
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -207,6 +216,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`BacklinksTimeseriesNewLostSummaryLiveRequestInfo`](BacklinksTimeseriesNewLostSummaryLiveRequestInfo.md)
@@ -224,3 +234,7 @@ ___
 #### Defined in
 
 [main.ts:138905](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L138905)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

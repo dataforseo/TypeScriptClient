@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / BacklinksTimeseriesSummaryLiveItem
 
 # Class: BacklinksTimeseriesSummaryLiveItem
@@ -75,6 +79,7 @@ number of backlinks for the given date
 
 ___
 
+
 ### backlinks\_nofollow
 
 • `Optional` **backlinks\_nofollow**: `number`
@@ -90,6 +95,7 @@ number of nofollow backlinks for the given date
 [main.ts:138509](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L138509)
 
 ___
+
 
 ### date
 
@@ -110,6 +116,7 @@ example:
 
 ___
 
+
 ### rank
 
 • `Optional` **rank**: `number`
@@ -126,6 +133,7 @@ learn more about the metric and how it is calculated in this help center article
 [main.ts:138505](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L138505)
 
 ___
+
 
 ### referring\_domains
 
@@ -144,6 +152,7 @@ referring domains include subdomains that are counted as separate domains for th
 
 ___
 
+
 ### referring\_domains\_nofollow
 
 • `Optional` **referring\_domains\_nofollow**: `number`
@@ -159,6 +168,7 @@ number of domains pointing at least one nofollow link to the target for the give
 [main.ts:138516](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L138516)
 
 ___
+
 
 ### referring\_ips
 
@@ -177,6 +187,7 @@ number of IP addresses pointing to this page
 
 ___
 
+
 ### referring\_main\_domains
 
 • `Optional` **referring\_main\_domains**: `number`
@@ -192,6 +203,7 @@ number of referring main domains for the given date
 [main.ts:138518](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L138518)
 
 ___
+
 
 ### referring\_main\_domains\_nofollow
 
@@ -209,6 +221,7 @@ number of main domains pointing at least one nofollow link to the target for the
 
 ___
 
+
 ### referring\_pages
 
 • `Optional` **referring\_pages**: `number`
@@ -225,6 +238,7 @@ number of pages pointing to target for the given date
 
 ___
 
+
 ### referring\_subnets
 
 • `Optional` **referring\_subnets**: `number`
@@ -240,6 +254,7 @@ number of referring subnetworks for the given date
 [main.ts:138525](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L138525)
 
 ___
+
 
 ### type
 
@@ -277,6 +292,7 @@ type of element
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -297,6 +313,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`BacklinksTimeseriesSummaryLiveItem`](BacklinksTimeseriesSummaryLiveItem.md)
@@ -314,3 +331,7 @@ ___
 #### Defined in
 
 [main.ts:138559](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L138559)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

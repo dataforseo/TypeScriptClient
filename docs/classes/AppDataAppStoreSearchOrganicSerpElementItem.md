@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / AppDataAppStoreSearchOrganicSerpElementItem
 
 # Class: AppDataAppStoreSearchOrganicSerpElementItem
@@ -5,7 +9,7 @@
 ## Hierarchy
 
 - [`BaseAppDataSerpElementItem`](BaseAppDataSerpElementItem.md)
-
+  
   ↳ **`AppDataAppStoreSearchOrganicSerpElementItem`**
 
 ## Implements
@@ -83,6 +87,7 @@
 
 ___
 
+
 ### app\_id
 
 • `Optional` **app\_id**: `string`
@@ -98,6 +103,7 @@ id of the app
 [main.ts:110796](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L110796)
 
 ___
+
 
 ### icon
 
@@ -115,6 +121,7 @@ URL to the app icon
 
 ___
 
+
 ### is\_free
 
 • `Optional` **is\_free**: `boolean`
@@ -130,6 +137,7 @@ indicates whether the app is free
 [main.ts:110808](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L110808)
 
 ___
+
 
 ### position
 
@@ -149,6 +157,7 @@ left, right
 
 ___
 
+
 ### price
 
 • `Optional` **price**: [`PriceInfo`](PriceInfo.md)
@@ -164,6 +173,7 @@ price of the app
 [main.ts:110810](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L110810)
 
 ___
+
 
 ### rank\_absolute
 
@@ -182,6 +192,7 @@ absolute position among all the elements in SERP
 
 ___
 
+
 ### rank\_group
 
 • `Optional` **rank\_group**: `number`
@@ -199,6 +210,7 @@ positions of elements with different type values are omitted from rank_group
 
 ___
 
+
 ### rating
 
 • `Optional` **rating**: [`RatingInfo`](RatingInfo.md)
@@ -214,6 +226,7 @@ average rating of the app
 [main.ts:110806](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L110806)
 
 ___
+
 
 ### reviews\_count
 
@@ -231,6 +244,7 @@ the total number of reviews of the app
 
 ___
 
+
 ### title
 
 • `Optional` **title**: `string`
@@ -246,6 +260,7 @@ title of the app
 [main.ts:110798](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L110798)
 
 ___
+
 
 ### url
 
@@ -287,6 +302,7 @@ URL to the app page on App Store
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -311,6 +327,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`AppDataAppStoreSearchOrganicSerpElementItem`](AppDataAppStoreSearchOrganicSerpElementItem.md)
@@ -332,3 +349,7 @@ ___
 #### Defined in
 
 [main.ts:110840](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L110840)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

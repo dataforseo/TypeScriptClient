@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / AppendixGoogleBusinessDataPriceData
 
 # Class: AppendixGoogleBusinessDataPriceData
@@ -66,6 +70,7 @@
 
 ___
 
+
 ### hotel\_searches
 
 • `Optional` **hotel\_searches**: [`AppendixGoogleBusinessDataPriceDataInfo`](AppendixGoogleBusinessDataPriceDataInfo.md)
@@ -79,6 +84,7 @@ ___
 [main.ts:211176](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L211176)
 
 ___
+
 
 ### my\_business\_info
 
@@ -94,6 +100,7 @@ ___
 
 ___
 
+
 ### my\_business\_updates
 
 • `Optional` **my\_business\_updates**: [`AppendixGoogleBusinessDataPriceDataInfo`](AppendixGoogleBusinessDataPriceDataInfo.md)
@@ -107,6 +114,7 @@ ___
 [main.ts:211178](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L211178)
 
 ___
+
 
 ### reviews
 
@@ -142,6 +150,7 @@ ___
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -162,6 +171,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`AppendixGoogleBusinessDataPriceData`](AppendixGoogleBusinessDataPriceData.md)
@@ -179,3 +189,7 @@ ___
 #### Defined in
 
 [main.ts:211206](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L211206)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

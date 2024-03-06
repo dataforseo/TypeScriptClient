@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IAppDataAppStoreReviewsSearchSerpElementItem
 
 # Interface: IAppDataAppStoreReviewsSearchSerpElementItem
@@ -5,7 +9,7 @@
 ## Hierarchy
 
 - [`IBaseAppDataSerpElementItem`](IBaseAppDataSerpElementItem.md)
-
+  
   ↳ **`IAppDataAppStoreReviewsSearchSerpElementItem`**
 
 ## Implemented by
@@ -45,6 +49,7 @@ id of the review
 
 ___
 
+
 ### position
 
 • `Optional` **position**: `string`
@@ -57,6 +62,7 @@ can take the following values: left
 [main.ts:186293](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L186293)
 
 ___
+
 
 ### rank\_absolute
 
@@ -71,6 +77,7 @@ absolute position among all reviews on the list
 
 ___
 
+
 ### rank\_group
 
 • `Optional` **rank\_group**: `number`
@@ -84,6 +91,7 @@ positions of elements with different type values are omitted from rank_group
 
 ___
 
+
 ### rating
 
 • `Optional` **rating**: [`RatingInfo`](../classes/RatingInfo.md)
@@ -96,6 +104,7 @@ the rating score submitted by the reviewer
 
 ___
 
+
 ### review\_text
 
 • `Optional` **review\_text**: `string`
@@ -107,6 +116,7 @@ content of the review
 [main.ts:186309](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L186309)
 
 ___
+
 
 ### timestamp
 
@@ -123,6 +133,7 @@ example:
 
 ___
 
+
 ### title
 
 • `Optional` **title**: `string`
@@ -134,6 +145,7 @@ title of the review
 [main.ts:186307](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L186307)
 
 ___
+
 
 ### user\_profile
 
@@ -147,6 +159,7 @@ user profile of the reviewer
 
 ___
 
+
 ### version
 
 • `Optional` **version**: `string`
@@ -157,3 +170,7 @@ version of the app for which the review is submitted
 #### Defined in
 
 [main.ts:186296](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L186296)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

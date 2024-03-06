@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IBusinessDataTrustpilotSearchTaskGetResultInfo
 
 # Interface: IBusinessDataTrustpilotSearchTaskGetResultInfo
@@ -36,6 +40,7 @@ you can use it to make sure that we provided accurate results
 
 ___
 
+
 ### datetime
 
 • `Optional` **datetime**: `string`
@@ -51,6 +56,7 @@ example:
 
 ___
 
+
 ### items
 
 • `Optional` **items**: [`BaseBusinessDataSerpElementItem`](../classes/BaseBusinessDataSerpElementItem.md)[]
@@ -63,6 +69,7 @@ you can get more results by using the depth parameter when setting a task
 [main.ts:199293](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L199293)
 
 ___
+
 
 ### items\_count
 
@@ -77,6 +84,7 @@ you can get more results by using the depth parameter when setting a task
 
 ___
 
+
 ### keyword
 
 • `Optional` **keyword**: `string`
@@ -89,6 +97,7 @@ keyword in a POST array
 
 ___
 
+
 ### se\_domain
 
 • `Optional` **se\_domain**: `string`
@@ -98,3 +107,7 @@ search engine domain in a POST array
 #### Defined in
 
 [main.ts:199279](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L199279)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / DataforseoLabsAmazonProductCompetitorsLiveRequestInfo
 
 # Class: DataforseoLabsAmazonProductCompetitorsLiveRequestInfo
@@ -76,6 +80,7 @@ you can receive the asin parameter by making a separate request to the Amazon Pr
 
 ___
 
+
 ### filters
 
 • `Optional` **filters**: `any`[]
@@ -101,6 +106,7 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 ___
 
+
 ### language\_code
 
 • `Optional` **language\_code**: `string`
@@ -121,6 +127,7 @@ en
 [main.ts:101007](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L101007)
 
 ___
+
 
 ### language\_name
 
@@ -143,6 +150,7 @@ English
 
 ___
 
+
 ### limit
 
 • `Optional` **limit**: `number`
@@ -161,6 +169,7 @@ maximum value: 1000
 [main.ts:101012](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L101012)
 
 ___
+
 
 ### location\_code
 
@@ -184,6 +193,7 @@ example:
 
 ___
 
+
 ### location\_name
 
 • `Optional` **location\_name**: `string`
@@ -206,6 +216,7 @@ United States
 
 ___
 
+
 ### offset
 
 • `Optional` **offset**: `number`
@@ -224,6 +235,7 @@ if you specify the 10 value, the first ten product competitors in the results ar
 [main.ts:101044](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L101044)
 
 ___
+
 
 ### order\_by
 
@@ -254,6 +266,7 @@ default rule:
 [main.ts:101039](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L101039)
 
 ___
+
 
 ### tag
 
@@ -295,6 +308,7 @@ you will find the specified tag value in the data object of the response
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -315,6 +329,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`DataforseoLabsAmazonProductCompetitorsLiveRequestInfo`](DataforseoLabsAmazonProductCompetitorsLiveRequestInfo.md)
@@ -332,3 +347,7 @@ ___
 #### Defined in
 
 [main.ts:101090](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L101090)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

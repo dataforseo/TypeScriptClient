@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / DataforseoLabsGoogleHistoricalRankOverviewLiveItem
 
 # Class: DataforseoLabsGoogleHistoricalRankOverviewLiveItem
@@ -71,6 +75,7 @@ ranking data relevant to the specified domain
 
 ___
 
+
 ### month
 
 • `Optional` **month**: `number`
@@ -87,6 +92,7 @@ month for which the data is provided
 
 ___
 
+
 ### se\_type
 
 • `Optional` **se\_type**: `string`
@@ -102,6 +108,7 @@ search engine type
 [main.ts:96438](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L96438)
 
 ___
+
 
 ### year
 
@@ -139,6 +146,7 @@ year for which the data is provided
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -159,6 +167,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`DataforseoLabsGoogleHistoricalRankOverviewLiveItem`](DataforseoLabsGoogleHistoricalRankOverviewLiveItem.md)
@@ -176,3 +185,7 @@ ___
 #### Defined in
 
 [main.ts:96476](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L96476)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

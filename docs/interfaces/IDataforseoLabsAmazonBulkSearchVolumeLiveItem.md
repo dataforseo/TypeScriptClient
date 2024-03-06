@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IDataforseoLabsAmazonBulkSearchVolumeLiveItem
 
 # Interface: IDataforseoLabsAmazonBulkSearchVolumeLiveItem
@@ -32,6 +36,7 @@ keyword in a POST array
 
 ___
 
+
 ### se\_type
 
 • `Optional` **se\_type**: `string`
@@ -44,6 +49,7 @@ search engine type
 
 ___
 
+
 ### search\_volume
 
 • `Optional` **search\_volume**: `number`
@@ -54,3 +60,7 @@ represents the (approximate) number of searches for the returned keyword on Amaz
 #### Defined in
 
 [main.ts:98857](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L98857)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

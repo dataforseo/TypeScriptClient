@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / ContentAnalysisCategoryTrendsLiveResultInfo
 
 # Class: ContentAnalysisCategoryTrendsLiveResultInfo
@@ -81,6 +85,7 @@ possible connotation types: "positive", "negative", "neutral"
 
 ___
 
+
 ### countries
 
 • `Optional` **countries**: `Object`
@@ -103,6 +108,7 @@ to obtain a full list of available countries, refer to the Locations endpoint
 
 ___
 
+
 ### date
 
 • `Optional` **date**: `string`
@@ -118,6 +124,7 @@ date for which the data is provided
 [main.ts:159407](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L159407)
 
 ___
+
 
 ### languages
 
@@ -141,6 +148,7 @@ to obtain a full list of available languages, refer to the Languages endpoint
 
 ___
 
+
 ### page\_categories
 
 • `Optional` **page\_categories**: [`ContentAnalysisCategoriesInfo`](ContentAnalysisCategoriesInfo.md)[]
@@ -158,6 +166,7 @@ to obtain a full list of available categories, refer to the Categories endpoint
 [main.ts:159431](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L159431)
 
 ___
+
 
 ### page\_types
 
@@ -180,6 +189,7 @@ contains page types and citation count per each page type
 
 ___
 
+
 ### rank
 
 • `Optional` **rank**: `number`
@@ -196,6 +206,7 @@ normalized sum of ranks of all URLs citing the target keyword for the given date
 [main.ts:159412](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L159412)
 
 ___
+
 
 ### sentiment\_connotations
 
@@ -219,6 +230,7 @@ possible connotations: "anger", "fear", "happiness", "love", "sadness", "share",
 
 ___
 
+
 ### text\_categories
 
 • `Optional` **text\_categories**: [`ContentAnalysisCategoriesInfo`](ContentAnalysisCategoriesInfo.md)[]
@@ -237,6 +249,7 @@ to obtain a full list of available categories, refer to the Categories endpoint
 
 ___
 
+
 ### top\_domains
 
 • `Optional` **top\_domains**: [`TopDomainInfo`](TopDomainInfo.md)[]
@@ -254,6 +267,7 @@ contains objects with top domains citing the target category and citation count 
 
 ___
 
+
 ### total\_count
 
 • `Optional` **total\_count**: `number`
@@ -269,6 +283,7 @@ total number of results in our database relevant to your request
 [main.ts:159409](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L159409)
 
 ___
+
 
 ### type
 
@@ -306,6 +321,7 @@ type of element
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -326,6 +342,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`ContentAnalysisCategoryTrendsLiveResultInfo`](ContentAnalysisCategoryTrendsLiveResultInfo.md)
@@ -343,3 +360,7 @@ ___
 #### Defined in
 
 [main.ts:159518](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L159518)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

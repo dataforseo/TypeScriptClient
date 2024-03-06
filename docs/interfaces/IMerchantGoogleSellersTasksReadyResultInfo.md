@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IMerchantGoogleSellersTasksReadyResultInfo
 
 # Interface: IMerchantGoogleSellersTasksReadyResultInfo
@@ -36,6 +40,7 @@ date when the task was posted (in the UTC format)
 
 ___
 
+
 ### endpoint\_advanced
 
 • `Optional` **endpoint\_advanced**: `string`
@@ -48,6 +53,7 @@ URL for collecting the results of Google Shopping Sellers Advanced task
 
 ___
 
+
 ### endpoint\_html
 
 • `Optional` **endpoint\_html**: `string`
@@ -59,6 +65,7 @@ URL for collecting the results of Google Shopping Sellers HTML task
 [main.ts:166326](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L166326)
 
 ___
+
 
 ### id
 
@@ -73,6 +80,7 @@ unique task identifier in our system in the UUID format
 
 ___
 
+
 ### se
 
 • `Optional` **se**: `string`
@@ -84,6 +92,7 @@ search engine specified when setting the task
 [main.ts:166315](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L166315)
 
 ___
+
 
 ### se\_type
 
@@ -98,6 +107,7 @@ can take the following values: shopping
 
 ___
 
+
 ### tag
 
 • `Optional` **tag**: `string`
@@ -107,3 +117,7 @@ user-defined task identifier
 #### Defined in
 
 [main.ts:166322](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L166322)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IDatasetSerpElementItem
 
 # Interface: IDatasetSerpElementItem
@@ -5,7 +9,7 @@
 ## Hierarchy
 
 - [`IBaseSerpElementItem`](IBaseSerpElementItem.md)
-
+  
   ↳ **`IDatasetSerpElementItem`**
 
 ## Implemented by
@@ -56,6 +60,7 @@ for example: Africa, Global
 
 ___
 
+
 ### authors
 
 • `Optional` **authors**: [`AuthorsElement`](../classes/AuthorsElement.md)[]
@@ -67,6 +72,7 @@ the list of authors of the dataset
 [main.ts:51059](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L51059)
 
 ___
+
 
 ### dataset\_description
 
@@ -80,6 +86,7 @@ description of the dataset
 
 ___
 
+
 ### dataset\_id
 
 • `Optional` **dataset\_id**: `string`
@@ -91,6 +98,7 @@ ID of the dataset
 [main.ts:51031](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L51031)
 
 ___
+
 
 ### dataset\_providers
 
@@ -104,6 +112,7 @@ the list of institutions that provided the dataset
 
 ___
 
+
 ### formats
 
 • `Optional` **formats**: [`FormatsElement`](../classes/FormatsElement.md)[]
@@ -115,6 +124,7 @@ the list of file formats of the dataset
 [main.ts:51057](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L51057)
 
 ___
+
 
 ### image\_url
 
@@ -129,6 +139,7 @@ the URL leading to the image on the original resource or DataForSEO storage (in 
 
 ___
 
+
 ### licenses
 
 • `Optional` **licenses**: [`LicensesElement`](../classes/LicensesElement.md)[]
@@ -140,6 +151,7 @@ the list of licenses issued to the dataset
 [main.ts:51061](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L51061)
 
 ___
+
 
 ### links
 
@@ -155,6 +167,7 @@ if there are none, equals null
 
 ___
 
+
 ### period\_covered
 
 • `Optional` **period\_covered**: [`PeriodCovered`](../classes/PeriodCovered.md)
@@ -166,6 +179,7 @@ period covered in the dataset
 [main.ts:51071](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L51071)
 
 ___
+
 
 ### position
 
@@ -181,6 +195,7 @@ left, right
 
 ___
 
+
 ### rank\_absolute
 
 • `Optional` **rank\_absolute**: `number`
@@ -193,6 +208,7 @@ absolute position among all the elements in SERP
 [main.ts:51023](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L51023)
 
 ___
+
 
 ### rank\_group
 
@@ -208,6 +224,7 @@ positions of elements with different type values are omitted from rank_group
 
 ___
 
+
 ### related\_article
 
 • `Optional` **related\_article**: `string`
@@ -220,6 +237,7 @@ link to the published article that is related to the dataset
 [main.ts:51049](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L51049)
 
 ___
+
 
 ### scholarly\_articles\_url
 
@@ -235,6 +253,7 @@ example: https://scholar.google.com/scholar?q=%2210.6084%20m9%20figshare%2074279
 
 ___
 
+
 ### scholarly\_citations\_count
 
 • `Optional` **scholarly\_citations\_count**: `number`
@@ -247,6 +266,7 @@ count of articles that refer to the dataset
 
 ___
 
+
 ### title
 
 • `Optional` **title**: `string`
@@ -258,6 +278,7 @@ title of the result in SERP
 [main.ts:51033](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L51033)
 
 ___
+
 
 ### unique\_identifier
 
@@ -272,6 +293,7 @@ example: https://doi.org/10.5061/dryad.hmgqnk9m3
 [main.ts:51046](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L51046)
 
 ___
+
 
 ### updated\_date
 
@@ -288,6 +310,7 @@ example:
 
 ___
 
+
 ### xpath
 
 • `Optional` **xpath**: `string`
@@ -297,3 +320,7 @@ the XPath of the element
 #### Defined in
 
 [main.ts:51029](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L51029)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

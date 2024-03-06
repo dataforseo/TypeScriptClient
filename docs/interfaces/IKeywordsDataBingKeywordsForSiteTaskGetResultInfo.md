@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IKeywordsDataBingKeywordsForSiteTaskGetResultInfo
 
 # Interface: IKeywordsDataBingKeywordsForSiteTaskGetResultInfo
@@ -40,13 +44,14 @@ legacy field, the value will always be null
 
 ___
 
+
 ### competition
 
 • `Optional` **competition**: `number`
 
 competition
 represents the relative amount of competition associated with the given keyword in paid SERP only. This value is based on Bing Ads data.
-Possible values: 0.1, 0.5,0.9 
+Possible values: 0.1, 0.5,0.9
 0.1 – low competition,
 0.5 – medium competition,
 0.9 – high competition;
@@ -57,6 +62,7 @@ if there is no data the value is null
 [main.ts:124332](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L124332)
 
 ___
+
 
 ### cpc
 
@@ -72,6 +78,7 @@ if there is no data the value is null
 
 ___
 
+
 ### device
 
 • `Optional` **device**: `string`
@@ -85,6 +92,7 @@ if there is no data, then the value is null
 
 ___
 
+
 ### keyword
 
 • `Optional` **keyword**: `string`
@@ -96,6 +104,7 @@ keyword in a POST array
 [main.ts:124313](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L124313)
 
 ___
+
 
 ### language\_code
 
@@ -110,6 +119,7 @@ if there is no data the value is null
 
 ___
 
+
 ### location\_code
 
 • `Optional` **location\_code**: `number`
@@ -122,6 +132,7 @@ if there is no data the value is null
 [main.ts:124316](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L124316)
 
 ___
+
 
 ### monthly\_searches
 
@@ -138,6 +149,7 @@ if there is no data the value is null
 
 ___
 
+
 ### search\_partners
 
 • `Optional` **search\_partners**: `boolean`
@@ -150,6 +162,7 @@ indicates whether data from partner networks included in the response
 
 ___
 
+
 ### search\_volume
 
 • `Optional` **search\_volume**: `number`
@@ -161,3 +174,7 @@ if there is no data then the value is null
 #### Defined in
 
 [main.ts:124340](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L124340)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

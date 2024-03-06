@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / JobsDataforseoLabsSerpElementItem
 
 # Class: JobsDataforseoLabsSerpElementItem
@@ -5,7 +9,7 @@
 ## Hierarchy
 
 - [`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md)
-
+  
   ↳ **`JobsDataforseoLabsSerpElementItem`**
 
 ## Implements
@@ -79,6 +83,7 @@
 
 ___
 
+
 ### items
 
 • `Optional` **items**: [`JobsElement`](JobsElement.md)[]
@@ -94,6 +99,7 @@ elements of search results found in SERP
 [main.ts:94779](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L94779)
 
 ___
+
 
 ### position
 
@@ -113,6 +119,7 @@ left, right
 
 ___
 
+
 ### rank\_absolute
 
 • `Optional` **rank\_absolute**: `number`
@@ -129,6 +136,7 @@ absolute position among all the elements in SERP
 [main.ts:94767](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L94767)
 
 ___
+
 
 ### rank\_group
 
@@ -147,6 +155,7 @@ positions of elements with different type values are omitted from rank_group
 
 ___
 
+
 ### title
 
 • `Optional` **title**: `string`
@@ -163,6 +172,7 @@ title of the result in SERP
 
 ___
 
+
 ### url
 
 • `Optional` **url**: `string`
@@ -178,6 +188,7 @@ URL link
 [main.ts:94777](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L94777)
 
 ___
+
 
 ### xpath
 
@@ -219,6 +230,7 @@ the XPath of the element
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -243,6 +255,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`JobsDataforseoLabsSerpElementItem`](JobsDataforseoLabsSerpElementItem.md)
@@ -264,3 +277,7 @@ ___
 #### Defined in
 
 [main.ts:94809](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L94809)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

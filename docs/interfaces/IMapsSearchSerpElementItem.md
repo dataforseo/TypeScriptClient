@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IMapsSearchSerpElementItem
 
 # Interface: IMapsSearchSerpElementItem
@@ -5,7 +9,7 @@
 ## Hierarchy
 
 - [`IBaseSerpElementItem`](IBaseSerpElementItem.md)
-
+  
   ↳ **`IMapsSearchSerpElementItem`**
 
 ## Implemented by
@@ -64,6 +68,7 @@ additional Google My Business categories that describe the services provided by 
 
 ___
 
+
 ### address
 
 • `Optional` **address**: `string`
@@ -77,6 +82,7 @@ address of the local establishment featured in the element
 
 ___
 
+
 ### address\_info
 
 • `Optional` **address\_info**: [`AddressInfo`](../classes/AddressInfo.md)
@@ -88,6 +94,7 @@ object containing address components of the local establishment
 [main.ts:38660](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L38660)
 
 ___
+
 
 ### category
 
@@ -102,6 +109,7 @@ Google My Business general category that best describes the services provided by
 
 ___
 
+
 ### category\_ids
 
 • `Optional` **category\_ids**: `string`[]
@@ -114,6 +122,7 @@ universal category IDs that do not change based on the selected country
 [main.ts:38679](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L38679)
 
 ___
+
 
 ### cid
 
@@ -129,6 +138,7 @@ can be used with Google Reviews API to get a full list of reviews
 
 ___
 
+
 ### contact\_url
 
 • `Optional` **contact\_url**: `string`
@@ -140,6 +150,7 @@ URL of the preferred contact page
 [main.ts:38638](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L38638)
 
 ___
+
 
 ### domain
 
@@ -153,6 +164,7 @@ domain in the SERP element
 
 ___
 
+
 ### feature\_id
 
 • `Optional` **feature\_id**: `string`
@@ -164,6 +176,7 @@ the unique identifier of the element in SERP
 [main.ts:38684](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L38684)
 
 ___
+
 
 ### hotel\_rating
 
@@ -179,6 +192,7 @@ if there is no hotel class rating information, the value will be null
 
 ___
 
+
 ### is\_claimed
 
 • `Optional` **is\_claimed**: `boolean`
@@ -191,6 +205,7 @@ indicates whether ownership of this local establishment is claimed
 
 ___
 
+
 ### is\_directory\_item
 
 • `Optional` **is\_directory\_item**: `boolean`
@@ -202,6 +217,7 @@ indicates whether this local establishment is a directory
 [main.ts:38703](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L38703)
 
 ___
+
 
 ### latitude
 
@@ -217,6 +233,7 @@ example:
 
 ___
 
+
 ### local\_justifications
 
 • `Optional` **local\_justifications**: [`LocalJustificationInfo`](../classes/LocalJustificationInfo.md)[]
@@ -229,6 +246,7 @@ snippets of text that “justify” why the business is showing up for search qu
 [main.ts:38701](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L38701)
 
 ___
+
 
 ### longitude
 
@@ -244,6 +262,7 @@ example:
 
 ___
 
+
 ### main\_image
 
 • `Optional` **main\_image**: `string`
@@ -255,6 +274,7 @@ URL of the main image featured in Google My Business profile
 [main.ts:38668](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L38668)
 
 ___
+
 
 ### phone
 
@@ -269,6 +289,7 @@ phone number of the local establishment featured in the element
 
 ___
 
+
 ### place\_id
 
 • `Optional` **place\_id**: `string`
@@ -281,6 +302,7 @@ place id of the local establishment featured in the element
 [main.ts:38663](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L38663)
 
 ___
+
 
 ### price\_level
 
@@ -296,6 +318,7 @@ if there is no price level information, the value will be null
 
 ___
 
+
 ### rank\_absolute
 
 • `Optional` **rank\_absolute**: `number`
@@ -308,6 +331,7 @@ absolute position among all the elements in SERP
 [main.ts:38630](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L38630)
 
 ___
+
 
 ### rank\_group
 
@@ -323,11 +347,12 @@ positions of elements with different type values are omitted from rank_group
 
 ___
 
+
 ### rating
 
 • `Optional` **rating**: [`RatingInfo`](../classes/RatingInfo.md)
 
-the element’s rating 
+the element’s rating
 the popularity rate based on reviews and displayed in SERP
 
 #### Defined in
@@ -335,6 +360,7 @@ the popularity rate based on reviews and displayed in SERP
 [main.ts:38641](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L38641)
 
 ___
+
 
 ### rating\_distribution
 
@@ -353,6 +379,7 @@ the object displays the number of 1-star to 5-star ratings, as reviewed by users
 
 ___
 
+
 ### snippet
 
 • `Optional` **snippet**: `string`
@@ -366,6 +393,7 @@ contains the address and other information about the local establishment feature
 
 ___
 
+
 ### title
 
 • `Optional` **title**: `string`
@@ -377,6 +405,7 @@ title of the result in SERP
 [main.ts:38634](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L38634)
 
 ___
+
 
 ### total\_photos
 
@@ -390,6 +419,7 @@ total count of images featured in Google My Business profile
 
 ___
 
+
 ### url
 
 • `Optional` **url**: `string`
@@ -402,6 +432,7 @@ relevant URL in SERP
 
 ___
 
+
 ### work\_hours
 
 • `Optional` **work\_hours**: [`WorkHours`](../classes/WorkHours.md)
@@ -412,3 +443,7 @@ information about work hours of the local establishment
 #### Defined in
 
 [main.ts:38682](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L38682)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

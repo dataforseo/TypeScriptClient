@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IDataforseoLabsBingDomainRankOverviewLiveResultInfo
 
 # Interface: IDataforseoLabsBingDomainRankOverviewLiveResultInfo
@@ -36,6 +40,7 @@ contains ranking and traffic data
 
 ___
 
+
 ### items\_count
 
 • `Optional` **items\_count**: `number`
@@ -47,6 +52,7 @@ the number of results returned in the items array
 [main.ts:104187](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L104187)
 
 ___
+
 
 ### language\_code
 
@@ -60,6 +66,7 @@ language code in a POST array
 
 ___
 
+
 ### location\_code
 
 • `Optional` **location\_code**: `number`
@@ -71,6 +78,7 @@ location code in a POST array
 [main.ts:104181](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L104181)
 
 ___
+
 
 ### se\_type
 
@@ -84,6 +92,7 @@ search engine type
 
 ___
 
+
 ### target
 
 • `Optional` **target**: `string`
@@ -96,6 +105,7 @@ target domain in a POST array
 
 ___
 
+
 ### total\_count
 
 • `Optional` **total\_count**: `number`
@@ -105,3 +115,7 @@ total amount of results in our database relevant to your request
 #### Defined in
 
 [main.ts:104185](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L104185)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

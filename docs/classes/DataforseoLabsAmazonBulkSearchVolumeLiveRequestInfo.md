@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / DataforseoLabsAmazonBulkSearchVolumeLiveRequestInfo
 
 # Class: DataforseoLabsAmazonBulkSearchVolumeLiveRequestInfo
@@ -74,6 +78,7 @@ the keywords will be converted to lowercase format
 
 ___
 
+
 ### language\_code
 
 • `Optional` **language\_code**: `string`
@@ -94,6 +99,7 @@ en
 [main.ts:98668](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L98668)
 
 ___
+
 
 ### language\_name
 
@@ -116,6 +122,7 @@ English
 
 ___
 
+
 ### location\_code
 
 • `Optional` **location\_code**: `number`
@@ -137,6 +144,7 @@ example:
 [main.ts:98654](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L98654)
 
 ___
+
 
 ### location\_name
 
@@ -176,6 +184,7 @@ United States
 [main.ts:98646](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L98646)
 
 ___
+
 
 ### tag
 
@@ -217,6 +226,7 @@ you will find the specified tag value in the data object of the response
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -237,6 +247,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`DataforseoLabsAmazonBulkSearchVolumeLiveRequestInfo`](DataforseoLabsAmazonBulkSearchVolumeLiveRequestInfo.md)
@@ -254,3 +265,7 @@ ___
 #### Defined in
 
 [main.ts:98706](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L98706)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

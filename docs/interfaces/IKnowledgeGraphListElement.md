@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IKnowledgeGraphListElement
 
 # Interface: IKnowledgeGraphListElement
@@ -36,6 +40,7 @@ domain in SERP
 
 ___
 
+
 ### image\_url
 
 • `Optional` **image\_url**: `string`
@@ -49,6 +54,7 @@ the URL leading to the image on the original resource or DataForSEO storage (in 
 
 ___
 
+
 ### subtitle
 
 • `Optional` **subtitle**: `string`
@@ -60,6 +66,7 @@ subtitle of the item
 [main.ts:26186](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L26186)
 
 ___
+
 
 ### title
 
@@ -73,6 +80,7 @@ link anchor text
 
 ___
 
+
 ### type
 
 • `Optional` **type**: `string`
@@ -84,6 +92,7 @@ type of element
 [main.ts:26182](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L26182)
 
 ___
+
 
 ### url
 
@@ -97,6 +106,7 @@ sitelink URL
 
 ___
 
+
 ### xpath
 
 • `Optional` **xpath**: `string`
@@ -106,3 +116,7 @@ the XPath of the element
 #### Defined in
 
 [main.ts:26195](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L26195)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

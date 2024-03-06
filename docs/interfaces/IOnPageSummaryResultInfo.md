@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IOnPageSummaryResultInfo
 
 # Interface: IOnPageSummaryResultInfo
@@ -37,6 +41,7 @@ you can find the full list of IPs used by our crawler in the Overview section
 
 ___
 
+
 ### crawl\_progress
 
 • `Optional` **crawl\_progress**: `string`
@@ -50,6 +55,7 @@ possible values: in_progress, finished
 
 ___
 
+
 ### crawl\_status
 
 • `Optional` **crawl\_status**: [`CrawlStatusInfo`](../classes/CrawlStatusInfo.md)
@@ -61,6 +67,7 @@ details of the crawling session
 [main.ts:143746](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L143746)
 
 ___
+
 
 ### crawl\_stop\_reason
 
@@ -80,6 +87,7 @@ unexpected_exception – an internal error was encountered while crawling the ta
 
 ___
 
+
 ### domain\_info
 
 • `Optional` **domain\_info**: [`DomainInfo`](../classes/DomainInfo.md)
@@ -93,6 +101,7 @@ on-page information about the target domain and crawling process
 
 ___
 
+
 ### page\_metrics
 
 • `Optional` **page\_metrics**: [`PageMetrics`](../classes/PageMetrics.md)
@@ -103,3 +112,7 @@ metrics information on the target website pages
 #### Defined in
 
 [main.ts:143764](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L143764)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

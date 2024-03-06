@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / GoogleFlightsElement
 
 # Class: GoogleFlightsElement
@@ -66,6 +70,7 @@ description of the results element in SERP
 
 ___
 
+
 ### type
 
 • `Optional` **type**: `string`
@@ -81,6 +86,7 @@ type of element
 [main.ts:30604](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L30604)
 
 ___
+
 
 ### url
 
@@ -118,6 +124,7 @@ URL
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -138,6 +145,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`GoogleFlightsElement`](GoogleFlightsElement.md)
@@ -155,3 +163,7 @@ ___
 #### Defined in
 
 [main.ts:30633](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L30633)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

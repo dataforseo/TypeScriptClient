@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / DomainAnalyticsTechnologiesDomainsByLiveItem
 
 # Class: DomainAnalyticsTechnologiesDomainsByLiveItem
@@ -80,6 +84,7 @@ code of the language that content on the target domain is written with
 
 ___
 
+
 ### country\_iso\_code
 
 • `Optional` **country\_iso\_code**: `string`
@@ -97,6 +102,7 @@ ISO code of the country that target domain is determined to belong to
 
 ___
 
+
 ### description
 
 • `Optional` **description**: `string`
@@ -113,6 +119,7 @@ domain meta description
 
 ___
 
+
 ### domain
 
 • `Optional` **domain**: `string`
@@ -128,6 +135,7 @@ specified domain name
 [main.ts:74239](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L74239)
 
 ___
+
 
 ### domain\_rank
 
@@ -146,6 +154,7 @@ learn more about the metric and how it is calculated in this help center article
 
 ___
 
+
 ### emails
 
 • `Optional` **emails**: `string`[]
@@ -163,6 +172,7 @@ emails indicated on the target website
 
 ___
 
+
 ### language\_code
 
 • `Optional` **language\_code**: `string`
@@ -179,6 +189,7 @@ code of the language that target domain is determined to be associated with
 [main.ts:74259](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L74259)
 
 ___
+
 
 ### last\_visited
 
@@ -199,6 +210,7 @@ example:
 
 ___
 
+
 ### meta\_keywords
 
 • `Optional` **meta\_keywords**: `string`[]
@@ -214,6 +226,7 @@ domain meta keywords
 [main.ts:74245](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L74245)
 
 ___
+
 
 ### phone\_numbers
 
@@ -232,6 +245,7 @@ contact phone numbers indicated on the target website
 
 ___
 
+
 ### social\_graph\_urls
 
 • `Optional` **social\_graph\_urls**: `string`[]
@@ -248,6 +262,7 @@ social media URLs detected in the social graphs of the target website
 [main.ts:74271](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L74271)
 
 ___
+
 
 ### technologies
 
@@ -267,6 +282,7 @@ to get a full list of technologies and their structure, refer to the technologie
 
 ___
 
+
 ### title
 
 • `Optional` **title**: `string`
@@ -282,6 +298,7 @@ domain meta title
 [main.ts:74241](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L74241)
 
 ___
+
 
 ### type
 
@@ -319,6 +336,7 @@ type of element
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -339,6 +357,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`DomainAnalyticsTechnologiesDomainsByLiveItem`](DomainAnalyticsTechnologiesDomainsByLiveItem.md)
@@ -356,3 +375,7 @@ ___
 #### Defined in
 
 [main.ts:74327](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L74327)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

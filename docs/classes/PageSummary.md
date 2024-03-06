@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / PageSummary
 
 # Class: PageSummary
@@ -83,6 +87,7 @@ indicates the number of backlinks
 
 ___
 
+
 ### backlinks\_spam\_score
 
 • `Optional` **backlinks\_spam\_score**: `number`
@@ -99,6 +104,7 @@ learn more about how the metric is calculated on this help center page
 [main.ts:132972](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L132972)
 
 ___
+
 
 ### broken\_backlinks
 
@@ -117,6 +123,7 @@ number of broken backlinks pointing to the target
 
 ___
 
+
 ### broken\_pages
 
 • `Optional` **broken\_pages**: `number`
@@ -133,6 +140,7 @@ number of pages that respond with 4xx or 5xx status codes where backlinks are po
 [main.ts:132978](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L132978)
 
 ___
+
 
 ### first\_seen
 
@@ -152,6 +160,7 @@ example:
 [main.ts:132956](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L132956)
 
 ___
+
 
 ### lost\_date
 
@@ -173,6 +182,7 @@ example:
 
 ___
 
+
 ### rank
 
 • `Optional` **rank**: `number`
@@ -192,6 +202,7 @@ learn more about the metric and how it is calculated in this help center article
 
 ___
 
+
 ### referring\_domains
 
 • `Optional` **referring\_domains**: `number`
@@ -207,6 +218,7 @@ indicates the number of referring domains
 [main.ts:132980](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L132980)
 
 ___
+
 
 ### referring\_domains\_nofollow
 
@@ -224,6 +236,7 @@ number of domains pointing at least one nofollow link to the target
 
 ___
 
+
 ### referring\_ips
 
 • `Optional` **referring\_ips**: `number`
@@ -240,6 +253,7 @@ number of IP addresses pointing to this page
 [main.ts:132989](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L132989)
 
 ___
+
 
 ### referring\_links\_attributes
 
@@ -262,6 +276,7 @@ indicates link attributes of the referring links and link count per each attribu
 
 ___
 
+
 ### referring\_links\_countries
 
 • `Optional` **referring\_links\_countries**: `Object`
@@ -283,6 +298,7 @@ indicates ISO country codes of the domains where the referring links are located
 
 ___
 
+
 ### referring\_links\_platform\_types
 
 • `Optional` **referring\_links\_platform\_types**: `Object`
@@ -303,6 +319,7 @@ indicates referring platform types and and link count per each platform
 [main.ts:133007](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L133007)
 
 ___
+
 
 ### referring\_links\_semantic\_locations
 
@@ -328,6 +345,7 @@ article, section, summary
 
 ___
 
+
 ### referring\_links\_tld
 
 • `Optional` **referring\_links\_tld**: `Object`
@@ -348,6 +366,7 @@ contains top level domains and referring link count per each
 [main.ts:132996](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L132996)
 
 ___
+
 
 ### referring\_links\_types
 
@@ -372,6 +391,7 @@ anchor, image, link, meta, canonical, alternate, redirect
 
 ___
 
+
 ### referring\_main\_domains
 
 • `Optional` **referring\_main\_domains**: `number`
@@ -387,6 +407,7 @@ indicates the number of referring main domains
 [main.ts:132984](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L132984)
 
 ___
+
 
 ### referring\_main\_domains\_nofollow
 
@@ -404,6 +425,7 @@ number of main domains pointing at least one nofollow link to the target
 
 ___
 
+
 ### referring\_pages
 
 • `Optional` **referring\_pages**: `number`
@@ -419,6 +441,7 @@ indicates the number of pages pointing to the target
 [main.ts:132993](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L132993)
 
 ___
+
 
 ### referring\_subnets
 
@@ -456,6 +479,7 @@ number of referring subnetworks
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -476,6 +500,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`PageSummary`](PageSummary.md)
@@ -493,3 +518,7 @@ ___
 #### Defined in
 
 [main.ts:133094](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L133094)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

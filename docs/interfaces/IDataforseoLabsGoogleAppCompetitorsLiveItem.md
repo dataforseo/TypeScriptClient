@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IDataforseoLabsGoogleAppCompetitorsLiveItem
 
 # Interface: IDataforseoLabsGoogleAppCompetitorsLiveItem
@@ -36,6 +40,7 @@ id of the competitor app
 
 ___
 
+
 ### avg\_position
 
 • `Optional` **avg\_position**: `number`
@@ -49,6 +54,7 @@ the value for a given application may differ when combined with different target
 [main.ts:109366](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L109366)
 
 ___
+
 
 ### competitor\_metrics
 
@@ -64,6 +70,7 @@ note: in this array ranking data is provided for the returned competitor’s app
 
 ___
 
+
 ### full\_metrics
 
 • `Optional` **full\_metrics**: [`GooglePlayMetricsBundleInfo`](../classes/GooglePlayMetricsBundleInfo.md)
@@ -77,6 +84,7 @@ full overview of ranking data relevant to all keywords that the provided app_id 
 
 ___
 
+
 ### intersections
 
 • `Optional` **intersections**: `number`
@@ -88,6 +96,7 @@ number of intersecting keywords
 [main.ts:109372](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L109372)
 
 ___
+
 
 ### se\_type
 
@@ -101,6 +110,7 @@ search engine type
 
 ___
 
+
 ### sum\_position
 
 • `Optional` **sum\_position**: `number`
@@ -112,3 +122,7 @@ the value for a given application may differ when combined with different target
 #### Defined in
 
 [main.ts:109370](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L109370)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

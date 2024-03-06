@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IPeriodCovered
 
 # Interface: IPeriodCovered
@@ -34,6 +38,7 @@ Mar 2, 2020 - Dec 9, 2022
 
 ___
 
+
 ### end\_date
 
 • `Optional` **end\_date**: `string`
@@ -49,6 +54,7 @@ example:
 
 ___
 
+
 ### start\_date
 
 • `Optional` **start\_date**: `string`
@@ -61,3 +67,7 @@ example:
 #### Defined in
 
 [main.ts:50756](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L50756)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

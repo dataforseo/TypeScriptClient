@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IDataforseoLabsAmazonRelatedKeywordsLiveItem
 
 # Interface: IDataforseoLabsAmazonRelatedKeywordsLiveItem
@@ -33,6 +37,7 @@ keyword search depth
 
 ___
 
+
 ### keyword\_data
 
 • `Optional` **keyword\_data**: [`AmazonKeywordData`](../classes/AmazonKeywordData.md)
@@ -44,6 +49,7 @@ keyword data for the returned keyword
 [main.ts:99350](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L99350)
 
 ___
+
 
 ### related\_keywords
 
@@ -58,6 +64,7 @@ represents the list of search queries which are related to the keyword returned 
 
 ___
 
+
 ### se\_type
 
 • `Optional` **se\_type**: `string`
@@ -67,3 +74,7 @@ search engine type
 #### Defined in
 
 [main.ts:99348](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L99348)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

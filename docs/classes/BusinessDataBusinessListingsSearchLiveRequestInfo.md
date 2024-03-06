@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / BusinessDataBusinessListingsSearchLiveRequestInfo
 
 # Class: BusinessDataBusinessListingsSearchLiveRequestInfo
@@ -78,6 +82,7 @@ you can specify up to 10 categories
 
 ___
 
+
 ### description
 
 • `Optional` **description**: `string`
@@ -96,6 +101,7 @@ can contain up to 200 symbols
 [main.ts:188363](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L188363)
 
 ___
+
 
 ### filters
 
@@ -122,6 +128,7 @@ you can receive the list of available filters by making a separate request to h
 
 ___
 
+
 ### is\_claimed
 
 • `Optional` **is\_claimed**: `boolean`
@@ -138,6 +145,7 @@ optional field
 [main.ts:188371](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L188371)
 
 ___
+
 
 ### limit
 
@@ -157,6 +165,7 @@ maximum value: 1000
 [main.ts:188409](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L188409)
 
 ___
+
 
 ### location\_coordinate
 
@@ -181,6 +190,7 @@ example:
 
 ___
 
+
 ### offset
 
 • `Optional` **offset**: `number`
@@ -199,6 +209,7 @@ if you specify the 10 value, the first ten entities in the results array will be
 [main.ts:188414](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L188414)
 
 ___
+
 
 ### offset\_token
 
@@ -221,6 +232,7 @@ Note: if the offset_token is specified in the request, all other parameters shou
 [main.ts:188422](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L188422)
 
 ___
+
 
 ### order\_by
 
@@ -249,6 +261,7 @@ example:
 
 ___
 
+
 ### tag
 
 • `Optional` **tag**: `string`
@@ -268,6 +281,7 @@ you will find the specified tag value in the data object of the response
 [main.ts:188428](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L188428)
 
 ___
+
 
 ### title
 
@@ -308,6 +322,7 @@ can contain up to 200 symbols
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -328,6 +343,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`BusinessDataBusinessListingsSearchLiveRequestInfo`](BusinessDataBusinessListingsSearchLiveRequestInfo.md)
@@ -345,3 +361,7 @@ ___
 #### Defined in
 
 [main.ts:188473](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L188473)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

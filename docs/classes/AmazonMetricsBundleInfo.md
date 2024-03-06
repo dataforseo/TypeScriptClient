@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / AmazonMetricsBundleInfo
 
 # Class: AmazonMetricsBundleInfo
@@ -65,6 +69,7 @@ ranking data from Amazon paid SERP
 
 ___
 
+
 ### amazon\_serp
 
 • `Optional` **amazon\_serp**: [`AppMetricsInfo`](AppMetricsInfo.md)
@@ -101,6 +106,7 @@ ranking data from Amazon organic SERP
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -121,6 +127,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`AmazonMetricsBundleInfo`](AmazonMetricsBundleInfo.md)
@@ -138,3 +145,7 @@ ___
 #### Defined in
 
 [main.ts:100676](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L100676)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

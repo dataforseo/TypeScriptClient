@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / BusinessDataGoogleHotelSearchesTaskGetResultInfo
 
 # Class: BusinessDataGoogleHotelSearchesTaskGetResultInfo
@@ -71,6 +75,7 @@ you can use it to make sure that we provided accurate results
 
 ___
 
+
 ### datetime
 
 • `Optional` **datetime**: `string`
@@ -90,6 +95,7 @@ example:
 
 ___
 
+
 ### items
 
 • `Optional` **items**: [`BusinessDataGoogleHotelSearchesItem`](BusinessDataGoogleHotelSearchesItem.md)[]
@@ -107,6 +113,7 @@ note: this field always equals null; use it to facilitate integration and ensure
 
 ___
 
+
 ### items\_count
 
 • `Optional` **items\_count**: `number`
@@ -123,6 +130,7 @@ the number of items in the items array
 [main.ts:193939](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L193939)
 
 ___
+
 
 ### keyword
 
@@ -142,6 +150,7 @@ in order to obtain accurate search results, the location name is appended to the
 
 ___
 
+
 ### language\_code
 
 • `Optional` **language\_code**: `string`
@@ -157,6 +166,7 @@ language code in a POST array
 [main.ts:193928](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L193928)
 
 ___
+
 
 ### location\_code
 
@@ -194,6 +204,7 @@ location code in a POST array
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -214,6 +225,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`BusinessDataGoogleHotelSearchesTaskGetResultInfo`](BusinessDataGoogleHotelSearchesTaskGetResultInfo.md)
@@ -231,3 +243,7 @@ ___
 #### Defined in
 
 [main.ts:193975](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L193975)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

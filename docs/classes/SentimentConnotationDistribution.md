@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / SentimentConnotationDistribution
 
 # Class: SentimentConnotationDistribution
@@ -67,6 +71,7 @@
 
 ___
 
+
 ### fun
 
 • `Optional` **fun**: [`ContentAnalysisSummaryInfo`](ContentAnalysisSummaryInfo.md)
@@ -80,6 +85,7 @@ ___
 [main.ts:157909](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L157909)
 
 ___
+
 
 ### happiness
 
@@ -95,6 +101,7 @@ ___
 
 ___
 
+
 ### love
 
 • `Optional` **love**: [`ContentAnalysisSummaryInfo`](ContentAnalysisSummaryInfo.md)
@@ -109,6 +116,7 @@ ___
 
 ___
 
+
 ### sadness
 
 • `Optional` **sadness**: [`ContentAnalysisSummaryInfo`](ContentAnalysisSummaryInfo.md)
@@ -122,6 +130,7 @@ ___
 [main.ts:157907](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L157907)
 
 ___
+
 
 ### share
 
@@ -157,6 +166,7 @@ ___
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -177,6 +187,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`SentimentConnotationDistribution`](SentimentConnotationDistribution.md)
@@ -194,3 +205,7 @@ ___
 #### Defined in
 
 [main.ts:157937](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L157937)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

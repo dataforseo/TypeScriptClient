@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IDataforseoLabsGoogleHistoricalRankOverviewLiveItem
 
 # Interface: IDataforseoLabsGoogleHistoricalRankOverviewLiveItem
@@ -37,6 +41,7 @@ ranking data relevant to the specified domain
 
 ___
 
+
 ### month
 
 • `Optional` **month**: `number`
@@ -48,6 +53,7 @@ month for which the data is provided
 [main.ts:96509](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L96509)
 
 ___
+
 
 ### se\_type
 
@@ -61,6 +67,7 @@ search engine type
 
 ___
 
+
 ### year
 
 • `Optional` **year**: `number`
@@ -70,3 +77,7 @@ year for which the data is provided
 #### Defined in
 
 [main.ts:96507](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L96507)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

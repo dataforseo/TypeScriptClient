@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IBusinessDataTrustpilotSearchTaskPostRequestInfo
 
 # Interface: IBusinessDataTrustpilotSearchTaskPostRequestInfo
@@ -41,6 +45,7 @@ Note: your account will be charged for every 10 search results returned, e.g. if
 
 ___
 
+
 ### keyword
 
 • `Optional` **keyword**: `string`
@@ -57,6 +62,7 @@ if you need to use the “%” symbol for your keyword, please specify it as “
 [main.ts:198771](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L198771)
 
 ___
+
 
 ### pingback\_url
 
@@ -78,6 +84,7 @@ i.a., the # symbol will be encoded into %23
 
 ___
 
+
 ### postback\_url
 
 • `Optional` **postback\_url**: `string`
@@ -98,6 +105,7 @@ i.a., the # symbol will be encoded into %23
 
 ___
 
+
 ### priority
 
 • `Optional` **priority**: `number`
@@ -116,6 +124,7 @@ The cost can be calculated on the Pricing page.
 
 ___
 
+
 ### tag
 
 • `Optional` **tag**: `string`
@@ -129,3 +138,7 @@ you will find the specified tag value in the data object of the response
 #### Defined in
 
 [main.ts:198793](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L198793)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / MetricsInfo
 
 # Class: MetricsInfo
@@ -83,6 +87,7 @@ total count of organic SERPs that contain the domain
 
 ___
 
+
 ### estimated\_paid\_traffic\_cost
 
 • `Optional` **estimated\_paid\_traffic\_cost**: `number`
@@ -101,6 +106,7 @@ learn more about how the metric is calculated in this help center article
 [main.ts:75779](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L75779)
 
 ___
+
 
 ### etv
 
@@ -121,6 +127,7 @@ learn more about how the metric is calculated in this help center article
 
 ___
 
+
 ### impressions\_etv
 
 • `Optional` **impressions\_etv**: `number`
@@ -140,6 +147,7 @@ learn more about how the metric is calculated in this help center article
 
 ___
 
+
 ### is\_down
 
 • `Optional` **is\_down**: `number`
@@ -156,6 +164,7 @@ indicates how many ranked elements of this domain went down in Google Search
 [main.ts:75788](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L75788)
 
 ___
+
 
 ### is\_lost
 
@@ -174,6 +183,7 @@ indicates how many ranked elements of this domain were previously presented in S
 
 ___
 
+
 ### is\_new
 
 • `Optional` **is\_new**: `number`
@@ -190,6 +200,7 @@ indicates how many new ranked elements were found for this domain
 [main.ts:75782](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L75782)
 
 ___
+
 
 ### is\_up
 
@@ -208,6 +219,7 @@ indicates how many ranked elements of this domain went up in Google Search
 
 ___
 
+
 ### pos\_1
 
 • `Optional` **pos\_1**: `number`
@@ -223,6 +235,7 @@ number of organic SERPs where the domain ranks #1
 [main.ts:75740](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L75740)
 
 ___
+
 
 ### pos\_11\_20
 
@@ -240,6 +253,7 @@ number of organic SERPs where the domain ranks #11-20
 
 ___
 
+
 ### pos\_21\_30
 
 • `Optional` **pos\_21\_30**: `number`
@@ -255,6 +269,7 @@ number of organic SERPs where the domain ranks #21-30
 [main.ts:75748](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L75748)
 
 ___
+
 
 ### pos\_2\_3
 
@@ -272,6 +287,7 @@ number of organic SERPs where the domain ranks #2-3
 
 ___
 
+
 ### pos\_31\_40
 
 • `Optional` **pos\_31\_40**: `number`
@@ -287,6 +303,7 @@ number of organic SERPs where the domain ranks #31-40
 [main.ts:75750](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L75750)
 
 ___
+
 
 ### pos\_41\_50
 
@@ -304,6 +321,7 @@ number of organic SERPs where the domain ranks #41-50
 
 ___
 
+
 ### pos\_4\_10
 
 • `Optional` **pos\_4\_10**: `number`
@@ -319,6 +337,7 @@ number of organic SERPs where the domain ranks #4-10
 [main.ts:75744](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L75744)
 
 ___
+
 
 ### pos\_51\_60
 
@@ -336,6 +355,7 @@ number of organic SERPs where the domain ranks #51-60
 
 ___
 
+
 ### pos\_61\_70
 
 • `Optional` **pos\_61\_70**: `number`
@@ -351,6 +371,7 @@ number of organic SERPs where the domain ranks #61-70
 [main.ts:75756](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L75756)
 
 ___
+
 
 ### pos\_71\_80
 
@@ -368,6 +389,7 @@ number of organic SERPs where the domain ranks #71-80
 
 ___
 
+
 ### pos\_81\_90
 
 • `Optional` **pos\_81\_90**: `number`
@@ -383,6 +405,7 @@ number of organic SERPs where the domain ranks #81-90
 [main.ts:75760](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L75760)
 
 ___
+
 
 ### pos\_91\_100
 
@@ -420,6 +443,7 @@ number of organic SERPs where the domain ranks #91-100
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -440,6 +464,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`MetricsInfo`](MetricsInfo.md)
@@ -457,3 +482,7 @@ ___
 #### Defined in
 
 [main.ts:75833](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L75833)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

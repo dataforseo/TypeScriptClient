@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / NewsSearchSerpElementItem
 
 # Class: NewsSearchSerpElementItem
@@ -5,7 +9,7 @@
 ## Hierarchy
 
 - [`BaseSerpElementItem`](BaseSerpElementItem.md)
-
+  
   ↳ **`NewsSearchSerpElementItem`**
 
 ## Implements
@@ -83,6 +87,7 @@
 
 ___
 
+
 ### domain
 
 • `Optional` **domain**: `string`
@@ -98,6 +103,7 @@ domain name of the result in SERP
 [main.ts:42499](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L42499)
 
 ___
+
 
 ### image\_url
 
@@ -116,6 +122,7 @@ the URL leading to the image on the original resource or DataForSEO storage (in 
 
 ___
 
+
 ### rank\_absolute
 
 • `Optional` **rank\_absolute**: `number`
@@ -132,6 +139,7 @@ absolute position among all the elements in SERP
 [main.ts:42495](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L42495)
 
 ___
+
 
 ### rank\_group
 
@@ -151,6 +159,7 @@ positions of elements with different type values are omitted from rank_group
 
 ___
 
+
 ### rectangle
 
 • `Optional` **rectangle**: [`Rectangle`](Rectangle.md)
@@ -169,6 +178,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 ___
 
+
 ### snippet
 
 • `Optional` **snippet**: `string`
@@ -185,6 +195,7 @@ snippet of the result in SERP
 
 ___
 
+
 ### time\_published
 
 • `Optional` **time\_published**: `string`
@@ -200,6 +211,7 @@ indicates the time the result was published
 [main.ts:42510](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L42510)
 
 ___
+
 
 ### timestamp
 
@@ -220,6 +232,7 @@ example:
 
 ___
 
+
 ### title
 
 • `Optional` **title**: `string`
@@ -236,6 +249,7 @@ title of the result in SERP
 
 ___
 
+
 ### url
 
 • `Optional` **url**: `string`
@@ -251,6 +265,7 @@ URL of the result in SERP
 [main.ts:42503](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L42503)
 
 ___
+
 
 ### xpath
 
@@ -292,6 +307,7 @@ the XPath of the element
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -316,6 +332,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`NewsSearchSerpElementItem`](NewsSearchSerpElementItem.md)
@@ -337,3 +354,7 @@ ___
 #### Defined in
 
 [main.ts:42549](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L42549)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

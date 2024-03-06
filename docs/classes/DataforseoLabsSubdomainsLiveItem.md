@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / DataforseoLabsSubdomainsLiveItem
 
 # Class: DataforseoLabsSubdomainsLiveItem
@@ -70,6 +74,7 @@ ranking data relevant to subdomain
 
 ___
 
+
 ### se\_type
 
 • `Optional` **se\_type**: `string`
@@ -85,6 +90,7 @@ search engine type
 [main.ts:89620](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L89620)
 
 ___
+
 
 ### subdomain
 
@@ -122,6 +128,7 @@ returned subdomain
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -142,6 +149,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`DataforseoLabsSubdomainsLiveItem`](DataforseoLabsSubdomainsLiveItem.md)
@@ -159,3 +167,7 @@ ___
 #### Defined in
 
 [main.ts:89655](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L89655)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

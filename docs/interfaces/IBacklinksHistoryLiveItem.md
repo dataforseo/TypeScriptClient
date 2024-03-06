@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IBacklinksHistoryLiveItem
 
 # Interface: IBacklinksHistoryLiveItem
@@ -56,6 +60,7 @@ number of backlinks
 
 ___
 
+
 ### broken\_backlinks
 
 • `Optional` **broken\_backlinks**: `number`
@@ -68,6 +73,7 @@ number of broken backlinks pointing to the target
 [main.ts:130302](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L130302)
 
 ___
+
 
 ### broken\_pages
 
@@ -82,6 +88,7 @@ number of pages that receive backlinks but respond with 4xx or 5xx status codes
 
 ___
 
+
 ### crawled\_pages
 
 • `Optional` **crawled\_pages**: `number`
@@ -93,6 +100,7 @@ number of crawled pages for the target
 [main.ts:130291](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L130291)
 
 ___
+
 
 ### date
 
@@ -109,6 +117,7 @@ example:
 
 ___
 
+
 ### external\_links\_count
 
 • `Optional` **external\_links\_count**: `number`
@@ -122,6 +131,7 @@ calculated as the sum of external links on the pages of the specified target
 
 ___
 
+
 ### info
 
 • `Optional` **info**: [`TargetInfo`](../classes/TargetInfo.md)
@@ -133,6 +143,7 @@ information about the target
 [main.ts:130293](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L130293)
 
 ___
+
 
 ### internal\_links\_count
 
@@ -146,6 +157,7 @@ calculated as the sum of internal links on the pages of the specified target
 [main.ts:130296](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L130296)
 
 ___
+
 
 ### lost\_backlinks
 
@@ -162,6 +174,7 @@ if the date range specified in the POST request preceds May 2021, the field will
 
 ___
 
+
 ### lost\_referring\_domains
 
 • `Optional` **lost\_referring\_domains**: `number`
@@ -176,6 +189,7 @@ if the date range specified in the POST request preceds May 2021, the field will
 [main.ts:130289](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L130289)
 
 ___
+
 
 ### new\_backlinks
 
@@ -192,6 +206,7 @@ if the date range specified in the POST request preceds May 2021, the field will
 
 ___
 
+
 ### new\_referring\_domains
 
 • `Optional` **new\_referring\_domains**: `number`
@@ -207,6 +222,7 @@ if the date range specified in the POST request preceds May 2021, the field will
 
 ___
 
+
 ### rank
 
 • `Optional` **rank**: `number`
@@ -219,6 +235,7 @@ learn more about the metric and how it is calculated in this help center article
 [main.ts:130267](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L130267)
 
 ___
+
 
 ### referring\_domains
 
@@ -233,6 +250,7 @@ referring domains include subdomains that are counted as separate domains for th
 
 ___
 
+
 ### referring\_domains\_nofollow
 
 • `Optional` **referring\_domains\_nofollow**: `number`
@@ -244,6 +262,7 @@ number of domains pointing at least one nofollow link to the target
 [main.ts:130310](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L130310)
 
 ___
+
 
 ### referring\_ips
 
@@ -257,6 +276,7 @@ number of IP addresses pointing to this page
 [main.ts:130317](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L130317)
 
 ___
+
 
 ### referring\_links\_attributes
 
@@ -275,6 +295,7 @@ indicates link attributes of the referring links and link count per each attribu
 
 ___
 
+
 ### referring\_links\_countries
 
 • `Optional` **referring\_links\_countries**: `Object`
@@ -292,6 +313,7 @@ indicates ISO country codes of the domains where the referring links are located
 
 ___
 
+
 ### referring\_links\_platform\_types
 
 • `Optional` **referring\_links\_platform\_types**: `Object`
@@ -308,6 +330,7 @@ indicates referring platform types and and link count per each platform
 [main.ts:130335](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L130335)
 
 ___
+
 
 ### referring\_links\_semantic\_locations
 
@@ -329,6 +352,7 @@ article, section, summary
 
 ___
 
+
 ### referring\_links\_tld
 
 • `Optional` **referring\_links\_tld**: `Object`
@@ -345,6 +369,7 @@ contains top-level domains and referring link count per each
 [main.ts:130324](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L130324)
 
 ___
+
 
 ### referring\_links\_types
 
@@ -365,6 +390,7 @@ anchor, image, link, meta, canonical, alternate, redirect
 
 ___
 
+
 ### referring\_main\_domains
 
 • `Optional` **referring\_main\_domains**: `number`
@@ -376,6 +402,7 @@ number of referring main domains
 [main.ts:130312](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L130312)
 
 ___
+
 
 ### referring\_main\_domains\_nofollow
 
@@ -389,6 +416,7 @@ number of main domains pointing at least one nofollow link to the target
 
 ___
 
+
 ### referring\_pages
 
 • `Optional` **referring\_pages**: `number`
@@ -400,6 +428,7 @@ number of pages pointing to the target
 [main.ts:130321](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L130321)
 
 ___
+
 
 ### referring\_subnets
 
@@ -413,6 +442,7 @@ number of referring subnetworks
 
 ___
 
+
 ### type
 
 • `Optional` **type**: `string`
@@ -422,3 +452,7 @@ type of element
 #### Defined in
 
 [main.ts:130259](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L130259)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

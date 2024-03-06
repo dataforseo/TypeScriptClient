@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IAppendixOnPagePriceData
 
 # Interface: IAppendixOnPagePriceData
@@ -47,6 +51,7 @@
 
 ___
 
+
 ### content\_parsing\_live
 
 • `Optional` **content\_parsing\_live**: [`AppendixTaskKeywordsDataPriceDataInfo`](../classes/AppendixTaskKeywordsDataPriceDataInfo.md)
@@ -56,6 +61,7 @@ ___
 [main.ts:212049](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L212049)
 
 ___
+
 
 ### duplicate\_content
 
@@ -67,6 +73,7 @@ ___
 
 ___
 
+
 ### duplicate\_tags
 
 • `Optional` **duplicate\_tags**: [`AppendixTaskKeywordsDataPriceDataInfo`](../classes/AppendixTaskKeywordsDataPriceDataInfo.md)
@@ -76,6 +83,7 @@ ___
 [main.ts:212051](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L212051)
 
 ___
+
 
 ### errors
 
@@ -87,6 +95,7 @@ ___
 
 ___
 
+
 ### instant\_pages
 
 • `Optional` **instant\_pages**: [`AppendixTaskKeywordsDataPriceDataInfo`](../classes/AppendixTaskKeywordsDataPriceDataInfo.md)
@@ -96,6 +105,7 @@ ___
 [main.ts:212052](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L212052)
 
 ___
+
 
 ### keyword\_density
 
@@ -107,6 +117,7 @@ ___
 
 ___
 
+
 ### lighthouse
 
 • `Optional` **lighthouse**: [`AppendixGoogleBusinessDataPriceDataInfo`](../classes/AppendixGoogleBusinessDataPriceDataInfo.md)
@@ -116,6 +127,7 @@ ___
 [main.ts:212047](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L212047)
 
 ___
+
 
 ### links
 
@@ -127,6 +139,7 @@ ___
 
 ___
 
+
 ### non\_indexable
 
 • `Optional` **non\_indexable**: [`AppendixTaskKeywordsDataPriceDataInfo`](../classes/AppendixTaskKeywordsDataPriceDataInfo.md)
@@ -136,6 +149,7 @@ ___
 [main.ts:212055](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L212055)
 
 ___
+
 
 ### page\_screenshot
 
@@ -147,6 +161,7 @@ ___
 
 ___
 
+
 ### pages
 
 • `Optional` **pages**: [`AppendixTaskKeywordsDataPriceDataInfo`](../classes/AppendixTaskKeywordsDataPriceDataInfo.md)
@@ -156,6 +171,7 @@ ___
 [main.ts:212056](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L212056)
 
 ___
+
 
 ### pages\_by\_resource
 
@@ -167,6 +183,7 @@ ___
 
 ___
 
+
 ### raw\_html
 
 • `Optional` **raw\_html**: [`AppendixTaskKeywordsDataPriceDataInfo`](../classes/AppendixTaskKeywordsDataPriceDataInfo.md)
@@ -176,6 +193,7 @@ ___
 [main.ts:212059](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L212059)
 
 ___
+
 
 ### redirect\_chains
 
@@ -187,6 +205,7 @@ ___
 
 ___
 
+
 ### resources
 
 • `Optional` **resources**: [`AppendixTaskKeywordsDataPriceDataInfo`](../classes/AppendixTaskKeywordsDataPriceDataInfo.md)
@@ -196,6 +215,7 @@ ___
 [main.ts:212061](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L212061)
 
 ___
+
 
 ### summary
 
@@ -207,6 +227,7 @@ ___
 
 ___
 
+
 ### task\_post
 
 • `Optional` **task\_post**: [`AppendixTaskKeywordsDataPriceDataInfo`](../classes/AppendixTaskKeywordsDataPriceDataInfo.md)
@@ -216,6 +237,7 @@ ___
 [main.ts:212063](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L212063)
 
 ___
+
 
 ### tasks\_ready
 
@@ -227,6 +249,7 @@ ___
 
 ___
 
+
 ### waterfall
 
 • `Optional` **waterfall**: [`AppendixTaskKeywordsDataPriceDataInfo`](../classes/AppendixTaskKeywordsDataPriceDataInfo.md)
@@ -234,3 +257,7 @@ ___
 #### Defined in
 
 [main.ts:212065](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L212065)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

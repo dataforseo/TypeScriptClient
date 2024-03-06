@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IAppendixSocialMediaBusinessDataPriceData
 
 # Interface: IAppendixSocialMediaBusinessDataPriceData
@@ -30,6 +34,7 @@
 
 ___
 
+
 ### pinterest
 
 • `Optional` **pinterest**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](../classes/AppendixKeywordBingKeywordsDataPriceDataInfo.md)
@@ -40,6 +45,7 @@ ___
 
 ___
 
+
 ### reddit
 
 • `Optional` **reddit**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](../classes/AppendixKeywordBingKeywordsDataPriceDataInfo.md)
@@ -47,3 +53,7 @@ ___
 #### Defined in
 
 [main.ts:211049](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L211049)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

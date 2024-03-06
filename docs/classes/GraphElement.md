@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / GraphElement
 
 # Class: GraphElement
@@ -66,6 +70,7 @@ the posting date
 
 ___
 
+
 ### type
 
 • `Optional` **type**: `string`
@@ -81,6 +86,7 @@ type of element
 [main.ts:32344](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L32344)
 
 ___
+
 
 ### value
 
@@ -118,6 +124,7 @@ the value of the rating
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -138,6 +145,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`GraphElement`](GraphElement.md)
@@ -155,3 +163,7 @@ ___
 #### Defined in
 
 [main.ts:32373](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L32373)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IBusinessDataBusinessListingsSearchLiveRequestInfo
 
 # Interface: IBusinessDataBusinessListingsSearchLiveRequestInfo
@@ -44,6 +48,7 @@ you can specify up to 10 categories
 
 ___
 
+
 ### description
 
 • `Optional` **description**: `string`
@@ -58,6 +63,7 @@ can contain up to 200 symbols
 [main.ts:188524](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L188524)
 
 ___
+
 
 ### filters
 
@@ -80,6 +86,7 @@ you can receive the list of available filters by making a separate request to h
 
 ___
 
+
 ### is\_claimed
 
 • `Optional` **is\_claimed**: `boolean`
@@ -92,6 +99,7 @@ optional field
 [main.ts:188532](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L188532)
 
 ___
+
 
 ### limit
 
@@ -107,6 +115,7 @@ maximum value: 1000
 [main.ts:188570](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L188570)
 
 ___
+
 
 ### location\_coordinate
 
@@ -127,6 +136,7 @@ example:
 
 ___
 
+
 ### offset
 
 • `Optional` **offset**: `number`
@@ -141,6 +151,7 @@ if you specify the 10 value, the first ten entities in the results array will be
 [main.ts:188575](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L188575)
 
 ___
+
 
 ### offset\_token
 
@@ -159,6 +170,7 @@ Note: if the offset_token is specified in the request, all other parameters shou
 [main.ts:188583](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L188583)
 
 ___
+
 
 ### order\_by
 
@@ -183,6 +195,7 @@ example:
 
 ___
 
+
 ### tag
 
 • `Optional` **tag**: `string`
@@ -199,6 +212,7 @@ you will find the specified tag value in the data object of the response
 
 ___
 
+
 ### title
 
 • `Optional` **title**: `string`
@@ -211,3 +225,7 @@ can contain up to 200 symbols
 #### Defined in
 
 [main.ts:188529](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L188529)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

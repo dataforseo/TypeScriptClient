@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / DataforseoLabsErrorsResultInfo
 
 # Class: DataforseoLabsErrorsResultInfo
@@ -76,6 +80,7 @@ example:
 
 ___
 
+
 ### error\_code
 
 • `Optional` **error\_code**: `number`
@@ -91,6 +96,7 @@ error code
 [main.ts:77123](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L77123)
 
 ___
+
 
 ### error\_message
 
@@ -109,6 +115,7 @@ error message (see full list) or URL that caused an error
 
 ___
 
+
 ### function
 
 • `Optional` **function**: `string`
@@ -124,6 +131,7 @@ corresponding API function
 [main.ts:77121](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L77121)
 
 ___
+
 
 ### http\_code
 
@@ -141,6 +149,7 @@ HTTP status code
 
 ___
 
+
 ### http\_method
 
 • `Optional` **http\_method**: `string`
@@ -156,6 +165,7 @@ HTTP method
 [main.ts:77131](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L77131)
 
 ___
+
 
 ### http\_response
 
@@ -174,6 +184,7 @@ server response
 
 ___
 
+
 ### http\_time
 
 • `Optional` **http\_time**: `number`
@@ -189,6 +200,7 @@ time taken by HTTP request
 [main.ts:77135](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L77135)
 
 ___
+
 
 ### http\_url
 
@@ -206,6 +218,7 @@ URL you used for making an API call
 [main.ts:77129](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L77129)
 
 ___
+
 
 ### id
 
@@ -243,6 +256,7 @@ id of the task
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -263,6 +277,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`DataforseoLabsErrorsResultInfo`](DataforseoLabsErrorsResultInfo.md)
@@ -280,3 +295,7 @@ ___
 #### Defined in
 
 [main.ts:77170](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L77170)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / GooglePostsDataforseoLabsSerpElementItem
 
 # Class: GooglePostsDataforseoLabsSerpElementItem
@@ -5,7 +9,7 @@
 ## Hierarchy
 
 - [`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md)
-
+  
   ↳ **`GooglePostsDataforseoLabsSerpElementItem`**
 
 ## Implements
@@ -79,6 +83,7 @@
 
 ___
 
+
 ### cid
 
 • `Optional` **cid**: `string`
@@ -95,6 +100,7 @@ google-defined client id
 
 ___
 
+
 ### feature
 
 • `Optional` **feature**: `string`
@@ -110,6 +116,7 @@ the additional feature of the review
 [main.ts:94375](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L94375)
 
 ___
+
 
 ### position
 
@@ -129,6 +136,7 @@ left, right
 
 ___
 
+
 ### posts\_id
 
 • `Optional` **posts\_id**: `string`
@@ -144,6 +152,7 @@ the identifier of the google_posts feature
 [main.ts:94373](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L94373)
 
 ___
+
 
 ### rank\_absolute
 
@@ -162,6 +171,7 @@ absolute position among all the elements in SERP
 
 ___
 
+
 ### rank\_group
 
 • `Optional` **rank\_group**: `number`
@@ -178,6 +188,7 @@ positions of elements with different type values are omitted from rank_group
 [main.ts:94362](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L94362)
 
 ___
+
 
 ### xpath
 
@@ -219,6 +230,7 @@ the XPath of the element
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -243,6 +255,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`GooglePostsDataforseoLabsSerpElementItem`](GooglePostsDataforseoLabsSerpElementItem.md)
@@ -264,3 +277,7 @@ ___
 #### Defined in
 
 [main.ts:94403](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L94403)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

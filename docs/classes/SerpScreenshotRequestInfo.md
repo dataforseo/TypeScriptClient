@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / SerpScreenshotRequestInfo
 
 # Class: SerpScreenshotRequestInfo
@@ -72,6 +76,7 @@ note: by default, browser preset corresponds to the device type specified in the
 
 ___
 
+
 ### browser\_screen\_height
 
 • `Optional` **browser\_screen\_height**: `number`
@@ -89,6 +94,7 @@ can be specified in the following range: 240-9999
 [main.ts:23417](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L23417)
 
 ___
+
 
 ### browser\_screen\_scale\_factor
 
@@ -108,6 +114,7 @@ can be specified in the following range: 0.5-3
 
 ___
 
+
 ### browser\_screen\_width
 
 • `Optional` **browser\_screen\_width**: `number`
@@ -125,6 +132,7 @@ can be specified in the following range: 240-9999
 [main.ts:23413](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L23413)
 
 ___
+
 
 ### task\_id
 
@@ -165,6 +173,7 @@ you will be able to use it within 7 days to request the results of the task at a
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -185,6 +194,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`SerpScreenshotRequestInfo`](SerpScreenshotRequestInfo.md)
@@ -202,3 +212,7 @@ ___
 #### Defined in
 
 [main.ts:23448](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L23448)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

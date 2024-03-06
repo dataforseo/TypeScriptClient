@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / MerchantAmazonSellersTaskGetHtmlResultInfo
 
 # Class: MerchantAmazonSellersTaskGetHtmlResultInfo
@@ -71,6 +75,7 @@ ASIN received in a POST array
 
 ___
 
+
 ### datetime
 
 • `Optional` **datetime**: `string`
@@ -90,6 +95,7 @@ example:
 
 ___
 
+
 ### items
 
 • `Optional` **items**: [`HtmlItem`](HtmlItem.md)[]
@@ -105,6 +111,7 @@ elements of search results found on Amazon
 [main.ts:174657](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L174657)
 
 ___
+
 
 ### items\_count
 
@@ -122,6 +129,7 @@ the number of results returned in the items array
 
 ___
 
+
 ### language\_code
 
 • `Optional` **language\_code**: `string`
@@ -137,6 +145,7 @@ language code in a POST array
 [main.ts:174648](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L174648)
 
 ___
+
 
 ### location\_code
 
@@ -154,6 +163,7 @@ location code in a POST array
 
 ___
 
+
 ### se\_domain
 
 • `Optional` **se\_domain**: `string`
@@ -169,6 +179,7 @@ search engine domain in a POST array
 [main.ts:174644](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L174644)
 
 ___
+
 
 ### type
 
@@ -206,6 +217,7 @@ type of element
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -226,6 +238,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`MerchantAmazonSellersTaskGetHtmlResultInfo`](MerchantAmazonSellersTaskGetHtmlResultInfo.md)
@@ -243,3 +256,7 @@ ___
 #### Defined in
 
 [main.ts:174691](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L174691)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

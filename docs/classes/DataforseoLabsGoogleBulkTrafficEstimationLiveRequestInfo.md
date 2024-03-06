@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / DataforseoLabsGoogleBulkTrafficEstimationLiveRequestInfo
 
 # Class: DataforseoLabsGoogleBulkTrafficEstimationLiveRequestInfo
@@ -77,6 +81,7 @@ default value:
 
 ___
 
+
 ### language\_code
 
 • `Optional` **language\_code**: `string`
@@ -98,6 +103,7 @@ en
 [main.ts:97485](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L97485)
 
 ___
+
 
 ### language\_name
 
@@ -121,6 +127,7 @@ English
 
 ___
 
+
 ### location\_code
 
 • `Optional` **location\_code**: `number`
@@ -142,6 +149,7 @@ example:
 [main.ts:97469](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L97469)
 
 ___
+
 
 ### location\_name
 
@@ -165,6 +173,7 @@ United Kingdom
 
 ___
 
+
 ### tag
 
 • `Optional` **tag**: `string`
@@ -184,6 +193,7 @@ you will find the specified tag value in the data object of the response
 [main.ts:97500](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L97500)
 
 ___
+
 
 ### targets
 
@@ -226,6 +236,7 @@ you can set up to 1000 domains, subdomains or webpages
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -246,6 +257,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`DataforseoLabsGoogleBulkTrafficEstimationLiveRequestInfo`](DataforseoLabsGoogleBulkTrafficEstimationLiveRequestInfo.md)
@@ -263,3 +275,7 @@ ___
 #### Defined in
 
 [main.ts:97537](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L97537)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

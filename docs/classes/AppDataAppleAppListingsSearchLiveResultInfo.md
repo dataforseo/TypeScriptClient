@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / AppDataAppleAppListingsSearchLiveResultInfo
 
 # Class: AppDataAppleAppListingsSearchLiveResultInfo
@@ -68,6 +72,7 @@ the number of items in the results array
 
 ___
 
+
 ### items
 
 • `Optional` **items**: [`AppDataleAppListingsSearchLiveItem`](AppDataleAppListingsSearchLiveItem.md)[]
@@ -83,6 +88,7 @@ array of apps and related data
 [main.ts:186959](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L186959)
 
 ___
+
 
 ### offset
 
@@ -100,6 +106,7 @@ offset in the results array of returned apps
 
 ___
 
+
 ### offset\_token
 
 • `Optional` **offset\_token**: `string`
@@ -116,6 +123,7 @@ you can use this parameter in the POST request to avoid timeouts while trying to
 [main.ts:186957](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L186957)
 
 ___
+
 
 ### total\_count
 
@@ -153,6 +161,7 @@ the total number of relevant results in the database
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -173,6 +182,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`AppDataAppleAppListingsSearchLiveResultInfo`](AppDataAppleAppListingsSearchLiveResultInfo.md)
@@ -190,3 +200,7 @@ ___
 #### Defined in
 
 [main.ts:186990](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L186990)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

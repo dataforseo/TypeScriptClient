@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / ITopDomainInfo
 
 # Interface: ITopDomainInfo
@@ -29,6 +33,7 @@
 
 ___
 
+
 ### domain
 
 • `Optional` **domain**: `string`
@@ -36,3 +41,7 @@ ___
 #### Defined in
 
 [main.ts:21645](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L21645)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

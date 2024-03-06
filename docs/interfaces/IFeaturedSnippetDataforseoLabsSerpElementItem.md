@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IFeaturedSnippetDataforseoLabsSerpElementItem
 
 # Interface: IFeaturedSnippetDataforseoLabsSerpElementItem
@@ -5,7 +9,7 @@
 ## Hierarchy
 
 - [`IBaseDataforseoLabsSerpElementItem`](IBaseDataforseoLabsSerpElementItem.md)
-
+  
   ↳ **`IFeaturedSnippetDataforseoLabsSerpElementItem`**
 
 ## Implemented by
@@ -53,6 +57,7 @@ backlinks information for the target website
 
 ___
 
+
 ### description
 
 • `Optional` **description**: `string`
@@ -65,6 +70,7 @@ description of the results element in SERP
 
 ___
 
+
 ### domain
 
 • `Optional` **domain**: `string`
@@ -76,6 +82,7 @@ subdomain in SERP
 [main.ts:93229](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L93229)
 
 ___
+
 
 ### estimated\_paid\_traffic\_cost
 
@@ -90,6 +97,7 @@ learn more about how the metric is calculated in this help center article
 [main.ts:93253](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L93253)
 
 ___
+
 
 ### etv
 
@@ -106,6 +114,7 @@ learn more about how the metric is calculated in this help center article
 
 ___
 
+
 ### featured\_title
 
 • `Optional` **featured\_title**: `string`
@@ -118,6 +127,7 @@ the title of the featured snippets source page
 
 ___
 
+
 ### main\_domain
 
 • `Optional` **main\_domain**: `string`
@@ -129,6 +139,7 @@ primary domain name in SERP
 [main.ts:93242](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L93242)
 
 ___
+
 
 ### position
 
@@ -144,6 +155,7 @@ left, right
 
 ___
 
+
 ### rank\_absolute
 
 • `Optional` **rank\_absolute**: `number`
@@ -156,6 +168,7 @@ absolute position among all the elements in SERP
 [main.ts:93221](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L93221)
 
 ___
+
 
 ### rank\_changes
 
@@ -170,6 +183,7 @@ contains information about the ranking changes of the SERP element since the pre
 
 ___
 
+
 ### rank\_group
 
 • `Optional` **rank\_group**: `number`
@@ -183,6 +197,7 @@ positions of elements with different type values are omitted from rank_group
 
 ___
 
+
 ### rank\_info
 
 • `Optional` **rank\_info**: [`RankInfo`](../classes/RankInfo.md)
@@ -194,6 +209,7 @@ page and domain rank information
 [main.ts:93260](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L93260)
 
 ___
+
 
 ### relative\_url
 
@@ -207,6 +223,7 @@ URL in SERP that does not specify the HTTPs protocol and domain name
 
 ___
 
+
 ### se\_type
 
 • `Optional` **se\_type**: `string`
@@ -218,6 +235,7 @@ search engine type
 [main.ts:93215](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L93215)
 
 ___
+
 
 ### table
 
@@ -232,6 +250,7 @@ if there are none, equals null
 
 ___
 
+
 ### title
 
 • `Optional` **title**: `string`
@@ -243,6 +262,7 @@ title of the result in SERP
 [main.ts:93231](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L93231)
 
 ___
+
 
 ### url
 
@@ -256,6 +276,7 @@ relevant URL in SERP
 
 ___
 
+
 ### xpath
 
 • `Optional` **xpath**: `string`
@@ -265,3 +286,7 @@ the XPath of the element
 #### Defined in
 
 [main.ts:93227](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L93227)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

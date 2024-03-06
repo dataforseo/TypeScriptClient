@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / EventDates
 
 # Class: EventDates
@@ -66,6 +70,7 @@ date or date range as it is displayed in SERP
 
 ___
 
+
 ### end\_datetime
 
 • `Optional` **end\_datetime**: `string`
@@ -89,6 +94,7 @@ example:
 [main.ts:44440](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L44440)
 
 ___
+
 
 ### start\_datetime
 
@@ -134,6 +140,7 @@ example:
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -154,6 +161,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`EventDates`](EventDates.md)
@@ -171,3 +179,7 @@ ___
 #### Defined in
 
 [main.ts:44467](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L44467)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

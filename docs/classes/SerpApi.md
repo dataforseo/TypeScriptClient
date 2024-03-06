@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / SerpApi
 
 # Class: SerpApi
@@ -329,6 +333,7 @@
 
 ___
 
+
 ### http
 
 • `Private` **http**: `Object`
@@ -344,6 +349,7 @@ ___
 [main.ts:12](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L12)
 
 ___
+
 
 ### jsonParseReviver
 
@@ -392,6 +398,7 @@ Successful operation
 
 ___
 
+
 ### baiduOrganicTaskGetAdvanced
 
 ▸ **baiduOrganicTaskGetAdvanced**(`id`): `Promise`\<[`SerpBaiduOrganicTaskGetAdvancedResponseInfo`](SerpBaiduOrganicTaskGetAdvancedResponseInfo.md)\>
@@ -413,6 +420,7 @@ Successful operation
 [main.ts:4976](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L4976)
 
 ___
+
 
 ### baiduOrganicTaskGetHtml
 
@@ -436,6 +444,7 @@ Successful operation
 
 ___
 
+
 ### baiduOrganicTaskGetRegular
 
 ▸ **baiduOrganicTaskGetRegular**(`id`): `Promise`\<[`SerpBaiduOrganicTaskGetRegularResponseInfo`](SerpBaiduOrganicTaskGetRegularResponseInfo.md)\>
@@ -457,6 +466,7 @@ Successful operation
 [main.ts:4933](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L4933)
 
 ___
+
 
 ### baiduOrganicTaskPost
 
@@ -480,6 +490,7 @@ Successful operation
 
 ___
 
+
 ### baiduOrganicTasksFixed
 
 ▸ **baiduOrganicTasksFixed**(): `Promise`\<[`SerpBaiduOrganicTasksFixedResponseInfo`](SerpBaiduOrganicTasksFixedResponseInfo.md)\>
@@ -496,6 +507,7 @@ Successful operation
 
 ___
 
+
 ### baiduOrganicTasksReady
 
 ▸ **baiduOrganicTasksReady**(): `Promise`\<[`SerpBaiduOrganicTasksReadyResponseInfo`](SerpBaiduOrganicTasksReadyResponseInfo.md)\>
@@ -511,6 +523,7 @@ Successful operation
 [main.ts:4856](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L4856)
 
 ___
+
 
 ### bingLocalPackLiveHtml
 
@@ -534,6 +547,7 @@ Successful operation
 
 ___
 
+
 ### bingLocalPackLiveRegular
 
 ▸ **bingLocalPackLiveRegular**(`body`): `Promise`\<[`SerpBingLocalPackLiveRegularResponseInfo`](SerpBingLocalPackLiveRegularResponseInfo.md)\>
@@ -555,6 +569,7 @@ Successful operation
 [main.ts:3400](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L3400)
 
 ___
+
 
 ### bingLocalPackTaskGetHtml
 
@@ -578,6 +593,7 @@ Successful operation
 
 ___
 
+
 ### bingLocalPackTaskGetRegular
 
 ▸ **bingLocalPackTaskGetRegular**(`id`): `Promise`\<[`SerpBingLocalPackTaskGetRegularResponseInfo`](SerpBingLocalPackTaskGetRegularResponseInfo.md)\>
@@ -599,6 +615,7 @@ Successful operation
 [main.ts:3316](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L3316)
 
 ___
+
 
 ### bingLocalPackTaskPost
 
@@ -622,6 +639,7 @@ Successful operation
 
 ___
 
+
 ### bingLocalPackTasksFixed
 
 ▸ **bingLocalPackTasksFixed**(): `Promise`\<[`SerpBingLocalPackTasksFixedResponseInfo`](SerpBingLocalPackTasksFixedResponseInfo.md)\>
@@ -638,6 +656,7 @@ Successful operation
 
 ___
 
+
 ### bingLocalPackTasksReady
 
 ▸ **bingLocalPackTasksReady**(): `Promise`\<[`SerpBingLocalPackTasksReadyResponseInfo`](SerpBingLocalPackTasksReadyResponseInfo.md)\>
@@ -653,6 +672,7 @@ Successful operation
 [main.ts:3239](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L3239)
 
 ___
+
 
 ### bingOrganicLiveAdvanced
 
@@ -676,6 +696,7 @@ Successful operation
 
 ___
 
+
 ### bingOrganicLiveHtml
 
 ▸ **bingOrganicLiveHtml**(`body`): `Promise`\<[`SerpBingOrganicLiveHtmlResponseInfo`](SerpBingOrganicLiveHtmlResponseInfo.md)\>
@@ -697,6 +718,7 @@ Successful operation
 [main.ts:3156](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L3156)
 
 ___
+
 
 ### bingOrganicLiveRegular
 
@@ -720,6 +742,7 @@ Successful operation
 
 ___
 
+
 ### bingOrganicTaskGetAdvanced
 
 ▸ **bingOrganicTaskGetAdvanced**(`id`): `Promise`\<[`SerpBingOrganicTaskGetAdvancedResponseInfo`](SerpBingOrganicTaskGetAdvancedResponseInfo.md)\>
@@ -741,6 +764,7 @@ Successful operation
 [main.ts:2988](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L2988)
 
 ___
+
 
 ### bingOrganicTaskGetHtml
 
@@ -764,6 +788,7 @@ Successful operation
 
 ___
 
+
 ### bingOrganicTaskGetRegular
 
 ▸ **bingOrganicTaskGetRegular**(`id`): `Promise`\<[`SerpBingOrganicTaskGetRegularResponseInfo`](SerpBingOrganicTaskGetRegularResponseInfo.md)\>
@@ -785,6 +810,7 @@ Successful operation
 [main.ts:2945](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L2945)
 
 ___
+
 
 ### bingOrganicTaskPost
 
@@ -808,6 +834,7 @@ Successful operation
 
 ___
 
+
 ### bingOrganicTasksFixed
 
 ▸ **bingOrganicTasksFixed**(): `Promise`\<[`SerpBingOrganicTasksFixedResponseInfo`](SerpBingOrganicTasksFixedResponseInfo.md)\>
@@ -824,6 +851,7 @@ Successful operation
 
 ___
 
+
 ### bingOrganicTasksReady
 
 ▸ **bingOrganicTasksReady**(): `Promise`\<[`SerpBingOrganicTasksReadyResponseInfo`](SerpBingOrganicTasksReadyResponseInfo.md)\>
@@ -839,6 +867,7 @@ Successful operation
 [main.ts:2868](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L2868)
 
 ___
+
 
 ### googleDatasetInfoLiveAdvanced
 
@@ -862,6 +891,7 @@ Successful operation
 
 ___
 
+
 ### googleDatasetInfoTaskGetAdvanced
 
 ▸ **googleDatasetInfoTaskGetAdvanced**(`id`): `Promise`\<[`SerpGoogleDatasetInfoTaskGetAdvancedResponseInfo`](SerpGoogleDatasetInfoTaskGetAdvancedResponseInfo.md)\>
@@ -883,6 +913,7 @@ Successful operation
 [main.ts:2625](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L2625)
 
 ___
+
 
 ### googleDatasetInfoTaskPost
 
@@ -906,6 +937,7 @@ Successful operation
 
 ___
 
+
 ### googleDatasetInfoTasksFixed
 
 ▸ **googleDatasetInfoTasksFixed**(): `Promise`\<[`SerpGoogleDatasetInfoTasksFixedResponseInfo`](SerpGoogleDatasetInfoTasksFixedResponseInfo.md)\>
@@ -922,6 +954,7 @@ Successful operation
 
 ___
 
+
 ### googleDatasetInfoTasksReady
 
 ▸ **googleDatasetInfoTasksReady**(): `Promise`\<[`SerpGoogleDatasetInfoTasksReadyResponseInfo`](SerpGoogleDatasetInfoTasksReadyResponseInfo.md)\>
@@ -937,6 +970,7 @@ Successful operation
 [main.ts:2548](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L2548)
 
 ___
+
 
 ### googleDatasetSearchLiveAdvanced
 
@@ -960,6 +994,7 @@ Successful operation
 
 ___
 
+
 ### googleDatasetSearchTaskGetAdvanced
 
 ▸ **googleDatasetSearchTaskGetAdvanced**(`id`): `Promise`\<[`SerpGoogleDatasetSearchTaskGetAdvancedResponseInfo`](SerpGoogleDatasetSearchTaskGetAdvancedResponseInfo.md)\>
@@ -981,6 +1016,7 @@ Successful operation
 [main.ts:2424](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L2424)
 
 ___
+
 
 ### googleDatasetSearchTaskPost
 
@@ -1004,6 +1040,7 @@ Successful operation
 
 ___
 
+
 ### googleDatasetSearchTasksFixed
 
 ▸ **googleDatasetSearchTasksFixed**(): `Promise`\<[`SerpGoogleDatasetSearchTasksFixedResponseInfo`](SerpGoogleDatasetSearchTasksFixedResponseInfo.md)\>
@@ -1020,6 +1057,7 @@ Successful operation
 
 ___
 
+
 ### googleDatasetSearchTasksReady
 
 ▸ **googleDatasetSearchTasksReady**(): `Promise`\<[`SerpGoogleDatasetSearchTasksReadyResponseInfo`](SerpGoogleDatasetSearchTasksReadyResponseInfo.md)\>
@@ -1035,6 +1073,7 @@ Successful operation
 [main.ts:2347](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L2347)
 
 ___
+
 
 ### googleEventsLiveAdvanced
 
@@ -1058,6 +1097,7 @@ Successful operation
 
 ___
 
+
 ### googleEventsTaskGetAdvanced
 
 ▸ **googleEventsTaskGetAdvanced**(`id`): `Promise`\<[`SerpGoogleEventsTaskGetAdvancedResponseInfo`](SerpGoogleEventsTaskGetAdvancedResponseInfo.md)\>
@@ -1079,6 +1119,7 @@ Successful operation
 [main.ts:1576](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L1576)
 
 ___
+
 
 ### googleEventsTaskPost
 
@@ -1102,6 +1143,7 @@ Successful operation
 
 ___
 
+
 ### googleEventsTasksFixed
 
 ▸ **googleEventsTasksFixed**(): `Promise`\<[`SerpGoogleEventsTasksFixedResponseInfo`](SerpGoogleEventsTasksFixedResponseInfo.md)\>
@@ -1118,6 +1160,7 @@ Successful operation
 
 ___
 
+
 ### googleEventsTasksReady
 
 ▸ **googleEventsTasksReady**(): `Promise`\<[`SerpGoogleEventsTasksReadyResponseInfo`](SerpGoogleEventsTasksReadyResponseInfo.md)\>
@@ -1133,6 +1176,7 @@ Successful operation
 [main.ts:1499](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L1499)
 
 ___
+
 
 ### googleImagesLiveAdvanced
 
@@ -1156,6 +1200,7 @@ Successful operation
 
 ___
 
+
 ### googleImagesLiveHtml
 
 ▸ **googleImagesLiveHtml**(`body`): `Promise`\<[`SerpGoogleImagesLiveHtmlResponseInfo`](SerpGoogleImagesLiveHtmlResponseInfo.md)\>
@@ -1177,6 +1222,7 @@ Successful operation
 [main.ts:1903](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L1903)
 
 ___
+
 
 ### googleImagesTaskGetAdvanced
 
@@ -1200,6 +1246,7 @@ Successful operation
 
 ___
 
+
 ### googleImagesTaskGetHtml
 
 ▸ **googleImagesTaskGetHtml**(`id`): `Promise`\<[`SerpGoogleImagesTaskGetHtmlResponseInfo`](SerpGoogleImagesTaskGetHtmlResponseInfo.md)\>
@@ -1221,6 +1268,7 @@ Successful operation
 [main.ts:1820](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L1820)
 
 ___
+
 
 ### googleImagesTaskPost
 
@@ -1244,6 +1292,7 @@ Successful operation
 
 ___
 
+
 ### googleImagesTasksFixed
 
 ▸ **googleImagesTasksFixed**(): `Promise`\<[`SerpGoogleImagesTasksFixedResponseInfo`](SerpGoogleImagesTasksFixedResponseInfo.md)\>
@@ -1260,6 +1309,7 @@ Successful operation
 
 ___
 
+
 ### googleImagesTasksReady
 
 ▸ **googleImagesTasksReady**(): `Promise`\<[`SerpGoogleImagesTasksReadyResponseInfo`](SerpGoogleImagesTasksReadyResponseInfo.md)\>
@@ -1275,6 +1325,7 @@ Successful operation
 [main.ts:1700](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L1700)
 
 ___
+
 
 ### googleJobsTaskGetAdvanced
 
@@ -1298,6 +1349,7 @@ Successful operation
 
 ___
 
+
 ### googleJobsTaskGetHtml
 
 ▸ **googleJobsTaskGetHtml**(`id`): `Promise`\<[`SerpGoogleJobsTaskGetHtmlResponseInfo`](SerpGoogleJobsTaskGetHtmlResponseInfo.md)\>
@@ -1319,6 +1371,7 @@ Successful operation
 [main.ts:2265](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L2265)
 
 ___
+
 
 ### googleJobsTaskPost
 
@@ -1342,6 +1395,7 @@ Successful operation
 
 ___
 
+
 ### googleJobsTasksFixed
 
 ▸ **googleJobsTasksFixed**(): `Promise`\<[`SerpGoogleJobsTasksFixedResponseInfo`](SerpGoogleJobsTasksFixedResponseInfo.md)\>
@@ -1358,6 +1412,7 @@ Successful operation
 
 ___
 
+
 ### googleJobsTasksReady
 
 ▸ **googleJobsTasksReady**(): `Promise`\<[`SerpGoogleJobsTasksReadyResponseInfo`](SerpGoogleJobsTasksReadyResponseInfo.md)\>
@@ -1373,6 +1428,7 @@ Successful operation
 [main.ts:2145](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L2145)
 
 ___
+
 
 ### googleLocalFinderLiveAdvanced
 
@@ -1396,6 +1452,7 @@ Successful operation
 
 ___
 
+
 ### googleLocalFinderLiveHtml
 
 ▸ **googleLocalFinderLiveHtml**(`body`): `Promise`\<[`SerpGoogleLocalFinderLiveHtmlResponseInfo`](SerpGoogleLocalFinderLiveHtmlResponseInfo.md)\>
@@ -1417,6 +1474,7 @@ Successful operation
 [main.ts:1130](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L1130)
 
 ___
+
 
 ### googleLocalFinderTaskGetAdvanced
 
@@ -1440,6 +1498,7 @@ Successful operation
 
 ___
 
+
 ### googleLocalFinderTaskGetHtml
 
 ▸ **googleLocalFinderTaskGetHtml**(`id`): `Promise`\<[`SerpGoogleLocalFinderTaskGetHtmlResponseInfo`](SerpGoogleLocalFinderTaskGetHtmlResponseInfo.md)\>
@@ -1461,6 +1520,7 @@ Successful operation
 [main.ts:1047](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L1047)
 
 ___
+
 
 ### googleLocalFinderTaskPost
 
@@ -1484,6 +1544,7 @@ Successful operation
 
 ___
 
+
 ### googleLocalFinderTasksFixed
 
 ▸ **googleLocalFinderTasksFixed**(): `Promise`\<[`SerpGoogleLocalFinderTasksFixedResponseInfo`](SerpGoogleLocalFinderTasksFixedResponseInfo.md)\>
@@ -1500,6 +1561,7 @@ Successful operation
 
 ___
 
+
 ### googleLocalFinderTasksReady
 
 ▸ **googleLocalFinderTasksReady**(): `Promise`\<[`SerpGoogleLocalFinderTasksReadyResponseInfo`](SerpGoogleLocalFinderTasksReadyResponseInfo.md)\>
@@ -1515,6 +1577,7 @@ Successful operation
 [main.ts:926](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L926)
 
 ___
+
 
 ### googleMapsLiveAdvanced
 
@@ -1538,6 +1601,7 @@ Successful operation
 
 ___
 
+
 ### googleMapsTaskGetAdvanced
 
 ▸ **googleMapsTaskGetAdvanced**(`id`): `Promise`\<[`SerpGoogleMapsTaskGetAdvancedResponseInfo`](SerpGoogleMapsTaskGetAdvancedResponseInfo.md)\>
@@ -1559,6 +1623,7 @@ Successful operation
 [main.ts:802](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L802)
 
 ___
+
 
 ### googleMapsTaskPost
 
@@ -1582,6 +1647,7 @@ Successful operation
 
 ___
 
+
 ### googleMapsTasksFixed
 
 ▸ **googleMapsTasksFixed**(): `Promise`\<[`SerpGoogleMapsTasksFixedResponseInfo`](SerpGoogleMapsTasksFixedResponseInfo.md)\>
@@ -1598,6 +1664,7 @@ Successful operation
 
 ___
 
+
 ### googleMapsTasksReady
 
 ▸ **googleMapsTasksReady**(): `Promise`\<[`SerpGoogleMapsTasksReadyResponseInfo`](SerpGoogleMapsTasksReadyResponseInfo.md)\>
@@ -1613,6 +1680,7 @@ Successful operation
 [main.ts:724](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L724)
 
 ___
+
 
 ### googleNewsLiveAdvanced
 
@@ -1636,6 +1704,7 @@ Successful operation
 
 ___
 
+
 ### googleNewsLiveHtml
 
 ▸ **googleNewsLiveHtml**(`body`): `Promise`\<[`SerpGoogleNewsLiveHtmlResponseInfo`](SerpGoogleNewsLiveHtmlResponseInfo.md)\>
@@ -1657,6 +1726,7 @@ Successful operation
 [main.ts:1416](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L1416)
 
 ___
+
 
 ### googleNewsTaskGetAdvanced
 
@@ -1680,6 +1750,7 @@ Successful operation
 
 ___
 
+
 ### googleNewsTaskGetHtml
 
 ▸ **googleNewsTaskGetHtml**(`id`): `Promise`\<[`SerpGoogleNewsTaskGetHtmlResponseInfo`](SerpGoogleNewsTaskGetHtmlResponseInfo.md)\>
@@ -1701,6 +1772,7 @@ Successful operation
 [main.ts:1333](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L1333)
 
 ___
+
 
 ### googleNewsTaskPost
 
@@ -1724,6 +1796,7 @@ Successful operation
 
 ___
 
+
 ### googleNewsTasksFixed
 
 ▸ **googleNewsTasksFixed**(): `Promise`\<[`SerpGoogleNewsTasksFixedResponseInfo`](SerpGoogleNewsTasksFixedResponseInfo.md)\>
@@ -1740,6 +1813,7 @@ Successful operation
 
 ___
 
+
 ### googleNewsTasksReady
 
 ▸ **googleNewsTasksReady**(): `Promise`\<[`SerpGoogleNewsTasksReadyResponseInfo`](SerpGoogleNewsTasksReadyResponseInfo.md)\>
@@ -1755,6 +1829,7 @@ Successful operation
 [main.ts:1213](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L1213)
 
 ___
+
 
 ### googleOrganicLiveAdvanced
 
@@ -1778,6 +1853,7 @@ Successful operation
 
 ___
 
+
 ### googleOrganicLiveHtml
 
 ▸ **googleOrganicLiveHtml**(`body`): `Promise`\<[`SerpGoogleOrganicLiveHtmlResponseInfo`](SerpGoogleOrganicLiveHtmlResponseInfo.md)\>
@@ -1799,6 +1875,7 @@ Successful operation
 [main.ts:641](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L641)
 
 ___
+
 
 ### googleOrganicLiveRegular
 
@@ -1822,6 +1899,7 @@ Successful operation
 
 ___
 
+
 ### googleOrganicTaskGetAdvanced
 
 ▸ **googleOrganicTaskGetAdvanced**(`id`): `Promise`\<[`SerpGoogleOrganicTaskGetAdvancedResponseInfo`](SerpGoogleOrganicTaskGetAdvancedResponseInfo.md)\>
@@ -1843,6 +1921,7 @@ Successful operation
 [main.ts:473](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L473)
 
 ___
+
 
 ### googleOrganicTaskGetHtml
 
@@ -1866,6 +1945,7 @@ Successful operation
 
 ___
 
+
 ### googleOrganicTaskGetRegular
 
 ▸ **googleOrganicTaskGetRegular**(`id`): `Promise`\<[`SerpGoogleOrganicTaskGetRegularResponseInfo`](SerpGoogleOrganicTaskGetRegularResponseInfo.md)\>
@@ -1887,6 +1967,7 @@ Successful operation
 [main.ts:430](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L430)
 
 ___
+
 
 ### googleOrganicTaskPost
 
@@ -1910,6 +1991,7 @@ Successful operation
 
 ___
 
+
 ### googleOrganicTasksFixed
 
 ▸ **googleOrganicTasksFixed**(): `Promise`\<[`SerpGoogleOrganicTasksFixedResponseInfo`](SerpGoogleOrganicTasksFixedResponseInfo.md)\>
@@ -1926,6 +2008,7 @@ Successful operation
 
 ___
 
+
 ### googleOrganicTasksReady
 
 ▸ **googleOrganicTasksReady**(): `Promise`\<[`SerpGoogleOrganicTasksReadyResponseInfo`](SerpGoogleOrganicTasksReadyResponseInfo.md)\>
@@ -1941,6 +2024,7 @@ Successful operation
 [main.ts:353](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L353)
 
 ___
+
 
 ### googleSearchByImageTaskGetAdvanced
 
@@ -1964,6 +2048,7 @@ Successful operation
 
 ___
 
+
 ### googleSearchByImageTaskPost
 
 ▸ **googleSearchByImageTaskPost**(`body`): `Promise`\<[`SerpGoogleSearchByImageTaskPostResponseInfo`](SerpGoogleSearchByImageTaskPostResponseInfo.md)\>
@@ -1986,6 +2071,7 @@ Successful operation
 
 ___
 
+
 ### googleSearchByImageTasksFixed
 
 ▸ **googleSearchByImageTasksFixed**(): `Promise`\<[`SerpGoogleSearchByImageTasksFixedResponseInfo`](SerpGoogleSearchByImageTasksFixedResponseInfo.md)\>
@@ -2002,6 +2088,7 @@ Successful operation
 
 ___
 
+
 ### googleSearchByImageTasksReady
 
 ▸ **googleSearchByImageTasksReady**(): `Promise`\<[`SerpGoogleSearchByImageTasksReadyResponseInfo`](SerpGoogleSearchByImageTasksReadyResponseInfo.md)\>
@@ -2017,6 +2104,7 @@ Successful operation
 [main.ts:1986](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L1986)
 
 ___
+
 
 ### naverOrganicTaskGetAdvanced
 
@@ -2040,6 +2128,7 @@ Successful operation
 
 ___
 
+
 ### naverOrganicTaskGetHtml
 
 ▸ **naverOrganicTaskGetHtml**(`id`): `Promise`\<[`SerpNaverOrganicTaskGetHtmlResponseInfo`](SerpNaverOrganicTaskGetHtmlResponseInfo.md)\>
@@ -2061,6 +2150,7 @@ Successful operation
 [main.ts:5264](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L5264)
 
 ___
+
 
 ### naverOrganicTaskGetRegular
 
@@ -2084,6 +2174,7 @@ Successful operation
 
 ___
 
+
 ### naverOrganicTaskPost
 
 ▸ **naverOrganicTaskPost**(`body`): `Promise`\<[`SerpNaverOrganicTaskPostResponseInfo`](SerpNaverOrganicTaskPostResponseInfo.md)\>
@@ -2106,6 +2197,7 @@ Successful operation
 
 ___
 
+
 ### naverOrganicTasksFixed
 
 ▸ **naverOrganicTasksFixed**(): `Promise`\<[`SerpNaverOrganicTasksFixedResponseInfo`](SerpNaverOrganicTasksFixedResponseInfo.md)\>
@@ -2122,6 +2214,7 @@ Successful operation
 
 ___
 
+
 ### naverOrganicTasksReady
 
 ▸ **naverOrganicTasksReady**(): `Promise`\<[`SerpNaverOrganicTasksReadyResponseInfo`](SerpNaverOrganicTasksReadyResponseInfo.md)\>
@@ -2137,6 +2230,7 @@ Successful operation
 [main.ts:5101](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L5101)
 
 ___
+
 
 ### processAiSummary
 
@@ -2158,6 +2252,7 @@ ___
 
 ___
 
+
 ### processBaiduOrganicTaskGetAdvanced
 
 ▸ **processBaiduOrganicTaskGetAdvanced**(`response`): `Promise`\<[`SerpBaiduOrganicTaskGetAdvancedResponseInfo`](SerpBaiduOrganicTaskGetAdvancedResponseInfo.md)\>
@@ -2177,6 +2272,7 @@ ___
 [main.ts:4995](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L4995)
 
 ___
+
 
 ### processBaiduOrganicTaskGetHtml
 
@@ -2198,6 +2294,7 @@ ___
 
 ___
 
+
 ### processBaiduOrganicTaskGetRegular
 
 ▸ **processBaiduOrganicTaskGetRegular**(`response`): `Promise`\<[`SerpBaiduOrganicTaskGetRegularResponseInfo`](SerpBaiduOrganicTaskGetRegularResponseInfo.md)\>
@@ -2217,6 +2314,7 @@ ___
 [main.ts:4952](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L4952)
 
 ___
+
 
 ### processBaiduOrganicTaskPost
 
@@ -2238,6 +2336,7 @@ ___
 
 ___
 
+
 ### processBaiduOrganicTasksFixed
 
 ▸ **processBaiduOrganicTasksFixed**(`response`): `Promise`\<[`SerpBaiduOrganicTasksFixedResponseInfo`](SerpBaiduOrganicTasksFixedResponseInfo.md)\>
@@ -2257,6 +2356,7 @@ ___
 [main.ts:4909](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L4909)
 
 ___
+
 
 ### processBaiduOrganicTasksReady
 
@@ -2278,6 +2378,7 @@ ___
 
 ___
 
+
 ### processBingLocalPackLiveHtml
 
 ▸ **processBingLocalPackLiveHtml**(`response`): `Promise`\<[`SerpBingLocalPackLiveHtmlResponseInfo`](SerpBingLocalPackLiveHtmlResponseInfo.md)\>
@@ -2297,6 +2398,7 @@ ___
 [main.ts:3462](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L3462)
 
 ___
+
 
 ### processBingLocalPackLiveRegular
 
@@ -2318,6 +2420,7 @@ ___
 
 ___
 
+
 ### processBingLocalPackTaskGetHtml
 
 ▸ **processBingLocalPackTaskGetHtml**(`response`): `Promise`\<[`SerpBingLocalPackTaskGetHtmlResponseInfo`](SerpBingLocalPackTaskGetHtmlResponseInfo.md)\>
@@ -2337,6 +2440,7 @@ ___
 [main.ts:3378](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L3378)
 
 ___
+
 
 ### processBingLocalPackTaskGetRegular
 
@@ -2358,6 +2462,7 @@ ___
 
 ___
 
+
 ### processBingLocalPackTaskPost
 
 ▸ **processBingLocalPackTaskPost**(`response`): `Promise`\<[`SerpBingLocalPackTaskPostResponseInfo`](SerpBingLocalPackTaskPostResponseInfo.md)\>
@@ -2377,6 +2482,7 @@ ___
 [main.ts:3218](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L3218)
 
 ___
+
 
 ### processBingLocalPackTasksFixed
 
@@ -2398,6 +2504,7 @@ ___
 
 ___
 
+
 ### processBingLocalPackTasksReady
 
 ▸ **processBingLocalPackTasksReady**(`response`): `Promise`\<[`SerpBingLocalPackTasksReadyResponseInfo`](SerpBingLocalPackTasksReadyResponseInfo.md)\>
@@ -2417,6 +2524,7 @@ ___
 [main.ts:3255](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L3255)
 
 ___
+
 
 ### processBingOrganicLiveAdvanced
 
@@ -2438,6 +2546,7 @@ ___
 
 ___
 
+
 ### processBingOrganicLiveHtml
 
 ▸ **processBingOrganicLiveHtml**(`response`): `Promise`\<[`SerpBingOrganicLiveHtmlResponseInfo`](SerpBingOrganicLiveHtmlResponseInfo.md)\>
@@ -2457,6 +2566,7 @@ ___
 [main.ts:3176](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L3176)
 
 ___
+
 
 ### processBingOrganicLiveRegular
 
@@ -2478,6 +2588,7 @@ ___
 
 ___
 
+
 ### processBingOrganicTaskGetAdvanced
 
 ▸ **processBingOrganicTaskGetAdvanced**(`response`): `Promise`\<[`SerpBingOrganicTaskGetAdvancedResponseInfo`](SerpBingOrganicTaskGetAdvancedResponseInfo.md)\>
@@ -2497,6 +2608,7 @@ ___
 [main.ts:3007](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L3007)
 
 ___
+
 
 ### processBingOrganicTaskGetHtml
 
@@ -2518,6 +2630,7 @@ ___
 
 ___
 
+
 ### processBingOrganicTaskGetRegular
 
 ▸ **processBingOrganicTaskGetRegular**(`response`): `Promise`\<[`SerpBingOrganicTaskGetRegularResponseInfo`](SerpBingOrganicTaskGetRegularResponseInfo.md)\>
@@ -2537,6 +2650,7 @@ ___
 [main.ts:2964](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L2964)
 
 ___
+
 
 ### processBingOrganicTaskPost
 
@@ -2558,6 +2672,7 @@ ___
 
 ___
 
+
 ### processBingOrganicTasksFixed
 
 ▸ **processBingOrganicTasksFixed**(`response`): `Promise`\<[`SerpBingOrganicTasksFixedResponseInfo`](SerpBingOrganicTasksFixedResponseInfo.md)\>
@@ -2577,6 +2692,7 @@ ___
 [main.ts:2921](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L2921)
 
 ___
+
 
 ### processBingOrganicTasksReady
 
@@ -2598,6 +2714,7 @@ ___
 
 ___
 
+
 ### processGoogleDatasetInfoLiveAdvanced
 
 ▸ **processGoogleDatasetInfoLiveAdvanced**(`response`): `Promise`\<[`SerpGoogleDatasetInfoLiveAdvancedResponseInfo`](SerpGoogleDatasetInfoLiveAdvancedResponseInfo.md)\>
@@ -2617,6 +2734,7 @@ ___
 [main.ts:2686](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L2686)
 
 ___
+
 
 ### processGoogleDatasetInfoTaskGetAdvanced
 
@@ -2638,6 +2756,7 @@ ___
 
 ___
 
+
 ### processGoogleDatasetInfoTaskPost
 
 ▸ **processGoogleDatasetInfoTaskPost**(`response`): `Promise`\<[`SerpGoogleDatasetInfoTaskPostResponseInfo`](SerpGoogleDatasetInfoTaskPostResponseInfo.md)\>
@@ -2657,6 +2776,7 @@ ___
 [main.ts:2527](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L2527)
 
 ___
+
 
 ### processGoogleDatasetInfoTasksFixed
 
@@ -2678,6 +2798,7 @@ ___
 
 ___
 
+
 ### processGoogleDatasetInfoTasksReady
 
 ▸ **processGoogleDatasetInfoTasksReady**(`response`): `Promise`\<[`SerpGoogleDatasetInfoTasksReadyResponseInfo`](SerpGoogleDatasetInfoTasksReadyResponseInfo.md)\>
@@ -2697,6 +2818,7 @@ ___
 [main.ts:2564](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L2564)
 
 ___
+
 
 ### processGoogleDatasetSearchLiveAdvanced
 
@@ -2718,6 +2840,7 @@ ___
 
 ___
 
+
 ### processGoogleDatasetSearchTaskGetAdvanced
 
 ▸ **processGoogleDatasetSearchTaskGetAdvanced**(`response`): `Promise`\<[`SerpGoogleDatasetSearchTaskGetAdvancedResponseInfo`](SerpGoogleDatasetSearchTaskGetAdvancedResponseInfo.md)\>
@@ -2737,6 +2860,7 @@ ___
 [main.ts:2443](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L2443)
 
 ___
+
 
 ### processGoogleDatasetSearchTaskPost
 
@@ -2758,6 +2882,7 @@ ___
 
 ___
 
+
 ### processGoogleDatasetSearchTasksFixed
 
 ▸ **processGoogleDatasetSearchTasksFixed**(`response`): `Promise`\<[`SerpGoogleDatasetSearchTasksFixedResponseInfo`](SerpGoogleDatasetSearchTasksFixedResponseInfo.md)\>
@@ -2777,6 +2902,7 @@ ___
 [main.ts:2400](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L2400)
 
 ___
+
 
 ### processGoogleDatasetSearchTasksReady
 
@@ -2798,6 +2924,7 @@ ___
 
 ___
 
+
 ### processGoogleEventsLiveAdvanced
 
 ▸ **processGoogleEventsLiveAdvanced**(`response`): `Promise`\<[`SerpGoogleEventsLiveAdvancedResponseInfo`](SerpGoogleEventsLiveAdvancedResponseInfo.md)\>
@@ -2817,6 +2944,7 @@ ___
 [main.ts:1637](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L1637)
 
 ___
+
 
 ### processGoogleEventsTaskGetAdvanced
 
@@ -2838,6 +2966,7 @@ ___
 
 ___
 
+
 ### processGoogleEventsTaskPost
 
 ▸ **processGoogleEventsTaskPost**(`response`): `Promise`\<[`SerpGoogleEventsTaskPostResponseInfo`](SerpGoogleEventsTaskPostResponseInfo.md)\>
@@ -2857,6 +2986,7 @@ ___
 [main.ts:1478](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L1478)
 
 ___
+
 
 ### processGoogleEventsTasksFixed
 
@@ -2878,6 +3008,7 @@ ___
 
 ___
 
+
 ### processGoogleEventsTasksReady
 
 ▸ **processGoogleEventsTasksReady**(`response`): `Promise`\<[`SerpGoogleEventsTasksReadyResponseInfo`](SerpGoogleEventsTasksReadyResponseInfo.md)\>
@@ -2897,6 +3028,7 @@ ___
 [main.ts:1515](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L1515)
 
 ___
+
 
 ### processGoogleImagesLiveAdvanced
 
@@ -2918,6 +3050,7 @@ ___
 
 ___
 
+
 ### processGoogleImagesLiveHtml
 
 ▸ **processGoogleImagesLiveHtml**(`response`): `Promise`\<[`SerpGoogleImagesLiveHtmlResponseInfo`](SerpGoogleImagesLiveHtmlResponseInfo.md)\>
@@ -2937,6 +3070,7 @@ ___
 [main.ts:1923](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L1923)
 
 ___
+
 
 ### processGoogleImagesTaskGetAdvanced
 
@@ -2958,6 +3092,7 @@ ___
 
 ___
 
+
 ### processGoogleImagesTaskGetHtml
 
 ▸ **processGoogleImagesTaskGetHtml**(`response`): `Promise`\<[`SerpGoogleImagesTaskGetHtmlResponseInfo`](SerpGoogleImagesTaskGetHtmlResponseInfo.md)\>
@@ -2977,6 +3112,7 @@ ___
 [main.ts:1839](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L1839)
 
 ___
+
 
 ### processGoogleImagesTaskPost
 
@@ -2998,6 +3134,7 @@ ___
 
 ___
 
+
 ### processGoogleImagesTasksFixed
 
 ▸ **processGoogleImagesTasksFixed**(`response`): `Promise`\<[`SerpGoogleImagesTasksFixedResponseInfo`](SerpGoogleImagesTasksFixedResponseInfo.md)\>
@@ -3017,6 +3154,7 @@ ___
 [main.ts:1753](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L1753)
 
 ___
+
 
 ### processGoogleImagesTasksReady
 
@@ -3038,6 +3176,7 @@ ___
 
 ___
 
+
 ### processGoogleJobsTaskGetAdvanced
 
 ▸ **processGoogleJobsTaskGetAdvanced**(`response`): `Promise`\<[`SerpGoogleJobsTaskGetAdvancedResponseInfo`](SerpGoogleJobsTaskGetAdvancedResponseInfo.md)\>
@@ -3057,6 +3196,7 @@ ___
 [main.ts:2241](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L2241)
 
 ___
+
 
 ### processGoogleJobsTaskGetHtml
 
@@ -3078,6 +3218,7 @@ ___
 
 ___
 
+
 ### processGoogleJobsTaskPost
 
 ▸ **processGoogleJobsTaskPost**(`response`): `Promise`\<[`SerpGoogleJobsTaskPostResponseInfo`](SerpGoogleJobsTaskPostResponseInfo.md)\>
@@ -3097,6 +3238,7 @@ ___
 [main.ts:2124](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L2124)
 
 ___
+
 
 ### processGoogleJobsTasksFixed
 
@@ -3118,6 +3260,7 @@ ___
 
 ___
 
+
 ### processGoogleJobsTasksReady
 
 ▸ **processGoogleJobsTasksReady**(`response`): `Promise`\<[`SerpGoogleJobsTasksReadyResponseInfo`](SerpGoogleJobsTasksReadyResponseInfo.md)\>
@@ -3137,6 +3280,7 @@ ___
 [main.ts:2161](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L2161)
 
 ___
+
 
 ### processGoogleLocalFinderLiveAdvanced
 
@@ -3158,6 +3302,7 @@ ___
 
 ___
 
+
 ### processGoogleLocalFinderLiveHtml
 
 ▸ **processGoogleLocalFinderLiveHtml**(`response`): `Promise`\<[`SerpGoogleLocalFinderLiveHtmlResponseInfo`](SerpGoogleLocalFinderLiveHtmlResponseInfo.md)\>
@@ -3177,6 +3322,7 @@ ___
 [main.ts:1150](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L1150)
 
 ___
+
 
 ### processGoogleLocalFinderTaskGetAdvanced
 
@@ -3198,6 +3344,7 @@ ___
 
 ___
 
+
 ### processGoogleLocalFinderTaskGetHtml
 
 ▸ **processGoogleLocalFinderTaskGetHtml**(`response`): `Promise`\<[`SerpGoogleLocalFinderTaskGetHtmlResponseInfo`](SerpGoogleLocalFinderTaskGetHtmlResponseInfo.md)\>
@@ -3217,6 +3364,7 @@ ___
 [main.ts:1066](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L1066)
 
 ___
+
 
 ### processGoogleLocalFinderTaskPost
 
@@ -3238,6 +3386,7 @@ ___
 
 ___
 
+
 ### processGoogleLocalFinderTasksFixed
 
 ▸ **processGoogleLocalFinderTasksFixed**(`response`): `Promise`\<[`SerpGoogleLocalFinderTasksFixedResponseInfo`](SerpGoogleLocalFinderTasksFixedResponseInfo.md)\>
@@ -3257,6 +3406,7 @@ ___
 [main.ts:979](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L979)
 
 ___
+
 
 ### processGoogleLocalFinderTasksReady
 
@@ -3278,6 +3428,7 @@ ___
 
 ___
 
+
 ### processGoogleMapsLiveAdvanced
 
 ▸ **processGoogleMapsLiveAdvanced**(`response`): `Promise`\<[`SerpGoogleMapsLiveAdvancedResponseInfo`](SerpGoogleMapsLiveAdvancedResponseInfo.md)\>
@@ -3297,6 +3448,7 @@ ___
 [main.ts:863](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L863)
 
 ___
+
 
 ### processGoogleMapsTaskGetAdvanced
 
@@ -3318,6 +3470,7 @@ ___
 
 ___
 
+
 ### processGoogleMapsTaskPost
 
 ▸ **processGoogleMapsTaskPost**(`response`): `Promise`\<[`SerpGoogleMapsTaskPostResponseInfo`](SerpGoogleMapsTaskPostResponseInfo.md)\>
@@ -3337,6 +3490,7 @@ ___
 [main.ts:703](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L703)
 
 ___
+
 
 ### processGoogleMapsTasksFixed
 
@@ -3358,6 +3512,7 @@ ___
 
 ___
 
+
 ### processGoogleMapsTasksReady
 
 ▸ **processGoogleMapsTasksReady**(`response`): `Promise`\<[`SerpGoogleMapsTasksReadyResponseInfo`](SerpGoogleMapsTasksReadyResponseInfo.md)\>
@@ -3377,6 +3532,7 @@ ___
 [main.ts:740](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L740)
 
 ___
+
 
 ### processGoogleNewsLiveAdvanced
 
@@ -3398,6 +3554,7 @@ ___
 
 ___
 
+
 ### processGoogleNewsLiveHtml
 
 ▸ **processGoogleNewsLiveHtml**(`response`): `Promise`\<[`SerpGoogleNewsLiveHtmlResponseInfo`](SerpGoogleNewsLiveHtmlResponseInfo.md)\>
@@ -3417,6 +3574,7 @@ ___
 [main.ts:1436](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L1436)
 
 ___
+
 
 ### processGoogleNewsTaskGetAdvanced
 
@@ -3438,6 +3596,7 @@ ___
 
 ___
 
+
 ### processGoogleNewsTaskGetHtml
 
 ▸ **processGoogleNewsTaskGetHtml**(`response`): `Promise`\<[`SerpGoogleNewsTaskGetHtmlResponseInfo`](SerpGoogleNewsTaskGetHtmlResponseInfo.md)\>
@@ -3457,6 +3616,7 @@ ___
 [main.ts:1352](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L1352)
 
 ___
+
 
 ### processGoogleNewsTaskPost
 
@@ -3478,6 +3638,7 @@ ___
 
 ___
 
+
 ### processGoogleNewsTasksFixed
 
 ▸ **processGoogleNewsTasksFixed**(`response`): `Promise`\<[`SerpGoogleNewsTasksFixedResponseInfo`](SerpGoogleNewsTasksFixedResponseInfo.md)\>
@@ -3497,6 +3658,7 @@ ___
 [main.ts:1266](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L1266)
 
 ___
+
 
 ### processGoogleNewsTasksReady
 
@@ -3518,6 +3680,7 @@ ___
 
 ___
 
+
 ### processGoogleOrganicLiveAdvanced
 
 ▸ **processGoogleOrganicLiveAdvanced**(`response`): `Promise`\<[`SerpGoogleOrganicLiveAdvancedResponseInfo`](SerpGoogleOrganicLiveAdvancedResponseInfo.md)\>
@@ -3537,6 +3700,7 @@ ___
 [main.ts:619](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L619)
 
 ___
+
 
 ### processGoogleOrganicLiveHtml
 
@@ -3558,6 +3722,7 @@ ___
 
 ___
 
+
 ### processGoogleOrganicLiveRegular
 
 ▸ **processGoogleOrganicLiveRegular**(`response`): `Promise`\<[`SerpGoogleOrganicLiveRegularResponseInfo`](SerpGoogleOrganicLiveRegularResponseInfo.md)\>
@@ -3577,6 +3742,7 @@ ___
 [main.ts:577](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L577)
 
 ___
+
 
 ### processGoogleOrganicTaskGetAdvanced
 
@@ -3598,6 +3764,7 @@ ___
 
 ___
 
+
 ### processGoogleOrganicTaskGetHtml
 
 ▸ **processGoogleOrganicTaskGetHtml**(`response`): `Promise`\<[`SerpGoogleOrganicTaskGetHtmlResponseInfo`](SerpGoogleOrganicTaskGetHtmlResponseInfo.md)\>
@@ -3617,6 +3784,7 @@ ___
 [main.ts:535](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L535)
 
 ___
+
 
 ### processGoogleOrganicTaskGetRegular
 
@@ -3638,6 +3806,7 @@ ___
 
 ___
 
+
 ### processGoogleOrganicTaskPost
 
 ▸ **processGoogleOrganicTaskPost**(`response`): `Promise`\<[`SerpGoogleOrganicTaskPostResponseInfo`](SerpGoogleOrganicTaskPostResponseInfo.md)\>
@@ -3657,6 +3826,7 @@ ___
 [main.ts:332](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L332)
 
 ___
+
 
 ### processGoogleOrganicTasksFixed
 
@@ -3678,6 +3848,7 @@ ___
 
 ___
 
+
 ### processGoogleOrganicTasksReady
 
 ▸ **processGoogleOrganicTasksReady**(`response`): `Promise`\<[`SerpGoogleOrganicTasksReadyResponseInfo`](SerpGoogleOrganicTasksReadyResponseInfo.md)\>
@@ -3697,6 +3868,7 @@ ___
 [main.ts:369](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L369)
 
 ___
+
 
 ### processGoogleSearchByImageTaskGetAdvanced
 
@@ -3718,6 +3890,7 @@ ___
 
 ___
 
+
 ### processGoogleSearchByImageTaskPost
 
 ▸ **processGoogleSearchByImageTaskPost**(`response`): `Promise`\<[`SerpGoogleSearchByImageTaskPostResponseInfo`](SerpGoogleSearchByImageTaskPostResponseInfo.md)\>
@@ -3737,6 +3910,7 @@ ___
 [main.ts:1965](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L1965)
 
 ___
+
 
 ### processGoogleSearchByImageTasksFixed
 
@@ -3758,6 +3932,7 @@ ___
 
 ___
 
+
 ### processGoogleSearchByImageTasksReady
 
 ▸ **processGoogleSearchByImageTasksReady**(`response`): `Promise`\<[`SerpGoogleSearchByImageTasksReadyResponseInfo`](SerpGoogleSearchByImageTasksReadyResponseInfo.md)\>
@@ -3777,6 +3952,7 @@ ___
 [main.ts:2002](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L2002)
 
 ___
+
 
 ### processNaverOrganicTaskGetAdvanced
 
@@ -3798,6 +3974,7 @@ ___
 
 ___
 
+
 ### processNaverOrganicTaskGetHtml
 
 ▸ **processNaverOrganicTaskGetHtml**(`response`): `Promise`\<[`SerpNaverOrganicTaskGetHtmlResponseInfo`](SerpNaverOrganicTaskGetHtmlResponseInfo.md)\>
@@ -3817,6 +3994,7 @@ ___
 [main.ts:5283](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L5283)
 
 ___
+
 
 ### processNaverOrganicTaskGetRegular
 
@@ -3838,6 +4016,7 @@ ___
 
 ___
 
+
 ### processNaverOrganicTaskPost
 
 ▸ **processNaverOrganicTaskPost**(`response`): `Promise`\<[`SerpNaverOrganicTaskPostResponseInfo`](SerpNaverOrganicTaskPostResponseInfo.md)\>
@@ -3857,6 +4036,7 @@ ___
 [main.ts:5080](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L5080)
 
 ___
+
 
 ### processNaverOrganicTasksFixed
 
@@ -3878,6 +4058,7 @@ ___
 
 ___
 
+
 ### processNaverOrganicTasksReady
 
 ▸ **processNaverOrganicTasksReady**(`response`): `Promise`\<[`SerpNaverOrganicTasksReadyResponseInfo`](SerpNaverOrganicTasksReadyResponseInfo.md)\>
@@ -3897,6 +4078,7 @@ ___
 [main.ts:5117](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L5117)
 
 ___
+
 
 ### processScreenshot
 
@@ -3918,6 +4100,7 @@ ___
 
 ___
 
+
 ### processSerpBaiduLanguages
 
 ▸ **processSerpBaiduLanguages**(`response`): `Promise`\<[`SerpBaiduLanguagesResponseInfo`](SerpBaiduLanguagesResponseInfo.md)\>
@@ -3937,6 +4120,7 @@ ___
 [main.ts:4793](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L4793)
 
 ___
+
 
 ### processSerpBaiduLocations
 
@@ -3958,6 +4142,7 @@ ___
 
 ___
 
+
 ### processSerpBaiduLocationsCountry
 
 ▸ **processSerpBaiduLocationsCountry**(`response`): `Promise`\<[`SerpBaiduLocationsCountryResponseInfo`](SerpBaiduLocationsCountryResponseInfo.md)\>
@@ -3977,6 +4162,7 @@ ___
 [main.ts:4756](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L4756)
 
 ___
+
 
 ### processSerpBingLanguages
 
@@ -3998,6 +4184,7 @@ ___
 
 ___
 
+
 ### processSerpBingLocations
 
 ▸ **processSerpBingLocations**(`response`): `Promise`\<[`SerpBingLocationsResponseInfo`](SerpBingLocationsResponseInfo.md)\>
@@ -4017,6 +4204,7 @@ ___
 [main.ts:2723](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L2723)
 
 ___
+
 
 ### processSerpBingLocationsCountry
 
@@ -4038,6 +4226,7 @@ ___
 
 ___
 
+
 ### processSerpErrors
 
 ▸ **processSerpErrors**(`response`): `Promise`\<[`SerpErrorsResponseInfo`](SerpErrorsResponseInfo.md)\>
@@ -4057,6 +4246,7 @@ ___
 [main.ts:87](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L87)
 
 ___
+
 
 ### processSerpGoogleLanguages
 
@@ -4078,6 +4268,7 @@ ___
 
 ___
 
+
 ### processSerpGoogleLocations
 
 ▸ **processSerpGoogleLocations**(`response`): `Promise`\<[`SerpGoogleLocationsResponseInfo`](SerpGoogleLocationsResponseInfo.md)\>
@@ -4097,6 +4288,7 @@ ___
 [main.ts:208](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L208)
 
 ___
+
 
 ### processSerpGoogleLocationsCountry
 
@@ -4118,6 +4310,7 @@ ___
 
 ___
 
+
 ### processSerpIdList
 
 ▸ **processSerpIdList**(`response`): `Promise`\<[`SerpIdListResponseInfo`](SerpIdListResponseInfo.md)\>
@@ -4137,6 +4330,7 @@ ___
 [main.ts:45](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L45)
 
 ___
+
 
 ### processSerpSeznamLanguages
 
@@ -4158,6 +4352,7 @@ ___
 
 ___
 
+
 ### processSerpSeznamLocations
 
 ▸ **processSerpSeznamLocations**(`response`): `Promise`\<[`SerpSeznamLocationsResponseInfo`](SerpSeznamLocationsResponseInfo.md)\>
@@ -4177,6 +4372,7 @@ ___
 [main.ts:5320](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L5320)
 
 ___
+
 
 ### processSerpSeznamLocationsCountry
 
@@ -4198,6 +4394,7 @@ ___
 
 ___
 
+
 ### processSerpYahooLanguages
 
 ▸ **processSerpYahooLanguages**(`response`): `Promise`\<[`SerpYahooLanguagesResponseInfo`](SerpYahooLanguagesResponseInfo.md)\>
@@ -4217,6 +4414,7 @@ ___
 [main.ts:4303](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L4303)
 
 ___
+
 
 ### processSerpYahooLocations
 
@@ -4238,6 +4436,7 @@ ___
 
 ___
 
+
 ### processSerpYahooLocationsCountry
 
 ▸ **processSerpYahooLocationsCountry**(`response`): `Promise`\<[`SerpYahooLocationsCountryResponseInfo`](SerpYahooLocationsCountryResponseInfo.md)\>
@@ -4257,6 +4456,7 @@ ___
 [main.ts:4266](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L4266)
 
 ___
+
 
 ### processSerpYoutubeLanguages
 
@@ -4278,6 +4478,7 @@ ___
 
 ___
 
+
 ### processSerpYoutubeLocations
 
 ▸ **processSerpYoutubeLocations**(`response`): `Promise`\<[`SerpYoutubeLocationsResponseInfo`](SerpYoutubeLocationsResponseInfo.md)\>
@@ -4297,6 +4498,7 @@ ___
 [main.ts:3499](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L3499)
 
 ___
+
 
 ### processSerpYoutubeLocationsCountry
 
@@ -4318,6 +4520,7 @@ ___
 
 ___
 
+
 ### processSeznamOrganicTaskGetAdvanced
 
 ▸ **processSeznamOrganicTaskGetAdvanced**(`response`): `Promise`\<[`SerpSeznamOrganicTaskGetAdvancedResponseInfo`](SerpSeznamOrganicTaskGetAdvancedResponseInfo.md)\>
@@ -4337,6 +4540,7 @@ ___
 [main.ts:5604](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L5604)
 
 ___
+
 
 ### processSeznamOrganicTaskGetHtml
 
@@ -4358,6 +4562,7 @@ ___
 
 ___
 
+
 ### processSeznamOrganicTaskGetRegular
 
 ▸ **processSeznamOrganicTaskGetRegular**(`response`): `Promise`\<[`SerpSeznamOrganicTaskGetRegularResponseInfo`](SerpSeznamOrganicTaskGetRegularResponseInfo.md)\>
@@ -4377,6 +4582,7 @@ ___
 [main.ts:5561](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L5561)
 
 ___
+
 
 ### processSeznamOrganicTaskPost
 
@@ -4398,6 +4604,7 @@ ___
 
 ___
 
+
 ### processSeznamOrganicTasksFixed
 
 ▸ **processSeznamOrganicTasksFixed**(`response`): `Promise`\<[`SerpSeznamOrganicTasksFixedResponseInfo`](SerpSeznamOrganicTasksFixedResponseInfo.md)\>
@@ -4417,6 +4624,7 @@ ___
 [main.ts:5518](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L5518)
 
 ___
+
 
 ### processSeznamOrganicTasksReady
 
@@ -4438,6 +4646,7 @@ ___
 
 ___
 
+
 ### processYahooOrganicLiveAdvanced
 
 ▸ **processYahooOrganicLiveAdvanced**(`response`): `Promise`\<[`SerpYahooOrganicLiveAdvancedResponseInfo`](SerpYahooOrganicLiveAdvancedResponseInfo.md)\>
@@ -4457,6 +4666,7 @@ ___
 [main.ts:4632](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L4632)
 
 ___
+
 
 ### processYahooOrganicLiveHtml
 
@@ -4478,6 +4688,7 @@ ___
 
 ___
 
+
 ### processYahooOrganicLiveRegular
 
 ▸ **processYahooOrganicLiveRegular**(`response`): `Promise`\<[`SerpYahooOrganicLiveRegularResponseInfo`](SerpYahooOrganicLiveRegularResponseInfo.md)\>
@@ -4497,6 +4708,7 @@ ___
 [main.ts:4590](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L4590)
 
 ___
+
 
 ### processYahooOrganicTaskGetAdvanced
 
@@ -4518,6 +4730,7 @@ ___
 
 ___
 
+
 ### processYahooOrganicTaskGetHtml
 
 ▸ **processYahooOrganicTaskGetHtml**(`response`): `Promise`\<[`SerpYahooOrganicTaskGetHtmlResponseInfo`](SerpYahooOrganicTaskGetHtmlResponseInfo.md)\>
@@ -4537,6 +4750,7 @@ ___
 [main.ts:4548](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L4548)
 
 ___
+
 
 ### processYahooOrganicTaskGetRegular
 
@@ -4558,6 +4772,7 @@ ___
 
 ___
 
+
 ### processYahooOrganicTaskPost
 
 ▸ **processYahooOrganicTaskPost**(`response`): `Promise`\<[`SerpYahooOrganicTaskPostResponseInfo`](SerpYahooOrganicTaskPostResponseInfo.md)\>
@@ -4577,6 +4792,7 @@ ___
 [main.ts:4345](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L4345)
 
 ___
+
 
 ### processYahooOrganicTasksFixed
 
@@ -4598,6 +4814,7 @@ ___
 
 ___
 
+
 ### processYahooOrganicTasksReady
 
 ▸ **processYahooOrganicTasksReady**(`response`): `Promise`\<[`SerpYahooOrganicTasksReadyResponseInfo`](SerpYahooOrganicTasksReadyResponseInfo.md)\>
@@ -4617,6 +4834,7 @@ ___
 [main.ts:4382](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L4382)
 
 ___
+
 
 ### processYoutubeVideoCommentsLiveAdvanced
 
@@ -4638,6 +4856,7 @@ ___
 
 ___
 
+
 ### processYoutubeVideoCommentsTaskGetAdvanced
 
 ▸ **processYoutubeVideoCommentsTaskGetAdvanced**(`response`): `Promise`\<[`SerpYoutubeVideoCommentsTaskGetAdvancedResponseInfo`](SerpYoutubeVideoCommentsTaskGetAdvancedResponseInfo.md)\>
@@ -4657,6 +4876,7 @@ ___
 [main.ts:4142](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L4142)
 
 ___
+
 
 ### processYoutubeVideoCommentsTaskPost
 
@@ -4678,6 +4898,7 @@ ___
 
 ___
 
+
 ### processYoutubeVideoCommentsTasksFixed
 
 ▸ **processYoutubeVideoCommentsTasksFixed**(`response`): `Promise`\<[`SerpYoutubeVideoCommentsTasksFixedResponseInfo`](SerpYoutubeVideoCommentsTasksFixedResponseInfo.md)\>
@@ -4697,6 +4918,7 @@ ___
 [main.ts:4099](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L4099)
 
 ___
+
 
 ### processYoutubeVideoCommentsTasksReady
 
@@ -4718,6 +4940,7 @@ ___
 
 ___
 
+
 ### processYoutubeVideoInfoLiveAdvanced
 
 ▸ **processYoutubeVideoInfoLiveAdvanced**(`response`): `Promise`\<[`SerpYoutubeVideoInfoLiveAdvancedResponseInfo`](SerpYoutubeVideoInfoLiveAdvancedResponseInfo.md)\>
@@ -4737,6 +4960,7 @@ ___
 [main.ts:3782](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L3782)
 
 ___
+
 
 ### processYoutubeVideoInfoTaskGetAdvanced
 
@@ -4758,6 +4982,7 @@ ___
 
 ___
 
+
 ### processYoutubeVideoInfoTaskPost
 
 ▸ **processYoutubeVideoInfoTaskPost**(`response`): `Promise`\<[`SerpYoutubeVideoInfoTaskPostResponseInfo`](SerpYoutubeVideoInfoTaskPostResponseInfo.md)\>
@@ -4777,6 +5002,7 @@ ___
 [main.ts:3623](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L3623)
 
 ___
+
 
 ### processYoutubeVideoInfoTasksFixed
 
@@ -4798,6 +5024,7 @@ ___
 
 ___
 
+
 ### processYoutubeVideoInfoTasksReady
 
 ▸ **processYoutubeVideoInfoTasksReady**(`response`): `Promise`\<[`SerpYoutubeVideoInfoTasksReadyResponseInfo`](SerpYoutubeVideoInfoTasksReadyResponseInfo.md)\>
@@ -4817,6 +5044,7 @@ ___
 [main.ts:3660](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L3660)
 
 ___
+
 
 ### processYoutubeVideoSubtitlesLiveAdvanced
 
@@ -4838,6 +5066,7 @@ ___
 
 ___
 
+
 ### processYoutubeVideoSubtitlesTaskGetAdvanced
 
 ▸ **processYoutubeVideoSubtitlesTaskGetAdvanced**(`response`): `Promise`\<[`SerpYoutubeVideoSubtitlesTaskGetAdvancedResponseInfo`](SerpYoutubeVideoSubtitlesTaskGetAdvancedResponseInfo.md)\>
@@ -4857,6 +5086,7 @@ ___
 [main.ts:3941](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L3941)
 
 ___
+
 
 ### processYoutubeVideoSubtitlesTaskPost
 
@@ -4878,6 +5108,7 @@ ___
 
 ___
 
+
 ### processYoutubeVideoSubtitlesTasksFixed
 
 ▸ **processYoutubeVideoSubtitlesTasksFixed**(`response`): `Promise`\<[`SerpYoutubeVideoSubtitlesTasksFixedResponseInfo`](SerpYoutubeVideoSubtitlesTasksFixedResponseInfo.md)\>
@@ -4898,6 +5129,7 @@ ___
 
 ___
 
+
 ### processYoutubeVideoSubtitlesTasksReady
 
 ▸ **processYoutubeVideoSubtitlesTasksReady**(`response`): `Promise`\<[`SerpYoutubeVideoSubtitlesTasksReadyResponseInfo`](SerpYoutubeVideoSubtitlesTasksReadyResponseInfo.md)\>
@@ -4917,6 +5149,7 @@ ___
 [main.ts:3861](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L3861)
 
 ___
+
 
 ### screenshot
 
@@ -4940,6 +5173,7 @@ Successful operation
 
 ___
 
+
 ### serpBaiduLanguages
 
 ▸ **serpBaiduLanguages**(): `Promise`\<[`SerpBaiduLanguagesResponseInfo`](SerpBaiduLanguagesResponseInfo.md)\>
@@ -4956,6 +5190,7 @@ Successful operation
 
 ___
 
+
 ### serpBaiduLocations
 
 ▸ **serpBaiduLocations**(): `Promise`\<[`SerpBaiduLocationsResponseInfo`](SerpBaiduLocationsResponseInfo.md)\>
@@ -4971,6 +5206,7 @@ Successful operation
 [main.ts:4695](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L4695)
 
 ___
+
 
 ### serpBaiduLocationsCountry
 
@@ -4994,6 +5230,7 @@ Successful operation
 
 ___
 
+
 ### serpBingLanguages
 
 ▸ **serpBingLanguages**(): `Promise`\<[`SerpBingLanguagesResponseInfo`](SerpBingLanguagesResponseInfo.md)\>
@@ -5010,6 +5247,7 @@ Successful operation
 
 ___
 
+
 ### serpBingLocations
 
 ▸ **serpBingLocations**(): `Promise`\<[`SerpBingLocationsResponseInfo`](SerpBingLocationsResponseInfo.md)\>
@@ -5025,6 +5263,7 @@ Successful operation
 [main.ts:2707](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L2707)
 
 ___
+
 
 ### serpBingLocationsCountry
 
@@ -5048,6 +5287,7 @@ Successful operation
 
 ___
 
+
 ### serpErrors
 
 ▸ **serpErrors**(`body`): `Promise`\<[`SerpErrorsResponseInfo`](SerpErrorsResponseInfo.md)\>
@@ -5070,6 +5310,7 @@ Successful operation
 
 ___
 
+
 ### serpGoogleLanguages
 
 ▸ **serpGoogleLanguages**(): `Promise`\<[`SerpGoogleLanguagesResponseInfo`](SerpGoogleLanguagesResponseInfo.md)\>
@@ -5086,6 +5327,7 @@ Successful operation
 
 ___
 
+
 ### serpGoogleLocations
 
 ▸ **serpGoogleLocations**(): `Promise`\<[`SerpGoogleLocationsResponseInfo`](SerpGoogleLocationsResponseInfo.md)\>
@@ -5101,6 +5343,7 @@ Successful operation
 [main.ts:192](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L192)
 
 ___
+
 
 ### serpGoogleLocationsCountry
 
@@ -5124,6 +5367,7 @@ Successful operation
 
 ___
 
+
 ### serpIdList
 
 ▸ **serpIdList**(`body`): `Promise`\<[`SerpIdListResponseInfo`](SerpIdListResponseInfo.md)\>
@@ -5146,6 +5390,7 @@ Successful operation
 
 ___
 
+
 ### serpSeznamLanguages
 
 ▸ **serpSeznamLanguages**(): `Promise`\<[`SerpSeznamLanguagesResponseInfo`](SerpSeznamLanguagesResponseInfo.md)\>
@@ -5162,6 +5407,7 @@ Successful operation
 
 ___
 
+
 ### serpSeznamLocations
 
 ▸ **serpSeznamLocations**(): `Promise`\<[`SerpSeznamLocationsResponseInfo`](SerpSeznamLocationsResponseInfo.md)\>
@@ -5177,6 +5423,7 @@ Successful operation
 [main.ts:5304](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L5304)
 
 ___
+
 
 ### serpSeznamLocationsCountry
 
@@ -5200,6 +5447,7 @@ Successful operation
 
 ___
 
+
 ### serpYahooLanguages
 
 ▸ **serpYahooLanguages**(): `Promise`\<[`SerpYahooLanguagesResponseInfo`](SerpYahooLanguagesResponseInfo.md)\>
@@ -5216,6 +5464,7 @@ Successful operation
 
 ___
 
+
 ### serpYahooLocations
 
 ▸ **serpYahooLocations**(): `Promise`\<[`SerpYahooLocationsResponseInfo`](SerpYahooLocationsResponseInfo.md)\>
@@ -5231,6 +5480,7 @@ Successful operation
 [main.ts:4205](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L4205)
 
 ___
+
 
 ### serpYahooLocationsCountry
 
@@ -5254,6 +5504,7 @@ Successful operation
 
 ___
 
+
 ### serpYoutubeLanguages
 
 ▸ **serpYoutubeLanguages**(): `Promise`\<[`SerpYoutubeLanguagesResponseInfo`](SerpYoutubeLanguagesResponseInfo.md)\>
@@ -5270,6 +5521,7 @@ Successful operation
 
 ___
 
+
 ### serpYoutubeLocations
 
 ▸ **serpYoutubeLocations**(): `Promise`\<[`SerpYoutubeLocationsResponseInfo`](SerpYoutubeLocationsResponseInfo.md)\>
@@ -5285,6 +5537,7 @@ Successful operation
 [main.ts:3483](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L3483)
 
 ___
+
 
 ### serpYoutubeLocationsCountry
 
@@ -5308,6 +5561,7 @@ Successful operation
 
 ___
 
+
 ### seznamOrganicTaskGetAdvanced
 
 ▸ **seznamOrganicTaskGetAdvanced**(`id`): `Promise`\<[`SerpSeznamOrganicTaskGetAdvancedResponseInfo`](SerpSeznamOrganicTaskGetAdvancedResponseInfo.md)\>
@@ -5329,6 +5583,7 @@ Successful operation
 [main.ts:5585](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L5585)
 
 ___
+
 
 ### seznamOrganicTaskGetHtml
 
@@ -5352,6 +5607,7 @@ Successful operation
 
 ___
 
+
 ### seznamOrganicTaskGetRegular
 
 ▸ **seznamOrganicTaskGetRegular**(`id`): `Promise`\<[`SerpSeznamOrganicTaskGetRegularResponseInfo`](SerpSeznamOrganicTaskGetRegularResponseInfo.md)\>
@@ -5373,6 +5629,7 @@ Successful operation
 [main.ts:5542](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L5542)
 
 ___
+
 
 ### seznamOrganicTaskPost
 
@@ -5396,6 +5653,7 @@ Successful operation
 
 ___
 
+
 ### seznamOrganicTasksFixed
 
 ▸ **seznamOrganicTasksFixed**(): `Promise`\<[`SerpSeznamOrganicTasksFixedResponseInfo`](SerpSeznamOrganicTasksFixedResponseInfo.md)\>
@@ -5412,6 +5670,7 @@ Successful operation
 
 ___
 
+
 ### seznamOrganicTasksReady
 
 ▸ **seznamOrganicTasksReady**(): `Promise`\<[`SerpSeznamOrganicTasksReadyResponseInfo`](SerpSeznamOrganicTasksReadyResponseInfo.md)\>
@@ -5427,6 +5686,7 @@ Successful operation
 [main.ts:5465](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L5465)
 
 ___
+
 
 ### yahooOrganicLiveAdvanced
 
@@ -5450,6 +5710,7 @@ Successful operation
 
 ___
 
+
 ### yahooOrganicLiveHtml
 
 ▸ **yahooOrganicLiveHtml**(`body`): `Promise`\<[`SerpYahooOrganicLiveHtmlResponseInfo`](SerpYahooOrganicLiveHtmlResponseInfo.md)\>
@@ -5471,6 +5732,7 @@ Successful operation
 [main.ts:4654](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L4654)
 
 ___
+
 
 ### yahooOrganicLiveRegular
 
@@ -5494,6 +5756,7 @@ Successful operation
 
 ___
 
+
 ### yahooOrganicTaskGetAdvanced
 
 ▸ **yahooOrganicTaskGetAdvanced**(`id`): `Promise`\<[`SerpYahooOrganicTaskGetAdvancedResponseInfo`](SerpYahooOrganicTaskGetAdvancedResponseInfo.md)\>
@@ -5515,6 +5778,7 @@ Successful operation
 [main.ts:4486](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L4486)
 
 ___
+
 
 ### yahooOrganicTaskGetHtml
 
@@ -5538,6 +5802,7 @@ Successful operation
 
 ___
 
+
 ### yahooOrganicTaskGetRegular
 
 ▸ **yahooOrganicTaskGetRegular**(`id`): `Promise`\<[`SerpYahooOrganicTaskGetRegularResponseInfo`](SerpYahooOrganicTaskGetRegularResponseInfo.md)\>
@@ -5559,6 +5824,7 @@ Successful operation
 [main.ts:4443](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L4443)
 
 ___
+
 
 ### yahooOrganicTaskPost
 
@@ -5582,6 +5848,7 @@ Successful operation
 
 ___
 
+
 ### yahooOrganicTasksFixed
 
 ▸ **yahooOrganicTasksFixed**(): `Promise`\<[`SerpYahooOrganicTasksFixedResponseInfo`](SerpYahooOrganicTasksFixedResponseInfo.md)\>
@@ -5598,6 +5865,7 @@ Successful operation
 
 ___
 
+
 ### yahooOrganicTasksReady
 
 ▸ **yahooOrganicTasksReady**(): `Promise`\<[`SerpYahooOrganicTasksReadyResponseInfo`](SerpYahooOrganicTasksReadyResponseInfo.md)\>
@@ -5613,6 +5881,7 @@ Successful operation
 [main.ts:4366](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L4366)
 
 ___
+
 
 ### youtubeVideoCommentsLiveAdvanced
 
@@ -5636,6 +5905,7 @@ Successful operation
 
 ___
 
+
 ### youtubeVideoCommentsTaskGetAdvanced
 
 ▸ **youtubeVideoCommentsTaskGetAdvanced**(`id`): `Promise`\<[`SerpYoutubeVideoCommentsTaskGetAdvancedResponseInfo`](SerpYoutubeVideoCommentsTaskGetAdvancedResponseInfo.md)\>
@@ -5657,6 +5927,7 @@ Successful operation
 [main.ts:4123](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L4123)
 
 ___
+
 
 ### youtubeVideoCommentsTaskPost
 
@@ -5680,6 +5951,7 @@ Successful operation
 
 ___
 
+
 ### youtubeVideoCommentsTasksFixed
 
 ▸ **youtubeVideoCommentsTasksFixed**(): `Promise`\<[`SerpYoutubeVideoCommentsTasksFixedResponseInfo`](SerpYoutubeVideoCommentsTasksFixedResponseInfo.md)\>
@@ -5696,6 +5968,7 @@ Successful operation
 
 ___
 
+
 ### youtubeVideoCommentsTasksReady
 
 ▸ **youtubeVideoCommentsTasksReady**(): `Promise`\<[`SerpYoutubeVideoCommentsTasksReadyResponseInfo`](SerpYoutubeVideoCommentsTasksReadyResponseInfo.md)\>
@@ -5711,6 +5984,7 @@ Successful operation
 [main.ts:4046](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L4046)
 
 ___
+
 
 ### youtubeVideoInfoLiveAdvanced
 
@@ -5734,6 +6008,7 @@ Successful operation
 
 ___
 
+
 ### youtubeVideoInfoTaskGetAdvanced
 
 ▸ **youtubeVideoInfoTaskGetAdvanced**(`id`): `Promise`\<[`SerpYoutubeVideoInfoTaskGetAdvancedResponseInfo`](SerpYoutubeVideoInfoTaskGetAdvancedResponseInfo.md)\>
@@ -5755,6 +6030,7 @@ Successful operation
 [main.ts:3721](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L3721)
 
 ___
+
 
 ### youtubeVideoInfoTaskPost
 
@@ -5778,6 +6054,7 @@ Successful operation
 
 ___
 
+
 ### youtubeVideoInfoTasksFixed
 
 ▸ **youtubeVideoInfoTasksFixed**(): `Promise`\<[`SerpYoutubeVideoInfoTasksFixedResponseInfo`](SerpYoutubeVideoInfoTasksFixedResponseInfo.md)\>
@@ -5794,6 +6071,7 @@ Successful operation
 
 ___
 
+
 ### youtubeVideoInfoTasksReady
 
 ▸ **youtubeVideoInfoTasksReady**(): `Promise`\<[`SerpYoutubeVideoInfoTasksReadyResponseInfo`](SerpYoutubeVideoInfoTasksReadyResponseInfo.md)\>
@@ -5809,6 +6087,7 @@ Successful operation
 [main.ts:3644](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L3644)
 
 ___
+
 
 ### youtubeVideoSubtitlesLiveAdvanced
 
@@ -5832,6 +6111,7 @@ Successful operation
 
 ___
 
+
 ### youtubeVideoSubtitlesTaskGetAdvanced
 
 ▸ **youtubeVideoSubtitlesTaskGetAdvanced**(`id`): `Promise`\<[`SerpYoutubeVideoSubtitlesTaskGetAdvancedResponseInfo`](SerpYoutubeVideoSubtitlesTaskGetAdvancedResponseInfo.md)\>
@@ -5853,6 +6133,7 @@ Successful operation
 [main.ts:3922](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L3922)
 
 ___
+
 
 ### youtubeVideoSubtitlesTaskPost
 
@@ -5876,6 +6157,7 @@ Successful operation
 
 ___
 
+
 ### youtubeVideoSubtitlesTasksFixed
 
 ▸ **youtubeVideoSubtitlesTasksFixed**(): `Promise`\<[`SerpYoutubeVideoSubtitlesTasksFixedResponseInfo`](SerpYoutubeVideoSubtitlesTasksFixedResponseInfo.md)\>
@@ -5892,6 +6174,7 @@ Successful operation
 
 ___
 
+
 ### youtubeVideoSubtitlesTasksReady
 
 ▸ **youtubeVideoSubtitlesTasksReady**(): `Promise`\<[`SerpYoutubeVideoSubtitlesTasksReadyResponseInfo`](SerpYoutubeVideoSubtitlesTasksReadyResponseInfo.md)\>
@@ -5905,3 +6188,7 @@ Successful operation
 #### Defined in
 
 [main.ts:3845](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L3845)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

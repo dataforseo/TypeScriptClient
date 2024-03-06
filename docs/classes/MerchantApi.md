@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / MerchantApi
 
 # Class: MerchantApi
@@ -131,6 +135,7 @@
 
 ___
 
+
 ### http
 
 • `Private` **http**: `Object`
@@ -146,6 +151,7 @@ ___
 [main.ts:13611](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L13611)
 
 ___
+
 
 ### jsonParseReviver
 
@@ -194,6 +200,7 @@ Successful operation
 
 ___
 
+
 ### amazonAsinTaskGetHtml
 
 ▸ **amazonAsinTaskGetHtml**(`id`): `Promise`\<[`MerchantAmazonAsinTaskGetHtmlResponseInfo`](MerchantAmazonAsinTaskGetHtmlResponseInfo.md)\>
@@ -215,6 +222,7 @@ Successful operation
 [main.ts:14894](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L14894)
 
 ___
+
 
 ### amazonAsinTaskPost
 
@@ -238,6 +246,7 @@ Successful operation
 
 ___
 
+
 ### amazonAsinTasksReady
 
 ▸ **amazonAsinTasksReady**(): `Promise`\<[`MerchantAmazonAsinTasksReadyResponseInfo`](MerchantAmazonAsinTasksReadyResponseInfo.md)\>
@@ -253,6 +262,7 @@ Successful operation
 [main.ts:14811](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L14811)
 
 ___
+
 
 ### amazonProductsTaskGetAdvanced
 
@@ -276,6 +286,7 @@ Successful operation
 
 ___
 
+
 ### amazonProductsTaskGetHtml
 
 ▸ **amazonProductsTaskGetHtml**(`id`): `Promise`\<[`MerchantAmazonProductsTaskGetHtmlResponseInfo`](MerchantAmazonProductsTaskGetHtmlResponseInfo.md)\>
@@ -297,6 +308,7 @@ Successful operation
 [main.ts:14729](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L14729)
 
 ___
+
 
 ### amazonProductsTaskPost
 
@@ -320,6 +332,7 @@ Successful operation
 
 ___
 
+
 ### amazonProductsTasksReady
 
 ▸ **amazonProductsTasksReady**(): `Promise`\<[`MerchantAmazonProductsTasksReadyResponseInfo`](MerchantAmazonProductsTasksReadyResponseInfo.md)\>
@@ -335,6 +348,7 @@ Successful operation
 [main.ts:14646](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L14646)
 
 ___
+
 
 ### amazonReviewsTaskGetAdvanced
 
@@ -358,6 +372,7 @@ Successful operation
 
 ___
 
+
 ### amazonReviewsTaskGetHtml
 
 ▸ **amazonReviewsTaskGetHtml**(`id`): `Promise`\<[`MerchantAmazonReviewsTaskGetHtmlResponseInfo`](MerchantAmazonReviewsTaskGetHtmlResponseInfo.md)\>
@@ -379,6 +394,7 @@ Successful operation
 [main.ts:15224](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L15224)
 
 ___
+
 
 ### amazonReviewsTaskPost
 
@@ -402,6 +418,7 @@ Successful operation
 
 ___
 
+
 ### amazonReviewsTasksReady
 
 ▸ **amazonReviewsTasksReady**(): `Promise`\<[`MerchantAmazonReviewsTasksReadyResponseInfo`](MerchantAmazonReviewsTasksReadyResponseInfo.md)\>
@@ -417,6 +434,7 @@ Successful operation
 [main.ts:15141](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L15141)
 
 ___
+
 
 ### amazonSellersTaskGetAdvanced
 
@@ -440,6 +458,7 @@ Successful operation
 
 ___
 
+
 ### amazonSellersTaskGetHtml
 
 ▸ **amazonSellersTaskGetHtml**(`id`): `Promise`\<[`MerchantAmazonSellersTaskGetHtmlResponseInfo`](MerchantAmazonSellersTaskGetHtmlResponseInfo.md)\>
@@ -461,6 +480,7 @@ Successful operation
 [main.ts:15059](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L15059)
 
 ___
+
 
 ### amazonSellersTaskPost
 
@@ -484,6 +504,7 @@ Successful operation
 
 ___
 
+
 ### amazonSellersTasksReady
 
 ▸ **amazonSellersTasksReady**(): `Promise`\<[`MerchantAmazonSellersTasksReadyResponseInfo`](MerchantAmazonSellersTasksReadyResponseInfo.md)\>
@@ -499,6 +520,7 @@ Successful operation
 [main.ts:14976](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L14976)
 
 ___
+
 
 ### googleProductInfoTaskGetAdvanced
 
@@ -522,6 +544,7 @@ Successful operation
 
 ___
 
+
 ### googleProductInfoTaskPost
 
 ▸ **googleProductInfoTaskPost**(`body`): `Promise`\<[`MerchantGoogleProductInfoTaskPostResponseInfo`](MerchantGoogleProductInfoTaskPostResponseInfo.md)\>
@@ -544,6 +567,7 @@ Successful operation
 
 ___
 
+
 ### googleProductInfoTasksReady
 
 ▸ **googleProductInfoTasksReady**(): `Promise`\<[`MerchantGoogleProductInfoTasksReadyResponseInfo`](MerchantGoogleProductInfoTasksReadyResponseInfo.md)\>
@@ -559,6 +583,7 @@ Successful operation
 [main.ts:14363](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L14363)
 
 ___
+
 
 ### googleProductSpecTaskGetAdvanced
 
@@ -582,6 +607,7 @@ Successful operation
 
 ___
 
+
 ### googleProductSpecTaskGetHtml
 
 ▸ **googleProductSpecTaskGetHtml**(`id`): `Promise`\<[`MerchantGoogleProductSpecTaskGetHtmlResponseInfo`](MerchantGoogleProductSpecTaskGetHtmlResponseInfo.md)\>
@@ -603,6 +629,7 @@ Successful operation
 [main.ts:14281](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L14281)
 
 ___
+
 
 ### googleProductSpecTaskPost
 
@@ -626,6 +653,7 @@ Successful operation
 
 ___
 
+
 ### googleProductSpecTasksReady
 
 ▸ **googleProductSpecTasksReady**(): `Promise`\<[`MerchantGoogleProductSpecTasksReadyResponseInfo`](MerchantGoogleProductSpecTasksReadyResponseInfo.md)\>
@@ -641,6 +669,7 @@ Successful operation
 [main.ts:14198](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L14198)
 
 ___
+
 
 ### googleProductsTaskGetAdvanced
 
@@ -664,6 +693,7 @@ Successful operation
 
 ___
 
+
 ### googleProductsTaskGetHtml
 
 ▸ **googleProductsTaskGetHtml**(`id`): `Promise`\<[`MerchantGoogleProductsTaskGetHtmlResponseInfo`](MerchantGoogleProductsTaskGetHtmlResponseInfo.md)\>
@@ -685,6 +715,7 @@ Successful operation
 [main.ts:13951](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L13951)
 
 ___
+
 
 ### googleProductsTaskPost
 
@@ -708,6 +739,7 @@ Successful operation
 
 ___
 
+
 ### googleProductsTasksReady
 
 ▸ **googleProductsTasksReady**(): `Promise`\<[`MerchantGoogleProductsTasksReadyResponseInfo`](MerchantGoogleProductsTasksReadyResponseInfo.md)\>
@@ -723,6 +755,7 @@ Successful operation
 [main.ts:13868](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L13868)
 
 ___
+
 
 ### googleSellersAdUrl
 
@@ -746,6 +779,7 @@ Successful operation
 
 ___
 
+
 ### googleSellersTaskGetAdvanced
 
 ▸ **googleSellersTaskGetAdvanced**(`id`): `Promise`\<[`MerchantGoogleSellersTaskGetAdvancedResponseInfo`](MerchantGoogleSellersTaskGetAdvancedResponseInfo.md)\>
@@ -767,6 +801,7 @@ Successful operation
 [main.ts:14073](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L14073)
 
 ___
+
 
 ### googleSellersTaskGetHtml
 
@@ -790,6 +825,7 @@ Successful operation
 
 ___
 
+
 ### googleSellersTaskPost
 
 ▸ **googleSellersTaskPost**(`body`): `Promise`\<[`MerchantGoogleSellersTaskPostResponseInfo`](MerchantGoogleSellersTaskPostResponseInfo.md)\>
@@ -812,6 +848,7 @@ Successful operation
 
 ___
 
+
 ### googleSellersTasksReady
 
 ▸ **googleSellersTasksReady**(): `Promise`\<[`MerchantGoogleSellersTasksReadyResponseInfo`](MerchantGoogleSellersTasksReadyResponseInfo.md)\>
@@ -827,6 +864,7 @@ Successful operation
 [main.ts:14033](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L14033)
 
 ___
+
 
 ### merchantAmazonLanguages
 
@@ -844,6 +882,7 @@ Successful operation
 
 ___
 
+
 ### merchantAmazonLocations
 
 ▸ **merchantAmazonLocations**(): `Promise`\<[`MerchantAmazonLocationsResponseInfo`](MerchantAmazonLocationsResponseInfo.md)\>
@@ -859,6 +898,7 @@ Successful operation
 [main.ts:14485](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L14485)
 
 ___
+
 
 ### merchantAmazonLocationsCountry
 
@@ -882,6 +922,7 @@ Successful operation
 
 ___
 
+
 ### merchantErrors
 
 ▸ **merchantErrors**(`body`): `Promise`\<[`MerchantErrorsResponseInfo`](MerchantErrorsResponseInfo.md)\>
@@ -904,6 +945,7 @@ Successful operation
 
 ___
 
+
 ### merchantGoogleLanguages
 
 ▸ **merchantGoogleLanguages**(): `Promise`\<[`MerchantGoogleLanguagesResponseInfo`](MerchantGoogleLanguagesResponseInfo.md)\>
@@ -920,6 +962,7 @@ Successful operation
 
 ___
 
+
 ### merchantGoogleLocations
 
 ▸ **merchantGoogleLocations**(): `Promise`\<[`MerchantGoogleLocationsResponseInfo`](MerchantGoogleLocationsResponseInfo.md)\>
@@ -935,6 +978,7 @@ Successful operation
 [main.ts:13744](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L13744)
 
 ___
+
 
 ### merchantGoogleLocationsCountry
 
@@ -958,6 +1002,7 @@ Successful operation
 
 ___
 
+
 ### merchantIdList
 
 ▸ **merchantIdList**(`body`): `Promise`\<[`MerchantIdListResponseInfo`](MerchantIdListResponseInfo.md)\>
@@ -980,6 +1025,7 @@ Successful operation
 
 ___
 
+
 ### processAmazonAsinTaskGetAdvanced
 
 ▸ **processAmazonAsinTaskGetAdvanced**(`response`): `Promise`\<[`MerchantAmazonAsinTaskGetAdvancedResponseInfo`](MerchantAmazonAsinTaskGetAdvancedResponseInfo.md)\>
@@ -999,6 +1045,7 @@ ___
 [main.ts:14870](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L14870)
 
 ___
+
 
 ### processAmazonAsinTaskGetHtml
 
@@ -1020,6 +1067,7 @@ ___
 
 ___
 
+
 ### processAmazonAsinTaskPost
 
 ▸ **processAmazonAsinTaskPost**(`response`): `Promise`\<[`MerchantAmazonAsinTaskPostResponseInfo`](MerchantAmazonAsinTaskPostResponseInfo.md)\>
@@ -1039,6 +1087,7 @@ ___
 [main.ts:14790](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L14790)
 
 ___
+
 
 ### processAmazonAsinTasksReady
 
@@ -1060,6 +1109,7 @@ ___
 
 ___
 
+
 ### processAmazonProductsTaskGetAdvanced
 
 ▸ **processAmazonProductsTaskGetAdvanced**(`response`): `Promise`\<[`MerchantAmazonProductsTaskGetAdvancedResponseInfo`](MerchantAmazonProductsTaskGetAdvancedResponseInfo.md)\>
@@ -1079,6 +1129,7 @@ ___
 [main.ts:14705](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L14705)
 
 ___
+
 
 ### processAmazonProductsTaskGetHtml
 
@@ -1100,6 +1151,7 @@ ___
 
 ___
 
+
 ### processAmazonProductsTaskPost
 
 ▸ **processAmazonProductsTaskPost**(`response`): `Promise`\<[`MerchantAmazonProductsTaskPostResponseInfo`](MerchantAmazonProductsTaskPostResponseInfo.md)\>
@@ -1119,6 +1171,7 @@ ___
 [main.ts:14625](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L14625)
 
 ___
+
 
 ### processAmazonProductsTasksReady
 
@@ -1140,6 +1193,7 @@ ___
 
 ___
 
+
 ### processAmazonReviewsTaskGetAdvanced
 
 ▸ **processAmazonReviewsTaskGetAdvanced**(`response`): `Promise`\<[`MerchantAmazonReviewsTaskGetAdvancedResponseInfo`](MerchantAmazonReviewsTaskGetAdvancedResponseInfo.md)\>
@@ -1159,6 +1213,7 @@ ___
 [main.ts:15200](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L15200)
 
 ___
+
 
 ### processAmazonReviewsTaskGetHtml
 
@@ -1180,6 +1235,7 @@ ___
 
 ___
 
+
 ### processAmazonReviewsTaskPost
 
 ▸ **processAmazonReviewsTaskPost**(`response`): `Promise`\<[`MerchantAmazonReviewsTaskPostResponseInfo`](MerchantAmazonReviewsTaskPostResponseInfo.md)\>
@@ -1199,6 +1255,7 @@ ___
 [main.ts:15120](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L15120)
 
 ___
+
 
 ### processAmazonReviewsTasksReady
 
@@ -1220,6 +1277,7 @@ ___
 
 ___
 
+
 ### processAmazonSellersTaskGetAdvanced
 
 ▸ **processAmazonSellersTaskGetAdvanced**(`response`): `Promise`\<[`MerchantAmazonSellersTaskGetAdvancedResponseInfo`](MerchantAmazonSellersTaskGetAdvancedResponseInfo.md)\>
@@ -1239,6 +1297,7 @@ ___
 [main.ts:15035](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L15035)
 
 ___
+
 
 ### processAmazonSellersTaskGetHtml
 
@@ -1260,6 +1319,7 @@ ___
 
 ___
 
+
 ### processAmazonSellersTaskPost
 
 ▸ **processAmazonSellersTaskPost**(`response`): `Promise`\<[`MerchantAmazonSellersTaskPostResponseInfo`](MerchantAmazonSellersTaskPostResponseInfo.md)\>
@@ -1279,6 +1339,7 @@ ___
 [main.ts:14955](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L14955)
 
 ___
+
 
 ### processAmazonSellersTasksReady
 
@@ -1300,6 +1361,7 @@ ___
 
 ___
 
+
 ### processGoogleProductInfoTaskGetAdvanced
 
 ▸ **processGoogleProductInfoTaskGetAdvanced**(`response`): `Promise`\<[`MerchantGoogleProductInfoTaskGetAdvancedResponseInfo`](MerchantGoogleProductInfoTaskGetAdvancedResponseInfo.md)\>
@@ -1319,6 +1381,7 @@ ___
 [main.ts:14422](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L14422)
 
 ___
+
 
 ### processGoogleProductInfoTaskPost
 
@@ -1340,6 +1403,7 @@ ___
 
 ___
 
+
 ### processGoogleProductInfoTasksReady
 
 ▸ **processGoogleProductInfoTasksReady**(`response`): `Promise`\<[`MerchantGoogleProductInfoTasksReadyResponseInfo`](MerchantGoogleProductInfoTasksReadyResponseInfo.md)\>
@@ -1359,6 +1423,7 @@ ___
 [main.ts:14379](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L14379)
 
 ___
+
 
 ### processGoogleProductSpecTaskGetAdvanced
 
@@ -1380,6 +1445,7 @@ ___
 
 ___
 
+
 ### processGoogleProductSpecTaskGetHtml
 
 ▸ **processGoogleProductSpecTaskGetHtml**(`response`): `Promise`\<[`MerchantGoogleProductSpecTaskGetHtmlResponseInfo`](MerchantGoogleProductSpecTaskGetHtmlResponseInfo.md)\>
@@ -1399,6 +1465,7 @@ ___
 [main.ts:14300](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L14300)
 
 ___
+
 
 ### processGoogleProductSpecTaskPost
 
@@ -1420,6 +1487,7 @@ ___
 
 ___
 
+
 ### processGoogleProductSpecTasksReady
 
 ▸ **processGoogleProductSpecTasksReady**(`response`): `Promise`\<[`MerchantGoogleProductSpecTasksReadyResponseInfo`](MerchantGoogleProductSpecTasksReadyResponseInfo.md)\>
@@ -1439,6 +1507,7 @@ ___
 [main.ts:14214](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L14214)
 
 ___
+
 
 ### processGoogleProductsTaskGetAdvanced
 
@@ -1460,6 +1529,7 @@ ___
 
 ___
 
+
 ### processGoogleProductsTaskGetHtml
 
 ▸ **processGoogleProductsTaskGetHtml**(`response`): `Promise`\<[`MerchantGoogleProductsTaskGetHtmlResponseInfo`](MerchantGoogleProductsTaskGetHtmlResponseInfo.md)\>
@@ -1479,6 +1549,7 @@ ___
 [main.ts:13970](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L13970)
 
 ___
+
 
 ### processGoogleProductsTaskPost
 
@@ -1500,6 +1571,7 @@ ___
 
 ___
 
+
 ### processGoogleProductsTasksReady
 
 ▸ **processGoogleProductsTasksReady**(`response`): `Promise`\<[`MerchantGoogleProductsTasksReadyResponseInfo`](MerchantGoogleProductsTasksReadyResponseInfo.md)\>
@@ -1519,6 +1591,7 @@ ___
 [main.ts:13884](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L13884)
 
 ___
+
 
 ### processGoogleSellersAdUrl
 
@@ -1540,6 +1613,7 @@ ___
 
 ___
 
+
 ### processGoogleSellersTaskGetAdvanced
 
 ▸ **processGoogleSellersTaskGetAdvanced**(`response`): `Promise`\<[`MerchantGoogleSellersTaskGetAdvancedResponseInfo`](MerchantGoogleSellersTaskGetAdvancedResponseInfo.md)\>
@@ -1559,6 +1633,7 @@ ___
 [main.ts:14092](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L14092)
 
 ___
+
 
 ### processGoogleSellersTaskGetHtml
 
@@ -1580,6 +1655,7 @@ ___
 
 ___
 
+
 ### processGoogleSellersTaskPost
 
 ▸ **processGoogleSellersTaskPost**(`response`): `Promise`\<[`MerchantGoogleSellersTaskPostResponseInfo`](MerchantGoogleSellersTaskPostResponseInfo.md)\>
@@ -1599,6 +1675,7 @@ ___
 [main.ts:14012](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L14012)
 
 ___
+
 
 ### processGoogleSellersTasksReady
 
@@ -1620,6 +1697,7 @@ ___
 
 ___
 
+
 ### processMerchantAmazonLanguages
 
 ▸ **processMerchantAmazonLanguages**(`response`): `Promise`\<[`MerchantAmazonLanguagesResponseInfo`](MerchantAmazonLanguagesResponseInfo.md)\>
@@ -1639,6 +1717,7 @@ ___
 [main.ts:14583](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L14583)
 
 ___
+
 
 ### processMerchantAmazonLocations
 
@@ -1660,6 +1739,7 @@ ___
 
 ___
 
+
 ### processMerchantAmazonLocationsCountry
 
 ▸ **processMerchantAmazonLocationsCountry**(`response`): `Promise`\<[`MerchantAmazonLocationsCountryResponseInfo`](MerchantAmazonLocationsCountryResponseInfo.md)\>
@@ -1679,6 +1759,7 @@ ___
 [main.ts:14546](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L14546)
 
 ___
+
 
 ### processMerchantErrors
 
@@ -1700,6 +1781,7 @@ ___
 
 ___
 
+
 ### processMerchantGoogleLanguages
 
 ▸ **processMerchantGoogleLanguages**(`response`): `Promise`\<[`MerchantGoogleLanguagesResponseInfo`](MerchantGoogleLanguagesResponseInfo.md)\>
@@ -1719,6 +1801,7 @@ ___
 [main.ts:13723](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L13723)
 
 ___
+
 
 ### processMerchantGoogleLocations
 
@@ -1740,6 +1823,7 @@ ___
 
 ___
 
+
 ### processMerchantGoogleLocationsCountry
 
 ▸ **processMerchantGoogleLocationsCountry**(`response`): `Promise`\<[`MerchantGoogleLocationsCountryResponseInfo`](MerchantGoogleLocationsCountryResponseInfo.md)\>
@@ -1760,6 +1844,7 @@ ___
 
 ___
 
+
 ### processMerchantIdList
 
 ▸ **processMerchantIdList**(`response`): `Promise`\<[`MerchantIdListResponseInfo`](MerchantIdListResponseInfo.md)\>
@@ -1777,3 +1862,7 @@ ___
 #### Defined in
 
 [main.ts:13644](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L13644)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

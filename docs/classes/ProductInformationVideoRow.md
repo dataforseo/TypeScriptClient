@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / ProductInformationVideoRow
 
 # Class: ProductInformationVideoRow
@@ -5,7 +9,7 @@
 ## Hierarchy
 
 - [`BaseProductInformationRowItem`](BaseProductInformationRowItem.md)
-
+  
   ↳ **`ProductInformationVideoRow`**
 
 ## Implements
@@ -74,6 +78,7 @@
 
 ___
 
+
 ### preview
 
 • `Optional` **preview**: `string`
@@ -89,6 +94,7 @@ URL of the preview image for the related video
 [main.ts:173233](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L173233)
 
 ___
+
 
 ### url
 
@@ -130,6 +136,7 @@ URL of the image
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -154,6 +161,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`ProductInformationVideoRow`](ProductInformationVideoRow.md)
@@ -175,3 +183,7 @@ ___
 #### Defined in
 
 [main.ts:173256](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L173256)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

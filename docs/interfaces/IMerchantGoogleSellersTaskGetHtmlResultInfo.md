@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IMerchantGoogleSellersTaskGetHtmlResultInfo
 
 # Interface: IMerchantGoogleSellersTaskGetHtmlResultInfo
@@ -40,6 +44,7 @@ example:
 
 ___
 
+
 ### items
 
 • `Optional` **items**: [`HtmlItem`](../classes/HtmlItem.md)[]
@@ -51,6 +56,7 @@ elements of search results found on Google Shopping
 [main.ts:167138](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L167138)
 
 ___
+
 
 ### items\_count
 
@@ -64,6 +70,7 @@ the number of results returned in the items array
 
 ___
 
+
 ### language\_code
 
 • `Optional` **language\_code**: `string`
@@ -75,6 +82,7 @@ language code in a POST array
 [main.ts:167129](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L167129)
 
 ___
+
 
 ### location\_code
 
@@ -88,6 +96,7 @@ location code in a POST array
 
 ___
 
+
 ### product\_id
 
 • `Optional` **product\_id**: `string`
@@ -99,6 +108,7 @@ product_id received in a POST array
 [main.ts:167121](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L167121)
 
 ___
+
 
 ### se\_domain
 
@@ -112,6 +122,7 @@ search engine domain in a POST array
 
 ___
 
+
 ### type
 
 • `Optional` **type**: `string`
@@ -121,3 +132,7 @@ type of element
 #### Defined in
 
 [main.ts:167123](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L167123)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

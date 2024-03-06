@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IContentGenerationCheckGrammarLiveItem
 
 # Interface: IContentGenerationCheckGrammarLiveItem
@@ -40,6 +44,7 @@ description of the grammar or spelling error
 
 ___
 
+
 ### length
 
 • `Optional` **length**: `number`
@@ -51,6 +56,7 @@ offset token for subsequent requests
 [main.ts:161569](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L161569)
 
 ___
+
 
 ### message
 
@@ -64,6 +70,7 @@ message of the grammar or spelling error
 
 ___
 
+
 ### offset
 
 • `Optional` **offset**: `number`
@@ -75,6 +82,7 @@ offset token for subsequent requests
 [main.ts:161567](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L161567)
 
 ___
+
 
 ### rule\_category\_id
 
@@ -88,6 +96,7 @@ id of the rule category
 
 ___
 
+
 ### rule\_category\_name
 
 • `Optional` **rule\_category\_name**: `string`
@@ -100,6 +109,7 @@ name of the rule category
 
 ___
 
+
 ### rule\_description
 
 • `Optional` **rule\_description**: `string`
@@ -111,6 +121,7 @@ description of the grammar or spelling rule
 [main.ts:161576](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L161576)
 
 ___
+
 
 ### rule\_id
 
@@ -125,6 +136,7 @@ see the List of Grammar Rules for Content Generation API
 
 ___
 
+
 ### rule\_issue\_type
 
 • `Optional` **rule\_issue\_type**: `string`
@@ -136,6 +148,7 @@ type of the issue found by the relevant rule
 [main.ts:161578](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L161578)
 
 ___
+
 
 ### suggestions
 
@@ -149,6 +162,7 @@ suggested corrections
 
 ___
 
+
 ### type
 
 • `Optional` **type**: `string`
@@ -158,3 +172,7 @@ type of element
 #### Defined in
 
 [main.ts:161571](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L161571)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

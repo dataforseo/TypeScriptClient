@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / BusinessDataTrustpilotReviewsTaskGetResultInfo
 
 # Class: BusinessDataTrustpilotReviewsTaskGetResultInfo
@@ -75,6 +79,7 @@ you can use it to make sure that we provided accurate results
 
 ___
 
+
 ### datetime
 
 • `Optional` **datetime**: `string`
@@ -94,6 +99,7 @@ example:
 
 ___
 
+
 ### domain
 
 • `Optional` **domain**: `string`
@@ -109,6 +115,7 @@ domain of the business entity
 [main.ts:200100](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L200100)
 
 ___
+
 
 ### items
 
@@ -127,6 +134,7 @@ you can get more results by using the depth parameter when setting a task
 
 ___
 
+
 ### items\_count
 
 • `Optional` **items\_count**: `number`
@@ -143,6 +151,7 @@ you can get more results by using the depth parameter when setting a task
 [main.ts:200126](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L200126)
 
 ___
+
 
 ### location
 
@@ -161,6 +170,7 @@ address of the business entity for which the reviews are collected
 
 ___
 
+
 ### rating
 
 • `Optional` **rating**: [`RatingInfo`](RatingInfo.md)
@@ -178,6 +188,7 @@ popularity rate based on reviews and displayed in SERP
 
 ___
 
+
 ### reviews\_count
 
 • `Optional` **reviews\_count**: `number`
@@ -193,6 +204,7 @@ the total number of reviews
 [main.ts:200120](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L200120)
 
 ___
+
 
 ### se\_domain
 
@@ -210,6 +222,7 @@ search engine domain in a POST array
 
 ___
 
+
 ### title
 
 • `Optional` **title**: `string`
@@ -226,6 +239,7 @@ the name of the business entity for which the reviews are collected
 [main.ts:200115](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L200115)
 
 ___
+
 
 ### type
 
@@ -263,6 +277,7 @@ type of element
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -283,6 +298,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`BusinessDataTrustpilotReviewsTaskGetResultInfo`](BusinessDataTrustpilotReviewsTaskGetResultInfo.md)
@@ -300,3 +316,7 @@ ___
 #### Defined in
 
 [main.ts:200166](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L200166)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

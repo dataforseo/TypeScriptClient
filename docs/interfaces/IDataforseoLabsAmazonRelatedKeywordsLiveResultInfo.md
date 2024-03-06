@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IDataforseoLabsAmazonRelatedKeywordsLiveResultInfo
 
 # Interface: IDataforseoLabsAmazonRelatedKeywordsLiveResultInfo
@@ -37,6 +41,7 @@ contains objects with keywords and related data
 
 ___
 
+
 ### items\_count
 
 • `Optional` **items\_count**: `number`
@@ -48,6 +53,7 @@ the number of results returned in the items array
 [main.ts:99455](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L99455)
 
 ___
+
 
 ### language\_code
 
@@ -61,6 +67,7 @@ language code in a POST array
 
 ___
 
+
 ### location\_code
 
 • `Optional` **location\_code**: `number`
@@ -72,6 +79,7 @@ location code in a POST array
 [main.ts:99449](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L99449)
 
 ___
+
 
 ### se\_type
 
@@ -85,6 +93,7 @@ search engine type
 
 ___
 
+
 ### seed\_keyword
 
 • `Optional` **seed\_keyword**: `string`
@@ -96,6 +105,7 @@ keyword in a POST array
 [main.ts:99444](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L99444)
 
 ___
+
 
 ### seed\_keyword\_data
 
@@ -110,6 +120,7 @@ fields in the object are identical to that of keyword_data
 
 ___
 
+
 ### total\_count
 
 • `Optional` **total\_count**: `number`
@@ -119,3 +130,7 @@ total amount of results in our database relevant to your request
 #### Defined in
 
 [main.ts:99453](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L99453)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

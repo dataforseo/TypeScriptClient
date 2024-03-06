@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IBacklinksHistoryLiveResultInfo
 
 # Interface: IBacklinksHistoryLiveResultInfo
@@ -37,6 +41,7 @@ example:
 
 ___
 
+
 ### date\_to
 
 • `Optional` **date\_to**: `string`
@@ -52,6 +57,7 @@ example:
 
 ___
 
+
 ### items
 
 • `Optional` **items**: [`BacklinksHistoryLiveItem`](../classes/BacklinksHistoryLiveItem.md)[]
@@ -66,6 +72,7 @@ the metrics are aggregated according to the backlinks the specified domain had o
 
 ___
 
+
 ### items\_count
 
 • `Optional` **items\_count**: `number`
@@ -78,6 +85,7 @@ the number of results returned in the items array
 
 ___
 
+
 ### target
 
 • `Optional` **target**: `string`
@@ -87,3 +95,7 @@ target from the POST array
 #### Defined in
 
 [main.ts:130426](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L130426)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

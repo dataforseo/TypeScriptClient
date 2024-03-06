@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IBusinessDataSocialMediaPinterestLiveResultInfo
 
 # Interface: IBusinessDataSocialMediaPinterestLiveResultInfo
@@ -33,6 +37,7 @@ corresponding URL you specified in the targets array when setting a task
 
 ___
 
+
 ### pins\_count
 
 • `Optional` **pins\_count**: `number`
@@ -47,6 +52,7 @@ this field shows the number of content saves made from the related page_url usin
 
 ___
 
+
 ### type
 
 • `Optional` **type**: `string`
@@ -56,3 +62,7 @@ type of element
 #### Defined in
 
 [main.ts:205760](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L205760)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

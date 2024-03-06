@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / OnPageLinksRequestInfo
 
 # Class: OnPageLinksRequestInfo
@@ -85,6 +89,7 @@ The full list of possible filters is available by this link.
 
 ___
 
+
 ### id
 
 • `Optional` **id**: `string`
@@ -105,6 +110,7 @@ example:
 
 ___
 
+
 ### limit
 
 • `Optional` **limit**: `number`
@@ -123,6 +129,7 @@ maximum value: 1000
 [main.ts:147892](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L147892)
 
 ___
+
 
 ### offset
 
@@ -143,6 +150,7 @@ if you specify the 10 value, the first ten links in the results array will be om
 
 ___
 
+
 ### page\_from
 
 • `Optional` **page\_from**: `string`
@@ -162,6 +170,7 @@ note that in this field you can specify relative URLs only
 
 ___
 
+
 ### page\_to
 
 • `Optional` **page\_to**: `string`
@@ -180,6 +189,7 @@ note that in this field you can specify relative URLs only
 [main.ts:147887](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L147887)
 
 ___
+
 
 ### tag
 
@@ -221,6 +231,7 @@ you will find the specified tag value in the data object of the response
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -241,6 +252,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`OnPageLinksRequestInfo`](OnPageLinksRequestInfo.md)
@@ -258,3 +270,7 @@ ___
 #### Defined in
 
 [main.ts:147953](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L147953)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

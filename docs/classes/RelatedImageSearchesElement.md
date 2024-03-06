@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / RelatedImageSearchesElement
 
 # Class: RelatedImageSearchesElement
@@ -68,6 +72,7 @@ alt tag of the image
 
 ___
 
+
 ### image\_url
 
 • `Optional` **image\_url**: `string`
@@ -85,6 +90,7 @@ the URL leading to the image on the original resource or DataForSEO storage (in 
 
 ___
 
+
 ### title
 
 • `Optional` **title**: `string`
@@ -101,6 +107,7 @@ title of the carousel item
 
 ___
 
+
 ### type
 
 • `Optional` **type**: `string`
@@ -116,6 +123,7 @@ type of element
 [main.ts:28780](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L28780)
 
 ___
+
 
 ### url
 
@@ -153,6 +161,7 @@ source URL
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -173,6 +182,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`RelatedImageSearchesElement`](RelatedImageSearchesElement.md)
@@ -190,3 +200,7 @@ ___
 #### Defined in
 
 [main.ts:28816](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L28816)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

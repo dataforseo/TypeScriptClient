@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / DictionarySerpElementItem
 
 # Class: DictionarySerpElementItem
@@ -5,7 +9,7 @@
 ## Hierarchy
 
 - [`BaseSerpElementItem`](BaseSerpElementItem.md)
-
+  
   ↳ **`DictionarySerpElementItem`**
 
 ## Implements
@@ -85,6 +89,7 @@
 
 ___
 
+
 ### breadcrumb
 
 • `Optional` **breadcrumb**: `string`
@@ -100,6 +105,7 @@ breadcrumb of the Ad element in SERP
 [main.ts:66873](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L66873)
 
 ___
+
 
 ### domain
 
@@ -117,6 +123,7 @@ domain in SERP
 
 ___
 
+
 ### keyword
 
 • `Optional` **keyword**: `string`
@@ -132,6 +139,7 @@ keyword highlighted in the result
 [main.ts:66875](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L66875)
 
 ___
+
 
 ### links
 
@@ -151,6 +159,7 @@ if there are none, equals null
 
 ___
 
+
 ### position
 
 • `Optional` **position**: `string`
@@ -169,6 +178,7 @@ left, right
 
 ___
 
+
 ### rank\_absolute
 
 • `Optional` **rank\_absolute**: `number`
@@ -185,6 +195,7 @@ absolute position among all the elements in SERP
 [main.ts:66859](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L66859)
 
 ___
+
 
 ### rank\_group
 
@@ -204,6 +215,7 @@ positions of elements with different type values are omitted from rank_group
 
 ___
 
+
 ### rectangle
 
 • `Optional` **rectangle**: [`Rectangle`](Rectangle.md)
@@ -222,6 +234,7 @@ note: calculate_rectangles parameter is not yet available when setting tasks for
 
 ___
 
+
 ### snippet
 
 • `Optional` **snippet**: `string`
@@ -237,6 +250,7 @@ snippet of the element
 [main.ts:66877](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L66877)
 
 ___
+
 
 ### text
 
@@ -254,6 +268,7 @@ description of the results element in SERP
 
 ___
 
+
 ### title
 
 • `Optional` **title**: `string`
@@ -270,6 +285,7 @@ title of the result in SERP
 
 ___
 
+
 ### url
 
 • `Optional` **url**: `string`
@@ -285,6 +301,7 @@ relevant URL of the Ad element in SERP
 [main.ts:66869](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L66869)
 
 ___
+
 
 ### xpath
 
@@ -326,6 +343,7 @@ the XPath of the element
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -350,6 +368,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`DictionarySerpElementItem`](DictionarySerpElementItem.md)
@@ -371,3 +390,7 @@ ___
 #### Defined in
 
 [main.ts:66923](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L66923)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

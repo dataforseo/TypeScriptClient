@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / SerpGoogleEventsTaskPostRequestInfo
 
 # Class: SerpGoogleEventsTaskPostRequestInfo
@@ -82,6 +86,7 @@ possible values: today, tomorrow, week, weekend, next_week, month, next_month
 
 ___
 
+
 ### depth
 
 • `Optional` **depth**: `number`
@@ -105,6 +110,7 @@ if the specified depth is higher than the number of results in the response, the
 
 ___
 
+
 ### keyword
 
 • `Optional` **keyword**: `string`
@@ -125,6 +131,7 @@ if you need to use the “+” symbol for your keyword, please specify it as “
 [main.ts:43579](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L43579)
 
 ___
+
 
 ### language\_code
 
@@ -148,6 +155,7 @@ en
 
 ___
 
+
 ### language\_name
 
 • `Optional` **language\_name**: `string`
@@ -170,6 +178,7 @@ English
 
 ___
 
+
 ### location\_code
 
 • `Optional` **location\_code**: `number`
@@ -190,6 +199,7 @@ example:
 [main.ts:43601](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L43601)
 
 ___
+
 
 ### location\_coordinate
 
@@ -216,6 +226,7 @@ example:
 
 ___
 
+
 ### location\_name
 
 • `Optional` **location\_name**: `string`
@@ -236,6 +247,7 @@ London,England,United Kingdom
 [main.ts:43594](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L43594)
 
 ___
+
 
 ### max\_crawl\_pages
 
@@ -258,6 +270,7 @@ learn more at our help center
 
 ___
 
+
 ### os
 
 • `Optional` **os**: `string`
@@ -277,6 +290,7 @@ default value: windows
 [main.ts:43639](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L43639)
 
 ___
+
 
 ### pingback\_url
 
@@ -302,6 +316,7 @@ i.a., the # symbol will be encoded into %23
 
 ___
 
+
 ### postback\_data
 
 • `Optional` **postback\_data**: `string`
@@ -321,6 +336,7 @@ advanced
 [main.ts:43684](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L43684)
 
 ___
+
 
 ### postback\_url
 
@@ -346,6 +362,7 @@ i.a., the # symbol will be encoded into %23
 
 ___
 
+
 ### priority
 
 • `Optional` **priority**: `number`
@@ -368,6 +385,7 @@ The cost can be calculated on the Pricing page
 
 ___
 
+
 ### se\_domain
 
 • `Optional` **se\_domain**: `string`
@@ -388,6 +406,7 @@ google.co.uk, google.com.au, google.de, etc.
 [main.ts:43646](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L43646)
 
 ___
+
 
 ### tag
 
@@ -429,6 +448,7 @@ you will find the specified tag value in the data object of the response
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -449,6 +469,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`SerpGoogleEventsTaskPostRequestInfo`](SerpGoogleEventsTaskPostRequestInfo.md)
@@ -466,3 +487,7 @@ ___
 #### Defined in
 
 [main.ts:43732](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L43732)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

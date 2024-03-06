@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / AppendixHotelInfoGoogleBusinessDataPriceData
 
 # Class: AppendixHotelInfoGoogleBusinessDataPriceData
@@ -65,6 +69,7 @@
 
 ___
 
+
 ### task\_get
 
 • `Optional` **task\_get**: [`AppendixTaskGetProductGoogleMerchantPriceDataInfo`](AppendixTaskGetProductGoogleMerchantPriceDataInfo.md)
@@ -79,6 +84,7 @@ ___
 
 ___
 
+
 ### task\_post
 
 • `Optional` **task\_post**: [`AppendixTaskKeywordsDataPriceDataInfo`](AppendixTaskKeywordsDataPriceDataInfo.md)
@@ -92,6 +98,7 @@ ___
 [main.ts:211057](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L211057)
 
 ___
+
 
 ### tasks\_ready
 
@@ -127,6 +134,7 @@ ___
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -147,6 +155,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`AppendixHotelInfoGoogleBusinessDataPriceData`](AppendixHotelInfoGoogleBusinessDataPriceData.md)
@@ -164,3 +173,7 @@ ___
 #### Defined in
 
 [main.ts:211084](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L211084)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

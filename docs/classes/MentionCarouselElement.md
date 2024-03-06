@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / MentionCarouselElement
 
 # Class: MentionCarouselElement
@@ -68,6 +72,7 @@ additional elements in the mention_carousel item
 
 ___
 
+
 ### price
 
 • `Optional` **price**: [`PriceInfo`](PriceInfo.md)
@@ -84,11 +89,12 @@ price of booking a place for the specified dates of stay
 
 ___
 
+
 ### rating
 
 • `Optional` **rating**: [`RatingInfo`](RatingInfo.md)
 
-the item’s rating 
+the item’s rating
 the popularity rate based on reviews and displayed in SERP
 
 #### Implementation of
@@ -100,6 +106,7 @@ the popularity rate based on reviews and displayed in SERP
 [main.ts:30785](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L30785)
 
 ___
+
 
 ### title
 
@@ -116,6 +123,7 @@ title of the row
 [main.ts:30780](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L30780)
 
 ___
+
 
 ### type
 
@@ -153,6 +161,7 @@ type of element
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -173,6 +182,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`MentionCarouselElement`](MentionCarouselElement.md)
@@ -190,3 +200,7 @@ ___
 #### Defined in
 
 [main.ts:30818](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L30818)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

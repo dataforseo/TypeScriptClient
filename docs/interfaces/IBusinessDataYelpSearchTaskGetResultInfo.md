@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IBusinessDataYelpSearchTaskGetResultInfo
 
 # Interface: IBusinessDataYelpSearchTaskGetResultInfo
@@ -40,6 +44,7 @@ you can use it to make sure that we provided accurate results
 
 ___
 
+
 ### datetime
 
 • `Optional` **datetime**: `string`
@@ -55,6 +60,7 @@ example:
 
 ___
 
+
 ### item\_types
 
 • `Optional` **item\_types**: `string`[]
@@ -67,6 +73,7 @@ possible item types: yelp_search_organic, yelp_search_paid
 [main.ts:204549](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L204549)
 
 ___
+
 
 ### items
 
@@ -81,6 +88,7 @@ you can get more results by using the depth parameter when setting a task
 
 ___
 
+
 ### items\_count
 
 • `Optional` **items\_count**: `number`
@@ -93,6 +101,7 @@ you can get more results by using the depth parameter when setting a task
 [main.ts:204554](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L204554)
 
 ___
+
 
 ### keyword
 
@@ -107,6 +116,7 @@ this field will contain the alias parameter if it was specified in a POST array
 
 ___
 
+
 ### language\_code
 
 • `Optional` **language\_code**: `string`
@@ -118,6 +128,7 @@ language code in a POST array
 [main.ts:204538](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L204538)
 
 ___
+
 
 ### location\_code
 
@@ -132,6 +143,7 @@ if location_code was not specified in a POST array, the value equals null
 
 ___
 
+
 ### se\_domain
 
 • `Optional` **se\_domain**: `string`
@@ -144,6 +156,7 @@ search engine domain in a POST array
 
 ___
 
+
 ### se\_results\_count
 
 • `Optional` **se\_results\_count**: `number`
@@ -153,3 +166,7 @@ the total number of results
 #### Defined in
 
 [main.ts:204551](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L204551)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / KnowledgeGraphRowItemSerpElementItem
 
 # Class: KnowledgeGraphRowItemSerpElementItem
@@ -5,7 +9,7 @@
 ## Hierarchy
 
 - [`BaseSerpElementItem`](BaseSerpElementItem.md)
-
+  
   ↳ **`KnowledgeGraphRowItemSerpElementItem`**
 
 ## Implements
@@ -81,6 +85,7 @@
 
 ___
 
+
 ### data\_attrid
 
 • `Optional` **data\_attrid**: `string`
@@ -99,6 +104,7 @@ kc:/common/topic:social media presence
 
 ___
 
+
 ### links
 
 • `Optional` **links**: [`LinkElement`](LinkElement.md)[]
@@ -114,6 +120,7 @@ links featured in the faq_box_element
 [main.ts:26767](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L26767)
 
 ___
+
 
 ### position
 
@@ -133,6 +140,7 @@ left, right
 
 ___
 
+
 ### rank\_absolute
 
 • `Optional` **rank\_absolute**: `number`
@@ -149,6 +157,7 @@ absolute position among all the elements in SERP
 [main.ts:26751](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L26751)
 
 ___
+
 
 ### rank\_group
 
@@ -168,6 +177,7 @@ positions of elements with different type values are omitted from rank_group
 
 ___
 
+
 ### rectangle
 
 • `Optional` **rectangle**: [`Rectangle`](Rectangle.md)
@@ -186,6 +196,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 ___
 
+
 ### text
 
 • `Optional` **text**: `string`
@@ -202,6 +213,7 @@ row content
 
 ___
 
+
 ### title
 
 • `Optional` **title**: `string`
@@ -217,6 +229,7 @@ title of the item
 [main.ts:26759](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L26759)
 
 ___
+
 
 ### xpath
 
@@ -258,6 +271,7 @@ the XPath of the element
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -282,6 +296,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`KnowledgeGraphRowItemSerpElementItem`](KnowledgeGraphRowItemSerpElementItem.md)
@@ -303,3 +318,7 @@ ___
 #### Defined in
 
 [main.ts:26803](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L26803)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

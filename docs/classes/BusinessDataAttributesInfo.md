@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / BusinessDataAttributesInfo
 
 # Class: BusinessDataAttributesInfo
@@ -70,6 +74,7 @@ indicates attributes a business entity can offer
 
 ___
 
+
 ### unavailable\_attributes
 
 • `Optional` **unavailable\_attributes**: `Object`
@@ -111,6 +116,7 @@ indicates attributes a business entity cannot offer
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -131,6 +137,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`BusinessDataAttributesInfo`](BusinessDataAttributesInfo.md)
@@ -148,3 +155,7 @@ ___
 #### Defined in
 
 [main.ts:188636](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L188636)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

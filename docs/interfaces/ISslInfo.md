@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / ISslInfo
 
 # Interface: ISslInfo
@@ -39,6 +43,7 @@ example:
 
 ___
 
+
 ### certificate\_hash
 
 • `Optional` **certificate\_hash**: `string`
@@ -51,6 +56,7 @@ the version of the ssl certificate’s hash function
 [main.ts:143288](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L143288)
 
 ___
+
 
 ### certificate\_issuer
 
@@ -65,6 +71,7 @@ the entity that issued the detected ssl certificate
 
 ___
 
+
 ### certificate\_subject
 
 • `Optional` **certificate\_subject**: `string`
@@ -77,6 +84,7 @@ the entity associated with the public key
 [main.ts:143282](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L143282)
 
 ___
+
 
 ### certificate\_version
 
@@ -91,6 +99,7 @@ indicates the version of X.509 used by an ssl certificate
 
 ___
 
+
 ### valid\_certificate
 
 • `Optional` **valid\_certificate**: `boolean`
@@ -101,3 +110,7 @@ indicates whether the ssl certificate detected on a website is not expired, susp
 #### Defined in
 
 [main.ts:143276](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L143276)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

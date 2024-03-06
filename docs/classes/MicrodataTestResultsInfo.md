@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / MicrodataTestResultsInfo
 
 # Class: MicrodataTestResultsInfo
@@ -66,6 +70,7 @@ can take the following values: fatal, error, warning, info
 
 ___
 
+
 ### message
 
 • `Optional` **message**: `string`
@@ -103,6 +108,7 @@ message providing the details of the detected error
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -123,6 +129,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`MicrodataTestResultsInfo`](MicrodataTestResultsInfo.md)
@@ -140,3 +147,7 @@ ___
 #### Defined in
 
 [main.ts:150677](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L150677)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

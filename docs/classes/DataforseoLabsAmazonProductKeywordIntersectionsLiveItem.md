@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / DataforseoLabsAmazonProductKeywordIntersectionsLiveItem
 
 # Class: DataforseoLabsAmazonProductKeywordIntersectionsLiveItem
@@ -70,6 +74,7 @@ data on the intersection
 
 ___
 
+
 ### keyword\_data
 
 • `Optional` **keyword\_data**: [`AmazonKeywordData`](AmazonKeywordData.md)
@@ -85,6 +90,7 @@ keyword data for the returned keyword
 [main.ts:101798](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L101798)
 
 ___
+
 
 ### se\_type
 
@@ -122,6 +128,7 @@ search engine type
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -142,6 +149,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`DataforseoLabsAmazonProductKeywordIntersectionsLiveItem`](DataforseoLabsAmazonProductKeywordIntersectionsLiveItem.md)
@@ -159,3 +167,7 @@ ___
 #### Defined in
 
 [main.ts:101831](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L101831)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

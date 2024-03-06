@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / TrustpilotSearchOrganicBusinessDataSerpElementItem
 
 # Class: TrustpilotSearchOrganicBusinessDataSerpElementItem
@@ -5,7 +9,7 @@
 ## Hierarchy
 
 - [`BaseBusinessDataSerpElementItem`](BaseBusinessDataSerpElementItem.md)
-
+  
   ↳ **`TrustpilotSearchOrganicBusinessDataSerpElementItem`**
 
 ## Implements
@@ -79,6 +83,7 @@
 
 ___
 
+
 ### domain
 
 • `Optional` **domain**: `string`
@@ -94,6 +99,7 @@ domain of the establishment
 [main.ts:199120](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L199120)
 
 ___
+
 
 ### rank\_absolute
 
@@ -112,6 +118,7 @@ absolute position among all reviews on the list
 
 ___
 
+
 ### rank\_group
 
 • `Optional` **rank\_group**: `number`
@@ -129,6 +136,7 @@ positions of elements with different type values are omitted from rank_group
 
 ___
 
+
 ### rating
 
 • `Optional` **rating**: [`RatingInfo`](RatingInfo.md)
@@ -144,6 +152,7 @@ the rating score of the establishment submitted by reviewers
 [main.ts:199126](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L199126)
 
 ___
+
 
 ### reviews\_count
 
@@ -161,6 +170,7 @@ the total number of reviews
 
 ___
 
+
 ### title
 
 • `Optional` **title**: `string`
@@ -176,6 +186,7 @@ title of the establishment
 [main.ts:199118](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L199118)
 
 ___
+
 
 ### url
 
@@ -217,6 +228,7 @@ URL to the establishment
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -241,6 +253,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`TrustpilotSearchOrganicBusinessDataSerpElementItem`](TrustpilotSearchOrganicBusinessDataSerpElementItem.md)
@@ -262,3 +275,7 @@ ___
 #### Defined in
 
 [main.ts:199152](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L199152)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

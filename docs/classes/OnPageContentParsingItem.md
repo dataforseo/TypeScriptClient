@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / OnPageContentParsingItem
 
 # Class: OnPageContentParsingItem
@@ -69,6 +73,7 @@ example:
 
 ___
 
+
 ### page\_content
 
 • `Optional` **page\_content**: [`PageContentInfo`](PageContentInfo.md)
@@ -85,6 +90,7 @@ parsed content of the page
 
 ___
 
+
 ### status\_code
 
 • `Optional` **status\_code**: `number`
@@ -100,6 +106,7 @@ status code of the page
 [main.ts:152289](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L152289)
 
 ___
+
 
 ### type
 
@@ -137,6 +144,7 @@ type of element
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -157,6 +165,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`OnPageContentParsingItem`](OnPageContentParsingItem.md)
@@ -174,3 +183,7 @@ ___
 #### Defined in
 
 [main.ts:152317](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L152317)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

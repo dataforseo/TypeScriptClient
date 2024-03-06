@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IOnPageContentParsingRequestInfo
 
 # Interface: IOnPageContentParsingRequestInfo
@@ -36,6 +40,7 @@ example:
 
 ___
 
+
 ### url
 
 • `Optional` **url**: `string`
@@ -49,3 +54,7 @@ https://www.fujielectric.com/
 #### Defined in
 
 [main.ts:151941](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L151941)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

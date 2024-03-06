@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / DataforseoLabsGoogleHistoricalSearchVolumeLiveResultInfo
 
 # Class: DataforseoLabsGoogleHistoricalSearchVolumeLiveResultInfo
@@ -68,6 +72,7 @@ contains keywords and related data
 
 ___
 
+
 ### items\_count
 
 • `Optional` **items\_count**: `number`
@@ -83,6 +88,7 @@ the number of results returned in the items array
 [main.ts:82030](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L82030)
 
 ___
+
 
 ### language\_code
 
@@ -100,6 +106,7 @@ language code in a POST array
 
 ___
 
+
 ### location\_code
 
 • `Optional` **location\_code**: `number`
@@ -115,6 +122,7 @@ location code in a POST array
 [main.ts:82026](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L82026)
 
 ___
+
 
 ### se\_type
 
@@ -152,6 +160,7 @@ search engine type
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -172,6 +181,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`DataforseoLabsGoogleHistoricalSearchVolumeLiveResultInfo`](DataforseoLabsGoogleHistoricalSearchVolumeLiveResultInfo.md)
@@ -189,3 +199,7 @@ ___
 #### Defined in
 
 [main.ts:82063](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L82063)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

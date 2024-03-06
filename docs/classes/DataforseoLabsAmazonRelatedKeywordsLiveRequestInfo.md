@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / DataforseoLabsAmazonRelatedKeywordsLiveRequestInfo
 
 # Class: DataforseoLabsAmazonRelatedKeywordsLiveRequestInfo
@@ -84,6 +88,7 @@ estimated number of keywords for each level (maximum):
 
 ___
 
+
 ### ignore\_synonyms
 
 • `Optional` **ignore\_synonyms**: `boolean`
@@ -102,6 +107,7 @@ default value: false
 [main.ts:99124](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L99124)
 
 ___
+
 
 ### include\_seed\_keyword
 
@@ -122,6 +128,7 @@ default value: false
 
 ___
 
+
 ### keyword
 
 • `Optional` **keyword**: `string`
@@ -141,6 +148,7 @@ the keywords should be specified in the lowercase format
 [main.ts:99070](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L99070)
 
 ___
+
 
 ### language\_code
 
@@ -163,6 +171,7 @@ en
 
 ___
 
+
 ### language\_name
 
 • `Optional` **language\_name**: `string`
@@ -184,6 +193,7 @@ English
 
 ___
 
+
 ### limit
 
 • `Optional` **limit**: `number`
@@ -202,6 +212,7 @@ maximum value: 1000
 [main.ts:99129](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L99129)
 
 ___
+
 
 ### location\_code
 
@@ -226,6 +237,7 @@ example:
 
 ___
 
+
 ### location\_name
 
 • `Optional` **location\_name**: `string`
@@ -249,6 +261,7 @@ United States
 
 ___
 
+
 ### offset
 
 • `Optional` **offset**: `number`
@@ -267,6 +280,7 @@ if you specify the 10 value, the first ten keywords in the results array will be
 [main.ts:99134](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L99134)
 
 ___
+
 
 ### tag
 
@@ -308,6 +322,7 @@ you will find the specified tag value in the data object of the response
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -328,6 +343,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`DataforseoLabsAmazonRelatedKeywordsLiveRequestInfo`](DataforseoLabsAmazonRelatedKeywordsLiveRequestInfo.md)
@@ -345,3 +361,7 @@ ___
 #### Defined in
 
 [main.ts:99173](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L99173)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

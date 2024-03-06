@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / AppDataGoogleAppListTaskGetAdvancedResultInfo
 
 # Class: AppDataGoogleAppListTaskGetAdvancedResultInfo
@@ -73,6 +77,7 @@ you can use it to make sure that we provided accurate results
 
 ___
 
+
 ### datetime
 
 • `Optional` **datetime**: `string`
@@ -92,6 +97,7 @@ example:
 
 ___
 
+
 ### items
 
 • `Optional` **items**: [`BaseAppDataSerpElementItem`](BaseAppDataSerpElementItem.md)[]
@@ -107,6 +113,7 @@ found apps
 [main.ts:178825](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L178825)
 
 ___
+
 
 ### items\_count
 
@@ -125,6 +132,7 @@ you can get more results by using the depth parameter when setting a task
 
 ___
 
+
 ### keyword
 
 • `Optional` **keyword**: `string`
@@ -140,6 +148,7 @@ app collection received in a POST array
 [main.ts:178804](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L178804)
 
 ___
+
 
 ### language\_code
 
@@ -157,6 +166,7 @@ language code in a POST array
 
 ___
 
+
 ### location\_code
 
 • `Optional` **location\_code**: `number`
@@ -173,6 +183,7 @@ location code in a POST array
 
 ___
 
+
 ### se\_domain
 
 • `Optional` **se\_domain**: `string`
@@ -188,6 +199,7 @@ search engine domain in a POST array
 [main.ts:178806](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L178806)
 
 ___
+
 
 ### se\_results\_count
 
@@ -225,6 +237,7 @@ the total number of results
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -245,6 +258,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`AppDataGoogleAppListTaskGetAdvancedResultInfo`](AppDataGoogleAppListTaskGetAdvancedResultInfo.md)
@@ -262,3 +276,7 @@ ___
 #### Defined in
 
 [main.ts:178860](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L178860)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

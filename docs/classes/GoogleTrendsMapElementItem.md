@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / GoogleTrendsMapElementItem
 
 # Class: GoogleTrendsMapElementItem
@@ -5,7 +9,7 @@
 ## Hierarchy
 
 - [`BaseGoogleTrendsItem`](BaseGoogleTrendsItem.md)
-
+  
   ↳ **`GoogleTrendsMapElementItem`**
 
 ## Implements
@@ -76,6 +80,7 @@
 
 ___
 
+
 ### data
 
 • `Optional` **data**: [`TrendsMapDataInfo`](TrendsMapDataInfo.md)[]
@@ -91,6 +96,7 @@ Google Trends data from the corresponding item
 [main.ts:120687](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L120687)
 
 ___
+
 
 ### keywords
 
@@ -109,6 +115,7 @@ the data included in the google_trends_map element is based on the keywords list
 
 ___
 
+
 ### position
 
 • `Optional` **position**: `number`
@@ -125,6 +132,7 @@ can take the following values: 1, 2, 3, 4, etc.
 [main.ts:120680](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L120680)
 
 ___
+
 
 ### title
 
@@ -166,6 +174,7 @@ title of the element in Google Trends
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -190,6 +199,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`GoogleTrendsMapElementItem`](GoogleTrendsMapElementItem.md)
@@ -211,3 +221,7 @@ ___
 #### Defined in
 
 [main.ts:120718](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L120718)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

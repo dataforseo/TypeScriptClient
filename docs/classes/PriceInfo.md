@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / PriceInfo
 
 # Class: PriceInfo
@@ -70,6 +74,7 @@ ISO code of the currency applied to the price
 
 ___
 
+
 ### current
 
 • `Optional` **current**: `number`
@@ -86,6 +91,7 @@ indicates the current price of the product or service featured in the result
 [main.ts:21454](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L21454)
 
 ___
+
 
 ### displayed\_price
 
@@ -104,6 +110,7 @@ raw price string as provided in the result
 
 ___
 
+
 ### is\_price\_range
 
 • `Optional` **is\_price\_range**: `boolean`
@@ -121,6 +128,7 @@ indicates whether a price is provided in a range
 
 ___
 
+
 ### max\_value
 
 • `Optional` **max\_value**: `number`
@@ -137,6 +145,7 @@ the maximum price of the product or service as indicated in the result
 [main.ts:21460](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L21460)
 
 ___
+
 
 ### regular
 
@@ -175,6 +184,7 @@ indicates the regular price of the product or service with no discounts applied
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -195,6 +205,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`PriceInfo`](PriceInfo.md)
@@ -212,3 +223,7 @@ ___
 #### Defined in
 
 [main.ts:21497](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L21497)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

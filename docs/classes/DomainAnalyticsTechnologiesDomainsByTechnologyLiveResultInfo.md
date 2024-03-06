@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / DomainAnalyticsTechnologiesDomainsByTechnologyLiveResultInfo
 
 # Class: DomainAnalyticsTechnologiesDomainsByTechnologyLiveResultInfo
@@ -68,6 +72,7 @@ items array
 
 ___
 
+
 ### items\_count
 
 • `Optional` **items\_count**: `number`
@@ -84,6 +89,7 @@ number of items in the results array
 
 ___
 
+
 ### offset
 
 • `Optional` **offset**: `number`
@@ -99,6 +105,7 @@ specified offset value
 [main.ts:74426](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L74426)
 
 ___
+
 
 ### offset\_token
 
@@ -117,6 +124,7 @@ offset_token values are unique for each subsequent task
 [main.ts:74430](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L74430)
 
 ___
+
 
 ### total\_count
 
@@ -154,6 +162,7 @@ total number of relevant items in the database
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -174,6 +183,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`DomainAnalyticsTechnologiesDomainsByTechnologyLiveResultInfo`](DomainAnalyticsTechnologiesDomainsByTechnologyLiveResultInfo.md)
@@ -191,3 +201,7 @@ ___
 #### Defined in
 
 [main.ts:74463](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L74463)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IAmazonRankedSerpElement
 
 # Interface: IAmazonRankedSerpElement
@@ -37,6 +41,7 @@ you can use it to make sure that we provided accurate results
 
 ___
 
+
 ### last\_updated\_time
 
 • `Optional` **last\_updated\_time**: `string`
@@ -51,6 +56,7 @@ example:
 [main.ts:100140](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L100140)
 
 ___
+
 
 ### previous\_updated\_time
 
@@ -67,6 +73,7 @@ example:
 
 ___
 
+
 ### se\_results\_count
 
 • `Optional` **se\_results\_count**: `number`
@@ -79,6 +86,7 @@ total number of results in Amazon SERP
 
 ___
 
+
 ### se\_type
 
 • `Optional` **se\_type**: `string`
@@ -90,6 +98,7 @@ search engine type
 [main.ts:100122](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L100122)
 
 ___
+
 
 ### serp\_item
 
@@ -104,6 +113,7 @@ the list of supported SERP elements can be found below
 
 ___
 
+
 ### serp\_item\_types
 
 • `Optional` **serp\_item\_types**: `string`[]
@@ -116,3 +126,7 @@ amazon_serp, amazon_paid, editorial_recommendations, top_rated_from_our_brands, 
 #### Defined in
 
 [main.ts:100133](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L100133)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

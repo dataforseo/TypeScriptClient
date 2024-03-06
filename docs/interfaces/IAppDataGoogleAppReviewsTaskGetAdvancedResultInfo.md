@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IAppDataGoogleAppReviewsTaskGetAdvancedResultInfo
 
 # Interface: IAppDataGoogleAppReviewsTaskGetAdvancedResultInfo
@@ -41,6 +45,7 @@ application id received in a POST array
 
 ___
 
+
 ### check\_url
 
 • `Optional` **check\_url**: `string`
@@ -53,6 +58,7 @@ you can use it to make sure that we provided accurate results
 [main.ts:181542](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L181542)
 
 ___
+
 
 ### datetime
 
@@ -69,6 +75,7 @@ example:
 
 ___
 
+
 ### items
 
 • `Optional` **items**: [`BaseAppDataSerpElementItem`](../classes/BaseAppDataSerpElementItem.md)[]
@@ -81,6 +88,7 @@ you can get more results by using the depth parameter when setting a task
 [main.ts:181561](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L181561)
 
 ___
+
 
 ### items\_count
 
@@ -95,6 +103,7 @@ you can get more results by using the depth parameter when setting a task
 
 ___
 
+
 ### language\_code
 
 • `Optional` **language\_code**: `string`
@@ -107,6 +116,7 @@ language code in a POST array
 
 ___
 
+
 ### location\_code
 
 • `Optional` **location\_code**: `number`
@@ -118,6 +128,7 @@ location code in a POST array
 [main.ts:181537](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L181537)
 
 ___
+
 
 ### rating
 
@@ -132,6 +143,7 @@ rating of the application for which the reviews are collected
 
 ___
 
+
 ### reviews\_count
 
 • `Optional` **reviews\_count**: `number`
@@ -144,6 +156,7 @@ the total number of reviews
 
 ___
 
+
 ### se\_domain
 
 • `Optional` **se\_domain**: `string`
@@ -155,6 +168,7 @@ search engine domain in a POST array
 [main.ts:181535](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L181535)
 
 ___
+
 
 ### title
 
@@ -169,6 +183,7 @@ title of the application for which the reviews are collected
 
 ___
 
+
 ### type
 
 • `Optional` **type**: `string`
@@ -178,3 +193,7 @@ type of element
 #### Defined in
 
 [main.ts:181533](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L181533)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / ISerpGoogleEventsLiveAdvancedResultInfo
 
 # Interface: ISerpGoogleEventsLiveAdvancedResultInfo
@@ -41,6 +45,7 @@ direct URL to search engine results
 
 ___
 
+
 ### datetime
 
 • `Optional` **datetime**: `string`
@@ -56,6 +61,7 @@ example:
 
 ___
 
+
 ### item\_types
 
 • `Optional` **item\_types**: `string`[]
@@ -70,6 +76,7 @@ event_item
 
 ___
 
+
 ### items
 
 • `Optional` **items**: [`BaseSerpElementItem`](../classes/BaseSerpElementItem.md)[]
@@ -82,6 +89,7 @@ items in SERP
 
 ___
 
+
 ### items\_count
 
 • `Optional` **items\_count**: `number`
@@ -93,6 +101,7 @@ the number of results returned in the items array
 [main.ts:45449](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L45449)
 
 ___
+
 
 ### keyword
 
@@ -107,6 +116,7 @@ keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a s
 
 ___
 
+
 ### language\_code
 
 • `Optional` **language\_code**: `string`
@@ -120,6 +130,7 @@ in this case, the value will be null
 
 ___
 
+
 ### location\_code
 
 • `Optional` **location\_code**: `number`
@@ -132,6 +143,7 @@ location code in a POST array
 
 ___
 
+
 ### se\_domain
 
 • `Optional` **se\_domain**: `string`
@@ -143,6 +155,7 @@ search engine domain in a POST array
 [main.ts:45424](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L45424)
 
 ___
+
 
 ### se\_results\_count
 
@@ -158,6 +171,7 @@ this search engine does not indicate the total number of results
 
 ___
 
+
 ### spell
 
 • `Optional` **spell**: [`SpellInfo`](../classes/SpellInfo.md)
@@ -171,6 +185,7 @@ if the search engine provided results for a keyword that was corrected, we will 
 
 ___
 
+
 ### type
 
 • `Optional` **type**: `string`
@@ -180,3 +195,7 @@ type of element
 #### Defined in
 
 [main.ts:45422](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L45422)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

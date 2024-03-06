@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IMerchantAmazonReviewsTaskGetAdvancedResultInfo
 
 # Interface: IMerchantAmazonReviewsTaskGetAdvancedResultInfo
@@ -44,6 +48,7 @@ asin received in a POST array
 
 ___
 
+
 ### check\_url
 
 • `Optional` **check\_url**: `string`
@@ -56,6 +61,7 @@ you can use it to make sure that we provided accurate results
 [main.ts:175916](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L175916)
 
 ___
+
 
 ### datetime
 
@@ -72,6 +78,7 @@ example:
 
 ___
 
+
 ### image
 
 • `Optional` **image**: [`ImagesElement`](../classes/ImagesElement.md)
@@ -83,6 +90,7 @@ product image data
 [main.ts:175929](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L175929)
 
 ___
+
 
 ### item\_types
 
@@ -99,6 +107,7 @@ amazon_review_item
 
 ___
 
+
 ### items
 
 • `Optional` **items**: [`BaseAmazonSerpElementItem`](../classes/BaseAmazonSerpElementItem.md)[]
@@ -111,6 +120,7 @@ you can get more results by using the depth parameter when setting a task
 [main.ts:175945](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L175945)
 
 ___
+
 
 ### items\_count
 
@@ -125,6 +135,7 @@ you can get more results by using the depth parameter when setting a task
 
 ___
 
+
 ### language\_code
 
 • `Optional` **language\_code**: `string`
@@ -137,6 +148,7 @@ language code in a POST array
 
 ___
 
+
 ### location\_code
 
 • `Optional` **location\_code**: `number`
@@ -148,6 +160,7 @@ location code in a POST array
 [main.ts:175911](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L175911)
 
 ___
+
 
 ### rating
 
@@ -162,6 +175,7 @@ popularity rate based on reviews and displayed in SERP
 
 ___
 
+
 ### reviews\_count
 
 • `Optional` **reviews\_count**: `number`
@@ -174,6 +188,7 @@ the total number of reviews
 
 ___
 
+
 ### se\_domain
 
 • `Optional` **se\_domain**: `string`
@@ -185,6 +200,7 @@ search engine domain in a POST array
 [main.ts:175909](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L175909)
 
 ___
+
 
 ### spell
 
@@ -199,6 +215,7 @@ if the search engine provided results for a keyword that was corrected, we will 
 
 ___
 
+
 ### title
 
 • `Optional` **title**: `string`
@@ -212,6 +229,7 @@ the title of the product for which the reviews are collected
 
 ___
 
+
 ### type
 
 • `Optional` **type**: `string`
@@ -221,3 +239,7 @@ type of element
 #### Defined in
 
 [main.ts:175907](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L175907)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

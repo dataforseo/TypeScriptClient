@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / DataforseoLabsleBulkAppMetricsLiveItem
 
 # Class: DataforseoLabsleBulkAppMetricsLiveItem
@@ -66,6 +70,7 @@ id of the app in a POST array
 
 ___
 
+
 ### metrics
 
 • `Optional` **metrics**: `Object`
@@ -86,6 +91,7 @@ ranking data relevant to the keywords that the provided application ranks for on
 [main.ts:107957](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L107957)
 
 ___
+
 
 ### se\_type
 
@@ -123,6 +129,7 @@ search engine type
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -143,6 +150,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`DataforseoLabsleBulkAppMetricsLiveItem`](DataforseoLabsleBulkAppMetricsLiveItem.md)
@@ -160,3 +168,7 @@ ___
 #### Defined in
 
 [main.ts:107988](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L107988)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IRefineProductsElement
 
 # Interface: IRefineProductsElement
@@ -35,6 +39,7 @@ URL of the image
 
 ___
 
+
 ### keyword
 
 • `Optional` **keyword**: `string`
@@ -46,6 +51,7 @@ keyword for the related refined search
 [main.ts:35073](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L35073)
 
 ___
+
 
 ### refine\_type
 
@@ -59,6 +65,7 @@ type of search refinement
 
 ___
 
+
 ### title
 
 • `Optional` **title**: `string`
@@ -70,6 +77,7 @@ title of the row
 [main.ts:35069](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L35069)
 
 ___
+
 
 ### type
 
@@ -83,6 +91,7 @@ type of element
 
 ___
 
+
 ### xpath
 
 • `Optional` **xpath**: `string`
@@ -92,3 +101,7 @@ the XPath of the element
 #### Defined in
 
 [main.ts:35077](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L35077)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

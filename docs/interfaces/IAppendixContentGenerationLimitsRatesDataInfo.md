@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IAppendixContentGenerationLimitsRatesDataInfo
 
 # Interface: IAppendixContentGenerationLimitsRatesDataInfo
@@ -34,6 +38,7 @@
 
 ___
 
+
 ### generate
 
 • `Optional` **generate**: [`AppendixInfo`](../classes/AppendixInfo.md)
@@ -43,6 +48,7 @@ ___
 [main.ts:208509](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L208509)
 
 ___
+
 
 ### generate\_meta\_tags
 
@@ -54,6 +60,7 @@ ___
 
 ___
 
+
 ### generate\_sub\_topics
 
 • `Optional` **generate\_sub\_topics**: [`AppendixInfo`](../classes/AppendixInfo.md)
@@ -63,6 +70,7 @@ ___
 [main.ts:208515](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L208515)
 
 ___
+
 
 ### generate\_text
 
@@ -74,6 +82,7 @@ ___
 
 ___
 
+
 ### paraphrase
 
 • `Optional` **paraphrase**: [`AppendixInfo`](../classes/AppendixInfo.md)
@@ -84,6 +93,7 @@ ___
 
 ___
 
+
 ### text\_summary
 
 • `Optional` **text\_summary**: [`AppendixContentGenerationDayLimitsRatesDataInfo`](../classes/AppendixContentGenerationDayLimitsRatesDataInfo.md)
@@ -91,3 +101,7 @@ ___
 #### Defined in
 
 [main.ts:208514](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L208514)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

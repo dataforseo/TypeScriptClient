@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / ITwitterElement
 
 # Interface: ITwitterElement
@@ -34,6 +38,7 @@ the date when the page source of the element was published
 
 ___
 
+
 ### timestamp
 
 • `Optional` **timestamp**: `string`
@@ -49,6 +54,7 @@ example:
 
 ___
 
+
 ### tweet
 
 • `Optional` **tweet**: `string`
@@ -60,6 +66,7 @@ tweet message
 [main.ts:29048](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L29048)
 
 ___
+
 
 ### type
 
@@ -73,6 +80,7 @@ type of element
 
 ___
 
+
 ### url
 
 • `Optional` **url**: `string`
@@ -82,3 +90,7 @@ URL
 #### Defined in
 
 [main.ts:29057](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L29057)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

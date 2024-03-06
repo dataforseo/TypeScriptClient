@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / VisualStoriesSerpElementItem
 
 # Class: VisualStoriesSerpElementItem
@@ -5,7 +9,7 @@
 ## Hierarchy
 
 - [`BaseSerpElementItem`](BaseSerpElementItem.md)
-
+  
   ↳ **`VisualStoriesSerpElementItem`**
 
 ## Implements
@@ -78,6 +82,7 @@
 
 ___
 
+
 ### items
 
 • `Optional` **items**: [`LicensesElement`](LicensesElement.md)[]
@@ -93,6 +98,7 @@ contains results featured in the ‘hotels_pack’ element of SERP
 [main.ts:33299](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L33299)
 
 ___
+
 
 ### position
 
@@ -112,6 +118,7 @@ left, right
 
 ___
 
+
 ### rank\_absolute
 
 • `Optional` **rank\_absolute**: `number`
@@ -128,6 +135,7 @@ absolute position among all the elements in SERP
 [main.ts:33291](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L33291)
 
 ___
+
 
 ### rank\_group
 
@@ -147,6 +155,7 @@ positions of elements with different type values are omitted from rank_group
 
 ___
 
+
 ### rectangle
 
 • `Optional` **rectangle**: [`Rectangle`](Rectangle.md)
@@ -164,6 +173,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 [main.ts:33303](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L33303)
 
 ___
+
 
 ### xpath
 
@@ -205,6 +215,7 @@ the XPath of the element
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -229,6 +240,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`VisualStoriesSerpElementItem`](VisualStoriesSerpElementItem.md)
@@ -250,3 +262,7 @@ ___
 #### Defined in
 
 [main.ts:33332](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L33332)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

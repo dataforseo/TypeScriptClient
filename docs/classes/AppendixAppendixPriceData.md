@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / AppendixAppendixPriceData
 
 # Class: AppendixAppendixPriceData
@@ -63,6 +67,7 @@
 
 ___
 
+
 ### user\_data
 
 • `Optional` **user\_data**: [`AppendixTaskKeywordsDataPriceDataInfo`](AppendixTaskKeywordsDataPriceDataInfo.md)
@@ -97,6 +102,7 @@ ___
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -117,6 +123,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`AppendixAppendixPriceData`](AppendixAppendixPriceData.md)
@@ -134,3 +141,7 @@ ___
 #### Defined in
 
 [main.ts:210712](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L210712)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

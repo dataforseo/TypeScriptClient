@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IBusinessDataBusinessListingsCategoriesAggregationLiveRequestInfo
 
 # Interface: IBusinessDataBusinessListingsCategoriesAggregationLiveRequestInfo
@@ -43,6 +47,7 @@ you can specify up to 10 categories
 
 ___
 
+
 ### description
 
 • `Optional` **description**: `string`
@@ -57,6 +62,7 @@ can contain up to 200 symbols
 [main.ts:189706](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L189706)
 
 ___
+
 
 ### initial\_dataset\_filters
 
@@ -79,6 +85,7 @@ you can receive the list of available filters by making a separate request to h
 
 ___
 
+
 ### internal\_list\_limit
 
 • `Optional` **internal\_list\_limit**: `number`
@@ -94,6 +101,7 @@ default value: 10
 
 ___
 
+
 ### is\_claimed
 
 • `Optional` **is\_claimed**: `boolean`
@@ -106,6 +114,7 @@ optional field
 [main.ts:189714](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L189714)
 
 ___
+
 
 ### limit
 
@@ -121,6 +130,7 @@ maximum value: 1000
 [main.ts:189744](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L189744)
 
 ___
+
 
 ### location\_coordinate
 
@@ -141,6 +151,7 @@ example:
 
 ___
 
+
 ### offset
 
 • `Optional` **offset**: `number`
@@ -153,6 +164,7 @@ optional field
 [main.ts:189747](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L189747)
 
 ___
+
 
 ### tag
 
@@ -170,6 +182,7 @@ you will find the specified tag value in the data object of the response
 
 ___
 
+
 ### title
 
 • `Optional` **title**: `string`
@@ -182,3 +195,7 @@ can contain up to 200 symbols
 #### Defined in
 
 [main.ts:189711](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L189711)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

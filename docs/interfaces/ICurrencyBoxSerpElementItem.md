@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / ICurrencyBoxSerpElementItem
 
 # Interface: ICurrencyBoxSerpElementItem
@@ -5,7 +9,7 @@
 ## Hierarchy
 
 - [`IBaseSerpElementItem`](IBaseSerpElementItem.md)
-
+  
   ↳ **`ICurrencyBoxSerpElementItem`**
 
 ## Implemented by
@@ -47,6 +51,7 @@ converted currency
 
 ___
 
+
 ### converted\_value
 
 • `Optional` **converted\_value**: `number`
@@ -61,6 +66,7 @@ note that exchange rates displayed in the currency_box element may be delayed ac
 
 ___
 
+
 ### currency
 
 • `Optional` **currency**: `string`
@@ -74,6 +80,7 @@ ISO code of the currency applied to the price
 
 ___
 
+
 ### graph
 
 • `Optional` **graph**: [`Graph`](../classes/Graph.md)
@@ -85,6 +92,7 @@ contains data provided in the graph of the element
 [main.ts:34297](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L34297)
 
 ___
+
 
 ### position
 
@@ -100,6 +108,7 @@ left, right
 
 ___
 
+
 ### rank\_absolute
 
 • `Optional` **rank\_absolute**: `number`
@@ -112,6 +121,7 @@ absolute position among all the elements in SERP
 [main.ts:34270](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L34270)
 
 ___
+
 
 ### rank\_group
 
@@ -127,6 +137,7 @@ positions of elements with different type values are omitted from rank_group
 
 ___
 
+
 ### rectangle
 
 • `Optional` **rectangle**: [`Rectangle`](../classes/Rectangle.md)
@@ -141,6 +152,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 ___
 
+
 ### table
 
 • `Optional` **table**: [`Table`](../classes/Table.md)
@@ -153,6 +165,7 @@ if there are none, equals null
 [main.ts:34295](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L34295)
 
 ___
+
 
 ### timestamp
 
@@ -169,6 +182,7 @@ example:
 
 ___
 
+
 ### value
 
 • `Optional` **value**: `number`
@@ -181,6 +195,7 @@ the value of the rating
 
 ___
 
+
 ### xpath
 
 • `Optional` **xpath**: `string`
@@ -190,3 +205,7 @@ the XPath of the element
 #### Defined in
 
 [main.ts:34276](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L34276)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

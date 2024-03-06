@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IBacklinksSummaryLiveRequestInfo
 
 # Interface: IBacklinksSummaryLiveRequestInfo
@@ -42,6 +46,7 @@ example:
 
 ___
 
+
 ### backlinks\_status\_type
 
 • `Optional` **backlinks\_status\_type**: `string`
@@ -61,6 +66,7 @@ default value: live
 
 ___
 
+
 ### include\_indirect\_links
 
 • `Optional` **include\_indirect\_links**: `boolean`
@@ -77,6 +83,7 @@ default value: true
 
 ___
 
+
 ### include\_subdomains
 
 • `Optional` **include\_subdomains**: `boolean`
@@ -91,6 +98,7 @@ default value: true
 [main.ts:129318](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L129318)
 
 ___
+
 
 ### internal\_list\_limit
 
@@ -113,6 +121,7 @@ maximum value: 1000
 
 ___
 
+
 ### tag
 
 • `Optional` **tag**: `string`
@@ -129,6 +138,7 @@ you will find the specified tag value in the data object of the response
 
 ___
 
+
 ### target
 
 • `Optional` **target**: `string`
@@ -141,3 +151,7 @@ a page should be specified with absolute URL (including http:// or https://)
 #### Defined in
 
 [main.ts:129313](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L129313)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / KeywordsDataBingKeywordPerformanceLocationsAndLanguagesResultInfo
 
 # Class: KeywordsDataBingKeywordPerformanceLocationsAndLanguagesResultInfo
@@ -67,6 +71,7 @@ contains locations supported in combination with a specific language
 
 ___
 
+
 ### language\_code
 
 • `Optional` **language\_code**: `string`
@@ -82,6 +87,7 @@ language code
 [main.ts:126411](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L126411)
 
 ___
+
 
 ### language\_name
 
@@ -119,6 +125,7 @@ language name
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -139,6 +146,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`KeywordsDataBingKeywordPerformanceLocationsAndLanguagesResultInfo`](KeywordsDataBingKeywordPerformanceLocationsAndLanguagesResultInfo.md)
@@ -156,3 +164,7 @@ ___
 #### Defined in
 
 [main.ts:126443](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L126443)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

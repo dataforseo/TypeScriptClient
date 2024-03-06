@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IBusinessDataBusinessListingsLocationsResultInfo
 
 # Interface: IBusinessDataBusinessListingsLocationsResultInfo
@@ -32,6 +36,7 @@ number of businesses in this location in our database
 
 ___
 
+
 ### country\_iso\_code
 
 • `Optional` **country\_iso\_code**: `string`
@@ -44,6 +49,7 @@ ISO country code of the location
 
 ___
 
+
 ### location\_name
 
 • `Optional` **location\_name**: `string`
@@ -53,3 +59,7 @@ full name of the location
 #### Defined in
 
 [main.ts:187885](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L187885)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

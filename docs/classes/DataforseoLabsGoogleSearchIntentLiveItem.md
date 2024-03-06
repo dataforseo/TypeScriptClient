@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / DataforseoLabsGoogleSearchIntentLiveItem
 
 # Class: DataforseoLabsGoogleSearchIntentLiveItem
@@ -66,6 +70,7 @@ target keyword in a POST array
 
 ___
 
+
 ### keyword\_intent
 
 • `Optional` **keyword\_intent**: [`KeywordIntentInfo`](KeywordIntentInfo.md)
@@ -81,6 +86,7 @@ search intent data relevant for the specified keyword
 [main.ts:82856](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L82856)
 
 ___
+
 
 ### secondary\_keyword\_intents
 
@@ -118,6 +124,7 @@ contains objects with other possible search intents for the specified keyword
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -138,6 +145,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`DataforseoLabsGoogleSearchIntentLiveItem`](DataforseoLabsGoogleSearchIntentLiveItem.md)
@@ -155,3 +163,7 @@ ___
 #### Defined in
 
 [main.ts:82887](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L82887)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

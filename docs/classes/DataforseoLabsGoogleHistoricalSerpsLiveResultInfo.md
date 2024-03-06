@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / DataforseoLabsGoogleHistoricalSerpsLiveResultInfo
 
 # Class: DataforseoLabsGoogleHistoricalSerpsLiveResultInfo
@@ -70,6 +74,7 @@ contains results featured in the ‘hotels_pack’ element of SERP
 
 ___
 
+
 ### items\_count
 
 • `Optional` **items\_count**: `number`
@@ -85,6 +90,7 @@ the number of results returned in the items array
 [main.ts:92259](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L92259)
 
 ___
+
 
 ### keyword
 
@@ -103,6 +109,7 @@ the keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to
 
 ___
 
+
 ### language\_code
 
 • `Optional` **language\_code**: `string`
@@ -118,6 +125,7 @@ language code in a POST array
 [main.ts:92255](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L92255)
 
 ___
+
 
 ### location\_code
 
@@ -135,6 +143,7 @@ location code in a POST array
 
 ___
 
+
 ### se\_type
 
 • `Optional` **se\_type**: `string`
@@ -150,6 +159,7 @@ search engine type
 [main.ts:92248](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L92248)
 
 ___
+
 
 ### total\_count
 
@@ -187,6 +197,7 @@ the number of results returned in the items array
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -207,6 +218,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`DataforseoLabsGoogleHistoricalSerpsLiveResultInfo`](DataforseoLabsGoogleHistoricalSerpsLiveResultInfo.md)
@@ -224,3 +236,7 @@ ___
 #### Defined in
 
 [main.ts:92294](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L92294)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

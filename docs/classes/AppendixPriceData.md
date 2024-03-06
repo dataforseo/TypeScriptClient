@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / AppendixPriceData
 
 # Class: AppendixPriceData
@@ -73,6 +77,7 @@
 
 ___
 
+
 ### appendix
 
 • `Optional` **appendix**: [`AppendixAppendixPriceData`](AppendixAppendixPriceData.md)
@@ -86,6 +91,7 @@ ___
 [main.ts:212074](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L212074)
 
 ___
+
 
 ### backlinks
 
@@ -101,6 +107,7 @@ ___
 
 ___
 
+
 ### business\_data
 
 • `Optional` **business\_data**: [`AppendixBusinessDataPriceData`](AppendixBusinessDataPriceData.md)
@@ -114,6 +121,7 @@ ___
 [main.ts:212077](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L212077)
 
 ___
+
 
 ### content\_analysis
 
@@ -129,6 +137,7 @@ ___
 
 ___
 
+
 ### content\_generation
 
 • `Optional` **content\_generation**: [`AppendixContentGenerationPriceData`](AppendixContentGenerationPriceData.md)
@@ -142,6 +151,7 @@ ___
 [main.ts:212079](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L212079)
 
 ___
+
 
 ### dataforseo\_labs
 
@@ -157,6 +167,7 @@ ___
 
 ___
 
+
 ### domain\_analytics
 
 • `Optional` **domain\_analytics**: [`AppendixDomainAnalyticsPriceData`](AppendixDomainAnalyticsPriceData.md)
@@ -170,6 +181,7 @@ ___
 [main.ts:212081](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L212081)
 
 ___
+
 
 ### keywords\_data
 
@@ -185,6 +197,7 @@ ___
 
 ___
 
+
 ### merchant
 
 • `Optional` **merchant**: [`AppendixMerchantPriceData`](AppendixMerchantPriceData.md)
@@ -199,6 +212,7 @@ ___
 
 ___
 
+
 ### on\_page
 
 • `Optional` **on\_page**: [`AppendixOnPagePriceData`](AppendixOnPagePriceData.md)
@@ -212,6 +226,7 @@ ___
 [main.ts:212082](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L212082)
 
 ___
+
 
 ### serp
 
@@ -247,6 +262,7 @@ ___
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -267,6 +283,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`AppendixPriceData`](AppendixPriceData.md)
@@ -284,3 +301,7 @@ ___
 #### Defined in
 
 [main.ts:212116](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L212116)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

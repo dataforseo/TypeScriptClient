@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IYelpSearchOrganicBusinessDataSerpElementItem
 
 # Interface: IYelpSearchOrganicBusinessDataSerpElementItem
@@ -5,7 +9,7 @@
 ## Hierarchy
 
 - [`IBaseBusinessDataSerpElementItem`](IBaseBusinessDataSerpElementItem.md)
-
+  
   ↳ **`IYelpSearchOrganicBusinessDataSerpElementItem`**
 
 ## Implemented by
@@ -53,6 +57,7 @@ displayed only if the request contained the corresponding field
 
 ___
 
+
 ### business\_highlights
 
 • `Optional` **business\_highlights**: `string`[]
@@ -67,6 +72,7 @@ example:
 
 ___
 
+
 ### business\_url
 
 • `Optional` **business\_url**: `string`
@@ -78,6 +84,7 @@ link to the Yelp profile of the business entity
 [main.ts:204177](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L204177)
 
 ___
+
 
 ### categories
 
@@ -91,6 +98,7 @@ categories related to the business entity
 
 ___
 
+
 ### description
 
 • `Optional` **description**: `string`
@@ -102,6 +110,7 @@ description containing the featured review
 [main.ts:204184](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L204184)
 
 ___
+
 
 ### is\_guaranteed
 
@@ -115,6 +124,7 @@ Yelp guaranteed label
 
 ___
 
+
 ### location
 
 • `Optional` **location**: [`BusinessAddressLocationInfo`](../classes/BusinessAddressLocationInfo.md)
@@ -127,6 +137,7 @@ information about the location of the business entity
 
 ___
 
+
 ### name
 
 • `Optional` **name**: `string`
@@ -138,6 +149,7 @@ name of the business entity
 [main.ts:204182](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L204182)
 
 ___
+
 
 ### phone
 
@@ -153,6 +165,7 @@ example:
 
 ___
 
+
 ### photos
 
 • `Optional` **photos**: `string`[]
@@ -164,6 +177,7 @@ links to photos appearing in the result
 [main.ts:204201](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L204201)
 
 ___
+
 
 ### price\_range
 
@@ -178,6 +192,7 @@ indicates the number of currency signs next to the business listing correspondin
 
 ___
 
+
 ### rank\_absolute
 
 • `Optional` **rank\_absolute**: `number`
@@ -190,6 +205,7 @@ absolute position among all reviews on the list
 [main.ts:204171](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L204171)
 
 ___
+
 
 ### rank\_group
 
@@ -204,6 +220,7 @@ positions of elements with different type values are omitted from rank_group
 
 ___
 
+
 ### rating
 
 • `Optional` **rating**: [`RatingInfo`](../classes/RatingInfo.md)
@@ -216,6 +233,7 @@ the rating score submitted by the reviewer
 
 ___
 
+
 ### service\_offerings
 
 • `Optional` **service\_offerings**: [`ServiceOfferingsElement`](../classes/ServiceOfferingsElement.md)[]
@@ -227,6 +245,7 @@ tags corresponding to the availability of certain business offerings
 [main.ts:204211](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L204211)
 
 ___
+
 
 ### tags
 
@@ -242,6 +261,7 @@ example:
 
 ___
 
+
 ### yelp\_business\_id
 
 • `Optional` **yelp\_business\_id**: `string`
@@ -253,3 +273,7 @@ example:
 #### Defined in
 
 [main.ts:204175](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L204175)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

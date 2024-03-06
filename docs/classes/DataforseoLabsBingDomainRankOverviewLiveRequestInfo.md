@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / DataforseoLabsBingDomainRankOverviewLiveRequestInfo
 
 # Class: DataforseoLabsBingDomainRankOverviewLiveRequestInfo
@@ -78,6 +82,7 @@ en
 
 ___
 
+
 ### language\_name
 
 • `Optional` **language\_name**: `string`
@@ -101,6 +106,7 @@ English
 
 ___
 
+
 ### limit
 
 • `Optional` **limit**: `number`
@@ -119,6 +125,7 @@ maximum value: 1000
 [main.ts:103970](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L103970)
 
 ___
+
 
 ### location\_code
 
@@ -144,6 +151,7 @@ example:
 
 ___
 
+
 ### location\_name
 
 • `Optional` **location\_name**: `string`
@@ -168,6 +176,7 @@ United States
 
 ___
 
+
 ### offset
 
 • `Optional` **offset**: `number`
@@ -186,6 +195,7 @@ if you specify the 10 value, the first ten items in the results array will be om
 [main.ts:103975](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L103975)
 
 ___
+
 
 ### tag
 
@@ -206,6 +216,7 @@ you will find the specified tag value in the data object of the response
 [main.ts:103981](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L103981)
 
 ___
+
 
 ### target
 
@@ -246,6 +257,7 @@ the domain should be specified without https:// and www.
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -266,6 +278,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`DataforseoLabsBingDomainRankOverviewLiveRequestInfo`](DataforseoLabsBingDomainRankOverviewLiveRequestInfo.md)
@@ -283,3 +296,7 @@ ___
 #### Defined in
 
 [main.ts:104011](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L104011)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

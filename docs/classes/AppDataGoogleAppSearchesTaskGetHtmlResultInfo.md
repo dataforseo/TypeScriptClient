@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / AppDataGoogleAppSearchesTaskGetHtmlResultInfo
 
 # Class: AppDataGoogleAppSearchesTaskGetHtmlResultInfo
@@ -74,6 +78,7 @@ example:
 
 ___
 
+
 ### items
 
 • `Optional` **items**: [`HtmlItem`](HtmlItem.md)[]
@@ -89,6 +94,7 @@ HTML pages and related data
 [main.ts:178037](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L178037)
 
 ___
+
 
 ### items\_count
 
@@ -106,6 +112,7 @@ the number of results returned in the items array
 
 ___
 
+
 ### keyword
 
 • `Optional` **keyword**: `string`
@@ -121,6 +128,7 @@ keyword received in a POST request
 [main.ts:178020](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L178020)
 
 ___
+
 
 ### language\_code
 
@@ -138,6 +146,7 @@ language code in a POST array
 
 ___
 
+
 ### location\_code
 
 • `Optional` **location\_code**: `number`
@@ -154,6 +163,7 @@ location code in a POST array
 
 ___
 
+
 ### se\_domain
 
 • `Optional` **se\_domain**: `string`
@@ -169,6 +179,7 @@ search engine domain in a POST array
 [main.ts:178024](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L178024)
 
 ___
+
 
 ### type
 
@@ -206,6 +217,7 @@ type of element
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -226,6 +238,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`AppDataGoogleAppSearchesTaskGetHtmlResultInfo`](AppDataGoogleAppSearchesTaskGetHtmlResultInfo.md)
@@ -243,3 +256,7 @@ ___
 #### Defined in
 
 [main.ts:178071](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L178071)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

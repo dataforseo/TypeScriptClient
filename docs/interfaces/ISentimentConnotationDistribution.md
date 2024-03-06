@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / ISentimentConnotationDistribution
 
 # Interface: ISentimentConnotationDistribution
@@ -33,6 +37,7 @@
 
 ___
 
+
 ### fun
 
 • `Optional` **fun**: [`ContentAnalysisSummaryInfo`](../classes/ContentAnalysisSummaryInfo.md)
@@ -42,6 +47,7 @@ ___
 [main.ts:157966](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L157966)
 
 ___
+
 
 ### happiness
 
@@ -53,6 +59,7 @@ ___
 
 ___
 
+
 ### love
 
 • `Optional` **love**: [`ContentAnalysisSummaryInfo`](../classes/ContentAnalysisSummaryInfo.md)
@@ -62,6 +69,7 @@ ___
 [main.ts:157963](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L157963)
 
 ___
+
 
 ### sadness
 
@@ -73,6 +81,7 @@ ___
 
 ___
 
+
 ### share
 
 • `Optional` **share**: [`ContentAnalysisSummaryInfo`](../classes/ContentAnalysisSummaryInfo.md)
@@ -80,3 +89,7 @@ ___
 #### Defined in
 
 [main.ts:157965](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L157965)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

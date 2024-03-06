@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / AppDataAppleAppInfoTaskPostRequestInfo
 
 # Class: AppDataAppleAppInfoTaskPostRequestInfo
@@ -79,6 +83,7 @@ the id is 835599320
 
 ___
 
+
 ### language\_code
 
 • `Optional` **language\_code**: `string`
@@ -99,6 +104,7 @@ en
 [main.ts:183890](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L183890)
 
 ___
+
 
 ### language\_name
 
@@ -121,6 +127,7 @@ English
 
 ___
 
+
 ### location\_code
 
 • `Optional` **location\_code**: `number`
@@ -142,6 +149,7 @@ example:
 
 ___
 
+
 ### location\_name
 
 • `Optional` **location\_name**: `string`
@@ -162,6 +170,7 @@ West Los Angeles,California,United States
 [main.ts:183869](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L183869)
 
 ___
+
 
 ### pingback\_url
 
@@ -187,6 +196,7 @@ i.a., the # symbol will be encoded into %23
 
 ___
 
+
 ### postback\_data
 
 • `Optional` **postback\_data**: `string`
@@ -206,6 +216,7 @@ advanced
 [main.ts:183920](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L183920)
 
 ___
+
 
 ### postback\_url
 
@@ -231,6 +242,7 @@ i.a., the # symbol will be encoded into %23
 
 ___
 
+
 ### priority
 
 • `Optional` **priority**: `number`
@@ -239,7 +251,7 @@ task priority
 optional field
 can take the following values:
 1 – normal execution priority (set by default)
-2 – high execution priority 
+2 – high execution priority
 You will be additionally charged for the tasks with high execution priority.
 The cost can be calculated on the Pricing page.
 
@@ -252,6 +264,7 @@ The cost can be calculated on the Pricing page.
 [main.ts:183898](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L183898)
 
 ___
+
 
 ### tag
 
@@ -293,6 +306,7 @@ you will find the specified tag value in the data object of the response
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -313,6 +327,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`AppDataAppleAppInfoTaskPostRequestInfo`](AppDataAppleAppInfoTaskPostRequestInfo.md)
@@ -330,3 +345,7 @@ ___
 #### Defined in
 
 [main.ts:183962](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L183962)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

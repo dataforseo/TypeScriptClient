@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / SerpAiSummaryRequestInfo
 
 # Class: SerpAiSummaryRequestInfo
@@ -71,6 +75,7 @@ default value: false
 
 ___
 
+
 ### include\_links
 
 • `Optional` **include\_links**: `boolean`
@@ -89,6 +94,7 @@ default value: false
 [main.ts:23752](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L23752)
 
 ___
+
 
 ### prompt
 
@@ -110,6 +116,7 @@ note: your prompt has to be relevant to the keyword specified in the POST reques
 
 ___
 
+
 ### support\_extra
 
 • `Optional` **support\_extra**: `boolean`
@@ -128,6 +135,7 @@ default value: true
 [main.ts:23742](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L23742)
 
 ___
+
 
 ### task\_id
 
@@ -168,6 +176,7 @@ you will be able to use it within 30 days to request the results of the task at 
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -188,6 +197,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`SerpAiSummaryRequestInfo`](SerpAiSummaryRequestInfo.md)
@@ -205,3 +215,7 @@ ___
 #### Defined in
 
 [main.ts:23779](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L23779)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

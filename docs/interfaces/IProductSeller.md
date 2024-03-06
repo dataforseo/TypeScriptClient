@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IProductSeller
 
 # Interface: IProductSeller
@@ -37,6 +41,7 @@ product delivery information
 
 ___
 
+
 ### price
 
 • `Optional` **price**: [`PriceInfo`](../classes/PriceInfo.md)
@@ -50,6 +55,7 @@ product price details on the seller’s website
 
 ___
 
+
 ### seller\_rating
 
 • `Optional` **seller\_rating**: [`RatingElement`](../classes/RatingElement.md)
@@ -61,6 +67,7 @@ rating of the seller
 [main.ts:169057](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L169057)
 
 ___
+
 
 ### seller\_review\_count
 
@@ -75,6 +82,7 @@ number of reviews on the product seller’s account
 
 ___
 
+
 ### title
 
 • `Optional` **title**: `string`
@@ -86,6 +94,7 @@ product title
 [main.ts:169052](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L169052)
 
 ___
+
 
 ### type
 
@@ -99,6 +108,7 @@ type of element
 
 ___
 
+
 ### url
 
 • `Optional` **url**: `string`
@@ -109,3 +119,7 @@ url of the page where the product is sold
 #### Defined in
 
 [main.ts:169055](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L169055)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

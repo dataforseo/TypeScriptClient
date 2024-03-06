@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IBacklinksHistoryLiveRequestInfo
 
 # Interface: IBacklinksHistoryLiveRequestInfo
@@ -39,6 +43,7 @@ example:
 
 ___
 
+
 ### date\_to
 
 • `Optional` **date\_to**: `string`
@@ -56,6 +61,7 @@ example:
 
 ___
 
+
 ### tag
 
 • `Optional` **tag**: `string`
@@ -72,6 +78,7 @@ you will find the specified tag value in the data object of the response
 
 ___
 
+
 ### target
 
 • `Optional` **target**: `string`
@@ -83,3 +90,7 @@ a domain should be specified without https:// and www.
 #### Defined in
 
 [main.ts:129979](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L129979)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

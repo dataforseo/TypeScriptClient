@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IDataforseoLabsBingSerpCompetitorsLiveResultInfo
 
 # Interface: IDataforseoLabsBingSerpCompetitorsLiveResultInfo
@@ -36,6 +40,7 @@ contains detected SERP competitors and related data
 
 ___
 
+
 ### items\_count
 
 • `Optional` **items\_count**: `number`
@@ -47,6 +52,7 @@ the number of results returned in the items array
 [main.ts:107155](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L107155)
 
 ___
+
 
 ### language\_code
 
@@ -61,6 +67,7 @@ if there is no data, then the value is null
 
 ___
 
+
 ### location\_code
 
 • `Optional` **location\_code**: `number`
@@ -74,6 +81,7 @@ if there is no data, then the value is null
 
 ___
 
+
 ### se\_type
 
 • `Optional` **se\_type**: `string`
@@ -85,6 +93,7 @@ search engine type
 [main.ts:107142](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L107142)
 
 ___
+
 
 ### seed\_keywords
 
@@ -99,6 +108,7 @@ keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a s
 
 ___
 
+
 ### total\_count
 
 • `Optional` **total\_count**: `number`
@@ -108,3 +118,7 @@ the total amount of results in our database relevant to your request
 #### Defined in
 
 [main.ts:107153](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L107153)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

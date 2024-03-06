@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / LicensesElement
 
 # Class: LicensesElement
@@ -67,6 +71,7 @@ domain where a link points
 
 ___
 
+
 ### title
 
 • `Optional` **title**: `string`
@@ -83,6 +88,7 @@ title of the row
 
 ___
 
+
 ### type
 
 • `Optional` **type**: `string`
@@ -98,6 +104,7 @@ type of element
 [main.ts:33218](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L33218)
 
 ___
+
 
 ### url
 
@@ -135,6 +142,7 @@ URL
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -155,6 +163,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`LicensesElement`](LicensesElement.md)
@@ -172,3 +181,7 @@ ___
 #### Defined in
 
 [main.ts:33250](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L33250)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IAppendixMerchantLimitsRatesDataInfo
 
 # Interface: IAppendixMerchantLimitsRatesDataInfo
@@ -33,6 +37,7 @@
 
 ___
 
+
 ### errors
 
 • `Optional` **errors**: `number`
@@ -42,6 +47,7 @@ ___
 [main.ts:207670](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L207670)
 
 ___
+
 
 ### google
 
@@ -53,6 +59,7 @@ ___
 
 ___
 
+
 ### languages
 
 • `Optional` **languages**: `number`
@@ -62,6 +69,7 @@ ___
 [main.ts:207669](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L207669)
 
 ___
+
 
 ### locations
 
@@ -73,6 +81,7 @@ ___
 
 ___
 
+
 ### reviews
 
 • `Optional` **reviews**: [`AppendixSerpLimitsRatesDataInfo`](../classes/AppendixSerpLimitsRatesDataInfo.md)
@@ -80,3 +89,7 @@ ___
 #### Defined in
 
 [main.ts:207671](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L207671)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

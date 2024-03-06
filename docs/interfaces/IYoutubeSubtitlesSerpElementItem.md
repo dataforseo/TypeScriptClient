@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IYoutubeSubtitlesSerpElementItem
 
 # Interface: IYoutubeSubtitlesSerpElementItem
@@ -5,7 +9,7 @@
 ## Hierarchy
 
 - [`IBaseSerpElementItem`](IBaseSerpElementItem.md)
-
+  
   ↳ **`IYoutubeSubtitlesSerpElementItem`**
 
 ## Implemented by
@@ -41,6 +45,7 @@ duration of subtitles in seconds
 
 ___
 
+
 ### end\_time
 
 • `Optional` **end\_time**: `number`
@@ -52,6 +57,7 @@ the second subtitled text ends
 [main.ts:60295](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L60295)
 
 ___
+
 
 ### rank\_absolute
 
@@ -65,6 +71,7 @@ absolute position among all the elements in SERP
 [main.ts:60289](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L60289)
 
 ___
+
 
 ### rank\_group
 
@@ -80,6 +87,7 @@ positions of elements with different type values are omitted from rank_group
 
 ___
 
+
 ### start\_time
 
 • `Optional` **start\_time**: `number`
@@ -92,6 +100,7 @@ the second subtitled text starts
 
 ___
 
+
 ### text
 
 • `Optional` **text**: `string`
@@ -101,3 +110,7 @@ text translated in subtitles
 #### Defined in
 
 [main.ts:60291](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L60291)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

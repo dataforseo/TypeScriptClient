@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / ILocationInfo
 
 # Interface: ILocationInfo
@@ -34,6 +38,7 @@ address of the event’s venue
 
 ___
 
+
 ### cid
 
 • `Optional` **cid**: `string`
@@ -48,6 +53,7 @@ can be used with Google Reviews API to get a full list of reviews
 
 ___
 
+
 ### feature\_id
 
 • `Optional` **feature\_id**: `string`
@@ -59,6 +65,7 @@ the unique identifier of the element in SERP
 [main.ts:44587](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L44587)
 
 ___
+
 
 ### name
 
@@ -72,6 +79,7 @@ name of the event’s venue
 
 ___
 
+
 ### url
 
 • `Optional` **url**: `string`
@@ -81,3 +89,7 @@ URL to the event’s venue on google maps
 #### Defined in
 
 [main.ts:44581](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L44581)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

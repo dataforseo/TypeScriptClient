@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / SerpTaskRequestInfo
 
 # Class: SerpTaskRequestInfo
@@ -94,6 +98,7 @@ Note: to use this parameter, set calculate_rectangles to true
 
 ___
 
+
 ### browser\_screen\_resolution\_ratio
 
 • `Optional` **browser\_screen\_resolution\_ratio**: `number`
@@ -116,6 +121,7 @@ Note: to use this parameter, set calculate_rectangles to true
 [main.ts:213112](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L213112)
 
 ___
+
 
 ### browser\_screen\_width
 
@@ -140,6 +146,7 @@ Note: to use this parameter, set calculate_rectangles to true
 
 ___
 
+
 ### calculate\_rectangles
 
 • `Optional` **calculate\_rectangles**: `boolean`
@@ -160,6 +167,7 @@ Note: if set to true, the charge per task will be multiplied by 2
 [main.ts:213085](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L213085)
 
 ___
+
 
 ### depth
 
@@ -184,6 +192,7 @@ if the specified depth is higher than the number of results in the response, the
 
 ___
 
+
 ### device
 
 • `Optional` **device**: `string`
@@ -202,6 +211,7 @@ default value: desktop
 [main.ts:213065](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L213065)
 
 ___
+
 
 ### group\_organic\_results
 
@@ -222,6 +232,7 @@ default value: true
 [main.ts:213078](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L213078)
 
 ___
+
 
 ### keyword
 
@@ -246,6 +257,7 @@ Note: queries containing the ‘cache:’ parameter are not supported and will r
 
 ___
 
+
 ### language\_code
 
 • `Optional` **language\_code**: `string`
@@ -266,6 +278,7 @@ en
 [main.ts:213053](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L213053)
 
 ___
+
 
 ### language\_name
 
@@ -288,6 +301,7 @@ English
 
 ___
 
+
 ### location\_code
 
 • `Optional` **location\_code**: `number`
@@ -308,6 +322,7 @@ example:
 [main.ts:213029](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L213029)
 
 ___
+
 
 ### location\_coordinate
 
@@ -333,6 +348,7 @@ example:
 
 ___
 
+
 ### location\_name
 
 • `Optional` **location\_name**: `string`
@@ -353,6 +369,7 @@ London,England,United Kingdom
 [main.ts:213022](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L213022)
 
 ___
+
 
 ### max\_crawl\_pages
 
@@ -375,6 +392,7 @@ learn more at our help center
 
 ___
 
+
 ### os
 
 • `Optional` **os**: `string`
@@ -396,6 +414,7 @@ default value: android
 
 ___
 
+
 ### people\_also\_ask\_click\_depth
 
 • `Optional` **people\_also\_ask\_click\_depth**: `number`
@@ -416,6 +435,7 @@ possible values: from 1 to 4
 [main.ts:213119](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L213119)
 
 ___
+
 
 ### pingback\_url
 
@@ -441,6 +461,7 @@ i.a., the # symbol will be encoded into %23
 
 ___
 
+
 ### postback\_data
 
 • `Optional` **postback\_data**: `string`
@@ -460,6 +481,7 @@ regular, advanced, html
 [main.ts:213145](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L213145)
 
 ___
+
 
 ### postback\_url
 
@@ -485,6 +507,7 @@ i.a., the # symbol will be encoded into %23
 
 ___
 
+
 ### priority
 
 • `Optional` **priority**: `number`
@@ -507,6 +530,7 @@ The cost can be calculated on the Pricing page
 
 ___
 
+
 ### se\_domain
 
 • `Optional` **se\_domain**: `string`
@@ -528,6 +552,7 @@ google.co.uk, google.com.au, google.de, etc.
 
 ___
 
+
 ### search\_param
 
 • `Optional` **search\_param**: `string`
@@ -545,6 +570,7 @@ get the list of available parameters and additional details here
 [main.ts:213123](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L213123)
 
 ___
+
 
 ### tag
 
@@ -565,6 +591,7 @@ you will find the specified tag value in the data object of the response
 [main.ts:213129](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L213129)
 
 ___
+
 
 ### url
 
@@ -606,6 +633,7 @@ https://www.google.co.uk/search?q=%20rank%20tracker%20api&hl=en&gl=GB&uule=w+CAI
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -626,6 +654,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`SerpTaskRequestInfo`](SerpTaskRequestInfo.md)
@@ -643,3 +672,7 @@ ___
 #### Defined in
 
 [main.ts:213201](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L213201)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

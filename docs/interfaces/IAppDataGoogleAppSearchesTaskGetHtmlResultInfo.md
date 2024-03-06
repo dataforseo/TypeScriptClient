@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IAppDataGoogleAppSearchesTaskGetHtmlResultInfo
 
 # Interface: IAppDataGoogleAppSearchesTaskGetHtmlResultInfo
@@ -40,6 +44,7 @@ example:
 
 ___
 
+
 ### items
 
 • `Optional` **items**: [`HtmlItem`](../classes/HtmlItem.md)[]
@@ -51,6 +56,7 @@ HTML pages and related data
 [main.ts:178119](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L178119)
 
 ___
+
 
 ### items\_count
 
@@ -64,6 +70,7 @@ the number of results returned in the items array
 
 ___
 
+
 ### keyword
 
 • `Optional` **keyword**: `string`
@@ -75,6 +82,7 @@ keyword received in a POST request
 [main.ts:178102](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L178102)
 
 ___
+
 
 ### language\_code
 
@@ -88,6 +96,7 @@ language code in a POST array
 
 ___
 
+
 ### location\_code
 
 • `Optional` **location\_code**: `number`
@@ -99,6 +108,7 @@ location code in a POST array
 [main.ts:178108](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L178108)
 
 ___
+
 
 ### se\_domain
 
@@ -112,6 +122,7 @@ search engine domain in a POST array
 
 ___
 
+
 ### type
 
 • `Optional` **type**: `string`
@@ -121,3 +132,7 @@ type of element
 #### Defined in
 
 [main.ts:178104](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L178104)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

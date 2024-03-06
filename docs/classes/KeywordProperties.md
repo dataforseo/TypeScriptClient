@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / KeywordProperties
 
 # Class: KeywordProperties
@@ -71,6 +75,7 @@ if the value is null, our database does not contain any keywords the correspondi
 
 ___
 
+
 ### detected\_language
 
 • `Optional` **detected\_language**: `string`
@@ -88,6 +93,7 @@ indicates the language of the keyword as identified by our system
 
 ___
 
+
 ### is\_another\_language
 
 • `Optional` **is\_another\_language**: `boolean`
@@ -104,6 +110,7 @@ if true, the language set in the request does not match the language determined 
 [main.ts:79035](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L79035)
 
 ___
+
 
 ### keyword\_difficulty
 
@@ -124,6 +131,7 @@ learn more about the metric in this help center guide
 
 ___
 
+
 ### se\_type
 
 • `Optional` **se\_type**: `string`
@@ -139,6 +147,7 @@ search engine type
 [main.ts:79014](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L79014)
 
 ___
+
 
 ### synonym\_clustering\_algorithm
 
@@ -180,6 +189,7 @@ if the value is null, our database does not contain any keywords the correspondi
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -200,6 +210,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`KeywordProperties`](KeywordProperties.md)
@@ -217,3 +228,7 @@ ___
 #### Defined in
 
 [main.ts:79063](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L79063)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

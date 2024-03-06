@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / ISerpGoogleDatasetSearchTaskGetAdvancedResultInfo
 
 # Interface: ISerpGoogleDatasetSearchTaskGetAdvancedResultInfo
@@ -40,6 +44,7 @@ you can use it to make sure that we provided accurate results
 
 ___
 
+
 ### datetime
 
 • `Optional` **datetime**: `string`
@@ -55,6 +60,7 @@ example:
 
 ___
 
+
 ### item\_types
 
 • `Optional` **item\_types**: `string`[]
@@ -69,6 +75,7 @@ possible item type: dataset
 
 ___
 
+
 ### items
 
 • `Optional` **items**: [`BaseSerpElementItem`](../classes/BaseSerpElementItem.md)[]
@@ -81,6 +88,7 @@ elements of search results found in SERP
 
 ___
 
+
 ### items\_count
 
 • `Optional` **items\_count**: `number`
@@ -92,6 +100,7 @@ the number of results returned in the items array
 [main.ts:51207](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L51207)
 
 ___
+
 
 ### keyword
 
@@ -106,6 +115,7 @@ the keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to
 
 ___
 
+
 ### language\_code
 
 • `Optional` **language\_code**: `string`
@@ -117,6 +127,7 @@ language code in a POST array
 [main.ts:51188](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L51188)
 
 ___
+
 
 ### se\_domain
 
@@ -130,6 +141,7 @@ search engine domain in a POST array
 
 ___
 
+
 ### se\_results\_count
 
 • `Optional` **se\_results\_count**: `number`
@@ -142,6 +154,7 @@ total number of results in SERP
 
 ___
 
+
 ### spell
 
 • `Optional` **spell**: [`SpellInfo`](../classes/SpellInfo.md)
@@ -152,3 +165,7 @@ if the search engine provided results for a keyword that was corrected, we will 
 #### Defined in
 
 [main.ts:51199](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L51199)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

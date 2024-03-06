@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / BacklinksCompetitorsLiveResultInfo
 
 # Class: BacklinksCompetitorsLiveResultInfo
@@ -66,6 +70,7 @@ items array
 
 ___
 
+
 ### items\_count
 
 • `Optional` **items\_count**: `number`
@@ -81,6 +86,7 @@ number of items in the items array
 [main.ts:136197](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L136197)
 
 ___
+
 
 ### total\_count
 
@@ -118,6 +124,7 @@ total number of relevant items in the database
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -138,6 +145,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`BacklinksCompetitorsLiveResultInfo`](BacklinksCompetitorsLiveResultInfo.md)
@@ -155,3 +163,7 @@ ___
 #### Defined in
 
 [main.ts:136228](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L136228)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

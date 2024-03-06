@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / DataforseoLabsGoogleAppCompetitorsLiveItem
 
 # Class: DataforseoLabsGoogleAppCompetitorsLiveItem
@@ -70,6 +74,7 @@ id of the competitor app
 
 ___
 
+
 ### avg\_position
 
 • `Optional` **avg\_position**: `number`
@@ -87,6 +92,7 @@ the value for a given application may differ when combined with different target
 [main.ts:109292](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L109292)
 
 ___
+
 
 ### competitor\_metrics
 
@@ -106,6 +112,7 @@ note: in this array ranking data is provided for the returned competitor’s app
 
 ___
 
+
 ### full\_metrics
 
 • `Optional` **full\_metrics**: [`GooglePlayMetricsBundleInfo`](GooglePlayMetricsBundleInfo.md)
@@ -123,6 +130,7 @@ full overview of ranking data relevant to all keywords that the provided app_id 
 
 ___
 
+
 ### intersections
 
 • `Optional` **intersections**: `number`
@@ -139,6 +147,7 @@ number of intersecting keywords
 
 ___
 
+
 ### se\_type
 
 • `Optional` **se\_type**: `string`
@@ -154,6 +163,7 @@ search engine type
 [main.ts:109286](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L109286)
 
 ___
+
 
 ### sum\_position
 
@@ -193,6 +203,7 @@ the value for a given application may differ when combined with different target
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -213,6 +224,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`DataforseoLabsGoogleAppCompetitorsLiveItem`](DataforseoLabsGoogleAppCompetitorsLiveItem.md)
@@ -230,3 +242,7 @@ ___
 #### Defined in
 
 [main.ts:109334](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L109334)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

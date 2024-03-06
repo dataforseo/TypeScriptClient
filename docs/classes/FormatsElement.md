@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / FormatsElement
 
 # Class: FormatsElement
@@ -67,6 +71,7 @@ for example: zip, html, csv
 
 ___
 
+
 ### size
 
 • `Optional` **size**: `string`
@@ -82,6 +87,7 @@ file size in bytes
 [main.ts:50567](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L50567)
 
 ___
+
 
 ### type
 
@@ -119,6 +125,7 @@ type of element
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -139,6 +146,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`FormatsElement`](FormatsElement.md)
@@ -156,3 +164,7 @@ ___
 #### Defined in
 
 [main.ts:50592](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L50592)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / ScoreByCategories
 
 # Class: ScoreByCategories
@@ -70,6 +74,7 @@ calculated based on data from the hotel’s proximity to nearby airports
 
 ___
 
+
 ### overall
 
 • `Optional` **overall**: `number`
@@ -89,6 +94,7 @@ note that the criteria are not weighted equally in the overall score
 
 ___
 
+
 ### restaurants
 
 • `Optional` **restaurants**: `number`
@@ -107,6 +113,7 @@ calculated based on data from the hotel’s proximity to nearby restaurants
 
 ___
 
+
 ### things\_to\_do
 
 • `Optional` **things\_to\_do**: `number`
@@ -124,6 +131,7 @@ calculated based on data from the hotel’s proximity to nearby things to do
 [main.ts:196788](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L196788)
 
 ___
+
 
 ### transit
 
@@ -163,6 +171,7 @@ calculated based on data from the hotel’s proximity to nearby transit options
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -183,6 +192,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`ScoreByCategories`](ScoreByCategories.md)
@@ -200,3 +210,7 @@ ___
 #### Defined in
 
 [main.ts:196827](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L196827)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

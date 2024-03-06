@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IAppendixAmazonMerchantPriceData
 
 # Interface: IAppendixAmazonMerchantPriceData
@@ -30,6 +34,7 @@
 
 ___
 
+
 ### products
 
 • `Optional` **products**: [`AppendixProductGoogleMerchantPriceDataInfo`](../classes/AppendixProductGoogleMerchantPriceDataInfo.md)
@@ -40,6 +45,7 @@ ___
 
 ___
 
+
 ### sellers
 
 • `Optional` **sellers**: [`AppendixProductGoogleMerchantPriceDataInfo`](../classes/AppendixProductGoogleMerchantPriceDataInfo.md)
@@ -47,3 +53,7 @@ ___
 #### Defined in
 
 [main.ts:210473](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L210473)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IGoogleBusinessInfoBusinessDataSerpElementItem
 
 # Interface: IGoogleBusinessInfoBusinessDataSerpElementItem
@@ -5,7 +9,7 @@
 ## Hierarchy
 
 - [`IBaseBusinessDataSerpElementItem`](IBaseBusinessDataSerpElementItem.md)
-
+  
   ↳ **`IGoogleBusinessInfoBusinessDataSerpElementItem`**
 
 ## Implemented by
@@ -72,6 +76,7 @@ additional Google My Business categories that describe the services provided by 
 
 ___
 
+
 ### address
 
 • `Optional` **address**: `string`
@@ -84,6 +89,7 @@ address of the business entity
 
 ___
 
+
 ### address\_info
 
 • `Optional` **address\_info**: [`AddressInfo`](../classes/AddressInfo.md)
@@ -95,6 +101,7 @@ object containing address components of the business entity
 [main.ts:191671](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L191671)
 
 ___
+
 
 ### attributes
 
@@ -109,6 +116,7 @@ service details of a business entity displayed in a form of checks and based on 
 
 ___
 
+
 ### category
 
 • `Optional` **category**: `string`
@@ -122,6 +130,7 @@ Google My Business general category that best describes the services provided by
 
 ___
 
+
 ### category\_ids
 
 • `Optional` **category\_ids**: `string`[]
@@ -134,6 +143,7 @@ universal category IDs that do not change based on the selected country
 [main.ts:191656](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L191656)
 
 ___
+
 
 ### cid
 
@@ -150,6 +160,7 @@ learn more about the identifier in this help center article
 
 ___
 
+
 ### contact\_url
 
 • `Optional` **contact\_url**: `string`
@@ -161,6 +172,7 @@ URL of the preferred contact page
 [main.ts:191681](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L191681)
 
 ___
+
 
 ### description
 
@@ -175,6 +187,7 @@ the description of the business entity for which the results are collected
 
 ___
 
+
 ### directory
 
 • `Optional` **directory**: [`BusinessDirectoryInfo`](../classes/BusinessDirectoryInfo.md)
@@ -188,6 +201,7 @@ includes information about businesses that are located within the target busines
 
 ___
 
+
 ### domain
 
 • `Optional` **domain**: `string`
@@ -199,6 +213,7 @@ domain of the business entity
 [main.ts:191683](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L191683)
 
 ___
+
 
 ### feature\_id
 
@@ -212,6 +227,7 @@ learn more about the identifier in this help center article
 [main.ts:191667](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L191667)
 
 ___
+
 
 ### hotel\_rating
 
@@ -227,6 +243,7 @@ if there is no hotel class rating information, the value will be null
 
 ___
 
+
 ### is\_claimed
 
 • `Optional` **is\_claimed**: `boolean`
@@ -238,6 +255,7 @@ shows whether the entity is verified by its owner on Google Maps
 [main.ts:191701](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L191701)
 
 ___
+
 
 ### is\_directory\_item
 
@@ -254,6 +272,7 @@ note: if the business establishment is a parent item in the directory, the value
 
 ___
 
+
 ### latitude
 
 • `Optional` **latitude**: `number`
@@ -268,6 +287,7 @@ example:
 
 ___
 
+
 ### local\_business\_links
 
 • `Optional` **local\_business\_links**: [`BaseLocalBusinessLink`](../classes/BaseLocalBusinessLink.md)
@@ -281,6 +301,7 @@ list of options to interact with the business directly from search results
 
 ___
 
+
 ### logo
 
 • `Optional` **logo**: `string`
@@ -292,6 +313,7 @@ URL of the logo featured in Google My Business profile
 [main.ts:191685](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L191685)
 
 ___
+
 
 ### longitude
 
@@ -307,6 +329,7 @@ example:
 
 ___
 
+
 ### main\_image
 
 • `Optional` **main\_image**: `string`
@@ -318,6 +341,7 @@ URL of the main image featured in Google My Business profile
 [main.ts:191687](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L191687)
 
 ___
+
 
 ### people\_also\_search
 
@@ -331,6 +355,7 @@ related business entities
 
 ___
 
+
 ### phone
 
 • `Optional` **phone**: `string`
@@ -342,6 +367,7 @@ phone number of the business entity
 [main.ts:191677](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L191677)
 
 ___
+
 
 ### place\_id
 
@@ -357,13 +383,14 @@ learn more about the identifier in this help center article
 
 ___
 
+
 ### place\_topics
 
 • `Optional` **place\_topics**: `Object`
 
 keywords mentioned in customer reviews
 contains most popular keywords related to products/services mentioned in customer reviews of a business entity and the number of reviews mentioning each keyword
-example: 
+example:
 "place_topics": {
 "egg roll": 48,
 "birthday": 33
@@ -379,6 +406,7 @@ example:
 
 ___
 
+
 ### popular\_times
 
 • `Optional` **popular\_times**: [`PopularTimes`](../classes/PopularTimes.md)
@@ -392,6 +420,7 @@ information related to busy hours of the business entity
 
 ___
 
+
 ### position
 
 • `Optional` **position**: `string`
@@ -403,6 +432,7 @@ the alignment in SERP
 [main.ts:191644](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L191644)
 
 ___
+
 
 ### price\_level
 
@@ -418,6 +448,7 @@ if there is no price level information, the value will be null
 
 ___
 
+
 ### rank\_absolute
 
 • `Optional` **rank\_absolute**: `number`
@@ -429,6 +460,7 @@ absolute rank among all the elements
 [main.ts:191642](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L191642)
 
 ___
+
 
 ### rank\_group
 
@@ -443,11 +475,12 @@ positions of elements with different type values are omitted from rank_group
 
 ___
 
+
 ### rating
 
 • `Optional` **rating**: [`RatingInfo`](../classes/RatingInfo.md)
 
-the element’s rating 
+the element’s rating
 the popularity rate based on reviews and displayed in SERP
 
 #### Defined in
@@ -455,6 +488,7 @@ the popularity rate based on reviews and displayed in SERP
 [main.ts:191715](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L191715)
 
 ___
+
 
 ### rating\_distribution
 
@@ -473,6 +507,7 @@ the object displays the number of 1-star to 5-star ratings, as reviewed by users
 
 ___
 
+
 ### snippet
 
 • `Optional` **snippet**: `string`
@@ -484,6 +519,7 @@ additional information on the business entity
 [main.ts:191691](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L191691)
 
 ___
+
 
 ### title
 
@@ -498,6 +534,7 @@ the name of the business entity for which the results are collected
 
 ___
 
+
 ### total\_photos
 
 • `Optional` **total\_photos**: `number`
@@ -509,6 +546,7 @@ total count of images featured in Google My Business profile
 [main.ts:191689](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L191689)
 
 ___
+
 
 ### url
 
@@ -522,6 +560,7 @@ absolute url of the business entity
 
 ___
 
+
 ### work\_time
 
 • `Optional` **work\_time**: [`WorkInfo`](../classes/WorkInfo.md)
@@ -532,3 +571,7 @@ information related to operational hours of the business entity
 #### Defined in
 
 [main.ts:191731](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L191731)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

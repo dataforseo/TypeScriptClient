@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / KnowledgeGraphDescriptionItemSerpElementItem
 
 # Class: KnowledgeGraphDescriptionItemSerpElementItem
@@ -5,7 +9,7 @@
 ## Hierarchy
 
 - [`BaseSerpElementItem`](BaseSerpElementItem.md)
-
+  
   ↳ **`KnowledgeGraphDescriptionItemSerpElementItem`**
 
 ## Implements
@@ -79,6 +83,7 @@
 
 ___
 
+
 ### links
 
 • `Optional` **links**: [`LinkElement`](LinkElement.md)[]
@@ -96,6 +101,7 @@ if there are none, equals null
 [main.ts:26341](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L26341)
 
 ___
+
 
 ### position
 
@@ -115,6 +121,7 @@ left, right
 
 ___
 
+
 ### rank\_absolute
 
 • `Optional` **rank\_absolute**: `number`
@@ -131,6 +138,7 @@ absolute position among all the elements in SERP
 [main.ts:26329](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L26329)
 
 ___
+
 
 ### rank\_group
 
@@ -150,6 +158,7 @@ positions of elements with different type values are omitted from rank_group
 
 ___
 
+
 ### rectangle
 
 • `Optional` **rectangle**: [`Rectangle`](Rectangle.md)
@@ -168,6 +177,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 ___
 
+
 ### text
 
 • `Optional` **text**: `string`
@@ -183,6 +193,7 @@ description content
 [main.ts:26337](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L26337)
 
 ___
+
 
 ### xpath
 
@@ -224,6 +235,7 @@ the XPath of the element
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -248,6 +260,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`KnowledgeGraphDescriptionItemSerpElementItem`](KnowledgeGraphDescriptionItemSerpElementItem.md)
@@ -269,3 +282,7 @@ ___
 #### Defined in
 
 [main.ts:26375](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L26375)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

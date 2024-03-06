@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IHotelsPackDataforseoLabsSerpElementItem
 
 # Interface: IHotelsPackDataforseoLabsSerpElementItem
@@ -5,7 +9,7 @@
 ## Hierarchy
 
 - [`IBaseDataforseoLabsSerpElementItem`](IBaseDataforseoLabsSerpElementItem.md)
-
+  
   ↳ **`IHotelsPackDataforseoLabsSerpElementItem`**
 
 ## Implemented by
@@ -46,6 +50,7 @@ example:
 
 ___
 
+
 ### date\_to
 
 • `Optional` **date\_to**: `string`
@@ -61,6 +66,7 @@ example:
 
 ___
 
+
 ### items
 
 • `Optional` **items**: [`HotelsPackElement`](../classes/HotelsPackElement.md)[]
@@ -72,6 +78,7 @@ elements of search results found in SERP
 [main.ts:93572](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L93572)
 
 ___
+
 
 ### position
 
@@ -87,6 +94,7 @@ left, right
 
 ___
 
+
 ### rank\_absolute
 
 • `Optional` **rank\_absolute**: `number`
@@ -99,6 +107,7 @@ absolute position among all the elements in SERP
 [main.ts:93552](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L93552)
 
 ___
+
 
 ### rank\_group
 
@@ -113,6 +122,7 @@ positions of elements with different type values are omitted from rank_group
 
 ___
 
+
 ### title
 
 • `Optional` **title**: `string`
@@ -125,6 +135,7 @@ title of the result in SERP
 
 ___
 
+
 ### xpath
 
 • `Optional` **xpath**: `string`
@@ -134,3 +145,7 @@ the XPath of the element
 #### Defined in
 
 [main.ts:93558](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L93558)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

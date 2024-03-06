@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / DataforseoLabsAmazonProductKeywordIntersectionsLiveRequestInfo
 
 # Class: DataforseoLabsAmazonProductKeywordIntersectionsLiveRequestInfo
@@ -87,6 +91,7 @@ learn more about the parameter on this help center page
 
 ___
 
+
 ### filters
 
 • `Optional` **filters**: `any`[]
@@ -112,6 +117,7 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 ___
 
+
 ### intersection\_mode
 
 • `Optional` **intersection\_mode**: `string`
@@ -131,6 +137,7 @@ learn more about the parameter in this help center guide
 [main.ts:101572](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L101572)
 
 ___
+
 
 ### language\_code
 
@@ -153,6 +160,7 @@ en
 
 ___
 
+
 ### language\_name
 
 • `Optional` **language\_name**: `string`
@@ -174,6 +182,7 @@ English
 
 ___
 
+
 ### limit
 
 • `Optional` **limit**: `number`
@@ -192,6 +201,7 @@ maximum value: 1000
 [main.ts:101566](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L101566)
 
 ___
+
 
 ### location\_code
 
@@ -215,6 +225,7 @@ example:
 
 ___
 
+
 ### location\_name
 
 • `Optional` **location\_name**: `string`
@@ -237,6 +248,7 @@ United Kingdom
 
 ___
 
+
 ### offset
 
 • `Optional` **offset**: `number`
@@ -255,6 +267,7 @@ if you specify the 10 value, the first ten keywords in the results array will be
 [main.ts:101604](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L101604)
 
 ___
+
 
 ### order\_by
 
@@ -285,6 +298,7 @@ default rule:
 [main.ts:101599](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L101599)
 
 ___
+
 
 ### tag
 
@@ -326,6 +340,7 @@ you will find the specified tag value in the data object of the response
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -346,6 +361,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`DataforseoLabsAmazonProductKeywordIntersectionsLiveRequestInfo`](DataforseoLabsAmazonProductKeywordIntersectionsLiveRequestInfo.md)
@@ -363,3 +379,7 @@ ___
 #### Defined in
 
 [main.ts:101657](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L101657)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

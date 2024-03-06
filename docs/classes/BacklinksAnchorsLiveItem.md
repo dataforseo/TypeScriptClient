@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / BacklinksAnchorsLiveItem
 
 # Class: BacklinksAnchorsLiveItem
@@ -85,6 +89,7 @@ anchor of the backlink
 
 ___
 
+
 ### backlinks
 
 • `Optional` **backlinks**: `number`
@@ -100,6 +105,7 @@ indicates the number of backlinks
 [main.ts:131980](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L131980)
 
 ___
+
 
 ### backlinks\_spam\_score
 
@@ -118,6 +124,7 @@ learn more about how the metric is calculated on this help center page
 
 ___
 
+
 ### broken\_backlinks
 
 • `Optional` **broken\_backlinks**: `number`
@@ -135,6 +142,7 @@ number of broken backlinks pointing to the target
 
 ___
 
+
 ### broken\_pages
 
 • `Optional` **broken\_pages**: `number`
@@ -151,6 +159,7 @@ number of pages that respond with 4xx or 5xx status codes where backlinks are po
 [main.ts:132000](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L132000)
 
 ___
+
 
 ### first\_seen
 
@@ -170,6 +179,7 @@ example:
 [main.ts:131985](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L131985)
 
 ___
+
 
 ### lost\_date
 
@@ -191,6 +201,7 @@ example:
 
 ___
 
+
 ### rank
 
 • `Optional` **rank**: `number`
@@ -210,6 +221,7 @@ learn more about the metric and how it is calculated in this help center article
 
 ___
 
+
 ### referring\_domains
 
 • `Optional` **referring\_domains**: `number`
@@ -225,6 +237,7 @@ indicates the number of referring domains
 [main.ts:132002](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L132002)
 
 ___
+
 
 ### referring\_domains\_nofollow
 
@@ -242,6 +255,7 @@ number of domains pointing at least one nofollow link to the target
 
 ___
 
+
 ### referring\_ips
 
 • `Optional` **referring\_ips**: `number`
@@ -258,6 +272,7 @@ number of IP addresses pointing to this page
 [main.ts:132011](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L132011)
 
 ___
+
 
 ### referring\_links\_attributes
 
@@ -280,6 +295,7 @@ indicates link attributes of the referring links and link count per each attribu
 
 ___
 
+
 ### referring\_links\_countries
 
 • `Optional` **referring\_links\_countries**: `Object`
@@ -301,6 +317,7 @@ indicates ISO country codes of the domains where the referring links are located
 
 ___
 
+
 ### referring\_links\_platform\_types
 
 • `Optional` **referring\_links\_platform\_types**: `Object`
@@ -321,6 +338,7 @@ indicates referring platform types and and link count per each platform
 [main.ts:132029](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L132029)
 
 ___
+
 
 ### referring\_links\_semantic\_locations
 
@@ -346,6 +364,7 @@ article, section, summary
 
 ___
 
+
 ### referring\_links\_tld
 
 • `Optional` **referring\_links\_tld**: `Object`
@@ -366,6 +385,7 @@ contains top level domains and referring link count per each
 [main.ts:132018](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L132018)
 
 ___
+
 
 ### referring\_links\_types
 
@@ -390,6 +410,7 @@ anchor, image, link, meta, canonical, alternate, redirect
 
 ___
 
+
 ### referring\_main\_domains
 
 • `Optional` **referring\_main\_domains**: `number`
@@ -405,6 +426,7 @@ indicates the number of referring main domains
 [main.ts:132006](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L132006)
 
 ___
+
 
 ### referring\_main\_domains\_nofollow
 
@@ -422,6 +444,7 @@ number of main domains pointing at least one nofollow link to the target
 
 ___
 
+
 ### referring\_pages
 
 • `Optional` **referring\_pages**: `number`
@@ -438,6 +461,7 @@ indicates the number of pages pointing to target with this anchor
 
 ___
 
+
 ### referring\_subnets
 
 • `Optional` **referring\_subnets**: `number`
@@ -453,6 +477,7 @@ number of referring subnetworks
 [main.ts:132013](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L132013)
 
 ___
+
 
 ### type
 
@@ -490,6 +515,7 @@ type of element
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -510,6 +536,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`BacklinksAnchorsLiveItem`](BacklinksAnchorsLiveItem.md)
@@ -527,3 +554,7 @@ ___
 #### Defined in
 
 [main.ts:132118](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L132118)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

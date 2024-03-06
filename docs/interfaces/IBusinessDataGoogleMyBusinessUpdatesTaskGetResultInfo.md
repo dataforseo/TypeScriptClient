@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IBusinessDataGoogleMyBusinessUpdatesTaskGetResultInfo
 
 # Interface: IBusinessDataGoogleMyBusinessUpdatesTaskGetResultInfo
@@ -41,6 +45,7 @@ identifier of the business updates element in SERP
 
 ___
 
+
 ### check\_url
 
 • `Optional` **check\_url**: `string`
@@ -53,6 +58,7 @@ you can use it to make sure that we provided accurate results
 [main.ts:192621](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L192621)
 
 ___
+
 
 ### cid
 
@@ -67,6 +73,7 @@ learn more about the cid identifier in this help center article
 [main.ts:192632](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L192632)
 
 ___
+
 
 ### datetime
 
@@ -83,6 +90,7 @@ example:
 
 ___
 
+
 ### feature\_id
 
 • `Optional` **feature\_id**: `string`
@@ -95,6 +103,7 @@ learn more about the identifier in this help center article
 [main.ts:192635](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L192635)
 
 ___
+
 
 ### item\_types
 
@@ -110,6 +119,7 @@ possible item types: google_business_post
 
 ___
 
+
 ### items
 
 • `Optional` **items**: [`BaseBusinessDataSerpElementItem`](../classes/BaseBusinessDataSerpElementItem.md)[]
@@ -124,6 +134,7 @@ possible item types: google_business_info
 
 ___
 
+
 ### items\_count
 
 • `Optional` **items\_count**: `number`
@@ -136,6 +147,7 @@ the number of items in the items array
 [main.ts:192642](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L192642)
 
 ___
+
 
 ### keyword
 
@@ -154,6 +166,7 @@ learn more about the parameter in this help center article
 
 ___
 
+
 ### language\_code
 
 • `Optional` **language\_code**: `string`
@@ -165,6 +178,7 @@ language code in a POST array
 [main.ts:192618](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L192618)
 
 ___
+
 
 ### location\_code
 
@@ -178,6 +192,7 @@ location code in a POST array
 
 ___
 
+
 ### se\_domain
 
 • `Optional` **se\_domain**: `string`
@@ -187,3 +202,7 @@ search engine domain as specified in a POST array
 #### Defined in
 
 [main.ts:192614](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L192614)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IBusinessDataGoogleHotelSearchesItem
 
 # Interface: IBusinessDataGoogleHotelSearchesItem
@@ -40,6 +44,7 @@ CgoI-KWyzenM_MV3EAE
 
 ___
 
+
 ### is\_paid
 
 • `Optional` **is\_paid**: `boolean`
@@ -54,6 +59,7 @@ if false, related hotel_search_item is an organic hotel listing
 
 ___
 
+
 ### location
 
 • `Optional` **location**: [`GpsCoordinatesLocationInfo`](../classes/GpsCoordinatesLocationInfo.md)
@@ -65,6 +71,7 @@ GPS coordinates of the hotel’s location
 [main.ts:193909](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L193909)
 
 ___
+
 
 ### overview\_images
 
@@ -78,6 +85,7 @@ featured images for a hotel
 
 ___
 
+
 ### prices
 
 • `Optional` **prices**: [`HotelPriceInfo`](../classes/HotelPriceInfo.md)
@@ -90,6 +98,7 @@ hotel price
 
 ___
 
+
 ### reviews
 
 • `Optional` **reviews**: [`HotelReviewInfo`](../classes/HotelReviewInfo.md)
@@ -101,6 +110,7 @@ hotel reviews and rating information
 [main.ts:193911](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L193911)
 
 ___
+
 
 ### stars
 
@@ -115,6 +125,7 @@ class rating that ranges between 1-5 stars
 
 ___
 
+
 ### title
 
 • `Optional` **title**: `string`
@@ -127,6 +138,7 @@ title of the hotel
 
 ___
 
+
 ### type
 
 • `Optional` **type**: `string`
@@ -136,3 +148,7 @@ type of element
 #### Defined in
 
 [main.ts:193894](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L193894)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / AppDataAppleLocationsResultInfo
 
 # Class: AppDataAppleLocationsResultInfo
@@ -68,6 +72,7 @@ ISO country code of the location
 
 ___
 
+
 ### location\_code
 
 • `Optional` **location\_code**: `number`
@@ -84,6 +89,7 @@ location code
 
 ___
 
+
 ### location\_name
 
 • `Optional` **location\_name**: `string`
@@ -99,6 +105,7 @@ full name of the location
 [main.ts:182734](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L182734)
 
 ___
+
 
 ### location\_name\_parent
 
@@ -122,6 +129,7 @@ note: Apple App Data API currently supports countries only, that is why this val
 [main.ts:182743](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L182743)
 
 ___
+
 
 ### location\_type
 
@@ -159,6 +167,7 @@ location type
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -179,6 +188,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`AppDataAppleLocationsResultInfo`](AppDataAppleLocationsResultInfo.md)
@@ -196,3 +206,7 @@ ___
 #### Defined in
 
 [main.ts:182774](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L182774)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

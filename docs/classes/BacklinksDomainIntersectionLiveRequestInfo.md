@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / BacklinksDomainIntersectionLiveRequestInfo
 
 # Class: BacklinksDomainIntersectionLiveRequestInfo
@@ -83,6 +87,7 @@ example:
 
 ___
 
+
 ### backlinks\_status\_type
 
 • `Optional` **backlinks\_status\_type**: `string`
@@ -106,6 +111,7 @@ default value: live
 
 ___
 
+
 ### exclude\_internal\_backlinks
 
 • `Optional` **exclude\_internal\_backlinks**: `boolean`
@@ -124,6 +130,7 @@ default value: true
 [main.ts:136479](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L136479)
 
 ___
+
 
 ### exclude\_targets
 
@@ -148,6 +155,7 @@ example:
 [main.ts:136394](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L136394)
 
 ___
+
 
 ### filters
 
@@ -180,6 +188,7 @@ The full list of possible filters is available here.
 
 ___
 
+
 ### include\_indirect\_links
 
 • `Optional` **include\_indirect\_links**: `boolean`
@@ -200,6 +209,7 @@ default value: true
 
 ___
 
+
 ### include\_subdomains
 
 • `Optional` **include\_subdomains**: `boolean`
@@ -218,6 +228,7 @@ default value: true
 [main.ts:136468](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L136468)
 
 ___
+
 
 ### internal\_list\_limit
 
@@ -244,6 +255,7 @@ maximum value: 1000
 
 ___
 
+
 ### intersection\_mode
 
 • `Optional` **intersection\_mode**: `string`
@@ -266,6 +278,7 @@ default value: all
 
 ___
 
+
 ### limit
 
 • `Optional` **limit**: `number`
@@ -285,6 +298,7 @@ maximum value: 1000
 
 ___
 
+
 ### offset
 
 • `Optional` **offset**: `number`
@@ -303,6 +317,7 @@ if you specify the 10 value, the first ten backlinks in the results array will b
 [main.ts:136430](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L136430)
 
 ___
+
 
 ### order\_by
 
@@ -332,6 +347,7 @@ example:
 
 ___
 
+
 ### tag
 
 • `Optional` **tag**: `string`
@@ -351,6 +367,7 @@ you will find the specified tag value in the data object of the response
 [main.ts:136493](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L136493)
 
 ___
+
 
 ### targets
 
@@ -401,6 +418,7 @@ example:
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -421,6 +439,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`BacklinksDomainIntersectionLiveRequestInfo`](BacklinksDomainIntersectionLiveRequestInfo.md)
@@ -438,3 +457,7 @@ ___
 #### Defined in
 
 [main.ts:136551](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L136551)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IVideoElement
 
 # Interface: IVideoElement
@@ -35,6 +39,7 @@ URL to the video preview image
 
 ___
 
+
 ### source
 
 • `Optional` **source**: `string`
@@ -47,6 +52,7 @@ indicates the source of information included in the element
 [main.ts:30162](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L30162)
 
 ___
+
 
 ### timestamp
 
@@ -63,6 +69,7 @@ example:
 
 ___
 
+
 ### title
 
 • `Optional` **title**: `string`
@@ -74,6 +81,7 @@ title of the row
 [main.ts:30164](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L30164)
 
 ___
+
 
 ### type
 
@@ -87,6 +95,7 @@ type of element
 
 ___
 
+
 ### url
 
 • `Optional` **url**: `string`
@@ -96,3 +105,7 @@ URL
 #### Defined in
 
 [main.ts:30171](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L30171)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

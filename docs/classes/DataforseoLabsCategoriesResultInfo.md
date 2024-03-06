@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / DataforseoLabsCategoriesResultInfo
 
 # Class: DataforseoLabsCategoriesResultInfo
@@ -66,6 +70,7 @@ category code
 
 ___
 
+
 ### category\_code\_parent
 
 • `Optional` **category\_code\_parent**: `number`
@@ -90,6 +95,7 @@ corresponds to:
 [main.ts:78147](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L78147)
 
 ___
+
 
 ### category\_name
 
@@ -127,6 +133,7 @@ full name of the category
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -147,6 +154,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`DataforseoLabsCategoriesResultInfo`](DataforseoLabsCategoriesResultInfo.md)
@@ -164,3 +172,7 @@ ___
 #### Defined in
 
 [main.ts:78172](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L78172)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

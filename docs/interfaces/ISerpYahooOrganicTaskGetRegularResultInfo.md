@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / ISerpYahooOrganicTaskGetRegularResultInfo
 
 # Interface: ISerpYahooOrganicTaskGetRegularResultInfo
@@ -42,6 +46,7 @@ you can use it to make sure that we provided accurate results
 
 ___
 
+
 ### datetime
 
 • `Optional` **datetime**: `string`
@@ -56,6 +61,7 @@ example:
 [main.ts:63854](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L63854)
 
 ___
+
 
 ### item\_types
 
@@ -73,6 +79,7 @@ note that this array contains all types of search results found in the returned 
 
 ___
 
+
 ### items
 
 • `Optional` **items**: [`BaseSerpElementItem`](../classes/BaseSerpElementItem.md)[]
@@ -85,6 +92,7 @@ items in SERP
 
 ___
 
+
 ### items\_count
 
 • `Optional` **items\_count**: `number`
@@ -96,6 +104,7 @@ the number of results returned in the items array
 [main.ts:63867](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L63867)
 
 ___
+
 
 ### keyword
 
@@ -110,6 +119,7 @@ keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a s
 
 ___
 
+
 ### language\_code
 
 • `Optional` **language\_code**: `string`
@@ -121,6 +131,7 @@ language code in a POST array
 [main.ts:63846](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L63846)
 
 ___
+
 
 ### location\_code
 
@@ -134,6 +145,7 @@ location code in a POST array
 
 ___
 
+
 ### se\_domain
 
 • `Optional` **se\_domain**: `string`
@@ -146,6 +158,7 @@ search engine domain in a POST array
 
 ___
 
+
 ### se\_results\_count
 
 • `Optional` **se\_results\_count**: `number`
@@ -157,6 +170,7 @@ total number of results in SERP
 [main.ts:63865](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L63865)
 
 ___
+
 
 ### spell
 
@@ -171,6 +185,7 @@ if the search engine provided results for a keyword that was corrected, we will 
 
 ___
 
+
 ### type
 
 • `Optional` **type**: `string`
@@ -180,3 +195,7 @@ type of element
 #### Defined in
 
 [main.ts:63840](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L63840)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

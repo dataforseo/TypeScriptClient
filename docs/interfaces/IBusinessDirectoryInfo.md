@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IBusinessDirectoryInfo
 
 # Interface: IBusinessDirectoryInfo
@@ -33,6 +37,7 @@ possible item types: google_business_info
 
 ___
 
+
 ### title
 
 • `Optional` **title**: `string`
@@ -43,3 +48,7 @@ domain of the online menu system
 #### Defined in
 
 [main.ts:191363](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L191363)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

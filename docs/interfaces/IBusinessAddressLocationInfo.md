@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IBusinessAddressLocationInfo
 
 # Interface: IBusinessAddressLocationInfo
@@ -33,6 +37,7 @@ contains few address lines specified by the business entity
 
 ___
 
+
 ### latitude
 
 • `Optional` **latitude**: `string`
@@ -45,6 +50,7 @@ latitude in GPS coordinates
 
 ___
 
+
 ### longitude
 
 • `Optional` **longitude**: `string`
@@ -54,3 +60,7 @@ longitude in GPS coordinates
 #### Defined in
 
 [main.ts:203937](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L203937)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

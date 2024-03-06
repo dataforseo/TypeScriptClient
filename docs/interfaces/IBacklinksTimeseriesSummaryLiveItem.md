@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IBacklinksTimeseriesSummaryLiveItem
 
 # Interface: IBacklinksTimeseriesSummaryLiveItem
@@ -41,6 +45,7 @@ number of backlinks for the given date
 
 ___
 
+
 ### backlinks\_nofollow
 
 • `Optional` **backlinks\_nofollow**: `number`
@@ -52,6 +57,7 @@ number of nofollow backlinks for the given date
 [main.ts:138602](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L138602)
 
 ___
+
 
 ### date
 
@@ -68,6 +74,7 @@ example:
 
 ___
 
+
 ### rank
 
 • `Optional` **rank**: `number`
@@ -80,6 +87,7 @@ learn more about the metric and how it is calculated in this help center article
 [main.ts:138598](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L138598)
 
 ___
+
 
 ### referring\_domains
 
@@ -94,6 +102,7 @@ referring domains include subdomains that are counted as separate domains for th
 
 ___
 
+
 ### referring\_domains\_nofollow
 
 • `Optional` **referring\_domains\_nofollow**: `number`
@@ -105,6 +114,7 @@ number of domains pointing at least one nofollow link to the target for the give
 [main.ts:138609](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L138609)
 
 ___
+
 
 ### referring\_ips
 
@@ -119,6 +129,7 @@ number of IP addresses pointing to this page
 
 ___
 
+
 ### referring\_main\_domains
 
 • `Optional` **referring\_main\_domains**: `number`
@@ -130,6 +141,7 @@ number of referring main domains for the given date
 [main.ts:138611](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L138611)
 
 ___
+
 
 ### referring\_main\_domains\_nofollow
 
@@ -143,6 +155,7 @@ number of main domains pointing at least one nofollow link to the target for the
 
 ___
 
+
 ### referring\_pages
 
 • `Optional` **referring\_pages**: `number`
@@ -154,6 +167,7 @@ number of pages pointing to target for the given date
 [main.ts:138604](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L138604)
 
 ___
+
 
 ### referring\_subnets
 
@@ -167,6 +181,7 @@ number of referring subnetworks for the given date
 
 ___
 
+
 ### type
 
 • `Optional` **type**: `string`
@@ -176,3 +191,7 @@ type of element
 #### Defined in
 
 [main.ts:138590](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L138590)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / MerchantAmazonReviewsTaskPostRequestInfo
 
 # Class: MerchantAmazonReviewsTaskPostRequestInfo
@@ -85,6 +89,7 @@ you can receive the asin parameter by making a separate request to the Amazon Pr
 
 ___
 
+
 ### depth
 
 • `Optional` **depth**: `number`
@@ -106,6 +111,7 @@ default value: 10
 
 ___
 
+
 ### filter\_by\_keyword
 
 • `Optional` **filter\_by\_keyword**: `string`
@@ -124,6 +130,7 @@ if you use this field, the response will only include reviews that contain the s
 [main.ts:174955](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L174955)
 
 ___
+
 
 ### filter\_by\_star
 
@@ -153,6 +160,7 @@ default rule: all_stars
 
 ___
 
+
 ### format\_type
 
 • `Optional` **format\_type**: `string`
@@ -176,6 +184,7 @@ Note: ASINs vary depending on a product modification. Thus, two modifications of
 
 ___
 
+
 ### language\_code
 
 • `Optional` **language\_code**: `string`
@@ -196,6 +205,7 @@ en_GB
 [main.ts:174906](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L174906)
 
 ___
+
 
 ### language\_name
 
@@ -219,6 +229,7 @@ English (United Kingdom)
 
 ___
 
+
 ### location\_code
 
 • `Optional` **location\_code**: `number`
@@ -240,6 +251,7 @@ example:
 [main.ts:174882](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L174882)
 
 ___
+
 
 ### location\_coordinate
 
@@ -264,6 +276,7 @@ example:
 
 ___
 
+
 ### location\_name
 
 • `Optional` **location\_name**: `string`
@@ -284,6 +297,7 @@ HA1,England,United Kingdom
 [main.ts:174874](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L174874)
 
 ___
+
 
 ### media\_type
 
@@ -306,6 +320,7 @@ default rule: all_contents
 [main.ts:174963](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L174963)
 
 ___
+
 
 ### pingback\_url
 
@@ -331,6 +346,7 @@ i.a., the # symbol will be encoded into %23
 
 ___
 
+
 ### postback\_data
 
 • `Optional` **postback\_data**: `string`
@@ -350,6 +366,7 @@ advanced, html
 [main.ts:174994](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L174994)
 
 ___
+
 
 ### postback\_url
 
@@ -375,6 +392,7 @@ i.a., the # symbol will be encoded into %23
 
 ___
 
+
 ### priority
 
 • `Optional` **priority**: `number`
@@ -396,6 +414,7 @@ The cost can be calculated on the Pricing page.
 [main.ts:174867](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L174867)
 
 ___
+
 
 ### reviewer\_type
 
@@ -419,6 +438,7 @@ default rule: all_reviews
 
 ___
 
+
 ### se\_domain
 
 • `Optional` **se\_domain**: `string`
@@ -439,6 +459,7 @@ amazon.com, amazon.co.uk, amazon.fr, etc.
 [main.ts:174913](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L174913)
 
 ___
+
 
 ### sort\_by
 
@@ -461,6 +482,7 @@ default rule: helpful
 [main.ts:174928](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L174928)
 
 ___
+
 
 ### tag
 
@@ -502,6 +524,7 @@ you will find the specified tag value in the data object of the response
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -522,6 +545,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`MerchantAmazonReviewsTaskPostRequestInfo`](MerchantAmazonReviewsTaskPostRequestInfo.md)
@@ -539,3 +563,7 @@ ___
 #### Defined in
 
 [main.ts:175045](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L175045)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

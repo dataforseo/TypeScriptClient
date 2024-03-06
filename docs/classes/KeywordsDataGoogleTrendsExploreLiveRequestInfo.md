@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / KeywordsDataGoogleTrendsExploreLiveRequestInfo
 
 # Class: KeywordsDataGoogleTrendsExploreLiveRequestInfo
@@ -78,6 +82,7 @@ you can receive the list of available categories with their category_code by mak
 
 ___
 
+
 ### date\_from
 
 • `Optional` **date\_from**: `string`
@@ -101,6 +106,7 @@ example:
 
 ___
 
+
 ### date\_to
 
 • `Optional` **date\_to**: `string`
@@ -121,6 +127,7 @@ example:
 [main.ts:121492](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L121492)
 
 ___
+
 
 ### item\_types
 
@@ -148,6 +155,7 @@ possible values:
 
 ___
 
+
 ### keywords
 
 • `Optional` **keywords**: `string`[]
@@ -167,6 +175,7 @@ Note: comma symbols (,) in the specified keywords will be unset and ignored
 [main.ts:121437](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L121437)
 
 ___
+
 
 ### language\_code
 
@@ -190,6 +199,7 @@ en
 
 ___
 
+
 ### language\_name
 
 • `Optional` **language\_name**: `string`
@@ -211,6 +221,7 @@ English
 [main.ts:121461](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L121461)
 
 ___
+
 
 ### location\_code
 
@@ -234,6 +245,7 @@ example:
 
 ___
 
+
 ### location\_name
 
 • `Optional` **location\_name**: `string`
@@ -256,6 +268,7 @@ United Kingdom
 
 ___
 
+
 ### tag
 
 • `Optional` **tag**: `string`
@@ -275,6 +288,7 @@ you will find the specified tag value in the data object of the response
 [main.ts:121520](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L121520)
 
 ___
+
 
 ### time\_range
 
@@ -299,6 +313,7 @@ possible values for news, youtube, images, froogle:
 [main.ts:121502](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L121502)
 
 ___
+
 
 ### type
 
@@ -336,6 +351,7 @@ type of element
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -356,6 +372,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`KeywordsDataGoogleTrendsExploreLiveRequestInfo`](KeywordsDataGoogleTrendsExploreLiveRequestInfo.md)
@@ -373,3 +390,7 @@ ___
 #### Defined in
 
 [main.ts:121562](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L121562)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

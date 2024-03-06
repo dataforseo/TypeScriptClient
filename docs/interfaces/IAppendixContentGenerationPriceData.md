@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IAppendixContentGenerationPriceData
 
 # Interface: IAppendixContentGenerationPriceData
@@ -34,6 +38,7 @@
 
 ___
 
+
 ### generate
 
 • `Optional` **generate**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](../classes/AppendixKeywordBingKeywordsDataPriceDataInfo.md)
@@ -43,6 +48,7 @@ ___
 [main.ts:211568](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L211568)
 
 ___
+
 
 ### generate\_meta\_tags
 
@@ -54,6 +60,7 @@ ___
 
 ___
 
+
 ### generate\_sub\_topics
 
 • `Optional` **generate\_sub\_topics**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](../classes/AppendixKeywordBingKeywordsDataPriceDataInfo.md)
@@ -63,6 +70,7 @@ ___
 [main.ts:211570](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L211570)
 
 ___
+
 
 ### generate\_text
 
@@ -74,6 +82,7 @@ ___
 
 ___
 
+
 ### paraphrase
 
 • `Optional` **paraphrase**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](../classes/AppendixKeywordBingKeywordsDataPriceDataInfo.md)
@@ -84,6 +93,7 @@ ___
 
 ___
 
+
 ### text\_summary
 
 • `Optional` **text\_summary**: [`AppendixContentGenerationPriceDataInfo`](../classes/AppendixContentGenerationPriceDataInfo.md)
@@ -91,3 +101,7 @@ ___
 #### Defined in
 
 [main.ts:211573](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L211573)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

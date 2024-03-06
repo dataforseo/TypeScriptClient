@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / BusinessDataTrustpilotSearchTaskGetResultInfo
 
 # Class: BusinessDataTrustpilotSearchTaskGetResultInfo
@@ -70,6 +74,7 @@ you can use it to make sure that we provided accurate results
 
 ___
 
+
 ### datetime
 
 • `Optional` **datetime**: `string`
@@ -89,6 +94,7 @@ example:
 
 ___
 
+
 ### items
 
 • `Optional` **items**: [`BaseBusinessDataSerpElementItem`](BaseBusinessDataSerpElementItem.md)[]
@@ -105,6 +111,7 @@ you can get more results by using the depth parameter when setting a task
 [main.ts:199216](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L199216)
 
 ___
+
 
 ### items\_count
 
@@ -123,6 +130,7 @@ you can get more results by using the depth parameter when setting a task
 
 ___
 
+
 ### keyword
 
 • `Optional` **keyword**: `string`
@@ -138,6 +146,7 @@ keyword in a POST array
 [main.ts:199200](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L199200)
 
 ___
+
 
 ### se\_domain
 
@@ -175,6 +184,7 @@ search engine domain in a POST array
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -195,6 +205,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`BusinessDataTrustpilotSearchTaskGetResultInfo`](BusinessDataTrustpilotSearchTaskGetResultInfo.md)
@@ -212,3 +223,7 @@ ___
 #### Defined in
 
 [main.ts:199248](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L199248)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

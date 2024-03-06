@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / SerpGoogleSearchByImageTaskPostTaskInfo
 
 # Class: SerpGoogleSearchByImageTaskPostTaskInfo
@@ -5,7 +9,7 @@
 ## Hierarchy
 
 - [`BaseResponseTaskInfo`](BaseResponseTaskInfo.md)
-
+  
   ↳ **`SerpGoogleSearchByImageTaskPostTaskInfo`**
 
 ## Implements
@@ -86,6 +90,7 @@ total tasks cost, USD
 
 ___
 
+
 ### data
 
 • `Optional` **data**: `Object`
@@ -110,6 +115,7 @@ contains the same parameters that you specified in the POST request
 
 ___
 
+
 ### id
 
 • `Optional` **id**: `string`
@@ -131,6 +137,7 @@ unique task identifier in our system in the UUID format
 
 ___
 
+
 ### path
 
 • `Optional` **path**: `string`[]
@@ -151,6 +158,7 @@ URL path
 
 ___
 
+
 ### result
 
 • `Optional` **result**: `any`
@@ -167,6 +175,7 @@ in this case, the value will be null
 [main.ts:47489](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L47489)
 
 ___
+
 
 ### result\_count
 
@@ -187,6 +196,7 @@ number of elements in the result array
 [main.ts:22604](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L22604)
 
 ___
+
 
 ### status\_code
 
@@ -210,6 +220,7 @@ you can find the full list of the response codes here
 
 ___
 
+
 ### status\_message
 
 • `Optional` **status\_message**: `string`
@@ -230,6 +241,7 @@ you can find the full list of general informational messages here
 [main.ts:22598](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L22598)
 
 ___
+
 
 ### time
 
@@ -275,6 +287,7 @@ execution time, seconds
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -299,6 +312,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`SerpGoogleSearchByImageTaskPostTaskInfo`](SerpGoogleSearchByImageTaskPostTaskInfo.md)
@@ -320,3 +334,7 @@ ___
 #### Defined in
 
 [main.ts:47508](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L47508)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

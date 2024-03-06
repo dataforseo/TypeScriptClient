@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / DomainAnalyticsTechnologiesAggregationTechnologiesLiveItem
 
 # Class: DomainAnalyticsTechnologiesAggregationTechnologiesLiveItem
@@ -73,6 +77,7 @@ number of domains that match the parameters you specified and are using technolo
 
 ___
 
+
 ### category
 
 • `Optional` **category**: `string`
@@ -89,6 +94,7 @@ technology category id
 
 ___
 
+
 ### group
 
 • `Optional` **group**: `string`
@@ -104,6 +110,7 @@ technology group id
 [main.ts:72727](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L72727)
 
 ___
+
 
 ### groups\_count
 
@@ -122,6 +129,7 @@ number of domains that match the parameters you specified and are using technolo
 
 ___
 
+
 ### technologies\_count
 
 • `Optional` **technologies\_count**: `number`
@@ -139,6 +147,7 @@ number of domains that match the parameters you specified and are using the indi
 
 ___
 
+
 ### technology
 
 • `Optional` **technology**: `string`
@@ -154,6 +163,7 @@ technology name
 [main.ts:72731](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L72731)
 
 ___
+
 
 ### type
 
@@ -191,6 +201,7 @@ type of element
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -211,6 +222,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`DomainAnalyticsTechnologiesAggregationTechnologiesLiveItem`](DomainAnalyticsTechnologiesAggregationTechnologiesLiveItem.md)
@@ -228,3 +240,7 @@ ___
 #### Defined in
 
 [main.ts:72769](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L72769)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

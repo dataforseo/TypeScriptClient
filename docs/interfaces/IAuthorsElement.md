@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IAuthorsElement
 
 # Interface: IAuthorsElement
@@ -33,6 +37,7 @@ author’s link domain
 
 ___
 
+
 ### name
 
 • `Optional` **name**: `string`
@@ -44,6 +49,7 @@ name of the dataset author
 [main.ts:50683](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L50683)
 
 ___
+
 
 ### type
 
@@ -57,6 +63,7 @@ type of element
 
 ___
 
+
 ### url
 
 • `Optional` **url**: `string`
@@ -66,3 +73,7 @@ author’s link URL
 #### Defined in
 
 [main.ts:50685](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L50685)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

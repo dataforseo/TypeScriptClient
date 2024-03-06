@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IPeopleAlsoAskExpandedElement
 
 # Interface: IPeopleAlsoAskExpandedElement
@@ -38,6 +42,7 @@ description of the hotel booking element
 
 ___
 
+
 ### domain
 
 • `Optional` **domain**: `string`
@@ -49,6 +54,7 @@ website domain
 [main.ts:28471](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L28471)
 
 ___
+
 
 ### featured\_title
 
@@ -62,6 +68,7 @@ the title of the featured snippets source page
 
 ___
 
+
 ### images
 
 • `Optional` **images**: [`ImagesElement`](../classes/ImagesElement.md)[]
@@ -73,6 +80,7 @@ images of the element
 [main.ts:28477](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L28477)
 
 ___
+
 
 ### table
 
@@ -86,6 +94,7 @@ if there are none, equals null
 [main.ts:28485](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L28485)
 
 ___
+
 
 ### timestamp
 
@@ -102,6 +111,7 @@ example:
 
 ___
 
+
 ### title
 
 • `Optional` **title**: `string`
@@ -113,6 +123,7 @@ title of a given link element
 [main.ts:28473](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L28473)
 
 ___
+
 
 ### type
 
@@ -126,6 +137,7 @@ type of element
 
 ___
 
+
 ### url
 
 • `Optional` **url**: `string`
@@ -135,3 +147,7 @@ URL
 #### Defined in
 
 [main.ts:28469](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L28469)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / MathSolverDataforseoLabsSerpElementItem
 
 # Class: MathSolverDataforseoLabsSerpElementItem
@@ -5,7 +9,7 @@
 ## Hierarchy
 
 - [`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md)
-
+  
   ↳ **`MathSolverDataforseoLabsSerpElementItem`**
 
 ## Implements
@@ -80,6 +84,7 @@
 
 ___
 
+
 ### items
 
 • `Optional` **items**: [`MathSolverElement`](MathSolverElement.md)[]
@@ -96,6 +101,7 @@ if there are none, equals null
 [main.ts:92812](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L92812)
 
 ___
+
 
 ### links
 
@@ -115,6 +121,7 @@ if there are none, equals null
 
 ___
 
+
 ### position
 
 • `Optional` **position**: `string`
@@ -133,6 +140,7 @@ left, right
 
 ___
 
+
 ### rank\_absolute
 
 • `Optional` **rank\_absolute**: `number`
@@ -149,6 +157,7 @@ absolute position among all the elements in SERP
 [main.ts:92798](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L92798)
 
 ___
+
 
 ### rank\_group
 
@@ -168,6 +177,7 @@ positions of elements with different type values are omitted from rank_group
 
 ___
 
+
 ### result
 
 • `Optional` **result**: `string`
@@ -185,6 +195,7 @@ solution to the mathematical equation specified in the keyword field when settin
 
 ___
 
+
 ### title
 
 • `Optional` **title**: `string`
@@ -200,6 +211,7 @@ title of the result in SERP
 [main.ts:92806](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L92806)
 
 ___
+
 
 ### xpath
 
@@ -241,6 +253,7 @@ the XPath of the element
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -265,6 +278,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`MathSolverDataforseoLabsSerpElementItem`](MathSolverDataforseoLabsSerpElementItem.md)
@@ -286,3 +300,7 @@ ___
 #### Defined in
 
 [main.ts:92851](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L92851)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

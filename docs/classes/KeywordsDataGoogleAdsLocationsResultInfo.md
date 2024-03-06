@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / KeywordsDataGoogleAdsLocationsResultInfo
 
 # Class: KeywordsDataGoogleAdsLocationsResultInfo
@@ -68,6 +72,7 @@ ISO country code of the location
 
 ___
 
+
 ### location\_code
 
 • `Optional` **location\_code**: `number`
@@ -83,6 +88,7 @@ location code
 [main.ts:113100](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L113100)
 
 ___
+
 
 ### location\_code\_parent
 
@@ -107,6 +113,7 @@ where location_code_parent corresponds to:
 
 ___
 
+
 ### location\_name
 
 • `Optional` **location\_name**: `string`
@@ -122,6 +129,7 @@ full name of the location
 [main.ts:113102](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L113102)
 
 ___
+
 
 ### location\_type
 
@@ -160,6 +168,7 @@ possible values according to Google’s target types
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -180,6 +189,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`KeywordsDataGoogleAdsLocationsResultInfo`](KeywordsDataGoogleAdsLocationsResultInfo.md)
@@ -197,3 +207,7 @@ ___
 #### Defined in
 
 [main.ts:113143](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L113143)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

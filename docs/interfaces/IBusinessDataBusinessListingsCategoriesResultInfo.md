@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IBusinessDataBusinessListingsCategoriesResultInfo
 
 # Interface: IBusinessDataBusinessListingsCategoriesResultInfo
@@ -31,6 +35,7 @@ number of businesses in the category
 
 ___
 
+
 ### category\_name
 
 • `Optional` **category\_name**: `string`
@@ -40,3 +45,7 @@ full name of the category
 #### Defined in
 
 [main.ts:188053](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L188053)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

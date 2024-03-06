@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / HtmlItem
 
 # Class: HtmlItem
@@ -69,6 +73,7 @@ example:
 
 ___
 
+
 ### html
 
 • `Optional` **html**: `string`
@@ -84,6 +89,7 @@ HTML page
 [main.ts:36289](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L36289)
 
 ___
+
 
 ### page
 
@@ -121,6 +127,7 @@ serial number of the returned HTML page
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -141,6 +148,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`HtmlItem`](HtmlItem.md)
@@ -158,3 +166,7 @@ ___
 #### Defined in
 
 [main.ts:36314](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L36314)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / DataforseoLabsGoogleRelatedKeywordsLiveRequestInfo
 
 # Class: DataforseoLabsGoogleRelatedKeywordsLiveRequestInfo
@@ -88,6 +92,7 @@ estimated number of keywords for each level (maximum):
 
 ___
 
+
 ### filters
 
 • `Optional` **filters**: `any`[]
@@ -121,6 +126,7 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 ___
 
+
 ### ignore\_synonyms
 
 • `Optional` **ignore\_synonyms**: `boolean`
@@ -139,6 +145,7 @@ default value: false
 [main.ts:80031](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L80031)
 
 ___
+
 
 ### include\_seed\_keyword
 
@@ -159,6 +166,7 @@ default value: false
 
 ___
 
+
 ### include\_serp\_info
 
 • `Optional` **include\_serp\_info**: `boolean`
@@ -177,6 +185,7 @@ default value: false
 [main.ts:80026](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L80026)
 
 ___
+
 
 ### keyword
 
@@ -197,6 +206,7 @@ the keywords will be converted to lowercase format
 [main.ts:79972](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L79972)
 
 ___
+
 
 ### language\_code
 
@@ -220,6 +230,7 @@ en
 
 ___
 
+
 ### language\_name
 
 • `Optional` **language\_name**: `string`
@@ -242,6 +253,7 @@ English
 
 ___
 
+
 ### limit
 
 • `Optional` **limit**: `number`
@@ -260,6 +272,7 @@ maximum value: 1000
 [main.ts:80078](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L80078)
 
 ___
+
 
 ### location\_code
 
@@ -283,6 +296,7 @@ example:
 
 ___
 
+
 ### location\_name
 
 • `Optional` **location\_name**: `string`
@@ -305,6 +319,7 @@ United Kingdom
 
 ___
 
+
 ### offset
 
 • `Optional` **offset**: `number`
@@ -323,6 +338,7 @@ if you specify the 10 value, the first ten keywords in the results array will be
 [main.ts:80083](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L80083)
 
 ___
+
 
 ### order\_by
 
@@ -354,6 +370,7 @@ example:
 
 ___
 
+
 ### replace\_with\_core\_keyword
 
 • `Optional` **replace\_with\_core\_keyword**: `boolean`
@@ -374,6 +391,7 @@ default value: false
 [main.ts:80038](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L80038)
 
 ___
+
 
 ### tag
 
@@ -415,6 +433,7 @@ you will find the specified tag value in the data object of the response
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -435,6 +454,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`DataforseoLabsGoogleRelatedKeywordsLiveRequestInfo`](DataforseoLabsGoogleRelatedKeywordsLiveRequestInfo.md)
@@ -452,3 +472,7 @@ ___
 #### Defined in
 
 [main.ts:80134](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L80134)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

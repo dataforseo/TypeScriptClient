@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IDomainAnalyticsTechnologiesLocationsResultInfo
 
 # Interface: IDomainAnalyticsTechnologiesLocationsResultInfo
@@ -31,6 +35,7 @@ ISO country code of the location
 
 ___
 
+
 ### location\_name
 
 • `Optional` **location\_name**: `string`
@@ -40,3 +45,7 @@ full name of the location
 #### Defined in
 
 [main.ts:71815](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L71815)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

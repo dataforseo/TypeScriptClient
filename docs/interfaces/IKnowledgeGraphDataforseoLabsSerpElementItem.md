@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IKnowledgeGraphDataforseoLabsSerpElementItem
 
 # Interface: IKnowledgeGraphDataforseoLabsSerpElementItem
@@ -5,7 +9,7 @@
 ## Hierarchy
 
 - [`IBaseDataforseoLabsSerpElementItem`](IBaseDataforseoLabsSerpElementItem.md)
-
+  
   ↳ **`IKnowledgeGraphDataforseoLabsSerpElementItem`**
 
 ## Implemented by
@@ -49,6 +53,7 @@ card id
 
 ___
 
+
 ### cid
 
 • `Optional` **cid**: `string`
@@ -60,6 +65,7 @@ google-defined client id
 [main.ts:91967](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L91967)
 
 ___
+
 
 ### description
 
@@ -73,6 +79,7 @@ description of the results element in SERP
 
 ___
 
+
 ### image\_url
 
 • `Optional` **image\_url**: `string`
@@ -84,6 +91,7 @@ URL of the image from knowledge graph
 [main.ts:91963](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L91963)
 
 ___
+
 
 ### items
 
@@ -97,6 +105,7 @@ elements of search results found in SERP
 
 ___
 
+
 ### logo\_url
 
 • `Optional` **logo\_url**: `string`
@@ -108,6 +117,7 @@ URL of the logo from knowledge graph
 [main.ts:91965](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L91965)
 
 ___
+
 
 ### position
 
@@ -123,6 +133,7 @@ left, right
 
 ___
 
+
 ### rank\_absolute
 
 • `Optional` **rank\_absolute**: `number`
@@ -135,6 +146,7 @@ absolute position among all the elements in SERP
 [main.ts:91945](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L91945)
 
 ___
+
 
 ### rank\_group
 
@@ -149,6 +161,7 @@ positions of elements with different type values are omitted from rank_group
 
 ___
 
+
 ### se\_type
 
 • `Optional` **se\_type**: `string`
@@ -160,6 +173,7 @@ search engine type
 [main.ts:91939](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L91939)
 
 ___
+
 
 ### sub\_title
 
@@ -173,6 +187,7 @@ subtitle of the item
 
 ___
 
+
 ### title
 
 • `Optional` **title**: `string`
@@ -184,6 +199,7 @@ title of the result in SERP
 [main.ts:91953](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L91953)
 
 ___
+
 
 ### url
 
@@ -197,6 +213,7 @@ URL link
 
 ___
 
+
 ### xpath
 
 • `Optional` **xpath**: `string`
@@ -206,3 +223,7 @@ the XPath of the element
 #### Defined in
 
 [main.ts:91951](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L91951)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

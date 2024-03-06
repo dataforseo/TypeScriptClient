@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / PageMetaInfo
 
 # Class: PageMetaInfo
@@ -93,6 +97,7 @@ resource errors and warnings
 
 ___
 
+
 ### canonical
 
 • `Optional` **canonical**: `string`
@@ -108,6 +113,7 @@ canonical page
 [main.ts:144183](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L144183)
 
 ___
+
 
 ### charset
 
@@ -126,6 +132,7 @@ example: 65001
 
 ___
 
+
 ### content
 
 • `Optional` **content**: [`HtmlContentInfo`](HtmlContentInfo.md)
@@ -141,6 +148,7 @@ overall information about content of the page
 [main.ts:144217](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L144217)
 
 ___
+
 
 ### cumulative\_layout\_shift
 
@@ -159,6 +167,7 @@ measures the sum total of all individual layout shift scores for every unexpecte
 
 ___
 
+
 ### deprecated\_tags
 
 • `Optional` **deprecated\_tags**: `string`[]
@@ -174,6 +183,7 @@ deprecated tags on the page
 [main.ts:144219](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L144219)
 
 ___
+
 
 ### description
 
@@ -191,6 +201,7 @@ content of the meta description tag
 
 ___
 
+
 ### description\_length
 
 • `Optional` **description\_length**: `number`
@@ -206,6 +217,7 @@ length of the description tag in characters
 [main.ts:144205](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L144205)
 
 ___
+
 
 ### duplicate\_meta\_tags
 
@@ -223,6 +235,7 @@ duplicate meta tags on the page
 
 ___
 
+
 ### external\_links\_count
 
 • `Optional` **external\_links\_count**: `number`
@@ -239,6 +252,7 @@ number of external links on the page
 
 ___
 
+
 ### favicon
 
 • `Optional` **favicon**: `string`
@@ -254,6 +268,7 @@ favicon of the page
 [main.ts:144179](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L144179)
 
 ___
+
 
 ### follow
 
@@ -272,6 +287,7 @@ if false, the page’s ‘meta robots’ tag contains “nofollow” parameter i
 
 ___
 
+
 ### generator
 
 • `Optional` **generator**: `string`
@@ -287,6 +303,7 @@ meta tag generator
 [main.ts:144173](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L144173)
 
 ___
+
 
 ### htags
 
@@ -308,6 +325,7 @@ HTML header tags
 
 ___
 
+
 ### images\_count
 
 • `Optional` **images\_count**: `number`
@@ -323,6 +341,7 @@ number of images on the page
 [main.ts:144191](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L144191)
 
 ___
+
 
 ### images\_size
 
@@ -340,6 +359,7 @@ total size of images on the page measured in bytes
 
 ___
 
+
 ### inbound\_links\_count
 
 • `Optional` **inbound\_links\_count**: `number`
@@ -355,6 +375,7 @@ number of internal links pointing at the page
 [main.ts:144189](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L144189)
 
 ___
+
 
 ### internal\_links\_count
 
@@ -372,6 +393,7 @@ number of internal links on the page
 
 ___
 
+
 ### meta\_keywords
 
 • `Optional` **meta\_keywords**: `string`
@@ -387,6 +409,7 @@ content of the keywords meta tag
 [main.ts:144181](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L144181)
 
 ___
+
 
 ### meta\_title
 
@@ -405,6 +428,7 @@ meta tag in the head section of an HTML document that defines the title of a pag
 
 ___
 
+
 ### render\_blocking\_scripts\_count
 
 • `Optional` **render\_blocking\_scripts\_count**: `number`
@@ -420,6 +444,7 @@ number of scripts on the page that block page rendering
 [main.ts:144207](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L144207)
 
 ___
+
 
 ### render\_blocking\_stylesheets\_count
 
@@ -437,6 +462,7 @@ number of CSS styles on the page that block page rendering
 
 ___
 
+
 ### scripts\_count
 
 • `Optional` **scripts\_count**: `number`
@@ -453,6 +479,7 @@ number of scripts on the page
 
 ___
 
+
 ### scripts\_size
 
 • `Optional` **scripts\_size**: `number`
@@ -468,6 +495,7 @@ total size of scripts on the page measured in bytes
 [main.ts:144197](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L144197)
 
 ___
+
 
 ### social\_media\_tags
 
@@ -491,6 +519,7 @@ supported tags include but are not limited to Open Graph and Twitter card
 
 ___
 
+
 ### spell
 
 • `Optional` **spell**: [`SpellInfo`](SpellInfo.md)
@@ -508,6 +537,7 @@ if the search engine provided results for a keyword that was corrected, we will 
 
 ___
 
+
 ### stylesheets\_count
 
 • `Optional` **stylesheets\_count**: `number`
@@ -523,6 +553,7 @@ number of stylesheets on the page
 [main.ts:144199](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L144199)
 
 ___
+
 
 ### stylesheets\_size
 
@@ -540,6 +571,7 @@ total size of stylesheets on the page measured in bytes
 
 ___
 
+
 ### title
 
 • `Optional` **title**: `string`
@@ -555,6 +587,7 @@ page title
 [main.ts:144165](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L144165)
 
 ___
+
 
 ### title\_length
 
@@ -592,6 +625,7 @@ length of the title tag in characters
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -612,6 +646,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`PageMetaInfo`](PageMetaInfo.md)
@@ -629,3 +664,7 @@ ___
 #### Defined in
 
 [main.ts:144302](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L144302)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

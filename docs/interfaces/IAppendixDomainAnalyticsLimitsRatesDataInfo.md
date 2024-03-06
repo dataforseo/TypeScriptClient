@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IAppendixDomainAnalyticsLimitsRatesDataInfo
 
 # Interface: IAppendixDomainAnalyticsLimitsRatesDataInfo
@@ -31,6 +35,7 @@
 
 ___
 
+
 ### tasks\_ready
 
 • `Optional` **tasks\_ready**: `number`
@@ -40,6 +45,7 @@ ___
 [main.ts:207424](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L207424)
 
 ___
+
 
 ### technologies
 
@@ -51,6 +57,7 @@ ___
 
 ___
 
+
 ### whois
 
 • `Optional` **whois**: [`AppendixWhoisDomainAnalyticsLimitsRatesDataInfo`](../classes/AppendixWhoisDomainAnalyticsLimitsRatesDataInfo.md)
@@ -58,3 +65,7 @@ ___
 #### Defined in
 
 [main.ts:207426](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L207426)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

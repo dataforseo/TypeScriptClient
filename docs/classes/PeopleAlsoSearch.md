@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / PeopleAlsoSearch
 
 # Class: PeopleAlsoSearch
@@ -69,6 +73,7 @@ learn more about the identifier in this help center article
 
 ___
 
+
 ### feature\_id
 
 • `Optional` **feature\_id**: `string`
@@ -86,11 +91,12 @@ learn more about the identifier in this help center article
 
 ___
 
+
 ### rating
 
 • `Optional` **rating**: [`RatingInfo`](RatingInfo.md)
 
-the element’s rating 
+the element’s rating
 the popularity rate based on reviews and displayed in SERP
 
 #### Implementation of
@@ -102,6 +108,7 @@ the popularity rate based on reviews and displayed in SERP
 [main.ts:188691](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L188691)
 
 ___
+
 
 ### title
 
@@ -140,6 +147,7 @@ the name of the business entity for which the results are collected
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -160,6 +168,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`PeopleAlsoSearch`](PeopleAlsoSearch.md)
@@ -177,3 +186,7 @@ ___
 #### Defined in
 
 [main.ts:188717](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L188717)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

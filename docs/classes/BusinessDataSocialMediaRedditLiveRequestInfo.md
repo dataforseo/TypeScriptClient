@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / BusinessDataSocialMediaRedditLiveRequestInfo
 
 # Class: BusinessDataSocialMediaRedditLiveRequestInfo
@@ -69,6 +73,7 @@ you will find the specified tag value in the data object of the response
 
 ___
 
+
 ### targets
 
 • `Optional` **targets**: `string`[]
@@ -110,6 +115,7 @@ Note: you can specify 10 targets maximum. You will be charged per earch URL you 
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -130,6 +136,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`BusinessDataSocialMediaRedditLiveRequestInfo`](BusinessDataSocialMediaRedditLiveRequestInfo.md)
@@ -147,3 +154,7 @@ ___
 #### Defined in
 
 [main.ts:206181](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L206181)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / ISerpGoogleSearchByImageTaskPostRequestInfo
 
 # Interface: ISerpGoogleSearchByImageTaskPostRequestInfo
@@ -51,6 +55,7 @@ Note: to use this parameter, set calculate_rectangles to true
 
 ___
 
+
 ### browser\_screen\_resolution\_ratio
 
 • `Optional` **browser\_screen\_resolution\_ratio**: `number`
@@ -67,6 +72,7 @@ Note: to use this parameter, set calculate_rectangles to true
 
 ___
 
+
 ### browser\_screen\_width
 
 • `Optional` **browser\_screen\_width**: `number`
@@ -82,6 +88,7 @@ Note: to use this parameter, set calculate_rectangles to true
 [main.ts:47433](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L47433)
 
 ___
+
 
 ### calculate\_rectangles
 
@@ -100,6 +107,7 @@ Note: if set to true, the charge per task will be multiplied by 2
 
 ___
 
+
 ### image\_url
 
 • `Optional` **image\_url**: `string`
@@ -115,6 +123,7 @@ https://upload.wikimedia.org/wikipedia/commons/e/ed/Elon_Musk_Royal_Society.jpg
 [main.ts:47360](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L47360)
 
 ___
+
 
 ### language\_code
 
@@ -133,6 +142,7 @@ en
 
 ___
 
+
 ### language\_name
 
 • `Optional` **language\_name**: `string`
@@ -150,6 +160,7 @@ English
 
 ___
 
+
 ### location\_code
 
 • `Optional` **location\_code**: `number`
@@ -166,6 +177,7 @@ example:
 [main.ts:47389](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L47389)
 
 ___
+
 
 ### location\_coordinate
 
@@ -187,6 +199,7 @@ example:
 
 ___
 
+
 ### location\_name
 
 • `Optional` **location\_name**: `string`
@@ -204,6 +217,7 @@ London,England,United Kingdom
 
 ___
 
+
 ### max\_crawl\_pages
 
 • `Optional` **max\_crawl\_pages**: `number`
@@ -220,6 +234,7 @@ learn more at our help center
 [main.ts:47375](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L47375)
 
 ___
+
 
 ### pingback\_url
 
@@ -241,6 +256,7 @@ i.a., the # symbol will be encoded into %23
 
 ___
 
+
 ### postback\_data
 
 • `Optional` **postback\_data**: `string`
@@ -256,6 +272,7 @@ advanced
 [main.ts:47471](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L47471)
 
 ___
+
 
 ### postback\_url
 
@@ -277,6 +294,7 @@ i.a., the # symbol will be encoded into %23
 
 ___
 
+
 ### priority
 
 • `Optional` **priority**: `number`
@@ -295,6 +313,7 @@ The cost can be calculated on the Pricing page.
 
 ___
 
+
 ### se\_domain
 
 • `Optional` **se\_domain**: `string`
@@ -312,6 +331,7 @@ google.co.uk, google.com.au, google.de, etc.
 
 ___
 
+
 ### search\_param
 
 • `Optional` **search\_param**: `string`
@@ -326,6 +346,7 @@ get the list of available parameters and additional details here
 
 ___
 
+
 ### tag
 
 • `Optional` **tag**: `string`
@@ -339,3 +360,7 @@ you will find the specified tag value in the data object of the response
 #### Defined in
 
 [main.ts:47455](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L47455)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

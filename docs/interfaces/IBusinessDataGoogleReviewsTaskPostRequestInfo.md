@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IBusinessDataGoogleReviewsTaskPostRequestInfo
 
 # Interface: IBusinessDataGoogleReviewsTaskPostRequestInfo
@@ -5,7 +9,7 @@
 ## Hierarchy
 
 - [`IBusinessDataTaskRequestInfo`](IBusinessDataTaskRequestInfo.md)
-
+  
   ↳ **`IBusinessDataGoogleReviewsTaskPostRequestInfo`**
 
 ## Implemented by
@@ -53,6 +57,7 @@ learn more about the identifier in this help center article
 
 ___
 
+
 ### depth
 
 • `Optional` **depth**: `number`
@@ -70,6 +75,7 @@ maximum value: 4490
 
 ___
 
+
 ### keyword
 
 • `Optional` **keyword**: `string`
@@ -79,7 +85,7 @@ required field
 the keyword you specify should indicate the name of the local establishment
 you can specify up to 700 symbols in the keyword filed
 all %## will be decoded (plus symbol ‘+’ will be decoded to a space character)
-if you need to use the “%” symbol for your keyword, please specify it as “%25”; 
+if you need to use the “%” symbol for your keyword, please specify it as “%25”;
 this field can also be used to pass the following parameters:
 cid – a unique, google-defined id of the business entity;
 place_id – an identifier of the business entity in Google Maps;
@@ -99,6 +105,7 @@ learn more about the cid and place_id identifiers in this help center article
 [main.ts:183256](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L183256)
 
 ___
+
 
 ### language\_code
 
@@ -121,6 +128,7 @@ en
 
 ___
 
+
 ### language\_name
 
 • `Optional` **language\_name**: `string`
@@ -142,6 +150,7 @@ English
 
 ___
 
+
 ### location\_code
 
 • `Optional` **location\_code**: `number`
@@ -162,6 +171,7 @@ example:
 [main.ts:183278](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L183278)
 
 ___
+
 
 ### location\_coordinate
 
@@ -186,6 +196,7 @@ example:
 
 ___
 
+
 ### location\_name
 
 • `Optional` **location\_name**: `string`
@@ -206,6 +217,7 @@ London,England,United Kingdom
 [main.ts:183271](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L183271)
 
 ___
+
 
 ### pingback\_url
 
@@ -231,6 +243,7 @@ i.a., the # symbol will be encoded into %23
 
 ___
 
+
 ### place\_id
 
 • `Optional` **place\_id**: `string`
@@ -246,6 +259,7 @@ learn more about the identifier in this help center article
 [main.ts:197842](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L197842)
 
 ___
+
 
 ### postback\_url
 
@@ -271,6 +285,7 @@ i.a., the # symbol will be encoded into %23
 
 ___
 
+
 ### priority
 
 • `Optional` **priority**: `number`
@@ -293,6 +308,7 @@ The cost can be calculated on the Pricing page.
 
 ___
 
+
 ### sort\_by
 
 • `Optional` **sort\_by**: `string`
@@ -313,6 +329,7 @@ default value: relevant
 
 ___
 
+
 ### tag
 
 • `Optional` **tag**: `string`
@@ -330,3 +347,7 @@ you will find the specified tag value in the data object of the response
 #### Defined in
 
 [main.ts:183307](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L183307)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

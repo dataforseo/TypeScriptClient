@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IStoresCountInfo
 
 # Interface: IStoresCountInfo
@@ -32,6 +36,7 @@ number of stores that offer the product
 
 ___
 
+
 ### count\_from\_text
 
 • `Optional` **count\_from\_text**: `boolean`
@@ -48,6 +53,7 @@ in this case, the parameter is true
 
 ___
 
+
 ### displayed\_text
 
 • `Optional` **displayed\_text**: `string`
@@ -57,3 +63,7 @@ text displayed on the Google Shopping page
 #### Defined in
 
 [main.ts:164642](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L164642)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

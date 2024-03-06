@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IDataforseoLabsAppleKeywordsForAppLiveRequestInfo
 
 # Interface: IDataforseoLabsAppleKeywordsForAppLiveRequestInfo
@@ -45,6 +49,7 @@ the id is 835599320
 
 ___
 
+
 ### filters
 
 • `Optional` **filters**: `any`[]
@@ -66,6 +71,7 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 ___
 
+
 ### language\_code
 
 • `Optional` **language\_code**: `string`
@@ -84,6 +90,7 @@ en
 [main.ts:110735](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L110735)
 
 ___
+
 
 ### language\_name
 
@@ -104,6 +111,7 @@ English
 
 ___
 
+
 ### limit
 
 • `Optional` **limit**: `number`
@@ -118,6 +126,7 @@ maximum value: 1000
 [main.ts:110768](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L110768)
 
 ___
+
 
 ### location\_code
 
@@ -138,6 +147,7 @@ example:
 
 ___
 
+
 ### location\_name
 
 • `Optional` **location\_name**: `string`
@@ -157,6 +167,7 @@ United States
 
 ___
 
+
 ### offset
 
 • `Optional` **offset**: `number`
@@ -171,6 +182,7 @@ if you specify the 10 value, the first ten keywords in the results array will be
 [main.ts:110773](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L110773)
 
 ___
+
 
 ### order\_by
 
@@ -199,6 +211,7 @@ Note: if the item_types array contains item types that are different from organi
 
 ___
 
+
 ### tag
 
 • `Optional` **tag**: `string`
@@ -212,3 +225,7 @@ you will find the specified tag value in the data object of the response
 #### Defined in
 
 [main.ts:110779](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L110779)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / KeywordsDataTaskRequestInfo
 
 # Class: KeywordsDataTaskRequestInfo
@@ -5,7 +9,7 @@
 ## Hierarchy
 
 - **`KeywordsDataTaskRequestInfo`**
-
+  
   ↳ [`KeywordsDataGoogleAdsKeywordsForKeywordsTaskPostRequestInfo`](KeywordsDataGoogleAdsKeywordsForKeywordsTaskPostRequestInfo.md)
 
 ## Implements
@@ -89,6 +93,7 @@ if Status endpoint returns true in the actual_data field, date_from can be set t
 
 ___
 
+
 ### date\_to
 
 • `Optional` **date\_to**: `string`
@@ -111,6 +116,7 @@ example:
 
 ___
 
+
 ### include\_adult\_keywords
 
 • `Optional` **include\_adult\_keywords**: `boolean`
@@ -130,6 +136,7 @@ note that the API may return no data for such keywords due to Google Ads restr
 [main.ts:69370](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L69370)
 
 ___
+
 
 ### keywords
 
@@ -157,6 +164,7 @@ to learn more about which symbols can be used, please refer to this article
 
 ___
 
+
 ### language\_code
 
 • `Optional` **language\_code**: `string`
@@ -177,6 +185,7 @@ en
 
 ___
 
+
 ### language\_name
 
 • `Optional` **language\_name**: `string`
@@ -196,6 +205,7 @@ English
 [main.ts:69337](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L69337)
 
 ___
+
 
 ### location\_code
 
@@ -218,6 +228,7 @@ example:
 [main.ts:69322](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L69322)
 
 ___
+
 
 ### location\_coordinate
 
@@ -242,6 +253,7 @@ example:
 
 ___
 
+
 ### location\_name
 
 • `Optional` **location\_name**: `string`
@@ -263,6 +275,7 @@ London,England,United Kingdom
 [main.ts:69314](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L69314)
 
 ___
+
 
 ### pingback\_url
 
@@ -288,6 +301,7 @@ i.a., the # symbol will be encoded into %23
 
 ___
 
+
 ### postback\_url
 
 • `Optional` **postback\_url**: `string`
@@ -312,6 +326,7 @@ i.a., the # symbol will be encoded into %23
 
 ___
 
+
 ### search\_partners
 
 • `Optional` **search\_partners**: `boolean`
@@ -331,6 +346,7 @@ default value: false – results are returned for Google search sites
 
 ___
 
+
 ### sort\_by
 
 • `Optional` **sort\_by**: `string`
@@ -349,6 +365,7 @@ default value: relevance
 [main.ts:69375](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L69375)
 
 ___
+
 
 ### tag
 
@@ -390,6 +407,7 @@ you will find the specified tag value in the data array of the response
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -410,6 +428,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`KeywordsDataTaskRequestInfo`](KeywordsDataTaskRequestInfo.md)
@@ -427,3 +446,7 @@ ___
 #### Defined in
 
 [main.ts:69441](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L69441)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

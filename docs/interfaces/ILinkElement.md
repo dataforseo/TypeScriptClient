@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / ILinkElement
 
 # Interface: ILinkElement
@@ -36,6 +40,7 @@ description of the results element
 
 ___
 
+
 ### domain
 
 • `Optional` **domain**: `string`
@@ -47,6 +52,7 @@ domain where a link points
 [main.ts:21134](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L21134)
 
 ___
+
 
 ### snippet
 
@@ -60,6 +66,7 @@ text alongside the link title
 
 ___
 
+
 ### title
 
 • `Optional` **title**: `string`
@@ -71,6 +78,7 @@ title of a given link element
 [main.ts:21126](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L21126)
 
 ___
+
 
 ### type
 
@@ -84,6 +92,7 @@ type of element
 
 ___
 
+
 ### url
 
 • `Optional` **url**: `string`
@@ -96,6 +105,7 @@ URL
 
 ___
 
+
 ### xpath
 
 • `Optional` **xpath**: `string`
@@ -105,3 +115,7 @@ the XPath of the element
 #### Defined in
 
 [main.ts:21136](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L21136)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

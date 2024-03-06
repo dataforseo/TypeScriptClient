@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IShoppingDataforseoLabsSerpElementItem
 
 # Interface: IShoppingDataforseoLabsSerpElementItem
@@ -5,7 +9,7 @@
 ## Hierarchy
 
 - [`IBaseDataforseoLabsSerpElementItem`](IBaseDataforseoLabsSerpElementItem.md)
-
+  
   ↳ **`IShoppingDataforseoLabsSerpElementItem`**
 
 ## Implemented by
@@ -41,6 +45,7 @@ elements of search results found in SERP
 
 ___
 
+
 ### position
 
 • `Optional` **position**: `string`
@@ -55,6 +60,7 @@ left, right
 
 ___
 
+
 ### rank\_absolute
 
 • `Optional` **rank\_absolute**: `number`
@@ -67,6 +73,7 @@ absolute position among all the elements in SERP
 [main.ts:94746](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L94746)
 
 ___
+
 
 ### rank\_group
 
@@ -81,6 +88,7 @@ positions of elements with different type values are omitted from rank_group
 
 ___
 
+
 ### title
 
 • `Optional` **title**: `string`
@@ -93,6 +101,7 @@ title of the result in SERP
 
 ___
 
+
 ### xpath
 
 • `Optional` **xpath**: `string`
@@ -102,3 +111,7 @@ the XPath of the element
 #### Defined in
 
 [main.ts:94752](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L94752)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

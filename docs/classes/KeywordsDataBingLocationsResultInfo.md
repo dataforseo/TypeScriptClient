@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / KeywordsDataBingLocationsResultInfo
 
 # Class: KeywordsDataBingLocationsResultInfo
@@ -68,6 +72,7 @@ ISO country code of the location
 
 ___
 
+
 ### location\_code
 
 • `Optional` **location\_code**: `number`
@@ -83,6 +88,7 @@ location code
 [main.ts:121925](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L121925)
 
 ___
+
 
 ### location\_code\_parent
 
@@ -106,6 +112,7 @@ example:
 
 ___
 
+
 ### location\_name
 
 • `Optional` **location\_name**: `string`
@@ -121,6 +128,7 @@ full name of the location
 [main.ts:121927](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L121927)
 
 ___
+
 
 ### location\_type
 
@@ -158,6 +166,7 @@ location type
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -178,6 +187,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`KeywordsDataBingLocationsResultInfo`](KeywordsDataBingLocationsResultInfo.md)
@@ -195,3 +205,7 @@ ___
 #### Defined in
 
 [main.ts:121966](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L121966)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

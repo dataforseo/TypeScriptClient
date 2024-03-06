@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / ITwitterDataforseoLabsSerpElementItem
 
 # Interface: ITwitterDataforseoLabsSerpElementItem
@@ -5,7 +9,7 @@
 ## Hierarchy
 
 - [`IBaseDataforseoLabsSerpElementItem`](IBaseDataforseoLabsSerpElementItem.md)
-
+  
   ↳ **`ITwitterDataforseoLabsSerpElementItem`**
 
 ## Implemented by
@@ -43,6 +47,7 @@ elements of search results found in SERP
 
 ___
 
+
 ### position
 
 • `Optional` **position**: `string`
@@ -57,6 +62,7 @@ left, right
 
 ___
 
+
 ### rank\_absolute
 
 • `Optional` **rank\_absolute**: `number`
@@ -69,6 +75,7 @@ absolute position among all the elements in SERP
 [main.ts:91307](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L91307)
 
 ___
+
 
 ### rank\_group
 
@@ -83,6 +90,7 @@ positions of elements with different type values are omitted from rank_group
 
 ___
 
+
 ### se\_type
 
 • `Optional` **se\_type**: `string`
@@ -94,6 +102,7 @@ search engine type
 [main.ts:91301](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L91301)
 
 ___
+
 
 ### title
 
@@ -107,6 +116,7 @@ title of the result in SERP
 
 ___
 
+
 ### url
 
 • `Optional` **url**: `string`
@@ -119,6 +129,7 @@ URL link
 
 ___
 
+
 ### xpath
 
 • `Optional` **xpath**: `string`
@@ -128,3 +139,7 @@ the XPath of the element
 #### Defined in
 
 [main.ts:91313](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L91313)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

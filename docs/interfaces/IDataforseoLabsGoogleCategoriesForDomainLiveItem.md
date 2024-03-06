@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IDataforseoLabsGoogleCategoriesForDomainLiveItem
 
 # Interface: IDataforseoLabsGoogleCategoriesForDomainLiveItem
@@ -33,6 +37,7 @@ you can download the full list of possible categories
 
 ___
 
+
 ### metrics
 
 • `Optional` **metrics**: `Object`
@@ -49,6 +54,7 @@ ranking data relevant to the specified domain or subdomain
 
 ___
 
+
 ### se\_type
 
 • `Optional` **se\_type**: `string`
@@ -58,3 +64,7 @@ search engine type
 #### Defined in
 
 [main.ts:83472](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L83472)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IHistoricalMetricsBundleInfo
 
 # Interface: IHistoricalMetricsBundleInfo
@@ -33,6 +37,7 @@ traffic data from the local pack results in SERP
 
 ___
 
+
 ### local\_pack
 
 • `Optional` **local\_pack**: [`HistoricalMetricsInfo`](../classes/HistoricalMetricsInfo.md)[]
@@ -44,6 +49,7 @@ traffic data from the featured snippet results in Google SERP
 [main.ts:98343](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L98343)
 
 ___
+
 
 ### organic
 
@@ -57,6 +63,7 @@ traffic data from organic search
 
 ___
 
+
 ### paid
 
 • `Optional` **paid**: [`HistoricalMetricsInfo`](../classes/HistoricalMetricsInfo.md)[]
@@ -66,3 +73,7 @@ traffic data from paid search
 #### Defined in
 
 [main.ts:98341](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L98341)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

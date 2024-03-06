@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / ISerpErrorsResultInfo
 
 # Interface: ISerpErrorsResultInfo
@@ -42,6 +46,7 @@ example:
 
 ___
 
+
 ### error\_code
 
 • `Optional` **error\_code**: `number`
@@ -53,6 +58,7 @@ error code
 [main.ts:23267](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L23267)
 
 ___
+
 
 ### error\_message
 
@@ -67,6 +73,7 @@ error message (see full list) or URL that caused an error
 
 ___
 
+
 ### function
 
 • `Optional` **function**: `string`
@@ -78,6 +85,7 @@ corresponding API function
 [main.ts:23265](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L23265)
 
 ___
+
 
 ### http\_code
 
@@ -91,6 +99,7 @@ HTTP status code
 
 ___
 
+
 ### http\_method
 
 • `Optional` **http\_method**: `string`
@@ -102,6 +111,7 @@ HTTP method
 [main.ts:23275](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L23275)
 
 ___
+
 
 ### http\_response
 
@@ -116,6 +126,7 @@ server response
 
 ___
 
+
 ### http\_time
 
 • `Optional` **http\_time**: `number`
@@ -128,6 +139,7 @@ for tasks set with a pingback/postback, this field will show the time it took yo
 [main.ts:23280](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L23280)
 
 ___
+
 
 ### http\_url
 
@@ -142,6 +154,7 @@ URL you used for making an API call or pingback/postback URL
 
 ___
 
+
 ### id
 
 • `Optional` **id**: `string`
@@ -151,3 +164,7 @@ id of the task
 #### Defined in
 
 [main.ts:23258](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L23258)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IIndexHistory
 
 # Interface: IIndexHistory
@@ -36,6 +40,7 @@ example:
 
 ___
 
+
 ### total\_backlinks
 
 • `Optional` **total\_backlinks**: `number`
@@ -47,6 +52,7 @@ total number of backlinks our database contained on the given date
 [main.ts:129002](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L129002)
 
 ___
+
 
 ### total\_domains
 
@@ -60,6 +66,7 @@ total number of domains our database contained on the given date
 
 ___
 
+
 ### total\_pages
 
 • `Optional` **total\_pages**: `number`
@@ -69,3 +76,7 @@ total number of pages our database contained on the given date
 #### Defined in
 
 [main.ts:129004](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L129004)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

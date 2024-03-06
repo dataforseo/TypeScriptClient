@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / SerpBingLocationsCountryResultInfo
 
 # Class: SerpBingLocationsCountryResultInfo
@@ -68,6 +72,7 @@ ISO country code of the location
 
 ___
 
+
 ### location\_code
 
 • `Optional` **location\_code**: `number`
@@ -83,6 +88,7 @@ location code
 [main.ts:53318](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L53318)
 
 ___
+
 
 ### location\_code\_parent
 
@@ -107,6 +113,7 @@ where location_code_parent corresponds to:
 
 ___
 
+
 ### location\_name
 
 • `Optional` **location\_name**: `string`
@@ -122,6 +129,7 @@ full name of the location
 [main.ts:53320](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L53320)
 
 ___
+
 
 ### location\_type
 
@@ -159,6 +167,7 @@ location type
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -179,6 +188,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`SerpBingLocationsCountryResultInfo`](SerpBingLocationsCountryResultInfo.md)
@@ -196,3 +206,7 @@ ___
 #### Defined in
 
 [main.ts:53360](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L53360)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

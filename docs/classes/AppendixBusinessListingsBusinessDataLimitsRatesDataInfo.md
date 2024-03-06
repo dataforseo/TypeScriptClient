@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / AppendixBusinessListingsBusinessDataLimitsRatesDataInfo
 
 # Class: AppendixBusinessListingsBusinessDataLimitsRatesDataInfo
@@ -65,6 +69,7 @@
 
 ___
 
+
 ### categories\_aggregation
 
 • `Optional` **categories\_aggregation**: [`AppendixInfo`](AppendixInfo.md)
@@ -79,6 +84,7 @@ ___
 
 ___
 
+
 ### locations
 
 • `Optional` **locations**: `number`
@@ -92,6 +98,7 @@ ___
 [main.ts:207976](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L207976)
 
 ___
+
 
 ### search
 
@@ -127,6 +134,7 @@ ___
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -147,6 +155,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`AppendixBusinessListingsBusinessDataLimitsRatesDataInfo`](AppendixBusinessListingsBusinessDataLimitsRatesDataInfo.md)
@@ -164,3 +173,7 @@ ___
 #### Defined in
 
 [main.ts:208002](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L208002)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

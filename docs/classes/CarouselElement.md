@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / CarouselElement
 
 # Class: CarouselElement
@@ -67,6 +71,7 @@ URL of the image
 
 ___
 
+
 ### subtitle
 
 • `Optional` **subtitle**: `string`
@@ -83,6 +88,7 @@ subtitle of the element
 
 ___
 
+
 ### title
 
 • `Optional` **title**: `string`
@@ -98,6 +104,7 @@ title of the row
 [main.ts:29920](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L29920)
 
 ___
+
 
 ### type
 
@@ -135,6 +142,7 @@ type of element
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -155,6 +163,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`CarouselElement`](CarouselElement.md)
@@ -172,3 +181,7 @@ ___
 #### Defined in
 
 [main.ts:29950](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L29950)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

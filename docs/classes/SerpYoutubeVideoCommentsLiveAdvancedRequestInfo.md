@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / SerpYoutubeVideoCommentsLiveAdvancedRequestInfo
 
 # Class: SerpYoutubeVideoCommentsLiveAdvancedRequestInfo
@@ -79,6 +83,7 @@ if the specified depth is higher than the number of results in the response, the
 
 ___
 
+
 ### device
 
 • `Optional` **device**: `string`
@@ -96,6 +101,7 @@ only value: desktop
 [main.ts:62234](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L62234)
 
 ___
+
 
 ### language\_code
 
@@ -118,6 +124,7 @@ en
 
 ___
 
+
 ### language\_name
 
 • `Optional` **language\_name**: `string`
@@ -138,6 +145,7 @@ English
 [main.ts:62223](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L62223)
 
 ___
+
 
 ### location\_code
 
@@ -160,6 +168,7 @@ example:
 
 ___
 
+
 ### location\_name
 
 • `Optional` **location\_name**: `string`
@@ -181,6 +190,7 @@ United States
 
 ___
 
+
 ### os
 
 • `Optional` **os**: `string`
@@ -199,6 +209,7 @@ default value: windows
 [main.ts:62239](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L62239)
 
 ___
+
 
 ### tag
 
@@ -219,6 +230,7 @@ you will find the specified tag value in the data object of the response
 [main.ts:62254](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L62254)
 
 ___
+
 
 ### video\_id
 
@@ -260,6 +272,7 @@ vQXvyV0zIP4
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -280,6 +293,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`SerpYoutubeVideoCommentsLiveAdvancedRequestInfo`](SerpYoutubeVideoCommentsLiveAdvancedRequestInfo.md)
@@ -297,3 +311,7 @@ ___
 #### Defined in
 
 [main.ts:62285](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L62285)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

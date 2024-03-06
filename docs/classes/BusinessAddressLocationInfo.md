@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / BusinessAddressLocationInfo
 
 # Class: BusinessAddressLocationInfo
@@ -67,6 +71,7 @@ contains few address lines specified by the business entity
 
 ___
 
+
 ### latitude
 
 • `Optional` **latitude**: `string`
@@ -82,6 +87,7 @@ latitude in GPS coordinates
 [main.ts:203875](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L203875)
 
 ___
+
 
 ### longitude
 
@@ -119,6 +125,7 @@ longitude in GPS coordinates
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -139,6 +146,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`BusinessAddressLocationInfo`](BusinessAddressLocationInfo.md)
@@ -156,3 +164,7 @@ ___
 #### Defined in
 
 [main.ts:203906](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L203906)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

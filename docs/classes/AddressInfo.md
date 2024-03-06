@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / AddressInfo
 
 # Class: AddressInfo
@@ -69,6 +73,7 @@ street address of the local establishment
 
 ___
 
+
 ### borough
 
 • `Optional` **borough**: `string`
@@ -84,6 +89,7 @@ administrative unit or district the local establishment belongs to
 [main.ts:38210](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L38210)
 
 ___
+
 
 ### city
 
@@ -101,6 +107,7 @@ name of the city where the local establishment is located
 
 ___
 
+
 ### country\_code
 
 • `Optional` **country\_code**: `string`
@@ -117,6 +124,7 @@ ISO country code of the local establishment
 
 ___
 
+
 ### region
 
 • `Optional` **region**: `string`
@@ -132,6 +140,7 @@ DMA region the local establishment belongs to
 [main.ts:38218](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L38218)
 
 ___
+
 
 ### zip
 
@@ -169,6 +178,7 @@ ZIP code of the local establishment
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -189,6 +199,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`AddressInfo`](AddressInfo.md)
@@ -206,3 +217,7 @@ ___
 #### Defined in
 
 [main.ts:38248](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L38248)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

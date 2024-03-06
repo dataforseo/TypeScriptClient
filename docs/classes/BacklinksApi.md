@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / BacklinksApi
 
 # Class: BacklinksApi
@@ -97,6 +101,7 @@
 
 ___
 
+
 ### http
 
 • `Private` **http**: `Object`
@@ -112,6 +117,7 @@ ___
 [main.ts:10528](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L10528)
 
 ___
+
 
 ### jsonParseReviver
 
@@ -160,6 +166,7 @@ Successful operation
 
 ___
 
+
 ### backlinksAvailableFilters
 
 ▸ **backlinksAvailableFilters**(): `Promise`\<[`BacklinksAvailableFiltersResponseInfo`](BacklinksAvailableFiltersResponseInfo.md)\>
@@ -175,6 +182,7 @@ Successful operation
 [main.ts:10624](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L10624)
 
 ___
+
 
 ### backlinksErrors
 
@@ -198,6 +206,7 @@ Successful operation
 
 ___
 
+
 ### backlinksIdList
 
 ▸ **backlinksIdList**(`body`): `Promise`\<[`BacklinksIdListResponseInfo`](BacklinksIdListResponseInfo.md)\>
@@ -219,6 +228,7 @@ Successful operation
 [main.ts:10541](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L10541)
 
 ___
+
 
 ### backlinksLive
 
@@ -242,6 +252,7 @@ Successful operation
 
 ___
 
+
 ### bulkBacklinksLive
 
 ▸ **bulkBacklinksLive**(`body`): `Promise`\<[`BacklinksBulkBacklinksLiveResponseInfo`](BacklinksBulkBacklinksLiveResponseInfo.md)\>
@@ -263,6 +274,7 @@ Successful operation
 [main.ts:11287](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L11287)
 
 ___
+
 
 ### bulkNewLostBacklinksLive
 
@@ -286,6 +298,7 @@ Successful operation
 
 ___
 
+
 ### bulkNewLostReferringDomainsLive
 
 ▸ **bulkNewLostReferringDomainsLive**(`body`): `Promise`\<[`BacklinksBulkNewLostReferringDomainsLiveResponseInfo`](BacklinksBulkNewLostReferringDomainsLiveResponseInfo.md)\>
@@ -307,6 +320,7 @@ Successful operation
 [main.ts:11455](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L11455)
 
 ___
+
 
 ### bulkRanksLive
 
@@ -330,6 +344,7 @@ Successful operation
 
 ___
 
+
 ### bulkReferringDomainsLive
 
 ▸ **bulkReferringDomainsLive**(`body`): `Promise`\<[`BacklinksBulkReferringDomainsLiveResponseInfo`](BacklinksBulkReferringDomainsLiveResponseInfo.md)\>
@@ -351,6 +366,7 @@ Successful operation
 [main.ts:11371](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L11371)
 
 ___
+
 
 ### bulkSpamScoreLive
 
@@ -374,6 +390,7 @@ Successful operation
 
 ___
 
+
 ### competitorsLive
 
 ▸ **competitorsLive**(`body`): `Promise`\<[`BacklinksCompetitorsLiveResponseInfo`](BacklinksCompetitorsLiveResponseInfo.md)\>
@@ -395,6 +412,7 @@ Successful operation
 [main.ts:11035](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L11035)
 
 ___
+
 
 ### domainIntersectionLive
 
@@ -418,6 +436,7 @@ Successful operation
 
 ___
 
+
 ### domainPagesLive
 
 ▸ **domainPagesLive**(`body`): `Promise`\<[`BacklinksDomainPagesLiveResponseInfo`](BacklinksDomainPagesLiveResponseInfo.md)\>
@@ -439,6 +458,7 @@ Successful operation
 [main.ts:10867](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L10867)
 
 ___
+
 
 ### domainPagesSummaryLive
 
@@ -462,6 +482,7 @@ Successful operation
 
 ___
 
+
 ### historyLive
 
 ▸ **historyLive**(`body`): `Promise`\<[`BacklinksHistoryLiveResponseInfo`](BacklinksHistoryLiveResponseInfo.md)\>
@@ -484,6 +505,7 @@ Successful operation
 
 ___
 
+
 ### index
 
 ▸ **index**(): `Promise`\<[`BacklinksIndexResponseInfo`](BacklinksIndexResponseInfo.md)\>
@@ -499,6 +521,7 @@ Successful operation
 [main.ts:10661](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L10661)
 
 ___
+
 
 ### pageIntersectionLive
 
@@ -522,6 +545,7 @@ Successful operation
 
 ___
 
+
 ### processAnchorsLive
 
 ▸ **processAnchorsLive**(`response`): `Promise`\<[`BacklinksAnchorsLiveResponseInfo`](BacklinksAnchorsLiveResponseInfo.md)\>
@@ -541,6 +565,7 @@ ___
 [main.ts:10845](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L10845)
 
 ___
+
 
 ### processBacklinksAvailableFilters
 
@@ -562,6 +587,7 @@ ___
 
 ___
 
+
 ### processBacklinksErrors
 
 ▸ **processBacklinksErrors**(`response`): `Promise`\<[`BacklinksErrorsResponseInfo`](BacklinksErrorsResponseInfo.md)\>
@@ -581,6 +607,7 @@ ___
 [main.ts:10603](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L10603)
 
 ___
+
 
 ### processBacklinksIdList
 
@@ -602,6 +629,7 @@ ___
 
 ___
 
+
 ### processBacklinksLive
 
 ▸ **processBacklinksLive**(`response`): `Promise`\<[`BacklinksBacklinksLiveResponseInfo`](BacklinksBacklinksLiveResponseInfo.md)\>
@@ -621,6 +649,7 @@ ___
 [main.ts:10803](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L10803)
 
 ___
+
 
 ### processBulkBacklinksLive
 
@@ -642,6 +671,7 @@ ___
 
 ___
 
+
 ### processBulkNewLostBacklinksLive
 
 ▸ **processBulkNewLostBacklinksLive**(`response`): `Promise`\<[`BacklinksBulkNewLostBacklinksLiveResponseInfo`](BacklinksBulkNewLostBacklinksLiveResponseInfo.md)\>
@@ -661,6 +691,7 @@ ___
 [main.ts:11433](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L11433)
 
 ___
+
 
 ### processBulkNewLostReferringDomainsLive
 
@@ -682,6 +713,7 @@ ___
 
 ___
 
+
 ### processBulkRanksLive
 
 ▸ **processBulkRanksLive**(`response`): `Promise`\<[`BacklinksBulkRanksLiveResponseInfo`](BacklinksBulkRanksLiveResponseInfo.md)\>
@@ -701,6 +733,7 @@ ___
 [main.ts:11265](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L11265)
 
 ___
+
 
 ### processBulkReferringDomainsLive
 
@@ -722,6 +755,7 @@ ___
 
 ___
 
+
 ### processBulkSpamScoreLive
 
 ▸ **processBulkSpamScoreLive**(`response`): `Promise`\<[`BacklinksBulkSpamScoreLiveResponseInfo`](BacklinksBulkSpamScoreLiveResponseInfo.md)\>
@@ -741,6 +775,7 @@ ___
 [main.ts:11349](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L11349)
 
 ___
+
 
 ### processCompetitorsLive
 
@@ -762,6 +797,7 @@ ___
 
 ___
 
+
 ### processDomainIntersectionLive
 
 ▸ **processDomainIntersectionLive**(`response`): `Promise`\<[`BacklinksDomainIntersectionLiveResponseInfo`](BacklinksDomainIntersectionLiveResponseInfo.md)\>
@@ -781,6 +817,7 @@ ___
 [main.ts:11097](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L11097)
 
 ___
+
 
 ### processDomainPagesLive
 
@@ -802,6 +839,7 @@ ___
 
 ___
 
+
 ### processDomainPagesSummaryLive
 
 ▸ **processDomainPagesSummaryLive**(`response`): `Promise`\<[`BacklinksDomainPagesSummaryLiveResponseInfo`](BacklinksDomainPagesSummaryLiveResponseInfo.md)\>
@@ -821,6 +859,7 @@ ___
 [main.ts:10929](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L10929)
 
 ___
+
 
 ### processHistoryLive
 
@@ -842,6 +881,7 @@ ___
 
 ___
 
+
 ### processIndex
 
 ▸ **processIndex**(`response`): `Promise`\<[`BacklinksIndexResponseInfo`](BacklinksIndexResponseInfo.md)\>
@@ -861,6 +901,7 @@ ___
 [main.ts:10677](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L10677)
 
 ___
+
 
 ### processPageIntersectionLive
 
@@ -882,6 +923,7 @@ ___
 
 ___
 
+
 ### processReferringDomainsLive
 
 ▸ **processReferringDomainsLive**(`response`): `Promise`\<[`BacklinksReferringDomainsLiveResponseInfo`](BacklinksReferringDomainsLiveResponseInfo.md)\>
@@ -901,6 +943,7 @@ ___
 [main.ts:10971](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L10971)
 
 ___
+
 
 ### processReferringNetworksLive
 
@@ -922,6 +965,7 @@ ___
 
 ___
 
+
 ### processSummaryLive
 
 ▸ **processSummaryLive**(`response`): `Promise`\<[`BacklinksSummaryLiveResponseInfo`](BacklinksSummaryLiveResponseInfo.md)\>
@@ -941,6 +985,7 @@ ___
 [main.ts:10719](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L10719)
 
 ___
+
 
 ### processTimeseriesNewLostSummaryLive
 
@@ -962,6 +1007,7 @@ ___
 
 ___
 
+
 ### processTimeseriesSummaryLive
 
 ▸ **processTimeseriesSummaryLive**(`response`): `Promise`\<[`BacklinksTimeseriesSummaryLiveResponseInfo`](BacklinksTimeseriesSummaryLiveResponseInfo.md)\>
@@ -981,6 +1027,7 @@ ___
 [main.ts:11181](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L11181)
 
 ___
+
 
 ### referringDomainsLive
 
@@ -1004,6 +1051,7 @@ Successful operation
 
 ___
 
+
 ### referringNetworksLive
 
 ▸ **referringNetworksLive**(`body`): `Promise`\<[`BacklinksReferringNetworksLiveResponseInfo`](BacklinksReferringNetworksLiveResponseInfo.md)\>
@@ -1025,6 +1073,7 @@ Successful operation
 [main.ts:10993](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L10993)
 
 ___
+
 
 ### summaryLive
 
@@ -1048,6 +1097,7 @@ Successful operation
 
 ___
 
+
 ### timeseriesNewLostSummaryLive
 
 ▸ **timeseriesNewLostSummaryLive**(`body`): `Promise`\<[`BacklinksTimeseriesNewLostSummaryLiveResponseInfo`](BacklinksTimeseriesNewLostSummaryLiveResponseInfo.md)\>
@@ -1070,6 +1120,7 @@ Successful operation
 
 ___
 
+
 ### timeseriesSummaryLive
 
 ▸ **timeseriesSummaryLive**(`body`): `Promise`\<[`BacklinksTimeseriesSummaryLiveResponseInfo`](BacklinksTimeseriesSummaryLiveResponseInfo.md)\>
@@ -1089,3 +1140,7 @@ Successful operation
 #### Defined in
 
 [main.ts:11161](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L11161)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IGoogleHotelsSerpElementItem
 
 # Interface: IGoogleHotelsSerpElementItem
@@ -5,7 +9,7 @@
 ## Hierarchy
 
 - [`IBaseSerpElementItem`](IBaseSerpElementItem.md)
-
+  
   ↳ **`IGoogleHotelsSerpElementItem`**
 
 ## Implemented by
@@ -43,6 +47,7 @@ google-defined client id
 
 ___
 
+
 ### hotel\_identifier
 
 • `Optional` **hotel\_identifier**: `string`
@@ -56,6 +61,7 @@ example: "CgoIjaeSlI6CnNpVEAE"
 [main.ts:33881](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L33881)
 
 ___
+
 
 ### position
 
@@ -71,6 +77,7 @@ left, right
 
 ___
 
+
 ### rank\_absolute
 
 • `Optional` **rank\_absolute**: `number`
@@ -83,6 +90,7 @@ absolute position among all the elements in SERP
 [main.ts:33871](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L33871)
 
 ___
+
 
 ### rank\_group
 
@@ -98,6 +106,7 @@ positions of elements with different type values are omitted from rank_group
 
 ___
 
+
 ### rectangle
 
 • `Optional` **rectangle**: [`Rectangle`](../classes/Rectangle.md)
@@ -112,6 +121,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 ___
 
+
 ### url
 
 • `Optional` **url**: `string`
@@ -124,6 +134,7 @@ URL
 
 ___
 
+
 ### xpath
 
 • `Optional` **xpath**: `string`
@@ -133,3 +144,7 @@ the XPath of the element
 #### Defined in
 
 [main.ts:33877](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L33877)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

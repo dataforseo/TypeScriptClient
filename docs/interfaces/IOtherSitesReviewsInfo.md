@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IOtherSitesReviewsInfo
 
 # Interface: IOtherSitesReviewsInfo
@@ -34,6 +38,7 @@ information about the rating enclosed in the review on a third-party site
 
 ___
 
+
 ### review\_text
 
 • `Optional` **review\_text**: `string`
@@ -46,6 +51,7 @@ text of the review
 [main.ts:195911](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L195911)
 
 ___
+
 
 ### title
 
@@ -60,6 +66,7 @@ contains a name of the third-party site where review initially appeared
 
 ___
 
+
 ### url
 
 • `Optional` **url**: `string`
@@ -70,3 +77,7 @@ URL to the a third-party site where review initially appeared
 #### Defined in
 
 [main.ts:195908](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L195908)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

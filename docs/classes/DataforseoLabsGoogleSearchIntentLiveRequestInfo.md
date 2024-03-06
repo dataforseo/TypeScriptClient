@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / DataforseoLabsGoogleSearchIntentLiveRequestInfo
 
 # Class: DataforseoLabsGoogleSearchIntentLiveRequestInfo
@@ -71,6 +75,7 @@ the keywords will be converted to lowercase format
 
 ___
 
+
 ### language\_code
 
 • `Optional` **language\_code**: `string`
@@ -91,6 +96,7 @@ en
 [main.ts:82675](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L82675)
 
 ___
+
 
 ### language\_name
 
@@ -138,6 +144,7 @@ English
 
 ___
 
+
 ### tag
 
 • `Optional` **tag**: `string`
@@ -178,6 +185,7 @@ you will find the specified tag value in the data object of the response
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -198,6 +206,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`DataforseoLabsGoogleSearchIntentLiveRequestInfo`](DataforseoLabsGoogleSearchIntentLiveRequestInfo.md)
@@ -215,3 +224,7 @@ ___
 #### Defined in
 
 [main.ts:82711](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L82711)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

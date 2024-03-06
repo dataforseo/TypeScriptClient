@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / ContentAnalysisLocationsResultInfo
 
 # Class: ContentAnalysisLocationsResultInfo
@@ -65,6 +69,7 @@ ISO country code of the location
 
 ___
 
+
 ### location\_name
 
 • `Optional` **location\_name**: `string`
@@ -101,6 +106,7 @@ full name of the location
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -121,6 +127,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`ContentAnalysisLocationsResultInfo`](ContentAnalysisLocationsResultInfo.md)
@@ -138,3 +145,7 @@ ___
 #### Defined in
 
 [main.ts:155547](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L155547)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

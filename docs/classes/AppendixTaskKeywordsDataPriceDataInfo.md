@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / AppendixTaskKeywordsDataPriceDataInfo
 
 # Class: AppendixTaskKeywordsDataPriceDataInfo
@@ -64,6 +68,7 @@
 
 ___
 
+
 ### priority\_low
 
 • `Optional` **priority\_low**: [`AppendixPriorityTasksReadyKeywordsDataPriceDataInfo`](AppendixPriorityTasksReadyKeywordsDataPriceDataInfo.md)[]
@@ -77,6 +82,7 @@ ___
 [main.ts:209571](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L209571)
 
 ___
+
 
 ### priority\_normal
 
@@ -112,6 +118,7 @@ ___
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -132,6 +139,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`AppendixTaskKeywordsDataPriceDataInfo`](AppendixTaskKeywordsDataPriceDataInfo.md)
@@ -149,3 +157,7 @@ ___
 #### Defined in
 
 [main.ts:209610](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L209610)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

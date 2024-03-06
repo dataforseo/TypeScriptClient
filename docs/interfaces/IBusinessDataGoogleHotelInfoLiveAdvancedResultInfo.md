@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IBusinessDataGoogleHotelInfoLiveAdvancedResultInfo
 
 # Interface: IBusinessDataGoogleHotelInfoLiveAdvancedResultInfo
@@ -44,6 +48,7 @@ information about the hotel
 
 ___
 
+
 ### address
 
 • `Optional` **address**: `string`
@@ -57,6 +62,7 @@ physical address of the hotel
 
 ___
 
+
 ### check\_url
 
 • `Optional` **check\_url**: `string`
@@ -69,6 +75,7 @@ you can use it to make sure that we provided accurate results
 [main.ts:197132](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L197132)
 
 ___
+
 
 ### datetime
 
@@ -85,6 +92,7 @@ example:
 
 ___
 
+
 ### hotel\_identifier
 
 • `Optional` **hotel\_identifier**: `string`
@@ -100,6 +108,7 @@ CgoI-KWyzenM_MV3EAE
 
 ___
 
+
 ### language\_code
 
 • `Optional` **language\_code**: `string`
@@ -111,6 +120,7 @@ language code in a POST array
 [main.ts:197129](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L197129)
 
 ___
+
 
 ### location
 
@@ -125,6 +135,7 @@ information about the location where the hotel is located
 
 ___
 
+
 ### location\_code
 
 • `Optional` **location\_code**: `number`
@@ -136,6 +147,7 @@ location code in a POST array
 [main.ts:197127](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L197127)
 
 ___
+
 
 ### overview\_images
 
@@ -150,6 +162,7 @@ array containing URLs to images displayed in the hotel overview
 
 ___
 
+
 ### phone
 
 • `Optional` **phone**: `string`
@@ -162,6 +175,7 @@ contact phone number of the hotel
 [main.ts:197152](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L197152)
 
 ___
+
 
 ### prices
 
@@ -176,6 +190,7 @@ contains information about the hotel’s prices
 
 ___
 
+
 ### reviews
 
 • `Optional` **reviews**: [`HotelReviewInfo`](../classes/HotelReviewInfo.md)
@@ -188,6 +203,7 @@ information about reviews of the hotel entity
 [main.ts:197160](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L197160)
 
 ___
+
 
 ### stars
 
@@ -202,6 +218,7 @@ class rating that ranges between 1-5 stars and displayed after review ratings in
 
 ___
 
+
 ### stars\_description
 
 • `Optional` **stars\_description**: `string`
@@ -215,6 +232,7 @@ class rating that ranges between 1-5 stars and displayed after review ratings in
 
 ___
 
+
 ### title
 
 • `Optional` **title**: `string`
@@ -225,3 +243,7 @@ the title of the hotel entity for which the results are collected
 #### Defined in
 
 [main.ts:197140](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L197140)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / ImagesSearchSerpElementItem
 
 # Class: ImagesSearchSerpElementItem
@@ -5,7 +9,7 @@
 ## Hierarchy
 
 - [`BaseSerpElementItem`](BaseSerpElementItem.md)
-
+  
   ↳ **`ImagesSearchSerpElementItem`**
 
 ## Implements
@@ -81,6 +85,7 @@
 
 ___
 
+
 ### alt
 
 • `Optional` **alt**: `string`
@@ -96,6 +101,7 @@ the alt tag of the image
 [main.ts:46109](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L46109)
 
 ___
+
 
 ### encoded\_url
 
@@ -113,6 +119,7 @@ the URL of the cached version of the image stored on Google’s servers
 
 ___
 
+
 ### rank\_absolute
 
 • `Optional` **rank\_absolute**: `number`
@@ -129,6 +136,7 @@ absolute position among all the elements in SERP
 [main.ts:46101](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L46101)
 
 ___
+
 
 ### rank\_group
 
@@ -148,6 +156,7 @@ positions of elements with different type values are omitted from rank_group
 
 ___
 
+
 ### source\_url
 
 • `Optional` **source\_url**: `string`
@@ -163,6 +172,7 @@ the URL of the source image
 [main.ts:46113](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L46113)
 
 ___
+
 
 ### subtitle
 
@@ -180,6 +190,7 @@ subtitle of the result in SERP
 
 ___
 
+
 ### title
 
 • `Optional` **title**: `string`
@@ -196,6 +207,7 @@ title of the result in SERP
 
 ___
 
+
 ### url
 
 • `Optional` **url**: `string`
@@ -211,6 +223,7 @@ the URL of the page where the image is hosted
 [main.ts:46111](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L46111)
 
 ___
+
 
 ### xpath
 
@@ -252,6 +265,7 @@ the XPath of the element
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -276,6 +290,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`ImagesSearchSerpElementItem`](ImagesSearchSerpElementItem.md)
@@ -297,3 +312,7 @@ ___
 #### Defined in
 
 [main.ts:46143](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L46143)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

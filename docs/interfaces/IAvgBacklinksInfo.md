@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IAvgBacklinksInfo
 
 # Interface: IAvgBacklinksInfo
@@ -38,6 +42,7 @@ average number of backlinks
 
 ___
 
+
 ### dofollow
 
 • `Optional` **dofollow**: `number`
@@ -49,6 +54,7 @@ average number of dofollow links
 [main.ts:79520](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L79520)
 
 ___
+
 
 ### last\_updated\_time
 
@@ -65,6 +71,7 @@ example:
 
 ___
 
+
 ### main\_domain\_rank
 
 • `Optional` **main\_domain\_rank**: `number`
@@ -77,6 +84,7 @@ learn more about the metric and its calculation formula in this help center arti
 [main.ts:79532](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L79532)
 
 ___
+
 
 ### rank
 
@@ -91,6 +99,7 @@ learn more about the metric and its calculation formula in this help center arti
 
 ___
 
+
 ### referring\_domains
 
 • `Optional` **referring\_domains**: `number`
@@ -102,6 +111,7 @@ average number of referring domains
 [main.ts:79524](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L79524)
 
 ___
+
 
 ### referring\_main\_domains
 
@@ -115,6 +125,7 @@ average number of referring main domains
 
 ___
 
+
 ### referring\_pages
 
 • `Optional` **referring\_pages**: `number`
@@ -127,6 +138,7 @@ average number of referring pages
 
 ___
 
+
 ### se\_type
 
 • `Optional` **se\_type**: `string`
@@ -136,3 +148,7 @@ search engine type
 #### Defined in
 
 [main.ts:79516](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L79516)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

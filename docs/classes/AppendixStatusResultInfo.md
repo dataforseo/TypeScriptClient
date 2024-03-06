@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / AppendixStatusResultInfo
 
 # Class: AppendixStatusResultInfo
@@ -77,6 +81,7 @@ app_data
 
 ___
 
+
 ### endpoints
 
 • `Optional` **endpoints**: [`AppendixStatusEndpointsInfo`](AppendixStatusEndpointsInfo.md)[]
@@ -92,6 +97,7 @@ array of objects that contain status information for API endpoints
 [main.ts:212783](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L212783)
 
 ___
+
 
 ### status
 
@@ -137,6 +143,7 @@ send_delay
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -157,6 +164,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`AppendixStatusResultInfo`](AppendixStatusResultInfo.md)
@@ -174,3 +182,7 @@ ___
 #### Defined in
 
 [main.ts:212812](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L212812)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

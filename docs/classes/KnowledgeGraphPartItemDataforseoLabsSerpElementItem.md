@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / KnowledgeGraphPartItemDataforseoLabsSerpElementItem
 
 # Class: KnowledgeGraphPartItemDataforseoLabsSerpElementItem
@@ -5,7 +9,7 @@
 ## Hierarchy
 
 - [`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md)
-
+  
   ↳ **`KnowledgeGraphPartItemDataforseoLabsSerpElementItem`**
 
 ## Implements
@@ -80,6 +84,7 @@
 
 ___
 
+
 ### data\_attrid
 
 • `Optional` **data\_attrid**: `string`
@@ -98,6 +103,7 @@ kc:/local:place qa
 
 ___
 
+
 ### links
 
 • `Optional` **links**: [`LinkElement`](LinkElement.md)[]
@@ -113,6 +119,7 @@ link of the element
 [main.ts:93713](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L93713)
 
 ___
+
 
 ### position
 
@@ -132,6 +139,7 @@ left, right
 
 ___
 
+
 ### rank\_absolute
 
 • `Optional` **rank\_absolute**: `number`
@@ -148,6 +156,7 @@ absolute position among all the elements in SERP
 [main.ts:93697](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L93697)
 
 ___
+
 
 ### rank\_group
 
@@ -166,6 +175,7 @@ positions of elements with different type values are omitted from rank_group
 
 ___
 
+
 ### text
 
 • `Optional` **text**: `string`
@@ -182,6 +192,7 @@ content within the item
 
 ___
 
+
 ### title
 
 • `Optional` **title**: `string`
@@ -197,6 +208,7 @@ title of a given link element
 [main.ts:93705](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L93705)
 
 ___
+
 
 ### xpath
 
@@ -238,6 +250,7 @@ the XPath of the element
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -262,6 +275,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`KnowledgeGraphPartItemDataforseoLabsSerpElementItem`](KnowledgeGraphPartItemDataforseoLabsSerpElementItem.md)
@@ -283,3 +297,7 @@ ___
 #### Defined in
 
 [main.ts:93744](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L93744)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

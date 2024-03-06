@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / AppDataGoogleAppReviewsTaskGetHtmlResultInfo
 
 # Class: AppDataGoogleAppReviewsTaskGetHtmlResultInfo
@@ -71,6 +75,7 @@ app id received in a POST array
 
 ___
 
+
 ### datetime
 
 • `Optional` **datetime**: `string`
@@ -90,6 +95,7 @@ example:
 
 ___
 
+
 ### items
 
 • `Optional` **items**: [`HtmlItem`](HtmlItem.md)[]
@@ -105,6 +111,7 @@ HTML pages and related data
 [main.ts:181695](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L181695)
 
 ___
+
 
 ### items\_count
 
@@ -122,6 +129,7 @@ the number of results returned in the items array
 
 ___
 
+
 ### language\_code
 
 • `Optional` **language\_code**: `string`
@@ -137,6 +145,7 @@ language code in a POST array
 [main.ts:181686](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L181686)
 
 ___
+
 
 ### location\_code
 
@@ -154,6 +163,7 @@ location code in a POST array
 
 ___
 
+
 ### se\_domain
 
 • `Optional` **se\_domain**: `string`
@@ -169,6 +179,7 @@ search engine domain in a POST array
 [main.ts:181682](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L181682)
 
 ___
+
 
 ### type
 
@@ -206,6 +217,7 @@ type of element
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -226,6 +238,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`AppDataGoogleAppReviewsTaskGetHtmlResultInfo`](AppDataGoogleAppReviewsTaskGetHtmlResultInfo.md)
@@ -243,3 +256,7 @@ ___
 #### Defined in
 
 [main.ts:181729](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L181729)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

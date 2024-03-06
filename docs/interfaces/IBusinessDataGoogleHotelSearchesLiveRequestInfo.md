@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IBusinessDataGoogleHotelSearchesLiveRequestInfo
 
 # Interface: IBusinessDataGoogleHotelSearchesLiveRequestInfo
@@ -55,6 +59,7 @@ example:
 
 ___
 
+
 ### amenities
 
 • `Optional` **amenities**: `string`[]
@@ -63,10 +68,10 @@ hotel amenities
 optional field
 you can use this field to specify different hotel amenities
 example:
-  [
-            "free_parking",
-            "pets_allowed"
-        ]
+[
+"free_parking",
+"pets_allowed"
+]
 
 possible values:
 "air_conditioning",
@@ -94,6 +99,7 @@ possible values:
 
 ___
 
+
 ### check\_in
 
 • `Optional` **check\_in**: `string`
@@ -111,6 +117,7 @@ Note: the value cannot precede the today’s date
 [main.ts:194483](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L194483)
 
 ___
+
 
 ### check\_out
 
@@ -130,6 +137,7 @@ the range between check_in and check_out values cannot exceed 30 days
 [main.ts:194492](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L194492)
 
 ___
+
 
 ### children
 
@@ -151,6 +159,7 @@ set the following value if you want to include one 13-year-old child and one 8-y
 
 ___
 
+
 ### currency
 
 • `Optional` **currency**: `string`
@@ -165,6 +174,7 @@ example:
 [main.ts:194497](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L194497)
 
 ___
+
 
 ### depth
 
@@ -185,6 +195,7 @@ if the specified depth is higher than the number of results in the response, the
 
 ___
 
+
 ### free\_cancellation
 
 • `Optional` **free\_cancellation**: `boolean`
@@ -200,6 +211,7 @@ default value: false
 
 ___
 
+
 ### is\_vacation\_rentals
 
 • `Optional` **is\_vacation\_rentals**: `boolean`
@@ -214,6 +226,7 @@ default value: false
 [main.ts:194558](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L194558)
 
 ___
+
 
 ### keyword
 
@@ -234,6 +247,7 @@ Note: in order to obtain accurate search results, the location name is appended 
 
 ___
 
+
 ### language\_code
 
 • `Optional` **language\_code**: `string`
@@ -250,6 +264,7 @@ en
 [main.ts:194466](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L194466)
 
 ___
+
 
 ### language\_name
 
@@ -268,6 +283,7 @@ English
 
 ___
 
+
 ### location\_code
 
 • `Optional` **location\_code**: `number`
@@ -284,6 +300,7 @@ example:
 [main.ts:194443](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L194443)
 
 ___
+
 
 ### location\_coordinate
 
@@ -304,6 +321,7 @@ example:
 
 ___
 
+
 ### location\_name
 
 • `Optional` **location\_name**: `string`
@@ -322,6 +340,7 @@ Note: in order to obtain accurate search results, the location_name you specify 
 
 ___
 
+
 ### max\_price
 
 • `Optional` **max\_price**: `number`
@@ -337,6 +356,7 @@ example:
 [main.ts:194548](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L194548)
 
 ___
+
 
 ### min\_price
 
@@ -354,6 +374,7 @@ example:
 
 ___
 
+
 ### min\_rating
 
 • `Optional` **min\_rating**: `number`
@@ -369,6 +390,7 @@ example:
 [main.ts:194526](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L194526)
 
 ___
+
 
 ### sort\_by
 
@@ -390,6 +412,7 @@ default value: relevance
 
 ___
 
+
 ### stars
 
 • `Optional` **stars**: `string`[]
@@ -406,6 +429,7 @@ example:
 
 ___
 
+
 ### tag
 
 • `Optional` **tag**: `string`
@@ -419,3 +443,7 @@ you will find the specified tag value in the data object of the response
 #### Defined in
 
 [main.ts:194593](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L194593)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IBusinessDataAttributesInfo
 
 # Interface: IBusinessDataAttributesInfo
@@ -36,6 +40,7 @@ indicates attributes a business entity can offer
 
 ___
 
+
 ### unavailable\_attributes
 
 • `Optional` **unavailable\_attributes**: `Object`
@@ -50,3 +55,7 @@ indicates attributes a business entity cannot offer
 #### Defined in
 
 [main.ts:188673](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L188673)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

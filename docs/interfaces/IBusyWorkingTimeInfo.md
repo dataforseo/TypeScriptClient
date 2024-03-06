@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IBusyWorkingTimeInfo
 
 # Interface: IBusyWorkingTimeInfo
@@ -33,6 +37,7 @@ higher value corresponds to a busier time of a day
 
 ___
 
+
 ### time
 
 • `Optional` **time**: [`WorkTimeInfo`](../classes/WorkTimeInfo.md)
@@ -42,3 +47,7 @@ busy hours
 #### Defined in
 
 [main.ts:188859](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L188859)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

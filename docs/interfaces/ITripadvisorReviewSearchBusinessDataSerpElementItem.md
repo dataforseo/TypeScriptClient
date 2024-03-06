@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / ITripadvisorReviewSearchBusinessDataSerpElementItem
 
 # Interface: ITripadvisorReviewSearchBusinessDataSerpElementItem
@@ -5,7 +9,7 @@
 ## Hierarchy
 
 - [`IBaseBusinessDataSerpElementItem`](IBaseBusinessDataSerpElementItem.md)
-
+  
   ↳ **`ITripadvisorReviewSearchBusinessDataSerpElementItem`**
 
 ## Implemented by
@@ -50,6 +54,7 @@ example:
 
 ___
 
+
 ### position
 
 • `Optional` **position**: `string`
@@ -62,6 +67,7 @@ can take the following values: right
 [main.ts:202503](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L202503)
 
 ___
+
 
 ### rank\_absolute
 
@@ -76,6 +82,7 @@ absolute position among all reviews on the list
 
 ___
 
+
 ### rank\_group
 
 • `Optional` **rank\_group**: `number`
@@ -89,6 +96,7 @@ positions of elements with different type values are omitted from rank_group
 
 ___
 
+
 ### rating
 
 • `Optional` **rating**: [`RatingInfo`](../classes/RatingInfo.md)
@@ -100,6 +108,7 @@ the rating score submitted by the reviewer
 [main.ts:202507](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L202507)
 
 ___
+
 
 ### responses
 
@@ -113,6 +122,7 @@ contains information about the owner’s response
 
 ___
 
+
 ### review\_images
 
 • `Optional` **review\_images**: [`ImageUrlInfo`](../classes/ImageUrlInfo.md)[]
@@ -125,6 +135,7 @@ contains URLs of the images used in the review
 
 ___
 
+
 ### review\_text
 
 • `Optional` **review\_text**: `string`
@@ -136,6 +147,7 @@ content of the review
 [main.ts:202521](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L202521)
 
 ___
+
 
 ### timestamp
 
@@ -152,6 +164,7 @@ example:
 
 ___
 
+
 ### title
 
 • `Optional` **title**: `string`
@@ -163,6 +176,7 @@ title of the review
 [main.ts:202519](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L202519)
 
 ___
+
 
 ### url
 
@@ -176,6 +190,7 @@ URL of the review
 
 ___
 
+
 ### user\_profile
 
 • `Optional` **user\_profile**: [`BusinessDataUserProfileInfo`](../classes/BusinessDataUserProfileInfo.md)
@@ -185,3 +200,7 @@ information from the reviewer’s profile
 #### Defined in
 
 [main.ts:202525](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L202525)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

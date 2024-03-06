@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IAmazonDeliveryInfo
 
 # Interface: IAmazonDeliveryInfo
@@ -35,6 +39,7 @@ the earliest date when the product can be shipped
 
 ___
 
+
 ### delivery\_date\_to
 
 • `Optional` **delivery\_date\_to**: `string`
@@ -47,6 +52,7 @@ the latest date when the product can be delivered
 
 ___
 
+
 ### delivery\_message
 
 • `Optional` **delivery\_message**: `string`
@@ -58,6 +64,7 @@ message accompanying the delivery information as posted by the seller
 [main.ts:21208](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L21208)
 
 ___
+
 
 ### delivery\_price
 
@@ -73,6 +80,7 @@ if free delivery is available, the value is null
 
 ___
 
+
 ### fastest\_delivery\_date\_from
 
 • `Optional` **fastest\_delivery\_date\_from**: `string`
@@ -85,6 +93,7 @@ the earliest date when the product can be delivered with a fast delivery option
 
 ___
 
+
 ### fastest\_delivery\_date\_to
 
 • `Optional` **fastest\_delivery\_date\_to**: `string`
@@ -94,3 +103,7 @@ the latest date when the product can be delivered with a fast delivery option
 #### Defined in
 
 [main.ts:21216](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L21216)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

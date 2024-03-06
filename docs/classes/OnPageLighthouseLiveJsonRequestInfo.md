@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / OnPageLighthouseLiveJsonRequestInfo
 
 # Class: OnPageLighthouseLiveJsonRequestInfo
@@ -66,11 +70,12 @@ if you ignore this field, we will return data for all audits
 use this field to get data for specific audits you indicate here
 note that some audits do not belong to a specific category and are stand-alone page quality measurements
 in general, there can be several use cases:
+
 1. if you ignore categories, you can use this field to get data for the specified audits only
-for example, if you ignore "categories" and specify "audits": ["metrics/cumulative-layout-shift","metrics/largest-contentful-paint","metrics/total-blocking-time"], you will get data only for these audits
+   for example, if you ignore "categories" and specify "audits": ["metrics/cumulative-layout-shift","metrics/largest-contentful-paint","metrics/total-blocking-time"], you will get data only for these audits
 2. if you specify a category, you can use this field to additionally receive audits that do not belong to the category(-ies) you specified
-for example, if you specify "categories": ["seo"] and "audits": ["metrics/cumulative-layout-shift","metrics/largest-contentful-paint","metrics/total-blocking-time"], you will get only these audits under “performance” and all audits under “seo”
-you can get the full list of possible audits here
+   for example, if you specify "categories": ["seo"] and "audits": ["metrics/cumulative-layout-shift","metrics/largest-contentful-paint","metrics/total-blocking-time"], you will get only these audits under “performance” and all audits under “seo”
+   you can get the full list of possible audits here
 
 #### Implementation of
 
@@ -81,6 +86,7 @@ you can get the full list of possible audits here
 [main.ts:154736](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L154736)
 
 ___
+
 
 ### categories
 
@@ -104,6 +110,7 @@ seo, pwa, performance, best_practices, accessibility
 
 ___
 
+
 ### for\_mobile
 
 • `Optional` **for\_mobile**: `boolean`
@@ -123,6 +130,7 @@ default value: false
 [main.ts:154715](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L154715)
 
 ___
+
 
 ### language\_code
 
@@ -144,6 +152,7 @@ en
 
 ___
 
+
 ### language\_name
 
 • `Optional` **language\_name**: `string`
@@ -163,6 +172,7 @@ English
 [main.ts:154747](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L154747)
 
 ___
+
 
 ### tag
 
@@ -184,6 +194,7 @@ you will find the specified tag value in the data object of the response
 
 ___
 
+
 ### url
 
 • `Optional` **url**: `string`
@@ -203,6 +214,7 @@ https://dataforseo.com/
 [main.ts:154709](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L154709)
 
 ___
+
 
 ### version
 
@@ -243,6 +255,7 @@ the list of available versions is available through the Lighthouse Versions endp
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -263,6 +276,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`OnPageLighthouseLiveJsonRequestInfo`](OnPageLighthouseLiveJsonRequestInfo.md)
@@ -280,3 +294,7 @@ ___
 #### Defined in
 
 [main.ts:154797](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L154797)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / OnPageLighthouseTasksReadyResultInfo
 
 # Class: OnPageLighthouseTasksReadyResultInfo
@@ -66,6 +70,7 @@ URL for collecting the results of the OnPage Lighthouse JSON task
 
 ___
 
+
 ### id
 
 • `Optional` **id**: `string`
@@ -82,6 +87,7 @@ unique task identifier in our system in the UUID format
 [main.ts:154418](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L154418)
 
 ___
+
 
 ### tag
 
@@ -119,6 +125,7 @@ user-defined task identifier
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -139,6 +146,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`OnPageLighthouseTasksReadyResultInfo`](OnPageLighthouseTasksReadyResultInfo.md)
@@ -156,3 +164,7 @@ ___
 #### Defined in
 
 [main.ts:154447](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L154447)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

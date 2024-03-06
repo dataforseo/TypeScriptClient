@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / DataforseoLabsGoogleCategoriesForDomainLiveRequestInfo
 
 # Class: DataforseoLabsGoogleCategoriesForDomainLiveRequestInfo
@@ -89,6 +93,7 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 ___
 
+
 ### include\_subcategories
 
 • `Optional` **include\_subcategories**: `boolean`
@@ -108,6 +113,7 @@ learn more about the parameter in this help center article
 [main.ts:83147](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L83147)
 
 ___
+
 
 ### item\_types
 
@@ -132,6 +138,7 @@ default value:
 
 ___
 
+
 ### language\_code
 
 • `Optional` **language\_code**: `string`
@@ -153,6 +160,7 @@ en
 [main.ts:83141](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L83141)
 
 ___
+
 
 ### language\_name
 
@@ -176,6 +184,7 @@ English
 
 ___
 
+
 ### limit
 
 • `Optional` **limit**: `number`
@@ -194,6 +203,7 @@ maximum value: 1000
 [main.ts:83194](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L83194)
 
 ___
+
 
 ### location\_code
 
@@ -217,6 +227,7 @@ example:
 
 ___
 
+
 ### location\_name
 
 • `Optional` **location\_name**: `string`
@@ -239,11 +250,12 @@ United Kingdom
 
 ___
 
+
 ### offset
 
 • `Optional` **offset**: `number`
 
-offset in the results array of returned categories 
+offset in the results array of returned categories
 optional field
 default value: 0
 if you specify the 10 value, the first ten categories in the results array will be omitted and the data will be provided for the successive categories
@@ -257,6 +269,7 @@ if you specify the 10 value, the first ten categories in the results array will 
 [main.ts:83199](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L83199)
 
 ___
+
 
 ### order\_by
 
@@ -289,6 +302,7 @@ Note: if the item_types array contains item types that are different from the or
 
 ___
 
+
 ### tag
 
 • `Optional` **tag**: `string`
@@ -308,6 +322,7 @@ you will find the specified tag value in the data object of the response
 [main.ts:83205](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L83205)
 
 ___
+
 
 ### target
 
@@ -348,6 +363,7 @@ the domain or subdomain should be specified without https:// and www.
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -368,6 +384,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`DataforseoLabsGoogleCategoriesForDomainLiveRequestInfo`](DataforseoLabsGoogleCategoriesForDomainLiveRequestInfo.md)
@@ -385,3 +402,7 @@ ___
 #### Defined in
 
 [main.ts:83251](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L83251)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

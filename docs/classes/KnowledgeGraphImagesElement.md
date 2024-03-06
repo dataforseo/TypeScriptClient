@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / KnowledgeGraphImagesElement
 
 # Class: KnowledgeGraphImagesElement
@@ -69,6 +73,7 @@ alt tag of the image
 
 ___
 
+
 ### domain
 
 • `Optional` **domain**: `string`
@@ -84,6 +89,7 @@ domain in SERP of the Ad element
 [main.ts:26438](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L26438)
 
 ___
+
 
 ### image\_url
 
@@ -102,6 +108,7 @@ the URL leading to the image on the original resource or DataForSEO storage (in 
 
 ___
 
+
 ### type
 
 • `Optional` **type**: `string`
@@ -118,6 +125,7 @@ type of element
 
 ___
 
+
 ### url
 
 • `Optional` **url**: `string`
@@ -133,6 +141,7 @@ relevant URL in SERP
 [main.ts:26436](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L26436)
 
 ___
+
 
 ### xpath
 
@@ -170,6 +179,7 @@ the XPath of the element
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -190,6 +200,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`KnowledgeGraphImagesElement`](KnowledgeGraphImagesElement.md)
@@ -207,3 +218,7 @@ ___
 #### Defined in
 
 [main.ts:26473](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L26473)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / ContentGenerationGenerateMetaTagsLiveRequestInfo
 
 # Class: ContentGenerationGenerateMetaTagsLiveRequestInfo
@@ -71,6 +75,7 @@ learn more about this parameter on our help center
 
 ___
 
+
 ### tag
 
 • `Optional` **tag**: `string`
@@ -90,6 +95,7 @@ you will find the specified tag value in the data object of the response
 [main.ts:160588](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L160588)
 
 ___
+
 
 ### text
 
@@ -131,6 +137,7 @@ learn more about tokens on our help center
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -151,6 +158,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`ContentGenerationGenerateMetaTagsLiveRequestInfo`](ContentGenerationGenerateMetaTagsLiveRequestInfo.md)
@@ -168,3 +176,7 @@ ___
 #### Defined in
 
 [main.ts:160613](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L160613)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

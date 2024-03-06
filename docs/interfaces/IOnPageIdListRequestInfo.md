@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IOnPageIdListRequestInfo
 
 # Interface: IOnPageIdListRequestInfo
@@ -41,6 +45,7 @@ example:
 
 ___
 
+
 ### datetime\_to
 
 • `Optional` **datetime\_to**: `string`
@@ -58,6 +63,7 @@ example:
 
 ___
 
+
 ### include\_metadata
 
 • `Optional` **include\_metadata**: `boolean`
@@ -71,6 +77,7 @@ default value: false
 [main.ts:141554](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L141554)
 
 ___
+
 
 ### limit
 
@@ -87,6 +94,7 @@ maximum value: 1000
 
 ___
 
+
 ### offset
 
 • `Optional` **offset**: `number`
@@ -102,6 +110,7 @@ if you specify the 10 value, the first ten tasks in the results array will be om
 
 ___
 
+
 ### sort
 
 • `Optional` **sort**: `string`
@@ -114,3 +123,7 @@ default value: "asc"
 #### Defined in
 
 [main.ts:141550](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L141550)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / HistoricalMetricsBundleInfo
 
 # Class: HistoricalMetricsBundleInfo
@@ -67,6 +71,7 @@ traffic data from the local pack results in SERP
 
 ___
 
+
 ### local\_pack
 
 • `Optional` **local\_pack**: [`HistoricalMetricsInfo`](HistoricalMetricsInfo.md)[]
@@ -83,6 +88,7 @@ traffic data from the featured snippet results in Google SERP
 
 ___
 
+
 ### organic
 
 • `Optional` **organic**: [`HistoricalMetricsInfo`](HistoricalMetricsInfo.md)[]
@@ -98,6 +104,7 @@ traffic data from organic search
 [main.ts:98252](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L98252)
 
 ___
+
 
 ### paid
 
@@ -135,6 +142,7 @@ traffic data from paid search
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -155,6 +163,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`HistoricalMetricsBundleInfo`](HistoricalMetricsBundleInfo.md)
@@ -172,3 +181,7 @@ ___
 #### Defined in
 
 [main.ts:98300](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L98300)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

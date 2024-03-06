@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / MerchantTaskRequestInfo
 
 # Class: MerchantTaskRequestInfo
@@ -5,7 +9,7 @@
 ## Hierarchy
 
 - **`MerchantTaskRequestInfo`**
-
+  
   ↳ [`MerchantAmazonProductsTaskPostRequestInfo`](MerchantAmazonProductsTaskPostRequestInfo.md)
 
 ## Implements
@@ -95,6 +99,7 @@ if the specified depth is higher than the number of results in the response, the
 
 ___
 
+
 ### keyword
 
 • `Optional` **keyword**: `string`
@@ -115,6 +120,7 @@ if you need to use the “%” symbol for your keyword, please specify it as “
 [main.ts:142556](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L142556)
 
 ___
+
 
 ### language\_code
 
@@ -137,6 +143,7 @@ en
 
 ___
 
+
 ### language\_name
 
 • `Optional` **language\_name**: `string`
@@ -158,6 +165,7 @@ English
 
 ___
 
+
 ### location\_code
 
 • `Optional` **location\_code**: `number`
@@ -178,6 +186,7 @@ example:
 [main.ts:142584](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L142584)
 
 ___
+
 
 ### location\_coordinate
 
@@ -202,6 +211,7 @@ example:
 
 ___
 
+
 ### location\_name
 
 • `Optional` **location\_name**: `string`
@@ -223,6 +233,7 @@ London,England,United Kingdom
 
 ___
 
+
 ### max\_crawl\_pages
 
 • `Optional` **max\_crawl\_pages**: `number`
@@ -243,6 +254,7 @@ learn more at our help center
 [main.ts:142630](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L142630)
 
 ___
+
 
 ### pingback\_url
 
@@ -268,6 +280,7 @@ i.a., the # symbol will be encoded into %23
 
 ___
 
+
 ### postback\_data
 
 • `Optional` **postback\_data**: `string`
@@ -287,6 +300,7 @@ advanced, html
 [main.ts:142682](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L142682)
 
 ___
+
 
 ### postback\_url
 
@@ -312,6 +326,7 @@ i.a., the # symbol will be encoded into %23
 
 ___
 
+
 ### price\_max
 
 • `Optional` **price\_max**: `number`
@@ -332,6 +347,7 @@ example:
 
 ___
 
+
 ### price\_min
 
 • `Optional` **price\_min**: `number`
@@ -351,6 +367,7 @@ example:
 [main.ts:142647](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L142647)
 
 ___
+
 
 ### priority
 
@@ -374,6 +391,7 @@ The cost can be calculated on the Pricing page.
 
 ___
 
+
 ### se\_domain
 
 • `Optional` **se\_domain**: `string`
@@ -394,6 +412,7 @@ google.co.uk, google.com.au, google.de, etc.
 [main.ts:142614](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L142614)
 
 ___
+
 
 ### search\_param
 
@@ -420,6 +439,7 @@ example:
 
 ___
 
+
 ### sort\_by
 
 • `Optional` **sort\_by**: `string`
@@ -441,6 +461,7 @@ sort_by:"review_score"
 
 ___
 
+
 ### tag
 
 • `Optional` **tag**: `string`
@@ -460,6 +481,7 @@ you will find the specified tag value in the data object of the response
 [main.ts:142666](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L142666)
 
 ___
+
 
 ### url
 
@@ -501,6 +523,7 @@ https://www.google.com/search?q=iphone&num=100&tbm=shop&ie=UTF-8&oe=UTF-8&tbs=vw
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -521,6 +544,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`MerchantTaskRequestInfo`](MerchantTaskRequestInfo.md)
@@ -538,3 +562,7 @@ ___
 #### Defined in
 
 [main.ts:142733](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L142733)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

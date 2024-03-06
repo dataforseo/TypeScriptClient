@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / KnowledgeGraphListItemDataforseoLabsSerpElementItem
 
 # Class: KnowledgeGraphListItemDataforseoLabsSerpElementItem
@@ -5,7 +9,7 @@
 ## Hierarchy
 
 - [`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md)
-
+  
   ↳ **`KnowledgeGraphListItemDataforseoLabsSerpElementItem`**
 
 ## Implements
@@ -80,6 +84,7 @@
 
 ___
 
+
 ### data\_attrid
 
 • `Optional` **data\_attrid**: `string`
@@ -98,6 +103,7 @@ kc:/common/topic:social media presence
 
 ___
 
+
 ### items
 
 • `Optional` **items**: [`KnowledgeGraphListElement`](KnowledgeGraphListElement.md)[]
@@ -115,6 +121,7 @@ if there are none, equals null
 
 ___
 
+
 ### link
 
 • `Optional` **link**: [`LinkElement`](LinkElement.md)
@@ -130,6 +137,7 @@ link of the element
 [main.ts:93598](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L93598)
 
 ___
+
 
 ### position
 
@@ -149,6 +157,7 @@ left, right
 
 ___
 
+
 ### rank\_absolute
 
 • `Optional` **rank\_absolute**: `number`
@@ -165,6 +174,7 @@ absolute position among all the elements in SERP
 [main.ts:93584](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L93584)
 
 ___
+
 
 ### rank\_group
 
@@ -184,6 +194,7 @@ positions of elements with different type values are omitted from rank_group
 
 ___
 
+
 ### title
 
 • `Optional` **title**: `string`
@@ -199,6 +210,7 @@ title of a given link element
 [main.ts:93592](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L93592)
 
 ___
+
 
 ### xpath
 
@@ -240,6 +252,7 @@ the XPath of the element
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -264,6 +277,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`KnowledgeGraphListItemDataforseoLabsSerpElementItem`](KnowledgeGraphListItemDataforseoLabsSerpElementItem.md)
@@ -285,3 +299,7 @@ ___
 #### Defined in
 
 [main.ts:93632](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L93632)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

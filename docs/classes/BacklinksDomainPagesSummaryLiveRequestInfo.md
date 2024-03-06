@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / BacklinksDomainPagesSummaryLiveRequestInfo
 
 # Class: BacklinksDomainPagesSummaryLiveRequestInfo
@@ -81,6 +85,7 @@ example:
 
 ___
 
+
 ### backlinks\_status\_type
 
 • `Optional` **backlinks\_status\_type**: `string`
@@ -104,6 +109,7 @@ default value: live
 
 ___
 
+
 ### exclude\_internal\_backlinks
 
 • `Optional` **exclude\_internal\_backlinks**: `boolean`
@@ -122,6 +128,7 @@ default value: true
 [main.ts:133697](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L133697)
 
 ___
+
 
 ### filters
 
@@ -154,6 +161,7 @@ The full list of possible filters is available here.
 
 ___
 
+
 ### include\_indirect\_links
 
 • `Optional` **include\_indirect\_links**: `boolean`
@@ -174,6 +182,7 @@ default value: true
 
 ___
 
+
 ### include\_subdomains
 
 • `Optional` **include\_subdomains**: `boolean`
@@ -192,6 +201,7 @@ default value: true
 [main.ts:133686](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L133686)
 
 ___
+
 
 ### internal\_list\_limit
 
@@ -218,6 +228,7 @@ maximum value: 1000
 
 ___
 
+
 ### limit
 
 • `Optional` **limit**: `number`
@@ -237,6 +248,7 @@ maximum value: 1000
 
 ___
 
+
 ### offset
 
 • `Optional` **offset**: `number`
@@ -255,6 +267,7 @@ if you specify the 10 value, the first ten anchors in the results array will be 
 [main.ts:133622](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L133622)
 
 ___
+
 
 ### order\_by
 
@@ -284,6 +297,7 @@ example:
 
 ___
 
+
 ### tag
 
 • `Optional` **tag**: `string`
@@ -303,6 +317,7 @@ you will find the specified tag value in the data object of the response
 [main.ts:133703](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L133703)
 
 ___
+
 
 ### target
 
@@ -343,6 +358,7 @@ a page should be specified with absolute URL (including http:// or https://)
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -363,6 +379,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`BacklinksDomainPagesSummaryLiveRequestInfo`](BacklinksDomainPagesSummaryLiveRequestInfo.md)
@@ -380,3 +397,7 @@ ___
 #### Defined in
 
 [main.ts:133749](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L133749)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IDataforseoLabsGoogleTopSearchesLiveResultInfo
 
 # Interface: IDataforseoLabsGoogleTopSearchesLiveResultInfo
@@ -37,6 +41,7 @@ contains keywords and related data
 
 ___
 
+
 ### items\_count
 
 • `Optional` **items\_count**: `number`
@@ -48,6 +53,7 @@ the number of results returned in the items array
 [main.ts:85355](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L85355)
 
 ___
+
 
 ### language\_code
 
@@ -61,6 +67,7 @@ language code in a POST array
 
 ___
 
+
 ### location\_code
 
 • `Optional` **location\_code**: `number`
@@ -73,6 +80,7 @@ location code in a POST array
 
 ___
 
+
 ### offset
 
 • `Optional` **offset**: `number`
@@ -84,6 +92,7 @@ current offset value
 [main.ts:85357](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L85357)
 
 ___
+
 
 ### offset\_token
 
@@ -99,6 +108,7 @@ note: offset_token values are unique for each subsequent task
 
 ___
 
+
 ### se\_type
 
 • `Optional` **se\_type**: `string`
@@ -111,6 +121,7 @@ search engine type
 
 ___
 
+
 ### total\_count
 
 • `Optional` **total\_count**: `number`
@@ -120,3 +131,7 @@ total amount of results in our database relevant to your request
 #### Defined in
 
 [main.ts:85353](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L85353)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

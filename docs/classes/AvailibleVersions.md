@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / AvailibleVersions
 
 # Class: AvailibleVersions
@@ -66,6 +70,7 @@ if false, the version is not used by default and should be specified in the corr
 
 ___
 
+
 ### version
 
 • `Optional` **version**: `string`
@@ -102,6 +107,7 @@ lighthouse version
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -122,6 +128,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`AvailibleVersions`](AvailibleVersions.md)
@@ -139,3 +146,7 @@ ___
 #### Defined in
 
 [main.ts:153876](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L153876)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

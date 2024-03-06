@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / AppDataGoogleAppReviewsTaskPostRequestInfo
 
 # Class: AppDataGoogleAppReviewsTaskPostRequestInfo
@@ -81,6 +85,7 @@ https://play.google.com/store/apps/details?id=org.telegram.messenger
 
 ___
 
+
 ### depth
 
 • `Optional` **depth**: `number`
@@ -101,6 +106,7 @@ maximum value: 100000
 [main.ts:180634](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L180634)
 
 ___
+
 
 ### language\_code
 
@@ -123,6 +129,7 @@ en
 
 ___
 
+
 ### language\_name
 
 • `Optional` **language\_name**: `string`
@@ -143,6 +150,7 @@ English
 [main.ts:180612](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L180612)
 
 ___
+
 
 ### location\_code
 
@@ -165,6 +173,7 @@ example:
 
 ___
 
+
 ### location\_name
 
 • `Optional` **location\_name**: `string`
@@ -185,6 +194,7 @@ West Los Angeles,California,United States
 [main.ts:180598](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L180598)
 
 ___
+
 
 ### pingback\_url
 
@@ -210,6 +220,7 @@ i.a., the # symbol will be encoded into %23
 
 ___
 
+
 ### postback\_data
 
 • `Optional` **postback\_data**: `string`
@@ -229,6 +240,7 @@ advanced, html
 [main.ts:180675](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L180675)
 
 ___
+
 
 ### postback\_url
 
@@ -254,6 +266,7 @@ i.a., the # symbol will be encoded into %23
 
 ___
 
+
 ### priority
 
 • `Optional` **priority**: `number`
@@ -275,6 +288,7 @@ The cost can be calculated on the Pricing page.
 [main.ts:180627](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L180627)
 
 ___
+
 
 ### rating
 
@@ -301,6 +315,7 @@ by default, the API returns all reviews regardless of the number of stars
 
 ___
 
+
 ### sort\_by
 
 • `Optional` **sort\_by**: `string`
@@ -322,6 +337,7 @@ default rule: most_relevant
 [main.ts:180653](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L180653)
 
 ___
+
 
 ### tag
 
@@ -363,6 +379,7 @@ you will find the specified tag value in the data object of the response
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -383,6 +400,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`AppDataGoogleAppReviewsTaskPostRequestInfo`](AppDataGoogleAppReviewsTaskPostRequestInfo.md)
@@ -400,3 +418,7 @@ ___
 #### Defined in
 
 [main.ts:180720](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L180720)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

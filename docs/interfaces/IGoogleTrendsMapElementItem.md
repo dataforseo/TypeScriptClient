@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IGoogleTrendsMapElementItem
 
 # Interface: IGoogleTrendsMapElementItem
@@ -5,7 +9,7 @@
 ## Hierarchy
 
 - [`IBaseGoogleTrendsItem`](IBaseGoogleTrendsItem.md)
-
+  
   ↳ **`IGoogleTrendsMapElementItem`**
 
 ## Implemented by
@@ -39,6 +43,7 @@ Google Trends data from the corresponding item
 
 ___
 
+
 ### keywords
 
 • `Optional` **keywords**: `string`[]
@@ -51,6 +56,7 @@ the data included in the google_trends_map element is based on the keywords list
 [main.ts:120756](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L120756)
 
 ___
+
 
 ### position
 
@@ -65,6 +71,7 @@ can take the following values: 1, 2, 3, 4, etc.
 
 ___
 
+
 ### title
 
 • `Optional` **title**: `string`
@@ -74,3 +81,7 @@ title of the element in Google Trends
 #### Defined in
 
 [main.ts:120753](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L120753)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

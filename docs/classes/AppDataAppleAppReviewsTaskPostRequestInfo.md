@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / AppDataAppleAppReviewsTaskPostRequestInfo
 
 # Class: AppDataAppleAppReviewsTaskPostRequestInfo
@@ -81,6 +85,7 @@ the id is 835599320
 
 ___
 
+
 ### depth
 
 • `Optional` **depth**: `number`
@@ -101,6 +106,7 @@ maximum value: 500
 [main.ts:185703](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L185703)
 
 ___
+
 
 ### language\_code
 
@@ -123,6 +129,7 @@ en
 
 ___
 
+
 ### language\_name
 
 • `Optional` **language\_name**: `string`
@@ -143,6 +150,7 @@ English
 [main.ts:185681](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L185681)
 
 ___
+
 
 ### location\_code
 
@@ -165,6 +173,7 @@ example:
 
 ___
 
+
 ### location\_name
 
 • `Optional` **location\_name**: `string`
@@ -185,6 +194,7 @@ West Los Angeles,California,United States
 [main.ts:185667](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L185667)
 
 ___
+
 
 ### pingback\_url
 
@@ -210,6 +220,7 @@ i.a., the # symbol will be encoded into %23
 
 ___
 
+
 ### postback\_data
 
 • `Optional` **postback\_data**: `string`
@@ -229,6 +240,7 @@ advanced
 [main.ts:185733](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L185733)
 
 ___
+
 
 ### postback\_url
 
@@ -254,6 +266,7 @@ i.a., the # symbol will be encoded into %23
 
 ___
 
+
 ### priority
 
 • `Optional` **priority**: `number`
@@ -276,6 +289,7 @@ The cost can be calculated on the Pricing page.
 
 ___
 
+
 ### sort\_by
 
 • `Optional` **sort\_by**: `string`
@@ -297,6 +311,7 @@ default rule: most_helpful
 [main.ts:185711](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L185711)
 
 ___
+
 
 ### tag
 
@@ -338,6 +353,7 @@ you will find the specified tag value in the data object of the response
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -358,6 +374,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`AppDataAppleAppReviewsTaskPostRequestInfo`](AppDataAppleAppReviewsTaskPostRequestInfo.md)
@@ -375,3 +392,7 @@ ___
 #### Defined in
 
 [main.ts:185777](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L185777)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

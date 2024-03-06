@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IKeywordsDataGoogleAdsKeywordsForKeywordsLiveResultInfo
 
 # Interface: IKeywordsDataGoogleAdsKeywordsForKeywordsLiveResultInfo
@@ -45,6 +49,7 @@ learn more about the metric in this help center article
 
 ___
 
+
 ### competition\_index
 
 • `Optional` **competition\_index**: `number`
@@ -62,6 +67,7 @@ learn more about the metric in this help center article
 
 ___
 
+
 ### cpc
 
 • `Optional` **cpc**: `number`
@@ -74,6 +80,7 @@ indicates the amount paid for each click on the ad displayed for a given keyword
 [main.ts:117444](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L117444)
 
 ___
+
 
 ### high\_top\_of\_page\_bid
 
@@ -89,6 +96,7 @@ the value may differ depending on the location specified in a POST request
 
 ___
 
+
 ### keyword
 
 • `Optional` **keyword**: `string`
@@ -101,6 +109,7 @@ keyword in a POST array
 
 ___
 
+
 ### keyword\_annotations
 
 • `Optional` **keyword\_annotations**: [`KeywordAnnotations`](../classes/KeywordAnnotations.md)
@@ -112,6 +121,7 @@ the annotations for the keyword
 [main.ts:117450](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L117450)
 
 ___
+
 
 ### language\_code
 
@@ -126,6 +136,7 @@ if there is no data, the value is null
 
 ___
 
+
 ### location\_code
 
 • `Optional` **location\_code**: `number`
@@ -138,6 +149,7 @@ if there is no data, the value is null
 [main.ts:117408](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L117408)
 
 ___
+
 
 ### low\_top\_of\_page\_bid
 
@@ -153,6 +165,7 @@ the value may differ depending on the location specified in a POST request
 
 ___
 
+
 ### monthly\_searches
 
 • `Optional` **monthly\_searches**: [`MonthlySearches`](../classes/MonthlySearches.md)[]
@@ -166,6 +179,7 @@ if there is no data, the value is null
 [main.ts:117448](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L117448)
 
 ___
+
 
 ### search\_partners
 
@@ -182,6 +196,7 @@ if false, the results are returned for Google search sites only
 
 ___
 
+
 ### search\_volume
 
 • `Optional` **search\_volume**: `number`
@@ -193,3 +208,7 @@ if there is no data, the value is null
 #### Defined in
 
 [main.ts:117433](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L117433)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

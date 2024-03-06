@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IOnPageWaterfallRequestInfo
 
 # Interface: IOnPageWaterfallRequestInfo
@@ -36,6 +40,7 @@ example:
 
 ___
 
+
 ### tag
 
 • `Optional` **tag**: `string`
@@ -52,6 +57,7 @@ you will find the specified tag value in the data object of the response
 
 ___
 
+
 ### url
 
 • `Optional` **url**: `string`
@@ -63,3 +69,7 @@ specify the pages you want to receive timing for
 #### Defined in
 
 [main.ts:149700](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L149700)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

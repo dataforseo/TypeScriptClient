@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / OnPageDuplicateTagsItem
 
 # Class: OnPageDuplicateTagsItem
@@ -66,6 +70,7 @@ contains the value of duplicated tag
 
 ___
 
+
 ### pages
 
 • `Optional` **pages**: [`BaseOnPageResourceItemInfo`](BaseOnPageResourceItemInfo.md)[]
@@ -81,6 +86,7 @@ pages with duplicate tags
 [main.ts:147161](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L147161)
 
 ___
+
 
 ### total\_count
 
@@ -118,6 +124,7 @@ total count of duplicate pages
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -138,6 +145,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`OnPageDuplicateTagsItem`](OnPageDuplicateTagsItem.md)
@@ -155,3 +163,7 @@ ___
 #### Defined in
 
 [main.ts:147190](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L147190)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

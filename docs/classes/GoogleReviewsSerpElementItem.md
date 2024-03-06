@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / GoogleReviewsSerpElementItem
 
 # Class: GoogleReviewsSerpElementItem
@@ -5,7 +9,7 @@
 ## Hierarchy
 
 - [`BaseSerpElementItem`](BaseSerpElementItem.md)
-
+  
   ↳ **`GoogleReviewsSerpElementItem`**
 
 ## Implements
@@ -82,6 +86,7 @@
 
 ___
 
+
 ### cid
 
 • `Optional` **cid**: `string`
@@ -97,6 +102,7 @@ google-defined client id
 [main.ts:29198](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L29198)
 
 ___
+
 
 ### feature
 
@@ -114,6 +120,7 @@ the additional feature of the review
 
 ___
 
+
 ### place\_id
 
 • `Optional` **place\_id**: `string`
@@ -129,6 +136,7 @@ the identifier of a place
 [main.ts:29194](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L29194)
 
 ___
+
 
 ### position
 
@@ -148,6 +156,7 @@ left, right
 
 ___
 
+
 ### rank\_absolute
 
 • `Optional` **rank\_absolute**: `number`
@@ -164,6 +173,7 @@ absolute position among all the elements in SERP
 [main.ts:29181](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L29181)
 
 ___
+
 
 ### rank\_group
 
@@ -183,11 +193,12 @@ positions of elements with different type values are omitted from rank_group
 
 ___
 
+
 ### rating
 
 • `Optional` **rating**: [`RatingInfo`](RatingInfo.md)
 
-the item’s rating 
+the item’s rating
 the popularity rate based on reviews and displayed in SERP
 
 #### Implementation of
@@ -199,6 +210,7 @@ the popularity rate based on reviews and displayed in SERP
 [main.ts:29192](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L29192)
 
 ___
+
 
 ### rectangle
 
@@ -218,6 +230,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 ___
 
+
 ### reviews\_count
 
 • `Optional` **reviews\_count**: `number`
@@ -233,6 +246,7 @@ the number of reviews
 [main.ts:29189](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L29189)
 
 ___
+
 
 ### xpath
 
@@ -274,6 +288,7 @@ the XPath of the element
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -298,6 +313,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`GoogleReviewsSerpElementItem`](GoogleReviewsSerpElementItem.md)
@@ -319,3 +335,7 @@ ___
 #### Defined in
 
 [main.ts:29231](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L29231)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

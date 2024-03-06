@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / OnPageLighthouseAuditsResultInfo
 
 # Class: OnPageLighthouseAuditsResultInfo
@@ -86,6 +90,7 @@ Note: the titles can change depending on if the audit passed or failed and may c
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -106,6 +111,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`OnPageLighthouseAuditsResultInfo`](OnPageLighthouseAuditsResultInfo.md)
@@ -123,3 +129,7 @@ ___
 #### Defined in
 
 [main.ts:153706](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L153706)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

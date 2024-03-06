@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IAmazonSerpElement
 
 # Interface: IAmazonSerpElement
@@ -45,6 +49,7 @@ number of product purchases in the past month
 
 ___
 
+
 ### currency
 
 • `Optional` **currency**: `string`
@@ -58,6 +63,7 @@ USD
 [main.ts:170986](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L170986)
 
 ___
+
 
 ### data\_asin
 
@@ -74,6 +80,7 @@ B07G82D89J
 
 ___
 
+
 ### delivery\_info
 
 • `Optional` **delivery\_info**: [`AmazonDeliveryInfo`](../classes/AmazonDeliveryInfo.md)
@@ -87,6 +94,7 @@ delivery information including free and fast delivery date ranges
 
 ___
 
+
 ### domain
 
 • `Optional` **domain**: `string`
@@ -99,6 +107,7 @@ Amazon domain
 
 ___
 
+
 ### image\_url
 
 • `Optional` **image\_url**: `string`
@@ -110,6 +119,7 @@ URL of the product image featured in the results
 [main.ts:170972](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L170972)
 
 ___
+
 
 ### is\_amazon\_choice
 
@@ -124,6 +134,7 @@ if the value is true, the product is marked with the “Amazon’s choice” lab
 
 ___
 
+
 ### is\_best\_seller
 
 • `Optional` **is\_best\_seller**: `boolean`
@@ -136,6 +147,7 @@ if the value is true, the product is marked with the “Best Seller” label
 [main.ts:171002](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L171002)
 
 ___
+
 
 ### price\_from
 
@@ -151,6 +163,7 @@ example:
 
 ___
 
+
 ### price\_to
 
 • `Optional` **price\_to**: `number`
@@ -165,6 +178,7 @@ example:
 
 ___
 
+
 ### rating
 
 • `Optional` **rating**: [`RatingElement`](../classes/RatingElement.md)
@@ -176,6 +190,7 @@ product rating info
 [main.ts:170996](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L170996)
 
 ___
+
 
 ### special\_offers
 
@@ -190,6 +205,7 @@ contains special offer details, including coupon and Subscribe & Save discounts
 
 ___
 
+
 ### title
 
 • `Optional` **title**: `string`
@@ -201,6 +217,7 @@ product title
 [main.ts:170968](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L170968)
 
 ___
+
 
 ### type
 
@@ -214,6 +231,7 @@ type of element
 
 ___
 
+
 ### url
 
 • `Optional` **url**: `string`
@@ -226,6 +244,7 @@ the URL of the product page
 
 ___
 
+
 ### xpath
 
 • `Optional` **xpath**: `string`
@@ -235,3 +254,7 @@ the XPath of the element
 #### Defined in
 
 [main.ts:170964](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L170964)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / DataforseoLabsGoogleHistoricalSerpsLiveItem
 
 # Class: DataforseoLabsGoogleHistoricalSerpsLiveItem
@@ -77,6 +81,7 @@ you can use it to make sure that we provided accurate results
 
 ___
 
+
 ### datetime
 
 • `Optional` **datetime**: `string`
@@ -95,6 +100,7 @@ example:
 [main.ts:91995](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L91995)
 
 ___
+
 
 ### item\_types
 
@@ -115,6 +121,7 @@ answer_box, carousel, multi_carousel, featured_snippet, google_flights, google_r
 
 ___
 
+
 ### items
 
 • `Optional` **items**: [`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md)[]
@@ -132,6 +139,7 @@ if there are none, equals null
 
 ___
 
+
 ### items\_count
 
 • `Optional` **items\_count**: `number`
@@ -147,6 +155,7 @@ the number of results returned in the items array
 [main.ts:92007](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L92007)
 
 ___
+
 
 ### keyword
 
@@ -165,6 +174,7 @@ the results will be provided for the corrected keyword
 
 ___
 
+
 ### language\_code
 
 • `Optional` **language\_code**: `string`
@@ -180,6 +190,7 @@ language code in a POST array
 [main.ts:91987](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L91987)
 
 ___
+
 
 ### location\_code
 
@@ -197,6 +208,7 @@ location code in a POST array
 
 ___
 
+
 ### se\_domain
 
 • `Optional` **se\_domain**: `string`
@@ -212,6 +224,7 @@ search engine domain in a POST array
 [main.ts:91983](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L91983)
 
 ___
+
 
 ### se\_results\_count
 
@@ -229,6 +242,7 @@ total number of results in SERP
 
 ___
 
+
 ### se\_type
 
 • `Optional` **se\_type**: `string`
@@ -244,6 +258,7 @@ search engine type
 [main.ts:91976](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L91976)
 
 ___
+
 
 ### spell
 
@@ -261,6 +276,7 @@ if the search engine provided results for a keyword that was corrected, we will 
 [main.ts:91998](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L91998)
 
 ___
+
 
 ### type
 
@@ -298,6 +314,7 @@ type of element
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -318,6 +335,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`DataforseoLabsGoogleHistoricalSerpsLiveItem`](DataforseoLabsGoogleHistoricalSerpsLiveItem.md)
@@ -335,3 +353,7 @@ ___
 #### Defined in
 
 [main.ts:92053](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L92053)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

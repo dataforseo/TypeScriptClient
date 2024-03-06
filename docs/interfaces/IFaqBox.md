@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IFaqBox
 
 # Interface: IFaqBox
@@ -32,6 +36,7 @@ if there are none, equals null
 
 ___
 
+
 ### type
 
 • `Optional` **type**: `string`
@@ -41,3 +46,7 @@ type of element
 #### Defined in
 
 [main.ts:27956](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L27956)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

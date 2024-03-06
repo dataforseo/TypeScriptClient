@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / RefineProductsElement
 
 # Class: RefineProductsElement
@@ -69,6 +73,7 @@ URL of the image
 
 ___
 
+
 ### keyword
 
 • `Optional` **keyword**: `string`
@@ -84,6 +89,7 @@ keyword for the related refined search
 [main.ts:35010](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L35010)
 
 ___
+
 
 ### refine\_type
 
@@ -101,6 +107,7 @@ type of search refinement
 
 ___
 
+
 ### title
 
 • `Optional` **title**: `string`
@@ -117,6 +124,7 @@ title of the row
 
 ___
 
+
 ### type
 
 • `Optional` **type**: `string`
@@ -132,6 +140,7 @@ type of element
 [main.ts:35004](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L35004)
 
 ___
+
 
 ### xpath
 
@@ -169,6 +178,7 @@ the XPath of the element
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -189,6 +199,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`RefineProductsElement`](RefineProductsElement.md)
@@ -206,3 +217,7 @@ ___
 #### Defined in
 
 [main.ts:35042](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L35042)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

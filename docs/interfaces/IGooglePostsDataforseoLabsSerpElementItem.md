@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IGooglePostsDataforseoLabsSerpElementItem
 
 # Interface: IGooglePostsDataforseoLabsSerpElementItem
@@ -5,7 +9,7 @@
 ## Hierarchy
 
 - [`IBaseDataforseoLabsSerpElementItem`](IBaseDataforseoLabsSerpElementItem.md)
-
+  
   ↳ **`IGooglePostsDataforseoLabsSerpElementItem`**
 
 ## Implemented by
@@ -42,6 +46,7 @@ google-defined client id
 
 ___
 
+
 ### feature
 
 • `Optional` **feature**: `string`
@@ -53,6 +58,7 @@ the additional feature of the review
 [main.ts:94444](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L94444)
 
 ___
+
 
 ### position
 
@@ -68,6 +74,7 @@ left, right
 
 ___
 
+
 ### posts\_id
 
 • `Optional` **posts\_id**: `string`
@@ -79,6 +86,7 @@ the identifier of the google_posts feature
 [main.ts:94442](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L94442)
 
 ___
+
 
 ### rank\_absolute
 
@@ -93,6 +101,7 @@ absolute position among all the elements in SERP
 
 ___
 
+
 ### rank\_group
 
 • `Optional` **rank\_group**: `number`
@@ -106,6 +115,7 @@ positions of elements with different type values are omitted from rank_group
 
 ___
 
+
 ### xpath
 
 • `Optional` **xpath**: `string`
@@ -115,3 +125,7 @@ the XPath of the element
 #### Defined in
 
 [main.ts:94440](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L94440)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

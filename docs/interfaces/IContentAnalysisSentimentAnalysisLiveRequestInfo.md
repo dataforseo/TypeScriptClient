@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IContentAnalysisSentimentAnalysisLiveRequestInfo
 
 # Interface: IContentAnalysisSentimentAnalysisLiveRequestInfo
@@ -52,6 +56,7 @@ for more information about filters, please refer to Content Analysis API – Fil
 
 ___
 
+
 ### internal\_list\_limit
 
 • `Optional` **internal\_list\_limit**: `number`
@@ -73,6 +78,7 @@ maximum value: 20
 
 ___
 
+
 ### keyword
 
 • `Optional` **keyword**: `string`
@@ -92,6 +98,7 @@ example:
 
 ___
 
+
 ### keyword\_fields
 
 • `Optional` **keyword\_fields**: `Object`
@@ -104,8 +111,8 @@ you can indicate several fields;
 Note: to match an exact phrase instead of a stand-alone keyword, use double quotes and backslashes;
 example:
 "keyword_fields": {
-    "snippet": "\"logitech mouse\"",
-    "main_title": "sale"
+"snippet": "\"logitech mouse\"",
+"main_title": "sale"
 }
 
 #### Index signature
@@ -117,6 +124,7 @@ example:
 [main.ts:157788](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L157788)
 
 ___
+
 
 ### page\_type
 
@@ -133,6 +141,7 @@ possible values:
 [main.ts:157794](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L157794)
 
 ___
+
 
 ### positive\_connotation\_threshold
 
@@ -151,6 +160,7 @@ default value: 0.4
 
 ___
 
+
 ### sentiments\_connotation\_threshold
 
 • `Optional` **sentiments\_connotation\_threshold**: `number`
@@ -168,6 +178,7 @@ default value: 0.4
 
 ___
 
+
 ### tag
 
 • `Optional` **tag**: `string`
@@ -181,3 +192,7 @@ you will find the specified tag value in the data object of the response
 #### Defined in
 
 [main.ts:157842](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L157842)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

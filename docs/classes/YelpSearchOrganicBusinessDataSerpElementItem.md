@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / YelpSearchOrganicBusinessDataSerpElementItem
 
 # Class: YelpSearchOrganicBusinessDataSerpElementItem
@@ -5,7 +9,7 @@
 ## Hierarchy
 
 - [`BaseBusinessDataSerpElementItem`](BaseBusinessDataSerpElementItem.md)
-
+  
   ↳ **`YelpSearchOrganicBusinessDataSerpElementItem`**
 
 ## Implements
@@ -89,6 +93,7 @@
 
 ___
 
+
 ### alias
 
 • `Optional` **alias**: `string`
@@ -105,6 +110,7 @@ displayed only if the request contained the corresponding field
 [main.ts:204023](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L204023)
 
 ___
+
 
 ### business\_highlights
 
@@ -124,6 +130,7 @@ example:
 
 ___
 
+
 ### business\_url
 
 • `Optional` **business\_url**: `string`
@@ -139,6 +146,7 @@ link to the Yelp profile of the business entity
 [main.ts:204020](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L204020)
 
 ___
+
 
 ### categories
 
@@ -156,6 +164,7 @@ categories related to the business entity
 
 ___
 
+
 ### description
 
 • `Optional` **description**: `string`
@@ -171,6 +180,7 @@ description containing the featured review
 [main.ts:204027](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L204027)
 
 ___
+
 
 ### is\_guaranteed
 
@@ -188,6 +198,7 @@ Yelp guaranteed label
 
 ___
 
+
 ### location
 
 • `Optional` **location**: [`BusinessAddressLocationInfo`](BusinessAddressLocationInfo.md)
@@ -204,6 +215,7 @@ information about the location of the business entity
 
 ___
 
+
 ### name
 
 • `Optional` **name**: `string`
@@ -219,6 +231,7 @@ name of the business entity
 [main.ts:204025](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L204025)
 
 ___
+
 
 ### phone
 
@@ -238,6 +251,7 @@ example:
 
 ___
 
+
 ### photos
 
 • `Optional` **photos**: `string`[]
@@ -253,6 +267,7 @@ links to photos appearing in the result
 [main.ts:204044](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L204044)
 
 ___
+
 
 ### price\_range
 
@@ -271,6 +286,7 @@ indicates the number of currency signs next to the business listing correspondin
 
 ___
 
+
 ### rank\_absolute
 
 • `Optional` **rank\_absolute**: `number`
@@ -287,6 +303,7 @@ absolute position among all reviews on the list
 [main.ts:204014](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L204014)
 
 ___
+
 
 ### rank\_group
 
@@ -305,6 +322,7 @@ positions of elements with different type values are omitted from rank_group
 
 ___
 
+
 ### rating
 
 • `Optional` **rating**: [`RatingInfo`](RatingInfo.md)
@@ -321,6 +339,7 @@ the rating score submitted by the reviewer
 
 ___
 
+
 ### service\_offerings
 
 • `Optional` **service\_offerings**: [`ServiceOfferingsElement`](ServiceOfferingsElement.md)[]
@@ -336,6 +355,7 @@ tags corresponding to the availability of certain business offerings
 [main.ts:204054](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L204054)
 
 ___
+
 
 ### tags
 
@@ -354,6 +374,7 @@ example:
 [main.ts:204048](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L204048)
 
 ___
+
 
 ### yelp\_business\_id
 
@@ -397,6 +418,7 @@ example:
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -421,6 +443,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`YelpSearchOrganicBusinessDataSerpElementItem`](YelpSearchOrganicBusinessDataSerpElementItem.md)
@@ -442,3 +465,7 @@ ___
 #### Defined in
 
 [main.ts:204110](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L204110)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

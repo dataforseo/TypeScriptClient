@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IHotelAmenityInfo
 
 # Interface: IHotelAmenityInfo
@@ -32,6 +36,7 @@ standardised category of the ammenity
 
 ___
 
+
 ### category\_label
 
 • `Optional` **category\_label**: `string`
@@ -44,6 +49,7 @@ label of the category
 
 ___
 
+
 ### items
 
 • `Optional` **items**: [`HotelAmenityItemInfo`](../classes/HotelAmenityItemInfo.md)[]
@@ -53,3 +59,7 @@ specific amenities and details
 #### Defined in
 
 [main.ts:195410](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L195410)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

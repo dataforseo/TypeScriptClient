@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / BusinessDataTrustpilotReviewsTasksReadyResultInfo
 
 # Class: BusinessDataTrustpilotReviewsTasksReadyResultInfo
@@ -68,6 +72,7 @@ date when the task was posted (in the UTC format)
 
 ___
 
+
 ### endpoint
 
 • `Optional` **endpoint**: `string`
@@ -83,6 +88,7 @@ URL for collecting the results of the task
 [main.ts:199696](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L199696)
 
 ___
+
 
 ### id
 
@@ -101,6 +107,7 @@ unique task identifier in our system in the UUID format
 
 ___
 
+
 ### se
 
 • `Optional` **se**: `string`
@@ -117,6 +124,7 @@ can take the following values: trustpilot
 [main.ts:199690](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L199690)
 
 ___
+
 
 ### tag
 
@@ -154,6 +162,7 @@ user-defined task identifier
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -174,6 +183,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`BusinessDataTrustpilotReviewsTasksReadyResultInfo`](BusinessDataTrustpilotReviewsTasksReadyResultInfo.md)
@@ -191,3 +201,7 @@ ___
 #### Defined in
 
 [main.ts:199723](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L199723)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

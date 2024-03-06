@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / ContentGenerationGenerateSubTopicsLiveResultInfo
 
 # Class: ContentGenerationGenerateSubTopicsLiveResultInfo
@@ -67,6 +71,7 @@ number of input tokens
 
 ___
 
+
 ### new\_tokens
 
 • `Optional` **new\_tokens**: `number`
@@ -83,6 +88,7 @@ number of new tokens
 
 ___
 
+
 ### output\_tokens
 
 • `Optional` **output\_tokens**: `number`
@@ -98,6 +104,7 @@ number of output tokens
 [main.ts:160931](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L160931)
 
 ___
+
 
 ### sub\_topics
 
@@ -135,6 +142,7 @@ resulting subtopics
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -155,6 +163,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`ContentGenerationGenerateSubTopicsLiveResultInfo`](ContentGenerationGenerateSubTopicsLiveResultInfo.md)
@@ -172,3 +181,7 @@ ___
 #### Defined in
 
 [main.ts:160965](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L160965)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

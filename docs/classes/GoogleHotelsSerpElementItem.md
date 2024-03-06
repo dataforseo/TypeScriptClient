@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / GoogleHotelsSerpElementItem
 
 # Class: GoogleHotelsSerpElementItem
@@ -5,7 +9,7 @@
 ## Hierarchy
 
 - [`BaseSerpElementItem`](BaseSerpElementItem.md)
-
+  
   ↳ **`GoogleHotelsSerpElementItem`**
 
 ## Implements
@@ -80,6 +84,7 @@
 
 ___
 
+
 ### cid
 
 • `Optional` **cid**: `string`
@@ -95,6 +100,7 @@ google-defined client id
 [main.ts:33807](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L33807)
 
 ___
+
 
 ### hotel\_identifier
 
@@ -114,6 +120,7 @@ example: "CgoIjaeSlI6CnNpVEAE"
 
 ___
 
+
 ### position
 
 • `Optional` **position**: `string`
@@ -132,6 +139,7 @@ left, right
 
 ___
 
+
 ### rank\_absolute
 
 • `Optional` **rank\_absolute**: `number`
@@ -148,6 +156,7 @@ absolute position among all the elements in SERP
 [main.ts:33793](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L33793)
 
 ___
+
 
 ### rank\_group
 
@@ -167,6 +176,7 @@ positions of elements with different type values are omitted from rank_group
 
 ___
 
+
 ### rectangle
 
 • `Optional` **rectangle**: [`Rectangle`](Rectangle.md)
@@ -185,6 +195,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 ___
 
+
 ### url
 
 • `Optional` **url**: `string`
@@ -200,6 +211,7 @@ URL
 [main.ts:33805](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L33805)
 
 ___
+
 
 ### xpath
 
@@ -241,6 +253,7 @@ the XPath of the element
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -265,6 +278,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`GoogleHotelsSerpElementItem`](GoogleHotelsSerpElementItem.md)
@@ -286,3 +300,7 @@ ___
 #### Defined in
 
 [main.ts:33838](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L33838)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

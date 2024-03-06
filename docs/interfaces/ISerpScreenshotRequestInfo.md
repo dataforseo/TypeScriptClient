@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / ISerpScreenshotRequestInfo
 
 # Interface: ISerpScreenshotRequestInfo
@@ -38,6 +42,7 @@ note: by default, browser preset corresponds to the device type specified in the
 
 ___
 
+
 ### browser\_screen\_height
 
 • `Optional` **browser\_screen\_height**: `number`
@@ -51,6 +56,7 @@ can be specified in the following range: 240-9999
 [main.ts:23489](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L23489)
 
 ___
+
 
 ### browser\_screen\_scale\_factor
 
@@ -66,6 +72,7 @@ can be specified in the following range: 0.5-3
 
 ___
 
+
 ### browser\_screen\_width
 
 • `Optional` **browser\_screen\_width**: `number`
@@ -80,6 +87,7 @@ can be specified in the following range: 240-9999
 
 ___
 
+
 ### task\_id
 
 • `Optional` **task\_id**: `string`
@@ -92,3 +100,7 @@ you will be able to use it within 7 days to request the results of the task at a
 #### Defined in
 
 [main.ts:23475](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L23475)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IAppDataGoogleAppInfoTasksReadyResultInfo
 
 # Interface: IAppDataGoogleAppInfoTasksReadyResultInfo
@@ -35,6 +39,7 @@ date when the task was posted (in the UTC format)
 
 ___
 
+
 ### endpoint\_advanced
 
 • `Optional` **endpoint\_advanced**: `string`
@@ -46,6 +51,7 @@ URL for collecting the results of the Google App Info task
 [main.ts:179640](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L179640)
 
 ___
+
 
 ### endpoint\_html
 
@@ -60,6 +66,7 @@ if HTML tasks are not supported in the specified endpoint, the value will be nul
 
 ___
 
+
 ### id
 
 • `Optional` **id**: `string`
@@ -73,6 +80,7 @@ unique task identifier in our system in the UUID format
 
 ___
 
+
 ### se
 
 • `Optional` **se**: `string`
@@ -85,6 +93,7 @@ search engine specified when setting the task
 
 ___
 
+
 ### tag
 
 • `Optional` **tag**: `string`
@@ -94,3 +103,7 @@ user-defined task identifier
 #### Defined in
 
 [main.ts:179638](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L179638)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

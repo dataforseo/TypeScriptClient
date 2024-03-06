@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / DataforseoLabsGoogleKeywordsForSiteLiveResultInfo
 
 # Class: DataforseoLabsGoogleKeywordsForSiteLiveResultInfo
@@ -72,6 +76,7 @@ contains keyword ideas and related data
 
 ___
 
+
 ### items\_count
 
 • `Optional` **items\_count**: `number`
@@ -87,6 +92,7 @@ the number of results returned in the items array
 [main.ts:79758](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L79758)
 
 ___
+
 
 ### language\_code
 
@@ -104,6 +110,7 @@ language code in a POST array
 
 ___
 
+
 ### location\_code
 
 • `Optional` **location\_code**: `number`
@@ -120,6 +127,7 @@ location code in a POST array
 
 ___
 
+
 ### offset
 
 • `Optional` **offset**: `number`
@@ -135,6 +143,7 @@ current offset value
 [main.ts:79760](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L79760)
 
 ___
+
 
 ### offset\_token
 
@@ -154,6 +163,7 @@ note: offset_token values are unique for each subsequent task
 
 ___
 
+
 ### se\_type
 
 • `Optional` **se\_type**: `string`
@@ -170,6 +180,7 @@ search engine type
 
 ___
 
+
 ### target
 
 • `Optional` **target**: `string`
@@ -185,6 +196,7 @@ target domain in a POST array
 [main.ts:79750](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L79750)
 
 ___
+
 
 ### total\_count
 
@@ -222,6 +234,7 @@ total number of results in our database relevant to your request
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -242,6 +255,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`DataforseoLabsGoogleKeywordsForSiteLiveResultInfo`](DataforseoLabsGoogleKeywordsForSiteLiveResultInfo.md)
@@ -259,3 +273,7 @@ ___
 #### Defined in
 
 [main.ts:79801](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L79801)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

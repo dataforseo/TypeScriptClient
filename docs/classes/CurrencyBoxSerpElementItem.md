@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / CurrencyBoxSerpElementItem
 
 # Class: CurrencyBoxSerpElementItem
@@ -5,7 +9,7 @@
 ## Hierarchy
 
 - [`BaseSerpElementItem`](BaseSerpElementItem.md)
-
+  
   ↳ **`CurrencyBoxSerpElementItem`**
 
 ## Implements
@@ -84,6 +88,7 @@
 
 ___
 
+
 ### converted\_currency
 
 • `Optional` **converted\_currency**: `string`
@@ -99,6 +104,7 @@ converted currency
 [main.ts:34188](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L34188)
 
 ___
+
 
 ### converted\_value
 
@@ -118,6 +124,7 @@ note that exchange rates displayed in the currency_box element may be delayed ac
 
 ___
 
+
 ### currency
 
 • `Optional` **currency**: `string`
@@ -135,6 +142,7 @@ ISO code of the currency applied to the price
 
 ___
 
+
 ### graph
 
 • `Optional` **graph**: [`Graph`](Graph.md)
@@ -150,6 +158,7 @@ contains data provided in the graph of the element
 [main.ts:34198](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L34198)
 
 ___
+
 
 ### position
 
@@ -169,6 +178,7 @@ left, right
 
 ___
 
+
 ### rank\_absolute
 
 • `Optional` **rank\_absolute**: `number`
@@ -185,6 +195,7 @@ absolute position among all the elements in SERP
 [main.ts:34171](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L34171)
 
 ___
+
 
 ### rank\_group
 
@@ -204,6 +215,7 @@ positions of elements with different type values are omitted from rank_group
 
 ___
 
+
 ### rectangle
 
 • `Optional` **rectangle**: [`Rectangle`](Rectangle.md)
@@ -222,6 +234,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 ___
 
+
 ### table
 
 • `Optional` **table**: [`Table`](Table.md)
@@ -238,6 +251,7 @@ if there are none, equals null
 [main.ts:34196](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L34196)
 
 ___
+
 
 ### timestamp
 
@@ -258,6 +272,7 @@ example:
 
 ___
 
+
 ### value
 
 • `Optional` **value**: `number`
@@ -273,6 +288,7 @@ the value of the rating
 [main.ts:34179](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L34179)
 
 ___
+
 
 ### xpath
 
@@ -314,6 +330,7 @@ the XPath of the element
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -338,6 +355,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`CurrencyBoxSerpElementItem`](CurrencyBoxSerpElementItem.md)
@@ -359,3 +377,7 @@ ___
 #### Defined in
 
 [main.ts:34233](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L34233)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

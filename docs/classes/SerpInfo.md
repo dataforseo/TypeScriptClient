@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / SerpInfo
 
 # Class: SerpInfo
@@ -70,6 +74,7 @@ you can use it to make sure that we provided accurate results
 
 ___
 
+
 ### last\_updated\_time
 
 • `Optional` **last\_updated\_time**: `string`
@@ -88,6 +93,7 @@ example:
 [main.ts:79342](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L79342)
 
 ___
+
 
 ### previous\_updated\_time
 
@@ -108,6 +114,7 @@ example:
 
 ___
 
+
 ### se\_results\_count
 
 • `Optional` **se\_results\_count**: `string`
@@ -124,6 +131,7 @@ number of search results for the returned keyword
 
 ___
 
+
 ### se\_type
 
 • `Optional` **se\_type**: `string`
@@ -139,6 +147,7 @@ search engine type
 [main.ts:79326](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L79326)
 
 ___
+
 
 ### serp\_item\_types
 
@@ -180,6 +189,7 @@ note that the actual results will be returned only for organic, paid, featured_s
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -200,6 +210,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`SerpInfo`](SerpInfo.md)
@@ -217,3 +228,7 @@ ___
 #### Defined in
 
 [main.ts:79379](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L79379)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

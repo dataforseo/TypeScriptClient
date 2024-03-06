@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IBusinessDataYelpSearchTaskPostRequestInfo
 
 # Interface: IBusinessDataYelpSearchTaskPostRequestInfo
@@ -45,6 +49,7 @@ maximal value: 70
 
 ___
 
+
 ### keyword
 
 • `Optional` **keyword**: `string`
@@ -61,6 +66,7 @@ Note: if the keyword is not specified, the results will be returned based on the
 [main.ts:203487](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L203487)
 
 ___
+
 
 ### language\_code
 
@@ -79,6 +85,7 @@ en
 
 ___
 
+
 ### language\_name
 
 • `Optional` **language\_name**: `string`
@@ -95,6 +102,7 @@ English
 [main.ts:203516](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L203516)
 
 ___
+
 
 ### location\_code
 
@@ -113,6 +121,7 @@ example:
 
 ___
 
+
 ### location\_name
 
 • `Optional` **location\_name**: `string`
@@ -129,6 +138,7 @@ West Los Angeles,California,United States
 [main.ts:203502](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L203502)
 
 ___
+
 
 ### pingback\_url
 
@@ -150,6 +160,7 @@ i.a., the # symbol will be encoded into %23
 
 ___
 
+
 ### postback\_url
 
 • `Optional` **postback\_url**: `string`
@@ -170,6 +181,7 @@ i.a., the # symbol will be encoded into %23
 
 ___
 
+
 ### priority
 
 • `Optional` **priority**: `number`
@@ -187,6 +199,7 @@ The cost can be calculated on the Pricing page.
 [main.ts:203495](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L203495)
 
 ___
+
 
 ### sort\_by
 
@@ -207,6 +220,7 @@ default value: recommended
 
 ___
 
+
 ### tag
 
 • `Optional` **tag**: `string`
@@ -220,3 +234,7 @@ you will find the specified tag value in the data object of the response
 #### Defined in
 
 [main.ts:203545](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L203545)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

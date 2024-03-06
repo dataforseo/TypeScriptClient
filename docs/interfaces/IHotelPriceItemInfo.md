@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IHotelPriceItemInfo
 
 # Interface: IHotelPriceItemInfo
@@ -39,6 +43,7 @@ USD is applied by default, unless specified in the POST array
 
 ___
 
+
 ### domain
 
 • `Optional` **domain**: `string`
@@ -51,6 +56,7 @@ domain of the third-party website page with pricing information
 [main.ts:193671](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L193671)
 
 ___
+
 
 ### free\_cancellation\_until
 
@@ -66,6 +72,7 @@ equals null if free cancellation is not available for the selected dates
 
 ___
 
+
 ### is\_paid
 
 • `Optional` **is\_paid**: `boolean`
@@ -80,6 +87,7 @@ if false, related hotel_search_item is an organic hotel listing
 
 ___
 
+
 ### offers
 
 • `Optional` **offers**: [`HotelInfoPriceOffer`](../classes/HotelInfoPriceOffer.md)[]
@@ -91,6 +99,7 @@ featured price offers
 [main.ts:193681](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L193681)
 
 ___
+
 
 ### price
 
@@ -104,6 +113,7 @@ price per night
 
 ___
 
+
 ### title
 
 • `Optional` **title**: `string`
@@ -115,6 +125,7 @@ title of the hotel
 [main.ts:193660](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L193660)
 
 ___
+
 
 ### type
 
@@ -128,6 +139,7 @@ type of element
 
 ___
 
+
 ### url
 
 • `Optional` **url**: `string`
@@ -138,3 +150,7 @@ URL to the third-party website page with pricing information
 #### Defined in
 
 [main.ts:193668](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L193668)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

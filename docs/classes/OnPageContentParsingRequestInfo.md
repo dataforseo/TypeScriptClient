@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / OnPageContentParsingRequestInfo
 
 # Class: OnPageContentParsingRequestInfo
@@ -70,6 +74,7 @@ example:
 
 ___
 
+
 ### url
 
 • `Optional` **url**: `string`
@@ -110,6 +115,7 @@ https://www.fujielectric.com/
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -130,6 +136,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`OnPageContentParsingRequestInfo`](OnPageContentParsingRequestInfo.md)
@@ -147,3 +154,7 @@ ___
 #### Defined in
 
 [main.ts:151916](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L151916)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

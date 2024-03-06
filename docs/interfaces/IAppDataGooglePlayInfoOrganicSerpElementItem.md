@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IAppDataGooglePlayInfoOrganicSerpElementItem
 
 # Interface: IAppDataGooglePlayInfoOrganicSerpElementItem
@@ -5,7 +9,7 @@
 ## Hierarchy
 
 - [`IBaseAppDataSerpElementItem`](IBaseAppDataSerpElementItem.md)
-
+  
   ↳ **`IAppDataGooglePlayInfoOrganicSerpElementItem`**
 
 ## Implemented by
@@ -68,6 +72,7 @@ ID of the app
 
 ___
 
+
 ### description
 
 • `Optional` **description**: `string`
@@ -79,6 +84,7 @@ description of the app
 [main.ts:180074](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L180074)
 
 ___
+
 
 ### developer
 
@@ -92,6 +98,7 @@ name of the app developer
 
 ___
 
+
 ### developer\_address
 
 • `Optional` **developer\_address**: `string`
@@ -103,6 +110,7 @@ physical address of the developer
 [main.ts:180100](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L180100)
 
 ___
+
 
 ### developer\_email
 
@@ -116,6 +124,7 @@ email address of the developer
 
 ___
 
+
 ### developer\_id
 
 • `Optional` **developer\_id**: `string`
@@ -127,6 +136,7 @@ ID of the app developer
 [main.ts:180094](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L180094)
 
 ___
+
 
 ### developer\_url
 
@@ -140,6 +150,7 @@ URL to the developer page on Google Play
 
 ___
 
+
 ### developer\_website
 
 • `Optional` **developer\_website**: `string`
@@ -151,6 +162,7 @@ official website of the developer
 [main.ts:180102](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L180102)
 
 ___
+
 
 ### genres
 
@@ -165,6 +177,7 @@ contains relevant app categories
 
 ___
 
+
 ### icon
 
 • `Optional` **icon**: `string`
@@ -176,6 +189,7 @@ URL to the app icon
 [main.ts:180072](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L180072)
 
 ___
+
 
 ### images
 
@@ -190,6 +204,7 @@ contains URLs to the images published on the app page on Google Play
 
 ___
 
+
 ### installs
 
 • `Optional` **installs**: `string`
@@ -202,6 +217,7 @@ approximate number of installs as displayed on the app page
 [main.ts:180087](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L180087)
 
 ___
+
 
 ### installs\_count
 
@@ -216,6 +232,7 @@ the exact number of installs of the app
 
 ___
 
+
 ### is\_free
 
 • `Optional` **is\_free**: `boolean`
@@ -227,6 +244,7 @@ indicates whether the app is free
 [main.ts:180082](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L180082)
 
 ___
+
 
 ### last\_update\_date
 
@@ -243,6 +261,7 @@ example:
 
 ___
 
+
 ### main\_category
 
 • `Optional` **main\_category**: `string`
@@ -255,6 +274,7 @@ main category of the app
 
 ___
 
+
 ### minimum\_os\_version
 
 • `Optional` **minimum\_os\_version**: `string`
@@ -266,6 +286,7 @@ minimum OS version required to install the app
 [main.ts:180106](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L180106)
 
 ___
+
 
 ### more\_apps\_by\_developer
 
@@ -280,6 +301,7 @@ information about apps built by the same developer
 
 ___
 
+
 ### position
 
 • `Optional` **position**: `string`
@@ -293,6 +315,7 @@ can take the following values: left
 
 ___
 
+
 ### price
 
 • `Optional` **price**: [`PriceInfo`](../classes/PriceInfo.md)
@@ -304,6 +327,7 @@ price of the app
 [main.ts:180080](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L180080)
 
 ___
+
 
 ### rank\_absolute
 
@@ -318,6 +342,7 @@ absolute position among all apps on the list
 
 ___
 
+
 ### rank\_group
 
 • `Optional` **rank\_group**: `number`
@@ -331,6 +356,7 @@ positions of elements with different type values are omitted from rank_group
 
 ___
 
+
 ### rating
 
 • `Optional` **rating**: [`RatingInfo`](../classes/RatingInfo.md)
@@ -342,6 +368,7 @@ average rating of the app
 [main.ts:180078](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L180078)
 
 ___
+
 
 ### released\_date
 
@@ -358,6 +385,7 @@ example:
 
 ___
 
+
 ### reviews\_count
 
 • `Optional` **reviews\_count**: `number`
@@ -369,6 +397,7 @@ the total number of reviews the app has
 [main.ts:180076](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L180076)
 
 ___
+
 
 ### similar\_apps
 
@@ -383,6 +412,7 @@ displays apps similar to the app in a POST request
 
 ___
 
+
 ### size
 
 • `Optional` **size**: `string`
@@ -394,6 +424,7 @@ size of the app
 [main.ts:180108](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L180108)
 
 ___
+
 
 ### tags
 
@@ -408,6 +439,7 @@ contains relevant app tags
 
 ___
 
+
 ### title
 
 • `Optional` **title**: `string`
@@ -419,6 +451,7 @@ title of the app
 [main.ts:180068](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L180068)
 
 ___
+
 
 ### update\_notes
 
@@ -433,6 +466,7 @@ contains the latest update notes from the developer
 
 ___
 
+
 ### url
 
 • `Optional` **url**: `string`
@@ -444,6 +478,7 @@ URL to the app page on Google Play
 [main.ts:180070](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L180070)
 
 ___
+
 
 ### version
 
@@ -457,6 +492,7 @@ current version of the app
 
 ___
 
+
 ### videos
 
 • `Optional` **videos**: `string`[]
@@ -467,3 +503,7 @@ contains URLs to the video published on the app page on Google Play
 #### Defined in
 
 [main.ts:180127](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L180127)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

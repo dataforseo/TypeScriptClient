@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IDomainAnalyticsTechnologiesTechnologyStatsLiveItem
 
 # Interface: IDomainAnalyticsTechnologiesTechnologyStatsLiveItem
@@ -42,6 +46,7 @@ contains country codes and number of websites per country
 
 ___
 
+
 ### date
 
 • `Optional` **date**: `string`
@@ -54,6 +59,7 @@ date for which the data is provided
 
 ___
 
+
 ### domains\_count
 
 • `Optional` **domains\_count**: `number`
@@ -65,6 +71,7 @@ number of domains that use the specified technology
 [main.ts:73707](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L73707)
 
 ___
+
 
 ### domains\_rank
 
@@ -84,6 +91,7 @@ learn more about rank and how it is calculated in this help center article
 
 ___
 
+
 ### languages
 
 • `Optional` **languages**: `Object`
@@ -101,6 +109,7 @@ contains language codes and number of websites per language
 
 ___
 
+
 ### type
 
 • `Optional` **type**: `string`
@@ -110,3 +119,7 @@ type of element
 #### Defined in
 
 [main.ts:73703](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L73703)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

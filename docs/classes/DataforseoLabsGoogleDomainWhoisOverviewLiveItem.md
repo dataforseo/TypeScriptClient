@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / DataforseoLabsGoogleDomainWhoisOverviewLiveItem
 
 # Class: DataforseoLabsGoogleDomainWhoisOverviewLiveItem
@@ -76,6 +80,7 @@ backlink data for the returned domain
 
 ___
 
+
 ### changed\_datetime
 
 • `Optional` **changed\_datetime**: `string`
@@ -94,6 +99,7 @@ example:
 [main.ts:85656](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L85656)
 
 ___
+
 
 ### created\_datetime
 
@@ -114,6 +120,7 @@ example:
 
 ___
 
+
 ### domain
 
 • `Optional` **domain**: `string`
@@ -129,6 +136,7 @@ domain name
 [main.ts:85646](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L85646)
 
 ___
+
 
 ### epp\_status\_codes
 
@@ -146,6 +154,7 @@ the status of a domain name registration as defined by ICANN
 [main.ts:85674](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L85674)
 
 ___
+
 
 ### expiration\_datetime
 
@@ -166,6 +175,7 @@ example:
 
 ___
 
+
 ### first\_seen
 
 • `Optional` **first\_seen**: `string`
@@ -184,6 +194,7 @@ example:
 [main.ts:85671](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L85671)
 
 ___
+
 
 ### metrics
 
@@ -205,6 +216,7 @@ ranking data relevant to the specified domain
 
 ___
 
+
 ### registered
 
 • `Optional` **registered**: `boolean`
@@ -222,6 +234,7 @@ Note: expired domains will remain in the database for only a short period of tim
 [main.ts:85681](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L85681)
 
 ___
+
 
 ### registrar
 
@@ -242,6 +255,7 @@ NameCheap, Inc.
 
 ___
 
+
 ### se\_type
 
 • `Optional` **se\_type**: `string`
@@ -257,6 +271,7 @@ search engine type
 [main.ts:85644](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L85644)
 
 ___
+
 
 ### tld
 
@@ -274,6 +289,7 @@ top-level domain in the DNS root zone
 [main.ts:85677](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L85677)
 
 ___
+
 
 ### updated\_datetime
 
@@ -314,6 +330,7 @@ example:
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -334,6 +351,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`DataforseoLabsGoogleDomainWhoisOverviewLiveItem`](DataforseoLabsGoogleDomainWhoisOverviewLiveItem.md)
@@ -351,3 +369,7 @@ ___
 #### Defined in
 
 [main.ts:85735](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L85735)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

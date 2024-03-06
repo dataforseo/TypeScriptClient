@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / BusyWorkingTimeInfo
 
 # Class: BusyWorkingTimeInfo
@@ -67,6 +71,7 @@ higher value corresponds to a busier time of a day
 
 ___
 
+
 ### time
 
 • `Optional` **time**: [`WorkTimeInfo`](WorkTimeInfo.md)
@@ -103,6 +108,7 @@ busy hours
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -123,6 +129,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`BusyWorkingTimeInfo`](BusyWorkingTimeInfo.md)
@@ -140,3 +147,7 @@ ___
 #### Defined in
 
 [main.ts:188838](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L188838)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

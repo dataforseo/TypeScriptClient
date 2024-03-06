@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IYelpReviewsSearchBusinessDataSerpElementItem
 
 # Interface: IYelpReviewsSearchBusinessDataSerpElementItem
@@ -5,7 +9,7 @@
 ## Hierarchy
 
 - [`IBaseBusinessDataSerpElementItem`](IBaseBusinessDataSerpElementItem.md)
-
+  
   ↳ **`IYelpReviewsSearchBusinessDataSerpElementItem`**
 
 ## Implemented by
@@ -46,6 +50,7 @@ can take the following values: left
 
 ___
 
+
 ### rank\_absolute
 
 • `Optional` **rank\_absolute**: `number`
@@ -58,6 +63,7 @@ absolute position among all reviews on the list
 [main.ts:205338](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L205338)
 
 ___
+
 
 ### rank\_group
 
@@ -72,6 +78,7 @@ positions of elements with different type values are omitted from rank_group
 
 ___
 
+
 ### rating
 
 • `Optional` **rating**: [`RatingInfo`](../classes/RatingInfo.md)
@@ -84,6 +91,7 @@ the rating score submitted by the reviewer
 
 ___
 
+
 ### responses
 
 • `Optional` **responses**: [`ReviewResponseItemInfo`](../classes/ReviewResponseItemInfo.md)[]
@@ -95,6 +103,7 @@ text of the owner’s response
 [main.ts:205359](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L205359)
 
 ___
+
 
 ### review\_id
 
@@ -110,6 +119,7 @@ WvjNtncj8PDZytbofWlC5A
 
 ___
 
+
 ### review\_images
 
 • `Optional` **review\_images**: `string`[]
@@ -123,6 +133,7 @@ you will find URLs to the images provided by the author of this review
 
 ___
 
+
 ### review\_text
 
 • `Optional` **review\_text**: `string`
@@ -134,6 +145,7 @@ the content of the review
 [main.ts:205352](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L205352)
 
 ___
+
 
 ### timestamp
 
@@ -148,6 +160,7 @@ indicates timestamp of when the review was listed
 
 ___
 
+
 ### user\_profile
 
 • `Optional` **user\_profile**: [`BusinessDataUserProfileInfo`](../classes/BusinessDataUserProfileInfo.md)
@@ -157,3 +170,7 @@ information listed in the reviewer’s profile
 #### Defined in
 
 [main.ts:205357](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L205357)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

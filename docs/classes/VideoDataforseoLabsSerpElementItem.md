@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / VideoDataforseoLabsSerpElementItem
 
 # Class: VideoDataforseoLabsSerpElementItem
@@ -5,7 +9,7 @@
 ## Hierarchy
 
 - [`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md)
-
+  
   ↳ **`VideoDataforseoLabsSerpElementItem`**
 
 ## Implements
@@ -77,6 +81,7 @@
 
 ___
 
+
 ### items
 
 • `Optional` **items**: [`VideoElement`](VideoElement.md)[]
@@ -93,6 +98,7 @@ if there are none, equals null
 [main.ts:92931](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L92931)
 
 ___
+
 
 ### position
 
@@ -112,6 +118,7 @@ left, right
 
 ___
 
+
 ### rank\_absolute
 
 • `Optional` **rank\_absolute**: `number`
@@ -128,6 +135,7 @@ absolute position among all the elements in SERP
 [main.ts:92922](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L92922)
 
 ___
+
 
 ### rank\_group
 
@@ -146,6 +154,7 @@ positions of elements with different type values are omitted from rank_group
 [main.ts:92919](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L92919)
 
 ___
+
 
 ### xpath
 
@@ -187,6 +196,7 @@ the XPath of the element
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -211,6 +221,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`VideoDataforseoLabsSerpElementItem`](VideoDataforseoLabsSerpElementItem.md)
@@ -232,3 +243,7 @@ ___
 #### Defined in
 
 [main.ts:92959](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L92959)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

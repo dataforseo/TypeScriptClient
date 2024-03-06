@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IAppDataGoogleAppListTaskPostRequestInfo
 
 # Interface: IAppDataGoogleAppListTaskPostRequestInfo
@@ -50,6 +54,7 @@ Note: this filter works only in conjunction with the "category": "family" parame
 
 ___
 
+
 ### app\_category
 
 • `Optional` **app\_category**: `string`
@@ -68,6 +73,7 @@ Note: app_category cannot be used if app_collection parameter is set to featured
 
 ___
 
+
 ### app\_collection
 
 • `Optional` **app\_collection**: `string`
@@ -84,6 +90,7 @@ Note: if featured is selected, the app_category parameter cannot be used
 [main.ts:178406](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L178406)
 
 ___
+
 
 ### depth
 
@@ -102,6 +109,7 @@ maximum value: 200
 
 ___
 
+
 ### language\_code
 
 • `Optional` **language\_code**: `string`
@@ -118,6 +126,7 @@ en
 [main.ts:178434](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L178434)
 
 ___
+
 
 ### language\_name
 
@@ -136,6 +145,7 @@ English
 
 ___
 
+
 ### location\_code
 
 • `Optional` **location\_code**: `number`
@@ -153,6 +163,7 @@ example:
 
 ___
 
+
 ### location\_name
 
 • `Optional` **location\_name**: `string`
@@ -169,6 +180,7 @@ West Los Angeles,California,United States
 [main.ts:178413](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L178413)
 
 ___
+
 
 ### pingback\_url
 
@@ -190,6 +202,7 @@ i.a., the # symbol will be encoded into %23
 
 ___
 
+
 ### postback\_data
 
 • `Optional` **postback\_data**: `string`
@@ -205,6 +218,7 @@ advanced, html
 [main.ts:178489](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L178489)
 
 ___
+
 
 ### postback\_url
 
@@ -226,6 +240,7 @@ i.a., the # symbol will be encoded into %23
 
 ___
 
+
 ### priority
 
 • `Optional` **priority**: `number`
@@ -244,6 +259,7 @@ The cost can be calculated on the Pricing page.
 
 ___
 
+
 ### tag
 
 • `Optional` **tag**: `string`
@@ -257,3 +273,7 @@ you will find the specified tag value in the data object of the response
 #### Defined in
 
 [main.ts:178473](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L178473)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

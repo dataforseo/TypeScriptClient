@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / BusinessDataGoogleMyBusinessInfoTaskGetResultInfo
 
 # Class: BusinessDataGoogleMyBusinessInfoTaskGetResultInfo
@@ -73,6 +77,7 @@ you can use it to make sure that we provided accurate results
 
 ___
 
+
 ### datetime
 
 • `Optional` **datetime**: `string`
@@ -92,6 +97,7 @@ example:
 
 ___
 
+
 ### item\_types
 
 • `Optional` **item\_types**: `string`[]
@@ -110,6 +116,7 @@ possible item types: google_business_info
 
 ___
 
+
 ### items
 
 • `Optional` **items**: [`BaseBusinessDataSerpElementItem`](BaseBusinessDataSerpElementItem.md)[]
@@ -125,6 +132,7 @@ array of directory items
 [main.ts:191780](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L191780)
 
 ___
+
 
 ### items\_count
 
@@ -142,6 +150,7 @@ the number of items in the items array
 [main.ts:191778](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L191778)
 
 ___
+
 
 ### keyword
 
@@ -164,6 +173,7 @@ learn more about the parameter in this help center article
 
 ___
 
+
 ### language\_code
 
 • `Optional` **language\_code**: `string`
@@ -180,6 +190,7 @@ language code in a POST array
 
 ___
 
+
 ### location\_code
 
 • `Optional` **location\_code**: `number`
@@ -195,6 +206,7 @@ location code in a POST array
 [main.ts:191761](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L191761)
 
 ___
+
 
 ### se\_domain
 
@@ -232,6 +244,7 @@ search engine domain as specified in a POST array
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -252,6 +265,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`BusinessDataGoogleMyBusinessInfoTaskGetResultInfo`](BusinessDataGoogleMyBusinessInfoTaskGetResultInfo.md)
@@ -269,3 +283,7 @@ ___
 #### Defined in
 
 [main.ts:191819](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L191819)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / DataforseoLabsGoogleSerpCompetitorsLiveResultInfo
 
 # Class: DataforseoLabsGoogleSerpCompetitorsLiveResultInfo
@@ -70,6 +74,7 @@ contains detected SERP competitors and related data
 
 ___
 
+
 ### items\_count
 
 • `Optional` **items\_count**: `number`
@@ -85,6 +90,7 @@ the number of results returned in the items array
 [main.ts:87803](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L87803)
 
 ___
+
 
 ### language\_code
 
@@ -103,6 +109,7 @@ if there is no data, then the value is null
 
 ___
 
+
 ### location\_code
 
 • `Optional` **location\_code**: `number`
@@ -120,6 +127,7 @@ if there is no data, then the value is null
 
 ___
 
+
 ### se\_type
 
 • `Optional` **se\_type**: `string`
@@ -135,6 +143,7 @@ search engine type
 [main.ts:87790](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L87790)
 
 ___
+
 
 ### seed\_keywords
 
@@ -152,6 +161,7 @@ keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a s
 [main.ts:87793](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L87793)
 
 ___
+
 
 ### total\_count
 
@@ -189,6 +199,7 @@ the total amount of results in our database relevant to your request
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -209,6 +220,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`DataforseoLabsGoogleSerpCompetitorsLiveResultInfo`](DataforseoLabsGoogleSerpCompetitorsLiveResultInfo.md)
@@ -226,3 +238,7 @@ ___
 #### Defined in
 
 [main.ts:87842](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L87842)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / BusinessDataBusinessListingsCategoriesAggregationLiveItem
 
 # Class: BusinessDataBusinessListingsCategoriesAggregationLiveItem
@@ -66,6 +70,7 @@ aggregation of the category
 
 ___
 
+
 ### categories
 
 • `Optional` **categories**: `string`[]
@@ -82,6 +87,7 @@ Google My Business general category that best describes the cluster of related c
 [main.ts:189899](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L189899)
 
 ___
+
 
 ### type
 
@@ -119,6 +125,7 @@ type of element
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -139,6 +146,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`BusinessDataBusinessListingsCategoriesAggregationLiveItem`](BusinessDataBusinessListingsCategoriesAggregationLiveItem.md)
@@ -156,3 +164,7 @@ ___
 #### Defined in
 
 [main.ts:189930](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L189930)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

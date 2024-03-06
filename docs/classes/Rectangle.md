@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / Rectangle
 
 # Class: Rectangle
@@ -67,6 +71,7 @@ height of the element in pixels
 
 ___
 
+
 ### width
 
 • `Optional` **width**: `number`
@@ -82,6 +87,7 @@ width of the element in pixels
 [main.ts:20853](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L20853)
 
 ___
+
 
 ### x
 
@@ -99,6 +105,7 @@ x-axis coordinate of the top-left corner of the result’s snippet, where top-le
 [main.ts:20848](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L20848)
 
 ___
+
 
 ### y
 
@@ -137,6 +144,7 @@ y-axis coordinate of the top-left corner of the result’s snippet, where top-le
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -157,6 +165,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`Rectangle`](Rectangle.md)
@@ -174,3 +183,7 @@ ___
 #### Defined in
 
 [main.ts:20881](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L20881)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

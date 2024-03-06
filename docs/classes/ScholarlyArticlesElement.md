@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / ScholarlyArticlesElement
 
 # Class: ScholarlyArticlesElement
@@ -68,6 +72,7 @@ author
 
 ___
 
+
 ### description
 
 • `Optional` **description**: `string`
@@ -83,6 +88,7 @@ description of the results element in SERP
 [main.ts:31804](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L31804)
 
 ___
+
 
 ### title
 
@@ -100,6 +106,7 @@ title of the row
 
 ___
 
+
 ### type
 
 • `Optional` **type**: `string`
@@ -115,6 +122,7 @@ type of element
 [main.ts:31796](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L31796)
 
 ___
+
 
 ### url
 
@@ -152,6 +160,7 @@ URL
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -172,6 +181,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`ScholarlyArticlesElement`](ScholarlyArticlesElement.md)
@@ -189,3 +199,7 @@ ___
 #### Defined in
 
 [main.ts:31831](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L31831)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

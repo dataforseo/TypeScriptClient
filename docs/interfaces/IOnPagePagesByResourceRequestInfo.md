@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IOnPagePagesByResourceRequestInfo
 
 # Interface: IOnPagePagesByResourceRequestInfo
@@ -48,6 +52,7 @@ The full list of possible filters is available by this link.
 
 ___
 
+
 ### id
 
 • `Optional` **id**: `string`
@@ -64,6 +69,7 @@ example:
 
 ___
 
+
 ### limit
 
 • `Optional` **limit**: `number`
@@ -79,6 +85,7 @@ maximum value: 1000
 
 ___
 
+
 ### offset
 
 • `Optional` **offset**: `number`
@@ -93,6 +100,7 @@ if you specify the 10 value, the first ten pages in the results array will be om
 [main.ts:145476](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L145476)
 
 ___
+
 
 ### order\_by
 
@@ -118,6 +126,7 @@ example:
 
 ___
 
+
 ### tag
 
 • `Optional` **tag**: `string`
@@ -134,6 +143,7 @@ you will find the specified tag value in the data object of the response
 
 ___
 
+
 ### url
 
 • `Optional` **url**: `string`
@@ -147,3 +157,7 @@ https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js
 #### Defined in
 
 [main.ts:145466](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L145466)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / TrendsMapDataInfo
 
 # Class: TrendsMapDataInfo
@@ -70,6 +74,7 @@ US-NY
 
 ___
 
+
 ### geo\_name
 
 • `Optional` **geo\_name**: `string`
@@ -86,6 +91,7 @@ you can use this field for matching obtained results with location parameters sp
 [main.ts:120587](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L120587)
 
 ___
+
 
 ### max\_value\_index
 
@@ -104,6 +110,7 @@ if you specified only one keyword, the value will be null
 [main.ts:120598](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L120598)
 
 ___
+
 
 ### values
 
@@ -146,6 +153,7 @@ a value of 0 means there was not enough data for this term
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -166,6 +174,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`TrendsMapDataInfo`](TrendsMapDataInfo.md)
@@ -183,3 +192,7 @@ ___
 #### Defined in
 
 [main.ts:120628](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L120628)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

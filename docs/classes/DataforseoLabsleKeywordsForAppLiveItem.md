@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / DataforseoLabsleKeywordsForAppLiveItem
 
 # Class: DataforseoLabsleKeywordsForAppLiveItem
@@ -66,6 +70,7 @@ keyword data for the returned keyword
 
 ___
 
+
 ### ranked\_serp\_element
 
 • `Optional` **ranked\_serp\_element**: [`AppRankedSerpElementInfo`](AppRankedSerpElementInfo.md)
@@ -81,6 +86,7 @@ contains data on the domain’s SERP element found for the returned keyword
 [main.ts:108712](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L108712)
 
 ___
+
 
 ### se\_type
 
@@ -118,6 +124,7 @@ search engine type
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -138,6 +145,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`DataforseoLabsleKeywordsForAppLiveItem`](DataforseoLabsleKeywordsForAppLiveItem.md)
@@ -155,3 +163,7 @@ ___
 #### Defined in
 
 [main.ts:108737](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L108737)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

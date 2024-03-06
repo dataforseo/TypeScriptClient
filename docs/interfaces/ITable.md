@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / ITable
 
 # Interface: ITable
@@ -33,6 +37,7 @@ one line of the table in this element of the array
 
 ___
 
+
 ### table\_element
 
 • `Optional` **table\_element**: `string`
@@ -47,6 +52,7 @@ table_element
 
 ___
 
+
 ### table\_header
 
 • `Optional` **table\_header**: `string`[]
@@ -56,3 +62,7 @@ column names
 #### Defined in
 
 [main.ts:21301](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L21301)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

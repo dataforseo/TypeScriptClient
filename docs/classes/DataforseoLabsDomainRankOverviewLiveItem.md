@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / DataforseoLabsDomainRankOverviewLiveItem
 
 # Class: DataforseoLabsDomainRankOverviewLiveItem
@@ -67,6 +71,7 @@ language code in a POST array
 
 ___
 
+
 ### location\_code
 
 • `Optional` **location\_code**: `number`
@@ -82,6 +87,7 @@ location code in a POST array
 [main.ts:90672](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L90672)
 
 ___
+
 
 ### metrics
 
@@ -102,6 +108,7 @@ ranking data relevant to the specified domain
 [main.ts:90676](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L90676)
 
 ___
+
 
 ### se\_type
 
@@ -139,6 +146,7 @@ search engine type
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -159,6 +167,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`DataforseoLabsDomainRankOverviewLiveItem`](DataforseoLabsDomainRankOverviewLiveItem.md)
@@ -176,3 +185,7 @@ ___
 #### Defined in
 
 [main.ts:90708](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L90708)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

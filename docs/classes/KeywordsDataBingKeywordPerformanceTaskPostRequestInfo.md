@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / KeywordsDataBingKeywordPerformanceTaskPostRequestInfo
 
 # Class: KeywordsDataBingKeywordPerformanceTaskPostRequestInfo
@@ -77,6 +81,7 @@ default value: all
 
 ___
 
+
 ### keywords
 
 • `Optional` **keywords**: `string`[]
@@ -98,6 +103,7 @@ the specified keywords will be converted to lowercase, data will be provided in 
 
 ___
 
+
 ### language\_code
 
 • `Optional` **language\_code**: `string`
@@ -117,6 +123,7 @@ example:
 [main.ts:126644](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L126644)
 
 ___
+
 
 ### language\_name
 
@@ -139,6 +146,7 @@ English
 
 ___
 
+
 ### location\_code
 
 • `Optional` **location\_code**: `number`
@@ -159,6 +167,7 @@ example:
 [main.ts:126623](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L126623)
 
 ___
+
 
 ### location\_coordinate
 
@@ -182,6 +191,7 @@ example:
 
 ___
 
+
 ### location\_name
 
 • `Optional` **location\_name**: `string`
@@ -202,6 +212,7 @@ example:
 [main.ts:126616](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L126616)
 
 ___
+
 
 ### match
 
@@ -224,6 +235,7 @@ exact returns data for user query that matches the specified keyword;Note: the a
 [main.ts:126609](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L126609)
 
 ___
+
 
 ### pingback\_url
 
@@ -249,6 +261,7 @@ i.a., the # symbol will be encoded into %23
 
 ___
 
+
 ### postback\_url
 
 • `Optional` **postback\_url**: `string`
@@ -272,6 +285,7 @@ i.a., the # symbol will be encoded into %23
 [main.ts:126654](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L126654)
 
 ___
+
 
 ### tag
 
@@ -313,6 +327,7 @@ you will find the specified tag value in the data object of the response
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -333,6 +348,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`KeywordsDataBingKeywordPerformanceTaskPostRequestInfo`](KeywordsDataBingKeywordPerformanceTaskPostRequestInfo.md)
@@ -350,3 +366,7 @@ ___
 #### Defined in
 
 [main.ts:126707](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L126707)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / ResponseDataInfo
 
 # Class: ResponseDataInfo
@@ -67,6 +71,7 @@ author of the response
 
 ___
 
+
 ### text
 
 • `Optional` **text**: `string`
@@ -82,6 +87,7 @@ content of the response
 [main.ts:181217](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L181217)
 
 ___
+
 
 ### timestamp
 
@@ -101,6 +107,7 @@ example:
 [main.ts:181222](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L181222)
 
 ___
+
 
 ### title
 
@@ -139,6 +146,7 @@ in this case, will equal null
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -159,6 +167,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`ResponseDataInfo`](ResponseDataInfo.md)
@@ -176,3 +185,7 @@ ___
 #### Defined in
 
 [main.ts:181248](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L181248)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

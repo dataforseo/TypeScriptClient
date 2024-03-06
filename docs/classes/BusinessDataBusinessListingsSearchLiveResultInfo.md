@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / BusinessDataBusinessListingsSearchLiveResultInfo
 
 # Class: BusinessDataBusinessListingsSearchLiveResultInfo
@@ -69,6 +73,7 @@ the number of items in the items array
 
 ___
 
+
 ### items
 
 • `Optional` **items**: [`BusinessDataBusinessListingsSearchLiveItem`](BusinessDataBusinessListingsSearchLiveItem.md)[]
@@ -87,6 +92,7 @@ possible item types: business_listing
 
 ___
 
+
 ### offset
 
 • `Optional` **offset**: `number`
@@ -102,6 +108,7 @@ offset in the results array of returned businesses
 [main.ts:189367](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L189367)
 
 ___
+
 
 ### offset\_token
 
@@ -120,6 +127,7 @@ offset_token values are unique for each subsequent task
 [main.ts:189371](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L189371)
 
 ___
+
 
 ### total\_count
 
@@ -157,6 +165,7 @@ total number of results in our database relevant to your request
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -177,6 +186,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`BusinessDataBusinessListingsSearchLiveResultInfo`](BusinessDataBusinessListingsSearchLiveResultInfo.md)
@@ -194,3 +204,7 @@ ___
 #### Defined in
 
 [main.ts:189406](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L189406)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

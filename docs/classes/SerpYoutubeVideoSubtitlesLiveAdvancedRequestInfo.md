@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / SerpYoutubeVideoSubtitlesLiveAdvancedRequestInfo
 
 # Class: SerpYoutubeVideoSubtitlesLiveAdvancedRequestInfo
@@ -75,6 +79,7 @@ only value: desktop
 
 ___
 
+
 ### language\_code
 
 • `Optional` **language\_code**: `string`
@@ -95,6 +100,7 @@ en
 [main.ts:60625](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L60625)
 
 ___
+
 
 ### language\_name
 
@@ -117,6 +123,7 @@ English
 
 ___
 
+
 ### location\_code
 
 • `Optional` **location\_code**: `number`
@@ -137,6 +144,7 @@ example:
 [main.ts:60611](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L60611)
 
 ___
+
 
 ### location\_name
 
@@ -159,6 +167,7 @@ United States
 
 ___
 
+
 ### os
 
 • `Optional` **os**: `string`
@@ -178,6 +187,7 @@ default value: windows
 
 ___
 
+
 ### subtitles\_language
 
 • `Optional` **subtitles\_language**: `string`
@@ -194,6 +204,7 @@ you can get the language code from YouTube Video Info result
 [main.ts:60593](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L60593)
 
 ___
+
 
 ### subtitles\_translate\_language
 
@@ -212,6 +223,7 @@ possible values:
 [main.ts:60597](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L60597)
 
 ___
+
 
 ### tag
 
@@ -232,6 +244,7 @@ you will find the specified tag value in the data object of the response
 [main.ts:60640](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L60640)
 
 ___
+
 
 ### video\_id
 
@@ -273,6 +286,7 @@ Y8Wu4rSNJms
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -293,6 +307,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`SerpYoutubeVideoSubtitlesLiveAdvancedRequestInfo`](SerpYoutubeVideoSubtitlesLiveAdvancedRequestInfo.md)
@@ -310,3 +325,7 @@ ___
 #### Defined in
 
 [main.ts:60672](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L60672)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

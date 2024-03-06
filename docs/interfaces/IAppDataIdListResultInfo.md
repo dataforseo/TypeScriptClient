@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IAppDataIdListResultInfo
 
 # Interface: IAppDataIdListResultInfo
@@ -36,6 +40,7 @@ cost of the task, USD
 
 ___
 
+
 ### datetime\_done
 
 • `Optional` **datetime\_done**: `string`
@@ -50,6 +55,7 @@ example:
 [main.ts:176502](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L176502)
 
 ___
+
 
 ### datetime\_posted
 
@@ -66,6 +72,7 @@ example:
 
 ___
 
+
 ### id
 
 • `Optional` **id**: `string`
@@ -77,6 +84,7 @@ id of the task
 [main.ts:176489](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L176489)
 
 ___
+
 
 ### metadata
 
@@ -94,6 +102,7 @@ contains parameters you specified in the POST request
 
 ___
 
+
 ### status
 
 • `Optional` **status**: `string`
@@ -107,6 +116,7 @@ you can find the full list of general informational messages here
 
 ___
 
+
 ### url
 
 • `Optional` **url**: `string`
@@ -117,3 +127,7 @@ URL you used for making an API call
 #### Defined in
 
 [main.ts:176492](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L176492)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

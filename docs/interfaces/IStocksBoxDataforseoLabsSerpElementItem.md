@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IStocksBoxDataforseoLabsSerpElementItem
 
 # Interface: IStocksBoxDataforseoLabsSerpElementItem
@@ -5,7 +9,7 @@
 ## Hierarchy
 
 - [`IBaseDataforseoLabsSerpElementItem`](IBaseDataforseoLabsSerpElementItem.md)
-
+  
   ↳ **`IStocksBoxDataforseoLabsSerpElementItem`**
 
 ## Implemented by
@@ -47,6 +51,7 @@ domain where a link points
 
 ___
 
+
 ### graph
 
 • `Optional` **graph**: [`Graph`](../classes/Graph.md)
@@ -58,6 +63,7 @@ contains data provided in the graph of the element
 [main.ts:95810](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L95810)
 
 ___
+
 
 ### position
 
@@ -73,6 +79,7 @@ left, right
 
 ___
 
+
 ### price
 
 • `Optional` **price**: [`PriceInfo`](../classes/PriceInfo.md)
@@ -84,6 +91,7 @@ price of the shopping element
 [main.ts:95801](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L95801)
 
 ___
+
 
 ### rank\_absolute
 
@@ -98,6 +106,7 @@ absolute position among all the elements in SERP
 
 ___
 
+
 ### rank\_group
 
 • `Optional` **rank\_group**: `number`
@@ -111,6 +120,7 @@ positions of elements with different type values are omitted from rank_group
 
 ___
 
+
 ### snippet
 
 • `Optional` **snippet**: `string`
@@ -122,6 +132,7 @@ text alongside the link title
 [main.ts:95799](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L95799)
 
 ___
+
 
 ### source
 
@@ -136,6 +147,7 @@ indicates the source of information included in the shopping_element
 
 ___
 
+
 ### table
 
 • `Optional` **table**: [`Table`](../classes/Table.md)
@@ -149,6 +161,7 @@ if there are none, equals null
 
 ___
 
+
 ### title
 
 • `Optional` **title**: `string`
@@ -160,6 +173,7 @@ title of the result in SERP
 [main.ts:95794](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L95794)
 
 ___
+
 
 ### url
 
@@ -173,6 +187,7 @@ URL link
 
 ___
 
+
 ### xpath
 
 • `Optional` **xpath**: `string`
@@ -182,3 +197,7 @@ the XPath of the element
 #### Defined in
 
 [main.ts:95792](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L95792)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

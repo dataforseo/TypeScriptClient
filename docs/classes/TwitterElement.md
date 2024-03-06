@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / TwitterElement
 
 # Class: TwitterElement
@@ -68,6 +72,7 @@ the date when the page source of the element was published
 
 ___
 
+
 ### timestamp
 
 • `Optional` **timestamp**: `string`
@@ -87,6 +92,7 @@ example:
 
 ___
 
+
 ### tweet
 
 • `Optional` **tweet**: `string`
@@ -103,6 +109,7 @@ tweet message
 
 ___
 
+
 ### type
 
 • `Optional` **type**: `string`
@@ -118,6 +125,7 @@ type of element
 [main.ts:28984](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L28984)
 
 ___
+
 
 ### url
 
@@ -155,6 +163,7 @@ URL
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -175,6 +184,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`TwitterElement`](TwitterElement.md)
@@ -192,3 +202,7 @@ ___
 #### Defined in
 
 [main.ts:29022](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L29022)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

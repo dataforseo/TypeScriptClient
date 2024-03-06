@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IShopsListMerchantSerpElementItem
 
 # Interface: IShopsListMerchantSerpElementItem
@@ -5,7 +9,7 @@
 ## Hierarchy
 
 - [`IBaseMerchantSerpElementItem`](IBaseMerchantSerpElementItem.md)
-
+  
   ↳ **`IShopsListMerchantSerpElementItem`**
 
 ## Implemented by
@@ -53,6 +57,7 @@ product price without tax and shipping
 
 ___
 
+
 ### currency
 
 • `Optional` **currency**: `string`
@@ -67,6 +72,7 @@ USD
 
 ___
 
+
 ### details
 
 • `Optional` **details**: `string`
@@ -80,6 +86,7 @@ if there are no details, the value will be null
 
 ___
 
+
 ### domain
 
 • `Optional` **domain**: `string`
@@ -91,6 +98,7 @@ domain in SERP
 [main.ts:166579](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L166579)
 
 ___
+
 
 ### position
 
@@ -106,6 +114,7 @@ left, right
 
 ___
 
+
 ### product\_annotation
 
 • `Optional` **product\_annotation**: `string`
@@ -120,6 +129,7 @@ examples: LOW PRICE, SPECIAL OFFER, SALE, PRICE DROP
 
 ___
 
+
 ### product\_condition
 
 • `Optional` **product\_condition**: `string`
@@ -132,6 +142,7 @@ possible values: Used, Refurbished, New, null
 [main.ts:166612](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L166612)
 
 ___
+
 
 ### rank\_absolute
 
@@ -146,6 +157,7 @@ absolute position among all the elements found in Google Shopping SERP
 
 ___
 
+
 ### rank\_group
 
 • `Optional` **rank\_group**: `number`
@@ -158,6 +170,7 @@ positions of elements with different type values are omitted from rank_group
 [main.ts:166568](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L166568)
 
 ___
+
 
 ### rating
 
@@ -172,6 +185,7 @@ the shop popularity rate based on product reviews
 
 ___
 
+
 ### seller\_name
 
 • `Optional` **seller\_name**: `string`
@@ -185,6 +199,7 @@ the name of the company that placed a corresponding product on Google Shopping
 
 ___
 
+
 ### shipping\_price
 
 • `Optional` **shipping\_price**: `number`
@@ -196,6 +211,7 @@ product shipping price
 [main.ts:166594](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L166594)
 
 ___
+
 
 ### shop\_ad\_aclk
 
@@ -210,6 +226,7 @@ using this parameter you can get a URL of the advertisement in Google Shopping S
 
 ___
 
+
 ### tax
 
 • `Optional` **tax**: `number`
@@ -223,6 +240,7 @@ tax is specified as the actual amount of money, not as the percentage
 
 ___
 
+
 ### title
 
 • `Optional` **title**: `string`
@@ -235,6 +253,7 @@ product title
 
 ___
 
+
 ### total\_price
 
 • `Optional` **total\_price**: `number`
@@ -246,6 +265,7 @@ product price including tax and shipping
 [main.ts:166596](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L166596)
 
 ___
+
 
 ### url
 
@@ -260,6 +280,7 @@ if you want to obtain a URL of the advertisement forwarding to the product page 
 
 ___
 
+
 ### xpath
 
 • `Optional` **xpath**: `string`
@@ -269,3 +290,7 @@ XPath of the element
 #### Defined in
 
 [main.ts:166577](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L166577)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

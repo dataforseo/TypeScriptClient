@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IResponseDataInfo
 
 # Interface: IResponseDataInfo
@@ -33,6 +37,7 @@ author of the response
 
 ___
 
+
 ### text
 
 • `Optional` **text**: `string`
@@ -44,6 +49,7 @@ content of the response
 [main.ts:181276](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L181276)
 
 ___
+
 
 ### timestamp
 
@@ -60,6 +66,7 @@ example:
 
 ___
 
+
 ### title
 
 • `Optional` **title**: `string`
@@ -70,3 +77,7 @@ in this case, will equal null
 #### Defined in
 
 [main.ts:181274](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L181274)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

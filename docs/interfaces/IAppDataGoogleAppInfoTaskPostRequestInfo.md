@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IAppDataGoogleAppInfoTaskPostRequestInfo
 
 # Interface: IAppDataGoogleAppInfoTaskPostRequestInfo
@@ -45,6 +49,7 @@ the id is org.telegram.messenger
 
 ___
 
+
 ### language\_code
 
 • `Optional` **language\_code**: `string`
@@ -61,6 +66,7 @@ en
 [main.ts:179415](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L179415)
 
 ___
+
 
 ### language\_name
 
@@ -79,6 +85,7 @@ English
 
 ___
 
+
 ### location\_code
 
 • `Optional` **location\_code**: `number`
@@ -96,6 +103,7 @@ example:
 
 ___
 
+
 ### location\_name
 
 • `Optional` **location\_name**: `string`
@@ -112,6 +120,7 @@ West Los Angeles,California,United States
 [main.ts:179394](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L179394)
 
 ___
+
 
 ### pingback\_url
 
@@ -133,6 +142,7 @@ i.a., the # symbol will be encoded into %23
 
 ___
 
+
 ### postback\_data
 
 • `Optional` **postback\_data**: `string`
@@ -148,6 +158,7 @@ advanced, html
 [main.ts:179445](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L179445)
 
 ___
+
 
 ### postback\_url
 
@@ -169,6 +180,7 @@ i.a., the # symbol will be encoded into %23
 
 ___
 
+
 ### priority
 
 • `Optional` **priority**: `number`
@@ -187,6 +199,7 @@ The cost can be calculated on the Pricing page.
 
 ___
 
+
 ### tag
 
 • `Optional` **tag**: `string`
@@ -200,3 +213,7 @@ you will find the specified tag value in the data object of the response
 #### Defined in
 
 [main.ts:179429](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L179429)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

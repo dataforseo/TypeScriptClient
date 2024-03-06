@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / LocalBusinessMenuLink
 
 # Class: LocalBusinessMenuLink
@@ -5,7 +9,7 @@
 ## Hierarchy
 
 - [`BaseLocalBusinessLink`](BaseLocalBusinessLink.md)
-
+  
   ↳ **`LocalBusinessMenuLink`**
 
 ## Implements
@@ -74,6 +78,7 @@
 
 ___
 
+
 ### title
 
 • `Optional` **title**: `string`
@@ -90,6 +95,7 @@ domain of the online menu system
 [main.ts:22445](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L22445)
 
 ___
+
 
 ### url
 
@@ -131,6 +137,7 @@ URL to view the menu
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -155,6 +162,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`LocalBusinessMenuLink`](LocalBusinessMenuLink.md)
@@ -176,3 +184,7 @@ ___
 #### Defined in
 
 [main.ts:22468](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L22468)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

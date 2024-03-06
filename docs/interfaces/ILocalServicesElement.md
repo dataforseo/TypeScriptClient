@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / ILocalServicesElement
 
 # Interface: ILocalServicesElement
@@ -36,6 +40,7 @@ description of the results element in SERP
 
 ___
 
+
 ### domain
 
 • `Optional` **domain**: `string`
@@ -47,6 +52,7 @@ domain where a link points
 [main.ts:33656](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L33656)
 
 ___
+
 
 ### profile\_image\_url
 
@@ -60,11 +66,12 @@ URL of the image featured in the element
 
 ___
 
+
 ### rating
 
 • `Optional` **rating**: [`RatingInfo`](../classes/RatingInfo.md)
 
-the item’s rating 
+the item’s rating
 the popularity rate based on reviews and displayed in SERP
 
 #### Defined in
@@ -72,6 +79,7 @@ the popularity rate based on reviews and displayed in SERP
 [main.ts:33661](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L33661)
 
 ___
+
 
 ### title
 
@@ -85,6 +93,7 @@ title of the row
 
 ___
 
+
 ### type
 
 • `Optional` **type**: `string`
@@ -97,6 +106,7 @@ type of element
 
 ___
 
+
 ### url
 
 • `Optional` **url**: `string`
@@ -106,3 +116,7 @@ URL
 #### Defined in
 
 [main.ts:33654](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L33654)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

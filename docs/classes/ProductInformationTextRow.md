@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / ProductInformationTextRow
 
 # Class: ProductInformationTextRow
@@ -5,7 +9,7 @@
 ## Hierarchy
 
 - [`BaseProductInformationRowItem`](BaseProductInformationRowItem.md)
-
+  
   ↳ **`ProductInformationTextRow`**
 
 ## Implements
@@ -73,6 +77,7 @@
 
 ___
 
+
 ### text
 
 • `Optional` **text**: `string`
@@ -113,6 +118,7 @@ text specified under the given title within the section_name
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -137,6 +143,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`ProductInformationTextRow`](ProductInformationTextRow.md)
@@ -158,3 +165,7 @@ ___
 #### Defined in
 
 [main.ts:172630](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L172630)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

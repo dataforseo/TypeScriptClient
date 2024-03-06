@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IContentAnalysisCategoriesResultInfo
 
 # Interface: IContentAnalysisCategoriesResultInfo
@@ -32,6 +36,7 @@ category code
 
 ___
 
+
 ### category\_code\_parent
 
 • `Optional` **category\_code\_parent**: `number`
@@ -52,6 +57,7 @@ corresponds to:
 
 ___
 
+
 ### category\_name
 
 • `Optional` **category\_name**: `string`
@@ -61,3 +67,7 @@ full name of the category
 #### Defined in
 
 [main.ts:155914](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L155914)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

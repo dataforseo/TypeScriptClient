@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / SerpNaverOrganicTaskGetAdvancedResultInfo
 
 # Class: SerpNaverOrganicTaskGetAdvancedResultInfo
@@ -76,6 +80,7 @@ you can use it to make sure that we provided accurate results
 
 ___
 
+
 ### datetime
 
 • `Optional` **datetime**: `string`
@@ -94,6 +99,7 @@ example:
 [main.ts:68291](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L68291)
 
 ___
+
 
 ### item\_types
 
@@ -114,6 +120,7 @@ images, local_pack, map, organic, paid, related_searches, video
 
 ___
 
+
 ### items
 
 • `Optional` **items**: [`BaseSerpElementItem`](BaseSerpElementItem.md)[]
@@ -131,6 +138,7 @@ if there are none, equals null
 
 ___
 
+
 ### items\_count
 
 • `Optional` **items\_count**: `number`
@@ -146,6 +154,7 @@ the number of results returned in the items array
 [main.ts:68303](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L68303)
 
 ___
+
 
 ### keyword
 
@@ -164,6 +173,7 @@ the keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to
 
 ___
 
+
 ### language\_code
 
 • `Optional` **language\_code**: `string`
@@ -179,6 +189,7 @@ language code in a POST array
 [main.ts:68283](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L68283)
 
 ___
+
 
 ### location\_code
 
@@ -196,6 +207,7 @@ location code in a POST array
 
 ___
 
+
 ### se\_domain
 
 • `Optional` **se\_domain**: `string`
@@ -211,6 +223,7 @@ search engine domain in a POST array
 [main.ts:68279](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L68279)
 
 ___
+
 
 ### se\_results\_count
 
@@ -228,6 +241,7 @@ total number of results in SERP
 
 ___
 
+
 ### spell
 
 • `Optional` **spell**: [`SpellInfo`](SpellInfo.md)
@@ -244,6 +258,7 @@ if the search engine provided results for a keyword that was corrected, we will 
 [main.ts:68294](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L68294)
 
 ___
+
 
 ### type
 
@@ -281,6 +296,7 @@ type of element
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -301,6 +317,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`SerpNaverOrganicTaskGetAdvancedResultInfo`](SerpNaverOrganicTaskGetAdvancedResultInfo.md)
@@ -318,3 +335,7 @@ ___
 #### Defined in
 
 [main.ts:68348](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L68348)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

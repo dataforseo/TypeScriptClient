@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / GoogleBusinessPostBusinessDataSerpElementItem
 
 # Class: GoogleBusinessPostBusinessDataSerpElementItem
@@ -5,7 +9,7 @@
 ## Hierarchy
 
 - [`BaseBusinessDataSerpElementItem`](BaseBusinessDataSerpElementItem.md)
-
+  
   ↳ **`GoogleBusinessPostBusinessDataSerpElementItem`**
 
 ## Implements
@@ -84,6 +88,7 @@
 
 ___
 
+
 ### author
 
 • `Optional` **author**: `string`
@@ -99,6 +104,7 @@ author of the post
 [main.ts:192360](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L192360)
 
 ___
+
 
 ### images\_url
 
@@ -116,6 +122,7 @@ url of an image included in the post
 
 ___
 
+
 ### links
 
 • `Optional` **links**: [`LinkElement`](LinkElement.md)[]
@@ -131,6 +138,7 @@ links included in the post
 [main.ts:192379](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L192379)
 
 ___
+
 
 ### position
 
@@ -148,6 +156,7 @@ can take the following values: right
 [main.ts:192356](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L192356)
 
 ___
+
 
 ### post\_date
 
@@ -167,6 +176,7 @@ in the following format:
 
 ___
 
+
 ### post\_text
 
 • `Optional` **post\_text**: `string`
@@ -182,6 +192,7 @@ main content of a post
 [main.ts:192364](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L192364)
 
 ___
+
 
 ### rank\_absolute
 
@@ -200,6 +211,7 @@ absolute position among all present elements
 
 ___
 
+
 ### rank\_group
 
 • `Optional` **rank\_group**: `number`
@@ -217,6 +229,7 @@ positions of elements with different type values are omitted from rank_group
 
 ___
 
+
 ### snippet
 
 • `Optional` **snippet**: `string`
@@ -232,6 +245,7 @@ additional content of a post
 [main.ts:192362](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L192362)
 
 ___
+
 
 ### timestamp
 
@@ -252,6 +266,7 @@ example:
 
 ___
 
+
 ### url
 
 • `Optional` **url**: `string`
@@ -267,6 +282,7 @@ url of a post
 [main.ts:192366](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L192366)
 
 ___
+
 
 ### xpath
 
@@ -308,6 +324,7 @@ the XPath of the element
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -332,6 +349,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`GoogleBusinessPostBusinessDataSerpElementItem`](GoogleBusinessPostBusinessDataSerpElementItem.md)
@@ -353,3 +371,7 @@ ___
 #### Defined in
 
 [main.ts:192414](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L192414)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

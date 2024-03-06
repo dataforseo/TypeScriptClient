@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IDataforseoLabsGoogleHistoricalSearchVolumeLiveResultInfo
 
 # Interface: IDataforseoLabsGoogleHistoricalSearchVolumeLiveResultInfo
@@ -34,6 +38,7 @@ contains keywords and related data
 
 ___
 
+
 ### items\_count
 
 • `Optional` **items\_count**: `number`
@@ -45,6 +50,7 @@ the number of results returned in the items array
 [main.ts:82097](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L82097)
 
 ___
+
 
 ### language\_code
 
@@ -58,6 +64,7 @@ language code in a POST array
 
 ___
 
+
 ### location\_code
 
 • `Optional` **location\_code**: `number`
@@ -70,6 +77,7 @@ location code in a POST array
 
 ___
 
+
 ### se\_type
 
 • `Optional` **se\_type**: `string`
@@ -79,3 +87,7 @@ search engine type
 #### Defined in
 
 [main.ts:82091](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L82091)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

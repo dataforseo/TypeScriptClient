@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IOnPageKeywordDensityResultInfo
 
 # Interface: IOnPageKeywordDensityResultInfo
@@ -35,6 +39,7 @@ possible values: in_progress, finished
 
 ___
 
+
 ### crawl\_status
 
 • `Optional` **crawl\_status**: [`CrawlStatusInfo`](../classes/CrawlStatusInfo.md)
@@ -46,6 +51,7 @@ details of the crawling session
 [main.ts:150371](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L150371)
 
 ___
+
 
 ### items
 
@@ -59,6 +65,7 @@ items array
 
 ___
 
+
 ### items\_count
 
 • `Optional` **items\_count**: `number`
@@ -71,6 +78,7 @@ number of items in the results array
 
 ___
 
+
 ### total\_items\_count
 
 • `Optional` **total\_items\_count**: `number`
@@ -81,3 +89,7 @@ total number of keywords on the specified website or web page matching the set k
 #### Defined in
 
 [main.ts:150374](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L150374)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

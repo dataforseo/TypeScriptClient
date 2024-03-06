@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / Groups
 
 # Class: Groups
@@ -66,6 +70,7 @@ technology categories in this group
 
 ___
 
+
 ### id
 
 • `Optional` **id**: `string`
@@ -83,6 +88,7 @@ marketing, sales
 [main.ts:72190](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L72190)
 
 ___
+
 
 ### title
 
@@ -120,6 +126,7 @@ title of the technology group
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -140,6 +147,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`Groups`](Groups.md)
@@ -157,3 +165,7 @@ ___
 #### Defined in
 
 [main.ts:72223](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L72223)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

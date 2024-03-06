@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / BacklinksIndexResultInfo
 
 # Class: BacklinksIndexResultInfo
@@ -67,6 +71,7 @@ index volume data for the past 12 months
 
 ___
 
+
 ### total\_backlinks
 
 • `Optional` **total\_backlinks**: `number`
@@ -83,6 +88,7 @@ total number of backlinks our database contains for the moment of checking
 
 ___
 
+
 ### total\_domains
 
 • `Optional` **total\_domains**: `number`
@@ -98,6 +104,7 @@ total number of domains our database contains for the moment of checking
 [main.ts:129017](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L129017)
 
 ___
+
 
 ### total\_pages
 
@@ -135,6 +142,7 @@ total number of pages our database contains for the moment of checking
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -155,6 +163,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`BacklinksIndexResultInfo`](BacklinksIndexResultInfo.md)
@@ -172,3 +181,7 @@ ___
 #### Defined in
 
 [main.ts:129049](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L129049)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

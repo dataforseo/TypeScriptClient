@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / Table
 
 # Class: Table
@@ -67,6 +71,7 @@ one line of the table in this element of the array
 
 ___
 
+
 ### table\_element
 
 • `Optional` **table\_element**: `string`
@@ -84,6 +89,7 @@ table_element
 [main.ts:21229](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L21229)
 
 ___
+
 
 ### table\_header
 
@@ -121,6 +127,7 @@ column names
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -141,6 +148,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`Table`](Table.md)
@@ -158,3 +166,7 @@ ___
 #### Defined in
 
 [main.ts:21267](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L21267)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

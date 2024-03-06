@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / AvgBacklinksInfo
 
 # Class: AvgBacklinksInfo
@@ -72,6 +76,7 @@ average number of backlinks
 
 ___
 
+
 ### dofollow
 
 • `Optional` **dofollow**: `number`
@@ -87,6 +92,7 @@ average number of dofollow links
 [main.ts:79440](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L79440)
 
 ___
+
 
 ### last\_updated\_time
 
@@ -107,6 +113,7 @@ example:
 
 ___
 
+
 ### main\_domain\_rank
 
 • `Optional` **main\_domain\_rank**: `number`
@@ -123,6 +130,7 @@ learn more about the metric and its calculation formula in this help center arti
 [main.ts:79452](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L79452)
 
 ___
+
 
 ### rank
 
@@ -141,6 +149,7 @@ learn more about the metric and its calculation formula in this help center arti
 
 ___
 
+
 ### referring\_domains
 
 • `Optional` **referring\_domains**: `number`
@@ -156,6 +165,7 @@ average number of referring domains
 [main.ts:79444](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L79444)
 
 ___
+
 
 ### referring\_main\_domains
 
@@ -173,6 +183,7 @@ average number of referring main domains
 
 ___
 
+
 ### referring\_pages
 
 • `Optional` **referring\_pages**: `number`
@@ -188,6 +199,7 @@ average number of referring pages
 [main.ts:79442](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L79442)
 
 ___
+
 
 ### se\_type
 
@@ -225,6 +237,7 @@ search engine type
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -245,6 +258,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`AvgBacklinksInfo`](AvgBacklinksInfo.md)
@@ -262,3 +276,7 @@ ___
 #### Defined in
 
 [main.ts:79488](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L79488)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

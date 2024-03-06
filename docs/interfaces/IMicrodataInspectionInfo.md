@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IMicrodataInspectionInfo
 
 # Interface: IMicrodataInspectionInfo
@@ -32,6 +36,7 @@ an array of objects containing data fields related to the certain microdata type
 
 ___
 
+
 ### types
 
 • `Optional` **types**: `string`[]
@@ -42,3 +47,7 @@ for a full list of available types, please visit schema.org
 #### Defined in
 
 [main.ts:150875](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L150875)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

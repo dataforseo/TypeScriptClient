@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / ISpellInfo
 
 # Interface: ISpellInfo
@@ -32,6 +36,7 @@ the results will be provided for the corrected keyword
 
 ___
 
+
 ### type
 
 • `Optional` **type**: `string`
@@ -45,3 +50,7 @@ including_results_for
 #### Defined in
 
 [main.ts:21898](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L21898)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

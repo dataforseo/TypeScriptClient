@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / BusinessListingAggregationInfo
 
 # Class: BusinessListingAggregationInfo
@@ -69,6 +73,7 @@ number of unique entities
 
 ___
 
+
 ### top\_attributes
 
 • `Optional` **top\_attributes**: `Object`
@@ -89,6 +94,7 @@ service details of a business entity displayed in a form of checks and the numbe
 [main.ts:189771](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L189771)
 
 ___
+
 
 ### top\_categories
 
@@ -111,6 +117,7 @@ top categories displayed with the number of businesses in each category
 
 ___
 
+
 ### top\_countries
 
 • `Optional` **top\_countries**: `Object`
@@ -132,6 +139,7 @@ country codes with the biggest number of businesses in the category
 
 ___
 
+
 ### top\_place\_topics
 
 • `Optional` **top\_place\_topics**: `Object`
@@ -152,6 +160,7 @@ contains most popular keywords related to products/services mentioned in custome
 [main.ts:189774](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L189774)
 
 ___
+
 
 ### websites\_count
 
@@ -189,6 +198,7 @@ number of unique websites
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -209,6 +219,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`BusinessListingAggregationInfo`](BusinessListingAggregationInfo.md)
@@ -226,3 +237,7 @@ ___
 #### Defined in
 
 [main.ts:189826](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L189826)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

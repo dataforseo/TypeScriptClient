@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IAppDataGoogleAppListingsSearchLiveResultInfo
 
 # Interface: IAppDataGoogleAppListingsSearchLiveResultInfo
@@ -34,6 +38,7 @@ the number of items in the results array
 
 ___
 
+
 ### items
 
 • `Optional` **items**: [`AppDataleAppListingsSearchLiveItem`](../classes/AppDataleAppListingsSearchLiveItem.md)[]
@@ -46,6 +51,7 @@ array of apps and related data
 
 ___
 
+
 ### offset
 
 • `Optional` **offset**: `number`
@@ -57,6 +63,7 @@ offset in the results array of returned apps
 [main.ts:182442](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L182442)
 
 ___
+
 
 ### offset\_token
 
@@ -71,6 +78,7 @@ you can use this parameter in the POST request to avoid timeouts while trying to
 
 ___
 
+
 ### total\_count
 
 • `Optional` **total\_count**: `number`
@@ -80,3 +88,7 @@ the total number of relevant results in the database
 #### Defined in
 
 [main.ts:182438](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L182438)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

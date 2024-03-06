@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / DataforseoLabsCompetitorsDomainLiveItem
 
 # Class: DataforseoLabsCompetitorsDomainLiveItem
@@ -73,6 +77,7 @@ the value for a given domain may differ when combined with different target webs
 
 ___
 
+
 ### competitor\_metrics
 
 • `Optional` **competitor\_metrics**: `Object`
@@ -95,6 +100,7 @@ note: in this array ranking and traffic data is provided for the returned compet
 
 ___
 
+
 ### domain
 
 • `Optional` **domain**: `string`
@@ -110,6 +116,7 @@ domain name
 [main.ts:88366](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L88366)
 
 ___
+
 
 ### full\_domain\_metrics
 
@@ -132,6 +139,7 @@ full overview of ranking and traffic data relevant to all keywords that the prov
 
 ___
 
+
 ### intersections
 
 • `Optional` **intersections**: `number`
@@ -147,6 +155,7 @@ number of intersecting keywords
 [main.ts:88376](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L88376)
 
 ___
+
 
 ### metrics
 
@@ -170,6 +179,7 @@ note: in this array ranking and traffic data is provided for the target consider
 
 ___
 
+
 ### se\_type
 
 • `Optional` **se\_type**: `string`
@@ -185,6 +195,7 @@ search engine type
 [main.ts:88364](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L88364)
 
 ___
+
 
 ### sum\_position
 
@@ -224,6 +235,7 @@ the value for a given domain may differ when combined with different target webs
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -244,6 +256,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`DataforseoLabsCompetitorsDomainLiveItem`](DataforseoLabsCompetitorsDomainLiveItem.md)
@@ -261,3 +274,7 @@ ___
 #### Defined in
 
 [main.ts:88435](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L88435)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

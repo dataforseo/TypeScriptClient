@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IGraphElement
 
 # Interface: IGraphElement
@@ -32,6 +36,7 @@ the posting date
 
 ___
 
+
 ### type
 
 • `Optional` **type**: `string`
@@ -44,6 +49,7 @@ type of element
 
 ___
 
+
 ### value
 
 • `Optional` **value**: `number`
@@ -53,3 +59,7 @@ the value of the rating
 #### Defined in
 
 [main.ts:32399](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L32399)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

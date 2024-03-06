@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / ContentAnalysisApi
 
 # Class: ContentAnalysisApi
@@ -73,6 +77,7 @@
 
 ___
 
+
 ### http
 
 • `Private` **http**: `Object`
@@ -88,6 +93,7 @@ ___
 [main.ts:12742](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L12742)
 
 ___
+
 
 ### jsonParseReviver
 
@@ -136,6 +142,7 @@ Successful operation
 
 ___
 
+
 ### contentAnalysisAvailableFilters
 
 ▸ **contentAnalysisAvailableFilters**(): `Promise`\<[`ContentAnalysisAvailableFiltersResponseInfo`](ContentAnalysisAvailableFiltersResponseInfo.md)\>
@@ -152,6 +159,7 @@ Successful operation
 
 ___
 
+
 ### contentAnalysisCategories
 
 ▸ **contentAnalysisCategories**(): `Promise`\<[`ContentAnalysisCategoriesResponseInfo`](ContentAnalysisCategoriesResponseInfo.md)\>
@@ -167,6 +175,7 @@ Successful operation
 [main.ts:12907](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L12907)
 
 ___
+
 
 ### contentAnalysisIdList
 
@@ -190,6 +199,7 @@ Successful operation
 
 ___
 
+
 ### contentAnalysisLanguages
 
 ▸ **contentAnalysisLanguages**(): `Promise`\<[`ContentAnalysisLanguagesResponseInfo`](ContentAnalysisLanguagesResponseInfo.md)\>
@@ -206,6 +216,7 @@ Successful operation
 
 ___
 
+
 ### contentAnalysisLocations
 
 ▸ **contentAnalysisLocations**(): `Promise`\<[`ContentAnalysisLocationsResponseInfo`](ContentAnalysisLocationsResponseInfo.md)\>
@@ -221,6 +232,7 @@ Successful operation
 [main.ts:12833](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L12833)
 
 ___
+
 
 ### contentAnalysisSummaryLive
 
@@ -244,6 +256,7 @@ Successful operation
 
 ___
 
+
 ### phraseTrendsLive
 
 ▸ **phraseTrendsLive**(`body`): `Promise`\<[`ContentAnalysisPhraseTrendsLiveResponseInfo`](ContentAnalysisPhraseTrendsLiveResponseInfo.md)\>
@@ -266,6 +279,7 @@ Successful operation
 
 ___
 
+
 ### processCategoryTrendsLive
 
 ▸ **processCategoryTrendsLive**(`response`): `Promise`\<[`ContentAnalysisCategoryTrendsLiveResponseInfo`](ContentAnalysisCategoryTrendsLiveResponseInfo.md)\>
@@ -285,6 +299,7 @@ ___
 [main.ts:13175](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L13175)
 
 ___
+
 
 ### processContentAnalysisAvailableFilters
 
@@ -306,6 +321,7 @@ ___
 
 ___
 
+
 ### processContentAnalysisCategories
 
 ▸ **processContentAnalysisCategories**(`response`): `Promise`\<[`ContentAnalysisCategoriesResponseInfo`](ContentAnalysisCategoriesResponseInfo.md)\>
@@ -325,6 +341,7 @@ ___
 [main.ts:12923](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L12923)
 
 ___
+
 
 ### processContentAnalysisIdList
 
@@ -346,6 +363,7 @@ ___
 
 ___
 
+
 ### processContentAnalysisLanguages
 
 ▸ **processContentAnalysisLanguages**(`response`): `Promise`\<[`ContentAnalysisLanguagesResponseInfo`](ContentAnalysisLanguagesResponseInfo.md)\>
@@ -365,6 +383,7 @@ ___
 [main.ts:12886](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L12886)
 
 ___
+
 
 ### processContentAnalysisLocations
 
@@ -386,6 +405,7 @@ ___
 
 ___
 
+
 ### processContentAnalysisSummaryLive
 
 ▸ **processContentAnalysisSummaryLive**(`response`): `Promise`\<[`ContentAnalysisSummaryLiveResponseInfo`](ContentAnalysisSummaryLiveResponseInfo.md)\>
@@ -405,6 +425,7 @@ ___
 [main.ts:13007](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L13007)
 
 ___
+
 
 ### processPhraseTrendsLive
 
@@ -426,6 +447,7 @@ ___
 
 ___
 
+
 ### processRatingDistributionLive
 
 ▸ **processRatingDistributionLive**(`response`): `Promise`\<[`ContentAnalysisRatingDistributionLiveResponseInfo`](ContentAnalysisRatingDistributionLiveResponseInfo.md)\>
@@ -445,6 +467,7 @@ ___
 [main.ts:13091](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L13091)
 
 ___
+
 
 ### processSearchLive
 
@@ -466,6 +489,7 @@ ___
 
 ___
 
+
 ### processSentimentAnalysisLive
 
 ▸ **processSentimentAnalysisLive**(`response`): `Promise`\<[`ContentAnalysisSentimentAnalysisLiveResponseInfo`](ContentAnalysisSentimentAnalysisLiveResponseInfo.md)\>
@@ -485,6 +509,7 @@ ___
 [main.ts:13049](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L13049)
 
 ___
+
 
 ### ratingDistributionLive
 
@@ -508,6 +533,7 @@ Successful operation
 
 ___
 
+
 ### searchLive
 
 ▸ **searchLive**(`body`): `Promise`\<[`ContentAnalysisSearchLiveResponseInfo`](ContentAnalysisSearchLiveResponseInfo.md)\>
@@ -530,6 +556,7 @@ Successful operation
 
 ___
 
+
 ### sentimentAnalysisLive
 
 ▸ **sentimentAnalysisLive**(`body`): `Promise`\<[`ContentAnalysisSentimentAnalysisLiveResponseInfo`](ContentAnalysisSentimentAnalysisLiveResponseInfo.md)\>
@@ -549,3 +576,7 @@ Successful operation
 #### Defined in
 
 [main.ts:13029](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L13029)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

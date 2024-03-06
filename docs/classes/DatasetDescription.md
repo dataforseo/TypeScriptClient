@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / DatasetDescription
 
 # Class: DatasetDescription
@@ -65,6 +69,7 @@ links featured in the ‘dataset_description’
 
 ___
 
+
 ### text
 
 • `Optional` **text**: `string`
@@ -101,6 +106,7 @@ text of the description
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -121,6 +127,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`DatasetDescription`](DatasetDescription.md)
@@ -138,3 +145,7 @@ ___
 #### Defined in
 
 [main.ts:50802](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L50802)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / GoogleTrendsGraphElementItem
 
 # Class: GoogleTrendsGraphElementItem
@@ -5,7 +9,7 @@
 ## Hierarchy
 
 - [`BaseGoogleTrendsItem`](BaseGoogleTrendsItem.md)
-
+  
   ↳ **`GoogleTrendsGraphElementItem`**
 
 ## Implements
@@ -77,6 +81,7 @@
 
 ___
 
+
 ### averages
 
 • `Optional` **averages**: `number`[]
@@ -93,6 +98,7 @@ keyword popularity values averaged over the whole time range
 
 ___
 
+
 ### data
 
 • `Optional` **data**: [`TrendsGraphDataInfo`](TrendsGraphDataInfo.md)[]
@@ -108,6 +114,7 @@ Google Trends data for the specified parameters
 [main.ts:120489](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L120489)
 
 ___
+
 
 ### keywords
 
@@ -126,6 +133,7 @@ the data included in the google_trends_graph element is based on the keywords li
 
 ___
 
+
 ### position
 
 • `Optional` **position**: `number`
@@ -142,6 +150,7 @@ can take the following values: 1, 2, 3, 4, etc.
 [main.ts:120482](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L120482)
 
 ___
+
 
 ### title
 
@@ -183,6 +192,7 @@ title of the element in Google Trends
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -207,6 +217,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`GoogleTrendsGraphElementItem`](GoogleTrendsGraphElementItem.md)
@@ -228,3 +239,7 @@ ___
 #### Defined in
 
 [main.ts:120527](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L120527)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

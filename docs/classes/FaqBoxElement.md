@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / FaqBoxElement
 
 # Class: FaqBoxElement
@@ -67,6 +71,7 @@ description of the results element in SERP
 
 ___
 
+
 ### links
 
 • `Optional` **links**: [`LinkElement`](LinkElement.md)[]
@@ -83,6 +88,7 @@ link of the element
 
 ___
 
+
 ### title
 
 • `Optional` **title**: `string`
@@ -98,6 +104,7 @@ title of the element
 [main.ts:27826](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L27826)
 
 ___
+
 
 ### type
 
@@ -135,6 +142,7 @@ type of element
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -155,6 +163,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`FaqBoxElement`](FaqBoxElement.md)
@@ -172,3 +181,7 @@ ___
 #### Defined in
 
 [main.ts:27860](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L27860)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

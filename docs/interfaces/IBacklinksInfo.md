@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IBacklinksInfo
 
 # Interface: IBacklinksInfo
@@ -36,6 +40,7 @@ the total number of backlinks, including dofollow and nofollow links
 
 ___
 
+
 ### dofollow
 
 • `Optional` **dofollow**: `number`
@@ -47,6 +52,7 @@ number of dofollow links
 [main.ts:76059](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L76059)
 
 ___
+
 
 ### referring\_domains
 
@@ -60,6 +66,7 @@ number of referring domains
 
 ___
 
+
 ### referring\_main\_domains
 
 • `Optional` **referring\_main\_domains**: `number`
@@ -71,6 +78,7 @@ number of referring main domains
 [main.ts:76055](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L76055)
 
 ___
+
 
 ### referring\_pages
 
@@ -84,6 +92,7 @@ number of referring pages
 
 ___
 
+
 ### time\_update
 
 • `Optional` **time\_update**: `string`
@@ -96,3 +105,7 @@ example:
 #### Defined in
 
 [main.ts:76067](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L76067)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

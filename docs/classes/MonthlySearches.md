@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / MonthlySearches
 
 # Class: MonthlySearches
@@ -66,6 +70,7 @@ month
 
 ___
 
+
 ### search\_volume
 
 • `Optional` **search\_volume**: `number`
@@ -81,6 +86,7 @@ monthly average search volume rate
 [main.ts:78804](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L78804)
 
 ___
+
 
 ### year
 
@@ -118,6 +124,7 @@ year
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -138,6 +145,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`MonthlySearches`](MonthlySearches.md)
@@ -155,3 +163,7 @@ ___
 #### Defined in
 
 [main.ts:78829](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L78829)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

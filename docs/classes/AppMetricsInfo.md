@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / AppMetricsInfo
 
 # Class: AppMetricsInfo
@@ -69,6 +73,7 @@ total count of Amazon organic SERPs that contain the product
 
 ___
 
+
 ### pos\_1
 
 • `Optional` **pos\_1**: `number`
@@ -84,6 +89,7 @@ number of organic SERPs where the product ranks #1
 [main.ts:100570](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L100570)
 
 ___
+
 
 ### pos\_11\_100
 
@@ -101,6 +107,7 @@ number of organic SERPs where the product ranks #11-100
 
 ___
 
+
 ### pos\_2\_3
 
 • `Optional` **pos\_2\_3**: `number`
@@ -117,6 +124,7 @@ number of organic SERPs where the product ranks #2-3
 
 ___
 
+
 ### pos\_4\_10
 
 • `Optional` **pos\_4\_10**: `number`
@@ -132,6 +140,7 @@ number of organic SERPs where the product ranks #4-10
 [main.ts:100574](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L100574)
 
 ___
+
 
 ### search\_volume
 
@@ -169,6 +178,7 @@ total search volume of the product’s ranking keywords in organic SERP
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -189,6 +199,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`AppMetricsInfo`](AppMetricsInfo.md)
@@ -206,3 +217,7 @@ ___
 #### Defined in
 
 [main.ts:100608](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L100608)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

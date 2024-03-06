@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / OnPageInstantPagesResultInfo
 
 # Class: OnPageInstantPagesResultInfo
@@ -70,6 +74,7 @@ you can find the full list of IPs used by our crawler in the Overview section
 
 ___
 
+
 ### crawl\_progress
 
 • `Optional` **crawl\_progress**: `string`
@@ -86,6 +91,7 @@ possible values: in_progress, finished
 [main.ts:153312](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L153312)
 
 ___
+
 
 ### crawl\_status
 
@@ -104,6 +110,7 @@ in this case the value will be null
 
 ___
 
+
 ### items
 
 • `Optional` **items**: [`BaseOnPageResourceItemInfo`](BaseOnPageResourceItemInfo.md)[]
@@ -119,6 +126,7 @@ items array
 [main.ts:153323](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L153323)
 
 ___
+
 
 ### items\_count
 
@@ -156,6 +164,7 @@ number of items in the results array
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -176,6 +185,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`OnPageInstantPagesResultInfo`](OnPageInstantPagesResultInfo.md)
@@ -193,3 +203,7 @@ ___
 #### Defined in
 
 [main.ts:153354](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L153354)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

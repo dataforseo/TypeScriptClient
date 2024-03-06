@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / KnowledgeGraphImagesItemSerpElementItem
 
 # Class: KnowledgeGraphImagesItemSerpElementItem
@@ -5,7 +9,7 @@
 ## Hierarchy
 
 - [`BaseSerpElementItem`](BaseSerpElementItem.md)
-
+  
   ↳ **`KnowledgeGraphImagesItemSerpElementItem`**
 
 ## Implements
@@ -79,6 +83,7 @@
 
 ___
 
+
 ### items
 
 • `Optional` **items**: [`KnowledgeGraphImagesElement`](KnowledgeGraphImagesElement.md)[]
@@ -95,6 +100,7 @@ items featured in the faq_box
 
 ___
 
+
 ### link
 
 • `Optional` **link**: [`LinkElement`](LinkElement.md)
@@ -110,6 +116,7 @@ link of the element
 [main.ts:26529](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L26529)
 
 ___
+
 
 ### position
 
@@ -129,6 +136,7 @@ left, right
 
 ___
 
+
 ### rank\_absolute
 
 • `Optional` **rank\_absolute**: `number`
@@ -145,6 +153,7 @@ absolute position among all the elements in SERP
 [main.ts:26521](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L26521)
 
 ___
+
 
 ### rank\_group
 
@@ -164,6 +173,7 @@ positions of elements with different type values are omitted from rank_group
 
 ___
 
+
 ### rectangle
 
 • `Optional` **rectangle**: [`Rectangle`](Rectangle.md)
@@ -181,6 +191,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 [main.ts:26535](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L26535)
 
 ___
+
 
 ### xpath
 
@@ -222,6 +233,7 @@ the XPath of the element
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -246,6 +258,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`KnowledgeGraphImagesItemSerpElementItem`](KnowledgeGraphImagesItemSerpElementItem.md)
@@ -267,3 +280,7 @@ ___
 #### Defined in
 
 [main.ts:26565](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L26565)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

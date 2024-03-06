@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / AppendixBingKeywordsDataLimitsRatesDataInfo
 
 # Class: AppendixBingKeywordsDataLimitsRatesDataInfo
@@ -66,6 +70,7 @@
 
 ___
 
+
 ### keywords\_for\_keywords
 
 • `Optional` **keywords\_for\_keywords**: [`AppendixInfo`](AppendixInfo.md)
@@ -79,6 +84,7 @@ ___
 [main.ts:206733](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L206733)
 
 ___
+
 
 ### keywords\_for\_site
 
@@ -94,6 +100,7 @@ ___
 
 ___
 
+
 ### search\_volume
 
 • `Optional` **search\_volume**: [`AppendixInfo`](AppendixInfo.md)
@@ -107,6 +114,7 @@ ___
 [main.ts:206731](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L206731)
 
 ___
+
 
 ### search\_volume\_history
 
@@ -142,6 +150,7 @@ ___
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -162,6 +171,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`AppendixBingKeywordsDataLimitsRatesDataInfo`](AppendixBingKeywordsDataLimitsRatesDataInfo.md)
@@ -179,3 +189,7 @@ ___
 #### Defined in
 
 [main.ts:206760](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L206760)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

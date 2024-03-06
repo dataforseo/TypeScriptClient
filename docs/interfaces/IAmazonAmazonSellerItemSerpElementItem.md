@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IAmazonAmazonSellerItemSerpElementItem
 
 # Interface: IAmazonAmazonSellerItemSerpElementItem
@@ -5,7 +9,7 @@
 ## Hierarchy
 
 - [`IBaseAmazonSerpElementItem`](IBaseAmazonSerpElementItem.md)
-
+  
   ↳ **`IAmazonAmazonSellerItemSerpElementItem`**
 
 ## Implemented by
@@ -48,6 +52,7 @@ condition of the product offered by the seller
 
 ___
 
+
 ### condition\_description
 
 • `Optional` **condition\_description**: `string`
@@ -61,6 +66,7 @@ expanded details on the condition of the product offered by the seller
 
 ___
 
+
 ### delivery\_info
 
 • `Optional` **delivery\_info**: [`AmazonDeliveryInfo`](../classes/AmazonDeliveryInfo.md)
@@ -73,6 +79,7 @@ delivery information including free and fast delivery date ranges
 [main.ts:174371](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L174371)
 
 ___
+
 
 ### position
 
@@ -88,6 +95,7 @@ left, right
 
 ___
 
+
 ### price
 
 • `Optional` **price**: [`PriceInfo`](../classes/PriceInfo.md)
@@ -100,6 +108,7 @@ if there are no details, the value will be null
 [main.ts:174359](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L174359)
 
 ___
+
 
 ### rank\_absolute
 
@@ -114,6 +123,7 @@ absolute position among all the elements found in Amazon Sellers SERP
 
 ___
 
+
 ### rank\_group
 
 • `Optional` **rank\_group**: `number`
@@ -126,6 +136,7 @@ positions of elements with different type values are omitted from rank_group
 [main.ts:174341](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L174341)
 
 ___
+
 
 ### rating
 
@@ -140,6 +151,7 @@ seller popularity rate based on customer reviews
 
 ___
 
+
 ### seller\_name
 
 • `Optional` **seller\_name**: `string`
@@ -151,6 +163,7 @@ business name of the seller
 [main.ts:174352](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L174352)
 
 ___
+
 
 ### seller\_url
 
@@ -164,6 +177,7 @@ url forwarding to the seller’s page on Amazon
 
 ___
 
+
 ### ships\_from
 
 • `Optional` **ships\_from**: `string`
@@ -176,6 +190,7 @@ sender company name
 
 ___
 
+
 ### xpath
 
 • `Optional` **xpath**: `string`
@@ -185,3 +200,7 @@ XPath of the element
 #### Defined in
 
 [main.ts:174350](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L174350)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

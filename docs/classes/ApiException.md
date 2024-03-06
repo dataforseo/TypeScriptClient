@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / ApiException
 
 # Class: ApiException
@@ -5,7 +9,7 @@
 ## Hierarchy
 
 - `Error`
-
+  
   ↳ **`ApiException`**
 
 ## Table of contents
@@ -73,6 +77,7 @@ Error.constructor
 
 ___
 
+
 ### isApiException
 
 • `Protected` **isApiException**: `boolean` = `true`
@@ -82,6 +87,7 @@ ___
 [main.ts:213443](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L213443)
 
 ___
+
 
 ### message
 
@@ -97,6 +103,7 @@ Error.message
 
 ___
 
+
 ### name
 
 • **name**: `string`
@@ -111,6 +118,7 @@ C:/Users/thewa/AppData/Roaming/npm/node_modules/typedoc/node_modules/typescript/
 
 ___
 
+
 ### response
 
 • **response**: `string`
@@ -121,6 +129,7 @@ ___
 
 ___
 
+
 ### result
 
 • **result**: `any`
@@ -130,6 +139,7 @@ ___
 [main.ts:213431](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L213431)
 
 ___
+
 
 ### stack
 
@@ -144,6 +154,7 @@ Error.stack
 C:/Users/thewa/AppData/Roaming/npm/node_modules/typedoc/node_modules/typescript/lib/lib.es5.d.ts:1077
 
 ___
+
 
 ### status
 
@@ -172,3 +183,7 @@ obj is ApiException
 #### Defined in
 
 [main.ts:213445](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L213445)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

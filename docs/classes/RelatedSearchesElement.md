@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / RelatedSearchesElement
 
 # Class: RelatedSearchesElement
@@ -68,6 +72,7 @@ the alt tag of the product image featured in the results
 
 ___
 
+
 ### image\_url
 
 • `Optional` **image\_url**: `string`
@@ -83,6 +88,7 @@ URL of the product image featured in the results
 [main.ts:20991](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L20991)
 
 ___
+
 
 ### title
 
@@ -100,6 +106,7 @@ product title
 
 ___
 
+
 ### type
 
 • `Optional` **type**: `string`
@@ -115,6 +122,7 @@ type of element
 [main.ts:20983](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L20983)
 
 ___
+
 
 ### url
 
@@ -152,6 +160,7 @@ the URL of the product page
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -172,6 +181,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`RelatedSearchesElement`](RelatedSearchesElement.md)
@@ -189,3 +199,7 @@ ___
 #### Defined in
 
 [main.ts:21018](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L21018)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

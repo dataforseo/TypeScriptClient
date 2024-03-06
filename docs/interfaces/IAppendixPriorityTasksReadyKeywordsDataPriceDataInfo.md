@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IAppendixPriorityTasksReadyKeywordsDataPriceDataInfo
 
 # Interface: IAppendixPriorityTasksReadyKeywordsDataPriceDataInfo
@@ -31,6 +35,7 @@ cost, USD
 
 ___
 
+
 ### cost\_type
 
 • `Optional` **cost\_type**: `string`
@@ -43,3 +48,7 @@ per_request – charge for a GET or POST request
 #### Defined in
 
 [main.ts:209563](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L209563)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

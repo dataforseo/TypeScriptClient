@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IAppendixBusinessListingsBusinessDataPriceData
 
 # Interface: IAppendixBusinessListingsBusinessDataPriceData
@@ -31,6 +35,7 @@
 
 ___
 
+
 ### categories\_aggregation
 
 • `Optional` **categories\_aggregation**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](../classes/AppendixKeywordBingKeywordsDataPriceDataInfo.md)
@@ -40,6 +45,7 @@ ___
 [main.ts:210991](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L210991)
 
 ___
+
 
 ### locations
 
@@ -51,6 +57,7 @@ ___
 
 ___
 
+
 ### search
 
 • `Optional` **search**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](../classes/AppendixKeywordBingKeywordsDataPriceDataInfo.md)
@@ -58,3 +65,7 @@ ___
 #### Defined in
 
 [main.ts:210993](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L210993)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

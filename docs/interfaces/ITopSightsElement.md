@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / ITopSightsElement
 
 # Interface: ITopSightsElement
@@ -34,11 +38,12 @@ description of the results element in SERP
 
 ___
 
+
 ### rating
 
 • `Optional` **rating**: [`RatingInfo`](../classes/RatingInfo.md)
 
-the item’s rating 
+the item’s rating
 the popularity rate based on reviews and displayed in SERP
 
 #### Defined in
@@ -46,6 +51,7 @@ the popularity rate based on reviews and displayed in SERP
 [main.ts:31683](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L31683)
 
 ___
+
 
 ### title
 
@@ -59,6 +65,7 @@ title of the row
 
 ___
 
+
 ### type
 
 • `Optional` **type**: `string`
@@ -71,6 +78,7 @@ type of element
 
 ___
 
+
 ### url
 
 • `Optional` **url**: `string`
@@ -80,3 +88,7 @@ URL
 #### Defined in
 
 [main.ts:31678](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L31678)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

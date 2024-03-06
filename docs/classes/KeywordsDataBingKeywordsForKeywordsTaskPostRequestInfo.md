@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / KeywordsDataBingKeywordsForKeywordsTaskPostRequestInfo
 
 # Class: KeywordsDataBingKeywordsForKeywordsTaskPostRequestInfo
@@ -84,6 +88,7 @@ example:
 
 ___
 
+
 ### date\_to
 
 • `Optional` **date\_to**: `string`
@@ -108,6 +113,7 @@ example:
 
 ___
 
+
 ### device
 
 • `Optional` **device**: `string`
@@ -128,6 +134,7 @@ default value: all
 
 ___
 
+
 ### keywords
 
 • `Optional` **keywords**: `string`[]
@@ -146,6 +153,7 @@ the specified keywords will be converted to lowercase, data will be provided in 
 [main.ts:124964](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L124964)
 
 ___
+
 
 ### keywords\_negative
 
@@ -167,6 +175,7 @@ the specified keywords will be converted to lowercase format
 
 ___
 
+
 ### language\_code
 
 • `Optional` **language\_code**: `string`
@@ -186,6 +195,7 @@ en, fr, de
 [main.ts:124998](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L124998)
 
 ___
+
 
 ### language\_name
 
@@ -207,6 +217,7 @@ English, French, German
 
 ___
 
+
 ### location\_code
 
 • `Optional` **location\_code**: `number`
@@ -227,6 +238,7 @@ example:
 [main.ts:124978](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L124978)
 
 ___
+
 
 ### location\_coordinate
 
@@ -250,6 +262,7 @@ example:
 
 ___
 
+
 ### location\_name
 
 • `Optional` **location\_name**: `string`
@@ -270,6 +283,7 @@ London,England,United Kingdom
 [main.ts:124971](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L124971)
 
 ___
+
 
 ### pingback\_url
 
@@ -295,6 +309,7 @@ i.a., the # symbol will be encoded into %23
 
 ___
 
+
 ### postback\_url
 
 • `Optional` **postback\_url**: `string`
@@ -319,6 +334,7 @@ i.a., the # symbol will be encoded into %23
 
 ___
 
+
 ### search\_partners
 
 • `Optional` **search\_partners**: `boolean`
@@ -338,6 +354,7 @@ default value: false – results are returned for Bing, AOL, and Yahoo search ne
 
 ___
 
+
 ### sort\_by
 
 • `Optional` **sort\_by**: `string`
@@ -356,6 +373,7 @@ default value: relevance
 [main.ts:125003](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L125003)
 
 ___
+
 
 ### tag
 
@@ -397,6 +415,7 @@ you will find the specified tag value in the data object of the response
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -417,6 +436,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`KeywordsDataBingKeywordsForKeywordsTaskPostRequestInfo`](KeywordsDataBingKeywordsForKeywordsTaskPostRequestInfo.md)
@@ -434,3 +454,7 @@ ___
 #### Defined in
 
 [main.ts:125109](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L125109)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

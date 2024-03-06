@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IKeywordInfo
 
 # Interface: IKeywordInfo
@@ -40,6 +44,7 @@ you can download the full list of possible categories
 
 ___
 
+
 ### competition
 
 • `Optional` **competition**: `number`
@@ -52,6 +57,7 @@ represents the relative amount of competition associated with the given keyword.
 [main.ts:78981](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L78981)
 
 ___
+
 
 ### competition\_level
 
@@ -69,6 +75,7 @@ learn more about the metric in this help center article
 
 ___
 
+
 ### cpc
 
 • `Optional` **cpc**: `number`
@@ -81,6 +88,7 @@ represents the average cost per click (USD) historically paid for the keyword
 [main.ts:78990](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L78990)
 
 ___
+
 
 ### high\_top\_of\_page\_bid
 
@@ -95,6 +103,7 @@ the value may differ depending on the location specified in a POST request
 [main.ts:79001](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L79001)
 
 ___
+
 
 ### last\_updated\_time
 
@@ -111,6 +120,7 @@ example:
 
 ___
 
+
 ### low\_top\_of\_page\_bid
 
 • `Optional` **low\_top\_of\_page\_bid**: `number`
@@ -125,6 +135,7 @@ the value may differ depending on the location specified in a POST request
 
 ___
 
+
 ### monthly\_searches
 
 • `Optional` **monthly\_searches**: [`MonthlySearches`](../classes/MonthlySearches.md)[]
@@ -138,6 +149,7 @@ represents the (approximate) number of searches on this keyword idea (as availab
 
 ___
 
+
 ### se\_type
 
 • `Optional` **se\_type**: `string`
@@ -150,6 +162,7 @@ search engine type
 
 ___
 
+
 ### search\_volume
 
 • `Optional` **search\_volume**: `number`
@@ -160,3 +173,7 @@ represents the (approximate) number of searches for the given keyword idea on go
 #### Defined in
 
 [main.ts:78993](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L78993)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

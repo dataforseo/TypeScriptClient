@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IBacklinksTimeseriesNewLostSummaryLiveItem
 
 # Interface: IBacklinksTimeseriesNewLostSummaryLiveItem
@@ -40,6 +44,7 @@ example:
 
 ___
 
+
 ### lost\_backlinks
 
 • `Optional` **lost\_backlinks**: `number`
@@ -52,6 +57,7 @@ number of lost backlinks of the target
 [main.ts:139070](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L139070)
 
 ___
+
 
 ### lost\_referring\_domains
 
@@ -66,6 +72,7 @@ number of lost referring domains of the target
 
 ___
 
+
 ### lost\_referring\_main\_domains
 
 • `Optional` **lost\_referring\_main\_domains**: `number`
@@ -78,6 +85,7 @@ number of lost referring main domains of the target
 [main.ts:139082](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L139082)
 
 ___
+
 
 ### new\_backlinks
 
@@ -92,6 +100,7 @@ number of new backlinks pointing to the target
 
 ___
 
+
 ### new\_referring\_domains
 
 • `Optional` **new\_referring\_domains**: `number`
@@ -104,6 +113,7 @@ number of new referring domains pointing to the target
 [main.ts:139073](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L139073)
 
 ___
+
 
 ### new\_referring\_main\_domains
 
@@ -118,6 +128,7 @@ number of new referring main domains pointing to the target
 
 ___
 
+
 ### type
 
 • `Optional` **type**: `string`
@@ -127,3 +138,7 @@ type of element
 #### Defined in
 
 [main.ts:139059](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L139059)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

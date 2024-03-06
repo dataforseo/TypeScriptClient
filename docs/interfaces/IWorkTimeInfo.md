@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IWorkTimeInfo
 
 # Interface: IWorkTimeInfo
@@ -31,6 +35,7 @@ hours in the 24-hour format
 
 ___
 
+
 ### minute
 
 • `Optional` **minute**: `number`
@@ -40,3 +45,7 @@ minutes
 #### Defined in
 
 [main.ts:20631](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L20631)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

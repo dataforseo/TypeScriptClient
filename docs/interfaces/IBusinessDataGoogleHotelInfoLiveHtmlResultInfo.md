@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IBusinessDataGoogleHotelInfoLiveHtmlResultInfo
 
 # Interface: IBusinessDataGoogleHotelInfoLiveHtmlResultInfo
@@ -40,6 +44,7 @@ example:
 
 ___
 
+
 ### items
 
 • `Optional` **items**: [`HtmlItem`](../classes/HtmlItem.md)[]
@@ -51,6 +56,7 @@ HTML pages
 [main.ts:197642](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L197642)
 
 ___
+
 
 ### items\_count
 
@@ -64,6 +70,7 @@ the number of results returned in the items array
 
 ___
 
+
 ### keyword
 
 • `Optional` **keyword**: `string`
@@ -75,6 +82,7 @@ unique hotel identifier specified as "hotel_id:$"
 [main.ts:197625](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L197625)
 
 ___
+
 
 ### language\_code
 
@@ -88,6 +96,7 @@ language code in a POST array
 
 ___
 
+
 ### location\_code
 
 • `Optional` **location\_code**: `number`
@@ -99,6 +108,7 @@ location code in a POST array
 [main.ts:197631](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L197631)
 
 ___
+
 
 ### se\_domain
 
@@ -112,6 +122,7 @@ search engine domain in a POST array
 
 ___
 
+
 ### type
 
 • `Optional` **type**: `string`
@@ -121,3 +132,7 @@ type of element
 #### Defined in
 
 [main.ts:197627](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L197627)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / StoresCountInfo
 
 # Class: StoresCountInfo
@@ -66,6 +70,7 @@ number of stores that offer the product
 
 ___
 
+
 ### count\_from\_text
 
 • `Optional` **count\_from\_text**: `boolean`
@@ -85,6 +90,7 @@ in this case, the parameter is true
 [main.ts:164593](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L164593)
 
 ___
+
 
 ### displayed\_text
 
@@ -122,6 +128,7 @@ text displayed on the Google Shopping page
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -142,6 +149,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`StoresCountInfo`](StoresCountInfo.md)
@@ -159,3 +167,7 @@ ___
 #### Defined in
 
 [main.ts:164618](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L164618)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / ITrustpilotSearchOrganicBusinessDataSerpElementItem
 
 # Interface: ITrustpilotSearchOrganicBusinessDataSerpElementItem
@@ -5,7 +9,7 @@
 ## Hierarchy
 
 - [`IBaseBusinessDataSerpElementItem`](IBaseBusinessDataSerpElementItem.md)
-
+  
   ↳ **`ITrustpilotSearchOrganicBusinessDataSerpElementItem`**
 
 ## Implemented by
@@ -42,6 +46,7 @@ domain of the establishment
 
 ___
 
+
 ### rank\_absolute
 
 • `Optional` **rank\_absolute**: `number`
@@ -54,6 +59,7 @@ absolute position among all reviews on the list
 [main.ts:199183](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L199183)
 
 ___
+
 
 ### rank\_group
 
@@ -68,6 +74,7 @@ positions of elements with different type values are omitted from rank_group
 
 ___
 
+
 ### rating
 
 • `Optional` **rating**: [`RatingInfo`](../classes/RatingInfo.md)
@@ -79,6 +86,7 @@ the rating score of the establishment submitted by reviewers
 [main.ts:199193](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L199193)
 
 ___
+
 
 ### reviews\_count
 
@@ -92,6 +100,7 @@ the total number of reviews
 
 ___
 
+
 ### title
 
 • `Optional` **title**: `string`
@@ -104,6 +113,7 @@ title of the establishment
 
 ___
 
+
 ### url
 
 • `Optional` **url**: `string`
@@ -113,3 +123,7 @@ URL to the establishment
 #### Defined in
 
 [main.ts:199189](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L199189)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IBusinessDataTripadvisorReviewsTaskGetResultInfo
 
 # Interface: IBusinessDataTripadvisorReviewsTaskGetResultInfo
@@ -42,6 +46,7 @@ you can use it to make sure that we provided accurate results
 
 ___
 
+
 ### datetime
 
 • `Optional` **datetime**: `string`
@@ -57,6 +62,7 @@ example:
 
 ___
 
+
 ### items
 
 • `Optional` **items**: [`BaseBusinessDataSerpElementItem`](../classes/BaseBusinessDataSerpElementItem.md)[]
@@ -69,6 +75,7 @@ you can get more results by using the depth parameter when setting a task
 [main.ts:202667](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L202667)
 
 ___
+
 
 ### items\_count
 
@@ -83,6 +90,7 @@ you can get more results by using the depth parameter when setting a task
 
 ___
 
+
 ### language\_code
 
 • `Optional` **language\_code**: `string`
@@ -94,6 +102,7 @@ language code in a POST array
 [main.ts:202669](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L202669)
 
 ___
+
 
 ### location
 
@@ -108,6 +117,7 @@ address of the local establishment for which the reviews are collected
 
 ___
 
+
 ### rating
 
 • `Optional` **rating**: [`RatingInfo`](../classes/RatingInfo.md)
@@ -121,6 +131,7 @@ popularity rate based on reviews and displayed in SERP
 
 ___
 
+
 ### reviews\_count
 
 • `Optional` **reviews\_count**: `number`
@@ -133,6 +144,7 @@ the total number of reviews
 
 ___
 
+
 ### se\_domain
 
 • `Optional` **se\_domain**: `string`
@@ -144,6 +156,7 @@ search engine domain in a POST array
 [main.ts:202642](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L202642)
 
 ___
+
 
 ### title
 
@@ -158,6 +171,7 @@ the name of the local establishment for which the reviews are collected
 
 ___
 
+
 ### type
 
 • `Optional` **type**: `string`
@@ -170,6 +184,7 @@ type of element
 
 ___
 
+
 ### url\_path
 
 • `Optional` **url\_path**: `string`
@@ -179,3 +194,7 @@ URL path received in a POST array
 #### Defined in
 
 [main.ts:202638](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L202638)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

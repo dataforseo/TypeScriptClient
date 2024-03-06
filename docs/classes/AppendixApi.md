@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / AppendixApi
 
 # Class: AppendixApi
@@ -59,6 +63,7 @@
 
 ___
 
+
 ### http
 
 • `Private` **http**: `Object`
@@ -74,6 +79,7 @@ ___
 [main.ts:19170](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L19170)
 
 ___
+
 
 ### jsonParseReviver
 
@@ -116,6 +122,7 @@ Successful operation
 
 ___
 
+
 ### appendixStatus
 
 ▸ **appendixStatus**(): `Promise`\<[`AppendixStatusResponseInfo`](AppendixStatusResponseInfo.md)\>
@@ -131,6 +138,7 @@ Successful operation
 [main.ts:19298](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L19298)
 
 ___
+
 
 ### processAppendixErrors
 
@@ -152,6 +160,7 @@ ___
 
 ___
 
+
 ### processAppendixStatus
 
 ▸ **processAppendixStatus**(`response`): `Promise`\<[`AppendixStatusResponseInfo`](AppendixStatusResponseInfo.md)\>
@@ -171,6 +180,7 @@ ___
 [main.ts:19314](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L19314)
 
 ___
+
 
 ### processUserData
 
@@ -192,6 +202,7 @@ ___
 
 ___
 
+
 ### processWebhookResend
 
 ▸ **processWebhookResend**(`response`): `Promise`\<[`AppendixWebhookResendResponseInfo`](AppendixWebhookResendResponseInfo.md)\>
@@ -212,6 +223,7 @@ ___
 
 ___
 
+
 ### userData
 
 ▸ **userData**(): `Promise`\<[`AppendixUserDataResponseInfo`](AppendixUserDataResponseInfo.md)\>
@@ -227,6 +239,7 @@ Successful operation
 [main.ts:19182](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L19182)
 
 ___
+
 
 ### webhookResend
 
@@ -247,3 +260,7 @@ Successful operation
 #### Defined in
 
 [main.ts:19257](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L19257)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

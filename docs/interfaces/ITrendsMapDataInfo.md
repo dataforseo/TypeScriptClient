@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / ITrendsMapDataInfo
 
 # Interface: ITrendsMapDataInfo
@@ -36,6 +40,7 @@ US-NY
 
 ___
 
+
 ### geo\_name
 
 • `Optional` **geo\_name**: `string`
@@ -48,6 +53,7 @@ you can use this field for matching obtained results with location parameters sp
 [main.ts:120661](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L120661)
 
 ___
+
 
 ### max\_value\_index
 
@@ -63,6 +69,7 @@ if you specified only one keyword, the value will be null
 
 ___
 
+
 ### values
 
 • `Optional` **values**: `number`[]
@@ -77,3 +84,7 @@ a value of 0 means there was not enough data for this term
 #### Defined in
 
 [main.ts:120668](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L120668)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

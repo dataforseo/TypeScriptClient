@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / SslInfo
 
 # Class: SslInfo
@@ -73,6 +77,7 @@ example:
 
 ___
 
+
 ### certificate\_hash
 
 • `Optional` **certificate\_hash**: `string`
@@ -89,6 +94,7 @@ the version of the ssl certificate’s hash function
 [main.ts:143216](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L143216)
 
 ___
+
 
 ### certificate\_issuer
 
@@ -107,6 +113,7 @@ the entity that issued the detected ssl certificate
 
 ___
 
+
 ### certificate\_subject
 
 • `Optional` **certificate\_subject**: `string`
@@ -124,6 +131,7 @@ the entity associated with the public key
 
 ___
 
+
 ### certificate\_version
 
 • `Optional` **certificate\_version**: `string`
@@ -140,6 +148,7 @@ indicates the version of X.509 used by an ssl certificate
 [main.ts:143213](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L143213)
 
 ___
+
 
 ### valid\_certificate
 
@@ -178,6 +187,7 @@ indicates whether the ssl certificate detected on a website is not expired, susp
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -198,6 +208,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`SslInfo`](SslInfo.md)
@@ -215,3 +226,7 @@ ___
 #### Defined in
 
 [main.ts:143250](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L143250)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

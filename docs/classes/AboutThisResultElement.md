@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / AboutThisResultElement
 
 # Class: AboutThisResultElement
@@ -72,6 +76,7 @@ the language of the result
 
 ___
 
+
 ### location
 
 • `Optional` **location**: `string`
@@ -87,6 +92,7 @@ location for which the result is relevant
 [main.ts:20651](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L20651)
 
 ___
+
 
 ### related\_terms
 
@@ -104,6 +110,7 @@ related search terms that appear in the result
 
 ___
 
+
 ### search\_terms
 
 • `Optional` **search\_terms**: `string`[]
@@ -120,6 +127,7 @@ matching search terms that appear in the result
 
 ___
 
+
 ### source
 
 • `Optional` **source**: `string`
@@ -135,6 +143,7 @@ source of additional information about the result
 [main.ts:20642](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L20642)
 
 ___
+
 
 ### source\_info
 
@@ -153,6 +162,7 @@ description of the website from Wikipedia or another additional context
 
 ___
 
+
 ### source\_url
 
 • `Optional` **source\_url**: `string`
@@ -169,6 +179,7 @@ URL to full information from the 'source'
 
 ___
 
+
 ### type
 
 • `Optional` **type**: `string`
@@ -184,6 +195,7 @@ type of element
 [main.ts:20638](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L20638)
 
 ___
+
 
 ### url
 
@@ -221,6 +233,7 @@ result’s URL
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -241,6 +254,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`AboutThisResultElement`](AboutThisResultElement.md)
@@ -258,3 +272,7 @@ ___
 #### Defined in
 
 [main.ts:20694](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L20694)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

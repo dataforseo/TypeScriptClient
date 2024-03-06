@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / ReviewMentionInfo
 
 # Class: ReviewMentionInfo
@@ -69,6 +73,7 @@ count of negative reviews by criterion
 
 ___
 
+
 ### positive\_count
 
 • `Optional` **positive\_count**: `number`
@@ -84,6 +89,7 @@ count of positive reviews by criterion
 [main.ts:195767](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L195767)
 
 ___
+
 
 ### positive\_score
 
@@ -101,6 +107,7 @@ positive score by criterion
 
 ___
 
+
 ### title
 
 • `Optional` **title**: `string`
@@ -117,6 +124,7 @@ title of the evaluated criterion
 
 ___
 
+
 ### total\_count
 
 • `Optional` **total\_count**: `number`
@@ -132,6 +140,7 @@ count of all reviews by criterion
 [main.ts:195771](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L195771)
 
 ___
+
 
 ### visible\_by\_default
 
@@ -170,6 +179,7 @@ indicates whether the review element is visible by default
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -190,6 +200,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`ReviewMentionInfo`](ReviewMentionInfo.md)
@@ -207,3 +218,7 @@ ___
 #### Defined in
 
 [main.ts:195802](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L195802)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

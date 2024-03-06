@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IBacklinksReferringDomainsLiveRequestInfo
 
 # Interface: IBacklinksReferringDomainsLiveRequestInfo
@@ -47,6 +51,7 @@ example:
 
 ___
 
+
 ### backlinks\_status\_type
 
 • `Optional` **backlinks\_status\_type**: `string`
@@ -66,6 +71,7 @@ default value: live
 
 ___
 
+
 ### exclude\_internal\_backlinks
 
 • `Optional` **exclude\_internal\_backlinks**: `boolean`
@@ -80,6 +86,7 @@ default value: true
 [main.ts:134648](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L134648)
 
 ___
+
 
 ### filters
 
@@ -108,6 +115,7 @@ The full list of possible filters is available here.
 
 ___
 
+
 ### include\_indirect\_links
 
 • `Optional` **include\_indirect\_links**: `boolean`
@@ -124,6 +132,7 @@ default value: true
 
 ___
 
+
 ### include\_subdomains
 
 • `Optional` **include\_subdomains**: `boolean`
@@ -138,6 +147,7 @@ default value: true
 [main.ts:134637](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L134637)
 
 ___
+
 
 ### internal\_list\_limit
 
@@ -160,6 +170,7 @@ maximum value: 1000
 
 ___
 
+
 ### limit
 
 • `Optional` **limit**: `number`
@@ -175,6 +186,7 @@ maximum value: 1000
 
 ___
 
+
 ### offset
 
 • `Optional` **offset**: `number`
@@ -189,6 +201,7 @@ if you specify the 10 value, the first ten domains in the results array will be 
 [main.ts:134573](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L134573)
 
 ___
+
 
 ### order\_by
 
@@ -214,6 +227,7 @@ example:
 
 ___
 
+
 ### tag
 
 • `Optional` **tag**: `string`
@@ -230,6 +244,7 @@ you will find the specified tag value in the data object of the response
 
 ___
 
+
 ### target
 
 • `Optional` **target**: `string`
@@ -242,3 +257,7 @@ a page should be specified with absolute URL (including http:// or https://)
 #### Defined in
 
 [main.ts:134563](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L134563)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

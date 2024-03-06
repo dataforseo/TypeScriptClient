@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IShoppingElement
 
 # Interface: IShoppingElement
@@ -37,6 +41,7 @@ description of the results element in SERP
 
 ___
 
+
 ### marketplace
 
 • `Optional` **marketplace**: `string`
@@ -52,6 +57,7 @@ by Google
 
 ___
 
+
 ### marketplace\_url
 
 • `Optional` **marketplace\_url**: `string`
@@ -65,6 +71,7 @@ URL of the page on the marketplace website where the product is hosted
 
 ___
 
+
 ### price
 
 • `Optional` **price**: [`PriceInfo`](../classes/PriceInfo.md)
@@ -76,6 +83,7 @@ price of booking a place for the specified dates of stay
 [main.ts:30476](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L30476)
 
 ___
+
 
 ### source
 
@@ -90,6 +98,7 @@ indicates the source of information included in the element
 
 ___
 
+
 ### title
 
 • `Optional` **title**: `string`
@@ -101,6 +110,7 @@ title of the row
 [main.ts:30474](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L30474)
 
 ___
+
 
 ### type
 
@@ -114,6 +124,7 @@ type of element
 
 ___
 
+
 ### url
 
 • `Optional` **url**: `string`
@@ -123,3 +134,7 @@ URL
 #### Defined in
 
 [main.ts:30491](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L30491)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IAppendixKeywordsKeywordsDataPriceDataInfo
 
 # Interface: IAppendixKeywordsKeywordsDataPriceDataInfo
@@ -29,6 +33,7 @@
 
 ___
 
+
 ### task\_post
 
 • `Optional` **task\_post**: [`AppendixTaskKeywordsDataPriceDataInfo`](../classes/AppendixTaskKeywordsDataPriceDataInfo.md)
@@ -36,3 +41,7 @@ ___
 #### Defined in
 
 [main.ts:209697](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L209697)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

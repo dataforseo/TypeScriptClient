@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / OrganicDataforseoLabsSerpElementItem
 
 # Class: OrganicDataforseoLabsSerpElementItem
@@ -5,7 +9,7 @@
 ## Hierarchy
 
 - [`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md)
-
+  
   ↳ **`OrganicDataforseoLabsSerpElementItem`**
 
 ## Implements
@@ -102,6 +106,7 @@
 
 ___
 
+
 ### about\_this\_result
 
 • `Optional` **about\_this\_result**: [`AboutThisResultElement`](AboutThisResultElement.md)
@@ -120,6 +125,7 @@ this feature appears after clicking on the three dots next to most results
 
 ___
 
+
 ### amp\_version
 
 • `Optional` **amp\_version**: `boolean`
@@ -137,6 +143,7 @@ indicates whether an item has the Accelerated Mobile Page (AMP) version
 
 ___
 
+
 ### backlinks\_info
 
 • `Optional` **backlinks\_info**: [`BacklinksInfo`](BacklinksInfo.md)
@@ -152,6 +159,7 @@ backlinks information for the target website
 [main.ts:86699](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L86699)
 
 ___
+
 
 ### breadcrumb
 
@@ -169,6 +177,7 @@ breadcrumb in SERP
 
 ___
 
+
 ### description
 
 • `Optional` **description**: `string`
@@ -185,6 +194,7 @@ description of the results element in SERP
 
 ___
 
+
 ### domain
 
 • `Optional` **domain**: `string`
@@ -200,6 +210,7 @@ subdomain in SERP
 [main.ts:86638](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L86638)
 
 ___
+
 
 ### estimated\_paid\_traffic\_cost
 
@@ -218,6 +229,7 @@ learn more about how the metric is calculated in this help center article
 [main.ts:86694](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L86694)
 
 ___
+
 
 ### etv
 
@@ -238,6 +250,7 @@ learn more about how the metric is calculated in this help center article
 
 ___
 
+
 ### extended\_snippet
 
 • `Optional` **extended\_snippet**: `string`
@@ -254,6 +267,7 @@ includes additional information appended after the result description in SERP
 
 ___
 
+
 ### highlighted
 
 • `Optional` **highlighted**: `string`[]
@@ -269,6 +283,7 @@ words highlighted in bold within the results description
 [main.ts:86668](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L86668)
 
 ___
+
 
 ### impressions\_etv
 
@@ -289,6 +304,7 @@ learn more about how the metric is calculated in this help center article
 
 ___
 
+
 ### is\_featured\_snippet
 
 • `Optional` **is\_featured\_snippet**: `boolean`
@@ -304,6 +320,7 @@ indicates whether the element is a featured_snippet
 [main.ts:86652](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L86652)
 
 ___
+
 
 ### is\_image
 
@@ -321,6 +338,7 @@ indicates whether the element contains an image
 
 ___
 
+
 ### is\_malicious
 
 • `Optional` **is\_malicious**: `boolean`
@@ -337,6 +355,7 @@ indicates whether the element is marked as malicious
 
 ___
 
+
 ### is\_video
 
 • `Optional` **is\_video**: `boolean`
@@ -352,6 +371,7 @@ indicates whether the element contains a video
 [main.ts:86650](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L86650)
 
 ___
+
 
 ### links
 
@@ -371,6 +391,7 @@ if there are none, equals null
 
 ___
 
+
 ### main\_domain
 
 • `Optional` **main\_domain**: `string`
@@ -386,6 +407,7 @@ primary domain name in SERP
 [main.ts:86678](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L86678)
 
 ___
+
 
 ### position
 
@@ -405,6 +427,7 @@ left, right
 
 ___
 
+
 ### pre\_snippet
 
 • `Optional` **pre\_snippet**: `string`
@@ -420,6 +443,7 @@ includes additional information appended before the result description in SERP
 [main.ts:86658](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L86658)
 
 ___
+
 
 ### rank\_absolute
 
@@ -438,6 +462,7 @@ absolute position among all the elements in SERP
 
 ___
 
+
 ### rank\_changes
 
 • `Optional` **rank\_changes**: [`RankChanges`](RankChanges.md)
@@ -454,6 +479,7 @@ contains information about the ranking changes of the SERP element since the pre
 [main.ts:86697](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L86697)
 
 ___
+
 
 ### rank\_group
 
@@ -472,6 +498,7 @@ positions of elements with different type values are omitted from rank_group
 
 ___
 
+
 ### rank\_info
 
 • `Optional` **rank\_info**: [`RankInfo`](RankInfo.md)
@@ -488,11 +515,12 @@ page and domain rank information
 
 ___
 
+
 ### rating
 
 • `Optional` **rating**: [`RatingInfo`](RatingInfo.md)
 
-the item’s rating 
+the item’s rating
 the popularity rate based on reviews and displayed in SERP
 
 #### Implementation of
@@ -504,6 +532,7 @@ the popularity rate based on reviews and displayed in SERP
 [main.ts:86666](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L86666)
 
 ___
+
 
 ### relative\_url
 
@@ -521,6 +550,7 @@ URL in SERP that does not specify the HTTPs protocol and domain name
 
 ___
 
+
 ### se\_type
 
 • `Optional` **se\_type**: `string`
@@ -536,6 +566,7 @@ search engine type
 [main.ts:86624](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L86624)
 
 ___
+
 
 ### title
 
@@ -553,6 +584,7 @@ title of the result in SERP
 
 ___
 
+
 ### url
 
 • `Optional` **url**: `string`
@@ -569,6 +601,7 @@ relevant URL in SERP
 
 ___
 
+
 ### website\_name
 
 • `Optional` **website\_name**: `string`
@@ -584,6 +617,7 @@ relevant website name in SERP
 [main.ts:86646](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L86646)
 
 ___
+
 
 ### xpath
 
@@ -625,6 +659,7 @@ the XPath of the element
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -649,6 +684,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`OrganicDataforseoLabsSerpElementItem`](OrganicDataforseoLabsSerpElementItem.md)
@@ -670,3 +706,7 @@ ___
 #### Defined in
 
 [main.ts:86758](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L86758)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

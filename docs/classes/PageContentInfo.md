@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / PageContentInfo
 
 # Class: PageContentInfo
@@ -67,6 +71,7 @@ parsed content of the footer
 
 ___
 
+
 ### header
 
 • `Optional` **header**: [`PageSectionContentInfo`](PageSectionContentInfo.md)
@@ -82,6 +87,7 @@ parsed content of the header
 [main.ts:152195](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L152195)
 
 ___
+
 
 ### main\_topic
 
@@ -99,6 +105,7 @@ you can find more information about topic priority calculation in this help cent
 [main.ts:152200](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L152200)
 
 ___
+
 
 ### secondary\_topic
 
@@ -137,6 +144,7 @@ you can find more information about topic priority calculation in this help cent
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -157,6 +165,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`PageContentInfo`](PageContentInfo.md)
@@ -174,3 +183,7 @@ ___
 #### Defined in
 
 [main.ts:152237](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L152237)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / ITrendsTopicListDataInfo
 
 # Interface: ITrendsTopicListDataInfo
@@ -32,6 +36,7 @@ represents the list of related topics with the biggest increase in search freque
 
 ___
 
+
 ### top
 
 • `Optional` **top**: [`TopicListDataItemInfo`](../classes/TopicListDataItemInfo.md)[]
@@ -42,3 +47,7 @@ represents the list of the most popular related topics
 #### Defined in
 
 [main.ts:120903](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L120903)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

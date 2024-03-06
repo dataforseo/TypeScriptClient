@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IBacklinksBacklinksLiveResultInfo
 
 # Interface: IBacklinksBacklinksLiveResultInfo
@@ -40,6 +44,7 @@ custom mode specified in a POST array
 
 ___
 
+
 ### items
 
 • `Optional` **items**: [`BacklinksBacklinksLiveItem`](../classes/BacklinksBacklinksLiveItem.md)[]
@@ -51,6 +56,7 @@ contains relevant backlinks and referring domains data
 [main.ts:131566](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L131566)
 
 ___
+
 
 ### items\_count
 
@@ -64,6 +70,7 @@ the number of results returned in the items array
 
 ___
 
+
 ### mode
 
 • `Optional` **mode**: `string`
@@ -75,6 +82,7 @@ mode specified in a POST array
 [main.ts:131558](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L131558)
 
 ___
+
 
 ### search\_after\_token
 
@@ -90,6 +98,7 @@ search_after_token values are unique for each subsequent task
 
 ___
 
+
 ### target
 
 • `Optional` **target**: `string`
@@ -102,6 +111,7 @@ target domain in a POST array
 
 ___
 
+
 ### total\_count
 
 • `Optional` **total\_count**: `number`
@@ -111,3 +121,7 @@ total amount of results relevant the request
 #### Defined in
 
 [main.ts:131562](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L131562)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

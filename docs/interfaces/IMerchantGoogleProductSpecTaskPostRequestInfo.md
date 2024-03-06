@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IMerchantGoogleProductSpecTaskPostRequestInfo
 
 # Interface: IMerchantGoogleProductSpecTaskPostRequestInfo
@@ -51,6 +55,7 @@ example:
 
 ___
 
+
 ### language\_code
 
 • `Optional` **language\_code**: `string`
@@ -67,6 +72,7 @@ en
 [main.ts:167478](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L167478)
 
 ___
+
 
 ### language\_name
 
@@ -85,6 +91,7 @@ English
 
 ___
 
+
 ### location\_code
 
 • `Optional` **location\_code**: `number`
@@ -101,6 +108,7 @@ example:
 [main.ts:167455](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L167455)
 
 ___
+
 
 ### location\_coordinate
 
@@ -121,6 +129,7 @@ example:
 
 ___
 
+
 ### location\_name
 
 • `Optional` **location\_name**: `string`
@@ -137,6 +146,7 @@ London,England,United Kingdom
 [main.ts:167448](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L167448)
 
 ___
+
 
 ### pingback\_url
 
@@ -158,6 +168,7 @@ i.a., the # symbol will be encoded into %23
 
 ___
 
+
 ### postback\_data
 
 • `Optional` **postback\_data**: `string`
@@ -173,6 +184,7 @@ advanced, html
 [main.ts:167514](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L167514)
 
 ___
+
 
 ### postback\_url
 
@@ -194,6 +206,7 @@ i.a., the # symbol will be encoded into %23
 
 ___
 
+
 ### priority
 
 • `Optional` **priority**: `number`
@@ -212,6 +225,7 @@ The cost can be calculated on the Pricing page.
 
 ___
 
+
 ### product\_id
 
 • `Optional` **product\_id**: `string`
@@ -227,6 +241,7 @@ learn more about the parameter in this help center guide
 [main.ts:167433](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L167433)
 
 ___
+
 
 ### se\_domain
 
@@ -245,6 +260,7 @@ google.co.uk, google.com.au, google.de, etc.
 
 ___
 
+
 ### tag
 
 • `Optional` **tag**: `string`
@@ -258,3 +274,7 @@ you will find the specified tag value in the data object of the response
 #### Defined in
 
 [main.ts:167498](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L167498)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

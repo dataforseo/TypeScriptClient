@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / MerchantGoogleSellersTaskGetHtmlResultInfo
 
 # Class: MerchantGoogleSellersTaskGetHtmlResultInfo
@@ -74,6 +78,7 @@ example:
 
 ___
 
+
 ### items
 
 • `Optional` **items**: [`HtmlItem`](HtmlItem.md)[]
@@ -89,6 +94,7 @@ elements of search results found on Google Shopping
 [main.ts:167056](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L167056)
 
 ___
+
 
 ### items\_count
 
@@ -106,6 +112,7 @@ the number of results returned in the items array
 
 ___
 
+
 ### language\_code
 
 • `Optional` **language\_code**: `string`
@@ -121,6 +128,7 @@ language code in a POST array
 [main.ts:167047](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L167047)
 
 ___
+
 
 ### location\_code
 
@@ -138,6 +146,7 @@ location code in a POST array
 
 ___
 
+
 ### product\_id
 
 • `Optional` **product\_id**: `string`
@@ -154,6 +163,7 @@ product_id received in a POST array
 
 ___
 
+
 ### se\_domain
 
 • `Optional` **se\_domain**: `string`
@@ -169,6 +179,7 @@ search engine domain in a POST array
 [main.ts:167043](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L167043)
 
 ___
+
 
 ### type
 
@@ -206,6 +217,7 @@ type of element
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -226,6 +238,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`MerchantGoogleSellersTaskGetHtmlResultInfo`](MerchantGoogleSellersTaskGetHtmlResultInfo.md)
@@ -243,3 +256,7 @@ ___
 #### Defined in
 
 [main.ts:167090](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L167090)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

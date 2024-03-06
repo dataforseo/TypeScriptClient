@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / DataforseoLabsAmazonProductRankOverviewLiveRequestInfo
 
 # Class: DataforseoLabsAmazonProductRankOverviewLiveRequestInfo
@@ -73,6 +77,7 @@ you can receive the asin parameter by making a separate request to the Amazon Pr
 
 ___
 
+
 ### language\_code
 
 • `Optional` **language\_code**: `string`
@@ -94,6 +99,7 @@ en
 
 ___
 
+
 ### language\_name
 
 • `Optional` **language\_name**: `string`
@@ -114,6 +120,7 @@ English
 [main.ts:100449](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L100449)
 
 ___
+
 
 ### location\_code
 
@@ -137,6 +144,7 @@ example:
 
 ___
 
+
 ### location\_name
 
 • `Optional` **location\_name**: `string`
@@ -158,6 +166,7 @@ United States
 [main.ts:100434](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L100434)
 
 ___
+
 
 ### tag
 
@@ -199,6 +208,7 @@ you will find the specified tag value in the data object of the response
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -219,6 +229,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`DataforseoLabsAmazonProductRankOverviewLiveRequestInfo`](DataforseoLabsAmazonProductRankOverviewLiveRequestInfo.md)
@@ -236,3 +247,7 @@ ___
 #### Defined in
 
 [main.ts:100494](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L100494)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

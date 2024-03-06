@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IDataforseoLabsAppleBulkAppMetricsLiveRequestInfo
 
 # Interface: IDataforseoLabsAppleBulkAppMetricsLiveRequestInfo
@@ -42,6 +46,7 @@ the maximum number of IDs you can specify in this field is 1000
 
 ___
 
+
 ### language\_code
 
 • `Optional` **language\_code**: `string`
@@ -60,6 +65,7 @@ en
 [main.ts:110319](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L110319)
 
 ___
+
 
 ### language\_name
 
@@ -80,6 +86,7 @@ English
 
 ___
 
+
 ### location\_code
 
 • `Optional` **location\_code**: `number`
@@ -98,6 +105,7 @@ example:
 [main.ts:110301](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L110301)
 
 ___
+
 
 ### location\_name
 
@@ -118,6 +126,7 @@ United States
 
 ___
 
+
 ### tag
 
 • `Optional` **tag**: `string`
@@ -131,3 +140,7 @@ you will find the specified tag value in the data object of the response
 #### Defined in
 
 [main.ts:110325](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L110325)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

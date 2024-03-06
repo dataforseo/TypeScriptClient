@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / AppendixBacklinksPriceData
 
 # Class: AppendixBacklinksPriceData
@@ -81,6 +85,7 @@
 
 ___
 
+
 ### backlinks
 
 • `Optional` **backlinks**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](AppendixKeywordBingKeywordsDataPriceDataInfo.md)
@@ -94,6 +99,7 @@ ___
 [main.ts:210816](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L210816)
 
 ___
+
 
 ### bulk\_backlinks
 
@@ -109,6 +115,7 @@ ___
 
 ___
 
+
 ### bulk\_new\_lost\_backlinks
 
 • `Optional` **bulk\_new\_lost\_backlinks**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](AppendixKeywordBingKeywordsDataPriceDataInfo.md)
@@ -122,6 +129,7 @@ ___
 [main.ts:210818](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L210818)
 
 ___
+
 
 ### bulk\_new\_lost\_referring\_domains
 
@@ -137,6 +145,7 @@ ___
 
 ___
 
+
 ### bulk\_ranks
 
 • `Optional` **bulk\_ranks**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](AppendixKeywordBingKeywordsDataPriceDataInfo.md)
@@ -150,6 +159,7 @@ ___
 [main.ts:210820](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L210820)
 
 ___
+
 
 ### bulk\_referring\_domains
 
@@ -165,6 +175,7 @@ ___
 
 ___
 
+
 ### competitors
 
 • `Optional` **competitors**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](AppendixKeywordBingKeywordsDataPriceDataInfo.md)
@@ -178,6 +189,7 @@ ___
 [main.ts:210822](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L210822)
 
 ___
+
 
 ### content\_duplicates
 
@@ -193,6 +205,7 @@ ___
 
 ___
 
+
 ### domain\_intersection
 
 • `Optional` **domain\_intersection**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](AppendixKeywordBingKeywordsDataPriceDataInfo.md)
@@ -206,6 +219,7 @@ ___
 [main.ts:210824](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L210824)
 
 ___
+
 
 ### domain\_pages
 
@@ -221,6 +235,7 @@ ___
 
 ___
 
+
 ### domain\_pages\_summary
 
 • `Optional` **domain\_pages\_summary**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](AppendixKeywordBingKeywordsDataPriceDataInfo.md)
@@ -234,6 +249,7 @@ ___
 [main.ts:210826](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L210826)
 
 ___
+
 
 ### errors
 
@@ -249,6 +265,7 @@ ___
 
 ___
 
+
 ### history
 
 • `Optional` **history**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](AppendixKeywordBingKeywordsDataPriceDataInfo.md)
@@ -262,6 +279,7 @@ ___
 [main.ts:210828](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L210828)
 
 ___
+
 
 ### page\_intersection
 
@@ -277,6 +295,7 @@ ___
 
 ___
 
+
 ### referring\_domains
 
 • `Optional` **referring\_domains**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](AppendixKeywordBingKeywordsDataPriceDataInfo.md)
@@ -290,6 +309,7 @@ ___
 [main.ts:210830](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L210830)
 
 ___
+
 
 ### referring\_networks
 
@@ -305,6 +325,7 @@ ___
 
 ___
 
+
 ### summary
 
 • `Optional` **summary**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](AppendixKeywordBingKeywordsDataPriceDataInfo.md)
@@ -319,6 +340,7 @@ ___
 
 ___
 
+
 ### timeseries\_new\_lost\_summary
 
 • `Optional` **timeseries\_new\_lost\_summary**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](AppendixKeywordBingKeywordsDataPriceDataInfo.md)
@@ -332,6 +354,7 @@ ___
 [main.ts:210833](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L210833)
 
 ___
+
 
 ### timeseries\_summary
 
@@ -367,6 +390,7 @@ ___
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -387,6 +411,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`AppendixBacklinksPriceData`](AppendixBacklinksPriceData.md)
@@ -404,3 +429,7 @@ ___
 #### Defined in
 
 [main.ts:210876](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L210876)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

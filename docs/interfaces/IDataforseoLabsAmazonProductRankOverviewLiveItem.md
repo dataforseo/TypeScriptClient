@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IDataforseoLabsAmazonProductRankOverviewLiveItem
 
 # Interface: IDataforseoLabsAmazonProductRankOverviewLiveItem
@@ -34,6 +38,7 @@ for more information, refer to this help center guide
 
 ___
 
+
 ### metrics
 
 • `Optional` **metrics**: [`AmazonMetricsBundleInfo`](../classes/AmazonMetricsBundleInfo.md)
@@ -46,6 +51,7 @@ average keyword position of the product
 
 ___
 
+
 ### se\_type
 
 • `Optional` **se\_type**: `string`
@@ -55,3 +61,7 @@ search engine type
 #### Defined in
 
 [main.ts:100759](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L100759)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

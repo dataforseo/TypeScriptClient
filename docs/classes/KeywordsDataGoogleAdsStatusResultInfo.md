@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / KeywordsDataGoogleAdsStatusResultInfo
 
 # Class: KeywordsDataGoogleAdsStatusResultInfo
@@ -70,6 +74,7 @@ if the value is false, we are not able to provide data for the previous month
 
 ___
 
+
 ### date\_update
 
 • `Optional` **date\_update**: `string`
@@ -89,6 +94,7 @@ example:
 
 ___
 
+
 ### last\_month\_in\_monthly\_searches
 
 • `Optional` **last\_month\_in\_monthly\_searches**: `number`
@@ -104,6 +110,7 @@ the latest month for which search volume data is available
 [main.ts:112922](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L112922)
 
 ___
+
 
 ### last\_year\_in\_monthly\_searches
 
@@ -141,6 +148,7 @@ the latest year for which search volume data is available
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -161,6 +169,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`KeywordsDataGoogleAdsStatusResultInfo`](KeywordsDataGoogleAdsStatusResultInfo.md)
@@ -178,3 +187,7 @@ ___
 #### Defined in
 
 [main.ts:112948](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L112948)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

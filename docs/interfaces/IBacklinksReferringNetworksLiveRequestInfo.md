@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IBacklinksReferringNetworksLiveRequestInfo
 
 # Interface: IBacklinksReferringNetworksLiveRequestInfo
@@ -48,6 +52,7 @@ example:
 
 ___
 
+
 ### backlinks\_status\_type
 
 • `Optional` **backlinks\_status\_type**: `string`
@@ -67,6 +72,7 @@ default value: live
 
 ___
 
+
 ### exclude\_internal\_backlinks
 
 • `Optional` **exclude\_internal\_backlinks**: `boolean`
@@ -81,6 +87,7 @@ default value: true
 [main.ts:135436](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L135436)
 
 ___
+
 
 ### filters
 
@@ -109,6 +116,7 @@ The full list of possible filters is available here.
 
 ___
 
+
 ### include\_indirect\_links
 
 • `Optional` **include\_indirect\_links**: `boolean`
@@ -125,6 +133,7 @@ default value: true
 
 ___
 
+
 ### include\_subdomains
 
 • `Optional` **include\_subdomains**: `boolean`
@@ -139,6 +148,7 @@ default value: true
 [main.ts:135425](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L135425)
 
 ___
+
 
 ### internal\_list\_limit
 
@@ -161,6 +171,7 @@ maximum value: 1000
 
 ___
 
+
 ### limit
 
 • `Optional` **limit**: `number`
@@ -175,6 +186,7 @@ maximum value: 1000
 [main.ts:135356](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L135356)
 
 ___
+
 
 ### network\_address\_type
 
@@ -191,6 +203,7 @@ default value: ip
 
 ___
 
+
 ### offset
 
 • `Optional` **offset**: `number`
@@ -205,6 +218,7 @@ if you specify the 10 value, the first ten domains in the results array will be 
 [main.ts:135361](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L135361)
 
 ___
+
 
 ### order\_by
 
@@ -230,6 +244,7 @@ example:
 
 ___
 
+
 ### tag
 
 • `Optional` **tag**: `string`
@@ -246,6 +261,7 @@ you will find the specified tag value in the data object of the response
 
 ___
 
+
 ### target
 
 • `Optional` **target**: `string`
@@ -258,3 +274,7 @@ a page should be specified with absolute URL (including http:// or https://)
 #### Defined in
 
 [main.ts:135346](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L135346)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

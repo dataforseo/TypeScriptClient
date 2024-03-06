@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IDataforseoLabsGoogleAppCompetitorsLiveRequestInfo
 
 # Interface: IDataforseoLabsGoogleAppCompetitorsLiveRequestInfo
@@ -45,6 +49,7 @@ the id is org.telegram.messenger
 
 ___
 
+
 ### filters
 
 • `Optional` **filters**: `any`[]
@@ -69,6 +74,7 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 ___
 
+
 ### language\_code
 
 • `Optional` **language\_code**: `string`
@@ -87,6 +93,7 @@ en
 [main.ts:109182](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L109182)
 
 ___
+
 
 ### language\_name
 
@@ -107,6 +114,7 @@ English
 
 ___
 
+
 ### limit
 
 • `Optional` **limit**: `number`
@@ -121,6 +129,7 @@ maximum value: 1000
 [main.ts:109218](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L109218)
 
 ___
+
 
 ### location\_code
 
@@ -141,6 +150,7 @@ example:
 
 ___
 
+
 ### location\_name
 
 • `Optional` **location\_name**: `string`
@@ -160,6 +170,7 @@ United States
 
 ___
 
+
 ### offset
 
 • `Optional` **offset**: `number`
@@ -174,6 +185,7 @@ if you specify the 10 value, the first ten apps in the results array will be omi
 [main.ts:109223](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L109223)
 
 ___
+
 
 ### order\_by
 
@@ -202,6 +214,7 @@ Note: if the item_types array contains item types that are different from organi
 
 ___
 
+
 ### tag
 
 • `Optional` **tag**: `string`
@@ -215,3 +228,7 @@ you will find the specified tag value in the data object of the response
 #### Defined in
 
 [main.ts:109229](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L109229)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

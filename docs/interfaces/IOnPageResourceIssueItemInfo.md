@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IOnPageResourceIssueItemInfo
 
 # Interface: IOnPageResourceIssueItemInfo
@@ -33,6 +37,7 @@ column where the error was found
 
 ___
 
+
 ### line
 
 • `Optional` **line**: `number`
@@ -44,6 +49,7 @@ line where the error was found
 [main.ts:144642](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L144642)
 
 ___
+
 
 ### message
 
@@ -57,6 +63,7 @@ the full list of possible HTML errors can be found here
 [main.ts:144647](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L144647)
 
 ___
+
 
 ### status\_code
 
@@ -76,3 +83,7 @@ possible values:
 #### Defined in
 
 [main.ts:144658](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L144658)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

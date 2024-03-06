@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / MerchantGoogleProductsTaskGetAdvancedResultInfo
 
 # Class: MerchantGoogleProductsTaskGetAdvancedResultInfo
@@ -75,6 +79,7 @@ you can use it to make sure that we provided accurate results
 
 ___
 
+
 ### datetime
 
 • `Optional` **datetime**: `string`
@@ -93,6 +98,7 @@ example:
 [main.ts:165388](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L165388)
 
 ___
+
 
 ### item\_types
 
@@ -113,6 +119,7 @@ google_shopping_sponsored_carousel, google_shopping_paid, google_shopping_serp
 
 ___
 
+
 ### items
 
 • `Optional` **items**: [`BaseMerchantSerpElementItem`](BaseMerchantSerpElementItem.md)[]
@@ -131,6 +138,7 @@ if there are none, equals null
 
 ___
 
+
 ### items\_count
 
 • `Optional` **items\_count**: `number`
@@ -146,6 +154,7 @@ the number of results returned in the items array
 [main.ts:165398](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L165398)
 
 ___
+
 
 ### keyword
 
@@ -164,6 +173,7 @@ keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a s
 
 ___
 
+
 ### language\_code
 
 • `Optional` **language\_code**: `string`
@@ -179,6 +189,7 @@ language code in a POST array
 [main.ts:165380](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L165380)
 
 ___
+
 
 ### location\_code
 
@@ -196,6 +207,7 @@ location code in a POST array
 
 ___
 
+
 ### se\_domain
 
 • `Optional` **se\_domain**: `string`
@@ -211,6 +223,7 @@ search engine domain in a POST array
 [main.ts:165376](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L165376)
 
 ___
+
 
 ### spell
 
@@ -228,6 +241,7 @@ if the search engine provided results for a keyword that was corrected, we will 
 [main.ts:165391](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L165391)
 
 ___
+
 
 ### type
 
@@ -265,6 +279,7 @@ type of element
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -285,6 +300,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`MerchantGoogleProductsTaskGetAdvancedResultInfo`](MerchantGoogleProductsTaskGetAdvancedResultInfo.md)
@@ -302,3 +318,7 @@ ___
 #### Defined in
 
 [main.ts:165443](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L165443)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

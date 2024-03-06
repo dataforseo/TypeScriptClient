@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IJobsElement
 
 # Interface: IJobsElement
@@ -38,6 +42,7 @@ author
 
 ___
 
+
 ### contract\_type
 
 • `Optional` **contract\_type**: `string`
@@ -49,6 +54,7 @@ contract type
 [main.ts:29387](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L29387)
 
 ___
+
 
 ### description
 
@@ -62,6 +68,7 @@ description of the results element in SERP
 
 ___
 
+
 ### job\_posted\_time
 
 • `Optional` **job\_posted\_time**: `string`
@@ -74,6 +81,7 @@ the time when the job was posted
 
 ___
 
+
 ### salary
 
 • `Optional` **salary**: `string`
@@ -85,6 +93,7 @@ salary
 [main.ts:29389](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L29389)
 
 ___
+
 
 ### timestamp
 
@@ -101,6 +110,7 @@ example:
 
 ___
 
+
 ### title
 
 • `Optional` **title**: `string`
@@ -112,6 +122,7 @@ title of the row
 [main.ts:29374](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L29374)
 
 ___
+
 
 ### type
 
@@ -125,6 +136,7 @@ type of element
 
 ___
 
+
 ### url
 
 • `Optional` **url**: `string`
@@ -134,3 +146,7 @@ URL
 #### Defined in
 
 [main.ts:29391](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L29391)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

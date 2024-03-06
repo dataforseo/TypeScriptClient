@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IDataforseoLabsGoogleHistoricalSearchVolumeLiveRequestInfo
 
 # Interface: IDataforseoLabsGoogleHistoricalSearchVolumeLiveRequestInfo
@@ -39,6 +43,7 @@ default value: false
 
 ___
 
+
 ### keywords
 
 • `Optional` **keywords**: `string`[]
@@ -58,6 +63,7 @@ you will not be charged for the keywords omitted in the results
 
 ___
 
+
 ### language\_code
 
 • `Optional` **language\_code**: `string`
@@ -75,6 +81,7 @@ en
 [main.ts:81890](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L81890)
 
 ___
+
 
 ### language\_name
 
@@ -94,6 +101,7 @@ English
 
 ___
 
+
 ### location\_code
 
 • `Optional` **location\_code**: `number`
@@ -111,6 +119,7 @@ example:
 [main.ts:81874](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L81874)
 
 ___
+
 
 ### location\_name
 
@@ -130,6 +139,7 @@ United Kingdom
 
 ___
 
+
 ### tag
 
 • `Optional` **tag**: `string`
@@ -143,3 +153,7 @@ you will find the specified tag value in the data object of the response
 #### Defined in
 
 [main.ts:81901](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L81901)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

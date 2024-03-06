@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / DataforseoLabsGoogleCompetitorsDomainLiveRequestInfo
 
 # Class: DataforseoLabsGoogleCompetitorsDomainLiveRequestInfo
@@ -97,6 +101,7 @@ slideshare.net
 
 ___
 
+
 ### filters
 
 • `Optional` **filters**: `any`[]
@@ -125,6 +130,7 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 ___
 
+
 ### intersecting\_domains
 
 • `Optional` **intersecting\_domains**: `string`[]
@@ -144,6 +150,7 @@ Note: you can specify up to 20 domains in this array
 [main.ts:88126](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L88126)
 
 ___
+
 
 ### item\_types
 
@@ -168,6 +175,7 @@ default value:
 
 ___
 
+
 ### language\_code
 
 • `Optional` **language\_code**: `string`
@@ -189,6 +197,7 @@ en
 [main.ts:88043](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L88043)
 
 ___
+
 
 ### language\_name
 
@@ -212,6 +221,7 @@ English
 
 ___
 
+
 ### limit
 
 • `Optional` **limit**: `number`
@@ -230,6 +240,7 @@ maximum value: 1000
 [main.ts:88088](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L88088)
 
 ___
+
 
 ### location\_code
 
@@ -253,6 +264,7 @@ example:
 
 ___
 
+
 ### location\_name
 
 • `Optional` **location\_name**: `string`
@@ -275,6 +287,7 @@ United Kingdom
 
 ___
 
+
 ### max\_rank\_group
 
 • `Optional` **max\_rank\_group**: `number`
@@ -294,6 +307,7 @@ if you specify 10 here, we will extract competitors from the top 10 Google searc
 
 ___
 
+
 ### offset
 
 • `Optional` **offset**: `number`
@@ -312,6 +326,7 @@ if you specify the 10 value, the first ten keywords in the results array will be
 [main.ts:88093](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L88093)
 
 ___
+
 
 ### order\_by
 
@@ -344,6 +359,7 @@ Note: if the item_types array contains item types that are different from organi
 
 ___
 
+
 ### tag
 
 • `Optional` **tag**: `string`
@@ -363,6 +379,7 @@ you will find the specified tag value in the data object of the response
 [main.ts:88132](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L88132)
 
 ___
+
 
 ### target
 
@@ -403,6 +420,7 @@ the domain should be specified without https:// and www.
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -423,6 +441,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`DataforseoLabsGoogleCompetitorsDomainLiveRequestInfo`](DataforseoLabsGoogleCompetitorsDomainLiveRequestInfo.md)
@@ -440,3 +459,7 @@ ___
 #### Defined in
 
 [main.ts:88184](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L88184)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

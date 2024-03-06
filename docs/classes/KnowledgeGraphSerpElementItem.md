@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / KnowledgeGraphSerpElementItem
 
 # Class: KnowledgeGraphSerpElementItem
@@ -5,7 +9,7 @@
 ## Hierarchy
 
 - [`BaseSerpElementItem`](BaseSerpElementItem.md)
-
+  
   ↳ **`KnowledgeGraphSerpElementItem`**
 
 ## Implements
@@ -86,6 +90,7 @@
 
 ___
 
+
 ### card\_id
 
 • `Optional` **card\_id**: `string`
@@ -101,6 +106,7 @@ card id
 [main.ts:27537](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L27537)
 
 ___
+
 
 ### cid
 
@@ -120,6 +126,7 @@ can be used with Google Reviews API to get a full list of reviews
 
 ___
 
+
 ### description
 
 • `Optional` **description**: `string`
@@ -135,6 +142,7 @@ description of the results element in SERP
 [main.ts:27535](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L27535)
 
 ___
+
 
 ### image\_url
 
@@ -153,6 +161,7 @@ the URL leading to the image on the original resource or DataForSEO storage (in 
 
 ___
 
+
 ### items
 
 • `Optional` **items**: [`BaseSerpElementItem`](BaseSerpElementItem.md)[]
@@ -170,6 +179,7 @@ if there are none, equals null
 
 ___
 
+
 ### logo\_url
 
 • `Optional` **logo\_url**: `string`
@@ -185,6 +195,7 @@ URL of the logo from knowledge graph
 [main.ts:27544](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L27544)
 
 ___
+
 
 ### position
 
@@ -204,6 +215,7 @@ left, right
 
 ___
 
+
 ### rank\_absolute
 
 • `Optional` **rank\_absolute**: `number`
@@ -220,6 +232,7 @@ absolute position among all the elements in SERP
 [main.ts:27523](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L27523)
 
 ___
+
 
 ### rank\_group
 
@@ -239,6 +252,7 @@ positions of elements with different type values are omitted from rank_group
 
 ___
 
+
 ### rectangle
 
 • `Optional` **rectangle**: [`Rectangle`](Rectangle.md)
@@ -257,6 +271,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 ___
 
+
 ### subtitle
 
 • `Optional` **subtitle**: `string`
@@ -272,6 +287,7 @@ subtitle of the item
 [main.ts:27533](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L27533)
 
 ___
+
 
 ### title
 
@@ -289,6 +305,7 @@ title of the result in SERP
 
 ___
 
+
 ### url
 
 • `Optional` **url**: `string`
@@ -304,6 +321,7 @@ relevant URL in SERP
 [main.ts:27539](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L27539)
 
 ___
+
 
 ### xpath
 
@@ -345,6 +363,7 @@ the XPath of the element
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -369,6 +388,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`KnowledgeGraphSerpElementItem`](KnowledgeGraphSerpElementItem.md)
@@ -390,3 +410,7 @@ ___
 #### Defined in
 
 [main.ts:27592](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L27592)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

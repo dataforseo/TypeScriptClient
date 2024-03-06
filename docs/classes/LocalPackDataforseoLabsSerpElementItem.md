@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / LocalPackDataforseoLabsSerpElementItem
 
 # Class: LocalPackDataforseoLabsSerpElementItem
@@ -5,7 +9,7 @@
 ## Hierarchy
 
 - [`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md)
-
+  
   ↳ **`LocalPackDataforseoLabsSerpElementItem`**
 
 ## Implements
@@ -92,6 +96,7 @@
 
 ___
 
+
 ### backlinks\_info
 
 • `Optional` **backlinks\_info**: [`AvgBacklinksInfo`](AvgBacklinksInfo.md)
@@ -107,6 +112,7 @@ backlinks information for the target website
 [main.ts:93319](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L93319)
 
 ___
+
 
 ### description
 
@@ -124,6 +130,7 @@ description of the results element in SERP
 
 ___
 
+
 ### domain
 
 • `Optional` **domain**: `string`
@@ -139,6 +146,7 @@ domain where a link points
 [main.ts:93283](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L93283)
 
 ___
+
 
 ### estimated\_paid\_traffic\_cost
 
@@ -159,6 +167,7 @@ learn more about how the metric is calculated in this help center article
 
 ___
 
+
 ### etv
 
 • `Optional` **etv**: `number`
@@ -177,6 +186,7 @@ learn more about how the metric is calculated in this help center article
 [main.ts:93301](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L93301)
 
 ___
+
 
 ### impressions\_etv
 
@@ -197,6 +207,7 @@ learn more about how the metric is calculated in this help center article
 
 ___
 
+
 ### is\_paid
 
 • `Optional` **is\_paid**: `boolean`
@@ -212,6 +223,7 @@ indicates whether the element is an ad
 [main.ts:93289](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L93289)
 
 ___
+
 
 ### main\_domain
 
@@ -229,6 +241,7 @@ primary domain name in SERP
 
 ___
 
+
 ### phone
 
 • `Optional` **phone**: `string`
@@ -244,6 +257,7 @@ phone number
 [main.ts:93285](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L93285)
 
 ___
+
 
 ### position
 
@@ -263,6 +277,7 @@ left, right
 
 ___
 
+
 ### rank\_absolute
 
 • `Optional` **rank\_absolute**: `number`
@@ -279,6 +294,7 @@ absolute position among all the elements in SERP
 [main.ts:93271](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L93271)
 
 ___
+
 
 ### rank\_changes
 
@@ -298,6 +314,7 @@ Note: the changes are calculated even if the preceding month is not included in 
 
 ___
 
+
 ### rank\_group
 
 • `Optional` **rank\_group**: `number`
@@ -315,6 +332,7 @@ positions of elements with different type values are omitted from rank_group
 
 ___
 
+
 ### rank\_info
 
 • `Optional` **rank\_info**: [`RankInfo`](RankInfo.md)
@@ -331,11 +349,12 @@ page and domain rank information
 
 ___
 
+
 ### rating
 
 • `Optional` **rating**: [`RatingInfo`](RatingInfo.md)
 
-the item’s rating 
+the item’s rating
 the popularity rate based on reviews and displayed in SERP
 
 #### Implementation of
@@ -347,6 +366,7 @@ the popularity rate based on reviews and displayed in SERP
 [main.ts:93292](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L93292)
 
 ___
+
 
 ### relative\_url
 
@@ -364,6 +384,7 @@ URL in SERP that does not specify the HTTPs protocol and domain name
 
 ___
 
+
 ### se\_type
 
 • `Optional` **se\_type**: `string`
@@ -379,6 +400,7 @@ search engine type
 [main.ts:93317](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L93317)
 
 ___
+
 
 ### title
 
@@ -396,6 +418,7 @@ title of the result in SERP
 
 ___
 
+
 ### url
 
 • `Optional` **url**: `string`
@@ -411,6 +434,7 @@ URL link
 [main.ts:93287](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L93287)
 
 ___
+
 
 ### xpath
 
@@ -452,6 +476,7 @@ the XPath of the element
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -476,6 +501,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`LocalPackDataforseoLabsSerpElementItem`](LocalPackDataforseoLabsSerpElementItem.md)
@@ -497,3 +523,7 @@ ___
 #### Defined in
 
 [main.ts:93360](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L93360)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

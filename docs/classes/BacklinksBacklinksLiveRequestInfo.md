@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / BacklinksBacklinksLiveRequestInfo
 
 # Class: BacklinksBacklinksLiveRequestInfo
@@ -84,6 +88,7 @@ default value: live
 
 ___
 
+
 ### custom\_mode
 
 • `Optional` **custom\_mode**: `Object`
@@ -108,6 +113,7 @@ example:
 [main.ts:130577](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L130577)
 
 ___
+
 
 ### field
 
@@ -135,6 +141,7 @@ semantic_location
 [main.ts:130590](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L130590)
 
 ___
+
 
 ### filters
 
@@ -167,6 +174,7 @@ The full list of possible filters is available here.
 
 ___
 
+
 ### include\_indirect\_links
 
 • `Optional` **include\_indirect\_links**: `boolean`
@@ -187,6 +195,7 @@ default value: true
 
 ___
 
+
 ### include\_subdomains
 
 • `Optional` **include\_subdomains**: `boolean`
@@ -206,6 +215,7 @@ default value: true
 
 ___
 
+
 ### limit
 
 • `Optional` **limit**: `number`
@@ -224,6 +234,7 @@ maximum value: 1000
 [main.ts:130644](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L130644)
 
 ___
+
 
 ### mode
 
@@ -247,6 +258,7 @@ default value: as_is
 
 ___
 
+
 ### offset
 
 • `Optional` **offset**: `number`
@@ -266,6 +278,7 @@ Note: the maximum value is 20,000, use the search_after_token if you would like 
 [main.ts:130631](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L130631)
 
 ___
+
 
 ### order\_by
 
@@ -295,6 +308,7 @@ example:
 
 ___
 
+
 ### search\_after\_token
 
 • `Optional` **search\_after\_token**: `string`
@@ -317,6 +331,7 @@ Note: if the search_after_token is specified in the request, all other parameter
 
 ___
 
+
 ### tag
 
 • `Optional` **tag**: `string`
@@ -337,6 +352,7 @@ you will find the specified tag value in the data object of the response
 
 ___
 
+
 ### target
 
 • `Optional` **target**: `string`
@@ -355,6 +371,7 @@ a page should be specified with absolute URL (including http:// or https://)
 [main.ts:130562](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L130562)
 
 ___
+
 
 ### value
 
@@ -394,6 +411,7 @@ can be set from 1 to 1000
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -414,6 +432,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`BacklinksBacklinksLiveRequestInfo`](BacklinksBacklinksLiveRequestInfo.md)
@@ -431,3 +450,7 @@ ___
 #### Defined in
 
 [main.ts:130720](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L130720)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

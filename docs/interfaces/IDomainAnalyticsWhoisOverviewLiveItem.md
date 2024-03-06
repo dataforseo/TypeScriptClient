@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IDomainAnalyticsWhoisOverviewLiveItem
 
 # Interface: IDomainAnalyticsWhoisOverviewLiveItem
@@ -43,6 +47,7 @@ backlink data for the returned domain
 
 ___
 
+
 ### changed\_datetime
 
 • `Optional` **changed\_datetime**: `string`
@@ -57,6 +62,7 @@ example:
 [main.ts:76203](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L76203)
 
 ___
+
 
 ### created\_datetime
 
@@ -73,6 +79,7 @@ example:
 
 ___
 
+
 ### domain
 
 • `Optional` **domain**: `string`
@@ -84,6 +91,7 @@ domain name
 [main.ts:76193](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L76193)
 
 ___
+
 
 ### epp\_status\_codes
 
@@ -97,6 +105,7 @@ the status of a domain name registration as defined by ICANN
 [main.ts:76221](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L76221)
 
 ___
+
 
 ### expiration\_datetime
 
@@ -113,6 +122,7 @@ example:
 
 ___
 
+
 ### first\_seen
 
 • `Optional` **first\_seen**: `string`
@@ -128,6 +138,7 @@ example:
 
 ___
 
+
 ### metrics
 
 • `Optional` **metrics**: [`MetricsBundleInfo`](../classes/MetricsBundleInfo.md)
@@ -139,6 +150,7 @@ ranking data relevant to the specified domain
 [main.ts:76235](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L76235)
 
 ___
+
 
 ### registered
 
@@ -153,6 +165,7 @@ Note: expired domains will remain in the database for only a short period of tim
 [main.ts:76228](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L76228)
 
 ___
+
 
 ### registrar
 
@@ -169,6 +182,7 @@ NameCheap, Inc.
 
 ___
 
+
 ### tld
 
 • `Optional` **tld**: `string`
@@ -182,6 +196,7 @@ top-level domain in the DNS root zone
 
 ___
 
+
 ### updated\_datetime
 
 • `Optional` **updated\_datetime**: `string`
@@ -194,3 +209,7 @@ example:
 #### Defined in
 
 [main.ts:76213](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L76213)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

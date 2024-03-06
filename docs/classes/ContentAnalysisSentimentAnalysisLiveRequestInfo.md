@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / ContentAnalysisSentimentAnalysisLiveRequestInfo
 
 # Class: ContentAnalysisSentimentAnalysisLiveRequestInfo
@@ -86,6 +90,7 @@ for more information about filters, please refer to Content Analysis API – Fil
 
 ___
 
+
 ### internal\_list\_limit
 
 • `Optional` **internal\_list\_limit**: `number`
@@ -111,6 +116,7 @@ maximum value: 20
 
 ___
 
+
 ### keyword
 
 • `Optional` **keyword**: `string`
@@ -134,6 +140,7 @@ example:
 
 ___
 
+
 ### keyword\_fields
 
 • `Optional` **keyword\_fields**: `Object`
@@ -146,8 +153,8 @@ you can indicate several fields;
 Note: to match an exact phrase instead of a stand-alone keyword, use double quotes and backslashes;
 example:
 "keyword_fields": {
-    "snippet": "\"logitech mouse\"",
-    "main_title": "sale"
+"snippet": "\"logitech mouse\"",
+"main_title": "sale"
 }
 
 #### Index signature
@@ -163,6 +170,7 @@ example:
 [main.ts:157630](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L157630)
 
 ___
+
 
 ### page\_type
 
@@ -183,6 +191,7 @@ possible values:
 [main.ts:157636](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L157636)
 
 ___
+
 
 ### positive\_connotation\_threshold
 
@@ -205,6 +214,7 @@ default value: 0.4
 
 ___
 
+
 ### sentiments\_connotation\_threshold
 
 • `Optional` **sentiments\_connotation\_threshold**: `number`
@@ -225,6 +235,7 @@ default value: 0.4
 [main.ts:157661](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L157661)
 
 ___
+
 
 ### tag
 
@@ -266,6 +277,7 @@ you will find the specified tag value in the data object of the response
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -286,6 +298,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`ContentAnalysisSentimentAnalysisLiveRequestInfo`](ContentAnalysisSentimentAnalysisLiveRequestInfo.md)
@@ -303,3 +316,7 @@ ___
 #### Defined in
 
 [main.ts:157728](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L157728)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

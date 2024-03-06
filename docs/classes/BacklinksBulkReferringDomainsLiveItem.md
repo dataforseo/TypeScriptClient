@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / BacklinksBulkReferringDomainsLiveItem
 
 # Class: BacklinksBulkReferringDomainsLiveItem
@@ -69,6 +73,7 @@ note that we calculate main domains (root domains, like example.com) and their s
 
 ___
 
+
 ### referring\_domains\_nofollow
 
 • `Optional` **referring\_domains\_nofollow**: `number`
@@ -84,6 +89,7 @@ number of domains pointing at least one nofollow link to the target
 [main.ts:140430](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L140430)
 
 ___
+
 
 ### referring\_main\_domains
 
@@ -102,6 +108,7 @@ the number of primary (root) domains referring to your target
 
 ___
 
+
 ### referring\_main\_domains\_nofollow
 
 • `Optional` **referring\_main\_domains\_nofollow**: `number`
@@ -117,6 +124,7 @@ number of main domains pointing at least one nofollow link to the target
 [main.ts:140435](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L140435)
 
 ___
+
 
 ### target
 
@@ -154,6 +162,7 @@ domain, subdomain or webpage from a POST array
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -174,6 +183,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`BacklinksBulkReferringDomainsLiveItem`](BacklinksBulkReferringDomainsLiveItem.md)
@@ -191,3 +201,7 @@ ___
 #### Defined in
 
 [main.ts:140462](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L140462)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

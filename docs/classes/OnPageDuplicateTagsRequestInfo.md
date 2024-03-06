@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / OnPageDuplicateTagsRequestInfo
 
 # Class: OnPageDuplicateTagsRequestInfo
@@ -71,6 +75,7 @@ specify a title or description here if you want to receive a list of duplicate p
 
 ___
 
+
 ### id
 
 • `Optional` **id**: `string`
@@ -91,6 +96,7 @@ example:
 
 ___
 
+
 ### limit
 
 • `Optional` **limit**: `number`
@@ -109,6 +115,7 @@ maximum value: 1000
 [main.ts:147060](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L147060)
 
 ___
+
 
 ### offset
 
@@ -129,6 +136,7 @@ if you specify the 10 value, the first ten pages in the results array will be om
 
 ___
 
+
 ### tag
 
 • `Optional` **tag**: `string`
@@ -148,6 +156,7 @@ you will find the specified tag value in the data object of the response
 [main.ts:147071](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L147071)
 
 ___
+
 
 ### type
 
@@ -185,6 +194,7 @@ type of element
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -205,6 +215,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`OnPageDuplicateTagsRequestInfo`](OnPageDuplicateTagsRequestInfo.md)
@@ -222,3 +233,7 @@ ___
 #### Defined in
 
 [main.ts:147099](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L147099)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

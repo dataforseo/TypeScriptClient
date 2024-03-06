@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / AppendixFunctionTypeInfo
 
 # Class: AppendixFunctionTypeInfo
@@ -64,6 +68,7 @@
 
 ___
 
+
 ### html
 
 • `Optional` **html**: `number`
@@ -77,6 +82,7 @@ ___
 [main.ts:206483](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L206483)
 
 ___
+
 
 ### regular
 
@@ -112,6 +118,7 @@ ___
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -132,6 +139,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`AppendixFunctionTypeInfo`](AppendixFunctionTypeInfo.md)
@@ -149,3 +157,7 @@ ___
 #### Defined in
 
 [main.ts:206508](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L206508)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

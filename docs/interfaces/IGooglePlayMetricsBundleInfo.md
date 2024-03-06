@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IGooglePlayMetricsBundleInfo
 
 # Interface: IGooglePlayMetricsBundleInfo
@@ -27,3 +31,7 @@ ranking data from Google Play organic search
 #### Defined in
 
 [main.ts:109279](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L109279)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IOnPageWaterfallItem
 
 # Interface: IOnPageWaterfallItem
@@ -42,6 +46,7 @@ the time it takes until the connection with a server is established (in millisec
 
 ___
 
+
 ### dom\_complete
 
 • `Optional` **dom\_complete**: `number`
@@ -55,6 +60,7 @@ the time it takes until the page and all of its subresources are downloaded (in 
 
 ___
 
+
 ### download\_time
 
 • `Optional` **download\_time**: `number`
@@ -67,6 +73,7 @@ time it takes for a browser to receive a response (in milliseconds)
 
 ___
 
+
 ### duration\_time
 
 • `Optional` **duration\_time**: `number`
@@ -78,6 +85,7 @@ total time it takes until a browser receives a complete response from a server (
 [main.ts:149837](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L149837)
 
 ___
+
 
 ### fetch\_end
 
@@ -92,6 +100,7 @@ the amount of time the browser needs to complete downloading a page
 
 ___
 
+
 ### fetch\_start
 
 • `Optional` **fetch\_start**: `number`
@@ -105,6 +114,7 @@ the amount of time the browser needs to start downloading a page
 
 ___
 
+
 ### page\_url
 
 • `Optional` **page\_url**: `string`
@@ -116,6 +126,7 @@ URL of the page
 [main.ts:149816](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L149816)
 
 ___
+
 
 ### request\_sent\_time
 
@@ -130,6 +141,7 @@ the time it takes until the request to a server is sent (in milliseconds)
 
 ___
 
+
 ### resources
 
 • `Optional` **resources**: [`BaseOnPageResourceItemInfo`](../classes/BaseOnPageResourceItemInfo.md)[]
@@ -142,6 +154,7 @@ contains separate arrays with timing for each resource found on the page
 [main.ts:149846](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L149846)
 
 ___
+
 
 ### time\_to\_interactive
 
@@ -156,6 +169,7 @@ the time it takes until the user can interact with a page (in milliseconds)
 
 ___
 
+
 ### time\_to\_secure\_connection
 
 • `Optional` **time\_to\_secure\_connection**: `number`
@@ -169,6 +183,7 @@ the time it takes until the secure connection with a server is established (in m
 
 ___
 
+
 ### waiting\_time
 
 • `Optional` **waiting\_time**: `number`
@@ -178,3 +193,7 @@ time to first byte (TTFB) in milliseconds
 #### Defined in
 
 [main.ts:149833](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L149833)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

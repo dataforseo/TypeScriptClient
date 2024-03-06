@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IBusinessDataGoogleReviewsTaskGetResultInfo
 
 # Interface: IBusinessDataGoogleReviewsTaskGetResultInfo
@@ -46,6 +50,7 @@ you can use it to make sure that we provided accurate results
 
 ___
 
+
 ### cid
 
 • `Optional` **cid**: `string`
@@ -59,6 +64,7 @@ learn more about the identifier in this help center article
 [main.ts:198541](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L198541)
 
 ___
+
 
 ### datetime
 
@@ -75,6 +81,7 @@ example:
 
 ___
 
+
 ### feature\_id
 
 • `Optional` **feature\_id**: `string`
@@ -87,6 +94,7 @@ learn more about the identifier in this help center article
 [main.ts:198534](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L198534)
 
 ___
+
 
 ### items
 
@@ -101,6 +109,7 @@ you can get more results by using the depth parameter when setting a task
 
 ___
 
+
 ### items\_count
 
 • `Optional` **items\_count**: `number`
@@ -113,6 +122,7 @@ you can get more results by using the depth parameter when setting a task
 [main.ts:198546](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L198546)
 
 ___
+
 
 ### keyword
 
@@ -127,6 +137,7 @@ keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a s
 
 ___
 
+
 ### language\_code
 
 • `Optional` **language\_code**: `string`
@@ -139,6 +150,7 @@ language code in a POST array
 
 ___
 
+
 ### location\_code
 
 • `Optional` **location\_code**: `number`
@@ -150,6 +162,7 @@ location code in a POST array
 [main.ts:198512](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L198512)
 
 ___
+
 
 ### place\_id
 
@@ -164,6 +177,7 @@ learn more about the identifier in this help center article
 
 ___
 
+
 ### rating
 
 • `Optional` **rating**: [`RatingInfo`](../classes/RatingInfo.md)
@@ -177,6 +191,7 @@ popularity rate based on reviews and displayed in SERP
 
 ___
 
+
 ### reviews\_count
 
 • `Optional` **reviews\_count**: `number`
@@ -189,6 +204,7 @@ the total number of reviews
 
 ___
 
+
 ### se\_domain
 
 • `Optional` **se\_domain**: `string`
@@ -200,6 +216,7 @@ search engine domain in a POST array
 [main.ts:198510](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L198510)
 
 ___
+
 
 ### sub\_title
 
@@ -214,6 +231,7 @@ additional information (e.g., address) on the ‘reviews’ element for which th
 
 ___
 
+
 ### title
 
 • `Optional` **title**: `string`
@@ -227,6 +245,7 @@ the name of the local establishment for which the reviews are collected
 
 ___
 
+
 ### type
 
 • `Optional` **type**: `string`
@@ -236,3 +255,7 @@ type of element
 #### Defined in
 
 [main.ts:198508](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L198508)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

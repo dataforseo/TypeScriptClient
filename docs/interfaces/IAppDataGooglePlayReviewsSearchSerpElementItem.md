@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IAppDataGooglePlayReviewsSearchSerpElementItem
 
 # Interface: IAppDataGooglePlayReviewsSearchSerpElementItem
@@ -5,7 +9,7 @@
 ## Hierarchy
 
 - [`IBaseAppDataSerpElementItem`](IBaseAppDataSerpElementItem.md)
-
+  
   ↳ **`IAppDataGooglePlayReviewsSearchSerpElementItem`**
 
 ## Implemented by
@@ -48,6 +52,7 @@ indicates how many users considered the review helpful and voted with the thumbs
 
 ___
 
+
 ### id
 
 • `Optional` **id**: `string`
@@ -59,6 +64,7 @@ id of the review
 [main.ts:181409](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L181409)
 
 ___
+
 
 ### position
 
@@ -73,6 +79,7 @@ can take the following values: left
 
 ___
 
+
 ### rank\_absolute
 
 • `Optional` **rank\_absolute**: `number`
@@ -85,6 +92,7 @@ absolute position among all reviews on the list
 [main.ts:181394](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L181394)
 
 ___
+
 
 ### rank\_group
 
@@ -99,6 +107,7 @@ positions of elements with different type values are omitted from rank_group
 
 ___
 
+
 ### rating
 
 • `Optional` **rating**: [`RatingInfo`](../classes/RatingInfo.md)
@@ -110,6 +119,7 @@ the rating score submitted by the reviewer
 [main.ts:181402](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L181402)
 
 ___
+
 
 ### responses
 
@@ -123,6 +133,7 @@ response from the developer
 
 ___
 
+
 ### review\_text
 
 • `Optional` **review\_text**: `string`
@@ -134,6 +145,7 @@ content of the review
 [main.ts:181417](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L181417)
 
 ___
+
 
 ### timestamp
 
@@ -150,6 +162,7 @@ example:
 
 ___
 
+
 ### title
 
 • `Optional` **title**: `string`
@@ -163,6 +176,7 @@ Google Play doesn’t provide an option to title reviews, so this parameter will
 
 ___
 
+
 ### user\_profile
 
 • `Optional` **user\_profile**: [`AppUserProfileInfo`](../classes/AppUserProfileInfo.md)
@@ -175,6 +189,7 @@ user profile of the reviewer
 
 ___
 
+
 ### version
 
 • `Optional` **version**: `string`
@@ -185,3 +200,7 @@ version of the app for which the review is submitted
 #### Defined in
 
 [main.ts:181400](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L181400)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

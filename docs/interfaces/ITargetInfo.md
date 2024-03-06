@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / ITargetInfo
 
 # Interface: ITargetInfo
@@ -36,6 +40,7 @@ content management system
 
 ___
 
+
 ### country
 
 • `Optional` **country**: `string`
@@ -48,6 +53,7 @@ country code that the target domain is determined to belong to
 
 ___
 
+
 ### ip\_address
 
 • `Optional` **ip\_address**: `string`
@@ -59,6 +65,7 @@ IP address of the target
 [main.ts:129449](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L129449)
 
 ___
+
 
 ### is\_ip
 
@@ -73,6 +80,7 @@ if true, the domain, subdomain or webpage functions as an IP address and does no
 
 ___
 
+
 ### platform\_type
 
 • `Optional` **platform\_type**: `string`[]
@@ -84,6 +92,7 @@ platform type
 [main.ts:129447](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L129447)
 
 ___
+
 
 ### server
 
@@ -97,6 +106,7 @@ server
 
 ___
 
+
 ### target\_spam\_score
 
 • `Optional` **target\_spam\_score**: `number`
@@ -108,3 +118,7 @@ learn more about how the metric is calculated on this help center page
 #### Defined in
 
 [main.ts:129458](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L129458)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

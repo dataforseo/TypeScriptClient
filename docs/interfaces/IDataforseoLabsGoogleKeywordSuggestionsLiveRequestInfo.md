@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IDataforseoLabsGoogleKeywordSuggestionsLiveRequestInfo
 
 # Interface: IDataforseoLabsGoogleKeywordSuggestionsLiveRequestInfo
@@ -47,6 +51,7 @@ default value: false
 
 ___
 
+
 ### filters
 
 • `Optional` **filters**: `any`[]
@@ -75,6 +80,7 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 ___
 
+
 ### ignore\_synonyms
 
 • `Optional` **ignore\_synonyms**: `boolean`
@@ -89,6 +95,7 @@ default value: false
 [main.ts:80871](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L80871)
 
 ___
+
 
 ### include\_seed\_keyword
 
@@ -105,6 +112,7 @@ default value: false
 
 ___
 
+
 ### include\_serp\_info
 
 • `Optional` **include\_serp\_info**: `boolean`
@@ -119,6 +127,7 @@ default value: false
 [main.ts:80861](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L80861)
 
 ___
+
 
 ### keyword
 
@@ -135,6 +144,7 @@ the keywords will be converted to lowercase format
 [main.ts:80815](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L80815)
 
 ___
+
 
 ### language\_code
 
@@ -155,6 +165,7 @@ en
 
 ___
 
+
 ### language\_name
 
 • `Optional` **language\_name**: `string`
@@ -174,6 +185,7 @@ English
 
 ___
 
+
 ### limit
 
 • `Optional` **limit**: `number`
@@ -188,6 +200,7 @@ maximum value: 1000
 [main.ts:80910](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L80910)
 
 ___
+
 
 ### location\_code
 
@@ -208,6 +221,7 @@ example:
 
 ___
 
+
 ### location\_name
 
 • `Optional` **location\_name**: `string`
@@ -227,6 +241,7 @@ United Kingdom
 
 ___
 
+
 ### offset
 
 • `Optional` **offset**: `number`
@@ -241,6 +256,7 @@ if you specify the 10 value, the first ten keywords in the results array will be
 [main.ts:80915](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L80915)
 
 ___
+
 
 ### offset\_token
 
@@ -259,6 +275,7 @@ Note: if the offset_token is specified in the request, all other parameters exce
 [main.ts:80923](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L80923)
 
 ___
+
 
 ### order\_by
 
@@ -286,6 +303,7 @@ example:
 
 ___
 
+
 ### tag
 
 • `Optional` **tag**: `string`
@@ -299,3 +317,7 @@ you will find the specified tag value in the data object of the response
 #### Defined in
 
 [main.ts:80929](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L80929)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

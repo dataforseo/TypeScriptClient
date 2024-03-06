@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / OnPageRedirectChainsRequestInfo
 
 # Class: OnPageRedirectChainsRequestInfo
@@ -78,6 +82,7 @@ examples:
 
 ___
 
+
 ### id
 
 • `Optional` **id**: `string`
@@ -98,6 +103,7 @@ example:
 
 ___
 
+
 ### limit
 
 • `Optional` **limit**: `number`
@@ -116,6 +122,7 @@ maximum value: 1000
 [main.ts:148735](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L148735)
 
 ___
+
 
 ### offset
 
@@ -136,6 +143,7 @@ if you specify the 10 value, the first ten redirect chains in the results array 
 
 ___
 
+
 ### tag
 
 • `Optional` **tag**: `string`
@@ -155,6 +163,7 @@ you will find the specified tag value in the data object of the response
 [main.ts:148757](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L148757)
 
 ___
+
 
 ### url
 
@@ -195,6 +204,7 @@ if you use this field, the API response will return only redirect chains which c
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -215,6 +225,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`OnPageRedirectChainsRequestInfo`](OnPageRedirectChainsRequestInfo.md)
@@ -232,3 +243,7 @@ ___
 #### Defined in
 
 [main.ts:148789](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L148789)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

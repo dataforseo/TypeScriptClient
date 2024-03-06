@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / DataforseoLabsGoogleHistoricalRankOverviewLiveResultInfo
 
 # Class: DataforseoLabsGoogleHistoricalRankOverviewLiveResultInfo
@@ -70,6 +74,7 @@ contains historical ranking and traffic data
 
 ___
 
+
 ### items\_count
 
 • `Optional` **items\_count**: `number`
@@ -85,6 +90,7 @@ the number of results returned in the items array
 [main.ts:96528](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L96528)
 
 ___
+
 
 ### language\_code
 
@@ -102,6 +108,7 @@ language code in a POST array
 
 ___
 
+
 ### location\_code
 
 • `Optional` **location\_code**: `number`
@@ -117,6 +124,7 @@ location code in a POST array
 [main.ts:96522](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L96522)
 
 ___
+
 
 ### se\_type
 
@@ -134,6 +142,7 @@ search engine type
 
 ___
 
+
 ### target
 
 • `Optional` **target**: `string`
@@ -149,6 +158,7 @@ target domain in a POST array
 [main.ts:96520](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L96520)
 
 ___
+
 
 ### total\_count
 
@@ -186,6 +196,7 @@ total amount of results in our database relevant to your request
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -206,6 +217,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`DataforseoLabsGoogleHistoricalRankOverviewLiveResultInfo`](DataforseoLabsGoogleHistoricalRankOverviewLiveResultInfo.md)
@@ -223,3 +235,7 @@ ___
 #### Defined in
 
 [main.ts:96563](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L96563)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

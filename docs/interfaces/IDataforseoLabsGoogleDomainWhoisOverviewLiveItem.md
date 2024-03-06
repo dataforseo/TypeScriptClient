@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IDataforseoLabsGoogleDomainWhoisOverviewLiveItem
 
 # Interface: IDataforseoLabsGoogleDomainWhoisOverviewLiveItem
@@ -42,6 +46,7 @@ backlink data for the returned domain
 
 ___
 
+
 ### changed\_datetime
 
 • `Optional` **changed\_datetime**: `string`
@@ -56,6 +61,7 @@ example:
 [main.ts:85789](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L85789)
 
 ___
+
 
 ### created\_datetime
 
@@ -72,6 +78,7 @@ example:
 
 ___
 
+
 ### domain
 
 • `Optional` **domain**: `string`
@@ -83,6 +90,7 @@ domain name
 [main.ts:85779](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L85779)
 
 ___
+
 
 ### epp\_status\_codes
 
@@ -96,6 +104,7 @@ the status of a domain name registration as defined by ICANN
 [main.ts:85807](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L85807)
 
 ___
+
 
 ### expiration\_datetime
 
@@ -112,6 +121,7 @@ example:
 
 ___
 
+
 ### first\_seen
 
 • `Optional` **first\_seen**: `string`
@@ -126,6 +136,7 @@ example:
 [main.ts:85804](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L85804)
 
 ___
+
 
 ### metrics
 
@@ -143,6 +154,7 @@ ranking data relevant to the specified domain
 
 ___
 
+
 ### registered
 
 • `Optional` **registered**: `boolean`
@@ -156,6 +168,7 @@ Note: expired domains will remain in the database for only a short period of tim
 [main.ts:85814](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L85814)
 
 ___
+
 
 ### registrar
 
@@ -172,6 +185,7 @@ NameCheap, Inc.
 
 ___
 
+
 ### se\_type
 
 • `Optional` **se\_type**: `string`
@@ -183,6 +197,7 @@ search engine type
 [main.ts:85777](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L85777)
 
 ___
+
 
 ### tld
 
@@ -197,6 +212,7 @@ top-level domain in the DNS root zone
 
 ___
 
+
 ### updated\_datetime
 
 • `Optional` **updated\_datetime**: `string`
@@ -209,3 +225,7 @@ example:
 #### Defined in
 
 [main.ts:85799](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L85799)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

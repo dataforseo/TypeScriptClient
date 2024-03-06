@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / DataforseoLabsAppleAppCompetitorsLiveRequestInfo
 
 # Class: DataforseoLabsAppleAppCompetitorsLiveRequestInfo
@@ -79,6 +83,7 @@ the id is 835599320
 
 ___
 
+
 ### filters
 
 • `Optional` **filters**: `any`[]
@@ -107,6 +112,7 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 ___
 
+
 ### language\_code
 
 • `Optional` **language\_code**: `string`
@@ -129,6 +135,7 @@ en
 [main.ts:111148](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L111148)
 
 ___
+
 
 ### language\_name
 
@@ -153,6 +160,7 @@ English
 
 ___
 
+
 ### limit
 
 • `Optional` **limit**: `number`
@@ -171,6 +179,7 @@ maximum value: 1000
 [main.ts:111184](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L111184)
 
 ___
+
 
 ### location\_code
 
@@ -195,6 +204,7 @@ example:
 
 ___
 
+
 ### location\_name
 
 • `Optional` **location\_name**: `string`
@@ -218,6 +228,7 @@ United States
 
 ___
 
+
 ### offset
 
 • `Optional` **offset**: `number`
@@ -236,6 +247,7 @@ if you specify the 10 value, the first ten apps in the results array will be omi
 [main.ts:111189](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L111189)
 
 ___
+
 
 ### order\_by
 
@@ -267,6 +279,7 @@ Note: if the item_types array contains item types that are different from organi
 [main.ts:111179](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L111179)
 
 ___
+
 
 ### tag
 
@@ -308,6 +321,7 @@ you will find the specified tag value in the data object of the response
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -328,6 +342,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`DataforseoLabsAppleAppCompetitorsLiveRequestInfo`](DataforseoLabsAppleAppCompetitorsLiveRequestInfo.md)
@@ -345,3 +360,7 @@ ___
 #### Defined in
 
 [main.ts:111235](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L111235)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

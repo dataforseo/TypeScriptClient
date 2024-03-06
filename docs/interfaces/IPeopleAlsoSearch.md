@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IPeopleAlsoSearch
 
 # Interface: IPeopleAlsoSearch
@@ -35,6 +39,7 @@ learn more about the identifier in this help center article
 
 ___
 
+
 ### feature\_id
 
 • `Optional` **feature\_id**: `string`
@@ -48,11 +53,12 @@ learn more about the identifier in this help center article
 
 ___
 
+
 ### rating
 
 • `Optional` **rating**: [`RatingInfo`](../classes/RatingInfo.md)
 
-the element’s rating 
+the element’s rating
 the popularity rate based on reviews and displayed in SERP
 
 #### Defined in
@@ -60,6 +66,7 @@ the popularity rate based on reviews and displayed in SERP
 [main.ts:188751](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L188751)
 
 ___
+
 
 ### title
 
@@ -71,3 +78,7 @@ the name of the business entity for which the results are collected
 #### Defined in
 
 [main.ts:188748](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L188748)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

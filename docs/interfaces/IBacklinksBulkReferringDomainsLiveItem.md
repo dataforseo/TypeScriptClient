@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IBacklinksBulkReferringDomainsLiveItem
 
 # Interface: IBacklinksBulkReferringDomainsLiveItem
@@ -35,6 +39,7 @@ note that we calculate main domains (root domains, like example.com) and their s
 
 ___
 
+
 ### referring\_domains\_nofollow
 
 • `Optional` **referring\_domains\_nofollow**: `number`
@@ -46,6 +51,7 @@ number of domains pointing at least one nofollow link to the target
 [main.ts:140491](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L140491)
 
 ___
+
 
 ### referring\_main\_domains
 
@@ -60,6 +66,7 @@ the number of primary (root) domains referring to your target
 
 ___
 
+
 ### referring\_main\_domains\_nofollow
 
 • `Optional` **referring\_main\_domains\_nofollow**: `number`
@@ -72,6 +79,7 @@ number of main domains pointing at least one nofollow link to the target
 
 ___
 
+
 ### target
 
 • `Optional` **target**: `string`
@@ -81,3 +89,7 @@ domain, subdomain or webpage from a POST array
 #### Defined in
 
 [main.ts:140486](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L140486)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

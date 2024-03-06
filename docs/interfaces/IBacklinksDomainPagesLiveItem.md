@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IBacklinksDomainPagesLiveItem
 
 # Interface: IBacklinksDomainPagesLiveItem
@@ -47,6 +51,7 @@ type of encoding
 
 ___
 
+
 ### domain
 
 • `Optional` **domain**: `string`
@@ -60,6 +65,7 @@ domain where the page was found
 
 ___
 
+
 ### encoded\_size
 
 • `Optional` **encoded\_size**: `number`
@@ -72,6 +78,7 @@ indicates the size of the encoded page, in bytes
 [main.ts:133406](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L133406)
 
 ___
+
 
 ### fetch\_time
 
@@ -87,6 +94,7 @@ example:
 [main.ts:133396](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L133396)
 
 ___
+
 
 ### first\_visited
 
@@ -104,6 +112,7 @@ example:
 
 ___
 
+
 ### ip
 
 • `Optional` **ip**: `string`
@@ -115,6 +124,7 @@ Internet Protocol address
 [main.ts:133380](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L133380)
 
 ___
+
 
 ### location
 
@@ -129,6 +139,7 @@ indicates the URL to redirect a page to if exists
 
 ___
 
+
 ### main\_domain
 
 • `Optional` **main\_domain**: `string`
@@ -142,6 +153,7 @@ main website domain does not include subdomains
 
 ___
 
+
 ### media\_type
 
 • `Optional` **media\_type**: `string`
@@ -154,6 +166,7 @@ types of media used to display a page
 
 ___
 
+
 ### meta
 
 • `Optional` **meta**: [`BacklinksPageMeta`](../classes/BacklinksPageMeta.md)
@@ -165,6 +178,7 @@ page meta data
 [main.ts:133414](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L133414)
 
 ___
+
 
 ### page
 
@@ -179,6 +193,7 @@ relevant page URL
 
 ___
 
+
 ### page\_summary
 
 • `Optional` **page\_summary**: [`PageSummary`](../classes/PageSummary.md)
@@ -190,6 +205,7 @@ contains backlink data for this page
 [main.ts:133416](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L133416)
 
 ___
+
 
 ### prev\_visited
 
@@ -206,6 +222,7 @@ example:
 
 ___
 
+
 ### server
 
 • `Optional` **server**: `string`
@@ -217,6 +234,7 @@ server version
 [main.ts:133412](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L133412)
 
 ___
+
 
 ### size
 
@@ -230,6 +248,7 @@ indicates the page size, in bytes
 
 ___
 
+
 ### status\_code
 
 • `Optional` **status\_code**: `number`
@@ -241,6 +260,7 @@ HTTP status code of the page
 [main.ts:133398](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L133398)
 
 ___
+
 
 ### tld
 
@@ -255,6 +275,7 @@ top-level domain in the DNS root zone
 
 ___
 
+
 ### type
 
 • `Optional` **type**: `string`
@@ -264,3 +285,7 @@ type of element
 #### Defined in
 
 [main.ts:133366](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L133366)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / AppDataGoogleAppListingsCategoriesResultInfo
 
 # Class: AppDataGoogleAppListingsCategoriesResultInfo
@@ -65,6 +69,7 @@ name of the supported app category
 
 ___
 
+
 ### count
 
 • `Optional` **count**: `number`
@@ -101,6 +106,7 @@ number of app listings that make up the supported app category
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -121,6 +127,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`AppDataGoogleAppListingsCategoriesResultInfo`](AppDataGoogleAppListingsCategoriesResultInfo.md)
@@ -138,3 +145,7 @@ ___
 #### Defined in
 
 [main.ts:181920](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L181920)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IMerchantAmazonSellersTaskGetHtmlResultInfo
 
 # Interface: IMerchantAmazonSellersTaskGetHtmlResultInfo
@@ -37,6 +41,7 @@ ASIN received in a POST array
 
 ___
 
+
 ### datetime
 
 • `Optional` **datetime**: `string`
@@ -52,6 +57,7 @@ example:
 
 ___
 
+
 ### items
 
 • `Optional` **items**: [`HtmlItem`](../classes/HtmlItem.md)[]
@@ -63,6 +69,7 @@ elements of search results found on Amazon
 [main.ts:174739](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L174739)
 
 ___
+
 
 ### items\_count
 
@@ -76,6 +83,7 @@ the number of results returned in the items array
 
 ___
 
+
 ### language\_code
 
 • `Optional` **language\_code**: `string`
@@ -87,6 +95,7 @@ language code in a POST array
 [main.ts:174730](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L174730)
 
 ___
+
 
 ### location\_code
 
@@ -100,6 +109,7 @@ location code in a POST array
 
 ___
 
+
 ### se\_domain
 
 • `Optional` **se\_domain**: `string`
@@ -112,6 +122,7 @@ search engine domain in a POST array
 
 ___
 
+
 ### type
 
 • `Optional` **type**: `string`
@@ -121,3 +132,7 @@ type of element
 #### Defined in
 
 [main.ts:174724](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L174724)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IAmazonKeywordInfo
 
 # Interface: IAmazonKeywordInfo
@@ -34,6 +38,7 @@ example:    '2019-11-15 12:57:46 +00:00'
 
 ___
 
+
 ### se\_type
 
 • `Optional` **se\_type**: `string`
@@ -46,6 +51,7 @@ search engine type
 
 ___
 
+
 ### search\_volume
 
 • `Optional` **search\_volume**: `number`
@@ -56,3 +62,7 @@ represents the (approximate) number of searches for the provided keyword idea on
 #### Defined in
 
 [main.ts:21446](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L21446)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

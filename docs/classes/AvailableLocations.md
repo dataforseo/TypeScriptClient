@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / AvailableLocations
 
 # Class: AvailableLocations
@@ -67,6 +71,7 @@ ISO country code of the location
 
 ___
 
+
 ### location\_code
 
 • `Optional` **location\_code**: `string`
@@ -83,6 +88,7 @@ location code
 
 ___
 
+
 ### location\_name
 
 • `Optional` **location\_name**: `string`
@@ -98,6 +104,7 @@ location name
 [main.ts:126339](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L126339)
 
 ___
+
 
 ### location\_type
 
@@ -137,6 +144,7 @@ Country, Region
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -157,6 +165,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`AvailableLocations`](AvailableLocations.md)
@@ -174,3 +183,7 @@ ___
 #### Defined in
 
 [main.ts:126371](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L126371)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / IPopularTimes
 
 # Interface: IPopularTimes
@@ -32,3 +36,7 @@ information about busy hours of the local establishment on each day of the week
 #### Defined in
 
 [main.ts:188927](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L188927)
+
+[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / MerchantAmazonSellersTaskGetAdvancedResultInfo
 
 # Class: MerchantAmazonSellersTaskGetAdvancedResultInfo
@@ -76,6 +80,7 @@ learn more about ASINs in this help center guide
 
 ___
 
+
 ### check\_url
 
 • `Optional` **check\_url**: `string`
@@ -92,6 +97,7 @@ you can use it to make sure the provided results are accurate
 [main.ts:174390](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L174390)
 
 ___
+
 
 ### datetime
 
@@ -112,6 +118,7 @@ example:
 
 ___
 
+
 ### image
 
 • `Optional` **image**: `string`
@@ -128,6 +135,7 @@ image URL of the product relevant to the asin received in a POST array
 [main.ts:174401](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L174401)
 
 ___
+
 
 ### item\_types
 
@@ -148,6 +156,7 @@ amazon_seller_main_item, amazon_seller_item
 
 ___
 
+
 ### items
 
 • `Optional` **items**: [`BaseAmazonSerpElementItem`](BaseAmazonSerpElementItem.md)[]
@@ -163,6 +172,7 @@ items in SERP
 [main.ts:174410](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L174410)
 
 ___
+
 
 ### items\_count
 
@@ -180,6 +190,7 @@ the number of results returned in the items array
 
 ___
 
+
 ### language\_code
 
 • `Optional` **language\_code**: `string`
@@ -195,6 +206,7 @@ language code received in a POST array
 [main.ts:174387](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L174387)
 
 ___
+
 
 ### location\_code
 
@@ -212,6 +224,7 @@ location code received in a POST array
 
 ___
 
+
 ### se\_domain
 
 • `Optional` **se\_domain**: `string`
@@ -227,6 +240,7 @@ search engine domain received in a POST array
 [main.ts:174383](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L174383)
 
 ___
+
 
 ### title
 
@@ -244,6 +258,7 @@ title of the product relevant to the asin received in a POST array
 [main.ts:174398](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L174398)
 
 ___
+
 
 ### type
 
@@ -281,6 +296,7 @@ type of element
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -301,6 +317,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`MerchantAmazonSellersTaskGetAdvancedResultInfo`](MerchantAmazonSellersTaskGetAdvancedResultInfo.md)
@@ -318,3 +335,7 @@ ___
 #### Defined in
 
 [main.ts:174452](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L174452)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")

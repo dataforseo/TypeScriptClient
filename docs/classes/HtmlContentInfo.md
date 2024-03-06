@@ -1,3 +1,7 @@
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
+
 [dataforseo-client](../README.md) / [Exports](../modules.md) / HtmlContentInfo
 
 # Class: HtmlContentInfo
@@ -74,6 +78,7 @@ Automated Readability Index
 
 ___
 
+
 ### coleman\_liau\_readability\_index
 
 • `Optional` **coleman\_liau\_readability\_index**: `number`
@@ -90,6 +95,7 @@ Coleman–Liau Index
 
 ___
 
+
 ### dale\_chall\_readability\_index
 
 • `Optional` **dale\_chall\_readability\_index**: `number`
@@ -105,6 +111,7 @@ Dale–Chall Readability Index
 [main.ts:144058](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L144058)
 
 ___
+
 
 ### description\_to\_content\_consistency
 
@@ -123,6 +130,7 @@ measured from 0 to 1
 
 ___
 
+
 ### flesch\_kincaid\_readability\_index
 
 • `Optional` **flesch\_kincaid\_readability\_index**: `number`
@@ -138,6 +146,7 @@ Flesch–Kincaid Readability Index
 [main.ts:144060](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L144060)
 
 ___
+
 
 ### meta\_keywords\_to\_content\_consistency
 
@@ -156,6 +165,7 @@ measured from 0 to 1
 
 ___
 
+
 ### plain\_text\_rate
 
 • `Optional` **plain\_text\_rate**: `number`
@@ -173,6 +183,7 @@ plain_text_size to size ratio
 
 ___
 
+
 ### plain\_text\_size
 
 • `Optional` **plain\_text\_size**: `number`
@@ -188,6 +199,7 @@ total size of the text on the page measured in bytes
 [main.ts:144047](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L144047)
 
 ___
+
 
 ### plain\_text\_word\_count
 
@@ -205,6 +217,7 @@ number of words on the page
 
 ___
 
+
 ### smog\_readability\_index
 
 • `Optional` **smog\_readability\_index**: `number`
@@ -220,6 +233,7 @@ SMOG Readability Index
 [main.ts:144062](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L144062)
 
 ___
+
 
 ### title\_to\_content\_consistency
 
@@ -258,6 +272,7 @@ measured from 0 to 1
 
 ___
 
+
 ### toJSON
 
 ▸ **toJSON**(`data?`): `any`
@@ -278,6 +293,7 @@ ___
 
 ___
 
+
 ### fromJS
 
 ▸ **fromJS**(`data`): [`HtmlContentInfo`](HtmlContentInfo.md)
@@ -295,3 +311,7 @@ ___
 #### Defined in
 
 [main.ts:144104](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L144104)
+
+[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
+
+[[Back to README.md]](./../../README.md "[Back to README.md]")
