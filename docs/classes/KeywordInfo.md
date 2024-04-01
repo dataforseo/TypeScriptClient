@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / KeywordInfo
+[Documentation](../README.md) / [Exports](../modules.md) / KeywordInfo
 
 # Class: KeywordInfo
 
@@ -57,7 +53,7 @@
 
 #### Defined in
 
-[main.ts:78900](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L78900)
+main.ts:81277
 
 ## Properties
 
@@ -74,10 +70,9 @@ you can download the full list of possible categories
 
 #### Defined in
 
-[main.ts:78893](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L78893)
+main.ts:81270
 
 ___
-
 
 ### competition
 
@@ -92,10 +87,9 @@ represents the relative amount of competition associated with the given keyword.
 
 #### Defined in
 
-[main.ts:78870](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L78870)
+main.ts:81247
 
 ___
-
 
 ### competition\_level
 
@@ -113,10 +107,9 @@ learn more about the metric in this help center article
 
 #### Defined in
 
-[main.ts:78876](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L78876)
+main.ts:81253
 
 ___
-
 
 ### cpc
 
@@ -131,10 +124,9 @@ represents the average cost per click (USD) historically paid for the keyword
 
 #### Defined in
 
-[main.ts:78879](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L78879)
+main.ts:81256
 
 ___
-
 
 ### high\_top\_of\_page\_bid
 
@@ -150,10 +142,9 @@ the value may differ depending on the location specified in a POST request
 
 #### Defined in
 
-[main.ts:78890](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L78890)
+main.ts:81267
 
 ___
-
 
 ### last\_updated\_time
 
@@ -170,10 +161,9 @@ example:
 
 #### Defined in
 
-[main.ts:78867](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L78867)
+main.ts:81244
 
 ___
-
 
 ### low\_top\_of\_page\_bid
 
@@ -189,10 +179,9 @@ the value may differ depending on the location specified in a POST request
 
 #### Defined in
 
-[main.ts:78886](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L78886)
+main.ts:81263
 
 ___
-
 
 ### monthly\_searches
 
@@ -207,10 +196,9 @@ represents the (approximate) number of searches on this keyword idea (as availab
 
 #### Defined in
 
-[main.ts:78896](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L78896)
+main.ts:81273
 
 ___
-
 
 ### se\_type
 
@@ -224,10 +212,9 @@ search engine type
 
 #### Defined in
 
-[main.ts:78862](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L78862)
+main.ts:81239
 
 ___
-
 
 ### search\_volume
 
@@ -242,7 +229,7 @@ represents the (approximate) number of searches for the given keyword idea on go
 
 #### Defined in
 
-[main.ts:78882](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L78882)
+main.ts:81259
 
 ## Methods
 
@@ -262,10 +249,9 @@ represents the (approximate) number of searches for the given keyword idea on go
 
 #### Defined in
 
-[main.ts:78909](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L78909)
+main.ts:81286
 
 ___
-
 
 ### toJSON
 
@@ -283,10 +269,9 @@ ___
 
 #### Defined in
 
-[main.ts:78943](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L78943)
+main.ts:81320
 
 ___
-
 
 ### fromJS
 
@@ -304,8 +289,4 @@ ___
 
 #### Defined in
 
-[main.ts:78936](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L78936)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:81313

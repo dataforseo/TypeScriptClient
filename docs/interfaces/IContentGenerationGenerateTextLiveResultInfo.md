@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IContentGenerationGenerateTextLiveResultInfo
+[Documentation](../README.md) / [Exports](../modules.md) / IContentGenerationGenerateTextLiveResultInfo
 
 # Interface: IContentGenerationGenerateTextLiveResultInfo
 
@@ -34,10 +30,9 @@ resulting text
 
 #### Defined in
 
-[main.ts:160450](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L160450)
+main.ts:165877
 
 ___
-
 
 ### input\_tokens
 
@@ -47,10 +42,9 @@ number of input tokens
 
 #### Defined in
 
-[main.ts:160444](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L160444)
+main.ts:165871
 
 ___
-
 
 ### new\_tokens
 
@@ -60,10 +54,9 @@ number of new tokens
 
 #### Defined in
 
-[main.ts:160448](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L160448)
+main.ts:165875
 
 ___
-
 
 ### output\_tokens
 
@@ -73,10 +66,9 @@ number of output tokens
 
 #### Defined in
 
-[main.ts:160446](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L160446)
+main.ts:165873
 
 ___
-
 
 ### supplement\_token
 
@@ -88,8 +80,4 @@ supplement_token values are unique for each subsequent task
 
 #### Defined in
 
-[main.ts:160454](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L160454)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:165881

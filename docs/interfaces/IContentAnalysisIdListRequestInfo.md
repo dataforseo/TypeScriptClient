@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IContentAnalysisIdListRequestInfo
+[Documentation](../README.md) / [Exports](../modules.md) / IContentAnalysisIdListRequestInfo
 
 # Interface: IContentAnalysisIdListRequestInfo
 
@@ -41,10 +37,9 @@ example:
 
 #### Defined in
 
-[main.ts:155098](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L155098)
+main.ts:160525
 
 ___
-
 
 ### datetime\_to
 
@@ -59,10 +54,9 @@ example:
 
 #### Defined in
 
-[main.ts:155105](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L155105)
+main.ts:160532
 
 ___
-
 
 ### include\_metadata
 
@@ -74,10 +68,9 @@ default value: false
 
 #### Defined in
 
-[main.ts:155124](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L155124)
+main.ts:160551
 
 ___
-
 
 ### limit
 
@@ -90,10 +83,9 @@ maximum value: 1000
 
 #### Defined in
 
-[main.ts:155110](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L155110)
+main.ts:160537
 
 ___
-
 
 ### offset
 
@@ -106,10 +98,9 @@ if you specify the 10 value, the first ten tasks in the results array will be om
 
 #### Defined in
 
-[main.ts:155115](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L155115)
+main.ts:160542
 
 ___
-
 
 ### sort
 
@@ -122,8 +113,4 @@ default value: "asc"
 
 #### Defined in
 
-[main.ts:155120](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L155120)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:160547

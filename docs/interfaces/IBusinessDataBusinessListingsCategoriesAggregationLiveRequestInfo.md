@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IBusinessDataBusinessListingsCategoriesAggregationLiveRequestInfo
+[Documentation](../README.md) / [Exports](../modules.md) / IBusinessDataBusinessListingsCategoriesAggregationLiveRequestInfo
 
 # Interface: IBusinessDataBusinessListingsCategoriesAggregationLiveRequestInfo
 
@@ -43,10 +39,9 @@ you can specify up to 10 categories
 
 #### Defined in
 
-[main.ts:189701](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L189701)
+main.ts:195154
 
 ___
-
 
 ### description
 
@@ -59,10 +54,9 @@ can contain up to 200 symbols
 
 #### Defined in
 
-[main.ts:189706](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L189706)
+main.ts:195159
 
 ___
-
 
 ### initial\_dataset\_filters
 
@@ -81,10 +75,9 @@ you can receive the list of available filters by making a separate request to h
 
 #### Defined in
 
-[main.ts:189734](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L189734)
+main.ts:195187
 
 ___
-
 
 ### internal\_list\_limit
 
@@ -97,10 +90,9 @@ default value: 10
 
 #### Defined in
 
-[main.ts:189739](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L189739)
+main.ts:195192
 
 ___
-
 
 ### is\_claimed
 
@@ -111,10 +103,9 @@ optional field
 
 #### Defined in
 
-[main.ts:189714](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L189714)
+main.ts:195167
 
 ___
-
 
 ### limit
 
@@ -127,10 +118,9 @@ maximum value: 1000
 
 #### Defined in
 
-[main.ts:189744](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L189744)
+main.ts:195197
 
 ___
-
 
 ### location\_coordinate
 
@@ -147,10 +137,9 @@ example:
 
 #### Defined in
 
-[main.ts:189723](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L189723)
+main.ts:195176
 
 ___
-
 
 ### offset
 
@@ -161,10 +150,9 @@ optional field
 
 #### Defined in
 
-[main.ts:189747](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L189747)
+main.ts:195200
 
 ___
-
 
 ### tag
 
@@ -178,10 +166,9 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-[main.ts:189753](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L189753)
+main.ts:195206
 
 ___
-
 
 ### title
 
@@ -194,8 +181,4 @@ can contain up to 200 symbols
 
 #### Defined in
 
-[main.ts:189711](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L189711)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:195164

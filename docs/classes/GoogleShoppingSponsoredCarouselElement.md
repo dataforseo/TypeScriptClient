@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / GoogleShoppingSponsoredCarouselElement
+[Documentation](../README.md) / [Exports](../modules.md) / GoogleShoppingSponsoredCarouselElement
 
 # Class: GoogleShoppingSponsoredCarouselElement
 
@@ -58,7 +54,7 @@
 
 #### Defined in
 
-[main.ts:165076](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L165076)
+main.ts:170503
 
 ## Properties
 
@@ -76,10 +72,9 @@ USD
 
 #### Defined in
 
-[main.ts:165060](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L165060)
+main.ts:170487
 
 ___
-
 
 ### delivery\_info
 
@@ -94,10 +89,9 @@ delivery information including free and fast delivery date ranges
 
 #### Defined in
 
-[main.ts:165072](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L165072)
+main.ts:170499
 
 ___
-
 
 ### price
 
@@ -113,10 +107,9 @@ example:
 
 #### Defined in
 
-[main.ts:165056](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L165056)
+main.ts:170483
 
 ___
-
 
 ### product\_images
 
@@ -131,10 +124,9 @@ the first URL in the array is the featured image of the product
 
 #### Defined in
 
-[main.ts:165066](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L165066)
+main.ts:170493
 
 ___
-
 
 ### product\_rating
 
@@ -149,10 +141,9 @@ the product popularity rate based on product reviews
 
 #### Defined in
 
-[main.ts:165063](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L165063)
+main.ts:170490
 
 ___
-
 
 ### seller
 
@@ -167,10 +158,9 @@ the name of the company that placed a corresponding product on Google Shopping
 
 #### Defined in
 
-[main.ts:165052](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L165052)
+main.ts:170479
 
 ___
-
 
 ### shop\_ad\_aclk
 
@@ -185,10 +175,9 @@ using this parameter you can get a URL of the advertisement in Google Shopping S
 
 #### Defined in
 
-[main.ts:165069](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L165069)
+main.ts:170496
 
 ___
-
 
 ### tags
 
@@ -202,10 +191,9 @@ tags assigned to the product
 
 #### Defined in
 
-[main.ts:165049](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L165049)
+main.ts:170476
 
 ___
-
 
 ### title
 
@@ -219,10 +207,9 @@ product title
 
 #### Defined in
 
-[main.ts:165047](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L165047)
+main.ts:170474
 
 ___
-
 
 ### type
 
@@ -236,10 +223,9 @@ type of element
 
 #### Defined in
 
-[main.ts:165043](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L165043)
+main.ts:170470
 
 ___
-
 
 ### xpath
 
@@ -253,7 +239,7 @@ XPath of the element
 
 #### Defined in
 
-[main.ts:165045](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L165045)
+main.ts:170472
 
 ## Methods
 
@@ -273,10 +259,9 @@ XPath of the element
 
 #### Defined in
 
-[main.ts:165085](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L165085)
+main.ts:170512
 
 ___
-
 
 ### toJSON
 
@@ -294,10 +279,9 @@ ___
 
 #### Defined in
 
-[main.ts:165120](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L165120)
+main.ts:170547
 
 ___
-
 
 ### fromJS
 
@@ -315,8 +299,4 @@ ___
 
 #### Defined in
 
-[main.ts:165113](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L165113)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:170540

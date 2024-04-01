@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IDomainAnalyticsTechnologiesTechnologyStatsLiveResultInfo
+[Documentation](../README.md) / [Exports](../modules.md) / IDomainAnalyticsTechnologiesTechnologyStatsLiveResultInfo
 
 # Interface: IDomainAnalyticsTechnologiesTechnologyStatsLiveResultInfo
 
@@ -34,10 +30,9 @@ starting date of the time range
 
 #### Defined in
 
-[main.ts:73793](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L73793)
+main.ts:76170
 
 ___
-
 
 ### date\_to
 
@@ -47,10 +42,9 @@ ending date of the time range
 
 #### Defined in
 
-[main.ts:73795](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L73795)
+main.ts:76172
 
 ___
-
 
 ### items
 
@@ -60,10 +54,9 @@ items array
 
 #### Defined in
 
-[main.ts:73799](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L73799)
+main.ts:76176
 
 ___
-
 
 ### items\_count
 
@@ -73,10 +66,9 @@ number of items in the results array
 
 #### Defined in
 
-[main.ts:73797](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L73797)
+main.ts:76174
 
 ___
-
 
 ### technology
 
@@ -86,8 +78,4 @@ target technology
 
 #### Defined in
 
-[main.ts:73791](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L73791)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:76168

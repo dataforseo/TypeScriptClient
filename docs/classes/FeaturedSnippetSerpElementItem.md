@@ -1,15 +1,11 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / FeaturedSnippetSerpElementItem
+[Documentation](../README.md) / [Exports](../modules.md) / FeaturedSnippetSerpElementItem
 
 # Class: FeaturedSnippetSerpElementItem
 
 ## Hierarchy
 
 - [`BaseSerpElementItem`](BaseSerpElementItem.md)
-  
+
   ↳ **`FeaturedSnippetSerpElementItem`**
 
 ## Implements
@@ -72,7 +68,7 @@
 
 #### Defined in
 
-[main.ts:25731](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L25731)
+main.ts:26250
 
 ## Properties
 
@@ -86,10 +82,9 @@
 
 #### Defined in
 
-[main.ts:19337](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L19337)
+main.ts:19788
 
 ___
-
 
 ### breadcrumb
 
@@ -103,10 +98,9 @@ breadcrumb of the ad element in SERP
 
 #### Defined in
 
-[main.ts:25705](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L25705)
+main.ts:26224
 
 ___
-
 
 ### description
 
@@ -120,10 +114,9 @@ description of the ad element in SERP
 
 #### Defined in
 
-[main.ts:25701](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L25701)
+main.ts:26220
 
 ___
-
 
 ### domain
 
@@ -137,10 +130,9 @@ domain of the ad element in SERP
 
 #### Defined in
 
-[main.ts:25697](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L25697)
+main.ts:26216
 
 ___
-
 
 ### featured\_title
 
@@ -154,10 +146,9 @@ title
 
 #### Defined in
 
-[main.ts:25713](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L25713)
+main.ts:26232
 
 ___
-
 
 ### images
 
@@ -171,10 +162,9 @@ images of the element
 
 #### Defined in
 
-[main.ts:25720](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L25720)
+main.ts:26239
 
 ___
-
 
 ### position
 
@@ -190,10 +180,9 @@ left, right
 
 #### Defined in
 
-[main.ts:25709](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L25709)
+main.ts:26228
 
 ___
-
 
 ### rank\_absolute
 
@@ -210,10 +199,9 @@ to get all items (including SERP features and rich snippets) with their position
 
 #### Defined in
 
-[main.ts:25695](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L25695)
+main.ts:26214
 
 ___
-
 
 ### rank\_group
 
@@ -229,10 +217,9 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-[main.ts:25690](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L25690)
+main.ts:26209
 
 ___
-
 
 ### rectangle
 
@@ -248,10 +235,9 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 #### Defined in
 
-[main.ts:25727](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L25727)
+main.ts:26246
 
 ___
-
 
 ### table
 
@@ -266,10 +252,9 @@ if there are none, equals null
 
 #### Defined in
 
-[main.ts:25723](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L25723)
+main.ts:26242
 
 ___
-
 
 ### timestamp
 
@@ -286,10 +271,9 @@ example:
 
 #### Defined in
 
-[main.ts:25718](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L25718)
+main.ts:26237
 
 ___
-
 
 ### title
 
@@ -303,10 +287,9 @@ title of the ad element in SERP
 
 #### Defined in
 
-[main.ts:25699](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L25699)
+main.ts:26218
 
 ___
-
 
 ### url
 
@@ -320,10 +303,9 @@ relevant URL of the ad element in SERP
 
 #### Defined in
 
-[main.ts:25703](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L25703)
+main.ts:26222
 
 ___
-
 
 ### xpath
 
@@ -337,7 +319,7 @@ the XPath of the element
 
 #### Defined in
 
-[main.ts:25711](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L25711)
+main.ts:26230
 
 ## Methods
 
@@ -361,10 +343,9 @@ the XPath of the element
 
 #### Defined in
 
-[main.ts:25736](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L25736)
+main.ts:26255
 
 ___
-
 
 ### toJSON
 
@@ -386,10 +367,9 @@ ___
 
 #### Defined in
 
-[main.ts:25771](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L25771)
+main.ts:26290
 
 ___
-
 
 ### fromJS
 
@@ -411,8 +391,4 @@ ___
 
 #### Defined in
 
-[main.ts:25764](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L25764)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:26283

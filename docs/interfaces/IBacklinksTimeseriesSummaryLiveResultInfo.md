@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IBacklinksTimeseriesSummaryLiveResultInfo
+[Documentation](../README.md) / [Exports](../modules.md) / IBacklinksTimeseriesSummaryLiveResultInfo
 
 # Interface: IBacklinksTimeseriesSummaryLiveResultInfo
 
@@ -38,10 +34,9 @@ example:
 
 #### Defined in
 
-[main.ts:138707](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L138707)
+main.ts:144134
 
 ___
-
 
 ### date\_to
 
@@ -54,10 +49,9 @@ example:
 
 #### Defined in
 
-[main.ts:138712](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L138712)
+main.ts:144139
 
 ___
-
 
 ### group\_range
 
@@ -67,10 +61,9 @@ group_range from a POST array
 
 #### Defined in
 
-[main.ts:138714](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L138714)
+main.ts:144141
 
 ___
-
 
 ### items
 
@@ -80,10 +73,9 @@ contains relevant summary data
 
 #### Defined in
 
-[main.ts:138718](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L138718)
+main.ts:144145
 
 ___
-
 
 ### items\_count
 
@@ -93,10 +85,9 @@ the number of results returned in the items array
 
 #### Defined in
 
-[main.ts:138716](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L138716)
+main.ts:144143
 
 ___
-
 
 ### target
 
@@ -106,8 +97,4 @@ target from a POST array
 
 #### Defined in
 
-[main.ts:138702](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L138702)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:144129

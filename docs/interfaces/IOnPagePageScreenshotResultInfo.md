@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IOnPagePageScreenshotResultInfo
+[Documentation](../README.md) / [Exports](../modules.md) / IOnPagePageScreenshotResultInfo
 
 # Interface: IOnPagePageScreenshotResultInfo
 
@@ -34,10 +30,9 @@ possible values: in_progress, finished
 
 #### Defined in
 
-[main.ts:151756](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L151756)
+main.ts:157183
 
 ___
-
 
 ### error\_message
 
@@ -49,10 +44,9 @@ if no error is encountered, the value will be null
 
 #### Defined in
 
-[main.ts:151760](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L151760)
+main.ts:157187
 
 ___
-
 
 ### items
 
@@ -62,10 +56,9 @@ items array
 
 #### Defined in
 
-[main.ts:151764](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L151764)
+main.ts:157191
 
 ___
-
 
 ### items\_count
 
@@ -75,8 +68,4 @@ number of items in the results array
 
 #### Defined in
 
-[main.ts:151762](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L151762)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:157189

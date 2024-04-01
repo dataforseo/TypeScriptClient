@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / OnPageRedirectChainsItem
+[Documentation](../README.md) / [Exports](../modules.md) / OnPageRedirectChainsItem
 
 # Class: OnPageRedirectChainsItem
 
@@ -49,7 +45,7 @@
 
 #### Defined in
 
-[main.ts:149002](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L149002)
+main.ts:154429
 
 ## Properties
 
@@ -65,10 +61,9 @@ contains links that form a chain
 
 #### Defined in
 
-[main.ts:148998](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L148998)
+main.ts:154425
 
 ___
-
 
 ### is\_redirect\_loop
 
@@ -83,7 +78,7 @@ if true, the last URL from the chain redirects back to the original URL
 
 #### Defined in
 
-[main.ts:148996](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L148996)
+main.ts:154423
 
 ## Methods
 
@@ -103,10 +98,9 @@ if true, the last URL from the chain redirects back to the original URL
 
 #### Defined in
 
-[main.ts:149011](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L149011)
+main.ts:154438
 
 ___
-
 
 ### toJSON
 
@@ -124,10 +118,9 @@ ___
 
 #### Defined in
 
-[main.ts:149033](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L149033)
+main.ts:154460
 
 ___
-
 
 ### fromJS
 
@@ -145,8 +138,4 @@ ___
 
 #### Defined in
 
-[main.ts:149026](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L149026)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:154453

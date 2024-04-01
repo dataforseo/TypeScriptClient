@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / PodcastsElement
+[Documentation](../README.md) / [Exports](../modules.md) / PodcastsElement
 
 # Class: PodcastsElement
 
@@ -53,7 +49,7 @@
 
 #### Defined in
 
-[main.ts:32175](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L32175)
+main.ts:33050
 
 ## Properties
 
@@ -61,7 +57,7 @@
 
 • `Optional` **description**: `string`
 
-description of the results element in SERP
+description
 
 #### Implementation of
 
@@ -69,10 +65,9 @@ description of the results element in SERP
 
 #### Defined in
 
-[main.ts:32164](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L32164)
+main.ts:33039
 
 ___
-
 
 ### time\_to\_play
 
@@ -86,10 +81,9 @@ the total time it will take to play an episode
 
 #### Defined in
 
-[main.ts:32171](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L32171)
+main.ts:33046
 
 ___
-
 
 ### timestamp
 
@@ -106,16 +100,15 @@ example:
 
 #### Defined in
 
-[main.ts:32169](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L32169)
+main.ts:33044
 
 ___
-
 
 ### title
 
 • `Optional` **title**: `string`
 
-title of the row
+title of a given link element
 
 #### Implementation of
 
@@ -123,10 +116,9 @@ title of the row
 
 #### Defined in
 
-[main.ts:32160](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L32160)
+main.ts:33035
 
 ___
-
 
 ### type
 
@@ -140,10 +132,9 @@ type of element
 
 #### Defined in
 
-[main.ts:32158](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L32158)
+main.ts:33033
 
 ___
-
 
 ### url
 
@@ -157,7 +148,7 @@ URL
 
 #### Defined in
 
-[main.ts:32162](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L32162)
+main.ts:33037
 
 ## Methods
 
@@ -177,10 +168,9 @@ URL
 
 #### Defined in
 
-[main.ts:32184](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L32184)
+main.ts:33059
 
 ___
-
 
 ### toJSON
 
@@ -198,10 +188,9 @@ ___
 
 #### Defined in
 
-[main.ts:32206](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L32206)
+main.ts:33081
 
 ___
-
 
 ### fromJS
 
@@ -219,8 +208,4 @@ ___
 
 #### Defined in
 
-[main.ts:32199](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L32199)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:33074

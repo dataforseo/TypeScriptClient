@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / SerpYoutubeVideoInfoTasksFixedResultInfo
+[Documentation](../README.md) / [Exports](../modules.md) / SerpYoutubeVideoInfoTasksFixedResultInfo
 
 # Class: SerpYoutubeVideoInfoTasksFixedResultInfo
 
@@ -55,7 +51,7 @@
 
 #### Defined in
 
-[main.ts:58307](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L58307)
+main.ts:60682
 
 ## Properties
 
@@ -71,10 +67,9 @@ date when the task was fixed (in the UTC format)
 
 #### Defined in
 
-[main.ts:58292](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L58292)
+main.ts:60667
 
 ___
-
 
 ### endpoint\_advanced
 
@@ -89,10 +84,9 @@ if SERP Advanced is not supported in the specified endpoint, the value will be n
 
 #### Defined in
 
-[main.ts:58300](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L58300)
+main.ts:60675
 
 ___
-
 
 ### endpoint\_html
 
@@ -107,10 +101,9 @@ if SERP HTML is not supported in the specified endpoint, the value will be null
 
 #### Defined in
 
-[main.ts:58303](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L58303)
+main.ts:60678
 
 ___
-
 
 ### endpoint\_regular
 
@@ -125,10 +118,9 @@ if SERP Regular is not supported in the specified endpoint, the value will be nu
 
 #### Defined in
 
-[main.ts:58297](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L58297)
+main.ts:60672
 
 ___
-
 
 ### id
 
@@ -143,10 +135,9 @@ unique task identifier in our system in the UUID format
 
 #### Defined in
 
-[main.ts:58285](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L58285)
+main.ts:60660
 
 ___
-
 
 ### se
 
@@ -160,10 +151,9 @@ search engine specified when setting the task
 
 #### Defined in
 
-[main.ts:58287](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L58287)
+main.ts:60662
 
 ___
-
 
 ### se\_type
 
@@ -178,10 +168,9 @@ can take the following values: video_info
 
 #### Defined in
 
-[main.ts:58290](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L58290)
+main.ts:60665
 
 ___
-
 
 ### tag
 
@@ -195,7 +184,7 @@ user-defined task identifier
 
 #### Defined in
 
-[main.ts:58294](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L58294)
+main.ts:60669
 
 ## Methods
 
@@ -215,10 +204,9 @@ user-defined task identifier
 
 #### Defined in
 
-[main.ts:58316](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L58316)
+main.ts:60691
 
 ___
-
 
 ### toJSON
 
@@ -236,10 +224,9 @@ ___
 
 #### Defined in
 
-[main.ts:58340](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L58340)
+main.ts:60715
 
 ___
-
 
 ### fromJS
 
@@ -257,8 +244,4 @@ ___
 
 #### Defined in
 
-[main.ts:58333](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L58333)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:60708

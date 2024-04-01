@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / ContentAnalysisSearchLiveRequestInfo
+[Documentation](../README.md) / [Exports](../modules.md) / ContentAnalysisSearchLiveRequestInfo
 
 # Class: ContentAnalysisSearchLiveRequestInfo
 
@@ -57,7 +53,7 @@
 
 #### Defined in
 
-[main.ts:156134](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L156134)
+main.ts:161561
 
 ## Properties
 
@@ -88,10 +84,9 @@ for more information about filters, please refer to Content Analysis API – Fil
 
 #### Defined in
 
-[main.ts:156095](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L156095)
+main.ts:161522
 
 ___
-
 
 ### keyword
 
@@ -112,10 +107,9 @@ example:
 
 #### Defined in
 
-[main.ts:156048](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L156048)
+main.ts:161475
 
 ___
-
 
 ### keyword\_fields
 
@@ -129,8 +123,8 @@ you can indicate several fields;
 Note: to match an exact phrase instead of a stand-alone keyword, use double quotes and backslashes;
 example:
 "keyword_fields": {
-"snippet": "\"logitech mouse\"",
-"main_title": "sale"
+    "snippet": "\"logitech mouse\"",
+    "main_title": "sale"
 }
 
 #### Index signature
@@ -143,10 +137,9 @@ example:
 
 #### Defined in
 
-[main.ts:156060](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L156060)
+main.ts:161487
 
 ___
-
 
 ### limit
 
@@ -163,10 +156,9 @@ maximum value: 20000
 
 #### Defined in
 
-[main.ts:156078](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L156078)
+main.ts:161505
 
 ___
-
 
 ### offset
 
@@ -183,10 +175,9 @@ if you specify the 10 value, the first ten citations in the results array will b
 
 #### Defined in
 
-[main.ts:156116](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L156116)
+main.ts:161543
 
 ___
-
 
 ### offset\_token
 
@@ -206,10 +197,9 @@ Note: if the offset_token is specified in the request, all other parameters exce
 
 #### Defined in
 
-[main.ts:156124](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L156124)
+main.ts:161551
 
 ___
-
 
 ### order\_by
 
@@ -237,10 +227,9 @@ example:
 
 #### Defined in
 
-[main.ts:156111](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L156111)
+main.ts:161538
 
 ___
-
 
 ### page\_type
 
@@ -258,10 +247,9 @@ possible values:
 
 #### Defined in
 
-[main.ts:156066](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L156066)
+main.ts:161493
 
 ___
-
 
 ### search\_mode
 
@@ -280,10 +268,9 @@ default value: as_is
 
 #### Defined in
 
-[main.ts:156073](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L156073)
+main.ts:161500
 
 ___
-
 
 ### tag
 
@@ -301,7 +288,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-[main.ts:156130](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L156130)
+main.ts:161557
 
 ## Methods
 
@@ -321,10 +308,9 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-[main.ts:156143](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L156143)
+main.ts:161570
 
 ___
-
 
 ### toJSON
 
@@ -342,10 +328,9 @@ ___
 
 #### Defined in
 
-[main.ts:156187](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L156187)
+main.ts:161614
 
 ___
-
 
 ### fromJS
 
@@ -363,8 +348,4 @@ ___
 
 #### Defined in
 
-[main.ts:156180](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L156180)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:161607

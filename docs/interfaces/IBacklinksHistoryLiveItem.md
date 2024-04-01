@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IBacklinksHistoryLiveItem
+[Documentation](../README.md) / [Exports](../modules.md) / IBacklinksHistoryLiveItem
 
 # Interface: IBacklinksHistoryLiveItem
 
@@ -43,6 +39,7 @@
 - [referring\_main\_domains](IBacklinksHistoryLiveItem.md#referring_main_domains)
 - [referring\_main\_domains\_nofollow](IBacklinksHistoryLiveItem.md#referring_main_domains_nofollow)
 - [referring\_pages](IBacklinksHistoryLiveItem.md#referring_pages)
+- [referring\_pages\_nofollow](IBacklinksHistoryLiveItem.md#referring_pages_nofollow)
 - [referring\_subnets](IBacklinksHistoryLiveItem.md#referring_subnets)
 - [type](IBacklinksHistoryLiveItem.md#type)
 
@@ -56,10 +53,9 @@ number of backlinks
 
 #### Defined in
 
-[main.ts:130269](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L130269)
+main.ts:135652
 
 ___
-
 
 ### broken\_backlinks
 
@@ -70,10 +66,9 @@ number of broken backlinks pointing to the target
 
 #### Defined in
 
-[main.ts:130302](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L130302)
+main.ts:135685
 
 ___
-
 
 ### broken\_pages
 
@@ -84,10 +79,9 @@ number of pages that receive backlinks but respond with 4xx or 5xx status codes
 
 #### Defined in
 
-[main.ts:130305](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L130305)
+main.ts:135688
 
 ___
-
 
 ### crawled\_pages
 
@@ -97,10 +91,9 @@ number of crawled pages for the target
 
 #### Defined in
 
-[main.ts:130291](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L130291)
+main.ts:135674
 
 ___
-
 
 ### date
 
@@ -113,10 +106,9 @@ example:
 
 #### Defined in
 
-[main.ts:130264](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L130264)
+main.ts:135647
 
 ___
-
 
 ### external\_links\_count
 
@@ -127,10 +119,9 @@ calculated as the sum of external links on the pages of the specified target
 
 #### Defined in
 
-[main.ts:130299](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L130299)
+main.ts:135682
 
 ___
-
 
 ### info
 
@@ -140,10 +131,9 @@ information about the target
 
 #### Defined in
 
-[main.ts:130293](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L130293)
+main.ts:135676
 
 ___
-
 
 ### internal\_links\_count
 
@@ -154,10 +144,9 @@ calculated as the sum of internal links on the pages of the specified target
 
 #### Defined in
 
-[main.ts:130296](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L130296)
+main.ts:135679
 
 ___
-
 
 ### lost\_backlinks
 
@@ -166,14 +155,13 @@ ___
 number of lost backlinks for the target
 data is provided based in a comparison with the previous period
 Note: this data is available from May 2021;
-if the date range specified in the POST request preceds May 2021, the field will equal 0
+if the date range specified in the POST request precedes May 2021, the field will equal 0
 
 #### Defined in
 
-[main.ts:130279](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L130279)
+main.ts:135662
 
 ___
-
 
 ### lost\_referring\_domains
 
@@ -182,14 +170,13 @@ ___
 number of lost referring domains for the target
 data is provided based in a comparison with the previous period
 Note: this data is available from May 2021;
-if the date range specified in the POST request preceds May 2021, the field will equal 0
+if the date range specified in the POST request precedes May 2021, the field will equal 0
 
 #### Defined in
 
-[main.ts:130289](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L130289)
+main.ts:135672
 
 ___
-
 
 ### new\_backlinks
 
@@ -198,14 +185,13 @@ ___
 number of new backlinks for the target
 data is provided based in a comparison with the previous period
 Note: this data is available from May 2021;
-if the date range specified in the POST request preceds May 2021, the field will equal 0
+if the date range specified in the POST request precedes May 2021, the field will equal 0
 
 #### Defined in
 
-[main.ts:130274](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L130274)
+main.ts:135657
 
 ___
-
 
 ### new\_referring\_domains
 
@@ -214,14 +200,13 @@ ___
 number of new referring domains for the target
 data is provided based in a comparison with the previous period
 Note: this data is available from May 2021;
-if the date range specified in the POST request preceds May 2021, the field will equal 0
+if the date range specified in the POST request precedes May 2021, the field will equal 0
 
 #### Defined in
 
-[main.ts:130284](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L130284)
+main.ts:135667
 
 ___
-
 
 ### rank
 
@@ -232,10 +217,9 @@ learn more about the metric and how it is calculated in this help center article
 
 #### Defined in
 
-[main.ts:130267](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L130267)
+main.ts:135650
 
 ___
-
 
 ### referring\_domains
 
@@ -246,10 +230,9 @@ referring domains include subdomains that are counted as separate domains for th
 
 #### Defined in
 
-[main.ts:130308](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L130308)
+main.ts:135691
 
 ___
-
 
 ### referring\_domains\_nofollow
 
@@ -259,10 +242,9 @@ number of domains pointing at least one nofollow link to the target
 
 #### Defined in
 
-[main.ts:130310](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L130310)
+main.ts:135693
 
 ___
-
 
 ### referring\_ips
 
@@ -273,10 +255,9 @@ number of IP addresses pointing to this page
 
 #### Defined in
 
-[main.ts:130317](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L130317)
+main.ts:135700
 
 ___
-
 
 ### referring\_links\_attributes
 
@@ -291,10 +272,9 @@ indicates link attributes of the referring links and link count per each attribu
 
 #### Defined in
 
-[main.ts:130332](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L130332)
+main.ts:135717
 
 ___
-
 
 ### referring\_links\_countries
 
@@ -309,10 +289,9 @@ indicates ISO country codes of the domains where the referring links are located
 
 #### Defined in
 
-[main.ts:130344](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L130344)
+main.ts:135729
 
 ___
-
 
 ### referring\_links\_platform\_types
 
@@ -327,10 +306,9 @@ indicates referring platform types and and link count per each platform
 
 #### Defined in
 
-[main.ts:130335](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L130335)
+main.ts:135720
 
 ___
-
 
 ### referring\_links\_semantic\_locations
 
@@ -348,10 +326,9 @@ article, section, summary
 
 #### Defined in
 
-[main.ts:130341](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L130341)
+main.ts:135726
 
 ___
-
 
 ### referring\_links\_tld
 
@@ -366,10 +343,9 @@ contains top-level domains and referring link count per each
 
 #### Defined in
 
-[main.ts:130324](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L130324)
+main.ts:135709
 
 ___
-
 
 ### referring\_links\_types
 
@@ -386,10 +362,9 @@ anchor, image, link, meta, canonical, alternate, redirect
 
 #### Defined in
 
-[main.ts:130329](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L130329)
+main.ts:135714
 
 ___
-
 
 ### referring\_main\_domains
 
@@ -399,10 +374,9 @@ number of referring main domains
 
 #### Defined in
 
-[main.ts:130312](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L130312)
+main.ts:135695
 
 ___
-
 
 ### referring\_main\_domains\_nofollow
 
@@ -412,10 +386,9 @@ number of main domains pointing at least one nofollow link to the target
 
 #### Defined in
 
-[main.ts:130314](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L130314)
+main.ts:135697
 
 ___
-
 
 ### referring\_pages
 
@@ -425,10 +398,21 @@ number of pages pointing to the target
 
 #### Defined in
 
-[main.ts:130321](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L130321)
+main.ts:135704
 
 ___
 
+### referring\_pages\_nofollow
+
+• `Optional` **referring\_pages\_nofollow**: `number`
+
+number of referring pages pointing at least one nofollow link to the target
+
+#### Defined in
+
+main.ts:135706
+
+___
 
 ### referring\_subnets
 
@@ -438,10 +422,9 @@ number of referring subnetworks
 
 #### Defined in
 
-[main.ts:130319](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L130319)
+main.ts:135702
 
 ___
-
 
 ### type
 
@@ -451,8 +434,4 @@ type of element
 
 #### Defined in
 
-[main.ts:130259](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L130259)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:135642

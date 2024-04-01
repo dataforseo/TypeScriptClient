@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / ResponseDataInfo
+[Documentation](../README.md) / [Exports](../modules.md) / ResponseDataInfo
 
 # Class: ResponseDataInfo
 
@@ -51,7 +47,7 @@
 
 #### Defined in
 
-[main.ts:181226](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L181226)
+main.ts:186679
 
 ## Properties
 
@@ -67,10 +63,9 @@ author of the response
 
 #### Defined in
 
-[main.ts:181212](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L181212)
+main.ts:186665
 
 ___
-
 
 ### text
 
@@ -84,10 +79,9 @@ content of the response
 
 #### Defined in
 
-[main.ts:181217](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L181217)
+main.ts:186670
 
 ___
-
 
 ### timestamp
 
@@ -104,10 +98,9 @@ example:
 
 #### Defined in
 
-[main.ts:181222](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L181222)
+main.ts:186675
 
 ___
-
 
 ### title
 
@@ -122,7 +115,7 @@ in this case, will equal null
 
 #### Defined in
 
-[main.ts:181215](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L181215)
+main.ts:186668
 
 ## Methods
 
@@ -142,10 +135,9 @@ in this case, will equal null
 
 #### Defined in
 
-[main.ts:181235](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L181235)
+main.ts:186688
 
 ___
-
 
 ### toJSON
 
@@ -163,10 +155,9 @@ ___
 
 #### Defined in
 
-[main.ts:181255](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L181255)
+main.ts:186708
 
 ___
-
 
 ### fromJS
 
@@ -184,8 +175,4 @@ ___
 
 #### Defined in
 
-[main.ts:181248](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L181248)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:186701

@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IKeywordIntentInfo
+[Documentation](../README.md) / [Exports](../modules.md) / IKeywordIntentInfo
 
 # Interface: IKeywordIntentInfo
 
@@ -32,10 +28,9 @@ possible values: informational, navigational, commercial, transactional
 
 #### Defined in
 
-[main.ts:82844](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L82844)
+main.ts:85221
 
 ___
-
 
 ### probability
 
@@ -46,8 +41,4 @@ search intent probability
 
 #### Defined in
 
-[main.ts:82847](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L82847)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:85224

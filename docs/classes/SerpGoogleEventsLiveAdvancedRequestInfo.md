@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / SerpGoogleEventsLiveAdvancedRequestInfo
+[Documentation](../README.md) / [Exports](../modules.md) / SerpGoogleEventsLiveAdvancedRequestInfo
 
 # Class: SerpGoogleEventsLiveAdvancedRequestInfo
 
@@ -59,7 +55,7 @@
 
 #### Defined in
 
-[main.ts:45152](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L45152)
+main.ts:45903
 
 ## Properties
 
@@ -78,10 +74,9 @@ possible values: today, tomorrow, week, weekend, next_week, month, next_month
 
 #### Defined in
 
-[main.ts:45113](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L45113)
+main.ts:45864
 
 ___
-
 
 ### depth
 
@@ -102,10 +97,9 @@ if the specified depth is higher than the number of results in the response, the
 
 #### Defined in
 
-[main.ts:45135](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L45135)
+main.ts:45886
 
 ___
-
 
 ### keyword
 
@@ -124,10 +118,9 @@ if you need to use the “+” symbol for your keyword, please specify it as “
 
 #### Defined in
 
-[main.ts:45067](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L45067)
+main.ts:45818
 
 ___
-
 
 ### language\_code
 
@@ -147,10 +140,9 @@ en
 
 #### Defined in
 
-[main.ts:45108](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L45108)
+main.ts:45859
 
 ___
-
 
 ### language\_name
 
@@ -170,10 +162,9 @@ English
 
 #### Defined in
 
-[main.ts:45100](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L45100)
+main.ts:45851
 
 ___
-
 
 ### location\_code
 
@@ -192,10 +183,9 @@ example:
 
 #### Defined in
 
-[main.ts:45081](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L45081)
+main.ts:45832
 
 ___
-
 
 ### location\_coordinate
 
@@ -218,10 +208,9 @@ example:
 
 #### Defined in
 
-[main.ts:45092](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L45092)
+main.ts:45843
 
 ___
-
 
 ### location\_name
 
@@ -240,10 +229,9 @@ London,England,United Kingdom
 
 #### Defined in
 
-[main.ts:45074](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L45074)
+main.ts:45825
 
 ___
-
 
 ### max\_crawl\_pages
 
@@ -262,10 +250,9 @@ learn more at our help center
 
 #### Defined in
 
-[main.ts:45142](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L45142)
+main.ts:45893
 
 ___
-
 
 ### os
 
@@ -283,10 +270,9 @@ default value: windows
 
 #### Defined in
 
-[main.ts:45119](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L45119)
+main.ts:45870
 
 ___
-
 
 ### se\_domain
 
@@ -305,10 +291,9 @@ google.co.uk, google.com.au, google.de, etc.
 
 #### Defined in
 
-[main.ts:45126](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L45126)
+main.ts:45877
 
 ___
-
 
 ### tag
 
@@ -326,7 +311,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-[main.ts:45148](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L45148)
+main.ts:45899
 
 ## Methods
 
@@ -346,10 +331,9 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-[main.ts:45161](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L45161)
+main.ts:45912
 
 ___
-
 
 ### toJSON
 
@@ -367,10 +351,9 @@ ___
 
 #### Defined in
 
-[main.ts:45189](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L45189)
+main.ts:45940
 
 ___
-
 
 ### fromJS
 
@@ -388,8 +371,4 @@ ___
 
 #### Defined in
 
-[main.ts:45182](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L45182)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:45933

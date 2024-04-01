@@ -1,15 +1,11 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IGoogleBusinessPostBusinessDataSerpElementItem
+[Documentation](../README.md) / [Exports](../modules.md) / IGoogleBusinessPostBusinessDataSerpElementItem
 
 # Interface: IGoogleBusinessPostBusinessDataSerpElementItem
 
 ## Hierarchy
 
 - [`IBaseBusinessDataSerpElementItem`](IBaseBusinessDataSerpElementItem.md)
-  
+
   ↳ **`IGoogleBusinessPostBusinessDataSerpElementItem`**
 
 ## Implemented by
@@ -47,10 +43,9 @@ author of the post
 
 #### Defined in
 
-[main.ts:192461](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L192461)
+main.ts:197922
 
 ___
-
 
 ### images\_url
 
@@ -60,10 +55,9 @@ url of an image included in the post
 
 #### Defined in
 
-[main.ts:192469](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L192469)
+main.ts:197930
 
 ___
-
 
 ### links
 
@@ -73,10 +67,9 @@ links included in the post
 
 #### Defined in
 
-[main.ts:192480](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L192480)
+main.ts:197941
 
 ___
-
 
 ### position
 
@@ -87,10 +80,9 @@ can take the following values: right
 
 #### Defined in
 
-[main.ts:192457](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L192457)
+main.ts:197918
 
 ___
-
 
 ### post\_date
 
@@ -102,10 +94,9 @@ in the following format:
 
 #### Defined in
 
-[main.ts:192473](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L192473)
+main.ts:197934
 
 ___
-
 
 ### post\_text
 
@@ -115,10 +106,9 @@ main content of a post
 
 #### Defined in
 
-[main.ts:192465](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L192465)
+main.ts:197926
 
 ___
-
 
 ### rank\_absolute
 
@@ -129,10 +119,9 @@ absolute position among all present elements
 
 #### Defined in
 
-[main.ts:192454](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L192454)
+main.ts:197915
 
 ___
-
 
 ### rank\_group
 
@@ -143,10 +132,9 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-[main.ts:192451](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L192451)
+main.ts:197912
 
 ___
-
 
 ### snippet
 
@@ -156,10 +144,9 @@ additional content of a post
 
 #### Defined in
 
-[main.ts:192463](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L192463)
+main.ts:197924
 
 ___
-
 
 ### timestamp
 
@@ -172,10 +159,9 @@ example:
 
 #### Defined in
 
-[main.ts:192478](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L192478)
+main.ts:197939
 
 ___
-
 
 ### url
 
@@ -185,10 +171,9 @@ url of a post
 
 #### Defined in
 
-[main.ts:192467](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L192467)
+main.ts:197928
 
 ___
-
 
 ### xpath
 
@@ -198,8 +183,4 @@ the XPath of the element
 
 #### Defined in
 
-[main.ts:192459](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L192459)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:197920

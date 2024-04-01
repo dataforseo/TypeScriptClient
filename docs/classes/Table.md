@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / Table
+[Documentation](../README.md) / [Exports](../modules.md) / Table
 
 # Class: Table
 
@@ -50,7 +46,7 @@
 
 #### Defined in
 
-[main.ts:21238](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L21238)
+main.ts:21757
 
 ## Properties
 
@@ -67,10 +63,9 @@ one line of the table in this element of the array
 
 #### Defined in
 
-[main.ts:21234](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L21234)
+main.ts:21753
 
 ___
-
 
 ### table\_element
 
@@ -86,10 +81,9 @@ table_element
 
 #### Defined in
 
-[main.ts:21229](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L21229)
+main.ts:21748
 
 ___
-
 
 ### table\_header
 
@@ -103,7 +97,7 @@ column names
 
 #### Defined in
 
-[main.ts:21231](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L21231)
+main.ts:21750
 
 ## Methods
 
@@ -123,10 +117,9 @@ column names
 
 #### Defined in
 
-[main.ts:21247](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L21247)
+main.ts:21766
 
 ___
-
 
 ### toJSON
 
@@ -144,10 +137,9 @@ ___
 
 #### Defined in
 
-[main.ts:21274](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L21274)
+main.ts:21793
 
 ___
-
 
 ### fromJS
 
@@ -165,8 +157,4 @@ ___
 
 #### Defined in
 
-[main.ts:21267](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L21267)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:21786

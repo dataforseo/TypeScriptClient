@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IPeopleAlsoAskElement
+[Documentation](../README.md) / [Exports](../modules.md) / IPeopleAlsoAskElement
 
 # Interface: IPeopleAlsoAskElement
 
@@ -34,10 +30,9 @@ expanded element
 
 #### Defined in
 
-[main.ts:28567](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L28567)
+main.ts:29318
 
 ___
-
 
 ### seed\_question
 
@@ -47,23 +42,21 @@ question that triggered additional expanded elements
 
 #### Defined in
 
-[main.ts:28563](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L28563)
+main.ts:29314
 
 ___
-
 
 ### title
 
 • `Optional` **title**: `string`
 
-title of the row
+title of a given link element
 
 #### Defined in
 
-[main.ts:28561](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L28561)
+main.ts:29312
 
 ___
-
 
 ### type
 
@@ -73,10 +66,9 @@ type of element
 
 #### Defined in
 
-[main.ts:28559](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L28559)
+main.ts:29310
 
 ___
-
 
 ### xpath
 
@@ -86,8 +78,4 @@ the XPath of the element
 
 #### Defined in
 
-[main.ts:28565](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L28565)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:29316

@@ -1,15 +1,11 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IStocksBoxSerpElementItem
+[Documentation](../README.md) / [Exports](../modules.md) / IStocksBoxSerpElementItem
 
 # Interface: IStocksBoxSerpElementItem
 
 ## Hierarchy
 
 - [`IBaseSerpElementItem`](IBaseSerpElementItem.md)
-  
+
   ↳ **`IStocksBoxSerpElementItem`**
 
 ## Implemented by
@@ -44,14 +40,13 @@
 
 • `Optional` **domain**: `string`
 
-domain where a link points
+source domain
 
 #### Defined in
 
-[main.ts:32604](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L32604)
+main.ts:33487
 
 ___
-
 
 ### graph
 
@@ -61,10 +56,9 @@ contains data provided in the graph of the element
 
 #### Defined in
 
-[main.ts:32613](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L32613)
+main.ts:33496
 
 ___
-
 
 ### position
 
@@ -76,10 +70,9 @@ left, right
 
 #### Defined in
 
-[main.ts:32589](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L32589)
+main.ts:33472
 
 ___
-
 
 ### price
 
@@ -89,10 +82,9 @@ price indicated in the element
 
 #### Defined in
 
-[main.ts:32600](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L32600)
+main.ts:33483
 
 ___
-
 
 ### rank\_absolute
 
@@ -100,28 +92,28 @@ ___
 
 absolute rank in SERP
 absolute position among all the elements in SERP
+always equals 0 for desktop
 
 #### Defined in
 
-[main.ts:32585](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L32585)
+main.ts:33468
 
 ___
-
 
 ### rank\_group
 
 • `Optional` **rank\_group**: `number`
 
 group rank in SERP
-position within a group of elements with identical type values
-positions of elements with different type values are omitted from rank_group
+position within a group of elements with identical type values;
+positions of elements with different type values are omitted from rank_group;
+always equals 0 for desktop
 
 #### Defined in
 
-[main.ts:32582](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L32582)
+main.ts:33464
 
 ___
-
 
 ### rectangle
 
@@ -133,10 +125,9 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 #### Defined in
 
-[main.ts:32608](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L32608)
+main.ts:33491
 
 ___
-
 
 ### snippet
 
@@ -146,24 +137,22 @@ text alongside the link title
 
 #### Defined in
 
-[main.ts:32598](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L32598)
+main.ts:33481
 
 ___
-
 
 ### source
 
 • `Optional` **source**: `string`
 
 source of the element
-indicates the source of information included in the top_stories_element
+indicates the source of the video
 
 #### Defined in
 
-[main.ts:32596](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L32596)
+main.ts:33479
 
 ___
-
 
 ### table
 
@@ -174,36 +163,33 @@ if there are none, equals null
 
 #### Defined in
 
-[main.ts:32611](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L32611)
+main.ts:33494
 
 ___
-
 
 ### title
 
 • `Optional` **title**: `string`
 
-title of a given link element
+title of the row
 
 #### Defined in
 
-[main.ts:32593](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L32593)
+main.ts:33476
 
 ___
-
 
 ### url
 
 • `Optional` **url**: `string`
 
-URL
+source URL
 
 #### Defined in
 
-[main.ts:32602](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L32602)
+main.ts:33485
 
 ___
-
 
 ### xpath
 
@@ -213,8 +199,4 @@ the XPath of the element
 
 #### Defined in
 
-[main.ts:32591](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L32591)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:33474

@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / AppendixWebhookResendRequestInfo
+[Documentation](../README.md) / [Exports](../modules.md) / AppendixWebhookResendRequestInfo
 
 # Class: AppendixWebhookResendRequestInfo
 
@@ -48,7 +44,7 @@
 
 #### Defined in
 
-[main.ts:212523](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L212523)
+main.ts:218176
 
 ## Properties
 
@@ -67,7 +63,7 @@ each identifier in the task array must be specified as a separate object
 
 #### Defined in
 
-[main.ts:212519](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L212519)
+main.ts:218172
 
 ## Methods
 
@@ -87,10 +83,9 @@ each identifier in the task array must be specified as a separate object
 
 #### Defined in
 
-[main.ts:212532](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L212532)
+main.ts:218185
 
 ___
-
 
 ### toJSON
 
@@ -108,10 +103,9 @@ ___
 
 #### Defined in
 
-[main.ts:212549](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L212549)
+main.ts:218202
 
 ___
-
 
 ### fromJS
 
@@ -129,8 +123,4 @@ ___
 
 #### Defined in
 
-[main.ts:212542](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L212542)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:218195

@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / AppendixPriorityTasksReadyKeywordsDataPriceDataInfo
+[Documentation](../README.md) / [Exports](../modules.md) / AppendixPriorityTasksReadyKeywordsDataPriceDataInfo
 
 # Class: AppendixPriorityTasksReadyKeywordsDataPriceDataInfo
 
@@ -49,7 +45,7 @@
 
 #### Defined in
 
-[main.ts:209519](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L209519)
+main.ts:215048
 
 ## Properties
 
@@ -65,10 +61,9 @@ cost, USD
 
 #### Defined in
 
-[main.ts:209515](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L209515)
+main.ts:215044
 
 ___
-
 
 ### cost\_type
 
@@ -85,7 +80,7 @@ per_request – charge for a GET or POST request
 
 #### Defined in
 
-[main.ts:209513](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L209513)
+main.ts:215042
 
 ## Methods
 
@@ -105,10 +100,9 @@ per_request – charge for a GET or POST request
 
 #### Defined in
 
-[main.ts:209528](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L209528)
+main.ts:215057
 
 ___
-
 
 ### toJSON
 
@@ -126,10 +120,9 @@ ___
 
 #### Defined in
 
-[main.ts:209546](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L209546)
+main.ts:215075
 
 ___
-
 
 ### fromJS
 
@@ -147,8 +140,4 @@ ___
 
 #### Defined in
 
-[main.ts:209539](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L209539)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:215068

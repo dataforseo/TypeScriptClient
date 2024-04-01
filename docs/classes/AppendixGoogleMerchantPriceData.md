@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / AppendixGoogleMerchantPriceData
+[Documentation](../README.md) / [Exports](../modules.md) / AppendixGoogleMerchantPriceData
 
 # Class: AppendixGoogleMerchantPriceData
 
@@ -51,7 +47,7 @@
 
 #### Defined in
 
-[main.ts:210370](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L210370)
+main.ts:215963
 
 ## Properties
 
@@ -65,10 +61,9 @@
 
 #### Defined in
 
-[main.ts:210363](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L210363)
+main.ts:215956
 
 ___
-
 
 ### product\_spec
 
@@ -80,10 +75,9 @@ ___
 
 #### Defined in
 
-[main.ts:210364](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L210364)
+main.ts:215957
 
 ___
-
 
 ### products
 
@@ -95,10 +89,9 @@ ___
 
 #### Defined in
 
-[main.ts:210365](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L210365)
+main.ts:215958
 
 ___
-
 
 ### sellers
 
@@ -110,7 +103,7 @@ ___
 
 #### Defined in
 
-[main.ts:210366](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L210366)
+main.ts:215959
 
 ## Methods
 
@@ -130,10 +123,9 @@ ___
 
 #### Defined in
 
-[main.ts:210379](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L210379)
+main.ts:215972
 
 ___
-
 
 ### toJSON
 
@@ -151,10 +143,9 @@ ___
 
 #### Defined in
 
-[main.ts:210399](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L210399)
+main.ts:215992
 
 ___
-
 
 ### fromJS
 
@@ -172,8 +163,4 @@ ___
 
 #### Defined in
 
-[main.ts:210392](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L210392)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:215985

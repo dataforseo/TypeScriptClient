@@ -1,15 +1,11 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / TripadvisorReviewSearchBusinessDataSerpElementItem
+[Documentation](../README.md) / [Exports](../modules.md) / TripadvisorReviewSearchBusinessDataSerpElementItem
 
 # Class: TripadvisorReviewSearchBusinessDataSerpElementItem
 
 ## Hierarchy
 
 - [`BaseBusinessDataSerpElementItem`](BaseBusinessDataSerpElementItem.md)
-  
+
   ↳ **`TripadvisorReviewSearchBusinessDataSerpElementItem`**
 
 ## Implements
@@ -70,7 +66,7 @@
 
 #### Defined in
 
-[main.ts:202421](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L202421)
+main.ts:207882
 
 ## Properties
 
@@ -84,10 +80,9 @@
 
 #### Defined in
 
-[main.ts:20076](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L20076)
+main.ts:20532
 
 ___
-
 
 ### date\_of\_visit
 
@@ -104,10 +99,9 @@ example:
 
 #### Defined in
 
-[main.ts:202402](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L202402)
+main.ts:207863
 
 ___
-
 
 ### position
 
@@ -122,10 +116,9 @@ can take the following values: right
 
 #### Defined in
 
-[main.ts:202393](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L202393)
+main.ts:207854
 
 ___
-
 
 ### rank\_absolute
 
@@ -140,10 +133,9 @@ absolute position among all reviews on the list
 
 #### Defined in
 
-[main.ts:202390](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L202390)
+main.ts:207851
 
 ___
-
 
 ### rank\_group
 
@@ -158,10 +150,9 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-[main.ts:202387](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L202387)
+main.ts:207848
 
 ___
-
 
 ### rating
 
@@ -175,10 +166,9 @@ the rating score submitted by the reviewer
 
 #### Defined in
 
-[main.ts:202397](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L202397)
+main.ts:207858
 
 ___
-
 
 ### responses
 
@@ -192,10 +182,9 @@ contains information about the owner’s response
 
 #### Defined in
 
-[main.ts:202417](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L202417)
+main.ts:207878
 
 ___
-
 
 ### review\_images
 
@@ -209,10 +198,9 @@ contains URLs of the images used in the review
 
 #### Defined in
 
-[main.ts:202413](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L202413)
+main.ts:207874
 
 ___
-
 
 ### review\_text
 
@@ -226,10 +214,9 @@ content of the review
 
 #### Defined in
 
-[main.ts:202411](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L202411)
+main.ts:207872
 
 ___
-
 
 ### timestamp
 
@@ -246,10 +233,9 @@ example:
 
 #### Defined in
 
-[main.ts:202407](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L202407)
+main.ts:207868
 
 ___
-
 
 ### title
 
@@ -263,10 +249,9 @@ title of the review
 
 #### Defined in
 
-[main.ts:202409](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L202409)
+main.ts:207870
 
 ___
-
 
 ### url
 
@@ -280,10 +265,9 @@ URL of the review
 
 #### Defined in
 
-[main.ts:202395](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L202395)
+main.ts:207856
 
 ___
-
 
 ### user\_profile
 
@@ -297,7 +281,7 @@ information from the reviewer’s profile
 
 #### Defined in
 
-[main.ts:202415](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L202415)
+main.ts:207876
 
 ## Methods
 
@@ -321,10 +305,9 @@ information from the reviewer’s profile
 
 #### Defined in
 
-[main.ts:202426](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L202426)
+main.ts:207887
 
 ___
-
 
 ### toJSON
 
@@ -346,10 +329,9 @@ ___
 
 #### Defined in
 
-[main.ts:202463](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L202463)
+main.ts:207924
 
 ___
-
 
 ### fromJS
 
@@ -371,8 +353,4 @@ ___
 
 #### Defined in
 
-[main.ts:202456](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L202456)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:207917

@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IBusinessDataSocialMediaPinterestLiveResultInfo
+[Documentation](../README.md) / [Exports](../modules.md) / IBusinessDataSocialMediaPinterestLiveResultInfo
 
 # Interface: IBusinessDataSocialMediaPinterestLiveResultInfo
 
@@ -33,10 +29,9 @@ corresponding URL you specified in the targets array when setting a task
 
 #### Defined in
 
-[main.ts:205763](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L205763)
+main.ts:211224
 
 ___
-
 
 ### pins\_count
 
@@ -48,10 +43,9 @@ this field shows the number of content saves made from the related page_url usin
 
 #### Defined in
 
-[main.ts:205767](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L205767)
+main.ts:211228
 
 ___
-
 
 ### type
 
@@ -61,8 +55,4 @@ type of element
 
 #### Defined in
 
-[main.ts:205760](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L205760)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:211221

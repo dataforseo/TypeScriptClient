@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IBacklinksIndexResultInfo
+[Documentation](../README.md) / [Exports](../modules.md) / IBacklinksIndexResultInfo
 
 # Interface: IBacklinksIndexResultInfo
 
@@ -33,10 +29,9 @@ index volume data for the past 12 months
 
 #### Defined in
 
-[main.ts:129082](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L129082)
+main.ts:134449
 
 ___
-
 
 ### total\_backlinks
 
@@ -46,10 +41,9 @@ total number of backlinks our database contains for the moment of checking
 
 #### Defined in
 
-[main.ts:129076](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L129076)
+main.ts:134443
 
 ___
-
 
 ### total\_domains
 
@@ -59,10 +53,9 @@ total number of domains our database contains for the moment of checking
 
 #### Defined in
 
-[main.ts:129080](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L129080)
+main.ts:134447
 
 ___
-
 
 ### total\_pages
 
@@ -72,8 +65,4 @@ total number of pages our database contains for the moment of checking
 
 #### Defined in
 
-[main.ts:129078](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L129078)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:134445

@@ -1,15 +1,11 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IBrokenResourceElementItem
+[Documentation](../README.md) / [Exports](../modules.md) / IBrokenResourceElementItem
 
 # Interface: IBrokenResourceElementItem
 
 ## Hierarchy
 
 - [`IBaseOnPageResourceItemInfo`](IBaseOnPageResourceItemInfo.md)
-  
+
   ↳ **`IBrokenResourceElementItem`**
 
 ## Implemented by
@@ -54,10 +50,9 @@ any, none, image, sitemap, robots, script, stylesheet, redirect, html, text, oth
 
 #### Defined in
 
-[main.ts:146978](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L146978)
+main.ts:152405
 
 ___
-
 
 ### cache\_control
 
@@ -67,10 +62,9 @@ instructions for caching
 
 #### Defined in
 
-[main.ts:146966](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L146966)
+main.ts:152393
 
 ___
-
 
 ### checks
 
@@ -85,10 +79,9 @@ contents of the array depend on the resource_type
 
 #### Defined in
 
-[main.ts:146969](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L146969)
+main.ts:152396
 
 ___
-
 
 ### content\_encoding
 
@@ -98,10 +91,9 @@ type of encoding
 
 #### Defined in
 
-[main.ts:146971](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L146971)
+main.ts:152398
 
 ___
-
 
 ### encoded\_size
 
@@ -112,10 +104,9 @@ indicates the size of the encoded resource measured in bytes
 
 #### Defined in
 
-[main.ts:146954](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L146954)
+main.ts:152381
 
 ___
-
 
 ### fetch\_time
 
@@ -128,10 +119,9 @@ example:
 
 #### Defined in
 
-[main.ts:146962](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L146962)
+main.ts:152389
 
 ___
-
 
 ### fetch\_timing
 
@@ -141,10 +131,9 @@ resource fething time range
 
 #### Defined in
 
-[main.ts:146964](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L146964)
+main.ts:152391
 
 ___
-
 
 ### last\_modified
 
@@ -155,10 +144,9 @@ if there is no data, the value will be null
 
 #### Defined in
 
-[main.ts:146983](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L146983)
+main.ts:152410
 
 ___
-
 
 ### location
 
@@ -169,10 +157,9 @@ indicates the URL to redirect a page to
 
 #### Defined in
 
-[main.ts:146946](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L146946)
+main.ts:152373
 
 ___
-
 
 ### media\_type
 
@@ -182,10 +169,9 @@ types of media used to display a resource
 
 #### Defined in
 
-[main.ts:146973](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L146973)
+main.ts:152400
 
 ___
-
 
 ### meta
 
@@ -198,10 +184,9 @@ to obtain resource’s meta from a particular url, specify that URL when setting
 
 #### Defined in
 
-[main.ts:146941](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L146941)
+main.ts:152368
 
 ___
-
 
 ### server
 
@@ -211,10 +196,9 @@ server version
 
 #### Defined in
 
-[main.ts:146980](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L146980)
+main.ts:152407
 
 ___
-
 
 ### size
 
@@ -225,10 +209,9 @@ indicates the size of a given resource measured in bytes
 
 #### Defined in
 
-[main.ts:146951](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L146951)
+main.ts:152378
 
 ___
-
 
 ### status\_code
 
@@ -238,10 +221,9 @@ status code of the page where a given resource is located
 
 #### Defined in
 
-[main.ts:146943](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L146943)
+main.ts:152370
 
 ___
-
 
 ### total\_transfer\_size
 
@@ -252,10 +234,9 @@ indicates the compressed size of a given resource in bytes
 
 #### Defined in
 
-[main.ts:146957](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L146957)
+main.ts:152384
 
 ___
-
 
 ### url
 
@@ -265,8 +246,4 @@ resource URL
 
 #### Defined in
 
-[main.ts:146948](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L146948)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:152375

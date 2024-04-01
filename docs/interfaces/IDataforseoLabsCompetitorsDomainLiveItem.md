@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IDataforseoLabsCompetitorsDomainLiveItem
+[Documentation](../README.md) / [Exports](../modules.md) / IDataforseoLabsCompetitorsDomainLiveItem
 
 # Interface: IDataforseoLabsCompetitorsDomainLiveItem
 
@@ -39,10 +35,9 @@ the value for a given domain may differ when combined with different target webs
 
 #### Defined in
 
-[main.ts:88486](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L88486)
+main.ts:90863
 
 ___
-
 
 ### competitor\_metrics
 
@@ -58,10 +53,9 @@ note: in this array ranking and traffic data is provided for the returned compet
 
 #### Defined in
 
-[main.ts:88503](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L88503)
+main.ts:90880
 
 ___
-
 
 ### domain
 
@@ -71,10 +65,9 @@ domain name
 
 #### Defined in
 
-[main.ts:88482](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L88482)
+main.ts:90859
 
 ___
-
 
 ### full\_domain\_metrics
 
@@ -89,10 +82,9 @@ full overview of ranking and traffic data relevant to all keywords that the prov
 
 #### Defined in
 
-[main.ts:88495](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L88495)
+main.ts:90872
 
 ___
-
 
 ### intersections
 
@@ -102,10 +94,9 @@ number of intersecting keywords
 
 #### Defined in
 
-[main.ts:88492](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L88492)
+main.ts:90869
 
 ___
-
 
 ### metrics
 
@@ -121,10 +112,9 @@ note: in this array ranking and traffic data is provided for the target consider
 
 #### Defined in
 
-[main.ts:88499](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L88499)
+main.ts:90876
 
 ___
-
 
 ### se\_type
 
@@ -134,10 +124,9 @@ search engine type
 
 #### Defined in
 
-[main.ts:88480](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L88480)
+main.ts:90857
 
 ___
-
 
 ### sum\_position
 
@@ -149,8 +138,4 @@ the value for a given domain may differ when combined with different target webs
 
 #### Defined in
 
-[main.ts:88490](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L88490)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:90867

@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / BacklinksPageMeta
+[Documentation](../README.md) / [Exports](../modules.md) / BacklinksPageMeta
 
 # Class: BacklinksPageMeta
 
@@ -64,7 +60,7 @@
 
 #### Defined in
 
-[main.ts:132761](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L132761)
+main.ts:138152
 
 ## Properties
 
@@ -80,10 +76,9 @@ canonical page
 
 #### Defined in
 
-[main.ts:132717](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L132717)
+main.ts:138108
 
 ___
-
 
 ### charset
 
@@ -99,10 +94,9 @@ utf-8
 
 #### Defined in
 
-[main.ts:132753](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L132753)
+main.ts:138144
 
 ___
-
 
 ### external\_links\_count
 
@@ -116,10 +110,9 @@ number of external links on the page
 
 #### Defined in
 
-[main.ts:132721](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L132721)
+main.ts:138112
 
 ___
-
 
 ### h1
 
@@ -134,10 +127,9 @@ content of h1 tags
 
 #### Defined in
 
-[main.ts:132735](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L132735)
+main.ts:138126
 
 ___
-
 
 ### h2
 
@@ -152,10 +144,9 @@ content of h2 tags
 
 #### Defined in
 
-[main.ts:132738](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L132738)
+main.ts:138129
 
 ___
-
 
 ### h3
 
@@ -170,10 +161,9 @@ content of h3 tags
 
 #### Defined in
 
-[main.ts:132741](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L132741)
+main.ts:138132
 
 ___
-
 
 ### images\_alt
 
@@ -187,10 +177,9 @@ content of alt tags
 
 #### Defined in
 
-[main.ts:132743](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L132743)
+main.ts:138134
 
 ___
-
 
 ### images\_count
 
@@ -204,10 +193,9 @@ number of images on the page
 
 #### Defined in
 
-[main.ts:132723](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L132723)
+main.ts:138114
 
 ___
-
 
 ### internal\_links\_count
 
@@ -221,10 +209,9 @@ number of internal links on the page
 
 #### Defined in
 
-[main.ts:132719](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L132719)
+main.ts:138110
 
 ___
-
 
 ### language
 
@@ -240,10 +227,9 @@ en
 
 #### Defined in
 
-[main.ts:132749](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L132749)
+main.ts:138140
 
 ___
-
 
 ### page\_spam\_score
 
@@ -258,10 +244,9 @@ learn more about how the metric is calculated on this help center page
 
 #### Defined in
 
-[main.ts:132728](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L132728)
+main.ts:138119
 
 ___
-
 
 ### platform\_type
 
@@ -275,10 +260,9 @@ type of a platform
 
 #### Defined in
 
-[main.ts:132755](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L132755)
+main.ts:138146
 
 ___
-
 
 ### powered\_by
 
@@ -292,10 +276,9 @@ CMS details
 
 #### Defined in
 
-[main.ts:132745](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L132745)
+main.ts:138136
 
 ___
-
 
 ### social\_media\_tags
 
@@ -315,10 +298,9 @@ supported tags include but are not limited to Open Graph and Twitter card
 
 #### Defined in
 
-[main.ts:132732](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L132732)
+main.ts:138123
 
 ___
-
 
 ### technologies
 
@@ -336,10 +318,9 @@ website technologies
 
 #### Defined in
 
-[main.ts:132757](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L132757)
+main.ts:138148
 
 ___
-
 
 ### title
 
@@ -353,10 +334,9 @@ page title
 
 #### Defined in
 
-[main.ts:132715](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L132715)
+main.ts:138106
 
 ___
-
 
 ### words\_count
 
@@ -370,7 +350,7 @@ number of words on the page
 
 #### Defined in
 
-[main.ts:132725](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L132725)
+main.ts:138116
 
 ## Methods
 
@@ -390,10 +370,9 @@ number of words on the page
 
 #### Defined in
 
-[main.ts:132770](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L132770)
+main.ts:138161
 
 ___
-
 
 ### toJSON
 
@@ -411,10 +390,9 @@ ___
 
 #### Defined in
 
-[main.ts:132839](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L132839)
+main.ts:138230
 
 ___
-
 
 ### fromJS
 
@@ -432,8 +410,4 @@ ___
 
 #### Defined in
 
-[main.ts:132832](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L132832)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:138223

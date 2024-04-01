@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / DataforseoLabsGoogleDomainMetricsByCategoriesLiveItem
+[Documentation](../README.md) / [Exports](../modules.md) / DataforseoLabsGoogleDomainMetricsByCategoriesLiveItem
 
 # Class: DataforseoLabsGoogleDomainMetricsByCategoriesLiveItem
 
@@ -57,7 +53,7 @@
 
 #### Defined in
 
-[main.ts:84649](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L84649)
+main.ts:87026
 
 ## Properties
 
@@ -73,10 +69,9 @@ domain found for the specified category
 
 #### Defined in
 
-[main.ts:84638](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L84638)
+main.ts:87015
 
 ___
-
 
 ### main\_domain
 
@@ -90,10 +85,9 @@ primary domain
 
 #### Defined in
 
-[main.ts:84640](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L84640)
+main.ts:87017
 
 ___
-
 
 ### metrics\_difference
 
@@ -112,10 +106,9 @@ calculated by subtracting domain metrics as of the greater date from domain metr
 
 #### Defined in
 
-[main.ts:84645](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L84645)
+main.ts:87022
 
 ___
-
 
 ### metrics\_history
 
@@ -133,10 +126,9 @@ historical ranking and traffic data of the domain
 
 #### Defined in
 
-[main.ts:84642](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L84642)
+main.ts:87019
 
 ___
-
 
 ### organic\_count
 
@@ -150,10 +142,9 @@ current total count of organic SERPs that contain the domain
 
 #### Defined in
 
-[main.ts:84630](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L84630)
+main.ts:87007
 
 ___
-
 
 ### organic\_etv
 
@@ -167,10 +158,9 @@ current organic ETV of the domain
 
 #### Defined in
 
-[main.ts:84628](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L84628)
+main.ts:87005
 
 ___
-
 
 ### organic\_is\_lost
 
@@ -185,10 +175,9 @@ indicates how many ranked elements of the domain were previously presented in SE
 
 #### Defined in
 
-[main.ts:84633](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L84633)
+main.ts:87010
 
 ___
-
 
 ### organic\_is\_new
 
@@ -203,10 +192,9 @@ indicates how many new ranked elements were found for the domain
 
 #### Defined in
 
-[main.ts:84636](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L84636)
+main.ts:87013
 
 ___
-
 
 ### se\_type
 
@@ -220,10 +208,9 @@ search engine type
 
 #### Defined in
 
-[main.ts:84624](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L84624)
+main.ts:87001
 
 ___
-
 
 ### top\_categories
 
@@ -237,7 +224,7 @@ categories for which domains are collected
 
 #### Defined in
 
-[main.ts:84626](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L84626)
+main.ts:87003
 
 ## Methods
 
@@ -257,10 +244,9 @@ categories for which domains are collected
 
 #### Defined in
 
-[main.ts:84658](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L84658)
+main.ts:87035
 
 ___
-
 
 ### toJSON
 
@@ -278,10 +264,9 @@ ___
 
 #### Defined in
 
-[main.ts:84700](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L84700)
+main.ts:87077
 
 ___
-
 
 ### fromJS
 
@@ -299,8 +284,4 @@ ___
 
 #### Defined in
 
-[main.ts:84693](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L84693)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:87070

@@ -1,15 +1,11 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / MathSolverDataforseoLabsSerpElementItem
+[Documentation](../README.md) / [Exports](../modules.md) / MathSolverDataforseoLabsSerpElementItem
 
 # Class: MathSolverDataforseoLabsSerpElementItem
 
 ## Hierarchy
 
 - [`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md)
-  
+
   ↳ **`MathSolverDataforseoLabsSerpElementItem`**
 
 ## Implements
@@ -66,7 +62,7 @@
 
 #### Defined in
 
-[main.ts:92820](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L92820)
+main.ts:95197
 
 ## Properties
 
@@ -80,10 +76,9 @@
 
 #### Defined in
 
-[main.ts:19715](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L19715)
+main.ts:20171
 
 ___
-
 
 ### items
 
@@ -98,10 +93,9 @@ if there are none, equals null
 
 #### Defined in
 
-[main.ts:92812](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L92812)
+main.ts:95189
 
 ___
-
 
 ### links
 
@@ -117,10 +111,9 @@ if there are none, equals null
 
 #### Defined in
 
-[main.ts:92816](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L92816)
+main.ts:95193
 
 ___
-
 
 ### position
 
@@ -136,10 +129,9 @@ left, right
 
 #### Defined in
 
-[main.ts:92802](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L92802)
+main.ts:95179
 
 ___
-
 
 ### rank\_absolute
 
@@ -154,10 +146,9 @@ absolute position among all the elements in SERP
 
 #### Defined in
 
-[main.ts:92798](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L92798)
+main.ts:95175
 
 ___
-
 
 ### rank\_group
 
@@ -173,10 +164,9 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-[main.ts:92795](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L92795)
+main.ts:95172
 
 ___
-
 
 ### result
 
@@ -191,10 +181,9 @@ solution to the mathematical equation specified in the keyword field when settin
 
 #### Defined in
 
-[main.ts:92809](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L92809)
+main.ts:95186
 
 ___
-
 
 ### title
 
@@ -208,10 +197,9 @@ title of the result in SERP
 
 #### Defined in
 
-[main.ts:92806](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L92806)
+main.ts:95183
 
 ___
-
 
 ### xpath
 
@@ -225,7 +213,7 @@ the XPath of the element
 
 #### Defined in
 
-[main.ts:92804](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L92804)
+main.ts:95181
 
 ## Methods
 
@@ -249,10 +237,9 @@ the XPath of the element
 
 #### Defined in
 
-[main.ts:92825](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L92825)
+main.ts:95202
 
 ___
-
 
 ### toJSON
 
@@ -274,10 +261,9 @@ ___
 
 #### Defined in
 
-[main.ts:92858](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L92858)
+main.ts:95235
 
 ___
-
 
 ### fromJS
 
@@ -299,8 +285,4 @@ ___
 
 #### Defined in
 
-[main.ts:92851](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L92851)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:95228

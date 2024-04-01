@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IBusinessDataSocialMediaFacebookLiveRequestInfo
+[Documentation](../README.md) / [Exports](../modules.md) / IBusinessDataSocialMediaFacebookLiveRequestInfo
 
 # Interface: IBusinessDataSocialMediaFacebookLiveRequestInfo
 
@@ -35,10 +31,9 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-[main.ts:205959](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L205959)
+main.ts:211420
 
 ___
-
 
 ### targets
 
@@ -53,8 +48,4 @@ Note: you can specify 10 targets maximum. You will be charged per earch URL you 
 
 #### Defined in
 
-[main.ts:205953](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L205953)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:211414

@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IKnowledgeGraphShoppingElement
+[Documentation](../README.md) / [Exports](../modules.md) / IKnowledgeGraphShoppingElement
 
 # Interface: IKnowledgeGraphShoppingElement
 
@@ -38,10 +34,9 @@ website domain
 
 #### Defined in
 
-[main.ts:27378](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L27378)
+main.ts:27897
 
 ___
-
 
 ### marketplace
 
@@ -54,10 +49,9 @@ by Google
 
 #### Defined in
 
-[main.ts:27390](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L27390)
+main.ts:27909
 
 ___
-
 
 ### marketplace\_url
 
@@ -68,10 +62,9 @@ ecommerce site that hosts products or websites of individual sellers under the s
 
 #### Defined in
 
-[main.ts:27393](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L27393)
+main.ts:27912
 
 ___
-
 
 ### price
 
@@ -82,10 +75,9 @@ contains the pricing details of the product or service featured in the result
 
 #### Defined in
 
-[main.ts:27381](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L27381)
+main.ts:27900
 
 ___
-
 
 ### snippet
 
@@ -95,10 +87,9 @@ text alongside the link title
 
 #### Defined in
 
-[main.ts:27385](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L27385)
+main.ts:27904
 
 ___
-
 
 ### source
 
@@ -108,10 +99,9 @@ source of additional information about the result
 
 #### Defined in
 
-[main.ts:27383](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L27383)
+main.ts:27902
 
 ___
-
 
 ### title
 
@@ -121,10 +111,9 @@ title of the result in SERP
 
 #### Defined in
 
-[main.ts:27374](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L27374)
+main.ts:27893
 
 ___
-
 
 ### type
 
@@ -134,10 +123,9 @@ type of element
 
 #### Defined in
 
-[main.ts:27372](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L27372)
+main.ts:27891
 
 ___
-
 
 ### url
 
@@ -147,8 +135,4 @@ relevant URL
 
 #### Defined in
 
-[main.ts:27376](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L27376)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:27895

@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / BusinessDataContactInfo
+[Documentation](../README.md) / [Exports](../modules.md) / BusinessDataContactInfo
 
 # Class: BusinessDataContactInfo
 
@@ -50,7 +46,7 @@
 
 #### Defined in
 
-[main.ts:188944](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L188944)
+main.ts:194397
 
 ## Properties
 
@@ -66,10 +62,9 @@ data source
 
 #### Defined in
 
-[main.ts:188940](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L188940)
+main.ts:194393
 
 ___
-
 
 ### type
 
@@ -83,16 +78,15 @@ type of element
 
 #### Defined in
 
-[main.ts:188934](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L188934)
+main.ts:194387
 
 ___
-
 
 ### value
 
 • `Optional` **value**: `string`
 
-contact displayed in SERP
+contact displayed in SERP 
 example:
 "+119797979736"
 
@@ -102,7 +96,7 @@ example:
 
 #### Defined in
 
-[main.ts:188938](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L188938)
+main.ts:194391
 
 ## Methods
 
@@ -122,10 +116,9 @@ example:
 
 #### Defined in
 
-[main.ts:188953](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L188953)
+main.ts:194406
 
 ___
-
 
 ### toJSON
 
@@ -143,10 +136,9 @@ ___
 
 #### Defined in
 
-[main.ts:188972](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L188972)
+main.ts:194425
 
 ___
-
 
 ### fromJS
 
@@ -164,8 +156,4 @@ ___
 
 #### Defined in
 
-[main.ts:188965](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L188965)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:194418

@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IAppendixBingKeywordsDataPriceData
+[Documentation](../README.md) / [Exports](../modules.md) / IAppendixBingKeywordsDataPriceData
 
 # Interface: IAppendixBingKeywordsDataPriceData
 
@@ -32,10 +28,9 @@
 
 #### Defined in
 
-[main.ts:209805](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L209805)
+main.ts:215334
 
 ___
-
 
 ### keywords\_for\_keywords
 
@@ -43,10 +38,9 @@ ___
 
 #### Defined in
 
-[main.ts:209806](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L209806)
+main.ts:215335
 
 ___
-
 
 ### keywords\_for\_site
 
@@ -54,10 +48,9 @@ ___
 
 #### Defined in
 
-[main.ts:209807](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L209807)
+main.ts:215336
 
 ___
-
 
 ### search\_volume
 
@@ -65,10 +58,9 @@ ___
 
 #### Defined in
 
-[main.ts:209809](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L209809)
+main.ts:215338
 
 ___
-
 
 ### search\_volume\_history
 
@@ -76,8 +68,4 @@ ___
 
 #### Defined in
 
-[main.ts:209808](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L209808)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:215337

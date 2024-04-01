@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / BulkMetricsInfo
+[Documentation](../README.md) / [Exports](../modules.md) / BulkMetricsInfo
 
 # Class: BulkMetricsInfo
 
@@ -49,7 +45,7 @@
 
 #### Defined in
 
-[main.ts:97639](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L97639)
+main.ts:100016
 
 ## Properties
 
@@ -65,10 +61,9 @@ total count of organic SERPs that contain the domain
 
 #### Defined in
 
-[main.ts:97635](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L97635)
+main.ts:100012
 
 ___
-
 
 ### etv
 
@@ -85,7 +80,7 @@ learn more about how the metric is calculated in this help center article
 
 #### Defined in
 
-[main.ts:97633](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L97633)
+main.ts:100010
 
 ## Methods
 
@@ -105,10 +100,9 @@ learn more about how the metric is calculated in this help center article
 
 #### Defined in
 
-[main.ts:97648](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L97648)
+main.ts:100025
 
 ___
-
 
 ### toJSON
 
@@ -126,10 +120,9 @@ ___
 
 #### Defined in
 
-[main.ts:97666](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L97666)
+main.ts:100043
 
 ___
-
 
 ### fromJS
 
@@ -147,8 +140,4 @@ ___
 
 #### Defined in
 
-[main.ts:97659](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L97659)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:100036

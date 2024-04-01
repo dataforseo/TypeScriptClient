@@ -1,15 +1,11 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / DomainAnalyticsTechnologiesAvailableFiltersTaskInfo
+[Documentation](../README.md) / [Exports](../modules.md) / DomainAnalyticsTechnologiesAvailableFiltersTaskInfo
 
 # Class: DomainAnalyticsTechnologiesAvailableFiltersTaskInfo
 
 ## Hierarchy
 
 - [`BaseResponseTaskInfo`](BaseResponseTaskInfo.md)
-  
+
   ↳ **`DomainAnalyticsTechnologiesAvailableFiltersTaskInfo`**
 
 ## Implements
@@ -66,7 +62,7 @@
 
 #### Defined in
 
-[main.ts:71665](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L71665)
+main.ts:74042
 
 ## Properties
 
@@ -86,10 +82,9 @@ total tasks cost, USD
 
 #### Defined in
 
-[main.ts:22602](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L22602)
+main.ts:23121
 
 ___
-
 
 ### data
 
@@ -111,10 +106,9 @@ contains the same parameters that you specified in the POST request
 
 #### Defined in
 
-[main.ts:22608](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L22608)
+main.ts:23127
 
 ___
-
 
 ### id
 
@@ -133,10 +127,9 @@ unique task identifier in our system in the UUID format
 
 #### Defined in
 
-[main.ts:22591](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L22591)
+main.ts:23110
 
 ___
-
 
 ### path
 
@@ -154,10 +147,9 @@ URL path
 
 #### Defined in
 
-[main.ts:22606](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L22606)
+main.ts:23125
 
 ___
-
 
 ### result
 
@@ -169,10 +161,9 @@ ___
 
 #### Defined in
 
-[main.ts:71661](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L71661)
+main.ts:74038
 
 ___
-
 
 ### result\_count
 
@@ -190,10 +181,9 @@ number of elements in the result array
 
 #### Defined in
 
-[main.ts:22604](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L22604)
+main.ts:23123
 
 ___
-
 
 ### status\_code
 
@@ -213,10 +203,9 @@ you can find the full list of the response codes here
 
 #### Defined in
 
-[main.ts:22595](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L22595)
+main.ts:23114
 
 ___
-
 
 ### status\_message
 
@@ -235,10 +224,9 @@ you can find the full list of general informational messages here
 
 #### Defined in
 
-[main.ts:22598](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L22598)
+main.ts:23117
 
 ___
-
 
 ### time
 
@@ -256,7 +244,7 @@ execution time, seconds
 
 #### Defined in
 
-[main.ts:22600](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L22600)
+main.ts:23119
 
 ## Methods
 
@@ -280,10 +268,9 @@ execution time, seconds
 
 #### Defined in
 
-[main.ts:71669](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L71669)
+main.ts:74046
 
 ___
-
 
 ### toJSON
 
@@ -305,10 +292,9 @@ ___
 
 #### Defined in
 
-[main.ts:71691](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L71691)
+main.ts:74068
 
 ___
-
 
 ### fromJS
 
@@ -330,8 +316,4 @@ ___
 
 #### Defined in
 
-[main.ts:71684](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L71684)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:74061

@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / WorkHours
+[Documentation](../README.md) / [Exports](../modules.md) / WorkHours
 
 # Class: WorkHours
 
@@ -49,7 +45,7 @@
 
 #### Defined in
 
-[main.ts:38297](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L38297)
+main.ts:39048
 
 ## Properties
 
@@ -66,10 +62,9 @@ indicates whether the establishment is opened or closed
 
 #### Defined in
 
-[main.ts:38293](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L38293)
+main.ts:39044
 
 ___
-
 
 ### timetable
 
@@ -87,7 +82,7 @@ work hours timetable
 
 #### Defined in
 
-[main.ts:38290](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L38290)
+main.ts:39041
 
 ## Methods
 
@@ -107,10 +102,9 @@ work hours timetable
 
 #### Defined in
 
-[main.ts:38306](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L38306)
+main.ts:39057
 
 ___
-
 
 ### toJSON
 
@@ -128,10 +122,9 @@ ___
 
 #### Defined in
 
-[main.ts:38330](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L38330)
+main.ts:39081
 
 ___
-
 
 ### fromJS
 
@@ -149,8 +142,4 @@ ___
 
 #### Defined in
 
-[main.ts:38323](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L38323)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:39074

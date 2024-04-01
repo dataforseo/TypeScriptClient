@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / ILicensesElement
+[Documentation](../README.md) / [Exports](../modules.md) / ILicensesElement
 
 # Interface: ILicensesElement
 
@@ -29,27 +25,25 @@
 
 • `Optional` **domain**: `string`
 
-domain where a link points
+website domain
 
 #### Defined in
 
-[main.ts:33279](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L33279)
+main.ts:34180
 
 ___
-
 
 ### title
 
 • `Optional` **title**: `string`
 
-title of the row
+title of a given link element
 
 #### Defined in
 
-[main.ts:33275](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L33275)
+main.ts:34176
 
 ___
-
 
 ### type
 
@@ -59,10 +53,9 @@ type of element
 
 #### Defined in
 
-[main.ts:33273](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L33273)
+main.ts:34174
 
 ___
-
 
 ### url
 
@@ -72,8 +65,4 @@ URL
 
 #### Defined in
 
-[main.ts:33277](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L33277)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:34178

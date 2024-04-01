@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IDataforseoLabsGoogleAvailableHistoryResultInfo
+[Documentation](../README.md) / [Exports](../modules.md) / IDataforseoLabsGoogleAvailableHistoryResultInfo
 
 # Interface: IDataforseoLabsGoogleAvailableHistoryResultInfo
 
@@ -33,8 +29,4 @@ example:
 
 #### Defined in
 
-[main.ts:78373](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L78373)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:80750

@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / OnPageLighthouseAuditsResultInfo
+[Documentation](../README.md) / [Exports](../modules.md) / OnPageLighthouseAuditsResultInfo
 
 # Class: OnPageLighthouseAuditsResultInfo
 
@@ -48,7 +44,7 @@
 
 #### Defined in
 
-[main.ts:153683](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L153683)
+main.ts:159110
 
 ## Properties
 
@@ -66,7 +62,7 @@ Note: the titles can change depending on if the audit passed or failed and may c
 
 #### Defined in
 
-[main.ts:153679](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L153679)
+main.ts:159106
 
 ## Methods
 
@@ -86,10 +82,9 @@ Note: the titles can change depending on if the audit passed or failed and may c
 
 #### Defined in
 
-[main.ts:153692](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L153692)
+main.ts:159119
 
 ___
-
 
 ### toJSON
 
@@ -107,10 +102,9 @@ ___
 
 #### Defined in
 
-[main.ts:153713](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L153713)
+main.ts:159140
 
 ___
-
 
 ### fromJS
 
@@ -128,8 +122,4 @@ ___
 
 #### Defined in
 
-[main.ts:153706](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L153706)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:159133

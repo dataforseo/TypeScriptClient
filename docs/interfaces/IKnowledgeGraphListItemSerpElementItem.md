@@ -1,15 +1,11 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IKnowledgeGraphListItemSerpElementItem
+[Documentation](../README.md) / [Exports](../modules.md) / IKnowledgeGraphListItemSerpElementItem
 
 # Interface: IKnowledgeGraphListItemSerpElementItem
 
 ## Hierarchy
 
 - [`IBaseSerpElementItem`](IBaseSerpElementItem.md)
-  
+
   ↳ **`IKnowledgeGraphListItemSerpElementItem`**
 
 ## Implemented by
@@ -46,10 +42,9 @@ ss:/webfacts:net_worth
 
 #### Defined in
 
-[main.ts:26730](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L26730)
+main.ts:27249
 
 ___
-
 
 ### items
 
@@ -60,10 +55,9 @@ if there are none, equals null
 
 #### Defined in
 
-[main.ts:26735](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L26735)
+main.ts:27254
 
 ___
-
 
 ### link
 
@@ -73,10 +67,9 @@ link of the element
 
 #### Defined in
 
-[main.ts:26732](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L26732)
+main.ts:27251
 
 ___
-
 
 ### position
 
@@ -88,10 +81,9 @@ left, right
 
 #### Defined in
 
-[main.ts:26722](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L26722)
+main.ts:27241
 
 ___
-
 
 ### rank\_absolute
 
@@ -102,10 +94,9 @@ absolute position among all the elements in SERP
 
 #### Defined in
 
-[main.ts:26718](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L26718)
+main.ts:27237
 
 ___
-
 
 ### rank\_group
 
@@ -117,10 +108,9 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-[main.ts:26715](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L26715)
+main.ts:27234
 
 ___
-
 
 ### rectangle
 
@@ -132,10 +122,9 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 #### Defined in
 
-[main.ts:26739](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L26739)
+main.ts:27258
 
 ___
-
 
 ### title
 
@@ -145,10 +134,9 @@ title of the link element
 
 #### Defined in
 
-[main.ts:26726](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L26726)
+main.ts:27245
 
 ___
-
 
 ### xpath
 
@@ -158,8 +146,4 @@ the XPath of the element
 
 #### Defined in
 
-[main.ts:26724](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L26724)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:27243

@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / BacklinksBulkReferringDomainsLiveItem
+[Documentation](../README.md) / [Exports](../modules.md) / BacklinksBulkReferringDomainsLiveItem
 
 # Class: BacklinksBulkReferringDomainsLiveItem
 
@@ -52,7 +48,7 @@
 
 #### Defined in
 
-[main.ts:140439](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L140439)
+main.ts:145866
 
 ## Properties
 
@@ -69,10 +65,9 @@ note that we calculate main domains (root domains, like example.com) and their s
 
 #### Defined in
 
-[main.ts:140428](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L140428)
+main.ts:145855
 
 ___
-
 
 ### referring\_domains\_nofollow
 
@@ -86,10 +81,9 @@ number of domains pointing at least one nofollow link to the target
 
 #### Defined in
 
-[main.ts:140430](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L140430)
+main.ts:145857
 
 ___
-
 
 ### referring\_main\_domains
 
@@ -104,10 +98,9 @@ the number of primary (root) domains referring to your target
 
 #### Defined in
 
-[main.ts:140433](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L140433)
+main.ts:145860
 
 ___
-
 
 ### referring\_main\_domains\_nofollow
 
@@ -121,10 +114,9 @@ number of main domains pointing at least one nofollow link to the target
 
 #### Defined in
 
-[main.ts:140435](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L140435)
+main.ts:145862
 
 ___
-
 
 ### target
 
@@ -138,7 +130,7 @@ domain, subdomain or webpage from a POST array
 
 #### Defined in
 
-[main.ts:140425](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L140425)
+main.ts:145852
 
 ## Methods
 
@@ -158,10 +150,9 @@ domain, subdomain or webpage from a POST array
 
 #### Defined in
 
-[main.ts:140448](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L140448)
+main.ts:145875
 
 ___
-
 
 ### toJSON
 
@@ -179,10 +170,9 @@ ___
 
 #### Defined in
 
-[main.ts:140469](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L140469)
+main.ts:145896
 
 ___
-
 
 ### fromJS
 
@@ -200,8 +190,4 @@ ___
 
 #### Defined in
 
-[main.ts:140462](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L140462)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:145889

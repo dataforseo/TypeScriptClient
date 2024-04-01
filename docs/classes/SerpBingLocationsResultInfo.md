@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / SerpBingLocationsResultInfo
+[Documentation](../README.md) / [Exports](../modules.md) / SerpBingLocationsResultInfo
 
 # Class: SerpBingLocationsResultInfo
 
@@ -52,7 +48,7 @@
 
 #### Defined in
 
-[main.ts:53139](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L53139)
+main.ts:55514
 
 ## Properties
 
@@ -68,10 +64,9 @@ ISO country code of the location
 
 #### Defined in
 
-[main.ts:53133](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L53133)
+main.ts:55508
 
 ___
-
 
 ### location\_code
 
@@ -85,10 +80,9 @@ location code
 
 #### Defined in
 
-[main.ts:53120](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L53120)
+main.ts:55495
 
 ___
-
 
 ### location\_code\_parent
 
@@ -109,10 +103,9 @@ where location_code_parent corresponds to:
 
 #### Defined in
 
-[main.ts:53131](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L53131)
+main.ts:55506
 
 ___
-
 
 ### location\_name
 
@@ -126,10 +119,9 @@ full name of the location
 
 #### Defined in
 
-[main.ts:53122](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L53122)
+main.ts:55497
 
 ___
-
 
 ### location\_type
 
@@ -143,7 +135,7 @@ location type
 
 #### Defined in
 
-[main.ts:53135](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L53135)
+main.ts:55510
 
 ## Methods
 
@@ -163,10 +155,9 @@ location type
 
 #### Defined in
 
-[main.ts:53148](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L53148)
+main.ts:55523
 
 ___
-
 
 ### toJSON
 
@@ -184,10 +175,9 @@ ___
 
 #### Defined in
 
-[main.ts:53169](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L53169)
+main.ts:55544
 
 ___
-
 
 ### fromJS
 
@@ -205,8 +195,4 @@ ___
 
 #### Defined in
 
-[main.ts:53162](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L53162)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:55537

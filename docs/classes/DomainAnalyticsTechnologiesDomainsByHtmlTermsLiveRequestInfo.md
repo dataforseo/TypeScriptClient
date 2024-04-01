@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / DomainAnalyticsTechnologiesDomainsByHtmlTermsLiveRequestInfo
+[Documentation](../README.md) / [Exports](../modules.md) / DomainAnalyticsTechnologiesDomainsByHtmlTermsLiveRequestInfo
 
 # Class: DomainAnalyticsTechnologiesDomainsByHtmlTermsLiveRequestInfo
 
@@ -55,7 +51,7 @@
 
 #### Defined in
 
-[main.ts:74697](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L74697)
+main.ts:77074
 
 ## Properties
 
@@ -86,10 +82,9 @@ for more information about filters, please refer to Domain Analytics Technologie
 
 #### Defined in
 
-[main.ts:74656](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L74656)
+main.ts:77033
 
 ___
-
 
 ### keywords
 
@@ -109,10 +104,9 @@ example:
 
 #### Defined in
 
-[main.ts:74632](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L74632)
+main.ts:77009
 
 ___
-
 
 ### limit
 
@@ -129,10 +123,9 @@ maximum value: 10000
 
 #### Defined in
 
-[main.ts:74678](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L74678)
+main.ts:77055
 
 ___
-
 
 ### mode
 
@@ -151,10 +144,9 @@ default value: entry
 
 #### Defined in
 
-[main.ts:74639](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L74639)
+main.ts:77016
 
 ___
-
 
 ### offset
 
@@ -173,10 +165,9 @@ use the offset_token if you would like to offset more results
 
 #### Defined in
 
-[main.ts:74685](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L74685)
+main.ts:77062
 
 ___
-
 
 ### offset\_token
 
@@ -196,10 +187,9 @@ Note: if the offset_token is specified in the request, all other parameters shou
 
 #### Defined in
 
-[main.ts:74693](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L74693)
+main.ts:77070
 
 ___
-
 
 ### order\_by
 
@@ -228,10 +218,9 @@ example:
 
 #### Defined in
 
-[main.ts:74673](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L74673)
+main.ts:77050
 
 ___
-
 
 ### search\_terms
 
@@ -251,7 +240,7 @@ example:
 
 #### Defined in
 
-[main.ts:74624](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L74624)
+main.ts:77001
 
 ## Methods
 
@@ -271,10 +260,9 @@ example:
 
 #### Defined in
 
-[main.ts:74706](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L74706)
+main.ts:77083
 
 ___
-
 
 ### toJSON
 
@@ -292,10 +280,9 @@ ___
 
 #### Defined in
 
-[main.ts:74746](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L74746)
+main.ts:77123
 
 ___
-
 
 ### fromJS
 
@@ -313,8 +300,4 @@ ___
 
 #### Defined in
 
-[main.ts:74739](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L74739)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:77116

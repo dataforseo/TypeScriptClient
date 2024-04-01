@@ -1,15 +1,11 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IGoogleShoppingPaidMerchantSerpElementItem
+[Documentation](../README.md) / [Exports](../modules.md) / IGoogleShoppingPaidMerchantSerpElementItem
 
 # Interface: IGoogleShoppingPaidMerchantSerpElementItem
 
 ## Hierarchy
 
 - [`IBaseMerchantSerpElementItem`](IBaseMerchantSerpElementItem.md)
-  
+
   ↳ **`IGoogleShoppingPaidMerchantSerpElementItem`**
 
 ## Implemented by
@@ -44,10 +40,9 @@ description of the product in Google Shopping SERP
 
 #### Defined in
 
-[main.ts:165031](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L165031)
+main.ts:170458
 
 ___
-
 
 ### domain
 
@@ -57,10 +52,9 @@ domain in SERP
 
 #### Defined in
 
-[main.ts:165027](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L165027)
+main.ts:170454
 
 ___
-
 
 ### position
 
@@ -72,10 +66,9 @@ left, right
 
 #### Defined in
 
-[main.ts:165023](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L165023)
+main.ts:170450
 
 ___
-
 
 ### rank\_absolute
 
@@ -86,10 +79,9 @@ absolute position among all the elements found in Google Shopping SERP
 
 #### Defined in
 
-[main.ts:165019](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L165019)
+main.ts:170446
 
 ___
-
 
 ### rank\_group
 
@@ -100,10 +92,9 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-[main.ts:165016](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L165016)
+main.ts:170443
 
 ___
-
 
 ### shop\_ad\_aclk
 
@@ -114,10 +105,9 @@ using this parameter you can get a URL of the advertisement in Google Shopping S
 
 #### Defined in
 
-[main.ts:165036](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L165036)
+main.ts:170463
 
 ___
-
 
 ### title
 
@@ -127,10 +117,9 @@ product title
 
 #### Defined in
 
-[main.ts:165029](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L165029)
+main.ts:170456
 
 ___
-
 
 ### url
 
@@ -140,10 +129,9 @@ URL to the product page on the seller’s website
 
 #### Defined in
 
-[main.ts:165033](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L165033)
+main.ts:170460
 
 ___
-
 
 ### xpath
 
@@ -153,8 +141,4 @@ XPath of the element
 
 #### Defined in
 
-[main.ts:165025](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L165025)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:170452

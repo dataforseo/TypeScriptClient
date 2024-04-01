@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / HotelPriceItemInfo
+[Documentation](../README.md) / [Exports](../modules.md) / HotelPriceItemInfo
 
 # Class: HotelPriceItemInfo
 
@@ -56,7 +52,7 @@
 
 #### Defined in
 
-[main.ts:193595](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L193595)
+main.ts:199056
 
 ## Properties
 
@@ -73,10 +69,9 @@ USD is applied by default, unless specified in the POST array
 
 #### Defined in
 
-[main.ts:193575](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L193575)
+main.ts:199036
 
 ___
-
 
 ### domain
 
@@ -91,10 +86,9 @@ domain of the third-party website page with pricing information
 
 #### Defined in
 
-[main.ts:193581](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L193581)
+main.ts:199042
 
 ___
-
 
 ### free\_cancellation\_until
 
@@ -110,10 +104,9 @@ equals null if free cancellation is not available for the selected dates
 
 #### Defined in
 
-[main.ts:193589](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L193589)
+main.ts:199050
 
 ___
-
 
 ### is\_paid
 
@@ -129,10 +122,9 @@ if false, related hotel_search_item is an organic hotel listing
 
 #### Defined in
 
-[main.ts:193585](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L193585)
+main.ts:199046
 
 ___
-
 
 ### offers
 
@@ -146,10 +138,9 @@ featured price offers
 
 #### Defined in
 
-[main.ts:193591](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L193591)
+main.ts:199052
 
 ___
-
 
 ### price
 
@@ -163,10 +154,9 @@ price per night
 
 #### Defined in
 
-[main.ts:193572](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L193572)
+main.ts:199033
 
 ___
-
 
 ### title
 
@@ -180,10 +170,9 @@ title of the hotel
 
 #### Defined in
 
-[main.ts:193570](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L193570)
+main.ts:199031
 
 ___
-
 
 ### type
 
@@ -197,10 +186,9 @@ type of element
 
 #### Defined in
 
-[main.ts:193568](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L193568)
+main.ts:199029
 
 ___
-
 
 ### url
 
@@ -215,7 +203,7 @@ URL to the third-party website page with pricing information
 
 #### Defined in
 
-[main.ts:193578](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L193578)
+main.ts:199039
 
 ## Methods
 
@@ -235,10 +223,9 @@ URL to the third-party website page with pricing information
 
 #### Defined in
 
-[main.ts:193604](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L193604)
+main.ts:199065
 
 ___
-
 
 ### toJSON
 
@@ -256,10 +243,9 @@ ___
 
 #### Defined in
 
-[main.ts:193633](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L193633)
+main.ts:199094
 
 ___
-
 
 ### fromJS
 
@@ -277,8 +263,4 @@ ___
 
 #### Defined in
 
-[main.ts:193626](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L193626)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:199087

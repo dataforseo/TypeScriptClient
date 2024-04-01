@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / PerspectivesElement
+[Documentation](../README.md) / [Exports](../modules.md) / PerspectivesElement
 
 # Class: PerspectivesElement
 
@@ -55,7 +51,7 @@
 
 #### Defined in
 
-[main.ts:35404](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L35404)
+main.ts:36371
 
 ## Properties
 
@@ -71,16 +67,15 @@ the date when the page source of the element was published
 
 #### Defined in
 
-[main.ts:35392](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L35392)
+main.ts:36359
 
 ___
-
 
 ### description
 
 • `Optional` **description**: `string`
 
-description of the results element in SERP
+description
 
 #### Implementation of
 
@@ -88,16 +83,15 @@ description of the results element in SERP
 
 #### Defined in
 
-[main.ts:35386](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L35386)
+main.ts:36353
 
 ___
-
 
 ### domain
 
 • `Optional` **domain**: `string`
 
-domain where a link points
+website domain
 
 #### Implementation of
 
@@ -105,17 +99,16 @@ domain where a link points
 
 #### Defined in
 
-[main.ts:35390](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L35390)
+main.ts:36357
 
 ___
-
 
 ### source
 
 • `Optional` **source**: `string`
 
-web source of the hotel booking element
-indicates the source of information included in the element
+source of the element
+indicates the source of information included in the top_stories_element
 
 #### Implementation of
 
@@ -123,10 +116,9 @@ indicates the source of information included in the element
 
 #### Defined in
 
-[main.ts:35395](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L35395)
+main.ts:36362
 
 ___
-
 
 ### timestamp
 
@@ -143,16 +135,15 @@ example:
 
 #### Defined in
 
-[main.ts:35400](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L35400)
+main.ts:36367
 
 ___
-
 
 ### title
 
 • `Optional` **title**: `string`
 
-title of the row
+title of a given link element
 
 #### Implementation of
 
@@ -160,10 +151,9 @@ title of the row
 
 #### Defined in
 
-[main.ts:35384](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L35384)
+main.ts:36351
 
 ___
-
 
 ### type
 
@@ -177,10 +167,9 @@ type of element
 
 #### Defined in
 
-[main.ts:35382](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L35382)
+main.ts:36349
 
 ___
-
 
 ### url
 
@@ -194,7 +183,7 @@ URL
 
 #### Defined in
 
-[main.ts:35388](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L35388)
+main.ts:36355
 
 ## Methods
 
@@ -214,10 +203,9 @@ URL
 
 #### Defined in
 
-[main.ts:35413](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L35413)
+main.ts:36380
 
 ___
-
 
 ### toJSON
 
@@ -235,10 +223,9 @@ ___
 
 #### Defined in
 
-[main.ts:35437](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L35437)
+main.ts:36404
 
 ___
-
 
 ### fromJS
 
@@ -256,8 +243,4 @@ ___
 
 #### Defined in
 
-[main.ts:35430](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L35430)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:36397

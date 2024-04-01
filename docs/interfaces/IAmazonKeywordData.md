@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IAmazonKeywordData
+[Documentation](../README.md) / [Exports](../modules.md) / IAmazonKeywordData
 
 # Interface: IAmazonKeywordData
 
@@ -34,10 +30,9 @@ related keyword
 
 #### Defined in
 
-[main.ts:21372](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L21372)
+main.ts:21891
 
 ___
-
 
 ### keyword\_info
 
@@ -47,10 +42,9 @@ keyword info for the returned keyword
 
 #### Defined in
 
-[main.ts:21378](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L21378)
+main.ts:21897
 
 ___
-
 
 ### language\_code
 
@@ -60,10 +54,9 @@ language code in a POST array
 
 #### Defined in
 
-[main.ts:21376](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L21376)
+main.ts:21895
 
 ___
-
 
 ### location\_code
 
@@ -73,10 +66,9 @@ location code in a POST array
 
 #### Defined in
 
-[main.ts:21374](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L21374)
+main.ts:21893
 
 ___
-
 
 ### se\_type
 
@@ -86,8 +78,4 @@ search engine type
 
 #### Defined in
 
-[main.ts:21370](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L21370)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:21889

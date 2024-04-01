@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / AppendixMerchantAmazonInfo
+[Documentation](../README.md) / [Exports](../modules.md) / AppendixMerchantAmazonInfo
 
 # Class: AppendixMerchantAmazonInfo
 
@@ -50,7 +46,7 @@
 
 #### Defined in
 
-[main.ts:207559](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L207559)
+main.ts:213084
 
 ## Properties
 
@@ -64,10 +60,9 @@
 
 #### Defined in
 
-[main.ts:207553](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L207553)
+main.ts:213078
 
 ___
-
 
 ### products
 
@@ -79,10 +74,9 @@ ___
 
 #### Defined in
 
-[main.ts:207554](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L207554)
+main.ts:213079
 
 ___
-
 
 ### sellers
 
@@ -94,7 +88,7 @@ ___
 
 #### Defined in
 
-[main.ts:207555](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L207555)
+main.ts:213080
 
 ## Methods
 
@@ -114,10 +108,9 @@ ___
 
 #### Defined in
 
-[main.ts:207568](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L207568)
+main.ts:213093
 
 ___
-
 
 ### toJSON
 
@@ -135,10 +128,9 @@ ___
 
 #### Defined in
 
-[main.ts:207587](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L207587)
+main.ts:213112
 
 ___
-
 
 ### fromJS
 
@@ -156,8 +148,4 @@ ___
 
 #### Defined in
 
-[main.ts:207580](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L207580)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:213105

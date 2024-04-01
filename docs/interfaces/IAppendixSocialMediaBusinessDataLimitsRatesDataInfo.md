@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IAppendixSocialMediaBusinessDataLimitsRatesDataInfo
+[Documentation](../README.md) / [Exports](../modules.md) / IAppendixSocialMediaBusinessDataLimitsRatesDataInfo
 
 # Interface: IAppendixSocialMediaBusinessDataLimitsRatesDataInfo
 
@@ -26,34 +22,28 @@
 
 ### facebook
 
-• `Optional` **facebook**: [`AppendixInfo`](../classes/AppendixInfo.md)
+• `Optional` **facebook**: [`AppendixFunctionInfo`](../classes/AppendixFunctionInfo.md)
 
 #### Defined in
 
-[main.ts:207965](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L207965)
+main.ts:213490
 
 ___
-
 
 ### pinterest
 
-• `Optional` **pinterest**: [`AppendixInfo`](../classes/AppendixInfo.md)
+• `Optional` **pinterest**: [`AppendixFunctionInfo`](../classes/AppendixFunctionInfo.md)
 
 #### Defined in
 
-[main.ts:207966](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L207966)
+main.ts:213491
 
 ___
 
-
 ### reddit
 
-• `Optional` **reddit**: [`AppendixInfo`](../classes/AppendixInfo.md)
+• `Optional` **reddit**: [`AppendixFunctionInfo`](../classes/AppendixFunctionInfo.md)
 
 #### Defined in
 
-[main.ts:207967](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L207967)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:213492

@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IBacklinksErrorsResultInfo
+[Documentation](../README.md) / [Exports](../modules.md) / IBacklinksErrorsResultInfo
 
 # Interface: IBacklinksErrorsResultInfo
 
@@ -42,10 +38,9 @@ example:
 
 #### Defined in
 
-[main.ts:128493](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L128493)
+main.ts:133860
 
 ___
-
 
 ### error\_code
 
@@ -55,10 +50,9 @@ error code
 
 #### Defined in
 
-[main.ts:128497](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L128497)
+main.ts:133864
 
 ___
-
 
 ### error\_message
 
@@ -69,10 +63,9 @@ error message (see full list) or URL that caused an error
 
 #### Defined in
 
-[main.ts:128500](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L128500)
+main.ts:133867
 
 ___
-
 
 ### function
 
@@ -82,10 +75,9 @@ corresponding API function
 
 #### Defined in
 
-[main.ts:128495](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L128495)
+main.ts:133862
 
 ___
-
 
 ### http\_code
 
@@ -95,10 +87,9 @@ HTTP status code
 
 #### Defined in
 
-[main.ts:128507](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L128507)
+main.ts:133874
 
 ___
-
 
 ### http\_method
 
@@ -108,10 +99,9 @@ HTTP method
 
 #### Defined in
 
-[main.ts:128505](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L128505)
+main.ts:133872
 
 ___
-
 
 ### http\_response
 
@@ -122,10 +112,9 @@ server response
 
 #### Defined in
 
-[main.ts:128512](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L128512)
+main.ts:133879
 
 ___
-
 
 ### http\_time
 
@@ -135,10 +124,9 @@ time taken by HTTP request
 
 #### Defined in
 
-[main.ts:128509](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L128509)
+main.ts:133876
 
 ___
-
 
 ### http\_url
 
@@ -149,10 +137,9 @@ URL you used for making an API call
 
 #### Defined in
 
-[main.ts:128503](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L128503)
+main.ts:133870
 
 ___
-
 
 ### id
 
@@ -162,8 +149,4 @@ id of the task
 
 #### Defined in
 
-[main.ts:128488](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L128488)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:133855

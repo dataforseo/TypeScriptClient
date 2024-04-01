@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IDataforseoLabsBingBulkKeywordDifficultyLiveRequestInfo
+[Documentation](../README.md) / [Exports](../modules.md) / IDataforseoLabsBingBulkKeywordDifficultyLiveRequestInfo
 
 # Interface: IDataforseoLabsBingBulkKeywordDifficultyLiveRequestInfo
 
@@ -40,10 +36,9 @@ the keywords will be converted to lowercase format
 
 #### Defined in
 
-[main.ts:102197](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L102197)
+main.ts:104574
 
 ___
-
 
 ### language\_code
 
@@ -58,10 +53,9 @@ en
 
 #### Defined in
 
-[main.ts:102227](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L102227)
+main.ts:104604
 
 ___
-
 
 ### language\_name
 
@@ -76,10 +70,9 @@ English
 
 #### Defined in
 
-[main.ts:102220](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L102220)
+main.ts:104597
 
 ___
-
 
 ### location\_code
 
@@ -95,10 +88,9 @@ example:
 
 #### Defined in
 
-[main.ts:102213](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L102213)
+main.ts:104590
 
 ___
-
 
 ### location\_name
 
@@ -114,10 +106,9 @@ United States
 
 #### Defined in
 
-[main.ts:102205](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L102205)
+main.ts:104582
 
 ___
-
 
 ### tag
 
@@ -131,8 +122,4 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-[main.ts:102233](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L102233)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:104610

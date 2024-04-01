@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / ICacheControl
+[Documentation](../README.md) / [Exports](../modules.md) / ICacheControl
 
 # Interface: ICacheControl
 
@@ -31,10 +27,9 @@ indicates whether the page is cacheable
 
 #### Defined in
 
-[main.ts:144787](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L144787)
+main.ts:150214
 
 ___
-
 
 ### ttl
 
@@ -45,8 +40,4 @@ the amount of time the browser caches a resource
 
 #### Defined in
 
-[main.ts:144790](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L144790)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:150217

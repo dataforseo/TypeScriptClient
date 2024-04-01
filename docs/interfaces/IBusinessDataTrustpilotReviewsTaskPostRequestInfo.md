@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IBusinessDataTrustpilotReviewsTaskPostRequestInfo
+[Documentation](../README.md) / [Exports](../modules.md) / IBusinessDataTrustpilotReviewsTaskPostRequestInfo
 
 # Interface: IBusinessDataTrustpilotReviewsTaskPostRequestInfo
 
@@ -41,10 +37,9 @@ maximum value: 25000
 
 #### Defined in
 
-[main.ts:199549](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L199549)
+main.ts:205010
 
 ___
-
 
 ### domain
 
@@ -60,10 +55,9 @@ https://www.trustpilot.com/review/www.thepearlsource.com
 
 #### Defined in
 
-[main.ts:199526](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L199526)
+main.ts:204987
 
 ___
-
 
 ### pingback\_url
 
@@ -81,10 +75,9 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-[main.ts:199575](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L199575)
+main.ts:205036
 
 ___
-
 
 ### postback\_url
 
@@ -102,10 +95,9 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-[main.ts:199565](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L199565)
+main.ts:205026
 
 ___
-
 
 ### priority
 
@@ -121,10 +113,9 @@ The cost can be calculated on the Pricing page.
 
 #### Defined in
 
-[main.ts:199542](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L199542)
+main.ts:205003
 
 ___
-
 
 ### sort\_by
 
@@ -140,10 +131,9 @@ default value: relevance
 
 #### Defined in
 
-[main.ts:199534](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L199534)
+main.ts:204995
 
 ___
-
 
 ### tag
 
@@ -157,8 +147,4 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-[main.ts:199555](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L199555)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:205016

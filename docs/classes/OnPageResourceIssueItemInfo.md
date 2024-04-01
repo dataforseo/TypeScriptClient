@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / OnPageResourceIssueItemInfo
+[Documentation](../README.md) / [Exports](../modules.md) / OnPageResourceIssueItemInfo
 
 # Class: OnPageResourceIssueItemInfo
 
@@ -51,7 +47,7 @@
 
 #### Defined in
 
-[main.ts:144597](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L144597)
+main.ts:150024
 
 ## Properties
 
@@ -67,10 +63,9 @@ column where the error was found
 
 #### Defined in
 
-[main.ts:144579](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L144579)
+main.ts:150006
 
 ___
-
 
 ### line
 
@@ -84,10 +79,9 @@ line where the error was found
 
 #### Defined in
 
-[main.ts:144577](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L144577)
+main.ts:150004
 
 ___
-
 
 ### message
 
@@ -102,10 +96,9 @@ the full list of possible HTML errors can be found here
 
 #### Defined in
 
-[main.ts:144582](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L144582)
+main.ts:150009
 
 ___
-
 
 ### status\_code
 
@@ -128,7 +121,7 @@ possible values:
 
 #### Defined in
 
-[main.ts:144593](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L144593)
+main.ts:150020
 
 ## Methods
 
@@ -148,10 +141,9 @@ possible values:
 
 #### Defined in
 
-[main.ts:144606](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L144606)
+main.ts:150033
 
 ___
-
 
 ### toJSON
 
@@ -169,10 +161,9 @@ ___
 
 #### Defined in
 
-[main.ts:144626](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L144626)
+main.ts:150053
 
 ___
-
 
 ### fromJS
 
@@ -190,8 +181,4 @@ ___
 
 #### Defined in
 
-[main.ts:144619](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L144619)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:150046

@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IContentGenerationGenerateMetaTagsLiveResultInfo
+[Documentation](../README.md) / [Exports](../modules.md) / IContentGenerationGenerateMetaTagsLiveResultInfo
 
 # Interface: IContentGenerationGenerateMetaTagsLiveResultInfo
 
@@ -34,10 +30,9 @@ generated description
 
 #### Defined in
 
-[main.ts:160726](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L160726)
+main.ts:166153
 
 ___
-
 
 ### input\_tokens
 
@@ -47,10 +42,9 @@ number of input tokens
 
 #### Defined in
 
-[main.ts:160718](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L160718)
+main.ts:166145
 
 ___
-
 
 ### new\_tokens
 
@@ -60,10 +54,9 @@ number of new tokens
 
 #### Defined in
 
-[main.ts:160722](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L160722)
+main.ts:166149
 
 ___
-
 
 ### output\_tokens
 
@@ -73,10 +66,9 @@ number of output tokens
 
 #### Defined in
 
-[main.ts:160720](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L160720)
+main.ts:166147
 
 ___
-
 
 ### title
 
@@ -86,8 +78,4 @@ generated title
 
 #### Defined in
 
-[main.ts:160724](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L160724)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:166151

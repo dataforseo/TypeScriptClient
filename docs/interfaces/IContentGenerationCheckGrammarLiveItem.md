@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IContentGenerationCheckGrammarLiveItem
+[Documentation](../README.md) / [Exports](../modules.md) / IContentGenerationCheckGrammarLiveItem
 
 # Interface: IContentGenerationCheckGrammarLiveItem
 
@@ -40,10 +36,9 @@ description of the grammar or spelling error
 
 #### Defined in
 
-[main.ts:161563](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L161563)
+main.ts:166990
 
 ___
-
 
 ### length
 
@@ -53,10 +48,9 @@ offset token for subsequent requests
 
 #### Defined in
 
-[main.ts:161569](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L161569)
+main.ts:166996
 
 ___
-
 
 ### message
 
@@ -66,10 +60,9 @@ message of the grammar or spelling error
 
 #### Defined in
 
-[main.ts:161561](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L161561)
+main.ts:166988
 
 ___
-
 
 ### offset
 
@@ -79,10 +72,9 @@ offset token for subsequent requests
 
 #### Defined in
 
-[main.ts:161567](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L161567)
+main.ts:166994
 
 ___
-
 
 ### rule\_category\_id
 
@@ -92,10 +84,9 @@ id of the rule category
 
 #### Defined in
 
-[main.ts:161580](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L161580)
+main.ts:167007
 
 ___
-
 
 ### rule\_category\_name
 
@@ -105,10 +96,9 @@ name of the rule category
 
 #### Defined in
 
-[main.ts:161582](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L161582)
+main.ts:167009
 
 ___
-
 
 ### rule\_description
 
@@ -118,10 +108,9 @@ description of the grammar or spelling rule
 
 #### Defined in
 
-[main.ts:161576](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L161576)
+main.ts:167003
 
 ___
-
 
 ### rule\_id
 
@@ -132,10 +121,9 @@ see the List of Grammar Rules for Content Generation API
 
 #### Defined in
 
-[main.ts:161574](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L161574)
+main.ts:167001
 
 ___
-
 
 ### rule\_issue\_type
 
@@ -145,10 +133,9 @@ type of the issue found by the relevant rule
 
 #### Defined in
 
-[main.ts:161578](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L161578)
+main.ts:167005
 
 ___
-
 
 ### suggestions
 
@@ -158,10 +145,9 @@ suggested corrections
 
 #### Defined in
 
-[main.ts:161565](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L161565)
+main.ts:166992
 
 ___
-
 
 ### type
 
@@ -171,8 +157,4 @@ type of element
 
 #### Defined in
 
-[main.ts:161571](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L161571)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:166998

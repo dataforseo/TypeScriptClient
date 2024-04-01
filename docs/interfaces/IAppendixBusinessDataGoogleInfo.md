@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IAppendixBusinessDataGoogleInfo
+[Documentation](../README.md) / [Exports](../modules.md) / IAppendixBusinessDataGoogleInfo
 
 # Interface: IAppendixBusinessDataGoogleInfo
 
@@ -32,52 +28,44 @@
 
 #### Defined in
 
-[main.ts:207857](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L207857)
+main.ts:213382
 
 ___
-
 
 ### hotel\_searches
 
-• `Optional` **hotel\_searches**: [`AppendixInfo`](../classes/AppendixInfo.md)
+• `Optional` **hotel\_searches**: [`AppendixFunctionInfo`](../classes/AppendixFunctionInfo.md)
 
 #### Defined in
 
-[main.ts:207858](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L207858)
+main.ts:213383
 
 ___
-
 
 ### my\_business\_info
 
-• `Optional` **my\_business\_info**: [`AppendixInfo`](../classes/AppendixInfo.md)
+• `Optional` **my\_business\_info**: [`AppendixFunctionInfo`](../classes/AppendixFunctionInfo.md)
 
 #### Defined in
 
-[main.ts:207855](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L207855)
+main.ts:213380
 
 ___
-
 
 ### my\_business\_updates
 
-• `Optional` **my\_business\_updates**: [`AppendixInfo`](../classes/AppendixInfo.md)
+• `Optional` **my\_business\_updates**: [`AppendixFunctionInfo`](../classes/AppendixFunctionInfo.md)
 
 #### Defined in
 
-[main.ts:207856](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L207856)
+main.ts:213381
 
 ___
 
-
 ### reviews
 
-• `Optional` **reviews**: [`AppendixInfo`](../classes/AppendixInfo.md)
+• `Optional` **reviews**: [`AppendixFunctionInfo`](../classes/AppendixFunctionInfo.md)
 
 #### Defined in
 
-[main.ts:207859](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L207859)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:213384

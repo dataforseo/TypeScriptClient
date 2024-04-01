@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / OnPageTasksReadyResultInfo
+[Documentation](../README.md) / [Exports](../modules.md) / OnPageTasksReadyResultInfo
 
 # Class: OnPageTasksReadyResultInfo
 
@@ -51,7 +47,7 @@
 
 #### Defined in
 
-[main.ts:143034](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L143034)
+main.ts:148461
 
 ## Properties
 
@@ -67,10 +63,9 @@ date when the task was posted (in the UTC format)
 
 #### Defined in
 
-[main.ts:143028](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L143028)
+main.ts:148455
 
 ___
-
 
 ### id
 
@@ -85,10 +80,9 @@ unique task identifier in our system in the UUID format
 
 #### Defined in
 
-[main.ts:143024](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L143024)
+main.ts:148451
 
 ___
-
 
 ### tag
 
@@ -102,10 +96,9 @@ user-defined task identifier
 
 #### Defined in
 
-[main.ts:143030](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L143030)
+main.ts:148457
 
 ___
-
 
 ### target
 
@@ -119,7 +112,7 @@ target website specified when setting a task
 
 #### Defined in
 
-[main.ts:143026](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L143026)
+main.ts:148453
 
 ## Methods
 
@@ -139,10 +132,9 @@ target website specified when setting a task
 
 #### Defined in
 
-[main.ts:143043](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L143043)
+main.ts:148470
 
 ___
-
 
 ### toJSON
 
@@ -160,10 +152,9 @@ ___
 
 #### Defined in
 
-[main.ts:143063](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L143063)
+main.ts:148490
 
 ___
-
 
 ### fromJS
 
@@ -181,8 +172,4 @@ ___
 
 #### Defined in
 
-[main.ts:143056](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L143056)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:148483

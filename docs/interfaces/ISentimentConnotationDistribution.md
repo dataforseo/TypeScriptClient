@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / ISentimentConnotationDistribution
+[Documentation](../README.md) / [Exports](../modules.md) / ISentimentConnotationDistribution
 
 # Interface: ISentimentConnotationDistribution
 
@@ -33,10 +29,9 @@
 
 #### Defined in
 
-[main.ts:157961](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L157961)
+main.ts:163388
 
 ___
-
 
 ### fun
 
@@ -44,10 +39,9 @@ ___
 
 #### Defined in
 
-[main.ts:157966](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L157966)
+main.ts:163393
 
 ___
-
 
 ### happiness
 
@@ -55,10 +49,9 @@ ___
 
 #### Defined in
 
-[main.ts:157962](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L157962)
+main.ts:163389
 
 ___
-
 
 ### love
 
@@ -66,10 +59,9 @@ ___
 
 #### Defined in
 
-[main.ts:157963](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L157963)
+main.ts:163390
 
 ___
-
 
 ### sadness
 
@@ -77,10 +69,9 @@ ___
 
 #### Defined in
 
-[main.ts:157964](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L157964)
+main.ts:163391
 
 ___
-
 
 ### share
 
@@ -88,8 +79,4 @@ ___
 
 #### Defined in
 
-[main.ts:157965](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L157965)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:163392

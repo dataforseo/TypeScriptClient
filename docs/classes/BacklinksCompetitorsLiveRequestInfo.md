@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / BacklinksCompetitorsLiveRequestInfo
+[Documentation](../README.md) / [Exports](../modules.md) / BacklinksCompetitorsLiveRequestInfo
 
 # Class: BacklinksCompetitorsLiveRequestInfo
 
@@ -55,7 +51,7 @@
 
 #### Defined in
 
-[main.ts:135988](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L135988)
+main.ts:141403
 
 ## Properties
 
@@ -74,10 +70,9 @@ default value: true
 
 #### Defined in
 
-[main.ts:135978](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L135978)
+main.ts:141393
 
 ___
-
 
 ### filters
 
@@ -103,10 +98,9 @@ The full list of possible filters is available here.
 
 #### Defined in
 
-[main.ts:135954](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L135954)
+main.ts:141369
 
 ___
-
 
 ### limit
 
@@ -123,10 +117,9 @@ maximum value: 1000
 
 #### Defined in
 
-[main.ts:135935](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L135935)
+main.ts:141350
 
 ___
-
 
 ### main\_domain
 
@@ -143,10 +136,9 @@ default value: true
 
 #### Defined in
 
-[main.ts:135973](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L135973)
+main.ts:141388
 
 ___
-
 
 ### offset
 
@@ -163,10 +155,9 @@ if you specify the 10 value, the first ten domains in the results array will be 
 
 #### Defined in
 
-[main.ts:135940](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L135940)
+main.ts:141355
 
 ___
-
 
 ### order\_by
 
@@ -192,10 +183,9 @@ example:
 
 #### Defined in
 
-[main.ts:135968](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L135968)
+main.ts:141383
 
 ___
-
 
 ### tag
 
@@ -213,10 +203,9 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-[main.ts:135984](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L135984)
+main.ts:141399
 
 ___
-
 
 ### target
 
@@ -233,7 +222,7 @@ a page should be specified with absolute URL (including http:// or https://)
 
 #### Defined in
 
-[main.ts:135930](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L135930)
+main.ts:141345
 
 ## Methods
 
@@ -253,10 +242,9 @@ a page should be specified with absolute URL (including http:// or https://)
 
 #### Defined in
 
-[main.ts:135997](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L135997)
+main.ts:141412
 
 ___
-
 
 ### toJSON
 
@@ -274,10 +262,9 @@ ___
 
 #### Defined in
 
-[main.ts:136029](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L136029)
+main.ts:141444
 
 ___
-
 
 ### fromJS
 
@@ -295,8 +282,4 @@ ___
 
 #### Defined in
 
-[main.ts:136022](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L136022)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:141437

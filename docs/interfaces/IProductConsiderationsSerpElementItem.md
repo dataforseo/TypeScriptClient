@@ -1,15 +1,11 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IProductConsiderationsSerpElementItem
+[Documentation](../README.md) / [Exports](../modules.md) / IProductConsiderationsSerpElementItem
 
 # Interface: IProductConsiderationsSerpElementItem
 
 ## Hierarchy
 
 - [`IBaseSerpElementItem`](IBaseSerpElementItem.md)
-  
+
   ↳ **`IProductConsiderationsSerpElementItem`**
 
 ## Implemented by
@@ -38,14 +34,14 @@
 
 • `Optional` **items**: [`ProductConsiderationsElement`](../classes/ProductConsiderationsElement.md)[]
 
-contains results featured in the ‘hotels_pack’ element of SERP
+additional items present in the element
+if there are none, equals null
 
 #### Defined in
 
-[main.ts:34699](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L34699)
+main.ts:35642
 
 ___
-
 
 ### position
 
@@ -57,10 +53,9 @@ left, right
 
 #### Defined in
 
-[main.ts:34693](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L34693)
+main.ts:35635
 
 ___
-
 
 ### rank\_absolute
 
@@ -68,28 +63,28 @@ ___
 
 absolute rank in SERP
 absolute position among all the elements in SERP
+always equals 0 for desktop
 
 #### Defined in
 
-[main.ts:34689](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L34689)
+main.ts:35631
 
 ___
-
 
 ### rank\_group
 
 • `Optional` **rank\_group**: `number`
 
 group rank in SERP
-position within a group of elements with identical type values
-positions of elements with different type values are omitted from rank_group
+position within a group of elements with identical type values;
+positions of elements with different type values are omitted from rank_group;
+always equals 0 for desktop
 
 #### Defined in
 
-[main.ts:34686](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L34686)
+main.ts:35627
 
 ___
-
 
 ### rectangle
 
@@ -101,23 +96,21 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 #### Defined in
 
-[main.ts:34703](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L34703)
+main.ts:35646
 
 ___
-
 
 ### title
 
 • `Optional` **title**: `string`
 
-title of a given link element
+title of the row
 
 #### Defined in
 
-[main.ts:34697](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L34697)
+main.ts:35639
 
 ___
-
 
 ### xpath
 
@@ -127,8 +120,4 @@ the XPath of the element
 
 #### Defined in
 
-[main.ts:34695](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L34695)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:35637

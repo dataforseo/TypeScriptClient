@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IDataforseoLabsAmazonProductRankOverviewLiveItem
+[Documentation](../README.md) / [Exports](../modules.md) / IDataforseoLabsAmazonProductRankOverviewLiveItem
 
 # Interface: IDataforseoLabsAmazonProductRankOverviewLiveItem
 
@@ -34,10 +30,9 @@ for more information, refer to this help center guide
 
 #### Defined in
 
-[main.ts:100763](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L100763)
+main.ts:103140
 
 ___
-
 
 ### metrics
 
@@ -47,10 +42,9 @@ average keyword position of the product
 
 #### Defined in
 
-[main.ts:100765](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L100765)
+main.ts:103142
 
 ___
-
 
 ### se\_type
 
@@ -60,8 +54,4 @@ search engine type
 
 #### Defined in
 
-[main.ts:100759](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L100759)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:103136

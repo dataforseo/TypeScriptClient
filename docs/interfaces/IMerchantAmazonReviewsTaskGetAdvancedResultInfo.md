@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IMerchantAmazonReviewsTaskGetAdvancedResultInfo
+[Documentation](../README.md) / [Exports](../modules.md) / IMerchantAmazonReviewsTaskGetAdvancedResultInfo
 
 # Interface: IMerchantAmazonReviewsTaskGetAdvancedResultInfo
 
@@ -44,10 +40,9 @@ asin received in a POST array
 
 #### Defined in
 
-[main.ts:175905](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L175905)
+main.ts:181358
 
 ___
-
 
 ### check\_url
 
@@ -58,10 +53,9 @@ you can use it to make sure that we provided accurate results
 
 #### Defined in
 
-[main.ts:175916](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L175916)
+main.ts:181369
 
 ___
-
 
 ### datetime
 
@@ -74,10 +68,9 @@ example:
 
 #### Defined in
 
-[main.ts:175921](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L175921)
+main.ts:181374
 
 ___
-
 
 ### image
 
@@ -87,10 +80,9 @@ product image data
 
 #### Defined in
 
-[main.ts:175929](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L175929)
+main.ts:181382
 
 ___
-
 
 ### item\_types
 
@@ -103,10 +95,9 @@ amazon_review_item
 
 #### Defined in
 
-[main.ts:175939](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L175939)
+main.ts:181392
 
 ___
-
 
 ### items
 
@@ -117,10 +108,9 @@ you can get more results by using the depth parameter when setting a task
 
 #### Defined in
 
-[main.ts:175945](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L175945)
+main.ts:181398
 
 ___
-
 
 ### items\_count
 
@@ -131,10 +121,9 @@ you can get more results by using the depth parameter when setting a task
 
 #### Defined in
 
-[main.ts:175942](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L175942)
+main.ts:181395
 
 ___
-
 
 ### language\_code
 
@@ -144,10 +133,9 @@ language code in a POST array
 
 #### Defined in
 
-[main.ts:175913](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L175913)
+main.ts:181366
 
 ___
-
 
 ### location\_code
 
@@ -157,10 +145,9 @@ location code in a POST array
 
 #### Defined in
 
-[main.ts:175911](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L175911)
+main.ts:181364
 
 ___
-
 
 ### rating
 
@@ -171,10 +158,9 @@ popularity rate based on reviews and displayed in SERP
 
 #### Defined in
 
-[main.ts:175932](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L175932)
+main.ts:181385
 
 ___
-
 
 ### reviews\_count
 
@@ -184,10 +170,9 @@ the total number of reviews
 
 #### Defined in
 
-[main.ts:175934](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L175934)
+main.ts:181387
 
 ___
-
 
 ### se\_domain
 
@@ -197,10 +182,9 @@ search engine domain in a POST array
 
 #### Defined in
 
-[main.ts:175909](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L175909)
+main.ts:181362
 
 ___
-
 
 ### spell
 
@@ -211,10 +195,9 @@ if the search engine provided results for a keyword that was corrected, we will 
 
 #### Defined in
 
-[main.ts:175924](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L175924)
+main.ts:181377
 
 ___
-
 
 ### title
 
@@ -225,10 +208,9 @@ the title of the product for which the reviews are collected
 
 #### Defined in
 
-[main.ts:175927](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L175927)
+main.ts:181380
 
 ___
-
 
 ### type
 
@@ -238,8 +220,4 @@ type of element
 
 #### Defined in
 
-[main.ts:175907](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L175907)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:181360

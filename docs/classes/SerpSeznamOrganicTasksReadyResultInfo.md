@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / SerpSeznamOrganicTasksReadyResultInfo
+[Documentation](../README.md) / [Exports](../modules.md) / SerpSeznamOrganicTasksReadyResultInfo
 
 # Class: SerpSeznamOrganicTasksReadyResultInfo
 
@@ -55,7 +51,7 @@
 
 #### Defined in
 
-[main.ts:69717](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L69717)
+main.ts:72094
 
 ## Properties
 
@@ -71,10 +67,9 @@ date when the task was posted (in the UTC format)
 
 #### Defined in
 
-[main.ts:69702](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L69702)
+main.ts:72079
 
 ___
-
 
 ### endpoint\_advanced
 
@@ -89,10 +84,9 @@ if SERP Advanced is not supported in the specified endpoint, the value will be n
 
 #### Defined in
 
-[main.ts:69710](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L69710)
+main.ts:72087
 
 ___
-
 
 ### endpoint\_html
 
@@ -107,10 +101,9 @@ if SERP HTML is not supported in the specified endpoint, the value will be null
 
 #### Defined in
 
-[main.ts:69713](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L69713)
+main.ts:72090
 
 ___
-
 
 ### endpoint\_regular
 
@@ -125,10 +118,9 @@ if SERP Regular is not supported in the specified endpoint, the value will be nu
 
 #### Defined in
 
-[main.ts:69707](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L69707)
+main.ts:72084
 
 ___
-
 
 ### id
 
@@ -143,10 +135,9 @@ unique task identifier in our system in the UUID format
 
 #### Defined in
 
-[main.ts:69695](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L69695)
+main.ts:72072
 
 ___
-
 
 ### se
 
@@ -160,10 +151,9 @@ search engine specified when setting the task
 
 #### Defined in
 
-[main.ts:69697](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L69697)
+main.ts:72074
 
 ___
-
 
 ### se\_type
 
@@ -178,10 +168,9 @@ can take the following values: organic
 
 #### Defined in
 
-[main.ts:69700](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L69700)
+main.ts:72077
 
 ___
-
 
 ### tag
 
@@ -195,7 +184,7 @@ user-defined task identifier
 
 #### Defined in
 
-[main.ts:69704](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L69704)
+main.ts:72081
 
 ## Methods
 
@@ -215,10 +204,9 @@ user-defined task identifier
 
 #### Defined in
 
-[main.ts:69726](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L69726)
+main.ts:72103
 
 ___
-
 
 ### toJSON
 
@@ -236,10 +224,9 @@ ___
 
 #### Defined in
 
-[main.ts:69750](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L69750)
+main.ts:72127
 
 ___
-
 
 ### fromJS
 
@@ -257,8 +244,4 @@ ___
 
 #### Defined in
 
-[main.ts:69743](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L69743)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:72120

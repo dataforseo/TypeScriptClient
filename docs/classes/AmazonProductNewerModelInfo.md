@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / AmazonProductNewerModelInfo
+[Documentation](../README.md) / [Exports](../modules.md) / AmazonProductNewerModelInfo
 
 # Class: AmazonProductNewerModelInfo
 
@@ -49,7 +45,7 @@
 
 #### Defined in
 
-[main.ts:172328](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L172328)
+main.ts:177781
 
 ## Properties
 
@@ -65,10 +61,9 @@ ASIN of the newer product model
 
 #### Defined in
 
-[main.ts:172324](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L172324)
+main.ts:177777
 
 ___
-
 
 ### title
 
@@ -82,7 +77,7 @@ product title
 
 #### Defined in
 
-[main.ts:172322](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L172322)
+main.ts:177775
 
 ## Methods
 
@@ -102,10 +97,9 @@ product title
 
 #### Defined in
 
-[main.ts:172337](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L172337)
+main.ts:177790
 
 ___
-
 
 ### toJSON
 
@@ -123,10 +117,9 @@ ___
 
 #### Defined in
 
-[main.ts:172355](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L172355)
+main.ts:177808
 
 ___
-
 
 ### fromJS
 
@@ -144,8 +137,4 @@ ___
 
 #### Defined in
 
-[main.ts:172348](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L172348)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:177801

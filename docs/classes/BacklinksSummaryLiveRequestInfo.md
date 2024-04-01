@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / BacklinksSummaryLiveRequestInfo
+[Documentation](../README.md) / [Exports](../modules.md) / BacklinksSummaryLiveRequestInfo
 
 # Class: BacklinksSummaryLiveRequestInfo
 
@@ -54,7 +50,7 @@
 
 #### Defined in
 
-[main.ts:129251](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L129251)
+main.ts:134618
 
 ## Properties
 
@@ -76,10 +72,9 @@ example:
 
 #### Defined in
 
-[main.ts:129241](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L129241)
+main.ts:134608
 
 ___
-
 
 ### backlinks\_status\_type
 
@@ -100,10 +95,9 @@ default value: live
 
 #### Defined in
 
-[main.ts:129233](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L129233)
+main.ts:134600
 
 ___
-
 
 ### include\_indirect\_links
 
@@ -121,10 +115,9 @@ default value: true
 
 #### Defined in
 
-[main.ts:129213](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L129213)
+main.ts:134580
 
 ___
-
 
 ### include\_subdomains
 
@@ -141,10 +134,9 @@ default value: true
 
 #### Defined in
 
-[main.ts:129207](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L129207)
+main.ts:134574
 
 ___
-
 
 ### internal\_list\_limit
 
@@ -167,10 +159,9 @@ maximum value: 1000
 
 #### Defined in
 
-[main.ts:129224](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L129224)
+main.ts:134591
 
 ___
-
 
 ### tag
 
@@ -188,10 +179,9 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-[main.ts:129247](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L129247)
+main.ts:134614
 
 ___
-
 
 ### target
 
@@ -208,7 +198,7 @@ a page should be specified with absolute URL (including http:// or https://)
 
 #### Defined in
 
-[main.ts:129202](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L129202)
+main.ts:134569
 
 ## Methods
 
@@ -228,10 +218,9 @@ a page should be specified with absolute URL (including http:// or https://)
 
 #### Defined in
 
-[main.ts:129260](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L129260)
+main.ts:134627
 
 ___
-
 
 ### toJSON
 
@@ -249,10 +238,9 @@ ___
 
 #### Defined in
 
-[main.ts:129287](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L129287)
+main.ts:134654
 
 ___
-
 
 ### fromJS
 
@@ -270,8 +258,4 @@ ___
 
 #### Defined in
 
-[main.ts:129280](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L129280)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:134647

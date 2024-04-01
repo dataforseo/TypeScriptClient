@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / ITopDomainInfo
+[Documentation](../README.md) / [Exports](../modules.md) / ITopDomainInfo
 
 # Interface: ITopDomainInfo
 
@@ -29,10 +25,9 @@
 
 #### Defined in
 
-[main.ts:21646](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L21646)
+main.ts:22165
 
 ___
-
 
 ### domain
 
@@ -40,8 +35,4 @@ ___
 
 #### Defined in
 
-[main.ts:21645](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L21645)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:22164

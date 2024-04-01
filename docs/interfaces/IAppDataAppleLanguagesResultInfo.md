@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IAppDataAppleLanguagesResultInfo
+[Documentation](../README.md) / [Exports](../modules.md) / IAppDataAppleLanguagesResultInfo
 
 # Interface: IAppDataAppleLanguagesResultInfo
 
@@ -31,10 +27,9 @@ language code according to ISO 639-1
 
 #### Defined in
 
-[main.ts:182979](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L182979)
+main.ts:188432
 
 ___
-
 
 ### language\_name
 
@@ -44,8 +39,4 @@ language name
 
 #### Defined in
 
-[main.ts:182977](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L182977)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:188430

@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / KeywordsDataGoogleAdsKeywordsForSiteTaskPostRequestInfo
+[Documentation](../README.md) / [Exports](../modules.md) / KeywordsDataGoogleAdsKeywordsForSiteTaskPostRequestInfo
 
 # Class: KeywordsDataGoogleAdsKeywordsForSiteTaskPostRequestInfo
 
@@ -62,7 +58,7 @@
 
 #### Defined in
 
-[main.ts:114423](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L114423)
+main.ts:116800
 
 ## Properties
 
@@ -84,10 +80,9 @@ if Status endpoint returns true in the actual_data field, date_from can be set t
 
 #### Defined in
 
-[main.ts:114374](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L114374)
+main.ts:116751
 
 ___
-
 
 ### date\_to
 
@@ -107,10 +102,9 @@ example:
 
 #### Defined in
 
-[main.ts:114382](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L114382)
+main.ts:116759
 
 ___
-
 
 ### include\_adult\_keywords
 
@@ -128,10 +122,9 @@ note that the API may return no data for such keywords due to Google Ads restric
 
 #### Defined in
 
-[main.ts:114388](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L114388)
+main.ts:116765
 
 ___
-
 
 ### language\_code
 
@@ -149,10 +142,9 @@ en
 
 #### Defined in
 
-[main.ts:114361](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L114361)
+main.ts:116738
 
 ___
-
 
 ### language\_name
 
@@ -170,10 +162,9 @@ English
 
 #### Defined in
 
-[main.ts:114355](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L114355)
+main.ts:116732
 
 ___
-
 
 ### location\_code
 
@@ -193,10 +184,9 @@ example:
 
 #### Defined in
 
-[main.ts:114340](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L114340)
+main.ts:116717
 
 ___
-
 
 ### location\_coordinate
 
@@ -217,10 +207,9 @@ example:
 
 #### Defined in
 
-[main.ts:114349](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L114349)
+main.ts:116726
 
 ___
-
 
 ### location\_name
 
@@ -240,10 +229,9 @@ London,England,United Kingdom
 
 #### Defined in
 
-[main.ts:114332](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L114332)
+main.ts:116709
 
 ___
-
 
 ### pingback\_url
 
@@ -265,10 +253,9 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-[main.ts:114413](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L114413)
+main.ts:116790
 
 ___
-
 
 ### postback\_url
 
@@ -290,10 +277,9 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-[main.ts:114403](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L114403)
+main.ts:116780
 
 ___
-
 
 ### search\_partners
 
@@ -310,10 +296,9 @@ default value: false – results are returned for Google search sites
 
 #### Defined in
 
-[main.ts:114366](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L114366)
+main.ts:116743
 
 ___
-
 
 ### sort\_by
 
@@ -330,10 +315,9 @@ default value: relevance
 
 #### Defined in
 
-[main.ts:114393](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L114393)
+main.ts:116770
 
 ___
-
 
 ### tag
 
@@ -351,10 +335,9 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-[main.ts:114419](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L114419)
+main.ts:116796
 
 ___
-
 
 ### target
 
@@ -371,10 +354,9 @@ note: to obtain keywords for the target website, use the target_type parameter
 
 #### Defined in
 
-[main.ts:114317](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L114317)
+main.ts:116694
 
 ___
-
 
 ### target\_type
 
@@ -393,7 +375,7 @@ if set to page, keywords will be provided for the specified webpage
 
 #### Defined in
 
-[main.ts:114324](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L114324)
+main.ts:116701
 
 ## Methods
 
@@ -413,10 +395,9 @@ if set to page, keywords will be provided for the specified webpage
 
 #### Defined in
 
-[main.ts:114432](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L114432)
+main.ts:116809
 
 ___
-
 
 ### toJSON
 
@@ -434,10 +415,9 @@ ___
 
 #### Defined in
 
-[main.ts:114463](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L114463)
+main.ts:116840
 
 ___
-
 
 ### fromJS
 
@@ -455,8 +435,4 @@ ___
 
 #### Defined in
 
-[main.ts:114456](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L114456)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:116833

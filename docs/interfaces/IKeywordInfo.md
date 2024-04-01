@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IKeywordInfo
+[Documentation](../README.md) / [Exports](../modules.md) / IKeywordInfo
 
 # Interface: IKeywordInfo
 
@@ -40,10 +36,9 @@ you can download the full list of possible categories
 
 #### Defined in
 
-[main.ts:79004](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L79004)
+main.ts:81381
 
 ___
-
 
 ### competition
 
@@ -54,10 +49,9 @@ represents the relative amount of competition associated with the given keyword.
 
 #### Defined in
 
-[main.ts:78981](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L78981)
+main.ts:81358
 
 ___
-
 
 ### competition\_level
 
@@ -71,10 +65,9 @@ learn more about the metric in this help center article
 
 #### Defined in
 
-[main.ts:78987](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L78987)
+main.ts:81364
 
 ___
-
 
 ### cpc
 
@@ -85,10 +78,9 @@ represents the average cost per click (USD) historically paid for the keyword
 
 #### Defined in
 
-[main.ts:78990](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L78990)
+main.ts:81367
 
 ___
-
 
 ### high\_top\_of\_page\_bid
 
@@ -100,10 +92,9 @@ the value may differ depending on the location specified in a POST request
 
 #### Defined in
 
-[main.ts:79001](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L79001)
+main.ts:81378
 
 ___
-
 
 ### last\_updated\_time
 
@@ -116,10 +107,9 @@ example:
 
 #### Defined in
 
-[main.ts:78978](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L78978)
+main.ts:81355
 
 ___
-
 
 ### low\_top\_of\_page\_bid
 
@@ -131,10 +121,9 @@ the value may differ depending on the location specified in a POST request
 
 #### Defined in
 
-[main.ts:78997](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L78997)
+main.ts:81374
 
 ___
-
 
 ### monthly\_searches
 
@@ -145,10 +134,9 @@ represents the (approximate) number of searches on this keyword idea (as availab
 
 #### Defined in
 
-[main.ts:79007](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L79007)
+main.ts:81384
 
 ___
-
 
 ### se\_type
 
@@ -158,10 +146,9 @@ search engine type
 
 #### Defined in
 
-[main.ts:78973](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L78973)
+main.ts:81350
 
 ___
-
 
 ### search\_volume
 
@@ -172,8 +159,4 @@ represents the (approximate) number of searches for the given keyword idea on go
 
 #### Defined in
 
-[main.ts:78993](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L78993)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:81370

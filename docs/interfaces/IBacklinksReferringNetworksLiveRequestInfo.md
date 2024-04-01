@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IBacklinksReferringNetworksLiveRequestInfo
+[Documentation](../README.md) / [Exports](../modules.md) / IBacklinksReferringNetworksLiveRequestInfo
 
 # Interface: IBacklinksReferringNetworksLiveRequestInfo
 
@@ -48,10 +44,9 @@ example:
 
 #### Defined in
 
-[main.ts:135420](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L135420)
+main.ts:140829
 
 ___
-
 
 ### backlinks\_status\_type
 
@@ -68,10 +63,9 @@ default value: live
 
 #### Defined in
 
-[main.ts:135381](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L135381)
+main.ts:140790
 
 ___
-
 
 ### exclude\_internal\_backlinks
 
@@ -84,10 +78,9 @@ default value: true
 
 #### Defined in
 
-[main.ts:135436](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L135436)
+main.ts:140845
 
 ___
-
 
 ### filters
 
@@ -112,10 +105,9 @@ The full list of possible filters is available here.
 
 #### Defined in
 
-[main.ts:135398](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L135398)
+main.ts:140807
 
 ___
-
 
 ### include\_indirect\_links
 
@@ -129,10 +121,9 @@ default value: true
 
 #### Defined in
 
-[main.ts:135431](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L135431)
+main.ts:140840
 
 ___
-
 
 ### include\_subdomains
 
@@ -145,10 +136,9 @@ default value: true
 
 #### Defined in
 
-[main.ts:135425](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L135425)
+main.ts:140834
 
 ___
-
 
 ### internal\_list\_limit
 
@@ -167,10 +157,9 @@ maximum value: 1000
 
 #### Defined in
 
-[main.ts:135372](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L135372)
+main.ts:140781
 
 ___
-
 
 ### limit
 
@@ -183,10 +172,9 @@ maximum value: 1000
 
 #### Defined in
 
-[main.ts:135356](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L135356)
+main.ts:140765
 
 ___
-
 
 ### network\_address\_type
 
@@ -199,10 +187,9 @@ default value: ip
 
 #### Defined in
 
-[main.ts:135351](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L135351)
+main.ts:140760
 
 ___
-
 
 ### offset
 
@@ -215,10 +202,9 @@ if you specify the 10 value, the first ten domains in the results array will be 
 
 #### Defined in
 
-[main.ts:135361](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L135361)
+main.ts:140770
 
 ___
-
 
 ### order\_by
 
@@ -240,10 +226,9 @@ example:
 
 #### Defined in
 
-[main.ts:135412](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L135412)
+main.ts:140821
 
 ___
-
 
 ### tag
 
@@ -257,10 +242,9 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-[main.ts:135442](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L135442)
+main.ts:140851
 
 ___
-
 
 ### target
 
@@ -273,8 +257,4 @@ a page should be specified with absolute URL (including http:// or https://)
 
 #### Defined in
 
-[main.ts:135346](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L135346)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:140755

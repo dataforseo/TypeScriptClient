@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / ISerpGoogleLanguagesResultInfo
+[Documentation](../README.md) / [Exports](../modules.md) / ISerpGoogleLanguagesResultInfo
 
 # Interface: ISerpGoogleLanguagesResultInfo
 
@@ -31,10 +27,9 @@ language code according to ISO 639-1
 
 #### Defined in
 
-[main.ts:24505](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L24505)
+main.ts:25024
 
 ___
-
 
 ### language\_name
 
@@ -44,8 +39,4 @@ language name
 
 #### Defined in
 
-[main.ts:24503](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L24503)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:25022

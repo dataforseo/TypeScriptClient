@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IBusinessDataYelpSearchTasksReadyResultInfo
+[Documentation](../README.md) / [Exports](../modules.md) / IBusinessDataYelpSearchTasksReadyResultInfo
 
 # Interface: IBusinessDataYelpSearchTasksReadyResultInfo
 
@@ -35,10 +31,9 @@ date when the task was posted (in the UTC format)
 
 #### Defined in
 
-[main.ts:203751](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L203751)
+main.ts:209212
 
 ___
-
 
 ### endpoint
 
@@ -48,10 +43,9 @@ URL for collecting the results of the task
 
 #### Defined in
 
-[main.ts:203755](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L203755)
+main.ts:209216
 
 ___
-
 
 ### id
 
@@ -62,10 +56,9 @@ unique task identifier in our system in the UUID format
 
 #### Defined in
 
-[main.ts:203743](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L203743)
+main.ts:209204
 
 ___
-
 
 ### se
 
@@ -76,10 +69,9 @@ can take the following values: yelp
 
 #### Defined in
 
-[main.ts:203746](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L203746)
+main.ts:209207
 
 ___
-
 
 ### se\_type
 
@@ -90,10 +82,9 @@ can take the following values: search
 
 #### Defined in
 
-[main.ts:203749](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L203749)
+main.ts:209210
 
 ___
-
 
 ### tag
 
@@ -103,8 +94,4 @@ user-defined task identifier
 
 #### Defined in
 
-[main.ts:203753](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L203753)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:209214

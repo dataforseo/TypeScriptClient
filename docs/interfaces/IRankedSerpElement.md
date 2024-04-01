@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IRankedSerpElement
+[Documentation](../README.md) / [Exports](../modules.md) / IRankedSerpElement
 
 # Interface: IRankedSerpElement
 
@@ -39,10 +35,9 @@ you can use it to make sure that we provided accurate results
 
 #### Defined in
 
-[main.ts:87005](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L87005)
+main.ts:89382
 
 ___
-
 
 ### is\_lost
 
@@ -53,10 +48,9 @@ indicates how many ranked elements of this domain were previously presented in S
 
 #### Defined in
 
-[main.ts:87021](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L87021)
+main.ts:89398
 
 ___
-
 
 ### keyword\_difficulty
 
@@ -69,10 +63,9 @@ learn more about the metric in this help center guide
 
 #### Defined in
 
-[main.ts:87018](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L87018)
+main.ts:89395
 
 ___
-
 
 ### last\_updated\_time
 
@@ -85,10 +78,9 @@ example:
 
 #### Defined in
 
-[main.ts:87026](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L87026)
+main.ts:89403
 
 ___
-
 
 ### previous\_updated\_time
 
@@ -101,10 +93,9 @@ example:
 
 #### Defined in
 
-[main.ts:87031](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L87031)
+main.ts:89408
 
 ___
-
 
 ### se\_results\_count
 
@@ -114,10 +105,9 @@ number of search results for the returned keyword
 
 #### Defined in
 
-[main.ts:87013](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L87013)
+main.ts:89390
 
 ___
-
 
 ### se\_type
 
@@ -127,10 +117,9 @@ search engine type
 
 #### Defined in
 
-[main.ts:86999](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L86999)
+main.ts:89376
 
 ___
-
 
 ### serp\_item
 
@@ -141,10 +130,9 @@ the list of supported SERP elements can be found below
 
 #### Defined in
 
-[main.ts:87002](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L87002)
+main.ts:89379
 
 ___
-
 
 ### serp\_item\_types
 
@@ -158,8 +146,4 @@ note that the actual results will be returned only for organic, paid, featured_s
 
 #### Defined in
 
-[main.ts:87011](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L87011)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:89388

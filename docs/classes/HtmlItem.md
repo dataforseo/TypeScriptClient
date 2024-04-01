@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / HtmlItem
+[Documentation](../README.md) / [Exports](../modules.md) / HtmlItem
 
 # Class: HtmlItem
 
@@ -50,7 +46,7 @@
 
 #### Defined in
 
-[main.ts:36293](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L36293)
+main.ts:37044
 
 ## Properties
 
@@ -69,10 +65,9 @@ example:
 
 #### Defined in
 
-[main.ts:36287](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L36287)
+main.ts:37038
 
 ___
-
 
 ### html
 
@@ -86,10 +81,9 @@ HTML page
 
 #### Defined in
 
-[main.ts:36289](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L36289)
+main.ts:37040
 
 ___
-
 
 ### page
 
@@ -103,7 +97,7 @@ serial number of the returned HTML page
 
 #### Defined in
 
-[main.ts:36282](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L36282)
+main.ts:37033
 
 ## Methods
 
@@ -123,10 +117,9 @@ serial number of the returned HTML page
 
 #### Defined in
 
-[main.ts:36302](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L36302)
+main.ts:37053
 
 ___
-
 
 ### toJSON
 
@@ -144,10 +137,9 @@ ___
 
 #### Defined in
 
-[main.ts:36321](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L36321)
+main.ts:37072
 
 ___
-
 
 ### fromJS
 
@@ -165,8 +157,4 @@ ___
 
 #### Defined in
 
-[main.ts:36314](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L36314)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:37065

@@ -1,15 +1,11 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IAppDataGooglePlayReviewsSearchSerpElementItem
+[Documentation](../README.md) / [Exports](../modules.md) / IAppDataGooglePlayReviewsSearchSerpElementItem
 
 # Interface: IAppDataGooglePlayReviewsSearchSerpElementItem
 
 ## Hierarchy
 
 - [`IBaseAppDataSerpElementItem`](IBaseAppDataSerpElementItem.md)
-  
+
   ↳ **`IAppDataGooglePlayReviewsSearchSerpElementItem`**
 
 ## Implemented by
@@ -48,10 +44,9 @@ indicates how many users considered the review helpful and voted with the thumbs
 
 #### Defined in
 
-[main.ts:181412](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L181412)
+main.ts:186865
 
 ___
-
 
 ### id
 
@@ -61,10 +56,9 @@ id of the review
 
 #### Defined in
 
-[main.ts:181409](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L181409)
+main.ts:186862
 
 ___
-
 
 ### position
 
@@ -75,10 +69,9 @@ can take the following values: left
 
 #### Defined in
 
-[main.ts:181397](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L181397)
+main.ts:186850
 
 ___
-
 
 ### rank\_absolute
 
@@ -89,10 +82,9 @@ absolute position among all reviews on the list
 
 #### Defined in
 
-[main.ts:181394](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L181394)
+main.ts:186847
 
 ___
-
 
 ### rank\_group
 
@@ -103,10 +95,9 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-[main.ts:181391](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L181391)
+main.ts:186844
 
 ___
-
 
 ### rating
 
@@ -116,10 +107,9 @@ the rating score submitted by the reviewer
 
 #### Defined in
 
-[main.ts:181402](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L181402)
+main.ts:186855
 
 ___
-
 
 ### responses
 
@@ -129,10 +119,9 @@ response from the developer
 
 #### Defined in
 
-[main.ts:181421](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L181421)
+main.ts:186874
 
 ___
-
 
 ### review\_text
 
@@ -142,10 +131,9 @@ content of the review
 
 #### Defined in
 
-[main.ts:181417](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L181417)
+main.ts:186870
 
 ___
-
 
 ### timestamp
 
@@ -158,10 +146,9 @@ example:
 
 #### Defined in
 
-[main.ts:181407](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L181407)
+main.ts:186860
 
 ___
-
 
 ### title
 
@@ -172,10 +159,9 @@ Google Play doesn’t provide an option to title reviews, so this parameter will
 
 #### Defined in
 
-[main.ts:181415](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L181415)
+main.ts:186868
 
 ___
-
 
 ### user\_profile
 
@@ -185,10 +171,9 @@ user profile of the reviewer
 
 #### Defined in
 
-[main.ts:181419](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L181419)
+main.ts:186872
 
 ___
-
 
 ### version
 
@@ -199,8 +184,4 @@ version of the app for which the review is submitted
 
 #### Defined in
 
-[main.ts:181400](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L181400)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:186853

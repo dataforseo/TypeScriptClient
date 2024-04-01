@@ -1,15 +1,11 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IQuestionsAndAnswersSerpElementItem
+[Documentation](../README.md) / [Exports](../modules.md) / IQuestionsAndAnswersSerpElementItem
 
 # Interface: IQuestionsAndAnswersSerpElementItem
 
 ## Hierarchy
 
 - [`IBaseSerpElementItem`](IBaseSerpElementItem.md)
-  
+
   ↳ **`IQuestionsAndAnswersSerpElementItem`**
 
 ## Implemented by
@@ -37,14 +33,14 @@
 
 • `Optional` **items**: [`QuestionsAndAnswersElement`](../classes/QuestionsAndAnswersElement.md)[]
 
-contains results featured in the ‘hotels_pack’ element of SERP
+additional items present in the element
+if there are none, equals null
 
 #### Defined in
 
-[main.ts:32973](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L32973)
+main.ts:33868
 
 ___
-
 
 ### position
 
@@ -56,10 +52,9 @@ left, right
 
 #### Defined in
 
-[main.ts:32969](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L32969)
+main.ts:33863
 
 ___
-
 
 ### rank\_absolute
 
@@ -67,28 +62,28 @@ ___
 
 absolute rank in SERP
 absolute position among all the elements in SERP
+always equals 0 for desktop
 
 #### Defined in
 
-[main.ts:32965](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L32965)
+main.ts:33859
 
 ___
-
 
 ### rank\_group
 
 • `Optional` **rank\_group**: `number`
 
 group rank in SERP
-position within a group of elements with identical type values
-positions of elements with different type values are omitted from rank_group
+position within a group of elements with identical type values;
+positions of elements with different type values are omitted from rank_group;
+always equals 0 for desktop
 
 #### Defined in
 
-[main.ts:32962](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L32962)
+main.ts:33855
 
 ___
-
 
 ### rectangle
 
@@ -100,10 +95,9 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 #### Defined in
 
-[main.ts:32977](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L32977)
+main.ts:33872
 
 ___
-
 
 ### xpath
 
@@ -113,8 +107,4 @@ the XPath of the element
 
 #### Defined in
 
-[main.ts:32971](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L32971)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:33865

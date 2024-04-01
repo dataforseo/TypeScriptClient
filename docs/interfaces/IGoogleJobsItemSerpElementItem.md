@@ -1,15 +1,11 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IGoogleJobsItemSerpElementItem
+[Documentation](../README.md) / [Exports](../modules.md) / IGoogleJobsItemSerpElementItem
 
 # Interface: IGoogleJobsItemSerpElementItem
 
 ## Hierarchy
 
 - [`IBaseSerpElementItem`](IBaseSerpElementItem.md)
-  
+
   ↳ **`IGoogleJobsItemSerpElementItem`**
 
 ## Implemented by
@@ -52,10 +48,9 @@ employment contract type
 
 #### Defined in
 
-[main.ts:49256](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L49256)
+main.ts:50007
 
 ___
-
 
 ### employer\_image\_url
 
@@ -65,10 +60,9 @@ URL to the image used in the job posting
 
 #### Defined in
 
-[main.ts:49245](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L49245)
+main.ts:49996
 
 ___
-
 
 ### employer\_name
 
@@ -78,10 +72,9 @@ name of the employer
 
 #### Defined in
 
-[main.ts:49241](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L49241)
+main.ts:49992
 
 ___
-
 
 ### employer\_url
 
@@ -91,10 +84,9 @@ URL to the employer’s website
 
 #### Defined in
 
-[main.ts:49243](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L49243)
+main.ts:49994
 
 ___
-
 
 ### job\_id
 
@@ -104,10 +96,9 @@ ID of the job on Google Jobs
 
 #### Defined in
 
-[main.ts:49237](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L49237)
+main.ts:49988
 
 ___
-
 
 ### location
 
@@ -117,10 +108,9 @@ location for which the job vacancy is posted
 
 #### Defined in
 
-[main.ts:49247](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L49247)
+main.ts:49998
 
 ___
-
 
 ### position
 
@@ -132,10 +122,9 @@ left, right
 
 #### Defined in
 
-[main.ts:49233](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L49233)
+main.ts:49984
 
 ___
-
 
 ### rank\_absolute
 
@@ -146,10 +135,9 @@ absolute position among all the elements in SERP
 
 #### Defined in
 
-[main.ts:49229](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L49229)
+main.ts:49980
 
 ___
-
 
 ### rank\_group
 
@@ -161,10 +149,9 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-[main.ts:49226](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L49226)
+main.ts:49977
 
 ___
-
 
 ### rectangle
 
@@ -176,10 +163,9 @@ in this case, will equal null
 
 #### Defined in
 
-[main.ts:49267](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L49267)
+main.ts:50018
 
 ___
-
 
 ### salary
 
@@ -190,10 +176,9 @@ if the salary isn’t indicated, this field will equal null
 
 #### Defined in
 
-[main.ts:49254](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L49254)
+main.ts:50005
 
 ___
-
 
 ### source\_name
 
@@ -203,10 +188,9 @@ original source of the job vacancy
 
 #### Defined in
 
-[main.ts:49249](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L49249)
+main.ts:50000
 
 ___
-
 
 ### source\_url
 
@@ -216,10 +200,9 @@ URL to the original source of the job vacancy
 
 #### Defined in
 
-[main.ts:49251](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L49251)
+main.ts:50002
 
 ___
-
 
 ### time\_ago
 
@@ -229,10 +212,9 @@ indicates how long ago the job vacancy was posted
 
 #### Defined in
 
-[main.ts:49263](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L49263)
+main.ts:50014
 
 ___
-
 
 ### timestamp
 
@@ -245,10 +227,9 @@ example:
 
 #### Defined in
 
-[main.ts:49261](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L49261)
+main.ts:50012
 
 ___
-
 
 ### title
 
@@ -258,10 +239,9 @@ title of the job
 
 #### Defined in
 
-[main.ts:49239](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L49239)
+main.ts:49990
 
 ___
-
 
 ### xpath
 
@@ -271,8 +251,4 @@ the XPath of the element
 
 #### Defined in
 
-[main.ts:49235](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L49235)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:49986

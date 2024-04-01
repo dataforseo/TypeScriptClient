@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IRectangle
+[Documentation](../README.md) / [Exports](../modules.md) / IRectangle
 
 # Interface: IRectangle
 
@@ -33,10 +29,9 @@ height of the element in pixels
 
 #### Defined in
 
-[main.ts:20912](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L20912)
+main.ts:21431
 
 ___
-
 
 ### width
 
@@ -46,10 +41,9 @@ width of the element in pixels
 
 #### Defined in
 
-[main.ts:20910](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L20910)
+main.ts:21429
 
 ___
-
 
 ### x
 
@@ -60,10 +54,9 @@ x-axis coordinate of the top-left corner of the result’s snippet, where top-le
 
 #### Defined in
 
-[main.ts:20905](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L20905)
+main.ts:21424
 
 ___
-
 
 ### y
 
@@ -74,8 +67,4 @@ y-axis coordinate of the top-left corner of the result’s snippet, where top-le
 
 #### Defined in
 
-[main.ts:20908](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L20908)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:21427

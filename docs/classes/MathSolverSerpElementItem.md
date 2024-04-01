@@ -1,15 +1,11 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / MathSolverSerpElementItem
+[Documentation](../README.md) / [Exports](../modules.md) / MathSolverSerpElementItem
 
 # Class: MathSolverSerpElementItem
 
 ## Hierarchy
 
 - [`BaseSerpElementItem`](BaseSerpElementItem.md)
-  
+
   ↳ **`MathSolverSerpElementItem`**
 
 ## Implements
@@ -67,7 +63,7 @@
 
 #### Defined in
 
-[main.ts:34066](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L34066)
+main.ts:34992
 
 ## Properties
 
@@ -81,16 +77,16 @@
 
 #### Defined in
 
-[main.ts:19337](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L19337)
+main.ts:19788
 
 ___
-
 
 ### items
 
 • `Optional` **items**: [`MathSolverElement`](MathSolverElement.md)[]
 
-contains results featured in the ‘hotels_pack’ element of SERP
+additional items present in the element
+if there are none, equals null
 
 #### Implementation of
 
@@ -98,10 +94,9 @@ contains results featured in the ‘hotels_pack’ element of SERP
 
 #### Defined in
 
-[main.ts:34056](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L34056)
+main.ts:34982
 
 ___
-
 
 ### links
 
@@ -115,10 +110,9 @@ link of the element
 
 #### Defined in
 
-[main.ts:34058](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L34058)
+main.ts:34984
 
 ___
-
 
 ### position
 
@@ -134,10 +128,9 @@ left, right
 
 #### Defined in
 
-[main.ts:34047](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L34047)
+main.ts:34972
 
 ___
-
 
 ### rank\_absolute
 
@@ -145,6 +138,7 @@ ___
 
 absolute rank in SERP
 absolute position among all the elements in SERP
+always equals 0 for desktop
 
 #### Implementation of
 
@@ -152,18 +146,18 @@ absolute position among all the elements in SERP
 
 #### Defined in
 
-[main.ts:34043](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L34043)
+main.ts:34968
 
 ___
-
 
 ### rank\_group
 
 • `Optional` **rank\_group**: `number`
 
 group rank in SERP
-position within a group of elements with identical type values
-positions of elements with different type values are omitted from rank_group
+position within a group of elements with identical type values;
+positions of elements with different type values are omitted from rank_group;
+always equals 0 for desktop
 
 #### Implementation of
 
@@ -171,10 +165,9 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-[main.ts:34040](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L34040)
+main.ts:34964
 
 ___
-
 
 ### rectangle
 
@@ -190,10 +183,9 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 #### Defined in
 
-[main.ts:34062](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L34062)
+main.ts:34988
 
 ___
-
 
 ### result
 
@@ -208,16 +200,15 @@ solution to the mathematical equation specified in the keyword field when settin
 
 #### Defined in
 
-[main.ts:34054](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L34054)
+main.ts:34979
 
 ___
-
 
 ### title
 
 • `Optional` **title**: `string`
 
-title of a given link element
+title of the row
 
 #### Implementation of
 
@@ -225,10 +216,9 @@ title of a given link element
 
 #### Defined in
 
-[main.ts:34051](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L34051)
+main.ts:34976
 
 ___
-
 
 ### xpath
 
@@ -242,7 +232,7 @@ the XPath of the element
 
 #### Defined in
 
-[main.ts:34049](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L34049)
+main.ts:34974
 
 ## Methods
 
@@ -266,10 +256,9 @@ the XPath of the element
 
 #### Defined in
 
-[main.ts:34071](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L34071)
+main.ts:34997
 
 ___
-
 
 ### toJSON
 
@@ -291,10 +280,9 @@ ___
 
 #### Defined in
 
-[main.ts:34105](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L34105)
+main.ts:35031
 
 ___
-
 
 ### fromJS
 
@@ -316,8 +304,4 @@ ___
 
 #### Defined in
 
-[main.ts:34098](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L34098)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:35024

@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IPages
+[Documentation](../README.md) / [Exports](../modules.md) / IPages
 
 # Interface: IPages
 
@@ -31,10 +27,9 @@ information about the page with duplicate content
 
 #### Defined in
 
-[main.ts:147608](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L147608)
+main.ts:153035
 
 ___
-
 
 ### similarity
 
@@ -46,8 +41,4 @@ can take values from 0 to 10
 
 #### Defined in
 
-[main.ts:147606](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L147606)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:153033

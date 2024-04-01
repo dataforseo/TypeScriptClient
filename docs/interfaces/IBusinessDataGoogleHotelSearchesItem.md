@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IBusinessDataGoogleHotelSearchesItem
+[Documentation](../README.md) / [Exports](../modules.md) / IBusinessDataGoogleHotelSearchesItem
 
 # Interface: IBusinessDataGoogleHotelSearchesItem
 
@@ -40,10 +36,9 @@ CgoI-KWyzenM_MV3EAE
 
 #### Defined in
 
-[main.ts:193898](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L193898)
+main.ts:199359
 
 ___
-
 
 ### is\_paid
 
@@ -55,10 +50,9 @@ if false, related hotel_search_item is an organic hotel listing
 
 #### Defined in
 
-[main.ts:193907](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L193907)
+main.ts:199368
 
 ___
-
 
 ### location
 
@@ -68,10 +62,9 @@ GPS coordinates of the hotel’s location
 
 #### Defined in
 
-[main.ts:193909](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L193909)
+main.ts:199370
 
 ___
-
 
 ### overview\_images
 
@@ -81,10 +74,9 @@ featured images for a hotel
 
 #### Defined in
 
-[main.ts:193913](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L193913)
+main.ts:199374
 
 ___
-
 
 ### prices
 
@@ -94,10 +86,9 @@ hotel price
 
 #### Defined in
 
-[main.ts:193915](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L193915)
+main.ts:199376
 
 ___
-
 
 ### reviews
 
@@ -107,10 +98,9 @@ hotel reviews and rating information
 
 #### Defined in
 
-[main.ts:193911](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L193911)
+main.ts:199372
 
 ___
-
 
 ### stars
 
@@ -121,10 +111,9 @@ class rating that ranges between 1-5 stars
 
 #### Defined in
 
-[main.ts:193903](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L193903)
+main.ts:199364
 
 ___
-
 
 ### title
 
@@ -134,10 +123,9 @@ title of the hotel
 
 #### Defined in
 
-[main.ts:193900](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L193900)
+main.ts:199361
 
 ___
-
 
 ### type
 
@@ -147,8 +135,4 @@ type of element
 
 #### Defined in
 
-[main.ts:193894](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L193894)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:199355

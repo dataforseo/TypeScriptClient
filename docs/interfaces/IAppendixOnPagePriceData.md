@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IAppendixOnPagePriceData
+[Documentation](../README.md) / [Exports](../modules.md) / IAppendixOnPagePriceData
 
 # Interface: IAppendixOnPagePriceData
 
@@ -47,10 +43,9 @@
 
 #### Defined in
 
-[main.ts:212048](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L212048)
+main.ts:217701
 
 ___
-
 
 ### content\_parsing\_live
 
@@ -58,10 +53,9 @@ ___
 
 #### Defined in
 
-[main.ts:212049](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L212049)
+main.ts:217702
 
 ___
-
 
 ### duplicate\_content
 
@@ -69,10 +63,9 @@ ___
 
 #### Defined in
 
-[main.ts:212050](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L212050)
+main.ts:217703
 
 ___
-
 
 ### duplicate\_tags
 
@@ -80,10 +73,9 @@ ___
 
 #### Defined in
 
-[main.ts:212051](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L212051)
+main.ts:217704
 
 ___
-
 
 ### errors
 
@@ -91,10 +83,9 @@ ___
 
 #### Defined in
 
-[main.ts:212046](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L212046)
+main.ts:217699
 
 ___
-
 
 ### instant\_pages
 
@@ -102,10 +93,9 @@ ___
 
 #### Defined in
 
-[main.ts:212052](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L212052)
+main.ts:217705
 
 ___
-
 
 ### keyword\_density
 
@@ -113,21 +103,19 @@ ___
 
 #### Defined in
 
-[main.ts:212053](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L212053)
+main.ts:217706
 
 ___
-
 
 ### lighthouse
 
-• `Optional` **lighthouse**: [`AppendixGoogleBusinessDataPriceDataInfo`](../classes/AppendixGoogleBusinessDataPriceDataInfo.md)
+• `Optional` **lighthouse**: [`AppendixLighthouseOnPagePriceData`](../classes/AppendixLighthouseOnPagePriceData.md)
 
 #### Defined in
 
-[main.ts:212047](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L212047)
+main.ts:217700
 
 ___
-
 
 ### links
 
@@ -135,10 +123,9 @@ ___
 
 #### Defined in
 
-[main.ts:212054](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L212054)
+main.ts:217707
 
 ___
-
 
 ### non\_indexable
 
@@ -146,10 +133,9 @@ ___
 
 #### Defined in
 
-[main.ts:212055](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L212055)
+main.ts:217708
 
 ___
-
 
 ### page\_screenshot
 
@@ -157,10 +143,9 @@ ___
 
 #### Defined in
 
-[main.ts:212058](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L212058)
+main.ts:217711
 
 ___
-
 
 ### pages
 
@@ -168,10 +153,9 @@ ___
 
 #### Defined in
 
-[main.ts:212056](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L212056)
+main.ts:217709
 
 ___
-
 
 ### pages\_by\_resource
 
@@ -179,10 +163,9 @@ ___
 
 #### Defined in
 
-[main.ts:212057](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L212057)
+main.ts:217710
 
 ___
-
 
 ### raw\_html
 
@@ -190,10 +173,9 @@ ___
 
 #### Defined in
 
-[main.ts:212059](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L212059)
+main.ts:217712
 
 ___
-
 
 ### redirect\_chains
 
@@ -201,10 +183,9 @@ ___
 
 #### Defined in
 
-[main.ts:212060](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L212060)
+main.ts:217713
 
 ___
-
 
 ### resources
 
@@ -212,10 +193,9 @@ ___
 
 #### Defined in
 
-[main.ts:212061](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L212061)
+main.ts:217714
 
 ___
-
 
 ### summary
 
@@ -223,10 +203,9 @@ ___
 
 #### Defined in
 
-[main.ts:212062](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L212062)
+main.ts:217715
 
 ___
-
 
 ### task\_post
 
@@ -234,10 +213,9 @@ ___
 
 #### Defined in
 
-[main.ts:212063](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L212063)
+main.ts:217716
 
 ___
-
 
 ### tasks\_ready
 
@@ -245,10 +223,9 @@ ___
 
 #### Defined in
 
-[main.ts:212064](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L212064)
+main.ts:217717
 
 ___
-
 
 ### waterfall
 
@@ -256,8 +233,4 @@ ___
 
 #### Defined in
 
-[main.ts:212065](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L212065)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:217718

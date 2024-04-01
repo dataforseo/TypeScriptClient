@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / SentimentConnotationDistribution
+[Documentation](../README.md) / [Exports](../modules.md) / SentimentConnotationDistribution
 
 # Class: SentimentConnotationDistribution
 
@@ -53,7 +49,7 @@
 
 #### Defined in
 
-[main.ts:157913](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L157913)
+main.ts:163340
 
 ## Properties
 
@@ -67,10 +63,9 @@
 
 #### Defined in
 
-[main.ts:157904](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L157904)
+main.ts:163331
 
 ___
-
 
 ### fun
 
@@ -82,10 +77,9 @@ ___
 
 #### Defined in
 
-[main.ts:157909](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L157909)
+main.ts:163336
 
 ___
-
 
 ### happiness
 
@@ -97,10 +91,9 @@ ___
 
 #### Defined in
 
-[main.ts:157905](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L157905)
+main.ts:163332
 
 ___
-
 
 ### love
 
@@ -112,10 +105,9 @@ ___
 
 #### Defined in
 
-[main.ts:157906](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L157906)
+main.ts:163333
 
 ___
-
 
 ### sadness
 
@@ -127,10 +119,9 @@ ___
 
 #### Defined in
 
-[main.ts:157907](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L157907)
+main.ts:163334
 
 ___
-
 
 ### share
 
@@ -142,7 +133,7 @@ ___
 
 #### Defined in
 
-[main.ts:157908](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L157908)
+main.ts:163335
 
 ## Methods
 
@@ -162,10 +153,9 @@ ___
 
 #### Defined in
 
-[main.ts:157922](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L157922)
+main.ts:163349
 
 ___
-
 
 ### toJSON
 
@@ -183,10 +173,9 @@ ___
 
 #### Defined in
 
-[main.ts:157944](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L157944)
+main.ts:163371
 
 ___
-
 
 ### fromJS
 
@@ -204,8 +193,4 @@ ___
 
 #### Defined in
 
-[main.ts:157937](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L157937)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:163364

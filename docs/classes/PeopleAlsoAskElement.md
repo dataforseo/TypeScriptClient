@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / PeopleAlsoAskElement
+[Documentation](../README.md) / [Exports](../modules.md) / PeopleAlsoAskElement
 
 # Class: PeopleAlsoAskElement
 
@@ -52,7 +48,7 @@
 
 #### Defined in
 
-[main.ts:28504](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L28504)
+main.ts:29255
 
 ## Properties
 
@@ -68,10 +64,9 @@ expanded element
 
 #### Defined in
 
-[main.ts:28500](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L28500)
+main.ts:29251
 
 ___
-
 
 ### seed\_question
 
@@ -85,16 +80,15 @@ question that triggered additional expanded elements
 
 #### Defined in
 
-[main.ts:28496](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L28496)
+main.ts:29247
 
 ___
-
 
 ### title
 
 • `Optional` **title**: `string`
 
-title of the row
+title of a given link element
 
 #### Implementation of
 
@@ -102,10 +96,9 @@ title of the row
 
 #### Defined in
 
-[main.ts:28494](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L28494)
+main.ts:29245
 
 ___
-
 
 ### type
 
@@ -119,10 +112,9 @@ type of element
 
 #### Defined in
 
-[main.ts:28492](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L28492)
+main.ts:29243
 
 ___
-
 
 ### xpath
 
@@ -136,7 +128,7 @@ the XPath of the element
 
 #### Defined in
 
-[main.ts:28498](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L28498)
+main.ts:29249
 
 ## Methods
 
@@ -156,10 +148,9 @@ the XPath of the element
 
 #### Defined in
 
-[main.ts:28513](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L28513)
+main.ts:29264
 
 ___
-
 
 ### toJSON
 
@@ -177,10 +168,9 @@ ___
 
 #### Defined in
 
-[main.ts:28538](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L28538)
+main.ts:29289
 
 ___
-
 
 ### fromJS
 
@@ -198,8 +188,4 @@ ___
 
 #### Defined in
 
-[main.ts:28531](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L28531)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:29282

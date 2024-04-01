@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / ISslInfo
+[Documentation](../README.md) / [Exports](../modules.md) / ISslInfo
 
 # Interface: ISslInfo
 
@@ -39,10 +35,9 @@ example:
 
 #### Defined in
 
-[main.ts:143294](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L143294)
+main.ts:148721
 
 ___
-
 
 ### certificate\_hash
 
@@ -53,10 +48,9 @@ the version of the ssl certificate’s hash function
 
 #### Defined in
 
-[main.ts:143288](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L143288)
+main.ts:148715
 
 ___
-
 
 ### certificate\_issuer
 
@@ -67,10 +61,9 @@ the entity that issued the detected ssl certificate
 
 #### Defined in
 
-[main.ts:143279](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L143279)
+main.ts:148706
 
 ___
-
 
 ### certificate\_subject
 
@@ -81,10 +74,9 @@ the entity associated with the public key
 
 #### Defined in
 
-[main.ts:143282](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L143282)
+main.ts:148709
 
 ___
-
 
 ### certificate\_version
 
@@ -95,10 +87,9 @@ indicates the version of X.509 used by an ssl certificate
 
 #### Defined in
 
-[main.ts:143285](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L143285)
+main.ts:148712
 
 ___
-
 
 ### valid\_certificate
 
@@ -109,8 +100,4 @@ indicates whether the ssl certificate detected on a website is not expired, susp
 
 #### Defined in
 
-[main.ts:143276](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L143276)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:148703

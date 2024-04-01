@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IDataforseoLabsSubdomainsLiveItem
+[Documentation](../README.md) / [Exports](../modules.md) / IDataforseoLabsSubdomainsLiveItem
 
 # Interface: IDataforseoLabsSubdomainsLiveItem
 
@@ -36,10 +32,9 @@ ranking data relevant to subdomain
 
 #### Defined in
 
-[main.ts:89687](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L89687)
+main.ts:92064
 
 ___
-
 
 ### se\_type
 
@@ -49,10 +44,9 @@ search engine type
 
 #### Defined in
 
-[main.ts:89683](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L89683)
+main.ts:92060
 
 ___
-
 
 ### subdomain
 
@@ -62,8 +56,4 @@ returned subdomain
 
 #### Defined in
 
-[main.ts:89685](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L89685)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:92062

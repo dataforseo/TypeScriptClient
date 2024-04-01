@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IKeywordsDataGoogleTrendsExploreLiveRequestInfo
+[Documentation](../README.md) / [Exports](../modules.md) / IKeywordsDataGoogleTrendsExploreLiveRequestInfo
 
 # Interface: IKeywordsDataGoogleTrendsExploreLiveRequestInfo
 
@@ -44,10 +40,9 @@ you can receive the list of available categories with their category_code by mak
 
 #### Defined in
 
-[main.ts:121644](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L121644)
+main.ts:123795
 
 ___
-
 
 ### date\_from
 
@@ -64,10 +59,9 @@ example:
 
 #### Defined in
 
-[main.ts:121653](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L121653)
+main.ts:123804
 
 ___
-
 
 ### date\_to
 
@@ -82,10 +76,9 @@ example:
 
 #### Defined in
 
-[main.ts:121660](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L121660)
+main.ts:123811
 
 ___
-
 
 ### item\_types
 
@@ -105,10 +98,9 @@ possible values:
 
 #### Defined in
 
-[main.ts:121682](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L121682)
+main.ts:123833
 
 ___
-
 
 ### keywords
 
@@ -122,10 +114,9 @@ Note: comma symbols (,) in the specified keywords will be unset and ignored
 
 #### Defined in
 
-[main.ts:121605](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L121605)
+main.ts:123756
 
 ___
-
 
 ### language\_code
 
@@ -141,10 +132,9 @@ en
 
 #### Defined in
 
-[main.ts:121637](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L121637)
+main.ts:123788
 
 ___
-
 
 ### language\_name
 
@@ -160,10 +150,9 @@ English
 
 #### Defined in
 
-[main.ts:121629](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L121629)
+main.ts:123780
 
 ___
-
 
 ### location\_code
 
@@ -179,10 +168,9 @@ example:
 
 #### Defined in
 
-[main.ts:121621](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L121621)
+main.ts:123772
 
 ___
-
 
 ### location\_name
 
@@ -198,10 +186,9 @@ United Kingdom
 
 #### Defined in
 
-[main.ts:121613](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L121613)
+main.ts:123764
 
 ___
-
 
 ### tag
 
@@ -215,10 +202,9 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-[main.ts:121688](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L121688)
+main.ts:123839
 
 ___
-
 
 ### time\_range
 
@@ -236,10 +222,9 @@ possible values for news, youtube, images, froogle:
 
 #### Defined in
 
-[main.ts:121670](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L121670)
+main.ts:123821
 
 ___
-
 
 ### type
 
@@ -249,8 +234,4 @@ type of element
 
 #### Defined in
 
-[main.ts:121639](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L121639)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:123790

@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IBusinessDataSocialMediaRedditLiveResultInfo
+[Documentation](../README.md) / [Exports](../modules.md) / IBusinessDataSocialMediaRedditLiveResultInfo
 
 # Interface: IBusinessDataSocialMediaRedditLiveResultInfo
 
@@ -33,10 +29,9 @@ corresponding URL you specified in the targets array when setting a task
 
 #### Defined in
 
-[main.ts:206363](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L206363)
+main.ts:211824
 
 ___
-
 
 ### reddit\_reviews
 
@@ -46,10 +41,9 @@ reddit reviews for the page_url
 
 #### Defined in
 
-[main.ts:206365](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L206365)
+main.ts:211826
 
 ___
-
 
 ### type
 
@@ -59,8 +53,4 @@ type of element
 
 #### Defined in
 
-[main.ts:206360](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L206360)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:211821

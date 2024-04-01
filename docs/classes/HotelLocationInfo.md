@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / HotelLocationInfo
+[Documentation](../README.md) / [Exports](../modules.md) / HotelLocationInfo
 
 # Class: HotelLocationInfo
 
@@ -55,7 +51,7 @@
 
 #### Defined in
 
-[main.ts:195658](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L195658)
+main.ts:201119
 
 ## Properties
 
@@ -74,10 +70,9 @@ example:
 
 #### Defined in
 
-[main.ts:195646](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L195646)
+main.ts:201107
 
 ___
-
 
 ### location\_chain
 
@@ -92,10 +87,9 @@ additional parameters of each element of the location chain
 
 #### Defined in
 
-[main.ts:195654](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L195654)
+main.ts:201115
 
 ___
-
 
 ### longitude
 
@@ -112,10 +106,9 @@ example:
 
 #### Defined in
 
-[main.ts:195651](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L195651)
+main.ts:201112
 
 ___
-
 
 ### maps\_url
 
@@ -129,10 +122,9 @@ url to the location of the hotel in google maps
 
 #### Defined in
 
-[main.ts:195633](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L195633)
+main.ts:201094
 
 ___
-
 
 ### neighborhood
 
@@ -146,10 +138,9 @@ name of the neighborhood where the hotel is located
 
 #### Defined in
 
-[main.ts:195629](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L195629)
+main.ts:201090
 
 ___
-
 
 ### neighborhood\_description
 
@@ -163,10 +154,9 @@ description of the neighborhood where the hotel is located
 
 #### Defined in
 
-[main.ts:195631](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L195631)
+main.ts:201092
 
 ___
-
 
 ### overall\_score
 
@@ -183,10 +173,9 @@ note that the criteria are not weighted equally in the overall score
 
 #### Defined in
 
-[main.ts:195638](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L195638)
+main.ts:201099
 
 ___
-
 
 ### score\_by\_categories
 
@@ -205,7 +194,7 @@ the scores of the hotel’s location tied to the categories that indicate the pr
 
 #### Defined in
 
-[main.ts:195641](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L195641)
+main.ts:201102
 
 ## Methods
 
@@ -225,10 +214,9 @@ the scores of the hotel’s location tied to the categories that indicate the pr
 
 #### Defined in
 
-[main.ts:195667](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L195667)
+main.ts:201128
 
 ___
-
 
 ### toJSON
 
@@ -246,10 +234,9 @@ ___
 
 #### Defined in
 
-[main.ts:195701](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L195701)
+main.ts:201162
 
 ___
-
 
 ### fromJS
 
@@ -267,8 +254,4 @@ ___
 
 #### Defined in
 
-[main.ts:195694](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L195694)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:201155

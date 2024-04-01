@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / FaqBoxElement
+[Documentation](../README.md) / [Exports](../modules.md) / FaqBoxElement
 
 # Class: FaqBoxElement
 
@@ -51,7 +47,7 @@
 
 #### Defined in
 
-[main.ts:27834](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L27834)
+main.ts:28583
 
 ## Properties
 
@@ -59,7 +55,7 @@
 
 • `Optional` **description**: `string`
 
-description of the results element in SERP
+description
 
 #### Implementation of
 
@@ -67,10 +63,9 @@ description of the results element in SERP
 
 #### Defined in
 
-[main.ts:27828](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L27828)
+main.ts:28577
 
 ___
-
 
 ### links
 
@@ -84,16 +79,15 @@ link of the element
 
 #### Defined in
 
-[main.ts:27830](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L27830)
+main.ts:28579
 
 ___
-
 
 ### title
 
 • `Optional` **title**: `string`
 
-title of the element
+title of a given link element
 
 #### Implementation of
 
@@ -101,10 +95,9 @@ title of the element
 
 #### Defined in
 
-[main.ts:27826](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L27826)
+main.ts:28575
 
 ___
-
 
 ### type
 
@@ -118,7 +111,7 @@ type of element
 
 #### Defined in
 
-[main.ts:27824](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L27824)
+main.ts:28573
 
 ## Methods
 
@@ -138,10 +131,9 @@ type of element
 
 #### Defined in
 
-[main.ts:27843](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L27843)
+main.ts:28592
 
 ___
-
 
 ### toJSON
 
@@ -159,10 +151,9 @@ ___
 
 #### Defined in
 
-[main.ts:27867](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L27867)
+main.ts:28616
 
 ___
-
 
 ### fromJS
 
@@ -180,8 +171,4 @@ ___
 
 #### Defined in
 
-[main.ts:27860](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L27860)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:28609

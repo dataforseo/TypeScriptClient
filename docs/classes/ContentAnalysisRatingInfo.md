@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / ContentAnalysisRatingInfo
+[Documentation](../README.md) / [Exports](../modules.md) / ContentAnalysisRatingInfo
 
 # Class: ContentAnalysisRatingInfo
 
@@ -54,7 +50,7 @@ content rating rating related to content_info
 
 #### Defined in
 
-[main.ts:156337](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L156337)
+main.ts:161764
 
 ## Properties
 
@@ -70,10 +66,9 @@ maximum value for the rating name
 
 #### Defined in
 
-[main.ts:156331](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L156331)
+main.ts:161758
 
 ___
-
 
 ### name
 
@@ -88,10 +83,9 @@ here you can find the following elements: Max5, Percents, CustomMax
 
 #### Defined in
 
-[main.ts:156325](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L156325)
+main.ts:161752
 
 ___
-
 
 ### rating\_count
 
@@ -105,10 +99,9 @@ number of votes
 
 #### Defined in
 
-[main.ts:156329](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L156329)
+main.ts:161756
 
 ___
-
 
 ### rating\_value
 
@@ -122,10 +115,9 @@ the value of the rating
 
 #### Defined in
 
-[main.ts:156327](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L156327)
+main.ts:161754
 
 ___
-
 
 ### relative\_rating
 
@@ -139,7 +131,7 @@ relative rating
 
 #### Defined in
 
-[main.ts:156333](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L156333)
+main.ts:161760
 
 ## Methods
 
@@ -159,10 +151,9 @@ relative rating
 
 #### Defined in
 
-[main.ts:156346](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L156346)
+main.ts:161773
 
 ___
-
 
 ### toJSON
 
@@ -180,10 +171,9 @@ ___
 
 #### Defined in
 
-[main.ts:156367](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L156367)
+main.ts:161794
 
 ___
-
 
 ### fromJS
 
@@ -201,8 +191,4 @@ ___
 
 #### Defined in
 
-[main.ts:156360](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L156360)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:161787

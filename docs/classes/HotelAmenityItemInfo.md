@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / HotelAmenityItemInfo
+[Documentation](../README.md) / [Exports](../modules.md) / HotelAmenityItemInfo
 
 # Class: HotelAmenityItemInfo
 
@@ -51,7 +47,7 @@
 
 #### Defined in
 
-[main.ts:195289](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L195289)
+main.ts:200750
 
 ## Properties
 
@@ -67,10 +63,9 @@ standardised amenity name
 
 #### Defined in
 
-[main.ts:195279](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L195279)
+main.ts:200740
 
 ___
-
 
 ### amenity\_label
 
@@ -84,10 +79,9 @@ displayed amenity name
 
 #### Defined in
 
-[main.ts:195281](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L195281)
+main.ts:200742
 
 ___
-
 
 ### hint
 
@@ -101,10 +95,9 @@ standardised details about the amenity
 
 #### Defined in
 
-[main.ts:195283](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L195283)
+main.ts:200744
 
 ___
-
 
 ### hint\_label
 
@@ -118,7 +111,7 @@ displayed details about the amenity
 
 #### Defined in
 
-[main.ts:195285](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L195285)
+main.ts:200746
 
 ## Methods
 
@@ -138,10 +131,9 @@ displayed details about the amenity
 
 #### Defined in
 
-[main.ts:195298](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L195298)
+main.ts:200759
 
 ___
-
 
 ### toJSON
 
@@ -159,10 +151,9 @@ ___
 
 #### Defined in
 
-[main.ts:195318](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L195318)
+main.ts:200779
 
 ___
-
 
 ### fromJS
 
@@ -180,8 +171,4 @@ ___
 
 #### Defined in
 
-[main.ts:195311](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L195311)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:200772

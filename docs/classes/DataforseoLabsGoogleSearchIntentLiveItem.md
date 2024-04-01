@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / DataforseoLabsGoogleSearchIntentLiveItem
+[Documentation](../README.md) / [Exports](../modules.md) / DataforseoLabsGoogleSearchIntentLiveItem
 
 # Class: DataforseoLabsGoogleSearchIntentLiveItem
 
@@ -50,7 +46,7 @@
 
 #### Defined in
 
-[main.ts:82862](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L82862)
+main.ts:85239
 
 ## Properties
 
@@ -66,10 +62,9 @@ target keyword in a POST array
 
 #### Defined in
 
-[main.ts:82854](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L82854)
+main.ts:85231
 
 ___
-
 
 ### keyword\_intent
 
@@ -83,10 +78,9 @@ search intent data relevant for the specified keyword
 
 #### Defined in
 
-[main.ts:82856](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L82856)
+main.ts:85233
 
 ___
-
 
 ### secondary\_keyword\_intents
 
@@ -100,7 +94,7 @@ contains objects with other possible search intents for the specified keyword
 
 #### Defined in
 
-[main.ts:82858](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L82858)
+main.ts:85235
 
 ## Methods
 
@@ -120,10 +114,9 @@ contains objects with other possible search intents for the specified keyword
 
 #### Defined in
 
-[main.ts:82871](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L82871)
+main.ts:85248
 
 ___
-
 
 ### toJSON
 
@@ -141,10 +134,9 @@ ___
 
 #### Defined in
 
-[main.ts:82894](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L82894)
+main.ts:85271
 
 ___
-
 
 ### fromJS
 
@@ -162,8 +154,4 @@ ___
 
 #### Defined in
 
-[main.ts:82887](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L82887)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:85264

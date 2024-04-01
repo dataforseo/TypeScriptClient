@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / Graph
+[Documentation](../README.md) / [Exports](../modules.md) / Graph
 
 # Class: Graph
 
@@ -49,7 +45,7 @@
 
 #### Defined in
 
-[main.ts:32414](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L32414)
+main.ts:33294
 
 ## Properties
 
@@ -57,8 +53,7 @@
 
 • `Optional` **items**: [`GraphElement`](GraphElement.md)[]
 
-additional items present in the element
-if there are none, equals null
+contains arrays of specific images
 
 #### Implementation of
 
@@ -66,10 +61,9 @@ if there are none, equals null
 
 #### Defined in
 
-[main.ts:32407](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L32407)
+main.ts:33287
 
 ___
-
 
 ### previous\_items
 
@@ -84,7 +78,7 @@ contains stock price data based on the preceding time period
 
 #### Defined in
 
-[main.ts:32410](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L32410)
+main.ts:33290
 
 ## Methods
 
@@ -104,10 +98,9 @@ contains stock price data based on the preceding time period
 
 #### Defined in
 
-[main.ts:32423](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L32423)
+main.ts:33303
 
 ___
-
 
 ### toJSON
 
@@ -125,10 +118,9 @@ ___
 
 #### Defined in
 
-[main.ts:32449](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L32449)
+main.ts:33329
 
 ___
-
 
 ### fromJS
 
@@ -146,8 +138,4 @@ ___
 
 #### Defined in
 
-[main.ts:32442](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L32442)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:33322

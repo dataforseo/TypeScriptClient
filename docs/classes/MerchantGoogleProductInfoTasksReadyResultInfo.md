@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / MerchantGoogleProductInfoTasksReadyResultInfo
+[Documentation](../README.md) / [Exports](../modules.md) / MerchantGoogleProductInfoTasksReadyResultInfo
 
 # Class: MerchantGoogleProductInfoTasksReadyResultInfo
 
@@ -54,7 +50,7 @@
 
 #### Defined in
 
-[main.ts:168796](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L168796)
+main.ts:174249
 
 ## Properties
 
@@ -70,10 +66,9 @@ date when the task was posted (in the UTC format)
 
 #### Defined in
 
-[main.ts:168785](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L168785)
+main.ts:174238
 
 ___
-
 
 ### endpoint\_advanced
 
@@ -87,10 +82,9 @@ URL for collecting the results of the Google Shopping Product Specifications Adv
 
 #### Defined in
 
-[main.ts:168789](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L168789)
+main.ts:174242
 
 ___
-
 
 ### endpoint\_html
 
@@ -105,10 +99,9 @@ note: HTML is not available for this endpoint, the value will be null
 
 #### Defined in
 
-[main.ts:168792](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L168792)
+main.ts:174245
 
 ___
-
 
 ### id
 
@@ -123,10 +116,9 @@ unique task identifier in our system in the UUID format
 
 #### Defined in
 
-[main.ts:168778](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L168778)
+main.ts:174231
 
 ___
-
 
 ### se
 
@@ -140,10 +132,9 @@ search engine specified when setting the task
 
 #### Defined in
 
-[main.ts:168780](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L168780)
+main.ts:174233
 
 ___
-
 
 ### se\_type
 
@@ -158,10 +149,9 @@ can take the following values: shopping_specifications
 
 #### Defined in
 
-[main.ts:168783](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L168783)
+main.ts:174236
 
 ___
-
 
 ### tag
 
@@ -175,7 +165,7 @@ user-defined task identifier
 
 #### Defined in
 
-[main.ts:168787](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L168787)
+main.ts:174240
 
 ## Methods
 
@@ -195,10 +185,9 @@ user-defined task identifier
 
 #### Defined in
 
-[main.ts:168805](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L168805)
+main.ts:174258
 
 ___
-
 
 ### toJSON
 
@@ -216,10 +205,9 @@ ___
 
 #### Defined in
 
-[main.ts:168828](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L168828)
+main.ts:174281
 
 ___
-
 
 ### fromJS
 
@@ -237,8 +225,4 @@ ___
 
 #### Defined in
 
-[main.ts:168821](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L168821)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:174274

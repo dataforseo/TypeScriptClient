@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IContentGenerationGenerateSubTopicsLiveRequestInfo
+[Documentation](../README.md) / [Exports](../modules.md) / IContentGenerationGenerateSubTopicsLiveRequestInfo
 
 # Interface: IContentGenerationGenerateSubTopicsLiveRequestInfo
 
@@ -37,10 +33,9 @@ learn more about this parameter on our help center
 
 #### Defined in
 
-[main.ts:160916](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L160916)
+main.ts:166343
 
 ___
-
 
 ### tag
 
@@ -54,10 +49,9 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-[main.ts:160922](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L160922)
+main.ts:166349
 
 ___
-
 
 ### topic
 
@@ -70,8 +64,4 @@ can contain from 1 to 50 tokens
 
 #### Defined in
 
-[main.ts:160909](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L160909)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:166336

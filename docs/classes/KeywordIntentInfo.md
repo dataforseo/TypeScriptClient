@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / KeywordIntentInfo
+[Documentation](../README.md) / [Exports](../modules.md) / KeywordIntentInfo
 
 # Class: KeywordIntentInfo
 
@@ -49,7 +45,7 @@
 
 #### Defined in
 
-[main.ts:82802](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L82802)
+main.ts:85179
 
 ## Properties
 
@@ -66,10 +62,9 @@ possible values: informational, navigational, commercial, transactional
 
 #### Defined in
 
-[main.ts:82795](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L82795)
+main.ts:85172
 
 ___
-
 
 ### probability
 
@@ -84,7 +79,7 @@ search intent probability
 
 #### Defined in
 
-[main.ts:82798](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L82798)
+main.ts:85175
 
 ## Methods
 
@@ -104,10 +99,9 @@ search intent probability
 
 #### Defined in
 
-[main.ts:82811](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L82811)
+main.ts:85188
 
 ___
-
 
 ### toJSON
 
@@ -125,10 +119,9 @@ ___
 
 #### Defined in
 
-[main.ts:82829](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L82829)
+main.ts:85206
 
 ___
-
 
 ### fromJS
 
@@ -146,8 +139,4 @@ ___
 
 #### Defined in
 
-[main.ts:82822](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L82822)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:85199

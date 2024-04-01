@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / SerpAiSummaryRequestInfo
+[Documentation](../README.md) / [Exports](../modules.md) / SerpAiSummaryRequestInfo
 
 # Class: SerpAiSummaryRequestInfo
 
@@ -52,7 +48,7 @@
 
 #### Defined in
 
-[main.ts:23756](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L23756)
+main.ts:24275
 
 ## Properties
 
@@ -71,10 +67,9 @@ default value: false
 
 #### Defined in
 
-[main.ts:23747](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L23747)
+main.ts:24266
 
 ___
-
 
 ### include\_links
 
@@ -91,10 +86,9 @@ default value: false
 
 #### Defined in
 
-[main.ts:23752](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L23752)
+main.ts:24271
 
 ___
-
 
 ### prompt
 
@@ -112,10 +106,9 @@ note: your prompt has to be relevant to the keyword specified in the POST reques
 
 #### Defined in
 
-[main.ts:23737](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L23737)
+main.ts:24256
 
 ___
-
 
 ### support\_extra
 
@@ -132,10 +125,9 @@ default value: true
 
 #### Defined in
 
-[main.ts:23742](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L23742)
+main.ts:24261
 
 ___
-
 
 ### task\_id
 
@@ -152,7 +144,7 @@ you will be able to use it within 30 days to request the results of the task at 
 
 #### Defined in
 
-[main.ts:23731](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L23731)
+main.ts:24250
 
 ## Methods
 
@@ -172,10 +164,9 @@ you will be able to use it within 30 days to request the results of the task at 
 
 #### Defined in
 
-[main.ts:23765](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L23765)
+main.ts:24284
 
 ___
-
 
 ### toJSON
 
@@ -193,10 +184,9 @@ ___
 
 #### Defined in
 
-[main.ts:23786](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L23786)
+main.ts:24305
 
 ___
-
 
 ### fromJS
 
@@ -214,8 +204,4 @@ ___
 
 #### Defined in
 
-[main.ts:23779](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L23779)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:24298

@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IOnPageDuplicateTagsRequestInfo
+[Documentation](../README.md) / [Exports](../modules.md) / IOnPageDuplicateTagsRequestInfo
 
 # Interface: IOnPageDuplicateTagsRequestInfo
 
@@ -37,10 +33,9 @@ specify a title or description here if you want to receive a list of duplicate p
 
 #### Defined in
 
-[main.ts:147134](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L147134)
+main.ts:152561
 
 ___
-
 
 ### id
 
@@ -54,10 +49,9 @@ example:
 
 #### Defined in
 
-[main.ts:147128](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L147128)
+main.ts:152555
 
 ___
-
 
 ### limit
 
@@ -70,10 +64,9 @@ maximum value: 1000
 
 #### Defined in
 
-[main.ts:147139](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L147139)
+main.ts:152566
 
 ___
-
 
 ### offset
 
@@ -86,10 +79,9 @@ if you specify the 10 value, the first ten pages in the results array will be om
 
 #### Defined in
 
-[main.ts:147144](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L147144)
+main.ts:152571
 
 ___
-
 
 ### tag
 
@@ -103,10 +95,9 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-[main.ts:147150](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L147150)
+main.ts:152577
 
 ___
-
 
 ### type
 
@@ -116,8 +107,4 @@ type of element
 
 #### Defined in
 
-[main.ts:147130](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L147130)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:152557

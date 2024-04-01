@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / BusinessDataSocialMediaRedditLiveResultInfo
+[Documentation](../README.md) / [Exports](../modules.md) / BusinessDataSocialMediaRedditLiveResultInfo
 
 # Class: BusinessDataSocialMediaRedditLiveResultInfo
 
@@ -50,7 +46,7 @@
 
 #### Defined in
 
-[main.ts:206309](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L206309)
+main.ts:211770
 
 ## Properties
 
@@ -67,10 +63,9 @@ corresponding URL you specified in the targets array when setting a task
 
 #### Defined in
 
-[main.ts:206303](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L206303)
+main.ts:211764
 
 ___
-
 
 ### reddit\_reviews
 
@@ -84,10 +79,9 @@ reddit reviews for the page_url
 
 #### Defined in
 
-[main.ts:206305](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L206305)
+main.ts:211766
 
 ___
-
 
 ### type
 
@@ -101,7 +95,7 @@ type of element
 
 #### Defined in
 
-[main.ts:206300](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L206300)
+main.ts:211761
 
 ## Methods
 
@@ -121,10 +115,9 @@ type of element
 
 #### Defined in
 
-[main.ts:206318](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L206318)
+main.ts:211779
 
 ___
-
 
 ### toJSON
 
@@ -142,10 +135,9 @@ ___
 
 #### Defined in
 
-[main.ts:206341](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L206341)
+main.ts:211802
 
 ___
-
 
 ### fromJS
 
@@ -163,8 +155,4 @@ ___
 
 #### Defined in
 
-[main.ts:206334](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L206334)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:211795

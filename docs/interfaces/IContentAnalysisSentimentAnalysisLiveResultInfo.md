@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IContentAnalysisSentimentAnalysisLiveResultInfo
+[Documentation](../README.md) / [Exports](../modules.md) / IContentAnalysisSentimentAnalysisLiveResultInfo
 
 # Interface: IContentAnalysisSentimentAnalysisLiveResultInfo
 
@@ -34,10 +30,9 @@ possible sentiment connotation types: positive, negative, neutral
 
 #### Defined in
 
-[main.ts:158032](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L158032)
+main.ts:163459
 
 ___
-
 
 ### sentiment\_connotation\_distribution
 
@@ -49,10 +44,9 @@ possible sentiment connotation types: anger, happiness, love, sadness, share, fu
 
 #### Defined in
 
-[main.ts:158036](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L158036)
+main.ts:163463
 
 ___
-
 
 ### type
 
@@ -62,8 +56,4 @@ type of element
 
 #### Defined in
 
-[main.ts:158028](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L158028)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:163455

@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IDataforseoLabsGoogleHistoricalBulkTrafficEstimationLiveResultInfo
+[Documentation](../README.md) / [Exports](../modules.md) / IDataforseoLabsGoogleHistoricalBulkTrafficEstimationLiveResultInfo
 
 # Interface: IDataforseoLabsGoogleHistoricalBulkTrafficEstimationLiveResultInfo
 
@@ -35,10 +31,9 @@ array of items with relevant traffic estimation data
 
 #### Defined in
 
-[main.ts:98499](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L98499)
+main.ts:100876
 
 ___
-
 
 ### items\_count
 
@@ -48,10 +43,9 @@ the number of results returned in the items array
 
 #### Defined in
 
-[main.ts:98497](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L98497)
+main.ts:100874
 
 ___
-
 
 ### language\_code
 
@@ -62,10 +56,9 @@ if there is no data, then the value is null
 
 #### Defined in
 
-[main.ts:98493](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L98493)
+main.ts:100870
 
 ___
-
 
 ### location\_code
 
@@ -76,10 +69,9 @@ if there is no data, then the value is null
 
 #### Defined in
 
-[main.ts:98490](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L98490)
+main.ts:100867
 
 ___
-
 
 ### se\_type
 
@@ -89,10 +81,9 @@ search engine type
 
 #### Defined in
 
-[main.ts:98487](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L98487)
+main.ts:100864
 
 ___
-
 
 ### total\_count
 
@@ -102,8 +93,4 @@ total amount of results in our database relevant to your request
 
 #### Defined in
 
-[main.ts:98495](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L98495)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:100872

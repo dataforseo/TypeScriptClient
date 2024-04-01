@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IKeywordsDataBingKeywordPerformanceTaskGetResultInfo
+[Documentation](../README.md) / [Exports](../modules.md) / IKeywordsDataBingKeywordPerformanceTaskGetResultInfo
 
 # Interface: IKeywordsDataBingKeywordPerformanceTaskGetResultInfo
 
@@ -35,10 +31,9 @@ keyword in a POST array
 
 #### Defined in
 
-[main.ts:127411](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L127411)
+main.ts:132778
 
 ___
-
 
 ### keyword\_kpi
 
@@ -49,10 +44,9 @@ if there is no data, then the value is null
 
 #### Defined in
 
-[main.ts:127428](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L127428)
+main.ts:132795
 
 ___
-
 
 ### language\_code
 
@@ -63,10 +57,9 @@ if there is no data, then the value is null
 
 #### Defined in
 
-[main.ts:127417](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L127417)
+main.ts:132784
 
 ___
-
 
 ### location\_code
 
@@ -77,10 +70,9 @@ if there is no data, then the value is null
 
 #### Defined in
 
-[main.ts:127414](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L127414)
+main.ts:132781
 
 ___
-
 
 ### month
 
@@ -92,10 +84,9 @@ example:
 
 #### Defined in
 
-[main.ts:127425](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L127425)
+main.ts:132792
 
 ___
-
 
 ### year
 
@@ -107,8 +98,4 @@ example:
 
 #### Defined in
 
-[main.ts:127421](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L127421)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:132788

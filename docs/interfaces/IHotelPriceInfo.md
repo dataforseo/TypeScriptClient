@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IHotelPriceInfo
+[Documentation](../README.md) / [Exports](../modules.md) / IHotelPriceInfo
 
 # Interface: IHotelPriceInfo
 
@@ -40,10 +36,9 @@ example:
 
 #### Defined in
 
-[main.ts:193788](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L193788)
+main.ts:199249
 
 ___
-
 
 ### check\_out
 
@@ -56,10 +51,9 @@ example:
 
 #### Defined in
 
-[main.ts:193793](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L193793)
+main.ts:199254
 
 ___
-
 
 ### currency
 
@@ -70,10 +64,9 @@ USD is applied by default, unless specified in the POST array
 
 #### Defined in
 
-[main.ts:193781](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L193781)
+main.ts:199242
 
 ___
-
 
 ### discount\_text
 
@@ -83,10 +76,9 @@ text about a discount applied
 
 #### Defined in
 
-[main.ts:193783](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L193783)
+main.ts:199244
 
 ___
-
 
 ### items
 
@@ -98,10 +90,9 @@ possible item types: hotel_search_item
 
 #### Defined in
 
-[main.ts:193799](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L193799)
+main.ts:199260
 
 ___
-
 
 ### price
 
@@ -111,10 +102,9 @@ price per night
 
 #### Defined in
 
-[main.ts:193776](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L193776)
+main.ts:199237
 
 ___
-
 
 ### price\_without\_discount
 
@@ -124,10 +114,9 @@ full price per night without a discount applied
 
 #### Defined in
 
-[main.ts:193778](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L193778)
+main.ts:199239
 
 ___
-
 
 ### visitors
 
@@ -137,8 +126,4 @@ number of hotel visitors for this price
 
 #### Defined in
 
-[main.ts:193795](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L193795)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:199256

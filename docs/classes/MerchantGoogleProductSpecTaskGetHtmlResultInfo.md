@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / MerchantGoogleProductSpecTaskGetHtmlResultInfo
+[Documentation](../README.md) / [Exports](../modules.md) / MerchantGoogleProductSpecTaskGetHtmlResultInfo
 
 # Class: MerchantGoogleProductSpecTaskGetHtmlResultInfo
 
@@ -55,7 +51,7 @@
 
 #### Defined in
 
-[main.ts:168230](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L168230)
+main.ts:173683
 
 ## Properties
 
@@ -74,10 +70,9 @@ example:
 
 #### Defined in
 
-[main.ts:168222](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L168222)
+main.ts:173675
 
 ___
-
 
 ### items
 
@@ -91,10 +86,9 @@ elements of search results found on Google Shopping
 
 #### Defined in
 
-[main.ts:168226](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L168226)
+main.ts:173679
 
 ___
-
 
 ### items\_count
 
@@ -108,10 +102,9 @@ the number of results returned in the items array
 
 #### Defined in
 
-[main.ts:168224](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L168224)
+main.ts:173677
 
 ___
-
 
 ### language\_code
 
@@ -125,10 +118,9 @@ language code in a POST array
 
 #### Defined in
 
-[main.ts:168217](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L168217)
+main.ts:173670
 
 ___
-
 
 ### location\_code
 
@@ -142,10 +134,9 @@ location code in a POST array
 
 #### Defined in
 
-[main.ts:168215](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L168215)
+main.ts:173668
 
 ___
-
 
 ### product\_id
 
@@ -159,10 +150,9 @@ product ID in a POST array
 
 #### Defined in
 
-[main.ts:168209](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L168209)
+main.ts:173662
 
 ___
-
 
 ### se\_domain
 
@@ -176,10 +166,9 @@ search engine domain in a POST array
 
 #### Defined in
 
-[main.ts:168213](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L168213)
+main.ts:173666
 
 ___
-
 
 ### type
 
@@ -193,7 +182,7 @@ type of element
 
 #### Defined in
 
-[main.ts:168211](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L168211)
+main.ts:173664
 
 ## Methods
 
@@ -213,10 +202,9 @@ type of element
 
 #### Defined in
 
-[main.ts:168239](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L168239)
+main.ts:173692
 
 ___
-
 
 ### toJSON
 
@@ -234,10 +222,9 @@ ___
 
 #### Defined in
 
-[main.ts:168267](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L168267)
+main.ts:173720
 
 ___
-
 
 ### fromJS
 
@@ -255,8 +242,4 @@ ___
 
 #### Defined in
 
-[main.ts:168260](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L168260)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:173713

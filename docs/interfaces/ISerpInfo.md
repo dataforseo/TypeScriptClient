@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / ISerpInfo
+[Documentation](../README.md) / [Exports](../modules.md) / ISerpInfo
 
 # Interface: ISerpInfo
 
@@ -36,10 +32,9 @@ you can use it to make sure that we provided accurate results
 
 #### Defined in
 
-[main.ts:79411](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L79411)
+main.ts:81788
 
 ___
-
 
 ### last\_updated\_time
 
@@ -52,10 +47,9 @@ example:
 
 #### Defined in
 
-[main.ts:79424](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L79424)
+main.ts:81801
 
 ___
-
 
 ### previous\_updated\_time
 
@@ -68,10 +62,9 @@ example:
 
 #### Defined in
 
-[main.ts:79429](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L79429)
+main.ts:81806
 
 ___
-
 
 ### se\_results\_count
 
@@ -81,10 +74,9 @@ number of search results for the returned keyword
 
 #### Defined in
 
-[main.ts:79419](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L79419)
+main.ts:81796
 
 ___
-
 
 ### se\_type
 
@@ -94,10 +86,9 @@ search engine type
 
 #### Defined in
 
-[main.ts:79408](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L79408)
+main.ts:81785
 
 ___
-
 
 ### serp\_item\_types
 
@@ -111,8 +102,4 @@ note that the actual results will be returned only for organic, paid, featured_s
 
 #### Defined in
 
-[main.ts:79417](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L79417)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:81794

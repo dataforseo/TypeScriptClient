@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IFoundOnWebElement
+[Documentation](../README.md) / [Exports](../modules.md) / IFoundOnWebElement
 
 # Interface: IFoundOnWebElement
 
@@ -33,10 +29,9 @@ image of the element
 
 #### Defined in
 
-[main.ts:34771](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L34771)
+main.ts:35714
 
 ___
-
 
 ### subtitle
 
@@ -46,23 +41,21 @@ subtitle of the element
 
 #### Defined in
 
-[main.ts:34769](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L34769)
+main.ts:35712
 
 ___
-
 
 ### title
 
 • `Optional` **title**: `string`
 
-title of the row
+title of a given link element
 
 #### Defined in
 
-[main.ts:34767](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L34767)
+main.ts:35710
 
 ___
-
 
 ### type
 
@@ -72,8 +65,4 @@ type of element
 
 #### Defined in
 
-[main.ts:34765](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L34765)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:35708

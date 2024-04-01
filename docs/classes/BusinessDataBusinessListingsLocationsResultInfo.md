@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / BusinessDataBusinessListingsLocationsResultInfo
+[Documentation](../README.md) / [Exports](../modules.md) / BusinessDataBusinessListingsLocationsResultInfo
 
 # Class: BusinessDataBusinessListingsLocationsResultInfo
 
@@ -50,7 +46,7 @@
 
 #### Defined in
 
-[main.ts:187842](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L187842)
+main.ts:193295
 
 ## Properties
 
@@ -66,10 +62,9 @@ number of businesses in this location in our database
 
 #### Defined in
 
-[main.ts:187838](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L187838)
+main.ts:193291
 
 ___
-
 
 ### country\_iso\_code
 
@@ -83,10 +78,9 @@ ISO country code of the location
 
 #### Defined in
 
-[main.ts:187836](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L187836)
+main.ts:193289
 
 ___
-
 
 ### location\_name
 
@@ -100,7 +94,7 @@ full name of the location
 
 #### Defined in
 
-[main.ts:187834](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L187834)
+main.ts:193287
 
 ## Methods
 
@@ -120,10 +114,9 @@ full name of the location
 
 #### Defined in
 
-[main.ts:187851](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L187851)
+main.ts:193304
 
 ___
-
 
 ### toJSON
 
@@ -141,10 +134,9 @@ ___
 
 #### Defined in
 
-[main.ts:187870](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L187870)
+main.ts:193323
 
 ___
-
 
 ### fromJS
 
@@ -162,8 +154,4 @@ ___
 
 #### Defined in
 
-[main.ts:187863](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L187863)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:193316

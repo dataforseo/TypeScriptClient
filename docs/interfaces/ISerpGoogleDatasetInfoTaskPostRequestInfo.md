@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / ISerpGoogleDatasetInfoTaskPostRequestInfo
+[Documentation](../README.md) / [Exports](../modules.md) / ISerpGoogleDatasetInfoTaskPostRequestInfo
 
 # Interface: ISerpGoogleDatasetInfoTaskPostRequestInfo
 
@@ -43,10 +39,9 @@ L2cvMTFqbl85ZHN6MQ==
 
 #### Defined in
 
-[main.ts:51911](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L51911)
+main.ts:54286
 
 ___
-
 
 ### device
 
@@ -58,10 +53,9 @@ possible value: desktop
 
 #### Defined in
 
-[main.ts:51935](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L51935)
+main.ts:54310
 
 ___
-
 
 ### language\_code
 
@@ -75,10 +69,9 @@ en
 
 #### Defined in
 
-[main.ts:51931](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L51931)
+main.ts:54306
 
 ___
-
 
 ### language\_name
 
@@ -92,10 +85,9 @@ English
 
 #### Defined in
 
-[main.ts:51925](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L51925)
+main.ts:54300
 
 ___
-
 
 ### os
 
@@ -108,10 +100,9 @@ default value: windows
 
 #### Defined in
 
-[main.ts:51940](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L51940)
+main.ts:54315
 
 ___
-
 
 ### pingback\_url
 
@@ -129,10 +120,9 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-[main.ts:51971](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L51971)
+main.ts:54346
 
 ___
-
 
 ### postback\_data
 
@@ -145,10 +135,9 @@ possible value: advanced
 
 #### Defined in
 
-[main.ts:51961](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L51961)
+main.ts:54336
 
 ___
-
 
 ### postback\_url
 
@@ -166,10 +155,9 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-[main.ts:51956](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L51956)
+main.ts:54331
 
 ___
-
 
 ### priority
 
@@ -185,10 +173,9 @@ The cost can be calculated on the Pricing page.
 
 #### Defined in
 
-[main.ts:51919](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L51919)
+main.ts:54294
 
 ___
-
 
 ### tag
 
@@ -202,8 +189,4 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-[main.ts:51946](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L51946)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:54321

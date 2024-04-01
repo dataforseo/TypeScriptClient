@@ -1,25 +1,21 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / BaseAppDataSerpElementItem
+[Documentation](../README.md) / [Exports](../modules.md) / BaseAppDataSerpElementItem
 
 # Class: BaseAppDataSerpElementItem
 
 ## Hierarchy
 
 - **`BaseAppDataSerpElementItem`**
-  
+
   ↳ [`AppDataGooglePlaySearchOrganicSerpElementItem`](AppDataGooglePlaySearchOrganicSerpElementItem.md)
-  
+
   ↳ [`AppDataAppStoreSearchOrganicSerpElementItem`](AppDataAppStoreSearchOrganicSerpElementItem.md)
-  
+
   ↳ [`AppDataGooglePlayInfoOrganicSerpElementItem`](AppDataGooglePlayInfoOrganicSerpElementItem.md)
-  
+
   ↳ [`AppDataGooglePlayReviewsSearchSerpElementItem`](AppDataGooglePlayReviewsSearchSerpElementItem.md)
-  
+
   ↳ [`AppDataAppStoreInfoOrganicSerpElementItem`](AppDataAppStoreInfoOrganicSerpElementItem.md)
-  
+
   ↳ [`AppDataAppStoreReviewsSearchSerpElementItem`](AppDataAppStoreReviewsSearchSerpElementItem.md)
 
 ## Implements
@@ -64,7 +60,7 @@
 
 #### Defined in
 
-[main.ts:20452](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L20452)
+main.ts:20971
 
 ## Properties
 
@@ -74,7 +70,7 @@
 
 #### Defined in
 
-[main.ts:20450](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L20450)
+main.ts:20969
 
 ## Methods
 
@@ -94,10 +90,9 @@
 
 #### Defined in
 
-[main.ts:20462](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L20462)
+main.ts:20981
 
 ___
-
 
 ### toJSON
 
@@ -115,10 +110,9 @@ ___
 
 #### Defined in
 
-[main.ts:20508](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L20508)
+main.ts:21027
 
 ___
-
 
 ### fromJS
 
@@ -136,8 +130,4 @@ ___
 
 #### Defined in
 
-[main.ts:20471](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L20471)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:20990

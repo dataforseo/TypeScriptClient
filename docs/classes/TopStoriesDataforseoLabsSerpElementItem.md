@@ -1,15 +1,11 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / TopStoriesDataforseoLabsSerpElementItem
+[Documentation](../README.md) / [Exports](../modules.md) / TopStoriesDataforseoLabsSerpElementItem
 
 # Class: TopStoriesDataforseoLabsSerpElementItem
 
 ## Hierarchy
 
 - [`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md)
-  
+
   ↳ **`TopStoriesDataforseoLabsSerpElementItem`**
 
 ## Implements
@@ -63,7 +59,7 @@
 
 #### Defined in
 
-[main.ts:92609](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L92609)
+main.ts:94986
 
 ## Properties
 
@@ -77,10 +73,9 @@
 
 #### Defined in
 
-[main.ts:19715](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L19715)
+main.ts:20171
 
 ___
-
 
 ### items
 
@@ -95,10 +90,9 @@ if there are none, equals null
 
 #### Defined in
 
-[main.ts:92605](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L92605)
+main.ts:94982
 
 ___
-
 
 ### position
 
@@ -114,10 +108,9 @@ left, right
 
 #### Defined in
 
-[main.ts:92600](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L92600)
+main.ts:94977
 
 ___
-
 
 ### rank\_absolute
 
@@ -132,10 +125,9 @@ absolute position among all the elements in SERP
 
 #### Defined in
 
-[main.ts:92596](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L92596)
+main.ts:94973
 
 ___
-
 
 ### rank\_group
 
@@ -151,10 +143,9 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-[main.ts:92593](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L92593)
+main.ts:94970
 
 ___
-
 
 ### xpath
 
@@ -168,7 +159,7 @@ the XPath of the element
 
 #### Defined in
 
-[main.ts:92602](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L92602)
+main.ts:94979
 
 ## Methods
 
@@ -192,10 +183,9 @@ the XPath of the element
 
 #### Defined in
 
-[main.ts:92614](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L92614)
+main.ts:94991
 
 ___
-
 
 ### toJSON
 
@@ -217,10 +207,9 @@ ___
 
 #### Defined in
 
-[main.ts:92640](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L92640)
+main.ts:95017
 
 ___
-
 
 ### fromJS
 
@@ -242,8 +231,4 @@ ___
 
 #### Defined in
 
-[main.ts:92633](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L92633)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:95010

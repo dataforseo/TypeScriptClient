@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IOnPageSummaryResultInfo
+[Documentation](../README.md) / [Exports](../modules.md) / IOnPageSummaryResultInfo
 
 # Interface: IOnPageSummaryResultInfo
 
@@ -37,10 +33,9 @@ you can find the full list of IPs used by our crawler in the Overview section
 
 #### Defined in
 
-[main.ts:143750](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L143750)
+main.ts:149177
 
 ___
-
 
 ### crawl\_progress
 
@@ -51,10 +46,9 @@ possible values: in_progress, finished
 
 #### Defined in
 
-[main.ts:143744](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L143744)
+main.ts:149171
 
 ___
-
 
 ### crawl\_status
 
@@ -64,10 +58,9 @@ details of the crawling session
 
 #### Defined in
 
-[main.ts:143746](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L143746)
+main.ts:149173
 
 ___
-
 
 ### crawl\_stop\_reason
 
@@ -83,10 +76,9 @@ unexpected_exception – an internal error was encountered while crawling the ta
 
 #### Defined in
 
-[main.ts:143758](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L143758)
+main.ts:149185
 
 ___
-
 
 ### domain\_info
 
@@ -97,10 +89,9 @@ on-page information about the target domain and crawling process
 
 #### Defined in
 
-[main.ts:143761](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L143761)
+main.ts:149188
 
 ___
-
 
 ### page\_metrics
 
@@ -111,8 +102,4 @@ metrics information on the target website pages
 
 #### Defined in
 
-[main.ts:143764](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L143764)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:149191

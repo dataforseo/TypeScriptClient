@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / AmazonDeliveryInfo
+[Documentation](../README.md) / [Exports](../modules.md) / AmazonDeliveryInfo
 
 # Class: AmazonDeliveryInfo
 
@@ -53,7 +49,7 @@
 
 #### Defined in
 
-[main.ts:21159](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L21159)
+main.ts:21678
 
 ## Properties
 
@@ -69,10 +65,9 @@ the earliest date when the product can be shipped
 
 #### Defined in
 
-[main.ts:21145](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L21145)
+main.ts:21664
 
 ___
-
 
 ### delivery\_date\_to
 
@@ -86,10 +81,9 @@ the latest date when the product can be delivered
 
 #### Defined in
 
-[main.ts:21147](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L21147)
+main.ts:21666
 
 ___
-
 
 ### delivery\_message
 
@@ -103,10 +97,9 @@ message accompanying the delivery information as posted by the seller
 
 #### Defined in
 
-[main.ts:21143](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L21143)
+main.ts:21662
 
 ___
-
 
 ### delivery\_price
 
@@ -122,10 +115,9 @@ if free delivery is available, the value is null
 
 #### Defined in
 
-[main.ts:21155](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L21155)
+main.ts:21674
 
 ___
-
 
 ### fastest\_delivery\_date\_from
 
@@ -139,10 +131,9 @@ the earliest date when the product can be delivered with a fast delivery option
 
 #### Defined in
 
-[main.ts:21149](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L21149)
+main.ts:21668
 
 ___
-
 
 ### fastest\_delivery\_date\_to
 
@@ -156,7 +147,7 @@ the latest date when the product can be delivered with a fast delivery option
 
 #### Defined in
 
-[main.ts:21151](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L21151)
+main.ts:21670
 
 ## Methods
 
@@ -176,10 +167,9 @@ the latest date when the product can be delivered with a fast delivery option
 
 #### Defined in
 
-[main.ts:21168](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L21168)
+main.ts:21687
 
 ___
-
 
 ### toJSON
 
@@ -197,10 +187,9 @@ ___
 
 #### Defined in
 
-[main.ts:21190](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L21190)
+main.ts:21709
 
 ___
-
 
 ### fromJS
 
@@ -218,8 +207,4 @@ ___
 
 #### Defined in
 
-[main.ts:21183](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L21183)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:21702

@@ -1,15 +1,11 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IYelpSearchPaidBusinessDataSerpElementItem
+[Documentation](../README.md) / [Exports](../modules.md) / IYelpSearchPaidBusinessDataSerpElementItem
 
 # Interface: IYelpSearchPaidBusinessDataSerpElementItem
 
 ## Hierarchy
 
 - [`IBaseBusinessDataSerpElementItem`](IBaseBusinessDataSerpElementItem.md)
-  
+
   ↳ **`IYelpSearchPaidBusinessDataSerpElementItem`**
 
 ## Implemented by
@@ -53,10 +49,9 @@ displayed only if the request contained the corresponding field
 
 #### Defined in
 
-[main.ts:204388](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L204388)
+main.ts:209849
 
 ___
-
 
 ### business\_highlights
 
@@ -68,10 +63,9 @@ example:
 
 #### Defined in
 
-[main.ts:204417](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L204417)
+main.ts:209878
 
 ___
-
 
 ### business\_url
 
@@ -81,10 +75,9 @@ link to the Yelp profile of the business entity
 
 #### Defined in
 
-[main.ts:204385](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L204385)
+main.ts:209846
 
 ___
-
 
 ### categories
 
@@ -94,10 +87,9 @@ categories related to the business entity
 
 #### Defined in
 
-[main.ts:204407](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L204407)
+main.ts:209868
 
 ___
-
 
 ### description
 
@@ -107,10 +99,9 @@ description containing the featured review
 
 #### Defined in
 
-[main.ts:204392](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L204392)
+main.ts:209853
 
 ___
-
 
 ### is\_guaranteed
 
@@ -120,10 +111,9 @@ Yelp guaranteed label
 
 #### Defined in
 
-[main.ts:204403](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L204403)
+main.ts:209864
 
 ___
-
 
 ### location
 
@@ -133,10 +123,9 @@ information about the location of the business entity
 
 #### Defined in
 
-[main.ts:204394](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L204394)
+main.ts:209855
 
 ___
-
 
 ### name
 
@@ -146,10 +135,9 @@ name of the business entity
 
 #### Defined in
 
-[main.ts:204390](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L204390)
+main.ts:209851
 
 ___
-
 
 ### phone
 
@@ -161,10 +149,9 @@ example:
 
 #### Defined in
 
-[main.ts:204401](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L204401)
+main.ts:209862
 
 ___
-
 
 ### photos
 
@@ -174,10 +161,9 @@ links to photos appearing in the result
 
 #### Defined in
 
-[main.ts:204409](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L204409)
+main.ts:209870
 
 ___
-
 
 ### price\_range
 
@@ -188,10 +174,9 @@ indicates the number of currency signs next to the business listing correspondin
 
 #### Defined in
 
-[main.ts:204397](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L204397)
+main.ts:209858
 
 ___
-
 
 ### rank\_absolute
 
@@ -202,10 +187,9 @@ absolute position among all reviews on the list
 
 #### Defined in
 
-[main.ts:204379](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L204379)
+main.ts:209840
 
 ___
-
 
 ### rank\_group
 
@@ -216,10 +200,9 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-[main.ts:204376](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L204376)
+main.ts:209837
 
 ___
-
 
 ### rating
 
@@ -229,10 +212,9 @@ the rating score submitted by the reviewer
 
 #### Defined in
 
-[main.ts:204405](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L204405)
+main.ts:209866
 
 ___
-
 
 ### service\_offerings
 
@@ -242,10 +224,9 @@ tags corresponding to the availability of certain business offerings
 
 #### Defined in
 
-[main.ts:204419](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L204419)
+main.ts:209880
 
 ___
-
 
 ### tags
 
@@ -257,10 +238,9 @@ example:
 
 #### Defined in
 
-[main.ts:204413](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L204413)
+main.ts:209874
 
 ___
-
 
 ### yelp\_business\_id
 
@@ -272,8 +252,4 @@ example:
 
 #### Defined in
 
-[main.ts:204383](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L204383)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:209844

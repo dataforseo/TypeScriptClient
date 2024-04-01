@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / DomainAnalyticsTechnologiesTechnologyStatsLiveItem
+[Documentation](../README.md) / [Exports](../modules.md) / DomainAnalyticsTechnologiesTechnologyStatsLiveItem
 
 # Class: DomainAnalyticsTechnologiesTechnologyStatsLiveItem
 
@@ -55,7 +51,7 @@ items array
 
 #### Defined in
 
-[main.ts:73617](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L73617)
+main.ts:75994
 
 ## Properties
 
@@ -76,10 +72,9 @@ contains country codes and number of websites per country
 
 #### Defined in
 
-[main.ts:73606](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L73606)
+main.ts:75983
 
 ___
-
 
 ### date
 
@@ -93,10 +88,9 @@ date for which the data is provided
 
 #### Defined in
 
-[main.ts:73601](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L73601)
+main.ts:75978
 
 ___
-
 
 ### domains\_count
 
@@ -110,10 +104,9 @@ number of domains that use the specified technology
 
 #### Defined in
 
-[main.ts:73603](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L73603)
+main.ts:75980
 
 ___
-
 
 ### domains\_rank
 
@@ -133,10 +126,9 @@ learn more about rank and how it is calculated in this help center article
 
 #### Defined in
 
-[main.ts:73613](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L73613)
+main.ts:75990
 
 ___
-
 
 ### languages
 
@@ -155,10 +147,9 @@ contains language codes and number of websites per language
 
 #### Defined in
 
-[main.ts:73609](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L73609)
+main.ts:75986
 
 ___
-
 
 ### type
 
@@ -172,7 +163,7 @@ type of element
 
 #### Defined in
 
-[main.ts:73599](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L73599)
+main.ts:75976
 
 ## Methods
 
@@ -192,10 +183,9 @@ type of element
 
 #### Defined in
 
-[main.ts:73626](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L73626)
+main.ts:76003
 
 ___
-
 
 ### toJSON
 
@@ -213,10 +203,9 @@ ___
 
 #### Defined in
 
-[main.ts:73666](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L73666)
+main.ts:76043
 
 ___
-
 
 ### fromJS
 
@@ -234,8 +223,4 @@ ___
 
 #### Defined in
 
-[main.ts:73659](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L73659)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:76036

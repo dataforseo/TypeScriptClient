@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IBusinessListingAggregationInfo
+[Documentation](../README.md) / [Exports](../modules.md) / IBusinessListingAggregationInfo
 
 # Interface: IBusinessListingAggregationInfo
 
@@ -35,10 +31,9 @@ number of unique entities
 
 #### Defined in
 
-[main.ts:189883](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L189883)
+main.ts:195336
 
 ___
-
 
 ### top\_attributes
 
@@ -53,10 +48,9 @@ service details of a business entity displayed in a form of checks and the numbe
 
 #### Defined in
 
-[main.ts:189886](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L189886)
+main.ts:195339
 
 ___
-
 
 ### top\_categories
 
@@ -71,10 +65,9 @@ top categories displayed with the number of businesses in each category
 
 #### Defined in
 
-[main.ts:189876](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L189876)
+main.ts:195329
 
 ___
-
 
 ### top\_countries
 
@@ -89,10 +82,9 @@ country codes with the biggest number of businesses in the category
 
 #### Defined in
 
-[main.ts:189879](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L189879)
+main.ts:195332
 
 ___
-
 
 ### top\_place\_topics
 
@@ -107,10 +99,9 @@ contains most popular keywords related to products/services mentioned in custome
 
 #### Defined in
 
-[main.ts:189889](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L189889)
+main.ts:195342
 
 ___
-
 
 ### websites\_count
 
@@ -120,8 +111,4 @@ number of unique websites
 
 #### Defined in
 
-[main.ts:189881](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L189881)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:195334

@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / DomainAnalyticsTechnologiesAggregationTechnologiesLiveRequestInfo
+[Documentation](../README.md) / [Exports](../modules.md) / DomainAnalyticsTechnologiesAggregationTechnologiesLiveRequestInfo
 
 # Class: DomainAnalyticsTechnologiesAggregationTechnologiesLiveRequestInfo
 
@@ -61,7 +57,7 @@
 
 #### Defined in
 
-[main.ts:72535](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L72535)
+main.ts:74912
 
 ## Properties
 
@@ -81,10 +77,9 @@ example:
 
 #### Defined in
 
-[main.ts:72440](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L72440)
+main.ts:74817
 
 ___
-
 
 ### filters
 
@@ -109,10 +104,9 @@ example:
 
 #### Defined in
 
-[main.ts:72473](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L72473)
+main.ts:74850
 
 ___
-
 
 ### group
 
@@ -130,10 +124,9 @@ example:
 
 #### Defined in
 
-[main.ts:72434](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L72434)
+main.ts:74811
 
 ___
-
 
 ### internal\_categories\_list\_limit
 
@@ -151,10 +144,9 @@ maximum value: 10000
 
 #### Defined in
 
-[main.ts:72501](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L72501)
+main.ts:74878
 
 ___
-
 
 ### internal\_groups\_list\_limit
 
@@ -172,10 +164,9 @@ maximum value: 10000
 
 #### Defined in
 
-[main.ts:72495](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L72495)
+main.ts:74872
 
 ___
-
 
 ### internal\_list\_limit
 
@@ -194,10 +185,9 @@ maximum value: 10000
 
 #### Defined in
 
-[main.ts:72514](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L72514)
+main.ts:74891
 
 ___
-
 
 ### internal\_technologies\_list\_limit
 
@@ -215,10 +205,9 @@ maximum value: 10000
 
 #### Defined in
 
-[main.ts:72507](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L72507)
+main.ts:74884
 
 ___
-
 
 ### keyword
 
@@ -237,10 +226,9 @@ example:
 
 #### Defined in
 
-[main.ts:72453](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L72453)
+main.ts:74830
 
 ___
-
 
 ### limit
 
@@ -257,10 +245,9 @@ maximum value: 10000
 
 #### Defined in
 
-[main.ts:72519](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L72519)
+main.ts:74896
 
 ___
-
 
 ### mode
 
@@ -279,10 +266,9 @@ default value: as_is
 
 #### Defined in
 
-[main.ts:72460](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L72460)
+main.ts:74837
 
 ___
-
 
 ### offset
 
@@ -300,10 +286,9 @@ if you specify the 10 value, the first ten technologies in the results array wil
 
 #### Defined in
 
-[main.ts:72525](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L72525)
+main.ts:74902
 
 ___
-
 
 ### order\_by
 
@@ -331,10 +316,9 @@ default value:
 
 #### Defined in
 
-[main.ts:72489](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L72489)
+main.ts:74866
 
 ___
-
 
 ### tag
 
@@ -352,10 +336,9 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-[main.ts:72531](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L72531)
+main.ts:74908
 
 ___
-
 
 ### technology
 
@@ -373,7 +356,7 @@ example:
 
 #### Defined in
 
-[main.ts:72446](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L72446)
+main.ts:74823
 
 ## Methods
 
@@ -393,10 +376,9 @@ example:
 
 #### Defined in
 
-[main.ts:72544](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L72544)
+main.ts:74921
 
 ___
-
 
 ### toJSON
 
@@ -414,10 +396,9 @@ ___
 
 #### Defined in
 
-[main.ts:72582](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L72582)
+main.ts:74959
 
 ___
-
 
 ### fromJS
 
@@ -435,8 +416,4 @@ ___
 
 #### Defined in
 
-[main.ts:72575](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L72575)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:74952

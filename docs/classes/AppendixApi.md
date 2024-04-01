@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / AppendixApi
+[Documentation](../README.md) / [Exports](../modules.md) / AppendixApi
 
 # Class: AppendixApi
 
@@ -49,7 +45,7 @@
 
 #### Defined in
 
-[main.ts:19174](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L19174)
+main.ts:19625
 
 ## Properties
 
@@ -59,10 +55,9 @@
 
 #### Defined in
 
-[main.ts:19171](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L19171)
+main.ts:19622
 
 ___
-
 
 ### http
 
@@ -76,10 +71,9 @@ ___
 
 #### Defined in
 
-[main.ts:19170](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L19170)
+main.ts:19621
 
 ___
-
 
 ### jsonParseReviver
 
@@ -102,7 +96,7 @@ ___
 
 #### Defined in
 
-[main.ts:19172](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L19172)
+main.ts:19623
 
 ## Methods
 
@@ -118,10 +112,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:19219](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L19219)
+main.ts:19670
 
 ___
-
 
 ### appendixStatus
 
@@ -135,10 +128,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:19298](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L19298)
+main.ts:19749
 
 ___
-
 
 ### processAppendixErrors
 
@@ -156,10 +148,9 @@ ___
 
 #### Defined in
 
-[main.ts:19235](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L19235)
+main.ts:19686
 
 ___
-
 
 ### processAppendixStatus
 
@@ -177,10 +168,9 @@ ___
 
 #### Defined in
 
-[main.ts:19314](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L19314)
+main.ts:19765
 
 ___
-
 
 ### processUserData
 
@@ -198,10 +188,9 @@ ___
 
 #### Defined in
 
-[main.ts:19198](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L19198)
+main.ts:19649
 
 ___
-
 
 ### processWebhookResend
 
@@ -219,10 +208,9 @@ ___
 
 #### Defined in
 
-[main.ts:19277](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L19277)
+main.ts:19728
 
 ___
-
 
 ### userData
 
@@ -236,10 +224,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:19182](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L19182)
+main.ts:19633
 
 ___
-
 
 ### webhookResend
 
@@ -259,8 +246,4 @@ Successful operation
 
 #### Defined in
 
-[main.ts:19257](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L19257)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:19708

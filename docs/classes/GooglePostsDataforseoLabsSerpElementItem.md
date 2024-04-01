@@ -1,15 +1,11 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / GooglePostsDataforseoLabsSerpElementItem
+[Documentation](../README.md) / [Exports](../modules.md) / GooglePostsDataforseoLabsSerpElementItem
 
 # Class: GooglePostsDataforseoLabsSerpElementItem
 
 ## Hierarchy
 
 - [`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md)
-  
+
   ↳ **`GooglePostsDataforseoLabsSerpElementItem`**
 
 ## Implements
@@ -65,7 +61,7 @@
 
 #### Defined in
 
-[main.ts:94381](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L94381)
+main.ts:96758
 
 ## Properties
 
@@ -79,10 +75,9 @@
 
 #### Defined in
 
-[main.ts:19715](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L19715)
+main.ts:20171
 
 ___
-
 
 ### cid
 
@@ -96,10 +91,9 @@ google-defined client id
 
 #### Defined in
 
-[main.ts:94377](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L94377)
+main.ts:96754
 
 ___
-
 
 ### feature
 
@@ -113,10 +107,9 @@ the additional feature of the review
 
 #### Defined in
 
-[main.ts:94375](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L94375)
+main.ts:96752
 
 ___
-
 
 ### position
 
@@ -132,10 +125,9 @@ left, right
 
 #### Defined in
 
-[main.ts:94369](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L94369)
+main.ts:96746
 
 ___
-
 
 ### posts\_id
 
@@ -149,10 +141,9 @@ the identifier of the google_posts feature
 
 #### Defined in
 
-[main.ts:94373](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L94373)
+main.ts:96750
 
 ___
-
 
 ### rank\_absolute
 
@@ -167,10 +158,9 @@ absolute position among all the elements in SERP
 
 #### Defined in
 
-[main.ts:94365](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L94365)
+main.ts:96742
 
 ___
-
 
 ### rank\_group
 
@@ -185,10 +175,9 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-[main.ts:94362](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L94362)
+main.ts:96739
 
 ___
-
 
 ### xpath
 
@@ -202,7 +191,7 @@ the XPath of the element
 
 #### Defined in
 
-[main.ts:94371](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L94371)
+main.ts:96748
 
 ## Methods
 
@@ -226,10 +215,9 @@ the XPath of the element
 
 #### Defined in
 
-[main.ts:94386](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L94386)
+main.ts:96763
 
 ___
-
 
 ### toJSON
 
@@ -251,10 +239,9 @@ ___
 
 #### Defined in
 
-[main.ts:94410](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L94410)
+main.ts:96787
 
 ___
-
 
 ### fromJS
 
@@ -276,8 +263,4 @@ ___
 
 #### Defined in
 
-[main.ts:94403](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L94403)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:96780

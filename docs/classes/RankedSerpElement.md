@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / RankedSerpElement
+[Documentation](../README.md) / [Exports](../modules.md) / RankedSerpElement
 
 # Class: RankedSerpElement
 
@@ -56,7 +52,7 @@
 
 #### Defined in
 
-[main.ts:86936](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L86936)
+main.ts:89313
 
 ## Properties
 
@@ -73,10 +69,9 @@ you can use it to make sure that we provided accurate results
 
 #### Defined in
 
-[main.ts:86906](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L86906)
+main.ts:89283
 
 ___
-
 
 ### is\_lost
 
@@ -91,10 +86,9 @@ indicates how many ranked elements of this domain were previously presented in S
 
 #### Defined in
 
-[main.ts:86922](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L86922)
+main.ts:89299
 
 ___
-
 
 ### keyword\_difficulty
 
@@ -111,10 +105,9 @@ learn more about the metric in this help center guide
 
 #### Defined in
 
-[main.ts:86919](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L86919)
+main.ts:89296
 
 ___
-
 
 ### last\_updated\_time
 
@@ -131,10 +124,9 @@ example:
 
 #### Defined in
 
-[main.ts:86927](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L86927)
+main.ts:89304
 
 ___
-
 
 ### previous\_updated\_time
 
@@ -151,10 +143,9 @@ example:
 
 #### Defined in
 
-[main.ts:86932](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L86932)
+main.ts:89309
 
 ___
-
 
 ### se\_results\_count
 
@@ -168,10 +159,9 @@ number of search results for the returned keyword
 
 #### Defined in
 
-[main.ts:86914](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L86914)
+main.ts:89291
 
 ___
-
 
 ### se\_type
 
@@ -185,10 +175,9 @@ search engine type
 
 #### Defined in
 
-[main.ts:86900](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L86900)
+main.ts:89277
 
 ___
-
 
 ### serp\_item
 
@@ -203,10 +192,9 @@ the list of supported SERP elements can be found below
 
 #### Defined in
 
-[main.ts:86903](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L86903)
+main.ts:89280
 
 ___
-
 
 ### serp\_item\_types
 
@@ -224,7 +212,7 @@ note that the actual results will be returned only for organic, paid, featured_s
 
 #### Defined in
 
-[main.ts:86912](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L86912)
+main.ts:89289
 
 ## Methods
 
@@ -244,10 +232,9 @@ note that the actual results will be returned only for organic, paid, featured_s
 
 #### Defined in
 
-[main.ts:86945](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L86945)
+main.ts:89322
 
 ___
-
 
 ### toJSON
 
@@ -265,10 +252,9 @@ ___
 
 #### Defined in
 
-[main.ts:86974](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L86974)
+main.ts:89351
 
 ___
-
 
 ### fromJS
 
@@ -286,8 +272,4 @@ ___
 
 #### Defined in
 
-[main.ts:86967](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L86967)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:89344

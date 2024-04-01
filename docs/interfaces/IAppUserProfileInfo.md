@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IAppUserProfileInfo
+[Documentation](../README.md) / [Exports](../modules.md) / IAppUserProfileInfo
 
 # Interface: IAppUserProfileInfo
 
@@ -31,10 +27,9 @@ URL to the reviewer’s profile image
 
 #### Defined in
 
-[main.ts:181205](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L181205)
+main.ts:186658
 
 ___
-
 
 ### profile\_name
 
@@ -44,8 +39,4 @@ profile name of the reviewer
 
 #### Defined in
 
-[main.ts:181203](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L181203)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:186656

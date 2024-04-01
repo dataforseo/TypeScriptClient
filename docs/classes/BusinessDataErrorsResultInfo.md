@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / BusinessDataErrorsResultInfo
+[Documentation](../README.md) / [Exports](../modules.md) / BusinessDataErrorsResultInfo
 
 # Class: BusinessDataErrorsResultInfo
 
@@ -57,7 +53,7 @@
 
 #### Defined in
 
-[main.ts:187635](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L187635)
+main.ts:193088
 
 ## Properties
 
@@ -76,10 +72,9 @@ example:
 
 #### Defined in
 
-[main.ts:187611](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L187611)
+main.ts:193064
 
 ___
-
 
 ### error\_code
 
@@ -93,10 +88,9 @@ error code
 
 #### Defined in
 
-[main.ts:187615](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L187615)
+main.ts:193068
 
 ___
-
 
 ### error\_message
 
@@ -111,10 +105,9 @@ error message (see full list) or URL that caused an error
 
 #### Defined in
 
-[main.ts:187618](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L187618)
+main.ts:193071
 
 ___
-
 
 ### function
 
@@ -128,10 +121,9 @@ corresponding API function
 
 #### Defined in
 
-[main.ts:187613](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L187613)
+main.ts:193066
 
 ___
-
 
 ### http\_code
 
@@ -145,10 +137,9 @@ HTTP status code
 
 #### Defined in
 
-[main.ts:187625](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L187625)
+main.ts:193078
 
 ___
-
 
 ### http\_method
 
@@ -162,10 +153,9 @@ HTTP method
 
 #### Defined in
 
-[main.ts:187623](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L187623)
+main.ts:193076
 
 ___
-
 
 ### http\_response
 
@@ -180,10 +170,9 @@ server response
 
 #### Defined in
 
-[main.ts:187631](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L187631)
+main.ts:193084
 
 ___
-
 
 ### http\_time
 
@@ -198,10 +187,9 @@ for tasks set with a pingback/postback, this field will show the time it took yo
 
 #### Defined in
 
-[main.ts:187628](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L187628)
+main.ts:193081
 
 ___
-
 
 ### http\_url
 
@@ -216,10 +204,9 @@ URL you used for making an API call or pingback/postback URL
 
 #### Defined in
 
-[main.ts:187621](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L187621)
+main.ts:193074
 
 ___
-
 
 ### id
 
@@ -233,7 +220,7 @@ id of the task
 
 #### Defined in
 
-[main.ts:187606](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L187606)
+main.ts:193059
 
 ## Methods
 
@@ -253,10 +240,9 @@ id of the task
 
 #### Defined in
 
-[main.ts:187644](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L187644)
+main.ts:193097
 
 ___
-
 
 ### toJSON
 
@@ -274,10 +260,9 @@ ___
 
 #### Defined in
 
-[main.ts:187670](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L187670)
+main.ts:193123
 
 ___
-
 
 ### fromJS
 
@@ -295,8 +280,4 @@ ___
 
 #### Defined in
 
-[main.ts:187663](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L187663)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:193116

@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / BusinessDataGoogleReviewsTaskGetResultInfo
+[Documentation](../README.md) / [Exports](../modules.md) / BusinessDataGoogleReviewsTaskGetResultInfo
 
 # Class: BusinessDataGoogleReviewsTaskGetResultInfo
 
@@ -63,7 +59,7 @@
 
 #### Defined in
 
-[main.ts:198428](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L198428)
+main.ts:203889
 
 ## Properties
 
@@ -80,10 +76,9 @@ you can use it to make sure that we provided accurate results
 
 #### Defined in
 
-[main.ts:198392](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L198392)
+main.ts:203853
 
 ___
-
 
 ### cid
 
@@ -99,10 +94,9 @@ learn more about the identifier in this help center article
 
 #### Defined in
 
-[main.ts:198416](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L198416)
+main.ts:203877
 
 ___
-
 
 ### datetime
 
@@ -119,10 +113,9 @@ example:
 
 #### Defined in
 
-[main.ts:198397](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L198397)
+main.ts:203858
 
 ___
-
 
 ### feature\_id
 
@@ -137,10 +130,9 @@ learn more about the identifier in this help center article
 
 #### Defined in
 
-[main.ts:198409](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L198409)
+main.ts:203870
 
 ___
-
 
 ### items
 
@@ -155,10 +147,9 @@ you can get more results by using the depth parameter when setting a task
 
 #### Defined in
 
-[main.ts:198424](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L198424)
+main.ts:203885
 
 ___
-
 
 ### items\_count
 
@@ -173,10 +164,9 @@ you can get more results by using the depth parameter when setting a task
 
 #### Defined in
 
-[main.ts:198421](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L198421)
+main.ts:203882
 
 ___
-
 
 ### keyword
 
@@ -191,10 +181,9 @@ keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a s
 
 #### Defined in
 
-[main.ts:198381](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L198381)
+main.ts:203842
 
 ___
-
 
 ### language\_code
 
@@ -208,10 +197,9 @@ language code in a POST array
 
 #### Defined in
 
-[main.ts:198389](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L198389)
+main.ts:203850
 
 ___
-
 
 ### location\_code
 
@@ -225,10 +213,9 @@ location code in a POST array
 
 #### Defined in
 
-[main.ts:198387](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L198387)
+main.ts:203848
 
 ___
-
 
 ### place\_id
 
@@ -243,10 +230,9 @@ learn more about the identifier in this help center article
 
 #### Defined in
 
-[main.ts:198412](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L198412)
+main.ts:203873
 
 ___
-
 
 ### rating
 
@@ -261,10 +247,9 @@ popularity rate based on reviews and displayed in SERP
 
 #### Defined in
 
-[main.ts:198406](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L198406)
+main.ts:203867
 
 ___
-
 
 ### reviews\_count
 
@@ -278,10 +263,9 @@ the total number of reviews
 
 #### Defined in
 
-[main.ts:198418](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L198418)
+main.ts:203879
 
 ___
-
 
 ### se\_domain
 
@@ -295,10 +279,9 @@ search engine domain in a POST array
 
 #### Defined in
 
-[main.ts:198385](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L198385)
+main.ts:203846
 
 ___
-
 
 ### sub\_title
 
@@ -313,10 +296,9 @@ additional information (e.g., address) on the ‘reviews’ element for which th
 
 #### Defined in
 
-[main.ts:198403](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L198403)
+main.ts:203864
 
 ___
-
 
 ### title
 
@@ -331,10 +313,9 @@ the name of the local establishment for which the reviews are collected
 
 #### Defined in
 
-[main.ts:198400](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L198400)
+main.ts:203861
 
 ___
-
 
 ### type
 
@@ -348,7 +329,7 @@ type of element
 
 #### Defined in
 
-[main.ts:198383](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L198383)
+main.ts:203844
 
 ## Methods
 
@@ -368,10 +349,9 @@ type of element
 
 #### Defined in
 
-[main.ts:198437](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L198437)
+main.ts:203898
 
 ___
-
 
 ### toJSON
 
@@ -389,10 +369,9 @@ ___
 
 #### Defined in
 
-[main.ts:198473](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L198473)
+main.ts:203934
 
 ___
-
 
 ### fromJS
 
@@ -410,8 +389,4 @@ ___
 
 #### Defined in
 
-[main.ts:198466](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L198466)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:203927

@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / TopicInfo
+[Documentation](../README.md) / [Exports](../modules.md) / TopicInfo
 
 # Class: TopicInfo
 
@@ -54,7 +50,7 @@
 
 #### Defined in
 
-[main.ts:152107](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L152107)
+main.ts:157534
 
 ## Properties
 
@@ -70,10 +66,9 @@ content author name
 
 #### Defined in
 
-[main.ts:152093](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L152093)
+main.ts:157520
 
 ___
-
 
 ### h\_title
 
@@ -87,10 +82,9 @@ meta title
 
 #### Defined in
 
-[main.ts:152089](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L152089)
+main.ts:157516
 
 ___
-
 
 ### language
 
@@ -104,10 +98,9 @@ content language
 
 #### Defined in
 
-[main.ts:152095](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L152095)
+main.ts:157522
 
 ___
-
 
 ### level
 
@@ -121,10 +114,9 @@ HTML level
 
 #### Defined in
 
-[main.ts:152097](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L152097)
+main.ts:157524
 
 ___
-
 
 ### main\_title
 
@@ -138,10 +130,9 @@ main title of the block
 
 #### Defined in
 
-[main.ts:152091](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L152091)
+main.ts:157518
 
 ___
-
 
 ### primary\_content
 
@@ -156,10 +147,9 @@ you can find more information about content priority calculation in this help ce
 
 #### Defined in
 
-[main.ts:152100](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L152100)
+main.ts:157527
 
 ___
-
 
 ### secondary\_content
 
@@ -174,7 +164,7 @@ you can find more information about content priority calculation in this help ce
 
 #### Defined in
 
-[main.ts:152103](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L152103)
+main.ts:157530
 
 ## Methods
 
@@ -194,10 +184,9 @@ you can find more information about content priority calculation in this help ce
 
 #### Defined in
 
-[main.ts:152116](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L152116)
+main.ts:157543
 
 ___
-
 
 ### toJSON
 
@@ -215,10 +204,9 @@ ___
 
 #### Defined in
 
-[main.ts:152147](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L152147)
+main.ts:157574
 
 ___
-
 
 ### fromJS
 
@@ -236,8 +224,4 @@ ___
 
 #### Defined in
 
-[main.ts:152140](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L152140)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:157567

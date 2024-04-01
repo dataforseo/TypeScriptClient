@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IKnowledgeGraphListElement
+[Documentation](../README.md) / [Exports](../modules.md) / IKnowledgeGraphListElement
 
 # Interface: IKnowledgeGraphListElement
 
@@ -36,10 +32,9 @@ domain in SERP
 
 #### Defined in
 
-[main.ts:26190](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L26190)
+main.ts:26709
 
 ___
-
 
 ### image\_url
 
@@ -50,10 +45,9 @@ the URL leading to the image on the original resource or DataForSEO storage (in 
 
 #### Defined in
 
-[main.ts:26193](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L26193)
+main.ts:26712
 
 ___
-
 
 ### subtitle
 
@@ -63,10 +57,9 @@ subtitle of the item
 
 #### Defined in
 
-[main.ts:26186](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L26186)
+main.ts:26705
 
 ___
-
 
 ### title
 
@@ -76,10 +69,9 @@ link anchor text
 
 #### Defined in
 
-[main.ts:26184](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L26184)
+main.ts:26703
 
 ___
-
 
 ### type
 
@@ -89,10 +81,9 @@ type of element
 
 #### Defined in
 
-[main.ts:26182](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L26182)
+main.ts:26701
 
 ___
-
 
 ### url
 
@@ -102,10 +93,9 @@ sitelink URL
 
 #### Defined in
 
-[main.ts:26188](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L26188)
+main.ts:26707
 
 ___
-
 
 ### xpath
 
@@ -115,8 +105,4 @@ the XPath of the element
 
 #### Defined in
 
-[main.ts:26195](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L26195)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:26714

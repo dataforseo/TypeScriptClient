@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IBacklinksTimeseriesSummaryLiveItem
+[Documentation](../README.md) / [Exports](../modules.md) / IBacklinksTimeseriesSummaryLiveItem
 
 # Interface: IBacklinksTimeseriesSummaryLiveItem
 
@@ -28,6 +24,7 @@
 - [referring\_main\_domains](IBacklinksTimeseriesSummaryLiveItem.md#referring_main_domains)
 - [referring\_main\_domains\_nofollow](IBacklinksTimeseriesSummaryLiveItem.md#referring_main_domains_nofollow)
 - [referring\_pages](IBacklinksTimeseriesSummaryLiveItem.md#referring_pages)
+- [referring\_pages\_nofollow](IBacklinksTimeseriesSummaryLiveItem.md#referring_pages_nofollow)
 - [referring\_subnets](IBacklinksTimeseriesSummaryLiveItem.md#referring_subnets)
 - [type](IBacklinksTimeseriesSummaryLiveItem.md#type)
 
@@ -41,10 +38,9 @@ number of backlinks for the given date
 
 #### Defined in
 
-[main.ts:138600](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L138600)
+main.ts:144025
 
 ___
-
 
 ### backlinks\_nofollow
 
@@ -54,10 +50,9 @@ number of nofollow backlinks for the given date
 
 #### Defined in
 
-[main.ts:138602](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L138602)
+main.ts:144027
 
 ___
-
 
 ### date
 
@@ -70,10 +65,9 @@ example:
 
 #### Defined in
 
-[main.ts:138595](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L138595)
+main.ts:144020
 
 ___
-
 
 ### rank
 
@@ -84,10 +78,9 @@ learn more about the metric and how it is calculated in this help center article
 
 #### Defined in
 
-[main.ts:138598](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L138598)
+main.ts:144023
 
 ___
-
 
 ### referring\_domains
 
@@ -98,10 +91,9 @@ referring domains include subdomains that are counted as separate domains for th
 
 #### Defined in
 
-[main.ts:138607](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L138607)
+main.ts:144034
 
 ___
-
 
 ### referring\_domains\_nofollow
 
@@ -111,10 +103,9 @@ number of domains pointing at least one nofollow link to the target for the give
 
 #### Defined in
 
-[main.ts:138609](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L138609)
+main.ts:144036
 
 ___
-
 
 ### referring\_ips
 
@@ -125,10 +116,9 @@ number of IP addresses pointing to this page
 
 #### Defined in
 
-[main.ts:138616](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L138616)
+main.ts:144043
 
 ___
-
 
 ### referring\_main\_domains
 
@@ -138,10 +128,9 @@ number of referring main domains for the given date
 
 #### Defined in
 
-[main.ts:138611](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L138611)
+main.ts:144038
 
 ___
-
 
 ### referring\_main\_domains\_nofollow
 
@@ -151,10 +140,9 @@ number of main domains pointing at least one nofollow link to the target for the
 
 #### Defined in
 
-[main.ts:138613](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L138613)
+main.ts:144040
 
 ___
-
 
 ### referring\_pages
 
@@ -164,10 +152,21 @@ number of pages pointing to target for the given date
 
 #### Defined in
 
-[main.ts:138604](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L138604)
+main.ts:144029
 
 ___
 
+### referring\_pages\_nofollow
+
+• `Optional` **referring\_pages\_nofollow**: `number`
+
+number of referring pages pointing at least one nofollow link to the target for the given date
+
+#### Defined in
+
+main.ts:144031
+
+___
 
 ### referring\_subnets
 
@@ -177,10 +176,9 @@ number of referring subnetworks for the given date
 
 #### Defined in
 
-[main.ts:138618](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L138618)
+main.ts:144045
 
 ___
-
 
 ### type
 
@@ -190,8 +188,4 @@ type of element
 
 #### Defined in
 
-[main.ts:138590](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L138590)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:144015

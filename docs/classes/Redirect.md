@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / Redirect
+[Documentation](../README.md) / [Exports](../modules.md) / Redirect
 
 # Class: Redirect
 
@@ -50,7 +46,7 @@
 
 #### Defined in
 
-[main.ts:130955](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L130955)
+main.ts:136340
 
 ## Properties
 
@@ -66,10 +62,9 @@ HTTP status code of the URL
 
 #### Defined in
 
-[main.ts:130949](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L130949)
+main.ts:136334
 
 ___
-
 
 ### type
 
@@ -83,10 +78,9 @@ type of element
 
 #### Defined in
 
-[main.ts:130947](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L130947)
+main.ts:136332
 
 ___
-
 
 ### url
 
@@ -100,7 +94,7 @@ indirect link URL
 
 #### Defined in
 
-[main.ts:130951](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L130951)
+main.ts:136336
 
 ## Methods
 
@@ -120,10 +114,9 @@ indirect link URL
 
 #### Defined in
 
-[main.ts:130964](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L130964)
+main.ts:136349
 
 ___
-
 
 ### toJSON
 
@@ -141,10 +134,9 @@ ___
 
 #### Defined in
 
-[main.ts:130983](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L130983)
+main.ts:136368
 
 ___
-
 
 ### fromJS
 
@@ -162,8 +154,4 @@ ___
 
 #### Defined in
 
-[main.ts:130976](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L130976)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:136361

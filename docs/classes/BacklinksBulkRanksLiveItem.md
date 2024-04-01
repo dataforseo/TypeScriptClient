@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / BacklinksBulkRanksLiveItem
+[Documentation](../README.md) / [Exports](../modules.md) / BacklinksBulkRanksLiveItem
 
 # Class: BacklinksBulkRanksLiveItem
 
@@ -49,7 +45,7 @@
 
 #### Defined in
 
-[main.ts:139413](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L139413)
+main.ts:144840
 
 ## Properties
 
@@ -67,10 +63,9 @@ learn more about the metric and how it is calculated in this help center article
 
 #### Defined in
 
-[main.ts:139409](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L139409)
+main.ts:144836
 
 ___
-
 
 ### target
 
@@ -84,7 +79,7 @@ domain, subdomain or webpage from a POST array
 
 #### Defined in
 
-[main.ts:139405](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L139405)
+main.ts:144832
 
 ## Methods
 
@@ -104,10 +99,9 @@ domain, subdomain or webpage from a POST array
 
 #### Defined in
 
-[main.ts:139422](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L139422)
+main.ts:144849
 
 ___
-
 
 ### toJSON
 
@@ -125,10 +119,9 @@ ___
 
 #### Defined in
 
-[main.ts:139440](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L139440)
+main.ts:144867
 
 ___
-
 
 ### fromJS
 
@@ -146,8 +139,4 @@ ___
 
 #### Defined in
 
-[main.ts:139433](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L139433)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:144860

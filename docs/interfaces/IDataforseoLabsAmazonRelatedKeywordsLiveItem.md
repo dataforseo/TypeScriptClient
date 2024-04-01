@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IDataforseoLabsAmazonRelatedKeywordsLiveItem
+[Documentation](../README.md) / [Exports](../modules.md) / IDataforseoLabsAmazonRelatedKeywordsLiveItem
 
 # Interface: IDataforseoLabsAmazonRelatedKeywordsLiveItem
 
@@ -33,10 +29,9 @@ keyword search depth
 
 #### Defined in
 
-[main.ts:99352](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L99352)
+main.ts:101729
 
 ___
-
 
 ### keyword\_data
 
@@ -46,10 +41,9 @@ keyword data for the returned keyword
 
 #### Defined in
 
-[main.ts:99350](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L99350)
+main.ts:101727
 
 ___
-
 
 ### related\_keywords
 
@@ -60,10 +54,9 @@ represents the list of search queries which are related to the keyword returned 
 
 #### Defined in
 
-[main.ts:99355](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L99355)
+main.ts:101732
 
 ___
-
 
 ### se\_type
 
@@ -73,8 +66,4 @@ search engine type
 
 #### Defined in
 
-[main.ts:99348](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L99348)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:101725

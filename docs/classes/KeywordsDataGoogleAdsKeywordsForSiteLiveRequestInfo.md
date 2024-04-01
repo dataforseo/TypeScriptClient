@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / KeywordsDataGoogleAdsKeywordsForSiteLiveRequestInfo
+[Documentation](../README.md) / [Exports](../modules.md) / KeywordsDataGoogleAdsKeywordsForSiteLiveRequestInfo
 
 # Class: KeywordsDataGoogleAdsKeywordsForSiteLiveRequestInfo
 
@@ -60,7 +56,7 @@
 
 #### Defined in
 
-[main.ts:115437](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L115437)
+main.ts:117814
 
 ## Properties
 
@@ -82,10 +78,9 @@ if Status endpoint returns true in the actual_data field, date_from can be set t
 
 #### Defined in
 
-[main.ts:115408](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L115408)
+main.ts:117785
 
 ___
-
 
 ### date\_to
 
@@ -105,10 +100,9 @@ example:
 
 #### Defined in
 
-[main.ts:115416](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L115416)
+main.ts:117793
 
 ___
-
 
 ### include\_adult\_keywords
 
@@ -126,10 +120,9 @@ note that the API may return no data for such keywords due to Google Ads restric
 
 #### Defined in
 
-[main.ts:115422](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L115422)
+main.ts:117799
 
 ___
-
 
 ### language\_code
 
@@ -147,10 +140,9 @@ en
 
 #### Defined in
 
-[main.ts:115395](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L115395)
+main.ts:117772
 
 ___
-
 
 ### language\_name
 
@@ -168,10 +160,9 @@ English
 
 #### Defined in
 
-[main.ts:115389](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L115389)
+main.ts:117766
 
 ___
-
 
 ### location\_code
 
@@ -191,10 +182,9 @@ example:
 
 #### Defined in
 
-[main.ts:115374](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L115374)
+main.ts:117751
 
 ___
-
 
 ### location\_coordinate
 
@@ -215,10 +205,9 @@ example:
 
 #### Defined in
 
-[main.ts:115383](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L115383)
+main.ts:117760
 
 ___
-
 
 ### location\_name
 
@@ -238,10 +227,9 @@ London,England,United Kingdom
 
 #### Defined in
 
-[main.ts:115366](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L115366)
+main.ts:117743
 
 ___
-
 
 ### search\_partners
 
@@ -258,10 +246,9 @@ default value: false – results are returned for Google search sites
 
 #### Defined in
 
-[main.ts:115400](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L115400)
+main.ts:117777
 
 ___
-
 
 ### sort\_by
 
@@ -278,10 +265,9 @@ default value: relevance
 
 #### Defined in
 
-[main.ts:115427](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L115427)
+main.ts:117804
 
 ___
-
 
 ### tag
 
@@ -299,10 +285,9 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-[main.ts:115433](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L115433)
+main.ts:117810
 
 ___
-
 
 ### target
 
@@ -319,10 +304,9 @@ note: to obtain keywords for the target website, use the target_type parameter
 
 #### Defined in
 
-[main.ts:115351](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L115351)
+main.ts:117728
 
 ___
-
 
 ### target\_type
 
@@ -341,7 +325,7 @@ if set to page, keywords will be provided for the specified webpage
 
 #### Defined in
 
-[main.ts:115358](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L115358)
+main.ts:117735
 
 ## Methods
 
@@ -361,10 +345,9 @@ if set to page, keywords will be provided for the specified webpage
 
 #### Defined in
 
-[main.ts:115446](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L115446)
+main.ts:117823
 
 ___
-
 
 ### toJSON
 
@@ -382,10 +365,9 @@ ___
 
 #### Defined in
 
-[main.ts:115475](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L115475)
+main.ts:117852
 
 ___
-
 
 ### fromJS
 
@@ -403,8 +385,4 @@ ___
 
 #### Defined in
 
-[main.ts:115468](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L115468)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:117845

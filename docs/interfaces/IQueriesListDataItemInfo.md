@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IQueriesListDataItemInfo
+[Documentation](../README.md) / [Exports](../modules.md) / IQueriesListDataItemInfo
 
 # Interface: IQueriesListDataItemInfo
 
@@ -31,10 +27,9 @@ related query
 
 #### Defined in
 
-[main.ts:121039](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L121039)
+main.ts:123365
 
 ___
-
 
 ### value
 
@@ -45,8 +40,4 @@ represents the popularity of the topic. Scoring is on a relative scale where a v
 
 #### Defined in
 
-[main.ts:121042](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L121042)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:123368

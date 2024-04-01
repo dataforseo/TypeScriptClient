@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IBusinessDataGoogleHotelSearchesLiveRequestInfo
+[Documentation](../README.md) / [Exports](../modules.md) / IBusinessDataGoogleHotelSearchesLiveRequestInfo
 
 # Interface: IBusinessDataGoogleHotelSearchesLiveRequestInfo
 
@@ -55,10 +51,9 @@ example:
 
 #### Defined in
 
-[main.ts:194504](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L194504)
+main.ts:199965
 
 ___
-
 
 ### amenities
 
@@ -68,10 +63,10 @@ hotel amenities
 optional field
 you can use this field to specify different hotel amenities
 example:
-[
-"free_parking",
-"pets_allowed"
-]
+  [
+            "free_parking",
+            "pets_allowed"
+        ]
 
 possible values:
 "air_conditioning",
@@ -95,10 +90,9 @@ possible values:
 
 #### Defined in
 
-[main.ts:194587](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L194587)
+main.ts:200048
 
 ___
-
 
 ### check\_in
 
@@ -114,10 +108,9 @@ Note: the value cannot precede the today’s date
 
 #### Defined in
 
-[main.ts:194483](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L194483)
+main.ts:199944
 
 ___
-
 
 ### check\_out
 
@@ -134,10 +127,9 @@ the range between check_in and check_out values cannot exceed 30 days
 
 #### Defined in
 
-[main.ts:194492](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L194492)
+main.ts:199953
 
 ___
-
 
 ### children
 
@@ -155,10 +147,9 @@ set the following value if you want to include one 13-year-old child and one 8-y
 
 #### Defined in
 
-[main.ts:194514](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L194514)
+main.ts:199975
 
 ___
-
 
 ### currency
 
@@ -171,10 +162,9 @@ example:
 
 #### Defined in
 
-[main.ts:194497](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L194497)
+main.ts:199958
 
 ___
-
 
 ### depth
 
@@ -191,10 +181,9 @@ if the specified depth is higher than the number of results in the response, the
 
 #### Defined in
 
-[main.ts:194475](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L194475)
+main.ts:199936
 
 ___
-
 
 ### free\_cancellation
 
@@ -207,10 +196,9 @@ default value: false
 
 #### Defined in
 
-[main.ts:194553](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L194553)
+main.ts:200014
 
 ___
-
 
 ### is\_vacation\_rentals
 
@@ -223,10 +211,9 @@ default value: false
 
 #### Defined in
 
-[main.ts:194558](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L194558)
+main.ts:200019
 
 ___
-
 
 ### keyword
 
@@ -243,10 +230,9 @@ Note: in order to obtain accurate search results, the location name is appended 
 
 #### Defined in
 
-[main.ts:194428](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L194428)
+main.ts:199889
 
 ___
-
 
 ### language\_code
 
@@ -261,10 +247,9 @@ en
 
 #### Defined in
 
-[main.ts:194466](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L194466)
+main.ts:199927
 
 ___
-
 
 ### language\_name
 
@@ -279,10 +264,9 @@ English
 
 #### Defined in
 
-[main.ts:194459](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L194459)
+main.ts:199920
 
 ___
-
 
 ### location\_code
 
@@ -297,10 +281,9 @@ example:
 
 #### Defined in
 
-[main.ts:194443](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L194443)
+main.ts:199904
 
 ___
-
 
 ### location\_coordinate
 
@@ -317,10 +300,9 @@ example:
 
 #### Defined in
 
-[main.ts:194452](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L194452)
+main.ts:199913
 
 ___
-
 
 ### location\_name
 
@@ -336,10 +318,9 @@ Note: in order to obtain accurate search results, the location_name you specify 
 
 #### Defined in
 
-[main.ts:194436](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L194436)
+main.ts:199897
 
 ___
-
 
 ### max\_price
 
@@ -353,10 +334,9 @@ example:
 
 #### Defined in
 
-[main.ts:194548](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L194548)
+main.ts:200009
 
 ___
-
 
 ### min\_price
 
@@ -370,10 +350,9 @@ example:
 
 #### Defined in
 
-[main.ts:194542](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L194542)
+main.ts:200003
 
 ___
-
 
 ### min\_rating
 
@@ -387,10 +366,9 @@ example:
 
 #### Defined in
 
-[main.ts:194526](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L194526)
+main.ts:199987
 
 ___
-
 
 ### sort\_by
 
@@ -408,10 +386,9 @@ default value: relevance
 
 #### Defined in
 
-[main.ts:194536](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L194536)
+main.ts:199997
 
 ___
-
 
 ### stars
 
@@ -425,10 +402,9 @@ example:
 
 #### Defined in
 
-[main.ts:194520](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L194520)
+main.ts:199981
 
 ___
-
 
 ### tag
 
@@ -442,8 +418,4 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-[main.ts:194593](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L194593)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:200054

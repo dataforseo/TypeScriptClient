@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / BacklinksIndexResultInfo
+[Documentation](../README.md) / [Exports](../modules.md) / BacklinksIndexResultInfo
 
 # Class: BacklinksIndexResultInfo
 
@@ -51,7 +47,7 @@
 
 #### Defined in
 
-[main.ts:129023](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L129023)
+main.ts:134390
 
 ## Properties
 
@@ -67,10 +63,9 @@ index volume data for the past 12 months
 
 #### Defined in
 
-[main.ts:129019](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L129019)
+main.ts:134386
 
 ___
-
 
 ### total\_backlinks
 
@@ -84,10 +79,9 @@ total number of backlinks our database contains for the moment of checking
 
 #### Defined in
 
-[main.ts:129013](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L129013)
+main.ts:134380
 
 ___
-
 
 ### total\_domains
 
@@ -101,10 +95,9 @@ total number of domains our database contains for the moment of checking
 
 #### Defined in
 
-[main.ts:129017](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L129017)
+main.ts:134384
 
 ___
-
 
 ### total\_pages
 
@@ -118,7 +111,7 @@ total number of pages our database contains for the moment of checking
 
 #### Defined in
 
-[main.ts:129015](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L129015)
+main.ts:134382
 
 ## Methods
 
@@ -138,10 +131,9 @@ total number of pages our database contains for the moment of checking
 
 #### Defined in
 
-[main.ts:129032](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L129032)
+main.ts:134399
 
 ___
-
 
 ### toJSON
 
@@ -159,10 +151,9 @@ ___
 
 #### Defined in
 
-[main.ts:129056](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L129056)
+main.ts:134423
 
 ___
-
 
 ### fromJS
 
@@ -180,8 +171,4 @@ ___
 
 #### Defined in
 
-[main.ts:129049](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L129049)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:134416

@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IContentGenerationGenerateSubTopicsLiveResultInfo
+[Documentation](../README.md) / [Exports](../modules.md) / IContentGenerationGenerateSubTopicsLiveResultInfo
 
 # Interface: IContentGenerationGenerateSubTopicsLiveResultInfo
 
@@ -33,10 +29,9 @@ number of input tokens
 
 #### Defined in
 
-[main.ts:160992](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L160992)
+main.ts:166419
 
 ___
-
 
 ### new\_tokens
 
@@ -46,10 +41,9 @@ number of new tokens
 
 #### Defined in
 
-[main.ts:160996](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L160996)
+main.ts:166423
 
 ___
-
 
 ### output\_tokens
 
@@ -59,10 +53,9 @@ number of output tokens
 
 #### Defined in
 
-[main.ts:160994](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L160994)
+main.ts:166421
 
 ___
-
 
 ### sub\_topics
 
@@ -72,8 +65,4 @@ resulting subtopics
 
 #### Defined in
 
-[main.ts:160998](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L160998)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:166425

@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / GoogleFlightsElement
+[Documentation](../README.md) / [Exports](../modules.md) / GoogleFlightsElement
 
 # Class: GoogleFlightsElement
 
@@ -50,7 +46,7 @@
 
 #### Defined in
 
-[main.ts:30612](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L30612)
+main.ts:31433
 
 ## Properties
 
@@ -58,7 +54,7 @@
 
 • `Optional` **description**: `string`
 
-description of the results element in SERP
+description
 
 #### Implementation of
 
@@ -66,10 +62,9 @@ description of the results element in SERP
 
 #### Defined in
 
-[main.ts:30606](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L30606)
+main.ts:31427
 
 ___
-
 
 ### type
 
@@ -83,10 +78,9 @@ type of element
 
 #### Defined in
 
-[main.ts:30604](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L30604)
+main.ts:31425
 
 ___
-
 
 ### url
 
@@ -100,7 +94,7 @@ URL
 
 #### Defined in
 
-[main.ts:30608](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L30608)
+main.ts:31429
 
 ## Methods
 
@@ -120,10 +114,9 @@ URL
 
 #### Defined in
 
-[main.ts:30621](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L30621)
+main.ts:31442
 
 ___
-
 
 ### toJSON
 
@@ -141,10 +134,9 @@ ___
 
 #### Defined in
 
-[main.ts:30640](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L30640)
+main.ts:31461
 
 ___
-
 
 ### fromJS
 
@@ -162,8 +154,4 @@ ___
 
 #### Defined in
 
-[main.ts:30633](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L30633)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:31454

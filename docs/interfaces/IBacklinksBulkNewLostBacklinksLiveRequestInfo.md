@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IBacklinksBulkNewLostBacklinksLiveRequestInfo
+[Documentation](../README.md) / [Exports](../modules.md) / IBacklinksBulkNewLostBacklinksLiveRequestInfo
 
 # Interface: IBacklinksBulkNewLostBacklinksLiveRequestInfo
 
@@ -43,10 +39,9 @@ example:
 
 #### Defined in
 
-[main.ts:140798](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L140798)
+main.ts:146225
 
 ___
-
 
 ### tag
 
@@ -60,10 +55,9 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-[main.ts:140804](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L140804)
+main.ts:146231
 
 ___
-
 
 ### targets
 
@@ -76,22 +70,18 @@ the domain or subdomain should be specified without https:// and www.
 the page should be specified with absolute URL (including http:// or https://)
 example:
 "targets": [
-"forbes.com",
-"cnn.com",
-"bbc.com",
-"yelp.com",
-"https://www.apple.com/iphone/",
-"https://ahrefs.com/blog/",
-"ibm.com",
-"https://variety.com/",
-"https://stackoverflow.com/",
-"www.trustpilot.com"
+  "forbes.com",
+  "cnn.com",
+  "bbc.com",
+  "yelp.com",
+  "https://www.apple.com/iphone/",
+  "https://ahrefs.com/blog/",
+  "ibm.com",
+  "https://variety.com/",
+  "https://stackoverflow.com/",
+  "www.trustpilot.com"
 ]
 
 #### Defined in
 
-[main.ts:140785](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L140785)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:146212

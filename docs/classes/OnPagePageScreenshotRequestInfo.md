@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / OnPagePageScreenshotRequestInfo
+[Documentation](../README.md) / [Exports](../modules.md) / OnPagePageScreenshotRequestInfo
 
 # Class: OnPagePageScreenshotRequestInfo
 
@@ -59,7 +55,7 @@
 
 #### Defined in
 
-[main.ts:151530](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L151530)
+main.ts:156957
 
 ## Properties
 
@@ -78,10 +74,9 @@ note: if you do not specify this parameter, some websites may deny access; in th
 
 #### Defined in
 
-[main.ts:151443](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L151443)
+main.ts:156870
 
 ___
-
 
 ### browser\_preset
 
@@ -111,10 +106,9 @@ browser_screen_scale_factor: 2
 
 #### Defined in
 
-[main.ts:151468](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L151468)
+main.ts:156895
 
 ___
-
 
 ### browser\_screen\_height
 
@@ -133,10 +127,9 @@ maximum value, in pixels: 9999
 
 #### Defined in
 
-[main.ts:151482](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L151482)
+main.ts:156909
 
 ___
-
 
 ### browser\_screen\_scale\_factor
 
@@ -155,10 +148,9 @@ maximum value: 3
 
 #### Defined in
 
-[main.ts:151489](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L151489)
+main.ts:156916
 
 ___
-
 
 ### browser\_screen\_width
 
@@ -177,10 +169,9 @@ maximum value, in pixels: 9999
 
 #### Defined in
 
-[main.ts:151475](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L151475)
+main.ts:156902
 
 ___
-
 
 ### custom\_js
 
@@ -195,8 +186,8 @@ the returned value depends on what you specified in this field. For instance, if
 meta = {}; meta.url = document.URL; meta.test = 'test'; meta;
 as a response you will receive the following data:
 "custom_js_response": {
-"url": "https://dataforseo.com/",
-"test": "test"
+  "url": "https://dataforseo.com/",
+  "test": "test"
 }
 Note: if you use this parameter, additional charges will apply; learn more about the cost of tasks with this parameter in our help article; the cost can be calculated on the Pricing Page
 
@@ -206,10 +197,9 @@ Note: if you use this parameter, additional charges will apply; learn more about
 
 #### Defined in
 
-[main.ts:151520](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L151520)
+main.ts:156947
 
 ___
-
 
 ### custom\_user\_agent
 
@@ -228,16 +218,15 @@ default value: Mozilla/5.0 (compatible; RSiteAuditor)
 
 #### Defined in
 
-[main.ts:151450](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L151450)
+main.ts:156877
 
 ___
-
 
 ### disable\_cookie\_popup
 
 • `Optional` **disable\_cookie\_popup**: `boolean`
 
-disable the cookie popup
+disable the cookie popup 
 optional field
 set to true if you want to disable the popup requesting cookie consent from the user;
 default value:
@@ -249,10 +238,9 @@ false
 
 #### Defined in
 
-[main.ts:151500](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L151500)
+main.ts:156927
 
 ___
-
 
 ### enable\_javascript
 
@@ -270,10 +258,9 @@ Note: if you use this parameter, additional charges will apply; learn more about
 
 #### Defined in
 
-[main.ts:151506](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L151506)
+main.ts:156933
 
 ___
-
 
 ### full\_page\_screenshot
 
@@ -290,10 +277,9 @@ default value: true
 
 #### Defined in
 
-[main.ts:151494](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L151494)
+main.ts:156921
 
 ___
-
 
 ### ip\_pool\_for\_scan
 
@@ -311,10 +297,9 @@ possible values: us, de
 
 #### Defined in
 
-[main.ts:151526](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L151526)
+main.ts:156953
 
 ___
-
 
 ### url
 
@@ -331,7 +316,7 @@ note: if the URL you indicate here returns a 404 status code or the indicated va
 
 #### Defined in
 
-[main.ts:151438](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L151438)
+main.ts:156865
 
 ## Methods
 
@@ -351,10 +336,9 @@ note: if the URL you indicate here returns a 404 status code or the indicated va
 
 #### Defined in
 
-[main.ts:151539](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L151539)
+main.ts:156966
 
 ___
-
 
 ### toJSON
 
@@ -372,10 +356,9 @@ ___
 
 #### Defined in
 
-[main.ts:151567](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L151567)
+main.ts:156994
 
 ___
-
 
 ### fromJS
 
@@ -393,8 +376,4 @@ ___
 
 #### Defined in
 
-[main.ts:151560](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L151560)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:156987

@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IDomainAnalyticsTechnologiesTechnologiesSummaryLiveRequestInfo
+[Documentation](../README.md) / [Exports](../modules.md) / IDomainAnalyticsTechnologiesTechnologiesSummaryLiveRequestInfo
 
 # Interface: IDomainAnalyticsTechnologiesTechnologiesSummaryLiveRequestInfo
 
@@ -43,10 +39,9 @@ example:
 
 #### Defined in
 
-[main.ts:73203](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L73203)
+main.ts:75580
 
 ___
-
 
 ### filters
 
@@ -68,10 +63,9 @@ for more information about filters, please refer to Domain Analytics Technologie
 
 #### Defined in
 
-[main.ts:73238](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L73238)
+main.ts:75615
 
 ___
-
 
 ### groups
 
@@ -86,10 +80,9 @@ example:
 
 #### Defined in
 
-[main.ts:73196](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L73196)
+main.ts:75573
 
 ___
-
 
 ### internal\_list\_limit
 
@@ -104,10 +97,9 @@ maximum value: 10000
 
 #### Defined in
 
-[main.ts:73245](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L73245)
+main.ts:75622
 
 ___
-
 
 ### keywords
 
@@ -122,10 +114,9 @@ example:
 
 #### Defined in
 
-[main.ts:73217](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L73217)
+main.ts:75594
 
 ___
-
 
 ### mode
 
@@ -140,10 +131,9 @@ default value: as_is
 
 #### Defined in
 
-[main.ts:73224](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L73224)
+main.ts:75601
 
 ___
-
 
 ### tag
 
@@ -157,10 +147,9 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-[main.ts:73251](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L73251)
+main.ts:75628
 
 ___
-
 
 ### technologies
 
@@ -175,10 +164,9 @@ example:
 
 #### Defined in
 
-[main.ts:73210](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L73210)
+main.ts:75587
 
 ___
-
 
 ### technology\_paths
 
@@ -196,8 +184,4 @@ example:
 
 #### Defined in
 
-[main.ts:73189](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L73189)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:75566

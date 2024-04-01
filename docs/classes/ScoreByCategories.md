@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / ScoreByCategories
+[Documentation](../README.md) / [Exports](../modules.md) / ScoreByCategories
 
 # Class: ScoreByCategories
 
@@ -52,7 +48,7 @@
 
 #### Defined in
 
-[main.ts:196804](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L196804)
+main.ts:202265
 
 ## Properties
 
@@ -70,10 +66,9 @@ calculated based on data from the hotel’s proximity to nearby airports
 
 #### Defined in
 
-[main.ts:196800](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L196800)
+main.ts:202261
 
 ___
-
 
 ### overall
 
@@ -90,10 +85,9 @@ note that the criteria are not weighted equally in the overall score
 
 #### Defined in
 
-[main.ts:196784](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L196784)
+main.ts:202245
 
 ___
-
 
 ### restaurants
 
@@ -109,10 +103,9 @@ calculated based on data from the hotel’s proximity to nearby restaurants
 
 #### Defined in
 
-[main.ts:196792](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L196792)
+main.ts:202253
 
 ___
-
 
 ### things\_to\_do
 
@@ -128,10 +121,9 @@ calculated based on data from the hotel’s proximity to nearby things to do
 
 #### Defined in
 
-[main.ts:196788](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L196788)
+main.ts:202249
 
 ___
-
 
 ### transit
 
@@ -147,7 +139,7 @@ calculated based on data from the hotel’s proximity to nearby transit options
 
 #### Defined in
 
-[main.ts:196796](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L196796)
+main.ts:202257
 
 ## Methods
 
@@ -167,10 +159,9 @@ calculated based on data from the hotel’s proximity to nearby transit options
 
 #### Defined in
 
-[main.ts:196813](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L196813)
+main.ts:202274
 
 ___
-
 
 ### toJSON
 
@@ -188,10 +179,9 @@ ___
 
 #### Defined in
 
-[main.ts:196834](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L196834)
+main.ts:202295
 
 ___
-
 
 ### fromJS
 
@@ -209,8 +199,4 @@ ___
 
 #### Defined in
 
-[main.ts:196827](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L196827)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:202288

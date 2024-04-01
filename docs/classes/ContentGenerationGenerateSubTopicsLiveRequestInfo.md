@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / ContentGenerationGenerateSubTopicsLiveRequestInfo
+[Documentation](../README.md) / [Exports](../modules.md) / ContentGenerationGenerateSubTopicsLiveRequestInfo
 
 # Class: ContentGenerationGenerateSubTopicsLiveRequestInfo
 
@@ -50,7 +46,7 @@
 
 #### Defined in
 
-[main.ts:160863](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L160863)
+main.ts:166290
 
 ## Properties
 
@@ -71,10 +67,9 @@ learn more about this parameter on our help center
 
 #### Defined in
 
-[main.ts:160853](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L160853)
+main.ts:166280
 
 ___
-
 
 ### tag
 
@@ -92,10 +87,9 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-[main.ts:160859](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L160859)
+main.ts:166286
 
 ___
-
 
 ### topic
 
@@ -112,7 +106,7 @@ can contain from 1 to 50 tokens
 
 #### Defined in
 
-[main.ts:160846](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L160846)
+main.ts:166273
 
 ## Methods
 
@@ -132,10 +126,9 @@ can contain from 1 to 50 tokens
 
 #### Defined in
 
-[main.ts:160872](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L160872)
+main.ts:166299
 
 ___
-
 
 ### toJSON
 
@@ -153,10 +146,9 @@ ___
 
 #### Defined in
 
-[main.ts:160891](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L160891)
+main.ts:166318
 
 ___
-
 
 ### fromJS
 
@@ -174,8 +166,4 @@ ___
 
 #### Defined in
 
-[main.ts:160884](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L160884)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:166311

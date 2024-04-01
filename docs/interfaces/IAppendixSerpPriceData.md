@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IAppendixSerpPriceData
+[Documentation](../README.md) / [Exports](../modules.md) / IAppendixSerpPriceData
 
 # Interface: IAppendixSerpPriceData
 
@@ -37,10 +33,9 @@
 
 #### Defined in
 
-[main.ts:210673](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L210673)
+main.ts:216266
 
 ___
-
 
 ### jobs
 
@@ -48,10 +43,9 @@ ___
 
 #### Defined in
 
-[main.ts:210674](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L210674)
+main.ts:216267
 
 ___
-
 
 ### languages
 
@@ -59,10 +53,9 @@ ___
 
 #### Defined in
 
-[main.ts:210675](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L210675)
+main.ts:216268
 
 ___
-
 
 ### live
 
@@ -70,10 +63,9 @@ ___
 
 #### Defined in
 
-[main.ts:210676](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L210676)
+main.ts:216269
 
 ___
-
 
 ### locations
 
@@ -81,10 +73,9 @@ ___
 
 #### Defined in
 
-[main.ts:210677](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L210677)
+main.ts:216270
 
 ___
-
 
 ### screenshot
 
@@ -92,10 +83,9 @@ ___
 
 #### Defined in
 
-[main.ts:210678](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L210678)
+main.ts:216271
 
 ___
-
 
 ### task\_get
 
@@ -103,10 +93,9 @@ ___
 
 #### Defined in
 
-[main.ts:210679](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L210679)
+main.ts:216272
 
 ___
-
 
 ### task\_post
 
@@ -114,10 +103,9 @@ ___
 
 #### Defined in
 
-[main.ts:210680](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L210680)
+main.ts:216273
 
 ___
-
 
 ### tasks\_fixed
 
@@ -125,10 +113,9 @@ ___
 
 #### Defined in
 
-[main.ts:210672](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L210672)
+main.ts:216265
 
 ___
-
 
 ### tasks\_ready
 
@@ -136,8 +123,4 @@ ___
 
 #### Defined in
 
-[main.ts:210681](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L210681)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:216274

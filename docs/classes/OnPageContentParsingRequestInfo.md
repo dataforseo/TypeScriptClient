@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / OnPageContentParsingRequestInfo
+[Documentation](../README.md) / [Exports](../modules.md) / OnPageContentParsingRequestInfo
 
 # Class: OnPageContentParsingRequestInfo
 
@@ -49,7 +45,7 @@
 
 #### Defined in
 
-[main.ts:151896](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L151896)
+main.ts:157323
 
 ## Properties
 
@@ -70,10 +66,9 @@ example:
 
 #### Defined in
 
-[main.ts:151892](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L151892)
+main.ts:157319
 
 ___
-
 
 ### url
 
@@ -91,7 +86,7 @@ https://www.fujielectric.com/
 
 #### Defined in
 
-[main.ts:151885](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L151885)
+main.ts:157312
 
 ## Methods
 
@@ -111,10 +106,9 @@ https://www.fujielectric.com/
 
 #### Defined in
 
-[main.ts:151905](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L151905)
+main.ts:157332
 
 ___
-
 
 ### toJSON
 
@@ -132,10 +126,9 @@ ___
 
 #### Defined in
 
-[main.ts:151923](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L151923)
+main.ts:157350
 
 ___
-
 
 ### fromJS
 
@@ -153,8 +146,4 @@ ___
 
 #### Defined in
 
-[main.ts:151916](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L151916)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:157343

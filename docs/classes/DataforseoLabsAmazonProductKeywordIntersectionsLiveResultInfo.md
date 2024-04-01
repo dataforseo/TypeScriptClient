@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / DataforseoLabsAmazonProductKeywordIntersectionsLiveResultInfo
+[Documentation](../README.md) / [Exports](../modules.md) / DataforseoLabsAmazonProductKeywordIntersectionsLiveResultInfo
 
 # Class: DataforseoLabsAmazonProductKeywordIntersectionsLiveResultInfo
 
@@ -54,7 +50,7 @@
 
 #### Defined in
 
-[main.ts:101888](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L101888)
+main.ts:104265
 
 ## Properties
 
@@ -74,10 +70,9 @@ ASINs in a POST array
 
 #### Defined in
 
-[main.ts:101872](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L101872)
+main.ts:104249
 
 ___
-
 
 ### items
 
@@ -91,10 +86,9 @@ contains detected Amazon product competitors and related data
 
 #### Defined in
 
-[main.ts:101884](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L101884)
+main.ts:104261
 
 ___
-
 
 ### items\_count
 
@@ -108,10 +102,9 @@ the number of results returned in the items array
 
 #### Defined in
 
-[main.ts:101882](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L101882)
+main.ts:104259
 
 ___
-
 
 ### language\_code
 
@@ -126,10 +119,9 @@ if there is no data, then the value is null
 
 #### Defined in
 
-[main.ts:101878](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L101878)
+main.ts:104255
 
 ___
-
 
 ### location\_code
 
@@ -144,10 +136,9 @@ if there is no data, then the value is null
 
 #### Defined in
 
-[main.ts:101875](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L101875)
+main.ts:104252
 
 ___
-
 
 ### se\_type
 
@@ -161,10 +152,9 @@ search engine type
 
 #### Defined in
 
-[main.ts:101870](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L101870)
+main.ts:104247
 
 ___
-
 
 ### total\_count
 
@@ -178,7 +168,7 @@ total amount of results in our database relevant to your request
 
 #### Defined in
 
-[main.ts:101880](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L101880)
+main.ts:104257
 
 ## Methods
 
@@ -198,10 +188,9 @@ total amount of results in our database relevant to your request
 
 #### Defined in
 
-[main.ts:101897](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L101897)
+main.ts:104274
 
 ___
-
 
 ### toJSON
 
@@ -219,10 +208,9 @@ ___
 
 #### Defined in
 
-[main.ts:101930](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L101930)
+main.ts:104307
 
 ___
-
 
 ### fromJS
 
@@ -240,8 +228,4 @@ ___
 
 #### Defined in
 
-[main.ts:101923](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L101923)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:104300

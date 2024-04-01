@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / BacklinksTimeseriesSummaryLiveItem
+[Documentation](../README.md) / [Exports](../modules.md) / BacklinksTimeseriesSummaryLiveItem
 
 # Class: BacklinksTimeseriesSummaryLiveItem
 
@@ -32,6 +28,7 @@
 - [referring\_main\_domains](BacklinksTimeseriesSummaryLiveItem.md#referring_main_domains)
 - [referring\_main\_domains\_nofollow](BacklinksTimeseriesSummaryLiveItem.md#referring_main_domains_nofollow)
 - [referring\_pages](BacklinksTimeseriesSummaryLiveItem.md#referring_pages)
+- [referring\_pages\_nofollow](BacklinksTimeseriesSummaryLiveItem.md#referring_pages_nofollow)
 - [referring\_subnets](BacklinksTimeseriesSummaryLiveItem.md#referring_subnets)
 - [type](BacklinksTimeseriesSummaryLiveItem.md#type)
 
@@ -59,7 +56,7 @@
 
 #### Defined in
 
-[main.ts:138529](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L138529)
+main.ts:143952
 
 ## Properties
 
@@ -75,10 +72,9 @@ number of backlinks for the given date
 
 #### Defined in
 
-[main.ts:138507](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L138507)
+main.ts:143928
 
 ___
-
 
 ### backlinks\_nofollow
 
@@ -92,10 +88,9 @@ number of nofollow backlinks for the given date
 
 #### Defined in
 
-[main.ts:138509](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L138509)
+main.ts:143930
 
 ___
-
 
 ### date
 
@@ -112,10 +107,9 @@ example:
 
 #### Defined in
 
-[main.ts:138502](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L138502)
+main.ts:143923
 
 ___
-
 
 ### rank
 
@@ -130,10 +124,9 @@ learn more about the metric and how it is calculated in this help center article
 
 #### Defined in
 
-[main.ts:138505](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L138505)
+main.ts:143926
 
 ___
-
 
 ### referring\_domains
 
@@ -148,10 +141,9 @@ referring domains include subdomains that are counted as separate domains for th
 
 #### Defined in
 
-[main.ts:138514](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L138514)
+main.ts:143937
 
 ___
-
 
 ### referring\_domains\_nofollow
 
@@ -165,10 +157,9 @@ number of domains pointing at least one nofollow link to the target for the give
 
 #### Defined in
 
-[main.ts:138516](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L138516)
+main.ts:143939
 
 ___
-
 
 ### referring\_ips
 
@@ -183,10 +174,9 @@ number of IP addresses pointing to this page
 
 #### Defined in
 
-[main.ts:138523](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L138523)
+main.ts:143946
 
 ___
-
 
 ### referring\_main\_domains
 
@@ -200,10 +190,9 @@ number of referring main domains for the given date
 
 #### Defined in
 
-[main.ts:138518](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L138518)
+main.ts:143941
 
 ___
-
 
 ### referring\_main\_domains\_nofollow
 
@@ -217,10 +206,9 @@ number of main domains pointing at least one nofollow link to the target for the
 
 #### Defined in
 
-[main.ts:138520](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L138520)
+main.ts:143943
 
 ___
-
 
 ### referring\_pages
 
@@ -234,10 +222,25 @@ number of pages pointing to target for the given date
 
 #### Defined in
 
-[main.ts:138511](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L138511)
+main.ts:143932
 
 ___
 
+### referring\_pages\_nofollow
+
+• `Optional` **referring\_pages\_nofollow**: `number`
+
+number of referring pages pointing at least one nofollow link to the target for the given date
+
+#### Implementation of
+
+[IBacklinksTimeseriesSummaryLiveItem](../interfaces/IBacklinksTimeseriesSummaryLiveItem.md).[referring_pages_nofollow](../interfaces/IBacklinksTimeseriesSummaryLiveItem.md#referring_pages_nofollow)
+
+#### Defined in
+
+main.ts:143934
+
+___
 
 ### referring\_subnets
 
@@ -251,10 +254,9 @@ number of referring subnetworks for the given date
 
 #### Defined in
 
-[main.ts:138525](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L138525)
+main.ts:143948
 
 ___
-
 
 ### type
 
@@ -268,7 +270,7 @@ type of element
 
 #### Defined in
 
-[main.ts:138497](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L138497)
+main.ts:143918
 
 ## Methods
 
@@ -288,10 +290,9 @@ type of element
 
 #### Defined in
 
-[main.ts:138538](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L138538)
+main.ts:143961
 
 ___
-
 
 ### toJSON
 
@@ -309,10 +310,9 @@ ___
 
 #### Defined in
 
-[main.ts:138566](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L138566)
+main.ts:143990
 
 ___
-
 
 ### fromJS
 
@@ -330,8 +330,4 @@ ___
 
 #### Defined in
 
-[main.ts:138559](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L138559)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:143983

@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / AppendixSocialMediaBusinessDataLimitsRatesDataInfo
+[Documentation](../README.md) / [Exports](../modules.md) / AppendixSocialMediaBusinessDataLimitsRatesDataInfo
 
 # Class: AppendixSocialMediaBusinessDataLimitsRatesDataInfo
 
@@ -50,13 +46,13 @@
 
 #### Defined in
 
-[main.ts:207923](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L207923)
+main.ts:213448
 
 ## Properties
 
 ### facebook
 
-• `Optional` **facebook**: [`AppendixInfo`](AppendixInfo.md)
+• `Optional` **facebook**: [`AppendixFunctionInfo`](AppendixFunctionInfo.md)
 
 #### Implementation of
 
@@ -64,14 +60,13 @@
 
 #### Defined in
 
-[main.ts:207917](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L207917)
+main.ts:213442
 
 ___
 
-
 ### pinterest
 
-• `Optional` **pinterest**: [`AppendixInfo`](AppendixInfo.md)
+• `Optional` **pinterest**: [`AppendixFunctionInfo`](AppendixFunctionInfo.md)
 
 #### Implementation of
 
@@ -79,14 +74,13 @@ ___
 
 #### Defined in
 
-[main.ts:207918](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L207918)
+main.ts:213443
 
 ___
 
-
 ### reddit
 
-• `Optional` **reddit**: [`AppendixInfo`](AppendixInfo.md)
+• `Optional` **reddit**: [`AppendixFunctionInfo`](AppendixFunctionInfo.md)
 
 #### Implementation of
 
@@ -94,7 +88,7 @@ ___
 
 #### Defined in
 
-[main.ts:207919](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L207919)
+main.ts:213444
 
 ## Methods
 
@@ -114,10 +108,9 @@ ___
 
 #### Defined in
 
-[main.ts:207932](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L207932)
+main.ts:213457
 
 ___
-
 
 ### toJSON
 
@@ -135,10 +128,9 @@ ___
 
 #### Defined in
 
-[main.ts:207951](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L207951)
+main.ts:213476
 
 ___
-
 
 ### fromJS
 
@@ -156,8 +148,4 @@ ___
 
 #### Defined in
 
-[main.ts:207944](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L207944)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:213469

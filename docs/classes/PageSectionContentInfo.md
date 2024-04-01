@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / PageSectionContentInfo
+[Documentation](../README.md) / [Exports](../modules.md) / PageSectionContentInfo
 
 # Class: PageSectionContentInfo
 
@@ -49,7 +45,7 @@
 
 #### Defined in
 
-[main.ts:152021](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L152021)
+main.ts:157448
 
 ## Properties
 
@@ -66,10 +62,9 @@ you can find more information about content priority calculation in this help ce
 
 #### Defined in
 
-[main.ts:152014](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L152014)
+main.ts:157441
 
 ___
-
 
 ### secondary\_content
 
@@ -84,7 +79,7 @@ you can find more information about content priority calculation in this help ce
 
 #### Defined in
 
-[main.ts:152017](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L152017)
+main.ts:157444
 
 ## Methods
 
@@ -104,10 +99,9 @@ you can find more information about content priority calculation in this help ce
 
 #### Defined in
 
-[main.ts:152030](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L152030)
+main.ts:157457
 
 ___
-
 
 ### toJSON
 
@@ -125,10 +119,9 @@ ___
 
 #### Defined in
 
-[main.ts:152056](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L152056)
+main.ts:157483
 
 ___
-
 
 ### fromJS
 
@@ -146,8 +139,4 @@ ___
 
 #### Defined in
 
-[main.ts:152049](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L152049)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:157476

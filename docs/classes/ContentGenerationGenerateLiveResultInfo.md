@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / ContentGenerationGenerateLiveResultInfo
+[Documentation](../README.md) / [Exports](../modules.md) / ContentGenerationGenerateLiveResultInfo
 
 # Class: ContentGenerationGenerateLiveResultInfo
 
@@ -52,7 +48,7 @@
 
 #### Defined in
 
-[main.ts:160031](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L160031)
+main.ts:165458
 
 ## Properties
 
@@ -68,10 +64,9 @@ resulting text
 
 #### Defined in
 
-[main.ts:160023](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L160023)
+main.ts:165450
 
 ___
-
 
 ### input\_tokens
 
@@ -85,10 +80,9 @@ number of input tokens
 
 #### Defined in
 
-[main.ts:160017](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L160017)
+main.ts:165444
 
 ___
-
 
 ### new\_tokens
 
@@ -102,10 +96,9 @@ number of new tokens
 
 #### Defined in
 
-[main.ts:160021](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L160021)
+main.ts:165448
 
 ___
-
 
 ### output\_tokens
 
@@ -119,10 +112,9 @@ number of output tokens
 
 #### Defined in
 
-[main.ts:160019](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L160019)
+main.ts:165446
 
 ___
-
 
 ### supplement\_token
 
@@ -138,7 +130,7 @@ supplement_token values are unique for each subsequent task
 
 #### Defined in
 
-[main.ts:160027](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L160027)
+main.ts:165454
 
 ## Methods
 
@@ -158,10 +150,9 @@ supplement_token values are unique for each subsequent task
 
 #### Defined in
 
-[main.ts:160040](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L160040)
+main.ts:165467
 
 ___
-
 
 ### toJSON
 
@@ -179,10 +170,9 @@ ___
 
 #### Defined in
 
-[main.ts:160061](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L160061)
+main.ts:165488
 
 ___
-
 
 ### fromJS
 
@@ -200,8 +190,4 @@ ___
 
 #### Defined in
 
-[main.ts:160054](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L160054)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:165481

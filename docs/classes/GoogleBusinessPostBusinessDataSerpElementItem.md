@@ -1,15 +1,11 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / GoogleBusinessPostBusinessDataSerpElementItem
+[Documentation](../README.md) / [Exports](../modules.md) / GoogleBusinessPostBusinessDataSerpElementItem
 
 # Class: GoogleBusinessPostBusinessDataSerpElementItem
 
 ## Hierarchy
 
 - [`BaseBusinessDataSerpElementItem`](BaseBusinessDataSerpElementItem.md)
-  
+
   ↳ **`GoogleBusinessPostBusinessDataSerpElementItem`**
 
 ## Implements
@@ -70,7 +66,7 @@
 
 #### Defined in
 
-[main.ts:192383](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L192383)
+main.ts:197844
 
 ## Properties
 
@@ -84,10 +80,9 @@
 
 #### Defined in
 
-[main.ts:20076](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L20076)
+main.ts:20532
 
 ___
-
 
 ### author
 
@@ -101,10 +96,9 @@ author of the post
 
 #### Defined in
 
-[main.ts:192360](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L192360)
+main.ts:197821
 
 ___
-
 
 ### images\_url
 
@@ -118,10 +112,9 @@ url of an image included in the post
 
 #### Defined in
 
-[main.ts:192368](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L192368)
+main.ts:197829
 
 ___
-
 
 ### links
 
@@ -135,10 +128,9 @@ links included in the post
 
 #### Defined in
 
-[main.ts:192379](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L192379)
+main.ts:197840
 
 ___
-
 
 ### position
 
@@ -153,10 +145,9 @@ can take the following values: right
 
 #### Defined in
 
-[main.ts:192356](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L192356)
+main.ts:197817
 
 ___
-
 
 ### post\_date
 
@@ -172,10 +163,9 @@ in the following format:
 
 #### Defined in
 
-[main.ts:192372](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L192372)
+main.ts:197833
 
 ___
-
 
 ### post\_text
 
@@ -189,10 +179,9 @@ main content of a post
 
 #### Defined in
 
-[main.ts:192364](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L192364)
+main.ts:197825
 
 ___
-
 
 ### rank\_absolute
 
@@ -207,10 +196,9 @@ absolute position among all present elements
 
 #### Defined in
 
-[main.ts:192353](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L192353)
+main.ts:197814
 
 ___
-
 
 ### rank\_group
 
@@ -225,10 +213,9 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-[main.ts:192350](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L192350)
+main.ts:197811
 
 ___
-
 
 ### snippet
 
@@ -242,10 +229,9 @@ additional content of a post
 
 #### Defined in
 
-[main.ts:192362](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L192362)
+main.ts:197823
 
 ___
-
 
 ### timestamp
 
@@ -262,10 +248,9 @@ example:
 
 #### Defined in
 
-[main.ts:192377](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L192377)
+main.ts:197838
 
 ___
-
 
 ### url
 
@@ -279,10 +264,9 @@ url of a post
 
 #### Defined in
 
-[main.ts:192366](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L192366)
+main.ts:197827
 
 ___
-
 
 ### xpath
 
@@ -296,7 +280,7 @@ the XPath of the element
 
 #### Defined in
 
-[main.ts:192358](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L192358)
+main.ts:197819
 
 ## Methods
 
@@ -320,10 +304,9 @@ the XPath of the element
 
 #### Defined in
 
-[main.ts:192388](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L192388)
+main.ts:197849
 
 ___
-
 
 ### toJSON
 
@@ -345,10 +328,9 @@ ___
 
 #### Defined in
 
-[main.ts:192421](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L192421)
+main.ts:197882
 
 ___
-
 
 ### fromJS
 
@@ -370,8 +352,4 @@ ___
 
 #### Defined in
 
-[main.ts:192414](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L192414)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:197875

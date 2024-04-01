@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IBacklinksTimeseriesNewLostSummaryLiveRequestInfo
+[Documentation](../README.md) / [Exports](../modules.md) / IBacklinksTimeseriesNewLostSummaryLiveRequestInfo
 
 # Interface: IBacklinksTimeseriesNewLostSummaryLiveRequestInfo
 
@@ -43,10 +39,9 @@ example:
 
 #### Defined in
 
-[main.ts:138944](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L138944)
+main.ts:144371
 
 ___
-
 
 ### date\_to
 
@@ -63,10 +58,9 @@ example:
 
 #### Defined in
 
-[main.ts:138953](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L138953)
+main.ts:144380
 
 ___
-
 
 ### group\_range
 
@@ -87,10 +81,9 @@ if there is no data for a certain  day/week/month/year, we will return 0
 
 #### Defined in
 
-[main.ts:138966](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L138966)
+main.ts:144393
 
 ___
-
 
 ### tag
 
@@ -104,10 +97,9 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-[main.ts:138972](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L138972)
+main.ts:144399
 
 ___
-
 
 ### target
 
@@ -121,8 +113,4 @@ example:
 
 #### Defined in
 
-[main.ts:138933](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L138933)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:144360

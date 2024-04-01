@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / DataforseoLabsGoogleHistoricalSearchVolumeLiveResultInfo
+[Documentation](../README.md) / [Exports](../modules.md) / DataforseoLabsGoogleHistoricalSearchVolumeLiveResultInfo
 
 # Class: DataforseoLabsGoogleHistoricalSearchVolumeLiveResultInfo
 
@@ -52,7 +48,7 @@
 
 #### Defined in
 
-[main.ts:82036](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L82036)
+main.ts:84413
 
 ## Properties
 
@@ -68,10 +64,9 @@ contains keywords and related data
 
 #### Defined in
 
-[main.ts:82032](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L82032)
+main.ts:84409
 
 ___
-
 
 ### items\_count
 
@@ -85,10 +80,9 @@ the number of results returned in the items array
 
 #### Defined in
 
-[main.ts:82030](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L82030)
+main.ts:84407
 
 ___
-
 
 ### language\_code
 
@@ -102,10 +96,9 @@ language code in a POST array
 
 #### Defined in
 
-[main.ts:82028](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L82028)
+main.ts:84405
 
 ___
-
 
 ### location\_code
 
@@ -119,10 +112,9 @@ location code in a POST array
 
 #### Defined in
 
-[main.ts:82026](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L82026)
+main.ts:84403
 
 ___
-
 
 ### se\_type
 
@@ -136,7 +128,7 @@ search engine type
 
 #### Defined in
 
-[main.ts:82024](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L82024)
+main.ts:84401
 
 ## Methods
 
@@ -156,10 +148,9 @@ search engine type
 
 #### Defined in
 
-[main.ts:82045](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L82045)
+main.ts:84422
 
 ___
-
 
 ### toJSON
 
@@ -177,10 +168,9 @@ ___
 
 #### Defined in
 
-[main.ts:82070](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L82070)
+main.ts:84447
 
 ___
-
 
 ### fromJS
 
@@ -198,8 +188,4 @@ ___
 
 #### Defined in
 
-[main.ts:82063](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L82063)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:84440

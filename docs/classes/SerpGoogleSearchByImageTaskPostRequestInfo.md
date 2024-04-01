@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / SerpGoogleSearchByImageTaskPostRequestInfo
+[Documentation](../README.md) / [Exports](../modules.md) / SerpGoogleSearchByImageTaskPostRequestInfo
 
 # Class: SerpGoogleSearchByImageTaskPostRequestInfo
 
@@ -65,7 +61,7 @@
 
 #### Defined in
 
-[main.ts:47283](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L47283)
+main.ts:48034
 
 ## Properties
 
@@ -85,10 +81,9 @@ Note: to use this parameter, set calculate_rectangles to true
 
 #### Defined in
 
-[main.ts:47237](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L47237)
+main.ts:47988
 
 ___
-
 
 ### browser\_screen\_resolution\_ratio
 
@@ -106,10 +101,9 @@ Note: to use this parameter, set calculate_rectangles to true
 
 #### Defined in
 
-[main.ts:47243](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L47243)
+main.ts:47994
 
 ___
-
 
 ### browser\_screen\_width
 
@@ -127,10 +121,9 @@ Note: to use this parameter, set calculate_rectangles to true
 
 #### Defined in
 
-[main.ts:47231](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L47231)
+main.ts:47982
 
 ___
-
 
 ### calculate\_rectangles
 
@@ -149,10 +142,9 @@ Note: if set to true, the charge per task will be multiplied by 2
 
 #### Defined in
 
-[main.ts:47225](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L47225)
+main.ts:47976
 
 ___
-
 
 ### image\_url
 
@@ -170,10 +162,9 @@ https://upload.wikimedia.org/wikipedia/commons/e/ed/Elon_Musk_Royal_Society.jpg
 
 #### Defined in
 
-[main.ts:47158](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L47158)
+main.ts:47909
 
 ___
-
 
 ### language\_code
 
@@ -192,10 +183,9 @@ en
 
 #### Defined in
 
-[main.ts:47211](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L47211)
+main.ts:47962
 
 ___
-
 
 ### language\_name
 
@@ -214,10 +204,9 @@ English
 
 #### Defined in
 
-[main.ts:47204](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L47204)
+main.ts:47955
 
 ___
-
 
 ### location\_code
 
@@ -236,10 +225,9 @@ example:
 
 #### Defined in
 
-[main.ts:47187](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L47187)
+main.ts:47938
 
 ___
-
 
 ### location\_coordinate
 
@@ -261,10 +249,9 @@ example:
 
 #### Defined in
 
-[main.ts:47197](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L47197)
+main.ts:47948
 
 ___
-
 
 ### location\_name
 
@@ -283,10 +270,9 @@ London,England,United Kingdom
 
 #### Defined in
 
-[main.ts:47180](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L47180)
+main.ts:47931
 
 ___
-
 
 ### max\_crawl\_pages
 
@@ -305,10 +291,9 @@ learn more at our help center
 
 #### Defined in
 
-[main.ts:47173](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L47173)
+main.ts:47924
 
 ___
-
 
 ### pingback\_url
 
@@ -330,10 +315,9 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-[main.ts:47279](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L47279)
+main.ts:48030
 
 ___
-
 
 ### postback\_data
 
@@ -351,10 +335,9 @@ advanced
 
 #### Defined in
 
-[main.ts:47269](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L47269)
+main.ts:48020
 
 ___
-
 
 ### postback\_url
 
@@ -376,10 +359,9 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-[main.ts:47263](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L47263)
+main.ts:48014
 
 ___
-
 
 ### priority
 
@@ -399,10 +381,9 @@ The cost can be calculated on the Pricing page.
 
 #### Defined in
 
-[main.ts:47166](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L47166)
+main.ts:47917
 
 ___
-
 
 ### se\_domain
 
@@ -421,10 +402,9 @@ google.co.uk, google.com.au, google.de, etc.
 
 #### Defined in
 
-[main.ts:47218](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L47218)
+main.ts:47969
 
 ___
-
 
 ### search\_param
 
@@ -440,10 +420,9 @@ get the list of available parameters and additional details here
 
 #### Defined in
 
-[main.ts:47247](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L47247)
+main.ts:47998
 
 ___
-
 
 ### tag
 
@@ -461,7 +440,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-[main.ts:47253](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L47253)
+main.ts:48004
 
 ## Methods
 
@@ -481,10 +460,9 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-[main.ts:47292](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L47292)
+main.ts:48043
 
 ___
-
 
 ### toJSON
 
@@ -502,10 +480,9 @@ ___
 
 #### Defined in
 
-[main.ts:47326](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L47326)
+main.ts:48077
 
 ___
-
 
 ### fromJS
 
@@ -523,8 +500,4 @@ ___
 
 #### Defined in
 
-[main.ts:47319](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L47319)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:48070

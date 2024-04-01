@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IOnPageRedirectChainsRequestInfo
+[Documentation](../README.md) / [Exports](../modules.md) / IOnPageRedirectChainsRequestInfo
 
 # Interface: IOnPageRedirectChainsRequestInfo
 
@@ -44,10 +40,9 @@ examples:
 
 #### Defined in
 
-[main.ts:148848](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L148848)
+main.ts:154275
 
 ___
-
 
 ### id
 
@@ -61,10 +56,9 @@ example:
 
 #### Defined in
 
-[main.ts:148822](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L148822)
+main.ts:154249
 
 ___
-
 
 ### limit
 
@@ -77,10 +71,9 @@ maximum value: 1000
 
 #### Defined in
 
-[main.ts:148832](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L148832)
+main.ts:154259
 
 ___
-
 
 ### offset
 
@@ -93,10 +86,9 @@ if you specify the 10 value, the first ten redirect chains in the results array 
 
 #### Defined in
 
-[main.ts:148837](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L148837)
+main.ts:154264
 
 ___
-
 
 ### tag
 
@@ -110,10 +102,9 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-[main.ts:148854](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L148854)
+main.ts:154281
 
 ___
-
 
 ### url
 
@@ -126,8 +117,4 @@ if you use this field, the API response will return only redirect chains which c
 
 #### Defined in
 
-[main.ts:148827](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L148827)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:154254

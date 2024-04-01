@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / BusinessDataYelpReviewsTaskGetResultInfo
+[Documentation](../README.md) / [Exports](../modules.md) / BusinessDataYelpReviewsTaskGetResultInfo
 
 # Class: BusinessDataYelpReviewsTaskGetResultInfo
 
@@ -60,7 +56,7 @@
 
 #### Defined in
 
-[main.ts:205403](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L205403)
+main.ts:210864
 
 ## Properties
 
@@ -76,10 +72,9 @@ Yelp business identifier
 
 #### Defined in
 
-[main.ts:205369](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L205369)
+main.ts:210830
 
 ___
-
 
 ### check\_url
 
@@ -94,10 +89,9 @@ you can use it to make sure that we provided accurate results
 
 #### Defined in
 
-[main.ts:205381](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L205381)
+main.ts:210842
 
 ___
-
 
 ### datetime
 
@@ -114,10 +108,9 @@ example:
 
 #### Defined in
 
-[main.ts:205386](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L205386)
+main.ts:210847
 
 ___
-
 
 ### items
 
@@ -132,10 +125,9 @@ you can get more results by using the depth parameter when setting a task
 
 #### Defined in
 
-[main.ts:205399](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L205399)
+main.ts:210860
 
 ___
-
 
 ### items\_count
 
@@ -150,10 +142,9 @@ you can get more results by using the depth parameter when setting a task
 
 #### Defined in
 
-[main.ts:205396](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L205396)
+main.ts:210857
 
 ___
-
 
 ### keyword
 
@@ -168,10 +159,9 @@ this field will contain the alias parameter if it was specified in a POST array
 
 #### Defined in
 
-[main.ts:205367](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L205367)
+main.ts:210828
 
 ___
-
 
 ### language\_code
 
@@ -185,10 +175,9 @@ language code in a POST array
 
 #### Defined in
 
-[main.ts:205378](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L205378)
+main.ts:210839
 
 ___
-
 
 ### location\_code
 
@@ -203,10 +192,9 @@ if location_code was not specified in a POST array, the value equals null
 
 #### Defined in
 
-[main.ts:205376](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L205376)
+main.ts:210837
 
 ___
-
 
 ### rating
 
@@ -220,10 +208,9 @@ the rating score submitted by the reviewer
 
 #### Defined in
 
-[main.ts:205391](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L205391)
+main.ts:210852
 
 ___
-
 
 ### reviews\_count
 
@@ -237,10 +224,9 @@ the total number of reviews
 
 #### Defined in
 
-[main.ts:205393](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L205393)
+main.ts:210854
 
 ___
-
 
 ### se\_domain
 
@@ -254,10 +240,9 @@ search engine domain in a POST array
 
 #### Defined in
 
-[main.ts:205373](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L205373)
+main.ts:210834
 
 ___
-
 
 ### title
 
@@ -272,10 +257,9 @@ the name of the local establishment for which the reviews are collected
 
 #### Defined in
 
-[main.ts:205389](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L205389)
+main.ts:210850
 
 ___
-
 
 ### type
 
@@ -289,7 +273,7 @@ type of element
 
 #### Defined in
 
-[main.ts:205371](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L205371)
+main.ts:210832
 
 ## Methods
 
@@ -309,10 +293,9 @@ type of element
 
 #### Defined in
 
-[main.ts:205412](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L205412)
+main.ts:210873
 
 ___
-
 
 ### toJSON
 
@@ -330,10 +313,9 @@ ___
 
 #### Defined in
 
-[main.ts:205445](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L205445)
+main.ts:210906
 
 ___
-
 
 ### fromJS
 
@@ -351,8 +333,4 @@ ___
 
 #### Defined in
 
-[main.ts:205438](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L205438)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:210899

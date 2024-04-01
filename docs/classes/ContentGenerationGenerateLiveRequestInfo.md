@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / ContentGenerationGenerateLiveRequestInfo
+[Documentation](../README.md) / [Exports](../modules.md) / ContentGenerationGenerateLiveRequestInfo
 
 # Class: ContentGenerationGenerateLiveRequestInfo
 
@@ -60,7 +56,7 @@
 
 #### Defined in
 
-[main.ts:159836](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L159836)
+main.ts:165263
 
 ## Properties
 
@@ -80,10 +76,9 @@ example:
 
 #### Defined in
 
-[main.ts:159814](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L159814)
+main.ts:165241
 
 ___
-
 
 ### avoid\_words
 
@@ -101,10 +96,9 @@ example:
 
 #### Defined in
 
-[main.ts:159808](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L159808)
+main.ts:165235
 
 ___
-
 
 ### creativity\_index
 
@@ -124,10 +118,9 @@ learn more about this parameter on our help center
 
 #### Defined in
 
-[main.ts:159771](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L159771)
+main.ts:165198
 
 ___
-
 
 ### max\_new\_tokens
 
@@ -146,10 +139,9 @@ learn more about this parameter on our help center
 
 #### Defined in
 
-[main.ts:159756](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L159756)
+main.ts:165183
 
 ___
-
 
 ### max\_tokens
 
@@ -168,10 +160,9 @@ learn more about this parameter on our help center
 
 #### Defined in
 
-[main.ts:159763](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L159763)
+main.ts:165190
 
 ___
-
 
 ### stop\_words
 
@@ -189,10 +180,9 @@ example:
 
 #### Defined in
 
-[main.ts:159820](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L159820)
+main.ts:165247
 
 ___
-
 
 ### supplement\_token
 
@@ -210,10 +200,9 @@ supplement_token values are unique for each subsequent task
 
 #### Defined in
 
-[main.ts:159826](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L159826)
+main.ts:165253
 
 ___
-
 
 ### tag
 
@@ -231,10 +220,9 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-[main.ts:159832](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L159832)
+main.ts:165259
 
 ___
-
 
 ### temperature
 
@@ -254,10 +242,9 @@ learn more about this parameter on our help center
 
 #### Defined in
 
-[main.ts:159802](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L159802)
+main.ts:165229
 
 ___
-
 
 ### text
 
@@ -275,10 +262,9 @@ learn more about tokens on our help center
 
 #### Defined in
 
-[main.ts:159749](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L159749)
+main.ts:165176
 
 ___
-
 
 ### token\_repetition\_penalty
 
@@ -296,10 +282,9 @@ default value: 1
 
 #### Defined in
 
-[main.ts:159777](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L159777)
+main.ts:165204
 
 ___
-
 
 ### top\_k
 
@@ -319,10 +304,9 @@ learn more about this parameter on our help center
 
 #### Defined in
 
-[main.ts:159785](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L159785)
+main.ts:165212
 
 ___
-
 
 ### top\_p
 
@@ -343,7 +327,7 @@ learn more about this parameter on our help center
 
 #### Defined in
 
-[main.ts:159794](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L159794)
+main.ts:165221
 
 ## Methods
 
@@ -363,10 +347,9 @@ learn more about this parameter on our help center
 
 #### Defined in
 
-[main.ts:159845](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L159845)
+main.ts:165272
 
 ___
-
 
 ### toJSON
 
@@ -384,10 +367,9 @@ ___
 
 #### Defined in
 
-[main.ts:159886](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L159886)
+main.ts:165313
 
 ___
-
 
 ### fromJS
 
@@ -405,8 +387,4 @@ ___
 
 #### Defined in
 
-[main.ts:159879](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L159879)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:165306

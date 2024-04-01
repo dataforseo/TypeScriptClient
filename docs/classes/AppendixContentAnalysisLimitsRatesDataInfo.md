@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / AppendixContentAnalysisLimitsRatesDataInfo
+[Documentation](../README.md) / [Exports](../modules.md) / AppendixContentAnalysisLimitsRatesDataInfo
 
 # Class: AppendixContentAnalysisLimitsRatesDataInfo
 
@@ -57,7 +53,7 @@
 
 #### Defined in
 
-[main.ts:208326](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L208326)
+main.ts:213851
 
 ## Properties
 
@@ -71,14 +67,13 @@
 
 #### Defined in
 
-[main.ts:208321](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L208321)
+main.ts:213846
 
 ___
 
-
 ### category\_trends
 
-• `Optional` **category\_trends**: [`AppendixInfo`](AppendixInfo.md)
+• `Optional` **category\_trends**: [`AppendixFunctionInfo`](AppendixFunctionInfo.md)
 
 #### Implementation of
 
@@ -86,10 +81,9 @@ ___
 
 #### Defined in
 
-[main.ts:208318](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L208318)
+main.ts:213843
 
 ___
-
 
 ### errors
 
@@ -101,10 +95,9 @@ ___
 
 #### Defined in
 
-[main.ts:208322](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L208322)
+main.ts:213847
 
 ___
-
 
 ### languages
 
@@ -116,10 +109,9 @@ ___
 
 #### Defined in
 
-[main.ts:208320](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L208320)
+main.ts:213845
 
 ___
-
 
 ### locations
 
@@ -131,14 +123,13 @@ ___
 
 #### Defined in
 
-[main.ts:208319](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L208319)
+main.ts:213844
 
 ___
 
-
 ### phrase\_trends
 
-• `Optional` **phrase\_trends**: [`AppendixInfo`](AppendixInfo.md)
+• `Optional` **phrase\_trends**: [`AppendixFunctionInfo`](AppendixFunctionInfo.md)
 
 #### Implementation of
 
@@ -146,14 +137,13 @@ ___
 
 #### Defined in
 
-[main.ts:208317](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L208317)
+main.ts:213842
 
 ___
 
-
 ### rating\_distribution
 
-• `Optional` **rating\_distribution**: [`AppendixInfo`](AppendixInfo.md)
+• `Optional` **rating\_distribution**: [`AppendixFunctionInfo`](AppendixFunctionInfo.md)
 
 #### Implementation of
 
@@ -161,14 +151,13 @@ ___
 
 #### Defined in
 
-[main.ts:208316](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L208316)
+main.ts:213841
 
 ___
 
-
 ### search
 
-• `Optional` **search**: [`AppendixInfo`](AppendixInfo.md)
+• `Optional` **search**: [`AppendixFunctionInfo`](AppendixFunctionInfo.md)
 
 #### Implementation of
 
@@ -176,14 +165,13 @@ ___
 
 #### Defined in
 
-[main.ts:208313](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L208313)
+main.ts:213838
 
 ___
 
-
 ### sentiment\_analysis
 
-• `Optional` **sentiment\_analysis**: [`AppendixInfo`](AppendixInfo.md)
+• `Optional` **sentiment\_analysis**: [`AppendixFunctionInfo`](AppendixFunctionInfo.md)
 
 #### Implementation of
 
@@ -191,14 +179,13 @@ ___
 
 #### Defined in
 
-[main.ts:208315](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L208315)
+main.ts:213840
 
 ___
 
-
 ### summary
 
-• `Optional` **summary**: [`AppendixInfo`](AppendixInfo.md)
+• `Optional` **summary**: [`AppendixFunctionInfo`](AppendixFunctionInfo.md)
 
 #### Implementation of
 
@@ -206,7 +193,7 @@ ___
 
 #### Defined in
 
-[main.ts:208314](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L208314)
+main.ts:213839
 
 ## Methods
 
@@ -226,10 +213,9 @@ ___
 
 #### Defined in
 
-[main.ts:208335](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L208335)
+main.ts:213860
 
 ___
-
 
 ### toJSON
 
@@ -247,10 +233,9 @@ ___
 
 #### Defined in
 
-[main.ts:208361](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L208361)
+main.ts:213886
 
 ___
-
 
 ### fromJS
 
@@ -268,8 +253,4 @@ ___
 
 #### Defined in
 
-[main.ts:208354](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L208354)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:213879

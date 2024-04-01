@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / GraphElement
+[Documentation](../README.md) / [Exports](../modules.md) / GraphElement
 
 # Class: GraphElement
 
@@ -50,7 +46,7 @@
 
 #### Defined in
 
-[main.ts:32352](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L32352)
+main.ts:33233
 
 ## Properties
 
@@ -66,10 +62,9 @@ the posting date
 
 #### Defined in
 
-[main.ts:32346](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L32346)
+main.ts:33227
 
 ___
-
 
 ### type
 
@@ -83,10 +78,9 @@ type of element
 
 #### Defined in
 
-[main.ts:32344](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L32344)
+main.ts:33225
 
 ___
-
 
 ### value
 
@@ -100,7 +94,7 @@ the value of the rating
 
 #### Defined in
 
-[main.ts:32348](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L32348)
+main.ts:33229
 
 ## Methods
 
@@ -120,10 +114,9 @@ the value of the rating
 
 #### Defined in
 
-[main.ts:32361](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L32361)
+main.ts:33242
 
 ___
-
 
 ### toJSON
 
@@ -141,10 +134,9 @@ ___
 
 #### Defined in
 
-[main.ts:32380](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L32380)
+main.ts:33261
 
 ___
-
 
 ### fromJS
 
@@ -162,8 +154,4 @@ ___
 
 #### Defined in
 
-[main.ts:32373](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L32373)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:33254

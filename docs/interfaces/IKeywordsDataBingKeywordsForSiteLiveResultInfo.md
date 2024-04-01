@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IKeywordsDataBingKeywordsForSiteLiveResultInfo
+[Documentation](../README.md) / [Exports](../modules.md) / IKeywordsDataBingKeywordsForSiteLiveResultInfo
 
 # Interface: IKeywordsDataBingKeywordsForSiteLiveResultInfo
 
@@ -40,10 +36,9 @@ legacy field, the value will always be null
 
 #### Defined in
 
-[main.ts:124840](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L124840)
+main.ts:130207
 
 ___
-
 
 ### competition
 
@@ -58,10 +53,9 @@ if there is no data the value is null
 
 #### Defined in
 
-[main.ts:124830](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L124830)
+main.ts:130197
 
 ___
-
 
 ### cpc
 
@@ -73,10 +67,9 @@ if there is no data, then the value is null
 
 #### Defined in
 
-[main.ts:124834](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L124834)
+main.ts:130201
 
 ___
-
 
 ### device
 
@@ -87,10 +80,9 @@ if there is no data, then the value is null
 
 #### Defined in
 
-[main.ts:124823](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L124823)
+main.ts:130190
 
 ___
-
 
 ### keyword
 
@@ -100,10 +92,9 @@ keyword in a POST array
 
 #### Defined in
 
-[main.ts:124814](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L124814)
+main.ts:130181
 
 ___
-
 
 ### language\_code
 
@@ -113,10 +104,9 @@ language code in a POST array
 
 #### Defined in
 
-[main.ts:124818](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L124818)
+main.ts:130185
 
 ___
-
 
 ### location\_code
 
@@ -126,10 +116,9 @@ location code in a POST array
 
 #### Defined in
 
-[main.ts:124816](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L124816)
+main.ts:130183
 
 ___
-
 
 ### monthly\_searches
 
@@ -141,10 +130,9 @@ if there is no data, then the value is null
 
 #### Defined in
 
-[main.ts:124844](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L124844)
+main.ts:130211
 
 ___
-
 
 ### search\_partners
 
@@ -154,10 +142,9 @@ indicates whether data from partner networks included in the response
 
 #### Defined in
 
-[main.ts:124820](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L124820)
+main.ts:130187
 
 ___
-
 
 ### search\_volume
 
@@ -168,8 +155,4 @@ represents the (approximate) number of searches for the keyword on the Bing sear
 
 #### Defined in
 
-[main.ts:124837](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L124837)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:130204

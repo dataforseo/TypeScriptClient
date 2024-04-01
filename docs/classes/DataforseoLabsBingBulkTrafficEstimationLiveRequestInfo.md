@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / DataforseoLabsBingBulkTrafficEstimationLiveRequestInfo
+[Documentation](../README.md) / [Exports](../modules.md) / DataforseoLabsBingBulkTrafficEstimationLiveRequestInfo
 
 # Class: DataforseoLabsBingBulkTrafficEstimationLiveRequestInfo
 
@@ -54,7 +50,7 @@
 
 #### Defined in
 
-[main.ts:102496](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L102496)
+main.ts:104873
 
 ## Properties
 
@@ -77,10 +73,9 @@ default value:
 
 #### Defined in
 
-[main.ts:102486](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L102486)
+main.ts:104863
 
 ___
-
 
 ### language\_code
 
@@ -99,10 +94,9 @@ en
 
 #### Defined in
 
-[main.ts:102477](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L102477)
+main.ts:104854
 
 ___
-
 
 ### language\_name
 
@@ -121,10 +115,9 @@ English
 
 #### Defined in
 
-[main.ts:102470](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L102470)
+main.ts:104847
 
 ___
-
 
 ### location\_code
 
@@ -144,10 +137,9 @@ example:
 
 #### Defined in
 
-[main.ts:102463](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L102463)
+main.ts:104840
 
 ___
-
 
 ### location\_name
 
@@ -167,10 +159,9 @@ United States
 
 #### Defined in
 
-[main.ts:102455](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L102455)
+main.ts:104832
 
 ___
-
 
 ### tag
 
@@ -188,10 +179,9 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-[main.ts:102492](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L102492)
+main.ts:104869
 
 ___
-
 
 ### targets
 
@@ -210,7 +200,7 @@ you can set up to 1000 domains, subdomains or webpages
 
 #### Defined in
 
-[main.ts:102447](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L102447)
+main.ts:104824
 
 ## Methods
 
@@ -230,10 +220,9 @@ you can set up to 1000 domains, subdomains or webpages
 
 #### Defined in
 
-[main.ts:102505](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L102505)
+main.ts:104882
 
 ___
-
 
 ### toJSON
 
@@ -251,10 +240,9 @@ ___
 
 #### Defined in
 
-[main.ts:102536](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L102536)
+main.ts:104913
 
 ___
-
 
 ### fromJS
 
@@ -272,8 +260,4 @@ ___
 
 #### Defined in
 
-[main.ts:102529](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L102529)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:104906

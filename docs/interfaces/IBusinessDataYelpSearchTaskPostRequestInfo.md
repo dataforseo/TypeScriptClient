@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IBusinessDataYelpSearchTaskPostRequestInfo
+[Documentation](../README.md) / [Exports](../modules.md) / IBusinessDataYelpSearchTaskPostRequestInfo
 
 # Interface: IBusinessDataYelpSearchTaskPostRequestInfo
 
@@ -45,10 +41,9 @@ maximal value: 70
 
 #### Defined in
 
-[main.ts:203530](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L203530)
+main.ts:208991
 
 ___
-
 
 ### keyword
 
@@ -63,10 +58,9 @@ Note: if the keyword is not specified, the results will be returned based on the
 
 #### Defined in
 
-[main.ts:203487](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L203487)
+main.ts:208948
 
 ___
-
 
 ### language\_code
 
@@ -81,10 +75,9 @@ en
 
 #### Defined in
 
-[main.ts:203523](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L203523)
+main.ts:208984
 
 ___
-
 
 ### language\_name
 
@@ -99,10 +92,9 @@ English
 
 #### Defined in
 
-[main.ts:203516](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L203516)
+main.ts:208977
 
 ___
-
 
 ### location\_code
 
@@ -117,10 +109,9 @@ example:
 
 #### Defined in
 
-[main.ts:203509](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L203509)
+main.ts:208970
 
 ___
-
 
 ### location\_name
 
@@ -135,10 +126,9 @@ West Los Angeles,California,United States
 
 #### Defined in
 
-[main.ts:203502](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L203502)
+main.ts:208963
 
 ___
-
 
 ### pingback\_url
 
@@ -156,10 +146,9 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-[main.ts:203565](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L203565)
+main.ts:209026
 
 ___
-
 
 ### postback\_url
 
@@ -177,10 +166,9 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-[main.ts:203555](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L203555)
+main.ts:209016
 
 ___
-
 
 ### priority
 
@@ -196,10 +184,9 @@ The cost can be calculated on the Pricing page.
 
 #### Defined in
 
-[main.ts:203495](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L203495)
+main.ts:208956
 
 ___
-
 
 ### sort\_by
 
@@ -216,10 +203,9 @@ default value: recommended
 
 #### Defined in
 
-[main.ts:203539](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L203539)
+main.ts:209000
 
 ___
-
 
 ### tag
 
@@ -233,8 +219,4 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-[main.ts:203545](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L203545)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:209006

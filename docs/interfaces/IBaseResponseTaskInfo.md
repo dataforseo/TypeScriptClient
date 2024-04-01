@@ -1,955 +1,973 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IBaseResponseTaskInfo
+[Documentation](../README.md) / [Exports](../modules.md) / IBaseResponseTaskInfo
 
 # Interface: IBaseResponseTaskInfo
 
 ## Hierarchy
 
 - **`IBaseResponseTaskInfo`**
-  
+
   ↳ [`ISerpIdListTaskInfo`](ISerpIdListTaskInfo.md)
-  
+
   ↳ [`ISerpErrorsTaskInfo`](ISerpErrorsTaskInfo.md)
-  
+
   ↳ [`ISerpScreenshotTaskInfo`](ISerpScreenshotTaskInfo.md)
-  
+
   ↳ [`ISerpAiSummaryTaskInfo`](ISerpAiSummaryTaskInfo.md)
-  
+
   ↳ [`ISerpGoogleLocationsTaskInfo`](ISerpGoogleLocationsTaskInfo.md)
-  
+
   ↳ [`ISerpGoogleLocationsCountryTaskInfo`](ISerpGoogleLocationsCountryTaskInfo.md)
-  
+
   ↳ [`ISerpGoogleLanguagesTaskInfo`](ISerpGoogleLanguagesTaskInfo.md)
-  
+
   ↳ [`ISerpGoogleOrganicTaskPostTaskInfo`](ISerpGoogleOrganicTaskPostTaskInfo.md)
-  
+
   ↳ [`ISerpGoogleOrganicTasksReadyTaskInfo`](ISerpGoogleOrganicTasksReadyTaskInfo.md)
-  
+
   ↳ [`ISerpGoogleOrganicTasksFixedTaskInfo`](ISerpGoogleOrganicTasksFixedTaskInfo.md)
-  
+
   ↳ [`ISerpGoogleOrganicTaskGetRegularTaskInfo`](ISerpGoogleOrganicTaskGetRegularTaskInfo.md)
-  
+
   ↳ [`ISerpGoogleOrganicTaskGetAdvancedTaskInfo`](ISerpGoogleOrganicTaskGetAdvancedTaskInfo.md)
-  
+
   ↳ [`ISerpGoogleOrganicTaskGetHtmlTaskInfo`](ISerpGoogleOrganicTaskGetHtmlTaskInfo.md)
-  
+
   ↳ [`ISerpGoogleOrganicLiveRegularTaskInfo`](ISerpGoogleOrganicLiveRegularTaskInfo.md)
-  
+
   ↳ [`ISerpGoogleOrganicLiveAdvancedTaskInfo`](ISerpGoogleOrganicLiveAdvancedTaskInfo.md)
-  
+
   ↳ [`ISerpGoogleOrganicLiveHtmlTaskInfo`](ISerpGoogleOrganicLiveHtmlTaskInfo.md)
-  
+
   ↳ [`ISerpGoogleMapsTaskPostTaskInfo`](ISerpGoogleMapsTaskPostTaskInfo.md)
-  
+
   ↳ [`ISerpGoogleMapsTasksReadyTaskInfo`](ISerpGoogleMapsTasksReadyTaskInfo.md)
-  
+
   ↳ [`ISerpGoogleMapsTasksFixedTaskInfo`](ISerpGoogleMapsTasksFixedTaskInfo.md)
-  
+
   ↳ [`ISerpGoogleMapsTaskGetAdvancedTaskInfo`](ISerpGoogleMapsTaskGetAdvancedTaskInfo.md)
-  
+
   ↳ [`ISerpGoogleMapsLiveAdvancedTaskInfo`](ISerpGoogleMapsLiveAdvancedTaskInfo.md)
-  
+
   ↳ [`ISerpGoogleLocalFinderTaskPostTaskInfo`](ISerpGoogleLocalFinderTaskPostTaskInfo.md)
-  
+
   ↳ [`ISerpGoogleLocalFinderTasksReadyTaskInfo`](ISerpGoogleLocalFinderTasksReadyTaskInfo.md)
-  
+
   ↳ [`ISerpGoogleLocalFinderTasksFixedTaskInfo`](ISerpGoogleLocalFinderTasksFixedTaskInfo.md)
-  
+
   ↳ [`ISerpGoogleLocalFinderTaskGetAdvancedTaskInfo`](ISerpGoogleLocalFinderTaskGetAdvancedTaskInfo.md)
-  
+
   ↳ [`ISerpGoogleLocalFinderTaskGetHtmlTaskInfo`](ISerpGoogleLocalFinderTaskGetHtmlTaskInfo.md)
-  
+
   ↳ [`ISerpGoogleLocalFinderLiveAdvancedTaskInfo`](ISerpGoogleLocalFinderLiveAdvancedTaskInfo.md)
-  
+
   ↳ [`ISerpGoogleLocalFinderLiveHtmlTaskInfo`](ISerpGoogleLocalFinderLiveHtmlTaskInfo.md)
-  
+
   ↳ [`ISerpGoogleNewsTaskPostTaskInfo`](ISerpGoogleNewsTaskPostTaskInfo.md)
-  
+
   ↳ [`ISerpGoogleNewsTasksReadyTaskInfo`](ISerpGoogleNewsTasksReadyTaskInfo.md)
-  
+
   ↳ [`ISerpGoogleNewsTasksFixedTaskInfo`](ISerpGoogleNewsTasksFixedTaskInfo.md)
-  
+
   ↳ [`ISerpGoogleNewsTaskGetAdvancedTaskInfo`](ISerpGoogleNewsTaskGetAdvancedTaskInfo.md)
-  
+
   ↳ [`ISerpGoogleNewsTaskGetHtmlTaskInfo`](ISerpGoogleNewsTaskGetHtmlTaskInfo.md)
-  
+
   ↳ [`ISerpGoogleNewsLiveAdvancedTaskInfo`](ISerpGoogleNewsLiveAdvancedTaskInfo.md)
-  
+
   ↳ [`ISerpGoogleNewsLiveHtmlTaskInfo`](ISerpGoogleNewsLiveHtmlTaskInfo.md)
-  
+
   ↳ [`ISerpGoogleEventsTaskPostTaskInfo`](ISerpGoogleEventsTaskPostTaskInfo.md)
-  
+
   ↳ [`ISerpGoogleEventsTasksReadyTaskInfo`](ISerpGoogleEventsTasksReadyTaskInfo.md)
-  
+
   ↳ [`ISerpGoogleEventsTasksFixedTaskInfo`](ISerpGoogleEventsTasksFixedTaskInfo.md)
-  
+
   ↳ [`ISerpGoogleEventsTaskGetAdvancedTaskInfo`](ISerpGoogleEventsTaskGetAdvancedTaskInfo.md)
-  
+
   ↳ [`ISerpGoogleEventsLiveAdvancedTaskInfo`](ISerpGoogleEventsLiveAdvancedTaskInfo.md)
-  
+
   ↳ [`ISerpGoogleImagesTaskPostTaskInfo`](ISerpGoogleImagesTaskPostTaskInfo.md)
-  
+
   ↳ [`ISerpGoogleImagesTasksReadyTaskInfo`](ISerpGoogleImagesTasksReadyTaskInfo.md)
-  
+
   ↳ [`ISerpGoogleImagesTasksFixedTaskInfo`](ISerpGoogleImagesTasksFixedTaskInfo.md)
-  
+
   ↳ [`ISerpGoogleImagesTaskGetAdvancedTaskInfo`](ISerpGoogleImagesTaskGetAdvancedTaskInfo.md)
-  
+
   ↳ [`ISerpGoogleImagesTaskGetHtmlTaskInfo`](ISerpGoogleImagesTaskGetHtmlTaskInfo.md)
-  
+
   ↳ [`ISerpGoogleImagesLiveAdvancedTaskInfo`](ISerpGoogleImagesLiveAdvancedTaskInfo.md)
-  
+
   ↳ [`ISerpGoogleImagesLiveHtmlTaskInfo`](ISerpGoogleImagesLiveHtmlTaskInfo.md)
-  
+
   ↳ [`ISerpGoogleSearchByImageTaskPostTaskInfo`](ISerpGoogleSearchByImageTaskPostTaskInfo.md)
-  
+
   ↳ [`ISerpGoogleSearchByImageTasksReadyTaskInfo`](ISerpGoogleSearchByImageTasksReadyTaskInfo.md)
-  
+
   ↳ [`ISerpGoogleSearchByImageTasksFixedTaskInfo`](ISerpGoogleSearchByImageTasksFixedTaskInfo.md)
-  
+
   ↳ [`ISerpGoogleSearchByImageTaskGetAdvancedTaskInfo`](ISerpGoogleSearchByImageTaskGetAdvancedTaskInfo.md)
-  
+
   ↳ [`ISerpGoogleJobsTaskPostTaskInfo`](ISerpGoogleJobsTaskPostTaskInfo.md)
-  
+
   ↳ [`ISerpGoogleJobsTasksReadyTaskInfo`](ISerpGoogleJobsTasksReadyTaskInfo.md)
-  
+
   ↳ [`ISerpGoogleJobsTasksFixedTaskInfo`](ISerpGoogleJobsTasksFixedTaskInfo.md)
-  
+
   ↳ [`ISerpGoogleJobsTaskGetAdvancedTaskInfo`](ISerpGoogleJobsTaskGetAdvancedTaskInfo.md)
-  
+
   ↳ [`ISerpGoogleJobsTaskGetHtmlTaskInfo`](ISerpGoogleJobsTaskGetHtmlTaskInfo.md)
-  
+
+  ↳ [`ISerpGoogleAutocompleteTaskPostTaskInfo`](ISerpGoogleAutocompleteTaskPostTaskInfo.md)
+
+  ↳ [`ISerpGoogleAutocompleteTasksReadyTaskInfo`](ISerpGoogleAutocompleteTasksReadyTaskInfo.md)
+
+  ↳ [`ISerpGoogleAutocompleteTasksFixedTaskInfo`](ISerpGoogleAutocompleteTasksFixedTaskInfo.md)
+
+  ↳ [`ISerpGoogleAutocompleteTaskGetAdvancedTaskInfo`](ISerpGoogleAutocompleteTaskGetAdvancedTaskInfo.md)
+
+  ↳ [`ISerpGoogleAutocompleteLiveAdvancedTaskInfo`](ISerpGoogleAutocompleteLiveAdvancedTaskInfo.md)
+
   ↳ [`ISerpGoogleDatasetSearchTaskPostTaskInfo`](ISerpGoogleDatasetSearchTaskPostTaskInfo.md)
-  
+
   ↳ [`ISerpGoogleDatasetSearchTasksReadyTaskInfo`](ISerpGoogleDatasetSearchTasksReadyTaskInfo.md)
-  
+
   ↳ [`ISerpGoogleDatasetSearchTasksFixedTaskInfo`](ISerpGoogleDatasetSearchTasksFixedTaskInfo.md)
-  
+
   ↳ [`ISerpGoogleDatasetSearchTaskGetAdvancedTaskInfo`](ISerpGoogleDatasetSearchTaskGetAdvancedTaskInfo.md)
-  
+
   ↳ [`ISerpGoogleDatasetSearchLiveAdvancedTaskInfo`](ISerpGoogleDatasetSearchLiveAdvancedTaskInfo.md)
-  
+
   ↳ [`ISerpGoogleDatasetInfoTaskPostTaskInfo`](ISerpGoogleDatasetInfoTaskPostTaskInfo.md)
-  
+
   ↳ [`ISerpGoogleDatasetInfoTasksReadyTaskInfo`](ISerpGoogleDatasetInfoTasksReadyTaskInfo.md)
-  
+
   ↳ [`ISerpGoogleDatasetInfoTasksFixedTaskInfo`](ISerpGoogleDatasetInfoTasksFixedTaskInfo.md)
-  
+
   ↳ [`ISerpGoogleDatasetInfoTaskGetAdvancedTaskInfo`](ISerpGoogleDatasetInfoTaskGetAdvancedTaskInfo.md)
-  
+
   ↳ [`ISerpGoogleDatasetInfoLiveAdvancedTaskInfo`](ISerpGoogleDatasetInfoLiveAdvancedTaskInfo.md)
-  
+
   ↳ [`ISerpBingLocationsTaskInfo`](ISerpBingLocationsTaskInfo.md)
-  
+
   ↳ [`ISerpBingLocationsCountryTaskInfo`](ISerpBingLocationsCountryTaskInfo.md)
-  
+
   ↳ [`ISerpBingLanguagesTaskInfo`](ISerpBingLanguagesTaskInfo.md)
-  
+
   ↳ [`ISerpBingOrganicTaskPostTaskInfo`](ISerpBingOrganicTaskPostTaskInfo.md)
-  
+
   ↳ [`ISerpBingOrganicTasksReadyTaskInfo`](ISerpBingOrganicTasksReadyTaskInfo.md)
-  
+
   ↳ [`ISerpBingOrganicTasksFixedTaskInfo`](ISerpBingOrganicTasksFixedTaskInfo.md)
-  
+
   ↳ [`ISerpBingOrganicTaskGetRegularTaskInfo`](ISerpBingOrganicTaskGetRegularTaskInfo.md)
-  
+
   ↳ [`ISerpBingOrganicTaskGetAdvancedTaskInfo`](ISerpBingOrganicTaskGetAdvancedTaskInfo.md)
-  
+
   ↳ [`ISerpBingOrganicTaskGetHtmlTaskInfo`](ISerpBingOrganicTaskGetHtmlTaskInfo.md)
-  
+
   ↳ [`ISerpBingOrganicLiveRegularTaskInfo`](ISerpBingOrganicLiveRegularTaskInfo.md)
-  
+
   ↳ [`ISerpBingOrganicLiveAdvancedTaskInfo`](ISerpBingOrganicLiveAdvancedTaskInfo.md)
-  
+
   ↳ [`ISerpBingOrganicLiveHtmlTaskInfo`](ISerpBingOrganicLiveHtmlTaskInfo.md)
-  
+
   ↳ [`ISerpBingLocalPackTaskPostTaskInfo`](ISerpBingLocalPackTaskPostTaskInfo.md)
-  
+
   ↳ [`ISerpBingLocalPackTasksReadyTaskInfo`](ISerpBingLocalPackTasksReadyTaskInfo.md)
-  
+
   ↳ [`ISerpBingLocalPackTasksFixedTaskInfo`](ISerpBingLocalPackTasksFixedTaskInfo.md)
-  
+
   ↳ [`ISerpBingLocalPackTaskGetRegularTaskInfo`](ISerpBingLocalPackTaskGetRegularTaskInfo.md)
-  
+
   ↳ [`ISerpBingLocalPackTaskGetHtmlTaskInfo`](ISerpBingLocalPackTaskGetHtmlTaskInfo.md)
-  
+
   ↳ [`ISerpBingLocalPackLiveRegularTaskInfo`](ISerpBingLocalPackLiveRegularTaskInfo.md)
-  
+
   ↳ [`ISerpBingLocalPackLiveHtmlTaskInfo`](ISerpBingLocalPackLiveHtmlTaskInfo.md)
-  
+
   ↳ [`ISerpYoutubeLocationsTaskInfo`](ISerpYoutubeLocationsTaskInfo.md)
-  
+
   ↳ [`ISerpYoutubeLocationsCountryTaskInfo`](ISerpYoutubeLocationsCountryTaskInfo.md)
-  
+
   ↳ [`ISerpYoutubeLanguagesTaskInfo`](ISerpYoutubeLanguagesTaskInfo.md)
-  
+
   ↳ [`ISerpYoutubeVideoInfoTaskPostTaskInfo`](ISerpYoutubeVideoInfoTaskPostTaskInfo.md)
-  
+
   ↳ [`ISerpYoutubeVideoInfoTasksReadyTaskInfo`](ISerpYoutubeVideoInfoTasksReadyTaskInfo.md)
-  
+
   ↳ [`ISerpYoutubeVideoInfoTasksFixedTaskInfo`](ISerpYoutubeVideoInfoTasksFixedTaskInfo.md)
-  
+
   ↳ [`ISerpYoutubeVideoInfoTaskGetAdvancedTaskInfo`](ISerpYoutubeVideoInfoTaskGetAdvancedTaskInfo.md)
-  
+
   ↳ [`ISerpYoutubeVideoInfoLiveAdvancedTaskInfo`](ISerpYoutubeVideoInfoLiveAdvancedTaskInfo.md)
-  
+
   ↳ [`ISerpYoutubeVideoSubtitlesTaskPostTaskInfo`](ISerpYoutubeVideoSubtitlesTaskPostTaskInfo.md)
-  
+
   ↳ [`ISerpYoutubeVideoSubtitlesTasksReadyTaskInfo`](ISerpYoutubeVideoSubtitlesTasksReadyTaskInfo.md)
-  
+
   ↳ [`ISerpYoutubeVideoSubtitlesTasksFixedTaskInfo`](ISerpYoutubeVideoSubtitlesTasksFixedTaskInfo.md)
-  
+
   ↳ [`ISerpYoutubeVideoSubtitlesTaskGetAdvancedTaskInfo`](ISerpYoutubeVideoSubtitlesTaskGetAdvancedTaskInfo.md)
-  
+
   ↳ [`ISerpYoutubeVideoSubtitlesLiveAdvancedTaskInfo`](ISerpYoutubeVideoSubtitlesLiveAdvancedTaskInfo.md)
-  
+
   ↳ [`ISerpYoutubeVideoCommentsTaskPostTaskInfo`](ISerpYoutubeVideoCommentsTaskPostTaskInfo.md)
-  
+
   ↳ [`ISerpYoutubeVideoCommentsTasksReadyTaskInfo`](ISerpYoutubeVideoCommentsTasksReadyTaskInfo.md)
-  
+
   ↳ [`ISerpYoutubeVideoCommentsTasksFixedTaskInfo`](ISerpYoutubeVideoCommentsTasksFixedTaskInfo.md)
-  
+
   ↳ [`ISerpYoutubeVideoCommentsTaskGetAdvancedTaskInfo`](ISerpYoutubeVideoCommentsTaskGetAdvancedTaskInfo.md)
-  
+
   ↳ [`ISerpYoutubeVideoCommentsLiveAdvancedTaskInfo`](ISerpYoutubeVideoCommentsLiveAdvancedTaskInfo.md)
-  
+
   ↳ [`ISerpYahooLocationsTaskInfo`](ISerpYahooLocationsTaskInfo.md)
-  
+
   ↳ [`ISerpYahooLocationsCountryTaskInfo`](ISerpYahooLocationsCountryTaskInfo.md)
-  
+
   ↳ [`ISerpYahooLanguagesTaskInfo`](ISerpYahooLanguagesTaskInfo.md)
-  
+
   ↳ [`ISerpYahooOrganicTaskPostTaskInfo`](ISerpYahooOrganicTaskPostTaskInfo.md)
-  
+
   ↳ [`ISerpYahooOrganicTasksReadyTaskInfo`](ISerpYahooOrganicTasksReadyTaskInfo.md)
-  
+
   ↳ [`ISerpYahooOrganicTasksFixedTaskInfo`](ISerpYahooOrganicTasksFixedTaskInfo.md)
-  
+
   ↳ [`ISerpYahooOrganicTaskGetRegularTaskInfo`](ISerpYahooOrganicTaskGetRegularTaskInfo.md)
-  
+
   ↳ [`ISerpYahooOrganicTaskGetAdvancedTaskInfo`](ISerpYahooOrganicTaskGetAdvancedTaskInfo.md)
-  
+
   ↳ [`ISerpYahooOrganicTaskGetHtmlTaskInfo`](ISerpYahooOrganicTaskGetHtmlTaskInfo.md)
-  
+
   ↳ [`ISerpYahooOrganicLiveRegularTaskInfo`](ISerpYahooOrganicLiveRegularTaskInfo.md)
-  
+
   ↳ [`ISerpYahooOrganicLiveAdvancedTaskInfo`](ISerpYahooOrganicLiveAdvancedTaskInfo.md)
-  
+
   ↳ [`ISerpYahooOrganicLiveHtmlTaskInfo`](ISerpYahooOrganicLiveHtmlTaskInfo.md)
-  
+
   ↳ [`ISerpBaiduLocationsTaskInfo`](ISerpBaiduLocationsTaskInfo.md)
-  
+
   ↳ [`ISerpBaiduLocationsCountryTaskInfo`](ISerpBaiduLocationsCountryTaskInfo.md)
-  
+
   ↳ [`ISerpBaiduLanguagesTaskInfo`](ISerpBaiduLanguagesTaskInfo.md)
-  
+
   ↳ [`ISerpBaiduOrganicTaskPostTaskInfo`](ISerpBaiduOrganicTaskPostTaskInfo.md)
-  
+
   ↳ [`ISerpBaiduOrganicTasksReadyTaskInfo`](ISerpBaiduOrganicTasksReadyTaskInfo.md)
-  
+
   ↳ [`ISerpBaiduOrganicTasksFixedTaskInfo`](ISerpBaiduOrganicTasksFixedTaskInfo.md)
-  
+
   ↳ [`ISerpBaiduOrganicTaskGetRegularTaskInfo`](ISerpBaiduOrganicTaskGetRegularTaskInfo.md)
-  
+
   ↳ [`ISerpBaiduOrganicTaskGetAdvancedTaskInfo`](ISerpBaiduOrganicTaskGetAdvancedTaskInfo.md)
-  
+
   ↳ [`ISerpBaiduOrganicTaskGetHtmlTaskInfo`](ISerpBaiduOrganicTaskGetHtmlTaskInfo.md)
-  
+
   ↳ [`ISerpNaverOrganicTaskPostTaskInfo`](ISerpNaverOrganicTaskPostTaskInfo.md)
-  
+
   ↳ [`ISerpNaverOrganicTasksReadyTaskInfo`](ISerpNaverOrganicTasksReadyTaskInfo.md)
-  
+
   ↳ [`ISerpNaverOrganicTasksFixedTaskInfo`](ISerpNaverOrganicTasksFixedTaskInfo.md)
-  
+
   ↳ [`ISerpNaverOrganicTaskGetRegularTaskInfo`](ISerpNaverOrganicTaskGetRegularTaskInfo.md)
-  
+
   ↳ [`ISerpNaverOrganicTaskGetAdvancedTaskInfo`](ISerpNaverOrganicTaskGetAdvancedTaskInfo.md)
-  
+
   ↳ [`ISerpNaverOrganicTaskGetHtmlTaskInfo`](ISerpNaverOrganicTaskGetHtmlTaskInfo.md)
-  
+
   ↳ [`ISerpSeznamLocationsTaskInfo`](ISerpSeznamLocationsTaskInfo.md)
-  
+
   ↳ [`ISerpSeznamLocationsCountryTaskInfo`](ISerpSeznamLocationsCountryTaskInfo.md)
-  
+
   ↳ [`ISerpSeznamLanguagesTaskInfo`](ISerpSeznamLanguagesTaskInfo.md)
-  
+
   ↳ [`ISerpSeznamOrganicTaskPostTaskInfo`](ISerpSeznamOrganicTaskPostTaskInfo.md)
-  
+
   ↳ [`ISerpSeznamOrganicTasksReadyTaskInfo`](ISerpSeznamOrganicTasksReadyTaskInfo.md)
-  
+
   ↳ [`ISerpSeznamOrganicTasksFixedTaskInfo`](ISerpSeznamOrganicTasksFixedTaskInfo.md)
-  
+
   ↳ [`ISerpSeznamOrganicTaskGetRegularTaskInfo`](ISerpSeznamOrganicTaskGetRegularTaskInfo.md)
-  
+
   ↳ [`ISerpSeznamOrganicTaskGetAdvancedTaskInfo`](ISerpSeznamOrganicTaskGetAdvancedTaskInfo.md)
-  
+
   ↳ [`ISerpSeznamOrganicTaskGetHtmlTaskInfo`](ISerpSeznamOrganicTaskGetHtmlTaskInfo.md)
-  
+
   ↳ [`IDomainAnalyticsIdListTaskInfo`](IDomainAnalyticsIdListTaskInfo.md)
-  
+
   ↳ [`IDomainAnalyticsErrorsTaskInfo`](IDomainAnalyticsErrorsTaskInfo.md)
-  
+
   ↳ [`IDomainAnalyticsTechnologiesAvailableFiltersTaskInfo`](IDomainAnalyticsTechnologiesAvailableFiltersTaskInfo.md)
-  
+
   ↳ [`IDomainAnalyticsTechnologiesLocationsTaskInfo`](IDomainAnalyticsTechnologiesLocationsTaskInfo.md)
-  
+
   ↳ [`IDomainAnalyticsTechnologiesLanguagesTaskInfo`](IDomainAnalyticsTechnologiesLanguagesTaskInfo.md)
-  
+
   ↳ [`IDomainAnalyticsTechnologiesTechnologiesTaskInfo`](IDomainAnalyticsTechnologiesTechnologiesTaskInfo.md)
-  
+
   ↳ [`IDomainAnalyticsTechnologiesAggregationTechnologiesLiveTaskInfo`](IDomainAnalyticsTechnologiesAggregationTechnologiesLiveTaskInfo.md)
-  
+
   ↳ [`IDomainAnalyticsTechnologiesTechnologiesSummaryLiveTaskInfo`](IDomainAnalyticsTechnologiesTechnologiesSummaryLiveTaskInfo.md)
-  
+
   ↳ [`IDomainAnalyticsTechnologiesTechnologyStatsLiveTaskInfo`](IDomainAnalyticsTechnologiesTechnologyStatsLiveTaskInfo.md)
-  
+
   ↳ [`IDomainAnalyticsTechnologiesDomainsByTechnologyLiveTaskInfo`](IDomainAnalyticsTechnologiesDomainsByTechnologyLiveTaskInfo.md)
-  
+
   ↳ [`IDomainAnalyticsTechnologiesDomainsByHtmlTermsLiveTaskInfo`](IDomainAnalyticsTechnologiesDomainsByHtmlTermsLiveTaskInfo.md)
-  
+
   ↳ [`IDomainAnalyticsTechnologiesDomainTechnologiesLiveTaskInfo`](IDomainAnalyticsTechnologiesDomainTechnologiesLiveTaskInfo.md)
-  
+
   ↳ [`IDomainAnalyticsWhoisAvailableFiltersTaskInfo`](IDomainAnalyticsWhoisAvailableFiltersTaskInfo.md)
-  
+
   ↳ [`IDomainAnalyticsWhoisOverviewLiveTaskInfo`](IDomainAnalyticsWhoisOverviewLiveTaskInfo.md)
-  
+
   ↳ [`IDataforseoLabsIdListTaskInfo`](IDataforseoLabsIdListTaskInfo.md)
-  
+
   ↳ [`IDataforseoLabsStatusTaskInfo`](IDataforseoLabsStatusTaskInfo.md)
-  
+
   ↳ [`IDataforseoLabsErrorsTaskInfo`](IDataforseoLabsErrorsTaskInfo.md)
-  
+
   ↳ [`IDataforseoLabsAvailableFiltersTaskInfo`](IDataforseoLabsAvailableFiltersTaskInfo.md)
-  
+
   ↳ [`IDataforseoLabsLocationsAndLanguagesTaskInfo`](IDataforseoLabsLocationsAndLanguagesTaskInfo.md)
-  
+
   ↳ [`IDataforseoLabsCategoriesTaskInfo`](IDataforseoLabsCategoriesTaskInfo.md)
-  
+
   ↳ [`IDataforseoLabsGoogleAvailableHistoryTaskInfo`](IDataforseoLabsGoogleAvailableHistoryTaskInfo.md)
-  
+
   ↳ [`IDataforseoLabsGoogleKeywordsForSiteLiveTaskInfo`](IDataforseoLabsGoogleKeywordsForSiteLiveTaskInfo.md)
-  
+
   ↳ [`IDataforseoLabsGoogleRelatedKeywordsLiveTaskInfo`](IDataforseoLabsGoogleRelatedKeywordsLiveTaskInfo.md)
-  
+
   ↳ [`IDataforseoLabsGoogleKeywordSuggestionsLiveTaskInfo`](IDataforseoLabsGoogleKeywordSuggestionsLiveTaskInfo.md)
-  
+
   ↳ [`IDataforseoLabsGoogleKeywordIdeasLiveTaskInfo`](IDataforseoLabsGoogleKeywordIdeasLiveTaskInfo.md)
-  
+
   ↳ [`IDataforseoLabsGoogleHistoricalSearchVolumeLiveTaskInfo`](IDataforseoLabsGoogleHistoricalSearchVolumeLiveTaskInfo.md)
-  
+
   ↳ [`IDataforseoLabsGoogleBulkKeywordDifficultyLiveTaskInfo`](IDataforseoLabsGoogleBulkKeywordDifficultyLiveTaskInfo.md)
-  
+
   ↳ [`IDataforseoLabsGoogleSearchIntentLiveTaskInfo`](IDataforseoLabsGoogleSearchIntentLiveTaskInfo.md)
-  
+
   ↳ [`IDataforseoLabsGoogleCategoriesForDomainLiveTaskInfo`](IDataforseoLabsGoogleCategoriesForDomainLiveTaskInfo.md)
-  
+
   ↳ [`IDataforseoLabsGoogleKeywordsForCategoriesLiveTaskInfo`](IDataforseoLabsGoogleKeywordsForCategoriesLiveTaskInfo.md)
-  
+
   ↳ [`IDataforseoLabsGoogleDomainMetricsByCategoriesLiveTaskInfo`](IDataforseoLabsGoogleDomainMetricsByCategoriesLiveTaskInfo.md)
-  
+
   ↳ [`IDataforseoLabsGoogleTopSearchesLiveTaskInfo`](IDataforseoLabsGoogleTopSearchesLiveTaskInfo.md)
-  
+
   ↳ [`IDataforseoLabsGoogleDomainWhoisOverviewLiveTaskInfo`](IDataforseoLabsGoogleDomainWhoisOverviewLiveTaskInfo.md)
-  
+
   ↳ [`IDataforseoLabsGoogleRankedKeywordsLiveTaskInfo`](IDataforseoLabsGoogleRankedKeywordsLiveTaskInfo.md)
-  
+
   ↳ [`IDataforseoLabsGoogleSerpCompetitorsLiveTaskInfo`](IDataforseoLabsGoogleSerpCompetitorsLiveTaskInfo.md)
-  
+
   ↳ [`IDataforseoLabsGoogleCompetitorsDomainLiveTaskInfo`](IDataforseoLabsGoogleCompetitorsDomainLiveTaskInfo.md)
-  
+
   ↳ [`IDataforseoLabsGoogleDomainIntersectionLiveTaskInfo`](IDataforseoLabsGoogleDomainIntersectionLiveTaskInfo.md)
-  
+
   ↳ [`IDataforseoLabsGoogleSubdomainsLiveTaskInfo`](IDataforseoLabsGoogleSubdomainsLiveTaskInfo.md)
-  
+
   ↳ [`IDataforseoLabsGoogleRelevantPagesLiveTaskInfo`](IDataforseoLabsGoogleRelevantPagesLiveTaskInfo.md)
-  
+
   ↳ [`IDataforseoLabsGoogleDomainRankOverviewLiveTaskInfo`](IDataforseoLabsGoogleDomainRankOverviewLiveTaskInfo.md)
-  
+
   ↳ [`IDataforseoLabsGoogleHistoricalSerpsLiveTaskInfo`](IDataforseoLabsGoogleHistoricalSerpsLiveTaskInfo.md)
-  
+
   ↳ [`IDataforseoLabsGoogleHistoricalRankOverviewLiveTaskInfo`](IDataforseoLabsGoogleHistoricalRankOverviewLiveTaskInfo.md)
-  
+
   ↳ [`IDataforseoLabsGooglePageIntersectionLiveTaskInfo`](IDataforseoLabsGooglePageIntersectionLiveTaskInfo.md)
-  
+
   ↳ [`IDataforseoLabsGoogleBulkTrafficEstimationLiveTaskInfo`](IDataforseoLabsGoogleBulkTrafficEstimationLiveTaskInfo.md)
-  
+
   ↳ [`IDataforseoLabsGoogleHistoricalBulkTrafficEstimationLiveTaskInfo`](IDataforseoLabsGoogleHistoricalBulkTrafficEstimationLiveTaskInfo.md)
-  
+
   ↳ [`IDataforseoLabsAmazonBulkSearchVolumeLiveTaskInfo`](IDataforseoLabsAmazonBulkSearchVolumeLiveTaskInfo.md)
-  
+
   ↳ [`IDataforseoLabsAmazonRelatedKeywordsLiveTaskInfo`](IDataforseoLabsAmazonRelatedKeywordsLiveTaskInfo.md)
-  
+
   ↳ [`IDataforseoLabsAmazonRankedKeywordsLiveTaskInfo`](IDataforseoLabsAmazonRankedKeywordsLiveTaskInfo.md)
-  
+
   ↳ [`IDataforseoLabsAmazonProductRankOverviewLiveTaskInfo`](IDataforseoLabsAmazonProductRankOverviewLiveTaskInfo.md)
-  
+
   ↳ [`IDataforseoLabsAmazonProductCompetitorsLiveTaskInfo`](IDataforseoLabsAmazonProductCompetitorsLiveTaskInfo.md)
-  
+
   ↳ [`IDataforseoLabsAmazonProductKeywordIntersectionsLiveTaskInfo`](IDataforseoLabsAmazonProductKeywordIntersectionsLiveTaskInfo.md)
-  
+
   ↳ [`IDataforseoLabsBingBulkKeywordDifficultyLiveTaskInfo`](IDataforseoLabsBingBulkKeywordDifficultyLiveTaskInfo.md)
-  
+
   ↳ [`IDataforseoLabsBingBulkTrafficEstimationLiveTaskInfo`](IDataforseoLabsBingBulkTrafficEstimationLiveTaskInfo.md)
-  
+
   ↳ [`IDataforseoLabsBingCompetitorsDomainLiveTaskInfo`](IDataforseoLabsBingCompetitorsDomainLiveTaskInfo.md)
-  
+
   ↳ [`IDataforseoLabsBingDomainIntersectionLiveTaskInfo`](IDataforseoLabsBingDomainIntersectionLiveTaskInfo.md)
-  
+
   ↳ [`IDataforseoLabsBingDomainRankOverviewLiveTaskInfo`](IDataforseoLabsBingDomainRankOverviewLiveTaskInfo.md)
-  
+
   ↳ [`IDataforseoLabsBingPageIntersectionLiveTaskInfo`](IDataforseoLabsBingPageIntersectionLiveTaskInfo.md)
-  
+
   ↳ [`IDataforseoLabsBingRankedKeywordsLiveTaskInfo`](IDataforseoLabsBingRankedKeywordsLiveTaskInfo.md)
-  
+
   ↳ [`IDataforseoLabsBingRelatedKeywordsLiveTaskInfo`](IDataforseoLabsBingRelatedKeywordsLiveTaskInfo.md)
-  
+
   ↳ [`IDataforseoLabsBingRelevantPagesLiveTaskInfo`](IDataforseoLabsBingRelevantPagesLiveTaskInfo.md)
-  
+
   ↳ [`IDataforseoLabsBingSerpCompetitorsLiveTaskInfo`](IDataforseoLabsBingSerpCompetitorsLiveTaskInfo.md)
-  
+
   ↳ [`IDataforseoLabsBingSubdomainsLiveTaskInfo`](IDataforseoLabsBingSubdomainsLiveTaskInfo.md)
-  
+
   ↳ [`IDataforseoLabsGoogleBulkAppMetricsLiveTaskInfo`](IDataforseoLabsGoogleBulkAppMetricsLiveTaskInfo.md)
-  
+
   ↳ [`IDataforseoLabsGoogleKeywordsForAppLiveTaskInfo`](IDataforseoLabsGoogleKeywordsForAppLiveTaskInfo.md)
-  
+
   ↳ [`IDataforseoLabsGoogleAppCompetitorsLiveTaskInfo`](IDataforseoLabsGoogleAppCompetitorsLiveTaskInfo.md)
-  
+
   ↳ [`IDataforseoLabsGoogleAppIntersectionLiveTaskInfo`](IDataforseoLabsGoogleAppIntersectionLiveTaskInfo.md)
-  
+
   ↳ [`IDataforseoLabsAppleBulkAppMetricsLiveTaskInfo`](IDataforseoLabsAppleBulkAppMetricsLiveTaskInfo.md)
-  
+
   ↳ [`IDataforseoLabsAppleKeywordsForAppLiveTaskInfo`](IDataforseoLabsAppleKeywordsForAppLiveTaskInfo.md)
-  
+
   ↳ [`IDataforseoLabsAppleAppCompetitorsLiveTaskInfo`](IDataforseoLabsAppleAppCompetitorsLiveTaskInfo.md)
-  
+
   ↳ [`IDataforseoLabsAppleAppIntersectionLiveTaskInfo`](IDataforseoLabsAppleAppIntersectionLiveTaskInfo.md)
-  
+
   ↳ [`IKeywordsDataIdListTaskInfo`](IKeywordsDataIdListTaskInfo.md)
-  
+
   ↳ [`IKeywordsDataErrorsTaskInfo`](IKeywordsDataErrorsTaskInfo.md)
-  
+
   ↳ [`IKeywordsDataGoogleAdsStatusTaskInfo`](IKeywordsDataGoogleAdsStatusTaskInfo.md)
-  
+
   ↳ [`IKeywordsDataGoogleAdsLocationsTaskInfo`](IKeywordsDataGoogleAdsLocationsTaskInfo.md)
-  
+
   ↳ [`IKeywordsDataGoogleAdsLanguagesTaskInfo`](IKeywordsDataGoogleAdsLanguagesTaskInfo.md)
-  
+
   ↳ [`IKeywordsDataGoogleAdsSearchVolumeTaskPostTaskInfo`](IKeywordsDataGoogleAdsSearchVolumeTaskPostTaskInfo.md)
-  
+
   ↳ [`IKeywordsDataGoogleAdsSearchVolumeTasksReadyTaskInfo`](IKeywordsDataGoogleAdsSearchVolumeTasksReadyTaskInfo.md)
-  
+
   ↳ [`IKeywordsDataGoogleAdsSearchVolumeTaskGetTaskInfo`](IKeywordsDataGoogleAdsSearchVolumeTaskGetTaskInfo.md)
-  
+
   ↳ [`IKeywordsDataGoogleAdsSearchVolumeLiveTaskInfo`](IKeywordsDataGoogleAdsSearchVolumeLiveTaskInfo.md)
-  
+
   ↳ [`IKeywordsDataGoogleAdsKeywordsForSiteTaskPostTaskInfo`](IKeywordsDataGoogleAdsKeywordsForSiteTaskPostTaskInfo.md)
-  
+
   ↳ [`IKeywordsDataGoogleAdsKeywordsForSiteTasksReadyTaskInfo`](IKeywordsDataGoogleAdsKeywordsForSiteTasksReadyTaskInfo.md)
-  
+
   ↳ [`IKeywordsDataGoogleAdsKeywordsForSiteTaskGetTaskInfo`](IKeywordsDataGoogleAdsKeywordsForSiteTaskGetTaskInfo.md)
-  
+
   ↳ [`IKeywordsDataGoogleAdsKeywordsForSiteLiveTaskInfo`](IKeywordsDataGoogleAdsKeywordsForSiteLiveTaskInfo.md)
-  
+
   ↳ [`IKeywordsDataGoogleAdsKeywordsForKeywordsTaskPostTaskInfo`](IKeywordsDataGoogleAdsKeywordsForKeywordsTaskPostTaskInfo.md)
-  
+
   ↳ [`IKeywordsDataGoogleAdsKeywordsForKeywordsTasksReadyTaskInfo`](IKeywordsDataGoogleAdsKeywordsForKeywordsTasksReadyTaskInfo.md)
-  
+
   ↳ [`IKeywordsDataGoogleAdsKeywordsForKeywordsTaskGetTaskInfo`](IKeywordsDataGoogleAdsKeywordsForKeywordsTaskGetTaskInfo.md)
-  
+
   ↳ [`IKeywordsDataGoogleAdsKeywordsForKeywordsLiveTaskInfo`](IKeywordsDataGoogleAdsKeywordsForKeywordsLiveTaskInfo.md)
-  
+
   ↳ [`IKeywordsDataGoogleAdsAdTrafficByKeywordsTaskPostTaskInfo`](IKeywordsDataGoogleAdsAdTrafficByKeywordsTaskPostTaskInfo.md)
-  
+
   ↳ [`IKeywordsDataGoogleAdsAdTrafficByKeywordsTasksReadyTaskInfo`](IKeywordsDataGoogleAdsAdTrafficByKeywordsTasksReadyTaskInfo.md)
-  
+
   ↳ [`IKeywordsDataGoogleAdsAdTrafficByKeywordsTaskGetTaskInfo`](IKeywordsDataGoogleAdsAdTrafficByKeywordsTaskGetTaskInfo.md)
-  
+
   ↳ [`IKeywordsDataGoogleAdsAdTrafficByKeywordsLiveTaskInfo`](IKeywordsDataGoogleAdsAdTrafficByKeywordsLiveTaskInfo.md)
-  
+
   ↳ [`IKeywordsDataGoogleTrendsLocationsTaskInfo`](IKeywordsDataGoogleTrendsLocationsTaskInfo.md)
-  
+
   ↳ [`IKeywordsDataGoogleTrendsLocationsCountryTaskInfo`](IKeywordsDataGoogleTrendsLocationsCountryTaskInfo.md)
-  
+
   ↳ [`IKeywordsDataGoogleTrendsLanguagesTaskInfo`](IKeywordsDataGoogleTrendsLanguagesTaskInfo.md)
-  
+
   ↳ [`IKeywordsDataGoogleTrendsCategoriesTaskInfo`](IKeywordsDataGoogleTrendsCategoriesTaskInfo.md)
-  
+
   ↳ [`IKeywordsDataGoogleTrendsExploreTaskPostTaskInfo`](IKeywordsDataGoogleTrendsExploreTaskPostTaskInfo.md)
-  
+
   ↳ [`IKeywordsDataGoogleTrendsExploreTasksReadyTaskInfo`](IKeywordsDataGoogleTrendsExploreTasksReadyTaskInfo.md)
-  
+
   ↳ [`IKeywordsDataGoogleTrendsExploreTaskGetTaskInfo`](IKeywordsDataGoogleTrendsExploreTaskGetTaskInfo.md)
-  
+
   ↳ [`IKeywordsDataGoogleTrendsExploreLiveTaskInfo`](IKeywordsDataGoogleTrendsExploreLiveTaskInfo.md)
-  
+
+  ↳ [`IKeywordsDataDataforseoTrendsLocationsTaskInfo`](IKeywordsDataDataforseoTrendsLocationsTaskInfo.md)
+
+  ↳ [`IKeywordsDataDataforseoTrendsLocationsCountryTaskInfo`](IKeywordsDataDataforseoTrendsLocationsCountryTaskInfo.md)
+
+  ↳ [`IKeywordsDataDataforseoTrendsExploreLiveTaskInfo`](IKeywordsDataDataforseoTrendsExploreLiveTaskInfo.md)
+
+  ↳ [`IKeywordsDataDataforseoTrendsSubregionInterestsLiveTaskInfo`](IKeywordsDataDataforseoTrendsSubregionInterestsLiveTaskInfo.md)
+
+  ↳ [`IKeywordsDataDataforseoTrendsDemographyLiveTaskInfo`](IKeywordsDataDataforseoTrendsDemographyLiveTaskInfo.md)
+
+  ↳ [`IKeywordsDataDataforseoTrendsMergedDataLiveTaskInfo`](IKeywordsDataDataforseoTrendsMergedDataLiveTaskInfo.md)
+
   ↳ [`IKeywordsDataBingLocationsTaskInfo`](IKeywordsDataBingLocationsTaskInfo.md)
-  
+
   ↳ [`IKeywordsDataBingLanguagesTaskInfo`](IKeywordsDataBingLanguagesTaskInfo.md)
-  
+
   ↳ [`IKeywordsDataBingSearchVolumeTaskPostTaskInfo`](IKeywordsDataBingSearchVolumeTaskPostTaskInfo.md)
-  
+
   ↳ [`IKeywordsDataBingSearchVolumeTasksReadyTaskInfo`](IKeywordsDataBingSearchVolumeTasksReadyTaskInfo.md)
-  
+
   ↳ [`IKeywordsDataBingSearchVolumeTaskGetTaskInfo`](IKeywordsDataBingSearchVolumeTaskGetTaskInfo.md)
-  
+
   ↳ [`IKeywordsDataBingSearchVolumeLiveTaskInfo`](IKeywordsDataBingSearchVolumeLiveTaskInfo.md)
-  
+
   ↳ [`IKeywordsDataBingKeywordsForSiteTaskPostTaskInfo`](IKeywordsDataBingKeywordsForSiteTaskPostTaskInfo.md)
-  
+
   ↳ [`IKeywordsDataBingKeywordsForSiteTasksReadyTaskInfo`](IKeywordsDataBingKeywordsForSiteTasksReadyTaskInfo.md)
-  
+
   ↳ [`IKeywordsDataBingKeywordsForSiteTaskGetTaskInfo`](IKeywordsDataBingKeywordsForSiteTaskGetTaskInfo.md)
-  
+
   ↳ [`IKeywordsDataBingKeywordsForSiteLiveTaskInfo`](IKeywordsDataBingKeywordsForSiteLiveTaskInfo.md)
-  
+
   ↳ [`IKeywordsDataBingKeywordsForKeywordsTaskPostTaskInfo`](IKeywordsDataBingKeywordsForKeywordsTaskPostTaskInfo.md)
-  
+
   ↳ [`IKeywordsDataBingKeywordsForKeywordsTasksReadyTaskInfo`](IKeywordsDataBingKeywordsForKeywordsTasksReadyTaskInfo.md)
-  
+
   ↳ [`IKeywordsDataBingKeywordsForKeywordsTaskGetTaskInfo`](IKeywordsDataBingKeywordsForKeywordsTaskGetTaskInfo.md)
-  
+
   ↳ [`IKeywordsDataBingKeywordsForKeywordsLiveTaskInfo`](IKeywordsDataBingKeywordsForKeywordsLiveTaskInfo.md)
-  
+
   ↳ [`IKeywordsDataBingKeywordPerformanceLocationsAndLanguagesTaskInfo`](IKeywordsDataBingKeywordPerformanceLocationsAndLanguagesTaskInfo.md)
-  
+
   ↳ [`IKeywordsDataBingKeywordPerformanceTaskPostTaskInfo`](IKeywordsDataBingKeywordPerformanceTaskPostTaskInfo.md)
-  
+
   ↳ [`IKeywordsDataBingKeywordPerformanceTasksReadyTaskInfo`](IKeywordsDataBingKeywordPerformanceTasksReadyTaskInfo.md)
-  
+
   ↳ [`IKeywordsDataBingKeywordPerformanceTaskGetTaskInfo`](IKeywordsDataBingKeywordPerformanceTaskGetTaskInfo.md)
-  
+
   ↳ [`IKeywordsDataBingKeywordPerformanceLiveTaskInfo`](IKeywordsDataBingKeywordPerformanceLiveTaskInfo.md)
-  
+
   ↳ [`IBacklinksIdListTaskInfo`](IBacklinksIdListTaskInfo.md)
-  
+
   ↳ [`IBacklinksErrorsTaskInfo`](IBacklinksErrorsTaskInfo.md)
-  
+
   ↳ [`IBacklinksAvailableFiltersTaskInfo`](IBacklinksAvailableFiltersTaskInfo.md)
-  
+
   ↳ [`IBacklinksIndexTaskInfo`](IBacklinksIndexTaskInfo.md)
-  
+
   ↳ [`IBacklinksSummaryLiveTaskInfo`](IBacklinksSummaryLiveTaskInfo.md)
-  
+
   ↳ [`IBacklinksHistoryLiveTaskInfo`](IBacklinksHistoryLiveTaskInfo.md)
-  
+
   ↳ [`IBacklinksBacklinksLiveTaskInfo`](IBacklinksBacklinksLiveTaskInfo.md)
-  
+
   ↳ [`IBacklinksAnchorsLiveTaskInfo`](IBacklinksAnchorsLiveTaskInfo.md)
-  
+
   ↳ [`IBacklinksDomainPagesLiveTaskInfo`](IBacklinksDomainPagesLiveTaskInfo.md)
-  
+
   ↳ [`IBacklinksDomainPagesSummaryLiveTaskInfo`](IBacklinksDomainPagesSummaryLiveTaskInfo.md)
-  
+
   ↳ [`IBacklinksReferringDomainsLiveTaskInfo`](IBacklinksReferringDomainsLiveTaskInfo.md)
-  
+
   ↳ [`IBacklinksReferringNetworksLiveTaskInfo`](IBacklinksReferringNetworksLiveTaskInfo.md)
-  
+
   ↳ [`IBacklinksCompetitorsLiveTaskInfo`](IBacklinksCompetitorsLiveTaskInfo.md)
-  
+
   ↳ [`IBacklinksDomainIntersectionLiveTaskInfo`](IBacklinksDomainIntersectionLiveTaskInfo.md)
-  
+
   ↳ [`IBacklinksPageIntersectionLiveTaskInfo`](IBacklinksPageIntersectionLiveTaskInfo.md)
-  
+
   ↳ [`IBacklinksTimeseriesSummaryLiveTaskInfo`](IBacklinksTimeseriesSummaryLiveTaskInfo.md)
-  
+
   ↳ [`IBacklinksTimeseriesNewLostSummaryLiveTaskInfo`](IBacklinksTimeseriesNewLostSummaryLiveTaskInfo.md)
-  
+
   ↳ [`IBacklinksBulkRanksLiveTaskInfo`](IBacklinksBulkRanksLiveTaskInfo.md)
-  
+
   ↳ [`IBacklinksBulkBacklinksLiveTaskInfo`](IBacklinksBulkBacklinksLiveTaskInfo.md)
-  
+
   ↳ [`IBacklinksBulkSpamScoreLiveTaskInfo`](IBacklinksBulkSpamScoreLiveTaskInfo.md)
-  
+
   ↳ [`IBacklinksBulkReferringDomainsLiveTaskInfo`](IBacklinksBulkReferringDomainsLiveTaskInfo.md)
-  
+
   ↳ [`IBacklinksBulkNewLostBacklinksLiveTaskInfo`](IBacklinksBulkNewLostBacklinksLiveTaskInfo.md)
-  
+
   ↳ [`IBacklinksBulkNewLostReferringDomainsLiveTaskInfo`](IBacklinksBulkNewLostReferringDomainsLiveTaskInfo.md)
-  
+
   ↳ [`IOnPageIdListTaskInfo`](IOnPageIdListTaskInfo.md)
-  
+
   ↳ [`IOnPageErrorsTaskInfo`](IOnPageErrorsTaskInfo.md)
-  
+
   ↳ [`IOnPageForceStopTaskInfo`](IOnPageForceStopTaskInfo.md)
-  
+
   ↳ [`IOnPageAvailableFiltersTaskInfo`](IOnPageAvailableFiltersTaskInfo.md)
-  
+
   ↳ [`IOnPageTaskPostTaskInfo`](IOnPageTaskPostTaskInfo.md)
-  
+
   ↳ [`IOnPageTasksReadyTaskInfo`](IOnPageTasksReadyTaskInfo.md)
-  
+
   ↳ [`IOnPageSummaryTaskInfo`](IOnPageSummaryTaskInfo.md)
-  
+
   ↳ [`IOnPagePagesTaskInfo`](IOnPagePagesTaskInfo.md)
-  
+
   ↳ [`IOnPagePagesByResourceTaskInfo`](IOnPagePagesByResourceTaskInfo.md)
-  
+
   ↳ [`IOnPageResourcesTaskInfo`](IOnPageResourcesTaskInfo.md)
-  
+
   ↳ [`IOnPageDuplicateTagsTaskInfo`](IOnPageDuplicateTagsTaskInfo.md)
-  
+
   ↳ [`IOnPageDuplicateContentTaskInfo`](IOnPageDuplicateContentTaskInfo.md)
-  
+
   ↳ [`IOnPageLinksTaskInfo`](IOnPageLinksTaskInfo.md)
-  
+
   ↳ [`IOnPageRedirectChainsTaskInfo`](IOnPageRedirectChainsTaskInfo.md)
-  
+
   ↳ [`IOnPageNonIndexableTaskInfo`](IOnPageNonIndexableTaskInfo.md)
-  
+
   ↳ [`IOnPageWaterfallTaskInfo`](IOnPageWaterfallTaskInfo.md)
-  
+
   ↳ [`IOnPageKeywordDensityTaskInfo`](IOnPageKeywordDensityTaskInfo.md)
-  
+
   ↳ [`IOnPageMicrodataTaskInfo`](IOnPageMicrodataTaskInfo.md)
-  
+
   ↳ [`IOnPageRawHtmlTaskInfo`](IOnPageRawHtmlTaskInfo.md)
-  
+
   ↳ [`IOnPagePageScreenshotTaskInfo`](IOnPagePageScreenshotTaskInfo.md)
-  
+
   ↳ [`IOnPageContentParsingTaskInfo`](IOnPageContentParsingTaskInfo.md)
-  
+
   ↳ [`IOnPageContentParsingLiveTaskInfo`](IOnPageContentParsingLiveTaskInfo.md)
-  
+
   ↳ [`IOnPageInstantPagesTaskInfo`](IOnPageInstantPagesTaskInfo.md)
-  
+
   ↳ [`IOnPageLighthouseLanguagesTaskInfo`](IOnPageLighthouseLanguagesTaskInfo.md)
-  
+
   ↳ [`IOnPageLighthouseAuditsTaskInfo`](IOnPageLighthouseAuditsTaskInfo.md)
-  
+
   ↳ [`IOnPageLighthouseVersionsTaskInfo`](IOnPageLighthouseVersionsTaskInfo.md)
-  
+
   ↳ [`IOnPageLighthouseTaskPostTaskInfo`](IOnPageLighthouseTaskPostTaskInfo.md)
-  
+
   ↳ [`IOnPageLighthouseTasksReadyTaskInfo`](IOnPageLighthouseTasksReadyTaskInfo.md)
-  
+
   ↳ [`IOnPageLighthouseTaskGetJsonTaskInfo`](IOnPageLighthouseTaskGetJsonTaskInfo.md)
-  
+
   ↳ [`IOnPageLighthouseLiveJsonTaskInfo`](IOnPageLighthouseLiveJsonTaskInfo.md)
-  
+
   ↳ [`IContentAnalysisIdListTaskInfo`](IContentAnalysisIdListTaskInfo.md)
-  
+
   ↳ [`IContentAnalysisAvailableFiltersTaskInfo`](IContentAnalysisAvailableFiltersTaskInfo.md)
-  
+
   ↳ [`IContentAnalysisLocationsTaskInfo`](IContentAnalysisLocationsTaskInfo.md)
-  
+
   ↳ [`IContentAnalysisLanguagesTaskInfo`](IContentAnalysisLanguagesTaskInfo.md)
-  
+
   ↳ [`IContentAnalysisCategoriesTaskInfo`](IContentAnalysisCategoriesTaskInfo.md)
-  
+
   ↳ [`IContentAnalysisSearchLiveTaskInfo`](IContentAnalysisSearchLiveTaskInfo.md)
-  
+
   ↳ [`IContentAnalysisSummaryLiveTaskInfo`](IContentAnalysisSummaryLiveTaskInfo.md)
-  
+
   ↳ [`IContentAnalysisSentimentAnalysisLiveTaskInfo`](IContentAnalysisSentimentAnalysisLiveTaskInfo.md)
-  
+
   ↳ [`IContentAnalysisRatingDistributionLiveTaskInfo`](IContentAnalysisRatingDistributionLiveTaskInfo.md)
-  
+
   ↳ [`IContentAnalysisPhraseTrendsLiveTaskInfo`](IContentAnalysisPhraseTrendsLiveTaskInfo.md)
-  
+
   ↳ [`IContentAnalysisCategoryTrendsLiveTaskInfo`](IContentAnalysisCategoryTrendsLiveTaskInfo.md)
-  
+
   ↳ [`IContentGenerationGenerateLiveTaskInfo`](IContentGenerationGenerateLiveTaskInfo.md)
-  
+
   ↳ [`IContentGenerationGenerateTextLiveTaskInfo`](IContentGenerationGenerateTextLiveTaskInfo.md)
-  
+
   ↳ [`IContentGenerationGenerateMetaTagsLiveTaskInfo`](IContentGenerationGenerateMetaTagsLiveTaskInfo.md)
-  
+
   ↳ [`IContentGenerationGenerateSubTopicsLiveTaskInfo`](IContentGenerationGenerateSubTopicsLiveTaskInfo.md)
-  
+
   ↳ [`IContentGenerationParaphraseLiveTaskInfo`](IContentGenerationParaphraseLiveTaskInfo.md)
-  
+
   ↳ [`IContentGenerationCheckGrammarLiveTaskInfo`](IContentGenerationCheckGrammarLiveTaskInfo.md)
-  
+
   ↳ [`IContentGenerationCheckGrammarLanguagesTaskInfo`](IContentGenerationCheckGrammarLanguagesTaskInfo.md)
-  
+
   ↳ [`IContentGenerationGrammarRulesTaskInfo`](IContentGenerationGrammarRulesTaskInfo.md)
-  
+
   ↳ [`IContentGenerationTextSummaryLiveTaskInfo`](IContentGenerationTextSummaryLiveTaskInfo.md)
-  
+
   ↳ [`IContentGenerationTextSummaryLanguagesTaskInfo`](IContentGenerationTextSummaryLanguagesTaskInfo.md)
-  
+
   ↳ [`IMerchantIdListTaskInfo`](IMerchantIdListTaskInfo.md)
-  
+
   ↳ [`IMerchantErrorsTaskInfo`](IMerchantErrorsTaskInfo.md)
-  
+
   ↳ [`IMerchantGoogleLanguagesTaskInfo`](IMerchantGoogleLanguagesTaskInfo.md)
-  
+
   ↳ [`IMerchantGoogleLocationsTaskInfo`](IMerchantGoogleLocationsTaskInfo.md)
-  
+
   ↳ [`IMerchantGoogleLocationsCountryTaskInfo`](IMerchantGoogleLocationsCountryTaskInfo.md)
-  
+
   ↳ [`IMerchantGoogleProductsTaskPostTaskInfo`](IMerchantGoogleProductsTaskPostTaskInfo.md)
-  
+
   ↳ [`IMerchantGoogleProductsTasksReadyTaskInfo`](IMerchantGoogleProductsTasksReadyTaskInfo.md)
-  
+
   ↳ [`IMerchantGoogleProductsTaskGetAdvancedTaskInfo`](IMerchantGoogleProductsTaskGetAdvancedTaskInfo.md)
-  
+
   ↳ [`IMerchantGoogleProductsTaskGetHtmlTaskInfo`](IMerchantGoogleProductsTaskGetHtmlTaskInfo.md)
-  
+
   ↳ [`IMerchantGoogleSellersTaskPostTaskInfo`](IMerchantGoogleSellersTaskPostTaskInfo.md)
-  
+
   ↳ [`IMerchantGoogleSellersTasksReadyTaskInfo`](IMerchantGoogleSellersTasksReadyTaskInfo.md)
-  
+
   ↳ [`IMerchantGoogleSellersTaskGetAdvancedTaskInfo`](IMerchantGoogleSellersTaskGetAdvancedTaskInfo.md)
-  
+
   ↳ [`IMerchantGoogleSellersTaskGetHtmlTaskInfo`](IMerchantGoogleSellersTaskGetHtmlTaskInfo.md)
-  
+
   ↳ [`IMerchantGoogleProductSpecTaskPostTaskInfo`](IMerchantGoogleProductSpecTaskPostTaskInfo.md)
-  
+
   ↳ [`IMerchantGoogleProductSpecTasksReadyTaskInfo`](IMerchantGoogleProductSpecTasksReadyTaskInfo.md)
-  
+
   ↳ [`IMerchantGoogleProductSpecTaskGetAdvancedTaskInfo`](IMerchantGoogleProductSpecTaskGetAdvancedTaskInfo.md)
-  
+
   ↳ [`IMerchantGoogleProductSpecTaskGetHtmlTaskInfo`](IMerchantGoogleProductSpecTaskGetHtmlTaskInfo.md)
-  
+
   ↳ [`IMerchantGoogleProductInfoTaskPostTaskInfo`](IMerchantGoogleProductInfoTaskPostTaskInfo.md)
-  
+
   ↳ [`IMerchantGoogleProductInfoTasksReadyTaskInfo`](IMerchantGoogleProductInfoTasksReadyTaskInfo.md)
-  
+
   ↳ [`IMerchantGoogleProductInfoTaskGetAdvancedTaskInfo`](IMerchantGoogleProductInfoTaskGetAdvancedTaskInfo.md)
-  
+
   ↳ [`IMerchantGoogleSellersAdUrlTaskInfo`](IMerchantGoogleSellersAdUrlTaskInfo.md)
-  
+
   ↳ [`IMerchantAmazonLocationsTaskInfo`](IMerchantAmazonLocationsTaskInfo.md)
-  
+
   ↳ [`IMerchantAmazonLocationsCountryTaskInfo`](IMerchantAmazonLocationsCountryTaskInfo.md)
-  
+
   ↳ [`IMerchantAmazonLanguagesTaskInfo`](IMerchantAmazonLanguagesTaskInfo.md)
-  
+
   ↳ [`IMerchantAmazonProductsTaskPostTaskInfo`](IMerchantAmazonProductsTaskPostTaskInfo.md)
-  
+
   ↳ [`IMerchantAmazonProductsTasksReadyTaskInfo`](IMerchantAmazonProductsTasksReadyTaskInfo.md)
-  
+
   ↳ [`IMerchantAmazonProductsTaskGetAdvancedTaskInfo`](IMerchantAmazonProductsTaskGetAdvancedTaskInfo.md)
-  
+
   ↳ [`IMerchantAmazonProductsTaskGetHtmlTaskInfo`](IMerchantAmazonProductsTaskGetHtmlTaskInfo.md)
-  
+
   ↳ [`IMerchantAmazonAsinTaskPostTaskInfo`](IMerchantAmazonAsinTaskPostTaskInfo.md)
-  
+
   ↳ [`IMerchantAmazonAsinTasksReadyTaskInfo`](IMerchantAmazonAsinTasksReadyTaskInfo.md)
-  
+
   ↳ [`IMerchantAmazonAsinTaskGetAdvancedTaskInfo`](IMerchantAmazonAsinTaskGetAdvancedTaskInfo.md)
-  
+
   ↳ [`IMerchantAmazonAsinTaskGetHtmlTaskInfo`](IMerchantAmazonAsinTaskGetHtmlTaskInfo.md)
-  
+
   ↳ [`IMerchantAmazonSellersTaskPostTaskInfo`](IMerchantAmazonSellersTaskPostTaskInfo.md)
-  
+
   ↳ [`IMerchantAmazonSellersTasksReadyTaskInfo`](IMerchantAmazonSellersTasksReadyTaskInfo.md)
-  
+
   ↳ [`IMerchantAmazonSellersTaskGetAdvancedTaskInfo`](IMerchantAmazonSellersTaskGetAdvancedTaskInfo.md)
-  
+
   ↳ [`IMerchantAmazonSellersTaskGetHtmlTaskInfo`](IMerchantAmazonSellersTaskGetHtmlTaskInfo.md)
-  
+
   ↳ [`IMerchantAmazonReviewsTaskPostTaskInfo`](IMerchantAmazonReviewsTaskPostTaskInfo.md)
-  
+
   ↳ [`IMerchantAmazonReviewsTasksReadyTaskInfo`](IMerchantAmazonReviewsTasksReadyTaskInfo.md)
-  
+
   ↳ [`IMerchantAmazonReviewsTaskGetAdvancedTaskInfo`](IMerchantAmazonReviewsTaskGetAdvancedTaskInfo.md)
-  
+
   ↳ [`IMerchantAmazonReviewsTaskGetHtmlTaskInfo`](IMerchantAmazonReviewsTaskGetHtmlTaskInfo.md)
-  
+
   ↳ [`IAppDataIdListTaskInfo`](IAppDataIdListTaskInfo.md)
-  
+
   ↳ [`IAppDataErrorsTaskInfo`](IAppDataErrorsTaskInfo.md)
-  
+
   ↳ [`IAppDataGoogleCategoriesTaskInfo`](IAppDataGoogleCategoriesTaskInfo.md)
-  
+
   ↳ [`IAppDataGoogleLocationsTaskInfo`](IAppDataGoogleLocationsTaskInfo.md)
-  
+
   ↳ [`IAppDataGoogleLanguagesTaskInfo`](IAppDataGoogleLanguagesTaskInfo.md)
-  
+
   ↳ [`IAppDataGoogleAppSearchesTaskPostTaskInfo`](IAppDataGoogleAppSearchesTaskPostTaskInfo.md)
-  
+
   ↳ [`IAppDataGoogleAppSearchesTasksReadyTaskInfo`](IAppDataGoogleAppSearchesTasksReadyTaskInfo.md)
-  
+
   ↳ [`IAppDataGoogleAppSearchesTaskGetAdvancedTaskInfo`](IAppDataGoogleAppSearchesTaskGetAdvancedTaskInfo.md)
-  
+
   ↳ [`IAppDataGoogleAppSearchesTaskGetHtmlTaskInfo`](IAppDataGoogleAppSearchesTaskGetHtmlTaskInfo.md)
-  
+
   ↳ [`IAppDataGoogleAppListTaskPostTaskInfo`](IAppDataGoogleAppListTaskPostTaskInfo.md)
-  
+
   ↳ [`IAppDataGoogleAppListTasksReadyTaskInfo`](IAppDataGoogleAppListTasksReadyTaskInfo.md)
-  
+
   ↳ [`IAppDataGoogleAppListTaskGetAdvancedTaskInfo`](IAppDataGoogleAppListTaskGetAdvancedTaskInfo.md)
-  
+
   ↳ [`IAppDataGoogleAppListTaskGetHtmlTaskInfo`](IAppDataGoogleAppListTaskGetHtmlTaskInfo.md)
-  
+
   ↳ [`IAppDataGoogleAppInfoTaskPostTaskInfo`](IAppDataGoogleAppInfoTaskPostTaskInfo.md)
-  
+
   ↳ [`IAppDataGoogleAppInfoTasksReadyTaskInfo`](IAppDataGoogleAppInfoTasksReadyTaskInfo.md)
-  
+
   ↳ [`IAppDataGoogleAppInfoTaskGetAdvancedTaskInfo`](IAppDataGoogleAppInfoTaskGetAdvancedTaskInfo.md)
-  
+
   ↳ [`IAppDataGoogleAppInfoTaskGetHtmlTaskInfo`](IAppDataGoogleAppInfoTaskGetHtmlTaskInfo.md)
-  
+
   ↳ [`IAppDataGoogleAppReviewsTaskPostTaskInfo`](IAppDataGoogleAppReviewsTaskPostTaskInfo.md)
-  
+
   ↳ [`IAppDataGoogleAppReviewsTasksReadyTaskInfo`](IAppDataGoogleAppReviewsTasksReadyTaskInfo.md)
-  
+
   ↳ [`IAppDataGoogleAppReviewsTaskGetAdvancedTaskInfo`](IAppDataGoogleAppReviewsTaskGetAdvancedTaskInfo.md)
-  
+
   ↳ [`IAppDataGoogleAppReviewsTaskGetHtmlTaskInfo`](IAppDataGoogleAppReviewsTaskGetHtmlTaskInfo.md)
-  
+
   ↳ [`IAppDataGoogleAppListingsCategoriesTaskInfo`](IAppDataGoogleAppListingsCategoriesTaskInfo.md)
-  
+
   ↳ [`IAppDataGoogleAppListingsSearchLiveTaskInfo`](IAppDataGoogleAppListingsSearchLiveTaskInfo.md)
-  
+
   ↳ [`IAppDataAppleCategoriesTaskInfo`](IAppDataAppleCategoriesTaskInfo.md)
-  
+
   ↳ [`IAppDataAppleLocationsTaskInfo`](IAppDataAppleLocationsTaskInfo.md)
-  
+
   ↳ [`IAppDataAppleLanguagesTaskInfo`](IAppDataAppleLanguagesTaskInfo.md)
-  
+
   ↳ [`IAppDataAppleAppSearchesTaskPostTaskInfo`](IAppDataAppleAppSearchesTaskPostTaskInfo.md)
-  
+
   ↳ [`IAppDataAppleAppSearchesTasksReadyTaskInfo`](IAppDataAppleAppSearchesTasksReadyTaskInfo.md)
-  
+
   ↳ [`IAppDataAppleAppSearchesTaskGetAdvancedTaskInfo`](IAppDataAppleAppSearchesTaskGetAdvancedTaskInfo.md)
-  
+
   ↳ [`IAppDataAppleAppInfoTaskPostTaskInfo`](IAppDataAppleAppInfoTaskPostTaskInfo.md)
-  
+
   ↳ [`IAppDataAppleAppInfoTasksReadyTaskInfo`](IAppDataAppleAppInfoTasksReadyTaskInfo.md)
-  
+
   ↳ [`IAppDataAppleAppInfoTaskGetAdvancedTaskInfo`](IAppDataAppleAppInfoTaskGetAdvancedTaskInfo.md)
-  
+
   ↳ [`IAppDataAppleAppListTaskPostTaskInfo`](IAppDataAppleAppListTaskPostTaskInfo.md)
-  
+
   ↳ [`IAppDataAppleAppListTasksReadyTaskInfo`](IAppDataAppleAppListTasksReadyTaskInfo.md)
-  
+
   ↳ [`IAppDataAppleAppListTaskGetAdvancedTaskInfo`](IAppDataAppleAppListTaskGetAdvancedTaskInfo.md)
-  
+
   ↳ [`IAppDataAppleAppReviewsTaskPostTaskInfo`](IAppDataAppleAppReviewsTaskPostTaskInfo.md)
-  
+
   ↳ [`IAppDataAppleAppReviewsTasksReadyTaskInfo`](IAppDataAppleAppReviewsTasksReadyTaskInfo.md)
-  
+
   ↳ [`IAppDataAppleAppReviewsTaskGetAdvancedTaskInfo`](IAppDataAppleAppReviewsTaskGetAdvancedTaskInfo.md)
-  
+
   ↳ [`IAppDataAppleAppListingsCategoriesTaskInfo`](IAppDataAppleAppListingsCategoriesTaskInfo.md)
-  
+
   ↳ [`IAppDataAppleAppListingsSearchLiveTaskInfo`](IAppDataAppleAppListingsSearchLiveTaskInfo.md)
-  
+
   ↳ [`IBusinessDataIdListTaskInfo`](IBusinessDataIdListTaskInfo.md)
-  
+
   ↳ [`IBusinessDataErrorsTaskInfo`](IBusinessDataErrorsTaskInfo.md)
-  
+
   ↳ [`IBusinessDataBusinessListingsLocationsTaskInfo`](IBusinessDataBusinessListingsLocationsTaskInfo.md)
-  
+
   ↳ [`IBusinessDataBusinessListingsCategoriesTaskInfo`](IBusinessDataBusinessListingsCategoriesTaskInfo.md)
-  
+
   ↳ [`IBusinessDataBusinessListingsAvailableFiltersTaskInfo`](IBusinessDataBusinessListingsAvailableFiltersTaskInfo.md)
-  
+
   ↳ [`IBusinessDataBusinessListingsSearchLiveTaskInfo`](IBusinessDataBusinessListingsSearchLiveTaskInfo.md)
-  
+
   ↳ [`IBusinessDataBusinessListingsCategoriesAggregationLiveTaskInfo`](IBusinessDataBusinessListingsCategoriesAggregationLiveTaskInfo.md)
-  
+
   ↳ [`IBusinessDataGoogleLocationsTaskInfo`](IBusinessDataGoogleLocationsTaskInfo.md)
-  
+
   ↳ [`IBusinessDataGoogleLocationsCountryTaskInfo`](IBusinessDataGoogleLocationsCountryTaskInfo.md)
-  
+
   ↳ [`IBusinessDataGoogleLanguagesTaskInfo`](IBusinessDataGoogleLanguagesTaskInfo.md)
-  
+
   ↳ [`IBusinessDataGoogleMyBusinessInfoTaskPostTaskInfo`](IBusinessDataGoogleMyBusinessInfoTaskPostTaskInfo.md)
-  
+
   ↳ [`IBusinessDataGoogleMyBusinessInfoTasksReadyTaskInfo`](IBusinessDataGoogleMyBusinessInfoTasksReadyTaskInfo.md)
-  
+
   ↳ [`IBusinessDataGoogleMyBusinessInfoTaskGetTaskInfo`](IBusinessDataGoogleMyBusinessInfoTaskGetTaskInfo.md)
-  
+
   ↳ [`IBusinessDataGoogleMyBusinessUpdatesTaskPostTaskInfo`](IBusinessDataGoogleMyBusinessUpdatesTaskPostTaskInfo.md)
-  
+
   ↳ [`IBusinessDataGoogleMyBusinessUpdatesTasksReadyTaskInfo`](IBusinessDataGoogleMyBusinessUpdatesTasksReadyTaskInfo.md)
-  
+
   ↳ [`IBusinessDataGoogleMyBusinessUpdatesTaskGetTaskInfo`](IBusinessDataGoogleMyBusinessUpdatesTaskGetTaskInfo.md)
-  
+
   ↳ [`IBusinessDataGoogleHotelSearchesTaskPostTaskInfo`](IBusinessDataGoogleHotelSearchesTaskPostTaskInfo.md)
-  
+
   ↳ [`IBusinessDataGoogleHotelSearchesTasksReadyTaskInfo`](IBusinessDataGoogleHotelSearchesTasksReadyTaskInfo.md)
-  
+
   ↳ [`IBusinessDataGoogleHotelSearchesTaskGetTaskInfo`](IBusinessDataGoogleHotelSearchesTaskGetTaskInfo.md)
-  
+
   ↳ [`IBusinessDataGoogleHotelSearchesLiveTaskInfo`](IBusinessDataGoogleHotelSearchesLiveTaskInfo.md)
-  
+
   ↳ [`IBusinessDataGoogleHotelInfoTaskPostTaskInfo`](IBusinessDataGoogleHotelInfoTaskPostTaskInfo.md)
-  
+
   ↳ [`IBusinessDataGoogleHotelInfoTasksReadyTaskInfo`](IBusinessDataGoogleHotelInfoTasksReadyTaskInfo.md)
-  
+
   ↳ [`IBusinessDataGoogleHotelInfoTaskGetAdvancedTaskInfo`](IBusinessDataGoogleHotelInfoTaskGetAdvancedTaskInfo.md)
-  
+
   ↳ [`IBusinessDataGoogleHotelInfoTaskGetHtmlTaskInfo`](IBusinessDataGoogleHotelInfoTaskGetHtmlTaskInfo.md)
-  
+
   ↳ [`IBusinessDataGoogleHotelInfoLiveAdvancedTaskInfo`](IBusinessDataGoogleHotelInfoLiveAdvancedTaskInfo.md)
-  
+
   ↳ [`IBusinessDataGoogleHotelInfoLiveHtmlTaskInfo`](IBusinessDataGoogleHotelInfoLiveHtmlTaskInfo.md)
-  
+
   ↳ [`IBusinessDataGoogleReviewsTaskPostTaskInfo`](IBusinessDataGoogleReviewsTaskPostTaskInfo.md)
-  
+
   ↳ [`IBusinessDataGoogleReviewsTasksReadyTaskInfo`](IBusinessDataGoogleReviewsTasksReadyTaskInfo.md)
-  
+
   ↳ [`IBusinessDataGoogleReviewsTaskGetTaskInfo`](IBusinessDataGoogleReviewsTaskGetTaskInfo.md)
-  
+
   ↳ [`IBusinessDataTrustpilotSearchTaskPostTaskInfo`](IBusinessDataTrustpilotSearchTaskPostTaskInfo.md)
-  
+
   ↳ [`IBusinessDataTrustpilotSearchTasksReadyTaskInfo`](IBusinessDataTrustpilotSearchTasksReadyTaskInfo.md)
-  
+
   ↳ [`IBusinessDataTrustpilotSearchTaskGetTaskInfo`](IBusinessDataTrustpilotSearchTaskGetTaskInfo.md)
-  
+
   ↳ [`IBusinessDataTrustpilotReviewsTaskPostTaskInfo`](IBusinessDataTrustpilotReviewsTaskPostTaskInfo.md)
-  
+
   ↳ [`IBusinessDataTrustpilotReviewsTasksReadyTaskInfo`](IBusinessDataTrustpilotReviewsTasksReadyTaskInfo.md)
-  
+
   ↳ [`IBusinessDataTrustpilotReviewsTaskGetTaskInfo`](IBusinessDataTrustpilotReviewsTaskGetTaskInfo.md)
-  
+
   ↳ [`IBusinessDataTripadvisorLocationsTaskInfo`](IBusinessDataTripadvisorLocationsTaskInfo.md)
-  
+
   ↳ [`IBusinessDataTripadvisorLocationsCountryTaskInfo`](IBusinessDataTripadvisorLocationsCountryTaskInfo.md)
-  
+
   ↳ [`IBusinessDataTripadvisorLanguagesTaskInfo`](IBusinessDataTripadvisorLanguagesTaskInfo.md)
-  
+
   ↳ [`IBusinessDataTripadvisorSearchTaskPostTaskInfo`](IBusinessDataTripadvisorSearchTaskPostTaskInfo.md)
-  
+
   ↳ [`IBusinessDataTripadvisorSearchTasksReadyTaskInfo`](IBusinessDataTripadvisorSearchTasksReadyTaskInfo.md)
-  
+
   ↳ [`IBusinessDataTripadvisorSearchTaskGetTaskInfo`](IBusinessDataTripadvisorSearchTaskGetTaskInfo.md)
-  
+
   ↳ [`IBusinessDataTripadvisorReviewsTaskPostTaskInfo`](IBusinessDataTripadvisorReviewsTaskPostTaskInfo.md)
-  
+
   ↳ [`IBusinessDataTripadvisorReviewsTasksReadyTaskInfo`](IBusinessDataTripadvisorReviewsTasksReadyTaskInfo.md)
-  
+
   ↳ [`IBusinessDataTripadvisorReviewsTaskGetTaskInfo`](IBusinessDataTripadvisorReviewsTaskGetTaskInfo.md)
-  
+
   ↳ [`IBusinessDataYelpLocationsTaskInfo`](IBusinessDataYelpLocationsTaskInfo.md)
-  
+
   ↳ [`IBusinessDataYelpLocationsCountryTaskInfo`](IBusinessDataYelpLocationsCountryTaskInfo.md)
-  
+
   ↳ [`IBusinessDataYelpLanguagesTaskInfo`](IBusinessDataYelpLanguagesTaskInfo.md)
-  
+
   ↳ [`IBusinessDataYelpSearchTaskPostTaskInfo`](IBusinessDataYelpSearchTaskPostTaskInfo.md)
-  
+
   ↳ [`IBusinessDataYelpSearchTasksReadyTaskInfo`](IBusinessDataYelpSearchTasksReadyTaskInfo.md)
-  
+
   ↳ [`IBusinessDataYelpSearchTaskGetTaskInfo`](IBusinessDataYelpSearchTaskGetTaskInfo.md)
-  
+
   ↳ [`IBusinessDataYelpReviewsTaskPostTaskInfo`](IBusinessDataYelpReviewsTaskPostTaskInfo.md)
-  
+
   ↳ [`IBusinessDataYelpReviewsTasksReadyTaskInfo`](IBusinessDataYelpReviewsTasksReadyTaskInfo.md)
-  
+
   ↳ [`IBusinessDataYelpReviewsTaskGetTaskInfo`](IBusinessDataYelpReviewsTaskGetTaskInfo.md)
-  
+
   ↳ [`IBusinessDataSocialMediaPinterestLiveTaskInfo`](IBusinessDataSocialMediaPinterestLiveTaskInfo.md)
-  
+
   ↳ [`IBusinessDataSocialMediaFacebookLiveTaskInfo`](IBusinessDataSocialMediaFacebookLiveTaskInfo.md)
-  
+
   ↳ [`IBusinessDataSocialMediaRedditLiveTaskInfo`](IBusinessDataSocialMediaRedditLiveTaskInfo.md)
-  
+
   ↳ [`IAppendixUserDataTaskInfo`](IAppendixUserDataTaskInfo.md)
-  
+
   ↳ [`IAppendixErrorsTaskInfo`](IAppendixErrorsTaskInfo.md)
-  
+
   ↳ [`IAppendixWebhookResendTaskInfo`](IAppendixWebhookResendTaskInfo.md)
-  
+
   ↳ [`IAppendixStatusTaskInfo`](IAppendixStatusTaskInfo.md)
 
 ## Implemented by
@@ -983,10 +1001,9 @@ total tasks cost, USD
 
 #### Defined in
 
-[main.ts:22697](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L22697)
+main.ts:23216
 
 ___
-
 
 ### data
 
@@ -1000,10 +1017,9 @@ contains the same parameters that you specified in the POST request
 
 #### Defined in
 
-[main.ts:22703](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L22703)
+main.ts:23222
 
 ___
-
 
 ### id
 
@@ -1014,10 +1030,9 @@ unique task identifier in our system in the UUID format
 
 #### Defined in
 
-[main.ts:22686](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L22686)
+main.ts:23205
 
 ___
-
 
 ### path
 
@@ -1027,10 +1042,9 @@ URL path
 
 #### Defined in
 
-[main.ts:22701](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L22701)
+main.ts:23220
 
 ___
-
 
 ### result\_count
 
@@ -1040,10 +1054,9 @@ number of elements in the result array
 
 #### Defined in
 
-[main.ts:22699](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L22699)
+main.ts:23218
 
 ___
-
 
 ### status\_code
 
@@ -1055,10 +1068,9 @@ you can find the full list of the response codes here
 
 #### Defined in
 
-[main.ts:22690](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L22690)
+main.ts:23209
 
 ___
-
 
 ### status\_message
 
@@ -1069,10 +1081,9 @@ you can find the full list of general informational messages here
 
 #### Defined in
 
-[main.ts:22693](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L22693)
+main.ts:23212
 
 ___
-
 
 ### time
 
@@ -1082,8 +1093,4 @@ execution time, seconds
 
 #### Defined in
 
-[main.ts:22695](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L22695)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:23214

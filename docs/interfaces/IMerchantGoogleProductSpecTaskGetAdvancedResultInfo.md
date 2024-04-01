@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IMerchantGoogleProductSpecTaskGetAdvancedResultInfo
+[Documentation](../README.md) / [Exports](../modules.md) / IMerchantGoogleProductSpecTaskGetAdvancedResultInfo
 
 # Interface: IMerchantGoogleProductSpecTaskGetAdvancedResultInfo
 
@@ -44,10 +40,9 @@ you can use it to make sure that we provided accurate results
 
 #### Defined in
 
-[main.ts:168078](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L168078)
+main.ts:173531
 
 ___
-
 
 ### datetime
 
@@ -60,10 +55,9 @@ example:
 
 #### Defined in
 
-[main.ts:168083](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L168083)
+main.ts:173536
 
 ___
-
 
 ### description
 
@@ -73,10 +67,9 @@ description of the product
 
 #### Defined in
 
-[main.ts:168071](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L168071)
+main.ts:173524
 
 ___
-
 
 ### image\_url
 
@@ -86,10 +79,9 @@ URL of the product image
 
 #### Defined in
 
-[main.ts:168073](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L168073)
+main.ts:173526
 
 ___
-
 
 ### item\_types
 
@@ -101,10 +93,9 @@ shopping_specification
 
 #### Defined in
 
-[main.ts:168087](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L168087)
+main.ts:173540
 
 ___
-
 
 ### items
 
@@ -115,10 +106,9 @@ contains all product attributes and related data listed on the product specifica
 
 #### Defined in
 
-[main.ts:168092](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L168092)
+main.ts:173545
 
 ___
-
 
 ### items\_count
 
@@ -128,10 +118,9 @@ the number of results returned in the items array
 
 #### Defined in
 
-[main.ts:168089](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L168089)
+main.ts:173542
 
 ___
-
 
 ### language\_code
 
@@ -141,10 +130,9 @@ language code in a POST array
 
 #### Defined in
 
-[main.ts:168067](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L168067)
+main.ts:173520
 
 ___
-
 
 ### location\_code
 
@@ -154,10 +142,9 @@ location code in a POST array
 
 #### Defined in
 
-[main.ts:168065](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L168065)
+main.ts:173518
 
 ___
-
 
 ### product\_id
 
@@ -168,10 +155,9 @@ learn more about the parameter in this help center guide
 
 #### Defined in
 
-[main.ts:168059](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L168059)
+main.ts:173512
 
 ___
-
 
 ### se\_domain
 
@@ -181,10 +167,9 @@ search engine domain in a POST array
 
 #### Defined in
 
-[main.ts:168063](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L168063)
+main.ts:173516
 
 ___
-
 
 ### tags
 
@@ -194,10 +179,9 @@ tags of the product
 
 #### Defined in
 
-[main.ts:168075](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L168075)
+main.ts:173528
 
 ___
-
 
 ### title
 
@@ -207,10 +191,9 @@ title of the product
 
 #### Defined in
 
-[main.ts:168069](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L168069)
+main.ts:173522
 
 ___
-
 
 ### type
 
@@ -220,8 +203,4 @@ type of element
 
 #### Defined in
 
-[main.ts:168061](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L168061)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:173514

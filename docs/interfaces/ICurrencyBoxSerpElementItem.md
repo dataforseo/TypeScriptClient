@@ -1,15 +1,11 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / ICurrencyBoxSerpElementItem
+[Documentation](../README.md) / [Exports](../modules.md) / ICurrencyBoxSerpElementItem
 
 # Interface: ICurrencyBoxSerpElementItem
 
 ## Hierarchy
 
 - [`IBaseSerpElementItem`](IBaseSerpElementItem.md)
-  
+
   ↳ **`ICurrencyBoxSerpElementItem`**
 
 ## Implemented by
@@ -47,10 +43,9 @@ converted currency
 
 #### Defined in
 
-[main.ts:34287](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L34287)
+main.ts:35220
 
 ___
-
 
 ### converted\_value
 
@@ -62,10 +57,9 @@ note that exchange rates displayed in the currency_box element may be delayed ac
 
 #### Defined in
 
-[main.ts:34282](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L34282)
+main.ts:35215
 
 ___
-
 
 ### currency
 
@@ -76,10 +70,9 @@ ISO code of the currency applied to the price
 
 #### Defined in
 
-[main.ts:34285](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L34285)
+main.ts:35218
 
 ___
-
 
 ### graph
 
@@ -89,10 +82,9 @@ contains data provided in the graph of the element
 
 #### Defined in
 
-[main.ts:34297](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L34297)
+main.ts:35230
 
 ___
-
 
 ### position
 
@@ -104,10 +96,9 @@ left, right
 
 #### Defined in
 
-[main.ts:34274](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L34274)
+main.ts:35207
 
 ___
-
 
 ### rank\_absolute
 
@@ -115,28 +106,28 @@ ___
 
 absolute rank in SERP
 absolute position among all the elements in SERP
+always equals 0 for desktop
 
 #### Defined in
 
-[main.ts:34270](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L34270)
+main.ts:35203
 
 ___
-
 
 ### rank\_group
 
 • `Optional` **rank\_group**: `number`
 
 group rank in SERP
-position within a group of elements with identical type values
-positions of elements with different type values are omitted from rank_group
+position within a group of elements with identical type values;
+positions of elements with different type values are omitted from rank_group;
+always equals 0 for desktop
 
 #### Defined in
 
-[main.ts:34267](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L34267)
+main.ts:35199
 
 ___
-
 
 ### rectangle
 
@@ -148,10 +139,9 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 #### Defined in
 
-[main.ts:34301](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L34301)
+main.ts:35234
 
 ___
-
 
 ### table
 
@@ -162,10 +152,9 @@ if there are none, equals null
 
 #### Defined in
 
-[main.ts:34295](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L34295)
+main.ts:35228
 
 ___
-
 
 ### timestamp
 
@@ -178,10 +167,9 @@ example:
 
 #### Defined in
 
-[main.ts:34292](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L34292)
+main.ts:35225
 
 ___
-
 
 ### value
 
@@ -191,10 +179,9 @@ the value of the rating
 
 #### Defined in
 
-[main.ts:34278](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L34278)
+main.ts:35211
 
 ___
-
 
 ### xpath
 
@@ -204,8 +191,4 @@ the XPath of the element
 
 #### Defined in
 
-[main.ts:34276](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L34276)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:35209

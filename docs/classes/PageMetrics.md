@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / PageMetrics
+[Documentation](../README.md) / [Exports](../modules.md) / PageMetrics
 
 # Class: PageMetrics
 
@@ -59,7 +55,7 @@
 
 #### Defined in
 
-[main.ts:143555](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L143555)
+main.ts:148982
 
 ## Properties
 
@@ -76,10 +72,9 @@ number of broken links across all crawled pages on a target website
 
 #### Defined in
 
-[main.ts:143530](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L143530)
+main.ts:148957
 
 ___
-
 
 ### broken\_resources
 
@@ -94,10 +89,9 @@ the number of images and other resources with broken links
 
 #### Defined in
 
-[main.ts:143533](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L143533)
+main.ts:148960
 
 ___
-
 
 ### checks
 
@@ -115,10 +109,9 @@ page-specific on-page check-ups
 
 #### Defined in
 
-[main.ts:143551](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L143551)
+main.ts:148978
 
 ___
-
 
 ### duplicate\_content
 
@@ -132,10 +125,9 @@ number of pages with duplicate content
 
 #### Defined in
 
-[main.ts:143527](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L143527)
+main.ts:148954
 
 ___
-
 
 ### duplicate\_description
 
@@ -149,10 +141,9 @@ number of pages with duplicate descriptions
 
 #### Defined in
 
-[main.ts:143525](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L143525)
+main.ts:148952
 
 ___
-
 
 ### duplicate\_title
 
@@ -166,10 +157,9 @@ number of pages with duplicate titles
 
 #### Defined in
 
-[main.ts:143523](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L143523)
+main.ts:148950
 
 ___
-
 
 ### links\_external
 
@@ -184,10 +174,9 @@ the number of links pointing to other websites
 
 #### Defined in
 
-[main.ts:143518](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L143518)
+main.ts:148945
 
 ___
-
 
 ### links\_internal
 
@@ -202,10 +191,9 @@ the number of links pointing to other pages within the target website
 
 #### Defined in
 
-[main.ts:143521](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L143521)
+main.ts:148948
 
 ___
-
 
 ### links\_relation\_conflict
 
@@ -220,10 +208,9 @@ for example, if "links_relation_conflict": 2, the target website is referring to
 
 #### Defined in
 
-[main.ts:143536](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L143536)
+main.ts:148963
 
 ___
-
 
 ### non\_indexable
 
@@ -239,10 +226,9 @@ you can receive a list of non-indexable URLs using this endpoint
 
 #### Defined in
 
-[main.ts:143549](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L143549)
+main.ts:148976
 
 ___
-
 
 ### onpage\_score
 
@@ -260,10 +246,9 @@ learn more about how the metric is calculated in this help center article
 
 #### Defined in
 
-[main.ts:143545](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L143545)
+main.ts:148972
 
 ___
-
 
 ### redirect\_loop
 
@@ -278,7 +263,7 @@ number of redirect chains where the destination URL redirects back to the origin
 
 #### Defined in
 
-[main.ts:143539](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L143539)
+main.ts:148966
 
 ## Methods
 
@@ -298,10 +283,9 @@ number of redirect chains where the destination URL redirects back to the origin
 
 #### Defined in
 
-[main.ts:143564](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L143564)
+main.ts:148991
 
 ___
-
 
 ### toJSON
 
@@ -319,10 +303,9 @@ ___
 
 #### Defined in
 
-[main.ts:143598](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L143598)
+main.ts:149025
 
 ___
-
 
 ### fromJS
 
@@ -340,8 +323,4 @@ ___
 
 #### Defined in
 
-[main.ts:143591](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L143591)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:149018

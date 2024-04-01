@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IAmazonMetricsBundleInfo
+[Documentation](../README.md) / [Exports](../modules.md) / IAmazonMetricsBundleInfo
 
 # Interface: IAmazonMetricsBundleInfo
 
@@ -31,10 +27,9 @@ ranking data from Amazon paid SERP
 
 #### Defined in
 
-[main.ts:100699](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L100699)
+main.ts:103076
 
 ___
-
 
 ### amazon\_serp
 
@@ -44,8 +39,4 @@ ranking data from Amazon organic SERP
 
 #### Defined in
 
-[main.ts:100697](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L100697)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:103074

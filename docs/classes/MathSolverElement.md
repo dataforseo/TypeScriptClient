@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / MathSolverElement
+[Documentation](../README.md) / [Exports](../modules.md) / MathSolverElement
 
 # Class: MathSolverElement
 
@@ -50,7 +46,7 @@
 
 #### Defined in
 
-[main.ts:33976](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L33976)
+main.ts:34899
 
 ## Properties
 
@@ -66,16 +62,15 @@ expanded element
 
 #### Defined in
 
-[main.ts:33972](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L33972)
+main.ts:34895
 
 ___
-
 
 ### title
 
 • `Optional` **title**: `string`
 
-title of the row
+title of a given link element
 
 #### Implementation of
 
@@ -83,10 +78,9 @@ title of the row
 
 #### Defined in
 
-[main.ts:33970](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L33970)
+main.ts:34893
 
 ___
-
 
 ### type
 
@@ -100,7 +94,7 @@ type of element
 
 #### Defined in
 
-[main.ts:33968](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L33968)
+main.ts:34891
 
 ## Methods
 
@@ -120,10 +114,9 @@ type of element
 
 #### Defined in
 
-[main.ts:33985](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L33985)
+main.ts:34908
 
 ___
-
 
 ### toJSON
 
@@ -141,10 +134,9 @@ ___
 
 #### Defined in
 
-[main.ts:34008](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L34008)
+main.ts:34931
 
 ___
-
 
 ### fromJS
 
@@ -162,8 +154,4 @@ ___
 
 #### Defined in
 
-[main.ts:34001](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L34001)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:34924

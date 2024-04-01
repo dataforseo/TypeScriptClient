@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IKeywordsDataBingKeywordPerformanceTaskPostRequestInfo
+[Documentation](../README.md) / [Exports](../modules.md) / IKeywordsDataBingKeywordPerformanceTaskPostRequestInfo
 
 # Interface: IKeywordsDataBingKeywordPerformanceTaskPostRequestInfo
 
@@ -43,10 +39,9 @@ default value: all
 
 #### Defined in
 
-[main.ts:126751](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L126751)
+main.ts:132118
 
 ___
-
 
 ### keywords
 
@@ -61,10 +56,9 @@ the specified keywords will be converted to lowercase, data will be provided in 
 
 #### Defined in
 
-[main.ts:126746](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L126746)
+main.ts:132113
 
 ___
-
 
 ### language\_code
 
@@ -78,10 +72,9 @@ example:
 
 #### Defined in
 
-[main.ts:126794](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L126794)
+main.ts:132161
 
 ___
-
 
 ### language\_name
 
@@ -96,10 +89,9 @@ English
 
 #### Defined in
 
-[main.ts:126788](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L126788)
+main.ts:132155
 
 ___
-
 
 ### location\_code
 
@@ -114,10 +106,9 @@ example:
 
 #### Defined in
 
-[main.ts:126773](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L126773)
+main.ts:132140
 
 ___
-
 
 ### location\_coordinate
 
@@ -133,10 +124,9 @@ example:
 
 #### Defined in
 
-[main.ts:126781](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L126781)
+main.ts:132148
 
 ___
-
 
 ### location\_name
 
@@ -151,10 +141,9 @@ example:
 
 #### Defined in
 
-[main.ts:126766](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L126766)
+main.ts:132133
 
 ___
-
 
 ### match
 
@@ -170,10 +159,9 @@ exact returns data for user query that matches the specified keyword;Note: the a
 
 #### Defined in
 
-[main.ts:126759](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L126759)
+main.ts:132126
 
 ___
-
 
 ### pingback\_url
 
@@ -191,10 +179,9 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-[main.ts:126814](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L126814)
+main.ts:132181
 
 ___
-
 
 ### postback\_url
 
@@ -212,10 +199,9 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-[main.ts:126804](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L126804)
+main.ts:132171
 
 ___
-
 
 ### tag
 
@@ -229,8 +215,4 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-[main.ts:126820](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L126820)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:132187

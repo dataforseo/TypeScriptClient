@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / BusinessDataSocialMediaPinterestLiveRequestInfo
+[Documentation](../README.md) / [Exports](../modules.md) / BusinessDataSocialMediaPinterestLiveRequestInfo
 
 # Class: BusinessDataSocialMediaPinterestLiveRequestInfo
 
@@ -49,7 +45,7 @@
 
 #### Defined in
 
-[main.ts:205639](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L205639)
+main.ts:211100
 
 ## Properties
 
@@ -69,10 +65,9 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-[main.ts:205635](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L205635)
+main.ts:211096
 
 ___
-
 
 ### targets
 
@@ -91,7 +86,7 @@ Note: you can specify 10 targets maximum. You will be charged per earch URL you 
 
 #### Defined in
 
-[main.ts:205629](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L205629)
+main.ts:211090
 
 ## Methods
 
@@ -111,10 +106,9 @@ Note: you can specify 10 targets maximum. You will be charged per earch URL you 
 
 #### Defined in
 
-[main.ts:205648](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L205648)
+main.ts:211109
 
 ___
-
 
 ### toJSON
 
@@ -132,10 +126,9 @@ ___
 
 #### Defined in
 
-[main.ts:205670](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L205670)
+main.ts:211131
 
 ___
-
 
 ### fromJS
 
@@ -153,8 +146,4 @@ ___
 
 #### Defined in
 
-[main.ts:205663](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L205663)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:211124

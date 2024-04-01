@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / HotelReviewInfo
+[Documentation](../README.md) / [Exports](../modules.md) / HotelReviewInfo
 
 # Class: HotelReviewInfo
 
@@ -52,7 +48,7 @@
 
 #### Defined in
 
-[main.ts:195937](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L195937)
+main.ts:201398
 
 ## Properties
 
@@ -69,10 +65,9 @@ information about hotel reviews by criteria
 
 #### Defined in
 
-[main.ts:195927](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L195927)
+main.ts:201388
 
 ___
-
 
 ### other\_sites\_reviews
 
@@ -87,10 +82,9 @@ reviews from third-paty sites
 
 #### Defined in
 
-[main.ts:195933](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L195933)
+main.ts:201394
 
 ___
-
 
 ### rating\_distribution
 
@@ -109,10 +103,9 @@ the distribution of votes across the rating in the range from 1 to 5
 
 #### Defined in
 
-[main.ts:195930](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L195930)
+main.ts:201391
 
 ___
-
 
 ### value
 
@@ -126,10 +119,9 @@ overall hotel rating based on customer votes
 
 #### Defined in
 
-[main.ts:195921](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L195921)
+main.ts:201382
 
 ___
-
 
 ### votes\_count
 
@@ -144,7 +136,7 @@ the number of customer votes included in the calculation of the hotel rating
 
 #### Defined in
 
-[main.ts:195924](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L195924)
+main.ts:201385
 
 ## Methods
 
@@ -164,10 +156,9 @@ the number of customer votes included in the calculation of the hotel rating
 
 #### Defined in
 
-[main.ts:195946](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L195946)
+main.ts:201407
 
 ___
-
 
 ### toJSON
 
@@ -185,10 +176,9 @@ ___
 
 #### Defined in
 
-[main.ts:195981](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L195981)
+main.ts:201442
 
 ___
-
 
 ### fromJS
 
@@ -206,8 +196,4 @@ ___
 
 #### Defined in
 
-[main.ts:195974](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L195974)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:201435

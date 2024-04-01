@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / AppDataAppleAppSearchesTaskGetAdvancedResultInfo
+[Documentation](../README.md) / [Exports](../modules.md) / AppDataAppleAppSearchesTaskGetAdvancedResultInfo
 
 # Class: AppDataAppleAppSearchesTaskGetAdvancedResultInfo
 
@@ -56,7 +52,7 @@
 
 #### Defined in
 
-[main.ts:183656](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L183656)
+main.ts:189109
 
 ## Properties
 
@@ -73,10 +69,9 @@ in this case, the value will be null
 
 #### Defined in
 
-[main.ts:183641](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L183641)
+main.ts:189094
 
 ___
-
 
 ### datetime
 
@@ -93,10 +88,9 @@ example:
 
 #### Defined in
 
-[main.ts:183646](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L183646)
+main.ts:189099
 
 ___
-
 
 ### items
 
@@ -110,10 +104,9 @@ found apps
 
 #### Defined in
 
-[main.ts:183652](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L183652)
+main.ts:189105
 
 ___
-
 
 ### items\_count
 
@@ -127,10 +120,9 @@ the number of items in the results array
 
 #### Defined in
 
-[main.ts:183650](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L183650)
+main.ts:189103
 
 ___
-
 
 ### keyword
 
@@ -144,10 +136,9 @@ keyword received in a POST request
 
 #### Defined in
 
-[main.ts:183632](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L183632)
+main.ts:189085
 
 ___
-
 
 ### language\_code
 
@@ -161,10 +152,9 @@ language code in a POST array
 
 #### Defined in
 
-[main.ts:183638](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L183638)
+main.ts:189091
 
 ___
-
 
 ### location\_code
 
@@ -178,10 +168,9 @@ location code in a POST array
 
 #### Defined in
 
-[main.ts:183636](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L183636)
+main.ts:189089
 
 ___
-
 
 ### se\_domain
 
@@ -195,10 +184,9 @@ search engine domain in a POST array
 
 #### Defined in
 
-[main.ts:183634](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L183634)
+main.ts:189087
 
 ___
-
 
 ### se\_results\_count
 
@@ -212,7 +200,7 @@ the total number of results
 
 #### Defined in
 
-[main.ts:183648](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L183648)
+main.ts:189101
 
 ## Methods
 
@@ -232,10 +220,9 @@ the total number of results
 
 #### Defined in
 
-[main.ts:183665](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L183665)
+main.ts:189118
 
 ___
-
 
 ### toJSON
 
@@ -253,10 +240,9 @@ ___
 
 #### Defined in
 
-[main.ts:183694](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L183694)
+main.ts:189147
 
 ___
-
 
 ### fromJS
 
@@ -274,8 +260,4 @@ ___
 
 #### Defined in
 
-[main.ts:183687](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L183687)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:189140

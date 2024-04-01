@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IAppendixSocialMediaBusinessDataPriceData
+[Documentation](../README.md) / [Exports](../modules.md) / IAppendixSocialMediaBusinessDataPriceData
 
 # Interface: IAppendixSocialMediaBusinessDataPriceData
 
@@ -30,10 +26,9 @@
 
 #### Defined in
 
-[main.ts:211047](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L211047)
+main.ts:216640
 
 ___
-
 
 ### pinterest
 
@@ -41,10 +36,9 @@ ___
 
 #### Defined in
 
-[main.ts:211048](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L211048)
+main.ts:216641
 
 ___
-
 
 ### reddit
 
@@ -52,8 +46,4 @@ ___
 
 #### Defined in
 
-[main.ts:211049](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L211049)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:216642

@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IPeopleAlsoAskExpandedElement
+[Documentation](../README.md) / [Exports](../modules.md) / IPeopleAlsoAskExpandedElement
 
 # Interface: IPeopleAlsoAskExpandedElement
 
@@ -34,27 +30,25 @@
 
 • `Optional` **description**: `string`
 
-description of the hotel booking element
+description of the results element in SERP
 
 #### Defined in
 
-[main.ts:28475](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L28475)
+main.ts:29226
 
 ___
-
 
 ### domain
 
 • `Optional` **domain**: `string`
 
-website domain
+domain where a link points
 
 #### Defined in
 
-[main.ts:28471](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L28471)
+main.ts:29222
 
 ___
-
 
 ### featured\_title
 
@@ -64,10 +58,9 @@ the title of the featured snippets source page
 
 #### Defined in
 
-[main.ts:28467](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L28467)
+main.ts:29218
 
 ___
-
 
 ### images
 
@@ -77,10 +70,9 @@ images of the element
 
 #### Defined in
 
-[main.ts:28477](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L28477)
+main.ts:29228
 
 ___
-
 
 ### table
 
@@ -91,10 +83,9 @@ if there are none, equals null
 
 #### Defined in
 
-[main.ts:28485](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L28485)
+main.ts:29236
 
 ___
-
 
 ### timestamp
 
@@ -107,23 +98,21 @@ example:
 
 #### Defined in
 
-[main.ts:28482](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L28482)
+main.ts:29233
 
 ___
-
 
 ### title
 
 • `Optional` **title**: `string`
 
-title of a given link element
+title of the carousel item
 
 #### Defined in
 
-[main.ts:28473](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L28473)
+main.ts:29224
 
 ___
-
 
 ### type
 
@@ -133,21 +122,16 @@ type of element
 
 #### Defined in
 
-[main.ts:28465](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L28465)
+main.ts:29216
 
 ___
-
 
 ### url
 
 • `Optional` **url**: `string`
 
-URL
+URL of element
 
 #### Defined in
 
-[main.ts:28469](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L28469)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:29220

@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IMerchantGoogleProductsTaskGetHtmlResultInfo
+[Documentation](../README.md) / [Exports](../modules.md) / IMerchantGoogleProductsTaskGetHtmlResultInfo
 
 # Interface: IMerchantGoogleProductsTaskGetHtmlResultInfo
 
@@ -40,10 +36,9 @@ example:
 
 #### Defined in
 
-[main.ts:165726](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L165726)
+main.ts:171153
 
 ___
-
 
 ### items
 
@@ -53,10 +48,9 @@ elements of search results found on Google Shopping
 
 #### Defined in
 
-[main.ts:165730](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L165730)
+main.ts:171157
 
 ___
-
 
 ### items\_count
 
@@ -66,10 +60,9 @@ the number of results returned in the items array
 
 #### Defined in
 
-[main.ts:165728](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L165728)
+main.ts:171155
 
 ___
-
 
 ### keyword
 
@@ -80,10 +73,9 @@ keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a s
 
 #### Defined in
 
-[main.ts:165713](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L165713)
+main.ts:171140
 
 ___
-
 
 ### language\_code
 
@@ -93,10 +85,9 @@ language code in a POST array
 
 #### Defined in
 
-[main.ts:165721](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L165721)
+main.ts:171148
 
 ___
-
 
 ### location\_code
 
@@ -106,10 +97,9 @@ location code in a POST array
 
 #### Defined in
 
-[main.ts:165719](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L165719)
+main.ts:171146
 
 ___
-
 
 ### se\_domain
 
@@ -119,10 +109,9 @@ search engine domain in a POST array
 
 #### Defined in
 
-[main.ts:165717](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L165717)
+main.ts:171144
 
 ___
-
 
 ### type
 
@@ -132,8 +121,4 @@ type of element
 
 #### Defined in
 
-[main.ts:165715](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L165715)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:171142

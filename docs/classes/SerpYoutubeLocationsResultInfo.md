@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / SerpYoutubeLocationsResultInfo
+[Documentation](../README.md) / [Exports](../modules.md) / SerpYoutubeLocationsResultInfo
 
 # Class: SerpYoutubeLocationsResultInfo
 
@@ -52,7 +48,7 @@
 
 #### Defined in
 
-[main.ts:57191](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L57191)
+main.ts:59566
 
 ## Properties
 
@@ -68,10 +64,9 @@ ISO country code of the location
 
 #### Defined in
 
-[main.ts:57185](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L57185)
+main.ts:59560
 
 ___
-
 
 ### location\_code
 
@@ -85,10 +80,9 @@ location code
 
 #### Defined in
 
-[main.ts:57172](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L57172)
+main.ts:59547
 
 ___
-
 
 ### location\_code\_parent
 
@@ -109,10 +103,9 @@ where location_code_parent corresponds to:
 
 #### Defined in
 
-[main.ts:57183](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L57183)
+main.ts:59558
 
 ___
-
 
 ### location\_name
 
@@ -126,10 +119,9 @@ full name of the location
 
 #### Defined in
 
-[main.ts:57174](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L57174)
+main.ts:59549
 
 ___
-
 
 ### location\_type
 
@@ -143,7 +135,7 @@ location type
 
 #### Defined in
 
-[main.ts:57187](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L57187)
+main.ts:59562
 
 ## Methods
 
@@ -163,10 +155,9 @@ location type
 
 #### Defined in
 
-[main.ts:57200](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L57200)
+main.ts:59575
 
 ___
-
 
 ### toJSON
 
@@ -184,10 +175,9 @@ ___
 
 #### Defined in
 
-[main.ts:57221](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L57221)
+main.ts:59596
 
 ___
-
 
 ### fromJS
 
@@ -205,8 +195,4 @@ ___
 
 #### Defined in
 
-[main.ts:57214](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L57214)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:59589

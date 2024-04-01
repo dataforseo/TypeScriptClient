@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / BacklinksDomainIntersectionLiveRequestInfo
+[Documentation](../README.md) / [Exports](../modules.md) / BacklinksDomainIntersectionLiveRequestInfo
 
 # Class: BacklinksDomainIntersectionLiveRequestInfo
 
@@ -61,7 +57,7 @@
 
 #### Defined in
 
-[main.ts:136497](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L136497)
+main.ts:141912
 
 ## Properties
 
@@ -83,10 +79,9 @@ example:
 
 #### Defined in
 
-[main.ts:136463](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L136463)
+main.ts:141878
 
 ___
-
 
 ### backlinks\_status\_type
 
@@ -107,10 +102,9 @@ default value: live
 
 #### Defined in
 
-[main.ts:136455](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L136455)
+main.ts:141870
 
 ___
-
 
 ### exclude\_internal\_backlinks
 
@@ -127,10 +121,9 @@ default value: true
 
 #### Defined in
 
-[main.ts:136479](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L136479)
+main.ts:141894
 
 ___
-
 
 ### exclude\_targets
 
@@ -152,10 +145,9 @@ example:
 
 #### Defined in
 
-[main.ts:136394](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L136394)
+main.ts:141809
 
 ___
-
 
 ### filters
 
@@ -184,10 +176,9 @@ The full list of possible filters is available here.
 
 #### Defined in
 
-[main.ts:136411](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L136411)
+main.ts:141826
 
 ___
-
 
 ### include\_indirect\_links
 
@@ -205,10 +196,9 @@ default value: true
 
 #### Defined in
 
-[main.ts:136474](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L136474)
+main.ts:141889
 
 ___
-
 
 ### include\_subdomains
 
@@ -225,10 +215,9 @@ default value: true
 
 #### Defined in
 
-[main.ts:136468](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L136468)
+main.ts:141883
 
 ___
-
 
 ### internal\_list\_limit
 
@@ -251,10 +240,9 @@ maximum value: 1000
 
 #### Defined in
 
-[main.ts:136446](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L136446)
+main.ts:141861
 
 ___
-
 
 ### intersection\_mode
 
@@ -274,10 +262,9 @@ default value: all
 
 #### Defined in
 
-[main.ts:136487](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L136487)
+main.ts:141902
 
 ___
-
 
 ### limit
 
@@ -294,10 +281,9 @@ maximum value: 1000
 
 #### Defined in
 
-[main.ts:136435](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L136435)
+main.ts:141850
 
 ___
-
 
 ### offset
 
@@ -314,10 +300,9 @@ if you specify the 10 value, the first ten backlinks in the results array will b
 
 #### Defined in
 
-[main.ts:136430](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L136430)
+main.ts:141845
 
 ___
-
 
 ### order\_by
 
@@ -343,10 +328,9 @@ example:
 
 #### Defined in
 
-[main.ts:136425](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L136425)
+main.ts:141840
 
 ___
-
 
 ### tag
 
@@ -364,10 +348,9 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-[main.ts:136493](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L136493)
+main.ts:141908
 
 ___
-
 
 ### targets
 
@@ -394,7 +377,7 @@ example:
 
 #### Defined in
 
-[main.ts:136384](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L136384)
+main.ts:141799
 
 ## Methods
 
@@ -414,10 +397,9 @@ example:
 
 #### Defined in
 
-[main.ts:136506](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L136506)
+main.ts:141921
 
 ___
-
 
 ### toJSON
 
@@ -435,10 +417,9 @@ ___
 
 #### Defined in
 
-[main.ts:136558](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L136558)
+main.ts:141973
 
 ___
-
 
 ### fromJS
 
@@ -456,8 +437,4 @@ ___
 
 #### Defined in
 
-[main.ts:136551](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L136551)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:141966

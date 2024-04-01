@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / TrendsGraphDataInfo
+[Documentation](../README.md) / [Exports](../modules.md) / TrendsGraphDataInfo
 
 # Class: TrendsGraphDataInfo
 
@@ -52,7 +48,7 @@
 
 #### Defined in
 
-[main.ts:120405](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L120405)
+main.ts:122782
 
 ## Properties
 
@@ -69,10 +65,9 @@ in the UTC format: “yyyy-mm-dd”
 
 #### Defined in
 
-[main.ts:120388](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L120388)
+main.ts:122765
 
 ___
-
 
 ### date\_to
 
@@ -87,10 +82,9 @@ in the UTC format: “yyyy-mm-dd”
 
 #### Defined in
 
-[main.ts:120391](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L120391)
+main.ts:122768
 
 ___
-
 
 ### missing\_data
 
@@ -105,10 +99,9 @@ if true the data on the graph in the Google Trends interface is missing and thus
 
 #### Defined in
 
-[main.ts:120396](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L120396)
+main.ts:122773
 
 ___
-
 
 ### timestamp
 
@@ -122,10 +115,9 @@ a point in time in the Unix time format
 
 #### Defined in
 
-[main.ts:120393](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L120393)
+main.ts:122770
 
 ___
-
 
 ### values
 
@@ -142,7 +134,7 @@ a value of 100 is the peak popularity for the term. A value of 50 means that the
 
 #### Defined in
 
-[main.ts:120401](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L120401)
+main.ts:122778
 
 ## Methods
 
@@ -162,10 +154,9 @@ a value of 100 is the peak popularity for the term. A value of 50 means that the
 
 #### Defined in
 
-[main.ts:120414](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L120414)
+main.ts:122791
 
 ___
-
 
 ### toJSON
 
@@ -183,10 +174,9 @@ ___
 
 #### Defined in
 
-[main.ts:120439](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L120439)
+main.ts:122816
 
 ___
-
 
 ### fromJS
 
@@ -204,8 +194,4 @@ ___
 
 #### Defined in
 
-[main.ts:120432](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L120432)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:122809

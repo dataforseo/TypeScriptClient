@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / BusinessDataGoogleHotelInfoLiveHtmlRequestInfo
+[Documentation](../README.md) / [Exports](../modules.md) / BusinessDataGoogleHotelInfoLiveHtmlRequestInfo
 
 # Class: BusinessDataGoogleHotelInfoLiveHtmlRequestInfo
 
@@ -60,7 +56,7 @@
 
 #### Defined in
 
-[main.ts:197376](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L197376)
+main.ts:202837
 
 ## Properties
 
@@ -80,10 +76,9 @@ example:
 
 #### Defined in
 
-[main.ts:197358](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L197358)
+main.ts:202819
 
 ___
-
 
 ### check\_in
 
@@ -102,10 +97,9 @@ example:
 
 #### Defined in
 
-[main.ts:197340](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L197340)
+main.ts:202801
 
 ___
-
 
 ### check\_out
 
@@ -124,10 +118,9 @@ example:
 
 #### Defined in
 
-[main.ts:197347](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L197347)
+main.ts:202808
 
 ___
-
 
 ### children
 
@@ -147,10 +140,9 @@ set the following value if you want to include one 13-years-old child and one 8-
 
 #### Defined in
 
-[main.ts:197366](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L197366)
+main.ts:202827
 
 ___
-
 
 ### currency
 
@@ -167,10 +159,9 @@ example:
 
 #### Defined in
 
-[main.ts:197352](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L197352)
+main.ts:202813
 
 ___
-
 
 ### hotel\_identifier
 
@@ -189,10 +180,9 @@ ChYIq6SB--i6p6cpGgovbS8wN2s5ODZfEAE
 
 #### Defined in
 
-[main.ts:197288](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L197288)
+main.ts:202749
 
 ___
-
 
 ### language\_code
 
@@ -211,10 +201,9 @@ en
 
 #### Defined in
 
-[main.ts:197333](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L197333)
+main.ts:202794
 
 ___
-
 
 ### language\_name
 
@@ -233,10 +222,9 @@ English
 
 #### Defined in
 
-[main.ts:197326](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L197326)
+main.ts:202787
 
 ___
-
 
 ### location\_code
 
@@ -255,10 +243,9 @@ example:
 
 #### Defined in
 
-[main.ts:197310](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L197310)
+main.ts:202771
 
 ___
-
 
 ### location\_coordinate
 
@@ -279,10 +266,9 @@ example:
 
 #### Defined in
 
-[main.ts:197319](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L197319)
+main.ts:202780
 
 ___
-
 
 ### location\_name
 
@@ -301,10 +287,9 @@ London,England,United Kingdom
 
 #### Defined in
 
-[main.ts:197303](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L197303)
+main.ts:202764
 
 ___
-
 
 ### priority
 
@@ -324,10 +309,9 @@ The cost can be calculated on the Pricing page.
 
 #### Defined in
 
-[main.ts:197296](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L197296)
+main.ts:202757
 
 ___
-
 
 ### tag
 
@@ -345,7 +329,7 @@ you will find the specified tag value in the data array of the response
 
 #### Defined in
 
-[main.ts:197372](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L197372)
+main.ts:202833
 
 ## Methods
 
@@ -365,10 +349,9 @@ you will find the specified tag value in the data array of the response
 
 #### Defined in
 
-[main.ts:197385](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L197385)
+main.ts:202846
 
 ___
-
 
 ### toJSON
 
@@ -386,10 +369,9 @@ ___
 
 #### Defined in
 
-[main.ts:197418](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L197418)
+main.ts:202879
 
 ___
-
 
 ### fromJS
 
@@ -407,8 +389,4 @@ ___
 
 #### Defined in
 
-[main.ts:197411](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L197411)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:202872

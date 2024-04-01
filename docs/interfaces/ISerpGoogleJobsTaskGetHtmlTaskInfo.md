@@ -1,15 +1,11 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / ISerpGoogleJobsTaskGetHtmlTaskInfo
+[Documentation](../README.md) / [Exports](../modules.md) / ISerpGoogleJobsTaskGetHtmlTaskInfo
 
 # Interface: ISerpGoogleJobsTaskGetHtmlTaskInfo
 
 ## Hierarchy
 
 - [`IBaseResponseTaskInfo`](IBaseResponseTaskInfo.md)
-  
+
   ↳ **`ISerpGoogleJobsTaskGetHtmlTaskInfo`**
 
 ## Implemented by
@@ -48,10 +44,9 @@ total tasks cost, USD
 
 #### Defined in
 
-[main.ts:22697](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L22697)
+main.ts:23216
 
 ___
-
 
 ### data
 
@@ -69,10 +64,9 @@ contains the same parameters that you specified in the POST request
 
 #### Defined in
 
-[main.ts:22703](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L22703)
+main.ts:23222
 
 ___
-
 
 ### id
 
@@ -87,10 +81,9 @@ unique task identifier in our system in the UUID format
 
 #### Defined in
 
-[main.ts:22686](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L22686)
+main.ts:23205
 
 ___
-
 
 ### path
 
@@ -104,10 +97,9 @@ URL path
 
 #### Defined in
 
-[main.ts:22701](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L22701)
+main.ts:23220
 
 ___
-
 
 ### result
 
@@ -117,10 +109,9 @@ array of results
 
 #### Defined in
 
-[main.ts:49690](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L49690)
+main.ts:50441
 
 ___
-
 
 ### result\_count
 
@@ -134,10 +125,9 @@ number of elements in the result array
 
 #### Defined in
 
-[main.ts:22699](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L22699)
+main.ts:23218
 
 ___
-
 
 ### status\_code
 
@@ -153,10 +143,9 @@ you can find the full list of the response codes here
 
 #### Defined in
 
-[main.ts:22690](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L22690)
+main.ts:23209
 
 ___
-
 
 ### status\_message
 
@@ -171,10 +160,9 @@ you can find the full list of general informational messages here
 
 #### Defined in
 
-[main.ts:22693](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L22693)
+main.ts:23212
 
 ___
-
 
 ### time
 
@@ -188,8 +176,4 @@ execution time, seconds
 
 #### Defined in
 
-[main.ts:22695](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L22695)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:23214

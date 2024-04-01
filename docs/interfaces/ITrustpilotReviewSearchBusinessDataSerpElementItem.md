@@ -1,15 +1,11 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / ITrustpilotReviewSearchBusinessDataSerpElementItem
+[Documentation](../README.md) / [Exports](../modules.md) / ITrustpilotReviewSearchBusinessDataSerpElementItem
 
 # Interface: ITrustpilotReviewSearchBusinessDataSerpElementItem
 
 ## Hierarchy
 
 - [`IBaseBusinessDataSerpElementItem`](IBaseBusinessDataSerpElementItem.md)
-  
+
   ↳ **`ITrustpilotReviewSearchBusinessDataSerpElementItem`**
 
 ## Implemented by
@@ -48,10 +44,9 @@ the language of the review
 
 #### Defined in
 
-[main.ts:200076](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L200076)
+main.ts:205537
 
 ___
-
 
 ### position
 
@@ -62,10 +57,9 @@ can take the following values: right
 
 #### Defined in
 
-[main.ts:200068](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L200068)
+main.ts:205529
 
 ___
-
 
 ### rank\_absolute
 
@@ -76,10 +70,9 @@ absolute position among all reviews on the list
 
 #### Defined in
 
-[main.ts:200065](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L200065)
+main.ts:205526
 
 ___
-
 
 ### rank\_group
 
@@ -90,10 +83,9 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-[main.ts:200062](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L200062)
+main.ts:205523
 
 ___
-
 
 ### rating
 
@@ -103,10 +95,9 @@ the rating score submitted by the reviewer
 
 #### Defined in
 
-[main.ts:200072](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L200072)
+main.ts:205533
 
 ___
-
 
 ### responses
 
@@ -116,10 +107,9 @@ owner’s response to the submitted review
 
 #### Defined in
 
-[main.ts:200093](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L200093)
+main.ts:205554
 
 ___
-
 
 ### review\_images
 
@@ -131,10 +121,9 @@ please note that Trustpilot doesn’t allow adding images to reviews, so the rev
 
 #### Defined in
 
-[main.ts:200089](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L200089)
+main.ts:205550
 
 ___
-
 
 ### review\_text
 
@@ -144,10 +133,9 @@ the content of the review
 
 #### Defined in
 
-[main.ts:200085](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L200085)
+main.ts:205546
 
 ___
-
 
 ### timestamp
 
@@ -160,10 +148,9 @@ example:
 
 #### Defined in
 
-[main.ts:200081](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L200081)
+main.ts:205542
 
 ___
-
 
 ### title
 
@@ -173,10 +160,9 @@ the title of the review
 
 #### Defined in
 
-[main.ts:200083](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L200083)
+main.ts:205544
 
 ___
-
 
 ### url
 
@@ -186,10 +172,9 @@ the URL of the review
 
 #### Defined in
 
-[main.ts:200070](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L200070)
+main.ts:205531
 
 ___
-
 
 ### user\_profile
 
@@ -199,10 +184,9 @@ user profile of the reviewer
 
 #### Defined in
 
-[main.ts:200091](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L200091)
+main.ts:205552
 
 ___
-
 
 ### verified
 
@@ -212,8 +196,4 @@ indicates whether the review has the “Verified” mark
 
 #### Defined in
 
-[main.ts:200074](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L200074)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:205535

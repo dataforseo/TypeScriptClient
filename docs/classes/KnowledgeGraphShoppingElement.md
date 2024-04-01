@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / KnowledgeGraphShoppingElement
+[Documentation](../README.md) / [Exports](../modules.md) / KnowledgeGraphShoppingElement
 
 # Class: KnowledgeGraphShoppingElement
 
@@ -56,7 +52,7 @@
 
 #### Defined in
 
-[main.ts:27317](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L27317)
+main.ts:27836
 
 ## Properties
 
@@ -72,10 +68,9 @@ website domain
 
 #### Defined in
 
-[main.ts:27298](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L27298)
+main.ts:27817
 
 ___
-
 
 ### marketplace
 
@@ -92,10 +87,9 @@ by Google
 
 #### Defined in
 
-[main.ts:27310](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L27310)
+main.ts:27829
 
 ___
-
 
 ### marketplace\_url
 
@@ -110,10 +104,9 @@ ecommerce site that hosts products or websites of individual sellers under the s
 
 #### Defined in
 
-[main.ts:27313](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L27313)
+main.ts:27832
 
 ___
-
 
 ### price
 
@@ -128,10 +121,9 @@ contains the pricing details of the product or service featured in the result
 
 #### Defined in
 
-[main.ts:27301](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L27301)
+main.ts:27820
 
 ___
-
 
 ### snippet
 
@@ -145,10 +137,9 @@ text alongside the link title
 
 #### Defined in
 
-[main.ts:27305](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L27305)
+main.ts:27824
 
 ___
-
 
 ### source
 
@@ -162,10 +153,9 @@ source of additional information about the result
 
 #### Defined in
 
-[main.ts:27303](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L27303)
+main.ts:27822
 
 ___
-
 
 ### title
 
@@ -179,10 +169,9 @@ title of the result in SERP
 
 #### Defined in
 
-[main.ts:27294](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L27294)
+main.ts:27813
 
 ___
-
 
 ### type
 
@@ -196,10 +185,9 @@ type of element
 
 #### Defined in
 
-[main.ts:27292](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L27292)
+main.ts:27811
 
 ___
-
 
 ### url
 
@@ -213,7 +201,7 @@ relevant URL
 
 #### Defined in
 
-[main.ts:27296](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L27296)
+main.ts:27815
 
 ## Methods
 
@@ -233,10 +221,9 @@ relevant URL
 
 #### Defined in
 
-[main.ts:27326](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L27326)
+main.ts:27845
 
 ___
-
 
 ### toJSON
 
@@ -254,10 +241,9 @@ ___
 
 #### Defined in
 
-[main.ts:27351](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L27351)
+main.ts:27870
 
 ___
-
 
 ### fromJS
 
@@ -275,8 +261,4 @@ ___
 
 #### Defined in
 
-[main.ts:27344](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L27344)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:27863

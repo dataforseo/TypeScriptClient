@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IBusinessDataTrustpilotSearchTaskGetResultInfo
+[Documentation](../README.md) / [Exports](../modules.md) / IBusinessDataTrustpilotSearchTaskGetResultInfo
 
 # Interface: IBusinessDataTrustpilotSearchTaskGetResultInfo
 
@@ -36,10 +32,9 @@ you can use it to make sure that we provided accurate results
 
 #### Defined in
 
-[main.ts:199282](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L199282)
+main.ts:204743
 
 ___
-
 
 ### datetime
 
@@ -52,10 +47,9 @@ example:
 
 #### Defined in
 
-[main.ts:199287](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L199287)
+main.ts:204748
 
 ___
-
 
 ### items
 
@@ -66,10 +60,9 @@ you can get more results by using the depth parameter when setting a task
 
 #### Defined in
 
-[main.ts:199293](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L199293)
+main.ts:204754
 
 ___
-
 
 ### items\_count
 
@@ -80,10 +73,9 @@ you can get more results by using the depth parameter when setting a task
 
 #### Defined in
 
-[main.ts:199290](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L199290)
+main.ts:204751
 
 ___
-
 
 ### keyword
 
@@ -93,10 +85,9 @@ keyword in a POST array
 
 #### Defined in
 
-[main.ts:199277](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L199277)
+main.ts:204738
 
 ___
-
 
 ### se\_domain
 
@@ -106,8 +97,4 @@ search engine domain in a POST array
 
 #### Defined in
 
-[main.ts:199279](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L199279)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:204740

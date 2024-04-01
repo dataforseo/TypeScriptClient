@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / KeywordAnnotations
+[Documentation](../README.md) / [Exports](../modules.md) / KeywordAnnotations
 
 # Class: KeywordAnnotations
 
@@ -48,7 +44,7 @@
 
 #### Defined in
 
-[main.ts:115014](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L115014)
+main.ts:117391
 
 ## Properties
 
@@ -64,7 +60,7 @@ the list of concepts for the keyword
 
 #### Defined in
 
-[main.ts:115010](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L115010)
+main.ts:117387
 
 ## Methods
 
@@ -84,10 +80,9 @@ the list of concepts for the keyword
 
 #### Defined in
 
-[main.ts:115023](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L115023)
+main.ts:117400
 
 ___
-
 
 ### toJSON
 
@@ -105,10 +100,9 @@ ___
 
 #### Defined in
 
-[main.ts:115044](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L115044)
+main.ts:117421
 
 ___
-
 
 ### fromJS
 
@@ -126,8 +120,4 @@ ___
 
 #### Defined in
 
-[main.ts:115037](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L115037)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:117414

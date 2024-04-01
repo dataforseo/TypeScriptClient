@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IAppDataErrorsRequestInfo
+[Documentation](../README.md) / [Exports](../modules.md) / IAppDataErrorsRequestInfo
 
 # Interface: IAppDataErrorsRequestInfo
 
@@ -39,10 +35,9 @@ example:
 
 #### Defined in
 
-[main.ts:176726](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L176726)
+main.ts:182179
 
 ___
-
 
 ### datetime\_to
 
@@ -57,10 +52,9 @@ example:
 
 #### Defined in
 
-[main.ts:176733](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L176733)
+main.ts:182186
 
 ___
-
 
 ### filtered\_function
 
@@ -74,10 +68,9 @@ example: app_data/task_get/advanced, postback_url, pingback_url
 
 #### Defined in
 
-[main.ts:176719](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L176719)
+main.ts:182172
 
 ___
-
 
 ### limit
 
@@ -90,10 +83,9 @@ maximum value: 1000
 
 #### Defined in
 
-[main.ts:176708](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L176708)
+main.ts:182161
 
 ___
-
 
 ### offset
 
@@ -106,8 +98,4 @@ if you specify the 10 value, the first ten tasks in the results array will be om
 
 #### Defined in
 
-[main.ts:176713](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L176713)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:182166

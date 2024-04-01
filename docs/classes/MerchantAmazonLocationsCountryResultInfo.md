@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / MerchantAmazonLocationsCountryResultInfo
+[Documentation](../README.md) / [Exports](../modules.md) / MerchantAmazonLocationsCountryResultInfo
 
 # Class: MerchantAmazonLocationsCountryResultInfo
 
@@ -52,7 +48,7 @@
 
 #### Defined in
 
-[main.ts:169957](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L169957)
+main.ts:175410
 
 ## Properties
 
@@ -68,10 +64,9 @@ ISO country code of the location
 
 #### Defined in
 
-[main.ts:169951](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L169951)
+main.ts:175404
 
 ___
-
 
 ### location\_code
 
@@ -85,10 +80,9 @@ location code
 
 #### Defined in
 
-[main.ts:169941](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L169941)
+main.ts:175394
 
 ___
-
 
 ### location\_name
 
@@ -102,10 +96,9 @@ full name of the location
 
 #### Defined in
 
-[main.ts:169943](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L169943)
+main.ts:175396
 
 ___
-
 
 ### location\_name\_parent
 
@@ -123,10 +116,9 @@ example:
 
 #### Defined in
 
-[main.ts:169949](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L169949)
+main.ts:175402
 
 ___
-
 
 ### location\_type
 
@@ -140,7 +132,7 @@ location type
 
 #### Defined in
 
-[main.ts:169953](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L169953)
+main.ts:175406
 
 ## Methods
 
@@ -160,10 +152,9 @@ location type
 
 #### Defined in
 
-[main.ts:169966](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L169966)
+main.ts:175419
 
 ___
-
 
 ### toJSON
 
@@ -181,10 +172,9 @@ ___
 
 #### Defined in
 
-[main.ts:169987](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L169987)
+main.ts:175440
 
 ___
-
 
 ### fromJS
 
@@ -202,8 +192,4 @@ ___
 
 #### Defined in
 
-[main.ts:169980](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L169980)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:175433

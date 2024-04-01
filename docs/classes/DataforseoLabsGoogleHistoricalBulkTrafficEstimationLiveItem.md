@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / DataforseoLabsGoogleHistoricalBulkTrafficEstimationLiveItem
+[Documentation](../README.md) / [Exports](../modules.md) / DataforseoLabsGoogleHistoricalBulkTrafficEstimationLiveItem
 
 # Class: DataforseoLabsGoogleHistoricalBulkTrafficEstimationLiveItem
 
@@ -50,7 +46,7 @@
 
 #### Defined in
 
-[main.ts:98360](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L98360)
+main.ts:100737
 
 ## Properties
 
@@ -66,10 +62,9 @@ traffic data relevant to the specified domain
 
 #### Defined in
 
-[main.ts:98356](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L98356)
+main.ts:100733
 
 ___
-
 
 ### se\_type
 
@@ -83,10 +78,9 @@ search engine type
 
 #### Defined in
 
-[main.ts:98352](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L98352)
+main.ts:100729
 
 ___
-
 
 ### target
 
@@ -100,7 +94,7 @@ target domain in a POST array
 
 #### Defined in
 
-[main.ts:98354](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L98354)
+main.ts:100731
 
 ## Methods
 
@@ -120,10 +114,9 @@ target domain in a POST array
 
 #### Defined in
 
-[main.ts:98369](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L98369)
+main.ts:100746
 
 ___
-
 
 ### toJSON
 
@@ -141,10 +134,9 @@ ___
 
 #### Defined in
 
-[main.ts:98388](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L98388)
+main.ts:100765
 
 ___
-
 
 ### fromJS
 
@@ -162,8 +154,4 @@ ___
 
 #### Defined in
 
-[main.ts:98381](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L98381)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:100758

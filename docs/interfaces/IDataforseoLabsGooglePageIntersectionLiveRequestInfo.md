@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IDataforseoLabsGooglePageIntersectionLiveRequestInfo
+[Documentation](../README.md) / [Exports](../modules.md) / IDataforseoLabsGooglePageIntersectionLiveRequestInfo
 
 # Interface: IDataforseoLabsGooglePageIntersectionLiveRequestInfo
 
@@ -56,10 +52,9 @@ example:
 
 #### Defined in
 
-[main.ts:97018](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L97018)
+main.ts:99395
 
 ___
-
 
 ### filters
 
@@ -87,10 +82,9 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 #### Defined in
 
-[main.ts:97111](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L97111)
+main.ts:99488
 
 ___
-
 
 ### ignore\_synonyms
 
@@ -103,10 +97,9 @@ default value: false
 
 #### Defined in
 
-[main.ts:97091](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L97091)
+main.ts:99468
 
 ___
-
 
 ### include\_serp\_info
 
@@ -119,10 +112,9 @@ default value: false
 
 #### Defined in
 
-[main.ts:97086](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L97086)
+main.ts:99463
 
 ___
-
 
 ### include\_subdomains
 
@@ -135,10 +127,9 @@ default value: true
 
 #### Defined in
 
-[main.ts:97073](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L97073)
+main.ts:99450
 
 ___
-
 
 ### intersection\_mode
 
@@ -154,10 +145,9 @@ by default, results are based on the intersect mode if you specify only pages ar
 
 #### Defined in
 
-[main.ts:97081](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L97081)
+main.ts:99458
 
 ___
-
 
 ### item\_types
 
@@ -173,10 +163,9 @@ default value:
 
 #### Defined in
 
-[main.ts:97058](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L97058)
+main.ts:99435
 
 ___
-
 
 ### language\_code
 
@@ -192,10 +181,9 @@ en
 
 #### Defined in
 
-[main.ts:97050](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L97050)
+main.ts:99427
 
 ___
-
 
 ### language\_name
 
@@ -211,10 +199,9 @@ English
 
 #### Defined in
 
-[main.ts:97042](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L97042)
+main.ts:99419
 
 ___
-
 
 ### limit
 
@@ -227,10 +214,9 @@ maximum value: 1000
 
 #### Defined in
 
-[main.ts:97063](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L97063)
+main.ts:99440
 
 ___
-
 
 ### location\_code
 
@@ -246,10 +232,9 @@ example:
 
 #### Defined in
 
-[main.ts:97034](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L97034)
+main.ts:99411
 
 ___
-
 
 ### location\_name
 
@@ -265,10 +250,9 @@ United Kingdom
 
 #### Defined in
 
-[main.ts:97026](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L97026)
+main.ts:99403
 
 ___
-
 
 ### offset
 
@@ -281,10 +265,9 @@ if you specify 10 here, the first ten keywords in the results array will be omit
 
 #### Defined in
 
-[main.ts:97068](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L97068)
+main.ts:99445
 
 ___
-
 
 ### order\_by
 
@@ -308,10 +291,9 @@ example:
 
 #### Defined in
 
-[main.ts:97127](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L97127)
+main.ts:99504
 
 ___
-
 
 ### pages
 
@@ -344,10 +326,9 @@ Note: this endpoint will not provide results if the number of intersecting keywo
 
 #### Defined in
 
-[main.ts:97005](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L97005)
+main.ts:99382
 
 ___
-
 
 ### tag
 
@@ -361,8 +342,4 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-[main.ts:97133](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L97133)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:99510

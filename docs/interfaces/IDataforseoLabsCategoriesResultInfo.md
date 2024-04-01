@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IDataforseoLabsCategoriesResultInfo
+[Documentation](../README.md) / [Exports](../modules.md) / IDataforseoLabsCategoriesResultInfo
 
 # Interface: IDataforseoLabsCategoriesResultInfo
 
@@ -32,10 +28,9 @@ category code
 
 #### Defined in
 
-[main.ts:78194](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L78194)
+main.ts:80571
 
 ___
-
 
 ### category\_code\_parent
 
@@ -54,10 +49,9 @@ corresponds to:
 
 #### Defined in
 
-[main.ts:78207](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L78207)
+main.ts:80584
 
 ___
-
 
 ### category\_name
 
@@ -67,8 +61,4 @@ full name of the category
 
 #### Defined in
 
-[main.ts:78196](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L78196)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:80573

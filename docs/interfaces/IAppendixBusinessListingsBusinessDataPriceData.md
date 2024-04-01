@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IAppendixBusinessListingsBusinessDataPriceData
+[Documentation](../README.md) / [Exports](../modules.md) / IAppendixBusinessListingsBusinessDataPriceData
 
 # Interface: IAppendixBusinessListingsBusinessDataPriceData
 
@@ -31,10 +27,9 @@
 
 #### Defined in
 
-[main.ts:210990](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L210990)
+main.ts:216583
 
 ___
-
 
 ### categories\_aggregation
 
@@ -42,10 +37,9 @@ ___
 
 #### Defined in
 
-[main.ts:210991](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L210991)
+main.ts:216584
 
 ___
-
 
 ### locations
 
@@ -53,10 +47,9 @@ ___
 
 #### Defined in
 
-[main.ts:210992](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L210992)
+main.ts:216585
 
 ___
-
 
 ### search
 
@@ -64,8 +57,4 @@ ___
 
 #### Defined in
 
-[main.ts:210993](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L210993)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:216586

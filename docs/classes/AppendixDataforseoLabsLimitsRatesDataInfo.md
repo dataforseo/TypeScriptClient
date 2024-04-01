@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / AppendixDataforseoLabsLimitsRatesDataInfo
+[Documentation](../README.md) / [Exports](../modules.md) / AppendixDataforseoLabsLimitsRatesDataInfo
 
 # Class: AppendixDataforseoLabsLimitsRatesDataInfo
 
@@ -81,13 +77,13 @@
 
 #### Defined in
 
-[main.ts:207102](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L207102)
+main.ts:212627
 
 ## Properties
 
 ### app\_competitors
 
-• `Optional` **app\_competitors**: [`AppendixInfo`](AppendixInfo.md)
+• `Optional` **app\_competitors**: [`AppendixFunctionInfo`](AppendixFunctionInfo.md)
 
 #### Implementation of
 
@@ -95,14 +91,13 @@
 
 #### Defined in
 
-[main.ts:207094](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L207094)
+main.ts:212619
 
 ___
 
-
 ### app\_intersection
 
-• `Optional` **app\_intersection**: [`AppendixInfo`](AppendixInfo.md)
+• `Optional` **app\_intersection**: [`AppendixFunctionInfo`](AppendixFunctionInfo.md)
 
 #### Implementation of
 
@@ -110,14 +105,13 @@ ___
 
 #### Defined in
 
-[main.ts:207096](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L207096)
+main.ts:212621
 
 ___
 
-
 ### bulk\_app\_metrics
 
-• `Optional` **bulk\_app\_metrics**: [`AppendixInfo`](AppendixInfo.md)
+• `Optional` **bulk\_app\_metrics**: [`AppendixFunctionInfo`](AppendixFunctionInfo.md)
 
 #### Implementation of
 
@@ -125,14 +119,13 @@ ___
 
 #### Defined in
 
-[main.ts:207097](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L207097)
+main.ts:212622
 
 ___
 
-
 ### bulk\_keyword\_difficulty
 
-• `Optional` **bulk\_keyword\_difficulty**: [`AppendixInfo`](AppendixInfo.md)
+• `Optional` **bulk\_keyword\_difficulty**: [`AppendixFunctionInfo`](AppendixFunctionInfo.md)
 
 #### Implementation of
 
@@ -140,14 +133,13 @@ ___
 
 #### Defined in
 
-[main.ts:207081](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L207081)
+main.ts:212606
 
 ___
 
-
 ### bulk\_search\_volume
 
-• `Optional` **bulk\_search\_volume**: [`AppendixInfo`](AppendixInfo.md)
+• `Optional` **bulk\_search\_volume**: [`AppendixFunctionInfo`](AppendixFunctionInfo.md)
 
 #### Implementation of
 
@@ -155,14 +147,13 @@ ___
 
 #### Defined in
 
-[main.ts:207082](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L207082)
+main.ts:212607
 
 ___
 
-
 ### bulk\_traffic\_estimation
 
-• `Optional` **bulk\_traffic\_estimation**: [`AppendixInfo`](AppendixInfo.md)
+• `Optional` **bulk\_traffic\_estimation**: [`AppendixFunctionInfo`](AppendixFunctionInfo.md)
 
 #### Implementation of
 
@@ -170,10 +161,9 @@ ___
 
 #### Defined in
 
-[main.ts:207080](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L207080)
+main.ts:212605
 
 ___
-
 
 ### categories
 
@@ -185,14 +175,13 @@ ___
 
 #### Defined in
 
-[main.ts:207066](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L207066)
+main.ts:212591
 
 ___
 
-
 ### categories\_for\_domain
 
-• `Optional` **categories\_for\_domain**: [`AppendixInfo`](AppendixInfo.md)
+• `Optional` **categories\_for\_domain**: [`AppendixFunctionInfo`](AppendixFunctionInfo.md)
 
 #### Implementation of
 
@@ -200,14 +189,13 @@ ___
 
 #### Defined in
 
-[main.ts:207087](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L207087)
+main.ts:212612
 
 ___
 
-
 ### competitors\_domain
 
-• `Optional` **competitors\_domain**: [`AppendixInfo`](AppendixInfo.md)
+• `Optional` **competitors\_domain**: [`AppendixFunctionInfo`](AppendixFunctionInfo.md)
 
 #### Implementation of
 
@@ -215,14 +203,13 @@ ___
 
 #### Defined in
 
-[main.ts:207075](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L207075)
+main.ts:212600
 
 ___
 
-
 ### domain\_intersection
 
-• `Optional` **domain\_intersection**: [`AppendixInfo`](AppendixInfo.md)
+• `Optional` **domain\_intersection**: [`AppendixFunctionInfo`](AppendixFunctionInfo.md)
 
 #### Implementation of
 
@@ -230,14 +217,13 @@ ___
 
 #### Defined in
 
-[main.ts:207078](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L207078)
+main.ts:212603
 
 ___
 
-
 ### domain\_metrics\_by\_categories
 
-• `Optional` **domain\_metrics\_by\_categories**: [`AppendixInfo`](AppendixInfo.md)
+• `Optional` **domain\_metrics\_by\_categories**: [`AppendixFunctionInfo`](AppendixFunctionInfo.md)
 
 #### Implementation of
 
@@ -245,14 +231,13 @@ ___
 
 #### Defined in
 
-[main.ts:207088](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L207088)
+main.ts:212613
 
 ___
 
-
 ### domain\_rank\_overview
 
-• `Optional` **domain\_rank\_overview**: [`AppendixInfo`](AppendixInfo.md)
+• `Optional` **domain\_rank\_overview**: [`AppendixFunctionInfo`](AppendixFunctionInfo.md)
 
 #### Implementation of
 
@@ -260,14 +245,13 @@ ___
 
 #### Defined in
 
-[main.ts:207077](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L207077)
+main.ts:212602
 
 ___
 
-
 ### domain\_whois\_overview
 
-• `Optional` **domain\_whois\_overview**: [`AppendixInfo`](AppendixInfo.md)
+• `Optional` **domain\_whois\_overview**: [`AppendixFunctionInfo`](AppendixFunctionInfo.md)
 
 #### Implementation of
 
@@ -275,10 +259,9 @@ ___
 
 #### Defined in
 
-[main.ts:207090](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L207090)
+main.ts:212615
 
 ___
-
 
 ### errors
 
@@ -290,14 +273,13 @@ ___
 
 #### Defined in
 
-[main.ts:207067](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L207067)
+main.ts:212592
 
 ___
 
-
 ### historical\_rank\_overview
 
-• `Optional` **historical\_rank\_overview**: [`AppendixInfo`](AppendixInfo.md)
+• `Optional` **historical\_rank\_overview**: [`AppendixFunctionInfo`](AppendixFunctionInfo.md)
 
 #### Implementation of
 
@@ -305,14 +287,13 @@ ___
 
 #### Defined in
 
-[main.ts:207091](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L207091)
+main.ts:212616
 
 ___
 
-
 ### historical\_search\_volume
 
-• `Optional` **historical\_search\_volume**: [`AppendixInfo`](AppendixInfo.md)
+• `Optional` **historical\_search\_volume**: [`AppendixFunctionInfo`](AppendixFunctionInfo.md)
 
 #### Implementation of
 
@@ -320,14 +301,13 @@ ___
 
 #### Defined in
 
-[main.ts:207086](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L207086)
+main.ts:212611
 
 ___
 
-
 ### historical\_serps
 
-• `Optional` **historical\_serps**: [`AppendixInfo`](AppendixInfo.md)
+• `Optional` **historical\_serps**: [`AppendixFunctionInfo`](AppendixFunctionInfo.md)
 
 #### Implementation of
 
@@ -335,14 +315,13 @@ ___
 
 #### Defined in
 
-[main.ts:207093](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L207093)
+main.ts:212618
 
 ___
 
-
 ### keyword\_ideas
 
-• `Optional` **keyword\_ideas**: [`AppendixInfo`](AppendixInfo.md)
+• `Optional` **keyword\_ideas**: [`AppendixFunctionInfo`](AppendixFunctionInfo.md)
 
 #### Implementation of
 
@@ -350,14 +329,13 @@ ___
 
 #### Defined in
 
-[main.ts:207085](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L207085)
+main.ts:212610
 
 ___
 
-
 ### keyword\_suggestions
 
-• `Optional` **keyword\_suggestions**: [`AppendixInfo`](AppendixInfo.md)
+• `Optional` **keyword\_suggestions**: [`AppendixFunctionInfo`](AppendixFunctionInfo.md)
 
 #### Implementation of
 
@@ -365,14 +343,13 @@ ___
 
 #### Defined in
 
-[main.ts:207084](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L207084)
+main.ts:212609
 
 ___
 
-
 ### keywords\_for\_app
 
-• `Optional` **keywords\_for\_app**: [`AppendixInfo`](AppendixInfo.md)
+• `Optional` **keywords\_for\_app**: [`AppendixFunctionInfo`](AppendixFunctionInfo.md)
 
 #### Implementation of
 
@@ -380,14 +357,13 @@ ___
 
 #### Defined in
 
-[main.ts:207095](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L207095)
+main.ts:212620
 
 ___
 
-
 ### keywords\_for\_categories
 
-• `Optional` **keywords\_for\_categories**: [`AppendixInfo`](AppendixInfo.md)
+• `Optional` **keywords\_for\_categories**: [`AppendixFunctionInfo`](AppendixFunctionInfo.md)
 
 #### Implementation of
 
@@ -395,14 +371,13 @@ ___
 
 #### Defined in
 
-[main.ts:207092](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L207092)
+main.ts:212617
 
 ___
 
-
 ### keywords\_for\_site
 
-• `Optional` **keywords\_for\_site**: [`AppendixInfo`](AppendixInfo.md)
+• `Optional` **keywords\_for\_site**: [`AppendixFunctionInfo`](AppendixFunctionInfo.md)
 
 #### Implementation of
 
@@ -410,10 +385,9 @@ ___
 
 #### Defined in
 
-[main.ts:207083](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L207083)
+main.ts:212608
 
 ___
-
 
 ### locations\_and\_languages
 
@@ -425,14 +399,13 @@ ___
 
 #### Defined in
 
-[main.ts:207065](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L207065)
+main.ts:212590
 
 ___
 
-
 ### page\_intersection
 
-• `Optional` **page\_intersection**: [`AppendixInfo`](AppendixInfo.md)
+• `Optional` **page\_intersection**: [`AppendixFunctionInfo`](AppendixFunctionInfo.md)
 
 #### Implementation of
 
@@ -440,14 +413,13 @@ ___
 
 #### Defined in
 
-[main.ts:207079](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L207079)
+main.ts:212604
 
 ___
 
-
 ### product\_competitors
 
-• `Optional` **product\_competitors**: [`AppendixInfo`](AppendixInfo.md)
+• `Optional` **product\_competitors**: [`AppendixFunctionInfo`](AppendixFunctionInfo.md)
 
 #### Implementation of
 
@@ -455,14 +427,13 @@ ___
 
 #### Defined in
 
-[main.ts:207068](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L207068)
+main.ts:212593
 
 ___
 
-
 ### product\_keyword\_intersections
 
-• `Optional` **product\_keyword\_intersections**: [`AppendixInfo`](AppendixInfo.md)
+• `Optional` **product\_keyword\_intersections**: [`AppendixFunctionInfo`](AppendixFunctionInfo.md)
 
 #### Implementation of
 
@@ -470,14 +441,13 @@ ___
 
 #### Defined in
 
-[main.ts:207069](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L207069)
+main.ts:212594
 
 ___
 
-
 ### product\_rank\_overview
 
-• `Optional` **product\_rank\_overview**: [`AppendixInfo`](AppendixInfo.md)
+• `Optional` **product\_rank\_overview**: [`AppendixFunctionInfo`](AppendixFunctionInfo.md)
 
 #### Implementation of
 
@@ -485,14 +455,13 @@ ___
 
 #### Defined in
 
-[main.ts:207070](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L207070)
+main.ts:212595
 
 ___
 
-
 ### ranked\_keywords
 
-• `Optional` **ranked\_keywords**: [`AppendixInfo`](AppendixInfo.md)
+• `Optional` **ranked\_keywords**: [`AppendixFunctionInfo`](AppendixFunctionInfo.md)
 
 #### Implementation of
 
@@ -500,14 +469,13 @@ ___
 
 #### Defined in
 
-[main.ts:207071](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L207071)
+main.ts:212596
 
 ___
 
-
 ### related\_keywords
 
-• `Optional` **related\_keywords**: [`AppendixInfo`](AppendixInfo.md)
+• `Optional` **related\_keywords**: [`AppendixFunctionInfo`](AppendixFunctionInfo.md)
 
 #### Implementation of
 
@@ -515,14 +483,13 @@ ___
 
 #### Defined in
 
-[main.ts:207076](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L207076)
+main.ts:212601
 
 ___
 
-
 ### relevant\_pages
 
-• `Optional` **relevant\_pages**: [`AppendixInfo`](AppendixInfo.md)
+• `Optional` **relevant\_pages**: [`AppendixFunctionInfo`](AppendixFunctionInfo.md)
 
 #### Implementation of
 
@@ -530,14 +497,13 @@ ___
 
 #### Defined in
 
-[main.ts:207074](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L207074)
+main.ts:212599
 
 ___
 
-
 ### search\_intent
 
-• `Optional` **search\_intent**: [`AppendixInfo`](AppendixInfo.md)
+• `Optional` **search\_intent**: [`AppendixFunctionInfo`](AppendixFunctionInfo.md)
 
 #### Implementation of
 
@@ -545,14 +511,13 @@ ___
 
 #### Defined in
 
-[main.ts:207098](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L207098)
+main.ts:212623
 
 ___
 
-
 ### serp\_competitors
 
-• `Optional` **serp\_competitors**: [`AppendixInfo`](AppendixInfo.md)
+• `Optional` **serp\_competitors**: [`AppendixFunctionInfo`](AppendixFunctionInfo.md)
 
 #### Implementation of
 
@@ -560,14 +525,13 @@ ___
 
 #### Defined in
 
-[main.ts:207072](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L207072)
+main.ts:212597
 
 ___
 
-
 ### subdomains
 
-• `Optional` **subdomains**: [`AppendixInfo`](AppendixInfo.md)
+• `Optional` **subdomains**: [`AppendixFunctionInfo`](AppendixFunctionInfo.md)
 
 #### Implementation of
 
@@ -575,14 +539,13 @@ ___
 
 #### Defined in
 
-[main.ts:207073](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L207073)
+main.ts:212598
 
 ___
 
-
 ### top\_searches
 
-• `Optional` **top\_searches**: [`AppendixInfo`](AppendixInfo.md)
+• `Optional` **top\_searches**: [`AppendixFunctionInfo`](AppendixFunctionInfo.md)
 
 #### Implementation of
 
@@ -590,7 +553,7 @@ ___
 
 #### Defined in
 
-[main.ts:207089](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L207089)
+main.ts:212614
 
 ## Methods
 
@@ -610,10 +573,9 @@ ___
 
 #### Defined in
 
-[main.ts:207111](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L207111)
+main.ts:212636
 
 ___
-
 
 ### toJSON
 
@@ -631,10 +593,9 @@ ___
 
 #### Defined in
 
-[main.ts:207161](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L207161)
+main.ts:212686
 
 ___
-
 
 ### fromJS
 
@@ -652,8 +613,4 @@ ___
 
 #### Defined in
 
-[main.ts:207154](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L207154)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:212679

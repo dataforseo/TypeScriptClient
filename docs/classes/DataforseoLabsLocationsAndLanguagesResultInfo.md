@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / DataforseoLabsLocationsAndLanguagesResultInfo
+[Documentation](../README.md) / [Exports](../modules.md) / DataforseoLabsLocationsAndLanguagesResultInfo
 
 # Class: DataforseoLabsLocationsAndLanguagesResultInfo
 
@@ -53,7 +49,7 @@
 
 #### Defined in
 
-[main.ts:77946](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L77946)
+main.ts:80323
 
 ## Properties
 
@@ -70,10 +66,9 @@ contains the languages which are supported for a specific location
 
 #### Defined in
 
-[main.ts:77942](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L77942)
+main.ts:80319
 
 ___
-
 
 ### country\_iso\_code
 
@@ -87,10 +82,9 @@ ISO country code of the location
 
 #### Defined in
 
-[main.ts:77935](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L77935)
+main.ts:80312
 
 ___
-
 
 ### location\_code
 
@@ -104,10 +98,9 @@ location code
 
 #### Defined in
 
-[main.ts:77928](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L77928)
+main.ts:80305
 
 ___
-
 
 ### location\_code\_parent
 
@@ -122,10 +115,9 @@ the value will be null as Country is the only supported location_type for this A
 
 #### Defined in
 
-[main.ts:77933](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L77933)
+main.ts:80310
 
 ___
-
 
 ### location\_name
 
@@ -139,10 +131,9 @@ full name of the location
 
 #### Defined in
 
-[main.ts:77930](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L77930)
+main.ts:80307
 
 ___
-
 
 ### location\_type
 
@@ -158,7 +149,7 @@ Country
 
 #### Defined in
 
-[main.ts:77939](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L77939)
+main.ts:80316
 
 ## Methods
 
@@ -178,10 +169,9 @@ Country
 
 #### Defined in
 
-[main.ts:77955](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L77955)
+main.ts:80332
 
 ___
-
 
 ### toJSON
 
@@ -199,10 +189,9 @@ ___
 
 #### Defined in
 
-[main.ts:77981](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L77981)
+main.ts:80358
 
 ___
-
 
 ### fromJS
 
@@ -220,8 +209,4 @@ ___
 
 #### Defined in
 
-[main.ts:77974](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L77974)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:80351

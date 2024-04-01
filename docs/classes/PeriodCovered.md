@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / PeriodCovered
+[Documentation](../README.md) / [Exports](../modules.md) / PeriodCovered
 
 # Class: PeriodCovered
 
@@ -50,7 +46,7 @@
 
 #### Defined in
 
-[main.ts:50710](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L50710)
+main.ts:53085
 
 ## Properties
 
@@ -68,10 +64,9 @@ Mar 2, 2020 - Dec 9, 2022
 
 #### Defined in
 
-[main.ts:50706](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L50706)
+main.ts:53081
 
 ___
-
 
 ### end\_date
 
@@ -88,10 +83,9 @@ example:
 
 #### Defined in
 
-[main.ts:50702](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L50702)
+main.ts:53077
 
 ___
-
 
 ### start\_date
 
@@ -108,7 +102,7 @@ example:
 
 #### Defined in
 
-[main.ts:50697](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L50697)
+main.ts:53072
 
 ## Methods
 
@@ -128,10 +122,9 @@ example:
 
 #### Defined in
 
-[main.ts:50719](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L50719)
+main.ts:53094
 
 ___
-
 
 ### toJSON
 
@@ -149,10 +142,9 @@ ___
 
 #### Defined in
 
-[main.ts:50738](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L50738)
+main.ts:53113
 
 ___
-
 
 ### fromJS
 
@@ -170,8 +162,4 @@ ___
 
 #### Defined in
 
-[main.ts:50731](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L50731)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:53106

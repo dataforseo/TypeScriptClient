@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IAppDataAppleAppInfoTaskPostRequestInfo
+[Documentation](../README.md) / [Exports](../modules.md) / IAppDataAppleAppInfoTaskPostRequestInfo
 
 # Interface: IAppDataAppleAppInfoTaskPostRequestInfo
 
@@ -45,10 +41,9 @@ the id is 835599320
 
 #### Defined in
 
-[main.ts:183997](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L183997)
+main.ts:189450
 
 ___
-
 
 ### language\_code
 
@@ -63,10 +58,9 @@ en
 
 #### Defined in
 
-[main.ts:184025](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L184025)
+main.ts:189478
 
 ___
-
 
 ### language\_name
 
@@ -81,10 +75,9 @@ English
 
 #### Defined in
 
-[main.ts:184018](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L184018)
+main.ts:189471
 
 ___
-
 
 ### location\_code
 
@@ -99,10 +92,9 @@ example:
 
 #### Defined in
 
-[main.ts:184011](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L184011)
+main.ts:189464
 
 ___
-
 
 ### location\_name
 
@@ -117,10 +109,9 @@ West Los Angeles,California,United States
 
 #### Defined in
 
-[main.ts:184004](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L184004)
+main.ts:189457
 
 ___
-
 
 ### pingback\_url
 
@@ -138,10 +129,9 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-[main.ts:184065](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L184065)
+main.ts:189518
 
 ___
-
 
 ### postback\_data
 
@@ -155,10 +145,9 @@ advanced
 
 #### Defined in
 
-[main.ts:184055](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L184055)
+main.ts:189508
 
 ___
-
 
 ### postback\_url
 
@@ -176,10 +165,9 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-[main.ts:184049](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L184049)
+main.ts:189502
 
 ___
-
 
 ### priority
 
@@ -189,16 +177,15 @@ task priority
 optional field
 can take the following values:
 1 – normal execution priority (set by default)
-2 – high execution priority
+2 – high execution priority 
 You will be additionally charged for the tasks with high execution priority.
 The cost can be calculated on the Pricing page.
 
 #### Defined in
 
-[main.ts:184033](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L184033)
+main.ts:189486
 
 ___
-
 
 ### tag
 
@@ -212,8 +199,4 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-[main.ts:184039](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L184039)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:189492

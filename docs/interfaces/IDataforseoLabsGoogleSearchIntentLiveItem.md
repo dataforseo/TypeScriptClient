@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IDataforseoLabsGoogleSearchIntentLiveItem
+[Documentation](../README.md) / [Exports](../modules.md) / IDataforseoLabsGoogleSearchIntentLiveItem
 
 # Interface: IDataforseoLabsGoogleSearchIntentLiveItem
 
@@ -32,10 +28,9 @@ target keyword in a POST array
 
 #### Defined in
 
-[main.ts:82913](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L82913)
+main.ts:85290
 
 ___
-
 
 ### keyword\_intent
 
@@ -45,10 +40,9 @@ search intent data relevant for the specified keyword
 
 #### Defined in
 
-[main.ts:82915](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L82915)
+main.ts:85292
 
 ___
-
 
 ### secondary\_keyword\_intents
 
@@ -58,8 +52,4 @@ contains objects with other possible search intents for the specified keyword
 
 #### Defined in
 
-[main.ts:82917](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L82917)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:85294

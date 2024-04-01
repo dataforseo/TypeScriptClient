@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IBusinessDataTripadvisorSearchTaskGetResultInfo
+[Documentation](../README.md) / [Exports](../modules.md) / IBusinessDataTripadvisorSearchTaskGetResultInfo
 
 # Interface: IBusinessDataTripadvisorSearchTaskGetResultInfo
 
@@ -40,10 +36,9 @@ you can use it to make sure that we provided accurate results
 
 #### Defined in
 
-[main.ts:201587](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L201587)
+main.ts:207048
 
 ___
-
 
 ### datetime
 
@@ -56,10 +51,9 @@ example:
 
 #### Defined in
 
-[main.ts:201592](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L201592)
+main.ts:207053
 
 ___
-
 
 ### item\_types
 
@@ -70,10 +64,9 @@ possible item types: tripadvisor_search_organic
 
 #### Defined in
 
-[main.ts:201595](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L201595)
+main.ts:207056
 
 ___
-
 
 ### items
 
@@ -84,10 +77,9 @@ you can get more results by using the depth parameter when setting a task
 
 #### Defined in
 
-[main.ts:201603](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L201603)
+main.ts:207064
 
 ___
-
 
 ### items\_count
 
@@ -98,10 +90,9 @@ you can get more results by using the depth parameter when setting a task
 
 #### Defined in
 
-[main.ts:201600](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L201600)
+main.ts:207061
 
 ___
-
 
 ### keyword
 
@@ -112,10 +103,9 @@ this field will contain the alias parameter if it was specified in a POST array
 
 #### Defined in
 
-[main.ts:201578](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L201578)
+main.ts:207039
 
 ___
-
 
 ### language\_code
 
@@ -125,10 +115,9 @@ language code in a POST array
 
 #### Defined in
 
-[main.ts:201584](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L201584)
+main.ts:207045
 
 ___
-
 
 ### location\_code
 
@@ -138,10 +127,9 @@ location code in a POST array
 
 #### Defined in
 
-[main.ts:201582](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L201582)
+main.ts:207043
 
 ___
-
 
 ### se\_domain
 
@@ -151,10 +139,9 @@ search engine domain in a POST array
 
 #### Defined in
 
-[main.ts:201580](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L201580)
+main.ts:207041
 
 ___
-
 
 ### se\_results\_count
 
@@ -164,8 +151,4 @@ the total number of results
 
 #### Defined in
 
-[main.ts:201597](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L201597)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:207058

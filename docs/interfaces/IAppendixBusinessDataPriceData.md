@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IAppendixBusinessDataPriceData
+[Documentation](../README.md) / [Exports](../modules.md) / IAppendixBusinessDataPriceData
 
 # Interface: IAppendixBusinessDataPriceData
 
@@ -36,10 +32,9 @@
 
 #### Defined in
 
-[main.ts:211357](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L211357)
+main.ts:216950
 
 ___
-
 
 ### errors
 
@@ -47,10 +42,9 @@ ___
 
 #### Defined in
 
-[main.ts:211358](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L211358)
+main.ts:216951
 
 ___
-
 
 ### google
 
@@ -58,10 +52,9 @@ ___
 
 #### Defined in
 
-[main.ts:211360](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L211360)
+main.ts:216953
 
 ___
-
 
 ### languages
 
@@ -69,10 +62,9 @@ ___
 
 #### Defined in
 
-[main.ts:211361](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L211361)
+main.ts:216954
 
 ___
-
 
 ### locations
 
@@ -80,10 +72,9 @@ ___
 
 #### Defined in
 
-[main.ts:211362](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L211362)
+main.ts:216955
 
 ___
-
 
 ### social\_media
 
@@ -91,10 +82,9 @@ ___
 
 #### Defined in
 
-[main.ts:211359](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L211359)
+main.ts:216952
 
 ___
-
 
 ### tripadvisor
 
@@ -102,10 +92,9 @@ ___
 
 #### Defined in
 
-[main.ts:211363](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L211363)
+main.ts:216957
 
 ___
-
 
 ### trustpilot
 
@@ -113,10 +102,9 @@ ___
 
 #### Defined in
 
-[main.ts:211364](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L211364)
+main.ts:216956
 
 ___
-
 
 ### yelp
 
@@ -124,8 +112,4 @@ ___
 
 #### Defined in
 
-[main.ts:211365](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L211365)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:216958

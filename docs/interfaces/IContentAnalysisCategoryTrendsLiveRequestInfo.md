@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IContentAnalysisCategoryTrendsLiveRequestInfo
+[Documentation](../README.md) / [Exports](../modules.md) / IContentAnalysisCategoryTrendsLiveRequestInfo
 
 # Interface: IContentAnalysisCategoryTrendsLiveRequestInfo
 
@@ -40,10 +36,9 @@ to obtain a full list of available categories, refer to the Categories endpoint
 
 #### Defined in
 
-[main.ts:159333](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L159333)
+main.ts:164760
 
 ___
-
 
 ### date\_from
 
@@ -57,10 +52,9 @@ example:
 
 #### Defined in
 
-[main.ts:159363](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L159363)
+main.ts:164790
 
 ___
-
 
 ### date\_group
 
@@ -73,10 +67,9 @@ possible values: day, week, month
 
 #### Defined in
 
-[main.ts:159375](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L159375)
+main.ts:164802
 
 ___
-
 
 ### date\_to
 
@@ -91,10 +84,9 @@ example:
 
 #### Defined in
 
-[main.ts:159370](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L159370)
+main.ts:164797
 
 ___
-
 
 ### initial\_dataset\_filters
 
@@ -119,10 +111,9 @@ for more information about filters, please refer to Content Analysis API – Fil
 
 #### Defined in
 
-[main.ts:159392](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L159392)
+main.ts:164819
 
 ___
-
 
 ### internal\_list\_limit
 
@@ -141,10 +132,9 @@ maximum value: 20
 
 #### Defined in
 
-[main.ts:159357](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L159357)
+main.ts:164784
 
 ___
-
 
 ### page\_type
 
@@ -158,10 +148,9 @@ possible values:
 
 #### Defined in
 
-[main.ts:159339](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L159339)
+main.ts:164766
 
 ___
-
 
 ### search\_mode
 
@@ -176,10 +165,9 @@ default value: as_is
 
 #### Defined in
 
-[main.ts:159346](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L159346)
+main.ts:164773
 
 ___
-
 
 ### tag
 
@@ -193,8 +181,4 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-[main.ts:159398](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L159398)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:164825

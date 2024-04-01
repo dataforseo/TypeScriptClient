@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / DataforseoLabsleBulkAppMetricsLiveItem
+[Documentation](../README.md) / [Exports](../modules.md) / DataforseoLabsleBulkAppMetricsLiveItem
 
 # Class: DataforseoLabsleBulkAppMetricsLiveItem
 
@@ -50,7 +46,7 @@
 
 #### Defined in
 
-[main.ts:107961](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L107961)
+main.ts:110338
 
 ## Properties
 
@@ -66,10 +62,9 @@ id of the app in a POST array
 
 #### Defined in
 
-[main.ts:107954](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L107954)
+main.ts:110331
 
 ___
-
 
 ### metrics
 
@@ -88,10 +83,9 @@ ranking data relevant to the keywords that the provided application ranks for on
 
 #### Defined in
 
-[main.ts:107957](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L107957)
+main.ts:110334
 
 ___
-
 
 ### se\_type
 
@@ -105,7 +99,7 @@ search engine type
 
 #### Defined in
 
-[main.ts:107952](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L107952)
+main.ts:110329
 
 ## Methods
 
@@ -125,10 +119,9 @@ search engine type
 
 #### Defined in
 
-[main.ts:107970](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L107970)
+main.ts:110347
 
 ___
-
 
 ### toJSON
 
@@ -146,10 +139,9 @@ ___
 
 #### Defined in
 
-[main.ts:107995](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L107995)
+main.ts:110372
 
 ___
-
 
 ### fromJS
 
@@ -167,8 +159,4 @@ ___
 
 #### Defined in
 
-[main.ts:107988](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L107988)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:110365

@@ -1,15 +1,11 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / YoutubeCommentSerpElementItem
+[Documentation](../README.md) / [Exports](../modules.md) / YoutubeCommentSerpElementItem
 
 # Class: YoutubeCommentSerpElementItem
 
 ## Hierarchy
 
 - [`BaseSerpElementItem`](BaseSerpElementItem.md)
-  
+
   ↳ **`YoutubeCommentSerpElementItem`**
 
 ## Implements
@@ -68,7 +64,7 @@
 
 #### Defined in
 
-[main.ts:61854](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L61854)
+main.ts:64229
 
 ## Properties
 
@@ -82,10 +78,9 @@
 
 #### Defined in
 
-[main.ts:19337](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L19337)
+main.ts:19788
 
 ___
-
 
 ### author\_name
 
@@ -99,10 +94,9 @@ name of the author of the comment
 
 #### Defined in
 
-[main.ts:61833](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L61833)
+main.ts:64208
 
 ___
-
 
 ### author\_thumbnail
 
@@ -116,10 +110,9 @@ the URL of the page where the author’s channel logo is hosted
 
 #### Defined in
 
-[main.ts:61835](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L61835)
+main.ts:64210
 
 ___
-
 
 ### author\_url
 
@@ -133,10 +126,9 @@ URL of the author’s channel
 
 #### Defined in
 
-[main.ts:61837](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L61837)
+main.ts:64212
 
 ___
-
 
 ### likes\_count
 
@@ -150,10 +142,9 @@ number of likes on the comment
 
 #### Defined in
 
-[main.ts:61848](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L61848)
+main.ts:64223
 
 ___
-
 
 ### publication\_date
 
@@ -167,10 +158,9 @@ displayed publication date
 
 #### Defined in
 
-[main.ts:61841](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L61841)
+main.ts:64216
 
 ___
-
 
 ### rank\_absolute
 
@@ -185,10 +175,9 @@ absolute position among all the elements in SERP
 
 #### Defined in
 
-[main.ts:61831](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L61831)
+main.ts:64206
 
 ___
-
 
 ### rank\_group
 
@@ -204,10 +193,9 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-[main.ts:61828](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L61828)
+main.ts:64203
 
 ___
-
 
 ### reply\_count
 
@@ -221,10 +209,9 @@ number of replies on the comment
 
 #### Defined in
 
-[main.ts:61850](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L61850)
+main.ts:64225
 
 ___
-
 
 ### text
 
@@ -238,10 +225,9 @@ text of the comment
 
 #### Defined in
 
-[main.ts:61839](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L61839)
+main.ts:64214
 
 ___
-
 
 ### timestamp
 
@@ -258,7 +244,7 @@ example:
 
 #### Defined in
 
-[main.ts:61846](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L61846)
+main.ts:64221
 
 ## Methods
 
@@ -282,10 +268,9 @@ example:
 
 #### Defined in
 
-[main.ts:61859](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L61859)
+main.ts:64234
 
 ___
-
 
 ### toJSON
 
@@ -307,10 +292,9 @@ ___
 
 #### Defined in
 
-[main.ts:61886](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L61886)
+main.ts:64261
 
 ___
-
 
 ### fromJS
 
@@ -332,8 +316,4 @@ ___
 
 #### Defined in
 
-[main.ts:61879](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L61879)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:64254

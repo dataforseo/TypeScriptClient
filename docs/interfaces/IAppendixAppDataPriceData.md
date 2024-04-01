@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IAppendixAppDataPriceData
+[Documentation](../README.md) / [Exports](../modules.md) / IAppendixAppDataPriceData
 
 # Interface: IAppendixAppDataPriceData
 
@@ -35,10 +31,9 @@
 
 #### Defined in
 
-[main.ts:210802](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L210802)
+main.ts:216395
 
 ___
-
 
 ### app\_list
 
@@ -46,10 +41,9 @@ ___
 
 #### Defined in
 
-[main.ts:210803](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L210803)
+main.ts:216396
 
 ___
-
 
 ### app\_reviews
 
@@ -57,10 +51,9 @@ ___
 
 #### Defined in
 
-[main.ts:210804](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L210804)
+main.ts:216397
 
 ___
-
 
 ### app\_searches
 
@@ -68,10 +61,9 @@ ___
 
 #### Defined in
 
-[main.ts:210805](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L210805)
+main.ts:216398
 
 ___
-
 
 ### categories
 
@@ -79,10 +71,9 @@ ___
 
 #### Defined in
 
-[main.ts:210806](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L210806)
+main.ts:216399
 
 ___
-
 
 ### errors
 
@@ -90,10 +81,9 @@ ___
 
 #### Defined in
 
-[main.ts:210807](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L210807)
+main.ts:216400
 
 ___
-
 
 ### languages
 
@@ -101,10 +91,9 @@ ___
 
 #### Defined in
 
-[main.ts:210808](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L210808)
+main.ts:216401
 
 ___
-
 
 ### locations
 
@@ -112,8 +101,4 @@ ___
 
 #### Defined in
 
-[main.ts:210809](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L210809)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:216402

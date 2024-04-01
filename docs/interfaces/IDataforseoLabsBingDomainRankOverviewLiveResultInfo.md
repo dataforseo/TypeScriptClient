@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IDataforseoLabsBingDomainRankOverviewLiveResultInfo
+[Documentation](../README.md) / [Exports](../modules.md) / IDataforseoLabsBingDomainRankOverviewLiveResultInfo
 
 # Interface: IDataforseoLabsBingDomainRankOverviewLiveResultInfo
 
@@ -36,10 +32,9 @@ contains ranking and traffic data
 
 #### Defined in
 
-[main.ts:104189](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L104189)
+main.ts:106566
 
 ___
-
 
 ### items\_count
 
@@ -49,10 +44,9 @@ the number of results returned in the items array
 
 #### Defined in
 
-[main.ts:104187](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L104187)
+main.ts:106564
 
 ___
-
 
 ### language\_code
 
@@ -62,10 +56,9 @@ language code in a POST array
 
 #### Defined in
 
-[main.ts:104183](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L104183)
+main.ts:106560
 
 ___
-
 
 ### location\_code
 
@@ -75,10 +68,9 @@ location code in a POST array
 
 #### Defined in
 
-[main.ts:104181](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L104181)
+main.ts:106558
 
 ___
-
 
 ### se\_type
 
@@ -88,10 +80,9 @@ search engine type
 
 #### Defined in
 
-[main.ts:104177](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L104177)
+main.ts:106554
 
 ___
-
 
 ### target
 
@@ -101,10 +92,9 @@ target domain in a POST array
 
 #### Defined in
 
-[main.ts:104179](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L104179)
+main.ts:106556
 
 ___
-
 
 ### total\_count
 
@@ -114,8 +104,4 @@ total amount of results in our database relevant to your request
 
 #### Defined in
 
-[main.ts:104185](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L104185)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:106562

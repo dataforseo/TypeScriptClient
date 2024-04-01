@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / AppendixBacklinksLimitsRatesDataInfo
+[Documentation](../README.md) / [Exports](../modules.md) / AppendixBacklinksLimitsRatesDataInfo
 
 # Class: AppendixBacklinksLimitsRatesDataInfo
 
@@ -67,13 +63,13 @@
 
 #### Defined in
 
-[main.ts:208136](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L208136)
+main.ts:213661
 
 ## Properties
 
 ### anchors
 
-• `Optional` **anchors**: [`AppendixInfo`](AppendixInfo.md)
+• `Optional` **anchors**: [`AppendixFunctionInfo`](AppendixFunctionInfo.md)
 
 #### Implementation of
 
@@ -81,14 +77,13 @@
 
 #### Defined in
 
-[main.ts:208119](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L208119)
+main.ts:213644
 
 ___
 
-
 ### backlinks
 
-• `Optional` **backlinks**: [`AppendixInfo`](AppendixInfo.md)
+• `Optional` **backlinks**: [`AppendixFunctionInfo`](AppendixFunctionInfo.md)
 
 #### Implementation of
 
@@ -96,14 +91,13 @@ ___
 
 #### Defined in
 
-[main.ts:208117](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L208117)
+main.ts:213642
 
 ___
 
-
 ### bulk\_backlinks
 
-• `Optional` **bulk\_backlinks**: [`AppendixInfo`](AppendixInfo.md)
+• `Optional` **bulk\_backlinks**: [`AppendixFunctionInfo`](AppendixFunctionInfo.md)
 
 #### Implementation of
 
@@ -111,14 +105,13 @@ ___
 
 #### Defined in
 
-[main.ts:208124](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L208124)
+main.ts:213649
 
 ___
 
-
 ### bulk\_new\_lost\_backlinks
 
-• `Optional` **bulk\_new\_lost\_backlinks**: [`AppendixInfo`](AppendixInfo.md)
+• `Optional` **bulk\_new\_lost\_backlinks**: [`AppendixFunctionInfo`](AppendixFunctionInfo.md)
 
 #### Implementation of
 
@@ -126,14 +119,13 @@ ___
 
 #### Defined in
 
-[main.ts:208125](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L208125)
+main.ts:213650
 
 ___
 
-
 ### bulk\_new\_lost\_referring\_domains
 
-• `Optional` **bulk\_new\_lost\_referring\_domains**: [`AppendixInfo`](AppendixInfo.md)
+• `Optional` **bulk\_new\_lost\_referring\_domains**: [`AppendixFunctionInfo`](AppendixFunctionInfo.md)
 
 #### Implementation of
 
@@ -141,14 +133,13 @@ ___
 
 #### Defined in
 
-[main.ts:208126](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L208126)
+main.ts:213651
 
 ___
 
-
 ### bulk\_ranks
 
-• `Optional` **bulk\_ranks**: [`AppendixInfo`](AppendixInfo.md)
+• `Optional` **bulk\_ranks**: [`AppendixFunctionInfo`](AppendixFunctionInfo.md)
 
 #### Implementation of
 
@@ -156,14 +147,13 @@ ___
 
 #### Defined in
 
-[main.ts:208123](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L208123)
+main.ts:213648
 
 ___
 
-
 ### bulk\_referring\_domains
 
-• `Optional` **bulk\_referring\_domains**: [`AppendixInfo`](AppendixInfo.md)
+• `Optional` **bulk\_referring\_domains**: [`AppendixFunctionInfo`](AppendixFunctionInfo.md)
 
 #### Implementation of
 
@@ -171,14 +161,13 @@ ___
 
 #### Defined in
 
-[main.ts:208127](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L208127)
+main.ts:213652
 
 ___
 
-
 ### competitors
 
-• `Optional` **competitors**: [`AppendixInfo`](AppendixInfo.md)
+• `Optional` **competitors**: [`AppendixFunctionInfo`](AppendixFunctionInfo.md)
 
 #### Implementation of
 
@@ -186,14 +175,13 @@ ___
 
 #### Defined in
 
-[main.ts:208132](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L208132)
+main.ts:213657
 
 ___
 
-
 ### content\_duplicates
 
-• `Optional` **content\_duplicates**: [`AppendixInfo`](AppendixInfo.md)
+• `Optional` **content\_duplicates**: [`AppendixFunctionInfo`](AppendixFunctionInfo.md)
 
 #### Implementation of
 
@@ -201,14 +189,13 @@ ___
 
 #### Defined in
 
-[main.ts:208115](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L208115)
+main.ts:213640
 
 ___
 
-
 ### domain\_intersection
 
-• `Optional` **domain\_intersection**: [`AppendixInfo`](AppendixInfo.md)
+• `Optional` **domain\_intersection**: [`AppendixFunctionInfo`](AppendixFunctionInfo.md)
 
 #### Implementation of
 
@@ -216,14 +203,13 @@ ___
 
 #### Defined in
 
-[main.ts:208116](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L208116)
+main.ts:213641
 
 ___
 
-
 ### domain\_pages
 
-• `Optional` **domain\_pages**: [`AppendixInfo`](AppendixInfo.md)
+• `Optional` **domain\_pages**: [`AppendixFunctionInfo`](AppendixFunctionInfo.md)
 
 #### Implementation of
 
@@ -231,14 +217,13 @@ ___
 
 #### Defined in
 
-[main.ts:208118](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L208118)
+main.ts:213643
 
 ___
 
-
 ### domain\_pages\_summary
 
-• `Optional` **domain\_pages\_summary**: [`AppendixInfo`](AppendixInfo.md)
+• `Optional` **domain\_pages\_summary**: [`AppendixFunctionInfo`](AppendixFunctionInfo.md)
 
 #### Implementation of
 
@@ -246,10 +231,9 @@ ___
 
 #### Defined in
 
-[main.ts:208129](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L208129)
+main.ts:213654
 
 ___
-
 
 ### errors
 
@@ -261,14 +245,13 @@ ___
 
 #### Defined in
 
-[main.ts:208128](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L208128)
+main.ts:213653
 
 ___
 
-
 ### history
 
-• `Optional` **history**: [`AppendixInfo`](AppendixInfo.md)
+• `Optional` **history**: [`AppendixFunctionInfo`](AppendixFunctionInfo.md)
 
 #### Implementation of
 
@@ -276,14 +259,13 @@ ___
 
 #### Defined in
 
-[main.ts:208114](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L208114)
+main.ts:213639
 
 ___
 
-
 ### page\_intersection
 
-• `Optional` **page\_intersection**: [`AppendixInfo`](AppendixInfo.md)
+• `Optional` **page\_intersection**: [`AppendixFunctionInfo`](AppendixFunctionInfo.md)
 
 #### Implementation of
 
@@ -291,14 +273,13 @@ ___
 
 #### Defined in
 
-[main.ts:208121](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L208121)
+main.ts:213646
 
 ___
 
-
 ### referring\_domains
 
-• `Optional` **referring\_domains**: [`AppendixInfo`](AppendixInfo.md)
+• `Optional` **referring\_domains**: [`AppendixFunctionInfo`](AppendixFunctionInfo.md)
 
 #### Implementation of
 
@@ -306,14 +287,13 @@ ___
 
 #### Defined in
 
-[main.ts:208120](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L208120)
+main.ts:213645
 
 ___
 
-
 ### referring\_networks
 
-• `Optional` **referring\_networks**: [`AppendixInfo`](AppendixInfo.md)
+• `Optional` **referring\_networks**: [`AppendixFunctionInfo`](AppendixFunctionInfo.md)
 
 #### Implementation of
 
@@ -321,14 +301,13 @@ ___
 
 #### Defined in
 
-[main.ts:208122](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L208122)
+main.ts:213647
 
 ___
 
-
 ### summary
 
-• `Optional` **summary**: [`AppendixInfo`](AppendixInfo.md)
+• `Optional` **summary**: [`AppendixFunctionInfo`](AppendixFunctionInfo.md)
 
 #### Implementation of
 
@@ -336,14 +315,13 @@ ___
 
 #### Defined in
 
-[main.ts:208113](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L208113)
+main.ts:213638
 
 ___
 
-
 ### timeseries\_new\_lost\_summary
 
-• `Optional` **timeseries\_new\_lost\_summary**: [`AppendixInfo`](AppendixInfo.md)
+• `Optional` **timeseries\_new\_lost\_summary**: [`AppendixFunctionInfo`](AppendixFunctionInfo.md)
 
 #### Implementation of
 
@@ -351,14 +329,13 @@ ___
 
 #### Defined in
 
-[main.ts:208131](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L208131)
+main.ts:213656
 
 ___
 
-
 ### timeseries\_summary
 
-• `Optional` **timeseries\_summary**: [`AppendixInfo`](AppendixInfo.md)
+• `Optional` **timeseries\_summary**: [`AppendixFunctionInfo`](AppendixFunctionInfo.md)
 
 #### Implementation of
 
@@ -366,7 +343,7 @@ ___
 
 #### Defined in
 
-[main.ts:208130](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L208130)
+main.ts:213655
 
 ## Methods
 
@@ -386,10 +363,9 @@ ___
 
 #### Defined in
 
-[main.ts:208145](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L208145)
+main.ts:213670
 
 ___
-
 
 ### toJSON
 
@@ -407,10 +383,9 @@ ___
 
 #### Defined in
 
-[main.ts:208181](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L208181)
+main.ts:213706
 
 ___
-
 
 ### fromJS
 
@@ -428,8 +403,4 @@ ___
 
 #### Defined in
 
-[main.ts:208174](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L208174)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:213699

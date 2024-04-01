@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / BusinessDataGoogleHotelSearchesTaskGetResultInfo
+[Documentation](../README.md) / [Exports](../modules.md) / BusinessDataGoogleHotelSearchesTaskGetResultInfo
 
 # Class: BusinessDataGoogleHotelSearchesTaskGetResultInfo
 
@@ -54,7 +50,7 @@
 
 #### Defined in
 
-[main.ts:193946](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L193946)
+main.ts:199407
 
 ## Properties
 
@@ -71,10 +67,9 @@ you can use it to make sure that we provided accurate results
 
 #### Defined in
 
-[main.ts:193931](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L193931)
+main.ts:199392
 
 ___
-
 
 ### datetime
 
@@ -91,10 +86,9 @@ example:
 
 #### Defined in
 
-[main.ts:193936](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L193936)
+main.ts:199397
 
 ___
-
 
 ### items
 
@@ -109,10 +103,9 @@ note: this field always equals null; use it to facilitate integration and ensure
 
 #### Defined in
 
-[main.ts:193942](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L193942)
+main.ts:199403
 
 ___
-
 
 ### items\_count
 
@@ -127,10 +120,9 @@ the number of items in the items array
 
 #### Defined in
 
-[main.ts:193939](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L193939)
+main.ts:199400
 
 ___
-
 
 ### keyword
 
@@ -146,10 +138,9 @@ in order to obtain accurate search results, the location name is appended to the
 
 #### Defined in
 
-[main.ts:193924](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L193924)
+main.ts:199385
 
 ___
-
 
 ### language\_code
 
@@ -163,10 +154,9 @@ language code in a POST array
 
 #### Defined in
 
-[main.ts:193928](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L193928)
+main.ts:199389
 
 ___
-
 
 ### location\_code
 
@@ -180,7 +170,7 @@ location code in a POST array
 
 #### Defined in
 
-[main.ts:193926](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L193926)
+main.ts:199387
 
 ## Methods
 
@@ -200,10 +190,9 @@ location code in a POST array
 
 #### Defined in
 
-[main.ts:193955](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L193955)
+main.ts:199416
 
 ___
-
 
 ### toJSON
 
@@ -221,10 +210,9 @@ ___
 
 #### Defined in
 
-[main.ts:193982](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L193982)
+main.ts:199443
 
 ___
-
 
 ### fromJS
 
@@ -242,8 +230,4 @@ ___
 
 #### Defined in
 
-[main.ts:193975](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L193975)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:199436

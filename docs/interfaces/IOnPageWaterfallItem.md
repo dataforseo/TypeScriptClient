@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IOnPageWaterfallItem
+[Documentation](../README.md) / [Exports](../modules.md) / IOnPageWaterfallItem
 
 # Interface: IOnPageWaterfallItem
 
@@ -42,10 +38,9 @@ the time it takes until the connection with a server is established (in millisec
 
 #### Defined in
 
-[main.ts:149825](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L149825)
+main.ts:155252
 
 ___
-
 
 ### dom\_complete
 
@@ -56,10 +51,9 @@ the time it takes until the page and all of its subresources are downloaded (in 
 
 #### Defined in
 
-[main.ts:149822](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L149822)
+main.ts:155249
 
 ___
-
 
 ### download\_time
 
@@ -69,10 +63,9 @@ time it takes for a browser to receive a response (in milliseconds)
 
 #### Defined in
 
-[main.ts:149835](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L149835)
+main.ts:155262
 
 ___
-
 
 ### duration\_time
 
@@ -82,10 +75,9 @@ total time it takes until a browser receives a complete response from a server (
 
 #### Defined in
 
-[main.ts:149837](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L149837)
+main.ts:155264
 
 ___
-
 
 ### fetch\_end
 
@@ -96,10 +88,9 @@ the amount of time the browser needs to complete downloading a page
 
 #### Defined in
 
-[main.ts:149843](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L149843)
+main.ts:155270
 
 ___
-
 
 ### fetch\_start
 
@@ -110,10 +101,9 @@ the amount of time the browser needs to start downloading a page
 
 #### Defined in
 
-[main.ts:149840](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L149840)
+main.ts:155267
 
 ___
-
 
 ### page\_url
 
@@ -123,10 +113,9 @@ URL of the page
 
 #### Defined in
 
-[main.ts:149816](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L149816)
+main.ts:155243
 
 ___
-
 
 ### request\_sent\_time
 
@@ -137,10 +126,9 @@ the time it takes until the request to a server is sent (in milliseconds)
 
 #### Defined in
 
-[main.ts:149831](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L149831)
+main.ts:155258
 
 ___
-
 
 ### resources
 
@@ -151,10 +139,9 @@ contains separate arrays with timing for each resource found on the page
 
 #### Defined in
 
-[main.ts:149846](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L149846)
+main.ts:155273
 
 ___
-
 
 ### time\_to\_interactive
 
@@ -165,10 +152,9 @@ the time it takes until the user can interact with a page (in milliseconds)
 
 #### Defined in
 
-[main.ts:149819](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L149819)
+main.ts:155246
 
 ___
-
 
 ### time\_to\_secure\_connection
 
@@ -179,10 +165,9 @@ the time it takes until the secure connection with a server is established (in m
 
 #### Defined in
 
-[main.ts:149828](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L149828)
+main.ts:155255
 
 ___
-
 
 ### waiting\_time
 
@@ -192,8 +177,4 @@ time to first byte (TTFB) in milliseconds
 
 #### Defined in
 
-[main.ts:149833](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L149833)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:155260

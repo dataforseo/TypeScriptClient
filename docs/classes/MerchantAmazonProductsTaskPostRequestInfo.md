@@ -1,15 +1,11 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / MerchantAmazonProductsTaskPostRequestInfo
+[Documentation](../README.md) / [Exports](../modules.md) / MerchantAmazonProductsTaskPostRequestInfo
 
 # Class: MerchantAmazonProductsTaskPostRequestInfo
 
 ## Hierarchy
 
 - [`MerchantTaskRequestInfo`](MerchantTaskRequestInfo.md)
-  
+
   ↳ **`MerchantAmazonProductsTaskPostRequestInfo`**
 
 ## Implements
@@ -77,7 +73,7 @@
 
 #### Defined in
 
-[main.ts:170306](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L170306)
+main.ts:175759
 
 ## Properties
 
@@ -96,10 +92,9 @@ specify one of the following amazon departments for extracting product listings:
 
 #### Defined in
 
-[main.ts:170302](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L170302)
+main.ts:175755
 
 ___
-
 
 ### depth
 
@@ -124,10 +119,9 @@ if the specified depth is higher than the number of results in the response, the
 
 #### Defined in
 
-[main.ts:142623](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L142623)
+main.ts:148050
 
 ___
-
 
 ### keyword
 
@@ -150,10 +144,9 @@ if you need to use the “%” symbol for your keyword, please specify it as “
 
 #### Defined in
 
-[main.ts:142556](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L142556)
+main.ts:147983
 
 ___
-
 
 ### language\_code
 
@@ -176,10 +169,9 @@ en
 
 #### Defined in
 
-[main.ts:142607](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L142607)
+main.ts:148034
 
 ___
-
 
 ### language\_name
 
@@ -202,10 +194,9 @@ English
 
 #### Defined in
 
-[main.ts:142600](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L142600)
+main.ts:148027
 
 ___
-
 
 ### location\_code
 
@@ -228,10 +219,9 @@ example:
 
 #### Defined in
 
-[main.ts:142584](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L142584)
+main.ts:148011
 
 ___
-
 
 ### location\_coordinate
 
@@ -256,10 +246,9 @@ example:
 
 #### Defined in
 
-[main.ts:142593](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L142593)
+main.ts:148020
 
 ___
-
 
 ### location\_name
 
@@ -282,10 +271,9 @@ London,England,United Kingdom
 
 #### Defined in
 
-[main.ts:142577](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L142577)
+main.ts:148004
 
 ___
-
 
 ### max\_crawl\_pages
 
@@ -308,10 +296,9 @@ learn more at our help center
 
 #### Defined in
 
-[main.ts:142630](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L142630)
+main.ts:148057
 
 ___
-
 
 ### pingback\_url
 
@@ -337,10 +324,9 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-[main.ts:142692](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L142692)
+main.ts:148119
 
 ___
-
 
 ### postback\_data
 
@@ -362,10 +348,9 @@ advanced, html
 
 #### Defined in
 
-[main.ts:142682](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L142682)
+main.ts:148109
 
 ___
-
 
 ### postback\_url
 
@@ -391,10 +376,9 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-[main.ts:142676](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L142676)
+main.ts:148103
 
 ___
-
 
 ### price\_max
 
@@ -416,10 +400,9 @@ example:
 
 #### Defined in
 
-[main.ts:142653](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L142653)
+main.ts:148080
 
 ___
-
 
 ### price\_min
 
@@ -441,10 +424,9 @@ example:
 
 #### Defined in
 
-[main.ts:142647](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L142647)
+main.ts:148074
 
 ___
-
 
 ### priority
 
@@ -468,10 +450,9 @@ The cost can be calculated on the Pricing page.
 
 #### Defined in
 
-[main.ts:142570](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L142570)
+main.ts:147997
 
 ___
-
 
 ### se\_domain
 
@@ -494,10 +475,9 @@ google.co.uk, google.com.au, google.de, etc.
 
 #### Defined in
 
-[main.ts:142614](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L142614)
+main.ts:148041
 
 ___
-
 
 ### search\_param
 
@@ -524,10 +504,9 @@ example:
 
 #### Defined in
 
-[main.ts:142641](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L142641)
+main.ts:148068
 
 ___
-
 
 ### sort\_by
 
@@ -550,10 +529,9 @@ sort_by:"review_score"
 
 #### Defined in
 
-[main.ts:142660](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L142660)
+main.ts:148087
 
 ___
-
 
 ### tag
 
@@ -575,10 +553,9 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-[main.ts:142666](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L142666)
+main.ts:148093
 
 ___
-
 
 ### url
 
@@ -600,7 +577,7 @@ https://www.google.com/search?q=iphone&num=100&tbm=shop&ie=UTF-8&oe=UTF-8&tbs=vw
 
 #### Defined in
 
-[main.ts:142562](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L142562)
+main.ts:147989
 
 ## Methods
 
@@ -624,10 +601,9 @@ https://www.google.com/search?q=iphone&num=100&tbm=shop&ie=UTF-8&oe=UTF-8&tbs=vw
 
 #### Defined in
 
-[main.ts:170310](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L170310)
+main.ts:175763
 
 ___
-
 
 ### toJSON
 
@@ -649,10 +625,9 @@ ___
 
 #### Defined in
 
-[main.ts:170328](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L170328)
+main.ts:175781
 
 ___
-
 
 ### fromJS
 
@@ -674,8 +649,4 @@ ___
 
 #### Defined in
 
-[main.ts:170321](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L170321)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:175774

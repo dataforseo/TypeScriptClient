@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IDataforseoLabsGoogleHistoricalRankOverviewLiveRequestInfo
+[Documentation](../README.md) / [Exports](../modules.md) / IDataforseoLabsGoogleHistoricalRankOverviewLiveRequestInfo
 
 # Interface: IDataforseoLabsGoogleHistoricalRankOverviewLiveRequestInfo
 
@@ -43,10 +39,9 @@ we recommend always setting correlate to true
 
 #### Defined in
 
-[main.ts:96425](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L96425)
+main.ts:98802
 
 ___
-
 
 ### date\_from
 
@@ -60,10 +55,9 @@ date format: "yyyy-mm-dd"
 
 #### Defined in
 
-[main.ts:96411](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L96411)
+main.ts:98788
 
 ___
-
 
 ### date\_to
 
@@ -78,10 +72,9 @@ example:
 
 #### Defined in
 
-[main.ts:96418](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L96418)
+main.ts:98795
 
 ___
-
 
 ### language\_code
 
@@ -97,10 +90,9 @@ en
 
 #### Defined in
 
-[main.ts:96405](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L96405)
+main.ts:98782
 
 ___
-
 
 ### language\_name
 
@@ -116,10 +108,9 @@ English
 
 #### Defined in
 
-[main.ts:96397](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L96397)
+main.ts:98774
 
 ___
-
 
 ### location\_code
 
@@ -135,10 +126,9 @@ example:
 
 #### Defined in
 
-[main.ts:96389](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L96389)
+main.ts:98766
 
 ___
-
 
 ### location\_name
 
@@ -154,10 +144,9 @@ United Kingdom
 
 #### Defined in
 
-[main.ts:96381](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L96381)
+main.ts:98758
 
 ___
-
 
 ### tag
 
@@ -171,10 +160,9 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-[main.ts:96431](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L96431)
+main.ts:98808
 
 ___
-
 
 ### target
 
@@ -187,8 +175,4 @@ the domain should be specified without https:// and www.
 
 #### Defined in
 
-[main.ts:96373](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L96373)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:98750

@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IAppendixBusinessDataDayLimitsRatesDataInfo
+[Documentation](../README.md) / [Exports](../modules.md) / IAppendixBusinessDataDayLimitsRatesDataInfo
 
 # Interface: IAppendixBusinessDataDayLimitsRatesDataInfo
 
@@ -25,23 +21,18 @@
 
 ### reviews
 
-• `Optional` **reviews**: [`AppendixInfo`](../classes/AppendixInfo.md)
+• `Optional` **reviews**: [`AppendixFunctionInfo`](../classes/AppendixFunctionInfo.md)
 
 #### Defined in
 
-[main.ts:207910](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L207910)
+main.ts:213435
 
 ___
 
-
 ### search
 
-• `Optional` **search**: [`AppendixInfo`](../classes/AppendixInfo.md)
+• `Optional` **search**: [`AppendixFunctionInfo`](../classes/AppendixFunctionInfo.md)
 
 #### Defined in
 
-[main.ts:207911](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L207911)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:213436

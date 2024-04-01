@@ -1,15 +1,11 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IKnowledgeGraphDescriptionItemSerpElementItem
+[Documentation](../README.md) / [Exports](../modules.md) / IKnowledgeGraphDescriptionItemSerpElementItem
 
 # Interface: IKnowledgeGraphDescriptionItemSerpElementItem
 
 ## Hierarchy
 
 - [`IBaseSerpElementItem`](IBaseSerpElementItem.md)
-  
+
   ↳ **`IKnowledgeGraphDescriptionItemSerpElementItem`**
 
 ## Implemented by
@@ -44,10 +40,9 @@ if there are none, equals null
 
 #### Defined in
 
-[main.ts:26423](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L26423)
+main.ts:26942
 
 ___
-
 
 ### position
 
@@ -59,10 +54,9 @@ left, right
 
 #### Defined in
 
-[main.ts:26415](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L26415)
+main.ts:26934
 
 ___
-
 
 ### rank\_absolute
 
@@ -73,10 +67,9 @@ absolute position among all the elements in SERP
 
 #### Defined in
 
-[main.ts:26411](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L26411)
+main.ts:26930
 
 ___
-
 
 ### rank\_group
 
@@ -88,10 +81,9 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-[main.ts:26408](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L26408)
+main.ts:26927
 
 ___
-
 
 ### rectangle
 
@@ -103,10 +95,9 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 #### Defined in
 
-[main.ts:26427](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L26427)
+main.ts:26946
 
 ___
-
 
 ### text
 
@@ -116,10 +107,9 @@ description content
 
 #### Defined in
 
-[main.ts:26419](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L26419)
+main.ts:26938
 
 ___
-
 
 ### xpath
 
@@ -129,8 +119,4 @@ the XPath of the element
 
 #### Defined in
 
-[main.ts:26417](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L26417)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:26936

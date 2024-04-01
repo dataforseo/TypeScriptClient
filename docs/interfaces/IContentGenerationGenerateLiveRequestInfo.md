@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IContentGenerationGenerateLiveRequestInfo
+[Documentation](../README.md) / [Exports](../modules.md) / IContentGenerationGenerateLiveRequestInfo
 
 # Interface: IContentGenerationGenerateLiveRequestInfo
 
@@ -46,10 +42,9 @@ example:
 
 #### Defined in
 
-[main.ts:159992](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L159992)
+main.ts:165419
 
 ___
-
 
 ### avoid\_words
 
@@ -63,10 +58,9 @@ example:
 
 #### Defined in
 
-[main.ts:159986](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L159986)
+main.ts:165413
 
 ___
-
 
 ### creativity\_index
 
@@ -82,10 +76,9 @@ learn more about this parameter on our help center
 
 #### Defined in
 
-[main.ts:159949](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L159949)
+main.ts:165376
 
 ___
-
 
 ### max\_new\_tokens
 
@@ -100,10 +93,9 @@ learn more about this parameter on our help center
 
 #### Defined in
 
-[main.ts:159934](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L159934)
+main.ts:165361
 
 ___
-
 
 ### max\_tokens
 
@@ -118,10 +110,9 @@ learn more about this parameter on our help center
 
 #### Defined in
 
-[main.ts:159941](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L159941)
+main.ts:165368
 
 ___
-
 
 ### stop\_words
 
@@ -135,10 +126,9 @@ example:
 
 #### Defined in
 
-[main.ts:159998](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L159998)
+main.ts:165425
 
 ___
-
 
 ### supplement\_token
 
@@ -152,10 +142,9 @@ supplement_token values are unique for each subsequent task
 
 #### Defined in
 
-[main.ts:160004](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L160004)
+main.ts:165431
 
 ___
-
 
 ### tag
 
@@ -169,10 +158,9 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-[main.ts:160010](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L160010)
+main.ts:165437
 
 ___
-
 
 ### temperature
 
@@ -188,10 +176,9 @@ learn more about this parameter on our help center
 
 #### Defined in
 
-[main.ts:159980](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L159980)
+main.ts:165407
 
 ___
-
 
 ### text
 
@@ -205,10 +192,9 @@ learn more about tokens on our help center
 
 #### Defined in
 
-[main.ts:159927](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L159927)
+main.ts:165354
 
 ___
-
 
 ### token\_repetition\_penalty
 
@@ -222,10 +208,9 @@ default value: 1
 
 #### Defined in
 
-[main.ts:159955](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L159955)
+main.ts:165382
 
 ___
-
 
 ### top\_k
 
@@ -241,10 +226,9 @@ learn more about this parameter on our help center
 
 #### Defined in
 
-[main.ts:159963](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L159963)
+main.ts:165390
 
 ___
-
 
 ### top\_p
 
@@ -261,8 +245,4 @@ learn more about this parameter on our help center
 
 #### Defined in
 
-[main.ts:159972](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L159972)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:165399

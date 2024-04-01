@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / ProductConsiderationsExpandedElement
+[Documentation](../README.md) / [Exports](../modules.md) / ProductConsiderationsExpandedElement
 
 # Class: ProductConsiderationsExpandedElement
 
@@ -57,7 +53,7 @@
 
 #### Defined in
 
-[main.ts:34439](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L34439)
+main.ts:35376
 
 ## Properties
 
@@ -75,10 +71,9 @@ this feature appears after clicking on the three dots next to most results
 
 #### Defined in
 
-[main.ts:34435](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L34435)
+main.ts:35372
 
 ___
-
 
 ### breadcrumb
 
@@ -92,16 +87,15 @@ breadcrumb of the Ad element in SERP
 
 #### Defined in
 
-[main.ts:34418](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L34418)
+main.ts:35355
 
 ___
-
 
 ### domain
 
 • `Optional` **domain**: `string`
 
-website domain
+domain where a link points
 
 #### Implementation of
 
@@ -109,10 +103,9 @@ website domain
 
 #### Defined in
 
-[main.ts:34422](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L34422)
+main.ts:35359
 
 ___
-
 
 ### featured\_title
 
@@ -126,10 +119,9 @@ the title of the featured snippets source page
 
 #### Defined in
 
-[main.ts:34416](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L34416)
+main.ts:35353
 
 ___
-
 
 ### related\_searches
 
@@ -143,10 +135,9 @@ search queries related to the elment
 
 #### Defined in
 
-[main.ts:34431](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L34431)
+main.ts:35368
 
 ___
-
 
 ### snippet
 
@@ -160,10 +151,9 @@ text alongside the link title
 
 #### Defined in
 
-[main.ts:34420](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L34420)
+main.ts:35357
 
 ___
-
 
 ### timestamp
 
@@ -180,16 +170,15 @@ example:
 
 #### Defined in
 
-[main.ts:34429](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L34429)
+main.ts:35366
 
 ___
-
 
 ### title
 
 • `Optional` **title**: `string`
 
-title of a given link element
+title of the carousel item
 
 #### Implementation of
 
@@ -197,10 +186,9 @@ title of a given link element
 
 #### Defined in
 
-[main.ts:34414](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L34414)
+main.ts:35351
 
 ___
-
 
 ### type
 
@@ -214,16 +202,15 @@ type of element
 
 #### Defined in
 
-[main.ts:34412](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L34412)
+main.ts:35349
 
 ___
-
 
 ### url
 
 • `Optional` **url**: `string`
 
-URL
+URL of element
 
 #### Implementation of
 
@@ -231,7 +218,7 @@ URL
 
 #### Defined in
 
-[main.ts:34424](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L34424)
+main.ts:35361
 
 ## Methods
 
@@ -251,10 +238,9 @@ URL
 
 #### Defined in
 
-[main.ts:34448](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L34448)
+main.ts:35385
 
 ___
-
 
 ### toJSON
 
@@ -272,10 +258,9 @@ ___
 
 #### Defined in
 
-[main.ts:34478](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L34478)
+main.ts:35415
 
 ___
-
 
 ### fromJS
 
@@ -293,8 +278,4 @@ ___
 
 #### Defined in
 
-[main.ts:34471](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L34471)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:35408

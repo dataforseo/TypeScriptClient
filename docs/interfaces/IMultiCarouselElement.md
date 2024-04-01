@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IMultiCarouselElement
+[Documentation](../README.md) / [Exports](../modules.md) / IMultiCarouselElement
 
 # Interface: IMultiCarouselElement
 
@@ -32,23 +28,21 @@ multi_carousel_snippet results
 
 #### Defined in
 
-[main.ts:31311](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L31311)
+main.ts:32156
 
 ___
-
 
 ### title
 
 • `Optional` **title**: `string`
 
-title of the row
+title of a given link element
 
 #### Defined in
 
-[main.ts:31309](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L31309)
+main.ts:32154
 
 ___
-
 
 ### type
 
@@ -58,8 +52,4 @@ type of element
 
 #### Defined in
 
-[main.ts:31307](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L31307)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:32152

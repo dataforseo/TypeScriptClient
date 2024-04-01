@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IAppendixUserDataResultInfo
+[Documentation](../README.md) / [Exports](../modules.md) / IAppendixUserDataResultInfo
 
 # Interface: IAppendixUserDataResultInfo
 
@@ -34,10 +30,9 @@ your login
 
 #### Defined in
 
-[main.ts:212224](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L212224)
+main.ts:217877
 
 ___
-
 
 ### money
 
@@ -47,10 +42,9 @@ section of your spending, USD
 
 #### Defined in
 
-[main.ts:212231](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L212231)
+main.ts:217884
 
 ___
-
 
 ### price
 
@@ -60,10 +54,9 @@ pricing
 
 #### Defined in
 
-[main.ts:212233](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L212233)
+main.ts:217886
 
 ___
-
 
 ### rates
 
@@ -73,10 +66,9 @@ your API rates
 
 #### Defined in
 
-[main.ts:212229](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L212229)
+main.ts:217882
 
 ___
-
 
 ### timezone
 
@@ -87,8 +79,4 @@ can be set in your profile settings
 
 #### Defined in
 
-[main.ts:212227](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L212227)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:217880

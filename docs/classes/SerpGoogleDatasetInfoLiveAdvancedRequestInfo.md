@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / SerpGoogleDatasetInfoLiveAdvancedRequestInfo
+[Documentation](../README.md) / [Exports](../modules.md) / SerpGoogleDatasetInfoLiveAdvancedRequestInfo
 
 # Class: SerpGoogleDatasetInfoLiveAdvancedRequestInfo
 
@@ -53,7 +49,7 @@
 
 #### Defined in
 
-[main.ts:52787](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L52787)
+main.ts:55162
 
 ## Properties
 
@@ -73,10 +69,9 @@ L2cvMTFqbl85ZHN6MQ==
 
 #### Defined in
 
-[main.ts:52756](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L52756)
+main.ts:55131
 
 ___
-
 
 ### device
 
@@ -92,10 +87,9 @@ possible value: desktop
 
 #### Defined in
 
-[main.ts:52772](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L52772)
+main.ts:55147
 
 ___
-
 
 ### language\_code
 
@@ -113,10 +107,9 @@ en
 
 #### Defined in
 
-[main.ts:52768](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L52768)
+main.ts:55143
 
 ___
-
 
 ### language\_name
 
@@ -134,10 +127,9 @@ English
 
 #### Defined in
 
-[main.ts:52762](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L52762)
+main.ts:55137
 
 ___
-
 
 ### os
 
@@ -154,10 +146,9 @@ default value: windows
 
 #### Defined in
 
-[main.ts:52777](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L52777)
+main.ts:55152
 
 ___
-
 
 ### tag
 
@@ -175,7 +166,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-[main.ts:52783](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L52783)
+main.ts:55158
 
 ## Methods
 
@@ -195,10 +186,9 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-[main.ts:52796](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L52796)
+main.ts:55171
 
 ___
-
 
 ### toJSON
 
@@ -216,10 +206,9 @@ ___
 
 #### Defined in
 
-[main.ts:52818](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L52818)
+main.ts:55193
 
 ___
-
 
 ### fromJS
 
@@ -237,8 +226,4 @@ ___
 
 #### Defined in
 
-[main.ts:52811](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L52811)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:55186

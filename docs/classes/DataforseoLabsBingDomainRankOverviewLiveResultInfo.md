@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / DataforseoLabsBingDomainRankOverviewLiveResultInfo
+[Documentation](../README.md) / [Exports](../modules.md) / DataforseoLabsBingDomainRankOverviewLiveResultInfo
 
 # Class: DataforseoLabsBingDomainRankOverviewLiveResultInfo
 
@@ -54,7 +50,7 @@
 
 #### Defined in
 
-[main.ts:104118](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L104118)
+main.ts:106495
 
 ## Properties
 
@@ -70,10 +66,9 @@ contains ranking and traffic data
 
 #### Defined in
 
-[main.ts:104114](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L104114)
+main.ts:106491
 
 ___
-
 
 ### items\_count
 
@@ -87,10 +82,9 @@ the number of results returned in the items array
 
 #### Defined in
 
-[main.ts:104112](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L104112)
+main.ts:106489
 
 ___
-
 
 ### language\_code
 
@@ -104,10 +98,9 @@ language code in a POST array
 
 #### Defined in
 
-[main.ts:104108](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L104108)
+main.ts:106485
 
 ___
-
 
 ### location\_code
 
@@ -121,10 +114,9 @@ location code in a POST array
 
 #### Defined in
 
-[main.ts:104106](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L104106)
+main.ts:106483
 
 ___
-
 
 ### se\_type
 
@@ -138,10 +130,9 @@ search engine type
 
 #### Defined in
 
-[main.ts:104102](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L104102)
+main.ts:106479
 
 ___
-
 
 ### target
 
@@ -155,10 +146,9 @@ target domain in a POST array
 
 #### Defined in
 
-[main.ts:104104](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L104104)
+main.ts:106481
 
 ___
-
 
 ### total\_count
 
@@ -172,7 +162,7 @@ total amount of results in our database relevant to your request
 
 #### Defined in
 
-[main.ts:104110](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L104110)
+main.ts:106487
 
 ## Methods
 
@@ -192,10 +182,9 @@ total amount of results in our database relevant to your request
 
 #### Defined in
 
-[main.ts:104127](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L104127)
+main.ts:106504
 
 ___
-
 
 ### toJSON
 
@@ -213,10 +202,9 @@ ___
 
 #### Defined in
 
-[main.ts:104154](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L104154)
+main.ts:106531
 
 ___
-
 
 ### fromJS
 
@@ -234,8 +222,4 @@ ___
 
 #### Defined in
 
-[main.ts:104147](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L104147)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:106524

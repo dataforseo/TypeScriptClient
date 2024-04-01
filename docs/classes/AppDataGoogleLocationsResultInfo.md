@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / AppDataGoogleLocationsResultInfo
+[Documentation](../README.md) / [Exports](../modules.md) / AppDataGoogleLocationsResultInfo
 
 # Class: AppDataGoogleLocationsResultInfo
 
@@ -52,7 +48,7 @@
 
 #### Defined in
 
-[main.ts:177154](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L177154)
+main.ts:182607
 
 ## Properties
 
@@ -68,10 +64,9 @@ ISO country code of the location
 
 #### Defined in
 
-[main.ts:177148](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L177148)
+main.ts:182601
 
 ___
-
 
 ### location\_code
 
@@ -85,10 +80,9 @@ location code
 
 #### Defined in
 
-[main.ts:177136](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L177136)
+main.ts:182589
 
 ___
-
 
 ### location\_name
 
@@ -102,10 +96,9 @@ full name of the location
 
 #### Defined in
 
-[main.ts:177138](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L177138)
+main.ts:182591
 
 ___
-
 
 ### location\_name\_parent
 
@@ -125,10 +118,9 @@ example:
 
 #### Defined in
 
-[main.ts:177146](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L177146)
+main.ts:182599
 
 ___
-
 
 ### location\_type
 
@@ -142,7 +134,7 @@ location type
 
 #### Defined in
 
-[main.ts:177150](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L177150)
+main.ts:182603
 
 ## Methods
 
@@ -162,10 +154,9 @@ location type
 
 #### Defined in
 
-[main.ts:177163](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L177163)
+main.ts:182616
 
 ___
-
 
 ### toJSON
 
@@ -183,10 +174,9 @@ ___
 
 #### Defined in
 
-[main.ts:177184](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L177184)
+main.ts:182637
 
 ___
-
 
 ### fromJS
 
@@ -204,8 +194,4 @@ ___
 
 #### Defined in
 
-[main.ts:177177](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L177177)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:182630

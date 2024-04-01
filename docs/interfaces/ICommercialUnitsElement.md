@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / ICommercialUnitsElement
+[Documentation](../README.md) / [Exports](../modules.md) / ICommercialUnitsElement
 
 # Interface: ICommercialUnitsElement
 
@@ -32,68 +28,63 @@
 
 • `Optional` **domain**: `string`
 
-domain where a link points
+website domain
 
 #### Defined in
 
-[main.ts:33461](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L33461)
+main.ts:34368
 
 ___
-
 
 ### price
 
 • `Optional` **price**: [`PriceInfo`](../classes/PriceInfo.md)
 
-price of booking a place for the specified dates of stay
+price indicated in the element
 
 #### Defined in
 
-[main.ts:33463](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L33463)
+main.ts:34370
 
 ___
-
 
 ### rating
 
 • `Optional` **rating**: [`RatingInfo`](../classes/RatingInfo.md)
 
-the item’s rating
+the item’s rating 
 the popularity rate based on reviews and displayed in SERP
 
 #### Defined in
 
-[main.ts:33469](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L33469)
+main.ts:34376
 
 ___
-
 
 ### source
 
 • `Optional` **source**: `string`
 
-web source of the hotel booking element
-indicates the source of information included in the element
+source of the element
+indicates the source of information included in the top_stories_element
 
 #### Defined in
 
-[main.ts:33466](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L33466)
+main.ts:34373
 
 ___
-
 
 ### title
 
 • `Optional` **title**: `string`
 
-title of the row
+title of a given link element
 
 #### Defined in
 
-[main.ts:33457](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L33457)
+main.ts:34364
 
 ___
-
 
 ### type
 
@@ -103,10 +94,9 @@ type of element
 
 #### Defined in
 
-[main.ts:33455](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L33455)
+main.ts:34362
 
 ___
-
 
 ### url
 
@@ -116,8 +106,4 @@ URL
 
 #### Defined in
 
-[main.ts:33459](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L33459)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:34366

@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / KeywordKpi
+[Documentation](../README.md) / [Exports](../modules.md) / KeywordKpi
 
 # Class: KeywordKpi
 
@@ -50,7 +46,7 @@
 
 #### Defined in
 
-[main.ts:127260](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L127260)
+main.ts:132627
 
 ## Properties
 
@@ -67,10 +63,9 @@ if there is no data, then the value is null
 
 #### Defined in
 
-[main.ts:127250](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L127250)
+main.ts:132617
 
 ___
-
 
 ### mobile
 
@@ -85,10 +80,9 @@ if there is no data, then the value is null
 
 #### Defined in
 
-[main.ts:127253](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L127253)
+main.ts:132620
 
 ___
-
 
 ### tablet
 
@@ -103,7 +97,7 @@ if there is no data, then the value is null
 
 #### Defined in
 
-[main.ts:127256](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L127256)
+main.ts:132623
 
 ## Methods
 
@@ -123,10 +117,9 @@ if there is no data, then the value is null
 
 #### Defined in
 
-[main.ts:127269](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L127269)
+main.ts:132636
 
 ___
-
 
 ### toJSON
 
@@ -144,10 +137,9 @@ ___
 
 #### Defined in
 
-[main.ts:127300](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L127300)
+main.ts:132667
 
 ___
-
 
 ### fromJS
 
@@ -165,8 +157,4 @@ ___
 
 #### Defined in
 
-[main.ts:127293](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L127293)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:132660

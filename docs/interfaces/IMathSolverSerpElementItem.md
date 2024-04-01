@@ -1,15 +1,11 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IMathSolverSerpElementItem
+[Documentation](../README.md) / [Exports](../modules.md) / IMathSolverSerpElementItem
 
 # Interface: IMathSolverSerpElementItem
 
 ## Hierarchy
 
 - [`IBaseSerpElementItem`](IBaseSerpElementItem.md)
-  
+
   ↳ **`IMathSolverSerpElementItem`**
 
 ## Implemented by
@@ -40,14 +36,14 @@
 
 • `Optional` **items**: [`MathSolverElement`](../classes/MathSolverElement.md)[]
 
-contains results featured in the ‘hotels_pack’ element of SERP
+additional items present in the element
+if there are none, equals null
 
 #### Defined in
 
-[main.ts:34153](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L34153)
+main.ts:35082
 
 ___
-
 
 ### links
 
@@ -57,10 +53,9 @@ link of the element
 
 #### Defined in
 
-[main.ts:34155](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L34155)
+main.ts:35084
 
 ___
-
 
 ### position
 
@@ -72,10 +67,9 @@ left, right
 
 #### Defined in
 
-[main.ts:34144](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L34144)
+main.ts:35072
 
 ___
-
 
 ### rank\_absolute
 
@@ -83,28 +77,28 @@ ___
 
 absolute rank in SERP
 absolute position among all the elements in SERP
+always equals 0 for desktop
 
 #### Defined in
 
-[main.ts:34140](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L34140)
+main.ts:35068
 
 ___
-
 
 ### rank\_group
 
 • `Optional` **rank\_group**: `number`
 
 group rank in SERP
-position within a group of elements with identical type values
-positions of elements with different type values are omitted from rank_group
+position within a group of elements with identical type values;
+positions of elements with different type values are omitted from rank_group;
+always equals 0 for desktop
 
 #### Defined in
 
-[main.ts:34137](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L34137)
+main.ts:35064
 
 ___
-
 
 ### rectangle
 
@@ -116,10 +110,9 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 #### Defined in
 
-[main.ts:34159](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L34159)
+main.ts:35088
 
 ___
-
 
 ### result
 
@@ -130,23 +123,21 @@ solution to the mathematical equation specified in the keyword field when settin
 
 #### Defined in
 
-[main.ts:34151](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L34151)
+main.ts:35079
 
 ___
-
 
 ### title
 
 • `Optional` **title**: `string`
 
-title of a given link element
+title of the row
 
 #### Defined in
 
-[main.ts:34148](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L34148)
+main.ts:35076
 
 ___
-
 
 ### xpath
 
@@ -156,8 +147,4 @@ the XPath of the element
 
 #### Defined in
 
-[main.ts:34146](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L34146)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:35074

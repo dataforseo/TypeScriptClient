@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / DataforseoLabsAvailableFiltersResultInfo
+[Documentation](../README.md) / [Exports](../modules.md) / DataforseoLabsAvailableFiltersResultInfo
 
 # Class: DataforseoLabsAvailableFiltersResultInfo
 
@@ -69,7 +65,7 @@
 
 #### Defined in
 
-[main.ts:77364](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L77364)
+main.ts:79741
 
 ## Properties
 
@@ -87,10 +83,9 @@
 
 #### Defined in
 
-[main.ts:77358](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L77358)
+main.ts:79735
 
 ___
-
 
 ### app\_intersection
 
@@ -106,10 +101,9 @@ ___
 
 #### Defined in
 
-[main.ts:77357](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L77357)
+main.ts:79734
 
 ___
-
 
 ### categories\_for\_domain
 
@@ -125,10 +119,9 @@ ___
 
 #### Defined in
 
-[main.ts:77347](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L77347)
+main.ts:79724
 
 ___
-
 
 ### competitors\_domain
 
@@ -144,10 +137,9 @@ ___
 
 #### Defined in
 
-[main.ts:77346](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L77346)
+main.ts:79723
 
 ___
-
 
 ### database\_rows\_count
 
@@ -163,10 +155,9 @@ ___
 
 #### Defined in
 
-[main.ts:77360](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L77360)
+main.ts:79737
 
 ___
-
 
 ### domain\_intersection
 
@@ -182,10 +173,9 @@ ___
 
 #### Defined in
 
-[main.ts:77349](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L77349)
+main.ts:79726
 
 ___
-
 
 ### domain\_metrics\_by\_categories
 
@@ -201,10 +191,9 @@ ___
 
 #### Defined in
 
-[main.ts:77353](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L77353)
+main.ts:79730
 
 ___
-
 
 ### domain\_whois\_overview
 
@@ -220,10 +209,9 @@ ___
 
 #### Defined in
 
-[main.ts:77351](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L77351)
+main.ts:79728
 
 ___
-
 
 ### keyword\_ideas
 
@@ -239,10 +227,9 @@ ___
 
 #### Defined in
 
-[main.ts:77342](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L77342)
+main.ts:79719
 
 ___
-
 
 ### keyword\_suggestions
 
@@ -258,10 +245,9 @@ ___
 
 #### Defined in
 
-[main.ts:77340](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L77340)
+main.ts:79717
 
 ___
-
 
 ### keywords\_for\_app
 
@@ -277,10 +263,9 @@ ___
 
 #### Defined in
 
-[main.ts:77359](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L77359)
+main.ts:79736
 
 ___
-
 
 ### keywords\_for\_categories
 
@@ -296,10 +281,9 @@ ___
 
 #### Defined in
 
-[main.ts:77348](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L77348)
+main.ts:79725
 
 ___
-
 
 ### keywords\_for\_site
 
@@ -315,10 +299,9 @@ ___
 
 #### Defined in
 
-[main.ts:77354](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L77354)
+main.ts:79731
 
 ___
-
 
 ### page\_intersection
 
@@ -334,10 +317,9 @@ ___
 
 #### Defined in
 
-[main.ts:77350](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L77350)
+main.ts:79727
 
 ___
-
 
 ### product\_competitors
 
@@ -353,10 +335,9 @@ ___
 
 #### Defined in
 
-[main.ts:77355](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L77355)
+main.ts:79732
 
 ___
-
 
 ### product\_keyword\_intersections
 
@@ -372,10 +353,9 @@ ___
 
 #### Defined in
 
-[main.ts:77356](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L77356)
+main.ts:79733
 
 ___
-
 
 ### ranked\_keywords
 
@@ -391,10 +371,9 @@ ___
 
 #### Defined in
 
-[main.ts:77341](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L77341)
+main.ts:79718
 
 ___
-
 
 ### related\_keywords
 
@@ -410,10 +389,9 @@ ___
 
 #### Defined in
 
-[main.ts:77339](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L77339)
+main.ts:79716
 
 ___
-
 
 ### relevant\_pages
 
@@ -429,10 +407,9 @@ ___
 
 #### Defined in
 
-[main.ts:77344](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L77344)
+main.ts:79721
 
 ___
-
 
 ### serp\_competitors
 
@@ -448,10 +425,9 @@ ___
 
 #### Defined in
 
-[main.ts:77343](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L77343)
+main.ts:79720
 
 ___
-
 
 ### subdomains
 
@@ -467,10 +443,9 @@ ___
 
 #### Defined in
 
-[main.ts:77345](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L77345)
+main.ts:79722
 
 ___
-
 
 ### top\_searches
 
@@ -486,7 +461,7 @@ ___
 
 #### Defined in
 
-[main.ts:77352](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L77352)
+main.ts:79729
 
 ## Methods
 
@@ -506,10 +481,9 @@ ___
 
 #### Defined in
 
-[main.ts:77373](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L77373)
+main.ts:79750
 
 ___
-
 
 ### toJSON
 
@@ -527,10 +501,9 @@ ___
 
 #### Defined in
 
-[main.ts:77543](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L77543)
+main.ts:79920
 
 ___
-
 
 ### fromJS
 
@@ -548,8 +521,4 @@ ___
 
 #### Defined in
 
-[main.ts:77536](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L77536)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:79913

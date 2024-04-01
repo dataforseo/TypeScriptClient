@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IAppMetricsInfo
+[Documentation](../README.md) / [Exports](../modules.md) / IAppMetricsInfo
 
 # Interface: IAppMetricsInfo
 
@@ -35,10 +31,9 @@ total count of Amazon organic SERPs that contain the product
 
 #### Defined in
 
-[main.ts:100641](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L100641)
+main.ts:103018
 
 ___
-
 
 ### pos\_1
 
@@ -48,10 +43,9 @@ number of organic SERPs where the product ranks #1
 
 #### Defined in
 
-[main.ts:100633](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L100633)
+main.ts:103010
 
 ___
-
 
 ### pos\_11\_100
 
@@ -61,10 +55,9 @@ number of organic SERPs where the product ranks #11-100
 
 #### Defined in
 
-[main.ts:100639](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L100639)
+main.ts:103016
 
 ___
-
 
 ### pos\_2\_3
 
@@ -74,10 +67,9 @@ number of organic SERPs where the product ranks #2-3
 
 #### Defined in
 
-[main.ts:100635](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L100635)
+main.ts:103012
 
 ___
-
 
 ### pos\_4\_10
 
@@ -87,10 +79,9 @@ number of organic SERPs where the product ranks #4-10
 
 #### Defined in
 
-[main.ts:100637](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L100637)
+main.ts:103014
 
 ___
-
 
 ### search\_volume
 
@@ -100,8 +91,4 @@ total search volume of the product’s ranking keywords in organic SERP
 
 #### Defined in
 
-[main.ts:100643](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L100643)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:103020

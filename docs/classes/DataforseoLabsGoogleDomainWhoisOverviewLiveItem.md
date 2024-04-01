@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / DataforseoLabsGoogleDomainWhoisOverviewLiveItem
+[Documentation](../README.md) / [Exports](../modules.md) / DataforseoLabsGoogleDomainWhoisOverviewLiveItem
 
 # Class: DataforseoLabsGoogleDomainWhoisOverviewLiveItem
 
@@ -60,7 +56,7 @@
 
 #### Defined in
 
-[main.ts:85694](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L85694)
+main.ts:88071
 
 ## Properties
 
@@ -76,10 +72,9 @@ backlink data for the returned domain
 
 #### Defined in
 
-[main.ts:85690](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L85690)
+main.ts:88067
 
 ___
-
 
 ### changed\_datetime
 
@@ -96,10 +91,9 @@ example:
 
 #### Defined in
 
-[main.ts:85656](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L85656)
+main.ts:88033
 
 ___
-
 
 ### created\_datetime
 
@@ -116,10 +110,9 @@ example:
 
 #### Defined in
 
-[main.ts:85651](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L85651)
+main.ts:88028
 
 ___
-
 
 ### domain
 
@@ -133,10 +126,9 @@ domain name
 
 #### Defined in
 
-[main.ts:85646](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L85646)
+main.ts:88023
 
 ___
-
 
 ### epp\_status\_codes
 
@@ -151,10 +143,9 @@ the status of a domain name registration as defined by ICANN
 
 #### Defined in
 
-[main.ts:85674](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L85674)
+main.ts:88051
 
 ___
-
 
 ### expiration\_datetime
 
@@ -171,10 +162,9 @@ example:
 
 #### Defined in
 
-[main.ts:85661](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L85661)
+main.ts:88038
 
 ___
-
 
 ### first\_seen
 
@@ -191,10 +181,9 @@ example:
 
 #### Defined in
 
-[main.ts:85671](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L85671)
+main.ts:88048
 
 ___
-
 
 ### metrics
 
@@ -212,10 +201,9 @@ ranking data relevant to the specified domain
 
 #### Defined in
 
-[main.ts:85688](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L85688)
+main.ts:88065
 
 ___
-
 
 ### registered
 
@@ -231,10 +219,9 @@ Note: expired domains will remain in the database for only a short period of tim
 
 #### Defined in
 
-[main.ts:85681](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L85681)
+main.ts:88058
 
 ___
-
 
 ### registrar
 
@@ -251,10 +238,9 @@ NameCheap, Inc.
 
 #### Defined in
 
-[main.ts:85686](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L85686)
+main.ts:88063
 
 ___
-
 
 ### se\_type
 
@@ -268,10 +254,9 @@ search engine type
 
 #### Defined in
 
-[main.ts:85644](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L85644)
+main.ts:88021
 
 ___
-
 
 ### tld
 
@@ -286,10 +271,9 @@ top-level domain in the DNS root zone
 
 #### Defined in
 
-[main.ts:85677](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L85677)
+main.ts:88054
 
 ___
-
 
 ### updated\_datetime
 
@@ -306,7 +290,7 @@ example:
 
 #### Defined in
 
-[main.ts:85666](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L85666)
+main.ts:88043
 
 ## Methods
 
@@ -326,10 +310,9 @@ example:
 
 #### Defined in
 
-[main.ts:85703](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L85703)
+main.ts:88080
 
 ___
-
 
 ### toJSON
 
@@ -347,10 +330,9 @@ ___
 
 #### Defined in
 
-[main.ts:85742](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L85742)
+main.ts:88119
 
 ___
-
 
 ### fromJS
 
@@ -368,8 +350,4 @@ ___
 
 #### Defined in
 
-[main.ts:85735](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L85735)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:88112

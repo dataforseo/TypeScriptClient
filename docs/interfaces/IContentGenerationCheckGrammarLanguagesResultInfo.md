@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IContentGenerationCheckGrammarLanguagesResultInfo
+[Documentation](../README.md) / [Exports](../modules.md) / IContentGenerationCheckGrammarLanguagesResultInfo
 
 # Interface: IContentGenerationCheckGrammarLanguagesResultInfo
 
@@ -31,10 +27,9 @@ language code according to ISO 639-1
 
 #### Defined in
 
-[main.ts:161842](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L161842)
+main.ts:167269
 
 ___
-
 
 ### language\_name
 
@@ -44,8 +39,4 @@ language name
 
 #### Defined in
 
-[main.ts:161840](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L161840)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:167267

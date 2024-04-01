@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IAppendixDataInfo
+[Documentation](../README.md) / [Exports](../modules.md) / IAppendixDataInfo
 
 # Interface: IAppendixDataInfo
 
@@ -58,10 +54,9 @@
 
 #### Defined in
 
-[main.ts:209056](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L209056)
+main.ts:214585
 
 ___
-
 
 ### appendix
 
@@ -69,10 +64,9 @@ ___
 
 #### Defined in
 
-[main.ts:209042](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L209042)
+main.ts:214571
 
 ___
-
 
 ### backlinks
 
@@ -80,10 +74,9 @@ ___
 
 #### Defined in
 
-[main.ts:209054](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L209054)
+main.ts:214583
 
 ___
-
 
 ### business\_data
 
@@ -91,10 +84,9 @@ ___
 
 #### Defined in
 
-[main.ts:209052](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L209052)
+main.ts:214581
 
 ___
-
 
 ### content\_analysis
 
@@ -102,10 +94,9 @@ ___
 
 #### Defined in
 
-[main.ts:209058](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L209058)
+main.ts:214587
 
 ___
-
 
 ### content\_generation
 
@@ -113,10 +104,9 @@ ___
 
 #### Defined in
 
-[main.ts:209060](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L209060)
+main.ts:214589
 
 ___
-
 
 ### dataforseo\_labs
 
@@ -124,10 +114,9 @@ ___
 
 #### Defined in
 
-[main.ts:209044](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L209044)
+main.ts:214573
 
 ___
-
 
 ### domain\_analytics
 
@@ -135,10 +124,9 @@ ___
 
 #### Defined in
 
-[main.ts:209046](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L209046)
+main.ts:214575
 
 ___
-
 
 ### keywords\_data
 
@@ -146,10 +134,9 @@ ___
 
 #### Defined in
 
-[main.ts:209040](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L209040)
+main.ts:214569
 
 ___
-
 
 ### merchant
 
@@ -157,10 +144,9 @@ ___
 
 #### Defined in
 
-[main.ts:209048](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L209048)
+main.ts:214577
 
 ___
-
 
 ### on\_page
 
@@ -168,10 +154,9 @@ ___
 
 #### Defined in
 
-[main.ts:209050](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L209050)
+main.ts:214579
 
 ___
-
 
 ### reviews
 
@@ -179,10 +164,9 @@ ___
 
 #### Defined in
 
-[main.ts:209065](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L209065)
+main.ts:214594
 
 ___
-
 
 ### serp
 
@@ -190,10 +174,9 @@ ___
 
 #### Defined in
 
-[main.ts:209036](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L209036)
+main.ts:214565
 
 ___
-
 
 ### social
 
@@ -201,10 +184,9 @@ ___
 
 #### Defined in
 
-[main.ts:209067](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L209067)
+main.ts:214596
 
 ___
-
 
 ### total
 
@@ -214,10 +196,9 @@ total amount of money deposited to your account
 
 #### Defined in
 
-[main.ts:209038](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L209038)
+main.ts:214567
 
 ___
-
 
 ### total\_app\_data
 
@@ -225,10 +206,9 @@ ___
 
 #### Defined in
 
-[main.ts:209057](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L209057)
+main.ts:214586
 
 ___
-
 
 ### total\_appendix
 
@@ -236,10 +216,9 @@ ___
 
 #### Defined in
 
-[main.ts:209043](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L209043)
+main.ts:214572
 
 ___
-
 
 ### total\_backlinks
 
@@ -247,10 +226,9 @@ ___
 
 #### Defined in
 
-[main.ts:209055](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L209055)
+main.ts:214584
 
 ___
-
 
 ### total\_business\_data
 
@@ -258,10 +236,9 @@ ___
 
 #### Defined in
 
-[main.ts:209053](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L209053)
+main.ts:214582
 
 ___
-
 
 ### total\_content\_analysis
 
@@ -269,10 +246,9 @@ ___
 
 #### Defined in
 
-[main.ts:209059](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L209059)
+main.ts:214588
 
 ___
-
 
 ### total\_content\_generation
 
@@ -280,10 +256,9 @@ ___
 
 #### Defined in
 
-[main.ts:209061](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L209061)
+main.ts:214590
 
 ___
-
 
 ### total\_dataforseo\_labs
 
@@ -291,10 +266,9 @@ ___
 
 #### Defined in
 
-[main.ts:209045](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L209045)
+main.ts:214574
 
 ___
-
 
 ### total\_domain\_analytics
 
@@ -302,10 +276,9 @@ ___
 
 #### Defined in
 
-[main.ts:209047](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L209047)
+main.ts:214576
 
 ___
-
 
 ### total\_keywords\_data
 
@@ -313,10 +286,9 @@ ___
 
 #### Defined in
 
-[main.ts:209041](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L209041)
+main.ts:214570
 
 ___
-
 
 ### total\_merchant
 
@@ -324,10 +296,9 @@ ___
 
 #### Defined in
 
-[main.ts:209049](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L209049)
+main.ts:214578
 
 ___
-
 
 ### total\_on\_page
 
@@ -335,10 +306,9 @@ ___
 
 #### Defined in
 
-[main.ts:209051](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L209051)
+main.ts:214580
 
 ___
-
 
 ### total\_reviews
 
@@ -346,10 +316,9 @@ ___
 
 #### Defined in
 
-[main.ts:209064](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L209064)
+main.ts:214593
 
 ___
-
 
 ### total\_serp
 
@@ -357,10 +326,9 @@ ___
 
 #### Defined in
 
-[main.ts:209039](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L209039)
+main.ts:214568
 
 ___
-
 
 ### total\_social
 
@@ -368,10 +336,9 @@ ___
 
 #### Defined in
 
-[main.ts:209066](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L209066)
+main.ts:214595
 
 ___
-
 
 ### total\_traffic\_analytics
 
@@ -379,10 +346,9 @@ ___
 
 #### Defined in
 
-[main.ts:209062](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L209062)
+main.ts:214591
 
 ___
-
 
 ### traffic\_analytics
 
@@ -390,8 +356,4 @@ ___
 
 #### Defined in
 
-[main.ts:209063](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L209063)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:214592

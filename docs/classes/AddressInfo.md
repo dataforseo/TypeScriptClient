@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / AddressInfo
+[Documentation](../README.md) / [Exports](../modules.md) / AddressInfo
 
 # Class: AddressInfo
 
@@ -53,7 +49,7 @@
 
 #### Defined in
 
-[main.ts:38224](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L38224)
+main.ts:38975
 
 ## Properties
 
@@ -69,10 +65,9 @@ street address of the local establishment
 
 #### Defined in
 
-[main.ts:38212](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L38212)
+main.ts:38963
 
 ___
-
 
 ### borough
 
@@ -86,10 +81,9 @@ administrative unit or district the local establishment belongs to
 
 #### Defined in
 
-[main.ts:38210](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L38210)
+main.ts:38961
 
 ___
-
 
 ### city
 
@@ -103,10 +97,9 @@ name of the city where the local establishment is located
 
 #### Defined in
 
-[main.ts:38214](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L38214)
+main.ts:38965
 
 ___
-
 
 ### country\_code
 
@@ -120,10 +113,9 @@ ISO country code of the local establishment
 
 #### Defined in
 
-[main.ts:38220](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L38220)
+main.ts:38971
 
 ___
-
 
 ### region
 
@@ -137,10 +129,9 @@ DMA region the local establishment belongs to
 
 #### Defined in
 
-[main.ts:38218](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L38218)
+main.ts:38969
 
 ___
-
 
 ### zip
 
@@ -154,7 +145,7 @@ ZIP code of the local establishment
 
 #### Defined in
 
-[main.ts:38216](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L38216)
+main.ts:38967
 
 ## Methods
 
@@ -174,10 +165,9 @@ ZIP code of the local establishment
 
 #### Defined in
 
-[main.ts:38233](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L38233)
+main.ts:38984
 
 ___
-
 
 ### toJSON
 
@@ -195,10 +185,9 @@ ___
 
 #### Defined in
 
-[main.ts:38255](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L38255)
+main.ts:39006
 
 ___
-
 
 ### fromJS
 
@@ -216,8 +205,4 @@ ___
 
 #### Defined in
 
-[main.ts:38248](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L38248)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:38999

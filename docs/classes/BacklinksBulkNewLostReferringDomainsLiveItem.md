@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / BacklinksBulkNewLostReferringDomainsLiveItem
+[Documentation](../README.md) / [Exports](../modules.md) / BacklinksBulkNewLostReferringDomainsLiveItem
 
 # Class: BacklinksBulkNewLostReferringDomainsLiveItem
 
@@ -52,7 +48,7 @@
 
 #### Defined in
 
-[main.ts:141199](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L141199)
+main.ts:146626
 
 ## Properties
 
@@ -69,10 +65,9 @@ number of lost referring domains of the target
 
 #### Defined in
 
-[main.ts:141191](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L141191)
+main.ts:146618
 
 ___
-
 
 ### lost\_referring\_main\_domains
 
@@ -86,10 +81,9 @@ number of lost referring main domains pointing to the target
 
 #### Defined in
 
-[main.ts:141195](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L141195)
+main.ts:146622
 
 ___
-
 
 ### new\_referring\_domains
 
@@ -104,10 +98,9 @@ number of new referring domains pointing to the target
 
 #### Defined in
 
-[main.ts:141188](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L141188)
+main.ts:146615
 
 ___
-
 
 ### new\_referring\_main\_domains
 
@@ -121,10 +114,9 @@ number of new referring main domains pointing to the target
 
 #### Defined in
 
-[main.ts:141193](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L141193)
+main.ts:146620
 
 ___
-
 
 ### target
 
@@ -138,7 +130,7 @@ domain, subdomain or webpage from a POST array
 
 #### Defined in
 
-[main.ts:141185](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L141185)
+main.ts:146612
 
 ## Methods
 
@@ -158,10 +150,9 @@ domain, subdomain or webpage from a POST array
 
 #### Defined in
 
-[main.ts:141208](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L141208)
+main.ts:146635
 
 ___
-
 
 ### toJSON
 
@@ -179,10 +170,9 @@ ___
 
 #### Defined in
 
-[main.ts:141229](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L141229)
+main.ts:146656
 
 ___
-
 
 ### fromJS
 
@@ -200,8 +190,4 @@ ___
 
 #### Defined in
 
-[main.ts:141222](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L141222)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:146649

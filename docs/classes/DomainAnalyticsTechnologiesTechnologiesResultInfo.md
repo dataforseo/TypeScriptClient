@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / DomainAnalyticsTechnologiesTechnologiesResultInfo
+[Documentation](../README.md) / [Exports](../modules.md) / DomainAnalyticsTechnologiesTechnologiesResultInfo
 
 # Class: DomainAnalyticsTechnologiesTechnologiesResultInfo
 
@@ -48,7 +44,7 @@
 
 #### Defined in
 
-[main.ts:72266](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L72266)
+main.ts:74643
 
 ## Properties
 
@@ -64,7 +60,7 @@ array of technology groups
 
 #### Defined in
 
-[main.ts:72262](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L72262)
+main.ts:74639
 
 ## Methods
 
@@ -84,10 +80,9 @@ array of technology groups
 
 #### Defined in
 
-[main.ts:72275](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L72275)
+main.ts:74652
 
 ___
-
 
 ### toJSON
 
@@ -105,10 +100,9 @@ ___
 
 #### Defined in
 
-[main.ts:72296](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L72296)
+main.ts:74673
 
 ___
-
 
 ### fromJS
 
@@ -126,8 +120,4 @@ ___
 
 #### Defined in
 
-[main.ts:72289](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L72289)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:74666

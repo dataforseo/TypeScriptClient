@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / MultiCarouselElement
+[Documentation](../README.md) / [Exports](../modules.md) / MultiCarouselElement
 
 # Class: MultiCarouselElement
 
@@ -50,7 +46,7 @@
 
 #### Defined in
 
-[main.ts:31256](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L31256)
+main.ts:32101
 
 ## Properties
 
@@ -66,16 +62,15 @@ multi_carousel_snippet results
 
 #### Defined in
 
-[main.ts:31252](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L31252)
+main.ts:32097
 
 ___
-
 
 ### title
 
 • `Optional` **title**: `string`
 
-title of the row
+title of a given link element
 
 #### Implementation of
 
@@ -83,10 +78,9 @@ title of the row
 
 #### Defined in
 
-[main.ts:31250](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L31250)
+main.ts:32095
 
 ___
-
 
 ### type
 
@@ -100,7 +94,7 @@ type of element
 
 #### Defined in
 
-[main.ts:31248](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L31248)
+main.ts:32093
 
 ## Methods
 
@@ -120,10 +114,9 @@ type of element
 
 #### Defined in
 
-[main.ts:31265](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L31265)
+main.ts:32110
 
 ___
-
 
 ### toJSON
 
@@ -141,10 +134,9 @@ ___
 
 #### Defined in
 
-[main.ts:31288](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L31288)
+main.ts:32133
 
 ___
-
 
 ### fromJS
 
@@ -162,8 +154,4 @@ ___
 
 #### Defined in
 
-[main.ts:31281](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L31281)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:32126

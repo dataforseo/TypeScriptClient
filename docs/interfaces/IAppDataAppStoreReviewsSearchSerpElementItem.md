@@ -1,15 +1,11 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IAppDataAppStoreReviewsSearchSerpElementItem
+[Documentation](../README.md) / [Exports](../modules.md) / IAppDataAppStoreReviewsSearchSerpElementItem
 
 # Interface: IAppDataAppStoreReviewsSearchSerpElementItem
 
 ## Hierarchy
 
 - [`IBaseAppDataSerpElementItem`](IBaseAppDataSerpElementItem.md)
-  
+
   ↳ **`IAppDataAppStoreReviewsSearchSerpElementItem`**
 
 ## Implemented by
@@ -45,10 +41,9 @@ id of the review
 
 #### Defined in
 
-[main.ts:186305](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L186305)
+main.ts:191758
 
 ___
-
 
 ### position
 
@@ -59,10 +54,9 @@ can take the following values: left
 
 #### Defined in
 
-[main.ts:186293](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L186293)
+main.ts:191746
 
 ___
-
 
 ### rank\_absolute
 
@@ -73,10 +67,9 @@ absolute position among all reviews on the list
 
 #### Defined in
 
-[main.ts:186290](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L186290)
+main.ts:191743
 
 ___
-
 
 ### rank\_group
 
@@ -87,10 +80,9 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-[main.ts:186287](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L186287)
+main.ts:191740
 
 ___
-
 
 ### rating
 
@@ -100,10 +92,9 @@ the rating score submitted by the reviewer
 
 #### Defined in
 
-[main.ts:186298](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L186298)
+main.ts:191751
 
 ___
-
 
 ### review\_text
 
@@ -113,10 +104,9 @@ content of the review
 
 #### Defined in
 
-[main.ts:186309](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L186309)
+main.ts:191762
 
 ___
-
 
 ### timestamp
 
@@ -129,10 +119,9 @@ example:
 
 #### Defined in
 
-[main.ts:186303](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L186303)
+main.ts:191756
 
 ___
-
 
 ### title
 
@@ -142,10 +131,9 @@ title of the review
 
 #### Defined in
 
-[main.ts:186307](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L186307)
+main.ts:191760
 
 ___
-
 
 ### user\_profile
 
@@ -155,10 +143,9 @@ user profile of the reviewer
 
 #### Defined in
 
-[main.ts:186311](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L186311)
+main.ts:191764
 
 ___
-
 
 ### version
 
@@ -169,8 +156,4 @@ version of the app for which the review is submitted
 
 #### Defined in
 
-[main.ts:186296](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L186296)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:191749

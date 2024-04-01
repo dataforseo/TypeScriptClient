@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / RelatedSearchesElement
+[Documentation](../README.md) / [Exports](../modules.md) / RelatedSearchesElement
 
 # Class: RelatedSearchesElement
 
@@ -52,7 +48,7 @@
 
 #### Defined in
 
-[main.ts:20995](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L20995)
+main.ts:21514
 
 ## Properties
 
@@ -68,10 +64,9 @@ the alt tag of the product image featured in the results
 
 #### Defined in
 
-[main.ts:20989](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L20989)
+main.ts:21508
 
 ___
-
 
 ### image\_url
 
@@ -85,10 +80,9 @@ URL of the product image featured in the results
 
 #### Defined in
 
-[main.ts:20991](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L20991)
+main.ts:21510
 
 ___
-
 
 ### title
 
@@ -102,10 +96,9 @@ product title
 
 #### Defined in
 
-[main.ts:20985](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L20985)
+main.ts:21504
 
 ___
-
 
 ### type
 
@@ -119,10 +112,9 @@ type of element
 
 #### Defined in
 
-[main.ts:20983](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L20983)
+main.ts:21502
 
 ___
-
 
 ### url
 
@@ -136,7 +128,7 @@ the URL of the product page
 
 #### Defined in
 
-[main.ts:20987](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L20987)
+main.ts:21506
 
 ## Methods
 
@@ -156,10 +148,9 @@ the URL of the product page
 
 #### Defined in
 
-[main.ts:21004](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L21004)
+main.ts:21523
 
 ___
-
 
 ### toJSON
 
@@ -177,10 +168,9 @@ ___
 
 #### Defined in
 
-[main.ts:21025](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L21025)
+main.ts:21544
 
 ___
-
 
 ### fromJS
 
@@ -198,8 +188,4 @@ ___
 
 #### Defined in
 
-[main.ts:21018](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L21018)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:21537

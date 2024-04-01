@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IFaqBox
+[Documentation](../README.md) / [Exports](../modules.md) / IFaqBox
 
 # Interface: IFaqBox
 
@@ -27,15 +23,13 @@
 
 • `Optional` **items**: [`FaqBoxElement`](../classes/FaqBoxElement.md)[]
 
-additional items present in the element
-if there are none, equals null
+contains results featured in the ‘hotels_pack’ element of SERP
 
 #### Defined in
 
-[main.ts:27959](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L27959)
+main.ts:28706
 
 ___
-
 
 ### type
 
@@ -45,8 +39,4 @@ type of element
 
 #### Defined in
 
-[main.ts:27956](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L27956)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:28704

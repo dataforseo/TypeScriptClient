@@ -1,15 +1,11 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / ITripadvisorReviewSearchBusinessDataSerpElementItem
+[Documentation](../README.md) / [Exports](../modules.md) / ITripadvisorReviewSearchBusinessDataSerpElementItem
 
 # Interface: ITripadvisorReviewSearchBusinessDataSerpElementItem
 
 ## Hierarchy
 
 - [`IBaseBusinessDataSerpElementItem`](IBaseBusinessDataSerpElementItem.md)
-  
+
   ↳ **`ITripadvisorReviewSearchBusinessDataSerpElementItem`**
 
 ## Implemented by
@@ -50,10 +46,9 @@ example:
 
 #### Defined in
 
-[main.ts:202512](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L202512)
+main.ts:207973
 
 ___
-
 
 ### position
 
@@ -64,10 +59,9 @@ can take the following values: right
 
 #### Defined in
 
-[main.ts:202503](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L202503)
+main.ts:207964
 
 ___
-
 
 ### rank\_absolute
 
@@ -78,10 +72,9 @@ absolute position among all reviews on the list
 
 #### Defined in
 
-[main.ts:202500](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L202500)
+main.ts:207961
 
 ___
-
 
 ### rank\_group
 
@@ -92,10 +85,9 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-[main.ts:202497](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L202497)
+main.ts:207958
 
 ___
-
 
 ### rating
 
@@ -105,10 +97,9 @@ the rating score submitted by the reviewer
 
 #### Defined in
 
-[main.ts:202507](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L202507)
+main.ts:207968
 
 ___
-
 
 ### responses
 
@@ -118,10 +109,9 @@ contains information about the owner’s response
 
 #### Defined in
 
-[main.ts:202527](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L202527)
+main.ts:207988
 
 ___
-
 
 ### review\_images
 
@@ -131,10 +121,9 @@ contains URLs of the images used in the review
 
 #### Defined in
 
-[main.ts:202523](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L202523)
+main.ts:207984
 
 ___
-
 
 ### review\_text
 
@@ -144,10 +133,9 @@ content of the review
 
 #### Defined in
 
-[main.ts:202521](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L202521)
+main.ts:207982
 
 ___
-
 
 ### timestamp
 
@@ -160,10 +148,9 @@ example:
 
 #### Defined in
 
-[main.ts:202517](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L202517)
+main.ts:207978
 
 ___
-
 
 ### title
 
@@ -173,10 +160,9 @@ title of the review
 
 #### Defined in
 
-[main.ts:202519](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L202519)
+main.ts:207980
 
 ___
-
 
 ### url
 
@@ -186,10 +172,9 @@ URL of the review
 
 #### Defined in
 
-[main.ts:202505](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L202505)
+main.ts:207966
 
 ___
-
 
 ### user\_profile
 
@@ -199,8 +184,4 @@ information from the reviewer’s profile
 
 #### Defined in
 
-[main.ts:202525](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L202525)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:207986

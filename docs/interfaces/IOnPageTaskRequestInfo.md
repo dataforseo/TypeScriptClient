@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IOnPageTaskRequestInfo
+[Documentation](../README.md) / [Exports](../modules.md) / IOnPageTaskRequestInfo
 
 # Interface: IOnPageTaskRequestInfo
 
@@ -75,10 +71,9 @@ Note: if you do not specify this parameter, some websites may deny access; in th
 
 #### Defined in
 
-[main.ts:117049](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L117049)
+main.ts:119426
 
 ___
-
 
 ### allow\_subdomains
 
@@ -91,10 +86,9 @@ default value: false
 
 #### Defined in
 
-[main.ts:117178](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L117178)
+main.ts:119555
 
 ___
-
 
 ### allowed\_subdomains
 
@@ -109,10 +103,9 @@ otherwise, the content of allowed_subdomains field will be ignored and the resul
 
 #### Defined in
 
-[main.ts:117185](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L117185)
+main.ts:119562
 
 ___
-
 
 ### browser\_preset
 
@@ -132,10 +125,9 @@ Note: to use this parameter, set enable_javascript or enable_browser_rendering t
 
 #### Defined in
 
-[main.ts:117079](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L117079)
+main.ts:119456
 
 ___
-
 
 ### browser\_screen\_height
 
@@ -150,10 +142,9 @@ maximum value, in pixels: 9999
 
 #### Defined in
 
-[main.ts:117093](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L117093)
+main.ts:119470
 
 ___
-
 
 ### browser\_screen\_scale\_factor
 
@@ -168,10 +159,9 @@ maximum value: 3
 
 #### Defined in
 
-[main.ts:117100](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L117100)
+main.ts:119477
 
 ___
-
 
 ### browser\_screen\_width
 
@@ -186,10 +176,9 @@ maximum value, in pixels: 9999
 
 #### Defined in
 
-[main.ts:117086](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L117086)
+main.ts:119463
 
 ___
-
 
 ### calculate\_keyword\_density
 
@@ -204,10 +193,9 @@ once the crawl is completed, you can obtain keyword density values with the Keyw
 
 #### Defined in
 
-[main.ts:117215](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L117215)
+main.ts:119592
 
 ___
-
 
 ### check\_spell
 
@@ -220,10 +208,9 @@ default value: false
 
 #### Defined in
 
-[main.ts:117196](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L117196)
+main.ts:119573
 
 ___
-
 
 ### check\_spell\_exceptions
 
@@ -238,10 +225,9 @@ example: "SERP", "minifiers", "JavaScript"
 
 #### Defined in
 
-[main.ts:117208](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L117208)
+main.ts:119585
 
 ___
-
 
 ### check\_spell\_language
 
@@ -254,10 +240,9 @@ Note: if no language is specified, it will be set automatically based on page co
 
 #### Defined in
 
-[main.ts:117201](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L117201)
+main.ts:119578
 
 ___
-
 
 ### checks\_threshold
 
@@ -294,10 +279,9 @@ if you want to change these thresholds to 1 second and 1000 kbytes, use the foll
 
 #### Defined in
 
-[main.ts:117240](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L117240)
+main.ts:119617
 
 ___
-
 
 ### crawl\_delay
 
@@ -310,10 +294,9 @@ default value: 2000
 
 #### Defined in
 
-[main.ts:117029](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L117029)
+main.ts:119406
 
 ___
-
 
 ### crawl\_sitemap\_only
 
@@ -328,10 +311,9 @@ Note: if you want to use this parameter, respect_sitemap should be true
 
 #### Defined in
 
-[main.ts:117119](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L117119)
+main.ts:119496
 
 ___
-
 
 ### custom\_js
 
@@ -351,10 +333,9 @@ Note: if you use this parameter, additional charges will apply; learn more about
 
 #### Defined in
 
-[main.ts:117168](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L117168)
+main.ts:119545
 
 ___
-
 
 ### custom\_robots\_txt
 
@@ -366,10 +347,9 @@ example: Disallow: /directory1/
 
 #### Defined in
 
-[main.ts:117053](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L117053)
+main.ts:119430
 
 ___
-
 
 ### custom\_sitemap
 
@@ -382,10 +362,9 @@ Note: if you want to use this parameter, respect_sitemap should be true
 
 #### Defined in
 
-[main.ts:117112](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L117112)
+main.ts:119489
 
 ___
-
 
 ### custom\_user\_agent
 
@@ -400,10 +379,9 @@ default value: Mozilla/5.0 (compatible; RSiteAuditor)
 
 #### Defined in
 
-[main.ts:117067](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L117067)
+main.ts:119444
 
 ___
-
 
 ### disable\_cookie\_popup
 
@@ -417,10 +395,9 @@ false
 
 #### Defined in
 
-[main.ts:117156](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L117156)
+main.ts:119533
 
 ___
-
 
 ### disable\_page\_checks
 
@@ -433,10 +410,9 @@ specify certain checks to prevent them from running and impacting the onpage_sco
 
 #### Defined in
 
-[main.ts:117254](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L117254)
+main.ts:119631
 
 ___
-
 
 ### disable\_sitewide\_checks
 
@@ -453,10 +429,9 @@ specify the following checks to prevent them from running on the target website:
 
 #### Defined in
 
-[main.ts:117249](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L117249)
+main.ts:119626
 
 ___
-
 
 ### disallowed\_subdomains
 
@@ -470,10 +445,9 @@ Note: to use this parameter, the allow_subdomains parameter should be set to tru
 
 #### Defined in
 
-[main.ts:117191](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L117191)
+main.ts:119568
 
 ___
-
 
 ### enable\_browser\_rendering
 
@@ -490,10 +464,9 @@ Note: if you use this parameter, additional charges will apply; learn more about
 
 #### Defined in
 
-[main.ts:117150](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L117150)
+main.ts:119527
 
 ___
-
 
 ### enable\_content\_parsing
 
@@ -506,10 +479,9 @@ default value: false
 
 #### Defined in
 
-[main.ts:117039](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L117039)
+main.ts:119416
 
 ___
-
 
 ### enable\_javascript
 
@@ -523,10 +495,9 @@ Note: if you use this parameter, additional charges will apply; learn more about
 
 #### Defined in
 
-[main.ts:117136](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L117136)
+main.ts:119513
 
 ___
-
 
 ### enable\_www\_redirect\_check
 
@@ -539,10 +510,9 @@ default value: false
 
 #### Defined in
 
-[main.ts:117130](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L117130)
+main.ts:119507
 
 ___
-
 
 ### enable\_xhr
 
@@ -555,10 +525,9 @@ default value: false;if you use this field, enable_javascript must be set to tru
 
 #### Defined in
 
-[main.ts:117141](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L117141)
+main.ts:119518
 
 ___
-
 
 ### force\_sitewide\_checks
 
@@ -571,10 +540,9 @@ default value: false
 
 #### Defined in
 
-[main.ts:117007](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L117007)
+main.ts:119384
 
 ___
-
 
 ### load\_resources
 
@@ -588,10 +556,9 @@ Note: if you use this parameter, additional charges will apply; learn more about
 
 #### Defined in
 
-[main.ts:117125](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L117125)
+main.ts:119502
 
 ___
-
 
 ### max\_crawl\_depth
 
@@ -604,10 +571,9 @@ for example, starting page of the crawl is level 0, pages that have links from t
 
 #### Defined in
 
-[main.ts:117024](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L117024)
+main.ts:119401
 
 ___
-
 
 ### max\_crawl\_pages
 
@@ -624,10 +590,9 @@ to enable them anyway, set force_sitewide_checks to true
 
 #### Defined in
 
-[main.ts:116996](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L116996)
+main.ts:119373
 
 ___
-
 
 ### pingback\_url
 
@@ -645,10 +610,9 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-[main.ts:117280](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L117280)
+main.ts:119657
 
 ___
-
 
 ### priority\_urls
 
@@ -668,10 +632,9 @@ subdomains will be ignored unless the allow_subdomains parameter is set to truee
 
 #### Defined in
 
-[main.ts:117019](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L117019)
+main.ts:119396
 
 ___
-
 
 ### respect\_sitemap
 
@@ -686,10 +649,9 @@ the max_crawl_depth field of the request will be ignored, you can specify the nu
 
 #### Defined in
 
-[main.ts:117107](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L117107)
+main.ts:119484
 
 ___
-
 
 ### return\_despite\_timeout
 
@@ -702,10 +664,9 @@ default value: false
 
 #### Defined in
 
-[main.ts:117264](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L117264)
+main.ts:119641
 
 ___
-
 
 ### robots\_txt\_merge\_mode
 
@@ -720,16 +681,15 @@ Note: if set to override, specify the custom_robots_txt parameter
 
 #### Defined in
 
-[main.ts:117060](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L117060)
+main.ts:119437
 
 ___
-
 
 ### start\_url
 
 • `Optional` **start\_url**: `string`
 
-the first url to crawl
+the first url to crawl 
 optional field
 Note: you should specify an absolute URL
 if you want to crawl a single page, specify its URL in this field and additionally set the max_crawl_pages parameter to 1
@@ -737,10 +697,9 @@ you can also use the live Instant Pages endpoint to get page-specific data
 
 #### Defined in
 
-[main.ts:117002](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L117002)
+main.ts:119379
 
 ___
-
 
 ### store\_raw\_html
 
@@ -753,10 +712,9 @@ default value: false
 
 #### Defined in
 
-[main.ts:117034](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L117034)
+main.ts:119411
 
 ___
-
 
 ### support\_cookies
 
@@ -769,10 +727,9 @@ default value: false
 
 #### Defined in
 
-[main.ts:117044](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L117044)
+main.ts:119421
 
 ___
-
 
 ### switch\_pool
 
@@ -785,10 +742,9 @@ the parameter can be used if a multitude of tasks is set simultaneously, resulti
 
 #### Defined in
 
-[main.ts:117259](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L117259)
+main.ts:119636
 
 ___
-
 
 ### tag
 
@@ -802,10 +758,9 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-[main.ts:117270](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L117270)
+main.ts:119647
 
 ___
-
 
 ### target
 
@@ -818,10 +773,9 @@ if you specify the page URL, the results will be returned for the domain include
 
 #### Defined in
 
-[main.ts:116987](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L116987)
+main.ts:119364
 
 ___
-
 
 ### validate\_micromarkup
 
@@ -834,8 +788,4 @@ default value: false
 
 #### Defined in
 
-[main.ts:117173](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L117173)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:119550

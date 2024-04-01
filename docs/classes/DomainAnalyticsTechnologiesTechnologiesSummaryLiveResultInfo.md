@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / DomainAnalyticsTechnologiesTechnologiesSummaryLiveResultInfo
+[Documentation](../README.md) / [Exports](../modules.md) / DomainAnalyticsTechnologiesTechnologiesSummaryLiveResultInfo
 
 # Class: DomainAnalyticsTechnologiesTechnologiesSummaryLiveResultInfo
 
@@ -51,7 +47,7 @@
 
 #### Defined in
 
-[main.ts:73272](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L73272)
+main.ts:75649
 
 ## Properties
 
@@ -72,10 +68,9 @@ contains content language codes and number of websites per language
 
 #### Defined in
 
-[main.ts:73265](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L73265)
+main.ts:75642
 
 ___
-
 
 ### countries
 
@@ -94,10 +89,9 @@ contains country codes and number of websites per country
 
 #### Defined in
 
-[main.ts:73259](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L73259)
+main.ts:75636
 
 ___
-
 
 ### keywords
 
@@ -116,10 +110,9 @@ contains keywords found in the websites’ titles, descriptions or meta keywords
 
 #### Defined in
 
-[main.ts:73268](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L73268)
+main.ts:75645
 
 ___
-
 
 ### languages
 
@@ -138,7 +131,7 @@ contains language codes and number of websites per language
 
 #### Defined in
 
-[main.ts:73262](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L73262)
+main.ts:75639
 
 ## Methods
 
@@ -158,10 +151,9 @@ contains language codes and number of websites per language
 
 #### Defined in
 
-[main.ts:73281](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L73281)
+main.ts:75658
 
 ___
-
 
 ### toJSON
 
@@ -179,10 +171,9 @@ ___
 
 #### Defined in
 
-[main.ts:73325](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L73325)
+main.ts:75702
 
 ___
-
 
 ### fromJS
 
@@ -200,8 +191,4 @@ ___
 
 #### Defined in
 
-[main.ts:73318](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L73318)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:75695

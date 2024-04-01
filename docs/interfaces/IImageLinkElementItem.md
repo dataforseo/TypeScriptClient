@@ -1,15 +1,11 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IImageLinkElementItem
+[Documentation](../README.md) / [Exports](../modules.md) / IImageLinkElementItem
 
 # Interface: IImageLinkElementItem
 
 ## Hierarchy
 
 - [`IBaseOnPageLinkItemInfo`](IBaseOnPageLinkItemInfo.md)
-  
+
   ↳ **`IImageLinkElementItem`**
 
 ## Implemented by
@@ -53,10 +49,9 @@ possible values: internal, external
 
 #### Defined in
 
-[main.ts:148502](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L148502)
+main.ts:153929
 
 ___
-
 
 ### dofollow
 
@@ -67,10 +62,9 @@ if the value is true, the link doesn’t have a rel="nofollow" attribute
 
 #### Defined in
 
-[main.ts:148495](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L148495)
+main.ts:153922
 
 ___
-
 
 ### domain\_from
 
@@ -81,10 +75,9 @@ the link was found on this domain
 
 #### Defined in
 
-[main.ts:148472](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L148472)
+main.ts:153899
 
 ___
-
 
 ### domain\_to
 
@@ -95,10 +88,9 @@ the link is pointing to this domain
 
 #### Defined in
 
-[main.ts:148475](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L148475)
+main.ts:153902
 
 ___
-
 
 ### image\_alt
 
@@ -108,10 +100,9 @@ alternative text for the image
 
 #### Defined in
 
-[main.ts:148509](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L148509)
+main.ts:153936
 
 ___
-
 
 ### image\_src
 
@@ -121,10 +112,9 @@ url of the image
 
 #### Defined in
 
-[main.ts:148511](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L148511)
+main.ts:153938
 
 ___
-
 
 ### is\_broken
 
@@ -135,10 +125,9 @@ indicates whether a link is directing to a broken page or resource
 
 #### Defined in
 
-[main.ts:148505](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L148505)
+main.ts:153932
 
 ___
-
 
 ### is\_link\_relation\_conflict
 
@@ -149,10 +138,9 @@ if true, at least one link pointing to link_to has a rel="nofollow" attribute an
 
 #### Defined in
 
-[main.ts:148514](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L148514)
+main.ts:153941
 
 ___
-
 
 ### link\_attribute
 
@@ -165,10 +153,9 @@ example:
 
 #### Defined in
 
-[main.ts:148492](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L148492)
+main.ts:153919
 
 ___
-
 
 ### link\_from
 
@@ -179,10 +166,9 @@ absolute URL of the page on which the link was found
 
 #### Defined in
 
-[main.ts:148484](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L148484)
+main.ts:153911
 
 ___
-
 
 ### link\_to
 
@@ -193,10 +179,9 @@ absolute URL of the page to which the link is pointing
 
 #### Defined in
 
-[main.ts:148487](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L148487)
+main.ts:153914
 
 ___
-
 
 ### page\_from
 
@@ -207,10 +192,9 @@ relative URL of the page on which the link was found
 
 #### Defined in
 
-[main.ts:148478](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L148478)
+main.ts:153905
 
 ___
-
 
 ### page\_from\_scheme
 
@@ -220,10 +204,9 @@ url scheme of the referring page
 
 #### Defined in
 
-[main.ts:148497](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L148497)
+main.ts:153924
 
 ___
-
 
 ### page\_to
 
@@ -234,10 +217,9 @@ relative URL of the page to which the link is pointing
 
 #### Defined in
 
-[main.ts:148481](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L148481)
+main.ts:153908
 
 ___
-
 
 ### page\_to\_scheme
 
@@ -247,10 +229,9 @@ url scheme of the referenced page
 
 #### Defined in
 
-[main.ts:148499](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L148499)
+main.ts:153926
 
 ___
-
 
 ### page\_to\_status\_code
 
@@ -261,10 +242,9 @@ status code of the page to which the link is pointing
 
 #### Defined in
 
-[main.ts:148517](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L148517)
+main.ts:153944
 
 ___
-
 
 ### text
 
@@ -274,8 +254,4 @@ anchor text
 
 #### Defined in
 
-[main.ts:148507](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L148507)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:153934

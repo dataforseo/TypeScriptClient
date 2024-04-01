@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / DataforseoLabsGoogleHistoricalBulkTrafficEstimationLiveRequestInfo
+[Documentation](../README.md) / [Exports](../modules.md) / DataforseoLabsGoogleHistoricalBulkTrafficEstimationLiveRequestInfo
 
 # Class: DataforseoLabsGoogleHistoricalBulkTrafficEstimationLiveRequestInfo
 
@@ -56,7 +52,7 @@
 
 #### Defined in
 
-[main.ts:98036](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L98036)
+main.ts:100413
 
 ## Properties
 
@@ -76,10 +72,9 @@ date format: "yyyy-mm-dd"
 
 #### Defined in
 
-[main.ts:98010](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L98010)
+main.ts:100387
 
 ___
-
 
 ### date\_to
 
@@ -98,10 +93,9 @@ example:
 
 #### Defined in
 
-[main.ts:98017](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L98017)
+main.ts:100394
 
 ___
-
 
 ### item\_types
 
@@ -122,10 +116,9 @@ default value:
 
 #### Defined in
 
-[main.ts:98026](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L98026)
+main.ts:100403
 
 ___
-
 
 ### language\_code
 
@@ -145,10 +138,9 @@ en
 
 #### Defined in
 
-[main.ts:98004](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L98004)
+main.ts:100381
 
 ___
-
 
 ### language\_name
 
@@ -168,10 +160,9 @@ English
 
 #### Defined in
 
-[main.ts:97996](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L97996)
+main.ts:100373
 
 ___
-
 
 ### location\_code
 
@@ -191,10 +182,9 @@ example:
 
 #### Defined in
 
-[main.ts:97988](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L97988)
+main.ts:100365
 
 ___
-
 
 ### location\_name
 
@@ -214,10 +204,9 @@ United Kingdom
 
 #### Defined in
 
-[main.ts:97980](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L97980)
+main.ts:100357
 
 ___
-
 
 ### tag
 
@@ -235,10 +224,9 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-[main.ts:98032](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L98032)
+main.ts:100409
 
 ___
-
 
 ### targets
 
@@ -256,7 +244,7 @@ you can set up to 1000 domains or subdomains
 
 #### Defined in
 
-[main.ts:97972](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L97972)
+main.ts:100349
 
 ## Methods
 
@@ -276,10 +264,9 @@ you can set up to 1000 domains or subdomains
 
 #### Defined in
 
-[main.ts:98045](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L98045)
+main.ts:100422
 
 ___
-
 
 ### toJSON
 
@@ -297,10 +284,9 @@ ___
 
 #### Defined in
 
-[main.ts:98078](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L98078)
+main.ts:100455
 
 ___
-
 
 ### fromJS
 
@@ -318,8 +304,4 @@ ___
 
 #### Defined in
 
-[main.ts:98071](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L98071)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:100448

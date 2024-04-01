@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / BusinessDataTrustpilotSearchTaskGetResultInfo
+[Documentation](../README.md) / [Exports](../modules.md) / BusinessDataTrustpilotSearchTaskGetResultInfo
 
 # Class: BusinessDataTrustpilotSearchTaskGetResultInfo
 
@@ -53,7 +49,7 @@
 
 #### Defined in
 
-[main.ts:199220](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L199220)
+main.ts:204681
 
 ## Properties
 
@@ -70,10 +66,9 @@ you can use it to make sure that we provided accurate results
 
 #### Defined in
 
-[main.ts:199205](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L199205)
+main.ts:204666
 
 ___
-
 
 ### datetime
 
@@ -90,10 +85,9 @@ example:
 
 #### Defined in
 
-[main.ts:199210](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L199210)
+main.ts:204671
 
 ___
-
 
 ### items
 
@@ -108,10 +102,9 @@ you can get more results by using the depth parameter when setting a task
 
 #### Defined in
 
-[main.ts:199216](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L199216)
+main.ts:204677
 
 ___
-
 
 ### items\_count
 
@@ -126,10 +119,9 @@ you can get more results by using the depth parameter when setting a task
 
 #### Defined in
 
-[main.ts:199213](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L199213)
+main.ts:204674
 
 ___
-
 
 ### keyword
 
@@ -143,10 +135,9 @@ keyword in a POST array
 
 #### Defined in
 
-[main.ts:199200](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L199200)
+main.ts:204661
 
 ___
-
 
 ### se\_domain
 
@@ -160,7 +151,7 @@ search engine domain in a POST array
 
 #### Defined in
 
-[main.ts:199202](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L199202)
+main.ts:204663
 
 ## Methods
 
@@ -180,10 +171,9 @@ search engine domain in a POST array
 
 #### Defined in
 
-[main.ts:199229](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L199229)
+main.ts:204690
 
 ___
-
 
 ### toJSON
 
@@ -201,10 +191,9 @@ ___
 
 #### Defined in
 
-[main.ts:199255](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L199255)
+main.ts:204716
 
 ___
-
 
 ### fromJS
 
@@ -222,8 +211,4 @@ ___
 
 #### Defined in
 
-[main.ts:199248](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L199248)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:204709

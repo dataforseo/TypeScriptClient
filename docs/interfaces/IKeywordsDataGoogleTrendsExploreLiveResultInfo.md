@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IKeywordsDataGoogleTrendsExploreLiveResultInfo
+[Documentation](../README.md) / [Exports](../modules.md) / IKeywordsDataGoogleTrendsExploreLiveResultInfo
 
 # Interface: IKeywordsDataGoogleTrendsExploreLiveResultInfo
 
@@ -38,10 +34,9 @@ you can use it to make sure that we provided accurate results
 
 #### Defined in
 
-[main.ts:121799](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L121799)
+main.ts:123950
 
 ___
-
 
 ### datetime
 
@@ -54,10 +49,9 @@ example:
 
 #### Defined in
 
-[main.ts:121804](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L121804)
+main.ts:123955
 
 ___
-
 
 ### items
 
@@ -67,10 +61,9 @@ items on the Google Trends page
 
 #### Defined in
 
-[main.ts:121808](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L121808)
+main.ts:123959
 
 ___
-
 
 ### items\_count
 
@@ -80,10 +73,9 @@ the number of results returned in the items array
 
 #### Defined in
 
-[main.ts:121806](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L121806)
+main.ts:123957
 
 ___
-
 
 ### keywords
 
@@ -93,10 +85,9 @@ keywords in a POST array
 
 #### Defined in
 
-[main.ts:121788](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L121788)
+main.ts:123939
 
 ___
-
 
 ### language\_code
 
@@ -107,10 +98,9 @@ if there is no data, then the value is null
 
 #### Defined in
 
-[main.ts:121796](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L121796)
+main.ts:123947
 
 ___
-
 
 ### location\_code
 
@@ -121,10 +111,9 @@ if there is no data, then the value is null
 
 #### Defined in
 
-[main.ts:121793](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L121793)
+main.ts:123944
 
 ___
-
 
 ### type
 
@@ -134,8 +123,4 @@ type of element
 
 #### Defined in
 
-[main.ts:121790](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L121790)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:123941

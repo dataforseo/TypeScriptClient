@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IDataforseoLabsBingRankedKeywordsLiveRequestInfo
+[Documentation](../README.md) / [Exports](../modules.md) / IDataforseoLabsBingRankedKeywordsLiveRequestInfo
 
 # Interface: IDataforseoLabsBingRankedKeywordsLiveRequestInfo
 
@@ -61,10 +57,9 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 #### Defined in
 
-[main.ts:105283](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L105283)
+main.ts:107660
 
 ___
-
 
 ### historical\_serp\_mode
 
@@ -81,10 +76,9 @@ default value: live
 
 #### Defined in
 
-[main.ts:105263](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L105263)
+main.ts:107640
 
 ___
-
 
 ### ignore\_synonyms
 
@@ -97,10 +91,9 @@ default value: false
 
 #### Defined in
 
-[main.ts:105239](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L105239)
+main.ts:107616
 
 ___
-
 
 ### item\_types
 
@@ -117,10 +110,9 @@ default value:
 
 #### Defined in
 
-[main.ts:105234](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L105234)
+main.ts:107611
 
 ___
-
 
 ### language\_code
 
@@ -137,10 +129,9 @@ en
 
 #### Defined in
 
-[main.ts:105225](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L105225)
+main.ts:107602
 
 ___
-
 
 ### language\_name
 
@@ -157,10 +148,9 @@ English
 
 #### Defined in
 
-[main.ts:105216](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L105216)
+main.ts:107593
 
 ___
-
 
 ### limit
 
@@ -173,10 +163,9 @@ maximum value: 1000
 
 #### Defined in
 
-[main.ts:105244](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L105244)
+main.ts:107621
 
 ___
-
 
 ### load\_rank\_absolute
 
@@ -189,10 +178,9 @@ if set to true, we will return the field metrics_absolute containing rankings di
 
 #### Defined in
 
-[main.ts:105254](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L105254)
+main.ts:107631
 
 ___
-
 
 ### location\_code
 
@@ -210,10 +198,9 @@ example:
 
 #### Defined in
 
-[main.ts:105207](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L105207)
+main.ts:107584
 
 ___
-
 
 ### location\_name
 
@@ -231,10 +218,9 @@ United States
 
 #### Defined in
 
-[main.ts:105197](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L105197)
+main.ts:107574
 
 ___
-
 
 ### offset
 
@@ -247,10 +233,9 @@ if you specify the 10 value, the first ten keywords in the results array will be
 
 #### Defined in
 
-[main.ts:105249](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L105249)
+main.ts:107626
 
 ___
-
 
 ### order\_by
 
@@ -274,10 +259,9 @@ example:
 
 #### Defined in
 
-[main.ts:105299](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L105299)
+main.ts:107676
 
 ___
-
 
 ### tag
 
@@ -291,10 +275,9 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-[main.ts:105305](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L105305)
+main.ts:107682
 
 ___
-
 
 ### target
 
@@ -312,8 +295,4 @@ example:
 
 #### Defined in
 
-[main.ts:105187](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L105187)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:107564

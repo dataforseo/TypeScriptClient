@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / ITopicInfo
+[Documentation](../README.md) / [Exports](../modules.md) / ITopicInfo
 
 # Interface: ITopicInfo
 
@@ -36,10 +32,9 @@ content author name
 
 #### Defined in
 
-[main.ts:152178](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L152178)
+main.ts:157605
 
 ___
-
 
 ### h\_title
 
@@ -49,10 +44,9 @@ meta title
 
 #### Defined in
 
-[main.ts:152174](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L152174)
+main.ts:157601
 
 ___
-
 
 ### language
 
@@ -62,10 +56,9 @@ content language
 
 #### Defined in
 
-[main.ts:152180](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L152180)
+main.ts:157607
 
 ___
-
 
 ### level
 
@@ -75,10 +68,9 @@ HTML level
 
 #### Defined in
 
-[main.ts:152182](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L152182)
+main.ts:157609
 
 ___
-
 
 ### main\_title
 
@@ -88,10 +80,9 @@ main title of the block
 
 #### Defined in
 
-[main.ts:152176](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L152176)
+main.ts:157603
 
 ___
-
 
 ### primary\_content
 
@@ -102,10 +93,9 @@ you can find more information about content priority calculation in this help ce
 
 #### Defined in
 
-[main.ts:152185](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L152185)
+main.ts:157612
 
 ___
-
 
 ### secondary\_content
 
@@ -116,8 +106,4 @@ you can find more information about content priority calculation in this help ce
 
 #### Defined in
 
-[main.ts:152188](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L152188)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:157615

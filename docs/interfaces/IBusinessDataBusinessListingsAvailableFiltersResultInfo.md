@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IBusinessDataBusinessListingsAvailableFiltersResultInfo
+[Documentation](../README.md) / [Exports](../modules.md) / IBusinessDataBusinessListingsAvailableFiltersResultInfo
 
 # Interface: IBusinessDataBusinessListingsAvailableFiltersResultInfo
 
@@ -33,10 +29,9 @@
 
 #### Defined in
 
-[main.ts:188241](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L188241)
+main.ts:193694
 
 ___
-
 
 ### search
 
@@ -48,8 +43,4 @@ ___
 
 #### Defined in
 
-[main.ts:188240](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L188240)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:193693

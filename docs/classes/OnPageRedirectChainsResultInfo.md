@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / OnPageRedirectChainsResultInfo
+[Documentation](../README.md) / [Exports](../modules.md) / OnPageRedirectChainsResultInfo
 
 # Class: OnPageRedirectChainsResultInfo
 
@@ -52,7 +48,7 @@
 
 #### Defined in
 
-[main.ts:149074](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L149074)
+main.ts:154501
 
 ## Properties
 
@@ -69,10 +65,9 @@ possible values: in_progress, finished
 
 #### Defined in
 
-[main.ts:149062](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L149062)
+main.ts:154489
 
 ___
-
 
 ### crawl\_status
 
@@ -86,10 +81,9 @@ details of the crawling session
 
 #### Defined in
 
-[main.ts:149064](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L149064)
+main.ts:154491
 
 ___
-
 
 ### items
 
@@ -103,10 +97,9 @@ items array
 
 #### Defined in
 
-[main.ts:149070](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L149070)
+main.ts:154497
 
 ___
-
 
 ### items\_count
 
@@ -120,10 +113,9 @@ number of items in the results array
 
 #### Defined in
 
-[main.ts:149068](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L149068)
+main.ts:154495
 
 ___
-
 
 ### total\_items\_count
 
@@ -137,7 +129,7 @@ total number of relevant items in the database
 
 #### Defined in
 
-[main.ts:149066](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L149066)
+main.ts:154493
 
 ## Methods
 
@@ -157,10 +149,9 @@ total number of relevant items in the database
 
 #### Defined in
 
-[main.ts:149083](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L149083)
+main.ts:154510
 
 ___
-
 
 ### toJSON
 
@@ -178,10 +169,9 @@ ___
 
 #### Defined in
 
-[main.ts:149108](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L149108)
+main.ts:154535
 
 ___
-
 
 ### fromJS
 
@@ -199,8 +189,4 @@ ___
 
 #### Defined in
 
-[main.ts:149101](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L149101)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:154528

@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / ResourceMetaInfo
+[Documentation](../README.md) / [Exports](../modules.md) / ResourceMetaInfo
 
 # Class: ResourceMetaInfo
 
@@ -53,7 +49,7 @@
 
 #### Defined in
 
-[main.ts:145946](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L145946)
+main.ts:151373
 
 ## Properties
 
@@ -70,10 +66,9 @@ the value depends on the resource_type
 
 #### Defined in
 
-[main.ts:145932](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L145932)
+main.ts:151359
 
 ___
-
 
 ### height
 
@@ -87,10 +82,9 @@ image height in px
 
 #### Defined in
 
-[main.ts:145942](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L145942)
+main.ts:151369
 
 ___
-
 
 ### original\_height
 
@@ -104,10 +98,9 @@ original image height in px
 
 #### Defined in
 
-[main.ts:145938](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L145938)
+main.ts:151365
 
 ___
-
 
 ### original\_width
 
@@ -121,10 +114,9 @@ original image width in px
 
 #### Defined in
 
-[main.ts:145936](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L145936)
+main.ts:151363
 
 ___
-
 
 ### title
 
@@ -138,10 +130,9 @@ title
 
 #### Defined in
 
-[main.ts:145934](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L145934)
+main.ts:151361
 
 ___
-
 
 ### width
 
@@ -155,7 +146,7 @@ image width in px
 
 #### Defined in
 
-[main.ts:145940](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L145940)
+main.ts:151367
 
 ## Methods
 
@@ -175,10 +166,9 @@ image width in px
 
 #### Defined in
 
-[main.ts:145955](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L145955)
+main.ts:151382
 
 ___
-
 
 ### toJSON
 
@@ -196,10 +186,9 @@ ___
 
 #### Defined in
 
-[main.ts:145977](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L145977)
+main.ts:151404
 
 ___
-
 
 ### fromJS
 
@@ -217,8 +206,4 @@ ___
 
 #### Defined in
 
-[main.ts:145970](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L145970)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:151397

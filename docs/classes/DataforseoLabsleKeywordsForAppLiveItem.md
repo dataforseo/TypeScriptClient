@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / DataforseoLabsleKeywordsForAppLiveItem
+[Documentation](../README.md) / [Exports](../modules.md) / DataforseoLabsleKeywordsForAppLiveItem
 
 # Class: DataforseoLabsleKeywordsForAppLiveItem
 
@@ -50,7 +46,7 @@
 
 #### Defined in
 
-[main.ts:108716](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L108716)
+main.ts:111093
 
 ## Properties
 
@@ -66,10 +62,9 @@ keyword data for the returned keyword
 
 #### Defined in
 
-[main.ts:108710](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L108710)
+main.ts:111087
 
 ___
-
 
 ### ranked\_serp\_element
 
@@ -83,10 +78,9 @@ contains data on the domain’s SERP element found for the returned keyword
 
 #### Defined in
 
-[main.ts:108712](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L108712)
+main.ts:111089
 
 ___
-
 
 ### se\_type
 
@@ -100,7 +94,7 @@ search engine type
 
 #### Defined in
 
-[main.ts:108708](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L108708)
+main.ts:111085
 
 ## Methods
 
@@ -120,10 +114,9 @@ search engine type
 
 #### Defined in
 
-[main.ts:108725](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L108725)
+main.ts:111102
 
 ___
-
 
 ### toJSON
 
@@ -141,10 +134,9 @@ ___
 
 #### Defined in
 
-[main.ts:108744](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L108744)
+main.ts:111121
 
 ___
-
 
 ### fromJS
 
@@ -162,8 +154,4 @@ ___
 
 #### Defined in
 
-[main.ts:108737](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L108737)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:111114

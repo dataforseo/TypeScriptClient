@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / KeywordsDataGoogleTrendsExploreTaskPostRequestInfo
+[Documentation](../README.md) / [Exports](../modules.md) / KeywordsDataGoogleTrendsExploreTaskPostRequestInfo
 
 # Class: KeywordsDataGoogleTrendsExploreTaskPostRequestInfo
 
@@ -61,7 +57,7 @@
 
 #### Defined in
 
-[main.ts:119897](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L119897)
+main.ts:122274
 
 ## Properties
 
@@ -80,10 +76,9 @@ you can receive the list of available categories with their category_code by mak
 
 #### Defined in
 
-[main.ts:119829](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L119829)
+main.ts:122206
 
 ___
-
 
 ### date\_from
 
@@ -104,10 +99,9 @@ example:
 
 #### Defined in
 
-[main.ts:119838](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L119838)
+main.ts:122215
 
 ___
-
 
 ### date\_to
 
@@ -126,10 +120,9 @@ example:
 
 #### Defined in
 
-[main.ts:119845](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L119845)
+main.ts:122222
 
 ___
-
 
 ### item\_types
 
@@ -153,10 +146,9 @@ possible values:
 
 #### Defined in
 
-[main.ts:119867](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L119867)
+main.ts:122244
 
 ___
-
 
 ### keywords
 
@@ -173,10 +165,9 @@ Note: comma symbols (,) in the specified keywords will be unset and ignored
 
 #### Defined in
 
-[main.ts:119790](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L119790)
+main.ts:122167
 
 ___
-
 
 ### language\_code
 
@@ -196,10 +187,9 @@ en
 
 #### Defined in
 
-[main.ts:119822](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L119822)
+main.ts:122199
 
 ___
-
 
 ### language\_name
 
@@ -219,10 +209,9 @@ English
 
 #### Defined in
 
-[main.ts:119814](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L119814)
+main.ts:122191
 
 ___
-
 
 ### location\_code
 
@@ -242,10 +231,9 @@ example:
 
 #### Defined in
 
-[main.ts:119806](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L119806)
+main.ts:122183
 
 ___
-
 
 ### location\_name
 
@@ -265,10 +253,9 @@ United Kingdom
 
 #### Defined in
 
-[main.ts:119798](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L119798)
+main.ts:122175
 
 ___
-
 
 ### pingback\_url
 
@@ -290,10 +277,9 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-[main.ts:119887](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L119887)
+main.ts:122264
 
 ___
-
 
 ### postback\_url
 
@@ -315,10 +301,9 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-[main.ts:119877](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L119877)
+main.ts:122254
 
 ___
-
 
 ### tag
 
@@ -336,10 +321,9 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-[main.ts:119893](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L119893)
+main.ts:122270
 
 ___
-
 
 ### time\_range
 
@@ -361,10 +345,9 @@ possible values for news, youtube, images, froogle:
 
 #### Defined in
 
-[main.ts:119855](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L119855)
+main.ts:122232
 
 ___
-
 
 ### type
 
@@ -378,7 +361,7 @@ type of element
 
 #### Defined in
 
-[main.ts:119824](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L119824)
+main.ts:122201
 
 ## Methods
 
@@ -398,10 +381,9 @@ type of element
 
 #### Defined in
 
-[main.ts:119906](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L119906)
+main.ts:122283
 
 ___
-
 
 ### toJSON
 
@@ -419,10 +401,9 @@ ___
 
 #### Defined in
 
-[main.ts:119944](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L119944)
+main.ts:122321
 
 ___
-
 
 ### fromJS
 
@@ -440,8 +421,4 @@ ___
 
 #### Defined in
 
-[main.ts:119937](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L119937)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:122314

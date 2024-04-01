@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / ISerpYoutubeVideoSubtitlesLiveAdvancedResultInfo
+[Documentation](../README.md) / [Exports](../modules.md) / ISerpYoutubeVideoSubtitlesLiveAdvancedResultInfo
 
 # Interface: ISerpYoutubeVideoSubtitlesLiveAdvancedResultInfo
 
@@ -45,10 +41,9 @@ the category the video belongs to
 
 #### Defined in
 
-[main.ts:60919](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L60919)
+main.ts:63294
 
 ___
-
 
 ### check\_url
 
@@ -59,10 +54,9 @@ you can use it to make sure that we provided accurate results
 
 #### Defined in
 
-[main.ts:60898](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L60898)
+main.ts:63273
 
 ___
-
 
 ### datetime
 
@@ -75,10 +69,9 @@ example:
 
 #### Defined in
 
-[main.ts:60903](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L60903)
+main.ts:63278
 
 ___
-
 
 ### item\_types
 
@@ -91,10 +84,9 @@ youtube_subtitles
 
 #### Defined in
 
-[main.ts:60911](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L60911)
+main.ts:63286
 
 ___
-
 
 ### items
 
@@ -104,10 +96,9 @@ elements of search results found in SERP
 
 #### Defined in
 
-[main.ts:60927](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L60927)
+main.ts:63302
 
 ___
-
 
 ### items\_count
 
@@ -117,10 +108,9 @@ the number of results returned in the items array
 
 #### Defined in
 
-[main.ts:60925](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L60925)
+main.ts:63300
 
 ___
-
 
 ### language\_code
 
@@ -130,10 +120,9 @@ language code in a POST array
 
 #### Defined in
 
-[main.ts:60895](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L60895)
+main.ts:63270
 
 ___
-
 
 ### location\_code
 
@@ -143,10 +132,9 @@ location code in a POST array
 
 #### Defined in
 
-[main.ts:60893](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L60893)
+main.ts:63268
 
 ___
-
 
 ### origin\_language
 
@@ -156,10 +144,9 @@ language code of original text
 
 #### Defined in
 
-[main.ts:60917](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L60917)
+main.ts:63292
 
 ___
-
 
 ### se\_domain
 
@@ -169,10 +156,9 @@ search engine domain in a POST array
 
 #### Defined in
 
-[main.ts:60891](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L60891)
+main.ts:63266
 
 ___
-
 
 ### spell
 
@@ -183,10 +169,9 @@ if the search engine provided results for a keyword that was corrected, we will 
 
 #### Defined in
 
-[main.ts:60906](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L60906)
+main.ts:63281
 
 ___
-
 
 ### subtitles\_count
 
@@ -196,10 +181,9 @@ number of subtitles in the video
 
 #### Defined in
 
-[main.ts:60921](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L60921)
+main.ts:63296
 
 ___
-
 
 ### title
 
@@ -209,10 +193,9 @@ title of the video
 
 #### Defined in
 
-[main.ts:60923](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L60923)
+main.ts:63298
 
 ___
-
 
 ### translate\_language
 
@@ -222,10 +205,9 @@ language code of translated text
 
 #### Defined in
 
-[main.ts:60915](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L60915)
+main.ts:63290
 
 ___
-
 
 ### unsupported\_language
 
@@ -235,10 +217,9 @@ indicates whether the language is unsupported by the system
 
 #### Defined in
 
-[main.ts:60913](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L60913)
+main.ts:63288
 
 ___
-
 
 ### video\_id
 
@@ -248,8 +229,4 @@ ID of the video received in a POST array
 
 #### Defined in
 
-[main.ts:60889](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L60889)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:63264

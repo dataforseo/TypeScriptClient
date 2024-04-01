@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IMerchantGoogleProductInfoTaskPostRequestInfo
+[Documentation](../README.md) / [Exports](../modules.md) / IMerchantGoogleProductInfoTaskPostRequestInfo
 
 # Interface: IMerchantGoogleProductInfoTaskPostRequestInfo
 
@@ -46,10 +42,9 @@ en
 
 #### Defined in
 
-[main.ts:168627](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L168627)
+main.ts:174080
 
 ___
-
 
 ### language\_name
 
@@ -64,10 +59,9 @@ English
 
 #### Defined in
 
-[main.ts:168620](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L168620)
+main.ts:174073
 
 ___
-
 
 ### location\_code
 
@@ -82,10 +76,9 @@ example:
 
 #### Defined in
 
-[main.ts:168604](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L168604)
+main.ts:174057
 
 ___
-
 
 ### location\_coordinate
 
@@ -102,10 +95,9 @@ example:
 
 #### Defined in
 
-[main.ts:168613](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L168613)
+main.ts:174066
 
 ___
-
 
 ### location\_name
 
@@ -120,10 +112,9 @@ London,England,United Kingdom
 
 #### Defined in
 
-[main.ts:168597](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L168597)
+main.ts:174050
 
 ___
-
 
 ### pingback\_url
 
@@ -141,10 +132,9 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-[main.ts:168666](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L168666)
+main.ts:174119
 
 ___
-
 
 ### postback\_data
 
@@ -158,10 +148,9 @@ advanced, html
 
 #### Defined in
 
-[main.ts:168656](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L168656)
+main.ts:174109
 
 ___
-
 
 ### postback\_url
 
@@ -179,10 +168,9 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-[main.ts:168650](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L168650)
+main.ts:174103
 
 ___
-
 
 ### priority
 
@@ -198,10 +186,9 @@ The cost can be calculated on the Pricing page.
 
 #### Defined in
 
-[main.ts:168590](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L168590)
+main.ts:174043
 
 ___
-
 
 ### product\_id
 
@@ -215,10 +202,9 @@ learn more about the parameter in this help center guide
 
 #### Defined in
 
-[main.ts:168582](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L168582)
+main.ts:174035
 
 ___
-
 
 ### se\_domain
 
@@ -233,10 +219,9 @@ google.co.uk, google.com.au, google.de, etc.
 
 #### Defined in
 
-[main.ts:168634](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L168634)
+main.ts:174087
 
 ___
-
 
 ### tag
 
@@ -250,8 +235,4 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-[main.ts:168640](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L168640)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:174093

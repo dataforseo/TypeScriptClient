@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / MicrodataInspectionInfo
+[Documentation](../README.md) / [Exports](../modules.md) / MicrodataInspectionInfo
 
 # Class: MicrodataInspectionInfo
 
@@ -49,7 +45,7 @@
 
 #### Defined in
 
-[main.ts:150817](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L150817)
+main.ts:156244
 
 ## Properties
 
@@ -66,10 +62,9 @@ an array of objects containing data fields related to the certain microdata type
 
 #### Defined in
 
-[main.ts:150813](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L150813)
+main.ts:156240
 
 ___
-
 
 ### types
 
@@ -84,7 +79,7 @@ for a full list of available types, please visit schema.org
 
 #### Defined in
 
-[main.ts:150810](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L150810)
+main.ts:156237
 
 ## Methods
 
@@ -104,10 +99,9 @@ for a full list of available types, please visit schema.org
 
 #### Defined in
 
-[main.ts:150826](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L150826)
+main.ts:156253
 
 ___
-
 
 ### toJSON
 
@@ -125,10 +119,9 @@ ___
 
 #### Defined in
 
-[main.ts:150852](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L150852)
+main.ts:156279
 
 ___
-
 
 ### fromJS
 
@@ -146,8 +139,4 @@ ___
 
 #### Defined in
 
-[main.ts:150845](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L150845)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:156272

@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IOnPageAvailableFiltersResultInfo
+[Documentation](../README.md) / [Exports](../modules.md) / IOnPageAvailableFiltersResultInfo
 
 # Interface: IOnPageAvailableFiltersResultInfo
 
@@ -38,10 +34,9 @@
 
 #### Defined in
 
-[main.ts:142438](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L142438)
+main.ts:147865
 
 ___
-
 
 ### links
 
@@ -53,10 +48,9 @@ ___
 
 #### Defined in
 
-[main.ts:142435](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L142435)
+main.ts:147862
 
 ___
-
 
 ### non\_indexable
 
@@ -68,10 +62,9 @@ ___
 
 #### Defined in
 
-[main.ts:142434](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L142434)
+main.ts:147861
 
 ___
-
 
 ### pages
 
@@ -83,10 +76,9 @@ ___
 
 #### Defined in
 
-[main.ts:142433](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L142433)
+main.ts:147860
 
 ___
-
 
 ### pages\_by\_resource
 
@@ -98,10 +90,9 @@ ___
 
 #### Defined in
 
-[main.ts:142436](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L142436)
+main.ts:147863
 
 ___
-
 
 ### redirect\_chains
 
@@ -113,10 +104,9 @@ ___
 
 #### Defined in
 
-[main.ts:142437](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L142437)
+main.ts:147864
 
 ___
-
 
 ### resources
 
@@ -128,8 +118,4 @@ ___
 
 #### Defined in
 
-[main.ts:142432](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L142432)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:147859

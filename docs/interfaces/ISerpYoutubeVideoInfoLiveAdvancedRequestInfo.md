@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / ISerpYoutubeVideoInfoLiveAdvancedRequestInfo
+[Documentation](../README.md) / [Exports](../modules.md) / ISerpYoutubeVideoInfoLiveAdvancedRequestInfo
 
 # Interface: ISerpYoutubeVideoInfoLiveAdvancedRequestInfo
 
@@ -39,10 +35,9 @@ only value: desktop
 
 #### Defined in
 
-[main.ts:59176](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L59176)
+main.ts:61551
 
 ___
-
 
 ### language\_code
 
@@ -57,10 +52,9 @@ en
 
 #### Defined in
 
-[main.ts:59172](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L59172)
+main.ts:61547
 
 ___
-
 
 ### language\_name
 
@@ -75,10 +69,9 @@ English
 
 #### Defined in
 
-[main.ts:59165](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L59165)
+main.ts:61540
 
 ___
-
 
 ### location\_code
 
@@ -93,10 +86,9 @@ example:
 
 #### Defined in
 
-[main.ts:59158](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L59158)
+main.ts:61533
 
 ___
-
 
 ### location\_name
 
@@ -111,10 +103,9 @@ United States
 
 #### Defined in
 
-[main.ts:59151](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L59151)
+main.ts:61526
 
 ___
-
 
 ### os
 
@@ -127,10 +118,9 @@ default value: windows
 
 #### Defined in
 
-[main.ts:59181](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L59181)
+main.ts:61556
 
 ___
-
 
 ### tag
 
@@ -144,10 +134,9 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-[main.ts:59187](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L59187)
+main.ts:61562
 
 ___
-
 
 ### video\_id
 
@@ -161,8 +150,4 @@ vQXvyV0zIP4
 
 #### Defined in
 
-[main.ts:59144](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L59144)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:61519

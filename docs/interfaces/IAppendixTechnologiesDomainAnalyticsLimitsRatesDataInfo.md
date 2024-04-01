@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IAppendixTechnologiesDomainAnalyticsLimitsRatesDataInfo
+[Documentation](../README.md) / [Exports](../modules.md) / IAppendixTechnologiesDomainAnalyticsLimitsRatesDataInfo
 
 # Interface: IAppendixTechnologiesDomainAnalyticsLimitsRatesDataInfo
 
@@ -32,47 +28,43 @@
 
 ### aggregation\_technologies
 
-• `Optional` **aggregation\_technologies**: [`AppendixInfo`](../classes/AppendixInfo.md)
+• `Optional` **aggregation\_technologies**: [`AppendixFunctionInfo`](../classes/AppendixFunctionInfo.md)
 
 #### Defined in
 
-[main.ts:207364](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L207364)
+main.ts:212889
 
 ___
-
 
 ### domain\_technologies
 
-• `Optional` **domain\_technologies**: [`AppendixInfo`](../classes/AppendixInfo.md)
+• `Optional` **domain\_technologies**: [`AppendixFunctionInfo`](../classes/AppendixFunctionInfo.md)
 
 #### Defined in
 
-[main.ts:207359](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L207359)
+main.ts:212884
 
 ___
-
 
 ### domains\_by\_html\_terms
 
-• `Optional` **domains\_by\_html\_terms**: [`AppendixInfo`](../classes/AppendixInfo.md)
+• `Optional` **domains\_by\_html\_terms**: [`AppendixFunctionInfo`](../classes/AppendixFunctionInfo.md)
 
 #### Defined in
 
-[main.ts:207366](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L207366)
+main.ts:212891
 
 ___
-
 
 ### domains\_by\_technology
 
-• `Optional` **domains\_by\_technology**: [`AppendixInfo`](../classes/AppendixInfo.md)
+• `Optional` **domains\_by\_technology**: [`AppendixFunctionInfo`](../classes/AppendixFunctionInfo.md)
 
 #### Defined in
 
-[main.ts:207360](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L207360)
+main.ts:212885
 
 ___
-
 
 ### languages
 
@@ -80,10 +72,9 @@ ___
 
 #### Defined in
 
-[main.ts:207361](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L207361)
+main.ts:212886
 
 ___
-
 
 ### locations
 
@@ -91,10 +82,9 @@ ___
 
 #### Defined in
 
-[main.ts:207362](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L207362)
+main.ts:212887
 
 ___
-
 
 ### technologies
 
@@ -102,30 +92,24 @@ ___
 
 #### Defined in
 
-[main.ts:207363](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L207363)
+main.ts:212888
 
 ___
-
 
 ### technologies\_summary
 
-• `Optional` **technologies\_summary**: [`AppendixInfo`](../classes/AppendixInfo.md)
+• `Optional` **technologies\_summary**: [`AppendixFunctionInfo`](../classes/AppendixFunctionInfo.md)
 
 #### Defined in
 
-[main.ts:207365](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L207365)
+main.ts:212890
 
 ___
 
-
 ### technology\_stats
 
-• `Optional` **technology\_stats**: [`AppendixInfo`](../classes/AppendixInfo.md)
+• `Optional` **technology\_stats**: [`AppendixFunctionInfo`](../classes/AppendixFunctionInfo.md)
 
 #### Defined in
 
-[main.ts:207367](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L207367)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:212892

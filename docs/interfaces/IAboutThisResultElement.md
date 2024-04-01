@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IAboutThisResultElement
+[Documentation](../README.md) / [Exports](../modules.md) / IAboutThisResultElement
 
 # Interface: IAboutThisResultElement
 
@@ -38,10 +34,9 @@ the language of the result
 
 #### Defined in
 
-[main.ts:20741](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L20741)
+main.ts:21260
 
 ___
-
 
 ### location
 
@@ -51,10 +46,9 @@ location for which the result is relevant
 
 #### Defined in
 
-[main.ts:20743](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L20743)
+main.ts:21262
 
 ___
-
 
 ### related\_terms
 
@@ -64,10 +58,9 @@ related search terms that appear in the result
 
 #### Defined in
 
-[main.ts:20747](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L20747)
+main.ts:21266
 
 ___
-
 
 ### search\_terms
 
@@ -77,10 +70,9 @@ matching search terms that appear in the result
 
 #### Defined in
 
-[main.ts:20745](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L20745)
+main.ts:21264
 
 ___
-
 
 ### source
 
@@ -90,10 +82,9 @@ source of additional information about the result
 
 #### Defined in
 
-[main.ts:20734](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L20734)
+main.ts:21253
 
 ___
-
 
 ### source\_info
 
@@ -104,10 +95,9 @@ description of the website from Wikipedia or another additional context
 
 #### Defined in
 
-[main.ts:20737](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L20737)
+main.ts:21256
 
 ___
-
 
 ### source\_url
 
@@ -117,10 +107,9 @@ URL to full information from the 'source'
 
 #### Defined in
 
-[main.ts:20739](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L20739)
+main.ts:21258
 
 ___
-
 
 ### type
 
@@ -130,10 +119,9 @@ type of element
 
 #### Defined in
 
-[main.ts:20730](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L20730)
+main.ts:21249
 
 ___
-
 
 ### url
 
@@ -143,8 +131,4 @@ result’s URL
 
 #### Defined in
 
-[main.ts:20732](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L20732)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:21251

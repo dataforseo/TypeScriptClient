@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / MerchantAmazonLanguagesResultInfo
+[Documentation](../README.md) / [Exports](../modules.md) / MerchantAmazonLanguagesResultInfo
 
 # Class: MerchantAmazonLanguagesResultInfo
 
@@ -49,7 +45,7 @@
 
 #### Defined in
 
-[main.ts:170139](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L170139)
+main.ts:175592
 
 ## Properties
 
@@ -65,10 +61,9 @@ language code according to ISO 639-1
 
 #### Defined in
 
-[main.ts:170135](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L170135)
+main.ts:175588
 
 ___
-
 
 ### language\_name
 
@@ -82,7 +77,7 @@ language name
 
 #### Defined in
 
-[main.ts:170133](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L170133)
+main.ts:175586
 
 ## Methods
 
@@ -102,10 +97,9 @@ language name
 
 #### Defined in
 
-[main.ts:170148](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L170148)
+main.ts:175601
 
 ___
-
 
 ### toJSON
 
@@ -123,10 +117,9 @@ ___
 
 #### Defined in
 
-[main.ts:170166](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L170166)
+main.ts:175619
 
 ___
-
 
 ### fromJS
 
@@ -144,8 +137,4 @@ ___
 
 #### Defined in
 
-[main.ts:170159](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L170159)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:175612

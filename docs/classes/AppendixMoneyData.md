@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / AppendixMoneyData
+[Documentation](../README.md) / [Exports](../modules.md) / AppendixMoneyData
 
 # Class: AppendixMoneyData
 
@@ -51,7 +47,7 @@
 
 #### Defined in
 
-[main.ts:209452](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L209452)
+main.ts:214981
 
 ## Properties
 
@@ -67,10 +63,9 @@ amount of money left in your account
 
 #### Defined in
 
-[main.ts:209444](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L209444)
+main.ts:214973
 
 ___
-
 
 ### limits
 
@@ -84,10 +79,9 @@ cost limits
 
 #### Defined in
 
-[main.ts:209446](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L209446)
+main.ts:214975
 
 ___
-
 
 ### statistics
 
@@ -101,10 +95,9 @@ statistics of your spending
 
 #### Defined in
 
-[main.ts:209448](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L209448)
+main.ts:214977
 
 ___
-
 
 ### total
 
@@ -118,7 +111,7 @@ total amount of money deposited to your account
 
 #### Defined in
 
-[main.ts:209442](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L209442)
+main.ts:214971
 
 ## Methods
 
@@ -138,10 +131,9 @@ total amount of money deposited to your account
 
 #### Defined in
 
-[main.ts:209461](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L209461)
+main.ts:214990
 
 ___
-
 
 ### toJSON
 
@@ -159,10 +151,9 @@ ___
 
 #### Defined in
 
-[main.ts:209481](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L209481)
+main.ts:215010
 
 ___
-
 
 ### fromJS
 
@@ -180,8 +171,4 @@ ___
 
 #### Defined in
 
-[main.ts:209474](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L209474)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:215003

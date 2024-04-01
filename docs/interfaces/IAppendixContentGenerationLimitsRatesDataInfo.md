@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IAppendixContentGenerationLimitsRatesDataInfo
+[Documentation](../README.md) / [Exports](../modules.md) / IAppendixContentGenerationLimitsRatesDataInfo
 
 # Interface: IAppendixContentGenerationLimitsRatesDataInfo
 
@@ -34,65 +30,59 @@
 
 #### Defined in
 
-[main.ts:208513](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L208513)
+main.ts:214038
 
 ___
-
 
 ### generate
 
-• `Optional` **generate**: [`AppendixInfo`](../classes/AppendixInfo.md)
+• `Optional` **generate**: [`AppendixFunctionInfo`](../classes/AppendixFunctionInfo.md)
 
 #### Defined in
 
-[main.ts:208509](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L208509)
+main.ts:214034
 
 ___
-
 
 ### generate\_meta\_tags
 
-• `Optional` **generate\_meta\_tags**: [`AppendixInfo`](../classes/AppendixInfo.md)
+• `Optional` **generate\_meta\_tags**: [`AppendixFunctionInfo`](../classes/AppendixFunctionInfo.md)
 
 #### Defined in
 
-[main.ts:208510](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L208510)
+main.ts:214035
 
 ___
-
 
 ### generate\_sub\_topics
 
-• `Optional` **generate\_sub\_topics**: [`AppendixInfo`](../classes/AppendixInfo.md)
+• `Optional` **generate\_sub\_topics**: [`AppendixFunctionInfo`](../classes/AppendixFunctionInfo.md)
 
 #### Defined in
 
-[main.ts:208515](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L208515)
+main.ts:214040
 
 ___
-
 
 ### generate\_text
 
-• `Optional` **generate\_text**: [`AppendixInfo`](../classes/AppendixInfo.md)
+• `Optional` **generate\_text**: [`AppendixFunctionInfo`](../classes/AppendixFunctionInfo.md)
 
 #### Defined in
 
-[main.ts:208511](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L208511)
+main.ts:214036
 
 ___
-
 
 ### paraphrase
 
-• `Optional` **paraphrase**: [`AppendixInfo`](../classes/AppendixInfo.md)
+• `Optional` **paraphrase**: [`AppendixFunctionInfo`](../classes/AppendixFunctionInfo.md)
 
 #### Defined in
 
-[main.ts:208512](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L208512)
+main.ts:214037
 
 ___
-
 
 ### text\_summary
 
@@ -100,8 +90,4 @@ ___
 
 #### Defined in
 
-[main.ts:208514](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L208514)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:214039

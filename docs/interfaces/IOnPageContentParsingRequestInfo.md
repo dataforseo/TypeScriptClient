@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IOnPageContentParsingRequestInfo
+[Documentation](../README.md) / [Exports](../modules.md) / IOnPageContentParsingRequestInfo
 
 # Interface: IOnPageContentParsingRequestInfo
 
@@ -36,10 +32,9 @@ example:
 
 #### Defined in
 
-[main.ts:151948](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L151948)
+main.ts:157375
 
 ___
-
 
 ### url
 
@@ -53,8 +48,4 @@ https://www.fujielectric.com/
 
 #### Defined in
 
-[main.ts:151941](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L151941)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:157368

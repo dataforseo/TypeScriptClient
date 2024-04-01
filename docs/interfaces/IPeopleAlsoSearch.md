@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IPeopleAlsoSearch
+[Documentation](../README.md) / [Exports](../modules.md) / IPeopleAlsoSearch
 
 # Interface: IPeopleAlsoSearch
 
@@ -35,10 +31,9 @@ learn more about the identifier in this help center article
 
 #### Defined in
 
-[main.ts:188742](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L188742)
+main.ts:194195
 
 ___
-
 
 ### feature\_id
 
@@ -49,24 +44,22 @@ learn more about the identifier in this help center article
 
 #### Defined in
 
-[main.ts:188745](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L188745)
+main.ts:194198
 
 ___
-
 
 ### rating
 
 • `Optional` **rating**: [`RatingInfo`](../classes/RatingInfo.md)
 
-the element’s rating
+the element’s rating 
 the popularity rate based on reviews and displayed in SERP
 
 #### Defined in
 
-[main.ts:188751](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L188751)
+main.ts:194204
 
 ___
-
 
 ### title
 
@@ -77,8 +70,4 @@ the name of the business entity for which the results are collected
 
 #### Defined in
 
-[main.ts:188748](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L188748)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:194201

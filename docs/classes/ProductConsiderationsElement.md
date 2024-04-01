@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / ProductConsiderationsElement
+[Documentation](../README.md) / [Exports](../modules.md) / ProductConsiderationsElement
 
 # Class: ProductConsiderationsElement
 
@@ -51,7 +47,7 @@
 
 #### Defined in
 
-[main.ts:34545](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L34545)
+main.ts:35482
 
 ## Properties
 
@@ -68,10 +64,9 @@ the category is indicated just above the title fo the consideration element
 
 #### Defined in
 
-[main.ts:34539](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L34539)
+main.ts:35476
 
 ___
-
 
 ### expanded\_element
 
@@ -85,16 +80,15 @@ expanded element
 
 #### Defined in
 
-[main.ts:34541](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L34541)
+main.ts:35478
 
 ___
-
 
 ### title
 
 • `Optional` **title**: `string`
 
-title of the row
+title of a given link element
 
 #### Implementation of
 
@@ -102,10 +96,9 @@ title of the row
 
 #### Defined in
 
-[main.ts:34536](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L34536)
+main.ts:35473
 
 ___
-
 
 ### type
 
@@ -119,7 +112,7 @@ type of element
 
 #### Defined in
 
-[main.ts:34534](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L34534)
+main.ts:35471
 
 ## Methods
 
@@ -139,10 +132,9 @@ type of element
 
 #### Defined in
 
-[main.ts:34554](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L34554)
+main.ts:35491
 
 ___
-
 
 ### toJSON
 
@@ -160,10 +152,9 @@ ___
 
 #### Defined in
 
-[main.ts:34574](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L34574)
+main.ts:35511
 
 ___
-
 
 ### fromJS
 
@@ -181,8 +172,4 @@ ___
 
 #### Defined in
 
-[main.ts:34567](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L34567)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:35504

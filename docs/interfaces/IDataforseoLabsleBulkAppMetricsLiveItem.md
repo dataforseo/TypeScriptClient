@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IDataforseoLabsleBulkAppMetricsLiveItem
+[Documentation](../README.md) / [Exports](../modules.md) / IDataforseoLabsleBulkAppMetricsLiveItem
 
 # Interface: IDataforseoLabsleBulkAppMetricsLiveItem
 
@@ -32,10 +28,9 @@ id of the app in a POST array
 
 #### Defined in
 
-[main.ts:108018](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L108018)
+main.ts:110395
 
 ___
-
 
 ### metrics
 
@@ -50,10 +45,9 @@ ranking data relevant to the keywords that the provided application ranks for on
 
 #### Defined in
 
-[main.ts:108021](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L108021)
+main.ts:110398
 
 ___
-
 
 ### se\_type
 
@@ -63,8 +57,4 @@ search engine type
 
 #### Defined in
 
-[main.ts:108016](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L108016)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:110393

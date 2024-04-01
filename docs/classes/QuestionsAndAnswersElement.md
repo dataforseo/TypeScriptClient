@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / QuestionsAndAnswersElement
+[Documentation](../README.md) / [Exports](../modules.md) / QuestionsAndAnswersElement
 
 # Class: QuestionsAndAnswersElement
 
@@ -54,7 +50,7 @@
 
 #### Defined in
 
-[main.ts:32813](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L32813)
+main.ts:33702
 
 ## Properties
 
@@ -70,16 +66,15 @@ answer included in the item
 
 #### Defined in
 
-[main.ts:32802](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L32802)
+main.ts:33691
 
 ___
-
 
 ### domain
 
 • `Optional` **domain**: `string`
 
-domain where a link points
+website domain
 
 #### Implementation of
 
@@ -87,10 +82,9 @@ domain where a link points
 
 #### Defined in
 
-[main.ts:32807](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L32807)
+main.ts:33696
 
 ___
-
 
 ### question\_text
 
@@ -104,17 +98,16 @@ question included in the item
 
 #### Defined in
 
-[main.ts:32800](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L32800)
+main.ts:33689
 
 ___
-
 
 ### source
 
 • `Optional` **source**: `string`
 
-web source of the hotel booking element
-indicates the source of information included in the element
+source of the element
+indicates the source of information included in the top_stories_element
 
 #### Implementation of
 
@@ -122,10 +115,9 @@ indicates the source of information included in the element
 
 #### Defined in
 
-[main.ts:32805](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L32805)
+main.ts:33694
 
 ___
-
 
 ### type
 
@@ -139,10 +131,9 @@ type of element
 
 #### Defined in
 
-[main.ts:32796](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L32796)
+main.ts:33685
 
 ___
-
 
 ### url
 
@@ -156,10 +147,9 @@ URL
 
 #### Defined in
 
-[main.ts:32798](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L32798)
+main.ts:33687
 
 ___
-
 
 ### votes
 
@@ -173,7 +163,7 @@ answer upvotes from the source
 
 #### Defined in
 
-[main.ts:32809](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L32809)
+main.ts:33698
 
 ## Methods
 
@@ -193,10 +183,9 @@ answer upvotes from the source
 
 #### Defined in
 
-[main.ts:32822](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L32822)
+main.ts:33711
 
 ___
-
 
 ### toJSON
 
@@ -214,10 +203,9 @@ ___
 
 #### Defined in
 
-[main.ts:32845](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L32845)
+main.ts:33734
 
 ___
-
 
 ### fromJS
 
@@ -235,8 +223,4 @@ ___
 
 #### Defined in
 
-[main.ts:32838](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L32838)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:33727

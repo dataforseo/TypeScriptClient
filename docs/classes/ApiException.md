@@ -1,15 +1,11 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / ApiException
+[Documentation](../README.md) / [Exports](../modules.md) / ApiException
 
 # Class: ApiException
 
 ## Hierarchy
 
 - `Error`
-  
+
   ↳ **`ApiException`**
 
 ## Table of contents
@@ -59,7 +55,7 @@ Error.constructor
 
 #### Defined in
 
-[main.ts:213433](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L213433)
+main.ts:219090
 
 ## Properties
 
@@ -73,10 +69,9 @@ Error.constructor
 
 #### Defined in
 
-[main.ts:213430](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L213430)
+main.ts:219087
 
 ___
-
 
 ### isApiException
 
@@ -84,10 +79,9 @@ ___
 
 #### Defined in
 
-[main.ts:213443](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L213443)
+main.ts:219100
 
 ___
-
 
 ### message
 
@@ -99,10 +93,9 @@ Error.message
 
 #### Defined in
 
-[main.ts:213427](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L213427)
+main.ts:219084
 
 ___
-
 
 ### name
 
@@ -114,10 +107,9 @@ Error.name
 
 #### Defined in
 
-C:/Users/thewa/AppData/Roaming/npm/node_modules/typedoc/node_modules/typescript/lib/lib.es5.d.ts:1075
+C:/Users/thewa/AppData/Roaming/npm/node_modules/typedoc/node_modules/typescript/lib/lib.es5.d.ts:1076
 
 ___
-
 
 ### response
 
@@ -125,10 +117,9 @@ ___
 
 #### Defined in
 
-[main.ts:213429](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L213429)
+main.ts:219086
 
 ___
-
 
 ### result
 
@@ -136,10 +127,9 @@ ___
 
 #### Defined in
 
-[main.ts:213431](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L213431)
+main.ts:219088
 
 ___
-
 
 ### stack
 
@@ -151,10 +141,9 @@ Error.stack
 
 #### Defined in
 
-C:/Users/thewa/AppData/Roaming/npm/node_modules/typedoc/node_modules/typescript/lib/lib.es5.d.ts:1077
+C:/Users/thewa/AppData/Roaming/npm/node_modules/typedoc/node_modules/typescript/lib/lib.es5.d.ts:1078
 
 ___
-
 
 ### status
 
@@ -162,7 +151,7 @@ ___
 
 #### Defined in
 
-[main.ts:213428](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L213428)
+main.ts:219085
 
 ## Methods
 
@@ -182,8 +171,4 @@ obj is ApiException
 
 #### Defined in
 
-[main.ts:213445](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L213445)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:219102

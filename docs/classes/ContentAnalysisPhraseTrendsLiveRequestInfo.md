@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / ContentAnalysisPhraseTrendsLiveRequestInfo
+[Documentation](../README.md) / [Exports](../modules.md) / ContentAnalysisPhraseTrendsLiveRequestInfo
 
 # Class: ContentAnalysisPhraseTrendsLiveRequestInfo
 
@@ -57,7 +53,7 @@
 
 #### Defined in
 
-[main.ts:158673](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L158673)
+main.ts:164100
 
 ## Properties
 
@@ -77,10 +73,9 @@ example:
 
 #### Defined in
 
-[main.ts:158634](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L158634)
+main.ts:164061
 
 ___
-
 
 ### date\_group
 
@@ -97,10 +92,9 @@ possible values: day, week, month
 
 #### Defined in
 
-[main.ts:158646](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L158646)
+main.ts:164073
 
 ___
-
 
 ### date\_to
 
@@ -119,10 +113,9 @@ example:
 
 #### Defined in
 
-[main.ts:158641](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L158641)
+main.ts:164068
 
 ___
-
 
 ### initial\_dataset\_filter
 
@@ -151,10 +144,9 @@ for more information about filters, please refer to Content Analysis API – Fil
 
 #### Defined in
 
-[main.ts:158663](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L158663)
+main.ts:164090
 
 ___
-
 
 ### internal\_list\_limit
 
@@ -177,10 +169,9 @@ maximum value: 20
 
 #### Defined in
 
-[main.ts:158628](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L158628)
+main.ts:164055
 
 ___
-
 
 ### keyword
 
@@ -201,10 +192,9 @@ example:
 
 #### Defined in
 
-[main.ts:158592](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L158592)
+main.ts:164019
 
 ___
-
 
 ### keyword\_fields
 
@@ -218,8 +208,8 @@ you can indicate several fields;
 Note: to match an exact phrase instead of a stand-alone keyword, use double quotes and backslashes;
 example:
 "keyword_fields": {
-"snippet": "\"logitech mouse\"",
-"main_title": "sale"
+    "snippet": "\"logitech mouse\"",
+    "main_title": "sale"
 }
 
 #### Index signature
@@ -232,10 +222,9 @@ example:
 
 #### Defined in
 
-[main.ts:158604](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L158604)
+main.ts:164031
 
 ___
-
 
 ### page\_type
 
@@ -253,10 +242,9 @@ possible values:
 
 #### Defined in
 
-[main.ts:158610](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L158610)
+main.ts:164037
 
 ___
-
 
 ### search\_mode
 
@@ -275,10 +263,9 @@ default value: as_is
 
 #### Defined in
 
-[main.ts:158617](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L158617)
+main.ts:164044
 
 ___
-
 
 ### tag
 
@@ -296,7 +283,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-[main.ts:158669](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L158669)
+main.ts:164096
 
 ## Methods
 
@@ -316,10 +303,9 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-[main.ts:158682](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L158682)
+main.ts:164109
 
 ___
-
 
 ### toJSON
 
@@ -337,10 +323,9 @@ ___
 
 #### Defined in
 
-[main.ts:158722](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L158722)
+main.ts:164149
 
 ___
-
 
 ### fromJS
 
@@ -358,8 +343,4 @@ ___
 
 #### Defined in
 
-[main.ts:158715](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L158715)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:164142

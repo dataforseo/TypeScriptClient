@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / ImageUrlInfo
+[Documentation](../README.md) / [Exports](../modules.md) / ImageUrlInfo
 
 # Class: ImageUrlInfo
 
@@ -48,7 +44,7 @@
 
 #### Defined in
 
-[main.ts:202340](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L202340)
+main.ts:207801
 
 ## Properties
 
@@ -64,7 +60,7 @@ URL of the image used in the review
 
 #### Defined in
 
-[main.ts:202336](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L202336)
+main.ts:207797
 
 ## Methods
 
@@ -84,10 +80,9 @@ URL of the image used in the review
 
 #### Defined in
 
-[main.ts:202349](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L202349)
+main.ts:207810
 
 ___
-
 
 ### toJSON
 
@@ -105,10 +100,9 @@ ___
 
 #### Defined in
 
-[main.ts:202366](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L202366)
+main.ts:207827
 
 ___
-
 
 ### fromJS
 
@@ -126,8 +120,4 @@ ___
 
 #### Defined in
 
-[main.ts:202359](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L202359)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:207820

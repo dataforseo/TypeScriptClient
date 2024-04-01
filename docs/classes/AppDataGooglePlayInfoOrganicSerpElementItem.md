@@ -1,15 +1,11 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / AppDataGooglePlayInfoOrganicSerpElementItem
+[Documentation](../README.md) / [Exports](../modules.md) / AppDataGooglePlayInfoOrganicSerpElementItem
 
 # Class: AppDataGooglePlayInfoOrganicSerpElementItem
 
 ## Hierarchy
 
 - [`BaseAppDataSerpElementItem`](BaseAppDataSerpElementItem.md)
-  
+
   ↳ **`AppDataGooglePlayInfoOrganicSerpElementItem`**
 
 ## Implements
@@ -91,7 +87,7 @@
 
 #### Defined in
 
-[main.ts:179908](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L179908)
+main.ts:185361
 
 ## Properties
 
@@ -105,10 +101,9 @@
 
 #### Defined in
 
-[main.ts:20450](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L20450)
+main.ts:20969
 
 ___
-
 
 ### app\_id
 
@@ -122,10 +117,9 @@ ID of the app
 
 #### Defined in
 
-[main.ts:179831](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L179831)
+main.ts:185284
 
 ___
-
 
 ### description
 
@@ -139,10 +133,9 @@ description of the app
 
 #### Defined in
 
-[main.ts:179839](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L179839)
+main.ts:185292
 
 ___
-
 
 ### developer
 
@@ -156,10 +149,9 @@ name of the app developer
 
 #### Defined in
 
-[main.ts:179857](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L179857)
+main.ts:185310
 
 ___
-
 
 ### developer\_address
 
@@ -173,10 +165,9 @@ physical address of the developer
 
 #### Defined in
 
-[main.ts:179865](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L179865)
+main.ts:185318
 
 ___
-
 
 ### developer\_email
 
@@ -190,10 +181,9 @@ email address of the developer
 
 #### Defined in
 
-[main.ts:179863](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L179863)
+main.ts:185316
 
 ___
-
 
 ### developer\_id
 
@@ -207,10 +197,9 @@ ID of the app developer
 
 #### Defined in
 
-[main.ts:179859](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L179859)
+main.ts:185312
 
 ___
-
 
 ### developer\_url
 
@@ -224,10 +213,9 @@ URL to the developer page on Google Play
 
 #### Defined in
 
-[main.ts:179861](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L179861)
+main.ts:185314
 
 ___
-
 
 ### developer\_website
 
@@ -241,10 +229,9 @@ official website of the developer
 
 #### Defined in
 
-[main.ts:179867](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L179867)
+main.ts:185320
 
 ___
-
 
 ### genres
 
@@ -259,10 +246,9 @@ contains relevant app categories
 
 #### Defined in
 
-[main.ts:179901](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L179901)
+main.ts:185354
 
 ___
-
 
 ### icon
 
@@ -276,10 +262,9 @@ URL to the app icon
 
 #### Defined in
 
-[main.ts:179837](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L179837)
+main.ts:185290
 
 ___
-
 
 ### images
 
@@ -294,10 +279,9 @@ contains URLs to the images published on the app page on Google Play
 
 #### Defined in
 
-[main.ts:179889](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L179889)
+main.ts:185342
 
 ___
-
 
 ### installs
 
@@ -312,10 +296,9 @@ approximate number of installs as displayed on the app page
 
 #### Defined in
 
-[main.ts:179852](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L179852)
+main.ts:185305
 
 ___
-
 
 ### installs\_count
 
@@ -330,10 +313,9 @@ the exact number of installs of the app
 
 #### Defined in
 
-[main.ts:179855](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L179855)
+main.ts:185308
 
 ___
-
 
 ### is\_free
 
@@ -347,10 +329,9 @@ indicates whether the app is free
 
 #### Defined in
 
-[main.ts:179847](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L179847)
+main.ts:185300
 
 ___
-
 
 ### last\_update\_date
 
@@ -367,10 +348,9 @@ example:
 
 #### Defined in
 
-[main.ts:179883](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L179883)
+main.ts:185336
 
 ___
-
 
 ### main\_category
 
@@ -384,10 +364,9 @@ main category of the app
 
 #### Defined in
 
-[main.ts:179849](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L179849)
+main.ts:185302
 
 ___
-
 
 ### minimum\_os\_version
 
@@ -401,10 +380,9 @@ minimum OS version required to install the app
 
 #### Defined in
 
-[main.ts:179871](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L179871)
+main.ts:185324
 
 ___
-
 
 ### more\_apps\_by\_developer
 
@@ -419,10 +397,9 @@ information about apps built by the same developer
 
 #### Defined in
 
-[main.ts:179898](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L179898)
+main.ts:185351
 
 ___
-
 
 ### position
 
@@ -437,10 +414,9 @@ can take the following values: left
 
 #### Defined in
 
-[main.ts:179829](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L179829)
+main.ts:185282
 
 ___
-
 
 ### price
 
@@ -454,10 +430,9 @@ price of the app
 
 #### Defined in
 
-[main.ts:179845](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L179845)
+main.ts:185298
 
 ___
-
 
 ### rank\_absolute
 
@@ -472,10 +447,9 @@ absolute position among all apps on the list
 
 #### Defined in
 
-[main.ts:179826](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L179826)
+main.ts:185279
 
 ___
-
 
 ### rank\_group
 
@@ -490,10 +464,9 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-[main.ts:179823](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L179823)
+main.ts:185276
 
 ___
-
 
 ### rating
 
@@ -507,10 +480,9 @@ average rating of the app
 
 #### Defined in
 
-[main.ts:179843](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L179843)
+main.ts:185296
 
 ___
-
 
 ### released\_date
 
@@ -527,10 +499,9 @@ example:
 
 #### Defined in
 
-[main.ts:179878](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L179878)
+main.ts:185331
 
 ___
-
 
 ### reviews\_count
 
@@ -544,10 +515,9 @@ the total number of reviews the app has
 
 #### Defined in
 
-[main.ts:179841](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L179841)
+main.ts:185294
 
 ___
-
 
 ### similar\_apps
 
@@ -562,10 +532,9 @@ displays apps similar to the app in a POST request
 
 #### Defined in
 
-[main.ts:179895](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L179895)
+main.ts:185348
 
 ___
-
 
 ### size
 
@@ -579,10 +548,9 @@ size of the app
 
 #### Defined in
 
-[main.ts:179873](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L179873)
+main.ts:185326
 
 ___
-
 
 ### tags
 
@@ -597,10 +565,9 @@ contains relevant app tags
 
 #### Defined in
 
-[main.ts:179904](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L179904)
+main.ts:185357
 
 ___
-
 
 ### title
 
@@ -614,10 +581,9 @@ title of the app
 
 #### Defined in
 
-[main.ts:179833](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L179833)
+main.ts:185286
 
 ___
-
 
 ### update\_notes
 
@@ -632,10 +598,9 @@ contains the latest update notes from the developer
 
 #### Defined in
 
-[main.ts:179886](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L179886)
+main.ts:185339
 
 ___
-
 
 ### url
 
@@ -649,10 +614,9 @@ URL to the app page on Google Play
 
 #### Defined in
 
-[main.ts:179835](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L179835)
+main.ts:185288
 
 ___
-
 
 ### version
 
@@ -666,10 +630,9 @@ current version of the app
 
 #### Defined in
 
-[main.ts:179869](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L179869)
+main.ts:185322
 
 ___
-
 
 ### videos
 
@@ -684,7 +647,7 @@ contains URLs to the video published on the app page on Google Play
 
 #### Defined in
 
-[main.ts:179892](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L179892)
+main.ts:185345
 
 ## Methods
 
@@ -708,10 +671,9 @@ contains URLs to the video published on the app page on Google Play
 
 #### Defined in
 
-[main.ts:179913](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L179913)
+main.ts:185366
 
 ___
-
 
 ### toJSON
 
@@ -733,10 +695,9 @@ ___
 
 #### Defined in
 
-[main.ts:179987](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L179987)
+main.ts:185440
 
 ___
-
 
 ### fromJS
 
@@ -758,8 +719,4 @@ ___
 
 #### Defined in
 
-[main.ts:179980](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L179980)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:185433

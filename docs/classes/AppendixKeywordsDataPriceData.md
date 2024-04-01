@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / AppendixKeywordsDataPriceData
+[Documentation](../README.md) / [Exports](../modules.md) / AppendixKeywordsDataPriceData
 
 # Class: AppendixKeywordsDataPriceData
 
@@ -25,6 +21,7 @@
 - [ad\_traffic\_by\_keywords](AppendixKeywordsDataPriceData.md#ad_traffic_by_keywords)
 - [bing](AppendixKeywordsDataPriceData.md#bing)
 - [categories](AppendixKeywordsDataPriceData.md#categories)
+- [dataforseo\_trends](AppendixKeywordsDataPriceData.md#dataforseo_trends)
 - [errors](AppendixKeywordsDataPriceData.md#errors)
 - [explore](AppendixKeywordsDataPriceData.md#explore)
 - [google\_ads](AppendixKeywordsDataPriceData.md#google_ads)
@@ -61,7 +58,7 @@
 
 #### Defined in
 
-[main.ts:210008](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L210008)
+main.ts:215598
 
 ## Properties
 
@@ -75,10 +72,9 @@
 
 #### Defined in
 
-[main.ts:209992](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L209992)
+main.ts:215581
 
 ___
-
 
 ### bing
 
@@ -90,10 +86,9 @@ ___
 
 #### Defined in
 
-[main.ts:209993](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L209993)
+main.ts:215582
 
 ___
-
 
 ### categories
 
@@ -105,10 +100,23 @@ ___
 
 #### Defined in
 
-[main.ts:209994](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L209994)
+main.ts:215583
 
 ___
 
+### dataforseo\_trends
+
+• `Optional` **dataforseo\_trends**: [`AppendixDataforseoTrendsKeywordsDataPriceData`](AppendixDataforseoTrendsKeywordsDataPriceData.md)
+
+#### Implementation of
+
+[IAppendixKeywordsDataPriceData](../interfaces/IAppendixKeywordsDataPriceData.md).[dataforseo_trends](../interfaces/IAppendixKeywordsDataPriceData.md#dataforseo_trends)
+
+#### Defined in
+
+main.ts:215593
+
+___
 
 ### errors
 
@@ -120,10 +128,9 @@ ___
 
 #### Defined in
 
-[main.ts:209995](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L209995)
+main.ts:215584
 
 ___
-
 
 ### explore
 
@@ -135,10 +142,9 @@ ___
 
 #### Defined in
 
-[main.ts:210004](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L210004)
+main.ts:215594
 
 ___
-
 
 ### google\_ads
 
@@ -150,10 +156,9 @@ ___
 
 #### Defined in
 
-[main.ts:209996](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L209996)
+main.ts:215585
 
 ___
-
 
 ### keyword\_performance
 
@@ -165,10 +170,9 @@ ___
 
 #### Defined in
 
-[main.ts:209997](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L209997)
+main.ts:215586
 
 ___
-
 
 ### keywords\_for\_keywords
 
@@ -180,10 +184,9 @@ ___
 
 #### Defined in
 
-[main.ts:209998](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L209998)
+main.ts:215587
 
 ___
-
 
 ### keywords\_for\_site
 
@@ -195,10 +198,9 @@ ___
 
 #### Defined in
 
-[main.ts:209999](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L209999)
+main.ts:215588
 
 ___
-
 
 ### languages
 
@@ -210,10 +212,9 @@ ___
 
 #### Defined in
 
-[main.ts:210000](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L210000)
+main.ts:215589
 
 ___
-
 
 ### locations
 
@@ -225,10 +226,9 @@ ___
 
 #### Defined in
 
-[main.ts:210001](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L210001)
+main.ts:215590
 
 ___
-
 
 ### search\_volume
 
@@ -240,10 +240,9 @@ ___
 
 #### Defined in
 
-[main.ts:210003](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L210003)
+main.ts:215592
 
 ___
-
 
 ### search\_volume\_history
 
@@ -255,10 +254,9 @@ ___
 
 #### Defined in
 
-[main.ts:210002](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L210002)
+main.ts:215591
 
 ___
-
 
 ### tasks\_ready
 
@@ -270,7 +268,7 @@ ___
 
 #### Defined in
 
-[main.ts:209991](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L209991)
+main.ts:215580
 
 ## Methods
 
@@ -290,10 +288,9 @@ ___
 
 #### Defined in
 
-[main.ts:210017](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L210017)
+main.ts:215607
 
 ___
-
 
 ### toJSON
 
@@ -311,10 +308,9 @@ ___
 
 #### Defined in
 
-[main.ts:210047](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L210047)
+main.ts:215638
 
 ___
-
 
 ### fromJS
 
@@ -332,8 +328,4 @@ ___
 
 #### Defined in
 
-[main.ts:210040](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L210040)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:215631

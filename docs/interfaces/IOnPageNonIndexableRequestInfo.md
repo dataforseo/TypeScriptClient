@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IOnPageNonIndexableRequestInfo
+[Documentation](../README.md) / [Exports](../modules.md) / IOnPageNonIndexableRequestInfo
 
 # Interface: IOnPageNonIndexableRequestInfo
 
@@ -47,10 +43,9 @@ The full list of possible filters is available by this link.
 
 #### Defined in
 
-[main.ts:149372](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L149372)
+main.ts:154799
 
 ___
-
 
 ### id
 
@@ -64,10 +59,9 @@ example:
 
 #### Defined in
 
-[main.ts:149346](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L149346)
+main.ts:154773
 
 ___
-
 
 ### limit
 
@@ -80,10 +74,9 @@ maximum value: 1000
 
 #### Defined in
 
-[main.ts:149351](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L149351)
+main.ts:154778
 
 ___
-
 
 ### offset
 
@@ -96,8 +89,4 @@ if you specify the 10 value, the first ten pages in the results array will be om
 
 #### Defined in
 
-[main.ts:149356](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L149356)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:154783

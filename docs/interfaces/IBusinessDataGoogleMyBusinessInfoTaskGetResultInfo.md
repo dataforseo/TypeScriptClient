@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IBusinessDataGoogleMyBusinessInfoTaskGetResultInfo
+[Documentation](../README.md) / [Exports](../modules.md) / IBusinessDataGoogleMyBusinessInfoTaskGetResultInfo
 
 # Interface: IBusinessDataGoogleMyBusinessInfoTaskGetResultInfo
 
@@ -39,10 +35,9 @@ you can use it to make sure that we provided accurate results
 
 #### Defined in
 
-[main.ts:191869](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L191869)
+main.ts:197330
 
 ___
-
 
 ### datetime
 
@@ -55,10 +50,9 @@ example:
 
 #### Defined in
 
-[main.ts:191874](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L191874)
+main.ts:197335
 
 ___
-
 
 ### item\_types
 
@@ -70,10 +64,9 @@ possible item types: google_business_info
 
 #### Defined in
 
-[main.ts:191878](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L191878)
+main.ts:197339
 
 ___
-
 
 ### items
 
@@ -83,10 +76,9 @@ array of directory items
 
 #### Defined in
 
-[main.ts:191883](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L191883)
+main.ts:197344
 
 ___
-
 
 ### items\_count
 
@@ -97,10 +89,9 @@ the number of items in the items array
 
 #### Defined in
 
-[main.ts:191881](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L191881)
+main.ts:197342
 
 ___
-
 
 ### keyword
 
@@ -115,10 +106,9 @@ learn more about the parameter in this help center article
 
 #### Defined in
 
-[main.ts:191860](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L191860)
+main.ts:197321
 
 ___
-
 
 ### language\_code
 
@@ -128,10 +118,9 @@ language code in a POST array
 
 #### Defined in
 
-[main.ts:191866](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L191866)
+main.ts:197327
 
 ___
-
 
 ### location\_code
 
@@ -141,10 +130,9 @@ location code in a POST array
 
 #### Defined in
 
-[main.ts:191864](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L191864)
+main.ts:197325
 
 ___
-
 
 ### se\_domain
 
@@ -154,8 +142,4 @@ search engine domain as specified in a POST array
 
 #### Defined in
 
-[main.ts:191862](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L191862)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:197323

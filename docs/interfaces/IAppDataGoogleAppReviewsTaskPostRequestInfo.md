@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IAppDataGoogleAppReviewsTaskPostRequestInfo
+[Documentation](../README.md) / [Exports](../modules.md) / IAppDataGoogleAppReviewsTaskPostRequestInfo
 
 # Interface: IAppDataGoogleAppReviewsTaskPostRequestInfo
 
@@ -47,10 +43,9 @@ https://play.google.com/store/apps/details?id=org.telegram.messenger
 
 #### Defined in
 
-[main.ts:180757](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L180757)
+main.ts:186210
 
 ___
-
 
 ### depth
 
@@ -65,10 +60,9 @@ maximum value: 100000
 
 #### Defined in
 
-[main.ts:180800](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L180800)
+main.ts:186253
 
 ___
-
 
 ### language\_code
 
@@ -83,10 +77,9 @@ en
 
 #### Defined in
 
-[main.ts:180785](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L180785)
+main.ts:186238
 
 ___
-
 
 ### language\_name
 
@@ -101,10 +94,9 @@ English
 
 #### Defined in
 
-[main.ts:180778](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L180778)
+main.ts:186231
 
 ___
-
 
 ### location\_code
 
@@ -119,10 +111,9 @@ example:
 
 #### Defined in
 
-[main.ts:180771](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L180771)
+main.ts:186224
 
 ___
-
 
 ### location\_name
 
@@ -137,10 +128,9 @@ West Los Angeles,California,United States
 
 #### Defined in
 
-[main.ts:180764](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L180764)
+main.ts:186217
 
 ___
-
 
 ### pingback\_url
 
@@ -158,10 +148,9 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-[main.ts:180851](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L180851)
+main.ts:186304
 
 ___
-
 
 ### postback\_data
 
@@ -175,10 +164,9 @@ advanced, html
 
 #### Defined in
 
-[main.ts:180841](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L180841)
+main.ts:186294
 
 ___
-
 
 ### postback\_url
 
@@ -196,10 +184,9 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-[main.ts:180835](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L180835)
+main.ts:186288
 
 ___
-
 
 ### priority
 
@@ -215,10 +202,9 @@ The cost can be calculated on the Pricing page.
 
 #### Defined in
 
-[main.ts:180793](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L180793)
+main.ts:186246
 
 ___
-
 
 ### rating
 
@@ -237,10 +223,9 @@ by default, the API returns all reviews regardless of the number of stars
 
 #### Defined in
 
-[main.ts:180811](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L180811)
+main.ts:186264
 
 ___
-
 
 ### sort\_by
 
@@ -256,10 +241,9 @@ default rule: most_relevant
 
 #### Defined in
 
-[main.ts:180819](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L180819)
+main.ts:186272
 
 ___
-
 
 ### tag
 
@@ -273,8 +257,4 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-[main.ts:180825](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L180825)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:186278

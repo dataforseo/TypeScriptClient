@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / ISerpGoogleDatasetSearchTaskPostRequestInfo
+[Documentation](../README.md) / [Exports](../modules.md) / ISerpGoogleDatasetSearchTaskPostRequestInfo
 
 # Interface: ISerpGoogleDatasetSearchTaskPostRequestInfo
 
@@ -52,10 +48,9 @@ if the specified depth is higher than the number of results in the response, the
 
 #### Defined in
 
-[main.ts:49956](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L49956)
+main.ts:52331
 
 ___
-
 
 ### device
 
@@ -67,10 +62,9 @@ possible value: desktop
 
 #### Defined in
 
-[main.ts:49971](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L49971)
+main.ts:52346
 
 ___
-
 
 ### file\_formats
 
@@ -82,10 +76,9 @@ possible values: other, archive, text, image, document, tabular
 
 #### Defined in
 
-[main.ts:49984](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L49984)
+main.ts:52359
 
 ___
-
 
 ### is\_free
 
@@ -97,10 +90,9 @@ possible values: true, false
 
 #### Defined in
 
-[main.ts:49992](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L49992)
+main.ts:52367
 
 ___
-
 
 ### keyword
 
@@ -115,10 +107,9 @@ if you need to use the “+” symbol for your keyword, please specify it as “
 
 #### Defined in
 
-[main.ts:49939](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L49939)
+main.ts:52314
 
 ___
-
 
 ### language\_code
 
@@ -131,10 +122,9 @@ en
 
 #### Defined in
 
-[main.ts:49967](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L49967)
+main.ts:52342
 
 ___
-
 
 ### language\_name
 
@@ -148,10 +138,9 @@ English
 
 #### Defined in
 
-[main.ts:49962](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L49962)
+main.ts:52337
 
 ___
-
 
 ### last\_updated
 
@@ -163,10 +152,9 @@ possible values: 1m, 1y, 3y
 
 #### Defined in
 
-[main.ts:49980](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L49980)
+main.ts:52355
 
 ___
-
 
 ### os
 
@@ -179,10 +167,9 @@ default value: windows
 
 #### Defined in
 
-[main.ts:49976](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L49976)
+main.ts:52351
 
 ___
-
 
 ### pingback\_url
 
@@ -200,10 +187,9 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-[main.ts:50027](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L50027)
+main.ts:52402
 
 ___
-
 
 ### postback\_data
 
@@ -216,10 +202,9 @@ only value: advanced
 
 #### Defined in
 
-[main.ts:50017](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L50017)
+main.ts:52392
 
 ___
-
 
 ### postback\_url
 
@@ -237,10 +222,9 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-[main.ts:50012](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L50012)
+main.ts:52387
 
 ___
-
 
 ### priority
 
@@ -256,10 +240,9 @@ The cost can be calculated on the Pricing page.
 
 #### Defined in
 
-[main.ts:49947](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L49947)
+main.ts:52322
 
 ___
-
 
 ### tag
 
@@ -273,10 +256,9 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-[main.ts:50002](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L50002)
+main.ts:52377
 
 ___
-
 
 ### topics
 
@@ -288,10 +270,9 @@ possible values: humanities, social_sciences, life_sciences, agriculture, natura
 
 #### Defined in
 
-[main.ts:49996](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L49996)
+main.ts:52371
 
 ___
-
 
 ### usage\_rights
 
@@ -303,8 +284,4 @@ possible values: commercial, noncommercial
 
 #### Defined in
 
-[main.ts:49988](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L49988)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:52363

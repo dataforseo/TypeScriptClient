@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IBusinessDataYelpReviewsTaskPostRequestInfo
+[Documentation](../README.md) / [Exports](../modules.md) / IBusinessDataYelpReviewsTaskPostRequestInfo
 
 # Interface: IBusinessDataYelpReviewsTaskPostRequestInfo
 
@@ -48,10 +44,9 @@ https://www.yelp.com/biz/vatos-urban-tacos-singapore?rl=en
 
 #### Defined in
 
-[main.ts:204840](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L204840)
+main.ts:210301
 
 ___
-
 
 ### depth
 
@@ -66,10 +61,9 @@ maximum value: 4490
 
 #### Defined in
 
-[main.ts:204890](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L204890)
+main.ts:210351
 
 ___
-
 
 ### keyword
 
@@ -84,10 +78,9 @@ if you need to use the “%” symbol for your keyword, please specify it as “
 
 #### Defined in
 
-[main.ts:204847](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L204847)
+main.ts:210308
 
 ___
-
 
 ### language\_code
 
@@ -102,10 +95,9 @@ en
 
 #### Defined in
 
-[main.ts:204883](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L204883)
+main.ts:210344
 
 ___
-
 
 ### language\_name
 
@@ -120,10 +112,9 @@ English
 
 #### Defined in
 
-[main.ts:204876](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L204876)
+main.ts:210337
 
 ___
-
 
 ### location\_code
 
@@ -138,10 +129,9 @@ example:
 
 #### Defined in
 
-[main.ts:204869](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L204869)
+main.ts:210330
 
 ___
-
 
 ### location\_name
 
@@ -156,10 +146,9 @@ West Los Angeles,California,United States
 
 #### Defined in
 
-[main.ts:204862](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L204862)
+main.ts:210323
 
 ___
-
 
 ### pingback\_url
 
@@ -177,10 +166,9 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-[main.ts:204927](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L204927)
+main.ts:210388
 
 ___
-
 
 ### postback\_url
 
@@ -198,10 +186,9 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-[main.ts:204917](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L204917)
+main.ts:210378
 
 ___
-
 
 ### priority
 
@@ -217,10 +204,9 @@ The cost can be calculated on the Pricing page.
 
 #### Defined in
 
-[main.ts:204855](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L204855)
+main.ts:210316
 
 ___
-
 
 ### sort\_by
 
@@ -239,10 +225,9 @@ default value: relevant
 
 #### Defined in
 
-[main.ts:204901](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L204901)
+main.ts:210362
 
 ___
-
 
 ### tag
 
@@ -256,8 +241,4 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-[main.ts:204907](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L204907)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:210368

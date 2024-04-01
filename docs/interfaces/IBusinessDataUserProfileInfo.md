@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IBusinessDataUserProfileInfo
+[Documentation](../README.md) / [Exports](../modules.md) / IBusinessDataUserProfileInfo
 
 # Interface: IBusinessDataUserProfileInfo
 
@@ -34,10 +30,9 @@ URL to the reviewer’s profile picture
 
 #### Defined in
 
-[main.ts:199937](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L199937)
+main.ts:205398
 
 ___
-
 
 ### location
 
@@ -47,10 +42,9 @@ country of the reviewer
 
 #### Defined in
 
-[main.ts:199939](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L199939)
+main.ts:205400
 
 ___
-
 
 ### name
 
@@ -60,10 +54,9 @@ the name of the reviewer
 
 #### Defined in
 
-[main.ts:199933](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L199933)
+main.ts:205394
 
 ___
-
 
 ### reviews\_count
 
@@ -73,10 +66,9 @@ total number of reviews submitted by the reviewer
 
 #### Defined in
 
-[main.ts:199941](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L199941)
+main.ts:205402
 
 ___
-
 
 ### url
 
@@ -86,8 +78,4 @@ URL to the reviewer’s profile
 
 #### Defined in
 
-[main.ts:199935](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L199935)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:205396

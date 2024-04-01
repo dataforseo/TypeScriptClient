@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / AppDataGoogleAppReviewsTaskPostRequestInfo
+[Documentation](../README.md) / [Exports](../modules.md) / AppDataGoogleAppReviewsTaskPostRequestInfo
 
 # Class: AppDataGoogleAppReviewsTaskPostRequestInfo
 
@@ -60,7 +56,7 @@
 
 #### Defined in
 
-[main.ts:180689](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L180689)
+main.ts:186142
 
 ## Properties
 
@@ -81,10 +77,9 @@ https://play.google.com/store/apps/details?id=org.telegram.messenger
 
 #### Defined in
 
-[main.ts:180591](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L180591)
+main.ts:186044
 
 ___
-
 
 ### depth
 
@@ -103,10 +98,9 @@ maximum value: 100000
 
 #### Defined in
 
-[main.ts:180634](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L180634)
+main.ts:186087
 
 ___
-
 
 ### language\_code
 
@@ -125,10 +119,9 @@ en
 
 #### Defined in
 
-[main.ts:180619](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L180619)
+main.ts:186072
 
 ___
-
 
 ### language\_name
 
@@ -147,10 +140,9 @@ English
 
 #### Defined in
 
-[main.ts:180612](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L180612)
+main.ts:186065
 
 ___
-
 
 ### location\_code
 
@@ -169,10 +161,9 @@ example:
 
 #### Defined in
 
-[main.ts:180605](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L180605)
+main.ts:186058
 
 ___
-
 
 ### location\_name
 
@@ -191,10 +182,9 @@ West Los Angeles,California,United States
 
 #### Defined in
 
-[main.ts:180598](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L180598)
+main.ts:186051
 
 ___
-
 
 ### pingback\_url
 
@@ -216,10 +206,9 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-[main.ts:180685](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L180685)
+main.ts:186138
 
 ___
-
 
 ### postback\_data
 
@@ -237,10 +226,9 @@ advanced, html
 
 #### Defined in
 
-[main.ts:180675](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L180675)
+main.ts:186128
 
 ___
-
 
 ### postback\_url
 
@@ -262,10 +250,9 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-[main.ts:180669](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L180669)
+main.ts:186122
 
 ___
-
 
 ### priority
 
@@ -285,10 +272,9 @@ The cost can be calculated on the Pricing page.
 
 #### Defined in
 
-[main.ts:180627](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L180627)
+main.ts:186080
 
 ___
-
 
 ### rating
 
@@ -311,10 +297,9 @@ by default, the API returns all reviews regardless of the number of stars
 
 #### Defined in
 
-[main.ts:180645](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L180645)
+main.ts:186098
 
 ___
-
 
 ### sort\_by
 
@@ -334,10 +319,9 @@ default rule: most_relevant
 
 #### Defined in
 
-[main.ts:180653](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L180653)
+main.ts:186106
 
 ___
-
 
 ### tag
 
@@ -355,7 +339,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-[main.ts:180659](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L180659)
+main.ts:186112
 
 ## Methods
 
@@ -375,10 +359,9 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-[main.ts:180698](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L180698)
+main.ts:186151
 
 ___
-
 
 ### toJSON
 
@@ -396,10 +379,9 @@ ___
 
 #### Defined in
 
-[main.ts:180727](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L180727)
+main.ts:186180
 
 ___
-
 
 ### fromJS
 
@@ -417,8 +399,4 @@ ___
 
 #### Defined in
 
-[main.ts:180720](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L180720)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:186173

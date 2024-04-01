@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / OnPageDuplicateTagsItem
+[Documentation](../README.md) / [Exports](../modules.md) / OnPageDuplicateTagsItem
 
 # Class: OnPageDuplicateTagsItem
 
@@ -50,7 +46,7 @@
 
 #### Defined in
 
-[main.ts:147165](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L147165)
+main.ts:152592
 
 ## Properties
 
@@ -66,10 +62,9 @@ contains the value of duplicated tag
 
 #### Defined in
 
-[main.ts:147157](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L147157)
+main.ts:152584
 
 ___
-
 
 ### pages
 
@@ -83,10 +78,9 @@ pages with duplicate tags
 
 #### Defined in
 
-[main.ts:147161](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L147161)
+main.ts:152588
 
 ___
-
 
 ### total\_count
 
@@ -100,7 +94,7 @@ total count of duplicate pages
 
 #### Defined in
 
-[main.ts:147159](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L147159)
+main.ts:152586
 
 ## Methods
 
@@ -120,10 +114,9 @@ total count of duplicate pages
 
 #### Defined in
 
-[main.ts:147174](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L147174)
+main.ts:152601
 
 ___
-
 
 ### toJSON
 
@@ -141,10 +134,9 @@ ___
 
 #### Defined in
 
-[main.ts:147197](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L147197)
+main.ts:152624
 
 ___
-
 
 ### fromJS
 
@@ -162,8 +154,4 @@ ___
 
 #### Defined in
 
-[main.ts:147190](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L147190)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:152617

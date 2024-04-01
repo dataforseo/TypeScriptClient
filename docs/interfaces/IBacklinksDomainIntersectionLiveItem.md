@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IBacklinksDomainIntersectionLiveItem
+[Documentation](../README.md) / [Exports](../modules.md) / IBacklinksDomainIntersectionLiveItem
 
 # Interface: IBacklinksDomainIntersectionLiveItem
 
@@ -36,21 +32,16 @@ data is provided in separate objects corresponding to domains, subdomains or pag
 
 #### Defined in
 
-[main.ts:137128](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L137128)
+main.ts:142549
 
 ___
 
-
 ### summary
 
-• `Optional` **summary**: [`Summary`](../classes/Summary.md)
+• `Optional` **summary**: [`IntersectionSummaryInfo`](../classes/IntersectionSummaryInfo.md)
 
 contains the domain intersections summary
 
 #### Defined in
 
-[main.ts:137130](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L137130)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:142551

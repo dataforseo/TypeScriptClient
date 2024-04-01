@@ -1,15 +1,11 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / KnowledgeGraphPartItemDataforseoLabsSerpElementItem
+[Documentation](../README.md) / [Exports](../modules.md) / KnowledgeGraphPartItemDataforseoLabsSerpElementItem
 
 # Class: KnowledgeGraphPartItemDataforseoLabsSerpElementItem
 
 ## Hierarchy
 
 - [`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md)
-  
+
   ↳ **`KnowledgeGraphPartItemDataforseoLabsSerpElementItem`**
 
 ## Implements
@@ -66,7 +62,7 @@
 
 #### Defined in
 
-[main.ts:93717](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L93717)
+main.ts:96094
 
 ## Properties
 
@@ -80,10 +76,9 @@
 
 #### Defined in
 
-[main.ts:19715](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L19715)
+main.ts:20171
 
 ___
-
 
 ### data\_attrid
 
@@ -99,10 +94,9 @@ kc:/local:place qa
 
 #### Defined in
 
-[main.ts:93709](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L93709)
+main.ts:96086
 
 ___
-
 
 ### links
 
@@ -116,10 +110,9 @@ link of the element
 
 #### Defined in
 
-[main.ts:93713](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L93713)
+main.ts:96090
 
 ___
-
 
 ### position
 
@@ -135,10 +128,9 @@ left, right
 
 #### Defined in
 
-[main.ts:93701](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L93701)
+main.ts:96078
 
 ___
-
 
 ### rank\_absolute
 
@@ -153,10 +145,9 @@ absolute position among all the elements in SERP
 
 #### Defined in
 
-[main.ts:93697](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L93697)
+main.ts:96074
 
 ___
-
 
 ### rank\_group
 
@@ -171,10 +162,9 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-[main.ts:93694](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L93694)
+main.ts:96071
 
 ___
-
 
 ### text
 
@@ -188,10 +178,9 @@ content within the item
 
 #### Defined in
 
-[main.ts:93711](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L93711)
+main.ts:96088
 
 ___
-
 
 ### title
 
@@ -205,10 +194,9 @@ title of a given link element
 
 #### Defined in
 
-[main.ts:93705](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L93705)
+main.ts:96082
 
 ___
-
 
 ### xpath
 
@@ -222,7 +210,7 @@ the XPath of the element
 
 #### Defined in
 
-[main.ts:93703](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L93703)
+main.ts:96080
 
 ## Methods
 
@@ -246,10 +234,9 @@ the XPath of the element
 
 #### Defined in
 
-[main.ts:93722](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L93722)
+main.ts:96099
 
 ___
-
 
 ### toJSON
 
@@ -271,10 +258,9 @@ ___
 
 #### Defined in
 
-[main.ts:93751](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L93751)
+main.ts:96128
 
 ___
-
 
 ### fromJS
 
@@ -296,8 +282,4 @@ ___
 
 #### Defined in
 
-[main.ts:93744](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L93744)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:96121

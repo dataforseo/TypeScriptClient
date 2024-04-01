@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IDataforseoLabsGoogleDomainRankOverviewLiveRequestInfo
+[Documentation](../README.md) / [Exports](../modules.md) / IDataforseoLabsGoogleDomainRankOverviewLiveRequestInfo
 
 # Interface: IDataforseoLabsGoogleDomainRankOverviewLiveRequestInfo
 
@@ -41,10 +37,9 @@ default value: false
 
 #### Defined in
 
-[main.ts:90647](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L90647)
+main.ts:93024
 
 ___
-
 
 ### language\_code
 
@@ -61,10 +56,9 @@ en
 
 #### Defined in
 
-[main.ts:90642](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L90642)
+main.ts:93019
 
 ___
-
 
 ### language\_name
 
@@ -81,10 +75,9 @@ English
 
 #### Defined in
 
-[main.ts:90633](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L90633)
+main.ts:93010
 
 ___
-
 
 ### limit
 
@@ -97,10 +90,9 @@ maximum value: 1000
 
 #### Defined in
 
-[main.ts:90652](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L90652)
+main.ts:93029
 
 ___
-
 
 ### location\_code
 
@@ -117,10 +109,9 @@ example:
 
 #### Defined in
 
-[main.ts:90624](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L90624)
+main.ts:93001
 
 ___
-
 
 ### location\_name
 
@@ -137,10 +128,9 @@ United Kingdom
 
 #### Defined in
 
-[main.ts:90615](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L90615)
+main.ts:92992
 
 ___
-
 
 ### offset
 
@@ -153,10 +143,9 @@ if you specify the 10 value, the first ten items in the results array will be om
 
 #### Defined in
 
-[main.ts:90657](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L90657)
+main.ts:93034
 
 ___
-
 
 ### tag
 
@@ -170,10 +159,9 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-[main.ts:90663](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L90663)
+main.ts:93040
 
 ___
-
 
 ### target
 
@@ -186,8 +174,4 @@ the domain should be specified without https:// and www.
 
 #### Defined in
 
-[main.ts:90606](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L90606)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:92983

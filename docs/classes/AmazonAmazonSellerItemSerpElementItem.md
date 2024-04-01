@@ -1,15 +1,11 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / AmazonAmazonSellerItemSerpElementItem
+[Documentation](../README.md) / [Exports](../modules.md) / AmazonAmazonSellerItemSerpElementItem
 
 # Class: AmazonAmazonSellerItemSerpElementItem
 
 ## Hierarchy
 
 - [`BaseAmazonSerpElementItem`](BaseAmazonSerpElementItem.md)
-  
+
   ↳ **`AmazonAmazonSellerItemSerpElementItem`**
 
 ## Implements
@@ -70,7 +66,7 @@
 
 #### Defined in
 
-[main.ts:174281](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L174281)
+main.ts:179734
 
 ## Properties
 
@@ -84,10 +80,9 @@
 
 #### Defined in
 
-[main.ts:20756](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L20756)
+main.ts:21275
 
 ___
-
 
 ### condition
 
@@ -102,10 +97,9 @@ condition of the product offered by the seller
 
 #### Defined in
 
-[main.ts:174271](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L174271)
+main.ts:179724
 
 ___
-
 
 ### condition\_description
 
@@ -120,10 +114,9 @@ expanded details on the condition of the product offered by the seller
 
 #### Defined in
 
-[main.ts:174274](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L174274)
+main.ts:179727
 
 ___
-
 
 ### delivery\_info
 
@@ -138,10 +131,9 @@ delivery information including free and fast delivery date ranges
 
 #### Defined in
 
-[main.ts:174277](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L174277)
+main.ts:179730
 
 ___
-
 
 ### position
 
@@ -157,10 +149,9 @@ left, right
 
 #### Defined in
 
-[main.ts:174254](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L174254)
+main.ts:179707
 
 ___
-
 
 ### price
 
@@ -175,10 +166,9 @@ if there are no details, the value will be null
 
 #### Defined in
 
-[main.ts:174265](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L174265)
+main.ts:179718
 
 ___
-
 
 ### rank\_absolute
 
@@ -193,10 +183,9 @@ absolute position among all the elements found in Amazon Sellers SERP
 
 #### Defined in
 
-[main.ts:174250](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L174250)
+main.ts:179703
 
 ___
-
 
 ### rank\_group
 
@@ -211,10 +200,9 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-[main.ts:174247](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L174247)
+main.ts:179700
 
 ___
-
 
 ### rating
 
@@ -229,10 +217,9 @@ seller popularity rate based on customer reviews
 
 #### Defined in
 
-[main.ts:174268](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L174268)
+main.ts:179721
 
 ___
-
 
 ### seller\_name
 
@@ -246,10 +233,9 @@ business name of the seller
 
 #### Defined in
 
-[main.ts:174258](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L174258)
+main.ts:179711
 
 ___
-
 
 ### seller\_url
 
@@ -263,10 +249,9 @@ url forwarding to the seller’s page on Amazon
 
 #### Defined in
 
-[main.ts:174260](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L174260)
+main.ts:179713
 
 ___
-
 
 ### ships\_from
 
@@ -280,10 +265,9 @@ sender company name
 
 #### Defined in
 
-[main.ts:174262](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L174262)
+main.ts:179715
 
 ___
-
 
 ### xpath
 
@@ -297,7 +281,7 @@ XPath of the element
 
 #### Defined in
 
-[main.ts:174256](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L174256)
+main.ts:179709
 
 ## Methods
 
@@ -321,10 +305,9 @@ XPath of the element
 
 #### Defined in
 
-[main.ts:174286](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L174286)
+main.ts:179739
 
 ___
-
 
 ### toJSON
 
@@ -346,10 +329,9 @@ ___
 
 #### Defined in
 
-[main.ts:174315](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L174315)
+main.ts:179768
 
 ___
-
 
 ### fromJS
 
@@ -371,8 +353,4 @@ ___
 
 #### Defined in
 
-[main.ts:174308](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L174308)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:179761

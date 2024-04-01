@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / ContentAnalysisSearchLiveItem
+[Documentation](../README.md) / [Exports](../modules.md) / ContentAnalysisSearchLiveItem
 
 # Class: ContentAnalysisSearchLiveItem
 
@@ -63,7 +59,7 @@
 
 #### Defined in
 
-[main.ts:156698](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L156698)
+main.ts:162125
 
 ## Properties
 
@@ -79,10 +75,9 @@ contains data on citations from the given url
 
 #### Defined in
 
-[main.ts:156694](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L156694)
+main.ts:162121
 
 ___
-
 
 ### country
 
@@ -97,10 +92,9 @@ to obtain a full list of available countries, refer to the Locations endpoint
 
 #### Defined in
 
-[main.ts:156673](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L156673)
+main.ts:162100
 
 ___
-
 
 ### domain
 
@@ -114,10 +108,9 @@ domain name
 
 #### Defined in
 
-[main.ts:156649](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L156649)
+main.ts:162076
 
 ___
-
 
 ### domain\_rank
 
@@ -134,10 +127,9 @@ learn more about the metric and how it is calculated in this help center article
 
 #### Defined in
 
-[main.ts:156665](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L156665)
+main.ts:162092
 
 ___
-
 
 ### fetch\_time
 
@@ -154,10 +146,9 @@ example:
 
 #### Defined in
 
-[main.ts:156670](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L156670)
+main.ts:162097
 
 ___
-
 
 ### language
 
@@ -172,10 +163,9 @@ to obtain a full list of available languages, refer to the Languages endpoint
 
 #### Defined in
 
-[main.ts:156676](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L156676)
+main.ts:162103
 
 ___
-
 
 ### main\_domain
 
@@ -189,10 +179,9 @@ main domain
 
 #### Defined in
 
-[main.ts:156651](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L156651)
+main.ts:162078
 
 ___
-
 
 ### page\_category
 
@@ -208,10 +197,9 @@ to obtain a full list of available categories, refer to the Categories endpoint
 
 #### Defined in
 
-[main.ts:156684](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L156684)
+main.ts:162111
 
 ___
-
 
 ### page\_types
 
@@ -225,10 +213,9 @@ page types
 
 #### Defined in
 
-[main.ts:156686](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L156686)
+main.ts:162113
 
 ___
-
 
 ### ratings
 
@@ -243,10 +230,9 @@ all ratings found on the page based on microdata
 
 #### Defined in
 
-[main.ts:156689](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L156689)
+main.ts:162116
 
 ___
-
 
 ### score
 
@@ -262,10 +248,9 @@ the higher the score, the more value the related citation has
 
 #### Defined in
 
-[main.ts:156680](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L156680)
+main.ts:162107
 
 ___
-
 
 ### social\_metrics
 
@@ -280,10 +265,9 @@ data on social media interactions associated with the content based on website e
 
 #### Defined in
 
-[main.ts:156692](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L156692)
+main.ts:162119
 
 ___
-
 
 ### spam\_score
 
@@ -299,10 +283,9 @@ learn more about how the metric is calculated on this help center page
 
 #### Defined in
 
-[main.ts:156660](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L156660)
+main.ts:162087
 
 ___
-
 
 ### type
 
@@ -316,10 +299,9 @@ type of element
 
 #### Defined in
 
-[main.ts:156645](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L156645)
+main.ts:162072
 
 ___
-
 
 ### url
 
@@ -333,10 +315,9 @@ URL where the citation was found
 
 #### Defined in
 
-[main.ts:156647](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L156647)
+main.ts:162074
 
 ___
-
 
 ### url\_rank
 
@@ -353,7 +334,7 @@ learn more about the metric and how it is calculated in this help center article
 
 #### Defined in
 
-[main.ts:156656](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L156656)
+main.ts:162083
 
 ## Methods
 
@@ -373,10 +354,9 @@ learn more about the metric and how it is calculated in this help center article
 
 #### Defined in
 
-[main.ts:156707](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L156707)
+main.ts:162134
 
 ___
-
 
 ### toJSON
 
@@ -394,10 +374,9 @@ ___
 
 #### Defined in
 
-[main.ts:156751](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L156751)
+main.ts:162178
 
 ___
-
 
 ### fromJS
 
@@ -415,8 +394,4 @@ ___
 
 #### Defined in
 
-[main.ts:156744](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L156744)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:162171

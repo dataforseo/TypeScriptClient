@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / TrendsTopicListDataInfo
+[Documentation](../README.md) / [Exports](../modules.md) / TrendsTopicListDataInfo
 
 # Class: TrendsTopicListDataInfo
 
@@ -49,7 +45,7 @@
 
 #### Defined in
 
-[main.ts:120845](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L120845)
+main.ts:124101
 
 ## Properties
 
@@ -66,10 +62,9 @@ represents the list of related topics with the biggest increase in search freque
 
 #### Defined in
 
-[main.ts:120841](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L120841)
+main.ts:124097
 
 ___
-
 
 ### top
 
@@ -84,7 +79,7 @@ represents the list of the most popular related topics
 
 #### Defined in
 
-[main.ts:120838](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L120838)
+main.ts:124094
 
 ## Methods
 
@@ -104,10 +99,9 @@ represents the list of the most popular related topics
 
 #### Defined in
 
-[main.ts:120854](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L120854)
+main.ts:124110
 
 ___
-
 
 ### toJSON
 
@@ -125,10 +119,9 @@ ___
 
 #### Defined in
 
-[main.ts:120880](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L120880)
+main.ts:124136
 
 ___
-
 
 ### fromJS
 
@@ -146,8 +139,4 @@ ___
 
 #### Defined in
 
-[main.ts:120873](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L120873)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:124129

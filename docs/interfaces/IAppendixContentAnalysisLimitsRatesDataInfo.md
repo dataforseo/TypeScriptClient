@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IAppendixContentAnalysisLimitsRatesDataInfo
+[Documentation](../README.md) / [Exports](../modules.md) / IAppendixContentAnalysisLimitsRatesDataInfo
 
 # Interface: IAppendixContentAnalysisLimitsRatesDataInfo
 
@@ -37,21 +33,19 @@
 
 #### Defined in
 
-[main.ts:208390](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L208390)
+main.ts:213915
 
 ___
-
 
 ### category\_trends
 
-• `Optional` **category\_trends**: [`AppendixInfo`](../classes/AppendixInfo.md)
+• `Optional` **category\_trends**: [`AppendixFunctionInfo`](../classes/AppendixFunctionInfo.md)
 
 #### Defined in
 
-[main.ts:208387](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L208387)
+main.ts:213912
 
 ___
-
 
 ### errors
 
@@ -59,10 +53,9 @@ ___
 
 #### Defined in
 
-[main.ts:208391](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L208391)
+main.ts:213916
 
 ___
-
 
 ### languages
 
@@ -70,10 +63,9 @@ ___
 
 #### Defined in
 
-[main.ts:208389](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L208389)
+main.ts:213914
 
 ___
-
 
 ### locations
 
@@ -81,63 +73,54 @@ ___
 
 #### Defined in
 
-[main.ts:208388](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L208388)
+main.ts:213913
 
 ___
-
 
 ### phrase\_trends
 
-• `Optional` **phrase\_trends**: [`AppendixInfo`](../classes/AppendixInfo.md)
+• `Optional` **phrase\_trends**: [`AppendixFunctionInfo`](../classes/AppendixFunctionInfo.md)
 
 #### Defined in
 
-[main.ts:208386](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L208386)
+main.ts:213911
 
 ___
-
 
 ### rating\_distribution
 
-• `Optional` **rating\_distribution**: [`AppendixInfo`](../classes/AppendixInfo.md)
+• `Optional` **rating\_distribution**: [`AppendixFunctionInfo`](../classes/AppendixFunctionInfo.md)
 
 #### Defined in
 
-[main.ts:208385](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L208385)
+main.ts:213910
 
 ___
-
 
 ### search
 
-• `Optional` **search**: [`AppendixInfo`](../classes/AppendixInfo.md)
+• `Optional` **search**: [`AppendixFunctionInfo`](../classes/AppendixFunctionInfo.md)
 
 #### Defined in
 
-[main.ts:208382](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L208382)
+main.ts:213907
 
 ___
-
 
 ### sentiment\_analysis
 
-• `Optional` **sentiment\_analysis**: [`AppendixInfo`](../classes/AppendixInfo.md)
+• `Optional` **sentiment\_analysis**: [`AppendixFunctionInfo`](../classes/AppendixFunctionInfo.md)
 
 #### Defined in
 
-[main.ts:208384](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L208384)
+main.ts:213909
 
 ___
 
-
 ### summary
 
-• `Optional` **summary**: [`AppendixInfo`](../classes/AppendixInfo.md)
+• `Optional` **summary**: [`AppendixFunctionInfo`](../classes/AppendixFunctionInfo.md)
 
 #### Defined in
 
-[main.ts:208383](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L208383)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:213908

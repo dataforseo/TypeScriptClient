@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / AmazonMetricsBundleInfo
+[Documentation](../README.md) / [Exports](../modules.md) / AmazonMetricsBundleInfo
 
 # Class: AmazonMetricsBundleInfo
 
@@ -49,7 +45,7 @@
 
 #### Defined in
 
-[main.ts:100656](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L100656)
+main.ts:103033
 
 ## Properties
 
@@ -65,10 +61,9 @@ ranking data from Amazon paid SERP
 
 #### Defined in
 
-[main.ts:100652](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L100652)
+main.ts:103029
 
 ___
-
 
 ### amazon\_serp
 
@@ -82,7 +77,7 @@ ranking data from Amazon organic SERP
 
 #### Defined in
 
-[main.ts:100650](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L100650)
+main.ts:103027
 
 ## Methods
 
@@ -102,10 +97,9 @@ ranking data from Amazon organic SERP
 
 #### Defined in
 
-[main.ts:100665](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L100665)
+main.ts:103042
 
 ___
-
 
 ### toJSON
 
@@ -123,10 +117,9 @@ ___
 
 #### Defined in
 
-[main.ts:100683](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L100683)
+main.ts:103060
 
 ___
-
 
 ### fromJS
 
@@ -144,8 +137,4 @@ ___
 
 #### Defined in
 
-[main.ts:100676](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L100676)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:103053

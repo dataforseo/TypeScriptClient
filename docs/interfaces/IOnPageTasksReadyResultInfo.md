@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IOnPageTasksReadyResultInfo
+[Documentation](../README.md) / [Exports](../modules.md) / IOnPageTasksReadyResultInfo
 
 # Interface: IOnPageTasksReadyResultInfo
 
@@ -33,10 +29,9 @@ date when the task was posted (in the UTC format)
 
 #### Defined in
 
-[main.ts:143084](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L143084)
+main.ts:148511
 
 ___
-
 
 ### id
 
@@ -47,10 +42,9 @@ unique task identifier in our system in the UUID format
 
 #### Defined in
 
-[main.ts:143080](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L143080)
+main.ts:148507
 
 ___
-
 
 ### tag
 
@@ -60,10 +54,9 @@ user-defined task identifier
 
 #### Defined in
 
-[main.ts:143086](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L143086)
+main.ts:148513
 
 ___
-
 
 ### target
 
@@ -73,8 +66,4 @@ target website specified when setting a task
 
 #### Defined in
 
-[main.ts:143082](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L143082)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:148509

@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IDomainAnalyticsWhoisOverviewLiveRequestInfo
+[Documentation](../README.md) / [Exports](../modules.md) / IDomainAnalyticsWhoisOverviewLiveRequestInfo
 
 # Interface: IDomainAnalyticsWhoisOverviewLiveRequestInfo
 
@@ -40,17 +36,16 @@ you can use the % operator with like and not_like to match any string of zero or
 examples:
 ["expiration_datetime", "<", "2021-02-15 01:00:00 +00:00"]
 [["expiration_datetime", "<", "2021-02-15 01:00:00 +00:00"],
-"and",
+ "and", 
 ["domain", "like", "%seo%"]]
 
 for more information about filters, please refer to Filters Page or this help center guide
 
 #### Defined in
 
-[main.ts:75711](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L75711)
+main.ts:78088
 
 ___
-
 
 ### limit
 
@@ -63,10 +58,9 @@ maximum value: 1000
 
 #### Defined in
 
-[main.ts:75691](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L75691)
+main.ts:78068
 
 ___
-
 
 ### offset
 
@@ -79,10 +73,9 @@ if you specify the 10 value, the first ten items in the results array will be om
 
 #### Defined in
 
-[main.ts:75696](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L75696)
+main.ts:78073
 
 ___
-
 
 ### order\_by
 
@@ -106,10 +99,9 @@ example:
 
 #### Defined in
 
-[main.ts:75727](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L75727)
+main.ts:78104
 
 ___
-
 
 ### tag
 
@@ -123,8 +115,4 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-[main.ts:75733](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L75733)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:78110

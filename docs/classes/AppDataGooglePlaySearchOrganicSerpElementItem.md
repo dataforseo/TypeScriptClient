@@ -1,15 +1,11 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / AppDataGooglePlaySearchOrganicSerpElementItem
+[Documentation](../README.md) / [Exports](../modules.md) / AppDataGooglePlaySearchOrganicSerpElementItem
 
 # Class: AppDataGooglePlaySearchOrganicSerpElementItem
 
 ## Hierarchy
 
 - [`BaseAppDataSerpElementItem`](BaseAppDataSerpElementItem.md)
-  
+
   ↳ **`AppDataGooglePlaySearchOrganicSerpElementItem`**
 
 ## Implements
@@ -71,7 +67,7 @@
 
 #### Defined in
 
-[main.ts:108514](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L108514)
+main.ts:110891
 
 ## Properties
 
@@ -85,10 +81,9 @@
 
 #### Defined in
 
-[main.ts:20450](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L20450)
+main.ts:20969
 
 ___
-
 
 ### app\_id
 
@@ -102,10 +97,9 @@ id of the app
 
 #### Defined in
 
-[main.ts:108492](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L108492)
+main.ts:110869
 
 ___
-
 
 ### developer
 
@@ -119,10 +113,9 @@ name of the app developer
 
 #### Defined in
 
-[main.ts:108508](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L108508)
+main.ts:110885
 
 ___
-
 
 ### developer\_url
 
@@ -136,10 +129,9 @@ URL to the developer page on Google Play
 
 #### Defined in
 
-[main.ts:108510](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L108510)
+main.ts:110887
 
 ___
-
 
 ### icon
 
@@ -153,10 +145,9 @@ URL to the app icon
 
 #### Defined in
 
-[main.ts:108498](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L108498)
+main.ts:110875
 
 ___
-
 
 ### is\_free
 
@@ -170,10 +161,9 @@ indicates whether the app is free
 
 #### Defined in
 
-[main.ts:108504](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L108504)
+main.ts:110881
 
 ___
-
 
 ### position
 
@@ -189,10 +179,9 @@ left, right
 
 #### Defined in
 
-[main.ts:108490](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L108490)
+main.ts:110867
 
 ___
-
 
 ### price
 
@@ -206,10 +195,9 @@ price of the app
 
 #### Defined in
 
-[main.ts:108506](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L108506)
+main.ts:110883
 
 ___
-
 
 ### rank\_absolute
 
@@ -224,10 +212,9 @@ absolute position among all the elements in SERP
 
 #### Defined in
 
-[main.ts:108486](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L108486)
+main.ts:110863
 
 ___
-
 
 ### rank\_group
 
@@ -242,10 +229,9 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-[main.ts:108483](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L108483)
+main.ts:110860
 
 ___
-
 
 ### rating
 
@@ -259,10 +245,9 @@ average rating of the app
 
 #### Defined in
 
-[main.ts:108502](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L108502)
+main.ts:110879
 
 ___
-
 
 ### reviews\_count
 
@@ -276,10 +261,9 @@ the total number of reviews of the app
 
 #### Defined in
 
-[main.ts:108500](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L108500)
+main.ts:110877
 
 ___
-
 
 ### title
 
@@ -293,10 +277,9 @@ title of the app
 
 #### Defined in
 
-[main.ts:108494](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L108494)
+main.ts:110871
 
 ___
-
 
 ### url
 
@@ -310,7 +293,7 @@ URL to the app page on Google Play
 
 #### Defined in
 
-[main.ts:108496](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L108496)
+main.ts:110873
 
 ## Methods
 
@@ -334,10 +317,9 @@ URL to the app page on Google Play
 
 #### Defined in
 
-[main.ts:108519](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L108519)
+main.ts:110896
 
 ___
-
 
 ### toJSON
 
@@ -359,10 +341,9 @@ ___
 
 #### Defined in
 
-[main.ts:108549](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L108549)
+main.ts:110926
 
 ___
-
 
 ### fromJS
 
@@ -384,8 +365,4 @@ ___
 
 #### Defined in
 
-[main.ts:108542](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L108542)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:110919

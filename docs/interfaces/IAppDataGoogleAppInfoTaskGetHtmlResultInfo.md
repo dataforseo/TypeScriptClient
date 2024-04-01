@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IAppDataGoogleAppInfoTaskGetHtmlResultInfo
+[Documentation](../README.md) / [Exports](../modules.md) / IAppDataGoogleAppInfoTaskGetHtmlResultInfo
 
 # Interface: IAppDataGoogleAppInfoTaskGetHtmlResultInfo
 
@@ -37,10 +33,9 @@ application ID received in a POST request
 
 #### Defined in
 
-[main.ts:180452](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L180452)
+main.ts:185905
 
 ___
-
 
 ### datetime
 
@@ -53,10 +48,9 @@ example:
 
 #### Defined in
 
-[main.ts:180465](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L180465)
+main.ts:185918
 
 ___
-
 
 ### items
 
@@ -66,10 +60,9 @@ HTML pages and related data
 
 #### Defined in
 
-[main.ts:180469](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L180469)
+main.ts:185922
 
 ___
-
 
 ### items\_count
 
@@ -79,10 +72,9 @@ the number of results returned in the items array
 
 #### Defined in
 
-[main.ts:180467](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L180467)
+main.ts:185920
 
 ___
-
 
 ### language\_code
 
@@ -92,10 +84,9 @@ language code in a POST array
 
 #### Defined in
 
-[main.ts:180460](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L180460)
+main.ts:185913
 
 ___
-
 
 ### location\_code
 
@@ -105,10 +96,9 @@ location code in a POST array
 
 #### Defined in
 
-[main.ts:180458](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L180458)
+main.ts:185911
 
 ___
-
 
 ### se\_domain
 
@@ -118,10 +108,9 @@ search engine domain in a POST array
 
 #### Defined in
 
-[main.ts:180456](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L180456)
+main.ts:185909
 
 ___
-
 
 ### type
 
@@ -131,8 +120,4 @@ type of element
 
 #### Defined in
 
-[main.ts:180454](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L180454)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:185907

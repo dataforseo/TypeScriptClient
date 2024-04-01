@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / PageContentInfo
+[Documentation](../README.md) / [Exports](../modules.md) / PageContentInfo
 
 # Class: PageContentInfo
 
@@ -51,7 +47,7 @@
 
 #### Defined in
 
-[main.ts:152207](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L152207)
+main.ts:157634
 
 ## Properties
 
@@ -67,10 +63,9 @@ parsed content of the footer
 
 #### Defined in
 
-[main.ts:152197](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L152197)
+main.ts:157624
 
 ___
-
 
 ### header
 
@@ -84,10 +79,9 @@ parsed content of the header
 
 #### Defined in
 
-[main.ts:152195](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L152195)
+main.ts:157622
 
 ___
-
 
 ### main\_topic
 
@@ -102,10 +96,9 @@ you can find more information about topic priority calculation in this help cent
 
 #### Defined in
 
-[main.ts:152200](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L152200)
+main.ts:157627
 
 ___
-
 
 ### secondary\_topic
 
@@ -120,7 +113,7 @@ you can find more information about topic priority calculation in this help cent
 
 #### Defined in
 
-[main.ts:152203](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L152203)
+main.ts:157630
 
 ## Methods
 
@@ -140,10 +133,9 @@ you can find more information about topic priority calculation in this help cent
 
 #### Defined in
 
-[main.ts:152216](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L152216)
+main.ts:157643
 
 ___
-
 
 ### toJSON
 
@@ -161,10 +153,9 @@ ___
 
 #### Defined in
 
-[main.ts:152244](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L152244)
+main.ts:157671
 
 ___
-
 
 ### fromJS
 
@@ -182,8 +173,4 @@ ___
 
 #### Defined in
 
-[main.ts:152237](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L152237)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:157664

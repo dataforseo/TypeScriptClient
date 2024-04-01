@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IMerchantAmazonReviewsTaskPostRequestInfo
+[Documentation](../README.md) / [Exports](../modules.md) / IMerchantAmazonReviewsTaskPostRequestInfo
 
 # Interface: IMerchantAmazonReviewsTaskPostRequestInfo
 
@@ -51,10 +47,9 @@ you can receive the asin parameter by making a separate request to the Amazon Pr
 
 #### Defined in
 
-[main.ts:175086](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L175086)
+main.ts:180539
 
 ___
-
 
 ### depth
 
@@ -69,10 +64,9 @@ default value: 10
 
 #### Defined in
 
-[main.ts:175147](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L175147)
+main.ts:180600
 
 ___
-
 
 ### filter\_by\_keyword
 
@@ -85,10 +79,9 @@ if you use this field, the response will only include reviews that contain the s
 
 #### Defined in
 
-[main.ts:175182](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L175182)
+main.ts:180635
 
 ___
-
 
 ### filter\_by\_star
 
@@ -110,10 +103,9 @@ default rule: all_stars
 
 #### Defined in
 
-[main.ts:175177](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L175177)
+main.ts:180630
 
 ___
-
 
 ### format\_type
 
@@ -130,10 +122,9 @@ Note: ASINs vary depending on a product modification. Thus, two modifications of
 
 #### Defined in
 
-[main.ts:175199](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L175199)
+main.ts:180652
 
 ___
-
 
 ### language\_code
 
@@ -148,10 +139,9 @@ en_GB
 
 #### Defined in
 
-[main.ts:175133](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L175133)
+main.ts:180586
 
 ___
-
 
 ### language\_name
 
@@ -167,10 +157,9 @@ English (United Kingdom)
 
 #### Defined in
 
-[main.ts:175126](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L175126)
+main.ts:180579
 
 ___
-
 
 ### location\_code
 
@@ -186,10 +175,9 @@ example:
 
 #### Defined in
 
-[main.ts:175109](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L175109)
+main.ts:180562
 
 ___
-
 
 ### location\_coordinate
 
@@ -206,10 +194,9 @@ example:
 
 #### Defined in
 
-[main.ts:175118](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L175118)
+main.ts:180571
 
 ___
-
 
 ### location\_name
 
@@ -224,10 +211,9 @@ HA1,England,United Kingdom
 
 #### Defined in
 
-[main.ts:175101](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L175101)
+main.ts:180554
 
 ___
-
 
 ### media\_type
 
@@ -243,10 +229,9 @@ default rule: all_contents
 
 #### Defined in
 
-[main.ts:175190](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L175190)
+main.ts:180643
 
 ___
-
 
 ### pingback\_url
 
@@ -264,10 +249,9 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-[main.ts:175231](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L175231)
+main.ts:180684
 
 ___
-
 
 ### postback\_data
 
@@ -281,10 +265,9 @@ advanced, html
 
 #### Defined in
 
-[main.ts:175221](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L175221)
+main.ts:180674
 
 ___
-
 
 ### postback\_url
 
@@ -302,10 +285,9 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-[main.ts:175215](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L175215)
+main.ts:180668
 
 ___
-
 
 ### priority
 
@@ -321,10 +303,9 @@ The cost can be calculated on the Pricing page.
 
 #### Defined in
 
-[main.ts:175094](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L175094)
+main.ts:180547
 
 ___
-
 
 ### reviewer\_type
 
@@ -340,10 +321,9 @@ default rule: all_reviews
 
 #### Defined in
 
-[main.ts:175163](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L175163)
+main.ts:180616
 
 ___
-
 
 ### se\_domain
 
@@ -358,10 +338,9 @@ amazon.com, amazon.co.uk, amazon.fr, etc.
 
 #### Defined in
 
-[main.ts:175140](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L175140)
+main.ts:180593
 
 ___
-
 
 ### sort\_by
 
@@ -377,10 +356,9 @@ default rule: helpful
 
 #### Defined in
 
-[main.ts:175155](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L175155)
+main.ts:180608
 
 ___
-
 
 ### tag
 
@@ -394,8 +372,4 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-[main.ts:175205](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L175205)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:180658

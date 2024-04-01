@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / KeywordsDataBingKeywordPerformanceTaskGetResultInfo
+[Documentation](../README.md) / [Exports](../modules.md) / KeywordsDataBingKeywordPerformanceTaskGetResultInfo
 
 # Class: KeywordsDataBingKeywordPerformanceTaskGetResultInfo
 
@@ -53,7 +49,7 @@
 
 #### Defined in
 
-[main.ts:127362](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L127362)
+main.ts:132729
 
 ## Properties
 
@@ -69,10 +65,9 @@ keyword in a POST array
 
 #### Defined in
 
-[main.ts:127341](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L127341)
+main.ts:132708
 
 ___
-
 
 ### keyword\_kpi
 
@@ -87,10 +82,9 @@ if there is no data, then the value is null
 
 #### Defined in
 
-[main.ts:127358](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L127358)
+main.ts:132725
 
 ___
-
 
 ### language\_code
 
@@ -105,10 +99,9 @@ if there is no data, then the value is null
 
 #### Defined in
 
-[main.ts:127347](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L127347)
+main.ts:132714
 
 ___
-
 
 ### location\_code
 
@@ -123,10 +116,9 @@ if there is no data, then the value is null
 
 #### Defined in
 
-[main.ts:127344](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L127344)
+main.ts:132711
 
 ___
-
 
 ### month
 
@@ -142,10 +134,9 @@ example:
 
 #### Defined in
 
-[main.ts:127355](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L127355)
+main.ts:132722
 
 ___
-
 
 ### year
 
@@ -161,7 +152,7 @@ example:
 
 #### Defined in
 
-[main.ts:127351](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L127351)
+main.ts:132718
 
 ## Methods
 
@@ -181,10 +172,9 @@ example:
 
 #### Defined in
 
-[main.ts:127371](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L127371)
+main.ts:132738
 
 ___
-
 
 ### toJSON
 
@@ -202,10 +192,9 @@ ___
 
 #### Defined in
 
-[main.ts:127393](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L127393)
+main.ts:132760
 
 ___
-
 
 ### fromJS
 
@@ -223,8 +212,4 @@ ___
 
 #### Defined in
 
-[main.ts:127386](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L127386)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:132753

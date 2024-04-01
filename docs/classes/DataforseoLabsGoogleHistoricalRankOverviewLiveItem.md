@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / DataforseoLabsGoogleHistoricalRankOverviewLiveItem
+[Documentation](../README.md) / [Exports](../modules.md) / DataforseoLabsGoogleHistoricalRankOverviewLiveItem
 
 # Class: DataforseoLabsGoogleHistoricalRankOverviewLiveItem
 
@@ -51,7 +47,7 @@
 
 #### Defined in
 
-[main.ts:96448](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L96448)
+main.ts:98825
 
 ## Properties
 
@@ -71,10 +67,9 @@ ranking data relevant to the specified domain
 
 #### Defined in
 
-[main.ts:96444](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L96444)
+main.ts:98821
 
 ___
-
 
 ### month
 
@@ -88,10 +83,9 @@ month for which the data is provided
 
 #### Defined in
 
-[main.ts:96442](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L96442)
+main.ts:98819
 
 ___
-
 
 ### se\_type
 
@@ -105,10 +99,9 @@ search engine type
 
 #### Defined in
 
-[main.ts:96438](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L96438)
+main.ts:98815
 
 ___
-
 
 ### year
 
@@ -122,7 +115,7 @@ year for which the data is provided
 
 #### Defined in
 
-[main.ts:96440](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L96440)
+main.ts:98817
 
 ## Methods
 
@@ -142,10 +135,9 @@ year for which the data is provided
 
 #### Defined in
 
-[main.ts:96457](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L96457)
+main.ts:98834
 
 ___
-
 
 ### toJSON
 
@@ -163,10 +155,9 @@ ___
 
 #### Defined in
 
-[main.ts:96483](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L96483)
+main.ts:98860
 
 ___
-
 
 ### fromJS
 
@@ -184,8 +175,4 @@ ___
 
 #### Defined in
 
-[main.ts:96476](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L96476)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:98853

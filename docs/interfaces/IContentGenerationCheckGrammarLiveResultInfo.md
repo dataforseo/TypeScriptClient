@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IContentGenerationCheckGrammarLiveResultInfo
+[Documentation](../README.md) / [Exports](../modules.md) / IContentGenerationCheckGrammarLiveResultInfo
 
 # Interface: IContentGenerationCheckGrammarLiveResultInfo
 
@@ -36,10 +32,9 @@ initial text in the POST request
 
 #### Defined in
 
-[main.ts:161670](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L161670)
+main.ts:167097
 
 ___
-
 
 ### input\_tokens
 
@@ -49,10 +44,9 @@ number of input tokens in the POST request
 
 #### Defined in
 
-[main.ts:161664](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L161664)
+main.ts:167091
 
 ___
-
 
 ### items
 
@@ -62,10 +56,9 @@ contains grammar or spelling errors and related data
 
 #### Defined in
 
-[main.ts:161676](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L161676)
+main.ts:167103
 
 ___
-
 
 ### items\_count
 
@@ -75,10 +68,9 @@ the number of results returned in the items array
 
 #### Defined in
 
-[main.ts:161674](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L161674)
+main.ts:167101
 
 ___
-
 
 ### language\_code
 
@@ -88,10 +80,9 @@ language code in the POST request
 
 #### Defined in
 
-[main.ts:161672](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L161672)
+main.ts:167099
 
 ___
-
 
 ### new\_tokens
 
@@ -101,10 +92,9 @@ number of new tokens in the response
 
 #### Defined in
 
-[main.ts:161668](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L161668)
+main.ts:167095
 
 ___
-
 
 ### output\_tokens
 
@@ -114,8 +104,4 @@ number of output tokens in the response
 
 #### Defined in
 
-[main.ts:161666](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L161666)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:167093

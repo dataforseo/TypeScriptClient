@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IKeywordsDataGoogleAdsAdTrafficByKeywordsTaskPostRequestInfo
+[Documentation](../README.md) / [Exports](../modules.md) / IKeywordsDataGoogleAdsAdTrafficByKeywordsTaskPostRequestInfo
 
 # Interface: IKeywordsDataGoogleAdsAdTrafficByKeywordsTaskPostRequestInfo
 
@@ -49,10 +45,9 @@ learn more in this help center article
 
 #### Defined in
 
-[main.ts:117782](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L117782)
+main.ts:120159
 
 ___
-
 
 ### date\_from
 
@@ -70,10 +65,9 @@ if Status endpoint returns true in the actual_data field, date_from can be set t
 
 #### Defined in
 
-[main.ts:117838](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L117838)
+main.ts:120215
 
 ___
-
 
 ### date\_interval
 
@@ -87,10 +81,9 @@ default value: next_month
 
 #### Defined in
 
-[main.ts:117853](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L117853)
+main.ts:120230
 
 ___
-
 
 ### date\_to
 
@@ -107,10 +100,9 @@ example:
 
 #### Defined in
 
-[main.ts:117847](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L117847)
+main.ts:120224
 
 ___
-
 
 ### keywords
 
@@ -130,10 +122,9 @@ to learn more about which symbols can be used, please refer to this article
 
 #### Defined in
 
-[main.ts:117776](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L117776)
+main.ts:120153
 
 ___
-
 
 ### language\_code
 
@@ -147,10 +138,9 @@ en
 
 #### Defined in
 
-[main.ts:117828](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L117828)
+main.ts:120205
 
 ___
-
 
 ### language\_name
 
@@ -164,10 +154,9 @@ English
 
 #### Defined in
 
-[main.ts:117822](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L117822)
+main.ts:120199
 
 ___
-
 
 ### location\_code
 
@@ -183,10 +172,9 @@ example:
 
 #### Defined in
 
-[main.ts:117807](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L117807)
+main.ts:120184
 
 ___
-
 
 ### location\_coordinate
 
@@ -203,10 +191,9 @@ example:
 
 #### Defined in
 
-[main.ts:117816](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L117816)
+main.ts:120193
 
 ___
-
 
 ### location\_name
 
@@ -222,10 +209,9 @@ London,England,United Kingdom
 
 #### Defined in
 
-[main.ts:117799](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L117799)
+main.ts:120176
 
 ___
-
 
 ### match
 
@@ -237,10 +223,9 @@ can take the following values: exact, broad, phrase
 
 #### Defined in
 
-[main.ts:117786](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L117786)
+main.ts:120163
 
 ___
-
 
 ### pingback\_url
 
@@ -258,10 +243,9 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-[main.ts:117878](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L117878)
+main.ts:120255
 
 ___
-
 
 ### postback\_url
 
@@ -279,10 +263,9 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-[main.ts:117868](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L117868)
+main.ts:120245
 
 ___
-
 
 ### search\_partners
 
@@ -295,10 +278,9 @@ default value: false – results are returned for Google search sites
 
 #### Defined in
 
-[main.ts:117791](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L117791)
+main.ts:120168
 
 ___
-
 
 ### sort\_by
 
@@ -311,10 +293,9 @@ default value: relevance
 
 #### Defined in
 
-[main.ts:117858](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L117858)
+main.ts:120235
 
 ___
-
 
 ### tag
 
@@ -328,8 +309,4 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-[main.ts:117884](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L117884)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:120261

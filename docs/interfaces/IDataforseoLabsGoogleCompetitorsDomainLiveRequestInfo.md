@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IDataforseoLabsGoogleCompetitorsDomainLiveRequestInfo
+[Documentation](../README.md) / [Exports](../modules.md) / IDataforseoLabsGoogleCompetitorsDomainLiveRequestInfo
 
 # Interface: IDataforseoLabsGoogleCompetitorsDomainLiveRequestInfo
 
@@ -63,10 +59,9 @@ slideshare.net
 
 #### Defined in
 
-[main.ts:88345](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L88345)
+main.ts:90722
 
 ___
-
 
 ### filters
 
@@ -88,10 +83,9 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 #### Defined in
 
-[main.ts:88291](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L88291)
+main.ts:90668
 
 ___
-
 
 ### intersecting\_domains
 
@@ -105,10 +99,9 @@ Note: you can specify up to 20 domains in this array
 
 #### Defined in
 
-[main.ts:88351](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L88351)
+main.ts:90728
 
 ___
-
 
 ### item\_types
 
@@ -125,10 +118,9 @@ default value:
 
 #### Defined in
 
-[main.ts:88277](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L88277)
+main.ts:90654
 
 ___
-
 
 ### language\_code
 
@@ -144,10 +136,9 @@ en
 
 #### Defined in
 
-[main.ts:88268](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L88268)
+main.ts:90645
 
 ___
-
 
 ### language\_name
 
@@ -163,10 +154,9 @@ English
 
 #### Defined in
 
-[main.ts:88260](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L88260)
+main.ts:90637
 
 ___
-
 
 ### limit
 
@@ -179,10 +169,9 @@ maximum value: 1000
 
 #### Defined in
 
-[main.ts:88313](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L88313)
+main.ts:90690
 
 ___
-
 
 ### location\_code
 
@@ -198,10 +187,9 @@ example:
 
 #### Defined in
 
-[main.ts:88252](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L88252)
+main.ts:90629
 
 ___
-
 
 ### location\_name
 
@@ -217,10 +205,9 @@ United Kingdom
 
 #### Defined in
 
-[main.ts:88244](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L88244)
+main.ts:90621
 
 ___
-
 
 ### max\_rank\_group
 
@@ -233,10 +220,9 @@ if you specify 10 here, we will extract competitors from the top 10 Google searc
 
 #### Defined in
 
-[main.ts:88323](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L88323)
+main.ts:90700
 
 ___
-
 
 ### offset
 
@@ -249,10 +235,9 @@ if you specify the 10 value, the first ten keywords in the results array will be
 
 #### Defined in
 
-[main.ts:88318](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L88318)
+main.ts:90695
 
 ___
-
 
 ### order\_by
 
@@ -277,10 +262,9 @@ Note: if the item_types array contains item types that are different from organi
 
 #### Defined in
 
-[main.ts:88308](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L88308)
+main.ts:90685
 
 ___
-
 
 ### tag
 
@@ -294,10 +278,9 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-[main.ts:88357](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L88357)
+main.ts:90734
 
 ___
-
 
 ### target
 
@@ -310,8 +293,4 @@ the domain should be specified without https:// and www.
 
 #### Defined in
 
-[main.ts:88236](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L88236)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:90613

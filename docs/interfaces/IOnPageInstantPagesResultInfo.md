@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IOnPageInstantPagesResultInfo
+[Documentation](../README.md) / [Exports](../modules.md) / IOnPageInstantPagesResultInfo
 
 # Interface: IOnPageInstantPagesResultInfo
 
@@ -36,10 +32,9 @@ you can find the full list of IPs used by our crawler in the Overview section
 
 #### Defined in
 
-[main.ts:153390](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L153390)
+main.ts:158817
 
 ___
-
 
 ### crawl\_progress
 
@@ -50,10 +45,9 @@ possible values: in_progress, finished
 
 #### Defined in
 
-[main.ts:153383](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L153383)
+main.ts:158810
 
 ___
-
 
 ### crawl\_status
 
@@ -64,10 +58,9 @@ in this case the value will be null
 
 #### Defined in
 
-[main.ts:153386](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L153386)
+main.ts:158813
 
 ___
-
 
 ### items
 
@@ -77,10 +70,9 @@ items array
 
 #### Defined in
 
-[main.ts:153394](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L153394)
+main.ts:158821
 
 ___
-
 
 ### items\_count
 
@@ -90,8 +82,4 @@ number of items in the results array
 
 #### Defined in
 
-[main.ts:153392](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L153392)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:158819

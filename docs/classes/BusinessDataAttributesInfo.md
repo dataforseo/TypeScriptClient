@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / BusinessDataAttributesInfo
+[Documentation](../README.md) / [Exports](../modules.md) / BusinessDataAttributesInfo
 
 # Class: BusinessDataAttributesInfo
 
@@ -49,7 +45,7 @@
 
 #### Defined in
 
-[main.ts:188604](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L188604)
+main.ts:194057
 
 ## Properties
 
@@ -70,10 +66,9 @@ indicates attributes a business entity can offer
 
 #### Defined in
 
-[main.ts:188597](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L188597)
+main.ts:194050
 
 ___
-
 
 ### unavailable\_attributes
 
@@ -92,7 +87,7 @@ indicates attributes a business entity cannot offer
 
 #### Defined in
 
-[main.ts:188600](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L188600)
+main.ts:194053
 
 ## Methods
 
@@ -112,10 +107,9 @@ indicates attributes a business entity cannot offer
 
 #### Defined in
 
-[main.ts:188613](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L188613)
+main.ts:194066
 
 ___
-
 
 ### toJSON
 
@@ -133,10 +127,9 @@ ___
 
 #### Defined in
 
-[main.ts:188643](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L188643)
+main.ts:194096
 
 ___
-
 
 ### fromJS
 
@@ -154,8 +147,4 @@ ___
 
 #### Defined in
 
-[main.ts:188636](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L188636)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:194089

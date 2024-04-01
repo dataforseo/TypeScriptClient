@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / SerpYoutubeVideoSubtitlesTaskGetAdvancedResultInfo
+[Documentation](../README.md) / [Exports](../modules.md) / SerpYoutubeVideoSubtitlesTaskGetAdvancedResultInfo
 
 # Class: SerpYoutubeVideoSubtitlesTaskGetAdvancedResultInfo
 
@@ -63,7 +59,7 @@
 
 #### Defined in
 
-[main.ts:60346](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L60346)
+main.ts:62721
 
 ## Properties
 
@@ -79,10 +75,9 @@ the category the video belongs to
 
 #### Defined in
 
-[main.ts:60334](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L60334)
+main.ts:62709
 
 ___
-
 
 ### check\_url
 
@@ -97,10 +92,9 @@ you can use it to make sure that we provided accurate results
 
 #### Defined in
 
-[main.ts:60313](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L60313)
+main.ts:62688
 
 ___
-
 
 ### datetime
 
@@ -117,10 +111,9 @@ example:
 
 #### Defined in
 
-[main.ts:60318](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L60318)
+main.ts:62693
 
 ___
-
 
 ### item\_types
 
@@ -137,10 +130,9 @@ youtube_subtitles
 
 #### Defined in
 
-[main.ts:60326](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L60326)
+main.ts:62701
 
 ___
-
 
 ### items
 
@@ -154,10 +146,9 @@ elements of search results found in SERP
 
 #### Defined in
 
-[main.ts:60342](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L60342)
+main.ts:62717
 
 ___
-
 
 ### items\_count
 
@@ -171,10 +162,9 @@ the number of results returned in the items array
 
 #### Defined in
 
-[main.ts:60340](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L60340)
+main.ts:62715
 
 ___
-
 
 ### language\_code
 
@@ -188,10 +178,9 @@ language code in a POST array
 
 #### Defined in
 
-[main.ts:60310](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L60310)
+main.ts:62685
 
 ___
-
 
 ### location\_code
 
@@ -205,10 +194,9 @@ location code in a POST array
 
 #### Defined in
 
-[main.ts:60308](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L60308)
+main.ts:62683
 
 ___
-
 
 ### origin\_language
 
@@ -222,10 +210,9 @@ language code of original text
 
 #### Defined in
 
-[main.ts:60332](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L60332)
+main.ts:62707
 
 ___
-
 
 ### se\_domain
 
@@ -239,10 +226,9 @@ search engine domain in a POST array
 
 #### Defined in
 
-[main.ts:60306](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L60306)
+main.ts:62681
 
 ___
-
 
 ### spell
 
@@ -257,10 +243,9 @@ if the search engine provided results for a keyword that was corrected, we will 
 
 #### Defined in
 
-[main.ts:60321](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L60321)
+main.ts:62696
 
 ___
-
 
 ### subtitles\_count
 
@@ -274,10 +259,9 @@ number of subtitles in the video
 
 #### Defined in
 
-[main.ts:60336](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L60336)
+main.ts:62711
 
 ___
-
 
 ### title
 
@@ -291,10 +275,9 @@ title of the video
 
 #### Defined in
 
-[main.ts:60338](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L60338)
+main.ts:62713
 
 ___
-
 
 ### translate\_language
 
@@ -308,10 +291,9 @@ language code of translated text
 
 #### Defined in
 
-[main.ts:60330](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L60330)
+main.ts:62705
 
 ___
-
 
 ### unsupported\_language
 
@@ -325,10 +307,9 @@ indicates whether the language is unsupported by the system
 
 #### Defined in
 
-[main.ts:60328](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L60328)
+main.ts:62703
 
 ___
-
 
 ### video\_id
 
@@ -342,7 +323,7 @@ ID of the video received in a POST array
 
 #### Defined in
 
-[main.ts:60304](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L60304)
+main.ts:62679
 
 ## Methods
 
@@ -362,10 +343,9 @@ ID of the video received in a POST array
 
 #### Defined in
 
-[main.ts:60355](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L60355)
+main.ts:62730
 
 ___
-
 
 ### toJSON
 
@@ -383,10 +363,9 @@ ___
 
 #### Defined in
 
-[main.ts:60395](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L60395)
+main.ts:62770
 
 ___
-
 
 ### fromJS
 
@@ -404,8 +383,4 @@ ___
 
 #### Defined in
 
-[main.ts:60388](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L60388)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:62763

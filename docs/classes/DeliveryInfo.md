@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / DeliveryInfo
+[Documentation](../README.md) / [Exports](../modules.md) / DeliveryInfo
 
 # Class: DeliveryInfo
 
@@ -50,7 +46,7 @@
 
 #### Defined in
 
-[main.ts:164527](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L164527)
+main.ts:169954
 
 ## Properties
 
@@ -67,10 +63,9 @@ message accompanying the delivery information as posted by the seller
 
 #### Defined in
 
-[main.ts:164516](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L164516)
+main.ts:169943
 
 ___
-
 
 ### delivery\_price
 
@@ -86,10 +81,9 @@ if free delivery is available, the value is null
 
 #### Defined in
 
-[main.ts:164520](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L164520)
+main.ts:169947
 
 ___
-
 
 ### stores\_count\_info
 
@@ -104,7 +98,7 @@ contains information about the number of stores that offer the same product
 
 #### Defined in
 
-[main.ts:164523](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L164523)
+main.ts:169950
 
 ## Methods
 
@@ -124,10 +118,9 @@ contains information about the number of stores that offer the same product
 
 #### Defined in
 
-[main.ts:164536](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L164536)
+main.ts:169963
 
 ___
-
 
 ### toJSON
 
@@ -145,10 +138,9 @@ ___
 
 #### Defined in
 
-[main.ts:164555](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L164555)
+main.ts:169982
 
 ___
-
 
 ### fromJS
 
@@ -166,8 +158,4 @@ ___
 
 #### Defined in
 
-[main.ts:164548](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L164548)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:169975

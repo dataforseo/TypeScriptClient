@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / CacheControl
+[Documentation](../README.md) / [Exports](../modules.md) / CacheControl
 
 # Class: CacheControl
 
@@ -49,7 +45,7 @@
 
 #### Defined in
 
-[main.ts:144746](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L144746)
+main.ts:150173
 
 ## Properties
 
@@ -65,10 +61,9 @@ indicates whether the page is cacheable
 
 #### Defined in
 
-[main.ts:144739](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L144739)
+main.ts:150166
 
 ___
-
 
 ### ttl
 
@@ -83,7 +78,7 @@ the amount of time the browser caches a resource
 
 #### Defined in
 
-[main.ts:144742](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L144742)
+main.ts:150169
 
 ## Methods
 
@@ -103,10 +98,9 @@ the amount of time the browser caches a resource
 
 #### Defined in
 
-[main.ts:144755](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L144755)
+main.ts:150182
 
 ___
-
 
 ### toJSON
 
@@ -124,10 +118,9 @@ ___
 
 #### Defined in
 
-[main.ts:144773](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L144773)
+main.ts:150200
 
 ___
-
 
 ### fromJS
 
@@ -145,8 +138,4 @@ ___
 
 #### Defined in
 
-[main.ts:144766](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L144766)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:150193

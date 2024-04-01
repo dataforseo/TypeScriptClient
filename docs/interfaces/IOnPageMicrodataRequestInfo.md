@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IOnPageMicrodataRequestInfo
+[Documentation](../README.md) / [Exports](../modules.md) / IOnPageMicrodataRequestInfo
 
 # Interface: IOnPageMicrodataRequestInfo
 
@@ -36,10 +32,9 @@ example:
 
 #### Defined in
 
-[main.ts:150562](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L150562)
+main.ts:155989
 
 ___
-
 
 ### tag
 
@@ -53,10 +48,9 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-[main.ts:150574](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L150574)
+main.ts:156001
 
 ___
-
 
 ### url
 
@@ -70,8 +64,4 @@ https://dataforseo.com/apis
 
 #### Defined in
 
-[main.ts:150568](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L150568)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:155995

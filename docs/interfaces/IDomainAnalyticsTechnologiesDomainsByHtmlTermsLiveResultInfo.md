@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IDomainAnalyticsTechnologiesDomainsByHtmlTermsLiveResultInfo
+[Documentation](../README.md) / [Exports](../modules.md) / IDomainAnalyticsTechnologiesDomainsByHtmlTermsLiveResultInfo
 
 # Interface: IDomainAnalyticsTechnologiesDomainsByHtmlTermsLiveResultInfo
 
@@ -34,10 +30,9 @@ items array
 
 #### Defined in
 
-[main.ts:74943](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L74943)
+main.ts:77320
 
 ___
-
 
 ### items\_count
 
@@ -47,10 +42,9 @@ number of items in the results array
 
 #### Defined in
 
-[main.ts:74935](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L74935)
+main.ts:77312
 
 ___
-
 
 ### offset
 
@@ -60,10 +54,9 @@ specified offset value
 
 #### Defined in
 
-[main.ts:74937](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L74937)
+main.ts:77314
 
 ___
-
 
 ### offset\_token
 
@@ -75,10 +68,9 @@ offset_token values are unique for each subsequent task
 
 #### Defined in
 
-[main.ts:74941](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L74941)
+main.ts:77318
 
 ___
-
 
 ### total\_count
 
@@ -88,8 +80,4 @@ total number of relevant items in the database
 
 #### Defined in
 
-[main.ts:74933](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L74933)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:77310

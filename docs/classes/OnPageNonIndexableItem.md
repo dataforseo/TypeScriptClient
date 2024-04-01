@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / OnPageNonIndexableItem
+[Documentation](../README.md) / [Exports](../modules.md) / OnPageNonIndexableItem
 
 # Class: OnPageNonIndexableItem
 
@@ -49,7 +45,7 @@
 
 #### Defined in
 
-[main.ts:149386](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L149386)
+main.ts:154813
 
 ## Properties
 
@@ -66,10 +62,9 @@ can take the following values: robots_txt, meta_tag, http_header, attribute, too
 
 #### Defined in
 
-[main.ts:149380](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L149380)
+main.ts:154807
 
 ___
-
 
 ### url
 
@@ -83,7 +78,7 @@ url of the non-indexable page
 
 #### Defined in
 
-[main.ts:149382](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L149382)
+main.ts:154809
 
 ## Methods
 
@@ -103,10 +98,9 @@ url of the non-indexable page
 
 #### Defined in
 
-[main.ts:149395](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L149395)
+main.ts:154822
 
 ___
-
 
 ### toJSON
 
@@ -124,10 +118,9 @@ ___
 
 #### Defined in
 
-[main.ts:149413](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L149413)
+main.ts:154840
 
 ___
-
 
 ### fromJS
 
@@ -145,8 +138,4 @@ ___
 
 #### Defined in
 
-[main.ts:149406](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L149406)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:154833

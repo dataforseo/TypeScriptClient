@@ -1,15 +1,11 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / ProductInformationImageRow
+[Documentation](../README.md) / [Exports](../modules.md) / ProductInformationImageRow
 
 # Class: ProductInformationImageRow
 
 ## Hierarchy
 
 - [`BaseProductInformationRowItem`](BaseProductInformationRowItem.md)
-  
+
   ↳ **`ProductInformationImageRow`**
 
 ## Implements
@@ -60,7 +56,7 @@
 
 #### Defined in
 
-[main.ts:172562](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L172562)
+main.ts:178015
 
 ## Properties
 
@@ -74,10 +70,9 @@
 
 #### Defined in
 
-[main.ts:21778](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L21778)
+main.ts:22297
 
 ___
-
 
 ### alt
 
@@ -91,10 +86,9 @@ alternative text of the related product image
 
 #### Defined in
 
-[main.ts:172556](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L172556)
+main.ts:178009
 
 ___
-
 
 ### url
 
@@ -108,7 +102,7 @@ URL of the image
 
 #### Defined in
 
-[main.ts:172558](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L172558)
+main.ts:178011
 
 ## Methods
 
@@ -132,10 +126,9 @@ URL of the image
 
 #### Defined in
 
-[main.ts:172567](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L172567)
+main.ts:178020
 
 ___
-
 
 ### toJSON
 
@@ -157,10 +150,9 @@ ___
 
 #### Defined in
 
-[main.ts:172586](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L172586)
+main.ts:178039
 
 ___
-
 
 ### fromJS
 
@@ -182,8 +174,4 @@ ___
 
 #### Defined in
 
-[main.ts:172579](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L172579)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:178032

@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / BacklinksApi
+[Documentation](../README.md) / [Exports](../modules.md) / BacklinksApi
 
 # Class: BacklinksApi
 
@@ -87,7 +83,7 @@
 
 #### Defined in
 
-[main.ts:10532](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L10532)
+main.ts:10983
 
 ## Properties
 
@@ -97,10 +93,9 @@
 
 #### Defined in
 
-[main.ts:10529](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L10529)
+main.ts:10980
 
 ___
-
 
 ### http
 
@@ -114,10 +109,9 @@ ___
 
 #### Defined in
 
-[main.ts:10528](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L10528)
+main.ts:10979
 
 ___
-
 
 ### jsonParseReviver
 
@@ -140,7 +134,7 @@ ___
 
 #### Defined in
 
-[main.ts:10530](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L10530)
+main.ts:10981
 
 ## Methods
 
@@ -162,10 +156,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:10825](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L10825)
+main.ts:11276
 
 ___
-
 
 ### backlinksAvailableFilters
 
@@ -179,10 +172,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:10624](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L10624)
+main.ts:11075
 
 ___
-
 
 ### backlinksErrors
 
@@ -202,10 +194,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:10583](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L10583)
+main.ts:11034
 
 ___
-
 
 ### backlinksIdList
 
@@ -225,10 +216,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:10541](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L10541)
+main.ts:10992
 
 ___
-
 
 ### backlinksLive
 
@@ -248,10 +238,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:10783](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L10783)
+main.ts:11234
 
 ___
-
 
 ### bulkBacklinksLive
 
@@ -271,10 +260,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:11287](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L11287)
+main.ts:11738
 
 ___
-
 
 ### bulkNewLostBacklinksLive
 
@@ -294,10 +282,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:11413](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L11413)
+main.ts:11864
 
 ___
-
 
 ### bulkNewLostReferringDomainsLive
 
@@ -317,10 +304,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:11455](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L11455)
+main.ts:11906
 
 ___
-
 
 ### bulkRanksLive
 
@@ -340,10 +326,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:11245](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L11245)
+main.ts:11696
 
 ___
-
 
 ### bulkReferringDomainsLive
 
@@ -363,10 +348,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:11371](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L11371)
+main.ts:11822
 
 ___
-
 
 ### bulkSpamScoreLive
 
@@ -386,10 +370,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:11329](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L11329)
+main.ts:11780
 
 ___
-
 
 ### competitorsLive
 
@@ -409,10 +392,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:11035](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L11035)
+main.ts:11486
 
 ___
-
 
 ### domainIntersectionLive
 
@@ -432,10 +414,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:11077](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L11077)
+main.ts:11528
 
 ___
-
 
 ### domainPagesLive
 
@@ -455,10 +436,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:10867](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L10867)
+main.ts:11318
 
 ___
-
 
 ### domainPagesSummaryLive
 
@@ -478,10 +458,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:10909](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L10909)
+main.ts:11360
 
 ___
-
 
 ### historyLive
 
@@ -501,10 +480,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:10741](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L10741)
+main.ts:11192
 
 ___
-
 
 ### index
 
@@ -518,10 +496,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:10661](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L10661)
+main.ts:11112
 
 ___
-
 
 ### pageIntersectionLive
 
@@ -541,10 +518,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:11119](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L11119)
+main.ts:11570
 
 ___
-
 
 ### processAnchorsLive
 
@@ -562,10 +538,9 @@ ___
 
 #### Defined in
 
-[main.ts:10845](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L10845)
+main.ts:11296
 
 ___
-
 
 ### processBacklinksAvailableFilters
 
@@ -583,10 +558,9 @@ ___
 
 #### Defined in
 
-[main.ts:10640](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L10640)
+main.ts:11091
 
 ___
-
 
 ### processBacklinksErrors
 
@@ -604,10 +578,9 @@ ___
 
 #### Defined in
 
-[main.ts:10603](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L10603)
+main.ts:11054
 
 ___
-
 
 ### processBacklinksIdList
 
@@ -625,10 +598,9 @@ ___
 
 #### Defined in
 
-[main.ts:10561](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L10561)
+main.ts:11012
 
 ___
-
 
 ### processBacklinksLive
 
@@ -646,10 +618,9 @@ ___
 
 #### Defined in
 
-[main.ts:10803](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L10803)
+main.ts:11254
 
 ___
-
 
 ### processBulkBacklinksLive
 
@@ -667,10 +638,9 @@ ___
 
 #### Defined in
 
-[main.ts:11307](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L11307)
+main.ts:11758
 
 ___
-
 
 ### processBulkNewLostBacklinksLive
 
@@ -688,10 +658,9 @@ ___
 
 #### Defined in
 
-[main.ts:11433](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L11433)
+main.ts:11884
 
 ___
-
 
 ### processBulkNewLostReferringDomainsLive
 
@@ -709,10 +678,9 @@ ___
 
 #### Defined in
 
-[main.ts:11475](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L11475)
+main.ts:11926
 
 ___
-
 
 ### processBulkRanksLive
 
@@ -730,10 +698,9 @@ ___
 
 #### Defined in
 
-[main.ts:11265](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L11265)
+main.ts:11716
 
 ___
-
 
 ### processBulkReferringDomainsLive
 
@@ -751,10 +718,9 @@ ___
 
 #### Defined in
 
-[main.ts:11391](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L11391)
+main.ts:11842
 
 ___
-
 
 ### processBulkSpamScoreLive
 
@@ -772,10 +738,9 @@ ___
 
 #### Defined in
 
-[main.ts:11349](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L11349)
+main.ts:11800
 
 ___
-
 
 ### processCompetitorsLive
 
@@ -793,10 +758,9 @@ ___
 
 #### Defined in
 
-[main.ts:11055](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L11055)
+main.ts:11506
 
 ___
-
 
 ### processDomainIntersectionLive
 
@@ -814,10 +778,9 @@ ___
 
 #### Defined in
 
-[main.ts:11097](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L11097)
+main.ts:11548
 
 ___
-
 
 ### processDomainPagesLive
 
@@ -835,10 +798,9 @@ ___
 
 #### Defined in
 
-[main.ts:10887](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L10887)
+main.ts:11338
 
 ___
-
 
 ### processDomainPagesSummaryLive
 
@@ -856,10 +818,9 @@ ___
 
 #### Defined in
 
-[main.ts:10929](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L10929)
+main.ts:11380
 
 ___
-
 
 ### processHistoryLive
 
@@ -877,10 +838,9 @@ ___
 
 #### Defined in
 
-[main.ts:10761](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L10761)
+main.ts:11212
 
 ___
-
 
 ### processIndex
 
@@ -898,10 +858,9 @@ ___
 
 #### Defined in
 
-[main.ts:10677](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L10677)
+main.ts:11128
 
 ___
-
 
 ### processPageIntersectionLive
 
@@ -919,10 +878,9 @@ ___
 
 #### Defined in
 
-[main.ts:11139](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L11139)
+main.ts:11590
 
 ___
-
 
 ### processReferringDomainsLive
 
@@ -940,10 +898,9 @@ ___
 
 #### Defined in
 
-[main.ts:10971](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L10971)
+main.ts:11422
 
 ___
-
 
 ### processReferringNetworksLive
 
@@ -961,10 +918,9 @@ ___
 
 #### Defined in
 
-[main.ts:11013](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L11013)
+main.ts:11464
 
 ___
-
 
 ### processSummaryLive
 
@@ -982,10 +938,9 @@ ___
 
 #### Defined in
 
-[main.ts:10719](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L10719)
+main.ts:11170
 
 ___
-
 
 ### processTimeseriesNewLostSummaryLive
 
@@ -1003,10 +958,9 @@ ___
 
 #### Defined in
 
-[main.ts:11223](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L11223)
+main.ts:11674
 
 ___
-
 
 ### processTimeseriesSummaryLive
 
@@ -1024,10 +978,9 @@ ___
 
 #### Defined in
 
-[main.ts:11181](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L11181)
+main.ts:11632
 
 ___
-
 
 ### referringDomainsLive
 
@@ -1047,10 +1000,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:10951](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L10951)
+main.ts:11402
 
 ___
-
 
 ### referringNetworksLive
 
@@ -1070,10 +1022,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:10993](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L10993)
+main.ts:11444
 
 ___
-
 
 ### summaryLive
 
@@ -1093,10 +1044,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:10699](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L10699)
+main.ts:11150
 
 ___
-
 
 ### timeseriesNewLostSummaryLive
 
@@ -1116,10 +1066,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:11203](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L11203)
+main.ts:11654
 
 ___
-
 
 ### timeseriesSummaryLive
 
@@ -1139,8 +1088,4 @@ Successful operation
 
 #### Defined in
 
-[main.ts:11161](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L11161)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:11612

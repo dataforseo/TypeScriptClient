@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / FetchTiming
+[Documentation](../README.md) / [Exports](../modules.md) / FetchTiming
 
 # Class: FetchTiming
 
@@ -50,7 +46,7 @@
 
 #### Defined in
 
-[main.ts:146023](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L146023)
+main.ts:151450
 
 ## Properties
 
@@ -66,10 +62,9 @@ indicates how many milliseconds it took to fetch a resource
 
 #### Defined in
 
-[main.ts:146013](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L146013)
+main.ts:151440
 
 ___
-
 
 ### fetch\_end
 
@@ -84,10 +79,9 @@ the amount of time a browser needs to complete downloading a resource
 
 #### Defined in
 
-[main.ts:146019](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L146019)
+main.ts:151446
 
 ___
-
 
 ### fetch\_start
 
@@ -102,7 +96,7 @@ the amount of time a browser needs to start downloading a resource
 
 #### Defined in
 
-[main.ts:146016](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L146016)
+main.ts:151443
 
 ## Methods
 
@@ -122,10 +116,9 @@ the amount of time a browser needs to start downloading a resource
 
 #### Defined in
 
-[main.ts:146032](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L146032)
+main.ts:151459
 
 ___
-
 
 ### toJSON
 
@@ -143,10 +136,9 @@ ___
 
 #### Defined in
 
-[main.ts:146051](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L146051)
+main.ts:151478
 
 ___
-
 
 ### fromJS
 
@@ -164,8 +156,4 @@ ___
 
 #### Defined in
 
-[main.ts:146044](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L146044)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:151471

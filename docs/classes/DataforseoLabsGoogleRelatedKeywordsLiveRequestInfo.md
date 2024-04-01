@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / DataforseoLabsGoogleRelatedKeywordsLiveRequestInfo
+[Documentation](../README.md) / [Exports](../modules.md) / DataforseoLabsGoogleRelatedKeywordsLiveRequestInfo
 
 # Class: DataforseoLabsGoogleRelatedKeywordsLiveRequestInfo
 
@@ -62,7 +58,7 @@
 
 #### Defined in
 
-[main.ts:80093](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L80093)
+main.ts:82470
 
 ## Properties
 
@@ -88,10 +84,9 @@ estimated number of keywords for each level (maximum):
 
 #### Defined in
 
-[main.ts:80016](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L80016)
+main.ts:82393
 
 ___
-
 
 ### filters
 
@@ -122,10 +117,9 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 #### Defined in
 
-[main.ts:80057](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L80057)
+main.ts:82434
 
 ___
-
 
 ### ignore\_synonyms
 
@@ -142,10 +136,9 @@ default value: false
 
 #### Defined in
 
-[main.ts:80031](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L80031)
+main.ts:82408
 
 ___
-
 
 ### include\_seed\_keyword
 
@@ -162,10 +155,9 @@ default value: false
 
 #### Defined in
 
-[main.ts:80021](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L80021)
+main.ts:82398
 
 ___
-
 
 ### include\_serp\_info
 
@@ -182,10 +174,9 @@ default value: false
 
 #### Defined in
 
-[main.ts:80026](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L80026)
+main.ts:82403
 
 ___
-
 
 ### keyword
 
@@ -203,10 +194,9 @@ the keywords will be converted to lowercase format
 
 #### Defined in
 
-[main.ts:79972](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L79972)
+main.ts:82349
 
 ___
-
 
 ### language\_code
 
@@ -226,10 +216,9 @@ en
 
 #### Defined in
 
-[main.ts:80004](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L80004)
+main.ts:82381
 
 ___
-
 
 ### language\_name
 
@@ -249,10 +238,9 @@ English
 
 #### Defined in
 
-[main.ts:79996](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L79996)
+main.ts:82373
 
 ___
-
 
 ### limit
 
@@ -269,10 +257,9 @@ maximum value: 1000
 
 #### Defined in
 
-[main.ts:80078](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L80078)
+main.ts:82455
 
 ___
-
 
 ### location\_code
 
@@ -292,10 +279,9 @@ example:
 
 #### Defined in
 
-[main.ts:79988](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L79988)
+main.ts:82365
 
 ___
-
 
 ### location\_name
 
@@ -315,10 +301,9 @@ United Kingdom
 
 #### Defined in
 
-[main.ts:79980](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L79980)
+main.ts:82357
 
 ___
-
 
 ### offset
 
@@ -335,10 +320,9 @@ if you specify the 10 value, the first ten keywords in the results array will be
 
 #### Defined in
 
-[main.ts:80083](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L80083)
+main.ts:82460
 
 ___
-
 
 ### order\_by
 
@@ -366,10 +350,9 @@ example:
 
 #### Defined in
 
-[main.ts:80073](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L80073)
+main.ts:82450
 
 ___
-
 
 ### replace\_with\_core\_keyword
 
@@ -388,10 +371,9 @@ default value: false
 
 #### Defined in
 
-[main.ts:80038](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L80038)
+main.ts:82415
 
 ___
-
 
 ### tag
 
@@ -409,7 +391,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-[main.ts:80089](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L80089)
+main.ts:82466
 
 ## Methods
 
@@ -429,10 +411,9 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-[main.ts:80102](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L80102)
+main.ts:82479
 
 ___
-
 
 ### toJSON
 
@@ -450,10 +431,9 @@ ___
 
 #### Defined in
 
-[main.ts:80141](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L80141)
+main.ts:82518
 
 ___
-
 
 ### fromJS
 
@@ -471,8 +451,4 @@ ___
 
 #### Defined in
 
-[main.ts:80134](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L80134)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:82511

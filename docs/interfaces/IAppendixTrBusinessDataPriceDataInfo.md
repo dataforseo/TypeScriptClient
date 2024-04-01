@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IAppendixTrBusinessDataPriceDataInfo
+[Documentation](../README.md) / [Exports](../modules.md) / IAppendixTrBusinessDataPriceDataInfo
 
 # Interface: IAppendixTrBusinessDataPriceDataInfo
 
@@ -25,23 +21,18 @@
 
 ### reviews
 
-• `Optional` **reviews**: [`AppendixGoogleBusinessDataPriceDataInfo`](../classes/AppendixGoogleBusinessDataPriceDataInfo.md)
+• `Optional` **reviews**: [`AppendixHotelSearchesGoogleBusinessDataPriceData`](../classes/AppendixHotelSearchesGoogleBusinessDataPriceData.md)
 
 #### Defined in
 
-[main.ts:211284](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L211284)
+main.ts:216877
 
 ___
 
-
 ### search
 
-• `Optional` **search**: [`AppendixGoogleBusinessDataPriceDataInfo`](../classes/AppendixGoogleBusinessDataPriceDataInfo.md)
+• `Optional` **search**: [`AppendixHotelSearchesGoogleBusinessDataPriceData`](../classes/AppendixHotelSearchesGoogleBusinessDataPriceData.md)
 
 #### Defined in
 
-[main.ts:211285](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L211285)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:216878

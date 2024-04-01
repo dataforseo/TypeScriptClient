@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / SerpGoogleLocationsResultInfo
+[Documentation](../README.md) / [Exports](../modules.md) / SerpGoogleLocationsResultInfo
 
 # Class: SerpGoogleLocationsResultInfo
 
@@ -52,7 +48,7 @@
 
 #### Defined in
 
-[main.ts:24079](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L24079)
+main.ts:24598
 
 ## Properties
 
@@ -68,10 +64,9 @@ ISO country code of the location
 
 #### Defined in
 
-[main.ts:24073](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L24073)
+main.ts:24592
 
 ___
-
 
 ### location\_code
 
@@ -85,10 +80,9 @@ location code
 
 #### Defined in
 
-[main.ts:24060](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L24060)
+main.ts:24579
 
 ___
-
 
 ### location\_code\_parent
 
@@ -109,10 +103,9 @@ where location_code_parent corresponds to:
 
 #### Defined in
 
-[main.ts:24071](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L24071)
+main.ts:24590
 
 ___
-
 
 ### location\_name
 
@@ -126,10 +119,9 @@ full name of the location
 
 #### Defined in
 
-[main.ts:24062](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L24062)
+main.ts:24581
 
 ___
-
 
 ### location\_type
 
@@ -143,7 +135,7 @@ location type
 
 #### Defined in
 
-[main.ts:24075](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L24075)
+main.ts:24594
 
 ## Methods
 
@@ -163,10 +155,9 @@ location type
 
 #### Defined in
 
-[main.ts:24088](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L24088)
+main.ts:24607
 
 ___
-
 
 ### toJSON
 
@@ -184,10 +175,9 @@ ___
 
 #### Defined in
 
-[main.ts:24109](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L24109)
+main.ts:24628
 
 ___
-
 
 ### fromJS
 
@@ -205,8 +195,4 @@ ___
 
 #### Defined in
 
-[main.ts:24102](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L24102)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:24621

@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / BusinessDataSocialMediaFacebookLiveRequestInfo
+[Documentation](../README.md) / [Exports](../modules.md) / BusinessDataSocialMediaFacebookLiveRequestInfo
 
 # Class: BusinessDataSocialMediaFacebookLiveRequestInfo
 
@@ -49,7 +45,7 @@
 
 #### Defined in
 
-[main.ts:205899](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L205899)
+main.ts:211360
 
 ## Properties
 
@@ -69,10 +65,9 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-[main.ts:205895](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L205895)
+main.ts:211356
 
 ___
-
 
 ### targets
 
@@ -91,7 +86,7 @@ Note: you can specify 10 targets maximum. You will be charged per earch URL you 
 
 #### Defined in
 
-[main.ts:205889](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L205889)
+main.ts:211350
 
 ## Methods
 
@@ -111,10 +106,9 @@ Note: you can specify 10 targets maximum. You will be charged per earch URL you 
 
 #### Defined in
 
-[main.ts:205908](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L205908)
+main.ts:211369
 
 ___
-
 
 ### toJSON
 
@@ -132,10 +126,9 @@ ___
 
 #### Defined in
 
-[main.ts:205930](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L205930)
+main.ts:211391
 
 ___
-
 
 ### fromJS
 
@@ -153,8 +146,4 @@ ___
 
 #### Defined in
 
-[main.ts:205923](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L205923)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:211384

@@ -1,15 +1,11 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / ImagesSearchSerpElementItem
+[Documentation](../README.md) / [Exports](../modules.md) / ImagesSearchSerpElementItem
 
 # Class: ImagesSearchSerpElementItem
 
 ## Hierarchy
 
 - [`BaseSerpElementItem`](BaseSerpElementItem.md)
-  
+
   ↳ **`ImagesSearchSerpElementItem`**
 
 ## Implements
@@ -67,7 +63,7 @@
 
 #### Defined in
 
-[main.ts:46119](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L46119)
+main.ts:46870
 
 ## Properties
 
@@ -81,10 +77,9 @@
 
 #### Defined in
 
-[main.ts:19337](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L19337)
+main.ts:19788
 
 ___
-
 
 ### alt
 
@@ -98,10 +93,9 @@ the alt tag of the image
 
 #### Defined in
 
-[main.ts:46109](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L46109)
+main.ts:46860
 
 ___
-
 
 ### encoded\_url
 
@@ -115,10 +109,9 @@ the URL of the cached version of the image stored on Google’s servers
 
 #### Defined in
 
-[main.ts:46115](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L46115)
+main.ts:46866
 
 ___
-
 
 ### rank\_absolute
 
@@ -133,10 +126,9 @@ absolute position among all the elements in SERP
 
 #### Defined in
 
-[main.ts:46101](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L46101)
+main.ts:46852
 
 ___
-
 
 ### rank\_group
 
@@ -152,10 +144,9 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-[main.ts:46098](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L46098)
+main.ts:46849
 
 ___
-
 
 ### source\_url
 
@@ -169,10 +160,9 @@ the URL of the source image
 
 #### Defined in
 
-[main.ts:46113](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L46113)
+main.ts:46864
 
 ___
-
 
 ### subtitle
 
@@ -186,10 +176,9 @@ subtitle of the result in SERP
 
 #### Defined in
 
-[main.ts:46107](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L46107)
+main.ts:46858
 
 ___
-
 
 ### title
 
@@ -203,10 +192,9 @@ title of the result in SERP
 
 #### Defined in
 
-[main.ts:46105](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L46105)
+main.ts:46856
 
 ___
-
 
 ### url
 
@@ -220,10 +208,9 @@ the URL of the page where the image is hosted
 
 #### Defined in
 
-[main.ts:46111](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L46111)
+main.ts:46862
 
 ___
-
 
 ### xpath
 
@@ -237,7 +224,7 @@ the XPath of the element
 
 #### Defined in
 
-[main.ts:46103](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L46103)
+main.ts:46854
 
 ## Methods
 
@@ -261,10 +248,9 @@ the XPath of the element
 
 #### Defined in
 
-[main.ts:46124](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L46124)
+main.ts:46875
 
 ___
-
 
 ### toJSON
 
@@ -286,10 +272,9 @@ ___
 
 #### Defined in
 
-[main.ts:46150](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L46150)
+main.ts:46901
 
 ___
-
 
 ### fromJS
 
@@ -311,8 +296,4 @@ ___
 
 #### Defined in
 
-[main.ts:46143](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L46143)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:46894

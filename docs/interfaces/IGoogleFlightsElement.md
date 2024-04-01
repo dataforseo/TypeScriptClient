@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IGoogleFlightsElement
+[Documentation](../README.md) / [Exports](../modules.md) / IGoogleFlightsElement
 
 # Interface: IGoogleFlightsElement
 
@@ -28,14 +24,13 @@
 
 • `Optional` **description**: `string`
 
-description of the results element in SERP
+description
 
 #### Defined in
 
-[main.ts:30657](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L30657)
+main.ts:31478
 
 ___
-
 
 ### type
 
@@ -45,10 +40,9 @@ type of element
 
 #### Defined in
 
-[main.ts:30655](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L30655)
+main.ts:31476
 
 ___
-
 
 ### url
 
@@ -58,8 +52,4 @@ URL
 
 #### Defined in
 
-[main.ts:30659](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L30659)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:31480

@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IRecipesElement
+[Documentation](../README.md) / [Exports](../modules.md) / IRecipesElement
 
 # Interface: IRecipesElement
 
@@ -33,55 +29,51 @@
 
 • `Optional` **description**: `string`
 
-description of the results element in SERP
+description
 
 #### Defined in
 
-[main.ts:31502](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L31502)
+main.ts:32353
 
 ___
-
 
 ### domain
 
 • `Optional` **domain**: `string`
 
-domain where a link points
+website domain
 
 #### Defined in
 
-[main.ts:31497](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L31497)
+main.ts:32348
 
 ___
-
 
 ### rating
 
 • `Optional` **rating**: [`RatingInfo`](../classes/RatingInfo.md)
 
-the item’s rating
+the item’s rating 
 the popularity rate based on reviews and displayed in SERP
 
 #### Defined in
 
-[main.ts:31507](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L31507)
+main.ts:32358
 
 ___
-
 
 ### source
 
 • `Optional` **source**: `string`
 
-web source of the hotel booking element
-indicates the source of information included in the element
+source of the element
+indicates the source of information included in the top_stories_element
 
 #### Defined in
 
-[main.ts:31500](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L31500)
+main.ts:32351
 
 ___
-
 
 ### time
 
@@ -91,23 +83,21 @@ the total time it takes to prepare the cook the dish
 
 #### Defined in
 
-[main.ts:31504](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L31504)
+main.ts:32355
 
 ___
-
 
 ### title
 
 • `Optional` **title**: `string`
 
-title of the row
+title of a given link element
 
 #### Defined in
 
-[main.ts:31493](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L31493)
+main.ts:32344
 
 ___
-
 
 ### type
 
@@ -117,10 +107,9 @@ type of element
 
 #### Defined in
 
-[main.ts:31491](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L31491)
+main.ts:32342
 
 ___
-
 
 ### url
 
@@ -130,8 +119,4 @@ URL
 
 #### Defined in
 
-[main.ts:31495](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L31495)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:32346

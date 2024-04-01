@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / HistoricalMetricsInfo
+[Documentation](../README.md) / [Exports](../modules.md) / HistoricalMetricsInfo
 
 # Class: HistoricalMetricsInfo
 
@@ -51,7 +47,7 @@
 
 #### Defined in
 
-[main.ts:98191](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L98191)
+main.ts:100568
 
 ## Properties
 
@@ -67,10 +63,9 @@ total count of organic SERPs that contain the domain
 
 #### Defined in
 
-[main.ts:98187](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L98187)
+main.ts:100564
 
 ___
-
 
 ### etv
 
@@ -87,10 +82,9 @@ learn more about how the metric is calculated in this help center article
 
 #### Defined in
 
-[main.ts:98185](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L98185)
+main.ts:100562
 
 ___
-
 
 ### month
 
@@ -104,10 +98,9 @@ month for which the data is provided
 
 #### Defined in
 
-[main.ts:98180](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L98180)
+main.ts:100557
 
 ___
-
 
 ### year
 
@@ -121,7 +114,7 @@ year for which the data is provided
 
 #### Defined in
 
-[main.ts:98178](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L98178)
+main.ts:100555
 
 ## Methods
 
@@ -141,10 +134,9 @@ year for which the data is provided
 
 #### Defined in
 
-[main.ts:98200](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L98200)
+main.ts:100577
 
 ___
-
 
 ### toJSON
 
@@ -162,10 +154,9 @@ ___
 
 #### Defined in
 
-[main.ts:98220](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L98220)
+main.ts:100597
 
 ___
-
 
 ### fromJS
 
@@ -183,8 +174,4 @@ ___
 
 #### Defined in
 
-[main.ts:98213](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L98213)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:100590

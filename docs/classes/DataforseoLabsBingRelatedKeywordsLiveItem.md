@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / DataforseoLabsBingRelatedKeywordsLiveItem
+[Documentation](../README.md) / [Exports](../modules.md) / DataforseoLabsBingRelatedKeywordsLiveItem
 
 # Class: DataforseoLabsBingRelatedKeywordsLiveItem
 
@@ -51,7 +47,7 @@
 
 #### Defined in
 
-[main.ts:105957](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L105957)
+main.ts:108334
 
 ## Properties
 
@@ -67,10 +63,9 @@ keyword search depth
 
 #### Defined in
 
-[main.ts:105950](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L105950)
+main.ts:108327
 
 ___
-
 
 ### keyword\_data
 
@@ -84,10 +79,9 @@ keyword data for the returned keyword
 
 #### Defined in
 
-[main.ts:105948](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L105948)
+main.ts:108325
 
 ___
-
 
 ### related\_keywords
 
@@ -102,10 +96,9 @@ represents the list of search queries which are related to the keyword returned 
 
 #### Defined in
 
-[main.ts:105953](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L105953)
+main.ts:108330
 
 ___
-
 
 ### se\_type
 
@@ -119,7 +112,7 @@ search engine type
 
 #### Defined in
 
-[main.ts:105946](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L105946)
+main.ts:108323
 
 ## Methods
 
@@ -139,10 +132,9 @@ search engine type
 
 #### Defined in
 
-[main.ts:105966](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L105966)
+main.ts:108343
 
 ___
-
 
 ### toJSON
 
@@ -160,10 +152,9 @@ ___
 
 #### Defined in
 
-[main.ts:105990](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L105990)
+main.ts:108367
 
 ___
-
 
 ### fromJS
 
@@ -181,8 +172,4 @@ ___
 
 #### Defined in
 
-[main.ts:105983](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L105983)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:108360

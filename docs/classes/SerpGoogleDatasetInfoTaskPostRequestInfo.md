@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / SerpGoogleDatasetInfoTaskPostRequestInfo
+[Documentation](../README.md) / [Exports](../modules.md) / SerpGoogleDatasetInfoTaskPostRequestInfo
 
 # Class: SerpGoogleDatasetInfoTaskPostRequestInfo
 
@@ -57,7 +53,7 @@
 
 #### Defined in
 
-[main.ts:51850](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L51850)
+main.ts:54225
 
 ## Properties
 
@@ -77,10 +73,9 @@ L2cvMTFqbl85ZHN6MQ==
 
 #### Defined in
 
-[main.ts:51786](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L51786)
+main.ts:54161
 
 ___
-
 
 ### device
 
@@ -96,10 +91,9 @@ possible value: desktop
 
 #### Defined in
 
-[main.ts:51810](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L51810)
+main.ts:54185
 
 ___
-
 
 ### language\_code
 
@@ -117,10 +111,9 @@ en
 
 #### Defined in
 
-[main.ts:51806](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L51806)
+main.ts:54181
 
 ___
-
 
 ### language\_name
 
@@ -138,10 +131,9 @@ English
 
 #### Defined in
 
-[main.ts:51800](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L51800)
+main.ts:54175
 
 ___
-
 
 ### os
 
@@ -158,10 +150,9 @@ default value: windows
 
 #### Defined in
 
-[main.ts:51815](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L51815)
+main.ts:54190
 
 ___
-
 
 ### pingback\_url
 
@@ -183,10 +174,9 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-[main.ts:51846](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L51846)
+main.ts:54221
 
 ___
-
 
 ### postback\_data
 
@@ -203,10 +193,9 @@ possible value: advanced
 
 #### Defined in
 
-[main.ts:51836](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L51836)
+main.ts:54211
 
 ___
-
 
 ### postback\_url
 
@@ -228,10 +217,9 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-[main.ts:51831](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L51831)
+main.ts:54206
 
 ___
-
 
 ### priority
 
@@ -251,10 +239,9 @@ The cost can be calculated on the Pricing page.
 
 #### Defined in
 
-[main.ts:51794](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L51794)
+main.ts:54169
 
 ___
-
 
 ### tag
 
@@ -272,7 +259,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-[main.ts:51821](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L51821)
+main.ts:54196
 
 ## Methods
 
@@ -292,10 +279,9 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-[main.ts:51859](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L51859)
+main.ts:54234
 
 ___
-
 
 ### toJSON
 
@@ -313,10 +299,9 @@ ___
 
 #### Defined in
 
-[main.ts:51885](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L51885)
+main.ts:54260
 
 ___
-
 
 ### fromJS
 
@@ -334,8 +319,4 @@ ___
 
 #### Defined in
 
-[main.ts:51878](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L51878)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:54253

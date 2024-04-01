@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / AppsInfo
+[Documentation](../README.md) / [Exports](../modules.md) / AppsInfo
 
 # Class: AppsInfo
 
@@ -50,7 +46,7 @@
 
 #### Defined in
 
-[main.ts:179768](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L179768)
+main.ts:185221
 
 ## Properties
 
@@ -66,10 +62,9 @@ ID of the app
 
 #### Defined in
 
-[main.ts:179760](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L179760)
+main.ts:185213
 
 ___
-
 
 ### title
 
@@ -83,10 +78,9 @@ title of the app
 
 #### Defined in
 
-[main.ts:179762](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L179762)
+main.ts:185215
 
 ___
-
 
 ### url
 
@@ -100,7 +94,7 @@ URL to the app page on Google Play
 
 #### Defined in
 
-[main.ts:179764](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L179764)
+main.ts:185217
 
 ## Methods
 
@@ -120,10 +114,9 @@ URL to the app page on Google Play
 
 #### Defined in
 
-[main.ts:179777](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L179777)
+main.ts:185230
 
 ___
-
 
 ### toJSON
 
@@ -141,10 +134,9 @@ ___
 
 #### Defined in
 
-[main.ts:179796](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L179796)
+main.ts:185249
 
 ___
-
 
 ### fromJS
 
@@ -162,8 +154,4 @@ ___
 
 #### Defined in
 
-[main.ts:179789](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L179789)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:185242

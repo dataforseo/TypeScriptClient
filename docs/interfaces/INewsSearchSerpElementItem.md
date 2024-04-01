@@ -1,15 +1,11 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / INewsSearchSerpElementItem
+[Documentation](../README.md) / [Exports](../modules.md) / INewsSearchSerpElementItem
 
 # Interface: INewsSearchSerpElementItem
 
 ## Hierarchy
 
 - [`IBaseSerpElementItem`](IBaseSerpElementItem.md)
-  
+
   ↳ **`INewsSearchSerpElementItem`**
 
 ## Implemented by
@@ -46,10 +42,9 @@ domain name of the result in SERP
 
 #### Defined in
 
-[main.ts:42589](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L42589)
+main.ts:43340
 
 ___
-
 
 ### image\_url
 
@@ -60,10 +55,9 @@ the URL leading to the image on the original resource or DataForSEO storage (in 
 
 #### Defined in
 
-[main.ts:42596](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L42596)
+main.ts:43347
 
 ___
-
 
 ### rank\_absolute
 
@@ -74,10 +68,9 @@ absolute position among all the elements in SERP
 
 #### Defined in
 
-[main.ts:42585](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L42585)
+main.ts:43336
 
 ___
-
 
 ### rank\_group
 
@@ -89,10 +82,9 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-[main.ts:42582](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L42582)
+main.ts:43333
 
 ___
-
 
 ### rectangle
 
@@ -104,10 +96,9 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 #### Defined in
 
-[main.ts:42609](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L42609)
+main.ts:43360
 
 ___
-
 
 ### snippet
 
@@ -117,10 +108,9 @@ snippet of the result in SERP
 
 #### Defined in
 
-[main.ts:42598](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L42598)
+main.ts:43349
 
 ___
-
 
 ### time\_published
 
@@ -130,10 +120,9 @@ indicates the time the result was published
 
 #### Defined in
 
-[main.ts:42600](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L42600)
+main.ts:43351
 
 ___
-
 
 ### timestamp
 
@@ -146,10 +135,9 @@ example:
 
 #### Defined in
 
-[main.ts:42605](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L42605)
+main.ts:43356
 
 ___
-
 
 ### title
 
@@ -159,10 +147,9 @@ title of the result in SERP
 
 #### Defined in
 
-[main.ts:42591](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L42591)
+main.ts:43342
 
 ___
-
 
 ### url
 
@@ -172,10 +159,9 @@ URL of the result in SERP
 
 #### Defined in
 
-[main.ts:42593](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L42593)
+main.ts:43344
 
 ___
-
 
 ### xpath
 
@@ -185,8 +171,4 @@ the XPath of the element
 
 #### Defined in
 
-[main.ts:42587](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L42587)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:43338

@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / KeywordsDataGoogleTrendsExploreTaskGetResultInfo
+[Documentation](../README.md) / [Exports](../modules.md) / KeywordsDataGoogleTrendsExploreTaskGetResultInfo
 
 # Class: KeywordsDataGoogleTrendsExploreTaskGetResultInfo
 
@@ -55,7 +51,7 @@
 
 #### Defined in
 
-[main.ts:121227](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L121227)
+main.ts:122982
 
 ## Properties
 
@@ -72,10 +68,9 @@ you can use it to make sure that we provided accurate results
 
 #### Defined in
 
-[main.ts:121214](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L121214)
+main.ts:122969
 
 ___
-
 
 ### datetime
 
@@ -92,10 +87,9 @@ example:
 
 #### Defined in
 
-[main.ts:121219](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L121219)
+main.ts:122974
 
 ___
-
 
 ### items
 
@@ -109,10 +103,9 @@ items on the Google Trends page
 
 #### Defined in
 
-[main.ts:121223](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L121223)
+main.ts:122978
 
 ___
-
 
 ### items\_count
 
@@ -126,10 +119,9 @@ the number of results returned in the items array
 
 #### Defined in
 
-[main.ts:121221](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L121221)
+main.ts:122976
 
 ___
-
 
 ### keywords
 
@@ -143,10 +135,9 @@ keywords in a POST array
 
 #### Defined in
 
-[main.ts:121203](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L121203)
+main.ts:122958
 
 ___
-
 
 ### language\_code
 
@@ -161,10 +152,9 @@ if there is no data, then the value is null
 
 #### Defined in
 
-[main.ts:121211](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L121211)
+main.ts:122966
 
 ___
-
 
 ### location\_code
 
@@ -179,10 +169,9 @@ if there is no data, then the value is null
 
 #### Defined in
 
-[main.ts:121208](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L121208)
+main.ts:122963
 
 ___
-
 
 ### type
 
@@ -196,7 +185,7 @@ type of element
 
 #### Defined in
 
-[main.ts:121205](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L121205)
+main.ts:122960
 
 ## Methods
 
@@ -216,10 +205,9 @@ type of element
 
 #### Defined in
 
-[main.ts:121236](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L121236)
+main.ts:122991
 
 ___
-
 
 ### toJSON
 
@@ -237,10 +225,9 @@ ___
 
 #### Defined in
 
-[main.ts:121268](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L121268)
+main.ts:123023
 
 ___
-
 
 ### fromJS
 
@@ -258,8 +245,4 @@ ___
 
 #### Defined in
 
-[main.ts:121261](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L121261)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:123016

@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / UserProfileInfo
+[Documentation](../README.md) / [Exports](../modules.md) / UserProfileInfo
 
 # Class: UserProfileInfo
 
@@ -52,7 +48,7 @@
 
 #### Defined in
 
-[main.ts:175554](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L175554)
+main.ts:181007
 
 ## Properties
 
@@ -68,10 +64,9 @@ URL to the profile picture of the reviewer
 
 #### Defined in
 
-[main.ts:175544](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L175544)
+main.ts:180997
 
 ___
-
 
 ### locations
 
@@ -85,10 +80,9 @@ country of the reviewer
 
 #### Defined in
 
-[main.ts:175550](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L175550)
+main.ts:181003
 
 ___
-
 
 ### name
 
@@ -102,10 +96,9 @@ the name of the reviewer
 
 #### Defined in
 
-[main.ts:175542](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L175542)
+main.ts:180995
 
 ___
-
 
 ### reviews\_count
 
@@ -119,10 +112,9 @@ total number of reviews submitted by the reviewer
 
 #### Defined in
 
-[main.ts:175548](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L175548)
+main.ts:181001
 
 ___
-
 
 ### url
 
@@ -136,7 +128,7 @@ URL to the reviewer’s profile
 
 #### Defined in
 
-[main.ts:175546](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L175546)
+main.ts:180999
 
 ## Methods
 
@@ -156,10 +148,9 @@ URL to the reviewer’s profile
 
 #### Defined in
 
-[main.ts:175563](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L175563)
+main.ts:181016
 
 ___
-
 
 ### toJSON
 
@@ -177,10 +168,9 @@ ___
 
 #### Defined in
 
-[main.ts:175584](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L175584)
+main.ts:181037
 
 ___
-
 
 ### fromJS
 
@@ -198,8 +188,4 @@ ___
 
 #### Defined in
 
-[main.ts:175577](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L175577)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:181030

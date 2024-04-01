@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IBusinessDataTripadvisorSearchTaskPostRequestInfo
+[Documentation](../README.md) / [Exports](../modules.md) / IBusinessDataTripadvisorSearchTaskPostRequestInfo
 
 # Interface: IBusinessDataTripadvisorSearchTaskPostRequestInfo
 
@@ -42,10 +38,9 @@ maximum value: 210
 
 #### Defined in
 
-[main.ts:201043](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L201043)
+main.ts:206504
 
 ___
-
 
 ### keyword
 
@@ -60,10 +55,9 @@ if you need to use the “%” symbol for your keyword, please specify it as “
 
 #### Defined in
 
-[main.ts:201016](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L201016)
+main.ts:206477
 
 ___
-
 
 ### location\_code
 
@@ -77,10 +71,9 @@ example:
 
 #### Defined in
 
-[main.ts:201028](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L201028)
+main.ts:206489
 
 ___
-
 
 ### location\_name
 
@@ -94,10 +87,9 @@ London,England,United Kingdom
 
 #### Defined in
 
-[main.ts:201022](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L201022)
+main.ts:206483
 
 ___
-
 
 ### pingback\_url
 
@@ -115,10 +107,9 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-[main.ts:201069](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L201069)
+main.ts:206530
 
 ___
-
 
 ### postback\_url
 
@@ -136,10 +127,9 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-[main.ts:201059](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L201059)
+main.ts:206520
 
 ___
-
 
 ### priority
 
@@ -155,10 +145,9 @@ The cost can be calculated on the Pricing page.
 
 #### Defined in
 
-[main.ts:201036](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L201036)
+main.ts:206497
 
 ___
-
 
 ### tag
 
@@ -172,8 +161,4 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-[main.ts:201049](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L201049)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:206510

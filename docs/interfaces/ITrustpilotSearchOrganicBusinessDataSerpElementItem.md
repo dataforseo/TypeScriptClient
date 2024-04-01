@@ -1,15 +1,11 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / ITrustpilotSearchOrganicBusinessDataSerpElementItem
+[Documentation](../README.md) / [Exports](../modules.md) / ITrustpilotSearchOrganicBusinessDataSerpElementItem
 
 # Interface: ITrustpilotSearchOrganicBusinessDataSerpElementItem
 
 ## Hierarchy
 
 - [`IBaseBusinessDataSerpElementItem`](IBaseBusinessDataSerpElementItem.md)
-  
+
   ↳ **`ITrustpilotSearchOrganicBusinessDataSerpElementItem`**
 
 ## Implemented by
@@ -42,10 +38,9 @@ domain of the establishment
 
 #### Defined in
 
-[main.ts:199187](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L199187)
+main.ts:204648
 
 ___
-
 
 ### rank\_absolute
 
@@ -56,10 +51,9 @@ absolute position among all reviews on the list
 
 #### Defined in
 
-[main.ts:199183](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L199183)
+main.ts:204644
 
 ___
-
 
 ### rank\_group
 
@@ -70,10 +64,9 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-[main.ts:199180](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L199180)
+main.ts:204641
 
 ___
-
 
 ### rating
 
@@ -83,10 +76,9 @@ the rating score of the establishment submitted by reviewers
 
 #### Defined in
 
-[main.ts:199193](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L199193)
+main.ts:204654
 
 ___
-
 
 ### reviews\_count
 
@@ -96,10 +88,9 @@ the total number of reviews
 
 #### Defined in
 
-[main.ts:199191](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L199191)
+main.ts:204652
 
 ___
-
 
 ### title
 
@@ -109,10 +100,9 @@ title of the establishment
 
 #### Defined in
 
-[main.ts:199185](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L199185)
+main.ts:204646
 
 ___
-
 
 ### url
 
@@ -122,8 +112,4 @@ URL to the establishment
 
 #### Defined in
 
-[main.ts:199189](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L199189)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:204650

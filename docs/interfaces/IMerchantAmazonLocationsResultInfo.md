@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IMerchantAmazonLocationsResultInfo
+[Documentation](../README.md) / [Exports](../modules.md) / IMerchantAmazonLocationsResultInfo
 
 # Interface: IMerchantAmazonLocationsResultInfo
 
@@ -34,10 +30,9 @@ ISO country code of the location
 
 #### Defined in
 
-[main.ts:169822](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L169822)
+main.ts:175275
 
 ___
-
 
 ### location\_code
 
@@ -47,10 +42,9 @@ location code
 
 #### Defined in
 
-[main.ts:169812](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L169812)
+main.ts:175265
 
 ___
-
 
 ### location\_name
 
@@ -60,10 +54,9 @@ full name of the location
 
 #### Defined in
 
-[main.ts:169814](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L169814)
+main.ts:175267
 
 ___
-
 
 ### location\_name\_parent
 
@@ -77,10 +70,9 @@ example:
 
 #### Defined in
 
-[main.ts:169820](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L169820)
+main.ts:175273
 
 ___
-
 
 ### location\_type
 
@@ -90,8 +82,4 @@ location type
 
 #### Defined in
 
-[main.ts:169824](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L169824)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:175277

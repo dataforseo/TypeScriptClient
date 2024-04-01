@@ -1,15 +1,11 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / StocksBoxSerpElementItem
+[Documentation](../README.md) / [Exports](../modules.md) / StocksBoxSerpElementItem
 
 # Class: StocksBoxSerpElementItem
 
 ## Hierarchy
 
 - [`BaseSerpElementItem`](BaseSerpElementItem.md)
-  
+
   ↳ **`StocksBoxSerpElementItem`**
 
 ## Implements
@@ -71,7 +67,7 @@
 
 #### Defined in
 
-[main.ts:32519](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L32519)
+main.ts:33400
 
 ## Properties
 
@@ -85,16 +81,15 @@
 
 #### Defined in
 
-[main.ts:19337](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L19337)
+main.ts:19788
 
 ___
-
 
 ### domain
 
 • `Optional` **domain**: `string`
 
-domain where a link points
+source domain
 
 #### Implementation of
 
@@ -102,10 +97,9 @@ domain where a link points
 
 #### Defined in
 
-[main.ts:32506](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L32506)
+main.ts:33387
 
 ___
-
 
 ### graph
 
@@ -119,10 +113,9 @@ contains data provided in the graph of the element
 
 #### Defined in
 
-[main.ts:32515](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L32515)
+main.ts:33396
 
 ___
-
 
 ### position
 
@@ -138,10 +131,9 @@ left, right
 
 #### Defined in
 
-[main.ts:32491](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L32491)
+main.ts:33372
 
 ___
-
 
 ### price
 
@@ -155,10 +147,9 @@ price indicated in the element
 
 #### Defined in
 
-[main.ts:32502](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L32502)
+main.ts:33383
 
 ___
-
 
 ### rank\_absolute
 
@@ -166,6 +157,7 @@ ___
 
 absolute rank in SERP
 absolute position among all the elements in SERP
+always equals 0 for desktop
 
 #### Implementation of
 
@@ -173,18 +165,18 @@ absolute position among all the elements in SERP
 
 #### Defined in
 
-[main.ts:32487](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L32487)
+main.ts:33368
 
 ___
-
 
 ### rank\_group
 
 • `Optional` **rank\_group**: `number`
 
 group rank in SERP
-position within a group of elements with identical type values
-positions of elements with different type values are omitted from rank_group
+position within a group of elements with identical type values;
+positions of elements with different type values are omitted from rank_group;
+always equals 0 for desktop
 
 #### Implementation of
 
@@ -192,10 +184,9 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-[main.ts:32484](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L32484)
+main.ts:33364
 
 ___
-
 
 ### rectangle
 
@@ -211,10 +202,9 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 #### Defined in
 
-[main.ts:32510](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L32510)
+main.ts:33391
 
 ___
-
 
 ### snippet
 
@@ -228,17 +218,16 @@ text alongside the link title
 
 #### Defined in
 
-[main.ts:32500](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L32500)
+main.ts:33381
 
 ___
-
 
 ### source
 
 • `Optional` **source**: `string`
 
 source of the element
-indicates the source of information included in the top_stories_element
+indicates the source of the video
 
 #### Implementation of
 
@@ -246,10 +235,9 @@ indicates the source of information included in the top_stories_element
 
 #### Defined in
 
-[main.ts:32498](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L32498)
+main.ts:33379
 
 ___
-
 
 ### table
 
@@ -264,16 +252,15 @@ if there are none, equals null
 
 #### Defined in
 
-[main.ts:32513](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L32513)
+main.ts:33394
 
 ___
-
 
 ### title
 
 • `Optional` **title**: `string`
 
-title of a given link element
+title of the row
 
 #### Implementation of
 
@@ -281,16 +268,15 @@ title of a given link element
 
 #### Defined in
 
-[main.ts:32495](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L32495)
+main.ts:33376
 
 ___
-
 
 ### url
 
 • `Optional` **url**: `string`
 
-URL
+source URL
 
 #### Implementation of
 
@@ -298,10 +284,9 @@ URL
 
 #### Defined in
 
-[main.ts:32504](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L32504)
+main.ts:33385
 
 ___
-
 
 ### xpath
 
@@ -315,7 +300,7 @@ the XPath of the element
 
 #### Defined in
 
-[main.ts:32493](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L32493)
+main.ts:33374
 
 ## Methods
 
@@ -339,10 +324,9 @@ the XPath of the element
 
 #### Defined in
 
-[main.ts:32524](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L32524)
+main.ts:33405
 
 ___
-
 
 ### toJSON
 
@@ -364,10 +348,9 @@ ___
 
 #### Defined in
 
-[main.ts:32554](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L32554)
+main.ts:33435
 
 ___
-
 
 ### fromJS
 
@@ -389,8 +372,4 @@ ___
 
 #### Defined in
 
-[main.ts:32547](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L32547)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:33428

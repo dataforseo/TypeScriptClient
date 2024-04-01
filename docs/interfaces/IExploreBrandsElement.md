@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IExploreBrandsElement
+[Documentation](../README.md) / [Exports](../modules.md) / IExploreBrandsElement
 
 # Interface: IExploreBrandsElement
 
@@ -32,27 +28,25 @@
 
 • `Optional` **description**: `string`
 
-description of the results element in SERP
+description
 
 #### Defined in
 
-[main.ts:35265](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L35265)
+main.ts:36226
 
 ___
-
 
 ### domain
 
 • `Optional` **domain**: `string`
 
-domain where a link points
+website domain
 
 #### Defined in
 
-[main.ts:35263](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L35263)
+main.ts:36224
 
 ___
-
 
 ### image\_url
 
@@ -62,23 +56,21 @@ URL of the image
 
 #### Defined in
 
-[main.ts:35267](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L35267)
+main.ts:36228
 
 ___
-
 
 ### title
 
 • `Optional` **title**: `string`
 
-title of the row
+title of a given link element
 
 #### Defined in
 
-[main.ts:35259](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L35259)
+main.ts:36220
 
 ___
-
 
 ### type
 
@@ -88,10 +80,9 @@ type of element
 
 #### Defined in
 
-[main.ts:35257](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L35257)
+main.ts:36218
 
 ___
-
 
 ### url
 
@@ -101,10 +92,9 @@ URL
 
 #### Defined in
 
-[main.ts:35261](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L35261)
+main.ts:36222
 
 ___
-
 
 ### xpath
 
@@ -114,8 +104,4 @@ the XPath of the element
 
 #### Defined in
 
-[main.ts:35269](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L35269)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:36230

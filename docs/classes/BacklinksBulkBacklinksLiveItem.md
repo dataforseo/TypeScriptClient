@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / BacklinksBulkBacklinksLiveItem
+[Documentation](../README.md) / [Exports](../modules.md) / BacklinksBulkBacklinksLiveItem
 
 # Class: BacklinksBulkBacklinksLiveItem
 
@@ -49,7 +45,7 @@
 
 #### Defined in
 
-[main.ts:139751](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L139751)
+main.ts:145178
 
 ## Properties
 
@@ -65,10 +61,9 @@ number of backlinks pointing to the target
 
 #### Defined in
 
-[main.ts:139747](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L139747)
+main.ts:145174
 
 ___
-
 
 ### target
 
@@ -82,7 +77,7 @@ domain, subdomain or webpage from a POST array
 
 #### Defined in
 
-[main.ts:139745](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L139745)
+main.ts:145172
 
 ## Methods
 
@@ -102,10 +97,9 @@ domain, subdomain or webpage from a POST array
 
 #### Defined in
 
-[main.ts:139760](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L139760)
+main.ts:145187
 
 ___
-
 
 ### toJSON
 
@@ -123,10 +117,9 @@ ___
 
 #### Defined in
 
-[main.ts:139778](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L139778)
+main.ts:145205
 
 ___
-
 
 ### fromJS
 
@@ -144,8 +137,4 @@ ___
 
 #### Defined in
 
-[main.ts:139771](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L139771)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:145198

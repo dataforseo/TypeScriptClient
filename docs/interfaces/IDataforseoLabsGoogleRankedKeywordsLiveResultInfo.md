@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IDataforseoLabsGoogleRankedKeywordsLiveResultInfo
+[Documentation](../README.md) / [Exports](../modules.md) / IDataforseoLabsGoogleRankedKeywordsLiveResultInfo
 
 # Interface: IDataforseoLabsGoogleRankedKeywordsLiveResultInfo
 
@@ -38,10 +34,9 @@ contains ranked keywords and related data
 
 #### Defined in
 
-[main.ts:87231](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L87231)
+main.ts:89608
 
 ___
-
 
 ### items\_count
 
@@ -51,10 +46,9 @@ the number of results returned in the items array
 
 #### Defined in
 
-[main.ts:87223](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L87223)
+main.ts:89600
 
 ___
-
 
 ### language\_code
 
@@ -65,10 +59,9 @@ if there is no data, then the value is null
 
 #### Defined in
 
-[main.ts:87219](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L87219)
+main.ts:89596
 
 ___
-
 
 ### location\_code
 
@@ -79,10 +72,9 @@ if there is no data, then the value is null
 
 #### Defined in
 
-[main.ts:87216](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L87216)
+main.ts:89593
 
 ___
-
 
 ### metrics
 
@@ -97,10 +89,9 @@ ranking data is provided by the rank_group parameters that show the result’s r
 
 #### Defined in
 
-[main.ts:87226](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L87226)
+main.ts:89603
 
 ___
-
 
 ### metrics\_absolute
 
@@ -115,10 +106,9 @@ ranking data is provided by the rank_absolute parameters that indicate the resul
 
 #### Defined in
 
-[main.ts:87229](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L87229)
+main.ts:89606
 
 ___
-
 
 ### se\_type
 
@@ -128,10 +118,9 @@ search engine type
 
 #### Defined in
 
-[main.ts:87211](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L87211)
+main.ts:89588
 
 ___
-
 
 ### target
 
@@ -141,10 +130,9 @@ target domain in a POST array
 
 #### Defined in
 
-[main.ts:87213](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L87213)
+main.ts:89590
 
 ___
-
 
 ### total\_count
 
@@ -154,8 +142,4 @@ total number of results in our database relevant to your request
 
 #### Defined in
 
-[main.ts:87221](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L87221)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:89598

@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IDataforseoLabsAppleKeywordsForAppLiveResultInfo
+[Documentation](../README.md) / [Exports](../modules.md) / IDataforseoLabsAppleKeywordsForAppLiveResultInfo
 
 # Interface: IDataforseoLabsAppleKeywordsForAppLiveResultInfo
 
@@ -36,10 +32,9 @@ id of the app in a POST array
 
 #### Defined in
 
-[main.ts:110979](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L110979)
+main.ts:113356
 
 ___
-
 
 ### items
 
@@ -49,10 +44,9 @@ contains data related to the ranking keywords for the app specified in the app_i
 
 #### Defined in
 
-[main.ts:110989](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L110989)
+main.ts:113366
 
 ___
-
 
 ### items\_count
 
@@ -62,10 +56,9 @@ the number of results returned in the items array
 
 #### Defined in
 
-[main.ts:110987](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L110987)
+main.ts:113364
 
 ___
-
 
 ### language\_code
 
@@ -75,10 +68,9 @@ language code in a POST array
 
 #### Defined in
 
-[main.ts:110983](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L110983)
+main.ts:113360
 
 ___
-
 
 ### location\_code
 
@@ -88,10 +80,9 @@ location code in a POST array
 
 #### Defined in
 
-[main.ts:110981](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L110981)
+main.ts:113358
 
 ___
-
 
 ### se\_type
 
@@ -101,10 +92,9 @@ search engine type
 
 #### Defined in
 
-[main.ts:110977](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L110977)
+main.ts:113354
 
 ___
-
 
 ### total\_count
 
@@ -114,8 +104,4 @@ total amount of results in our database relevant to your request
 
 #### Defined in
 
-[main.ts:110985](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L110985)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:113362

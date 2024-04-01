@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / ISerpYoutubeLanguagesResultInfo
+[Documentation](../README.md) / [Exports](../modules.md) / ISerpYoutubeLanguagesResultInfo
 
 # Interface: ISerpYoutubeLanguagesResultInfo
 
@@ -31,10 +27,9 @@ language code according to ISO 639-1
 
 #### Defined in
 
-[main.ts:57617](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L57617)
+main.ts:59992
 
 ___
-
 
 ### language\_name
 
@@ -44,8 +39,4 @@ language name
 
 #### Defined in
 
-[main.ts:57615](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L57615)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:59990

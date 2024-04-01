@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / DomainAnalyticsWhoisAvailableFiltersResultInfo
+[Documentation](../README.md) / [Exports](../modules.md) / DomainAnalyticsWhoisAvailableFiltersResultInfo
 
 # Class: DomainAnalyticsWhoisAvailableFiltersResultInfo
 
@@ -48,7 +44,7 @@
 
 #### Defined in
 
-[main.ts:75413](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L75413)
+main.ts:77790
 
 ## Properties
 
@@ -66,7 +62,7 @@
 
 #### Defined in
 
-[main.ts:75409](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L75409)
+main.ts:77786
 
 ## Methods
 
@@ -86,10 +82,9 @@
 
 #### Defined in
 
-[main.ts:75422](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L75422)
+main.ts:77799
 
 ___
-
 
 ### toJSON
 
@@ -107,10 +102,9 @@ ___
 
 #### Defined in
 
-[main.ts:75445](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L75445)
+main.ts:77822
 
 ___
-
 
 ### fromJS
 
@@ -128,8 +122,4 @@ ___
 
 #### Defined in
 
-[main.ts:75438](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L75438)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:77815

@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / HotelPriceInfo
+[Documentation](../README.md) / [Exports](../modules.md) / HotelPriceInfo
 
 # Class: HotelPriceInfo
 
@@ -55,7 +51,7 @@
 
 #### Defined in
 
-[main.ts:193715](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L193715)
+main.ts:199176
 
 ## Properties
 
@@ -74,10 +70,9 @@ example:
 
 #### Defined in
 
-[main.ts:193700](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L193700)
+main.ts:199161
 
 ___
-
 
 ### check\_out
 
@@ -94,10 +89,9 @@ example:
 
 #### Defined in
 
-[main.ts:193705](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L193705)
+main.ts:199166
 
 ___
-
 
 ### currency
 
@@ -112,10 +106,9 @@ USD is applied by default, unless specified in the POST array
 
 #### Defined in
 
-[main.ts:193693](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L193693)
+main.ts:199154
 
 ___
-
 
 ### discount\_text
 
@@ -129,10 +122,9 @@ text about a discount applied
 
 #### Defined in
 
-[main.ts:193695](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L193695)
+main.ts:199156
 
 ___
-
 
 ### items
 
@@ -148,10 +140,9 @@ possible item types: hotel_search_item
 
 #### Defined in
 
-[main.ts:193711](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L193711)
+main.ts:199172
 
 ___
-
 
 ### price
 
@@ -165,10 +156,9 @@ price per night
 
 #### Defined in
 
-[main.ts:193688](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L193688)
+main.ts:199149
 
 ___
-
 
 ### price\_without\_discount
 
@@ -182,10 +172,9 @@ full price per night without a discount applied
 
 #### Defined in
 
-[main.ts:193690](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L193690)
+main.ts:199151
 
 ___
-
 
 ### visitors
 
@@ -199,7 +188,7 @@ number of hotel visitors for this price
 
 #### Defined in
 
-[main.ts:193707](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L193707)
+main.ts:199168
 
 ## Methods
 
@@ -219,10 +208,9 @@ number of hotel visitors for this price
 
 #### Defined in
 
-[main.ts:193724](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L193724)
+main.ts:199185
 
 ___
-
 
 ### toJSON
 
@@ -240,10 +228,9 @@ ___
 
 #### Defined in
 
-[main.ts:193752](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L193752)
+main.ts:199213
 
 ___
-
 
 ### fromJS
 
@@ -261,8 +248,4 @@ ___
 
 #### Defined in
 
-[main.ts:193745](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L193745)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:199206

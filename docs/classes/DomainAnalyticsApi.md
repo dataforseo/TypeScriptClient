@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / DomainAnalyticsApi
+[Documentation](../README.md) / [Exports](../modules.md) / DomainAnalyticsApi
 
 # Class: DomainAnalyticsApi
 
@@ -69,7 +65,7 @@
 
 #### Defined in
 
-[main.ts:5671](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L5671)
+main.ts:5872
 
 ## Properties
 
@@ -79,10 +75,9 @@
 
 #### Defined in
 
-[main.ts:5668](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L5668)
+main.ts:5869
 
 ___
-
 
 ### http
 
@@ -96,10 +91,9 @@ ___
 
 #### Defined in
 
-[main.ts:5667](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L5667)
+main.ts:5868
 
 ___
-
 
 ### jsonParseReviver
 
@@ -122,7 +116,7 @@ ___
 
 #### Defined in
 
-[main.ts:5669](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L5669)
+main.ts:5870
 
 ## Methods
 
@@ -144,10 +138,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:5722](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L5722)
+main.ts:5923
 
 ___
-
 
 ### domainAnalyticsIdList
 
@@ -167,10 +160,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:5680](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L5680)
+main.ts:5881
 
 ___
-
 
 ### domainAnalyticsTechnologiesLanguages
 
@@ -184,10 +176,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:5837](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L5837)
+main.ts:6038
 
 ___
-
 
 ### domainAnalyticsTechnologiesLocations
 
@@ -201,10 +192,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:5800](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L5800)
+main.ts:6001
 
 ___
-
 
 ### processDomainAnalyticsErrors
 
@@ -222,10 +212,9 @@ ___
 
 #### Defined in
 
-[main.ts:5742](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L5742)
+main.ts:5943
 
 ___
-
 
 ### processDomainAnalyticsIdList
 
@@ -243,10 +232,9 @@ ___
 
 #### Defined in
 
-[main.ts:5700](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L5700)
+main.ts:5901
 
 ___
-
 
 ### processDomainAnalyticsTechnologiesLanguages
 
@@ -264,10 +252,9 @@ ___
 
 #### Defined in
 
-[main.ts:5853](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L5853)
+main.ts:6054
 
 ___
-
 
 ### processDomainAnalyticsTechnologiesLocations
 
@@ -285,10 +272,9 @@ ___
 
 #### Defined in
 
-[main.ts:5816](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L5816)
+main.ts:6017
 
 ___
-
 
 ### processTechnologiesAggregationTechnologiesLive
 
@@ -306,10 +292,9 @@ ___
 
 #### Defined in
 
-[main.ts:5932](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L5932)
+main.ts:6133
 
 ___
-
 
 ### processTechnologiesAvailableFilters
 
@@ -327,10 +312,9 @@ ___
 
 #### Defined in
 
-[main.ts:5779](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L5779)
+main.ts:5980
 
 ___
-
 
 ### processTechnologiesDomainTechnologiesLive
 
@@ -348,10 +332,9 @@ ___
 
 #### Defined in
 
-[main.ts:6142](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L6142)
+main.ts:6343
 
 ___
-
 
 ### processTechnologiesDomainsByHtmlTermsLive
 
@@ -369,10 +352,9 @@ ___
 
 #### Defined in
 
-[main.ts:6100](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L6100)
+main.ts:6301
 
 ___
-
 
 ### processTechnologiesDomainsByTechnologyLive
 
@@ -390,10 +372,9 @@ ___
 
 #### Defined in
 
-[main.ts:6058](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L6058)
+main.ts:6259
 
 ___
-
 
 ### processTechnologiesTechnologies
 
@@ -411,10 +392,9 @@ ___
 
 #### Defined in
 
-[main.ts:5890](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L5890)
+main.ts:6091
 
 ___
-
 
 ### processTechnologiesTechnologiesSummaryLive
 
@@ -432,10 +412,9 @@ ___
 
 #### Defined in
 
-[main.ts:5974](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L5974)
+main.ts:6175
 
 ___
-
 
 ### processTechnologiesTechnologyStatsLive
 
@@ -453,10 +432,9 @@ ___
 
 #### Defined in
 
-[main.ts:6016](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L6016)
+main.ts:6217
 
 ___
-
 
 ### processWhoisAvailableFilters
 
@@ -474,10 +452,9 @@ ___
 
 #### Defined in
 
-[main.ts:6179](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L6179)
+main.ts:6380
 
 ___
-
 
 ### processWhoisOverviewLive
 
@@ -495,10 +472,9 @@ ___
 
 #### Defined in
 
-[main.ts:6221](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L6221)
+main.ts:6422
 
 ___
-
 
 ### technologiesAggregationTechnologiesLive
 
@@ -518,10 +494,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:5912](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L5912)
+main.ts:6113
 
 ___
-
 
 ### technologiesAvailableFilters
 
@@ -535,10 +510,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:5763](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L5763)
+main.ts:5964
 
 ___
-
 
 ### technologiesDomainTechnologiesLive
 
@@ -558,10 +532,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:6122](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L6122)
+main.ts:6323
 
 ___
-
 
 ### technologiesDomainsByHtmlTermsLive
 
@@ -581,10 +554,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:6080](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L6080)
+main.ts:6281
 
 ___
-
 
 ### technologiesDomainsByTechnologyLive
 
@@ -604,10 +576,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:6038](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L6038)
+main.ts:6239
 
 ___
-
 
 ### technologiesTechnologies
 
@@ -621,10 +592,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:5874](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L5874)
+main.ts:6075
 
 ___
-
 
 ### technologiesTechnologiesSummaryLive
 
@@ -644,10 +614,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:5954](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L5954)
+main.ts:6155
 
 ___
-
 
 ### technologiesTechnologyStatsLive
 
@@ -667,10 +636,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:5996](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L5996)
+main.ts:6197
 
 ___
-
 
 ### whoisAvailableFilters
 
@@ -684,10 +652,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:6163](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L6163)
+main.ts:6364
 
 ___
-
 
 ### whoisOverviewLive
 
@@ -707,8 +674,4 @@ Successful operation
 
 #### Defined in
 
-[main.ts:6201](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L6201)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:6402

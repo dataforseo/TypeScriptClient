@@ -1,31 +1,27 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / BaseAmazonSerpElementItem
+[Documentation](../README.md) / [Exports](../modules.md) / BaseAmazonSerpElementItem
 
 # Class: BaseAmazonSerpElementItem
 
 ## Hierarchy
 
 - **`BaseAmazonSerpElementItem`**
-  
+
   ↳ [`AmazonAmazonSerpSerpElementItem`](AmazonAmazonSerpSerpElementItem.md)
-  
+
   ↳ [`AmazonAmazonPaidSerpElementItem`](AmazonAmazonPaidSerpElementItem.md)
-  
+
   ↳ [`AmazonEditorialRecommendationsSerpElementItem`](AmazonEditorialRecommendationsSerpElementItem.md)
-  
+
   ↳ [`AmazonRelatedSearchesSerpElementItem`](AmazonRelatedSearchesSerpElementItem.md)
-  
+
   ↳ [`AmazonTopRatedFromOurBrandsSerpElementItem`](AmazonTopRatedFromOurBrandsSerpElementItem.md)
-  
+
   ↳ [`AmazonAmazonProductInfoSerpElementItem`](AmazonAmazonProductInfoSerpElementItem.md)
-  
+
   ↳ [`AmazonAmazonSellerMainItemSerpElementItem`](AmazonAmazonSellerMainItemSerpElementItem.md)
-  
+
   ↳ [`AmazonAmazonSellerItemSerpElementItem`](AmazonAmazonSellerItemSerpElementItem.md)
-  
+
   ↳ [`AmazonAmazonReviewItemSerpElementItem`](AmazonAmazonReviewItemSerpElementItem.md)
 
 ## Implements
@@ -70,7 +66,7 @@
 
 #### Defined in
 
-[main.ts:20758](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L20758)
+main.ts:21277
 
 ## Properties
 
@@ -80,7 +76,7 @@
 
 #### Defined in
 
-[main.ts:20756](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L20756)
+main.ts:21275
 
 ## Methods
 
@@ -100,10 +96,9 @@
 
 #### Defined in
 
-[main.ts:20768](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L20768)
+main.ts:21287
 
 ___
-
 
 ### toJSON
 
@@ -121,10 +116,9 @@ ___
 
 #### Defined in
 
-[main.ts:20829](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L20829)
+main.ts:21348
 
 ___
-
 
 ### fromJS
 
@@ -142,8 +136,4 @@ ___
 
 #### Defined in
 
-[main.ts:20777](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L20777)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:21296

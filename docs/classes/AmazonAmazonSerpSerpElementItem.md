@@ -1,15 +1,11 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / AmazonAmazonSerpSerpElementItem
+[Documentation](../README.md) / [Exports](../modules.md) / AmazonAmazonSerpSerpElementItem
 
 # Class: AmazonAmazonSerpSerpElementItem
 
 ## Hierarchy
 
 - [`BaseAmazonSerpElementItem`](BaseAmazonSerpElementItem.md)
-  
+
   ↳ **`AmazonAmazonSerpSerpElementItem`**
 
 ## Implements
@@ -79,7 +75,7 @@
 
 #### Defined in
 
-[main.ts:99885](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L99885)
+main.ts:102262
 
 ## Properties
 
@@ -93,10 +89,9 @@
 
 #### Defined in
 
-[main.ts:20756](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L20756)
+main.ts:21275
 
 ___
-
 
 ### asin
 
@@ -111,10 +106,9 @@ learn more about ASIN in this help center guide
 
 #### Defined in
 
-[main.ts:99845](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L99845)
+main.ts:102222
 
 ___
-
 
 ### bought\_past\_month
 
@@ -128,10 +122,9 @@ number of product purchases in the past month
 
 #### Defined in
 
-[main.ts:99876](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L99876)
+main.ts:102253
 
 ___
-
 
 ### currency
 
@@ -147,10 +140,9 @@ USD
 
 #### Defined in
 
-[main.ts:99859](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L99859)
+main.ts:102236
 
 ___
-
 
 ### data\_asin
 
@@ -167,10 +159,9 @@ B07G82D89J
 
 #### Defined in
 
-[main.ts:99881](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L99881)
+main.ts:102258
 
 ___
-
 
 ### delivery\_info
 
@@ -185,10 +176,9 @@ delivery information including free and fast delivery date ranges
 
 #### Defined in
 
-[main.ts:99874](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L99874)
+main.ts:102251
 
 ___
-
 
 ### description
 
@@ -202,10 +192,9 @@ description of the product
 
 #### Defined in
 
-[main.ts:99842](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L99842)
+main.ts:102219
 
 ___
-
 
 ### domain
 
@@ -219,10 +208,9 @@ Amazon domain
 
 #### Defined in
 
-[main.ts:99836](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L99836)
+main.ts:102213
 
 ___
-
 
 ### image\_url
 
@@ -236,10 +224,9 @@ URL of the product image featured in the results
 
 #### Defined in
 
-[main.ts:99847](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L99847)
+main.ts:102224
 
 ___
-
 
 ### is\_amazon\_choice
 
@@ -254,10 +241,9 @@ if the value is true, the product is marked with the “Amazon’s choice” lab
 
 #### Defined in
 
-[main.ts:99868](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L99868)
+main.ts:102245
 
 ___
-
 
 ### is\_best\_seller
 
@@ -272,10 +258,9 @@ if the value is true, the product is marked with the “Best Seller” label
 
 #### Defined in
 
-[main.ts:99865](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L99865)
+main.ts:102242
 
 ___
-
 
 ### position
 
@@ -291,10 +276,9 @@ left, right
 
 #### Defined in
 
-[main.ts:99832](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L99832)
+main.ts:102209
 
 ___
-
 
 ### price\_from
 
@@ -310,10 +294,9 @@ example:
 
 #### Defined in
 
-[main.ts:99851](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L99851)
+main.ts:102228
 
 ___
-
 
 ### price\_to
 
@@ -329,10 +312,9 @@ example:
 
 #### Defined in
 
-[main.ts:99855](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L99855)
+main.ts:102232
 
 ___
-
 
 ### rank\_absolute
 
@@ -347,10 +329,9 @@ absolute position among all the elements in SERP
 
 #### Defined in
 
-[main.ts:99828](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L99828)
+main.ts:102205
 
 ___
-
 
 ### rank\_group
 
@@ -365,16 +346,15 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-[main.ts:99825](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L99825)
+main.ts:102202
 
 ___
-
 
 ### rating
 
 • `Optional` **rating**: [`RatingElement`](RatingElement.md)
 
-the item’s rating
+the item’s rating 
 the popularity rate based on reviews and displayed in SERP
 
 #### Implementation of
@@ -383,10 +363,9 @@ the popularity rate based on reviews and displayed in SERP
 
 #### Defined in
 
-[main.ts:99871](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L99871)
+main.ts:102248
 
 ___
-
 
 ### se\_type
 
@@ -400,10 +379,9 @@ search engine type
 
 #### Defined in
 
-[main.ts:99822](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L99822)
+main.ts:102199
 
 ___
-
 
 ### special\_offers
 
@@ -418,10 +396,9 @@ contains special offer details, including coupon and Subscribe & Save discounts
 
 #### Defined in
 
-[main.ts:99862](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L99862)
+main.ts:102239
 
 ___
-
 
 ### title
 
@@ -435,10 +412,9 @@ product title
 
 #### Defined in
 
-[main.ts:99838](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L99838)
+main.ts:102215
 
 ___
-
 
 ### url
 
@@ -452,10 +428,9 @@ URL of the product page
 
 #### Defined in
 
-[main.ts:99840](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L99840)
+main.ts:102217
 
 ___
-
 
 ### xpath
 
@@ -469,7 +444,7 @@ the XPath of the element
 
 #### Defined in
 
-[main.ts:99834](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L99834)
+main.ts:102211
 
 ## Methods
 
@@ -493,10 +468,9 @@ the XPath of the element
 
 #### Defined in
 
-[main.ts:99890](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L99890)
+main.ts:102267
 
 ___
-
 
 ### toJSON
 
@@ -518,10 +492,9 @@ ___
 
 #### Defined in
 
-[main.ts:99932](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L99932)
+main.ts:102309
 
 ___
-
 
 ### fromJS
 
@@ -543,8 +516,4 @@ ___
 
 #### Defined in
 
-[main.ts:99925](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L99925)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:102302

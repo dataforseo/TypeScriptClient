@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IBusinessDataBusinessListingsLocationsResultInfo
+[Documentation](../README.md) / [Exports](../modules.md) / IBusinessDataBusinessListingsLocationsResultInfo
 
 # Interface: IBusinessDataBusinessListingsLocationsResultInfo
 
@@ -32,10 +28,9 @@ number of businesses in this location in our database
 
 #### Defined in
 
-[main.ts:187889](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L187889)
+main.ts:193342
 
 ___
-
 
 ### country\_iso\_code
 
@@ -45,10 +40,9 @@ ISO country code of the location
 
 #### Defined in
 
-[main.ts:187887](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L187887)
+main.ts:193340
 
 ___
-
 
 ### location\_name
 
@@ -58,8 +52,4 @@ full name of the location
 
 #### Defined in
 
-[main.ts:187885](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L187885)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:193338

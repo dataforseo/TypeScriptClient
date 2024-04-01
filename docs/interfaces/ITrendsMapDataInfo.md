@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / ITrendsMapDataInfo
+[Documentation](../README.md) / [Exports](../modules.md) / ITrendsMapDataInfo
 
 # Interface: ITrendsMapDataInfo
 
@@ -36,10 +32,9 @@ US-NY
 
 #### Defined in
 
-[main.ts:120658](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L120658)
+main.ts:123210
 
 ___
-
 
 ### geo\_name
 
@@ -50,10 +45,9 @@ you can use this field for matching obtained results with location parameters sp
 
 #### Defined in
 
-[main.ts:120661](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L120661)
+main.ts:123213
 
 ___
-
 
 ### max\_value\_index
 
@@ -65,14 +59,13 @@ if you specified only one keyword, the value will be null
 
 #### Defined in
 
-[main.ts:120672](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L120672)
+main.ts:123224
 
 ___
 
-
 ### values
 
-• `Optional` **values**: `number`[]
+• `Optional` **values**: `any`[]
 
 relative keyword popularity rate in a given location
 represents the location-specific keyword popularity rate over the given time range
@@ -83,8 +76,4 @@ a value of 0 means there was not enough data for this term
 
 #### Defined in
 
-[main.ts:120668](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L120668)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:123220

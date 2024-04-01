@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IOnPagePagesRequestInfo
+[Documentation](../README.md) / [Exports](../modules.md) / IOnPagePagesRequestInfo
 
 # Interface: IOnPagePagesRequestInfo
 
@@ -44,10 +40,9 @@ example:
 
 #### Defined in
 
-[main.ts:144020](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L144020)
+main.ts:149447
 
 ___
-
 
 ### id
 
@@ -61,10 +56,9 @@ example:
 
 #### Defined in
 
-[main.ts:143999](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L143999)
+main.ts:149426
 
 ___
-
 
 ### limit
 
@@ -77,10 +71,9 @@ maximum value: 1000
 
 #### Defined in
 
-[main.ts:144004](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L144004)
+main.ts:149431
 
 ___
-
 
 ### offset
 
@@ -93,10 +86,9 @@ if you specify the 10 value, the first ten pages in the results array will be om
 
 #### Defined in
 
-[main.ts:144009](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L144009)
+main.ts:149436
 
 ___
-
 
 ### order\_by
 
@@ -118,10 +110,9 @@ example:
 
 #### Defined in
 
-[main.ts:144034](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L144034)
+main.ts:149461
 
 ___
-
 
 ### tag
 
@@ -135,8 +126,4 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-[main.ts:144040](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L144040)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:149467

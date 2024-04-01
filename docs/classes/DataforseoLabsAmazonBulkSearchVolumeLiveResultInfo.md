@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / DataforseoLabsAmazonBulkSearchVolumeLiveResultInfo
+[Documentation](../README.md) / [Exports](../modules.md) / DataforseoLabsAmazonBulkSearchVolumeLiveResultInfo
 
 # Class: DataforseoLabsAmazonBulkSearchVolumeLiveResultInfo
 
@@ -53,7 +49,7 @@
 
 #### Defined in
 
-[main.ts:98880](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L98880)
+main.ts:101257
 
 ## Properties
 
@@ -69,10 +65,9 @@ contains keyword search volume data data
 
 #### Defined in
 
-[main.ts:98876](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L98876)
+main.ts:101253
 
 ___
-
 
 ### items\_count
 
@@ -86,10 +81,9 @@ the number of results returned in the items array
 
 #### Defined in
 
-[main.ts:98874](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L98874)
+main.ts:101251
 
 ___
-
 
 ### language\_code
 
@@ -104,10 +98,9 @@ if there is no data, then the value is null
 
 #### Defined in
 
-[main.ts:98870](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L98870)
+main.ts:101247
 
 ___
-
 
 ### location\_code
 
@@ -122,10 +115,9 @@ if there is no data, then the value is null
 
 #### Defined in
 
-[main.ts:98867](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L98867)
+main.ts:101244
 
 ___
-
 
 ### se\_type
 
@@ -139,10 +131,9 @@ search engine type
 
 #### Defined in
 
-[main.ts:98864](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L98864)
+main.ts:101241
 
 ___
-
 
 ### total\_count
 
@@ -156,7 +147,7 @@ total amount of results in our database relevant to your request
 
 #### Defined in
 
-[main.ts:98872](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L98872)
+main.ts:101249
 
 ## Methods
 
@@ -176,10 +167,9 @@ total amount of results in our database relevant to your request
 
 #### Defined in
 
-[main.ts:98889](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L98889)
+main.ts:101266
 
 ___
-
 
 ### toJSON
 
@@ -197,10 +187,9 @@ ___
 
 #### Defined in
 
-[main.ts:98915](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L98915)
+main.ts:101292
 
 ___
-
 
 ### fromJS
 
@@ -218,8 +207,4 @@ ___
 
 #### Defined in
 
-[main.ts:98908](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L98908)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:101285

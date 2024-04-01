@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / OnPageLighthouseVersionsResultInfo
+[Documentation](../README.md) / [Exports](../modules.md) / OnPageLighthouseVersionsResultInfo
 
 # Class: OnPageLighthouseVersionsResultInfo
 
@@ -48,7 +44,7 @@
 
 #### Defined in
 
-[main.ts:153910](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L153910)
+main.ts:159337
 
 ## Properties
 
@@ -62,7 +58,7 @@
 
 #### Defined in
 
-[main.ts:153906](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L153906)
+main.ts:159333
 
 ## Methods
 
@@ -82,10 +78,9 @@
 
 #### Defined in
 
-[main.ts:153919](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L153919)
+main.ts:159346
 
 ___
-
 
 ### toJSON
 
@@ -103,10 +98,9 @@ ___
 
 #### Defined in
 
-[main.ts:153940](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L153940)
+main.ts:159367
 
 ___
-
 
 ### fromJS
 
@@ -124,8 +118,4 @@ ___
 
 #### Defined in
 
-[main.ts:153933](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L153933)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:159360

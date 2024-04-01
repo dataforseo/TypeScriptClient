@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / SerpBingLocalPackTasksFixedResultInfo
+[Documentation](../README.md) / [Exports](../modules.md) / SerpBingLocalPackTasksFixedResultInfo
 
 # Class: SerpBingLocalPackTasksFixedResultInfo
 
@@ -55,7 +51,7 @@
 
 #### Defined in
 
-[main.ts:56027](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L56027)
+main.ts:58402
 
 ## Properties
 
@@ -71,10 +67,9 @@ date when the task was fixed (in the UTC format)
 
 #### Defined in
 
-[main.ts:56012](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L56012)
+main.ts:58387
 
 ___
-
 
 ### endpoint\_advanced
 
@@ -89,10 +84,9 @@ if SERP Advanced is not supported in the specified endpoint, the value will be n
 
 #### Defined in
 
-[main.ts:56020](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L56020)
+main.ts:58395
 
 ___
-
 
 ### endpoint\_html
 
@@ -107,10 +101,9 @@ if SERP HTML is not supported in the specified endpoint, the value will be null
 
 #### Defined in
 
-[main.ts:56023](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L56023)
+main.ts:58398
 
 ___
-
 
 ### endpoint\_regular
 
@@ -125,10 +118,9 @@ if SERP Regular is not supported in the specified endpoint, the value will be nu
 
 #### Defined in
 
-[main.ts:56017](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L56017)
+main.ts:58392
 
 ___
-
 
 ### id
 
@@ -143,10 +135,9 @@ unique task identifier in our system in the UUID format
 
 #### Defined in
 
-[main.ts:56005](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L56005)
+main.ts:58380
 
 ___
-
 
 ### se
 
@@ -160,10 +151,9 @@ search engine specified when setting the task
 
 #### Defined in
 
-[main.ts:56007](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L56007)
+main.ts:58382
 
 ___
-
 
 ### se\_type
 
@@ -178,10 +168,9 @@ can take the following values: local_pack
 
 #### Defined in
 
-[main.ts:56010](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L56010)
+main.ts:58385
 
 ___
-
 
 ### tag
 
@@ -195,7 +184,7 @@ user-defined task identifier
 
 #### Defined in
 
-[main.ts:56014](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L56014)
+main.ts:58389
 
 ## Methods
 
@@ -215,10 +204,9 @@ user-defined task identifier
 
 #### Defined in
 
-[main.ts:56036](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L56036)
+main.ts:58411
 
 ___
-
 
 ### toJSON
 
@@ -236,10 +224,9 @@ ___
 
 #### Defined in
 
-[main.ts:56060](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L56060)
+main.ts:58435
 
 ___
-
 
 ### fromJS
 
@@ -257,8 +244,4 @@ ___
 
 #### Defined in
 
-[main.ts:56053](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L56053)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:58428

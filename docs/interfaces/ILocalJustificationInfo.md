@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / ILocalJustificationInfo
+[Documentation](../README.md) / [Exports](../modules.md) / ILocalJustificationInfo
 
 # Interface: ILocalJustificationInfo
 
@@ -31,10 +27,9 @@ text snippet of local justification
 
 #### Defined in
 
-[main.ts:38409](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L38409)
+main.ts:39160
 
 ___
-
 
 ### type
 
@@ -44,8 +39,4 @@ type of element
 
 #### Defined in
 
-[main.ts:38407](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L38407)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:39158

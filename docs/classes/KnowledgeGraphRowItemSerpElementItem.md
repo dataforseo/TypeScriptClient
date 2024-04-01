@@ -1,15 +1,11 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / KnowledgeGraphRowItemSerpElementItem
+[Documentation](../README.md) / [Exports](../modules.md) / KnowledgeGraphRowItemSerpElementItem
 
 # Class: KnowledgeGraphRowItemSerpElementItem
 
 ## Hierarchy
 
 - [`BaseSerpElementItem`](BaseSerpElementItem.md)
-  
+
   ↳ **`KnowledgeGraphRowItemSerpElementItem`**
 
 ## Implements
@@ -67,7 +63,7 @@
 
 #### Defined in
 
-[main.ts:26775](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L26775)
+main.ts:27294
 
 ## Properties
 
@@ -81,10 +77,9 @@
 
 #### Defined in
 
-[main.ts:19337](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L19337)
+main.ts:19788
 
 ___
-
 
 ### data\_attrid
 
@@ -100,10 +95,9 @@ kc:/common/topic:social media presence
 
 #### Defined in
 
-[main.ts:26763](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L26763)
+main.ts:27282
 
 ___
-
 
 ### links
 
@@ -117,10 +111,9 @@ links featured in the faq_box_element
 
 #### Defined in
 
-[main.ts:26767](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L26767)
+main.ts:27286
 
 ___
-
 
 ### position
 
@@ -136,10 +129,9 @@ left, right
 
 #### Defined in
 
-[main.ts:26755](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L26755)
+main.ts:27274
 
 ___
-
 
 ### rank\_absolute
 
@@ -154,10 +146,9 @@ absolute position among all the elements in SERP
 
 #### Defined in
 
-[main.ts:26751](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L26751)
+main.ts:27270
 
 ___
-
 
 ### rank\_group
 
@@ -173,10 +164,9 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-[main.ts:26748](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L26748)
+main.ts:27267
 
 ___
-
 
 ### rectangle
 
@@ -192,10 +182,9 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 #### Defined in
 
-[main.ts:26771](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L26771)
+main.ts:27290
 
 ___
-
 
 ### text
 
@@ -209,10 +198,9 @@ row content
 
 #### Defined in
 
-[main.ts:26765](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L26765)
+main.ts:27284
 
 ___
-
 
 ### title
 
@@ -226,10 +214,9 @@ title of the item
 
 #### Defined in
 
-[main.ts:26759](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L26759)
+main.ts:27278
 
 ___
-
 
 ### xpath
 
@@ -243,7 +230,7 @@ the XPath of the element
 
 #### Defined in
 
-[main.ts:26757](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L26757)
+main.ts:27276
 
 ## Methods
 
@@ -267,10 +254,9 @@ the XPath of the element
 
 #### Defined in
 
-[main.ts:26780](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L26780)
+main.ts:27299
 
 ___
-
 
 ### toJSON
 
@@ -292,10 +278,9 @@ ___
 
 #### Defined in
 
-[main.ts:26810](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L26810)
+main.ts:27329
 
 ___
-
 
 ### fromJS
 
@@ -317,8 +302,4 @@ ___
 
 #### Defined in
 
-[main.ts:26803](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L26803)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:27322

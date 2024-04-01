@@ -1,15 +1,11 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / GooglePostsSerpElementItem
+[Documentation](../README.md) / [Exports](../modules.md) / GooglePostsSerpElementItem
 
 # Class: GooglePostsSerpElementItem
 
 ## Hierarchy
 
 - [`BaseSerpElementItem`](BaseSerpElementItem.md)
-  
+
   ↳ **`GooglePostsSerpElementItem`**
 
 ## Implements
@@ -66,7 +62,7 @@
 
 #### Defined in
 
-[main.ts:34333](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L34333)
+main.ts:35268
 
 ## Properties
 
@@ -80,10 +76,9 @@
 
 #### Defined in
 
-[main.ts:19337](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L19337)
+main.ts:19788
 
 ___
-
 
 ### cid
 
@@ -97,10 +92,9 @@ google-defined client id
 
 #### Defined in
 
-[main.ts:34325](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L34325)
+main.ts:35260
 
 ___
-
 
 ### feature
 
@@ -114,10 +108,9 @@ the additional feature of the review
 
 #### Defined in
 
-[main.ts:34323](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L34323)
+main.ts:35258
 
 ___
-
 
 ### position
 
@@ -133,10 +126,9 @@ left, right
 
 #### Defined in
 
-[main.ts:34317](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L34317)
+main.ts:35252
 
 ___
-
 
 ### posts\_id
 
@@ -150,10 +142,9 @@ the identifier of the google_posts feature
 
 #### Defined in
 
-[main.ts:34321](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L34321)
+main.ts:35256
 
 ___
-
 
 ### rank\_absolute
 
@@ -161,6 +152,7 @@ ___
 
 absolute rank in SERP
 absolute position among all the elements in SERP
+always equals 0 for desktop
 
 #### Implementation of
 
@@ -168,18 +160,18 @@ absolute position among all the elements in SERP
 
 #### Defined in
 
-[main.ts:34313](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L34313)
+main.ts:35248
 
 ___
-
 
 ### rank\_group
 
 • `Optional` **rank\_group**: `number`
 
 group rank in SERP
-position within a group of elements with identical type values
-positions of elements with different type values are omitted from rank_group
+position within a group of elements with identical type values;
+positions of elements with different type values are omitted from rank_group;
+always equals 0 for desktop
 
 #### Implementation of
 
@@ -187,10 +179,9 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-[main.ts:34310](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L34310)
+main.ts:35244
 
 ___
-
 
 ### rectangle
 
@@ -206,10 +197,9 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 #### Defined in
 
-[main.ts:34329](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L34329)
+main.ts:35264
 
 ___
-
 
 ### xpath
 
@@ -223,7 +213,7 @@ the XPath of the element
 
 #### Defined in
 
-[main.ts:34319](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L34319)
+main.ts:35254
 
 ## Methods
 
@@ -247,10 +237,9 @@ the XPath of the element
 
 #### Defined in
 
-[main.ts:34338](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L34338)
+main.ts:35273
 
 ___
-
 
 ### toJSON
 
@@ -272,10 +261,9 @@ ___
 
 #### Defined in
 
-[main.ts:34363](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L34363)
+main.ts:35298
 
 ___
-
 
 ### fromJS
 
@@ -297,8 +285,4 @@ ___
 
 #### Defined in
 
-[main.ts:34356](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L34356)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:35291

@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / BusinessDataTripadvisorReviewsTaskPostRequestInfo
+[Documentation](../README.md) / [Exports](../modules.md) / BusinessDataTripadvisorReviewsTaskPostRequestInfo
 
 # Class: BusinessDataTripadvisorReviewsTaskPostRequestInfo
 
@@ -63,7 +59,7 @@
 
 #### Defined in
 
-[main.ts:201834](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L201834)
+main.ts:207295
 
 ## Properties
 
@@ -83,10 +79,9 @@ default value: 10
 
 #### Defined in
 
-[main.ts:201777](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L201777)
+main.ts:207238
 
 ___
-
 
 ### keyword
 
@@ -105,10 +100,9 @@ if you need to use the “%” symbol for your keyword, please specify it as “
 
 #### Defined in
 
-[main.ts:201733](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L201733)
+main.ts:207194
 
 ___
-
 
 ### language\_code
 
@@ -129,10 +123,9 @@ The cost can be calculated on the Pricing page.
 
 #### Defined in
 
-[main.ts:201771](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L201771)
+main.ts:207232
 
 ___
-
 
 ### language\_name
 
@@ -153,10 +146,9 @@ The cost can be calculated on the Pricing page.
 
 #### Defined in
 
-[main.ts:201762](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L201762)
+main.ts:207223
 
 ___
-
 
 ### location\_code
 
@@ -174,10 +166,9 @@ example:
 
 #### Defined in
 
-[main.ts:201745](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L201745)
+main.ts:207206
 
 ___
-
 
 ### location\_name
 
@@ -195,10 +186,9 @@ London,England,United Kingdom
 
 #### Defined in
 
-[main.ts:201739](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L201739)
+main.ts:207200
 
 ___
-
 
 ### months
 
@@ -215,10 +205,9 @@ you can specify several values at once
 
 #### Defined in
 
-[main.ts:201793](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L201793)
+main.ts:207254
 
 ___
-
 
 ### pingback\_url
 
@@ -240,10 +229,9 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-[main.ts:201830](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L201830)
+main.ts:207291
 
 ___
-
 
 ### postback\_url
 
@@ -265,10 +253,9 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-[main.ts:201820](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L201820)
+main.ts:207281
 
 ___
-
 
 ### priority
 
@@ -288,10 +275,9 @@ The cost can be calculated on the Pricing page.
 
 #### Defined in
 
-[main.ts:201753](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L201753)
+main.ts:207214
 
 ___
-
 
 ### ratings
 
@@ -309,10 +295,9 @@ you can specify several values at once
 
 #### Defined in
 
-[main.ts:201783](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L201783)
+main.ts:207244
 
 ___
-
 
 ### search\_reviews\_keyword
 
@@ -328,10 +313,9 @@ dessert
 
 #### Defined in
 
-[main.ts:201797](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L201797)
+main.ts:207258
 
 ___
-
 
 ### sort\_by
 
@@ -350,10 +334,9 @@ detailed_reviews
 
 #### Defined in
 
-[main.ts:201804](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L201804)
+main.ts:207265
 
 ___
-
 
 ### tag
 
@@ -371,10 +354,9 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-[main.ts:201810](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L201810)
+main.ts:207271
 
 ___
-
 
 ### url\_path
 
@@ -394,10 +376,9 @@ https://www.tripadvisor.com/Hotel_Review-g60763-d23462501-Reviews-Margaritaville
 
 #### Defined in
 
-[main.ts:201726](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L201726)
+main.ts:207187
 
 ___
-
 
 ### visit\_type
 
@@ -414,7 +395,7 @@ you can specify several values at once
 
 #### Defined in
 
-[main.ts:201788](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L201788)
+main.ts:207249
 
 ## Methods
 
@@ -434,10 +415,9 @@ you can specify several values at once
 
 #### Defined in
 
-[main.ts:201843](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L201843)
+main.ts:207304
 
 ___
-
 
 ### toJSON
 
@@ -455,10 +435,9 @@ ___
 
 #### Defined in
 
-[main.ts:201887](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L201887)
+main.ts:207348
 
 ___
-
 
 ### fromJS
 
@@ -476,8 +455,4 @@ ___
 
 #### Defined in
 
-[main.ts:201880](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L201880)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:207341

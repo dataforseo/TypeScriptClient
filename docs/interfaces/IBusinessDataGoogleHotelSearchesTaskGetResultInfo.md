@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IBusinessDataGoogleHotelSearchesTaskGetResultInfo
+[Documentation](../README.md) / [Exports](../modules.md) / IBusinessDataGoogleHotelSearchesTaskGetResultInfo
 
 # Interface: IBusinessDataGoogleHotelSearchesTaskGetResultInfo
 
@@ -37,10 +33,9 @@ you can use it to make sure that we provided accurate results
 
 #### Defined in
 
-[main.ts:194014](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L194014)
+main.ts:199475
 
 ___
-
 
 ### datetime
 
@@ -53,10 +48,9 @@ example:
 
 #### Defined in
 
-[main.ts:194019](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L194019)
+main.ts:199480
 
 ___
-
 
 ### items
 
@@ -67,10 +61,9 @@ note: this field always equals null; use it to facilitate integration and ensure
 
 #### Defined in
 
-[main.ts:194025](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L194025)
+main.ts:199486
 
 ___
-
 
 ### items\_count
 
@@ -81,10 +74,9 @@ the number of items in the items array
 
 #### Defined in
 
-[main.ts:194022](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L194022)
+main.ts:199483
 
 ___
-
 
 ### keyword
 
@@ -96,10 +88,9 @@ in order to obtain accurate search results, the location name is appended to the
 
 #### Defined in
 
-[main.ts:194007](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L194007)
+main.ts:199468
 
 ___
-
 
 ### language\_code
 
@@ -109,10 +100,9 @@ language code in a POST array
 
 #### Defined in
 
-[main.ts:194011](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L194011)
+main.ts:199472
 
 ___
-
 
 ### location\_code
 
@@ -122,8 +112,4 @@ location code in a POST array
 
 #### Defined in
 
-[main.ts:194009](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L194009)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:199470

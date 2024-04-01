@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / OnPageApi
+[Documentation](../README.md) / [Exports](../modules.md) / OnPageApi
 
 # Class: OnPageApi
 
@@ -101,7 +97,7 @@
 
 #### Defined in
 
-[main.ts:11499](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L11499)
+main.ts:11950
 
 ## Properties
 
@@ -111,10 +107,9 @@
 
 #### Defined in
 
-[main.ts:11496](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L11496)
+main.ts:11947
 
 ___
-
 
 ### http
 
@@ -128,10 +123,9 @@ ___
 
 #### Defined in
 
-[main.ts:11495](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L11495)
+main.ts:11946
 
 ___
-
 
 ### jsonParseReviver
 
@@ -154,7 +148,7 @@ ___
 
 #### Defined in
 
-[main.ts:11497](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L11497)
+main.ts:11948
 
 ## Methods
 
@@ -176,10 +170,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:12341](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L12341)
+main.ts:12792
 
 ___
-
 
 ### contentParsingLive
 
@@ -199,10 +192,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:12383](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L12383)
+main.ts:12834
 
 ___
-
 
 ### duplicateContent
 
@@ -222,10 +214,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:11963](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L11963)
+main.ts:12414
 
 ___
-
 
 ### duplicateTags
 
@@ -245,10 +236,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:11921](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L11921)
+main.ts:12372
 
 ___
-
 
 ### forceStop
 
@@ -268,10 +258,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:11592](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L11592)
+main.ts:12043
 
 ___
-
 
 ### instantPages
 
@@ -291,10 +280,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:12425](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L12425)
+main.ts:12876
 
 ___
-
 
 ### keywordDensity
 
@@ -314,10 +302,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:12173](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L12173)
+main.ts:12624
 
 ___
-
 
 ### lighthouseAudits
 
@@ -331,10 +318,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:12503](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L12503)
+main.ts:12954
 
 ___
-
 
 ### lighthouseLiveJson
 
@@ -354,10 +340,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:12702](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L12702)
+main.ts:13153
 
 ___
-
 
 ### lighthouseTaskGetJson
 
@@ -377,10 +362,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:12661](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L12661)
+main.ts:13112
 
 ___
-
 
 ### lighthouseTaskPost
 
@@ -400,10 +384,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:12578](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L12578)
+main.ts:13029
 
 ___
-
 
 ### lighthouseTasksReady
 
@@ -417,10 +400,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:12619](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L12619)
+main.ts:13070
 
 ___
-
 
 ### lighthouseVersions
 
@@ -434,10 +416,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:12540](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L12540)
+main.ts:12991
 
 ___
-
 
 ### links
 
@@ -457,10 +438,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:12005](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L12005)
+main.ts:12456
 
 ___
-
 
 ### microdata
 
@@ -480,10 +460,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:12215](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L12215)
+main.ts:12666
 
 ___
-
 
 ### nonIndexable
 
@@ -503,10 +482,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:12089](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L12089)
+main.ts:12540
 
 ___
-
 
 ### onPageAvailableFilters
 
@@ -520,10 +498,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:11633](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L11633)
+main.ts:12084
 
 ___
-
 
 ### onPageErrors
 
@@ -543,10 +520,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:11550](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L11550)
+main.ts:12001
 
 ___
-
 
 ### onPageIdList
 
@@ -566,10 +542,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:11508](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L11508)
+main.ts:11959
 
 ___
-
 
 ### onPageLighthouseLanguages
 
@@ -583,10 +558,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:12466](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L12466)
+main.ts:12917
 
 ___
-
 
 ### pageScreenshot
 
@@ -606,10 +580,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:12299](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L12299)
+main.ts:12750
 
 ___
-
 
 ### pages
 
@@ -629,10 +602,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:11795](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L11795)
+main.ts:12246
 
 ___
-
 
 ### pagesByResource
 
@@ -652,10 +624,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:11837](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L11837)
+main.ts:12288
 
 ___
-
 
 ### processContentParsing
 
@@ -673,10 +644,9 @@ ___
 
 #### Defined in
 
-[main.ts:12361](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L12361)
+main.ts:12812
 
 ___
-
 
 ### processContentParsingLive
 
@@ -694,10 +664,9 @@ ___
 
 #### Defined in
 
-[main.ts:12403](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L12403)
+main.ts:12854
 
 ___
-
 
 ### processDuplicateContent
 
@@ -715,10 +684,9 @@ ___
 
 #### Defined in
 
-[main.ts:11983](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L11983)
+main.ts:12434
 
 ___
-
 
 ### processDuplicateTags
 
@@ -736,10 +704,9 @@ ___
 
 #### Defined in
 
-[main.ts:11941](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L11941)
+main.ts:12392
 
 ___
-
 
 ### processForceStop
 
@@ -757,10 +724,9 @@ ___
 
 #### Defined in
 
-[main.ts:11612](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L11612)
+main.ts:12063
 
 ___
-
 
 ### processInstantPages
 
@@ -778,10 +744,9 @@ ___
 
 #### Defined in
 
-[main.ts:12445](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L12445)
+main.ts:12896
 
 ___
-
 
 ### processKeywordDensity
 
@@ -799,10 +764,9 @@ ___
 
 #### Defined in
 
-[main.ts:12193](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L12193)
+main.ts:12644
 
 ___
-
 
 ### processLighthouseAudits
 
@@ -820,10 +784,9 @@ ___
 
 #### Defined in
 
-[main.ts:12519](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L12519)
+main.ts:12970
 
 ___
-
 
 ### processLighthouseLiveJson
 
@@ -841,10 +804,9 @@ ___
 
 #### Defined in
 
-[main.ts:12722](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L12722)
+main.ts:13173
 
 ___
-
 
 ### processLighthouseTaskGetJson
 
@@ -862,10 +824,9 @@ ___
 
 #### Defined in
 
-[main.ts:12680](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L12680)
+main.ts:13131
 
 ___
-
 
 ### processLighthouseTaskPost
 
@@ -883,10 +844,9 @@ ___
 
 #### Defined in
 
-[main.ts:12598](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L12598)
+main.ts:13049
 
 ___
-
 
 ### processLighthouseTasksReady
 
@@ -904,10 +864,9 @@ ___
 
 #### Defined in
 
-[main.ts:12635](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L12635)
+main.ts:13086
 
 ___
-
 
 ### processLighthouseVersions
 
@@ -925,10 +884,9 @@ ___
 
 #### Defined in
 
-[main.ts:12556](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L12556)
+main.ts:13007
 
 ___
-
 
 ### processLinks
 
@@ -946,10 +904,9 @@ ___
 
 #### Defined in
 
-[main.ts:12025](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L12025)
+main.ts:12476
 
 ___
-
 
 ### processMicrodata
 
@@ -967,10 +924,9 @@ ___
 
 #### Defined in
 
-[main.ts:12235](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L12235)
+main.ts:12686
 
 ___
-
 
 ### processNonIndexable
 
@@ -988,10 +944,9 @@ ___
 
 #### Defined in
 
-[main.ts:12109](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L12109)
+main.ts:12560
 
 ___
-
 
 ### processOnPageAvailableFilters
 
@@ -1009,10 +964,9 @@ ___
 
 #### Defined in
 
-[main.ts:11649](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L11649)
+main.ts:12100
 
 ___
-
 
 ### processOnPageErrors
 
@@ -1030,10 +984,9 @@ ___
 
 #### Defined in
 
-[main.ts:11570](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L11570)
+main.ts:12021
 
 ___
-
 
 ### processOnPageIdList
 
@@ -1051,10 +1004,9 @@ ___
 
 #### Defined in
 
-[main.ts:11528](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L11528)
+main.ts:11979
 
 ___
-
 
 ### processOnPageLighthouseLanguages
 
@@ -1072,10 +1024,9 @@ ___
 
 #### Defined in
 
-[main.ts:12482](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L12482)
+main.ts:12933
 
 ___
-
 
 ### processPageScreenshot
 
@@ -1093,10 +1044,9 @@ ___
 
 #### Defined in
 
-[main.ts:12319](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L12319)
+main.ts:12770
 
 ___
-
 
 ### processPages
 
@@ -1114,10 +1064,9 @@ ___
 
 #### Defined in
 
-[main.ts:11815](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L11815)
+main.ts:12266
 
 ___
-
 
 ### processPagesByResource
 
@@ -1135,10 +1084,9 @@ ___
 
 #### Defined in
 
-[main.ts:11857](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L11857)
+main.ts:12308
 
 ___
-
 
 ### processRawHtml
 
@@ -1156,10 +1104,9 @@ ___
 
 #### Defined in
 
-[main.ts:12277](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L12277)
+main.ts:12728
 
 ___
-
 
 ### processRedirectChains
 
@@ -1177,10 +1124,9 @@ ___
 
 #### Defined in
 
-[main.ts:12067](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L12067)
+main.ts:12518
 
 ___
-
 
 ### processResources
 
@@ -1198,10 +1144,9 @@ ___
 
 #### Defined in
 
-[main.ts:11899](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L11899)
+main.ts:12350
 
 ___
-
 
 ### processSummary
 
@@ -1219,10 +1164,9 @@ ___
 
 #### Defined in
 
-[main.ts:11773](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L11773)
+main.ts:12224
 
 ___
-
 
 ### processTaskPost
 
@@ -1240,10 +1184,9 @@ ___
 
 #### Defined in
 
-[main.ts:11691](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L11691)
+main.ts:12142
 
 ___
-
 
 ### processTasksReady
 
@@ -1261,10 +1204,9 @@ ___
 
 #### Defined in
 
-[main.ts:11728](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L11728)
+main.ts:12179
 
 ___
-
 
 ### processWaterfall
 
@@ -1282,10 +1224,9 @@ ___
 
 #### Defined in
 
-[main.ts:12151](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L12151)
+main.ts:12602
 
 ___
-
 
 ### rawHtml
 
@@ -1305,10 +1246,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:12257](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L12257)
+main.ts:12708
 
 ___
-
 
 ### redirectChains
 
@@ -1328,10 +1268,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:12047](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L12047)
+main.ts:12498
 
 ___
-
 
 ### resources
 
@@ -1351,10 +1290,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:11879](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L11879)
+main.ts:12330
 
 ___
-
 
 ### summary
 
@@ -1374,10 +1312,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:11754](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L11754)
+main.ts:12205
 
 ___
-
 
 ### taskPost
 
@@ -1397,10 +1334,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:11671](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L11671)
+main.ts:12122
 
 ___
-
 
 ### tasksReady
 
@@ -1414,10 +1350,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:11712](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L11712)
+main.ts:12163
 
 ___
-
 
 ### waterfall
 
@@ -1437,8 +1372,4 @@ Successful operation
 
 #### Defined in
 
-[main.ts:12131](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L12131)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:12582

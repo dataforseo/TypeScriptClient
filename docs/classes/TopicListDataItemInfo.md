@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / TopicListDataItemInfo
+[Documentation](../README.md) / [Exports](../modules.md) / TopicListDataItemInfo
 
 # Class: TopicListDataItemInfo
 
@@ -51,7 +47,7 @@
 
 #### Defined in
 
-[main.ts:120777](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L120777)
+main.ts:124033
 
 ## Properties
 
@@ -67,10 +63,9 @@ unique topic identifier in Google Trends
 
 #### Defined in
 
-[main.ts:120765](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L120765)
+main.ts:124021
 
 ___
-
 
 ### topic\_title
 
@@ -84,10 +79,9 @@ title of the topic
 
 #### Defined in
 
-[main.ts:120767](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L120767)
+main.ts:124023
 
 ___
-
 
 ### topic\_type
 
@@ -102,10 +96,9 @@ represents the general type of the topic
 
 #### Defined in
 
-[main.ts:120770](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L120770)
+main.ts:124026
 
 ___
-
 
 ### value
 
@@ -120,7 +113,7 @@ represents the popularity of the topic. Scoring is on a relative scale where a v
 
 #### Defined in
 
-[main.ts:120773](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L120773)
+main.ts:124029
 
 ## Methods
 
@@ -140,10 +133,9 @@ represents the popularity of the topic. Scoring is on a relative scale where a v
 
 #### Defined in
 
-[main.ts:120786](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L120786)
+main.ts:124042
 
 ___
-
 
 ### toJSON
 
@@ -161,10 +153,9 @@ ___
 
 #### Defined in
 
-[main.ts:120806](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L120806)
+main.ts:124062
 
 ___
-
 
 ### fromJS
 
@@ -182,8 +173,4 @@ ___
 
 #### Defined in
 
-[main.ts:120799](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L120799)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:124055

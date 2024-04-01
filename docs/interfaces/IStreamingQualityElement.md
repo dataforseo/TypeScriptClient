@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IStreamingQualityElement
+[Documentation](../README.md) / [Exports](../modules.md) / IStreamingQualityElement
 
 # Interface: IStreamingQualityElement
 
@@ -36,10 +32,9 @@ bit rate of the video
 
 #### Defined in
 
-[main.ts:58571](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L58571)
+main.ts:60946
 
 ___
-
 
 ### fps
 
@@ -49,10 +44,9 @@ frame rate of the video
 
 #### Defined in
 
-[main.ts:58575](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L58575)
+main.ts:60950
 
 ___
-
 
 ### height
 
@@ -62,10 +56,9 @@ video height in pixels
 
 #### Defined in
 
-[main.ts:58569](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L58569)
+main.ts:60944
 
 ___
-
 
 ### label
 
@@ -75,10 +68,9 @@ label of the quality element
 
 #### Defined in
 
-[main.ts:58565](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L58565)
+main.ts:60940
 
 ___
-
 
 ### mime\_type
 
@@ -88,10 +80,9 @@ media type of the video
 
 #### Defined in
 
-[main.ts:58573](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L58573)
+main.ts:60948
 
 ___
-
 
 ### type
 
@@ -101,10 +92,9 @@ type of element
 
 #### Defined in
 
-[main.ts:58563](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L58563)
+main.ts:60938
 
 ___
-
 
 ### width
 
@@ -114,8 +104,4 @@ video width in pixels
 
 #### Defined in
 
-[main.ts:58567](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L58567)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:60942

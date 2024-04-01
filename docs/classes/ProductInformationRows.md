@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / ProductInformationRows
+[Documentation](../README.md) / [Exports](../modules.md) / ProductInformationRows
 
 # Class: ProductInformationRows
 
@@ -50,7 +46,7 @@
 
 #### Defined in
 
-[main.ts:172666](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L172666)
+main.ts:178119
 
 ## Properties
 
@@ -66,10 +62,9 @@ rows containing related product information
 
 #### Defined in
 
-[main.ts:172662](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L172662)
+main.ts:178115
 
 ___
-
 
 ### title
 
@@ -83,10 +78,9 @@ title under which related product information appears on the Amazon product page
 
 #### Defined in
 
-[main.ts:172660](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L172660)
+main.ts:178113
 
 ___
-
 
 ### type
 
@@ -100,7 +94,7 @@ type of element
 
 #### Defined in
 
-[main.ts:172658](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L172658)
+main.ts:178111
 
 ## Methods
 
@@ -120,10 +114,9 @@ type of element
 
 #### Defined in
 
-[main.ts:172675](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L172675)
+main.ts:178128
 
 ___
-
 
 ### toJSON
 
@@ -141,10 +134,9 @@ ___
 
 #### Defined in
 
-[main.ts:172698](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L172698)
+main.ts:178151
 
 ___
-
 
 ### fromJS
 
@@ -162,8 +154,4 @@ ___
 
 #### Defined in
 
-[main.ts:172691](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L172691)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:178144

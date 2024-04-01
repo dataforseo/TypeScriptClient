@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / AppDataGoogleAppListingsCategoriesResultInfo
+[Documentation](../README.md) / [Exports](../modules.md) / AppDataGoogleAppListingsCategoriesResultInfo
 
 # Class: AppDataGoogleAppListingsCategoriesResultInfo
 
@@ -49,7 +45,7 @@
 
 #### Defined in
 
-[main.ts:181900](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L181900)
+main.ts:187353
 
 ## Properties
 
@@ -65,10 +61,9 @@ name of the supported app category
 
 #### Defined in
 
-[main.ts:181894](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L181894)
+main.ts:187347
 
 ___
-
 
 ### count
 
@@ -82,7 +77,7 @@ number of app listings that make up the supported app category
 
 #### Defined in
 
-[main.ts:181896](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L181896)
+main.ts:187349
 
 ## Methods
 
@@ -102,10 +97,9 @@ number of app listings that make up the supported app category
 
 #### Defined in
 
-[main.ts:181909](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L181909)
+main.ts:187362
 
 ___
-
 
 ### toJSON
 
@@ -123,10 +117,9 @@ ___
 
 #### Defined in
 
-[main.ts:181927](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L181927)
+main.ts:187380
 
 ___
-
 
 ### fromJS
 
@@ -144,8 +137,4 @@ ___
 
 #### Defined in
 
-[main.ts:181920](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L181920)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:187373

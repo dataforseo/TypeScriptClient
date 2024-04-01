@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / RelatedResult
+[Documentation](../README.md) / [Exports](../modules.md) / RelatedResult
 
 # Class: RelatedResult
 
@@ -68,7 +64,7 @@
 
 #### Defined in
 
-[main.ts:28019](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L28019)
+main.ts:28765
 
 ## Properties
 
@@ -86,10 +82,9 @@ this feature appears after clicking on the three dots next to most results
 
 #### Defined in
 
-[main.ts:28010](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L28010)
+main.ts:28756
 
 ___
-
 
 ### amp\_version
 
@@ -104,10 +99,9 @@ indicates whether an item has the Accelerated Mobile Page (AMP) version
 
 #### Defined in
 
-[main.ts:27998](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L27998)
+main.ts:28745
 
 ___
-
 
 ### breadcrumb
 
@@ -121,10 +115,9 @@ breadcrumb in SERP
 
 #### Defined in
 
-[main.ts:27981](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L27981)
+main.ts:28728
 
 ___
-
 
 ### cache\_url
 
@@ -138,16 +131,15 @@ cached version of the page
 
 #### Defined in
 
-[main.ts:27976](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L27976)
+main.ts:28723
 
 ___
-
 
 ### description
 
 • `Optional` **description**: `string`
 
-description
+description of the hotel booking element
 
 #### Implementation of
 
@@ -155,10 +147,9 @@ description
 
 #### Defined in
 
-[main.ts:27989](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L27989)
+main.ts:28736
 
 ___
-
 
 ### domain
 
@@ -172,10 +163,9 @@ domain where a link points
 
 #### Defined in
 
-[main.ts:27970](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L27970)
+main.ts:28717
 
 ___
-
 
 ### extended\_snippet
 
@@ -189,10 +179,9 @@ includes additional information appended after the result description in SERP
 
 #### Defined in
 
-[main.ts:27993](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L27993)
+main.ts:28740
 
 ___
-
 
 ### highlighted
 
@@ -206,10 +195,9 @@ words highlighted in bold within the results description
 
 #### Defined in
 
-[main.ts:28006](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L28006)
+main.ts:28752
 
 ___
-
 
 ### images
 
@@ -223,10 +211,9 @@ images of the element
 
 #### Defined in
 
-[main.ts:27995](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L27995)
+main.ts:28742
 
 ___
-
 
 ### is\_image
 
@@ -240,10 +227,9 @@ indicates whether the element contains an image
 
 #### Defined in
 
-[main.ts:27985](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L27985)
+main.ts:28732
 
 ___
-
 
 ### is\_video
 
@@ -257,10 +243,9 @@ indicates whether the element contains a video
 
 #### Defined in
 
-[main.ts:27987](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L27987)
+main.ts:28734
 
 ___
-
 
 ### pre\_snippet
 
@@ -274,17 +259,15 @@ includes additional information appended before the result description in SERP
 
 #### Defined in
 
-[main.ts:27991](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L27991)
+main.ts:28738
 
 ___
-
 
 ### price
 
 • `Optional` **price**: [`PriceInfo`](PriceInfo.md)
 
-pricing details
-contains the pricing details of the product or service featured in the result
+price of booking a place for the specified dates of stay
 
 #### Implementation of
 
@@ -292,16 +275,15 @@ contains the pricing details of the product or service featured in the result
 
 #### Defined in
 
-[main.ts:28004](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L28004)
+main.ts:28750
 
 ___
-
 
 ### rating
 
 • `Optional` **rating**: [`RatingInfo`](RatingInfo.md)
 
-the item’s rating
+the item’s rating 
 the popularity rate based on reviews and displayed in SERP
 
 #### Implementation of
@@ -310,10 +292,9 @@ the popularity rate based on reviews and displayed in SERP
 
 #### Defined in
 
-[main.ts:28001](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L28001)
+main.ts:28748
 
 ___
-
 
 ### related\_search\_url
 
@@ -328,10 +309,9 @@ URL to a new search for the same keyword(s) on related sites
 
 #### Defined in
 
-[main.ts:27979](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L27979)
+main.ts:28726
 
 ___
-
 
 ### timestamp
 
@@ -348,16 +328,15 @@ example:
 
 #### Defined in
 
-[main.ts:28015](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L28015)
+main.ts:28761
 
 ___
-
 
 ### title
 
 • `Optional` **title**: `string`
 
-title of the element
+title of a given link element
 
 #### Implementation of
 
@@ -365,10 +344,9 @@ title of the element
 
 #### Defined in
 
-[main.ts:27972](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L27972)
+main.ts:28719
 
 ___
-
 
 ### type
 
@@ -382,16 +360,15 @@ type of element
 
 #### Defined in
 
-[main.ts:27966](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L27966)
+main.ts:28713
 
 ___
-
 
 ### url
 
 • `Optional` **url**: `string`
 
-URL
+URL of element
 
 #### Implementation of
 
@@ -399,10 +376,9 @@ URL
 
 #### Defined in
 
-[main.ts:27974](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L27974)
+main.ts:28721
 
 ___
-
 
 ### website\_name
 
@@ -416,10 +392,9 @@ name of the website in SERP
 
 #### Defined in
 
-[main.ts:27983](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L27983)
+main.ts:28730
 
 ___
-
 
 ### xpath
 
@@ -433,7 +408,7 @@ the XPath of the element
 
 #### Defined in
 
-[main.ts:27968](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L27968)
+main.ts:28715
 
 ## Methods
 
@@ -453,10 +428,9 @@ the XPath of the element
 
 #### Defined in
 
-[main.ts:28028](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L28028)
+main.ts:28774
 
 ___
-
 
 ### toJSON
 
@@ -474,10 +448,9 @@ ___
 
 #### Defined in
 
-[main.ts:28073](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L28073)
+main.ts:28819
 
 ___
-
 
 ### fromJS
 
@@ -495,8 +468,4 @@ ___
 
 #### Defined in
 
-[main.ts:28066](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L28066)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:28812

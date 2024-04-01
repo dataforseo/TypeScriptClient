@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IOnPageRawHtmlRequestInfo
+[Documentation](../README.md) / [Exports](../modules.md) / IOnPageRawHtmlRequestInfo
 
 # Interface: IOnPageRawHtmlRequestInfo
 
@@ -35,10 +31,9 @@ example:
 
 #### Defined in
 
-[main.ts:151193](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L151193)
+main.ts:156620
 
 ___
-
 
 ### url
 
@@ -51,8 +46,4 @@ Note: this field is optional if the task was set using the Instant Pages endpoin
 
 #### Defined in
 
-[main.ts:151198](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L151198)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:156625

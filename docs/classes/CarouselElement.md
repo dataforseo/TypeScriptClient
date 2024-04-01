@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / CarouselElement
+[Documentation](../README.md) / [Exports](../modules.md) / CarouselElement
 
 # Class: CarouselElement
 
@@ -51,7 +47,7 @@
 
 #### Defined in
 
-[main.ts:29928](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L29928)
+main.ts:30727
 
 ## Properties
 
@@ -67,10 +63,9 @@ URL of the image
 
 #### Defined in
 
-[main.ts:29924](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L29924)
+main.ts:30723
 
 ___
-
 
 ### subtitle
 
@@ -84,16 +79,15 @@ subtitle of the element
 
 #### Defined in
 
-[main.ts:29922](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L29922)
+main.ts:30721
 
 ___
-
 
 ### title
 
 • `Optional` **title**: `string`
 
-title of the row
+title of a given link element
 
 #### Implementation of
 
@@ -101,10 +95,9 @@ title of the row
 
 #### Defined in
 
-[main.ts:29920](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L29920)
+main.ts:30719
 
 ___
-
 
 ### type
 
@@ -118,7 +111,7 @@ type of element
 
 #### Defined in
 
-[main.ts:29918](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L29918)
+main.ts:30717
 
 ## Methods
 
@@ -138,10 +131,9 @@ type of element
 
 #### Defined in
 
-[main.ts:29937](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L29937)
+main.ts:30736
 
 ___
-
 
 ### toJSON
 
@@ -159,10 +151,9 @@ ___
 
 #### Defined in
 
-[main.ts:29957](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L29957)
+main.ts:30756
 
 ___
-
 
 ### fromJS
 
@@ -180,8 +171,4 @@ ___
 
 #### Defined in
 
-[main.ts:29950](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L29950)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:30749

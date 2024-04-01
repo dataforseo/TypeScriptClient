@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / ContentAnalysisAvailableFiltersResultInfo
+[Documentation](../README.md) / [Exports](../modules.md) / ContentAnalysisAvailableFiltersResultInfo
 
 # Class: ContentAnalysisAvailableFiltersResultInfo
 
@@ -48,7 +44,7 @@
 
 #### Defined in
 
-[main.ts:155358](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L155358)
+main.ts:160785
 
 ## Properties
 
@@ -66,7 +62,7 @@
 
 #### Defined in
 
-[main.ts:155354](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L155354)
+main.ts:160781
 
 ## Methods
 
@@ -86,10 +82,9 @@
 
 #### Defined in
 
-[main.ts:155367](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L155367)
+main.ts:160794
 
 ___
-
 
 ### toJSON
 
@@ -107,10 +102,9 @@ ___
 
 #### Defined in
 
-[main.ts:155390](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L155390)
+main.ts:160817
 
 ___
-
 
 ### fromJS
 
@@ -128,8 +122,4 @@ ___
 
 #### Defined in
 
-[main.ts:155383](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L155383)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:160810

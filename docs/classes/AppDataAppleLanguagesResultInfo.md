@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / AppDataAppleLanguagesResultInfo
+[Documentation](../README.md) / [Exports](../modules.md) / AppDataAppleLanguagesResultInfo
 
 # Class: AppDataAppleLanguagesResultInfo
 
@@ -49,7 +45,7 @@
 
 #### Defined in
 
-[main.ts:182936](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L182936)
+main.ts:188389
 
 ## Properties
 
@@ -65,10 +61,9 @@ language code according to ISO 639-1
 
 #### Defined in
 
-[main.ts:182932](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L182932)
+main.ts:188385
 
 ___
-
 
 ### language\_name
 
@@ -82,7 +77,7 @@ language name
 
 #### Defined in
 
-[main.ts:182930](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L182930)
+main.ts:188383
 
 ## Methods
 
@@ -102,10 +97,9 @@ language name
 
 #### Defined in
 
-[main.ts:182945](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L182945)
+main.ts:188398
 
 ___
-
 
 ### toJSON
 
@@ -123,10 +117,9 @@ ___
 
 #### Defined in
 
-[main.ts:182963](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L182963)
+main.ts:188416
 
 ___
-
 
 ### fromJS
 
@@ -144,8 +137,4 @@ ___
 
 #### Defined in
 
-[main.ts:182956](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L182956)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:188409

@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / Rectangle
+[Documentation](../README.md) / [Exports](../modules.md) / Rectangle
 
 # Class: Rectangle
 
@@ -51,7 +47,7 @@
 
 #### Defined in
 
-[main.ts:20859](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L20859)
+main.ts:21378
 
 ## Properties
 
@@ -67,10 +63,9 @@ height of the element in pixels
 
 #### Defined in
 
-[main.ts:20855](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L20855)
+main.ts:21374
 
 ___
-
 
 ### width
 
@@ -84,10 +79,9 @@ width of the element in pixels
 
 #### Defined in
 
-[main.ts:20853](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L20853)
+main.ts:21372
 
 ___
-
 
 ### x
 
@@ -102,10 +96,9 @@ x-axis coordinate of the top-left corner of the result’s snippet, where top-le
 
 #### Defined in
 
-[main.ts:20848](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L20848)
+main.ts:21367
 
 ___
-
 
 ### y
 
@@ -120,7 +113,7 @@ y-axis coordinate of the top-left corner of the result’s snippet, where top-le
 
 #### Defined in
 
-[main.ts:20851](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L20851)
+main.ts:21370
 
 ## Methods
 
@@ -140,10 +133,9 @@ y-axis coordinate of the top-left corner of the result’s snippet, where top-le
 
 #### Defined in
 
-[main.ts:20868](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L20868)
+main.ts:21387
 
 ___
-
 
 ### toJSON
 
@@ -161,10 +153,9 @@ ___
 
 #### Defined in
 
-[main.ts:20888](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L20888)
+main.ts:21407
 
 ___
-
 
 ### fromJS
 
@@ -182,8 +173,4 @@ ___
 
 #### Defined in
 
-[main.ts:20881](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L20881)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:21400

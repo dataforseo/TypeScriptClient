@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / BacklinksBulkBacklinksLiveRequestInfo
+[Documentation](../README.md) / [Exports](../modules.md) / BacklinksBulkBacklinksLiveRequestInfo
 
 # Class: BacklinksBulkBacklinksLiveRequestInfo
 
@@ -49,7 +45,7 @@
 
 #### Defined in
 
-[main.ts:139666](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L139666)
+main.ts:145093
 
 ## Properties
 
@@ -69,10 +65,9 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-[main.ts:139662](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L139662)
+main.ts:145089
 
 ___
-
 
 ### targets
 
@@ -85,16 +80,16 @@ the domain or subdomain should be specified without https:// and www.
 the page should be specified with absolute URL (including http:// or https://)
 example:
 "targets": [
-"forbes.com",
-"cnn.com",
-"bbc.com",
-"yelp.com",
-"https://www.apple.com/iphone/",
-"https://ahrefs.com/blog/",
-"ibm.com",
-"https://variety.com/",
-"https://stackoverflow.com/",
-"www.trustpilot.com"
+  "forbes.com",
+  "cnn.com",
+  "bbc.com",
+  "yelp.com",
+  "https://www.apple.com/iphone/",
+  "https://ahrefs.com/blog/",
+  "ibm.com",
+  "https://variety.com/",
+  "https://stackoverflow.com/",
+  "www.trustpilot.com"
 ]
 
 #### Implementation of
@@ -103,7 +98,7 @@ example:
 
 #### Defined in
 
-[main.ts:139656](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L139656)
+main.ts:145083
 
 ## Methods
 
@@ -123,10 +118,9 @@ example:
 
 #### Defined in
 
-[main.ts:139675](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L139675)
+main.ts:145102
 
 ___
-
 
 ### toJSON
 
@@ -144,10 +138,9 @@ ___
 
 #### Defined in
 
-[main.ts:139697](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L139697)
+main.ts:145124
 
 ___
-
 
 ### fromJS
 
@@ -165,8 +158,4 @@ ___
 
 #### Defined in
 
-[main.ts:139690](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L139690)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:145117

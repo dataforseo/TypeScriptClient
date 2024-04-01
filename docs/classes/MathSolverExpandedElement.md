@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / MathSolverExpandedElement
+[Documentation](../README.md) / [Exports](../modules.md) / MathSolverExpandedElement
 
 # Class: MathSolverExpandedElement
 
@@ -50,7 +46,7 @@
 
 #### Defined in
 
-[main.ts:33905](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L33905)
+main.ts:34828
 
 ## Properties
 
@@ -67,16 +63,15 @@ displays steps to solve the mathematical equation as specified in the element
 
 #### Defined in
 
-[main.ts:33901](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L33901)
+main.ts:34824
 
 ___
-
 
 ### title
 
 • `Optional` **title**: `string`
 
-title of a given link element
+title of the carousel item
 
 #### Implementation of
 
@@ -84,10 +79,9 @@ title of a given link element
 
 #### Defined in
 
-[main.ts:33898](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L33898)
+main.ts:34821
 
 ___
-
 
 ### type
 
@@ -101,7 +95,7 @@ type of element
 
 #### Defined in
 
-[main.ts:33896](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L33896)
+main.ts:34819
 
 ## Methods
 
@@ -121,10 +115,9 @@ type of element
 
 #### Defined in
 
-[main.ts:33914](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L33914)
+main.ts:34837
 
 ___
-
 
 ### toJSON
 
@@ -142,10 +135,9 @@ ___
 
 #### Defined in
 
-[main.ts:33937](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L33937)
+main.ts:34860
 
 ___
-
 
 ### fromJS
 
@@ -163,8 +155,4 @@ ___
 
 #### Defined in
 
-[main.ts:33930](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L33930)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:34853

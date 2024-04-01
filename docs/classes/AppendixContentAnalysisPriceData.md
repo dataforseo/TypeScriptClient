@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / AppendixContentAnalysisPriceData
+[Documentation](../README.md) / [Exports](../modules.md) / AppendixContentAnalysisPriceData
 
 # Class: AppendixContentAnalysisPriceData
 
@@ -57,7 +53,7 @@
 
 #### Defined in
 
-[main.ts:211384](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L211384)
+main.ts:216977
 
 ## Properties
 
@@ -71,10 +67,9 @@
 
 #### Defined in
 
-[main.ts:211371](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L211371)
+main.ts:216964
 
 ___
-
 
 ### category\_trends
 
@@ -86,10 +81,9 @@ ___
 
 #### Defined in
 
-[main.ts:211372](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L211372)
+main.ts:216965
 
 ___
-
 
 ### errors
 
@@ -101,10 +95,9 @@ ___
 
 #### Defined in
 
-[main.ts:211373](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L211373)
+main.ts:216966
 
 ___
-
 
 ### languages
 
@@ -116,10 +109,9 @@ ___
 
 #### Defined in
 
-[main.ts:211374](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L211374)
+main.ts:216967
 
 ___
-
 
 ### locations
 
@@ -131,10 +123,9 @@ ___
 
 #### Defined in
 
-[main.ts:211375](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L211375)
+main.ts:216968
 
 ___
-
 
 ### phrase\_trends
 
@@ -146,10 +137,9 @@ ___
 
 #### Defined in
 
-[main.ts:211376](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L211376)
+main.ts:216969
 
 ___
-
 
 ### rating\_distribution
 
@@ -161,10 +151,9 @@ ___
 
 #### Defined in
 
-[main.ts:211377](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L211377)
+main.ts:216970
 
 ___
-
 
 ### search
 
@@ -176,10 +165,9 @@ ___
 
 #### Defined in
 
-[main.ts:211378](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L211378)
+main.ts:216971
 
 ___
-
 
 ### sentiment\_analysis
 
@@ -191,10 +179,9 @@ ___
 
 #### Defined in
 
-[main.ts:211379](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L211379)
+main.ts:216972
 
 ___
-
 
 ### summary
 
@@ -206,7 +193,7 @@ ___
 
 #### Defined in
 
-[main.ts:211380](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L211380)
+main.ts:216973
 
 ## Methods
 
@@ -226,10 +213,9 @@ ___
 
 #### Defined in
 
-[main.ts:211393](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L211393)
+main.ts:216986
 
 ___
-
 
 ### toJSON
 
@@ -247,10 +233,9 @@ ___
 
 #### Defined in
 
-[main.ts:211419](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L211419)
+main.ts:217012
 
 ___
-
 
 ### fromJS
 
@@ -268,8 +253,4 @@ ___
 
 #### Defined in
 
-[main.ts:211412](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L211412)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:217005

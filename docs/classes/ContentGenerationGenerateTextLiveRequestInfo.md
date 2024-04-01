@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / ContentGenerationGenerateTextLiveRequestInfo
+[Documentation](../README.md) / [Exports](../modules.md) / ContentGenerationGenerateTextLiveRequestInfo
 
 # Class: ContentGenerationGenerateTextLiveRequestInfo
 
@@ -56,7 +52,7 @@
 
 #### Defined in
 
-[main.ts:160257](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L160257)
+main.ts:165684
 
 ## Properties
 
@@ -77,10 +73,9 @@ learn more about this parameter on our help center
 
 #### Defined in
 
-[main.ts:160237](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L160237)
+main.ts:165664
 
 ___
-
 
 ### description
 
@@ -97,10 +92,9 @@ learn more about this parameter on our help center
 
 #### Defined in
 
-[main.ts:160224](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L160224)
+main.ts:165651
 
 ___
-
 
 ### include\_conclusion
 
@@ -116,10 +110,9 @@ if set to true, generated content will include a logical conclusion
 
 #### Defined in
 
-[main.ts:160241](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L160241)
+main.ts:165668
 
 ___
-
 
 ### meta\_keywords
 
@@ -137,10 +130,9 @@ example: "meta_keywords": ["iPhone","sell","CEO"]
 
 #### Defined in
 
-[main.ts:160230](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L160230)
+main.ts:165657
 
 ___
-
 
 ### sub\_topics
 
@@ -158,10 +150,9 @@ example: "sub_topics": ["Apple","Pixar","Amazing Products"]
 
 #### Defined in
 
-[main.ts:160219](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L160219)
+main.ts:165646
 
 ___
-
 
 ### supplement\_token
 
@@ -179,10 +170,9 @@ supplement_token values are unique for each subsequent task
 
 #### Defined in
 
-[main.ts:160247](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L160247)
+main.ts:165674
 
 ___
-
 
 ### tag
 
@@ -200,10 +190,9 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-[main.ts:160253](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L160253)
+main.ts:165680
 
 ___
-
 
 ### topic
 
@@ -220,10 +209,9 @@ can contain from 1 to 50 tokens
 
 #### Defined in
 
-[main.ts:160208](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L160208)
+main.ts:165635
 
 ___
-
 
 ### word\_count
 
@@ -240,7 +228,7 @@ can take values from 1 to 1000
 
 #### Defined in
 
-[main.ts:160213](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L160213)
+main.ts:165640
 
 ## Methods
 
@@ -260,10 +248,9 @@ can take values from 1 to 1000
 
 #### Defined in
 
-[main.ts:160266](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L160266)
+main.ts:165693
 
 ___
-
 
 ### toJSON
 
@@ -281,10 +268,9 @@ ___
 
 #### Defined in
 
-[main.ts:160299](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L160299)
+main.ts:165726
 
 ___
-
 
 ### fromJS
 
@@ -302,8 +288,4 @@ ___
 
 #### Defined in
 
-[main.ts:160292](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L160292)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:165719

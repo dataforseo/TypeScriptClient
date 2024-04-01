@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / OnPageInstantPagesRequestInfo
+[Documentation](../README.md) / [Exports](../modules.md) / OnPageInstantPagesRequestInfo
 
 # Class: OnPageInstantPagesRequestInfo
 
@@ -64,7 +60,7 @@
 
 #### Defined in
 
-[main.ts:153106](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L153106)
+main.ts:158533
 
 ## Properties
 
@@ -83,10 +79,9 @@ Note: if you do not specify this parameter, some websites may deny access; in th
 
 #### Defined in
 
-[main.ts:153044](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L153044)
+main.ts:158471
 
 ___
-
 
 ### browser\_preset
 
@@ -115,10 +110,9 @@ Note: to use this parameter, set enable_javascript or enable_browser_rendering t
 
 #### Defined in
 
-[main.ts:153016](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L153016)
+main.ts:158443
 
 ___
-
 
 ### browser\_screen\_height
 
@@ -136,10 +130,9 @@ maximum value, in pixels: 9999
 
 #### Defined in
 
-[main.ts:153028](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L153028)
+main.ts:158455
 
 ___
-
 
 ### browser\_screen\_scale\_factor
 
@@ -157,10 +150,9 @@ maximum value: 3
 
 #### Defined in
 
-[main.ts:153034](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L153034)
+main.ts:158461
 
 ___
-
 
 ### browser\_screen\_width
 
@@ -178,10 +170,9 @@ maximum value, in pixels: 9999
 
 #### Defined in
 
-[main.ts:153022](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L153022)
+main.ts:158449
 
 ___
-
 
 ### check\_spell
 
@@ -198,10 +189,9 @@ default value: false
 
 #### Defined in
 
-[main.ts:153097](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L153097)
+main.ts:158524
 
 ___
-
 
 ### checks\_threshold
 
@@ -222,10 +212,9 @@ Note: only integer threshold values can be modified;
 
 #### Defined in
 
-[main.ts:153102](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L153102)
+main.ts:158529
 
 ___
-
 
 ### custom\_js
 
@@ -248,10 +237,9 @@ Note: if you use this parameter, additional charges will apply; learn more about
 
 #### Defined in
 
-[main.ts:153087](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L153087)
+main.ts:158514
 
 ___
-
 
 ### custom\_user\_agent
 
@@ -270,16 +258,15 @@ default value: Mozilla/5.0 (compatible; RSiteAuditor)
 
 #### Defined in
 
-[main.ts:152999](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L152999)
+main.ts:158426
 
 ___
-
 
 ### disable\_cookie\_popup
 
 • `Optional` **disable\_cookie\_popup**: `boolean`
 
-disable the cookie popup
+disable the cookie popup 
 optional field
 set to true if you want to disable the popup requesting cookie consent from the user;
 default value:
@@ -291,10 +278,9 @@ false
 
 #### Defined in
 
-[main.ts:153065](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L153065)
+main.ts:158492
 
 ___
-
 
 ### enable\_browser\_rendering
 
@@ -315,10 +301,9 @@ Note: if you use this parameter, additional charges will apply; learn more about
 
 #### Defined in
 
-[main.ts:153059](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L153059)
+main.ts:158486
 
 ___
-
 
 ### enable\_javascript
 
@@ -336,10 +321,9 @@ Note: if you use this parameter, additional charges will apply; learn more about
 
 #### Defined in
 
-[main.ts:153050](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L153050)
+main.ts:158477
 
 ___
-
 
 ### enable\_xhr
 
@@ -357,10 +341,9 @@ falseif you use this field, enable_javascript must be set to true;
 
 #### Defined in
 
-[main.ts:153076](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L153076)
+main.ts:158503
 
 ___
-
 
 ### return\_despite\_timeout
 
@@ -377,10 +360,9 @@ default value: false
 
 #### Defined in
 
-[main.ts:153070](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L153070)
+main.ts:158497
 
 ___
-
 
 ### store\_raw\_html
 
@@ -397,10 +379,9 @@ default value: false
 
 #### Defined in
 
-[main.ts:153039](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L153039)
+main.ts:158466
 
 ___
-
 
 ### url
 
@@ -419,10 +400,9 @@ to prevent this error from occuring, avoid setting tasks with the same domain if
 
 #### Defined in
 
-[main.ts:152992](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L152992)
+main.ts:158419
 
 ___
-
 
 ### validate\_micromarkup
 
@@ -439,7 +419,7 @@ default value: false
 
 #### Defined in
 
-[main.ts:153092](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L153092)
+main.ts:158519
 
 ## Methods
 
@@ -459,10 +439,9 @@ default value: false
 
 #### Defined in
 
-[main.ts:153115](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L153115)
+main.ts:158542
 
 ___
-
 
 ### toJSON
 
@@ -480,10 +459,9 @@ ___
 
 #### Defined in
 
-[main.ts:153154](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L153154)
+main.ts:158581
 
 ___
-
 
 ### fromJS
 
@@ -501,8 +479,4 @@ ___
 
 #### Defined in
 
-[main.ts:153147](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L153147)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:158574

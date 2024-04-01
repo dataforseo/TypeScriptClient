@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IEventsElement
+[Documentation](../README.md) / [Exports](../modules.md) / IEventsElement
 
 # Interface: IEventsElement
 
@@ -33,23 +29,21 @@ text alongside the link title
 
 #### Defined in
 
-[main.ts:31027](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L31027)
+main.ts:31860
 
 ___
-
 
 ### title
 
 • `Optional` **title**: `string`
 
-title of the row
+title of a given link element
 
 #### Defined in
 
-[main.ts:31025](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L31025)
+main.ts:31858
 
 ___
-
 
 ### type
 
@@ -59,10 +53,9 @@ type of element
 
 #### Defined in
 
-[main.ts:31023](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L31023)
+main.ts:31856
 
 ___
-
 
 ### url
 
@@ -72,8 +65,4 @@ URL
 
 #### Defined in
 
-[main.ts:31029](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L31029)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:31862

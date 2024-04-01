@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / BacklinksCompetitorsLiveItem
+[Documentation](../README.md) / [Exports](../modules.md) / BacklinksCompetitorsLiveItem
 
 # Class: BacklinksCompetitorsLiveItem
 
@@ -51,7 +47,7 @@
 
 #### Defined in
 
-[main.ts:136134](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L136134)
+main.ts:141549
 
 ## Properties
 
@@ -67,10 +63,9 @@ indicates the number of backlink intersections with the target specified in the 
 
 #### Defined in
 
-[main.ts:136130](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L136130)
+main.ts:141545
 
 ___
-
 
 ### rank
 
@@ -87,10 +82,9 @@ learn more about the metric and how it is calculated in this help center article
 
 #### Defined in
 
-[main.ts:136128](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L136128)
+main.ts:141543
 
 ___
-
 
 ### target
 
@@ -104,10 +98,9 @@ competitor domain
 
 #### Defined in
 
-[main.ts:136123](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L136123)
+main.ts:141538
 
 ___
-
 
 ### type
 
@@ -121,7 +114,7 @@ type of element
 
 #### Defined in
 
-[main.ts:136121](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L136121)
+main.ts:141536
 
 ## Methods
 
@@ -141,10 +134,9 @@ type of element
 
 #### Defined in
 
-[main.ts:136143](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L136143)
+main.ts:141558
 
 ___
-
 
 ### toJSON
 
@@ -162,10 +154,9 @@ ___
 
 #### Defined in
 
-[main.ts:136163](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L136163)
+main.ts:141578
 
 ___
-
 
 ### fromJS
 
@@ -183,8 +174,4 @@ ___
 
 #### Defined in
 
-[main.ts:136156](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L136156)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:141571

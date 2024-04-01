@@ -1,15 +1,11 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / NewsSearchSerpElementItem
+[Documentation](../README.md) / [Exports](../modules.md) / NewsSearchSerpElementItem
 
 # Class: NewsSearchSerpElementItem
 
 ## Hierarchy
 
 - [`BaseSerpElementItem`](BaseSerpElementItem.md)
-  
+
   ↳ **`NewsSearchSerpElementItem`**
 
 ## Implements
@@ -69,7 +65,7 @@
 
 #### Defined in
 
-[main.ts:42523](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L42523)
+main.ts:43274
 
 ## Properties
 
@@ -83,10 +79,9 @@
 
 #### Defined in
 
-[main.ts:19337](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L19337)
+main.ts:19788
 
 ___
-
 
 ### domain
 
@@ -100,10 +95,9 @@ domain name of the result in SERP
 
 #### Defined in
 
-[main.ts:42499](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L42499)
+main.ts:43250
 
 ___
-
 
 ### image\_url
 
@@ -118,10 +112,9 @@ the URL leading to the image on the original resource or DataForSEO storage (in 
 
 #### Defined in
 
-[main.ts:42506](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L42506)
+main.ts:43257
 
 ___
-
 
 ### rank\_absolute
 
@@ -136,10 +129,9 @@ absolute position among all the elements in SERP
 
 #### Defined in
 
-[main.ts:42495](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L42495)
+main.ts:43246
 
 ___
-
 
 ### rank\_group
 
@@ -155,10 +147,9 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-[main.ts:42492](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L42492)
+main.ts:43243
 
 ___
-
 
 ### rectangle
 
@@ -174,10 +165,9 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 #### Defined in
 
-[main.ts:42519](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L42519)
+main.ts:43270
 
 ___
-
 
 ### snippet
 
@@ -191,10 +181,9 @@ snippet of the result in SERP
 
 #### Defined in
 
-[main.ts:42508](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L42508)
+main.ts:43259
 
 ___
-
 
 ### time\_published
 
@@ -208,10 +197,9 @@ indicates the time the result was published
 
 #### Defined in
 
-[main.ts:42510](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L42510)
+main.ts:43261
 
 ___
-
 
 ### timestamp
 
@@ -228,10 +216,9 @@ example:
 
 #### Defined in
 
-[main.ts:42515](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L42515)
+main.ts:43266
 
 ___
-
 
 ### title
 
@@ -245,10 +232,9 @@ title of the result in SERP
 
 #### Defined in
 
-[main.ts:42501](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L42501)
+main.ts:43252
 
 ___
-
 
 ### url
 
@@ -262,10 +248,9 @@ URL of the result in SERP
 
 #### Defined in
 
-[main.ts:42503](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L42503)
+main.ts:43254
 
 ___
-
 
 ### xpath
 
@@ -279,7 +264,7 @@ the XPath of the element
 
 #### Defined in
 
-[main.ts:42497](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L42497)
+main.ts:43248
 
 ## Methods
 
@@ -303,10 +288,9 @@ the XPath of the element
 
 #### Defined in
 
-[main.ts:42528](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L42528)
+main.ts:43279
 
 ___
-
 
 ### toJSON
 
@@ -328,10 +312,9 @@ ___
 
 #### Defined in
 
-[main.ts:42556](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L42556)
+main.ts:43307
 
 ___
-
 
 ### fromJS
 
@@ -353,8 +336,4 @@ ___
 
 #### Defined in
 
-[main.ts:42549](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L42549)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:43300

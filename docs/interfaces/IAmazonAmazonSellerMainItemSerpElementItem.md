@@ -1,15 +1,11 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IAmazonAmazonSellerMainItemSerpElementItem
+[Documentation](../README.md) / [Exports](../modules.md) / IAmazonAmazonSellerMainItemSerpElementItem
 
 # Interface: IAmazonAmazonSellerMainItemSerpElementItem
 
 ## Hierarchy
 
 - [`IBaseAmazonSerpElementItem`](IBaseAmazonSerpElementItem.md)
-  
+
   ↳ **`IAmazonAmazonSellerMainItemSerpElementItem`**
 
 ## Implemented by
@@ -48,10 +44,9 @@ condition of the product offered by the seller
 
 #### Defined in
 
-[main.ts:174233](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L174233)
+main.ts:179686
 
 ___
-
 
 ### condition\_description
 
@@ -62,10 +57,9 @@ expanded details on the condition of the product offered by the seller
 
 #### Defined in
 
-[main.ts:174236](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L174236)
+main.ts:179689
 
 ___
-
 
 ### delivery\_info
 
@@ -76,10 +70,9 @@ delivery information including free and fast delivery date ranges
 
 #### Defined in
 
-[main.ts:174239](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L174239)
+main.ts:179692
 
 ___
-
 
 ### position
 
@@ -91,10 +84,9 @@ left, right
 
 #### Defined in
 
-[main.ts:174216](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L174216)
+main.ts:179669
 
 ___
-
 
 ### price
 
@@ -105,10 +97,9 @@ if there are no details, the value will be null
 
 #### Defined in
 
-[main.ts:174227](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L174227)
+main.ts:179680
 
 ___
-
 
 ### rank\_absolute
 
@@ -119,10 +110,9 @@ absolute position among all the elements found in Amazon Sellers SERP
 
 #### Defined in
 
-[main.ts:174212](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L174212)
+main.ts:179665
 
 ___
-
 
 ### rank\_group
 
@@ -133,10 +123,9 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-[main.ts:174209](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L174209)
+main.ts:179662
 
 ___
-
 
 ### rating
 
@@ -147,10 +136,9 @@ seller popularity rate based on customer reviews
 
 #### Defined in
 
-[main.ts:174230](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L174230)
+main.ts:179683
 
 ___
-
 
 ### seller\_name
 
@@ -160,10 +148,9 @@ business name of the seller
 
 #### Defined in
 
-[main.ts:174220](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L174220)
+main.ts:179673
 
 ___
-
 
 ### seller\_url
 
@@ -173,10 +160,9 @@ url forwarding to the seller’s page on Amazon
 
 #### Defined in
 
-[main.ts:174222](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L174222)
+main.ts:179675
 
 ___
-
 
 ### ships\_from
 
@@ -186,10 +172,9 @@ sender company name
 
 #### Defined in
 
-[main.ts:174224](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L174224)
+main.ts:179677
 
 ___
-
 
 ### xpath
 
@@ -199,8 +184,4 @@ XPath of the element
 
 #### Defined in
 
-[main.ts:174218](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L174218)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:179671

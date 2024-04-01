@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IOnPageMicrodataResultInfo
+[Documentation](../README.md) / [Exports](../modules.md) / IOnPageMicrodataResultInfo
 
 # Interface: IOnPageMicrodataResultInfo
 
@@ -35,10 +31,9 @@ possible values: in_progress, finished
 
 #### Defined in
 
-[main.ts:151010](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L151010)
+main.ts:156437
 
 ___
-
 
 ### crawl\_status
 
@@ -48,10 +43,9 @@ details of the crawling session
 
 #### Defined in
 
-[main.ts:151012](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L151012)
+main.ts:156439
 
 ___
-
 
 ### items
 
@@ -61,10 +55,9 @@ items array
 
 #### Defined in
 
-[main.ts:151018](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L151018)
+main.ts:156445
 
 ___
-
 
 ### items\_count
 
@@ -74,10 +67,9 @@ number of items in the results array
 
 #### Defined in
 
-[main.ts:151016](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L151016)
+main.ts:156443
 
 ___
-
 
 ### test\_summary
 
@@ -87,8 +79,4 @@ microdata validation test results
 
 #### Defined in
 
-[main.ts:151014](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L151014)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:156441

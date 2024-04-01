@@ -1,15 +1,11 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / AmazonAmazonReviewItemSerpElementItem
+[Documentation](../README.md) / [Exports](../modules.md) / AmazonAmazonReviewItemSerpElementItem
 
 # Class: AmazonAmazonReviewItemSerpElementItem
 
 ## Hierarchy
 
 - [`BaseAmazonSerpElementItem`](BaseAmazonSerpElementItem.md)
-  
+
   ↳ **`AmazonAmazonReviewItemSerpElementItem`**
 
 ## Implements
@@ -73,7 +69,7 @@
 
 #### Defined in
 
-[main.ts:175655](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L175655)
+main.ts:181108
 
 ## Properties
 
@@ -87,10 +83,9 @@
 
 #### Defined in
 
-[main.ts:20756](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L20756)
+main.ts:21275
 
 ___
-
 
 ### helpful\_votes
 
@@ -105,10 +100,9 @@ number of users who clicked on the ‘Helpful” button under the review text
 
 #### Defined in
 
-[main.ts:175632](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L175632)
+main.ts:181085
 
 ___
-
 
 ### images
 
@@ -122,10 +116,9 @@ images of the product submitted by the reviewer
 
 #### Defined in
 
-[main.ts:175634](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L175634)
+main.ts:181087
 
 ___
-
 
 ### position
 
@@ -140,10 +133,9 @@ can take the following values: right
 
 #### Defined in
 
-[main.ts:175623](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L175623)
+main.ts:181076
 
 ___
-
 
 ### publication\_date
 
@@ -160,10 +152,9 @@ example:
 
 #### Defined in
 
-[main.ts:175649](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L175649)
+main.ts:181102
 
 ___
-
 
 ### rank\_absolute
 
@@ -178,10 +169,9 @@ absolute position among all reviews on the list
 
 #### Defined in
 
-[main.ts:175620](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L175620)
+main.ts:181073
 
 ___
-
 
 ### rank\_group
 
@@ -196,10 +186,9 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-[main.ts:175617](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L175617)
+main.ts:181070
 
 ___
-
 
 ### rating
 
@@ -213,10 +202,9 @@ the rating score submitted by the reviewer
 
 #### Defined in
 
-[main.ts:175651](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L175651)
+main.ts:181104
 
 ___
-
 
 ### review\_text
 
@@ -230,10 +218,9 @@ content of the review
 
 #### Defined in
 
-[main.ts:175644](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L175644)
+main.ts:181097
 
 ___
-
 
 ### subtitle
 
@@ -247,10 +234,9 @@ subtitle of the review
 
 #### Defined in
 
-[main.ts:175629](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L175629)
+main.ts:181082
 
 ___
-
 
 ### title
 
@@ -264,10 +250,9 @@ title of the review
 
 #### Defined in
 
-[main.ts:175640](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L175640)
+main.ts:181093
 
 ___
-
 
 ### url
 
@@ -281,10 +266,9 @@ URL to the review
 
 #### Defined in
 
-[main.ts:175642](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L175642)
+main.ts:181095
 
 ___
-
 
 ### user\_profile
 
@@ -298,10 +282,9 @@ user profile of the reviewer
 
 #### Defined in
 
-[main.ts:175638](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L175638)
+main.ts:181091
 
 ___
-
 
 ### verified
 
@@ -315,10 +298,9 @@ indicates whether the review has the “Verified Purchase” mark
 
 #### Defined in
 
-[main.ts:175627](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L175627)
+main.ts:181080
 
 ___
-
 
 ### videos
 
@@ -332,10 +314,9 @@ videos of the product submitted by the reviewer
 
 #### Defined in
 
-[main.ts:175636](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L175636)
+main.ts:181089
 
 ___
-
 
 ### xpath
 
@@ -349,7 +330,7 @@ the XPath of the element
 
 #### Defined in
 
-[main.ts:175625](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L175625)
+main.ts:181078
 
 ## Methods
 
@@ -373,10 +354,9 @@ the XPath of the element
 
 #### Defined in
 
-[main.ts:175660](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L175660)
+main.ts:181113
 
 ___
-
 
 ### toJSON
 
@@ -398,10 +378,9 @@ ___
 
 #### Defined in
 
-[main.ts:175700](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L175700)
+main.ts:181153
 
 ___
-
 
 ### fromJS
 
@@ -423,8 +402,4 @@ ___
 
 #### Defined in
 
-[main.ts:175693](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L175693)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:181146

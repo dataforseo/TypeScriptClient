@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IOnPageWaterfallResultInfo
+[Documentation](../README.md) / [Exports](../modules.md) / IOnPageWaterfallResultInfo
 
 # Interface: IOnPageWaterfallResultInfo
 
@@ -34,10 +30,9 @@ possible values: in_progress, finished
 
 #### Defined in
 
-[main.ts:149918](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L149918)
+main.ts:155345
 
 ___
-
 
 ### crawl\_status
 
@@ -47,10 +42,9 @@ details of the crawling session
 
 #### Defined in
 
-[main.ts:149920](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L149920)
+main.ts:155347
 
 ___
-
 
 ### items
 
@@ -60,10 +54,9 @@ items array
 
 #### Defined in
 
-[main.ts:149924](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L149924)
+main.ts:155351
 
 ___
-
 
 ### items\_count
 
@@ -73,8 +66,4 @@ number of items in the results array
 
 #### Defined in
 
-[main.ts:149922](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L149922)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:155349

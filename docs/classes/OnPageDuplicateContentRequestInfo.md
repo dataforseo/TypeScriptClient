@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / OnPageDuplicateContentRequestInfo
+[Documentation](../README.md) / [Exports](../modules.md) / OnPageDuplicateContentRequestInfo
 
 # Class: OnPageDuplicateContentRequestInfo
 
@@ -53,7 +49,7 @@
 
 #### Defined in
 
-[main.ts:147463](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L147463)
+main.ts:152890
 
 ## Properties
 
@@ -73,10 +69,9 @@ example:
 
 #### Defined in
 
-[main.ts:147435](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L147435)
+main.ts:152862
 
 ___
-
 
 ### limit
 
@@ -93,10 +88,9 @@ maximum value: 1000
 
 #### Defined in
 
-[main.ts:147448](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L147448)
+main.ts:152875
 
 ___
-
 
 ### offset
 
@@ -113,10 +107,9 @@ if you specify the 10 value, the first ten pages in the results array will be om
 
 #### Defined in
 
-[main.ts:147453](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L147453)
+main.ts:152880
 
 ___
-
 
 ### similarity
 
@@ -132,10 +125,9 @@ you can specify any similarity score in the 0-to-10 range
 
 #### Defined in
 
-[main.ts:147443](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L147443)
+main.ts:152870
 
 ___
-
 
 ### tag
 
@@ -153,10 +145,9 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-[main.ts:147459](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L147459)
+main.ts:152886
 
 ___
-
 
 ### url
 
@@ -172,7 +163,7 @@ specify the initial page you want to receive duplicate content for
 
 #### Defined in
 
-[main.ts:147439](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L147439)
+main.ts:152866
 
 ## Methods
 
@@ -192,10 +183,9 @@ specify the initial page you want to receive duplicate content for
 
 #### Defined in
 
-[main.ts:147472](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L147472)
+main.ts:152899
 
 ___
-
 
 ### toJSON
 
@@ -213,10 +203,9 @@ ___
 
 #### Defined in
 
-[main.ts:147494](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L147494)
+main.ts:152921
 
 ___
-
 
 ### fromJS
 
@@ -234,8 +223,4 @@ ___
 
 #### Defined in
 
-[main.ts:147487](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L147487)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:152914

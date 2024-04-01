@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / ISerpGoogleLocationsCountryResultInfo
+[Documentation](../README.md) / [Exports](../modules.md) / ISerpGoogleLocationsCountryResultInfo
 
 # Interface: ISerpGoogleLocationsCountryResultInfo
 
@@ -34,10 +30,9 @@ ISO country code of the location
 
 #### Defined in
 
-[main.ts:24337](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L24337)
+main.ts:24856
 
 ___
-
 
 ### location\_code
 
@@ -47,10 +42,9 @@ location code
 
 #### Defined in
 
-[main.ts:24324](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L24324)
+main.ts:24843
 
 ___
-
 
 ### location\_code\_parent
 
@@ -67,10 +61,9 @@ where location_code_parent corresponds to:
 
 #### Defined in
 
-[main.ts:24335](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L24335)
+main.ts:24854
 
 ___
-
 
 ### location\_name
 
@@ -80,10 +73,9 @@ full name of the location
 
 #### Defined in
 
-[main.ts:24326](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L24326)
+main.ts:24845
 
 ___
-
 
 ### location\_type
 
@@ -93,8 +85,4 @@ location type
 
 #### Defined in
 
-[main.ts:24339](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L24339)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:24858

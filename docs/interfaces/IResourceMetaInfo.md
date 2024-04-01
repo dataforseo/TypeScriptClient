@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IResourceMetaInfo
+[Documentation](../README.md) / [Exports](../modules.md) / IResourceMetaInfo
 
 # Interface: IResourceMetaInfo
 
@@ -36,10 +32,9 @@ the value depends on the resource_type
 
 #### Defined in
 
-[main.ts:145996](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L145996)
+main.ts:151423
 
 ___
-
 
 ### height
 
@@ -49,10 +44,9 @@ image height in px
 
 #### Defined in
 
-[main.ts:146006](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L146006)
+main.ts:151433
 
 ___
-
 
 ### original\_height
 
@@ -62,10 +56,9 @@ original image height in px
 
 #### Defined in
 
-[main.ts:146002](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L146002)
+main.ts:151429
 
 ___
-
 
 ### original\_width
 
@@ -75,10 +68,9 @@ original image width in px
 
 #### Defined in
 
-[main.ts:146000](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L146000)
+main.ts:151427
 
 ___
-
 
 ### title
 
@@ -88,10 +80,9 @@ title
 
 #### Defined in
 
-[main.ts:145998](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L145998)
+main.ts:151425
 
 ___
-
 
 ### width
 
@@ -101,8 +92,4 @@ image width in px
 
 #### Defined in
 
-[main.ts:146004](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L146004)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:151431

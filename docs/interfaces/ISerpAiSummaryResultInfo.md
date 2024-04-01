@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / ISerpAiSummaryResultInfo
+[Documentation](../README.md) / [Exports](../modules.md) / ISerpAiSummaryResultInfo
 
 # Interface: ISerpAiSummaryResultInfo
 
@@ -31,10 +27,9 @@ items array
 
 #### Defined in
 
-[main.ts:23943](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L23943)
+main.ts:24462
 
 ___
-
 
 ### items\_count
 
@@ -44,8 +39,4 @@ number of items in the results array
 
 #### Defined in
 
-[main.ts:23941](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L23941)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:24460

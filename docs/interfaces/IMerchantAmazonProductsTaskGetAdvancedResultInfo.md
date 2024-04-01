@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IMerchantAmazonProductsTaskGetAdvancedResultInfo
+[Documentation](../README.md) / [Exports](../modules.md) / IMerchantAmazonProductsTaskGetAdvancedResultInfo
 
 # Interface: IMerchantAmazonProductsTaskGetAdvancedResultInfo
 
@@ -42,10 +38,9 @@ amazon product departments and subcategories
 
 #### Defined in
 
-[main.ts:171429](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L171429)
+main.ts:176882
 
 ___
-
 
 ### check\_url
 
@@ -56,10 +51,9 @@ you can use it to make sure that we provided accurate results
 
 #### Defined in
 
-[main.ts:171412](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L171412)
+main.ts:176865
 
 ___
-
 
 ### datetime
 
@@ -72,10 +66,9 @@ example:
 
 #### Defined in
 
-[main.ts:171417](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L171417)
+main.ts:176870
 
 ___
-
 
 ### item\_types
 
@@ -88,10 +81,9 @@ amazon_serp, amazon_paid, editorial_recommendations, top_rated_from_our_brands, 
 
 #### Defined in
 
-[main.ts:171425](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L171425)
+main.ts:176878
 
 ___
-
 
 ### items
 
@@ -101,10 +93,9 @@ Amazon product items within the editorial_recommendations element
 
 #### Defined in
 
-[main.ts:171433](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L171433)
+main.ts:176886
 
 ___
-
 
 ### items\_count
 
@@ -114,10 +105,9 @@ the number of results returned in the items array
 
 #### Defined in
 
-[main.ts:171431](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L171431)
+main.ts:176884
 
 ___
-
 
 ### keyword
 
@@ -128,10 +118,9 @@ keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a s
 
 #### Defined in
 
-[main.ts:171401](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L171401)
+main.ts:176854
 
 ___
-
 
 ### language\_code
 
@@ -141,10 +130,9 @@ language code in a POST array
 
 #### Defined in
 
-[main.ts:171409](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L171409)
+main.ts:176862
 
 ___
-
 
 ### location\_code
 
@@ -154,10 +142,9 @@ location code in a POST array
 
 #### Defined in
 
-[main.ts:171407](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L171407)
+main.ts:176860
 
 ___
-
 
 ### se\_domain
 
@@ -167,10 +154,9 @@ search engine domain in a POST array
 
 #### Defined in
 
-[main.ts:171405](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L171405)
+main.ts:176858
 
 ___
-
 
 ### se\_results\_count
 
@@ -180,10 +166,9 @@ search engine results count
 
 #### Defined in
 
-[main.ts:171427](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L171427)
+main.ts:176880
 
 ___
-
 
 ### spell
 
@@ -194,10 +179,9 @@ if the search engine provided results for a keyword that was corrected, we will 
 
 #### Defined in
 
-[main.ts:171420](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L171420)
+main.ts:176873
 
 ___
-
 
 ### type
 
@@ -207,8 +191,4 @@ type of element
 
 #### Defined in
 
-[main.ts:171403](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L171403)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:176856

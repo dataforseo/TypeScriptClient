@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IRelatedResult
+[Documentation](../README.md) / [Exports](../modules.md) / IRelatedResult
 
 # Interface: IRelatedResult
 
@@ -52,10 +48,9 @@ this feature appears after clicking on the three dots next to most results
 
 #### Defined in
 
-[main.ts:28158](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L28158)
+main.ts:28903
 
 ___
-
 
 ### amp\_version
 
@@ -66,10 +61,9 @@ indicates whether an item has the Accelerated Mobile Page (AMP) version
 
 #### Defined in
 
-[main.ts:28146](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L28146)
+main.ts:28892
 
 ___
-
 
 ### breadcrumb
 
@@ -79,10 +73,9 @@ breadcrumb in SERP
 
 #### Defined in
 
-[main.ts:28129](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L28129)
+main.ts:28875
 
 ___
-
 
 ### cache\_url
 
@@ -92,23 +85,21 @@ cached version of the page
 
 #### Defined in
 
-[main.ts:28124](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L28124)
+main.ts:28870
 
 ___
-
 
 ### description
 
 • `Optional` **description**: `string`
 
-description
+description of the hotel booking element
 
 #### Defined in
 
-[main.ts:28137](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L28137)
+main.ts:28883
 
 ___
-
 
 ### domain
 
@@ -118,10 +109,9 @@ domain where a link points
 
 #### Defined in
 
-[main.ts:28118](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L28118)
+main.ts:28864
 
 ___
-
 
 ### extended\_snippet
 
@@ -131,10 +121,9 @@ includes additional information appended after the result description in SERP
 
 #### Defined in
 
-[main.ts:28141](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L28141)
+main.ts:28887
 
 ___
-
 
 ### highlighted
 
@@ -144,10 +133,9 @@ words highlighted in bold within the results description
 
 #### Defined in
 
-[main.ts:28154](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L28154)
+main.ts:28899
 
 ___
-
 
 ### images
 
@@ -157,10 +145,9 @@ images of the element
 
 #### Defined in
 
-[main.ts:28143](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L28143)
+main.ts:28889
 
 ___
-
 
 ### is\_image
 
@@ -170,10 +157,9 @@ indicates whether the element contains an image
 
 #### Defined in
 
-[main.ts:28133](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L28133)
+main.ts:28879
 
 ___
-
 
 ### is\_video
 
@@ -183,10 +169,9 @@ indicates whether the element contains a video
 
 #### Defined in
 
-[main.ts:28135](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L28135)
+main.ts:28881
 
 ___
-
 
 ### pre\_snippet
 
@@ -196,38 +181,34 @@ includes additional information appended before the result description in SERP
 
 #### Defined in
 
-[main.ts:28139](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L28139)
+main.ts:28885
 
 ___
-
 
 ### price
 
 • `Optional` **price**: [`PriceInfo`](../classes/PriceInfo.md)
 
-pricing details
-contains the pricing details of the product or service featured in the result
+price of booking a place for the specified dates of stay
 
 #### Defined in
 
-[main.ts:28152](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L28152)
+main.ts:28897
 
 ___
-
 
 ### rating
 
 • `Optional` **rating**: [`RatingInfo`](../classes/RatingInfo.md)
 
-the item’s rating
+the item’s rating 
 the popularity rate based on reviews and displayed in SERP
 
 #### Defined in
 
-[main.ts:28149](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L28149)
+main.ts:28895
 
 ___
-
 
 ### related\_search\_url
 
@@ -238,10 +219,9 @@ URL to a new search for the same keyword(s) on related sites
 
 #### Defined in
 
-[main.ts:28127](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L28127)
+main.ts:28873
 
 ___
-
 
 ### timestamp
 
@@ -254,23 +234,21 @@ example:
 
 #### Defined in
 
-[main.ts:28163](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L28163)
+main.ts:28908
 
 ___
-
 
 ### title
 
 • `Optional` **title**: `string`
 
-title of the element
+title of a given link element
 
 #### Defined in
 
-[main.ts:28120](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L28120)
+main.ts:28866
 
 ___
-
 
 ### type
 
@@ -280,23 +258,21 @@ type of element
 
 #### Defined in
 
-[main.ts:28114](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L28114)
+main.ts:28860
 
 ___
-
 
 ### url
 
 • `Optional` **url**: `string`
 
-URL
+URL of element
 
 #### Defined in
 
-[main.ts:28122](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L28122)
+main.ts:28868
 
 ___
-
 
 ### website\_name
 
@@ -306,10 +282,9 @@ name of the website in SERP
 
 #### Defined in
 
-[main.ts:28131](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L28131)
+main.ts:28877
 
 ___
-
 
 ### xpath
 
@@ -319,8 +294,4 @@ the XPath of the element
 
 #### Defined in
 
-[main.ts:28116](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L28116)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:28862

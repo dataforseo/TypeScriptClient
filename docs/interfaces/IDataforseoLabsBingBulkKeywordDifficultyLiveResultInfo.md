@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IDataforseoLabsBingBulkKeywordDifficultyLiveResultInfo
+[Documentation](../README.md) / [Exports](../modules.md) / IDataforseoLabsBingBulkKeywordDifficultyLiveResultInfo
 
 # Interface: IDataforseoLabsBingBulkKeywordDifficultyLiveResultInfo
 
@@ -35,10 +31,9 @@ contains keywords and related keyword difficulty scores
 
 #### Defined in
 
-[main.ts:102325](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L102325)
+main.ts:104702
 
 ___
-
 
 ### items\_count
 
@@ -48,10 +43,9 @@ the number of results returned in the items array
 
 #### Defined in
 
-[main.ts:102323](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L102323)
+main.ts:104700
 
 ___
-
 
 ### language\_code
 
@@ -62,10 +56,9 @@ if there is no data, then the value is null
 
 #### Defined in
 
-[main.ts:102319](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L102319)
+main.ts:104696
 
 ___
-
 
 ### location\_code
 
@@ -76,10 +69,9 @@ if there is no data, then the value is null
 
 #### Defined in
 
-[main.ts:102316](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L102316)
+main.ts:104693
 
 ___
-
 
 ### se\_type
 
@@ -89,10 +81,9 @@ search engine type
 
 #### Defined in
 
-[main.ts:102313](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L102313)
+main.ts:104690
 
 ___
-
 
 ### total\_count
 
@@ -102,8 +93,4 @@ total amount of results in our database relevant to your request
 
 #### Defined in
 
-[main.ts:102321](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L102321)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:104698

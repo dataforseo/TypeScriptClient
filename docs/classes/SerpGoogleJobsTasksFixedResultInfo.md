@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / SerpGoogleJobsTasksFixedResultInfo
+[Documentation](../README.md) / [Exports](../modules.md) / SerpGoogleJobsTasksFixedResultInfo
 
 # Class: SerpGoogleJobsTasksFixedResultInfo
 
@@ -55,7 +51,7 @@
 
 #### Defined in
 
-[main.ts:48919](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L48919)
+main.ts:49670
 
 ## Properties
 
@@ -71,10 +67,9 @@ date when the task was fixed (in the UTC format)
 
 #### Defined in
 
-[main.ts:48904](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L48904)
+main.ts:49655
 
 ___
-
 
 ### endpoint\_advanced
 
@@ -89,10 +84,9 @@ if SERP Advanced is not supported in the specified endpoint, the value will be n
 
 #### Defined in
 
-[main.ts:48912](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L48912)
+main.ts:49663
 
 ___
-
 
 ### endpoint\_html
 
@@ -107,10 +101,9 @@ if SERP HTML is not supported in the specified endpoint, the value will be null
 
 #### Defined in
 
-[main.ts:48915](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L48915)
+main.ts:49666
 
 ___
-
 
 ### endpoint\_regular
 
@@ -125,10 +118,9 @@ if SERP Regular is not supported in the specified endpoint, the value will be nu
 
 #### Defined in
 
-[main.ts:48909](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L48909)
+main.ts:49660
 
 ___
-
 
 ### id
 
@@ -143,10 +135,9 @@ unique task identifier in our system in the UUID format
 
 #### Defined in
 
-[main.ts:48897](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L48897)
+main.ts:49648
 
 ___
-
 
 ### se
 
@@ -160,10 +151,9 @@ search engine specified when setting the task
 
 #### Defined in
 
-[main.ts:48899](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L48899)
+main.ts:49650
 
 ___
-
 
 ### se\_type
 
@@ -178,10 +168,9 @@ can take the following values: jobs
 
 #### Defined in
 
-[main.ts:48902](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L48902)
+main.ts:49653
 
 ___
-
 
 ### tag
 
@@ -195,7 +184,7 @@ user-defined task identifier
 
 #### Defined in
 
-[main.ts:48906](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L48906)
+main.ts:49657
 
 ## Methods
 
@@ -215,10 +204,9 @@ user-defined task identifier
 
 #### Defined in
 
-[main.ts:48928](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L48928)
+main.ts:49679
 
 ___
-
 
 ### toJSON
 
@@ -236,10 +224,9 @@ ___
 
 #### Defined in
 
-[main.ts:48952](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L48952)
+main.ts:49703
 
 ___
-
 
 ### fromJS
 
@@ -257,8 +244,4 @@ ___
 
 #### Defined in
 
-[main.ts:48945](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L48945)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:49696

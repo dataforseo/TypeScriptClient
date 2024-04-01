@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / AppUserProfileInfo
+[Documentation](../README.md) / [Exports](../modules.md) / AppUserProfileInfo
 
 # Class: AppUserProfileInfo
 
@@ -49,7 +45,7 @@
 
 #### Defined in
 
-[main.ts:181162](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L181162)
+main.ts:186615
 
 ## Properties
 
@@ -65,10 +61,9 @@ URL to the reviewer’s profile image
 
 #### Defined in
 
-[main.ts:181158](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L181158)
+main.ts:186611
 
 ___
-
 
 ### profile\_name
 
@@ -82,7 +77,7 @@ profile name of the reviewer
 
 #### Defined in
 
-[main.ts:181156](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L181156)
+main.ts:186609
 
 ## Methods
 
@@ -102,10 +97,9 @@ profile name of the reviewer
 
 #### Defined in
 
-[main.ts:181171](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L181171)
+main.ts:186624
 
 ___
-
 
 ### toJSON
 
@@ -123,10 +117,9 @@ ___
 
 #### Defined in
 
-[main.ts:181189](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L181189)
+main.ts:186642
 
 ___
-
 
 ### fromJS
 
@@ -144,8 +137,4 @@ ___
 
 #### Defined in
 
-[main.ts:181182](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L181182)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:186635

@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / OtherSitesReviewsInfo
+[Documentation](../README.md) / [Exports](../modules.md) / OtherSitesReviewsInfo
 
 # Class: OtherSitesReviewsInfo
 
@@ -51,7 +47,7 @@
 
 #### Defined in
 
-[main.ts:195859](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L195859)
+main.ts:201320
 
 ## Properties
 
@@ -68,10 +64,9 @@ information about the rating enclosed in the review on a third-party site
 
 #### Defined in
 
-[main.ts:195855](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L195855)
+main.ts:201316
 
 ___
-
 
 ### review\_text
 
@@ -86,10 +81,9 @@ text of the review
 
 #### Defined in
 
-[main.ts:195852](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L195852)
+main.ts:201313
 
 ___
-
 
 ### title
 
@@ -104,10 +98,9 @@ contains a name of the third-party site where review initially appeared
 
 #### Defined in
 
-[main.ts:195846](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L195846)
+main.ts:201307
 
 ___
-
 
 ### url
 
@@ -122,7 +115,7 @@ URL to the a third-party site where review initially appeared
 
 #### Defined in
 
-[main.ts:195849](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L195849)
+main.ts:201310
 
 ## Methods
 
@@ -142,10 +135,9 @@ URL to the a third-party site where review initially appeared
 
 #### Defined in
 
-[main.ts:195868](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L195868)
+main.ts:201329
 
 ___
-
 
 ### toJSON
 
@@ -163,10 +155,9 @@ ___
 
 #### Defined in
 
-[main.ts:195888](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L195888)
+main.ts:201349
 
 ___
-
 
 ### fromJS
 
@@ -184,8 +175,4 @@ ___
 
 #### Defined in
 
-[main.ts:195881](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L195881)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:201342

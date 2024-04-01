@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / SerpGoogleSearchByImageTasksReadyResultInfo
+[Documentation](../README.md) / [Exports](../modules.md) / SerpGoogleSearchByImageTasksReadyResultInfo
 
 # Class: SerpGoogleSearchByImageTasksReadyResultInfo
 
@@ -55,7 +51,7 @@
 
 #### Defined in
 
-[main.ts:47615](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L47615)
+main.ts:48366
 
 ## Properties
 
@@ -71,10 +67,9 @@ date when the task was posted (in the UTC format)
 
 #### Defined in
 
-[main.ts:47600](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L47600)
+main.ts:48351
 
 ___
-
 
 ### endpoint\_advanced
 
@@ -89,10 +84,9 @@ if SERP Advanced is not supported in the specified endpoint, the value will be n
 
 #### Defined in
 
-[main.ts:47608](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L47608)
+main.ts:48359
 
 ___
-
 
 ### endpoint\_html
 
@@ -107,10 +101,9 @@ if SERP HTML is not supported in the specified endpoint, the value will be null
 
 #### Defined in
 
-[main.ts:47611](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L47611)
+main.ts:48362
 
 ___
-
 
 ### endpoint\_regular
 
@@ -125,10 +118,9 @@ if SERP Regular is not supported in the specified endpoint, the value will be nu
 
 #### Defined in
 
-[main.ts:47605](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L47605)
+main.ts:48356
 
 ___
-
 
 ### id
 
@@ -143,10 +135,9 @@ unique task identifier in our system in the UUID format
 
 #### Defined in
 
-[main.ts:47593](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L47593)
+main.ts:48344
 
 ___
-
 
 ### se
 
@@ -160,10 +151,9 @@ search engine specified when setting the task
 
 #### Defined in
 
-[main.ts:47595](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L47595)
+main.ts:48346
 
 ___
-
 
 ### se\_type
 
@@ -178,10 +168,9 @@ can take the following values: search_by_image
 
 #### Defined in
 
-[main.ts:47598](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L47598)
+main.ts:48349
 
 ___
-
 
 ### tag
 
@@ -195,7 +184,7 @@ user-defined task identifier
 
 #### Defined in
 
-[main.ts:47602](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L47602)
+main.ts:48353
 
 ## Methods
 
@@ -215,10 +204,9 @@ user-defined task identifier
 
 #### Defined in
 
-[main.ts:47624](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L47624)
+main.ts:48375
 
 ___
-
 
 ### toJSON
 
@@ -236,10 +224,9 @@ ___
 
 #### Defined in
 
-[main.ts:47648](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L47648)
+main.ts:48399
 
 ___
-
 
 ### fromJS
 
@@ -257,8 +244,4 @@ ___
 
 #### Defined in
 
-[main.ts:47641](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L47641)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:48392

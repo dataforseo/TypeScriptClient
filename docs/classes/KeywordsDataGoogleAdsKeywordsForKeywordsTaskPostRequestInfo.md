@@ -1,15 +1,11 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / KeywordsDataGoogleAdsKeywordsForKeywordsTaskPostRequestInfo
+[Documentation](../README.md) / [Exports](../modules.md) / KeywordsDataGoogleAdsKeywordsForKeywordsTaskPostRequestInfo
 
 # Class: KeywordsDataGoogleAdsKeywordsForKeywordsTaskPostRequestInfo
 
 ## Hierarchy
 
 - [`KeywordsDataTaskRequestInfo`](KeywordsDataTaskRequestInfo.md)
-  
+
   ↳ **`KeywordsDataGoogleAdsKeywordsForKeywordsTaskPostRequestInfo`**
 
 ## Implements
@@ -72,7 +68,7 @@
 
 #### Defined in
 
-[main.ts:115879](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L115879)
+main.ts:118256
 
 ## Properties
 
@@ -98,10 +94,9 @@ if Status endpoint returns true in the actual_data field, date_from can be set t
 
 #### Defined in
 
-[main.ts:69356](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L69356)
+main.ts:71733
 
 ___
-
 
 ### date\_to
 
@@ -125,10 +120,9 @@ example:
 
 #### Defined in
 
-[main.ts:69364](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L69364)
+main.ts:71741
 
 ___
-
 
 ### include\_adult\_keywords
 
@@ -150,10 +144,9 @@ note that the API may return no data for such keywords due to Google Ads restr
 
 #### Defined in
 
-[main.ts:69370](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L69370)
+main.ts:71747
 
 ___
-
 
 ### keywords
 
@@ -181,10 +174,9 @@ to learn more about which symbols can be used, please refer to this article
 
 #### Defined in
 
-[main.ts:69306](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L69306)
+main.ts:71683
 
 ___
-
 
 ### language\_code
 
@@ -206,10 +198,9 @@ en
 
 #### Defined in
 
-[main.ts:69343](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L69343)
+main.ts:71720
 
 ___
-
 
 ### language\_name
 
@@ -231,10 +222,9 @@ English
 
 #### Defined in
 
-[main.ts:69337](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L69337)
+main.ts:71714
 
 ___
-
 
 ### location\_code
 
@@ -258,10 +248,9 @@ example:
 
 #### Defined in
 
-[main.ts:69322](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L69322)
+main.ts:71699
 
 ___
-
 
 ### location\_coordinate
 
@@ -286,10 +275,9 @@ example:
 
 #### Defined in
 
-[main.ts:69331](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L69331)
+main.ts:71708
 
 ___
-
 
 ### location\_name
 
@@ -313,10 +301,9 @@ London,England,United Kingdom
 
 #### Defined in
 
-[main.ts:69314](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L69314)
+main.ts:71691
 
 ___
-
 
 ### pingback\_url
 
@@ -342,10 +329,9 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-[main.ts:69395](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L69395)
+main.ts:71772
 
 ___
-
 
 ### postback\_url
 
@@ -371,10 +357,9 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-[main.ts:69385](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L69385)
+main.ts:71762
 
 ___
-
 
 ### search\_partners
 
@@ -395,10 +380,9 @@ default value: false – results are returned for Google search sites
 
 #### Defined in
 
-[main.ts:69348](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L69348)
+main.ts:71725
 
 ___
-
 
 ### sort\_by
 
@@ -419,10 +403,9 @@ default value: relevance
 
 #### Defined in
 
-[main.ts:69375](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L69375)
+main.ts:71752
 
 ___
-
 
 ### tag
 
@@ -444,10 +427,9 @@ you will find the specified tag value in the data array of the response
 
 #### Defined in
 
-[main.ts:69401](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L69401)
+main.ts:71778
 
 ___
-
 
 ### target
 
@@ -464,7 +446,7 @@ Note: if a website url is specified, you will still get keywords relevant for th
 
 #### Defined in
 
-[main.ts:115875](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L115875)
+main.ts:118252
 
 ## Methods
 
@@ -488,10 +470,9 @@ Note: if a website url is specified, you will still get keywords relevant for th
 
 #### Defined in
 
-[main.ts:115883](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L115883)
+main.ts:118260
 
 ___
-
 
 ### toJSON
 
@@ -513,10 +494,9 @@ ___
 
 #### Defined in
 
-[main.ts:115901](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L115901)
+main.ts:118278
 
 ___
-
 
 ### fromJS
 
@@ -538,8 +518,4 @@ ___
 
 #### Defined in
 
-[main.ts:115894](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L115894)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:118271

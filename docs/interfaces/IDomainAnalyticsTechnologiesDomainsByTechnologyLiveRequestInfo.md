@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IDomainAnalyticsTechnologiesDomainsByTechnologyLiveRequestInfo
+[Documentation](../README.md) / [Exports](../modules.md) / IDomainAnalyticsTechnologiesDomainsByTechnologyLiveRequestInfo
 
 # Interface: IDomainAnalyticsTechnologiesDomainsByTechnologyLiveRequestInfo
 
@@ -45,10 +41,9 @@ example:
 
 #### Defined in
 
-[main.ts:74154](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L74154)
+main.ts:76531
 
 ___
-
 
 ### filters
 
@@ -73,10 +68,9 @@ for more information about filters, please refer to Domain Analytics Technologie
 
 #### Defined in
 
-[main.ts:74192](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L74192)
+main.ts:76569
 
 ___
-
 
 ### groups
 
@@ -91,10 +85,9 @@ example:
 
 #### Defined in
 
-[main.ts:74147](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L74147)
+main.ts:76524
 
 ___
-
 
 ### keywords
 
@@ -109,10 +102,9 @@ example:
 
 #### Defined in
 
-[main.ts:74168](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L74168)
+main.ts:76545
 
 ___
-
 
 ### limit
 
@@ -125,10 +117,9 @@ maximum value: 10000
 
 #### Defined in
 
-[main.ts:74214](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L74214)
+main.ts:76591
 
 ___
-
 
 ### mode
 
@@ -143,10 +134,9 @@ default value: as_is
 
 #### Defined in
 
-[main.ts:74175](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L74175)
+main.ts:76552
 
 ___
-
 
 ### offset
 
@@ -161,10 +151,9 @@ use the offset_token if you would like to offset more results
 
 #### Defined in
 
-[main.ts:74221](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L74221)
+main.ts:76598
 
 ___
-
 
 ### offset\_token
 
@@ -180,10 +169,9 @@ Note: if the offset_token is specified in the request, all other parameters shou
 
 #### Defined in
 
-[main.ts:74229](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L74229)
+main.ts:76606
 
 ___
-
 
 ### order\_by
 
@@ -208,10 +196,9 @@ example:
 
 #### Defined in
 
-[main.ts:74209](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L74209)
+main.ts:76586
 
 ___
-
 
 ### technologies
 
@@ -226,10 +213,9 @@ example:
 
 #### Defined in
 
-[main.ts:74161](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L74161)
+main.ts:76538
 
 ___
-
 
 ### technology\_paths
 
@@ -247,8 +233,4 @@ example:
 
 #### Defined in
 
-[main.ts:74140](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L74140)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:76517

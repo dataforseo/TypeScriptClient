@@ -1,15 +1,11 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / GoogleJobsItemSerpElementItem
+[Documentation](../README.md) / [Exports](../modules.md) / GoogleJobsItemSerpElementItem
 
 # Class: GoogleJobsItemSerpElementItem
 
 ## Hierarchy
 
 - [`BaseSerpElementItem`](BaseSerpElementItem.md)
-  
+
   ↳ **`GoogleJobsItemSerpElementItem`**
 
 ## Implements
@@ -75,7 +71,7 @@
 
 #### Defined in
 
-[main.ts:49155](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L49155)
+main.ts:49906
 
 ## Properties
 
@@ -89,10 +85,9 @@
 
 #### Defined in
 
-[main.ts:19337](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L19337)
+main.ts:19788
 
 ___
-
 
 ### contract\_type
 
@@ -106,10 +101,9 @@ employment contract type
 
 #### Defined in
 
-[main.ts:49140](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L49140)
+main.ts:49891
 
 ___
-
 
 ### employer\_image\_url
 
@@ -123,10 +117,9 @@ URL to the image used in the job posting
 
 #### Defined in
 
-[main.ts:49129](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L49129)
+main.ts:49880
 
 ___
-
 
 ### employer\_name
 
@@ -140,10 +133,9 @@ name of the employer
 
 #### Defined in
 
-[main.ts:49125](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L49125)
+main.ts:49876
 
 ___
-
 
 ### employer\_url
 
@@ -157,10 +149,9 @@ URL to the employer’s website
 
 #### Defined in
 
-[main.ts:49127](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L49127)
+main.ts:49878
 
 ___
-
 
 ### job\_id
 
@@ -174,10 +165,9 @@ ID of the job on Google Jobs
 
 #### Defined in
 
-[main.ts:49121](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L49121)
+main.ts:49872
 
 ___
-
 
 ### location
 
@@ -191,10 +181,9 @@ location for which the job vacancy is posted
 
 #### Defined in
 
-[main.ts:49131](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L49131)
+main.ts:49882
 
 ___
-
 
 ### position
 
@@ -210,10 +199,9 @@ left, right
 
 #### Defined in
 
-[main.ts:49117](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L49117)
+main.ts:49868
 
 ___
-
 
 ### rank\_absolute
 
@@ -228,10 +216,9 @@ absolute position among all the elements in SERP
 
 #### Defined in
 
-[main.ts:49113](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L49113)
+main.ts:49864
 
 ___
-
 
 ### rank\_group
 
@@ -247,10 +234,9 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-[main.ts:49110](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L49110)
+main.ts:49861
 
 ___
-
 
 ### rectangle
 
@@ -266,10 +252,9 @@ in this case, will equal null
 
 #### Defined in
 
-[main.ts:49151](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L49151)
+main.ts:49902
 
 ___
-
 
 ### salary
 
@@ -284,10 +269,9 @@ if the salary isn’t indicated, this field will equal null
 
 #### Defined in
 
-[main.ts:49138](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L49138)
+main.ts:49889
 
 ___
-
 
 ### source\_name
 
@@ -301,10 +285,9 @@ original source of the job vacancy
 
 #### Defined in
 
-[main.ts:49133](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L49133)
+main.ts:49884
 
 ___
-
 
 ### source\_url
 
@@ -318,10 +301,9 @@ URL to the original source of the job vacancy
 
 #### Defined in
 
-[main.ts:49135](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L49135)
+main.ts:49886
 
 ___
-
 
 ### time\_ago
 
@@ -335,10 +317,9 @@ indicates how long ago the job vacancy was posted
 
 #### Defined in
 
-[main.ts:49147](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L49147)
+main.ts:49898
 
 ___
-
 
 ### timestamp
 
@@ -355,10 +336,9 @@ example:
 
 #### Defined in
 
-[main.ts:49145](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L49145)
+main.ts:49896
 
 ___
-
 
 ### title
 
@@ -372,10 +352,9 @@ title of the job
 
 #### Defined in
 
-[main.ts:49123](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L49123)
+main.ts:49874
 
 ___
-
 
 ### xpath
 
@@ -389,7 +368,7 @@ the XPath of the element
 
 #### Defined in
 
-[main.ts:49119](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L49119)
+main.ts:49870
 
 ## Methods
 
@@ -413,10 +392,9 @@ the XPath of the element
 
 #### Defined in
 
-[main.ts:49160](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L49160)
+main.ts:49911
 
 ___
-
 
 ### toJSON
 
@@ -438,10 +416,9 @@ ___
 
 #### Defined in
 
-[main.ts:49194](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L49194)
+main.ts:49945
 
 ___
-
 
 ### fromJS
 
@@ -463,8 +440,4 @@ ___
 
 #### Defined in
 
-[main.ts:49187](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L49187)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:49938

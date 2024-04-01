@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / SerpGoogleMapsTaskPostRequestInfo
+[Documentation](../README.md) / [Exports](../modules.md) / SerpGoogleMapsTaskPostRequestInfo
 
 # Class: SerpGoogleMapsTaskPostRequestInfo
 
@@ -66,7 +62,7 @@
 
 #### Defined in
 
-[main.ts:37459](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L37459)
+main.ts:38210
 
 ## Properties
 
@@ -89,10 +85,9 @@ if the specified depth is higher than the number of results in the response, the
 
 #### Defined in
 
-[main.ts:37403](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L37403)
+main.ts:38154
 
 ___
-
 
 ### device
 
@@ -110,10 +105,9 @@ note: for mobile device, only 20 results are returned for every SERP
 
 #### Defined in
 
-[main.ts:37380](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L37380)
+main.ts:38131
 
 ___
-
 
 ### keyword
 
@@ -134,10 +128,9 @@ Note: queries containing the ‘cache:’ parameter are not supported and will r
 
 #### Defined in
 
-[main.ts:37327](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L37327)
+main.ts:38078
 
 ___
-
 
 ### language\_code
 
@@ -156,10 +149,9 @@ en
 
 #### Defined in
 
-[main.ts:37374](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L37374)
+main.ts:38125
 
 ___
-
 
 ### language\_name
 
@@ -178,10 +170,9 @@ English
 
 #### Defined in
 
-[main.ts:37367](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L37367)
+main.ts:38118
 
 ___
-
 
 ### location\_code
 
@@ -200,10 +191,9 @@ example:
 
 #### Defined in
 
-[main.ts:37349](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L37349)
+main.ts:38100
 
 ___
-
 
 ### location\_coordinate
 
@@ -226,10 +216,9 @@ example:
 
 #### Defined in
 
-[main.ts:37360](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L37360)
+main.ts:38111
 
 ___
-
 
 ### location\_name
 
@@ -248,10 +237,9 @@ London,England,United Kingdom
 
 #### Defined in
 
-[main.ts:37342](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L37342)
+main.ts:38093
 
 ___
-
 
 ### max\_crawl\_pages
 
@@ -270,10 +258,9 @@ learn more at our help center
 
 #### Defined in
 
-[main.ts:37410](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L37410)
+main.ts:38161
 
 ___
-
 
 ### os
 
@@ -292,10 +279,9 @@ default value: android
 
 #### Defined in
 
-[main.ts:37387](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L37387)
+main.ts:38138
 
 ___
-
 
 ### pingback\_url
 
@@ -317,10 +303,9 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-[main.ts:37455](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L37455)
+main.ts:38206
 
 ___
-
 
 ### postback\_data
 
@@ -338,10 +323,9 @@ advanced
 
 #### Defined in
 
-[main.ts:37445](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L37445)
+main.ts:38196
 
 ___
-
 
 ### postback\_url
 
@@ -363,10 +347,9 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-[main.ts:37439](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L37439)
+main.ts:38190
 
 ___
-
 
 ### priority
 
@@ -386,10 +369,9 @@ The cost can be calculated on the Pricing page.
 
 #### Defined in
 
-[main.ts:37335](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L37335)
+main.ts:38086
 
 ___
-
 
 ### se\_domain
 
@@ -408,10 +390,9 @@ google.co.uk, google.com.au, google.de, etc.
 
 #### Defined in
 
-[main.ts:37394](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L37394)
+main.ts:38145
 
 ___
-
 
 ### search\_places
 
@@ -430,10 +411,9 @@ Note: if the search_places mode is turned off and no results were found in the s
 
 #### Defined in
 
-[main.ts:37423](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L37423)
+main.ts:38174
 
 ___
-
 
 ### search\_this\_area
 
@@ -451,10 +431,9 @@ Note: if the search_this_area mode is turned off, Google Maps listings might con
 
 #### Defined in
 
-[main.ts:37416](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L37416)
+main.ts:38167
 
 ___
-
 
 ### tag
 
@@ -472,10 +451,9 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-[main.ts:37429](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L37429)
+main.ts:38180
 
 ___
-
 
 ### url
 
@@ -493,7 +471,7 @@ https://google.com/maps/search/pizza/@37.09024,-95.712891,4z
 
 #### Defined in
 
-[main.ts:37318](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L37318)
+main.ts:38069
 
 ## Methods
 
@@ -513,10 +491,9 @@ https://google.com/maps/search/pizza/@37.09024,-95.712891,4z
 
 #### Defined in
 
-[main.ts:37468](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L37468)
+main.ts:38219
 
 ___
-
 
 ### toJSON
 
@@ -534,10 +511,9 @@ ___
 
 #### Defined in
 
-[main.ts:37503](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L37503)
+main.ts:38254
 
 ___
-
 
 ### fromJS
 
@@ -555,8 +531,4 @@ ___
 
 #### Defined in
 
-[main.ts:37496](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L37496)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:38247

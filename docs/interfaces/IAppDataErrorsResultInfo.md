@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IAppDataErrorsResultInfo
+[Documentation](../README.md) / [Exports](../modules.md) / IAppDataErrorsResultInfo
 
 # Interface: IAppDataErrorsResultInfo
 
@@ -42,10 +38,9 @@ example:
 
 #### Defined in
 
-[main.ts:176831](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L176831)
+main.ts:182284
 
 ___
-
 
 ### error\_code
 
@@ -55,10 +50,9 @@ error code
 
 #### Defined in
 
-[main.ts:176835](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L176835)
+main.ts:182288
 
 ___
-
 
 ### error\_message
 
@@ -69,10 +63,9 @@ error message (see full list) or URL that caused an error
 
 #### Defined in
 
-[main.ts:176838](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L176838)
+main.ts:182291
 
 ___
-
 
 ### function
 
@@ -82,10 +75,9 @@ corresponding API function
 
 #### Defined in
 
-[main.ts:176833](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L176833)
+main.ts:182286
 
 ___
-
 
 ### http\_code
 
@@ -95,10 +87,9 @@ HTTP status code
 
 #### Defined in
 
-[main.ts:176845](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L176845)
+main.ts:182298
 
 ___
-
 
 ### http\_method
 
@@ -108,10 +99,9 @@ HTTP method
 
 #### Defined in
 
-[main.ts:176843](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L176843)
+main.ts:182296
 
 ___
-
 
 ### http\_response
 
@@ -122,10 +112,9 @@ server response
 
 #### Defined in
 
-[main.ts:176851](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L176851)
+main.ts:182304
 
 ___
-
 
 ### http\_time
 
@@ -136,10 +125,9 @@ for tasks set with a pingback/postback, this field will show the time it took yo
 
 #### Defined in
 
-[main.ts:176848](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L176848)
+main.ts:182301
 
 ___
-
 
 ### http\_url
 
@@ -150,10 +138,9 @@ URL you used for making an API call or pingback/postback URL
 
 #### Defined in
 
-[main.ts:176841](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L176841)
+main.ts:182294
 
 ___
-
 
 ### id
 
@@ -163,8 +150,4 @@ id of the task
 
 #### Defined in
 
-[main.ts:176826](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L176826)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:182279

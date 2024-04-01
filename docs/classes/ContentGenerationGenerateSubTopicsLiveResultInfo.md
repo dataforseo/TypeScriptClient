@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / ContentGenerationGenerateSubTopicsLiveResultInfo
+[Documentation](../README.md) / [Exports](../modules.md) / ContentGenerationGenerateSubTopicsLiveResultInfo
 
 # Class: ContentGenerationGenerateSubTopicsLiveResultInfo
 
@@ -51,7 +47,7 @@
 
 #### Defined in
 
-[main.ts:160939](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L160939)
+main.ts:166366
 
 ## Properties
 
@@ -67,10 +63,9 @@ number of input tokens
 
 #### Defined in
 
-[main.ts:160929](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L160929)
+main.ts:166356
 
 ___
-
 
 ### new\_tokens
 
@@ -84,10 +79,9 @@ number of new tokens
 
 #### Defined in
 
-[main.ts:160933](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L160933)
+main.ts:166360
 
 ___
-
 
 ### output\_tokens
 
@@ -101,10 +95,9 @@ number of output tokens
 
 #### Defined in
 
-[main.ts:160931](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L160931)
+main.ts:166358
 
 ___
-
 
 ### sub\_topics
 
@@ -118,7 +111,7 @@ resulting subtopics
 
 #### Defined in
 
-[main.ts:160935](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L160935)
+main.ts:166362
 
 ## Methods
 
@@ -138,10 +131,9 @@ resulting subtopics
 
 #### Defined in
 
-[main.ts:160948](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L160948)
+main.ts:166375
 
 ___
-
 
 ### toJSON
 
@@ -159,10 +151,9 @@ ___
 
 #### Defined in
 
-[main.ts:160972](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L160972)
+main.ts:166399
 
 ___
-
 
 ### fromJS
 
@@ -180,8 +171,4 @@ ___
 
 #### Defined in
 
-[main.ts:160965](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L160965)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:166392

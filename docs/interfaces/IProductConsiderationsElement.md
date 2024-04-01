@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IProductConsiderationsElement
+[Documentation](../README.md) / [Exports](../modules.md) / IProductConsiderationsElement
 
 # Interface: IProductConsiderationsElement
 
@@ -34,10 +30,9 @@ the category is indicated just above the title fo the consideration element
 
 #### Defined in
 
-[main.ts:34595](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L34595)
+main.ts:35532
 
 ___
-
 
 ### expanded\_element
 
@@ -47,23 +42,21 @@ expanded element
 
 #### Defined in
 
-[main.ts:34597](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L34597)
+main.ts:35534
 
 ___
-
 
 ### title
 
 • `Optional` **title**: `string`
 
-title of the row
+title of a given link element
 
 #### Defined in
 
-[main.ts:34592](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L34592)
+main.ts:35529
 
 ___
-
 
 ### type
 
@@ -73,8 +66,4 @@ type of element
 
 #### Defined in
 
-[main.ts:34590](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L34590)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:35527

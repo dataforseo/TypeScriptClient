@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / SerpGoogleDatasetSearchLiveAdvancedRequestInfo
+[Documentation](../README.md) / [Exports](../modules.md) / SerpGoogleDatasetSearchLiveAdvancedRequestInfo
 
 # Class: SerpGoogleDatasetSearchLiveAdvancedRequestInfo
 
@@ -59,7 +55,7 @@
 
 #### Defined in
 
-[main.ts:51391](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L51391)
+main.ts:53766
 
 ## Properties
 
@@ -82,10 +78,9 @@ if the specified depth is higher than the number of results in the response, the
 
 #### Defined in
 
-[main.ts:51361](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L51361)
+main.ts:53736
 
 ___
-
 
 ### device
 
@@ -101,10 +96,9 @@ possible value: desktop
 
 #### Defined in
 
-[main.ts:51347](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L51347)
+main.ts:53722
 
 ___
-
 
 ### file\_formats
 
@@ -120,10 +114,9 @@ possible values: other, archive, text, image, document, tabular
 
 #### Defined in
 
-[main.ts:51369](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L51369)
+main.ts:53744
 
 ___
-
 
 ### is\_free
 
@@ -139,10 +132,9 @@ possible values: true, false
 
 #### Defined in
 
-[main.ts:51377](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L51377)
+main.ts:53752
 
 ___
-
 
 ### keyword
 
@@ -161,10 +153,9 @@ if you need to use the “+” symbol for your keyword, please specify it as “
 
 #### Defined in
 
-[main.ts:51331](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L51331)
+main.ts:53706
 
 ___
-
 
 ### language\_code
 
@@ -182,10 +173,9 @@ en
 
 #### Defined in
 
-[main.ts:51343](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L51343)
+main.ts:53718
 
 ___
-
 
 ### language\_name
 
@@ -203,10 +193,9 @@ English
 
 #### Defined in
 
-[main.ts:51337](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L51337)
+main.ts:53712
 
 ___
-
 
 ### last\_updated
 
@@ -222,10 +211,9 @@ possible values: 1m, 1y, 3y
 
 #### Defined in
 
-[main.ts:51365](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L51365)
+main.ts:53740
 
 ___
-
 
 ### os
 
@@ -242,10 +230,9 @@ default value: windows
 
 #### Defined in
 
-[main.ts:51352](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L51352)
+main.ts:53727
 
 ___
-
 
 ### tag
 
@@ -263,10 +250,9 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-[main.ts:51387](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L51387)
+main.ts:53762
 
 ___
-
 
 ### topics
 
@@ -282,10 +268,9 @@ possible values: humanities, social_sciences, life_sciences, agriculture, natura
 
 #### Defined in
 
-[main.ts:51381](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L51381)
+main.ts:53756
 
 ___
-
 
 ### usage\_rights
 
@@ -301,7 +286,7 @@ possible values: commercial, noncommercial
 
 #### Defined in
 
-[main.ts:51373](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L51373)
+main.ts:53748
 
 ## Methods
 
@@ -321,10 +306,9 @@ possible values: commercial, noncommercial
 
 #### Defined in
 
-[main.ts:51400](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L51400)
+main.ts:53775
 
 ___
-
 
 ### toJSON
 
@@ -342,10 +326,9 @@ ___
 
 #### Defined in
 
-[main.ts:51436](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L51436)
+main.ts:53811
 
 ___
-
 
 ### fromJS
 
@@ -363,8 +346,4 @@ ___
 
 #### Defined in
 
-[main.ts:51429](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L51429)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:53804

@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / MerchantGoogleProductSpecTaskGetAdvancedResultInfo
+[Documentation](../README.md) / [Exports](../modules.md) / MerchantGoogleProductSpecTaskGetAdvancedResultInfo
 
 # Class: MerchantGoogleProductSpecTaskGetAdvancedResultInfo
 
@@ -61,7 +57,7 @@
 
 #### Defined in
 
-[main.ts:167969](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L167969)
+main.ts:173422
 
 ## Properties
 
@@ -78,10 +74,9 @@ you can use it to make sure that we provided accurate results
 
 #### Defined in
 
-[main.ts:167951](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L167951)
+main.ts:173404
 
 ___
-
 
 ### datetime
 
@@ -98,10 +93,9 @@ example:
 
 #### Defined in
 
-[main.ts:167956](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L167956)
+main.ts:173409
 
 ___
-
 
 ### description
 
@@ -115,10 +109,9 @@ description of the product
 
 #### Defined in
 
-[main.ts:167944](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L167944)
+main.ts:173397
 
 ___
-
 
 ### image\_url
 
@@ -132,10 +125,9 @@ URL of the product image
 
 #### Defined in
 
-[main.ts:167946](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L167946)
+main.ts:173399
 
 ___
-
 
 ### item\_types
 
@@ -151,10 +143,9 @@ shopping_specification
 
 #### Defined in
 
-[main.ts:167960](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L167960)
+main.ts:173413
 
 ___
-
 
 ### items
 
@@ -169,10 +160,9 @@ contains all product attributes and related data listed on the product specifica
 
 #### Defined in
 
-[main.ts:167965](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L167965)
+main.ts:173418
 
 ___
-
 
 ### items\_count
 
@@ -186,10 +176,9 @@ the number of results returned in the items array
 
 #### Defined in
 
-[main.ts:167962](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L167962)
+main.ts:173415
 
 ___
-
 
 ### language\_code
 
@@ -203,10 +192,9 @@ language code in a POST array
 
 #### Defined in
 
-[main.ts:167940](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L167940)
+main.ts:173393
 
 ___
-
 
 ### location\_code
 
@@ -220,10 +208,9 @@ location code in a POST array
 
 #### Defined in
 
-[main.ts:167938](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L167938)
+main.ts:173391
 
 ___
-
 
 ### product\_id
 
@@ -238,10 +225,9 @@ learn more about the parameter in this help center guide
 
 #### Defined in
 
-[main.ts:167932](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L167932)
+main.ts:173385
 
 ___
-
 
 ### se\_domain
 
@@ -255,10 +241,9 @@ search engine domain in a POST array
 
 #### Defined in
 
-[main.ts:167936](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L167936)
+main.ts:173389
 
 ___
-
 
 ### tags
 
@@ -272,10 +257,9 @@ tags of the product
 
 #### Defined in
 
-[main.ts:167948](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L167948)
+main.ts:173401
 
 ___
-
 
 ### title
 
@@ -289,10 +273,9 @@ title of the product
 
 #### Defined in
 
-[main.ts:167942](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L167942)
+main.ts:173395
 
 ___
-
 
 ### type
 
@@ -306,7 +289,7 @@ type of element
 
 #### Defined in
 
-[main.ts:167934](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L167934)
+main.ts:173387
 
 ## Methods
 
@@ -326,10 +309,9 @@ type of element
 
 #### Defined in
 
-[main.ts:167978](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L167978)
+main.ts:173431
 
 ___
-
 
 ### toJSON
 
@@ -347,10 +329,9 @@ ___
 
 #### Defined in
 
-[main.ts:168020](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L168020)
+main.ts:173473
 
 ___
-
 
 ### fromJS
 
@@ -368,8 +349,4 @@ ___
 
 #### Defined in
 
-[main.ts:168013](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L168013)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:173466

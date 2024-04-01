@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IBusinessDataYelpLocationsResultInfo
+[Documentation](../README.md) / [Exports](../modules.md) / IBusinessDataYelpLocationsResultInfo
 
 # Interface: IBusinessDataYelpLocationsResultInfo
 
@@ -34,10 +30,9 @@ ISO country code of the location
 
 #### Defined in
 
-[main.ts:202859](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L202859)
+main.ts:208320
 
 ___
-
 
 ### location\_code
 
@@ -47,10 +42,9 @@ location code
 
 #### Defined in
 
-[main.ts:202849](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L202849)
+main.ts:208310
 
 ___
-
 
 ### location\_name
 
@@ -60,10 +54,9 @@ full name of the location
 
 #### Defined in
 
-[main.ts:202851](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L202851)
+main.ts:208312
 
 ___
-
 
 ### location\_name\_parent
 
@@ -77,10 +70,9 @@ example:
 
 #### Defined in
 
-[main.ts:202857](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L202857)
+main.ts:208318
 
 ___
-
 
 ### location\_type
 
@@ -90,8 +82,4 @@ location type
 
 #### Defined in
 
-[main.ts:202861](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L202861)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:208322

@@ -1,15 +1,11 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IGoogleReviewsDataforseoLabsSerpElementItem
+[Documentation](../README.md) / [Exports](../modules.md) / IGoogleReviewsDataforseoLabsSerpElementItem
 
 # Interface: IGoogleReviewsDataforseoLabsSerpElementItem
 
 ## Hierarchy
 
 - [`IBaseDataforseoLabsSerpElementItem`](IBaseDataforseoLabsSerpElementItem.md)
-  
+
   ↳ **`IGoogleReviewsDataforseoLabsSerpElementItem`**
 
 ## Implemented by
@@ -44,10 +40,9 @@ google-defined client id
 
 #### Defined in
 
-[main.ts:94354](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L94354)
+main.ts:96731
 
 ___
-
 
 ### feature
 
@@ -57,10 +52,9 @@ the additional feature of the review
 
 #### Defined in
 
-[main.ts:94352](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L94352)
+main.ts:96729
 
 ___
-
 
 ### place\_id
 
@@ -70,10 +64,9 @@ the identifier of a place
 
 #### Defined in
 
-[main.ts:94350](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L94350)
+main.ts:96727
 
 ___
-
 
 ### position
 
@@ -85,10 +78,9 @@ left, right
 
 #### Defined in
 
-[main.ts:94341](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L94341)
+main.ts:96718
 
 ___
-
 
 ### rank\_absolute
 
@@ -99,10 +91,9 @@ absolute position among all the elements in SERP
 
 #### Defined in
 
-[main.ts:94337](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L94337)
+main.ts:96714
 
 ___
-
 
 ### rank\_group
 
@@ -113,24 +104,22 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-[main.ts:94334](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L94334)
+main.ts:96711
 
 ___
-
 
 ### rating
 
 • `Optional` **rating**: [`RatingInfo`](../classes/RatingInfo.md)
 
-the item’s rating
+the item’s rating 
 the popularity rate based on reviews and displayed in SERP
 
 #### Defined in
 
-[main.ts:94348](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L94348)
+main.ts:96725
 
 ___
-
 
 ### reviews\_count
 
@@ -140,10 +129,9 @@ the number of reviews
 
 #### Defined in
 
-[main.ts:94345](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L94345)
+main.ts:96722
 
 ___
-
 
 ### xpath
 
@@ -153,8 +141,4 @@ the XPath of the element
 
 #### Defined in
 
-[main.ts:94343](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L94343)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:96720

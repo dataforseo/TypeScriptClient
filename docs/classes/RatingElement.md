@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / RatingElement
+[Documentation](../README.md) / [Exports](../modules.md) / RatingElement
 
 # Class: RatingElement
 
@@ -53,7 +49,7 @@
 
 #### Defined in
 
-[main.ts:164446](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L164446)
+main.ts:169873
 
 ## Properties
 
@@ -71,10 +67,9 @@ left, right
 
 #### Defined in
 
-[main.ts:164433](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L164433)
+main.ts:169860
 
 ___
-
 
 ### rating\_max
 
@@ -88,10 +83,9 @@ the maximum value for a rating_type
 
 #### Defined in
 
-[main.ts:164442](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L164442)
+main.ts:169869
 
 ___
-
 
 ### rating\_type
 
@@ -106,10 +100,9 @@ here you can find the following elements: Max5, Percents, CustomMax
 
 #### Defined in
 
-[main.ts:164436](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L164436)
+main.ts:169863
 
 ___
-
 
 ### type
 
@@ -123,10 +116,9 @@ type of element
 
 #### Defined in
 
-[main.ts:164429](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L164429)
+main.ts:169856
 
 ___
-
 
 ### value
 
@@ -140,10 +132,9 @@ value of the rating
 
 #### Defined in
 
-[main.ts:164438](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L164438)
+main.ts:169865
 
 ___
-
 
 ### votes\_count
 
@@ -157,7 +148,7 @@ the amount of feedback
 
 #### Defined in
 
-[main.ts:164440](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L164440)
+main.ts:169867
 
 ## Methods
 
@@ -177,10 +168,9 @@ the amount of feedback
 
 #### Defined in
 
-[main.ts:164455](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L164455)
+main.ts:169882
 
 ___
-
 
 ### toJSON
 
@@ -198,10 +188,9 @@ ___
 
 #### Defined in
 
-[main.ts:164477](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L164477)
+main.ts:169904
 
 ___
-
 
 ### fromJS
 
@@ -219,8 +208,4 @@ ___
 
 #### Defined in
 
-[main.ts:164470](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L164470)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:169897

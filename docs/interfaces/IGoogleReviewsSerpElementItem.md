@@ -1,15 +1,11 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IGoogleReviewsSerpElementItem
+[Documentation](../README.md) / [Exports](../modules.md) / IGoogleReviewsSerpElementItem
 
 # Interface: IGoogleReviewsSerpElementItem
 
 ## Hierarchy
 
 - [`IBaseSerpElementItem`](IBaseSerpElementItem.md)
-  
+
   ↳ **`IGoogleReviewsSerpElementItem`**
 
 ## Implemented by
@@ -45,10 +41,9 @@ google-defined client id
 
 #### Defined in
 
-[main.ts:29283](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L29283)
+main.ts:30062
 
 ___
-
 
 ### feature
 
@@ -58,10 +53,9 @@ the additional feature of the review
 
 #### Defined in
 
-[main.ts:29281](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L29281)
+main.ts:30060
 
 ___
-
 
 ### place\_id
 
@@ -71,10 +65,9 @@ the identifier of a place
 
 #### Defined in
 
-[main.ts:29279](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L29279)
+main.ts:30058
 
 ___
-
 
 ### position
 
@@ -86,10 +79,9 @@ left, right
 
 #### Defined in
 
-[main.ts:29270](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L29270)
+main.ts:30049
 
 ___
-
 
 ### rank\_absolute
 
@@ -97,42 +89,41 @@ ___
 
 absolute rank in SERP
 absolute position among all the elements in SERP
+always equals 0 for desktop
 
 #### Defined in
 
-[main.ts:29266](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L29266)
+main.ts:30045
 
 ___
-
 
 ### rank\_group
 
 • `Optional` **rank\_group**: `number`
 
 group rank in SERP
-position within a group of elements with identical type values
-positions of elements with different type values are omitted from rank_group
+position within a group of elements with identical type values;
+positions of elements with different type values are omitted from rank_group;
+always equals 0 for desktop
 
 #### Defined in
 
-[main.ts:29263](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L29263)
+main.ts:30041
 
 ___
-
 
 ### rating
 
 • `Optional` **rating**: [`RatingInfo`](../classes/RatingInfo.md)
 
-the item’s rating
+the item’s rating 
 the popularity rate based on reviews and displayed in SERP
 
 #### Defined in
 
-[main.ts:29277](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L29277)
+main.ts:30056
 
 ___
-
 
 ### rectangle
 
@@ -144,10 +135,9 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 #### Defined in
 
-[main.ts:29287](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L29287)
+main.ts:30066
 
 ___
-
 
 ### reviews\_count
 
@@ -157,10 +147,9 @@ the number of reviews
 
 #### Defined in
 
-[main.ts:29274](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L29274)
+main.ts:30053
 
 ___
-
 
 ### xpath
 
@@ -170,8 +159,4 @@ the XPath of the element
 
 #### Defined in
 
-[main.ts:29272](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L29272)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:30051

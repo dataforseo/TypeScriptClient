@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / SerpGoogleMapsLiveAdvancedRequestInfo
+[Documentation](../README.md) / [Exports](../modules.md) / SerpGoogleMapsLiveAdvancedRequestInfo
 
 # Class: SerpGoogleMapsLiveAdvancedRequestInfo
 
@@ -62,7 +58,7 @@
 
 #### Defined in
 
-[main.ts:39191](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L39191)
+main.ts:39942
 
 ## Properties
 
@@ -85,10 +81,9 @@ if the specified depth is higher than the number of results in the response, the
 
 #### Defined in
 
-[main.ts:39159](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L39159)
+main.ts:39910
 
 ___
-
 
 ### device
 
@@ -106,10 +101,9 @@ note: for mobile device, only 20 results are returned for every SERP
 
 #### Defined in
 
-[main.ts:39136](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L39136)
+main.ts:39887
 
 ___
-
 
 ### keyword
 
@@ -130,10 +124,9 @@ Note: queries containing the ‘cache:’ parameter are not supported and will r
 
 #### Defined in
 
-[main.ts:39091](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L39091)
+main.ts:39842
 
 ___
-
 
 ### language\_code
 
@@ -152,10 +145,9 @@ en
 
 #### Defined in
 
-[main.ts:39130](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L39130)
+main.ts:39881
 
 ___
-
 
 ### language\_name
 
@@ -174,10 +166,9 @@ English
 
 #### Defined in
 
-[main.ts:39123](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L39123)
+main.ts:39874
 
 ___
-
 
 ### location\_code
 
@@ -196,10 +187,9 @@ example:
 
 #### Defined in
 
-[main.ts:39105](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L39105)
+main.ts:39856
 
 ___
-
 
 ### location\_coordinate
 
@@ -222,10 +212,9 @@ example:
 
 #### Defined in
 
-[main.ts:39116](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L39116)
+main.ts:39867
 
 ___
-
 
 ### location\_name
 
@@ -244,10 +233,9 @@ London,England,United Kingdom
 
 #### Defined in
 
-[main.ts:39098](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L39098)
+main.ts:39849
 
 ___
-
 
 ### max\_crawl\_pages
 
@@ -266,10 +254,9 @@ learn more at our help center
 
 #### Defined in
 
-[main.ts:39166](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L39166)
+main.ts:39917
 
 ___
-
 
 ### os
 
@@ -288,10 +275,9 @@ default value: android
 
 #### Defined in
 
-[main.ts:39143](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L39143)
+main.ts:39894
 
 ___
-
 
 ### se\_domain
 
@@ -310,10 +296,9 @@ google.co.uk, google.com.au, google.de, etc.
 
 #### Defined in
 
-[main.ts:39150](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L39150)
+main.ts:39901
 
 ___
-
 
 ### search\_places
 
@@ -333,10 +318,9 @@ Note: if the search_places mode is turned off and no results were found in the s
 
 #### Defined in
 
-[main.ts:39181](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L39181)
+main.ts:39932
 
 ___
-
 
 ### search\_this\_area
 
@@ -355,10 +339,9 @@ Note: if the search_this_area mode is turned off, Google Maps listings might con
 
 #### Defined in
 
-[main.ts:39173](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L39173)
+main.ts:39924
 
 ___
-
 
 ### tag
 
@@ -376,10 +359,9 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-[main.ts:39187](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L39187)
+main.ts:39938
 
 ___
-
 
 ### url
 
@@ -397,7 +379,7 @@ https://google.com/maps/search/pizza/@37.09024,-95.712891,4z
 
 #### Defined in
 
-[main.ts:39082](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L39082)
+main.ts:39833
 
 ## Methods
 
@@ -417,10 +399,9 @@ https://google.com/maps/search/pizza/@37.09024,-95.712891,4z
 
 #### Defined in
 
-[main.ts:39200](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L39200)
+main.ts:39951
 
 ___
-
 
 ### toJSON
 
@@ -438,10 +419,9 @@ ___
 
 #### Defined in
 
-[main.ts:39231](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L39231)
+main.ts:39982
 
 ___
-
 
 ### fromJS
 
@@ -459,8 +439,4 @@ ___
 
 #### Defined in
 
-[main.ts:39224](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L39224)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:39975

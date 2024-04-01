@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / AppendixTechnologiesDomainAnalyticsPriceData
+[Documentation](../README.md) / [Exports](../modules.md) / AppendixTechnologiesDomainAnalyticsPriceData
 
 # Class: AppendixTechnologiesDomainAnalyticsPriceData
 
@@ -56,7 +52,7 @@
 
 #### Defined in
 
-[main.ts:211819](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L211819)
+main.ts:217412
 
 ## Properties
 
@@ -70,10 +66,9 @@
 
 #### Defined in
 
-[main.ts:211810](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L211810)
+main.ts:217403
 
 ___
-
 
 ### domain\_technologies
 
@@ -85,10 +80,9 @@ ___
 
 #### Defined in
 
-[main.ts:211813](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L211813)
+main.ts:217406
 
 ___
-
 
 ### domains\_by\_html\_terms
 
@@ -100,10 +94,9 @@ ___
 
 #### Defined in
 
-[main.ts:211811](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L211811)
+main.ts:217404
 
 ___
-
 
 ### domains\_by\_technology
 
@@ -115,10 +108,9 @@ ___
 
 #### Defined in
 
-[main.ts:211812](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L211812)
+main.ts:217405
 
 ___
-
 
 ### languages
 
@@ -130,10 +122,9 @@ ___
 
 #### Defined in
 
-[main.ts:211807](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L211807)
+main.ts:217400
 
 ___
-
 
 ### locations
 
@@ -145,10 +136,9 @@ ___
 
 #### Defined in
 
-[main.ts:211808](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L211808)
+main.ts:217401
 
 ___
-
 
 ### technologies
 
@@ -160,10 +150,9 @@ ___
 
 #### Defined in
 
-[main.ts:211809](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L211809)
+main.ts:217402
 
 ___
-
 
 ### technologies\_summary
 
@@ -175,10 +164,9 @@ ___
 
 #### Defined in
 
-[main.ts:211814](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L211814)
+main.ts:217407
 
 ___
-
 
 ### technology\_stats
 
@@ -190,7 +178,7 @@ ___
 
 #### Defined in
 
-[main.ts:211815](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L211815)
+main.ts:217408
 
 ## Methods
 
@@ -210,10 +198,9 @@ ___
 
 #### Defined in
 
-[main.ts:211828](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L211828)
+main.ts:217421
 
 ___
-
 
 ### toJSON
 
@@ -231,10 +218,9 @@ ___
 
 #### Defined in
 
-[main.ts:211853](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L211853)
+main.ts:217446
 
 ___
-
 
 ### fromJS
 
@@ -252,8 +238,4 @@ ___
 
 #### Defined in
 
-[main.ts:211846](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L211846)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:217439

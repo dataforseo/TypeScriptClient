@@ -1,15 +1,11 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / EventsSerpElementItem
+[Documentation](../README.md) / [Exports](../modules.md) / EventsSerpElementItem
 
 # Class: EventsSerpElementItem
 
 ## Hierarchy
 
 - [`BaseSerpElementItem`](BaseSerpElementItem.md)
-  
+
   ↳ **`EventsSerpElementItem`**
 
 ## Implements
@@ -66,7 +62,7 @@
 
 #### Defined in
 
-[main.ts:31061](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L31061)
+main.ts:31897
 
 ## Properties
 
@@ -80,16 +76,16 @@
 
 #### Defined in
 
-[main.ts:19337](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L19337)
+main.ts:19788
 
 ___
-
 
 ### items
 
 • `Optional` **items**: [`EventsElement`](EventsElement.md)[]
 
-contains results featured in the ‘hotels_pack’ element of SERP
+additional items present in the element
+if there are none, equals null
 
 #### Implementation of
 
@@ -97,10 +93,9 @@ contains results featured in the ‘hotels_pack’ element of SERP
 
 #### Defined in
 
-[main.ts:31053](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L31053)
+main.ts:31889
 
 ___
-
 
 ### position
 
@@ -116,10 +111,9 @@ left, right
 
 #### Defined in
 
-[main.ts:31045](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L31045)
+main.ts:31880
 
 ___
-
 
 ### rank\_absolute
 
@@ -127,6 +121,7 @@ ___
 
 absolute rank in SERP
 absolute position among all the elements in SERP
+always equals 0 for desktop
 
 #### Implementation of
 
@@ -134,18 +129,18 @@ absolute position among all the elements in SERP
 
 #### Defined in
 
-[main.ts:31041](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L31041)
+main.ts:31876
 
 ___
-
 
 ### rank\_group
 
 • `Optional` **rank\_group**: `number`
 
 group rank in SERP
-position within a group of elements with identical type values
-positions of elements with different type values are omitted from rank_group
+position within a group of elements with identical type values;
+positions of elements with different type values are omitted from rank_group;
+always equals 0 for desktop
 
 #### Implementation of
 
@@ -153,10 +148,9 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-[main.ts:31038](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L31038)
+main.ts:31872
 
 ___
-
 
 ### rectangle
 
@@ -172,16 +166,15 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 #### Defined in
 
-[main.ts:31057](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L31057)
+main.ts:31893
 
 ___
-
 
 ### title
 
 • `Optional` **title**: `string`
 
-title of a given link element
+title of the row
 
 #### Implementation of
 
@@ -189,16 +182,15 @@ title of a given link element
 
 #### Defined in
 
-[main.ts:31049](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L31049)
+main.ts:31884
 
 ___
-
 
 ### url
 
 • `Optional` **url**: `string`
 
-URL
+source URL
 
 #### Implementation of
 
@@ -206,10 +198,9 @@ URL
 
 #### Defined in
 
-[main.ts:31051](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L31051)
+main.ts:31886
 
 ___
-
 
 ### xpath
 
@@ -223,7 +214,7 @@ the XPath of the element
 
 #### Defined in
 
-[main.ts:31047](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L31047)
+main.ts:31882
 
 ## Methods
 
@@ -247,10 +238,9 @@ the XPath of the element
 
 #### Defined in
 
-[main.ts:31066](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L31066)
+main.ts:31902
 
 ___
-
 
 ### toJSON
 
@@ -272,10 +262,9 @@ ___
 
 #### Defined in
 
-[main.ts:31095](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L31095)
+main.ts:31931
 
 ___
-
 
 ### fromJS
 
@@ -297,8 +286,4 @@ ___
 
 #### Defined in
 
-[main.ts:31088](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L31088)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:31924

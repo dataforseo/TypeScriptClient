@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IBusinessDataBusinessListingsCategoriesResultInfo
+[Documentation](../README.md) / [Exports](../modules.md) / IBusinessDataBusinessListingsCategoriesResultInfo
 
 # Interface: IBusinessDataBusinessListingsCategoriesResultInfo
 
@@ -31,10 +27,9 @@ number of businesses in the category
 
 #### Defined in
 
-[main.ts:188055](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L188055)
+main.ts:193508
 
 ___
-
 
 ### category\_name
 
@@ -44,8 +39,4 @@ full name of the category
 
 #### Defined in
 
-[main.ts:188053](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L188053)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:193506

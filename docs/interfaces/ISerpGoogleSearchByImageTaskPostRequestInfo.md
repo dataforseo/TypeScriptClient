@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / ISerpGoogleSearchByImageTaskPostRequestInfo
+[Documentation](../README.md) / [Exports](../modules.md) / ISerpGoogleSearchByImageTaskPostRequestInfo
 
 # Interface: ISerpGoogleSearchByImageTaskPostRequestInfo
 
@@ -51,10 +47,9 @@ Note: to use this parameter, set calculate_rectangles to true
 
 #### Defined in
 
-[main.ts:47439](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L47439)
+main.ts:48190
 
 ___
-
 
 ### browser\_screen\_resolution\_ratio
 
@@ -68,10 +63,9 @@ Note: to use this parameter, set calculate_rectangles to true
 
 #### Defined in
 
-[main.ts:47445](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L47445)
+main.ts:48196
 
 ___
-
 
 ### browser\_screen\_width
 
@@ -85,10 +79,9 @@ Note: to use this parameter, set calculate_rectangles to true
 
 #### Defined in
 
-[main.ts:47433](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L47433)
+main.ts:48184
 
 ___
-
 
 ### calculate\_rectangles
 
@@ -103,10 +96,9 @@ Note: if set to true, the charge per task will be multiplied by 2
 
 #### Defined in
 
-[main.ts:47427](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L47427)
+main.ts:48178
 
 ___
-
 
 ### image\_url
 
@@ -120,10 +112,9 @@ https://upload.wikimedia.org/wikipedia/commons/e/ed/Elon_Musk_Royal_Society.jpg
 
 #### Defined in
 
-[main.ts:47360](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L47360)
+main.ts:48111
 
 ___
-
 
 ### language\_code
 
@@ -138,10 +129,9 @@ en
 
 #### Defined in
 
-[main.ts:47413](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L47413)
+main.ts:48164
 
 ___
-
 
 ### language\_name
 
@@ -156,10 +146,9 @@ English
 
 #### Defined in
 
-[main.ts:47406](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L47406)
+main.ts:48157
 
 ___
-
 
 ### location\_code
 
@@ -174,10 +163,9 @@ example:
 
 #### Defined in
 
-[main.ts:47389](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L47389)
+main.ts:48140
 
 ___
-
 
 ### location\_coordinate
 
@@ -195,10 +183,9 @@ example:
 
 #### Defined in
 
-[main.ts:47399](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L47399)
+main.ts:48150
 
 ___
-
 
 ### location\_name
 
@@ -213,10 +200,9 @@ London,England,United Kingdom
 
 #### Defined in
 
-[main.ts:47382](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L47382)
+main.ts:48133
 
 ___
-
 
 ### max\_crawl\_pages
 
@@ -231,10 +217,9 @@ learn more at our help center
 
 #### Defined in
 
-[main.ts:47375](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L47375)
+main.ts:48126
 
 ___
-
 
 ### pingback\_url
 
@@ -252,10 +237,9 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-[main.ts:47481](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L47481)
+main.ts:48232
 
 ___
-
 
 ### postback\_data
 
@@ -269,10 +253,9 @@ advanced
 
 #### Defined in
 
-[main.ts:47471](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L47471)
+main.ts:48222
 
 ___
-
 
 ### postback\_url
 
@@ -290,10 +273,9 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-[main.ts:47465](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L47465)
+main.ts:48216
 
 ___
-
 
 ### priority
 
@@ -309,10 +291,9 @@ The cost can be calculated on the Pricing page.
 
 #### Defined in
 
-[main.ts:47368](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L47368)
+main.ts:48119
 
 ___
-
 
 ### se\_domain
 
@@ -327,10 +308,9 @@ google.co.uk, google.com.au, google.de, etc.
 
 #### Defined in
 
-[main.ts:47420](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L47420)
+main.ts:48171
 
 ___
-
 
 ### search\_param
 
@@ -342,10 +322,9 @@ get the list of available parameters and additional details here
 
 #### Defined in
 
-[main.ts:47449](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L47449)
+main.ts:48200
 
 ___
-
 
 ### tag
 
@@ -359,8 +338,4 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-[main.ts:47455](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L47455)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:48206

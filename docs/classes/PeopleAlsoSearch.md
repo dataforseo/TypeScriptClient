@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / PeopleAlsoSearch
+[Documentation](../README.md) / [Exports](../modules.md) / PeopleAlsoSearch
 
 # Class: PeopleAlsoSearch
 
@@ -51,7 +47,7 @@
 
 #### Defined in
 
-[main.ts:188695](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L188695)
+main.ts:194148
 
 ## Properties
 
@@ -69,10 +65,9 @@ learn more about the identifier in this help center article
 
 #### Defined in
 
-[main.ts:188682](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L188682)
+main.ts:194135
 
 ___
-
 
 ### feature\_id
 
@@ -87,16 +82,15 @@ learn more about the identifier in this help center article
 
 #### Defined in
 
-[main.ts:188685](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L188685)
+main.ts:194138
 
 ___
-
 
 ### rating
 
 • `Optional` **rating**: [`RatingInfo`](RatingInfo.md)
 
-the element’s rating
+the element’s rating 
 the popularity rate based on reviews and displayed in SERP
 
 #### Implementation of
@@ -105,10 +99,9 @@ the popularity rate based on reviews and displayed in SERP
 
 #### Defined in
 
-[main.ts:188691](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L188691)
+main.ts:194144
 
 ___
-
 
 ### title
 
@@ -123,7 +116,7 @@ the name of the business entity for which the results are collected
 
 #### Defined in
 
-[main.ts:188688](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L188688)
+main.ts:194141
 
 ## Methods
 
@@ -143,10 +136,9 @@ the name of the business entity for which the results are collected
 
 #### Defined in
 
-[main.ts:188704](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L188704)
+main.ts:194157
 
 ___
-
 
 ### toJSON
 
@@ -164,10 +156,9 @@ ___
 
 #### Defined in
 
-[main.ts:188724](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L188724)
+main.ts:194177
 
 ___
-
 
 ### fromJS
 
@@ -185,8 +176,4 @@ ___
 
 #### Defined in
 
-[main.ts:188717](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L188717)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:194170

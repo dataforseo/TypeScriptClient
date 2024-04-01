@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / ContentItemInfo
+[Documentation](../README.md) / [Exports](../modules.md) / ContentItemInfo
 
 # Class: ContentItemInfo
 
@@ -49,7 +45,7 @@
 
 #### Defined in
 
-[main.ts:151962](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L151962)
+main.ts:157389
 
 ## Properties
 
@@ -65,10 +61,9 @@ content text
 
 #### Defined in
 
-[main.ts:151955](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L151955)
+main.ts:157382
 
 ___
-
 
 ### url
 
@@ -83,7 +78,7 @@ displayed in case the text is a link anchor
 
 #### Defined in
 
-[main.ts:151958](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L151958)
+main.ts:157385
 
 ## Methods
 
@@ -103,10 +98,9 @@ displayed in case the text is a link anchor
 
 #### Defined in
 
-[main.ts:151971](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L151971)
+main.ts:157398
 
 ___
-
 
 ### toJSON
 
@@ -124,10 +118,9 @@ ___
 
 #### Defined in
 
-[main.ts:151989](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L151989)
+main.ts:157416
 
 ___
-
 
 ### fromJS
 
@@ -145,8 +138,4 @@ ___
 
 #### Defined in
 
-[main.ts:151982](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L151982)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:157409

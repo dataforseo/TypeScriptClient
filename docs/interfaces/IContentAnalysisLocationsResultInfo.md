@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IContentAnalysisLocationsResultInfo
+[Documentation](../README.md) / [Exports](../modules.md) / IContentAnalysisLocationsResultInfo
 
 # Interface: IContentAnalysisLocationsResultInfo
 
@@ -31,10 +27,9 @@ ISO country code of the location
 
 #### Defined in
 
-[main.ts:155570](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L155570)
+main.ts:160997
 
 ___
-
 
 ### location\_name
 
@@ -44,8 +39,4 @@ full name of the location
 
 #### Defined in
 
-[main.ts:155568](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L155568)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:160995

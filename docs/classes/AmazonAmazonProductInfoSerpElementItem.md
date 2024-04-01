@@ -1,15 +1,11 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / AmazonAmazonProductInfoSerpElementItem
+[Documentation](../README.md) / [Exports](../modules.md) / AmazonAmazonProductInfoSerpElementItem
 
 # Class: AmazonAmazonProductInfoSerpElementItem
 
 ## Hierarchy
 
 - [`BaseAmazonSerpElementItem`](BaseAmazonSerpElementItem.md)
-  
+
   ↳ **`AmazonAmazonProductInfoSerpElementItem`**
 
 ## Implements
@@ -82,7 +78,7 @@
 
 #### Defined in
 
-[main.ts:172852](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L172852)
+main.ts:178305
 
 ## Properties
 
@@ -96,10 +92,9 @@
 
 #### Defined in
 
-[main.ts:20756](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L20756)
+main.ts:21275
 
 ___
-
 
 ### author
 
@@ -113,10 +108,9 @@ product brand name
 
 #### Defined in
 
-[main.ts:172808](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L172808)
+main.ts:178261
 
 ___
-
 
 ### categories
 
@@ -130,10 +124,9 @@ contains related product categories
 
 #### Defined in
 
-[main.ts:172837](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L172837)
+main.ts:178290
 
 ___
-
 
 ### currency
 
@@ -149,10 +142,9 @@ USD
 
 #### Defined in
 
-[main.ts:172826](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L172826)
+main.ts:178279
 
 ___
-
 
 ### data\_asin
 
@@ -166,10 +158,9 @@ ASIN of the product received in a POST array
 
 #### Defined in
 
-[main.ts:172810](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L172810)
+main.ts:178263
 
 ___
-
 
 ### description
 
@@ -183,10 +174,9 @@ contains description of the product
 
 #### Defined in
 
-[main.ts:172845](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L172845)
+main.ts:178298
 
 ___
-
 
 ### details
 
@@ -200,10 +190,9 @@ product specs and other details
 
 #### Defined in
 
-[main.ts:172804](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L172804)
+main.ts:178257
 
 ___
-
 
 ### image\_url
 
@@ -217,10 +206,9 @@ the URL of the product image
 
 #### Defined in
 
-[main.ts:172806](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L172806)
+main.ts:178259
 
 ___
-
 
 ### is\_amazon\_choice
 
@@ -235,10 +223,9 @@ if the value is true, the product is marked with the “Amazon’s choice” lab
 
 #### Defined in
 
-[main.ts:172829](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L172829)
+main.ts:178282
 
 ___
-
 
 ### is\_available
 
@@ -253,10 +240,9 @@ if the value is true, the product can be ordered
 
 #### Defined in
 
-[main.ts:172848](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L172848)
+main.ts:178301
 
 ___
-
 
 ### is\_newer\_model\_available
 
@@ -270,10 +256,9 @@ indicates whether the newer model of the product is available
 
 #### Defined in
 
-[main.ts:172833](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L172833)
+main.ts:178286
 
 ___
-
 
 ### newer\_model
 
@@ -287,10 +272,9 @@ information about the newer model of the product
 
 #### Defined in
 
-[main.ts:172835](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L172835)
+main.ts:178288
 
 ___
-
 
 ### parent\_asin
 
@@ -304,10 +288,9 @@ parent ASIN of the product
 
 #### Defined in
 
-[main.ts:172812](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L172812)
+main.ts:178265
 
 ___
-
 
 ### position
 
@@ -323,10 +306,9 @@ left, right
 
 #### Defined in
 
-[main.ts:172798](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L172798)
+main.ts:178251
 
 ___
-
 
 ### price\_from
 
@@ -342,10 +324,9 @@ example:
 
 #### Defined in
 
-[main.ts:172818](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L172818)
+main.ts:178271
 
 ___
-
 
 ### price\_to
 
@@ -361,10 +342,9 @@ example:
 
 #### Defined in
 
-[main.ts:172822](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L172822)
+main.ts:178275
 
 ___
-
 
 ### product\_asins
 
@@ -378,10 +358,9 @@ ASINs of all found product modifications
 
 #### Defined in
 
-[main.ts:172814](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L172814)
+main.ts:178267
 
 ___
-
 
 ### product\_images\_list
 
@@ -395,10 +374,9 @@ contains URLs for all images of the product displayed on the left side of the ma
 
 #### Defined in
 
-[main.ts:172841](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L172841)
+main.ts:178294
 
 ___
-
 
 ### product\_information
 
@@ -412,10 +390,9 @@ contains related product information
 
 #### Defined in
 
-[main.ts:172839](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L172839)
+main.ts:178292
 
 ___
-
 
 ### product\_videos\_list
 
@@ -429,10 +406,9 @@ contains URLs for all videos of the product displayed on the right side of the m
 
 #### Defined in
 
-[main.ts:172843](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L172843)
+main.ts:178296
 
 ___
-
 
 ### rank\_absolute
 
@@ -447,10 +423,9 @@ absolute position among all the elements in the response array
 
 #### Defined in
 
-[main.ts:172794](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L172794)
+main.ts:178247
 
 ___
-
 
 ### rank\_group
 
@@ -465,10 +440,9 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-[main.ts:172791](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L172791)
+main.ts:178244
 
 ___
-
 
 ### rating
 
@@ -482,10 +456,9 @@ product rating info
 
 #### Defined in
 
-[main.ts:172831](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L172831)
+main.ts:178284
 
 ___
-
 
 ### title
 
@@ -499,10 +472,9 @@ product title
 
 #### Defined in
 
-[main.ts:172802](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L172802)
+main.ts:178255
 
 ___
-
 
 ### xpath
 
@@ -516,7 +488,7 @@ the XPath of the element
 
 #### Defined in
 
-[main.ts:172800](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L172800)
+main.ts:178253
 
 ## Methods
 
@@ -540,10 +512,9 @@ the XPath of the element
 
 #### Defined in
 
-[main.ts:172857](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L172857)
+main.ts:178310
 
 ___
-
 
 ### toJSON
 
@@ -565,10 +536,9 @@ ___
 
 #### Defined in
 
-[main.ts:172918](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L172918)
+main.ts:178371
 
 ___
-
 
 ### fromJS
 
@@ -590,8 +560,4 @@ ___
 
 #### Defined in
 
-[main.ts:172911](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L172911)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:178364

@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IDataforseoLabsGoogleRankedKeywordsLiveItem
+[Documentation](../README.md) / [Exports](../modules.md) / IDataforseoLabsGoogleRankedKeywordsLiveItem
 
 # Interface: IDataforseoLabsGoogleRankedKeywordsLiveItem
 
@@ -32,10 +28,9 @@ keyword data for the returned keyword
 
 #### Defined in
 
-[main.ts:87091](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L87091)
+main.ts:89468
 
 ___
-
 
 ### ranked\_serp\_element
 
@@ -45,10 +40,9 @@ contains data on the domain’s SERP element found for the returned keyword
 
 #### Defined in
 
-[main.ts:87093](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L87093)
+main.ts:89470
 
 ___
-
 
 ### se\_type
 
@@ -58,8 +52,4 @@ search engine type
 
 #### Defined in
 
-[main.ts:87089](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L87089)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:89466

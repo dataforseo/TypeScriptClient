@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / ISerpGoogleJobsTaskPostRequestInfo
+[Documentation](../README.md) / [Exports](../modules.md) / ISerpGoogleJobsTaskPostRequestInfo
 
 # Interface: ISerpGoogleJobsTaskPostRequestInfo
 
@@ -50,10 +46,9 @@ month — return job vacancies posted no longer than a month ago
 
 #### Defined in
 
-[main.ts:48541](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L48541)
+main.ts:49292
 
 ___
-
 
 ### depth
 
@@ -70,10 +65,9 @@ if the specified depth is higher than the number of results in the response, the
 
 #### Defined in
 
-[main.ts:48526](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L48526)
+main.ts:49277
 
 ___
-
 
 ### employment\_type
 
@@ -87,10 +81,9 @@ fulltime, partime, contractor, intern
 
 #### Defined in
 
-[main.ts:48532](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L48532)
+main.ts:49283
 
 ___
-
 
 ### keyword
 
@@ -107,10 +100,9 @@ example: .net developer
 
 #### Defined in
 
-[main.ts:48474](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L48474)
+main.ts:49225
 
 ___
-
 
 ### language\_code
 
@@ -125,10 +117,9 @@ en
 
 #### Defined in
 
-[main.ts:48517](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L48517)
+main.ts:49268
 
 ___
-
 
 ### language\_name
 
@@ -143,10 +134,9 @@ English
 
 #### Defined in
 
-[main.ts:48510](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L48510)
+main.ts:49261
 
 ___
-
 
 ### location\_code
 
@@ -160,10 +150,9 @@ example:
 
 #### Defined in
 
-[main.ts:48495](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L48495)
+main.ts:49246
 
 ___
-
 
 ### location\_name
 
@@ -178,10 +167,9 @@ London,England,United Kingdom
 
 #### Defined in
 
-[main.ts:48489](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L48489)
+main.ts:49240
 
 ___
-
 
 ### location\_radius
 
@@ -197,10 +185,9 @@ minimal value: > 0
 
 #### Defined in
 
-[main.ts:48503](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L48503)
+main.ts:49254
 
 ___
-
 
 ### pingback\_url
 
@@ -218,10 +205,9 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-[main.ts:48573](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L48573)
+main.ts:49324
 
 ___
-
 
 ### postback\_data
 
@@ -235,10 +221,9 @@ regular, advanced, html
 
 #### Defined in
 
-[main.ts:48563](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L48563)
+main.ts:49314
 
 ___
-
 
 ### postback\_url
 
@@ -256,10 +241,9 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-[main.ts:48557](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L48557)
+main.ts:49308
 
 ___
-
 
 ### priority
 
@@ -275,10 +259,9 @@ The cost can be calculated on the Pricing page
 
 #### Defined in
 
-[main.ts:48482](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L48482)
+main.ts:49233
 
 ___
-
 
 ### tag
 
@@ -292,8 +275,4 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-[main.ts:48547](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L48547)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:49298

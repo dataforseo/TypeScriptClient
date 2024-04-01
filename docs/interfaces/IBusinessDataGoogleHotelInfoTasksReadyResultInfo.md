@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IBusinessDataGoogleHotelInfoTasksReadyResultInfo
+[Documentation](../README.md) / [Exports](../modules.md) / IBusinessDataGoogleHotelInfoTasksReadyResultInfo
 
 # Interface: IBusinessDataGoogleHotelInfoTasksReadyResultInfo
 
@@ -35,10 +31,9 @@ date when the task was posted (in the UTC format)
 
 #### Defined in
 
-[main.ts:195156](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L195156)
+main.ts:200617
 
 ___
-
 
 ### endpoint\_advanced
 
@@ -48,10 +43,9 @@ URL for collecting the results of the task
 
 #### Defined in
 
-[main.ts:195160](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L195160)
+main.ts:200621
 
 ___
-
 
 ### endpoint\_html
 
@@ -61,10 +55,9 @@ URL for collecting the results of the task
 
 #### Defined in
 
-[main.ts:195162](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L195162)
+main.ts:200623
 
 ___
-
 
 ### id
 
@@ -75,10 +68,9 @@ unique task identifier in our system in the UUID format
 
 #### Defined in
 
-[main.ts:195151](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L195151)
+main.ts:200612
 
 ___
-
 
 ### se
 
@@ -89,10 +81,9 @@ can take the following values: google
 
 #### Defined in
 
-[main.ts:195154](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L195154)
+main.ts:200615
 
 ___
-
 
 ### tag
 
@@ -102,8 +93,4 @@ user-defined task identifier
 
 #### Defined in
 
-[main.ts:195158](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L195158)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:200619

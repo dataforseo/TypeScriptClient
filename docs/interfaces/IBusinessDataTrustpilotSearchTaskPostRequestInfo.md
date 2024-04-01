@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IBusinessDataTrustpilotSearchTaskPostRequestInfo
+[Documentation](../README.md) / [Exports](../modules.md) / IBusinessDataTrustpilotSearchTaskPostRequestInfo
 
 # Interface: IBusinessDataTrustpilotSearchTaskPostRequestInfo
 
@@ -41,10 +37,9 @@ Note: your account will be charged for every 10 search results returned, e.g. if
 
 #### Defined in
 
-[main.ts:198787](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L198787)
+main.ts:204248
 
 ___
-
 
 ### keyword
 
@@ -59,10 +54,9 @@ if you need to use the “%” symbol for your keyword, please specify it as “
 
 #### Defined in
 
-[main.ts:198771](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L198771)
+main.ts:204232
 
 ___
-
 
 ### pingback\_url
 
@@ -80,10 +74,9 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-[main.ts:198813](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L198813)
+main.ts:204274
 
 ___
-
 
 ### postback\_url
 
@@ -101,10 +94,9 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-[main.ts:198803](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L198803)
+main.ts:204264
 
 ___
-
 
 ### priority
 
@@ -120,10 +112,9 @@ The cost can be calculated on the Pricing page.
 
 #### Defined in
 
-[main.ts:198779](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L198779)
+main.ts:204240
 
 ___
-
 
 ### tag
 
@@ -137,8 +128,4 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-[main.ts:198793](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L198793)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:204254

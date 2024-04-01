@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / InformationAndTicketsElement
+[Documentation](../README.md) / [Exports](../modules.md) / InformationAndTicketsElement
 
 # Class: InformationAndTicketsElement
 
@@ -52,7 +48,7 @@
 
 #### Defined in
 
-[main.ts:44606](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L44606)
+main.ts:45357
 
 ## Properties
 
@@ -68,10 +64,9 @@ description of the element
 
 #### Defined in
 
-[main.ts:44598](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L44598)
+main.ts:45349
 
 ___
-
 
 ### domain
 
@@ -85,10 +80,9 @@ domain in SERP
 
 #### Defined in
 
-[main.ts:44602](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L44602)
+main.ts:45353
 
 ___
-
 
 ### title
 
@@ -102,10 +96,9 @@ title of the element
 
 #### Defined in
 
-[main.ts:44596](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L44596)
+main.ts:45347
 
 ___
-
 
 ### type
 
@@ -119,10 +112,9 @@ type of element
 
 #### Defined in
 
-[main.ts:44594](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L44594)
+main.ts:45345
 
 ___
-
 
 ### url
 
@@ -136,7 +128,7 @@ relevant URL
 
 #### Defined in
 
-[main.ts:44600](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L44600)
+main.ts:45351
 
 ## Methods
 
@@ -156,10 +148,9 @@ relevant URL
 
 #### Defined in
 
-[main.ts:44615](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L44615)
+main.ts:45366
 
 ___
-
 
 ### toJSON
 
@@ -177,10 +168,9 @@ ___
 
 #### Defined in
 
-[main.ts:44636](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L44636)
+main.ts:45387
 
 ___
-
 
 ### fromJS
 
@@ -198,8 +188,4 @@ ___
 
 #### Defined in
 
-[main.ts:44629](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L44629)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:45380

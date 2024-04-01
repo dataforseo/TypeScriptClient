@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IHotelInfoPriceOffer
+[Documentation](../README.md) / [Exports](../modules.md) / IHotelInfoPriceOffer
 
 # Interface: IHotelInfoPriceOffer
 
@@ -40,10 +36,9 @@ USD is applied by default, unless specified in the POST array
 
 #### Defined in
 
-[main.ts:193548](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L193548)
+main.ts:199009
 
 ___
-
 
 ### free\_cancellation\_until
 
@@ -55,10 +50,9 @@ equals null if free cancellation is not available for the selected dates
 
 #### Defined in
 
-[main.ts:193561](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L193561)
+main.ts:199022
 
 ___
-
 
 ### max\_visitors
 
@@ -69,10 +63,9 @@ the maximum number of visitors for which the price offer is valid
 
 #### Defined in
 
-[main.ts:193554](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L193554)
+main.ts:199015
 
 ___
-
 
 ### offer\_images
 
@@ -83,10 +76,9 @@ URLs of the images featured in the price offer
 
 #### Defined in
 
-[main.ts:193557](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L193557)
+main.ts:199018
 
 ___
-
 
 ### price
 
@@ -96,10 +88,9 @@ price per night
 
 #### Defined in
 
-[main.ts:193545](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L193545)
+main.ts:199006
 
 ___
-
 
 ### title
 
@@ -109,10 +100,9 @@ title of the hotel
 
 #### Defined in
 
-[main.ts:193543](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L193543)
+main.ts:199004
 
 ___
-
 
 ### type
 
@@ -122,10 +112,9 @@ type of element
 
 #### Defined in
 
-[main.ts:193541](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L193541)
+main.ts:199002
 
 ___
-
 
 ### url
 
@@ -136,8 +125,4 @@ URL to the page of the website where price offer appears
 
 #### Defined in
 
-[main.ts:193551](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L193551)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:199012

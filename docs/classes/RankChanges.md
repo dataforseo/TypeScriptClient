@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / RankChanges
+[Documentation](../README.md) / [Exports](../modules.md) / RankChanges
 
 # Class: RankChanges
 
@@ -51,7 +47,7 @@
 
 #### Defined in
 
-[main.ts:86497](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L86497)
+main.ts:88874
 
 ## Properties
 
@@ -68,10 +64,9 @@ if the value is true, position of the element in SERP is lower compared to the p
 
 #### Defined in
 
-[main.ts:86493](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L86493)
+main.ts:88870
 
 ___
-
 
 ### is\_new
 
@@ -86,10 +81,9 @@ if the value is true, previously collected SERP didn’t contain this element
 
 #### Defined in
 
-[main.ts:86487](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L86487)
+main.ts:88864
 
 ___
-
 
 ### is\_up
 
@@ -104,10 +98,9 @@ if the value is true, position of the element in SERP is higher compared to the 
 
 #### Defined in
 
-[main.ts:86490](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L86490)
+main.ts:88867
 
 ___
-
 
 ### previous\_rank\_absolute
 
@@ -123,7 +116,7 @@ if this element is new, the value will be null
 
 #### Defined in
 
-[main.ts:86484](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L86484)
+main.ts:88861
 
 ## Methods
 
@@ -143,10 +136,9 @@ if this element is new, the value will be null
 
 #### Defined in
 
-[main.ts:86506](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L86506)
+main.ts:88883
 
 ___
-
 
 ### toJSON
 
@@ -164,10 +156,9 @@ ___
 
 #### Defined in
 
-[main.ts:86526](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L86526)
+main.ts:88903
 
 ___
-
 
 ### fromJS
 
@@ -185,8 +176,4 @@ ___
 
 #### Defined in
 
-[main.ts:86519](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L86519)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:88896

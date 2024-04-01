@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IHotelReviewInfo
+[Documentation](../README.md) / [Exports](../modules.md) / IHotelReviewInfo
 
 # Interface: IHotelReviewInfo
 
@@ -35,10 +31,9 @@ information about hotel reviews by criteria
 
 #### Defined in
 
-[main.ts:196018](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L196018)
+main.ts:201479
 
 ___
-
 
 ### other\_sites\_reviews
 
@@ -49,10 +44,9 @@ reviews from third-paty sites
 
 #### Defined in
 
-[main.ts:196024](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L196024)
+main.ts:201485
 
 ___
-
 
 ### rating\_distribution
 
@@ -67,10 +61,9 @@ the distribution of votes across the rating in the range from 1 to 5
 
 #### Defined in
 
-[main.ts:196021](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L196021)
+main.ts:201482
 
 ___
-
 
 ### value
 
@@ -80,10 +73,9 @@ overall hotel rating based on customer votes
 
 #### Defined in
 
-[main.ts:196012](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L196012)
+main.ts:201473
 
 ___
-
 
 ### votes\_count
 
@@ -94,8 +86,4 @@ the number of customer votes included in the calculation of the hotel rating
 
 #### Defined in
 
-[main.ts:196015](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L196015)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:201476

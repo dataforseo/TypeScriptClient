@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / DomainAnalyticsErrorsRequestInfo
+[Documentation](../README.md) / [Exports](../modules.md) / DomainAnalyticsErrorsRequestInfo
 
 # Class: DomainAnalyticsErrorsRequestInfo
 
@@ -52,7 +48,7 @@
 
 #### Defined in
 
-[main.ts:71244](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L71244)
+main.ts:73621
 
 ## Properties
 
@@ -73,10 +69,9 @@ example:
 
 #### Defined in
 
-[main.ts:71233](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L71233)
+main.ts:73610
 
 ___
-
 
 ### datetime\_to
 
@@ -95,10 +90,9 @@ example:
 
 #### Defined in
 
-[main.ts:71240](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L71240)
+main.ts:73617
 
 ___
-
 
 ### filtered\_function
 
@@ -116,10 +110,9 @@ example: domain_analytics/task_get, postback_url, pingback_url
 
 #### Defined in
 
-[main.ts:71226](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L71226)
+main.ts:73603
 
 ___
-
 
 ### limit
 
@@ -136,10 +129,9 @@ maximum value: 1000
 
 #### Defined in
 
-[main.ts:71215](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L71215)
+main.ts:73592
 
 ___
-
 
 ### offset
 
@@ -156,7 +148,7 @@ if you specify the 10 value, the first ten tasks in the results array will be om
 
 #### Defined in
 
-[main.ts:71220](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L71220)
+main.ts:73597
 
 ## Methods
 
@@ -176,10 +168,9 @@ if you specify the 10 value, the first ten tasks in the results array will be om
 
 #### Defined in
 
-[main.ts:71253](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L71253)
+main.ts:73630
 
 ___
-
 
 ### toJSON
 
@@ -197,10 +188,9 @@ ___
 
 #### Defined in
 
-[main.ts:71274](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L71274)
+main.ts:73651
 
 ___
-
 
 ### fromJS
 
@@ -218,8 +208,4 @@ ___
 
 #### Defined in
 
-[main.ts:71267](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L71267)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:73644

@@ -1,15 +1,11 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IStocksBoxDataforseoLabsSerpElementItem
+[Documentation](../README.md) / [Exports](../modules.md) / IStocksBoxDataforseoLabsSerpElementItem
 
 # Interface: IStocksBoxDataforseoLabsSerpElementItem
 
 ## Hierarchy
 
 - [`IBaseDataforseoLabsSerpElementItem`](IBaseDataforseoLabsSerpElementItem.md)
-  
+
   ↳ **`IStocksBoxDataforseoLabsSerpElementItem`**
 
 ## Implemented by
@@ -47,10 +43,9 @@ domain where a link points
 
 #### Defined in
 
-[main.ts:95805](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L95805)
+main.ts:98182
 
 ___
-
 
 ### graph
 
@@ -60,10 +55,9 @@ contains data provided in the graph of the element
 
 #### Defined in
 
-[main.ts:95810](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L95810)
+main.ts:98187
 
 ___
-
 
 ### position
 
@@ -75,10 +69,9 @@ left, right
 
 #### Defined in
 
-[main.ts:95790](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L95790)
+main.ts:98167
 
 ___
-
 
 ### price
 
@@ -88,10 +81,9 @@ price of the shopping element
 
 #### Defined in
 
-[main.ts:95801](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L95801)
+main.ts:98178
 
 ___
-
 
 ### rank\_absolute
 
@@ -102,10 +94,9 @@ absolute position among all the elements in SERP
 
 #### Defined in
 
-[main.ts:95786](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L95786)
+main.ts:98163
 
 ___
-
 
 ### rank\_group
 
@@ -116,10 +107,9 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-[main.ts:95783](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L95783)
+main.ts:98160
 
 ___
-
 
 ### snippet
 
@@ -129,10 +119,9 @@ text alongside the link title
 
 #### Defined in
 
-[main.ts:95799](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L95799)
+main.ts:98176
 
 ___
-
 
 ### source
 
@@ -143,10 +132,9 @@ indicates the source of information included in the shopping_element
 
 #### Defined in
 
-[main.ts:95797](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L95797)
+main.ts:98174
 
 ___
-
 
 ### table
 
@@ -157,10 +145,9 @@ if there are none, equals null
 
 #### Defined in
 
-[main.ts:95808](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L95808)
+main.ts:98185
 
 ___
-
 
 ### title
 
@@ -170,23 +157,21 @@ title of the result in SERP
 
 #### Defined in
 
-[main.ts:95794](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L95794)
+main.ts:98171
 
 ___
-
 
 ### url
 
 • `Optional` **url**: `string`
 
-URL link
+relevant URL of the Ad element in SERP
 
 #### Defined in
 
-[main.ts:95803](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L95803)
+main.ts:98180
 
 ___
-
 
 ### xpath
 
@@ -196,8 +181,4 @@ the XPath of the element
 
 #### Defined in
 
-[main.ts:95792](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L95792)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:98169

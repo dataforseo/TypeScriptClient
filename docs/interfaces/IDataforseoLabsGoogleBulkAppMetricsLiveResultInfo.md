@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IDataforseoLabsGoogleBulkAppMetricsLiveResultInfo
+[Documentation](../README.md) / [Exports](../modules.md) / IDataforseoLabsGoogleBulkAppMetricsLiveResultInfo
 
 # Interface: IDataforseoLabsGoogleBulkAppMetricsLiveResultInfo
 
@@ -35,10 +31,9 @@ contains data related to the ranking app metrics of the specified application
 
 #### Defined in
 
-[main.ts:108109](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L108109)
+main.ts:110486
 
 ___
-
 
 ### items\_count
 
@@ -48,10 +43,9 @@ the number of results returned in the items array
 
 #### Defined in
 
-[main.ts:108107](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L108107)
+main.ts:110484
 
 ___
-
 
 ### language\_code
 
@@ -61,10 +55,9 @@ language code in a POST array
 
 #### Defined in
 
-[main.ts:108103](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L108103)
+main.ts:110480
 
 ___
-
 
 ### location\_code
 
@@ -74,10 +67,9 @@ location code in a POST array
 
 #### Defined in
 
-[main.ts:108101](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L108101)
+main.ts:110478
 
 ___
-
 
 ### se\_type
 
@@ -87,10 +79,9 @@ search engine type
 
 #### Defined in
 
-[main.ts:108099](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L108099)
+main.ts:110476
 
 ___
-
 
 ### total\_count
 
@@ -100,8 +91,4 @@ total amount of results in our database relevant to your request
 
 #### Defined in
 
-[main.ts:108105](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L108105)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:110482

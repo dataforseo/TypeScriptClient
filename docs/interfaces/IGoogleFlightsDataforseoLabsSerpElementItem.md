@@ -1,15 +1,11 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IGoogleFlightsDataforseoLabsSerpElementItem
+[Documentation](../README.md) / [Exports](../modules.md) / IGoogleFlightsDataforseoLabsSerpElementItem
 
 # Interface: IGoogleFlightsDataforseoLabsSerpElementItem
 
 ## Hierarchy
 
 - [`IBaseDataforseoLabsSerpElementItem`](IBaseDataforseoLabsSerpElementItem.md)
-  
+
   ↳ **`IGoogleFlightsDataforseoLabsSerpElementItem`**
 
 ## Implemented by
@@ -42,10 +38,9 @@ elements of search results found in SERP
 
 #### Defined in
 
-[main.ts:94546](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L94546)
+main.ts:96923
 
 ___
-
 
 ### position
 
@@ -57,10 +52,9 @@ left, right
 
 #### Defined in
 
-[main.ts:94538](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L94538)
+main.ts:96915
 
 ___
-
 
 ### rank\_absolute
 
@@ -71,10 +65,9 @@ absolute position among all the elements in SERP
 
 #### Defined in
 
-[main.ts:94534](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L94534)
+main.ts:96911
 
 ___
-
 
 ### rank\_group
 
@@ -85,10 +78,9 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-[main.ts:94531](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L94531)
+main.ts:96908
 
 ___
-
 
 ### title
 
@@ -98,23 +90,21 @@ title of the result in SERP
 
 #### Defined in
 
-[main.ts:94542](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L94542)
+main.ts:96919
 
 ___
-
 
 ### url
 
 • `Optional` **url**: `string`
 
-URL link
+relevant URL of the Ad element in SERP
 
 #### Defined in
 
-[main.ts:94544](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L94544)
+main.ts:96921
 
 ___
-
 
 ### xpath
 
@@ -124,8 +114,4 @@ the XPath of the element
 
 #### Defined in
 
-[main.ts:94540](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L94540)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:96917

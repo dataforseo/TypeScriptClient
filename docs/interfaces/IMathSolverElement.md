@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IMathSolverElement
+[Documentation](../README.md) / [Exports](../modules.md) / IMathSolverElement
 
 # Interface: IMathSolverElement
 
@@ -32,23 +28,21 @@ expanded element
 
 #### Defined in
 
-[main.ts:34031](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L34031)
+main.ts:34954
 
 ___
-
 
 ### title
 
 • `Optional` **title**: `string`
 
-title of the row
+title of a given link element
 
 #### Defined in
 
-[main.ts:34029](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L34029)
+main.ts:34952
 
 ___
-
 
 ### type
 
@@ -58,8 +52,4 @@ type of element
 
 #### Defined in
 
-[main.ts:34027](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L34027)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:34950

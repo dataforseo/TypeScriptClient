@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / OnPageKeywordDensityResultInfo
+[Documentation](../README.md) / [Exports](../modules.md) / OnPageKeywordDensityResultInfo
 
 # Class: OnPageKeywordDensityResultInfo
 
@@ -52,7 +48,7 @@
 
 #### Defined in
 
-[main.ts:150313](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L150313)
+main.ts:155740
 
 ## Properties
 
@@ -69,10 +65,9 @@ possible values: in_progress, finished
 
 #### Defined in
 
-[main.ts:150300](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L150300)
+main.ts:155727
 
 ___
-
 
 ### crawl\_status
 
@@ -86,10 +81,9 @@ details of the crawling session
 
 #### Defined in
 
-[main.ts:150302](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L150302)
+main.ts:155729
 
 ___
-
 
 ### items
 
@@ -103,10 +97,9 @@ items array
 
 #### Defined in
 
-[main.ts:150309](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L150309)
+main.ts:155736
 
 ___
-
 
 ### items\_count
 
@@ -120,10 +113,9 @@ number of items in the results array
 
 #### Defined in
 
-[main.ts:150307](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L150307)
+main.ts:155734
 
 ___
-
 
 ### total\_items\_count
 
@@ -138,7 +130,7 @@ total number of keywords on the specified website or web page matching the set k
 
 #### Defined in
 
-[main.ts:150305](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L150305)
+main.ts:155732
 
 ## Methods
 
@@ -158,10 +150,9 @@ total number of keywords on the specified website or web page matching the set k
 
 #### Defined in
 
-[main.ts:150322](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L150322)
+main.ts:155749
 
 ___
-
 
 ### toJSON
 
@@ -179,10 +170,9 @@ ___
 
 #### Defined in
 
-[main.ts:150347](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L150347)
+main.ts:155774
 
 ___
-
 
 ### fromJS
 
@@ -200,8 +190,4 @@ ___
 
 #### Defined in
 
-[main.ts:150340](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L150340)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:155767

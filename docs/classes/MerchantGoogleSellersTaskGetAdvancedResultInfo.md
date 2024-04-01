@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / MerchantGoogleSellersTaskGetAdvancedResultInfo
+[Documentation](../README.md) / [Exports](../modules.md) / MerchantGoogleSellersTaskGetAdvancedResultInfo
 
 # Class: MerchantGoogleSellersTaskGetAdvancedResultInfo
 
@@ -24,14 +20,18 @@
 
 - [check\_url](MerchantGoogleSellersTaskGetAdvancedResultInfo.md#check_url)
 - [datetime](MerchantGoogleSellersTaskGetAdvancedResultInfo.md#datetime)
+- [image\_url](MerchantGoogleSellersTaskGetAdvancedResultInfo.md#image_url)
 - [item\_types](MerchantGoogleSellersTaskGetAdvancedResultInfo.md#item_types)
 - [items](MerchantGoogleSellersTaskGetAdvancedResultInfo.md#items)
 - [items\_count](MerchantGoogleSellersTaskGetAdvancedResultInfo.md#items_count)
 - [language\_code](MerchantGoogleSellersTaskGetAdvancedResultInfo.md#language_code)
 - [location\_code](MerchantGoogleSellersTaskGetAdvancedResultInfo.md#location_code)
 - [product\_id](MerchantGoogleSellersTaskGetAdvancedResultInfo.md#product_id)
+- [rating](MerchantGoogleSellersTaskGetAdvancedResultInfo.md#rating)
 - [se\_domain](MerchantGoogleSellersTaskGetAdvancedResultInfo.md#se_domain)
+- [title](MerchantGoogleSellersTaskGetAdvancedResultInfo.md#title)
 - [type](MerchantGoogleSellersTaskGetAdvancedResultInfo.md#type)
+- [url](MerchantGoogleSellersTaskGetAdvancedResultInfo.md#url)
 
 ### Methods
 
@@ -57,7 +57,7 @@
 
 #### Defined in
 
-[main.ts:166823](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L166823)
+main.ts:172259
 
 ## Properties
 
@@ -74,10 +74,9 @@ you can use it to make sure that we provided accurate results
 
 #### Defined in
 
-[main.ts:166805](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L166805)
+main.ts:172232
 
 ___
-
 
 ### datetime
 
@@ -94,10 +93,25 @@ example:
 
 #### Defined in
 
-[main.ts:166810](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L166810)
+main.ts:172237
 
 ___
 
+### image\_url
+
+• `Optional` **image\_url**: `string`
+
+URL to the product image
+
+#### Implementation of
+
+[IMerchantGoogleSellersTaskGetAdvancedResultInfo](../interfaces/IMerchantGoogleSellersTaskGetAdvancedResultInfo.md).[image_url](../interfaces/IMerchantGoogleSellersTaskGetAdvancedResultInfo.md#image_url)
+
+#### Defined in
+
+main.ts:172243
+
+___
 
 ### item\_types
 
@@ -114,10 +128,9 @@ shops_list, buy_on_google
 
 #### Defined in
 
-[main.ts:166815](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L166815)
+main.ts:172251
 
 ___
-
 
 ### items
 
@@ -131,10 +144,9 @@ items in SERP
 
 #### Defined in
 
-[main.ts:166819](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L166819)
+main.ts:172255
 
 ___
-
 
 ### items\_count
 
@@ -148,10 +160,9 @@ the number of results returned in the items array
 
 #### Defined in
 
-[main.ts:166817](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L166817)
+main.ts:172253
 
 ___
-
 
 ### language\_code
 
@@ -165,10 +176,9 @@ language code in a POST array
 
 #### Defined in
 
-[main.ts:166802](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L166802)
+main.ts:172229
 
 ___
-
 
 ### location\_code
 
@@ -182,10 +192,9 @@ location code in a POST array
 
 #### Defined in
 
-[main.ts:166800](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L166800)
+main.ts:172227
 
 ___
-
 
 ### product\_id
 
@@ -200,10 +209,26 @@ learn more about the parameter in this help center guide
 
 #### Defined in
 
-[main.ts:166794](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L166794)
+main.ts:172221
 
 ___
 
+### rating
+
+• `Optional` **rating**: [`RatingElement`](RatingElement.md)
+
+product rating
+the product popularity rate based on product reviews
+
+#### Implementation of
+
+[IMerchantGoogleSellersTaskGetAdvancedResultInfo](../interfaces/IMerchantGoogleSellersTaskGetAdvancedResultInfo.md).[rating](../interfaces/IMerchantGoogleSellersTaskGetAdvancedResultInfo.md#rating)
+
+#### Defined in
+
+main.ts:172246
+
+___
 
 ### se\_domain
 
@@ -217,10 +242,25 @@ search engine domain in a POST array
 
 #### Defined in
 
-[main.ts:166798](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L166798)
+main.ts:172225
 
 ___
 
+### title
+
+• `Optional` **title**: `string`
+
+title of the product
+
+#### Implementation of
+
+[IMerchantGoogleSellersTaskGetAdvancedResultInfo](../interfaces/IMerchantGoogleSellersTaskGetAdvancedResultInfo.md).[title](../interfaces/IMerchantGoogleSellersTaskGetAdvancedResultInfo.md#title)
+
+#### Defined in
+
+main.ts:172239
+
+___
 
 ### type
 
@@ -234,7 +274,23 @@ type of element
 
 #### Defined in
 
-[main.ts:166796](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L166796)
+main.ts:172223
+
+___
+
+### url
+
+• `Optional` **url**: `string`
+
+URL to the product page
+
+#### Implementation of
+
+[IMerchantGoogleSellersTaskGetAdvancedResultInfo](../interfaces/IMerchantGoogleSellersTaskGetAdvancedResultInfo.md).[url](../interfaces/IMerchantGoogleSellersTaskGetAdvancedResultInfo.md#url)
+
+#### Defined in
+
+main.ts:172241
 
 ## Methods
 
@@ -254,10 +310,9 @@ type of element
 
 #### Defined in
 
-[main.ts:166832](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L166832)
+main.ts:172268
 
 ___
-
 
 ### toJSON
 
@@ -275,10 +330,9 @@ ___
 
 #### Defined in
 
-[main.ts:166866](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L166866)
+main.ts:172306
 
 ___
-
 
 ### fromJS
 
@@ -296,8 +350,4 @@ ___
 
 #### Defined in
 
-[main.ts:166859](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L166859)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:172299

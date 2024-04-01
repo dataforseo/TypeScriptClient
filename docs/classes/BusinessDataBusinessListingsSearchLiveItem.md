@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / BusinessDataBusinessListingsSearchLiveItem
+[Documentation](../README.md) / [Exports](../modules.md) / BusinessDataBusinessListingsSearchLiveItem
 
 # Class: BusinessDataBusinessListingsSearchLiveItem
 
@@ -79,7 +75,7 @@
 
 #### Defined in
 
-[main.ts:189097](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L189097)
+main.ts:194550
 
 ## Properties
 
@@ -96,10 +92,9 @@ additional Google My Business categories that describe the services provided by 
 
 #### Defined in
 
-[main.ts:189015](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L189015)
+main.ts:194468
 
 ___
-
 
 ### address
 
@@ -113,10 +108,9 @@ address of the business entity
 
 #### Defined in
 
-[main.ts:189024](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L189024)
+main.ts:194477
 
 ___
-
 
 ### address\_info
 
@@ -130,10 +124,9 @@ object containing address components of the business entity
 
 #### Defined in
 
-[main.ts:189026](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L189026)
+main.ts:194479
 
 ___
-
 
 ### attributes
 
@@ -148,10 +141,9 @@ service details of a business entity displayed in a form of checks and based on 
 
 #### Defined in
 
-[main.ts:189057](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L189057)
+main.ts:194510
 
 ___
-
 
 ### category
 
@@ -166,10 +158,9 @@ Google My Business general category that best describes the services provided by
 
 #### Defined in
 
-[main.ts:189009](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L189009)
+main.ts:194462
 
 ___
-
 
 ### category\_ids
 
@@ -184,10 +175,9 @@ universal category IDs that do not change based on the selected country
 
 #### Defined in
 
-[main.ts:189012](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L189012)
+main.ts:194465
 
 ___
-
 
 ### check\_url
 
@@ -202,10 +192,9 @@ you can use it to make sure that we provided accurate results
 
 #### Defined in
 
-[main.ts:189088](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L189088)
+main.ts:194541
 
 ___
-
 
 ### cid
 
@@ -221,10 +210,9 @@ learn more about the identifier in this help center article
 
 #### Defined in
 
-[main.ts:189019](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L189019)
+main.ts:194472
 
 ___
-
 
 ### contact\_info
 
@@ -239,10 +227,9 @@ list of contacts to interact with the business
 
 #### Defined in
 
-[main.ts:189085](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L189085)
+main.ts:194538
 
 ___
-
 
 ### description
 
@@ -257,10 +244,9 @@ the description of the business entity for which the results are collected
 
 #### Defined in
 
-[main.ts:189006](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L189006)
+main.ts:194459
 
 ___
-
 
 ### domain
 
@@ -274,10 +260,9 @@ domain of the business entity
 
 #### Defined in
 
-[main.ts:189036](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L189036)
+main.ts:194489
 
 ___
-
 
 ### feature\_id
 
@@ -292,10 +277,9 @@ learn more about the identifier in this help center article
 
 #### Defined in
 
-[main.ts:189022](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L189022)
+main.ts:194475
 
 ___
-
 
 ### is\_claimed
 
@@ -309,10 +293,9 @@ shows whether the entity is verified by its owner on Google Maps
 
 #### Defined in
 
-[main.ts:189054](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L189054)
+main.ts:194507
 
 ___
-
 
 ### last\_updated\_time
 
@@ -329,10 +312,9 @@ example:
 
 #### Defined in
 
-[main.ts:189093](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L189093)
+main.ts:194546
 
 ___
-
 
 ### latitude
 
@@ -348,10 +330,9 @@ example:
 
 #### Defined in
 
-[main.ts:189048](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L189048)
+main.ts:194501
 
 ___
-
 
 ### local\_business\_links
 
@@ -366,10 +347,9 @@ list of options to interact with the business directly from search results
 
 #### Defined in
 
-[main.ts:189082](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L189082)
+main.ts:194535
 
 ___
-
 
 ### logo
 
@@ -383,10 +363,9 @@ URL of the logo featured in Google My Business profile
 
 #### Defined in
 
-[main.ts:189038](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L189038)
+main.ts:194491
 
 ___
-
 
 ### longitude
 
@@ -402,10 +381,9 @@ example:
 
 #### Defined in
 
-[main.ts:189052](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L189052)
+main.ts:194505
 
 ___
-
 
 ### main\_image
 
@@ -419,10 +397,9 @@ URL of the main image featured in Google My Business profile
 
 #### Defined in
 
-[main.ts:189040](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L189040)
+main.ts:194493
 
 ___
-
 
 ### people\_also\_search
 
@@ -436,10 +413,9 @@ related business entities
 
 #### Defined in
 
-[main.ts:189073](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L189073)
+main.ts:194526
 
 ___
-
 
 ### phone
 
@@ -453,10 +429,9 @@ phone number of the business entity
 
 #### Defined in
 
-[main.ts:189032](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L189032)
+main.ts:194485
 
 ___
-
 
 ### place\_id
 
@@ -472,10 +447,9 @@ learn more about the identifier in this help center article
 
 #### Defined in
 
-[main.ts:189030](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L189030)
+main.ts:194483
 
 ___
-
 
 ### place\_topics
 
@@ -483,7 +457,7 @@ ___
 
 keywords mentioned in customer reviews
 contains most popular keywords related to products/services mentioned in customer reviews of a business entity and the number of reviews mentioning each keyword
-example:
+example: 
 "place_topics": {
 "egg roll": 48,
 "birthday": 33
@@ -499,10 +473,9 @@ example:
 
 #### Defined in
 
-[main.ts:189065](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L189065)
+main.ts:194518
 
 ___
-
 
 ### popular\_times
 
@@ -517,16 +490,15 @@ information related to busy hours of the business entity
 
 #### Defined in
 
-[main.ts:189079](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L189079)
+main.ts:194532
 
 ___
-
 
 ### rating
 
 • `Optional` **rating**: [`RatingInfo`](RatingInfo.md)
 
-the element’s rating
+the element’s rating 
 the popularity rate based on reviews and displayed in SERP
 
 #### Implementation of
@@ -535,10 +507,9 @@ the popularity rate based on reviews and displayed in SERP
 
 #### Defined in
 
-[main.ts:189068](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L189068)
+main.ts:194521
 
 ___
-
 
 ### rating\_distribution
 
@@ -557,10 +528,9 @@ the object displays the number of 1-star to 5-star ratings, as reviewed by users
 
 #### Defined in
 
-[main.ts:189071](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L189071)
+main.ts:194524
 
 ___
-
 
 ### snippet
 
@@ -574,10 +544,9 @@ additional information on the business entity
 
 #### Defined in
 
-[main.ts:189044](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L189044)
+main.ts:194497
 
 ___
-
 
 ### title
 
@@ -592,10 +561,9 @@ the name of the business entity for which the results are collected
 
 #### Defined in
 
-[main.ts:189003](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L189003)
+main.ts:194456
 
 ___
-
 
 ### total\_photos
 
@@ -609,10 +577,9 @@ total count of images featured in Google My Business profile
 
 #### Defined in
 
-[main.ts:189042](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L189042)
+main.ts:194495
 
 ___
-
 
 ### type
 
@@ -626,10 +593,9 @@ type of element
 
 #### Defined in
 
-[main.ts:189000](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L189000)
+main.ts:194453
 
 ___
-
 
 ### url
 
@@ -643,10 +609,9 @@ absolute url of the business entity
 
 #### Defined in
 
-[main.ts:189034](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L189034)
+main.ts:194487
 
 ___
-
 
 ### work\_time
 
@@ -661,7 +626,7 @@ information related to operational hours of the business entity
 
 #### Defined in
 
-[main.ts:189076](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L189076)
+main.ts:194529
 
 ## Methods
 
@@ -681,10 +646,9 @@ information related to operational hours of the business entity
 
 #### Defined in
 
-[main.ts:189106](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L189106)
+main.ts:194559
 
 ___
-
 
 ### toJSON
 
@@ -702,10 +666,9 @@ ___
 
 #### Defined in
 
-[main.ts:189186](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L189186)
+main.ts:194639
 
 ___
-
 
 ### fromJS
 
@@ -723,8 +686,4 @@ ___
 
 #### Defined in
 
-[main.ts:189179](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L189179)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:194632

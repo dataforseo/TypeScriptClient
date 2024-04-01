@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / BusinessDataBusinessListingsAvailableFiltersResultInfo
+[Documentation](../README.md) / [Exports](../modules.md) / BusinessDataBusinessListingsAvailableFiltersResultInfo
 
 # Class: BusinessDataBusinessListingsAvailableFiltersResultInfo
 
@@ -49,7 +45,7 @@
 
 #### Defined in
 
-[main.ts:188176](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L188176)
+main.ts:193629
 
 ## Properties
 
@@ -67,10 +63,9 @@
 
 #### Defined in
 
-[main.ts:188172](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L188172)
+main.ts:193625
 
 ___
-
 
 ### search
 
@@ -86,7 +81,7 @@ ___
 
 #### Defined in
 
-[main.ts:188171](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L188171)
+main.ts:193624
 
 ## Methods
 
@@ -106,10 +101,9 @@ ___
 
 #### Defined in
 
-[main.ts:188185](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L188185)
+main.ts:193638
 
 ___
-
 
 ### toJSON
 
@@ -127,10 +121,9 @@ ___
 
 #### Defined in
 
-[main.ts:188215](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L188215)
+main.ts:193668
 
 ___
-
 
 ### fromJS
 
@@ -148,8 +141,4 @@ ___
 
 #### Defined in
 
-[main.ts:188208](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L188208)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:193661

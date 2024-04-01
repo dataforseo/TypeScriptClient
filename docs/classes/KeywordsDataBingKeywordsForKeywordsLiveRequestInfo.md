@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / KeywordsDataBingKeywordsForKeywordsLiveRequestInfo
+[Documentation](../README.md) / [Exports](../modules.md) / KeywordsDataBingKeywordsForKeywordsLiveRequestInfo
 
 # Class: KeywordsDataBingKeywordsForKeywordsLiveRequestInfo
 
@@ -60,7 +56,7 @@
 
 #### Defined in
 
-[main.ts:125906](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L125906)
+main.ts:131273
 
 ## Properties
 
@@ -82,10 +78,9 @@ example:
 
 #### Defined in
 
-[main.ts:125881](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L125881)
+main.ts:131248
 
 ___
-
 
 ### date\_to
 
@@ -107,10 +102,9 @@ example:
 
 #### Defined in
 
-[main.ts:125891](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L125891)
+main.ts:131258
 
 ___
-
 
 ### device
 
@@ -128,10 +122,9 @@ default value: all
 
 #### Defined in
 
-[main.ts:125873](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L125873)
+main.ts:131240
 
 ___
-
 
 ### keywords
 
@@ -148,10 +141,9 @@ the specified keywords will be converted to lowercase, data will be provided in 
 
 #### Defined in
 
-[main.ts:125822](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L125822)
+main.ts:131189
 
 ___
-
 
 ### keywords\_negative
 
@@ -169,10 +161,9 @@ the specified keywords will be converted to lowercase format
 
 #### Defined in
 
-[main.ts:125867](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L125867)
+main.ts:131234
 
 ___
-
 
 ### language\_code
 
@@ -190,10 +181,9 @@ en, fr, de
 
 #### Defined in
 
-[main.ts:125856](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L125856)
+main.ts:131223
 
 ___
-
 
 ### language\_name
 
@@ -211,10 +201,9 @@ English, French, German
 
 #### Defined in
 
-[main.ts:125850](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L125850)
+main.ts:131217
 
 ___
-
 
 ### location\_code
 
@@ -233,10 +222,9 @@ example:
 
 #### Defined in
 
-[main.ts:125836](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L125836)
+main.ts:131203
 
 ___
-
 
 ### location\_coordinate
 
@@ -256,10 +244,9 @@ example:
 
 #### Defined in
 
-[main.ts:125844](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L125844)
+main.ts:131211
 
 ___
-
 
 ### location\_name
 
@@ -278,10 +265,9 @@ London,England,United Kingdom
 
 #### Defined in
 
-[main.ts:125829](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L125829)
+main.ts:131196
 
 ___
-
 
 ### search\_partners
 
@@ -298,10 +284,9 @@ default value: false – results are returned for Bing, AOL, and Yahoo search ne
 
 #### Defined in
 
-[main.ts:125896](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L125896)
+main.ts:131263
 
 ___
-
 
 ### sort\_by
 
@@ -318,10 +303,9 @@ default value: relevance
 
 #### Defined in
 
-[main.ts:125861](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L125861)
+main.ts:131228
 
 ___
-
 
 ### tag
 
@@ -339,7 +323,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-[main.ts:125902](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L125902)
+main.ts:131269
 
 ## Methods
 
@@ -359,10 +343,9 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-[main.ts:125915](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L125915)
+main.ts:131282
 
 ___
-
 
 ### toJSON
 
@@ -380,10 +363,9 @@ ___
 
 #### Defined in
 
-[main.ts:125952](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L125952)
+main.ts:131319
 
 ___
-
 
 ### fromJS
 
@@ -401,8 +383,4 @@ ___
 
 #### Defined in
 
-[main.ts:125945](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L125945)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:131312

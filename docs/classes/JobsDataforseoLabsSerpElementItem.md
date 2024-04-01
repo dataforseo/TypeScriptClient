@@ -1,15 +1,11 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / JobsDataforseoLabsSerpElementItem
+[Documentation](../README.md) / [Exports](../modules.md) / JobsDataforseoLabsSerpElementItem
 
 # Class: JobsDataforseoLabsSerpElementItem
 
 ## Hierarchy
 
 - [`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md)
-  
+
   ↳ **`JobsDataforseoLabsSerpElementItem`**
 
 ## Implements
@@ -65,7 +61,7 @@
 
 #### Defined in
 
-[main.ts:94783](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L94783)
+main.ts:97160
 
 ## Properties
 
@@ -79,10 +75,9 @@
 
 #### Defined in
 
-[main.ts:19715](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L19715)
+main.ts:20171
 
 ___
-
 
 ### items
 
@@ -96,10 +91,9 @@ elements of search results found in SERP
 
 #### Defined in
 
-[main.ts:94779](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L94779)
+main.ts:97156
 
 ___
-
 
 ### position
 
@@ -115,10 +109,9 @@ left, right
 
 #### Defined in
 
-[main.ts:94771](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L94771)
+main.ts:97148
 
 ___
-
 
 ### rank\_absolute
 
@@ -133,10 +126,9 @@ absolute position among all the elements in SERP
 
 #### Defined in
 
-[main.ts:94767](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L94767)
+main.ts:97144
 
 ___
-
 
 ### rank\_group
 
@@ -151,10 +143,9 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-[main.ts:94764](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L94764)
+main.ts:97141
 
 ___
-
 
 ### title
 
@@ -168,16 +159,15 @@ title of the result in SERP
 
 #### Defined in
 
-[main.ts:94775](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L94775)
+main.ts:97152
 
 ___
-
 
 ### url
 
 • `Optional` **url**: `string`
 
-URL link
+relevant URL of the Ad element in SERP
 
 #### Implementation of
 
@@ -185,10 +175,9 @@ URL link
 
 #### Defined in
 
-[main.ts:94777](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L94777)
+main.ts:97154
 
 ___
-
 
 ### xpath
 
@@ -202,7 +191,7 @@ the XPath of the element
 
 #### Defined in
 
-[main.ts:94773](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L94773)
+main.ts:97150
 
 ## Methods
 
@@ -226,10 +215,9 @@ the XPath of the element
 
 #### Defined in
 
-[main.ts:94788](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L94788)
+main.ts:97165
 
 ___
-
 
 ### toJSON
 
@@ -251,10 +239,9 @@ ___
 
 #### Defined in
 
-[main.ts:94816](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L94816)
+main.ts:97193
 
 ___
-
 
 ### fromJS
 
@@ -276,8 +263,4 @@ ___
 
 #### Defined in
 
-[main.ts:94809](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L94809)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:97186

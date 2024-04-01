@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IProductSeller
+[Documentation](../README.md) / [Exports](../modules.md) / IProductSeller
 
 # Interface: IProductSeller
 
@@ -37,10 +33,9 @@ product delivery information
 
 #### Defined in
 
-[main.ts:169066](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L169066)
+main.ts:174519
 
 ___
-
 
 ### price
 
@@ -51,10 +46,9 @@ product price details on the seller’s website
 
 #### Defined in
 
-[main.ts:169063](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L169063)
+main.ts:174516
 
 ___
-
 
 ### seller\_rating
 
@@ -64,10 +58,9 @@ rating of the seller
 
 #### Defined in
 
-[main.ts:169057](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L169057)
+main.ts:174510
 
 ___
-
 
 ### seller\_review\_count
 
@@ -78,10 +71,9 @@ number of reviews on the product seller’s account
 
 #### Defined in
 
-[main.ts:169060](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L169060)
+main.ts:174513
 
 ___
-
 
 ### title
 
@@ -91,10 +83,9 @@ product title
 
 #### Defined in
 
-[main.ts:169052](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L169052)
+main.ts:174505
 
 ___
-
 
 ### type
 
@@ -104,10 +95,9 @@ type of element
 
 #### Defined in
 
-[main.ts:169050](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L169050)
+main.ts:174503
 
 ___
-
 
 ### url
 
@@ -118,8 +108,4 @@ url of the page where the product is sold
 
 #### Defined in
 
-[main.ts:169055](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L169055)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:174508

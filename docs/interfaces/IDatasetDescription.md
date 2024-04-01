@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IDatasetDescription
+[Documentation](../README.md) / [Exports](../modules.md) / IDatasetDescription
 
 # Interface: IDatasetDescription
 
@@ -31,10 +27,9 @@ links featured in the ‘dataset_description’
 
 #### Defined in
 
-[main.ts:50829](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L50829)
+main.ts:53204
 
 ___
-
 
 ### text
 
@@ -44,8 +39,4 @@ text of the description
 
 #### Defined in
 
-[main.ts:50827](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L50827)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:53202

@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IBacklinksDomainPagesLiveItem
+[Documentation](../README.md) / [Exports](../modules.md) / IBacklinksDomainPagesLiveItem
 
 # Interface: IBacklinksDomainPagesLiveItem
 
@@ -47,10 +43,9 @@ type of encoding
 
 #### Defined in
 
-[main.ts:133408](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L133408)
+main.ts:138805
 
 ___
-
 
 ### domain
 
@@ -61,10 +56,9 @@ domain where the page was found
 
 #### Defined in
 
-[main.ts:133372](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L133372)
+main.ts:138769
 
 ___
-
 
 ### encoded\_size
 
@@ -75,10 +69,9 @@ indicates the size of the encoded page, in bytes
 
 #### Defined in
 
-[main.ts:133406](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L133406)
+main.ts:138803
 
 ___
-
 
 ### fetch\_time
 
@@ -91,10 +84,9 @@ example:
 
 #### Defined in
 
-[main.ts:133396](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L133396)
+main.ts:138793
 
 ___
-
 
 ### first\_visited
 
@@ -108,10 +100,9 @@ example:
 
 #### Defined in
 
-[main.ts:133386](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L133386)
+main.ts:138783
 
 ___
-
 
 ### ip
 
@@ -121,10 +112,9 @@ Internet Protocol address
 
 #### Defined in
 
-[main.ts:133380](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L133380)
+main.ts:138777
 
 ___
-
 
 ### location
 
@@ -135,10 +125,9 @@ indicates the URL to redirect a page to if exists
 
 #### Defined in
 
-[main.ts:133401](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L133401)
+main.ts:138798
 
 ___
-
 
 ### main\_domain
 
@@ -149,10 +138,9 @@ main website domain does not include subdomains
 
 #### Defined in
 
-[main.ts:133369](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L133369)
+main.ts:138766
 
 ___
-
 
 ### media\_type
 
@@ -162,10 +150,9 @@ types of media used to display a page
 
 #### Defined in
 
-[main.ts:133410](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L133410)
+main.ts:138807
 
 ___
-
 
 ### meta
 
@@ -175,10 +162,9 @@ page meta data
 
 #### Defined in
 
-[main.ts:133414](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L133414)
+main.ts:138811
 
 ___
-
 
 ### page
 
@@ -189,10 +175,9 @@ relevant page URL
 
 #### Defined in
 
-[main.ts:133378](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L133378)
+main.ts:138775
 
 ___
-
 
 ### page\_summary
 
@@ -202,10 +187,9 @@ contains backlink data for this page
 
 #### Defined in
 
-[main.ts:133416](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L133416)
+main.ts:138813
 
 ___
-
 
 ### prev\_visited
 
@@ -218,10 +202,9 @@ example:
 
 #### Defined in
 
-[main.ts:133391](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L133391)
+main.ts:138788
 
 ___
-
 
 ### server
 
@@ -231,10 +214,9 @@ server version
 
 #### Defined in
 
-[main.ts:133412](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L133412)
+main.ts:138809
 
 ___
-
 
 ### size
 
@@ -244,10 +226,9 @@ indicates the page size, in bytes
 
 #### Defined in
 
-[main.ts:133403](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L133403)
+main.ts:138800
 
 ___
-
 
 ### status\_code
 
@@ -257,10 +238,9 @@ HTTP status code of the page
 
 #### Defined in
 
-[main.ts:133398](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L133398)
+main.ts:138795
 
 ___
-
 
 ### tld
 
@@ -271,10 +251,9 @@ top-level domain in the DNS root zone
 
 #### Defined in
 
-[main.ts:133375](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L133375)
+main.ts:138772
 
 ___
-
 
 ### type
 
@@ -284,8 +263,4 @@ type of element
 
 #### Defined in
 
-[main.ts:133366](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L133366)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:138763

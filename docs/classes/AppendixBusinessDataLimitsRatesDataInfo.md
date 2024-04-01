@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / AppendixBusinessDataLimitsRatesDataInfo
+[Documentation](../README.md) / [Exports](../modules.md) / AppendixBusinessDataLimitsRatesDataInfo
 
 # Class: AppendixBusinessDataLimitsRatesDataInfo
 
@@ -56,7 +52,7 @@
 
 #### Defined in
 
-[main.ts:208045](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L208045)
+main.ts:213570
 
 ## Properties
 
@@ -70,10 +66,9 @@
 
 #### Defined in
 
-[main.ts:208041](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L208041)
+main.ts:213566
 
 ___
-
 
 ### errors
 
@@ -85,10 +80,9 @@ ___
 
 #### Defined in
 
-[main.ts:208036](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L208036)
+main.ts:213561
 
 ___
-
 
 ### google
 
@@ -100,10 +94,9 @@ ___
 
 #### Defined in
 
-[main.ts:208033](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L208033)
+main.ts:213558
 
 ___
-
 
 ### languages
 
@@ -115,10 +108,9 @@ ___
 
 #### Defined in
 
-[main.ts:208035](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L208035)
+main.ts:213560
 
 ___
-
 
 ### locations
 
@@ -130,10 +122,9 @@ ___
 
 #### Defined in
 
-[main.ts:208034](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L208034)
+main.ts:213559
 
 ___
-
 
 ### social\_media
 
@@ -145,10 +136,9 @@ ___
 
 #### Defined in
 
-[main.ts:208038](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L208038)
+main.ts:213563
 
 ___
-
 
 ### tripadvisor
 
@@ -160,10 +150,9 @@ ___
 
 #### Defined in
 
-[main.ts:208039](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L208039)
+main.ts:213564
 
 ___
-
 
 ### trustpilot
 
@@ -175,10 +164,9 @@ ___
 
 #### Defined in
 
-[main.ts:208040](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L208040)
+main.ts:213565
 
 ___
-
 
 ### yelp
 
@@ -190,7 +178,7 @@ ___
 
 #### Defined in
 
-[main.ts:208037](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L208037)
+main.ts:213562
 
 ## Methods
 
@@ -210,10 +198,9 @@ ___
 
 #### Defined in
 
-[main.ts:208054](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L208054)
+main.ts:213579
 
 ___
-
 
 ### toJSON
 
@@ -231,10 +218,9 @@ ___
 
 #### Defined in
 
-[main.ts:208079](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L208079)
+main.ts:213604
 
 ___
-
 
 ### fromJS
 
@@ -252,8 +238,4 @@ ___
 
 #### Defined in
 
-[main.ts:208072](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L208072)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:213597

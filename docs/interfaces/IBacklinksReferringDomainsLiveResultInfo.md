@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IBacklinksReferringDomainsLiveResultInfo
+[Documentation](../README.md) / [Exports](../modules.md) / IBacklinksReferringDomainsLiveResultInfo
 
 # Interface: IBacklinksReferringDomainsLiveResultInfo
 
@@ -33,10 +29,9 @@ items array
 
 #### Defined in
 
-[main.ts:135036](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L135036)
+main.ts:140445
 
 ___
-
 
 ### items\_count
 
@@ -46,10 +41,9 @@ number of items in the items array
 
 #### Defined in
 
-[main.ts:135034](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L135034)
+main.ts:140443
 
 ___
-
 
 ### target
 
@@ -59,10 +53,9 @@ target in a POST array
 
 #### Defined in
 
-[main.ts:135028](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L135028)
+main.ts:140437
 
 ___
-
 
 ### total\_count
 
@@ -74,8 +67,4 @@ example.com and blog.example.com are counted as one referring domain
 
 #### Defined in
 
-[main.ts:135032](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L135032)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:140441

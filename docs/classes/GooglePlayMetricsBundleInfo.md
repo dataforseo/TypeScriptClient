@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / GooglePlayMetricsBundleInfo
+[Documentation](../README.md) / [Exports](../modules.md) / GooglePlayMetricsBundleInfo
 
 # Class: GooglePlayMetricsBundleInfo
 
@@ -48,7 +44,7 @@
 
 #### Defined in
 
-[main.ts:109240](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L109240)
+main.ts:111617
 
 ## Properties
 
@@ -64,7 +60,7 @@ ranking data from Google Play organic search
 
 #### Defined in
 
-[main.ts:109236](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L109236)
+main.ts:111613
 
 ## Methods
 
@@ -84,10 +80,9 @@ ranking data from Google Play organic search
 
 #### Defined in
 
-[main.ts:109249](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L109249)
+main.ts:111626
 
 ___
-
 
 ### toJSON
 
@@ -105,10 +100,9 @@ ___
 
 #### Defined in
 
-[main.ts:109266](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L109266)
+main.ts:111643
 
 ___
-
 
 ### fromJS
 
@@ -126,8 +120,4 @@ ___
 
 #### Defined in
 
-[main.ts:109259](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L109259)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:111636

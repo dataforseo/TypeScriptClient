@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / OnPageMicrodataItem
+[Documentation](../README.md) / [Exports](../modules.md) / OnPageMicrodataItem
 
 # Class: OnPageMicrodataItem
 
@@ -49,7 +45,7 @@
 
 #### Defined in
 
-[main.ts:150891](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L150891)
+main.ts:156318
 
 ## Properties
 
@@ -65,10 +61,9 @@ information related to microdata validation
 
 #### Defined in
 
-[main.ts:150887](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L150887)
+main.ts:156314
 
 ___
-
 
 ### type
 
@@ -82,7 +77,7 @@ type of element
 
 #### Defined in
 
-[main.ts:150885](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L150885)
+main.ts:156312
 
 ## Methods
 
@@ -102,10 +97,9 @@ type of element
 
 #### Defined in
 
-[main.ts:150900](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L150900)
+main.ts:156327
 
 ___
-
 
 ### toJSON
 
@@ -123,10 +117,9 @@ ___
 
 #### Defined in
 
-[main.ts:150918](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L150918)
+main.ts:156345
 
 ___
-
 
 ### fromJS
 
@@ -144,8 +137,4 @@ ___
 
 #### Defined in
 
-[main.ts:150911](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L150911)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:156338

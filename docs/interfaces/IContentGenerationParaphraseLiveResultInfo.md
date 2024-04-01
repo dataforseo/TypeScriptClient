@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IContentGenerationParaphraseLiveResultInfo
+[Documentation](../README.md) / [Exports](../modules.md) / IContentGenerationParaphraseLiveResultInfo
 
 # Interface: IContentGenerationParaphraseLiveResultInfo
 
@@ -33,10 +29,9 @@ paraphrased version of the given text
 
 #### Defined in
 
-[main.ts:161262](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L161262)
+main.ts:166689
 
 ___
-
 
 ### input\_tokens
 
@@ -46,10 +41,9 @@ number of input tokens in the POST request
 
 #### Defined in
 
-[main.ts:161256](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L161256)
+main.ts:166683
 
 ___
-
 
 ### new\_tokens
 
@@ -59,10 +53,9 @@ number of new tokens in the response
 
 #### Defined in
 
-[main.ts:161260](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L161260)
+main.ts:166687
 
 ___
-
 
 ### output\_tokens
 
@@ -72,8 +65,4 @@ number of output tokens in the response
 
 #### Defined in
 
-[main.ts:161258](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L161258)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:166685

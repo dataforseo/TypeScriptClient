@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / MicrodataFieldsInfo
+[Documentation](../README.md) / [Exports](../modules.md) / MicrodataFieldsInfo
 
 # Class: MicrodataFieldsInfo
 
@@ -52,7 +48,7 @@
 
 #### Defined in
 
-[main.ts:150726](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L150726)
+main.ts:156153
 
 ## Properties
 
@@ -69,10 +65,9 @@ an array of objects containing data fields related to the certain microdata type
 
 #### Defined in
 
-[main.ts:150722](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L150722)
+main.ts:156149
 
 ___
-
 
 ### name
 
@@ -87,10 +82,9 @@ name of the data field
 
 #### Defined in
 
-[main.ts:150710](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L150710)
+main.ts:156137
 
 ___
-
 
 ### test\_results
 
@@ -105,10 +99,9 @@ sub-type microdata test results that contain detected errors and related message
 
 #### Defined in
 
-[main.ts:150719](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L150719)
+main.ts:156146
 
 ___
-
 
 ### types
 
@@ -123,10 +116,9 @@ for a full list of available types, please visit schema.org
 
 #### Defined in
 
-[main.ts:150713](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L150713)
+main.ts:156140
 
 ___
-
 
 ### value
 
@@ -141,7 +133,7 @@ microdata value specified on a target web page
 
 #### Defined in
 
-[main.ts:150716](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L150716)
+main.ts:156143
 
 ## Methods
 
@@ -161,10 +153,9 @@ microdata value specified on a target web page
 
 #### Defined in
 
-[main.ts:150735](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L150735)
+main.ts:156162
 
 ___
-
 
 ### toJSON
 
@@ -182,10 +173,9 @@ ___
 
 #### Defined in
 
-[main.ts:150764](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L150764)
+main.ts:156191
 
 ___
-
 
 ### fromJS
 
@@ -203,8 +193,4 @@ ___
 
 #### Defined in
 
-[main.ts:150757](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L150757)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:156184

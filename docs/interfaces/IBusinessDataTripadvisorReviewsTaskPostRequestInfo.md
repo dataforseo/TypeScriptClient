@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IBusinessDataTripadvisorReviewsTaskPostRequestInfo
+[Documentation](../README.md) / [Exports](../modules.md) / IBusinessDataTripadvisorReviewsTaskPostRequestInfo
 
 # Interface: IBusinessDataTripadvisorReviewsTaskPostRequestInfo
 
@@ -49,10 +45,9 @@ default value: 10
 
 #### Defined in
 
-[main.ts:201984](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L201984)
+main.ts:207445
 
 ___
-
 
 ### keyword
 
@@ -67,10 +62,9 @@ if you need to use the “%” symbol for your keyword, please specify it as “
 
 #### Defined in
 
-[main.ts:201940](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L201940)
+main.ts:207401
 
 ___
-
 
 ### language\_code
 
@@ -87,10 +81,9 @@ The cost can be calculated on the Pricing page.
 
 #### Defined in
 
-[main.ts:201978](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L201978)
+main.ts:207439
 
 ___
-
 
 ### language\_name
 
@@ -107,10 +100,9 @@ The cost can be calculated on the Pricing page.
 
 #### Defined in
 
-[main.ts:201969](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L201969)
+main.ts:207430
 
 ___
-
 
 ### location\_code
 
@@ -124,10 +116,9 @@ example:
 
 #### Defined in
 
-[main.ts:201952](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L201952)
+main.ts:207413
 
 ___
-
 
 ### location\_name
 
@@ -141,10 +132,9 @@ London,England,United Kingdom
 
 #### Defined in
 
-[main.ts:201946](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L201946)
+main.ts:207407
 
 ___
-
 
 ### months
 
@@ -157,10 +147,9 @@ you can specify several values at once
 
 #### Defined in
 
-[main.ts:202000](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L202000)
+main.ts:207461
 
 ___
-
 
 ### pingback\_url
 
@@ -178,10 +167,9 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-[main.ts:202037](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L202037)
+main.ts:207498
 
 ___
-
 
 ### postback\_url
 
@@ -199,10 +187,9 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-[main.ts:202027](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L202027)
+main.ts:207488
 
 ___
-
 
 ### priority
 
@@ -218,10 +205,9 @@ The cost can be calculated on the Pricing page.
 
 #### Defined in
 
-[main.ts:201960](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L201960)
+main.ts:207421
 
 ___
-
 
 ### ratings
 
@@ -235,10 +221,9 @@ you can specify several values at once
 
 #### Defined in
 
-[main.ts:201990](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L201990)
+main.ts:207451
 
 ___
-
 
 ### search\_reviews\_keyword
 
@@ -250,10 +235,9 @@ dessert
 
 #### Defined in
 
-[main.ts:202004](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L202004)
+main.ts:207465
 
 ___
-
 
 ### sort\_by
 
@@ -268,10 +252,9 @@ detailed_reviews
 
 #### Defined in
 
-[main.ts:202011](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L202011)
+main.ts:207472
 
 ___
-
 
 ### tag
 
@@ -285,10 +268,9 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-[main.ts:202017](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L202017)
+main.ts:207478
 
 ___
-
 
 ### url\_path
 
@@ -304,10 +286,9 @@ https://www.tripadvisor.com/Hotel_Review-g60763-d23462501-Reviews-Margaritaville
 
 #### Defined in
 
-[main.ts:201933](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L201933)
+main.ts:207394
 
 ___
-
 
 ### visit\_type
 
@@ -320,8 +301,4 @@ you can specify several values at once
 
 #### Defined in
 
-[main.ts:201995](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L201995)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:207456

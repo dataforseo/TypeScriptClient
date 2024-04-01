@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IAmazonDeliveryInfo
+[Documentation](../README.md) / [Exports](../modules.md) / IAmazonDeliveryInfo
 
 # Interface: IAmazonDeliveryInfo
 
@@ -35,10 +31,9 @@ the earliest date when the product can be shipped
 
 #### Defined in
 
-[main.ts:21210](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L21210)
+main.ts:21729
 
 ___
-
 
 ### delivery\_date\_to
 
@@ -48,10 +43,9 @@ the latest date when the product can be delivered
 
 #### Defined in
 
-[main.ts:21212](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L21212)
+main.ts:21731
 
 ___
-
 
 ### delivery\_message
 
@@ -61,10 +55,9 @@ message accompanying the delivery information as posted by the seller
 
 #### Defined in
 
-[main.ts:21208](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L21208)
+main.ts:21727
 
 ___
-
 
 ### delivery\_price
 
@@ -76,10 +69,9 @@ if free delivery is available, the value is null
 
 #### Defined in
 
-[main.ts:21220](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L21220)
+main.ts:21739
 
 ___
-
 
 ### fastest\_delivery\_date\_from
 
@@ -89,10 +81,9 @@ the earliest date when the product can be delivered with a fast delivery option
 
 #### Defined in
 
-[main.ts:21214](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L21214)
+main.ts:21733
 
 ___
-
 
 ### fastest\_delivery\_date\_to
 
@@ -102,8 +93,4 @@ the latest date when the product can be delivered with a fast delivery option
 
 #### Defined in
 
-[main.ts:21216](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L21216)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:21735

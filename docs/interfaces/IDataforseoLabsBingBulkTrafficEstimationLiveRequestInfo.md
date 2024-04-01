@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IDataforseoLabsBingBulkTrafficEstimationLiveRequestInfo
+[Documentation](../README.md) / [Exports](../modules.md) / IDataforseoLabsBingBulkTrafficEstimationLiveRequestInfo
 
 # Interface: IDataforseoLabsBingBulkTrafficEstimationLiveRequestInfo
 
@@ -43,10 +39,9 @@ default value:
 
 #### Defined in
 
-[main.ts:102607](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L102607)
+main.ts:104984
 
 ___
-
 
 ### language\_code
 
@@ -61,10 +56,9 @@ en
 
 #### Defined in
 
-[main.ts:102598](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L102598)
+main.ts:104975
 
 ___
-
 
 ### language\_name
 
@@ -79,10 +73,9 @@ English
 
 #### Defined in
 
-[main.ts:102591](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L102591)
+main.ts:104968
 
 ___
-
 
 ### location\_code
 
@@ -98,10 +91,9 @@ example:
 
 #### Defined in
 
-[main.ts:102584](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L102584)
+main.ts:104961
 
 ___
-
 
 ### location\_name
 
@@ -117,10 +109,9 @@ United States
 
 #### Defined in
 
-[main.ts:102576](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L102576)
+main.ts:104953
 
 ___
-
 
 ### tag
 
@@ -134,10 +125,9 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-[main.ts:102613](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L102613)
+main.ts:104990
 
 ___
-
 
 ### targets
 
@@ -152,8 +142,4 @@ you can set up to 1000 domains, subdomains or webpages
 
 #### Defined in
 
-[main.ts:102568](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L102568)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:104945

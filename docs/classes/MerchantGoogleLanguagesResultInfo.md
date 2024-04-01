@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / MerchantGoogleLanguagesResultInfo
+[Documentation](../README.md) / [Exports](../modules.md) / MerchantGoogleLanguagesResultInfo
 
 # Class: MerchantGoogleLanguagesResultInfo
 
@@ -49,7 +45,7 @@
 
 #### Defined in
 
-[main.ts:163349](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L163349)
+main.ts:168776
 
 ## Properties
 
@@ -65,10 +61,9 @@ language code according to ISO 639-1
 
 #### Defined in
 
-[main.ts:163345](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L163345)
+main.ts:168772
 
 ___
-
 
 ### language\_name
 
@@ -82,7 +77,7 @@ language name
 
 #### Defined in
 
-[main.ts:163343](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L163343)
+main.ts:168770
 
 ## Methods
 
@@ -102,10 +97,9 @@ language name
 
 #### Defined in
 
-[main.ts:163358](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L163358)
+main.ts:168785
 
 ___
-
 
 ### toJSON
 
@@ -123,10 +117,9 @@ ___
 
 #### Defined in
 
-[main.ts:163376](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L163376)
+main.ts:168803
 
 ___
-
 
 ### fromJS
 
@@ -144,8 +137,4 @@ ___
 
 #### Defined in
 
-[main.ts:163369](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L163369)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:168796

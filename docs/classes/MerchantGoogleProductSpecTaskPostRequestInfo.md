@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / MerchantGoogleProductSpecTaskPostRequestInfo
+[Documentation](../README.md) / [Exports](../modules.md) / MerchantGoogleProductSpecTaskPostRequestInfo
 
 # Class: MerchantGoogleProductSpecTaskPostRequestInfo
 
@@ -60,7 +56,7 @@
 
 #### Defined in
 
-[main.ts:167354](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L167354)
+main.ts:172807
 
 ## Properties
 
@@ -85,10 +81,9 @@ example:
 
 #### Defined in
 
-[main.ts:167318](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L167318)
+main.ts:172771
 
 ___
-
 
 ### language\_code
 
@@ -107,10 +102,9 @@ en
 
 #### Defined in
 
-[main.ts:167304](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L167304)
+main.ts:172757
 
 ___
-
 
 ### language\_name
 
@@ -129,10 +123,9 @@ English
 
 #### Defined in
 
-[main.ts:167297](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L167297)
+main.ts:172750
 
 ___
-
 
 ### location\_code
 
@@ -151,10 +144,9 @@ example:
 
 #### Defined in
 
-[main.ts:167281](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L167281)
+main.ts:172734
 
 ___
-
 
 ### location\_coordinate
 
@@ -175,10 +167,9 @@ example:
 
 #### Defined in
 
-[main.ts:167290](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L167290)
+main.ts:172743
 
 ___
-
 
 ### location\_name
 
@@ -197,10 +188,9 @@ London,England,United Kingdom
 
 #### Defined in
 
-[main.ts:167274](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L167274)
+main.ts:172727
 
 ___
-
 
 ### pingback\_url
 
@@ -222,10 +212,9 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-[main.ts:167350](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L167350)
+main.ts:172803
 
 ___
-
 
 ### postback\_data
 
@@ -243,10 +232,9 @@ advanced, html
 
 #### Defined in
 
-[main.ts:167340](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L167340)
+main.ts:172793
 
 ___
-
 
 ### postback\_url
 
@@ -268,10 +256,9 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-[main.ts:167334](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L167334)
+main.ts:172787
 
 ___
-
 
 ### priority
 
@@ -291,10 +278,9 @@ The cost can be calculated on the Pricing page.
 
 #### Defined in
 
-[main.ts:167267](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L167267)
+main.ts:172720
 
 ___
-
 
 ### product\_id
 
@@ -312,10 +298,9 @@ learn more about the parameter in this help center guide
 
 #### Defined in
 
-[main.ts:167259](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L167259)
+main.ts:172712
 
 ___
-
 
 ### se\_domain
 
@@ -334,10 +319,9 @@ google.co.uk, google.com.au, google.de, etc.
 
 #### Defined in
 
-[main.ts:167311](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L167311)
+main.ts:172764
 
 ___
-
 
 ### tag
 
@@ -355,7 +339,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-[main.ts:167324](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L167324)
+main.ts:172777
 
 ## Methods
 
@@ -375,10 +359,9 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-[main.ts:167363](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L167363)
+main.ts:172816
 
 ___
-
 
 ### toJSON
 
@@ -396,10 +379,9 @@ ___
 
 #### Defined in
 
-[main.ts:167398](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L167398)
+main.ts:172851
 
 ___
-
 
 ### fromJS
 
@@ -417,8 +399,4 @@ ___
 
 #### Defined in
 
-[main.ts:167391](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L167391)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:172844

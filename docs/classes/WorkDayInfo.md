@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / WorkDayInfo
+[Documentation](../README.md) / [Exports](../modules.md) / WorkDayInfo
 
 # Class: WorkDayInfo
 
@@ -49,7 +45,7 @@
 
 #### Defined in
 
-[main.ts:20532](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L20532)
+main.ts:21051
 
 ## Properties
 
@@ -65,10 +61,9 @@ closing time
 
 #### Defined in
 
-[main.ts:20528](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L20528)
+main.ts:21047
 
 ___
-
 
 ### open
 
@@ -82,7 +77,7 @@ opening time
 
 #### Defined in
 
-[main.ts:20526](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L20526)
+main.ts:21045
 
 ## Methods
 
@@ -102,10 +97,9 @@ opening time
 
 #### Defined in
 
-[main.ts:20541](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L20541)
+main.ts:21060
 
 ___
-
 
 ### toJSON
 
@@ -123,10 +117,9 @@ ___
 
 #### Defined in
 
-[main.ts:20559](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L20559)
+main.ts:21078
 
 ___
-
 
 ### fromJS
 
@@ -144,8 +137,4 @@ ___
 
 #### Defined in
 
-[main.ts:20552](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L20552)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:21071

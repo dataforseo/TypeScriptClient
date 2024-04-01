@@ -1,22 +1,18 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / BaseGoogleTrendsItem
+[Documentation](../README.md) / [Exports](../modules.md) / BaseGoogleTrendsItem
 
 # Class: BaseGoogleTrendsItem
 
 ## Hierarchy
 
 - **`BaseGoogleTrendsItem`**
-  
+
   ↳ [`GoogleTrendsGraphElementItem`](GoogleTrendsGraphElementItem.md)
-  
+
   ↳ [`GoogleTrendsMapElementItem`](GoogleTrendsMapElementItem.md)
-  
-  ↳ [`GoogleTrendsTopicsListElementItem`](GoogleTrendsTopicsListElementItem.md)
-  
+
   ↳ [`GoogleTrendsQueriesListElementItem`](GoogleTrendsQueriesListElementItem.md)
+
+  ↳ [`GoogleTrendsTopicsListElementItem`](GoogleTrendsTopicsListElementItem.md)
 
 ## Implements
 
@@ -60,7 +56,7 @@
 
 #### Defined in
 
-[main.ts:20384](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L20384)
+main.ts:20840
 
 ## Properties
 
@@ -70,7 +66,7 @@
 
 #### Defined in
 
-[main.ts:20382](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L20382)
+main.ts:20838
 
 ## Methods
 
@@ -90,10 +86,9 @@
 
 #### Defined in
 
-[main.ts:20394](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L20394)
+main.ts:20850
 
 ___
-
 
 ### toJSON
 
@@ -111,10 +106,9 @@ ___
 
 #### Defined in
 
-[main.ts:20430](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L20430)
+main.ts:20886
 
 ___
-
 
 ### fromJS
 
@@ -132,8 +126,4 @@ ___
 
 #### Defined in
 
-[main.ts:20403](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L20403)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:20859

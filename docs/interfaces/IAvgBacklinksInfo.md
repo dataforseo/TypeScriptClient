@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IAvgBacklinksInfo
+[Documentation](../README.md) / [Exports](../modules.md) / IAvgBacklinksInfo
 
 # Interface: IAvgBacklinksInfo
 
@@ -38,10 +34,9 @@ average number of backlinks
 
 #### Defined in
 
-[main.ts:79518](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L79518)
+main.ts:81895
 
 ___
-
 
 ### dofollow
 
@@ -51,10 +46,9 @@ average number of dofollow links
 
 #### Defined in
 
-[main.ts:79520](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L79520)
+main.ts:81897
 
 ___
-
 
 ### last\_updated\_time
 
@@ -67,10 +61,9 @@ example:
 
 #### Defined in
 
-[main.ts:79537](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L79537)
+main.ts:81914
 
 ___
-
 
 ### main\_domain\_rank
 
@@ -81,10 +74,9 @@ learn more about the metric and its calculation formula in this help center arti
 
 #### Defined in
 
-[main.ts:79532](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L79532)
+main.ts:81909
 
 ___
-
 
 ### rank
 
@@ -95,10 +87,9 @@ learn more about the metric and its calculation formula in this help center arti
 
 #### Defined in
 
-[main.ts:79529](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L79529)
+main.ts:81906
 
 ___
-
 
 ### referring\_domains
 
@@ -108,10 +99,9 @@ average number of referring domains
 
 #### Defined in
 
-[main.ts:79524](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L79524)
+main.ts:81901
 
 ___
-
 
 ### referring\_main\_domains
 
@@ -121,10 +111,9 @@ average number of referring main domains
 
 #### Defined in
 
-[main.ts:79526](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L79526)
+main.ts:81903
 
 ___
-
 
 ### referring\_pages
 
@@ -134,10 +123,9 @@ average number of referring pages
 
 #### Defined in
 
-[main.ts:79522](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L79522)
+main.ts:81899
 
 ___
-
 
 ### se\_type
 
@@ -147,8 +135,4 @@ search engine type
 
 #### Defined in
 
-[main.ts:79516](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L79516)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:81893

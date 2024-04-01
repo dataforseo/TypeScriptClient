@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / DomainAnalyticsWhoisOverviewLiveRequestInfo
+[Documentation](../README.md) / [Exports](../modules.md) / DomainAnalyticsWhoisOverviewLiveRequestInfo
 
 # Class: DomainAnalyticsWhoisOverviewLiveRequestInfo
 
@@ -52,7 +48,7 @@
 
 #### Defined in
 
-[main.ts:75625](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L75625)
+main.ts:78002
 
 ## Properties
 
@@ -70,7 +66,7 @@ you can use the % operator with like and not_like to match any string of zero or
 examples:
 ["expiration_datetime", "<", "2021-02-15 01:00:00 +00:00"]
 [["expiration_datetime", "<", "2021-02-15 01:00:00 +00:00"],
-"and",
+ "and", 
 ["domain", "like", "%seo%"]]
 
 for more information about filters, please refer to Filters Page or this help center guide
@@ -81,10 +77,9 @@ for more information about filters, please refer to Filters Page or this help ce
 
 #### Defined in
 
-[main.ts:75599](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L75599)
+main.ts:77976
 
 ___
-
 
 ### limit
 
@@ -101,10 +96,9 @@ maximum value: 1000
 
 #### Defined in
 
-[main.ts:75579](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L75579)
+main.ts:77956
 
 ___
-
 
 ### offset
 
@@ -121,10 +115,9 @@ if you specify the 10 value, the first ten items in the results array will be om
 
 #### Defined in
 
-[main.ts:75584](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L75584)
+main.ts:77961
 
 ___
-
 
 ### order\_by
 
@@ -152,10 +145,9 @@ example:
 
 #### Defined in
 
-[main.ts:75615](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L75615)
+main.ts:77992
 
 ___
-
 
 ### tag
 
@@ -173,7 +165,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-[main.ts:75621](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L75621)
+main.ts:77998
 
 ## Methods
 
@@ -193,10 +185,9 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-[main.ts:75634](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L75634)
+main.ts:78011
 
 ___
-
 
 ### toJSON
 
@@ -214,10 +205,9 @@ ___
 
 #### Defined in
 
-[main.ts:75663](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L75663)
+main.ts:78040
 
 ___
-
 
 ### fromJS
 
@@ -235,8 +225,4 @@ ___
 
 #### Defined in
 
-[main.ts:75656](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L75656)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:78033

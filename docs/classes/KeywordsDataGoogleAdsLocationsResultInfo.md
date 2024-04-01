@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / KeywordsDataGoogleAdsLocationsResultInfo
+[Documentation](../README.md) / [Exports](../modules.md) / KeywordsDataGoogleAdsLocationsResultInfo
 
 # Class: KeywordsDataGoogleAdsLocationsResultInfo
 
@@ -52,7 +48,7 @@
 
 #### Defined in
 
-[main.ts:113120](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L113120)
+main.ts:115497
 
 ## Properties
 
@@ -68,10 +64,9 @@ ISO country code of the location
 
 #### Defined in
 
-[main.ts:113113](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L113113)
+main.ts:115490
 
 ___
-
 
 ### location\_code
 
@@ -85,10 +80,9 @@ location code
 
 #### Defined in
 
-[main.ts:113100](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L113100)
+main.ts:115477
 
 ___
-
 
 ### location\_code\_parent
 
@@ -109,10 +103,9 @@ where location_code_parent corresponds to:
 
 #### Defined in
 
-[main.ts:113111](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L113111)
+main.ts:115488
 
 ___
-
 
 ### location\_name
 
@@ -126,10 +119,9 @@ full name of the location
 
 #### Defined in
 
-[main.ts:113102](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L113102)
+main.ts:115479
 
 ___
-
 
 ### location\_type
 
@@ -144,7 +136,7 @@ possible values according to Google’s target types
 
 #### Defined in
 
-[main.ts:113116](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L113116)
+main.ts:115493
 
 ## Methods
 
@@ -164,10 +156,9 @@ possible values according to Google’s target types
 
 #### Defined in
 
-[main.ts:113129](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L113129)
+main.ts:115506
 
 ___
-
 
 ### toJSON
 
@@ -185,10 +176,9 @@ ___
 
 #### Defined in
 
-[main.ts:113150](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L113150)
+main.ts:115527
 
 ___
-
 
 ### fromJS
 
@@ -206,8 +196,4 @@ ___
 
 #### Defined in
 
-[main.ts:113143](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L113143)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:115520

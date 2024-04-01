@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IDataforseoLabsGoogleSubdomainsLiveResultInfo
+[Documentation](../README.md) / [Exports](../modules.md) / IDataforseoLabsGoogleSubdomainsLiveResultInfo
 
 # Interface: IDataforseoLabsGoogleSubdomainsLiveResultInfo
 
@@ -36,10 +32,9 @@ contains subdomains and related data
 
 #### Defined in
 
-[main.ts:89781](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L89781)
+main.ts:92158
 
 ___
-
 
 ### items\_count
 
@@ -49,10 +44,9 @@ the number of results returned in the items array
 
 #### Defined in
 
-[main.ts:89779](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L89779)
+main.ts:92156
 
 ___
-
 
 ### language\_code
 
@@ -62,10 +56,9 @@ language code in a POST array
 
 #### Defined in
 
-[main.ts:89775](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L89775)
+main.ts:92152
 
 ___
-
 
 ### location\_code
 
@@ -75,10 +68,9 @@ location code in a POST array
 
 #### Defined in
 
-[main.ts:89773](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L89773)
+main.ts:92150
 
 ___
-
 
 ### se\_type
 
@@ -88,10 +80,9 @@ search engine type
 
 #### Defined in
 
-[main.ts:89769](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L89769)
+main.ts:92146
 
 ___
-
 
 ### target
 
@@ -101,10 +92,9 @@ domain in a POST array
 
 #### Defined in
 
-[main.ts:89771](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L89771)
+main.ts:92148
 
 ___
-
 
 ### total\_count
 
@@ -114,8 +104,4 @@ total amount of results in our database relevant to your request
 
 #### Defined in
 
-[main.ts:89777](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L89777)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:92154

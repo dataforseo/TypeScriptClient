@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IContentGenerationGenerateTextLiveRequestInfo
+[Documentation](../README.md) / [Exports](../modules.md) / IContentGenerationGenerateTextLiveRequestInfo
 
 # Interface: IContentGenerationGenerateTextLiveRequestInfo
 
@@ -43,10 +39,9 @@ learn more about this parameter on our help center
 
 #### Defined in
 
-[main.ts:160360](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L160360)
+main.ts:165787
 
 ___
-
 
 ### description
 
@@ -59,10 +54,9 @@ learn more about this parameter on our help center
 
 #### Defined in
 
-[main.ts:160347](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L160347)
+main.ts:165774
 
 ___
-
 
 ### include\_conclusion
 
@@ -74,10 +68,9 @@ if set to true, generated content will include a logical conclusion
 
 #### Defined in
 
-[main.ts:160364](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L160364)
+main.ts:165791
 
 ___
-
 
 ### meta\_keywords
 
@@ -91,10 +84,9 @@ example: "meta_keywords": ["iPhone","sell","CEO"]
 
 #### Defined in
 
-[main.ts:160353](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L160353)
+main.ts:165780
 
 ___
-
 
 ### sub\_topics
 
@@ -108,10 +100,9 @@ example: "sub_topics": ["Apple","Pixar","Amazing Products"]
 
 #### Defined in
 
-[main.ts:160342](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L160342)
+main.ts:165769
 
 ___
-
 
 ### supplement\_token
 
@@ -125,10 +116,9 @@ supplement_token values are unique for each subsequent task
 
 #### Defined in
 
-[main.ts:160370](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L160370)
+main.ts:165797
 
 ___
-
 
 ### tag
 
@@ -142,10 +132,9 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-[main.ts:160376](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L160376)
+main.ts:165803
 
 ___
-
 
 ### topic
 
@@ -158,10 +147,9 @@ can contain from 1 to 50 tokens
 
 #### Defined in
 
-[main.ts:160331](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L160331)
+main.ts:165758
 
 ___
-
 
 ### word\_count
 
@@ -174,8 +162,4 @@ can take values from 1 to 1000
 
 #### Defined in
 
-[main.ts:160336](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L160336)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:165763

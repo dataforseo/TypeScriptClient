@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / DataforseoLabsAppleBulkAppMetricsLiveRequestInfo
+[Documentation](../README.md) / [Exports](../modules.md) / DataforseoLabsAppleBulkAppMetricsLiveRequestInfo
 
 # Class: DataforseoLabsAppleBulkAppMetricsLiveRequestInfo
 
@@ -53,7 +49,7 @@
 
 #### Defined in
 
-[main.ts:110219](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L110219)
+main.ts:112596
 
 ## Properties
 
@@ -76,10 +72,9 @@ the maximum number of IDs you can specify in this field is 1000
 
 #### Defined in
 
-[main.ts:110173](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L110173)
+main.ts:112550
 
 ___
-
 
 ### language\_code
 
@@ -100,10 +95,9 @@ en
 
 #### Defined in
 
-[main.ts:110209](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L110209)
+main.ts:112586
 
 ___
-
 
 ### language\_name
 
@@ -124,10 +118,9 @@ English
 
 #### Defined in
 
-[main.ts:110200](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L110200)
+main.ts:112577
 
 ___
-
 
 ### location\_code
 
@@ -148,10 +141,9 @@ example:
 
 #### Defined in
 
-[main.ts:110191](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L110191)
+main.ts:112568
 
 ___
-
 
 ### location\_name
 
@@ -172,10 +164,9 @@ United States
 
 #### Defined in
 
-[main.ts:110182](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L110182)
+main.ts:112559
 
 ___
-
 
 ### tag
 
@@ -193,7 +184,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-[main.ts:110215](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L110215)
+main.ts:112592
 
 ## Methods
 
@@ -213,10 +204,9 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-[main.ts:110228](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L110228)
+main.ts:112605
 
 ___
-
 
 ### toJSON
 
@@ -234,10 +224,9 @@ ___
 
 #### Defined in
 
-[main.ts:110254](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L110254)
+main.ts:112631
 
 ___
-
 
 ### fromJS
 
@@ -255,8 +244,4 @@ ___
 
 #### Defined in
 
-[main.ts:110247](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L110247)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:112624

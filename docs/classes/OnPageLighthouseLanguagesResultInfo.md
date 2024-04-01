@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / OnPageLighthouseLanguagesResultInfo
+[Documentation](../README.md) / [Exports](../modules.md) / OnPageLighthouseLanguagesResultInfo
 
 # Class: OnPageLighthouseLanguagesResultInfo
 
@@ -49,7 +45,7 @@
 
 #### Defined in
 
-[main.ts:153517](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L153517)
+main.ts:158944
 
 ## Properties
 
@@ -65,10 +61,9 @@ language code according to ISO 639-1
 
 #### Defined in
 
-[main.ts:153513](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L153513)
+main.ts:158940
 
 ___
-
 
 ### language\_name
 
@@ -82,7 +77,7 @@ language name
 
 #### Defined in
 
-[main.ts:153511](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L153511)
+main.ts:158938
 
 ## Methods
 
@@ -102,10 +97,9 @@ language name
 
 #### Defined in
 
-[main.ts:153526](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L153526)
+main.ts:158953
 
 ___
-
 
 ### toJSON
 
@@ -123,10 +117,9 @@ ___
 
 #### Defined in
 
-[main.ts:153544](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L153544)
+main.ts:158971
 
 ___
-
 
 ### fromJS
 
@@ -144,8 +137,4 @@ ___
 
 #### Defined in
 
-[main.ts:153537](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L153537)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:158964

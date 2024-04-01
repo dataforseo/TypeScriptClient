@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IMathSolverExpandedElement
+[Documentation](../README.md) / [Exports](../modules.md) / IMathSolverExpandedElement
 
 # Interface: IMathSolverExpandedElement
 
@@ -33,23 +29,21 @@ displays steps to solve the mathematical equation as specified in the element
 
 #### Defined in
 
-[main.ts:33961](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L33961)
+main.ts:34884
 
 ___
-
 
 ### title
 
 • `Optional` **title**: `string`
 
-title of a given link element
+title of the carousel item
 
 #### Defined in
 
-[main.ts:33958](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L33958)
+main.ts:34881
 
 ___
-
 
 ### type
 
@@ -59,8 +53,4 @@ type of element
 
 #### Defined in
 
-[main.ts:33956](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L33956)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:34879

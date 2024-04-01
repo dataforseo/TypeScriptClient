@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IDataforseoLabsGoogleDomainMetricsByCategoriesLiveRequestInfo
+[Documentation](../README.md) / [Exports](../modules.md) / IDataforseoLabsGoogleDomainMetricsByCategoriesLiveRequestInfo
 
 # Interface: IDataforseoLabsGoogleDomainMetricsByCategoriesLiveRequestInfo
 
@@ -50,10 +46,9 @@ you can download the full list of possible categories
 
 #### Defined in
 
-[main.ts:84484](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L84484)
+main.ts:86861
 
 ___
-
 
 ### correlate
 
@@ -68,10 +63,9 @@ Note: we do not recommend setting correlate to false
 
 #### Defined in
 
-[main.ts:84575](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L84575)
+main.ts:86952
 
 ___
-
 
 ### etv\_max
 
@@ -83,10 +77,9 @@ if specified, the API will return only domains with organic_etv lesser than the 
 
 #### Defined in
 
-[main.ts:84568](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L84568)
+main.ts:86945
 
 ___
-
 
 ### etv\_min
 
@@ -98,10 +91,9 @@ if specified, the API will return only domains with organic_etv greater than the
 
 #### Defined in
 
-[main.ts:84564](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L84564)
+main.ts:86941
 
 ___
-
 
 ### filters
 
@@ -120,10 +112,9 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 #### Defined in
 
-[main.ts:84596](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L84596)
+main.ts:86973
 
 ___
-
 
 ### first\_date
 
@@ -142,10 +133,9 @@ minimum date: "2020-10-01"
 
 #### Defined in
 
-[main.ts:84495](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L84495)
+main.ts:86872
 
 ___
-
 
 ### include\_subdomains
 
@@ -159,10 +149,9 @@ default value: true
 
 #### Defined in
 
-[main.ts:84560](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L84560)
+main.ts:86937
 
 ___
-
 
 ### item\_types
 
@@ -179,10 +168,9 @@ default value:
 
 #### Defined in
 
-[main.ts:84546](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L84546)
+main.ts:86923
 
 ___
-
 
 ### language\_code
 
@@ -197,10 +185,9 @@ en
 
 #### Defined in
 
-[main.ts:84537](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L84537)
+main.ts:86914
 
 ___
-
 
 ### language\_name
 
@@ -216,10 +203,9 @@ English
 
 #### Defined in
 
-[main.ts:84530](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L84530)
+main.ts:86907
 
 ___
-
 
 ### limit
 
@@ -232,10 +218,9 @@ maximum value: 1000
 
 #### Defined in
 
-[main.ts:84580](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L84580)
+main.ts:86957
 
 ___
-
 
 ### location\_code
 
@@ -251,10 +236,9 @@ example:
 
 #### Defined in
 
-[main.ts:84522](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L84522)
+main.ts:86899
 
 ___
-
 
 ### location\_name
 
@@ -270,10 +254,9 @@ United Kingdom
 
 #### Defined in
 
-[main.ts:84514](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L84514)
+main.ts:86891
 
 ___
-
 
 ### offset
 
@@ -286,10 +269,9 @@ if you specify the 10 value, the first ten domains in the results array will be 
 
 #### Defined in
 
-[main.ts:84585](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L84585)
+main.ts:86962
 
 ___
-
 
 ### order\_by
 
@@ -312,10 +294,9 @@ example:
 
 #### Defined in
 
-[main.ts:84611](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L84611)
+main.ts:86988
 
 ___
-
 
 ### second\_date
 
@@ -334,10 +315,9 @@ minimum date: "2020-10-01"
 
 #### Defined in
 
-[main.ts:84506](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L84506)
+main.ts:86883
 
 ___
-
 
 ### tag
 
@@ -351,10 +331,9 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-[main.ts:84617](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L84617)
+main.ts:86994
 
 ___
-
 
 ### top\_categories\_count
 
@@ -370,8 +349,4 @@ maximum value: 5
 
 #### Defined in
 
-[main.ts:84554](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L84554)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:86931

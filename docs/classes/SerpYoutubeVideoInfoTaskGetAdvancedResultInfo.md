@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / SerpYoutubeVideoInfoTaskGetAdvancedResultInfo
+[Documentation](../README.md) / [Exports](../modules.md) / SerpYoutubeVideoInfoTaskGetAdvancedResultInfo
 
 # Class: SerpYoutubeVideoInfoTaskGetAdvancedResultInfo
 
@@ -57,7 +53,7 @@
 
 #### Defined in
 
-[main.ts:58820](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L58820)
+main.ts:61195
 
 ## Properties
 
@@ -74,10 +70,9 @@ you can use it to make sure that we provided accurate results
 
 #### Defined in
 
-[main.ts:58799](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L58799)
+main.ts:61174
 
 ___
-
 
 ### datetime
 
@@ -94,10 +89,9 @@ example:
 
 #### Defined in
 
-[main.ts:58804](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L58804)
+main.ts:61179
 
 ___
-
 
 ### item\_types
 
@@ -114,10 +108,9 @@ youtube_video_info
 
 #### Defined in
 
-[main.ts:58812](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L58812)
+main.ts:61187
 
 ___
-
 
 ### items
 
@@ -131,10 +124,9 @@ elements of search results found in SERP
 
 #### Defined in
 
-[main.ts:58816](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L58816)
+main.ts:61191
 
 ___
-
 
 ### items\_count
 
@@ -148,10 +140,9 @@ the number of results returned in the items array
 
 #### Defined in
 
-[main.ts:58814](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L58814)
+main.ts:61189
 
 ___
-
 
 ### language\_code
 
@@ -165,10 +156,9 @@ language code in a POST array
 
 #### Defined in
 
-[main.ts:58796](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L58796)
+main.ts:61171
 
 ___
-
 
 ### location\_code
 
@@ -182,10 +172,9 @@ location code in a POST array
 
 #### Defined in
 
-[main.ts:58794](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L58794)
+main.ts:61169
 
 ___
-
 
 ### se\_domain
 
@@ -199,10 +188,9 @@ search engine domain in a POST array
 
 #### Defined in
 
-[main.ts:58792](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L58792)
+main.ts:61167
 
 ___
-
 
 ### spell
 
@@ -217,10 +205,9 @@ if the search engine provided results for a keyword that was corrected, we will 
 
 #### Defined in
 
-[main.ts:58807](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L58807)
+main.ts:61182
 
 ___
-
 
 ### video\_id
 
@@ -234,7 +221,7 @@ ID of the video received in a POST array
 
 #### Defined in
 
-[main.ts:58790](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L58790)
+main.ts:61165
 
 ## Methods
 
@@ -254,10 +241,9 @@ ID of the video received in a POST array
 
 #### Defined in
 
-[main.ts:58829](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L58829)
+main.ts:61204
 
 ___
-
 
 ### toJSON
 
@@ -275,10 +261,9 @@ ___
 
 #### Defined in
 
-[main.ts:58863](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L58863)
+main.ts:61238
 
 ___
-
 
 ### fromJS
 
@@ -296,8 +281,4 @@ ___
 
 #### Defined in
 
-[main.ts:58856](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L58856)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:61231

@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / DataforseoLabsAmazonProductRankOverviewLiveResultInfo
+[Documentation](../README.md) / [Exports](../modules.md) / DataforseoLabsAmazonProductRankOverviewLiveResultInfo
 
 # Class: DataforseoLabsAmazonProductRankOverviewLiveResultInfo
 
@@ -53,7 +49,7 @@
 
 #### Defined in
 
-[main.ts:100788](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L100788)
+main.ts:103165
 
 ## Properties
 
@@ -69,10 +65,9 @@ contains detected Amazon product competitors and related data
 
 #### Defined in
 
-[main.ts:100784](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L100784)
+main.ts:103161
 
 ___
-
 
 ### items\_count
 
@@ -86,10 +81,9 @@ the number of results returned in the items array
 
 #### Defined in
 
-[main.ts:100782](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L100782)
+main.ts:103159
 
 ___
-
 
 ### language\_code
 
@@ -104,10 +98,9 @@ if there is no data, then the value is null
 
 #### Defined in
 
-[main.ts:100778](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L100778)
+main.ts:103155
 
 ___
-
 
 ### location\_code
 
@@ -122,10 +115,9 @@ if there is no data, then the value is null
 
 #### Defined in
 
-[main.ts:100775](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L100775)
+main.ts:103152
 
 ___
-
 
 ### se\_type
 
@@ -139,10 +131,9 @@ search engine type
 
 #### Defined in
 
-[main.ts:100772](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L100772)
+main.ts:103149
 
 ___
-
 
 ### total\_count
 
@@ -156,7 +147,7 @@ total amount of results in our database relevant to your request
 
 #### Defined in
 
-[main.ts:100780](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L100780)
+main.ts:103157
 
 ## Methods
 
@@ -176,10 +167,9 @@ total amount of results in our database relevant to your request
 
 #### Defined in
 
-[main.ts:100797](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L100797)
+main.ts:103174
 
 ___
-
 
 ### toJSON
 
@@ -197,10 +187,9 @@ ___
 
 #### Defined in
 
-[main.ts:100823](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L100823)
+main.ts:103200
 
 ___
-
 
 ### fromJS
 
@@ -218,8 +207,4 @@ ___
 
 #### Defined in
 
-[main.ts:100816](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L100816)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:103193

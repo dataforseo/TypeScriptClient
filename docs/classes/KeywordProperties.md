@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / KeywordProperties
+[Documentation](../README.md) / [Exports](../modules.md) / KeywordProperties
 
 # Class: KeywordProperties
 
@@ -53,7 +49,7 @@
 
 #### Defined in
 
-[main.ts:79039](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L79039)
+main.ts:81416
 
 ## Properties
 
@@ -71,10 +67,9 @@ if the value is null, our database does not contain any keywords the correspondi
 
 #### Defined in
 
-[main.ts:79018](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L79018)
+main.ts:81395
 
 ___
-
 
 ### detected\_language
 
@@ -89,10 +84,9 @@ indicates the language of the keyword as identified by our system
 
 #### Defined in
 
-[main.ts:79032](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L79032)
+main.ts:81409
 
 ___
-
 
 ### is\_another\_language
 
@@ -107,10 +101,9 @@ if true, the language set in the request does not match the language determined 
 
 #### Defined in
 
-[main.ts:79035](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L79035)
+main.ts:81412
 
 ___
-
 
 ### keyword\_difficulty
 
@@ -127,10 +120,9 @@ learn more about the metric in this help center guide
 
 #### Defined in
 
-[main.ts:79029](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L79029)
+main.ts:81406
 
 ___
-
 
 ### se\_type
 
@@ -144,10 +136,9 @@ search engine type
 
 #### Defined in
 
-[main.ts:79014](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L79014)
+main.ts:81391
 
 ___
-
 
 ### synonym\_clustering\_algorithm
 
@@ -165,7 +156,7 @@ if the value is null, our database does not contain any keywords the correspondi
 
 #### Defined in
 
-[main.ts:79024](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L79024)
+main.ts:81401
 
 ## Methods
 
@@ -185,10 +176,9 @@ if the value is null, our database does not contain any keywords the correspondi
 
 #### Defined in
 
-[main.ts:79048](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L79048)
+main.ts:81425
 
 ___
-
 
 ### toJSON
 
@@ -206,10 +196,9 @@ ___
 
 #### Defined in
 
-[main.ts:79070](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L79070)
+main.ts:81447
 
 ___
-
 
 ### fromJS
 
@@ -227,8 +216,4 @@ ___
 
 #### Defined in
 
-[main.ts:79063](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L79063)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:81440

@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IDataforseoLabsAmazonProductCompetitorsLiveItem
+[Documentation](../README.md) / [Exports](../modules.md) / IDataforseoLabsAmazonProductCompetitorsLiveItem
 
 # Interface: IDataforseoLabsAmazonProductCompetitorsLiveItem
 
@@ -38,10 +34,9 @@ for more information, refer to this help center guide
 
 #### Defined in
 
-[main.ts:101290](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L101290)
+main.ts:103667
 
 ___
-
 
 ### avg\_position
 
@@ -53,10 +48,9 @@ the value for a given product may differ when combined with different target pro
 
 #### Defined in
 
-[main.ts:101294](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L101294)
+main.ts:103671
 
 ___
-
 
 ### competitor\_metrics
 
@@ -68,10 +62,9 @@ Note: in this object ranking data is provided for the returned competitor’s as
 
 #### Defined in
 
-[main.ts:101304](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L101304)
+main.ts:103681
 
 ___
-
 
 ### full\_metrics
 
@@ -82,10 +75,9 @@ full overview of ranking data relevant to all keywords that the provided asin is
 
 #### Defined in
 
-[main.ts:101307](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L101307)
+main.ts:103684
 
 ___
-
 
 ### intersections
 
@@ -95,10 +87,9 @@ number of intersecting keywords
 
 #### Defined in
 
-[main.ts:101300](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L101300)
+main.ts:103677
 
 ___
-
 
 ### se\_type
 
@@ -108,10 +99,9 @@ search engine type
 
 #### Defined in
 
-[main.ts:101286](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L101286)
+main.ts:103663
 
 ___
-
 
 ### sum\_position
 
@@ -123,8 +113,4 @@ the value for a given product may differ when combined with different target pro
 
 #### Defined in
 
-[main.ts:101298](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L101298)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:103675

@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IDataforseoLabsAppleAppCompetitorsLiveItem
+[Documentation](../README.md) / [Exports](../modules.md) / IDataforseoLabsAppleAppCompetitorsLiveItem
 
 # Interface: IDataforseoLabsAppleAppCompetitorsLiveItem
 
@@ -36,10 +32,9 @@ id of the competitor app
 
 #### Defined in
 
-[main.ts:111494](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L111494)
+main.ts:113871
 
 ___
-
 
 ### avg\_position
 
@@ -51,10 +46,9 @@ the value for a given application may differ when combined with different target
 
 #### Defined in
 
-[main.ts:111498](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L111498)
+main.ts:113875
 
 ___
-
 
 ### competitor\_metrics
 
@@ -66,10 +60,9 @@ note: in this array ranking data is provided for the returned competitor’s app
 
 #### Defined in
 
-[main.ts:111508](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L111508)
+main.ts:113885
 
 ___
-
 
 ### full\_metrics
 
@@ -80,10 +73,9 @@ full overview of ranking data relevant to all keywords that the provided app_id 
 
 #### Defined in
 
-[main.ts:111511](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L111511)
+main.ts:113888
 
 ___
-
 
 ### intersections
 
@@ -93,10 +85,9 @@ number of intersecting keywords
 
 #### Defined in
 
-[main.ts:111504](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L111504)
+main.ts:113881
 
 ___
-
 
 ### se\_type
 
@@ -106,10 +97,9 @@ search engine type
 
 #### Defined in
 
-[main.ts:111492](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L111492)
+main.ts:113869
 
 ___
-
 
 ### sum\_position
 
@@ -121,8 +111,4 @@ the value for a given application may differ when combined with different target
 
 #### Defined in
 
-[main.ts:111502](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L111502)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:113879

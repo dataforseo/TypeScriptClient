@@ -1,15 +1,11 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / ProductInformationTextItem
+[Documentation](../README.md) / [Exports](../modules.md) / ProductInformationTextItem
 
 # Class: ProductInformationTextItem
 
 ## Hierarchy
 
 - [`BaseProductInformationItem`](BaseProductInformationItem.md)
-  
+
   ↳ **`ProductInformationTextItem`**
 
 ## Implements
@@ -60,7 +56,7 @@
 
 #### Defined in
 
-[main.ts:172508](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L172508)
+main.ts:177961
 
 ## Properties
 
@@ -74,10 +70,9 @@
 
 #### Defined in
 
-[main.ts:21715](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L21715)
+main.ts:22234
 
 ___
-
 
 ### section\_name
 
@@ -91,10 +86,9 @@ name of the section related to product information specified in the contents
 
 #### Defined in
 
-[main.ts:172502](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L172502)
+main.ts:177955
 
 ___
-
 
 ### text
 
@@ -108,7 +102,7 @@ text specified under the given title within the section_name
 
 #### Defined in
 
-[main.ts:172504](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L172504)
+main.ts:177957
 
 ## Methods
 
@@ -132,10 +126,9 @@ text specified under the given title within the section_name
 
 #### Defined in
 
-[main.ts:172513](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L172513)
+main.ts:177966
 
 ___
-
 
 ### toJSON
 
@@ -157,10 +150,9 @@ ___
 
 #### Defined in
 
-[main.ts:172532](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L172532)
+main.ts:177985
 
 ___
-
 
 ### fromJS
 
@@ -182,8 +174,4 @@ ___
 
 #### Defined in
 
-[main.ts:172525](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L172525)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:177978

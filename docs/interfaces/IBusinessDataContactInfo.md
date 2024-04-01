@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IBusinessDataContactInfo
+[Documentation](../README.md) / [Exports](../modules.md) / IBusinessDataContactInfo
 
 # Interface: IBusinessDataContactInfo
 
@@ -32,10 +28,9 @@ data source
 
 #### Defined in
 
-[main.ts:188993](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L188993)
+main.ts:194446
 
 ___
-
 
 ### type
 
@@ -45,23 +40,18 @@ type of element
 
 #### Defined in
 
-[main.ts:188987](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L188987)
+main.ts:194440
 
 ___
-
 
 ### value
 
 • `Optional` **value**: `string`
 
-contact displayed in SERP
+contact displayed in SERP 
 example:
 "+119797979736"
 
 #### Defined in
 
-[main.ts:188991](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L188991)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:194444

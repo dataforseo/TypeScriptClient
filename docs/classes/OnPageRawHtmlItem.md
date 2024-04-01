@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / OnPageRawHtmlItem
+[Documentation](../README.md) / [Exports](../modules.md) / OnPageRawHtmlItem
 
 # Class: OnPageRawHtmlItem
 
@@ -48,7 +44,7 @@
 
 #### Defined in
 
-[main.ts:151209](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L151209)
+main.ts:156636
 
 ## Properties
 
@@ -64,7 +60,7 @@ HTML page
 
 #### Defined in
 
-[main.ts:151205](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L151205)
+main.ts:156632
 
 ## Methods
 
@@ -84,10 +80,9 @@ HTML page
 
 #### Defined in
 
-[main.ts:151218](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L151218)
+main.ts:156645
 
 ___
-
 
 ### toJSON
 
@@ -105,10 +100,9 @@ ___
 
 #### Defined in
 
-[main.ts:151235](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L151235)
+main.ts:156662
 
 ___
-
 
 ### fromJS
 
@@ -126,8 +120,4 @@ ___
 
 #### Defined in
 
-[main.ts:151228](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L151228)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:156655

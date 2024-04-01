@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IBusinessDataTripadvisorReviewsTasksReadyResultInfo
+[Documentation](../README.md) / [Exports](../modules.md) / IBusinessDataTripadvisorReviewsTasksReadyResultInfo
 
 # Interface: IBusinessDataTripadvisorReviewsTasksReadyResultInfo
 
@@ -34,10 +30,9 @@ date when the task was posted (in the UTC format)
 
 #### Defined in
 
-[main.ts:202215](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L202215)
+main.ts:207676
 
 ___
-
 
 ### endpoint
 
@@ -47,10 +42,9 @@ URL for collecting the results of the task
 
 #### Defined in
 
-[main.ts:202219](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L202219)
+main.ts:207680
 
 ___
-
 
 ### id
 
@@ -61,10 +55,9 @@ unique task identifier in our system in the UUID format
 
 #### Defined in
 
-[main.ts:202210](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L202210)
+main.ts:207671
 
 ___
-
 
 ### se
 
@@ -75,10 +68,9 @@ can take the following values: tripadvisor
 
 #### Defined in
 
-[main.ts:202213](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L202213)
+main.ts:207674
 
 ___
-
 
 ### tag
 
@@ -88,8 +80,4 @@ user-defined task identifier
 
 #### Defined in
 
-[main.ts:202217](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L202217)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:207678

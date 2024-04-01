@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / AvailibleVersions
+[Documentation](../README.md) / [Exports](../modules.md) / AvailibleVersions
 
 # Class: AvailibleVersions
 
@@ -49,7 +45,7 @@
 
 #### Defined in
 
-[main.ts:153856](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L153856)
+main.ts:159283
 
 ## Properties
 
@@ -66,10 +62,9 @@ if false, the version is not used by default and should be specified in the corr
 
 #### Defined in
 
-[main.ts:153852](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L153852)
+main.ts:159279
 
 ___
-
 
 ### version
 
@@ -83,7 +78,7 @@ lighthouse version
 
 #### Defined in
 
-[main.ts:153849](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L153849)
+main.ts:159276
 
 ## Methods
 
@@ -103,10 +98,9 @@ lighthouse version
 
 #### Defined in
 
-[main.ts:153865](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L153865)
+main.ts:159292
 
 ___
-
 
 ### toJSON
 
@@ -124,10 +118,9 @@ ___
 
 #### Defined in
 
-[main.ts:153883](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L153883)
+main.ts:159310
 
 ___
-
 
 ### fromJS
 
@@ -145,8 +138,4 @@ ___
 
 #### Defined in
 
-[main.ts:153876](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L153876)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:159303

@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / BusinessDataYelpLanguagesResultInfo
+[Documentation](../README.md) / [Exports](../modules.md) / BusinessDataYelpLanguagesResultInfo
 
 # Class: BusinessDataYelpLanguagesResultInfo
 
@@ -49,7 +45,7 @@
 
 #### Defined in
 
-[main.ts:203176](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L203176)
+main.ts:208637
 
 ## Properties
 
@@ -65,10 +61,9 @@ language code according to ISO 639-1
 
 #### Defined in
 
-[main.ts:203172](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L203172)
+main.ts:208633
 
 ___
-
 
 ### language\_name
 
@@ -82,7 +77,7 @@ language name
 
 #### Defined in
 
-[main.ts:203170](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L203170)
+main.ts:208631
 
 ## Methods
 
@@ -102,10 +97,9 @@ language name
 
 #### Defined in
 
-[main.ts:203185](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L203185)
+main.ts:208646
 
 ___
-
 
 ### toJSON
 
@@ -123,10 +117,9 @@ ___
 
 #### Defined in
 
-[main.ts:203203](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L203203)
+main.ts:208664
 
 ___
-
 
 ### fromJS
 
@@ -144,8 +137,4 @@ ___
 
 #### Defined in
 
-[main.ts:203196](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L203196)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:208657

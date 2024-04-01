@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IOnPageDuplicateTagsItem
+[Documentation](../README.md) / [Exports](../modules.md) / IOnPageDuplicateTagsItem
 
 # Interface: IOnPageDuplicateTagsItem
 
@@ -32,10 +28,9 @@ contains the value of duplicated tag
 
 #### Defined in
 
-[main.ts:147216](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L147216)
+main.ts:152643
 
 ___
-
 
 ### pages
 
@@ -45,10 +40,9 @@ pages with duplicate tags
 
 #### Defined in
 
-[main.ts:147220](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L147220)
+main.ts:152647
 
 ___
-
 
 ### total\_count
 
@@ -58,8 +52,4 @@ total count of duplicate pages
 
 #### Defined in
 
-[main.ts:147218](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L147218)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:152645

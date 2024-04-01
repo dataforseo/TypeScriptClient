@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IDataforseoLabsGoogleHistoricalSearchVolumeLiveRequestInfo
+[Documentation](../README.md) / [Exports](../modules.md) / IDataforseoLabsGoogleHistoricalSearchVolumeLiveRequestInfo
 
 # Interface: IDataforseoLabsGoogleHistoricalSearchVolumeLiveRequestInfo
 
@@ -39,10 +35,9 @@ default value: false
 
 #### Defined in
 
-[main.ts:81895](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L81895)
+main.ts:84272
 
 ___
-
 
 ### keywords
 
@@ -59,10 +54,9 @@ you will not be charged for the keywords omitted in the results
 
 #### Defined in
 
-[main.ts:81858](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L81858)
+main.ts:84235
 
 ___
-
 
 ### language\_code
 
@@ -78,10 +72,9 @@ en
 
 #### Defined in
 
-[main.ts:81890](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L81890)
+main.ts:84267
 
 ___
-
 
 ### language\_name
 
@@ -97,10 +90,9 @@ English
 
 #### Defined in
 
-[main.ts:81882](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L81882)
+main.ts:84259
 
 ___
-
 
 ### location\_code
 
@@ -116,10 +108,9 @@ example:
 
 #### Defined in
 
-[main.ts:81874](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L81874)
+main.ts:84251
 
 ___
-
 
 ### location\_name
 
@@ -135,10 +126,9 @@ United Kingdom
 
 #### Defined in
 
-[main.ts:81866](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L81866)
+main.ts:84243
 
 ___
-
 
 ### tag
 
@@ -152,8 +142,4 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-[main.ts:81901](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L81901)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:84278

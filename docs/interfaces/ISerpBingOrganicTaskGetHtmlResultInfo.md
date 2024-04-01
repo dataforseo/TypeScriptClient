@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / ISerpBingOrganicTaskGetHtmlResultInfo
+[Documentation](../README.md) / [Exports](../modules.md) / ISerpBingOrganicTaskGetHtmlResultInfo
 
 # Interface: ISerpBingOrganicTaskGetHtmlResultInfo
 
@@ -40,10 +36,9 @@ example:
 
 #### Defined in
 
-[main.ts:54829](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L54829)
+main.ts:57204
 
 ___
-
 
 ### items
 
@@ -53,10 +48,9 @@ elements of search results found in SERP
 
 #### Defined in
 
-[main.ts:54833](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L54833)
+main.ts:57208
 
 ___
-
 
 ### items\_count
 
@@ -66,10 +60,9 @@ the number of results returned in the items array
 
 #### Defined in
 
-[main.ts:54831](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L54831)
+main.ts:57206
 
 ___
-
 
 ### keyword
 
@@ -80,10 +73,9 @@ keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a s
 
 #### Defined in
 
-[main.ts:54816](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L54816)
+main.ts:57191
 
 ___
-
 
 ### language\_code
 
@@ -93,10 +85,9 @@ language code in a POST array
 
 #### Defined in
 
-[main.ts:54824](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L54824)
+main.ts:57199
 
 ___
-
 
 ### location\_code
 
@@ -106,10 +97,9 @@ location code in a POST array
 
 #### Defined in
 
-[main.ts:54822](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L54822)
+main.ts:57197
 
 ___
-
 
 ### se\_domain
 
@@ -119,10 +109,9 @@ search engine domain in a POST array
 
 #### Defined in
 
-[main.ts:54820](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L54820)
+main.ts:57195
 
 ___
-
 
 ### type
 
@@ -132,8 +121,4 @@ type of element
 
 #### Defined in
 
-[main.ts:54818](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L54818)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:57193

@@ -1,15 +1,11 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IFeaturedSnippetSerpElementItem
+[Documentation](../README.md) / [Exports](../modules.md) / IFeaturedSnippetSerpElementItem
 
 # Interface: IFeaturedSnippetSerpElementItem
 
 ## Hierarchy
 
 - [`IBaseSerpElementItem`](IBaseSerpElementItem.md)
-  
+
   ↳ **`IFeaturedSnippetSerpElementItem`**
 
 ## Implemented by
@@ -49,10 +45,9 @@ breadcrumb of the ad element in SERP
 
 #### Defined in
 
-[main.ts:25819](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L25819)
+main.ts:26338
 
 ___
-
 
 ### description
 
@@ -62,10 +57,9 @@ description of the ad element in SERP
 
 #### Defined in
 
-[main.ts:25815](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L25815)
+main.ts:26334
 
 ___
-
 
 ### domain
 
@@ -75,10 +69,9 @@ domain of the ad element in SERP
 
 #### Defined in
 
-[main.ts:25811](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L25811)
+main.ts:26330
 
 ___
-
 
 ### featured\_title
 
@@ -88,10 +81,9 @@ title
 
 #### Defined in
 
-[main.ts:25827](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L25827)
+main.ts:26346
 
 ___
-
 
 ### images
 
@@ -101,10 +93,9 @@ images of the element
 
 #### Defined in
 
-[main.ts:25834](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L25834)
+main.ts:26353
 
 ___
-
 
 ### position
 
@@ -116,10 +107,9 @@ left, right
 
 #### Defined in
 
-[main.ts:25823](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L25823)
+main.ts:26342
 
 ___
-
 
 ### rank\_absolute
 
@@ -132,10 +122,9 @@ to get all items (including SERP features and rich snippets) with their position
 
 #### Defined in
 
-[main.ts:25809](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L25809)
+main.ts:26328
 
 ___
-
 
 ### rank\_group
 
@@ -147,10 +136,9 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-[main.ts:25804](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L25804)
+main.ts:26323
 
 ___
-
 
 ### rectangle
 
@@ -162,10 +150,9 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 #### Defined in
 
-[main.ts:25841](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L25841)
+main.ts:26360
 
 ___
-
 
 ### table
 
@@ -176,10 +163,9 @@ if there are none, equals null
 
 #### Defined in
 
-[main.ts:25837](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L25837)
+main.ts:26356
 
 ___
-
 
 ### timestamp
 
@@ -192,10 +178,9 @@ example:
 
 #### Defined in
 
-[main.ts:25832](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L25832)
+main.ts:26351
 
 ___
-
 
 ### title
 
@@ -205,10 +190,9 @@ title of the ad element in SERP
 
 #### Defined in
 
-[main.ts:25813](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L25813)
+main.ts:26332
 
 ___
-
 
 ### url
 
@@ -218,10 +202,9 @@ relevant URL of the ad element in SERP
 
 #### Defined in
 
-[main.ts:25817](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L25817)
+main.ts:26336
 
 ___
-
 
 ### xpath
 
@@ -231,8 +214,4 @@ the XPath of the element
 
 #### Defined in
 
-[main.ts:25825](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L25825)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:26344

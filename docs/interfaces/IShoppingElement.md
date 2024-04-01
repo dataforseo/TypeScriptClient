@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IShoppingElement
+[Documentation](../README.md) / [Exports](../modules.md) / IShoppingElement
 
 # Interface: IShoppingElement
 
@@ -33,14 +29,13 @@
 
 • `Optional` **description**: `string`
 
-description of the results element in SERP
+description
 
 #### Defined in
 
-[main.ts:30481](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L30481)
+main.ts:31296
 
 ___
-
 
 ### marketplace
 
@@ -53,10 +48,9 @@ by Google
 
 #### Defined in
 
-[main.ts:30486](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L30486)
+main.ts:31301
 
 ___
-
 
 ### marketplace\_url
 
@@ -67,50 +61,46 @@ URL of the page on the marketplace website where the product is hosted
 
 #### Defined in
 
-[main.ts:30489](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L30489)
+main.ts:31304
 
 ___
-
 
 ### price
 
 • `Optional` **price**: [`PriceInfo`](../classes/PriceInfo.md)
 
-price of booking a place for the specified dates of stay
+price indicated in the element
 
 #### Defined in
 
-[main.ts:30476](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L30476)
+main.ts:31291
 
 ___
-
 
 ### source
 
 • `Optional` **source**: `string`
 
-web source of the hotel booking element
-indicates the source of information included in the element
+source of the element
+indicates the source of information included in the top_stories_element
 
 #### Defined in
 
-[main.ts:30479](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L30479)
+main.ts:31294
 
 ___
-
 
 ### title
 
 • `Optional` **title**: `string`
 
-title of the row
+title of a given link element
 
 #### Defined in
 
-[main.ts:30474](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L30474)
+main.ts:31289
 
 ___
-
 
 ### type
 
@@ -120,10 +110,9 @@ type of element
 
 #### Defined in
 
-[main.ts:30472](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L30472)
+main.ts:31287
 
 ___
-
 
 ### url
 
@@ -133,8 +122,4 @@ URL
 
 #### Defined in
 
-[main.ts:30491](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L30491)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:31306

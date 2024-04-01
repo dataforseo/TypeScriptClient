@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / BacklinksTimeseriesNewLostSummaryLiveItem
+[Documentation](../README.md) / [Exports](../modules.md) / BacklinksTimeseriesNewLostSummaryLiveItem
 
 # Class: BacklinksTimeseriesNewLostSummaryLiveItem
 
@@ -55,7 +51,7 @@
 
 #### Defined in
 
-[main.ts:139006](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L139006)
+main.ts:144433
 
 ## Properties
 
@@ -74,10 +70,9 @@ example:
 
 #### Defined in
 
-[main.ts:138984](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L138984)
+main.ts:144411
 
 ___
-
 
 ### lost\_backlinks
 
@@ -92,10 +87,9 @@ number of lost backlinks of the target
 
 #### Defined in
 
-[main.ts:138990](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L138990)
+main.ts:144417
 
 ___
-
 
 ### lost\_referring\_domains
 
@@ -110,10 +104,9 @@ number of lost referring domains of the target
 
 #### Defined in
 
-[main.ts:138996](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L138996)
+main.ts:144423
 
 ___
-
 
 ### lost\_referring\_main\_domains
 
@@ -128,10 +121,9 @@ number of lost referring main domains of the target
 
 #### Defined in
 
-[main.ts:139002](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L139002)
+main.ts:144429
 
 ___
-
 
 ### new\_backlinks
 
@@ -146,10 +138,9 @@ number of new backlinks pointing to the target
 
 #### Defined in
 
-[main.ts:138987](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L138987)
+main.ts:144414
 
 ___
-
 
 ### new\_referring\_domains
 
@@ -164,10 +155,9 @@ number of new referring domains pointing to the target
 
 #### Defined in
 
-[main.ts:138993](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L138993)
+main.ts:144420
 
 ___
-
 
 ### new\_referring\_main\_domains
 
@@ -182,10 +172,9 @@ number of new referring main domains pointing to the target
 
 #### Defined in
 
-[main.ts:138999](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L138999)
+main.ts:144426
 
 ___
-
 
 ### type
 
@@ -199,7 +188,7 @@ type of element
 
 #### Defined in
 
-[main.ts:138979](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L138979)
+main.ts:144406
 
 ## Methods
 
@@ -219,10 +208,9 @@ type of element
 
 #### Defined in
 
-[main.ts:139015](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L139015)
+main.ts:144442
 
 ___
-
 
 ### toJSON
 
@@ -240,10 +228,9 @@ ___
 
 #### Defined in
 
-[main.ts:139039](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L139039)
+main.ts:144466
 
 ___
-
 
 ### fromJS
 
@@ -261,8 +248,4 @@ ___
 
 #### Defined in
 
-[main.ts:139032](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L139032)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:144459

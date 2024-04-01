@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / ReviewResponseItemInfo
+[Documentation](../README.md) / [Exports](../modules.md) / ReviewResponseItemInfo
 
 # Class: ReviewResponseItemInfo
 
@@ -50,7 +46,7 @@
 
 #### Defined in
 
-[main.ts:20258](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L20258)
+main.ts:20714
 
 ## Properties
 
@@ -66,10 +62,9 @@ the content of response
 
 #### Defined in
 
-[main.ts:20252](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L20252)
+main.ts:20708
 
 ___
-
 
 ### timestamp
 
@@ -83,10 +78,9 @@ the time of publication
 
 #### Defined in
 
-[main.ts:20254](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L20254)
+main.ts:20710
 
 ___
-
 
 ### title
 
@@ -100,7 +94,7 @@ the title of response
 
 #### Defined in
 
-[main.ts:20250](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L20250)
+main.ts:20706
 
 ## Methods
 
@@ -120,10 +114,9 @@ the title of response
 
 #### Defined in
 
-[main.ts:20267](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L20267)
+main.ts:20723
 
 ___
-
 
 ### toJSON
 
@@ -141,10 +134,9 @@ ___
 
 #### Defined in
 
-[main.ts:20286](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L20286)
+main.ts:20742
 
 ___
-
 
 ### fromJS
 
@@ -162,8 +154,4 @@ ___
 
 #### Defined in
 
-[main.ts:20279](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L20279)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:20735

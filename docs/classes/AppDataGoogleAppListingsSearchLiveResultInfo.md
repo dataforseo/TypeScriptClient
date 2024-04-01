@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / AppDataGoogleAppListingsSearchLiveResultInfo
+[Documentation](../README.md) / [Exports](../modules.md) / AppDataGoogleAppListingsSearchLiveResultInfo
 
 # Class: AppDataGoogleAppListingsSearchLiveResultInfo
 
@@ -52,7 +48,7 @@
 
 #### Defined in
 
-[main.ts:182383](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L182383)
+main.ts:187836
 
 ## Properties
 
@@ -68,10 +64,9 @@ the number of items in the results array
 
 #### Defined in
 
-[main.ts:182372](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L182372)
+main.ts:187825
 
 ___
-
 
 ### items
 
@@ -85,10 +80,9 @@ array of apps and related data
 
 #### Defined in
 
-[main.ts:182379](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L182379)
+main.ts:187832
 
 ___
-
 
 ### offset
 
@@ -102,10 +96,9 @@ offset in the results array of returned apps
 
 #### Defined in
 
-[main.ts:182374](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L182374)
+main.ts:187827
 
 ___
-
 
 ### offset\_token
 
@@ -120,10 +113,9 @@ you can use this parameter in the POST request to avoid timeouts while trying to
 
 #### Defined in
 
-[main.ts:182377](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L182377)
+main.ts:187830
 
 ___
-
 
 ### total\_count
 
@@ -137,7 +129,7 @@ the total number of relevant results in the database
 
 #### Defined in
 
-[main.ts:182370](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L182370)
+main.ts:187823
 
 ## Methods
 
@@ -157,10 +149,9 @@ the total number of relevant results in the database
 
 #### Defined in
 
-[main.ts:182392](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L182392)
+main.ts:187845
 
 ___
-
 
 ### toJSON
 
@@ -178,10 +169,9 @@ ___
 
 #### Defined in
 
-[main.ts:182417](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L182417)
+main.ts:187870
 
 ___
-
 
 ### fromJS
 
@@ -199,8 +189,4 @@ ___
 
 #### Defined in
 
-[main.ts:182410](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L182410)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:187863

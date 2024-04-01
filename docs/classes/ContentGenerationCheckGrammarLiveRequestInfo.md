@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / ContentGenerationCheckGrammarLiveRequestInfo
+[Documentation](../README.md) / [Exports](../modules.md) / ContentGenerationCheckGrammarLiveRequestInfo
 
 # Class: ContentGenerationCheckGrammarLiveRequestInfo
 
@@ -51,7 +47,7 @@
 
 #### Defined in
 
-[main.ts:161400](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L161400)
+main.ts:166827
 
 ## Properties
 
@@ -69,10 +65,9 @@ see the List of Languages for Content Generation Check Grammar API
 
 #### Defined in
 
-[main.ts:161386](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L161386)
+main.ts:166813
 
 ___
-
 
 ### language\_name
 
@@ -88,10 +83,9 @@ see the List of Languages for Content Generation Check Grammar API
 
 #### Defined in
 
-[main.ts:161390](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L161390)
+main.ts:166817
 
 ___
-
 
 ### tag
 
@@ -109,10 +103,9 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-[main.ts:161396](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L161396)
+main.ts:166823
 
 ___
-
 
 ### text
 
@@ -129,7 +122,7 @@ learn more about tokens on our help center
 
 #### Defined in
 
-[main.ts:161382](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L161382)
+main.ts:166809
 
 ## Methods
 
@@ -149,10 +142,9 @@ learn more about tokens on our help center
 
 #### Defined in
 
-[main.ts:161409](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L161409)
+main.ts:166836
 
 ___
-
 
 ### toJSON
 
@@ -170,10 +162,9 @@ ___
 
 #### Defined in
 
-[main.ts:161429](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L161429)
+main.ts:166856
 
 ___
-
 
 ### fromJS
 
@@ -191,8 +182,4 @@ ___
 
 #### Defined in
 
-[main.ts:161422](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L161422)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:166849

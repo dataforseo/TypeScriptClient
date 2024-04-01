@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / OnPageNonIndexableRequestInfo
+[Documentation](../README.md) / [Exports](../modules.md) / OnPageNonIndexableRequestInfo
 
 # Class: OnPageNonIndexableRequestInfo
 
@@ -51,7 +47,7 @@
 
 #### Defined in
 
-[main.ts:149289](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L149289)
+main.ts:154716
 
 ## Properties
 
@@ -81,10 +77,9 @@ The full list of possible filters is available by this link.
 
 #### Defined in
 
-[main.ts:149285](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L149285)
+main.ts:154712
 
 ___
-
 
 ### id
 
@@ -102,10 +97,9 @@ example:
 
 #### Defined in
 
-[main.ts:149259](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L149259)
+main.ts:154686
 
 ___
-
 
 ### limit
 
@@ -122,10 +116,9 @@ maximum value: 1000
 
 #### Defined in
 
-[main.ts:149264](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L149264)
+main.ts:154691
 
 ___
-
 
 ### offset
 
@@ -142,7 +135,7 @@ if you specify the 10 value, the first ten pages in the results array will be om
 
 #### Defined in
 
-[main.ts:149269](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L149269)
+main.ts:154696
 
 ## Methods
 
@@ -162,10 +155,9 @@ if you specify the 10 value, the first ten pages in the results array will be om
 
 #### Defined in
 
-[main.ts:149298](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L149298)
+main.ts:154725
 
 ___
-
 
 ### toJSON
 
@@ -183,10 +175,9 @@ ___
 
 #### Defined in
 
-[main.ts:149322](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L149322)
+main.ts:154749
 
 ___
-
 
 ### fromJS
 
@@ -204,8 +195,4 @@ ___
 
 #### Defined in
 
-[main.ts:149315](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L149315)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:154742

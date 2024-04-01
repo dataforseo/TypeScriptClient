@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / AppendixFunctionTypeInfo
+[Documentation](../README.md) / [Exports](../modules.md) / AppendixFunctionTypeInfo
 
 # Class: AppendixFunctionTypeInfo
 
@@ -50,7 +46,7 @@
 
 #### Defined in
 
-[main.ts:206487](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L206487)
+main.ts:211948
 
 ## Properties
 
@@ -64,10 +60,9 @@
 
 #### Defined in
 
-[main.ts:206482](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L206482)
+main.ts:211943
 
 ___
-
 
 ### html
 
@@ -79,10 +74,9 @@ ___
 
 #### Defined in
 
-[main.ts:206483](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L206483)
+main.ts:211944
 
 ___
-
 
 ### regular
 
@@ -94,7 +88,7 @@ ___
 
 #### Defined in
 
-[main.ts:206481](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L206481)
+main.ts:211942
 
 ## Methods
 
@@ -114,10 +108,9 @@ ___
 
 #### Defined in
 
-[main.ts:206496](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L206496)
+main.ts:211957
 
 ___
-
 
 ### toJSON
 
@@ -135,10 +128,9 @@ ___
 
 #### Defined in
 
-[main.ts:206515](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L206515)
+main.ts:211976
 
 ___
-
 
 ### fromJS
 
@@ -156,8 +148,4 @@ ___
 
 #### Defined in
 
-[main.ts:206508](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L206508)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:211969

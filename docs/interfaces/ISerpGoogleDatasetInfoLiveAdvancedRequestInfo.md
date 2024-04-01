@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / ISerpGoogleDatasetInfoLiveAdvancedRequestInfo
+[Documentation](../README.md) / [Exports](../modules.md) / ISerpGoogleDatasetInfoLiveAdvancedRequestInfo
 
 # Interface: ISerpGoogleDatasetInfoLiveAdvancedRequestInfo
 
@@ -39,10 +35,9 @@ L2cvMTFqbl85ZHN6MQ==
 
 #### Defined in
 
-[main.ts:52840](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L52840)
+main.ts:55215
 
 ___
-
 
 ### device
 
@@ -54,10 +49,9 @@ possible value: desktop
 
 #### Defined in
 
-[main.ts:52856](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L52856)
+main.ts:55231
 
 ___
-
 
 ### language\_code
 
@@ -71,10 +65,9 @@ en
 
 #### Defined in
 
-[main.ts:52852](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L52852)
+main.ts:55227
 
 ___
-
 
 ### language\_name
 
@@ -88,10 +81,9 @@ English
 
 #### Defined in
 
-[main.ts:52846](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L52846)
+main.ts:55221
 
 ___
-
 
 ### os
 
@@ -104,10 +96,9 @@ default value: windows
 
 #### Defined in
 
-[main.ts:52861](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L52861)
+main.ts:55236
 
 ___
-
 
 ### tag
 
@@ -121,8 +112,4 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-[main.ts:52867](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L52867)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:55242

@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / DataforseoLabsGoogleHistoricalSerpsLiveResultInfo
+[Documentation](../README.md) / [Exports](../modules.md) / DataforseoLabsGoogleHistoricalSerpsLiveResultInfo
 
 # Class: DataforseoLabsGoogleHistoricalSerpsLiveResultInfo
 
@@ -54,7 +50,7 @@
 
 #### Defined in
 
-[main.ts:92265](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L92265)
+main.ts:94642
 
 ## Properties
 
@@ -70,10 +66,9 @@ contains results featured in the ‘hotels_pack’ element of SERP
 
 #### Defined in
 
-[main.ts:92261](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L92261)
+main.ts:94638
 
 ___
-
 
 ### items\_count
 
@@ -87,10 +82,9 @@ the number of results returned in the items array
 
 #### Defined in
 
-[main.ts:92259](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L92259)
+main.ts:94636
 
 ___
-
 
 ### keyword
 
@@ -105,10 +99,9 @@ the keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to
 
 #### Defined in
 
-[main.ts:92251](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L92251)
+main.ts:94628
 
 ___
-
 
 ### language\_code
 
@@ -122,10 +115,9 @@ language code in a POST array
 
 #### Defined in
 
-[main.ts:92255](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L92255)
+main.ts:94632
 
 ___
-
 
 ### location\_code
 
@@ -139,10 +131,9 @@ location code in a POST array
 
 #### Defined in
 
-[main.ts:92253](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L92253)
+main.ts:94630
 
 ___
-
 
 ### se\_type
 
@@ -156,10 +147,9 @@ search engine type
 
 #### Defined in
 
-[main.ts:92248](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L92248)
+main.ts:94625
 
 ___
-
 
 ### total\_count
 
@@ -173,7 +163,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-[main.ts:92257](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L92257)
+main.ts:94634
 
 ## Methods
 
@@ -193,10 +183,9 @@ the number of results returned in the items array
 
 #### Defined in
 
-[main.ts:92274](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L92274)
+main.ts:94651
 
 ___
-
 
 ### toJSON
 
@@ -214,10 +203,9 @@ ___
 
 #### Defined in
 
-[main.ts:92301](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L92301)
+main.ts:94678
 
 ___
-
 
 ### fromJS
 
@@ -235,8 +223,4 @@ ___
 
 #### Defined in
 
-[main.ts:92294](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L92294)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:94671

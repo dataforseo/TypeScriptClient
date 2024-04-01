@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / AuthorsElement
+[Documentation](../README.md) / [Exports](../modules.md) / AuthorsElement
 
 # Class: AuthorsElement
 
@@ -51,7 +47,7 @@
 
 #### Defined in
 
-[main.ts:50636](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L50636)
+main.ts:53011
 
 ## Properties
 
@@ -67,10 +63,9 @@ author’s link domain
 
 #### Defined in
 
-[main.ts:50632](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L50632)
+main.ts:53007
 
 ___
-
 
 ### name
 
@@ -84,10 +79,9 @@ name of the dataset author
 
 #### Defined in
 
-[main.ts:50628](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L50628)
+main.ts:53003
 
 ___
-
 
 ### type
 
@@ -101,10 +95,9 @@ type of element
 
 #### Defined in
 
-[main.ts:50626](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L50626)
+main.ts:53001
 
 ___
-
 
 ### url
 
@@ -118,7 +111,7 @@ author’s link URL
 
 #### Defined in
 
-[main.ts:50630](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L50630)
+main.ts:53005
 
 ## Methods
 
@@ -138,10 +131,9 @@ author’s link URL
 
 #### Defined in
 
-[main.ts:50645](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L50645)
+main.ts:53020
 
 ___
-
 
 ### toJSON
 
@@ -159,10 +151,9 @@ ___
 
 #### Defined in
 
-[main.ts:50665](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L50665)
+main.ts:53040
 
 ___
-
 
 ### fromJS
 
@@ -180,8 +171,4 @@ ___
 
 #### Defined in
 
-[main.ts:50658](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L50658)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:53033

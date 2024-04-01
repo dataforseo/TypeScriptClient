@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / BusinessDataYelpSearchTaskGetResultInfo
+[Documentation](../README.md) / [Exports](../modules.md) / BusinessDataYelpSearchTaskGetResultInfo
 
 # Class: BusinessDataYelpSearchTaskGetResultInfo
 
@@ -57,7 +53,7 @@
 
 #### Defined in
 
-[main.ts:204457](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L204457)
+main.ts:209918
 
 ## Properties
 
@@ -74,10 +70,9 @@ you can use it to make sure that we provided accurate results
 
 #### Defined in
 
-[main.ts:204437](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L204437)
+main.ts:209898
 
 ___
-
 
 ### datetime
 
@@ -94,10 +89,9 @@ example:
 
 #### Defined in
 
-[main.ts:204442](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L204442)
+main.ts:209903
 
 ___
-
 
 ### item\_types
 
@@ -112,10 +106,9 @@ possible item types: yelp_search_organic, yelp_search_paid
 
 #### Defined in
 
-[main.ts:204445](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L204445)
+main.ts:209906
 
 ___
-
 
 ### items
 
@@ -130,10 +123,9 @@ you can get more results by using the depth parameter when setting a task
 
 #### Defined in
 
-[main.ts:204453](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L204453)
+main.ts:209914
 
 ___
-
 
 ### items\_count
 
@@ -148,10 +140,9 @@ you can get more results by using the depth parameter when setting a task
 
 #### Defined in
 
-[main.ts:204450](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L204450)
+main.ts:209911
 
 ___
-
 
 ### keyword
 
@@ -166,10 +157,9 @@ this field will contain the alias parameter if it was specified in a POST array
 
 #### Defined in
 
-[main.ts:204427](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L204427)
+main.ts:209888
 
 ___
-
 
 ### language\_code
 
@@ -183,10 +173,9 @@ language code in a POST array
 
 #### Defined in
 
-[main.ts:204434](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L204434)
+main.ts:209895
 
 ___
-
 
 ### location\_code
 
@@ -201,10 +190,9 @@ if location_code was not specified in a POST array, the value equals null
 
 #### Defined in
 
-[main.ts:204432](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L204432)
+main.ts:209893
 
 ___
-
 
 ### se\_domain
 
@@ -218,10 +206,9 @@ search engine domain in a POST array
 
 #### Defined in
 
-[main.ts:204429](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L204429)
+main.ts:209890
 
 ___
-
 
 ### se\_results\_count
 
@@ -235,7 +222,7 @@ the total number of results
 
 #### Defined in
 
-[main.ts:204447](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L204447)
+main.ts:209908
 
 ## Methods
 
@@ -255,10 +242,9 @@ the total number of results
 
 #### Defined in
 
-[main.ts:204466](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L204466)
+main.ts:209927
 
 ___
-
 
 ### toJSON
 
@@ -276,10 +262,9 @@ ___
 
 #### Defined in
 
-[main.ts:204500](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L204500)
+main.ts:209961
 
 ___
-
 
 ### fromJS
 
@@ -297,8 +282,4 @@ ___
 
 #### Defined in
 
-[main.ts:204493](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L204493)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:209954

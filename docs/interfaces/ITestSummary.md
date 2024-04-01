@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / ITestSummary
+[Documentation](../README.md) / [Exports](../modules.md) / ITestSummary
 
 # Interface: ITestSummary
 
@@ -33,10 +29,9 @@ number of serious microdata errors
 
 #### Defined in
 
-[main.ts:150638](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L150638)
+main.ts:156065
 
 ___
-
 
 ### fatal
 
@@ -46,10 +41,9 @@ number of fatal microdata errors
 
 #### Defined in
 
-[main.ts:150636](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L150636)
+main.ts:156063
 
 ___
-
 
 ### info
 
@@ -59,10 +53,9 @@ number of microdata information flags
 
 #### Defined in
 
-[main.ts:150642](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L150642)
+main.ts:156069
 
 ___
-
 
 ### warning
 
@@ -72,8 +65,4 @@ number of microdata warnings
 
 #### Defined in
 
-[main.ts:150640](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L150640)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:156067

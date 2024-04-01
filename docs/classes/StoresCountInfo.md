@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / StoresCountInfo
+[Documentation](../README.md) / [Exports](../modules.md) / StoresCountInfo
 
 # Class: StoresCountInfo
 
@@ -50,7 +46,7 @@
 
 #### Defined in
 
-[main.ts:164597](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L164597)
+main.ts:170024
 
 ## Properties
 
@@ -66,10 +62,9 @@ number of stores that offer the product
 
 #### Defined in
 
-[main.ts:164585](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L164585)
+main.ts:170012
 
 ___
-
 
 ### count\_from\_text
 
@@ -87,10 +82,9 @@ in this case, the parameter is true
 
 #### Defined in
 
-[main.ts:164593](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L164593)
+main.ts:170020
 
 ___
-
 
 ### displayed\_text
 
@@ -104,7 +98,7 @@ text displayed on the Google Shopping page
 
 #### Defined in
 
-[main.ts:164587](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L164587)
+main.ts:170014
 
 ## Methods
 
@@ -124,10 +118,9 @@ text displayed on the Google Shopping page
 
 #### Defined in
 
-[main.ts:164606](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L164606)
+main.ts:170033
 
 ___
-
 
 ### toJSON
 
@@ -145,10 +138,9 @@ ___
 
 #### Defined in
 
-[main.ts:164625](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L164625)
+main.ts:170052
 
 ___
-
 
 ### fromJS
 
@@ -166,8 +158,4 @@ ___
 
 #### Defined in
 
-[main.ts:164618](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L164618)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:170045

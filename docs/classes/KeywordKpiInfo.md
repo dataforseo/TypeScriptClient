@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / KeywordKpiInfo
+[Documentation](../README.md) / [Exports](../modules.md) / KeywordKpiInfo
 
 # Class: KeywordKpiInfo
 
@@ -54,7 +50,7 @@
 
 #### Defined in
 
-[main.ts:127159](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L127159)
+main.ts:132526
 
 ## Properties
 
@@ -85,10 +81,9 @@ MainLine4: The fourth ad to appear at the top of the search results page
 
 #### Defined in
 
-[main.ts:127138](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L127138)
+main.ts:132505
 
 ___
-
 
 ### average\_bid
 
@@ -102,10 +97,9 @@ average bid of the keyword
 
 #### Defined in
 
-[main.ts:127155](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L127155)
+main.ts:132522
 
 ___
-
 
 ### average\_cpc
 
@@ -120,10 +114,9 @@ calculated by dividing the cost of all clicks by the number of clicks
 
 #### Defined in
 
-[main.ts:127147](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L127147)
+main.ts:132514
 
 ___
-
 
 ### clicks
 
@@ -138,10 +131,9 @@ the number of clicks that the keyword and match type generated during the last m
 
 #### Defined in
 
-[main.ts:127141](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L127141)
+main.ts:132508
 
 ___
-
 
 ### ctr
 
@@ -156,10 +148,9 @@ calculated by dividing the number of clicks by the number of impressions and mul
 
 #### Defined in
 
-[main.ts:127150](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L127150)
+main.ts:132517
 
 ___
-
 
 ### impressions
 
@@ -174,10 +165,9 @@ the number of impressions that the keyword and match type generated during the l
 
 #### Defined in
 
-[main.ts:127144](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L127144)
+main.ts:132511
 
 ___
-
 
 ### total\_cost
 
@@ -192,7 +182,7 @@ the cost of using the specified keyword and match type during the last month
 
 #### Defined in
 
-[main.ts:127153](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L127153)
+main.ts:132520
 
 ## Methods
 
@@ -212,10 +202,9 @@ the cost of using the specified keyword and match type during the last month
 
 #### Defined in
 
-[main.ts:127168](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L127168)
+main.ts:132535
 
 ___
-
 
 ### toJSON
 
@@ -233,10 +222,9 @@ ___
 
 #### Defined in
 
-[main.ts:127191](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L127191)
+main.ts:132558
 
 ___
-
 
 ### fromJS
 
@@ -254,8 +242,4 @@ ___
 
 #### Defined in
 
-[main.ts:127184](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L127184)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:132551

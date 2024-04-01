@@ -1,15 +1,11 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IEventItemSerpElementItem
+[Documentation](../README.md) / [Exports](../modules.md) / IEventItemSerpElementItem
 
 # Interface: IEventItemSerpElementItem
 
 ## Hierarchy
 
 - [`IBaseSerpElementItem`](IBaseSerpElementItem.md)
-  
+
   ↳ **`IEventItemSerpElementItem`**
 
 ## Implemented by
@@ -46,10 +42,9 @@ description of the results element in SERP
 
 #### Defined in
 
-[main.ts:44780](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L44780)
+main.ts:45531
 
 ___
-
 
 ### event\_dates
 
@@ -60,10 +55,9 @@ if there are none, equals null
 
 #### Defined in
 
-[main.ts:44787](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L44787)
+main.ts:45538
 
 ___
-
 
 ### image\_url
 
@@ -73,10 +67,9 @@ URL of the image featured in the element
 
 #### Defined in
 
-[main.ts:44784](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L44784)
+main.ts:45535
 
 ___
-
 
 ### information\_and\_tickets
 
@@ -87,10 +80,9 @@ if there is none, equals null
 
 #### Defined in
 
-[main.ts:44793](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L44793)
+main.ts:45544
 
 ___
-
 
 ### location\_info
 
@@ -101,10 +93,9 @@ if there is none, equals null
 
 #### Defined in
 
-[main.ts:44790](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L44790)
+main.ts:45541
 
 ___
-
 
 ### position
 
@@ -116,10 +107,9 @@ left, right
 
 #### Defined in
 
-[main.ts:44774](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L44774)
+main.ts:45525
 
 ___
-
 
 ### rank\_absolute
 
@@ -130,10 +120,9 @@ absolute position among all the elements in SERP
 
 #### Defined in
 
-[main.ts:44770](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L44770)
+main.ts:45521
 
 ___
-
 
 ### rank\_group
 
@@ -145,10 +134,9 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-[main.ts:44767](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L44767)
+main.ts:45518
 
 ___
-
 
 ### title
 
@@ -158,10 +146,9 @@ title of the result in SERP
 
 #### Defined in
 
-[main.ts:44778](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L44778)
+main.ts:45529
 
 ___
-
 
 ### url
 
@@ -171,10 +158,9 @@ relevant URL
 
 #### Defined in
 
-[main.ts:44782](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L44782)
+main.ts:45533
 
 ___
-
 
 ### xpath
 
@@ -184,8 +170,4 @@ the XPath of the element
 
 #### Defined in
 
-[main.ts:44776](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L44776)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:45527

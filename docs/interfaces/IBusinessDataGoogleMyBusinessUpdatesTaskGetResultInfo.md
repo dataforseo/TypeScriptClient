@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IBusinessDataGoogleMyBusinessUpdatesTaskGetResultInfo
+[Documentation](../README.md) / [Exports](../modules.md) / IBusinessDataGoogleMyBusinessUpdatesTaskGetResultInfo
 
 # Interface: IBusinessDataGoogleMyBusinessUpdatesTaskGetResultInfo
 
@@ -41,10 +37,9 @@ identifier of the business updates element in SERP
 
 #### Defined in
 
-[main.ts:192628](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L192628)
+main.ts:198089
 
 ___
-
 
 ### check\_url
 
@@ -55,10 +50,9 @@ you can use it to make sure that we provided accurate results
 
 #### Defined in
 
-[main.ts:192621](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L192621)
+main.ts:198082
 
 ___
-
 
 ### cid
 
@@ -70,10 +64,9 @@ learn more about the cid identifier in this help center article
 
 #### Defined in
 
-[main.ts:192632](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L192632)
+main.ts:198093
 
 ___
-
 
 ### datetime
 
@@ -86,10 +79,9 @@ example:
 
 #### Defined in
 
-[main.ts:192626](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L192626)
+main.ts:198087
 
 ___
-
 
 ### feature\_id
 
@@ -100,10 +92,9 @@ learn more about the identifier in this help center article
 
 #### Defined in
 
-[main.ts:192635](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L192635)
+main.ts:198096
 
 ___
-
 
 ### item\_types
 
@@ -115,10 +106,9 @@ possible item types: google_business_post
 
 #### Defined in
 
-[main.ts:192639](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L192639)
+main.ts:198100
 
 ___
-
 
 ### items
 
@@ -130,10 +120,9 @@ possible item types: google_business_info
 
 #### Defined in
 
-[main.ts:192646](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L192646)
+main.ts:198107
 
 ___
-
 
 ### items\_count
 
@@ -144,10 +133,9 @@ the number of items in the items array
 
 #### Defined in
 
-[main.ts:192642](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L192642)
+main.ts:198103
 
 ___
-
 
 ### keyword
 
@@ -162,10 +150,9 @@ learn more about the parameter in this help center article
 
 #### Defined in
 
-[main.ts:192612](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L192612)
+main.ts:198073
 
 ___
-
 
 ### language\_code
 
@@ -175,10 +162,9 @@ language code in a POST array
 
 #### Defined in
 
-[main.ts:192618](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L192618)
+main.ts:198079
 
 ___
-
 
 ### location\_code
 
@@ -188,10 +174,9 @@ location code in a POST array
 
 #### Defined in
 
-[main.ts:192616](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L192616)
+main.ts:198077
 
 ___
-
 
 ### se\_domain
 
@@ -201,8 +186,4 @@ search engine domain as specified in a POST array
 
 #### Defined in
 
-[main.ts:192614](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L192614)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:198075

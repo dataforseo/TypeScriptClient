@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IDataforseoLabsGoogleDomainWhoisOverviewLiveItem
+[Documentation](../README.md) / [Exports](../modules.md) / IDataforseoLabsGoogleDomainWhoisOverviewLiveItem
 
 # Interface: IDataforseoLabsGoogleDomainWhoisOverviewLiveItem
 
@@ -42,10 +38,9 @@ backlink data for the returned domain
 
 #### Defined in
 
-[main.ts:85823](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L85823)
+main.ts:88200
 
 ___
-
 
 ### changed\_datetime
 
@@ -58,10 +53,9 @@ example:
 
 #### Defined in
 
-[main.ts:85789](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L85789)
+main.ts:88166
 
 ___
-
 
 ### created\_datetime
 
@@ -74,10 +68,9 @@ example:
 
 #### Defined in
 
-[main.ts:85784](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L85784)
+main.ts:88161
 
 ___
-
 
 ### domain
 
@@ -87,10 +80,9 @@ domain name
 
 #### Defined in
 
-[main.ts:85779](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L85779)
+main.ts:88156
 
 ___
-
 
 ### epp\_status\_codes
 
@@ -101,10 +93,9 @@ the status of a domain name registration as defined by ICANN
 
 #### Defined in
 
-[main.ts:85807](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L85807)
+main.ts:88184
 
 ___
-
 
 ### expiration\_datetime
 
@@ -117,10 +108,9 @@ example:
 
 #### Defined in
 
-[main.ts:85794](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L85794)
+main.ts:88171
 
 ___
-
 
 ### first\_seen
 
@@ -133,10 +123,9 @@ example:
 
 #### Defined in
 
-[main.ts:85804](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L85804)
+main.ts:88181
 
 ___
-
 
 ### metrics
 
@@ -150,10 +139,9 @@ ranking data relevant to the specified domain
 
 #### Defined in
 
-[main.ts:85821](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L85821)
+main.ts:88198
 
 ___
-
 
 ### registered
 
@@ -165,10 +153,9 @@ Note: expired domains will remain in the database for only a short period of tim
 
 #### Defined in
 
-[main.ts:85814](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L85814)
+main.ts:88191
 
 ___
-
 
 ### registrar
 
@@ -181,10 +168,9 @@ NameCheap, Inc.
 
 #### Defined in
 
-[main.ts:85819](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L85819)
+main.ts:88196
 
 ___
-
 
 ### se\_type
 
@@ -194,10 +180,9 @@ search engine type
 
 #### Defined in
 
-[main.ts:85777](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L85777)
+main.ts:88154
 
 ___
-
 
 ### tld
 
@@ -208,10 +193,9 @@ top-level domain in the DNS root zone
 
 #### Defined in
 
-[main.ts:85810](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L85810)
+main.ts:88187
 
 ___
-
 
 ### updated\_datetime
 
@@ -224,8 +208,4 @@ example:
 
 #### Defined in
 
-[main.ts:85799](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L85799)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:88176

@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / DataforseoLabsAmazonProductCompetitorsLiveItem
+[Documentation](../README.md) / [Exports](../modules.md) / DataforseoLabsAmazonProductCompetitorsLiveItem
 
 # Class: DataforseoLabsAmazonProductCompetitorsLiveItem
 
@@ -54,7 +50,7 @@
 
 #### Defined in
 
-[main.ts:101235](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L101235)
+main.ts:103612
 
 ## Properties
 
@@ -72,10 +68,9 @@ for more information, refer to this help center guide
 
 #### Defined in
 
-[main.ts:101214](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L101214)
+main.ts:103591
 
 ___
-
 
 ### avg\_position
 
@@ -91,10 +86,9 @@ the value for a given product may differ when combined with different target pro
 
 #### Defined in
 
-[main.ts:101218](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L101218)
+main.ts:103595
 
 ___
-
 
 ### competitor\_metrics
 
@@ -110,10 +104,9 @@ Note: in this object ranking data is provided for the returned competitor’s as
 
 #### Defined in
 
-[main.ts:101228](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L101228)
+main.ts:103605
 
 ___
-
 
 ### full\_metrics
 
@@ -128,10 +121,9 @@ full overview of ranking data relevant to all keywords that the provided asin is
 
 #### Defined in
 
-[main.ts:101231](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L101231)
+main.ts:103608
 
 ___
-
 
 ### intersections
 
@@ -145,10 +137,9 @@ number of intersecting keywords
 
 #### Defined in
 
-[main.ts:101224](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L101224)
+main.ts:103601
 
 ___
-
 
 ### se\_type
 
@@ -162,10 +153,9 @@ search engine type
 
 #### Defined in
 
-[main.ts:101210](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L101210)
+main.ts:103587
 
 ___
-
 
 ### sum\_position
 
@@ -181,7 +171,7 @@ the value for a given product may differ when combined with different target pro
 
 #### Defined in
 
-[main.ts:101222](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L101222)
+main.ts:103599
 
 ## Methods
 
@@ -201,10 +191,9 @@ the value for a given product may differ when combined with different target pro
 
 #### Defined in
 
-[main.ts:101244](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L101244)
+main.ts:103621
 
 ___
-
 
 ### toJSON
 
@@ -222,10 +211,9 @@ ___
 
 #### Defined in
 
-[main.ts:101267](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L101267)
+main.ts:103644
 
 ___
-
 
 ### fromJS
 
@@ -243,8 +231,4 @@ ___
 
 #### Defined in
 
-[main.ts:101260](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L101260)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:103637

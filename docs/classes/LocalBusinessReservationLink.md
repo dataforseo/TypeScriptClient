@@ -1,15 +1,11 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / LocalBusinessReservationLink
+[Documentation](../README.md) / [Exports](../modules.md) / LocalBusinessReservationLink
 
 # Class: LocalBusinessReservationLink
 
 ## Hierarchy
 
 - [`BaseLocalBusinessLink`](BaseLocalBusinessLink.md)
-  
+
   ↳ **`LocalBusinessReservationLink`**
 
 ## Implements
@@ -60,7 +56,7 @@
 
 #### Defined in
 
-[main.ts:22275](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L22275)
+main.ts:22794
 
 ## Properties
 
@@ -74,10 +70,9 @@
 
 #### Defined in
 
-[main.ts:22207](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L22207)
+main.ts:22726
 
 ___
-
 
 ### title
 
@@ -92,10 +87,9 @@ domain of the reservation software
 
 #### Defined in
 
-[main.ts:22269](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L22269)
+main.ts:22788
 
 ___
-
 
 ### url
 
@@ -109,7 +103,7 @@ URL to make a reservation
 
 #### Defined in
 
-[main.ts:22271](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L22271)
+main.ts:22790
 
 ## Methods
 
@@ -133,10 +127,9 @@ URL to make a reservation
 
 #### Defined in
 
-[main.ts:22280](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L22280)
+main.ts:22799
 
 ___
-
 
 ### toJSON
 
@@ -158,10 +151,9 @@ ___
 
 #### Defined in
 
-[main.ts:22299](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L22299)
+main.ts:22818
 
 ___
-
 
 ### fromJS
 
@@ -183,8 +175,4 @@ ___
 
 #### Defined in
 
-[main.ts:22292](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L22292)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:22811

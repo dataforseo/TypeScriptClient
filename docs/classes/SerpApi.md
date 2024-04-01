@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / SerpApi
+[Documentation](../README.md) / [Exports](../modules.md) / SerpApi
 
 # Class: SerpApi
 
@@ -43,6 +39,11 @@
 - [bingOrganicTaskPost](SerpApi.md#bingorganictaskpost)
 - [bingOrganicTasksFixed](SerpApi.md#bingorganictasksfixed)
 - [bingOrganicTasksReady](SerpApi.md#bingorganictasksready)
+- [googleAutocompleteLiveAdvanced](SerpApi.md#googleautocompleteliveadvanced)
+- [googleAutocompleteTaskGetAdvanced](SerpApi.md#googleautocompletetaskgetadvanced)
+- [googleAutocompleteTaskPost](SerpApi.md#googleautocompletetaskpost)
+- [googleAutocompleteTasksFixed](SerpApi.md#googleautocompletetasksfixed)
+- [googleAutocompleteTasksReady](SerpApi.md#googleautocompletetasksready)
 - [googleDatasetInfoLiveAdvanced](SerpApi.md#googledatasetinfoliveadvanced)
 - [googleDatasetInfoTaskGetAdvanced](SerpApi.md#googledatasetinfotaskgetadvanced)
 - [googleDatasetInfoTaskPost](SerpApi.md#googledatasetinfotaskpost)
@@ -131,6 +132,11 @@
 - [processBingOrganicTaskPost](SerpApi.md#processbingorganictaskpost)
 - [processBingOrganicTasksFixed](SerpApi.md#processbingorganictasksfixed)
 - [processBingOrganicTasksReady](SerpApi.md#processbingorganictasksready)
+- [processGoogleAutocompleteLiveAdvanced](SerpApi.md#processgoogleautocompleteliveadvanced)
+- [processGoogleAutocompleteTaskGetAdvanced](SerpApi.md#processgoogleautocompletetaskgetadvanced)
+- [processGoogleAutocompleteTaskPost](SerpApi.md#processgoogleautocompletetaskpost)
+- [processGoogleAutocompleteTasksFixed](SerpApi.md#processgoogleautocompletetasksfixed)
+- [processGoogleAutocompleteTasksReady](SerpApi.md#processgoogleautocompletetasksready)
 - [processGoogleDatasetInfoLiveAdvanced](SerpApi.md#processgoogledatasetinfoliveadvanced)
 - [processGoogleDatasetInfoTaskGetAdvanced](SerpApi.md#processgoogledatasetinfotaskgetadvanced)
 - [processGoogleDatasetInfoTaskPost](SerpApi.md#processgoogledatasetinfotaskpost)
@@ -319,7 +325,7 @@
 
 #### Defined in
 
-[main.ts:16](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L16)
+main.ts:16
 
 ## Properties
 
@@ -329,10 +335,9 @@
 
 #### Defined in
 
-[main.ts:13](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L13)
+main.ts:13
 
 ___
-
 
 ### http
 
@@ -346,10 +351,9 @@ ___
 
 #### Defined in
 
-[main.ts:12](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L12)
+main.ts:12
 
 ___
-
 
 ### jsonParseReviver
 
@@ -372,7 +376,7 @@ ___
 
 #### Defined in
 
-[main.ts:14](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L14)
+main.ts:14
 
 ## Methods
 
@@ -394,10 +398,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:151](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L151)
+main.ts:151
 
 ___
-
 
 ### baiduOrganicTaskGetAdvanced
 
@@ -417,10 +420,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:4976](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L4976)
+main.ts:5177
 
 ___
-
 
 ### baiduOrganicTaskGetHtml
 
@@ -440,10 +442,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:5019](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L5019)
+main.ts:5220
 
 ___
-
 
 ### baiduOrganicTaskGetRegular
 
@@ -463,10 +464,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:4933](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L4933)
+main.ts:5134
 
 ___
-
 
 ### baiduOrganicTaskPost
 
@@ -486,10 +486,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:4815](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L4815)
+main.ts:5016
 
 ___
-
 
 ### baiduOrganicTasksFixed
 
@@ -503,10 +502,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:4893](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L4893)
+main.ts:5094
 
 ___
-
 
 ### baiduOrganicTasksReady
 
@@ -520,10 +518,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:4856](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L4856)
+main.ts:5057
 
 ___
-
 
 ### bingLocalPackLiveHtml
 
@@ -543,10 +540,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:3442](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L3442)
+main.ts:3643
 
 ___
-
 
 ### bingLocalPackLiveRegular
 
@@ -566,10 +562,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:3400](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L3400)
+main.ts:3601
 
 ___
-
 
 ### bingLocalPackTaskGetHtml
 
@@ -589,10 +584,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:3359](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L3359)
+main.ts:3560
 
 ___
-
 
 ### bingLocalPackTaskGetRegular
 
@@ -612,10 +606,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:3316](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L3316)
+main.ts:3517
 
 ___
-
 
 ### bingLocalPackTaskPost
 
@@ -635,10 +628,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:3198](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L3198)
+main.ts:3399
 
 ___
-
 
 ### bingLocalPackTasksFixed
 
@@ -652,10 +644,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:3276](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L3276)
+main.ts:3477
 
 ___
-
 
 ### bingLocalPackTasksReady
 
@@ -669,10 +660,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:3239](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L3239)
+main.ts:3440
 
 ___
-
 
 ### bingOrganicLiveAdvanced
 
@@ -692,10 +682,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:3114](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L3114)
+main.ts:3315
 
 ___
-
 
 ### bingOrganicLiveHtml
 
@@ -715,10 +704,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:3156](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L3156)
+main.ts:3357
 
 ___
-
 
 ### bingOrganicLiveRegular
 
@@ -738,10 +726,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:3072](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L3072)
+main.ts:3273
 
 ___
-
 
 ### bingOrganicTaskGetAdvanced
 
@@ -761,10 +748,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:2988](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L2988)
+main.ts:3189
 
 ___
-
 
 ### bingOrganicTaskGetHtml
 
@@ -784,10 +770,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:3031](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L3031)
+main.ts:3232
 
 ___
-
 
 ### bingOrganicTaskGetRegular
 
@@ -807,10 +792,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:2945](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L2945)
+main.ts:3146
 
 ___
-
 
 ### bingOrganicTaskPost
 
@@ -830,10 +814,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:2827](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L2827)
+main.ts:3028
 
 ___
-
 
 ### bingOrganicTasksFixed
 
@@ -847,10 +830,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:2905](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L2905)
+main.ts:3106
 
 ___
-
 
 ### bingOrganicTasksReady
 
@@ -864,10 +846,107 @@ Successful operation
 
 #### Defined in
 
-[main.ts:2868](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L2868)
+main.ts:3069
 
 ___
 
+### googleAutocompleteLiveAdvanced
+
+▸ **googleAutocompleteLiveAdvanced**(`body`): `Promise`\<[`SerpGoogleAutocompleteLiveAdvancedResponseInfo`](SerpGoogleAutocompleteLiveAdvancedResponseInfo.md)\>
+
+#### Parameters
+
+| Name | Type | Description |
+| :------ | :------ | :------ |
+| `body` | [`SerpGoogleAutocompleteLiveAdvancedRequestInfo`](SerpGoogleAutocompleteLiveAdvancedRequestInfo.md)[] | (optional) |
+
+#### Returns
+
+`Promise`\<[`SerpGoogleAutocompleteLiveAdvancedResponseInfo`](SerpGoogleAutocompleteLiveAdvancedResponseInfo.md)\>
+
+Successful operation
+
+#### Defined in
+
+main.ts:2465
+
+___
+
+### googleAutocompleteTaskGetAdvanced
+
+▸ **googleAutocompleteTaskGetAdvanced**(`id`): `Promise`\<[`SerpGoogleAutocompleteTaskGetAdvancedResponseInfo`](SerpGoogleAutocompleteTaskGetAdvancedResponseInfo.md)\>
+
+#### Parameters
+
+| Name | Type | Description |
+| :------ | :------ | :------ |
+| `id` | `string` | task identifier unique task identifier in our system in the UUID format you will be able to use it within 30 days to request the results of the task at any time |
+
+#### Returns
+
+`Promise`\<[`SerpGoogleAutocompleteTaskGetAdvancedResponseInfo`](SerpGoogleAutocompleteTaskGetAdvancedResponseInfo.md)\>
+
+Successful operation
+
+#### Defined in
+
+main.ts:2424
+
+___
+
+### googleAutocompleteTaskPost
+
+▸ **googleAutocompleteTaskPost**(`body`): `Promise`\<[`SerpGoogleAutocompleteTaskPostResponseInfo`](SerpGoogleAutocompleteTaskPostResponseInfo.md)\>
+
+#### Parameters
+
+| Name | Type | Description |
+| :------ | :------ | :------ |
+| `body` | [`SerpGoogleAutocompleteTaskPostRequestInfo`](SerpGoogleAutocompleteTaskPostRequestInfo.md)[] | (optional) |
+
+#### Returns
+
+`Promise`\<[`SerpGoogleAutocompleteTaskPostResponseInfo`](SerpGoogleAutocompleteTaskPostResponseInfo.md)\>
+
+Successful operation
+
+#### Defined in
+
+main.ts:2306
+
+___
+
+### googleAutocompleteTasksFixed
+
+▸ **googleAutocompleteTasksFixed**(): `Promise`\<[`SerpGoogleAutocompleteTasksFixedResponseInfo`](SerpGoogleAutocompleteTasksFixedResponseInfo.md)\>
+
+#### Returns
+
+`Promise`\<[`SerpGoogleAutocompleteTasksFixedResponseInfo`](SerpGoogleAutocompleteTasksFixedResponseInfo.md)\>
+
+Successful operation
+
+#### Defined in
+
+main.ts:2384
+
+___
+
+### googleAutocompleteTasksReady
+
+▸ **googleAutocompleteTasksReady**(): `Promise`\<[`SerpGoogleAutocompleteTasksReadyResponseInfo`](SerpGoogleAutocompleteTasksReadyResponseInfo.md)\>
+
+#### Returns
+
+`Promise`\<[`SerpGoogleAutocompleteTasksReadyResponseInfo`](SerpGoogleAutocompleteTasksReadyResponseInfo.md)\>
+
+Successful operation
+
+#### Defined in
+
+main.ts:2347
+
+___
 
 ### googleDatasetInfoLiveAdvanced
 
@@ -887,10 +966,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:2666](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L2666)
+main.ts:2867
 
 ___
-
 
 ### googleDatasetInfoTaskGetAdvanced
 
@@ -910,10 +988,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:2625](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L2625)
+main.ts:2826
 
 ___
-
 
 ### googleDatasetInfoTaskPost
 
@@ -933,10 +1010,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:2507](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L2507)
+main.ts:2708
 
 ___
-
 
 ### googleDatasetInfoTasksFixed
 
@@ -950,10 +1026,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:2585](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L2585)
+main.ts:2786
 
 ___
-
 
 ### googleDatasetInfoTasksReady
 
@@ -967,10 +1042,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:2548](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L2548)
+main.ts:2749
 
 ___
-
 
 ### googleDatasetSearchLiveAdvanced
 
@@ -990,10 +1064,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:2465](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L2465)
+main.ts:2666
 
 ___
-
 
 ### googleDatasetSearchTaskGetAdvanced
 
@@ -1013,10 +1086,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:2424](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L2424)
+main.ts:2625
 
 ___
-
 
 ### googleDatasetSearchTaskPost
 
@@ -1036,10 +1108,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:2306](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L2306)
+main.ts:2507
 
 ___
-
 
 ### googleDatasetSearchTasksFixed
 
@@ -1053,10 +1124,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:2384](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L2384)
+main.ts:2585
 
 ___
-
 
 ### googleDatasetSearchTasksReady
 
@@ -1070,10 +1140,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:2347](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L2347)
+main.ts:2548
 
 ___
-
 
 ### googleEventsLiveAdvanced
 
@@ -1093,10 +1162,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:1617](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L1617)
+main.ts:1617
 
 ___
-
 
 ### googleEventsTaskGetAdvanced
 
@@ -1116,10 +1184,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:1576](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L1576)
+main.ts:1576
 
 ___
-
 
 ### googleEventsTaskPost
 
@@ -1139,10 +1206,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:1458](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L1458)
+main.ts:1458
 
 ___
-
 
 ### googleEventsTasksFixed
 
@@ -1156,10 +1222,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:1536](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L1536)
+main.ts:1536
 
 ___
-
 
 ### googleEventsTasksReady
 
@@ -1173,10 +1238,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:1499](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L1499)
+main.ts:1499
 
 ___
-
 
 ### googleImagesLiveAdvanced
 
@@ -1196,10 +1260,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:1861](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L1861)
+main.ts:1861
 
 ___
-
 
 ### googleImagesLiveHtml
 
@@ -1219,10 +1282,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:1903](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L1903)
+main.ts:1903
 
 ___
-
 
 ### googleImagesTaskGetAdvanced
 
@@ -1242,10 +1304,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:1777](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L1777)
+main.ts:1777
 
 ___
-
 
 ### googleImagesTaskGetHtml
 
@@ -1265,10 +1326,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:1820](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L1820)
+main.ts:1820
 
 ___
-
 
 ### googleImagesTaskPost
 
@@ -1288,10 +1348,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:1659](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L1659)
+main.ts:1659
 
 ___
-
 
 ### googleImagesTasksFixed
 
@@ -1305,10 +1364,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:1737](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L1737)
+main.ts:1737
 
 ___
-
 
 ### googleImagesTasksReady
 
@@ -1322,10 +1380,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:1700](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L1700)
+main.ts:1700
 
 ___
-
 
 ### googleJobsTaskGetAdvanced
 
@@ -1345,10 +1402,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:2222](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L2222)
+main.ts:2222
 
 ___
-
 
 ### googleJobsTaskGetHtml
 
@@ -1368,10 +1424,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:2265](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L2265)
+main.ts:2265
 
 ___
-
 
 ### googleJobsTaskPost
 
@@ -1391,10 +1446,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:2104](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L2104)
+main.ts:2104
 
 ___
-
 
 ### googleJobsTasksFixed
 
@@ -1408,10 +1462,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:2182](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L2182)
+main.ts:2182
 
 ___
-
 
 ### googleJobsTasksReady
 
@@ -1425,10 +1478,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:2145](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L2145)
+main.ts:2145
 
 ___
-
 
 ### googleLocalFinderLiveAdvanced
 
@@ -1448,10 +1500,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:1088](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L1088)
+main.ts:1088
 
 ___
-
 
 ### googleLocalFinderLiveHtml
 
@@ -1471,10 +1522,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:1130](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L1130)
+main.ts:1130
 
 ___
-
 
 ### googleLocalFinderTaskGetAdvanced
 
@@ -1494,10 +1544,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:1004](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L1004)
+main.ts:1004
 
 ___
-
 
 ### googleLocalFinderTaskGetHtml
 
@@ -1517,10 +1566,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:1047](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L1047)
+main.ts:1047
 
 ___
-
 
 ### googleLocalFinderTaskPost
 
@@ -1540,10 +1588,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:885](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L885)
+main.ts:885
 
 ___
-
 
 ### googleLocalFinderTasksFixed
 
@@ -1557,10 +1604,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:963](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L963)
+main.ts:963
 
 ___
-
 
 ### googleLocalFinderTasksReady
 
@@ -1574,10 +1620,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:926](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L926)
+main.ts:926
 
 ___
-
 
 ### googleMapsLiveAdvanced
 
@@ -1597,10 +1642,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:843](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L843)
+main.ts:843
 
 ___
-
 
 ### googleMapsTaskGetAdvanced
 
@@ -1620,10 +1664,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:802](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L802)
+main.ts:802
 
 ___
-
 
 ### googleMapsTaskPost
 
@@ -1643,10 +1686,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:683](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L683)
+main.ts:683
 
 ___
-
 
 ### googleMapsTasksFixed
 
@@ -1660,10 +1702,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:761](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L761)
+main.ts:761
 
 ___
-
 
 ### googleMapsTasksReady
 
@@ -1677,10 +1718,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:724](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L724)
+main.ts:724
 
 ___
-
 
 ### googleNewsLiveAdvanced
 
@@ -1700,10 +1740,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:1374](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L1374)
+main.ts:1374
 
 ___
-
 
 ### googleNewsLiveHtml
 
@@ -1723,10 +1762,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:1416](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L1416)
+main.ts:1416
 
 ___
-
 
 ### googleNewsTaskGetAdvanced
 
@@ -1746,10 +1784,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:1290](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L1290)
+main.ts:1290
 
 ___
-
 
 ### googleNewsTaskGetHtml
 
@@ -1769,10 +1806,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:1333](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L1333)
+main.ts:1333
 
 ___
-
 
 ### googleNewsTaskPost
 
@@ -1792,10 +1828,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:1172](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L1172)
+main.ts:1172
 
 ___
-
 
 ### googleNewsTasksFixed
 
@@ -1809,10 +1844,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:1250](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L1250)
+main.ts:1250
 
 ___
-
 
 ### googleNewsTasksReady
 
@@ -1826,10 +1860,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:1213](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L1213)
+main.ts:1213
 
 ___
-
 
 ### googleOrganicLiveAdvanced
 
@@ -1849,10 +1882,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:599](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L599)
+main.ts:599
 
 ___
-
 
 ### googleOrganicLiveHtml
 
@@ -1872,10 +1904,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:641](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L641)
+main.ts:641
 
 ___
-
 
 ### googleOrganicLiveRegular
 
@@ -1895,10 +1926,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:557](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L557)
+main.ts:557
 
 ___
-
 
 ### googleOrganicTaskGetAdvanced
 
@@ -1918,10 +1948,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:473](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L473)
+main.ts:473
 
 ___
-
 
 ### googleOrganicTaskGetHtml
 
@@ -1941,10 +1970,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:516](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L516)
+main.ts:516
 
 ___
-
 
 ### googleOrganicTaskGetRegular
 
@@ -1964,10 +1992,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:430](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L430)
+main.ts:430
 
 ___
-
 
 ### googleOrganicTaskPost
 
@@ -1987,10 +2014,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:312](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L312)
+main.ts:312
 
 ___
-
 
 ### googleOrganicTasksFixed
 
@@ -2004,10 +2030,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:390](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L390)
+main.ts:390
 
 ___
-
 
 ### googleOrganicTasksReady
 
@@ -2021,10 +2046,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:353](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L353)
+main.ts:353
 
 ___
-
 
 ### googleSearchByImageTaskGetAdvanced
 
@@ -2044,10 +2068,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:2063](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L2063)
+main.ts:2063
 
 ___
-
 
 ### googleSearchByImageTaskPost
 
@@ -2067,10 +2090,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:1945](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L1945)
+main.ts:1945
 
 ___
-
 
 ### googleSearchByImageTasksFixed
 
@@ -2084,10 +2106,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:2023](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L2023)
+main.ts:2023
 
 ___
-
 
 ### googleSearchByImageTasksReady
 
@@ -2101,10 +2122,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:1986](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L1986)
+main.ts:1986
 
 ___
-
 
 ### naverOrganicTaskGetAdvanced
 
@@ -2124,10 +2144,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:5221](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L5221)
+main.ts:5422
 
 ___
-
 
 ### naverOrganicTaskGetHtml
 
@@ -2147,10 +2166,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:5264](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L5264)
+main.ts:5465
 
 ___
-
 
 ### naverOrganicTaskGetRegular
 
@@ -2170,10 +2188,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:5178](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L5178)
+main.ts:5379
 
 ___
-
 
 ### naverOrganicTaskPost
 
@@ -2193,10 +2210,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:5060](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L5060)
+main.ts:5261
 
 ___
-
 
 ### naverOrganicTasksFixed
 
@@ -2210,10 +2226,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:5138](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L5138)
+main.ts:5339
 
 ___
-
 
 ### naverOrganicTasksReady
 
@@ -2227,10 +2242,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:5101](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L5101)
+main.ts:5302
 
 ___
-
 
 ### processAiSummary
 
@@ -2248,10 +2262,9 @@ ___
 
 #### Defined in
 
-[main.ts:171](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L171)
+main.ts:171
 
 ___
-
 
 ### processBaiduOrganicTaskGetAdvanced
 
@@ -2269,10 +2282,9 @@ ___
 
 #### Defined in
 
-[main.ts:4995](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L4995)
+main.ts:5196
 
 ___
-
 
 ### processBaiduOrganicTaskGetHtml
 
@@ -2290,10 +2302,9 @@ ___
 
 #### Defined in
 
-[main.ts:5038](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L5038)
+main.ts:5239
 
 ___
-
 
 ### processBaiduOrganicTaskGetRegular
 
@@ -2311,10 +2322,9 @@ ___
 
 #### Defined in
 
-[main.ts:4952](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L4952)
+main.ts:5153
 
 ___
-
 
 ### processBaiduOrganicTaskPost
 
@@ -2332,10 +2342,9 @@ ___
 
 #### Defined in
 
-[main.ts:4835](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L4835)
+main.ts:5036
 
 ___
-
 
 ### processBaiduOrganicTasksFixed
 
@@ -2353,10 +2362,9 @@ ___
 
 #### Defined in
 
-[main.ts:4909](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L4909)
+main.ts:5110
 
 ___
-
 
 ### processBaiduOrganicTasksReady
 
@@ -2374,10 +2382,9 @@ ___
 
 #### Defined in
 
-[main.ts:4872](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L4872)
+main.ts:5073
 
 ___
-
 
 ### processBingLocalPackLiveHtml
 
@@ -2395,10 +2402,9 @@ ___
 
 #### Defined in
 
-[main.ts:3462](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L3462)
+main.ts:3663
 
 ___
-
 
 ### processBingLocalPackLiveRegular
 
@@ -2416,10 +2422,9 @@ ___
 
 #### Defined in
 
-[main.ts:3420](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L3420)
+main.ts:3621
 
 ___
-
 
 ### processBingLocalPackTaskGetHtml
 
@@ -2437,10 +2442,9 @@ ___
 
 #### Defined in
 
-[main.ts:3378](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L3378)
+main.ts:3579
 
 ___
-
 
 ### processBingLocalPackTaskGetRegular
 
@@ -2458,10 +2462,9 @@ ___
 
 #### Defined in
 
-[main.ts:3335](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L3335)
+main.ts:3536
 
 ___
-
 
 ### processBingLocalPackTaskPost
 
@@ -2479,10 +2482,9 @@ ___
 
 #### Defined in
 
-[main.ts:3218](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L3218)
+main.ts:3419
 
 ___
-
 
 ### processBingLocalPackTasksFixed
 
@@ -2500,10 +2502,9 @@ ___
 
 #### Defined in
 
-[main.ts:3292](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L3292)
+main.ts:3493
 
 ___
-
 
 ### processBingLocalPackTasksReady
 
@@ -2521,10 +2522,9 @@ ___
 
 #### Defined in
 
-[main.ts:3255](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L3255)
+main.ts:3456
 
 ___
-
 
 ### processBingOrganicLiveAdvanced
 
@@ -2542,10 +2542,9 @@ ___
 
 #### Defined in
 
-[main.ts:3134](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L3134)
+main.ts:3335
 
 ___
-
 
 ### processBingOrganicLiveHtml
 
@@ -2563,10 +2562,9 @@ ___
 
 #### Defined in
 
-[main.ts:3176](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L3176)
+main.ts:3377
 
 ___
-
 
 ### processBingOrganicLiveRegular
 
@@ -2584,10 +2582,9 @@ ___
 
 #### Defined in
 
-[main.ts:3092](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L3092)
+main.ts:3293
 
 ___
-
 
 ### processBingOrganicTaskGetAdvanced
 
@@ -2605,10 +2602,9 @@ ___
 
 #### Defined in
 
-[main.ts:3007](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L3007)
+main.ts:3208
 
 ___
-
 
 ### processBingOrganicTaskGetHtml
 
@@ -2626,10 +2622,9 @@ ___
 
 #### Defined in
 
-[main.ts:3050](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L3050)
+main.ts:3251
 
 ___
-
 
 ### processBingOrganicTaskGetRegular
 
@@ -2647,10 +2642,9 @@ ___
 
 #### Defined in
 
-[main.ts:2964](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L2964)
+main.ts:3165
 
 ___
-
 
 ### processBingOrganicTaskPost
 
@@ -2668,10 +2662,9 @@ ___
 
 #### Defined in
 
-[main.ts:2847](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L2847)
+main.ts:3048
 
 ___
-
 
 ### processBingOrganicTasksFixed
 
@@ -2689,10 +2682,9 @@ ___
 
 #### Defined in
 
-[main.ts:2921](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L2921)
+main.ts:3122
 
 ___
-
 
 ### processBingOrganicTasksReady
 
@@ -2710,10 +2702,109 @@ ___
 
 #### Defined in
 
-[main.ts:2884](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L2884)
+main.ts:3085
 
 ___
 
+### processGoogleAutocompleteLiveAdvanced
+
+▸ **processGoogleAutocompleteLiveAdvanced**(`response`): `Promise`\<[`SerpGoogleAutocompleteLiveAdvancedResponseInfo`](SerpGoogleAutocompleteLiveAdvancedResponseInfo.md)\>
+
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `response` | `Response` |
+
+#### Returns
+
+`Promise`\<[`SerpGoogleAutocompleteLiveAdvancedResponseInfo`](SerpGoogleAutocompleteLiveAdvancedResponseInfo.md)\>
+
+#### Defined in
+
+main.ts:2485
+
+___
+
+### processGoogleAutocompleteTaskGetAdvanced
+
+▸ **processGoogleAutocompleteTaskGetAdvanced**(`response`): `Promise`\<[`SerpGoogleAutocompleteTaskGetAdvancedResponseInfo`](SerpGoogleAutocompleteTaskGetAdvancedResponseInfo.md)\>
+
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `response` | `Response` |
+
+#### Returns
+
+`Promise`\<[`SerpGoogleAutocompleteTaskGetAdvancedResponseInfo`](SerpGoogleAutocompleteTaskGetAdvancedResponseInfo.md)\>
+
+#### Defined in
+
+main.ts:2443
+
+___
+
+### processGoogleAutocompleteTaskPost
+
+▸ **processGoogleAutocompleteTaskPost**(`response`): `Promise`\<[`SerpGoogleAutocompleteTaskPostResponseInfo`](SerpGoogleAutocompleteTaskPostResponseInfo.md)\>
+
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `response` | `Response` |
+
+#### Returns
+
+`Promise`\<[`SerpGoogleAutocompleteTaskPostResponseInfo`](SerpGoogleAutocompleteTaskPostResponseInfo.md)\>
+
+#### Defined in
+
+main.ts:2326
+
+___
+
+### processGoogleAutocompleteTasksFixed
+
+▸ **processGoogleAutocompleteTasksFixed**(`response`): `Promise`\<[`SerpGoogleAutocompleteTasksFixedResponseInfo`](SerpGoogleAutocompleteTasksFixedResponseInfo.md)\>
+
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `response` | `Response` |
+
+#### Returns
+
+`Promise`\<[`SerpGoogleAutocompleteTasksFixedResponseInfo`](SerpGoogleAutocompleteTasksFixedResponseInfo.md)\>
+
+#### Defined in
+
+main.ts:2400
+
+___
+
+### processGoogleAutocompleteTasksReady
+
+▸ **processGoogleAutocompleteTasksReady**(`response`): `Promise`\<[`SerpGoogleAutocompleteTasksReadyResponseInfo`](SerpGoogleAutocompleteTasksReadyResponseInfo.md)\>
+
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `response` | `Response` |
+
+#### Returns
+
+`Promise`\<[`SerpGoogleAutocompleteTasksReadyResponseInfo`](SerpGoogleAutocompleteTasksReadyResponseInfo.md)\>
+
+#### Defined in
+
+main.ts:2363
+
+___
 
 ### processGoogleDatasetInfoLiveAdvanced
 
@@ -2731,10 +2822,9 @@ ___
 
 #### Defined in
 
-[main.ts:2686](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L2686)
+main.ts:2887
 
 ___
-
 
 ### processGoogleDatasetInfoTaskGetAdvanced
 
@@ -2752,10 +2842,9 @@ ___
 
 #### Defined in
 
-[main.ts:2644](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L2644)
+main.ts:2845
 
 ___
-
 
 ### processGoogleDatasetInfoTaskPost
 
@@ -2773,10 +2862,9 @@ ___
 
 #### Defined in
 
-[main.ts:2527](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L2527)
+main.ts:2728
 
 ___
-
 
 ### processGoogleDatasetInfoTasksFixed
 
@@ -2794,10 +2882,9 @@ ___
 
 #### Defined in
 
-[main.ts:2601](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L2601)
+main.ts:2802
 
 ___
-
 
 ### processGoogleDatasetInfoTasksReady
 
@@ -2815,10 +2902,9 @@ ___
 
 #### Defined in
 
-[main.ts:2564](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L2564)
+main.ts:2765
 
 ___
-
 
 ### processGoogleDatasetSearchLiveAdvanced
 
@@ -2836,10 +2922,9 @@ ___
 
 #### Defined in
 
-[main.ts:2485](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L2485)
+main.ts:2686
 
 ___
-
 
 ### processGoogleDatasetSearchTaskGetAdvanced
 
@@ -2857,10 +2942,9 @@ ___
 
 #### Defined in
 
-[main.ts:2443](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L2443)
+main.ts:2644
 
 ___
-
 
 ### processGoogleDatasetSearchTaskPost
 
@@ -2878,10 +2962,9 @@ ___
 
 #### Defined in
 
-[main.ts:2326](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L2326)
+main.ts:2527
 
 ___
-
 
 ### processGoogleDatasetSearchTasksFixed
 
@@ -2899,10 +2982,9 @@ ___
 
 #### Defined in
 
-[main.ts:2400](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L2400)
+main.ts:2601
 
 ___
-
 
 ### processGoogleDatasetSearchTasksReady
 
@@ -2920,10 +3002,9 @@ ___
 
 #### Defined in
 
-[main.ts:2363](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L2363)
+main.ts:2564
 
 ___
-
 
 ### processGoogleEventsLiveAdvanced
 
@@ -2941,10 +3022,9 @@ ___
 
 #### Defined in
 
-[main.ts:1637](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L1637)
+main.ts:1637
 
 ___
-
 
 ### processGoogleEventsTaskGetAdvanced
 
@@ -2962,10 +3042,9 @@ ___
 
 #### Defined in
 
-[main.ts:1595](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L1595)
+main.ts:1595
 
 ___
-
 
 ### processGoogleEventsTaskPost
 
@@ -2983,10 +3062,9 @@ ___
 
 #### Defined in
 
-[main.ts:1478](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L1478)
+main.ts:1478
 
 ___
-
 
 ### processGoogleEventsTasksFixed
 
@@ -3004,10 +3082,9 @@ ___
 
 #### Defined in
 
-[main.ts:1552](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L1552)
+main.ts:1552
 
 ___
-
 
 ### processGoogleEventsTasksReady
 
@@ -3025,10 +3102,9 @@ ___
 
 #### Defined in
 
-[main.ts:1515](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L1515)
+main.ts:1515
 
 ___
-
 
 ### processGoogleImagesLiveAdvanced
 
@@ -3046,10 +3122,9 @@ ___
 
 #### Defined in
 
-[main.ts:1881](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L1881)
+main.ts:1881
 
 ___
-
 
 ### processGoogleImagesLiveHtml
 
@@ -3067,10 +3142,9 @@ ___
 
 #### Defined in
 
-[main.ts:1923](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L1923)
+main.ts:1923
 
 ___
-
 
 ### processGoogleImagesTaskGetAdvanced
 
@@ -3088,10 +3162,9 @@ ___
 
 #### Defined in
 
-[main.ts:1796](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L1796)
+main.ts:1796
 
 ___
-
 
 ### processGoogleImagesTaskGetHtml
 
@@ -3109,10 +3182,9 @@ ___
 
 #### Defined in
 
-[main.ts:1839](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L1839)
+main.ts:1839
 
 ___
-
 
 ### processGoogleImagesTaskPost
 
@@ -3130,10 +3202,9 @@ ___
 
 #### Defined in
 
-[main.ts:1679](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L1679)
+main.ts:1679
 
 ___
-
 
 ### processGoogleImagesTasksFixed
 
@@ -3151,10 +3222,9 @@ ___
 
 #### Defined in
 
-[main.ts:1753](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L1753)
+main.ts:1753
 
 ___
-
 
 ### processGoogleImagesTasksReady
 
@@ -3172,10 +3242,9 @@ ___
 
 #### Defined in
 
-[main.ts:1716](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L1716)
+main.ts:1716
 
 ___
-
 
 ### processGoogleJobsTaskGetAdvanced
 
@@ -3193,10 +3262,9 @@ ___
 
 #### Defined in
 
-[main.ts:2241](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L2241)
+main.ts:2241
 
 ___
-
 
 ### processGoogleJobsTaskGetHtml
 
@@ -3214,10 +3282,9 @@ ___
 
 #### Defined in
 
-[main.ts:2284](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L2284)
+main.ts:2284
 
 ___
-
 
 ### processGoogleJobsTaskPost
 
@@ -3235,10 +3302,9 @@ ___
 
 #### Defined in
 
-[main.ts:2124](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L2124)
+main.ts:2124
 
 ___
-
 
 ### processGoogleJobsTasksFixed
 
@@ -3256,10 +3322,9 @@ ___
 
 #### Defined in
 
-[main.ts:2198](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L2198)
+main.ts:2198
 
 ___
-
 
 ### processGoogleJobsTasksReady
 
@@ -3277,10 +3342,9 @@ ___
 
 #### Defined in
 
-[main.ts:2161](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L2161)
+main.ts:2161
 
 ___
-
 
 ### processGoogleLocalFinderLiveAdvanced
 
@@ -3298,10 +3362,9 @@ ___
 
 #### Defined in
 
-[main.ts:1108](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L1108)
+main.ts:1108
 
 ___
-
 
 ### processGoogleLocalFinderLiveHtml
 
@@ -3319,10 +3382,9 @@ ___
 
 #### Defined in
 
-[main.ts:1150](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L1150)
+main.ts:1150
 
 ___
-
 
 ### processGoogleLocalFinderTaskGetAdvanced
 
@@ -3340,10 +3402,9 @@ ___
 
 #### Defined in
 
-[main.ts:1023](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L1023)
+main.ts:1023
 
 ___
-
 
 ### processGoogleLocalFinderTaskGetHtml
 
@@ -3361,10 +3422,9 @@ ___
 
 #### Defined in
 
-[main.ts:1066](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L1066)
+main.ts:1066
 
 ___
-
 
 ### processGoogleLocalFinderTaskPost
 
@@ -3382,10 +3442,9 @@ ___
 
 #### Defined in
 
-[main.ts:905](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L905)
+main.ts:905
 
 ___
-
 
 ### processGoogleLocalFinderTasksFixed
 
@@ -3403,10 +3462,9 @@ ___
 
 #### Defined in
 
-[main.ts:979](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L979)
+main.ts:979
 
 ___
-
 
 ### processGoogleLocalFinderTasksReady
 
@@ -3424,10 +3482,9 @@ ___
 
 #### Defined in
 
-[main.ts:942](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L942)
+main.ts:942
 
 ___
-
 
 ### processGoogleMapsLiveAdvanced
 
@@ -3445,10 +3502,9 @@ ___
 
 #### Defined in
 
-[main.ts:863](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L863)
+main.ts:863
 
 ___
-
 
 ### processGoogleMapsTaskGetAdvanced
 
@@ -3466,10 +3522,9 @@ ___
 
 #### Defined in
 
-[main.ts:821](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L821)
+main.ts:821
 
 ___
-
 
 ### processGoogleMapsTaskPost
 
@@ -3487,10 +3542,9 @@ ___
 
 #### Defined in
 
-[main.ts:703](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L703)
+main.ts:703
 
 ___
-
 
 ### processGoogleMapsTasksFixed
 
@@ -3508,10 +3562,9 @@ ___
 
 #### Defined in
 
-[main.ts:777](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L777)
+main.ts:777
 
 ___
-
 
 ### processGoogleMapsTasksReady
 
@@ -3529,10 +3582,9 @@ ___
 
 #### Defined in
 
-[main.ts:740](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L740)
+main.ts:740
 
 ___
-
 
 ### processGoogleNewsLiveAdvanced
 
@@ -3550,10 +3602,9 @@ ___
 
 #### Defined in
 
-[main.ts:1394](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L1394)
+main.ts:1394
 
 ___
-
 
 ### processGoogleNewsLiveHtml
 
@@ -3571,10 +3622,9 @@ ___
 
 #### Defined in
 
-[main.ts:1436](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L1436)
+main.ts:1436
 
 ___
-
 
 ### processGoogleNewsTaskGetAdvanced
 
@@ -3592,10 +3642,9 @@ ___
 
 #### Defined in
 
-[main.ts:1309](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L1309)
+main.ts:1309
 
 ___
-
 
 ### processGoogleNewsTaskGetHtml
 
@@ -3613,10 +3662,9 @@ ___
 
 #### Defined in
 
-[main.ts:1352](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L1352)
+main.ts:1352
 
 ___
-
 
 ### processGoogleNewsTaskPost
 
@@ -3634,10 +3682,9 @@ ___
 
 #### Defined in
 
-[main.ts:1192](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L1192)
+main.ts:1192
 
 ___
-
 
 ### processGoogleNewsTasksFixed
 
@@ -3655,10 +3702,9 @@ ___
 
 #### Defined in
 
-[main.ts:1266](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L1266)
+main.ts:1266
 
 ___
-
 
 ### processGoogleNewsTasksReady
 
@@ -3676,10 +3722,9 @@ ___
 
 #### Defined in
 
-[main.ts:1229](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L1229)
+main.ts:1229
 
 ___
-
 
 ### processGoogleOrganicLiveAdvanced
 
@@ -3697,10 +3742,9 @@ ___
 
 #### Defined in
 
-[main.ts:619](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L619)
+main.ts:619
 
 ___
-
 
 ### processGoogleOrganicLiveHtml
 
@@ -3718,10 +3762,9 @@ ___
 
 #### Defined in
 
-[main.ts:661](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L661)
+main.ts:661
 
 ___
-
 
 ### processGoogleOrganicLiveRegular
 
@@ -3739,10 +3782,9 @@ ___
 
 #### Defined in
 
-[main.ts:577](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L577)
+main.ts:577
 
 ___
-
 
 ### processGoogleOrganicTaskGetAdvanced
 
@@ -3760,10 +3802,9 @@ ___
 
 #### Defined in
 
-[main.ts:492](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L492)
+main.ts:492
 
 ___
-
 
 ### processGoogleOrganicTaskGetHtml
 
@@ -3781,10 +3822,9 @@ ___
 
 #### Defined in
 
-[main.ts:535](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L535)
+main.ts:535
 
 ___
-
 
 ### processGoogleOrganicTaskGetRegular
 
@@ -3802,10 +3842,9 @@ ___
 
 #### Defined in
 
-[main.ts:449](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L449)
+main.ts:449
 
 ___
-
 
 ### processGoogleOrganicTaskPost
 
@@ -3823,10 +3862,9 @@ ___
 
 #### Defined in
 
-[main.ts:332](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L332)
+main.ts:332
 
 ___
-
 
 ### processGoogleOrganicTasksFixed
 
@@ -3844,10 +3882,9 @@ ___
 
 #### Defined in
 
-[main.ts:406](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L406)
+main.ts:406
 
 ___
-
 
 ### processGoogleOrganicTasksReady
 
@@ -3865,10 +3902,9 @@ ___
 
 #### Defined in
 
-[main.ts:369](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L369)
+main.ts:369
 
 ___
-
 
 ### processGoogleSearchByImageTaskGetAdvanced
 
@@ -3886,10 +3922,9 @@ ___
 
 #### Defined in
 
-[main.ts:2082](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L2082)
+main.ts:2082
 
 ___
-
 
 ### processGoogleSearchByImageTaskPost
 
@@ -3907,10 +3942,9 @@ ___
 
 #### Defined in
 
-[main.ts:1965](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L1965)
+main.ts:1965
 
 ___
-
 
 ### processGoogleSearchByImageTasksFixed
 
@@ -3928,10 +3962,9 @@ ___
 
 #### Defined in
 
-[main.ts:2039](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L2039)
+main.ts:2039
 
 ___
-
 
 ### processGoogleSearchByImageTasksReady
 
@@ -3949,10 +3982,9 @@ ___
 
 #### Defined in
 
-[main.ts:2002](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L2002)
+main.ts:2002
 
 ___
-
 
 ### processNaverOrganicTaskGetAdvanced
 
@@ -3970,10 +4002,9 @@ ___
 
 #### Defined in
 
-[main.ts:5240](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L5240)
+main.ts:5441
 
 ___
-
 
 ### processNaverOrganicTaskGetHtml
 
@@ -3991,10 +4022,9 @@ ___
 
 #### Defined in
 
-[main.ts:5283](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L5283)
+main.ts:5484
 
 ___
-
 
 ### processNaverOrganicTaskGetRegular
 
@@ -4012,10 +4042,9 @@ ___
 
 #### Defined in
 
-[main.ts:5197](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L5197)
+main.ts:5398
 
 ___
-
 
 ### processNaverOrganicTaskPost
 
@@ -4033,10 +4062,9 @@ ___
 
 #### Defined in
 
-[main.ts:5080](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L5080)
+main.ts:5281
 
 ___
-
 
 ### processNaverOrganicTasksFixed
 
@@ -4054,10 +4082,9 @@ ___
 
 #### Defined in
 
-[main.ts:5154](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L5154)
+main.ts:5355
 
 ___
-
 
 ### processNaverOrganicTasksReady
 
@@ -4075,10 +4102,9 @@ ___
 
 #### Defined in
 
-[main.ts:5117](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L5117)
+main.ts:5318
 
 ___
-
 
 ### processScreenshot
 
@@ -4096,10 +4122,9 @@ ___
 
 #### Defined in
 
-[main.ts:129](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L129)
+main.ts:129
 
 ___
-
 
 ### processSerpBaiduLanguages
 
@@ -4117,10 +4142,9 @@ ___
 
 #### Defined in
 
-[main.ts:4793](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L4793)
+main.ts:4994
 
 ___
-
 
 ### processSerpBaiduLocations
 
@@ -4138,10 +4162,9 @@ ___
 
 #### Defined in
 
-[main.ts:4711](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L4711)
+main.ts:4912
 
 ___
-
 
 ### processSerpBaiduLocationsCountry
 
@@ -4159,10 +4182,9 @@ ___
 
 #### Defined in
 
-[main.ts:4756](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L4756)
+main.ts:4957
 
 ___
-
 
 ### processSerpBingLanguages
 
@@ -4180,10 +4202,9 @@ ___
 
 #### Defined in
 
-[main.ts:2805](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L2805)
+main.ts:3006
 
 ___
-
 
 ### processSerpBingLocations
 
@@ -4201,10 +4222,9 @@ ___
 
 #### Defined in
 
-[main.ts:2723](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L2723)
+main.ts:2924
 
 ___
-
 
 ### processSerpBingLocationsCountry
 
@@ -4222,10 +4242,9 @@ ___
 
 #### Defined in
 
-[main.ts:2768](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L2768)
+main.ts:2969
 
 ___
-
 
 ### processSerpErrors
 
@@ -4243,10 +4262,9 @@ ___
 
 #### Defined in
 
-[main.ts:87](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L87)
+main.ts:87
 
 ___
-
 
 ### processSerpGoogleLanguages
 
@@ -4264,10 +4282,9 @@ ___
 
 #### Defined in
 
-[main.ts:290](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L290)
+main.ts:290
 
 ___
-
 
 ### processSerpGoogleLocations
 
@@ -4285,10 +4302,9 @@ ___
 
 #### Defined in
 
-[main.ts:208](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L208)
+main.ts:208
 
 ___
-
 
 ### processSerpGoogleLocationsCountry
 
@@ -4306,10 +4322,9 @@ ___
 
 #### Defined in
 
-[main.ts:253](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L253)
+main.ts:253
 
 ___
-
 
 ### processSerpIdList
 
@@ -4327,10 +4342,9 @@ ___
 
 #### Defined in
 
-[main.ts:45](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L45)
+main.ts:45
 
 ___
-
 
 ### processSerpSeznamLanguages
 
@@ -4348,10 +4362,9 @@ ___
 
 #### Defined in
 
-[main.ts:5402](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L5402)
+main.ts:5603
 
 ___
-
 
 ### processSerpSeznamLocations
 
@@ -4369,10 +4382,9 @@ ___
 
 #### Defined in
 
-[main.ts:5320](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L5320)
+main.ts:5521
 
 ___
-
 
 ### processSerpSeznamLocationsCountry
 
@@ -4390,10 +4402,9 @@ ___
 
 #### Defined in
 
-[main.ts:5365](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L5365)
+main.ts:5566
 
 ___
-
 
 ### processSerpYahooLanguages
 
@@ -4411,10 +4422,9 @@ ___
 
 #### Defined in
 
-[main.ts:4303](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L4303)
+main.ts:4504
 
 ___
-
 
 ### processSerpYahooLocations
 
@@ -4432,10 +4442,9 @@ ___
 
 #### Defined in
 
-[main.ts:4221](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L4221)
+main.ts:4422
 
 ___
-
 
 ### processSerpYahooLocationsCountry
 
@@ -4453,10 +4462,9 @@ ___
 
 #### Defined in
 
-[main.ts:4266](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L4266)
+main.ts:4467
 
 ___
-
 
 ### processSerpYoutubeLanguages
 
@@ -4474,10 +4482,9 @@ ___
 
 #### Defined in
 
-[main.ts:3581](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L3581)
+main.ts:3782
 
 ___
-
 
 ### processSerpYoutubeLocations
 
@@ -4495,10 +4502,9 @@ ___
 
 #### Defined in
 
-[main.ts:3499](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L3499)
+main.ts:3700
 
 ___
-
 
 ### processSerpYoutubeLocationsCountry
 
@@ -4516,10 +4522,9 @@ ___
 
 #### Defined in
 
-[main.ts:3544](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L3544)
+main.ts:3745
 
 ___
-
 
 ### processSeznamOrganicTaskGetAdvanced
 
@@ -4537,10 +4542,9 @@ ___
 
 #### Defined in
 
-[main.ts:5604](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L5604)
+main.ts:5805
 
 ___
-
 
 ### processSeznamOrganicTaskGetHtml
 
@@ -4558,10 +4562,9 @@ ___
 
 #### Defined in
 
-[main.ts:5647](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L5647)
+main.ts:5848
 
 ___
-
 
 ### processSeznamOrganicTaskGetRegular
 
@@ -4579,10 +4582,9 @@ ___
 
 #### Defined in
 
-[main.ts:5561](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L5561)
+main.ts:5762
 
 ___
-
 
 ### processSeznamOrganicTaskPost
 
@@ -4600,10 +4602,9 @@ ___
 
 #### Defined in
 
-[main.ts:5444](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L5444)
+main.ts:5645
 
 ___
-
 
 ### processSeznamOrganicTasksFixed
 
@@ -4621,10 +4622,9 @@ ___
 
 #### Defined in
 
-[main.ts:5518](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L5518)
+main.ts:5719
 
 ___
-
 
 ### processSeznamOrganicTasksReady
 
@@ -4642,10 +4642,9 @@ ___
 
 #### Defined in
 
-[main.ts:5481](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L5481)
+main.ts:5682
 
 ___
-
 
 ### processYahooOrganicLiveAdvanced
 
@@ -4663,10 +4662,9 @@ ___
 
 #### Defined in
 
-[main.ts:4632](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L4632)
+main.ts:4833
 
 ___
-
 
 ### processYahooOrganicLiveHtml
 
@@ -4684,10 +4682,9 @@ ___
 
 #### Defined in
 
-[main.ts:4674](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L4674)
+main.ts:4875
 
 ___
-
 
 ### processYahooOrganicLiveRegular
 
@@ -4705,10 +4702,9 @@ ___
 
 #### Defined in
 
-[main.ts:4590](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L4590)
+main.ts:4791
 
 ___
-
 
 ### processYahooOrganicTaskGetAdvanced
 
@@ -4726,10 +4722,9 @@ ___
 
 #### Defined in
 
-[main.ts:4505](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L4505)
+main.ts:4706
 
 ___
-
 
 ### processYahooOrganicTaskGetHtml
 
@@ -4747,10 +4742,9 @@ ___
 
 #### Defined in
 
-[main.ts:4548](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L4548)
+main.ts:4749
 
 ___
-
 
 ### processYahooOrganicTaskGetRegular
 
@@ -4768,10 +4762,9 @@ ___
 
 #### Defined in
 
-[main.ts:4462](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L4462)
+main.ts:4663
 
 ___
-
 
 ### processYahooOrganicTaskPost
 
@@ -4789,10 +4782,9 @@ ___
 
 #### Defined in
 
-[main.ts:4345](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L4345)
+main.ts:4546
 
 ___
-
 
 ### processYahooOrganicTasksFixed
 
@@ -4810,10 +4802,9 @@ ___
 
 #### Defined in
 
-[main.ts:4419](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L4419)
+main.ts:4620
 
 ___
-
 
 ### processYahooOrganicTasksReady
 
@@ -4831,10 +4822,9 @@ ___
 
 #### Defined in
 
-[main.ts:4382](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L4382)
+main.ts:4583
 
 ___
-
 
 ### processYoutubeVideoCommentsLiveAdvanced
 
@@ -4852,10 +4842,9 @@ ___
 
 #### Defined in
 
-[main.ts:4184](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L4184)
+main.ts:4385
 
 ___
-
 
 ### processYoutubeVideoCommentsTaskGetAdvanced
 
@@ -4873,10 +4862,9 @@ ___
 
 #### Defined in
 
-[main.ts:4142](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L4142)
+main.ts:4343
 
 ___
-
 
 ### processYoutubeVideoCommentsTaskPost
 
@@ -4894,10 +4882,9 @@ ___
 
 #### Defined in
 
-[main.ts:4025](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L4025)
+main.ts:4226
 
 ___
-
 
 ### processYoutubeVideoCommentsTasksFixed
 
@@ -4915,10 +4902,9 @@ ___
 
 #### Defined in
 
-[main.ts:4099](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L4099)
+main.ts:4300
 
 ___
-
 
 ### processYoutubeVideoCommentsTasksReady
 
@@ -4936,10 +4922,9 @@ ___
 
 #### Defined in
 
-[main.ts:4062](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L4062)
+main.ts:4263
 
 ___
-
 
 ### processYoutubeVideoInfoLiveAdvanced
 
@@ -4957,10 +4942,9 @@ ___
 
 #### Defined in
 
-[main.ts:3782](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L3782)
+main.ts:3983
 
 ___
-
 
 ### processYoutubeVideoInfoTaskGetAdvanced
 
@@ -4978,10 +4962,9 @@ ___
 
 #### Defined in
 
-[main.ts:3740](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L3740)
+main.ts:3941
 
 ___
-
 
 ### processYoutubeVideoInfoTaskPost
 
@@ -4999,10 +4982,9 @@ ___
 
 #### Defined in
 
-[main.ts:3623](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L3623)
+main.ts:3824
 
 ___
-
 
 ### processYoutubeVideoInfoTasksFixed
 
@@ -5020,10 +5002,9 @@ ___
 
 #### Defined in
 
-[main.ts:3697](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L3697)
+main.ts:3898
 
 ___
-
 
 ### processYoutubeVideoInfoTasksReady
 
@@ -5041,10 +5022,9 @@ ___
 
 #### Defined in
 
-[main.ts:3660](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L3660)
+main.ts:3861
 
 ___
-
 
 ### processYoutubeVideoSubtitlesLiveAdvanced
 
@@ -5062,10 +5042,9 @@ ___
 
 #### Defined in
 
-[main.ts:3983](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L3983)
+main.ts:4184
 
 ___
-
 
 ### processYoutubeVideoSubtitlesTaskGetAdvanced
 
@@ -5083,10 +5062,9 @@ ___
 
 #### Defined in
 
-[main.ts:3941](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L3941)
+main.ts:4142
 
 ___
-
 
 ### processYoutubeVideoSubtitlesTaskPost
 
@@ -5104,10 +5082,9 @@ ___
 
 #### Defined in
 
-[main.ts:3824](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L3824)
+main.ts:4025
 
 ___
-
 
 ### processYoutubeVideoSubtitlesTasksFixed
 
@@ -5125,10 +5102,9 @@ ___
 
 #### Defined in
 
-[main.ts:3898](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L3898)
+main.ts:4099
 
 ___
-
 
 ### processYoutubeVideoSubtitlesTasksReady
 
@@ -5146,10 +5122,9 @@ ___
 
 #### Defined in
 
-[main.ts:3861](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L3861)
+main.ts:4062
 
 ___
-
 
 ### screenshot
 
@@ -5169,10 +5144,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:109](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L109)
+main.ts:109
 
 ___
-
 
 ### serpBaiduLanguages
 
@@ -5186,10 +5160,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:4777](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L4777)
+main.ts:4978
 
 ___
-
 
 ### serpBaiduLocations
 
@@ -5203,10 +5176,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:4695](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L4695)
+main.ts:4896
 
 ___
-
 
 ### serpBaiduLocationsCountry
 
@@ -5226,10 +5198,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:4737](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L4737)
+main.ts:4938
 
 ___
-
 
 ### serpBingLanguages
 
@@ -5243,10 +5214,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:2789](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L2789)
+main.ts:2990
 
 ___
-
 
 ### serpBingLocations
 
@@ -5260,10 +5230,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:2707](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L2707)
+main.ts:2908
 
 ___
-
 
 ### serpBingLocationsCountry
 
@@ -5283,10 +5252,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:2749](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L2749)
+main.ts:2950
 
 ___
-
 
 ### serpErrors
 
@@ -5306,10 +5274,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:67](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L67)
+main.ts:67
 
 ___
-
 
 ### serpGoogleLanguages
 
@@ -5323,10 +5290,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:274](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L274)
+main.ts:274
 
 ___
-
 
 ### serpGoogleLocations
 
@@ -5340,10 +5306,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:192](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L192)
+main.ts:192
 
 ___
-
 
 ### serpGoogleLocationsCountry
 
@@ -5363,10 +5328,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:234](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L234)
+main.ts:234
 
 ___
-
 
 ### serpIdList
 
@@ -5386,10 +5350,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:25](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L25)
+main.ts:25
 
 ___
-
 
 ### serpSeznamLanguages
 
@@ -5403,10 +5366,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:5386](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L5386)
+main.ts:5587
 
 ___
-
 
 ### serpSeznamLocations
 
@@ -5420,10 +5382,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:5304](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L5304)
+main.ts:5505
 
 ___
-
 
 ### serpSeznamLocationsCountry
 
@@ -5443,10 +5404,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:5346](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L5346)
+main.ts:5547
 
 ___
-
 
 ### serpYahooLanguages
 
@@ -5460,10 +5420,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:4287](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L4287)
+main.ts:4488
 
 ___
-
 
 ### serpYahooLocations
 
@@ -5477,10 +5436,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:4205](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L4205)
+main.ts:4406
 
 ___
-
 
 ### serpYahooLocationsCountry
 
@@ -5500,10 +5458,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:4247](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L4247)
+main.ts:4448
 
 ___
-
 
 ### serpYoutubeLanguages
 
@@ -5517,10 +5474,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:3565](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L3565)
+main.ts:3766
 
 ___
-
 
 ### serpYoutubeLocations
 
@@ -5534,10 +5490,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:3483](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L3483)
+main.ts:3684
 
 ___
-
 
 ### serpYoutubeLocationsCountry
 
@@ -5557,10 +5512,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:3525](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L3525)
+main.ts:3726
 
 ___
-
 
 ### seznamOrganicTaskGetAdvanced
 
@@ -5580,10 +5534,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:5585](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L5585)
+main.ts:5786
 
 ___
-
 
 ### seznamOrganicTaskGetHtml
 
@@ -5603,10 +5556,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:5628](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L5628)
+main.ts:5829
 
 ___
-
 
 ### seznamOrganicTaskGetRegular
 
@@ -5626,10 +5578,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:5542](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L5542)
+main.ts:5743
 
 ___
-
 
 ### seznamOrganicTaskPost
 
@@ -5649,10 +5600,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:5424](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L5424)
+main.ts:5625
 
 ___
-
 
 ### seznamOrganicTasksFixed
 
@@ -5666,10 +5616,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:5502](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L5502)
+main.ts:5703
 
 ___
-
 
 ### seznamOrganicTasksReady
 
@@ -5683,10 +5632,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:5465](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L5465)
+main.ts:5666
 
 ___
-
 
 ### yahooOrganicLiveAdvanced
 
@@ -5706,10 +5654,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:4612](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L4612)
+main.ts:4813
 
 ___
-
 
 ### yahooOrganicLiveHtml
 
@@ -5729,10 +5676,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:4654](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L4654)
+main.ts:4855
 
 ___
-
 
 ### yahooOrganicLiveRegular
 
@@ -5752,10 +5698,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:4570](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L4570)
+main.ts:4771
 
 ___
-
 
 ### yahooOrganicTaskGetAdvanced
 
@@ -5775,10 +5720,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:4486](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L4486)
+main.ts:4687
 
 ___
-
 
 ### yahooOrganicTaskGetHtml
 
@@ -5798,10 +5742,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:4529](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L4529)
+main.ts:4730
 
 ___
-
 
 ### yahooOrganicTaskGetRegular
 
@@ -5821,10 +5764,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:4443](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L4443)
+main.ts:4644
 
 ___
-
 
 ### yahooOrganicTaskPost
 
@@ -5844,10 +5786,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:4325](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L4325)
+main.ts:4526
 
 ___
-
 
 ### yahooOrganicTasksFixed
 
@@ -5861,10 +5802,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:4403](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L4403)
+main.ts:4604
 
 ___
-
 
 ### yahooOrganicTasksReady
 
@@ -5878,10 +5818,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:4366](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L4366)
+main.ts:4567
 
 ___
-
 
 ### youtubeVideoCommentsLiveAdvanced
 
@@ -5901,10 +5840,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:4164](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L4164)
+main.ts:4365
 
 ___
-
 
 ### youtubeVideoCommentsTaskGetAdvanced
 
@@ -5924,10 +5862,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:4123](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L4123)
+main.ts:4324
 
 ___
-
 
 ### youtubeVideoCommentsTaskPost
 
@@ -5947,10 +5884,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:4005](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L4005)
+main.ts:4206
 
 ___
-
 
 ### youtubeVideoCommentsTasksFixed
 
@@ -5964,10 +5900,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:4083](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L4083)
+main.ts:4284
 
 ___
-
 
 ### youtubeVideoCommentsTasksReady
 
@@ -5981,10 +5916,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:4046](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L4046)
+main.ts:4247
 
 ___
-
 
 ### youtubeVideoInfoLiveAdvanced
 
@@ -6004,10 +5938,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:3762](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L3762)
+main.ts:3963
 
 ___
-
 
 ### youtubeVideoInfoTaskGetAdvanced
 
@@ -6027,10 +5960,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:3721](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L3721)
+main.ts:3922
 
 ___
-
 
 ### youtubeVideoInfoTaskPost
 
@@ -6050,10 +5982,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:3603](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L3603)
+main.ts:3804
 
 ___
-
 
 ### youtubeVideoInfoTasksFixed
 
@@ -6067,10 +5998,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:3681](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L3681)
+main.ts:3882
 
 ___
-
 
 ### youtubeVideoInfoTasksReady
 
@@ -6084,10 +6014,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:3644](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L3644)
+main.ts:3845
 
 ___
-
 
 ### youtubeVideoSubtitlesLiveAdvanced
 
@@ -6107,10 +6036,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:3963](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L3963)
+main.ts:4164
 
 ___
-
 
 ### youtubeVideoSubtitlesTaskGetAdvanced
 
@@ -6130,10 +6058,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:3922](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L3922)
+main.ts:4123
 
 ___
-
 
 ### youtubeVideoSubtitlesTaskPost
 
@@ -6153,10 +6080,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:3804](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L3804)
+main.ts:4005
 
 ___
-
 
 ### youtubeVideoSubtitlesTasksFixed
 
@@ -6170,10 +6096,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:3882](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L3882)
+main.ts:4083
 
 ___
-
 
 ### youtubeVideoSubtitlesTasksReady
 
@@ -6187,8 +6112,4 @@ Successful operation
 
 #### Defined in
 
-[main.ts:3845](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L3845)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:4046

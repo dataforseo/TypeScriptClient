@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / SearchIntentInfo
+[Documentation](../README.md) / [Exports](../modules.md) / SearchIntentInfo
 
 # Class: SearchIntentInfo
 
@@ -51,7 +47,7 @@
 
 #### Defined in
 
-[main.ts:79560](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L79560)
+main.ts:81937
 
 ## Properties
 
@@ -68,10 +64,9 @@ possible values: informational, navigational, commercial, transactional
 
 #### Defined in
 
-[main.ts:79551](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L79551)
+main.ts:81928
 
 ___
-
 
 ### last\_updated\_time
 
@@ -88,10 +83,9 @@ example:
 
 #### Defined in
 
-[main.ts:79556](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L79556)
+main.ts:81933
 
 ___
-
 
 ### main\_intent
 
@@ -106,10 +100,9 @@ possible values: informational, navigational, commercial, transactional
 
 #### Defined in
 
-[main.ts:79548](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L79548)
+main.ts:81925
 
 ___
-
 
 ### se\_type
 
@@ -124,7 +117,7 @@ possible values: google
 
 #### Defined in
 
-[main.ts:79545](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L79545)
+main.ts:81922
 
 ## Methods
 
@@ -144,10 +137,9 @@ possible values: google
 
 #### Defined in
 
-[main.ts:79569](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L79569)
+main.ts:81946
 
 ___
-
 
 ### toJSON
 
@@ -165,10 +157,9 @@ ___
 
 #### Defined in
 
-[main.ts:79593](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L79593)
+main.ts:81970
 
 ___
-
 
 ### fromJS
 
@@ -186,8 +177,4 @@ ___
 
 #### Defined in
 
-[main.ts:79586](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L79586)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:81963

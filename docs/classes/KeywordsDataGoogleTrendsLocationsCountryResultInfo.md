@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / KeywordsDataGoogleTrendsLocationsCountryResultInfo
+[Documentation](../README.md) / [Exports](../modules.md) / KeywordsDataGoogleTrendsLocationsCountryResultInfo
 
 # Class: KeywordsDataGoogleTrendsLocationsCountryResultInfo
 
@@ -54,7 +50,7 @@
 
 #### Defined in
 
-[main.ts:119245](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L119245)
+main.ts:121622
 
 ## Properties
 
@@ -70,10 +66,9 @@ ISO country code of the location
 
 #### Defined in
 
-[main.ts:119232](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L119232)
+main.ts:121609
 
 ___
-
 
 ### geo\_id
 
@@ -88,10 +83,9 @@ you can use this field for matching obtained results with the location_code para
 
 #### Defined in
 
-[main.ts:119241](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L119241)
+main.ts:121618
 
 ___
-
 
 ### geo\_name
 
@@ -106,10 +100,9 @@ you can use this field for matching obtained results with the location_name para
 
 #### Defined in
 
-[main.ts:119238](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L119238)
+main.ts:121615
 
 ___
-
 
 ### location\_code
 
@@ -123,10 +116,9 @@ location code
 
 #### Defined in
 
-[main.ts:119219](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L119219)
+main.ts:121596
 
 ___
-
 
 ### location\_code\_parent
 
@@ -147,10 +139,9 @@ where location_code_parent corresponds to:
 
 #### Defined in
 
-[main.ts:119230](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L119230)
+main.ts:121607
 
 ___
-
 
 ### location\_name
 
@@ -164,10 +155,9 @@ full name of the location
 
 #### Defined in
 
-[main.ts:119221](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L119221)
+main.ts:121598
 
 ___
-
 
 ### location\_type
 
@@ -182,7 +172,7 @@ possible values according to Google’s target types
 
 #### Defined in
 
-[main.ts:119235](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L119235)
+main.ts:121612
 
 ## Methods
 
@@ -202,10 +192,9 @@ possible values according to Google’s target types
 
 #### Defined in
 
-[main.ts:119254](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L119254)
+main.ts:121631
 
 ___
-
 
 ### toJSON
 
@@ -223,10 +212,9 @@ ___
 
 #### Defined in
 
-[main.ts:119277](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L119277)
+main.ts:121654
 
 ___
-
 
 ### fromJS
 
@@ -244,8 +232,4 @@ ___
 
 #### Defined in
 
-[main.ts:119270](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L119270)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:121647

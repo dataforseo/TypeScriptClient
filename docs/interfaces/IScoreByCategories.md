@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IScoreByCategories
+[Documentation](../README.md) / [Exports](../modules.md) / IScoreByCategories
 
 # Interface: IScoreByCategories
 
@@ -36,10 +32,9 @@ calculated based on data from the hotel’s proximity to nearby airports
 
 #### Defined in
 
-[main.ts:196870](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L196870)
+main.ts:202331
 
 ___
-
 
 ### overall
 
@@ -52,10 +47,9 @@ note that the criteria are not weighted equally in the overall score
 
 #### Defined in
 
-[main.ts:196854](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L196854)
+main.ts:202315
 
 ___
-
 
 ### restaurants
 
@@ -67,10 +61,9 @@ calculated based on data from the hotel’s proximity to nearby restaurants
 
 #### Defined in
 
-[main.ts:196862](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L196862)
+main.ts:202323
 
 ___
-
 
 ### things\_to\_do
 
@@ -82,10 +75,9 @@ calculated based on data from the hotel’s proximity to nearby things to do
 
 #### Defined in
 
-[main.ts:196858](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L196858)
+main.ts:202319
 
 ___
-
 
 ### transit
 
@@ -97,8 +89,4 @@ calculated based on data from the hotel’s proximity to nearby transit options
 
 #### Defined in
 
-[main.ts:196866](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L196866)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:202327

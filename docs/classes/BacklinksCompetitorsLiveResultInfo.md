@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / BacklinksCompetitorsLiveResultInfo
+[Documentation](../README.md) / [Exports](../modules.md) / BacklinksCompetitorsLiveResultInfo
 
 # Class: BacklinksCompetitorsLiveResultInfo
 
@@ -50,7 +46,7 @@
 
 #### Defined in
 
-[main.ts:136203](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L136203)
+main.ts:141618
 
 ## Properties
 
@@ -66,10 +62,9 @@ items array
 
 #### Defined in
 
-[main.ts:136199](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L136199)
+main.ts:141614
 
 ___
-
 
 ### items\_count
 
@@ -83,10 +78,9 @@ number of items in the items array
 
 #### Defined in
 
-[main.ts:136197](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L136197)
+main.ts:141612
 
 ___
-
 
 ### total\_count
 
@@ -100,7 +94,7 @@ total number of relevant items in the database
 
 #### Defined in
 
-[main.ts:136195](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L136195)
+main.ts:141610
 
 ## Methods
 
@@ -120,10 +114,9 @@ total number of relevant items in the database
 
 #### Defined in
 
-[main.ts:136212](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L136212)
+main.ts:141627
 
 ___
-
 
 ### toJSON
 
@@ -141,10 +134,9 @@ ___
 
 #### Defined in
 
-[main.ts:136235](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L136235)
+main.ts:141650
 
 ___
-
 
 ### fromJS
 
@@ -162,8 +154,4 @@ ___
 
 #### Defined in
 
-[main.ts:136228](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L136228)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:141643

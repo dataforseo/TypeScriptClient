@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IBusinessDataTripadvisorLocationsResultInfo
+[Documentation](../README.md) / [Exports](../modules.md) / IBusinessDataTripadvisorLocationsResultInfo
 
 # Interface: IBusinessDataTripadvisorLocationsResultInfo
 
@@ -34,10 +30,9 @@ ISO country code of the location
 
 #### Defined in
 
-[main.ts:200419](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L200419)
+main.ts:205880
 
 ___
-
 
 ### location\_code
 
@@ -47,10 +42,9 @@ location code
 
 #### Defined in
 
-[main.ts:200409](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L200409)
+main.ts:205870
 
 ___
-
 
 ### location\_name
 
@@ -60,10 +54,9 @@ full name of the location
 
 #### Defined in
 
-[main.ts:200411](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L200411)
+main.ts:205872
 
 ___
-
 
 ### location\_name\_parent
 
@@ -77,10 +70,9 @@ example:
 
 #### Defined in
 
-[main.ts:200417](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L200417)
+main.ts:205878
 
 ___
-
 
 ### location\_type
 
@@ -90,8 +82,4 @@ location type
 
 #### Defined in
 
-[main.ts:200421](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L200421)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:205882

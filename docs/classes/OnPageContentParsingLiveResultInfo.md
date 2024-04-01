@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / OnPageContentParsingLiveResultInfo
+[Documentation](../README.md) / [Exports](../modules.md) / OnPageContentParsingLiveResultInfo
 
 # Class: OnPageContentParsingLiveResultInfo
 
@@ -51,7 +47,7 @@
 
 #### Defined in
 
-[main.ts:152810](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L152810)
+main.ts:158237
 
 ## Properties
 
@@ -68,10 +64,9 @@ possible values: in_progress, finished
 
 #### Defined in
 
-[main.ts:152800](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L152800)
+main.ts:158227
 
 ___
-
 
 ### crawl\_status
 
@@ -85,10 +80,9 @@ details of the crawling session
 
 #### Defined in
 
-[main.ts:152802](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L152802)
+main.ts:158229
 
 ___
-
 
 ### items
 
@@ -102,10 +96,9 @@ items array
 
 #### Defined in
 
-[main.ts:152806](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L152806)
+main.ts:158233
 
 ___
-
 
 ### items\_count
 
@@ -119,7 +112,7 @@ number of items in the results array
 
 #### Defined in
 
-[main.ts:152804](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L152804)
+main.ts:158231
 
 ## Methods
 
@@ -139,10 +132,9 @@ number of items in the results array
 
 #### Defined in
 
-[main.ts:152819](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L152819)
+main.ts:158246
 
 ___
-
 
 ### toJSON
 
@@ -160,10 +152,9 @@ ___
 
 #### Defined in
 
-[main.ts:152843](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L152843)
+main.ts:158270
 
 ___
-
 
 ### fromJS
 
@@ -181,8 +172,4 @@ ___
 
 #### Defined in
 
-[main.ts:152836](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L152836)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:158263

@@ -1,15 +1,11 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / ScholarlyArticlesSerpElementItem
+[Documentation](../README.md) / [Exports](../modules.md) / ScholarlyArticlesSerpElementItem
 
 # Class: ScholarlyArticlesSerpElementItem
 
 ## Hierarchy
 
 - [`BaseSerpElementItem`](BaseSerpElementItem.md)
-  
+
   ↳ **`ScholarlyArticlesSerpElementItem`**
 
 ## Implements
@@ -66,7 +62,7 @@
 
 #### Defined in
 
-[main.ts:31895](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L31895)
+main.ts:32761
 
 ## Properties
 
@@ -80,16 +76,16 @@
 
 #### Defined in
 
-[main.ts:19337](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L19337)
+main.ts:19788
 
 ___
-
 
 ### items
 
 • `Optional` **items**: [`ScholarlyArticlesElement`](ScholarlyArticlesElement.md)[]
 
-contains results featured in the ‘hotels_pack’ element of SERP
+additional items present in the element
+if there are none, equals null
 
 #### Implementation of
 
@@ -97,10 +93,9 @@ contains results featured in the ‘hotels_pack’ element of SERP
 
 #### Defined in
 
-[main.ts:31887](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L31887)
+main.ts:32753
 
 ___
-
 
 ### position
 
@@ -116,10 +111,9 @@ left, right
 
 #### Defined in
 
-[main.ts:31879](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L31879)
+main.ts:32744
 
 ___
-
 
 ### rank\_absolute
 
@@ -127,6 +121,7 @@ ___
 
 absolute rank in SERP
 absolute position among all the elements in SERP
+always equals 0 for desktop
 
 #### Implementation of
 
@@ -134,18 +129,18 @@ absolute position among all the elements in SERP
 
 #### Defined in
 
-[main.ts:31875](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L31875)
+main.ts:32740
 
 ___
-
 
 ### rank\_group
 
 • `Optional` **rank\_group**: `number`
 
 group rank in SERP
-position within a group of elements with identical type values
-positions of elements with different type values are omitted from rank_group
+position within a group of elements with identical type values;
+positions of elements with different type values are omitted from rank_group;
+always equals 0 for desktop
 
 #### Implementation of
 
@@ -153,10 +148,9 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-[main.ts:31872](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L31872)
+main.ts:32736
 
 ___
-
 
 ### rectangle
 
@@ -172,16 +166,15 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 #### Defined in
 
-[main.ts:31891](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L31891)
+main.ts:32757
 
 ___
-
 
 ### title
 
 • `Optional` **title**: `string`
 
-title of a given link element
+title of the row
 
 #### Implementation of
 
@@ -189,16 +182,15 @@ title of a given link element
 
 #### Defined in
 
-[main.ts:31883](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L31883)
+main.ts:32748
 
 ___
-
 
 ### url
 
 • `Optional` **url**: `string`
 
-URL
+source URL
 
 #### Implementation of
 
@@ -206,10 +198,9 @@ URL
 
 #### Defined in
 
-[main.ts:31885](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L31885)
+main.ts:32750
 
 ___
-
 
 ### xpath
 
@@ -223,7 +214,7 @@ the XPath of the element
 
 #### Defined in
 
-[main.ts:31881](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L31881)
+main.ts:32746
 
 ## Methods
 
@@ -247,10 +238,9 @@ the XPath of the element
 
 #### Defined in
 
-[main.ts:31900](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L31900)
+main.ts:32766
 
 ___
-
 
 ### toJSON
 
@@ -272,10 +262,9 @@ ___
 
 #### Defined in
 
-[main.ts:31929](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L31929)
+main.ts:32795
 
 ___
-
 
 ### fromJS
 
@@ -297,8 +286,4 @@ ___
 
 #### Defined in
 
-[main.ts:31922](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L31922)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:32788

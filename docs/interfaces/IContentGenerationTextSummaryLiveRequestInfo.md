@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IContentGenerationTextSummaryLiveRequestInfo
+[Documentation](../README.md) / [Exports](../modules.md) / IContentGenerationTextSummaryLiveRequestInfo
 
 # Interface: IContentGenerationTextSummaryLiveRequestInfo
 
@@ -37,10 +33,9 @@ default value: 10
 
 #### Defined in
 
-[main.ts:162216](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L162216)
+main.ts:167643
 
 ___
-
 
 ### language\_code
 
@@ -52,10 +47,9 @@ see the List of Languages for Content Generation Text Summary API
 
 #### Defined in
 
-[main.ts:162211](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L162211)
+main.ts:167638
 
 ___
-
 
 ### language\_name
 
@@ -67,10 +61,9 @@ see the List of Languages for Content Generation Text Summary API
 
 #### Defined in
 
-[main.ts:162207](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L162207)
+main.ts:167634
 
 ___
-
 
 ### tag
 
@@ -84,10 +77,9 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-[main.ts:162222](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L162222)
+main.ts:167649
 
 ___
-
 
 ### text
 
@@ -100,8 +92,4 @@ learn more about tokens on our help center
 
 #### Defined in
 
-[main.ts:162203](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L162203)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:167630

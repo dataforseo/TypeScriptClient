@@ -1,15 +1,11 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / AppDataGooglePlayReviewsSearchSerpElementItem
+[Documentation](../README.md) / [Exports](../modules.md) / AppDataGooglePlayReviewsSearchSerpElementItem
 
 # Class: AppDataGooglePlayReviewsSearchSerpElementItem
 
 ## Hierarchy
 
 - [`BaseAppDataSerpElementItem`](BaseAppDataSerpElementItem.md)
-  
+
   ↳ **`AppDataGooglePlayReviewsSearchSerpElementItem`**
 
 ## Implements
@@ -70,7 +66,7 @@
 
 #### Defined in
 
-[main.ts:181323](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L181323)
+main.ts:186776
 
 ## Properties
 
@@ -84,10 +80,9 @@
 
 #### Defined in
 
-[main.ts:20450](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L20450)
+main.ts:20969
 
 ___
-
 
 ### helpful\_count
 
@@ -102,10 +97,9 @@ indicates how many users considered the review helpful and voted with the thumbs
 
 #### Defined in
 
-[main.ts:181310](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L181310)
+main.ts:186763
 
 ___
-
 
 ### id
 
@@ -119,10 +113,9 @@ id of the review
 
 #### Defined in
 
-[main.ts:181307](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L181307)
+main.ts:186760
 
 ___
-
 
 ### position
 
@@ -137,10 +130,9 @@ can take the following values: left
 
 #### Defined in
 
-[main.ts:181295](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L181295)
+main.ts:186748
 
 ___
-
 
 ### rank\_absolute
 
@@ -155,10 +147,9 @@ absolute position among all reviews on the list
 
 #### Defined in
 
-[main.ts:181292](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L181292)
+main.ts:186745
 
 ___
-
 
 ### rank\_group
 
@@ -173,10 +164,9 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-[main.ts:181289](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L181289)
+main.ts:186742
 
 ___
-
 
 ### rating
 
@@ -190,10 +180,9 @@ the rating score submitted by the reviewer
 
 #### Defined in
 
-[main.ts:181300](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L181300)
+main.ts:186753
 
 ___
-
 
 ### responses
 
@@ -207,10 +196,9 @@ response from the developer
 
 #### Defined in
 
-[main.ts:181319](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L181319)
+main.ts:186772
 
 ___
-
 
 ### review\_text
 
@@ -224,10 +212,9 @@ content of the review
 
 #### Defined in
 
-[main.ts:181315](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L181315)
+main.ts:186768
 
 ___
-
 
 ### timestamp
 
@@ -244,10 +231,9 @@ example:
 
 #### Defined in
 
-[main.ts:181305](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L181305)
+main.ts:186758
 
 ___
-
 
 ### title
 
@@ -262,10 +248,9 @@ Google Play doesn’t provide an option to title reviews, so this parameter will
 
 #### Defined in
 
-[main.ts:181313](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L181313)
+main.ts:186766
 
 ___
-
 
 ### user\_profile
 
@@ -279,10 +264,9 @@ user profile of the reviewer
 
 #### Defined in
 
-[main.ts:181317](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L181317)
+main.ts:186770
 
 ___
-
 
 ### version
 
@@ -297,7 +281,7 @@ version of the app for which the review is submitted
 
 #### Defined in
 
-[main.ts:181298](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L181298)
+main.ts:186751
 
 ## Methods
 
@@ -321,10 +305,9 @@ version of the app for which the review is submitted
 
 #### Defined in
 
-[main.ts:181328](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L181328)
+main.ts:186781
 
 ___
-
 
 ### toJSON
 
@@ -346,10 +329,9 @@ ___
 
 #### Defined in
 
-[main.ts:181361](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L181361)
+main.ts:186814
 
 ___
-
 
 ### fromJS
 
@@ -371,8 +353,4 @@ ___
 
 #### Defined in
 
-[main.ts:181354](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L181354)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:186807

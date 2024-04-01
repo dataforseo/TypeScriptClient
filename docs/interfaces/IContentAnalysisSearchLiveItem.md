@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IContentAnalysisSearchLiveItem
+[Documentation](../README.md) / [Exports](../modules.md) / IContentAnalysisSearchLiveItem
 
 # Interface: IContentAnalysisSearchLiveItem
 
@@ -45,10 +41,9 @@ contains data on citations from the given url
 
 #### Defined in
 
-[main.ts:156840](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L156840)
+main.ts:162267
 
 ___
-
 
 ### country
 
@@ -59,10 +54,9 @@ to obtain a full list of available countries, refer to the Locations endpoint
 
 #### Defined in
 
-[main.ts:156819](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L156819)
+main.ts:162246
 
 ___
-
 
 ### domain
 
@@ -72,10 +66,9 @@ domain name
 
 #### Defined in
 
-[main.ts:156795](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L156795)
+main.ts:162222
 
 ___
-
 
 ### domain\_rank
 
@@ -88,10 +81,9 @@ learn more about the metric and how it is calculated in this help center article
 
 #### Defined in
 
-[main.ts:156811](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L156811)
+main.ts:162238
 
 ___
-
 
 ### fetch\_time
 
@@ -104,10 +96,9 @@ example:
 
 #### Defined in
 
-[main.ts:156816](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L156816)
+main.ts:162243
 
 ___
-
 
 ### language
 
@@ -118,10 +109,9 @@ to obtain a full list of available languages, refer to the Languages endpoint
 
 #### Defined in
 
-[main.ts:156822](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L156822)
+main.ts:162249
 
 ___
-
 
 ### main\_domain
 
@@ -131,10 +121,9 @@ main domain
 
 #### Defined in
 
-[main.ts:156797](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L156797)
+main.ts:162224
 
 ___
-
 
 ### page\_category
 
@@ -146,10 +135,9 @@ to obtain a full list of available categories, refer to the Categories endpoint
 
 #### Defined in
 
-[main.ts:156830](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L156830)
+main.ts:162257
 
 ___
-
 
 ### page\_types
 
@@ -159,10 +147,9 @@ page types
 
 #### Defined in
 
-[main.ts:156832](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L156832)
+main.ts:162259
 
 ___
-
 
 ### ratings
 
@@ -173,10 +160,9 @@ all ratings found on the page based on microdata
 
 #### Defined in
 
-[main.ts:156835](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L156835)
+main.ts:162262
 
 ___
-
 
 ### score
 
@@ -188,10 +174,9 @@ the higher the score, the more value the related citation has
 
 #### Defined in
 
-[main.ts:156826](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L156826)
+main.ts:162253
 
 ___
-
 
 ### social\_metrics
 
@@ -202,10 +187,9 @@ data on social media interactions associated with the content based on website e
 
 #### Defined in
 
-[main.ts:156838](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L156838)
+main.ts:162265
 
 ___
-
 
 ### spam\_score
 
@@ -217,10 +201,9 @@ learn more about how the metric is calculated on this help center page
 
 #### Defined in
 
-[main.ts:156806](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L156806)
+main.ts:162233
 
 ___
-
 
 ### type
 
@@ -230,10 +213,9 @@ type of element
 
 #### Defined in
 
-[main.ts:156791](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L156791)
+main.ts:162218
 
 ___
-
 
 ### url
 
@@ -243,10 +225,9 @@ URL where the citation was found
 
 #### Defined in
 
-[main.ts:156793](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L156793)
+main.ts:162220
 
 ___
-
 
 ### url\_rank
 
@@ -259,8 +240,4 @@ learn more about the metric and how it is calculated in this help center article
 
 #### Defined in
 
-[main.ts:156802](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L156802)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:162229

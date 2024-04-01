@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IContentGenerationGenerateMetaTagsLiveRequestInfo
+[Documentation](../README.md) / [Exports](../modules.md) / IContentGenerationGenerateMetaTagsLiveRequestInfo
 
 # Interface: IContentGenerationGenerateMetaTagsLiveRequestInfo
 
@@ -37,10 +33,9 @@ learn more about this parameter on our help center
 
 #### Defined in
 
-[main.ts:160646](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L160646)
+main.ts:166073
 
 ___
-
 
 ### tag
 
@@ -54,10 +49,9 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-[main.ts:160652](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L160652)
+main.ts:166079
 
 ___
-
 
 ### text
 
@@ -71,8 +65,4 @@ learn more about tokens on our help center
 
 #### Defined in
 
-[main.ts:160639](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L160639)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:166066

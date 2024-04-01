@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / BusinessDataBusinessListingsCategoriesResultInfo
+[Documentation](../README.md) / [Exports](../modules.md) / BusinessDataBusinessListingsCategoriesResultInfo
 
 # Class: BusinessDataBusinessListingsCategoriesResultInfo
 
@@ -49,7 +45,7 @@
 
 #### Defined in
 
-[main.ts:188012](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L188012)
+main.ts:193465
 
 ## Properties
 
@@ -65,10 +61,9 @@ number of businesses in the category
 
 #### Defined in
 
-[main.ts:188008](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L188008)
+main.ts:193461
 
 ___
-
 
 ### category\_name
 
@@ -82,7 +77,7 @@ full name of the category
 
 #### Defined in
 
-[main.ts:188006](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L188006)
+main.ts:193459
 
 ## Methods
 
@@ -102,10 +97,9 @@ full name of the category
 
 #### Defined in
 
-[main.ts:188021](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L188021)
+main.ts:193474
 
 ___
-
 
 ### toJSON
 
@@ -123,10 +117,9 @@ ___
 
 #### Defined in
 
-[main.ts:188039](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L188039)
+main.ts:193492
 
 ___
-
 
 ### fromJS
 
@@ -144,8 +137,4 @@ ___
 
 #### Defined in
 
-[main.ts:188032](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L188032)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:193485

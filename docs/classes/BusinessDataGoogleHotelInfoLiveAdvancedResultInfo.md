@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / BusinessDataGoogleHotelInfoLiveAdvancedResultInfo
+[Documentation](../README.md) / [Exports](../modules.md) / BusinessDataGoogleHotelInfoLiveAdvancedResultInfo
 
 # Class: BusinessDataGoogleHotelInfoLiveAdvancedResultInfo
 
@@ -62,7 +58,7 @@
 
 #### Defined in
 
-[main.ts:197047](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L197047)
+main.ts:202508
 
 ## Properties
 
@@ -78,10 +74,9 @@ information about the hotel
 
 #### Defined in
 
-[main.ts:197031](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L197031)
+main.ts:202492
 
 ___
-
 
 ### address
 
@@ -96,10 +91,9 @@ physical address of the hotel
 
 #### Defined in
 
-[main.ts:197026](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L197026)
+main.ts:202487
 
 ___
-
 
 ### check\_url
 
@@ -114,10 +108,9 @@ you can use it to make sure that we provided accurate results
 
 #### Defined in
 
-[main.ts:197009](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L197009)
+main.ts:202470
 
 ___
-
 
 ### datetime
 
@@ -134,10 +127,9 @@ example:
 
 #### Defined in
 
-[main.ts:197014](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L197014)
+main.ts:202475
 
 ___
-
 
 ### hotel\_identifier
 
@@ -154,10 +146,9 @@ CgoI-KWyzenM_MV3EAE
 
 #### Defined in
 
-[main.ts:197002](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L197002)
+main.ts:202463
 
 ___
-
 
 ### language\_code
 
@@ -171,10 +162,9 @@ language code in a POST array
 
 #### Defined in
 
-[main.ts:197006](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L197006)
+main.ts:202467
 
 ___
-
 
 ### location
 
@@ -189,10 +179,9 @@ information about the location where the hotel is located
 
 #### Defined in
 
-[main.ts:197034](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L197034)
+main.ts:202495
 
 ___
-
 
 ### location\_code
 
@@ -206,10 +195,9 @@ location code in a POST array
 
 #### Defined in
 
-[main.ts:197004](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L197004)
+main.ts:202465
 
 ___
-
 
 ### overview\_images
 
@@ -224,10 +212,9 @@ array containing URLs to images displayed in the hotel overview
 
 #### Defined in
 
-[main.ts:197040](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L197040)
+main.ts:202501
 
 ___
-
 
 ### phone
 
@@ -242,10 +229,9 @@ contact phone number of the hotel
 
 #### Defined in
 
-[main.ts:197029](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L197029)
+main.ts:202490
 
 ___
-
 
 ### prices
 
@@ -260,10 +246,9 @@ contains information about the hotel’s prices
 
 #### Defined in
 
-[main.ts:197043](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L197043)
+main.ts:202504
 
 ___
-
 
 ### reviews
 
@@ -278,10 +263,9 @@ information about reviews of the hotel entity
 
 #### Defined in
 
-[main.ts:197037](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L197037)
+main.ts:202498
 
 ___
-
 
 ### stars
 
@@ -296,10 +280,9 @@ class rating that ranges between 1-5 stars and displayed after review ratings in
 
 #### Defined in
 
-[main.ts:197020](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L197020)
+main.ts:202481
 
 ___
-
 
 ### stars\_description
 
@@ -314,10 +297,9 @@ class rating that ranges between 1-5 stars and displayed after review ratings in
 
 #### Defined in
 
-[main.ts:197023](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L197023)
+main.ts:202484
 
 ___
-
 
 ### title
 
@@ -332,7 +314,7 @@ the title of the hotel entity for which the results are collected
 
 #### Defined in
 
-[main.ts:197017](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L197017)
+main.ts:202478
 
 ## Methods
 
@@ -352,10 +334,9 @@ the title of the hotel entity for which the results are collected
 
 #### Defined in
 
-[main.ts:197056](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L197056)
+main.ts:202517
 
 ___
-
 
 ### toJSON
 
@@ -373,10 +354,9 @@ ___
 
 #### Defined in
 
-[main.ts:197091](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L197091)
+main.ts:202552
 
 ___
-
 
 ### fromJS
 
@@ -394,8 +374,4 @@ ___
 
 #### Defined in
 
-[main.ts:197084](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L197084)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:202545

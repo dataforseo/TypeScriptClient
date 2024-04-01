@@ -1,29 +1,25 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / BaseMerchantSerpElementItem
+[Documentation](../README.md) / [Exports](../modules.md) / BaseMerchantSerpElementItem
 
 # Class: BaseMerchantSerpElementItem
 
 ## Hierarchy
 
 - **`BaseMerchantSerpElementItem`**
-  
+
   ↳ [`GoogleShoppingSerpMerchantSerpElementItem`](GoogleShoppingSerpMerchantSerpElementItem.md)
-  
+
   ↳ [`GoogleShoppingPaidMerchantSerpElementItem`](GoogleShoppingPaidMerchantSerpElementItem.md)
-  
+
   ↳ [`GoogleShoppingSponsoredCarouselMerchantSerpElementItem`](GoogleShoppingSponsoredCarouselMerchantSerpElementItem.md)
-  
+
   ↳ [`RelatedSearchesMerchantSerpElementItem`](RelatedSearchesMerchantSerpElementItem.md)
-  
+
   ↳ [`ShopsListMerchantSerpElementItem`](ShopsListMerchantSerpElementItem.md)
-  
+
   ↳ [`BuyOnGoogleMerchantSerpElementItem`](BuyOnGoogleMerchantSerpElementItem.md)
-  
+
   ↳ [`ShoppingSpecificationMerchantSerpElementItem`](ShoppingSpecificationMerchantSerpElementItem.md)
-  
+
   ↳ [`ProductInfoElementMerchantSerpElementItem`](ProductInfoElementMerchantSerpElementItem.md)
 
 ## Implements
@@ -68,7 +64,7 @@
 
 #### Defined in
 
-[main.ts:19990](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L19990)
+main.ts:20446
 
 ## Properties
 
@@ -78,7 +74,7 @@
 
 #### Defined in
 
-[main.ts:19988](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L19988)
+main.ts:20444
 
 ## Methods
 
@@ -98,10 +94,9 @@
 
 #### Defined in
 
-[main.ts:20000](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L20000)
+main.ts:20456
 
 ___
-
 
 ### toJSON
 
@@ -119,10 +114,9 @@ ___
 
 #### Defined in
 
-[main.ts:20056](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L20056)
+main.ts:20512
 
 ___
-
 
 ### fromJS
 
@@ -140,8 +134,4 @@ ___
 
 #### Defined in
 
-[main.ts:20009](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L20009)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:20465

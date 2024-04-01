@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / ContentGenerationTextSummaryLiveRequestInfo
+[Documentation](../README.md) / [Exports](../modules.md) / ContentGenerationTextSummaryLiveRequestInfo
 
 # Class: ContentGenerationTextSummaryLiveRequestInfo
 
@@ -52,7 +48,7 @@
 
 #### Defined in
 
-[main.ts:162153](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L162153)
+main.ts:167580
 
 ## Properties
 
@@ -71,10 +67,9 @@ default value: 10
 
 #### Defined in
 
-[main.ts:162143](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L162143)
+main.ts:167570
 
 ___
-
 
 ### language\_code
 
@@ -90,10 +85,9 @@ see the List of Languages for Content Generation Text Summary API
 
 #### Defined in
 
-[main.ts:162138](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L162138)
+main.ts:167565
 
 ___
-
 
 ### language\_name
 
@@ -109,10 +103,9 @@ see the List of Languages for Content Generation Text Summary API
 
 #### Defined in
 
-[main.ts:162134](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L162134)
+main.ts:167561
 
 ___
-
 
 ### tag
 
@@ -130,10 +123,9 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-[main.ts:162149](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L162149)
+main.ts:167576
 
 ___
-
 
 ### text
 
@@ -150,7 +142,7 @@ learn more about tokens on our help center
 
 #### Defined in
 
-[main.ts:162130](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L162130)
+main.ts:167557
 
 ## Methods
 
@@ -170,10 +162,9 @@ learn more about tokens on our help center
 
 #### Defined in
 
-[main.ts:162162](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L162162)
+main.ts:167589
 
 ___
-
 
 ### toJSON
 
@@ -191,10 +182,9 @@ ___
 
 #### Defined in
 
-[main.ts:162183](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L162183)
+main.ts:167610
 
 ___
-
 
 ### fromJS
 
@@ -212,8 +202,4 @@ ___
 
 #### Defined in
 
-[main.ts:162176](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L162176)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:167603

@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / AppendixContentGenerationLimitsRatesDataInfo
+[Documentation](../README.md) / [Exports](../modules.md) / AppendixContentGenerationLimitsRatesDataInfo
 
 # Class: AppendixContentGenerationLimitsRatesDataInfo
 
@@ -54,7 +50,7 @@
 
 #### Defined in
 
-[main.ts:208459](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L208459)
+main.ts:213984
 
 ## Properties
 
@@ -68,14 +64,13 @@
 
 #### Defined in
 
-[main.ts:208453](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L208453)
+main.ts:213978
 
 ___
 
-
 ### generate
 
-• `Optional` **generate**: [`AppendixInfo`](AppendixInfo.md)
+• `Optional` **generate**: [`AppendixFunctionInfo`](AppendixFunctionInfo.md)
 
 #### Implementation of
 
@@ -83,14 +78,13 @@ ___
 
 #### Defined in
 
-[main.ts:208449](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L208449)
+main.ts:213974
 
 ___
 
-
 ### generate\_meta\_tags
 
-• `Optional` **generate\_meta\_tags**: [`AppendixInfo`](AppendixInfo.md)
+• `Optional` **generate\_meta\_tags**: [`AppendixFunctionInfo`](AppendixFunctionInfo.md)
 
 #### Implementation of
 
@@ -98,14 +92,13 @@ ___
 
 #### Defined in
 
-[main.ts:208450](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L208450)
+main.ts:213975
 
 ___
 
-
 ### generate\_sub\_topics
 
-• `Optional` **generate\_sub\_topics**: [`AppendixInfo`](AppendixInfo.md)
+• `Optional` **generate\_sub\_topics**: [`AppendixFunctionInfo`](AppendixFunctionInfo.md)
 
 #### Implementation of
 
@@ -113,14 +106,13 @@ ___
 
 #### Defined in
 
-[main.ts:208455](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L208455)
+main.ts:213980
 
 ___
 
-
 ### generate\_text
 
-• `Optional` **generate\_text**: [`AppendixInfo`](AppendixInfo.md)
+• `Optional` **generate\_text**: [`AppendixFunctionInfo`](AppendixFunctionInfo.md)
 
 #### Implementation of
 
@@ -128,14 +120,13 @@ ___
 
 #### Defined in
 
-[main.ts:208451](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L208451)
+main.ts:213976
 
 ___
 
-
 ### paraphrase
 
-• `Optional` **paraphrase**: [`AppendixInfo`](AppendixInfo.md)
+• `Optional` **paraphrase**: [`AppendixFunctionInfo`](AppendixFunctionInfo.md)
 
 #### Implementation of
 
@@ -143,10 +134,9 @@ ___
 
 #### Defined in
 
-[main.ts:208452](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L208452)
+main.ts:213977
 
 ___
-
 
 ### text\_summary
 
@@ -158,7 +148,7 @@ ___
 
 #### Defined in
 
-[main.ts:208454](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L208454)
+main.ts:213979
 
 ## Methods
 
@@ -178,10 +168,9 @@ ___
 
 #### Defined in
 
-[main.ts:208468](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L208468)
+main.ts:213993
 
 ___
-
 
 ### toJSON
 
@@ -199,10 +188,9 @@ ___
 
 #### Defined in
 
-[main.ts:208491](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L208491)
+main.ts:214016
 
 ___
-
 
 ### fromJS
 
@@ -220,8 +208,4 @@ ___
 
 #### Defined in
 
-[main.ts:208484](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L208484)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:214009

@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IKeywordsDataGoogleAdsKeywordsForKeywordsTaskGetResultInfo
+[Documentation](../README.md) / [Exports](../modules.md) / IKeywordsDataGoogleAdsKeywordsForKeywordsTaskGetResultInfo
 
 # Interface: IKeywordsDataGoogleAdsKeywordsForKeywordsTaskGetResultInfo
 
@@ -45,10 +41,9 @@ learn more about the metric in this help center article
 
 #### Defined in
 
-[main.ts:116356](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L116356)
+main.ts:118733
 
 ___
-
 
 ### competition\_index
 
@@ -63,10 +58,9 @@ learn more about the metric in this help center article
 
 #### Defined in
 
-[main.ts:116363](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L116363)
+main.ts:118740
 
 ___
-
 
 ### cpc
 
@@ -77,10 +71,9 @@ indicates the amount paid for each click on the ad displayed for a given keyword
 
 #### Defined in
 
-[main.ts:116378](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L116378)
+main.ts:118755
 
 ___
-
 
 ### high\_top\_of\_page\_bid
 
@@ -92,10 +85,9 @@ the value may differ depending on the location specified in a POST request
 
 #### Defined in
 
-[main.ts:116375](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L116375)
+main.ts:118752
 
 ___
-
 
 ### keyword
 
@@ -105,10 +97,9 @@ keyword in a POST array
 
 #### Defined in
 
-[main.ts:116339](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L116339)
+main.ts:118716
 
 ___
-
 
 ### keyword\_annotations
 
@@ -118,10 +109,9 @@ the annotations for the keyword
 
 #### Defined in
 
-[main.ts:116384](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L116384)
+main.ts:118761
 
 ___
-
 
 ### language\_code
 
@@ -132,10 +122,9 @@ if there is no data, the value is null
 
 #### Defined in
 
-[main.ts:116345](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L116345)
+main.ts:118722
 
 ___
-
 
 ### location\_code
 
@@ -146,10 +135,9 @@ if there is no data, the value is null
 
 #### Defined in
 
-[main.ts:116342](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L116342)
+main.ts:118719
 
 ___
-
 
 ### low\_top\_of\_page\_bid
 
@@ -161,10 +149,9 @@ the value may differ depending on the location specified in a POST request
 
 #### Defined in
 
-[main.ts:116371](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L116371)
+main.ts:118748
 
 ___
-
 
 ### monthly\_searches
 
@@ -176,10 +163,9 @@ if there is no data, the value is null
 
 #### Defined in
 
-[main.ts:116382](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L116382)
+main.ts:118759
 
 ___
-
 
 ### search\_partners
 
@@ -192,10 +178,9 @@ if false, the results are returned for Google search sites only
 
 #### Defined in
 
-[main.ts:116350](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L116350)
+main.ts:118727
 
 ___
-
 
 ### search\_volume
 
@@ -207,8 +192,4 @@ if there is no data, the value is null
 
 #### Defined in
 
-[main.ts:116367](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L116367)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:118744

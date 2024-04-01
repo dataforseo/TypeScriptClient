@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / ISerpYoutubeVideoCommentsLiveAdvancedRequestInfo
+[Documentation](../README.md) / [Exports](../modules.md) / ISerpYoutubeVideoCommentsLiveAdvancedRequestInfo
 
 # Interface: ISerpYoutubeVideoCommentsLiveAdvancedRequestInfo
 
@@ -45,10 +41,9 @@ if the specified depth is higher than the number of results in the response, the
 
 #### Defined in
 
-[main.ts:62363](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L62363)
+main.ts:64738
 
 ___
-
 
 ### device
 
@@ -60,10 +55,9 @@ only value: desktop
 
 #### Defined in
 
-[main.ts:62349](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L62349)
+main.ts:64724
 
 ___
-
 
 ### language\_code
 
@@ -78,10 +72,9 @@ en
 
 #### Defined in
 
-[main.ts:62345](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L62345)
+main.ts:64720
 
 ___
-
 
 ### language\_name
 
@@ -96,10 +89,9 @@ English
 
 #### Defined in
 
-[main.ts:62338](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L62338)
+main.ts:64713
 
 ___
-
 
 ### location\_code
 
@@ -114,10 +106,9 @@ example:
 
 #### Defined in
 
-[main.ts:62331](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L62331)
+main.ts:64706
 
 ___
-
 
 ### location\_name
 
@@ -132,10 +123,9 @@ United States
 
 #### Defined in
 
-[main.ts:62324](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L62324)
+main.ts:64699
 
 ___
-
 
 ### os
 
@@ -148,10 +138,9 @@ default value: windows
 
 #### Defined in
 
-[main.ts:62354](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L62354)
+main.ts:64729
 
 ___
-
 
 ### tag
 
@@ -165,10 +154,9 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-[main.ts:62369](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L62369)
+main.ts:64744
 
 ___
-
 
 ### video\_id
 
@@ -182,8 +170,4 @@ vQXvyV0zIP4
 
 #### Defined in
 
-[main.ts:62317](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L62317)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:64692

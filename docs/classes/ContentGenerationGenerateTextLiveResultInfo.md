@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / ContentGenerationGenerateTextLiveResultInfo
+[Documentation](../README.md) / [Exports](../modules.md) / ContentGenerationGenerateTextLiveResultInfo
 
 # Class: ContentGenerationGenerateTextLiveResultInfo
 
@@ -52,7 +48,7 @@
 
 #### Defined in
 
-[main.ts:160397](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L160397)
+main.ts:165824
 
 ## Properties
 
@@ -68,10 +64,9 @@ resulting text
 
 #### Defined in
 
-[main.ts:160389](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L160389)
+main.ts:165816
 
 ___
-
 
 ### input\_tokens
 
@@ -85,10 +80,9 @@ number of input tokens
 
 #### Defined in
 
-[main.ts:160383](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L160383)
+main.ts:165810
 
 ___
-
 
 ### new\_tokens
 
@@ -102,10 +96,9 @@ number of new tokens
 
 #### Defined in
 
-[main.ts:160387](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L160387)
+main.ts:165814
 
 ___
-
 
 ### output\_tokens
 
@@ -119,10 +112,9 @@ number of output tokens
 
 #### Defined in
 
-[main.ts:160385](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L160385)
+main.ts:165812
 
 ___
-
 
 ### supplement\_token
 
@@ -138,7 +130,7 @@ supplement_token values are unique for each subsequent task
 
 #### Defined in
 
-[main.ts:160393](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L160393)
+main.ts:165820
 
 ## Methods
 
@@ -158,10 +150,9 @@ supplement_token values are unique for each subsequent task
 
 #### Defined in
 
-[main.ts:160406](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L160406)
+main.ts:165833
 
 ___
-
 
 ### toJSON
 
@@ -179,10 +170,9 @@ ___
 
 #### Defined in
 
-[main.ts:160427](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L160427)
+main.ts:165854
 
 ___
-
 
 ### fromJS
 
@@ -200,8 +190,4 @@ ___
 
 #### Defined in
 
-[main.ts:160420](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L160420)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:165847

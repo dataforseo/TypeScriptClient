@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / ISocialMetricsInfo
+[Documentation](../README.md) / [Exports](../modules.md) / ISocialMetricsInfo
 
 # Interface: ISocialMetricsInfo
 
@@ -31,10 +27,9 @@ likes count
 
 #### Defined in
 
-[main.ts:21594](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L21594)
+main.ts:22113
 
 ___
-
 
 ### type
 
@@ -44,8 +39,4 @@ type of element
 
 #### Defined in
 
-[main.ts:21592](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L21592)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:22111

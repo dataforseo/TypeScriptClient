@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / DataforseoLabsSerpCompetitorsLiveItem
+[Documentation](../README.md) / [Exports](../modules.md) / DataforseoLabsSerpCompetitorsLiveItem
 
 # Class: DataforseoLabsSerpCompetitorsLiveItem
 
@@ -57,7 +53,7 @@
 
 #### Defined in
 
-[main.ts:87683](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L87683)
+main.ts:90060
 
 ## Properties
 
@@ -74,10 +70,9 @@ the arithmetic mean of values in the keywords_positions array
 
 #### Defined in
 
-[main.ts:87653](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L87653)
+main.ts:90030
 
 ___
-
 
 ### domain
 
@@ -91,10 +86,9 @@ domain name of the detected SERP competitor
 
 #### Defined in
 
-[main.ts:87650](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L87650)
+main.ts:90027
 
 ___
-
 
 ### etv
 
@@ -111,10 +105,9 @@ learn more about how the metric is calculated in this help center article
 
 #### Defined in
 
-[main.ts:87665](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L87665)
+main.ts:90042
 
 ___
-
 
 ### keywords\_count
 
@@ -128,10 +121,9 @@ the number of specified keywords the domain has positions for in SERPs
 
 #### Defined in
 
-[main.ts:87667](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L87667)
+main.ts:90044
 
 ___
-
 
 ### keywords\_positions
 
@@ -150,10 +142,9 @@ SERP positions the related domain holds in SERP for the specified keywords
 
 #### Defined in
 
-[main.ts:87679](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L87679)
+main.ts:90056
 
 ___
-
 
 ### median\_position
 
@@ -168,10 +159,9 @@ the median of the values in the keywords_positions array
 
 #### Defined in
 
-[main.ts:87656](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L87656)
+main.ts:90033
 
 ___
-
 
 ### rating
 
@@ -187,10 +177,9 @@ calculated as sum(100-keywords_positions)
 
 #### Defined in
 
-[main.ts:87660](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L87660)
+main.ts:90037
 
 ___
-
 
 ### relevant\_serp\_items
 
@@ -205,10 +194,9 @@ represents the number of search results in SERP relevant to the domain for the s
 
 #### Defined in
 
-[main.ts:87676](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L87676)
+main.ts:90053
 
 ___
-
 
 ### se\_type
 
@@ -222,10 +210,9 @@ search engine type
 
 #### Defined in
 
-[main.ts:87648](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L87648)
+main.ts:90025
 
 ___
-
 
 ### visibility
 
@@ -243,7 +230,7 @@ keywords with positions from 20 to 100 have the visibility index equal to 0
 
 #### Defined in
 
-[main.ts:87673](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L87673)
+main.ts:90050
 
 ## Methods
 
@@ -263,10 +250,9 @@ keywords with positions from 20 to 100 have the visibility index equal to 0
 
 #### Defined in
 
-[main.ts:87692](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L87692)
+main.ts:90069
 
 ___
-
 
 ### toJSON
 
@@ -284,10 +270,9 @@ ___
 
 #### Defined in
 
-[main.ts:87724](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L87724)
+main.ts:90101
 
 ___
-
 
 ### fromJS
 
@@ -305,8 +290,4 @@ ___
 
 #### Defined in
 
-[main.ts:87717](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L87717)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:90094

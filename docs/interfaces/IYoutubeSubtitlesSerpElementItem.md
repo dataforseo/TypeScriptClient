@@ -1,15 +1,11 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IYoutubeSubtitlesSerpElementItem
+[Documentation](../README.md) / [Exports](../modules.md) / IYoutubeSubtitlesSerpElementItem
 
 # Interface: IYoutubeSubtitlesSerpElementItem
 
 ## Hierarchy
 
 - [`IBaseSerpElementItem`](IBaseSerpElementItem.md)
-  
+
   ↳ **`IYoutubeSubtitlesSerpElementItem`**
 
 ## Implemented by
@@ -41,10 +37,9 @@ duration of subtitles in seconds
 
 #### Defined in
 
-[main.ts:60297](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L60297)
+main.ts:62672
 
 ___
-
 
 ### end\_time
 
@@ -54,10 +49,9 @@ the second subtitled text ends
 
 #### Defined in
 
-[main.ts:60295](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L60295)
+main.ts:62670
 
 ___
-
 
 ### rank\_absolute
 
@@ -68,10 +62,9 @@ absolute position among all the elements in SERP
 
 #### Defined in
 
-[main.ts:60289](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L60289)
+main.ts:62664
 
 ___
-
 
 ### rank\_group
 
@@ -83,10 +76,9 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-[main.ts:60286](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L60286)
+main.ts:62661
 
 ___
-
 
 ### start\_time
 
@@ -96,10 +88,9 @@ the second subtitled text starts
 
 #### Defined in
 
-[main.ts:60293](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L60293)
+main.ts:62668
 
 ___
-
 
 ### text
 
@@ -109,8 +100,4 @@ text translated in subtitles
 
 #### Defined in
 
-[main.ts:60291](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L60291)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:62666

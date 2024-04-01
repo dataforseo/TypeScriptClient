@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IDomainAnalyticsTechnologiesTechnologyStatsLiveItem
+[Documentation](../README.md) / [Exports](../modules.md) / IDomainAnalyticsTechnologiesTechnologyStatsLiveItem
 
 # Interface: IDomainAnalyticsTechnologiesTechnologyStatsLiveItem
 
@@ -42,10 +38,9 @@ contains country codes and number of websites per country
 
 #### Defined in
 
-[main.ts:73710](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L73710)
+main.ts:76087
 
 ___
-
 
 ### date
 
@@ -55,10 +50,9 @@ date for which the data is provided
 
 #### Defined in
 
-[main.ts:73705](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L73705)
+main.ts:76082
 
 ___
-
 
 ### domains\_count
 
@@ -68,10 +62,9 @@ number of domains that use the specified technology
 
 #### Defined in
 
-[main.ts:73707](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L73707)
+main.ts:76084
 
 ___
-
 
 ### domains\_rank
 
@@ -87,10 +80,9 @@ learn more about rank and how it is calculated in this help center article
 
 #### Defined in
 
-[main.ts:73717](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L73717)
+main.ts:76094
 
 ___
-
 
 ### languages
 
@@ -105,10 +97,9 @@ contains language codes and number of websites per language
 
 #### Defined in
 
-[main.ts:73713](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L73713)
+main.ts:76090
 
 ___
-
 
 ### type
 
@@ -118,8 +109,4 @@ type of element
 
 #### Defined in
 
-[main.ts:73703](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L73703)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:76080

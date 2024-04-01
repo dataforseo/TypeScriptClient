@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / RankInfo
+[Documentation](../README.md) / [Exports](../modules.md) / RankInfo
 
 # Class: RankInfo
 
@@ -49,7 +45,7 @@
 
 #### Defined in
 
-[main.ts:86570](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L86570)
+main.ts:88947
 
 ## Properties
 
@@ -67,10 +63,9 @@ learn more about the metric and how it is calculated in this help center article
 
 #### Defined in
 
-[main.ts:86566](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L86566)
+main.ts:88943
 
 ___
-
 
 ### page\_rank
 
@@ -86,7 +81,7 @@ learn more about the metric and how it is calculated in this help center article
 
 #### Defined in
 
-[main.ts:86562](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L86562)
+main.ts:88939
 
 ## Methods
 
@@ -106,10 +101,9 @@ learn more about the metric and how it is calculated in this help center article
 
 #### Defined in
 
-[main.ts:86579](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L86579)
+main.ts:88956
 
 ___
-
 
 ### toJSON
 
@@ -127,10 +121,9 @@ ___
 
 #### Defined in
 
-[main.ts:86597](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L86597)
+main.ts:88974
 
 ___
-
 
 ### fromJS
 
@@ -148,8 +141,4 @@ ___
 
 #### Defined in
 
-[main.ts:86590](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L86590)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:88967

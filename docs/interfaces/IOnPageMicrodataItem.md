@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IOnPageMicrodataItem
+[Documentation](../README.md) / [Exports](../modules.md) / IOnPageMicrodataItem
 
 # Interface: IOnPageMicrodataItem
 
@@ -31,10 +27,9 @@ information related to microdata validation
 
 #### Defined in
 
-[main.ts:150934](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L150934)
+main.ts:156361
 
 ___
-
 
 ### type
 
@@ -44,8 +39,4 @@ type of element
 
 #### Defined in
 
-[main.ts:150932](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L150932)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:156359

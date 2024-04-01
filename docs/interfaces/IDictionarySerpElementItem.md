@@ -1,15 +1,11 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IDictionarySerpElementItem
+[Documentation](../README.md) / [Exports](../modules.md) / IDictionarySerpElementItem
 
 # Interface: IDictionarySerpElementItem
 
 ## Hierarchy
 
 - [`IBaseSerpElementItem`](IBaseSerpElementItem.md)
-  
+
   ↳ **`IDictionarySerpElementItem`**
 
 ## Implemented by
@@ -48,10 +44,9 @@ breadcrumb of the Ad element in SERP
 
 #### Defined in
 
-[main.ts:66979](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L66979)
+main.ts:69356
 
 ___
-
 
 ### domain
 
@@ -61,10 +56,9 @@ domain in SERP
 
 #### Defined in
 
-[main.ts:66977](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L66977)
+main.ts:69354
 
 ___
-
 
 ### keyword
 
@@ -74,10 +68,9 @@ keyword highlighted in the result
 
 #### Defined in
 
-[main.ts:66981](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L66981)
+main.ts:69358
 
 ___
-
 
 ### links
 
@@ -89,10 +82,9 @@ if there are none, equals null
 
 #### Defined in
 
-[main.ts:66989](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L66989)
+main.ts:69366
 
 ___
-
 
 ### position
 
@@ -104,10 +96,9 @@ left, right
 
 #### Defined in
 
-[main.ts:66969](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L66969)
+main.ts:69346
 
 ___
-
 
 ### rank\_absolute
 
@@ -118,10 +109,9 @@ absolute position among all the elements in SERP
 
 #### Defined in
 
-[main.ts:66965](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L66965)
+main.ts:69342
 
 ___
-
 
 ### rank\_group
 
@@ -133,10 +123,9 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-[main.ts:66962](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L66962)
+main.ts:69339
 
 ___
-
 
 ### rectangle
 
@@ -148,10 +137,9 @@ note: calculate_rectangles parameter is not yet available when setting tasks for
 
 #### Defined in
 
-[main.ts:66993](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L66993)
+main.ts:69370
 
 ___
-
 
 ### snippet
 
@@ -161,10 +149,9 @@ snippet of the element
 
 #### Defined in
 
-[main.ts:66983](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L66983)
+main.ts:69360
 
 ___
-
 
 ### text
 
@@ -174,10 +161,9 @@ description of the results element in SERP
 
 #### Defined in
 
-[main.ts:66985](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L66985)
+main.ts:69362
 
 ___
-
 
 ### title
 
@@ -187,10 +173,9 @@ title of the result in SERP
 
 #### Defined in
 
-[main.ts:66973](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L66973)
+main.ts:69350
 
 ___
-
 
 ### url
 
@@ -200,10 +185,9 @@ relevant URL of the Ad element in SERP
 
 #### Defined in
 
-[main.ts:66975](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L66975)
+main.ts:69352
 
 ___
-
 
 ### xpath
 
@@ -213,8 +197,4 @@ the XPath of the element
 
 #### Defined in
 
-[main.ts:66971](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L66971)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:69348

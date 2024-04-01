@@ -1,15 +1,11 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / DictionarySerpElementItem
+[Documentation](../README.md) / [Exports](../modules.md) / DictionarySerpElementItem
 
 # Class: DictionarySerpElementItem
 
 ## Hierarchy
 
 - [`BaseSerpElementItem`](BaseSerpElementItem.md)
-  
+
   ↳ **`DictionarySerpElementItem`**
 
 ## Implements
@@ -71,7 +67,7 @@
 
 #### Defined in
 
-[main.ts:66891](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L66891)
+main.ts:69268
 
 ## Properties
 
@@ -85,10 +81,9 @@
 
 #### Defined in
 
-[main.ts:19337](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L19337)
+main.ts:19788
 
 ___
-
 
 ### breadcrumb
 
@@ -102,10 +97,9 @@ breadcrumb of the Ad element in SERP
 
 #### Defined in
 
-[main.ts:66873](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L66873)
+main.ts:69250
 
 ___
-
 
 ### domain
 
@@ -119,10 +113,9 @@ domain in SERP
 
 #### Defined in
 
-[main.ts:66871](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L66871)
+main.ts:69248
 
 ___
-
 
 ### keyword
 
@@ -136,10 +129,9 @@ keyword highlighted in the result
 
 #### Defined in
 
-[main.ts:66875](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L66875)
+main.ts:69252
 
 ___
-
 
 ### links
 
@@ -155,10 +147,9 @@ if there are none, equals null
 
 #### Defined in
 
-[main.ts:66883](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L66883)
+main.ts:69260
 
 ___
-
 
 ### position
 
@@ -174,10 +165,9 @@ left, right
 
 #### Defined in
 
-[main.ts:66863](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L66863)
+main.ts:69240
 
 ___
-
 
 ### rank\_absolute
 
@@ -192,10 +182,9 @@ absolute position among all the elements in SERP
 
 #### Defined in
 
-[main.ts:66859](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L66859)
+main.ts:69236
 
 ___
-
 
 ### rank\_group
 
@@ -211,10 +200,9 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-[main.ts:66856](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L66856)
+main.ts:69233
 
 ___
-
 
 ### rectangle
 
@@ -230,10 +218,9 @@ note: calculate_rectangles parameter is not yet available when setting tasks for
 
 #### Defined in
 
-[main.ts:66887](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L66887)
+main.ts:69264
 
 ___
-
 
 ### snippet
 
@@ -247,10 +234,9 @@ snippet of the element
 
 #### Defined in
 
-[main.ts:66877](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L66877)
+main.ts:69254
 
 ___
-
 
 ### text
 
@@ -264,10 +250,9 @@ description of the results element in SERP
 
 #### Defined in
 
-[main.ts:66879](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L66879)
+main.ts:69256
 
 ___
-
 
 ### title
 
@@ -281,10 +266,9 @@ title of the result in SERP
 
 #### Defined in
 
-[main.ts:66867](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L66867)
+main.ts:69244
 
 ___
-
 
 ### url
 
@@ -298,10 +282,9 @@ relevant URL of the Ad element in SERP
 
 #### Defined in
 
-[main.ts:66869](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L66869)
+main.ts:69246
 
 ___
-
 
 ### xpath
 
@@ -315,7 +298,7 @@ the XPath of the element
 
 #### Defined in
 
-[main.ts:66865](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L66865)
+main.ts:69242
 
 ## Methods
 
@@ -339,10 +322,9 @@ the XPath of the element
 
 #### Defined in
 
-[main.ts:66896](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L66896)
+main.ts:69273
 
 ___
-
 
 ### toJSON
 
@@ -364,10 +346,9 @@ ___
 
 #### Defined in
 
-[main.ts:66930](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L66930)
+main.ts:69307
 
 ___
-
 
 ### fromJS
 
@@ -389,8 +370,4 @@ ___
 
 #### Defined in
 
-[main.ts:66923](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L66923)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:69300

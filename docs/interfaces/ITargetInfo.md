@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / ITargetInfo
+[Documentation](../README.md) / [Exports](../modules.md) / ITargetInfo
 
 # Interface: ITargetInfo
 
@@ -36,10 +32,9 @@ content management system
 
 #### Defined in
 
-[main.ts:129445](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L129445)
+main.ts:134812
 
 ___
-
 
 ### country
 
@@ -49,10 +44,9 @@ country code that the target domain is determined to belong to
 
 #### Defined in
 
-[main.ts:129451](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L129451)
+main.ts:134818
 
 ___
-
 
 ### ip\_address
 
@@ -62,10 +56,9 @@ IP address of the target
 
 #### Defined in
 
-[main.ts:129449](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L129449)
+main.ts:134816
 
 ___
-
 
 ### is\_ip
 
@@ -76,10 +69,9 @@ if true, the domain, subdomain or webpage functions as an IP address and does no
 
 #### Defined in
 
-[main.ts:129454](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L129454)
+main.ts:134821
 
 ___
-
 
 ### platform\_type
 
@@ -89,10 +81,9 @@ platform type
 
 #### Defined in
 
-[main.ts:129447](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L129447)
+main.ts:134814
 
 ___
-
 
 ### server
 
@@ -102,10 +93,9 @@ server
 
 #### Defined in
 
-[main.ts:129443](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L129443)
+main.ts:134810
 
 ___
-
 
 ### target\_spam\_score
 
@@ -117,8 +107,4 @@ learn more about how the metric is calculated on this help center page
 
 #### Defined in
 
-[main.ts:129458](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L129458)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:134825

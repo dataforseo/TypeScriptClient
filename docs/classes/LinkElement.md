@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / LinkElement
+[Documentation](../README.md) / [Exports](../modules.md) / LinkElement
 
 # Class: LinkElement
 
@@ -54,7 +50,7 @@
 
 #### Defined in
 
-[main.ts:21073](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L21073)
+main.ts:21592
 
 ## Properties
 
@@ -70,10 +66,9 @@ description of the results element
 
 #### Defined in
 
-[main.ts:21063](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L21063)
+main.ts:21582
 
 ___
-
 
 ### domain
 
@@ -87,10 +82,9 @@ domain where a link points
 
 #### Defined in
 
-[main.ts:21067](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L21067)
+main.ts:21586
 
 ___
-
 
 ### snippet
 
@@ -104,10 +98,9 @@ text alongside the link title
 
 #### Defined in
 
-[main.ts:21061](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L21061)
+main.ts:21580
 
 ___
-
 
 ### title
 
@@ -121,10 +114,9 @@ title of a given link element
 
 #### Defined in
 
-[main.ts:21059](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L21059)
+main.ts:21578
 
 ___
-
 
 ### type
 
@@ -138,10 +130,9 @@ type of element
 
 #### Defined in
 
-[main.ts:21057](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L21057)
+main.ts:21576
 
 ___
-
 
 ### url
 
@@ -155,10 +146,9 @@ URL
 
 #### Defined in
 
-[main.ts:21065](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L21065)
+main.ts:21584
 
 ___
-
 
 ### xpath
 
@@ -172,7 +162,7 @@ the XPath of the element
 
 #### Defined in
 
-[main.ts:21069](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L21069)
+main.ts:21588
 
 ## Methods
 
@@ -192,10 +182,9 @@ the XPath of the element
 
 #### Defined in
 
-[main.ts:21082](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L21082)
+main.ts:21601
 
 ___
-
 
 ### toJSON
 
@@ -213,10 +202,9 @@ ___
 
 #### Defined in
 
-[main.ts:21105](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L21105)
+main.ts:21624
 
 ___
-
 
 ### fromJS
 
@@ -234,8 +222,4 @@ ___
 
 #### Defined in
 
-[main.ts:21098](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L21098)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:21617

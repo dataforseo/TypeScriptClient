@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IContentAnalysisCategoryTrendsLiveResultInfo
+[Documentation](../README.md) / [Exports](../modules.md) / IContentAnalysisCategoryTrendsLiveResultInfo
 
 # Interface: IContentAnalysisCategoryTrendsLiveResultInfo
 
@@ -47,10 +43,9 @@ possible connotation types: "positive", "negative", "neutral"
 
 #### Defined in
 
-[main.ts:159609](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L159609)
+main.ts:165036
 
 ___
-
 
 ### countries
 
@@ -66,10 +61,9 @@ to obtain a full list of available countries, refer to the Locations endpoint
 
 #### Defined in
 
-[main.ts:159624](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L159624)
+main.ts:165051
 
 ___
-
 
 ### date
 
@@ -79,10 +73,9 @@ date for which the data is provided
 
 #### Defined in
 
-[main.ts:159593](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L159593)
+main.ts:165020
 
 ___
-
 
 ### languages
 
@@ -98,10 +91,9 @@ to obtain a full list of available languages, refer to the Languages endpoint
 
 #### Defined in
 
-[main.ts:159628](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L159628)
+main.ts:165055
 
 ___
-
 
 ### page\_categories
 
@@ -113,10 +105,9 @@ to obtain a full list of available categories, refer to the Categories endpoint
 
 #### Defined in
 
-[main.ts:159617](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L159617)
+main.ts:165044
 
 ___
-
 
 ### page\_types
 
@@ -131,10 +122,9 @@ contains page types and citation count per each page type
 
 #### Defined in
 
-[main.ts:159620](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L159620)
+main.ts:165047
 
 ___
-
 
 ### rank
 
@@ -145,10 +135,9 @@ normalized sum of ranks of all URLs citing the target keyword for the given date
 
 #### Defined in
 
-[main.ts:159598](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L159598)
+main.ts:165025
 
 ___
-
 
 ### sentiment\_connotations
 
@@ -164,10 +153,9 @@ possible connotations: "anger", "fear", "happiness", "love", "sadness", "share",
 
 #### Defined in
 
-[main.ts:159605](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L159605)
+main.ts:165032
 
 ___
-
 
 ### text\_categories
 
@@ -179,10 +167,9 @@ to obtain a full list of available categories, refer to the Categories endpoint
 
 #### Defined in
 
-[main.ts:159613](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L159613)
+main.ts:165040
 
 ___
-
 
 ### top\_domains
 
@@ -193,10 +180,9 @@ contains objects with top domains citing the target category and citation count 
 
 #### Defined in
 
-[main.ts:159601](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L159601)
+main.ts:165028
 
 ___
-
 
 ### total\_count
 
@@ -206,10 +192,9 @@ total number of results in our database relevant to your request
 
 #### Defined in
 
-[main.ts:159595](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L159595)
+main.ts:165022
 
 ___
-
 
 ### type
 
@@ -219,8 +204,4 @@ type of element
 
 #### Defined in
 
-[main.ts:159591](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L159591)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:165018

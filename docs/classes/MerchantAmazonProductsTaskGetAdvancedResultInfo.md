@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / MerchantAmazonProductsTaskGetAdvancedResultInfo
+[Documentation](../README.md) / [Exports](../modules.md) / MerchantAmazonProductsTaskGetAdvancedResultInfo
 
 # Class: MerchantAmazonProductsTaskGetAdvancedResultInfo
 
@@ -60,7 +56,7 @@
 
 #### Defined in
 
-[main.ts:171313](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L171313)
+main.ts:176766
 
 ## Properties
 
@@ -76,10 +72,9 @@ amazon product departments and subcategories
 
 #### Defined in
 
-[main.ts:171305](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L171305)
+main.ts:176758
 
 ___
-
 
 ### check\_url
 
@@ -94,10 +89,9 @@ you can use it to make sure that we provided accurate results
 
 #### Defined in
 
-[main.ts:171288](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L171288)
+main.ts:176741
 
 ___
-
 
 ### datetime
 
@@ -114,10 +108,9 @@ example:
 
 #### Defined in
 
-[main.ts:171293](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L171293)
+main.ts:176746
 
 ___
-
 
 ### item\_types
 
@@ -134,10 +127,9 @@ amazon_serp, amazon_paid, editorial_recommendations, top_rated_from_our_brands, 
 
 #### Defined in
 
-[main.ts:171301](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L171301)
+main.ts:176754
 
 ___
-
 
 ### items
 
@@ -151,10 +143,9 @@ Amazon product items within the editorial_recommendations element
 
 #### Defined in
 
-[main.ts:171309](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L171309)
+main.ts:176762
 
 ___
-
 
 ### items\_count
 
@@ -168,10 +159,9 @@ the number of results returned in the items array
 
 #### Defined in
 
-[main.ts:171307](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L171307)
+main.ts:176760
 
 ___
-
 
 ### keyword
 
@@ -186,10 +176,9 @@ keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a s
 
 #### Defined in
 
-[main.ts:171277](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L171277)
+main.ts:176730
 
 ___
-
 
 ### language\_code
 
@@ -203,10 +192,9 @@ language code in a POST array
 
 #### Defined in
 
-[main.ts:171285](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L171285)
+main.ts:176738
 
 ___
-
 
 ### location\_code
 
@@ -220,10 +208,9 @@ location code in a POST array
 
 #### Defined in
 
-[main.ts:171283](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L171283)
+main.ts:176736
 
 ___
-
 
 ### se\_domain
 
@@ -237,10 +224,9 @@ search engine domain in a POST array
 
 #### Defined in
 
-[main.ts:171281](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L171281)
+main.ts:176734
 
 ___
-
 
 ### se\_results\_count
 
@@ -254,10 +240,9 @@ search engine results count
 
 #### Defined in
 
-[main.ts:171303](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L171303)
+main.ts:176756
 
 ___
-
 
 ### spell
 
@@ -272,10 +257,9 @@ if the search engine provided results for a keyword that was corrected, we will 
 
 #### Defined in
 
-[main.ts:171296](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L171296)
+main.ts:176749
 
 ___
-
 
 ### type
 
@@ -289,7 +273,7 @@ type of element
 
 #### Defined in
 
-[main.ts:171279](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L171279)
+main.ts:176732
 
 ## Methods
 
@@ -309,10 +293,9 @@ type of element
 
 #### Defined in
 
-[main.ts:171322](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L171322)
+main.ts:176775
 
 ___
-
 
 ### toJSON
 
@@ -330,10 +313,9 @@ ___
 
 #### Defined in
 
-[main.ts:171363](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L171363)
+main.ts:176816
 
 ___
-
 
 ### fromJS
 
@@ -351,8 +333,4 @@ ___
 
 #### Defined in
 
-[main.ts:171356](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L171356)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:176809

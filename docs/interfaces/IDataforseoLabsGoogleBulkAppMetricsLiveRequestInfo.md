@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IDataforseoLabsGoogleBulkAppMetricsLiveRequestInfo
+[Documentation](../README.md) / [Exports](../modules.md) / IDataforseoLabsGoogleBulkAppMetricsLiveRequestInfo
 
 # Interface: IDataforseoLabsGoogleBulkAppMetricsLiveRequestInfo
 
@@ -42,10 +38,9 @@ the maximum number of IDs you can specify in this field is 1000
 
 #### Defined in
 
-[main.ts:107903](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L107903)
+main.ts:110280
 
 ___
-
 
 ### language\_code
 
@@ -62,10 +57,9 @@ en
 
 #### Defined in
 
-[main.ts:107939](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L107939)
+main.ts:110316
 
 ___
-
 
 ### language\_name
 
@@ -82,10 +76,9 @@ English
 
 #### Defined in
 
-[main.ts:107930](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L107930)
+main.ts:110307
 
 ___
-
 
 ### location\_code
 
@@ -102,10 +95,9 @@ example:
 
 #### Defined in
 
-[main.ts:107921](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L107921)
+main.ts:110298
 
 ___
-
 
 ### location\_name
 
@@ -122,10 +114,9 @@ United States
 
 #### Defined in
 
-[main.ts:107912](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L107912)
+main.ts:110289
 
 ___
-
 
 ### tag
 
@@ -139,8 +130,4 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-[main.ts:107945](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L107945)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:110322

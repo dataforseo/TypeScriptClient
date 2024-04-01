@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / MerchantGoogleSellersAdUrlResultInfo
+[Documentation](../README.md) / [Exports](../modules.md) / MerchantGoogleSellersAdUrlResultInfo
 
 # Class: MerchantGoogleSellersAdUrlResultInfo
 
@@ -50,7 +46,7 @@
 
 #### Defined in
 
-[main.ts:169576](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L169576)
+main.ts:175029
 
 ## Properties
 
@@ -66,10 +62,9 @@ unique ad click referral parameter
 
 #### Defined in
 
-[main.ts:169567](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L169567)
+main.ts:175020
 
 ___
-
 
 ### ad\_url
 
@@ -83,10 +78,9 @@ full URL of the advertisement
 
 #### Defined in
 
-[main.ts:169569](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L169569)
+main.ts:175022
 
 ___
-
 
 ### ad\_url\_redirects
 
@@ -101,7 +95,7 @@ includes up to 10 URLs of the ad’s redirect path to the seller’s ad_url
 
 #### Defined in
 
-[main.ts:169572](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L169572)
+main.ts:175025
 
 ## Methods
 
@@ -121,10 +115,9 @@ includes up to 10 URLs of the ad’s redirect path to the seller’s ad_url
 
 #### Defined in
 
-[main.ts:169585](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L169585)
+main.ts:175038
 
 ___
-
 
 ### toJSON
 
@@ -142,10 +135,9 @@ ___
 
 #### Defined in
 
-[main.ts:169608](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L169608)
+main.ts:175061
 
 ___
-
 
 ### fromJS
 
@@ -163,8 +155,4 @@ ___
 
 #### Defined in
 
-[main.ts:169601](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L169601)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:175054

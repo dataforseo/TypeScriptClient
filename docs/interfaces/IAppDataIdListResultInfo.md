@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IAppDataIdListResultInfo
+[Documentation](../README.md) / [Exports](../modules.md) / IAppDataIdListResultInfo
 
 # Interface: IAppDataIdListResultInfo
 
@@ -36,10 +32,9 @@ cost of the task, USD
 
 #### Defined in
 
-[main.ts:176507](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L176507)
+main.ts:181960
 
 ___
-
 
 ### datetime\_done
 
@@ -52,10 +47,9 @@ example:
 
 #### Defined in
 
-[main.ts:176502](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L176502)
+main.ts:181955
 
 ___
-
 
 ### datetime\_posted
 
@@ -68,10 +62,9 @@ example:
 
 #### Defined in
 
-[main.ts:176497](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L176497)
+main.ts:181950
 
 ___
-
 
 ### id
 
@@ -81,10 +74,9 @@ id of the task
 
 #### Defined in
 
-[main.ts:176489](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L176489)
+main.ts:181942
 
 ___
-
 
 ### metadata
 
@@ -98,10 +90,9 @@ contains parameters you specified in the POST request
 
 #### Defined in
 
-[main.ts:176509](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L176509)
+main.ts:181962
 
 ___
-
 
 ### status
 
@@ -112,10 +103,9 @@ you can find the full list of general informational messages here
 
 #### Defined in
 
-[main.ts:176505](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L176505)
+main.ts:181958
 
 ___
-
 
 ### url
 
@@ -126,8 +116,4 @@ URL you used for making an API call
 
 #### Defined in
 
-[main.ts:176492](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L176492)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:181945

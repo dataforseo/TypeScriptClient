@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IMerchantAmazonAsinTasksReadyResultInfo
+[Documentation](../README.md) / [Exports](../modules.md) / IMerchantAmazonAsinTasksReadyResultInfo
 
 # Interface: IMerchantAmazonAsinTasksReadyResultInfo
 
@@ -36,10 +32,9 @@ date when the task was posted (in the UTC format)
 
 #### Defined in
 
-[main.ts:172199](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L172199)
+main.ts:177652
 
 ___
-
 
 ### endpoint\_advanced
 
@@ -49,10 +44,9 @@ URL for collecting the results of the Amazon ASIN Advanced task
 
 #### Defined in
 
-[main.ts:172203](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L172203)
+main.ts:177656
 
 ___
-
 
 ### endpoint\_html
 
@@ -62,10 +56,9 @@ URL for collecting the results of the Amazon ASIN HTML task
 
 #### Defined in
 
-[main.ts:172205](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L172205)
+main.ts:177658
 
 ___
-
 
 ### id
 
@@ -76,10 +69,9 @@ unique task identifier in our system in the UUID format
 
 #### Defined in
 
-[main.ts:172192](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L172192)
+main.ts:177645
 
 ___
-
 
 ### se
 
@@ -89,10 +81,9 @@ search engine specified when setting the task
 
 #### Defined in
 
-[main.ts:172194](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L172194)
+main.ts:177647
 
 ___
-
 
 ### se\_type
 
@@ -103,10 +94,9 @@ can take the following values: shopping
 
 #### Defined in
 
-[main.ts:172197](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L172197)
+main.ts:177650
 
 ___
-
 
 ### tag
 
@@ -116,8 +106,4 @@ user-defined task identifier
 
 #### Defined in
 
-[main.ts:172201](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L172201)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:177654

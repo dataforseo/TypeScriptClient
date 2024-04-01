@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IBusinessDataGoogleLanguagesResultInfo
+[Documentation](../README.md) / [Exports](../modules.md) / IBusinessDataGoogleLanguagesResultInfo
 
 # Interface: IBusinessDataGoogleLanguagesResultInfo
 
@@ -31,10 +27,9 @@ language code according to ISO 639-1
 
 #### Defined in
 
-[main.ts:190603](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L190603)
+main.ts:196056
 
 ___
-
 
 ### language\_name
 
@@ -44,8 +39,4 @@ language name
 
 #### Defined in
 
-[main.ts:190601](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L190601)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:196054

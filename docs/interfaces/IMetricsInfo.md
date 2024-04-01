@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IMetricsInfo
+[Documentation](../README.md) / [Exports](../modules.md) / IMetricsInfo
 
 # Interface: IMetricsInfo
 
@@ -49,10 +45,9 @@ total count of organic SERPs that contain the domain
 
 #### Defined in
 
-[main.ts:75906](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L75906)
+main.ts:78283
 
 ___
-
 
 ### estimated\_paid\_traffic\_cost
 
@@ -65,10 +60,9 @@ learn more about how the metric is calculated in this help center article
 
 #### Defined in
 
-[main.ts:75911](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L75911)
+main.ts:78288
 
 ___
-
 
 ### etv
 
@@ -81,10 +75,9 @@ learn more about how the metric is calculated in this help center article
 
 #### Defined in
 
-[main.ts:75899](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L75899)
+main.ts:78276
 
 ___
-
 
 ### impressions\_etv
 
@@ -97,10 +90,9 @@ learn more about how the metric is calculated in this help center article
 
 #### Defined in
 
-[main.ts:75904](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L75904)
+main.ts:78281
 
 ___
-
 
 ### is\_down
 
@@ -111,10 +103,9 @@ indicates how many ranked elements of this domain went down in Google Search
 
 #### Defined in
 
-[main.ts:75920](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L75920)
+main.ts:78297
 
 ___
-
 
 ### is\_lost
 
@@ -125,10 +116,9 @@ indicates how many ranked elements of this domain were previously presented in S
 
 #### Defined in
 
-[main.ts:75923](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L75923)
+main.ts:78300
 
 ___
-
 
 ### is\_new
 
@@ -139,10 +129,9 @@ indicates how many new ranked elements were found for this domain
 
 #### Defined in
 
-[main.ts:75914](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L75914)
+main.ts:78291
 
 ___
-
 
 ### is\_up
 
@@ -153,10 +142,9 @@ indicates how many ranked elements of this domain went up in Google Search
 
 #### Defined in
 
-[main.ts:75917](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L75917)
+main.ts:78294
 
 ___
-
 
 ### pos\_1
 
@@ -166,10 +154,9 @@ number of organic SERPs where the domain ranks #1
 
 #### Defined in
 
-[main.ts:75872](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L75872)
+main.ts:78249
 
 ___
-
 
 ### pos\_11\_20
 
@@ -179,10 +166,9 @@ number of organic SERPs where the domain ranks #11-20
 
 #### Defined in
 
-[main.ts:75878](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L75878)
+main.ts:78255
 
 ___
-
 
 ### pos\_21\_30
 
@@ -192,10 +178,9 @@ number of organic SERPs where the domain ranks #21-30
 
 #### Defined in
 
-[main.ts:75880](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L75880)
+main.ts:78257
 
 ___
-
 
 ### pos\_2\_3
 
@@ -205,10 +190,9 @@ number of organic SERPs where the domain ranks #2-3
 
 #### Defined in
 
-[main.ts:75874](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L75874)
+main.ts:78251
 
 ___
-
 
 ### pos\_31\_40
 
@@ -218,10 +202,9 @@ number of organic SERPs where the domain ranks #31-40
 
 #### Defined in
 
-[main.ts:75882](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L75882)
+main.ts:78259
 
 ___
-
 
 ### pos\_41\_50
 
@@ -231,10 +214,9 @@ number of organic SERPs where the domain ranks #41-50
 
 #### Defined in
 
-[main.ts:75884](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L75884)
+main.ts:78261
 
 ___
-
 
 ### pos\_4\_10
 
@@ -244,10 +226,9 @@ number of organic SERPs where the domain ranks #4-10
 
 #### Defined in
 
-[main.ts:75876](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L75876)
+main.ts:78253
 
 ___
-
 
 ### pos\_51\_60
 
@@ -257,10 +238,9 @@ number of organic SERPs where the domain ranks #51-60
 
 #### Defined in
 
-[main.ts:75886](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L75886)
+main.ts:78263
 
 ___
-
 
 ### pos\_61\_70
 
@@ -270,10 +250,9 @@ number of organic SERPs where the domain ranks #61-70
 
 #### Defined in
 
-[main.ts:75888](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L75888)
+main.ts:78265
 
 ___
-
 
 ### pos\_71\_80
 
@@ -283,10 +262,9 @@ number of organic SERPs where the domain ranks #71-80
 
 #### Defined in
 
-[main.ts:75890](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L75890)
+main.ts:78267
 
 ___
-
 
 ### pos\_81\_90
 
@@ -296,10 +274,9 @@ number of organic SERPs where the domain ranks #81-90
 
 #### Defined in
 
-[main.ts:75892](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L75892)
+main.ts:78269
 
 ___
-
 
 ### pos\_91\_100
 
@@ -309,8 +286,4 @@ number of organic SERPs where the domain ranks #91-100
 
 #### Defined in
 
-[main.ts:75894](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L75894)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:78271

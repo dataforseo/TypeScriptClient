@@ -1,15 +1,11 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / CurrencyBoxSerpElementItem
+[Documentation](../README.md) / [Exports](../modules.md) / CurrencyBoxSerpElementItem
 
 # Class: CurrencyBoxSerpElementItem
 
 ## Hierarchy
 
 - [`BaseSerpElementItem`](BaseSerpElementItem.md)
-  
+
   ↳ **`CurrencyBoxSerpElementItem`**
 
 ## Implements
@@ -70,7 +66,7 @@
 
 #### Defined in
 
-[main.ts:34206](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L34206)
+main.ts:35137
 
 ## Properties
 
@@ -84,10 +80,9 @@
 
 #### Defined in
 
-[main.ts:19337](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L19337)
+main.ts:19788
 
 ___
-
 
 ### converted\_currency
 
@@ -101,10 +96,9 @@ converted currency
 
 #### Defined in
 
-[main.ts:34188](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L34188)
+main.ts:35119
 
 ___
-
 
 ### converted\_value
 
@@ -120,10 +114,9 @@ note that exchange rates displayed in the currency_box element may be delayed ac
 
 #### Defined in
 
-[main.ts:34183](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L34183)
+main.ts:35114
 
 ___
-
 
 ### currency
 
@@ -138,10 +131,9 @@ ISO code of the currency applied to the price
 
 #### Defined in
 
-[main.ts:34186](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L34186)
+main.ts:35117
 
 ___
-
 
 ### graph
 
@@ -155,10 +147,9 @@ contains data provided in the graph of the element
 
 #### Defined in
 
-[main.ts:34198](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L34198)
+main.ts:35129
 
 ___
-
 
 ### position
 
@@ -174,10 +165,9 @@ left, right
 
 #### Defined in
 
-[main.ts:34175](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L34175)
+main.ts:35106
 
 ___
-
 
 ### rank\_absolute
 
@@ -185,6 +175,7 @@ ___
 
 absolute rank in SERP
 absolute position among all the elements in SERP
+always equals 0 for desktop
 
 #### Implementation of
 
@@ -192,18 +183,18 @@ absolute position among all the elements in SERP
 
 #### Defined in
 
-[main.ts:34171](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L34171)
+main.ts:35102
 
 ___
-
 
 ### rank\_group
 
 • `Optional` **rank\_group**: `number`
 
 group rank in SERP
-position within a group of elements with identical type values
-positions of elements with different type values are omitted from rank_group
+position within a group of elements with identical type values;
+positions of elements with different type values are omitted from rank_group;
+always equals 0 for desktop
 
 #### Implementation of
 
@@ -211,10 +202,9 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-[main.ts:34168](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L34168)
+main.ts:35098
 
 ___
-
 
 ### rectangle
 
@@ -230,10 +220,9 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 #### Defined in
 
-[main.ts:34202](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L34202)
+main.ts:35133
 
 ___
-
 
 ### table
 
@@ -248,10 +237,9 @@ if there are none, equals null
 
 #### Defined in
 
-[main.ts:34196](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L34196)
+main.ts:35127
 
 ___
-
 
 ### timestamp
 
@@ -268,10 +256,9 @@ example:
 
 #### Defined in
 
-[main.ts:34193](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L34193)
+main.ts:35124
 
 ___
-
 
 ### value
 
@@ -285,10 +272,9 @@ the value of the rating
 
 #### Defined in
 
-[main.ts:34179](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L34179)
+main.ts:35110
 
 ___
-
 
 ### xpath
 
@@ -302,7 +288,7 @@ the XPath of the element
 
 #### Defined in
 
-[main.ts:34177](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L34177)
+main.ts:35108
 
 ## Methods
 
@@ -326,10 +312,9 @@ the XPath of the element
 
 #### Defined in
 
-[main.ts:34211](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L34211)
+main.ts:35142
 
 ___
-
 
 ### toJSON
 
@@ -351,10 +336,9 @@ ___
 
 #### Defined in
 
-[main.ts:34240](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L34240)
+main.ts:35171
 
 ___
-
 
 ### fromJS
 
@@ -376,8 +360,4 @@ ___
 
 #### Defined in
 
-[main.ts:34233](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L34233)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:35164

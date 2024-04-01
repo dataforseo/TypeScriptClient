@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / AboutThisResultElement
+[Documentation](../README.md) / [Exports](../modules.md) / AboutThisResultElement
 
 # Class: AboutThisResultElement
 
@@ -56,7 +52,7 @@
 
 #### Defined in
 
-[main.ts:20659](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L20659)
+main.ts:21178
 
 ## Properties
 
@@ -72,10 +68,9 @@ the language of the result
 
 #### Defined in
 
-[main.ts:20649](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L20649)
+main.ts:21168
 
 ___
-
 
 ### location
 
@@ -89,10 +84,9 @@ location for which the result is relevant
 
 #### Defined in
 
-[main.ts:20651](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L20651)
+main.ts:21170
 
 ___
-
 
 ### related\_terms
 
@@ -106,10 +100,9 @@ related search terms that appear in the result
 
 #### Defined in
 
-[main.ts:20655](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L20655)
+main.ts:21174
 
 ___
-
 
 ### search\_terms
 
@@ -123,10 +116,9 @@ matching search terms that appear in the result
 
 #### Defined in
 
-[main.ts:20653](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L20653)
+main.ts:21172
 
 ___
-
 
 ### source
 
@@ -140,10 +132,9 @@ source of additional information about the result
 
 #### Defined in
 
-[main.ts:20642](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L20642)
+main.ts:21161
 
 ___
-
 
 ### source\_info
 
@@ -158,10 +149,9 @@ description of the website from Wikipedia or another additional context
 
 #### Defined in
 
-[main.ts:20645](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L20645)
+main.ts:21164
 
 ___
-
 
 ### source\_url
 
@@ -175,10 +165,9 @@ URL to full information from the 'source'
 
 #### Defined in
 
-[main.ts:20647](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L20647)
+main.ts:21166
 
 ___
-
 
 ### type
 
@@ -192,10 +181,9 @@ type of element
 
 #### Defined in
 
-[main.ts:20638](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L20638)
+main.ts:21157
 
 ___
-
 
 ### url
 
@@ -209,7 +197,7 @@ result’s URL
 
 #### Defined in
 
-[main.ts:20640](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L20640)
+main.ts:21159
 
 ## Methods
 
@@ -229,10 +217,9 @@ result’s URL
 
 #### Defined in
 
-[main.ts:20668](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L20668)
+main.ts:21187
 
 ___
-
 
 ### toJSON
 
@@ -250,10 +237,9 @@ ___
 
 #### Defined in
 
-[main.ts:20701](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L20701)
+main.ts:21220
 
 ___
-
 
 ### fromJS
 
@@ -271,8 +257,4 @@ ___
 
 #### Defined in
 
-[main.ts:20694](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L20694)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:21213

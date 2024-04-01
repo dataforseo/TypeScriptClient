@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IAppendixBacklinksPriceData
+[Documentation](../README.md) / [Exports](../modules.md) / IAppendixBacklinksPriceData
 
 # Interface: IAppendixBacklinksPriceData
 
@@ -47,10 +43,9 @@
 
 #### Defined in
 
-[main.ts:210914](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L210914)
+main.ts:216507
 
 ___
-
 
 ### backlinks
 
@@ -58,10 +53,9 @@ ___
 
 #### Defined in
 
-[main.ts:210915](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L210915)
+main.ts:216508
 
 ___
-
 
 ### bulk\_backlinks
 
@@ -69,10 +63,9 @@ ___
 
 #### Defined in
 
-[main.ts:210916](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L210916)
+main.ts:216509
 
 ___
-
 
 ### bulk\_new\_lost\_backlinks
 
@@ -80,10 +73,9 @@ ___
 
 #### Defined in
 
-[main.ts:210917](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L210917)
+main.ts:216510
 
 ___
-
 
 ### bulk\_new\_lost\_referring\_domains
 
@@ -91,10 +83,9 @@ ___
 
 #### Defined in
 
-[main.ts:210918](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L210918)
+main.ts:216511
 
 ___
-
 
 ### bulk\_ranks
 
@@ -102,10 +93,9 @@ ___
 
 #### Defined in
 
-[main.ts:210919](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L210919)
+main.ts:216512
 
 ___
-
 
 ### bulk\_referring\_domains
 
@@ -113,10 +103,9 @@ ___
 
 #### Defined in
 
-[main.ts:210920](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L210920)
+main.ts:216513
 
 ___
-
 
 ### competitors
 
@@ -124,10 +113,9 @@ ___
 
 #### Defined in
 
-[main.ts:210921](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L210921)
+main.ts:216514
 
 ___
-
 
 ### content\_duplicates
 
@@ -135,10 +123,9 @@ ___
 
 #### Defined in
 
-[main.ts:210922](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L210922)
+main.ts:216515
 
 ___
-
 
 ### domain\_intersection
 
@@ -146,10 +133,9 @@ ___
 
 #### Defined in
 
-[main.ts:210923](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L210923)
+main.ts:216516
 
 ___
-
 
 ### domain\_pages
 
@@ -157,10 +143,9 @@ ___
 
 #### Defined in
 
-[main.ts:210924](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L210924)
+main.ts:216517
 
 ___
-
 
 ### domain\_pages\_summary
 
@@ -168,10 +153,9 @@ ___
 
 #### Defined in
 
-[main.ts:210925](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L210925)
+main.ts:216518
 
 ___
-
 
 ### errors
 
@@ -179,10 +163,9 @@ ___
 
 #### Defined in
 
-[main.ts:210926](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L210926)
+main.ts:216519
 
 ___
-
 
 ### history
 
@@ -190,10 +173,9 @@ ___
 
 #### Defined in
 
-[main.ts:210927](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L210927)
+main.ts:216520
 
 ___
-
 
 ### page\_intersection
 
@@ -201,10 +183,9 @@ ___
 
 #### Defined in
 
-[main.ts:210928](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L210928)
+main.ts:216521
 
 ___
-
 
 ### referring\_domains
 
@@ -212,10 +193,9 @@ ___
 
 #### Defined in
 
-[main.ts:210929](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L210929)
+main.ts:216522
 
 ___
-
 
 ### referring\_networks
 
@@ -223,10 +203,9 @@ ___
 
 #### Defined in
 
-[main.ts:210930](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L210930)
+main.ts:216523
 
 ___
-
 
 ### summary
 
@@ -234,10 +213,9 @@ ___
 
 #### Defined in
 
-[main.ts:210931](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L210931)
+main.ts:216524
 
 ___
-
 
 ### timeseries\_new\_lost\_summary
 
@@ -245,10 +223,9 @@ ___
 
 #### Defined in
 
-[main.ts:210932](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L210932)
+main.ts:216525
 
 ___
-
 
 ### timeseries\_summary
 
@@ -256,8 +233,4 @@ ___
 
 #### Defined in
 
-[main.ts:210933](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L210933)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:216526

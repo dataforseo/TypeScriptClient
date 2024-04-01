@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / HotelAmenityInfo
+[Documentation](../README.md) / [Exports](../modules.md) / HotelAmenityInfo
 
 # Class: HotelAmenityInfo
 
@@ -50,7 +46,7 @@
 
 #### Defined in
 
-[main.ts:195355](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L195355)
+main.ts:200816
 
 ## Properties
 
@@ -66,10 +62,9 @@ standardised category of the ammenity
 
 #### Defined in
 
-[main.ts:195347](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L195347)
+main.ts:200808
 
 ___
-
 
 ### category\_label
 
@@ -83,10 +78,9 @@ label of the category
 
 #### Defined in
 
-[main.ts:195349](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L195349)
+main.ts:200810
 
 ___
-
 
 ### items
 
@@ -100,7 +94,7 @@ specific amenities and details
 
 #### Defined in
 
-[main.ts:195351](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L195351)
+main.ts:200812
 
 ## Methods
 
@@ -120,10 +114,9 @@ specific amenities and details
 
 #### Defined in
 
-[main.ts:195364](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L195364)
+main.ts:200825
 
 ___
-
 
 ### toJSON
 
@@ -141,10 +134,9 @@ ___
 
 #### Defined in
 
-[main.ts:195387](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L195387)
+main.ts:200848
 
 ___
-
 
 ### fromJS
 
@@ -162,8 +154,4 @@ ___
 
 #### Defined in
 
-[main.ts:195380](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L195380)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:200841

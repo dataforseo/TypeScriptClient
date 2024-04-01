@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IContentAnalysisSentimentAnalysisLiveRequestInfo
+[Documentation](../README.md) / [Exports](../modules.md) / IContentAnalysisSentimentAnalysisLiveRequestInfo
 
 # Interface: IContentAnalysisSentimentAnalysisLiveRequestInfo
 
@@ -52,10 +48,9 @@ for more information about filters, please refer to Content Analysis API – Fil
 
 #### Defined in
 
-[main.ts:157836](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L157836)
+main.ts:163263
 
 ___
-
 
 ### internal\_list\_limit
 
@@ -74,10 +69,9 @@ maximum value: 20
 
 #### Defined in
 
-[main.ts:157805](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L157805)
+main.ts:163232
 
 ___
-
 
 ### keyword
 
@@ -94,10 +88,9 @@ example:
 
 #### Defined in
 
-[main.ts:157776](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L157776)
+main.ts:163203
 
 ___
-
 
 ### keyword\_fields
 
@@ -111,8 +104,8 @@ you can indicate several fields;
 Note: to match an exact phrase instead of a stand-alone keyword, use double quotes and backslashes;
 example:
 "keyword_fields": {
-"snippet": "\"logitech mouse\"",
-"main_title": "sale"
+    "snippet": "\"logitech mouse\"",
+    "main_title": "sale"
 }
 
 #### Index signature
@@ -121,10 +114,9 @@ example:
 
 #### Defined in
 
-[main.ts:157788](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L157788)
+main.ts:163215
 
 ___
-
 
 ### page\_type
 
@@ -138,10 +130,9 @@ possible values:
 
 #### Defined in
 
-[main.ts:157794](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L157794)
+main.ts:163221
 
 ___
-
 
 ### positive\_connotation\_threshold
 
@@ -156,10 +147,9 @@ default value: 0.4
 
 #### Defined in
 
-[main.ts:157812](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L157812)
+main.ts:163239
 
 ___
-
 
 ### sentiments\_connotation\_threshold
 
@@ -174,10 +164,9 @@ default value: 0.4
 
 #### Defined in
 
-[main.ts:157819](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L157819)
+main.ts:163246
 
 ___
-
 
 ### tag
 
@@ -191,8 +180,4 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-[main.ts:157842](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L157842)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:163269

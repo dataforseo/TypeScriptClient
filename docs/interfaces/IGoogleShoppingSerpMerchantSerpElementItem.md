@@ -1,15 +1,11 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IGoogleShoppingSerpMerchantSerpElementItem
+[Documentation](../README.md) / [Exports](../modules.md) / IGoogleShoppingSerpMerchantSerpElementItem
 
 # Interface: IGoogleShoppingSerpMerchantSerpElementItem
 
 ## Hierarchy
 
 - [`IBaseMerchantSerpElementItem`](IBaseMerchantSerpElementItem.md)
-  
+
   ↳ **`IGoogleShoppingSerpMerchantSerpElementItem`**
 
 ## Implemented by
@@ -65,10 +61,9 @@ you can get more details about the product by using this object in the POST requ
 
 #### Defined in
 
-[main.ts:164904](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L164904)
+main.ts:170331
 
 ___
-
 
 ### currency
 
@@ -80,10 +75,9 @@ USD
 
 #### Defined in
 
-[main.ts:164886](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L164886)
+main.ts:170313
 
 ___
-
 
 ### data\_docid
 
@@ -96,10 +90,9 @@ example:
 
 #### Defined in
 
-[main.ts:164898](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L164898)
+main.ts:170325
 
 ___
-
 
 ### delivery\_info
 
@@ -110,10 +103,9 @@ delivery information including free and fast delivery date ranges
 
 #### Defined in
 
-[main.ts:164927](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L164927)
+main.ts:170354
 
 ___
-
 
 ### description
 
@@ -123,10 +115,9 @@ description of the product in Google Shopping SERP
 
 #### Defined in
 
-[main.ts:164867](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L164867)
+main.ts:170294
 
 ___
-
 
 ### domain
 
@@ -136,10 +127,9 @@ domain in SERP
 
 #### Defined in
 
-[main.ts:164863](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L164863)
+main.ts:170290
 
 ___
-
 
 ### is\_best\_match
 
@@ -151,10 +141,9 @@ if there are no values, you will get null
 
 #### Defined in
 
-[main.ts:164912](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L164912)
+main.ts:170339
 
 ___
-
 
 ### old\_price
 
@@ -167,10 +156,9 @@ example:
 
 #### Defined in
 
-[main.ts:164882](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L164882)
+main.ts:170309
 
 ___
-
 
 ### position
 
@@ -182,10 +170,9 @@ left, right
 
 #### Defined in
 
-[main.ts:164859](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L164859)
+main.ts:170286
 
 ___
-
 
 ### price
 
@@ -197,10 +184,9 @@ example:
 
 #### Defined in
 
-[main.ts:164877](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L164877)
+main.ts:170304
 
 ___
-
 
 ### product\_id
 
@@ -215,10 +201,9 @@ learn more about the parameter in this help center guide
 
 #### Defined in
 
-[main.ts:164893](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L164893)
+main.ts:170320
 
 ___
-
 
 ### product\_images
 
@@ -229,10 +214,9 @@ the first URL in the array is the featured image of the product
 
 #### Defined in
 
-[main.ts:164921](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L164921)
+main.ts:170348
 
 ___
-
 
 ### product\_rating
 
@@ -243,10 +227,9 @@ the product popularity rate based on product reviews
 
 #### Defined in
 
-[main.ts:164915](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L164915)
+main.ts:170342
 
 ___
-
 
 ### rank\_absolute
 
@@ -257,10 +240,9 @@ absolute position among all the elements found in Google Shopping SERP
 
 #### Defined in
 
-[main.ts:164855](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L164855)
+main.ts:170282
 
 ___
-
 
 ### rank\_group
 
@@ -271,10 +253,9 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-[main.ts:164852](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L164852)
+main.ts:170279
 
 ___
-
 
 ### reviews\_count
 
@@ -286,10 +267,9 @@ if there are no values, you will get null
 
 #### Defined in
 
-[main.ts:164908](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L164908)
+main.ts:170335
 
 ___
-
 
 ### seller
 
@@ -300,10 +280,9 @@ the name of the company that placed a corresponding product on Google Shopping
 
 #### Defined in
 
-[main.ts:164901](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L164901)
+main.ts:170328
 
 ___
-
 
 ### shop\_ad\_aclk
 
@@ -314,10 +293,9 @@ using this parameter you can get a URL of the advertisement in Google Shopping S
 
 #### Defined in
 
-[main.ts:164924](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L164924)
+main.ts:170351
 
 ___
-
 
 ### shop\_rating
 
@@ -328,10 +306,9 @@ the popularity rate of the seller based on user reviews
 
 #### Defined in
 
-[main.ts:164918](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L164918)
+main.ts:170345
 
 ___
-
 
 ### shopping\_url
 
@@ -341,10 +318,9 @@ URL to the product page on Google Shopping
 
 #### Defined in
 
-[main.ts:164871](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L164871)
+main.ts:170298
 
 ___
-
 
 ### stores\_count\_info
 
@@ -355,10 +331,9 @@ contains information about the number of stores that offer the same product
 
 #### Defined in
 
-[main.ts:164930](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L164930)
+main.ts:170357
 
 ___
-
 
 ### tags
 
@@ -368,10 +343,9 @@ tags assigned to the product
 
 #### Defined in
 
-[main.ts:164873](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L164873)
+main.ts:170300
 
 ___
-
 
 ### title
 
@@ -381,10 +355,9 @@ title of the element
 
 #### Defined in
 
-[main.ts:164865](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L164865)
+main.ts:170292
 
 ___
-
 
 ### url
 
@@ -394,10 +367,9 @@ URL to the product page on the seller’s website
 
 #### Defined in
 
-[main.ts:164869](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L164869)
+main.ts:170296
 
 ___
-
 
 ### xpath
 
@@ -407,8 +379,4 @@ XPath of the element
 
 #### Defined in
 
-[main.ts:164861](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L164861)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:170288

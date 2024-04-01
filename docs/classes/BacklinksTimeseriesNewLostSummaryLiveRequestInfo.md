@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / BacklinksTimeseriesNewLostSummaryLiveRequestInfo
+[Documentation](../README.md) / [Exports](../modules.md) / BacklinksTimeseriesNewLostSummaryLiveRequestInfo
 
 # Class: BacklinksTimeseriesNewLostSummaryLiveRequestInfo
 
@@ -52,7 +48,7 @@
 
 #### Defined in
 
-[main.ts:138882](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L138882)
+main.ts:144309
 
 ## Properties
 
@@ -77,10 +73,9 @@ example:
 
 #### Defined in
 
-[main.ts:138850](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L138850)
+main.ts:144277
 
 ___
-
 
 ### date\_to
 
@@ -101,10 +96,9 @@ example:
 
 #### Defined in
 
-[main.ts:138859](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L138859)
+main.ts:144286
 
 ___
-
 
 ### group\_range
 
@@ -129,10 +123,9 @@ if there is no data for a certain  day/week/month/year, we will return 0
 
 #### Defined in
 
-[main.ts:138872](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L138872)
+main.ts:144299
 
 ___
-
 
 ### tag
 
@@ -150,10 +143,9 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-[main.ts:138878](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L138878)
+main.ts:144305
 
 ___
-
 
 ### target
 
@@ -171,7 +163,7 @@ example:
 
 #### Defined in
 
-[main.ts:138839](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L138839)
+main.ts:144266
 
 ## Methods
 
@@ -191,10 +183,9 @@ example:
 
 #### Defined in
 
-[main.ts:138891](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L138891)
+main.ts:144318
 
 ___
-
 
 ### toJSON
 
@@ -212,10 +203,9 @@ ___
 
 #### Defined in
 
-[main.ts:138912](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L138912)
+main.ts:144339
 
 ___
-
 
 ### fromJS
 
@@ -233,8 +223,4 @@ ___
 
 #### Defined in
 
-[main.ts:138905](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L138905)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:144332

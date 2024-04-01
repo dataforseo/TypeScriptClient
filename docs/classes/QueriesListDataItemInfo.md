@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / QueriesListDataItemInfo
+[Documentation](../README.md) / [Exports](../modules.md) / QueriesListDataItemInfo
 
 # Class: QueriesListDataItemInfo
 
@@ -49,7 +45,7 @@
 
 #### Defined in
 
-[main.ts:120998](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L120998)
+main.ts:123324
 
 ## Properties
 
@@ -65,10 +61,9 @@ related query
 
 #### Defined in
 
-[main.ts:120991](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L120991)
+main.ts:123317
 
 ___
-
 
 ### value
 
@@ -83,7 +78,7 @@ represents the popularity of the topic. Scoring is on a relative scale where a v
 
 #### Defined in
 
-[main.ts:120994](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L120994)
+main.ts:123320
 
 ## Methods
 
@@ -103,10 +98,9 @@ represents the popularity of the topic. Scoring is on a relative scale where a v
 
 #### Defined in
 
-[main.ts:121007](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L121007)
+main.ts:123333
 
 ___
-
 
 ### toJSON
 
@@ -124,10 +118,9 @@ ___
 
 #### Defined in
 
-[main.ts:121025](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L121025)
+main.ts:123351
 
 ___
-
 
 ### fromJS
 
@@ -145,8 +138,4 @@ ___
 
 #### Defined in
 
-[main.ts:121018](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L121018)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:123344

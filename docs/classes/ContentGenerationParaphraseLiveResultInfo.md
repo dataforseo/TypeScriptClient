@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / ContentGenerationParaphraseLiveResultInfo
+[Documentation](../README.md) / [Exports](../modules.md) / ContentGenerationParaphraseLiveResultInfo
 
 # Class: ContentGenerationParaphraseLiveResultInfo
 
@@ -51,7 +47,7 @@
 
 #### Defined in
 
-[main.ts:161211](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L161211)
+main.ts:166638
 
 ## Properties
 
@@ -67,10 +63,9 @@ paraphrased version of the given text
 
 #### Defined in
 
-[main.ts:161207](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L161207)
+main.ts:166634
 
 ___
-
 
 ### input\_tokens
 
@@ -84,10 +79,9 @@ number of input tokens in the POST request
 
 #### Defined in
 
-[main.ts:161201](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L161201)
+main.ts:166628
 
 ___
-
 
 ### new\_tokens
 
@@ -101,10 +95,9 @@ number of new tokens in the response
 
 #### Defined in
 
-[main.ts:161205](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L161205)
+main.ts:166632
 
 ___
-
 
 ### output\_tokens
 
@@ -118,7 +111,7 @@ number of output tokens in the response
 
 #### Defined in
 
-[main.ts:161203](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L161203)
+main.ts:166630
 
 ## Methods
 
@@ -138,10 +131,9 @@ number of output tokens in the response
 
 #### Defined in
 
-[main.ts:161220](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L161220)
+main.ts:166647
 
 ___
-
 
 ### toJSON
 
@@ -159,10 +151,9 @@ ___
 
 #### Defined in
 
-[main.ts:161240](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L161240)
+main.ts:166667
 
 ___
-
 
 ### fromJS
 
@@ -180,8 +171,4 @@ ___
 
 #### Defined in
 
-[main.ts:161233](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L161233)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:166660

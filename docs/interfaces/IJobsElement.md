@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IJobsElement
+[Documentation](../README.md) / [Exports](../modules.md) / IJobsElement
 
 # Interface: IJobsElement
 
@@ -38,10 +34,9 @@ author
 
 #### Defined in
 
-[main.ts:29378](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L29378)
+main.ts:30157
 
 ___
-
 
 ### contract\_type
 
@@ -51,23 +46,21 @@ contract type
 
 #### Defined in
 
-[main.ts:29387](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L29387)
+main.ts:30166
 
 ___
-
 
 ### description
 
 • `Optional` **description**: `string`
 
-description of the results element in SERP
+description
 
 #### Defined in
 
-[main.ts:29376](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L29376)
+main.ts:30155
 
 ___
-
 
 ### job\_posted\_time
 
@@ -77,10 +70,9 @@ the time when the job was posted
 
 #### Defined in
 
-[main.ts:29380](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L29380)
+main.ts:30159
 
 ___
-
 
 ### salary
 
@@ -90,10 +82,9 @@ salary
 
 #### Defined in
 
-[main.ts:29389](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L29389)
+main.ts:30168
 
 ___
-
 
 ### timestamp
 
@@ -106,23 +97,21 @@ example:
 
 #### Defined in
 
-[main.ts:29385](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L29385)
+main.ts:30164
 
 ___
-
 
 ### title
 
 • `Optional` **title**: `string`
 
-title of the row
+title of a given link element
 
 #### Defined in
 
-[main.ts:29374](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L29374)
+main.ts:30153
 
 ___
-
 
 ### type
 
@@ -132,10 +121,9 @@ type of element
 
 #### Defined in
 
-[main.ts:29372](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L29372)
+main.ts:30151
 
 ___
-
 
 ### url
 
@@ -145,8 +133,4 @@ URL
 
 #### Defined in
 
-[main.ts:29391](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L29391)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:30170

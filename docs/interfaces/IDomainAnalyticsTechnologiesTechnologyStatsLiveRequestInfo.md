@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IDomainAnalyticsTechnologiesTechnologyStatsLiveRequestInfo
+[Documentation](../README.md) / [Exports](../modules.md) / IDomainAnalyticsTechnologiesTechnologyStatsLiveRequestInfo
 
 # Interface: IDomainAnalyticsTechnologiesTechnologyStatsLiveRequestInfo
 
@@ -39,10 +35,9 @@ example:
 
 #### Defined in
 
-[main.ts:73578](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L73578)
+main.ts:75955
 
 ___
-
 
 ### date\_to
 
@@ -57,10 +52,9 @@ example:
 
 #### Defined in
 
-[main.ts:73585](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L73585)
+main.ts:75962
 
 ___
-
 
 ### tag
 
@@ -74,10 +68,9 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-[main.ts:73591](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L73591)
+main.ts:75968
 
 ___
-
 
 ### technology
 
@@ -91,8 +84,4 @@ example:
 
 #### Defined in
 
-[main.ts:73570](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L73570)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:75947

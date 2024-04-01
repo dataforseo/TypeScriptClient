@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / DataforseoLabsAmazonBulkSearchVolumeLiveItem
+[Documentation](../README.md) / [Exports](../modules.md) / DataforseoLabsAmazonBulkSearchVolumeLiveItem
 
 # Class: DataforseoLabsAmazonBulkSearchVolumeLiveItem
 
@@ -50,7 +46,7 @@
 
 #### Defined in
 
-[main.ts:98809](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L98809)
+main.ts:101186
 
 ## Properties
 
@@ -66,10 +62,9 @@ keyword in a POST array
 
 #### Defined in
 
-[main.ts:98802](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L98802)
+main.ts:101179
 
 ___
-
 
 ### se\_type
 
@@ -83,10 +78,9 @@ search engine type
 
 #### Defined in
 
-[main.ts:98800](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L98800)
+main.ts:101177
 
 ___
-
 
 ### search\_volume
 
@@ -101,7 +95,7 @@ represents the (approximate) number of searches for the returned keyword on Amaz
 
 #### Defined in
 
-[main.ts:98805](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L98805)
+main.ts:101182
 
 ## Methods
 
@@ -121,10 +115,9 @@ represents the (approximate) number of searches for the returned keyword on Amaz
 
 #### Defined in
 
-[main.ts:98818](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L98818)
+main.ts:101195
 
 ___
-
 
 ### toJSON
 
@@ -142,10 +135,9 @@ ___
 
 #### Defined in
 
-[main.ts:98837](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L98837)
+main.ts:101214
 
 ___
-
 
 ### fromJS
 
@@ -163,8 +155,4 @@ ___
 
 #### Defined in
 
-[main.ts:98830](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L98830)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:101207

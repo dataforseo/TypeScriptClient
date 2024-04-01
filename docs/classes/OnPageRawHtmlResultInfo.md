@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / OnPageRawHtmlResultInfo
+[Documentation](../README.md) / [Exports](../modules.md) / OnPageRawHtmlResultInfo
 
 # Class: OnPageRawHtmlResultInfo
 
@@ -51,7 +47,7 @@
 
 #### Defined in
 
-[main.ts:151266](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L151266)
+main.ts:156693
 
 ## Properties
 
@@ -68,10 +64,9 @@ possible values: in_progress, finished
 
 #### Defined in
 
-[main.ts:151256](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L151256)
+main.ts:156683
 
 ___
-
 
 ### crawl\_status
 
@@ -85,10 +80,9 @@ details of the crawling session
 
 #### Defined in
 
-[main.ts:151258](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L151258)
+main.ts:156685
 
 ___
-
 
 ### items
 
@@ -102,10 +96,9 @@ items array
 
 #### Defined in
 
-[main.ts:151262](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L151262)
+main.ts:156689
 
 ___
-
 
 ### items\_count
 
@@ -119,7 +112,7 @@ number of items in the results array
 
 #### Defined in
 
-[main.ts:151260](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L151260)
+main.ts:156687
 
 ## Methods
 
@@ -139,10 +132,9 @@ number of items in the results array
 
 #### Defined in
 
-[main.ts:151275](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L151275)
+main.ts:156702
 
 ___
-
 
 ### toJSON
 
@@ -160,10 +152,9 @@ ___
 
 #### Defined in
 
-[main.ts:151295](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L151295)
+main.ts:156722
 
 ___
-
 
 ### fromJS
 
@@ -181,8 +172,4 @@ ___
 
 #### Defined in
 
-[main.ts:151288](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L151288)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:156715

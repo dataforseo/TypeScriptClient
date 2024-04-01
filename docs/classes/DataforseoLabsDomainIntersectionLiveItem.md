@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / DataforseoLabsDomainIntersectionLiveItem
+[Documentation](../README.md) / [Exports](../modules.md) / DataforseoLabsDomainIntersectionLiveItem
 
 # Class: DataforseoLabsDomainIntersectionLiveItem
 
@@ -51,7 +47,7 @@
 
 #### Defined in
 
-[main.ts:89046](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L89046)
+main.ts:91423
 
 ## Properties
 
@@ -68,10 +64,9 @@ the list of supported SERP elements can be found below
 
 #### Defined in
 
-[main.ts:89039](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L89039)
+main.ts:91416
 
 ___
-
 
 ### keyword\_data
 
@@ -85,10 +80,9 @@ keyword data for the returned keyword
 
 #### Defined in
 
-[main.ts:89036](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L89036)
+main.ts:91413
 
 ___
-
 
 ### se\_type
 
@@ -102,10 +96,9 @@ search engine type
 
 #### Defined in
 
-[main.ts:89034](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L89034)
+main.ts:91411
 
 ___
-
 
 ### second\_domain\_serp\_element
 
@@ -120,7 +113,7 @@ the list of supported SERP elements can be found below
 
 #### Defined in
 
-[main.ts:89042](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L89042)
+main.ts:91419
 
 ## Methods
 
@@ -140,10 +133,9 @@ the list of supported SERP elements can be found below
 
 #### Defined in
 
-[main.ts:89055](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L89055)
+main.ts:91432
 
 ___
-
 
 ### toJSON
 
@@ -161,10 +153,9 @@ ___
 
 #### Defined in
 
-[main.ts:89075](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L89075)
+main.ts:91452
 
 ___
-
 
 ### fromJS
 
@@ -182,8 +173,4 @@ ___
 
 #### Defined in
 
-[main.ts:89068](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L89068)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:91445

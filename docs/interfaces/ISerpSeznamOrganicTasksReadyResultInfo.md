@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / ISerpSeznamOrganicTasksReadyResultInfo
+[Documentation](../README.md) / [Exports](../modules.md) / ISerpSeznamOrganicTasksReadyResultInfo
 
 # Interface: ISerpSeznamOrganicTasksReadyResultInfo
 
@@ -37,10 +33,9 @@ date when the task was posted (in the UTC format)
 
 #### Defined in
 
-[main.ts:69778](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L69778)
+main.ts:72155
 
 ___
-
 
 ### endpoint\_advanced
 
@@ -51,10 +46,9 @@ if SERP Advanced is not supported in the specified endpoint, the value will be n
 
 #### Defined in
 
-[main.ts:69786](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L69786)
+main.ts:72163
 
 ___
-
 
 ### endpoint\_html
 
@@ -65,10 +59,9 @@ if SERP HTML is not supported in the specified endpoint, the value will be null
 
 #### Defined in
 
-[main.ts:69789](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L69789)
+main.ts:72166
 
 ___
-
 
 ### endpoint\_regular
 
@@ -79,10 +72,9 @@ if SERP Regular is not supported in the specified endpoint, the value will be nu
 
 #### Defined in
 
-[main.ts:69783](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L69783)
+main.ts:72160
 
 ___
-
 
 ### id
 
@@ -93,10 +85,9 @@ unique task identifier in our system in the UUID format
 
 #### Defined in
 
-[main.ts:69771](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L69771)
+main.ts:72148
 
 ___
-
 
 ### se
 
@@ -106,10 +97,9 @@ search engine specified when setting the task
 
 #### Defined in
 
-[main.ts:69773](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L69773)
+main.ts:72150
 
 ___
-
 
 ### se\_type
 
@@ -120,10 +110,9 @@ can take the following values: organic
 
 #### Defined in
 
-[main.ts:69776](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L69776)
+main.ts:72153
 
 ___
-
 
 ### tag
 
@@ -133,8 +122,4 @@ user-defined task identifier
 
 #### Defined in
 
-[main.ts:69780](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L69780)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:72157

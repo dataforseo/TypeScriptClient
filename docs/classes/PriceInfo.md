@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / PriceInfo
+[Documentation](../README.md) / [Exports](../modules.md) / PriceInfo
 
 # Class: PriceInfo
 
@@ -53,7 +49,7 @@
 
 #### Defined in
 
-[main.ts:21473](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L21473)
+main.ts:21992
 
 ## Properties
 
@@ -70,10 +66,9 @@ ISO code of the currency applied to the price
 
 #### Defined in
 
-[main.ts:21463](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L21463)
+main.ts:21982
 
 ___
-
 
 ### current
 
@@ -88,10 +83,9 @@ indicates the current price of the product or service featured in the result
 
 #### Defined in
 
-[main.ts:21454](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L21454)
+main.ts:21973
 
 ___
-
 
 ### displayed\_price
 
@@ -106,10 +100,9 @@ raw price string as provided in the result
 
 #### Defined in
 
-[main.ts:21469](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L21469)
+main.ts:21988
 
 ___
-
 
 ### is\_price\_range
 
@@ -124,10 +117,9 @@ indicates whether a price is provided in a range
 
 #### Defined in
 
-[main.ts:21466](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L21466)
+main.ts:21985
 
 ___
-
 
 ### max\_value
 
@@ -142,10 +134,9 @@ the maximum price of the product or service as indicated in the result
 
 #### Defined in
 
-[main.ts:21460](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L21460)
+main.ts:21979
 
 ___
-
 
 ### regular
 
@@ -160,7 +151,7 @@ indicates the regular price of the product or service with no discounts applied
 
 #### Defined in
 
-[main.ts:21457](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L21457)
+main.ts:21976
 
 ## Methods
 
@@ -180,10 +171,9 @@ indicates the regular price of the product or service with no discounts applied
 
 #### Defined in
 
-[main.ts:21482](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L21482)
+main.ts:22001
 
 ___
-
 
 ### toJSON
 
@@ -201,10 +191,9 @@ ___
 
 #### Defined in
 
-[main.ts:21504](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L21504)
+main.ts:22023
 
 ___
-
 
 ### fromJS
 
@@ -222,8 +211,4 @@ ___
 
 #### Defined in
 
-[main.ts:21497](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L21497)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:22016

@@ -1,15 +1,11 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IGoogleShoppingSponsoredCarouselMerchantSerpElementItem
+[Documentation](../README.md) / [Exports](../modules.md) / IGoogleShoppingSponsoredCarouselMerchantSerpElementItem
 
 # Interface: IGoogleShoppingSponsoredCarouselMerchantSerpElementItem
 
 ## Hierarchy
 
 - [`IBaseMerchantSerpElementItem`](IBaseMerchantSerpElementItem.md)
-  
+
   ↳ **`IGoogleShoppingSponsoredCarouselMerchantSerpElementItem`**
 
 ## Implemented by
@@ -41,10 +37,9 @@ items in SERP
 
 #### Defined in
 
-[main.ts:165274](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L165274)
+main.ts:170701
 
 ___
-
 
 ### position
 
@@ -56,10 +51,9 @@ left, right
 
 #### Defined in
 
-[main.ts:165268](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L165268)
+main.ts:170695
 
 ___
-
 
 ### rank\_absolute
 
@@ -70,10 +64,9 @@ absolute position among all the elements found in Google Shopping SERP
 
 #### Defined in
 
-[main.ts:165264](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L165264)
+main.ts:170691
 
 ___
-
 
 ### rank\_group
 
@@ -84,10 +77,9 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-[main.ts:165261](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L165261)
+main.ts:170688
 
 ___
-
 
 ### title
 
@@ -97,10 +89,9 @@ product title
 
 #### Defined in
 
-[main.ts:165272](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L165272)
+main.ts:170699
 
 ___
-
 
 ### xpath
 
@@ -110,8 +101,4 @@ XPath of the element
 
 #### Defined in
 
-[main.ts:165270](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L165270)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:170697

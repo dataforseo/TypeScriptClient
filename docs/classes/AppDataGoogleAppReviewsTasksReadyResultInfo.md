@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / AppDataGoogleAppReviewsTasksReadyResultInfo
+[Documentation](../README.md) / [Exports](../modules.md) / AppDataGoogleAppReviewsTasksReadyResultInfo
 
 # Class: AppDataGoogleAppReviewsTasksReadyResultInfo
 
@@ -53,7 +49,7 @@
 
 #### Defined in
 
-[main.ts:180978](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L180978)
+main.ts:186431
 
 ## Properties
 
@@ -69,10 +65,9 @@ date when the task was posted (in the UTC format)
 
 #### Defined in
 
-[main.ts:180967](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L180967)
+main.ts:186420
 
 ___
-
 
 ### endpoint\_advanced
 
@@ -86,10 +81,9 @@ URL for collecting the results of the Google App Reviews task
 
 #### Defined in
 
-[main.ts:180971](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L180971)
+main.ts:186424
 
 ___
-
 
 ### endpoint\_html
 
@@ -104,10 +98,9 @@ if HTML tasks are not supported in the specified endpoint, the value will be nul
 
 #### Defined in
 
-[main.ts:180974](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L180974)
+main.ts:186427
 
 ___
-
 
 ### id
 
@@ -122,10 +115,9 @@ unique task identifier in our system in the UUID format
 
 #### Defined in
 
-[main.ts:180963](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L180963)
+main.ts:186416
 
 ___
-
 
 ### se
 
@@ -139,10 +131,9 @@ search engine specified when setting the task
 
 #### Defined in
 
-[main.ts:180965](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L180965)
+main.ts:186418
 
 ___
-
 
 ### tag
 
@@ -156,7 +147,7 @@ user-defined task identifier
 
 #### Defined in
 
-[main.ts:180969](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L180969)
+main.ts:186422
 
 ## Methods
 
@@ -176,10 +167,9 @@ user-defined task identifier
 
 #### Defined in
 
-[main.ts:180987](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L180987)
+main.ts:186440
 
 ___
-
 
 ### toJSON
 
@@ -197,10 +187,9 @@ ___
 
 #### Defined in
 
-[main.ts:181009](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L181009)
+main.ts:186462
 
 ___
-
 
 ### fromJS
 
@@ -218,8 +207,4 @@ ___
 
 #### Defined in
 
-[main.ts:181002](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L181002)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:186455

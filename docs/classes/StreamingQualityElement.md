@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / StreamingQualityElement
+[Documentation](../README.md) / [Exports](../modules.md) / StreamingQualityElement
 
 # Class: StreamingQualityElement
 
@@ -54,7 +50,7 @@
 
 #### Defined in
 
-[main.ts:58512](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L58512)
+main.ts:60887
 
 ## Properties
 
@@ -70,10 +66,9 @@ bit rate of the video
 
 #### Defined in
 
-[main.ts:58504](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L58504)
+main.ts:60879
 
 ___
-
 
 ### fps
 
@@ -87,10 +82,9 @@ frame rate of the video
 
 #### Defined in
 
-[main.ts:58508](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L58508)
+main.ts:60883
 
 ___
-
 
 ### height
 
@@ -104,10 +98,9 @@ video height in pixels
 
 #### Defined in
 
-[main.ts:58502](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L58502)
+main.ts:60877
 
 ___
-
 
 ### label
 
@@ -121,10 +114,9 @@ label of the quality element
 
 #### Defined in
 
-[main.ts:58498](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L58498)
+main.ts:60873
 
 ___
-
 
 ### mime\_type
 
@@ -138,10 +130,9 @@ media type of the video
 
 #### Defined in
 
-[main.ts:58506](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L58506)
+main.ts:60881
 
 ___
-
 
 ### type
 
@@ -155,10 +146,9 @@ type of element
 
 #### Defined in
 
-[main.ts:58496](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L58496)
+main.ts:60871
 
 ___
-
 
 ### width
 
@@ -172,7 +162,7 @@ video width in pixels
 
 #### Defined in
 
-[main.ts:58500](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L58500)
+main.ts:60875
 
 ## Methods
 
@@ -192,10 +182,9 @@ video width in pixels
 
 #### Defined in
 
-[main.ts:58521](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L58521)
+main.ts:60896
 
 ___
-
 
 ### toJSON
 
@@ -213,10 +202,9 @@ ___
 
 #### Defined in
 
-[main.ts:58544](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L58544)
+main.ts:60919
 
 ___
-
 
 ### fromJS
 
@@ -234,8 +222,4 @@ ___
 
 #### Defined in
 
-[main.ts:58537](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L58537)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:60912

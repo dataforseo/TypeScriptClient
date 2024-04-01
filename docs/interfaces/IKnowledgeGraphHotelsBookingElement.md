@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IKnowledgeGraphHotelsBookingElement
+[Documentation](../README.md) / [Exports](../modules.md) / IKnowledgeGraphHotelsBookingElement
 
 # Interface: IKnowledgeGraphHotelsBookingElement
 
@@ -32,27 +28,25 @@
 
 • `Optional` **description**: `string`
 
-the description of the results element in SERP
+description of the results element in SERP
 
 #### Defined in
 
-[main.ts:35867](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L35867)
+main.ts:28109
 
 ___
-
 
 ### domain
 
 • `Optional` **domain**: `string`
 
-domain in the URL
+domain where a link points
 
 #### Defined in
 
-[main.ts:35871](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L35871)
+main.ts:28113
 
 ___
-
 
 ### is\_paid
 
@@ -62,37 +56,34 @@ indicates whether the element is an ad
 
 #### Defined in
 
-[main.ts:35875](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L35875)
+main.ts:28118
 
 ___
-
 
 ### price
 
 • `Optional` **price**: [`PriceInfo`](../classes/PriceInfo.md)
 
-price indicated in the element
+pricing details
+contains the pricing details of the product or service featured in the result
 
 #### Defined in
 
-[main.ts:35873](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L35873)
+main.ts:28116
 
 ___
-
 
 ### source
 
 • `Optional` **source**: `string`
 
-source of the element
-indicates the source of information included in the shopping_element
+source of additional information about the result
 
 #### Defined in
 
-[main.ts:35865](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L35865)
+main.ts:28107
 
 ___
-
 
 ### type
 
@@ -102,21 +93,16 @@ type of element
 
 #### Defined in
 
-[main.ts:35862](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L35862)
+main.ts:28105
 
 ___
-
 
 ### url
 
 • `Optional` **url**: `string`
 
-URL
+relevant URL
 
 #### Defined in
 
-[main.ts:35869](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L35869)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:28111

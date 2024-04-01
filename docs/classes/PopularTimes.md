@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / PopularTimes
+[Documentation](../README.md) / [Exports](../modules.md) / PopularTimes
 
 # Class: PopularTimes
 
@@ -48,7 +44,7 @@
 
 #### Defined in
 
-[main.ts:188875](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L188875)
+main.ts:194328
 
 ## Properties
 
@@ -69,7 +65,7 @@ information about busy hours of the local establishment on each day of the week
 
 #### Defined in
 
-[main.ts:188871](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L188871)
+main.ts:194324
 
 ## Methods
 
@@ -89,10 +85,9 @@ information about busy hours of the local establishment on each day of the week
 
 #### Defined in
 
-[main.ts:188884](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L188884)
+main.ts:194337
 
 ___
-
 
 ### toJSON
 
@@ -110,10 +105,9 @@ ___
 
 #### Defined in
 
-[main.ts:188907](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L188907)
+main.ts:194360
 
 ___
-
 
 ### fromJS
 
@@ -131,8 +125,4 @@ ___
 
 #### Defined in
 
-[main.ts:188900](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L188900)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:194353

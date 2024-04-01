@@ -1,15 +1,11 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / LocalBusinessOrderLink
+[Documentation](../README.md) / [Exports](../modules.md) / LocalBusinessOrderLink
 
 # Class: LocalBusinessOrderLink
 
 ## Hierarchy
 
 - [`BaseLocalBusinessLink`](BaseLocalBusinessLink.md)
-  
+
   ↳ **`LocalBusinessOrderLink`**
 
 ## Implements
@@ -59,7 +55,7 @@
 
 #### Defined in
 
-[main.ts:22328](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L22328)
+main.ts:22847
 
 ## Properties
 
@@ -73,10 +69,9 @@
 
 #### Defined in
 
-[main.ts:22207](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L22207)
+main.ts:22726
 
 ___
-
 
 ### delivery\_services
 
@@ -90,7 +85,7 @@ lists available delivery services
 
 #### Defined in
 
-[main.ts:22324](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L22324)
+main.ts:22843
 
 ## Methods
 
@@ -114,10 +109,9 @@ lists available delivery services
 
 #### Defined in
 
-[main.ts:22333](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L22333)
+main.ts:22852
 
 ___
-
 
 ### toJSON
 
@@ -139,10 +133,9 @@ ___
 
 #### Defined in
 
-[main.ts:22355](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L22355)
+main.ts:22874
 
 ___
-
 
 ### fromJS
 
@@ -164,8 +157,4 @@ ___
 
 #### Defined in
 
-[main.ts:22348](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L22348)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:22867

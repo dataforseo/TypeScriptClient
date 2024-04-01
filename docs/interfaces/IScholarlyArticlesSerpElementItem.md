@@ -1,15 +1,11 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IScholarlyArticlesSerpElementItem
+[Documentation](../README.md) / [Exports](../modules.md) / IScholarlyArticlesSerpElementItem
 
 # Interface: IScholarlyArticlesSerpElementItem
 
 ## Hierarchy
 
 - [`IBaseSerpElementItem`](IBaseSerpElementItem.md)
-  
+
   ↳ **`IScholarlyArticlesSerpElementItem`**
 
 ## Implemented by
@@ -39,14 +35,14 @@
 
 • `Optional` **items**: [`ScholarlyArticlesElement`](../classes/ScholarlyArticlesElement.md)[]
 
-contains results featured in the ‘hotels_pack’ element of SERP
+additional items present in the element
+if there are none, equals null
 
 #### Defined in
 
-[main.ts:31971](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L31971)
+main.ts:32840
 
 ___
-
 
 ### position
 
@@ -58,10 +54,9 @@ left, right
 
 #### Defined in
 
-[main.ts:31963](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L31963)
+main.ts:32831
 
 ___
-
 
 ### rank\_absolute
 
@@ -69,28 +64,28 @@ ___
 
 absolute rank in SERP
 absolute position among all the elements in SERP
+always equals 0 for desktop
 
 #### Defined in
 
-[main.ts:31959](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L31959)
+main.ts:32827
 
 ___
-
 
 ### rank\_group
 
 • `Optional` **rank\_group**: `number`
 
 group rank in SERP
-position within a group of elements with identical type values
-positions of elements with different type values are omitted from rank_group
+position within a group of elements with identical type values;
+positions of elements with different type values are omitted from rank_group;
+always equals 0 for desktop
 
 #### Defined in
 
-[main.ts:31956](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L31956)
+main.ts:32823
 
 ___
-
 
 ### rectangle
 
@@ -102,36 +97,33 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 #### Defined in
 
-[main.ts:31975](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L31975)
+main.ts:32844
 
 ___
-
 
 ### title
 
 • `Optional` **title**: `string`
 
-title of a given link element
+title of the row
 
 #### Defined in
 
-[main.ts:31967](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L31967)
+main.ts:32835
 
 ___
-
 
 ### url
 
 • `Optional` **url**: `string`
 
-URL
+source URL
 
 #### Defined in
 
-[main.ts:31969](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L31969)
+main.ts:32837
 
 ___
-
 
 ### xpath
 
@@ -141,8 +133,4 @@ the XPath of the element
 
 #### Defined in
 
-[main.ts:31965](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L31965)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:32833

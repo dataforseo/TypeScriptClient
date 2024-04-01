@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IMicrodataTestResultsInfo
+[Documentation](../README.md) / [Exports](../modules.md) / IMicrodataTestResultsInfo
 
 # Interface: IMicrodataTestResultsInfo
 
@@ -32,10 +28,9 @@ can take the following values: fatal, error, warning, info
 
 #### Defined in
 
-[main.ts:150699](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L150699)
+main.ts:156126
 
 ___
-
 
 ### message
 
@@ -46,8 +41,4 @@ message providing the details of the detected error
 
 #### Defined in
 
-[main.ts:150702](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L150702)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:156129

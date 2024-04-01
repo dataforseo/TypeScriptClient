@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / EventDates
+[Documentation](../README.md) / [Exports](../modules.md) / EventDates
 
 # Class: EventDates
 
@@ -50,7 +46,7 @@
 
 #### Defined in
 
-[main.ts:44446](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L44446)
+main.ts:45197
 
 ## Properties
 
@@ -66,10 +62,9 @@ date or date range as it is displayed in SERP
 
 #### Defined in
 
-[main.ts:44442](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L44442)
+main.ts:45193
 
 ___
-
 
 ### end\_datetime
 
@@ -91,10 +86,9 @@ example:
 
 #### Defined in
 
-[main.ts:44440](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L44440)
+main.ts:45191
 
 ___
-
 
 ### start\_datetime
 
@@ -116,7 +110,7 @@ example:
 
 #### Defined in
 
-[main.ts:44430](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L44430)
+main.ts:45181
 
 ## Methods
 
@@ -136,10 +130,9 @@ example:
 
 #### Defined in
 
-[main.ts:44455](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L44455)
+main.ts:45206
 
 ___
-
 
 ### toJSON
 
@@ -157,10 +150,9 @@ ___
 
 #### Defined in
 
-[main.ts:44474](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L44474)
+main.ts:45225
 
 ___
-
 
 ### fromJS
 
@@ -178,8 +170,4 @@ ___
 
 #### Defined in
 
-[main.ts:44467](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L44467)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:45218

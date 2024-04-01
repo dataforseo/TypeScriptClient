@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / BusyWorkingTimeInfo
+[Documentation](../README.md) / [Exports](../modules.md) / BusyWorkingTimeInfo
 
 # Class: BusyWorkingTimeInfo
 
@@ -49,7 +45,7 @@
 
 #### Defined in
 
-[main.ts:188818](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L188818)
+main.ts:194271
 
 ## Properties
 
@@ -67,10 +63,9 @@ higher value corresponds to a busier time of a day
 
 #### Defined in
 
-[main.ts:188814](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L188814)
+main.ts:194267
 
 ___
-
 
 ### time
 
@@ -84,7 +79,7 @@ busy hours
 
 #### Defined in
 
-[main.ts:188810](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L188810)
+main.ts:194263
 
 ## Methods
 
@@ -104,10 +99,9 @@ busy hours
 
 #### Defined in
 
-[main.ts:188827](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L188827)
+main.ts:194280
 
 ___
-
 
 ### toJSON
 
@@ -125,10 +119,9 @@ ___
 
 #### Defined in
 
-[main.ts:188845](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L188845)
+main.ts:194298
 
 ___
-
 
 ### fromJS
 
@@ -146,8 +139,4 @@ ___
 
 #### Defined in
 
-[main.ts:188838](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L188838)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:194291

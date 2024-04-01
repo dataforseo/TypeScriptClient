@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IBacklinksHistoryLiveResultInfo
+[Documentation](../README.md) / [Exports](../modules.md) / IBacklinksHistoryLiveResultInfo
 
 # Interface: IBacklinksHistoryLiveResultInfo
 
@@ -37,10 +33,9 @@ example:
 
 #### Defined in
 
-[main.ts:130431](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L130431)
+main.ts:135816
 
 ___
-
 
 ### date\_to
 
@@ -53,10 +48,9 @@ example:
 
 #### Defined in
 
-[main.ts:130436](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L130436)
+main.ts:135821
 
 ___
-
 
 ### items
 
@@ -68,10 +62,9 @@ the metrics are aggregated according to the backlinks the specified domain had o
 
 #### Defined in
 
-[main.ts:130442](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L130442)
+main.ts:135827
 
 ___
-
 
 ### items\_count
 
@@ -81,10 +74,9 @@ the number of results returned in the items array
 
 #### Defined in
 
-[main.ts:130438](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L130438)
+main.ts:135823
 
 ___
-
 
 ### target
 
@@ -94,8 +86,4 @@ target from the POST array
 
 #### Defined in
 
-[main.ts:130426](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L130426)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:135811

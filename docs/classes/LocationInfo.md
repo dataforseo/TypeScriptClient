@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / LocationInfo
+[Documentation](../README.md) / [Exports](../modules.md) / LocationInfo
 
 # Class: LocationInfo
 
@@ -52,7 +48,7 @@
 
 #### Defined in
 
-[main.ts:44530](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L44530)
+main.ts:45281
 
 ## Properties
 
@@ -68,10 +64,9 @@ address of the event’s venue
 
 #### Defined in
 
-[main.ts:44518](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L44518)
+main.ts:45269
 
 ___
-
 
 ### cid
 
@@ -87,10 +82,9 @@ can be used with Google Reviews API to get a full list of reviews
 
 #### Defined in
 
-[main.ts:44524](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L44524)
+main.ts:45275
 
 ___
-
 
 ### feature\_id
 
@@ -104,10 +98,9 @@ the unique identifier of the element in SERP
 
 #### Defined in
 
-[main.ts:44526](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L44526)
+main.ts:45277
 
 ___
-
 
 ### name
 
@@ -121,10 +114,9 @@ name of the event’s venue
 
 #### Defined in
 
-[main.ts:44516](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L44516)
+main.ts:45267
 
 ___
-
 
 ### url
 
@@ -138,7 +130,7 @@ URL to the event’s venue on google maps
 
 #### Defined in
 
-[main.ts:44520](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L44520)
+main.ts:45271
 
 ## Methods
 
@@ -158,10 +150,9 @@ URL to the event’s venue on google maps
 
 #### Defined in
 
-[main.ts:44539](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L44539)
+main.ts:45290
 
 ___
-
 
 ### toJSON
 
@@ -179,10 +170,9 @@ ___
 
 #### Defined in
 
-[main.ts:44560](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L44560)
+main.ts:45311
 
 ___
-
 
 ### fromJS
 
@@ -200,8 +190,4 @@ ___
 
 #### Defined in
 
-[main.ts:44553](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L44553)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:45304

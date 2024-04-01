@@ -1,35 +1,31 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / BaseBusinessDataSerpElementItem
+[Documentation](../README.md) / [Exports](../modules.md) / BaseBusinessDataSerpElementItem
 
 # Class: BaseBusinessDataSerpElementItem
 
 ## Hierarchy
 
 - **`BaseBusinessDataSerpElementItem`**
-  
+
   ↳ [`MapsSearchBusinessDataSerpElementItem`](MapsSearchBusinessDataSerpElementItem.md)
-  
+
   ↳ [`GoogleBusinessInfoBusinessDataSerpElementItem`](GoogleBusinessInfoBusinessDataSerpElementItem.md)
-  
+
   ↳ [`GoogleBusinessPostBusinessDataSerpElementItem`](GoogleBusinessPostBusinessDataSerpElementItem.md)
-  
+
   ↳ [`GoogleReviewsSearchBusinessDataSerpElementItem`](GoogleReviewsSearchBusinessDataSerpElementItem.md)
-  
+
   ↳ [`TrustpilotSearchOrganicBusinessDataSerpElementItem`](TrustpilotSearchOrganicBusinessDataSerpElementItem.md)
-  
+
   ↳ [`TrustpilotReviewSearchBusinessDataSerpElementItem`](TrustpilotReviewSearchBusinessDataSerpElementItem.md)
-  
+
   ↳ [`TripadvisorSearchOrganicBusinessDataSerpElementItem`](TripadvisorSearchOrganicBusinessDataSerpElementItem.md)
-  
+
   ↳ [`TripadvisorReviewSearchBusinessDataSerpElementItem`](TripadvisorReviewSearchBusinessDataSerpElementItem.md)
-  
+
   ↳ [`YelpSearchOrganicBusinessDataSerpElementItem`](YelpSearchOrganicBusinessDataSerpElementItem.md)
-  
+
   ↳ [`YelpSearchPaidBusinessDataSerpElementItem`](YelpSearchPaidBusinessDataSerpElementItem.md)
-  
+
   ↳ [`YelpReviewsSearchBusinessDataSerpElementItem`](YelpReviewsSearchBusinessDataSerpElementItem.md)
 
 ## Implements
@@ -74,7 +70,7 @@
 
 #### Defined in
 
-[main.ts:20078](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L20078)
+main.ts:20534
 
 ## Properties
 
@@ -84,7 +80,7 @@
 
 #### Defined in
 
-[main.ts:20076](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L20076)
+main.ts:20532
 
 ## Methods
 
@@ -104,10 +100,9 @@
 
 #### Defined in
 
-[main.ts:20088](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L20088)
+main.ts:20544
 
 ___
-
 
 ### toJSON
 
@@ -125,10 +120,9 @@ ___
 
 #### Defined in
 
-[main.ts:20159](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L20159)
+main.ts:20615
 
 ___
-
 
 ### fromJS
 
@@ -146,8 +140,4 @@ ___
 
 #### Defined in
 
-[main.ts:20097](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L20097)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:20553

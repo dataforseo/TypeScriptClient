@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / ContentAnalysisCategoriesResultInfo
+[Documentation](../README.md) / [Exports](../modules.md) / ContentAnalysisCategoriesResultInfo
 
 # Class: ContentAnalysisCategoriesResultInfo
 
@@ -50,7 +46,7 @@
 
 #### Defined in
 
-[main.ts:155869](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L155869)
+main.ts:161296
 
 ## Properties
 
@@ -66,10 +62,9 @@ category code
 
 #### Defined in
 
-[main.ts:155853](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L155853)
+main.ts:161280
 
 ___
-
 
 ### category\_code\_parent
 
@@ -91,10 +86,9 @@ corresponds to:
 
 #### Defined in
 
-[main.ts:155865](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L155865)
+main.ts:161292
 
 ___
-
 
 ### category\_name
 
@@ -108,7 +102,7 @@ full name of the category
 
 #### Defined in
 
-[main.ts:155855](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L155855)
+main.ts:161282
 
 ## Methods
 
@@ -128,10 +122,9 @@ full name of the category
 
 #### Defined in
 
-[main.ts:155878](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L155878)
+main.ts:161305
 
 ___
-
 
 ### toJSON
 
@@ -149,10 +142,9 @@ ___
 
 #### Defined in
 
-[main.ts:155897](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L155897)
+main.ts:161324
 
 ___
-
 
 ### fromJS
 
@@ -170,8 +162,4 @@ ___
 
 #### Defined in
 
-[main.ts:155890](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L155890)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:161317

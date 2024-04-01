@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IAppendixKeywordsDataDaysRatesDataInfo
+[Documentation](../README.md) / [Exports](../modules.md) / IAppendixKeywordsDataDaysRatesDataInfo
 
 # Interface: IAppendixKeywordsDataDaysRatesDataInfo
 
@@ -21,6 +17,7 @@
 - [ad\_traffic\_by\_keywords](IAppendixKeywordsDataDaysRatesDataInfo.md#ad_traffic_by_keywords)
 - [bing](IAppendixKeywordsDataDaysRatesDataInfo.md#bing)
 - [categories](IAppendixKeywordsDataDaysRatesDataInfo.md#categories)
+- [dataforseo\_trends](IAppendixKeywordsDataDaysRatesDataInfo.md#dataforseo_trends)
 - [errors](IAppendixKeywordsDataDaysRatesDataInfo.md#errors)
 - [explore](IAppendixKeywordsDataDaysRatesDataInfo.md#explore)
 - [google\_ads](IAppendixKeywordsDataDaysRatesDataInfo.md#google_ads)
@@ -37,14 +34,13 @@
 
 ### ad\_traffic\_by\_keywords
 
-• `Optional` **ad\_traffic\_by\_keywords**: [`AppendixInfo`](../classes/AppendixInfo.md)
+• `Optional` **ad\_traffic\_by\_keywords**: [`AppendixFunctionInfo`](../classes/AppendixFunctionInfo.md)
 
 #### Defined in
 
-[main.ts:206997](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L206997)
+main.ts:212521
 
 ___
-
 
 ### bing
 
@@ -52,10 +48,9 @@ ___
 
 #### Defined in
 
-[main.ts:207004](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L207004)
+main.ts:212528
 
 ___
-
 
 ### categories
 
@@ -63,10 +58,19 @@ ___
 
 #### Defined in
 
-[main.ts:207002](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L207002)
+main.ts:212526
 
 ___
 
+### dataforseo\_trends
+
+• `Optional` **dataforseo\_trends**: [`AppendixDataforseoTrendsKeywordsDataLimitsRatesDataInfo`](../classes/AppendixDataforseoTrendsKeywordsDataLimitsRatesDataInfo.md)
+
+#### Defined in
+
+main.ts:212532
+
+___
 
 ### errors
 
@@ -74,21 +78,19 @@ ___
 
 #### Defined in
 
-[main.ts:207003](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L207003)
+main.ts:212527
 
 ___
-
 
 ### explore
 
-• `Optional` **explore**: [`AppendixInfo`](../classes/AppendixInfo.md)
+• `Optional` **explore**: [`AppendixFunctionInfo`](../classes/AppendixFunctionInfo.md)
 
 #### Defined in
 
-[main.ts:207001](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L207001)
+main.ts:212525
 
 ___
-
 
 ### google\_ads
 
@@ -96,10 +98,9 @@ ___
 
 #### Defined in
 
-[main.ts:207007](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L207007)
+main.ts:212531
 
 ___
-
 
 ### keyword\_performance
 
@@ -107,32 +108,29 @@ ___
 
 #### Defined in
 
-[main.ts:207005](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L207005)
+main.ts:212529
 
 ___
-
 
 ### keywords\_for\_keywords
 
-• `Optional` **keywords\_for\_keywords**: [`AppendixInfo`](../classes/AppendixInfo.md)
+• `Optional` **keywords\_for\_keywords**: [`AppendixFunctionInfo`](../classes/AppendixFunctionInfo.md)
 
 #### Defined in
 
-[main.ts:206994](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L206994)
+main.ts:212518
 
 ___
-
 
 ### keywords\_for\_site
 
-• `Optional` **keywords\_for\_site**: [`AppendixInfo`](../classes/AppendixInfo.md)
+• `Optional` **keywords\_for\_site**: [`AppendixFunctionInfo`](../classes/AppendixFunctionInfo.md)
 
 #### Defined in
 
-[main.ts:206995](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L206995)
+main.ts:212519
 
 ___
-
 
 ### languages
 
@@ -140,10 +138,9 @@ ___
 
 #### Defined in
 
-[main.ts:206998](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L206998)
+main.ts:212522
 
 ___
-
 
 ### locations
 
@@ -151,32 +148,29 @@ ___
 
 #### Defined in
 
-[main.ts:206999](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L206999)
+main.ts:212523
 
 ___
-
 
 ### search\_volume
 
-• `Optional` **search\_volume**: [`AppendixInfo`](../classes/AppendixInfo.md)
+• `Optional` **search\_volume**: [`AppendixFunctionInfo`](../classes/AppendixFunctionInfo.md)
 
 #### Defined in
 
-[main.ts:206996](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L206996)
+main.ts:212520
 
 ___
-
 
 ### search\_volume\_history
 
-• `Optional` **search\_volume\_history**: [`AppendixInfo`](../classes/AppendixInfo.md)
+• `Optional` **search\_volume\_history**: [`AppendixFunctionInfo`](../classes/AppendixFunctionInfo.md)
 
 #### Defined in
 
-[main.ts:207006](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L207006)
+main.ts:212530
 
 ___
-
 
 ### tasks\_ready
 
@@ -184,8 +178,4 @@ ___
 
 #### Defined in
 
-[main.ts:207000](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L207000)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:212524

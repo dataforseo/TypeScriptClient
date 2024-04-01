@@ -1,15 +1,11 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IShoppingSpecificationMerchantSerpElementItem
+[Documentation](../README.md) / [Exports](../modules.md) / IShoppingSpecificationMerchantSerpElementItem
 
 # Interface: IShoppingSpecificationMerchantSerpElementItem
 
 ## Hierarchy
 
 - [`IBaseMerchantSerpElementItem`](IBaseMerchantSerpElementItem.md)
-  
+
   ↳ **`IShoppingSpecificationMerchantSerpElementItem`**
 
 ## Implemented by
@@ -43,10 +39,9 @@ indicates the name of the product specification section in which the related ele
 
 #### Defined in
 
-[main.ts:167919](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L167919)
+main.ts:173372
 
 ___
-
 
 ### position
 
@@ -58,10 +53,9 @@ right
 
 #### Defined in
 
-[main.ts:167914](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L167914)
+main.ts:173367
 
 ___
-
 
 ### rank\_absolute
 
@@ -72,10 +66,9 @@ absolute position among all the elements found on the product specification page
 
 #### Defined in
 
-[main.ts:167910](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L167910)
+main.ts:173363
 
 ___
-
 
 ### rank\_group
 
@@ -86,10 +79,9 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-[main.ts:167907](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L167907)
+main.ts:173360
 
 ___
-
 
 ### specification\_name
 
@@ -100,10 +92,9 @@ attribute name of the product data specification
 
 #### Defined in
 
-[main.ts:167922](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L167922)
+main.ts:173375
 
 ___
-
 
 ### specification\_value
 
@@ -113,10 +104,9 @@ content of the specification
 
 #### Defined in
 
-[main.ts:167924](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L167924)
+main.ts:173377
 
 ___
-
 
 ### xpath
 
@@ -126,8 +116,4 @@ XPath of the element
 
 #### Defined in
 
-[main.ts:167916](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L167916)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:173369

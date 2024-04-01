@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IDataforseoLabsAmazonProductKeywordIntersectionsLiveItem
+[Documentation](../README.md) / [Exports](../modules.md) / IDataforseoLabsAmazonProductKeywordIntersectionsLiveItem
 
 # Interface: IDataforseoLabsAmazonProductKeywordIntersectionsLiveItem
 
@@ -36,10 +32,9 @@ data on the intersection
 
 #### Defined in
 
-[main.ts:101863](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L101863)
+main.ts:104240
 
 ___
-
 
 ### keyword\_data
 
@@ -49,10 +44,9 @@ keyword data for the returned keyword
 
 #### Defined in
 
-[main.ts:101861](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L101861)
+main.ts:104238
 
 ___
-
 
 ### se\_type
 
@@ -62,8 +56,4 @@ search engine type
 
 #### Defined in
 
-[main.ts:101859](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L101859)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:104236

@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / BusinessDataBusinessListingsCategoriesAggregationLiveItem
+[Documentation](../README.md) / [Exports](../modules.md) / BusinessDataBusinessListingsCategoriesAggregationLiveItem
 
 # Class: BusinessDataBusinessListingsCategoriesAggregationLiveItem
 
@@ -50,7 +46,7 @@
 
 #### Defined in
 
-[main.ts:189905](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L189905)
+main.ts:195358
 
 ## Properties
 
@@ -66,10 +62,9 @@ aggregation of the category
 
 #### Defined in
 
-[main.ts:189901](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L189901)
+main.ts:195354
 
 ___
-
 
 ### categories
 
@@ -84,10 +79,9 @@ Google My Business general category that best describes the cluster of related c
 
 #### Defined in
 
-[main.ts:189899](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L189899)
+main.ts:195352
 
 ___
-
 
 ### type
 
@@ -101,7 +95,7 @@ type of element
 
 #### Defined in
 
-[main.ts:189896](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L189896)
+main.ts:195349
 
 ## Methods
 
@@ -121,10 +115,9 @@ type of element
 
 #### Defined in
 
-[main.ts:189914](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L189914)
+main.ts:195367
 
 ___
-
 
 ### toJSON
 
@@ -142,10 +135,9 @@ ___
 
 #### Defined in
 
-[main.ts:189937](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L189937)
+main.ts:195390
 
 ___
-
 
 ### fromJS
 
@@ -163,8 +155,4 @@ ___
 
 #### Defined in
 
-[main.ts:189930](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L189930)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:195383

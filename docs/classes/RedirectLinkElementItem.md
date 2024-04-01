@@ -1,15 +1,11 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / RedirectLinkElementItem
+[Documentation](../README.md) / [Exports](../modules.md) / RedirectLinkElementItem
 
 # Class: RedirectLinkElementItem
 
 ## Hierarchy
 
 - [`BaseOnPageLinkItemInfo`](BaseOnPageLinkItemInfo.md)
-  
+
   ↳ **`RedirectLinkElementItem`**
 
 ## Implements
@@ -70,7 +66,7 @@
 
 #### Defined in
 
-[main.ts:148897](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L148897)
+main.ts:154324
 
 ## Properties
 
@@ -84,10 +80,9 @@
 
 #### Defined in
 
-[main.ts:20314](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L20314)
+main.ts:20770
 
 ___
-
 
 ### direction
 
@@ -102,10 +97,9 @@ possible values: internal, external
 
 #### Defined in
 
-[main.ts:148887](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L148887)
+main.ts:154314
 
 ___
-
 
 ### dofollow
 
@@ -120,10 +114,9 @@ if the value is true, the link doesn’t have a rel="nofollow" attribute
 
 #### Defined in
 
-[main.ts:148880](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L148880)
+main.ts:154307
 
 ___
-
 
 ### domain\_from
 
@@ -138,10 +131,9 @@ the link was found on this domain
 
 #### Defined in
 
-[main.ts:148862](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L148862)
+main.ts:154289
 
 ___
-
 
 ### domain\_to
 
@@ -156,10 +148,9 @@ the link is pointing to this domain
 
 #### Defined in
 
-[main.ts:148865](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L148865)
+main.ts:154292
 
 ___
-
 
 ### is\_broken
 
@@ -174,10 +165,9 @@ indicates whether a link is directing to a broken page or resource
 
 #### Defined in
 
-[main.ts:148890](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L148890)
+main.ts:154317
 
 ___
-
 
 ### is\_link\_relation\_conflict
 
@@ -192,10 +182,9 @@ if true, at least one link pointing to the URL in link_to has a rel="nofollow" a
 
 #### Defined in
 
-[main.ts:148893](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L148893)
+main.ts:154320
 
 ___
-
 
 ### link\_from
 
@@ -210,10 +199,9 @@ absolute URL of the page on which the link was found
 
 #### Defined in
 
-[main.ts:148874](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L148874)
+main.ts:154301
 
 ___
-
 
 ### link\_to
 
@@ -228,10 +216,9 @@ absolute URL of the page to which the link is pointing
 
 #### Defined in
 
-[main.ts:148877](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L148877)
+main.ts:154304
 
 ___
-
 
 ### page\_from
 
@@ -246,10 +233,9 @@ relative URL of the page on which the link was found
 
 #### Defined in
 
-[main.ts:148868](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L148868)
+main.ts:154295
 
 ___
-
 
 ### page\_from\_scheme
 
@@ -263,10 +249,9 @@ url scheme of the referring page
 
 #### Defined in
 
-[main.ts:148882](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L148882)
+main.ts:154309
 
 ___
-
 
 ### page\_to
 
@@ -281,10 +266,9 @@ relative URL of the page to which the link is pointing
 
 #### Defined in
 
-[main.ts:148871](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L148871)
+main.ts:154298
 
 ___
-
 
 ### page\_to\_scheme
 
@@ -298,7 +282,7 @@ url scheme of the referenced page
 
 #### Defined in
 
-[main.ts:148884](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L148884)
+main.ts:154311
 
 ## Methods
 
@@ -322,10 +306,9 @@ url scheme of the referenced page
 
 #### Defined in
 
-[main.ts:148902](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L148902)
+main.ts:154329
 
 ___
-
 
 ### toJSON
 
@@ -347,10 +330,9 @@ ___
 
 #### Defined in
 
-[main.ts:148931](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L148931)
+main.ts:154358
 
 ___
-
 
 ### fromJS
 
@@ -372,8 +354,4 @@ ___
 
 #### Defined in
 
-[main.ts:148924](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L148924)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:154351

@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IAppendixRatesData
+[Documentation](../README.md) / [Exports](../modules.md) / IAppendixRatesData
 
 # Interface: IAppendixRatesData
 
@@ -31,10 +27,9 @@ rate limits for API calls per a certain period of time
 
 #### Defined in
 
-[main.ts:209381](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L209381)
+main.ts:214910
 
 ___
-
 
 ### statistics
 
@@ -44,8 +39,4 @@ statisctics for API calls
 
 #### Defined in
 
-[main.ts:209383](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L209383)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:214912

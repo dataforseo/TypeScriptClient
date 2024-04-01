@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / ConceptInfo
+[Documentation](../README.md) / [Exports](../modules.md) / ConceptInfo
 
 # Class: ConceptInfo
 
@@ -49,7 +45,7 @@
 
 #### Defined in
 
-[main.ts:114960](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L114960)
+main.ts:117337
 
 ## Properties
 
@@ -65,10 +61,9 @@ the concept group of the concept details
 
 #### Defined in
 
-[main.ts:114956](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L114956)
+main.ts:117333
 
 ___
-
 
 ### name
 
@@ -82,7 +77,7 @@ the concept name for the keyword in the concept_group
 
 #### Defined in
 
-[main.ts:114954](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L114954)
+main.ts:117331
 
 ## Methods
 
@@ -102,10 +97,9 @@ the concept name for the keyword in the concept_group
 
 #### Defined in
 
-[main.ts:114969](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L114969)
+main.ts:117346
 
 ___
-
 
 ### toJSON
 
@@ -123,10 +117,9 @@ ___
 
 #### Defined in
 
-[main.ts:114987](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L114987)
+main.ts:117364
 
 ___
-
 
 ### fromJS
 
@@ -144,8 +137,4 @@ ___
 
 #### Defined in
 
-[main.ts:114980](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L114980)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:117357

@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / DataforseoLabsBingRankedKeywordsLiveRequestInfo
+[Documentation](../README.md) / [Exports](../modules.md) / DataforseoLabsBingRankedKeywordsLiveRequestInfo
 
 # Class: DataforseoLabsBingRankedKeywordsLiveRequestInfo
 
@@ -61,7 +57,7 @@
 
 #### Defined in
 
-[main.ts:105090](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L105090)
+main.ts:107467
 
 ## Properties
 
@@ -95,10 +91,9 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 #### Defined in
 
-[main.ts:105064](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L105064)
+main.ts:107441
 
 ___
-
 
 ### historical\_serp\_mode
 
@@ -119,10 +114,9 @@ default value: live
 
 #### Defined in
 
-[main.ts:105044](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L105044)
+main.ts:107421
 
 ___
-
 
 ### ignore\_synonyms
 
@@ -139,10 +133,9 @@ default value: false
 
 #### Defined in
 
-[main.ts:105020](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L105020)
+main.ts:107397
 
 ___
-
 
 ### item\_types
 
@@ -163,10 +156,9 @@ default value:
 
 #### Defined in
 
-[main.ts:105015](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L105015)
+main.ts:107392
 
 ___
-
 
 ### language\_code
 
@@ -187,10 +179,9 @@ en
 
 #### Defined in
 
-[main.ts:105006](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L105006)
+main.ts:107383
 
 ___
-
 
 ### language\_name
 
@@ -211,10 +202,9 @@ English
 
 #### Defined in
 
-[main.ts:104997](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L104997)
+main.ts:107374
 
 ___
-
 
 ### limit
 
@@ -231,10 +221,9 @@ maximum value: 1000
 
 #### Defined in
 
-[main.ts:105025](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L105025)
+main.ts:107402
 
 ___
-
 
 ### load\_rank\_absolute
 
@@ -251,10 +240,9 @@ if set to true, we will return the field metrics_absolute containing rankings di
 
 #### Defined in
 
-[main.ts:105035](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L105035)
+main.ts:107412
 
 ___
-
 
 ### location\_code
 
@@ -276,10 +264,9 @@ example:
 
 #### Defined in
 
-[main.ts:104988](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L104988)
+main.ts:107365
 
 ___
-
 
 ### location\_name
 
@@ -301,10 +288,9 @@ United States
 
 #### Defined in
 
-[main.ts:104978](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L104978)
+main.ts:107355
 
 ___
-
 
 ### offset
 
@@ -321,10 +307,9 @@ if you specify the 10 value, the first ten keywords in the results array will be
 
 #### Defined in
 
-[main.ts:105030](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L105030)
+main.ts:107407
 
 ___
-
 
 ### order\_by
 
@@ -352,10 +337,9 @@ example:
 
 #### Defined in
 
-[main.ts:105080](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L105080)
+main.ts:107457
 
 ___
-
 
 ### tag
 
@@ -373,10 +357,9 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-[main.ts:105086](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L105086)
+main.ts:107463
 
 ___
-
 
 ### target
 
@@ -398,7 +381,7 @@ example:
 
 #### Defined in
 
-[main.ts:104968](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L104968)
+main.ts:107345
 
 ## Methods
 
@@ -418,10 +401,9 @@ example:
 
 #### Defined in
 
-[main.ts:105099](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L105099)
+main.ts:107476
 
 ___
-
 
 ### toJSON
 
@@ -439,10 +421,9 @@ ___
 
 #### Defined in
 
-[main.ts:105141](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L105141)
+main.ts:107518
 
 ___
-
 
 ### fromJS
 
@@ -460,8 +441,4 @@ ___
 
 #### Defined in
 
-[main.ts:105134](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L105134)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:107511

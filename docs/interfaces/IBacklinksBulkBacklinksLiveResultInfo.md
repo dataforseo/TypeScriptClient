@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IBacklinksBulkBacklinksLiveResultInfo
+[Documentation](../README.md) / [Exports](../modules.md) / IBacklinksBulkBacklinksLiveResultInfo
 
 # Interface: IBacklinksBulkBacklinksLiveResultInfo
 
@@ -31,10 +27,9 @@ contains relevant backlink data
 
 #### Defined in
 
-[main.ts:139858](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L139858)
+main.ts:145285
 
 ___
-
 
 ### items\_count
 
@@ -44,8 +39,4 @@ the number of results returned in the items array
 
 #### Defined in
 
-[main.ts:139856](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L139856)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:145283

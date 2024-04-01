@@ -1,15 +1,11 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / GoogleReviewsSerpElementItem
+[Documentation](../README.md) / [Exports](../modules.md) / GoogleReviewsSerpElementItem
 
 # Class: GoogleReviewsSerpElementItem
 
 ## Hierarchy
 
 - [`BaseSerpElementItem`](BaseSerpElementItem.md)
-  
+
   ↳ **`GoogleReviewsSerpElementItem`**
 
 ## Implements
@@ -68,7 +64,7 @@
 
 #### Defined in
 
-[main.ts:29206](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L29206)
+main.ts:29983
 
 ## Properties
 
@@ -82,10 +78,9 @@
 
 #### Defined in
 
-[main.ts:19337](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L19337)
+main.ts:19788
 
 ___
-
 
 ### cid
 
@@ -99,10 +94,9 @@ google-defined client id
 
 #### Defined in
 
-[main.ts:29198](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L29198)
+main.ts:29975
 
 ___
-
 
 ### feature
 
@@ -116,10 +110,9 @@ the additional feature of the review
 
 #### Defined in
 
-[main.ts:29196](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L29196)
+main.ts:29973
 
 ___
-
 
 ### place\_id
 
@@ -133,10 +126,9 @@ the identifier of a place
 
 #### Defined in
 
-[main.ts:29194](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L29194)
+main.ts:29971
 
 ___
-
 
 ### position
 
@@ -152,10 +144,9 @@ left, right
 
 #### Defined in
 
-[main.ts:29185](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L29185)
+main.ts:29962
 
 ___
-
 
 ### rank\_absolute
 
@@ -163,6 +154,7 @@ ___
 
 absolute rank in SERP
 absolute position among all the elements in SERP
+always equals 0 for desktop
 
 #### Implementation of
 
@@ -170,18 +162,18 @@ absolute position among all the elements in SERP
 
 #### Defined in
 
-[main.ts:29181](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L29181)
+main.ts:29958
 
 ___
-
 
 ### rank\_group
 
 • `Optional` **rank\_group**: `number`
 
 group rank in SERP
-position within a group of elements with identical type values
-positions of elements with different type values are omitted from rank_group
+position within a group of elements with identical type values;
+positions of elements with different type values are omitted from rank_group;
+always equals 0 for desktop
 
 #### Implementation of
 
@@ -189,16 +181,15 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-[main.ts:29178](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L29178)
+main.ts:29954
 
 ___
-
 
 ### rating
 
 • `Optional` **rating**: [`RatingInfo`](RatingInfo.md)
 
-the item’s rating
+the item’s rating 
 the popularity rate based on reviews and displayed in SERP
 
 #### Implementation of
@@ -207,10 +198,9 @@ the popularity rate based on reviews and displayed in SERP
 
 #### Defined in
 
-[main.ts:29192](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L29192)
+main.ts:29969
 
 ___
-
 
 ### rectangle
 
@@ -226,10 +216,9 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 #### Defined in
 
-[main.ts:29202](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L29202)
+main.ts:29979
 
 ___
-
 
 ### reviews\_count
 
@@ -243,10 +232,9 @@ the number of reviews
 
 #### Defined in
 
-[main.ts:29189](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L29189)
+main.ts:29966
 
 ___
-
 
 ### xpath
 
@@ -260,7 +248,7 @@ the XPath of the element
 
 #### Defined in
 
-[main.ts:29187](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L29187)
+main.ts:29964
 
 ## Methods
 
@@ -284,10 +272,9 @@ the XPath of the element
 
 #### Defined in
 
-[main.ts:29211](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L29211)
+main.ts:29988
 
 ___
-
 
 ### toJSON
 
@@ -309,10 +296,9 @@ ___
 
 #### Defined in
 
-[main.ts:29238](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L29238)
+main.ts:30015
 
 ___
-
 
 ### fromJS
 
@@ -334,8 +320,4 @@ ___
 
 #### Defined in
 
-[main.ts:29231](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L29231)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:30008

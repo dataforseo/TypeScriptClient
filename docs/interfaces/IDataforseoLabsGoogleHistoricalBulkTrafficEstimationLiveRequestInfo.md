@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IDataforseoLabsGoogleHistoricalBulkTrafficEstimationLiveRequestInfo
+[Documentation](../README.md) / [Exports](../modules.md) / IDataforseoLabsGoogleHistoricalBulkTrafficEstimationLiveRequestInfo
 
 # Interface: IDataforseoLabsGoogleHistoricalBulkTrafficEstimationLiveRequestInfo
 
@@ -42,10 +38,9 @@ date format: "yyyy-mm-dd"
 
 #### Defined in
 
-[main.ts:98149](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L98149)
+main.ts:100526
 
 ___
-
 
 ### date\_to
 
@@ -60,10 +55,9 @@ example:
 
 #### Defined in
 
-[main.ts:98156](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L98156)
+main.ts:100533
 
 ___
-
 
 ### item\_types
 
@@ -80,10 +74,9 @@ default value:
 
 #### Defined in
 
-[main.ts:98165](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L98165)
+main.ts:100542
 
 ___
-
 
 ### language\_code
 
@@ -99,10 +92,9 @@ en
 
 #### Defined in
 
-[main.ts:98143](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L98143)
+main.ts:100520
 
 ___
-
 
 ### language\_name
 
@@ -118,10 +110,9 @@ English
 
 #### Defined in
 
-[main.ts:98135](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L98135)
+main.ts:100512
 
 ___
-
 
 ### location\_code
 
@@ -137,10 +128,9 @@ example:
 
 #### Defined in
 
-[main.ts:98127](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L98127)
+main.ts:100504
 
 ___
-
 
 ### location\_name
 
@@ -156,10 +146,9 @@ United Kingdom
 
 #### Defined in
 
-[main.ts:98119](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L98119)
+main.ts:100496
 
 ___
-
 
 ### tag
 
@@ -173,10 +162,9 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-[main.ts:98171](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L98171)
+main.ts:100548
 
 ___
-
 
 ### targets
 
@@ -190,8 +178,4 @@ you can set up to 1000 domains or subdomains
 
 #### Defined in
 
-[main.ts:98111](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L98111)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:100488

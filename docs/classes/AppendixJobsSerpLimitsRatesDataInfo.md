@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / AppendixJobsSerpLimitsRatesDataInfo
+[Documentation](../README.md) / [Exports](../modules.md) / AppendixJobsSerpLimitsRatesDataInfo
 
 # Class: AppendixJobsSerpLimitsRatesDataInfo
 
@@ -48,7 +44,7 @@
 
 #### Defined in
 
-[main.ts:206541](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L206541)
+main.ts:212002
 
 ## Properties
 
@@ -62,7 +58,7 @@
 
 #### Defined in
 
-[main.ts:206537](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L206537)
+main.ts:211998
 
 ## Methods
 
@@ -82,10 +78,9 @@
 
 #### Defined in
 
-[main.ts:206550](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L206550)
+main.ts:212011
 
 ___
-
 
 ### toJSON
 
@@ -103,10 +98,9 @@ ___
 
 #### Defined in
 
-[main.ts:206567](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L206567)
+main.ts:212028
 
 ___
-
 
 ### fromJS
 
@@ -124,8 +118,4 @@ ___
 
 #### Defined in
 
-[main.ts:206560](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L206560)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:212021

@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / SerpTaskRequestInfo
+[Documentation](../README.md) / [Exports](../modules.md) / SerpTaskRequestInfo
 
 # Class: SerpTaskRequestInfo
 
@@ -71,7 +67,7 @@
 
 #### Defined in
 
-[main.ts:213159](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L213159)
+main.ts:218816
 
 ## Properties
 
@@ -94,10 +90,9 @@ Note: to use this parameter, set calculate_rectangles to true
 
 #### Defined in
 
-[main.ts:213103](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L213103)
+main.ts:218760
 
 ___
-
 
 ### browser\_screen\_resolution\_ratio
 
@@ -118,10 +113,9 @@ Note: to use this parameter, set calculate_rectangles to true
 
 #### Defined in
 
-[main.ts:213112](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L213112)
+main.ts:218769
 
 ___
-
 
 ### browser\_screen\_width
 
@@ -142,10 +136,9 @@ Note: to use this parameter, set calculate_rectangles to true
 
 #### Defined in
 
-[main.ts:213094](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L213094)
+main.ts:218751
 
 ___
-
 
 ### calculate\_rectangles
 
@@ -164,10 +157,9 @@ Note: if set to true, the charge per task will be multiplied by 2
 
 #### Defined in
 
-[main.ts:213085](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L213085)
+main.ts:218742
 
 ___
-
 
 ### depth
 
@@ -188,10 +180,9 @@ if the specified depth is higher than the number of results in the response, the
 
 #### Defined in
 
-[main.ts:213008](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L213008)
+main.ts:218665
 
 ___
-
 
 ### device
 
@@ -208,10 +199,9 @@ default value: desktop
 
 #### Defined in
 
-[main.ts:213065](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L213065)
+main.ts:218722
 
 ___
-
 
 ### group\_organic\_results
 
@@ -229,10 +219,9 @@ default value: true
 
 #### Defined in
 
-[main.ts:213078](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L213078)
+main.ts:218735
 
 ___
-
 
 ### keyword
 
@@ -253,10 +242,9 @@ Note: queries containing the ‘cache:’ parameter are not supported and will r
 
 #### Defined in
 
-[main.ts:212985](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L212985)
+main.ts:218642
 
 ___
-
 
 ### language\_code
 
@@ -275,10 +263,9 @@ en
 
 #### Defined in
 
-[main.ts:213053](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L213053)
+main.ts:218710
 
 ___
-
 
 ### language\_name
 
@@ -297,10 +284,9 @@ English
 
 #### Defined in
 
-[main.ts:213046](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L213046)
+main.ts:218703
 
 ___
-
 
 ### location\_code
 
@@ -319,10 +305,9 @@ example:
 
 #### Defined in
 
-[main.ts:213029](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L213029)
+main.ts:218686
 
 ___
-
 
 ### location\_coordinate
 
@@ -344,10 +329,9 @@ example:
 
 #### Defined in
 
-[main.ts:213039](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L213039)
+main.ts:218696
 
 ___
-
 
 ### location\_name
 
@@ -366,10 +350,9 @@ London,England,United Kingdom
 
 #### Defined in
 
-[main.ts:213022](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L213022)
+main.ts:218679
 
 ___
-
 
 ### max\_crawl\_pages
 
@@ -388,10 +371,9 @@ learn more at our help center
 
 #### Defined in
 
-[main.ts:213015](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L213015)
+main.ts:218672
 
 ___
-
 
 ### os
 
@@ -410,10 +392,9 @@ default value: android
 
 #### Defined in
 
-[main.ts:213072](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L213072)
+main.ts:218729
 
 ___
-
 
 ### people\_also\_ask\_click\_depth
 
@@ -432,10 +413,9 @@ possible values: from 1 to 4
 
 #### Defined in
 
-[main.ts:213119](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L213119)
+main.ts:218776
 
 ___
-
 
 ### pingback\_url
 
@@ -457,10 +437,9 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-[main.ts:213155](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L213155)
+main.ts:218812
 
 ___
-
 
 ### postback\_data
 
@@ -478,10 +457,9 @@ regular, advanced, html
 
 #### Defined in
 
-[main.ts:213145](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L213145)
+main.ts:218802
 
 ___
-
 
 ### postback\_url
 
@@ -503,10 +481,9 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-[main.ts:213139](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L213139)
+main.ts:218796
 
 ___
-
 
 ### priority
 
@@ -526,10 +503,9 @@ The cost can be calculated on the Pricing page
 
 #### Defined in
 
-[main.ts:212999](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L212999)
+main.ts:218656
 
 ___
-
 
 ### se\_domain
 
@@ -548,10 +524,9 @@ google.co.uk, google.com.au, google.de, etc.
 
 #### Defined in
 
-[main.ts:213060](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L213060)
+main.ts:218717
 
 ___
-
 
 ### search\_param
 
@@ -567,10 +542,9 @@ get the list of available parameters and additional details here
 
 #### Defined in
 
-[main.ts:213123](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L213123)
+main.ts:218780
 
 ___
-
 
 ### tag
 
@@ -588,10 +562,9 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-[main.ts:213129](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L213129)
+main.ts:218786
 
 ___
-
 
 ### url
 
@@ -609,7 +582,7 @@ https://www.google.co.uk/search?q=%20rank%20tracker%20api&hl=en&gl=GB&uule=w+CAI
 
 #### Defined in
 
-[main.ts:212991](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L212991)
+main.ts:218648
 
 ## Methods
 
@@ -629,10 +602,9 @@ https://www.google.co.uk/search?q=%20rank%20tracker%20api&hl=en&gl=GB&uule=w+CAI
 
 #### Defined in
 
-[main.ts:213168](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L213168)
+main.ts:218825
 
 ___
-
 
 ### toJSON
 
@@ -650,10 +622,9 @@ ___
 
 #### Defined in
 
-[main.ts:213208](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L213208)
+main.ts:218865
 
 ___
-
 
 ### fromJS
 
@@ -671,8 +642,4 @@ ___
 
 #### Defined in
 
-[main.ts:213201](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L213201)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:218858

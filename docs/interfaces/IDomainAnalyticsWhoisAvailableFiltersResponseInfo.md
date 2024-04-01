@@ -1,15 +1,11 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IDomainAnalyticsWhoisAvailableFiltersResponseInfo
+[Documentation](../README.md) / [Exports](../modules.md) / IDomainAnalyticsWhoisAvailableFiltersResponseInfo
 
 # Interface: IDomainAnalyticsWhoisAvailableFiltersResponseInfo
 
 ## Hierarchy
 
 - [`IBaseResponseInfo`](IBaseResponseInfo.md)
-  
+
   ↳ **`IDomainAnalyticsWhoisAvailableFiltersResponseInfo`**
 
 ## Implemented by
@@ -47,10 +43,9 @@ total tasks cost, USD
 
 #### Defined in
 
-[main.ts:22579](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L22579)
+main.ts:23098
 
 ___
-
 
 ### status\_code
 
@@ -65,10 +60,9 @@ you can find the full list of the response codes here
 
 #### Defined in
 
-[main.ts:22572](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L22572)
+main.ts:23091
 
 ___
-
 
 ### status\_message
 
@@ -83,10 +77,9 @@ you can find the full list of general informational messages here
 
 #### Defined in
 
-[main.ts:22575](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L22575)
+main.ts:23094
 
 ___
-
 
 ### tasks
 
@@ -94,10 +87,9 @@ ___
 
 #### Defined in
 
-[main.ts:75569](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L75569)
+main.ts:77946
 
 ___
-
 
 ### tasks\_count
 
@@ -111,10 +103,9 @@ the number of tasks in the tasks array
 
 #### Defined in
 
-[main.ts:22581](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L22581)
+main.ts:23100
 
 ___
-
 
 ### tasks\_error
 
@@ -128,10 +119,9 @@ the number of tasks in the tasks array returned with an error
 
 #### Defined in
 
-[main.ts:22583](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L22583)
+main.ts:23102
 
 ___
-
 
 ### time
 
@@ -145,10 +135,9 @@ total execution time, seconds
 
 #### Defined in
 
-[main.ts:22577](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L22577)
+main.ts:23096
 
 ___
-
 
 ### version
 
@@ -162,8 +151,4 @@ the current version of the API
 
 #### Defined in
 
-[main.ts:22569](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L22569)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:23088

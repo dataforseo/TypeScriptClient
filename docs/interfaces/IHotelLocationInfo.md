@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IHotelLocationInfo
+[Documentation](../README.md) / [Exports](../modules.md) / IHotelLocationInfo
 
 # Interface: IHotelLocationInfo
 
@@ -40,10 +36,9 @@ example:
 
 #### Defined in
 
-[main.ts:195748](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L195748)
+main.ts:201209
 
 ___
-
 
 ### location\_chain
 
@@ -54,10 +49,9 @@ additional parameters of each element of the location chain
 
 #### Defined in
 
-[main.ts:195756](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L195756)
+main.ts:201217
 
 ___
-
 
 ### longitude
 
@@ -70,10 +64,9 @@ example:
 
 #### Defined in
 
-[main.ts:195753](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L195753)
+main.ts:201214
 
 ___
-
 
 ### maps\_url
 
@@ -83,10 +76,9 @@ url to the location of the hotel in google maps
 
 #### Defined in
 
-[main.ts:195735](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L195735)
+main.ts:201196
 
 ___
-
 
 ### neighborhood
 
@@ -96,10 +88,9 @@ name of the neighborhood where the hotel is located
 
 #### Defined in
 
-[main.ts:195731](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L195731)
+main.ts:201192
 
 ___
-
 
 ### neighborhood\_description
 
@@ -109,10 +100,9 @@ description of the neighborhood where the hotel is located
 
 #### Defined in
 
-[main.ts:195733](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L195733)
+main.ts:201194
 
 ___
-
 
 ### overall\_score
 
@@ -125,10 +115,9 @@ note that the criteria are not weighted equally in the overall score
 
 #### Defined in
 
-[main.ts:195740](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L195740)
+main.ts:201201
 
 ___
-
 
 ### score\_by\_categories
 
@@ -143,8 +132,4 @@ the scores of the hotel’s location tied to the categories that indicate the pr
 
 #### Defined in
 
-[main.ts:195743](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L195743)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:201204

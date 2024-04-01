@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IRelatedSearchesElement
+[Documentation](../README.md) / [Exports](../modules.md) / IRelatedSearchesElement
 
 # Interface: IRelatedSearchesElement
 
@@ -34,10 +30,9 @@ the alt tag of the product image featured in the results
 
 #### Defined in
 
-[main.ts:21048](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L21048)
+main.ts:21567
 
 ___
-
 
 ### image\_url
 
@@ -47,10 +42,9 @@ URL of the product image featured in the results
 
 #### Defined in
 
-[main.ts:21050](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L21050)
+main.ts:21569
 
 ___
-
 
 ### title
 
@@ -60,10 +54,9 @@ product title
 
 #### Defined in
 
-[main.ts:21044](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L21044)
+main.ts:21563
 
 ___
-
 
 ### type
 
@@ -73,10 +66,9 @@ type of element
 
 #### Defined in
 
-[main.ts:21042](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L21042)
+main.ts:21561
 
 ___
-
 
 ### url
 
@@ -86,8 +78,4 @@ the URL of the product page
 
 #### Defined in
 
-[main.ts:21046](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L21046)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:21565

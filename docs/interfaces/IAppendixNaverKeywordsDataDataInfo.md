@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IAppendixNaverKeywordsDataDataInfo
+[Documentation](../README.md) / [Exports](../modules.md) / IAppendixNaverKeywordsDataDataInfo
 
 # Interface: IAppendixNaverKeywordsDataDataInfo
 
@@ -25,23 +21,18 @@
 
 ### keywords\_for\_category
 
-• `Optional` **keywords\_for\_category**: [`AppendixInfo`](../classes/AppendixInfo.md)
+• `Optional` **keywords\_for\_category**: [`AppendixFunctionInfo`](../classes/AppendixFunctionInfo.md)
 
 #### Defined in
 
-[main.ts:208724](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L208724)
+main.ts:214249
 
 ___
 
-
 ### search\_volume
 
-• `Optional` **search\_volume**: [`AppendixInfo`](../classes/AppendixInfo.md)
+• `Optional` **search\_volume**: [`AppendixFunctionInfo`](../classes/AppendixFunctionInfo.md)
 
 #### Defined in
 
-[main.ts:208725](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L208725)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:214250

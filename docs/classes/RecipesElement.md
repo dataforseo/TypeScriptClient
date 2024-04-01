@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / RecipesElement
+[Documentation](../README.md) / [Exports](../modules.md) / RecipesElement
 
 # Class: RecipesElement
 
@@ -55,7 +51,7 @@
 
 #### Defined in
 
-[main.ts:31438](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L31438)
+main.ts:32289
 
 ## Properties
 
@@ -63,7 +59,7 @@
 
 • `Optional` **description**: `string`
 
-description of the results element in SERP
+description
 
 #### Implementation of
 
@@ -71,16 +67,15 @@ description of the results element in SERP
 
 #### Defined in
 
-[main.ts:31429](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L31429)
+main.ts:32280
 
 ___
-
 
 ### domain
 
 • `Optional` **domain**: `string`
 
-domain where a link points
+website domain
 
 #### Implementation of
 
@@ -88,16 +83,15 @@ domain where a link points
 
 #### Defined in
 
-[main.ts:31424](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L31424)
+main.ts:32275
 
 ___
-
 
 ### rating
 
 • `Optional` **rating**: [`RatingInfo`](RatingInfo.md)
 
-the item’s rating
+the item’s rating 
 the popularity rate based on reviews and displayed in SERP
 
 #### Implementation of
@@ -106,17 +100,16 @@ the popularity rate based on reviews and displayed in SERP
 
 #### Defined in
 
-[main.ts:31434](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L31434)
+main.ts:32285
 
 ___
-
 
 ### source
 
 • `Optional` **source**: `string`
 
-web source of the hotel booking element
-indicates the source of information included in the element
+source of the element
+indicates the source of information included in the top_stories_element
 
 #### Implementation of
 
@@ -124,10 +117,9 @@ indicates the source of information included in the element
 
 #### Defined in
 
-[main.ts:31427](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L31427)
+main.ts:32278
 
 ___
-
 
 ### time
 
@@ -141,16 +133,15 @@ the total time it takes to prepare the cook the dish
 
 #### Defined in
 
-[main.ts:31431](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L31431)
+main.ts:32282
 
 ___
-
 
 ### title
 
 • `Optional` **title**: `string`
 
-title of the row
+title of a given link element
 
 #### Implementation of
 
@@ -158,10 +149,9 @@ title of the row
 
 #### Defined in
 
-[main.ts:31420](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L31420)
+main.ts:32271
 
 ___
-
 
 ### type
 
@@ -175,10 +165,9 @@ type of element
 
 #### Defined in
 
-[main.ts:31418](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L31418)
+main.ts:32269
 
 ___
-
 
 ### url
 
@@ -192,7 +181,7 @@ URL
 
 #### Defined in
 
-[main.ts:31422](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L31422)
+main.ts:32273
 
 ## Methods
 
@@ -212,10 +201,9 @@ URL
 
 #### Defined in
 
-[main.ts:31447](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L31447)
+main.ts:32298
 
 ___
-
 
 ### toJSON
 
@@ -233,10 +221,9 @@ ___
 
 #### Defined in
 
-[main.ts:31471](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L31471)
+main.ts:32322
 
 ___
-
 
 ### fromJS
 
@@ -254,8 +241,4 @@ ___
 
 #### Defined in
 
-[main.ts:31464](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L31464)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:32315

@@ -1,15 +1,11 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IYoutubeCommentSerpElementItem
+[Documentation](../README.md) / [Exports](../modules.md) / IYoutubeCommentSerpElementItem
 
 # Interface: IYoutubeCommentSerpElementItem
 
 ## Hierarchy
 
 - [`IBaseSerpElementItem`](IBaseSerpElementItem.md)
-  
+
   ↳ **`IYoutubeCommentSerpElementItem`**
 
 ## Implemented by
@@ -45,10 +41,9 @@ name of the author of the comment
 
 #### Defined in
 
-[main.ts:61916](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L61916)
+main.ts:64291
 
 ___
-
 
 ### author\_thumbnail
 
@@ -58,10 +53,9 @@ the URL of the page where the author’s channel logo is hosted
 
 #### Defined in
 
-[main.ts:61918](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L61918)
+main.ts:64293
 
 ___
-
 
 ### author\_url
 
@@ -71,10 +65,9 @@ URL of the author’s channel
 
 #### Defined in
 
-[main.ts:61920](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L61920)
+main.ts:64295
 
 ___
-
 
 ### likes\_count
 
@@ -84,10 +77,9 @@ number of likes on the comment
 
 #### Defined in
 
-[main.ts:61931](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L61931)
+main.ts:64306
 
 ___
-
 
 ### publication\_date
 
@@ -97,10 +89,9 @@ displayed publication date
 
 #### Defined in
 
-[main.ts:61924](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L61924)
+main.ts:64299
 
 ___
-
 
 ### rank\_absolute
 
@@ -111,10 +102,9 @@ absolute position among all the elements in SERP
 
 #### Defined in
 
-[main.ts:61914](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L61914)
+main.ts:64289
 
 ___
-
 
 ### rank\_group
 
@@ -126,10 +116,9 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-[main.ts:61911](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L61911)
+main.ts:64286
 
 ___
-
 
 ### reply\_count
 
@@ -139,10 +128,9 @@ number of replies on the comment
 
 #### Defined in
 
-[main.ts:61933](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L61933)
+main.ts:64308
 
 ___
-
 
 ### text
 
@@ -152,10 +140,9 @@ text of the comment
 
 #### Defined in
 
-[main.ts:61922](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L61922)
+main.ts:64297
 
 ___
-
 
 ### timestamp
 
@@ -168,8 +155,4 @@ example:
 
 #### Defined in
 
-[main.ts:61929](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L61929)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:64304

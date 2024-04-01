@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IAmazonProductNewerModelInfo
+[Documentation](../README.md) / [Exports](../modules.md) / IAmazonProductNewerModelInfo
 
 # Interface: IAmazonProductNewerModelInfo
 
@@ -31,10 +27,9 @@ ASIN of the newer product model
 
 #### Defined in
 
-[main.ts:172371](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L172371)
+main.ts:177824
 
 ___
-
 
 ### title
 
@@ -44,8 +39,4 @@ product title
 
 #### Defined in
 
-[main.ts:172369](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L172369)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:177822

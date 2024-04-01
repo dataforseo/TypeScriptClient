@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / DataforseoLabsGoogleCategoriesForDomainLiveItem
+[Documentation](../README.md) / [Exports](../modules.md) / DataforseoLabsGoogleCategoriesForDomainLiveItem
 
 # Class: DataforseoLabsGoogleCategoriesForDomainLiveItem
 
@@ -50,7 +46,7 @@
 
 #### Defined in
 
-[main.ts:83409](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L83409)
+main.ts:85786
 
 ## Properties
 
@@ -67,10 +63,9 @@ you can download the full list of possible categories
 
 #### Defined in
 
-[main.ts:83403](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L83403)
+main.ts:85780
 
 ___
-
 
 ### metrics
 
@@ -88,10 +83,9 @@ ranking data relevant to the specified domain or subdomain
 
 #### Defined in
 
-[main.ts:83405](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L83405)
+main.ts:85782
 
 ___
-
 
 ### se\_type
 
@@ -105,7 +99,7 @@ search engine type
 
 #### Defined in
 
-[main.ts:83400](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L83400)
+main.ts:85777
 
 ## Methods
 
@@ -125,10 +119,9 @@ search engine type
 
 #### Defined in
 
-[main.ts:83418](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L83418)
+main.ts:85795
 
 ___
-
 
 ### toJSON
 
@@ -146,10 +139,9 @@ ___
 
 #### Defined in
 
-[main.ts:83447](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L83447)
+main.ts:85824
 
 ___
-
 
 ### fromJS
 
@@ -167,8 +159,4 @@ ___
 
 #### Defined in
 
-[main.ts:83440](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L83440)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:85817

@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / OnPageForceStopRequestInfo
+[Documentation](../README.md) / [Exports](../modules.md) / OnPageForceStopRequestInfo
 
 # Class: OnPageForceStopRequestInfo
 
@@ -48,7 +44,7 @@
 
 #### Defined in
 
-[main.ts:142136](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L142136)
+main.ts:147563
 
 ## Properties
 
@@ -69,7 +65,7 @@ note: you can set up to 1000 id values as separate objects in the POST array
 
 #### Defined in
 
-[main.ts:142132](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L142132)
+main.ts:147559
 
 ## Methods
 
@@ -89,10 +85,9 @@ note: you can set up to 1000 id values as separate objects in the POST array
 
 #### Defined in
 
-[main.ts:142145](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L142145)
+main.ts:147572
 
 ___
-
 
 ### toJSON
 
@@ -110,10 +105,9 @@ ___
 
 #### Defined in
 
-[main.ts:142162](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L142162)
+main.ts:147589
 
 ___
-
 
 ### fromJS
 
@@ -131,8 +125,4 @@ ___
 
 #### Defined in
 
-[main.ts:142155](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L142155)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:147582

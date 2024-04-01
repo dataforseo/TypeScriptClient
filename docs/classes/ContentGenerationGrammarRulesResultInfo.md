@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / ContentGenerationGrammarRulesResultInfo
+[Documentation](../README.md) / [Exports](../modules.md) / ContentGenerationGrammarRulesResultInfo
 
 # Class: ContentGenerationGrammarRulesResultInfo
 
@@ -48,7 +44,7 @@
 
 #### Defined in
 
-[main.ts:161963](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L161963)
+main.ts:167390
 
 ## Properties
 
@@ -64,7 +60,7 @@ array of rules
 
 #### Defined in
 
-[main.ts:161959](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L161959)
+main.ts:167386
 
 ## Methods
 
@@ -84,10 +80,9 @@ array of rules
 
 #### Defined in
 
-[main.ts:161972](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L161972)
+main.ts:167399
 
 ___
-
 
 ### toJSON
 
@@ -105,10 +100,9 @@ ___
 
 #### Defined in
 
-[main.ts:161993](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L161993)
+main.ts:167420
 
 ___
-
 
 ### fromJS
 
@@ -126,8 +120,4 @@ ___
 
 #### Defined in
 
-[main.ts:161986](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L161986)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:167413

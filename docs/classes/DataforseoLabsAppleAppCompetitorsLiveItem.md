@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / DataforseoLabsAppleAppCompetitorsLiveItem
+[Documentation](../README.md) / [Exports](../modules.md) / DataforseoLabsAppleAppCompetitorsLiveItem
 
 # Class: DataforseoLabsAppleAppCompetitorsLiveItem
 
@@ -54,7 +50,7 @@
 
 #### Defined in
 
-[main.ts:111441](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L111441)
+main.ts:113818
 
 ## Properties
 
@@ -70,10 +66,9 @@ id of the competitor app
 
 #### Defined in
 
-[main.ts:111420](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L111420)
+main.ts:113797
 
 ___
-
 
 ### avg\_position
 
@@ -89,10 +84,9 @@ the value for a given application may differ when combined with different target
 
 #### Defined in
 
-[main.ts:111424](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L111424)
+main.ts:113801
 
 ___
-
 
 ### competitor\_metrics
 
@@ -108,10 +102,9 @@ note: in this array ranking data is provided for the returned competitor’s app
 
 #### Defined in
 
-[main.ts:111434](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L111434)
+main.ts:113811
 
 ___
-
 
 ### full\_metrics
 
@@ -126,10 +119,9 @@ full overview of ranking data relevant to all keywords that the provided app_id 
 
 #### Defined in
 
-[main.ts:111437](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L111437)
+main.ts:113814
 
 ___
-
 
 ### intersections
 
@@ -143,10 +135,9 @@ number of intersecting keywords
 
 #### Defined in
 
-[main.ts:111430](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L111430)
+main.ts:113807
 
 ___
-
 
 ### se\_type
 
@@ -160,10 +151,9 @@ search engine type
 
 #### Defined in
 
-[main.ts:111418](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L111418)
+main.ts:113795
 
 ___
-
 
 ### sum\_position
 
@@ -179,7 +169,7 @@ the value for a given application may differ when combined with different target
 
 #### Defined in
 
-[main.ts:111428](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L111428)
+main.ts:113805
 
 ## Methods
 
@@ -199,10 +189,9 @@ the value for a given application may differ when combined with different target
 
 #### Defined in
 
-[main.ts:111450](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L111450)
+main.ts:113827
 
 ___
-
 
 ### toJSON
 
@@ -220,10 +209,9 @@ ___
 
 #### Defined in
 
-[main.ts:111473](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L111473)
+main.ts:113850
 
 ___
-
 
 ### fromJS
 
@@ -241,8 +229,4 @@ ___
 
 #### Defined in
 
-[main.ts:111466](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L111466)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:113843

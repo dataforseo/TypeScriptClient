@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IOnPagePagesByResourceRequestInfo
+[Documentation](../README.md) / [Exports](../modules.md) / IOnPagePagesByResourceRequestInfo
 
 # Interface: IOnPagePagesByResourceRequestInfo
 
@@ -48,10 +44,9 @@ The full list of possible filters is available by this link.
 
 #### Defined in
 
-[main.ts:145490](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L145490)
+main.ts:150917
 
 ___
-
 
 ### id
 
@@ -65,10 +60,9 @@ example:
 
 #### Defined in
 
-[main.ts:145460](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L145460)
+main.ts:150887
 
 ___
-
 
 ### limit
 
@@ -81,10 +75,9 @@ maximum value: 1000
 
 #### Defined in
 
-[main.ts:145471](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L145471)
+main.ts:150898
 
 ___
-
 
 ### offset
 
@@ -97,10 +90,9 @@ if you specify the 10 value, the first ten pages in the results array will be om
 
 #### Defined in
 
-[main.ts:145476](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L145476)
+main.ts:150903
 
 ___
-
 
 ### order\_by
 
@@ -122,10 +114,9 @@ example:
 
 #### Defined in
 
-[main.ts:145504](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L145504)
+main.ts:150931
 
 ___
-
 
 ### tag
 
@@ -139,10 +130,9 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-[main.ts:145510](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L145510)
+main.ts:150937
 
 ___
-
 
 ### url
 
@@ -156,8 +146,4 @@ https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js
 
 #### Defined in
 
-[main.ts:145466](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L145466)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:150893

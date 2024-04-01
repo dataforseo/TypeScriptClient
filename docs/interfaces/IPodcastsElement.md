@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IPodcastsElement
+[Documentation](../README.md) / [Exports](../modules.md) / IPodcastsElement
 
 # Interface: IPodcastsElement
 
@@ -31,14 +27,13 @@
 
 • `Optional` **description**: `string`
 
-description of the results element in SERP
+description
 
 #### Defined in
 
-[main.ts:32230](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L32230)
+main.ts:33105
 
 ___
-
 
 ### time\_to\_play
 
@@ -48,10 +43,9 @@ the total time it will take to play an episode
 
 #### Defined in
 
-[main.ts:32237](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L32237)
+main.ts:33112
 
 ___
-
 
 ### timestamp
 
@@ -64,23 +58,21 @@ example:
 
 #### Defined in
 
-[main.ts:32235](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L32235)
+main.ts:33110
 
 ___
-
 
 ### title
 
 • `Optional` **title**: `string`
 
-title of the row
+title of a given link element
 
 #### Defined in
 
-[main.ts:32226](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L32226)
+main.ts:33101
 
 ___
-
 
 ### type
 
@@ -90,10 +82,9 @@ type of element
 
 #### Defined in
 
-[main.ts:32224](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L32224)
+main.ts:33099
 
 ___
-
 
 ### url
 
@@ -103,8 +94,4 @@ URL
 
 #### Defined in
 
-[main.ts:32228](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L32228)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:33103

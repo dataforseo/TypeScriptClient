@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / SerpGoogleMapsTasksReadyResultInfo
+[Documentation](../README.md) / [Exports](../modules.md) / SerpGoogleMapsTasksReadyResultInfo
 
 # Class: SerpGoogleMapsTasksReadyResultInfo
 
@@ -55,7 +51,7 @@
 
 #### Defined in
 
-[main.ts:37809](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L37809)
+main.ts:38560
 
 ## Properties
 
@@ -71,10 +67,9 @@ date when the task was posted (in the UTC format)
 
 #### Defined in
 
-[main.ts:37794](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L37794)
+main.ts:38545
 
 ___
-
 
 ### endpoint\_advanced
 
@@ -89,10 +84,9 @@ if SERP Advanced is not supported in the specified endpoint, the value will be n
 
 #### Defined in
 
-[main.ts:37802](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L37802)
+main.ts:38553
 
 ___
-
 
 ### endpoint\_html
 
@@ -107,10 +101,9 @@ if SERP HTML is not supported in the specified endpoint, the value will be null
 
 #### Defined in
 
-[main.ts:37805](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L37805)
+main.ts:38556
 
 ___
-
 
 ### endpoint\_regular
 
@@ -125,10 +118,9 @@ if SERP Regular is not supported in the specified endpoint, the value will be nu
 
 #### Defined in
 
-[main.ts:37799](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L37799)
+main.ts:38550
 
 ___
-
 
 ### id
 
@@ -143,10 +135,9 @@ unique task identifier in our system in the UUID format
 
 #### Defined in
 
-[main.ts:37787](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L37787)
+main.ts:38538
 
 ___
-
 
 ### se
 
@@ -160,10 +151,9 @@ search engine specified when setting the task
 
 #### Defined in
 
-[main.ts:37789](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L37789)
+main.ts:38540
 
 ___
-
 
 ### se\_type
 
@@ -178,10 +168,9 @@ can take the following values: maps
 
 #### Defined in
 
-[main.ts:37792](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L37792)
+main.ts:38543
 
 ___
-
 
 ### tag
 
@@ -195,7 +184,7 @@ user-defined task identifier
 
 #### Defined in
 
-[main.ts:37796](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L37796)
+main.ts:38547
 
 ## Methods
 
@@ -215,10 +204,9 @@ user-defined task identifier
 
 #### Defined in
 
-[main.ts:37818](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L37818)
+main.ts:38569
 
 ___
-
 
 ### toJSON
 
@@ -236,10 +224,9 @@ ___
 
 #### Defined in
 
-[main.ts:37842](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L37842)
+main.ts:38593
 
 ___
-
 
 ### fromJS
 
@@ -257,8 +244,4 @@ ___
 
 #### Defined in
 
-[main.ts:37835](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L37835)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:38586

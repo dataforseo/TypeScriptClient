@@ -1,15 +1,11 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IProductInformationVideoRow
+[Documentation](../README.md) / [Exports](../modules.md) / IProductInformationVideoRow
 
 # Interface: IProductInformationVideoRow
 
 ## Hierarchy
 
 - [`IBaseProductInformationRowItem`](IBaseProductInformationRowItem.md)
-  
+
   ↳ **`IProductInformationVideoRow`**
 
 ## Implemented by
@@ -37,10 +33,9 @@ URL of the preview image for the related video
 
 #### Defined in
 
-[main.ts:173278](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L173278)
+main.ts:178731
 
 ___
-
 
 ### url
 
@@ -50,8 +45,4 @@ URL of the image
 
 #### Defined in
 
-[main.ts:173280](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L173280)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:178733

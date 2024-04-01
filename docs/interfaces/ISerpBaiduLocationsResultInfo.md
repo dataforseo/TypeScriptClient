@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / ISerpBaiduLocationsResultInfo
+[Documentation](../README.md) / [Exports](../modules.md) / ISerpBaiduLocationsResultInfo
 
 # Interface: ISerpBaiduLocationsResultInfo
 
@@ -34,10 +30,9 @@ ISO country code of the location
 
 #### Defined in
 
-[main.ts:65272](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L65272)
+main.ts:67649
 
 ___
-
 
 ### location\_code
 
@@ -47,10 +42,9 @@ location code
 
 #### Defined in
 
-[main.ts:65264](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L65264)
+main.ts:67641
 
 ___
-
 
 ### location\_code\_parent
 
@@ -62,10 +56,9 @@ don’t match locations by location_code_parent because the results for Region a
 
 #### Defined in
 
-[main.ts:65270](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L65270)
+main.ts:67647
 
 ___
-
 
 ### location\_name
 
@@ -75,10 +68,9 @@ full name of the location
 
 #### Defined in
 
-[main.ts:65266](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L65266)
+main.ts:67643
 
 ___
-
 
 ### location\_type
 
@@ -89,8 +81,4 @@ only City is supported for all countries except China (where Country is also sup
 
 #### Defined in
 
-[main.ts:65275](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L65275)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:67652

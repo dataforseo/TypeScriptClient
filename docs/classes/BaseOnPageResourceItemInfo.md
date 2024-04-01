@@ -1,23 +1,19 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / BaseOnPageResourceItemInfo
+[Documentation](../README.md) / [Exports](../modules.md) / BaseOnPageResourceItemInfo
 
 # Class: BaseOnPageResourceItemInfo
 
 ## Hierarchy
 
 - **`BaseOnPageResourceItemInfo`**
-  
+
   ↳ [`HtmlResourceElementItem`](HtmlResourceElementItem.md)
-  
-  ↳ [`ScriptResourceElementItem`](ScriptResourceElementItem.md)
-  
+
   ↳ [`StylesheetResourceElementItem`](StylesheetResourceElementItem.md)
-  
+
+  ↳ [`ScriptResourceElementItem`](ScriptResourceElementItem.md)
+
   ↳ [`ImageResourceElementItem`](ImageResourceElementItem.md)
-  
+
   ↳ [`BrokenResourceElementItem`](BrokenResourceElementItem.md)
 
 ## Implements
@@ -62,7 +58,7 @@
 
 #### Defined in
 
-[main.ts:20181](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L20181)
+main.ts:20637
 
 ## Properties
 
@@ -72,7 +68,7 @@
 
 #### Defined in
 
-[main.ts:20179](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L20179)
+main.ts:20635
 
 ## Methods
 
@@ -92,10 +88,9 @@
 
 #### Defined in
 
-[main.ts:20191](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L20191)
+main.ts:20647
 
 ___
-
 
 ### toJSON
 
@@ -113,10 +108,9 @@ ___
 
 #### Defined in
 
-[main.ts:20232](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L20232)
+main.ts:20688
 
 ___
-
 
 ### fromJS
 
@@ -134,8 +128,4 @@ ___
 
 #### Defined in
 
-[main.ts:20200](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L20200)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:20656

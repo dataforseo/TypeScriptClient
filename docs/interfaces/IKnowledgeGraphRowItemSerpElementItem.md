@@ -1,15 +1,11 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IKnowledgeGraphRowItemSerpElementItem
+[Documentation](../README.md) / [Exports](../modules.md) / IKnowledgeGraphRowItemSerpElementItem
 
 # Interface: IKnowledgeGraphRowItemSerpElementItem
 
 ## Hierarchy
 
 - [`IBaseSerpElementItem`](IBaseSerpElementItem.md)
-  
+
   ↳ **`IKnowledgeGraphRowItemSerpElementItem`**
 
 ## Implemented by
@@ -46,10 +42,9 @@ kc:/common/topic:social media presence
 
 #### Defined in
 
-[main.ts:26853](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L26853)
+main.ts:27372
 
 ___
-
 
 ### links
 
@@ -59,10 +54,9 @@ links featured in the faq_box_element
 
 #### Defined in
 
-[main.ts:26857](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L26857)
+main.ts:27376
 
 ___
-
 
 ### position
 
@@ -74,10 +68,9 @@ left, right
 
 #### Defined in
 
-[main.ts:26845](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L26845)
+main.ts:27364
 
 ___
-
 
 ### rank\_absolute
 
@@ -88,10 +81,9 @@ absolute position among all the elements in SERP
 
 #### Defined in
 
-[main.ts:26841](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L26841)
+main.ts:27360
 
 ___
-
 
 ### rank\_group
 
@@ -103,10 +95,9 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-[main.ts:26838](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L26838)
+main.ts:27357
 
 ___
-
 
 ### rectangle
 
@@ -118,10 +109,9 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 #### Defined in
 
-[main.ts:26861](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L26861)
+main.ts:27380
 
 ___
-
 
 ### text
 
@@ -131,10 +121,9 @@ row content
 
 #### Defined in
 
-[main.ts:26855](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L26855)
+main.ts:27374
 
 ___
-
 
 ### title
 
@@ -144,10 +133,9 @@ title of the item
 
 #### Defined in
 
-[main.ts:26849](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L26849)
+main.ts:27368
 
 ___
-
 
 ### xpath
 
@@ -157,8 +145,4 @@ the XPath of the element
 
 #### Defined in
 
-[main.ts:26847](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L26847)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:27366

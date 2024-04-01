@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / AvgBacklinksInfo
+[Documentation](../README.md) / [Exports](../modules.md) / AvgBacklinksInfo
 
 # Class: AvgBacklinksInfo
 
@@ -56,7 +52,7 @@
 
 #### Defined in
 
-[main.ts:79461](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L79461)
+main.ts:81838
 
 ## Properties
 
@@ -72,10 +68,9 @@ average number of backlinks
 
 #### Defined in
 
-[main.ts:79438](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L79438)
+main.ts:81815
 
 ___
-
 
 ### dofollow
 
@@ -89,10 +84,9 @@ average number of dofollow links
 
 #### Defined in
 
-[main.ts:79440](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L79440)
+main.ts:81817
 
 ___
-
 
 ### last\_updated\_time
 
@@ -109,10 +103,9 @@ example:
 
 #### Defined in
 
-[main.ts:79457](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L79457)
+main.ts:81834
 
 ___
-
 
 ### main\_domain\_rank
 
@@ -127,10 +120,9 @@ learn more about the metric and its calculation formula in this help center arti
 
 #### Defined in
 
-[main.ts:79452](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L79452)
+main.ts:81829
 
 ___
-
 
 ### rank
 
@@ -145,10 +137,9 @@ learn more about the metric and its calculation formula in this help center arti
 
 #### Defined in
 
-[main.ts:79449](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L79449)
+main.ts:81826
 
 ___
-
 
 ### referring\_domains
 
@@ -162,10 +153,9 @@ average number of referring domains
 
 #### Defined in
 
-[main.ts:79444](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L79444)
+main.ts:81821
 
 ___
-
 
 ### referring\_main\_domains
 
@@ -179,10 +169,9 @@ average number of referring main domains
 
 #### Defined in
 
-[main.ts:79446](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L79446)
+main.ts:81823
 
 ___
-
 
 ### referring\_pages
 
@@ -196,10 +185,9 @@ average number of referring pages
 
 #### Defined in
 
-[main.ts:79442](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L79442)
+main.ts:81819
 
 ___
-
 
 ### se\_type
 
@@ -213,7 +201,7 @@ search engine type
 
 #### Defined in
 
-[main.ts:79436](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L79436)
+main.ts:81813
 
 ## Methods
 
@@ -233,10 +221,9 @@ search engine type
 
 #### Defined in
 
-[main.ts:79470](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L79470)
+main.ts:81847
 
 ___
-
 
 ### toJSON
 
@@ -254,10 +241,9 @@ ___
 
 #### Defined in
 
-[main.ts:79495](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L79495)
+main.ts:81872
 
 ___
-
 
 ### fromJS
 
@@ -275,8 +261,4 @@ ___
 
 #### Defined in
 
-[main.ts:79488](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L79488)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:81865

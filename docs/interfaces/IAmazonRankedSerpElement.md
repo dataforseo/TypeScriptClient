@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IAmazonRankedSerpElement
+[Documentation](../README.md) / [Exports](../modules.md) / IAmazonRankedSerpElement
 
 # Interface: IAmazonRankedSerpElement
 
@@ -37,10 +33,9 @@ you can use it to make sure that we provided accurate results
 
 #### Defined in
 
-[main.ts:100128](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L100128)
+main.ts:102505
 
 ___
-
 
 ### last\_updated\_time
 
@@ -53,10 +48,9 @@ example:
 
 #### Defined in
 
-[main.ts:100140](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L100140)
+main.ts:102517
 
 ___
-
 
 ### previous\_updated\_time
 
@@ -69,10 +63,9 @@ example:
 
 #### Defined in
 
-[main.ts:100145](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L100145)
+main.ts:102522
 
 ___
-
 
 ### se\_results\_count
 
@@ -82,10 +75,9 @@ total number of results in Amazon SERP
 
 #### Defined in
 
-[main.ts:100135](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L100135)
+main.ts:102512
 
 ___
-
 
 ### se\_type
 
@@ -95,10 +87,9 @@ search engine type
 
 #### Defined in
 
-[main.ts:100122](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L100122)
+main.ts:102499
 
 ___
-
 
 ### serp\_item
 
@@ -109,10 +100,9 @@ the list of supported SERP elements can be found below
 
 #### Defined in
 
-[main.ts:100125](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L100125)
+main.ts:102502
 
 ___
-
 
 ### serp\_item\_types
 
@@ -125,8 +115,4 @@ amazon_serp, amazon_paid, editorial_recommendations, top_rated_from_our_brands, 
 
 #### Defined in
 
-[main.ts:100133](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L100133)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:102510

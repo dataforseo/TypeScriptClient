@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IBacklinksHistoryLiveRequestInfo
+[Documentation](../README.md) / [Exports](../modules.md) / IBacklinksHistoryLiveRequestInfo
 
 # Interface: IBacklinksHistoryLiveRequestInfo
 
@@ -39,10 +35,9 @@ example:
 
 #### Defined in
 
-[main.ts:129987](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L129987)
+main.ts:135366
 
 ___
-
 
 ### date\_to
 
@@ -57,10 +52,9 @@ example:
 
 #### Defined in
 
-[main.ts:129994](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L129994)
+main.ts:135373
 
 ___
-
 
 ### tag
 
@@ -74,10 +68,9 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-[main.ts:130000](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L130000)
+main.ts:135379
 
 ___
-
 
 ### target
 
@@ -89,8 +82,4 @@ a domain should be specified without https:// and www.
 
 #### Defined in
 
-[main.ts:129979](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L129979)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:135358

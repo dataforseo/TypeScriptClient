@@ -1,15 +1,11 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / LocalServicesDataforseoLabsSerpElementItem
+[Documentation](../README.md) / [Exports](../modules.md) / LocalServicesDataforseoLabsSerpElementItem
 
 # Class: LocalServicesDataforseoLabsSerpElementItem
 
 ## Hierarchy
 
 - [`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md)
-  
+
   ↳ **`LocalServicesDataforseoLabsSerpElementItem`**
 
 ## Implements
@@ -66,7 +62,7 @@
 
 #### Defined in
 
-[main.ts:96021](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L96021)
+main.ts:98398
 
 ## Properties
 
@@ -80,10 +76,9 @@
 
 #### Defined in
 
-[main.ts:19715](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L19715)
+main.ts:20171
 
 ___
-
 
 ### domain
 
@@ -97,10 +92,9 @@ domain where a link points
 
 #### Defined in
 
-[main.ts:96015](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L96015)
+main.ts:98392
 
 ___
-
 
 ### items
 
@@ -114,10 +108,9 @@ elements of search results found in SERP
 
 #### Defined in
 
-[main.ts:96017](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L96017)
+main.ts:98394
 
 ___
-
 
 ### position
 
@@ -133,10 +126,9 @@ left, right
 
 #### Defined in
 
-[main.ts:96007](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L96007)
+main.ts:98384
 
 ___
-
 
 ### rank\_absolute
 
@@ -151,10 +143,9 @@ absolute position among all the elements in SERP
 
 #### Defined in
 
-[main.ts:96003](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L96003)
+main.ts:98380
 
 ___
-
 
 ### rank\_group
 
@@ -169,10 +160,9 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-[main.ts:96000](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L96000)
+main.ts:98377
 
 ___
-
 
 ### title
 
@@ -186,16 +176,15 @@ title of the result in SERP
 
 #### Defined in
 
-[main.ts:96011](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L96011)
+main.ts:98388
 
 ___
-
 
 ### url
 
 • `Optional` **url**: `string`
 
-URL link
+relevant URL of the Ad element in SERP
 
 #### Implementation of
 
@@ -203,10 +192,9 @@ URL link
 
 #### Defined in
 
-[main.ts:96013](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L96013)
+main.ts:98390
 
 ___
-
 
 ### xpath
 
@@ -220,7 +208,7 @@ the XPath of the element
 
 #### Defined in
 
-[main.ts:96009](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L96009)
+main.ts:98386
 
 ## Methods
 
@@ -244,10 +232,9 @@ the XPath of the element
 
 #### Defined in
 
-[main.ts:96026](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L96026)
+main.ts:98403
 
 ___
-
 
 ### toJSON
 
@@ -269,10 +256,9 @@ ___
 
 #### Defined in
 
-[main.ts:96055](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L96055)
+main.ts:98432
 
 ___
-
 
 ### fromJS
 
@@ -294,8 +280,4 @@ ___
 
 #### Defined in
 
-[main.ts:96048](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L96048)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:98425

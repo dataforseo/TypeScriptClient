@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / AppStoreMetricsBundleInfo
+[Documentation](../README.md) / [Exports](../modules.md) / AppStoreMetricsBundleInfo
 
 # Class: AppStoreMetricsBundleInfo
 
@@ -48,7 +44,7 @@
 
 #### Defined in
 
-[main.ts:111372](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L111372)
+main.ts:113749
 
 ## Properties
 
@@ -64,7 +60,7 @@ ranking data from App Store organic search
 
 #### Defined in
 
-[main.ts:111368](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L111368)
+main.ts:113745
 
 ## Methods
 
@@ -84,10 +80,9 @@ ranking data from App Store organic search
 
 #### Defined in
 
-[main.ts:111381](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L111381)
+main.ts:113758
 
 ___
-
 
 ### toJSON
 
@@ -105,10 +100,9 @@ ___
 
 #### Defined in
 
-[main.ts:111398](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L111398)
+main.ts:113775
 
 ___
-
 
 ### fromJS
 
@@ -126,8 +120,4 @@ ___
 
 #### Defined in
 
-[main.ts:111391](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L111391)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:113768

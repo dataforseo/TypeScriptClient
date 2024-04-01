@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / SerpYoutubeVideoSubtitlesLiveAdvancedRequestInfo
+[Documentation](../README.md) / [Exports](../modules.md) / SerpYoutubeVideoSubtitlesLiveAdvancedRequestInfo
 
 # Class: SerpYoutubeVideoSubtitlesLiveAdvancedRequestInfo
 
@@ -57,7 +53,7 @@
 
 #### Defined in
 
-[main.ts:60644](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L60644)
+main.ts:63019
 
 ## Properties
 
@@ -75,10 +71,9 @@ only value: desktop
 
 #### Defined in
 
-[main.ts:60629](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L60629)
+main.ts:63004
 
 ___
-
 
 ### language\_code
 
@@ -97,10 +92,9 @@ en
 
 #### Defined in
 
-[main.ts:60625](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L60625)
+main.ts:63000
 
 ___
-
 
 ### language\_name
 
@@ -119,10 +113,9 @@ English
 
 #### Defined in
 
-[main.ts:60618](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L60618)
+main.ts:62993
 
 ___
-
 
 ### location\_code
 
@@ -141,10 +134,9 @@ example:
 
 #### Defined in
 
-[main.ts:60611](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L60611)
+main.ts:62986
 
 ___
-
 
 ### location\_name
 
@@ -163,10 +155,9 @@ United States
 
 #### Defined in
 
-[main.ts:60604](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L60604)
+main.ts:62979
 
 ___
-
 
 ### os
 
@@ -183,10 +174,9 @@ default value: windows
 
 #### Defined in
 
-[main.ts:60634](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L60634)
+main.ts:63009
 
 ___
-
 
 ### subtitles\_language
 
@@ -201,10 +191,9 @@ you can get the language code from YouTube Video Info result
 
 #### Defined in
 
-[main.ts:60593](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L60593)
+main.ts:62968
 
 ___
-
 
 ### subtitles\_translate\_language
 
@@ -220,10 +209,9 @@ possible values:
 
 #### Defined in
 
-[main.ts:60597](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L60597)
+main.ts:62972
 
 ___
-
 
 ### tag
 
@@ -241,10 +229,9 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-[main.ts:60640](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L60640)
+main.ts:63015
 
 ___
-
 
 ### video\_id
 
@@ -262,7 +249,7 @@ Y8Wu4rSNJms
 
 #### Defined in
 
-[main.ts:60590](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L60590)
+main.ts:62965
 
 ## Methods
 
@@ -282,10 +269,9 @@ Y8Wu4rSNJms
 
 #### Defined in
 
-[main.ts:60653](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L60653)
+main.ts:63028
 
 ___
-
 
 ### toJSON
 
@@ -303,10 +289,9 @@ ___
 
 #### Defined in
 
-[main.ts:60679](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L60679)
+main.ts:63054
 
 ___
-
 
 ### fromJS
 
@@ -324,8 +309,4 @@ ___
 
 #### Defined in
 
-[main.ts:60672](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L60672)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:63047

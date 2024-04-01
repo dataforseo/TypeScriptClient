@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / AppDataGoogleAppInfoTaskPostRequestInfo
+[Documentation](../README.md) / [Exports](../modules.md) / AppDataGoogleAppInfoTaskPostRequestInfo
 
 # Class: AppDataGoogleAppInfoTaskPostRequestInfo
 
@@ -57,7 +53,7 @@
 
 #### Defined in
 
-[main.ts:179324](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L179324)
+main.ts:184777
 
 ## Properties
 
@@ -79,10 +75,9 @@ the id is org.telegram.messenger
 
 #### Defined in
 
-[main.ts:179252](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L179252)
+main.ts:184705
 
 ___
-
 
 ### language\_code
 
@@ -101,10 +96,9 @@ en
 
 #### Defined in
 
-[main.ts:179280](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L179280)
+main.ts:184733
 
 ___
-
 
 ### language\_name
 
@@ -123,10 +117,9 @@ English
 
 #### Defined in
 
-[main.ts:179273](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L179273)
+main.ts:184726
 
 ___
-
 
 ### location\_code
 
@@ -145,10 +138,9 @@ example:
 
 #### Defined in
 
-[main.ts:179266](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L179266)
+main.ts:184719
 
 ___
-
 
 ### location\_name
 
@@ -167,10 +159,9 @@ West Los Angeles,California,United States
 
 #### Defined in
 
-[main.ts:179259](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L179259)
+main.ts:184712
 
 ___
-
 
 ### pingback\_url
 
@@ -192,10 +183,9 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-[main.ts:179320](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L179320)
+main.ts:184773
 
 ___
-
 
 ### postback\_data
 
@@ -213,10 +203,9 @@ advanced, html
 
 #### Defined in
 
-[main.ts:179310](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L179310)
+main.ts:184763
 
 ___
-
 
 ### postback\_url
 
@@ -238,10 +227,9 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-[main.ts:179304](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L179304)
+main.ts:184757
 
 ___
-
 
 ### priority
 
@@ -261,10 +249,9 @@ The cost can be calculated on the Pricing page.
 
 #### Defined in
 
-[main.ts:179288](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L179288)
+main.ts:184741
 
 ___
-
 
 ### tag
 
@@ -282,7 +269,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-[main.ts:179294](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L179294)
+main.ts:184747
 
 ## Methods
 
@@ -302,10 +289,9 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-[main.ts:179333](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L179333)
+main.ts:184786
 
 ___
-
 
 ### toJSON
 
@@ -323,10 +309,9 @@ ___
 
 #### Defined in
 
-[main.ts:179359](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L179359)
+main.ts:184812
 
 ___
-
 
 ### fromJS
 
@@ -344,8 +329,4 @@ ___
 
 #### Defined in
 
-[main.ts:179352](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L179352)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:184805

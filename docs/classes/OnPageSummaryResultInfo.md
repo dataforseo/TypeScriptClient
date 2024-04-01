@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / OnPageSummaryResultInfo
+[Documentation](../README.md) / [Exports](../modules.md) / OnPageSummaryResultInfo
 
 # Class: OnPageSummaryResultInfo
 
@@ -53,7 +49,7 @@
 
 #### Defined in
 
-[main.ts:143694](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L143694)
+main.ts:149121
 
 ## Properties
 
@@ -71,10 +67,9 @@ you can find the full list of IPs used by our crawler in the Overview section
 
 #### Defined in
 
-[main.ts:143676](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L143676)
+main.ts:149103
 
 ___
-
 
 ### crawl\_progress
 
@@ -89,10 +84,9 @@ possible values: in_progress, finished
 
 #### Defined in
 
-[main.ts:143670](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L143670)
+main.ts:149097
 
 ___
-
 
 ### crawl\_status
 
@@ -106,10 +100,9 @@ details of the crawling session
 
 #### Defined in
 
-[main.ts:143672](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L143672)
+main.ts:149099
 
 ___
-
 
 ### crawl\_stop\_reason
 
@@ -129,10 +122,9 @@ unexpected_exception – an internal error was encountered while crawling the ta
 
 #### Defined in
 
-[main.ts:143684](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L143684)
+main.ts:149111
 
 ___
-
 
 ### domain\_info
 
@@ -147,10 +139,9 @@ on-page information about the target domain and crawling process
 
 #### Defined in
 
-[main.ts:143687](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L143687)
+main.ts:149114
 
 ___
-
 
 ### page\_metrics
 
@@ -165,7 +156,7 @@ metrics information on the target website pages
 
 #### Defined in
 
-[main.ts:143690](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L143690)
+main.ts:149117
 
 ## Methods
 
@@ -185,10 +176,9 @@ metrics information on the target website pages
 
 #### Defined in
 
-[main.ts:143703](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L143703)
+main.ts:149130
 
 ___
-
 
 ### toJSON
 
@@ -206,10 +196,9 @@ ___
 
 #### Defined in
 
-[main.ts:143725](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L143725)
+main.ts:149152
 
 ___
-
 
 ### fromJS
 
@@ -227,8 +216,4 @@ ___
 
 #### Defined in
 
-[main.ts:143718](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L143718)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:149145

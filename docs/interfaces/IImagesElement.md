@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IImagesElement
+[Documentation](../README.md) / [Exports](../modules.md) / IImagesElement
 
 # Interface: IImagesElement
 
@@ -33,10 +29,9 @@ alt tag of the image
 
 #### Defined in
 
-[main.ts:26926](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L26926)
+main.ts:27445
 
 ___
-
 
 ### image\_url
 
@@ -47,10 +42,9 @@ the URL leading to the image on the original resource or DataForSEO storage (in 
 
 #### Defined in
 
-[main.ts:26931](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L26931)
+main.ts:27450
 
 ___
-
 
 ### type
 
@@ -60,10 +54,9 @@ type of element
 
 #### Defined in
 
-[main.ts:26924](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L26924)
+main.ts:27443
 
 ___
-
 
 ### url
 
@@ -73,8 +66,4 @@ URL link
 
 #### Defined in
 
-[main.ts:26928](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L26928)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:27447

@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / OnPageMicrodataRequestInfo
+[Documentation](../README.md) / [Exports](../modules.md) / OnPageMicrodataRequestInfo
 
 # Class: OnPageMicrodataRequestInfo
 
@@ -50,7 +46,7 @@
 
 #### Defined in
 
-[main.ts:150515](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L150515)
+main.ts:155942
 
 ## Properties
 
@@ -70,10 +66,9 @@ example:
 
 #### Defined in
 
-[main.ts:150499](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L150499)
+main.ts:155926
 
 ___
-
 
 ### tag
 
@@ -91,10 +86,9 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-[main.ts:150511](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L150511)
+main.ts:155938
 
 ___
-
 
 ### url
 
@@ -112,7 +106,7 @@ https://dataforseo.com/apis
 
 #### Defined in
 
-[main.ts:150505](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L150505)
+main.ts:155932
 
 ## Methods
 
@@ -132,10 +126,9 @@ https://dataforseo.com/apis
 
 #### Defined in
 
-[main.ts:150524](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L150524)
+main.ts:155951
 
 ___
-
 
 ### toJSON
 
@@ -153,10 +146,9 @@ ___
 
 #### Defined in
 
-[main.ts:150543](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L150543)
+main.ts:155970
 
 ___
-
 
 ### fromJS
 
@@ -174,8 +166,4 @@ ___
 
 #### Defined in
 
-[main.ts:150536](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L150536)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:155963

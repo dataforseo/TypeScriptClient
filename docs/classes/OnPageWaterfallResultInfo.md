@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / OnPageWaterfallResultInfo
+[Documentation](../README.md) / [Exports](../modules.md) / OnPageWaterfallResultInfo
 
 # Class: OnPageWaterfallResultInfo
 
@@ -51,7 +47,7 @@
 
 #### Defined in
 
-[main.ts:149864](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L149864)
+main.ts:155291
 
 ## Properties
 
@@ -68,10 +64,9 @@ possible values: in_progress, finished
 
 #### Defined in
 
-[main.ts:149854](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L149854)
+main.ts:155281
 
 ___
-
 
 ### crawl\_status
 
@@ -85,10 +80,9 @@ details of the crawling session
 
 #### Defined in
 
-[main.ts:149856](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L149856)
+main.ts:155283
 
 ___
-
 
 ### items
 
@@ -102,10 +96,9 @@ items array
 
 #### Defined in
 
-[main.ts:149860](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L149860)
+main.ts:155287
 
 ___
-
 
 ### items\_count
 
@@ -119,7 +112,7 @@ number of items in the results array
 
 #### Defined in
 
-[main.ts:149858](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L149858)
+main.ts:155285
 
 ## Methods
 
@@ -139,10 +132,9 @@ number of items in the results array
 
 #### Defined in
 
-[main.ts:149873](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L149873)
+main.ts:155300
 
 ___
-
 
 ### toJSON
 
@@ -160,10 +152,9 @@ ___
 
 #### Defined in
 
-[main.ts:149897](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L149897)
+main.ts:155324
 
 ___
-
 
 ### fromJS
 
@@ -181,8 +172,4 @@ ___
 
 #### Defined in
 
-[main.ts:149890](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L149890)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:155317

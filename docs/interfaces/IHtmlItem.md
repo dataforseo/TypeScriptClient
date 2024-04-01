@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IHtmlItem
+[Documentation](../README.md) / [Exports](../modules.md) / IHtmlItem
 
 # Interface: IHtmlItem
 
@@ -35,10 +31,9 @@ example:
 
 #### Defined in
 
-[main.ts:36341](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L36341)
+main.ts:37092
 
 ___
-
 
 ### html
 
@@ -48,10 +43,9 @@ HTML page
 
 #### Defined in
 
-[main.ts:36343](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L36343)
+main.ts:37094
 
 ___
-
 
 ### page
 
@@ -61,8 +55,4 @@ serial number of the returned HTML page
 
 #### Defined in
 
-[main.ts:36336](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L36336)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:37087

@@ -1,15 +1,11 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / ProductInformationVideoRow
+[Documentation](../README.md) / [Exports](../modules.md) / ProductInformationVideoRow
 
 # Class: ProductInformationVideoRow
 
 ## Hierarchy
 
 - [`BaseProductInformationRowItem`](BaseProductInformationRowItem.md)
-  
+
   ↳ **`ProductInformationVideoRow`**
 
 ## Implements
@@ -60,7 +56,7 @@
 
 #### Defined in
 
-[main.ts:173239](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L173239)
+main.ts:178692
 
 ## Properties
 
@@ -74,10 +70,9 @@
 
 #### Defined in
 
-[main.ts:21778](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L21778)
+main.ts:22297
 
 ___
-
 
 ### preview
 
@@ -91,10 +86,9 @@ URL of the preview image for the related video
 
 #### Defined in
 
-[main.ts:173233](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L173233)
+main.ts:178686
 
 ___
-
 
 ### url
 
@@ -108,7 +102,7 @@ URL of the image
 
 #### Defined in
 
-[main.ts:173235](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L173235)
+main.ts:178688
 
 ## Methods
 
@@ -132,10 +126,9 @@ URL of the image
 
 #### Defined in
 
-[main.ts:173244](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L173244)
+main.ts:178697
 
 ___
-
 
 ### toJSON
 
@@ -157,10 +150,9 @@ ___
 
 #### Defined in
 
-[main.ts:173263](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L173263)
+main.ts:178716
 
 ___
-
 
 ### fromJS
 
@@ -182,8 +174,4 @@ ___
 
 #### Defined in
 
-[main.ts:173256](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L173256)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:178709

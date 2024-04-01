@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IKeywordsDataGoogleTrendsExploreTaskPostRequestInfo
+[Documentation](../README.md) / [Exports](../modules.md) / IKeywordsDataGoogleTrendsExploreTaskPostRequestInfo
 
 # Interface: IKeywordsDataGoogleTrendsExploreTaskPostRequestInfo
 
@@ -46,10 +42,9 @@ you can receive the list of available categories with their category_code by mak
 
 #### Defined in
 
-[main.ts:120020](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L120020)
+main.ts:122397
 
 ___
-
 
 ### date\_from
 
@@ -66,10 +61,9 @@ example:
 
 #### Defined in
 
-[main.ts:120029](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L120029)
+main.ts:122406
 
 ___
-
 
 ### date\_to
 
@@ -84,10 +78,9 @@ example:
 
 #### Defined in
 
-[main.ts:120036](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L120036)
+main.ts:122413
 
 ___
-
 
 ### item\_types
 
@@ -107,10 +100,9 @@ possible values:
 
 #### Defined in
 
-[main.ts:120058](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L120058)
+main.ts:122435
 
 ___
-
 
 ### keywords
 
@@ -123,10 +115,9 @@ Note: comma symbols (,) in the specified keywords will be unset and ignored
 
 #### Defined in
 
-[main.ts:119981](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L119981)
+main.ts:122358
 
 ___
-
 
 ### language\_code
 
@@ -142,10 +133,9 @@ en
 
 #### Defined in
 
-[main.ts:120013](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L120013)
+main.ts:122390
 
 ___
-
 
 ### language\_name
 
@@ -161,10 +151,9 @@ English
 
 #### Defined in
 
-[main.ts:120005](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L120005)
+main.ts:122382
 
 ___
-
 
 ### location\_code
 
@@ -180,10 +169,9 @@ example:
 
 #### Defined in
 
-[main.ts:119997](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L119997)
+main.ts:122374
 
 ___
-
 
 ### location\_name
 
@@ -199,10 +187,9 @@ United Kingdom
 
 #### Defined in
 
-[main.ts:119989](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L119989)
+main.ts:122366
 
 ___
-
 
 ### pingback\_url
 
@@ -220,10 +207,9 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-[main.ts:120078](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L120078)
+main.ts:122455
 
 ___
-
 
 ### postback\_url
 
@@ -241,10 +227,9 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-[main.ts:120068](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L120068)
+main.ts:122445
 
 ___
-
 
 ### tag
 
@@ -258,10 +243,9 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-[main.ts:120084](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L120084)
+main.ts:122461
 
 ___
-
 
 ### time\_range
 
@@ -279,10 +263,9 @@ possible values for news, youtube, images, froogle:
 
 #### Defined in
 
-[main.ts:120046](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L120046)
+main.ts:122423
 
 ___
-
 
 ### type
 
@@ -292,8 +275,4 @@ type of element
 
 #### Defined in
 
-[main.ts:120015](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L120015)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:122392

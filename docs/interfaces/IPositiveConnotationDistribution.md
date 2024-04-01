@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IPositiveConnotationDistribution
+[Documentation](../README.md) / [Exports](../modules.md) / IPositiveConnotationDistribution
 
 # Interface: IPositiveConnotationDistribution
 
@@ -30,10 +26,9 @@
 
 #### Defined in
 
-[main.ts:157897](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L157897)
+main.ts:163324
 
 ___
-
 
 ### neutral
 
@@ -41,10 +36,9 @@ ___
 
 #### Defined in
 
-[main.ts:157898](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L157898)
+main.ts:163325
 
 ___
-
 
 ### positive
 
@@ -52,8 +46,4 @@ ___
 
 #### Defined in
 
-[main.ts:157896](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L157896)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:163323

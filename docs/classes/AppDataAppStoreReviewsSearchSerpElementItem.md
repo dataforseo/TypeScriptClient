@@ -1,15 +1,11 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / AppDataAppStoreReviewsSearchSerpElementItem
+[Documentation](../README.md) / [Exports](../modules.md) / AppDataAppStoreReviewsSearchSerpElementItem
 
 # Class: AppDataAppStoreReviewsSearchSerpElementItem
 
 ## Hierarchy
 
 - [`BaseAppDataSerpElementItem`](BaseAppDataSerpElementItem.md)
-  
+
   ↳ **`AppDataAppStoreReviewsSearchSerpElementItem`**
 
 ## Implements
@@ -68,7 +64,7 @@
 
 #### Defined in
 
-[main.ts:186231](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L186231)
+main.ts:191684
 
 ## Properties
 
@@ -82,10 +78,9 @@
 
 #### Defined in
 
-[main.ts:20450](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L20450)
+main.ts:20969
 
 ___
-
 
 ### id
 
@@ -99,10 +94,9 @@ id of the review
 
 #### Defined in
 
-[main.ts:186221](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L186221)
+main.ts:191674
 
 ___
-
 
 ### position
 
@@ -117,10 +111,9 @@ can take the following values: left
 
 #### Defined in
 
-[main.ts:186209](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L186209)
+main.ts:191662
 
 ___
-
 
 ### rank\_absolute
 
@@ -135,10 +128,9 @@ absolute position among all reviews on the list
 
 #### Defined in
 
-[main.ts:186206](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L186206)
+main.ts:191659
 
 ___
-
 
 ### rank\_group
 
@@ -153,10 +145,9 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-[main.ts:186203](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L186203)
+main.ts:191656
 
 ___
-
 
 ### rating
 
@@ -170,10 +161,9 @@ the rating score submitted by the reviewer
 
 #### Defined in
 
-[main.ts:186214](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L186214)
+main.ts:191667
 
 ___
-
 
 ### review\_text
 
@@ -187,10 +177,9 @@ content of the review
 
 #### Defined in
 
-[main.ts:186225](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L186225)
+main.ts:191678
 
 ___
-
 
 ### timestamp
 
@@ -207,10 +196,9 @@ example:
 
 #### Defined in
 
-[main.ts:186219](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L186219)
+main.ts:191672
 
 ___
-
 
 ### title
 
@@ -224,10 +212,9 @@ title of the review
 
 #### Defined in
 
-[main.ts:186223](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L186223)
+main.ts:191676
 
 ___
-
 
 ### user\_profile
 
@@ -241,10 +228,9 @@ user profile of the reviewer
 
 #### Defined in
 
-[main.ts:186227](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L186227)
+main.ts:191680
 
 ___
-
 
 ### version
 
@@ -259,7 +245,7 @@ version of the app for which the review is submitted
 
 #### Defined in
 
-[main.ts:186212](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L186212)
+main.ts:191665
 
 ## Methods
 
@@ -283,10 +269,9 @@ version of the app for which the review is submitted
 
 #### Defined in
 
-[main.ts:186236](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L186236)
+main.ts:191689
 
 ___
-
 
 ### toJSON
 
@@ -308,10 +293,9 @@ ___
 
 #### Defined in
 
-[main.ts:186263](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L186263)
+main.ts:191716
 
 ___
-
 
 ### fromJS
 
@@ -333,8 +317,4 @@ ___
 
 #### Defined in
 
-[main.ts:186256](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L186256)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:191709

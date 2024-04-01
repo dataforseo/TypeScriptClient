@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / KeywordsDataGoogleAdsKeywordsForKeywordsLiveResultInfo
+[Documentation](../README.md) / [Exports](../modules.md) / KeywordsDataGoogleAdsKeywordsForKeywordsLiveResultInfo
 
 # Class: KeywordsDataGoogleAdsKeywordsForKeywordsLiveResultInfo
 
@@ -59,7 +55,7 @@
 
 #### Defined in
 
-[main.ts:117336](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L117336)
+main.ts:119713
 
 ## Properties
 
@@ -79,10 +75,9 @@ learn more about the metric in this help center article
 
 #### Defined in
 
-[main.ts:117304](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L117304)
+main.ts:119681
 
 ___
-
 
 ### competition\_index
 
@@ -101,10 +96,9 @@ learn more about the metric in this help center article
 
 #### Defined in
 
-[main.ts:117311](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L117311)
+main.ts:119688
 
 ___
-
 
 ### cpc
 
@@ -119,10 +113,9 @@ indicates the amount paid for each click on the ad displayed for a given keyword
 
 #### Defined in
 
-[main.ts:117326](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L117326)
+main.ts:119703
 
 ___
-
 
 ### high\_top\_of\_page\_bid
 
@@ -138,10 +131,9 @@ the value may differ depending on the location specified in a POST request
 
 #### Defined in
 
-[main.ts:117323](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L117323)
+main.ts:119700
 
 ___
-
 
 ### keyword
 
@@ -155,10 +147,9 @@ keyword in a POST array
 
 #### Defined in
 
-[main.ts:117287](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L117287)
+main.ts:119664
 
 ___
-
 
 ### keyword\_annotations
 
@@ -172,10 +163,9 @@ the annotations for the keyword
 
 #### Defined in
 
-[main.ts:117332](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L117332)
+main.ts:119709
 
 ___
-
 
 ### language\_code
 
@@ -190,10 +180,9 @@ if there is no data, the value is null
 
 #### Defined in
 
-[main.ts:117293](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L117293)
+main.ts:119670
 
 ___
-
 
 ### location\_code
 
@@ -208,10 +197,9 @@ if there is no data, the value is null
 
 #### Defined in
 
-[main.ts:117290](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L117290)
+main.ts:119667
 
 ___
-
 
 ### low\_top\_of\_page\_bid
 
@@ -227,10 +215,9 @@ the value may differ depending on the location specified in a POST request
 
 #### Defined in
 
-[main.ts:117319](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L117319)
+main.ts:119696
 
 ___
-
 
 ### monthly\_searches
 
@@ -246,10 +233,9 @@ if there is no data, the value is null
 
 #### Defined in
 
-[main.ts:117330](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L117330)
+main.ts:119707
 
 ___
-
 
 ### search\_partners
 
@@ -266,10 +252,9 @@ if false, the results are returned for Google search sites only
 
 #### Defined in
 
-[main.ts:117298](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L117298)
+main.ts:119675
 
 ___
-
 
 ### search\_volume
 
@@ -285,7 +270,7 @@ if there is no data, the value is null
 
 #### Defined in
 
-[main.ts:117315](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L117315)
+main.ts:119692
 
 ## Methods
 
@@ -305,10 +290,9 @@ if there is no data, the value is null
 
 #### Defined in
 
-[main.ts:117345](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L117345)
+main.ts:119722
 
 ___
-
 
 ### toJSON
 
@@ -326,10 +310,9 @@ ___
 
 #### Defined in
 
-[main.ts:117377](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L117377)
+main.ts:119754
 
 ___
-
 
 ### fromJS
 
@@ -347,8 +330,4 @@ ___
 
 #### Defined in
 
-[main.ts:117370](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L117370)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:119747

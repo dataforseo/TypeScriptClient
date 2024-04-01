@@ -1,15 +1,11 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / KnowledgeGraphShoppingItemDataforseoLabsSerpElementItem
+[Documentation](../README.md) / [Exports](../modules.md) / KnowledgeGraphShoppingItemDataforseoLabsSerpElementItem
 
 # Class: KnowledgeGraphShoppingItemDataforseoLabsSerpElementItem
 
 ## Hierarchy
 
 - [`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md)
-  
+
   ↳ **`KnowledgeGraphShoppingItemDataforseoLabsSerpElementItem`**
 
 ## Implements
@@ -65,7 +61,7 @@
 
 #### Defined in
 
-[main.ts:93931](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L93931)
+main.ts:96308
 
 ## Properties
 
@@ -79,10 +75,9 @@
 
 #### Defined in
 
-[main.ts:19715](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L19715)
+main.ts:20171
 
 ___
-
 
 ### data\_attrid
 
@@ -98,10 +93,9 @@ kc:/shopping/gpc:organic-offers
 
 #### Defined in
 
-[main.ts:93925](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L93925)
+main.ts:96302
 
 ___
-
 
 ### items
 
@@ -115,10 +109,9 @@ elements of search results found in SERP
 
 #### Defined in
 
-[main.ts:93927](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L93927)
+main.ts:96304
 
 ___
-
 
 ### position
 
@@ -134,10 +127,9 @@ left, right
 
 #### Defined in
 
-[main.ts:93917](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L93917)
+main.ts:96294
 
 ___
-
 
 ### rank\_absolute
 
@@ -152,10 +144,9 @@ absolute position among all the elements in SERP
 
 #### Defined in
 
-[main.ts:93913](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L93913)
+main.ts:96290
 
 ___
-
 
 ### rank\_group
 
@@ -170,10 +161,9 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-[main.ts:93910](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L93910)
+main.ts:96287
 
 ___
-
 
 ### title
 
@@ -187,10 +177,9 @@ title of the result in SERP
 
 #### Defined in
 
-[main.ts:93921](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L93921)
+main.ts:96298
 
 ___
-
 
 ### xpath
 
@@ -204,7 +193,7 @@ the XPath of the element
 
 #### Defined in
 
-[main.ts:93919](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L93919)
+main.ts:96296
 
 ## Methods
 
@@ -228,10 +217,9 @@ the XPath of the element
 
 #### Defined in
 
-[main.ts:93936](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L93936)
+main.ts:96313
 
 ___
-
 
 ### toJSON
 
@@ -253,10 +241,9 @@ ___
 
 #### Defined in
 
-[main.ts:93964](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L93964)
+main.ts:96341
 
 ___
-
 
 ### fromJS
 
@@ -278,8 +265,4 @@ ___
 
 #### Defined in
 
-[main.ts:93957](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L93957)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:96334

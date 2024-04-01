@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IRankChanges
+[Documentation](../README.md) / [Exports](../modules.md) / IRankChanges
 
 # Interface: IRankChanges
 
@@ -34,10 +30,9 @@ if the value is true, position of the element in SERP is lower compared to the p
 
 #### Defined in
 
-[main.ts:86553](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L86553)
+main.ts:88930
 
 ___
-
 
 ### is\_new
 
@@ -48,10 +43,9 @@ if the value is true, previously collected SERP didn’t contain this element
 
 #### Defined in
 
-[main.ts:86547](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L86547)
+main.ts:88924
 
 ___
-
 
 ### is\_up
 
@@ -62,10 +56,9 @@ if the value is true, position of the element in SERP is higher compared to the 
 
 #### Defined in
 
-[main.ts:86550](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L86550)
+main.ts:88927
 
 ___
-
 
 ### previous\_rank\_absolute
 
@@ -77,8 +70,4 @@ if this element is new, the value will be null
 
 #### Defined in
 
-[main.ts:86544](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L86544)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:88921

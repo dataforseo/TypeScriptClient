@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IBacklinksSummaryLiveRequestInfo
+[Documentation](../README.md) / [Exports](../modules.md) / IBacklinksSummaryLiveRequestInfo
 
 # Interface: IBacklinksSummaryLiveRequestInfo
 
@@ -42,10 +38,9 @@ example:
 
 #### Defined in
 
-[main.ts:129352](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L129352)
+main.ts:134719
 
 ___
-
 
 ### backlinks\_status\_type
 
@@ -62,10 +57,9 @@ default value: live
 
 #### Defined in
 
-[main.ts:129344](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L129344)
+main.ts:134711
 
 ___
-
 
 ### include\_indirect\_links
 
@@ -79,10 +73,9 @@ default value: true
 
 #### Defined in
 
-[main.ts:129324](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L129324)
+main.ts:134691
 
 ___
-
 
 ### include\_subdomains
 
@@ -95,10 +88,9 @@ default value: true
 
 #### Defined in
 
-[main.ts:129318](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L129318)
+main.ts:134685
 
 ___
-
 
 ### internal\_list\_limit
 
@@ -117,10 +109,9 @@ maximum value: 1000
 
 #### Defined in
 
-[main.ts:129335](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L129335)
+main.ts:134702
 
 ___
-
 
 ### tag
 
@@ -134,10 +125,9 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-[main.ts:129358](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L129358)
+main.ts:134725
 
 ___
-
 
 ### target
 
@@ -150,8 +140,4 @@ a page should be specified with absolute URL (including http:// or https://)
 
 #### Defined in
 
-[main.ts:129313](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L129313)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:134680

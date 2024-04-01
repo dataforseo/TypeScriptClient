@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / OnPageRedirectChainsRequestInfo
+[Documentation](../README.md) / [Exports](../modules.md) / OnPageRedirectChainsRequestInfo
 
 # Class: OnPageRedirectChainsRequestInfo
 
@@ -53,7 +49,7 @@
 
 #### Defined in
 
-[main.ts:148761](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L148761)
+main.ts:154188
 
 ## Properties
 
@@ -78,10 +74,9 @@ examples:
 
 #### Defined in
 
-[main.ts:148751](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L148751)
+main.ts:154178
 
 ___
-
 
 ### id
 
@@ -99,10 +94,9 @@ example:
 
 #### Defined in
 
-[main.ts:148725](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L148725)
+main.ts:154152
 
 ___
-
 
 ### limit
 
@@ -119,10 +113,9 @@ maximum value: 1000
 
 #### Defined in
 
-[main.ts:148735](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L148735)
+main.ts:154162
 
 ___
-
 
 ### offset
 
@@ -139,10 +132,9 @@ if you specify the 10 value, the first ten redirect chains in the results array 
 
 #### Defined in
 
-[main.ts:148740](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L148740)
+main.ts:154167
 
 ___
-
 
 ### tag
 
@@ -160,10 +152,9 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-[main.ts:148757](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L148757)
+main.ts:154184
 
 ___
-
 
 ### url
 
@@ -180,7 +171,7 @@ if you use this field, the API response will return only redirect chains which c
 
 #### Defined in
 
-[main.ts:148730](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L148730)
+main.ts:154157
 
 ## Methods
 
@@ -200,10 +191,9 @@ if you use this field, the API response will return only redirect chains which c
 
 #### Defined in
 
-[main.ts:148770](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L148770)
+main.ts:154197
 
 ___
-
 
 ### toJSON
 
@@ -221,10 +211,9 @@ ___
 
 #### Defined in
 
-[main.ts:148796](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L148796)
+main.ts:154223
 
 ___
-
 
 ### fromJS
 
@@ -242,8 +231,4 @@ ___
 
 #### Defined in
 
-[main.ts:148789](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L148789)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:154216

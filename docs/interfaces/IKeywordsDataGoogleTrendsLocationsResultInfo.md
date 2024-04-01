@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IKeywordsDataGoogleTrendsLocationsResultInfo
+[Documentation](../README.md) / [Exports](../modules.md) / IKeywordsDataGoogleTrendsLocationsResultInfo
 
 # Interface: IKeywordsDataGoogleTrendsLocationsResultInfo
 
@@ -36,10 +32,9 @@ ISO country code of the location
 
 #### Defined in
 
-[main.ts:119093](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L119093)
+main.ts:121470
 
 ___
-
 
 ### geo\_id
 
@@ -50,10 +45,9 @@ you can use this field for matching obtained results with the location_code para
 
 #### Defined in
 
-[main.ts:119102](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L119102)
+main.ts:121479
 
 ___
-
 
 ### geo\_name
 
@@ -64,10 +58,9 @@ you can use this field for matching obtained results with the location_name para
 
 #### Defined in
 
-[main.ts:119099](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L119099)
+main.ts:121476
 
 ___
-
 
 ### location\_code
 
@@ -77,10 +70,9 @@ location code
 
 #### Defined in
 
-[main.ts:119080](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L119080)
+main.ts:121457
 
 ___
-
 
 ### location\_code\_parent
 
@@ -97,10 +89,9 @@ where location_code_parent corresponds to:
 
 #### Defined in
 
-[main.ts:119091](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L119091)
+main.ts:121468
 
 ___
-
 
 ### location\_name
 
@@ -110,10 +101,9 @@ full name of the location
 
 #### Defined in
 
-[main.ts:119082](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L119082)
+main.ts:121459
 
 ___
-
 
 ### location\_type
 
@@ -124,8 +114,4 @@ possible values according to Google’s target types
 
 #### Defined in
 
-[main.ts:119096](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L119096)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:121473

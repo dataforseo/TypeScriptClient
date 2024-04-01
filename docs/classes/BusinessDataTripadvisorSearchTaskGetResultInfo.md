@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / BusinessDataTripadvisorSearchTaskGetResultInfo
+[Documentation](../README.md) / [Exports](../modules.md) / BusinessDataTripadvisorSearchTaskGetResultInfo
 
 # Class: BusinessDataTripadvisorSearchTaskGetResultInfo
 
@@ -57,7 +53,7 @@
 
 #### Defined in
 
-[main.ts:201504](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L201504)
+main.ts:206965
 
 ## Properties
 
@@ -74,10 +70,9 @@ you can use it to make sure that we provided accurate results
 
 #### Defined in
 
-[main.ts:201484](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L201484)
+main.ts:206945
 
 ___
-
 
 ### datetime
 
@@ -94,10 +89,9 @@ example:
 
 #### Defined in
 
-[main.ts:201489](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L201489)
+main.ts:206950
 
 ___
-
 
 ### item\_types
 
@@ -112,10 +106,9 @@ possible item types: tripadvisor_search_organic
 
 #### Defined in
 
-[main.ts:201492](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L201492)
+main.ts:206953
 
 ___
-
 
 ### items
 
@@ -130,10 +123,9 @@ you can get more results by using the depth parameter when setting a task
 
 #### Defined in
 
-[main.ts:201500](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L201500)
+main.ts:206961
 
 ___
-
 
 ### items\_count
 
@@ -148,10 +140,9 @@ you can get more results by using the depth parameter when setting a task
 
 #### Defined in
 
-[main.ts:201497](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L201497)
+main.ts:206958
 
 ___
-
 
 ### keyword
 
@@ -166,10 +157,9 @@ this field will contain the alias parameter if it was specified in a POST array
 
 #### Defined in
 
-[main.ts:201475](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L201475)
+main.ts:206936
 
 ___
-
 
 ### language\_code
 
@@ -183,10 +173,9 @@ language code in a POST array
 
 #### Defined in
 
-[main.ts:201481](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L201481)
+main.ts:206942
 
 ___
-
 
 ### location\_code
 
@@ -200,10 +189,9 @@ location code in a POST array
 
 #### Defined in
 
-[main.ts:201479](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L201479)
+main.ts:206940
 
 ___
-
 
 ### se\_domain
 
@@ -217,10 +205,9 @@ search engine domain in a POST array
 
 #### Defined in
 
-[main.ts:201477](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L201477)
+main.ts:206938
 
 ___
-
 
 ### se\_results\_count
 
@@ -234,7 +221,7 @@ the total number of results
 
 #### Defined in
 
-[main.ts:201494](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L201494)
+main.ts:206955
 
 ## Methods
 
@@ -254,10 +241,9 @@ the total number of results
 
 #### Defined in
 
-[main.ts:201513](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L201513)
+main.ts:206974
 
 ___
-
 
 ### toJSON
 
@@ -275,10 +261,9 @@ ___
 
 #### Defined in
 
-[main.ts:201547](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L201547)
+main.ts:207008
 
 ___
-
 
 ### fromJS
 
@@ -296,8 +281,4 @@ ___
 
 #### Defined in
 
-[main.ts:201540](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L201540)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:207001

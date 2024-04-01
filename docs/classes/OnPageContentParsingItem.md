@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / OnPageContentParsingItem
+[Documentation](../README.md) / [Exports](../modules.md) / OnPageContentParsingItem
 
 # Class: OnPageContentParsingItem
 
@@ -51,7 +47,7 @@
 
 #### Defined in
 
-[main.ts:152295](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L152295)
+main.ts:157722
 
 ## Properties
 
@@ -69,10 +65,9 @@ example:
 
 #### Defined in
 
-[main.ts:152287](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L152287)
+main.ts:157714
 
 ___
-
 
 ### page\_content
 
@@ -86,10 +81,9 @@ parsed content of the page
 
 #### Defined in
 
-[main.ts:152291](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L152291)
+main.ts:157718
 
 ___
-
 
 ### status\_code
 
@@ -103,10 +97,9 @@ status code of the page
 
 #### Defined in
 
-[main.ts:152289](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L152289)
+main.ts:157716
 
 ___
-
 
 ### type
 
@@ -120,7 +113,7 @@ type of element
 
 #### Defined in
 
-[main.ts:152283](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L152283)
+main.ts:157710
 
 ## Methods
 
@@ -140,10 +133,9 @@ type of element
 
 #### Defined in
 
-[main.ts:152304](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L152304)
+main.ts:157731
 
 ___
-
 
 ### toJSON
 
@@ -161,10 +153,9 @@ ___
 
 #### Defined in
 
-[main.ts:152324](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L152324)
+main.ts:157751
 
 ___
-
 
 ### fromJS
 
@@ -182,8 +173,4 @@ ___
 
 #### Defined in
 
-[main.ts:152317](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L152317)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:157744

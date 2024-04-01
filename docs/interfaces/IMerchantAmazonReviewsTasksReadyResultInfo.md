@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IMerchantAmazonReviewsTasksReadyResultInfo
+[Documentation](../README.md) / [Exports](../modules.md) / IMerchantAmazonReviewsTasksReadyResultInfo
 
 # Interface: IMerchantAmazonReviewsTasksReadyResultInfo
 
@@ -36,10 +32,9 @@ date when the task was posted (in the UTC format)
 
 #### Defined in
 
-[main.ts:175419](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L175419)
+main.ts:180872
 
 ___
-
 
 ### endpoint\_advanced
 
@@ -49,10 +44,9 @@ URL for collecting the results of the Amazon Reviews Advanced task
 
 #### Defined in
 
-[main.ts:175423](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L175423)
+main.ts:180876
 
 ___
-
 
 ### endpoint\_html
 
@@ -62,10 +56,9 @@ URL for collecting the results of the Amazon Reviews HTML task
 
 #### Defined in
 
-[main.ts:175425](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L175425)
+main.ts:180878
 
 ___
-
 
 ### id
 
@@ -76,10 +69,9 @@ unique task identifier in our system in the UUID format
 
 #### Defined in
 
-[main.ts:175412](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L175412)
+main.ts:180865
 
 ___
-
 
 ### se
 
@@ -89,10 +81,9 @@ search engine specified when setting the task
 
 #### Defined in
 
-[main.ts:175414](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L175414)
+main.ts:180867
 
 ___
-
 
 ### se\_type
 
@@ -103,10 +94,9 @@ can take the following values: shopping
 
 #### Defined in
 
-[main.ts:175417](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L175417)
+main.ts:180870
 
 ___
-
 
 ### tag
 
@@ -116,8 +106,4 @@ user-defined task identifier
 
 #### Defined in
 
-[main.ts:175421](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L175421)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:180874

@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / DomainAnalyticsTechnologiesLocationsResultInfo
+[Documentation](../README.md) / [Exports](../modules.md) / DomainAnalyticsTechnologiesLocationsResultInfo
 
 # Class: DomainAnalyticsTechnologiesLocationsResultInfo
 
@@ -49,7 +45,7 @@
 
 #### Defined in
 
-[main.ts:71774](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L71774)
+main.ts:74151
 
 ## Properties
 
@@ -65,10 +61,9 @@ ISO country code of the location
 
 #### Defined in
 
-[main.ts:71770](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L71770)
+main.ts:74147
 
 ___
-
 
 ### location\_name
 
@@ -82,7 +77,7 @@ full name of the location
 
 #### Defined in
 
-[main.ts:71768](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L71768)
+main.ts:74145
 
 ## Methods
 
@@ -102,10 +97,9 @@ full name of the location
 
 #### Defined in
 
-[main.ts:71783](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L71783)
+main.ts:74160
 
 ___
-
 
 ### toJSON
 
@@ -123,10 +117,9 @@ ___
 
 #### Defined in
 
-[main.ts:71801](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L71801)
+main.ts:74178
 
 ___
-
 
 ### fromJS
 
@@ -144,8 +137,4 @@ ___
 
 #### Defined in
 
-[main.ts:71794](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L71794)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:74171

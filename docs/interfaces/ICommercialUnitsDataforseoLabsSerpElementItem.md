@@ -1,15 +1,11 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / ICommercialUnitsDataforseoLabsSerpElementItem
+[Documentation](../README.md) / [Exports](../modules.md) / ICommercialUnitsDataforseoLabsSerpElementItem
 
 # Interface: ICommercialUnitsDataforseoLabsSerpElementItem
 
 ## Hierarchy
 
 - [`IBaseDataforseoLabsSerpElementItem`](IBaseDataforseoLabsSerpElementItem.md)
-  
+
   ↳ **`ICommercialUnitsDataforseoLabsSerpElementItem`**
 
 ## Implemented by
@@ -41,10 +37,9 @@ elements of search results found in SERP
 
 #### Defined in
 
-[main.ts:95992](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L95992)
+main.ts:98369
 
 ___
-
 
 ### position
 
@@ -56,10 +51,9 @@ left, right
 
 #### Defined in
 
-[main.ts:95986](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L95986)
+main.ts:98363
 
 ___
-
 
 ### rank\_absolute
 
@@ -70,10 +64,9 @@ absolute position among all the elements in SERP
 
 #### Defined in
 
-[main.ts:95982](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L95982)
+main.ts:98359
 
 ___
-
 
 ### rank\_group
 
@@ -84,10 +77,9 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-[main.ts:95979](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L95979)
+main.ts:98356
 
 ___
-
 
 ### title
 
@@ -97,10 +89,9 @@ title of the result in SERP
 
 #### Defined in
 
-[main.ts:95990](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L95990)
+main.ts:98367
 
 ___
-
 
 ### xpath
 
@@ -110,8 +101,4 @@ the XPath of the element
 
 #### Defined in
 
-[main.ts:95988](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L95988)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:98365

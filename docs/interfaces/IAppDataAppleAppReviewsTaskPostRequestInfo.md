@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IAppDataAppleAppReviewsTaskPostRequestInfo
+[Documentation](../README.md) / [Exports](../modules.md) / IAppDataAppleAppReviewsTaskPostRequestInfo
 
 # Interface: IAppDataAppleAppReviewsTaskPostRequestInfo
 
@@ -47,10 +43,9 @@ the id is 835599320
 
 #### Defined in
 
-[main.ts:185814](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L185814)
+main.ts:191267
 
 ___
-
 
 ### depth
 
@@ -65,10 +60,9 @@ maximum value: 500
 
 #### Defined in
 
-[main.ts:185857](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L185857)
+main.ts:191310
 
 ___
-
 
 ### language\_code
 
@@ -83,10 +77,9 @@ en
 
 #### Defined in
 
-[main.ts:185842](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L185842)
+main.ts:191295
 
 ___
-
 
 ### language\_name
 
@@ -101,10 +94,9 @@ English
 
 #### Defined in
 
-[main.ts:185835](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L185835)
+main.ts:191288
 
 ___
-
 
 ### location\_code
 
@@ -119,10 +111,9 @@ example:
 
 #### Defined in
 
-[main.ts:185828](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L185828)
+main.ts:191281
 
 ___
-
 
 ### location\_name
 
@@ -137,10 +128,9 @@ West Los Angeles,California,United States
 
 #### Defined in
 
-[main.ts:185821](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L185821)
+main.ts:191274
 
 ___
-
 
 ### pingback\_url
 
@@ -158,10 +148,9 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-[main.ts:185897](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L185897)
+main.ts:191350
 
 ___
-
 
 ### postback\_data
 
@@ -175,10 +164,9 @@ advanced
 
 #### Defined in
 
-[main.ts:185887](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L185887)
+main.ts:191340
 
 ___
-
 
 ### postback\_url
 
@@ -196,10 +184,9 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-[main.ts:185881](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L185881)
+main.ts:191334
 
 ___
-
 
 ### priority
 
@@ -215,10 +202,9 @@ The cost can be calculated on the Pricing page.
 
 #### Defined in
 
-[main.ts:185850](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L185850)
+main.ts:191303
 
 ___
-
 
 ### sort\_by
 
@@ -234,10 +220,9 @@ default rule: most_helpful
 
 #### Defined in
 
-[main.ts:185865](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L185865)
+main.ts:191318
 
 ___
-
 
 ### tag
 
@@ -251,8 +236,4 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-[main.ts:185871](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L185871)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:191324

@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IBacklinksAvailableFiltersResultInfo
+[Documentation](../README.md) / [Exports](../modules.md) / IBacklinksAvailableFiltersResultInfo
 
 # Interface: IBacklinksAvailableFiltersResultInfo
 
@@ -41,10 +37,9 @@
 
 #### Defined in
 
-[main.ts:128820](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L128820)
+main.ts:134187
 
 ___
-
 
 ### backlinks
 
@@ -56,10 +51,9 @@ ___
 
 #### Defined in
 
-[main.ts:128818](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L128818)
+main.ts:134185
 
 ___
-
 
 ### competitors
 
@@ -71,10 +65,9 @@ ___
 
 #### Defined in
 
-[main.ts:128826](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L128826)
+main.ts:134193
 
 ___
-
 
 ### content\_duplicates
 
@@ -86,10 +79,9 @@ ___
 
 #### Defined in
 
-[main.ts:128817](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L128817)
+main.ts:134184
 
 ___
-
 
 ### domain\_intersection
 
@@ -101,10 +93,9 @@ ___
 
 #### Defined in
 
-[main.ts:128822](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L128822)
+main.ts:134189
 
 ___
-
 
 ### domain\_pages
 
@@ -116,10 +107,9 @@ ___
 
 #### Defined in
 
-[main.ts:128819](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L128819)
+main.ts:134186
 
 ___
-
 
 ### domain\_pages\_summary
 
@@ -131,10 +121,9 @@ ___
 
 #### Defined in
 
-[main.ts:128825](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L128825)
+main.ts:134192
 
 ___
-
 
 ### page\_intersection
 
@@ -146,10 +135,9 @@ ___
 
 #### Defined in
 
-[main.ts:128823](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L128823)
+main.ts:134190
 
 ___
-
 
 ### referring\_domains
 
@@ -161,10 +149,9 @@ ___
 
 #### Defined in
 
-[main.ts:128821](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L128821)
+main.ts:134188
 
 ___
-
 
 ### referring\_networks
 
@@ -176,8 +163,4 @@ ___
 
 #### Defined in
 
-[main.ts:128824](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L128824)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:134191

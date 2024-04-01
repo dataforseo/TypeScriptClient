@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IAppDataAppleAppListingsSearchLiveResultInfo
+[Documentation](../README.md) / [Exports](../modules.md) / IAppDataAppleAppListingsSearchLiveResultInfo
 
 # Interface: IAppDataAppleAppListingsSearchLiveResultInfo
 
@@ -34,10 +30,9 @@ the number of items in the results array
 
 #### Defined in
 
-[main.ts:187020](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L187020)
+main.ts:192473
 
 ___
-
 
 ### items
 
@@ -47,10 +42,9 @@ array of apps and related data
 
 #### Defined in
 
-[main.ts:187027](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L187027)
+main.ts:192480
 
 ___
-
 
 ### offset
 
@@ -60,10 +54,9 @@ offset in the results array of returned apps
 
 #### Defined in
 
-[main.ts:187022](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L187022)
+main.ts:192475
 
 ___
-
 
 ### offset\_token
 
@@ -74,10 +67,9 @@ you can use this parameter in the POST request to avoid timeouts while trying to
 
 #### Defined in
 
-[main.ts:187025](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L187025)
+main.ts:192478
 
 ___
-
 
 ### total\_count
 
@@ -87,8 +79,4 @@ the total number of relevant results in the database
 
 #### Defined in
 
-[main.ts:187018](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L187018)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:192471

@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / RatingInfo
+[Documentation](../README.md) / [Exports](../modules.md) / RatingInfo
 
 # Class: RatingInfo
 
@@ -51,7 +47,7 @@
 
 #### Defined in
 
-[main.ts:27765](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L27765)
+main.ts:28514
 
 ## Properties
 
@@ -67,10 +63,9 @@ the maximum value for a rating_type
 
 #### Defined in
 
-[main.ts:27761](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L27761)
+main.ts:28510
 
 ___
-
 
 ### rating\_type
 
@@ -85,10 +80,9 @@ here you can find the following elements: Max5, Percents, CustomMax
 
 #### Defined in
 
-[main.ts:27755](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L27755)
+main.ts:28504
 
 ___
-
 
 ### value
 
@@ -102,10 +96,9 @@ the value of the rating
 
 #### Defined in
 
-[main.ts:27757](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L27757)
+main.ts:28506
 
 ___
-
 
 ### votes\_count
 
@@ -119,7 +112,7 @@ the amount of feedback
 
 #### Defined in
 
-[main.ts:27759](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L27759)
+main.ts:28508
 
 ## Methods
 
@@ -139,10 +132,9 @@ the amount of feedback
 
 #### Defined in
 
-[main.ts:27774](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L27774)
+main.ts:28523
 
 ___
-
 
 ### toJSON
 
@@ -160,10 +152,9 @@ ___
 
 #### Defined in
 
-[main.ts:27794](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L27794)
+main.ts:28543
 
 ___
-
 
 ### fromJS
 
@@ -181,8 +172,4 @@ ___
 
 #### Defined in
 
-[main.ts:27787](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L27787)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:28536

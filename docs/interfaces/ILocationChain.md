@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / ILocationChain
+[Documentation](../README.md) / [Exports](../modules.md) / ILocationChain
 
 # Interface: ILocationChain
 
@@ -33,10 +29,9 @@ card identifier
 
 #### Defined in
 
-[main.ts:195614](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L195614)
+main.ts:201075
 
 ___
-
 
 ### cid
 
@@ -47,10 +42,9 @@ learn more about the identifier in this help center article
 
 #### Defined in
 
-[main.ts:195620](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L195620)
+main.ts:201081
 
 ___
-
 
 ### feature\_id
 
@@ -61,10 +55,9 @@ learn more about the identifier in this help center article
 
 #### Defined in
 
-[main.ts:195617](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L195617)
+main.ts:201078
 
 ___
-
 
 ### title
 
@@ -74,8 +67,4 @@ title of the element in the location chain
 
 #### Defined in
 
-[main.ts:195622](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L195622)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:201083

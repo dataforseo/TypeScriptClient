@@ -1,15 +1,11 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IImagesSearchSerpElementItem
+[Documentation](../README.md) / [Exports](../modules.md) / IImagesSearchSerpElementItem
 
 # Interface: IImagesSearchSerpElementItem
 
 ## Hierarchy
 
 - [`IBaseSerpElementItem`](IBaseSerpElementItem.md)
-  
+
   ↳ **`IImagesSearchSerpElementItem`**
 
 ## Implemented by
@@ -44,10 +40,9 @@ the alt tag of the image
 
 #### Defined in
 
-[main.ts:46185](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L46185)
+main.ts:46936
 
 ___
-
 
 ### encoded\_url
 
@@ -57,10 +52,9 @@ the URL of the cached version of the image stored on Google’s servers
 
 #### Defined in
 
-[main.ts:46191](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L46191)
+main.ts:46942
 
 ___
-
 
 ### rank\_absolute
 
@@ -71,10 +65,9 @@ absolute position among all the elements in SERP
 
 #### Defined in
 
-[main.ts:46177](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L46177)
+main.ts:46928
 
 ___
-
 
 ### rank\_group
 
@@ -86,10 +79,9 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-[main.ts:46174](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L46174)
+main.ts:46925
 
 ___
-
 
 ### source\_url
 
@@ -99,10 +91,9 @@ the URL of the source image
 
 #### Defined in
 
-[main.ts:46189](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L46189)
+main.ts:46940
 
 ___
-
 
 ### subtitle
 
@@ -112,10 +103,9 @@ subtitle of the result in SERP
 
 #### Defined in
 
-[main.ts:46183](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L46183)
+main.ts:46934
 
 ___
-
 
 ### title
 
@@ -125,10 +115,9 @@ title of the result in SERP
 
 #### Defined in
 
-[main.ts:46181](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L46181)
+main.ts:46932
 
 ___
-
 
 ### url
 
@@ -138,10 +127,9 @@ the URL of the page where the image is hosted
 
 #### Defined in
 
-[main.ts:46187](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L46187)
+main.ts:46938
 
 ___
-
 
 ### xpath
 
@@ -151,8 +139,4 @@ the XPath of the element
 
 #### Defined in
 
-[main.ts:46179](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L46179)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:46930

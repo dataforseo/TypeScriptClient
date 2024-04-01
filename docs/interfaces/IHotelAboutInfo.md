@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IHotelAboutInfo
+[Documentation](../README.md) / [Exports](../modules.md) / IHotelAboutInfo
 
 # Interface: IHotelAboutInfo
 
@@ -39,10 +35,9 @@ information about hotel amenities
 
 #### Defined in
 
-[main.ts:195547](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L195547)
+main.ts:201008
 
 ___
-
 
 ### check\_in\_time
 
@@ -53,10 +48,9 @@ check-in time indicated in the hotel listing
 
 #### Defined in
 
-[main.ts:195532](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L195532)
+main.ts:200993
 
 ___
-
 
 ### check\_out\_time
 
@@ -67,10 +61,9 @@ check-out time indicated in the hotel listing
 
 #### Defined in
 
-[main.ts:195535](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L195535)
+main.ts:200996
 
 ___
-
 
 ### description
 
@@ -81,10 +74,9 @@ the description of the hotel entity for which the results are collected
 
 #### Defined in
 
-[main.ts:195526](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L195526)
+main.ts:200987
 
 ___
-
 
 ### domain
 
@@ -95,10 +87,9 @@ domain of the hotel’s website
 
 #### Defined in
 
-[main.ts:195541](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L195541)
+main.ts:201002
 
 ___
-
 
 ### full\_address
 
@@ -109,10 +100,9 @@ address of the hotel indicated in the standardised format
 
 #### Defined in
 
-[main.ts:195538](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L195538)
+main.ts:200999
 
 ___
-
 
 ### popular\_amenities
 
@@ -123,10 +113,9 @@ information about hotel amenities labelled as “popular”
 
 #### Defined in
 
-[main.ts:195550](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L195550)
+main.ts:201011
 
 ___
-
 
 ### sub\_descriptions
 
@@ -137,10 +126,9 @@ details about the hotel provided in addition to the description
 
 #### Defined in
 
-[main.ts:195529](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L195529)
+main.ts:200990
 
 ___
-
 
 ### url
 
@@ -151,8 +139,4 @@ URL to the hotel’s website indicated in the listing
 
 #### Defined in
 
-[main.ts:195544](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L195544)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:201005

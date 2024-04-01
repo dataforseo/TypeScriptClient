@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / AppendixRatesData
+[Documentation](../README.md) / [Exports](../modules.md) / AppendixRatesData
 
 # Class: AppendixRatesData
 
@@ -49,7 +45,7 @@
 
 #### Defined in
 
-[main.ts:209340](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L209340)
+main.ts:214869
 
 ## Properties
 
@@ -65,10 +61,9 @@ rate limits for API calls per a certain period of time
 
 #### Defined in
 
-[main.ts:209334](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L209334)
+main.ts:214863
 
 ___
-
 
 ### statistics
 
@@ -82,7 +77,7 @@ statisctics for API calls
 
 #### Defined in
 
-[main.ts:209336](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L209336)
+main.ts:214865
 
 ## Methods
 
@@ -102,10 +97,9 @@ statisctics for API calls
 
 #### Defined in
 
-[main.ts:209349](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L209349)
+main.ts:214878
 
 ___
-
 
 ### toJSON
 
@@ -123,10 +117,9 @@ ___
 
 #### Defined in
 
-[main.ts:209367](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L209367)
+main.ts:214896
 
 ___
-
 
 ### fromJS
 
@@ -144,8 +137,4 @@ ___
 
 #### Defined in
 
-[main.ts:209360](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L209360)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:214889

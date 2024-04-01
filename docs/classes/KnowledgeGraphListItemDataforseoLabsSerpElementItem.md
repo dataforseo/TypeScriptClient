@@ -1,15 +1,11 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / KnowledgeGraphListItemDataforseoLabsSerpElementItem
+[Documentation](../README.md) / [Exports](../modules.md) / KnowledgeGraphListItemDataforseoLabsSerpElementItem
 
 # Class: KnowledgeGraphListItemDataforseoLabsSerpElementItem
 
 ## Hierarchy
 
 - [`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md)
-  
+
   ↳ **`KnowledgeGraphListItemDataforseoLabsSerpElementItem`**
 
 ## Implements
@@ -66,7 +62,7 @@
 
 #### Defined in
 
-[main.ts:93605](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L93605)
+main.ts:95982
 
 ## Properties
 
@@ -80,10 +76,9 @@
 
 #### Defined in
 
-[main.ts:19715](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L19715)
+main.ts:20171
 
 ___
-
 
 ### data\_attrid
 
@@ -99,10 +94,9 @@ kc:/common/topic:social media presence
 
 #### Defined in
 
-[main.ts:93596](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L93596)
+main.ts:95973
 
 ___
-
 
 ### items
 
@@ -117,10 +111,9 @@ if there are none, equals null
 
 #### Defined in
 
-[main.ts:93601](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L93601)
+main.ts:95978
 
 ___
-
 
 ### link
 
@@ -134,10 +127,9 @@ link of the element
 
 #### Defined in
 
-[main.ts:93598](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L93598)
+main.ts:95975
 
 ___
-
 
 ### position
 
@@ -153,10 +145,9 @@ left, right
 
 #### Defined in
 
-[main.ts:93588](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L93588)
+main.ts:95965
 
 ___
-
 
 ### rank\_absolute
 
@@ -171,10 +162,9 @@ absolute position among all the elements in SERP
 
 #### Defined in
 
-[main.ts:93584](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L93584)
+main.ts:95961
 
 ___
-
 
 ### rank\_group
 
@@ -190,10 +180,9 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-[main.ts:93581](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L93581)
+main.ts:95958
 
 ___
-
 
 ### title
 
@@ -207,10 +196,9 @@ title of a given link element
 
 #### Defined in
 
-[main.ts:93592](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L93592)
+main.ts:95969
 
 ___
-
 
 ### xpath
 
@@ -224,7 +212,7 @@ the XPath of the element
 
 #### Defined in
 
-[main.ts:93590](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L93590)
+main.ts:95967
 
 ## Methods
 
@@ -248,10 +236,9 @@ the XPath of the element
 
 #### Defined in
 
-[main.ts:93610](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L93610)
+main.ts:95987
 
 ___
-
 
 ### toJSON
 
@@ -273,10 +260,9 @@ ___
 
 #### Defined in
 
-[main.ts:93639](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L93639)
+main.ts:96016
 
 ___
-
 
 ### fromJS
 
@@ -298,8 +284,4 @@ ___
 
 #### Defined in
 
-[main.ts:93632](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L93632)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:96009

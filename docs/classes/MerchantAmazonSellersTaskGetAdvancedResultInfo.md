@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / MerchantAmazonSellersTaskGetAdvancedResultInfo
+[Documentation](../README.md) / [Exports](../modules.md) / MerchantAmazonSellersTaskGetAdvancedResultInfo
 
 # Class: MerchantAmazonSellersTaskGetAdvancedResultInfo
 
@@ -59,7 +55,7 @@
 
 #### Defined in
 
-[main.ts:174414](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L174414)
+main.ts:179867
 
 ## Properties
 
@@ -76,10 +72,9 @@ learn more about ASINs in this help center guide
 
 #### Defined in
 
-[main.ts:174379](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L174379)
+main.ts:179832
 
 ___
-
 
 ### check\_url
 
@@ -94,10 +89,9 @@ you can use it to make sure the provided results are accurate
 
 #### Defined in
 
-[main.ts:174390](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L174390)
+main.ts:179843
 
 ___
-
 
 ### datetime
 
@@ -114,10 +108,9 @@ example:
 
 #### Defined in
 
-[main.ts:174395](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L174395)
+main.ts:179848
 
 ___
-
 
 ### image
 
@@ -132,10 +125,9 @@ image URL of the product relevant to the asin received in a POST array
 
 #### Defined in
 
-[main.ts:174401](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L174401)
+main.ts:179854
 
 ___
-
 
 ### item\_types
 
@@ -152,10 +144,9 @@ amazon_seller_main_item, amazon_seller_item
 
 #### Defined in
 
-[main.ts:174406](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L174406)
+main.ts:179859
 
 ___
-
 
 ### items
 
@@ -169,10 +160,9 @@ items in SERP
 
 #### Defined in
 
-[main.ts:174410](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L174410)
+main.ts:179863
 
 ___
-
 
 ### items\_count
 
@@ -186,10 +176,9 @@ the number of results returned in the items array
 
 #### Defined in
 
-[main.ts:174408](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L174408)
+main.ts:179861
 
 ___
-
 
 ### language\_code
 
@@ -203,10 +192,9 @@ language code received in a POST array
 
 #### Defined in
 
-[main.ts:174387](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L174387)
+main.ts:179840
 
 ___
-
 
 ### location\_code
 
@@ -220,10 +208,9 @@ location code received in a POST array
 
 #### Defined in
 
-[main.ts:174385](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L174385)
+main.ts:179838
 
 ___
-
 
 ### se\_domain
 
@@ -237,10 +224,9 @@ search engine domain received in a POST array
 
 #### Defined in
 
-[main.ts:174383](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L174383)
+main.ts:179836
 
 ___
-
 
 ### title
 
@@ -255,10 +241,9 @@ title of the product relevant to the asin received in a POST array
 
 #### Defined in
 
-[main.ts:174398](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L174398)
+main.ts:179851
 
 ___
-
 
 ### type
 
@@ -272,7 +257,7 @@ type of element
 
 #### Defined in
 
-[main.ts:174381](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L174381)
+main.ts:179834
 
 ## Methods
 
@@ -292,10 +277,9 @@ type of element
 
 #### Defined in
 
-[main.ts:174423](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L174423)
+main.ts:179876
 
 ___
-
 
 ### toJSON
 
@@ -313,10 +297,9 @@ ___
 
 #### Defined in
 
-[main.ts:174459](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L174459)
+main.ts:179912
 
 ___
-
 
 ### fromJS
 
@@ -334,8 +317,4 @@ ___
 
 #### Defined in
 
-[main.ts:174452](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L174452)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:179905

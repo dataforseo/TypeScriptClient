@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IKeywordsDataGoogleAdsStatusResultInfo
+[Documentation](../README.md) / [Exports](../modules.md) / IKeywordsDataGoogleAdsStatusResultInfo
 
 # Interface: IKeywordsDataGoogleAdsStatusResultInfo
 
@@ -36,10 +32,9 @@ if the value is false, we are not able to provide data for the previous month
 
 #### Defined in
 
-[main.ts:112974](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L112974)
+main.ts:115351
 
 ___
-
 
 ### date\_update
 
@@ -52,10 +47,9 @@ example:
 
 #### Defined in
 
-[main.ts:112979](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L112979)
+main.ts:115356
 
 ___
-
 
 ### last\_month\_in\_monthly\_searches
 
@@ -65,10 +59,9 @@ the latest month for which search volume data is available
 
 #### Defined in
 
-[main.ts:112983](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L112983)
+main.ts:115360
 
 ___
-
 
 ### last\_year\_in\_monthly\_searches
 
@@ -78,8 +71,4 @@ the latest year for which search volume data is available
 
 #### Defined in
 
-[main.ts:112981](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L112981)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:115358

@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / ISerpYoutubeVideoCommentsTaskPostRequestInfo
+[Documentation](../README.md) / [Exports](../modules.md) / ISerpYoutubeVideoCommentsTaskPostRequestInfo
 
 # Interface: ISerpYoutubeVideoCommentsTaskPostRequestInfo
 
@@ -49,10 +45,9 @@ if the specified depth is higher than the number of results in the response, the
 
 #### Defined in
 
-[main.ts:61259](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L61259)
+main.ts:63634
 
 ___
-
 
 ### device
 
@@ -64,10 +59,9 @@ only value: desktop
 
 #### Defined in
 
-[main.ts:61245](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L61245)
+main.ts:63620
 
 ___
-
 
 ### language\_code
 
@@ -82,10 +76,9 @@ en
 
 #### Defined in
 
-[main.ts:61241](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L61241)
+main.ts:63616
 
 ___
-
 
 ### language\_name
 
@@ -100,10 +93,9 @@ English
 
 #### Defined in
 
-[main.ts:61234](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L61234)
+main.ts:63609
 
 ___
-
 
 ### location\_code
 
@@ -118,10 +110,9 @@ example:
 
 #### Defined in
 
-[main.ts:61227](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L61227)
+main.ts:63602
 
 ___
-
 
 ### location\_name
 
@@ -136,10 +127,9 @@ United States
 
 #### Defined in
 
-[main.ts:61220](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L61220)
+main.ts:63595
 
 ___
-
 
 ### os
 
@@ -152,10 +142,9 @@ default value: windows
 
 #### Defined in
 
-[main.ts:61250](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L61250)
+main.ts:63625
 
 ___
-
 
 ### pingback\_url
 
@@ -173,10 +162,9 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-[main.ts:61291](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L61291)
+main.ts:63666
 
 ___
-
 
 ### postback\_data
 
@@ -190,10 +178,9 @@ advanced
 
 #### Defined in
 
-[main.ts:61281](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L61281)
+main.ts:63656
 
 ___
-
 
 ### postback\_url
 
@@ -211,10 +198,9 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-[main.ts:61275](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L61275)
+main.ts:63650
 
 ___
-
 
 ### priority
 
@@ -230,10 +216,9 @@ The cost can be calculated on the Pricing page.
 
 #### Defined in
 
-[main.ts:61213](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L61213)
+main.ts:63588
 
 ___
-
 
 ### tag
 
@@ -247,10 +232,9 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-[main.ts:61265](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L61265)
+main.ts:63640
 
 ___
-
 
 ### video\_id
 
@@ -264,8 +248,4 @@ vQXvyV0zIP4
 
 #### Defined in
 
-[main.ts:61205](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L61205)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:63580

@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / SerpScreenshotResultInfo
+[Documentation](../README.md) / [Exports](../modules.md) / SerpScreenshotResultInfo
 
 # Class: SerpScreenshotResultInfo
 
@@ -49,7 +45,7 @@
 
 #### Defined in
 
-[main.ts:23560](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L23560)
+main.ts:24079
 
 ## Properties
 
@@ -65,10 +61,9 @@ items array
 
 #### Defined in
 
-[main.ts:23556](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L23556)
+main.ts:24075
 
 ___
-
 
 ### items\_count
 
@@ -82,7 +77,7 @@ number of items in the results array
 
 #### Defined in
 
-[main.ts:23554](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L23554)
+main.ts:24073
 
 ## Methods
 
@@ -102,10 +97,9 @@ number of items in the results array
 
 #### Defined in
 
-[main.ts:23569](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L23569)
+main.ts:24088
 
 ___
-
 
 ### toJSON
 
@@ -123,10 +117,9 @@ ___
 
 #### Defined in
 
-[main.ts:23591](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L23591)
+main.ts:24110
 
 ___
-
 
 ### fromJS
 
@@ -144,8 +137,4 @@ ___
 
 #### Defined in
 
-[main.ts:23584](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L23584)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:24103

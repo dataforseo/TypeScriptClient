@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / MentionCarouselElement
+[Documentation](../README.md) / [Exports](../modules.md) / MentionCarouselElement
 
 # Class: MentionCarouselElement
 
@@ -52,7 +48,7 @@
 
 #### Defined in
 
-[main.ts:30791](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L30791)
+main.ts:31618
 
 ## Properties
 
@@ -68,16 +64,15 @@ additional elements in the mention_carousel item
 
 #### Defined in
 
-[main.ts:30787](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L30787)
+main.ts:31614
 
 ___
-
 
 ### price
 
 • `Optional` **price**: [`PriceInfo`](PriceInfo.md)
 
-price of booking a place for the specified dates of stay
+price indicated in the element
 
 #### Implementation of
 
@@ -85,16 +80,15 @@ price of booking a place for the specified dates of stay
 
 #### Defined in
 
-[main.ts:30782](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L30782)
+main.ts:31609
 
 ___
-
 
 ### rating
 
 • `Optional` **rating**: [`RatingInfo`](RatingInfo.md)
 
-the item’s rating
+the item’s rating 
 the popularity rate based on reviews and displayed in SERP
 
 #### Implementation of
@@ -103,16 +97,15 @@ the popularity rate based on reviews and displayed in SERP
 
 #### Defined in
 
-[main.ts:30785](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L30785)
+main.ts:31612
 
 ___
-
 
 ### title
 
 • `Optional` **title**: `string`
 
-title of the row
+title of a given link element
 
 #### Implementation of
 
@@ -120,10 +113,9 @@ title of the row
 
 #### Defined in
 
-[main.ts:30780](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L30780)
+main.ts:31607
 
 ___
-
 
 ### type
 
@@ -137,7 +129,7 @@ type of element
 
 #### Defined in
 
-[main.ts:30778](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L30778)
+main.ts:31605
 
 ## Methods
 
@@ -157,10 +149,9 @@ type of element
 
 #### Defined in
 
-[main.ts:30800](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L30800)
+main.ts:31627
 
 ___
-
 
 ### toJSON
 
@@ -178,10 +169,9 @@ ___
 
 #### Defined in
 
-[main.ts:30825](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L30825)
+main.ts:31652
 
 ___
-
 
 ### fromJS
 
@@ -199,8 +189,4 @@ ___
 
 #### Defined in
 
-[main.ts:30818](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L30818)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:31645

@@ -1,15 +1,11 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / GoogleTrendsQueriesListElementItem
+[Documentation](../README.md) / [Exports](../modules.md) / GoogleTrendsQueriesListElementItem
 
 # Class: GoogleTrendsQueriesListElementItem
 
 ## Hierarchy
 
 - [`BaseGoogleTrendsItem`](BaseGoogleTrendsItem.md)
-  
+
   ↳ **`GoogleTrendsQueriesListElementItem`**
 
 ## Implements
@@ -62,7 +58,7 @@
 
 #### Defined in
 
-[main.ts:121137](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L121137)
+main.ts:123463
 
 ## Properties
 
@@ -76,10 +72,9 @@
 
 #### Defined in
 
-[main.ts:20382](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L20382)
+main.ts:20838
 
 ___
-
 
 ### data
 
@@ -93,17 +88,16 @@ Google Trends data from the corresponding item
 
 #### Defined in
 
-[main.ts:121133](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L121133)
+main.ts:123459
 
 ___
-
 
 ### keywords
 
 • `Optional` **keywords**: `string`[]
 
 relevant keywords
-the data included in the google_trends_queries_list element is based on the keywords listed in this array
+the data included in the google_trends_topics_list element is based on the keywords listed in this array
 
 #### Implementation of
 
@@ -111,10 +105,9 @@ the data included in the google_trends_queries_list element is based on the keyw
 
 #### Defined in
 
-[main.ts:121131](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L121131)
+main.ts:123457
 
 ___
-
 
 ### position
 
@@ -129,10 +122,9 @@ can take the following values: 1, 2, 3, 4, etc.
 
 #### Defined in
 
-[main.ts:121126](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L121126)
+main.ts:123452
 
 ___
-
 
 ### title
 
@@ -146,7 +138,7 @@ title of the element in Google Trends
 
 #### Defined in
 
-[main.ts:121128](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L121128)
+main.ts:123454
 
 ## Methods
 
@@ -170,10 +162,9 @@ title of the element in Google Trends
 
 #### Defined in
 
-[main.ts:121142](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L121142)
+main.ts:123468
 
 ___
-
 
 ### toJSON
 
@@ -195,10 +186,9 @@ ___
 
 #### Defined in
 
-[main.ts:121167](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L121167)
+main.ts:123493
 
 ___
-
 
 ### fromJS
 
@@ -220,8 +210,4 @@ ___
 
 #### Defined in
 
-[main.ts:121160](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L121160)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:123486

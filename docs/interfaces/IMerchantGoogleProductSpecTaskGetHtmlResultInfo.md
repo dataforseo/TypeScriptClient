@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IMerchantGoogleProductSpecTaskGetHtmlResultInfo
+[Documentation](../README.md) / [Exports](../modules.md) / IMerchantGoogleProductSpecTaskGetHtmlResultInfo
 
 # Interface: IMerchantGoogleProductSpecTaskGetHtmlResultInfo
 
@@ -40,10 +36,9 @@ example:
 
 #### Defined in
 
-[main.ts:168304](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L168304)
+main.ts:173757
 
 ___
-
 
 ### items
 
@@ -53,10 +48,9 @@ elements of search results found on Google Shopping
 
 #### Defined in
 
-[main.ts:168308](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L168308)
+main.ts:173761
 
 ___
-
 
 ### items\_count
 
@@ -66,10 +60,9 @@ the number of results returned in the items array
 
 #### Defined in
 
-[main.ts:168306](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L168306)
+main.ts:173759
 
 ___
-
 
 ### language\_code
 
@@ -79,10 +72,9 @@ language code in a POST array
 
 #### Defined in
 
-[main.ts:168299](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L168299)
+main.ts:173752
 
 ___
-
 
 ### location\_code
 
@@ -92,10 +84,9 @@ location code in a POST array
 
 #### Defined in
 
-[main.ts:168297](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L168297)
+main.ts:173750
 
 ___
-
 
 ### product\_id
 
@@ -105,10 +96,9 @@ product ID in a POST array
 
 #### Defined in
 
-[main.ts:168291](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L168291)
+main.ts:173744
 
 ___
-
 
 ### se\_domain
 
@@ -118,10 +108,9 @@ search engine domain in a POST array
 
 #### Defined in
 
-[main.ts:168295](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L168295)
+main.ts:173748
 
 ___
-
 
 ### type
 
@@ -131,8 +120,4 @@ type of element
 
 #### Defined in
 
-[main.ts:168293](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L168293)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:173746

@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / BacklinksReferringNetworksLiveResultInfo
+[Documentation](../README.md) / [Exports](../modules.md) / BacklinksReferringNetworksLiveResultInfo
 
 # Class: BacklinksReferringNetworksLiveResultInfo
 
@@ -51,7 +47,7 @@
 
 #### Defined in
 
-[main.ts:135751](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L135751)
+main.ts:141166
 
 ## Properties
 
@@ -67,10 +63,9 @@ items array
 
 #### Defined in
 
-[main.ts:135747](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L135747)
+main.ts:141162
 
 ___
-
 
 ### items\_count
 
@@ -84,10 +79,9 @@ number of items in the items array
 
 #### Defined in
 
-[main.ts:135745](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L135745)
+main.ts:141160
 
 ___
-
 
 ### target
 
@@ -101,10 +95,9 @@ target in a POST array
 
 #### Defined in
 
-[main.ts:135741](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L135741)
+main.ts:141156
 
 ___
-
 
 ### total\_count
 
@@ -118,7 +111,7 @@ total number of relevant items in the database
 
 #### Defined in
 
-[main.ts:135743](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L135743)
+main.ts:141158
 
 ## Methods
 
@@ -138,10 +131,9 @@ total number of relevant items in the database
 
 #### Defined in
 
-[main.ts:135760](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L135760)
+main.ts:141175
 
 ___
-
 
 ### toJSON
 
@@ -159,10 +151,9 @@ ___
 
 #### Defined in
 
-[main.ts:135784](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L135784)
+main.ts:141199
 
 ___
-
 
 ### fromJS
 
@@ -180,8 +171,4 @@ ___
 
 #### Defined in
 
-[main.ts:135777](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L135777)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:141192

@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / SerpYoutubeVideoSubtitlesTasksFixedResultInfo
+[Documentation](../README.md) / [Exports](../modules.md) / SerpYoutubeVideoSubtitlesTasksFixedResultInfo
 
 # Class: SerpYoutubeVideoSubtitlesTasksFixedResultInfo
 
@@ -55,7 +51,7 @@
 
 #### Defined in
 
-[main.ts:60031](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L60031)
+main.ts:62406
 
 ## Properties
 
@@ -71,10 +67,9 @@ date when the task was fixed (in the UTC format)
 
 #### Defined in
 
-[main.ts:60016](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L60016)
+main.ts:62391
 
 ___
-
 
 ### endpoint\_advanced
 
@@ -89,10 +84,9 @@ if SERP Advanced is not supported in the specified endpoint, the value will be n
 
 #### Defined in
 
-[main.ts:60024](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L60024)
+main.ts:62399
 
 ___
-
 
 ### endpoint\_html
 
@@ -107,10 +101,9 @@ if SERP HTML is not supported in the specified endpoint, the value will be null
 
 #### Defined in
 
-[main.ts:60027](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L60027)
+main.ts:62402
 
 ___
-
 
 ### endpoint\_regular
 
@@ -125,10 +118,9 @@ if SERP Regular is not supported in the specified endpoint, the value will be nu
 
 #### Defined in
 
-[main.ts:60021](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L60021)
+main.ts:62396
 
 ___
-
 
 ### id
 
@@ -143,10 +135,9 @@ unique task identifier in our system in the UUID format
 
 #### Defined in
 
-[main.ts:60009](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L60009)
+main.ts:62384
 
 ___
-
 
 ### se
 
@@ -160,10 +151,9 @@ search engine specified when setting the task
 
 #### Defined in
 
-[main.ts:60011](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L60011)
+main.ts:62386
 
 ___
-
 
 ### se\_type
 
@@ -178,10 +168,9 @@ can take the following values: video_subtitles
 
 #### Defined in
 
-[main.ts:60014](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L60014)
+main.ts:62389
 
 ___
-
 
 ### tag
 
@@ -195,7 +184,7 @@ user-defined task identifier
 
 #### Defined in
 
-[main.ts:60018](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L60018)
+main.ts:62393
 
 ## Methods
 
@@ -215,10 +204,9 @@ user-defined task identifier
 
 #### Defined in
 
-[main.ts:60040](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L60040)
+main.ts:62415
 
 ___
-
 
 ### toJSON
 
@@ -236,10 +224,9 @@ ___
 
 #### Defined in
 
-[main.ts:60064](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L60064)
+main.ts:62439
 
 ___
-
 
 ### fromJS
 
@@ -257,8 +244,4 @@ ___
 
 #### Defined in
 
-[main.ts:60057](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L60057)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:62432

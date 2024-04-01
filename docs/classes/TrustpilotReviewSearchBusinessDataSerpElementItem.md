@@ -1,15 +1,11 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / TrustpilotReviewSearchBusinessDataSerpElementItem
+[Documentation](../README.md) / [Exports](../modules.md) / TrustpilotReviewSearchBusinessDataSerpElementItem
 
 # Class: TrustpilotReviewSearchBusinessDataSerpElementItem
 
 ## Hierarchy
 
 - [`BaseBusinessDataSerpElementItem`](BaseBusinessDataSerpElementItem.md)
-  
+
   ↳ **`TrustpilotReviewSearchBusinessDataSerpElementItem`**
 
 ## Implements
@@ -71,7 +67,7 @@
 
 #### Defined in
 
-[main.ts:199984](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L199984)
+main.ts:205445
 
 ## Properties
 
@@ -85,10 +81,9 @@
 
 #### Defined in
 
-[main.ts:20076](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L20076)
+main.ts:20532
 
 ___
-
 
 ### language
 
@@ -102,10 +97,9 @@ the language of the review
 
 #### Defined in
 
-[main.ts:199963](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L199963)
+main.ts:205424
 
 ___
-
 
 ### position
 
@@ -120,10 +114,9 @@ can take the following values: right
 
 #### Defined in
 
-[main.ts:199955](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L199955)
+main.ts:205416
 
 ___
-
 
 ### rank\_absolute
 
@@ -138,10 +131,9 @@ absolute position among all reviews on the list
 
 #### Defined in
 
-[main.ts:199952](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L199952)
+main.ts:205413
 
 ___
-
 
 ### rank\_group
 
@@ -156,10 +148,9 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-[main.ts:199949](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L199949)
+main.ts:205410
 
 ___
-
 
 ### rating
 
@@ -173,10 +164,9 @@ the rating score submitted by the reviewer
 
 #### Defined in
 
-[main.ts:199959](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L199959)
+main.ts:205420
 
 ___
-
 
 ### responses
 
@@ -190,10 +180,9 @@ owner’s response to the submitted review
 
 #### Defined in
 
-[main.ts:199980](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L199980)
+main.ts:205441
 
 ___
-
 
 ### review\_images
 
@@ -209,10 +198,9 @@ please note that Trustpilot doesn’t allow adding images to reviews, so the rev
 
 #### Defined in
 
-[main.ts:199976](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L199976)
+main.ts:205437
 
 ___
-
 
 ### review\_text
 
@@ -226,10 +214,9 @@ the content of the review
 
 #### Defined in
 
-[main.ts:199972](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L199972)
+main.ts:205433
 
 ___
-
 
 ### timestamp
 
@@ -246,10 +233,9 @@ example:
 
 #### Defined in
 
-[main.ts:199968](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L199968)
+main.ts:205429
 
 ___
-
 
 ### title
 
@@ -263,10 +249,9 @@ the title of the review
 
 #### Defined in
 
-[main.ts:199970](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L199970)
+main.ts:205431
 
 ___
-
 
 ### url
 
@@ -280,10 +265,9 @@ the URL of the review
 
 #### Defined in
 
-[main.ts:199957](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L199957)
+main.ts:205418
 
 ___
-
 
 ### user\_profile
 
@@ -297,10 +281,9 @@ user profile of the reviewer
 
 #### Defined in
 
-[main.ts:199978](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L199978)
+main.ts:205439
 
 ___
-
 
 ### verified
 
@@ -314,7 +297,7 @@ indicates whether the review has the “Verified” mark
 
 #### Defined in
 
-[main.ts:199961](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L199961)
+main.ts:205422
 
 ## Methods
 
@@ -338,10 +321,9 @@ indicates whether the review has the “Verified” mark
 
 #### Defined in
 
-[main.ts:199989](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L199989)
+main.ts:205450
 
 ___
-
 
 ### toJSON
 
@@ -363,10 +345,9 @@ ___
 
 #### Defined in
 
-[main.ts:200027](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L200027)
+main.ts:205488
 
 ___
-
 
 ### fromJS
 
@@ -388,8 +369,4 @@ ___
 
 #### Defined in
 
-[main.ts:200020](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L200020)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:205481

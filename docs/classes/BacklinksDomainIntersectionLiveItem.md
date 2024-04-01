@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / BacklinksDomainIntersectionLiveItem
+[Documentation](../README.md) / [Exports](../modules.md) / BacklinksDomainIntersectionLiveItem
 
 # Class: BacklinksDomainIntersectionLiveItem
 
@@ -49,7 +45,7 @@
 
 #### Defined in
 
-[main.ts:137074](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L137074)
+main.ts:142495
 
 ## Properties
 
@@ -70,14 +66,13 @@ data is provided in separate objects corresponding to domains, subdomains or pag
 
 #### Defined in
 
-[main.ts:137068](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L137068)
+main.ts:142489
 
 ___
 
-
 ### summary
 
-• `Optional` **summary**: [`Summary`](Summary.md)
+• `Optional` **summary**: [`IntersectionSummaryInfo`](IntersectionSummaryInfo.md)
 
 contains the domain intersections summary
 
@@ -87,7 +82,7 @@ contains the domain intersections summary
 
 #### Defined in
 
-[main.ts:137070](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L137070)
+main.ts:142491
 
 ## Methods
 
@@ -107,10 +102,9 @@ contains the domain intersections summary
 
 #### Defined in
 
-[main.ts:137083](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L137083)
+main.ts:142504
 
 ___
-
 
 ### toJSON
 
@@ -128,10 +122,9 @@ ___
 
 #### Defined in
 
-[main.ts:137107](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L137107)
+main.ts:142528
 
 ___
-
 
 ### fromJS
 
@@ -149,8 +142,4 @@ ___
 
 #### Defined in
 
-[main.ts:137100](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L137100)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:142521

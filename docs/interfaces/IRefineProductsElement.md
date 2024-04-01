@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IRefineProductsElement
+[Documentation](../README.md) / [Exports](../modules.md) / IRefineProductsElement
 
 # Interface: IRefineProductsElement
 
@@ -35,10 +31,9 @@ URL of the image
 
 #### Defined in
 
-[main.ts:35071](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L35071)
+main.ts:36026
 
 ___
-
 
 ### keyword
 
@@ -48,10 +43,9 @@ keyword for the related refined search
 
 #### Defined in
 
-[main.ts:35073](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L35073)
+main.ts:36028
 
 ___
-
 
 ### refine\_type
 
@@ -61,23 +55,21 @@ type of search refinement
 
 #### Defined in
 
-[main.ts:35075](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L35075)
+main.ts:36030
 
 ___
-
 
 ### title
 
 • `Optional` **title**: `string`
 
-title of the row
+title of a given link element
 
 #### Defined in
 
-[main.ts:35069](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L35069)
+main.ts:36024
 
 ___
-
 
 ### type
 
@@ -87,10 +79,9 @@ type of element
 
 #### Defined in
 
-[main.ts:35067](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L35067)
+main.ts:36022
 
 ___
-
 
 ### xpath
 
@@ -100,8 +91,4 @@ the XPath of the element
 
 #### Defined in
 
-[main.ts:35077](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L35077)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:36032

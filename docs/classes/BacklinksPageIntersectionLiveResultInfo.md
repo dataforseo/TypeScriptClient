@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / BacklinksPageIntersectionLiveResultInfo
+[Documentation](../README.md) / [Exports](../modules.md) / BacklinksPageIntersectionLiveResultInfo
 
 # Class: BacklinksPageIntersectionLiveResultInfo
 
@@ -51,7 +47,7 @@
 
 #### Defined in
 
-[main.ts:138169](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L138169)
+main.ts:143590
 
 ## Properties
 
@@ -67,10 +63,9 @@ contains relevant backlinks and referring domains data
 
 #### Defined in
 
-[main.ts:138165](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L138165)
+main.ts:143586
 
 ___
-
 
 ### items\_count
 
@@ -84,10 +79,9 @@ the number of results returned in the items array
 
 #### Defined in
 
-[main.ts:138163](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L138163)
+main.ts:143584
 
 ___
-
 
 ### targets
 
@@ -105,10 +99,9 @@ targets from a POST array
 
 #### Defined in
 
-[main.ts:138159](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L138159)
+main.ts:143580
 
 ___
-
 
 ### total\_count
 
@@ -122,7 +115,7 @@ total amount of results relevant the request
 
 #### Defined in
 
-[main.ts:138161](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L138161)
+main.ts:143582
 
 ## Methods
 
@@ -142,10 +135,9 @@ total amount of results relevant the request
 
 #### Defined in
 
-[main.ts:138178](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L138178)
+main.ts:143599
 
 ___
-
 
 ### toJSON
 
@@ -163,10 +155,9 @@ ___
 
 #### Defined in
 
-[main.ts:138208](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L138208)
+main.ts:143629
 
 ___
-
 
 ### fromJS
 
@@ -184,8 +175,4 @@ ___
 
 #### Defined in
 
-[main.ts:138201](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L138201)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:143622

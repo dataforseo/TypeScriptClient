@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / DomainAnalyticsTechnologiesTechnologyStatsLiveResultInfo
+[Documentation](../README.md) / [Exports](../modules.md) / DomainAnalyticsTechnologiesTechnologyStatsLiveResultInfo
 
 # Class: DomainAnalyticsTechnologiesTechnologyStatsLiveResultInfo
 
@@ -52,7 +48,7 @@
 
 #### Defined in
 
-[main.ts:73736](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L73736)
+main.ts:76113
 
 ## Properties
 
@@ -68,10 +64,9 @@ starting date of the time range
 
 #### Defined in
 
-[main.ts:73726](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L73726)
+main.ts:76103
 
 ___
-
 
 ### date\_to
 
@@ -85,10 +80,9 @@ ending date of the time range
 
 #### Defined in
 
-[main.ts:73728](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L73728)
+main.ts:76105
 
 ___
-
 
 ### items
 
@@ -102,10 +96,9 @@ items array
 
 #### Defined in
 
-[main.ts:73732](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L73732)
+main.ts:76109
 
 ___
-
 
 ### items\_count
 
@@ -119,10 +112,9 @@ number of items in the results array
 
 #### Defined in
 
-[main.ts:73730](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L73730)
+main.ts:76107
 
 ___
-
 
 ### technology
 
@@ -136,7 +128,7 @@ target technology
 
 #### Defined in
 
-[main.ts:73724](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L73724)
+main.ts:76101
 
 ## Methods
 
@@ -156,10 +148,9 @@ target technology
 
 #### Defined in
 
-[main.ts:73745](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L73745)
+main.ts:76122
 
 ___
-
 
 ### toJSON
 
@@ -177,10 +168,9 @@ ___
 
 #### Defined in
 
-[main.ts:73770](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L73770)
+main.ts:76147
 
 ___
-
 
 ### fromJS
 
@@ -198,8 +188,4 @@ ___
 
 #### Defined in
 
-[main.ts:73763](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L73763)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:76140

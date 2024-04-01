@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / ContentAnalysisRatingDistributionLiveResultInfo
+[Documentation](../README.md) / [Exports](../modules.md) / ContentAnalysisRatingDistributionLiveResultInfo
 
 # Class: ContentAnalysisRatingDistributionLiveResultInfo
 
@@ -51,7 +47,7 @@
 
 #### Defined in
 
-[main.ts:158417](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L158417)
+main.ts:163844
 
 ## Properties
 
@@ -67,10 +63,9 @@ max rating on a distribution scale
 
 #### Defined in
 
-[main.ts:158411](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L158411)
+main.ts:163838
 
 ___
-
 
 ### metrics
 
@@ -84,10 +79,9 @@ contains rating distribution metrics
 
 #### Defined in
 
-[main.ts:158413](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L158413)
+main.ts:163840
 
 ___
-
 
 ### min
 
@@ -101,10 +95,9 @@ min rating on a distribution scale
 
 #### Defined in
 
-[main.ts:158409](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L158409)
+main.ts:163836
 
 ___
-
 
 ### type
 
@@ -118,7 +111,7 @@ type of element
 
 #### Defined in
 
-[main.ts:158407](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L158407)
+main.ts:163834
 
 ## Methods
 
@@ -138,10 +131,9 @@ type of element
 
 #### Defined in
 
-[main.ts:158426](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L158426)
+main.ts:163853
 
 ___
-
 
 ### toJSON
 
@@ -159,10 +151,9 @@ ___
 
 #### Defined in
 
-[main.ts:158446](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L158446)
+main.ts:163873
 
 ___
-
 
 ### fromJS
 
@@ -180,8 +171,4 @@ ___
 
 #### Defined in
 
-[main.ts:158439](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L158439)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:163866

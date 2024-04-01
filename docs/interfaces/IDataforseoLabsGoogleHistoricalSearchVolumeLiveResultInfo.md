@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IDataforseoLabsGoogleHistoricalSearchVolumeLiveResultInfo
+[Documentation](../README.md) / [Exports](../modules.md) / IDataforseoLabsGoogleHistoricalSearchVolumeLiveResultInfo
 
 # Interface: IDataforseoLabsGoogleHistoricalSearchVolumeLiveResultInfo
 
@@ -34,10 +30,9 @@ contains keywords and related data
 
 #### Defined in
 
-[main.ts:82099](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L82099)
+main.ts:84476
 
 ___
-
 
 ### items\_count
 
@@ -47,10 +42,9 @@ the number of results returned in the items array
 
 #### Defined in
 
-[main.ts:82097](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L82097)
+main.ts:84474
 
 ___
-
 
 ### language\_code
 
@@ -60,10 +54,9 @@ language code in a POST array
 
 #### Defined in
 
-[main.ts:82095](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L82095)
+main.ts:84472
 
 ___
-
 
 ### location\_code
 
@@ -73,10 +66,9 @@ location code in a POST array
 
 #### Defined in
 
-[main.ts:82093](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L82093)
+main.ts:84470
 
 ___
-
 
 ### se\_type
 
@@ -86,8 +78,4 @@ search engine type
 
 #### Defined in
 
-[main.ts:82091](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L82091)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:84468

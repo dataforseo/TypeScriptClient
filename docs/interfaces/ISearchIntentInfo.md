@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / ISearchIntentInfo
+[Documentation](../README.md) / [Exports](../modules.md) / ISearchIntentInfo
 
 # Interface: ISearchIntentInfo
 
@@ -34,10 +30,9 @@ possible values: informational, navigational, commercial, transactional
 
 #### Defined in
 
-[main.ts:79620](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L79620)
+main.ts:81997
 
 ___
-
 
 ### last\_updated\_time
 
@@ -50,10 +45,9 @@ example:
 
 #### Defined in
 
-[main.ts:79625](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L79625)
+main.ts:82002
 
 ___
-
 
 ### main\_intent
 
@@ -64,10 +58,9 @@ possible values: informational, navigational, commercial, transactional
 
 #### Defined in
 
-[main.ts:79617](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L79617)
+main.ts:81994
 
 ___
-
 
 ### se\_type
 
@@ -78,8 +71,4 @@ possible values: google
 
 #### Defined in
 
-[main.ts:79614](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L79614)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:81991

@@ -1,15 +1,11 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IAnswerBoxSerpElementItem
+[Documentation](../README.md) / [Exports](../modules.md) / IAnswerBoxSerpElementItem
 
 # Interface: IAnswerBoxSerpElementItem
 
 ## Hierarchy
 
 - [`IBaseSerpElementItem`](IBaseSerpElementItem.md)
-  
+
   ↳ **`IAnswerBoxSerpElementItem`**
 
 ## Implemented by
@@ -42,10 +38,9 @@ link of the element
 
 #### Defined in
 
-[main.ts:30385](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L30385)
+main.ts:31200
 
 ___
-
 
 ### position
 
@@ -57,10 +52,9 @@ left, right
 
 #### Defined in
 
-[main.ts:30378](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L30378)
+main.ts:31193
 
 ___
-
 
 ### rank\_absolute
 
@@ -68,28 +62,28 @@ ___
 
 absolute rank in SERP
 absolute position among all the elements in SERP
+always equals 0 for desktop
 
 #### Defined in
 
-[main.ts:30374](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L30374)
+main.ts:31189
 
 ___
-
 
 ### rank\_group
 
 • `Optional` **rank\_group**: `number`
 
 group rank in SERP
-position within a group of elements with identical type values
-positions of elements with different type values are omitted from rank_group
+position within a group of elements with identical type values;
+positions of elements with different type values are omitted from rank_group;
+always equals 0 for desktop
 
 #### Defined in
 
-[main.ts:30371](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L30371)
+main.ts:31185
 
 ___
-
 
 ### rectangle
 
@@ -101,10 +95,9 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 #### Defined in
 
-[main.ts:30389](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L30389)
+main.ts:31204
 
 ___
-
 
 ### text
 
@@ -115,10 +108,9 @@ if there is none, equals null
 
 #### Defined in
 
-[main.ts:30383](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L30383)
+main.ts:31198
 
 ___
-
 
 ### xpath
 
@@ -128,8 +120,4 @@ the XPath of the element
 
 #### Defined in
 
-[main.ts:30380](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L30380)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:31195

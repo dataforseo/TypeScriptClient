@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IOnPageLighthouseLiveJsonRequestInfo
+[Documentation](../README.md) / [Exports](../modules.md) / IOnPageLighthouseLiveJsonRequestInfo
 
 # Interface: IOnPageLighthouseLiveJsonRequestInfo
 
@@ -40,19 +36,17 @@ if you ignore this field, we will return data for all audits
 use this field to get data for specific audits you indicate here
 note that some audits do not belong to a specific category and are stand-alone page quality measurements
 in general, there can be several use cases:
-
 1. if you ignore categories, you can use this field to get data for the specified audits only
-   for example, if you ignore "categories" and specify "audits": ["metrics/cumulative-layout-shift","metrics/largest-contentful-paint","metrics/total-blocking-time"], you will get data only for these audits
+for example, if you ignore "categories" and specify "audits": ["metrics/cumulative-layout-shift","metrics/largest-contentful-paint","metrics/total-blocking-time"], you will get data only for these audits
 2. if you specify a category, you can use this field to additionally receive audits that do not belong to the category(-ies) you specified
-   for example, if you specify "categories": ["seo"] and "audits": ["metrics/cumulative-layout-shift","metrics/largest-contentful-paint","metrics/total-blocking-time"], you will get only these audits under “performance” and all audits under “seo”
-   you can get the full list of possible audits here
+for example, if you specify "categories": ["seo"] and "audits": ["metrics/cumulative-layout-shift","metrics/largest-contentful-paint","metrics/total-blocking-time"], you will get only these audits under “performance” and all audits under “seo”
+you can get the full list of possible audits here
 
 #### Defined in
 
-[main.ts:154863](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L154863)
+main.ts:160290
 
 ___
-
 
 ### categories
 
@@ -68,10 +62,9 @@ seo, pwa, performance, best_practices, accessibility
 
 #### Defined in
 
-[main.ts:154850](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L154850)
+main.ts:160277
 
 ___
-
 
 ### for\_mobile
 
@@ -85,10 +78,9 @@ default value: false
 
 #### Defined in
 
-[main.ts:154842](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L154842)
+main.ts:160269
 
 ___
-
 
 ### language\_code
 
@@ -102,10 +94,9 @@ en
 
 #### Defined in
 
-[main.ts:154880](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L154880)
+main.ts:160307
 
 ___
-
 
 ### language\_name
 
@@ -119,10 +110,9 @@ English
 
 #### Defined in
 
-[main.ts:154874](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L154874)
+main.ts:160301
 
 ___
-
 
 ### tag
 
@@ -136,10 +126,9 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-[main.ts:154886](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L154886)
+main.ts:160313
 
 ___
-
 
 ### url
 
@@ -153,10 +142,9 @@ https://dataforseo.com/
 
 #### Defined in
 
-[main.ts:154836](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L154836)
+main.ts:160263
 
 ___
-
 
 ### version
 
@@ -169,8 +157,4 @@ the list of available versions is available through the Lighthouse Versions endp
 
 #### Defined in
 
-[main.ts:154868](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L154868)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:160295

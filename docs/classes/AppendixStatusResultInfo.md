@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / AppendixStatusResultInfo
+[Documentation](../README.md) / [Exports](../modules.md) / AppendixStatusResultInfo
 
 # Class: AppendixStatusResultInfo
 
@@ -50,7 +46,7 @@
 
 #### Defined in
 
-[main.ts:212787](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L212787)
+main.ts:218442
 
 ## Properties
 
@@ -70,6 +66,8 @@ on_page
 business_data
 backlinks
 app_data
+content_analysis
+content_generation
 
 #### Implementation of
 
@@ -77,10 +75,9 @@ app_data
 
 #### Defined in
 
-[main.ts:212771](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L212771)
+main.ts:218426
 
 ___
-
 
 ### endpoints
 
@@ -94,10 +91,9 @@ array of objects that contain status information for API endpoints
 
 #### Defined in
 
-[main.ts:212783](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L212783)
+main.ts:218438
 
 ___
-
 
 ### status
 
@@ -119,7 +115,7 @@ send_delay
 
 #### Defined in
 
-[main.ts:212781](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L212781)
+main.ts:218436
 
 ## Methods
 
@@ -139,10 +135,9 @@ send_delay
 
 #### Defined in
 
-[main.ts:212796](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L212796)
+main.ts:218451
 
 ___
-
 
 ### toJSON
 
@@ -160,10 +155,9 @@ ___
 
 #### Defined in
 
-[main.ts:212819](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L212819)
+main.ts:218474
 
 ___
-
 
 ### fromJS
 
@@ -181,8 +175,4 @@ ___
 
 #### Defined in
 
-[main.ts:212812](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L212812)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:218467

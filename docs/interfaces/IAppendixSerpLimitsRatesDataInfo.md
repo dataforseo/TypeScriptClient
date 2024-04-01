@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IAppendixSerpLimitsRatesDataInfo
+[Documentation](../README.md) / [Exports](../modules.md) / IAppendixSerpLimitsRatesDataInfo
 
 # Interface: IAppendixSerpLimitsRatesDataInfo
 
@@ -37,10 +33,9 @@
 
 #### Defined in
 
-[main.ts:206660](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L206660)
+main.ts:212121
 
 ___
-
 
 ### jobs
 
@@ -48,10 +43,9 @@ ___
 
 #### Defined in
 
-[main.ts:206662](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L206662)
+main.ts:212123
 
 ___
-
 
 ### languages
 
@@ -59,10 +53,9 @@ ___
 
 #### Defined in
 
-[main.ts:206658](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L206658)
+main.ts:212119
 
 ___
-
 
 ### live
 
@@ -70,10 +63,9 @@ ___
 
 #### Defined in
 
-[main.ts:206659](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L206659)
+main.ts:212120
 
 ___
-
 
 ### locations
 
@@ -81,10 +73,9 @@ ___
 
 #### Defined in
 
-[main.ts:206657](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L206657)
+main.ts:212118
 
 ___
-
 
 ### screenshot
 
@@ -92,10 +83,9 @@ ___
 
 #### Defined in
 
-[main.ts:206663](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L206663)
+main.ts:212124
 
 ___
-
 
 ### task\_get
 
@@ -103,10 +93,9 @@ ___
 
 #### Defined in
 
-[main.ts:206655](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L206655)
+main.ts:212116
 
 ___
-
 
 ### task\_post
 
@@ -114,10 +103,9 @@ ___
 
 #### Defined in
 
-[main.ts:206654](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L206654)
+main.ts:212115
 
 ___
-
 
 ### tasks\_fixed
 
@@ -125,10 +113,9 @@ ___
 
 #### Defined in
 
-[main.ts:206661](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L206661)
+main.ts:212122
 
 ___
-
 
 ### tasks\_ready
 
@@ -136,8 +123,4 @@ ___
 
 #### Defined in
 
-[main.ts:206656](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L206656)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:212117

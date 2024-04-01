@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IDataforseoLabsAmazonProductCompetitorsLiveResultInfo
+[Documentation](../README.md) / [Exports](../modules.md) / IDataforseoLabsAmazonProductCompetitorsLiveResultInfo
 
 # Interface: IDataforseoLabsAmazonProductCompetitorsLiveResultInfo
 
@@ -36,10 +32,9 @@ ASIN in a POST array
 
 #### Defined in
 
-[main.ts:101393](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L101393)
+main.ts:103770
 
 ___
-
 
 ### items
 
@@ -49,10 +44,9 @@ contains detected Amazon product competitors and related data
 
 #### Defined in
 
-[main.ts:101405](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L101405)
+main.ts:103782
 
 ___
-
 
 ### items\_count
 
@@ -62,10 +56,9 @@ the number of results returned in the items array
 
 #### Defined in
 
-[main.ts:101403](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L101403)
+main.ts:103780
 
 ___
-
 
 ### language\_code
 
@@ -76,10 +69,9 @@ if there is no data, then the value is null
 
 #### Defined in
 
-[main.ts:101399](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L101399)
+main.ts:103776
 
 ___
-
 
 ### location\_code
 
@@ -90,10 +82,9 @@ if there is no data, then the value is null
 
 #### Defined in
 
-[main.ts:101396](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L101396)
+main.ts:103773
 
 ___
-
 
 ### se\_type
 
@@ -103,10 +94,9 @@ search engine type
 
 #### Defined in
 
-[main.ts:101391](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L101391)
+main.ts:103768
 
 ___
-
 
 ### total\_count
 
@@ -116,8 +106,4 @@ total amount of results in our database relevant to your request
 
 #### Defined in
 
-[main.ts:101401](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L101401)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:103778

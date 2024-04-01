@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / JobsElement
+[Documentation](../README.md) / [Exports](../modules.md) / JobsElement
 
 # Class: JobsElement
 
@@ -56,7 +52,7 @@
 
 #### Defined in
 
-[main.ts:29317](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L29317)
+main.ts:30096
 
 ## Properties
 
@@ -72,10 +68,9 @@ author
 
 #### Defined in
 
-[main.ts:29300](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L29300)
+main.ts:30079
 
 ___
-
 
 ### contract\_type
 
@@ -89,16 +84,15 @@ contract type
 
 #### Defined in
 
-[main.ts:29309](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L29309)
+main.ts:30088
 
 ___
-
 
 ### description
 
 • `Optional` **description**: `string`
 
-description of the results element in SERP
+description
 
 #### Implementation of
 
@@ -106,10 +100,9 @@ description of the results element in SERP
 
 #### Defined in
 
-[main.ts:29298](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L29298)
+main.ts:30077
 
 ___
-
 
 ### job\_posted\_time
 
@@ -123,10 +116,9 @@ the time when the job was posted
 
 #### Defined in
 
-[main.ts:29302](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L29302)
+main.ts:30081
 
 ___
-
 
 ### salary
 
@@ -140,10 +132,9 @@ salary
 
 #### Defined in
 
-[main.ts:29311](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L29311)
+main.ts:30090
 
 ___
-
 
 ### timestamp
 
@@ -160,16 +151,15 @@ example:
 
 #### Defined in
 
-[main.ts:29307](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L29307)
+main.ts:30086
 
 ___
-
 
 ### title
 
 • `Optional` **title**: `string`
 
-title of the row
+title of a given link element
 
 #### Implementation of
 
@@ -177,10 +167,9 @@ title of the row
 
 #### Defined in
 
-[main.ts:29296](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L29296)
+main.ts:30075
 
 ___
-
 
 ### type
 
@@ -194,10 +183,9 @@ type of element
 
 #### Defined in
 
-[main.ts:29294](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L29294)
+main.ts:30073
 
 ___
-
 
 ### url
 
@@ -211,7 +199,7 @@ URL
 
 #### Defined in
 
-[main.ts:29313](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L29313)
+main.ts:30092
 
 ## Methods
 
@@ -231,10 +219,9 @@ URL
 
 #### Defined in
 
-[main.ts:29326](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L29326)
+main.ts:30105
 
 ___
-
 
 ### toJSON
 
@@ -252,10 +239,9 @@ ___
 
 #### Defined in
 
-[main.ts:29351](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L29351)
+main.ts:30130
 
 ___
-
 
 ### fromJS
 
@@ -273,8 +259,4 @@ ___
 
 #### Defined in
 
-[main.ts:29344](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L29344)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:30123

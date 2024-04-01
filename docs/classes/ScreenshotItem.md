@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / ScreenshotItem
+[Documentation](../README.md) / [Exports](../modules.md) / ScreenshotItem
 
 # Class: ScreenshotItem
 
@@ -48,7 +44,7 @@
 
 #### Defined in
 
-[main.ts:23506](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L23506)
+main.ts:24025
 
 ## Properties
 
@@ -66,7 +62,7 @@ note: the page screenshot saved on the DataForSEO storage only remains accessibl
 
 #### Defined in
 
-[main.ts:23502](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L23502)
+main.ts:24021
 
 ## Methods
 
@@ -86,10 +82,9 @@ note: the page screenshot saved on the DataForSEO storage only remains accessibl
 
 #### Defined in
 
-[main.ts:23515](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L23515)
+main.ts:24034
 
 ___
-
 
 ### toJSON
 
@@ -107,10 +102,9 @@ ___
 
 #### Defined in
 
-[main.ts:23532](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L23532)
+main.ts:24051
 
 ___
-
 
 ### fromJS
 
@@ -128,8 +122,4 @@ ___
 
 #### Defined in
 
-[main.ts:23525](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L23525)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:24044

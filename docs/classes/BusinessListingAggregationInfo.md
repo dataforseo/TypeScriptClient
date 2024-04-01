@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / BusinessListingAggregationInfo
+[Documentation](../README.md) / [Exports](../modules.md) / BusinessListingAggregationInfo
 
 # Class: BusinessListingAggregationInfo
 
@@ -53,7 +49,7 @@
 
 #### Defined in
 
-[main.ts:189778](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L189778)
+main.ts:195231
 
 ## Properties
 
@@ -69,10 +65,9 @@ number of unique entities
 
 #### Defined in
 
-[main.ts:189768](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L189768)
+main.ts:195221
 
 ___
-
 
 ### top\_attributes
 
@@ -91,10 +86,9 @@ service details of a business entity displayed in a form of checks and the numbe
 
 #### Defined in
 
-[main.ts:189771](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L189771)
+main.ts:195224
 
 ___
-
 
 ### top\_categories
 
@@ -113,10 +107,9 @@ top categories displayed with the number of businesses in each category
 
 #### Defined in
 
-[main.ts:189761](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L189761)
+main.ts:195214
 
 ___
-
 
 ### top\_countries
 
@@ -135,10 +128,9 @@ country codes with the biggest number of businesses in the category
 
 #### Defined in
 
-[main.ts:189764](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L189764)
+main.ts:195217
 
 ___
-
 
 ### top\_place\_topics
 
@@ -157,10 +149,9 @@ contains most popular keywords related to products/services mentioned in custome
 
 #### Defined in
 
-[main.ts:189774](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L189774)
+main.ts:195227
 
 ___
-
 
 ### websites\_count
 
@@ -174,7 +165,7 @@ number of unique websites
 
 #### Defined in
 
-[main.ts:189766](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L189766)
+main.ts:195219
 
 ## Methods
 
@@ -194,10 +185,9 @@ number of unique websites
 
 #### Defined in
 
-[main.ts:189787](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L189787)
+main.ts:195240
 
 ___
-
 
 ### toJSON
 
@@ -215,10 +205,9 @@ ___
 
 #### Defined in
 
-[main.ts:189833](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L189833)
+main.ts:195286
 
 ___
-
 
 ### fromJS
 
@@ -236,8 +225,4 @@ ___
 
 #### Defined in
 
-[main.ts:189826](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L189826)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:195279

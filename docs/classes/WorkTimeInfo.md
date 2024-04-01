@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / WorkTimeInfo
+[Documentation](../README.md) / [Exports](../modules.md) / WorkTimeInfo
 
 # Class: WorkTimeInfo
 
@@ -49,7 +45,7 @@
 
 #### Defined in
 
-[main.ts:20588](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L20588)
+main.ts:21107
 
 ## Properties
 
@@ -65,10 +61,9 @@ hours in the 24-hour format
 
 #### Defined in
 
-[main.ts:20582](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L20582)
+main.ts:21101
 
 ___
-
 
 ### minute
 
@@ -82,7 +77,7 @@ minutes
 
 #### Defined in
 
-[main.ts:20584](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L20584)
+main.ts:21103
 
 ## Methods
 
@@ -102,10 +97,9 @@ minutes
 
 #### Defined in
 
-[main.ts:20597](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L20597)
+main.ts:21116
 
 ___
-
 
 ### toJSON
 
@@ -123,10 +117,9 @@ ___
 
 #### Defined in
 
-[main.ts:20615](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L20615)
+main.ts:21134
 
 ___
-
 
 ### fromJS
 
@@ -144,8 +137,4 @@ ___
 
 #### Defined in
 
-[main.ts:20608](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L20608)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:21127

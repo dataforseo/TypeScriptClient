@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IOnPageContentParsingLiveRequestInfo
+[Documentation](../README.md) / [Exports](../modules.md) / IOnPageContentParsingLiveRequestInfo
 
 # Interface: IOnPageContentParsingLiveRequestInfo
 
@@ -44,10 +40,9 @@ Note: if you do not specify this parameter, some websites may deny access; in th
 
 #### Defined in
 
-[main.ts:152770](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L152770)
+main.ts:158197
 
 ___
-
 
 ### browser\_preset
 
@@ -74,10 +69,9 @@ Note: to use this parameter, set enable_javascript or enable_browser_rendering t
 
 #### Defined in
 
-[main.ts:152730](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L152730)
+main.ts:158157
 
 ___
-
 
 ### browser\_screen\_height
 
@@ -93,10 +87,9 @@ maximum value, in pixels: 9999
 
 #### Defined in
 
-[main.ts:152746](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L152746)
+main.ts:158173
 
 ___
-
 
 ### browser\_screen\_scale\_factor
 
@@ -112,10 +105,9 @@ maximum value: 3
 
 #### Defined in
 
-[main.ts:152754](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L152754)
+main.ts:158181
 
 ___
-
 
 ### browser\_screen\_width
 
@@ -131,10 +123,9 @@ maximum value, in pixels: 9999
 
 #### Defined in
 
-[main.ts:152738](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L152738)
+main.ts:158165
 
 ___
-
 
 ### custom\_user\_agent
 
@@ -149,16 +140,15 @@ default value: Mozilla/5.0 (compatible; RSiteAuditor)
 
 #### Defined in
 
-[main.ts:152711](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L152711)
+main.ts:158138
 
 ___
-
 
 ### disable\_cookie\_popup
 
 • `Optional` **disable\_cookie\_popup**: `boolean`
 
-disable the cookie popup
+disable the cookie popup 
 optional field
 set to true if you want to disable the popup requesting cookie consent from the user;
 default value:
@@ -166,10 +156,9 @@ false
 
 #### Defined in
 
-[main.ts:152765](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L152765)
+main.ts:158192
 
 ___
-
 
 ### enable\_browser\_rendering
 
@@ -186,10 +175,9 @@ Note: if you use this parameter, additional charges will apply; learn more about
 
 #### Defined in
 
-[main.ts:152785](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L152785)
+main.ts:158212
 
 ___
-
 
 ### enable\_javascript
 
@@ -203,10 +191,9 @@ Note: if you use this parameter, additional charges will apply; learn more about
 
 #### Defined in
 
-[main.ts:152776](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L152776)
+main.ts:158203
 
 ___
-
 
 ### enable\_xhr
 
@@ -221,10 +208,9 @@ if you use this field, enable_javascript must be set to true;
 
 #### Defined in
 
-[main.ts:152792](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L152792)
+main.ts:158219
 
 ___
-
 
 ### store\_raw\_html
 
@@ -237,10 +223,9 @@ default value: false
 
 #### Defined in
 
-[main.ts:152759](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L152759)
+main.ts:158186
 
 ___
-
 
 ### url
 
@@ -254,8 +239,4 @@ https://www.fujielectric.com/
 
 #### Defined in
 
-[main.ts:152704](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L152704)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:158131

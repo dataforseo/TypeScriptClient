@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IDiscussionsAndForumsElement
+[Documentation](../README.md) / [Exports](../modules.md) / IDiscussionsAndForumsElement
 
 # Interface: IDiscussionsAndForumsElement
 
@@ -33,27 +29,25 @@
 
 • `Optional` **description**: `string`
 
-description of the results element in SERP
+description
 
 #### Defined in
 
-[main.ts:35674](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L35674)
+main.ts:36647
 
 ___
-
 
 ### domain
 
 • `Optional` **domain**: `string`
 
-domain where a link points
+website domain
 
 #### Defined in
 
-[main.ts:35669](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L35669)
+main.ts:36642
 
 ___
-
 
 ### posts\_count
 
@@ -63,24 +57,22 @@ number of posts from the discussion on the related source
 
 #### Defined in
 
-[main.ts:35681](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L35681)
+main.ts:36654
 
 ___
-
 
 ### source
 
 • `Optional` **source**: `string`
 
-web source of the hotel booking element
-indicates the source of information included in the element
+source of the element
+indicates the source of information included in the top_stories_element
 
 #### Defined in
 
-[main.ts:35672](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L35672)
+main.ts:36645
 
 ___
-
 
 ### timestamp
 
@@ -93,23 +85,21 @@ example:
 
 #### Defined in
 
-[main.ts:35679](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L35679)
+main.ts:36652
 
 ___
-
 
 ### title
 
 • `Optional` **title**: `string`
 
-title of the row
+title of a given link element
 
 #### Defined in
 
-[main.ts:35665](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L35665)
+main.ts:36638
 
 ___
-
 
 ### type
 
@@ -119,10 +109,9 @@ type of element
 
 #### Defined in
 
-[main.ts:35663](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L35663)
+main.ts:36636
 
 ___
-
 
 ### url
 
@@ -132,8 +121,4 @@ URL
 
 #### Defined in
 
-[main.ts:35667](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L35667)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:36640

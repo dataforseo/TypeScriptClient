@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / ITopicListDataItemInfo
+[Documentation](../README.md) / [Exports](../modules.md) / ITopicListDataItemInfo
 
 # Interface: ITopicListDataItemInfo
 
@@ -33,10 +29,9 @@ unique topic identifier in Google Trends
 
 #### Defined in
 
-[main.ts:120822](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L120822)
+main.ts:124078
 
 ___
-
 
 ### topic\_title
 
@@ -46,10 +41,9 @@ title of the topic
 
 #### Defined in
 
-[main.ts:120824](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L120824)
+main.ts:124080
 
 ___
-
 
 ### topic\_type
 
@@ -60,10 +54,9 @@ represents the general type of the topic
 
 #### Defined in
 
-[main.ts:120827](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L120827)
+main.ts:124083
 
 ___
-
 
 ### value
 
@@ -74,8 +67,4 @@ represents the popularity of the topic. Scoring is on a relative scale where a v
 
 #### Defined in
 
-[main.ts:120830](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L120830)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:124086

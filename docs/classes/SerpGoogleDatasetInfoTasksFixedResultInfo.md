@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / SerpGoogleDatasetInfoTasksFixedResultInfo
+[Documentation](../README.md) / [Exports](../modules.md) / SerpGoogleDatasetInfoTasksFixedResultInfo
 
 # Class: SerpGoogleDatasetInfoTasksFixedResultInfo
 
@@ -55,7 +51,7 @@
 
 #### Defined in
 
-[main.ts:52317](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L52317)
+main.ts:54692
 
 ## Properties
 
@@ -71,10 +67,9 @@ date when the task was fixed (in the UTC format)
 
 #### Defined in
 
-[main.ts:52302](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L52302)
+main.ts:54677
 
 ___
-
 
 ### endpoint\_advanced
 
@@ -89,10 +84,9 @@ if SERP Advanced is not supported in the specified endpoint, the value will be n
 
 #### Defined in
 
-[main.ts:52310](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L52310)
+main.ts:54685
 
 ___
-
 
 ### endpoint\_html
 
@@ -107,10 +101,9 @@ if SERP HTML is not supported in the specified endpoint, the value will be null
 
 #### Defined in
 
-[main.ts:52313](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L52313)
+main.ts:54688
 
 ___
-
 
 ### endpoint\_regular
 
@@ -125,10 +118,9 @@ if SERP Regular is not supported in the specified endpoint, the value will be nu
 
 #### Defined in
 
-[main.ts:52307](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L52307)
+main.ts:54682
 
 ___
-
 
 ### id
 
@@ -143,10 +135,9 @@ unique task identifier in our system in the UUID format
 
 #### Defined in
 
-[main.ts:52295](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L52295)
+main.ts:54670
 
 ___
-
 
 ### se
 
@@ -160,10 +151,9 @@ search engine specified when setting the task
 
 #### Defined in
 
-[main.ts:52297](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L52297)
+main.ts:54672
 
 ___
-
 
 ### se\_type
 
@@ -178,10 +168,9 @@ can take the following values: dataset_info
 
 #### Defined in
 
-[main.ts:52300](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L52300)
+main.ts:54675
 
 ___
-
 
 ### tag
 
@@ -195,7 +184,7 @@ user-defined task identifier
 
 #### Defined in
 
-[main.ts:52304](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L52304)
+main.ts:54679
 
 ## Methods
 
@@ -215,10 +204,9 @@ user-defined task identifier
 
 #### Defined in
 
-[main.ts:52326](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L52326)
+main.ts:54701
 
 ___
-
 
 ### toJSON
 
@@ -236,10 +224,9 @@ ___
 
 #### Defined in
 
-[main.ts:52350](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L52350)
+main.ts:54725
 
 ___
-
 
 ### fromJS
 
@@ -257,8 +244,4 @@ ___
 
 #### Defined in
 
-[main.ts:52343](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L52343)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:54718

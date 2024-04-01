@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / KeywordsDataBingKeywordPerformanceLiveRequestInfo
+[Documentation](../README.md) / [Exports](../modules.md) / KeywordsDataBingKeywordPerformanceLiveRequestInfo
 
 # Class: KeywordsDataBingKeywordPerformanceLiveRequestInfo
 
@@ -56,7 +52,7 @@
 
 #### Defined in
 
-[main.ts:127608](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L127608)
+main.ts:132975
 
 ## Properties
 
@@ -75,10 +71,9 @@ default value: all
 
 #### Defined in
 
-[main.ts:127555](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L127555)
+main.ts:132922
 
 ___
-
 
 ### keywords
 
@@ -97,10 +92,9 @@ the specified keywords will be converted to lowercase, data will be provided in 
 
 #### Defined in
 
-[main.ts:127550](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L127550)
+main.ts:132917
 
 ___
-
 
 ### language\_code
 
@@ -118,10 +112,9 @@ example:
 
 #### Defined in
 
-[main.ts:127598](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L127598)
+main.ts:132965
 
 ___
-
 
 ### language\_name
 
@@ -140,10 +133,9 @@ English
 
 #### Defined in
 
-[main.ts:127592](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L127592)
+main.ts:132959
 
 ___
-
 
 ### location\_code
 
@@ -162,10 +154,9 @@ example:
 
 #### Defined in
 
-[main.ts:127577](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L127577)
+main.ts:132944
 
 ___
-
 
 ### location\_coordinate
 
@@ -185,10 +176,9 @@ example:
 
 #### Defined in
 
-[main.ts:127585](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L127585)
+main.ts:132952
 
 ___
-
 
 ### location\_name
 
@@ -207,10 +197,9 @@ example:
 
 #### Defined in
 
-[main.ts:127570](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L127570)
+main.ts:132937
 
 ___
-
 
 ### match
 
@@ -230,10 +219,9 @@ exact returns data for user query that matches the specified keyword;Note: the a
 
 #### Defined in
 
-[main.ts:127563](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L127563)
+main.ts:132930
 
 ___
-
 
 ### tag
 
@@ -251,7 +239,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-[main.ts:127604](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L127604)
+main.ts:132971
 
 ## Methods
 
@@ -271,10 +259,9 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-[main.ts:127617](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L127617)
+main.ts:132984
 
 ___
-
 
 ### toJSON
 
@@ -292,10 +279,9 @@ ___
 
 #### Defined in
 
-[main.ts:127646](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L127646)
+main.ts:133013
 
 ___
-
 
 ### fromJS
 
@@ -313,8 +299,4 @@ ___
 
 #### Defined in
 
-[main.ts:127639](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L127639)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:133006

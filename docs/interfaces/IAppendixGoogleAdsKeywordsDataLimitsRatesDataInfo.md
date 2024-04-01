@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IAppendixGoogleAdsKeywordsDataLimitsRatesDataInfo
+[Documentation](../README.md) / [Exports](../modules.md) / IAppendixGoogleAdsKeywordsDataLimitsRatesDataInfo
 
 # Interface: IAppendixGoogleAdsKeywordsDataLimitsRatesDataInfo
 
@@ -28,47 +24,43 @@
 
 ### ad\_traffic\_by\_keywords
 
-• `Optional` **ad\_traffic\_by\_keywords**: [`AppendixInfo`](../classes/AppendixInfo.md)
+• `Optional` **ad\_traffic\_by\_keywords**: [`AppendixFunctionInfo`](../classes/AppendixFunctionInfo.md)
 
 #### Defined in
 
-[main.ts:206907](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L206907)
+main.ts:212368
 
 ___
-
 
 ### keywords\_for\_keywords
 
-• `Optional` **keywords\_for\_keywords**: [`AppendixInfo`](../classes/AppendixInfo.md)
+• `Optional` **keywords\_for\_keywords**: [`AppendixFunctionInfo`](../classes/AppendixFunctionInfo.md)
 
 #### Defined in
 
-[main.ts:206905](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L206905)
+main.ts:212366
 
 ___
-
 
 ### keywords\_for\_site
 
-• `Optional` **keywords\_for\_site**: [`AppendixInfo`](../classes/AppendixInfo.md)
+• `Optional` **keywords\_for\_site**: [`AppendixFunctionInfo`](../classes/AppendixFunctionInfo.md)
 
 #### Defined in
 
-[main.ts:206906](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L206906)
+main.ts:212367
 
 ___
-
 
 ### search\_volume
 
-• `Optional` **search\_volume**: [`AppendixInfo`](../classes/AppendixInfo.md)
+• `Optional` **search\_volume**: [`AppendixFunctionInfo`](../classes/AppendixFunctionInfo.md)
 
 #### Defined in
 
-[main.ts:206904](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L206904)
+main.ts:212365
 
 ___
-
 
 ### status
 
@@ -76,8 +68,4 @@ ___
 
 #### Defined in
 
-[main.ts:206903](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L206903)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:212364

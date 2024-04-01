@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IndexHistory
+[Documentation](../README.md) / [Exports](../modules.md) / IndexHistory
 
 # Class: IndexHistory
 
@@ -51,7 +47,7 @@
 
 #### Defined in
 
-[main.ts:128952](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L128952)
+main.ts:134319
 
 ## Properties
 
@@ -70,10 +66,9 @@ example:
 
 #### Defined in
 
-[main.ts:128942](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L128942)
+main.ts:134309
 
 ___
-
 
 ### total\_backlinks
 
@@ -87,10 +82,9 @@ total number of backlinks our database contained on the given date
 
 #### Defined in
 
-[main.ts:128944](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L128944)
+main.ts:134311
 
 ___
-
 
 ### total\_domains
 
@@ -104,10 +98,9 @@ total number of domains our database contained on the given date
 
 #### Defined in
 
-[main.ts:128948](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L128948)
+main.ts:134315
 
 ___
-
 
 ### total\_pages
 
@@ -121,7 +114,7 @@ total number of pages our database contained on the given date
 
 #### Defined in
 
-[main.ts:128946](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L128946)
+main.ts:134313
 
 ## Methods
 
@@ -141,10 +134,9 @@ total number of pages our database contained on the given date
 
 #### Defined in
 
-[main.ts:128961](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L128961)
+main.ts:134328
 
 ___
-
 
 ### toJSON
 
@@ -162,10 +154,9 @@ ___
 
 #### Defined in
 
-[main.ts:128981](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L128981)
+main.ts:134348
 
 ___
-
 
 ### fromJS
 
@@ -183,8 +174,4 @@ ___
 
 #### Defined in
 
-[main.ts:128974](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L128974)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:134341

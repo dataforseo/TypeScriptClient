@@ -1,15 +1,11 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IRedirectLinkElementItem
+[Documentation](../README.md) / [Exports](../modules.md) / IRedirectLinkElementItem
 
 # Interface: IRedirectLinkElementItem
 
 ## Hierarchy
 
 - [`IBaseOnPageLinkItemInfo`](IBaseOnPageLinkItemInfo.md)
-  
+
   ↳ **`IRedirectLinkElementItem`**
 
 ## Implemented by
@@ -48,10 +44,9 @@ possible values: internal, external
 
 #### Defined in
 
-[main.ts:148982](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L148982)
+main.ts:154409
 
 ___
-
 
 ### dofollow
 
@@ -62,10 +57,9 @@ if the value is true, the link doesn’t have a rel="nofollow" attribute
 
 #### Defined in
 
-[main.ts:148975](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L148975)
+main.ts:154402
 
 ___
-
 
 ### domain\_from
 
@@ -76,10 +70,9 @@ the link was found on this domain
 
 #### Defined in
 
-[main.ts:148957](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L148957)
+main.ts:154384
 
 ___
-
 
 ### domain\_to
 
@@ -90,10 +83,9 @@ the link is pointing to this domain
 
 #### Defined in
 
-[main.ts:148960](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L148960)
+main.ts:154387
 
 ___
-
 
 ### is\_broken
 
@@ -104,10 +96,9 @@ indicates whether a link is directing to a broken page or resource
 
 #### Defined in
 
-[main.ts:148985](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L148985)
+main.ts:154412
 
 ___
-
 
 ### is\_link\_relation\_conflict
 
@@ -118,10 +109,9 @@ if true, at least one link pointing to the URL in link_to has a rel="nofollow" a
 
 #### Defined in
 
-[main.ts:148988](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L148988)
+main.ts:154415
 
 ___
-
 
 ### link\_from
 
@@ -132,10 +122,9 @@ absolute URL of the page on which the link was found
 
 #### Defined in
 
-[main.ts:148969](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L148969)
+main.ts:154396
 
 ___
-
 
 ### link\_to
 
@@ -146,10 +135,9 @@ absolute URL of the page to which the link is pointing
 
 #### Defined in
 
-[main.ts:148972](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L148972)
+main.ts:154399
 
 ___
-
 
 ### page\_from
 
@@ -160,10 +148,9 @@ relative URL of the page on which the link was found
 
 #### Defined in
 
-[main.ts:148963](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L148963)
+main.ts:154390
 
 ___
-
 
 ### page\_from\_scheme
 
@@ -173,10 +160,9 @@ url scheme of the referring page
 
 #### Defined in
 
-[main.ts:148977](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L148977)
+main.ts:154404
 
 ___
-
 
 ### page\_to
 
@@ -187,10 +173,9 @@ relative URL of the page to which the link is pointing
 
 #### Defined in
 
-[main.ts:148966](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L148966)
+main.ts:154393
 
 ___
-
 
 ### page\_to\_scheme
 
@@ -200,8 +185,4 @@ url scheme of the referenced page
 
 #### Defined in
 
-[main.ts:148979](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L148979)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:154406

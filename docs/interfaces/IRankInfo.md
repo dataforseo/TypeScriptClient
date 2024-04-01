@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IRankInfo
+[Documentation](../README.md) / [Exports](../modules.md) / IRankInfo
 
 # Interface: IRankInfo
 
@@ -33,10 +29,9 @@ learn more about the metric and how it is calculated in this help center article
 
 #### Defined in
 
-[main.ts:86617](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L86617)
+main.ts:88994
 
 ___
-
 
 ### page\_rank
 
@@ -48,8 +43,4 @@ learn more about the metric and how it is calculated in this help center article
 
 #### Defined in
 
-[main.ts:86613](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L86613)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:88990

@@ -1,15 +1,11 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / ProductInformationExtendedItem
+[Documentation](../README.md) / [Exports](../modules.md) / ProductInformationExtendedItem
 
 # Class: ProductInformationExtendedItem
 
 ## Hierarchy
 
 - [`BaseProductInformationItem`](BaseProductInformationItem.md)
-  
+
   ↳ **`ProductInformationExtendedItem`**
 
 ## Implements
@@ -60,7 +56,7 @@
 
 #### Defined in
 
-[main.ts:172734](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L172734)
+main.ts:178187
 
 ## Properties
 
@@ -74,10 +70,9 @@
 
 #### Defined in
 
-[main.ts:21715](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L21715)
+main.ts:22234
 
 ___
-
 
 ### contents
 
@@ -91,10 +86,9 @@ contains information specified about the product within the section_name
 
 #### Defined in
 
-[main.ts:172730](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L172730)
+main.ts:178183
 
 ___
-
 
 ### section\_name
 
@@ -108,7 +102,7 @@ name of the section related to product information specified in the contents
 
 #### Defined in
 
-[main.ts:172728](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L172728)
+main.ts:178181
 
 ## Methods
 
@@ -132,10 +126,9 @@ name of the section related to product information specified in the contents
 
 #### Defined in
 
-[main.ts:172739](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L172739)
+main.ts:178192
 
 ___
-
 
 ### toJSON
 
@@ -157,10 +150,9 @@ ___
 
 #### Defined in
 
-[main.ts:172762](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L172762)
+main.ts:178215
 
 ___
-
 
 ### fromJS
 
@@ -182,8 +174,4 @@ ___
 
 #### Defined in
 
-[main.ts:172755](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L172755)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:178208

@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IContentAnalysisCategoriesInfo
+[Documentation](../README.md) / [Exports](../modules.md) / IContentAnalysisCategoriesInfo
 
 # Interface: IContentAnalysisCategoriesInfo
 
@@ -29,10 +25,9 @@
 
 #### Defined in
 
-[main.ts:21705](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L21705)
+main.ts:22224
 
 ___
-
 
 ### count
 
@@ -40,8 +35,4 @@ ___
 
 #### Defined in
 
-[main.ts:21706](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L21706)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:22225

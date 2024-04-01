@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / DataforseoLabsAppleKeywordsForAppLiveRequestInfo
+[Documentation](../README.md) / [Exports](../modules.md) / DataforseoLabsAppleKeywordsForAppLiveRequestInfo
 
 # Class: DataforseoLabsAppleKeywordsForAppLiveRequestInfo
 
@@ -57,7 +53,7 @@
 
 #### Defined in
 
-[main.ts:110620](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L110620)
+main.ts:112997
 
 ## Properties
 
@@ -79,10 +75,9 @@ the id is 835599320
 
 #### Defined in
 
-[main.ts:110536](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L110536)
+main.ts:112913
 
 ___
-
 
 ### filters
 
@@ -105,10 +100,9 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 #### Defined in
 
-[main.ts:110583](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L110583)
+main.ts:112960
 
 ___
-
 
 ### language\_code
 
@@ -129,10 +123,9 @@ en
 
 #### Defined in
 
-[main.ts:110572](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L110572)
+main.ts:112949
 
 ___
-
 
 ### language\_name
 
@@ -153,10 +146,9 @@ English
 
 #### Defined in
 
-[main.ts:110563](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L110563)
+main.ts:112940
 
 ___
-
 
 ### limit
 
@@ -173,10 +165,9 @@ maximum value: 1000
 
 #### Defined in
 
-[main.ts:110605](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L110605)
+main.ts:112982
 
 ___
-
 
 ### location\_code
 
@@ -197,10 +188,9 @@ example:
 
 #### Defined in
 
-[main.ts:110554](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L110554)
+main.ts:112931
 
 ___
-
 
 ### location\_name
 
@@ -221,10 +211,9 @@ United States
 
 #### Defined in
 
-[main.ts:110545](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L110545)
+main.ts:112922
 
 ___
-
 
 ### offset
 
@@ -241,10 +230,9 @@ if you specify the 10 value, the first ten keywords in the results array will be
 
 #### Defined in
 
-[main.ts:110610](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L110610)
+main.ts:112987
 
 ___
-
 
 ### order\_by
 
@@ -273,10 +261,9 @@ Note: if the item_types array contains item types that are different from organi
 
 #### Defined in
 
-[main.ts:110600](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L110600)
+main.ts:112977
 
 ___
-
 
 ### tag
 
@@ -294,7 +281,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-[main.ts:110616](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L110616)
+main.ts:112993
 
 ## Methods
 
@@ -314,10 +301,9 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-[main.ts:110629](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L110629)
+main.ts:113006
 
 ___
-
 
 ### toJSON
 
@@ -335,10 +321,9 @@ ___
 
 #### Defined in
 
-[main.ts:110663](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L110663)
+main.ts:113040
 
 ___
-
 
 ### fromJS
 
@@ -356,8 +341,4 @@ ___
 
 #### Defined in
 
-[main.ts:110656](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L110656)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:113033

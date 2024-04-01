@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IDomainAnalyticsTechnologiesAggregationTechnologiesLiveItem
+[Documentation](../README.md) / [Exports](../modules.md) / IDomainAnalyticsTechnologiesAggregationTechnologiesLiveItem
 
 # Interface: IDomainAnalyticsTechnologiesAggregationTechnologiesLiveItem
 
@@ -39,10 +35,9 @@ number of domains that match the parameters you specified and are using technolo
 
 #### Defined in
 
-[main.ts:72808](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L72808)
+main.ts:75185
 
 ___
-
 
 ### category
 
@@ -52,10 +47,9 @@ technology category id
 
 #### Defined in
 
-[main.ts:72800](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L72800)
+main.ts:75177
 
 ___
-
 
 ### group
 
@@ -65,10 +59,9 @@ technology group id
 
 #### Defined in
 
-[main.ts:72798](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L72798)
+main.ts:75175
 
 ___
-
 
 ### groups\_count
 
@@ -79,10 +72,9 @@ number of domains that match the parameters you specified and are using technolo
 
 #### Defined in
 
-[main.ts:72805](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L72805)
+main.ts:75182
 
 ___
-
 
 ### technologies\_count
 
@@ -93,10 +85,9 @@ number of domains that match the parameters you specified and are using the indi
 
 #### Defined in
 
-[main.ts:72811](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L72811)
+main.ts:75188
 
 ___
-
 
 ### technology
 
@@ -106,10 +97,9 @@ technology name
 
 #### Defined in
 
-[main.ts:72802](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L72802)
+main.ts:75179
 
 ___
-
 
 ### type
 
@@ -119,8 +109,4 @@ type of element
 
 #### Defined in
 
-[main.ts:72796](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L72796)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:75173

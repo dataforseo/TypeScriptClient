@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IOnPageLinksRequestInfo
+[Documentation](../README.md) / [Exports](../modules.md) / IOnPageLinksRequestInfo
 
 # Interface: IOnPageLinksRequestInfo
 
@@ -51,10 +47,9 @@ The full list of possible filters is available by this link.
 
 #### Defined in
 
-[main.ts:148024](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L148024)
+main.ts:153451
 
 ___
-
 
 ### id
 
@@ -68,10 +63,9 @@ example:
 
 #### Defined in
 
-[main.ts:147987](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L147987)
+main.ts:153414
 
 ___
-
 
 ### limit
 
@@ -84,10 +78,9 @@ maximum value: 1000
 
 #### Defined in
 
-[main.ts:148002](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L148002)
+main.ts:153429
 
 ___
-
 
 ### offset
 
@@ -100,10 +93,9 @@ if you specify the 10 value, the first ten links in the results array will be om
 
 #### Defined in
 
-[main.ts:148007](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L148007)
+main.ts:153434
 
 ___
-
 
 ### page\_from
 
@@ -116,10 +108,9 @@ note that in this field you can specify relative URLs only
 
 #### Defined in
 
-[main.ts:147992](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L147992)
+main.ts:153419
 
 ___
-
 
 ### page\_to
 
@@ -132,10 +123,9 @@ note that in this field you can specify relative URLs only
 
 #### Defined in
 
-[main.ts:147997](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L147997)
+main.ts:153424
 
 ___
-
 
 ### tag
 
@@ -149,8 +139,4 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-[main.ts:148030](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L148030)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:153457

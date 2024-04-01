@@ -1,15 +1,11 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IProductInformationTextItem
+[Documentation](../README.md) / [Exports](../modules.md) / IProductInformationTextItem
 
 # Interface: IProductInformationTextItem
 
 ## Hierarchy
 
 - [`IBaseProductInformationItem`](IBaseProductInformationItem.md)
-  
+
   ↳ **`IProductInformationTextItem`**
 
 ## Implemented by
@@ -37,10 +33,9 @@ name of the section related to product information specified in the contents
 
 #### Defined in
 
-[main.ts:172547](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L172547)
+main.ts:178000
 
 ___
-
 
 ### text
 
@@ -50,8 +45,4 @@ text specified under the given title within the section_name
 
 #### Defined in
 
-[main.ts:172549](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L172549)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:178002

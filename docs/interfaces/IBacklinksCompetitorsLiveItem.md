@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IBacklinksCompetitorsLiveItem
+[Documentation](../README.md) / [Exports](../modules.md) / IBacklinksCompetitorsLiveItem
 
 # Interface: IBacklinksCompetitorsLiveItem
 
@@ -33,10 +29,9 @@ indicates the number of backlink intersections with the target specified in the 
 
 #### Defined in
 
-[main.ts:136188](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L136188)
+main.ts:141603
 
 ___
-
 
 ### rank
 
@@ -49,10 +44,9 @@ learn more about the metric and how it is calculated in this help center article
 
 #### Defined in
 
-[main.ts:136186](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L136186)
+main.ts:141601
 
 ___
-
 
 ### target
 
@@ -62,10 +56,9 @@ competitor domain
 
 #### Defined in
 
-[main.ts:136181](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L136181)
+main.ts:141596
 
 ___
-
 
 ### type
 
@@ -75,8 +68,4 @@ type of element
 
 #### Defined in
 
-[main.ts:136179](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L136179)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:141594

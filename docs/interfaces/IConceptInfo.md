@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IConceptInfo
+[Documentation](../README.md) / [Exports](../modules.md) / IConceptInfo
 
 # Interface: IConceptInfo
 
@@ -31,10 +27,9 @@ the concept group of the concept details
 
 #### Defined in
 
-[main.ts:115003](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L115003)
+main.ts:117380
 
 ___
-
 
 ### name
 
@@ -44,8 +39,4 @@ the concept name for the keyword in the concept_group
 
 #### Defined in
 
-[main.ts:115001](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L115001)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:117378

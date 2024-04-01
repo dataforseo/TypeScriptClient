@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / KnowledgeGraphExpandedElement
+[Documentation](../README.md) / [Exports](../modules.md) / KnowledgeGraphExpandedElement
 
 # Class: KnowledgeGraphExpandedElement
 
@@ -56,7 +52,7 @@
 
 #### Defined in
 
-[main.ts:26961](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L26961)
+main.ts:27480
 
 ## Properties
 
@@ -72,10 +68,9 @@ domain in SERP
 
 #### Defined in
 
-[main.ts:26944](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L26944)
+main.ts:27463
 
 ___
-
 
 ### featured\_title
 
@@ -89,10 +84,9 @@ title of a given element
 
 #### Defined in
 
-[main.ts:26940](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L26940)
+main.ts:27459
 
 ___
-
 
 ### images
 
@@ -106,10 +100,9 @@ images of the element
 
 #### Defined in
 
-[main.ts:26950](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L26950)
+main.ts:27469
 
 ___
-
 
 ### snippet
 
@@ -123,10 +116,9 @@ text alongside the link title
 
 #### Defined in
 
-[main.ts:26948](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L26948)
+main.ts:27467
 
 ___
-
 
 ### table
 
@@ -140,10 +132,9 @@ table element
 
 #### Defined in
 
-[main.ts:26957](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L26957)
+main.ts:27476
 
 ___
-
 
 ### timestamp
 
@@ -160,10 +151,9 @@ example:
 
 #### Defined in
 
-[main.ts:26955](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L26955)
+main.ts:27474
 
 ___
-
 
 ### title
 
@@ -177,10 +167,9 @@ title of the result in SERP
 
 #### Defined in
 
-[main.ts:26946](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L26946)
+main.ts:27465
 
 ___
-
 
 ### type
 
@@ -194,10 +183,9 @@ type of element
 
 #### Defined in
 
-[main.ts:26938](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L26938)
+main.ts:27457
 
 ___
-
 
 ### url
 
@@ -211,7 +199,7 @@ relevant URL
 
 #### Defined in
 
-[main.ts:26942](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L26942)
+main.ts:27461
 
 ## Methods
 
@@ -231,10 +219,9 @@ relevant URL
 
 #### Defined in
 
-[main.ts:26970](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L26970)
+main.ts:27489
 
 ___
-
 
 ### toJSON
 
@@ -252,10 +239,9 @@ ___
 
 #### Defined in
 
-[main.ts:26999](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L26999)
+main.ts:27518
 
 ___
-
 
 ### fromJS
 
@@ -273,8 +259,4 @@ ___
 
 #### Defined in
 
-[main.ts:26992](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L26992)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:27511

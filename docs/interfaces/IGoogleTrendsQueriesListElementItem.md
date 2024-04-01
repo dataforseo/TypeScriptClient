@@ -1,15 +1,11 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IGoogleTrendsQueriesListElementItem
+[Documentation](../README.md) / [Exports](../modules.md) / IGoogleTrendsQueriesListElementItem
 
 # Interface: IGoogleTrendsQueriesListElementItem
 
 ## Hierarchy
 
 - [`IBaseGoogleTrendsItem`](IBaseGoogleTrendsItem.md)
-  
+
   ↳ **`IGoogleTrendsQueriesListElementItem`**
 
 ## Implemented by
@@ -39,24 +35,22 @@ Google Trends data from the corresponding item
 
 #### Defined in
 
-[main.ts:121196](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L121196)
+main.ts:123522
 
 ___
-
 
 ### keywords
 
 • `Optional` **keywords**: `string`[]
 
 relevant keywords
-the data included in the google_trends_queries_list element is based on the keywords listed in this array
+the data included in the google_trends_topics_list element is based on the keywords listed in this array
 
 #### Defined in
 
-[main.ts:121194](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L121194)
+main.ts:123520
 
 ___
-
 
 ### position
 
@@ -67,10 +61,9 @@ can take the following values: 1, 2, 3, 4, etc.
 
 #### Defined in
 
-[main.ts:121189](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L121189)
+main.ts:123515
 
 ___
-
 
 ### title
 
@@ -80,8 +73,4 @@ title of the element in Google Trends
 
 #### Defined in
 
-[main.ts:121191](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L121191)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:123517

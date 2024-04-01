@@ -1,15 +1,11 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IKnowledgeGraphCarouselItemSerpElementItem
+[Documentation](../README.md) / [Exports](../modules.md) / IKnowledgeGraphCarouselItemSerpElementItem
 
 # Interface: IKnowledgeGraphCarouselItemSerpElementItem
 
 ## Hierarchy
 
 - [`IBaseSerpElementItem`](IBaseSerpElementItem.md)
-  
+
   ↳ **`IKnowledgeGraphCarouselItemSerpElementItem`**
 
 ## Implemented by
@@ -46,10 +42,9 @@ action:listen_artist
 
 #### Defined in
 
-[main.ts:26309](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L26309)
+main.ts:26828
 
 ___
-
 
 ### items
 
@@ -59,10 +54,9 @@ elements of search results found in SERP
 
 #### Defined in
 
-[main.ts:26313](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L26313)
+main.ts:26832
 
 ___
-
 
 ### link
 
@@ -72,10 +66,9 @@ link of the element
 
 #### Defined in
 
-[main.ts:26311](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L26311)
+main.ts:26830
 
 ___
-
 
 ### position
 
@@ -87,10 +80,9 @@ left, right
 
 #### Defined in
 
-[main.ts:26301](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L26301)
+main.ts:26820
 
 ___
-
 
 ### rank\_absolute
 
@@ -101,10 +93,9 @@ absolute position among all the elements in SERP
 
 #### Defined in
 
-[main.ts:26297](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L26297)
+main.ts:26816
 
 ___
-
 
 ### rank\_group
 
@@ -116,10 +107,9 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-[main.ts:26294](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L26294)
+main.ts:26813
 
 ___
-
 
 ### rectangle
 
@@ -131,10 +121,9 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 #### Defined in
 
-[main.ts:26317](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L26317)
+main.ts:26836
 
 ___
-
 
 ### title
 
@@ -144,10 +133,9 @@ title of the result in SERP
 
 #### Defined in
 
-[main.ts:26305](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L26305)
+main.ts:26824
 
 ___
-
 
 ### xpath
 
@@ -157,8 +145,4 @@ the XPath of the element
 
 #### Defined in
 
-[main.ts:26303](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L26303)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:26822

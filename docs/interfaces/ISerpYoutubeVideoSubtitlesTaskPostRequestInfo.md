@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / ISerpYoutubeVideoSubtitlesTaskPostRequestInfo
+[Documentation](../README.md) / [Exports](../modules.md) / ISerpYoutubeVideoSubtitlesTaskPostRequestInfo
 
 # Interface: ISerpYoutubeVideoSubtitlesTaskPostRequestInfo
 
@@ -45,10 +41,9 @@ only value: desktop
 
 #### Defined in
 
-[main.ts:59648](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L59648)
+main.ts:62023
 
 ___
-
 
 ### language\_code
 
@@ -63,10 +58,9 @@ en
 
 #### Defined in
 
-[main.ts:59644](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L59644)
+main.ts:62019
 
 ___
-
 
 ### language\_name
 
@@ -81,10 +75,9 @@ English
 
 #### Defined in
 
-[main.ts:59637](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L59637)
+main.ts:62012
 
 ___
-
 
 ### location\_code
 
@@ -99,10 +92,9 @@ example:
 
 #### Defined in
 
-[main.ts:59630](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L59630)
+main.ts:62005
 
 ___
-
 
 ### location\_name
 
@@ -117,10 +109,9 @@ United States
 
 #### Defined in
 
-[main.ts:59623](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L59623)
+main.ts:61998
 
 ___
-
 
 ### os
 
@@ -133,10 +124,9 @@ default value: windows
 
 #### Defined in
 
-[main.ts:59653](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L59653)
+main.ts:62028
 
 ___
-
 
 ### pingback\_url
 
@@ -154,10 +144,9 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-[main.ts:59685](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L59685)
+main.ts:62060
 
 ___
-
 
 ### postback\_data
 
@@ -171,10 +160,9 @@ advanced
 
 #### Defined in
 
-[main.ts:59675](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L59675)
+main.ts:62050
 
 ___
-
 
 ### postback\_url
 
@@ -192,10 +180,9 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-[main.ts:59669](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L59669)
+main.ts:62044
 
 ___
-
 
 ### priority
 
@@ -211,10 +198,9 @@ The cost can be calculated on the Pricing page.
 
 #### Defined in
 
-[main.ts:59609](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L59609)
+main.ts:61984
 
 ___
-
 
 ### subtitles\_language
 
@@ -225,10 +211,9 @@ you can get the language code from YouTube Video Info result
 
 #### Defined in
 
-[main.ts:59612](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L59612)
+main.ts:61987
 
 ___
-
 
 ### subtitles\_translate\_language
 
@@ -240,10 +225,9 @@ possible values:
 
 #### Defined in
 
-[main.ts:59616](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L59616)
+main.ts:61991
 
 ___
-
 
 ### tag
 
@@ -257,10 +241,9 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-[main.ts:59659](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L59659)
+main.ts:62034
 
 ___
-
 
 ### video\_id
 
@@ -274,8 +257,4 @@ Y8Wu4rSNJms
 
 #### Defined in
 
-[main.ts:59601](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L59601)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:61976

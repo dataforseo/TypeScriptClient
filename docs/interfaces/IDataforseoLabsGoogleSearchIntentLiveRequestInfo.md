@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IDataforseoLabsGoogleSearchIntentLiveRequestInfo
+[Documentation](../README.md) / [Exports](../modules.md) / IDataforseoLabsGoogleSearchIntentLiveRequestInfo
 
 # Interface: IDataforseoLabsGoogleSearchIntentLiveRequestInfo
 
@@ -37,10 +33,9 @@ the keywords will be converted to lowercase format
 
 #### Defined in
 
-[main.ts:82742](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L82742)
+main.ts:85119
 
 ___
-
 
 ### language\_code
 
@@ -55,10 +50,9 @@ en
 
 #### Defined in
 
-[main.ts:82781](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L82781)
+main.ts:85158
 
 ___
-
 
 ### language\_name
 
@@ -98,10 +92,9 @@ English
 
 #### Defined in
 
-[main.ts:82774](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L82774)
+main.ts:85151
 
 ___
-
 
 ### tag
 
@@ -115,8 +108,4 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-[main.ts:82787](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L82787)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:85164

@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / DataforseoLabsBingCompetitorsDomainLiveRequestInfo
+[Documentation](../README.md) / [Exports](../modules.md) / DataforseoLabsBingCompetitorsDomainLiveRequestInfo
 
 # Class: DataforseoLabsBingCompetitorsDomainLiveRequestInfo
 
@@ -61,7 +57,7 @@
 
 #### Defined in
 
-[main.ts:102952](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L102952)
+main.ts:105329
 
 ## Properties
 
@@ -97,10 +93,9 @@ slideshare.net
 
 #### Defined in
 
-[main.ts:102936](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L102936)
+main.ts:105313
 
 ___
-
 
 ### filters
 
@@ -126,10 +121,9 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 #### Defined in
 
-[main.ts:102882](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L102882)
+main.ts:105259
 
 ___
-
 
 ### intersecting\_domains
 
@@ -147,10 +141,9 @@ Note: you can specify up to 20 domains in this array
 
 #### Defined in
 
-[main.ts:102942](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L102942)
+main.ts:105319
 
 ___
-
 
 ### item\_types
 
@@ -171,10 +164,9 @@ default value:
 
 #### Defined in
 
-[main.ts:102868](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L102868)
+main.ts:105245
 
 ___
-
 
 ### language\_code
 
@@ -194,10 +186,9 @@ en
 
 #### Defined in
 
-[main.ts:102859](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L102859)
+main.ts:105236
 
 ___
-
 
 ### language\_name
 
@@ -217,10 +208,9 @@ English
 
 #### Defined in
 
-[main.ts:102851](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L102851)
+main.ts:105228
 
 ___
-
 
 ### limit
 
@@ -237,10 +227,9 @@ maximum value: 1000
 
 #### Defined in
 
-[main.ts:102904](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L102904)
+main.ts:105281
 
 ___
-
 
 ### location\_code
 
@@ -261,10 +250,9 @@ example:
 
 #### Defined in
 
-[main.ts:102843](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L102843)
+main.ts:105220
 
 ___
-
 
 ### location\_name
 
@@ -285,10 +273,9 @@ United States
 
 #### Defined in
 
-[main.ts:102834](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L102834)
+main.ts:105211
 
 ___
-
 
 ### max\_rank\_group
 
@@ -305,10 +292,9 @@ if you specify 10 here, we will extract competitors from the top 10 Bing search 
 
 #### Defined in
 
-[main.ts:102914](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L102914)
+main.ts:105291
 
 ___
-
 
 ### offset
 
@@ -325,10 +311,9 @@ if you specify the 10 value, the first ten keywords in the results array will be
 
 #### Defined in
 
-[main.ts:102909](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L102909)
+main.ts:105286
 
 ___
-
 
 ### order\_by
 
@@ -357,10 +342,9 @@ Note: if the item_types array contains item types that are different from organi
 
 #### Defined in
 
-[main.ts:102899](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L102899)
+main.ts:105276
 
 ___
-
 
 ### tag
 
@@ -378,10 +362,9 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-[main.ts:102948](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L102948)
+main.ts:105325
 
 ___
-
 
 ### target
 
@@ -398,7 +381,7 @@ the domain should be specified without https:// and www.
 
 #### Defined in
 
-[main.ts:102825](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L102825)
+main.ts:105202
 
 ## Methods
 
@@ -418,10 +401,9 @@ the domain should be specified without https:// and www.
 
 #### Defined in
 
-[main.ts:102961](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L102961)
+main.ts:105338
 
 ___
-
 
 ### toJSON
 
@@ -439,10 +421,9 @@ ___
 
 #### Defined in
 
-[main.ts:103007](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L103007)
+main.ts:105384
 
 ___
-
 
 ### fromJS
 
@@ -460,8 +441,4 @@ ___
 
 #### Defined in
 
-[main.ts:103000](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L103000)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:105377

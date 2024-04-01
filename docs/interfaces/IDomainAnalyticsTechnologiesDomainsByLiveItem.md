@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IDomainAnalyticsTechnologiesDomainsByLiveItem
+[Documentation](../README.md) / [Exports](../modules.md) / IDomainAnalyticsTechnologiesDomainsByLiveItem
 
 # Interface: IDomainAnalyticsTechnologiesDomainsByLiveItem
 
@@ -46,10 +42,9 @@ code of the language that content on the target domain is written with
 
 #### Defined in
 
-[main.ts:74402](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L74402)
+main.ts:76779
 
 ___
-
 
 ### country\_iso\_code
 
@@ -60,10 +55,9 @@ ISO code of the country that target domain is determined to belong to
 
 #### Defined in
 
-[main.ts:74396](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L74396)
+main.ts:76773
 
 ___
-
 
 ### description
 
@@ -73,10 +67,9 @@ domain meta description
 
 #### Defined in
 
-[main.ts:74383](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L74383)
+main.ts:76760
 
 ___
-
 
 ### domain
 
@@ -86,10 +79,9 @@ specified domain name
 
 #### Defined in
 
-[main.ts:74379](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L74379)
+main.ts:76756
 
 ___
-
 
 ### domain\_rank
 
@@ -100,10 +92,9 @@ learn more about the metric and how it is calculated in this help center article
 
 #### Defined in
 
-[main.ts:74388](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L74388)
+main.ts:76765
 
 ___
-
 
 ### emails
 
@@ -114,10 +105,9 @@ emails indicated on the target website
 
 #### Defined in
 
-[main.ts:74408](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L74408)
+main.ts:76785
 
 ___
-
 
 ### language\_code
 
@@ -128,10 +118,9 @@ code of the language that target domain is determined to be associated with
 
 #### Defined in
 
-[main.ts:74399](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L74399)
+main.ts:76776
 
 ___
-
 
 ### last\_visited
 
@@ -144,10 +133,9 @@ example:
 
 #### Defined in
 
-[main.ts:74393](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L74393)
+main.ts:76770
 
 ___
-
 
 ### meta\_keywords
 
@@ -157,10 +145,9 @@ domain meta keywords
 
 #### Defined in
 
-[main.ts:74385](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L74385)
+main.ts:76762
 
 ___
-
 
 ### phone\_numbers
 
@@ -171,10 +158,9 @@ contact phone numbers indicated on the target website
 
 #### Defined in
 
-[main.ts:74405](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L74405)
+main.ts:76782
 
 ___
-
 
 ### social\_graph\_urls
 
@@ -185,10 +171,9 @@ social media URLs detected in the social graphs of the target website
 
 #### Defined in
 
-[main.ts:74411](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L74411)
+main.ts:76788
 
 ___
-
 
 ### technologies
 
@@ -200,10 +185,9 @@ to get a full list of technologies and their structure, refer to the technologie
 
 #### Defined in
 
-[main.ts:74415](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L74415)
+main.ts:76792
 
 ___
-
 
 ### title
 
@@ -213,10 +197,9 @@ domain meta title
 
 #### Defined in
 
-[main.ts:74381](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L74381)
+main.ts:76758
 
 ___
-
 
 ### type
 
@@ -226,8 +209,4 @@ type of element
 
 #### Defined in
 
-[main.ts:74377](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L74377)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:76754

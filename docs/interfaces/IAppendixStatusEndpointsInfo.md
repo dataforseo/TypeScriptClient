@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IAppendixStatusEndpointsInfo
+[Documentation](../README.md) / [Exports](../modules.md) / IAppendixStatusEndpointsInfo
 
 # Interface: IAppendixStatusEndpointsInfo
 
@@ -36,10 +32,9 @@ postback/pingback
 
 #### Defined in
 
-[main.ts:212743](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L212743)
+main.ts:218396
 
 ___
-
 
 ### status
 
@@ -57,8 +52,4 @@ send_delay
 
 #### Defined in
 
-[main.ts:212753](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L212753)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:218406

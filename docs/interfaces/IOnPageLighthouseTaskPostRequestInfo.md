@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IOnPageLighthouseTaskPostRequestInfo
+[Documentation](../README.md) / [Exports](../modules.md) / IOnPageLighthouseTaskPostRequestInfo
 
 # Interface: IOnPageLighthouseTaskPostRequestInfo
 
@@ -42,19 +38,17 @@ if you ignore this field, we will return data for all audits
 use this field to get data for specific audits you indicate here
 note that some audits do not belong to a specific category and are stand-alone page quality measurements
 in general, there can be several use cases:
-
 1. if you ignore categories, you can use this field to get data for the specified audits only
-   for example, if you ignore "categories" and specify "audits": ["metrics/cumulative-layout-shift","metrics/largest-contentful-paint","metrics/total-blocking-time"], you will get data only for these audits
+for example, if you ignore "categories" and specify "audits": ["metrics/cumulative-layout-shift","metrics/largest-contentful-paint","metrics/total-blocking-time"], you will get data only for these audits
 2. if you specify a category, you can use this field to additionally receive audits that do not belong to the category(-ies) you specified
-   for example, if you specify "categories": ["seo"] and "audits": ["metrics/cumulative-layout-shift","metrics/largest-contentful-paint","metrics/total-blocking-time"], you will get only these audits under “performance” and all audits under “seo”
-   you can get the full list of possible audits here
+for example, if you specify "categories": ["seo"] and "audits": ["metrics/cumulative-layout-shift","metrics/largest-contentful-paint","metrics/total-blocking-time"], you will get only these audits under “performance” and all audits under “seo”
+you can get the full list of possible audits here
 
 #### Defined in
 
-[main.ts:154255](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L154255)
+main.ts:159682
 
 ___
-
 
 ### categories
 
@@ -70,10 +64,9 @@ seo, pwa, performance, best_practices, accessibility
 
 #### Defined in
 
-[main.ts:154242](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L154242)
+main.ts:159669
 
 ___
-
 
 ### for\_mobile
 
@@ -87,10 +80,9 @@ default value: false
 
 #### Defined in
 
-[main.ts:154234](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L154234)
+main.ts:159661
 
 ___
-
 
 ### language\_code
 
@@ -104,10 +96,9 @@ en
 
 #### Defined in
 
-[main.ts:154272](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L154272)
+main.ts:159699
 
 ___
-
 
 ### language\_name
 
@@ -121,10 +112,9 @@ English
 
 #### Defined in
 
-[main.ts:154266](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L154266)
+main.ts:159693
 
 ___
-
 
 ### pingback\_url
 
@@ -142,10 +132,9 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-[main.ts:154288](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L154288)
+main.ts:159715
 
 ___
-
 
 ### postback\_url
 
@@ -163,10 +152,9 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-[main.ts:154298](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L154298)
+main.ts:159725
 
 ___
-
 
 ### tag
 
@@ -180,10 +168,9 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-[main.ts:154278](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L154278)
+main.ts:159705
 
 ___
-
 
 ### url
 
@@ -197,10 +184,9 @@ https://dataforseo.com/
 
 #### Defined in
 
-[main.ts:154228](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L154228)
+main.ts:159655
 
 ___
-
 
 ### version
 
@@ -213,8 +199,4 @@ the list of available versions is available through the Lighthouse Versions endp
 
 #### Defined in
 
-[main.ts:154260](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L154260)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:159687

@@ -1,15 +1,11 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IScriptResourceElementItem
+[Documentation](../README.md) / [Exports](../modules.md) / IScriptResourceElementItem
 
 # Interface: IScriptResourceElementItem
 
 ## Hierarchy
 
 - [`IBaseOnPageResourceItemInfo`](IBaseOnPageResourceItemInfo.md)
-  
+
   ↳ **`IScriptResourceElementItem`**
 
 ## Implemented by
@@ -55,10 +51,9 @@ any, none, image, sitemap, robots, script, stylesheet, redirect, html, text, oth
 
 #### Defined in
 
-[main.ts:146253](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L146253)
+main.ts:152037
 
 ___
-
 
 ### cache\_control
 
@@ -68,10 +63,9 @@ instructions for caching
 
 #### Defined in
 
-[main.ts:146239](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L146239)
+main.ts:152025
 
 ___
-
 
 ### checks
 
@@ -86,10 +80,9 @@ contents of the array depend on the resource_type
 
 #### Defined in
 
-[main.ts:146242](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L146242)
+main.ts:152028
 
 ___
-
 
 ### content\_encoding
 
@@ -99,10 +92,9 @@ type of encoding
 
 #### Defined in
 
-[main.ts:146246](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L146246)
+main.ts:152030
 
 ___
-
 
 ### encoded\_size
 
@@ -113,10 +105,9 @@ indicates the size of the encoded resource measured in bytes
 
 #### Defined in
 
-[main.ts:146227](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L146227)
+main.ts:152013
 
 ___
-
 
 ### fetch\_time
 
@@ -129,10 +120,9 @@ example:
 
 #### Defined in
 
-[main.ts:146235](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L146235)
+main.ts:152021
 
 ___
-
 
 ### fetch\_timing
 
@@ -142,10 +132,9 @@ resource fething time range
 
 #### Defined in
 
-[main.ts:146237](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L146237)
+main.ts:152023
 
 ___
-
 
 ### last\_modified
 
@@ -156,10 +145,9 @@ if there is no data, the value will be null
 
 #### Defined in
 
-[main.ts:146258](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L146258)
+main.ts:152042
 
 ___
-
 
 ### location
 
@@ -170,10 +158,9 @@ indicates the URL to redirect a page to
 
 #### Defined in
 
-[main.ts:146219](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L146219)
+main.ts:152005
 
 ___
-
 
 ### media\_type
 
@@ -183,10 +170,9 @@ types of media used to display a resource
 
 #### Defined in
 
-[main.ts:146248](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L146248)
+main.ts:152032
 
 ___
-
 
 ### meta
 
@@ -199,10 +185,9 @@ to obtain resource’s meta from a particular url, specify that URL when setting
 
 #### Defined in
 
-[main.ts:146214](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L146214)
+main.ts:152000
 
 ___
-
 
 ### resource\_errors
 
@@ -212,10 +197,9 @@ resource errors and warnings
 
 #### Defined in
 
-[main.ts:146244](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L146244)
+main.ts:152044
 
 ___
-
 
 ### server
 
@@ -225,10 +209,9 @@ server version
 
 #### Defined in
 
-[main.ts:146255](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L146255)
+main.ts:152039
 
 ___
-
 
 ### size
 
@@ -239,10 +222,9 @@ indicates the size of a given resource measured in bytes
 
 #### Defined in
 
-[main.ts:146224](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L146224)
+main.ts:152010
 
 ___
-
 
 ### status\_code
 
@@ -252,10 +234,9 @@ status code of the page where a given resource is located
 
 #### Defined in
 
-[main.ts:146216](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L146216)
+main.ts:152002
 
 ___
-
 
 ### total\_transfer\_size
 
@@ -266,10 +247,9 @@ indicates the compressed size of a given resource in bytes
 
 #### Defined in
 
-[main.ts:146230](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L146230)
+main.ts:152016
 
 ___
-
 
 ### url
 
@@ -279,8 +259,4 @@ resource URL
 
 #### Defined in
 
-[main.ts:146221](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L146221)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:152007

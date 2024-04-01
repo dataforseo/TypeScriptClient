@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IAppDataAppleAppListTaskPostRequestInfo
+[Documentation](../README.md) / [Exports](../modules.md) / IAppDataAppleAppListTaskPostRequestInfo
 
 # Interface: IAppDataAppleAppListTaskPostRequestInfo
 
@@ -46,10 +42,9 @@ you can review the full list of available categories here or by making a separat
 
 #### Defined in
 
-[main.ts:185089](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L185089)
+main.ts:190542
 
 ___
-
 
 ### app\_collection
 
@@ -63,10 +58,9 @@ top_free_ios, top_paid_ios, top_grossing_ios, new_ios, new_free_ios, new_paid_io
 
 #### Defined in
 
-[main.ts:185036](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L185036)
+main.ts:190489
 
 ___
-
 
 ### depth
 
@@ -84,10 +78,9 @@ maximum value: 1000
 
 #### Defined in
 
-[main.ts:185082](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L185082)
+main.ts:190535
 
 ___
-
 
 ### language\_code
 
@@ -102,10 +95,9 @@ en
 
 #### Defined in
 
-[main.ts:185064](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L185064)
+main.ts:190517
 
 ___
-
 
 ### language\_name
 
@@ -120,10 +112,9 @@ English
 
 #### Defined in
 
-[main.ts:185057](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L185057)
+main.ts:190510
 
 ___
-
 
 ### location\_code
 
@@ -138,10 +129,9 @@ example:
 
 #### Defined in
 
-[main.ts:185050](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L185050)
+main.ts:190503
 
 ___
-
 
 ### location\_name
 
@@ -156,10 +146,9 @@ West Los Angeles,California,United States
 
 #### Defined in
 
-[main.ts:185043](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L185043)
+main.ts:190496
 
 ___
-
 
 ### pingback\_url
 
@@ -177,10 +166,9 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-[main.ts:185121](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L185121)
+main.ts:190574
 
 ___
-
 
 ### postback\_data
 
@@ -194,10 +182,9 @@ advanced
 
 #### Defined in
 
-[main.ts:185111](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L185111)
+main.ts:190564
 
 ___
-
 
 ### postback\_url
 
@@ -215,10 +202,9 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-[main.ts:185105](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L185105)
+main.ts:190558
 
 ___
-
 
 ### priority
 
@@ -234,10 +220,9 @@ The cost can be calculated on the Pricing page.
 
 #### Defined in
 
-[main.ts:185072](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L185072)
+main.ts:190525
 
 ___
-
 
 ### tag
 
@@ -251,8 +236,4 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-[main.ts:185095](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L185095)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:190548

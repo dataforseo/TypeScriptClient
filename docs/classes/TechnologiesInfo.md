@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / TechnologiesInfo
+[Documentation](../README.md) / [Exports](../modules.md) / TechnologiesInfo
 
 # Class: TechnologiesInfo
 
@@ -63,7 +59,7 @@
 
 #### Defined in
 
-[main.ts:21923](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L21923)
+main.ts:22442
 
 ## Properties
 
@@ -81,10 +77,9 @@
 
 #### Defined in
 
-[main.ts:21904](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L21904)
+main.ts:22423
 
 ___
-
 
 ### analytics
 
@@ -100,10 +95,9 @@ ___
 
 #### Defined in
 
-[main.ts:21905](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L21905)
+main.ts:22424
 
 ___
-
 
 ### business\_tools
 
@@ -119,10 +113,9 @@ ___
 
 #### Defined in
 
-[main.ts:21908](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L21908)
+main.ts:22427
 
 ___
-
 
 ### communication
 
@@ -138,10 +131,9 @@ ___
 
 #### Defined in
 
-[main.ts:21918](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L21918)
+main.ts:22437
 
 ___
-
 
 ### content
 
@@ -157,10 +149,9 @@ ___
 
 #### Defined in
 
-[main.ts:21915](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L21915)
+main.ts:22434
 
 ___
-
 
 ### location
 
@@ -176,10 +167,9 @@ ___
 
 #### Defined in
 
-[main.ts:21914](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L21914)
+main.ts:22433
 
 ___
-
 
 ### marketing
 
@@ -195,10 +185,9 @@ ___
 
 #### Defined in
 
-[main.ts:21917](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L21917)
+main.ts:22436
 
 ___
-
 
 ### media
 
@@ -214,10 +203,9 @@ ___
 
 #### Defined in
 
-[main.ts:21916](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L21916)
+main.ts:22435
 
 ___
-
 
 ### other
 
@@ -233,10 +221,9 @@ ___
 
 #### Defined in
 
-[main.ts:21910](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L21910)
+main.ts:22429
 
 ___
-
 
 ### privacy
 
@@ -252,10 +239,9 @@ ___
 
 #### Defined in
 
-[main.ts:21912](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L21912)
+main.ts:22431
 
 ___
-
 
 ### sales
 
@@ -271,10 +257,9 @@ ___
 
 #### Defined in
 
-[main.ts:21909](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L21909)
+main.ts:22428
 
 ___
-
 
 ### security
 
@@ -290,10 +275,9 @@ ___
 
 #### Defined in
 
-[main.ts:21907](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L21907)
+main.ts:22426
 
 ___
-
 
 ### servers
 
@@ -309,10 +293,9 @@ ___
 
 #### Defined in
 
-[main.ts:21913](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L21913)
+main.ts:22432
 
 ___
-
 
 ### user\_generated\_content
 
@@ -328,10 +311,9 @@ ___
 
 #### Defined in
 
-[main.ts:21911](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L21911)
+main.ts:22430
 
 ___
-
 
 ### utilities
 
@@ -347,10 +329,9 @@ ___
 
 #### Defined in
 
-[main.ts:21919](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L21919)
+main.ts:22438
 
 ___
-
 
 ### web\_development
 
@@ -366,7 +347,7 @@ ___
 
 #### Defined in
 
-[main.ts:21906](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L21906)
+main.ts:22425
 
 ## Methods
 
@@ -386,10 +367,9 @@ ___
 
 #### Defined in
 
-[main.ts:21932](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L21932)
+main.ts:22451
 
 ___
-
 
 ### toJSON
 
@@ -407,10 +387,9 @@ ___
 
 #### Defined in
 
-[main.ts:22060](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L22060)
+main.ts:22579
 
 ___
-
 
 ### fromJS
 
@@ -428,8 +407,4 @@ ___
 
 #### Defined in
 
-[main.ts:22053](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L22053)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:22572

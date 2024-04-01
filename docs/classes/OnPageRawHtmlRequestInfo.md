@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / OnPageRawHtmlRequestInfo
+[Documentation](../README.md) / [Exports](../modules.md) / OnPageRawHtmlRequestInfo
 
 # Class: OnPageRawHtmlRequestInfo
 
@@ -49,7 +45,7 @@
 
 #### Defined in
 
-[main.ts:151148](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L151148)
+main.ts:156575
 
 ## Properties
 
@@ -69,10 +65,9 @@ example:
 
 #### Defined in
 
-[main.ts:151139](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L151139)
+main.ts:156566
 
 ___
-
 
 ### url
 
@@ -89,7 +84,7 @@ Note: this field is optional if the task was set using the Instant Pages endpoin
 
 #### Defined in
 
-[main.ts:151144](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L151144)
+main.ts:156571
 
 ## Methods
 
@@ -109,10 +104,9 @@ Note: this field is optional if the task was set using the Instant Pages endpoin
 
 #### Defined in
 
-[main.ts:151157](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L151157)
+main.ts:156584
 
 ___
-
 
 ### toJSON
 
@@ -130,10 +124,9 @@ ___
 
 #### Defined in
 
-[main.ts:151175](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L151175)
+main.ts:156602
 
 ___
-
 
 ### fromJS
 
@@ -151,8 +144,4 @@ ___
 
 #### Defined in
 
-[main.ts:151168](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L151168)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:156595

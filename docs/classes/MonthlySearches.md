@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / MonthlySearches
+[Documentation](../README.md) / [Exports](../modules.md) / MonthlySearches
 
 # Class: MonthlySearches
 
@@ -50,7 +46,7 @@
 
 #### Defined in
 
-[main.ts:78808](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L78808)
+main.ts:81185
 
 ## Properties
 
@@ -66,10 +62,9 @@ month
 
 #### Defined in
 
-[main.ts:78802](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L78802)
+main.ts:81179
 
 ___
-
 
 ### search\_volume
 
@@ -83,10 +78,9 @@ monthly average search volume rate
 
 #### Defined in
 
-[main.ts:78804](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L78804)
+main.ts:81181
 
 ___
-
 
 ### year
 
@@ -100,7 +94,7 @@ year
 
 #### Defined in
 
-[main.ts:78800](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L78800)
+main.ts:81177
 
 ## Methods
 
@@ -120,10 +114,9 @@ year
 
 #### Defined in
 
-[main.ts:78817](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L78817)
+main.ts:81194
 
 ___
-
 
 ### toJSON
 
@@ -141,10 +134,9 @@ ___
 
 #### Defined in
 
-[main.ts:78836](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L78836)
+main.ts:81213
 
 ___
-
 
 ### fromJS
 
@@ -162,8 +154,4 @@ ___
 
 #### Defined in
 
-[main.ts:78829](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L78829)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:81206

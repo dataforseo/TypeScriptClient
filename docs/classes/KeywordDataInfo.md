@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / KeywordDataInfo
+[Documentation](../README.md) / [Exports](../modules.md) / KeywordDataInfo
 
 # Class: KeywordDataInfo
 
@@ -57,7 +53,7 @@
 
 #### Defined in
 
-[main.ts:79660](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L79660)
+main.ts:82037
 
 ## Properties
 
@@ -74,10 +70,9 @@ this object provides the average number of backlinks, referring pages and domain
 
 #### Defined in
 
-[main.ts:79653](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L79653)
+main.ts:82030
 
 ___
-
 
 ### impressions\_info
 
@@ -94,10 +89,9 @@ learn more about impressions in this help center article
 
 #### Defined in
 
-[main.ts:79647](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L79647)
+main.ts:82024
 
 ___
-
 
 ### keyword
 
@@ -111,10 +105,9 @@ returned keyword idea
 
 #### Defined in
 
-[main.ts:79634](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L79634)
+main.ts:82011
 
 ___
-
 
 ### keyword\_info
 
@@ -128,10 +121,9 @@ keyword data for the returned keyword idea
 
 #### Defined in
 
-[main.ts:79640](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L79640)
+main.ts:82017
 
 ___
-
 
 ### keyword\_properties
 
@@ -145,10 +137,9 @@ additional information about the keyword
 
 #### Defined in
 
-[main.ts:79642](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L79642)
+main.ts:82019
 
 ___
-
 
 ### language\_code
 
@@ -162,10 +153,9 @@ language code in a POST array
 
 #### Defined in
 
-[main.ts:79638](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L79638)
+main.ts:82015
 
 ___
-
 
 ### location\_code
 
@@ -179,10 +169,9 @@ location code in a POST array
 
 #### Defined in
 
-[main.ts:79636](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L79636)
+main.ts:82013
 
 ___
-
 
 ### se\_type
 
@@ -196,10 +185,9 @@ search engine type
 
 #### Defined in
 
-[main.ts:79632](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L79632)
+main.ts:82009
 
 ___
-
 
 ### search\_intent\_info
 
@@ -214,10 +202,9 @@ learn about search intent in this help center article
 
 #### Defined in
 
-[main.ts:79656](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L79656)
+main.ts:82033
 
 ___
-
 
 ### serp\_info
 
@@ -232,7 +219,7 @@ the value will be null if you didn’t set the field include_serp_info to true i
 
 #### Defined in
 
-[main.ts:79650](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L79650)
+main.ts:82027
 
 ## Methods
 
@@ -252,10 +239,9 @@ the value will be null if you didn’t set the field include_serp_info to true i
 
 #### Defined in
 
-[main.ts:79669](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L79669)
+main.ts:82046
 
 ___
-
 
 ### toJSON
 
@@ -273,10 +259,9 @@ ___
 
 #### Defined in
 
-[main.ts:79695](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L79695)
+main.ts:82072
 
 ___
-
 
 ### fromJS
 
@@ -294,8 +279,4 @@ ___
 
 #### Defined in
 
-[main.ts:79688](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L79688)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:82065

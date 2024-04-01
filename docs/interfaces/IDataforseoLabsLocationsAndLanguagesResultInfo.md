@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IDataforseoLabsLocationsAndLanguagesResultInfo
+[Documentation](../README.md) / [Exports](../modules.md) / IDataforseoLabsLocationsAndLanguagesResultInfo
 
 # Interface: IDataforseoLabsLocationsAndLanguagesResultInfo
 
@@ -36,10 +32,9 @@ contains the languages which are supported for a specific location
 
 #### Defined in
 
-[main.ts:78017](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L78017)
+main.ts:80394
 
 ___
-
 
 ### country\_iso\_code
 
@@ -49,10 +44,9 @@ ISO country code of the location
 
 #### Defined in
 
-[main.ts:78010](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L78010)
+main.ts:80387
 
 ___
-
 
 ### location\_code
 
@@ -62,10 +56,9 @@ location code
 
 #### Defined in
 
-[main.ts:78003](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L78003)
+main.ts:80380
 
 ___
-
 
 ### location\_code\_parent
 
@@ -76,10 +69,9 @@ the value will be null as Country is the only supported location_type for this A
 
 #### Defined in
 
-[main.ts:78008](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L78008)
+main.ts:80385
 
 ___
-
 
 ### location\_name
 
@@ -89,10 +81,9 @@ full name of the location
 
 #### Defined in
 
-[main.ts:78005](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L78005)
+main.ts:80382
 
 ___
-
 
 ### location\_type
 
@@ -104,8 +95,4 @@ Country
 
 #### Defined in
 
-[main.ts:78014](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L78014)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:80391

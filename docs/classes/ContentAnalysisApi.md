@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / ContentAnalysisApi
+[Documentation](../README.md) / [Exports](../modules.md) / ContentAnalysisApi
 
 # Class: ContentAnalysisApi
 
@@ -63,7 +59,7 @@
 
 #### Defined in
 
-[main.ts:12746](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L12746)
+main.ts:13197
 
 ## Properties
 
@@ -73,10 +69,9 @@
 
 #### Defined in
 
-[main.ts:12743](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L12743)
+main.ts:13194
 
 ___
-
 
 ### http
 
@@ -90,10 +85,9 @@ ___
 
 #### Defined in
 
-[main.ts:12742](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L12742)
+main.ts:13193
 
 ___
-
 
 ### jsonParseReviver
 
@@ -116,7 +110,7 @@ ___
 
 #### Defined in
 
-[main.ts:12744](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L12744)
+main.ts:13195
 
 ## Methods
 
@@ -138,10 +132,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:13155](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L13155)
+main.ts:13606
 
 ___
-
 
 ### contentAnalysisAvailableFilters
 
@@ -155,10 +148,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:12796](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L12796)
+main.ts:13247
 
 ___
-
 
 ### contentAnalysisCategories
 
@@ -172,10 +164,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:12907](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L12907)
+main.ts:13358
 
 ___
-
 
 ### contentAnalysisIdList
 
@@ -195,10 +186,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:12755](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L12755)
+main.ts:13206
 
 ___
-
 
 ### contentAnalysisLanguages
 
@@ -212,10 +202,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:12870](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L12870)
+main.ts:13321
 
 ___
-
 
 ### contentAnalysisLocations
 
@@ -229,10 +218,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:12833](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L12833)
+main.ts:13284
 
 ___
-
 
 ### contentAnalysisSummaryLive
 
@@ -252,10 +240,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:12987](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L12987)
+main.ts:13438
 
 ___
-
 
 ### phraseTrendsLive
 
@@ -275,10 +262,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:13113](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L13113)
+main.ts:13564
 
 ___
-
 
 ### processCategoryTrendsLive
 
@@ -296,10 +282,9 @@ ___
 
 #### Defined in
 
-[main.ts:13175](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L13175)
+main.ts:13626
 
 ___
-
 
 ### processContentAnalysisAvailableFilters
 
@@ -317,10 +302,9 @@ ___
 
 #### Defined in
 
-[main.ts:12812](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L12812)
+main.ts:13263
 
 ___
-
 
 ### processContentAnalysisCategories
 
@@ -338,10 +322,9 @@ ___
 
 #### Defined in
 
-[main.ts:12923](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L12923)
+main.ts:13374
 
 ___
-
 
 ### processContentAnalysisIdList
 
@@ -359,10 +342,9 @@ ___
 
 #### Defined in
 
-[main.ts:12775](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L12775)
+main.ts:13226
 
 ___
-
 
 ### processContentAnalysisLanguages
 
@@ -380,10 +362,9 @@ ___
 
 #### Defined in
 
-[main.ts:12886](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L12886)
+main.ts:13337
 
 ___
-
 
 ### processContentAnalysisLocations
 
@@ -401,10 +382,9 @@ ___
 
 #### Defined in
 
-[main.ts:12849](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L12849)
+main.ts:13300
 
 ___
-
 
 ### processContentAnalysisSummaryLive
 
@@ -422,10 +402,9 @@ ___
 
 #### Defined in
 
-[main.ts:13007](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L13007)
+main.ts:13458
 
 ___
-
 
 ### processPhraseTrendsLive
 
@@ -443,10 +422,9 @@ ___
 
 #### Defined in
 
-[main.ts:13133](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L13133)
+main.ts:13584
 
 ___
-
 
 ### processRatingDistributionLive
 
@@ -464,10 +442,9 @@ ___
 
 #### Defined in
 
-[main.ts:13091](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L13091)
+main.ts:13542
 
 ___
-
 
 ### processSearchLive
 
@@ -485,10 +462,9 @@ ___
 
 #### Defined in
 
-[main.ts:12965](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L12965)
+main.ts:13416
 
 ___
-
 
 ### processSentimentAnalysisLive
 
@@ -506,10 +482,9 @@ ___
 
 #### Defined in
 
-[main.ts:13049](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L13049)
+main.ts:13500
 
 ___
-
 
 ### ratingDistributionLive
 
@@ -529,10 +504,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:13071](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L13071)
+main.ts:13522
 
 ___
-
 
 ### searchLive
 
@@ -552,10 +526,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:12945](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L12945)
+main.ts:13396
 
 ___
-
 
 ### sentimentAnalysisLive
 
@@ -575,8 +548,4 @@ Successful operation
 
 #### Defined in
 
-[main.ts:13029](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L13029)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:13480

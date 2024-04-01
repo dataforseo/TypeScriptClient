@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IAppendixDataforseoLabsPriceData
+[Documentation](../README.md) / [Exports](../modules.md) / IAppendixDataforseoLabsPriceData
 
 # Interface: IAppendixDataforseoLabsPriceData
 
@@ -61,10 +57,9 @@
 
 #### Defined in
 
-[main.ts:211720](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L211720)
+main.ts:217313
 
 ___
-
 
 ### app\_intersection
 
@@ -72,10 +67,9 @@ ___
 
 #### Defined in
 
-[main.ts:211721](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L211721)
+main.ts:217314
 
 ___
-
 
 ### bulk\_app\_metrics
 
@@ -83,10 +77,9 @@ ___
 
 #### Defined in
 
-[main.ts:211722](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L211722)
+main.ts:217315
 
 ___
-
 
 ### bulk\_keyword\_difficulty
 
@@ -94,10 +87,9 @@ ___
 
 #### Defined in
 
-[main.ts:211723](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L211723)
+main.ts:217316
 
 ___
-
 
 ### bulk\_search\_volume
 
@@ -105,10 +97,9 @@ ___
 
 #### Defined in
 
-[main.ts:211724](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L211724)
+main.ts:217317
 
 ___
-
 
 ### bulk\_traffic\_estimation
 
@@ -116,10 +107,9 @@ ___
 
 #### Defined in
 
-[main.ts:211725](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L211725)
+main.ts:217318
 
 ___
-
 
 ### categories
 
@@ -127,10 +117,9 @@ ___
 
 #### Defined in
 
-[main.ts:211726](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L211726)
+main.ts:217319
 
 ___
-
 
 ### categories\_for\_domain
 
@@ -138,10 +127,9 @@ ___
 
 #### Defined in
 
-[main.ts:211727](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L211727)
+main.ts:217320
 
 ___
-
 
 ### competitors\_domain
 
@@ -149,10 +137,9 @@ ___
 
 #### Defined in
 
-[main.ts:211728](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L211728)
+main.ts:217321
 
 ___
-
 
 ### domain\_intersection
 
@@ -160,10 +147,9 @@ ___
 
 #### Defined in
 
-[main.ts:211729](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L211729)
+main.ts:217322
 
 ___
-
 
 ### domain\_metrics\_by\_categories
 
@@ -171,10 +157,9 @@ ___
 
 #### Defined in
 
-[main.ts:211730](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L211730)
+main.ts:217323
 
 ___
-
 
 ### domain\_rank\_overview
 
@@ -182,10 +167,9 @@ ___
 
 #### Defined in
 
-[main.ts:211731](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L211731)
+main.ts:217324
 
 ___
-
 
 ### domain\_whois\_overview
 
@@ -193,10 +177,9 @@ ___
 
 #### Defined in
 
-[main.ts:211732](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L211732)
+main.ts:217325
 
 ___
-
 
 ### errors
 
@@ -204,10 +187,9 @@ ___
 
 #### Defined in
 
-[main.ts:211733](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L211733)
+main.ts:217326
 
 ___
-
 
 ### historical\_rank\_overview
 
@@ -215,10 +197,9 @@ ___
 
 #### Defined in
 
-[main.ts:211734](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L211734)
+main.ts:217327
 
 ___
-
 
 ### historical\_search\_volume
 
@@ -226,10 +207,9 @@ ___
 
 #### Defined in
 
-[main.ts:211735](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L211735)
+main.ts:217328
 
 ___
-
 
 ### historical\_serps
 
@@ -237,10 +217,9 @@ ___
 
 #### Defined in
 
-[main.ts:211736](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L211736)
+main.ts:217329
 
 ___
-
 
 ### keyword\_ideas
 
@@ -248,10 +227,9 @@ ___
 
 #### Defined in
 
-[main.ts:211737](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L211737)
+main.ts:217330
 
 ___
-
 
 ### keyword\_suggestions
 
@@ -259,10 +237,9 @@ ___
 
 #### Defined in
 
-[main.ts:211741](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L211741)
+main.ts:217334
 
 ___
-
 
 ### keywords\_for\_app
 
@@ -270,10 +247,9 @@ ___
 
 #### Defined in
 
-[main.ts:211738](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L211738)
+main.ts:217331
 
 ___
-
 
 ### keywords\_for\_categories
 
@@ -281,10 +257,9 @@ ___
 
 #### Defined in
 
-[main.ts:211739](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L211739)
+main.ts:217332
 
 ___
-
 
 ### keywords\_for\_site
 
@@ -292,10 +267,9 @@ ___
 
 #### Defined in
 
-[main.ts:211740](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L211740)
+main.ts:217333
 
 ___
-
 
 ### locations\_and\_languages
 
@@ -303,10 +277,9 @@ ___
 
 #### Defined in
 
-[main.ts:211742](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L211742)
+main.ts:217335
 
 ___
-
 
 ### page\_intersection
 
@@ -314,10 +287,9 @@ ___
 
 #### Defined in
 
-[main.ts:211743](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L211743)
+main.ts:217336
 
 ___
-
 
 ### product\_competitors
 
@@ -325,10 +297,9 @@ ___
 
 #### Defined in
 
-[main.ts:211744](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L211744)
+main.ts:217337
 
 ___
-
 
 ### product\_keyword\_intersections
 
@@ -336,10 +307,9 @@ ___
 
 #### Defined in
 
-[main.ts:211745](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L211745)
+main.ts:217338
 
 ___
-
 
 ### product\_rank\_overview
 
@@ -347,10 +317,9 @@ ___
 
 #### Defined in
 
-[main.ts:211746](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L211746)
+main.ts:217339
 
 ___
-
 
 ### ranked\_keywords
 
@@ -358,10 +327,9 @@ ___
 
 #### Defined in
 
-[main.ts:211747](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L211747)
+main.ts:217340
 
 ___
-
 
 ### related\_keywords
 
@@ -369,10 +337,9 @@ ___
 
 #### Defined in
 
-[main.ts:211748](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L211748)
+main.ts:217341
 
 ___
-
 
 ### relevant\_pages
 
@@ -380,10 +347,9 @@ ___
 
 #### Defined in
 
-[main.ts:211749](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L211749)
+main.ts:217342
 
 ___
-
 
 ### search\_intent
 
@@ -391,10 +357,9 @@ ___
 
 #### Defined in
 
-[main.ts:211750](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L211750)
+main.ts:217343
 
 ___
-
 
 ### serp\_competitors
 
@@ -402,10 +367,9 @@ ___
 
 #### Defined in
 
-[main.ts:211751](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L211751)
+main.ts:217344
 
 ___
-
 
 ### subdomains
 
@@ -413,10 +377,9 @@ ___
 
 #### Defined in
 
-[main.ts:211752](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L211752)
+main.ts:217345
 
 ___
-
 
 ### top\_searches
 
@@ -424,8 +387,4 @@ ___
 
 #### Defined in
 
-[main.ts:211753](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L211753)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:217346

@@ -1,15 +1,11 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / FeaturedSnippetDataforseoLabsSerpElementItem
+[Documentation](../README.md) / [Exports](../modules.md) / FeaturedSnippetDataforseoLabsSerpElementItem
 
 # Class: FeaturedSnippetDataforseoLabsSerpElementItem
 
 ## Hierarchy
 
 - [`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md)
-  
+
   ↳ **`FeaturedSnippetDataforseoLabsSerpElementItem`**
 
 ## Implements
@@ -76,7 +72,7 @@
 
 #### Defined in
 
-[main.ts:93144](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L93144)
+main.ts:95521
 
 ## Properties
 
@@ -90,14 +86,13 @@
 
 #### Defined in
 
-[main.ts:19715](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L19715)
+main.ts:20171
 
 ___
 
-
 ### backlinks\_info
 
-• `Optional` **backlinks\_info**: [`AvgBacklinksInfo`](AvgBacklinksInfo.md)
+• `Optional` **backlinks\_info**: [`BacklinksInfo`](BacklinksInfo.md)
 
 backlinks information for the target website
 
@@ -107,10 +102,9 @@ backlinks information for the target website
 
 #### Defined in
 
-[main.ts:93138](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L93138)
+main.ts:95515
 
 ___
-
 
 ### description
 
@@ -124,10 +118,9 @@ description of the results element in SERP
 
 #### Defined in
 
-[main.ts:93115](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L93115)
+main.ts:95492
 
 ___
-
 
 ### domain
 
@@ -141,10 +134,9 @@ subdomain in SERP
 
 #### Defined in
 
-[main.ts:93109](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L93109)
+main.ts:95486
 
 ___
-
 
 ### estimated\_paid\_traffic\_cost
 
@@ -160,10 +152,9 @@ learn more about how the metric is calculated in this help center article
 
 #### Defined in
 
-[main.ts:93133](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L93133)
+main.ts:95510
 
 ___
-
 
 ### etv
 
@@ -180,10 +171,9 @@ learn more about how the metric is calculated in this help center article
 
 #### Defined in
 
-[main.ts:93129](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L93129)
+main.ts:95506
 
 ___
-
 
 ### featured\_title
 
@@ -197,10 +187,9 @@ the title of the featured snippets source page
 
 #### Defined in
 
-[main.ts:93113](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L93113)
+main.ts:95490
 
 ___
-
 
 ### main\_domain
 
@@ -214,10 +203,9 @@ primary domain name in SERP
 
 #### Defined in
 
-[main.ts:93122](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L93122)
+main.ts:95499
 
 ___
-
 
 ### position
 
@@ -233,10 +221,9 @@ left, right
 
 #### Defined in
 
-[main.ts:93105](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L93105)
+main.ts:95482
 
 ___
-
 
 ### rank\_absolute
 
@@ -251,10 +238,9 @@ absolute position among all the elements in SERP
 
 #### Defined in
 
-[main.ts:93101](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L93101)
+main.ts:95478
 
 ___
-
 
 ### rank\_changes
 
@@ -269,10 +255,9 @@ contains information about the ranking changes of the SERP element since the pre
 
 #### Defined in
 
-[main.ts:93136](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L93136)
+main.ts:95513
 
 ___
-
 
 ### rank\_group
 
@@ -287,10 +272,9 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-[main.ts:93098](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L93098)
+main.ts:95475
 
 ___
-
 
 ### rank\_info
 
@@ -304,10 +288,9 @@ page and domain rank information
 
 #### Defined in
 
-[main.ts:93140](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L93140)
+main.ts:95517
 
 ___
-
 
 ### relative\_url
 
@@ -321,10 +304,9 @@ URL in SERP that does not specify the HTTPs protocol and domain name
 
 #### Defined in
 
-[main.ts:93124](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L93124)
+main.ts:95501
 
 ___
-
 
 ### se\_type
 
@@ -338,10 +320,9 @@ search engine type
 
 #### Defined in
 
-[main.ts:93095](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L93095)
+main.ts:95472
 
 ___
-
 
 ### table
 
@@ -356,10 +337,9 @@ if there are none, equals null
 
 #### Defined in
 
-[main.ts:93120](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L93120)
+main.ts:95497
 
 ___
-
 
 ### title
 
@@ -373,10 +353,9 @@ title of the result in SERP
 
 #### Defined in
 
-[main.ts:93111](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L93111)
+main.ts:95488
 
 ___
-
 
 ### url
 
@@ -390,10 +369,9 @@ relevant URL in SERP
 
 #### Defined in
 
-[main.ts:93117](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L93117)
+main.ts:95494
 
 ___
-
 
 ### xpath
 
@@ -407,7 +385,7 @@ the XPath of the element
 
 #### Defined in
 
-[main.ts:93107](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L93107)
+main.ts:95484
 
 ## Methods
 
@@ -431,10 +409,9 @@ the XPath of the element
 
 #### Defined in
 
-[main.ts:93149](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L93149)
+main.ts:95526
 
 ___
-
 
 ### toJSON
 
@@ -456,10 +433,9 @@ ___
 
 #### Defined in
 
-[main.ts:93184](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L93184)
+main.ts:95561
 
 ___
-
 
 ### fromJS
 
@@ -481,8 +457,4 @@ ___
 
 #### Defined in
 
-[main.ts:93177](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L93177)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:95554

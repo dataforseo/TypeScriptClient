@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / ContentGenerationCheckGrammarLiveResultInfo
+[Documentation](../README.md) / [Exports](../modules.md) / ContentGenerationCheckGrammarLiveResultInfo
 
 # Class: ContentGenerationCheckGrammarLiveResultInfo
 
@@ -54,7 +50,7 @@
 
 #### Defined in
 
-[main.ts:161605](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L161605)
+main.ts:167032
 
 ## Properties
 
@@ -70,10 +66,9 @@ initial text in the POST request
 
 #### Defined in
 
-[main.ts:161595](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L161595)
+main.ts:167022
 
 ___
-
 
 ### input\_tokens
 
@@ -87,10 +82,9 @@ number of input tokens in the POST request
 
 #### Defined in
 
-[main.ts:161589](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L161589)
+main.ts:167016
 
 ___
-
 
 ### items
 
@@ -104,10 +98,9 @@ contains grammar or spelling errors and related data
 
 #### Defined in
 
-[main.ts:161601](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L161601)
+main.ts:167028
 
 ___
-
 
 ### items\_count
 
@@ -121,10 +114,9 @@ the number of results returned in the items array
 
 #### Defined in
 
-[main.ts:161599](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L161599)
+main.ts:167026
 
 ___
-
 
 ### language\_code
 
@@ -138,10 +130,9 @@ language code in the POST request
 
 #### Defined in
 
-[main.ts:161597](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L161597)
+main.ts:167024
 
 ___
-
 
 ### new\_tokens
 
@@ -155,10 +146,9 @@ number of new tokens in the response
 
 #### Defined in
 
-[main.ts:161593](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L161593)
+main.ts:167020
 
 ___
-
 
 ### output\_tokens
 
@@ -172,7 +162,7 @@ number of output tokens in the response
 
 #### Defined in
 
-[main.ts:161591](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L161591)
+main.ts:167018
 
 ## Methods
 
@@ -192,10 +182,9 @@ number of output tokens in the response
 
 #### Defined in
 
-[main.ts:161614](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L161614)
+main.ts:167041
 
 ___
-
 
 ### toJSON
 
@@ -213,10 +202,9 @@ ___
 
 #### Defined in
 
-[main.ts:161641](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L161641)
+main.ts:167068
 
 ___
-
 
 ### fromJS
 
@@ -234,8 +222,4 @@ ___
 
 #### Defined in
 
-[main.ts:161634](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L161634)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:167061

@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / OnPagePagesByResourceRequestInfo
+[Documentation](../README.md) / [Exports](../modules.md) / OnPagePagesByResourceRequestInfo
 
 # Class: OnPagePagesByResourceRequestInfo
 
@@ -54,7 +50,7 @@
 
 #### Defined in
 
-[main.ts:145389](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L145389)
+main.ts:150816
 
 ## Properties
 
@@ -82,10 +78,9 @@ The full list of possible filters is available by this link.
 
 #### Defined in
 
-[main.ts:145365](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L145365)
+main.ts:150792
 
 ___
-
 
 ### id
 
@@ -103,10 +98,9 @@ example:
 
 #### Defined in
 
-[main.ts:145335](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L145335)
+main.ts:150762
 
 ___
-
 
 ### limit
 
@@ -123,10 +117,9 @@ maximum value: 1000
 
 #### Defined in
 
-[main.ts:145346](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L145346)
+main.ts:150773
 
 ___
-
 
 ### offset
 
@@ -143,10 +136,9 @@ if you specify the 10 value, the first ten pages in the results array will be om
 
 #### Defined in
 
-[main.ts:145351](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L145351)
+main.ts:150778
 
 ___
-
 
 ### order\_by
 
@@ -172,10 +164,9 @@ example:
 
 #### Defined in
 
-[main.ts:145379](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L145379)
+main.ts:150806
 
 ___
-
 
 ### tag
 
@@ -193,10 +184,9 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-[main.ts:145385](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L145385)
+main.ts:150812
 
 ___
-
 
 ### url
 
@@ -214,7 +204,7 @@ https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js
 
 #### Defined in
 
-[main.ts:145341](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L145341)
+main.ts:150768
 
 ## Methods
 
@@ -234,10 +224,9 @@ https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js
 
 #### Defined in
 
-[main.ts:145398](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L145398)
+main.ts:150825
 
 ___
-
 
 ### toJSON
 
@@ -255,10 +244,9 @@ ___
 
 #### Defined in
 
-[main.ts:145429](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L145429)
+main.ts:150856
 
 ___
-
 
 ### fromJS
 
@@ -276,8 +264,4 @@ ___
 
 #### Defined in
 
-[main.ts:145422](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L145422)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:150849

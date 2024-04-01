@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IOnPageDuplicateTagsResultInfo
+[Documentation](../README.md) / [Exports](../modules.md) / IOnPageDuplicateTagsResultInfo
 
 # Interface: IOnPageDuplicateTagsResultInfo
 
@@ -36,10 +32,9 @@ possible values: in_progress, finished
 
 #### Defined in
 
-[main.ts:147302](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L147302)
+main.ts:152729
 
 ___
-
 
 ### crawl\_status
 
@@ -49,10 +44,9 @@ details of the crawling session
 
 #### Defined in
 
-[main.ts:147304](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L147304)
+main.ts:152731
 
 ___
-
 
 ### items
 
@@ -62,10 +56,9 @@ items array
 
 #### Defined in
 
-[main.ts:147314](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L147314)
+main.ts:152741
 
 ___
-
 
 ### items\_count
 
@@ -75,10 +68,9 @@ number of items in the results array
 
 #### Defined in
 
-[main.ts:147312](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L147312)
+main.ts:152739
 
 ___
-
 
 ### pages\_count
 
@@ -89,10 +81,9 @@ displays the number of pages with duplicate tags returned in the response
 
 #### Defined in
 
-[main.ts:147310](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L147310)
+main.ts:152737
 
 ___
-
 
 ### total\_pages\_count
 
@@ -103,8 +94,4 @@ displays the total number of pages with duplicate tags of the target website
 
 #### Defined in
 
-[main.ts:147307](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L147307)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:152734

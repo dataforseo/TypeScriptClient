@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / RedditReviews
+[Documentation](../README.md) / [Exports](../modules.md) / RedditReviews
 
 # Class: RedditReviews
 
@@ -52,7 +48,7 @@
 
 #### Defined in
 
-[main.ts:206237](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L206237)
+main.ts:211698
 
 ## Properties
 
@@ -69,10 +65,9 @@ nicknname of the user who published the post in the subreddit and shared the URL
 
 #### Defined in
 
-[main.ts:206227](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L206227)
+main.ts:211688
 
 ___
-
 
 ### permalink
 
@@ -86,10 +81,9 @@ URL to the subreddit post
 
 #### Defined in
 
-[main.ts:206231](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L206231)
+main.ts:211692
 
 ___
-
 
 ### subreddit
 
@@ -103,10 +97,9 @@ the name of the subreddit
 
 #### Defined in
 
-[main.ts:206224](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L206224)
+main.ts:211685
 
 ___
-
 
 ### subreddit\_members
 
@@ -120,10 +113,9 @@ number of subreddit members
 
 #### Defined in
 
-[main.ts:206233](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L206233)
+main.ts:211694
 
 ___
-
 
 ### title
 
@@ -137,7 +129,7 @@ title of the subreddit post
 
 #### Defined in
 
-[main.ts:206229](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L206229)
+main.ts:211690
 
 ## Methods
 
@@ -157,10 +149,9 @@ title of the subreddit post
 
 #### Defined in
 
-[main.ts:206246](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L206246)
+main.ts:211707
 
 ___
-
 
 ### toJSON
 
@@ -178,10 +169,9 @@ ___
 
 #### Defined in
 
-[main.ts:206267](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L206267)
+main.ts:211728
 
 ___
-
 
 ### fromJS
 
@@ -199,8 +189,4 @@ ___
 
 #### Defined in
 
-[main.ts:206260](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L206260)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:211721

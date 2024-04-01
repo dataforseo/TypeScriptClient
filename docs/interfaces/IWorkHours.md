@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IWorkHours
+[Documentation](../README.md) / [Exports](../modules.md) / IWorkHours
 
 # Interface: IWorkHours
 
@@ -32,10 +28,9 @@ indicates whether the establishment is opened or closed
 
 #### Defined in
 
-[main.ts:38353](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L38353)
+main.ts:39104
 
 ___
-
 
 ### timetable
 
@@ -49,8 +44,4 @@ work hours timetable
 
 #### Defined in
 
-[main.ts:38350](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L38350)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:39101

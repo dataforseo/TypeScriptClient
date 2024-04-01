@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IDataforseoLabsGoogleKeywordSuggestionsLiveResultInfo
+[Documentation](../README.md) / [Exports](../modules.md) / IDataforseoLabsGoogleKeywordSuggestionsLiveResultInfo
 
 # Interface: IDataforseoLabsGoogleKeywordSuggestionsLiveResultInfo
 
@@ -39,10 +35,9 @@ contains keywords and related data
 
 #### Defined in
 
-[main.ts:81059](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L81059)
+main.ts:83436
 
 ___
-
 
 ### items\_count
 
@@ -52,10 +47,9 @@ the number of results returned in the items array
 
 #### Defined in
 
-[main.ts:81051](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L81051)
+main.ts:83428
 
 ___
-
 
 ### language\_code
 
@@ -65,10 +59,9 @@ language code in a POST array
 
 #### Defined in
 
-[main.ts:81047](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L81047)
+main.ts:83424
 
 ___
-
 
 ### location\_code
 
@@ -78,10 +71,9 @@ location code in a POST array
 
 #### Defined in
 
-[main.ts:81045](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L81045)
+main.ts:83422
 
 ___
-
 
 ### offset
 
@@ -91,10 +83,9 @@ current offset value
 
 #### Defined in
 
-[main.ts:81053](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L81053)
+main.ts:83430
 
 ___
-
 
 ### offset\_token
 
@@ -106,10 +97,9 @@ note: offset_token values are unique for each subsequent task
 
 #### Defined in
 
-[main.ts:81057](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L81057)
+main.ts:83434
 
 ___
-
 
 ### se\_type
 
@@ -119,10 +109,9 @@ search engine type
 
 #### Defined in
 
-[main.ts:81038](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L81038)
+main.ts:83415
 
 ___
-
 
 ### seed\_keyword
 
@@ -132,10 +121,9 @@ keyword in a POST array
 
 #### Defined in
 
-[main.ts:81040](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L81040)
+main.ts:83417
 
 ___
-
 
 ### seed\_keyword\_data
 
@@ -150,10 +138,9 @@ fields in this object are identical to those of the items array
 
 #### Defined in
 
-[main.ts:81043](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L81043)
+main.ts:83420
 
 ___
-
 
 ### total\_count
 
@@ -163,8 +150,4 @@ total amount of results in our database relevant to your request
 
 #### Defined in
 
-[main.ts:81049](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L81049)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:83426

@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / BusinessDataTripadvisorLanguagesResultInfo
+[Documentation](../README.md) / [Exports](../modules.md) / BusinessDataTripadvisorLanguagesResultInfo
 
 # Class: BusinessDataTripadvisorLanguagesResultInfo
 
@@ -49,7 +45,7 @@
 
 #### Defined in
 
-[main.ts:200736](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L200736)
+main.ts:206197
 
 ## Properties
 
@@ -65,10 +61,9 @@ language code according to ISO 639-1
 
 #### Defined in
 
-[main.ts:200732](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L200732)
+main.ts:206193
 
 ___
-
 
 ### language\_name
 
@@ -82,7 +77,7 @@ language name
 
 #### Defined in
 
-[main.ts:200730](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L200730)
+main.ts:206191
 
 ## Methods
 
@@ -102,10 +97,9 @@ language name
 
 #### Defined in
 
-[main.ts:200745](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L200745)
+main.ts:206206
 
 ___
-
 
 ### toJSON
 
@@ -123,10 +117,9 @@ ___
 
 #### Defined in
 
-[main.ts:200763](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L200763)
+main.ts:206224
 
 ___
-
 
 ### fromJS
 
@@ -144,8 +137,4 @@ ___
 
 #### Defined in
 
-[main.ts:200756](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L200756)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:206217

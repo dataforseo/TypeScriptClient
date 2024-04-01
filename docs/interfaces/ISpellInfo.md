@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / ISpellInfo
+[Documentation](../README.md) / [Exports](../modules.md) / ISpellInfo
 
 # Interface: ISpellInfo
 
@@ -32,10 +28,9 @@ the results will be provided for the corrected keyword
 
 #### Defined in
 
-[main.ts:21892](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L21892)
+main.ts:22411
 
 ___
-
 
 ### type
 
@@ -49,8 +44,4 @@ including_results_for
 
 #### Defined in
 
-[main.ts:21898](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L21898)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:22417

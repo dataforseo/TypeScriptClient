@@ -1,15 +1,11 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IImagesSerpElementItem
+[Documentation](../README.md) / [Exports](../modules.md) / IImagesSerpElementItem
 
 # Interface: IImagesSerpElementItem
 
 ## Hierarchy
 
 - [`IBaseSerpElementItem`](IBaseSerpElementItem.md)
-  
+
   ↳ **`IImagesSerpElementItem`**
 
 ## Implemented by
@@ -40,14 +36,14 @@
 
 • `Optional` **items**: [`ImagesElement`](../classes/ImagesElement.md)[]
 
-contains results featured in the ‘hotels_pack’ element of SERP
+additional items present in the element
+if there are none, equals null
 
 #### Defined in
 
-[main.ts:28970](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L28970)
+main.ts:29739
 
 ___
-
 
 ### position
 
@@ -59,10 +55,9 @@ left, right
 
 #### Defined in
 
-[main.ts:28962](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L28962)
+main.ts:29730
 
 ___
-
 
 ### rank\_absolute
 
@@ -70,28 +65,28 @@ ___
 
 absolute rank in SERP
 absolute position among all the elements in SERP
+always equals 0 for desktop
 
 #### Defined in
 
-[main.ts:28958](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L28958)
+main.ts:29726
 
 ___
-
 
 ### rank\_group
 
 • `Optional` **rank\_group**: `number`
 
 group rank in SERP
-position within a group of elements with identical type values
-positions of elements with different type values are omitted from rank_group
+position within a group of elements with identical type values;
+positions of elements with different type values are omitted from rank_group;
+always equals 0 for desktop
 
 #### Defined in
 
-[main.ts:28955](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L28955)
+main.ts:29722
 
 ___
-
 
 ### rectangle
 
@@ -103,10 +98,9 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 #### Defined in
 
-[main.ts:28977](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L28977)
+main.ts:29746
 
 ___
-
 
 ### related\_image\_searches
 
@@ -117,36 +111,33 @@ if there are none, equals null
 
 #### Defined in
 
-[main.ts:28973](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L28973)
+main.ts:29742
 
 ___
-
 
 ### title
 
 • `Optional` **title**: `string`
 
-title of a given link element
+title of the row
 
 #### Defined in
 
-[main.ts:28966](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L28966)
+main.ts:29734
 
 ___
-
 
 ### url
 
 • `Optional` **url**: `string`
 
-URL
+source URL
 
 #### Defined in
 
-[main.ts:28968](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L28968)
+main.ts:29736
 
 ___
-
 
 ### xpath
 
@@ -156,8 +147,4 @@ the XPath of the element
 
 #### Defined in
 
-[main.ts:28964](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L28964)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:29732

@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / TargetInfo
+[Documentation](../README.md) / [Exports](../modules.md) / TargetInfo
 
 # Class: TargetInfo
 
@@ -54,7 +50,7 @@
 
 #### Defined in
 
-[main.ts:129384](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L129384)
+main.ts:134751
 
 ## Properties
 
@@ -70,10 +66,9 @@ content management system
 
 #### Defined in
 
-[main.ts:129367](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L129367)
+main.ts:134734
 
 ___
-
 
 ### country
 
@@ -87,10 +82,9 @@ country code that the target domain is determined to belong to
 
 #### Defined in
 
-[main.ts:129373](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L129373)
+main.ts:134740
 
 ___
-
 
 ### ip\_address
 
@@ -104,10 +98,9 @@ IP address of the target
 
 #### Defined in
 
-[main.ts:129371](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L129371)
+main.ts:134738
 
 ___
-
 
 ### is\_ip
 
@@ -122,10 +115,9 @@ if true, the domain, subdomain or webpage functions as an IP address and does no
 
 #### Defined in
 
-[main.ts:129376](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L129376)
+main.ts:134743
 
 ___
-
 
 ### platform\_type
 
@@ -139,10 +131,9 @@ platform type
 
 #### Defined in
 
-[main.ts:129369](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L129369)
+main.ts:134736
 
 ___
-
 
 ### server
 
@@ -156,10 +147,9 @@ server
 
 #### Defined in
 
-[main.ts:129365](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L129365)
+main.ts:134732
 
 ___
-
 
 ### target\_spam\_score
 
@@ -175,7 +165,7 @@ learn more about how the metric is calculated on this help center page
 
 #### Defined in
 
-[main.ts:129380](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L129380)
+main.ts:134747
 
 ## Methods
 
@@ -195,10 +185,9 @@ learn more about how the metric is calculated on this help center page
 
 #### Defined in
 
-[main.ts:129393](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L129393)
+main.ts:134760
 
 ___
-
 
 ### toJSON
 
@@ -216,10 +205,9 @@ ___
 
 #### Defined in
 
-[main.ts:129420](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L129420)
+main.ts:134787
 
 ___
-
 
 ### fromJS
 
@@ -237,8 +225,4 @@ ___
 
 #### Defined in
 
-[main.ts:129413](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L129413)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:134780

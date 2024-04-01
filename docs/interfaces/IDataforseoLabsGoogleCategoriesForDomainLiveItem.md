@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IDataforseoLabsGoogleCategoriesForDomainLiveItem
+[Documentation](../README.md) / [Exports](../modules.md) / IDataforseoLabsGoogleCategoriesForDomainLiveItem
 
 # Interface: IDataforseoLabsGoogleCategoriesForDomainLiveItem
 
@@ -33,10 +29,9 @@ you can download the full list of possible categories
 
 #### Defined in
 
-[main.ts:83475](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L83475)
+main.ts:85852
 
 ___
-
 
 ### metrics
 
@@ -50,10 +45,9 @@ ranking data relevant to the specified domain or subdomain
 
 #### Defined in
 
-[main.ts:83477](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L83477)
+main.ts:85854
 
 ___
-
 
 ### se\_type
 
@@ -63,8 +57,4 @@ search engine type
 
 #### Defined in
 
-[main.ts:83472](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L83472)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:85849

@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / TopDomainInfo
+[Documentation](../README.md) / [Exports](../modules.md) / TopDomainInfo
 
 # Class: TopDomainInfo
 
@@ -49,7 +45,7 @@
 
 #### Defined in
 
-[main.ts:21605](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L21605)
+main.ts:22124
 
 ## Properties
 
@@ -63,10 +59,9 @@
 
 #### Defined in
 
-[main.ts:21601](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L21601)
+main.ts:22120
 
 ___
-
 
 ### domain
 
@@ -78,7 +73,7 @@ ___
 
 #### Defined in
 
-[main.ts:21600](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L21600)
+main.ts:22119
 
 ## Methods
 
@@ -98,10 +93,9 @@ ___
 
 #### Defined in
 
-[main.ts:21614](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L21614)
+main.ts:22133
 
 ___
-
 
 ### toJSON
 
@@ -119,10 +113,9 @@ ___
 
 #### Defined in
 
-[main.ts:21632](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L21632)
+main.ts:22151
 
 ___
-
 
 ### fromJS
 
@@ -140,8 +133,4 @@ ___
 
 #### Defined in
 
-[main.ts:21625](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L21625)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:22144

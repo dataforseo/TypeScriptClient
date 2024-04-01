@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / BusinessDataGoogleHotelInfoTaskGetHtmlResultInfo
+[Documentation](../README.md) / [Exports](../modules.md) / BusinessDataGoogleHotelInfoTaskGetHtmlResultInfo
 
 # Class: BusinessDataGoogleHotelInfoTaskGetHtmlResultInfo
 
@@ -55,7 +51,7 @@
 
 #### Defined in
 
-[main.ts:196337](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L196337)
+main.ts:201798
 
 ## Properties
 
@@ -74,10 +70,9 @@ example:
 
 #### Defined in
 
-[main.ts:196327](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L196327)
+main.ts:201788
 
 ___
-
 
 ### items
 
@@ -91,10 +86,9 @@ HTML pages
 
 #### Defined in
 
-[main.ts:196331](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L196331)
+main.ts:201792
 
 ___
-
 
 ### items\_count
 
@@ -108,10 +102,9 @@ the number of results returned in the items array
 
 #### Defined in
 
-[main.ts:196329](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L196329)
+main.ts:201790
 
 ___
-
 
 ### keyword
 
@@ -128,10 +121,9 @@ CgoI-KWyzenM_MV3EAE
 
 #### Defined in
 
-[main.ts:196318](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L196318)
+main.ts:201779
 
 ___
-
 
 ### language\_code
 
@@ -145,10 +137,9 @@ language code in a POST array
 
 #### Defined in
 
-[main.ts:196322](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L196322)
+main.ts:201783
 
 ___
-
 
 ### location\_code
 
@@ -162,10 +153,9 @@ location code in a POST array
 
 #### Defined in
 
-[main.ts:196320](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L196320)
+main.ts:201781
 
 ___
-
 
 ### se\_domain
 
@@ -177,10 +167,9 @@ ___
 
 #### Defined in
 
-[main.ts:196333](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L196333)
+main.ts:201794
 
 ___
-
 
 ### type
 
@@ -192,7 +181,7 @@ ___
 
 #### Defined in
 
-[main.ts:196332](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L196332)
+main.ts:201793
 
 ## Methods
 
@@ -212,10 +201,9 @@ ___
 
 #### Defined in
 
-[main.ts:196346](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L196346)
+main.ts:201807
 
 ___
-
 
 ### toJSON
 
@@ -233,10 +221,9 @@ ___
 
 #### Defined in
 
-[main.ts:196374](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L196374)
+main.ts:201835
 
 ___
-
 
 ### fromJS
 
@@ -254,8 +241,4 @@ ___
 
 #### Defined in
 
-[main.ts:196367](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L196367)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:201828

@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IOnPageNonIndexableItem
+[Documentation](../README.md) / [Exports](../modules.md) / IOnPageNonIndexableItem
 
 # Interface: IOnPageNonIndexableItem
 
@@ -32,10 +28,9 @@ can take the following values: robots_txt, meta_tag, http_header, attribute, too
 
 #### Defined in
 
-[main.ts:149428](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L149428)
+main.ts:154855
 
 ___
-
 
 ### url
 
@@ -45,8 +40,4 @@ url of the non-indexable page
 
 #### Defined in
 
-[main.ts:149430](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L149430)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:154857

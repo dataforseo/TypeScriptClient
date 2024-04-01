@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / LastModified
+[Documentation](../README.md) / [Exports](../modules.md) / LastModified
 
 # Class: LastModified
 
@@ -50,7 +46,7 @@
 
 #### Defined in
 
-[main.ts:144817](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L144817)
+main.ts:150244
 
 ## Properties
 
@@ -70,10 +66,9 @@ if there is no data, the value will be null
 
 #### Defined in
 
-[main.ts:144801](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L144801)
+main.ts:150228
 
 ___
-
 
 ### meta\_tag
 
@@ -91,10 +86,9 @@ if there is no data, the value will be null
 
 #### Defined in
 
-[main.ts:144813](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L144813)
+main.ts:150240
 
 ___
-
 
 ### sitemap
 
@@ -112,7 +106,7 @@ if there is no data, the value will be null
 
 #### Defined in
 
-[main.ts:144807](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L144807)
+main.ts:150234
 
 ## Methods
 
@@ -132,10 +126,9 @@ if there is no data, the value will be null
 
 #### Defined in
 
-[main.ts:144826](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L144826)
+main.ts:150253
 
 ___
-
 
 ### toJSON
 
@@ -153,10 +146,9 @@ ___
 
 #### Defined in
 
-[main.ts:144845](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L144845)
+main.ts:150272
 
 ___
-
 
 ### fromJS
 
@@ -174,8 +166,4 @@ ___
 
 #### Defined in
 
-[main.ts:144838](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L144838)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:150265

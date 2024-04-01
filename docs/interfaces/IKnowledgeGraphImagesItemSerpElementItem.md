@@ -1,15 +1,11 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IKnowledgeGraphImagesItemSerpElementItem
+[Documentation](../README.md) / [Exports](../modules.md) / IKnowledgeGraphImagesItemSerpElementItem
 
 # Interface: IKnowledgeGraphImagesItemSerpElementItem
 
 ## Hierarchy
 
 - [`IBaseSerpElementItem`](IBaseSerpElementItem.md)
-  
+
   ↳ **`IKnowledgeGraphImagesItemSerpElementItem`**
 
 ## Implemented by
@@ -42,10 +38,9 @@ items featured in the faq_box
 
 #### Defined in
 
-[main.ts:26611](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L26611)
+main.ts:27130
 
 ___
-
 
 ### link
 
@@ -55,10 +50,9 @@ link of the element
 
 #### Defined in
 
-[main.ts:26609](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L26609)
+main.ts:27128
 
 ___
-
 
 ### position
 
@@ -70,10 +64,9 @@ left, right
 
 #### Defined in
 
-[main.ts:26605](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L26605)
+main.ts:27124
 
 ___
-
 
 ### rank\_absolute
 
@@ -84,10 +77,9 @@ absolute position among all the elements in SERP
 
 #### Defined in
 
-[main.ts:26601](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L26601)
+main.ts:27120
 
 ___
-
 
 ### rank\_group
 
@@ -99,10 +91,9 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-[main.ts:26598](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L26598)
+main.ts:27117
 
 ___
-
 
 ### rectangle
 
@@ -114,10 +105,9 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 #### Defined in
 
-[main.ts:26615](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L26615)
+main.ts:27134
 
 ___
-
 
 ### xpath
 
@@ -127,8 +117,4 @@ the XPath of the element
 
 #### Defined in
 
-[main.ts:26607](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L26607)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:27126

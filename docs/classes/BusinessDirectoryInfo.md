@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / BusinessDirectoryInfo
+[Documentation](../README.md) / [Exports](../modules.md) / BusinessDirectoryInfo
 
 # Class: BusinessDirectoryInfo
 
@@ -49,7 +45,7 @@
 
 #### Defined in
 
-[main.ts:191313](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L191313)
+main.ts:196766
 
 ## Properties
 
@@ -67,10 +63,9 @@ possible item types: google_business_info
 
 #### Defined in
 
-[main.ts:191309](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L191309)
+main.ts:196762
 
 ___
-
 
 ### title
 
@@ -85,7 +80,7 @@ domain of the online menu system
 
 #### Defined in
 
-[main.ts:191305](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L191305)
+main.ts:196758
 
 ## Methods
 
@@ -105,10 +100,9 @@ domain of the online menu system
 
 #### Defined in
 
-[main.ts:191322](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L191322)
+main.ts:196775
 
 ___
-
 
 ### toJSON
 
@@ -126,10 +120,9 @@ ___
 
 #### Defined in
 
-[main.ts:191344](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L191344)
+main.ts:196797
 
 ___
-
 
 ### fromJS
 
@@ -147,8 +140,4 @@ ___
 
 #### Defined in
 
-[main.ts:191337](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L191337)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:196790

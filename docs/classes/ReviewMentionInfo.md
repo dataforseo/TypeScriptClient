@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / ReviewMentionInfo
+[Documentation](../README.md) / [Exports](../modules.md) / ReviewMentionInfo
 
 # Class: ReviewMentionInfo
 
@@ -53,7 +49,7 @@
 
 #### Defined in
 
-[main.ts:195778](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L195778)
+main.ts:201239
 
 ## Properties
 
@@ -69,10 +65,9 @@ count of negative reviews by criterion
 
 #### Defined in
 
-[main.ts:195769](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L195769)
+main.ts:201230
 
 ___
-
 
 ### positive\_count
 
@@ -86,10 +81,9 @@ count of positive reviews by criterion
 
 #### Defined in
 
-[main.ts:195767](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L195767)
+main.ts:201228
 
 ___
-
 
 ### positive\_score
 
@@ -103,10 +97,9 @@ positive score by criterion
 
 #### Defined in
 
-[main.ts:195765](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L195765)
+main.ts:201226
 
 ___
-
 
 ### title
 
@@ -120,10 +113,9 @@ title of the evaluated criterion
 
 #### Defined in
 
-[main.ts:195763](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L195763)
+main.ts:201224
 
 ___
-
 
 ### total\_count
 
@@ -137,10 +129,9 @@ count of all reviews by criterion
 
 #### Defined in
 
-[main.ts:195771](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L195771)
+main.ts:201232
 
 ___
-
 
 ### visible\_by\_default
 
@@ -155,7 +146,7 @@ indicates whether the review element is visible by default
 
 #### Defined in
 
-[main.ts:195774](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L195774)
+main.ts:201235
 
 ## Methods
 
@@ -175,10 +166,9 @@ indicates whether the review element is visible by default
 
 #### Defined in
 
-[main.ts:195787](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L195787)
+main.ts:201248
 
 ___
-
 
 ### toJSON
 
@@ -196,10 +186,9 @@ ___
 
 #### Defined in
 
-[main.ts:195809](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L195809)
+main.ts:201270
 
 ___
-
 
 ### fromJS
 
@@ -217,8 +206,4 @@ ___
 
 #### Defined in
 
-[main.ts:195802](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L195802)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:201263

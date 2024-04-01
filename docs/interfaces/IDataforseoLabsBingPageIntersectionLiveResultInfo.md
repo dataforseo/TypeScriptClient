@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IDataforseoLabsBingPageIntersectionLiveResultInfo
+[Documentation](../README.md) / [Exports](../modules.md) / IDataforseoLabsBingPageIntersectionLiveResultInfo
 
 # Interface: IDataforseoLabsBingPageIntersectionLiveResultInfo
 
@@ -37,10 +33,9 @@ URLs you specified in a POST array that will be excluded from the results
 
 #### Defined in
 
-[main.ts:104833](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L104833)
+main.ts:107210
 
 ___
-
 
 ### items
 
@@ -50,10 +45,9 @@ contains keywords, relevant SERP elements and related data
 
 #### Defined in
 
-[main.ts:104843](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L104843)
+main.ts:107220
 
 ___
-
 
 ### items\_count
 
@@ -63,10 +57,9 @@ the number of results returned in the items array
 
 #### Defined in
 
-[main.ts:104841](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L104841)
+main.ts:107218
 
 ___
-
 
 ### language\_code
 
@@ -76,10 +69,9 @@ language code in a POST array
 
 #### Defined in
 
-[main.ts:104837](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L104837)
+main.ts:107214
 
 ___
-
 
 ### location\_code
 
@@ -89,10 +81,9 @@ location code in a POST array
 
 #### Defined in
 
-[main.ts:104835](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L104835)
+main.ts:107212
 
 ___
-
 
 ### pages
 
@@ -106,10 +97,9 @@ URLs you specified a POST array
 
 #### Defined in
 
-[main.ts:104831](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L104831)
+main.ts:107208
 
 ___
-
 
 ### se\_type
 
@@ -121,10 +111,9 @@ for this endpoint, the field equals bing
 
 #### Defined in
 
-[main.ts:104829](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L104829)
+main.ts:107206
 
 ___
-
 
 ### total\_count
 
@@ -134,8 +123,4 @@ total amount of results in our database relevant to your request
 
 #### Defined in
 
-[main.ts:104839](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L104839)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:107216

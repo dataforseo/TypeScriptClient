@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IAppDataGoogleAppListTaskPostRequestInfo
+[Documentation](../README.md) / [Exports](../modules.md) / IAppDataGoogleAppListTaskPostRequestInfo
 
 # Interface: IAppDataGoogleAppListTaskPostRequestInfo
 
@@ -50,10 +46,9 @@ Note: this filter works only in conjunction with the "category": "family" parame
 
 #### Defined in
 
-[main.ts:178467](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L178467)
+main.ts:183920
 
 ___
-
 
 ### app\_category
 
@@ -69,10 +64,9 @@ Note: app_category cannot be used if app_collection parameter is set to featured
 
 #### Defined in
 
-[main.ts:178457](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L178457)
+main.ts:183910
 
 ___
-
 
 ### app\_collection
 
@@ -87,10 +81,9 @@ Note: if featured is selected, the app_category parameter cannot be used
 
 #### Defined in
 
-[main.ts:178406](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L178406)
+main.ts:183859
 
 ___
-
 
 ### depth
 
@@ -105,10 +98,9 @@ maximum value: 200
 
 #### Defined in
 
-[main.ts:178449](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L178449)
+main.ts:183902
 
 ___
-
 
 ### language\_code
 
@@ -123,10 +115,9 @@ en
 
 #### Defined in
 
-[main.ts:178434](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L178434)
+main.ts:183887
 
 ___
-
 
 ### language\_name
 
@@ -141,10 +132,9 @@ English
 
 #### Defined in
 
-[main.ts:178427](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L178427)
+main.ts:183880
 
 ___
-
 
 ### location\_code
 
@@ -159,10 +149,9 @@ example:
 
 #### Defined in
 
-[main.ts:178420](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L178420)
+main.ts:183873
 
 ___
-
 
 ### location\_name
 
@@ -177,10 +166,9 @@ West Los Angeles,California,United States
 
 #### Defined in
 
-[main.ts:178413](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L178413)
+main.ts:183866
 
 ___
-
 
 ### pingback\_url
 
@@ -198,10 +186,9 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-[main.ts:178499](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L178499)
+main.ts:183952
 
 ___
-
 
 ### postback\_data
 
@@ -215,10 +202,9 @@ advanced, html
 
 #### Defined in
 
-[main.ts:178489](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L178489)
+main.ts:183942
 
 ___
-
 
 ### postback\_url
 
@@ -236,10 +222,9 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-[main.ts:178483](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L178483)
+main.ts:183936
 
 ___
-
 
 ### priority
 
@@ -255,10 +240,9 @@ The cost can be calculated on the Pricing page.
 
 #### Defined in
 
-[main.ts:178442](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L178442)
+main.ts:183895
 
 ___
-
 
 ### tag
 
@@ -272,8 +256,4 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-[main.ts:178473](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L178473)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:183926

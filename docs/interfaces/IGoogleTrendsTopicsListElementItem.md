@@ -1,15 +1,11 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IGoogleTrendsTopicsListElementItem
+[Documentation](../README.md) / [Exports](../modules.md) / IGoogleTrendsTopicsListElementItem
 
 # Interface: IGoogleTrendsTopicsListElementItem
 
 ## Hierarchy
 
 - [`IBaseGoogleTrendsItem`](IBaseGoogleTrendsItem.md)
-  
+
   ↳ **`IGoogleTrendsTopicsListElementItem`**
 
 ## Implemented by
@@ -39,10 +35,9 @@ Google Trends data from the corresponding item
 
 #### Defined in
 
-[main.ts:120984](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L120984)
+main.ts:124240
 
 ___
-
 
 ### keywords
 
@@ -53,10 +48,9 @@ the data included in the google_trends_topics_list element is based on the keywo
 
 #### Defined in
 
-[main.ts:120982](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L120982)
+main.ts:124238
 
 ___
-
 
 ### position
 
@@ -67,10 +61,9 @@ can take the following values: 1, 2, 3, 4, etc.
 
 #### Defined in
 
-[main.ts:120977](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L120977)
+main.ts:124233
 
 ___
-
 
 ### title
 
@@ -80,8 +73,4 @@ title of the element in Google Trends
 
 #### Defined in
 
-[main.ts:120979](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L120979)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:124235

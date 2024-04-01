@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / ISerpGoogleLocalFinderLiveHtmlRequestInfo
+[Documentation](../README.md) / [Exports](../modules.md) / ISerpGoogleLocalFinderLiveHtmlRequestInfo
 
 # Interface: ISerpGoogleLocalFinderLiveHtmlRequestInfo
 
@@ -51,10 +47,9 @@ if the specified depth is higher than the number of results in the response, the
 
 #### Defined in
 
-[main.ts:41717](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L41717)
+main.ts:42468
 
 ___
-
 
 ### device
 
@@ -67,10 +62,9 @@ default value: desktop
 
 #### Defined in
 
-[main.ts:41699](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L41699)
+main.ts:42450
 
 ___
-
 
 ### keyword
 
@@ -85,10 +79,9 @@ if you need to use the “+” symbol for your keyword, please specify it as “
 
 #### Defined in
 
-[main.ts:41648](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L41648)
+main.ts:42399
 
 ___
-
 
 ### language\_code
 
@@ -102,10 +95,9 @@ example:en
 
 #### Defined in
 
-[main.ts:41694](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L41694)
+main.ts:42445
 
 ___
-
 
 ### language\_name
 
@@ -120,10 +112,9 @@ English
 
 #### Defined in
 
-[main.ts:41688](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L41688)
+main.ts:42439
 
 ___
-
 
 ### location\_code
 
@@ -138,10 +129,9 @@ example:
 
 #### Defined in
 
-[main.ts:41670](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L41670)
+main.ts:42421
 
 ___
-
 
 ### location\_coordinate
 
@@ -160,10 +150,9 @@ example:
 
 #### Defined in
 
-[main.ts:41681](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L41681)
+main.ts:42432
 
 ___
-
 
 ### location\_name
 
@@ -178,10 +167,9 @@ London,England,United Kingdom
 
 #### Defined in
 
-[main.ts:41663](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L41663)
+main.ts:42414
 
 ___
-
 
 ### min\_rating
 
@@ -194,10 +182,9 @@ possible values for mobile: 2, 2.5, 3, 3.5, 4, 4.5
 
 #### Defined in
 
-[main.ts:41722](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L41722)
+main.ts:42473
 
 ___
-
 
 ### os
 
@@ -212,10 +199,9 @@ default value: android
 
 #### Defined in
 
-[main.ts:41706](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L41706)
+main.ts:42457
 
 ___
-
 
 ### priority
 
@@ -231,10 +217,9 @@ The cost can be calculated on the Pricing page.
 
 #### Defined in
 
-[main.ts:41656](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L41656)
+main.ts:42407
 
 ___
-
 
 ### tag
 
@@ -248,10 +233,9 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-[main.ts:41737](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L41737)
+main.ts:42488
 
 ___
-
 
 ### time\_filter
 
@@ -268,8 +252,4 @@ example: "tuesday;18"
 
 #### Defined in
 
-[main.ts:41731](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L41731)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:42482

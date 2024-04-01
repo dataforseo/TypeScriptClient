@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IAppendixBingKeywordsDataLimitsRatesDataInfo
+[Documentation](../README.md) / [Exports](../modules.md) / IAppendixBingKeywordsDataLimitsRatesDataInfo
 
 # Interface: IAppendixBingKeywordsDataLimitsRatesDataInfo
 
@@ -28,56 +24,48 @@
 
 ### keyword\_performance
 
-• `Optional` **keyword\_performance**: [`AppendixInfo`](../classes/AppendixInfo.md)
+• `Optional` **keyword\_performance**: [`AppendixFunctionInfo`](../classes/AppendixFunctionInfo.md)
 
 #### Defined in
 
-[main.ts:206783](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L206783)
+main.ts:212244
 
 ___
-
 
 ### keywords\_for\_keywords
 
-• `Optional` **keywords\_for\_keywords**: [`AppendixInfo`](../classes/AppendixInfo.md)
+• `Optional` **keywords\_for\_keywords**: [`AppendixFunctionInfo`](../classes/AppendixFunctionInfo.md)
 
 #### Defined in
 
-[main.ts:206787](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L206787)
+main.ts:212248
 
 ___
-
 
 ### keywords\_for\_site
 
-• `Optional` **keywords\_for\_site**: [`AppendixInfo`](../classes/AppendixInfo.md)
+• `Optional` **keywords\_for\_site**: [`AppendixFunctionInfo`](../classes/AppendixFunctionInfo.md)
 
 #### Defined in
 
-[main.ts:206786](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L206786)
+main.ts:212247
 
 ___
-
 
 ### search\_volume
 
-• `Optional` **search\_volume**: [`AppendixInfo`](../classes/AppendixInfo.md)
+• `Optional` **search\_volume**: [`AppendixFunctionInfo`](../classes/AppendixFunctionInfo.md)
 
 #### Defined in
 
-[main.ts:206785](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L206785)
+main.ts:212246
 
 ___
 
-
 ### search\_volume\_history
 
-• `Optional` **search\_volume\_history**: [`AppendixInfo`](../classes/AppendixInfo.md)
+• `Optional` **search\_volume\_history**: [`AppendixFunctionInfo`](../classes/AppendixFunctionInfo.md)
 
 #### Defined in
 
-[main.ts:206784](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L206784)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:212245

@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IAnalysisContentInfo
+[Documentation](../README.md) / [Exports](../modules.md) / IAnalysisContentInfo
 
 # Interface: IAnalysisContentInfo
 
@@ -48,10 +44,9 @@ author of the content
 
 #### Defined in
 
-[main.ts:156592](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L156592)
+main.ts:162019
 
 ___
-
 
 ### connotation\_types
 
@@ -67,10 +62,9 @@ possible sentiment connotation types: positive, negative, neutral
 
 #### Defined in
 
-[main.ts:156612](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L156612)
+main.ts:162039
 
 ___
-
 
 ### content\_quality\_score
 
@@ -81,10 +75,9 @@ this value is calculated based on the number of words, sentences and characters 
 
 #### Defined in
 
-[main.ts:156623](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L156623)
+main.ts:162050
 
 ___
-
 
 ### content\_type
 
@@ -96,10 +89,9 @@ page_content, comment
 
 #### Defined in
 
-[main.ts:156581](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L156581)
+main.ts:162008
 
 ___
-
 
 ### date\_published
 
@@ -112,10 +104,9 @@ example:
 
 #### Defined in
 
-[main.ts:156620](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L156620)
+main.ts:162047
 
 ___
-
 
 ### group\_date
 
@@ -130,10 +121,9 @@ example:
 
 #### Defined in
 
-[main.ts:156638](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L156638)
+main.ts:162065
 
 ___
-
 
 ### highlighted\_text
 
@@ -143,10 +133,9 @@ highlighted text from the snippet
 
 #### Defined in
 
-[main.ts:156601](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L156601)
+main.ts:162028
 
 ___
-
 
 ### language
 
@@ -157,10 +146,9 @@ to obtain a full list of available languages, refer to the Languages endpoint
 
 #### Defined in
 
-[main.ts:156604](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L156604)
+main.ts:162031
 
 ___
-
 
 ### level
 
@@ -171,10 +159,9 @@ indicates h-tag level from 1 (top) to 6 (bottom)
 
 #### Defined in
 
-[main.ts:156590](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L156590)
+main.ts:162017
 
 ___
-
 
 ### main\_title
 
@@ -184,10 +171,9 @@ page title
 
 #### Defined in
 
-[main.ts:156585](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L156585)
+main.ts:162012
 
 ___
-
 
 ### previous\_title
 
@@ -197,10 +183,9 @@ title of the previous content block
 
 #### Defined in
 
-[main.ts:156587](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L156587)
+main.ts:162014
 
 ___
-
 
 ### rating
 
@@ -211,10 +196,9 @@ rating related to content_info
 
 #### Defined in
 
-[main.ts:156631](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L156631)
+main.ts:162058
 
 ___
-
 
 ### semantic\_location
 
@@ -227,10 +211,9 @@ article, header
 
 #### Defined in
 
-[main.ts:156628](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L156628)
+main.ts:162055
 
 ___
-
 
 ### sentiment\_connotations
 
@@ -246,10 +229,9 @@ possible sentiment connotations: anger, happiness, love, sadness, share, fun
 
 #### Defined in
 
-[main.ts:156608](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L156608)
+main.ts:162035
 
 ___
-
 
 ### snippet
 
@@ -259,10 +241,9 @@ content snippet
 
 #### Defined in
 
-[main.ts:156594](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L156594)
+main.ts:162021
 
 ___
-
 
 ### snippet\_length
 
@@ -272,10 +253,9 @@ character length of the snippet
 
 #### Defined in
 
-[main.ts:156596](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L156596)
+main.ts:162023
 
 ___
-
 
 ### social\_metrics
 
@@ -286,10 +266,9 @@ data on social media interactions associated with the content based on website e
 
 #### Defined in
 
-[main.ts:156599](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L156599)
+main.ts:162026
 
 ___
-
 
 ### text\_category
 
@@ -300,10 +279,9 @@ to obtain a full list of available categories, refer to the Categories endpoint
 
 #### Defined in
 
-[main.ts:156615](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L156615)
+main.ts:162042
 
 ___
-
 
 ### title
 
@@ -313,8 +291,4 @@ title of the result
 
 #### Defined in
 
-[main.ts:156583](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L156583)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:162010

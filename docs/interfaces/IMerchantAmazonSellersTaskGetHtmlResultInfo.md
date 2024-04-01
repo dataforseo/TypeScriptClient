@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IMerchantAmazonSellersTaskGetHtmlResultInfo
+[Documentation](../README.md) / [Exports](../modules.md) / IMerchantAmazonSellersTaskGetHtmlResultInfo
 
 # Interface: IMerchantAmazonSellersTaskGetHtmlResultInfo
 
@@ -37,10 +33,9 @@ ASIN received in a POST array
 
 #### Defined in
 
-[main.ts:174722](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L174722)
+main.ts:180175
 
 ___
-
 
 ### datetime
 
@@ -53,10 +48,9 @@ example:
 
 #### Defined in
 
-[main.ts:174735](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L174735)
+main.ts:180188
 
 ___
-
 
 ### items
 
@@ -66,10 +60,9 @@ elements of search results found on Amazon
 
 #### Defined in
 
-[main.ts:174739](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L174739)
+main.ts:180192
 
 ___
-
 
 ### items\_count
 
@@ -79,10 +72,9 @@ the number of results returned in the items array
 
 #### Defined in
 
-[main.ts:174737](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L174737)
+main.ts:180190
 
 ___
-
 
 ### language\_code
 
@@ -92,10 +84,9 @@ language code in a POST array
 
 #### Defined in
 
-[main.ts:174730](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L174730)
+main.ts:180183
 
 ___
-
 
 ### location\_code
 
@@ -105,10 +96,9 @@ location code in a POST array
 
 #### Defined in
 
-[main.ts:174728](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L174728)
+main.ts:180181
 
 ___
-
 
 ### se\_domain
 
@@ -118,10 +108,9 @@ search engine domain in a POST array
 
 #### Defined in
 
-[main.ts:174726](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L174726)
+main.ts:180179
 
 ___
-
 
 ### type
 
@@ -131,8 +120,4 @@ type of element
 
 #### Defined in
 
-[main.ts:174724](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L174724)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:180177

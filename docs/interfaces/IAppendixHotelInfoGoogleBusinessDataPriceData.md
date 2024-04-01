@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IAppendixHotelInfoGoogleBusinessDataPriceData
+[Documentation](../README.md) / [Exports](../modules.md) / IAppendixHotelInfoGoogleBusinessDataPriceData
 
 # Interface: IAppendixHotelInfoGoogleBusinessDataPriceData
 
@@ -31,10 +27,9 @@
 
 #### Defined in
 
-[main.ts:211106](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L211106)
+main.ts:216699
 
 ___
-
 
 ### task\_get
 
@@ -42,10 +37,9 @@ ___
 
 #### Defined in
 
-[main.ts:211107](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L211107)
+main.ts:216700
 
 ___
-
 
 ### task\_post
 
@@ -53,10 +47,9 @@ ___
 
 #### Defined in
 
-[main.ts:211108](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L211108)
+main.ts:216701
 
 ___
-
 
 ### tasks\_ready
 
@@ -64,8 +57,4 @@ ___
 
 #### Defined in
 
-[main.ts:211109](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L211109)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:216702

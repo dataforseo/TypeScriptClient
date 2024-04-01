@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / ILastModified
+[Documentation](../README.md) / [Exports](../modules.md) / ILastModified
 
 # Interface: ILastModified
 
@@ -36,10 +32,9 @@ if there is no data, the value will be null
 
 #### Defined in
 
-[main.ts:144864](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L144864)
+main.ts:150291
 
 ___
-
 
 ### meta\_tag
 
@@ -53,10 +48,9 @@ if there is no data, the value will be null
 
 #### Defined in
 
-[main.ts:144876](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L144876)
+main.ts:150303
 
 ___
-
 
 ### sitemap
 
@@ -70,8 +64,4 @@ if there is no data, the value will be null
 
 #### Defined in
 
-[main.ts:144870](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L144870)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:150297

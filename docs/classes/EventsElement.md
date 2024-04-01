@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / EventsElement
+[Documentation](../README.md) / [Exports](../modules.md) / EventsElement
 
 # Class: EventsElement
 
@@ -51,7 +47,7 @@
 
 #### Defined in
 
-[main.ts:30978](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L30978)
+main.ts:31811
 
 ## Properties
 
@@ -67,16 +63,15 @@ text alongside the link title
 
 #### Defined in
 
-[main.ts:30972](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L30972)
+main.ts:31805
 
 ___
-
 
 ### title
 
 • `Optional` **title**: `string`
 
-title of the row
+title of a given link element
 
 #### Implementation of
 
@@ -84,10 +79,9 @@ title of the row
 
 #### Defined in
 
-[main.ts:30970](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L30970)
+main.ts:31803
 
 ___
-
 
 ### type
 
@@ -101,10 +95,9 @@ type of element
 
 #### Defined in
 
-[main.ts:30968](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L30968)
+main.ts:31801
 
 ___
-
 
 ### url
 
@@ -118,7 +111,7 @@ URL
 
 #### Defined in
 
-[main.ts:30974](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L30974)
+main.ts:31807
 
 ## Methods
 
@@ -138,10 +131,9 @@ URL
 
 #### Defined in
 
-[main.ts:30987](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L30987)
+main.ts:31820
 
 ___
-
 
 ### toJSON
 
@@ -159,10 +151,9 @@ ___
 
 #### Defined in
 
-[main.ts:31007](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L31007)
+main.ts:31840
 
 ___
-
 
 ### fromJS
 
@@ -180,8 +171,4 @@ ___
 
 #### Defined in
 
-[main.ts:31000](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L31000)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:31833

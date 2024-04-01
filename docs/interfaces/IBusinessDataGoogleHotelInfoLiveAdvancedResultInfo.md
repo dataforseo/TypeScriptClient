@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IBusinessDataGoogleHotelInfoLiveAdvancedResultInfo
+[Documentation](../README.md) / [Exports](../modules.md) / IBusinessDataGoogleHotelInfoLiveAdvancedResultInfo
 
 # Interface: IBusinessDataGoogleHotelInfoLiveAdvancedResultInfo
 
@@ -44,10 +40,9 @@ information about the hotel
 
 #### Defined in
 
-[main.ts:197154](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L197154)
+main.ts:202615
 
 ___
-
 
 ### address
 
@@ -58,10 +53,9 @@ physical address of the hotel
 
 #### Defined in
 
-[main.ts:197149](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L197149)
+main.ts:202610
 
 ___
-
 
 ### check\_url
 
@@ -72,10 +66,9 @@ you can use it to make sure that we provided accurate results
 
 #### Defined in
 
-[main.ts:197132](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L197132)
+main.ts:202593
 
 ___
-
 
 ### datetime
 
@@ -88,10 +81,9 @@ example:
 
 #### Defined in
 
-[main.ts:197137](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L197137)
+main.ts:202598
 
 ___
-
 
 ### hotel\_identifier
 
@@ -104,10 +96,9 @@ CgoI-KWyzenM_MV3EAE
 
 #### Defined in
 
-[main.ts:197125](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L197125)
+main.ts:202586
 
 ___
-
 
 ### language\_code
 
@@ -117,10 +108,9 @@ language code in a POST array
 
 #### Defined in
 
-[main.ts:197129](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L197129)
+main.ts:202590
 
 ___
-
 
 ### location
 
@@ -131,10 +121,9 @@ information about the location where the hotel is located
 
 #### Defined in
 
-[main.ts:197157](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L197157)
+main.ts:202618
 
 ___
-
 
 ### location\_code
 
@@ -144,10 +133,9 @@ location code in a POST array
 
 #### Defined in
 
-[main.ts:197127](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L197127)
+main.ts:202588
 
 ___
-
 
 ### overview\_images
 
@@ -158,10 +146,9 @@ array containing URLs to images displayed in the hotel overview
 
 #### Defined in
 
-[main.ts:197163](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L197163)
+main.ts:202624
 
 ___
-
 
 ### phone
 
@@ -172,10 +159,9 @@ contact phone number of the hotel
 
 #### Defined in
 
-[main.ts:197152](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L197152)
+main.ts:202613
 
 ___
-
 
 ### prices
 
@@ -186,10 +172,9 @@ contains information about the hotel’s prices
 
 #### Defined in
 
-[main.ts:197166](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L197166)
+main.ts:202627
 
 ___
-
 
 ### reviews
 
@@ -200,10 +185,9 @@ information about reviews of the hotel entity
 
 #### Defined in
 
-[main.ts:197160](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L197160)
+main.ts:202621
 
 ___
-
 
 ### stars
 
@@ -214,10 +198,9 @@ class rating that ranges between 1-5 stars and displayed after review ratings in
 
 #### Defined in
 
-[main.ts:197143](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L197143)
+main.ts:202604
 
 ___
-
 
 ### stars\_description
 
@@ -228,10 +211,9 @@ class rating that ranges between 1-5 stars and displayed after review ratings in
 
 #### Defined in
 
-[main.ts:197146](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L197146)
+main.ts:202607
 
 ___
-
 
 ### title
 
@@ -242,8 +224,4 @@ the title of the hotel entity for which the results are collected
 
 #### Defined in
 
-[main.ts:197140](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L197140)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:202601

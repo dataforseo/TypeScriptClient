@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IVideoElement
+[Documentation](../README.md) / [Exports](../modules.md) / IVideoElement
 
 # Interface: IVideoElement
 
@@ -35,24 +31,22 @@ URL to the video preview image
 
 #### Defined in
 
-[main.ts:30173](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L30173)
+main.ts:30978
 
 ___
-
 
 ### source
 
 • `Optional` **source**: `string`
 
-web source of the hotel booking element
-indicates the source of information included in the element
+source of the element
+indicates the source of information included in the top_stories_element
 
 #### Defined in
 
-[main.ts:30162](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L30162)
+main.ts:30967
 
 ___
-
 
 ### timestamp
 
@@ -65,23 +59,21 @@ example:
 
 #### Defined in
 
-[main.ts:30169](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L30169)
+main.ts:30974
 
 ___
-
 
 ### title
 
 • `Optional` **title**: `string`
 
-title of the row
+title of a given link element
 
 #### Defined in
 
-[main.ts:30164](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L30164)
+main.ts:30969
 
 ___
-
 
 ### type
 
@@ -91,10 +83,9 @@ type of element
 
 #### Defined in
 
-[main.ts:30159](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L30159)
+main.ts:30964
 
 ___
-
 
 ### url
 
@@ -104,8 +95,4 @@ URL
 
 #### Defined in
 
-[main.ts:30171](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L30171)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:30976

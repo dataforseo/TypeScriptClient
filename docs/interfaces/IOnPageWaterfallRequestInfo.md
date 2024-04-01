@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IOnPageWaterfallRequestInfo
+[Documentation](../README.md) / [Exports](../modules.md) / IOnPageWaterfallRequestInfo
 
 # Interface: IOnPageWaterfallRequestInfo
 
@@ -36,10 +32,9 @@ example:
 
 #### Defined in
 
-[main.ts:149696](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L149696)
+main.ts:155123
 
 ___
-
 
 ### tag
 
@@ -53,10 +48,9 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-[main.ts:149706](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L149706)
+main.ts:155133
 
 ___
-
 
 ### url
 
@@ -68,8 +62,4 @@ specify the pages you want to receive timing for
 
 #### Defined in
 
-[main.ts:149700](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L149700)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:155127

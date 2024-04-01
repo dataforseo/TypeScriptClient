@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IAppendixFunctionTypeInfo
+[Documentation](../README.md) / [Exports](../modules.md) / IAppendixFunctionTypeInfo
 
 # Interface: IAppendixFunctionTypeInfo
 
@@ -30,10 +26,9 @@
 
 #### Defined in
 
-[main.ts:206530](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L206530)
+main.ts:211991
 
 ___
-
 
 ### html
 
@@ -41,10 +36,9 @@ ___
 
 #### Defined in
 
-[main.ts:206531](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L206531)
+main.ts:211992
 
 ___
-
 
 ### regular
 
@@ -52,8 +46,4 @@ ___
 
 #### Defined in
 
-[main.ts:206529](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L206529)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:211990

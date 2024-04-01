@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / BusinessDataGoogleHotelSearchesTasksReadyResultInfo
+[Documentation](../README.md) / [Exports](../modules.md) / BusinessDataGoogleHotelSearchesTasksReadyResultInfo
 
 # Class: BusinessDataGoogleHotelSearchesTasksReadyResultInfo
 
@@ -52,7 +48,7 @@
 
 #### Defined in
 
-[main.ts:193216](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L193216)
+main.ts:198677
 
 ## Properties
 
@@ -68,10 +64,9 @@ date when the task was posted (in the UTC format)
 
 #### Defined in
 
-[main.ts:193208](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L193208)
+main.ts:198669
 
 ___
-
 
 ### endpoint
 
@@ -85,10 +80,9 @@ URL for collecting the results of the task
 
 #### Defined in
 
-[main.ts:193212](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L193212)
+main.ts:198673
 
 ___
-
 
 ### id
 
@@ -103,10 +97,9 @@ unique task identifier in our system in the UUID format
 
 #### Defined in
 
-[main.ts:193203](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L193203)
+main.ts:198664
 
 ___
-
 
 ### se
 
@@ -121,10 +114,9 @@ can take the following values: google
 
 #### Defined in
 
-[main.ts:193206](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L193206)
+main.ts:198667
 
 ___
-
 
 ### tag
 
@@ -138,7 +130,7 @@ user-defined task identifier
 
 #### Defined in
 
-[main.ts:193210](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L193210)
+main.ts:198671
 
 ## Methods
 
@@ -158,10 +150,9 @@ user-defined task identifier
 
 #### Defined in
 
-[main.ts:193225](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L193225)
+main.ts:198686
 
 ___
-
 
 ### toJSON
 
@@ -179,10 +170,9 @@ ___
 
 #### Defined in
 
-[main.ts:193246](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L193246)
+main.ts:198707
 
 ___
-
 
 ### fromJS
 
@@ -200,8 +190,4 @@ ___
 
 #### Defined in
 
-[main.ts:193239](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L193239)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:198700

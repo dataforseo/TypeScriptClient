@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IBusinessDataGoogleReviewsTaskGetResultInfo
+[Documentation](../README.md) / [Exports](../modules.md) / IBusinessDataGoogleReviewsTaskGetResultInfo
 
 # Interface: IBusinessDataGoogleReviewsTaskGetResultInfo
 
@@ -46,10 +42,9 @@ you can use it to make sure that we provided accurate results
 
 #### Defined in
 
-[main.ts:198517](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L198517)
+main.ts:203978
 
 ___
-
 
 ### cid
 
@@ -61,10 +56,9 @@ learn more about the identifier in this help center article
 
 #### Defined in
 
-[main.ts:198541](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L198541)
+main.ts:204002
 
 ___
-
 
 ### datetime
 
@@ -77,10 +71,9 @@ example:
 
 #### Defined in
 
-[main.ts:198522](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L198522)
+main.ts:203983
 
 ___
-
 
 ### feature\_id
 
@@ -91,10 +84,9 @@ learn more about the identifier in this help center article
 
 #### Defined in
 
-[main.ts:198534](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L198534)
+main.ts:203995
 
 ___
-
 
 ### items
 
@@ -105,10 +97,9 @@ you can get more results by using the depth parameter when setting a task
 
 #### Defined in
 
-[main.ts:198549](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L198549)
+main.ts:204010
 
 ___
-
 
 ### items\_count
 
@@ -119,10 +110,9 @@ you can get more results by using the depth parameter when setting a task
 
 #### Defined in
 
-[main.ts:198546](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L198546)
+main.ts:204007
 
 ___
-
 
 ### keyword
 
@@ -133,10 +123,9 @@ keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a s
 
 #### Defined in
 
-[main.ts:198506](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L198506)
+main.ts:203967
 
 ___
-
 
 ### language\_code
 
@@ -146,10 +135,9 @@ language code in a POST array
 
 #### Defined in
 
-[main.ts:198514](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L198514)
+main.ts:203975
 
 ___
-
 
 ### location\_code
 
@@ -159,10 +147,9 @@ location code in a POST array
 
 #### Defined in
 
-[main.ts:198512](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L198512)
+main.ts:203973
 
 ___
-
 
 ### place\_id
 
@@ -173,10 +160,9 @@ learn more about the identifier in this help center article
 
 #### Defined in
 
-[main.ts:198537](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L198537)
+main.ts:203998
 
 ___
-
 
 ### rating
 
@@ -187,10 +173,9 @@ popularity rate based on reviews and displayed in SERP
 
 #### Defined in
 
-[main.ts:198531](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L198531)
+main.ts:203992
 
 ___
-
 
 ### reviews\_count
 
@@ -200,10 +185,9 @@ the total number of reviews
 
 #### Defined in
 
-[main.ts:198543](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L198543)
+main.ts:204004
 
 ___
-
 
 ### se\_domain
 
@@ -213,10 +197,9 @@ search engine domain in a POST array
 
 #### Defined in
 
-[main.ts:198510](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L198510)
+main.ts:203971
 
 ___
-
 
 ### sub\_title
 
@@ -227,10 +210,9 @@ additional information (e.g., address) on the ‘reviews’ element for which th
 
 #### Defined in
 
-[main.ts:198528](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L198528)
+main.ts:203989
 
 ___
-
 
 ### title
 
@@ -241,10 +223,9 @@ the name of the local establishment for which the reviews are collected
 
 #### Defined in
 
-[main.ts:198525](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L198525)
+main.ts:203986
 
 ___
-
 
 ### type
 
@@ -254,8 +235,4 @@ type of element
 
 #### Defined in
 
-[main.ts:198508](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L198508)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:203969

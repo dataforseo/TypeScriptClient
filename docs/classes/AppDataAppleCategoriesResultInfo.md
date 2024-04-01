@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / AppDataAppleCategoriesResultInfo
+[Documentation](../README.md) / [Exports](../modules.md) / AppDataAppleCategoriesResultInfo
 
 # Class: AppDataAppleCategoriesResultInfo
 
@@ -48,7 +44,7 @@
 
 #### Defined in
 
-[main.ts:182568](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L182568)
+main.ts:188021
 
 ## Properties
 
@@ -64,7 +60,7 @@ contains full list of supported app categories
 
 #### Defined in
 
-[main.ts:182564](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L182564)
+main.ts:188017
 
 ## Methods
 
@@ -84,10 +80,9 @@ contains full list of supported app categories
 
 #### Defined in
 
-[main.ts:182577](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L182577)
+main.ts:188030
 
 ___
-
 
 ### toJSON
 
@@ -105,10 +100,9 @@ ___
 
 #### Defined in
 
-[main.ts:182598](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L182598)
+main.ts:188051
 
 ___
-
 
 ### fromJS
 
@@ -126,8 +120,4 @@ ___
 
 #### Defined in
 
-[main.ts:182591](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L182591)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:188044

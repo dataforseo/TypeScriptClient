@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IOnPageRedirectChainsResultInfo
+[Documentation](../README.md) / [Exports](../modules.md) / IOnPageRedirectChainsResultInfo
 
 # Interface: IOnPageRedirectChainsResultInfo
 
@@ -35,10 +31,9 @@ possible values: in_progress, finished
 
 #### Defined in
 
-[main.ts:149130](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L149130)
+main.ts:154557
 
 ___
-
 
 ### crawl\_status
 
@@ -48,10 +43,9 @@ details of the crawling session
 
 #### Defined in
 
-[main.ts:149132](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L149132)
+main.ts:154559
 
 ___
-
 
 ### items
 
@@ -61,10 +55,9 @@ items array
 
 #### Defined in
 
-[main.ts:149138](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L149138)
+main.ts:154565
 
 ___
-
 
 ### items\_count
 
@@ -74,10 +67,9 @@ number of items in the results array
 
 #### Defined in
 
-[main.ts:149136](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L149136)
+main.ts:154563
 
 ___
-
 
 ### total\_items\_count
 
@@ -87,8 +79,4 @@ total number of relevant items in the database
 
 #### Defined in
 
-[main.ts:149134](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L149134)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:154561

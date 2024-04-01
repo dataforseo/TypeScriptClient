@@ -1,15 +1,11 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IBusinessDataGoogleHotelSearchesTaskPostRequestInfo
+[Documentation](../README.md) / [Exports](../modules.md) / IBusinessDataGoogleHotelSearchesTaskPostRequestInfo
 
 # Interface: IBusinessDataGoogleHotelSearchesTaskPostRequestInfo
 
 ## Hierarchy
 
 - [`IBusinessDataTaskRequestInfo`](IBusinessDataTaskRequestInfo.md)
-  
+
   ↳ **`IBusinessDataGoogleHotelSearchesTaskPostRequestInfo`**
 
 ## Implemented by
@@ -64,10 +60,9 @@ example:
 
 #### Defined in
 
-[main.ts:193008](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L193008)
+main.ts:198469
 
 ___
-
 
 ### amenities
 
@@ -77,10 +72,10 @@ hotel amenities
 optional field
 you can use this field to specify different hotel amenities
 example:
-[
-"free_parking",
-"pets_allowed"
-]
+  [
+            "free_parking",
+            "pets_allowed"
+        ]
 
 possible values:
 "air_conditioning",
@@ -104,10 +99,9 @@ possible values:
 
 #### Defined in
 
-[main.ts:193091](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L193091)
+main.ts:198552
 
 ___
-
 
 ### check\_in
 
@@ -123,10 +117,9 @@ Note: the value cannot precede the today’s date
 
 #### Defined in
 
-[main.ts:192987](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L192987)
+main.ts:198448
 
 ___
-
 
 ### check\_out
 
@@ -143,10 +136,9 @@ the range between check_in and check_out values cannot exceed 30 days
 
 #### Defined in
 
-[main.ts:192996](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L192996)
+main.ts:198457
 
 ___
-
 
 ### children
 
@@ -164,10 +156,9 @@ set the following value if you want to include one 13-year-old child and one 8-y
 
 #### Defined in
 
-[main.ts:193018](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L193018)
+main.ts:198479
 
 ___
-
 
 ### currency
 
@@ -180,10 +171,9 @@ example:
 
 #### Defined in
 
-[main.ts:193001](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L193001)
+main.ts:198462
 
 ___
-
 
 ### depth
 
@@ -200,10 +190,9 @@ if the specified depth is higher than the number of results in the response, the
 
 #### Defined in
 
-[main.ts:192979](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L192979)
+main.ts:198440
 
 ___
-
 
 ### free\_cancellation
 
@@ -216,10 +205,9 @@ default value: false
 
 #### Defined in
 
-[main.ts:193057](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L193057)
+main.ts:198518
 
 ___
-
 
 ### is\_vacation\_rentals
 
@@ -232,10 +220,9 @@ default value: false
 
 #### Defined in
 
-[main.ts:193062](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L193062)
+main.ts:198523
 
 ___
-
 
 ### keyword
 
@@ -246,7 +233,7 @@ required field
 the keyword you specify should indicate the name of the local establishment
 you can specify up to 700 symbols in the keyword filed
 all %## will be decoded (plus symbol ‘+’ will be decoded to a space character)
-if you need to use the “%” symbol for your keyword, please specify it as “%25”;
+if you need to use the “%” symbol for your keyword, please specify it as “%25”; 
 this field can also be used to pass the following parameters:
 cid – a unique, google-defined id of the business entity;
 place_id – an identifier of the business entity in Google Maps;
@@ -263,10 +250,9 @@ learn more about the cid and place_id identifiers in this help center article
 
 #### Defined in
 
-[main.ts:183256](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L183256)
+main.ts:188709
 
 ___
-
 
 ### language\_code
 
@@ -285,10 +271,9 @@ en
 
 #### Defined in
 
-[main.ts:183301](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L183301)
+main.ts:188754
 
 ___
-
 
 ### language\_name
 
@@ -307,10 +292,9 @@ English
 
 #### Defined in
 
-[main.ts:183294](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L183294)
+main.ts:188747
 
 ___
-
 
 ### location\_code
 
@@ -329,10 +313,9 @@ example:
 
 #### Defined in
 
-[main.ts:183278](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L183278)
+main.ts:188731
 
 ___
-
 
 ### location\_coordinate
 
@@ -353,10 +336,9 @@ example:
 
 #### Defined in
 
-[main.ts:183287](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L183287)
+main.ts:188740
 
 ___
-
 
 ### location\_name
 
@@ -375,10 +357,9 @@ London,England,United Kingdom
 
 #### Defined in
 
-[main.ts:183271](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L183271)
+main.ts:188724
 
 ___
-
 
 ### max\_price
 
@@ -392,10 +373,9 @@ example:
 
 #### Defined in
 
-[main.ts:193052](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L193052)
+main.ts:198513
 
 ___
-
 
 ### min\_price
 
@@ -409,10 +389,9 @@ example:
 
 #### Defined in
 
-[main.ts:193046](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L193046)
+main.ts:198507
 
 ___
-
 
 ### min\_rating
 
@@ -426,10 +405,9 @@ example:
 
 #### Defined in
 
-[main.ts:193030](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L193030)
+main.ts:198491
 
 ___
-
 
 ### pingback\_url
 
@@ -451,10 +429,9 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-[main.ts:183327](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L183327)
+main.ts:188780
 
 ___
-
 
 ### postback\_url
 
@@ -476,10 +453,9 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-[main.ts:183317](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L183317)
+main.ts:188770
 
 ___
-
 
 ### priority
 
@@ -499,10 +475,9 @@ The cost can be calculated on the Pricing page.
 
 #### Defined in
 
-[main.ts:183264](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L183264)
+main.ts:188717
 
 ___
-
 
 ### sort\_by
 
@@ -520,10 +495,9 @@ default value: relevance
 
 #### Defined in
 
-[main.ts:193040](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L193040)
+main.ts:198501
 
 ___
-
 
 ### stars
 
@@ -537,10 +511,9 @@ example:
 
 #### Defined in
 
-[main.ts:193024](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L193024)
+main.ts:198485
 
 ___
-
 
 ### tag
 
@@ -558,8 +531,4 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-[main.ts:183307](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L183307)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:188760

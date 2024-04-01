@@ -1,15 +1,11 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IMapsSearchSerpElementItem
+[Documentation](../README.md) / [Exports](../modules.md) / IMapsSearchSerpElementItem
 
 # Interface: IMapsSearchSerpElementItem
 
 ## Hierarchy
 
 - [`IBaseSerpElementItem`](IBaseSerpElementItem.md)
-  
+
   ↳ **`IMapsSearchSerpElementItem`**
 
 ## Implemented by
@@ -64,10 +60,9 @@ additional Google My Business categories that describe the services provided by 
 
 #### Defined in
 
-[main.ts:38676](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L38676)
+main.ts:39427
 
 ___
-
 
 ### address
 
@@ -78,10 +73,9 @@ address of the local establishment featured in the element
 
 #### Defined in
 
-[main.ts:38658](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L38658)
+main.ts:39409
 
 ___
-
 
 ### address\_info
 
@@ -91,10 +85,9 @@ object containing address components of the local establishment
 
 #### Defined in
 
-[main.ts:38660](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L38660)
+main.ts:39411
 
 ___
-
 
 ### category
 
@@ -105,10 +98,9 @@ Google My Business general category that best describes the services provided by
 
 #### Defined in
 
-[main.ts:38673](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L38673)
+main.ts:39424
 
 ___
-
 
 ### category\_ids
 
@@ -119,10 +111,9 @@ universal category IDs that do not change based on the selected country
 
 #### Defined in
 
-[main.ts:38679](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L38679)
+main.ts:39430
 
 ___
-
 
 ### cid
 
@@ -134,10 +125,9 @@ can be used with Google Reviews API to get a full list of reviews
 
 #### Defined in
 
-[main.ts:38688](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L38688)
+main.ts:39439
 
 ___
-
 
 ### contact\_url
 
@@ -147,10 +137,9 @@ URL of the preferred contact page
 
 #### Defined in
 
-[main.ts:38638](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L38638)
+main.ts:39389
 
 ___
-
 
 ### domain
 
@@ -160,10 +149,9 @@ domain in the SERP element
 
 #### Defined in
 
-[main.ts:38632](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L38632)
+main.ts:39383
 
 ___
-
 
 ### feature\_id
 
@@ -173,10 +161,9 @@ the unique identifier of the element in SERP
 
 #### Defined in
 
-[main.ts:38684](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L38684)
+main.ts:39435
 
 ___
-
 
 ### hotel\_rating
 
@@ -188,10 +175,9 @@ if there is no hotel class rating information, the value will be null
 
 #### Defined in
 
-[main.ts:38645](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L38645)
+main.ts:39396
 
 ___
-
 
 ### is\_claimed
 
@@ -201,10 +187,9 @@ indicates whether ownership of this local establishment is claimed
 
 #### Defined in
 
-[main.ts:38698](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L38698)
+main.ts:39449
 
 ___
-
 
 ### is\_directory\_item
 
@@ -214,10 +199,9 @@ indicates whether this local establishment is a directory
 
 #### Defined in
 
-[main.ts:38703](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L38703)
+main.ts:39454
 
 ___
-
 
 ### latitude
 
@@ -229,10 +213,9 @@ example:
 
 #### Defined in
 
-[main.ts:38692](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L38692)
+main.ts:39443
 
 ___
-
 
 ### local\_justifications
 
@@ -243,10 +226,9 @@ snippets of text that “justify” why the business is showing up for search qu
 
 #### Defined in
 
-[main.ts:38701](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L38701)
+main.ts:39452
 
 ___
-
 
 ### longitude
 
@@ -258,10 +240,9 @@ example:
 
 #### Defined in
 
-[main.ts:38696](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L38696)
+main.ts:39447
 
 ___
-
 
 ### main\_image
 
@@ -271,10 +252,9 @@ URL of the main image featured in Google My Business profile
 
 #### Defined in
 
-[main.ts:38668](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L38668)
+main.ts:39419
 
 ___
-
 
 ### phone
 
@@ -285,10 +265,9 @@ phone number of the local establishment featured in the element
 
 #### Defined in
 
-[main.ts:38666](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L38666)
+main.ts:39417
 
 ___
-
 
 ### place\_id
 
@@ -299,10 +278,9 @@ place id of the local establishment featured in the element
 
 #### Defined in
 
-[main.ts:38663](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L38663)
+main.ts:39414
 
 ___
-
 
 ### price\_level
 
@@ -314,10 +292,9 @@ if there is no price level information, the value will be null
 
 #### Defined in
 
-[main.ts:38649](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L38649)
+main.ts:39400
 
 ___
-
 
 ### rank\_absolute
 
@@ -328,10 +305,9 @@ absolute position among all the elements in SERP
 
 #### Defined in
 
-[main.ts:38630](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L38630)
+main.ts:39381
 
 ___
-
 
 ### rank\_group
 
@@ -343,24 +319,22 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-[main.ts:38627](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L38627)
+main.ts:39378
 
 ___
-
 
 ### rating
 
 • `Optional` **rating**: [`RatingInfo`](../classes/RatingInfo.md)
 
-the element’s rating
+the element’s rating 
 the popularity rate based on reviews and displayed in SERP
 
 #### Defined in
 
-[main.ts:38641](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L38641)
+main.ts:39392
 
 ___
-
 
 ### rating\_distribution
 
@@ -375,10 +349,9 @@ the object displays the number of 1-star to 5-star ratings, as reviewed by users
 
 #### Defined in
 
-[main.ts:38652](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L38652)
+main.ts:39403
 
 ___
-
 
 ### snippet
 
@@ -389,10 +362,9 @@ contains the address and other information about the local establishment feature
 
 #### Defined in
 
-[main.ts:38655](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L38655)
+main.ts:39406
 
 ___
-
 
 ### title
 
@@ -402,10 +374,9 @@ title of the result in SERP
 
 #### Defined in
 
-[main.ts:38634](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L38634)
+main.ts:39385
 
 ___
-
 
 ### total\_photos
 
@@ -415,10 +386,9 @@ total count of images featured in Google My Business profile
 
 #### Defined in
 
-[main.ts:38670](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L38670)
+main.ts:39421
 
 ___
-
 
 ### url
 
@@ -428,10 +398,9 @@ relevant URL in SERP
 
 #### Defined in
 
-[main.ts:38636](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L38636)
+main.ts:39387
 
 ___
-
 
 ### work\_hours
 
@@ -442,8 +411,4 @@ information about work hours of the local establishment
 
 #### Defined in
 
-[main.ts:38682](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L38682)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:39433

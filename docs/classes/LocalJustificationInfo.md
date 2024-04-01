@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / LocalJustificationInfo
+[Documentation](../README.md) / [Exports](../modules.md) / LocalJustificationInfo
 
 # Class: LocalJustificationInfo
 
@@ -49,7 +45,7 @@
 
 #### Defined in
 
-[main.ts:38366](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L38366)
+main.ts:39117
 
 ## Properties
 
@@ -65,10 +61,9 @@ text snippet of local justification
 
 #### Defined in
 
-[main.ts:38362](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L38362)
+main.ts:39113
 
 ___
-
 
 ### type
 
@@ -82,7 +77,7 @@ type of element
 
 #### Defined in
 
-[main.ts:38360](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L38360)
+main.ts:39111
 
 ## Methods
 
@@ -102,10 +97,9 @@ type of element
 
 #### Defined in
 
-[main.ts:38375](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L38375)
+main.ts:39126
 
 ___
-
 
 ### toJSON
 
@@ -123,10 +117,9 @@ ___
 
 #### Defined in
 
-[main.ts:38393](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L38393)
+main.ts:39144
 
 ___
-
 
 ### fromJS
 
@@ -144,8 +137,4 @@ ___
 
 #### Defined in
 
-[main.ts:38386](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L38386)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:39137

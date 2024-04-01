@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / RelatedImageSearchesElement
+[Documentation](../README.md) / [Exports](../modules.md) / RelatedImageSearchesElement
 
 # Class: RelatedImageSearchesElement
 
@@ -52,7 +48,7 @@
 
 #### Defined in
 
-[main.ts:28793](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L28793)
+main.ts:29556
 
 ## Properties
 
@@ -68,10 +64,9 @@ alt tag of the image
 
 #### Defined in
 
-[main.ts:28784](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L28784)
+main.ts:29547
 
 ___
-
 
 ### image\_url
 
@@ -86,16 +81,15 @@ the URL leading to the image on the original resource or DataForSEO storage (in 
 
 #### Defined in
 
-[main.ts:28789](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L28789)
+main.ts:29552
 
 ___
-
 
 ### title
 
 • `Optional` **title**: `string`
 
-title of the carousel item
+title of a given link element
 
 #### Implementation of
 
@@ -103,10 +97,9 @@ title of the carousel item
 
 #### Defined in
 
-[main.ts:28782](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L28782)
+main.ts:29545
 
 ___
-
 
 ### type
 
@@ -120,16 +113,15 @@ type of element
 
 #### Defined in
 
-[main.ts:28780](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L28780)
+main.ts:29543
 
 ___
-
 
 ### url
 
 • `Optional` **url**: `string`
 
-source URL
+relevant URL
 
 #### Implementation of
 
@@ -137,7 +129,7 @@ source URL
 
 #### Defined in
 
-[main.ts:28786](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L28786)
+main.ts:29549
 
 ## Methods
 
@@ -157,10 +149,9 @@ source URL
 
 #### Defined in
 
-[main.ts:28802](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L28802)
+main.ts:29565
 
 ___
-
 
 ### toJSON
 
@@ -178,10 +169,9 @@ ___
 
 #### Defined in
 
-[main.ts:28823](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L28823)
+main.ts:29586
 
 ___
-
 
 ### fromJS
 
@@ -199,8 +189,4 @@ ___
 
 #### Defined in
 
-[main.ts:28816](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L28816)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:29579

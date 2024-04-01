@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / KnowledgeGraphListElement
+[Documentation](../README.md) / [Exports](../modules.md) / KnowledgeGraphListElement
 
 # Class: KnowledgeGraphListElement
 
@@ -54,7 +50,7 @@
 
 #### Defined in
 
-[main.ts:26131](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L26131)
+main.ts:26650
 
 ## Properties
 
@@ -70,10 +66,9 @@ domain in SERP
 
 #### Defined in
 
-[main.ts:26122](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L26122)
+main.ts:26641
 
 ___
-
 
 ### image\_url
 
@@ -88,10 +83,9 @@ the URL leading to the image on the original resource or DataForSEO storage (in 
 
 #### Defined in
 
-[main.ts:26125](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L26125)
+main.ts:26644
 
 ___
-
 
 ### subtitle
 
@@ -105,10 +99,9 @@ subtitle of the item
 
 #### Defined in
 
-[main.ts:26118](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L26118)
+main.ts:26637
 
 ___
-
 
 ### title
 
@@ -122,10 +115,9 @@ link anchor text
 
 #### Defined in
 
-[main.ts:26116](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L26116)
+main.ts:26635
 
 ___
-
 
 ### type
 
@@ -139,10 +131,9 @@ type of element
 
 #### Defined in
 
-[main.ts:26114](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L26114)
+main.ts:26633
 
 ___
-
 
 ### url
 
@@ -156,10 +147,9 @@ sitelink URL
 
 #### Defined in
 
-[main.ts:26120](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L26120)
+main.ts:26639
 
 ___
-
 
 ### xpath
 
@@ -173,7 +163,7 @@ the XPath of the element
 
 #### Defined in
 
-[main.ts:26127](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L26127)
+main.ts:26646
 
 ## Methods
 
@@ -193,10 +183,9 @@ the XPath of the element
 
 #### Defined in
 
-[main.ts:26140](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L26140)
+main.ts:26659
 
 ___
-
 
 ### toJSON
 
@@ -214,10 +203,9 @@ ___
 
 #### Defined in
 
-[main.ts:26163](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L26163)
+main.ts:26682
 
 ___
-
 
 ### fromJS
 
@@ -235,8 +223,4 @@ ___
 
 #### Defined in
 
-[main.ts:26156](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L26156)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:26675

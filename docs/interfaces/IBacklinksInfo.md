@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IBacklinksInfo
+[Documentation](../README.md) / [Exports](../modules.md) / IBacklinksInfo
 
 # Interface: IBacklinksInfo
 
@@ -36,10 +32,9 @@ the total number of backlinks, including dofollow and nofollow links
 
 #### Defined in
 
-[main.ts:76062](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L76062)
+main.ts:78439
 
 ___
-
 
 ### dofollow
 
@@ -49,10 +44,9 @@ number of dofollow links
 
 #### Defined in
 
-[main.ts:76059](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L76059)
+main.ts:78436
 
 ___
-
 
 ### referring\_domains
 
@@ -62,10 +56,9 @@ number of referring domains
 
 #### Defined in
 
-[main.ts:76053](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L76053)
+main.ts:78430
 
 ___
-
 
 ### referring\_main\_domains
 
@@ -75,10 +68,9 @@ number of referring main domains
 
 #### Defined in
 
-[main.ts:76055](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L76055)
+main.ts:78432
 
 ___
-
 
 ### referring\_pages
 
@@ -88,10 +80,9 @@ number of referring pages
 
 #### Defined in
 
-[main.ts:76057](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L76057)
+main.ts:78434
 
 ___
-
 
 ### time\_update
 
@@ -104,8 +95,4 @@ example:
 
 #### Defined in
 
-[main.ts:76067](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L76067)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:78444

@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IContentGenerationCheckGrammarLiveRequestInfo
+[Documentation](../README.md) / [Exports](../modules.md) / IContentGenerationCheckGrammarLiveRequestInfo
 
 # Interface: IContentGenerationCheckGrammarLiveRequestInfo
 
@@ -35,10 +31,9 @@ see the List of Languages for Content Generation Check Grammar API
 
 #### Defined in
 
-[main.ts:161452](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L161452)
+main.ts:166879
 
 ___
-
 
 ### language\_name
 
@@ -50,10 +45,9 @@ see the List of Languages for Content Generation Check Grammar API
 
 #### Defined in
 
-[main.ts:161456](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L161456)
+main.ts:166883
 
 ___
-
 
 ### tag
 
@@ -67,10 +61,9 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-[main.ts:161462](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L161462)
+main.ts:166889
 
 ___
-
 
 ### text
 
@@ -83,8 +76,4 @@ learn more about tokens on our help center
 
 #### Defined in
 
-[main.ts:161448](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L161448)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:166875

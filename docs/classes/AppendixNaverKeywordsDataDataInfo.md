@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / AppendixNaverKeywordsDataDataInfo
+[Documentation](../README.md) / [Exports](../modules.md) / AppendixNaverKeywordsDataDataInfo
 
 # Class: AppendixNaverKeywordsDataDataInfo
 
@@ -49,13 +45,13 @@
 
 #### Defined in
 
-[main.ts:208684](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L208684)
+main.ts:214209
 
 ## Properties
 
 ### keywords\_for\_category
 
-• `Optional` **keywords\_for\_category**: [`AppendixInfo`](AppendixInfo.md)
+• `Optional` **keywords\_for\_category**: [`AppendixFunctionInfo`](AppendixFunctionInfo.md)
 
 #### Implementation of
 
@@ -63,14 +59,13 @@
 
 #### Defined in
 
-[main.ts:208679](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L208679)
+main.ts:214204
 
 ___
 
-
 ### search\_volume
 
-• `Optional` **search\_volume**: [`AppendixInfo`](AppendixInfo.md)
+• `Optional` **search\_volume**: [`AppendixFunctionInfo`](AppendixFunctionInfo.md)
 
 #### Implementation of
 
@@ -78,7 +73,7 @@ ___
 
 #### Defined in
 
-[main.ts:208680](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L208680)
+main.ts:214205
 
 ## Methods
 
@@ -98,10 +93,9 @@ ___
 
 #### Defined in
 
-[main.ts:208693](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L208693)
+main.ts:214218
 
 ___
-
 
 ### toJSON
 
@@ -119,10 +113,9 @@ ___
 
 #### Defined in
 
-[main.ts:208711](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L208711)
+main.ts:214236
 
 ___
-
 
 ### fromJS
 
@@ -140,8 +133,4 @@ ___
 
 #### Defined in
 
-[main.ts:208704](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L208704)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:214229

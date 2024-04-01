@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / SerpYahooOrganicLiveAdvancedResultInfo
+[Documentation](../README.md) / [Exports](../modules.md) / SerpYahooOrganicLiveAdvancedResultInfo
 
 # Class: SerpYahooOrganicLiveAdvancedResultInfo
 
@@ -59,7 +55,7 @@
 
 #### Defined in
 
-[main.ts:64759](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L64759)
+main.ts:67135
 
 ## Properties
 
@@ -76,10 +72,9 @@ you can use it to make sure that we provided accurate results
 
 #### Defined in
 
-[main.ts:64736](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L64736)
+main.ts:67111
 
 ___
-
 
 ### datetime
 
@@ -96,10 +91,9 @@ example:
 
 #### Defined in
 
-[main.ts:64741](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L64741)
+main.ts:67116
 
 ___
-
 
 ### item\_types
 
@@ -116,16 +110,16 @@ featured_snippet, images, local_pack, hotels_pack, organic, paid, people_also_as
 
 #### Defined in
 
-[main.ts:64749](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L64749)
+main.ts:67124
 
 ___
-
 
 ### items
 
 • `Optional` **items**: [`BaseSerpElementItem`](BaseSerpElementItem.md)[]
 
-items featured in the faq_box
+additional items present in the element
+if there are none, equals null
 
 #### Implementation of
 
@@ -133,10 +127,9 @@ items featured in the faq_box
 
 #### Defined in
 
-[main.ts:64755](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L64755)
+main.ts:67131
 
 ___
-
 
 ### items\_count
 
@@ -150,10 +143,9 @@ the number of results returned in the items array
 
 #### Defined in
 
-[main.ts:64753](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L64753)
+main.ts:67128
 
 ___
-
 
 ### keyword
 
@@ -168,10 +160,9 @@ the keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to
 
 #### Defined in
 
-[main.ts:64725](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L64725)
+main.ts:67100
 
 ___
-
 
 ### language\_code
 
@@ -185,10 +176,9 @@ language code in a POST array
 
 #### Defined in
 
-[main.ts:64733](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L64733)
+main.ts:67108
 
 ___
-
 
 ### location\_code
 
@@ -202,10 +192,9 @@ location code in a POST array
 
 #### Defined in
 
-[main.ts:64731](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L64731)
+main.ts:67106
 
 ___
-
 
 ### se\_domain
 
@@ -219,10 +208,9 @@ search engine domain in a POST array
 
 #### Defined in
 
-[main.ts:64729](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L64729)
+main.ts:67104
 
 ___
-
 
 ### se\_results\_count
 
@@ -236,10 +224,9 @@ total number of results in SERP
 
 #### Defined in
 
-[main.ts:64751](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L64751)
+main.ts:67126
 
 ___
-
 
 ### spell
 
@@ -254,10 +241,9 @@ if the search engine provided results for a keyword that was corrected, we will 
 
 #### Defined in
 
-[main.ts:64744](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L64744)
+main.ts:67119
 
 ___
-
 
 ### type
 
@@ -271,7 +257,7 @@ type of element
 
 #### Defined in
 
-[main.ts:64727](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L64727)
+main.ts:67102
 
 ## Methods
 
@@ -291,10 +277,9 @@ type of element
 
 #### Defined in
 
-[main.ts:64768](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L64768)
+main.ts:67144
 
 ___
-
 
 ### toJSON
 
@@ -312,10 +297,9 @@ ___
 
 #### Defined in
 
-[main.ts:64804](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L64804)
+main.ts:67180
 
 ___
-
 
 ### fromJS
 
@@ -333,8 +317,4 @@ ___
 
 #### Defined in
 
-[main.ts:64797](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L64797)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:67173

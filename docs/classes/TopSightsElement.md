@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / TopSightsElement
+[Documentation](../README.md) / [Exports](../modules.md) / TopSightsElement
 
 # Class: TopSightsElement
 
@@ -52,7 +48,7 @@
 
 #### Defined in
 
-[main.ts:31627](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L31627)
+main.ts:32484
 
 ## Properties
 
@@ -60,7 +56,7 @@
 
 • `Optional` **description**: `string`
 
-description of the results element in SERP
+description
 
 #### Implementation of
 
@@ -68,16 +64,15 @@ description of the results element in SERP
 
 #### Defined in
 
-[main.ts:31620](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L31620)
+main.ts:32477
 
 ___
-
 
 ### rating
 
 • `Optional` **rating**: [`RatingInfo`](RatingInfo.md)
 
-the item’s rating
+the item’s rating 
 the popularity rate based on reviews and displayed in SERP
 
 #### Implementation of
@@ -86,16 +81,15 @@ the popularity rate based on reviews and displayed in SERP
 
 #### Defined in
 
-[main.ts:31623](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L31623)
+main.ts:32480
 
 ___
-
 
 ### title
 
 • `Optional` **title**: `string`
 
-title of the row
+title of a given link element
 
 #### Implementation of
 
@@ -103,10 +97,9 @@ title of the row
 
 #### Defined in
 
-[main.ts:31616](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L31616)
+main.ts:32473
 
 ___
-
 
 ### type
 
@@ -120,10 +113,9 @@ type of element
 
 #### Defined in
 
-[main.ts:31614](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L31614)
+main.ts:32471
 
 ___
-
 
 ### url
 
@@ -137,7 +129,7 @@ URL
 
 #### Defined in
 
-[main.ts:31618](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L31618)
+main.ts:32475
 
 ## Methods
 
@@ -157,10 +149,9 @@ URL
 
 #### Defined in
 
-[main.ts:31636](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L31636)
+main.ts:32493
 
 ___
-
 
 ### toJSON
 
@@ -178,10 +169,9 @@ ___
 
 #### Defined in
 
-[main.ts:31657](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L31657)
+main.ts:32514
 
 ___
-
 
 ### fromJS
 
@@ -199,8 +189,4 @@ ___
 
 #### Defined in
 
-[main.ts:31650](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L31650)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:32507

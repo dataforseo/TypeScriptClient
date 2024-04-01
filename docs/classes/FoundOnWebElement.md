@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / FoundOnWebElement
+[Documentation](../README.md) / [Exports](../modules.md) / FoundOnWebElement
 
 # Class: FoundOnWebElement
 
@@ -51,7 +47,7 @@
 
 #### Defined in
 
-[main.ts:34720](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L34720)
+main.ts:35663
 
 ## Properties
 
@@ -67,10 +63,9 @@ image of the element
 
 #### Defined in
 
-[main.ts:34716](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L34716)
+main.ts:35659
 
 ___
-
 
 ### subtitle
 
@@ -84,16 +79,15 @@ subtitle of the element
 
 #### Defined in
 
-[main.ts:34714](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L34714)
+main.ts:35657
 
 ___
-
 
 ### title
 
 • `Optional` **title**: `string`
 
-title of the row
+title of a given link element
 
 #### Implementation of
 
@@ -101,10 +95,9 @@ title of the row
 
 #### Defined in
 
-[main.ts:34712](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L34712)
+main.ts:35655
 
 ___
-
 
 ### type
 
@@ -118,7 +111,7 @@ type of element
 
 #### Defined in
 
-[main.ts:34710](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L34710)
+main.ts:35653
 
 ## Methods
 
@@ -138,10 +131,9 @@ type of element
 
 #### Defined in
 
-[main.ts:34729](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L34729)
+main.ts:35672
 
 ___
-
 
 ### toJSON
 
@@ -159,10 +151,9 @@ ___
 
 #### Defined in
 
-[main.ts:34749](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L34749)
+main.ts:35692
 
 ___
-
 
 ### fromJS
 
@@ -180,8 +171,4 @@ ___
 
 #### Defined in
 
-[main.ts:34742](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L34742)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:35685

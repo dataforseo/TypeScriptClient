@@ -1,15 +1,11 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IYoutubeVideoInfoSerpElementItem
+[Documentation](../README.md) / [Exports](../modules.md) / IYoutubeVideoInfoSerpElementItem
 
 # Interface: IYoutubeVideoInfoSerpElementItem
 
 ## Hierarchy
 
 - [`IBaseSerpElementItem`](IBaseSerpElementItem.md)
-  
+
   ↳ **`IYoutubeVideoInfoSerpElementItem`**
 
 ## Implemented by
@@ -58,10 +54,9 @@ the category the video belongs to
 
 #### Defined in
 
-[main.ts:58773](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L58773)
+main.ts:61148
 
 ___
-
 
 ### channel\_id
 
@@ -71,10 +66,9 @@ the ID of the channel where the video is published
 
 #### Defined in
 
-[main.ts:58748](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L58748)
+main.ts:61123
 
 ___
-
 
 ### channel\_logo
 
@@ -84,10 +78,9 @@ the URL of the page where the logo image of the channel is hosted
 
 #### Defined in
 
-[main.ts:58754](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L58754)
+main.ts:61129
 
 ___
-
 
 ### channel\_name
 
@@ -97,10 +90,9 @@ the name of the channel where the video is published
 
 #### Defined in
 
-[main.ts:58750](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L58750)
+main.ts:61125
 
 ___
-
 
 ### channel\_url
 
@@ -110,10 +102,9 @@ the URL of the channel where the video is published
 
 #### Defined in
 
-[main.ts:58752](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L58752)
+main.ts:61127
 
 ___
-
 
 ### comments\_count
 
@@ -123,10 +114,9 @@ number of comments on the video
 
 #### Defined in
 
-[main.ts:58762](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L58762)
+main.ts:61137
 
 ___
-
 
 ### description
 
@@ -136,10 +126,9 @@ description of the video
 
 #### Defined in
 
-[main.ts:58756](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L58756)
+main.ts:61131
 
 ___
-
 
 ### duration\_time
 
@@ -149,10 +138,9 @@ duration of the video
 
 #### Defined in
 
-[main.ts:58777](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L58777)
+main.ts:61152
 
 ___
-
 
 ### duration\_time\_seconds
 
@@ -162,10 +150,9 @@ duration of the video in seconds
 
 #### Defined in
 
-[main.ts:58779](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L58779)
+main.ts:61154
 
 ___
-
 
 ### is\_live
 
@@ -175,10 +162,9 @@ indicates whether the video is on live
 
 #### Defined in
 
-[main.ts:58775](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L58775)
+main.ts:61150
 
 ___
-
 
 ### keywords
 
@@ -188,10 +174,9 @@ keywords relevant to the video
 
 #### Defined in
 
-[main.ts:58771](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L58771)
+main.ts:61146
 
 ___
-
 
 ### likes\_count
 
@@ -201,10 +186,9 @@ number of likes on the video
 
 #### Defined in
 
-[main.ts:58760](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L58760)
+main.ts:61135
 
 ___
-
 
 ### publication\_date
 
@@ -214,10 +198,9 @@ the date when the video is published
 
 #### Defined in
 
-[main.ts:58764](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L58764)
+main.ts:61139
 
 ___
-
 
 ### rank\_absolute
 
@@ -228,10 +211,9 @@ absolute position among all the elements in SERP
 
 #### Defined in
 
-[main.ts:58738](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L58738)
+main.ts:61113
 
 ___
-
 
 ### rank\_group
 
@@ -243,10 +225,9 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-[main.ts:58735](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L58735)
+main.ts:61110
 
 ___
-
 
 ### streaming\_quality
 
@@ -256,10 +237,9 @@ array of elements that contain information about all possible streaming qualitie
 
 #### Defined in
 
-[main.ts:58783](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L58783)
+main.ts:61158
 
 ___
-
 
 ### subtitles
 
@@ -269,10 +249,9 @@ subtitles in the video
 
 #### Defined in
 
-[main.ts:58781](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L58781)
+main.ts:61156
 
 ___
-
 
 ### thumbnail\_url
 
@@ -282,10 +261,9 @@ the URL of the page where the thumbnail is hosted
 
 #### Defined in
 
-[main.ts:58746](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L58746)
+main.ts:61121
 
 ___
-
 
 ### timestamp
 
@@ -298,10 +276,9 @@ example:
 
 #### Defined in
 
-[main.ts:58769](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L58769)
+main.ts:61144
 
 ___
-
 
 ### title
 
@@ -311,10 +288,9 @@ title of the video
 
 #### Defined in
 
-[main.ts:58742](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L58742)
+main.ts:61117
 
 ___
-
 
 ### url
 
@@ -324,10 +300,9 @@ URL of the video
 
 #### Defined in
 
-[main.ts:58744](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L58744)
+main.ts:61119
 
 ___
-
 
 ### video\_id
 
@@ -337,10 +312,9 @@ ID of the video received in a POST array
 
 #### Defined in
 
-[main.ts:58740](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L58740)
+main.ts:61115
 
 ___
-
 
 ### views\_count
 
@@ -350,8 +324,4 @@ number of views of the video
 
 #### Defined in
 
-[main.ts:58758](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L58758)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:61133

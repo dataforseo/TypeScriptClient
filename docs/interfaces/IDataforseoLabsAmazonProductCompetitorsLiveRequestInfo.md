@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IDataforseoLabsAmazonProductCompetitorsLiveRequestInfo
+[Documentation](../README.md) / [Exports](../modules.md) / IDataforseoLabsAmazonProductCompetitorsLiveRequestInfo
 
 # Interface: IDataforseoLabsAmazonProductCompetitorsLiveRequestInfo
 
@@ -42,10 +38,9 @@ you can receive the asin parameter by making a separate request to the Amazon Pr
 
 #### Defined in
 
-[main.ts:101130](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L101130)
+main.ts:103507
 
 ___
-
 
 ### filters
 
@@ -64,10 +59,9 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 #### Defined in
 
-[main.ts:101176](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L101176)
+main.ts:103553
 
 ___
-
 
 ### language\_code
 
@@ -82,10 +76,9 @@ en
 
 #### Defined in
 
-[main.ts:101160](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L101160)
+main.ts:103537
 
 ___
-
 
 ### language\_name
 
@@ -100,10 +93,9 @@ English
 
 #### Defined in
 
-[main.ts:101153](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L101153)
+main.ts:103530
 
 ___
-
 
 ### limit
 
@@ -116,10 +108,9 @@ maximum value: 1000
 
 #### Defined in
 
-[main.ts:101165](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L101165)
+main.ts:103542
 
 ___
-
 
 ### location\_code
 
@@ -135,10 +126,9 @@ example:
 
 #### Defined in
 
-[main.ts:101146](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L101146)
+main.ts:103523
 
 ___
-
 
 ### location\_name
 
@@ -154,10 +144,9 @@ United States
 
 #### Defined in
 
-[main.ts:101138](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L101138)
+main.ts:103515
 
 ___
-
 
 ### offset
 
@@ -170,10 +159,9 @@ if you specify the 10 value, the first ten product competitors in the results ar
 
 #### Defined in
 
-[main.ts:101197](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L101197)
+main.ts:103574
 
 ___
-
 
 ### order\_by
 
@@ -197,10 +185,9 @@ default rule:
 
 #### Defined in
 
-[main.ts:101192](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L101192)
+main.ts:103569
 
 ___
-
 
 ### tag
 
@@ -214,8 +201,4 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-[main.ts:101203](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L101203)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:103580

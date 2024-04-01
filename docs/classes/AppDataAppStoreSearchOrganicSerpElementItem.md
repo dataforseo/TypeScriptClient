@@ -1,15 +1,11 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / AppDataAppStoreSearchOrganicSerpElementItem
+[Documentation](../README.md) / [Exports](../modules.md) / AppDataAppStoreSearchOrganicSerpElementItem
 
 # Class: AppDataAppStoreSearchOrganicSerpElementItem
 
 ## Hierarchy
 
 - [`BaseAppDataSerpElementItem`](BaseAppDataSerpElementItem.md)
-  
+
   ↳ **`AppDataAppStoreSearchOrganicSerpElementItem`**
 
 ## Implements
@@ -69,7 +65,7 @@
 
 #### Defined in
 
-[main.ts:110814](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L110814)
+main.ts:113191
 
 ## Properties
 
@@ -83,10 +79,9 @@
 
 #### Defined in
 
-[main.ts:20450](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L20450)
+main.ts:20969
 
 ___
-
 
 ### app\_id
 
@@ -100,10 +95,9 @@ id of the app
 
 #### Defined in
 
-[main.ts:110796](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L110796)
+main.ts:113173
 
 ___
-
 
 ### icon
 
@@ -117,10 +111,9 @@ URL to the app icon
 
 #### Defined in
 
-[main.ts:110802](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L110802)
+main.ts:113179
 
 ___
-
 
 ### is\_free
 
@@ -134,10 +127,9 @@ indicates whether the app is free
 
 #### Defined in
 
-[main.ts:110808](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L110808)
+main.ts:113185
 
 ___
-
 
 ### position
 
@@ -153,10 +145,9 @@ left, right
 
 #### Defined in
 
-[main.ts:110794](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L110794)
+main.ts:113171
 
 ___
-
 
 ### price
 
@@ -170,10 +161,9 @@ price of the app
 
 #### Defined in
 
-[main.ts:110810](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L110810)
+main.ts:113187
 
 ___
-
 
 ### rank\_absolute
 
@@ -188,10 +178,9 @@ absolute position among all the elements in SERP
 
 #### Defined in
 
-[main.ts:110790](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L110790)
+main.ts:113167
 
 ___
-
 
 ### rank\_group
 
@@ -206,10 +195,9 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-[main.ts:110787](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L110787)
+main.ts:113164
 
 ___
-
 
 ### rating
 
@@ -223,10 +211,9 @@ average rating of the app
 
 #### Defined in
 
-[main.ts:110806](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L110806)
+main.ts:113183
 
 ___
-
 
 ### reviews\_count
 
@@ -240,10 +227,9 @@ the total number of reviews of the app
 
 #### Defined in
 
-[main.ts:110804](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L110804)
+main.ts:113181
 
 ___
-
 
 ### title
 
@@ -257,10 +243,9 @@ title of the app
 
 #### Defined in
 
-[main.ts:110798](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L110798)
+main.ts:113175
 
 ___
-
 
 ### url
 
@@ -274,7 +259,7 @@ URL to the app page on App Store
 
 #### Defined in
 
-[main.ts:110800](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L110800)
+main.ts:113177
 
 ## Methods
 
@@ -298,10 +283,9 @@ URL to the app page on App Store
 
 #### Defined in
 
-[main.ts:110819](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L110819)
+main.ts:113196
 
 ___
-
 
 ### toJSON
 
@@ -323,10 +307,9 @@ ___
 
 #### Defined in
 
-[main.ts:110847](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L110847)
+main.ts:113224
 
 ___
-
 
 ### fromJS
 
@@ -348,8 +331,4 @@ ___
 
 #### Defined in
 
-[main.ts:110840](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L110840)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:113217

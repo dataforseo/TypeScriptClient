@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / BacklinksBulkNewLostReferringDomainsLiveRequestInfo
+[Documentation](../README.md) / [Exports](../modules.md) / BacklinksBulkNewLostReferringDomainsLiveRequestInfo
 
 # Class: BacklinksBulkNewLostReferringDomainsLiveRequestInfo
 
@@ -50,7 +46,7 @@
 
 #### Defined in
 
-[main.ts:141091](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L141091)
+main.ts:146518
 
 ## Properties
 
@@ -77,10 +73,9 @@ example:
 
 #### Defined in
 
-[main.ts:141081](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L141081)
+main.ts:146508
 
 ___
-
 
 ### tag
 
@@ -98,10 +93,9 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-[main.ts:141087](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L141087)
+main.ts:146514
 
 ___
-
 
 ### targets
 
@@ -114,16 +108,16 @@ the domain or subdomain should be specified without https:// and www.
 the page should be specified with absolute URL (including http:// or https://)
 example:
 "targets": [
-"forbes.com",
-"cnn.com",
-"bbc.com",
-"yelp.com",
-"https://www.apple.com/iphone/",
-"https://ahrefs.com/blog/",
-"ibm.com",
-"https://variety.com/",
-"https://stackoverflow.com/",
-"www.trustpilot.com"
+  "forbes.com",
+  "cnn.com",
+  "bbc.com",
+  "yelp.com",
+  "https://www.apple.com/iphone/",
+  "https://ahrefs.com/blog/",
+  "ibm.com",
+  "https://variety.com/",
+  "https://stackoverflow.com/",
+  "www.trustpilot.com"
 ]
 
 #### Implementation of
@@ -132,7 +126,7 @@ example:
 
 #### Defined in
 
-[main.ts:141068](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L141068)
+main.ts:146495
 
 ## Methods
 
@@ -152,10 +146,9 @@ example:
 
 #### Defined in
 
-[main.ts:141100](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L141100)
+main.ts:146527
 
 ___
-
 
 ### toJSON
 
@@ -173,10 +166,9 @@ ___
 
 #### Defined in
 
-[main.ts:141123](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L141123)
+main.ts:146550
 
 ___
-
 
 ### fromJS
 
@@ -194,8 +186,4 @@ ___
 
 #### Defined in
 
-[main.ts:141116](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L141116)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:146543

@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IMerchantGoogleSellersTaskGetAdvancedResultInfo
+[Documentation](../README.md) / [Exports](../modules.md) / IMerchantGoogleSellersTaskGetAdvancedResultInfo
 
 # Interface: IMerchantGoogleSellersTaskGetAdvancedResultInfo
 
@@ -20,14 +16,18 @@
 
 - [check\_url](IMerchantGoogleSellersTaskGetAdvancedResultInfo.md#check_url)
 - [datetime](IMerchantGoogleSellersTaskGetAdvancedResultInfo.md#datetime)
+- [image\_url](IMerchantGoogleSellersTaskGetAdvancedResultInfo.md#image_url)
 - [item\_types](IMerchantGoogleSellersTaskGetAdvancedResultInfo.md#item_types)
 - [items](IMerchantGoogleSellersTaskGetAdvancedResultInfo.md#items)
 - [items\_count](IMerchantGoogleSellersTaskGetAdvancedResultInfo.md#items_count)
 - [language\_code](IMerchantGoogleSellersTaskGetAdvancedResultInfo.md#language_code)
 - [location\_code](IMerchantGoogleSellersTaskGetAdvancedResultInfo.md#location_code)
 - [product\_id](IMerchantGoogleSellersTaskGetAdvancedResultInfo.md#product_id)
+- [rating](IMerchantGoogleSellersTaskGetAdvancedResultInfo.md#rating)
 - [se\_domain](IMerchantGoogleSellersTaskGetAdvancedResultInfo.md#se_domain)
+- [title](IMerchantGoogleSellersTaskGetAdvancedResultInfo.md#title)
 - [type](IMerchantGoogleSellersTaskGetAdvancedResultInfo.md#type)
+- [url](IMerchantGoogleSellersTaskGetAdvancedResultInfo.md#url)
 
 ## Properties
 
@@ -40,10 +40,9 @@ you can use it to make sure that we provided accurate results
 
 #### Defined in
 
-[main.ts:166908](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L166908)
+main.ts:172352
 
 ___
-
 
 ### datetime
 
@@ -56,10 +55,21 @@ example:
 
 #### Defined in
 
-[main.ts:166913](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L166913)
+main.ts:172357
 
 ___
 
+### image\_url
+
+• `Optional` **image\_url**: `string`
+
+URL to the product image
+
+#### Defined in
+
+main.ts:172363
+
+___
 
 ### item\_types
 
@@ -72,10 +82,9 @@ shops_list, buy_on_google
 
 #### Defined in
 
-[main.ts:166918](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L166918)
+main.ts:172371
 
 ___
-
 
 ### items
 
@@ -85,10 +94,9 @@ items in SERP
 
 #### Defined in
 
-[main.ts:166922](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L166922)
+main.ts:172375
 
 ___
-
 
 ### items\_count
 
@@ -98,10 +106,9 @@ the number of results returned in the items array
 
 #### Defined in
 
-[main.ts:166920](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L166920)
+main.ts:172373
 
 ___
-
 
 ### language\_code
 
@@ -111,10 +118,9 @@ language code in a POST array
 
 #### Defined in
 
-[main.ts:166905](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L166905)
+main.ts:172349
 
 ___
-
 
 ### location\_code
 
@@ -124,10 +130,9 @@ location code in a POST array
 
 #### Defined in
 
-[main.ts:166903](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L166903)
+main.ts:172347
 
 ___
-
 
 ### product\_id
 
@@ -138,10 +143,22 @@ learn more about the parameter in this help center guide
 
 #### Defined in
 
-[main.ts:166897](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L166897)
+main.ts:172341
 
 ___
 
+### rating
+
+• `Optional` **rating**: [`RatingElement`](../classes/RatingElement.md)
+
+product rating
+the product popularity rate based on product reviews
+
+#### Defined in
+
+main.ts:172366
+
+___
 
 ### se\_domain
 
@@ -151,10 +168,21 @@ search engine domain in a POST array
 
 #### Defined in
 
-[main.ts:166901](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L166901)
+main.ts:172345
 
 ___
 
+### title
+
+• `Optional` **title**: `string`
+
+title of the product
+
+#### Defined in
+
+main.ts:172359
+
+___
 
 ### type
 
@@ -164,8 +192,16 @@ type of element
 
 #### Defined in
 
-[main.ts:166899](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L166899)
+main.ts:172343
 
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
+___
 
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+### url
+
+• `Optional` **url**: `string`
+
+URL to the product page
+
+#### Defined in
+
+main.ts:172361

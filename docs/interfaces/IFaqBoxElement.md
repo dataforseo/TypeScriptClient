@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IFaqBoxElement
+[Documentation](../README.md) / [Exports](../modules.md) / IFaqBoxElement
 
 # Interface: IFaqBoxElement
 
@@ -29,14 +25,13 @@
 
 • `Optional` **description**: `string`
 
-description of the results element in SERP
+description
 
 #### Defined in
 
-[main.ts:27891](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L27891)
+main.ts:28640
 
 ___
-
 
 ### links
 
@@ -46,23 +41,21 @@ link of the element
 
 #### Defined in
 
-[main.ts:27893](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L27893)
+main.ts:28642
 
 ___
-
 
 ### title
 
 • `Optional` **title**: `string`
 
-title of the element
+title of a given link element
 
 #### Defined in
 
-[main.ts:27889](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L27889)
+main.ts:28638
 
 ___
-
 
 ### type
 
@@ -72,8 +65,4 @@ type of element
 
 #### Defined in
 
-[main.ts:27887](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L27887)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:28636

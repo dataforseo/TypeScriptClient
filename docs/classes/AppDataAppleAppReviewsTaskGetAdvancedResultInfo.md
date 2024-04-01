@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / AppDataAppleAppReviewsTaskGetAdvancedResultInfo
+[Documentation](../README.md) / [Exports](../modules.md) / AppDataAppleAppReviewsTaskGetAdvancedResultInfo
 
 # Class: AppDataAppleAppReviewsTaskGetAdvancedResultInfo
 
@@ -59,7 +55,7 @@
 
 #### Defined in
 
-[main.ts:186352](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L186352)
+main.ts:191805
 
 ## Properties
 
@@ -75,10 +71,9 @@ application id received in a POST array
 
 #### Defined in
 
-[main.ts:186318](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L186318)
+main.ts:191771
 
 ___
-
 
 ### check\_url
 
@@ -93,10 +88,9 @@ you can use it to make sure that we provided accurate results
 
 #### Defined in
 
-[main.ts:186329](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L186329)
+main.ts:191782
 
 ___
-
 
 ### datetime
 
@@ -113,10 +107,9 @@ example:
 
 #### Defined in
 
-[main.ts:186334](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L186334)
+main.ts:191787
 
 ___
-
 
 ### items
 
@@ -130,10 +123,9 @@ found reviews
 
 #### Defined in
 
-[main.ts:186348](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L186348)
+main.ts:191801
 
 ___
-
 
 ### items\_count
 
@@ -148,10 +140,9 @@ you can get more results by using the depth parameter when setting a task
 
 #### Defined in
 
-[main.ts:186346](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L186346)
+main.ts:191799
 
 ___
-
 
 ### language\_code
 
@@ -165,10 +156,9 @@ language code in a POST array
 
 #### Defined in
 
-[main.ts:186326](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L186326)
+main.ts:191779
 
 ___
-
 
 ### location\_code
 
@@ -182,10 +172,9 @@ location code in a POST array
 
 #### Defined in
 
-[main.ts:186324](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L186324)
+main.ts:191777
 
 ___
-
 
 ### rating
 
@@ -200,10 +189,9 @@ rating of the application for which the reviews are collected
 
 #### Defined in
 
-[main.ts:186340](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L186340)
+main.ts:191793
 
 ___
-
 
 ### reviews\_count
 
@@ -218,10 +206,9 @@ in this case, the value will be null as App Store does not indicate the total nu
 
 #### Defined in
 
-[main.ts:186343](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L186343)
+main.ts:191796
 
 ___
-
 
 ### se\_domain
 
@@ -235,10 +222,9 @@ search engine domain in a POST array
 
 #### Defined in
 
-[main.ts:186322](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L186322)
+main.ts:191775
 
 ___
-
 
 ### title
 
@@ -253,10 +239,9 @@ title of the application for which the reviews are collected
 
 #### Defined in
 
-[main.ts:186337](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L186337)
+main.ts:191790
 
 ___
-
 
 ### type
 
@@ -270,7 +255,7 @@ type of element
 
 #### Defined in
 
-[main.ts:186320](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L186320)
+main.ts:191773
 
 ## Methods
 
@@ -290,10 +275,9 @@ type of element
 
 #### Defined in
 
-[main.ts:186361](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L186361)
+main.ts:191814
 
 ___
-
 
 ### toJSON
 
@@ -311,10 +295,9 @@ ___
 
 #### Defined in
 
-[main.ts:186393](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L186393)
+main.ts:191846
 
 ___
-
 
 ### fromJS
 
@@ -332,8 +315,4 @@ ___
 
 #### Defined in
 
-[main.ts:186386](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L186386)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:191839

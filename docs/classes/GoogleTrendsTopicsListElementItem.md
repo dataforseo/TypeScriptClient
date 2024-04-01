@@ -1,15 +1,11 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / GoogleTrendsTopicsListElementItem
+[Documentation](../README.md) / [Exports](../modules.md) / GoogleTrendsTopicsListElementItem
 
 # Class: GoogleTrendsTopicsListElementItem
 
 ## Hierarchy
 
 - [`BaseGoogleTrendsItem`](BaseGoogleTrendsItem.md)
-  
+
   ↳ **`GoogleTrendsTopicsListElementItem`**
 
 ## Implements
@@ -62,7 +58,7 @@
 
 #### Defined in
 
-[main.ts:120925](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L120925)
+main.ts:124181
 
 ## Properties
 
@@ -76,10 +72,9 @@
 
 #### Defined in
 
-[main.ts:20382](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L20382)
+main.ts:20838
 
 ___
-
 
 ### data
 
@@ -93,10 +88,9 @@ Google Trends data from the corresponding item
 
 #### Defined in
 
-[main.ts:120921](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L120921)
+main.ts:124177
 
 ___
-
 
 ### keywords
 
@@ -111,10 +105,9 @@ the data included in the google_trends_topics_list element is based on the keywo
 
 #### Defined in
 
-[main.ts:120919](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L120919)
+main.ts:124175
 
 ___
-
 
 ### position
 
@@ -129,10 +122,9 @@ can take the following values: 1, 2, 3, 4, etc.
 
 #### Defined in
 
-[main.ts:120914](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L120914)
+main.ts:124170
 
 ___
-
 
 ### title
 
@@ -146,7 +138,7 @@ title of the element in Google Trends
 
 #### Defined in
 
-[main.ts:120916](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L120916)
+main.ts:124172
 
 ## Methods
 
@@ -170,10 +162,9 @@ title of the element in Google Trends
 
 #### Defined in
 
-[main.ts:120930](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L120930)
+main.ts:124186
 
 ___
-
 
 ### toJSON
 
@@ -195,10 +186,9 @@ ___
 
 #### Defined in
 
-[main.ts:120955](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L120955)
+main.ts:124211
 
 ___
-
 
 ### fromJS
 
@@ -220,8 +210,4 @@ ___
 
 #### Defined in
 
-[main.ts:120948](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L120948)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:124204

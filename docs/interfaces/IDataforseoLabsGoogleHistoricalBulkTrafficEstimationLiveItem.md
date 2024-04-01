@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IDataforseoLabsGoogleHistoricalBulkTrafficEstimationLiveItem
+[Documentation](../README.md) / [Exports](../modules.md) / IDataforseoLabsGoogleHistoricalBulkTrafficEstimationLiveItem
 
 # Interface: IDataforseoLabsGoogleHistoricalBulkTrafficEstimationLiveItem
 
@@ -32,10 +28,9 @@ traffic data relevant to the specified domain
 
 #### Defined in
 
-[main.ts:98407](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L98407)
+main.ts:100784
 
 ___
-
 
 ### se\_type
 
@@ -45,10 +40,9 @@ search engine type
 
 #### Defined in
 
-[main.ts:98403](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L98403)
+main.ts:100780
 
 ___
-
 
 ### target
 
@@ -58,8 +52,4 @@ target domain in a POST array
 
 #### Defined in
 
-[main.ts:98405](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L98405)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:100782

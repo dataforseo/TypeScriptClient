@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / LocalServicesElement
+[Documentation](../README.md) / [Exports](../modules.md) / LocalServicesElement
 
 # Class: LocalServicesElement
 
@@ -54,7 +50,7 @@
 
 #### Defined in
 
-[main.ts:33599](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L33599)
+main.ts:34512
 
 ## Properties
 
@@ -62,7 +58,7 @@
 
 • `Optional` **description**: `string`
 
-description of the results element in SERP
+description
 
 #### Implementation of
 
@@ -70,16 +66,15 @@ description of the results element in SERP
 
 #### Defined in
 
-[main.ts:33590](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L33590)
+main.ts:34503
 
 ___
-
 
 ### domain
 
 • `Optional` **domain**: `string`
 
-domain where a link points
+website domain
 
 #### Implementation of
 
@@ -87,10 +82,9 @@ domain where a link points
 
 #### Defined in
 
-[main.ts:33588](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L33588)
+main.ts:34501
 
 ___
-
 
 ### profile\_image\_url
 
@@ -104,16 +98,15 @@ URL of the image featured in the element
 
 #### Defined in
 
-[main.ts:33595](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L33595)
+main.ts:34508
 
 ___
-
 
 ### rating
 
 • `Optional` **rating**: [`RatingInfo`](RatingInfo.md)
 
-the item’s rating
+the item’s rating 
 the popularity rate based on reviews and displayed in SERP
 
 #### Implementation of
@@ -122,16 +115,15 @@ the popularity rate based on reviews and displayed in SERP
 
 #### Defined in
 
-[main.ts:33593](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L33593)
+main.ts:34506
 
 ___
-
 
 ### title
 
 • `Optional` **title**: `string`
 
-title of the row
+title of a given link element
 
 #### Implementation of
 
@@ -139,10 +131,9 @@ title of the row
 
 #### Defined in
 
-[main.ts:33584](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L33584)
+main.ts:34497
 
 ___
-
 
 ### type
 
@@ -156,10 +147,9 @@ type of element
 
 #### Defined in
 
-[main.ts:33582](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L33582)
+main.ts:34495
 
 ___
-
 
 ### url
 
@@ -173,7 +163,7 @@ URL
 
 #### Defined in
 
-[main.ts:33586](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L33586)
+main.ts:34499
 
 ## Methods
 
@@ -193,10 +183,9 @@ URL
 
 #### Defined in
 
-[main.ts:33608](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L33608)
+main.ts:34521
 
 ___
-
 
 ### toJSON
 
@@ -214,10 +203,9 @@ ___
 
 #### Defined in
 
-[main.ts:33631](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L33631)
+main.ts:34544
 
 ___
-
 
 ### fromJS
 
@@ -235,8 +223,4 @@ ___
 
 #### Defined in
 
-[main.ts:33624](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L33624)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:34537

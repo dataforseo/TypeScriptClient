@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / BacklinksTimeseriesSummaryLiveRequestInfo
+[Documentation](../README.md) / [Exports](../modules.md) / BacklinksTimeseriesSummaryLiveRequestInfo
 
 # Class: BacklinksTimeseriesSummaryLiveRequestInfo
 
@@ -52,7 +48,7 @@
 
 #### Defined in
 
-[main.ts:138402](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L138402)
+main.ts:143823
 
 ## Properties
 
@@ -75,10 +71,9 @@ example:
 
 #### Defined in
 
-[main.ts:138370](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L138370)
+main.ts:143791
 
 ___
-
 
 ### date\_to
 
@@ -99,10 +94,9 @@ example:
 
 #### Defined in
 
-[main.ts:138379](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L138379)
+main.ts:143800
 
 ___
-
 
 ### group\_range
 
@@ -127,10 +121,9 @@ if there is no data for a certain  day/week/month/year, we will return 0
 
 #### Defined in
 
-[main.ts:138392](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L138392)
+main.ts:143813
 
 ___
-
 
 ### tag
 
@@ -148,10 +141,9 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-[main.ts:138398](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L138398)
+main.ts:143819
 
 ___
-
 
 ### target
 
@@ -169,7 +161,7 @@ example:
 
 #### Defined in
 
-[main.ts:138361](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L138361)
+main.ts:143782
 
 ## Methods
 
@@ -189,10 +181,9 @@ example:
 
 #### Defined in
 
-[main.ts:138411](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L138411)
+main.ts:143832
 
 ___
-
 
 ### toJSON
 
@@ -210,10 +201,9 @@ ___
 
 #### Defined in
 
-[main.ts:138432](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L138432)
+main.ts:143853
 
 ___
-
 
 ### fromJS
 
@@ -231,8 +221,4 @@ ___
 
 #### Defined in
 
-[main.ts:138425](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L138425)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:143846

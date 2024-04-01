@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / GpsCoordinatesLocationInfo
+[Documentation](../README.md) / [Exports](../modules.md) / GpsCoordinatesLocationInfo
 
 # Class: GpsCoordinatesLocationInfo
 
@@ -49,7 +45,7 @@
 
 #### Defined in
 
-[main.ts:193400](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L193400)
+main.ts:198861
 
 ## Properties
 
@@ -67,10 +63,9 @@ example:
 
 #### Defined in
 
-[main.ts:193392](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L193392)
+main.ts:198853
 
 ___
-
 
 ### longitude
 
@@ -86,7 +81,7 @@ example:
 
 #### Defined in
 
-[main.ts:193396](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L193396)
+main.ts:198857
 
 ## Methods
 
@@ -106,10 +101,9 @@ example:
 
 #### Defined in
 
-[main.ts:193409](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L193409)
+main.ts:198870
 
 ___
-
 
 ### toJSON
 
@@ -127,10 +121,9 @@ ___
 
 #### Defined in
 
-[main.ts:193427](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L193427)
+main.ts:198888
 
 ___
-
 
 ### fromJS
 
@@ -148,8 +141,4 @@ ___
 
 #### Defined in
 
-[main.ts:193420](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L193420)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:198881

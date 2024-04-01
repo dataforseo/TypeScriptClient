@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / AppendixBusinessDataGoogleInfo
+[Documentation](../README.md) / [Exports](../modules.md) / AppendixBusinessDataGoogleInfo
 
 # Class: AppendixBusinessDataGoogleInfo
 
@@ -52,7 +48,7 @@
 
 #### Defined in
 
-[main.ts:207809](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L207809)
+main.ts:213334
 
 ## Properties
 
@@ -66,14 +62,13 @@
 
 #### Defined in
 
-[main.ts:207803](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L207803)
+main.ts:213328
 
 ___
 
-
 ### hotel\_searches
 
-• `Optional` **hotel\_searches**: [`AppendixInfo`](AppendixInfo.md)
+• `Optional` **hotel\_searches**: [`AppendixFunctionInfo`](AppendixFunctionInfo.md)
 
 #### Implementation of
 
@@ -81,14 +76,13 @@ ___
 
 #### Defined in
 
-[main.ts:207804](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L207804)
+main.ts:213329
 
 ___
 
-
 ### my\_business\_info
 
-• `Optional` **my\_business\_info**: [`AppendixInfo`](AppendixInfo.md)
+• `Optional` **my\_business\_info**: [`AppendixFunctionInfo`](AppendixFunctionInfo.md)
 
 #### Implementation of
 
@@ -96,14 +90,13 @@ ___
 
 #### Defined in
 
-[main.ts:207801](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L207801)
+main.ts:213326
 
 ___
 
-
 ### my\_business\_updates
 
-• `Optional` **my\_business\_updates**: [`AppendixInfo`](AppendixInfo.md)
+• `Optional` **my\_business\_updates**: [`AppendixFunctionInfo`](AppendixFunctionInfo.md)
 
 #### Implementation of
 
@@ -111,14 +104,13 @@ ___
 
 #### Defined in
 
-[main.ts:207802](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L207802)
+main.ts:213327
 
 ___
 
-
 ### reviews
 
-• `Optional` **reviews**: [`AppendixInfo`](AppendixInfo.md)
+• `Optional` **reviews**: [`AppendixFunctionInfo`](AppendixFunctionInfo.md)
 
 #### Implementation of
 
@@ -126,7 +118,7 @@ ___
 
 #### Defined in
 
-[main.ts:207805](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L207805)
+main.ts:213330
 
 ## Methods
 
@@ -146,10 +138,9 @@ ___
 
 #### Defined in
 
-[main.ts:207818](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L207818)
+main.ts:213343
 
 ___
-
 
 ### toJSON
 
@@ -167,10 +158,9 @@ ___
 
 #### Defined in
 
-[main.ts:207839](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L207839)
+main.ts:213364
 
 ___
-
 
 ### fromJS
 
@@ -188,8 +178,4 @@ ___
 
 #### Defined in
 
-[main.ts:207832](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L207832)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:213357

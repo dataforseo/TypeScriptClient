@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / LocationChain
+[Documentation](../README.md) / [Exports](../modules.md) / LocationChain
 
 # Class: LocationChain
 
@@ -51,7 +47,7 @@
 
 #### Defined in
 
-[main.ts:195569](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L195569)
+main.ts:201030
 
 ## Properties
 
@@ -67,10 +63,9 @@ card identifier
 
 #### Defined in
 
-[main.ts:195557](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L195557)
+main.ts:201018
 
 ___
-
 
 ### cid
 
@@ -85,10 +80,9 @@ learn more about the identifier in this help center article
 
 #### Defined in
 
-[main.ts:195563](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L195563)
+main.ts:201024
 
 ___
-
 
 ### feature\_id
 
@@ -103,10 +97,9 @@ learn more about the identifier in this help center article
 
 #### Defined in
 
-[main.ts:195560](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L195560)
+main.ts:201021
 
 ___
-
 
 ### title
 
@@ -120,7 +113,7 @@ title of the element in the location chain
 
 #### Defined in
 
-[main.ts:195565](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L195565)
+main.ts:201026
 
 ## Methods
 
@@ -140,10 +133,9 @@ title of the element in the location chain
 
 #### Defined in
 
-[main.ts:195578](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L195578)
+main.ts:201039
 
 ___
-
 
 ### toJSON
 
@@ -161,10 +153,9 @@ ___
 
 #### Defined in
 
-[main.ts:195598](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L195598)
+main.ts:201059
 
 ___
-
 
 ### fromJS
 
@@ -182,8 +173,4 @@ ___
 
 #### Defined in
 
-[main.ts:195591](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L195591)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:201052

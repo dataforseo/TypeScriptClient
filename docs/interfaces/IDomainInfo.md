@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IDomainInfo
+[Documentation](../README.md) / [Exports](../modules.md) / IDomainInfo
 
 # Interface: IDomainInfo
 
@@ -46,10 +42,9 @@ in most cases, it is recommended that canonicalized pages respond with a 301 or 
 
 #### Defined in
 
-[main.ts:143500](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L143500)
+main.ts:148927
 
 ___
-
 
 ### checks
 
@@ -64,10 +59,9 @@ other on-page check-ups related to the website
 
 #### Defined in
 
-[main.ts:143490](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L143490)
+main.ts:148917
 
 ___
-
 
 ### cms
 
@@ -81,10 +75,9 @@ if our crawler was unable to identify the cms, the value would be null
 
 #### Defined in
 
-[main.ts:143453](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L143453)
+main.ts:148880
 
 ___
-
 
 ### crawl\_end
 
@@ -99,10 +92,9 @@ if "crawl_progress" is in_progress, the value will be null
 
 #### Defined in
 
-[main.ts:143473](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L143473)
+main.ts:148900
 
 ___
-
 
 ### crawl\_start
 
@@ -116,10 +108,9 @@ example:
 
 #### Defined in
 
-[main.ts:143466](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L143466)
+main.ts:148893
 
 ___
-
 
 ### directory\_browsing\_status\_code
 
@@ -131,10 +122,9 @@ in most cases, it is recommended that directories respond with a 403 or 401 stat
 
 #### Defined in
 
-[main.ts:143504](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L143504)
+main.ts:148931
 
 ___
-
 
 ### extended\_crawl\_status
 
@@ -153,10 +143,9 @@ unknown – the reason is unknown
 
 #### Defined in
 
-[main.ts:143484](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L143484)
+main.ts:148911
 
 ___
-
 
 ### ip
 
@@ -166,10 +155,9 @@ domain ip address
 
 #### Defined in
 
-[main.ts:143455](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L143455)
+main.ts:148882
 
 ___
-
 
 ### main\_domain
 
@@ -179,10 +167,9 @@ root domain name
 
 #### Defined in
 
-[main.ts:143510](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L143510)
+main.ts:148937
 
 ___
-
 
 ### name
 
@@ -192,10 +179,9 @@ domain name
 
 #### Defined in
 
-[main.ts:143447](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L143447)
+main.ts:148874
 
 ___
-
 
 ### page\_not\_found\_status\_code
 
@@ -206,10 +192,9 @@ in most cases, it is recommended a server returns a 404 response code
 
 #### Defined in
 
-[main.ts:143496](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L143496)
+main.ts:148923
 
 ___
-
 
 ### server
 
@@ -222,10 +207,9 @@ the information is taken from the first page which response code is 200
 
 #### Defined in
 
-[main.ts:143460](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L143460)
+main.ts:148887
 
 ___
-
 
 ### ssl\_info
 
@@ -236,10 +220,9 @@ information about the Secure Sockets Layer protocol detected on a website
 
 #### Defined in
 
-[main.ts:143487](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L143487)
+main.ts:148914
 
 ___
-
 
 ### total\_pages
 
@@ -250,10 +233,9 @@ the total number of crawled pages
 
 #### Defined in
 
-[main.ts:143493](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L143493)
+main.ts:148920
 
 ___
-
 
 ### www\_redirect\_status\_code
 
@@ -265,8 +247,4 @@ in most cases, it is recommended that redirect returns a 301 status code
 
 #### Defined in
 
-[main.ts:143508](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L143508)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:148935

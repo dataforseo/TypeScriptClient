@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / DomainAnalyticsTechnologiesAggregationTechnologiesLiveItem
+[Documentation](../README.md) / [Exports](../modules.md) / DomainAnalyticsTechnologiesAggregationTechnologiesLiveItem
 
 # Class: DomainAnalyticsTechnologiesAggregationTechnologiesLiveItem
 
@@ -56,7 +52,7 @@ items array
 
 #### Defined in
 
-[main.ts:72744](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L72744)
+main.ts:75121
 
 ## Properties
 
@@ -73,10 +69,9 @@ number of domains that match the parameters you specified and are using technolo
 
 #### Defined in
 
-[main.ts:72737](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L72737)
+main.ts:75114
 
 ___
-
 
 ### category
 
@@ -90,10 +85,9 @@ technology category id
 
 #### Defined in
 
-[main.ts:72729](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L72729)
+main.ts:75106
 
 ___
-
 
 ### group
 
@@ -107,10 +101,9 @@ technology group id
 
 #### Defined in
 
-[main.ts:72727](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L72727)
+main.ts:75104
 
 ___
-
 
 ### groups\_count
 
@@ -125,10 +118,9 @@ number of domains that match the parameters you specified and are using technolo
 
 #### Defined in
 
-[main.ts:72734](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L72734)
+main.ts:75111
 
 ___
-
 
 ### technologies\_count
 
@@ -143,10 +135,9 @@ number of domains that match the parameters you specified and are using the indi
 
 #### Defined in
 
-[main.ts:72740](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L72740)
+main.ts:75117
 
 ___
-
 
 ### technology
 
@@ -160,10 +151,9 @@ technology name
 
 #### Defined in
 
-[main.ts:72731](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L72731)
+main.ts:75108
 
 ___
-
 
 ### type
 
@@ -177,7 +167,7 @@ type of element
 
 #### Defined in
 
-[main.ts:72725](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L72725)
+main.ts:75102
 
 ## Methods
 
@@ -197,10 +187,9 @@ type of element
 
 #### Defined in
 
-[main.ts:72753](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L72753)
+main.ts:75130
 
 ___
-
 
 ### toJSON
 
@@ -218,10 +207,9 @@ ___
 
 #### Defined in
 
-[main.ts:72776](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L72776)
+main.ts:75153
 
 ___
-
 
 ### fromJS
 
@@ -239,8 +227,4 @@ ___
 
 #### Defined in
 
-[main.ts:72769](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L72769)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:75146

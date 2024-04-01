@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IBacklinksBulkReferringDomainsLiveItem
+[Documentation](../README.md) / [Exports](../modules.md) / IBacklinksBulkReferringDomainsLiveItem
 
 # Interface: IBacklinksBulkReferringDomainsLiveItem
 
@@ -35,10 +31,9 @@ note that we calculate main domains (root domains, like example.com) and their s
 
 #### Defined in
 
-[main.ts:140489](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L140489)
+main.ts:145916
 
 ___
-
 
 ### referring\_domains\_nofollow
 
@@ -48,10 +43,9 @@ number of domains pointing at least one nofollow link to the target
 
 #### Defined in
 
-[main.ts:140491](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L140491)
+main.ts:145918
 
 ___
-
 
 ### referring\_main\_domains
 
@@ -62,10 +56,9 @@ the number of primary (root) domains referring to your target
 
 #### Defined in
 
-[main.ts:140494](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L140494)
+main.ts:145921
 
 ___
-
 
 ### referring\_main\_domains\_nofollow
 
@@ -75,10 +68,9 @@ number of main domains pointing at least one nofollow link to the target
 
 #### Defined in
 
-[main.ts:140496](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L140496)
+main.ts:145923
 
 ___
-
 
 ### target
 
@@ -88,8 +80,4 @@ domain, subdomain or webpage from a POST array
 
 #### Defined in
 
-[main.ts:140486](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L140486)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:145913

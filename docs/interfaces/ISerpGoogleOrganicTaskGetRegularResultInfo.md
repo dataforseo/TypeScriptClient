@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / ISerpGoogleOrganicTaskGetRegularResultInfo
+[Documentation](../README.md) / [Exports](../modules.md) / ISerpGoogleOrganicTaskGetRegularResultInfo
 
 # Interface: ISerpGoogleOrganicTaskGetRegularResultInfo
 
@@ -42,10 +38,9 @@ you can use it to make sure that we provided accurate results
 
 #### Defined in
 
-[main.ts:25975](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L25975)
+main.ts:26494
 
 ___
-
 
 ### datetime
 
@@ -58,10 +53,9 @@ example:
 
 #### Defined in
 
-[main.ts:25980](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L25980)
+main.ts:26499
 
 ___
-
 
 ### item\_types
 
@@ -77,10 +71,9 @@ to get all items (inlcuding SERP features and rich snippets) found in the return
 
 #### Defined in
 
-[main.ts:25991](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L25991)
+main.ts:26510
 
 ___
-
 
 ### items
 
@@ -90,10 +83,9 @@ items in SERP
 
 #### Defined in
 
-[main.ts:25997](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L25997)
+main.ts:26516
 
 ___
-
 
 ### items\_count
 
@@ -103,10 +95,9 @@ the number of results returned in the items array
 
 #### Defined in
 
-[main.ts:25995](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L25995)
+main.ts:26514
 
 ___
-
 
 ### keyword
 
@@ -117,10 +108,9 @@ keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a s
 
 #### Defined in
 
-[main.ts:25964](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L25964)
+main.ts:26483
 
 ___
-
 
 ### language\_code
 
@@ -130,10 +120,9 @@ language code in a POST array
 
 #### Defined in
 
-[main.ts:25972](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L25972)
+main.ts:26491
 
 ___
-
 
 ### location\_code
 
@@ -143,10 +132,9 @@ location code in a POST array
 
 #### Defined in
 
-[main.ts:25970](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L25970)
+main.ts:26489
 
 ___
-
 
 ### se\_domain
 
@@ -156,10 +144,9 @@ search engine domain in a POST array
 
 #### Defined in
 
-[main.ts:25968](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L25968)
+main.ts:26487
 
 ___
-
 
 ### se\_results\_count
 
@@ -169,10 +156,9 @@ total number of results in SERP
 
 #### Defined in
 
-[main.ts:25993](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L25993)
+main.ts:26512
 
 ___
-
 
 ### spell
 
@@ -183,10 +169,9 @@ if the search engine provided results for a keyword that was corrected, we will 
 
 #### Defined in
 
-[main.ts:25983](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L25983)
+main.ts:26502
 
 ___
-
 
 ### type
 
@@ -196,8 +181,4 @@ type of element
 
 #### Defined in
 
-[main.ts:25966](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L25966)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:26485

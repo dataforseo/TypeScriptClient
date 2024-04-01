@@ -1,15 +1,11 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IAppDataAppStoreInfoOrganicSerpElementItem
+[Documentation](../README.md) / [Exports](../modules.md) / IAppDataAppStoreInfoOrganicSerpElementItem
 
 # Interface: IAppDataAppStoreInfoOrganicSerpElementItem
 
 ## Hierarchy
 
 - [`IBaseAppDataSerpElementItem`](IBaseAppDataSerpElementItem.md)
-  
+
   ↳ **`IAppDataAppStoreInfoOrganicSerpElementItem`**
 
 ## Implemented by
@@ -63,10 +59,9 @@ age rating and age-based content advisories
 
 #### Defined in
 
-[main.ts:184613](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L184613)
+main.ts:190066
 
 ___
-
 
 ### app\_id
 
@@ -76,10 +71,9 @@ ID of the app
 
 #### Defined in
 
-[main.ts:184589](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L184589)
+main.ts:190042
 
 ___
-
 
 ### categories
 
@@ -89,10 +83,9 @@ all relevant categories/genres of the app
 
 #### Defined in
 
-[main.ts:184609](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L184609)
+main.ts:190062
 
 ___
-
 
 ### description
 
@@ -102,10 +95,9 @@ description of the app
 
 #### Defined in
 
-[main.ts:184597](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L184597)
+main.ts:190050
 
 ___
-
 
 ### developer
 
@@ -115,10 +107,9 @@ name of the app developer
 
 #### Defined in
 
-[main.ts:184615](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L184615)
+main.ts:190068
 
 ___
-
 
 ### developer\_id
 
@@ -128,10 +119,9 @@ ID of the app developer
 
 #### Defined in
 
-[main.ts:184617](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L184617)
+main.ts:190070
 
 ___
-
 
 ### developer\_url
 
@@ -141,10 +131,9 @@ URL to the developer page on App Store
 
 #### Defined in
 
-[main.ts:184619](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L184619)
+main.ts:190072
 
 ___
-
 
 ### icon
 
@@ -154,10 +143,9 @@ URL to the app icon
 
 #### Defined in
 
-[main.ts:184595](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L184595)
+main.ts:190048
 
 ___
-
 
 ### images
 
@@ -168,10 +156,9 @@ contains URLs to the images used on the app page on App Store
 
 #### Defined in
 
-[main.ts:184641](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L184641)
+main.ts:190094
 
 ___
-
 
 ### is\_free
 
@@ -181,10 +168,9 @@ indicates whether the app is free
 
 #### Defined in
 
-[main.ts:184605](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L184605)
+main.ts:190058
 
 ___
-
 
 ### languages
 
@@ -194,10 +180,9 @@ languages supported in the app
 
 #### Defined in
 
-[main.ts:184611](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L184611)
+main.ts:190064
 
 ___
-
 
 ### last\_update\_date
 
@@ -210,10 +195,9 @@ example:
 
 #### Defined in
 
-[main.ts:184635](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L184635)
+main.ts:190088
 
 ___
-
 
 ### main\_category
 
@@ -223,10 +207,9 @@ main category/genre of the app
 
 #### Defined in
 
-[main.ts:184607](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L184607)
+main.ts:190060
 
 ___
-
 
 ### minimum\_os\_version
 
@@ -236,10 +219,9 @@ minimum OS version required to install the app
 
 #### Defined in
 
-[main.ts:184623](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L184623)
+main.ts:190076
 
 ___
-
 
 ### more\_apps\_by\_developer
 
@@ -250,10 +232,9 @@ information about apps built by the same developer
 
 #### Defined in
 
-[main.ts:184647](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L184647)
+main.ts:190100
 
 ___
-
 
 ### position
 
@@ -264,10 +245,9 @@ can take the following values: left
 
 #### Defined in
 
-[main.ts:184587](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L184587)
+main.ts:190040
 
 ___
-
 
 ### price
 
@@ -277,10 +257,9 @@ price of the app
 
 #### Defined in
 
-[main.ts:184603](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L184603)
+main.ts:190056
 
 ___
-
 
 ### rank\_absolute
 
@@ -291,10 +270,9 @@ absolute position among all apps on the list
 
 #### Defined in
 
-[main.ts:184584](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L184584)
+main.ts:190037
 
 ___
-
 
 ### rank\_group
 
@@ -305,10 +283,9 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-[main.ts:184581](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L184581)
+main.ts:190034
 
 ___
-
 
 ### rating
 
@@ -318,10 +295,9 @@ average rating of the app
 
 #### Defined in
 
-[main.ts:184601](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L184601)
+main.ts:190054
 
 ___
-
 
 ### released\_date
 
@@ -334,10 +310,9 @@ example:
 
 #### Defined in
 
-[main.ts:184630](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L184630)
+main.ts:190083
 
 ___
-
 
 ### reviews\_count
 
@@ -347,10 +322,9 @@ the total number of reviews of the app
 
 #### Defined in
 
-[main.ts:184599](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L184599)
+main.ts:190052
 
 ___
-
 
 ### similar\_apps
 
@@ -361,10 +335,9 @@ displays apps similar to the app in a POST request
 
 #### Defined in
 
-[main.ts:184644](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L184644)
+main.ts:190097
 
 ___
-
 
 ### size
 
@@ -374,10 +347,9 @@ size of the app
 
 #### Defined in
 
-[main.ts:184625](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L184625)
+main.ts:190078
 
 ___
-
 
 ### title
 
@@ -387,10 +359,9 @@ title of the app
 
 #### Defined in
 
-[main.ts:184591](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L184591)
+main.ts:190044
 
 ___
-
 
 ### update\_notes
 
@@ -401,10 +372,9 @@ contains the latest update notes from the developer
 
 #### Defined in
 
-[main.ts:184638](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L184638)
+main.ts:190091
 
 ___
-
 
 ### url
 
@@ -414,10 +384,9 @@ URL to the app page on App Store
 
 #### Defined in
 
-[main.ts:184593](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L184593)
+main.ts:190046
 
 ___
-
 
 ### version
 
@@ -427,8 +396,4 @@ current version of the app
 
 #### Defined in
 
-[main.ts:184621](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L184621)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:190074

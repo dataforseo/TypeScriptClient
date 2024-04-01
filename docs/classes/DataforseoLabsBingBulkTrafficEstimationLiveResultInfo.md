@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / DataforseoLabsBingBulkTrafficEstimationLiveResultInfo
+[Documentation](../README.md) / [Exports](../modules.md) / DataforseoLabsBingBulkTrafficEstimationLiveResultInfo
 
 # Class: DataforseoLabsBingBulkTrafficEstimationLiveResultInfo
 
@@ -53,7 +49,7 @@
 
 #### Defined in
 
-[main.ts:102636](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L102636)
+main.ts:105013
 
 ## Properties
 
@@ -69,10 +65,9 @@ array of items with relevant traffic estimation data
 
 #### Defined in
 
-[main.ts:102632](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L102632)
+main.ts:105009
 
 ___
-
 
 ### items\_count
 
@@ -86,10 +81,9 @@ the number of results returned in the items array
 
 #### Defined in
 
-[main.ts:102630](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L102630)
+main.ts:105007
 
 ___
-
 
 ### language\_code
 
@@ -104,10 +98,9 @@ if there is no data, then the value is null
 
 #### Defined in
 
-[main.ts:102626](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L102626)
+main.ts:105003
 
 ___
-
 
 ### location\_code
 
@@ -122,10 +115,9 @@ if there is no data, then the value is null
 
 #### Defined in
 
-[main.ts:102623](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L102623)
+main.ts:105000
 
 ___
-
 
 ### se\_type
 
@@ -139,10 +131,9 @@ search engine type
 
 #### Defined in
 
-[main.ts:102620](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L102620)
+main.ts:104997
 
 ___
-
 
 ### total\_count
 
@@ -156,7 +147,7 @@ total amount of results in our database relevant to your request
 
 #### Defined in
 
-[main.ts:102628](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L102628)
+main.ts:105005
 
 ## Methods
 
@@ -176,10 +167,9 @@ total amount of results in our database relevant to your request
 
 #### Defined in
 
-[main.ts:102645](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L102645)
+main.ts:105022
 
 ___
-
 
 ### toJSON
 
@@ -197,10 +187,9 @@ ___
 
 #### Defined in
 
-[main.ts:102671](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L102671)
+main.ts:105048
 
 ___
-
 
 ### fromJS
 
@@ -218,8 +207,4 @@ ___
 
 #### Defined in
 
-[main.ts:102664](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L102664)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:105041

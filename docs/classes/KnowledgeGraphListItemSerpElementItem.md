@@ -1,15 +1,11 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / KnowledgeGraphListItemSerpElementItem
+[Documentation](../README.md) / [Exports](../modules.md) / KnowledgeGraphListItemSerpElementItem
 
 # Class: KnowledgeGraphListItemSerpElementItem
 
 ## Hierarchy
 
 - [`BaseSerpElementItem`](BaseSerpElementItem.md)
-  
+
   ↳ **`KnowledgeGraphListItemSerpElementItem`**
 
 ## Implements
@@ -67,7 +63,7 @@
 
 #### Defined in
 
-[main.ts:26652](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L26652)
+main.ts:27171
 
 ## Properties
 
@@ -81,10 +77,9 @@
 
 #### Defined in
 
-[main.ts:19337](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L19337)
+main.ts:19788
 
 ___
-
 
 ### data\_attrid
 
@@ -100,10 +95,9 @@ ss:/webfacts:net_worth
 
 #### Defined in
 
-[main.ts:26639](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L26639)
+main.ts:27158
 
 ___
-
 
 ### items
 
@@ -118,10 +112,9 @@ if there are none, equals null
 
 #### Defined in
 
-[main.ts:26644](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L26644)
+main.ts:27163
 
 ___
-
 
 ### link
 
@@ -135,10 +128,9 @@ link of the element
 
 #### Defined in
 
-[main.ts:26641](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L26641)
+main.ts:27160
 
 ___
-
 
 ### position
 
@@ -154,10 +146,9 @@ left, right
 
 #### Defined in
 
-[main.ts:26631](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L26631)
+main.ts:27150
 
 ___
-
 
 ### rank\_absolute
 
@@ -172,10 +163,9 @@ absolute position among all the elements in SERP
 
 #### Defined in
 
-[main.ts:26627](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L26627)
+main.ts:27146
 
 ___
-
 
 ### rank\_group
 
@@ -191,10 +181,9 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-[main.ts:26624](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L26624)
+main.ts:27143
 
 ___
-
 
 ### rectangle
 
@@ -210,10 +199,9 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 #### Defined in
 
-[main.ts:26648](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L26648)
+main.ts:27167
 
 ___
-
 
 ### title
 
@@ -227,10 +215,9 @@ title of the link element
 
 #### Defined in
 
-[main.ts:26635](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L26635)
+main.ts:27154
 
 ___
-
 
 ### xpath
 
@@ -244,7 +231,7 @@ the XPath of the element
 
 #### Defined in
 
-[main.ts:26633](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L26633)
+main.ts:27152
 
 ## Methods
 
@@ -268,10 +255,9 @@ the XPath of the element
 
 #### Defined in
 
-[main.ts:26657](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L26657)
+main.ts:27176
 
 ___
-
 
 ### toJSON
 
@@ -293,10 +279,9 @@ ___
 
 #### Defined in
 
-[main.ts:26687](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L26687)
+main.ts:27206
 
 ___
-
 
 ### fromJS
 
@@ -318,8 +303,4 @@ ___
 
 #### Defined in
 
-[main.ts:26680](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L26680)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:27199

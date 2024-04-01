@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IKeywordKpiInfo
+[Documentation](../README.md) / [Exports](../modules.md) / IKeywordKpiInfo
 
 # Interface: IKeywordKpiInfo
 
@@ -51,10 +47,9 @@ MainLine4: The fourth ad to appear at the top of the search results page
 
 #### Defined in
 
-[main.ts:127225](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L127225)
+main.ts:132592
 
 ___
-
 
 ### average\_bid
 
@@ -64,10 +59,9 @@ average bid of the keyword
 
 #### Defined in
 
-[main.ts:127242](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L127242)
+main.ts:132609
 
 ___
-
 
 ### average\_cpc
 
@@ -78,10 +72,9 @@ calculated by dividing the cost of all clicks by the number of clicks
 
 #### Defined in
 
-[main.ts:127234](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L127234)
+main.ts:132601
 
 ___
-
 
 ### clicks
 
@@ -92,10 +85,9 @@ the number of clicks that the keyword and match type generated during the last m
 
 #### Defined in
 
-[main.ts:127228](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L127228)
+main.ts:132595
 
 ___
-
 
 ### ctr
 
@@ -106,10 +98,9 @@ calculated by dividing the number of clicks by the number of impressions and mul
 
 #### Defined in
 
-[main.ts:127237](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L127237)
+main.ts:132604
 
 ___
-
 
 ### impressions
 
@@ -120,10 +111,9 @@ the number of impressions that the keyword and match type generated during the l
 
 #### Defined in
 
-[main.ts:127231](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L127231)
+main.ts:132598
 
 ___
-
 
 ### total\_cost
 
@@ -134,8 +124,4 @@ the cost of using the specified keyword and match type during the last month
 
 #### Defined in
 
-[main.ts:127240](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L127240)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:132607

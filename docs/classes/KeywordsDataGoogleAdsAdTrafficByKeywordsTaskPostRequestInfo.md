@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / KeywordsDataGoogleAdsAdTrafficByKeywordsTaskPostRequestInfo
+[Documentation](../README.md) / [Exports](../modules.md) / KeywordsDataGoogleAdsAdTrafficByKeywordsTaskPostRequestInfo
 
 # Class: KeywordsDataGoogleAdsAdTrafficByKeywordsTaskPostRequestInfo
 
@@ -63,7 +59,7 @@
 
 #### Defined in
 
-[main.ts:117689](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L117689)
+main.ts:120066
 
 ## Properties
 
@@ -83,10 +79,9 @@ learn more in this help center article
 
 #### Defined in
 
-[main.ts:117583](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L117583)
+main.ts:119960
 
 ___
-
 
 ### date\_from
 
@@ -108,10 +103,9 @@ if Status endpoint returns true in the actual_data field, date_from can be set t
 
 #### Defined in
 
-[main.ts:117639](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L117639)
+main.ts:120016
 
 ___
-
 
 ### date\_interval
 
@@ -129,10 +123,9 @@ default value: next_month
 
 #### Defined in
 
-[main.ts:117654](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L117654)
+main.ts:120031
 
 ___
-
 
 ### date\_to
 
@@ -153,10 +146,9 @@ example:
 
 #### Defined in
 
-[main.ts:117648](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L117648)
+main.ts:120025
 
 ___
-
 
 ### keywords
 
@@ -180,10 +172,9 @@ to learn more about which symbols can be used, please refer to this article
 
 #### Defined in
 
-[main.ts:117577](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L117577)
+main.ts:119954
 
 ___
-
 
 ### language\_code
 
@@ -201,10 +192,9 @@ en
 
 #### Defined in
 
-[main.ts:117629](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L117629)
+main.ts:120006
 
 ___
-
 
 ### language\_name
 
@@ -222,10 +212,9 @@ English
 
 #### Defined in
 
-[main.ts:117623](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L117623)
+main.ts:120000
 
 ___
-
 
 ### location\_code
 
@@ -245,10 +234,9 @@ example:
 
 #### Defined in
 
-[main.ts:117608](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L117608)
+main.ts:119985
 
 ___
-
 
 ### location\_coordinate
 
@@ -269,10 +257,9 @@ example:
 
 #### Defined in
 
-[main.ts:117617](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L117617)
+main.ts:119994
 
 ___
-
 
 ### location\_name
 
@@ -292,10 +279,9 @@ London,England,United Kingdom
 
 #### Defined in
 
-[main.ts:117600](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L117600)
+main.ts:119977
 
 ___
-
 
 ### match
 
@@ -311,10 +297,9 @@ can take the following values: exact, broad, phrase
 
 #### Defined in
 
-[main.ts:117587](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L117587)
+main.ts:119964
 
 ___
-
 
 ### pingback\_url
 
@@ -336,10 +321,9 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-[main.ts:117679](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L117679)
+main.ts:120056
 
 ___
-
 
 ### postback\_url
 
@@ -361,10 +345,9 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-[main.ts:117669](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L117669)
+main.ts:120046
 
 ___
-
 
 ### search\_partners
 
@@ -381,10 +364,9 @@ default value: false – results are returned for Google search sites
 
 #### Defined in
 
-[main.ts:117592](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L117592)
+main.ts:119969
 
 ___
-
 
 ### sort\_by
 
@@ -401,10 +383,9 @@ default value: relevance
 
 #### Defined in
 
-[main.ts:117659](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L117659)
+main.ts:120036
 
 ___
-
 
 ### tag
 
@@ -422,7 +403,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-[main.ts:117685](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L117685)
+main.ts:120062
 
 ## Methods
 
@@ -442,10 +423,9 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-[main.ts:117698](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L117698)
+main.ts:120075
 
 ___
-
 
 ### toJSON
 
@@ -463,10 +443,9 @@ ___
 
 #### Defined in
 
-[main.ts:117734](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L117734)
+main.ts:120111
 
 ___
-
 
 ### fromJS
 
@@ -484,8 +463,4 @@ ___
 
 #### Defined in
 
-[main.ts:117727](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L117727)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:120104

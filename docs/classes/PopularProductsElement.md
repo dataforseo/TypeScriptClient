@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / PopularProductsElement
+[Documentation](../README.md) / [Exports](../modules.md) / PopularProductsElement
 
 # Class: PopularProductsElement
 
@@ -52,7 +48,7 @@
 
 #### Defined in
 
-[main.ts:31995](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L31995)
+main.ts:32864
 
 ## Properties
 
@@ -60,7 +56,7 @@
 
 • `Optional` **description**: `string`
 
-description of the results element in SERP
+description
 
 #### Implementation of
 
@@ -68,16 +64,15 @@ description of the results element in SERP
 
 #### Defined in
 
-[main.ts:31986](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L31986)
+main.ts:32855
 
 ___
-
 
 ### price
 
 • `Optional` **price**: [`PriceInfo`](PriceInfo.md)
 
-price of booking a place for the specified dates of stay
+price indicated in the element
 
 #### Implementation of
 
@@ -85,16 +80,15 @@ price of booking a place for the specified dates of stay
 
 #### Defined in
 
-[main.ts:31988](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L31988)
+main.ts:32857
 
 ___
-
 
 ### rating
 
 • `Optional` **rating**: [`RatingInfo`](RatingInfo.md)
 
-the item’s rating
+the item’s rating 
 the popularity rate based on reviews and displayed in SERP
 
 #### Implementation of
@@ -103,16 +97,15 @@ the popularity rate based on reviews and displayed in SERP
 
 #### Defined in
 
-[main.ts:31991](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L31991)
+main.ts:32860
 
 ___
-
 
 ### title
 
 • `Optional` **title**: `string`
 
-title of the row
+title of a given link element
 
 #### Implementation of
 
@@ -120,10 +113,9 @@ title of the row
 
 #### Defined in
 
-[main.ts:31984](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L31984)
+main.ts:32853
 
 ___
-
 
 ### type
 
@@ -137,7 +129,7 @@ type of element
 
 #### Defined in
 
-[main.ts:31982](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L31982)
+main.ts:32851
 
 ## Methods
 
@@ -157,10 +149,9 @@ type of element
 
 #### Defined in
 
-[main.ts:32004](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L32004)
+main.ts:32873
 
 ___
-
 
 ### toJSON
 
@@ -178,10 +169,9 @@ ___
 
 #### Defined in
 
-[main.ts:32025](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L32025)
+main.ts:32894
 
 ___
-
 
 ### fromJS
 
@@ -199,8 +189,4 @@ ___
 
 #### Defined in
 
-[main.ts:32018](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L32018)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:32887

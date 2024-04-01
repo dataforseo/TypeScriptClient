@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / AppendixContentGenerationPriceData
+[Documentation](../README.md) / [Exports](../modules.md) / AppendixContentGenerationPriceData
 
 # Class: AppendixContentGenerationPriceData
 
@@ -54,7 +50,7 @@
 
 #### Defined in
 
-[main.ts:211517](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L211517)
+main.ts:217110
 
 ## Properties
 
@@ -68,10 +64,9 @@
 
 #### Defined in
 
-[main.ts:211507](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L211507)
+main.ts:217100
 
 ___
-
 
 ### generate
 
@@ -83,10 +78,9 @@ ___
 
 #### Defined in
 
-[main.ts:211508](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L211508)
+main.ts:217101
 
 ___
-
 
 ### generate\_meta\_tags
 
@@ -98,10 +92,9 @@ ___
 
 #### Defined in
 
-[main.ts:211509](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L211509)
+main.ts:217102
 
 ___
-
 
 ### generate\_sub\_topics
 
@@ -113,10 +106,9 @@ ___
 
 #### Defined in
 
-[main.ts:211510](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L211510)
+main.ts:217103
 
 ___
-
 
 ### generate\_text
 
@@ -128,10 +120,9 @@ ___
 
 #### Defined in
 
-[main.ts:211511](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L211511)
+main.ts:217104
 
 ___
-
 
 ### paraphrase
 
@@ -143,10 +134,9 @@ ___
 
 #### Defined in
 
-[main.ts:211512](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L211512)
+main.ts:217105
 
 ___
-
 
 ### text\_summary
 
@@ -158,7 +148,7 @@ ___
 
 #### Defined in
 
-[main.ts:211513](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L211513)
+main.ts:217106
 
 ## Methods
 
@@ -178,10 +168,9 @@ ___
 
 #### Defined in
 
-[main.ts:211526](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L211526)
+main.ts:217119
 
 ___
-
 
 ### toJSON
 
@@ -199,10 +188,9 @@ ___
 
 #### Defined in
 
-[main.ts:211549](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L211549)
+main.ts:217142
 
 ___
-
 
 ### fromJS
 
@@ -220,8 +208,4 @@ ___
 
 #### Defined in
 
-[main.ts:211542](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L211542)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:217135

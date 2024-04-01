@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IReviewMentionInfo
+[Documentation](../README.md) / [Exports](../modules.md) / IReviewMentionInfo
 
 # Interface: IReviewMentionInfo
 
@@ -35,10 +31,9 @@ count of negative reviews by criterion
 
 #### Defined in
 
-[main.ts:195833](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L195833)
+main.ts:201294
 
 ___
-
 
 ### positive\_count
 
@@ -48,10 +43,9 @@ count of positive reviews by criterion
 
 #### Defined in
 
-[main.ts:195831](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L195831)
+main.ts:201292
 
 ___
-
 
 ### positive\_score
 
@@ -61,10 +55,9 @@ positive score by criterion
 
 #### Defined in
 
-[main.ts:195829](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L195829)
+main.ts:201290
 
 ___
-
 
 ### title
 
@@ -74,10 +67,9 @@ title of the evaluated criterion
 
 #### Defined in
 
-[main.ts:195827](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L195827)
+main.ts:201288
 
 ___
-
 
 ### total\_count
 
@@ -87,10 +79,9 @@ count of all reviews by criterion
 
 #### Defined in
 
-[main.ts:195835](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L195835)
+main.ts:201296
 
 ___
-
 
 ### visible\_by\_default
 
@@ -101,8 +92,4 @@ indicates whether the review element is visible by default
 
 #### Defined in
 
-[main.ts:195838](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L195838)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:201299

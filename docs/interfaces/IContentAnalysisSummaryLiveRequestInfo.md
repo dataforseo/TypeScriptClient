@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IContentAnalysisSummaryLiveRequestInfo
+[Documentation](../README.md) / [Exports](../modules.md) / IContentAnalysisSummaryLiveRequestInfo
 
 # Interface: IContentAnalysisSummaryLiveRequestInfo
 
@@ -52,10 +48,9 @@ for more information about filters, please refer to Content Analysis API – Fil
 
 #### Defined in
 
-[main.ts:157264](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L157264)
+main.ts:162691
 
 ___
-
 
 ### internal\_list\_limit
 
@@ -74,10 +69,9 @@ maximum value: 20
 
 #### Defined in
 
-[main.ts:157232](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L157232)
+main.ts:162659
 
 ___
-
 
 ### keyword
 
@@ -94,10 +88,9 @@ example:
 
 #### Defined in
 
-[main.ts:157203](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L157203)
+main.ts:162630
 
 ___
-
 
 ### keyword\_fields
 
@@ -111,8 +104,8 @@ you can indicate several fields;
 Note: to match an exact phrase instead of a stand-alone keyword, use double quotes and backslashes;
 example:
 "keyword_fields": {
-"snippet": "\"logitech mouse\"",
-"main_title": "sale"
+    "snippet": "\"logitech mouse\"",
+    "main_title": "sale"
 }
 
 #### Index signature
@@ -121,10 +114,9 @@ example:
 
 #### Defined in
 
-[main.ts:157215](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L157215)
+main.ts:162642
 
 ___
-
 
 ### page\_type
 
@@ -138,10 +130,9 @@ possible values:
 
 #### Defined in
 
-[main.ts:157221](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L157221)
+main.ts:162648
 
 ___
-
 
 ### positive\_connotation\_threshold
 
@@ -156,10 +147,9 @@ default value: 0.4
 
 #### Defined in
 
-[main.ts:157239](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L157239)
+main.ts:162666
 
 ___
-
 
 ### sentiments\_connotation\_threshold
 
@@ -175,10 +165,9 @@ default value: 0.4
 
 #### Defined in
 
-[main.ts:157247](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L157247)
+main.ts:162674
 
 ___
-
 
 ### tag
 
@@ -192,8 +181,4 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-[main.ts:157270](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L157270)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:162697

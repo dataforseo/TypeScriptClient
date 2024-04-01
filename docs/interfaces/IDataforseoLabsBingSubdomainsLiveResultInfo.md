@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IDataforseoLabsBingSubdomainsLiveResultInfo
+[Documentation](../README.md) / [Exports](../modules.md) / IDataforseoLabsBingSubdomainsLiveResultInfo
 
 # Interface: IDataforseoLabsBingSubdomainsLiveResultInfo
 
@@ -36,10 +32,9 @@ contains subdomains and related data
 
 #### Defined in
 
-[main.ts:107669](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L107669)
+main.ts:110046
 
 ___
-
 
 ### items\_count
 
@@ -49,10 +44,9 @@ the number of results returned in the items array
 
 #### Defined in
 
-[main.ts:107667](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L107667)
+main.ts:110044
 
 ___
-
 
 ### language\_code
 
@@ -62,10 +56,9 @@ language code in a POST array
 
 #### Defined in
 
-[main.ts:107663](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L107663)
+main.ts:110040
 
 ___
-
 
 ### location\_code
 
@@ -75,10 +68,9 @@ location code in a POST array
 
 #### Defined in
 
-[main.ts:107661](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L107661)
+main.ts:110038
 
 ___
-
 
 ### se\_type
 
@@ -88,10 +80,9 @@ search engine type
 
 #### Defined in
 
-[main.ts:107657](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L107657)
+main.ts:110034
 
 ___
-
 
 ### target
 
@@ -101,10 +92,9 @@ domain in a POST array
 
 #### Defined in
 
-[main.ts:107659](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L107659)
+main.ts:110036
 
 ___
-
 
 ### total\_count
 
@@ -114,8 +104,4 @@ total amount of results in our database relevant to your request
 
 #### Defined in
 
-[main.ts:107665](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L107665)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:110042

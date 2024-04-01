@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / BusinessDataTripadvisorSearchTaskPostRequestInfo
+[Documentation](../README.md) / [Exports](../modules.md) / BusinessDataTripadvisorSearchTaskPostRequestInfo
 
 # Class: BusinessDataTripadvisorSearchTaskPostRequestInfo
 
@@ -55,7 +51,7 @@
 
 #### Defined in
 
-[main.ts:200958](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L200958)
+main.ts:206419
 
 ## Properties
 
@@ -76,10 +72,9 @@ maximum value: 210
 
 #### Defined in
 
-[main.ts:200928](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L200928)
+main.ts:206389
 
 ___
-
 
 ### keyword
 
@@ -98,10 +93,9 @@ if you need to use the “%” symbol for your keyword, please specify it as “
 
 #### Defined in
 
-[main.ts:200901](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L200901)
+main.ts:206362
 
 ___
-
 
 ### location\_code
 
@@ -119,10 +113,9 @@ example:
 
 #### Defined in
 
-[main.ts:200913](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L200913)
+main.ts:206374
 
 ___
-
 
 ### location\_name
 
@@ -140,10 +133,9 @@ London,England,United Kingdom
 
 #### Defined in
 
-[main.ts:200907](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L200907)
+main.ts:206368
 
 ___
-
 
 ### pingback\_url
 
@@ -165,10 +157,9 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-[main.ts:200954](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L200954)
+main.ts:206415
 
 ___
-
 
 ### postback\_url
 
@@ -190,10 +181,9 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-[main.ts:200944](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L200944)
+main.ts:206405
 
 ___
-
 
 ### priority
 
@@ -213,10 +203,9 @@ The cost can be calculated on the Pricing page.
 
 #### Defined in
 
-[main.ts:200921](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L200921)
+main.ts:206382
 
 ___
-
 
 ### tag
 
@@ -234,7 +223,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-[main.ts:200934](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L200934)
+main.ts:206395
 
 ## Methods
 
@@ -254,10 +243,9 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-[main.ts:200967](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L200967)
+main.ts:206428
 
 ___
-
 
 ### toJSON
 
@@ -275,10 +263,9 @@ ___
 
 #### Defined in
 
-[main.ts:200991](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L200991)
+main.ts:206452
 
 ___
-
 
 ### fromJS
 
@@ -296,8 +283,4 @@ ___
 
 #### Defined in
 
-[main.ts:200984](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L200984)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:206445

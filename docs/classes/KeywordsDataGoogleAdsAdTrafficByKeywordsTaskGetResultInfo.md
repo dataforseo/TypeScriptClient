@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / KeywordsDataGoogleAdsAdTrafficByKeywordsTaskGetResultInfo
+[Documentation](../README.md) / [Exports](../modules.md) / KeywordsDataGoogleAdsAdTrafficByKeywordsTaskGetResultInfo
 
 # Class: KeywordsDataGoogleAdsAdTrafficByKeywordsTaskGetResultInfo
 
@@ -59,7 +55,7 @@
 
 #### Defined in
 
-[main.ts:118235](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L118235)
+main.ts:120612
 
 ## Properties
 
@@ -77,10 +73,9 @@ if there is no data, then the value is null
 
 #### Defined in
 
-[main.ts:118223](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L118223)
+main.ts:120600
 
 ___
-
 
 ### bid
 
@@ -98,10 +93,9 @@ learn more in this help center article
 
 #### Defined in
 
-[main.ts:118207](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L118207)
+main.ts:120584
 
 ___
-
 
 ### clicks
 
@@ -117,10 +111,9 @@ if there is no data, then the value is null
 
 #### Defined in
 
-[main.ts:118231](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L118231)
+main.ts:120608
 
 ___
-
 
 ### cost
 
@@ -136,10 +129,9 @@ if there is no data, then the value is null
 
 #### Defined in
 
-[main.ts:118227](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L118227)
+main.ts:120604
 
 ___
-
 
 ### ctr
 
@@ -155,10 +147,9 @@ if there is no data, then the value is null
 
 #### Defined in
 
-[main.ts:118219](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L118219)
+main.ts:120596
 
 ___
-
 
 ### date\_interval
 
@@ -172,10 +163,9 @@ forecasting date interval in a POST array
 
 #### Defined in
 
-[main.ts:118196](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L118196)
+main.ts:120573
 
 ___
-
 
 ### impressions
 
@@ -192,10 +182,9 @@ learn more about impressions in this help center article
 
 #### Defined in
 
-[main.ts:118215](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L118215)
+main.ts:120592
 
 ___
-
 
 ### keyword
 
@@ -210,10 +199,9 @@ metrics are provided for all the keywords specified in the POST array
 
 #### Defined in
 
-[main.ts:118188](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L118188)
+main.ts:120565
 
 ___
-
 
 ### language\_code
 
@@ -228,10 +216,9 @@ if there is no data, then the value is null
 
 #### Defined in
 
-[main.ts:118194](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L118194)
+main.ts:120571
 
 ___
-
 
 ### location\_code
 
@@ -246,10 +233,9 @@ if there is no data, then the value is null
 
 #### Defined in
 
-[main.ts:118191](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L118191)
+main.ts:120568
 
 ___
-
 
 ### match
 
@@ -264,10 +250,9 @@ can take the following values: exact, broad, phrase
 
 #### Defined in
 
-[main.ts:118210](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L118210)
+main.ts:120587
 
 ___
-
 
 ### search\_partners
 
@@ -284,7 +269,7 @@ if false, the results are returned for Google search sites only
 
 #### Defined in
 
-[main.ts:118201](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L118201)
+main.ts:120578
 
 ## Methods
 
@@ -304,10 +289,9 @@ if false, the results are returned for Google search sites only
 
 #### Defined in
 
-[main.ts:118244](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L118244)
+main.ts:120621
 
 ___
-
 
 ### toJSON
 
@@ -325,10 +309,9 @@ ___
 
 #### Defined in
 
-[main.ts:118272](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L118272)
+main.ts:120649
 
 ___
-
 
 ### fromJS
 
@@ -346,8 +329,4 @@ ___
 
 #### Defined in
 
-[main.ts:118265](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L118265)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:120642

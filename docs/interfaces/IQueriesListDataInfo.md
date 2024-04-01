@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IQueriesListDataInfo
+[Documentation](../README.md) / [Exports](../modules.md) / IQueriesListDataInfo
 
 # Interface: IQueriesListDataInfo
 
@@ -32,10 +28,9 @@ represents the list of related topics with the biggest increase in search freque
 
 #### Defined in
 
-[main.ts:121118](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L121118)
+main.ts:123444
 
 ___
-
 
 ### top
 
@@ -46,8 +41,4 @@ represents the list of the most popular related topics
 
 #### Defined in
 
-[main.ts:121115](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L121115)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:123441

@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / ISerpYahooLanguagesResultInfo
+[Documentation](../README.md) / [Exports](../modules.md) / ISerpYahooLanguagesResultInfo
 
 # Interface: ISerpYahooLanguagesResultInfo
 
@@ -31,10 +27,9 @@ language code according to ISO 639-1
 
 #### Defined in
 
-[main.ts:63079](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L63079)
+main.ts:65454
 
 ___
-
 
 ### language\_name
 
@@ -44,8 +39,4 @@ language name
 
 #### Defined in
 
-[main.ts:63077](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L63077)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:65452

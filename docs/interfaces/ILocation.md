@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / ILocation
+[Documentation](../README.md) / [Exports](../modules.md) / ILocation
 
 # Interface: ILocation
 
@@ -40,10 +36,9 @@ example:
 
 #### Defined in
 
-[main.ts:196984](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L196984)
+main.ts:202445
 
 ___
-
 
 ### location\_chain
 
@@ -54,10 +49,9 @@ additional parameters of each element of the location chain
 
 #### Defined in
 
-[main.ts:196992](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L196992)
+main.ts:202453
 
 ___
-
 
 ### longitude
 
@@ -70,10 +64,9 @@ example:
 
 #### Defined in
 
-[main.ts:196989](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L196989)
+main.ts:202450
 
 ___
-
 
 ### maps\_url
 
@@ -83,10 +76,9 @@ url to the location of the hotel in google maps
 
 #### Defined in
 
-[main.ts:196971](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L196971)
+main.ts:202432
 
 ___
-
 
 ### neighborhood
 
@@ -96,10 +88,9 @@ name of the neighborhood where the hotel is located
 
 #### Defined in
 
-[main.ts:196967](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L196967)
+main.ts:202428
 
 ___
-
 
 ### neighborhood\_description
 
@@ -109,10 +100,9 @@ description of the neighborhood where the hotel is located
 
 #### Defined in
 
-[main.ts:196969](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L196969)
+main.ts:202430
 
 ___
-
 
 ### overall\_score
 
@@ -125,10 +115,9 @@ note that the criteria are not weighted equally in the overall score
 
 #### Defined in
 
-[main.ts:196976](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L196976)
+main.ts:202437
 
 ___
-
 
 ### score\_by\_categories
 
@@ -139,8 +128,4 @@ the scores of the hotel’s location tied to the categories that indicate the pr
 
 #### Defined in
 
-[main.ts:196979](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L196979)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:202440

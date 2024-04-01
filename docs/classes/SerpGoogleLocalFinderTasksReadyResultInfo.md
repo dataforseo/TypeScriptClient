@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / SerpGoogleLocalFinderTasksReadyResultInfo
+[Documentation](../README.md) / [Exports](../modules.md) / SerpGoogleLocalFinderTasksReadyResultInfo
 
 # Class: SerpGoogleLocalFinderTasksReadyResultInfo
 
@@ -55,7 +51,7 @@
 
 #### Defined in
 
-[main.ts:40081](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L40081)
+main.ts:40832
 
 ## Properties
 
@@ -71,10 +67,9 @@ date when the task was posted (in the UTC format)
 
 #### Defined in
 
-[main.ts:40066](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L40066)
+main.ts:40817
 
 ___
-
 
 ### endpoint\_advanced
 
@@ -89,10 +84,9 @@ if SERP Advanced is not supported in the specified endpoint, the value will be n
 
 #### Defined in
 
-[main.ts:40074](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L40074)
+main.ts:40825
 
 ___
-
 
 ### endpoint\_html
 
@@ -107,10 +101,9 @@ if SERP HTML is not supported in the specified endpoint, the value will be null
 
 #### Defined in
 
-[main.ts:40077](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L40077)
+main.ts:40828
 
 ___
-
 
 ### endpoint\_regular
 
@@ -125,10 +118,9 @@ if SERP Regular is not supported in the specified endpoint, the value will be nu
 
 #### Defined in
 
-[main.ts:40071](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L40071)
+main.ts:40822
 
 ___
-
 
 ### id
 
@@ -143,10 +135,9 @@ unique task identifier in our system in the UUID format
 
 #### Defined in
 
-[main.ts:40059](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L40059)
+main.ts:40810
 
 ___
-
 
 ### se
 
@@ -160,10 +151,9 @@ search engine specified when setting the task
 
 #### Defined in
 
-[main.ts:40061](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L40061)
+main.ts:40812
 
 ___
-
 
 ### se\_type
 
@@ -178,10 +168,9 @@ can take the following values: local_finder
 
 #### Defined in
 
-[main.ts:40064](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L40064)
+main.ts:40815
 
 ___
-
 
 ### tag
 
@@ -195,7 +184,7 @@ user-defined task identifier
 
 #### Defined in
 
-[main.ts:40068](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L40068)
+main.ts:40819
 
 ## Methods
 
@@ -215,10 +204,9 @@ user-defined task identifier
 
 #### Defined in
 
-[main.ts:40090](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L40090)
+main.ts:40841
 
 ___
-
 
 ### toJSON
 
@@ -236,10 +224,9 @@ ___
 
 #### Defined in
 
-[main.ts:40114](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L40114)
+main.ts:40865
 
 ___
-
 
 ### fromJS
 
@@ -257,8 +244,4 @@ ___
 
 #### Defined in
 
-[main.ts:40107](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L40107)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:40858

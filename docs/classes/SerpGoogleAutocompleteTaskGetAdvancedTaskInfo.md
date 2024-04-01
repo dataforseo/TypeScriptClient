@@ -1,0 +1,321 @@
+[Documentation](../README.md) / [Exports](../modules.md) / SerpGoogleAutocompleteTaskGetAdvancedTaskInfo
+
+# Class: SerpGoogleAutocompleteTaskGetAdvancedTaskInfo
+
+## Hierarchy
+
+- [`BaseResponseTaskInfo`](BaseResponseTaskInfo.md)
+
+  ↳ **`SerpGoogleAutocompleteTaskGetAdvancedTaskInfo`**
+
+## Implements
+
+- [`ISerpGoogleAutocompleteTaskGetAdvancedTaskInfo`](../interfaces/ISerpGoogleAutocompleteTaskGetAdvancedTaskInfo.md)
+
+## Indexable
+
+▪ [key: `string`]: `any`
+
+## Table of contents
+
+### Constructors
+
+- [constructor](SerpGoogleAutocompleteTaskGetAdvancedTaskInfo.md#constructor)
+
+### Properties
+
+- [cost](SerpGoogleAutocompleteTaskGetAdvancedTaskInfo.md#cost)
+- [data](SerpGoogleAutocompleteTaskGetAdvancedTaskInfo.md#data)
+- [id](SerpGoogleAutocompleteTaskGetAdvancedTaskInfo.md#id)
+- [path](SerpGoogleAutocompleteTaskGetAdvancedTaskInfo.md#path)
+- [result](SerpGoogleAutocompleteTaskGetAdvancedTaskInfo.md#result)
+- [result\_count](SerpGoogleAutocompleteTaskGetAdvancedTaskInfo.md#result_count)
+- [status\_code](SerpGoogleAutocompleteTaskGetAdvancedTaskInfo.md#status_code)
+- [status\_message](SerpGoogleAutocompleteTaskGetAdvancedTaskInfo.md#status_message)
+- [time](SerpGoogleAutocompleteTaskGetAdvancedTaskInfo.md#time)
+
+### Methods
+
+- [init](SerpGoogleAutocompleteTaskGetAdvancedTaskInfo.md#init)
+- [toJSON](SerpGoogleAutocompleteTaskGetAdvancedTaskInfo.md#tojson)
+- [fromJS](SerpGoogleAutocompleteTaskGetAdvancedTaskInfo.md#fromjs)
+
+## Constructors
+
+### constructor
+
+• **new SerpGoogleAutocompleteTaskGetAdvancedTaskInfo**(`data?`): [`SerpGoogleAutocompleteTaskGetAdvancedTaskInfo`](SerpGoogleAutocompleteTaskGetAdvancedTaskInfo.md)
+
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `data?` | [`ISerpGoogleAutocompleteTaskGetAdvancedTaskInfo`](../interfaces/ISerpGoogleAutocompleteTaskGetAdvancedTaskInfo.md) |
+
+#### Returns
+
+[`SerpGoogleAutocompleteTaskGetAdvancedTaskInfo`](SerpGoogleAutocompleteTaskGetAdvancedTaskInfo.md)
+
+#### Overrides
+
+[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[constructor](BaseResponseTaskInfo.md#constructor)
+
+#### Defined in
+
+main.ts:51567
+
+## Properties
+
+### cost
+
+• `Optional` **cost**: `number`
+
+total tasks cost, USD
+
+#### Implementation of
+
+[ISerpGoogleAutocompleteTaskGetAdvancedTaskInfo](../interfaces/ISerpGoogleAutocompleteTaskGetAdvancedTaskInfo.md).[cost](../interfaces/ISerpGoogleAutocompleteTaskGetAdvancedTaskInfo.md#cost)
+
+#### Inherited from
+
+[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[cost](BaseResponseTaskInfo.md#cost)
+
+#### Defined in
+
+main.ts:23121
+
+___
+
+### data
+
+• `Optional` **data**: `Object`
+
+contains the same parameters that you specified in the POST request
+
+#### Index signature
+
+▪ [key: `string`]: `any`
+
+#### Implementation of
+
+[ISerpGoogleAutocompleteTaskGetAdvancedTaskInfo](../interfaces/ISerpGoogleAutocompleteTaskGetAdvancedTaskInfo.md).[data](../interfaces/ISerpGoogleAutocompleteTaskGetAdvancedTaskInfo.md#data)
+
+#### Inherited from
+
+[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[data](BaseResponseTaskInfo.md#data)
+
+#### Defined in
+
+main.ts:23127
+
+___
+
+### id
+
+• `Optional` **id**: `string`
+
+task identifier
+unique task identifier in our system in the UUID format
+
+#### Implementation of
+
+[ISerpGoogleAutocompleteTaskGetAdvancedTaskInfo](../interfaces/ISerpGoogleAutocompleteTaskGetAdvancedTaskInfo.md).[id](../interfaces/ISerpGoogleAutocompleteTaskGetAdvancedTaskInfo.md#id)
+
+#### Inherited from
+
+[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[id](BaseResponseTaskInfo.md#id)
+
+#### Defined in
+
+main.ts:23110
+
+___
+
+### path
+
+• `Optional` **path**: `string`[]
+
+URL path
+
+#### Implementation of
+
+[ISerpGoogleAutocompleteTaskGetAdvancedTaskInfo](../interfaces/ISerpGoogleAutocompleteTaskGetAdvancedTaskInfo.md).[path](../interfaces/ISerpGoogleAutocompleteTaskGetAdvancedTaskInfo.md#path)
+
+#### Inherited from
+
+[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[path](BaseResponseTaskInfo.md#path)
+
+#### Defined in
+
+main.ts:23125
+
+___
+
+### result
+
+• `Optional` **result**: [`SerpGoogleAutocompleteTaskGetAdvancedResultInfo`](SerpGoogleAutocompleteTaskGetAdvancedResultInfo.md)[]
+
+array of results
+
+#### Implementation of
+
+[ISerpGoogleAutocompleteTaskGetAdvancedTaskInfo](../interfaces/ISerpGoogleAutocompleteTaskGetAdvancedTaskInfo.md).[result](../interfaces/ISerpGoogleAutocompleteTaskGetAdvancedTaskInfo.md#result)
+
+#### Defined in
+
+main.ts:51563
+
+___
+
+### result\_count
+
+• `Optional` **result\_count**: `number`
+
+number of elements in the result array
+
+#### Implementation of
+
+[ISerpGoogleAutocompleteTaskGetAdvancedTaskInfo](../interfaces/ISerpGoogleAutocompleteTaskGetAdvancedTaskInfo.md).[result_count](../interfaces/ISerpGoogleAutocompleteTaskGetAdvancedTaskInfo.md#result_count)
+
+#### Inherited from
+
+[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[result_count](BaseResponseTaskInfo.md#result_count)
+
+#### Defined in
+
+main.ts:23123
+
+___
+
+### status\_code
+
+• `Optional` **status\_code**: `number`
+
+status code of the task
+generated by DataForSEO, can be within the following range: 10000-60000
+you can find the full list of the response codes here
+
+#### Implementation of
+
+[ISerpGoogleAutocompleteTaskGetAdvancedTaskInfo](../interfaces/ISerpGoogleAutocompleteTaskGetAdvancedTaskInfo.md).[status_code](../interfaces/ISerpGoogleAutocompleteTaskGetAdvancedTaskInfo.md#status_code)
+
+#### Inherited from
+
+[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[status_code](BaseResponseTaskInfo.md#status_code)
+
+#### Defined in
+
+main.ts:23114
+
+___
+
+### status\_message
+
+• `Optional` **status\_message**: `string`
+
+informational message of the task
+you can find the full list of general informational messages here
+
+#### Implementation of
+
+[ISerpGoogleAutocompleteTaskGetAdvancedTaskInfo](../interfaces/ISerpGoogleAutocompleteTaskGetAdvancedTaskInfo.md).[status_message](../interfaces/ISerpGoogleAutocompleteTaskGetAdvancedTaskInfo.md#status_message)
+
+#### Inherited from
+
+[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[status_message](BaseResponseTaskInfo.md#status_message)
+
+#### Defined in
+
+main.ts:23117
+
+___
+
+### time
+
+• `Optional` **time**: `string`
+
+execution time, seconds
+
+#### Implementation of
+
+[ISerpGoogleAutocompleteTaskGetAdvancedTaskInfo](../interfaces/ISerpGoogleAutocompleteTaskGetAdvancedTaskInfo.md).[time](../interfaces/ISerpGoogleAutocompleteTaskGetAdvancedTaskInfo.md#time)
+
+#### Inherited from
+
+[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[time](BaseResponseTaskInfo.md#time)
+
+#### Defined in
+
+main.ts:23119
+
+## Methods
+
+### init
+
+▸ **init**(`_data?`): `void`
+
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `_data?` | `any` |
+
+#### Returns
+
+`void`
+
+#### Overrides
+
+[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[init](BaseResponseTaskInfo.md#init)
+
+#### Defined in
+
+main.ts:51571
+
+___
+
+### toJSON
+
+▸ **toJSON**(`data?`): `any`
+
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `data?` | `any` |
+
+#### Returns
+
+`any`
+
+#### Overrides
+
+[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[toJSON](BaseResponseTaskInfo.md#tojson)
+
+#### Defined in
+
+main.ts:51593
+
+___
+
+### fromJS
+
+▸ **fromJS**(`data`): [`SerpGoogleAutocompleteTaskGetAdvancedTaskInfo`](SerpGoogleAutocompleteTaskGetAdvancedTaskInfo.md)
+
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `data` | `any` |
+
+#### Returns
+
+[`SerpGoogleAutocompleteTaskGetAdvancedTaskInfo`](SerpGoogleAutocompleteTaskGetAdvancedTaskInfo.md)
+
+#### Overrides
+
+[BaseResponseTaskInfo](BaseResponseTaskInfo.md).[fromJS](BaseResponseTaskInfo.md#fromjs)
+
+#### Defined in
+
+main.ts:51586

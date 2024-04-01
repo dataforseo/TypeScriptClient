@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / DomainAnalyticsTechnologiesDomainTechnologiesLiveResultInfo
+[Documentation](../README.md) / [Exports](../modules.md) / DomainAnalyticsTechnologiesDomainTechnologiesLiveResultInfo
 
 # Class: DomainAnalyticsTechnologiesDomainTechnologiesLiveResultInfo
 
@@ -61,7 +57,7 @@
 
 #### Defined in
 
-[main.ts:75158](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L75158)
+main.ts:77535
 
 ## Properties
 
@@ -78,10 +74,9 @@ code of the language that content on the target domain is written in
 
 #### Defined in
 
-[main.ts:75141](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L75141)
+main.ts:77518
 
 ___
-
 
 ### country\_iso\_code
 
@@ -96,10 +91,9 @@ ISO code of the country that the target domain is determined to belong to
 
 #### Defined in
 
-[main.ts:75135](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L75135)
+main.ts:77512
 
 ___
-
 
 ### description
 
@@ -113,10 +107,9 @@ domain meta description
 
 #### Defined in
 
-[main.ts:75122](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L75122)
+main.ts:77499
 
 ___
-
 
 ### domain
 
@@ -130,10 +123,9 @@ specified domain name
 
 #### Defined in
 
-[main.ts:75118](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L75118)
+main.ts:77495
 
 ___
-
 
 ### domain\_rank
 
@@ -148,10 +140,9 @@ learn more about the metric and how it is calculated in this help center article
 
 #### Defined in
 
-[main.ts:75127](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L75127)
+main.ts:77504
 
 ___
-
 
 ### emails
 
@@ -166,10 +157,9 @@ emails indicated on the target website
 
 #### Defined in
 
-[main.ts:75147](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L75147)
+main.ts:77524
 
 ___
-
 
 ### language\_code
 
@@ -184,10 +174,9 @@ code of the language that the target domain is determined to be associated with
 
 #### Defined in
 
-[main.ts:75138](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L75138)
+main.ts:77515
 
 ___
-
 
 ### last\_visited
 
@@ -204,10 +193,9 @@ example:
 
 #### Defined in
 
-[main.ts:75132](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L75132)
+main.ts:77509
 
 ___
-
 
 ### meta\_keywords
 
@@ -221,10 +209,9 @@ domain meta keywords
 
 #### Defined in
 
-[main.ts:75124](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L75124)
+main.ts:77501
 
 ___
-
 
 ### phone\_numbers
 
@@ -239,10 +226,9 @@ contact phone numbers indicated on the target website
 
 #### Defined in
 
-[main.ts:75144](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L75144)
+main.ts:77521
 
 ___
-
 
 ### social\_graph\_urls
 
@@ -257,10 +243,9 @@ social media URLs detected in the social graphs of the target website
 
 #### Defined in
 
-[main.ts:75150](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L75150)
+main.ts:77527
 
 ___
-
 
 ### technologies
 
@@ -276,10 +261,9 @@ see the full list of available technologies structured by groups and categories
 
 #### Defined in
 
-[main.ts:75154](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L75154)
+main.ts:77531
 
 ___
-
 
 ### title
 
@@ -293,10 +277,9 @@ domain meta title
 
 #### Defined in
 
-[main.ts:75120](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L75120)
+main.ts:77497
 
 ___
-
 
 ### type
 
@@ -310,7 +293,7 @@ type of element
 
 #### Defined in
 
-[main.ts:75116](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L75116)
+main.ts:77493
 
 ## Methods
 
@@ -330,10 +313,9 @@ type of element
 
 #### Defined in
 
-[main.ts:75167](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L75167)
+main.ts:77544
 
 ___
-
 
 ### toJSON
 
@@ -351,10 +333,9 @@ ___
 
 #### Defined in
 
-[main.ts:75213](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L75213)
+main.ts:77590
 
 ___
-
 
 ### fromJS
 
@@ -372,8 +353,4 @@ ___
 
 #### Defined in
 
-[main.ts:75206](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L75206)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:77583

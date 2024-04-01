@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IDomainAnalyticsTechnologiesDomainsByHtmlTermsLiveRequestInfo
+[Documentation](../README.md) / [Exports](../modules.md) / IDomainAnalyticsTechnologiesDomainsByHtmlTermsLiveRequestInfo
 
 # Interface: IDomainAnalyticsTechnologiesDomainsByHtmlTermsLiveRequestInfo
 
@@ -52,10 +48,9 @@ for more information about filters, please refer to Domain Analytics Technologie
 
 #### Defined in
 
-[main.ts:74820](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L74820)
+main.ts:77197
 
 ___
-
 
 ### keywords
 
@@ -71,10 +66,9 @@ example:
 
 #### Defined in
 
-[main.ts:74796](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L74796)
+main.ts:77173
 
 ___
-
 
 ### limit
 
@@ -87,10 +81,9 @@ maximum value: 10000
 
 #### Defined in
 
-[main.ts:74842](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L74842)
+main.ts:77219
 
 ___
-
 
 ### mode
 
@@ -105,10 +98,9 @@ default value: entry
 
 #### Defined in
 
-[main.ts:74803](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L74803)
+main.ts:77180
 
 ___
-
 
 ### offset
 
@@ -123,10 +115,9 @@ use the offset_token if you would like to offset more results
 
 #### Defined in
 
-[main.ts:74849](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L74849)
+main.ts:77226
 
 ___
-
 
 ### offset\_token
 
@@ -142,10 +133,9 @@ Note: if the offset_token is specified in the request, all other parameters shou
 
 #### Defined in
 
-[main.ts:74857](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L74857)
+main.ts:77234
 
 ___
-
 
 ### order\_by
 
@@ -170,10 +160,9 @@ example:
 
 #### Defined in
 
-[main.ts:74837](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L74837)
+main.ts:77214
 
 ___
-
 
 ### search\_terms
 
@@ -189,8 +178,4 @@ example:
 
 #### Defined in
 
-[main.ts:74788](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L74788)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:77165

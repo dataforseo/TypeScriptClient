@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / DatasetDescription
+[Documentation](../README.md) / [Exports](../modules.md) / DatasetDescription
 
 # Class: DatasetDescription
 
@@ -49,7 +45,7 @@
 
 #### Defined in
 
-[main.ts:50778](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L50778)
+main.ts:53153
 
 ## Properties
 
@@ -65,10 +61,9 @@ links featured in the ‘dataset_description’
 
 #### Defined in
 
-[main.ts:50774](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L50774)
+main.ts:53149
 
 ___
-
 
 ### text
 
@@ -82,7 +77,7 @@ text of the description
 
 #### Defined in
 
-[main.ts:50772](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L50772)
+main.ts:53147
 
 ## Methods
 
@@ -102,10 +97,9 @@ text of the description
 
 #### Defined in
 
-[main.ts:50787](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L50787)
+main.ts:53162
 
 ___
-
 
 ### toJSON
 
@@ -123,10 +117,9 @@ ___
 
 #### Defined in
 
-[main.ts:50809](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L50809)
+main.ts:53184
 
 ___
-
 
 ### fromJS
 
@@ -144,8 +137,4 @@ ___
 
 #### Defined in
 
-[main.ts:50802](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L50802)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:53177

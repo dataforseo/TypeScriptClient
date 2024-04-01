@@ -1,15 +1,11 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / SerpGoogleEventsTaskPostResponseInfo
+[Documentation](../README.md) / [Exports](../modules.md) / SerpGoogleEventsTaskPostResponseInfo
 
 # Class: SerpGoogleEventsTaskPostResponseInfo
 
 ## Hierarchy
 
 - [`BaseResponseInfo`](BaseResponseInfo.md)
-  
+
   ↳ **`SerpGoogleEventsTaskPostResponseInfo`**
 
 ## Implements
@@ -65,7 +61,7 @@
 
 #### Defined in
 
-[main.ts:43947](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L43947)
+main.ts:44698
 
 ## Properties
 
@@ -85,10 +81,9 @@ total tasks cost, USD
 
 #### Defined in
 
-[main.ts:22510](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L22510)
+main.ts:23029
 
 ___
-
 
 ### status\_code
 
@@ -107,10 +102,9 @@ you can find the full list of the response codes here
 
 #### Defined in
 
-[main.ts:22503](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L22503)
+main.ts:23022
 
 ___
-
 
 ### status\_message
 
@@ -129,10 +123,9 @@ you can find the full list of general informational messages here
 
 #### Defined in
 
-[main.ts:22506](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L22506)
+main.ts:23025
 
 ___
-
 
 ### tasks
 
@@ -146,10 +139,9 @@ array of tasks
 
 #### Defined in
 
-[main.ts:43943](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L43943)
+main.ts:44694
 
 ___
-
 
 ### tasks\_count
 
@@ -167,10 +159,9 @@ the number of tasks in the tasks array
 
 #### Defined in
 
-[main.ts:22512](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L22512)
+main.ts:23031
 
 ___
-
 
 ### tasks\_error
 
@@ -188,10 +179,9 @@ the number of tasks in the tasks array returned with an error
 
 #### Defined in
 
-[main.ts:22514](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L22514)
+main.ts:23033
 
 ___
-
 
 ### time
 
@@ -209,10 +199,9 @@ total execution time, seconds
 
 #### Defined in
 
-[main.ts:22508](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L22508)
+main.ts:23027
 
 ___
-
 
 ### version
 
@@ -230,7 +219,7 @@ the current version of the API
 
 #### Defined in
 
-[main.ts:22500](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L22500)
+main.ts:23019
 
 ## Methods
 
@@ -254,10 +243,9 @@ the current version of the API
 
 #### Defined in
 
-[main.ts:43951](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L43951)
+main.ts:44702
 
 ___
-
 
 ### toJSON
 
@@ -279,10 +267,9 @@ ___
 
 #### Defined in
 
-[main.ts:43973](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L43973)
+main.ts:44724
 
 ___
-
 
 ### fromJS
 
@@ -304,8 +291,4 @@ ___
 
 #### Defined in
 
-[main.ts:43966](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L43966)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:44717

@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / ContentAnalysisCategoryTrendsLiveResultInfo
+[Documentation](../README.md) / [Exports](../modules.md) / ContentAnalysisCategoryTrendsLiveResultInfo
 
 # Class: ContentAnalysisCategoryTrendsLiveResultInfo
 
@@ -59,7 +55,7 @@
 
 #### Defined in
 
-[main.ts:159446](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L159446)
+main.ts:164873
 
 ## Properties
 
@@ -81,10 +77,9 @@ possible connotation types: "positive", "negative", "neutral"
 
 #### Defined in
 
-[main.ts:159423](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L159423)
+main.ts:164850
 
 ___
-
 
 ### countries
 
@@ -104,10 +99,9 @@ to obtain a full list of available countries, refer to the Locations endpoint
 
 #### Defined in
 
-[main.ts:159438](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L159438)
+main.ts:164865
 
 ___
-
 
 ### date
 
@@ -121,10 +115,9 @@ date for which the data is provided
 
 #### Defined in
 
-[main.ts:159407](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L159407)
+main.ts:164834
 
 ___
-
 
 ### languages
 
@@ -144,10 +137,9 @@ to obtain a full list of available languages, refer to the Languages endpoint
 
 #### Defined in
 
-[main.ts:159442](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L159442)
+main.ts:164869
 
 ___
-
 
 ### page\_categories
 
@@ -163,10 +155,9 @@ to obtain a full list of available categories, refer to the Categories endpoint
 
 #### Defined in
 
-[main.ts:159431](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L159431)
+main.ts:164858
 
 ___
-
 
 ### page\_types
 
@@ -185,10 +176,9 @@ contains page types and citation count per each page type
 
 #### Defined in
 
-[main.ts:159434](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L159434)
+main.ts:164861
 
 ___
-
 
 ### rank
 
@@ -203,10 +193,9 @@ normalized sum of ranks of all URLs citing the target keyword for the given date
 
 #### Defined in
 
-[main.ts:159412](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L159412)
+main.ts:164839
 
 ___
-
 
 ### sentiment\_connotations
 
@@ -226,10 +215,9 @@ possible connotations: "anger", "fear", "happiness", "love", "sadness", "share",
 
 #### Defined in
 
-[main.ts:159419](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L159419)
+main.ts:164846
 
 ___
-
 
 ### text\_categories
 
@@ -245,10 +233,9 @@ to obtain a full list of available categories, refer to the Categories endpoint
 
 #### Defined in
 
-[main.ts:159427](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L159427)
+main.ts:164854
 
 ___
-
 
 ### top\_domains
 
@@ -263,10 +250,9 @@ contains objects with top domains citing the target category and citation count 
 
 #### Defined in
 
-[main.ts:159415](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L159415)
+main.ts:164842
 
 ___
-
 
 ### total\_count
 
@@ -280,10 +266,9 @@ total number of results in our database relevant to your request
 
 #### Defined in
 
-[main.ts:159409](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L159409)
+main.ts:164836
 
 ___
-
 
 ### type
 
@@ -297,7 +282,7 @@ type of element
 
 #### Defined in
 
-[main.ts:159405](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L159405)
+main.ts:164832
 
 ## Methods
 
@@ -317,10 +302,9 @@ type of element
 
 #### Defined in
 
-[main.ts:159455](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L159455)
+main.ts:164882
 
 ___
-
 
 ### toJSON
 
@@ -338,10 +322,9 @@ ___
 
 #### Defined in
 
-[main.ts:159525](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L159525)
+main.ts:164952
 
 ___
-
 
 ### fromJS
 
@@ -359,8 +342,4 @@ ___
 
 #### Defined in
 
-[main.ts:159518](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L159518)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:164945

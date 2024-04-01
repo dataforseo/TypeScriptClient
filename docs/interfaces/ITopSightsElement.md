@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / ITopSightsElement
+[Documentation](../README.md) / [Exports](../modules.md) / ITopSightsElement
 
 # Interface: ITopSightsElement
 
@@ -30,41 +26,38 @@
 
 • `Optional` **description**: `string`
 
-description of the results element in SERP
+description
 
 #### Defined in
 
-[main.ts:31680](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L31680)
+main.ts:32537
 
 ___
-
 
 ### rating
 
 • `Optional` **rating**: [`RatingInfo`](../classes/RatingInfo.md)
 
-the item’s rating
+the item’s rating 
 the popularity rate based on reviews and displayed in SERP
 
 #### Defined in
 
-[main.ts:31683](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L31683)
+main.ts:32540
 
 ___
-
 
 ### title
 
 • `Optional` **title**: `string`
 
-title of the row
+title of a given link element
 
 #### Defined in
 
-[main.ts:31676](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L31676)
+main.ts:32533
 
 ___
-
 
 ### type
 
@@ -74,10 +67,9 @@ type of element
 
 #### Defined in
 
-[main.ts:31674](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L31674)
+main.ts:32531
 
 ___
-
 
 ### url
 
@@ -87,8 +79,4 @@ URL
 
 #### Defined in
 
-[main.ts:31678](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L31678)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:32535

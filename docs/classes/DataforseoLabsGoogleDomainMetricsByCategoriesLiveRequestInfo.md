@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / DataforseoLabsGoogleDomainMetricsByCategoriesLiveRequestInfo
+[Documentation](../README.md) / [Exports](../modules.md) / DataforseoLabsGoogleDomainMetricsByCategoriesLiveRequestInfo
 
 # Class: DataforseoLabsGoogleDomainMetricsByCategoriesLiveRequestInfo
 
@@ -65,7 +61,7 @@
 
 #### Defined in
 
-[main.ts:84376](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L84376)
+main.ts:86753
 
 ## Properties
 
@@ -84,10 +80,9 @@ you can download the full list of possible categories
 
 #### Defined in
 
-[main.ts:84239](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L84239)
+main.ts:86616
 
 ___
-
 
 ### correlate
 
@@ -106,10 +101,9 @@ Note: we do not recommend setting correlate to false
 
 #### Defined in
 
-[main.ts:84330](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L84330)
+main.ts:86707
 
 ___
-
 
 ### etv\_max
 
@@ -125,10 +119,9 @@ if specified, the API will return only domains with organic_etv lesser than the 
 
 #### Defined in
 
-[main.ts:84323](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L84323)
+main.ts:86700
 
 ___
-
 
 ### etv\_min
 
@@ -144,10 +137,9 @@ if specified, the API will return only domains with organic_etv greater than the
 
 #### Defined in
 
-[main.ts:84319](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L84319)
+main.ts:86696
 
 ___
-
 
 ### filters
 
@@ -170,10 +162,9 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 #### Defined in
 
-[main.ts:84351](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L84351)
+main.ts:86728
 
 ___
-
 
 ### first\_date
 
@@ -196,10 +187,9 @@ minimum date: "2020-10-01"
 
 #### Defined in
 
-[main.ts:84250](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L84250)
+main.ts:86627
 
 ___
-
 
 ### include\_subdomains
 
@@ -217,10 +207,9 @@ default value: true
 
 #### Defined in
 
-[main.ts:84315](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L84315)
+main.ts:86692
 
 ___
-
 
 ### item\_types
 
@@ -241,10 +230,9 @@ default value:
 
 #### Defined in
 
-[main.ts:84301](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L84301)
+main.ts:86678
 
 ___
-
 
 ### language\_code
 
@@ -263,10 +251,9 @@ en
 
 #### Defined in
 
-[main.ts:84292](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L84292)
+main.ts:86669
 
 ___
-
 
 ### language\_name
 
@@ -286,10 +273,9 @@ English
 
 #### Defined in
 
-[main.ts:84285](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L84285)
+main.ts:86662
 
 ___
-
 
 ### limit
 
@@ -306,10 +292,9 @@ maximum value: 1000
 
 #### Defined in
 
-[main.ts:84335](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L84335)
+main.ts:86712
 
 ___
-
 
 ### location\_code
 
@@ -329,10 +314,9 @@ example:
 
 #### Defined in
 
-[main.ts:84277](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L84277)
+main.ts:86654
 
 ___
-
 
 ### location\_name
 
@@ -352,10 +336,9 @@ United Kingdom
 
 #### Defined in
 
-[main.ts:84269](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L84269)
+main.ts:86646
 
 ___
-
 
 ### offset
 
@@ -372,10 +355,9 @@ if you specify the 10 value, the first ten domains in the results array will be 
 
 #### Defined in
 
-[main.ts:84340](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L84340)
+main.ts:86717
 
 ___
-
 
 ### order\_by
 
@@ -402,10 +384,9 @@ example:
 
 #### Defined in
 
-[main.ts:84366](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L84366)
+main.ts:86743
 
 ___
-
 
 ### second\_date
 
@@ -428,10 +409,9 @@ minimum date: "2020-10-01"
 
 #### Defined in
 
-[main.ts:84261](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L84261)
+main.ts:86638
 
 ___
-
 
 ### tag
 
@@ -449,10 +429,9 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-[main.ts:84372](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L84372)
+main.ts:86749
 
 ___
-
 
 ### top\_categories\_count
 
@@ -472,7 +451,7 @@ maximum value: 5
 
 #### Defined in
 
-[main.ts:84309](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L84309)
+main.ts:86686
 
 ## Methods
 
@@ -492,10 +471,9 @@ maximum value: 5
 
 #### Defined in
 
-[main.ts:84385](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L84385)
+main.ts:86762
 
 ___
-
 
 ### toJSON
 
@@ -513,10 +491,9 @@ ___
 
 #### Defined in
 
-[main.ts:84435](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L84435)
+main.ts:86812
 
 ___
-
 
 ### fromJS
 
@@ -534,8 +511,4 @@ ___
 
 #### Defined in
 
-[main.ts:84428](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L84428)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:86805

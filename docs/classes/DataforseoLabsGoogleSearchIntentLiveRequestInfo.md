@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / DataforseoLabsGoogleSearchIntentLiveRequestInfo
+[Documentation](../README.md) / [Exports](../modules.md) / DataforseoLabsGoogleSearchIntentLiveRequestInfo
 
 # Class: DataforseoLabsGoogleSearchIntentLiveRequestInfo
 
@@ -51,7 +47,7 @@
 
 #### Defined in
 
-[main.ts:82685](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L82685)
+main.ts:85062
 
 ## Properties
 
@@ -71,10 +67,9 @@ the keywords will be converted to lowercase format
 
 #### Defined in
 
-[main.ts:82636](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L82636)
+main.ts:85013
 
 ___
-
 
 ### language\_code
 
@@ -93,10 +88,9 @@ en
 
 #### Defined in
 
-[main.ts:82675](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L82675)
+main.ts:85052
 
 ___
-
 
 ### language\_name
 
@@ -140,10 +134,9 @@ English
 
 #### Defined in
 
-[main.ts:82668](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L82668)
+main.ts:85045
 
 ___
-
 
 ### tag
 
@@ -161,7 +154,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-[main.ts:82681](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L82681)
+main.ts:85058
 
 ## Methods
 
@@ -181,10 +174,9 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-[main.ts:82694](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L82694)
+main.ts:85071
 
 ___
-
 
 ### toJSON
 
@@ -202,10 +194,9 @@ ___
 
 #### Defined in
 
-[main.ts:82718](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L82718)
+main.ts:85095
 
 ___
-
 
 ### fromJS
 
@@ -223,8 +214,4 @@ ___
 
 #### Defined in
 
-[main.ts:82711](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L82711)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:85088

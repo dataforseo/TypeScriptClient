@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IDataforseoLabsBingSerpCompetitorsLiveResultInfo
+[Documentation](../README.md) / [Exports](../modules.md) / IDataforseoLabsBingSerpCompetitorsLiveResultInfo
 
 # Interface: IDataforseoLabsBingSerpCompetitorsLiveResultInfo
 
@@ -36,10 +32,9 @@ contains detected SERP competitors and related data
 
 #### Defined in
 
-[main.ts:107157](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L107157)
+main.ts:109534
 
 ___
-
 
 ### items\_count
 
@@ -49,10 +44,9 @@ the number of results returned in the items array
 
 #### Defined in
 
-[main.ts:107155](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L107155)
+main.ts:109532
 
 ___
-
 
 ### language\_code
 
@@ -63,10 +57,9 @@ if there is no data, then the value is null
 
 #### Defined in
 
-[main.ts:107151](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L107151)
+main.ts:109528
 
 ___
-
 
 ### location\_code
 
@@ -77,10 +70,9 @@ if there is no data, then the value is null
 
 #### Defined in
 
-[main.ts:107148](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L107148)
+main.ts:109525
 
 ___
-
 
 ### se\_type
 
@@ -90,10 +82,9 @@ search engine type
 
 #### Defined in
 
-[main.ts:107142](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L107142)
+main.ts:109519
 
 ___
-
 
 ### seed\_keywords
 
@@ -104,10 +95,9 @@ keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a s
 
 #### Defined in
 
-[main.ts:107145](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L107145)
+main.ts:109522
 
 ___
-
 
 ### total\_count
 
@@ -117,8 +107,4 @@ the total amount of results in our database relevant to your request
 
 #### Defined in
 
-[main.ts:107153](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L107153)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:109530

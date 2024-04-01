@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IOnPageContentParsingItem
+[Documentation](../README.md) / [Exports](../modules.md) / IOnPageContentParsingItem
 
 # Interface: IOnPageContentParsingItem
 
@@ -35,10 +31,9 @@ example:
 
 #### Defined in
 
-[main.ts:152344](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L152344)
+main.ts:157771
 
 ___
-
 
 ### page\_content
 
@@ -48,10 +43,9 @@ parsed content of the page
 
 #### Defined in
 
-[main.ts:152348](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L152348)
+main.ts:157775
 
 ___
-
 
 ### status\_code
 
@@ -61,10 +55,9 @@ status code of the page
 
 #### Defined in
 
-[main.ts:152346](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L152346)
+main.ts:157773
 
 ___
-
 
 ### type
 
@@ -74,8 +67,4 @@ type of element
 
 #### Defined in
 
-[main.ts:152340](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L152340)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:157767

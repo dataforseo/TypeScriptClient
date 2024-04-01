@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / RankedKeywordsInfo
+[Documentation](../README.md) / [Exports](../modules.md) / RankedKeywordsInfo
 
 # Class: RankedKeywordsInfo
 
@@ -50,7 +46,7 @@
 
 #### Defined in
 
-[main.ts:130893](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L130893)
+main.ts:136278
 
 ## Properties
 
@@ -66,10 +62,9 @@ number of keywords for which the page is ranked in top 10 search results
 
 #### Defined in
 
-[main.ts:130887](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L130887)
+main.ts:136272
 
 ___
-
 
 ### page\_from\_keywords\_count\_top\_100
 
@@ -83,10 +78,9 @@ number of keywords for which the page is ranked in top 100 search results
 
 #### Defined in
 
-[main.ts:130889](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L130889)
+main.ts:136274
 
 ___
-
 
 ### page\_from\_keywords\_count\_top\_3
 
@@ -100,7 +94,7 @@ number of keywords for which the page is ranked in top 3 search results
 
 #### Defined in
 
-[main.ts:130885](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L130885)
+main.ts:136270
 
 ## Methods
 
@@ -120,10 +114,9 @@ number of keywords for which the page is ranked in top 3 search results
 
 #### Defined in
 
-[main.ts:130902](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L130902)
+main.ts:136287
 
 ___
-
 
 ### toJSON
 
@@ -141,10 +134,9 @@ ___
 
 #### Defined in
 
-[main.ts:130921](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L130921)
+main.ts:136306
 
 ___
-
 
 ### fromJS
 
@@ -162,8 +154,4 @@ ___
 
 #### Defined in
 
-[main.ts:130914](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L130914)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:136299

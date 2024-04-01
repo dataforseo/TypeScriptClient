@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IOnPageResourcesRequestInfo
+[Documentation](../README.md) / [Exports](../modules.md) / IOnPageResourcesRequestInfo
 
 # Interface: IOnPageResourcesRequestInfo
 
@@ -49,10 +45,9 @@ The full list of possible filters is available by this link.
 
 #### Defined in
 
-[main.ts:145892](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L145892)
+main.ts:151319
 
 ___
-
 
 ### id
 
@@ -66,10 +61,9 @@ example:
 
 #### Defined in
 
-[main.ts:145862](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L145862)
+main.ts:151289
 
 ___
-
 
 ### limit
 
@@ -82,10 +76,9 @@ maximum value: 1000
 
 #### Defined in
 
-[main.ts:145873](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L145873)
+main.ts:151300
 
 ___
-
 
 ### offset
 
@@ -98,10 +91,9 @@ if you specify the 10 value, the first ten resources in the results array will b
 
 #### Defined in
 
-[main.ts:145878](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L145878)
+main.ts:151305
 
 ___
-
 
 ### order\_by
 
@@ -123,10 +115,9 @@ example:
 
 #### Defined in
 
-[main.ts:145918](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L145918)
+main.ts:151345
 
 ___
-
 
 ### relevant\_pages\_filters
 
@@ -146,10 +137,9 @@ example:
 
 #### Defined in
 
-[main.ts:145904](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L145904)
+main.ts:151331
 
 ___
-
 
 ### tag
 
@@ -163,10 +153,9 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-[main.ts:145924](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L145924)
+main.ts:151351
 
 ___
-
 
 ### url
 
@@ -180,8 +169,4 @@ if you do not indicate a url when setting a task, resource’s meta in the resul
 
 #### Defined in
 
-[main.ts:145868](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L145868)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:151295

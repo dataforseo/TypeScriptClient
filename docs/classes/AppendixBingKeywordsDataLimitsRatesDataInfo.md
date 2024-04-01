@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / AppendixBingKeywordsDataLimitsRatesDataInfo
+[Documentation](../README.md) / [Exports](../modules.md) / AppendixBingKeywordsDataLimitsRatesDataInfo
 
 # Class: AppendixBingKeywordsDataLimitsRatesDataInfo
 
@@ -52,13 +48,13 @@
 
 #### Defined in
 
-[main.ts:206737](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L206737)
+main.ts:212198
 
 ## Properties
 
 ### keyword\_performance
 
-• `Optional` **keyword\_performance**: [`AppendixInfo`](AppendixInfo.md)
+• `Optional` **keyword\_performance**: [`AppendixFunctionInfo`](AppendixFunctionInfo.md)
 
 #### Implementation of
 
@@ -66,14 +62,13 @@
 
 #### Defined in
 
-[main.ts:206729](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L206729)
+main.ts:212190
 
 ___
 
-
 ### keywords\_for\_keywords
 
-• `Optional` **keywords\_for\_keywords**: [`AppendixInfo`](AppendixInfo.md)
+• `Optional` **keywords\_for\_keywords**: [`AppendixFunctionInfo`](AppendixFunctionInfo.md)
 
 #### Implementation of
 
@@ -81,14 +76,13 @@ ___
 
 #### Defined in
 
-[main.ts:206733](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L206733)
+main.ts:212194
 
 ___
 
-
 ### keywords\_for\_site
 
-• `Optional` **keywords\_for\_site**: [`AppendixInfo`](AppendixInfo.md)
+• `Optional` **keywords\_for\_site**: [`AppendixFunctionInfo`](AppendixFunctionInfo.md)
 
 #### Implementation of
 
@@ -96,14 +90,13 @@ ___
 
 #### Defined in
 
-[main.ts:206732](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L206732)
+main.ts:212193
 
 ___
 
-
 ### search\_volume
 
-• `Optional` **search\_volume**: [`AppendixInfo`](AppendixInfo.md)
+• `Optional` **search\_volume**: [`AppendixFunctionInfo`](AppendixFunctionInfo.md)
 
 #### Implementation of
 
@@ -111,14 +104,13 @@ ___
 
 #### Defined in
 
-[main.ts:206731](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L206731)
+main.ts:212192
 
 ___
 
-
 ### search\_volume\_history
 
-• `Optional` **search\_volume\_history**: [`AppendixInfo`](AppendixInfo.md)
+• `Optional` **search\_volume\_history**: [`AppendixFunctionInfo`](AppendixFunctionInfo.md)
 
 #### Implementation of
 
@@ -126,7 +118,7 @@ ___
 
 #### Defined in
 
-[main.ts:206730](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L206730)
+main.ts:212191
 
 ## Methods
 
@@ -146,10 +138,9 @@ ___
 
 #### Defined in
 
-[main.ts:206746](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L206746)
+main.ts:212207
 
 ___
-
 
 ### toJSON
 
@@ -167,10 +158,9 @@ ___
 
 #### Defined in
 
-[main.ts:206767](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L206767)
+main.ts:212228
 
 ___
-
 
 ### fromJS
 
@@ -188,8 +178,4 @@ ___
 
 #### Defined in
 
-[main.ts:206760](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L206760)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:212221

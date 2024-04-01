@@ -1,15 +1,11 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / RefineProductsSerpElementItem
+[Documentation](../README.md) / [Exports](../modules.md) / RefineProductsSerpElementItem
 
 # Class: RefineProductsSerpElementItem
 
 ## Hierarchy
 
 - [`BaseSerpElementItem`](BaseSerpElementItem.md)
-  
+
   ↳ **`RefineProductsSerpElementItem`**
 
 ## Implements
@@ -65,7 +61,7 @@
 
 #### Defined in
 
-[main.ts:35107](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L35107)
+main.ts:36065
 
 ## Properties
 
@@ -79,16 +75,16 @@
 
 #### Defined in
 
-[main.ts:19337](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L19337)
+main.ts:19788
 
 ___
-
 
 ### items
 
 • `Optional` **items**: [`RefineProductsElement`](RefineProductsElement.md)[]
 
-contains results featured in the ‘hotels_pack’ element of SERP
+additional items present in the element
+if there are none, equals null
 
 #### Implementation of
 
@@ -96,10 +92,9 @@ contains results featured in the ‘hotels_pack’ element of SERP
 
 #### Defined in
 
-[main.ts:35099](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L35099)
+main.ts:36057
 
 ___
-
 
 ### position
 
@@ -115,10 +110,9 @@ left, right
 
 #### Defined in
 
-[main.ts:35093](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L35093)
+main.ts:36050
 
 ___
-
 
 ### rank\_absolute
 
@@ -126,6 +120,7 @@ ___
 
 absolute rank in SERP
 absolute position among all the elements in SERP
+always equals 0 for desktop
 
 #### Implementation of
 
@@ -133,18 +128,18 @@ absolute position among all the elements in SERP
 
 #### Defined in
 
-[main.ts:35089](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L35089)
+main.ts:36046
 
 ___
-
 
 ### rank\_group
 
 • `Optional` **rank\_group**: `number`
 
 group rank in SERP
-position within a group of elements with identical type values
-positions of elements with different type values are omitted from rank_group
+position within a group of elements with identical type values;
+positions of elements with different type values are omitted from rank_group;
+always equals 0 for desktop
 
 #### Implementation of
 
@@ -152,10 +147,9 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-[main.ts:35086](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L35086)
+main.ts:36042
 
 ___
-
 
 ### rectangle
 
@@ -171,16 +165,15 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 #### Defined in
 
-[main.ts:35103](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L35103)
+main.ts:36061
 
 ___
-
 
 ### title
 
 • `Optional` **title**: `string`
 
-title of a given link element
+title of the row
 
 #### Implementation of
 
@@ -188,10 +181,9 @@ title of a given link element
 
 #### Defined in
 
-[main.ts:35097](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L35097)
+main.ts:36054
 
 ___
-
 
 ### xpath
 
@@ -205,7 +197,7 @@ the XPath of the element
 
 #### Defined in
 
-[main.ts:35095](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L35095)
+main.ts:36052
 
 ## Methods
 
@@ -229,10 +221,9 @@ the XPath of the element
 
 #### Defined in
 
-[main.ts:35112](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L35112)
+main.ts:36070
 
 ___
-
 
 ### toJSON
 
@@ -254,10 +245,9 @@ ___
 
 #### Defined in
 
-[main.ts:35140](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L35140)
+main.ts:36098
 
 ___
-
 
 ### fromJS
 
@@ -279,8 +269,4 @@ ___
 
 #### Defined in
 
-[main.ts:35133](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L35133)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:36091

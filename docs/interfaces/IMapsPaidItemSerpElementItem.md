@@ -1,15 +1,11 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IMapsPaidItemSerpElementItem
+[Documentation](../README.md) / [Exports](../modules.md) / IMapsPaidItemSerpElementItem
 
 # Interface: IMapsPaidItemSerpElementItem
 
 ## Hierarchy
 
 - [`IBaseSerpElementItem`](IBaseSerpElementItem.md)
-  
+
   ↳ **`IMapsPaidItemSerpElementItem`**
 
 ## Implemented by
@@ -42,10 +38,9 @@ domain in the SERP element
 
 #### Defined in
 
-[main.ts:38799](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L38799)
+main.ts:39550
 
 ___
-
 
 ### rank\_absolute
 
@@ -56,10 +51,9 @@ absolute position among all the elements in SERP
 
 #### Defined in
 
-[main.ts:38797](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L38797)
+main.ts:39548
 
 ___
-
 
 ### rank\_group
 
@@ -71,24 +65,22 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-[main.ts:38794](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L38794)
+main.ts:39545
 
 ___
-
 
 ### rating
 
 • `Optional` **rating**: [`RatingInfo`](../classes/RatingInfo.md)
 
-the element’s rating
+the element’s rating 
 the popularity rate based on reviews and displayed in SERP
 
 #### Defined in
 
-[main.ts:38806](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L38806)
+main.ts:39557
 
 ___
-
 
 ### rating\_distribution
 
@@ -103,10 +95,9 @@ the object displays the number of 1-star to 5-star ratings, as reviewed by users
 
 #### Defined in
 
-[main.ts:38809](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L38809)
+main.ts:39560
 
 ___
-
 
 ### title
 
@@ -116,10 +107,9 @@ title of the result in SERP
 
 #### Defined in
 
-[main.ts:38801](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L38801)
+main.ts:39552
 
 ___
-
 
 ### url
 
@@ -129,8 +119,4 @@ relevant URL in SERP
 
 #### Defined in
 
-[main.ts:38803](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L38803)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:39554

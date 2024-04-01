@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / SerpGoogleEventsLiveAdvancedResultInfo
+[Documentation](../README.md) / [Exports](../modules.md) / SerpGoogleEventsLiveAdvancedResultInfo
 
 # Class: SerpGoogleEventsLiveAdvancedResultInfo
 
@@ -59,7 +55,7 @@
 
 #### Defined in
 
-[main.ts:45342](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L45342)
+main.ts:46093
 
 ## Properties
 
@@ -75,10 +71,9 @@ direct URL to search engine results
 
 #### Defined in
 
-[main.ts:45318](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L45318)
+main.ts:46069
 
 ___
-
 
 ### datetime
 
@@ -95,10 +90,9 @@ example:
 
 #### Defined in
 
-[main.ts:45323](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L45323)
+main.ts:46074
 
 ___
-
 
 ### item\_types
 
@@ -114,10 +108,9 @@ event_item
 
 #### Defined in
 
-[main.ts:45330](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L45330)
+main.ts:46081
 
 ___
-
 
 ### items
 
@@ -131,10 +124,9 @@ items in SERP
 
 #### Defined in
 
-[main.ts:45338](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L45338)
+main.ts:46089
 
 ___
-
 
 ### items\_count
 
@@ -148,10 +140,9 @@ the number of results returned in the items array
 
 #### Defined in
 
-[main.ts:45336](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L45336)
+main.ts:46087
 
 ___
-
 
 ### keyword
 
@@ -166,10 +157,9 @@ keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a s
 
 #### Defined in
 
-[main.ts:45307](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L45307)
+main.ts:46058
 
 ___
-
 
 ### language\_code
 
@@ -184,10 +174,9 @@ in this case, the value will be null
 
 #### Defined in
 
-[main.ts:45316](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L45316)
+main.ts:46067
 
 ___
-
 
 ### location\_code
 
@@ -201,10 +190,9 @@ location code in a POST array
 
 #### Defined in
 
-[main.ts:45313](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L45313)
+main.ts:46064
 
 ___
-
 
 ### se\_domain
 
@@ -218,10 +206,9 @@ search engine domain in a POST array
 
 #### Defined in
 
-[main.ts:45311](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L45311)
+main.ts:46062
 
 ___
-
 
 ### se\_results\_count
 
@@ -237,10 +224,9 @@ this search engine does not indicate the total number of results
 
 #### Defined in
 
-[main.ts:45334](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L45334)
+main.ts:46085
 
 ___
-
 
 ### spell
 
@@ -255,10 +241,9 @@ if the search engine provided results for a keyword that was corrected, we will 
 
 #### Defined in
 
-[main.ts:45326](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L45326)
+main.ts:46077
 
 ___
-
 
 ### type
 
@@ -272,7 +257,7 @@ type of element
 
 #### Defined in
 
-[main.ts:45309](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L45309)
+main.ts:46060
 
 ## Methods
 
@@ -292,10 +277,9 @@ type of element
 
 #### Defined in
 
-[main.ts:45351](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L45351)
+main.ts:46102
 
 ___
-
 
 ### toJSON
 
@@ -313,10 +297,9 @@ ___
 
 #### Defined in
 
-[main.ts:45387](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L45387)
+main.ts:46138
 
 ___
-
 
 ### fromJS
 
@@ -334,8 +317,4 @@ ___
 
 #### Defined in
 
-[main.ts:45380](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L45380)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:46131

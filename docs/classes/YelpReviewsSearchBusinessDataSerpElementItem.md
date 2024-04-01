@@ -1,15 +1,11 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / YelpReviewsSearchBusinessDataSerpElementItem
+[Documentation](../README.md) / [Exports](../modules.md) / YelpReviewsSearchBusinessDataSerpElementItem
 
 # Class: YelpReviewsSearchBusinessDataSerpElementItem
 
 ## Hierarchy
 
 - [`BaseBusinessDataSerpElementItem`](BaseBusinessDataSerpElementItem.md)
-  
+
   ↳ **`YelpReviewsSearchBusinessDataSerpElementItem`**
 
 ## Implements
@@ -68,7 +64,7 @@
 
 #### Defined in
 
-[main.ts:205263](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L205263)
+main.ts:210724
 
 ## Properties
 
@@ -82,10 +78,9 @@
 
 #### Defined in
 
-[main.ts:20076](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L20076)
+main.ts:20532
 
 ___
-
 
 ### position
 
@@ -100,10 +95,9 @@ can take the following values: left
 
 #### Defined in
 
-[main.ts:205241](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L205241)
+main.ts:210702
 
 ___
-
 
 ### rank\_absolute
 
@@ -118,10 +112,9 @@ absolute position among all reviews on the list
 
 #### Defined in
 
-[main.ts:205238](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L205238)
+main.ts:210699
 
 ___
-
 
 ### rank\_group
 
@@ -136,10 +129,9 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-[main.ts:205235](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L205235)
+main.ts:210696
 
 ___
-
 
 ### rating
 
@@ -153,10 +145,9 @@ the rating score submitted by the reviewer
 
 #### Defined in
 
-[main.ts:205247](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L205247)
+main.ts:210708
 
 ___
-
 
 ### responses
 
@@ -170,10 +161,9 @@ text of the owner’s response
 
 #### Defined in
 
-[main.ts:205259](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L205259)
+main.ts:210720
 
 ___
-
 
 ### review\_id
 
@@ -189,10 +179,9 @@ WvjNtncj8PDZytbofWlC5A
 
 #### Defined in
 
-[main.ts:205245](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L205245)
+main.ts:210706
 
 ___
-
 
 ### review\_images
 
@@ -207,10 +196,9 @@ you will find URLs to the images provided by the author of this review
 
 #### Defined in
 
-[main.ts:205255](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L205255)
+main.ts:210716
 
 ___
-
 
 ### review\_text
 
@@ -224,10 +212,9 @@ the content of the review
 
 #### Defined in
 
-[main.ts:205252](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L205252)
+main.ts:210713
 
 ___
-
 
 ### timestamp
 
@@ -242,10 +229,9 @@ indicates timestamp of when the review was listed
 
 #### Defined in
 
-[main.ts:205250](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L205250)
+main.ts:210711
 
 ___
-
 
 ### user\_profile
 
@@ -259,7 +245,7 @@ information listed in the reviewer’s profile
 
 #### Defined in
 
-[main.ts:205257](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L205257)
+main.ts:210718
 
 ## Methods
 
@@ -283,10 +269,9 @@ information listed in the reviewer’s profile
 
 #### Defined in
 
-[main.ts:205268](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L205268)
+main.ts:210729
 
 ___
-
 
 ### toJSON
 
@@ -308,10 +293,9 @@ ___
 
 #### Defined in
 
-[main.ts:205303](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L205303)
+main.ts:210764
 
 ___
-
 
 ### fromJS
 
@@ -333,8 +317,4 @@ ___
 
 #### Defined in
 
-[main.ts:205296](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L205296)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:210757

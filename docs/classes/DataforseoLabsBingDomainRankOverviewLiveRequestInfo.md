@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / DataforseoLabsBingDomainRankOverviewLiveRequestInfo
+[Documentation](../README.md) / [Exports](../modules.md) / DataforseoLabsBingDomainRankOverviewLiveRequestInfo
 
 # Class: DataforseoLabsBingDomainRankOverviewLiveRequestInfo
 
@@ -55,7 +51,7 @@
 
 #### Defined in
 
-[main.ts:103985](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L103985)
+main.ts:106362
 
 ## Properties
 
@@ -78,10 +74,9 @@ en
 
 #### Defined in
 
-[main.ts:103965](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L103965)
+main.ts:106342
 
 ___
-
 
 ### language\_name
 
@@ -102,10 +97,9 @@ English
 
 #### Defined in
 
-[main.ts:103956](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L103956)
+main.ts:106333
 
 ___
-
 
 ### limit
 
@@ -122,10 +116,9 @@ maximum value: 1000
 
 #### Defined in
 
-[main.ts:103970](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L103970)
+main.ts:106347
 
 ___
-
 
 ### location\_code
 
@@ -147,10 +140,9 @@ example:
 
 #### Defined in
 
-[main.ts:103947](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L103947)
+main.ts:106324
 
 ___
-
 
 ### location\_name
 
@@ -172,10 +164,9 @@ United States
 
 #### Defined in
 
-[main.ts:103937](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L103937)
+main.ts:106314
 
 ___
-
 
 ### offset
 
@@ -192,10 +183,9 @@ if you specify the 10 value, the first ten items in the results array will be om
 
 #### Defined in
 
-[main.ts:103975](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L103975)
+main.ts:106352
 
 ___
-
 
 ### tag
 
@@ -213,10 +203,9 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-[main.ts:103981](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L103981)
+main.ts:106358
 
 ___
-
 
 ### target
 
@@ -233,7 +222,7 @@ the domain should be specified without https:// and www.
 
 #### Defined in
 
-[main.ts:103927](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L103927)
+main.ts:106304
 
 ## Methods
 
@@ -253,10 +242,9 @@ the domain should be specified without https:// and www.
 
 #### Defined in
 
-[main.ts:103994](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L103994)
+main.ts:106371
 
 ___
-
 
 ### toJSON
 
@@ -274,10 +262,9 @@ ___
 
 #### Defined in
 
-[main.ts:104018](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L104018)
+main.ts:106395
 
 ___
-
 
 ### fromJS
 
@@ -295,8 +282,4 @@ ___
 
 #### Defined in
 
-[main.ts:104011](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L104011)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:106388

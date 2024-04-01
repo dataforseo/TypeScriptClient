@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / ProductCategoryInfo
+[Documentation](../README.md) / [Exports](../modules.md) / ProductCategoryInfo
 
 # Class: ProductCategoryInfo
 
@@ -49,7 +45,7 @@
 
 #### Defined in
 
-[main.ts:172385](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L172385)
+main.ts:177838
 
 ## Properties
 
@@ -65,10 +61,9 @@ product category name
 
 #### Defined in
 
-[main.ts:172378](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L172378)
+main.ts:177831
 
 ___
-
 
 ### url
 
@@ -83,7 +78,7 @@ indicates the browse path on Amazon with the unique browse node ID (product cate
 
 #### Defined in
 
-[main.ts:172381](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L172381)
+main.ts:177834
 
 ## Methods
 
@@ -103,10 +98,9 @@ indicates the browse path on Amazon with the unique browse node ID (product cate
 
 #### Defined in
 
-[main.ts:172394](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L172394)
+main.ts:177847
 
 ___
-
 
 ### toJSON
 
@@ -124,10 +118,9 @@ ___
 
 #### Defined in
 
-[main.ts:172412](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L172412)
+main.ts:177865
 
 ___
-
 
 ### fromJS
 
@@ -145,8 +138,4 @@ ___
 
 #### Defined in
 
-[main.ts:172405](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L172405)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:177858

@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / HistoricalMetricsBundleInfo
+[Documentation](../README.md) / [Exports](../modules.md) / HistoricalMetricsBundleInfo
 
 # Class: HistoricalMetricsBundleInfo
 
@@ -51,7 +47,7 @@
 
 #### Defined in
 
-[main.ts:98262](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L98262)
+main.ts:100639
 
 ## Properties
 
@@ -67,10 +63,9 @@ traffic data from the local pack results in SERP
 
 #### Defined in
 
-[main.ts:98258](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L98258)
+main.ts:100635
 
 ___
-
 
 ### local\_pack
 
@@ -84,10 +79,9 @@ traffic data from the featured snippet results in Google SERP
 
 #### Defined in
 
-[main.ts:98256](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L98256)
+main.ts:100633
 
 ___
-
 
 ### organic
 
@@ -101,10 +95,9 @@ traffic data from organic search
 
 #### Defined in
 
-[main.ts:98252](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L98252)
+main.ts:100629
 
 ___
-
 
 ### paid
 
@@ -118,7 +111,7 @@ traffic data from paid search
 
 #### Defined in
 
-[main.ts:98254](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L98254)
+main.ts:100631
 
 ## Methods
 
@@ -138,10 +131,9 @@ traffic data from paid search
 
 #### Defined in
 
-[main.ts:98271](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L98271)
+main.ts:100648
 
 ___
-
 
 ### toJSON
 
@@ -159,10 +151,9 @@ ___
 
 #### Defined in
 
-[main.ts:98307](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L98307)
+main.ts:100684
 
 ___
-
 
 ### fromJS
 
@@ -180,8 +171,4 @@ ___
 
 #### Defined in
 
-[main.ts:98300](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L98300)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:100677

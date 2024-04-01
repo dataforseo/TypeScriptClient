@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IAppendixWebhookResendRequestInfo
+[Documentation](../README.md) / [Exports](../modules.md) / IAppendixWebhookResendRequestInfo
 
 # Interface: IAppendixWebhookResendRequestInfo
 
@@ -33,8 +29,4 @@ each identifier in the task array must be specified as a separate object
 
 #### Defined in
 
-[main.ts:212565](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L212565)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:218218

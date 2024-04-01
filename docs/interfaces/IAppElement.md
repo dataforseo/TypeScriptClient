@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IAppElement
+[Documentation](../README.md) / [Exports](../modules.md) / IAppElement
 
 # Interface: IAppElement
 
@@ -30,40 +26,37 @@
 
 • `Optional` **description**: `string`
 
-description of the results element in SERP
+description
 
 #### Defined in
 
-[main.ts:29671](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L29671)
+main.ts:30460
 
 ___
-
 
 ### price
 
 • `Optional` **price**: [`PriceInfo`](../classes/PriceInfo.md)
 
-price of booking a place for the specified dates of stay
+price indicated in the element
 
 #### Defined in
 
-[main.ts:29675](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L29675)
+main.ts:30464
 
 ___
-
 
 ### title
 
 • `Optional` **title**: `string`
 
-title of the row
+title of a given link element
 
 #### Defined in
 
-[main.ts:29669](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L29669)
+main.ts:30458
 
 ___
-
 
 ### type
 
@@ -73,10 +66,9 @@ type of element
 
 #### Defined in
 
-[main.ts:29667](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L29667)
+main.ts:30456
 
 ___
-
 
 ### url
 
@@ -86,8 +78,4 @@ URL
 
 #### Defined in
 
-[main.ts:29673](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L29673)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:30462

@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / ITrendsGraphDataInfo
+[Documentation](../README.md) / [Exports](../modules.md) / ITrendsGraphDataInfo
 
 # Interface: ITrendsGraphDataInfo
 
@@ -35,10 +31,9 @@ in the UTC format: “yyyy-mm-dd”
 
 #### Defined in
 
-[main.ts:120461](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L120461)
+main.ts:122838
 
 ___
-
 
 ### date\_to
 
@@ -49,10 +44,9 @@ in the UTC format: “yyyy-mm-dd”
 
 #### Defined in
 
-[main.ts:120464](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L120464)
+main.ts:122841
 
 ___
-
 
 ### missing\_data
 
@@ -63,10 +57,9 @@ if true the data on the graph in the Google Trends interface is missing and thus
 
 #### Defined in
 
-[main.ts:120469](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L120469)
+main.ts:122846
 
 ___
-
 
 ### timestamp
 
@@ -76,10 +69,9 @@ a point in time in the Unix time format
 
 #### Defined in
 
-[main.ts:120466](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L120466)
+main.ts:122843
 
 ___
-
 
 ### values
 
@@ -92,8 +84,4 @@ a value of 100 is the peak popularity for the term. A value of 50 means that the
 
 #### Defined in
 
-[main.ts:120474](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L120474)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:122851

@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / ServiceOfferingsElement
+[Documentation](../README.md) / [Exports](../modules.md) / ServiceOfferingsElement
 
 # Class: ServiceOfferingsElement
 
@@ -50,7 +46,7 @@
 
 #### Defined in
 
-[main.ts:203954](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L203954)
+main.ts:209415
 
 ## Properties
 
@@ -67,10 +63,9 @@ if the value is false, the offering is not available
 
 #### Defined in
 
-[main.ts:203950](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L203950)
+main.ts:209411
 
 ___
-
 
 ### name
 
@@ -85,10 +80,9 @@ example: Delivery
 
 #### Defined in
 
-[main.ts:203947](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L203947)
+main.ts:209408
 
 ___
-
 
 ### type
 
@@ -102,7 +96,7 @@ type of element
 
 #### Defined in
 
-[main.ts:203944](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L203944)
+main.ts:209405
 
 ## Methods
 
@@ -122,10 +116,9 @@ type of element
 
 #### Defined in
 
-[main.ts:203963](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L203963)
+main.ts:209424
 
 ___
-
 
 ### toJSON
 
@@ -143,10 +136,9 @@ ___
 
 #### Defined in
 
-[main.ts:203982](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L203982)
+main.ts:209443
 
 ___
-
 
 ### fromJS
 
@@ -164,8 +156,4 @@ ___
 
 #### Defined in
 
-[main.ts:203975](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L203975)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:209436

@@ -1,15 +1,11 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / ShoppingSpecificationMerchantSerpElementItem
+[Documentation](../README.md) / [Exports](../modules.md) / ShoppingSpecificationMerchantSerpElementItem
 
 # Class: ShoppingSpecificationMerchantSerpElementItem
 
 ## Hierarchy
 
 - [`BaseMerchantSerpElementItem`](BaseMerchantSerpElementItem.md)
-  
+
   ↳ **`ShoppingSpecificationMerchantSerpElementItem`**
 
 ## Implements
@@ -65,7 +61,7 @@
 
 #### Defined in
 
-[main.ts:167857](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L167857)
+main.ts:173310
 
 ## Properties
 
@@ -79,10 +75,9 @@
 
 #### Defined in
 
-[main.ts:19988](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L19988)
+main.ts:20444
 
 ___
-
 
 ### block\_name
 
@@ -97,10 +92,9 @@ indicates the name of the product specification section in which the related ele
 
 #### Defined in
 
-[main.ts:167848](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L167848)
+main.ts:173301
 
 ___
-
 
 ### position
 
@@ -116,10 +110,9 @@ right
 
 #### Defined in
 
-[main.ts:167843](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L167843)
+main.ts:173296
 
 ___
-
 
 ### rank\_absolute
 
@@ -134,10 +127,9 @@ absolute position among all the elements found on the product specification page
 
 #### Defined in
 
-[main.ts:167839](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L167839)
+main.ts:173292
 
 ___
-
 
 ### rank\_group
 
@@ -152,10 +144,9 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-[main.ts:167836](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L167836)
+main.ts:173289
 
 ___
-
 
 ### specification\_name
 
@@ -170,10 +161,9 @@ attribute name of the product data specification
 
 #### Defined in
 
-[main.ts:167851](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L167851)
+main.ts:173304
 
 ___
-
 
 ### specification\_value
 
@@ -187,10 +177,9 @@ content of the specification
 
 #### Defined in
 
-[main.ts:167853](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L167853)
+main.ts:173306
 
 ___
-
 
 ### xpath
 
@@ -204,7 +193,7 @@ XPath of the element
 
 #### Defined in
 
-[main.ts:167845](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L167845)
+main.ts:173298
 
 ## Methods
 
@@ -228,10 +217,9 @@ XPath of the element
 
 #### Defined in
 
-[main.ts:167862](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L167862)
+main.ts:173315
 
 ___
-
 
 ### toJSON
 
@@ -253,10 +241,9 @@ ___
 
 #### Defined in
 
-[main.ts:167886](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L167886)
+main.ts:173339
 
 ___
-
 
 ### fromJS
 
@@ -278,8 +265,4 @@ ___
 
 #### Defined in
 
-[main.ts:167879](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L167879)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:173332

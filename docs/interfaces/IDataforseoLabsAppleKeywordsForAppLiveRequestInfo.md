@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IDataforseoLabsAppleKeywordsForAppLiveRequestInfo
+[Documentation](../README.md) / [Exports](../modules.md) / IDataforseoLabsAppleKeywordsForAppLiveRequestInfo
 
 # Interface: IDataforseoLabsAppleKeywordsForAppLiveRequestInfo
 
@@ -45,10 +41,9 @@ the id is 835599320
 
 #### Defined in
 
-[main.ts:110699](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L110699)
+main.ts:113076
 
 ___
-
 
 ### filters
 
@@ -67,10 +62,9 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 #### Defined in
 
-[main.ts:110746](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L110746)
+main.ts:113123
 
 ___
-
 
 ### language\_code
 
@@ -87,10 +81,9 @@ en
 
 #### Defined in
 
-[main.ts:110735](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L110735)
+main.ts:113112
 
 ___
-
 
 ### language\_name
 
@@ -107,10 +100,9 @@ English
 
 #### Defined in
 
-[main.ts:110726](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L110726)
+main.ts:113103
 
 ___
-
 
 ### limit
 
@@ -123,10 +115,9 @@ maximum value: 1000
 
 #### Defined in
 
-[main.ts:110768](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L110768)
+main.ts:113145
 
 ___
-
 
 ### location\_code
 
@@ -143,10 +134,9 @@ example:
 
 #### Defined in
 
-[main.ts:110717](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L110717)
+main.ts:113094
 
 ___
-
 
 ### location\_name
 
@@ -163,10 +153,9 @@ United States
 
 #### Defined in
 
-[main.ts:110708](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L110708)
+main.ts:113085
 
 ___
-
 
 ### offset
 
@@ -179,10 +168,9 @@ if you specify the 10 value, the first ten keywords in the results array will be
 
 #### Defined in
 
-[main.ts:110773](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L110773)
+main.ts:113150
 
 ___
-
 
 ### order\_by
 
@@ -207,10 +195,9 @@ Note: if the item_types array contains item types that are different from organi
 
 #### Defined in
 
-[main.ts:110763](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L110763)
+main.ts:113140
 
 ___
-
 
 ### tag
 
@@ -224,8 +211,4 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-[main.ts:110779](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L110779)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:113156

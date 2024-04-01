@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IContentAnalysisRatingDistributionLiveRequestInfo
+[Documentation](../README.md) / [Exports](../modules.md) / IContentAnalysisRatingDistributionLiveRequestInfo
 
 # Interface: IContentAnalysisRatingDistributionLiveRequestInfo
 
@@ -53,10 +49,9 @@ for more information about filters, please refer to Content Analysis API – Fil
 
 #### Defined in
 
-[main.ts:158394](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L158394)
+main.ts:163821
 
 ___
-
 
 ### internal\_list\_limit
 
@@ -75,10 +70,9 @@ maximum value: 20
 
 #### Defined in
 
-[main.ts:158356](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L158356)
+main.ts:163783
 
 ___
-
 
 ### keyword
 
@@ -95,10 +89,9 @@ example:
 
 #### Defined in
 
-[main.ts:158327](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L158327)
+main.ts:163754
 
 ___
-
 
 ### keyword\_fields
 
@@ -112,8 +105,8 @@ you can indicate several fields;
 Note: to match an exact phrase instead of a stand-alone keyword, use double quotes and backslashes;
 example:
 "keyword_fields": {
-"snippet": "\"logitech mouse\"",
-"main_title": "sale"
+    "snippet": "\"logitech mouse\"",
+    "main_title": "sale"
 }
 
 #### Index signature
@@ -122,10 +115,9 @@ example:
 
 #### Defined in
 
-[main.ts:158339](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L158339)
+main.ts:163766
 
 ___
-
 
 ### page\_type
 
@@ -139,10 +131,9 @@ possible values:
 
 #### Defined in
 
-[main.ts:158345](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L158345)
+main.ts:163772
 
 ___
-
 
 ### positive\_connotation\_threshold
 
@@ -157,10 +148,9 @@ default value: 0.4
 
 #### Defined in
 
-[main.ts:158370](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L158370)
+main.ts:163797
 
 ___
-
 
 ### search\_mode
 
@@ -175,10 +165,9 @@ default value: as_is
 
 #### Defined in
 
-[main.ts:158363](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L158363)
+main.ts:163790
 
 ___
-
 
 ### sentiments\_connotation\_threshold
 
@@ -193,10 +182,9 @@ default value: 0.4
 
 #### Defined in
 
-[main.ts:158377](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L158377)
+main.ts:163804
 
 ___
-
 
 ### tag
 
@@ -210,8 +198,4 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-[main.ts:158400](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L158400)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:163827

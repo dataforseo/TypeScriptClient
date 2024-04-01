@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / KeywordsDataGoogleAdsStatusResultInfo
+[Documentation](../README.md) / [Exports](../modules.md) / KeywordsDataGoogleAdsStatusResultInfo
 
 # Class: KeywordsDataGoogleAdsStatusResultInfo
 
@@ -51,7 +47,7 @@
 
 #### Defined in
 
-[main.ts:112926](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L112926)
+main.ts:115303
 
 ## Properties
 
@@ -70,10 +66,9 @@ if the value is false, we are not able to provide data for the previous month
 
 #### Defined in
 
-[main.ts:112913](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L112913)
+main.ts:115290
 
 ___
-
 
 ### date\_update
 
@@ -90,10 +85,9 @@ example:
 
 #### Defined in
 
-[main.ts:112918](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L112918)
+main.ts:115295
 
 ___
-
 
 ### last\_month\_in\_monthly\_searches
 
@@ -107,10 +101,9 @@ the latest month for which search volume data is available
 
 #### Defined in
 
-[main.ts:112922](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L112922)
+main.ts:115299
 
 ___
-
 
 ### last\_year\_in\_monthly\_searches
 
@@ -124,7 +117,7 @@ the latest year for which search volume data is available
 
 #### Defined in
 
-[main.ts:112920](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L112920)
+main.ts:115297
 
 ## Methods
 
@@ -144,10 +137,9 @@ the latest year for which search volume data is available
 
 #### Defined in
 
-[main.ts:112935](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L112935)
+main.ts:115312
 
 ___
-
 
 ### toJSON
 
@@ -165,10 +157,9 @@ ___
 
 #### Defined in
 
-[main.ts:112955](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L112955)
+main.ts:115332
 
 ___
-
 
 ### fromJS
 
@@ -186,8 +177,4 @@ ___
 
 #### Defined in
 
-[main.ts:112948](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L112948)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:115325

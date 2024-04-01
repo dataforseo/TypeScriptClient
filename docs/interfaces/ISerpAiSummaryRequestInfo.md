@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / ISerpAiSummaryRequestInfo
+[Documentation](../README.md) / [Exports](../modules.md) / ISerpAiSummaryRequestInfo
 
 # Interface: ISerpAiSummaryRequestInfo
 
@@ -37,10 +33,9 @@ default value: false
 
 #### Defined in
 
-[main.ts:23822](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L23822)
+main.ts:24341
 
 ___
-
 
 ### include\_links
 
@@ -53,10 +48,9 @@ default value: false
 
 #### Defined in
 
-[main.ts:23827](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L23827)
+main.ts:24346
 
 ___
-
 
 ### prompt
 
@@ -70,10 +64,9 @@ note: your prompt has to be relevant to the keyword specified in the POST reques
 
 #### Defined in
 
-[main.ts:23812](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L23812)
+main.ts:24331
 
 ___
-
 
 ### support\_extra
 
@@ -86,10 +79,9 @@ default value: true
 
 #### Defined in
 
-[main.ts:23817](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L23817)
+main.ts:24336
 
 ___
-
 
 ### task\_id
 
@@ -102,8 +94,4 @@ you will be able to use it within 30 days to request the results of the task at 
 
 #### Defined in
 
-[main.ts:23806](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L23806)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:24325

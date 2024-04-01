@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / AmazonKeywordInfo
+[Documentation](../README.md) / [Exports](../modules.md) / AmazonKeywordInfo
 
 # Class: AmazonKeywordInfo
 
@@ -50,7 +46,7 @@
 
 #### Defined in
 
-[main.ts:21396](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L21396)
+main.ts:21915
 
 ## Properties
 
@@ -68,10 +64,9 @@ example:    '2019-11-15 12:57:46 +00:00'
 
 #### Defined in
 
-[main.ts:21389](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L21389)
+main.ts:21908
 
 ___
-
 
 ### se\_type
 
@@ -85,10 +80,9 @@ search engine type
 
 #### Defined in
 
-[main.ts:21385](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L21385)
+main.ts:21904
 
 ___
-
 
 ### search\_volume
 
@@ -103,7 +97,7 @@ represents the (approximate) number of searches for the provided keyword idea on
 
 #### Defined in
 
-[main.ts:21392](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L21392)
+main.ts:21911
 
 ## Methods
 
@@ -123,10 +117,9 @@ represents the (approximate) number of searches for the provided keyword idea on
 
 #### Defined in
 
-[main.ts:21405](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L21405)
+main.ts:21924
 
 ___
-
 
 ### toJSON
 
@@ -144,10 +137,9 @@ ___
 
 #### Defined in
 
-[main.ts:21424](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L21424)
+main.ts:21943
 
 ___
-
 
 ### fromJS
 
@@ -165,8 +157,4 @@ ___
 
 #### Defined in
 
-[main.ts:21417](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L21417)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:21936

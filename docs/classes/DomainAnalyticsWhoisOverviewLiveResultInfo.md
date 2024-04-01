@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / DomainAnalyticsWhoisOverviewLiveResultInfo
+[Documentation](../README.md) / [Exports](../modules.md) / DomainAnalyticsWhoisOverviewLiveResultInfo
 
 # Class: DomainAnalyticsWhoisOverviewLiveResultInfo
 
@@ -50,7 +46,7 @@
 
 #### Defined in
 
-[main.ts:76252](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L76252)
+main.ts:78629
 
 ## Properties
 
@@ -66,10 +62,9 @@ contains ranking and traffic data
 
 #### Defined in
 
-[main.ts:76248](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L76248)
+main.ts:78625
 
 ___
-
 
 ### items\_count
 
@@ -83,10 +78,9 @@ the number of results returned in the items array
 
 #### Defined in
 
-[main.ts:76246](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L76246)
+main.ts:78623
 
 ___
-
 
 ### total\_count
 
@@ -100,7 +94,7 @@ total amount of results in our database relevant to your request
 
 #### Defined in
 
-[main.ts:76244](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L76244)
+main.ts:78621
 
 ## Methods
 
@@ -120,10 +114,9 @@ total amount of results in our database relevant to your request
 
 #### Defined in
 
-[main.ts:76261](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L76261)
+main.ts:78638
 
 ___
-
 
 ### toJSON
 
@@ -141,10 +134,9 @@ ___
 
 #### Defined in
 
-[main.ts:76284](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L76284)
+main.ts:78661
 
 ___
-
 
 ### fromJS
 
@@ -162,8 +154,4 @@ ___
 
 #### Defined in
 
-[main.ts:76277](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L76277)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:78654

@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IAvailableLanguages
+[Documentation](../README.md) / [Exports](../modules.md) / IAvailableLanguages
 
 # Interface: IAvailableLanguages
 
@@ -36,10 +32,9 @@ only google and bing are currently available
 
 #### Defined in
 
-[main.ts:77913](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L77913)
+main.ts:80290
 
 ___
-
 
 ### keywords
 
@@ -49,10 +44,9 @@ the number of keywords available for the given location and language
 
 #### Defined in
 
-[main.ts:77919](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L77919)
+main.ts:80296
 
 ___
-
 
 ### language\_code
 
@@ -62,10 +56,9 @@ language code according to ISO 639-1
 
 #### Defined in
 
-[main.ts:77917](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L77917)
+main.ts:80294
 
 ___
-
 
 ### language\_name
 
@@ -75,10 +68,9 @@ language name
 
 #### Defined in
 
-[main.ts:77915](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L77915)
+main.ts:80292
 
 ___
-
 
 ### serps
 
@@ -88,8 +80,4 @@ the number of SERP pages available for the given location and language
 
 #### Defined in
 
-[main.ts:77921](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L77921)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:80298

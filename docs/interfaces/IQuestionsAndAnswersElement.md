@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IQuestionsAndAnswersElement
+[Documentation](../README.md) / [Exports](../modules.md) / IQuestionsAndAnswersElement
 
 # Interface: IQuestionsAndAnswersElement
 
@@ -36,23 +32,21 @@ answer included in the item
 
 #### Defined in
 
-[main.ts:32870](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L32870)
+main.ts:33759
 
 ___
-
 
 ### domain
 
 • `Optional` **domain**: `string`
 
-domain where a link points
+website domain
 
 #### Defined in
 
-[main.ts:32875](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L32875)
+main.ts:33764
 
 ___
-
 
 ### question\_text
 
@@ -62,24 +56,22 @@ question included in the item
 
 #### Defined in
 
-[main.ts:32868](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L32868)
+main.ts:33757
 
 ___
-
 
 ### source
 
 • `Optional` **source**: `string`
 
-web source of the hotel booking element
-indicates the source of information included in the element
+source of the element
+indicates the source of information included in the top_stories_element
 
 #### Defined in
 
-[main.ts:32873](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L32873)
+main.ts:33762
 
 ___
-
 
 ### type
 
@@ -89,10 +81,9 @@ type of element
 
 #### Defined in
 
-[main.ts:32864](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L32864)
+main.ts:33753
 
 ___
-
 
 ### url
 
@@ -102,10 +93,9 @@ URL
 
 #### Defined in
 
-[main.ts:32866](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L32866)
+main.ts:33755
 
 ___
-
 
 ### votes
 
@@ -115,8 +105,4 @@ answer upvotes from the source
 
 #### Defined in
 
-[main.ts:32877](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L32877)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:33766

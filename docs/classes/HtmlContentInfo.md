@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / HtmlContentInfo
+[Documentation](../README.md) / [Exports](../modules.md) / HtmlContentInfo
 
 # Class: HtmlContentInfo
 
@@ -58,7 +54,7 @@
 
 #### Defined in
 
-[main.ts:144075](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L144075)
+main.ts:149502
 
 ## Properties
 
@@ -74,10 +70,9 @@ Automated Readability Index
 
 #### Defined in
 
-[main.ts:144054](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L144054)
+main.ts:149481
 
 ___
-
 
 ### coleman\_liau\_readability\_index
 
@@ -91,10 +86,9 @@ Coleman–Liau Index
 
 #### Defined in
 
-[main.ts:144056](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L144056)
+main.ts:149483
 
 ___
-
 
 ### dale\_chall\_readability\_index
 
@@ -108,10 +102,9 @@ Dale–Chall Readability Index
 
 #### Defined in
 
-[main.ts:144058](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L144058)
+main.ts:149485
 
 ___
-
 
 ### description\_to\_content\_consistency
 
@@ -126,10 +119,9 @@ measured from 0 to 1
 
 #### Defined in
 
-[main.ts:144065](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L144065)
+main.ts:149492
 
 ___
-
 
 ### flesch\_kincaid\_readability\_index
 
@@ -143,10 +135,9 @@ Flesch–Kincaid Readability Index
 
 #### Defined in
 
-[main.ts:144060](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L144060)
+main.ts:149487
 
 ___
-
 
 ### meta\_keywords\_to\_content\_consistency
 
@@ -161,10 +152,9 @@ measured from 0 to 1
 
 #### Defined in
 
-[main.ts:144071](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L144071)
+main.ts:149498
 
 ___
-
 
 ### plain\_text\_rate
 
@@ -179,10 +169,9 @@ plain_text_size to size ratio
 
 #### Defined in
 
-[main.ts:144050](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L144050)
+main.ts:149477
 
 ___
-
 
 ### plain\_text\_size
 
@@ -196,10 +185,9 @@ total size of the text on the page measured in bytes
 
 #### Defined in
 
-[main.ts:144047](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L144047)
+main.ts:149474
 
 ___
-
 
 ### plain\_text\_word\_count
 
@@ -213,10 +201,9 @@ number of words on the page
 
 #### Defined in
 
-[main.ts:144052](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L144052)
+main.ts:149479
 
 ___
-
 
 ### smog\_readability\_index
 
@@ -230,10 +217,9 @@ SMOG Readability Index
 
 #### Defined in
 
-[main.ts:144062](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L144062)
+main.ts:149489
 
 ___
-
 
 ### title\_to\_content\_consistency
 
@@ -248,7 +234,7 @@ measured from 0 to 1
 
 #### Defined in
 
-[main.ts:144068](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L144068)
+main.ts:149495
 
 ## Methods
 
@@ -268,10 +254,9 @@ measured from 0 to 1
 
 #### Defined in
 
-[main.ts:144084](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L144084)
+main.ts:149511
 
 ___
-
 
 ### toJSON
 
@@ -289,10 +274,9 @@ ___
 
 #### Defined in
 
-[main.ts:144111](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L144111)
+main.ts:149538
 
 ___
-
 
 ### fromJS
 
@@ -310,8 +294,4 @@ ___
 
 #### Defined in
 
-[main.ts:144104](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L144104)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:149531

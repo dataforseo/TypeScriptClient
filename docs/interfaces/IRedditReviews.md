@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IRedditReviews
+[Documentation](../README.md) / [Exports](../modules.md) / IRedditReviews
 
 # Interface: IRedditReviews
 
@@ -35,10 +31,9 @@ nicknname of the user who published the post in the subreddit and shared the URL
 
 #### Defined in
 
-[main.ts:206287](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L206287)
+main.ts:211748
 
 ___
-
 
 ### permalink
 
@@ -48,10 +43,9 @@ URL to the subreddit post
 
 #### Defined in
 
-[main.ts:206291](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L206291)
+main.ts:211752
 
 ___
-
 
 ### subreddit
 
@@ -61,10 +55,9 @@ the name of the subreddit
 
 #### Defined in
 
-[main.ts:206284](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L206284)
+main.ts:211745
 
 ___
-
 
 ### subreddit\_members
 
@@ -74,10 +67,9 @@ number of subreddit members
 
 #### Defined in
 
-[main.ts:206293](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L206293)
+main.ts:211754
 
 ___
-
 
 ### title
 
@@ -87,8 +79,4 @@ title of the subreddit post
 
 #### Defined in
 
-[main.ts:206289](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L206289)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:211750

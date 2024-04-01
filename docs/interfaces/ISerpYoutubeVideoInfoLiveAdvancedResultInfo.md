@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / ISerpYoutubeVideoInfoLiveAdvancedResultInfo
+[Documentation](../README.md) / [Exports](../modules.md) / ISerpYoutubeVideoInfoLiveAdvancedResultInfo
 
 # Interface: ISerpYoutubeVideoInfoLiveAdvancedResultInfo
 
@@ -40,10 +36,9 @@ you can use it to make sure that we provided accurate results
 
 #### Defined in
 
-[main.ts:59306](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L59306)
+main.ts:61681
 
 ___
-
 
 ### datetime
 
@@ -56,10 +51,9 @@ example:
 
 #### Defined in
 
-[main.ts:59311](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L59311)
+main.ts:61686
 
 ___
-
 
 ### item\_types
 
@@ -72,10 +66,9 @@ youtube_video_info
 
 #### Defined in
 
-[main.ts:59319](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L59319)
+main.ts:61694
 
 ___
-
 
 ### items
 
@@ -85,10 +78,9 @@ elements of search results found in SERP
 
 #### Defined in
 
-[main.ts:59323](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L59323)
+main.ts:61698
 
 ___
-
 
 ### items\_count
 
@@ -98,10 +90,9 @@ the number of results returned in the items array
 
 #### Defined in
 
-[main.ts:59321](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L59321)
+main.ts:61696
 
 ___
-
 
 ### language\_code
 
@@ -111,10 +102,9 @@ language code in a POST array
 
 #### Defined in
 
-[main.ts:59303](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L59303)
+main.ts:61678
 
 ___
-
 
 ### location\_code
 
@@ -124,10 +114,9 @@ location code in a POST array
 
 #### Defined in
 
-[main.ts:59301](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L59301)
+main.ts:61676
 
 ___
-
 
 ### se\_domain
 
@@ -137,10 +126,9 @@ search engine domain in a POST array
 
 #### Defined in
 
-[main.ts:59299](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L59299)
+main.ts:61674
 
 ___
-
 
 ### spell
 
@@ -151,10 +139,9 @@ if the search engine provided results for a keyword that was corrected, we will 
 
 #### Defined in
 
-[main.ts:59314](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L59314)
+main.ts:61689
 
 ___
-
 
 ### video\_id
 
@@ -164,8 +151,4 @@ ID of the video received in a POST array
 
 #### Defined in
 
-[main.ts:59297](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L59297)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:61672

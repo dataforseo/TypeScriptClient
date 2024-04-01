@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IAppDataleAppListingsSearchLiveItem
+[Documentation](../README.md) / [Exports](../modules.md) / IAppDataleAppListingsSearchLiveItem
 
 # Interface: IAppDataleAppListingsSearchLiveItem
 
@@ -36,10 +32,9 @@ ID of the returned app
 
 #### Defined in
 
-[main.ts:182347](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L182347)
+main.ts:187800
 
 ___
-
 
 ### check\_url
 
@@ -50,10 +45,9 @@ you can use it to make sure that we provided accurate results
 
 #### Defined in
 
-[main.ts:182356](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L182356)
+main.ts:187809
 
 ___
-
 
 ### item
 
@@ -63,10 +57,9 @@ detailed information about the app
 
 #### Defined in
 
-[main.ts:182363](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L182363)
+main.ts:187816
 
 ___
-
 
 ### language\_code
 
@@ -76,10 +69,9 @@ language code in a POST array
 
 #### Defined in
 
-[main.ts:182353](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L182353)
+main.ts:187806
 
 ___
-
 
 ### location\_code
 
@@ -89,10 +81,9 @@ location code in a POST array
 
 #### Defined in
 
-[main.ts:182351](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L182351)
+main.ts:187804
 
 ___
-
 
 ### se\_domain
 
@@ -102,10 +93,9 @@ search engine domain in a POST array
 
 #### Defined in
 
-[main.ts:182349](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L182349)
+main.ts:187802
 
 ___
-
 
 ### time\_update
 
@@ -118,8 +108,4 @@ example:
 
 #### Defined in
 
-[main.ts:182361](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L182361)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:187814

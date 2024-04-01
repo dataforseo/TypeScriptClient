@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / DataforseoLabsDomainRankOverviewLiveItem
+[Documentation](../README.md) / [Exports](../modules.md) / DataforseoLabsDomainRankOverviewLiveItem
 
 # Class: DataforseoLabsDomainRankOverviewLiveItem
 
@@ -51,7 +47,7 @@
 
 #### Defined in
 
-[main.ts:90680](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L90680)
+main.ts:93057
 
 ## Properties
 
@@ -67,10 +63,9 @@ language code in a POST array
 
 #### Defined in
 
-[main.ts:90674](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L90674)
+main.ts:93051
 
 ___
-
 
 ### location\_code
 
@@ -84,10 +79,9 @@ location code in a POST array
 
 #### Defined in
 
-[main.ts:90672](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L90672)
+main.ts:93049
 
 ___
-
 
 ### metrics
 
@@ -105,10 +99,9 @@ ranking data relevant to the specified domain
 
 #### Defined in
 
-[main.ts:90676](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L90676)
+main.ts:93053
 
 ___
-
 
 ### se\_type
 
@@ -122,7 +115,7 @@ search engine type
 
 #### Defined in
 
-[main.ts:90670](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L90670)
+main.ts:93047
 
 ## Methods
 
@@ -142,10 +135,9 @@ search engine type
 
 #### Defined in
 
-[main.ts:90689](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L90689)
+main.ts:93066
 
 ___
-
 
 ### toJSON
 
@@ -163,10 +155,9 @@ ___
 
 #### Defined in
 
-[main.ts:90715](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L90715)
+main.ts:93092
 
 ___
-
 
 ### fromJS
 
@@ -184,8 +175,4 @@ ___
 
 #### Defined in
 
-[main.ts:90708](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L90708)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:93085

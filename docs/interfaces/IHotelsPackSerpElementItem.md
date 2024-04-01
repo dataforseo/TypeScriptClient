@@ -1,15 +1,11 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IHotelsPackSerpElementItem
+[Documentation](../README.md) / [Exports](../modules.md) / IHotelsPackSerpElementItem
 
 # Interface: IHotelsPackSerpElementItem
 
 ## Hierarchy
 
 - [`IBaseSerpElementItem`](IBaseSerpElementItem.md)
-  
+
   ↳ **`IHotelsPackSerpElementItem`**
 
 ## Implemented by
@@ -47,10 +43,9 @@ example:
 
 #### Defined in
 
-[main.ts:33200](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L33200)
+main.ts:34100
 
 ___
-
 
 ### date\_to
 
@@ -63,23 +58,22 @@ example:
 
 #### Defined in
 
-[main.ts:33205](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L33205)
+main.ts:34105
 
 ___
-
 
 ### items
 
 • `Optional` **items**: [`HotelsPackElement`](../classes/HotelsPackElement.md)[]
 
-contains results featured in the ‘hotels_pack’ element of SERP
+additional items present in the element
+if there are none, equals null
 
 #### Defined in
 
-[main.ts:33207](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L33207)
+main.ts:34108
 
 ___
-
 
 ### position
 
@@ -91,10 +85,9 @@ left, right
 
 #### Defined in
 
-[main.ts:33191](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L33191)
+main.ts:34091
 
 ___
-
 
 ### rank\_absolute
 
@@ -102,28 +95,28 @@ ___
 
 absolute rank in SERP
 absolute position among all the elements in SERP
+always equals 0 for desktop
 
 #### Defined in
 
-[main.ts:33187](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L33187)
+main.ts:34087
 
 ___
-
 
 ### rank\_group
 
 • `Optional` **rank\_group**: `number`
 
 group rank in SERP
-position within a group of elements with identical type values
-positions of elements with different type values are omitted from rank_group
+position within a group of elements with identical type values;
+positions of elements with different type values are omitted from rank_group;
+always equals 0 for desktop
 
 #### Defined in
 
-[main.ts:33184](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L33184)
+main.ts:34083
 
 ___
-
 
 ### rectangle
 
@@ -135,23 +128,21 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 #### Defined in
 
-[main.ts:33211](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L33211)
+main.ts:34112
 
 ___
-
 
 ### title
 
 • `Optional` **title**: `string`
 
-title of a given link element
+title of the row
 
 #### Defined in
 
-[main.ts:33195](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L33195)
+main.ts:34095
 
 ___
-
 
 ### xpath
 
@@ -161,8 +152,4 @@ the XPath of the element
 
 #### Defined in
 
-[main.ts:33193](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L33193)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:34093

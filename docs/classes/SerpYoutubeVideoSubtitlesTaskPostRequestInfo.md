@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / SerpYoutubeVideoSubtitlesTaskPostRequestInfo
+[Documentation](../README.md) / [Exports](../modules.md) / SerpYoutubeVideoSubtitlesTaskPostRequestInfo
 
 # Class: SerpYoutubeVideoSubtitlesTaskPostRequestInfo
 
@@ -61,7 +57,7 @@
 
 #### Defined in
 
-[main.ts:59532](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L59532)
+main.ts:61907
 
 ## Properties
 
@@ -79,10 +75,9 @@ only value: desktop
 
 #### Defined in
 
-[main.ts:59491](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L59491)
+main.ts:61866
 
 ___
-
 
 ### language\_code
 
@@ -101,10 +96,9 @@ en
 
 #### Defined in
 
-[main.ts:59487](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L59487)
+main.ts:61862
 
 ___
-
 
 ### language\_name
 
@@ -123,10 +117,9 @@ English
 
 #### Defined in
 
-[main.ts:59480](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L59480)
+main.ts:61855
 
 ___
-
 
 ### location\_code
 
@@ -145,10 +138,9 @@ example:
 
 #### Defined in
 
-[main.ts:59473](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L59473)
+main.ts:61848
 
 ___
-
 
 ### location\_name
 
@@ -167,10 +159,9 @@ United States
 
 #### Defined in
 
-[main.ts:59466](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L59466)
+main.ts:61841
 
 ___
-
 
 ### os
 
@@ -187,10 +178,9 @@ default value: windows
 
 #### Defined in
 
-[main.ts:59496](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L59496)
+main.ts:61871
 
 ___
-
 
 ### pingback\_url
 
@@ -212,10 +202,9 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-[main.ts:59528](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L59528)
+main.ts:61903
 
 ___
-
 
 ### postback\_data
 
@@ -233,10 +222,9 @@ advanced
 
 #### Defined in
 
-[main.ts:59518](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L59518)
+main.ts:61893
 
 ___
-
 
 ### postback\_url
 
@@ -258,10 +246,9 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-[main.ts:59512](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L59512)
+main.ts:61887
 
 ___
-
 
 ### priority
 
@@ -281,10 +268,9 @@ The cost can be calculated on the Pricing page.
 
 #### Defined in
 
-[main.ts:59452](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L59452)
+main.ts:61827
 
 ___
-
 
 ### subtitles\_language
 
@@ -299,10 +285,9 @@ you can get the language code from YouTube Video Info result
 
 #### Defined in
 
-[main.ts:59455](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L59455)
+main.ts:61830
 
 ___
-
 
 ### subtitles\_translate\_language
 
@@ -318,10 +303,9 @@ possible values:
 
 #### Defined in
 
-[main.ts:59459](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L59459)
+main.ts:61834
 
 ___
-
 
 ### tag
 
@@ -339,10 +323,9 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-[main.ts:59502](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L59502)
+main.ts:61877
 
 ___
-
 
 ### video\_id
 
@@ -360,7 +343,7 @@ Y8Wu4rSNJms
 
 #### Defined in
 
-[main.ts:59444](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L59444)
+main.ts:61819
 
 ## Methods
 
@@ -380,10 +363,9 @@ Y8Wu4rSNJms
 
 #### Defined in
 
-[main.ts:59541](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L59541)
+main.ts:61916
 
 ___
-
 
 ### toJSON
 
@@ -401,10 +383,9 @@ ___
 
 #### Defined in
 
-[main.ts:59571](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L59571)
+main.ts:61946
 
 ___
-
 
 ### fromJS
 
@@ -422,8 +403,4 @@ ___
 
 #### Defined in
 
-[main.ts:59564](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L59564)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:61939

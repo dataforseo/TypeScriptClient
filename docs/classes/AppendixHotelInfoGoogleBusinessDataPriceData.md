@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / AppendixHotelInfoGoogleBusinessDataPriceData
+[Documentation](../README.md) / [Exports](../modules.md) / AppendixHotelInfoGoogleBusinessDataPriceData
 
 # Class: AppendixHotelInfoGoogleBusinessDataPriceData
 
@@ -51,7 +47,7 @@
 
 #### Defined in
 
-[main.ts:211062](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L211062)
+main.ts:216655
 
 ## Properties
 
@@ -65,10 +61,9 @@
 
 #### Defined in
 
-[main.ts:211055](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L211055)
+main.ts:216648
 
 ___
-
 
 ### task\_get
 
@@ -80,10 +75,9 @@ ___
 
 #### Defined in
 
-[main.ts:211056](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L211056)
+main.ts:216649
 
 ___
-
 
 ### task\_post
 
@@ -95,10 +89,9 @@ ___
 
 #### Defined in
 
-[main.ts:211057](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L211057)
+main.ts:216650
 
 ___
-
 
 ### tasks\_ready
 
@@ -110,7 +103,7 @@ ___
 
 #### Defined in
 
-[main.ts:211058](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L211058)
+main.ts:216651
 
 ## Methods
 
@@ -130,10 +123,9 @@ ___
 
 #### Defined in
 
-[main.ts:211071](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L211071)
+main.ts:216664
 
 ___
-
 
 ### toJSON
 
@@ -151,10 +143,9 @@ ___
 
 #### Defined in
 
-[main.ts:211091](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L211091)
+main.ts:216684
 
 ___
-
 
 ### fromJS
 
@@ -172,8 +163,4 @@ ___
 
 #### Defined in
 
-[main.ts:211084](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L211084)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:216677

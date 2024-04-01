@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / LocalBusinessDeliveryServiceInfo
+[Documentation](../README.md) / [Exports](../modules.md) / LocalBusinessDeliveryServiceInfo
 
 # Class: LocalBusinessDeliveryServiceInfo
 
@@ -50,7 +46,7 @@
 
 #### Defined in
 
-[main.ts:22389](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L22389)
+main.ts:22908
 
 ## Properties
 
@@ -67,10 +63,9 @@ domain of the online food ordering system
 
 #### Defined in
 
-[main.ts:22383](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L22383)
+main.ts:22902
 
 ___
-
 
 ### type
 
@@ -84,10 +79,9 @@ type of element
 
 #### Defined in
 
-[main.ts:22380](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L22380)
+main.ts:22899
 
 ___
-
 
 ### url
 
@@ -101,7 +95,7 @@ URL to place an order
 
 #### Defined in
 
-[main.ts:22385](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L22385)
+main.ts:22904
 
 ## Methods
 
@@ -121,10 +115,9 @@ URL to place an order
 
 #### Defined in
 
-[main.ts:22398](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L22398)
+main.ts:22917
 
 ___
-
 
 ### toJSON
 
@@ -142,10 +135,9 @@ ___
 
 #### Defined in
 
-[main.ts:22417](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L22417)
+main.ts:22936
 
 ___
-
 
 ### fromJS
 
@@ -163,8 +155,4 @@ ___
 
 #### Defined in
 
-[main.ts:22410](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L22410)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:22929

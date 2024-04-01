@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / DomainAnalyticsTechnologiesAggregationTechnologiesLiveResultInfo
+[Documentation](../README.md) / [Exports](../modules.md) / DomainAnalyticsTechnologiesAggregationTechnologiesLiveResultInfo
 
 # Class: DomainAnalyticsTechnologiesAggregationTechnologiesLiveResultInfo
 
@@ -51,7 +47,7 @@
 
 #### Defined in
 
-[main.ts:72828](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L72828)
+main.ts:75205
 
 ## Properties
 
@@ -67,10 +63,9 @@ items array
 
 #### Defined in
 
-[main.ts:72824](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L72824)
+main.ts:75201
 
 ___
-
 
 ### items\_count
 
@@ -84,10 +79,9 @@ the number of results returned in the items array
 
 #### Defined in
 
-[main.ts:72820](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L72820)
+main.ts:75197
 
 ___
-
 
 ### offset
 
@@ -101,10 +95,9 @@ offset in the results array of returned domains
 
 #### Defined in
 
-[main.ts:72822](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L72822)
+main.ts:75199
 
 ___
-
 
 ### total\_count
 
@@ -118,7 +111,7 @@ total amount of results in our database relevant to your request
 
 #### Defined in
 
-[main.ts:72818](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L72818)
+main.ts:75195
 
 ## Methods
 
@@ -138,10 +131,9 @@ total amount of results in our database relevant to your request
 
 #### Defined in
 
-[main.ts:72837](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L72837)
+main.ts:75214
 
 ___
-
 
 ### toJSON
 
@@ -159,10 +151,9 @@ ___
 
 #### Defined in
 
-[main.ts:72861](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L72861)
+main.ts:75238
 
 ___
-
 
 ### fromJS
 
@@ -180,8 +171,4 @@ ___
 
 #### Defined in
 
-[main.ts:72854](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L72854)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:75231

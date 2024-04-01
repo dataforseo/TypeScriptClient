@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / FaqBox
+[Documentation](../README.md) / [Exports](../modules.md) / FaqBox
 
 # Class: FaqBox
 
@@ -49,7 +45,7 @@
 
 #### Defined in
 
-[main.ts:27907](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L27907)
+main.ts:28655
 
 ## Properties
 
@@ -57,8 +53,7 @@
 
 • `Optional` **items**: [`FaqBoxElement`](FaqBoxElement.md)[]
 
-additional items present in the element
-if there are none, equals null
+contains results featured in the ‘hotels_pack’ element of SERP
 
 #### Implementation of
 
@@ -66,10 +61,9 @@ if there are none, equals null
 
 #### Defined in
 
-[main.ts:27903](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L27903)
+main.ts:28651
 
 ___
-
 
 ### type
 
@@ -83,7 +77,7 @@ type of element
 
 #### Defined in
 
-[main.ts:27900](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L27900)
+main.ts:28649
 
 ## Methods
 
@@ -103,10 +97,9 @@ type of element
 
 #### Defined in
 
-[main.ts:27916](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L27916)
+main.ts:28664
 
 ___
-
 
 ### toJSON
 
@@ -124,10 +117,9 @@ ___
 
 #### Defined in
 
-[main.ts:27938](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L27938)
+main.ts:28686
 
 ___
-
 
 ### fromJS
 
@@ -145,8 +137,4 @@ ___
 
 #### Defined in
 
-[main.ts:27931](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L27931)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:28679

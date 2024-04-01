@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / SerpGoogleJobsTaskPostRequestInfo
+[Documentation](../README.md) / [Exports](../modules.md) / SerpGoogleJobsTaskPostRequestInfo
 
 # Class: SerpGoogleJobsTaskPostRequestInfo
 
@@ -61,7 +57,7 @@
 
 #### Defined in
 
-[main.ts:48394](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L48394)
+main.ts:49145
 
 ## Properties
 
@@ -84,10 +80,9 @@ month — return job vacancies posted no longer than a month ago
 
 #### Defined in
 
-[main.ts:48358](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L48358)
+main.ts:49109
 
 ___
-
 
 ### depth
 
@@ -108,10 +103,9 @@ if the specified depth is higher than the number of results in the response, the
 
 #### Defined in
 
-[main.ts:48343](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L48343)
+main.ts:49094
 
 ___
-
 
 ### employment\_type
 
@@ -129,10 +123,9 @@ fulltime, partime, contractor, intern
 
 #### Defined in
 
-[main.ts:48349](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L48349)
+main.ts:49100
 
 ___
-
 
 ### keyword
 
@@ -153,10 +146,9 @@ example: .net developer
 
 #### Defined in
 
-[main.ts:48291](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L48291)
+main.ts:49042
 
 ___
-
 
 ### language\_code
 
@@ -175,10 +167,9 @@ en
 
 #### Defined in
 
-[main.ts:48334](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L48334)
+main.ts:49085
 
 ___
-
 
 ### language\_name
 
@@ -197,10 +188,9 @@ English
 
 #### Defined in
 
-[main.ts:48327](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L48327)
+main.ts:49078
 
 ___
-
 
 ### location\_code
 
@@ -218,10 +208,9 @@ example:
 
 #### Defined in
 
-[main.ts:48312](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L48312)
+main.ts:49063
 
 ___
-
 
 ### location\_name
 
@@ -240,10 +229,9 @@ London,England,United Kingdom
 
 #### Defined in
 
-[main.ts:48306](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L48306)
+main.ts:49057
 
 ___
-
 
 ### location\_radius
 
@@ -263,10 +251,9 @@ minimal value: > 0
 
 #### Defined in
 
-[main.ts:48320](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L48320)
+main.ts:49071
 
 ___
-
 
 ### pingback\_url
 
@@ -288,10 +275,9 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-[main.ts:48390](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L48390)
+main.ts:49141
 
 ___
-
 
 ### postback\_data
 
@@ -309,10 +295,9 @@ regular, advanced, html
 
 #### Defined in
 
-[main.ts:48380](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L48380)
+main.ts:49131
 
 ___
-
 
 ### postback\_url
 
@@ -334,10 +319,9 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-[main.ts:48374](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L48374)
+main.ts:49125
 
 ___
-
 
 ### priority
 
@@ -357,10 +341,9 @@ The cost can be calculated on the Pricing page
 
 #### Defined in
 
-[main.ts:48299](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L48299)
+main.ts:49050
 
 ___
-
 
 ### tag
 
@@ -378,7 +361,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-[main.ts:48364](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L48364)
+main.ts:49115
 
 ## Methods
 
@@ -398,10 +381,9 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-[main.ts:48403](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L48403)
+main.ts:49154
 
 ___
-
 
 ### toJSON
 
@@ -419,10 +401,9 @@ ___
 
 #### Defined in
 
-[main.ts:48437](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L48437)
+main.ts:49188
 
 ___
-
 
 ### fromJS
 
@@ -440,8 +421,4 @@ ___
 
 #### Defined in
 
-[main.ts:48430](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L48430)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:49181

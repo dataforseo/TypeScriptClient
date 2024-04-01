@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / ISerpBaiduOrganicTaskPostRequestInfo
+[Documentation](../README.md) / [Exports](../modules.md) / ISerpBaiduOrganicTaskPostRequestInfo
 
 # Interface: ISerpBaiduOrganicTaskPostRequestInfo
 
@@ -52,10 +48,9 @@ if the specified depth is higher than the number of results in the response, the
 
 #### Defined in
 
-[main.ts:65962](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L65962)
+main.ts:68339
 
 ___
-
 
 ### device
 
@@ -68,10 +63,9 @@ default value: desktop
 
 #### Defined in
 
-[main.ts:66010](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L66010)
+main.ts:68387
 
 ___
-
 
 ### get\_website\_url
 
@@ -87,10 +81,9 @@ Note: if set to true, the charge per task will be multiplied by 10 as our system
 
 #### Defined in
 
-[main.ts:66027](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L66027)
+main.ts:68404
 
 ___
-
 
 ### keyword
 
@@ -105,10 +98,9 @@ if you need to use the “+” symbol for your keyword, please specify it as “
 
 #### Defined in
 
-[main.ts:65945](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L65945)
+main.ts:68322
 
 ___
-
 
 ### language\_code
 
@@ -122,10 +114,9 @@ zh_CN
 
 #### Defined in
 
-[main.ts:65981](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L65981)
+main.ts:68358
 
 ___
-
 
 ### language\_name
 
@@ -139,10 +130,9 @@ Chinese (Simplified)
 
 #### Defined in
 
-[main.ts:65975](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L65975)
+main.ts:68352
 
 ___
-
 
 ### location\_code
 
@@ -157,10 +147,9 @@ example:
 
 #### Defined in
 
-[main.ts:65995](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L65995)
+main.ts:68372
 
 ___
-
 
 ### location\_coordinate
 
@@ -178,10 +167,9 @@ example:
 
 #### Defined in
 
-[main.ts:66005](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L66005)
+main.ts:68382
 
 ___
-
 
 ### location\_name
 
@@ -196,10 +184,9 @@ New York,New York,United States
 
 #### Defined in
 
-[main.ts:65988](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L65988)
+main.ts:68365
 
 ___
-
 
 ### max\_crawl\_pages
 
@@ -214,10 +201,9 @@ learn more at our help center
 
 #### Defined in
 
-[main.ts:65969](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L65969)
+main.ts:68346
 
 ___
-
 
 ### os
 
@@ -234,10 +220,9 @@ default value: android
 
 #### Defined in
 
-[main.ts:66019](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L66019)
+main.ts:68396
 
 ___
-
 
 ### pingback\_url
 
@@ -255,10 +240,9 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-[main.ts:66059](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L66059)
+main.ts:68436
 
 ___
-
 
 ### postback\_data
 
@@ -272,10 +256,9 @@ regular, html
 
 #### Defined in
 
-[main.ts:66049](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L66049)
+main.ts:68426
 
 ___
-
 
 ### postback\_url
 
@@ -293,10 +276,9 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-[main.ts:66043](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L66043)
+main.ts:68420
 
 ___
-
 
 ### priority
 
@@ -312,10 +294,9 @@ The cost can be calculated on the Pricing page.
 
 #### Defined in
 
-[main.ts:65953](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L65953)
+main.ts:68330
 
 ___
-
 
 ### tag
 
@@ -329,8 +310,4 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-[main.ts:66033](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L66033)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:68410

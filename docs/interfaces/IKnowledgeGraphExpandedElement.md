@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IKnowledgeGraphExpandedElement
+[Documentation](../README.md) / [Exports](../modules.md) / IKnowledgeGraphExpandedElement
 
 # Interface: IKnowledgeGraphExpandedElement
 
@@ -38,10 +34,9 @@ domain in SERP
 
 #### Defined in
 
-[main.ts:27030](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L27030)
+main.ts:27549
 
 ___
-
 
 ### featured\_title
 
@@ -51,10 +46,9 @@ title of a given element
 
 #### Defined in
 
-[main.ts:27026](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L27026)
+main.ts:27545
 
 ___
-
 
 ### images
 
@@ -64,10 +58,9 @@ images of the element
 
 #### Defined in
 
-[main.ts:27036](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L27036)
+main.ts:27555
 
 ___
-
 
 ### snippet
 
@@ -77,10 +70,9 @@ text alongside the link title
 
 #### Defined in
 
-[main.ts:27034](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L27034)
+main.ts:27553
 
 ___
-
 
 ### table
 
@@ -90,10 +82,9 @@ table element
 
 #### Defined in
 
-[main.ts:27043](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L27043)
+main.ts:27562
 
 ___
-
 
 ### timestamp
 
@@ -106,10 +97,9 @@ example:
 
 #### Defined in
 
-[main.ts:27041](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L27041)
+main.ts:27560
 
 ___
-
 
 ### title
 
@@ -119,10 +109,9 @@ title of the result in SERP
 
 #### Defined in
 
-[main.ts:27032](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L27032)
+main.ts:27551
 
 ___
-
 
 ### type
 
@@ -132,10 +121,9 @@ type of element
 
 #### Defined in
 
-[main.ts:27024](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L27024)
+main.ts:27543
 
 ___
-
 
 ### url
 
@@ -145,8 +133,4 @@ relevant URL
 
 #### Defined in
 
-[main.ts:27028](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L27028)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:27547

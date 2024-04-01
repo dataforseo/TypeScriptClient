@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / ProductVariation
+[Documentation](../README.md) / [Exports](../modules.md) / ProductVariation
 
 # Class: ProductVariation
 
@@ -51,7 +47,7 @@
 
 #### Defined in
 
-[main.ts:169085](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L169085)
+main.ts:174538
 
 ## Properties
 
@@ -68,10 +64,9 @@ learn more about the parameter in this help center guide
 
 #### Defined in
 
-[main.ts:169076](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L169076)
+main.ts:174529
 
 ___
-
 
 ### title
 
@@ -85,10 +80,9 @@ name of the product seller
 
 #### Defined in
 
-[main.ts:169078](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L169078)
+main.ts:174531
 
 ___
-
 
 ### type
 
@@ -102,10 +96,9 @@ type of element
 
 #### Defined in
 
-[main.ts:169073](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L169073)
+main.ts:174526
 
 ___
-
 
 ### url
 
@@ -120,7 +113,7 @@ url of the webpage on the seller’s website where the product is sold
 
 #### Defined in
 
-[main.ts:169081](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L169081)
+main.ts:174534
 
 ## Methods
 
@@ -140,10 +133,9 @@ url of the webpage on the seller’s website where the product is sold
 
 #### Defined in
 
-[main.ts:169094](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L169094)
+main.ts:174547
 
 ___
-
 
 ### toJSON
 
@@ -161,10 +153,9 @@ ___
 
 #### Defined in
 
-[main.ts:169114](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L169114)
+main.ts:174567
 
 ___
-
 
 ### fromJS
 
@@ -182,8 +173,4 @@ ___
 
 #### Defined in
 
-[main.ts:169107](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L169107)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:174560

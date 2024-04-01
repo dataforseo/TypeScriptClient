@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / AvailableLanguages
+[Documentation](../README.md) / [Exports](../modules.md) / AvailableLanguages
 
 # Class: AvailableLanguages
 
@@ -52,7 +48,7 @@
 
 #### Defined in
 
-[main.ts:77856](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L77856)
+main.ts:80233
 
 ## Properties
 
@@ -70,10 +66,9 @@ only google and bing are currently available
 
 #### Defined in
 
-[main.ts:77844](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L77844)
+main.ts:80221
 
 ___
-
 
 ### keywords
 
@@ -87,10 +82,9 @@ the number of keywords available for the given location and language
 
 #### Defined in
 
-[main.ts:77850](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L77850)
+main.ts:80227
 
 ___
-
 
 ### language\_code
 
@@ -104,10 +98,9 @@ language code according to ISO 639-1
 
 #### Defined in
 
-[main.ts:77848](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L77848)
+main.ts:80225
 
 ___
-
 
 ### language\_name
 
@@ -121,10 +114,9 @@ language name
 
 #### Defined in
 
-[main.ts:77846](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L77846)
+main.ts:80223
 
 ___
-
 
 ### serps
 
@@ -138,7 +130,7 @@ the number of SERP pages available for the given location and language
 
 #### Defined in
 
-[main.ts:77852](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L77852)
+main.ts:80229
 
 ## Methods
 
@@ -158,10 +150,9 @@ the number of SERP pages available for the given location and language
 
 #### Defined in
 
-[main.ts:77865](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L77865)
+main.ts:80242
 
 ___
-
 
 ### toJSON
 
@@ -179,10 +170,9 @@ ___
 
 #### Defined in
 
-[main.ts:77890](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L77890)
+main.ts:80267
 
 ___
-
 
 ### fromJS
 
@@ -200,8 +190,4 @@ ___
 
 #### Defined in
 
-[main.ts:77883](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L77883)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:80260

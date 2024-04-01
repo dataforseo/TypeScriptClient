@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IKeywordsDataBingKeywordsForKeywordsLiveResultInfo
+[Documentation](../README.md) / [Exports](../modules.md) / IKeywordsDataBingKeywordsForKeywordsLiveResultInfo
 
 # Interface: IKeywordsDataBingKeywordsForKeywordsLiveResultInfo
 
@@ -40,10 +36,9 @@ legacy field, the value will always be null
 
 #### Defined in
 
-[main.ts:126216](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L126216)
+main.ts:131583
 
 ___
-
 
 ### competition
 
@@ -58,10 +53,9 @@ if there is no data the value is null
 
 #### Defined in
 
-[main.ts:126205](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L126205)
+main.ts:131572
 
 ___
-
 
 ### cpc
 
@@ -73,10 +67,9 @@ if there is no data, then the value is null
 
 #### Defined in
 
-[main.ts:126209](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L126209)
+main.ts:131576
 
 ___
-
 
 ### device
 
@@ -88,10 +81,9 @@ possible values: all, mobile, desktop, tablet
 
 #### Defined in
 
-[main.ts:126198](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L126198)
+main.ts:131565
 
 ___
-
 
 ### keyword
 
@@ -101,10 +93,9 @@ keyword in a POST array
 
 #### Defined in
 
-[main.ts:126186](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L126186)
+main.ts:131553
 
 ___
-
 
 ### language\_code
 
@@ -115,10 +106,9 @@ if there is no data, then the value is null
 
 #### Defined in
 
-[main.ts:126192](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L126192)
+main.ts:131559
 
 ___
-
 
 ### location\_code
 
@@ -129,10 +119,9 @@ if there is no data, then the value is null
 
 #### Defined in
 
-[main.ts:126189](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L126189)
+main.ts:131556
 
 ___
-
 
 ### monthly\_searches
 
@@ -144,10 +133,9 @@ if there is no data, then the value is null
 
 #### Defined in
 
-[main.ts:126220](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L126220)
+main.ts:131587
 
 ___
-
 
 ### search\_partners
 
@@ -157,10 +145,9 @@ indicates whether data from partner networks is included in the response
 
 #### Defined in
 
-[main.ts:126194](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L126194)
+main.ts:131561
 
 ___
-
 
 ### search\_volume
 
@@ -172,8 +159,4 @@ if there is no data, then the value is null
 
 #### Defined in
 
-[main.ts:126213](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L126213)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:131580

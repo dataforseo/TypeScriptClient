@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / OnPageMicrodataResultInfo
+[Documentation](../README.md) / [Exports](../modules.md) / OnPageMicrodataResultInfo
 
 # Class: OnPageMicrodataResultInfo
 
@@ -52,7 +48,7 @@
 
 #### Defined in
 
-[main.ts:150954](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L150954)
+main.ts:156381
 
 ## Properties
 
@@ -69,10 +65,9 @@ possible values: in_progress, finished
 
 #### Defined in
 
-[main.ts:150942](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L150942)
+main.ts:156369
 
 ___
-
 
 ### crawl\_status
 
@@ -86,10 +81,9 @@ details of the crawling session
 
 #### Defined in
 
-[main.ts:150944](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L150944)
+main.ts:156371
 
 ___
-
 
 ### items
 
@@ -103,10 +97,9 @@ items array
 
 #### Defined in
 
-[main.ts:150950](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L150950)
+main.ts:156377
 
 ___
-
 
 ### items\_count
 
@@ -120,10 +113,9 @@ number of items in the results array
 
 #### Defined in
 
-[main.ts:150948](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L150948)
+main.ts:156375
 
 ___
-
 
 ### test\_summary
 
@@ -137,7 +129,7 @@ microdata validation test results
 
 #### Defined in
 
-[main.ts:150946](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L150946)
+main.ts:156373
 
 ## Methods
 
@@ -157,10 +149,9 @@ microdata validation test results
 
 #### Defined in
 
-[main.ts:150963](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L150963)
+main.ts:156390
 
 ___
-
 
 ### toJSON
 
@@ -178,10 +169,9 @@ ___
 
 #### Defined in
 
-[main.ts:150988](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L150988)
+main.ts:156415
 
 ___
-
 
 ### fromJS
 
@@ -199,8 +189,4 @@ ___
 
 #### Defined in
 
-[main.ts:150981](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L150981)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:156408

@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / HotelInfoPriceOffer
+[Documentation](../README.md) / [Exports](../modules.md) / HotelInfoPriceOffer
 
 # Class: HotelInfoPriceOffer
 
@@ -57,7 +53,7 @@ featured price offers
 
 #### Defined in
 
-[main.ts:193479](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L193479)
+main.ts:198940
 
 ## Properties
 
@@ -74,10 +70,9 @@ USD is applied by default, unless specified in the POST array
 
 #### Defined in
 
-[main.ts:193462](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L193462)
+main.ts:198923
 
 ___
-
 
 ### free\_cancellation\_until
 
@@ -93,10 +88,9 @@ equals null if free cancellation is not available for the selected dates
 
 #### Defined in
 
-[main.ts:193475](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L193475)
+main.ts:198936
 
 ___
-
 
 ### max\_visitors
 
@@ -111,10 +105,9 @@ the maximum number of visitors for which the price offer is valid
 
 #### Defined in
 
-[main.ts:193468](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L193468)
+main.ts:198929
 
 ___
-
 
 ### offer\_images
 
@@ -129,10 +122,9 @@ URLs of the images featured in the price offer
 
 #### Defined in
 
-[main.ts:193471](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L193471)
+main.ts:198932
 
 ___
-
 
 ### price
 
@@ -146,10 +138,9 @@ price per night
 
 #### Defined in
 
-[main.ts:193459](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L193459)
+main.ts:198920
 
 ___
-
 
 ### title
 
@@ -163,10 +154,9 @@ title of the hotel
 
 #### Defined in
 
-[main.ts:193457](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L193457)
+main.ts:198918
 
 ___
-
 
 ### type
 
@@ -180,10 +170,9 @@ type of element
 
 #### Defined in
 
-[main.ts:193455](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L193455)
+main.ts:198916
 
 ___
-
 
 ### url
 
@@ -198,7 +187,7 @@ URL to the page of the website where price offer appears
 
 #### Defined in
 
-[main.ts:193465](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L193465)
+main.ts:198926
 
 ## Methods
 
@@ -218,10 +207,9 @@ URL to the page of the website where price offer appears
 
 #### Defined in
 
-[main.ts:193488](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L193488)
+main.ts:198949
 
 ___
-
 
 ### toJSON
 
@@ -239,10 +227,9 @@ ___
 
 #### Defined in
 
-[main.ts:193516](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L193516)
+main.ts:198977
 
 ___
-
 
 ### fromJS
 
@@ -260,8 +247,4 @@ ___
 
 #### Defined in
 
-[main.ts:193509](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L193509)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:198970

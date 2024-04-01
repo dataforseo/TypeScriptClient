@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / DataforseoLabsStatusResultInfo
+[Documentation](../README.md) / [Exports](../modules.md) / DataforseoLabsStatusResultInfo
 
 # Class: DataforseoLabsStatusResultInfo
 
@@ -50,7 +46,7 @@
 
 #### Defined in
 
-[main.ts:76836](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L76836)
+main.ts:79213
 
 ## Properties
 
@@ -66,10 +62,9 @@ update information for the Amazon endpoints
 
 #### Defined in
 
-[main.ts:76832](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L76832)
+main.ts:79209
 
 ___
-
 
 ### bing
 
@@ -83,10 +78,9 @@ update information for the Bing endpoints
 
 #### Defined in
 
-[main.ts:76830](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L76830)
+main.ts:79207
 
 ___
-
 
 ### google
 
@@ -100,7 +94,7 @@ update information for the Google endpoints
 
 #### Defined in
 
-[main.ts:76828](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L76828)
+main.ts:79205
 
 ## Methods
 
@@ -120,10 +114,9 @@ update information for the Google endpoints
 
 #### Defined in
 
-[main.ts:76845](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L76845)
+main.ts:79222
 
 ___
-
 
 ### toJSON
 
@@ -141,10 +134,9 @@ ___
 
 #### Defined in
 
-[main.ts:76864](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L76864)
+main.ts:79241
 
 ___
-
 
 ### fromJS
 
@@ -162,8 +154,4 @@ ___
 
 #### Defined in
 
-[main.ts:76857](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L76857)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:79234

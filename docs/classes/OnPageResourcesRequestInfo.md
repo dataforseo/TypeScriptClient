@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / OnPageResourcesRequestInfo
+[Documentation](../README.md) / [Exports](../modules.md) / OnPageResourcesRequestInfo
 
 # Class: OnPageResourcesRequestInfo
 
@@ -55,7 +51,7 @@
 
 #### Defined in
 
-[main.ts:145781](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L145781)
+main.ts:151208
 
 ## Properties
 
@@ -83,10 +79,9 @@ The full list of possible filters is available by this link.
 
 #### Defined in
 
-[main.ts:145745](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L145745)
+main.ts:151172
 
 ___
-
 
 ### id
 
@@ -104,10 +99,9 @@ example:
 
 #### Defined in
 
-[main.ts:145715](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L145715)
+main.ts:151142
 
 ___
-
 
 ### limit
 
@@ -124,10 +118,9 @@ maximum value: 1000
 
 #### Defined in
 
-[main.ts:145726](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L145726)
+main.ts:151153
 
 ___
-
 
 ### offset
 
@@ -144,10 +137,9 @@ if you specify the 10 value, the first ten resources in the results array will b
 
 #### Defined in
 
-[main.ts:145731](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L145731)
+main.ts:151158
 
 ___
-
 
 ### order\_by
 
@@ -173,10 +165,9 @@ example:
 
 #### Defined in
 
-[main.ts:145771](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L145771)
+main.ts:151198
 
 ___
-
 
 ### relevant\_pages\_filters
 
@@ -200,10 +191,9 @@ example:
 
 #### Defined in
 
-[main.ts:145757](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L145757)
+main.ts:151184
 
 ___
-
 
 ### tag
 
@@ -221,10 +211,9 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-[main.ts:145777](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L145777)
+main.ts:151204
 
 ___
-
 
 ### url
 
@@ -242,7 +231,7 @@ if you do not indicate a url when setting a task, resource’s meta in the resul
 
 #### Defined in
 
-[main.ts:145721](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L145721)
+main.ts:151148
 
 ## Methods
 
@@ -262,10 +251,9 @@ if you do not indicate a url when setting a task, resource’s meta in the resul
 
 #### Defined in
 
-[main.ts:145790](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L145790)
+main.ts:151217
 
 ___
-
 
 ### toJSON
 
@@ -283,10 +271,9 @@ ___
 
 #### Defined in
 
-[main.ts:145826](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L145826)
+main.ts:151253
 
 ___
-
 
 ### fromJS
 
@@ -304,8 +291,4 @@ ___
 
 #### Defined in
 
-[main.ts:145819](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L145819)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:151246

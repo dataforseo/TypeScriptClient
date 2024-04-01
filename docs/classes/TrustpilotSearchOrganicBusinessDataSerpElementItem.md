@@ -1,15 +1,11 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / TrustpilotSearchOrganicBusinessDataSerpElementItem
+[Documentation](../README.md) / [Exports](../modules.md) / TrustpilotSearchOrganicBusinessDataSerpElementItem
 
 # Class: TrustpilotSearchOrganicBusinessDataSerpElementItem
 
 ## Hierarchy
 
 - [`BaseBusinessDataSerpElementItem`](BaseBusinessDataSerpElementItem.md)
-  
+
   ↳ **`TrustpilotSearchOrganicBusinessDataSerpElementItem`**
 
 ## Implements
@@ -65,7 +61,7 @@
 
 #### Defined in
 
-[main.ts:199130](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L199130)
+main.ts:204591
 
 ## Properties
 
@@ -79,10 +75,9 @@
 
 #### Defined in
 
-[main.ts:20076](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L20076)
+main.ts:20532
 
 ___
-
 
 ### domain
 
@@ -96,10 +91,9 @@ domain of the establishment
 
 #### Defined in
 
-[main.ts:199120](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L199120)
+main.ts:204581
 
 ___
-
 
 ### rank\_absolute
 
@@ -114,10 +108,9 @@ absolute position among all reviews on the list
 
 #### Defined in
 
-[main.ts:199116](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L199116)
+main.ts:204577
 
 ___
-
 
 ### rank\_group
 
@@ -132,10 +125,9 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-[main.ts:199113](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L199113)
+main.ts:204574
 
 ___
-
 
 ### rating
 
@@ -149,10 +141,9 @@ the rating score of the establishment submitted by reviewers
 
 #### Defined in
 
-[main.ts:199126](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L199126)
+main.ts:204587
 
 ___
-
 
 ### reviews\_count
 
@@ -166,10 +157,9 @@ the total number of reviews
 
 #### Defined in
 
-[main.ts:199124](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L199124)
+main.ts:204585
 
 ___
-
 
 ### title
 
@@ -183,10 +173,9 @@ title of the establishment
 
 #### Defined in
 
-[main.ts:199118](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L199118)
+main.ts:204579
 
 ___
-
 
 ### url
 
@@ -200,7 +189,7 @@ URL to the establishment
 
 #### Defined in
 
-[main.ts:199122](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L199122)
+main.ts:204583
 
 ## Methods
 
@@ -224,10 +213,9 @@ URL to the establishment
 
 #### Defined in
 
-[main.ts:199135](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L199135)
+main.ts:204596
 
 ___
-
 
 ### toJSON
 
@@ -249,10 +237,9 @@ ___
 
 #### Defined in
 
-[main.ts:199159](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L199159)
+main.ts:204620
 
 ___
-
 
 ### fromJS
 
@@ -274,8 +261,4 @@ ___
 
 #### Defined in
 
-[main.ts:199152](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L199152)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:204613

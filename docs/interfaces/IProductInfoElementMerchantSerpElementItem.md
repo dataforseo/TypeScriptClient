@@ -1,15 +1,11 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IProductInfoElementMerchantSerpElementItem
+[Documentation](../README.md) / [Exports](../modules.md) / IProductInfoElementMerchantSerpElementItem
 
 # Interface: IProductInfoElementMerchantSerpElementItem
 
 ## Hierarchy
 
 - [`IBaseMerchantSerpElementItem`](IBaseMerchantSerpElementItem.md)
-  
+
   ↳ **`IProductInfoElementMerchantSerpElementItem`**
 
 ## Implemented by
@@ -48,10 +44,9 @@ description of the product
 
 #### Defined in
 
-[main.ts:169293](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L169293)
+main.ts:174746
 
 ___
-
 
 ### features
 
@@ -62,10 +57,9 @@ contains snippets with the description of product features
 
 #### Defined in
 
-[main.ts:169302](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L169302)
+main.ts:174755
 
 ___
-
 
 ### images
 
@@ -76,10 +70,9 @@ contains urls to product images
 
 #### Defined in
 
-[main.ts:169299](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L169299)
+main.ts:174752
 
 ___
-
 
 ### position
 
@@ -91,10 +84,9 @@ right, left
 
 #### Defined in
 
-[main.ts:169286](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L169286)
+main.ts:174739
 
 ___
-
 
 ### product\_id
 
@@ -105,10 +97,9 @@ ilearn more about the parameter in this help center guide
 
 #### Defined in
 
-[main.ts:169289](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L169289)
+main.ts:174742
 
 ___
-
 
 ### rank\_absolute
 
@@ -119,10 +110,9 @@ absolute position among all the elements found on the product specification page
 
 #### Defined in
 
-[main.ts:169282](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L169282)
+main.ts:174735
 
 ___
-
 
 ### rank\_group
 
@@ -133,24 +123,22 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-[main.ts:169279](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L169279)
+main.ts:174732
 
 ___
-
 
 ### rating
 
 • `Optional` **rating**: [`RatingElement`](../classes/RatingElement.md)
 
-product rating
+product rating 
 the popularity rate based on reviews
 
 #### Defined in
 
-[main.ts:169305](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L169305)
+main.ts:174758
 
 ___
-
 
 ### seller\_reviews\_count
 
@@ -161,10 +149,9 @@ number of reviews on the product seller’s account
 
 #### Defined in
 
-[main.ts:169308](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L169308)
+main.ts:174761
 
 ___
-
 
 ### sellers
 
@@ -175,10 +162,9 @@ number of reviews on the product seller’s account
 
 #### Defined in
 
-[main.ts:169311](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L169311)
+main.ts:174764
 
 ___
-
 
 ### title
 
@@ -188,10 +174,9 @@ title of the product
 
 #### Defined in
 
-[main.ts:169291](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L169291)
+main.ts:174744
 
 ___
-
 
 ### url
 
@@ -202,10 +187,9 @@ url of the product on Google Shopping
 
 #### Defined in
 
-[main.ts:169296](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L169296)
+main.ts:174749
 
 ___
-
 
 ### variations
 
@@ -216,8 +200,4 @@ contains brief information about different product variations
 
 #### Defined in
 
-[main.ts:169314](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L169314)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:174767

@@ -1,15 +1,11 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IAmazonRelatedSearchesSerpElementItem
+[Documentation](../README.md) / [Exports](../modules.md) / IAmazonRelatedSearchesSerpElementItem
 
 # Interface: IAmazonRelatedSearchesSerpElementItem
 
 ## Hierarchy
 
 - [`IBaseAmazonSerpElementItem`](IBaseAmazonSerpElementItem.md)
-  
+
   ↳ **`IAmazonRelatedSearchesSerpElementItem`**
 
 ## Implemented by
@@ -40,10 +36,9 @@ Amazon product items
 
 #### Defined in
 
-[main.ts:171181](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L171181)
+main.ts:176634
 
 ___
-
 
 ### position
 
@@ -55,10 +50,9 @@ left, right
 
 #### Defined in
 
-[main.ts:171177](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L171177)
+main.ts:176630
 
 ___
-
 
 ### rank\_absolute
 
@@ -69,10 +63,9 @@ absolute position among all the elements found in Amazon SERP
 
 #### Defined in
 
-[main.ts:171173](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L171173)
+main.ts:176626
 
 ___
-
 
 ### rank\_group
 
@@ -83,10 +76,9 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-[main.ts:171170](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L171170)
+main.ts:176623
 
 ___
-
 
 ### xpath
 
@@ -96,8 +88,4 @@ the XPath of the element
 
 #### Defined in
 
-[main.ts:171179](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L171179)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:176632

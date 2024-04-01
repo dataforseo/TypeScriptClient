@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IAppDataAppleAppListTaskGetAdvancedResultInfo
+[Documentation](../README.md) / [Exports](../modules.md) / IAppDataAppleAppListTaskGetAdvancedResultInfo
 
 # Interface: IAppDataAppleAppListTaskGetAdvancedResultInfo
 
@@ -39,10 +35,9 @@ in this case, the value will be null
 
 #### Defined in
 
-[main.ts:185524](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L185524)
+main.ts:190977
 
 ___
-
 
 ### datetime
 
@@ -55,10 +50,9 @@ example:
 
 #### Defined in
 
-[main.ts:185529](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L185529)
+main.ts:190982
 
 ___
-
 
 ### items
 
@@ -69,10 +63,9 @@ you can get more results by using the depth parameter when setting a task
 
 #### Defined in
 
-[main.ts:185537](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L185537)
+main.ts:190990
 
 ___
-
 
 ### items\_count
 
@@ -83,10 +76,9 @@ you can get more results by using the depth parameter when setting a task
 
 #### Defined in
 
-[main.ts:185534](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L185534)
+main.ts:190987
 
 ___
-
 
 ### keyword
 
@@ -96,10 +88,9 @@ app collection received in a POST array
 
 #### Defined in
 
-[main.ts:185515](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L185515)
+main.ts:190968
 
 ___
-
 
 ### language\_code
 
@@ -109,10 +100,9 @@ language code in a POST array
 
 #### Defined in
 
-[main.ts:185521](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L185521)
+main.ts:190974
 
 ___
-
 
 ### location\_code
 
@@ -122,10 +112,9 @@ location code in a POST array
 
 #### Defined in
 
-[main.ts:185519](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L185519)
+main.ts:190972
 
 ___
-
 
 ### se\_domain
 
@@ -135,10 +124,9 @@ search engine domain in a POST array
 
 #### Defined in
 
-[main.ts:185517](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L185517)
+main.ts:190970
 
 ___
-
 
 ### se\_results\_count
 
@@ -148,8 +136,4 @@ the total number of results
 
 #### Defined in
 
-[main.ts:185531](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L185531)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:190984

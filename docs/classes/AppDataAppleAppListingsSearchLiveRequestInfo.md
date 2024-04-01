@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / AppDataAppleAppListingsSearchLiveRequestInfo
+[Documentation](../README.md) / [Exports](../modules.md) / AppDataAppleAppListingsSearchLiveRequestInfo
 
 # Class: AppDataAppleAppListingsSearchLiveRequestInfo
 
@@ -56,7 +52,7 @@
 
 #### Defined in
 
-[main.ts:186801](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L186801)
+main.ts:192254
 
 ## Properties
 
@@ -76,10 +72,9 @@ you can specify up to 10 categories
 
 #### Defined in
 
-[main.ts:186738](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L186738)
+main.ts:192191
 
 ___
-
 
 ### description
 
@@ -96,10 +91,9 @@ can contain up to 200 symbols
 
 #### Defined in
 
-[main.ts:186743](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L186743)
+main.ts:192196
 
 ___
-
 
 ### filters
 
@@ -122,10 +116,9 @@ you can receive the list of available filters by making a separate request to h
 
 #### Defined in
 
-[main.ts:186759](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L186759)
+main.ts:192212
 
 ___
-
 
 ### limit
 
@@ -142,10 +135,9 @@ maximum value: 1000
 
 #### Defined in
 
-[main.ts:186778](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L186778)
+main.ts:192231
 
 ___
-
 
 ### offset
 
@@ -162,10 +154,9 @@ if you specify the 10 value, the first ten entities in the results array will be
 
 #### Defined in
 
-[main.ts:186783](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L186783)
+main.ts:192236
 
 ___
-
 
 ### offset\_token
 
@@ -185,10 +176,9 @@ Note: if the offset_token is specified in the request, all other parameters shou
 
 #### Defined in
 
-[main.ts:186791](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L186791)
+main.ts:192244
 
 ___
-
 
 ### order\_by
 
@@ -214,10 +204,9 @@ example:
 
 #### Defined in
 
-[main.ts:186773](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L186773)
+main.ts:192226
 
 ___
-
 
 ### tag
 
@@ -235,10 +224,9 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-[main.ts:186797](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L186797)
+main.ts:192250
 
 ___
-
 
 ### title
 
@@ -255,7 +243,7 @@ can contain up to 200 symbols
 
 #### Defined in
 
-[main.ts:186748](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L186748)
+main.ts:192201
 
 ## Methods
 
@@ -275,10 +263,9 @@ can contain up to 200 symbols
 
 #### Defined in
 
-[main.ts:186810](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L186810)
+main.ts:192263
 
 ___
-
 
 ### toJSON
 
@@ -296,10 +283,9 @@ ___
 
 #### Defined in
 
-[main.ts:186847](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L186847)
+main.ts:192300
 
 ___
-
 
 ### fromJS
 
@@ -317,8 +303,4 @@ ___
 
 #### Defined in
 
-[main.ts:186840](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L186840)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:192293

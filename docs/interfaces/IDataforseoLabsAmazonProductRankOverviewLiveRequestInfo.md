@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IDataforseoLabsAmazonProductRankOverviewLiveRequestInfo
+[Documentation](../README.md) / [Exports](../modules.md) / IDataforseoLabsAmazonProductRankOverviewLiveRequestInfo
 
 # Interface: IDataforseoLabsAmazonProductRankOverviewLiveRequestInfo
 
@@ -39,10 +35,9 @@ you can receive the asin parameter by making a separate request to the Amazon Pr
 
 #### Defined in
 
-[main.ts:100527](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L100527)
+main.ts:102904
 
 ___
-
 
 ### language\_code
 
@@ -57,10 +52,9 @@ en
 
 #### Defined in
 
-[main.ts:100557](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L100557)
+main.ts:102934
 
 ___
-
 
 ### language\_name
 
@@ -75,10 +69,9 @@ English
 
 #### Defined in
 
-[main.ts:100550](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L100550)
+main.ts:102927
 
 ___
-
 
 ### location\_code
 
@@ -94,10 +87,9 @@ example:
 
 #### Defined in
 
-[main.ts:100543](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L100543)
+main.ts:102920
 
 ___
-
 
 ### location\_name
 
@@ -113,10 +105,9 @@ United States
 
 #### Defined in
 
-[main.ts:100535](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L100535)
+main.ts:102912
 
 ___
-
 
 ### tag
 
@@ -130,8 +121,4 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-[main.ts:100563](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L100563)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:102940

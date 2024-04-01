@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IBacklinksBulkNewLostBacklinksLiveItem
+[Documentation](../README.md) / [Exports](../modules.md) / IBacklinksBulkNewLostBacklinksLiveItem
 
 # Interface: IBacklinksBulkNewLostBacklinksLiveItem
 
@@ -33,10 +29,9 @@ number of lost backlinks of the target
 
 #### Defined in
 
-[main.ts:140870](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L140870)
+main.ts:146297
 
 ___
-
 
 ### new\_backlinks
 
@@ -47,10 +42,9 @@ number of new backlinks pointing to the target
 
 #### Defined in
 
-[main.ts:140867](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L140867)
+main.ts:146294
 
 ___
-
 
 ### target
 
@@ -60,8 +54,4 @@ domain, subdomain or webpage from a POST array
 
 #### Defined in
 
-[main.ts:140864](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L140864)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:146291

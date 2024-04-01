@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / BusinessDataGoogleHotelSearchesItem
+[Documentation](../README.md) / [Exports](../modules.md) / BusinessDataGoogleHotelSearchesItem
 
 # Class: BusinessDataGoogleHotelSearchesItem
 
@@ -56,7 +52,7 @@
 
 #### Defined in
 
-[main.ts:193831](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L193831)
+main.ts:199292
 
 ## Properties
 
@@ -74,10 +70,9 @@ CgoI-KWyzenM_MV3EAE
 
 #### Defined in
 
-[main.ts:193810](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L193810)
+main.ts:199271
 
 ___
-
 
 ### is\_paid
 
@@ -93,10 +88,9 @@ if false, related hotel_search_item is an organic hotel listing
 
 #### Defined in
 
-[main.ts:193819](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L193819)
+main.ts:199280
 
 ___
-
 
 ### location
 
@@ -110,10 +104,9 @@ GPS coordinates of the hotel’s location
 
 #### Defined in
 
-[main.ts:193821](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L193821)
+main.ts:199282
 
 ___
-
 
 ### overview\_images
 
@@ -127,10 +120,9 @@ featured images for a hotel
 
 #### Defined in
 
-[main.ts:193825](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L193825)
+main.ts:199286
 
 ___
-
 
 ### prices
 
@@ -144,10 +136,9 @@ hotel price
 
 #### Defined in
 
-[main.ts:193827](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L193827)
+main.ts:199288
 
 ___
-
 
 ### reviews
 
@@ -161,10 +152,9 @@ hotel reviews and rating information
 
 #### Defined in
 
-[main.ts:193823](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L193823)
+main.ts:199284
 
 ___
-
 
 ### stars
 
@@ -179,10 +169,9 @@ class rating that ranges between 1-5 stars
 
 #### Defined in
 
-[main.ts:193815](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L193815)
+main.ts:199276
 
 ___
-
 
 ### title
 
@@ -196,10 +185,9 @@ title of the hotel
 
 #### Defined in
 
-[main.ts:193812](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L193812)
+main.ts:199273
 
 ___
-
 
 ### type
 
@@ -213,7 +201,7 @@ type of element
 
 #### Defined in
 
-[main.ts:193806](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L193806)
+main.ts:199267
 
 ## Methods
 
@@ -233,10 +221,9 @@ type of element
 
 #### Defined in
 
-[main.ts:193840](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L193840)
+main.ts:199301
 
 ___
-
 
 ### toJSON
 
@@ -254,10 +241,9 @@ ___
 
 #### Defined in
 
-[main.ts:193869](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L193869)
+main.ts:199330
 
 ___
-
 
 ### fromJS
 
@@ -275,8 +261,4 @@ ___
 
 #### Defined in
 
-[main.ts:193862](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L193862)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:199323

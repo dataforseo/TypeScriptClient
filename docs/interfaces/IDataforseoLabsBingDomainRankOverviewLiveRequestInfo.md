@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IDataforseoLabsBingDomainRankOverviewLiveRequestInfo
+[Documentation](../README.md) / [Exports](../modules.md) / IDataforseoLabsBingDomainRankOverviewLiveRequestInfo
 
 # Interface: IDataforseoLabsBingDomainRankOverviewLiveRequestInfo
 
@@ -44,10 +40,9 @@ en
 
 #### Defined in
 
-[main.ts:104079](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L104079)
+main.ts:106456
 
 ___
-
 
 ### language\_name
 
@@ -64,10 +59,9 @@ English
 
 #### Defined in
 
-[main.ts:104070](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L104070)
+main.ts:106447
 
 ___
-
 
 ### limit
 
@@ -80,10 +74,9 @@ maximum value: 1000
 
 #### Defined in
 
-[main.ts:104084](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L104084)
+main.ts:106461
 
 ___
-
 
 ### location\_code
 
@@ -101,10 +94,9 @@ example:
 
 #### Defined in
 
-[main.ts:104061](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L104061)
+main.ts:106438
 
 ___
-
 
 ### location\_name
 
@@ -122,10 +114,9 @@ United States
 
 #### Defined in
 
-[main.ts:104051](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L104051)
+main.ts:106428
 
 ___
-
 
 ### offset
 
@@ -138,10 +129,9 @@ if you specify the 10 value, the first ten items in the results array will be om
 
 #### Defined in
 
-[main.ts:104089](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L104089)
+main.ts:106466
 
 ___
-
 
 ### tag
 
@@ -155,10 +145,9 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-[main.ts:104095](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L104095)
+main.ts:106472
 
 ___
-
 
 ### target
 
@@ -171,8 +160,4 @@ the domain should be specified without https:// and www.
 
 #### Defined in
 
-[main.ts:104041](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L104041)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:106418

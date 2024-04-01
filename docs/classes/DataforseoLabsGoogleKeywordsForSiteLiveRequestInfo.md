@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / DataforseoLabsGoogleKeywordsForSiteLiveRequestInfo
+[Documentation](../README.md) / [Exports](../modules.md) / DataforseoLabsGoogleKeywordsForSiteLiveRequestInfo
 
 # Class: DataforseoLabsGoogleKeywordsForSiteLiveRequestInfo
 
@@ -61,7 +57,7 @@
 
 #### Defined in
 
-[main.ts:78603](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L78603)
+main.ts:80980
 
 ## Properties
 
@@ -92,10 +88,9 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 #### Defined in
 
-[main.ts:78577](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L78577)
+main.ts:80954
 
 ___
-
 
 ### ignore\_synonyms
 
@@ -112,10 +107,9 @@ default value: false
 
 #### Defined in
 
-[main.ts:78542](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L78542)
+main.ts:80919
 
 ___
-
 
 ### include\_serp\_info
 
@@ -132,10 +126,9 @@ default value: false
 
 #### Defined in
 
-[main.ts:78532](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L78532)
+main.ts:80909
 
 ___
-
 
 ### include\_subdomains
 
@@ -152,10 +145,9 @@ default value: true
 
 #### Defined in
 
-[main.ts:78537](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L78537)
+main.ts:80914
 
 ___
-
 
 ### language\_code
 
@@ -176,10 +168,9 @@ en
 
 #### Defined in
 
-[main.ts:78527](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L78527)
+main.ts:80904
 
 ___
-
 
 ### language\_name
 
@@ -200,10 +191,9 @@ English
 
 #### Defined in
 
-[main.ts:78518](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L78518)
+main.ts:80895
 
 ___
-
 
 ### limit
 
@@ -220,10 +210,9 @@ maximum value: 1000
 
 #### Defined in
 
-[main.ts:78547](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L78547)
+main.ts:80924
 
 ___
-
 
 ### location\_code
 
@@ -243,10 +232,9 @@ example:
 
 #### Defined in
 
-[main.ts:78509](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L78509)
+main.ts:80886
 
 ___
-
 
 ### location\_name
 
@@ -266,10 +254,9 @@ United Kingdom
 
 #### Defined in
 
-[main.ts:78501](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L78501)
+main.ts:80878
 
 ___
-
 
 ### offset
 
@@ -286,10 +273,9 @@ if you specify the 10 value, the first ten keywords in the results array will be
 
 #### Defined in
 
-[main.ts:78552](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L78552)
+main.ts:80929
 
 ___
-
 
 ### offset\_token
 
@@ -309,10 +295,9 @@ Note: if the offset_token is specified in the request, all other parameters exce
 
 #### Defined in
 
-[main.ts:78560](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L78560)
+main.ts:80937
 
 ___
-
 
 ### order\_by
 
@@ -340,10 +325,9 @@ example:
 
 #### Defined in
 
-[main.ts:78593](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L78593)
+main.ts:80970
 
 ___
-
 
 ### tag
 
@@ -361,10 +345,9 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-[main.ts:78599](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L78599)
+main.ts:80976
 
 ___
-
 
 ### target
 
@@ -381,7 +364,7 @@ the domain should be specified without https:// or www.
 
 #### Defined in
 
-[main.ts:78493](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L78493)
+main.ts:80870
 
 ## Methods
 
@@ -401,10 +384,9 @@ the domain should be specified without https:// or www.
 
 #### Defined in
 
-[main.ts:78612](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L78612)
+main.ts:80989
 
 ___
-
 
 ### toJSON
 
@@ -422,10 +404,9 @@ ___
 
 #### Defined in
 
-[main.ts:78650](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L78650)
+main.ts:81027
 
 ___
-
 
 ### fromJS
 
@@ -443,8 +424,4 @@ ___
 
 #### Defined in
 
-[main.ts:78643](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L78643)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:81020

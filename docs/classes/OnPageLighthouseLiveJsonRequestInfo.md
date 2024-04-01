@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / OnPageLighthouseLiveJsonRequestInfo
+[Documentation](../README.md) / [Exports](../modules.md) / OnPageLighthouseLiveJsonRequestInfo
 
 # Class: OnPageLighthouseLiveJsonRequestInfo
 
@@ -55,7 +51,7 @@
 
 #### Defined in
 
-[main.ts:154763](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L154763)
+main.ts:160190
 
 ## Properties
 
@@ -70,12 +66,11 @@ if you ignore this field, we will return data for all audits
 use this field to get data for specific audits you indicate here
 note that some audits do not belong to a specific category and are stand-alone page quality measurements
 in general, there can be several use cases:
-
 1. if you ignore categories, you can use this field to get data for the specified audits only
-   for example, if you ignore "categories" and specify "audits": ["metrics/cumulative-layout-shift","metrics/largest-contentful-paint","metrics/total-blocking-time"], you will get data only for these audits
+for example, if you ignore "categories" and specify "audits": ["metrics/cumulative-layout-shift","metrics/largest-contentful-paint","metrics/total-blocking-time"], you will get data only for these audits
 2. if you specify a category, you can use this field to additionally receive audits that do not belong to the category(-ies) you specified
-   for example, if you specify "categories": ["seo"] and "audits": ["metrics/cumulative-layout-shift","metrics/largest-contentful-paint","metrics/total-blocking-time"], you will get only these audits under “performance” and all audits under “seo”
-   you can get the full list of possible audits here
+for example, if you specify "categories": ["seo"] and "audits": ["metrics/cumulative-layout-shift","metrics/largest-contentful-paint","metrics/total-blocking-time"], you will get only these audits under “performance” and all audits under “seo”
+you can get the full list of possible audits here
 
 #### Implementation of
 
@@ -83,10 +78,9 @@ in general, there can be several use cases:
 
 #### Defined in
 
-[main.ts:154736](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L154736)
+main.ts:160163
 
 ___
-
 
 ### categories
 
@@ -106,10 +100,9 @@ seo, pwa, performance, best_practices, accessibility
 
 #### Defined in
 
-[main.ts:154723](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L154723)
+main.ts:160150
 
 ___
-
 
 ### for\_mobile
 
@@ -127,10 +120,9 @@ default value: false
 
 #### Defined in
 
-[main.ts:154715](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L154715)
+main.ts:160142
 
 ___
-
 
 ### language\_code
 
@@ -148,10 +140,9 @@ en
 
 #### Defined in
 
-[main.ts:154753](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L154753)
+main.ts:160180
 
 ___
-
 
 ### language\_name
 
@@ -169,10 +160,9 @@ English
 
 #### Defined in
 
-[main.ts:154747](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L154747)
+main.ts:160174
 
 ___
-
 
 ### tag
 
@@ -190,10 +180,9 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-[main.ts:154759](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L154759)
+main.ts:160186
 
 ___
-
 
 ### url
 
@@ -211,10 +200,9 @@ https://dataforseo.com/
 
 #### Defined in
 
-[main.ts:154709](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L154709)
+main.ts:160136
 
 ___
-
 
 ### version
 
@@ -231,7 +219,7 @@ the list of available versions is available through the Lighthouse Versions endp
 
 #### Defined in
 
-[main.ts:154741](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L154741)
+main.ts:160168
 
 ## Methods
 
@@ -251,10 +239,9 @@ the list of available versions is available through the Lighthouse Versions endp
 
 #### Defined in
 
-[main.ts:154772](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L154772)
+main.ts:160199
 
 ___
-
 
 ### toJSON
 
@@ -272,10 +259,9 @@ ___
 
 #### Defined in
 
-[main.ts:154804](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L154804)
+main.ts:160231
 
 ___
-
 
 ### fromJS
 
@@ -293,8 +279,4 @@ ___
 
 #### Defined in
 
-[main.ts:154797](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L154797)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:160224

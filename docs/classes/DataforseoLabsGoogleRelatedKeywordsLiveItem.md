@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / DataforseoLabsGoogleRelatedKeywordsLiveItem
+[Documentation](../README.md) / [Exports](../modules.md) / DataforseoLabsGoogleRelatedKeywordsLiveItem
 
 # Class: DataforseoLabsGoogleRelatedKeywordsLiveItem
 
@@ -51,7 +47,7 @@
 
 #### Defined in
 
-[main.ts:80315](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L80315)
+main.ts:82692
 
 ## Properties
 
@@ -67,10 +63,9 @@ keyword search depth
 
 #### Defined in
 
-[main.ts:80308](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L80308)
+main.ts:82685
 
 ___
-
 
 ### keyword\_data
 
@@ -84,10 +79,9 @@ keyword data for the returned keyword
 
 #### Defined in
 
-[main.ts:80306](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L80306)
+main.ts:82683
 
 ___
-
 
 ### related\_keywords
 
@@ -102,10 +96,9 @@ represents the list of search queries which are related to the keyword returned 
 
 #### Defined in
 
-[main.ts:80311](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L80311)
+main.ts:82688
 
 ___
-
 
 ### se\_type
 
@@ -119,7 +112,7 @@ search engine type
 
 #### Defined in
 
-[main.ts:80304](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L80304)
+main.ts:82681
 
 ## Methods
 
@@ -139,10 +132,9 @@ search engine type
 
 #### Defined in
 
-[main.ts:80324](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L80324)
+main.ts:82701
 
 ___
-
 
 ### toJSON
 
@@ -160,10 +152,9 @@ ___
 
 #### Defined in
 
-[main.ts:80348](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L80348)
+main.ts:82725
 
 ___
-
 
 ### fromJS
 
@@ -181,8 +172,4 @@ ___
 
 #### Defined in
 
-[main.ts:80341](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L80341)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:82718

@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / AppendixAppendixDataInfo
+[Documentation](../README.md) / [Exports](../modules.md) / AppendixAppendixDataInfo
 
 # Class: AppendixAppendixDataInfo
 
@@ -51,7 +47,7 @@
 
 #### Defined in
 
-[main.ts:208850](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L208850)
+main.ts:214379
 
 ## Properties
 
@@ -65,10 +61,9 @@
 
 #### Defined in
 
-[main.ts:208844](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L208844)
+main.ts:214373
 
 ___
-
 
 ### status
 
@@ -80,10 +75,9 @@ ___
 
 #### Defined in
 
-[main.ts:208846](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L208846)
+main.ts:214375
 
 ___
-
 
 ### test
 
@@ -95,10 +89,9 @@ ___
 
 #### Defined in
 
-[main.ts:208845](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L208845)
+main.ts:214374
 
 ___
-
 
 ### user\_data
 
@@ -110,7 +103,7 @@ ___
 
 #### Defined in
 
-[main.ts:208843](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L208843)
+main.ts:214372
 
 ## Methods
 
@@ -130,10 +123,9 @@ ___
 
 #### Defined in
 
-[main.ts:208859](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L208859)
+main.ts:214388
 
 ___
-
 
 ### toJSON
 
@@ -151,10 +143,9 @@ ___
 
 #### Defined in
 
-[main.ts:208879](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L208879)
+main.ts:214408
 
 ___
-
 
 ### fromJS
 
@@ -172,8 +163,4 @@ ___
 
 #### Defined in
 
-[main.ts:208872](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L208872)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:214401

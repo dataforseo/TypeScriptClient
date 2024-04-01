@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / DataforseoLabsGoogleSearchIntentLiveResultInfo
+[Documentation](../README.md) / [Exports](../modules.md) / DataforseoLabsGoogleSearchIntentLiveResultInfo
 
 # Class: DataforseoLabsGoogleSearchIntentLiveResultInfo
 
@@ -50,7 +46,7 @@
 
 #### Defined in
 
-[main.ts:82933](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L82933)
+main.ts:85310
 
 ## Properties
 
@@ -66,10 +62,9 @@ array of items with relevant traffic estimation data
 
 #### Defined in
 
-[main.ts:82929](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L82929)
+main.ts:85306
 
 ___
-
 
 ### items\_count
 
@@ -83,10 +78,9 @@ the number of results returned in the items array
 
 #### Defined in
 
-[main.ts:82927](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L82927)
+main.ts:85304
 
 ___
-
 
 ### language\_code
 
@@ -101,7 +95,7 @@ if there is no data, then the value is null
 
 #### Defined in
 
-[main.ts:82925](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L82925)
+main.ts:85302
 
 ## Methods
 
@@ -121,10 +115,9 @@ if there is no data, then the value is null
 
 #### Defined in
 
-[main.ts:82942](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L82942)
+main.ts:85319
 
 ___
-
 
 ### toJSON
 
@@ -142,10 +135,9 @@ ___
 
 #### Defined in
 
-[main.ts:82965](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L82965)
+main.ts:85342
 
 ___
-
 
 ### fromJS
 
@@ -163,8 +155,4 @@ ___
 
 #### Defined in
 
-[main.ts:82958](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L82958)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:85335

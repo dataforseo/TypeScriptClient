@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / OnPageWaterfallRequestInfo
+[Documentation](../README.md) / [Exports](../modules.md) / OnPageWaterfallRequestInfo
 
 # Class: OnPageWaterfallRequestInfo
 
@@ -50,7 +46,7 @@
 
 #### Defined in
 
-[main.ts:149649](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L149649)
+main.ts:155076
 
 ## Properties
 
@@ -70,10 +66,9 @@ example:
 
 #### Defined in
 
-[main.ts:149635](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L149635)
+main.ts:155062
 
 ___
-
 
 ### tag
 
@@ -91,10 +86,9 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-[main.ts:149645](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L149645)
+main.ts:155072
 
 ___
-
 
 ### url
 
@@ -110,7 +104,7 @@ specify the pages you want to receive timing for
 
 #### Defined in
 
-[main.ts:149639](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L149639)
+main.ts:155066
 
 ## Methods
 
@@ -130,10 +124,9 @@ specify the pages you want to receive timing for
 
 #### Defined in
 
-[main.ts:149658](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L149658)
+main.ts:155085
 
 ___
-
 
 ### toJSON
 
@@ -151,10 +144,9 @@ ___
 
 #### Defined in
 
-[main.ts:149677](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L149677)
+main.ts:155104
 
 ___
-
 
 ### fromJS
 
@@ -172,8 +164,4 @@ ___
 
 #### Defined in
 
-[main.ts:149670](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L149670)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:155097

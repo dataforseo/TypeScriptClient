@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IMerchantAmazonLanguagesResultInfo
+[Documentation](../README.md) / [Exports](../modules.md) / IMerchantAmazonLanguagesResultInfo
 
 # Interface: IMerchantAmazonLanguagesResultInfo
 
@@ -31,10 +27,9 @@ language code according to ISO 639-1
 
 #### Defined in
 
-[main.ts:170182](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L170182)
+main.ts:175635
 
 ___
-
 
 ### language\_name
 
@@ -44,8 +39,4 @@ language name
 
 #### Defined in
 
-[main.ts:170180](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L170180)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:175633

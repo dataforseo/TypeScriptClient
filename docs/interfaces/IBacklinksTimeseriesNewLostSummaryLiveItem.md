@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IBacklinksTimeseriesNewLostSummaryLiveItem
+[Documentation](../README.md) / [Exports](../modules.md) / IBacklinksTimeseriesNewLostSummaryLiveItem
 
 # Interface: IBacklinksTimeseriesNewLostSummaryLiveItem
 
@@ -40,10 +36,9 @@ example:
 
 #### Defined in
 
-[main.ts:139064](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L139064)
+main.ts:144491
 
 ___
-
 
 ### lost\_backlinks
 
@@ -54,10 +49,9 @@ number of lost backlinks of the target
 
 #### Defined in
 
-[main.ts:139070](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L139070)
+main.ts:144497
 
 ___
-
 
 ### lost\_referring\_domains
 
@@ -68,10 +62,9 @@ number of lost referring domains of the target
 
 #### Defined in
 
-[main.ts:139076](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L139076)
+main.ts:144503
 
 ___
-
 
 ### lost\_referring\_main\_domains
 
@@ -82,10 +75,9 @@ number of lost referring main domains of the target
 
 #### Defined in
 
-[main.ts:139082](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L139082)
+main.ts:144509
 
 ___
-
 
 ### new\_backlinks
 
@@ -96,10 +88,9 @@ number of new backlinks pointing to the target
 
 #### Defined in
 
-[main.ts:139067](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L139067)
+main.ts:144494
 
 ___
-
 
 ### new\_referring\_domains
 
@@ -110,10 +101,9 @@ number of new referring domains pointing to the target
 
 #### Defined in
 
-[main.ts:139073](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L139073)
+main.ts:144500
 
 ___
-
 
 ### new\_referring\_main\_domains
 
@@ -124,10 +114,9 @@ number of new referring main domains pointing to the target
 
 #### Defined in
 
-[main.ts:139079](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L139079)
+main.ts:144506
 
 ___
-
 
 ### type
 
@@ -137,8 +126,4 @@ type of element
 
 #### Defined in
 
-[main.ts:139059](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L139059)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:144486

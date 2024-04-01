@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / BacklinksAvailableFiltersResultInfo
+[Documentation](../README.md) / [Exports](../modules.md) / BacklinksAvailableFiltersResultInfo
 
 # Class: BacklinksAvailableFiltersResultInfo
 
@@ -57,7 +53,7 @@
 
 #### Defined in
 
-[main.ts:128641](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L128641)
+main.ts:134008
 
 ## Properties
 
@@ -75,10 +71,9 @@
 
 #### Defined in
 
-[main.ts:128631](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L128631)
+main.ts:133998
 
 ___
-
 
 ### backlinks
 
@@ -94,10 +89,9 @@ ___
 
 #### Defined in
 
-[main.ts:128629](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L128629)
+main.ts:133996
 
 ___
-
 
 ### competitors
 
@@ -113,10 +107,9 @@ ___
 
 #### Defined in
 
-[main.ts:128637](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L128637)
+main.ts:134004
 
 ___
-
 
 ### content\_duplicates
 
@@ -132,10 +125,9 @@ ___
 
 #### Defined in
 
-[main.ts:128628](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L128628)
+main.ts:133995
 
 ___
-
 
 ### domain\_intersection
 
@@ -151,10 +143,9 @@ ___
 
 #### Defined in
 
-[main.ts:128633](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L128633)
+main.ts:134000
 
 ___
-
 
 ### domain\_pages
 
@@ -170,10 +161,9 @@ ___
 
 #### Defined in
 
-[main.ts:128630](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L128630)
+main.ts:133997
 
 ___
-
 
 ### domain\_pages\_summary
 
@@ -189,10 +179,9 @@ ___
 
 #### Defined in
 
-[main.ts:128636](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L128636)
+main.ts:134003
 
 ___
-
 
 ### page\_intersection
 
@@ -208,10 +197,9 @@ ___
 
 #### Defined in
 
-[main.ts:128634](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L128634)
+main.ts:134001
 
 ___
-
 
 ### referring\_domains
 
@@ -227,10 +215,9 @@ ___
 
 #### Defined in
 
-[main.ts:128632](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L128632)
+main.ts:133999
 
 ___
-
 
 ### referring\_networks
 
@@ -246,7 +233,7 @@ ___
 
 #### Defined in
 
-[main.ts:128635](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L128635)
+main.ts:134002
 
 ## Methods
 
@@ -266,10 +253,9 @@ ___
 
 #### Defined in
 
-[main.ts:128650](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L128650)
+main.ts:134017
 
 ___
-
 
 ### toJSON
 
@@ -287,10 +273,9 @@ ___
 
 #### Defined in
 
-[main.ts:128736](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L128736)
+main.ts:134103
 
 ___
-
 
 ### fromJS
 
@@ -308,8 +293,4 @@ ___
 
 #### Defined in
 
-[main.ts:128729](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L128729)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:134096

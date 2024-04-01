@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IHistoricalMetricsInfo
+[Documentation](../README.md) / [Exports](../modules.md) / IHistoricalMetricsInfo
 
 # Interface: IHistoricalMetricsInfo
 
@@ -33,10 +29,9 @@ total count of organic SERPs that contain the domain
 
 #### Defined in
 
-[main.ts:98245](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L98245)
+main.ts:100622
 
 ___
-
 
 ### etv
 
@@ -49,10 +44,9 @@ learn more about how the metric is calculated in this help center article
 
 #### Defined in
 
-[main.ts:98243](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L98243)
+main.ts:100620
 
 ___
-
 
 ### month
 
@@ -62,10 +56,9 @@ month for which the data is provided
 
 #### Defined in
 
-[main.ts:98238](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L98238)
+main.ts:100615
 
 ___
-
 
 ### year
 
@@ -75,8 +68,4 @@ year for which the data is provided
 
 #### Defined in
 
-[main.ts:98236](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L98236)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:100613

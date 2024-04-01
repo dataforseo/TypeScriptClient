@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / OnPageResourceIssueInfo
+[Documentation](../README.md) / [Exports](../modules.md) / OnPageResourceIssueInfo
 
 # Class: OnPageResourceIssueInfo
 
@@ -51,7 +47,7 @@ resource errors and warnings
 
 #### Defined in
 
-[main.ts:144672](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L144672)
+main.ts:150099
 
 ## Properties
 
@@ -67,10 +63,9 @@ resource errors
 
 #### Defined in
 
-[main.ts:144666](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L144666)
+main.ts:150093
 
 ___
-
 
 ### warnings
 
@@ -84,7 +79,7 @@ resource warnings
 
 #### Defined in
 
-[main.ts:144668](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L144668)
+main.ts:150095
 
 ## Methods
 
@@ -104,10 +99,9 @@ resource warnings
 
 #### Defined in
 
-[main.ts:144681](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L144681)
+main.ts:150108
 
 ___
-
 
 ### toJSON
 
@@ -125,10 +119,9 @@ ___
 
 #### Defined in
 
-[main.ts:144707](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L144707)
+main.ts:150134
 
 ___
-
 
 ### fromJS
 
@@ -146,8 +139,4 @@ ___
 
 #### Defined in
 
-[main.ts:144700](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L144700)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:150127

@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / BacklinksBacklinksLiveResultInfo
+[Documentation](../README.md) / [Exports](../modules.md) / BacklinksBacklinksLiveResultInfo
 
 # Class: BacklinksBacklinksLiveResultInfo
 
@@ -54,7 +50,7 @@
 
 #### Defined in
 
-[main.ts:131485](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L131485)
+main.ts:136870
 
 ## Properties
 
@@ -74,10 +70,9 @@ custom mode specified in a POST array
 
 #### Defined in
 
-[main.ts:131471](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L131471)
+main.ts:136856
 
 ___
-
 
 ### items
 
@@ -91,10 +86,9 @@ contains relevant backlinks and referring domains data
 
 #### Defined in
 
-[main.ts:131477](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L131477)
+main.ts:136862
 
 ___
-
 
 ### items\_count
 
@@ -108,10 +102,9 @@ the number of results returned in the items array
 
 #### Defined in
 
-[main.ts:131475](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L131475)
+main.ts:136860
 
 ___
-
 
 ### mode
 
@@ -125,10 +118,9 @@ mode specified in a POST array
 
 #### Defined in
 
-[main.ts:131469](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L131469)
+main.ts:136854
 
 ___
-
 
 ### search\_after\_token
 
@@ -144,10 +136,9 @@ search_after_token values are unique for each subsequent task
 
 #### Defined in
 
-[main.ts:131481](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L131481)
+main.ts:136866
 
 ___
-
 
 ### target
 
@@ -161,10 +152,9 @@ target domain in a POST array
 
 #### Defined in
 
-[main.ts:131467](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L131467)
+main.ts:136852
 
 ___
-
 
 ### total\_count
 
@@ -178,7 +168,7 @@ total amount of results relevant the request
 
 #### Defined in
 
-[main.ts:131473](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L131473)
+main.ts:136858
 
 ## Methods
 
@@ -198,10 +188,9 @@ total amount of results relevant the request
 
 #### Defined in
 
-[main.ts:131494](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L131494)
+main.ts:136879
 
 ___
-
 
 ### toJSON
 
@@ -219,10 +208,9 @@ ___
 
 #### Defined in
 
-[main.ts:131527](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L131527)
+main.ts:136912
 
 ___
-
 
 ### fromJS
 
@@ -240,8 +228,4 @@ ___
 
 #### Defined in
 
-[main.ts:131520](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L131520)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:136905

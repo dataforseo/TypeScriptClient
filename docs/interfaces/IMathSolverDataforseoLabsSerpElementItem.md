@@ -1,15 +1,11 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IMathSolverDataforseoLabsSerpElementItem
+[Documentation](../README.md) / [Exports](../modules.md) / IMathSolverDataforseoLabsSerpElementItem
 
 # Interface: IMathSolverDataforseoLabsSerpElementItem
 
 ## Hierarchy
 
 - [`IBaseDataforseoLabsSerpElementItem`](IBaseDataforseoLabsSerpElementItem.md)
-  
+
   ↳ **`IMathSolverDataforseoLabsSerpElementItem`**
 
 ## Implemented by
@@ -44,10 +40,9 @@ if there are none, equals null
 
 #### Defined in
 
-[main.ts:92906](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L92906)
+main.ts:95283
 
 ___
-
 
 ### links
 
@@ -59,10 +54,9 @@ if there are none, equals null
 
 #### Defined in
 
-[main.ts:92910](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L92910)
+main.ts:95287
 
 ___
-
 
 ### position
 
@@ -74,10 +68,9 @@ left, right
 
 #### Defined in
 
-[main.ts:92896](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L92896)
+main.ts:95273
 
 ___
-
 
 ### rank\_absolute
 
@@ -88,10 +81,9 @@ absolute position among all the elements in SERP
 
 #### Defined in
 
-[main.ts:92892](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L92892)
+main.ts:95269
 
 ___
-
 
 ### rank\_group
 
@@ -103,10 +95,9 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-[main.ts:92889](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L92889)
+main.ts:95266
 
 ___
-
 
 ### result
 
@@ -117,10 +108,9 @@ solution to the mathematical equation specified in the keyword field when settin
 
 #### Defined in
 
-[main.ts:92903](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L92903)
+main.ts:95280
 
 ___
-
 
 ### title
 
@@ -130,10 +120,9 @@ title of the result in SERP
 
 #### Defined in
 
-[main.ts:92900](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L92900)
+main.ts:95277
 
 ___
-
 
 ### xpath
 
@@ -143,8 +132,4 @@ the XPath of the element
 
 #### Defined in
 
-[main.ts:92898](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L92898)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:95275

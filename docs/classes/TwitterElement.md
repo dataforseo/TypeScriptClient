@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / TwitterElement
+[Documentation](../README.md) / [Exports](../modules.md) / TwitterElement
 
 # Class: TwitterElement
 
@@ -52,7 +48,7 @@
 
 #### Defined in
 
-[main.ts:28999](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L28999)
+main.ts:29768
 
 ## Properties
 
@@ -68,10 +64,9 @@ the date when the page source of the element was published
 
 #### Defined in
 
-[main.ts:28988](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L28988)
+main.ts:29757
 
 ___
-
 
 ### timestamp
 
@@ -88,10 +83,9 @@ example:
 
 #### Defined in
 
-[main.ts:28993](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L28993)
+main.ts:29762
 
 ___
-
 
 ### tweet
 
@@ -105,10 +99,9 @@ tweet message
 
 #### Defined in
 
-[main.ts:28986](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L28986)
+main.ts:29755
 
 ___
-
 
 ### type
 
@@ -122,10 +115,9 @@ type of element
 
 #### Defined in
 
-[main.ts:28984](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L28984)
+main.ts:29753
 
 ___
-
 
 ### url
 
@@ -139,7 +131,7 @@ URL
 
 #### Defined in
 
-[main.ts:28995](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L28995)
+main.ts:29764
 
 ## Methods
 
@@ -159,10 +151,9 @@ URL
 
 #### Defined in
 
-[main.ts:29008](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L29008)
+main.ts:29777
 
 ___
-
 
 ### toJSON
 
@@ -180,10 +171,9 @@ ___
 
 #### Defined in
 
-[main.ts:29029](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L29029)
+main.ts:29798
 
 ___
-
 
 ### fromJS
 
@@ -201,8 +191,4 @@ ___
 
 #### Defined in
 
-[main.ts:29022](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L29022)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:29791

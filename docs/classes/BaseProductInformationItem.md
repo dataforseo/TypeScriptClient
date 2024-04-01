@@ -1,19 +1,15 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / BaseProductInformationItem
+[Documentation](../README.md) / [Exports](../modules.md) / BaseProductInformationItem
 
 # Class: BaseProductInformationItem
 
 ## Hierarchy
 
 - **`BaseProductInformationItem`**
-  
+
   ↳ [`ProductInformationDetailsItem`](ProductInformationDetailsItem.md)
-  
+
   ↳ [`ProductInformationTextItem`](ProductInformationTextItem.md)
-  
+
   ↳ [`ProductInformationExtendedItem`](ProductInformationExtendedItem.md)
 
 ## Implements
@@ -58,7 +54,7 @@
 
 #### Defined in
 
-[main.ts:21717](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L21717)
+main.ts:22236
 
 ## Properties
 
@@ -68,7 +64,7 @@
 
 #### Defined in
 
-[main.ts:21715](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L21715)
+main.ts:22234
 
 ## Methods
 
@@ -88,10 +84,9 @@
 
 #### Defined in
 
-[main.ts:21727](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L21727)
+main.ts:22246
 
 ___
-
 
 ### toJSON
 
@@ -109,10 +104,9 @@ ___
 
 #### Defined in
 
-[main.ts:21758](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L21758)
+main.ts:22277
 
 ___
-
 
 ### fromJS
 
@@ -130,8 +124,4 @@ ___
 
 #### Defined in
 
-[main.ts:21736](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L21736)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:22255

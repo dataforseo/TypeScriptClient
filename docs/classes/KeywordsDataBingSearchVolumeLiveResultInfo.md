@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / KeywordsDataBingSearchVolumeLiveResultInfo
+[Documentation](../README.md) / [Exports](../modules.md) / KeywordsDataBingSearchVolumeLiveResultInfo
 
 # Class: KeywordsDataBingSearchVolumeLiveResultInfo
 
@@ -57,7 +53,7 @@
 
 #### Defined in
 
-[main.ts:123393](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L123393)
+main.ts:128760
 
 ## Properties
 
@@ -74,10 +70,9 @@ our API doesn’t return categories for this endpoint: the parameter will always
 
 #### Defined in
 
-[main.ts:123385](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L123385)
+main.ts:128752
 
 ___
-
 
 ### competition
 
@@ -96,10 +91,9 @@ if there is no data the value is null
 
 #### Defined in
 
-[main.ts:123373](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L123373)
+main.ts:128740
 
 ___
-
 
 ### cpc
 
@@ -115,10 +109,9 @@ if there is no data then the value is null
 
 #### Defined in
 
-[main.ts:123377](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L123377)
+main.ts:128744
 
 ___
-
 
 ### device
 
@@ -133,10 +126,9 @@ if there is no data, then the value is null
 
 #### Defined in
 
-[main.ts:123366](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L123366)
+main.ts:128733
 
 ___
-
 
 ### keyword
 
@@ -150,10 +142,9 @@ keyword in a POST array
 
 #### Defined in
 
-[main.ts:123355](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L123355)
+main.ts:128722
 
 ___
-
 
 ### language\_code
 
@@ -168,10 +159,9 @@ if there is no data, then the value is null
 
 #### Defined in
 
-[main.ts:123361](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L123361)
+main.ts:128728
 
 ___
-
 
 ### location\_code
 
@@ -186,10 +176,9 @@ if there is no data, then the value is null
 
 #### Defined in
 
-[main.ts:123358](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L123358)
+main.ts:128725
 
 ___
-
 
 ### monthly\_searches
 
@@ -205,10 +194,9 @@ if there is no data then the value is null
 
 #### Defined in
 
-[main.ts:123389](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L123389)
+main.ts:128756
 
 ___
-
 
 ### search\_partners
 
@@ -222,10 +210,9 @@ indicates whether data from partner networks included in the response
 
 #### Defined in
 
-[main.ts:123363](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L123363)
+main.ts:128730
 
 ___
-
 
 ### search\_volume
 
@@ -242,7 +229,7 @@ if there is no data, the value is null
 
 #### Defined in
 
-[main.ts:123382](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L123382)
+main.ts:128749
 
 ## Methods
 
@@ -262,10 +249,9 @@ if there is no data, the value is null
 
 #### Defined in
 
-[main.ts:123402](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L123402)
+main.ts:128769
 
 ___
-
 
 ### toJSON
 
@@ -283,10 +269,9 @@ ___
 
 #### Defined in
 
-[main.ts:123436](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L123436)
+main.ts:128803
 
 ___
-
 
 ### fromJS
 
@@ -304,8 +289,4 @@ ___
 
 #### Defined in
 
-[main.ts:123429](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L123429)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:128796

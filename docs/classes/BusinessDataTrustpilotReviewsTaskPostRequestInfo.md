@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / BusinessDataTrustpilotReviewsTaskPostRequestInfo
+[Documentation](../README.md) / [Exports](../modules.md) / BusinessDataTrustpilotReviewsTaskPostRequestInfo
 
 # Class: BusinessDataTrustpilotReviewsTaskPostRequestInfo
 
@@ -54,7 +50,7 @@
 
 #### Defined in
 
-[main.ts:199469](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L199469)
+main.ts:204930
 
 ## Properties
 
@@ -75,10 +71,9 @@ maximum value: 25000
 
 #### Defined in
 
-[main.ts:199439](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L199439)
+main.ts:204900
 
 ___
-
 
 ### domain
 
@@ -98,10 +93,9 @@ https://www.trustpilot.com/review/www.thepearlsource.com
 
 #### Defined in
 
-[main.ts:199416](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L199416)
+main.ts:204877
 
 ___
-
 
 ### pingback\_url
 
@@ -123,10 +117,9 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-[main.ts:199465](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L199465)
+main.ts:204926
 
 ___
-
 
 ### postback\_url
 
@@ -148,10 +141,9 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-[main.ts:199455](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L199455)
+main.ts:204916
 
 ___
-
 
 ### priority
 
@@ -171,10 +163,9 @@ The cost can be calculated on the Pricing page.
 
 #### Defined in
 
-[main.ts:199432](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L199432)
+main.ts:204893
 
 ___
-
 
 ### sort\_by
 
@@ -194,10 +185,9 @@ default value: relevance
 
 #### Defined in
 
-[main.ts:199424](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L199424)
+main.ts:204885
 
 ___
-
 
 ### tag
 
@@ -215,7 +205,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-[main.ts:199445](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L199445)
+main.ts:204906
 
 ## Methods
 
@@ -235,10 +225,9 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-[main.ts:199478](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L199478)
+main.ts:204939
 
 ___
-
 
 ### toJSON
 
@@ -256,10 +245,9 @@ ___
 
 #### Defined in
 
-[main.ts:199501](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L199501)
+main.ts:204962
 
 ___
-
 
 ### fromJS
 
@@ -277,8 +265,4 @@ ___
 
 #### Defined in
 
-[main.ts:199494](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L199494)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:204955

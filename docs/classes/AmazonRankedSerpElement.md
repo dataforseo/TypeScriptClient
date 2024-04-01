@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / AmazonRankedSerpElement
+[Documentation](../README.md) / [Exports](../modules.md) / AmazonRankedSerpElement
 
 # Class: AmazonRankedSerpElement
 
@@ -54,7 +50,7 @@
 
 #### Defined in
 
-[main.ts:100063](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L100063)
+main.ts:102440
 
 ## Properties
 
@@ -71,10 +67,9 @@ you can use it to make sure that we provided accurate results
 
 #### Defined in
 
-[main.ts:100042](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L100042)
+main.ts:102419
 
 ___
-
 
 ### last\_updated\_time
 
@@ -91,10 +86,9 @@ example:
 
 #### Defined in
 
-[main.ts:100054](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L100054)
+main.ts:102431
 
 ___
-
 
 ### previous\_updated\_time
 
@@ -111,10 +105,9 @@ example:
 
 #### Defined in
 
-[main.ts:100059](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L100059)
+main.ts:102436
 
 ___
-
 
 ### se\_results\_count
 
@@ -128,10 +121,9 @@ total number of results in Amazon SERP
 
 #### Defined in
 
-[main.ts:100049](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L100049)
+main.ts:102426
 
 ___
-
 
 ### se\_type
 
@@ -145,10 +137,9 @@ search engine type
 
 #### Defined in
 
-[main.ts:100036](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L100036)
+main.ts:102413
 
 ___
-
 
 ### serp\_item
 
@@ -163,10 +154,9 @@ the list of supported SERP elements can be found below
 
 #### Defined in
 
-[main.ts:100039](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L100039)
+main.ts:102416
 
 ___
-
 
 ### serp\_item\_types
 
@@ -183,7 +173,7 @@ amazon_serp, amazon_paid, editorial_recommendations, top_rated_from_our_brands, 
 
 #### Defined in
 
-[main.ts:100047](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L100047)
+main.ts:102424
 
 ## Methods
 
@@ -203,10 +193,9 @@ amazon_serp, amazon_paid, editorial_recommendations, top_rated_from_our_brands, 
 
 #### Defined in
 
-[main.ts:100072](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L100072)
+main.ts:102449
 
 ___
-
 
 ### toJSON
 
@@ -224,10 +213,9 @@ ___
 
 #### Defined in
 
-[main.ts:100099](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L100099)
+main.ts:102476
 
 ___
-
 
 ### fromJS
 
@@ -245,8 +233,4 @@ ___
 
 #### Defined in
 
-[main.ts:100092](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L100092)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:102469

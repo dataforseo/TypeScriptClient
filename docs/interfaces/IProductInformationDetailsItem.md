@@ -1,15 +1,11 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IProductInformationDetailsItem
+[Documentation](../README.md) / [Exports](../modules.md) / IProductInformationDetailsItem
 
 # Interface: IProductInformationDetailsItem
 
 ## Hierarchy
 
 - [`IBaseProductInformationItem`](IBaseProductInformationItem.md)
-  
+
   ↳ **`IProductInformationDetailsItem`**
 
 ## Implemented by
@@ -41,10 +37,9 @@ contains information specified about the product within the section_name
 
 #### Defined in
 
-[main.ts:172495](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L172495)
+main.ts:177948
 
 ___
-
 
 ### section\_name
 
@@ -54,8 +49,4 @@ name of the section related to product information specified in the contents
 
 #### Defined in
 
-[main.ts:172493](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L172493)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:177946

@@ -1,15 +1,11 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IMentionCarouselSerpElementItem
+[Documentation](../README.md) / [Exports](../modules.md) / IMentionCarouselSerpElementItem
 
 # Interface: IMentionCarouselSerpElementItem
 
 ## Hierarchy
 
 - [`IBaseSerpElementItem`](IBaseSerpElementItem.md)
-  
+
   ↳ **`IMentionCarouselSerpElementItem`**
 
 ## Implemented by
@@ -38,14 +34,14 @@
 
 • `Optional` **items**: [`MentionCarouselElement`](../classes/MentionCarouselElement.md)[]
 
-contains results featured in the ‘hotels_pack’ element of SERP
+additional items present in the element
+if there are none, equals null
 
 #### Defined in
 
-[main.ts:30957](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L30957)
+main.ts:31790
 
 ___
-
 
 ### position
 
@@ -57,10 +53,9 @@ left, right
 
 #### Defined in
 
-[main.ts:30951](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L30951)
+main.ts:31783
 
 ___
-
 
 ### rank\_absolute
 
@@ -68,28 +63,28 @@ ___
 
 absolute rank in SERP
 absolute position among all the elements in SERP
+always equals 0 for desktop
 
 #### Defined in
 
-[main.ts:30947](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L30947)
+main.ts:31779
 
 ___
-
 
 ### rank\_group
 
 • `Optional` **rank\_group**: `number`
 
 group rank in SERP
-position within a group of elements with identical type values
-positions of elements with different type values are omitted from rank_group
+position within a group of elements with identical type values;
+positions of elements with different type values are omitted from rank_group;
+always equals 0 for desktop
 
 #### Defined in
 
-[main.ts:30944](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L30944)
+main.ts:31775
 
 ___
-
 
 ### rectangle
 
@@ -101,23 +96,21 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 #### Defined in
 
-[main.ts:30961](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L30961)
+main.ts:31794
 
 ___
-
 
 ### title
 
 • `Optional` **title**: `string`
 
-title of a given link element
+title of the row
 
 #### Defined in
 
-[main.ts:30955](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L30955)
+main.ts:31787
 
 ___
-
 
 ### xpath
 
@@ -127,8 +120,4 @@ the XPath of the element
 
 #### Defined in
 
-[main.ts:30953](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L30953)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:31785

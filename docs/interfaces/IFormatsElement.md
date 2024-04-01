@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IFormatsElement
+[Documentation](../README.md) / [Exports](../modules.md) / IFormatsElement
 
 # Interface: IFormatsElement
 
@@ -33,10 +29,9 @@ for example: zip, html, csv
 
 #### Defined in
 
-[main.ts:50617](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L50617)
+main.ts:52992
 
 ___
-
 
 ### size
 
@@ -46,10 +41,9 @@ file size in bytes
 
 #### Defined in
 
-[main.ts:50619](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L50619)
+main.ts:52994
 
 ___
-
 
 ### type
 
@@ -59,8 +53,4 @@ type of element
 
 #### Defined in
 
-[main.ts:50614](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L50614)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:52989

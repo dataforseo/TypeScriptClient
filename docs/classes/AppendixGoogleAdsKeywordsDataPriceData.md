@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / AppendixGoogleAdsKeywordsDataPriceData
+[Documentation](../README.md) / [Exports](../modules.md) / AppendixGoogleAdsKeywordsDataPriceData
 
 # Class: AppendixGoogleAdsKeywordsDataPriceData
 
@@ -52,7 +48,7 @@
 
 #### Defined in
 
-[main.ts:209823](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L209823)
+main.ts:215352
 
 ## Properties
 
@@ -66,10 +62,9 @@
 
 #### Defined in
 
-[main.ts:209815](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L209815)
+main.ts:215344
 
 ___
-
 
 ### keywords\_for\_keywords
 
@@ -81,10 +76,9 @@ ___
 
 #### Defined in
 
-[main.ts:209816](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L209816)
+main.ts:215345
 
 ___
-
 
 ### keywords\_for\_site
 
@@ -96,10 +90,9 @@ ___
 
 #### Defined in
 
-[main.ts:209817](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L209817)
+main.ts:215346
 
 ___
-
 
 ### search\_volume
 
@@ -111,10 +104,9 @@ ___
 
 #### Defined in
 
-[main.ts:209818](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L209818)
+main.ts:215347
 
 ___
-
 
 ### status
 
@@ -126,7 +118,7 @@ ___
 
 #### Defined in
 
-[main.ts:209819](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L209819)
+main.ts:215348
 
 ## Methods
 
@@ -146,10 +138,9 @@ ___
 
 #### Defined in
 
-[main.ts:209832](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L209832)
+main.ts:215361
 
 ___
-
 
 ### toJSON
 
@@ -167,10 +158,9 @@ ___
 
 #### Defined in
 
-[main.ts:209853](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L209853)
+main.ts:215382
 
 ___
-
 
 ### fromJS
 
@@ -188,8 +178,4 @@ ___
 
 #### Defined in
 
-[main.ts:209846](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L209846)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:215375

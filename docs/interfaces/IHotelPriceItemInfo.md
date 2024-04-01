@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IHotelPriceItemInfo
+[Documentation](../README.md) / [Exports](../modules.md) / IHotelPriceItemInfo
 
 # Interface: IHotelPriceItemInfo
 
@@ -39,10 +35,9 @@ USD is applied by default, unless specified in the POST array
 
 #### Defined in
 
-[main.ts:193665](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L193665)
+main.ts:199126
 
 ___
-
 
 ### domain
 
@@ -53,10 +48,9 @@ domain of the third-party website page with pricing information
 
 #### Defined in
 
-[main.ts:193671](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L193671)
+main.ts:199132
 
 ___
-
 
 ### free\_cancellation\_until
 
@@ -68,10 +62,9 @@ equals null if free cancellation is not available for the selected dates
 
 #### Defined in
 
-[main.ts:193679](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L193679)
+main.ts:199140
 
 ___
-
 
 ### is\_paid
 
@@ -83,10 +76,9 @@ if false, related hotel_search_item is an organic hotel listing
 
 #### Defined in
 
-[main.ts:193675](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L193675)
+main.ts:199136
 
 ___
-
 
 ### offers
 
@@ -96,10 +88,9 @@ featured price offers
 
 #### Defined in
 
-[main.ts:193681](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L193681)
+main.ts:199142
 
 ___
-
 
 ### price
 
@@ -109,10 +100,9 @@ price per night
 
 #### Defined in
 
-[main.ts:193662](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L193662)
+main.ts:199123
 
 ___
-
 
 ### title
 
@@ -122,10 +112,9 @@ title of the hotel
 
 #### Defined in
 
-[main.ts:193660](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L193660)
+main.ts:199121
 
 ___
-
 
 ### type
 
@@ -135,10 +124,9 @@ type of element
 
 #### Defined in
 
-[main.ts:193658](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L193658)
+main.ts:199119
 
 ___
-
 
 ### url
 
@@ -149,8 +137,4 @@ URL to the third-party website page with pricing information
 
 #### Defined in
 
-[main.ts:193668](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L193668)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:199129

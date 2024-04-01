@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / PositiveConnotationDistribution
+[Documentation](../README.md) / [Exports](../modules.md) / PositiveConnotationDistribution
 
 # Class: PositiveConnotationDistribution
 
@@ -50,7 +46,7 @@
 
 #### Defined in
 
-[main.ts:157854](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L157854)
+main.ts:163281
 
 ## Properties
 
@@ -64,10 +60,9 @@
 
 #### Defined in
 
-[main.ts:157849](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L157849)
+main.ts:163276
 
 ___
-
 
 ### neutral
 
@@ -79,10 +74,9 @@ ___
 
 #### Defined in
 
-[main.ts:157850](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L157850)
+main.ts:163277
 
 ___
-
 
 ### positive
 
@@ -94,7 +88,7 @@ ___
 
 #### Defined in
 
-[main.ts:157848](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L157848)
+main.ts:163275
 
 ## Methods
 
@@ -114,10 +108,9 @@ ___
 
 #### Defined in
 
-[main.ts:157863](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L157863)
+main.ts:163290
 
 ___
-
 
 ### toJSON
 
@@ -135,10 +128,9 @@ ___
 
 #### Defined in
 
-[main.ts:157882](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L157882)
+main.ts:163309
 
 ___
-
 
 ### fromJS
 
@@ -156,8 +148,4 @@ ___
 
 #### Defined in
 
-[main.ts:157875](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L157875)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:163302

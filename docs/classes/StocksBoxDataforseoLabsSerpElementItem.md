@@ -1,15 +1,11 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / StocksBoxDataforseoLabsSerpElementItem
+[Documentation](../README.md) / [Exports](../modules.md) / StocksBoxDataforseoLabsSerpElementItem
 
 # Class: StocksBoxDataforseoLabsSerpElementItem
 
 ## Hierarchy
 
 - [`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md)
-  
+
   ↳ **`StocksBoxDataforseoLabsSerpElementItem`**
 
 ## Implements
@@ -70,7 +66,7 @@
 
 #### Defined in
 
-[main.ts:95723](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L95723)
+main.ts:98100
 
 ## Properties
 
@@ -84,10 +80,9 @@
 
 #### Defined in
 
-[main.ts:19715](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L19715)
+main.ts:20171
 
 ___
-
 
 ### domain
 
@@ -101,10 +96,9 @@ domain where a link points
 
 #### Defined in
 
-[main.ts:95714](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L95714)
+main.ts:98091
 
 ___
-
 
 ### graph
 
@@ -118,10 +112,9 @@ contains data provided in the graph of the element
 
 #### Defined in
 
-[main.ts:95719](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L95719)
+main.ts:98096
 
 ___
-
 
 ### position
 
@@ -137,10 +130,9 @@ left, right
 
 #### Defined in
 
-[main.ts:95699](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L95699)
+main.ts:98076
 
 ___
-
 
 ### price
 
@@ -154,10 +146,9 @@ price of the shopping element
 
 #### Defined in
 
-[main.ts:95710](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L95710)
+main.ts:98087
 
 ___
-
 
 ### rank\_absolute
 
@@ -172,10 +163,9 @@ absolute position among all the elements in SERP
 
 #### Defined in
 
-[main.ts:95695](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L95695)
+main.ts:98072
 
 ___
-
 
 ### rank\_group
 
@@ -190,10 +180,9 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-[main.ts:95692](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L95692)
+main.ts:98069
 
 ___
-
 
 ### snippet
 
@@ -207,10 +196,9 @@ text alongside the link title
 
 #### Defined in
 
-[main.ts:95708](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L95708)
+main.ts:98085
 
 ___
-
 
 ### source
 
@@ -225,10 +213,9 @@ indicates the source of information included in the shopping_element
 
 #### Defined in
 
-[main.ts:95706](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L95706)
+main.ts:98083
 
 ___
-
 
 ### table
 
@@ -243,10 +230,9 @@ if there are none, equals null
 
 #### Defined in
 
-[main.ts:95717](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L95717)
+main.ts:98094
 
 ___
-
 
 ### title
 
@@ -260,16 +246,15 @@ title of the result in SERP
 
 #### Defined in
 
-[main.ts:95703](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L95703)
+main.ts:98080
 
 ___
-
 
 ### url
 
 • `Optional` **url**: `string`
 
-URL link
+relevant URL of the Ad element in SERP
 
 #### Implementation of
 
@@ -277,10 +262,9 @@ URL link
 
 #### Defined in
 
-[main.ts:95712](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L95712)
+main.ts:98089
 
 ___
-
 
 ### xpath
 
@@ -294,7 +278,7 @@ the XPath of the element
 
 #### Defined in
 
-[main.ts:95701](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L95701)
+main.ts:98078
 
 ## Methods
 
@@ -318,10 +302,9 @@ the XPath of the element
 
 #### Defined in
 
-[main.ts:95728](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L95728)
+main.ts:98105
 
 ___
-
 
 ### toJSON
 
@@ -343,10 +326,9 @@ ___
 
 #### Defined in
 
-[main.ts:95757](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L95757)
+main.ts:98134
 
 ___
-
 
 ### fromJS
 
@@ -368,8 +350,4 @@ ___
 
 #### Defined in
 
-[main.ts:95750](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L95750)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:98127

@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / FormatsElement
+[Documentation](../README.md) / [Exports](../modules.md) / FormatsElement
 
 # Class: FormatsElement
 
@@ -50,7 +46,7 @@
 
 #### Defined in
 
-[main.ts:50571](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L50571)
+main.ts:52946
 
 ## Properties
 
@@ -67,10 +63,9 @@ for example: zip, html, csv
 
 #### Defined in
 
-[main.ts:50565](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L50565)
+main.ts:52940
 
 ___
-
 
 ### size
 
@@ -84,10 +79,9 @@ file size in bytes
 
 #### Defined in
 
-[main.ts:50567](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L50567)
+main.ts:52942
 
 ___
-
 
 ### type
 
@@ -101,7 +95,7 @@ type of element
 
 #### Defined in
 
-[main.ts:50562](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L50562)
+main.ts:52937
 
 ## Methods
 
@@ -121,10 +115,9 @@ type of element
 
 #### Defined in
 
-[main.ts:50580](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L50580)
+main.ts:52955
 
 ___
-
 
 ### toJSON
 
@@ -142,10 +135,9 @@ ___
 
 #### Defined in
 
-[main.ts:50599](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L50599)
+main.ts:52974
 
 ___
-
 
 ### fromJS
 
@@ -163,8 +155,4 @@ ___
 
 #### Defined in
 
-[main.ts:50592](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L50592)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:52967

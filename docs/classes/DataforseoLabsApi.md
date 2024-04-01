@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / DataforseoLabsApi
+[Documentation](../README.md) / [Exports](../modules.md) / DataforseoLabsApi
 
 # Class: DataforseoLabsApi
 
@@ -153,7 +149,7 @@
 
 #### Defined in
 
-[main.ts:6245](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L6245)
+main.ts:6446
 
 ## Properties
 
@@ -163,10 +159,9 @@
 
 #### Defined in
 
-[main.ts:6242](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L6242)
+main.ts:6443
 
 ___
-
 
 ### http
 
@@ -180,10 +175,9 @@ ___
 
 #### Defined in
 
-[main.ts:6241](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L6241)
+main.ts:6442
 
 ___
-
 
 ### jsonParseReviver
 
@@ -206,7 +200,7 @@ ___
 
 #### Defined in
 
-[main.ts:6243](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L6243)
+main.ts:6444
 
 ## Methods
 
@@ -228,10 +222,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:7531](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L7531)
+main.ts:7732
 
 ___
-
 
 ### amazonProductCompetitorsLive
 
@@ -251,10 +244,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:7699](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L7699)
+main.ts:7900
 
 ___
-
 
 ### amazonProductKeywordIntersectionsLive
 
@@ -274,10 +266,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:7741](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L7741)
+main.ts:7942
 
 ___
-
 
 ### amazonProductRankOverviewLive
 
@@ -297,10 +288,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:7657](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L7657)
+main.ts:7858
 
 ___
-
 
 ### amazonRankedKeywordsLive
 
@@ -320,10 +310,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:7615](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L7615)
+main.ts:7816
 
 ___
-
 
 ### amazonRelatedKeywordsLive
 
@@ -343,10 +332,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:7573](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L7573)
+main.ts:7774
 
 ___
-
 
 ### appleAppCompetitorsLive
 
@@ -366,10 +354,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:8497](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L8497)
+main.ts:8698
 
 ___
-
 
 ### appleAppIntersectionLive
 
@@ -389,10 +376,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:8539](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L8539)
+main.ts:8740
 
 ___
-
 
 ### appleBulkAppMetricsLive
 
@@ -412,10 +398,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:8413](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L8413)
+main.ts:8614
 
 ___
-
 
 ### appleKeywordsForAppLive
 
@@ -435,10 +420,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:8455](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L8455)
+main.ts:8656
 
 ___
-
 
 ### availableFilters
 
@@ -452,10 +436,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:6374](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L6374)
+main.ts:6575
 
 ___
-
 
 ### bingBulkKeywordDifficultyLive
 
@@ -475,10 +458,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:7783](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L7783)
+main.ts:7984
 
 ___
-
 
 ### bingBulkTrafficEstimationLive
 
@@ -498,10 +480,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:7825](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L7825)
+main.ts:8026
 
 ___
-
 
 ### bingCompetitorsDomainLive
 
@@ -521,10 +502,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:7867](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L7867)
+main.ts:8068
 
 ___
-
 
 ### bingDomainIntersectionLive
 
@@ -544,10 +524,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:7909](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L7909)
+main.ts:8110
 
 ___
-
 
 ### bingDomainRankOverviewLive
 
@@ -567,10 +546,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:7951](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L7951)
+main.ts:8152
 
 ___
-
 
 ### bingPageIntersectionLive
 
@@ -590,10 +568,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:7993](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L7993)
+main.ts:8194
 
 ___
-
 
 ### bingRankedKeywordsLive
 
@@ -613,10 +590,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:8035](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L8035)
+main.ts:8236
 
 ___
-
 
 ### bingRelatedKeywordsLive
 
@@ -636,10 +612,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:8077](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L8077)
+main.ts:8278
 
 ___
-
 
 ### bingRelevantPagesLive
 
@@ -659,10 +634,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:8119](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L8119)
+main.ts:8320
 
 ___
-
 
 ### bingSerpCompetitorsLive
 
@@ -682,10 +656,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:8161](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L8161)
+main.ts:8362
 
 ___
-
 
 ### bingSubdomainsLive
 
@@ -705,10 +678,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:8203](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L8203)
+main.ts:8404
 
 ___
-
 
 ### categories
 
@@ -722,10 +694,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:6448](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L6448)
+main.ts:6649
 
 ___
-
 
 ### dataforseoLabsErrors
 
@@ -745,10 +716,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:6333](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L6333)
+main.ts:6534
 
 ___
-
 
 ### dataforseoLabsIdList
 
@@ -768,10 +738,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:6254](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L6254)
+main.ts:6455
 
 ___
-
 
 ### dataforseoLabsLocationsAndLanguages
 
@@ -785,10 +754,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:6411](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L6411)
+main.ts:6612
 
 ___
-
 
 ### dataforseoLabsStatus
 
@@ -802,10 +770,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:6295](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L6295)
+main.ts:6496
 
 ___
-
 
 ### googleAppCompetitorsLive
 
@@ -825,10 +792,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:8329](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L8329)
+main.ts:8530
 
 ___
-
 
 ### googleAppIntersectionLive
 
@@ -848,10 +814,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:8371](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L8371)
+main.ts:8572
 
 ___
-
 
 ### googleAvailableHistory
 
@@ -865,10 +830,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:6485](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L6485)
+main.ts:6686
 
 ___
-
 
 ### googleBulkAppMetricsLive
 
@@ -888,10 +852,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:8245](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L8245)
+main.ts:8446
 
 ___
-
 
 ### googleBulkKeywordDifficultyLive
 
@@ -911,10 +874,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:6733](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L6733)
+main.ts:6934
 
 ___
-
 
 ### googleBulkTrafficEstimationLive
 
@@ -934,10 +896,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:7447](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L7447)
+main.ts:7648
 
 ___
-
 
 ### googleCategoriesForDomainLive
 
@@ -957,10 +918,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:6817](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L6817)
+main.ts:7018
 
 ___
-
 
 ### googleCompetitorsDomainLive
 
@@ -980,10 +940,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:7111](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L7111)
+main.ts:7312
 
 ___
-
 
 ### googleDomainIntersectionLive
 
@@ -1003,10 +962,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:7153](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L7153)
+main.ts:7354
 
 ___
-
 
 ### googleDomainMetricsByCategoriesLive
 
@@ -1026,10 +984,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:6901](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L6901)
+main.ts:7102
 
 ___
-
 
 ### googleDomainRankOverviewLive
 
@@ -1049,10 +1006,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:7279](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L7279)
+main.ts:7480
 
 ___
-
 
 ### googleDomainWhoisOverviewLive
 
@@ -1072,10 +1028,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:6985](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L6985)
+main.ts:7186
 
 ___
-
 
 ### googleHistoricalBulkTrafficEstimationLive
 
@@ -1095,10 +1050,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:7489](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L7489)
+main.ts:7690
 
 ___
-
 
 ### googleHistoricalRankOverviewLive
 
@@ -1118,10 +1072,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:7363](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L7363)
+main.ts:7564
 
 ___
-
 
 ### googleHistoricalSearchVolumeLive
 
@@ -1141,10 +1094,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:6691](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L6691)
+main.ts:6892
 
 ___
-
 
 ### googleHistoricalSerpsLive
 
@@ -1164,10 +1116,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:7321](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L7321)
+main.ts:7522
 
 ___
-
 
 ### googleKeywordIdeasLive
 
@@ -1187,10 +1138,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:6649](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L6649)
+main.ts:6850
 
 ___
-
 
 ### googleKeywordSuggestionsLive
 
@@ -1210,10 +1160,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:6607](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L6607)
+main.ts:6808
 
 ___
-
 
 ### googleKeywordsForAppLive
 
@@ -1233,10 +1182,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:8287](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L8287)
+main.ts:8488
 
 ___
-
 
 ### googleKeywordsForCategoriesLive
 
@@ -1256,10 +1204,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:6859](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L6859)
+main.ts:7060
 
 ___
-
 
 ### googleKeywordsForSiteLive
 
@@ -1279,10 +1226,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:6523](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L6523)
+main.ts:6724
 
 ___
-
 
 ### googlePageIntersectionLive
 
@@ -1302,10 +1248,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:7405](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L7405)
+main.ts:7606
 
 ___
-
 
 ### googleRankedKeywordsLive
 
@@ -1325,10 +1270,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:7027](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L7027)
+main.ts:7228
 
 ___
-
 
 ### googleRelatedKeywordsLive
 
@@ -1348,10 +1292,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:6565](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L6565)
+main.ts:6766
 
 ___
-
 
 ### googleRelevantPagesLive
 
@@ -1371,10 +1314,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:7237](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L7237)
+main.ts:7438
 
 ___
-
 
 ### googleSearchIntentLive
 
@@ -1394,10 +1336,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:6775](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L6775)
+main.ts:6976
 
 ___
-
 
 ### googleSerpCompetitorsLive
 
@@ -1417,10 +1358,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:7069](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L7069)
+main.ts:7270
 
 ___
-
 
 ### googleSubdomainsLive
 
@@ -1440,10 +1380,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:7195](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L7195)
+main.ts:7396
 
 ___
-
 
 ### googleTopSearchesLive
 
@@ -1463,10 +1402,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:6943](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L6943)
+main.ts:7144
 
 ___
-
 
 ### processAmazonBulkSearchVolumeLive
 
@@ -1484,10 +1422,9 @@ ___
 
 #### Defined in
 
-[main.ts:7551](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L7551)
+main.ts:7752
 
 ___
-
 
 ### processAmazonProductCompetitorsLive
 
@@ -1505,10 +1442,9 @@ ___
 
 #### Defined in
 
-[main.ts:7719](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L7719)
+main.ts:7920
 
 ___
-
 
 ### processAmazonProductKeywordIntersectionsLive
 
@@ -1526,10 +1462,9 @@ ___
 
 #### Defined in
 
-[main.ts:7761](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L7761)
+main.ts:7962
 
 ___
-
 
 ### processAmazonProductRankOverviewLive
 
@@ -1547,10 +1482,9 @@ ___
 
 #### Defined in
 
-[main.ts:7677](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L7677)
+main.ts:7878
 
 ___
-
 
 ### processAmazonRankedKeywordsLive
 
@@ -1568,10 +1502,9 @@ ___
 
 #### Defined in
 
-[main.ts:7635](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L7635)
+main.ts:7836
 
 ___
-
 
 ### processAmazonRelatedKeywordsLive
 
@@ -1589,10 +1522,9 @@ ___
 
 #### Defined in
 
-[main.ts:7593](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L7593)
+main.ts:7794
 
 ___
-
 
 ### processAppleAppCompetitorsLive
 
@@ -1610,10 +1542,9 @@ ___
 
 #### Defined in
 
-[main.ts:8517](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L8517)
+main.ts:8718
 
 ___
-
 
 ### processAppleAppIntersectionLive
 
@@ -1631,10 +1562,9 @@ ___
 
 #### Defined in
 
-[main.ts:8559](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L8559)
+main.ts:8760
 
 ___
-
 
 ### processAppleBulkAppMetricsLive
 
@@ -1652,10 +1582,9 @@ ___
 
 #### Defined in
 
-[main.ts:8433](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L8433)
+main.ts:8634
 
 ___
-
 
 ### processAppleKeywordsForAppLive
 
@@ -1673,10 +1602,9 @@ ___
 
 #### Defined in
 
-[main.ts:8475](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L8475)
+main.ts:8676
 
 ___
-
 
 ### processAvailableFilters
 
@@ -1694,10 +1622,9 @@ ___
 
 #### Defined in
 
-[main.ts:6390](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L6390)
+main.ts:6591
 
 ___
-
 
 ### processBingBulkKeywordDifficultyLive
 
@@ -1715,10 +1642,9 @@ ___
 
 #### Defined in
 
-[main.ts:7803](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L7803)
+main.ts:8004
 
 ___
-
 
 ### processBingBulkTrafficEstimationLive
 
@@ -1736,10 +1662,9 @@ ___
 
 #### Defined in
 
-[main.ts:7845](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L7845)
+main.ts:8046
 
 ___
-
 
 ### processBingCompetitorsDomainLive
 
@@ -1757,10 +1682,9 @@ ___
 
 #### Defined in
 
-[main.ts:7887](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L7887)
+main.ts:8088
 
 ___
-
 
 ### processBingDomainIntersectionLive
 
@@ -1778,10 +1702,9 @@ ___
 
 #### Defined in
 
-[main.ts:7929](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L7929)
+main.ts:8130
 
 ___
-
 
 ### processBingDomainRankOverviewLive
 
@@ -1799,10 +1722,9 @@ ___
 
 #### Defined in
 
-[main.ts:7971](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L7971)
+main.ts:8172
 
 ___
-
 
 ### processBingPageIntersectionLive
 
@@ -1820,10 +1742,9 @@ ___
 
 #### Defined in
 
-[main.ts:8013](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L8013)
+main.ts:8214
 
 ___
-
 
 ### processBingRankedKeywordsLive
 
@@ -1841,10 +1762,9 @@ ___
 
 #### Defined in
 
-[main.ts:8055](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L8055)
+main.ts:8256
 
 ___
-
 
 ### processBingRelatedKeywordsLive
 
@@ -1862,10 +1782,9 @@ ___
 
 #### Defined in
 
-[main.ts:8097](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L8097)
+main.ts:8298
 
 ___
-
 
 ### processBingRelevantPagesLive
 
@@ -1883,10 +1802,9 @@ ___
 
 #### Defined in
 
-[main.ts:8139](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L8139)
+main.ts:8340
 
 ___
-
 
 ### processBingSerpCompetitorsLive
 
@@ -1904,10 +1822,9 @@ ___
 
 #### Defined in
 
-[main.ts:8181](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L8181)
+main.ts:8382
 
 ___
-
 
 ### processBingSubdomainsLive
 
@@ -1925,10 +1842,9 @@ ___
 
 #### Defined in
 
-[main.ts:8223](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L8223)
+main.ts:8424
 
 ___
-
 
 ### processCategories
 
@@ -1946,10 +1862,9 @@ ___
 
 #### Defined in
 
-[main.ts:6464](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L6464)
+main.ts:6665
 
 ___
-
 
 ### processDataforseoLabsErrors
 
@@ -1967,10 +1882,9 @@ ___
 
 #### Defined in
 
-[main.ts:6353](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L6353)
+main.ts:6554
 
 ___
-
 
 ### processDataforseoLabsIdList
 
@@ -1988,10 +1902,9 @@ ___
 
 #### Defined in
 
-[main.ts:6274](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L6274)
+main.ts:6475
 
 ___
-
 
 ### processDataforseoLabsLocationsAndLanguages
 
@@ -2009,10 +1922,9 @@ ___
 
 #### Defined in
 
-[main.ts:6427](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L6427)
+main.ts:6628
 
 ___
-
 
 ### processDataforseoLabsStatus
 
@@ -2030,10 +1942,9 @@ ___
 
 #### Defined in
 
-[main.ts:6311](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L6311)
+main.ts:6512
 
 ___
-
 
 ### processGoogleAppCompetitorsLive
 
@@ -2051,10 +1962,9 @@ ___
 
 #### Defined in
 
-[main.ts:8349](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L8349)
+main.ts:8550
 
 ___
-
 
 ### processGoogleAppIntersectionLive
 
@@ -2072,10 +1982,9 @@ ___
 
 #### Defined in
 
-[main.ts:8391](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L8391)
+main.ts:8592
 
 ___
-
 
 ### processGoogleAvailableHistory
 
@@ -2093,10 +2002,9 @@ ___
 
 #### Defined in
 
-[main.ts:6501](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L6501)
+main.ts:6702
 
 ___
-
 
 ### processGoogleBulkAppMetricsLive
 
@@ -2114,10 +2022,9 @@ ___
 
 #### Defined in
 
-[main.ts:8265](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L8265)
+main.ts:8466
 
 ___
-
 
 ### processGoogleBulkKeywordDifficultyLive
 
@@ -2135,10 +2042,9 @@ ___
 
 #### Defined in
 
-[main.ts:6753](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L6753)
+main.ts:6954
 
 ___
-
 
 ### processGoogleBulkTrafficEstimationLive
 
@@ -2156,10 +2062,9 @@ ___
 
 #### Defined in
 
-[main.ts:7467](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L7467)
+main.ts:7668
 
 ___
-
 
 ### processGoogleCategoriesForDomainLive
 
@@ -2177,10 +2082,9 @@ ___
 
 #### Defined in
 
-[main.ts:6837](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L6837)
+main.ts:7038
 
 ___
-
 
 ### processGoogleCompetitorsDomainLive
 
@@ -2198,10 +2102,9 @@ ___
 
 #### Defined in
 
-[main.ts:7131](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L7131)
+main.ts:7332
 
 ___
-
 
 ### processGoogleDomainIntersectionLive
 
@@ -2219,10 +2122,9 @@ ___
 
 #### Defined in
 
-[main.ts:7173](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L7173)
+main.ts:7374
 
 ___
-
 
 ### processGoogleDomainMetricsByCategoriesLive
 
@@ -2240,10 +2142,9 @@ ___
 
 #### Defined in
 
-[main.ts:6921](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L6921)
+main.ts:7122
 
 ___
-
 
 ### processGoogleDomainRankOverviewLive
 
@@ -2261,10 +2162,9 @@ ___
 
 #### Defined in
 
-[main.ts:7299](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L7299)
+main.ts:7500
 
 ___
-
 
 ### processGoogleDomainWhoisOverviewLive
 
@@ -2282,10 +2182,9 @@ ___
 
 #### Defined in
 
-[main.ts:7005](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L7005)
+main.ts:7206
 
 ___
-
 
 ### processGoogleHistoricalBulkTrafficEstimationLive
 
@@ -2303,10 +2202,9 @@ ___
 
 #### Defined in
 
-[main.ts:7509](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L7509)
+main.ts:7710
 
 ___
-
 
 ### processGoogleHistoricalRankOverviewLive
 
@@ -2324,10 +2222,9 @@ ___
 
 #### Defined in
 
-[main.ts:7383](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L7383)
+main.ts:7584
 
 ___
-
 
 ### processGoogleHistoricalSearchVolumeLive
 
@@ -2345,10 +2242,9 @@ ___
 
 #### Defined in
 
-[main.ts:6711](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L6711)
+main.ts:6912
 
 ___
-
 
 ### processGoogleHistoricalSerpsLive
 
@@ -2366,10 +2262,9 @@ ___
 
 #### Defined in
 
-[main.ts:7341](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L7341)
+main.ts:7542
 
 ___
-
 
 ### processGoogleKeywordIdeasLive
 
@@ -2387,10 +2282,9 @@ ___
 
 #### Defined in
 
-[main.ts:6669](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L6669)
+main.ts:6870
 
 ___
-
 
 ### processGoogleKeywordSuggestionsLive
 
@@ -2408,10 +2302,9 @@ ___
 
 #### Defined in
 
-[main.ts:6627](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L6627)
+main.ts:6828
 
 ___
-
 
 ### processGoogleKeywordsForAppLive
 
@@ -2429,10 +2322,9 @@ ___
 
 #### Defined in
 
-[main.ts:8307](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L8307)
+main.ts:8508
 
 ___
-
 
 ### processGoogleKeywordsForCategoriesLive
 
@@ -2450,10 +2342,9 @@ ___
 
 #### Defined in
 
-[main.ts:6879](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L6879)
+main.ts:7080
 
 ___
-
 
 ### processGoogleKeywordsForSiteLive
 
@@ -2471,10 +2362,9 @@ ___
 
 #### Defined in
 
-[main.ts:6543](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L6543)
+main.ts:6744
 
 ___
-
 
 ### processGooglePageIntersectionLive
 
@@ -2492,10 +2382,9 @@ ___
 
 #### Defined in
 
-[main.ts:7425](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L7425)
+main.ts:7626
 
 ___
-
 
 ### processGoogleRankedKeywordsLive
 
@@ -2513,10 +2402,9 @@ ___
 
 #### Defined in
 
-[main.ts:7047](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L7047)
+main.ts:7248
 
 ___
-
 
 ### processGoogleRelatedKeywordsLive
 
@@ -2534,10 +2422,9 @@ ___
 
 #### Defined in
 
-[main.ts:6585](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L6585)
+main.ts:6786
 
 ___
-
 
 ### processGoogleRelevantPagesLive
 
@@ -2555,10 +2442,9 @@ ___
 
 #### Defined in
 
-[main.ts:7257](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L7257)
+main.ts:7458
 
 ___
-
 
 ### processGoogleSearchIntentLive
 
@@ -2576,10 +2462,9 @@ ___
 
 #### Defined in
 
-[main.ts:6795](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L6795)
+main.ts:6996
 
 ___
-
 
 ### processGoogleSerpCompetitorsLive
 
@@ -2597,10 +2482,9 @@ ___
 
 #### Defined in
 
-[main.ts:7089](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L7089)
+main.ts:7290
 
 ___
-
 
 ### processGoogleSubdomainsLive
 
@@ -2618,10 +2502,9 @@ ___
 
 #### Defined in
 
-[main.ts:7215](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L7215)
+main.ts:7416
 
 ___
-
 
 ### processGoogleTopSearchesLive
 
@@ -2639,8 +2522,4 @@ ___
 
 #### Defined in
 
-[main.ts:6963](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L6963)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:7164

@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IKeywordProperties
+[Documentation](../README.md) / [Exports](../modules.md) / IKeywordProperties
 
 # Interface: IKeywordProperties
 
@@ -37,10 +33,9 @@ if the value is null, our database does not contain any keywords the correspondi
 
 #### Defined in
 
-[main.ts:79092](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L79092)
+main.ts:81469
 
 ___
-
 
 ### detected\_language
 
@@ -51,10 +46,9 @@ indicates the language of the keyword as identified by our system
 
 #### Defined in
 
-[main.ts:79106](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L79106)
+main.ts:81483
 
 ___
-
 
 ### is\_another\_language
 
@@ -65,10 +59,9 @@ if true, the language set in the request does not match the language determined 
 
 #### Defined in
 
-[main.ts:79109](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L79109)
+main.ts:81486
 
 ___
-
 
 ### keyword\_difficulty
 
@@ -81,10 +74,9 @@ learn more about the metric in this help center guide
 
 #### Defined in
 
-[main.ts:79103](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L79103)
+main.ts:81480
 
 ___
-
 
 ### se\_type
 
@@ -94,10 +86,9 @@ search engine type
 
 #### Defined in
 
-[main.ts:79088](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L79088)
+main.ts:81465
 
 ___
-
 
 ### synonym\_clustering\_algorithm
 
@@ -111,8 +102,4 @@ if the value is null, our database does not contain any keywords the correspondi
 
 #### Defined in
 
-[main.ts:79098](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L79098)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:81475

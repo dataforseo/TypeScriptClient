@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / AppendixTechnologiesDomainAnalyticsLimitsRatesDataInfo
+[Documentation](../README.md) / [Exports](../modules.md) / AppendixTechnologiesDomainAnalyticsLimitsRatesDataInfo
 
 # Class: AppendixTechnologiesDomainAnalyticsLimitsRatesDataInfo
 
@@ -56,13 +52,13 @@
 
 #### Defined in
 
-[main.ts:207305](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L207305)
+main.ts:212830
 
 ## Properties
 
 ### aggregation\_technologies
 
-• `Optional` **aggregation\_technologies**: [`AppendixInfo`](AppendixInfo.md)
+• `Optional` **aggregation\_technologies**: [`AppendixFunctionInfo`](AppendixFunctionInfo.md)
 
 #### Implementation of
 
@@ -70,14 +66,13 @@
 
 #### Defined in
 
-[main.ts:207298](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L207298)
+main.ts:212823
 
 ___
 
-
 ### domain\_technologies
 
-• `Optional` **domain\_technologies**: [`AppendixInfo`](AppendixInfo.md)
+• `Optional` **domain\_technologies**: [`AppendixFunctionInfo`](AppendixFunctionInfo.md)
 
 #### Implementation of
 
@@ -85,14 +80,13 @@ ___
 
 #### Defined in
 
-[main.ts:207293](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L207293)
+main.ts:212818
 
 ___
 
-
 ### domains\_by\_html\_terms
 
-• `Optional` **domains\_by\_html\_terms**: [`AppendixInfo`](AppendixInfo.md)
+• `Optional` **domains\_by\_html\_terms**: [`AppendixFunctionInfo`](AppendixFunctionInfo.md)
 
 #### Implementation of
 
@@ -100,14 +94,13 @@ ___
 
 #### Defined in
 
-[main.ts:207300](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L207300)
+main.ts:212825
 
 ___
 
-
 ### domains\_by\_technology
 
-• `Optional` **domains\_by\_technology**: [`AppendixInfo`](AppendixInfo.md)
+• `Optional` **domains\_by\_technology**: [`AppendixFunctionInfo`](AppendixFunctionInfo.md)
 
 #### Implementation of
 
@@ -115,10 +108,9 @@ ___
 
 #### Defined in
 
-[main.ts:207294](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L207294)
+main.ts:212819
 
 ___
-
 
 ### languages
 
@@ -130,10 +122,9 @@ ___
 
 #### Defined in
 
-[main.ts:207295](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L207295)
+main.ts:212820
 
 ___
-
 
 ### locations
 
@@ -145,10 +136,9 @@ ___
 
 #### Defined in
 
-[main.ts:207296](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L207296)
+main.ts:212821
 
 ___
-
 
 ### technologies
 
@@ -160,14 +150,13 @@ ___
 
 #### Defined in
 
-[main.ts:207297](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L207297)
+main.ts:212822
 
 ___
 
-
 ### technologies\_summary
 
-• `Optional` **technologies\_summary**: [`AppendixInfo`](AppendixInfo.md)
+• `Optional` **technologies\_summary**: [`AppendixFunctionInfo`](AppendixFunctionInfo.md)
 
 #### Implementation of
 
@@ -175,14 +164,13 @@ ___
 
 #### Defined in
 
-[main.ts:207299](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L207299)
+main.ts:212824
 
 ___
 
-
 ### technology\_stats
 
-• `Optional` **technology\_stats**: [`AppendixInfo`](AppendixInfo.md)
+• `Optional` **technology\_stats**: [`AppendixFunctionInfo`](AppendixFunctionInfo.md)
 
 #### Implementation of
 
@@ -190,7 +178,7 @@ ___
 
 #### Defined in
 
-[main.ts:207301](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L207301)
+main.ts:212826
 
 ## Methods
 
@@ -210,10 +198,9 @@ ___
 
 #### Defined in
 
-[main.ts:207314](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L207314)
+main.ts:212839
 
 ___
-
 
 ### toJSON
 
@@ -231,10 +218,9 @@ ___
 
 #### Defined in
 
-[main.ts:207339](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L207339)
+main.ts:212864
 
 ___
-
 
 ### fromJS
 
@@ -252,8 +238,4 @@ ___
 
 #### Defined in
 
-[main.ts:207332](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L207332)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:212857

@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IDomainAnalyticsTechnologiesAvailableFiltersResultInfo
+[Documentation](../README.md) / [Exports](../modules.md) / IDomainAnalyticsTechnologiesAvailableFiltersResultInfo
 
 # Interface: IDomainAnalyticsTechnologiesAvailableFiltersResultInfo
 
@@ -35,10 +31,9 @@
 
 #### Defined in
 
-[main.ts:71653](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L71653)
+main.ts:74030
 
 ___
-
 
 ### domains\_by\_html\_terms
 
@@ -50,10 +45,9 @@ ___
 
 #### Defined in
 
-[main.ts:71655](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L71655)
+main.ts:74032
 
 ___
-
 
 ### domains\_by\_technology
 
@@ -65,10 +59,9 @@ ___
 
 #### Defined in
 
-[main.ts:71652](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L71652)
+main.ts:74029
 
 ___
-
 
 ### technologies\_summary
 
@@ -80,8 +73,4 @@ ___
 
 #### Defined in
 
-[main.ts:71654](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L71654)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:74031

@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IMerchantGoogleProductInfoTaskGetAdvancedResultInfo
+[Documentation](../README.md) / [Exports](../modules.md) / IMerchantGoogleProductInfoTaskGetAdvancedResultInfo
 
 # Interface: IMerchantGoogleProductInfoTaskGetAdvancedResultInfo
 
@@ -40,10 +36,9 @@ you can use it to make sure that we provided accurate results
 
 #### Defined in
 
-[main.ts:169436](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L169436)
+main.ts:174889
 
 ___
-
 
 ### datetime
 
@@ -56,10 +51,9 @@ example:
 
 #### Defined in
 
-[main.ts:169441](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L169441)
+main.ts:174894
 
 ___
-
 
 ### item\_types
 
@@ -71,10 +65,9 @@ product_info_element
 
 #### Defined in
 
-[main.ts:169445](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L169445)
+main.ts:174898
 
 ___
-
 
 ### items
 
@@ -85,10 +78,9 @@ contains all product attributes and related data listed on the product page
 
 #### Defined in
 
-[main.ts:169450](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L169450)
+main.ts:174903
 
 ___
-
 
 ### items\_count
 
@@ -98,10 +90,9 @@ the number of results returned in the items array
 
 #### Defined in
 
-[main.ts:169447](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L169447)
+main.ts:174900
 
 ___
-
 
 ### language\_code
 
@@ -111,10 +102,9 @@ language code in a POST array
 
 #### Defined in
 
-[main.ts:169433](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L169433)
+main.ts:174886
 
 ___
-
 
 ### location\_code
 
@@ -124,10 +114,9 @@ location code in a POST array
 
 #### Defined in
 
-[main.ts:169431](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L169431)
+main.ts:174884
 
 ___
-
 
 ### product\_id
 
@@ -138,10 +127,9 @@ learn more about the parameter in this help center guide
 
 #### Defined in
 
-[main.ts:169425](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L169425)
+main.ts:174878
 
 ___
-
 
 ### se\_domain
 
@@ -151,10 +139,9 @@ search engine domain in a POST array
 
 #### Defined in
 
-[main.ts:169429](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L169429)
+main.ts:174882
 
 ___
-
 
 ### type
 
@@ -164,8 +151,4 @@ type of element
 
 #### Defined in
 
-[main.ts:169427](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L169427)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:174880

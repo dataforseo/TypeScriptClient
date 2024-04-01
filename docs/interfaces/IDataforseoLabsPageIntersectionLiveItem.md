@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IDataforseoLabsPageIntersectionLiveItem
+[Documentation](../README.md) / [Exports](../modules.md) / IDataforseoLabsPageIntersectionLiveItem
 
 # Interface: IDataforseoLabsPageIntersectionLiveItem
 
@@ -38,10 +34,9 @@ depending on the number of specified URLs, it can contain from 1 to 20 arrays na
 
 #### Defined in
 
-[main.ts:97211](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L97211)
+main.ts:99588
 
 ___
-
 
 ### keyword\_data
 
@@ -51,10 +46,9 @@ keyword data for the returned keyword
 
 #### Defined in
 
-[main.ts:97207](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L97207)
+main.ts:99584
 
 ___
-
 
 ### se\_type
 
@@ -64,8 +58,4 @@ search engine type
 
 #### Defined in
 
-[main.ts:97205](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L97205)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:99582

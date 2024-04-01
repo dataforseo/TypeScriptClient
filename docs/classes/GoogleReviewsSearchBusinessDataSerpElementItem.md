@@ -1,15 +1,11 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / GoogleReviewsSearchBusinessDataSerpElementItem
+[Documentation](../README.md) / [Exports](../modules.md) / GoogleReviewsSearchBusinessDataSerpElementItem
 
 # Class: GoogleReviewsSearchBusinessDataSerpElementItem
 
 ## Hierarchy
 
 - [`BaseBusinessDataSerpElementItem`](BaseBusinessDataSerpElementItem.md)
-  
+
   ↳ **`GoogleReviewsSearchBusinessDataSerpElementItem`**
 
 ## Implements
@@ -80,7 +76,7 @@
 
 #### Defined in
 
-[main.ts:198228](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L198228)
+main.ts:203689
 
 ## Properties
 
@@ -94,10 +90,9 @@
 
 #### Defined in
 
-[main.ts:20076](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L20076)
+main.ts:20532
 
 ___
-
 
 ### images
 
@@ -111,10 +106,9 @@ images submitted by the reviewer
 
 #### Defined in
 
-[main.ts:198224](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L198224)
+main.ts:203685
 
 ___
-
 
 ### local\_guide
 
@@ -128,10 +122,9 @@ indicates whether the reviewer has a ‘local guide’ status
 
 #### Defined in
 
-[main.ts:198196](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L198196)
+main.ts:203657
 
 ___
-
 
 ### original\_owner\_answer
 
@@ -146,10 +139,9 @@ the original response to the review, no auto-translate applied
 
 #### Defined in
 
-[main.ts:198210](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L198210)
+main.ts:203671
 
 ___
-
 
 ### original\_review\_text
 
@@ -164,10 +156,9 @@ the original content of the review, no auto-translate applied
 
 #### Defined in
 
-[main.ts:198180](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L198180)
+main.ts:203641
 
 ___
-
 
 ### owner\_answer
 
@@ -182,10 +173,9 @@ the owner’s response to the review
 
 #### Defined in
 
-[main.ts:198207](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L198207)
+main.ts:203668
 
 ___
-
 
 ### owner\_time\_ago
 
@@ -200,10 +190,9 @@ indicates the time (in the ‘time ago’ format) when the owner submitted the r
 
 #### Defined in
 
-[main.ts:198213](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L198213)
+main.ts:203674
 
 ___
-
 
 ### owner\_timestamp
 
@@ -220,10 +209,9 @@ example:
 
 #### Defined in
 
-[main.ts:198218](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L198218)
+main.ts:203679
 
 ___
-
 
 ### photos\_count
 
@@ -237,10 +225,9 @@ total number of photos submitted by the reviewer
 
 #### Defined in
 
-[main.ts:198194](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L198194)
+main.ts:203655
 
 ___
-
 
 ### position
 
@@ -255,10 +242,9 @@ can take the following values: right
 
 #### Defined in
 
-[main.ts:198173](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L198173)
+main.ts:203634
 
 ___
-
 
 ### profile\_image\_url
 
@@ -272,10 +258,9 @@ URL of the reviewer’s profile image
 
 #### Defined in
 
-[main.ts:198204](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L198204)
+main.ts:203665
 
 ___
-
 
 ### profile\_name
 
@@ -289,10 +274,9 @@ profile name of the reviewer
 
 #### Defined in
 
-[main.ts:198198](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L198198)
+main.ts:203659
 
 ___
-
 
 ### profile\_url
 
@@ -306,10 +290,9 @@ URL of the reviewer’s profile
 
 #### Defined in
 
-[main.ts:198200](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L198200)
+main.ts:203661
 
 ___
-
 
 ### rank\_absolute
 
@@ -324,10 +307,9 @@ absolute position among all reviews on the list
 
 #### Defined in
 
-[main.ts:198170](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L198170)
+main.ts:203631
 
 ___
-
 
 ### rank\_group
 
@@ -342,10 +324,9 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-[main.ts:198167](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L198167)
+main.ts:203628
 
 ___
-
 
 ### rating
 
@@ -359,10 +340,9 @@ the rating score submitted by the reviewer
 
 #### Defined in
 
-[main.ts:198190](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L198190)
+main.ts:203651
 
 ___
-
 
 ### review\_id
 
@@ -378,10 +358,9 @@ ChZDSUhNMG9nS0VJQ0FnSUMxbHFyMFlnEAE
 
 #### Defined in
 
-[main.ts:198222](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L198222)
+main.ts:203683
 
 ___
-
 
 ### review\_text
 
@@ -395,10 +374,9 @@ the content of the review
 
 #### Defined in
 
-[main.ts:198177](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L198177)
+main.ts:203638
 
 ___
-
 
 ### review\_url
 
@@ -412,10 +390,9 @@ the URL of the review
 
 #### Defined in
 
-[main.ts:198202](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L198202)
+main.ts:203663
 
 ___
-
 
 ### reviews\_count
 
@@ -429,10 +406,9 @@ total number of reviews submitted by the reviewer
 
 #### Defined in
 
-[main.ts:198192](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L198192)
+main.ts:203653
 
 ___
-
 
 ### time\_ago
 
@@ -447,10 +423,9 @@ indicates the time (in the ‘time ago’ format) when the review was listed
 
 #### Defined in
 
-[main.ts:198183](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L198183)
+main.ts:203644
 
 ___
-
 
 ### timestamp
 
@@ -467,10 +442,9 @@ example:
 
 #### Defined in
 
-[main.ts:198188](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L198188)
+main.ts:203649
 
 ___
-
 
 ### xpath
 
@@ -484,7 +458,7 @@ the XPath of the review
 
 #### Defined in
 
-[main.ts:198175](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L198175)
+main.ts:203636
 
 ## Methods
 
@@ -508,10 +482,9 @@ the XPath of the review
 
 #### Defined in
 
-[main.ts:198233](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L198233)
+main.ts:203694
 
 ___
-
 
 ### toJSON
 
@@ -533,10 +506,9 @@ ___
 
 #### Defined in
 
-[main.ts:198276](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L198276)
+main.ts:203737
 
 ___
-
 
 ### fromJS
 
@@ -558,8 +530,4 @@ ___
 
 #### Defined in
 
-[main.ts:198269](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L198269)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:203730

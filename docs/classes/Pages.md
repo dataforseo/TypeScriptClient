@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / Pages
+[Documentation](../README.md) / [Exports](../modules.md) / Pages
 
 # Class: Pages
 
@@ -49,7 +45,7 @@
 
 #### Defined in
 
-[main.ts:147555](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L147555)
+main.ts:152982
 
 ## Properties
 
@@ -65,10 +61,9 @@ information about the page with duplicate content
 
 #### Defined in
 
-[main.ts:147551](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L147551)
+main.ts:152978
 
 ___
-
 
 ### similarity
 
@@ -84,7 +79,7 @@ can take values from 0 to 10
 
 #### Defined in
 
-[main.ts:147549](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L147549)
+main.ts:152976
 
 ## Methods
 
@@ -104,10 +99,9 @@ can take values from 0 to 10
 
 #### Defined in
 
-[main.ts:147564](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L147564)
+main.ts:152991
 
 ___
-
 
 ### toJSON
 
@@ -125,10 +119,9 @@ ___
 
 #### Defined in
 
-[main.ts:147586](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L147586)
+main.ts:153013
 
 ___
-
 
 ### fromJS
 
@@ -146,8 +139,4 @@ ___
 
 #### Defined in
 
-[main.ts:147579](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L147579)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:153006

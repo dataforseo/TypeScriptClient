@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / AppDataApi
+[Documentation](../README.md) / [Exports](../modules.md) / AppDataApi
 
 # Class: AppDataApi
 
@@ -121,7 +117,7 @@
 
 #### Defined in
 
-[main.ts:15267](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L15267)
+main.ts:15718
 
 ## Properties
 
@@ -131,10 +127,9 @@
 
 #### Defined in
 
-[main.ts:15264](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L15264)
+main.ts:15715
 
 ___
-
 
 ### http
 
@@ -148,10 +143,9 @@ ___
 
 #### Defined in
 
-[main.ts:15263](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L15263)
+main.ts:15714
 
 ___
-
 
 ### jsonParseReviver
 
@@ -174,7 +168,7 @@ ___
 
 #### Defined in
 
-[main.ts:15265](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L15265)
+main.ts:15716
 
 ## Methods
 
@@ -190,10 +184,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:16283](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L16283)
+main.ts:16734
 
 ___
-
 
 ### appDataAppleLocations
 
@@ -207,10 +200,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:16246](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L16246)
+main.ts:16697
 
 ___
-
 
 ### appDataErrors
 
@@ -230,10 +222,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:15318](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L15318)
+main.ts:15769
 
 ___
-
 
 ### appDataGoogleLanguages
 
@@ -247,10 +238,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:15433](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L15433)
+main.ts:15884
 
 ___
-
 
 ### appDataGoogleLocations
 
@@ -264,10 +254,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:15396](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L15396)
+main.ts:15847
 
 ___
-
 
 ### appDataIdList
 
@@ -287,10 +276,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:15276](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L15276)
+main.ts:15727
 
 ___
-
 
 ### appleAppInfoTaskGetAdvanced
 
@@ -310,10 +298,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:16524](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L16524)
+main.ts:16975
 
 ___
-
 
 ### appleAppInfoTaskPost
 
@@ -333,10 +320,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:16443](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L16443)
+main.ts:16894
 
 ___
-
 
 ### appleAppInfoTasksReady
 
@@ -350,10 +336,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:16484](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L16484)
+main.ts:16935
 
 ___
-
 
 ### appleAppListTaskGetAdvanced
 
@@ -373,10 +358,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:16646](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L16646)
+main.ts:17097
 
 ___
-
 
 ### appleAppListTaskPost
 
@@ -396,10 +380,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:16565](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L16565)
+main.ts:17016
 
 ___
-
 
 ### appleAppListTasksReady
 
@@ -413,10 +396,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:16606](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L16606)
+main.ts:17057
 
 ___
-
 
 ### appleAppListingsCategories
 
@@ -430,10 +412,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:16808](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L16808)
+main.ts:17259
 
 ___
-
 
 ### appleAppListingsSearchLive
 
@@ -453,10 +434,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:16846](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L16846)
+main.ts:17297
 
 ___
-
 
 ### appleAppReviewsTaskGetAdvanced
 
@@ -476,10 +456,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:16768](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L16768)
+main.ts:17219
 
 ___
-
 
 ### appleAppReviewsTaskPost
 
@@ -499,10 +478,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:16687](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L16687)
+main.ts:17138
 
 ___
-
 
 ### appleAppReviewsTasksReady
 
@@ -516,10 +494,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:16728](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L16728)
+main.ts:17179
 
 ___
-
 
 ### appleAppSearchesTaskGetAdvanced
 
@@ -539,10 +516,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:16402](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L16402)
+main.ts:16853
 
 ___
-
 
 ### appleAppSearchesTaskPost
 
@@ -562,10 +538,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:16321](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L16321)
+main.ts:16772
 
 ___
-
 
 ### appleAppSearchesTasksReady
 
@@ -579,10 +554,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:16362](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L16362)
+main.ts:16813
 
 ___
-
 
 ### appleCategories
 
@@ -596,10 +570,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:16209](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L16209)
+main.ts:16660
 
 ___
-
 
 ### googleAppInfoTaskGetAdvanced
 
@@ -619,10 +592,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:15882](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L15882)
+main.ts:16333
 
 ___
-
 
 ### googleAppInfoTaskGetHtml
 
@@ -642,10 +614,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:15925](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L15925)
+main.ts:16376
 
 ___
-
 
 ### googleAppInfoTaskPost
 
@@ -665,10 +636,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:15801](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L15801)
+main.ts:16252
 
 ___
-
 
 ### googleAppInfoTasksReady
 
@@ -682,10 +652,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:15842](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L15842)
+main.ts:16293
 
 ___
-
 
 ### googleAppListTaskGetAdvanced
 
@@ -705,10 +674,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:15717](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L15717)
+main.ts:16168
 
 ___
-
 
 ### googleAppListTaskGetHtml
 
@@ -728,10 +696,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:15760](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L15760)
+main.ts:16211
 
 ___
-
 
 ### googleAppListTaskPost
 
@@ -751,10 +718,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:15636](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L15636)
+main.ts:16087
 
 ___
-
 
 ### googleAppListTasksReady
 
@@ -768,10 +734,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:15677](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L15677)
+main.ts:16128
 
 ___
-
 
 ### googleAppListingsCategories
 
@@ -785,10 +750,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:16130](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L16130)
+main.ts:16581
 
 ___
-
 
 ### googleAppListingsSearchLive
 
@@ -808,10 +772,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:16168](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L16168)
+main.ts:16619
 
 ___
-
 
 ### googleAppReviewsTaskGetAdvanced
 
@@ -831,10 +794,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:16047](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L16047)
+main.ts:16498
 
 ___
-
 
 ### googleAppReviewsTaskGetHtml
 
@@ -854,10 +816,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:16090](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L16090)
+main.ts:16541
 
 ___
-
 
 ### googleAppReviewsTaskPost
 
@@ -877,10 +838,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:15966](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L15966)
+main.ts:16417
 
 ___
-
 
 ### googleAppReviewsTasksReady
 
@@ -894,10 +854,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:16007](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L16007)
+main.ts:16458
 
 ___
-
 
 ### googleAppSearchesTaskGetAdvanced
 
@@ -917,10 +876,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:15552](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L15552)
+main.ts:16003
 
 ___
-
 
 ### googleAppSearchesTaskGetHtml
 
@@ -940,10 +898,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:15595](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L15595)
+main.ts:16046
 
 ___
-
 
 ### googleAppSearchesTaskPost
 
@@ -963,10 +920,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:15471](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L15471)
+main.ts:15922
 
 ___
-
 
 ### googleAppSearchesTasksReady
 
@@ -980,10 +936,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:15512](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L15512)
+main.ts:15963
 
 ___
-
 
 ### googleCategories
 
@@ -997,10 +952,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:15359](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L15359)
+main.ts:15810
 
 ___
-
 
 ### processAppDataAppleLanguages
 
@@ -1018,10 +972,9 @@ ___
 
 #### Defined in
 
-[main.ts:16299](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L16299)
+main.ts:16750
 
 ___
-
 
 ### processAppDataAppleLocations
 
@@ -1039,10 +992,9 @@ ___
 
 #### Defined in
 
-[main.ts:16262](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L16262)
+main.ts:16713
 
 ___
-
 
 ### processAppDataErrors
 
@@ -1060,10 +1012,9 @@ ___
 
 #### Defined in
 
-[main.ts:15338](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L15338)
+main.ts:15789
 
 ___
-
 
 ### processAppDataGoogleLanguages
 
@@ -1081,10 +1032,9 @@ ___
 
 #### Defined in
 
-[main.ts:15449](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L15449)
+main.ts:15900
 
 ___
-
 
 ### processAppDataGoogleLocations
 
@@ -1102,10 +1052,9 @@ ___
 
 #### Defined in
 
-[main.ts:15412](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L15412)
+main.ts:15863
 
 ___
-
 
 ### processAppDataIdList
 
@@ -1123,10 +1072,9 @@ ___
 
 #### Defined in
 
-[main.ts:15296](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L15296)
+main.ts:15747
 
 ___
-
 
 ### processAppleAppInfoTaskGetAdvanced
 
@@ -1144,10 +1092,9 @@ ___
 
 #### Defined in
 
-[main.ts:16543](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L16543)
+main.ts:16994
 
 ___
-
 
 ### processAppleAppInfoTaskPost
 
@@ -1165,10 +1112,9 @@ ___
 
 #### Defined in
 
-[main.ts:16463](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L16463)
+main.ts:16914
 
 ___
-
 
 ### processAppleAppInfoTasksReady
 
@@ -1186,10 +1132,9 @@ ___
 
 #### Defined in
 
-[main.ts:16500](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L16500)
+main.ts:16951
 
 ___
-
 
 ### processAppleAppListTaskGetAdvanced
 
@@ -1207,10 +1152,9 @@ ___
 
 #### Defined in
 
-[main.ts:16665](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L16665)
+main.ts:17116
 
 ___
-
 
 ### processAppleAppListTaskPost
 
@@ -1228,10 +1172,9 @@ ___
 
 #### Defined in
 
-[main.ts:16585](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L16585)
+main.ts:17036
 
 ___
-
 
 ### processAppleAppListTasksReady
 
@@ -1249,10 +1192,9 @@ ___
 
 #### Defined in
 
-[main.ts:16622](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L16622)
+main.ts:17073
 
 ___
-
 
 ### processAppleAppListingsCategories
 
@@ -1270,10 +1212,9 @@ ___
 
 #### Defined in
 
-[main.ts:16824](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L16824)
+main.ts:17275
 
 ___
-
 
 ### processAppleAppListingsSearchLive
 
@@ -1291,10 +1232,9 @@ ___
 
 #### Defined in
 
-[main.ts:16866](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L16866)
+main.ts:17317
 
 ___
-
 
 ### processAppleAppReviewsTaskGetAdvanced
 
@@ -1312,10 +1252,9 @@ ___
 
 #### Defined in
 
-[main.ts:16787](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L16787)
+main.ts:17238
 
 ___
-
 
 ### processAppleAppReviewsTaskPost
 
@@ -1333,10 +1272,9 @@ ___
 
 #### Defined in
 
-[main.ts:16707](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L16707)
+main.ts:17158
 
 ___
-
 
 ### processAppleAppReviewsTasksReady
 
@@ -1354,10 +1292,9 @@ ___
 
 #### Defined in
 
-[main.ts:16744](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L16744)
+main.ts:17195
 
 ___
-
 
 ### processAppleAppSearchesTaskGetAdvanced
 
@@ -1375,10 +1312,9 @@ ___
 
 #### Defined in
 
-[main.ts:16421](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L16421)
+main.ts:16872
 
 ___
-
 
 ### processAppleAppSearchesTaskPost
 
@@ -1396,10 +1332,9 @@ ___
 
 #### Defined in
 
-[main.ts:16341](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L16341)
+main.ts:16792
 
 ___
-
 
 ### processAppleAppSearchesTasksReady
 
@@ -1417,10 +1352,9 @@ ___
 
 #### Defined in
 
-[main.ts:16378](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L16378)
+main.ts:16829
 
 ___
-
 
 ### processAppleCategories
 
@@ -1438,10 +1372,9 @@ ___
 
 #### Defined in
 
-[main.ts:16225](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L16225)
+main.ts:16676
 
 ___
-
 
 ### processGoogleAppInfoTaskGetAdvanced
 
@@ -1459,10 +1392,9 @@ ___
 
 #### Defined in
 
-[main.ts:15901](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L15901)
+main.ts:16352
 
 ___
-
 
 ### processGoogleAppInfoTaskGetHtml
 
@@ -1480,10 +1412,9 @@ ___
 
 #### Defined in
 
-[main.ts:15944](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L15944)
+main.ts:16395
 
 ___
-
 
 ### processGoogleAppInfoTaskPost
 
@@ -1501,10 +1432,9 @@ ___
 
 #### Defined in
 
-[main.ts:15821](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L15821)
+main.ts:16272
 
 ___
-
 
 ### processGoogleAppInfoTasksReady
 
@@ -1522,10 +1452,9 @@ ___
 
 #### Defined in
 
-[main.ts:15858](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L15858)
+main.ts:16309
 
 ___
-
 
 ### processGoogleAppListTaskGetAdvanced
 
@@ -1543,10 +1472,9 @@ ___
 
 #### Defined in
 
-[main.ts:15736](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L15736)
+main.ts:16187
 
 ___
-
 
 ### processGoogleAppListTaskGetHtml
 
@@ -1564,10 +1492,9 @@ ___
 
 #### Defined in
 
-[main.ts:15779](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L15779)
+main.ts:16230
 
 ___
-
 
 ### processGoogleAppListTaskPost
 
@@ -1585,10 +1512,9 @@ ___
 
 #### Defined in
 
-[main.ts:15656](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L15656)
+main.ts:16107
 
 ___
-
 
 ### processGoogleAppListTasksReady
 
@@ -1606,10 +1532,9 @@ ___
 
 #### Defined in
 
-[main.ts:15693](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L15693)
+main.ts:16144
 
 ___
-
 
 ### processGoogleAppListingsCategories
 
@@ -1627,10 +1552,9 @@ ___
 
 #### Defined in
 
-[main.ts:16146](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L16146)
+main.ts:16597
 
 ___
-
 
 ### processGoogleAppListingsSearchLive
 
@@ -1648,10 +1572,9 @@ ___
 
 #### Defined in
 
-[main.ts:16188](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L16188)
+main.ts:16639
 
 ___
-
 
 ### processGoogleAppReviewsTaskGetAdvanced
 
@@ -1669,10 +1592,9 @@ ___
 
 #### Defined in
 
-[main.ts:16066](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L16066)
+main.ts:16517
 
 ___
-
 
 ### processGoogleAppReviewsTaskGetHtml
 
@@ -1690,10 +1612,9 @@ ___
 
 #### Defined in
 
-[main.ts:16109](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L16109)
+main.ts:16560
 
 ___
-
 
 ### processGoogleAppReviewsTaskPost
 
@@ -1711,10 +1632,9 @@ ___
 
 #### Defined in
 
-[main.ts:15986](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L15986)
+main.ts:16437
 
 ___
-
 
 ### processGoogleAppReviewsTasksReady
 
@@ -1732,10 +1652,9 @@ ___
 
 #### Defined in
 
-[main.ts:16023](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L16023)
+main.ts:16474
 
 ___
-
 
 ### processGoogleAppSearchesTaskGetAdvanced
 
@@ -1753,10 +1672,9 @@ ___
 
 #### Defined in
 
-[main.ts:15571](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L15571)
+main.ts:16022
 
 ___
-
 
 ### processGoogleAppSearchesTaskGetHtml
 
@@ -1774,10 +1692,9 @@ ___
 
 #### Defined in
 
-[main.ts:15614](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L15614)
+main.ts:16065
 
 ___
-
 
 ### processGoogleAppSearchesTaskPost
 
@@ -1795,10 +1712,9 @@ ___
 
 #### Defined in
 
-[main.ts:15491](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L15491)
+main.ts:15942
 
 ___
-
 
 ### processGoogleAppSearchesTasksReady
 
@@ -1816,10 +1732,9 @@ ___
 
 #### Defined in
 
-[main.ts:15528](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L15528)
+main.ts:15979
 
 ___
-
 
 ### processGoogleCategories
 
@@ -1837,8 +1752,4 @@ ___
 
 #### Defined in
 
-[main.ts:15375](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L15375)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:15826

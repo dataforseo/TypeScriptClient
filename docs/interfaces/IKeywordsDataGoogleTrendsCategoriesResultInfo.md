@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IKeywordsDataGoogleTrendsCategoriesResultInfo
+[Documentation](../README.md) / [Exports](../modules.md) / IKeywordsDataGoogleTrendsCategoriesResultInfo
 
 # Interface: IKeywordsDataGoogleTrendsCategoriesResultInfo
 
@@ -32,10 +28,9 @@ unique google trends category identifier
 
 #### Defined in
 
-[main.ts:119659](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L119659)
+main.ts:122036
 
 ___
-
 
 ### category\_code\_parent
 
@@ -52,10 +47,9 @@ where category_code_parent corresponds to:
 
 #### Defined in
 
-[main.ts:119670](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L119670)
+main.ts:122047
 
 ___
-
 
 ### category\_name
 
@@ -65,8 +59,4 @@ name of the google trends category
 
 #### Defined in
 
-[main.ts:119661](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L119661)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:122038

@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IBusinessDataBusinessListingsSearchLiveResultInfo
+[Documentation](../README.md) / [Exports](../modules.md) / IBusinessDataBusinessListingsSearchLiveResultInfo
 
 # Interface: IBusinessDataBusinessListingsSearchLiveResultInfo
 
@@ -35,10 +31,9 @@ the number of items in the items array
 
 #### Defined in
 
-[main.ts:189437](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L189437)
+main.ts:194890
 
 ___
-
 
 ### items
 
@@ -50,10 +45,9 @@ possible item types: business_listing
 
 #### Defined in
 
-[main.ts:189447](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L189447)
+main.ts:194900
 
 ___
-
 
 ### offset
 
@@ -63,10 +57,9 @@ offset in the results array of returned businesses
 
 #### Defined in
 
-[main.ts:189439](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L189439)
+main.ts:194892
 
 ___
-
 
 ### offset\_token
 
@@ -78,10 +71,9 @@ offset_token values are unique for each subsequent task
 
 #### Defined in
 
-[main.ts:189443](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L189443)
+main.ts:194896
 
 ___
-
 
 ### total\_count
 
@@ -91,8 +83,4 @@ total number of results in our database relevant to your request
 
 #### Defined in
 
-[main.ts:189434](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L189434)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:194887

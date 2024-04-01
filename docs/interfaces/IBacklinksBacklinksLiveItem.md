@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IBacklinksBacklinksLiveItem
+[Documentation](../README.md) / [Exports](../modules.md) / IBacklinksBacklinksLiveItem
 
 # Interface: IBacklinksBacklinksLiveItem
 
@@ -77,10 +73,9 @@ this field will be null if backlink type is not image
 
 #### Defined in
 
-[main.ts:131418](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L131418)
+main.ts:136803
 
 ___
-
 
 ### anchor
 
@@ -90,10 +85,9 @@ anchor text of the backlink
 
 #### Defined in
 
-[main.ts:131423](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L131423)
+main.ts:136808
 
 ___
-
 
 ### attributes
 
@@ -105,10 +99,9 @@ nofollow
 
 #### Defined in
 
-[main.ts:131410](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L131410)
+main.ts:136795
 
 ___
-
 
 ### backlink\_spam\_score
 
@@ -119,10 +112,9 @@ learn more about how the metric is calculated on this help center page
 
 #### Defined in
 
-[main.ts:131339](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L131339)
+main.ts:136724
 
 ___
-
 
 ### dofollow
 
@@ -133,10 +125,9 @@ if false, the backlink is nofollow
 
 #### Defined in
 
-[main.ts:131413](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L131413)
+main.ts:136798
 
 ___
-
 
 ### domain\_from
 
@@ -146,10 +137,9 @@ domain referring to the target domain or webpage
 
 #### Defined in
 
-[main.ts:131316](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L131316)
+main.ts:136701
 
 ___
-
 
 ### domain\_from\_country
 
@@ -159,10 +149,9 @@ ISO country code of the referring domain
 
 #### Defined in
 
-[main.ts:131364](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L131364)
+main.ts:136749
 
 ___
-
 
 ### domain\_from\_ip
 
@@ -172,10 +161,9 @@ IP address of the referring domain
 
 #### Defined in
 
-[main.ts:131362](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L131362)
+main.ts:136747
 
 ___
-
 
 ### domain\_from\_is\_ip
 
@@ -186,10 +174,9 @@ if true, the domain functions as an IP address and does not have a domain name
 
 #### Defined in
 
-[main.ts:131360](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L131360)
+main.ts:136745
 
 ___
-
 
 ### domain\_from\_platform\_type
 
@@ -202,10 +189,9 @@ example:
 
 #### Defined in
 
-[main.ts:131357](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L131357)
+main.ts:136742
 
 ___
-
 
 ### domain\_from\_rank
 
@@ -217,10 +203,9 @@ learn more about the metric and how it is calculated in this help center article
 
 #### Defined in
 
-[main.ts:131352](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L131352)
+main.ts:136737
 
 ___
-
 
 ### domain\_to
 
@@ -230,10 +215,9 @@ domain the backlink is pointing to
 
 #### Defined in
 
-[main.ts:131323](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L131323)
+main.ts:136708
 
 ___
-
 
 ### first\_seen
 
@@ -246,10 +230,9 @@ example:
 
 #### Defined in
 
-[main.ts:131392](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L131392)
+main.ts:136777
 
 ___
-
 
 ### group\_count
 
@@ -260,10 +243,9 @@ for example, if mode is set to one_per_domain, this field will indicate the tota
 
 #### Defined in
 
-[main.ts:131437](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L131437)
+main.ts:136822
 
 ___
-
 
 ### image\_url
 
@@ -274,10 +256,9 @@ the URL leading to the image on the original resource or DataForSEO storage (in 
 
 #### Defined in
 
-[main.ts:131421](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L131421)
+main.ts:136806
 
 ___
-
 
 ### indirect\_link\_path
 
@@ -288,10 +269,9 @@ indicates a URL or a sequence of URLs that lead to url_to
 
 #### Defined in
 
-[main.ts:131460](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L131460)
+main.ts:136845
 
 ___
-
 
 ### is\_broken
 
@@ -302,10 +282,9 @@ if true, the backlink is pointing to a page responding with a 4xx or 5xx status 
 
 #### Defined in
 
-[main.ts:131440](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L131440)
+main.ts:136825
 
 ___
-
 
 ### is\_indirect\_link
 
@@ -316,10 +295,9 @@ if true, the backlink is an indirect link pointing to a page that either redirec
 
 #### Defined in
 
-[main.ts:131457](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L131457)
+main.ts:136842
 
 ___
-
 
 ### is\_lost
 
@@ -330,10 +308,9 @@ if true, the backlink or the entire page was removed
 
 #### Defined in
 
-[main.ts:131336](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L131336)
+main.ts:136721
 
 ___
-
 
 ### is\_new
 
@@ -344,10 +321,9 @@ if true, the backlink was found on the page last time our crawler visited it
 
 #### Defined in
 
-[main.ts:131333](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L131333)
+main.ts:136718
 
 ___
-
 
 ### item\_type
 
@@ -359,10 +335,9 @@ anchor, image, meta, canonical, alternate, redirect
 
 #### Defined in
 
-[main.ts:131406](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L131406)
+main.ts:136791
 
 ___
-
 
 ### last\_seen
 
@@ -375,10 +350,9 @@ example:
 
 #### Defined in
 
-[main.ts:131402](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L131402)
+main.ts:136787
 
 ___
-
 
 ### links\_count
 
@@ -388,10 +362,9 @@ number of identical backlinks found on the referring page
 
 #### Defined in
 
-[main.ts:131434](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L131434)
+main.ts:136819
 
 ___
-
 
 ### original
 
@@ -401,10 +374,9 @@ indicates whether the backlink was present on the referring page when our crawle
 
 #### Defined in
 
-[main.ts:131415](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L131415)
+main.ts:136800
 
 ___
-
 
 ### page\_from\_encoding
 
@@ -416,10 +388,9 @@ utf-8
 
 #### Defined in
 
-[main.ts:131376](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L131376)
+main.ts:136761
 
 ___
-
 
 ### page\_from\_external\_links
 
@@ -429,10 +400,9 @@ number of external links found on the referring page
 
 #### Defined in
 
-[main.ts:131366](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L131366)
+main.ts:136751
 
 ___
-
 
 ### page\_from\_internal\_links
 
@@ -442,10 +412,9 @@ number of internal links found on the referring page
 
 #### Defined in
 
-[main.ts:131368](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L131368)
+main.ts:136753
 
 ___
-
 
 ### page\_from\_language
 
@@ -458,10 +427,9 @@ en
 
 #### Defined in
 
-[main.ts:131381](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L131381)
+main.ts:136766
 
 ___
-
 
 ### page\_from\_rank
 
@@ -473,10 +441,9 @@ learn more about the metric and how it is calculated in this help center article
 
 #### Defined in
 
-[main.ts:131348](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L131348)
+main.ts:136733
 
 ___
-
 
 ### page\_from\_size
 
@@ -488,10 +455,9 @@ example:
 
 #### Defined in
 
-[main.ts:131372](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L131372)
+main.ts:136757
 
 ___
-
 
 ### page\_from\_status\_code
 
@@ -503,10 +469,9 @@ example:
 
 #### Defined in
 
-[main.ts:131387](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L131387)
+main.ts:136772
 
 ___
-
 
 ### page\_from\_title
 
@@ -516,10 +481,9 @@ title of the referring page
 
 #### Defined in
 
-[main.ts:131383](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L131383)
+main.ts:136768
 
 ___
-
 
 ### prev\_seen
 
@@ -532,10 +496,9 @@ example:
 
 #### Defined in
 
-[main.ts:131397](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L131397)
+main.ts:136782
 
 ___
-
 
 ### rank
 
@@ -548,10 +511,9 @@ learn more about the metric and how it is calculated in this help center article
 
 #### Defined in
 
-[main.ts:131344](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L131344)
+main.ts:136729
 
 ___
-
 
 ### ranked\_keywords\_info
 
@@ -561,10 +523,9 @@ number of keywords for which the page is ranked in top search results
 
 #### Defined in
 
-[main.ts:131454](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L131454)
+main.ts:136839
 
 ___
-
 
 ### semantic\_location
 
@@ -577,10 +538,9 @@ article, section, summary
 
 #### Defined in
 
-[main.ts:131432](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L131432)
+main.ts:136817
 
 ___
-
 
 ### text\_post
 
@@ -590,10 +550,9 @@ snippet after the anchor text
 
 #### Defined in
 
-[main.ts:131427](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L131427)
+main.ts:136812
 
 ___
-
 
 ### text\_pre
 
@@ -603,10 +562,9 @@ snippet before the anchor text
 
 #### Defined in
 
-[main.ts:131425](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L131425)
+main.ts:136810
 
 ___
-
 
 ### tld\_from
 
@@ -616,10 +574,9 @@ top-level domain of the referring URL
 
 #### Defined in
 
-[main.ts:131330](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L131330)
+main.ts:136715
 
 ___
-
 
 ### type
 
@@ -629,10 +586,9 @@ type of element
 
 #### Defined in
 
-[main.ts:131314](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L131314)
+main.ts:136699
 
 ___
-
 
 ### url\_from
 
@@ -642,10 +598,9 @@ URL of the page where the backlink is found
 
 #### Defined in
 
-[main.ts:131318](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L131318)
+main.ts:136703
 
 ___
-
 
 ### url\_from\_https
 
@@ -656,10 +611,9 @@ if true, the referring URL is secured with HTTPS
 
 #### Defined in
 
-[main.ts:131321](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L131321)
+main.ts:136706
 
 ___
-
 
 ### url\_to
 
@@ -669,10 +623,9 @@ URL the backlink is pointing to
 
 #### Defined in
 
-[main.ts:131325](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L131325)
+main.ts:136710
 
 ___
-
 
 ### url\_to\_https
 
@@ -683,10 +636,9 @@ if true, the URL is secured with HTTPS
 
 #### Defined in
 
-[main.ts:131328](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L131328)
+main.ts:136713
 
 ___
-
 
 ### url\_to\_redirect\_target
 
@@ -697,10 +649,9 @@ target page the redirect is pointing to
 
 #### Defined in
 
-[main.ts:131452](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L131452)
+main.ts:136837
 
 ___
-
 
 ### url\_to\_spam\_score
 
@@ -712,10 +663,9 @@ learn more about how the metric is calculated on this help center page
 
 #### Defined in
 
-[main.ts:131449](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L131449)
+main.ts:136834
 
 ___
-
 
 ### url\_to\_status\_code
 
@@ -728,8 +678,4 @@ example:
 
 #### Defined in
 
-[main.ts:131445](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L131445)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:136830

@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / BusinessDataTrustpilotSearchTaskPostRequestInfo
+[Documentation](../README.md) / [Exports](../modules.md) / BusinessDataTrustpilotSearchTaskPostRequestInfo
 
 # Class: BusinessDataTrustpilotSearchTaskPostRequestInfo
 
@@ -53,7 +49,7 @@
 
 #### Defined in
 
-[main.ts:198717](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L198717)
+main.ts:204178
 
 ## Properties
 
@@ -75,10 +71,9 @@ Note: your account will be charged for every 10 search results returned, e.g. if
 
 #### Defined in
 
-[main.ts:198687](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L198687)
+main.ts:204148
 
 ___
-
 
 ### keyword
 
@@ -97,10 +92,9 @@ if you need to use the “%” symbol for your keyword, please specify it as “
 
 #### Defined in
 
-[main.ts:198671](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L198671)
+main.ts:204132
 
 ___
-
 
 ### pingback\_url
 
@@ -122,10 +116,9 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-[main.ts:198713](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L198713)
+main.ts:204174
 
 ___
-
 
 ### postback\_url
 
@@ -147,10 +140,9 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-[main.ts:198703](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L198703)
+main.ts:204164
 
 ___
-
 
 ### priority
 
@@ -170,10 +162,9 @@ The cost can be calculated on the Pricing page.
 
 #### Defined in
 
-[main.ts:198679](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L198679)
+main.ts:204140
 
 ___
-
 
 ### tag
 
@@ -191,7 +182,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-[main.ts:198693](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L198693)
+main.ts:204154
 
 ## Methods
 
@@ -211,10 +202,9 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-[main.ts:198726](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L198726)
+main.ts:204187
 
 ___
-
 
 ### toJSON
 
@@ -232,10 +222,9 @@ ___
 
 #### Defined in
 
-[main.ts:198748](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L198748)
+main.ts:204209
 
 ___
-
 
 ### fromJS
 
@@ -253,8 +242,4 @@ ___
 
 #### Defined in
 
-[main.ts:198741](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L198741)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:204202

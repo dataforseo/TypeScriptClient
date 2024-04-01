@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / MerchantGoogleSellersTaskPostRequestInfo
+[Documentation](../README.md) / [Exports](../modules.md) / MerchantGoogleSellersTaskPostRequestInfo
 
 # Class: MerchantGoogleSellersTaskPostRequestInfo
 
@@ -61,7 +57,7 @@
 
 #### Defined in
 
-[main.ts:165953](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L165953)
+main.ts:171380
 
 ## Properties
 
@@ -86,10 +82,9 @@ example:
 
 #### Defined in
 
-[main.ts:165917](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L165917)
+main.ts:171344
 
 ___
-
 
 ### get\_shops\_on\_google
 
@@ -106,10 +101,9 @@ Note: if set to true, the cost of a task will be doubled
 
 #### Defined in
 
-[main.ts:165910](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L165910)
+main.ts:171337
 
 ___
-
 
 ### language\_code
 
@@ -128,10 +122,9 @@ en
 
 #### Defined in
 
-[main.ts:165898](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L165898)
+main.ts:171325
 
 ___
-
 
 ### language\_name
 
@@ -150,10 +143,9 @@ English
 
 #### Defined in
 
-[main.ts:165891](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L165891)
+main.ts:171318
 
 ___
-
 
 ### location\_code
 
@@ -172,10 +164,9 @@ example:
 
 #### Defined in
 
-[main.ts:165875](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L165875)
+main.ts:171302
 
 ___
-
 
 ### location\_coordinate
 
@@ -196,10 +187,9 @@ example:
 
 #### Defined in
 
-[main.ts:165884](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L165884)
+main.ts:171311
 
 ___
-
 
 ### location\_name
 
@@ -218,10 +208,9 @@ London,England,United Kingdom
 
 #### Defined in
 
-[main.ts:165868](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L165868)
+main.ts:171295
 
 ___
-
 
 ### pingback\_url
 
@@ -243,10 +232,9 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-[main.ts:165949](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L165949)
+main.ts:171376
 
 ___
-
 
 ### postback\_data
 
@@ -264,10 +252,9 @@ advanced, html
 
 #### Defined in
 
-[main.ts:165939](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L165939)
+main.ts:171366
 
 ___
-
 
 ### postback\_url
 
@@ -289,10 +276,9 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-[main.ts:165933](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L165933)
+main.ts:171360
 
 ___
-
 
 ### priority
 
@@ -312,10 +298,9 @@ The cost can be calculated on the Pricing page.
 
 #### Defined in
 
-[main.ts:165861](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L165861)
+main.ts:171288
 
 ___
-
 
 ### product\_id
 
@@ -335,10 +320,9 @@ learn more about the parameter in this help center guide
 
 #### Defined in
 
-[main.ts:165853](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L165853)
+main.ts:171280
 
 ___
-
 
 ### se\_domain
 
@@ -357,10 +341,9 @@ google.co.uk, google.com.au, google.de, etc.
 
 #### Defined in
 
-[main.ts:165905](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L165905)
+main.ts:171332
 
 ___
-
 
 ### tag
 
@@ -378,7 +361,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-[main.ts:165923](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L165923)
+main.ts:171350
 
 ## Methods
 
@@ -398,10 +381,9 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-[main.ts:165962](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L165962)
+main.ts:171389
 
 ___
-
 
 ### toJSON
 
@@ -419,10 +401,9 @@ ___
 
 #### Defined in
 
-[main.ts:165998](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L165998)
+main.ts:171425
 
 ___
-
 
 ### fromJS
 
@@ -440,8 +421,4 @@ ___
 
 #### Defined in
 
-[main.ts:165991](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L165991)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:171418

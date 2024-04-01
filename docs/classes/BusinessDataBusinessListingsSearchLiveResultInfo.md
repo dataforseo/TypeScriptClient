@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / BusinessDataBusinessListingsSearchLiveResultInfo
+[Documentation](../README.md) / [Exports](../modules.md) / BusinessDataBusinessListingsSearchLiveResultInfo
 
 # Class: BusinessDataBusinessListingsSearchLiveResultInfo
 
@@ -52,7 +48,7 @@
 
 #### Defined in
 
-[main.ts:189379](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L189379)
+main.ts:194832
 
 ## Properties
 
@@ -69,10 +65,9 @@ the number of items in the items array
 
 #### Defined in
 
-[main.ts:189365](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L189365)
+main.ts:194818
 
 ___
-
 
 ### items
 
@@ -88,10 +83,9 @@ possible item types: business_listing
 
 #### Defined in
 
-[main.ts:189375](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L189375)
+main.ts:194828
 
 ___
-
 
 ### offset
 
@@ -105,10 +99,9 @@ offset in the results array of returned businesses
 
 #### Defined in
 
-[main.ts:189367](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L189367)
+main.ts:194820
 
 ___
-
 
 ### offset\_token
 
@@ -124,10 +117,9 @@ offset_token values are unique for each subsequent task
 
 #### Defined in
 
-[main.ts:189371](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L189371)
+main.ts:194824
 
 ___
-
 
 ### total\_count
 
@@ -141,7 +133,7 @@ total number of results in our database relevant to your request
 
 #### Defined in
 
-[main.ts:189362](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L189362)
+main.ts:194815
 
 ## Methods
 
@@ -161,10 +153,9 @@ total number of results in our database relevant to your request
 
 #### Defined in
 
-[main.ts:189388](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L189388)
+main.ts:194841
 
 ___
-
 
 ### toJSON
 
@@ -182,10 +173,9 @@ ___
 
 #### Defined in
 
-[main.ts:189413](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L189413)
+main.ts:194866
 
 ___
-
 
 ### fromJS
 
@@ -203,8 +193,4 @@ ___
 
 #### Defined in
 
-[main.ts:189406](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L189406)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:194859

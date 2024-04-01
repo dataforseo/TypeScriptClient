@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / DataforseoLabsGoogleHistoricalBulkTrafficEstimationLiveResultInfo
+[Documentation](../README.md) / [Exports](../modules.md) / DataforseoLabsGoogleHistoricalBulkTrafficEstimationLiveResultInfo
 
 # Class: DataforseoLabsGoogleHistoricalBulkTrafficEstimationLiveResultInfo
 
@@ -53,7 +49,7 @@
 
 #### Defined in
 
-[main.ts:98430](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L98430)
+main.ts:100807
 
 ## Properties
 
@@ -69,10 +65,9 @@ array of items with relevant traffic estimation data
 
 #### Defined in
 
-[main.ts:98426](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L98426)
+main.ts:100803
 
 ___
-
 
 ### items\_count
 
@@ -86,10 +81,9 @@ the number of results returned in the items array
 
 #### Defined in
 
-[main.ts:98424](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L98424)
+main.ts:100801
 
 ___
-
 
 ### language\_code
 
@@ -104,10 +98,9 @@ if there is no data, then the value is null
 
 #### Defined in
 
-[main.ts:98420](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L98420)
+main.ts:100797
 
 ___
-
 
 ### location\_code
 
@@ -122,10 +115,9 @@ if there is no data, then the value is null
 
 #### Defined in
 
-[main.ts:98417](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L98417)
+main.ts:100794
 
 ___
-
 
 ### se\_type
 
@@ -139,10 +131,9 @@ search engine type
 
 #### Defined in
 
-[main.ts:98414](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L98414)
+main.ts:100791
 
 ___
-
 
 ### total\_count
 
@@ -156,7 +147,7 @@ total amount of results in our database relevant to your request
 
 #### Defined in
 
-[main.ts:98422](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L98422)
+main.ts:100799
 
 ## Methods
 
@@ -176,10 +167,9 @@ total amount of results in our database relevant to your request
 
 #### Defined in
 
-[main.ts:98439](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L98439)
+main.ts:100816
 
 ___
-
 
 ### toJSON
 
@@ -197,10 +187,9 @@ ___
 
 #### Defined in
 
-[main.ts:98465](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L98465)
+main.ts:100842
 
 ___
-
 
 ### fromJS
 
@@ -218,8 +207,4 @@ ___
 
 #### Defined in
 
-[main.ts:98458](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L98458)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:100835

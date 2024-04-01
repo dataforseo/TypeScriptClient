@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / BacklinksTimeseriesSummaryLiveResultInfo
+[Documentation](../README.md) / [Exports](../modules.md) / BacklinksTimeseriesSummaryLiveResultInfo
 
 # Class: BacklinksTimeseriesSummaryLiveResultInfo
 
@@ -53,7 +49,7 @@
 
 #### Defined in
 
-[main.ts:138645](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L138645)
+main.ts:144072
 
 ## Properties
 
@@ -72,10 +68,9 @@ example:
 
 #### Defined in
 
-[main.ts:138630](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L138630)
+main.ts:144057
 
 ___
-
 
 ### date\_to
 
@@ -92,10 +87,9 @@ example:
 
 #### Defined in
 
-[main.ts:138635](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L138635)
+main.ts:144062
 
 ___
-
 
 ### group\_range
 
@@ -109,10 +103,9 @@ group_range from a POST array
 
 #### Defined in
 
-[main.ts:138637](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L138637)
+main.ts:144064
 
 ___
-
 
 ### items
 
@@ -126,10 +119,9 @@ contains relevant summary data
 
 #### Defined in
 
-[main.ts:138641](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L138641)
+main.ts:144068
 
 ___
-
 
 ### items\_count
 
@@ -143,10 +135,9 @@ the number of results returned in the items array
 
 #### Defined in
 
-[main.ts:138639](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L138639)
+main.ts:144066
 
 ___
-
 
 ### target
 
@@ -160,7 +151,7 @@ target from a POST array
 
 #### Defined in
 
-[main.ts:138625](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L138625)
+main.ts:144052
 
 ## Methods
 
@@ -180,10 +171,9 @@ target from a POST array
 
 #### Defined in
 
-[main.ts:138654](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L138654)
+main.ts:144081
 
 ___
-
 
 ### toJSON
 
@@ -201,10 +191,9 @@ ___
 
 #### Defined in
 
-[main.ts:138680](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L138680)
+main.ts:144107
 
 ___
-
 
 ### fromJS
 
@@ -222,8 +211,4 @@ ___
 
 #### Defined in
 
-[main.ts:138673](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L138673)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:144100

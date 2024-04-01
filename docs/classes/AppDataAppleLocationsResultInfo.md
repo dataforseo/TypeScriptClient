@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / AppDataAppleLocationsResultInfo
+[Documentation](../README.md) / [Exports](../modules.md) / AppDataAppleLocationsResultInfo
 
 # Class: AppDataAppleLocationsResultInfo
 
@@ -52,7 +48,7 @@
 
 #### Defined in
 
-[main.ts:182751](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L182751)
+main.ts:188204
 
 ## Properties
 
@@ -68,10 +64,9 @@ ISO country code of the location
 
 #### Defined in
 
-[main.ts:182745](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L182745)
+main.ts:188198
 
 ___
-
 
 ### location\_code
 
@@ -85,10 +80,9 @@ location code
 
 #### Defined in
 
-[main.ts:182732](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L182732)
+main.ts:188185
 
 ___
-
 
 ### location\_name
 
@@ -102,10 +96,9 @@ full name of the location
 
 #### Defined in
 
-[main.ts:182734](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L182734)
+main.ts:188187
 
 ___
-
 
 ### location\_name\_parent
 
@@ -126,10 +119,9 @@ note: Apple App Data API currently supports countries only, that is why this val
 
 #### Defined in
 
-[main.ts:182743](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L182743)
+main.ts:188196
 
 ___
-
 
 ### location\_type
 
@@ -143,7 +135,7 @@ location type
 
 #### Defined in
 
-[main.ts:182747](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L182747)
+main.ts:188200
 
 ## Methods
 
@@ -163,10 +155,9 @@ location type
 
 #### Defined in
 
-[main.ts:182760](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L182760)
+main.ts:188213
 
 ___
-
 
 ### toJSON
 
@@ -184,10 +175,9 @@ ___
 
 #### Defined in
 
-[main.ts:182781](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L182781)
+main.ts:188234
 
 ___
-
 
 ### fromJS
 
@@ -205,8 +195,4 @@ ___
 
 #### Defined in
 
-[main.ts:182774](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L182774)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:188227

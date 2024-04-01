@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / AppDataAppleAppListTaskPostRequestInfo
+[Documentation](../README.md) / [Exports](../modules.md) / AppDataAppleAppListTaskPostRequestInfo
 
 # Class: AppDataAppleAppListTaskPostRequestInfo
 
@@ -59,7 +55,7 @@
 
 #### Defined in
 
-[main.ts:184971](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L184971)
+main.ts:190424
 
 ## Properties
 
@@ -80,10 +76,9 @@ you can review the full list of available categories here or by making a separat
 
 #### Defined in
 
-[main.ts:184935](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L184935)
+main.ts:190388
 
 ___
-
 
 ### app\_collection
 
@@ -101,10 +96,9 @@ top_free_ios, top_paid_ios, top_grossing_ios, new_ios, new_free_ios, new_paid_io
 
 #### Defined in
 
-[main.ts:184882](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L184882)
+main.ts:190335
 
 ___
-
 
 ### depth
 
@@ -126,10 +120,9 @@ maximum value: 1000
 
 #### Defined in
 
-[main.ts:184928](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L184928)
+main.ts:190381
 
 ___
-
 
 ### language\_code
 
@@ -148,10 +141,9 @@ en
 
 #### Defined in
 
-[main.ts:184910](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L184910)
+main.ts:190363
 
 ___
-
 
 ### language\_name
 
@@ -170,10 +162,9 @@ English
 
 #### Defined in
 
-[main.ts:184903](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L184903)
+main.ts:190356
 
 ___
-
 
 ### location\_code
 
@@ -192,10 +183,9 @@ example:
 
 #### Defined in
 
-[main.ts:184896](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L184896)
+main.ts:190349
 
 ___
-
 
 ### location\_name
 
@@ -214,10 +204,9 @@ West Los Angeles,California,United States
 
 #### Defined in
 
-[main.ts:184889](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L184889)
+main.ts:190342
 
 ___
-
 
 ### pingback\_url
 
@@ -239,10 +228,9 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-[main.ts:184967](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L184967)
+main.ts:190420
 
 ___
-
 
 ### postback\_data
 
@@ -260,10 +248,9 @@ advanced
 
 #### Defined in
 
-[main.ts:184957](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L184957)
+main.ts:190410
 
 ___
-
 
 ### postback\_url
 
@@ -285,10 +272,9 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-[main.ts:184951](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L184951)
+main.ts:190404
 
 ___
-
 
 ### priority
 
@@ -308,10 +294,9 @@ The cost can be calculated on the Pricing page.
 
 #### Defined in
 
-[main.ts:184918](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L184918)
+main.ts:190371
 
 ___
-
 
 ### tag
 
@@ -329,7 +314,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-[main.ts:184941](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L184941)
+main.ts:190394
 
 ## Methods
 
@@ -349,10 +334,9 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-[main.ts:184980](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L184980)
+main.ts:190433
 
 ___
-
 
 ### toJSON
 
@@ -370,10 +354,9 @@ ___
 
 #### Defined in
 
-[main.ts:185008](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L185008)
+main.ts:190461
 
 ___
-
 
 ### fromJS
 
@@ -391,8 +374,4 @@ ___
 
 #### Defined in
 
-[main.ts:185001](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L185001)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:190454

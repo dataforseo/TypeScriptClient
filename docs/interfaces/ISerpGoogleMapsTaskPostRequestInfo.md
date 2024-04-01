@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / ISerpGoogleMapsTaskPostRequestInfo
+[Documentation](../README.md) / [Exports](../modules.md) / ISerpGoogleMapsTaskPostRequestInfo
 
 # Interface: ISerpGoogleMapsTaskPostRequestInfo
 
@@ -55,10 +51,9 @@ if the specified depth is higher than the number of results in the response, the
 
 #### Defined in
 
-[main.ts:37623](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L37623)
+main.ts:38374
 
 ___
-
 
 ### device
 
@@ -72,10 +67,9 @@ note: for mobile device, only 20 results are returned for every SERP
 
 #### Defined in
 
-[main.ts:37600](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L37600)
+main.ts:38351
 
 ___
-
 
 ### keyword
 
@@ -92,10 +86,9 @@ Note: queries containing the ‘cache:’ parameter are not supported and will r
 
 #### Defined in
 
-[main.ts:37547](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L37547)
+main.ts:38298
 
 ___
-
 
 ### language\_code
 
@@ -110,10 +103,9 @@ en
 
 #### Defined in
 
-[main.ts:37594](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L37594)
+main.ts:38345
 
 ___
-
 
 ### language\_name
 
@@ -128,10 +120,9 @@ English
 
 #### Defined in
 
-[main.ts:37587](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L37587)
+main.ts:38338
 
 ___
-
 
 ### location\_code
 
@@ -146,10 +137,9 @@ example:
 
 #### Defined in
 
-[main.ts:37569](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L37569)
+main.ts:38320
 
 ___
-
 
 ### location\_coordinate
 
@@ -168,10 +158,9 @@ example:
 
 #### Defined in
 
-[main.ts:37580](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L37580)
+main.ts:38331
 
 ___
-
 
 ### location\_name
 
@@ -186,10 +175,9 @@ London,England,United Kingdom
 
 #### Defined in
 
-[main.ts:37562](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L37562)
+main.ts:38313
 
 ___
-
 
 ### max\_crawl\_pages
 
@@ -204,10 +192,9 @@ learn more at our help center
 
 #### Defined in
 
-[main.ts:37630](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L37630)
+main.ts:38381
 
 ___
-
 
 ### os
 
@@ -222,10 +209,9 @@ default value: android
 
 #### Defined in
 
-[main.ts:37607](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L37607)
+main.ts:38358
 
 ___
-
 
 ### pingback\_url
 
@@ -243,10 +229,9 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-[main.ts:37675](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L37675)
+main.ts:38426
 
 ___
-
 
 ### postback\_data
 
@@ -260,10 +245,9 @@ advanced
 
 #### Defined in
 
-[main.ts:37665](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L37665)
+main.ts:38416
 
 ___
-
 
 ### postback\_url
 
@@ -281,10 +265,9 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-[main.ts:37659](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L37659)
+main.ts:38410
 
 ___
-
 
 ### priority
 
@@ -300,10 +283,9 @@ The cost can be calculated on the Pricing page.
 
 #### Defined in
 
-[main.ts:37555](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L37555)
+main.ts:38306
 
 ___
-
 
 ### se\_domain
 
@@ -318,10 +300,9 @@ google.co.uk, google.com.au, google.de, etc.
 
 #### Defined in
 
-[main.ts:37614](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L37614)
+main.ts:38365
 
 ___
-
 
 ### search\_places
 
@@ -336,10 +317,9 @@ Note: if the search_places mode is turned off and no results were found in the s
 
 #### Defined in
 
-[main.ts:37643](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L37643)
+main.ts:38394
 
 ___
-
 
 ### search\_this\_area
 
@@ -353,10 +333,9 @@ Note: if the search_this_area mode is turned off, Google Maps listings might con
 
 #### Defined in
 
-[main.ts:37636](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L37636)
+main.ts:38387
 
 ___
-
 
 ### tag
 
@@ -370,10 +349,9 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-[main.ts:37649](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L37649)
+main.ts:38400
 
 ___
-
 
 ### url
 
@@ -387,8 +365,4 @@ https://google.com/maps/search/pizza/@37.09024,-95.712891,4z
 
 #### Defined in
 
-[main.ts:37538](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L37538)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:38289

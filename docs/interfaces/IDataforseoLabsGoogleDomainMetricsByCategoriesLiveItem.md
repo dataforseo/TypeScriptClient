@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IDataforseoLabsGoogleDomainMetricsByCategoriesLiveItem
+[Documentation](../README.md) / [Exports](../modules.md) / IDataforseoLabsGoogleDomainMetricsByCategoriesLiveItem
 
 # Interface: IDataforseoLabsGoogleDomainMetricsByCategoriesLiveItem
 
@@ -39,10 +35,9 @@ domain found for the specified category
 
 #### Defined in
 
-[main.ts:84752](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L84752)
+main.ts:87129
 
 ___
-
 
 ### main\_domain
 
@@ -52,10 +47,9 @@ primary domain
 
 #### Defined in
 
-[main.ts:84754](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L84754)
+main.ts:87131
 
 ___
-
 
 ### metrics\_difference
 
@@ -70,10 +64,9 @@ calculated by subtracting domain metrics as of the greater date from domain metr
 
 #### Defined in
 
-[main.ts:84759](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L84759)
+main.ts:87136
 
 ___
-
 
 ### metrics\_history
 
@@ -87,10 +80,9 @@ historical ranking and traffic data of the domain
 
 #### Defined in
 
-[main.ts:84756](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L84756)
+main.ts:87133
 
 ___
-
 
 ### organic\_count
 
@@ -100,10 +92,9 @@ current total count of organic SERPs that contain the domain
 
 #### Defined in
 
-[main.ts:84744](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L84744)
+main.ts:87121
 
 ___
-
 
 ### organic\_etv
 
@@ -113,10 +104,9 @@ current organic ETV of the domain
 
 #### Defined in
 
-[main.ts:84742](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L84742)
+main.ts:87119
 
 ___
-
 
 ### organic\_is\_lost
 
@@ -127,10 +117,9 @@ indicates how many ranked elements of the domain were previously presented in SE
 
 #### Defined in
 
-[main.ts:84747](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L84747)
+main.ts:87124
 
 ___
-
 
 ### organic\_is\_new
 
@@ -141,10 +130,9 @@ indicates how many new ranked elements were found for the domain
 
 #### Defined in
 
-[main.ts:84750](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L84750)
+main.ts:87127
 
 ___
-
 
 ### se\_type
 
@@ -154,10 +142,9 @@ search engine type
 
 #### Defined in
 
-[main.ts:84738](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L84738)
+main.ts:87115
 
 ___
-
 
 ### top\_categories
 
@@ -167,8 +154,4 @@ categories for which domains are collected
 
 #### Defined in
 
-[main.ts:84740](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L84740)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:87117

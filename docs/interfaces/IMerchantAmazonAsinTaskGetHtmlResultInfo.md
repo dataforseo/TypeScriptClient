@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IMerchantAmazonAsinTaskGetHtmlResultInfo
+[Documentation](../README.md) / [Exports](../modules.md) / IMerchantAmazonAsinTaskGetHtmlResultInfo
 
 # Interface: IMerchantAmazonAsinTaskGetHtmlResultInfo
 
@@ -40,10 +36,9 @@ example:
 
 #### Defined in
 
-[main.ts:173437](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L173437)
+main.ts:178890
 
 ___
-
 
 ### items
 
@@ -53,10 +48,9 @@ HTML pages and related data
 
 #### Defined in
 
-[main.ts:173441](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L173441)
+main.ts:178894
 
 ___
-
 
 ### items\_count
 
@@ -66,10 +60,9 @@ the number of results returned in the items array
 
 #### Defined in
 
-[main.ts:173439](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L173439)
+main.ts:178892
 
 ___
-
 
 ### language\_code
 
@@ -79,10 +72,9 @@ language code in a POST array
 
 #### Defined in
 
-[main.ts:173432](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L173432)
+main.ts:178885
 
 ___
-
 
 ### location\_code
 
@@ -92,10 +84,9 @@ location code in a POST array
 
 #### Defined in
 
-[main.ts:173430](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L173430)
+main.ts:178883
 
 ___
-
 
 ### product\_id
 
@@ -105,10 +96,9 @@ ASIN received in a POST array
 
 #### Defined in
 
-[main.ts:173424](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L173424)
+main.ts:178877
 
 ___
-
 
 ### se\_domain
 
@@ -118,10 +108,9 @@ search engine domain in a POST array
 
 #### Defined in
 
-[main.ts:173428](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L173428)
+main.ts:178881
 
 ___
-
 
 ### type
 
@@ -131,8 +120,4 @@ type of element
 
 #### Defined in
 
-[main.ts:173426](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L173426)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:178879

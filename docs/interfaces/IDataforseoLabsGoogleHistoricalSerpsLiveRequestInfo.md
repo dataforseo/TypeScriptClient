@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IDataforseoLabsGoogleHistoricalSerpsLiveRequestInfo
+[Documentation](../README.md) / [Exports](../modules.md) / IDataforseoLabsGoogleHistoricalSerpsLiveRequestInfo
 
 # Interface: IDataforseoLabsGoogleHistoricalSerpsLiveRequestInfo
 
@@ -41,10 +37,9 @@ date format: "yyyy-mm-dd"
 
 #### Defined in
 
-[main.ts:91076](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L91076)
+main.ts:93453
 
 ___
-
 
 ### date\_to
 
@@ -59,10 +54,9 @@ example:
 
 #### Defined in
 
-[main.ts:91083](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L91083)
+main.ts:93460
 
 ___
-
 
 ### keyword
 
@@ -77,10 +71,9 @@ if you need to use the “+” symbol for your keyword, please specify it as “
 
 #### Defined in
 
-[main.ts:91070](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L91070)
+main.ts:93447
 
 ___
-
 
 ### language\_code
 
@@ -96,10 +89,9 @@ en
 
 #### Defined in
 
-[main.ts:91113](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L91113)
+main.ts:93490
 
 ___
-
 
 ### language\_name
 
@@ -115,10 +107,9 @@ English
 
 #### Defined in
 
-[main.ts:91105](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L91105)
+main.ts:93482
 
 ___
-
 
 ### location\_code
 
@@ -133,10 +124,9 @@ example:
 
 #### Defined in
 
-[main.ts:91097](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L91097)
+main.ts:93474
 
 ___
-
 
 ### location\_name
 
@@ -151,10 +141,9 @@ United Kingdom
 
 #### Defined in
 
-[main.ts:91090](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L91090)
+main.ts:93467
 
 ___
-
 
 ### tag
 
@@ -168,8 +157,4 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-[main.ts:91119](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L91119)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:93496

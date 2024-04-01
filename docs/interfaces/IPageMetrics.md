@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IPageMetrics
+[Documentation](../README.md) / [Exports](../modules.md) / IPageMetrics
 
 # Interface: IPageMetrics
 
@@ -42,10 +38,9 @@ number of broken links across all crawled pages on a target website
 
 #### Defined in
 
-[main.ts:143641](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L143641)
+main.ts:149068
 
 ___
-
 
 ### broken\_resources
 
@@ -56,10 +51,9 @@ the number of images and other resources with broken links
 
 #### Defined in
 
-[main.ts:143644](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L143644)
+main.ts:149071
 
 ___
-
 
 ### checks
 
@@ -73,10 +67,9 @@ page-specific on-page check-ups
 
 #### Defined in
 
-[main.ts:143662](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L143662)
+main.ts:149089
 
 ___
-
 
 ### duplicate\_content
 
@@ -86,10 +79,9 @@ number of pages with duplicate content
 
 #### Defined in
 
-[main.ts:143638](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L143638)
+main.ts:149065
 
 ___
-
 
 ### duplicate\_description
 
@@ -99,10 +91,9 @@ number of pages with duplicate descriptions
 
 #### Defined in
 
-[main.ts:143636](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L143636)
+main.ts:149063
 
 ___
-
 
 ### duplicate\_title
 
@@ -112,10 +103,9 @@ number of pages with duplicate titles
 
 #### Defined in
 
-[main.ts:143634](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L143634)
+main.ts:149061
 
 ___
-
 
 ### links\_external
 
@@ -126,10 +116,9 @@ the number of links pointing to other websites
 
 #### Defined in
 
-[main.ts:143629](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L143629)
+main.ts:149056
 
 ___
-
 
 ### links\_internal
 
@@ -140,10 +129,9 @@ the number of links pointing to other pages within the target website
 
 #### Defined in
 
-[main.ts:143632](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L143632)
+main.ts:149059
 
 ___
-
 
 ### links\_relation\_conflict
 
@@ -154,10 +142,9 @@ for example, if "links_relation_conflict": 2, the target website is referring to
 
 #### Defined in
 
-[main.ts:143647](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L143647)
+main.ts:149074
 
 ___
-
 
 ### non\_indexable
 
@@ -169,10 +156,9 @@ you can receive a list of non-indexable URLs using this endpoint
 
 #### Defined in
 
-[main.ts:143660](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L143660)
+main.ts:149087
 
 ___
-
 
 ### onpage\_score
 
@@ -186,10 +172,9 @@ learn more about how the metric is calculated in this help center article
 
 #### Defined in
 
-[main.ts:143656](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L143656)
+main.ts:149083
 
 ___
-
 
 ### redirect\_loop
 
@@ -200,8 +185,4 @@ number of redirect chains where the destination URL redirects back to the origin
 
 #### Defined in
 
-[main.ts:143650](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L143650)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:149077

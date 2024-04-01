@@ -1,15 +1,11 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IGooglePostsDataforseoLabsSerpElementItem
+[Documentation](../README.md) / [Exports](../modules.md) / IGooglePostsDataforseoLabsSerpElementItem
 
 # Interface: IGooglePostsDataforseoLabsSerpElementItem
 
 ## Hierarchy
 
 - [`IBaseDataforseoLabsSerpElementItem`](IBaseDataforseoLabsSerpElementItem.md)
-  
+
   ↳ **`IGooglePostsDataforseoLabsSerpElementItem`**
 
 ## Implemented by
@@ -42,10 +38,9 @@ google-defined client id
 
 #### Defined in
 
-[main.ts:94446](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L94446)
+main.ts:96823
 
 ___
-
 
 ### feature
 
@@ -55,10 +50,9 @@ the additional feature of the review
 
 #### Defined in
 
-[main.ts:94444](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L94444)
+main.ts:96821
 
 ___
-
 
 ### position
 
@@ -70,10 +64,9 @@ left, right
 
 #### Defined in
 
-[main.ts:94438](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L94438)
+main.ts:96815
 
 ___
-
 
 ### posts\_id
 
@@ -83,10 +76,9 @@ the identifier of the google_posts feature
 
 #### Defined in
 
-[main.ts:94442](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L94442)
+main.ts:96819
 
 ___
-
 
 ### rank\_absolute
 
@@ -97,10 +89,9 @@ absolute position among all the elements in SERP
 
 #### Defined in
 
-[main.ts:94434](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L94434)
+main.ts:96811
 
 ___
-
 
 ### rank\_group
 
@@ -111,10 +102,9 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-[main.ts:94431](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L94431)
+main.ts:96808
 
 ___
-
 
 ### xpath
 
@@ -124,8 +114,4 @@ the XPath of the element
 
 #### Defined in
 
-[main.ts:94440](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L94440)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:96817

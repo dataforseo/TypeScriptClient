@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / SpellInfo
+[Documentation](../README.md) / [Exports](../modules.md) / SpellInfo
 
 # Class: SpellInfo
 
@@ -49,7 +45,7 @@
 
 #### Defined in
 
-[main.ts:21850](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L21850)
+main.ts:22369
 
 ## Properties
 
@@ -66,10 +62,9 @@ the results will be provided for the corrected keyword
 
 #### Defined in
 
-[main.ts:21840](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L21840)
+main.ts:22359
 
 ___
-
 
 ### type
 
@@ -87,7 +82,7 @@ including_results_for
 
 #### Defined in
 
-[main.ts:21846](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L21846)
+main.ts:22365
 
 ## Methods
 
@@ -107,10 +102,9 @@ including_results_for
 
 #### Defined in
 
-[main.ts:21859](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L21859)
+main.ts:22378
 
 ___
-
 
 ### toJSON
 
@@ -128,10 +122,9 @@ ___
 
 #### Defined in
 
-[main.ts:21877](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L21877)
+main.ts:22396
 
 ___
-
 
 ### fromJS
 
@@ -149,8 +142,4 @@ ___
 
 #### Defined in
 
-[main.ts:21870](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L21870)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:22389

@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / SslInfo
+[Documentation](../README.md) / [Exports](../modules.md) / SslInfo
 
 # Class: SslInfo
 
@@ -53,7 +49,7 @@
 
 #### Defined in
 
-[main.ts:143226](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L143226)
+main.ts:148653
 
 ## Properties
 
@@ -73,10 +69,9 @@ example:
 
 #### Defined in
 
-[main.ts:143222](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L143222)
+main.ts:148649
 
 ___
-
 
 ### certificate\_hash
 
@@ -91,10 +86,9 @@ the version of the ssl certificate’s hash function
 
 #### Defined in
 
-[main.ts:143216](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L143216)
+main.ts:148643
 
 ___
-
 
 ### certificate\_issuer
 
@@ -109,10 +103,9 @@ the entity that issued the detected ssl certificate
 
 #### Defined in
 
-[main.ts:143207](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L143207)
+main.ts:148634
 
 ___
-
 
 ### certificate\_subject
 
@@ -127,10 +120,9 @@ the entity associated with the public key
 
 #### Defined in
 
-[main.ts:143210](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L143210)
+main.ts:148637
 
 ___
-
 
 ### certificate\_version
 
@@ -145,10 +137,9 @@ indicates the version of X.509 used by an ssl certificate
 
 #### Defined in
 
-[main.ts:143213](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L143213)
+main.ts:148640
 
 ___
-
 
 ### valid\_certificate
 
@@ -163,7 +154,7 @@ indicates whether the ssl certificate detected on a website is not expired, susp
 
 #### Defined in
 
-[main.ts:143204](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L143204)
+main.ts:148631
 
 ## Methods
 
@@ -183,10 +174,9 @@ indicates whether the ssl certificate detected on a website is not expired, susp
 
 #### Defined in
 
-[main.ts:143235](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L143235)
+main.ts:148662
 
 ___
-
 
 ### toJSON
 
@@ -204,10 +194,9 @@ ___
 
 #### Defined in
 
-[main.ts:143257](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L143257)
+main.ts:148684
 
 ___
-
 
 ### fromJS
 
@@ -225,8 +214,4 @@ ___
 
 #### Defined in
 
-[main.ts:143250](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L143250)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:148677

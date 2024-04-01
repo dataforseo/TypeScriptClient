@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / TrendsMapDataInfo
+[Documentation](../README.md) / [Exports](../modules.md) / TrendsMapDataInfo
 
 # Class: TrendsMapDataInfo
 
@@ -51,7 +47,7 @@
 
 #### Defined in
 
-[main.ts:120602](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L120602)
+main.ts:123154
 
 ## Properties
 
@@ -70,10 +66,9 @@ US-NY
 
 #### Defined in
 
-[main.ts:120584](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L120584)
+main.ts:123136
 
 ___
-
 
 ### geo\_name
 
@@ -88,10 +83,9 @@ you can use this field for matching obtained results with location parameters sp
 
 #### Defined in
 
-[main.ts:120587](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L120587)
+main.ts:123139
 
 ___
-
 
 ### max\_value\_index
 
@@ -107,14 +101,13 @@ if you specified only one keyword, the value will be null
 
 #### Defined in
 
-[main.ts:120598](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L120598)
+main.ts:123150
 
 ___
 
-
 ### values
 
-• `Optional` **values**: `number`[]
+• `Optional` **values**: `any`[]
 
 relative keyword popularity rate in a given location
 represents the location-specific keyword popularity rate over the given time range
@@ -129,7 +122,7 @@ a value of 0 means there was not enough data for this term
 
 #### Defined in
 
-[main.ts:120594](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L120594)
+main.ts:123146
 
 ## Methods
 
@@ -149,10 +142,9 @@ a value of 0 means there was not enough data for this term
 
 #### Defined in
 
-[main.ts:120611](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L120611)
+main.ts:123163
 
 ___
-
 
 ### toJSON
 
@@ -170,10 +162,9 @@ ___
 
 #### Defined in
 
-[main.ts:120635](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L120635)
+main.ts:123187
 
 ___
-
 
 ### fromJS
 
@@ -191,8 +182,4 @@ ___
 
 #### Defined in
 
-[main.ts:120628](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L120628)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:123180

@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / CrawlStatusInfo
+[Documentation](../README.md) / [Exports](../modules.md) / CrawlStatusInfo
 
 # Class: CrawlStatusInfo
 
@@ -50,7 +46,7 @@
 
 #### Defined in
 
-[main.ts:20928](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L20928)
+main.ts:21447
 
 ## Properties
 
@@ -67,10 +63,9 @@ indicates the max_crawl_pages limit you specified when setting a task
 
 #### Defined in
 
-[main.ts:20920](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L20920)
+main.ts:21439
 
 ___
-
 
 ### pages\_crawled
 
@@ -84,10 +79,9 @@ number of crawled pages
 
 #### Defined in
 
-[main.ts:20924](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L20924)
+main.ts:21443
 
 ___
-
 
 ### pages\_in\_queue
 
@@ -101,7 +95,7 @@ number of pages that are currently in the crawling queue
 
 #### Defined in
 
-[main.ts:20922](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L20922)
+main.ts:21441
 
 ## Methods
 
@@ -121,10 +115,9 @@ number of pages that are currently in the crawling queue
 
 #### Defined in
 
-[main.ts:20937](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L20937)
+main.ts:21456
 
 ___
-
 
 ### toJSON
 
@@ -142,10 +135,9 @@ ___
 
 #### Defined in
 
-[main.ts:20956](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L20956)
+main.ts:21475
 
 ___
-
 
 ### fromJS
 
@@ -163,8 +155,4 @@ ___
 
 #### Defined in
 
-[main.ts:20949](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L20949)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:21468

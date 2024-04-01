@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IContentAnalysisSearchLiveResultInfo
+[Documentation](../README.md) / [Exports](../modules.md) / IContentAnalysisSearchLiveResultInfo
 
 # Interface: IContentAnalysisSearchLiveResultInfo
 
@@ -33,10 +29,9 @@ contains citations and related data
 
 #### Defined in
 
-[main.ts:156920](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L156920)
+main.ts:162347
 
 ___
-
 
 ### items\_count
 
@@ -46,10 +41,9 @@ the number of results returned in the items array
 
 #### Defined in
 
-[main.ts:156918](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L156918)
+main.ts:162345
 
 ___
-
 
 ### offset\_token
 
@@ -61,10 +55,9 @@ note: offset_token values are unique for each subsequent task
 
 #### Defined in
 
-[main.ts:156914](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L156914)
+main.ts:162341
 
 ___
-
 
 ### total\_count
 
@@ -74,8 +67,4 @@ total amount of results in our database relevant to your request
 
 #### Defined in
 
-[main.ts:156916](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L156916)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:162343

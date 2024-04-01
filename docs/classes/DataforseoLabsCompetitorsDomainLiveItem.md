@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / DataforseoLabsCompetitorsDomainLiveItem
+[Documentation](../README.md) / [Exports](../modules.md) / DataforseoLabsCompetitorsDomainLiveItem
 
 # Class: DataforseoLabsCompetitorsDomainLiveItem
 
@@ -55,7 +51,7 @@
 
 #### Defined in
 
-[main.ts:88391](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L88391)
+main.ts:90768
 
 ## Properties
 
@@ -73,10 +69,9 @@ the value for a given domain may differ when combined with different target webs
 
 #### Defined in
 
-[main.ts:88370](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L88370)
+main.ts:90747
 
 ___
-
 
 ### competitor\_metrics
 
@@ -96,10 +91,9 @@ note: in this array ranking and traffic data is provided for the returned compet
 
 #### Defined in
 
-[main.ts:88387](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L88387)
+main.ts:90764
 
 ___
-
 
 ### domain
 
@@ -113,10 +107,9 @@ domain name
 
 #### Defined in
 
-[main.ts:88366](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L88366)
+main.ts:90743
 
 ___
-
 
 ### full\_domain\_metrics
 
@@ -135,10 +128,9 @@ full overview of ranking and traffic data relevant to all keywords that the prov
 
 #### Defined in
 
-[main.ts:88379](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L88379)
+main.ts:90756
 
 ___
-
 
 ### intersections
 
@@ -152,10 +144,9 @@ number of intersecting keywords
 
 #### Defined in
 
-[main.ts:88376](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L88376)
+main.ts:90753
 
 ___
-
 
 ### metrics
 
@@ -175,10 +166,9 @@ note: in this array ranking and traffic data is provided for the target consider
 
 #### Defined in
 
-[main.ts:88383](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L88383)
+main.ts:90760
 
 ___
-
 
 ### se\_type
 
@@ -192,10 +182,9 @@ search engine type
 
 #### Defined in
 
-[main.ts:88364](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L88364)
+main.ts:90741
 
 ___
-
 
 ### sum\_position
 
@@ -211,7 +200,7 @@ the value for a given domain may differ when combined with different target webs
 
 #### Defined in
 
-[main.ts:88374](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L88374)
+main.ts:90751
 
 ## Methods
 
@@ -231,10 +220,9 @@ the value for a given domain may differ when combined with different target webs
 
 #### Defined in
 
-[main.ts:88400](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L88400)
+main.ts:90777
 
 ___
-
 
 ### toJSON
 
@@ -252,10 +240,9 @@ ___
 
 #### Defined in
 
-[main.ts:88442](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L88442)
+main.ts:90819
 
 ___
-
 
 ### fromJS
 
@@ -273,8 +260,4 @@ ___
 
 #### Defined in
 
-[main.ts:88435](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L88435)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:90812

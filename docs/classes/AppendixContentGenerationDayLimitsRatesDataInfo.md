@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / AppendixContentGenerationDayLimitsRatesDataInfo
+[Documentation](../README.md) / [Exports](../modules.md) / AppendixContentGenerationDayLimitsRatesDataInfo
 
 # Class: AppendixContentGenerationDayLimitsRatesDataInfo
 
@@ -49,7 +45,7 @@
 
 #### Defined in
 
-[main.ts:208402](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L208402)
+main.ts:213927
 
 ## Properties
 
@@ -63,10 +59,9 @@
 
 #### Defined in
 
-[main.ts:208398](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L208398)
+main.ts:213923
 
 ___
-
 
 ### live
 
@@ -78,7 +73,7 @@ ___
 
 #### Defined in
 
-[main.ts:208397](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L208397)
+main.ts:213922
 
 ## Methods
 
@@ -98,10 +93,9 @@ ___
 
 #### Defined in
 
-[main.ts:208411](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L208411)
+main.ts:213936
 
 ___
-
 
 ### toJSON
 
@@ -119,10 +113,9 @@ ___
 
 #### Defined in
 
-[main.ts:208429](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L208429)
+main.ts:213954
 
 ___
-
 
 ### fromJS
 
@@ -140,8 +133,4 @@ ___
 
 #### Defined in
 
-[main.ts:208422](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L208422)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:213947

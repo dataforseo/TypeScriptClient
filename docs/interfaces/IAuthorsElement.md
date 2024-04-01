@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IAuthorsElement
+[Documentation](../README.md) / [Exports](../modules.md) / IAuthorsElement
 
 # Interface: IAuthorsElement
 
@@ -33,10 +29,9 @@ author’s link domain
 
 #### Defined in
 
-[main.ts:50687](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L50687)
+main.ts:53062
 
 ___
-
 
 ### name
 
@@ -46,10 +41,9 @@ name of the dataset author
 
 #### Defined in
 
-[main.ts:50683](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L50683)
+main.ts:53058
 
 ___
-
 
 ### type
 
@@ -59,10 +53,9 @@ type of element
 
 #### Defined in
 
-[main.ts:50681](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L50681)
+main.ts:53056
 
 ___
-
 
 ### url
 
@@ -72,8 +65,4 @@ author’s link URL
 
 #### Defined in
 
-[main.ts:50685](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L50685)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:53060

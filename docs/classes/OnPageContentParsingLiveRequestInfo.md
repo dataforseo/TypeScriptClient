@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / OnPageContentParsingLiveRequestInfo
+[Documentation](../README.md) / [Exports](../modules.md) / OnPageContentParsingLiveRequestInfo
 
 # Class: OnPageContentParsingLiveRequestInfo
 
@@ -59,7 +55,7 @@
 
 #### Defined in
 
-[main.ts:152639](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L152639)
+main.ts:158066
 
 ## Properties
 
@@ -78,10 +74,9 @@ Note: if you do not specify this parameter, some websites may deny access; in th
 
 #### Defined in
 
-[main.ts:152613](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L152613)
+main.ts:158040
 
 ___
-
 
 ### browser\_preset
 
@@ -112,10 +107,9 @@ Note: to use this parameter, set enable_javascript or enable_browser_rendering t
 
 #### Defined in
 
-[main.ts:152573](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L152573)
+main.ts:158000
 
 ___
-
 
 ### browser\_screen\_height
 
@@ -135,10 +129,9 @@ maximum value, in pixels: 9999
 
 #### Defined in
 
-[main.ts:152589](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L152589)
+main.ts:158016
 
 ___
-
 
 ### browser\_screen\_scale\_factor
 
@@ -158,10 +151,9 @@ maximum value: 3
 
 #### Defined in
 
-[main.ts:152597](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L152597)
+main.ts:158024
 
 ___
-
 
 ### browser\_screen\_width
 
@@ -181,10 +173,9 @@ maximum value, in pixels: 9999
 
 #### Defined in
 
-[main.ts:152581](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L152581)
+main.ts:158008
 
 ___
-
 
 ### custom\_user\_agent
 
@@ -203,16 +194,15 @@ default value: Mozilla/5.0 (compatible; RSiteAuditor)
 
 #### Defined in
 
-[main.ts:152554](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L152554)
+main.ts:157981
 
 ___
-
 
 ### disable\_cookie\_popup
 
 • `Optional` **disable\_cookie\_popup**: `boolean`
 
-disable the cookie popup
+disable the cookie popup 
 optional field
 set to true if you want to disable the popup requesting cookie consent from the user;
 default value:
@@ -224,10 +214,9 @@ false
 
 #### Defined in
 
-[main.ts:152608](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L152608)
+main.ts:158035
 
 ___
-
 
 ### enable\_browser\_rendering
 
@@ -248,10 +237,9 @@ Note: if you use this parameter, additional charges will apply; learn more about
 
 #### Defined in
 
-[main.ts:152628](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L152628)
+main.ts:158055
 
 ___
-
 
 ### enable\_javascript
 
@@ -269,10 +257,9 @@ Note: if you use this parameter, additional charges will apply; learn more about
 
 #### Defined in
 
-[main.ts:152619](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L152619)
+main.ts:158046
 
 ___
-
 
 ### enable\_xhr
 
@@ -291,10 +278,9 @@ if you use this field, enable_javascript must be set to true;
 
 #### Defined in
 
-[main.ts:152635](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L152635)
+main.ts:158062
 
 ___
-
 
 ### store\_raw\_html
 
@@ -311,10 +297,9 @@ default value: false
 
 #### Defined in
 
-[main.ts:152602](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L152602)
+main.ts:158029
 
 ___
-
 
 ### url
 
@@ -332,7 +317,7 @@ https://www.fujielectric.com/
 
 #### Defined in
 
-[main.ts:152547](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L152547)
+main.ts:157974
 
 ## Methods
 
@@ -352,10 +337,9 @@ https://www.fujielectric.com/
 
 #### Defined in
 
-[main.ts:152648](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L152648)
+main.ts:158075
 
 ___
-
 
 ### toJSON
 
@@ -373,10 +357,9 @@ ___
 
 #### Defined in
 
-[main.ts:152676](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L152676)
+main.ts:158103
 
 ___
-
 
 ### fromJS
 
@@ -394,8 +377,4 @@ ___
 
 #### Defined in
 
-[main.ts:152669](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L152669)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:158096

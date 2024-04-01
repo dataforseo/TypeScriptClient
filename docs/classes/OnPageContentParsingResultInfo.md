@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / OnPageContentParsingResultInfo
+[Documentation](../README.md) / [Exports](../modules.md) / OnPageContentParsingResultInfo
 
 # Class: OnPageContentParsingResultInfo
 
@@ -51,7 +47,7 @@
 
 #### Defined in
 
-[main.ts:152366](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L152366)
+main.ts:157793
 
 ## Properties
 
@@ -68,10 +64,9 @@ possible values: in_progress, finished
 
 #### Defined in
 
-[main.ts:152356](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L152356)
+main.ts:157783
 
 ___
-
 
 ### crawl\_status
 
@@ -85,10 +80,9 @@ details of the crawling session
 
 #### Defined in
 
-[main.ts:152358](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L152358)
+main.ts:157785
 
 ___
-
 
 ### items
 
@@ -102,10 +96,9 @@ items array
 
 #### Defined in
 
-[main.ts:152362](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L152362)
+main.ts:157789
 
 ___
-
 
 ### items\_count
 
@@ -119,7 +112,7 @@ number of items in the results array
 
 #### Defined in
 
-[main.ts:152360](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L152360)
+main.ts:157787
 
 ## Methods
 
@@ -139,10 +132,9 @@ number of items in the results array
 
 #### Defined in
 
-[main.ts:152375](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L152375)
+main.ts:157802
 
 ___
-
 
 ### toJSON
 
@@ -160,10 +152,9 @@ ___
 
 #### Defined in
 
-[main.ts:152399](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L152399)
+main.ts:157826
 
 ___
-
 
 ### fromJS
 
@@ -181,8 +172,4 @@ ___
 
 #### Defined in
 
-[main.ts:152392](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L152392)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:157819

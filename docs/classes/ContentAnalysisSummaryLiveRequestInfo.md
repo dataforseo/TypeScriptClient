@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / ContentAnalysisSummaryLiveRequestInfo
+[Documentation](../README.md) / [Exports](../modules.md) / ContentAnalysisSummaryLiveRequestInfo
 
 # Class: ContentAnalysisSummaryLiveRequestInfo
 
@@ -55,7 +51,7 @@
 
 #### Defined in
 
-[main.ts:157115](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L157115)
+main.ts:162542
 
 ## Properties
 
@@ -86,10 +82,9 @@ for more information about filters, please refer to Content Analysis API – Fil
 
 #### Defined in
 
-[main.ts:157105](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L157105)
+main.ts:162532
 
 ___
-
 
 ### internal\_list\_limit
 
@@ -112,10 +107,9 @@ maximum value: 20
 
 #### Defined in
 
-[main.ts:157073](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L157073)
+main.ts:162500
 
 ___
-
 
 ### keyword
 
@@ -136,10 +130,9 @@ example:
 
 #### Defined in
 
-[main.ts:157044](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L157044)
+main.ts:162471
 
 ___
-
 
 ### keyword\_fields
 
@@ -153,8 +146,8 @@ you can indicate several fields;
 Note: to match an exact phrase instead of a stand-alone keyword, use double quotes and backslashes;
 example:
 "keyword_fields": {
-"snippet": "\"logitech mouse\"",
-"main_title": "sale"
+    "snippet": "\"logitech mouse\"",
+    "main_title": "sale"
 }
 
 #### Index signature
@@ -167,10 +160,9 @@ example:
 
 #### Defined in
 
-[main.ts:157056](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L157056)
+main.ts:162483
 
 ___
-
 
 ### page\_type
 
@@ -188,10 +180,9 @@ possible values:
 
 #### Defined in
 
-[main.ts:157062](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L157062)
+main.ts:162489
 
 ___
-
 
 ### positive\_connotation\_threshold
 
@@ -210,10 +201,9 @@ default value: 0.4
 
 #### Defined in
 
-[main.ts:157080](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L157080)
+main.ts:162507
 
 ___
-
 
 ### sentiments\_connotation\_threshold
 
@@ -233,10 +223,9 @@ default value: 0.4
 
 #### Defined in
 
-[main.ts:157088](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L157088)
+main.ts:162515
 
 ___
-
 
 ### tag
 
@@ -254,7 +243,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-[main.ts:157111](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L157111)
+main.ts:162538
 
 ## Methods
 
@@ -274,10 +263,9 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-[main.ts:157124](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L157124)
+main.ts:162551
 
 ___
-
 
 ### toJSON
 
@@ -295,10 +283,9 @@ ___
 
 #### Defined in
 
-[main.ts:157162](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L157162)
+main.ts:162589
 
 ___
-
 
 ### fromJS
 
@@ -316,8 +303,4 @@ ___
 
 #### Defined in
 
-[main.ts:157155](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L157155)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:162582

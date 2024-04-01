@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / AppDataleAppListingsSearchLiveItem
+[Documentation](../README.md) / [Exports](../modules.md) / AppDataleAppListingsSearchLiveItem
 
 # Class: AppDataleAppListingsSearchLiveItem
 
@@ -54,7 +50,7 @@
 
 #### Defined in
 
-[main.ts:182296](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L182296)
+main.ts:187749
 
 ## Properties
 
@@ -70,10 +66,9 @@ ID of the returned app
 
 #### Defined in
 
-[main.ts:182276](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L182276)
+main.ts:187729
 
 ___
-
 
 ### check\_url
 
@@ -88,10 +83,9 @@ you can use it to make sure that we provided accurate results
 
 #### Defined in
 
-[main.ts:182285](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L182285)
+main.ts:187738
 
 ___
-
 
 ### item
 
@@ -105,10 +99,9 @@ detailed information about the app
 
 #### Defined in
 
-[main.ts:182292](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L182292)
+main.ts:187745
 
 ___
-
 
 ### language\_code
 
@@ -122,10 +115,9 @@ language code in a POST array
 
 #### Defined in
 
-[main.ts:182282](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L182282)
+main.ts:187735
 
 ___
-
 
 ### location\_code
 
@@ -139,10 +131,9 @@ location code in a POST array
 
 #### Defined in
 
-[main.ts:182280](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L182280)
+main.ts:187733
 
 ___
-
 
 ### se\_domain
 
@@ -156,10 +147,9 @@ search engine domain in a POST array
 
 #### Defined in
 
-[main.ts:182278](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L182278)
+main.ts:187731
 
 ___
-
 
 ### time\_update
 
@@ -176,7 +166,7 @@ example:
 
 #### Defined in
 
-[main.ts:182290](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L182290)
+main.ts:187743
 
 ## Methods
 
@@ -196,10 +186,9 @@ example:
 
 #### Defined in
 
-[main.ts:182305](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L182305)
+main.ts:187758
 
 ___
-
 
 ### toJSON
 
@@ -217,10 +206,9 @@ ___
 
 #### Defined in
 
-[main.ts:182328](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L182328)
+main.ts:187781
 
 ___
-
 
 ### fromJS
 
@@ -238,8 +226,4 @@ ___
 
 #### Defined in
 
-[main.ts:182321](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L182321)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:187774

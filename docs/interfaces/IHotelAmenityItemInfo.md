@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IHotelAmenityItemInfo
+[Documentation](../README.md) / [Exports](../modules.md) / IHotelAmenityItemInfo
 
 # Interface: IHotelAmenityItemInfo
 
@@ -33,10 +29,9 @@ standardised amenity name
 
 #### Defined in
 
-[main.ts:195334](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L195334)
+main.ts:200795
 
 ___
-
 
 ### amenity\_label
 
@@ -46,10 +41,9 @@ displayed amenity name
 
 #### Defined in
 
-[main.ts:195336](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L195336)
+main.ts:200797
 
 ___
-
 
 ### hint
 
@@ -59,10 +53,9 @@ standardised details about the amenity
 
 #### Defined in
 
-[main.ts:195338](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L195338)
+main.ts:200799
 
 ___
-
 
 ### hint\_label
 
@@ -72,8 +65,4 @@ displayed details about the amenity
 
 #### Defined in
 
-[main.ts:195340](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L195340)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:200801

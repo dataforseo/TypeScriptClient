@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IKeywordsDataBingKeywordPerformanceLocationsAndLanguagesResultInfo
+[Documentation](../README.md) / [Exports](../modules.md) / IKeywordsDataBingKeywordPerformanceLocationsAndLanguagesResultInfo
 
 # Interface: IKeywordsDataBingKeywordPerformanceLocationsAndLanguagesResultInfo
 
@@ -33,10 +29,9 @@ contains locations supported in combination with a specific language
 
 #### Defined in
 
-[main.ts:126474](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L126474)
+main.ts:131841
 
 ___
-
 
 ### language\_code
 
@@ -46,10 +41,9 @@ language code
 
 #### Defined in
 
-[main.ts:126471](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L126471)
+main.ts:131838
 
 ___
-
 
 ### language\_name
 
@@ -59,8 +53,4 @@ language name
 
 #### Defined in
 
-[main.ts:126469](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L126469)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:131836

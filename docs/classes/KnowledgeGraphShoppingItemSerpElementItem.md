@@ -1,15 +1,11 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / KnowledgeGraphShoppingItemSerpElementItem
+[Documentation](../README.md) / [Exports](../modules.md) / KnowledgeGraphShoppingItemSerpElementItem
 
 # Class: KnowledgeGraphShoppingItemSerpElementItem
 
 ## Hierarchy
 
 - [`BaseSerpElementItem`](BaseSerpElementItem.md)
-  
+
   ↳ **`KnowledgeGraphShoppingItemSerpElementItem`**
 
 ## Implements
@@ -66,7 +62,7 @@
 
 #### Defined in
 
-[main.ts:27428](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L27428)
+main.ts:27947
 
 ## Properties
 
@@ -80,10 +76,9 @@
 
 #### Defined in
 
-[main.ts:19337](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L19337)
+main.ts:19788
 
 ___
-
 
 ### data\_attrid
 
@@ -99,10 +94,9 @@ kc:/shopping/gpc:organic-offers
 
 #### Defined in
 
-[main.ts:27417](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L27417)
+main.ts:27936
 
 ___
-
 
 ### items
 
@@ -117,10 +111,9 @@ if there are none, equals null
 
 #### Defined in
 
-[main.ts:27420](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L27420)
+main.ts:27939
 
 ___
-
 
 ### position
 
@@ -136,10 +129,9 @@ left, right
 
 #### Defined in
 
-[main.ts:27409](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L27409)
+main.ts:27928
 
 ___
-
 
 ### rank\_absolute
 
@@ -154,10 +146,9 @@ absolute position among all the elements in SERP
 
 #### Defined in
 
-[main.ts:27405](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L27405)
+main.ts:27924
 
 ___
-
 
 ### rank\_group
 
@@ -173,10 +164,9 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-[main.ts:27402](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L27402)
+main.ts:27921
 
 ___
-
 
 ### rectangle
 
@@ -192,10 +182,9 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 #### Defined in
 
-[main.ts:27424](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L27424)
+main.ts:27943
 
 ___
-
 
 ### title
 
@@ -209,10 +198,9 @@ title of the place
 
 #### Defined in
 
-[main.ts:27413](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L27413)
+main.ts:27932
 
 ___
-
 
 ### xpath
 
@@ -226,7 +214,7 @@ the XPath of the element
 
 #### Defined in
 
-[main.ts:27411](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L27411)
+main.ts:27930
 
 ## Methods
 
@@ -250,10 +238,9 @@ the XPath of the element
 
 #### Defined in
 
-[main.ts:27433](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L27433)
+main.ts:27952
 
 ___
-
 
 ### toJSON
 
@@ -275,10 +262,9 @@ ___
 
 #### Defined in
 
-[main.ts:27462](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L27462)
+main.ts:27981
 
 ___
-
 
 ### fromJS
 
@@ -300,8 +286,4 @@ ___
 
 #### Defined in
 
-[main.ts:27455](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L27455)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:27974

@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / AppendixKeywordBingKeywordsDataPriceDataInfo
+[Documentation](../README.md) / [Exports](../modules.md) / AppendixKeywordBingKeywordsDataPriceDataInfo
 
 # Class: AppendixKeywordBingKeywordsDataPriceDataInfo
 
@@ -48,7 +44,7 @@
 
 #### Defined in
 
-[main.ts:209707](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L209707)
+main.ts:215236
 
 ## Properties
 
@@ -62,7 +58,7 @@
 
 #### Defined in
 
-[main.ts:209703](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L209703)
+main.ts:215232
 
 ## Methods
 
@@ -82,10 +78,9 @@
 
 #### Defined in
 
-[main.ts:209716](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L209716)
+main.ts:215245
 
 ___
-
 
 ### toJSON
 
@@ -103,10 +98,9 @@ ___
 
 #### Defined in
 
-[main.ts:209733](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L209733)
+main.ts:215262
 
 ___
-
 
 ### fromJS
 
@@ -124,8 +118,4 @@ ___
 
 #### Defined in
 
-[main.ts:209726](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L209726)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:215255

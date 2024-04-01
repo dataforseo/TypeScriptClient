@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IKeywordsDataBingKeywordPerformanceLiveRequestInfo
+[Documentation](../README.md) / [Exports](../modules.md) / IKeywordsDataBingKeywordPerformanceLiveRequestInfo
 
 # Interface: IKeywordsDataBingKeywordPerformanceLiveRequestInfo
 
@@ -41,10 +37,9 @@ default value: all
 
 #### Defined in
 
-[main.ts:127681](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L127681)
+main.ts:133048
 
 ___
-
 
 ### keywords
 
@@ -59,10 +54,9 @@ the specified keywords will be converted to lowercase, data will be provided in 
 
 #### Defined in
 
-[main.ts:127676](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L127676)
+main.ts:133043
 
 ___
-
 
 ### language\_code
 
@@ -76,10 +70,9 @@ example:
 
 #### Defined in
 
-[main.ts:127724](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L127724)
+main.ts:133091
 
 ___
-
 
 ### language\_name
 
@@ -94,10 +87,9 @@ English
 
 #### Defined in
 
-[main.ts:127718](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L127718)
+main.ts:133085
 
 ___
-
 
 ### location\_code
 
@@ -112,10 +104,9 @@ example:
 
 #### Defined in
 
-[main.ts:127703](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L127703)
+main.ts:133070
 
 ___
-
 
 ### location\_coordinate
 
@@ -131,10 +122,9 @@ example:
 
 #### Defined in
 
-[main.ts:127711](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L127711)
+main.ts:133078
 
 ___
-
 
 ### location\_name
 
@@ -149,10 +139,9 @@ example:
 
 #### Defined in
 
-[main.ts:127696](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L127696)
+main.ts:133063
 
 ___
-
 
 ### match
 
@@ -168,10 +157,9 @@ exact returns data for user query that matches the specified keyword;Note: the a
 
 #### Defined in
 
-[main.ts:127689](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L127689)
+main.ts:133056
 
 ___
-
 
 ### tag
 
@@ -185,8 +173,4 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-[main.ts:127730](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L127730)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:133097

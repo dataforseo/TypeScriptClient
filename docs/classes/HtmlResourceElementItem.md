@@ -1,15 +1,11 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / HtmlResourceElementItem
+[Documentation](../README.md) / [Exports](../modules.md) / HtmlResourceElementItem
 
 # Class: HtmlResourceElementItem
 
 ## Hierarchy
 
 - [`BaseOnPageResourceItemInfo`](BaseOnPageResourceItemInfo.md)
-  
+
   ↳ **`HtmlResourceElementItem`**
 
 ## Implements
@@ -86,7 +82,7 @@
 
 #### Defined in
 
-[main.ts:144957](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L144957)
+main.ts:150384
 
 ## Properties
 
@@ -100,10 +96,9 @@
 
 #### Defined in
 
-[main.ts:20179](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L20179)
+main.ts:20635
 
 ___
-
 
 ### broken\_links
 
@@ -117,10 +112,9 @@ indicates whether a page contains broken links
 
 #### Defined in
 
-[main.ts:144910](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L144910)
+main.ts:150337
 
 ___
-
 
 ### broken\_resources
 
@@ -134,10 +128,9 @@ indicates whether a page contains broken resources
 
 #### Defined in
 
-[main.ts:144908](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L144908)
+main.ts:150335
 
 ___
-
 
 ### cache\_control
 
@@ -151,10 +144,9 @@ instructions for caching
 
 #### Defined in
 
-[main.ts:144935](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L144935)
+main.ts:150362
 
 ___
-
 
 ### checks
 
@@ -173,10 +165,9 @@ on-page check-ups related to the page
 
 #### Defined in
 
-[main.ts:144938](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L144938)
+main.ts:150365
 
 ___
-
 
 ### click\_depth
 
@@ -191,10 +182,9 @@ indicates the number of clicks from the homepage needed before landing at the ta
 
 #### Defined in
 
-[main.ts:144919](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L144919)
+main.ts:150346
 
 ___
-
 
 ### content\_encoding
 
@@ -208,10 +198,9 @@ type of encoding
 
 #### Defined in
 
-[main.ts:144940](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L144940)
+main.ts:150367
 
 ___
-
 
 ### custom\_js\_response
 
@@ -227,10 +216,9 @@ note that you should specify a custom_js field when setting a task to receive th
 
 #### Defined in
 
-[main.ts:144904](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L144904)
+main.ts:150331
 
 ___
-
 
 ### duplicate\_content
 
@@ -244,10 +232,9 @@ indicates whether a page has duplicate content
 
 #### Defined in
 
-[main.ts:144916](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L144916)
+main.ts:150343
 
 ___
-
 
 ### duplicate\_description
 
@@ -261,10 +248,9 @@ indicates whether a page has a duplicate description
 
 #### Defined in
 
-[main.ts:144914](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L144914)
+main.ts:150341
 
 ___
-
 
 ### duplicate\_title
 
@@ -278,10 +264,9 @@ indicates whether a page has duplicate title tags
 
 #### Defined in
 
-[main.ts:144912](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L144912)
+main.ts:150339
 
 ___
-
 
 ### encoded\_size
 
@@ -296,10 +281,9 @@ indicates the size of the encoded page measured in bytes
 
 #### Defined in
 
-[main.ts:144925](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L144925)
+main.ts:150352
 
 ___
-
 
 ### fetch\_time
 
@@ -316,10 +300,9 @@ example:
 
 #### Defined in
 
-[main.ts:144933](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L144933)
+main.ts:150360
 
 ___
-
 
 ### is\_resource
 
@@ -333,10 +316,9 @@ indicates whether a page is a single resource
 
 #### Defined in
 
-[main.ts:144946](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L144946)
+main.ts:150373
 
 ___
-
 
 ### last\_modified
 
@@ -351,10 +333,9 @@ if there is no data, the value will be null
 
 #### Defined in
 
-[main.ts:144953](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L144953)
+main.ts:150380
 
 ___
-
 
 ### location
 
@@ -369,10 +350,9 @@ indicates the URL to redirect a page to
 
 #### Defined in
 
-[main.ts:144886](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L144886)
+main.ts:150313
 
 ___
-
 
 ### media\_type
 
@@ -386,10 +366,9 @@ types of media used to display a page
 
 #### Defined in
 
-[main.ts:144942](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L144942)
+main.ts:150369
 
 ___
-
 
 ### meta
 
@@ -404,10 +383,9 @@ the value depends on the resource_type
 
 #### Defined in
 
-[main.ts:144891](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L144891)
+main.ts:150318
 
 ___
-
 
 ### onpage\_score
 
@@ -424,10 +402,9 @@ learn more about how the metric is calculated in this help center article
 
 #### Defined in
 
-[main.ts:144898](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L144898)
+main.ts:150325
 
 ___
-
 
 ### page\_timing
 
@@ -441,10 +418,9 @@ object of page load metrics
 
 #### Defined in
 
-[main.ts:144893](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L144893)
+main.ts:150320
 
 ___
-
 
 ### relative\_url\_length
 
@@ -458,10 +434,9 @@ relative URL length in characters
 
 #### Defined in
 
-[main.ts:144950](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L144950)
+main.ts:150377
 
 ___
-
 
 ### resource\_errors
 
@@ -475,10 +450,9 @@ resource errors and warnings
 
 #### Defined in
 
-[main.ts:144906](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L144906)
+main.ts:150333
 
 ___
-
 
 ### server
 
@@ -492,10 +466,9 @@ server version
 
 #### Defined in
 
-[main.ts:144944](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L144944)
+main.ts:150371
 
 ___
-
 
 ### size
 
@@ -510,10 +483,9 @@ indicates the size of a given page measured in bytes
 
 #### Defined in
 
-[main.ts:144922](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L144922)
+main.ts:150349
 
 ___
-
 
 ### status\_code
 
@@ -527,10 +499,9 @@ status code of the page
 
 #### Defined in
 
-[main.ts:144883](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L144883)
+main.ts:150310
 
 ___
-
 
 ### total\_dom\_size
 
@@ -544,10 +515,9 @@ total DOM size of a page
 
 #### Defined in
 
-[main.ts:144900](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L144900)
+main.ts:150327
 
 ___
-
 
 ### total\_transfer\_size
 
@@ -562,10 +532,9 @@ indicates the compressed size of a given page
 
 #### Defined in
 
-[main.ts:144928](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L144928)
+main.ts:150355
 
 ___
-
 
 ### url
 
@@ -579,10 +548,9 @@ page URL
 
 #### Defined in
 
-[main.ts:144888](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L144888)
+main.ts:150315
 
 ___
-
 
 ### url\_length
 
@@ -596,7 +564,7 @@ page URL length in characters
 
 #### Defined in
 
-[main.ts:144948](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L144948)
+main.ts:150375
 
 ## Methods
 
@@ -620,10 +588,9 @@ page URL length in characters
 
 #### Defined in
 
-[main.ts:144962](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L144962)
+main.ts:150389
 
 ___
-
 
 ### toJSON
 
@@ -645,10 +612,9 @@ ___
 
 #### Defined in
 
-[main.ts:145013](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L145013)
+main.ts:150440
 
 ___
-
 
 ### fromJS
 
@@ -670,8 +636,4 @@ ___
 
 #### Defined in
 
-[main.ts:145006](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L145006)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:150433

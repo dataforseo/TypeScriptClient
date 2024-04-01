@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IKeywordsDataBingKeywordsForKeywordsTasksReadyResultInfo
+[Documentation](../README.md) / [Exports](../modules.md) / IKeywordsDataBingKeywordsForKeywordsTasksReadyResultInfo
 
 # Interface: IKeywordsDataBingKeywordsForKeywordsTasksReadyResultInfo
 
@@ -35,10 +31,9 @@ date when the task was posted (in the UTC format)
 
 #### Defined in
 
-[main.ts:125436](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L125436)
+main.ts:130803
 
 ___
-
 
 ### endpoint
 
@@ -48,10 +43,9 @@ URL for collecting the results of the task
 
 #### Defined in
 
-[main.ts:125440](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L125440)
+main.ts:130807
 
 ___
-
 
 ### function
 
@@ -61,10 +55,9 @@ type of the task
 
 #### Defined in
 
-[main.ts:125434](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L125434)
+main.ts:130801
 
 ___
-
 
 ### id
 
@@ -75,10 +68,9 @@ unique task identifier in our system in the UUID format
 
 #### Defined in
 
-[main.ts:125430](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L125430)
+main.ts:130797
 
 ___
-
 
 ### se
 
@@ -88,10 +80,9 @@ search engine specified when setting the task
 
 #### Defined in
 
-[main.ts:125432](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L125432)
+main.ts:130799
 
 ___
-
 
 ### tag
 
@@ -101,8 +92,4 @@ user-defined task identifier
 
 #### Defined in
 
-[main.ts:125438](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L125438)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:130805

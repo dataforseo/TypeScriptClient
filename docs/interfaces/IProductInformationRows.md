@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IProductInformationRows
+[Documentation](../README.md) / [Exports](../modules.md) / IProductInformationRows
 
 # Interface: IProductInformationRows
 
@@ -32,10 +28,9 @@ rows containing related product information
 
 #### Defined in
 
-[main.ts:172721](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L172721)
+main.ts:178174
 
 ___
-
 
 ### title
 
@@ -45,10 +40,9 @@ title under which related product information appears on the Amazon product page
 
 #### Defined in
 
-[main.ts:172719](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L172719)
+main.ts:178172
 
 ___
-
 
 ### type
 
@@ -58,8 +52,4 @@ type of element
 
 #### Defined in
 
-[main.ts:172717](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L172717)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:178170

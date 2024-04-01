@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / BusinessDataApi
+[Documentation](../README.md) / [Exports](../modules.md) / BusinessDataApi
 
 # Class: BusinessDataApi
 
@@ -153,7 +149,7 @@
 
 #### Defined in
 
-[main.ts:16890](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L16890)
+main.ts:17341
 
 ## Properties
 
@@ -163,10 +159,9 @@
 
 #### Defined in
 
-[main.ts:16887](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L16887)
+main.ts:17338
 
 ___
-
 
 ### http
 
@@ -180,10 +175,9 @@ ___
 
 #### Defined in
 
-[main.ts:16886](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L16886)
+main.ts:17337
 
 ___
-
 
 ### jsonParseReviver
 
@@ -206,7 +200,7 @@ ___
 
 #### Defined in
 
-[main.ts:16888](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L16888)
+main.ts:17339
 
 ## Methods
 
@@ -222,10 +216,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:16982](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L16982)
+main.ts:17433
 
 ___
-
 
 ### businessDataErrors
 
@@ -245,10 +238,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:16941](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L16941)
+main.ts:17392
 
 ___
-
 
 ### businessDataGoogleLanguages
 
@@ -262,10 +254,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:17259](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L17259)
+main.ts:17710
 
 ___
-
 
 ### businessDataGoogleLocations
 
@@ -279,10 +270,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:17177](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L17177)
+main.ts:17628
 
 ___
-
 
 ### businessDataGoogleLocationsCountry
 
@@ -302,10 +292,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:17219](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L17219)
+main.ts:17670
 
 ___
-
 
 ### businessDataIdList
 
@@ -325,10 +314,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:16899](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L16899)
+main.ts:17350
 
 ___
-
 
 ### businessDataTripadvisorLanguages
 
@@ -342,10 +330,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:18401](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L18401)
+main.ts:18852
 
 ___
-
 
 ### businessDataTripadvisorLocations
 
@@ -359,10 +346,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:18319](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L18319)
+main.ts:18770
 
 ___
-
 
 ### businessDataTripadvisorLocationsCountry
 
@@ -382,10 +368,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:18361](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L18361)
+main.ts:18812
 
 ___
-
 
 ### businessDataYelpLanguages
 
@@ -399,10 +384,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:18764](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L18764)
+main.ts:19215
 
 ___
-
 
 ### businessDataYelpLocations
 
@@ -416,10 +400,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:18682](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L18682)
+main.ts:19133
 
 ___
-
 
 ### businessDataYelpLocationsCountry
 
@@ -439,10 +422,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:18724](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L18724)
+main.ts:19175
 
 ___
-
 
 ### businessListingsAvailableFilters
 
@@ -456,10 +438,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:17056](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L17056)
+main.ts:17507
 
 ___
-
 
 ### businessListingsCategories
 
@@ -473,10 +454,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:17019](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L17019)
+main.ts:17470
 
 ___
-
 
 ### businessListingsCategoriesAggregationLive
 
@@ -496,10 +476,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:17136](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L17136)
+main.ts:17587
 
 ___
-
 
 ### businessListingsSearchLive
 
@@ -519,10 +498,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:17094](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L17094)
+main.ts:17545
 
 ___
-
 
 ### googleHotelInfoLiveAdvanced
 
@@ -542,10 +520,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:17870](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L17870)
+main.ts:18321
 
 ___
-
 
 ### googleHotelInfoLiveHtml
 
@@ -565,10 +542,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:17912](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L17912)
+main.ts:18363
 
 ___
-
 
 ### googleHotelInfoTaskGetAdvanced
 
@@ -588,10 +564,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:17786](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L17786)
+main.ts:18237
 
 ___
-
 
 ### googleHotelInfoTaskGetHtml
 
@@ -611,10 +586,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:17829](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L17829)
+main.ts:18280
 
 ___
-
 
 ### googleHotelInfoTaskPost
 
@@ -634,10 +608,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:17705](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L17705)
+main.ts:18156
 
 ___
-
 
 ### googleHotelInfoTasksReady
 
@@ -651,10 +624,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:17746](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L17746)
+main.ts:18197
 
 ___
-
 
 ### googleHotelSearchesLive
 
@@ -674,10 +646,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:17663](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L17663)
+main.ts:18114
 
 ___
-
 
 ### googleHotelSearchesTaskGet
 
@@ -697,10 +668,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:17622](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L17622)
+main.ts:18073
 
 ___
-
 
 ### googleHotelSearchesTaskPost
 
@@ -720,10 +690,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:17541](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L17541)
+main.ts:17992
 
 ___
-
 
 ### googleHotelSearchesTasksReady
 
@@ -737,10 +706,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:17582](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L17582)
+main.ts:18033
 
 ___
-
 
 ### googleMyBusinessInfoTaskGet
 
@@ -760,10 +728,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:17378](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L17378)
+main.ts:17829
 
 ___
-
 
 ### googleMyBusinessInfoTaskPost
 
@@ -783,10 +750,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:17297](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L17297)
+main.ts:17748
 
 ___
-
 
 ### googleMyBusinessInfoTasksReady
 
@@ -800,10 +766,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:17338](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L17338)
+main.ts:17789
 
 ___
-
 
 ### googleMyBusinessUpdatesTaskGet
 
@@ -823,10 +788,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:17500](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L17500)
+main.ts:17951
 
 ___
-
 
 ### googleMyBusinessUpdatesTaskPost
 
@@ -846,10 +810,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:17419](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L17419)
+main.ts:17870
 
 ___
-
 
 ### googleMyBusinessUpdatesTasksReady
 
@@ -863,10 +826,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:17460](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L17460)
+main.ts:17911
 
 ___
-
 
 ### googleReviewsTaskGet
 
@@ -886,10 +848,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:18035](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L18035)
+main.ts:18486
 
 ___
-
 
 ### googleReviewsTaskPost
 
@@ -909,10 +870,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:17954](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L17954)
+main.ts:18405
 
 ___
-
 
 ### googleReviewsTasksReady
 
@@ -926,10 +886,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:17995](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L17995)
+main.ts:18446
 
 ___
-
 
 ### processBusinessDataBusinessListingsLocations
 
@@ -947,10 +906,9 @@ ___
 
 #### Defined in
 
-[main.ts:16998](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L16998)
+main.ts:17449
 
 ___
-
 
 ### processBusinessDataErrors
 
@@ -968,10 +926,9 @@ ___
 
 #### Defined in
 
-[main.ts:16961](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L16961)
+main.ts:17412
 
 ___
-
 
 ### processBusinessDataGoogleLanguages
 
@@ -989,10 +946,9 @@ ___
 
 #### Defined in
 
-[main.ts:17275](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L17275)
+main.ts:17726
 
 ___
-
 
 ### processBusinessDataGoogleLocations
 
@@ -1010,10 +966,9 @@ ___
 
 #### Defined in
 
-[main.ts:17193](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L17193)
+main.ts:17644
 
 ___
-
 
 ### processBusinessDataGoogleLocationsCountry
 
@@ -1031,10 +986,9 @@ ___
 
 #### Defined in
 
-[main.ts:17238](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L17238)
+main.ts:17689
 
 ___
-
 
 ### processBusinessDataIdList
 
@@ -1052,10 +1006,9 @@ ___
 
 #### Defined in
 
-[main.ts:16919](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L16919)
+main.ts:17370
 
 ___
-
 
 ### processBusinessDataTripadvisorLanguages
 
@@ -1073,10 +1026,9 @@ ___
 
 #### Defined in
 
-[main.ts:18417](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L18417)
+main.ts:18868
 
 ___
-
 
 ### processBusinessDataTripadvisorLocations
 
@@ -1094,10 +1046,9 @@ ___
 
 #### Defined in
 
-[main.ts:18335](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L18335)
+main.ts:18786
 
 ___
-
 
 ### processBusinessDataTripadvisorLocationsCountry
 
@@ -1115,10 +1066,9 @@ ___
 
 #### Defined in
 
-[main.ts:18380](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L18380)
+main.ts:18831
 
 ___
-
 
 ### processBusinessDataYelpLanguages
 
@@ -1136,10 +1086,9 @@ ___
 
 #### Defined in
 
-[main.ts:18780](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L18780)
+main.ts:19231
 
 ___
-
 
 ### processBusinessDataYelpLocations
 
@@ -1157,10 +1106,9 @@ ___
 
 #### Defined in
 
-[main.ts:18698](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L18698)
+main.ts:19149
 
 ___
-
 
 ### processBusinessDataYelpLocationsCountry
 
@@ -1178,10 +1126,9 @@ ___
 
 #### Defined in
 
-[main.ts:18743](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L18743)
+main.ts:19194
 
 ___
-
 
 ### processBusinessListingsAvailableFilters
 
@@ -1199,10 +1146,9 @@ ___
 
 #### Defined in
 
-[main.ts:17072](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L17072)
+main.ts:17523
 
 ___
-
 
 ### processBusinessListingsCategories
 
@@ -1220,10 +1166,9 @@ ___
 
 #### Defined in
 
-[main.ts:17035](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L17035)
+main.ts:17486
 
 ___
-
 
 ### processBusinessListingsCategoriesAggregationLive
 
@@ -1241,10 +1186,9 @@ ___
 
 #### Defined in
 
-[main.ts:17156](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L17156)
+main.ts:17607
 
 ___
-
 
 ### processBusinessListingsSearchLive
 
@@ -1262,10 +1206,9 @@ ___
 
 #### Defined in
 
-[main.ts:17114](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L17114)
+main.ts:17565
 
 ___
-
 
 ### processGoogleHotelInfoLiveAdvanced
 
@@ -1283,10 +1226,9 @@ ___
 
 #### Defined in
 
-[main.ts:17890](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L17890)
+main.ts:18341
 
 ___
-
 
 ### processGoogleHotelInfoLiveHtml
 
@@ -1304,10 +1246,9 @@ ___
 
 #### Defined in
 
-[main.ts:17932](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L17932)
+main.ts:18383
 
 ___
-
 
 ### processGoogleHotelInfoTaskGetAdvanced
 
@@ -1325,10 +1266,9 @@ ___
 
 #### Defined in
 
-[main.ts:17805](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L17805)
+main.ts:18256
 
 ___
-
 
 ### processGoogleHotelInfoTaskGetHtml
 
@@ -1346,10 +1286,9 @@ ___
 
 #### Defined in
 
-[main.ts:17848](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L17848)
+main.ts:18299
 
 ___
-
 
 ### processGoogleHotelInfoTaskPost
 
@@ -1367,10 +1306,9 @@ ___
 
 #### Defined in
 
-[main.ts:17725](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L17725)
+main.ts:18176
 
 ___
-
 
 ### processGoogleHotelInfoTasksReady
 
@@ -1388,10 +1326,9 @@ ___
 
 #### Defined in
 
-[main.ts:17762](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L17762)
+main.ts:18213
 
 ___
-
 
 ### processGoogleHotelSearchesLive
 
@@ -1409,10 +1346,9 @@ ___
 
 #### Defined in
 
-[main.ts:17683](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L17683)
+main.ts:18134
 
 ___
-
 
 ### processGoogleHotelSearchesTaskGet
 
@@ -1430,10 +1366,9 @@ ___
 
 #### Defined in
 
-[main.ts:17641](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L17641)
+main.ts:18092
 
 ___
-
 
 ### processGoogleHotelSearchesTaskPost
 
@@ -1451,10 +1386,9 @@ ___
 
 #### Defined in
 
-[main.ts:17561](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L17561)
+main.ts:18012
 
 ___
-
 
 ### processGoogleHotelSearchesTasksReady
 
@@ -1472,10 +1406,9 @@ ___
 
 #### Defined in
 
-[main.ts:17598](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L17598)
+main.ts:18049
 
 ___
-
 
 ### processGoogleMyBusinessInfoTaskGet
 
@@ -1493,10 +1426,9 @@ ___
 
 #### Defined in
 
-[main.ts:17397](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L17397)
+main.ts:17848
 
 ___
-
 
 ### processGoogleMyBusinessInfoTaskPost
 
@@ -1514,10 +1446,9 @@ ___
 
 #### Defined in
 
-[main.ts:17317](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L17317)
+main.ts:17768
 
 ___
-
 
 ### processGoogleMyBusinessInfoTasksReady
 
@@ -1535,10 +1466,9 @@ ___
 
 #### Defined in
 
-[main.ts:17354](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L17354)
+main.ts:17805
 
 ___
-
 
 ### processGoogleMyBusinessUpdatesTaskGet
 
@@ -1556,10 +1486,9 @@ ___
 
 #### Defined in
 
-[main.ts:17519](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L17519)
+main.ts:17970
 
 ___
-
 
 ### processGoogleMyBusinessUpdatesTaskPost
 
@@ -1577,10 +1506,9 @@ ___
 
 #### Defined in
 
-[main.ts:17439](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L17439)
+main.ts:17890
 
 ___
-
 
 ### processGoogleMyBusinessUpdatesTasksReady
 
@@ -1598,10 +1526,9 @@ ___
 
 #### Defined in
 
-[main.ts:17476](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L17476)
+main.ts:17927
 
 ___
-
 
 ### processGoogleReviewsTaskGet
 
@@ -1619,10 +1546,9 @@ ___
 
 #### Defined in
 
-[main.ts:18054](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L18054)
+main.ts:18505
 
 ___
-
 
 ### processGoogleReviewsTaskPost
 
@@ -1640,10 +1566,9 @@ ___
 
 #### Defined in
 
-[main.ts:17974](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L17974)
+main.ts:18425
 
 ___
-
 
 ### processGoogleReviewsTasksReady
 
@@ -1661,10 +1586,9 @@ ___
 
 #### Defined in
 
-[main.ts:18011](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L18011)
+main.ts:18462
 
 ___
-
 
 ### processSocialMediaFacebookLive
 
@@ -1682,10 +1606,9 @@ ___
 
 #### Defined in
 
-[main.ts:19108](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L19108)
+main.ts:19559
 
 ___
-
 
 ### processSocialMediaPinterestLive
 
@@ -1703,10 +1626,9 @@ ___
 
 #### Defined in
 
-[main.ts:19066](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L19066)
+main.ts:19517
 
 ___
-
 
 ### processSocialMediaRedditLive
 
@@ -1724,10 +1646,9 @@ ___
 
 #### Defined in
 
-[main.ts:19150](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L19150)
+main.ts:19601
 
 ___
-
 
 ### processTripadvisorReviewsTaskGet
 
@@ -1745,10 +1666,9 @@ ___
 
 #### Defined in
 
-[main.ts:18661](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L18661)
+main.ts:19112
 
 ___
-
 
 ### processTripadvisorReviewsTaskPost
 
@@ -1766,10 +1686,9 @@ ___
 
 #### Defined in
 
-[main.ts:18581](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L18581)
+main.ts:19032
 
 ___
-
 
 ### processTripadvisorReviewsTasksReady
 
@@ -1787,10 +1706,9 @@ ___
 
 #### Defined in
 
-[main.ts:18618](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L18618)
+main.ts:19069
 
 ___
-
 
 ### processTripadvisorSearchTaskGet
 
@@ -1808,10 +1726,9 @@ ___
 
 #### Defined in
 
-[main.ts:18539](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L18539)
+main.ts:18990
 
 ___
-
 
 ### processTripadvisorSearchTaskPost
 
@@ -1829,10 +1746,9 @@ ___
 
 #### Defined in
 
-[main.ts:18459](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L18459)
+main.ts:18910
 
 ___
-
 
 ### processTripadvisorSearchTasksReady
 
@@ -1850,10 +1766,9 @@ ___
 
 #### Defined in
 
-[main.ts:18496](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L18496)
+main.ts:18947
 
 ___
-
 
 ### processTrustpilotReviewsTaskGet
 
@@ -1871,10 +1786,9 @@ ___
 
 #### Defined in
 
-[main.ts:18298](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L18298)
+main.ts:18749
 
 ___
-
 
 ### processTrustpilotReviewsTaskPost
 
@@ -1892,10 +1806,9 @@ ___
 
 #### Defined in
 
-[main.ts:18218](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L18218)
+main.ts:18669
 
 ___
-
 
 ### processTrustpilotReviewsTasksReady
 
@@ -1913,10 +1826,9 @@ ___
 
 #### Defined in
 
-[main.ts:18255](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L18255)
+main.ts:18706
 
 ___
-
 
 ### processTrustpilotSearchTaskGet
 
@@ -1934,10 +1846,9 @@ ___
 
 #### Defined in
 
-[main.ts:18176](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L18176)
+main.ts:18627
 
 ___
-
 
 ### processTrustpilotSearchTaskPost
 
@@ -1955,10 +1866,9 @@ ___
 
 #### Defined in
 
-[main.ts:18096](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L18096)
+main.ts:18547
 
 ___
-
 
 ### processTrustpilotSearchTasksReady
 
@@ -1976,10 +1886,9 @@ ___
 
 #### Defined in
 
-[main.ts:18133](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L18133)
+main.ts:18584
 
 ___
-
 
 ### processYelpReviewsTaskGet
 
@@ -1997,10 +1906,9 @@ ___
 
 #### Defined in
 
-[main.ts:19024](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L19024)
+main.ts:19475
 
 ___
-
 
 ### processYelpReviewsTaskPost
 
@@ -2018,10 +1926,9 @@ ___
 
 #### Defined in
 
-[main.ts:18944](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L18944)
+main.ts:19395
 
 ___
-
 
 ### processYelpReviewsTasksReady
 
@@ -2039,10 +1946,9 @@ ___
 
 #### Defined in
 
-[main.ts:18981](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L18981)
+main.ts:19432
 
 ___
-
 
 ### processYelpSearchTaskGet
 
@@ -2060,10 +1966,9 @@ ___
 
 #### Defined in
 
-[main.ts:18902](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L18902)
+main.ts:19353
 
 ___
-
 
 ### processYelpSearchTaskPost
 
@@ -2081,10 +1986,9 @@ ___
 
 #### Defined in
 
-[main.ts:18822](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L18822)
+main.ts:19273
 
 ___
-
 
 ### processYelpSearchTasksReady
 
@@ -2102,10 +2006,9 @@ ___
 
 #### Defined in
 
-[main.ts:18859](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L18859)
+main.ts:19310
 
 ___
-
 
 ### socialMediaFacebookLive
 
@@ -2125,10 +2028,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:19088](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L19088)
+main.ts:19539
 
 ___
-
 
 ### socialMediaPinterestLive
 
@@ -2148,10 +2050,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:19046](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L19046)
+main.ts:19497
 
 ___
-
 
 ### socialMediaRedditLive
 
@@ -2171,10 +2072,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:19130](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L19130)
+main.ts:19581
 
 ___
-
 
 ### tripadvisorReviewsTaskGet
 
@@ -2194,10 +2094,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:18642](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L18642)
+main.ts:19093
 
 ___
-
 
 ### tripadvisorReviewsTaskPost
 
@@ -2217,10 +2116,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:18561](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L18561)
+main.ts:19012
 
 ___
-
 
 ### tripadvisorReviewsTasksReady
 
@@ -2234,10 +2132,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:18602](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L18602)
+main.ts:19053
 
 ___
-
 
 ### tripadvisorSearchTaskGet
 
@@ -2257,10 +2154,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:18520](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L18520)
+main.ts:18971
 
 ___
-
 
 ### tripadvisorSearchTaskPost
 
@@ -2280,10 +2176,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:18439](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L18439)
+main.ts:18890
 
 ___
-
 
 ### tripadvisorSearchTasksReady
 
@@ -2297,10 +2192,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:18480](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L18480)
+main.ts:18931
 
 ___
-
 
 ### trustpilotReviewsTaskGet
 
@@ -2320,10 +2214,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:18279](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L18279)
+main.ts:18730
 
 ___
-
 
 ### trustpilotReviewsTaskPost
 
@@ -2343,10 +2236,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:18198](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L18198)
+main.ts:18649
 
 ___
-
 
 ### trustpilotReviewsTasksReady
 
@@ -2360,10 +2252,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:18239](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L18239)
+main.ts:18690
 
 ___
-
 
 ### trustpilotSearchTaskGet
 
@@ -2383,10 +2274,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:18157](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L18157)
+main.ts:18608
 
 ___
-
 
 ### trustpilotSearchTaskPost
 
@@ -2406,10 +2296,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:18076](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L18076)
+main.ts:18527
 
 ___
-
 
 ### trustpilotSearchTasksReady
 
@@ -2423,10 +2312,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:18117](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L18117)
+main.ts:18568
 
 ___
-
 
 ### yelpReviewsTaskGet
 
@@ -2446,10 +2334,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:19005](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L19005)
+main.ts:19456
 
 ___
-
 
 ### yelpReviewsTaskPost
 
@@ -2469,10 +2356,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:18924](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L18924)
+main.ts:19375
 
 ___
-
 
 ### yelpReviewsTasksReady
 
@@ -2486,10 +2372,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:18965](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L18965)
+main.ts:19416
 
 ___
-
 
 ### yelpSearchTaskGet
 
@@ -2509,10 +2394,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:18883](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L18883)
+main.ts:19334
 
 ___
-
 
 ### yelpSearchTaskPost
 
@@ -2532,10 +2416,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:18802](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L18802)
+main.ts:19253
 
 ___
-
 
 ### yelpSearchTasksReady
 
@@ -2549,8 +2432,4 @@ Successful operation
 
 #### Defined in
 
-[main.ts:18843](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L18843)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:19294

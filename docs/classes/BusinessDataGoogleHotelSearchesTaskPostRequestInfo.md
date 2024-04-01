@@ -1,15 +1,11 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / BusinessDataGoogleHotelSearchesTaskPostRequestInfo
+[Documentation](../README.md) / [Exports](../modules.md) / BusinessDataGoogleHotelSearchesTaskPostRequestInfo
 
 # Class: BusinessDataGoogleHotelSearchesTaskPostRequestInfo
 
 ## Hierarchy
 
 - [`BusinessDataTaskRequestInfo`](BusinessDataTaskRequestInfo.md)
-  
+
   ↳ **`BusinessDataGoogleHotelSearchesTaskPostRequestInfo`**
 
 ## Implements
@@ -81,7 +77,7 @@
 
 #### Defined in
 
-[main.ts:192886](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L192886)
+main.ts:198347
 
 ## Properties
 
@@ -102,10 +98,9 @@ example:
 
 #### Defined in
 
-[main.ts:192799](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L192799)
+main.ts:198260
 
 ___
-
 
 ### amenities
 
@@ -115,10 +110,10 @@ hotel amenities
 optional field
 you can use this field to specify different hotel amenities
 example:
-[
-"free_parking",
-"pets_allowed"
-]
+  [
+            "free_parking",
+            "pets_allowed"
+        ]
 
 possible values:
 "air_conditioning",
@@ -146,10 +141,9 @@ possible values:
 
 #### Defined in
 
-[main.ts:192882](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L192882)
+main.ts:198343
 
 ___
-
 
 ### check\_in
 
@@ -169,10 +163,9 @@ Note: the value cannot precede the today’s date
 
 #### Defined in
 
-[main.ts:192778](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L192778)
+main.ts:198239
 
 ___
-
 
 ### check\_out
 
@@ -193,10 +186,9 @@ the range between check_in and check_out values cannot exceed 30 days
 
 #### Defined in
 
-[main.ts:192787](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L192787)
+main.ts:198248
 
 ___
-
 
 ### children
 
@@ -218,10 +210,9 @@ set the following value if you want to include one 13-year-old child and one 8-y
 
 #### Defined in
 
-[main.ts:192809](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L192809)
+main.ts:198270
 
 ___
-
 
 ### currency
 
@@ -238,10 +229,9 @@ example:
 
 #### Defined in
 
-[main.ts:192792](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L192792)
+main.ts:198253
 
 ___
-
 
 ### depth
 
@@ -262,10 +252,9 @@ if the specified depth is higher than the number of results in the response, the
 
 #### Defined in
 
-[main.ts:192770](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L192770)
+main.ts:198231
 
 ___
-
 
 ### free\_cancellation
 
@@ -282,10 +271,9 @@ default value: false
 
 #### Defined in
 
-[main.ts:192848](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L192848)
+main.ts:198309
 
 ___
-
 
 ### is\_vacation\_rentals
 
@@ -302,10 +290,9 @@ default value: false
 
 #### Defined in
 
-[main.ts:192853](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L192853)
+main.ts:198314
 
 ___
-
 
 ### keyword
 
@@ -316,7 +303,7 @@ required field
 the keyword you specify should indicate the name of the local establishment
 you can specify up to 700 symbols in the keyword filed
 all %## will be decoded (plus symbol ‘+’ will be decoded to a space character)
-if you need to use the “%” symbol for your keyword, please specify it as “%25”;
+if you need to use the “%” symbol for your keyword, please specify it as “%25”; 
 this field can also be used to pass the following parameters:
 cid – a unique, google-defined id of the business entity;
 place_id – an identifier of the business entity in Google Maps;
@@ -337,10 +324,9 @@ learn more about the cid and place_id identifiers in this help center article
 
 #### Defined in
 
-[main.ts:183110](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L183110)
+main.ts:188563
 
 ___
-
 
 ### language\_code
 
@@ -363,10 +349,9 @@ en
 
 #### Defined in
 
-[main.ts:183155](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L183155)
+main.ts:188608
 
 ___
-
 
 ### language\_name
 
@@ -389,10 +374,9 @@ English
 
 #### Defined in
 
-[main.ts:183148](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L183148)
+main.ts:188601
 
 ___
-
 
 ### location\_code
 
@@ -415,10 +399,9 @@ example:
 
 #### Defined in
 
-[main.ts:183132](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L183132)
+main.ts:188585
 
 ___
-
 
 ### location\_coordinate
 
@@ -443,10 +426,9 @@ example:
 
 #### Defined in
 
-[main.ts:183141](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L183141)
+main.ts:188594
 
 ___
-
 
 ### location\_name
 
@@ -469,10 +451,9 @@ London,England,United Kingdom
 
 #### Defined in
 
-[main.ts:183125](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L183125)
+main.ts:188578
 
 ___
-
 
 ### max\_price
 
@@ -490,10 +471,9 @@ example:
 
 #### Defined in
 
-[main.ts:192843](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L192843)
+main.ts:198304
 
 ___
-
 
 ### min\_price
 
@@ -511,10 +491,9 @@ example:
 
 #### Defined in
 
-[main.ts:192837](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L192837)
+main.ts:198298
 
 ___
-
 
 ### min\_rating
 
@@ -532,10 +511,9 @@ example:
 
 #### Defined in
 
-[main.ts:192821](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L192821)
+main.ts:198282
 
 ___
-
 
 ### pingback\_url
 
@@ -561,10 +539,9 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-[main.ts:183181](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L183181)
+main.ts:188634
 
 ___
-
 
 ### postback\_url
 
@@ -590,10 +567,9 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-[main.ts:183171](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L183171)
+main.ts:188624
 
 ___
-
 
 ### priority
 
@@ -617,10 +593,9 @@ The cost can be calculated on the Pricing page.
 
 #### Defined in
 
-[main.ts:183118](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L183118)
+main.ts:188571
 
 ___
-
 
 ### sort\_by
 
@@ -642,10 +617,9 @@ default value: relevance
 
 #### Defined in
 
-[main.ts:192831](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L192831)
+main.ts:198292
 
 ___
-
 
 ### stars
 
@@ -663,10 +637,9 @@ example:
 
 #### Defined in
 
-[main.ts:192815](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L192815)
+main.ts:198276
 
 ___
-
 
 ### tag
 
@@ -688,7 +661,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-[main.ts:183161](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L183161)
+main.ts:188614
 
 ## Methods
 
@@ -712,10 +685,9 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-[main.ts:192890](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L192890)
+main.ts:198351
 
 ___
-
 
 ### toJSON
 
@@ -737,10 +709,9 @@ ___
 
 #### Defined in
 
-[main.ts:192933](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L192933)
+main.ts:198394
 
 ___
-
 
 ### fromJS
 
@@ -762,8 +733,4 @@ ___
 
 #### Defined in
 
-[main.ts:192926](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L192926)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:198387

@@ -1,15 +1,11 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / TripadvisorSearchOrganicBusinessDataSerpElementItem
+[Documentation](../README.md) / [Exports](../modules.md) / TripadvisorSearchOrganicBusinessDataSerpElementItem
 
 # Class: TripadvisorSearchOrganicBusinessDataSerpElementItem
 
 ## Hierarchy
 
 - [`BaseBusinessDataSerpElementItem`](BaseBusinessDataSerpElementItem.md)
-  
+
   ↳ **`TripadvisorSearchOrganicBusinessDataSerpElementItem`**
 
 ## Implements
@@ -67,7 +63,7 @@
 
 #### Defined in
 
-[main.ts:201393](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L201393)
+main.ts:206854
 
 ## Properties
 
@@ -81,10 +77,9 @@
 
 #### Defined in
 
-[main.ts:20076](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L20076)
+main.ts:20532
 
 ___
-
 
 ### category
 
@@ -98,10 +93,9 @@ place category
 
 #### Defined in
 
-[main.ts:201385](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L201385)
+main.ts:206846
 
 ___
-
 
 ### is\_sponsored
 
@@ -116,10 +110,9 @@ if true, related tripadvisor_search_organic item is a paid advertising on Tripad
 
 #### Defined in
 
-[main.ts:201381](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L201381)
+main.ts:206842
 
 ___
-
 
 ### price\_rate
 
@@ -133,10 +126,9 @@ average price rate
 
 #### Defined in
 
-[main.ts:201387](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L201387)
+main.ts:206848
 
 ___
-
 
 ### rank\_absolute
 
@@ -151,10 +143,9 @@ absolute position among all reviews on the list
 
 #### Defined in
 
-[main.ts:201372](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L201372)
+main.ts:206833
 
 ___
-
 
 ### rank\_group
 
@@ -169,10 +160,9 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-[main.ts:201369](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L201369)
+main.ts:206830
 
 ___
-
 
 ### rating
 
@@ -186,10 +176,9 @@ the rating score of the establishment submitted by the reviewers
 
 #### Defined in
 
-[main.ts:201389](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L201389)
+main.ts:206850
 
 ___
-
 
 ### reviews\_count
 
@@ -203,10 +192,9 @@ the total number of reviews
 
 #### Defined in
 
-[main.ts:201383](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L201383)
+main.ts:206844
 
 ___
-
 
 ### title
 
@@ -220,10 +208,9 @@ name of the business entity
 
 #### Defined in
 
-[main.ts:201374](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L201374)
+main.ts:206835
 
 ___
-
 
 ### url\_path
 
@@ -239,7 +226,7 @@ you can use this identifier to collect reviews for the business entity using Tri
 
 #### Defined in
 
-[main.ts:201378](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L201378)
+main.ts:206839
 
 ## Methods
 
@@ -263,10 +250,9 @@ you can use this identifier to collect reviews for the business entity using Tri
 
 #### Defined in
 
-[main.ts:201398](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L201398)
+main.ts:206859
 
 ___
-
 
 ### toJSON
 
@@ -288,10 +274,9 @@ ___
 
 #### Defined in
 
-[main.ts:201424](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L201424)
+main.ts:206885
 
 ___
-
 
 ### fromJS
 
@@ -313,8 +298,4 @@ ___
 
 #### Defined in
 
-[main.ts:201417](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L201417)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:206878

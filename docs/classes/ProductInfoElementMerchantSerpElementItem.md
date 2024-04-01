@@ -1,15 +1,11 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / ProductInfoElementMerchantSerpElementItem
+[Documentation](../README.md) / [Exports](../modules.md) / ProductInfoElementMerchantSerpElementItem
 
 # Class: ProductInfoElementMerchantSerpElementItem
 
 ## Hierarchy
 
 - [`BaseMerchantSerpElementItem`](BaseMerchantSerpElementItem.md)
-  
+
   ↳ **`ProductInfoElementMerchantSerpElementItem`**
 
 ## Implements
@@ -71,7 +67,7 @@
 
 #### Defined in
 
-[main.ts:169185](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L169185)
+main.ts:174638
 
 ## Properties
 
@@ -85,10 +81,9 @@
 
 #### Defined in
 
-[main.ts:19988](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L19988)
+main.ts:20444
 
 ___
-
 
 ### description
 
@@ -102,10 +97,9 @@ description of the product
 
 #### Defined in
 
-[main.ts:169160](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L169160)
+main.ts:174613
 
 ___
-
 
 ### features
 
@@ -120,10 +114,9 @@ contains snippets with the description of product features
 
 #### Defined in
 
-[main.ts:169169](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L169169)
+main.ts:174622
 
 ___
-
 
 ### images
 
@@ -138,10 +131,9 @@ contains urls to product images
 
 #### Defined in
 
-[main.ts:169166](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L169166)
+main.ts:174619
 
 ___
-
 
 ### position
 
@@ -157,10 +149,9 @@ right, left
 
 #### Defined in
 
-[main.ts:169153](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L169153)
+main.ts:174606
 
 ___
-
 
 ### product\_id
 
@@ -175,10 +166,9 @@ ilearn more about the parameter in this help center guide
 
 #### Defined in
 
-[main.ts:169156](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L169156)
+main.ts:174609
 
 ___
-
 
 ### rank\_absolute
 
@@ -193,10 +183,9 @@ absolute position among all the elements found on the product specification page
 
 #### Defined in
 
-[main.ts:169149](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L169149)
+main.ts:174602
 
 ___
-
 
 ### rank\_group
 
@@ -211,16 +200,15 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-[main.ts:169146](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L169146)
+main.ts:174599
 
 ___
-
 
 ### rating
 
 • `Optional` **rating**: [`RatingElement`](RatingElement.md)
 
-product rating
+product rating 
 the popularity rate based on reviews
 
 #### Implementation of
@@ -229,10 +217,9 @@ the popularity rate based on reviews
 
 #### Defined in
 
-[main.ts:169172](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L169172)
+main.ts:174625
 
 ___
-
 
 ### seller\_reviews\_count
 
@@ -247,10 +234,9 @@ number of reviews on the product seller’s account
 
 #### Defined in
 
-[main.ts:169175](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L169175)
+main.ts:174628
 
 ___
-
 
 ### sellers
 
@@ -265,10 +251,9 @@ number of reviews on the product seller’s account
 
 #### Defined in
 
-[main.ts:169178](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L169178)
+main.ts:174631
 
 ___
-
 
 ### title
 
@@ -282,10 +267,9 @@ title of the product
 
 #### Defined in
 
-[main.ts:169158](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L169158)
+main.ts:174611
 
 ___
-
 
 ### url
 
@@ -300,10 +284,9 @@ url of the product on Google Shopping
 
 #### Defined in
 
-[main.ts:169163](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L169163)
+main.ts:174616
 
 ___
-
 
 ### variations
 
@@ -318,7 +301,7 @@ contains brief information about different product variations
 
 #### Defined in
 
-[main.ts:169181](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L169181)
+main.ts:174634
 
 ## Methods
 
@@ -342,10 +325,9 @@ contains brief information about different product variations
 
 #### Defined in
 
-[main.ts:169190](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L169190)
+main.ts:174643
 
 ___
-
 
 ### toJSON
 
@@ -367,10 +349,9 @@ ___
 
 #### Defined in
 
-[main.ts:169236](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L169236)
+main.ts:174689
 
 ___
-
 
 ### fromJS
 
@@ -392,8 +373,4 @@ ___
 
 #### Defined in
 
-[main.ts:169229](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L169229)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:174682

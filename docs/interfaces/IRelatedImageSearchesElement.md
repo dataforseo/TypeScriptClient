@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IRelatedImageSearchesElement
+[Documentation](../README.md) / [Exports](../modules.md) / IRelatedImageSearchesElement
 
 # Interface: IRelatedImageSearchesElement
 
@@ -34,10 +30,9 @@ alt tag of the image
 
 #### Defined in
 
-[main.ts:28844](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L28844)
+main.ts:29607
 
 ___
-
 
 ### image\_url
 
@@ -48,23 +43,21 @@ the URL leading to the image on the original resource or DataForSEO storage (in 
 
 #### Defined in
 
-[main.ts:28849](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L28849)
+main.ts:29612
 
 ___
-
 
 ### title
 
 • `Optional` **title**: `string`
 
-title of the carousel item
+title of a given link element
 
 #### Defined in
 
-[main.ts:28842](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L28842)
+main.ts:29605
 
 ___
-
 
 ### type
 
@@ -74,21 +67,16 @@ type of element
 
 #### Defined in
 
-[main.ts:28840](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L28840)
+main.ts:29603
 
 ___
-
 
 ### url
 
 • `Optional` **url**: `string`
 
-source URL
+relevant URL
 
 #### Defined in
 
-[main.ts:28846](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L28846)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:29609

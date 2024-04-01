@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IAppendixMoneyData
+[Documentation](../README.md) / [Exports](../modules.md) / IAppendixMoneyData
 
 # Interface: IAppendixMoneyData
 
@@ -33,10 +29,9 @@ amount of money left in your account
 
 #### Defined in
 
-[main.ts:209499](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L209499)
+main.ts:215028
 
 ___
-
 
 ### limits
 
@@ -46,10 +41,9 @@ cost limits
 
 #### Defined in
 
-[main.ts:209501](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L209501)
+main.ts:215030
 
 ___
-
 
 ### statistics
 
@@ -59,10 +53,9 @@ statistics of your spending
 
 #### Defined in
 
-[main.ts:209503](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L209503)
+main.ts:215032
 
 ___
-
 
 ### total
 
@@ -72,8 +65,4 @@ total amount of money deposited to your account
 
 #### Defined in
 
-[main.ts:209497](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L209497)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:215026

@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / ISerpBaiduOrganicTaskGetHtmlResultInfo
+[Documentation](../README.md) / [Exports](../modules.md) / ISerpBaiduOrganicTaskGetHtmlResultInfo
 
 # Interface: ISerpBaiduOrganicTaskGetHtmlResultInfo
 
@@ -40,10 +36,9 @@ example:
 
 #### Defined in
 
-[main.ts:67359](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L67359)
+main.ts:69736
 
 ___
-
 
 ### items
 
@@ -53,10 +48,9 @@ elements of search results found in SERP
 
 #### Defined in
 
-[main.ts:67363](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L67363)
+main.ts:69740
 
 ___
-
 
 ### items\_count
 
@@ -66,10 +60,9 @@ the number of results returned in the items array
 
 #### Defined in
 
-[main.ts:67361](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L67361)
+main.ts:69738
 
 ___
-
 
 ### keyword
 
@@ -80,10 +73,9 @@ keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a s
 
 #### Defined in
 
-[main.ts:67346](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L67346)
+main.ts:69723
 
 ___
-
 
 ### language\_code
 
@@ -93,10 +85,9 @@ language code in a POST array
 
 #### Defined in
 
-[main.ts:67354](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L67354)
+main.ts:69731
 
 ___
-
 
 ### location\_code
 
@@ -106,10 +97,9 @@ location code in a POST array
 
 #### Defined in
 
-[main.ts:67352](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L67352)
+main.ts:69729
 
 ___
-
 
 ### se\_domain
 
@@ -119,10 +109,9 @@ search engine domain in a POST array
 
 #### Defined in
 
-[main.ts:67350](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L67350)
+main.ts:69727
 
 ___
-
 
 ### type
 
@@ -132,8 +121,4 @@ type of element
 
 #### Defined in
 
-[main.ts:67348](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L67348)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:69725

@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IAppendixProductGoogleMerchantPriceDataInfo
+[Documentation](../README.md) / [Exports](../modules.md) / IAppendixProductGoogleMerchantPriceDataInfo
 
 # Interface: IAppendixProductGoogleMerchantPriceDataInfo
 
@@ -30,10 +26,9 @@
 
 #### Defined in
 
-[main.ts:210295](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L210295)
+main.ts:215888
 
 ___
-
 
 ### task\_post
 
@@ -41,10 +36,9 @@ ___
 
 #### Defined in
 
-[main.ts:210296](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L210296)
+main.ts:215889
 
 ___
-
 
 ### tasks\_ready
 
@@ -52,8 +46,4 @@ ___
 
 #### Defined in
 
-[main.ts:210297](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L210297)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:215890

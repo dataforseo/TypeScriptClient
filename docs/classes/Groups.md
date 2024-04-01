@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / Groups
+[Documentation](../README.md) / [Exports](../modules.md) / Groups
 
 # Class: Groups
 
@@ -50,7 +46,7 @@
 
 #### Defined in
 
-[main.ts:72198](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L72198)
+main.ts:74575
 
 ## Properties
 
@@ -66,10 +62,9 @@ technology categories in this group
 
 #### Defined in
 
-[main.ts:72194](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L72194)
+main.ts:74571
 
 ___
-
 
 ### id
 
@@ -85,10 +80,9 @@ marketing, sales
 
 #### Defined in
 
-[main.ts:72190](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L72190)
+main.ts:74567
 
 ___
-
 
 ### title
 
@@ -102,7 +96,7 @@ title of the technology group
 
 #### Defined in
 
-[main.ts:72192](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L72192)
+main.ts:74569
 
 ## Methods
 
@@ -122,10 +116,9 @@ title of the technology group
 
 #### Defined in
 
-[main.ts:72207](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L72207)
+main.ts:74584
 
 ___
-
 
 ### toJSON
 
@@ -143,10 +136,9 @@ ___
 
 #### Defined in
 
-[main.ts:72230](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L72230)
+main.ts:74607
 
 ___
-
 
 ### fromJS
 
@@ -164,8 +156,4 @@ ___
 
 #### Defined in
 
-[main.ts:72223](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L72223)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:74600

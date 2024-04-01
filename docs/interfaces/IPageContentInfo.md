@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IPageContentInfo
+[Documentation](../README.md) / [Exports](../modules.md) / IPageContentInfo
 
 # Interface: IPageContentInfo
 
@@ -33,10 +29,9 @@ parsed content of the footer
 
 #### Defined in
 
-[main.ts:152270](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L152270)
+main.ts:157697
 
 ___
-
 
 ### header
 
@@ -46,10 +41,9 @@ parsed content of the header
 
 #### Defined in
 
-[main.ts:152268](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L152268)
+main.ts:157695
 
 ___
-
 
 ### main\_topic
 
@@ -60,10 +54,9 @@ you can find more information about topic priority calculation in this help cent
 
 #### Defined in
 
-[main.ts:152273](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L152273)
+main.ts:157700
 
 ___
-
 
 ### secondary\_topic
 
@@ -74,8 +67,4 @@ you can find more information about topic priority calculation in this help cent
 
 #### Defined in
 
-[main.ts:152276](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L152276)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:157703

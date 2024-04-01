@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / OnPageDuplicateTagsResultInfo
+[Documentation](../README.md) / [Exports](../modules.md) / OnPageDuplicateTagsResultInfo
 
 # Class: OnPageDuplicateTagsResultInfo
 
@@ -53,7 +49,7 @@
 
 #### Defined in
 
-[main.ts:147244](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L147244)
+main.ts:152671
 
 ## Properties
 
@@ -70,10 +66,9 @@ possible values: in_progress, finished
 
 #### Defined in
 
-[main.ts:147228](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L147228)
+main.ts:152655
 
 ___
-
 
 ### crawl\_status
 
@@ -87,10 +82,9 @@ details of the crawling session
 
 #### Defined in
 
-[main.ts:147230](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L147230)
+main.ts:152657
 
 ___
-
 
 ### items
 
@@ -104,10 +98,9 @@ items array
 
 #### Defined in
 
-[main.ts:147240](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L147240)
+main.ts:152667
 
 ___
-
 
 ### items\_count
 
@@ -121,10 +114,9 @@ number of items in the results array
 
 #### Defined in
 
-[main.ts:147238](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L147238)
+main.ts:152665
 
 ___
-
 
 ### pages\_count
 
@@ -139,10 +131,9 @@ displays the number of pages with duplicate tags returned in the response
 
 #### Defined in
 
-[main.ts:147236](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L147236)
+main.ts:152663
 
 ___
-
 
 ### total\_pages\_count
 
@@ -157,7 +148,7 @@ displays the total number of pages with duplicate tags of the target website
 
 #### Defined in
 
-[main.ts:147233](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L147233)
+main.ts:152660
 
 ## Methods
 
@@ -177,10 +168,9 @@ displays the total number of pages with duplicate tags of the target website
 
 #### Defined in
 
-[main.ts:147253](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L147253)
+main.ts:152680
 
 ___
-
 
 ### toJSON
 
@@ -198,10 +188,9 @@ ___
 
 #### Defined in
 
-[main.ts:147279](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L147279)
+main.ts:152706
 
 ___
-
 
 ### fromJS
 
@@ -219,8 +208,4 @@ ___
 
 #### Defined in
 
-[main.ts:147272](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L147272)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:152699

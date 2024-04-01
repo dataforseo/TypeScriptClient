@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / DataforseoLabsGoogleHistoricalSerpsLiveItem
+[Documentation](../README.md) / [Exports](../modules.md) / DataforseoLabsGoogleHistoricalSerpsLiveItem
 
 # Class: DataforseoLabsGoogleHistoricalSerpsLiveItem
 
@@ -60,7 +56,7 @@
 
 #### Defined in
 
-[main.ts:92014](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L92014)
+main.ts:94391
 
 ## Properties
 
@@ -77,10 +73,9 @@ you can use it to make sure that we provided accurate results
 
 #### Defined in
 
-[main.ts:91990](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L91990)
+main.ts:94367
 
 ___
-
 
 ### datetime
 
@@ -97,10 +92,9 @@ example:
 
 #### Defined in
 
-[main.ts:91995](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L91995)
+main.ts:94372
 
 ___
-
 
 ### item\_types
 
@@ -117,10 +111,9 @@ answer_box, carousel, multi_carousel, featured_snippet, google_flights, google_r
 
 #### Defined in
 
-[main.ts:92003](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L92003)
+main.ts:94380
 
 ___
-
 
 ### items
 
@@ -135,10 +128,9 @@ if there are none, equals null
 
 #### Defined in
 
-[main.ts:92010](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L92010)
+main.ts:94387
 
 ___
-
 
 ### items\_count
 
@@ -152,10 +144,9 @@ the number of results returned in the items array
 
 #### Defined in
 
-[main.ts:92007](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L92007)
+main.ts:94384
 
 ___
-
 
 ### keyword
 
@@ -170,10 +161,9 @@ the results will be provided for the corrected keyword
 
 #### Defined in
 
-[main.ts:91979](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L91979)
+main.ts:94356
 
 ___
-
 
 ### language\_code
 
@@ -187,10 +177,9 @@ language code in a POST array
 
 #### Defined in
 
-[main.ts:91987](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L91987)
+main.ts:94364
 
 ___
-
 
 ### location\_code
 
@@ -204,10 +193,9 @@ location code in a POST array
 
 #### Defined in
 
-[main.ts:91985](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L91985)
+main.ts:94362
 
 ___
-
 
 ### se\_domain
 
@@ -221,10 +209,9 @@ search engine domain in a POST array
 
 #### Defined in
 
-[main.ts:91983](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L91983)
+main.ts:94360
 
 ___
-
 
 ### se\_results\_count
 
@@ -238,10 +225,9 @@ total number of results in SERP
 
 #### Defined in
 
-[main.ts:92005](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L92005)
+main.ts:94382
 
 ___
-
 
 ### se\_type
 
@@ -255,10 +241,9 @@ search engine type
 
 #### Defined in
 
-[main.ts:91976](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L91976)
+main.ts:94353
 
 ___
-
 
 ### spell
 
@@ -273,10 +258,9 @@ if the search engine provided results for a keyword that was corrected, we will 
 
 #### Defined in
 
-[main.ts:91998](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L91998)
+main.ts:94375
 
 ___
-
 
 ### type
 
@@ -290,7 +274,7 @@ type of element
 
 #### Defined in
 
-[main.ts:91981](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L91981)
+main.ts:94358
 
 ## Methods
 
@@ -310,10 +294,9 @@ type of element
 
 #### Defined in
 
-[main.ts:92023](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L92023)
+main.ts:94400
 
 ___
-
 
 ### toJSON
 
@@ -331,10 +314,9 @@ ___
 
 #### Defined in
 
-[main.ts:92060](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L92060)
+main.ts:94437
 
 ___
-
 
 ### fromJS
 
@@ -352,8 +334,4 @@ ___
 
 #### Defined in
 
-[main.ts:92053](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L92053)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:94430

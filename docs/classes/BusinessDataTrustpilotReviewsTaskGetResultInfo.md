@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / BusinessDataTrustpilotReviewsTaskGetResultInfo
+[Documentation](../README.md) / [Exports](../modules.md) / BusinessDataTrustpilotReviewsTaskGetResultInfo
 
 # Class: BusinessDataTrustpilotReviewsTaskGetResultInfo
 
@@ -58,7 +54,7 @@
 
 #### Defined in
 
-[main.ts:200133](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L200133)
+main.ts:205594
 
 ## Properties
 
@@ -75,10 +71,9 @@ you can use it to make sure that we provided accurate results
 
 #### Defined in
 
-[main.ts:200107](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L200107)
+main.ts:205568
 
 ___
-
 
 ### datetime
 
@@ -95,10 +90,9 @@ example:
 
 #### Defined in
 
-[main.ts:200112](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L200112)
+main.ts:205573
 
 ___
-
 
 ### domain
 
@@ -112,10 +106,9 @@ domain of the business entity
 
 #### Defined in
 
-[main.ts:200100](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L200100)
+main.ts:205561
 
 ___
-
 
 ### items
 
@@ -130,10 +123,9 @@ you can get more results by using the depth parameter when setting a task
 
 #### Defined in
 
-[main.ts:200129](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L200129)
+main.ts:205590
 
 ___
-
 
 ### items\_count
 
@@ -148,10 +140,9 @@ you can get more results by using the depth parameter when setting a task
 
 #### Defined in
 
-[main.ts:200126](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L200126)
+main.ts:205587
 
 ___
-
 
 ### location
 
@@ -166,10 +157,9 @@ address of the business entity for which the reviews are collected
 
 #### Defined in
 
-[main.ts:200118](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L200118)
+main.ts:205579
 
 ___
-
 
 ### rating
 
@@ -184,10 +174,9 @@ popularity rate based on reviews and displayed in SERP
 
 #### Defined in
 
-[main.ts:200123](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L200123)
+main.ts:205584
 
 ___
-
 
 ### reviews\_count
 
@@ -201,10 +190,9 @@ the total number of reviews
 
 #### Defined in
 
-[main.ts:200120](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L200120)
+main.ts:205581
 
 ___
-
 
 ### se\_domain
 
@@ -218,10 +206,9 @@ search engine domain in a POST array
 
 #### Defined in
 
-[main.ts:200104](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L200104)
+main.ts:205565
 
 ___
-
 
 ### title
 
@@ -236,10 +223,9 @@ the name of the business entity for which the reviews are collected
 
 #### Defined in
 
-[main.ts:200115](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L200115)
+main.ts:205576
 
 ___
-
 
 ### type
 
@@ -253,7 +239,7 @@ type of element
 
 #### Defined in
 
-[main.ts:200102](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L200102)
+main.ts:205563
 
 ## Methods
 
@@ -273,10 +259,9 @@ type of element
 
 #### Defined in
 
-[main.ts:200142](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L200142)
+main.ts:205603
 
 ___
-
 
 ### toJSON
 
@@ -294,10 +279,9 @@ ___
 
 #### Defined in
 
-[main.ts:200173](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L200173)
+main.ts:205634
 
 ___
-
 
 ### fromJS
 
@@ -315,8 +299,4 @@ ___
 
 #### Defined in
 
-[main.ts:200166](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L200166)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:205627

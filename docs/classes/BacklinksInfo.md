@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / BacklinksInfo
+[Documentation](../README.md) / [Exports](../modules.md) / BacklinksInfo
 
 # Class: BacklinksInfo
 
@@ -53,7 +49,7 @@
 
 #### Defined in
 
-[main.ts:76004](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L76004)
+main.ts:78381
 
 ## Properties
 
@@ -70,10 +66,9 @@ the total number of backlinks, including dofollow and nofollow links
 
 #### Defined in
 
-[main.ts:75995](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L75995)
+main.ts:78372
 
 ___
-
 
 ### dofollow
 
@@ -87,10 +82,9 @@ number of dofollow links
 
 #### Defined in
 
-[main.ts:75992](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L75992)
+main.ts:78369
 
 ___
-
 
 ### referring\_domains
 
@@ -104,10 +98,9 @@ number of referring domains
 
 #### Defined in
 
-[main.ts:75986](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L75986)
+main.ts:78363
 
 ___
-
 
 ### referring\_main\_domains
 
@@ -121,10 +114,9 @@ number of referring main domains
 
 #### Defined in
 
-[main.ts:75988](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L75988)
+main.ts:78365
 
 ___
-
 
 ### referring\_pages
 
@@ -138,10 +130,9 @@ number of referring pages
 
 #### Defined in
 
-[main.ts:75990](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L75990)
+main.ts:78367
 
 ___
-
 
 ### time\_update
 
@@ -158,7 +149,7 @@ example:
 
 #### Defined in
 
-[main.ts:76000](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L76000)
+main.ts:78377
 
 ## Methods
 
@@ -178,10 +169,9 @@ example:
 
 #### Defined in
 
-[main.ts:76013](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L76013)
+main.ts:78390
 
 ___
-
 
 ### toJSON
 
@@ -199,10 +189,9 @@ ___
 
 #### Defined in
 
-[main.ts:76035](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L76035)
+main.ts:78412
 
 ___
-
 
 ### fromJS
 
@@ -220,8 +209,4 @@ ___
 
 #### Defined in
 
-[main.ts:76028](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L76028)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:78405

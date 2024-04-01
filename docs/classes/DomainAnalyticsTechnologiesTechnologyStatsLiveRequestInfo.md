@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / DomainAnalyticsTechnologiesTechnologyStatsLiveRequestInfo
+[Documentation](../README.md) / [Exports](../modules.md) / DomainAnalyticsTechnologiesTechnologyStatsLiveRequestInfo
 
 # Class: DomainAnalyticsTechnologiesTechnologyStatsLiveRequestInfo
 
@@ -51,7 +47,7 @@
 
 #### Defined in
 
-[main.ts:73521](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L73521)
+main.ts:75898
 
 ## Properties
 
@@ -73,10 +69,9 @@ example:
 
 #### Defined in
 
-[main.ts:73504](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L73504)
+main.ts:75881
 
 ___
-
 
 ### date\_to
 
@@ -95,10 +90,9 @@ example:
 
 #### Defined in
 
-[main.ts:73511](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L73511)
+main.ts:75888
 
 ___
-
 
 ### tag
 
@@ -116,10 +110,9 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-[main.ts:73517](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L73517)
+main.ts:75894
 
 ___
-
 
 ### technology
 
@@ -137,7 +130,7 @@ example:
 
 #### Defined in
 
-[main.ts:73496](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L73496)
+main.ts:75873
 
 ## Methods
 
@@ -157,10 +150,9 @@ example:
 
 #### Defined in
 
-[main.ts:73530](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L73530)
+main.ts:75907
 
 ___
-
 
 ### toJSON
 
@@ -178,10 +170,9 @@ ___
 
 #### Defined in
 
-[main.ts:73550](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L73550)
+main.ts:75927
 
 ___
-
 
 ### fromJS
 
@@ -199,8 +190,4 @@ ___
 
 #### Defined in
 
-[main.ts:73543](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L73543)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:75920

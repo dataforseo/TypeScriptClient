@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IScholarlyArticlesElement
+[Documentation](../README.md) / [Exports](../modules.md) / IScholarlyArticlesElement
 
 # Interface: IScholarlyArticlesElement
 
@@ -34,36 +30,33 @@ author
 
 #### Defined in
 
-[main.ts:31861](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L31861)
+main.ts:32724
 
 ___
-
 
 ### description
 
 • `Optional` **description**: `string`
 
-description of the results element in SERP
+description
 
 #### Defined in
 
-[main.ts:31863](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L31863)
+main.ts:32726
 
 ___
-
 
 ### title
 
 • `Optional` **title**: `string`
 
-title of the row
+title of a given link element
 
 #### Defined in
 
-[main.ts:31857](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L31857)
+main.ts:32720
 
 ___
-
 
 ### type
 
@@ -73,10 +66,9 @@ type of element
 
 #### Defined in
 
-[main.ts:31855](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L31855)
+main.ts:32718
 
 ___
-
 
 ### url
 
@@ -86,8 +78,4 @@ URL
 
 #### Defined in
 
-[main.ts:31859](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L31859)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:32722

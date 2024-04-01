@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IBusinessDataYelpReviewsTaskGetResultInfo
+[Documentation](../README.md) / [Exports](../modules.md) / IBusinessDataYelpReviewsTaskGetResultInfo
 
 # Interface: IBusinessDataYelpReviewsTaskGetResultInfo
 
@@ -42,10 +38,9 @@ Yelp business identifier
 
 #### Defined in
 
-[main.ts:205477](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L205477)
+main.ts:210938
 
 ___
-
 
 ### check\_url
 
@@ -56,10 +51,9 @@ you can use it to make sure that we provided accurate results
 
 #### Defined in
 
-[main.ts:205489](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L205489)
+main.ts:210950
 
 ___
-
 
 ### datetime
 
@@ -72,10 +66,9 @@ example:
 
 #### Defined in
 
-[main.ts:205494](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L205494)
+main.ts:210955
 
 ___
-
 
 ### items
 
@@ -86,10 +79,9 @@ you can get more results by using the depth parameter when setting a task
 
 #### Defined in
 
-[main.ts:205507](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L205507)
+main.ts:210968
 
 ___
-
 
 ### items\_count
 
@@ -100,10 +92,9 @@ you can get more results by using the depth parameter when setting a task
 
 #### Defined in
 
-[main.ts:205504](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L205504)
+main.ts:210965
 
 ___
-
 
 ### keyword
 
@@ -114,10 +105,9 @@ this field will contain the alias parameter if it was specified in a POST array
 
 #### Defined in
 
-[main.ts:205475](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L205475)
+main.ts:210936
 
 ___
-
 
 ### language\_code
 
@@ -127,10 +117,9 @@ language code in a POST array
 
 #### Defined in
 
-[main.ts:205486](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L205486)
+main.ts:210947
 
 ___
-
 
 ### location\_code
 
@@ -141,10 +130,9 @@ if location_code was not specified in a POST array, the value equals null
 
 #### Defined in
 
-[main.ts:205484](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L205484)
+main.ts:210945
 
 ___
-
 
 ### rating
 
@@ -154,10 +142,9 @@ the rating score submitted by the reviewer
 
 #### Defined in
 
-[main.ts:205499](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L205499)
+main.ts:210960
 
 ___
-
 
 ### reviews\_count
 
@@ -167,10 +154,9 @@ the total number of reviews
 
 #### Defined in
 
-[main.ts:205501](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L205501)
+main.ts:210962
 
 ___
-
 
 ### se\_domain
 
@@ -180,10 +166,9 @@ search engine domain in a POST array
 
 #### Defined in
 
-[main.ts:205481](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L205481)
+main.ts:210942
 
 ___
-
 
 ### title
 
@@ -194,10 +179,9 @@ the name of the local establishment for which the reviews are collected
 
 #### Defined in
 
-[main.ts:205497](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L205497)
+main.ts:210958
 
 ___
-
 
 ### type
 
@@ -207,8 +191,4 @@ type of element
 
 #### Defined in
 
-[main.ts:205479](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L205479)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:210940

@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / DataforseoLabsAmazonProductRankOverviewLiveItem
+[Documentation](../README.md) / [Exports](../modules.md) / DataforseoLabsAmazonProductRankOverviewLiveItem
 
 # Class: DataforseoLabsAmazonProductRankOverviewLiveItem
 
@@ -50,7 +46,7 @@
 
 #### Defined in
 
-[main.ts:100716](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L100716)
+main.ts:103093
 
 ## Properties
 
@@ -68,10 +64,9 @@ for more information, refer to this help center guide
 
 #### Defined in
 
-[main.ts:100710](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L100710)
+main.ts:103087
 
 ___
-
 
 ### metrics
 
@@ -85,10 +80,9 @@ average keyword position of the product
 
 #### Defined in
 
-[main.ts:100712](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L100712)
+main.ts:103089
 
 ___
-
 
 ### se\_type
 
@@ -102,7 +96,7 @@ search engine type
 
 #### Defined in
 
-[main.ts:100706](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L100706)
+main.ts:103083
 
 ## Methods
 
@@ -122,10 +116,9 @@ search engine type
 
 #### Defined in
 
-[main.ts:100725](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L100725)
+main.ts:103102
 
 ___
-
 
 ### toJSON
 
@@ -143,10 +136,9 @@ ___
 
 #### Defined in
 
-[main.ts:100744](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L100744)
+main.ts:103121
 
 ___
-
 
 ### fromJS
 
@@ -164,8 +156,4 @@ ___
 
 #### Defined in
 
-[main.ts:100737](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L100737)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:103114

@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / DataforseoLabsStatusInfo
+[Documentation](../README.md) / [Exports](../modules.md) / DataforseoLabsStatusInfo
 
 # Class: DataforseoLabsStatusInfo
 
@@ -48,7 +44,7 @@
 
 #### Defined in
 
-[main.ts:76779](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L76779)
+main.ts:79156
 
 ## Properties
 
@@ -67,7 +63,7 @@ example:
 
 #### Defined in
 
-[main.ts:76775](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L76775)
+main.ts:79152
 
 ## Methods
 
@@ -87,10 +83,9 @@ example:
 
 #### Defined in
 
-[main.ts:76788](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L76788)
+main.ts:79165
 
 ___
-
 
 ### toJSON
 
@@ -108,10 +103,9 @@ ___
 
 #### Defined in
 
-[main.ts:76805](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L76805)
+main.ts:79182
 
 ___
-
 
 ### fromJS
 
@@ -129,8 +123,4 @@ ___
 
 #### Defined in
 
-[main.ts:76798](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L76798)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:79175

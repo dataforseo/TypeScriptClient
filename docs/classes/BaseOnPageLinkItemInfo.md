@@ -1,21 +1,17 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / BaseOnPageLinkItemInfo
+[Documentation](../README.md) / [Exports](../modules.md) / BaseOnPageLinkItemInfo
 
 # Class: BaseOnPageLinkItemInfo
 
 ## Hierarchy
 
 - **`BaseOnPageLinkItemInfo`**
-  
+
   ↳ [`AnchorLinkElementItem`](AnchorLinkElementItem.md)
-  
+
   ↳ [`ImageLinkElementItem`](ImageLinkElementItem.md)
-  
+
   ↳ [`AlternateLinkElementItem`](AlternateLinkElementItem.md)
-  
+
   ↳ [`RedirectLinkElementItem`](RedirectLinkElementItem.md)
 
 ## Implements
@@ -60,7 +56,7 @@
 
 #### Defined in
 
-[main.ts:20316](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L20316)
+main.ts:20772
 
 ## Properties
 
@@ -70,7 +66,7 @@
 
 #### Defined in
 
-[main.ts:20314](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L20314)
+main.ts:20770
 
 ## Methods
 
@@ -90,10 +86,9 @@
 
 #### Defined in
 
-[main.ts:20326](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L20326)
+main.ts:20782
 
 ___
-
 
 ### toJSON
 
@@ -111,10 +106,9 @@ ___
 
 #### Defined in
 
-[main.ts:20362](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L20362)
+main.ts:20818
 
 ___
-
 
 ### fromJS
 
@@ -132,8 +126,4 @@ ___
 
 #### Defined in
 
-[main.ts:20335](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L20335)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:20791

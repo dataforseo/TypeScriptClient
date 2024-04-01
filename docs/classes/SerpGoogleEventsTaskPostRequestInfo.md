@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / SerpGoogleEventsTaskPostRequestInfo
+[Documentation](../README.md) / [Exports](../modules.md) / SerpGoogleEventsTaskPostRequestInfo
 
 # Class: SerpGoogleEventsTaskPostRequestInfo
 
@@ -63,7 +59,7 @@
 
 #### Defined in
 
-[main.ts:43698](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L43698)
+main.ts:44449
 
 ## Properties
 
@@ -82,10 +78,9 @@ possible values: today, tomorrow, week, weekend, next_week, month, next_month
 
 #### Defined in
 
-[main.ts:43633](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L43633)
+main.ts:44384
 
 ___
-
 
 ### depth
 
@@ -106,10 +101,9 @@ if the specified depth is higher than the number of results in the response, the
 
 #### Defined in
 
-[main.ts:43655](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L43655)
+main.ts:44406
 
 ___
-
 
 ### keyword
 
@@ -128,10 +122,9 @@ if you need to use the “+” symbol for your keyword, please specify it as “
 
 #### Defined in
 
-[main.ts:43579](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L43579)
+main.ts:44330
 
 ___
-
 
 ### language\_code
 
@@ -151,10 +144,9 @@ en
 
 #### Defined in
 
-[main.ts:43628](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L43628)
+main.ts:44379
 
 ___
-
 
 ### language\_name
 
@@ -174,10 +166,9 @@ English
 
 #### Defined in
 
-[main.ts:43620](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L43620)
+main.ts:44371
 
 ___
-
 
 ### location\_code
 
@@ -196,10 +187,9 @@ example:
 
 #### Defined in
 
-[main.ts:43601](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L43601)
+main.ts:44352
 
 ___
-
 
 ### location\_coordinate
 
@@ -222,10 +212,9 @@ example:
 
 #### Defined in
 
-[main.ts:43612](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L43612)
+main.ts:44363
 
 ___
-
 
 ### location\_name
 
@@ -244,10 +233,9 @@ London,England,United Kingdom
 
 #### Defined in
 
-[main.ts:43594](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L43594)
+main.ts:44345
 
 ___
-
 
 ### max\_crawl\_pages
 
@@ -266,10 +254,9 @@ learn more at our help center
 
 #### Defined in
 
-[main.ts:43662](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L43662)
+main.ts:44413
 
 ___
-
 
 ### os
 
@@ -287,10 +274,9 @@ default value: windows
 
 #### Defined in
 
-[main.ts:43639](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L43639)
+main.ts:44390
 
 ___
-
 
 ### pingback\_url
 
@@ -312,10 +298,9 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-[main.ts:43694](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L43694)
+main.ts:44445
 
 ___
-
 
 ### postback\_data
 
@@ -333,10 +318,9 @@ advanced
 
 #### Defined in
 
-[main.ts:43684](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L43684)
+main.ts:44435
 
 ___
-
 
 ### postback\_url
 
@@ -358,10 +342,9 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-[main.ts:43678](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L43678)
+main.ts:44429
 
 ___
-
 
 ### priority
 
@@ -381,10 +364,9 @@ The cost can be calculated on the Pricing page
 
 #### Defined in
 
-[main.ts:43587](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L43587)
+main.ts:44338
 
 ___
-
 
 ### se\_domain
 
@@ -403,10 +385,9 @@ google.co.uk, google.com.au, google.de, etc.
 
 #### Defined in
 
-[main.ts:43646](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L43646)
+main.ts:44397
 
 ___
-
 
 ### tag
 
@@ -424,7 +405,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-[main.ts:43668](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L43668)
+main.ts:44419
 
 ## Methods
 
@@ -444,10 +425,9 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-[main.ts:43707](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L43707)
+main.ts:44458
 
 ___
-
 
 ### toJSON
 
@@ -465,10 +445,9 @@ ___
 
 #### Defined in
 
-[main.ts:43739](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L43739)
+main.ts:44490
 
 ___
-
 
 ### fromJS
 
@@ -486,8 +465,4 @@ ___
 
 #### Defined in
 
-[main.ts:43732](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L43732)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:44483

@@ -1,15 +1,11 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IJobsDataforseoLabsSerpElementItem
+[Documentation](../README.md) / [Exports](../modules.md) / IJobsDataforseoLabsSerpElementItem
 
 # Interface: IJobsDataforseoLabsSerpElementItem
 
 ## Hierarchy
 
 - [`IBaseDataforseoLabsSerpElementItem`](IBaseDataforseoLabsSerpElementItem.md)
-  
+
   ↳ **`IJobsDataforseoLabsSerpElementItem`**
 
 ## Implemented by
@@ -42,10 +38,9 @@ elements of search results found in SERP
 
 #### Defined in
 
-[main.ts:94856](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L94856)
+main.ts:97233
 
 ___
-
 
 ### position
 
@@ -57,10 +52,9 @@ left, right
 
 #### Defined in
 
-[main.ts:94848](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L94848)
+main.ts:97225
 
 ___
-
 
 ### rank\_absolute
 
@@ -71,10 +65,9 @@ absolute position among all the elements in SERP
 
 #### Defined in
 
-[main.ts:94844](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L94844)
+main.ts:97221
 
 ___
-
 
 ### rank\_group
 
@@ -85,10 +78,9 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-[main.ts:94841](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L94841)
+main.ts:97218
 
 ___
-
 
 ### title
 
@@ -98,23 +90,21 @@ title of the result in SERP
 
 #### Defined in
 
-[main.ts:94852](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L94852)
+main.ts:97229
 
 ___
-
 
 ### url
 
 • `Optional` **url**: `string`
 
-URL link
+relevant URL of the Ad element in SERP
 
 #### Defined in
 
-[main.ts:94854](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L94854)
+main.ts:97231
 
 ___
-
 
 ### xpath
 
@@ -124,8 +114,4 @@ the XPath of the element
 
 #### Defined in
 
-[main.ts:94850](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L94850)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:97227

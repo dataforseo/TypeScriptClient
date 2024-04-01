@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / DataforseoLabsBBulkKeywordDifficultyLiveItem
+[Documentation](../README.md) / [Exports](../modules.md) / DataforseoLabsBBulkKeywordDifficultyLiveItem
 
 # Class: DataforseoLabsBBulkKeywordDifficultyLiveItem
 
@@ -50,7 +46,7 @@
 
 #### Defined in
 
-[main.ts:82373](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L82373)
+main.ts:84750
 
 ## Properties
 
@@ -66,10 +62,9 @@ keyword in a POST array
 
 #### Defined in
 
-[main.ts:82364](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L82364)
+main.ts:84741
 
 ___
-
 
 ### keyword\_difficulty
 
@@ -86,10 +81,9 @@ learn more about the metric in this help center guide
 
 #### Defined in
 
-[main.ts:82369](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L82369)
+main.ts:84746
 
 ___
-
 
 ### se\_type
 
@@ -103,7 +97,7 @@ search engine type
 
 #### Defined in
 
-[main.ts:82362](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L82362)
+main.ts:84739
 
 ## Methods
 
@@ -123,10 +117,9 @@ search engine type
 
 #### Defined in
 
-[main.ts:82382](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L82382)
+main.ts:84759
 
 ___
-
 
 ### toJSON
 
@@ -144,10 +137,9 @@ ___
 
 #### Defined in
 
-[main.ts:82401](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L82401)
+main.ts:84778
 
 ___
-
 
 ### fromJS
 
@@ -165,8 +157,4 @@ ___
 
 #### Defined in
 
-[main.ts:82394](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L82394)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:84771

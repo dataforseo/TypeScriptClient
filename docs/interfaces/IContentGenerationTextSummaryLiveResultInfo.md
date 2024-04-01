@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IContentGenerationTextSummaryLiveResultInfo
+[Documentation](../README.md) / [Exports](../modules.md) / IContentGenerationTextSummaryLiveResultInfo
 
 # Interface: IContentGenerationTextSummaryLiveResultInfo
 
@@ -44,10 +40,9 @@ Automated Readability Index
 
 #### Defined in
 
-[main.ts:162360](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L162360)
+main.ts:167787
 
 ___
-
 
 ### characters\_per\_word
 
@@ -57,10 +52,9 @@ average number of characters per word in the target text
 
 #### Defined in
 
-[main.ts:162353](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L162353)
+main.ts:167780
 
 ___
-
 
 ### characters\_with\_spaces
 
@@ -70,10 +64,9 @@ number of characters with spaces found in the target text
 
 #### Defined in
 
-[main.ts:162349](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L162349)
+main.ts:167776
 
 ___
-
 
 ### characters\_without\_spaces
 
@@ -83,10 +76,9 @@ number of characters without spaces found in the target text
 
 #### Defined in
 
-[main.ts:162347](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L162347)
+main.ts:167774
 
 ___
-
 
 ### coleman\_liau\_index
 
@@ -96,10 +88,9 @@ Coleman–Liau Index
 
 #### Defined in
 
-[main.ts:162362](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L162362)
+main.ts:167789
 
 ___
-
 
 ### flesch\_kincaid\_grade\_level
 
@@ -109,10 +100,9 @@ Flesch–Kincaid Readability Index
 
 #### Defined in
 
-[main.ts:162364](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L162364)
+main.ts:167791
 
 ___
-
 
 ### grammar\_errors
 
@@ -122,10 +112,9 @@ number of grammar errors found in the target text
 
 #### Defined in
 
-[main.ts:162370](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L162370)
+main.ts:167797
 
 ___
-
 
 ### keyword\_density
 
@@ -140,10 +129,9 @@ contains most common words and their count
 
 #### Defined in
 
-[main.ts:162358](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L162358)
+main.ts:167785
 
 ___
-
 
 ### paragraphs
 
@@ -153,10 +141,9 @@ number of paragraphs found in the target text
 
 #### Defined in
 
-[main.ts:162343](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L162343)
+main.ts:167770
 
 ___
-
 
 ### sentences
 
@@ -166,10 +153,9 @@ number of sentences found in the target text
 
 #### Defined in
 
-[main.ts:162341](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L162341)
+main.ts:167768
 
 ___
-
 
 ### smog\_readability\_index
 
@@ -179,10 +165,9 @@ SMOG Readability Index
 
 #### Defined in
 
-[main.ts:162366](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L162366)
+main.ts:167793
 
 ___
-
 
 ### spelling\_errors
 
@@ -192,10 +177,9 @@ number of spelling errors found in the target text
 
 #### Defined in
 
-[main.ts:162368](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L162368)
+main.ts:167795
 
 ___
-
 
 ### vocabulary\_density
 
@@ -205,10 +189,9 @@ vocabulary density of the target text
 
 #### Defined in
 
-[main.ts:162355](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L162355)
+main.ts:167782
 
 ___
-
 
 ### words
 
@@ -218,10 +201,9 @@ number of words found in the target text
 
 #### Defined in
 
-[main.ts:162345](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L162345)
+main.ts:167772
 
 ___
-
 
 ### words\_per\_sentence
 
@@ -231,8 +213,4 @@ average number of words per sentence in the target text
 
 #### Defined in
 
-[main.ts:162351](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L162351)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:167778

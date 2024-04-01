@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / MerchantAmazonReviewsTasksReadyResultInfo
+[Documentation](../README.md) / [Exports](../modules.md) / MerchantAmazonReviewsTasksReadyResultInfo
 
 # Class: MerchantAmazonReviewsTasksReadyResultInfo
 
@@ -54,7 +50,7 @@
 
 #### Defined in
 
-[main.ts:175360](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L175360)
+main.ts:180813
 
 ## Properties
 
@@ -70,10 +66,9 @@ date when the task was posted (in the UTC format)
 
 #### Defined in
 
-[main.ts:175350](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L175350)
+main.ts:180803
 
 ___
-
 
 ### endpoint\_advanced
 
@@ -87,10 +82,9 @@ URL for collecting the results of the Amazon Reviews Advanced task
 
 #### Defined in
 
-[main.ts:175354](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L175354)
+main.ts:180807
 
 ___
-
 
 ### endpoint\_html
 
@@ -104,10 +98,9 @@ URL for collecting the results of the Amazon Reviews HTML task
 
 #### Defined in
 
-[main.ts:175356](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L175356)
+main.ts:180809
 
 ___
-
 
 ### id
 
@@ -122,10 +115,9 @@ unique task identifier in our system in the UUID format
 
 #### Defined in
 
-[main.ts:175343](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L175343)
+main.ts:180796
 
 ___
-
 
 ### se
 
@@ -139,10 +131,9 @@ search engine specified when setting the task
 
 #### Defined in
 
-[main.ts:175345](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L175345)
+main.ts:180798
 
 ___
-
 
 ### se\_type
 
@@ -157,10 +148,9 @@ can take the following values: shopping
 
 #### Defined in
 
-[main.ts:175348](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L175348)
+main.ts:180801
 
 ___
-
 
 ### tag
 
@@ -174,7 +164,7 @@ user-defined task identifier
 
 #### Defined in
 
-[main.ts:175352](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L175352)
+main.ts:180805
 
 ## Methods
 
@@ -194,10 +184,9 @@ user-defined task identifier
 
 #### Defined in
 
-[main.ts:175369](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L175369)
+main.ts:180822
 
 ___
-
 
 ### toJSON
 
@@ -215,10 +204,9 @@ ___
 
 #### Defined in
 
-[main.ts:175392](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L175392)
+main.ts:180845
 
 ___
-
 
 ### fromJS
 
@@ -236,8 +224,4 @@ ___
 
 #### Defined in
 
-[main.ts:175385](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L175385)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:180838

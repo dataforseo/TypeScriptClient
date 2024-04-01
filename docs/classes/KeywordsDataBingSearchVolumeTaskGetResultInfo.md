@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / KeywordsDataBingSearchVolumeTaskGetResultInfo
+[Documentation](../README.md) / [Exports](../modules.md) / KeywordsDataBingSearchVolumeTaskGetResultInfo
 
 # Class: KeywordsDataBingSearchVolumeTaskGetResultInfo
 
@@ -57,7 +53,7 @@
 
 #### Defined in
 
-[main.ts:122898](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L122898)
+main.ts:128265
 
 ## Properties
 
@@ -74,10 +70,9 @@ our API doesn’t return categories for this endpoint: the parameter will always
 
 #### Defined in
 
-[main.ts:122890](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L122890)
+main.ts:128257
 
 ___
-
 
 ### competition
 
@@ -85,7 +80,7 @@ ___
 
 competition
 represents the relative amount of competition associated with the given keyword in paid SERP only. This value is based on Bing Ads data.
-Possible values: 0.1, 0.5,0.9
+Possible values: 0.1, 0.5,0.9 
 0.1 – low competition,
 0.5 – medium competition,
 0.9 – high competition;
@@ -97,10 +92,9 @@ if there is no data the value is null
 
 #### Defined in
 
-[main.ts:122878](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L122878)
+main.ts:128245
 
 ___
-
 
 ### cpc
 
@@ -116,10 +110,9 @@ if there is no data then the value is null
 
 #### Defined in
 
-[main.ts:122882](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L122882)
+main.ts:128249
 
 ___
-
 
 ### device
 
@@ -134,10 +127,9 @@ if there is no data, then the value is null
 
 #### Defined in
 
-[main.ts:122870](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L122870)
+main.ts:128237
 
 ___
-
 
 ### keyword
 
@@ -151,10 +143,9 @@ keyword in a POST array
 
 #### Defined in
 
-[main.ts:122861](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L122861)
+main.ts:128228
 
 ___
-
 
 ### language\_code
 
@@ -168,10 +159,9 @@ language code in a POST array
 
 #### Defined in
 
-[main.ts:122865](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L122865)
+main.ts:128232
 
 ___
-
 
 ### location\_code
 
@@ -185,10 +175,9 @@ location code in a POST array
 
 #### Defined in
 
-[main.ts:122863](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L122863)
+main.ts:128230
 
 ___
-
 
 ### monthly\_searches
 
@@ -204,10 +193,9 @@ if there is no data then the value is null
 
 #### Defined in
 
-[main.ts:122894](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L122894)
+main.ts:128261
 
 ___
-
 
 ### search\_partners
 
@@ -221,10 +209,9 @@ indicates whether data from partner networks included in the response
 
 #### Defined in
 
-[main.ts:122867](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L122867)
+main.ts:128234
 
 ___
-
 
 ### search\_volume
 
@@ -241,7 +228,7 @@ if there is no data then the value is null
 
 #### Defined in
 
-[main.ts:122887](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L122887)
+main.ts:128254
 
 ## Methods
 
@@ -261,10 +248,9 @@ if there is no data then the value is null
 
 #### Defined in
 
-[main.ts:122907](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L122907)
+main.ts:128274
 
 ___
-
 
 ### toJSON
 
@@ -282,10 +268,9 @@ ___
 
 #### Defined in
 
-[main.ts:122941](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L122941)
+main.ts:128308
 
 ___
-
 
 ### fromJS
 
@@ -303,8 +288,4 @@ ___
 
 #### Defined in
 
-[main.ts:122934](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L122934)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:128301

@@ -1,15 +1,11 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IAppDataGooglePlaySearchOrganicSerpElementItem
+[Documentation](../README.md) / [Exports](../modules.md) / IAppDataGooglePlaySearchOrganicSerpElementItem
 
 # Interface: IAppDataGooglePlaySearchOrganicSerpElementItem
 
 ## Hierarchy
 
 - [`IBaseAppDataSerpElementItem`](IBaseAppDataSerpElementItem.md)
-  
+
   ↳ **`IAppDataGooglePlaySearchOrganicSerpElementItem`**
 
 ## Implemented by
@@ -48,10 +44,9 @@ id of the app
 
 #### Defined in
 
-[main.ts:108585](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L108585)
+main.ts:110962
 
 ___
-
 
 ### developer
 
@@ -61,10 +56,9 @@ name of the app developer
 
 #### Defined in
 
-[main.ts:108601](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L108601)
+main.ts:110978
 
 ___
-
 
 ### developer\_url
 
@@ -74,10 +68,9 @@ URL to the developer page on Google Play
 
 #### Defined in
 
-[main.ts:108603](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L108603)
+main.ts:110980
 
 ___
-
 
 ### icon
 
@@ -87,10 +80,9 @@ URL to the app icon
 
 #### Defined in
 
-[main.ts:108591](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L108591)
+main.ts:110968
 
 ___
-
 
 ### is\_free
 
@@ -100,10 +92,9 @@ indicates whether the app is free
 
 #### Defined in
 
-[main.ts:108597](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L108597)
+main.ts:110974
 
 ___
-
 
 ### position
 
@@ -115,10 +106,9 @@ left, right
 
 #### Defined in
 
-[main.ts:108583](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L108583)
+main.ts:110960
 
 ___
-
 
 ### price
 
@@ -128,10 +118,9 @@ price of the app
 
 #### Defined in
 
-[main.ts:108599](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L108599)
+main.ts:110976
 
 ___
-
 
 ### rank\_absolute
 
@@ -142,10 +131,9 @@ absolute position among all the elements in SERP
 
 #### Defined in
 
-[main.ts:108579](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L108579)
+main.ts:110956
 
 ___
-
 
 ### rank\_group
 
@@ -156,10 +144,9 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-[main.ts:108576](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L108576)
+main.ts:110953
 
 ___
-
 
 ### rating
 
@@ -169,10 +156,9 @@ average rating of the app
 
 #### Defined in
 
-[main.ts:108595](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L108595)
+main.ts:110972
 
 ___
-
 
 ### reviews\_count
 
@@ -182,10 +168,9 @@ the total number of reviews of the app
 
 #### Defined in
 
-[main.ts:108593](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L108593)
+main.ts:110970
 
 ___
-
 
 ### title
 
@@ -195,10 +180,9 @@ title of the app
 
 #### Defined in
 
-[main.ts:108587](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L108587)
+main.ts:110964
 
 ___
-
 
 ### url
 
@@ -208,8 +192,4 @@ URL to the app page on Google Play
 
 #### Defined in
 
-[main.ts:108589](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L108589)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:110966

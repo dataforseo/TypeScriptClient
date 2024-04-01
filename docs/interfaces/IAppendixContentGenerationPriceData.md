@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IAppendixContentGenerationPriceData
+[Documentation](../README.md) / [Exports](../modules.md) / IAppendixContentGenerationPriceData
 
 # Interface: IAppendixContentGenerationPriceData
 
@@ -34,10 +30,9 @@
 
 #### Defined in
 
-[main.ts:211567](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L211567)
+main.ts:217160
 
 ___
-
 
 ### generate
 
@@ -45,10 +40,9 @@ ___
 
 #### Defined in
 
-[main.ts:211568](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L211568)
+main.ts:217161
 
 ___
-
 
 ### generate\_meta\_tags
 
@@ -56,10 +50,9 @@ ___
 
 #### Defined in
 
-[main.ts:211569](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L211569)
+main.ts:217162
 
 ___
-
 
 ### generate\_sub\_topics
 
@@ -67,10 +60,9 @@ ___
 
 #### Defined in
 
-[main.ts:211570](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L211570)
+main.ts:217163
 
 ___
-
 
 ### generate\_text
 
@@ -78,10 +70,9 @@ ___
 
 #### Defined in
 
-[main.ts:211571](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L211571)
+main.ts:217164
 
 ___
-
 
 ### paraphrase
 
@@ -89,10 +80,9 @@ ___
 
 #### Defined in
 
-[main.ts:211572](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L211572)
+main.ts:217165
 
 ___
-
 
 ### text\_summary
 
@@ -100,8 +90,4 @@ ___
 
 #### Defined in
 
-[main.ts:211573](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L211573)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:217166

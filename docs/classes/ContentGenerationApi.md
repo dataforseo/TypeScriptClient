@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / ContentGenerationApi
+[Documentation](../README.md) / [Exports](../modules.md) / ContentGenerationApi
 
 # Class: ContentGenerationApi
 
@@ -61,7 +57,7 @@
 
 #### Defined in
 
-[main.ts:13199](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L13199)
+main.ts:13650
 
 ## Properties
 
@@ -71,10 +67,9 @@
 
 #### Defined in
 
-[main.ts:13196](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L13196)
+main.ts:13647
 
 ___
-
 
 ### http
 
@@ -88,10 +83,9 @@ ___
 
 #### Defined in
 
-[main.ts:13195](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L13195)
+main.ts:13646
 
 ___
-
 
 ### jsonParseReviver
 
@@ -114,7 +108,7 @@ ___
 
 #### Defined in
 
-[main.ts:13197](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L13197)
+main.ts:13648
 
 ## Methods
 
@@ -136,10 +130,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:13418](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L13418)
+main.ts:13869
 
 ___
-
 
 ### contentGenerationCheckGrammarLanguages
 
@@ -153,10 +146,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:13459](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L13459)
+main.ts:13910
 
 ___
-
 
 ### contentGenerationTextSummaryLanguages
 
@@ -170,10 +162,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:13575](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L13575)
+main.ts:14026
 
 ___
-
 
 ### generateLive
 
@@ -193,10 +184,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:13208](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L13208)
+main.ts:13659
 
 ___
-
 
 ### generateMetaTagsLive
 
@@ -216,10 +206,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:13292](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L13292)
+main.ts:13743
 
 ___
-
 
 ### generateSubTopicsLive
 
@@ -239,10 +228,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:13334](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L13334)
+main.ts:13785
 
 ___
-
 
 ### generateTextLive
 
@@ -262,10 +250,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:13250](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L13250)
+main.ts:13701
 
 ___
-
 
 ### grammarRules
 
@@ -279,10 +266,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:13496](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L13496)
+main.ts:13947
 
 ___
-
 
 ### paraphraseLive
 
@@ -302,10 +288,9 @@ Successful operation
 
 #### Defined in
 
-[main.ts:13376](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L13376)
+main.ts:13827
 
 ___
-
 
 ### processCheckGrammarLive
 
@@ -323,10 +308,9 @@ ___
 
 #### Defined in
 
-[main.ts:13438](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L13438)
+main.ts:13889
 
 ___
-
 
 ### processContentGenerationCheckGrammarLanguages
 
@@ -344,10 +328,9 @@ ___
 
 #### Defined in
 
-[main.ts:13475](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L13475)
+main.ts:13926
 
 ___
-
 
 ### processContentGenerationTextSummaryLanguages
 
@@ -365,10 +348,9 @@ ___
 
 #### Defined in
 
-[main.ts:13591](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L13591)
+main.ts:14042
 
 ___
-
 
 ### processGenerateLive
 
@@ -386,10 +368,9 @@ ___
 
 #### Defined in
 
-[main.ts:13228](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L13228)
+main.ts:13679
 
 ___
-
 
 ### processGenerateMetaTagsLive
 
@@ -407,10 +388,9 @@ ___
 
 #### Defined in
 
-[main.ts:13312](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L13312)
+main.ts:13763
 
 ___
-
 
 ### processGenerateSubTopicsLive
 
@@ -428,10 +408,9 @@ ___
 
 #### Defined in
 
-[main.ts:13354](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L13354)
+main.ts:13805
 
 ___
-
 
 ### processGenerateTextLive
 
@@ -449,10 +428,9 @@ ___
 
 #### Defined in
 
-[main.ts:13270](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L13270)
+main.ts:13721
 
 ___
-
 
 ### processGrammarRules
 
@@ -470,10 +448,9 @@ ___
 
 #### Defined in
 
-[main.ts:13512](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L13512)
+main.ts:13963
 
 ___
-
 
 ### processParaphraseLive
 
@@ -491,10 +468,9 @@ ___
 
 #### Defined in
 
-[main.ts:13396](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L13396)
+main.ts:13847
 
 ___
-
 
 ### processTextSummaryLive
 
@@ -512,10 +488,9 @@ ___
 
 #### Defined in
 
-[main.ts:13554](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L13554)
+main.ts:14005
 
 ___
-
 
 ### textSummaryLive
 
@@ -535,8 +510,4 @@ Successful operation
 
 #### Defined in
 
-[main.ts:13534](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L13534)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:13985

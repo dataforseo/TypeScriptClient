@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / AppendixUserDataResultInfo
+[Documentation](../README.md) / [Exports](../modules.md) / AppendixUserDataResultInfo
 
 # Class: AppendixUserDataResultInfo
 
@@ -52,7 +48,7 @@
 
 #### Defined in
 
-[main.ts:212177](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L212177)
+main.ts:217830
 
 ## Properties
 
@@ -68,10 +64,9 @@ your login
 
 #### Defined in
 
-[main.ts:212164](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L212164)
+main.ts:217817
 
 ___
-
 
 ### money
 
@@ -85,10 +80,9 @@ section of your spending, USD
 
 #### Defined in
 
-[main.ts:212171](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L212171)
+main.ts:217824
 
 ___
-
 
 ### price
 
@@ -102,10 +96,9 @@ pricing
 
 #### Defined in
 
-[main.ts:212173](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L212173)
+main.ts:217826
 
 ___
-
 
 ### rates
 
@@ -119,10 +112,9 @@ your API rates
 
 #### Defined in
 
-[main.ts:212169](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L212169)
+main.ts:217822
 
 ___
-
 
 ### timezone
 
@@ -137,7 +129,7 @@ can be set in your profile settings
 
 #### Defined in
 
-[main.ts:212167](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L212167)
+main.ts:217820
 
 ## Methods
 
@@ -157,10 +149,9 @@ can be set in your profile settings
 
 #### Defined in
 
-[main.ts:212186](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L212186)
+main.ts:217839
 
 ___
-
 
 ### toJSON
 
@@ -178,10 +169,9 @@ ___
 
 #### Defined in
 
-[main.ts:212207](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L212207)
+main.ts:217860
 
 ___
-
 
 ### fromJS
 
@@ -199,8 +189,4 @@ ___
 
 #### Defined in
 
-[main.ts:212200](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L212200)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:217853

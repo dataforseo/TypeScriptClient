@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / AppendixSocialMediaBusinessDataPriceData
+[Documentation](../README.md) / [Exports](../modules.md) / AppendixSocialMediaBusinessDataPriceData
 
 # Class: AppendixSocialMediaBusinessDataPriceData
 
@@ -50,7 +46,7 @@
 
 #### Defined in
 
-[main.ts:211005](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L211005)
+main.ts:216598
 
 ## Properties
 
@@ -64,10 +60,9 @@
 
 #### Defined in
 
-[main.ts:210999](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L210999)
+main.ts:216592
 
 ___
-
 
 ### pinterest
 
@@ -79,10 +74,9 @@ ___
 
 #### Defined in
 
-[main.ts:211000](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L211000)
+main.ts:216593
 
 ___
-
 
 ### reddit
 
@@ -94,7 +88,7 @@ ___
 
 #### Defined in
 
-[main.ts:211001](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L211001)
+main.ts:216594
 
 ## Methods
 
@@ -114,10 +108,9 @@ ___
 
 #### Defined in
 
-[main.ts:211014](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L211014)
+main.ts:216607
 
 ___
-
 
 ### toJSON
 
@@ -135,10 +128,9 @@ ___
 
 #### Defined in
 
-[main.ts:211033](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L211033)
+main.ts:216626
 
 ___
-
 
 ### fromJS
 
@@ -156,8 +148,4 @@ ___
 
 #### Defined in
 
-[main.ts:211026](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L211026)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:216619

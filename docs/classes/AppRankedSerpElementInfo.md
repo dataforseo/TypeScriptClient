@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / AppRankedSerpElementInfo
+[Documentation](../README.md) / [Exports](../modules.md) / AppRankedSerpElementInfo
 
 # Class: AppRankedSerpElementInfo
 
@@ -53,7 +49,7 @@
 
 #### Defined in
 
-[main.ts:108633](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L108633)
+main.ts:111010
 
 ## Properties
 
@@ -70,10 +66,9 @@ you can use it to make sure that we provided accurate results
 
 #### Defined in
 
-[main.ts:108616](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L108616)
+main.ts:110993
 
 ___
-
 
 ### last\_updated\_time
 
@@ -90,10 +85,9 @@ example:
 
 #### Defined in
 
-[main.ts:108623](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L108623)
+main.ts:111000
 
 ___
-
 
 ### previous\_updated\_time
 
@@ -111,10 +105,9 @@ in this case, will equal null
 
 #### Defined in
 
-[main.ts:108629](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L108629)
+main.ts:111006
 
 ___
-
 
 ### se\_results\_count
 
@@ -128,10 +121,9 @@ number of search results for the returned keyword
 
 #### Defined in
 
-[main.ts:108618](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L108618)
+main.ts:110995
 
 ___
-
 
 ### se\_type
 
@@ -145,10 +137,9 @@ search engine type
 
 #### Defined in
 
-[main.ts:108610](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L108610)
+main.ts:110987
 
 ___
-
 
 ### serp\_item
 
@@ -163,7 +154,7 @@ the list of supported SERP elements can be found below
 
 #### Defined in
 
-[main.ts:108613](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L108613)
+main.ts:110990
 
 ## Methods
 
@@ -183,10 +174,9 @@ the list of supported SERP elements can be found below
 
 #### Defined in
 
-[main.ts:108642](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L108642)
+main.ts:111019
 
 ___
-
 
 ### toJSON
 
@@ -204,10 +194,9 @@ ___
 
 #### Defined in
 
-[main.ts:108664](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L108664)
+main.ts:111041
 
 ___
-
 
 ### fromJS
 
@@ -225,8 +214,4 @@ ___
 
 #### Defined in
 
-[main.ts:108657](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L108657)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:111034

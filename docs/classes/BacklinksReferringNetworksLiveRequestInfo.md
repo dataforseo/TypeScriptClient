@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / BacklinksReferringNetworksLiveRequestInfo
+[Documentation](../README.md) / [Exports](../modules.md) / BacklinksReferringNetworksLiveRequestInfo
 
 # Class: BacklinksReferringNetworksLiveRequestInfo
 
@@ -60,7 +56,7 @@
 
 #### Defined in
 
-[main.ts:135256](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L135256)
+main.ts:140665
 
 ## Properties
 
@@ -82,10 +78,9 @@ example:
 
 #### Defined in
 
-[main.ts:135230](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L135230)
+main.ts:140639
 
 ___
-
 
 ### backlinks\_status\_type
 
@@ -106,10 +101,9 @@ default value: live
 
 #### Defined in
 
-[main.ts:135191](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L135191)
+main.ts:140600
 
 ___
-
 
 ### exclude\_internal\_backlinks
 
@@ -126,10 +120,9 @@ default value: true
 
 #### Defined in
 
-[main.ts:135246](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L135246)
+main.ts:140655
 
 ___
-
 
 ### filters
 
@@ -158,10 +151,9 @@ The full list of possible filters is available here.
 
 #### Defined in
 
-[main.ts:135208](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L135208)
+main.ts:140617
 
 ___
-
 
 ### include\_indirect\_links
 
@@ -179,10 +171,9 @@ default value: true
 
 #### Defined in
 
-[main.ts:135241](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L135241)
+main.ts:140650
 
 ___
-
 
 ### include\_subdomains
 
@@ -199,10 +190,9 @@ default value: true
 
 #### Defined in
 
-[main.ts:135235](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L135235)
+main.ts:140644
 
 ___
-
 
 ### internal\_list\_limit
 
@@ -225,10 +215,9 @@ maximum value: 1000
 
 #### Defined in
 
-[main.ts:135182](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L135182)
+main.ts:140591
 
 ___
-
 
 ### limit
 
@@ -245,10 +234,9 @@ maximum value: 1000
 
 #### Defined in
 
-[main.ts:135166](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L135166)
+main.ts:140575
 
 ___
-
 
 ### network\_address\_type
 
@@ -265,10 +253,9 @@ default value: ip
 
 #### Defined in
 
-[main.ts:135161](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L135161)
+main.ts:140570
 
 ___
-
 
 ### offset
 
@@ -285,10 +272,9 @@ if you specify the 10 value, the first ten domains in the results array will be 
 
 #### Defined in
 
-[main.ts:135171](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L135171)
+main.ts:140580
 
 ___
-
 
 ### order\_by
 
@@ -314,10 +300,9 @@ example:
 
 #### Defined in
 
-[main.ts:135222](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L135222)
+main.ts:140631
 
 ___
-
 
 ### tag
 
@@ -335,10 +320,9 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-[main.ts:135252](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L135252)
+main.ts:140661
 
 ___
-
 
 ### target
 
@@ -355,7 +339,7 @@ a page should be specified with absolute URL (including http:// or https://)
 
 #### Defined in
 
-[main.ts:135156](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L135156)
+main.ts:140565
 
 ## Methods
 
@@ -375,10 +359,9 @@ a page should be specified with absolute URL (including http:// or https://)
 
 #### Defined in
 
-[main.ts:135265](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L135265)
+main.ts:140674
 
 ___
-
 
 ### toJSON
 
@@ -396,10 +379,9 @@ ___
 
 #### Defined in
 
-[main.ts:135306](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L135306)
+main.ts:140715
 
 ___
-
 
 ### fromJS
 
@@ -417,8 +399,4 @@ ___
 
 #### Defined in
 
-[main.ts:135299](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L135299)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:140708

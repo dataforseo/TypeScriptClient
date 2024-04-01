@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / KeywordsDataBingKeywordPerformanceLocationsAndLanguagesResultInfo
+[Documentation](../README.md) / [Exports](../modules.md) / KeywordsDataBingKeywordPerformanceLocationsAndLanguagesResultInfo
 
 # Class: KeywordsDataBingKeywordPerformanceLocationsAndLanguagesResultInfo
 
@@ -50,7 +46,7 @@
 
 #### Defined in
 
-[main.ts:126418](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L126418)
+main.ts:131785
 
 ## Properties
 
@@ -67,10 +63,9 @@ contains locations supported in combination with a specific language
 
 #### Defined in
 
-[main.ts:126414](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L126414)
+main.ts:131781
 
 ___
-
 
 ### language\_code
 
@@ -84,10 +79,9 @@ language code
 
 #### Defined in
 
-[main.ts:126411](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L126411)
+main.ts:131778
 
 ___
-
 
 ### language\_name
 
@@ -101,7 +95,7 @@ language name
 
 #### Defined in
 
-[main.ts:126409](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L126409)
+main.ts:131776
 
 ## Methods
 
@@ -121,10 +115,9 @@ language name
 
 #### Defined in
 
-[main.ts:126427](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L126427)
+main.ts:131794
 
 ___
-
 
 ### toJSON
 
@@ -142,10 +135,9 @@ ___
 
 #### Defined in
 
-[main.ts:126450](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L126450)
+main.ts:131817
 
 ___
-
 
 ### fromJS
 
@@ -163,8 +155,4 @@ ___
 
 #### Defined in
 
-[main.ts:126443](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L126443)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:131810

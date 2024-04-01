@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / ILocalServicesElement
+[Documentation](../README.md) / [Exports](../modules.md) / ILocalServicesElement
 
 # Interface: ILocalServicesElement
 
@@ -32,27 +28,25 @@
 
 • `Optional` **description**: `string`
 
-description of the results element in SERP
+description
 
 #### Defined in
 
-[main.ts:33658](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L33658)
+main.ts:34571
 
 ___
-
 
 ### domain
 
 • `Optional` **domain**: `string`
 
-domain where a link points
+website domain
 
 #### Defined in
 
-[main.ts:33656](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L33656)
+main.ts:34569
 
 ___
-
 
 ### profile\_image\_url
 
@@ -62,37 +56,34 @@ URL of the image featured in the element
 
 #### Defined in
 
-[main.ts:33663](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L33663)
+main.ts:34576
 
 ___
-
 
 ### rating
 
 • `Optional` **rating**: [`RatingInfo`](../classes/RatingInfo.md)
 
-the item’s rating
+the item’s rating 
 the popularity rate based on reviews and displayed in SERP
 
 #### Defined in
 
-[main.ts:33661](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L33661)
+main.ts:34574
 
 ___
-
 
 ### title
 
 • `Optional` **title**: `string`
 
-title of the row
+title of a given link element
 
 #### Defined in
 
-[main.ts:33652](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L33652)
+main.ts:34565
 
 ___
-
 
 ### type
 
@@ -102,10 +93,9 @@ type of element
 
 #### Defined in
 
-[main.ts:33650](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L33650)
+main.ts:34563
 
 ___
-
 
 ### url
 
@@ -115,8 +105,4 @@ URL
 
 #### Defined in
 
-[main.ts:33654](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L33654)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:34567

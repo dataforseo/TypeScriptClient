@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / IDataforseoLabsAmazonProductKeywordIntersectionsLiveRequestInfo
+[Documentation](../README.md) / [Exports](../modules.md) / IDataforseoLabsAmazonProductKeywordIntersectionsLiveRequestInfo
 
 # Interface: IDataforseoLabsAmazonProductKeywordIntersectionsLiveRequestInfo
 
@@ -53,10 +49,9 @@ learn more about the parameter on this help center page
 
 #### Defined in
 
-[main.ts:101710](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L101710)
+main.ts:104087
 
 ___
-
 
 ### filters
 
@@ -75,10 +70,9 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 #### Defined in
 
-[main.ts:101762](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L101762)
+main.ts:104139
 
 ___
-
 
 ### intersection\_mode
 
@@ -92,10 +86,9 @@ learn more about the parameter in this help center guide
 
 #### Defined in
 
-[main.ts:101751](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L101751)
+main.ts:104128
 
 ___
-
 
 ### language\_code
 
@@ -110,10 +103,9 @@ en
 
 #### Defined in
 
-[main.ts:101740](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L101740)
+main.ts:104117
 
 ___
-
 
 ### language\_name
 
@@ -128,10 +120,9 @@ English
 
 #### Defined in
 
-[main.ts:101733](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L101733)
+main.ts:104110
 
 ___
-
 
 ### limit
 
@@ -144,10 +135,9 @@ maximum value: 1000
 
 #### Defined in
 
-[main.ts:101745](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L101745)
+main.ts:104122
 
 ___
-
 
 ### location\_code
 
@@ -163,10 +153,9 @@ example:
 
 #### Defined in
 
-[main.ts:101726](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L101726)
+main.ts:104103
 
 ___
-
 
 ### location\_name
 
@@ -182,10 +171,9 @@ United Kingdom
 
 #### Defined in
 
-[main.ts:101718](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L101718)
+main.ts:104095
 
 ___
-
 
 ### offset
 
@@ -198,10 +186,9 @@ if you specify the 10 value, the first ten keywords in the results array will be
 
 #### Defined in
 
-[main.ts:101783](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L101783)
+main.ts:104160
 
 ___
-
 
 ### order\_by
 
@@ -225,10 +212,9 @@ default rule:
 
 #### Defined in
 
-[main.ts:101778](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L101778)
+main.ts:104155
 
 ___
-
 
 ### tag
 
@@ -242,8 +228,4 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-[main.ts:101789](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L101789)
-
-[root](./../../ "root") / [docs](./../ "docs") / [interfaces](./ "interfaces")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:104166

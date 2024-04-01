@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / BacklinksHistoryLiveRequestInfo
+[Documentation](../README.md) / [Exports](../modules.md) / BacklinksHistoryLiveRequestInfo
 
 # Class: BacklinksHistoryLiveRequestInfo
 
@@ -51,7 +47,7 @@
 
 #### Defined in
 
-[main.ts:129932](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L129932)
+main.ts:135311
 
 ## Properties
 
@@ -73,10 +69,9 @@ example:
 
 #### Defined in
 
-[main.ts:129915](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L129915)
+main.ts:135294
 
 ___
-
 
 ### date\_to
 
@@ -95,10 +90,9 @@ example:
 
 #### Defined in
 
-[main.ts:129922](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L129922)
+main.ts:135301
 
 ___
-
 
 ### tag
 
@@ -116,10 +110,9 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-[main.ts:129928](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L129928)
+main.ts:135307
 
 ___
-
 
 ### target
 
@@ -135,7 +128,7 @@ a domain should be specified without https:// and www.
 
 #### Defined in
 
-[main.ts:129907](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L129907)
+main.ts:135286
 
 ## Methods
 
@@ -155,10 +148,9 @@ a domain should be specified without https:// and www.
 
 #### Defined in
 
-[main.ts:129941](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L129941)
+main.ts:135320
 
 ___
-
 
 ### toJSON
 
@@ -176,10 +168,9 @@ ___
 
 #### Defined in
 
-[main.ts:129961](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L129961)
+main.ts:135340
 
 ___
-
 
 ### fromJS
 
@@ -197,8 +188,4 @@ ___
 
 #### Defined in
 
-[main.ts:129954](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L129954)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:135333

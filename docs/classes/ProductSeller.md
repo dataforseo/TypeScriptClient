@@ -1,8 +1,4 @@
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
-
-[dataforseo-client](../README.md) / [Exports](../modules.md) / ProductSeller
+[Documentation](../README.md) / [Exports](../modules.md) / ProductSeller
 
 # Class: ProductSeller
 
@@ -54,7 +50,7 @@
 
 #### Defined in
 
-[main.ts:168999](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L168999)
+main.ts:174452
 
 ## Properties
 
@@ -71,10 +67,9 @@ product delivery information
 
 #### Defined in
 
-[main.ts:168995](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L168995)
+main.ts:174448
 
 ___
-
 
 ### price
 
@@ -89,10 +84,9 @@ product price details on the seller’s website
 
 #### Defined in
 
-[main.ts:168992](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L168992)
+main.ts:174445
 
 ___
-
 
 ### seller\_rating
 
@@ -106,10 +100,9 @@ rating of the seller
 
 #### Defined in
 
-[main.ts:168986](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L168986)
+main.ts:174439
 
 ___
-
 
 ### seller\_review\_count
 
@@ -124,10 +117,9 @@ number of reviews on the product seller’s account
 
 #### Defined in
 
-[main.ts:168989](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L168989)
+main.ts:174442
 
 ___
-
 
 ### title
 
@@ -141,10 +133,9 @@ product title
 
 #### Defined in
 
-[main.ts:168981](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L168981)
+main.ts:174434
 
 ___
-
 
 ### type
 
@@ -158,10 +149,9 @@ type of element
 
 #### Defined in
 
-[main.ts:168979](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L168979)
+main.ts:174432
 
 ___
-
 
 ### url
 
@@ -176,7 +166,7 @@ url of the page where the product is sold
 
 #### Defined in
 
-[main.ts:168984](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L168984)
+main.ts:174437
 
 ## Methods
 
@@ -196,10 +186,9 @@ url of the page where the product is sold
 
 #### Defined in
 
-[main.ts:169008](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L169008)
+main.ts:174461
 
 ___
-
 
 ### toJSON
 
@@ -217,10 +206,9 @@ ___
 
 #### Defined in
 
-[main.ts:169031](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L169031)
+main.ts:174484
 
 ___
-
 
 ### fromJS
 
@@ -238,8 +226,4 @@ ___
 
 #### Defined in
 
-[main.ts:169024](https://github.com/dataforseo/TypeScriptClient/blob/7ca1aa4/main.ts#L169024)
-
-[root](./../../ "root") / [docs](./../ "docs") / [classes](./ "classes")
-
-[[Back to README.md]](./../../README.md "[Back to README.md]")
+main.ts:174477
